@@ -431,6 +431,29 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .story.s2n.t2 .meta .mloc{display:none}
 .story.s2n.t3 .bnr{min-height:130px}.story.s2n.t3 .bkw .statl{display:none}
 .story.s2n.t4 .cfoot{display:none}
+/* card v2 (13 Nov): shorter picture, source+status under headline, key points, equal actions, one Next control */
+.s2n .bnr{min-height:118px;max-height:23%;padding:12px 18px}
+.s2n .bkw .stat{font-size:clamp(30px,8.5vw,40px)}
+.s2n .text{padding:12px 18px 6px;gap:7px}
+.s2n .sline{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-family:'Outfit',var(--body);font-size:12px;font-weight:700;color:var(--muted)}
+.s2n .sline .stime::before{content:'·';margin-right:8px}
+.s2n .sline .tl{display:inline-flex;align-items:center;height:21px;padding:0 8px;border-radius:11px;font-size:10.5px;font-weight:800}
+.s2n .kpts{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:4px}
+.s2n .kpts li{position:relative;padding-left:16px;color:var(--ink);font-size:14.5px;font-weight:600;line-height:1.5}
+.s2n .kpts li::before{content:'';position:absolute;left:2px;top:.62em;width:7px;height:7px;border-radius:2px;background:#F5A23A}
+.s2n .srow{margin-top:2px}
+.s2n .cacts{justify-content:space-around;gap:0;padding:4px 6px}
+.s2n .ca,.s2n .ca.wa{flex:1;width:auto;height:52px;margin:0;padding:0;flex-direction:column;gap:2px;border-radius:12px;background:transparent;color:var(--ink);font-family:'Outfit',var(--body);font-size:11px;font-weight:700}
+.s2n .ca span{white-space:nowrap}
+.s2n .ca.wa{color:#0E7A3E}
+.s2n .cfoot .pnext{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:5px;color:#F5A23A;font-weight:800;white-space:nowrap}
+.s2n .cfoot .pnext small{font-weight:600;color:rgba(255,253,245,.7);margin-right:4px;font-size:11px}
+.story.s2n.t1 .kpts li:nth-child(3){display:none}
+.story.s2n.t2 .kpts{display:none}
+.story.s2n.t3 .bnr{min-height:100px}
+.s2n .bmark{top:11px;bottom:auto!important;right:12px;padding:4px 10px 4px 4px;font-size:12.5px}.s2n .bmark img{width:19px;height:19px}
+.s2n .bchip{max-width:calc(100% - 150px)}
+.s2n.hasph .bmark{top:11px}
 /* header language pill */
 .lngb{display:inline-flex;align-items:center;gap:5px;height:36px;padding:0 11px;border-radius:18px;border:1px solid var(--line);background:var(--chipbg);color:var(--brand);font:inherit;font-size:13px;font-weight:800;cursor:pointer;white-space:nowrap}
 
@@ -627,7 +650,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
       <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
       <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
-      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 5.1 · Swipe2News</p>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 5.2 · Swipe2News</p>
     </div></div>
   </section>
   <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">
@@ -724,9 +747,9 @@ const PLACES = [
 const LANGS = [['te','తెలుగు','Telugu'],['en','English','ఇంగ్లీష్'],['hi','हिन्दी','హిందీ']];
 /* reader's language: stories carry en:{…} and hi:{…}; missing ones stay in Telugu */
 const LG = () => (prefs&&prefs.lang)||'te';
-const UI = {te:{read:'పూర్తి వార్త చదవండి →',hint:'తర్వాతి వార్త: ← ఎడమకు లేదా ↓ కిందకు స్వైప్ చేయండి',news:'వార్త',speech:'te-IN',src:'Source | మూలం',tag:'Know More. Scroll Less.',sub:'తక్కువ స్క్రోల్, ఎక్కువ సమాచారం',l1:'ఒక్క స్వైప్‌లో వార్తలు!',min:'ని. చదవడం',listen:'వినండి',swipe:'ఎడమకు స్వైప్ – తర్వాతి వార్త',ai:'AI సారాంశం',nxt:'తర్వాతి వార్త',full:'పూర్తి కథనం →',save:'సేవ్',img:'చిత్రం సేవ్',share:'షేర్',lname:'తెలుగు'},
-  en:{read:'Read full story →',hint:'Next story: swipe ← left or ↓ down',news:'News',speech:'en-IN',src:'Source',tag:'Know More. Scroll Less.',sub:'Short news you can check',l1:'News in one swipe!',min:'min read',listen:'Listen',swipe:'Swipe left for next',ai:'AI summary',nxt:'Next story',full:'Full story →',save:'Save',img:'Save image',share:'Share',lname:'English'},
-  hi:{read:'पूरी खबर पढ़ें →',hint:'अगली खबर: ← बाएँ या ↓ नीचे स्वाइप करें',news:'खबर',speech:'hi-IN',src:'स्रोत',tag:'कम स्क्रॉल, ज़्यादा जानकारी',sub:'तेज़ और छोटी खबरें, आपकी भाषा में',l1:'एक स्वाइप में खबरें!',min:'मिनट पढ़ें',listen:'सुनें',swipe:'अगली खबर के लिए बाएँ स्वाइप करें',ai:'AI सारांश',nxt:'अगली खबर',full:'पूरी खबर →',save:'सेव',img:'इमेज सेव',share:'शेयर',lname:'हिन्दी'}};
+const UI = {te:{read:'పూర్తి వార్త చదవండి →',hint:'తర్వాతి వార్త: ← ఎడమకు లేదా ↓ కిందకు స్వైప్ చేయండి',news:'వార్త',speech:'te-IN',src:'Source | మూలం',tag:'Know More. Scroll Less.',sub:'తక్కువ స్క్రోల్, ఎక్కువ సమాచారం',l1:'ఒక్క స్వైప్‌లో వార్తలు!',min:'ని. చదవడం',listen:'వినండి',swipe:'ఎడమకు స్వైప్ – తర్వాతి వార్త',swp:'స్వైప్',ai:'AI సారాంశం',nxt:'తర్వాతి వార్త',full:'పూర్తి కథనం →',save:'సేవ్',img:'చిత్రం సేవ్',share:'షేర్',lname:'తెలుగు'},
+  en:{read:'Read full story →',hint:'Next story: swipe ← left or ↓ down',news:'News',speech:'en-IN',src:'Source',tag:'Know More. Scroll Less.',sub:'Short news you can check',l1:'News in one swipe!',min:'min read',listen:'Listen',swipe:'Swipe left for next',swp:'swipe',ai:'AI summary',nxt:'Next story',full:'Full story →',save:'Save',img:'Save image',share:'Share',lname:'English'},
+  hi:{read:'पूरी खबर पढ़ें →',hint:'अगली खबर: ← बाएँ या ↓ नीचे स्वाइप करें',news:'खबर',speech:'hi-IN',src:'स्रोत',tag:'कम स्क्रॉल, ज़्यादा जानकारी',sub:'तेज़ और छोटी खबरें, आपकी भाषा में',l1:'एक स्वाइप में खबरें!',min:'मिनट पढ़ें',listen:'सुनें',swipe:'अगली खबर के लिए बाएँ स्वाइप करें',swp:'स्वाइप',ai:'AI सारांश',nxt:'अगली खबर',full:'पूरी खबर →',save:'सेव',img:'इमेज सेव',share:'शेयर',lname:'हिन्दी'}};
 const U = k => (UI[LG()]||UI.te)[k];
 /* job card words in the reader's language */
 const JU = {
@@ -973,6 +996,8 @@ function lblOf(s){ let k=s.lbl; if(LBL[k]) return k;
   if(/ఆరోపణ|allege|आरोप/.test(String(s.h||'')+String(s.p||''))) return 'claim'; return ''; }
 function trustHTML(s){ const k=lblOf(s), l=LG(); const t=k?`<span class="tl ${k}">${esc(LBL[k][l]||LBL[k].en)}</span>`:'';
   return `<div class="trust">${t}<span class="aic"><svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>${U('ai')}</span></div>`; }
+function statusChip(s){ const k=lblOf(s), l=LG(); return k?`<span class="tl ${k}">${esc(LBL[k][l]||LBL[k].en)}</span>`:''; }
+function aiChip(){ return `<span class="aic"><svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>${U('ai')}</span>`; }
 function trustChips(s){ const k=lblOf(s), l=LG(); return `<span class="aic"><svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>${U('ai')}</span>${k?`<span class="tl ${k}">${esc(LBL[k][l]||LBL[k].en)}</span>`:''}`; }
 function readMins(s){ const n=String(s.p||'').length+String(s.h||'').length; return Math.max(1,Math.round(n/600)); }
 function listenSecs(s){ const n=String(s.p||'').length+String(s.h||'').length; const sec=Math.max(15,Math.round(n/(LG()==='te'?9:14))); return Math.floor(sec/60)+':'+String(sec%60).padStart(2,'0'); }
@@ -985,25 +1010,25 @@ function cardHTML(s,i){
   return `<article class="story s2n${ph?' hasph':''}" aria-label="${U('news')} ${i+1}" style="--hl:#4A0E3F;--hl-ink:#4A0E3F">
   <div class="panel bnr">
     ${sceneSVG(s,'scene')}${/^videos\/[\w.-]+\.mp4$/.test(s.vid||'')?`<button class="vplay" type="button" data-vid="${esc(s.vid)}" aria-label="వీడియో చూడండి"><svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#fff"/></svg><span>వీడియో చూడండి</span></button>`:''}
-    <button class="pnext" type="button" aria-label="${U('nxt')}"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#FFFDF5" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
-    <div class="ptop"><span class="bchip">${s.brk?'🔴 BREAKING · ':''}${esc(s.cat||U('news'))}</span><span class="pdate">${esc(s.d||NEWS.date)}</span></div>
+    <div class="ptop"><span class="bchip">${s.brk?'🔴 BREAKING · ':''}${esc(s.cat||U('news'))}</span></div>
     <div class="bkw"><div class="stat">${esc(s.stat)}</div><div class="statl">${esc(s.statl)}</div></div>
     <span class="bmark"><img src="icon-192.png" alt="">swipe2news<i>.</i></span>
   </div>
   <div class="text"${s._lang?` lang="${s._lang}"`:''}>
     <div class="meta"><span><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>${readMins(s)} ${U('min')}</span>${where?`<span class="mloc"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>${esc(where)}</span>`:''}<button class="lis" type="button"><svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M7 4.5v15l12-7.5z" fill="currentColor"/></svg>${U('listen')} ${listenSecs(s)}</button></div>
     <h2>${esc(s.h)}</h2>
-    <p class="sum">${esc(s.p)}</p>${corrNote(s)}
-    <div class="srow">${trustChips(s)}<span class="src">${U('src')}: <b>${esc(s.src)}</b></span>${read}</div>
+    <div class="sline"><span class="src">${esc(s.src)}</span>${(s.d||s.t)?`<span class="stime">${esc([String(s.d||'').replace(/\.\d{4}$/,''),s.t].filter(Boolean).join(', '))}</span>`:''}${statusChip(s)}</div>
+    <p class="sum">${esc(s.p)}</p>${Array.isArray(s.pts)&&s.pts.length?`<ul class="kpts">${s.pts.slice(0,3).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${corrNote(s)}
+    <div class="srow">${aiChip()}${read}</div>
   </div>
   <div class="spacer" data-sp="${i}"></div>
   <div class="cacts">
-    <button class="ca sv" type="button" aria-label="${U('save')}"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></button>
-    <button class="ca dl" type="button" aria-label="${U('img')}"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg></button>
-    <button class="ca sh" type="button" aria-label="${U('share')}"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg></button>
-    <button class="ca wa" type="button"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/><path d="M9.2 7.8c-.4 0-.9.4-1 1-.2 1.4.6 3.2 2.1 4.7s3.3 2.3 4.7 2.1c.6-.1 1-.6 1-1v-.9l-1.9-.9-.9.9c-.9-.4-2.4-1.9-2.8-2.8l.9-.9-.9-1.9z" fill="#fff"/></svg>WhatsApp</button>
+    <button class="ca sv" type="button" aria-label="${U('save')}"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg><span>${U('save')}</span></button>
+    <button class="ca dl" type="button" aria-label="${U('img')}"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg><span>${U('img')}</span></button>
+    <button class="ca sh" type="button" aria-label="${U('share')}"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg><span>${U('share')}</span></button>
+    <button class="ca wa" type="button"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z" stroke="#0E7A3E" stroke-width="1.9" stroke-linejoin="round"/><path d="M9.2 7.8c-.4 0-.9.4-1 1-.2 1.4.6 3.2 2.1 4.7s3.3 2.3 4.7 2.1c.6-.1 1-.6 1-1v-.9l-1.9-.9-.9.9c-.9-.4-2.4-1.9-2.8-2.8l.9-.9-.9-1.9z" fill="#0E7A3E"/></svg><span>WhatsApp</span></button>
   </div>
-  <div class="cfoot"><span>Know More. Scroll Less.</span><b><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#F5A23A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>${U('swipe')}</b></div>
+  <div class="cfoot"><span>Know More. Scroll Less.</span><button class="pnext" type="button"><small>← ${U('swp')}</small>${U('nxt')}<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button></div>
 </article>`;
 }
 /* ---------- smart space banner ---------- */
