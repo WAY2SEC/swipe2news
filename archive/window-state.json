@@ -1,19 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-13T20:05:00+05:30",
+ "cutoff": "2026-11-13T20:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T11:05:00+05:30/2026-11-10T11:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 1,
-   "published": 0,
-   "held": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first. In-window: Telangana Today Shamirpet suicide (11:25, held – newsroom replied 'not allowed'). Checked: ETV Bharat TG (latest 08:19) and AP (latest 09:22) live blogs, Andhra Jyothy flash (latest 07:30), Oneindia AP cabinet preview (10:08), Siasat Sadar Mela (09:45), Hans India homepage (latest 10:31). Siasat/Telangana Today listings showed only relative times; Eenadu, Sakshi, NT, TOI, The Hindu, DC, IE, HT, NDTV, PTI, Reuters/AP/BBC, other-state and international-topic sources gave no timestamped in-window results."
-  },
   {
    "window": "2026-11-10T11:35:00+05:30/2026-11-10T12:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1295,6 +1283,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "20:05 run started late (21:18 IST). Lookback from 11:05. Read: TT Hyderabad Valves (19:52), TT Mancherial poaching-trap arrests (19:42), TT mule-account model arrest (19:11), DC Sridhar Babu investors (16:55; UNI 19:35 IST paywalled duplicate grouped). Skipped: Siasat Azharuddin CMRF cheques (18:13, minor), Hans mule racket (31 Oct, before lookback). After END, left for next run: TT NTR Stadium traffic diversions (20:08), TT Jeevandan organ donation Yacharam (20:12), Punjab Kesari/IANS Naidu fireside chat (20:52, no tz). Failed: Deccan Herald AP CII Rs 9.89L cr. Search mostly returned stale tag/listing pages; no AP, national or world items with verifiable times in window. Districts searched: Rangareddy, Vikarabad, Kurnool, Anantapur, Nizamabad, Kamareddy, Nirmal, Siddipet, Medak, Yadadri, Chittoor, Kadapa, Annamayya, Krishna, Eluru."
+  },
+  {
+   "window": "2026-11-13T20:05:00+05:30/2026-11-13T20:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 2,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 1,
+   "gaps": "20:35 run started late (21:31 IST). Lookback from 12:05. Read: TT NTR Stadium diversions (20:08), Business Standard Naidu data-centre water (19:37), Hans Naidu P4 fireside chat (12:07/12:49, duplicate of published Hans CII day-2 P4 story). Skipped: Siasat Revanth court appearance (12 Nov 21:43, before lookback). Review: UNI Revanth slams BJP/BRS on Bharat Summit (14:42, tz ambiguous, paywalled). After END, left for next run: Asianet/ANI Revanth backs Rahul at Bharat Summit (21:00). Failed: Democracy Now headlines. Not found: TT Jeevandan Yacharam. Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters/AP; no national or world items with verifiable times. Districts searched: Khammam, Suryapet, Bhadradri, Sircilla, Palnadu, Nandyal, Srikakulam, Visakhapatnam."
   }
  ],
  "seen": [
@@ -1602,6 +1603,36 @@
    "url": "https://www.thehansindia.com/news/cities/hyderabad/five-persons-arrested-in-mule-account-racket-1137666",
    "d": "2026-11-13",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/traffic-diversions-around-ntr-stadium-from-november-14-to-30",
+   "d": "2026-11-13",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.business-standard.com/industry/news/water-shortage-won-t-hinder-visakhapatnam-data-centre-growth-naidu-126111301579_1.html",
+   "d": "2026-11-13",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/naidu-talks-about-p4-elimination-of-poverty-etc-in-fireside-chat-1141715",
+   "d": "2026-11-13",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/cm-pitches-for-p4-model-aps-new-norm-for-inclusive-growth-1141724",
+   "d": "2026-11-13",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://siasat.com/cm-revanth-appears-before-court-in-covid-19-violation-case-3575804",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/politics-bharat-summit-telangana-cm/244544",
+   "d": "2026-11-13",
+   "w": "review"
   }
  ]
 }
