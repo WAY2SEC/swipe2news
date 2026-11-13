@@ -1,19 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-13T17:05:00+05:30",
+ "cutoff": "2026-11-13T17:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T09:05:00+05:30/2026-11-10T09:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 1,
-   "published": 0,
-   "held": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first. Only in-window item: Hans India 09:11 IST rain/cold report (duplicate of already-published NT low-pressure story). Checked: ETV Bharat TG/AP live blogs (latest 08:19/06:49), Andhra Jyothy flash (latest 07:30), Deccan Chronicle Telangana (latest 03:18), Sakshi Post and Siasat (no clock times), ABC markets (latest 05:54 IST), SBS Korea digest (08:32 IST). Telangana Today/NT searches returned only listing pages; Eenadu, TOI, The Hindu, IE, HT, NDTV, PTI, Reuters/AP/BBC, other-state and international-topic sources gave no timestamped in-window results; Modern Diplomacy fetch failed."
-  },
   {
    "window": "2026-11-10T09:35:00+05:30/2026-11-10T10:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1291,6 +1279,19 @@
    "skipped": 5,
    "review": 6,
    "gaps": "Previous cutoff 2026-11-12 23:35 was >12h before END, so START capped at END-12h (05:05); lookback from 2026-11-12 21:05. Read: TT 7 articles, Siasat PRT, Hans India CII x2, ETV Bharat AP live blog (07:18), newscura world timeline (relative times only). Failed: munsifdaily MeeSeva, inkl bulletin. Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; no national or world items with verifiable pub times. Districts searched: Adilabad, Nirmal, Mancherial, Vikarabad, Rangareddy, Yadadri, Jangaon, Karimnagar, Warangal, Khammam, Nalgonda, Kurnool, Nandyal, Anantapur, Nellore, Prakasam, Bapatla, Chittoor, Annamayya, Kadapa, Krishna, Srikakulam, Vizianagaram, Kakinada, Eluru."
+  },
+  {
+   "window": "2026-11-13T17:05:00+05:30/2026-11-13T17:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 13,
+   "published": 5,
+   "late": 5,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 7,
+   "review": 0,
+   "gaps": "Lookback from 09:05. Search mostly returned stale tag/listing pages. Read: DC + NewsMeter CII final day (13:03/16:16, grouped), Siasat Tharoor (12:48), Siasat TTD donation (15:41), TT IRF ban (16:38), ThePrint Assam crash (16:46) and Yamuna row (16:52), ETV Bharat TG live blog (snapshot to 10:47). Failed: Deccan Herald Rahul debate. Skipped: Assam Kaziranga bus crash (other state, not major enough), Delhi Yamuna fish row, Delhi AQI severe, KTR remarks on Rahul visit (political reaction), Borabanda missing woman (sensitive/minor), ACB Nagarkurnool & betting-app items (before lookback 06:57/06:55). Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, Reuters/AP; no world items with verifiable times. Districts searched: Nalgonda, Suryapet, Nizamabad, Kamareddy, Siddipet, Medak, Khammam, Bhadradri, Guntur, Kurnool, Tirupati, Visakhapatnam."
   }
  ],
  "seen": [
@@ -1406,6 +1407,66 @@
   },
   {
    "url": "https://www.etvbharat.com/te/state/live-blog--13th-november-2026-news-today-ap-live-news-updates-telugu-breaking-news-aps26111300468#ulb-polls",
+   "d": "2026-11-13",
+   "w": "skip"
+  },
+  {
+   "url": "https://newsmeter.in/top-stories/among-the-major-agreements-jsw-steels-proposed-an-investment-of-rs-15000-crore-in-the-manufacturing-sector-with-an-employment-potential-of-2500-jobs-779242",
+   "d": "2026-11-13",
+   "w": "p"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cii-summit-11-mous-worth-rs140-lakh-crore-signed-to-generate-10472-jobs-2004037",
+   "d": "2026-11-13",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.siasat.com/115-foreign-speakers-barred-from-bharat-summit-in-hyderabad-tharoor-3576248/",
+   "d": "2026-11-13",
+   "w": "p"
+  },
+  {
+   "url": "https://www.siasat.com/hyderabad-devotee-donates-rs-10-crore-to-tirumala-trust-3576518/",
+   "d": "2026-11-13",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/zakir-naiks-irf-propagated-terrorism-separatism-says-amit-shah",
+   "d": "2026-11-13",
+   "w": "p"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--13th-november-2026-latest-top-news-information-across-telangana-tgs26111300406#kukatpally-truck-park",
+   "d": "2026-11-13",
+   "w": "p"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--13th-november-2026-latest-top-news-information-across-telangana-tgs26111300406#ktr-rahul",
+   "d": "2026-11-13",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--13th-november-2026-latest-top-news-information-across-telangana-tgs26111300406#delhi-aqi",
+   "d": "2026-11-13",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--13th-november-2026-latest-top-news-information-across-telangana-tgs26111300406#borabanda-missing",
+   "d": "2026-11-13",
+   "w": "skip"
+  },
+  {
+   "url": "https://theprint.in/india/at-least-7-people-die-in-bus-truck-collision-in-assams-kaziranga/3097958/",
+   "d": "2026-11-13",
+   "w": "skip"
+  },
+  {
+   "url": "https://theprint.in/india/yamuna-pollution-row-delhi-minister-accuses-aap-of-dumping-dead-fish-in-river-to-defame-govt/3097983/",
+   "d": "2026-11-13",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.deccanherald.com/india/will-end-modis-political-career-rahul-gandhi-calls-for-open-debate-with-prime-minister-4217212",
    "d": "2026-11-13",
    "w": "skip"
   }
