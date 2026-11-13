@@ -1,19 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-13T23:05:00+05:30",
+ "cutoff": "2026-11-13T23:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T13:35:00+05:30/2026-11-10T14:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 0,
-   "published": 0,
-   "held": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agent. No in-window items. Checked: V6 Velugu Revanth rice-stock (06:57), Telugupost KTR BRS meet (11:33) and rain alert (11:08), Andhra Jyothy AP cabinet preview (09:42), Visalaandhra cabinet under way (12:49), ETV Bharat TG/AP live blogs (snapshots to 08:19/09:22). Munsif Daily Sadar traffic page and The Neuron AI digest fetch failed. Today's AP cabinet outcome not yet found with a timestamp. Telangana Today/DC/Hans/Business Standard searches gave only listing pages; Eenadu, Sakshi, Namasthe Telangana, TOI, The Hindu, IE, HT, NDTV, PTI, Reuters/BBC, other-state and international-topic searches gave no timestamped in-window results (gold/markets already covered earlier today)."
-  },
   {
    "window": "2026-11-10T14:05:00+05:30/2026-11-10T14:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1300,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "23:05 run started on time (23:06 IST). Lookback from 14:35. Read: Gulte CII Rs 9.98 lakh cr (19:00), ANI Revanth vs KCR/KTR water crisis (20:33; Asianet copy 21:00), ANI YSRCP drought farmers (22:20), ANI Jagan Chittoor fee dues (18:15), GreatAndhra Naidu two-children (15:04). Duplicate: m9 Naidu investor confidence (16:30, CII day-2 already published). Skipped: ANI 'Bharat Summit on Dec 13-14' (21:40, dates internally inconsistent), ANI Peethala Sujatha CII praise (22:54, party statement, low news value). Nhan Dan Nov 14 brief is from 2025. Search results thin/stale; not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; no world items with verifiable times. Districts searched: Suryapet, Hanumakonda, Mahabubabad, Bhadradri, Sircilla, Narayanpet, East Godavari, Palnadu, Bapatla, Nandyal, Krishna/NTR."
+  },
+  {
+   "window": "2026-11-13T23:05:00+05:30/2026-11-13T23:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 0,
+   "published": 0,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "23:35 run started on time (23:36 IST). Lookback from 15:05. Nothing eligible: DC/PTI 'Rahul likely to address gig workers' is from 10 Nov 17:42; AIR Visakhapatnam 20:30 bulletin PDF is from 4 Nov. Search results thin and stale (mostly old Telangana Today tag/archive pages); not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, Siasat, ANI, PTI, Reuters; no AP, national or world items with verifiable times in window. Districts searched: Adilabad, Asifabad, Bhupalpally, Sangareddy, Gadwal, Wanaparthy, Jangaon, Medchal, Kurnool, Vizianagaram, Anakapalli, Konaseema, Anantapur, West Godavari, Annamayya, Sri Sathya Sai, Manyam."
   }
  ],
  "seen": [
@@ -1875,6 +1876,11 @@
   },
   {
    "url": "https://en.nhandan.vn/world-news-in-brief-november-14-post155426.html",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/vish-text2030.pdf",
    "d": "2026-11-13",
    "w": "skipped"
   }
