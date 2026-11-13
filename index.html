@@ -64,7 +64,7 @@ setTimeout(box,12000);setTimeout(box,25000);})();
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Noto+Sans+Telugu:wght@400;600;800&display=swap">
 <style>
 @font-face{font-family:'Archivo Black';src:url(/tools/fonts/Outfit-ExtraBold.ttf) format('truetype');font-display:swap}
 /* ===== tokens: Editorial White (light) / Midnight Pro (dark) ===== */
@@ -382,6 +382,73 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 :root[data-theme="dark"] .nav .nb[aria-current="true"],:root[data-theme="dark"] .place{color:#F5A23A}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .nav .nb[aria-current="true"],:root:not([data-theme="light"]) .place{color:#F5A23A}}
 .join-box img.jlogo{height:40px;width:auto}
+
+/* ===== Swipe2News v5.1 card (matches the design canvas) ===== */
+.dockwrap{display:none!important}
+.story.s2n{background:#FFFDF5;border-radius:22px}
+:root[data-theme="dark"] .story.s2n{background:var(--card)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .story.s2n{background:var(--card)}}
+.s2n .bnr{background:radial-gradient(120% 90% at 85% 0%,#6E2361 0%,#4A0E3F 55%,#3A0A31 100%);color:#FFFDF5;max-height:30%;min-height:170px;padding:14px 56px 14px 18px}
+.s2n .bnr .scene{opacity:.22}
+.s2n.hasph .bnr .scene{opacity:1}
+.s2n .bnr .ptop{position:relative;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.s2n .bchip{display:inline-block;max-width:70%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border:1.5px solid rgba(255,253,245,.85);border-radius:14px;padding:3px 11px;font-size:12px;font-weight:800;color:#FFFDF5}
+.s2n .pdate{font-family:'Outfit',var(--body);font-size:12.5px;font-weight:700;color:#FFFDF5;white-space:nowrap}
+.s2n .bkw{position:relative;margin-top:auto}
+.s2n .bkw .stat{color:#F5A23A;font-size:clamp(34px,10vw,48px);line-height:1.08;text-shadow:0 2px 14px rgba(0,0,0,.25)}
+.s2n .bkw .statl{color:#FFFDF5;font-size:14.5px;font-weight:700;line-height:1.4;margin-top:4px;max-width:85%}
+.s2n.hasph .bnr{background:#2E0827}
+.s2n.hasph .bkw{background:linear-gradient(transparent,rgba(20,4,17,.75));margin:auto -18px -14px;padding:24px 18px 12px}
+.s2n.hasph .bkw .stat{font-size:26px}
+.s2n .bmark{position:absolute;z-index:2;right:12px;bottom:10px;display:flex;align-items:center;gap:5px;font-family:'Outfit',sans-serif;font-size:12px;font-weight:800;color:#FFFDF5}
+.s2n .bmark img{width:18px;height:18px;border-radius:5px;box-shadow:0 0 0 1.5px #FFFDF5}
+.s2n .bmark i{font-style:normal;color:#F5A23A;margin-left:-4px}
+.s2n .text{padding:12px 18px 6px;gap:9px}
+.s2n .text h2{color:var(--ink);font-size:20px;line-height:1.4;margin:0}
+.s2n .text .sum{color:var(--ink);opacity:.86;font-size:15.5px;line-height:1.65}
+.s2n .meta .mloc{max-width:40%;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.s2n .srow{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:12px}
+.s2n .srow .aic,.s2n .srow .tl{display:inline-flex;align-items:center;gap:4px;height:22px;padding:0 8px;border-radius:11px;font-size:10.5px;font-weight:800}
+.s2n .srow .aic{background:#2E0827;color:#FFFDF5}
+.s2n .srow .src{color:var(--muted);font-weight:600;font-size:12px}
+.s2n .srow .read{margin-left:auto;font-weight:800;font-size:12.5px;color:var(--brand);text-decoration:none}
+:root[data-theme="dark"] .s2n .srow .read{color:#F5A23A}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .s2n .srow .read{color:#F5A23A}}
+.s2n .cacts{display:flex;align-items:center;gap:2px;padding:6px 10px;border-top:1px solid var(--line);flex-shrink:0}
+.s2n .ca{width:44px;height:44px;border:none;background:transparent;color:var(--ink);display:flex;align-items:center;justify-content:center;border-radius:22px;cursor:pointer}
+.s2n .ca.on{color:#4A0E3F}.s2n .ca.on svg{fill:currentColor}
+.s2n .ca.wa{margin-left:auto;width:auto;padding:0 16px;background:#0E7A3E;color:#fff;gap:8px;font:inherit;font-family:'Outfit',sans-serif;font-size:15px;font-weight:700}
+.s2n .cfoot{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:34px;padding:0 18px;background:#2E0827;color:#FFFDF5;font-family:'Outfit',var(--body);font-size:12px;font-weight:600;flex-shrink:0}
+.s2n .cfoot b{display:inline-flex;align-items:center;gap:5px;color:#F5A23A;font-weight:800;white-space:nowrap}
+.story.s2n.t2 .meta .mloc{display:none}
+.story.s2n.t3 .bnr{min-height:130px}.story.s2n.t3 .bkw .statl{display:none}
+.story.s2n.t4 .cfoot{display:none}
+/* header language pill */
+.lngb{display:inline-flex;align-items:center;gap:5px;height:36px;padding:0 11px;border-radius:18px;border:1px solid var(--line);background:var(--chipbg);color:var(--brand);font:inherit;font-size:13px;font-weight:800;cursor:pointer;white-space:nowrap}
+/* first-open language screen */
+.lsc{position:fixed;inset:0;z-index:95;background:#FFFDF5;color:#202124;display:flex;flex-direction:column;padding:calc(env(safe-area-inset-top,0px) + 14px) 20px calc(env(safe-area-inset-bottom,0px) + 20px);font-family:'Outfit','Noto Sans Telugu',sans-serif;overflow:auto}
+.lsc[hidden]{display:none}
+.lsc .lhd{display:flex;align-items:center;gap:10px;height:48px}
+.lsc .lhd img{height:30px;width:auto}
+.lsc h1{margin:18px 0 0;font-size:28px;line-height:1.2;font-weight:800;color:#202124}
+.lsc .lsub{margin:6px 0 0;font-size:15px;color:#5A5560}
+.lsc .lgrid{margin-top:20px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.lsc .lt{position:relative;display:flex;align-items:center;gap:12px;height:72px;padding:0 14px;border-radius:16px;border:1.5px solid #E3D7DF;background:#fff;color:#202124;font:inherit;text-align:left;cursor:pointer}
+.lsc .lt .lg{flex:none;width:44px;height:44px;border-radius:12px;background:#F6EEF3;color:#4A0E3F;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:700;line-height:1}
+.lsc .lt .ln{font-size:15px;font-weight:700}
+.lsc .lt .soon{position:absolute;top:6px;right:8px;font-size:9.5px;font-weight:800;letter-spacing:.04em;color:#8A4B00;background:#FDEBD3;border-radius:6px;padding:1px 5px}
+.lsc .lt.on{background:#4A0E3F;border-color:#4A0E3F;color:#FFFDF5}
+.lsc .lt.on .lg{background:#F5A23A;color:#2E0827}
+.lsc .lgo{margin-top:auto;position:sticky;bottom:0;height:56px;border:none;border-radius:28px;background:#4A0E3F;color:#FFFDF5;font:inherit;font-size:17px;font-weight:800;cursor:pointer;box-shadow:0 8px 20px rgba(74,14,63,.25)}
+.lsc .lsp{height:20px;flex:none}
+.fsplay{display:none!important}
+#bellBtn[hidden]{display:none}
+.shell>header .lngb{flex-shrink:0}
+.shell>header .place{min-width:0;flex-shrink:1;overflow:hidden}
+.s2n .meta{flex-wrap:nowrap;min-width:0}
+.s2n .meta>span{white-space:nowrap;flex-shrink:0}
+.s2n .meta .mloc{flex-shrink:1;min-width:0}
+.s2n .meta .lis{white-space:nowrap;flex-shrink:0}
 </style>
 </head>
 <body>
@@ -389,7 +456,7 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
   <header>
     <a href="/?cards=1" id="homeLogo" aria-label="Swipe2News హోమ్ – మొదటి వార్త"><img class="logo" src="logo.png" alt="Swipe2News"></a>
     <button class="place" id="placeBtn" type="button" aria-label="ప్రాంతం మార్చండి"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span id="placeName">తెలంగాణ</span></button>
-    <button class="lngb" id="lngBtn" type="button" aria-label="భాష మార్చండి · Change language">తె</button>
+    <button class="lngb" id="lngBtn" type="button" aria-label="భాష మార్చండి · Change language"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span id="lngName">తెలుగు</span></button>
     <button class="icon bell" id="bellBtn" type="button" aria-label="వార్తల అలర్ట్‌లు" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg></button>
     <button class="icon" id="setBtn" type="button" aria-label="సెట్టింగ్స్"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg></button>
   </header>
@@ -516,8 +583,16 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
       <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
       <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
-      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 5.0 · Swipe2News</p>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 5.1 · Swipe2News</p>
     </div></div>
+  </section>
+  <section class="lsc" id="langScr" hidden role="dialog" aria-label="Choose your language · భాష ఎంచుకోండి">
+    <div class="lhd"><img src="logo.png" alt="Swipe2News"></div>
+    <h1>Choose your language</h1>
+    <p class="lsub">Short news in your language. Change it anytime.</p>
+    <div class="lgrid" id="langGrid" role="radiogroup" aria-label="Language"></div>
+    <div class="lsp"></div>
+    <button class="lgo" id="langGo" type="button">Continue</button>
   </section>
   <div class="tut" id="tut" hidden role="dialog" aria-label="ఎలా వాడాలి · How to swipe">
     <div class="tpeek" aria-hidden="true"></div>
@@ -583,9 +658,9 @@ const PLACES = [
 const LANGS = [['te','తెలుగు','Telugu'],['en','English','ఇంగ్లీష్'],['hi','हिन्दी','హిందీ']];
 /* reader's language: stories carry en:{…} and hi:{…}; missing ones stay in Telugu */
 const LG = () => (prefs&&prefs.lang)||'te';
-const UI = {te:{read:'పూర్తి వార్త చదవండి →',hint:'తర్వాతి వార్త: ← ఎడమకు లేదా ↓ కిందకు స్వైప్ చేయండి',news:'వార్త',speech:'te-IN',src:'Source | మూలం',tag:'Know More. Scroll Less.',sub:'తక్కువ స్క్రోల్, ఎక్కువ సమాచారం',l1:'ఒక్క స్వైప్‌లో వార్తలు!',min:'ని. చదవడం',listen:'వినండి',swipe:'ఎడమకు స్వైప్ – తర్వాతి వార్త',ai:'AI సారాంశం',nxt:'తర్వాతి వార్త'},
-  en:{read:'Read full story →',hint:'Next story: swipe ← left or ↓ down',news:'News',speech:'en-IN',src:'Source',tag:'Know More. Scroll Less.',sub:'Short news you can check',l1:'News in one swipe!',min:'min read',listen:'Listen',swipe:'Swipe left for next',ai:'AI summary',nxt:'Next story'},
-  hi:{read:'पूरी खबर पढ़ें →',hint:'अगली खबर: ← बाएँ या ↓ नीचे स्वाइप करें',news:'खबर',speech:'hi-IN',src:'स्रोत',tag:'कम स्क्रॉल, ज़्यादा जानकारी',sub:'तेज़ और छोटी खबरें, आपकी भाषा में',l1:'एक स्वाइप में खबरें!',min:'मिनट पढ़ें',listen:'सुनें',swipe:'अगली खबर के लिए बाएँ स्वाइप करें',ai:'AI सारांश',nxt:'अगली खबर'}};
+const UI = {te:{read:'పూర్తి వార్త చదవండి →',hint:'తర్వాతి వార్త: ← ఎడమకు లేదా ↓ కిందకు స్వైప్ చేయండి',news:'వార్త',speech:'te-IN',src:'Source | మూలం',tag:'Know More. Scroll Less.',sub:'తక్కువ స్క్రోల్, ఎక్కువ సమాచారం',l1:'ఒక్క స్వైప్‌లో వార్తలు!',min:'ని. చదవడం',listen:'వినండి',swipe:'ఎడమకు స్వైప్ – తర్వాతి వార్త',ai:'AI సారాంశం',nxt:'తర్వాతి వార్త',full:'పూర్తి కథనం →',save:'సేవ్',img:'చిత్రం సేవ్',share:'షేర్',lname:'తెలుగు'},
+  en:{read:'Read full story →',hint:'Next story: swipe ← left or ↓ down',news:'News',speech:'en-IN',src:'Source',tag:'Know More. Scroll Less.',sub:'Short news you can check',l1:'News in one swipe!',min:'min read',listen:'Listen',swipe:'Swipe left for next',ai:'AI summary',nxt:'Next story',full:'Full story →',save:'Save',img:'Save image',share:'Share',lname:'English'},
+  hi:{read:'पूरी खबर पढ़ें →',hint:'अगली खबर: ← बाएँ या ↓ नीचे स्वाइप करें',news:'खबर',speech:'hi-IN',src:'स्रोत',tag:'कम स्क्रॉल, ज़्यादा जानकारी',sub:'तेज़ और छोटी खबरें, आपकी भाषा में',l1:'एक स्वाइप में खबरें!',min:'मिनट पढ़ें',listen:'सुनें',swipe:'अगली खबर के लिए बाएँ स्वाइप करें',ai:'AI सारांश',nxt:'अगली खबर',full:'पूरी खबर →',save:'सेव',img:'इमेज सेव',share:'शेयर',lname:'हिन्दी'}};
 const U = k => (UI[LG()]||UI.te)[k];
 /* job card words in the reader's language */
 const JU = {
@@ -832,39 +907,42 @@ function lblOf(s){ let k=s.lbl; if(LBL[k]) return k;
   if(/ఆరోపణ|allege|आरोप/.test(String(s.h||'')+String(s.p||''))) return 'claim'; return ''; }
 function trustHTML(s){ const k=lblOf(s), l=LG(); const t=k?`<span class="tl ${k}">${esc(LBL[k][l]||LBL[k].en)}</span>`:'';
   return `<div class="trust">${t}<span class="aic"><svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>${U('ai')}</span></div>`; }
+function trustChips(s){ const k=lblOf(s), l=LG(); return `<span class="aic"><svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>${U('ai')}</span>${k?`<span class="tl ${k}">${esc(LBL[k][l]||LBL[k].en)}</span>`:''}`; }
 function readMins(s){ const n=String(s.p||'').length+String(s.h||'').length; return Math.max(1,Math.round(n/600)); }
 function listenSecs(s){ const n=String(s.p||'').length+String(s.h||'').length; const sec=Math.max(15,Math.round(n/(LG()==='te'?9:14))); return Math.floor(sec/60)+':'+String(sec%60).padStart(2,'0'); }
 function cardHTML(s,i){
   if(s.kind==='promo') return promoHTML(s,i);
   if(s.kind==='job') return jobHTML(s,i);
-  const col = s.col||'--c-gov';
   const where=[s.loc, s.place&&s.place!=='TS'&&s.place!=='IN' ? placeName(s.place) : (s.st&&s.st!=='TG'&&s.st!=='IN' ? placeLabel('st-'+s.st) : '')].filter(Boolean).join(', ');
   const ph = !!storyPhoto(s);
-  const pl = where ? `<span class="chip pl">📍 ${esc(where)}</span>` : '';
-  const kf = '';
-  return `<article class="story" aria-label="వార్త ${i+1}" style="--hl:var(${col});--hl-ink:var(${col})">
-  <div class="panel">
+  const read = /^https?:\/\//.test(s.url||'') ? `<a class="read" href="${esc(s.url)}" target="_blank" rel="noopener">${U('full')}</a>` : '';
+  return `<article class="story s2n${ph?' hasph':''}" aria-label="${U('news')} ${i+1}" style="--hl:#4A0E3F;--hl-ink:#4A0E3F">
+  <div class="panel bnr">
     ${sceneSVG(s,'scene')}${/^videos\/[\w.-]+\.mp4$/.test(s.vid||'')?`<button class="vplay" type="button" data-vid="${esc(s.vid)}" aria-label="వీడియో చూడండి"><svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#fff"/></svg><span>వీడియో చూడండి</span></button>`:''}
     <button class="pnext" type="button" aria-label="${U('nxt')}"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#FFFDF5" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
-    <div class="ptop"><div class="chips">${s.brk?'<span class="chip brk">🔴 BREAKING</span>':''}<span class="chip">${esc(s.cat||U('news'))}</span>${pl}</div><span class="pdate">${esc(s.d||NEWS.date)}${s.t?' · '+esc(s.t):''}</span></div>
-    <div><div class="stat">${esc(s.stat)}</div><div class="statl">${esc(s.statl)}</div></div>
+    <div class="ptop"><span class="bchip">${s.brk?'🔴 BREAKING · ':''}${esc(s.cat||U('news'))}</span><span class="pdate">${esc(s.d||NEWS.date)}</span></div>
+    <div class="bkw"><div class="stat">${esc(s.stat)}</div><div class="statl">${esc(s.statl)}</div></div>
+    <span class="bmark"><img src="icon-192.png" alt="">swipe2news<i>.</i></span>
   </div>
-  <div class="strip sm"><div class="lgw"><img src="logo-light.png" alt="Swipe2News"><span class="rt">${U('sub')}</span></div><span class="tg">${U('tag')}</span></div>
   <div class="text"${s._lang?` lang="${s._lang}"`:''}>
-    ${kf}<div class="meta"><span><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>${readMins(s)} ${U('min')}</span><button class="lis" type="button"><svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M7 4.5v15l12-7.5z" fill="currentColor"/></svg>${U('listen')} ${listenSecs(s)}</button></div>
+    <div class="meta"><span><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>${readMins(s)} ${U('min')}</span>${where?`<span class="mloc"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>${esc(where)}</span>`:''}<button class="lis" type="button"><svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M7 4.5v15l12-7.5z" fill="currentColor"/></svg>${U('listen')} ${listenSecs(s)}</button></div>
     <h2>${esc(s.h)}</h2>
     <p class="sum">${esc(s.p)}</p>${corrNote(s)}
-    ${trustHTML(s)}
-    <div class="foot"><span class="src">${U('src')}: <b>${esc(s.src)}</b></span>${/^https?:\/\//.test(s.url||'')?`<a class="read" href="${esc(s.url)}" target="_blank" rel="noopener">${U('read')}</a>`:''}</div>
-    ${i===0?`<div class="hint">${U('hint')}</div>`:''}
+    <div class="srow">${trustChips(s)}<span class="src">${U('src')}: <b>${esc(s.src)}</b></span>${read}</div>
   </div>
   <div class="spacer" data-sp="${i}"></div>
-  <div class="qrbar cf"><span>Know More. Scroll Less.</span><b><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#F5A23A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>${U('swipe')}</b></div>
+  <div class="cacts">
+    <button class="ca sv" type="button" aria-label="${U('save')}"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></button>
+    <button class="ca dl" type="button" aria-label="${U('img')}"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg></button>
+    <button class="ca sh" type="button" aria-label="${U('share')}"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg></button>
+    <button class="ca wa" type="button"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/><path d="M9.2 7.8c-.4 0-.9.4-1 1-.2 1.4.6 3.2 2.1 4.7s3.3 2.3 4.7 2.1c.6-.1 1-.6 1-1v-.9l-1.9-.9-.9.9c-.9-.4-2.4-1.9-2.8-2.8l.9-.9-.9-1.9z" fill="#fff"/></svg>WhatsApp</button>
+  </div>
+  <div class="cfoot"><span>Know More. Scroll Less.</span><b><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="#F5A23A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>${U('swipe')}</b></div>
 </article>`;
 }
 /* ---------- smart space banner ---------- */
 const SPACE_TX={
- ads:{ic:'📢',g:'linear-gradient(135deg,#2E0827 0%,#2B3F8C 100%)',ac:'#F5A23A',
+ ads:{ic:'📢',g:'linear-gradient(135deg,#2E0827 0%,#6E2361 100%)',ac:'#F5A23A',
   te:['మీ వ్యాపారానికి ఇక్కడ ప్రకటన','📲 70326 56422 · మీ జిల్లా పాఠకులకే','WhatsApp చేయండి'],
   en:['Advertise your business here','📲 70326 56422 · your district only','WhatsApp us'],
   hi:['अपने व्यापार का विज्ञापन यहाँ दें','📲 70326 56422 · सिर्फ़ आपके ज़िले में','WhatsApp करें'],
@@ -1032,7 +1110,7 @@ feedEl.addEventListener('pointercancel',e=>{ if(drag&&e.pointerId===drag.id){dra
 { const b=$('sndToggle'); const draw=()=>{ b.setAttribute('aria-pressed',String(SND)); b.textContent=SND?'ఆన్':'ఆఫ్'; }; draw();
   b.onclick=()=>{ SND=!SND; try{localStorage.setItem('w2s.turnSound',SND?'1':'0')}catch(e){} draw(); if(SND){ acx(); pop(false); } }; }
 /* ---------- reading mode (auto full card) ---------- */
-let FSON=(()=>{try{return localStorage.getItem('w2s.autoFull')!=='0'}catch(e){return true}})(), fsT=0;
+let FSON=(()=>{try{return localStorage.getItem('w2s.autoFull')==='1'}catch(e){return false}})(), fsT=0;
 function fsCan(){ return FSON && cards.length>0 && $('sheet').hidden && (!$('joinSheet')||$('joinSheet').hidden); }
 function fsRefit(){ setTimeout(()=>{ if(cards[cur]) fit(cards[cur]); fsPlace(); },300); setTimeout(()=>{ if(cards[cur]) spaceFill(cards[cur]); },900); }
 function fsPlace(){ const f=$('fsPlay'), c=cards[cur]; if(!f) return; const pn=c&&!c.hidden&&c.querySelector('.panel');
@@ -1109,61 +1187,60 @@ function rrect(ctx,x,y,w,h,r){ctx.beginPath();ctx.moveTo(x+r,y);ctx.arcTo(x+w,y,
 async function cardImage(s){
   if(s&&s.kind==='promo'){ try{ const r=await fetch(s.img||CONFIG.PROMO.img); const b=await r.blob(); try{ b.dataURL=await new Promise(ok=>{const f=new FileReader(); f.onload=()=>ok(f.result); f.readAsDataURL(b);}); }catch(e){} return b; }catch(e){ return null; } }
   try{ await document.fonts.ready; }catch(e){}
-  const W=1080, P=64, col=COLS[s.col]||COLS['--c-gov'];
-  const TE="'Noto Sans Telugu','Nirmala UI','Gautami','Noto Sans Devanagari','Kohinoor Devanagari',sans-serif", DI="'Archivo Black','Arial Black',Impact,sans-serif";
+  const W=1080, P=56, IN=48, PLUM='#4A0E3F', DEEP='#2E0827', AP='#F5A23A', CR='#FFFDF5';
+  const TE="'Noto Sans Telugu','Nirmala UI','Gautami','Noto Sans Devanagari','Kohinoor Devanagari',sans-serif", DI="'Archivo Black','Outfit','Arial Black',sans-serif";
   const c=document.createElement('canvas'), ctx=c.getContext('2d');
-  // measure the text block first to know the card height
-  ctx.font=`800 52px ${TE}`; const hl=wrap(ctx,s.h,W-2*P);
-  ctx.font=`400 36px ${TE}`; const pl=wrap(ctx,s.p,W-2*P);
-  const PANEL=600, STRIP=124, QR=190;
-  const KF=0; // photo story: key fact goes in a pill above the headline
-  const textH=48+KF+hl.length*72+24+pl.length*58+40+70+40;
-  const H=PANEL+STRIP+textH+QR; c.width=W; c.height=H;
-  ctx.fillStyle='#FFFDF5'; ctx.fillRect(0,0,W,H);
-  // panel
-  ctx.fillStyle=col; ctx.fillRect(0,0,W,PANEL);
-  const hasPh=await drawStoryPhoto(ctx,s,0,0,W,PANEL);
+  const CW=W-2*P, TW=CW-2*IN;
+  ctx.font=`800 54px ${TE}`; const hl=wrap(ctx,s.h,TW);
+  ctx.font=`400 34px ${TE}`; const pl=wrap(ctx,s.p,TW);
+  const TOP=80, GAP=32, PH=440, FOOT=60;
+  const textH=IN+34+22+hl.length*70+18+pl.length*54+30+44+IN;
+  const cardH=PH+textH;
+  const H=Math.max(1350, P+TOP+GAP+cardH+GAP+FOOT+P); c.width=W; c.height=H;
+  // background
+  const g=ctx.createRadialGradient(W*0.85,0,40,W*0.85,0,W*1.3); g.addColorStop(0,'#6E2361'); g.addColorStop(0.55,PLUM); g.addColorStop(1,'#3A0A31');
+  ctx.fillStyle=g; ctx.fillRect(0,0,W,H);
+  // header: icon + wordmark, place pill
+  try{ const ic=await loadImg('icon-rounded.png'); ctx.fillStyle=CR; rrect(ctx,P-4,P+4,80,80,24); ctx.fill(); ctx.drawImage(ic,P,P+8,72,72); }catch(e){}
+  try{ const lg=await loadImg('logo-light.png'); const lh=60, lw=lg.width*lh/lg.height; ctx.drawImage(lg,P+92,P+14,lw,lh); }catch(e){}
+  const where=s.kind==='job'?(s.org||''):[s.loc, s.place&&!['TS','IN'].includes(s.place)?placeName(s.place):''].filter(Boolean).join(', ')||(s.st==='AP'?'ఆంధ్రప్రదేశ్':s.st==='WORLD'?'World':s.st&&s.st!=='TG'?'India':'తెలంగాణ');
+  ctx.font=`600 26px ${TE}`; const pw=Math.min(380,ctx.measureText(where).width+70);
+  ctx.strokeStyle='#9C6E92'; ctx.lineWidth=2; rrect(ctx,W-P-pw,P+18,pw,54,27); ctx.stroke();
+  ctx.fillStyle=AP; ctx.beginPath(); ctx.arc(W-P-pw+28,P+45,7,0,7); ctx.fill();
+  ctx.fillStyle=CR; ctx.textBaseline='middle'; ctx.fillText(where,W-P-pw+46,P+46,pw-60); ctx.textBaseline='alphabetic';
+  // cream card
+  const cx=P, cy=P+TOP+GAP; ctx.save(); rrect(ctx,cx,cy,CW,cardH,36); ctx.clip();
+  ctx.fillStyle=CR; ctx.fillRect(cx,cy,CW,cardH);
+  // picture area: photo, or headline banner with the big keyword
+  ctx.fillStyle='#5C1A50'; ctx.fillRect(cx,cy,CW,PH);
+  const hasPh=await drawStoryPhoto(ctx,s,cx,cy,CW,PH);
   if(!hasPh){
-  try{ const art=await loadImg('data:image/svg+xml;charset=utf-8,'+encodeURIComponent(sceneSVG(s,'cv')));
-       ctx.globalAlpha=.27; ctx.drawImage(art,0,PANEL-540,W,540); ctx.globalAlpha=1; }catch(e){} }
-  ctx.fillStyle='#fff'; ctx.strokeStyle='#fff'; ctx.lineWidth=3;
-  ctx.font=`800 30px ${TE}`; const chip=s.cat||'వార్త', cw=ctx.measureText(chip).width+56;
-  rrect(ctx,P,52,cw,62,31); ctx.stroke(); ctx.textBaseline='middle'; ctx.fillText(chip,P+28,84);
-  ctx.font=`700 28px ${TE}`; ctx.textAlign='right'; ctx.fillText(s.kind==='job'?(s.last?J('lastd')+' '+s.last:''):(s.d||NEWS.date||''),W-P,84); ctx.textAlign='left';
-  ctx.textBaseline='alphabetic';
-  const slF=hasPh?30:40, slH=hasPh?42:54; let statSize=hasPh?84:150; ctx.font=`400 ${statSize}px ${DI}`; while(ctx.measureText(s.stat||'').width>W-2*P && statSize>60){ statSize-=10; ctx.font=`400 ${statSize}px ${DI}`; }
-  // Telugu in the stat needs the Telugu font
-  if(/[ఀ-౿]/.test(s.stat||'')){ ctx.font=`800 ${Math.min(statSize,130)}px ${TE}`; }
-  ctx.font=`800 ${slF}px ${TE}`; const sl=wrap(ctx,s.statl,hasPh?760:620).slice(0,2);
-  let y=PANEL-(hasPh?40:56)-(sl.length-1)*slH;
-  const teStat=/[ఀ-౿]/.test(s.stat||''); let ss=teStat?Math.min(statSize,120):statSize;
-  const setF=()=>{ ctx.font=teStat?`800 ${ss}px ${TE}`:`400 ${ss}px ${DI}`; }; setF();
-  while(ctx.measureText(s.stat||'').width>W-2*P-20 && ss>56){ ss-=8; setF(); }
-  ctx.fillText(s.stat||'',P,y-(hasPh?46:60)-(teStat?Math.round(ss*0.42):0));
-  ctx.font=`800 ${slF}px ${TE}`; sl.forEach((t,k)=>ctx.fillText(t,P,y+k*slH));
-  // brand strip: full logo on the left, then the tagline
-  let yy=PANEL; ctx.fillStyle='#2E0827'; ctx.fillRect(0,yy,W,STRIP);
-  let x=P;
-  try{ const lg=await loadImg('logo-light.png'); const lh=50, lw=lg.width*lh/lg.height; ctx.drawImage(lg,P,yy+16,lw,lh); }catch(e){}
-  ctx.font=`700 25px ${TE}`; ctx.fillStyle='#E3D3DE'; ctx.fillText(s.kind==='job'?J('s3'):U('sub'),P,yy+104);
-  ctx.font=`800 32px ${TE}`; ctx.fillStyle='#F6F0F3'; ctx.textAlign='right'; ctx.fillText(U('tag'),W-P,yy+76); ctx.textAlign='left';
+    try{ const art=await loadImg('data:image/svg+xml;charset=utf-8,'+encodeURIComponent(sceneSVG(s,'cv'))); ctx.globalAlpha=.22; ctx.drawImage(art,cx,cy+PH-420,CW,420); ctx.globalAlpha=1; }catch(e){}
+    const st=String(s.stat||''), te=/[ఀ-౿]/.test(st); let fs=te?110:130;
+    const setF=()=>{ ctx.font=te?`800 ${fs}px ${TE}`:`400 ${fs}px ${DI}`; }; setF();
+    while(ctx.measureText(st).width>TW && fs>54){ fs-=8; setF(); }
+    ctx.fillStyle=AP; ctx.fillText(st,cx+IN,cy+PH-118);
+    ctx.font=`700 34px ${TE}`; ctx.fillStyle=CR; wrap(ctx,s.statl||'',TW).slice(0,2).forEach((t,k)=>ctx.fillText(t,cx+IN,cy+PH-62+k*44));
+  }
+  // category chip on the picture
+  ctx.font=`800 26px ${TE}`; const chip=(s.brk?'🔴 ':'')+(s.cat||U('news')); const chw=Math.min(TW,ctx.measureText(chip).width+44);
+  ctx.fillStyle=hasPh?DEEP:'rgba(46,8,39,.55)'; rrect(ctx,cx+IN-6,cy+28,chw,50,25); ctx.fill();
+  ctx.fillStyle=CR; ctx.textBaseline='middle'; ctx.fillText(chip,cx+IN+16,cy+54,chw-36); ctx.textBaseline='alphabetic';
   // text
-  if(KF){ ctx.font=`900 32px ${TE}`; const st=s.stat||''; const sw=ctx.measureText(st).width;
-    ctx.font=`800 28px ${TE}`; let t=s.statl||''; const maxT=W-2*P-sw-70; while(t && ctx.measureText(t).width>maxT){ t=t.slice(0,-2); } if(t!==(s.statl||'')) t=t.trim()+'…';
-    const pw=Math.min(W-2*P, sw+ctx.measureText(t).width+70); ctx.fillStyle=col; rrect(ctx,P,PANEL+STRIP+30,pw,60,30); ctx.fill();
-    ctx.fillStyle='#fff'; ctx.font=`900 32px ${TE}`; ctx.fillText(st,P+26,PANEL+STRIP+71); ctx.font=`800 28px ${TE}`; ctx.fillText(t,P+26+sw+18,PANEL+STRIP+70); }
-  yy=PANEL+STRIP+48+52+KF; ctx.fillStyle=col; ctx.font=`800 52px ${TE}`; hl.forEach(t=>{ctx.fillText(t,P,yy);yy+=72;});
-  yy+=24-72+58; ctx.fillStyle='#1A1410'; ctx.font=`400 36px ${TE}`; pl.forEach(t=>{ctx.fillText(t,P,yy);yy+=58;});
-  yy+=10; ctx.strokeStyle='#E3D9C8'; ctx.lineWidth=2; ctx.beginPath(); ctx.moveTo(P,yy); ctx.lineTo(W-P,yy); ctx.stroke();
-  yy+=62; ctx.font=`600 30px ${TE}`; ctx.fillStyle='#5E5246'; ctx.fillText('Source | మూలం: ',P,yy);
-  ctx.font=`800 30px ${TE}`; ctx.fillStyle='#1A1410'; ctx.fillText(s.src||'',P+ctx.measureText('Source | మూలం: ').width+8,yy);
-  // QR bar
-  yy=H-QR; ctx.fillStyle='#16130F'; ctx.fillRect(0,yy,W,QR);
-  ctx.textBaseline='middle'; ctx.font=`900 38px ${TE}`; ctx.fillStyle='#F5A23A'; ctx.fillText('మీ ఊరి వార్తలు ఇప్పుడే మీ చేతిలో!',P,yy+44); ctx.font=`800 27px ${TE}`; ctx.fillStyle='#7CF29A'; ctx.fillText('📢 మీ వార్తలు, ప్రకటనలకు ఉచిత ప్రచారం · 📲 70326 56422',P,yy+98); ctx.font=`700 25px ${TE}`; ctx.fillStyle='#E6E0D6'; ctx.fillText('🌐 swipe2news.com · WhatsApp ఛానెల్ · QR స్కాన్ చేయండి',P,yy+146);
-  try{ const qr=await loadImg('qr.png'); ctx.fillStyle='#fff'; ctx.fillRect(W-P-150,yy+20,150,150); ctx.drawImage(qr,W-P-142,yy+28,134,134); }catch(e){}
-  let url=''; try{ url=c.toDataURL('image/jpeg',0.9); }catch(e){}
-  const blob=await new Promise(r=>c.toBlob(r,'image/jpeg',0.9));
-  if(blob && url) blob.dataURL=url;   // ready-made picture for the iPhone long-press screen
+  let y=cy+PH+IN+24;
+  ctx.font=`600 26px ${TE}`; ctx.fillStyle='#6A6670'; ctx.fillText(((s.kind==='job'?(s.last?J('lastd')+' '+s.last:''):(s.d||NEWS.date||'')+(s.t?' · '+s.t:''))+' · '+(s.src||'Swipe2News')).slice(0,80),cx+IN,y);
+  y+=22+60; ctx.fillStyle='#202124'; ctx.font=`800 54px ${TE}`; hl.forEach(t=>{ ctx.fillText(t,cx+IN,y); y+=70; });
+  y+=18-70+52; ctx.fillStyle='#3C3A40'; ctx.font=`400 34px ${TE}`; pl.forEach(t=>{ ctx.fillText(t,cx+IN,y); y+=54; });
+  y+=6; ctx.fillStyle=DEEP; rrect(ctx,cx+IN,y,210,44,22); ctx.fill(); ctx.fillStyle=AP; ctx.font=`800 22px ${TE}`; ctx.textBaseline='middle'; ctx.fillText('✦',cx+IN+18,y+23);
+  ctx.fillStyle=CR; ctx.fillText(U('ai'),cx+IN+46,y+23,150);
+  ctx.fillStyle='#6A6670'; ctx.font=`600 24px ${TE}`; ctx.fillText('Source | మూలం: '+(s.src||''),cx+IN+228,y+23,TW-240); ctx.textBaseline='alphabetic';
+  ctx.restore();
+  // footer
+  const fy=H-P-FOOT/2; ctx.textBaseline='middle'; ctx.font=`700 34px ${DI}`; ctx.font=`700 34px 'Outfit',${TE}`; ctx.fillStyle=CR; ctx.fillText('Know More. Scroll Less.',P,fy);
+  ctx.textAlign='right'; ctx.fillStyle=AP; ctx.font=`800 30px 'Outfit',${TE}`; ctx.fillText('Follow @swipe2newsapp',W-P,fy); ctx.textAlign='left'; ctx.textBaseline='alphabetic';
+  let url=''; try{ url=c.toDataURL('image/jpeg',0.92); }catch(e){}
+  const blob=await new Promise(r=>c.toBlob(r,'image/jpeg',0.92));
+  if(blob && url) blob.dataURL=url;
   return blob;
 }
 window.cardImage=cardImage;
@@ -1536,7 +1613,6 @@ async function load(){
     // opened from Chrome on iPhone to send the picture: Safari can share pictures, so show the one-tap share screen
     if(q.has('sharecard') && LIST[cur]){ const b=await timeout(prepCard(),8000); if(b) showCardImage(b, shareText(LIST[cur]), ''); } }
   else if(q.has('dates') && !load.done){ load.done=1; openDates(); }
-  else if(firstRun) openSheet();
 }
 load();
 document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible' && $('sheet').hidden && view==='home') load(); });
@@ -1650,20 +1726,44 @@ setTimeout(alertInvite, 60000);
     e.preventDefault();
   },{passive:false});
 })();
-/* ===== Swipe2News canvas design: card buttons, language switch, first-open tutorial ===== */
+/* ===== Swipe2News v5.1: card buttons, language screen, first-open tutorial ===== */
 (function(){
-  const LNG_SHORT={te:'తె',en:'EN',hi:'हि'};
-  function lngLabel(){ const b=$('lngBtn'); if(b) b.textContent=LNG_SHORT[LG()]||'తె'; }
+  const ALL=[['te','తె','తెలుగు','Telugu'],['hi','हि','हिन्दी','Hindi'],['en','A','English','English'],['ta','த','தமிழ்','Tamil'],
+    ['kn','ಕ','ಕನ್ನಡ','Kannada'],['ml','മ','മലയാളം','Malayalam'],['mr','म','मराठी','Marathi'],['bn','বা','বাংলা','Bengali'],
+    ['gu','ગુ','ગુજરાતી','Gujarati'],['or','ଓ','ଓଡ଼ିଆ','Odia'],['pa','ਪੰ','ਪੰਜਾਬੀ','Punjabi'],['ur','ا','اردو','Urdu']];
+  const READY=['te','en','hi'];
+  let pick=LG();
+  function lngLabel(){ const n=$('lngName'); if(n) n.textContent=U('lname'); }
+  function applyLang(n){ prefs.lang=n; store.set('prefs',prefs); setJobs(store.get('jobs',[])); cardCache={k:null,blob:null,p:null};
+    document.documentElement.lang=LG(); renderTabs(); renderFeed(); lngLabel(); }
+  function drawGrid(){ const g=$('langGrid'); g.innerHTML=ALL.map(([id,gl,nat,en])=>{ const ok=READY.includes(id);
+      return `<button class="lt${pick===id?' on':''}" type="button" role="radio" aria-checked="${pick===id}" data-l="${id}"><span class="lg">${gl}</span><span class="ln">${en}</span>${ok?'':'<span class="soon">SOON</span>'}</button>`; }).join('');
+    const cur=ALL.find(x=>x[0]===pick); $('langGo').textContent='Continue in '+(cur?cur[3]:'Telugu'); }
+  $('langGrid').addEventListener('click',e=>{ const b=e.target.closest('.lt'); if(!b) return; const id=b.dataset.l;
+    if(!READY.includes(id)){ toast('Coming soon · త్వరలో'); return; } pick=id; drawGrid(); });
+  function openLang(){ pick=LG(); drawGrid(); $('langScr').hidden=false; }
+  $('langGo').onclick=()=>{ $('langScr').hidden=true; const first=!store.get('langPicked',0); store.set('langPicked',1); applyLang(pick);
+    if(first && !store.get('tutDone',0)) setTimeout(()=>{ $('tut').hidden=false; },350); };
   lngLabel();
-  const lb=$('lngBtn'); if(lb) lb.onclick=()=>{ const order=['te','en','hi']; const n=order[(order.indexOf(LG())+1)%3];
-    prefs.lang=n; store.set('prefs',prefs); setJobs(store.get('jobs',[])); cardCache={k:null,blob:null,p:null};
-    document.documentElement.lang=LG(); renderTabs(); renderFeed(); lngLabel(); toast(({te:'తెలుగు',en:'English',hi:'हिन्दी'})[n]+' ✓'); };
-  document.addEventListener('click',e=>{
-    if(e.target.closest('.story .lis')){ e.preventDefault(); $('listenBtn').click(); }
-    else if(e.target.closest('.story .pnext')){ e.preventDefault(); $('next').click(); }
+  if($('lngBtn')) $('lngBtn').onclick=openLang;
+  if(typeof pushOK!=='undefined' && !pushOK && $('bellBtn')) $('bellBtn').hidden=true; // alerts come back once the new OneSignal app is set
+  // buttons inside the card
+  document.addEventListener('click',e=>{ const t=e.target;
+    if(t.closest('.story .lis')){ e.preventDefault(); $('listenBtn').click(); }
+    else if(t.closest('.story .pnext')){ e.preventDefault(); $('next').click(); }
+    else if(t.closest('.story .ca.sv')){ e.preventDefault(); $('saveBtn').click(); setTimeout(markSaved,50); }
+    else if(t.closest('.story .ca.dl')){ e.preventDefault(); $('dlBtn').click(); }
+    else if(t.closest('.story .ca.sh')){ e.preventDefault(); $('shareBtn').click(); }
+    else if(t.closest('.story .ca.wa')){ e.preventDefault(); $('waBtn').click(); }
   });
+  function markSaved(){ const on=$('saveBtn').getAttribute('aria-pressed')==='true'; document.querySelectorAll('.story .ca.sv').forEach(b=>b.classList.toggle('on',on)); }
+  setInterval(markSaved,600);
+  // first open: language screen, then the swipe tutorial
   try{ const q=new URLSearchParams(location.search);
-    if(!q.has('build') && !store.get('tutDone',0)){ setTimeout(()=>{ $('tut').hidden=false; },700); }
+    if(!q.has('build')){
+      if(!store.get('langPicked',0) && !q.has('l')) openLang();
+      else if(!store.get('tutDone',0)) setTimeout(()=>{ $('tut').hidden=false; },700);
+    }
   }catch(e){}
   $('tutOk').onclick=()=>{ $('tut').hidden=true; store.set('tutDone',1); };
 })();
