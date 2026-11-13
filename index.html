@@ -449,6 +449,27 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .s2mq>*{display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:12px;border-radius:14px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit;text-align:left;text-decoration:none;cursor:pointer}
 .s2mq span{font-size:20px}.s2mq b{font-size:13px;line-height:1.35}
 .s2mi h3{margin:6px 0 0;font-size:12px;letter-spacing:.08em;color:var(--muted)}
+
+/* ===== now-playing bar while the news is read aloud ===== */
+.s2np{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom,0px));z-index:70;max-width:520px;margin:0 auto;display:flex;align-items:center;gap:10px;padding:8px 8px 8px 8px;border-radius:20px;background:linear-gradient(120deg,#2E0827 0%,#4A0E3F 60%,#6E2361 100%);color:#FFFDF5;box-shadow:0 10px 30px rgba(46,8,39,.45),0 0 0 1px rgba(245,162,58,.35)}
+.s2np[hidden]{display:none}
+.s2np .npi{flex:none;width:44px;height:44px;border-radius:12px;background:#FFFDF5;display:flex;align-items:center;justify-content:center}
+.s2np .npi img{width:38px;height:38px;border-radius:9px}
+.s2np .npt{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.s2np .npb{display:flex;align-items:center;gap:6px;font:800 14px 'Outfit',var(--body);white-space:nowrap}
+.s2np .npb i{font-style:normal;color:#F5A23A;margin-left:-6px}
+.s2np .npb em{font:600 11.5px var(--body);font-style:normal;color:#F5A23A;margin-left:2px}
+.s2np .eq{display:inline-flex;align-items:flex-end;gap:2px;height:12px}
+.s2np .eq b{width:3px;border-radius:2px;background:#F5A23A;animation:s2eq 1s ease-in-out infinite}
+.s2np .eq b:nth-child(2){animation-delay:.2s}.s2np .eq b:nth-child(3){animation-delay:.4s}.s2np .eq b:nth-child(4){animation-delay:.1s}
+@keyframes s2eq{0%,100%{height:3px}50%{height:12px}}
+@media (prefers-reduced-motion:reduce){.s2np .eq b{animation:none;height:8px}}
+.s2np .nph{font-size:12.5px;color:#E3D3DE;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.s2np button{flex:none;width:42px;height:42px;border-radius:21px;border:0;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.s2np .npn{background:rgba(255,253,245,.14);color:#FFFDF5}
+.s2np .nps{background:#F5A23A;color:#2E0827}
+body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
+.story .meta .lis.on{background:var(--brand);color:#fff;border-color:var(--brand)}
 /* first-open language screen */
 .lsc{position:fixed;inset:0;z-index:95;background:#FFFDF5;color:#202124;display:flex;flex-direction:column;padding:calc(env(safe-area-inset-top,0px) + 14px) 20px calc(env(safe-area-inset-bottom,0px) + 20px);font-family:'Outfit','Noto Sans Telugu',sans-serif;overflow:auto}
 .lsc[hidden]{display:none}
@@ -612,6 +633,12 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
       <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 5.1 · Swipe2News</p>
     </div></div>
   </section>
+  <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">
+    <span class="npi"><img src="icon-192.png" alt=""></span>
+    <span class="npt"><span class="npb">swipe2news<i>.</i> <em id="npLab">వింటున్నారు</em><span class="eq" aria-hidden="true"><b></b><b></b><b></b><b></b></span></span><span class="nph" id="npH"></span></span>
+    <button type="button" class="npn" id="npNext" aria-label="తర్వాతి వార్త"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M6 5l9 7-9 7zM16 5h3v14h-3z"/></svg></button>
+    <button type="button" class="nps" id="npStop" aria-label="ఆపండి"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2"/></svg></button>
+  </div>
   <section class="s2m" id="s2menu" hidden role="dialog" aria-label="మెనూ · Menu">
     <div class="s2mi">
       <div class="s2mh"><img src="logo.png" alt="Swipe2News"><button class="icon" id="menuClose" type="button" aria-label="మూసివేయండి"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
@@ -1780,6 +1807,20 @@ setTimeout(alertInvite, 60000);
   },{passive:false});
 })();
 
+
+/* ===== now-playing bar (Listen) ===== */
+(function(){
+  const bar=$('s2np'); if(!bar) return;
+  const LAB={te:['వింటున్నారు','ఆపండి'],en:['Listening','Stop'],hi:['सुन रहे हैं','रोकें']};
+  function sync(){ const on=!!RADIO, l=LAB[LG()]||LAB.te; bar.hidden=!on; $('npLab').textContent=l[0];
+    if(document.body.classList.contains('np')!==on){ document.body.classList.toggle('np',on); setTimeout(()=>{ try{ if(cards[cur]) fit(cards[cur]); }catch(e){} },60); }
+    const s=LIST[cur]; $('npH').textContent=on&&s?(s.h||''):'';
+    document.querySelectorAll('.story .meta .lis').forEach(b=>{ b.classList.toggle('on',on); if(!b.dataset.t) b.dataset.t=b.innerHTML;
+      b.innerHTML=on?'<svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2" fill="currentColor"/></svg>'+l[1]:b.dataset.t; }); }
+  const old=radioUI; radioUI=function(){ old.apply(this,arguments); sync(); };
+  $('npStop').onclick=()=>stopVoice(); $('npNext').onclick=()=>$('next').click();
+  setInterval(()=>{ if(RADIO) sync(); },700);
+})();
 /* ===== ☰ menu: sections, jobs, saved, dates, channel, more (12 Nov 2026: full-screen cards) ===== */
 (function(){
   const m=$('s2menu'); if(!m) return;
