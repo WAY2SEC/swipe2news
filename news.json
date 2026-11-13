@@ -1,8 +1,333 @@
 {
  "date": "13.11.2026",
- "updated": "2026-11-13T18:05:00+05:30",
+ "updated": "2026-11-13T19:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "హైదరాబాద్ · ట్రాఫిక్",
+   "col": "--c-city",
+   "stat": "50%",
+   "statl": "పార్కింగ్ టవర్ వినియోగం",
+   "h": "కేబీఆర్ పార్క్ ఫ్లైఓవర్ పనులతో ఆటోమేటెడ్ పార్కింగ్ టవర్‌కు తగ్గిన వాహనాలు",
+   "p": "జూబ్లీహిల్స్ చెక్‌పోస్ట్ నుంచి ఎన్‌ఎఫ్‌సీఎల్ జంక్షన్ వరకు జరుగుతున్న స్టీల్ ఫ్లైఓవర్ పనులు, వన్‌వే ట్రాఫిక్, బారికేడ్ల వల్ల కేబీఆర్ పార్క్ ఎంట్రీ-1 వద్ద ఉన్న హైదరాబాద్ తొలి ఆటోమేటెడ్ మల్టీ లెవెల్ కార్ పార్కింగ్‌కు వాహనదారులు చేరుకోలేకపోతున్నారు. తవ్వకాలు మొదలైనప్పటి నుంచి వినియోగం సగానికి పడిపోయిందని ఓ సీనియర్ అధికారి తెలిపారు. టవర్‌కు స్పష్టమైన దారి ఏర్పాటు చేయాలని వాహనదారులు కోరుతున్నారు.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/kbr-park-flyover-works-hit-usage-of-hyderabads-automated-parking-tower",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "కేబీఆర్ పార్క్",
+   "pts": [
+    "72 కార్ల సామర్థ్యం, ఈవీ ఛార్జింగ్ సౌకర్యం",
+    "2025 నవంబర్ 1న జీహెచ్ఎంసీ ప్రారంభం",
+    "పీక్ అవర్స్‌లో ట్రాఫిక్ మళ్లింపులు"
+   ],
+   "why": "జూబ్లీహిల్స్, బంజారాహిల్స్ ప్రాంతాల్లో పార్కింగ్ కోసం వెళ్లే వాహనదారులపై ప్రభావం.",
+   "pub": "2026-11-13T19:05+05:30",
+   "lbl": "fact",
+   "en": {
+    "h": "KBR Park flyover works cut usage of Hyderabad's automated parking tower",
+    "p": "Steel flyover works from Jubilee Hills Check Post to NFCL Junction, along with one-way traffic and barricades around KBR Park, are keeping motorists from reaching Hyderabad's first automated multi-level car park at Entry-1. A senior official said usage has fallen to about half since excavation began. Users want a clear access route built into the construction traffic plan.",
+    "pts": [
+     "Capacity of 72 cars, with EV charging",
+     "Opened by GHMC on November 1, 2025",
+     "Peak-hour traffic diversions in force"
+    ],
+    "why": "Affects motorists looking for parking in Jubilee Hills and Banjara Hills.",
+    "cat": "Hyderabad · Traffic",
+    "statl": "parking tower usage"
+   },
+   "hi": {
+    "h": "KBR पार्क फ्लाईओवर कार्य से ऑटोमेटेड पार्किंग टावर का उपयोग घटा",
+    "p": "जुबली हिल्स चेक पोस्ट से NFCL जंक्शन तक स्टील फ्लाईओवर के काम, वन-वे ट्रैफिक और बैरिकेड्स के कारण वाहन चालक KBR पार्क एंट्री-1 पर बने हैदराबाद के पहले ऑटोमेटेड मल्टी-लेवल कार पार्क तक नहीं पहुंच पा रहे। एक वरिष्ठ अधिकारी ने बताया कि खुदाई शुरू होने के बाद से उपयोग लगभग आधा रह गया है। उपयोगकर्ता टावर तक साफ रास्ता चाहते हैं।",
+    "pts": [
+     "72 कारों की क्षमता, EV चार्जिंग",
+     "1 नवंबर 2025 को GHMC ने शुरू किया",
+     "पीक आवर्स में ट्रैफिक डायवर्जन"
+    ],
+    "why": "जुबली हिल्स, बंजारा हिल्स में पार्किंग खोजने वाले वाहन चालकों पर असर।",
+    "cat": "हैदराबाद · ट्रैफिक",
+    "statl": "पार्किंग टावर उपयोग"
+   },
+   "d": "13.11.2026",
+   "t": "19:05"
+  },
+  {
+   "cat": "ఏపీ · పెట్టుబడులు",
+   "col": "--c-money",
+   "art": "economy",
+   "stat": "TIME",
+   "statl": "అంతర్జాతీయ మీడియా సంస్థ",
+   "h": "ఏపీ అభివృద్ధిని ప్రపంచానికి చూపించాలని టైమ్ సంస్థను కోరిన సీఎం చంద్రబాబు",
+   "p": "రాష్ట్ర అభివృద్ధి, పెట్టుబడి అవకాశాలను అంతర్జాతీయంగా ప్రదర్శించాలని ముఖ్యమంత్రి చంద్రబాబు నాయుడు అంతర్జాతీయ మీడియా సంస్థ టైమ్‌ను కోరారు. విశాఖపట్నంలో గురువారం రాత్రి జరిగిన టైమ్ ఇంపాక్ట్ డిన్నర్‌లో సంస్థ ఎండీ డామియన్ డగ్లస్‌తో చర్చలో పాల్గొన్నారు. రాష్ట్రం 'ఈజ్ ఆఫ్ డూయింగ్ బిజినెస్' నుంచి 'స్పీడ్ ఆఫ్ డూయింగ్ బిజినెస్'కు మారిందని, ప్రాజెక్టుల వేగవంతమైన అమలుకు ప్రాధాన్యం ఇస్తున్నామని చెప్పారు.",
+   "src": "UNI",
+   "url": "https://www.uniindia.com/business-economy/media-ap-time-cm/244369",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "AP",
+   "place": "ap-visakhapatnam",
+   "pts": [
+    "ఉదాహరణగా గూగుల్ ఏఐ హబ్ ప్రస్తావన",
+    "పెట్టుబడి అనుమతుల వేగంపై దృష్టి"
+   ],
+   "why": "రాష్ట్రానికి విదేశీ పెట్టుబడులు, ఉద్యోగాలపై ఆశిస్తున్న యువత, పరిశ్రమలకు సంబంధించిన అంశం.",
+   "pub": "2026-11-13T18:57+05:30",
+   "lbl": "fact",
+   "en": {
+    "h": "CM Naidu asks TIME to showcase Andhra Pradesh's growth globally",
+    "p": "Chief Minister N. Chandrababu Naidu asked global media organisation TIME to present Andhra Pradesh's development and investment opportunities to the world. He spoke in a conversation with TIME's international managing director Damian Douglas at the TIME Impact Dinner in Visakhapatnam on Thursday night. He said the state has moved from 'ease of doing business' to 'speed of doing business' and prioritises fast project execution.",
+    "pts": [
+     "Cited Google's AI hub as an example",
+     "Focus on faster investment approvals"
+    ],
+    "why": "Concerns youth and industry hoping for foreign investment and jobs in the state.",
+    "cat": "AP · Investment",
+    "statl": "global media group"
+   },
+   "hi": {
+    "h": "CM नायडू ने TIME से आंध्र प्रदेश के विकास को दुनिया में दिखाने को कहा",
+    "p": "मुख्यमंत्री एन. चंद्रबाबू नायडू ने अंतरराष्ट्रीय मीडिया संस्था TIME से राज्य के विकास और निवेश अवसरों को दुनिया के सामने रखने को कहा। गुरुवार रात विशाखापत्तनम में TIME इम्पैक्ट डिनर में उन्होंने संस्था के अंतरराष्ट्रीय MD डेमियन डगलस से बातचीत की। उन्होंने कहा कि राज्य 'ईज़ ऑफ डूइंग बिजनेस' से 'स्पीड ऑफ डूइंग बिजनेस' की ओर बढ़ा है और परियोजनाओं के तेज अमल को प्राथमिकता दे रहा है।",
+    "pts": [
+     "उदाहरण के रूप में गूगल AI हब का जिक्र",
+     "निवेश मंजूरी की गति पर जोर"
+    ],
+    "why": "राज्य में विदेशी निवेश और रोजगार की उम्मीद रखने वाले युवाओं व उद्योगों से जुड़ा।",
+    "cat": "आंध्र प्रदेश · निवेश",
+    "statl": "अंतरराष्ट्रीय मीडिया संस्था"
+   },
+   "d": "13.11.2026",
+   "t": "19:05"
+  },
+  {
+   "cat": "ఏపీ · రాజకీయం",
+   "col": "--c-election",
+   "art": "economy",
+   "stat": "70,885 MU",
+   "statl": "2025-26 విద్యుత్ అమ్మకాలు (వైసీపీ)",
+   "h": "పెట్టుబడి సదస్సులతో ఆర్థిక క్షీణతను దాస్తున్నారని వైసీపీ ఆరోపణ",
+   "p": "పెట్టుబడి సదస్సులు, ప్రచారంతో రాష్ట్ర ఆర్థిక క్షీణతను కూటమి ప్రభుత్వం దాస్తోందని వైసీపీ అధికార ప్రతినిధి పుట్టా శివశంకర్ తాడేపల్లిలో ఆరోపించారు. ఏపీఈఆర్‌సీ లెక్కల ప్రకారం డిస్కంల విద్యుత్ అమ్మకాలు 2023-24లో 71,722 మిలియన్ యూనిట్ల నుంచి 2025-26లో 70,885కు తగ్గాయని, పన్ను ఆదాయం పెద్దగా పెరగలేదని ఆయన అన్నారు. 20 లక్షల ఉద్యోగాల లెక్కలు బయటపెట్టాలని డిమాండ్ చేశారు.",
+   "src": "ANI",
+   "url": "https://aninews.in/news/national/politics/investment-summits-mask-andhra-pradesh8217s-economic-decline-ysrcp20261113184221/",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "AP",
+   "place": "ap-guntur",
+   "loc": "తాడేపల్లి",
+   "pts": [
+    "కాగ్ లెక్కలు: పన్ను ఆదాయం ₹85,922 కోట్ల నుంచి ₹86,552 కోట్లు",
+    "రిలయన్స్ పెట్టుబడి ప్రకటనలపై ప్రశ్నలు"
+   ],
+   "why": "రాష్ట్ర ఆర్థిక స్థితి, ఉద్యోగాలపై రాజకీయ వివాదం ప్రజలకు సంబంధించినది.",
+   "pub": "2026-11-13T18:42+05:30",
+   "lbl": "claim",
+   "en": {
+    "h": "YSRCP alleges investment summits hide Andhra Pradesh's economic decline",
+    "p": "YSRCP spokesperson Putta Sivashankar alleged at Tadepalli that the coalition government is using investment summits and publicity to hide the state's economic decline. Citing APERC data, he said DISCOM power sales fell from 71,722 million units in 2023-24 to 70,885 million units in 2025-26 and that tax revenue barely grew. He demanded records backing the claim of 20 lakh jobs.",
+    "pts": [
+     "Citing CAG: tax revenue ₹85,922 cr to ₹86,552 cr",
+     "Questioned Reliance investment announcements"
+    ],
+    "why": "The political row over the state's finances and jobs concerns the public.",
+    "cat": "AP · Politics",
+    "statl": "2025-26 power sales (YSRCP)"
+   },
+   "hi": {
+    "h": "YSRCP का आरोप: निवेश सम्मेलनों से आंध्र की आर्थिक गिरावट छिपाई जा रही",
+    "p": "YSRCP प्रवक्ता पुट्टा शिवशंकर ने ताडेपल्ली में आरोप लगाया कि गठबंधन सरकार निवेश सम्मेलनों और प्रचार से राज्य की आर्थिक गिरावट छिपा रही है। APERC आंकड़ों का हवाला देते हुए उन्होंने कहा कि डिस्कॉम की बिजली बिक्री 2023-24 के 71,722 मिलियन यूनिट से घटकर 2025-26 में 70,885 मिलियन यूनिट रह गई और कर राजस्व मामूली बढ़ा। उन्होंने 20 लाख नौकरियों के दावे के रिकॉर्ड मांगे।",
+    "pts": [
+     "CAG के अनुसार: कर राजस्व ₹85,922 करोड़ से ₹86,552 करोड़",
+     "रिलायंस निवेश घोषणाओं पर सवाल"
+    ],
+    "why": "राज्य की वित्तीय स्थिति और रोजगार पर राजनीतिक विवाद जनता से जुड़ा है।",
+    "cat": "आंध्र प्रदेश · राजनीति",
+    "statl": "2025-26 बिजली बिक्री (YSRCP)"
+   },
+   "d": "13.11.2026",
+   "t": "19:05"
+  },
+  {
+   "cat": "ప్రపంచం · పశ్చిమాసియా",
+   "col": "--c-gov",
+   "stat": "హోర్ముజ్",
+   "statl": "ట్యాంకర్ పేలుళ్ల నివేదికలు",
+   "h": "ఇరాన్‌తో ఒప్పందం అవసరం లేదన్న ట్రంప్; బహ్రెయిన్‌లో అమెరికా రాడార్ ధ్వంసం చేశామన్న ఐఆర్‌జీసీ",
+   "p": "ఇరాన్‌తో శాంతి చర్చల నుంచి ఉపాధ్యక్షుడు జేడీ వాన్స్‌ను తప్పించానని, ఇరాన్‌తో ఒప్పందం అవసరం లేదని అమెరికా అధ్యక్షుడు ట్రంప్ అన్నట్లు న్యూయార్క్ టైమ్స్ పేర్కొంది. బహ్రెయిన్‌లోని అమెరికా ముందస్తు హెచ్చరిక రాడార్‌ను ధ్వంసం చేశామని ఇరాన్ రెవల్యూషనరీ గార్డ్స్ ప్రకటించాయి. హోర్ముజ్ జలసంధిలో ట్యాంకర్లలో పేలుళ్లు జరిగినట్లు నివేదికలు వచ్చాయి. ఈ వివరాలను జస్ట్ సెక్యూరిటీ వార్తా సంకలనం ఉటంకించింది.",
+   "src": "Just Security (citing NYT)",
+   "url": "https://www.justsecurity.org/164357/early-edition-november-13-2026/",
+   "sec": [
+    "world"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "pts": [
+    "పేలుళ్లపై అధికారిక ధ్రువీకరణ వివరాలు లేవు"
+   ],
+   "why": "హోర్ముజ్ ఉద్రిక్తతలు చమురు ధరలు, గల్ఫ్‌లోని తెలుగు ప్రజలపై ప్రభావం చూపవచ్చు.",
+   "pub": "2026-11-13T18:58+05:30",
+   "lbl": "claim",
+   "en": {
+    "h": "Trump says no deal needed with Iran; IRGC claims it destroyed US radar in Bahrain",
+    "p": "US President Trump said he had pulled Vice President JD Vance from possible peace talks with Iran and that a deal with Iran was not needed, according to The New York Times. Iran's Revolutionary Guards said they destroyed a US early-warning radar in Bahrain. Explosions on tankers in the Strait of Hormuz were also reported. The details were compiled in a Just Security news roundup.",
+    "pts": [
+     "No official confirmation details on the blasts"
+    ],
+    "why": "Hormuz tensions could affect oil prices and Telugu people working in the Gulf.",
+    "cat": "World · West Asia",
+    "statl": "tanker blasts reported"
+   },
+   "hi": {
+    "h": "ट्रंप बोले ईरान से समझौता जरूरी नहीं; IRGC का दावा, बहरीन में अमेरिकी रडार नष्ट",
+    "p": "न्यूयॉर्क टाइम्स के अनुसार अमेरिकी राष्ट्रपति ट्रंप ने कहा कि उन्होंने उपराष्ट्रपति जेडी वेंस को ईरान के साथ संभावित शांति वार्ता से हटा दिया है और ईरान से समझौते की जरूरत नहीं है। ईरान के रिवोल्यूशनरी गार्ड्स ने बहरीन में अमेरिकी अर्ली-वार्निंग रडार नष्ट करने का दावा किया। होर्मुज जलडमरूमध्य में टैंकरों में धमाकों की खबरें भी आईं। ये विवरण जस्ट सिक्योरिटी के समाचार संकलन में दिए गए।",
+    "pts": [
+     "धमाकों की आधिकारिक पुष्टि का विवरण नहीं"
+    ],
+    "why": "होर्मुज तनाव से तेल कीमतों और खाड़ी में काम करने वाले तेलुगु लोगों पर असर पड़ सकता है।",
+    "cat": "विश्व · पश्चिम एशिया",
+    "statl": "टैंकर धमाकों की खबरें"
+   },
+   "d": "13.11.2026",
+   "t": "19:05"
+  },
+  {
+   "cat": "ప్రపంచం · సైబర్ భద్రత",
+   "col": "--c-money",
+   "art": "economy",
+   "stat": "$1.2 బిలియన్",
+   "statl": "ఎఫ్‌బీఐ స్వాధీనం",
+   "h": "బైనాన్స్ నుంచి ఉత్తర కొరియా హ్యాకర్లు దోచిన సొమ్ములో $1.2 బిలియన్ స్వాధీనం: ఎఫ్‌బీఐ",
+   "p": "క్రిప్టో ఎక్స్ఛేంజ్ బైనాన్స్ నుంచి ఉత్తర కొరియాకు చెందిన 'ట్రేడర్‌ట్రెయిటర్' హ్యాకింగ్ బృందం దొంగిలించిన $6.3 బిలియన్లలో $1.2 బిలియన్లకు పైగా స్వాధీనం చేసుకున్నట్లు అమెరికా ఎఫ్‌బీఐ తెలిపింది. ఈ విషయాన్ని జస్ట్ సెక్యూరిటీ వార్తా సంకలనం ఉటంకించింది. మిగిలిన సొమ్ము రికవరీపై వివరాలు ఇవ్వలేదు.",
+   "src": "Just Security",
+   "url": "https://www.justsecurity.org/164357/early-edition-november-13-2026/#binance-fbi",
+   "sec": [
+    "world",
+    "business"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "pts": [
+    "మొత్తం చోరీ $6.3 బిలియన్"
+   ],
+   "why": "క్రిప్టోలో పెట్టుబడి పెట్టే భారతీయులకు సైబర్ దొంగతనాల ముప్పుపై హెచ్చరిక.",
+   "pub": "2026-11-13T18:58+05:30",
+   "lbl": "fact",
+   "en": {
+    "h": "FBI seizes $1.2 billion of funds North Korean hackers stole from Binance",
+    "p": "The US FBI said it has seized more than $1.2 billion of the $6.3 billion stolen from crypto exchange Binance by North Korea's TraderTraitor hacking group, according to a Just Security news roundup. No details were given on recovering the remaining amount.",
+    "pts": [
+     "Total theft put at $6.3 billion"
+    ],
+    "why": "A warning on cyber-theft risk for Indians investing in crypto.",
+    "cat": "World · Cybersecurity",
+    "statl": "seized by FBI"
+   },
+   "hi": {
+    "h": "FBI ने बाइनेंस से उत्तर कोरियाई हैकरों की चुराई रकम में से $1.2 अरब जब्त किए",
+    "p": "जस्ट सिक्योरिटी के समाचार संकलन के अनुसार अमेरिकी FBI ने कहा कि उसने उत्तर कोरिया के 'ट्रेडरट्रेटर' हैकिंग समूह द्वारा क्रिप्टो एक्सचेंज बाइनेंस से चुराए गए $6.3 अरब में से $1.2 अरब से अधिक जब्त किए हैं। बाकी रकम की वसूली का विवरण नहीं दिया गया।",
+    "pts": [
+     "कुल चोरी $6.3 अरब"
+    ],
+    "why": "क्रिप्टो में निवेश करने वाले भारतीयों के लिए साइबर चोरी के खतरे की चेतावनी।",
+    "cat": "विश्व · साइबर सुरक्षा",
+    "statl": "FBI द्वारा जब्त"
+   },
+   "d": "13.11.2026",
+   "t": "19:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · విద్య",
+   "col": "--c-water",
+   "art": "campus",
+   "stat": "నీరు, కరెంట్",
+   "statl": "విద్యార్థుల డిమాండ్",
+   "h": "నీరు, కరెంట్ కోతలపై ఓయూ హాస్టల్ విద్యార్థుల ధర్నా",
+   "p": "ఉస్మానియా యూనివర్సిటీ హాస్టళ్లలో తాగునీరు, విద్యుత్ సరఫరా వెంటనే పునరుద్ధరించాలని విద్యార్థులు శుక్రవారం ధర్నా చేశారు. తరచూ నీటి కొరత, కరెంట్ కోతలు ఉంటున్నాయని వారు ఆరోపించారు. వైస్ చాన్స్‌లర్‌కు వ్యతిరేకంగా నినాదాలు చేశారు. తక్షణ చర్యలు తీసుకోవాలని యూనివర్సిటీ అధికారులను కోరారు. అధికారుల స్పందన వార్తలో లేదు.",
+   "src": "IndToday",
+   "url": "https://indtoday.com/ou-hostel-protest-over-water-and-power-cuts/",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "ఉస్మానియా యూనివర్సిటీ",
+   "pts": [],
+   "why": "ఓయూ హాస్టళ్లలో ఉండే వేలాది విద్యార్థుల రోజువారీ జీవితంపై ప్రభావం.",
+   "pub": "2026-11-13T15:37+05:30",
+   "lbl": "claim",
+   "en": {
+    "h": "OU hostel students protest over water and power cuts",
+    "p": "Osmania University students staged a dharna on Friday demanding immediate restoration of drinking water and electricity in the university hostels. They alleged frequent water shortages and power cuts, raised slogans against the Vice-Chancellor and asked university authorities to act at once. The report carried no response from officials.",
+    "pts": [],
+    "why": "Affects the daily life of thousands of students living in OU hostels.",
+    "cat": "Hyderabad · Education",
+    "statl": "students' demand"
+   },
+   "hi": {
+    "h": "पानी और बिजली कटौती पर OU हॉस्टल छात्रों का धरना",
+    "p": "उस्मानिया विश्वविद्यालय के छात्रों ने शुक्रवार को हॉस्टलों में पीने का पानी और बिजली तुरंत बहाल करने की मांग को लेकर धरना दिया। उन्होंने बार-बार पानी की कमी और बिजली कटौती का आरोप लगाया, कुलपति के खिलाफ नारे लगाए और अधिकारियों से तुरंत कदम उठाने को कहा। रिपोर्ट में अधिकारियों की प्रतिक्रिया नहीं है।",
+    "pts": [],
+    "why": "OU हॉस्टलों में रहने वाले हजारों छात्रों के दैनिक जीवन पर असर।",
+    "cat": "हैदराबाद · शिक्षा",
+    "statl": "छात्रों की मांग"
+   },
+   "d": "13.11.2026",
+   "t": "19:05"
+  },
+  {
+   "cat": "తెలంగాణ · ప్రభుత్వం",
+   "col": "--c-gov",
+   "stat": "70+ దేశాలు",
+   "statl": "ప్రతినిధుల రాక",
+   "h": "హైదరాబాద్‌లో రెండు రోజుల భారత్ సమ్మిట్ ప్రారంభం",
+   "p": "తెలంగాణ ప్రభుత్వం నిర్వహిస్తున్న రెండో భారత్ సమ్మిట్ శుక్ర, శనివారాల్లో హైటెక్స్, హెచ్ఐసీసీలో జరుగుతోంది. 'ఫోర్జింగ్ ఎ న్యూ వరల్డ్' ఇతివృత్తంతో జరిగే ఈ సదస్సుకు 70కి పైగా దేశాల నుంచి వెయ్యి మందికి పైగా హాజరవుతారని అంచనా. ఏఐ, వాతావరణం, లింగ సమానత్వం సహా ఆరు ఇతివృత్తాలు, పన్నెండు అంశాలపై సెషన్లు ఉంటాయి.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/bharat-summit-to-kickoff-in-hyderabad-today-1141702",
+   "sec": [
+    "telangana",
+    "india"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "pts": [
+    "శనివారం మధ్యాహ్నం 3 గంటలకు ముగింపు సెషన్",
+    "ముగింపులో రాహుల్ గాంధీ, ఖర్గే ప్రసంగం",
+    "శుక్రవారం ప్రియాంకా గాంధీ ప్లీనరీ"
+   ],
+   "why": "హైదరాబాద్‌లో ట్రాఫిక్, అంతర్జాతీయ గుర్తింపుపై ప్రభావం చూపే కార్యక్రమం.",
+   "pub": "2026-11-13T11:19+05:30",
+   "lbl": "fact",
+   "en": {
+    "h": "Two-day Bharat Summit begins in Hyderabad",
+    "p": "The second Bharat Summit, organised by the Telangana government, is being held on Friday and Saturday at HITEX and HICC. Over 1,000 participants from more than 70 countries are expected at the event themed 'Forging a New World'. Sessions span six themes and twelve topics including AI, climate and gender equality.",
+    "pts": [
+     "Closing session at 3 pm Saturday",
+     "Rahul Gandhi, Kharge to speak at close",
+     "Priyanka Gandhi plenary on Friday"
+    ],
+    "why": "An event affecting Hyderabad traffic and the city's global profile.",
+    "cat": "Telangana · Government",
+    "statl": "countries represented"
+   },
+   "hi": {
+    "h": "हैदराबाद में दो दिवसीय भारत समिट शुरू",
+    "p": "तेलंगाना सरकार द्वारा आयोजित दूसरा भारत समिट शुक्रवार और शनिवार को HITEX और HICC में हो रहा है। 'फोर्जिंग अ न्यू वर्ल्ड' विषय वाले इस कार्यक्रम में 70 से अधिक देशों से 1,000 से ज्यादा प्रतिभागियों के आने की उम्मीद है। AI, जलवायु और लैंगिक समानता समेत छह विषयों और बारह मुद्दों पर सत्र होंगे।",
+    "pts": [
+     "शनिवार दोपहर 3 बजे समापन सत्र",
+     "समापन में राहुल गांधी, खड़गे का भाषण",
+     "शुक्रवार को प्रियंका गांधी का प्लेनरी"
+    ],
+    "why": "हैदराबाद के ट्रैफिक और शहर की वैश्विक पहचान पर असर डालने वाला आयोजन।",
+    "cat": "तेलंगाना · सरकार",
+    "statl": "देशों से प्रतिनिधि"
+   },
+   "d": "13.11.2026",
+   "t": "19:05"
+  },
   {
    "cat": "తెలంగాణ · అవినీతి నిరోధం",
    "col": "--c-gov",
@@ -2077,355 +2402,6 @@
    },
    "d": "12.11.2026",
    "t": "19:35"
-  },
-  {
-   "cat": "హైదరాబాద్ · రైల్వే",
-   "col": "--c-city",
-   "art": "deadline",
-   "stat": "~400",
-   "statl": "నవంబర్‌లో ప్రత్యేక రైళ్లు",
-   "h": "ఛఠ్ పూజ రద్దీ: దాదాపు 400 ప్రత్యేక రైళ్లు నడుపుతున్న దక్షిణ మధ్య రైల్వే",
-   "p": "ఛఠ్ పూజ రద్దీ దృష్ట్యా నవంబర్‌లో దాదాపు 400 ప్రత్యేక రైళ్లు నడుపుతున్నట్లు దక్షిణ మధ్య రైల్వే (ఎస్‌సీఆర్) తెలిపింది. ప్రధాన స్టేషన్లలో రోజుకు సుమారు 4.6 లక్షల మంది ప్రయాణికులు ఉంటారని అంచనా. దర్భంగా, పట్నా, గోరఖ్‌పూర్, ప్రయాగ్‌రాజ్, హౌరా తదితర ప్రాంతాలకు రైళ్లు నడుస్తాయి. అదనపు టికెట్ తనిఖీ సిబ్బంది, ఆర్‌పీఎఫ్ బలగాలు, హోల్డింగ్ ఏరియాలు ఏర్పాటు చేశారు.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/hyderabad-scr-operates-nearly-400-special-trains-to-handle-festival-rush",
-   "sec": [
-    "telangana",
-    "india"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "pts": [
-    "రోజుకు 4.6 లక్షల మంది ప్రయాణికులు అంచనా",
-    "బిహార్, యూపీ, జార్ఖండ్, ఈశాన్యానికి రైళ్లు",
-    "యూటీఎస్ యాప్ వాడాలని ప్రయాణికులకు సూచన"
-   ],
-   "why": "పండుగకు ఉత్తరాదికి వెళ్లే ప్రయాణికులు, కార్మికులకు ఇది ఉపయోగం.",
-   "pub": "2026-11-12T19:34+05:30",
-   "en": {
-    "h": "Chhath rush: SCR runs nearly 400 special trains",
-    "p": "South Central Railway (SCR) said it is operating nearly 400 special trains in November to handle the Chhath Puja rush. About 4.6 lakh daily passengers are expected at its major stations. Trains run to Darbhanga, Patna, Gorakhpur, Prayagraj, Howrah and other places. Extra ticket-checking staff, RPF personnel and holding areas have been arranged.",
-    "pts": [
-     "About 4.6 lakh daily passengers expected",
-     "Trains to Bihar, UP, Jharkhand and the Northeast",
-     "Passengers urged to use the UTS app"
-    ],
-    "why": "It helps festival travellers and workers heading to north India.",
-    "cat": "Hyderabad · Railways",
-    "statl": "Special trains in November"
-   },
-   "hi": {
-    "h": "छठ की भीड़: दक्षिण मध्य रेलवे चला रहा लगभग 400 विशेष ट्रेनें",
-    "p": "दक्षिण मध्य रेलवे (एससीआर) ने कहा कि छठ पूजा की भीड़ को देखते हुए वह नवंबर में लगभग 400 विशेष ट्रेनें चला रहा है। प्रमुख स्टेशनों पर रोजाना करीब 4.6 लाख यात्रियों की उम्मीद है। ट्रेनें दरभंगा, पटना, गोरखपुर, प्रयागराज, हावड़ा आदि जाएंगी। अतिरिक्त टिकट जांच कर्मचारी, आरपीएफ जवान और होल्डिंग एरिया की व्यवस्था की गई है।",
-    "pts": [
-     "रोजाना करीब 4.6 लाख यात्रियों की उम्मीद",
-     "बिहार, यूपी, झारखंड और पूर्वोत्तर के लिए ट्रेनें",
-     "यात्रियों से यूटीएस ऐप इस्तेमाल करने की अपील"
-    ],
-    "why": "इससे त्योहार पर उत्तर भारत जाने वाले यात्रियों और मजदूरों को मदद मिलेगी।",
-    "cat": "हैदराबाद · रेलवे",
-    "statl": "नवंबर में विशेष ट्रेनें"
-   },
-   "d": "12.11.2026",
-   "t": "19:35"
-  },
-  {
-   "cat": "హైదరాబాద్ · ఐటీ",
-   "col": "--c-money",
-   "art": "economy",
-   "stat": "1,000",
-   "statl": "భవిష్యత్తులో మార్స్ ఉద్యోగులు",
-   "h": "హైదరాబాద్‌లో మార్స్ గ్లోబల్ కెపాబిలిటీ సెంటర్ ప్రారంభం",
-   "p": "స్నికర్స్, ఎం&ఎంస్, పెడిగ్రీ వంటి బ్రాండ్ల సంస్థ మార్స్ జెన్‌ప్యాక్ట్ భాగస్వామ్యంతో హైదరాబాద్‌లో గ్లోబల్ కెపాబిలిటీ సెంటర్ (జీసీసీ) ఏర్పాటు చేసింది. ఐటీ, పరిశ్రమల మంత్రి డి. శ్రీధర్ బాబు గురువారం దీనిని ప్రారంభించారు. 60 వేల చదరపు అడుగుల ఈ కేంద్రం 400 మందికి పైగా జెన్‌ప్యాక్ట్ ఉద్యోగులతో మొదలై, రాబోయే ఏళ్లలో 1,000 మంది మార్స్ ఉద్యోగులకు పెరగనుందని సియాసత్ తెలిపింది.",
-   "src": "Siasat Daily",
-   "url": "https://www.siasat.com/mars-collaborates-with-genpact-opens-gcc-in-hyderabad-3575572/",
-   "sec": [
-    "telangana",
-    "jobs",
-    "business"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "pts": [
-    "మంత్రి శ్రీధర్ బాబు చేతుల మీదుగా ప్రారంభం",
-    "60 వేల చ.అడుగుల్లో కేంద్రం, 400+ మందితో మొదలు",
-    "ఏఐ, క్లౌడ్, డేటా అనలిటిక్స్ రంగాల్లో పనులు"
-   ],
-   "why": "హైదరాబాద్‌లో టెక్నాలజీ రంగ యువతకు కొత్త ఉద్యోగ అవకాశాలు వస్తాయి.",
-   "pub": "2026-11-12T18:35+05:30",
-   "en": {
-    "h": "Mars opens Global Capability Centre in Hyderabad",
-    "p": "Mars, the company behind brands like Snickers, M&M's and Pedigree, has set up a Global Capability Centre (GCC) in Hyderabad in collaboration with Genpact. IT and Industries Minister D. Sridhar Babu inaugurated it on Thursday. The 60,000 sq ft centre starts with over 400 Genpact staff and will grow to 1,000 Mars associates in the coming years, Siasat reported.",
-    "pts": [
-     "Inaugurated by Minister Sridhar Babu",
-     "60,000 sq ft centre, starts with 400+ staff",
-     "Work in AI, cloud, data analytics"
-    ],
-    "why": "It brings new job opportunities for tech youth in Hyderabad.",
-    "cat": "Hyderabad · IT",
-    "statl": "Mars associates planned"
-   },
-   "hi": {
-    "h": "हैदराबाद में मार्स का ग्लोबल कैपेबिलिटी सेंटर शुरू",
-    "p": "स्निकर्स, एम एंड एम्स, पेडिग्री जैसे ब्रांड वाली कंपनी मार्स ने जेनपैक्ट के साथ मिलकर हैदराबाद में ग्लोबल कैपेबिलिटी सेंटर (जीसीसी) स्थापित किया है। आईटी व उद्योग मंत्री डी. श्रीधर बाबू ने गुरुवार को इसका उद्घाटन किया। सियासत के अनुसार 60,000 वर्ग फुट का यह केंद्र 400 से अधिक जेनपैक्ट कर्मचारियों से शुरू होकर आने वाले वर्षों में 1,000 मार्स कर्मचारियों तक बढ़ेगा।",
-    "pts": [
-     "मंत्री श्रीधर बाबू ने किया उद्घाटन",
-     "60,000 वर्ग फुट, 400+ कर्मचारियों से शुरुआत",
-     "एआई, क्लाउड, डेटा एनालिटिक्स में काम"
-    ],
-    "why": "इससे हैदराबाद के तकनीकी युवाओं को नए रोजगार अवसर मिलेंगे।",
-    "cat": "हैदराबाद · आईटी",
-    "statl": "भविष्य में मार्स कर्मचारी"
-   },
-   "d": "12.11.2026",
-   "t": "19:05"
-  },
-  {
-   "cat": "తెలంగాణ · కోర్టు",
-   "col": "--c-city",
-   "art": "court",
-   "stat": "2021",
-   "statl": "కోవిడ్ నిబంధనల కేసు నమోదైన ఏడాది",
-   "h": "పాత కేసులో నాంపల్లి కోర్టుకు హాజరైన సీఎం రేవంత్ రెడ్డి",
-   "p": "గత ప్రభుత్వ హయాంలో నమోదైన కేసుల్లో ముఖ్యమంత్రి ఎ. రేవంత్ రెడ్డి గురువారం నాంపల్లిలోని ప్రజాప్రతినిధుల కోర్టుకు హాజరయ్యారు. 2021 నాగార్జునసాగర్ ఉపఎన్నిక ప్రచారంలో నల్గొండ జిల్లా చలకుర్తిలో కోవిడ్ నిబంధనలు ఉల్లంఘించారన్న ఆరోపణపై ఈ కేసు నమోదైంది. కోర్టు ఆయన వాంగ్మూలాన్ని నమోదు చేసిందని ఐఏఎన్ఎస్ కథనం పేర్కొంది.",
-   "src": "IANS (Punjab Kesari)",
-   "url": "https://english.punjabkesari.com/india/telangana-cm-appears-before-court-in-an-old-case",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "నాంపల్లి",
-   "pts": [
-    "మాస్క్ ధరించలేదన్నది ప్రధాన ఆరోపణ",
-    "సెక్షన్ 313 కింద వాంగ్మూలం నమోదు",
-    "ఫిబ్రవరి 28న ఏడు కేసుల్లో హాజరయ్యారు"
-   ],
-   "why": "ముఖ్యమంత్రిపై ఉన్న పాత కేసుల విచారణ ఎంతవరకు వచ్చిందో ఇది తెలియజేస్తుంది.",
-   "pub": "2026-11-12T17:31+05:30",
-   "en": {
-    "h": "CM Revanth Reddy appears before Nampally court in old case",
-    "p": "Chief Minister A. Revanth Reddy appeared on Thursday before the Public Representatives Court in Nampally in cases registered during the previous government. One case alleges he violated COVID-19 rules at Chalakurthi in Nalgonda district during the 2021 Nagarjuna Sagar by-election campaign. The court recorded his statement, an IANS report said.",
-    "pts": [
-     "Main allegation: not wearing a mask",
-     "Statement recorded under Section 313",
-     "Had appeared in seven cases on February 28"
-    ],
-    "why": "It shows where the trial of old cases against the Chief Minister stands.",
-    "cat": "Telangana · Court",
-    "statl": "Year COVID-rules case was filed"
-   },
-   "hi": {
-    "h": "पुराने मामले में नामपल्ली कोर्ट में पेश हुए सीएम रेवंत रेड्डी",
-    "p": "मुख्यमंत्री ए. रेवंत रेड्डी पिछली सरकार के समय दर्ज मामलों में गुरुवार को नामपल्ली स्थित जनप्रतिनिधि अदालत में पेश हुए। एक मामले में आरोप है कि उन्होंने 2021 नागार्जुनसागर उपचुनाव प्रचार के दौरान नलगोंडा जिले के चलकुर्ती में कोविड नियमों का उल्लंघन किया। आईएएनएस की रिपोर्ट के अनुसार अदालत ने उनका बयान दर्ज किया।",
-    "pts": [
-     "मुख्य आरोप: मास्क नहीं पहना",
-     "धारा 313 के तहत बयान दर्ज",
-     "28 फरवरी को सात मामलों में पेश हुए थे"
-    ],
-    "why": "इससे पता चलता है कि मुख्यमंत्री पर पुराने मामलों की सुनवाई कहां तक पहुंची।",
-    "cat": "तेलंगाना · अदालत",
-    "statl": "कोविड नियम मामला दर्ज होने का वर्ष"
-   },
-   "d": "12.11.2026",
-   "t": "19:05"
-  },
-  {
-   "cat": "కరీంనగర్ · పౌర సమస్య",
-   "col": "--c-city",
-   "art": "unity",
-   "stat": "6",
-   "statl": "పొగతో ఇబ్బంది పడుతున్న ప్రాంతాలు",
-   "h": "కరీంనగర్ డంపింగ్ యార్డును వెంటనే తరలించాలి: సీపీఎం డిమాండ్",
-   "p": "కరీంనగర్‌లోని డంపింగ్ యార్డును వెంటనే తరలించి శాశ్వత పరిష్కారం చూపాలని సీపీఎం నగర కార్యదర్శి గుడికందుల సత్యం డిమాండ్ చేశారు. ఏటా యార్డు కాలి వచ్చే పొగతో అల్కాపురి కాలనీ, అలుగునూర్, హౌసింగ్ బోర్డు తదితర ప్రాంతాల ప్రజలు శ్వాసకోశ సమస్యలు ఎదుర్కొంటున్నారని ఆయన అన్నారు. తరలింపును బీజేపీయే అడ్డుకుంటోందని ఆయన ఆరోపించారని హెచ్ఎంటీవీ తెలిపింది.",
-   "src": "HMTV",
-   "url": "https://hmtvlive.com/telugu-news/karimnagar/karimnagar-dumping-yard-relocation-demand-cpm-gudikandula-satyam-slams-211980",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "karimnagar",
-   "pts": [
-    "వర్షాకాలంలో దుర్వాసనతో స్థానికుల ఇబ్బంది",
-    "కొందరు అడ్డుకుంటున్నారన్న బండి సంజయ్ వ్యాఖ్యపై స్పందన",
-    "తరలించకుంటే ఉద్యమం చేస్తామని హెచ్చరిక"
-   ],
-   "why": "డంపింగ్ యార్డు సమీప కాలనీల ప్రజల ఆరోగ్యానికి సంబంధించిన సమస్య ఇది.",
-   "pub": "2026-11-12T15:46+05:30",
-   "en": {
-    "h": "Relocate Karimnagar dumping yard immediately, demands CPM",
-    "p": "CPM city secretary Gudikandula Satyam demanded that the dumping yard in Karimnagar be relocated immediately for a permanent solution. He said smoke from the yard, which catches fire every year, causes breathing problems for residents of Alkapuri Colony, Alugunur, Housing Board and other areas. He alleged that the BJP itself was blocking the relocation, HMTV reported.",
-    "pts": [
-     "Residents also face foul smell in the rainy season",
-     "Responded to Bandi Sanjay's remark that some are obstructing",
-     "Warned of agitation if it is not moved"
-    ],
-    "why": "It is a health issue for people living in colonies near the dumping yard.",
-    "cat": "Karimnagar · Civic",
-    "statl": "Areas affected by smoke"
-   },
-   "hi": {
-    "h": "करीमनगर डंपिंग यार्ड तुरंत हटाया जाए: सीपीएम की मांग",
-    "p": "सीपीएम नगर सचिव गुडिकंदुला सत्यम ने करीमनगर के डंपिंग यार्ड को तुरंत स्थानांतरित कर स्थायी समाधान की मांग की। उन्होंने कहा कि हर साल यार्ड में आग लगने से उठने वाले धुएं से अलकापुरी कॉलोनी, अलुगुनूर, हाउसिंग बोर्ड समेत कई इलाकों के लोगों को सांस की तकलीफ होती है। एचएमटीवी के अनुसार उन्होंने आरोप लगाया कि भाजपा ही स्थानांतरण रोक रही है।",
-    "pts": [
-     "बारिश में दुर्गंध से भी परेशान हैं लोग",
-     "कुछ लोग रोक रहे हैं वाले बंडी संजय के बयान पर जवाब",
-     "न हटाने पर आंदोलन की चेतावनी"
-    ],
-    "why": "यह डंपिंग यार्ड के पास की कॉलोनियों के लोगों के स्वास्थ्य से जुड़ा मुद्दा है।",
-    "cat": "करीमनगर · नागरिक समस्या",
-    "statl": "धुएं से प्रभावित इलाके"
-   },
-   "d": "12.11.2026",
-   "t": "19:05"
-  },
-  {
-   "cat": "తెలంగాణ · రాజకీయం",
-   "col": "--c-election",
-   "art": "voters",
-   "stat": "8+8",
-   "statl": "రాష్ట్రంలో బీజేపీ ఎమ్మెల్యేలు, ఎంపీలు",
-   "h": "ఎన్నికల సంఘం పనితీరుపై సుప్రీం విచారణ కోరిన కేటీఆర్; బీజేపీ కౌంటర్",
-   "p": "ఎన్నికల సంఘం పనితీరుపై సుప్రీంకోర్టు విచారణ జరపాలని బీఆర్ఎస్ వర్కింగ్ ప్రెసిడెంట్ కేటీ రామారావు డిమాండ్ చేశారు. బుధవారం నిర్మల్ రైతు గర్జన సభలో మాట్లాడుతూ, ఈసీని సమర్థించేందుకు బీజేపీ నిర్మల్‌లో ర్యాలీ ఎందుకు చేస్తోందని ప్రశ్నించారు. కేటీఆర్, కాంగ్రెస్ ఒక్కటేనని, భయంతోనే బీజేపీ ప్రజాప్రతినిధులను లక్ష్యంగా చేసుకుంటున్నారని బీజేపీ రాష్ట్ర అధ్యక్షుడు రామచందర్ రావు పీటీఐతో అన్నారు.",
-   "src": "Siasat Daily",
-   "url": "https://www.siasat.com/ktr-seeks-sc-probe-into-ec-functioning-bjp-calls-it-fear-3575310/",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "nirmal",
-   "pts": [
-    "నిర్మల్ రైతు గర్జన సభలో కేటీఆర్ వ్యాఖ్యలు",
-    "బీజేపీ ఎమ్మెల్యే ఏలేటి మహేశ్వర్ రెడ్డిపై విమర్శలు",
-    "కేటీఆర్ ఆరోపణలు భయంతోనేనన్న బీజేపీ"
-   ],
-   "why": "ఎన్నికల సంఘం విశ్వసనీయతపై రాష్ట్ర రాజకీయ పార్టీల మధ్య వాదనలు ఇవి.",
-   "pub": "2026-11-12T15:43+05:30",
-   "en": {
-    "h": "KTR seeks Supreme Court probe into EC functioning; BJP hits back",
-    "p": "BRS working president K.T. Rama Rao demanded a Supreme Court inquiry into the Election Commission's functioning. Speaking at the Nirmal Rythu Garjana meeting on Wednesday, he asked why the BJP was holding a rally in Nirmal to defend the EC. BJP state president Ramchander Rao told PTI that KTR and the Congress were the same and that the BRS was targeting BJP legislators out of fear.",
-    "pts": [
-     "KTR spoke at Nirmal Rythu Garjana meeting",
-     "Criticised BJP MLA Alleti Maheshwar Reddy",
-     "BJP says KTR's charges come from fear"
-    ],
-    "why": "These are rival party claims over the Election Commission's credibility.",
-    "cat": "Telangana · Politics",
-    "statl": "BJP MLAs and MPs in the state"
-   },
-   "hi": {
-    "h": "केटीआर ने चुनाव आयोग की कार्यप्रणाली की सुप्रीम कोर्ट जांच मांगी; भाजपा का पलटवार",
-    "p": "बीआरएस कार्यकारी अध्यक्ष के.टी. रामाराव ने चुनाव आयोग की कार्यप्रणाली की सुप्रीम कोर्ट से जांच की मांग की। बुधवार को निर्मल रैतु गर्जना सभा में उन्होंने पूछा कि भाजपा ईसी के बचाव में निर्मल में रैली क्यों कर रही है। भाजपा प्रदेश अध्यक्ष रामचंदर राव ने पीटीआई से कहा कि केटीआर और कांग्रेस एक ही हैं और बीआरएस डर से भाजपा विधायकों को निशाना बना रही है।",
-    "pts": [
-     "निर्मल रैतु गर्जना सभा में केटीआर का भाषण",
-     "भाजपा विधायक अलेटी महेश्वर रेड्डी की आलोचना",
-     "भाजपा ने कहा, आरोप डर से लगाए जा रहे"
-    ],
-    "why": "ये चुनाव आयोग की विश्वसनीयता पर दलों के बीच परस्पर दावे हैं।",
-    "cat": "तेलंगाना · राजनीति",
-    "statl": "राज्य में भाजपा विधायक व सांसद"
-   },
-   "d": "12.11.2026",
-   "t": "19:05"
-  },
-  {
-   "cat": "కొత్తగూడెం · అటవీ",
-   "col": "--c-gov",
-   "art": "land",
-   "stat": "4 ఆవులు",
-   "statl": "ఏపీ వైపు పులి చంపినట్లు సమాచారం",
-   "h": "తెలంగాణ–ఏపీ సరిహద్దులో పులి సంచారం: అశ్వారావుపేట గ్రామాల్లో భయం",
-   "p": "ట్రాకర్ అమర్చిన పులి తెలంగాణ–ఆంధ్రప్రదేశ్ సరిహద్దులో తిరుగుతోందన్న సమాచారంతో కొత్తగూడెం జిల్లా అశ్వారావుపేట మండల గ్రామస్థులు ఆందోళనలో ఉన్నారు. తమ రేంజ్‌లో పులి కనిపించలేదని, పాదముద్రలు దొరకలేదని ఎఫ్‌ఆర్‌ఓ మురళి తెలిపారు. ఏపీలోని వేలేరుపాడు మండలం కొత్తూరు ప్రాంతంలో పులి నాలుగు ఆవులను చంపినట్లు సమాచారం. అటవీ సిబ్బంది అప్రమత్తంగా ఉన్నారు.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/tiger-movement-near-telangana-ap-border-triggers-panic-in-aswaraopet-villages",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "bhadradri",
-   "loc": "అశ్వారావుపేట",
-   "pts": [
-    "అశ్వారావుపేట రేంజ్‌లో పాదముద్రలు లేవన్న ఎఫ్‌ఆర్‌ఓ",
-    "అడవుల్లోకి వెళ్లొద్దని ప్రజలకు సూచన, అవగాహన కార్యక్రమాలు",
-    "పాపికొండ జాతీయ ఉద్యానవనం నుంచి వచ్చి ఉండొచ్చని అంచనా"
-   ],
-   "why": "సరిహద్దు గ్రామాల ప్రజలు, పశువుల యజమానులు అటవీ శాఖ సూచనలు పాటించాల్సిన అవసరం ఉంది.",
-   "pub": "2026-11-12T17:43+05:30",
-   "en": {
-    "h": "Tiger movement on Telangana–AP border sparks fear in Aswaraopet villages",
-    "p": "Villagers in Aswaraopet mandal of Kothagudem district are worried after reports that a tracker-fitted tiger is moving along the Telangana–Andhra Pradesh border. Forest Range Officer Murali said the tiger was not seen in his range and no pugmarks were found. The tiger reportedly killed four cows in the Kothuru area of Velerupadu mandal in AP. Forest staff are on alert.",
-    "pts": [
-     "FRO says no pugmarks found in Aswaraopet range",
-     "People told not to enter forests; awareness drives held",
-     "Tiger may have strayed from Papikonda National Park"
-    ],
-    "why": "Border villagers and cattle owners need to follow the forest department's advice.",
-    "cat": "Kothagudem · Forest",
-    "statl": "Cows reportedly killed on AP side"
-   },
-   "hi": {
-    "h": "तेलंगाना–आंध्र सीमा पर बाघ की हलचल: अश्वरावपेट के गांवों में डर",
-    "p": "ट्रैकर लगे एक बाघ के तेलंगाना–आंध्र प्रदेश सीमा पर घूमने की खबर से कोत्तागुडेम जिले के अश्वरावपेट मंडल के ग्रामीण चिंतित हैं। वन रेंज अधिकारी मुरली ने कहा कि उनकी रेंज में बाघ नहीं दिखा और पैरों के निशान नहीं मिले। खबर है कि बाघ ने आंध्र के वेलेरुपाडु मंडल के कोत्तूरु इलाके में चार गायों को मारा। वन कर्मी सतर्क हैं।",
-    "pts": [
-     "एफआरओ: अश्वरावपेट रेंज में पैरों के निशान नहीं",
-     "लोगों को जंगल में न जाने की सलाह, जागरूकता अभियान",
-     "बाघ पापिकोंडा राष्ट्रीय उद्यान से भटका हो सकता है"
-    ],
-    "why": "सीमा के गांवों के लोगों और पशुपालकों को वन विभाग की सलाह माननी होगी।",
-    "cat": "कोत्तागुडेम · वन",
-    "statl": "आंध्र की ओर गायें मारे जाने की खबर"
-   },
-   "d": "12.11.2026",
-   "t": "18:05"
-  },
-  {
-   "cat": "ఆదిలాబాద్ · పత్తి రైతులు",
-   "col": "--c-gov",
-   "art": "farm",
-   "stat": "₹8,667",
-   "statl": "క్వింటాల్ పత్తి సీసీఐ మద్దతు ధర",
-   "h": "సీసీఐ కొనుగోళ్లలో జాప్యం: ఆదిలాబాద్ పత్తి రైతులకు ప్రైవేటు వ్యాపారుల దెబ్బ",
-   "p": "ఉమ్మడి ఆదిలాబాద్ జిల్లాలో ప్రైవేటు వ్యాపారులు సీసీఐ మద్దతు ధర ₹8,667 కన్నా క్వింటాల్‌కు సుమారు ₹300 తక్కువకు పత్తి కొంటున్నారని, తేమ పేరుతో, హమాలీ, అప్పుల పేరుతో కోతలు పెడుతున్నారని ఆరోపణలు వచ్చాయని తెలంగాణ టుడే తెలిపింది. అనధికార కేంద్రాలపై దాడులు చేయాలని రైతులు కోరారు. అక్రమ వ్యాపారులకు జరిమానా విధిస్తామని మార్కెటింగ్ అధికారి గజానంద్ చెప్పారు.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/private-traders-exploit-adilabad-cotton-farmers-amid-cci-procurement-delay",
-   "sec": [
-    "telangana",
-    "agri"
-   ],
-   "st": "TG",
-   "place": "adilabad",
-   "pts": [
-    "అక్టోబర్ 22న సీసీఐ కొనుగోళ్లు ప్రారంభం; 18 కేంద్రాలు",
-    "వర్షాభావంతో దిగుబడి అంచనా 90 నుంచి 50 లక్షల క్వింటాళ్లకు",
-    "సుమారు 550 మంది వ్యాపారులకే లైసెన్సులు: అధికారి"
-   ],
-   "why": "ఆదిలాబాద్, నిర్మల్, ఆసిఫాబాద్, మంచిర్యాల పత్తి రైతుల ఆదాయంపై ఇది నేరుగా ప్రభావం చూపుతుంది.",
-   "pub": "2026-11-12T17:37+05:30",
-   "en": {
-    "h": "CCI delay: Adilabad cotton farmers hit by private traders, allegations say",
-    "p": "In erstwhile Adilabad district, private traders are allegedly buying cotton about ₹300 per quintal below the CCI support price of ₹8,667, citing moisture and making deductions for hamali and loan recovery, Telangana Today reported. Farmers sought raids on unauthorised centres. District Marketing Officer Gajanand said illegal traders would be fined.",
-    "pts": [
-     "CCI buying began October 22; 18 centres",
-     "Scanty rain cut yield estimate from 90 to 50 lakh quintals",
-     "Only about 550 traders licensed: official"
-    ],
-    "why": "It directly affects the income of cotton farmers in Adilabad, Nirmal, Asifabad and Mancherial.",
-    "cat": "Adilabad · Cotton farmers",
-    "statl": "CCI support price per quintal of cotton"
-   },
-   "hi": {
-    "h": "सीसीआई खरीद में देरी: आदिलाबाद के कपास किसानों पर निजी व्यापारियों की मार का आरोप",
-    "p": "तेलंगाना टुडे के अनुसार पूर्ववर्ती आदिलाबाद जिले में निजी व्यापारियों पर आरोप है कि वे सीसीआई समर्थन मूल्य ₹8,667 से लगभग ₹300 प्रति क्विंटल कम पर कपास खरीद रहे हैं और नमी, हमाली व कर्ज वसूली के नाम पर कटौती कर रहे हैं। किसानों ने अनधिकृत केंद्रों पर छापे की मांग की। जिला विपणन अधिकारी गजानंद ने कहा कि अवैध व्यापारियों पर जुर्माना लगेगा।",
-    "pts": [
-     "सीसीआई खरीद 22 अक्टूबर से शुरू; 18 केंद्र",
-     "कम बारिश से उपज अनुमान 90 से 50 लाख क्विंटल",
-     "केवल करीब 550 व्यापारियों के पास लाइसेंस: अधिकारी"
-    ],
-    "why": "इसका सीधा असर आदिलाबाद, निर्मल, आसिफाबाद और मंचेरियल के कपास किसानों की आय पर पड़ता है।",
-    "cat": "आदिलाबाद · कपास किसान",
-    "statl": "कपास का सीसीआई समर्थन मूल्य प्रति क्विंटल"
-   },
-   "d": "12.11.2026",
-   "t": "18:05"
   },
   {
    "cat": "నీటి సంక్షోభం · హైదరాబాద్",
