@@ -409,7 +409,7 @@ try{ sessionStorage.removeItem('w2s.cards'); if(location.pathname.startsWith('/w
 (()=>{const W=['ఆదివారం','సోమవారం','మంగళవారం','బుధవారం','గురువారం','శుక్రవారం','శనివారం'],M=['జనవరి','ఫిబ్రవరి','మార్చి','ఏప్రిల్','మే','జూన్','జులై','ఆగస్టు','సెప్టెంబర్','అక్టోబర్','నవంబర్','డిసెంబర్'];
  const d=new Date(Date.now()+(330+new Date().getTimezoneOffset())*60000); const el=$('today'); if(el) el.textContent=`📅 ${W[d.getDay()]}, ${d.getDate()} ${M[d.getMonth()]} ${d.getFullYear()}`;})();
 /* side rails start below the header and follow the sticky menu while scrolling */
-(()=>{const place=()=>{const t=document.querySelector('.tick'); if(!t) return; const top=Math.max(68,t.getBoundingClientRect().bottom+18);
+(()=>{const place=()=>{const els=[...document.querySelectorAll('.navbar,.tick')].filter(e=>e.offsetParent!==null&&e.getBoundingClientRect().height>0); if(!els.length) return; const top=Math.max(68,...els.map(e=>e.getBoundingClientRect().bottom+18));
   document.querySelectorAll('.rail').forEach(r=>{r.style.top=top+'px'; r.style.maxHeight=`calc(100vh - ${top+16}px)`;});};
   addEventListener('scroll',place,{passive:true}); addEventListener('resize',place); addEventListener('load',place); setTimeout(place,0);})();
 /* theme */
