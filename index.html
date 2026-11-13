@@ -1159,6 +1159,15 @@ async function share(text){
 }
 /* Open WhatsApp with the text. On iPhone a wa.me link opens whichever WhatsApp the phone picks (often WhatsApp Business),
    so there we copy the caption + link and let the reader open the WhatsApp they want and paste. */
+/* WhatsApp button: open the WhatsApp app straight away with the story link + caption
+   (WhatsApp shows the story's Swipe2News picture as the link preview). Computers: WhatsApp Web / Desktop. */
+function openWADirect(text){
+  const t=encodeURIComponent(text), mob=/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+  if(!mob){ const w=window.open('https://web.whatsapp.com/send?text='+t,'_blank'); if(!w) location.href='https://wa.me/?text='+t; return; }
+  let gone=false; const off=()=>{ gone=true; }; document.addEventListener('visibilitychange',off,{once:true}); addEventListener('pagehide',off,{once:true});
+  location.href='whatsapp://send?text='+t;
+  setTimeout(()=>{ if(!gone && document.visibilityState==='visible') location.href='https://wa.me/?text='+t; },1500);
+}
 function openWA(text){
   const ios=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
   const u='https://wa.me/?text='+encodeURIComponent(text);
@@ -1403,6 +1412,7 @@ function chromeChoice(s,text,viaWA){
 }
 async function shareCard(viaWA){ const s=LIST[cur]; if(!s) return;
   const text=shareText(s);
+  if(viaWA){ openWADirect(text); try{ window.gtag&&gtag('event','share_whatsapp',{}); }catch(e){} return; }
   let b=(cardCache.k===keyOf(s))?cardCache.blob:null;
   if(IOS && (CRIOS||STANDALONE) && window.isSecureContext){ chromeChoice(s,text,viaWA); return; }
   if(IOS && (CRIOS || !window.isSecureContext)){
