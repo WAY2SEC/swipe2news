@@ -27,7 +27,7 @@
     if(chg){ location.reload(); return; } try{ window.dispatchEvent(new CustomEvent('s2prefs',{detail:p})); }catch(e){} };
   window.s2OpenLang=open;
   document.querySelectorAll('.s2lang').forEach(function(b){ var t=b.querySelector('span'); if(t) t.textContent=NAME[cur()]||'తెలుగు'; b.onclick=open; });
-  try{ var q=new URLSearchParams(location.search); if(!get('langPicked',0) && !q.has('l') && !/bot|crawl|spider|Lighthouse/i.test(navigator.userAgent)) open(); }catch(e){}
+  /* content first: the language screen opens only from the language button */
 
   /* breaking strip: only when there is breaking news; pause control */
   var tick=document.querySelector('.tick'), row=$('tick');
