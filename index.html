@@ -28,13 +28,13 @@ addEventListener('unhandledrejection',function(e){var r=e&&e.reason;errs.push('a
 setTimeout(box,12000);setTimeout(box,25000);})();
 </script>
 <script>
-/* Laptops and desktops get the news website; phones, tablets and the installed app keep the swipe cards */
+/* Everyone opening swipe2news.com gets the news website first (Latest News); Swipe Cards open with ?cards=1, the Swipe button, or the installed app */
 (function(){try{var q=new URLSearchParams(location.search);
  var app=matchMedia('(display-mode: standalone)').matches||navigator.standalone===true||document.referrer.indexOf('android-app://')===0;
  if(q.has('cards'))sessionStorage.setItem('w2s.cards','1');
  if(app||q.has('cards')||q.has('build')||q.has('tip')||q.has('jobs')||q.has('source')||sessionStorage.getItem('w2s.cards'))return;
  var touch=/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)||(navigator.maxTouchPoints>1&&innerWidth<1100);
- if(!touch&&innerWidth>=900){var s=q.get('s');location.replace(s?'/s/'+s:'/web/'+location.search);}}catch(e){}})();
+ var s=q.get('s'); if(touch&&(s||q.has('d')||q.has('dates')||q.has('saved')||q.has('l')))return; location.replace(s?'/s/'+s:'/web/'+location.search);}catch(e){}})();
 </script>
 
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -50,13 +50,13 @@ setTimeout(box,12000);setTimeout(box,25000);})();
 <meta property="og:title" content="Swipe2News – ఒక్క స్వైప్‌లో వార్తలు! | Know More. Scroll Less.">
 <meta property="og:description" content="తక్కువ స్క్రోల్, ఎక్కువ సమాచారం – తెలంగాణ, దేశం, ప్రపంచం, AI & టెక్, ఉద్యోగాలు.">
 <meta property="og:url" content="https://swipe2news.com/">
-<meta property="og:image" content="https://raw.githubusercontent.com/SWIPE2NEWS/swipe2news/main/og-image.jpg">
-<meta property="og:image:secure_url" content="https://raw.githubusercontent.com/SWIPE2NEWS/swipe2news/main/og-image.jpg">
+<meta property="og:image" content="https://swipe2news.com/og-image.jpg">
+<meta property="og:image:secure_url" content="https://swipe2news.com/og-image.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/SWIPE2NEWS/swipe2news/main/og-image.jpg">
+<meta name="twitter:image" content="https://swipe2news.com/og-image.jpg">
 <meta name="theme-color" content="#4A0E3F">
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="manifest" href="manifest.webmanifest">
@@ -610,7 +610,7 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
   <div class="toast" id="toast" role="status"></div>
 </div>
 
-<script src="scenes.js?v=20261109a"></script>
+<script src="scenes.js?v=20261113a"></script>
 <script>
 const CONFIG = {
   NEWS_URL: 'news.json',
@@ -1613,6 +1613,7 @@ async function load(){
     // opened from Chrome on iPhone to send the picture: Safari can share pictures, so show the one-tap share screen
     if(q.has('sharecard') && LIST[cur]){ const b=await timeout(prepCard(),8000); if(b) showCardImage(b, shareText(LIST[cur]), ''); } }
   else if(q.has('dates') && !load.done){ load.done=1; openDates(); }
+  else if(q.has('saved') && !load.done){ load.done=1; setView('saved'); }
 }
 load();
 document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible' && $('sheet').hidden && view==='home') load(); });

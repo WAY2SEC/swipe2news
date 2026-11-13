@@ -16,7 +16,7 @@ from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://swipe2news.com"
 # link-preview pictures: first from our own site (WhatsApp shows these reliably), then the same file on GitHub as a backup
-IMG = "https://raw.githubusercontent.com/SWIPE2NEWS/swipe2news/main"
+IMG = "https://swipe2news.com"
 KEEP_DAYS = 21
 # Swipe2News promo flyer under every article (set PROMO_ON = False to switch it off)
 PROMO_ON = True
@@ -90,10 +90,11 @@ def shell():
     """Reuse the website's look (styles, top bar, ticker, side rails, footer) from tools/web_template.html."""
     if SHELL: return SHELL
     t = open(os.path.join(ROOT, "tools", "web_template.html"), encoding="utf-8").read()
-    SHELL["css"] = t[t.index("<style>") + 7:t.index("</style>")]
+    SHELL["css"] = t[t.index("<style>") + 7:t.index("</style>")] + "\n" + open(os.path.join(ROOT, "web", "s2n.css"), encoding="utf-8").read()
     hd = t[t.index('<header class="top">'):t.index('<aside class="rail l"')]
-    nav = "".join(f'<a href="/?sec={k}">{n}</a>' + ('<a href="/?jobs=1">💼 జాబ్స్</a>' if k == "world" else "") for k, n in SITE_SECS)
-    hd = hd.replace('<nav class="secs" id="secs" aria-label="విభాగాలు"></nav>', f'<nav class="secs" aria-label="విభాగాలు"><a href="/">హోమ్</a><a href="/epaper/">📰 ఈ-పేపర్</a><a href="/?dates=1">📅 పాత వార్తలు</a>{nav}</nav>')
+    nav = "".join(f'<a href="/?sec={k}">{n}</a>' for k, n in [('telangana','తెలంగాణ'),('ap','ఆంధ్రప్రదేశ్'),('india','దేశం'),('world','ప్రపంచం'),('business','బిజినెస్'),('sports','క్రీడలు')])
+    more = '<div class="s2more"><button type="button" aria-haspopup="true">మరిన్ని ▾</button><div class="menu"><a href="/epaper/">📰 ఈ-పేపర్ · E-paper</a><a href="/?jobs=1">💼 ఉద్యోగాలు · Jobs</a><a href="/?sec=ai">🤖 AI & టెక్</a><a href="/?sec=education">🎓 విద్య</a><a href="/?dates=1">📅 పాత వార్తలు · Archive</a><a href="/reporter/join.html">🎙️ రిపోర్టర్ అవ్వండి</a></div></div>'
+    hd = hd.replace('<nav class="secs" id="secs" aria-label="విభాగాలు"></nav>', f'<nav class="secs" aria-label="విభాగాలు"><a href="/">ముఖ్య వార్తలు</a>{nav}{more}</nav>')
     hd = hd.replace('<label class="search">', '<form class="search" action="/" method="get" role="search"><label style="display:contents">').replace('<kbd>/</kbd></label>', '<kbd>↵</kbd></label></form>')
     hd = hd.replace('<input id="q" type="search"', '<input id="q" name="q" type="search"')
     SHELL["header"] = hd
@@ -182,6 +183,7 @@ def page(sid, s, kind, img, has_card, target, desc, related):
 <meta name="theme-color" content="#2E0827"><link rel="icon" href="/favicon-48.png"><link rel="manifest" href="/manifest.webmanifest">
 <meta name="google-adsense-account" content="ca-pub-5189488674224327"><script async src="https://www.googletagmanager.com/gtag/js?id=G-2179H3TXWP"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-2179H3TXWP');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5189488674224327" crossorigin="anonymous"></script>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>{tr_json}
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&family=Noto+Sans+Telugu:wght@400;600;700;800&display=swap">
 <style>{sh["css"]}{ARTICLE_CSS}</style>
 </head><body>
 {sh["header"]}
@@ -216,7 +218,7 @@ def page(sid, s, kind, img, has_card, target, desc, related):
 <section class="sec"><div class="sh"><h2>మరిన్ని తాజా వార్తలు</h2><a href="/">హోమ్ →</a></div><div class="grid" id="more"></div></section>
 </main>
 {sh["footer"]}
-<script src="/scenes.js?v=20261109a" defer></script><script src="/web/site.js" defer></script><script src="/web/bg.js?v=1" defer></script>
+<script src="/scenes.js?v=20261113a" defer></script><script src="/web/site.js" defer></script><script src="/web/s2n.js?v=1" defer></script>
 </body></html>
 """
 
@@ -378,6 +380,7 @@ def static_page(title, desc, body, name=""):
 <meta name="theme-color" content="#2E0827"><link rel="icon" href="/favicon-48.png"><link rel="manifest" href="/manifest.webmanifest">
 <meta name="google-adsense-account" content="ca-pub-5189488674224327"><script async src="https://www.googletagmanager.com/gtag/js?id=G-2179H3TXWP"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-2179H3TXWP');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5189488674224327" crossorigin="anonymous"></script>
 <meta property="og:title" content="{e(title)}"><meta property="og:image" content="{IMG}/og-image.jpg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&family=Noto+Sans+Telugu:wght@400;600;700;800&display=swap">
 <style>{sh["css"]}{ARTICLE_CSS}.ar .in h2{{font-size:22px;margin:26px 0 10px}}.ar .in p{{line-height:1.85}}
 .ab-hero{{margin:-26px -32px 24px;padding:44px 32px 40px;color:#fff;background:radial-gradient(120% 140% at 100% 0%,#3B2A7A 0,#1A2C55 45%,#22061D 100%);position:relative;overflow:hidden}}
 .ab-hero:after{{content:"";position:absolute;right:-60px;top:-60px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(200,16,46,.55),transparent 65%)}}
@@ -403,7 +406,7 @@ def static_page(title, desc, body, name=""):
 <main class="wrap"><div class="agrid"><article class="ar" style="--hl:var(--c-money);--hlink:var(--c-money)"><div class="in">{body}</div></article>
 <aside class="aside"><div class="latest"><h3>⚡ తాజా వార్తలు</h3><div id="latest"></div></div><div class="rbox rqr"><h4>📲 Swipe2News ఛానెల్</h4><img src="/qr.png" alt="Swipe2News WhatsApp ఛానెల్ QR"><p>స్కాన్ చేసి ప్రతి 30 నిమిషాలకు వార్తలు పొందండి</p></div></aside></div></main>
 {sh["footer"]}
-<script src="/scenes.js?v=20261109a" defer></script><script src="/web/site.js" defer></script><script src="/web/bg.js?v=1" defer></script>
+<script src="/scenes.js?v=20261113a" defer></script><script src="/web/site.js" defer></script><script src="/web/s2n.js?v=1" defer></script>
 </body></html>
 """
 

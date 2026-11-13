@@ -11,13 +11,13 @@
 <link rel="icon" href="/favicon-48.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.webmanifest">
-<script src="/scenes.js?v=20261109a"></script><script src="/web/bg.js?v=1" defer></script>
+<script src="/scenes.js?v=20261113a"></script>
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Swipe2News">
 <meta property="og:title" content="Swipe2News – ఒక్క స్వైప్‌లో వార్తలు! | Know More. Scroll Less.">
 <meta property="og:description" content="తక్కువ స్క్రోల్, ఎక్కువ సమాచారం – తెలంగాణ, దేశం, ప్రపంచం, AI & టెక్, ఉద్యోగాలు.">
 <meta property="og:url" content="https://swipe2news.com/">
-<meta property="og:image" content="https://raw.githubusercontent.com/SWIPE2NEWS/swipe2news/main/og-image.jpg">
+<meta property="og:image" content="https://swipe2news.com/og-image.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://swipe2news.com/">
 <style>
@@ -270,6 +270,7 @@ footer a:hover{color:var(--brand)}
 .myplace{display:inline-flex;align-items:center;gap:6px;border:0;background:transparent;color:inherit;font:inherit;cursor:pointer;padding:0}
 @media (prefers-reduced-motion:reduce){.tk .row,.live i,.listen .wave i{animation:none!important}.card{transition:none}}
 </style>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&family=Noto+Sans+Telugu:wght@400;600;700;800&display=swap"><link rel="stylesheet" href="/web/s2n.css?v=1">
 </head>
 <body>
 <a class="skip" href="#main">ప్రధాన కంటెంట్‌కు వెళ్లండి</a>
@@ -278,11 +279,12 @@ footer a:hover{color:var(--brand)}
   <div class="wrap">
     <div class="bar">
       <a class="logo" href="/" aria-label="Swipe2News హోమ్"><img class="lk" src="/logo.png" alt="Swipe2News"><img class="lt" src="/logo-light.png" alt=""></a>
-      <div class="tagl">ఒక్క స్వైప్‌లో వార్తలు!<small>Know More. Scroll Less.</small><small class="te2">తక్కువ స్క్రోల్, ఎక్కువ సమాచారం</small></div>
+      <div class="tagl"><span class="tg1">ఒక్క స్వైప్‌లో వార్తలు!</span><small>Know More. Scroll Less.</small><small class="te2">తక్కువ స్క్రోల్, ఎక్కువ సమాచారం</small></div>
       <label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input id="q" type="search" placeholder="వార్తలు వెతకండి…" aria-label="వెతకండి"><kbd>/</kbd></label>
+      <button class="s2lang" type="button" aria-label="Language · భాష"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span>తెలుగు</span></button>
       <button class="ib" id="theme" type="button" aria-label="థీమ్ మార్చండి"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>
       <a class="cta wa" href="https://whatsapp.com/channel/0029Vb9nNd8CBtxIYFryH138" target="_blank" rel="noopener"><svg viewBox="0 0 32 32" width="18" height="18" aria-hidden="true"><path fill="#fff" d="M16 3.2A12.7 12.7 0 0 0 5.1 22.4L3.4 28.6l6.4-1.7A12.7 12.7 0 1 0 16 3.2zm5.8 15.3c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3c.2.2 2.2 3.4 5.4 4.8 2 .9 2.8.9 3.8.8a3.2 3.2 0 0 0 2.1-1.5 2.6 2.6 0 0 0 .2-1.5c-.1-.1-.3-.2-.6-.4z"/></svg><span class="tx">ఛానెల్‌లో చేరండి</span></a>
-      <a class="cta" href="/?cards=1"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg><span class="tx">కార్డులు</span></a>
+      <a class="cta" href="/?cards=1"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg><span class="tx">Read Cards · కార్డులు</span></a>
     </div>
   </div>
 </header>
@@ -309,7 +311,7 @@ footer a:hover{color:var(--brand)}
       <a class="lead" id="lead" href="#"></a>
       <div class="side">
         <div class="brief">
-          <h3><span>AI</span> 60 సెకన్లలో ఈరోజు</h3>
+          <h3><span>60s</span> ఈరోజు 60 సెకన్లలో · Today in 60 Seconds</h3>
           <ol id="brief"></ol>
           <button class="listen" id="listen" type="button" aria-pressed="false"><span class="wave"><i></i><i></i><i></i><i></i></span><span id="listenTx">తెలుగులో వినండి</span></button>
         </div>
@@ -318,12 +320,14 @@ footer a:hover{color:var(--brand)}
     </section>
     <div id="sections"></div>
     <a class="ad wide adslot" data-ad="inline" href="https://wa.me/917032656422?text=%E0%B0%A8%E0%B0%AE%E0%B0%B8%E0%B1%8D%E0%B0%95%E0%B0%BE%E0%B0%B0%E0%B0%82%2C%20Swipe2News%20%E0%B0%B2%E0%B1%8B%20%E0%B0%AA%E0%B1%8D%E0%B0%B0%E0%B0%95%E0%B0%9F%E0%B0%A8%20%E0%B0%87%E0%B0%B5%E0%B1%8D%E0%B0%B5%E0%B0%BE%E0%B0%B2%E0%B0%A8%E0%B1%81%E0%B0%95%E0%B1%81%E0%B0%82%E0%B0%9F%E0%B1%81%E0%B0%A8%E0%B1%8D%E0%B0%A8%E0%B0%BE%E0%B0%A8%E0%B1%81" target="_blank" rel="noopener"><span class="big">AD</span><div style="text-align:left"><b>మీ వ్యాపార ప్రకటన ఇక్కడ చూపించండి</b><p>వేలాది తెలుగు పాఠకులకు చేరండి – షాప్‌లు, కోచింగ్ సెంటర్లు, హాస్పిటల్స్, రియల్ ఎస్టేట్.</p></div><span class="go">📩 సంప్రదించండి</span></a>
-    <section class="sec split">
+    <section class="sec split" id="distSec">
       <div class="panel">
-        <div class="sh"><h2>📍 మీ జిల్లా</h2></div>
+        <div class="sh"><h2>📍 తెలంగాణ · ఆంధ్రప్రదేశ్ – మీ జిల్లా</h2></div>
         <div class="dists" id="dists"></div>
         <div class="dres" id="dres"></div>
       </div>
+    </section>
+    <section class="sec split">
       <div class="panel" id="jobsPanel">
         <div class="sh"><h2>💼 ఉద్యోగాలు</h2><a href="/?jobs=1">అన్నీ చూడండి →</a></div>
         <div class="jobs" id="jobs"></div>
@@ -348,7 +352,7 @@ footer a:hover{color:var(--brand)}
 <footer>
   <div class="wrap">
     <div><b style="color:var(--ink)">Swipe2News</b> – Know More. Scroll Less. · సారాంశాలు మా సొంత మాటల్లో; ప్రతి వార్తకు అసలు మూలం పేర్కొన్నాం.</div>
-    <nav><a href="/about.html">మా గురించి</a><a href="/contact.html">సంప్రదించండి</a><a href="/?cards=1">కార్డులు</a><a href="/?jobs=1">ఉద్యోగాలు</a><a href="/editorial-policy.html">సంపాదకీయ విధానం</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></nav>
+    <nav><a href="/about.html">మా గురించి</a><a href="/contact.html">సంప్రదించండి</a><a href="/?cards=1">కార్డులు</a><a href="/?jobs=1">ఉద్యోగాలు</a><a href="/editorial-policy.html">సంపాదకీయ విధానం</a><a href="/editorial-policy.html#corrections">✏️ సవరణలు · Corrections</a><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></nav>
   </div>
 </footer>
 
@@ -421,7 +425,19 @@ function card(s){
     <div class="pnl">${art(s)}${s.brk?'<span class="chip brk">🔴 BREAKING</span>':`<span class="chip">${esc(s.cat||'వార్త')}</span>`}<div class="stat${te(s.stat)?' te':''}">${esc(s.stat||'')}</div></div>
     <div class="bd"><h3>${esc(s.h)}</h3><div class="m">${esc(s.src||'')} · ${esc(s.d||'')}${s.t?' · '+esc(s.t):''}</div></div></a>`;
 }
+const NAVL={te:{all:'ముఖ్య వార్తలు',telangana:'తెలంగాణ',ap:'ఆంధ్రప్రదేశ్',india:'దేశం',world:'ప్రపంచం',business:'బిజినెస్',sports:'క్రీడలు',more:'మరిన్ని'},
+  en:{all:'Top Stories',telangana:'Telangana',ap:'Andhra Pradesh',india:'India',world:'World',business:'Business',sports:'Sports',more:'More'},
+  hi:{all:'मुख्य खबरें',telangana:'तेलंगाना',ap:'आंध्र प्रदेश',india:'देश',world:'दुनिया',business:'बिज़नेस',sports:'खेल',more:'और'}};
 function renderNav(){
+  const P=new URLSearchParams(location.search), onDates=P.has('d')||P.has('dates'), L=NAVL[w2sLang()]||NAVL.te;
+  const main=['all','telangana','ap','india','world','business','sports'];
+  const more=[`<a href="/epaper/">📰 ఈ-పేపర్ · E-paper</a>`,`<a href="/?jobs=1">💼 ఉద్యోగాలు · Jobs</a>`]
+    .concat(WT?[`<a href="?sec=wishes" data-k="wishes">${esc(WT.label)}</a>`]:[])
+    .concat([`<a href="?sec=ai" data-k="ai">🤖 AI & టెక్</a>`,`<a href="?sec=education" data-k="education">🎓 విద్య</a>`,`<a href="?sec=weather" data-k="weather">🌦️ వాతావరణం</a>`,`<a href="?dates=1" data-dates="1">📅 పాత వార్తలు · Archive</a>`,`<a href="/reporter/join.html">🎙️ రిపోర్టర్ అవ్వండి</a>`]);
+  $('secs').innerHTML=main.map(k=>`<a href="?sec=${k}" data-k="${k}" aria-current="${k===section&&!onDates}">${esc(L[k])}</a>`).join('')+
+    `<div class="s2more"><button type="button" aria-haspopup="true">${esc(L.more)} ▾</button><div class="menu">${more.join('')}</div></div>`;
+}
+function renderNavOld(){
   const P=new URLSearchParams(location.search), onDates=P.has('d')||P.has('dates');
   $('secs').innerHTML=SECS.map(([k,n],i)=>`<a href="?sec=${k}" data-k="${k}" aria-current="${k===section&&!onDates}">${n}</a>`+(i===0&&WT?`<a href="?sec=wishes" data-k="wishes" class="${WT.on?'fest':''}" aria-current="${section==='wishes'&&!onDates}">${esc(WT.label)}</a>`:'')+(i===0?`<a href="/epaper/">📰 ఈ-పేపర్</a><a href="/?dates=1" data-dates="1" aria-current="${onDates}">📅 పాత వార్తలు</a>`:'')+(k==='world'?`<a href="/?jobs=1">💼 జాబ్స్</a>`:'')).join('');
 }
@@ -431,15 +447,15 @@ addEventListener('popstate',()=>{section=new URLSearchParams(location.search).ge
 
 function bySec(k){ if(k==='wishes') return WISH; if(k==='ap') return ALL.filter(isAP); return ALL.filter(s=>secsOf(s).includes(k)); }
 function renderHome(){
-  const top=ALL[0]; if(!top) return;
+  const top=ALL.slice(0,4).find(s=>s.img && !s.brk)&&!ALL[0].brk ? ALL.slice(0,4).find(s=>s.img) : ALL[0]; if(!top) return;
   const col=top.col||'--c-gov';
   const lead=$('lead'); lead.href=link(top); lead.style.cssText=`--hl:var(${col});--hlink:var(${col})`;
   lead.innerHTML=`<div class="pnl">${art(top)}<div style="display:flex;gap:8px;flex-wrap:wrap">${top.brk?'<span class="chip brk">🔴 BREAKING</span>':''}<span class="chip">${esc(top.cat||'వార్త')}</span></div><div><div class="stat${te(top.stat)?' te':''}">${esc(top.stat||'')}</div><div class="statl">${esc(top.statl||'')}</div></div></div>
     <div class="txt"><h1>${esc(top.h)}</h1><p>${esc(top.p)}</p>${Array.isArray(top.pts)&&top.pts.length?`<ul class="lpts">${top.pts.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${top.why?`<div class="lwhy"><b>ఇది ఎందుకు ముఖ్యం?</b> ${esc(top.why)}</div>`:''}<div class="meta"><span>Source: ${esc(top.src)}</span><span class="dot"></span><span>${esc(top.d)}${top.t?' · '+esc(top.t):''}</span><span class="dot"></span><span style="color:var(--brand)">పూర్తిగా చదవండి →</span></div></div>`;
-  const five=ALL.slice(0,5);
+  const five=ALL.filter(s=>s!==top).slice(0,5);
   $('brief').innerHTML=five.map(s=>`<li><a href="${link(s)}">${esc(s.h)}</a></li>`).join('');
   $('latest').innerHTML=ALL.slice(1,7).map(s=>`<a class="it" href="${link(s)}"><span class="tm">${esc(s.t||'')}</span><span class="hd">${esc(s.h)}</span></a>`).join('');
-  const used=new Set(ALL.slice(0,7).map(sid));
+  const used=new Set(ALL.slice(0,7).map(sid)); used.add(sid(top));
   const me=prefsGet(); const mine=ALL.map(s=>[s,inMine(s,me)]).filter(x=>x[1]>0).sort((a,b)=>b[1]-a[1]).map(x=>x[0]).slice(0,4);
   const mineHTML = mine.length ? `<section class="sec"><div class="sh"><h2>📍 ${esc(placeTx(me))} వార్తలు</h2><a href="#" id="chgPlace">ప్రాంతం మార్చండి →</a></div><div class="grid">${mine.map(card).join('')}</div></section>` : '';
   mine.forEach(s=>used.add(sid(s)));
@@ -452,7 +468,7 @@ function renderHome(){
   }).join('')+(WT&&!WT.on?wishHTML:'');
   if($('chgPlace')) $('chgPlace').onclick=e=>{e.preventDefault();openPick();};
   $('sections').querySelectorAll('a[data-go]').forEach(a=>a.onclick=e=>{e.preventDefault();section=a.dataset.go;history.pushState(null,'','?sec='+section);route();scrollTo({top:0,behavior:'smooth'});});
-  $('tick').innerHTML=(t=>t+t)(ALL.slice(0,10).map(s=>`<a href="${link(s)}"><b>${s.brk?'🔴 BREAKING':esc(s.t||'')}</b>${esc(s.h)}</a>`).join(''));
+  $('tick').innerHTML=(t=>t+t)(ALL.filter(s=>s.brk).slice(0,6).map(s=>`<a href="${link(s)}"><b>${s.brk?'🔴 BREAKING':esc(s.t||'')}</b>${esc(s.h)}</a>`).join(''));
   // districts
   const ALLP=Object.assign({},PLACES,Object.fromEntries(AP_DISTRICTS.concat(...Object.values(STATE_DISTRICTS)).map(a=>[a[0],a[1]])));
   const have=Object.keys(ALLP).filter(k=>ALL.some(s=>s.place===k));
@@ -549,7 +565,7 @@ $('myPlace').onclick=openPick;
 function afterPick(){ if(window.w2sBgRefresh) w2sBgRefresh(); $('myPlaceTx').textContent=placeTx(prefsGet()); if(ALL.length){ renderHome(); route(); } }
 { const p=prefsGet(); if(p.place||p.st) $('myPlaceTx').textContent=placeTx(p);
   let skip=false; try{skip=!!sessionStorage.getItem('w2s.skipPick')}catch(e){}
-  if((!p.st && !p.place && !skip) || new URLSearchParams(location.search).has('pick')) setTimeout(openPick,600); }
+  if(new URLSearchParams(location.search).has('pick')) setTimeout(openPick,600); }
 
 /* AI briefing voice */
 $('listen').onclick=()=>{ const sy=window.speechSynthesis, b=$('listen'); if(!sy){alert;return;}
@@ -589,5 +605,6 @@ setInterval(async()=>{
 },60000);
 </script>
 <script>try{document.querySelectorAll('img.wgreet').forEach(function(i){if(Date.now()<new Date(i.dataset.until).getTime())i.hidden=false})}catch(e){}</script>
+<script src="/web/s2n.js?v=1" defer></script>
 </body>
 </html>

@@ -374,6 +374,7 @@ function w2sJob(j,l){ l=l||w2sLang(); const o=(l!=='te'&&j&&j[l]&&typeof j[l]===
 /* website menu: show the sections that fit in one row, the rest go under "మరిన్ని ▾" (nothing hides off the edge) */
 function w2sNavFit(nav){
   if(!nav) return; nav.classList.add('fit');
+  if(nav.querySelector('.s2more')) return; // Swipe2News menu: scrolls sideways, extra items live in its own More menu
   let more=nav.querySelector('.nmore'); if(more){ more.querySelectorAll('.nmenu a').forEach(a=>nav.insertBefore(a,more)); more.remove(); }
   if(nav.scrollWidth<=nav.clientWidth+1) return;
   more=document.createElement('div'); more.className='nmore';
@@ -395,6 +396,7 @@ function w2sNavFit(nav){
 
 /* First visit through a shared story link: ask the reader's language once (తెలుగు / English / हिन्दी), then show the story in it */
 function w2sAskLang(){
+  return; // replaced by the Swipe2News language screen (web/s2n.js)
   try{
     if(!document.querySelector('article.ar') || document.getElementById('sheet') || document.getElementById('pick')) return;
     if(/[?&]l=(te|en|hi)\b/.test(location.search)) return;
@@ -402,11 +404,11 @@ function w2sAskLang(){
   }catch(e){ return; }
   const o=document.createElement('div'); o.id='w2sAsk';
   o.style.cssText='position:fixed;inset:0;z-index:9999;background:rgba(8,12,24,.72);display:flex;align-items:center;justify-content:center;padding:18px';
-  o.innerHTML='<div style="background:#fff;color:#14213d;border-radius:20px;padding:22px 20px;width:min(380px,100%);box-shadow:0 20px 60px rgba(0,0,0,.4);text-align:center;font-family:\'Noto Sans Telugu\',\'Noto Sans Devanagari\',system-ui,sans-serif">'
+  o.innerHTML='<div style="background:#fff;color:#202124;border-radius:20px;padding:22px 20px;width:min(380px,100%);box-shadow:0 20px 60px rgba(0,0,0,.4);text-align:center;font-family:\'Noto Sans Telugu\',\'Noto Sans Devanagari\',system-ui,sans-serif">'
    +'<img src="/logo.png" alt="Swipe2News" style="height:34px;margin-bottom:10px">'
    +'<div style="font:800 19px/1.4 inherit">భాష ఎంచుకోండి</div><div style="font:600 14px/1.5 inherit;color:#555">Choose your language · अपनी भाषा चुनें</div>'
    +'<div style="display:grid;gap:10px;margin-top:16px">'
-   +'<button type="button" data-l="te" style="min-height:52px;border:0;border-radius:12px;background:#e0062b;color:#fff;font:800 19px inherit;cursor:pointer">తెలుగు</button>'
+   +'<button type="button" data-l="te" style="min-height:52px;border:0;border-radius:12px;background:#4A0E3F;color:#fff;font:800 19px inherit;cursor:pointer">తెలుగు</button>'
    +'<button type="button" data-l="en" style="min-height:52px;border:0;border-radius:12px;background:#2E0827;color:#fff;font:800 19px inherit;cursor:pointer">English</button>'
    +'<button type="button" data-l="hi" style="min-height:52px;border:0;border-radius:12px;background:#c47a00;color:#fff;font:800 19px inherit;cursor:pointer">हिन्दी</button>'
    +'</div></div>';
@@ -429,7 +431,7 @@ function w2sLangStrip(){
     const L=[['te','తెలుగు'],['en','English'],['hi','हिन्दी']];
     const d=document.createElement('div'); d.id='w2sLs';
     d.style.cssText='display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 14px';
-    d.innerHTML='<span style="font:700 13px/1 inherit;color:#6b6f80">🌐</span>'+L.map(([k,t])=>'<button type="button" data-l="'+k+'" aria-pressed="'+(k===cur)+'" style="min-height:36px;padding:0 16px;border-radius:999px;cursor:pointer;font:800 15px/1 inherit;border:2px solid '+(k===cur?'#e0062b;background:#e0062b;color:#fff':'#d8d2c6;background:#fff;color:#14213d')+'">'+t+'</button>').join('');
+    d.innerHTML='<span style="font:700 13px/1 inherit;color:#6b6f80">🌐</span>'+L.map(([k,t])=>'<button type="button" data-l="'+k+'" aria-pressed="'+(k===cur)+'" style="min-height:36px;padding:0 16px;border-radius:999px;cursor:pointer;font:800 15px/1 inherit;border:2px solid '+(k===cur?'#4A0E3F;background:#4A0E3F;color:#fff':'#d8d2c6;background:#fff;color:#202124')+'">'+t+'</button>').join('');
     ar.insertBefore(d, ar.firstChild);
     d.querySelectorAll('button[data-l]').forEach(b=>b.onclick=()=>{
       const l=b.dataset.l;
