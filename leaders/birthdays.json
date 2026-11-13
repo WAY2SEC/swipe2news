@@ -1,0 +1,8856 @@
+{
+ "about": "Swipe2News birthday greetings: PM, Telangana + Andhra Pradesh CMs, Dy CMs, ministers, MLAs and MPs. dob = YYYY-MM-DD (or --MM-DD if the year is unknown). verified=true only when a reputable/official source in dob_src states the date. last_posted = year of the last greeting (prevents repeats). photo = path to a photo the user supplied (never download leaders' photos).",
+ "updated": "2026-11-12",
+ "leaders": [
+  {
+   "id": "narendra-modi",
+   "name": "Narendra Modi",
+   "show": "Narendra Modi",
+   "female": false,
+   "house": "pm",
+   "state": "IN",
+   "seat": "Varanasi",
+   "no": null,
+   "party": "BJP",
+   "post": "Prime Minister of India",
+   "dob": "1950-09-17",
+   "dob_src": "pmindia.gov.in PM profile (\"born on the 17th of September 1950\"), checked 2026-11-12",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ నరేంద్ర మోదీ",
+    "role": "భారత ప్రధాన మంత్రి"
+   },
+   "hi": {
+    "name": "श्री नरेंद्र मोदी",
+    "role": "भारत के प्रधानमंत्री"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "palvai-harish-babu",
+   "name": "Palvai Harish Babu",
+   "show": "Palvai Harish Babu",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Sirpur",
+   "no": 1,
+   "party": "BJP",
+   "post": "MLA, Sirpur (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gaddam-vivek-venkatswamy",
+   "name": "Gaddam Vivek Venkatswamy",
+   "show": "Gaddam Vivek Venkatswamy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Chennur (SC)",
+   "no": 2,
+   "party": "INC",
+   "post": "Minister, Government of Telangana",
+   "dob": "1957-11-30",
+   "dob_src": "OpenSanctions in-sansad-ls-4259 (India Lok Sabha members dataset) + Wikipedia G._Vivekanand lead (cites digitalsansad bio); checked 2026-11-11",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ వివేక్ వెంకటస్వామి",
+    "role": "తెలంగాణ రాష్ట్ర మంత్రి"
+   },
+   "hi": {
+    "name": "श्री विवेक वेंकटस्वामी",
+    "role": "तेलंगाना सरकार में मंत्री"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gaddam-vinod",
+   "name": "Gaddam Vinod",
+   "show": "Gaddam Vinod",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Bellampalli (SC)",
+   "no": 3,
+   "party": "INC",
+   "post": "MLA, Bellampalli (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kokkirala-premsagar-rao",
+   "name": "Kokkirala Premsagar Rao",
+   "show": "Kokkirala Premsagar Rao",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Mancherial",
+   "no": 4,
+   "party": "INC",
+   "post": "MLA, Mancherial (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kova-laxmi",
+   "name": "Kova Laxmi",
+   "show": "Kova Laxmi",
+   "female": true,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Asifabad (ST)",
+   "no": 5,
+   "party": "BRS",
+   "post": "MLA, Asifabad (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vedma-bhojju",
+   "name": "Vedma Bhojju",
+   "show": "Vedma Bhojju",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Khanapur (ST)",
+   "no": 6,
+   "party": "INC",
+   "post": "MLA, Khanapur (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "payal-shanker",
+   "name": "Payal Shanker",
+   "show": "Payal Shanker",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Adilabad",
+   "no": 7,
+   "party": "BJP",
+   "post": "MLA, Adilabad (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "anil-jadhav",
+   "name": "Anil Jadhav",
+   "show": "Anil Jadhav",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Boath (ST)",
+   "no": 8,
+   "party": "BRS",
+   "post": "MLA, Boath (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "alleti-maheshwar-reddy",
+   "name": "Alleti Maheshwar Reddy",
+   "show": "Alleti Maheshwar Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Nirmal",
+   "no": 9,
+   "party": "BJP",
+   "post": "MLA, Nirmal (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "pawar-ramarao-patel",
+   "name": "Pawar Ramarao Patel",
+   "show": "Pawar Ramarao Patel",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Mudhole",
+   "no": 10,
+   "party": "BJP",
+   "post": "MLA, Mudhole (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "paidi-rakesh-reddy",
+   "name": "Paidi Rakesh Reddy",
+   "show": "Paidi Rakesh Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Armur",
+   "no": 11,
+   "party": "BJP",
+   "post": "MLA, Armur (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "podduturi-sudarshan-reddy",
+   "name": "Podduturi Sudarshan Reddy",
+   "show": "Podduturi Sudarshan Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Bodhan",
+   "no": 12,
+   "party": "INC",
+   "post": "MLA, Bodhan (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "thota-laxmi-kantha-rao",
+   "name": "Thota Laxmi Kantha Rao",
+   "show": "Thota Laxmi Kantha Rao",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Jukkal (SC)",
+   "no": 13,
+   "party": "INC",
+   "post": "MLA, Jukkal (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "pocharam-srinivas-reddy",
+   "name": "Pocharam Srinivas Reddy",
+   "show": "Pocharam Srinivas Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Banswada",
+   "no": 14,
+   "party": "INC",
+   "post": "MLA, Banswada (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "k-madan-mohan-rao",
+   "name": "K. Madan Mohan Rao",
+   "show": "K. Madan Mohan Rao",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Yellareddy",
+   "no": 15,
+   "party": "INC",
+   "post": "MLA, Yellareddy (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "k-v-ramana-reddy",
+   "name": "K. V. Ramana Reddy",
+   "show": "K. V. Ramana Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Kamareddy",
+   "no": 16,
+   "party": "BJP",
+   "post": "MLA, Kamareddy (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "dhanpal-suryanarayana-gupta",
+   "name": "Dhanpal Suryanarayana Gupta",
+   "show": "Dhanpal Suryanarayana Gupta",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Nizamabad Urban",
+   "no": 17,
+   "party": "BJP",
+   "post": "MLA, Nizamabad Urban (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "rekulapally-bhoopathi-reddy",
+   "name": "Rekulapally Bhoopathi Reddy",
+   "show": "Rekulapally Bhoopathi Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Nizamabad Rural",
+   "no": 18,
+   "party": "INC",
+   "post": "MLA, Nizamabad Rural (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vemula-prashanth-reddy",
+   "name": "Vemula Prashanth Reddy",
+   "show": "Vemula Prashanth Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Balkonda",
+   "no": 19,
+   "party": "BRS",
+   "post": "MLA, Balkonda (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kalvakuntla-sanjay",
+   "name": "Kalvakuntla Sanjay",
+   "show": "Kalvakuntla Sanjay",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Koratla",
+   "no": 20,
+   "party": "BRS",
+   "post": "MLA, Koratla (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "m-sanjay-kumar",
+   "name": "M. Sanjay Kumar",
+   "show": "M. Sanjay Kumar",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Jagtial",
+   "no": 21,
+   "party": "INC",
+   "post": "MLA, Jagtial (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "adluri-laxman-kumar",
+   "name": "Adluri Laxman Kumar",
+   "show": "Adluri Laxman Kumar",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Dharmapuri",
+   "no": 22,
+   "party": "INC",
+   "post": "Minister, Government of Telangana",
+   "dob": "1968-04-01",
+   "dob_src": "unconfirmed: Wikipedia (uncited) 2026-11-10",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "makkan-singh-raj-thakur",
+   "name": "Makkan Singh Raj Thakur",
+   "show": "Makkan Singh Raj Thakur",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Ramagundam",
+   "no": 23,
+   "party": "INC",
+   "post": "MLA, Ramagundam (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "duddilla-sridhar-babu",
+   "name": "Duddilla Sridhar Babu",
+   "show": "Duddilla Sridhar Babu",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Manthani",
+   "no": 24,
+   "party": "INC",
+   "post": "Minister, Government of Telangana",
+   "dob": "1969-05-30",
+   "dob_src": "unconfirmed: dsryuvasena.blogspot.com supporter page (30-05-1969), 2026-11-11; Wikipedia not retrievable this run",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "chinthakunta-vijaya-ramana-rao",
+   "name": "Chinthakunta Vijaya Ramana Rao",
+   "show": "Chinthakunta Vijaya Ramana Rao",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Peddapalle",
+   "no": 25,
+   "party": "INC",
+   "post": "MLA, Peddapalle (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gangula-kamalakar",
+   "name": "Gangula Kamalakar",
+   "show": "Gangula Kamalakar",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Karimnagar",
+   "no": 26,
+   "party": "BRS",
+   "post": "MLA, Karimnagar (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "medipally-sathyam",
+   "name": "Medipally Sathyam",
+   "show": "Medipally Sathyam",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Choppadandi (SC)",
+   "no": 27,
+   "party": "INC",
+   "post": "MLA, Choppadandi (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "aadi-srinivas",
+   "name": "Aadi Srinivas",
+   "show": "Aadi Srinivas",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Vemulawada",
+   "no": 28,
+   "party": "INC",
+   "post": "MLA, Vemulawada (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "k-t-rama-rao",
+   "name": "K. T. Rama Rao",
+   "show": "K. T. Rama Rao",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Sircilla",
+   "no": 29,
+   "party": "BRS",
+   "post": "MLA, Sircilla (Telangana)",
+   "dob": "1976-07-24",
+   "dob_src": "Wikipedia",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ కె. తారక రామారావు",
+    "role": "సిరిసిల్ల ఎమ్మెల్యే"
+   },
+   "hi": {
+    "name": "श्री के. टी. रामा राव",
+    "role": "सिरसिल्ला के विधायक"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kavvampally-satyanarayana",
+   "name": "Kavvampally Satyanarayana",
+   "show": "Kavvampally Satyanarayana",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Manakondur (SC)",
+   "no": 30,
+   "party": "INC",
+   "post": "MLA, Manakondur (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "padi-kaushik-reddy",
+   "name": "Padi Kaushik Reddy",
+   "show": "Padi Kaushik Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Huzurabad",
+   "no": 31,
+   "party": "BRS",
+   "post": "MLA, Huzurabad (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "ponnam-prabhakar",
+   "name": "Ponnam Prabhakar",
+   "show": "Ponnam Prabhakar",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Husnabad",
+   "no": 32,
+   "party": "INC",
+   "post": "Minister, Government of Telangana",
+   "dob": "1967-05-08",
+   "dob_src": "unconfirmed: OpenSanctions in-sansad-ls-4337 (2026-11-10)",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "t-harish-rao",
+   "name": "T. Harish Rao",
+   "show": "T. Harish Rao",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Siddipet",
+   "no": 33,
+   "party": "BRS",
+   "post": "MLA, Siddipet (Telangana)",
+   "dob": "1972-06-03",
+   "dob_src": "Oneindia politician profile (03 Jun 1972) + Wikidata via OpenSanctions Q7668299, checked 2026-11-12",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ హరీశ్ రావు",
+    "role": "సిద్దిపేట ఎమ్మెల్యే"
+   },
+   "hi": {
+    "name": "श्री हरीश राव",
+    "role": "सिद्दिपेट के विधायक"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "mynampally-rohith",
+   "name": "Mynampally Rohith",
+   "show": "Mynampally Rohith",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Medak",
+   "no": 34,
+   "party": "INC",
+   "post": "MLA, Medak (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "patlolla-sanjeeva-reddy",
+   "name": "Patlolla Sanjeeva Reddy",
+   "show": "Patlolla Sanjeeva Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Narayankhed",
+   "no": 35,
+   "party": "INC",
+   "post": "MLA, Narayankhed (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "damodar-raja-narasimha",
+   "name": "Damodar Raja Narasimha",
+   "show": "Damodar Raja Narasimha",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Andole (SC)",
+   "no": 36,
+   "party": "INC",
+   "post": "Minister, Government of Telangana",
+   "dob": "1958-12-05",
+   "dob_src": "unconfirmed: Wikipedia (citation not visible) + hyderabadstories.com, 2026-11-12",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vakiti-sunitha-laxma-reddy",
+   "name": "Vakiti Sunitha Laxma Reddy",
+   "show": "Vakiti Sunitha Laxma Reddy",
+   "female": true,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Narsapur",
+   "no": 37,
+   "party": "BRS",
+   "post": "MLA, Narsapur (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "koninty-manik-rao",
+   "name": "Koninty Manik Rao",
+   "show": "Koninty Manik Rao",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Zahirabad (SC)",
+   "no": 38,
+   "party": "BRS",
+   "post": "MLA, Zahirabad (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "chinta-prabhakar",
+   "name": "Chinta Prabhakar",
+   "show": "Chinta Prabhakar",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Sangareddy",
+   "no": 39,
+   "party": "BRS",
+   "post": "MLA, Sangareddy (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gudem-mahipal-reddy",
+   "name": "Gudem Mahipal Reddy",
+   "show": "Gudem Mahipal Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Patancheru",
+   "no": 40,
+   "party": "INC",
+   "post": "MLA, Patancheru (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kotha-prabhakar-reddy",
+   "name": "Kotha Prabhakar Reddy",
+   "show": "Kotha Prabhakar Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Dubbak",
+   "no": 41,
+   "party": "BRS",
+   "post": "MLA, Dubbak (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "k-chandrashekar-rao",
+   "name": "K. Chandrashekar Rao",
+   "show": "K. Chandrashekar Rao",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Gajwel",
+   "no": 42,
+   "party": "BRS",
+   "post": "Former Chief Minister of Telangana",
+   "dob": "1954-02-17",
+   "dob_src": "Wikipedia (cites The Times of India, 17 Feb 2017) + Free Press Journal, 16 Feb 2022; checked 2026-11-10",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ కేసీఆర్",
+    "role": "తెలంగాణ మాజీ ముఖ్యమంత్రి"
+   },
+   "hi": {
+    "name": "श्री के. चंद्रशेखर राव",
+    "role": "तेलंगाना के पूर्व मुख्यमंत्री"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "malla-reddy",
+   "name": "Malla Reddy",
+   "show": "Malla Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Medchal",
+   "no": 43,
+   "party": "BRS",
+   "post": "MLA, Medchal (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "marri-rajasekhar-reddy",
+   "name": "Marri Rajasekhar Reddy",
+   "show": "Marri Rajasekhar Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Malkajgiri",
+   "no": 44,
+   "party": "BRS",
+   "post": "MLA, Malkajgiri (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "k-p-vivekanand-goud",
+   "name": "K. P. Vivekanand Goud",
+   "show": "K. P. Vivekanand Goud",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Quthbullapur",
+   "no": 45,
+   "party": "BRS",
+   "post": "MLA, Quthbullapur (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "madhavaram-krishna-rao",
+   "name": "Madhavaram Krishna Rao",
+   "show": "Madhavaram Krishna Rao",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Kukatpally",
+   "no": 46,
+   "party": "BRS",
+   "post": "MLA, Kukatpally (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bandari-lakshma-reddy",
+   "name": "Bandari Lakshma Reddy",
+   "show": "Bandari Lakshma Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Uppal",
+   "no": 47,
+   "party": "BRS",
+   "post": "MLA, Uppal (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "malreddy-ranga-reddy",
+   "name": "Malreddy Ranga Reddy",
+   "show": "Malreddy Ranga Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Ibrahimpatnam",
+   "no": 48,
+   "party": "INC",
+   "post": "MLA, Ibrahimpatnam (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "devireddy-sudheer-reddy",
+   "name": "Devireddy Sudheer Reddy",
+   "show": "Devireddy Sudheer Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "L. B. Nagar",
+   "no": 49,
+   "party": "BRS",
+   "post": "MLA, L. B. Nagar (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "sabitha-indra-reddy",
+   "name": "Sabitha Indra Reddy",
+   "show": "Sabitha Indra Reddy",
+   "female": true,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Maheshwaram",
+   "no": 50,
+   "party": "BRS",
+   "post": "MLA, Maheshwaram (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "t-prakash-goud",
+   "name": "T. Prakash Goud",
+   "show": "T. Prakash Goud",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Rajendranagar",
+   "no": 51,
+   "party": "INC",
+   "post": "MLA, Rajendranagar (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "arekapudi-gandhi",
+   "name": "Arekapudi Gandhi",
+   "show": "Arekapudi Gandhi",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Serilingampally",
+   "no": 52,
+   "party": "INC",
+   "post": "MLA, Serilingampally (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kale-yadaiah",
+   "name": "Kale Yadaiah",
+   "show": "Kale Yadaiah",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Chevella (SC)",
+   "no": 53,
+   "party": "INC",
+   "post": "MLA, Chevella (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "t-ram-mohan-reddy",
+   "name": "T. Ram Mohan Reddy",
+   "show": "T. Ram Mohan Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Pargi",
+   "no": 54,
+   "party": "INC",
+   "post": "MLA, Pargi (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gaddam-prasad-kumar",
+   "name": "Gaddam Prasad Kumar",
+   "show": "Gaddam Prasad Kumar",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Vikarabad (SC)",
+   "no": 55,
+   "party": "INC",
+   "post": "Speaker, Telangana Legislative Assembly",
+   "dob": "1964-06-04",
+   "dob_src": "unconfirmed: Wikipedia infobox (uncited), 2026-11-12",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "b-manohar-reddy",
+   "name": "B. Manohar Reddy",
+   "show": "B. Manohar Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Tandur",
+   "no": 56,
+   "party": "INC",
+   "post": "MLA, Tandur (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "muta-gopal",
+   "name": "Muta Gopal",
+   "show": "Muta Gopal",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Musheerabad",
+   "no": 57,
+   "party": "BRS",
+   "post": "MLA, Musheerabad (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "ahmed-bin-abdullah-balala",
+   "name": "Ahmed Bin Abdullah Balala",
+   "show": "Ahmed Bin Abdullah Balala",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Malakpet",
+   "no": 58,
+   "party": "AIMIM",
+   "post": "MLA, Malakpet (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kaleru-venkatesh",
+   "name": "Kaleru Venkatesh",
+   "show": "Kaleru Venkatesh",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Amberpet",
+   "no": 59,
+   "party": "BRS",
+   "post": "MLA, Amberpet (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vallala-naveen-yadav",
+   "name": "Vallala Naveen Yadav",
+   "show": "Vallala Naveen Yadav",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Jubilee Hills",
+   "no": 61,
+   "party": "INC",
+   "post": "MLA, Jubilee Hills (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "talasani-srinivas-yadav",
+   "name": "Talasani Srinivas Yadav",
+   "show": "Talasani Srinivas Yadav",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Sanathnagar",
+   "no": 62,
+   "party": "BRS",
+   "post": "MLA, Sanathnagar (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "mohammad-majid-hussain",
+   "name": "Mohammad Majid Hussain",
+   "show": "Mohammad Majid Hussain",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Nampally",
+   "no": 63,
+   "party": "AIMIM",
+   "post": "MLA, Nampally (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kausar-mohiuddin",
+   "name": "Kausar Mohiuddin",
+   "show": "Kausar Mohiuddin",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Karwan",
+   "no": 64,
+   "party": "AIMIM",
+   "post": "MLA, Karwan (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "t-raja-singh",
+   "name": "T. Raja Singh",
+   "show": "T. Raja Singh",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Goshamahal",
+   "no": 65,
+   "party": "IND",
+   "post": "MLA, Goshamahal (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "mir-zulfeqar-ali",
+   "name": "Mir Zulfeqar Ali",
+   "show": "Mir Zulfeqar Ali",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Charminar",
+   "no": 66,
+   "party": "AIMIM",
+   "post": "MLA, Charminar (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "akbaruddin-owaisi",
+   "name": "Akbaruddin Owaisi",
+   "show": "Akbaruddin Owaisi",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Chandrayangutta",
+   "no": 67,
+   "party": "AIMIM",
+   "post": "MLA, Chandrayangutta (Telangana)",
+   "dob": "1970-06-14",
+   "dob_src": "to verify",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "jaffer-hussain",
+   "name": "Jaffer Hussain",
+   "show": "Jaffer Hussain",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Yakutpura",
+   "no": 68,
+   "party": "AIMIM",
+   "post": "MLA, Yakutpura (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "mohammed-mubeen",
+   "name": "Mohammed Mubeen",
+   "show": "Mohammed Mubeen",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Bahadurpura",
+   "no": 69,
+   "party": "AIMIM",
+   "post": "MLA, Bahadurpura (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "t-padma-rao-goud",
+   "name": "T. Padma Rao Goud",
+   "show": "T. Padma Rao Goud",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Secunderabad",
+   "no": 70,
+   "party": "BRS",
+   "post": "MLA, Secunderabad (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "narayanan-sri-ganesh",
+   "name": "Narayanan Sri Ganesh",
+   "show": "Narayanan Sri Ganesh",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Secunderabad Cantt. (SC)",
+   "no": 71,
+   "party": "INC",
+   "post": "MLA, Secunderabad Cantt. (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "anumula-revanth-reddy",
+   "name": "Anumula Revanth Reddy",
+   "show": "Revanth Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Kodangal",
+   "no": 72,
+   "party": "INC",
+   "post": "Chief Minister of Telangana",
+   "dob": "1969-11-08",
+   "dob_src": "already posted 08.11.2026",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ రేవంత్ రెడ్డి",
+    "role": "తెలంగాణ ముఖ్యమంత్రి"
+   },
+   "hi": {
+    "name": "श्री रेवंत रेड्डी",
+    "role": "तेलंगाना के मुख्यमंत्री"
+   },
+   "photo": "",
+   "last_posted": "2026"
+  },
+  {
+   "id": "chittem-parnika-reddy",
+   "name": "Chittem Parnika Reddy",
+   "show": "Chittem Parnika Reddy",
+   "female": true,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Narayanpet",
+   "no": 73,
+   "party": "INC",
+   "post": "MLA, Narayanpet (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "yennam-srinivas-reddy",
+   "name": "Yennam Srinivas Reddy",
+   "show": "Yennam Srinivas Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Mahbubnagar",
+   "no": 74,
+   "party": "INC",
+   "post": "MLA, Mahbubnagar (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "janampalli-anirudh-reddy",
+   "name": "Janampalli Anirudh Reddy",
+   "show": "Janampalli Anirudh Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Jadcherla",
+   "no": 75,
+   "party": "INC",
+   "post": "MLA, Jadcherla (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gavinolla-madhusudan-reddy",
+   "name": "Gavinolla Madhusudan Reddy",
+   "show": "Gavinolla Madhusudan Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Devarkadra",
+   "no": 76,
+   "party": "INC",
+   "post": "MLA, Devarkadra (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vakiti-srihari",
+   "name": "Vakiti Srihari",
+   "show": "Vakiti Srihari",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Makthal",
+   "no": 77,
+   "party": "INC",
+   "post": "Minister, Government of Telangana",
+   "dob": null,
+   "dob_src": "not found 2026-11-12",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "tudi-megha-reddy",
+   "name": "Tudi Megha Reddy",
+   "show": "Tudi Megha Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Wanaparthy",
+   "no": 78,
+   "party": "INC",
+   "post": "MLA, Wanaparthy (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bandla-krishna-mohan-reddy",
+   "name": "Bandla Krishna Mohan Reddy",
+   "show": "Bandla Krishna Mohan Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Gadwal",
+   "no": 79,
+   "party": "BRS",
+   "post": "MLA, Gadwal (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vijayudu",
+   "name": "Vijayudu",
+   "show": "Vijayudu",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Alampur (SC)",
+   "no": 80,
+   "party": "BRS",
+   "post": "MLA, Alampur (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kuchkulla-rajesh-reddy",
+   "name": "Kuchkulla Rajesh Reddy",
+   "show": "Kuchkulla Rajesh Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Nagarkurnool",
+   "no": 81,
+   "party": "INC",
+   "post": "MLA, Nagarkurnool (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "chikkudu-vamshi-krishna",
+   "name": "Chikkudu Vamshi Krishna",
+   "show": "Chikkudu Vamshi Krishna",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Achampet (SC)",
+   "no": 82,
+   "party": "INC",
+   "post": "MLA, Achampet (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kasireddy-narayan-reddy",
+   "name": "Kasireddy Narayan Reddy",
+   "show": "Kasireddy Narayan Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Kalwakurthy",
+   "no": 83,
+   "party": "INC",
+   "post": "MLA, Kalwakurthy (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "k-shankaraiah",
+   "name": "K. Shankaraiah",
+   "show": "K. Shankaraiah",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Shadnagar",
+   "no": 84,
+   "party": "INC",
+   "post": "MLA, Shadnagar (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "jupally-krishna-rao",
+   "name": "Jupally Krishna Rao",
+   "show": "Jupally Krishna Rao",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Kollapur",
+   "no": 85,
+   "party": "INC",
+   "post": "Minister, Government of Telangana",
+   "dob": "1955-08-10",
+   "dob_src": "The Hans India \"Know Your MLA\" (born August 10, 1955) + Wikidata via OpenSanctions Q6314533, checked 2026-11-12",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ జూపల్లి కృష్ణారావు",
+    "role": "తెలంగాణ రాష్ట్ర మంత్రి"
+   },
+   "hi": {
+    "name": "श्री जूपल्ली कृष्णा राव",
+    "role": "तेलंगाना सरकार में मंत्री"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "nenavath-balu-naik",
+   "name": "Nenavath Balu Naik",
+   "show": "Nenavath Balu Naik",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Devarakonda (ST)",
+   "no": 86,
+   "party": "INC",
+   "post": "MLA, Devarakonda (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kunduru-jayaveer-reddy",
+   "name": "Kunduru Jayaveer Reddy",
+   "show": "Kunduru Jayaveer Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Nagarjuna Sagar",
+   "no": 87,
+   "party": "INC",
+   "post": "MLA, Nagarjuna Sagar (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bathula-laxma-reddy",
+   "name": "Bathula Laxma Reddy",
+   "show": "Bathula Laxma Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Miryalaguda",
+   "no": 88,
+   "party": "INC",
+   "post": "MLA, Miryalaguda (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "nalamada-uttam-kumar-reddy",
+   "name": "Nalamada Uttam Kumar Reddy",
+   "show": "Nalamada Uttam Kumar Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Huzurnagar",
+   "no": 89,
+   "party": "INC",
+   "post": "Minister, Government of Telangana",
+   "dob": "1962-06-20",
+   "dob_src": "Wikipedia (cites The Hans India, 20 Jun 2021) + OpenSanctions in_sansad record, checked 2026-11-09",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ ఉత్తమ్ కుమార్ రెడ్డి",
+    "role": "తెలంగాణ రాష్ట్ర మంత్రి"
+   },
+   "hi": {
+    "name": "श्री उत्तम कुमार रेड्डी",
+    "role": "तेलंगाना सरकार में मंत्री"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "nalamada-padmavathi-reddy",
+   "name": "Nalamada Padmavathi Reddy",
+   "show": "Nalamada Padmavathi Reddy",
+   "female": true,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Kodad",
+   "no": 90,
+   "party": "INC",
+   "post": "MLA, Kodad (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "guntakandla-jagadish-reddy",
+   "name": "Guntakandla Jagadish Reddy",
+   "show": "Guntakandla Jagadish Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Suryapet",
+   "no": 91,
+   "party": "BRS",
+   "post": "MLA, Suryapet (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "komatireddy-venkat-reddy",
+   "name": "Komatireddy Venkat Reddy",
+   "show": "Komatireddy Venkat Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Nalgonda",
+   "no": 92,
+   "party": "INC",
+   "post": "Minister, Government of Telangana",
+   "dob": "1965-05-23",
+   "dob_src": "unconfirmed: Wikipedia/Oneindia say 23 May 1965 but Lok Sabha data (OpenSanctions in-sansad-ls-5074) says 1963-05-23 — year conflict, 2026-11-12",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "komatireddy-raj-gopal-reddy",
+   "name": "Komatireddy Raj Gopal Reddy",
+   "show": "Komatireddy Raj Gopal Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Munugode",
+   "no": 93,
+   "party": "INC",
+   "post": "MLA, Munugode (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kumbam-anil-kumar-reddy",
+   "name": "Kumbam Anil Kumar Reddy",
+   "show": "Kumbam Anil Kumar Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Bhongir",
+   "no": 94,
+   "party": "INC",
+   "post": "MLA, Bhongir (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vemula-veeresham",
+   "name": "Vemula Veeresham",
+   "show": "Vemula Veeresham",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Nakrekal (SC)",
+   "no": 95,
+   "party": "INC",
+   "post": "MLA, Nakrekal (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "mandula-samuel",
+   "name": "Mandula Samuel",
+   "show": "Mandula Samuel",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Thungathurthi (SC)",
+   "no": 96,
+   "party": "INC",
+   "post": "MLA, Thungathurthi (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "beerla-ilaiah",
+   "name": "Beerla Ilaiah",
+   "show": "Beerla Ilaiah",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Alair",
+   "no": 97,
+   "party": "INC",
+   "post": "MLA, Alair (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "palla-rajeshwar-reddy",
+   "name": "Palla Rajeshwar Reddy",
+   "show": "Palla Rajeshwar Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Jangaon",
+   "no": 98,
+   "party": "BRS",
+   "post": "MLA, Jangaon (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kadiyam-srihari",
+   "name": "Kadiyam Srihari",
+   "show": "Kadiyam Srihari",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Ghanpur (Station) (SC)",
+   "no": 99,
+   "party": "INC",
+   "post": "MLA, Ghanpur (Station) (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "mamidala-yashaswini-reddy",
+   "name": "Mamidala Yashaswini Reddy",
+   "show": "Mamidala Yashaswini Reddy",
+   "female": true,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Palakurthi",
+   "no": 100,
+   "party": "INC",
+   "post": "MLA, Palakurthi (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "jatoth-ram-chander-naik",
+   "name": "Jatoth Ram Chander Naik",
+   "show": "Jatoth Ram Chander Naik",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Dornakal (ST)",
+   "no": 101,
+   "party": "INC",
+   "post": "MLA, Dornakal (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "murali-naik-bhukya",
+   "name": "Murali Naik Bhukya",
+   "show": "Murali Naik Bhukya",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Mahabubabad (ST)",
+   "no": 102,
+   "party": "INC",
+   "post": "MLA, Mahabubabad (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "donthi-madhava-reddy",
+   "name": "Donthi Madhava Reddy",
+   "show": "Donthi Madhava Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Narsampet",
+   "no": 103,
+   "party": "INC",
+   "post": "MLA, Narsampet (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "revuri-prakash-reddy",
+   "name": "Revuri Prakash Reddy",
+   "show": "Revuri Prakash Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Parkal",
+   "no": 104,
+   "party": "INC",
+   "post": "MLA, Parkal (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "naini-rajender-reddy",
+   "name": "Naini Rajender Reddy",
+   "show": "Naini Rajender Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Warangal West",
+   "no": 105,
+   "party": "INC",
+   "post": "MLA, Warangal West (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "konda-surekha",
+   "name": "Konda Surekha",
+   "show": "Konda Surekha",
+   "female": true,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Warangal East",
+   "no": 106,
+   "party": "INC",
+   "post": "MLA, Warangal East (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "k-r-nagaraj",
+   "name": "K. R. Nagaraj",
+   "show": "K. R. Nagaraj",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Wardhannapet (SC)",
+   "no": 107,
+   "party": "INC",
+   "post": "MLA, Wardhannapet (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gandra-satyanarayana-rao",
+   "name": "Gandra Satyanarayana Rao",
+   "show": "Gandra Satyanarayana Rao",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Bhupalpalle",
+   "no": 108,
+   "party": "INC",
+   "post": "MLA, Bhupalpalle (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "dansari-anasuya-seethakka",
+   "name": "Dansari Anasuya (Seethakka)",
+   "show": "Seethakka (Dansari Anasuya)",
+   "female": true,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Mulug (ST)",
+   "no": 109,
+   "party": "INC",
+   "post": "Minister, Government of Telangana",
+   "dob": "1971-07-09",
+   "dob_src": "unconfirmed: Wikipedia (uncited) + hyderabadstories.com, 2026-11-12",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "payam-venkateswarlu",
+   "name": "Payam Venkateswarlu",
+   "show": "Payam Venkateswarlu",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Pinapaka (ST)",
+   "no": 110,
+   "party": "INC",
+   "post": "MLA, Pinapaka (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "koram-kanakaiah",
+   "name": "Koram Kanakaiah",
+   "show": "Koram Kanakaiah",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Yellandu (ST)",
+   "no": 111,
+   "party": "INC",
+   "post": "MLA, Yellandu (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "thummala-nageswara-rao",
+   "name": "Thummala Nageswara Rao",
+   "show": "Thummala Nageswara Rao",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Khammam",
+   "no": 112,
+   "party": "INC",
+   "post": "Minister, Government of Telangana",
+   "dob": "1953-11-15",
+   "dob_src": "unconfirmed: Wikipedia (uncited) + hyderabadstories.com, 2026-11-12",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "ponguleti-srinivasa-reddy",
+   "name": "Ponguleti Srinivasa Reddy",
+   "show": "Ponguleti Srinivasa Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Palair",
+   "no": 113,
+   "party": "INC",
+   "post": "Minister, Government of Telangana",
+   "dob": "1965-11-04",
+   "dob_src": "OpenSanctions in-sansad-ls-4683 (16th Lok Sabha member record) + Wikidata, checked 2026-11-12",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ పొంగులేటి శ్రీనివాస రెడ్డి",
+    "role": "తెలంగాణ రాష్ట్ర మంత్రి"
+   },
+   "hi": {
+    "name": "श्री पोंगुलेटी श्रीनिवास रेड्डी",
+    "role": "तेलंगाना सरकार में मंत्री"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "mallu-bhatti-vikramarka",
+   "name": "Mallu Bhatti Vikramarka",
+   "show": "Mallu Bhatti Vikramarka",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Madhira (SC)",
+   "no": 114,
+   "party": "INC",
+   "post": "Deputy Chief Minister of Telangana",
+   "dob": "1961-06-15",
+   "dob_src": "Asianet Newsable profile, Dec 2023",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ మల్లు భట్టి విక్రమార్క",
+    "role": "తెలంగాణ ఉప ముఖ్యమంత్రి"
+   },
+   "hi": {
+    "name": "श्री मल्लू भट्टी विक्रमार्क",
+    "role": "तेलंगाना के उपमुख्यमंत्री"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "maloth-ramdas",
+   "name": "Maloth Ramdas",
+   "show": "Maloth Ramdas",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Wyra (ST)",
+   "no": 115,
+   "party": "INC",
+   "post": "MLA, Wyra (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "matta-ragamayee",
+   "name": "Matta Ragamayee",
+   "show": "Matta Ragamayee",
+   "female": true,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Sathupalli (SC)",
+   "no": 116,
+   "party": "INC",
+   "post": "MLA, Sathupalli (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kunamneni-sambasiva-rao",
+   "name": "Kunamneni Sambasiva Rao",
+   "show": "Kunamneni Sambasiva Rao",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Kothagudem",
+   "no": 117,
+   "party": "CPI",
+   "post": "MLA, Kothagudem (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "jare-adinarayana",
+   "name": "Jare Adinarayana",
+   "show": "Jare Adinarayana",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Aswaraopeta (ST)",
+   "no": 118,
+   "party": "INC",
+   "post": "MLA, Aswaraopeta (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "tellam-venkata-rao",
+   "name": "Tellam Venkata Rao",
+   "show": "Tellam Venkata Rao",
+   "female": false,
+   "house": "mla",
+   "state": "TG",
+   "seat": "Bhadrachalam (ST)",
+   "no": 119,
+   "party": "INC",
+   "post": "MLA, Bhadrachalam (Telangana)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "ashok-bendalam",
+   "name": "Ashok Bendalam",
+   "show": "Ashok Bendalam",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Ichchapuram",
+   "no": 1,
+   "party": "TDP",
+   "post": "MLA, Ichchapuram (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gouthu-sireesha",
+   "name": "Gouthu Sireesha",
+   "show": "Gouthu Sireesha",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Palasa",
+   "no": 2,
+   "party": "TDP",
+   "post": "MLA, Palasa (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kinjarapu-atchannaidu",
+   "name": "Kinjarapu Atchannaidu",
+   "show": "Kinjarapu Atchannaidu",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Tekkali",
+   "no": 3,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "not found 2026-11-12",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "mamidi-govinda-rao",
+   "name": "Mamidi Govinda Rao",
+   "show": "Mamidi Govinda Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Pathapatnam",
+   "no": 4,
+   "party": "TDP",
+   "post": "MLA, Pathapatnam (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gondu-shankar",
+   "name": "Gondu Shankar",
+   "show": "Gondu Shankar",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Srikakulam",
+   "no": 5,
+   "party": "TDP",
+   "post": "MLA, Srikakulam (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "koona-ravi-kumar",
+   "name": "Koona Ravi Kumar",
+   "show": "Koona Ravi Kumar",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Amadalavalasa",
+   "no": 6,
+   "party": "TDP",
+   "post": "MLA, Amadalavalasa (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "nadukuditi-eswara-rao",
+   "name": "Nadukuditi Eswara Rao",
+   "show": "Nadukuditi Eswara Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Etcherla",
+   "no": 7,
+   "party": "BJP",
+   "post": "MLA, Etcherla (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "baggu-ramanamurthy",
+   "name": "Baggu Ramanamurthy",
+   "show": "Baggu Ramanamurthy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Narasannapeta",
+   "no": 8,
+   "party": "TDP",
+   "post": "MLA, Narasannapeta (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kondru-murali-mohan",
+   "name": "Kondru Murali Mohan",
+   "show": "Kondru Murali Mohan",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Rajam (SC)",
+   "no": 9,
+   "party": "TDP",
+   "post": "MLA, Rajam (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "nimmaka-jaya-krishna",
+   "name": "Nimmaka Jaya Krishna",
+   "show": "Nimmaka Jaya Krishna",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Palakonda (ST)",
+   "no": 10,
+   "party": "JSP",
+   "post": "MLA, Palakonda (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "jagadeeswari-thoyaka",
+   "name": "Jagadeeswari Thoyaka",
+   "show": "Jagadeeswari Thoyaka",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kurupam (ST)",
+   "no": 11,
+   "party": "TDP",
+   "post": "MLA, Kurupam (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bonela-vijaya-chandra",
+   "name": "Bonela Vijaya Chandra",
+   "show": "Bonela Vijaya Chandra",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Parvathipuram (SC)",
+   "no": 12,
+   "party": "TDP",
+   "post": "MLA, Parvathipuram (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gummadi-sandhya-rani",
+   "name": "Gummadi Sandhya Rani",
+   "show": "Gummadi Sandhya Rani",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Salur (ST)",
+   "no": 13,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": "1973-03-15",
+   "dob_src": "unconfirmed: Deccan Chronicle profile, 2026-11-12",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "r-v-s-k-k-ranga-rao",
+   "name": "R. V. S. K. K. Ranga Rao",
+   "show": "R. V. S. K. K. Ranga Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Bobbili",
+   "no": 14,
+   "party": "TDP",
+   "post": "MLA, Bobbili (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kimidi-kalavenkata-rao",
+   "name": "Kimidi Kalavenkata Rao",
+   "show": "Kimidi Kalavenkata Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Cheepurupalli",
+   "no": 15,
+   "party": "TDP",
+   "post": "MLA, Cheepurupalli (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kondapalli-srinivas",
+   "name": "Kondapalli Srinivas",
+   "show": "Kondapalli Srinivas",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Gajapathinagaram",
+   "no": 16,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "not found 2026-11-12",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "lokam-naga-madhavi",
+   "name": "Lokam Naga Madhavi",
+   "show": "Lokam Naga Madhavi",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Nellimarla",
+   "no": 17,
+   "party": "JSP",
+   "post": "MLA, Nellimarla (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "pusapati-aditi-vijayalakshmi",
+   "name": "Pusapati Aditi Vijayalakshmi",
+   "show": "Pusapati Aditi Vijayalakshmi",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Vizianagaram",
+   "no": 18,
+   "party": "TDP",
+   "post": "MLA, Vizianagaram (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kolla-lalitha-kumari",
+   "name": "Kolla Lalitha Kumari",
+   "show": "Kolla Lalitha Kumari",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Srungavarapukota",
+   "no": 19,
+   "party": "TDP",
+   "post": "MLA, Srungavarapukota (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "ganta-srinivasa-rao",
+   "name": "Ganta Srinivasa Rao",
+   "show": "Ganta Srinivasa Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Bhimili",
+   "no": 20,
+   "party": "TDP",
+   "post": "MLA, Bhimili (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "velagapudi-ramakrishna-babu",
+   "name": "Velagapudi Ramakrishna Babu",
+   "show": "Velagapudi Ramakrishna Babu",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Visakhapatnam East",
+   "no": 21,
+   "party": "TDP",
+   "post": "MLA, Visakhapatnam East (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vamsi-krishna-srinivasa-yadav",
+   "name": "Vamsi Krishna Srinivasa Yadav",
+   "show": "Vamsi Krishna Srinivasa Yadav",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Visakhapatnam South",
+   "no": 22,
+   "party": "JSP",
+   "post": "MLA, Visakhapatnam South (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "penmetsa-vishnu-kumar-raju",
+   "name": "Penmetsa Vishnu Kumar Raju",
+   "show": "Penmetsa Vishnu Kumar Raju",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Visakhapatnam North",
+   "no": 23,
+   "party": "BJP",
+   "post": "MLA, Visakhapatnam North (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "p-g-v-r-naidu",
+   "name": "P. G. V. R. Naidu",
+   "show": "P. G. V. R. Naidu",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Visakhapatnam West",
+   "no": 24,
+   "party": "TDP",
+   "post": "MLA, Visakhapatnam West (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "palla-srinivasa-rao",
+   "name": "Palla Srinivasa Rao",
+   "show": "Palla Srinivasa Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Gajuwaka",
+   "no": 25,
+   "party": "TDP",
+   "post": "MLA, Gajuwaka (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kalidindi-suryana-naga-sanyasi-raju",
+   "name": "Kalidindi Suryana Naga Sanyasi Raju",
+   "show": "Kalidindi Suryana Naga Sanyasi Raju",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Chodavaram",
+   "no": 26,
+   "party": "TDP",
+   "post": "MLA, Chodavaram (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bandaru-satyanarayana-murthy",
+   "name": "Bandaru Satyanarayana Murthy",
+   "show": "Bandaru Satyanarayana Murthy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Madugula",
+   "no": 27,
+   "party": "TDP",
+   "post": "MLA, Madugula (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "regam-matyalingam",
+   "name": "Regam Matyalingam",
+   "show": "Regam Matyalingam",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Araku Valley (ST)",
+   "no": 28,
+   "party": "YSRCP",
+   "post": "MLA, Araku Valley (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "matsyarasa-visweswara-raju",
+   "name": "Matsyarasa Visweswara Raju",
+   "show": "Matsyarasa Visweswara Raju",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Paderu (ST)",
+   "no": 29,
+   "party": "YSRCP",
+   "post": "MLA, Paderu (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "konathala-ramakrishna",
+   "name": "Konathala Ramakrishna",
+   "show": "Konathala Ramakrishna",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Anakapalli",
+   "no": 30,
+   "party": "JSP",
+   "post": "MLA, Anakapalli (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "panchakarla-ramesh-babu",
+   "name": "Panchakarla Ramesh Babu",
+   "show": "Panchakarla Ramesh Babu",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Pendurthi",
+   "no": 31,
+   "party": "JSP",
+   "post": "MLA, Pendurthi (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "sundarapu-vijay-kumar",
+   "name": "Sundarapu Vijay Kumar",
+   "show": "Sundarapu Vijay Kumar",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Yelamanchili",
+   "no": 32,
+   "party": "JSP",
+   "post": "MLA, Yelamanchili (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vangalapudi-anitha",
+   "name": "Vangalapudi Anitha",
+   "show": "Vangalapudi Anitha",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Payakaraopet (SC)",
+   "no": 33,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": "1979-03-24",
+   "dob_src": "unconfirmed: Wikipedia (uncited); Oneindia says 01 Jan 1984 — conflict, 2026-11-12",
+   "verified": false,
+   "te": {
+    "name": "శ్రీమతి వంగలపూడి అనిత",
+    "role": "ఆంధ్రప్రదేశ్ రాష్ట్ర మంత్రి"
+   },
+   "hi": {
+    "name": "श्रीमती वंगलापुडी अनिता",
+    "role": "आंध्र प्रदेश की मंत्री"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "chintakayala-ayyannapatrudu",
+   "name": "Chintakayala Ayyannapatrudu",
+   "show": "Chintakayala Ayyannapatrudu",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Narsipatnam",
+   "no": 34,
+   "party": "TDP",
+   "post": "Speaker, Andhra Pradesh Legislative Assembly",
+   "dob": "1957-09-04",
+   "dob_src": "unconfirmed: Wikipedia mirrors (uncited), 2026-11-12",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "yanamala-divya",
+   "name": "Yanamala Divya",
+   "show": "Yanamala Divya",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Tuni",
+   "no": 35,
+   "party": "TDP",
+   "post": "MLA, Tuni (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "varapula-sathyaprabha",
+   "name": "Varapula Sathyaprabha",
+   "show": "Varapula Sathyaprabha",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Prathipadu (Kakinada)",
+   "no": 36,
+   "party": "TDP",
+   "post": "MLA, Prathipadu (Kakinada) (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "konidela-pawan-kalyan",
+   "name": "Konidela Pawan Kalyan",
+   "show": "Pawan Kalyan",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Pithapuram",
+   "no": 37,
+   "party": "JSP",
+   "post": "Deputy Chief Minister of Andhra Pradesh",
+   "dob": "1971-09-02",
+   "dob_src": "Oneindia / Filmibeat profiles",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ పవన్ కళ్యాణ్",
+    "role": "ఆంధ్రప్రదేశ్ ఉప ముఖ్యమంత్రి"
+   },
+   "hi": {
+    "name": "श्री पवन कल्याण",
+    "role": "आंध्र प्रदेश के उपमुख्यमंत्री"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "pantham-venkateswara-rao",
+   "name": "Pantham Venkateswara Rao",
+   "show": "Pantham Venkateswara Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kakinada Rural",
+   "no": 38,
+   "party": "JSP",
+   "post": "MLA, Kakinada Rural (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "nimmakayala-chinarajappa",
+   "name": "Nimmakayala Chinarajappa",
+   "show": "Nimmakayala Chinarajappa",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Peddapuram",
+   "no": 39,
+   "party": "TDP",
+   "post": "MLA, Peddapuram (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "ramakrishna-reddy-nallamilli",
+   "name": "Ramakrishna Reddy Nallamilli",
+   "show": "Ramakrishna Reddy Nallamilli",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Anaparthy",
+   "no": 40,
+   "party": "BJP",
+   "post": "MLA, Anaparthy (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vanamadi-venkateswara-rao",
+   "name": "Vanamadi Venkateswara Rao",
+   "show": "Vanamadi Venkateswara Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kakinada City",
+   "no": 41,
+   "party": "TDP",
+   "post": "MLA, Kakinada City (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vasamsetti-subhash",
+   "name": "Vasamsetti Subhash",
+   "show": "Vasamsetti Subhash",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Ramachandrapuram",
+   "no": 42,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "not found 2026-11-12",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "datla-subbaraju",
+   "name": "Datla Subbaraju",
+   "show": "Datla Subbaraju",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Mummidivaram",
+   "no": 43,
+   "party": "TDP",
+   "post": "MLA, Mummidivaram (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "aithabathula-anandarao",
+   "name": "Aithabathula Anandarao",
+   "show": "Aithabathula Anandarao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Amalapuram (SC)",
+   "no": 44,
+   "party": "TDP",
+   "post": "MLA, Amalapuram (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "deva-varaprasad",
+   "name": "Deva Varaprasad",
+   "show": "Deva Varaprasad",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Razole (SC)",
+   "no": 45,
+   "party": "JSP",
+   "post": "MLA, Razole (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "giddi-satyanarayana",
+   "name": "Giddi Satyanarayana",
+   "show": "Giddi Satyanarayana",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Gannavaram (Konaseema) (SC)",
+   "no": 46,
+   "party": "JSP",
+   "post": "MLA, Gannavaram (Konaseema) (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bandaru-satyananda-rao",
+   "name": "Bandaru Satyananda Rao",
+   "show": "Bandaru Satyananda Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kothapeta",
+   "no": 47,
+   "party": "TDP",
+   "post": "MLA, Kothapeta (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "v-jogeswara-rao",
+   "name": "V. Jogeswara Rao",
+   "show": "V. Jogeswara Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Mandapeta",
+   "no": 48,
+   "party": "TDP",
+   "post": "MLA, Mandapeta (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bathula-balaramakrishna",
+   "name": "Bathula Balaramakrishna",
+   "show": "Bathula Balaramakrishna",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Rajanagaram",
+   "no": 49,
+   "party": "JSP",
+   "post": "MLA, Rajanagaram (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "adireddy-srinivas",
+   "name": "Adireddy Srinivas",
+   "show": "Adireddy Srinivas",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Rajahmundry City",
+   "no": 50,
+   "party": "TDP",
+   "post": "MLA, Rajahmundry City (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gorantla-butchaiah-chowdary",
+   "name": "Gorantla Butchaiah Chowdary",
+   "show": "Gorantla Butchaiah Chowdary",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Rajahmundry Rural",
+   "no": 51,
+   "party": "TDP",
+   "post": "MLA, Rajahmundry Rural (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "jyothula-nehru",
+   "name": "Jyothula Nehru",
+   "show": "Jyothula Nehru",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Jaggampeta",
+   "no": 52,
+   "party": "TDP",
+   "post": "MLA, Jaggampeta (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "miriyala-sirisha-devi",
+   "name": "Miriyala Sirisha Devi",
+   "show": "Miriyala Sirisha Devi",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Rampachodavaram (ST)",
+   "no": 53,
+   "party": "TDP",
+   "post": "MLA, Rampachodavaram (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "muppidi-venkateswara-rao",
+   "name": "Muppidi Venkateswara Rao",
+   "show": "Muppidi Venkateswara Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kovvur (SC)",
+   "no": 54,
+   "party": "TDP",
+   "post": "MLA, Kovvur (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kandula-durgesh",
+   "name": "Kandula Durgesh",
+   "show": "Kandula Durgesh",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Nidadavole",
+   "no": 55,
+   "party": "JSP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "not found 2026-11-12",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "satyanarayana-pithani",
+   "name": "Satyanarayana Pithani",
+   "show": "Satyanarayana Pithani",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Achanta",
+   "no": 56,
+   "party": "TDP",
+   "post": "MLA, Achanta (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "nimmala-rama-naidu",
+   "name": "Nimmala Rama Naidu",
+   "show": "Nimmala Rama Naidu",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Palakollu",
+   "no": 57,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": "1968-05-06",
+   "dob_src": "unconfirmed: Wikipedia infobox (uncited; body says 1969) — year conflict, 2026-11-12",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bommidi-narayana-nayakar",
+   "name": "Bommidi Narayana Nayakar",
+   "show": "Bommidi Narayana Nayakar",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Narasapuram",
+   "no": 58,
+   "party": "JSP",
+   "post": "MLA, Narasapuram (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "pulaparthi-ramanjaneyulu",
+   "name": "Pulaparthi Ramanjaneyulu",
+   "show": "Pulaparthi Ramanjaneyulu",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Bhimavaram",
+   "no": 59,
+   "party": "JSP",
+   "post": "MLA, Bhimavaram (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "raghu-rama-krishna-raju",
+   "name": "Raghu Rama Krishna Raju",
+   "show": "Raghu Rama Krishna Raju",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Undi",
+   "no": 60,
+   "party": "TDP",
+   "post": "Deputy Speaker, Andhra Pradesh Legislative Assembly",
+   "dob": "1962-05-14",
+   "dob_src": "OpenSanctions in-sansad-ls-5097 (17th Lok Sabha member record), checked 2026-11-12",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ రఘురామకృష్ణ రాజు",
+    "role": "ఆంధ్రప్రదేశ్ శాసనసభ ఉపసభాపతి"
+   },
+   "hi": {
+    "name": "श्री रघु रामकृष्ण राजू",
+    "role": "आंध्र प्रदेश विधानसभा के उपाध्यक्ष"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "arimilli-radha-krishna",
+   "name": "Arimilli Radha Krishna",
+   "show": "Arimilli Radha Krishna",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Tanuku",
+   "no": 61,
+   "party": "TDP",
+   "post": "MLA, Tanuku (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bolisetti-srinivas",
+   "name": "Bolisetti Srinivas",
+   "show": "Bolisetti Srinivas",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Tadepalligudem",
+   "no": 62,
+   "party": "JSP",
+   "post": "MLA, Tadepalligudem (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "dharmaraju-patsamatla",
+   "name": "Dharmaraju Patsamatla",
+   "show": "Dharmaraju Patsamatla",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Unguturu",
+   "no": 63,
+   "party": "JSP",
+   "post": "MLA, Unguturu (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "chintamaneni-prabhakar",
+   "name": "Chintamaneni Prabhakar",
+   "show": "Chintamaneni Prabhakar",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Denduluru",
+   "no": 64,
+   "party": "TDP",
+   "post": "MLA, Denduluru (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "radha-krishnayya-badeti",
+   "name": "Radha Krishnayya Badeti",
+   "show": "Radha Krishnayya Badeti",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Eluru",
+   "no": 65,
+   "party": "TDP",
+   "post": "MLA, Eluru (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "maddipati-venkata-raju",
+   "name": "Maddipati Venkata Raju",
+   "show": "Maddipati Venkata Raju",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Gopalapuram (SC)",
+   "no": 66,
+   "party": "TDP",
+   "post": "MLA, Gopalapuram (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "chirri-balaraju",
+   "name": "Chirri Balaraju",
+   "show": "Chirri Balaraju",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Polavaram (ST)",
+   "no": 67,
+   "party": "JSP",
+   "post": "MLA, Polavaram (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "roshan-kumar-songa",
+   "name": "Roshan Kumar Songa",
+   "show": "Roshan Kumar Songa",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Chintalapudi (SC)",
+   "no": 68,
+   "party": "TDP",
+   "post": "MLA, Chintalapudi (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kolikapudi-srinivasa-rao",
+   "name": "Kolikapudi Srinivasa Rao",
+   "show": "Kolikapudi Srinivasa Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Tiruvuru (SC)",
+   "no": 69,
+   "party": "TDP",
+   "post": "MLA, Tiruvuru (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kolusu-parthasarathy",
+   "name": "Kolusu Parthasarathy",
+   "show": "Kolusu Parthasarathy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Nuzvid",
+   "no": 70,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": "1965-04-18",
+   "dob_src": "unconfirmed: Wikipedia (uncited) + vuyyuru.splenden.in, 2026-11-12",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "yarlagadda-venkata-rao",
+   "name": "Yarlagadda Venkata Rao",
+   "show": "Yarlagadda Venkata Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Gannavaram (Krishna)",
+   "no": 71,
+   "party": "TDP",
+   "post": "MLA, Gannavaram (Krishna) (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "venigandla-ramu",
+   "name": "Venigandla Ramu",
+   "show": "Venigandla Ramu",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Gudivada",
+   "no": 72,
+   "party": "TDP",
+   "post": "MLA, Gudivada (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kamineni-srinivas",
+   "name": "Kamineni Srinivas",
+   "show": "Kamineni Srinivas",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kaikalur",
+   "no": 73,
+   "party": "BJP",
+   "post": "MLA, Kaikalur (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kagitha-krishna-prasad",
+   "name": "Kagitha Krishna Prasad",
+   "show": "Kagitha Krishna Prasad",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Pedana",
+   "no": 74,
+   "party": "TDP",
+   "post": "MLA, Pedana (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kollu-ravindra",
+   "name": "Kollu Ravindra",
+   "show": "Kollu Ravindra",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Machilipatnam",
+   "no": 75,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "not found 2026-11-12",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "mandali-buddha-prasad",
+   "name": "Mandali Buddha Prasad",
+   "show": "Mandali Buddha Prasad",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Avanigadda",
+   "no": 76,
+   "party": "JSP",
+   "post": "MLA, Avanigadda (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "varla-kumar-raja",
+   "name": "Varla Kumar Raja",
+   "show": "Varla Kumar Raja",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Pamarru (SC)",
+   "no": 77,
+   "party": "TDP",
+   "post": "MLA, Pamarru (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bode-prasad",
+   "name": "Bode Prasad",
+   "show": "Bode Prasad",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Penamaluru",
+   "no": 78,
+   "party": "TDP",
+   "post": "MLA, Penamaluru (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "sujana-chowdary",
+   "name": "Sujana Chowdary",
+   "show": "Sujana Chowdary",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Vijayawada West",
+   "no": 79,
+   "party": "BJP",
+   "post": "MLA, Vijayawada West (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bonda-umamaheswara-rao",
+   "name": "Bonda Umamaheswara Rao",
+   "show": "Bonda Umamaheswara Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Vijayawada Central",
+   "no": 80,
+   "party": "TDP",
+   "post": "MLA, Vijayawada Central (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gadde-ramamohan",
+   "name": "Gadde Ramamohan",
+   "show": "Gadde Ramamohan",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Vijayawada East",
+   "no": 81,
+   "party": "TDP",
+   "post": "MLA, Vijayawada East (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vasantha-venkata-krishna-prasad",
+   "name": "Vasantha Venkata Krishna Prasad",
+   "show": "Vasantha Venkata Krishna Prasad",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Mylavaram",
+   "no": 82,
+   "party": "TDP",
+   "post": "MLA, Mylavaram (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "tangirala-sowmya",
+   "name": "Tangirala Sowmya",
+   "show": "Tangirala Sowmya",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Nandigama (SC)",
+   "no": 83,
+   "party": "TDP",
+   "post": "MLA, Nandigama (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "rajagopal-sreeram",
+   "name": "Rajagopal Sreeram",
+   "show": "Rajagopal Sreeram",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Jaggayyapeta",
+   "no": 84,
+   "party": "TDP",
+   "post": "MLA, Jaggayyapeta (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bhashyam-praveen",
+   "name": "Bhashyam Praveen",
+   "show": "Bhashyam Praveen",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Pedakurapadu",
+   "no": 85,
+   "party": "TDP",
+   "post": "MLA, Pedakurapadu (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "tenali-sravan-kumar",
+   "name": "Tenali Sravan Kumar",
+   "show": "Tenali Sravan Kumar",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Tadikonda (SC)",
+   "no": 86,
+   "party": "TDP",
+   "post": "MLA, Tadikonda (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "nara-lokesh",
+   "name": "Nara Lokesh",
+   "show": "Nara Lokesh",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Mangalagiri",
+   "no": 87,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": "1983-01-23",
+   "dob_src": "Wikipedia (cites Firstpost, 12 Jun 2024), checked 2026-11-09",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ నారా లోకేష్",
+    "role": "ఆంధ్రప్రదేశ్ రాష్ట్ర మంత్రి"
+   },
+   "hi": {
+    "name": "श्री नारा लोकेश",
+    "role": "आंध्र प्रदेश सरकार में मंत्री"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "dhulipalla-narendra-kumar",
+   "name": "Dhulipalla Narendra Kumar",
+   "show": "Dhulipalla Narendra Kumar",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Ponnuru",
+   "no": 88,
+   "party": "TDP",
+   "post": "MLA, Ponnuru (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "nakka-ananda-babu",
+   "name": "Nakka Ananda Babu",
+   "show": "Nakka Ananda Babu",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Vemuru (SC)",
+   "no": 89,
+   "party": "TDP",
+   "post": "MLA, Vemuru (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "anagani-satya-prasad",
+   "name": "Anagani Satya Prasad",
+   "show": "Anagani Satya Prasad",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Repalle",
+   "no": 90,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "nadendla-manohar",
+   "name": "Nadendla Manohar",
+   "show": "Nadendla Manohar",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Tenali",
+   "no": 91,
+   "party": "JSP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vegesana-narendra-varma-raju",
+   "name": "Vegesana Narendra Varma Raju",
+   "show": "Vegesana Narendra Varma Raju",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Bapatla",
+   "no": 92,
+   "party": "TDP",
+   "post": "MLA, Bapatla (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "burla-ramanjaneyulu",
+   "name": "Burla Ramanjaneyulu",
+   "show": "Burla Ramanjaneyulu",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Prathipadu (Guntur) (SC)",
+   "no": 93,
+   "party": "TDP",
+   "post": "MLA, Prathipadu (Guntur) (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "galla-madhavi",
+   "name": "Galla Madhavi",
+   "show": "Galla Madhavi",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Guntur West",
+   "no": 94,
+   "party": "TDP",
+   "post": "MLA, Guntur West (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "mohammed-naseer-ahmed",
+   "name": "Mohammed Naseer Ahmed",
+   "show": "Mohammed Naseer Ahmed",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Guntur East",
+   "no": 95,
+   "party": "TDP",
+   "post": "MLA, Guntur East (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "prathipati-pulla-rao",
+   "name": "Prathipati Pulla Rao",
+   "show": "Prathipati Pulla Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Chilakaluripet",
+   "no": 96,
+   "party": "TDP",
+   "post": "MLA, Chilakaluripet (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "chadalavada-aravinda-babu",
+   "name": "Chadalavada Aravinda Babu",
+   "show": "Chadalavada Aravinda Babu",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Narasaraopet",
+   "no": 97,
+   "party": "TDP",
+   "post": "MLA, Narasaraopet (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kanna-lakshminarayana",
+   "name": "Kanna Lakshminarayana",
+   "show": "Kanna Lakshminarayana",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Sattenapalle",
+   "no": 98,
+   "party": "TDP",
+   "post": "MLA, Sattenapalle (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "g-v-anjaneyulu",
+   "name": "G. V. Anjaneyulu",
+   "show": "G. V. Anjaneyulu",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Vinukonda",
+   "no": 99,
+   "party": "TDP",
+   "post": "MLA, Vinukonda (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "yarapathineni-srinivasa-rao",
+   "name": "Yarapathineni Srinivasa Rao",
+   "show": "Yarapathineni Srinivasa Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Gurazala",
+   "no": 100,
+   "party": "TDP",
+   "post": "MLA, Gurazala (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "julakanti-brahmananda-reddy",
+   "name": "Julakanti Brahmananda Reddy",
+   "show": "Julakanti Brahmananda Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Macherla",
+   "no": 101,
+   "party": "TDP",
+   "post": "MLA, Macherla (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "tatiparthi-chandrasekhar",
+   "name": "Tatiparthi Chandrasekhar",
+   "show": "Tatiparthi Chandrasekhar",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Yerragondapalem (SC)",
+   "no": 102,
+   "party": "YSRCP",
+   "post": "MLA, Yerragondapalem (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "buchepalli-siva-prasad-reddy",
+   "name": "Buchepalli Siva Prasad Reddy",
+   "show": "Buchepalli Siva Prasad Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Darsi",
+   "no": 103,
+   "party": "YSRCP",
+   "post": "MLA, Darsi (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "yeluri-sambasiva-rao",
+   "name": "Yeluri Sambasiva Rao",
+   "show": "Yeluri Sambasiva Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Parchur",
+   "no": 104,
+   "party": "TDP",
+   "post": "MLA, Parchur (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gottipati-ravi-kumar",
+   "name": "Gottipati Ravi Kumar",
+   "show": "Gottipati Ravi Kumar",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Addanki",
+   "no": 105,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "madduluri-malakondaiah-yadav",
+   "name": "Madduluri Malakondaiah Yadav",
+   "show": "Madduluri Malakondaiah Yadav",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Chirala",
+   "no": 106,
+   "party": "TDP",
+   "post": "MLA, Chirala (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "b-n-vijay-kumar",
+   "name": "B. N. Vijay Kumar",
+   "show": "B. N. Vijay Kumar",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Santhanuthalapadu (SC)",
+   "no": 107,
+   "party": "TDP",
+   "post": "MLA, Santhanuthalapadu (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "damacharla-janardhana-rao",
+   "name": "Damacharla Janardhana Rao",
+   "show": "Damacharla Janardhana Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Ongole",
+   "no": 108,
+   "party": "TDP",
+   "post": "MLA, Ongole (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "inturi-nageswara-rao",
+   "name": "Inturi Nageswara Rao",
+   "show": "Inturi Nageswara Rao",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kandukur",
+   "no": 109,
+   "party": "TDP",
+   "post": "MLA, Kandukur (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "dola-sree-bala-veeranjaneya-swamy",
+   "name": "Dola Sree Bala Veeranjaneya Swamy",
+   "show": "Dola Sree Bala Veeranjaneya Swamy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kondapi (SC)",
+   "no": 110,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kandula-narayana-reddy",
+   "name": "Kandula Narayana Reddy",
+   "show": "Kandula Narayana Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Markapuram",
+   "no": 111,
+   "party": "TDP",
+   "post": "MLA, Markapuram (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "muthumula-ashok-reddy",
+   "name": "Muthumula Ashok Reddy",
+   "show": "Muthumula Ashok Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Giddalur",
+   "no": 112,
+   "party": "TDP",
+   "post": "MLA, Giddalur (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "mukku-ugra-narasimha-reddy",
+   "name": "Mukku Ugra Narasimha Reddy",
+   "show": "Mukku Ugra Narasimha Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kanigiri",
+   "no": 113,
+   "party": "TDP",
+   "post": "MLA, Kanigiri (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "dagumati-venkata-krishna-reddy",
+   "name": "Dagumati Venkata Krishna Reddy",
+   "show": "Dagumati Venkata Krishna Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kavali",
+   "no": 114,
+   "party": "TDP",
+   "post": "MLA, Kavali (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "anam-ramanarayana-reddy",
+   "name": "Anam Ramanarayana Reddy",
+   "show": "Anam Ramanarayana Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Atmakur",
+   "no": 115,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vemireddy-prashanti-reddy",
+   "name": "Vemireddy Prashanti Reddy",
+   "show": "Vemireddy Prashanti Reddy",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kovur",
+   "no": 116,
+   "party": "TDP",
+   "post": "MLA, Kovur (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "ponguru-narayana",
+   "name": "Ponguru Narayana",
+   "show": "Ponguru Narayana",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Nellore City",
+   "no": 117,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kotamreddy-sridhar-reddy",
+   "name": "Kotamreddy Sridhar Reddy",
+   "show": "Kotamreddy Sridhar Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Nellore Rural",
+   "no": 118,
+   "party": "TDP",
+   "post": "MLA, Nellore Rural (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "somireddy-chandra-mohan-reddy",
+   "name": "Somireddy Chandra Mohan Reddy",
+   "show": "Somireddy Chandra Mohan Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Sarvepalli",
+   "no": 119,
+   "party": "TDP",
+   "post": "MLA, Sarvepalli (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "pasam-sunil-kumar",
+   "name": "Pasam Sunil Kumar",
+   "show": "Pasam Sunil Kumar",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Gudur (SC)",
+   "no": 120,
+   "party": "TDP",
+   "post": "MLA, Gudur (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "nelavala-vijayasree",
+   "name": "Nelavala Vijayasree",
+   "show": "Nelavala Vijayasree",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Sullurpeta (SC)",
+   "no": 121,
+   "party": "TDP",
+   "post": "MLA, Sullurpeta (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kurugondla-ramakrishna",
+   "name": "Kurugondla Ramakrishna",
+   "show": "Kurugondla Ramakrishna",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Venkatagiri",
+   "no": 122,
+   "party": "TDP",
+   "post": "MLA, Venkatagiri (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kakarla-suresh",
+   "name": "Kakarla Suresh",
+   "show": "Kakarla Suresh",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Udayagiri",
+   "no": 123,
+   "party": "TDP",
+   "post": "MLA, Udayagiri (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "dasari-sudha",
+   "name": "Dasari Sudha",
+   "show": "Dasari Sudha",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Badvel (SC)",
+   "no": 124,
+   "party": "YSRCP",
+   "post": "MLA, Badvel (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "akepati-amarnath-reddy",
+   "name": "Akepati Amarnath Reddy",
+   "show": "Akepati Amarnath Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Rajampet",
+   "no": 125,
+   "party": "YSRCP",
+   "post": "MLA, Rajampet (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "reddeppagari-madhavi",
+   "name": "Reddeppagari Madhavi",
+   "show": "Reddeppagari Madhavi",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kadapa",
+   "no": 126,
+   "party": "TDP",
+   "post": "MLA, Kadapa (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "arava-sreedhar",
+   "name": "Arava Sreedhar",
+   "show": "Arava Sreedhar",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kodur (SC)",
+   "no": 127,
+   "party": "JSP",
+   "post": "MLA, Kodur (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "mandipalli-ramprasad-reddy",
+   "name": "Mandipalli Ramprasad Reddy",
+   "show": "Mandipalli Ramprasad Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Rayachoti",
+   "no": 128,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "y-s-jagan-mohan-reddy",
+   "name": "Y. S. Jagan Mohan Reddy",
+   "show": "Y. S. Jagan Mohan Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Pulivendula",
+   "no": 129,
+   "party": "YSRCP",
+   "post": "Former Chief Minister of Andhra Pradesh",
+   "dob": "1972-12-21",
+   "dob_src": "OpenSanctions in-sansad-ls-4530 (Lok Sabha members data) + Wikidata, checked 2026-11-12",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ వైఎస్ జగన్ మోహన్ రెడ్డి",
+    "role": "ఆంధ్రప్రదేశ్ మాజీ ముఖ్యమంత్రి"
+   },
+   "hi": {
+    "name": "श्री वाई. एस. जगन मोहन रेड्डी",
+    "role": "आंध्र प्रदेश के पूर्व मुख्यमंत्री"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "putha-krishna-chaitanya-reddy",
+   "name": "Putha Krishna Chaitanya Reddy",
+   "show": "Putha Krishna Chaitanya Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kamalapuram",
+   "no": 130,
+   "party": "TDP",
+   "post": "MLA, Kamalapuram (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "ch-adinarayana-reddy",
+   "name": "Ch. Adinarayana Reddy",
+   "show": "Ch. Adinarayana Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Jammalamadugu",
+   "no": 131,
+   "party": "BJP",
+   "post": "MLA, Jammalamadugu (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "nandyala-varada-rajula-reddy",
+   "name": "Nandyala Varada Rajula Reddy",
+   "show": "Nandyala Varada Rajula Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Proddatur",
+   "no": 132,
+   "party": "TDP",
+   "post": "MLA, Proddatur (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "putta-sudhakar-yadav",
+   "name": "Putta Sudhakar Yadav",
+   "show": "Putta Sudhakar Yadav",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Mydukur",
+   "no": 133,
+   "party": "TDP",
+   "post": "MLA, Mydukur (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bhuma-akhila-priya",
+   "name": "Bhuma Akhila Priya",
+   "show": "Bhuma Akhila Priya",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Allagadda",
+   "no": 134,
+   "party": "TDP",
+   "post": "MLA, Allagadda (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "budda-rajasekhar-reddy",
+   "name": "Budda Rajasekhar Reddy",
+   "show": "Budda Rajasekhar Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Srisailam",
+   "no": 135,
+   "party": "TDP",
+   "post": "MLA, Srisailam (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "githa-jayasurya",
+   "name": "Githa Jayasurya",
+   "show": "Githa Jayasurya",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Nandikotkur (SC)",
+   "no": 136,
+   "party": "TDP",
+   "post": "MLA, Nandikotkur (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "t-g-bharath",
+   "name": "T. G. Bharath",
+   "show": "T. G. Bharath",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kurnool",
+   "no": 137,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gowru-charitha-reddy",
+   "name": "Gowru Charitha Reddy",
+   "show": "Gowru Charitha Reddy",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Panyam",
+   "no": 138,
+   "party": "TDP",
+   "post": "MLA, Panyam (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "n-m-d-farooq",
+   "name": "N. M. D. Farooq",
+   "show": "N. M. D. Farooq",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Nandyal",
+   "no": 139,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "b-c-janardhan-reddy",
+   "name": "B. C. Janardhan Reddy",
+   "show": "B. C. Janardhan Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Banaganapalle",
+   "no": 140,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kotla-jayasurya-prakasha-reddy",
+   "name": "Kotla Jayasurya Prakasha Reddy",
+   "show": "Kotla Jayasurya Prakasha Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Dhone",
+   "no": 141,
+   "party": "TDP",
+   "post": "MLA, Dhone (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "k-e-shyam-babu",
+   "name": "K. E. Shyam Babu",
+   "show": "K. E. Shyam Babu",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Pattikonda",
+   "no": 142,
+   "party": "TDP",
+   "post": "MLA, Pattikonda (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "boggula-dastagiri",
+   "name": "Boggula Dastagiri",
+   "show": "Boggula Dastagiri",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kodumur (SC)",
+   "no": 143,
+   "party": "TDP",
+   "post": "MLA, Kodumur (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "jaya-nageswara-reddy",
+   "name": "Jaya Nageswara Reddy",
+   "show": "Jaya Nageswara Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Yemmiganur",
+   "no": 144,
+   "party": "TDP",
+   "post": "MLA, Yemmiganur (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "y-balanagi-reddy",
+   "name": "Y. Balanagi Reddy",
+   "show": "Y. Balanagi Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Mantralayam",
+   "no": 145,
+   "party": "YSRCP",
+   "post": "MLA, Mantralayam (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "p-v-parthasarathi",
+   "name": "P. V. Parthasarathi",
+   "show": "P. V. Parthasarathi",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Adoni",
+   "no": 146,
+   "party": "BJP",
+   "post": "MLA, Adoni (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "busine-virupakshi",
+   "name": "Busine Virupakshi",
+   "show": "Busine Virupakshi",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Alur",
+   "no": 147,
+   "party": "YSRCP",
+   "post": "MLA, Alur (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kalava-srinivasulu",
+   "name": "Kalava Srinivasulu",
+   "show": "Kalava Srinivasulu",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Rayadurg",
+   "no": 148,
+   "party": "TDP",
+   "post": "MLA, Rayadurg (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "payyavula-keshav",
+   "name": "Payyavula Keshav",
+   "show": "Payyavula Keshav",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Uravakonda",
+   "no": 149,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gummanur-jayaram",
+   "name": "Gummanur Jayaram",
+   "show": "Gummanur Jayaram",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Guntakal",
+   "no": 150,
+   "party": "TDP",
+   "post": "MLA, Guntakal (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "j-c-ashmit-reddy",
+   "name": "J. C. Ashmit Reddy",
+   "show": "J. C. Ashmit Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Tadipatri",
+   "no": 151,
+   "party": "TDP",
+   "post": "MLA, Tadipatri (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bandaru-sravani-sree",
+   "name": "Bandaru Sravani Sree",
+   "show": "Bandaru Sravani Sree",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Singanamala (SC)",
+   "no": 152,
+   "party": "TDP",
+   "post": "MLA, Singanamala (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "daggupati-venkateswara-prasad",
+   "name": "Daggupati Venkateswara Prasad",
+   "show": "Daggupati Venkateswara Prasad",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Anantapur Urban",
+   "no": 153,
+   "party": "TDP",
+   "post": "MLA, Anantapur Urban (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "amilineni-surendra-babu",
+   "name": "Amilineni Surendra Babu",
+   "show": "Amilineni Surendra Babu",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kalyandurg",
+   "no": 154,
+   "party": "TDP",
+   "post": "MLA, Kalyandurg (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "paritala-sunitha",
+   "name": "Paritala Sunitha",
+   "show": "Paritala Sunitha",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Raptadu",
+   "no": 155,
+   "party": "TDP",
+   "post": "MLA, Raptadu (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "m-s-raju",
+   "name": "M. S. Raju",
+   "show": "M. S. Raju",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Madakasira (SC)",
+   "no": 156,
+   "party": "TDP",
+   "post": "MLA, Madakasira (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "nandamuri-balakrishna",
+   "name": "Nandamuri Balakrishna",
+   "show": "Nandamuri Balakrishna",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Hindupur",
+   "no": 157,
+   "party": "TDP",
+   "post": "MLA, Hindupur (Andhra Pradesh)",
+   "dob": "1960-06-10",
+   "dob_src": "to verify",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "s-savitha",
+   "name": "S. Savitha",
+   "show": "S. Savitha",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Penukonda",
+   "no": 158,
+   "party": "TDP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "palle-sindhura-reddy",
+   "name": "Palle Sindhura Reddy",
+   "show": "Palle Sindhura Reddy",
+   "female": true,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Puttaparthi",
+   "no": 159,
+   "party": "TDP",
+   "post": "MLA, Puttaparthi (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "satya-kumar-yadav",
+   "name": "Satya Kumar Yadav",
+   "show": "Satya Kumar Yadav",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Dharmavaram",
+   "no": 160,
+   "party": "BJP",
+   "post": "Minister, Government of Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kandikunta-venkata-prasad",
+   "name": "Kandikunta Venkata Prasad",
+   "show": "Kandikunta Venkata Prasad",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kadiri",
+   "no": 161,
+   "party": "TDP",
+   "post": "MLA, Kadiri (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "peddireddy-dwarakanatha-reddy",
+   "name": "Peddireddy Dwarakanatha Reddy",
+   "show": "Peddireddy Dwarakanatha Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Thamballapalle",
+   "no": 162,
+   "party": "YSRCP",
+   "post": "MLA, Thamballapalle (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "nallari-kishore-kumar-reddy",
+   "name": "Nallari Kishore Kumar Reddy",
+   "show": "Nallari Kishore Kumar Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Pileru",
+   "no": 163,
+   "party": "TDP",
+   "post": "MLA, Pileru (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "shahjahan-basha",
+   "name": "Shahjahan Basha",
+   "show": "Shahjahan Basha",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Madanapalle",
+   "no": 164,
+   "party": "TDP",
+   "post": "MLA, Madanapalle (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "peddireddy-ramachandra-reddy",
+   "name": "Peddireddy Ramachandra Reddy",
+   "show": "Peddireddy Ramachandra Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Punganur",
+   "no": 165,
+   "party": "YSRCP",
+   "post": "MLA, Punganur (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "pulivarthi-venkata-mani-prasad",
+   "name": "Pulivarthi Venkata Mani Prasad",
+   "show": "Pulivarthi Venkata Mani Prasad",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Chandragiri",
+   "no": 166,
+   "party": "TDP",
+   "post": "MLA, Chandragiri (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "arani-srinivasulu",
+   "name": "Arani Srinivasulu",
+   "show": "Arani Srinivasulu",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Tirupati",
+   "no": 167,
+   "party": "JSP",
+   "post": "MLA, Tirupati (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bojjala-venkata-sudhir-reddy",
+   "name": "Bojjala Venkata Sudhir Reddy",
+   "show": "Bojjala Venkata Sudhir Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Srikalahasti",
+   "no": 168,
+   "party": "TDP",
+   "post": "MLA, Srikalahasti (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "koneti-adimulam",
+   "name": "Koneti Adimulam",
+   "show": "Koneti Adimulam",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Satyavedu (SC)",
+   "no": 169,
+   "party": "TDP",
+   "post": "MLA, Satyavedu (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gali-bhanu-prakash",
+   "name": "Gali Bhanu Prakash",
+   "show": "Gali Bhanu Prakash",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Nagari",
+   "no": 170,
+   "party": "TDP",
+   "post": "MLA, Nagari (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "v-m-thomas",
+   "name": "V. M. Thomas",
+   "show": "V. M. Thomas",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Gangadhara Nellore (SC)",
+   "no": 171,
+   "party": "TDP",
+   "post": "MLA, Gangadhara Nellore (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gurajala-jagan-mohan",
+   "name": "Gurajala Jagan Mohan",
+   "show": "Gurajala Jagan Mohan",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Chittoor",
+   "no": 172,
+   "party": "TDP",
+   "post": "MLA, Chittoor (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kalikiri-murali-mohan",
+   "name": "Kalikiri Murali Mohan",
+   "show": "Kalikiri Murali Mohan",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Puthalapattu (SC)",
+   "no": 173,
+   "party": "TDP",
+   "post": "MLA, Puthalapattu (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "n-amarnath-reddy",
+   "name": "N. Amarnath Reddy",
+   "show": "N. Amarnath Reddy",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Palamaner",
+   "no": 174,
+   "party": "TDP",
+   "post": "MLA, Palamaner (Andhra Pradesh)",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "n-chandrababu-naidu",
+   "name": "N. Chandrababu Naidu",
+   "show": "Nara Chandrababu Naidu",
+   "female": false,
+   "house": "mla",
+   "state": "AP",
+   "seat": "Kuppam",
+   "no": 175,
+   "party": "TDP",
+   "post": "Chief Minister of Andhra Pradesh",
+   "dob": "1950-04-20",
+   "dob_src": "Britannica / Wikipedia",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ నారా చంద్రబాబు నాయుడు",
+    "role": "ఆంధ్రప్రదేశ్ ముఖ్యమంత్రి"
+   },
+   "hi": {
+    "name": "श्री नारा चंद्रबाबू नायडू",
+    "role": "आंध्र प्रदेश के मुख्यमंत्री"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "gumma-thanuja-rani",
+   "name": "Gumma Thanuja Rani",
+   "show": "Gumma Thanuja Rani",
+   "female": true,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Araku (ST)",
+   "no": 1,
+   "party": "YSRCP",
+   "post": "Member of Parliament (Lok Sabha), Araku",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kinjarapu-ram-mohan-naidu",
+   "name": "Kinjarapu Ram Mohan Naidu",
+   "show": "Kinjarapu Ram Mohan Naidu",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Srikakulam",
+   "no": 2,
+   "party": "TDP",
+   "post": "Union Minister of Civil Aviation",
+   "dob": "1987-12-18",
+   "dob_src": "civilaviation.gov.in minister profile + OpenSanctions in_sansad record, checked 2026-11-09",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ కింజరాపు రామ్మోహన్ నాయుడు",
+    "role": "కేంద్ర పౌర విమానయాన శాఖ మంత్రి"
+   },
+   "hi": {
+    "name": "श्री किंजरापु राममोहन नायडू",
+    "role": "केंद्रीय नागरिक उड्डयन मंत्री"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "appalanaidu-kalisetti",
+   "name": "Appalanaidu Kalisetti",
+   "show": "Appalanaidu Kalisetti",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Vizianagaram",
+   "no": 3,
+   "party": "TDP",
+   "post": "Member of Parliament (Lok Sabha), Vizianagaram",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "mathukumilli-bharat",
+   "name": "Mathukumilli Bharat",
+   "show": "Mathukumilli Bharat",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Visakhapatnam",
+   "no": 4,
+   "party": "TDP",
+   "post": "Member of Parliament (Lok Sabha), Visakhapatnam",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "c-m-ramesh",
+   "name": "C. M. Ramesh",
+   "show": "C. M. Ramesh",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Anakapalli",
+   "no": 5,
+   "party": "BJP",
+   "post": "Member of Parliament (Lok Sabha), Anakapalli",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "tangella-uday-srinivas",
+   "name": "Tangella Uday Srinivas",
+   "show": "Tangella Uday Srinivas",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Kakinada",
+   "no": 6,
+   "party": "JSP",
+   "post": "Member of Parliament (Lok Sabha), Kakinada",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "ganti-harish-madhur",
+   "name": "Ganti Harish Madhur",
+   "show": "Ganti Harish Madhur",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Amalapuram (SC)",
+   "no": 7,
+   "party": "TDP",
+   "post": "Member of Parliament (Lok Sabha), Amalapuram",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "daggubati-purandeswari",
+   "name": "Daggubati Purandeswari",
+   "show": "Daggubati Purandeswari",
+   "female": true,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Rajahmundry",
+   "no": 8,
+   "party": "BJP",
+   "post": "Member of Parliament (Lok Sabha), Rajahmundry",
+   "dob": "1959-04-22",
+   "dob_src": "to verify",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bhupathi-raju-srinivasa-varma",
+   "name": "Bhupathi Raju Srinivasa Varma",
+   "show": "Bhupathi Raju Srinivasa Varma",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Narasapuram",
+   "no": 9,
+   "party": "BJP",
+   "post": "Union Minister of State",
+   "dob": "1967-08-04",
+   "dob_src": "sansad.in Lok Sabha member 5745 (04-Aug-1967), checked 2026-11-12",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ భూపతిరాజు శ్రీనివాస వర్మ",
+    "role": "కేంద్ర సహాయ మంత్రి"
+   },
+   "hi": {
+    "name": "श्री भूपतिराजू श्रीनिवास वर्मा",
+    "role": "केंद्रीय राज्य मंत्री"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "putta-mahesh-kumar",
+   "name": "Putta Mahesh Kumar",
+   "show": "Putta Mahesh Kumar",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Eluru",
+   "no": 10,
+   "party": "TDP",
+   "post": "Member of Parliament (Lok Sabha), Eluru",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vallabhaneni-balashowry",
+   "name": "Vallabhaneni Balashowry",
+   "show": "Vallabhaneni Balashowry",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Machilipatnam",
+   "no": 11,
+   "party": "JSP",
+   "post": "Member of Parliament (Lok Sabha), Machilipatnam",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kesineni-sivanath",
+   "name": "Kesineni Sivanath",
+   "show": "Kesineni Sivanath",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Vijayawada",
+   "no": 12,
+   "party": "TDP",
+   "post": "Member of Parliament (Lok Sabha), Vijayawada",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "chandra-sekhar-pemmasani",
+   "name": "Chandra Sekhar Pemmasani",
+   "show": "Chandra Sekhar Pemmasani",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Guntur",
+   "no": 13,
+   "party": "TDP",
+   "post": "Union Minister of State",
+   "dob": "1976-03-07",
+   "dob_src": "OpenSanctions in-sansad record (18th Lok Sabha) + Oneindia profile (07 Mar 1976), checked 2026-11-12",
+   "verified": true,
+   "te": {
+    "name": "డాక్టర్ పెమ్మసాని చంద్రశేఖర్",
+    "role": "కేంద్ర సహాయ మంత్రి"
+   },
+   "hi": {
+    "name": "डॉ. चंद्रशेखर पेम्मासानी",
+    "role": "केंद्रीय राज्य मंत्री"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "lavu-sri-krishna-devarayalu",
+   "name": "Lavu Sri Krishna Devarayalu",
+   "show": "Lavu Sri Krishna Devarayalu",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Narasaraopet",
+   "no": 14,
+   "party": "TDP",
+   "post": "Member of Parliament (Lok Sabha), Narasaraopet",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "krishna-prasad-tenneti",
+   "name": "Krishna Prasad Tenneti",
+   "show": "Krishna Prasad Tenneti",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Bapatla (SC)",
+   "no": 15,
+   "party": "TDP",
+   "post": "Member of Parliament (Lok Sabha), Bapatla",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "magunta-sreenivasulu-reddy",
+   "name": "Magunta Sreenivasulu Reddy",
+   "show": "Magunta Sreenivasulu Reddy",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Ongole",
+   "no": 16,
+   "party": "TDP",
+   "post": "Member of Parliament (Lok Sabha), Ongole",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "byreddy-shabari",
+   "name": "Byreddy Shabari",
+   "show": "Byreddy Shabari",
+   "female": true,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Nandyal",
+   "no": 17,
+   "party": "TDP",
+   "post": "Member of Parliament (Lok Sabha), Nandyal",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "b-nagaraju-panchalingala",
+   "name": "B. Nagaraju Panchalingala",
+   "show": "B. Nagaraju Panchalingala",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Kurnool",
+   "no": 18,
+   "party": "TDP",
+   "post": "Member of Parliament (Lok Sabha), Kurnool",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "g-lakshminarayana",
+   "name": "G. Lakshminarayana",
+   "show": "G. Lakshminarayana",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Anantapur",
+   "no": 19,
+   "party": "TDP",
+   "post": "Member of Parliament (Lok Sabha), Anantapur",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "b-k-parthasarathi",
+   "name": "B. K. Parthasarathi",
+   "show": "B. K. Parthasarathi",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Hindupur",
+   "no": 20,
+   "party": "TDP",
+   "post": "Member of Parliament (Lok Sabha), Hindupur",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "y-s-avinash-reddy",
+   "name": "Y. S. Avinash Reddy",
+   "show": "Y. S. Avinash Reddy",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Kadapa",
+   "no": 21,
+   "party": "YSRCP",
+   "post": "Member of Parliament (Lok Sabha), Kadapa",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vemireddy-prabhakar-reddy",
+   "name": "Vemireddy Prabhakar Reddy",
+   "show": "Vemireddy Prabhakar Reddy",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Nellore",
+   "no": 22,
+   "party": "TDP",
+   "post": "Member of Parliament (Lok Sabha), Nellore",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "maddila-gurumoorthy",
+   "name": "Maddila Gurumoorthy",
+   "show": "Maddila Gurumoorthy",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Tirupati (SC)",
+   "no": 23,
+   "party": "YSRCP",
+   "post": "Member of Parliament (Lok Sabha), Tirupati",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "p-v-midhun-reddy",
+   "name": "P. V. Midhun Reddy",
+   "show": "P. V. Midhun Reddy",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Rajampet",
+   "no": 24,
+   "party": "YSRCP",
+   "post": "Member of Parliament (Lok Sabha), Rajampet",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "daggumalla-prasada-rao",
+   "name": "Daggumalla Prasada Rao",
+   "show": "Daggumalla Prasada Rao",
+   "female": false,
+   "house": "mp-ls",
+   "state": "AP",
+   "seat": "Chittoor (SC)",
+   "no": 25,
+   "party": "TDP",
+   "post": "Member of Parliament (Lok Sabha), Chittoor",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "godam-nagesh",
+   "name": "Godam Nagesh",
+   "show": "Godam Nagesh",
+   "female": false,
+   "house": "mp-ls",
+   "state": "TG",
+   "seat": "Adilabad (ST)",
+   "no": 1,
+   "party": "BJP",
+   "post": "Member of Parliament (Lok Sabha), Adilabad",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vamsi-krishna-gaddam",
+   "name": "Vamsi Krishna Gaddam",
+   "show": "Vamsi Krishna Gaddam",
+   "female": false,
+   "house": "mp-ls",
+   "state": "TG",
+   "seat": "Peddapalle (SC)",
+   "no": 2,
+   "party": "INC",
+   "post": "Member of Parliament (Lok Sabha), Peddapalle",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bandi-sanjay-kumar",
+   "name": "Bandi Sanjay Kumar",
+   "show": "Bandi Sanjay Kumar",
+   "female": false,
+   "house": "mp-ls",
+   "state": "TG",
+   "seat": "Karimnagar",
+   "no": 3,
+   "party": "BJP",
+   "post": "Union Minister of State",
+   "dob": "1971-07-11",
+   "dob_src": "unconfirmed: OpenSanctions in_sansad record (2026-11-09); official/Wikipedia page not retrievable this run",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "dharmapuri-arvind",
+   "name": "Dharmapuri Arvind",
+   "show": "Dharmapuri Arvind",
+   "female": false,
+   "house": "mp-ls",
+   "state": "TG",
+   "seat": "Nizamabad",
+   "no": 4,
+   "party": "BJP",
+   "post": "Member of Parliament (Lok Sabha), Nizamabad",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "suresh-shetkar",
+   "name": "Suresh Shetkar",
+   "show": "Suresh Shetkar",
+   "female": false,
+   "house": "mp-ls",
+   "state": "TG",
+   "seat": "Zahirabad",
+   "no": 5,
+   "party": "INC",
+   "post": "Member of Parliament (Lok Sabha), Zahirabad",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "madhavaneni-raghunandan-rao",
+   "name": "Madhavaneni Raghunandan Rao",
+   "show": "Madhavaneni Raghunandan Rao",
+   "female": false,
+   "house": "mp-ls",
+   "state": "TG",
+   "seat": "Medak",
+   "no": 6,
+   "party": "BJP",
+   "post": "Member of Parliament (Lok Sabha), Medak",
+   "dob": "1965-04-03",
+   "dob_src": "Parliament of India 18th LS member profile (dataful.in)",
+   "verified": true,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "etela-rajender",
+   "name": "Etela Rajender",
+   "show": "Etela Rajender",
+   "female": false,
+   "house": "mp-ls",
+   "state": "TG",
+   "seat": "Malkajgiri",
+   "no": 7,
+   "party": "BJP",
+   "post": "Member of Parliament (Lok Sabha), Malkajgiri",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "g-kishan-reddy",
+   "name": "G. Kishan Reddy",
+   "show": "G. Kishan Reddy",
+   "female": false,
+   "house": "mp-ls",
+   "state": "TG",
+   "seat": "Secunderabad",
+   "no": 8,
+   "party": "BJP",
+   "post": "Union Cabinet Minister",
+   "dob": "1960-06-15",
+   "dob_src": "coal.gov.in Union Minister profile (Date of Birth 15-Jun-1960), checked 2026-11-11",
+   "verified": true,
+   "te": {
+    "name": "శ్రీ కిషన్ రెడ్డి",
+    "role": "కేంద్ర మంత్రి"
+   },
+   "hi": {
+    "name": "श्री किशन रेड्डी",
+    "role": "केंद्रीय मंत्री"
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "asaduddin-owaisi",
+   "name": "Asaduddin Owaisi",
+   "show": "Asaduddin Owaisi",
+   "female": false,
+   "house": "mp-ls",
+   "state": "TG",
+   "seat": "Hyderabad",
+   "no": 9,
+   "party": "AIMIM",
+   "post": "Member of Parliament (Lok Sabha), Hyderabad",
+   "dob": "1969-05-13",
+   "dob_src": "to verify",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "konda-vishweshwar-reddy",
+   "name": "Konda Vishweshwar Reddy",
+   "show": "Konda Vishweshwar Reddy",
+   "female": false,
+   "house": "mp-ls",
+   "state": "TG",
+   "seat": "Chevella",
+   "no": 10,
+   "party": "BJP",
+   "post": "Member of Parliament (Lok Sabha), Chevella",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "d-k-aruna",
+   "name": "D. K. Aruna",
+   "show": "D. K. Aruna",
+   "female": true,
+   "house": "mp-ls",
+   "state": "TG",
+   "seat": "Mahbubnagar",
+   "no": 11,
+   "party": "BJP",
+   "post": "Member of Parliament (Lok Sabha), Mahbubnagar",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "mallu-ravi",
+   "name": "Mallu Ravi",
+   "show": "Mallu Ravi",
+   "female": false,
+   "house": "mp-ls",
+   "state": "TG",
+   "seat": "Nagarkurnool (SC)",
+   "no": 12,
+   "party": "INC",
+   "post": "Member of Parliament (Lok Sabha), Nagarkurnool",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "raghuveer-reddy-kunduru",
+   "name": "Raghuveer Reddy Kunduru",
+   "show": "Raghuveer Reddy Kunduru",
+   "female": false,
+   "house": "mp-ls",
+   "state": "TG",
+   "seat": "Nalgonda",
+   "no": 13,
+   "party": "INC",
+   "post": "Member of Parliament (Lok Sabha), Nalgonda",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "chamala-kiran-kumar-reddy",
+   "name": "Chamala Kiran Kumar Reddy",
+   "show": "Chamala Kiran Kumar Reddy",
+   "female": false,
+   "house": "mp-ls",
+   "state": "TG",
+   "seat": "Bhongir",
+   "no": 14,
+   "party": "INC",
+   "post": "Member of Parliament (Lok Sabha), Bhongir",
+   "dob": "1974-10-24",
+   "dob_src": "Wikipedia (cites Digital Sansad)",
+   "verified": true,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "kadiyam-kavya",
+   "name": "Kadiyam Kavya",
+   "show": "Kadiyam Kavya",
+   "female": true,
+   "house": "mp-ls",
+   "state": "TG",
+   "seat": "Warangal (SC)",
+   "no": 15,
+   "party": "INC",
+   "post": "Member of Parliament (Lok Sabha), Warangal",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "balram-naik",
+   "name": "Balram Naik",
+   "show": "Balram Naik",
+   "female": false,
+   "house": "mp-ls",
+   "state": "TG",
+   "seat": "Mahabubabad (ST)",
+   "no": 16,
+   "party": "INC",
+   "post": "Member of Parliament (Lok Sabha), Mahabubabad",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "r-raghuram-reddy",
+   "name": "R. Raghuram Reddy",
+   "show": "R. Raghuram Reddy",
+   "female": false,
+   "house": "mp-ls",
+   "state": "TG",
+   "seat": "Khammam",
+   "no": 17,
+   "party": "INC",
+   "post": "Member of Parliament (Lok Sabha), Khammam",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "abhishek-singhvi",
+   "name": "Abhishek Singhvi",
+   "show": "Abhishek Singhvi",
+   "female": false,
+   "house": "mp-rs",
+   "state": "TG",
+   "seat": "Telangana",
+   "no": null,
+   "party": "INC",
+   "post": "Member of Parliament (Rajya Sabha), Telangana",
+   "dob": "1959-02-24",
+   "dob_src": "to verify",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "renuka-chowdhury",
+   "name": "Renuka Chowdhury",
+   "show": "Renuka Chowdhury",
+   "female": true,
+   "house": "mp-rs",
+   "state": "TG",
+   "seat": "Telangana",
+   "no": null,
+   "party": "INC",
+   "post": "Member of Parliament (Rajya Sabha), Telangana",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "m-anil-kumar-yadav",
+   "name": "M. Anil Kumar Yadav",
+   "show": "M. Anil Kumar Yadav",
+   "female": false,
+   "house": "mp-rs",
+   "state": "TG",
+   "seat": "Telangana",
+   "no": null,
+   "party": "INC",
+   "post": "Member of Parliament (Rajya Sabha), Telangana",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vem-narender-reddy",
+   "name": "Vem Narender Reddy",
+   "show": "Vem Narender Reddy",
+   "female": false,
+   "house": "mp-rs",
+   "state": "TG",
+   "seat": "Telangana",
+   "no": null,
+   "party": "INC",
+   "post": "Member of Parliament (Rajya Sabha), Telangana",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "b-parthasaradhi-reddy",
+   "name": "B. Parthasaradhi Reddy",
+   "show": "B. Parthasaradhi Reddy",
+   "female": false,
+   "house": "mp-rs",
+   "state": "TG",
+   "seat": "Telangana",
+   "no": null,
+   "party": "BRS",
+   "post": "Member of Parliament (Rajya Sabha), Telangana",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "d-damodar-rao",
+   "name": "D. Damodar Rao",
+   "show": "D. Damodar Rao",
+   "female": false,
+   "house": "mp-rs",
+   "state": "TG",
+   "seat": "Telangana",
+   "no": null,
+   "party": "BRS",
+   "post": "Member of Parliament (Rajya Sabha), Telangana",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vaddiraju-ravi-chandra",
+   "name": "Vaddiraju Ravi Chandra",
+   "show": "Vaddiraju Ravi Chandra",
+   "female": false,
+   "house": "mp-rs",
+   "state": "TG",
+   "seat": "Telangana",
+   "no": null,
+   "party": "BRS",
+   "post": "Member of Parliament (Rajya Sabha), Telangana",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "bhashyam-rama-krishna",
+   "name": "Bhashyam Rama Krishna",
+   "show": "Bhashyam Rama Krishna",
+   "female": false,
+   "house": "mp-rs",
+   "state": "AP",
+   "seat": "Andhra Pradesh",
+   "no": null,
+   "party": "TDP",
+   "post": "Member of Parliament (Rajya Sabha), Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "sana-sathish",
+   "name": "Sana Sathish",
+   "show": "Sana Sathish",
+   "female": false,
+   "house": "mp-rs",
+   "state": "AP",
+   "seat": "Andhra Pradesh",
+   "no": null,
+   "party": "TDP",
+   "post": "Member of Parliament (Rajya Sabha), Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "vijay-chintakayala",
+   "name": "Vijay Chintakayala",
+   "show": "Vijay Chintakayala",
+   "female": false,
+   "house": "mp-rs",
+   "state": "AP",
+   "seat": "Andhra Pradesh",
+   "no": null,
+   "party": "TDP",
+   "post": "Member of Parliament (Rajya Sabha), Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "beeda-masthan-rao",
+   "name": "Beeda Masthan Rao",
+   "show": "Beeda Masthan Rao",
+   "female": false,
+   "house": "mp-rs",
+   "state": "AP",
+   "seat": "Andhra Pradesh",
+   "no": null,
+   "party": "TDP",
+   "post": "Member of Parliament (Rajya Sabha), Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "y-v-subba-reddy",
+   "name": "Y. V. Subba Reddy",
+   "show": "Y. V. Subba Reddy",
+   "female": false,
+   "house": "mp-rs",
+   "state": "AP",
+   "seat": "Andhra Pradesh",
+   "no": null,
+   "party": "YSRCP",
+   "post": "Member of Parliament (Rajya Sabha), Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "meda-raghunadha-reddy",
+   "name": "Meda Raghunadha Reddy",
+   "show": "Meda Raghunadha Reddy",
+   "female": false,
+   "house": "mp-rs",
+   "state": "AP",
+   "seat": "Andhra Pradesh",
+   "no": null,
+   "party": "YSRCP",
+   "post": "Member of Parliament (Rajya Sabha), Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "golla-babu-rao",
+   "name": "Golla Babu Rao",
+   "show": "Golla Babu Rao",
+   "female": false,
+   "house": "mp-rs",
+   "state": "AP",
+   "seat": "Andhra Pradesh",
+   "no": null,
+   "party": "YSRCP",
+   "post": "Member of Parliament (Rajya Sabha), Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "s-niranjan-reddy",
+   "name": "S. Niranjan Reddy",
+   "show": "S. Niranjan Reddy",
+   "female": false,
+   "house": "mp-rs",
+   "state": "AP",
+   "seat": "Andhra Pradesh",
+   "no": null,
+   "party": "YSRCP",
+   "post": "Member of Parliament (Rajya Sabha), Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "r-krishnaiah",
+   "name": "R. Krishnaiah",
+   "show": "R. Krishnaiah",
+   "female": false,
+   "house": "mp-rs",
+   "state": "AP",
+   "seat": "Andhra Pradesh",
+   "no": null,
+   "party": "BJP",
+   "post": "Member of Parliament (Rajya Sabha), Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "paka-venkata-satyanarayana",
+   "name": "Paka Venkata Satyanarayana",
+   "show": "Paka Venkata Satyanarayana",
+   "female": false,
+   "house": "mp-rs",
+   "state": "AP",
+   "seat": "Andhra Pradesh",
+   "no": null,
+   "party": "BJP",
+   "post": "Member of Parliament (Rajya Sabha), Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  },
+  {
+   "id": "lingamaneni-ramesh",
+   "name": "Lingamaneni Ramesh",
+   "show": "Lingamaneni Ramesh",
+   "female": false,
+   "house": "mp-rs",
+   "state": "AP",
+   "seat": "Andhra Pradesh",
+   "no": null,
+   "party": "JSP",
+   "post": "Member of Parliament (Rajya Sabha), Andhra Pradesh",
+   "dob": null,
+   "dob_src": "",
+   "verified": false,
+   "te": {
+    "name": "",
+    "role": ""
+   },
+   "hi": {
+    "name": "",
+    "role": ""
+   },
+   "photo": "",
+   "last_posted": ""
+  }
+ ]
+}

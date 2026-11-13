@@ -1,0 +1,1588 @@
+<!doctype html>
+<html lang="te">
+<head>
+<meta name="google-adsense-account" content="ca-pub-5189488674224327"><script async src="https://www.googletagmanager.com/gtag/js?id=G-2179H3TXWP"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());
+/* How people open Swipe2News (for counting installs): android_app = the APK / Play app, home_screen = added to home screen, browser = website */
+(function(){var s='browser';try{s=sessionStorage.getItem('w2s.src')||'';}catch(e){}
+if(!s){s=document.referrer.indexOf('android-app://com.swipe2news.app')===0?'android_app':((window.matchMedia&&matchMedia('(display-mode: standalone)').matches)||navigator.standalone===true)?'home_screen':'browser';try{sessionStorage.setItem('w2s.src',s);}catch(e){}}
+window.W2S_SRC=s;gtag('set','user_properties',{app_source:s});gtag('config','G-2179H3TXWP');
+var f=0;try{if(s!=='browser'&&!localStorage.getItem('w2s.first.'+s)){localStorage.setItem('w2s.first.'+s,String(Date.now()));f=1;}}catch(e){}
+gtag('event','app_open',{source:s});if(f)gtag('event','app_first_open',{source:s});})();
+</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5189488674224327" crossorigin="anonymous"></script>
+<meta charset="utf-8">
+<script>
+/* Safety net (10 Nov 2026): if no news shows within 12 s, show the reason + a one-tap reset (keeps language/place). Plain ES5 so it runs on every phone. */
+(function(){var errs=[],shown=0;
+function bad(){var t=document.getElementById('tabs'),f=document.getElementById('feed');var n=f?f.children.length:0;if(n===1&&f.firstElementChild&&f.firstElementChild.className==='ssr')n=0;return !!(t&&f&&!t.children.length&&!n);}
+function box(){if(shown||!bad())return;shown=1;var msg=errs.length?errs.slice(0,3).join(' | '):'no news after 12 s';
+ try{if(window.gtag)gtag('event','js_error',{msg:msg.slice(0,150)});}catch(e){}
+ var d=document.createElement('div');d.id='w2sErr';d.style.cssText='position:fixed;left:14px;right:14px;top:30%;z-index:99999;background:#fff;color:#111;border-radius:18px;padding:18px;font:16px/1.45 system-ui,sans-serif;box-shadow:0 12px 48px rgba(0,0,0,.6)';
+ d.innerHTML='<b>వార్తలు లోడ్ కాలేదు · News did not load</b><div style="font-size:12px;color:#555;margin:8px 0 14px;word-break:break-word">'+msg.replace(/[<>&]/g,'')+'</div><button id="w2sFix" type="button" style="width:100%;padding:13px;border:0;border-radius:12px;background:#4A0E3F;color:#fff;font-weight:700;font-size:16px">🔄 రీసెట్ చేసి మళ్లీ తెరవండి</button>';
+ document.body.appendChild(d);
+ document.getElementById('w2sFix').onclick=function(){var go=function(){location.replace(location.pathname+'?r='+Date.now());};
+  try{var p=localStorage.getItem('w2s.prefs'),ks=[];for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(k&&k.indexOf('w2s.')===0)ks.push(k);}for(var j=0;j<ks.length;j++)localStorage.removeItem(ks[j]);if(p)localStorage.setItem('w2s.prefs',p);}catch(e){}
+  try{if(navigator.serviceWorker&&navigator.serviceWorker.getRegistrations){navigator.serviceWorker.getRegistrations().then(function(rs){for(var i=0;i<rs.length;i++)rs[i].unregister();}).then(function(){return window.caches?caches.keys().then(function(ks){return Promise.all(ks.map(function(k){return caches.delete(k);}));}):0;}).then(go,go);return;}}catch(e){}
+  go();};}
+addEventListener('error',function(e){if(e&&e.message&&e.message!=='Script error.')errs.push(e.message+' @'+String(e.filename||'').split('/').pop()+':'+(e.lineno||'')+':'+(e.colno||''));});
+addEventListener('unhandledrejection',function(e){var r=e&&e.reason;errs.push('async: '+(r&&(r.message||r)));});
+setTimeout(box,12000);setTimeout(box,25000);})();
+</script>
+<script>
+/* Laptops and desktops get the news website; phones, tablets and the installed app keep the swipe cards */
+(function(){try{var q=new URLSearchParams(location.search);
+ var app=matchMedia('(display-mode: standalone)').matches||navigator.standalone===true||document.referrer.indexOf('android-app://')===0;
+ if(q.has('cards'))sessionStorage.setItem('w2s.cards','1');
+ if(app||q.has('cards')||q.has('build')||q.has('tip')||q.has('jobs')||q.has('source')||sessionStorage.getItem('w2s.cards'))return;
+ var touch=/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)||(navigator.maxTouchPoints>1&&innerWidth<1100);
+ if(!touch&&innerWidth>=900){var s=q.get('s');location.replace(s?'/s/'+s:'/web/'+location.search);}}catch(e){}})();
+</script>
+
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Swipe2News</title>
+<link rel="canonical" href="https://swipe2news.com/">
+<meta name="application-name" content="Swipe2News">
+<meta name="apple-mobile-web-app-title" content="Swipe2News">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="robots" content="max-image-preview:large">
+<meta name="description" content="Know More. Scroll Less. – తక్కువ స్క్రోల్, ఎక్కువ సమాచారం. Swipe Telugu short news by district and topic.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Swipe2News">
+<meta property="og:title" content="Swipe2News – ఒక్క స్వైప్‌లో వార్తలు! | Know More. Scroll Less.">
+<meta property="og:description" content="తక్కువ స్క్రోల్, ఎక్కువ సమాచారం – తెలంగాణ, దేశం, ప్రపంచం, AI & టెక్, ఉద్యోగాలు.">
+<meta property="og:url" content="https://swipe2news.com/">
+<meta property="og:image" content="https://raw.githubusercontent.com/SWIPE2NEWS/swipe2news/main/og-image.jpg">
+<meta property="og:image:secure_url" content="https://raw.githubusercontent.com/SWIPE2NEWS/swipe2news/main/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/SWIPE2NEWS/swipe2news/main/og-image.jpg">
+<meta name="theme-color" content="#4A0E3F">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon-48.png" sizes="48x48">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@400;600;800&display=swap">
+<style>
+@font-face{font-family:'Archivo Black';src:url(/tools/fonts/Outfit-ExtraBold.ttf) format('truetype');font-display:swap}
+/* ===== tokens: Editorial White (light) / Midnight Pro (dark) ===== */
+:root{
+  --app:#F3EEE9; --card:#FFFFFF; --ink:#16120E; --muted:#6A5E52; --line:#ECE3D6; --soft:#FBF4EE;
+  --brand:#4A0E3F; --brand-ink:#FFFFFF; --brand-soft:#F6EEF3; --bar:#2E0827; --ok:#1F7A4D;
+  --chipbg:#FFFFFF; --hdr:#FFFFFF; --hdr-ink:#16120E; --paper:#FFFDF5;
+  --c-election:#B3400F; --c-gov:#1F6B3A; --c-money:#16406E; --c-water:#0B5CAD; --c-power:#5B3A8C; --c-city:#7A4A12; --c-job:#0F6E5C;
+  --display:'Archivo Black','Arial Black',Impact,sans-serif;
+  --body:'Noto Sans Telugu','Nirmala UI','Gautami',sans-serif;
+  --gx:max(16px,env(safe-area-inset-left,0px)); --gr:max(16px,env(safe-area-inset-right,0px));
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --app:#120A10; --card:#1C1219; --ink:#F1ECE2; --muted:#A9B3C1; --line:#33242F; --soft:#261A23;
+  --brand-soft:#3A1630; --chipbg:#261A23; --hdr:#1C1219; --hdr-ink:#F1ECE2; --bar:#1E0519; --paper:#1C1219; color-scheme:dark}}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .story{--hl-ink:color-mix(in srgb,var(--hl) 45%,#fff)}}
+:root[data-theme="dark"]{
+  --app:#120A10; --card:#1C1219; --ink:#F1ECE2; --muted:#A9B3C1; --line:#33242F; --soft:#261A23;
+  --brand-soft:#3A1630; --chipbg:#261A23; --hdr:#1C1219; --hdr-ink:#F1ECE2; --bar:#1E0519; --paper:#1C1219; color-scheme:dark}
+:root[data-theme="dark"] .story{--hl-ink:color-mix(in srgb,var(--hl) 45%,#fff)}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;overscroll-behavior:none}
+body{position:fixed;inset:0;width:100%;touch-action:manipulation}
+body{background:var(--app);color:var(--ink);font-family:var(--body);overflow:hidden;-webkit-tap-highlight-color:transparent}
+button{font:inherit;color:inherit}
+.shell{height:100%;height:var(--appH,100dvh);max-width:480px;margin:0 auto;display:flex;flex-direction:column;background:var(--card);box-shadow:0 0 0 1px var(--line);position:relative}
+
+/* header */
+header{display:flex;align-items:center;gap:8px;padding:8px var(--gr) 6px var(--gx);padding-top:max(8px,env(safe-area-inset-top,0px));background:var(--hdr)}
+.logo{height:34px;width:auto;display:block}
+:root[data-theme="dark"] .logo{content:url(logo-light.png)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .logo{content:url(logo-light.png)}}
+.place{margin-left:auto;display:inline-flex;align-items:center;gap:4px;min-height:38px;padding:4px 12px;border-radius:99px;border:1px solid var(--line);background:var(--chipbg);color:var(--hdr-ink);font-size:12.5px;font-weight:800;cursor:pointer;min-width:0;flex-shrink:1;max-width:46%}
+.place span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.place svg{width:15px;height:15px;flex-shrink:0;color:var(--brand)}
+.icon{width:38px;height:38px;border-radius:10px;border:1px solid var(--line);background:var(--chipbg);color:var(--hdr-ink);display:grid;place-items:center;cursor:pointer;flex-shrink:0}
+.icon svg{width:19px;height:19px}
+.icon[hidden]{display:none}
+.bell[aria-pressed="true"]{color:var(--brand);border-color:var(--brand)}
+.bell[aria-pressed="true"] svg{fill:currentColor}
+.installbar{position:absolute;left:10px;right:10px;top:8px;z-index:6;background:#2E0827;color:#fff;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.25);padding:10px 12px;display:flex;align-items:center;gap:10px}
+.installbar[hidden]{display:none}
+.installbar img{width:42px;height:42px;border-radius:10px;flex-shrink:0;background:#fff}
+.installbar .t{flex:1;min-width:0;line-height:1.35}
+.installbar .t b{display:block;font-size:14px}
+.installbar .t span{font-size:11.5px;color:#D6DEEA}
+.installbar .go{min-height:40px;padding:0 14px;border-radius:10px;border:0;background:#25D366;color:#0B1F12;font-weight:800;font-size:13.5px;cursor:pointer;white-space:nowrap}
+.installbar .no{width:32px;height:32px;border:0;background:transparent;color:#AFC0D6;font-size:20px;cursor:pointer;flex-shrink:0}
+.howto{position:absolute;inset:0;z-index:12;background:rgba(0,0,0,.55);display:flex;align-items:flex-end}
+.howto[hidden]{display:none}
+.howto .box{background:var(--card);color:var(--ink);width:100%;border-radius:16px 16px 0 0;padding:18px 18px calc(18px + env(safe-area-inset-bottom,0px))}
+.howto h3{margin:0 0 10px;font-size:18px}
+.howto ol{margin:0 0 14px;padding-left:22px;font-size:15px;line-height:1.7}
+.howto .btn{width:100%}
+.alertcard{position:absolute;left:12px;right:12px;bottom:12px;z-index:5;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.18);padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.alertcard[hidden]{display:none}
+.alertcard b{font-size:15px}
+.alertcard p{margin:0;font-size:13px;color:var(--muted);line-height:1.5}
+.alertcard .row{display:flex;gap:8px}
+.alertcard .btn{min-height:40px;font-size:13.5px;flex:1}
+.alertcard .later{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+
+/* section tabs */
+.tabs{display:flex;gap:4px;overflow-x:auto;padding:6px var(--gr) 8px var(--gx);border-bottom:1px solid var(--line);scrollbar-width:none;background:var(--hdr)}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex-shrink:0;min-height:34px;padding:4px 12px;border-radius:8px;border:0;background:transparent;font-size:13px;font-weight:800;cursor:pointer;white-space:nowrap;color:var(--hdr-ink)}
+.tab[aria-pressed="true"]{background:var(--brand);color:var(--brand-ink)}
+.tab.fest{box-shadow:inset 0 0 0 2px #E8A317}.tab.fest[aria-pressed="true"]{background:#E8A317;color:#1B1203}
+
+/* feed + cards (same look as the Swipe2News WhatsApp cards) */
+.feed{flex:1;min-height:0;position:relative;overflow:hidden;touch-action:none;user-select:none;-webkit-user-select:none;overscroll-behavior:none;background:var(--app)}
+.story.promo{background:#eef4fb;justify-content:center;align-items:center;gap:12px;padding:10px}
+.story.promo .pimg{display:flex;flex:1 1 auto;min-height:0;width:100%;justify-content:center}
+.story.promo .pimg img{pointer-events:none;-webkit-user-drag:none;user-select:none;display:block;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 6px 14px rgba(0,0,0,.18))}
+.story.promo .pbtn{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;flex:none}
+.story.promo .btn{text-decoration:none}
+.story.promo .btn.ghost{background:#fff;color:#2E0827;border:1px solid #E3D3DE}
+.story .panel .vplay{position:absolute!important;left:auto;right:14px;top:58%;transform:translateY(-50%);width:auto;z-index:3;display:flex;align-items:center;gap:8px;border:0;border-radius:999px;padding:10px 18px 10px 12px;background:rgba(224,6,43,.92);color:#fff;font:800 15px/1.2 var(--body);box-shadow:0 6px 20px rgba(0,0,0,.35);cursor:pointer}
+.vplay svg{background:rgba(255,255,255,.2);border-radius:50%;padding:4px}
+@media (max-height:620px){.story .panel{max-height:32%!important;min-height:120px!important}}
+.story{position:absolute;inset:8px 8px 6px;border-radius:18px;box-shadow:0 6px 22px rgba(0,0,0,.16),0 0 0 1px var(--line);display:flex;flex-direction:column;overflow:hidden;background:var(--paper);will-change:transform;transition:transform .3s cubic-bezier(.2,.8,.2,1)}
+.story[hidden]{display:none}
+#homeLogo{display:flex;align-items:center;-webkit-tap-highlight-color:transparent}
+.sh-head .logo{cursor:pointer}
+.feed{perspective:1700px}
+.story{backface-visibility:hidden;-webkit-backface-visibility:hidden;background-image:var(--grain,none)}
+.story .pshade{position:absolute;inset:0;pointer-events:none;z-index:40;opacity:0}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .story{background-image:none}}
+:root[data-theme="dark"] .story{background-image:none}
+.sndrow{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 14px;padding:12px 14px;border-radius:14px;background:var(--soft,#F6F1E8)}
+.sndrow b{font-size:14px}.sndrow small{display:block;color:var(--muted);font-weight:600;font-size:12px}
+[hidden]{display:none!important} /* every popup closes, even ones with their own display style */
+.story.drag{transition:none}
+.panel{position:relative;flex:1 1 auto;min-height:150px;max-height:34%;color:#fff;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;padding:14px var(--gr) 14px var(--gx);background:var(--hl)}
+.panel svg.scene{position:absolute;left:0;right:0;bottom:0;width:100%;height:82%;opacity:.27;pointer-events:none}
+.panel>div,.panel .ptop{position:relative}
+.panel svg.art{position:absolute;right:-6px;top:6px;bottom:6px;height:calc(100% - 12px);width:auto;max-width:60%;opacity:.28;pointer-events:none}
+.panel>*:not(.art){position:relative}
+.ptop{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1.5px solid currentColor;border-radius:99px;padding:2px 12px;font-size:12.5px;font-weight:800;line-height:1.5}
+.chip.pl{border-color:transparent;background:rgba(255,255,255,.2)}
+.pdate{font-size:11.5px;font-weight:700;opacity:.9;white-space:nowrap}
+.stat{font-family:var(--display);font-size:clamp(38px,11vw,56px);line-height:1.05;letter-spacing:-1px}
+.statl{font-size:clamp(14px,4vw,16.5px);font-weight:800;line-height:1.4;max-width:20ch}
+.strip{background:#2E0827;color:#fff;display:flex;justify-content:flex-start;align-items:center;gap:12px;padding:10px var(--gr) 10px var(--gx)}
+.sb{display:flex;flex-direction:column;gap:2px;line-height:1.3;min-width:0}
+.sb .l1{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.sb .bn{font-family:var(--display);font-size:16px;letter-spacing:1px;color:#fff}
+.sb .bn i{font-style:normal;color:#E8243F}
+.sb .tg{font-size:16.5px;font-weight:800;color:#F5A23A;line-height:1.35}
+.sb .rg{font-size:13px;font-weight:800;color:#F6F0F3;letter-spacing:.01em}
+.sb .rt{font-size:12.5px;font-weight:700;color:#E3D3DE;line-height:1.4}
+.sb .tg,.sb .rg,.sb .rt{white-space:nowrap}
+@media (max-width:420px){.story .strip{gap:9px}.story .strip img{height:20px;padding-right:9px}.tgx{display:none}.sb .tg{font-size:15.5px}.sb .rg{font-size:12.5px}.sb .rt{font-size:12px}}
+.sb .rg span{color:#AFC0D6;font-weight:600}
+.strip img{height:30px;width:auto;display:block;flex-shrink:0;padding-right:12px;border-right:1px solid rgba(255,255,255,.22)}
+.strip.sm{justify-content:space-between;gap:10px;padding:7px var(--gr) 7px var(--gx)}
+.strip.sm .lgw{display:flex;flex-direction:column;gap:3px;min-width:0}
+.strip.sm img{height:22px;padding:0;border:0}
+.strip.sm .rt{font-size:11.5px;font-weight:700;color:#E3D3DE;line-height:1.3;white-space:nowrap}
+.strip.sm .tg{font-size:14px;font-weight:800;color:#F6F0F3;white-space:nowrap;text-align:right;letter-spacing:.01em}
+.text{flex:0 1 auto;min-height:0;overflow:hidden;-webkit-mask-image:linear-gradient(#000 calc(100% - 22px),transparent);mask-image:linear-gradient(#000 calc(100% - 22px),transparent);display:flex;flex-direction:column;gap:8px;padding:12px var(--gr) 8px var(--gx)}
+.text>*{flex-shrink:0}
+.text h2{margin:0;font-size:clamp(18px,5vw,22px);font-weight:800;line-height:1.38;text-wrap:balance;color:var(--hl-ink)}
+.sum{margin:0;font-size:clamp(14px,3.9vw,16px);line-height:1.62}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;padding-top:8px;border-top:1px solid var(--line)}
+.src{font-size:12.5px;color:var(--muted);font-weight:600}
+.corr{margin:6px 0 0;font-size:12.5px;line-height:1.55;color:#7A4B00;background:#FFF4D6;border-left:3px solid #E0A100;border-radius:6px;padding:5px 8px}
+.corr b{color:#7A4B00}
+.src b{color:var(--ink)}
+.read{font-size:13px;font-weight:800;color:var(--hl-ink);text-decoration:none;min-height:30px;display:inline-flex;align-items:center}
+.hint{font-size:11.5px;color:var(--muted);font-weight:600;text-align:center}
+.spacer{flex:1 1 0;min-height:0;position:relative}
+.spb{position:absolute;left:var(--gx,14px);right:var(--gr,14px);top:50%;transform:translateY(-50%);display:grid;grid-template-columns:auto 1fr;grid-template-areas:"ic tx" "ic cta";column-gap:12px;row-gap:8px;align-items:center;padding:12px 14px;border-radius:16px;background:var(--spg);color:#fff;text-decoration:none;box-shadow:0 8px 20px -8px rgba(0,0,0,.45),inset 0 0 0 1px rgba(255,255,255,.12);overflow:hidden}
+.spb:before{content:"";position:absolute;right:-40px;top:-50px;width:150px;height:150px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.18),transparent 65%);pointer-events:none}
+.spb .spl{position:absolute;bottom:13px;right:14px;font:800 9px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.62)}
+.spb .spi{grid-area:ic;align-self:center;width:48px;height:48px;border-radius:14px;background:rgba(255,255,255,.14);display:grid;place-items:center;font-style:normal;font-size:25px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.18);overflow:hidden}
+.spb .spi img{width:100%;height:100%;object-fit:cover}
+.spb .spt{grid-area:tx;display:flex;flex-direction:column;gap:2px;min-width:0}
+.spb .spt b{font-size:15.5px;font-weight:800;line-height:1.3}
+.spb .spt small{font-size:12.5px;font-weight:600;line-height:1.4;color:rgba(255,255,255,.88)}
+.spb .spc{grid-area:cta;justify-self:start;background:var(--spa);color:#2E0827;font:800 12.5px/1 var(--body);padding:8px 13px;border-radius:99px}
+.spb.slim{grid-template-areas:"ic tx cta";grid-template-columns:auto 1fr auto;padding:8px 10px 8px 8px;border-radius:14px;row-gap:0}
+.spb.slim .spi{width:36px;height:36px;border-radius:10px;font-size:19px}
+.spb.slim .spt{grid-area:tx}.spb.slim .spt b{font-size:13.5px}.spb.slim .spt small{font-size:11.5px}
+.spb.slim .spl{display:none}
+.spb.slim .spc{grid-area:cta;padding:7px 10px;font-size:12px}
+.spb.mini{grid-template-areas:"ic tx cta";grid-template-columns:auto 1fr auto;padding:6px 8px 6px 6px;border-radius:12px;row-gap:0;column-gap:8px}
+.spb.mini .spi{width:28px;height:28px;border-radius:8px;font-size:15px}
+.spb.mini .spt b{font-size:13px;line-height:1.25}.spb.mini .spl{display:none}
+.spb.mini .spc{padding:6px 9px;font-size:11.5px}
+.spb.mini:before{display:none}
+.qrbar{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:3px var(--gr) 3px var(--gx);background:#16130F;color:#FBF7F0;font-size:13px;font-weight:800;text-decoration:none;flex-shrink:0}
+.qrbar .qp{display:flex;flex-direction:column;gap:0;min-width:0}.qrbar .qp b{font-size:11.5px;font-weight:800;color:#F5A23A;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.qrbar .qp small{font-size:10px;font-weight:700;color:#D9D3C8;line-height:1.35;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.qrbar .qp em{font-style:normal;color:#7CF29A;font-weight:900}
+.qrbar img{width:34px;height:34px;background:#fff;padding:2px;flex-shrink:0}
+/* fitting on short screens */
+.story.t1 .hint{display:none}
+.story.t1 .qrbar img{width:30px;height:30px}
+.story.t2 .sum{display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
+.story.t3 .sum{-webkit-line-clamp:4}
+.story.t4 .sb .rt{display:none}
+.story.t4 .sum{-webkit-line-clamp:3}
+.story.t4 .panel{min-height:120px}
+
+.datebar2{display:flex;align-items:center;gap:8px;padding:8px var(--gr) 8px var(--gx);border-bottom:1px solid var(--line);background:var(--hdr);font-weight:800;font-size:14px}
+.datebar2 b{flex:1}
+.chip.brk{background:#4A0E3F;border-color:#fff;color:#fff;animation:brkp 1.6s ease-in-out infinite}
+@keyframes brkp{50%{box-shadow:0 0 0 5px rgba(255,255,255,.25)}}
+@media (prefers-reduced-motion:reduce){.chip.brk{animation:none}}
+/* job cards */
+.jd{margin:0;display:grid;grid-template-columns:auto 1fr;gap:3px 10px;font-size:clamp(13.5px,3.8vw,15px);line-height:1.5}
+.jd dt{color:var(--muted);font-weight:700;white-space:nowrap}
+.jd dd{margin:0;font-weight:600}
+.left{align-self:flex-start;font-size:12.5px;font-weight:800;padding:4px 10px;border-radius:999px;background:var(--soft);color:var(--hl-ink);border:1.5px solid var(--hl)}
+.left.urg{background:#4A0E3F;border-color:#4A0E3F;color:#fff}
+.warn{font-size:11.5px;color:var(--muted);font-weight:600}
+.story.t1 .warn{display:none}
+.story.t2 .jd .o2{display:none}
+.story.t3 .sum.js{display:none}
+.datebar2 button{min-height:34px;padding:0 12px;border-radius:8px;border:1.5px solid var(--line);background:transparent;font-weight:800;font-size:12.5px;cursor:pointer}
+.fl{display:block;font-weight:800;font-size:14px;margin-bottom:12px}
+.fl small{color:var(--muted);font-weight:600}
+.fl .search{margin:6px 0 0;font-weight:400}
+.chk{display:flex;gap:10px;align-items:flex-start;font-size:13px;line-height:1.5;margin:4px 0 10px}
+.chk input{width:22px;height:22px;flex-shrink:0;margin-top:1px;accent-color:var(--brand)}
+.tiperr{color:var(--brand);font-weight:800;font-size:13.5px;min-height:1em;margin:4px 0 8px}
+.empty{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:24px;text-align:center}
+.empty h2{margin:0;font-size:19px;line-height:1.45}
+.empty p{margin:0;color:var(--muted);font-size:14.5px;line-height:1.6;max-width:32ch}
+.btn{min-height:44px;padding:0 20px;border-radius:10px;border:0;background:var(--brand);color:#fff;font-weight:800;font-size:14.5px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px}
+
+/* action row */
+.dockwrap{position:relative;padding:4px var(--gr) calc(6px) var(--gx);background:var(--paper)}
+.rail{height:3px;border-radius:3px;background:var(--line);overflow:hidden;margin:0 14px 6px}
+.rail i{display:block;height:100%;width:0;border-radius:3px;background:linear-gradient(90deg,#4A0E3F,#FF6A3D 60%,#F5A23A);transition:width .35s cubic-bezier(.2,.8,.2,1)}
+.actions{display:flex;align-items:center;gap:4px;padding:5px 6px;border-radius:24px;border:1px solid var(--line);
+  background:color-mix(in srgb,var(--card) 80%,transparent);-webkit-backdrop-filter:blur(16px) saturate(1.5);backdrop-filter:blur(16px) saturate(1.5);
+  box-shadow:0 10px 28px -10px rgba(18,40,74,.35),inset 0 1px 0 rgba(255,255,255,.5)}
+.act{width:44px;height:44px;border-radius:10px;border:0;background:transparent;display:grid;place-items:center;cursor:pointer;color:var(--ink)}
+.act svg{width:22px;height:22px}
+.act[aria-pressed="true"]{color:var(--brand)}
+.act[aria-pressed="true"] svg{fill:currentColor}
+.act.wa{background:linear-gradient(145deg,#2FE47A,#1DA851);border-radius:50%!important;width:48px;height:48px;margin-left:2px;box-shadow:0 2px 8px rgba(37,211,102,.45)}
+.act.wa svg{width:26px;height:26px}
+.act.wa:active{transform:scale(.94)}
+.mid{display:flex;align-items:center;gap:6px}
+.count{margin-right:auto;font-family:var(--display);font-size:11px;letter-spacing:.06em;color:var(--muted);font-variant-numeric:tabular-nums;padding:5px 9px;border-radius:999px;background:var(--soft);white-space:nowrap}
+.count b{color:var(--ink);font-weight:400}
+.act{border-radius:14px!important;transition:background .15s,transform .1s}
+.act:active{transform:scale(.92)}
+.act.ai[aria-pressed="true"]{color:#fff;background:linear-gradient(135deg,#5B3A8C,#4A0E3F)}
+.act.ai[aria-pressed="true"] svg path{animation:eq 0.9s ease-in-out infinite alternate}
+.act.ai[aria-pressed="true"] svg path:nth-child(2n){animation-delay:.3s}
+@keyframes eq{from{opacity:.45}to{opacity:1}}
+#prev,#next{display:none}
+@media (min-width:760px){#prev,#next{display:grid}}
+/* bottom nav */
+.nav{display:flex;border-top:1px solid var(--line);background:var(--card);padding-bottom:env(safe-area-inset-bottom,0px)}
+.nb{flex:1;display:flex;flex-direction:column;align-items:center;gap:1px;min-height:52px;justify-content:center;border:0;background:transparent;cursor:pointer;font-size:11px;font-weight:700;color:var(--muted)}
+.nb svg{width:21px;height:21px}
+.nb[aria-current="true"]{color:var(--brand)}
+:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+
+/* sheets */
+.sheet{position:absolute;inset:0;z-index:10;background:var(--card);display:flex;flex-direction:column}
+.sheet[hidden]{display:none}
+.sh-head{padding:max(12px,env(safe-area-inset-top,0px)) var(--gr) 10px var(--gx);background:var(--hdr);border-bottom:3px solid var(--brand);display:flex;align-items:center;gap:10px}
+.sh-head .x{margin-left:auto}
+.sh-body{flex:1;overflow-y:auto;padding:16px var(--gr) 16px var(--gx)}
+.sh-body h2{margin:0 0 4px;font-size:18px}
+.sh-body .sub{margin:0 0 12px;color:var(--muted);font-size:13.5px;line-height:1.5}
+.search{width:100%;min-height:44px;border-radius:10px;border:1.5px solid var(--line);background:var(--soft);color:var(--ink);padding:0 12px;font:inherit;font-size:15px;margin-bottom:10px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:22px}
+.grid.three{grid-template-columns:1fr 1fr 1fr}
+.opt{min-height:46px;border-radius:10px;border:1.5px solid var(--line);background:transparent;text-align:left;padding:6px 10px;cursor:pointer;line-height:1.25}
+.opt b{display:block;font-size:14px}
+.opt small{color:var(--muted);font-size:11.5px;font-weight:600}
+.opt[aria-pressed="true"],.opt[aria-checked="true"]{border-color:var(--brand);background:var(--brand-soft)}
+.opt[aria-checked="true"] b::after,.opt[aria-pressed="true"] b::after{content:" ✓";color:var(--brand)}
+.opt.wide{grid-column:1/-1}
+.sh-foot{padding:10px var(--gr) calc(10px + env(safe-area-inset-bottom,0px)) var(--gx);border-top:1px solid var(--line);display:flex;gap:10px}
+.sh-foot .btn{flex:1}
+.join-box{display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center;padding:20px 0}
+.join-box .bn{font-family:var(--display);font-size:34px;letter-spacing:2px;line-height:1}
+.join-box .bn i{font-style:normal;color:var(--brand)}
+.join-box .tg{font-size:20px;font-weight:800;color:var(--brand)}
+.join-box .tl{font-size:13px;font-weight:700;color:var(--muted)}
+.join-box img.qr{width:180px;height:180px;background:#fff;padding:8px;border-radius:12px;border:1px solid var(--line)}
+.join-box .wa{background:#25D366;color:#0B1F12}
+.links{font-size:13px;color:var(--muted)}
+.links a{color:var(--brand)}
+.toast{position:absolute;left:50%;bottom:118px;transform:translateX(-50%);background:#16130F;color:#fff;padding:8px 14px;border-radius:99px;font-size:13px;font-weight:700;opacity:0;transition:opacity .2s;pointer-events:none;z-index:20;white-space:nowrap}
+.toast.on{opacity:1}
+/* reading mode: bottom buttons + menu slide away so the card gets the full screen; one tap on the card brings them back */
+.dockwrap,.shell>.nav,.shell>header,.shell>.tabs{transition:max-height .28s ease,opacity .2s ease,padding .28s ease;max-height:160px}
+.dockwrap,.shell>.nav,.shell>header{overflow:hidden}
+body.fs .shell>header,body.fs .shell>.tabs{max-height:0;opacity:0;padding-top:0;padding-bottom:0;border-bottom-width:0;pointer-events:none;overflow:hidden}
+body.fs .feed{padding-top:env(safe-area-inset-top,0px)}
+body.fs .dockwrap,body.fs .shell>.nav{max-height:0;opacity:0;padding-top:0;padding-bottom:0;border-top-width:0;pointer-events:none}
+body.fs .feed{padding-bottom:env(safe-area-inset-bottom,0px)}
+.fspill{position:absolute;right:12px;bottom:calc(10px + env(safe-area-inset-bottom,0px));z-index:40;background:rgba(18,40,74,.82);color:#fff;font:800 12px/1 var(--body);padding:7px 11px;border-radius:99px;pointer-events:none;opacity:0;transition:opacity .25s}
+body.fs .toast{bottom:calc(112px + env(safe-area-inset-bottom,0px))}
+.fsplay{position:absolute;right:14px;bottom:calc(64px + env(safe-area-inset-bottom,0px));z-index:45;display:flex;align-items:center;gap:7px;height:42px;padding:0 15px 0 12px;border:0;border-radius:99px;background:rgba(18,40,74,.9);color:#fff;font:800 13.5px/1 var(--body);box-shadow:0 8px 22px rgba(0,0,0,.35),0 0 0 2px rgba(255,213,74,.55);cursor:pointer;opacity:0;transform:translateY(12px) scale(.92);pointer-events:none;transition:opacity .25s,transform .25s;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.fsplay svg{width:19px;height:19px;display:block}.fsplay .wv{display:none;align-items:flex-end;gap:2px;height:16px}
+.fsplay .wv b{width:3px;border-radius:2px;background:#F5A23A;animation:fsw .9s ease-in-out infinite}.fsplay .wv b:nth-child(2){animation-delay:.15s}.fsplay .wv b:nth-child(3){animation-delay:.3s}.fsplay .wv b:nth-child(4){animation-delay:.45s}
+@keyframes fsw{0%,100%{height:4px}50%{height:16px}}
+.fsplay[aria-pressed="true"]{background:#4A0E3F;box-shadow:0 8px 22px rgba(200,16,46,.45),0 0 0 2px rgba(255,255,255,.6)}
+.fsplay[aria-pressed="true"] .ico{display:none}.fsplay[aria-pressed="true"] .wv{display:flex}
+body.fs .fsplay{opacity:1;transform:none;pointer-events:auto}
+body.fs .fsplay.nop{opacity:0;pointer-events:none}
+@media (prefers-reduced-motion:reduce){.fsplay .wv b{animation:none;height:10px}}
+@media (max-width:380px){.logo{height:28px}.place{font-size:11.5px;padding:4px 9px}}
+@media (prefers-reduced-motion:reduce){.story{transition:none}.toast{transition:none}}
+.ssr{height:100%;overflow:auto;padding:18px 20px 40px;font-size:15px;line-height:1.7;color:var(--ink,#16130F)}.ssr h1{font-size:20px;line-height:1.4;margin:0 0 10px}.ssr h2{font-size:16px;margin:16px 0 6px}.ssr ul{margin:0;padding-left:20px}.ssr a{color:var(--brand,#4A0E3F);font-weight:700}.ssr .ssrf{font-size:13px;margin-top:16px}.ssr .ssrw{color:#888;font-size:13px}
+</style>
+</head>
+<body>
+<div class="shell">
+  <header>
+    <a href="/?cards=1" id="homeLogo" aria-label="Swipe2News హోమ్ – మొదటి వార్త"><img class="logo" src="logo.png" alt="Swipe2News"></a>
+    <button class="place" id="placeBtn" type="button" aria-label="ప్రాంతం మార్చండి"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span id="placeName">తెలంగాణ</span></button>
+    <button class="icon bell" id="bellBtn" type="button" aria-label="వార్తల అలర్ట్‌లు" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg></button>
+    <button class="icon" id="setBtn" type="button" aria-label="సెట్టింగ్స్"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg></button>
+  </header>
+  <nav class="tabs" id="tabs" aria-label="విభాగాలు"></nav>
+  <main class="feed" id="feed" aria-label="వార్తలు"><div class="ssr">
+<h1>Swipe2News – తక్కువ స్క్రోల్, ఎక్కువ సమాచారం</h1>
+<p>Swipe2News ఉచిత తెలుగు వార్తా యాప్, వెబ్‌సైట్. మీ ఊరు, జిల్లా, తెలంగాణ, ఆంధ్రప్రదేశ్, దేశం, ప్రపంచ ముఖ్య వార్తలను సులభమైన తెలుగులో, క్లుప్తంగా అందిస్తాం – ప్రతి వార్తకు అసలు మూలం పేరు, లింక్‌తో. ఆలేరు, యాదాద్రి భువనగిరి ప్రాంతంలోని మా స్థానిక రిపోర్టర్లు గ్రామ వార్తలను పంపుతారు. ఇంగ్లీష్, హిందీలోనూ చదవవచ్చు.</p>
+<p lang="en">Swipe2News is a free Telugu news app and website: short, clear news from your village and district, Telangana, Andhra Pradesh, India and the world, every story with its original source. Also available in English and Hindi.</p>
+<h2>విభాగాలు · Sections</h2>
+<ul><li><a href="/web/?sec=telangana">తెలంగాణ వార్తలు</a></li><li><a href="/web/?sec=ap">ఆంధ్రప్రదేశ్ వార్తలు</a></li><li><a href="/web/?sec=india">దేశం వార్తలు</a></li><li><a href="/web/?sec=world">ప్రపంచం వార్తలు</a></li><li><a href="/web/?sec=ai">AI & టెక్ వార్తలు</a></li><li><a href="/web/?sec=jobs">ఉద్యోగ వార్తలు</a></li><li><a href="/web/?sec=business">బిజినెస్ వార్తలు</a></li><li><a href="/web/?sec=education">విద్య వార్తలు</a></li><li><a href="/web/?sec=agri">వ్యవసాయం వార్తలు</a></li><li><a href="/web/?sec=sports">క్రీడలు వార్తలు</a></li></ul>
+<h2>ఇంకా · More</h2>
+<ul><li><a href="/web/">తాజా వార్తలు · Latest news</a></li><li><a href="/epaper/">జనధ్వని ఈ-పేపర్ · Daily e-paper</a></li><li><a href="/?jobs=1">ఉద్యోగాలు · Jobs</a></li><li><a href="/reporter/join.html">మీ ఊరి రిపోర్టర్ అవ్వండి · Become a reporter</a></li></ul>
+<p class="ssrf"><a href="/about.html">మా గురించి · About</a> · <a href="/editorial-policy.html">సంపాదకీయ విధానం · Editorial policy</a> · <a href="/contact.html">సంప్రదించండి · Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p>
+<p class="ssrw">వార్తలు లోడ్ అవుతున్నాయి… · Loading news…</p>
+</div></main>
+  <div class="installbar" id="installBar" hidden role="dialog" aria-label="యాప్ ఇన్‌స్టాల్">
+    <img src="icon-192.png" alt="">
+    <div class="t"><b>Swipe2News యాప్‌ను హోమ్ స్క్రీన్‌కు జోడించండి</b><span>ఉచితం · ఒక్క టచ్‌తో వార్తలు · 🔔 అలర్ట్‌లు</span></div>
+    <button class="go" id="installGo" type="button">జోడించండి</button>
+    <button class="no" id="installNo" type="button" aria-label="మూసివేయండి">×</button>
+  </div>
+  <div class="howto" id="howTo" hidden role="dialog" aria-label="హోమ్ స్క్రీన్‌కు జోడించడం ఎలా"><div class="box"><h3 id="howTitle"></h3><ol id="howSteps"></ol><button class="btn" id="howOk" type="button">సరే</button></div></div>
+  <div class="alertcard" id="alertCard" hidden role="dialog" aria-label="వార్తల అలర్ట్‌లు">
+    <b>🔔 ముఖ్యమైన వార్తలు వెంటనే తెలుసుకోండి</b>
+    <p>బ్రేకింగ్ న్యూస్, మీ జిల్లా వార్తల అలర్ట్‌లు మీ ఫోన్‌కి పంపమంటారా? ఎప్పుడైనా ఆపేయవచ్చు.</p>
+    <div class="row"><button class="btn later" id="alertLater" type="button">తర్వాత</button><button class="btn" id="alertYes" type="button">అలర్ట్‌లు ఆన్ చేయండి</button></div>
+  </div>
+
+  <div class="fspill" id="fsPill" aria-hidden="true"></div>
+  <button class="fsplay" id="fsPlay" type="button" aria-pressed="false" aria-label="వార్తలు వినండి"><i class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg></i><i class="wv" aria-hidden="true"><b></b><b></b><b></b><b></b></i><span>వార్తలు వినండి</span></button>
+  <div class="dockwrap">
+    <div class="rail" aria-hidden="true"><i id="railFill"></i></div>
+    <div class="actions">
+      <span class="count" id="count" aria-live="polite"></span>
+      <button class="act" id="prev" type="button" aria-label="ముందు వార్త"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+      <button class="act" id="next" type="button" aria-label="తర్వాతి వార్త"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+      <button class="act" id="saveBtn" type="button" aria-label="సేవ్ చేయండి" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg></button>
+      <button class="act ai" id="listenBtn" type="button" aria-label="AI వాయిస్‌తో వినండి" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 10v4M8 7v10M12 4v16M16 8v8M20 11v2"/></svg></button>
+      <button class="act" id="dlBtn" type="button" aria-label="కార్డు చిత్రాన్ని ఫోన్‌లో సేవ్ చేయండి"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg></button>
+      <button class="act" id="shareBtn" type="button" aria-label="షేర్ చేయండి"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg></button>
+      <button class="act wa" id="waBtn" type="button" aria-label="WhatsAppలో షేర్ చేయండి"><svg viewBox="0 0 32 32" aria-hidden="true"><path fill="#fff" d="M16 3.2A12.7 12.7 0 0 0 5.1 22.4L3.4 28.6l6.4-1.7A12.7 12.7 0 1 0 16 3.2zm0 23.2a10.5 10.5 0 0 1-5.4-1.5l-.4-.2-3.8 1 1-3.7-.2-.4A10.5 10.5 0 1 1 16 26.4zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.6 8.6 0 0 1-4.3-3.7c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3c.2.2 2.2 3.4 5.4 4.8 2 .9 2.8.9 3.8.8a3.2 3.2 0 0 0 2.1-1.5 2.6 2.6 0 0 0 .2-1.5c-.1-.1-.3-.2-.6-.4z"/></svg></button>
+    </div>
+  </div>
+  <nav class="nav" aria-label="ప్రధాన మెనూ">
+    <button class="nb" type="button" data-v="home" aria-current="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>హోమ్</button>
+    <button class="nb" type="button" data-v="jobs"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M3 13h18"/></svg>జాబ్స్</button>
+    <button class="nb" type="button" data-v="saved"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>సేవ్డ్</button>
+    <button class="nb" type="button" data-v="dates"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>తేదీలు</button>
+    <button class="nb" type="button" data-v="join"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/></svg>ఛానెల్</button>
+    <button class="nb" type="button" data-v="more"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg>మరిన్ని</button>
+  </nav>
+
+  <!-- settings: place, topics, theme -->
+  <style>img.wgreet{display:block;width:100%;max-width:420px;height:auto;margin:0 auto 6px;border-radius:14px;box-shadow:0 6px 18px rgba(0,0,0,.18)}img.wgreet[hidden]{display:none}</style>
+  <section class="sheet" id="sheet" hidden aria-label="మీ ఎంపికలు">
+    <div class="sh-head"><img class="logo" src="logo.png" alt="Swipe2News"><button class="icon x" id="closeSheet" type="button" aria-label="మూసివేయండి"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <div class="sh-body">
+      <img class="wgreet" src="promo/diwali-2026.jpg" alt="Swipe2News – దీపావళి శుభాకాంక్షలు" hidden data-until="2026-11-09T15:00:00+05:30">
+      <h2>భాష · Language</h2>
+      <div class="grid three" id="langs" role="radiogroup" aria-label="భాష"></div>
+      <h2>మీ రాష్ట్రం · Your state</h2>
+      <p class="sub">మీ రాష్ట్రం ఎంచుకోండి – ఆ ప్రాంత వార్తలు ముందుగా చూపిస్తాం.</p>
+      <div class="grid" id="states" role="radiogroup" aria-label="రాష్ట్రాలు"></div>
+      <h2 id="distH">మీ జిల్లా ఎంచుకోండి</h2>
+      <p class="sub" id="distSub">Choose your district – మీ ప్రాంత వార్తలు ముందుగా కనిపిస్తాయి.</p>
+      <input class="search" id="q" type="search" placeholder="జిల్లా వెతకండి / Search district" aria-label="జిల్లా వెతకండి">
+      <div class="grid" id="places" role="radiogroup" aria-label="జిల్లాలు"></div>
+      <h2>మీ ఊరు / పట్టణం</h2>
+      <p class="sub">Village or town (optional) – ఈ పేరు ఉన్న వార్తలు అందరికంటే ముందు చూపిస్తాం.</p>
+      <input class="search" id="village" type="text" maxlength="40" placeholder="ఉదా: కొండాపూర్ / Kondapur" aria-label="మీ ఊరు">
+      <h2>మీకు నచ్చిన విభాగాలు</h2>
+      <p class="sub">Pick your topics – ఇవి పైన ట్యాబ్‌లుగా కనిపిస్తాయి.</p>
+      <div class="grid" id="topics"></div>
+      <h2>థీమ్</h2>
+      <p class="sub">Theme – లైట్ (Editorial White) లేదా డార్క్ (Midnight Pro).</p>
+      <div class="grid three" id="themes" role="radiogroup" aria-label="థీమ్"></div>
+      <div class="sndrow"><div><b>📖 కార్డు పూర్తిగా చూపించు</b><small>చదువుతున్నప్పుడు పైన, కింది బటన్లు దాగిపోతాయి · కార్డుపై ఒకసారి తాకితే మళ్లీ వస్తాయి</small></div><button class="btn" type="button" id="fsToggle" aria-pressed="true" style="min-width:84px">ఆన్</button></div>
+      <div class="sndrow"><div><b>💧 కార్డ్ తిప్పే శబ్దం</b><small>స్వైప్ చేసినప్పుడు చిన్న "పాప్" శబ్దం</small></div><button class="btn" type="button" id="sndToggle" aria-pressed="true" style="min-width:84px">ఆన్</button></div>
+      <button class="btn" id="tipOpen1" type="button" style="width:100%;margin-bottom:14px">📝 మీ ఊరి వార్త పంపండి</button>
+      <p class="links"><a href="about.html">About · మా గురించి</a> · <a href="editorial-policy.html">Editorial policy</a> · <a href="privacy.html">Privacy Policy · గోప్యతా విధానం</a> · <a href="terms.html">Terms</a> · Contact: way2sec.news@gmail.com</p>
+    </div>
+    <div class="sh-foot"><button class="btn" id="save" type="button">సేవ్ చేయండి · Save</button></div>
+  </section>
+
+  <!-- news by date -->
+  <section class="sheet" id="dateSheet" hidden aria-label="తేదీ వారీగా వార్తలు">
+    <div class="sh-head"><img class="logo" src="logo.png" alt="Swipe2News"><button class="icon x" id="closeDates" type="button" aria-label="మూసివేయండి"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <div class="sh-body">
+      <h2>📅 తేదీ వారీగా వార్తలు</h2>
+      <p class="sub">News by date – ఏ రోజు వార్తలైనా ఇక్కడ చూడండి.</p>
+      <input class="search" id="datePick" type="date" aria-label="తేదీ ఎంచుకోండి">
+      <div class="grid" id="dateList" style="grid-template-columns:1fr"></div>
+    </div>
+  </section>
+
+  <!-- readers send local news -->
+  <section class="sheet" id="tipSheet" hidden aria-label="మీ ఊరి వార్త పంపండి">
+    <div class="sh-head"><img class="logo" src="logo.png" alt="Swipe2News"><button class="icon x" id="closeTip" type="button" aria-label="మూసివేయండి"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <form class="sh-body" id="tipForm" novalidate>
+      <h2>📝 మీ ఊరి వార్త పంపండి</h2>
+      <p class="sub">మీ గ్రామం, మండలం, జిల్లాలో జరిగిన ముఖ్యమైన విషయం మాకు తెలియజేయండి. Swipe2News బృందం <b>పరిశీలించిన తర్వాతే</b> ప్రచురిస్తుంది.</p>
+      <label class="fl">మీ పేరు <small>(ఐచ్ఛికం)</small><input class="search" id="tipName" maxlength="60" autocomplete="name"></label>
+      <label class="fl">జిల్లా *<select class="search" id="tipDist" required></select></label>
+      <label class="fl">మండలం / గ్రామం / ప్రాంతం *<input class="search" id="tipPlace" maxlength="80" required placeholder="ఉదా: హన్మకొండ, కాజీపేట"></label>
+      <label class="fl">ఏం జరిగింది? *<textarea class="search" id="tipText" rows="5" maxlength="1200" required placeholder="ఏం, ఎక్కడ, ఎప్పుడు జరిగిందో వివరంగా రాయండి…" style="min-height:120px;padding-top:10px"></textarea></label>
+      <label class="fl">ఎప్పుడు జరిగింది?<input class="search" id="tipWhen" type="datetime-local"></label>
+      <label class="chk"><input type="checkbox" id="tipOk"> <span>ఈ సమాచారం నిజమని నిర్ధారిస్తున్నాను. ఎవరి పేరు, ఫోటో అనుమతి లేకుండా పంపను. Swipe2News పరిశీలించి, అవసరమైతే సరిచేసి ప్రచురించవచ్చు.</span></label>
+      <p class="sub">📷 ఫోటో / వీడియో ఉంటే WhatsApp చాట్ తెరిచాక 📎 నుంచి జత చేయండి.</p>
+      <p class="tiperr" id="tipErr" role="alert"></p>
+      <button class="btn wa" type="submit" style="width:100%;background:#25D366;color:#0B1F12">WhatsAppలో పంపండి</button>
+    </form>
+  </section>
+
+  <!-- join the WhatsApp channel -->
+  <section class="sheet" id="joinSheet" hidden aria-label="Swipe2News ఛానెల్">
+    <div class="sh-head"><img class="logo" src="logo.png" alt="Swipe2News"><button class="icon x" id="closeJoin" type="button" aria-label="మూసివేయండి"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <div class="sh-body"><div class="join-box">
+      <div class="bn">WAY<i>2</i>SEC</div>
+      <div class="tg">ఒక్క స్వైప్‌లో వార్తలు!</div>
+      <div class="tl">Know More. Scroll Less. · తక్కువ స్క్రోల్, ఎక్కువ సమాచారం</div>
+      <img class="qr" src="qr.png" alt="Swipe2News WhatsApp ఛానెల్ QR కోడ్">
+      <a class="btn wa" id="joinLink" target="_blank" rel="noopener">WhatsApp ఛానెల్‌లో చేరండి</a>
+      <button class="btn" id="tipOpen2" type="button" style="background:#4A0E3F">📝 మీ ఊరి వార్త పంపండి</button>
+      <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
+      <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
+      <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 4.18 · Swipe2News</p>
+    </div></div>
+  </section>
+  <div class="toast" id="toast" role="status"></div>
+</div>
+
+<script src="scenes.js?v=20261109a"></script>
+<script>
+const CONFIG = {
+  NEWS_URL: 'news.json',
+  WISHES_URL: 'wishes.json',   // festival wishes from leaders: own tab (festival name while it lasts, then "greetings from the world")
+  CHANNEL: 'https://whatsapp.com/channel/0029Vb9nNd8CBtxIYFryH138',
+  APP_LINK: 'https://swipe2news.com/',
+  TIP_WHATSAPP: '917032656422',
+  // Swipe2News promo flyer shown as its own card after every few stories. Set on:false to switch it off.
+  PROMO: {on:true, every:5, img:'promo/swipe2news-promo.jpg'},
+  // Smart space: when a card has empty room under the story, show a banner there (never shrinks the news).
+  // ADS = paid ads (shown first, only in their districts): {id, places:['yadadri',...] or [] for all, until:'2026-12-31', icon:'🏥', t:'Title', s:'Line', cta:'Call', link:'tel:...' or 'https://...', img:'promo/ads/x.jpg' (optional logo)}
+  SPACE: {on:true, ADS:[], HOUSE:['ads','reporter','jobs','epaper','share']},
+  // Festival greeting shown as the FIRST card until 'until' (IST date-time). Remove or change for the next festival.
+  GREETING: {img:'promo/diwali-2026.jpg', until:'2026-11-09T15:00:00+05:30', page:'https://swipe2news.com/diwali.html',
+    text:'🪔 దీపావళి శుభాకాంక్షలు! 🪔\nమీకు, మీ కుటుంబానికి దీపావళి శుభాకాంక్షలు – Swipe2News\n🌐 https://swipe2news.com/diwali.html'}   // Swipe2News news-tips WhatsApp number with country code, digits only, e.g. '919876543210'
+};
+/* Topic photo library (free-licence photos in /photos). Filled in once photos are added. */
+const TOPIC_PHOTOS = {};
+
+const SECTIONS = [
+  ['all','అన్నీ','All'], ['district','నా జిల్లా','My district'], ['telangana','తెలంగాణ','Telangana'],
+  ['india','దేశం','India'], ['world','ప్రపంచం','World'], ['ai','AI & టెక్','AI & Tech'],
+  ['jobs','ఉద్యోగ వార్తలు','IT & Jobs news'], ['business','బిజినెస్','Business'], ['innovation','ఆవిష్కరణలు','Innovation'],
+  ['culture','సంస్కృతి','Culture'], ['education','విద్య','Education'], ['agri','వ్యవసాయం','Agriculture'],
+  ['weather','వాతావరణం','Weather'], ['sports','క్రీడలు','Sports']
+];
+const FIXED = ['all','district'];
+const DEFAULT_TOPICS = ['telangana','india','world','ai','jobs','business','weather'];
+const THEMES = [['auto','ఆటో','Phone setting'],['light','లైట్','Editorial White'],['dark','డార్క్','Midnight Pro']];
+
+const PLACES = [
+  ['TS','మొత్తం తెలంగాణ','All Telangana'],
+  ['hyderabad','హైదరాబాద్','Hyderabad'], ['rangareddy','రంగారెడ్డి','Rangareddy'], ['medchal','మేడ్చల్ మల్కాజిగిరి','Medchal–Malkajgiri'],
+  ['adilabad','ఆదిలాబాద్','Adilabad'], ['bhadradri','భద్రాద్రి కొత్తగూడెం','Bhadradri Kothagudem'], ['hanumakonda','హనుమకొండ','Hanumakonda'],
+  ['jagtial','జగిత్యాల','Jagtial'], ['jangaon','జనగామ','Jangaon'], ['bhupalpally','జయశంకర్ భూపాలపల్లి','Jayashankar Bhupalpally'],
+  ['gadwal','జోగులాంబ గద్వాల','Jogulamba Gadwal'], ['kamareddy','కామారెడ్డి','Kamareddy'], ['karimnagar','కరీంనగర్','Karimnagar'],
+  ['khammam','ఖమ్మం','Khammam'], ['asifabad','కుమురం భీం ఆసిఫాబాద్','Kumuram Bheem Asifabad'], ['mahabubabad','మహబూబాబాద్','Mahabubabad'],
+  ['mahabubnagar','మహబూబ్‌నగర్','Mahabubnagar'], ['mancherial','మంచిర్యాల','Mancherial'], ['medak','మెదక్','Medak'],
+  ['mulugu','ములుగు','Mulugu'], ['nagarkurnool','నాగర్‌కర్నూల్','Nagarkurnool'], ['nalgonda','నల్గొండ','Nalgonda'],
+  ['narayanpet','నారాయణపేట','Narayanpet'], ['nirmal','నిర్మల్','Nirmal'], ['nizamabad','నిజామాబాద్','Nizamabad'],
+  ['peddapalli','పెద్దపల్లి','Peddapalli'], ['sircilla','రాజన్న సిరిసిల్ల','Rajanna Sircilla'], ['sangareddy','సంగారెడ్డి','Sangareddy'],
+  ['siddipet','సిద్దిపేట','Siddipet'], ['suryapet','సూర్యాపేట','Suryapet'], ['vikarabad','వికారాబాద్','Vikarabad'],
+  ['wanaparthy','వనపర్తి','Wanaparthy'], ['warangal','వరంగల్','Warangal'], ['yadadri','యాదాద్రి భువనగిరి','Yadadri Bhuvanagiri']
+];
+const LANGS = [['te','తెలుగు','Telugu'],['en','English','ఇంగ్లీష్'],['hi','हिन्दी','హిందీ']];
+/* reader's language: stories carry en:{…} and hi:{…}; missing ones stay in Telugu */
+const LG = () => (prefs&&prefs.lang)||'te';
+const UI = {te:{read:'పూర్తి వార్త చదవండి →',hint:'తర్వాతి వార్త: ← ఎడమకు లేదా ↓ కిందకు స్వైప్ చేయండి',news:'వార్త',speech:'te-IN',src:'Source | మూలం',tag:'Know More. Scroll Less.',sub:'తక్కువ స్క్రోల్, ఎక్కువ సమాచారం',l1:'ఒక్క స్వైప్‌లో వార్తలు!'},
+  en:{read:'Read full story →',hint:'Next story: swipe ← left or ↓ down',news:'News',speech:'en-IN',src:'Source',tag:'Know More. Scroll Less.',sub:'Short news you can check',l1:'News in one swipe!'},
+  hi:{read:'पूरी खबर पढ़ें →',hint:'अगली खबर: ← बाएँ या ↓ नीचे स्वाइप करें',news:'खबर',speech:'hi-IN',src:'स्रोत',tag:'कम स्क्रॉल, ज़्यादा जानकारी',sub:'तेज़ और छोटी खबरें, आपकी भाषा में',l1:'एक स्वाइप में खबरें!'}};
+const U = k => (UI[LG()]||UI.te)[k];
+/* job card words in the reader's language */
+const JU = {
+  te:{elig:'🎓 అర్హత',age:'🎂 వయసు',pay:'💰 జీతం',last:'🗓️ చివరి తేదీ',where:'🏢 ఎక్కడ',exp:'🧑‍💼 అనుభవం',how:'📝 ఎలా',today:'⏰ ఈరోజే చివరి రోజు',few:n=>`⏰ ఇంకా ${n} రోజులే మిగిలాయి`,more:n=>`⏳ దరఖాస్తుకు ఇంకా ${n} రోజులు`,lastd:'చివరి తేదీ',pub:'ప్రచురణ',off:'అధికారిక వెబ్‌సైట్ →',hint:'తర్వాతి ఉద్యోగం: ← ఎడమకు లేదా ↓ కిందకు స్వైప్ చేయండి',warn:'⚠️ ఉద్యోగం కోసం ఎవరికీ డబ్బులు ఇవ్వకండి. అధికారిక వెబ్‌సైట్‌లోనే దరఖాస్తు చేయండి.',warn1:'⚠️ ఉద్యోగం కోసం ఎవరికీ డబ్బులు ఇవ్వకండి',posts:'పోస్టులు',s1:'💼 జాబ్స్',s2:' – ఉద్యోగ సమాచారం',s3:'తెలుగులో వేగంగా ఉద్యోగ ప్రకటనలు',job:'ఉద్యోగం',jobs:'ఉద్యోగాలు',ch:'Swipe2News WhatsApp ఛానెల్',
+      types:{tg:'తెలంగాణ',ap:'ఆంధ్రప్రదేశ్',central:'కేంద్ర ప్రభుత్వం',psu:'కేంద్ర ప్రభుత్వం',bank:'బ్యాంక్',railway:'రైల్వే',police:'పోలీస్ / రక్షణ',teaching:'టీచర్ / విద్య',it:'IT / సాఫ్ట్‌వేర్',private:'ప్రైవేట్ ఉద్యోగాలు',mela:'జాబ్ మేళా / అప్రెంటిస్',all:'అన్నీ'}},
+  en:{elig:'🎓 Eligibility',age:'🎂 Age',pay:'💰 Pay',last:'🗓️ Last date',where:'🏢 Where',exp:'🧑‍💼 Experience',how:'📝 How to apply',today:'⏰ Today is the last day',few:n=>`⏰ Only ${n} day${n>1?'s':''} left`,more:n=>`⏳ ${n} days left to apply`,lastd:'Last date',pub:'Posted',off:'Official website →',hint:'Next job: swipe ← left or ↓ down',warn:'⚠️ Never pay anyone for a job. Apply only on the official website.',warn1:'⚠️ Never pay anyone for a job',posts:'Posts',s1:'💼 Jobs',s2:' – job alerts',s3:'Fast, verified job alerts',job:'Job',jobs:'Jobs',ch:'Swipe2News WhatsApp channel',
+      types:{tg:'Telangana',ap:'Andhra Pradesh',central:'Central Govt',psu:'Central Govt',bank:'Bank',railway:'Railway',police:'Police / Defence',teaching:'Teaching',it:'IT / Software',private:'Private jobs',mela:'Job mela / Apprentice',all:'All'}},
+  hi:{elig:'🎓 योग्यता',age:'🎂 आयु',pay:'💰 वेतन',last:'🗓️ अंतिम तिथि',where:'🏢 कहाँ',exp:'🧑‍💼 अनुभव',how:'📝 कैसे आवेदन करें',today:'⏰ आज आख़िरी दिन है',few:n=>`⏰ सिर्फ़ ${n} दिन बाकी`,more:n=>`⏳ आवेदन के लिए ${n} दिन बाकी`,lastd:'अंतिम तिथि',pub:'प्रकाशित',off:'आधिकारिक वेबसाइट →',hint:'अगली नौकरी: ← बाएँ या ↓ नीचे स्वाइप करें',warn:'⚠️ नौकरी के लिए किसी को पैसे न दें। सिर्फ़ आधिकारिक वेबसाइट पर आवेदन करें।',warn1:'⚠️ नौकरी के लिए किसी को पैसे न दें',posts:'पद',s1:'💼 नौकरियाँ',s2:' – नौकरी की खबरें',s3:'तेज़ और भरोसेमंद नौकरी अलर्ट',job:'नौकरी',jobs:'नौकरियाँ',ch:'Swipe2News WhatsApp चैनल',
+      types:{tg:'तेलंगाना',ap:'आंध्र प्रदेश',central:'केंद्र सरकार',psu:'केंद्र सरकार',bank:'बैंक',railway:'रेलवे',police:'पुलिस / रक्षा',teaching:'शिक्षक / शिक्षा',it:'आईटी / सॉफ़्टवेयर',private:'प्राइवेट नौकरियाँ',mela:'रोज़गार मेला / अप्रेंटिस',all:'सभी'}}};
+const J = k => (JU[LG()]||JU.te)[k];
+function tr(s){ const l=LG(); if(!s||s.kind==='job'||l==='te'||!s[l]||typeof s[l]!=='object') return s; return Object.assign({},s,s[l],{_sid:sid(s),_lang:l}); }
+const placeName = k => { if(!k||k==='TS') return 'మొత్తం తెలంగాణ'; if(k==='AP') return 'మొత్తం ఆంధ్రప్రదేశ్'; const t=PLACES.find(p=>p[0]===k); return t?t[1]:(placeLabel(k)||'మొత్తం తెలంగాణ'); };
+const stOfPlace = k => !k||k==='TS'||PLACES.some(p=>p[0]===k) ? 'TG' : (k==='AP'||k.startsWith('ap-') ? 'AP' : (k.startsWith('st-')?k.slice(3):(/^[a-z]{2}-/.test(k)&&STATE_DISTRICTS[k.slice(0,2).toUpperCase()]?k.slice(0,2).toUpperCase():'TG')));
+/* does a story belong to the reader's place? */
+function inPlace(s,k){ if(!k||k==='TS') return (s.place||'TS')==='TS' && stateOf(s)!=='AP' && !(s.st&&s.st!=='TG');
+  if(k==='AP') return stateOf(s)==='AP'; if(k.startsWith('st-')) return stateOf(s)===k.slice(3); return normPlace(s.place||'')===k; }
+/* local first: own village → own district → own state → everything else */
+function localScore(s){ const v=(prefs.village||'').trim(); let sc=0;
+  if(v && ((s.loc||'')+' '+(s.h||'')+' '+(s.p||'')).toLowerCase().includes(v.toLowerCase())) sc+=4;
+  if(prefs.place && prefs.place!=='TS' && prefs.place!=='AP' && !prefs.place.startsWith('st-') && normPlace(s.place||'')===prefs.place) sc+=2;
+  const myst=stOfPlace(prefs.place); if(stateOf(s)===myst && myst!=='TG') sc+=1;
+  return sc; }
+const localFirst0 = l => l.map((s,i)=>[s,localScore(s),i]).sort((a,b)=>b[1]-a[1]||a[2]-b[2]).map(x=>x[0]);
+/* all-states mix (user, 9 Nov 2026): 4 Telugu-state cards (TG + AP, plus India/world news and the reader's own state),
+   then 1 card from another state, repeat. Leftovers go at the end. */
+const HOME_RUN = 4;
+function statesMix(l){ const myst=stOfPlace(prefs.place), home=[], other=[];
+  l.forEach(s=>{ const st=stateOf(s); (!st||st==='TG'||st==='AP'||st===myst ? home : other).push(s); });
+  if(!other.length||!home.length) return l;
+  const out=[]; let h=0,o=0;
+  while(h<home.length||o<other.length){ for(let k=0;k<HOME_RUN&&h<home.length;k++) out.push(home[h++]); if(o<other.length) out.push(other[o++]); }
+  return out; }
+const localFirst = l => statesMix(localFirst0(l));
+const MONTHS = ['జనవరి','ఫిబ్రవరి','మార్చి','ఏప్రిల్','మే','జూన్','జులై','ఆగస్టు','సెప్టెంబర్','అక్టోబర్','నవంబర్','డిసెంబర్'];
+const teDate = d => { if(LG()!=='te') return d||''; const m=/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/.exec(d||''); return m ? `${MONTHS[+m[2]-1]} ${+m[1]}, ${m[3]}` : (d||''); };
+
+const ART = {
+  voters:'<path d="M20 120H160"/><rect x="30" y="120" width="120" height="70" rx="6"/><path d="M70 120h40"/><g transform="rotate(-8 90 80)"><rect x="72" y="40" width="36" height="70" rx="4"/><path d="M80 75l7 9 14-18"/></g>',
+  deadline:'<rect x="40" y="40" width="120" height="140" rx="10"/><path d="M40 72H160M70 26v26M130 26v26"/><circle cx="125" cy="130" r="16"/><path d="M60 100h10M90 100h10M60 130h10M90 130h10M60 158h10M90 158h10"/>',
+  land:'<path d="M10 190L60 125H180L165 190Z"/><path d="M35 158H172M100 125L92 190"/><path d="M110 105c-16-20-24-32-24-44a24 24 0 0 1 48 0c0 12-8 24-24 44z"/><circle cx="110" cy="61" r="8"/>',
+  economy:'<path d="M20 190v-45h22v45M52 190v-75h26v75M88 190v-105h30v105M128 190v-60h22v60M160 190v-85h26v85"/><path d="M20 80l35-20 30 10 40-35 45-20"/><path d="M152 12l18 3-5 17"/>',
+  water:'<path d="M100 20C100 20 60 75 60 105a40 40 0 0 0 80 0C140 75 100 20 100 20Z"/><path d="M0 170q20-12 40 0t40 0 40 0 40 0 40 0"/><path d="M0 190q20-12 40 0t40 0 40 0 40 0 40 0"/>',
+  rain:'<path d="M50 90a28 28 0 0 1 54-10a24 24 0 0 1 16 46H56a22 22 0 0 1-6-36z"/><path d="M62 145l-8 18M90 145l-8 18M118 145l-8 18M76 172l-6 14M104 172l-6 14"/>',
+  power:'<path d="M100 10L78 190M100 10L122 190M60 45H140M68 80H132M84 160H116M88 120H112M80 45L122 80M120 45L78 80"/><path d="M60 45q-40 25-60 15M140 45q20 15 40 15"/>',
+  court:'<path d="M30 70L100 30L170 70Z"/><path d="M30 70H170M45 80v80M75 80v80M125 80v80M155 80v80M25 170H175M20 188H180"/>',
+  farm:'<path d="M10 180H190"/><path d="M40 180l15-20 10 12 15-18M120 180l12-16 14 10"/><path d="M100 180V120"/><path d="M100 140c-20 0-30-12-32-28 18 0 30 10 32 28zM100 128c18 0 28-12 30-28-18 0-28 10-30 28z"/>',
+  campus:'<path d="M100 40L180 75L100 110L20 75Z"/><path d="M55 92v40c25 20 65 20 90 0V92"/><path d="M175 77v50"/><circle cx="175" cy="132" r="5"/>',
+  unity:'<circle cx="100" cy="100" r="62"/><circle cx="100" cy="100" r="10"/><path d="M100 38v124M38 100h124M56 56l88 88M144 56l-88 88"/>',
+  job:'<rect x="28" y="66" width="144" height="104" rx="12"/><path d="M74 66V50a10 10 0 0 1 10-10h32a10 10 0 0 1 10 10v16M28 112h144"/><rect x="88" y="102" width="24" height="20" rx="4"/>'
+};
+
+/* ---------- festival wishes (wishes.json): its own tab ---------- */
+let WISHES = {stories:[]};
+function wishTab(){ const w=WISHES; if(!w||!Array.isArray(w.stories)||!w.stories.length) return null;
+  const on=!!(w.festival&&Date.now()<new Date(w.festival.until).getTime()); const o=(on?w.festival:w.after)||{}, l=LG();
+  const pick=x=>x&&(x[l]||x.te)||''; return {on, label:pick(o.tab)||'🌍 శుభాకాంక్షలు', title:pick(o.title)}; }
+async function loadWishes(){ try{ const r=await fetch(CONFIG.WISHES_URL+'?t='+Date.now(),{cache:'no-store'}); if(!r.ok) throw 0;
+  WISHES=await r.json(); store.set('wishes',WISHES); }catch(e){ WISHES=store.get('wishes',WISHES); } }
+
+/* ---------- jobs (jobs.json, filled once a day) ---------- */
+const JOB_TYPES = [['all','అన్నీ'],['tg','తెలంగాణ'],['ap','ఆంధ్రప్రదేశ్'],['central','కేంద్ర ప్రభుత్వం'],['bank','బ్యాంక్'],['railway','రైల్వే'],['police','పోలీస్ / రక్షణ'],['teaching','టీచర్ / విద్య'],['it','IT / సాఫ్ట్‌వేర్'],['private','ప్రైవేట్ ఉద్యోగాలు'],['mela','జాబ్ మేళా / అప్రెంటిస్']];
+const JT = Object.fromEntries(JOB_TYPES);
+let JOBS = [], jobFilter = 'all', jobsLoaded = false;
+function daysLeft(j){ const m=/^(\d\d)\.(\d\d)\.(\d{4})$/.exec(j.last||''); if(!m) return null;
+  const end=new Date(+m[3],+m[2]-1,+m[1],23,59,59); return Math.floor((end-Date.now())/864e5); }
+function normJob(j0){
+  const l=LG(), loc=l!=='te' && j0[l] && typeof j0[l]==='object' && j0[l].h;
+  const j = loc ? Object.assign({}, j0, j0[l]) : j0;
+  const det=[j.qual&&J('elig').slice(3)+': '+j.qual, j.last&&J('lastd')+': '+j.last].filter(Boolean).join(' · ');
+  const o = Object.assign({}, j, { kind:'job', col:'--c-job', art:'job',
+    cat:`💼 ${J('types')[j.type]||J('job')}${j.org?' · '+j.org:''}`, stat:j.posts||J('jobs'), statl:(loc?j.statl:j0.statl)||J('posts'),
+    sum:j.p||'', p:[j.p,det].filter(Boolean).join(' '), src:j.src||j.org||'', url:j0.url||j0.apply||'' });
+  if(loc){ o._sid=sid({url:j0.url||j0.apply||'',h:j0.h}); o._lang=l; }
+  return o;
+}
+function setJobs(raw){ JOBS=(raw||[]).map(normJob).filter(j=>{ const d=daysLeft(j); if(d!==null) return d>=0;
+  // no last date (common for private jobs): show for 21 days after it was added
+  const m=/^(\d\d)\.(\d\d)\.(\d{4})$/.exec(j.d||''); return !m || (Date.now()-new Date(+m[3],+m[2]-1,+m[1]))/864e5 <= 21; }); }
+async function loadJobs(){
+  try{ const r=await fetch('jobs.json?t='+Date.now(),{cache:'no-store'}); if(!r.ok) throw 0;
+       const j=await r.json(); store.set('jobs', j.jobs||[]); setJobs(j.jobs); jobsLoaded=true; }catch(e){}
+}
+
+/* storage: per-viewer conveniences only, never required */
+const store = {
+  get(k,d){try{const v=localStorage.getItem('w2s.'+k);return v?JSON.parse(v):d}catch(e){return d}},
+  set(k,v){try{localStorage.setItem('w2s.'+k,JSON.stringify(v))}catch(e){}}
+};
+let prefs = store.get('prefs', null);
+const firstRun = !prefs;
+prefs = prefs || {place:'TS', topics:DEFAULT_TOPICS.slice()};
+if(!Array.isArray(prefs.topics)) prefs.topics=DEFAULT_TOPICS.slice(); if(!prefs.place) prefs.place='TS'; // a story page may have saved only the language
+{ const ql=new URLSearchParams(location.search).get('l'); if(/^(te|en|hi)$/.test(ql||'')) prefs.lang=ql; }
+prefs.theme = prefs.theme || 'auto';
+let saved = store.get('saved', []);
+setJobs(store.get('jobs',[]));
+let section = 'all', view = 'home';
+let DAY = null;            // {date, iso, stories} when viewing an archived day
+let DATES = [];            // archive/index.json
+let JUMP = null;           // story id to open (from a shared link)
+const toIso = d => { const m=/^(\d\d)\.(\d\d)\.(\d{4})$/.exec(d||''); return m?`${m[3]}-${m[2]}-${m[1]}`:''; };
+const fromIso = i => { const m=/^(\d{4})-(\d\d)-(\d\d)$/.exec(i||''); return m?`${m[3]}.${m[2]}.${m[1]}`:''; };
+const sid = s => { if(s._sid) return s._sid; let h=5381; const t=(s.url||'')+'|'+(s.h||''); for(let i=0;i<t.length;i++) h=((h<<5)+h+t.charCodeAt(i))|0; return (h>>>0).toString(36); };
+const WEEK=['ఆదివారం','సోమవారం','మంగళవారం','బుధవారం','గురువారం','శుక్రవారం','శనివారం'];
+const MON=['జనవరి','ఫిబ్రవరి','మార్చి','ఏప్రిల్','మే','జూన్','జులై','ఆగస్టు','సెప్టెంబర్','అక్టోబర్','నవంబర్','డిసెంబర్'];
+const teDay = iso => { const [y,m,d]=iso.split('-').map(Number); const w=new Date(Date.UTC(y,m-1,d)).getUTCDay(); return `${d} ${MON[m-1]} ${y} · ${WEEK[w]}`; };
+let NEWS = {date:'', stories:[]};
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s||'').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const keyOf = s => (s.url||'')+'|'+(s.h||'');
+$('joinLink').href = CONFIG.CHANNEL;
+
+function applyTheme(){ const r=document.documentElement; if(prefs.theme==='auto') r.removeAttribute('data-theme'); else r.setAttribute('data-theme',prefs.theme); }
+applyTheme();
+function toast(t){const el=$('toast');el.textContent=t;el.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>el.classList.remove('on'),t.length>40?4000:1800)}
+
+/* ---------- tabs ---------- */
+function renderTabs(){
+  if(view==='jobs'){
+    $('tabs').innerHTML = JOB_TYPES.map(t=>`<button class="tab" type="button" data-j="${t[0]}" aria-pressed="${t[0]===jobFilter}">${esc(J('types')[t[0]]||t[1])}</button>`).join('');
+    $('placeName').textContent = (prefs.village?prefs.village+', ':'')+placeName(prefs.place); return;
+  }
+  if(view==='date' && DAY){
+    $('tabs').innerHTML = `<div class="datebar2" style="width:100%;border:0;padding:0"><b>📅 ${esc(teDay(DAY.iso))} · ${DAY.stories.length} వార్తలు</b><button type="button" id="otherDay">మరో తేదీ</button><button type="button" id="backToday">ఈరోజు</button></div>`;
+    $('otherDay').onclick=openDates; $('backToday').onclick=()=>{ DAY=null; history.replaceState(null,'',location.pathname); setView('home'); };
+    $('placeName').textContent = (prefs.village?prefs.village+', ':'')+placeName(prefs.place); return;
+  }
+  const keys = FIXED.concat(SECTIONS.map(s=>s[0]).filter(k=>prefs.topics.includes(k)));
+  const WT = wishTab(); if(WT) keys.splice(1,0,'wishes');
+  if(!keys.includes(section)) section='all';
+  $('tabs').innerHTML = keys.map(k=>{
+    if(k==='wishes') return `<button class="tab${WT.on?' fest':''}" type="button" data-k="wishes" aria-pressed="${view==='home'&&section==='wishes'}">${esc(WT.label)}</button>`;
+    const s=SECTIONS.find(x=>x[0]===k);
+    return `<button class="tab" type="button" data-k="${k}" aria-pressed="${view==='home'&&k===section}">${esc(s[1])}</button>`;
+  }).join('');
+  $('placeName').textContent = (prefs.village?prefs.village+', ':'')+placeName(prefs.place);
+}
+$('tabs').addEventListener('click',e=>{const b=e.target.closest('.tab');if(!b)return;
+  if(b.dataset.j){ jobFilter=b.dataset.j; renderTabs(); renderFeed(); const n=$('tabs').querySelector(`[data-j="${jobFilter}"]`); if(n) n.scrollIntoView({inline:'center',block:'nearest'}); return; }
+  section=b.dataset.k;setView('home');b.scrollIntoView({inline:'center',block:'nearest'})});
+
+/* ---------- feed ---------- */
+const secsOf = s => Array.isArray(s.sec)?s.sec:(s.sec?[s.sec]:['telangana']);
+function pick(){ return pick0().map(tr); }
+function pick0(){
+  if(view==='saved') return saved;
+  if(view==='jobs'){
+    let l = jobFilter==='all' ? JOBS : JOBS.filter(j=>j.type===jobFilter || (jobFilter==='central' && j.type==='psu'));
+    if(prefs.place!=='TS') l = l.filter(j=>j.place===prefs.place).concat(l.filter(j=>j.place!==prefs.place));
+    return l;
+  }
+  if(view==='date' && DAY) return DAY.stories.filter(s=>!s.wd);
+  if(section==='wishes') return (WISHES.stories||[]).slice();
+  const all = NEWS.stories.filter(s=>!s.wd); // "wd" = withdrawn by the editor (corrections policy, 10 Nov 2026)
+  if(section==='district') return localFirst(all.filter(s=>inPlace(s,prefs.place)));
+  let list = section==='all' ? all : all.filter(s=>secsOf(s).includes(section));
+  return localFirst(list);
+}
+const I = {
+  news:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/></svg>',
+  list:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01"/></svg>',
+  bulb:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></svg>'
+};
+let cards=[], cur=0, LIST=[];
+function jobHTML(s,i){
+  const dl=daysLeft(s);
+  const left = dl===null ? '' : dl===0 ? J('today') : dl<=3 ? J('few')(dl) : J('more')(dl);
+  const rows=[[J('elig'),s.qual],[J('age'),s.age,'o2'],[J('pay'),s.pay,'o2'],[J('last'),s.last?teDate(s.last):(s.walk||'')],[J('where'),s.loc,'o2'],[J('exp'),s.exp,'o2'],[J('how'),s.how,'o2']].filter(r=>r[1]);
+  const pl = s.place && !['TS','IN'].includes(s.place) ? `<span class="chip pl">📍 ${esc(s.place==='AP'?'ఆంధ్రప్రదేశ్':placeName(s.place))}</span>` : '';
+  const link = s.apply||s.url;
+  return `<article class="story" aria-label="ఉద్యోగం ${i+1}" style="--hl:var(--c-job);--hl-ink:var(--c-job)">
+  <div class="panel">
+    ${sceneSVG(s,'scene')}
+    <div class="ptop"><div class="chips"><span class="chip">${esc(s.cat)}</span>${pl}</div><span class="pdate">${s.last?J('lastd')+' '+esc(s.last):(s.d?J('pub')+' '+esc(s.d):'')}</span></div>
+    <div><div class="stat">${esc(s.stat)}</div><div class="statl">${esc(s.statl)}</div></div>
+  </div>
+  <div class="strip sm"><div class="lgw"><img src="logo-light.png" alt="Swipe2News"><span class="rt">${J('s3')}</span></div><span class="tg">${U('tag')}</span></div>
+  <div class="text"${s._lang?` lang="${s._lang}"`:''}>
+    <h2>${esc(s.h)}</h2>
+    ${left?`<span class="left${dl<=3?' urg':''}">${left}</span>`:''}
+    ${s.sum?`<p class="sum js">${esc(s.sum)}</p>`:''}
+    <dl class="jd">${rows.map(r=>`<dt class="${r[2]||''}">${r[0]}</dt><dd class="${r[2]||''}">${esc(r[1])}</dd>`).join('')}</dl>
+    <div class="foot"><span class="src">${U('src')}: <b>${esc(s.src)}</b></span>${/^https?:\/\//.test(link||'')?`<a class="read" href="${esc(link)}" target="_blank" rel="noopener">${J('off')}</a>`:''}</div>
+    <div class="warn">${J('warn')}</div>
+    ${i===0?`<div class="hint">${J('hint')}</div>`:''}
+  </div>
+  <div class="spacer" data-sp="${i}"></div>
+  <a class="qrbar" href="${CONFIG.CHANNEL}" target="_blank" rel="noopener"><span class="qp"><b>మీ ఊరి వార్తలు మీ చేతిలో! · <em>ఉచిత ప్రచారం</em></b><small>📲 70326 56422 · swipe2news.com</small></span><img src="qr.png" alt="Swipe2News WhatsApp ఛానెల్ QR కోడ్"></a>
+</article>`;
+}
+function playVideo(src){
+  let o=document.getElementById('vplayer');
+  if(!o){ o=document.createElement('div'); o.id='vplayer';
+    o.style.cssText='position:fixed;inset:0;z-index:95;background:rgba(0,0,0,.92);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:14px';
+    o.innerHTML='<video id="vplayerV" controls playsinline autoplay style="max-width:100%;max-height:82vh;border-radius:12px;background:#000"></video><button type="button" class="btn" id="vplayerX" style="background:#fff;color:#16120E">మూసివేయండి</button>';
+    document.body.appendChild(o);
+    const close=()=>{ const v=document.getElementById('vplayerV'); try{v.pause()}catch(e){} o.hidden=true; };
+    document.getElementById('vplayerX').onclick=close; o.addEventListener('click',e=>{ if(e.target===o) close(); });
+  }
+  const v=document.getElementById('vplayerV'); v.src=src; o.hidden=false; try{ v.play().catch(()=>{}); }catch(e){}
+  try{ if(window.gtag) gtag('event','video_play',{video:src}); }catch(e){}
+}
+/* shows the link in a box people can long-press and copy themselves, plus a big Copy button */
+function linkSheet(link){
+  let o=document.getElementById('lnkSheet');
+  if(!o){ o=document.createElement('div'); o.id='lnkSheet';
+    o.style.cssText='position:fixed;inset:0;z-index:92;background:rgba(6,10,18,.72);display:flex;align-items:flex-end;justify-content:center';
+    o.innerHTML='<div style="background:var(--paper,#fff);color:var(--ink,#16120E);width:100%;max-width:520px;border-radius:22px 22px 0 0;padding:20px 18px calc(18px + env(safe-area-inset-bottom,0px));display:grid;gap:10px">'
+      +'<b style="font:800 17px/1.4 var(--body)">🔗 ఈ వార్త లింక్</b>'
+      +'<input id="lnkTx" readonly style="width:100%;box-sizing:border-box;border:2px solid #e0062b;border-radius:12px;padding:12px;font:700 16px/1.3 var(--body);background:#fff;color:#14213d">'
+      +'<button type="button" id="lnkCopy" class="btn" style="background:#1DA851;justify-content:center;min-height:50px">📋 లింక్ కాపీ చేయండి</button>'
+      +'<p style="margin:0;font:600 13px/1.5 var(--body);color:var(--muted,#6B5F52)">కాపీ అయ్యాక WhatsApp తెరిచి, మెసేజ్ బాక్స్‌ను నొక్కి పట్టుకుని <b>Paste</b> నొక్కండి. కాపీ కాకపోతే పై లింక్‌ను నొక్కి పట్టుకుని <b>Copy</b> చేయండి.</p>'
+      +'<button type="button" id="lnkOk" class="btn" style="background:#fff;color:#16120E;border:1px solid #ccc;justify-content:center">మూసివేయండి</button></div>';
+    document.body.appendChild(o);
+    o.addEventListener('click',e=>{ if(e.target===o||e.target.id==='lnkOk') o.hidden=true; });
+  }
+  const i=document.getElementById('lnkTx'); i.value=link;
+  i.onfocus=()=>{ try{ i.setSelectionRange(0,link.length); }catch(e){} };
+  document.getElementById('lnkCopy').onclick=async()=>{ const ok=await copyText(link); try{ i.focus(); i.setSelectionRange(0,link.length); }catch(e){}
+    toast(ok?'కాపీ అయింది ✅ ఇప్పుడు WhatsAppలో Paste చేయండి':'పై లింక్‌ను నొక్కి పట్టుకుని Copy చేయండి'); };
+  o.hidden=false;
+}
+function promoItem(n){ return {kind:'promo', h:'Swipe2News – మీ ఊరి వార్తలు ఇప్పుడే మీ చేతిలో', p:'WhatsApp ఛానెల్‌లో జాయిన్ అవ్వండి, swipe2news.com విజిట్ చేయండి.', url:'https://swipe2news.com/#promo'+n, src:'Swipe2News', d:''}; }
+function withPromos(list){
+  const G=CONFIG.GREETING; let gr=null;
+  if(G && Date.now()<new Date(G.until).getTime() && view!=='saved' && view!=='jobs') gr={kind:'promo', greet:1, img:G.img, h:'దీపావళి శుభాకాంక్షలు – Swipe2News', p:'', url:G.page, src:'Swipe2News', d:''};
+  const P=CONFIG.PROMO; if(!P||!P.on||view==='saved'||view==='jobs'||list.length<P.every) return gr?[gr].concat(list):list;
+  const out=gr?[gr]:[]; list.forEach((s,i)=>{ out.push(s); if((i+1)%P.every===0) out.push(promoItem(i)); }); return out;
+}
+function promoHTML(s,i){
+  return `<article class="story promo" aria-label="Swipe2News">
+  <div class="pimg"><img src="${esc(s.img||CONFIG.PROMO.img)}" alt="${s.greet?'Swipe2News – దీపావళి శుభాకాంక్షలు':'Swipe2News – మీ ఊరి వార్తలు ఇప్పుడే మీ చేతిలో! WhatsApp ఛానెల్, వెబ్‌సైట్ swipe2news.com'}" draggable="false"></div>
+  <div class="pbtn"><a class="btn" href="${esc(CONFIG.CHANNEL)}" target="_blank" rel="noopener">WhatsApp ఛానెల్‌లో చేరండి</a><button class="btn ghost" type="button" data-psh="1">${s.greet?'🪔 శుభాకాంక్షలు పంపండి':'స్నేహితులకు పంపండి'}</button></div>
+</article>`;
+}
+/* corrections (10 Nov 2026): s.corr = {at:"DD.MM.YYYY HH:MM", te, en, hi} */
+function corrNote(s){ const c=s&&s.corr; if(!c||typeof c!=='object') return ''; const l=s._lang||'te', tx=c[l]||c.te||''; if(!tx) return '';
+  return `<p class="corr"><b>✏️ ${({te:'సవరణ',en:'Correction',hi:'सुधार'})[l]||'సవరణ'}${c.at?' · '+esc(c.at):''}:</b> ${esc(tx)}</p>`; }
+function cardHTML(s,i){
+  if(s.kind==='promo') return promoHTML(s,i);
+  if(s.kind==='job') return jobHTML(s,i);
+  const col = s.col||'--c-gov';
+  const where=[s.loc, s.place&&s.place!=='TS'&&s.place!=='IN' ? placeName(s.place) : (s.st&&s.st!=='TG'&&s.st!=='IN' ? placeLabel('st-'+s.st) : '')].filter(Boolean).join(', ');
+  const ph = !!storyPhoto(s);
+  const pl = where ? `<span class="chip pl">📍 ${esc(where)}</span>` : '';
+  const kf = '';
+  return `<article class="story" aria-label="వార్త ${i+1}" style="--hl:var(${col});--hl-ink:var(${col})">
+  <div class="panel">
+    ${sceneSVG(s,'scene')}${/^videos\/[\w.-]+\.mp4$/.test(s.vid||'')?`<button class="vplay" type="button" data-vid="${esc(s.vid)}" aria-label="వీడియో చూడండి"><svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#fff"/></svg><span>వీడియో చూడండి</span></button>`:''}
+    <div class="ptop"><div class="chips">${s.brk?'<span class="chip brk">🔴 BREAKING</span>':''}<span class="chip">${esc(s.cat||U('news'))}</span>${pl}</div><span class="pdate">${esc(s.d||NEWS.date)}${s.t?' · '+esc(s.t):''}</span></div>
+    <div><div class="stat">${esc(s.stat)}</div><div class="statl">${esc(s.statl)}</div></div>
+  </div>
+  <div class="strip sm"><div class="lgw"><img src="logo-light.png" alt="Swipe2News"><span class="rt">${U('sub')}</span></div><span class="tg">${U('tag')}</span></div>
+  <div class="text"${s._lang?` lang="${s._lang}"`:''}>
+    ${kf}<h2>${esc(s.h)}</h2>
+    <p class="sum">${esc(s.p)}</p>${corrNote(s)}
+    <div class="foot"><span class="src">${U('src')}: <b>${esc(s.src)}</b></span>${/^https?:\/\//.test(s.url||'')?`<a class="read" href="${esc(s.url)}" target="_blank" rel="noopener">${U('read')}</a>`:''}</div>
+    ${i===0?`<div class="hint">${U('hint')}</div>`:''}
+  </div>
+  <div class="spacer" data-sp="${i}"></div>
+  <a class="qrbar" href="${CONFIG.CHANNEL}" target="_blank" rel="noopener"><span class="qp"><b>మీ ఊరి వార్తలు మీ చేతిలో! · <em>ఉచిత ప్రచారం</em></b><small>📲 70326 56422 · swipe2news.com</small></span><img src="qr.png" alt="Swipe2News WhatsApp ఛానెల్ QR కోడ్"></a>
+</article>`;
+}
+/* ---------- smart space banner ---------- */
+const SPACE_TX={
+ ads:{ic:'📢',g:'linear-gradient(135deg,#2E0827 0%,#2B3F8C 100%)',ac:'#F5A23A',
+  te:['మీ వ్యాపారానికి ఇక్కడ ప్రకటన','📲 70326 56422 · మీ జిల్లా పాఠకులకే','WhatsApp చేయండి'],
+  en:['Advertise your business here','📲 70326 56422 · your district only','WhatsApp us'],
+  hi:['अपने व्यापार का विज्ञापन यहाँ दें','📲 70326 56422 · सिर्फ़ आपके ज़िले में','WhatsApp करें'],
+  link:()=>'https://wa.me/'+CONFIG.TIP_WHATSAPP+'?text='+encodeURIComponent('నమస్కారం Swipe2News 🙏\nనా వ్యాపారానికి Swipe2News లో ప్రకటన ఇవ్వాలనుకుంటున్నాను.\nవ్యాపారం పేరు: \nఊరు / జిల్లా: '+(placeName((prefs&&prefs.place)||'')||'')+'\nఫోన్: ')},
+ reporter:{ic:'🎙️',g:'linear-gradient(135deg,#8E0B20 0%,#4A0E3F 55%,#E8452E 100%)',ac:'#FFE08A',
+  te:['మీ ఊరి రిపోర్టర్ అవ్వండి','మీ ఊరి వార్తలు మీరే పంపండి · ఇంటి నుంచే','WhatsAppలో చేరండి'],
+  en:['Become your village reporter','Send your village news · from home','Join on WhatsApp'],
+  hi:['अपने गाँव के रिपोर्टर बनें','अपने गाँव की ख़बरें भेजें · घर से','WhatsApp पर जुड़ें'],
+  link:()=>'https://wa.me/'+CONFIG.TIP_WHATSAPP+'?text='+encodeURIComponent('నమస్కారం Swipe2News 🙏\nనేను మా ఊరి రిపోర్టర్ అవ్వాలనుకుంటున్నాను.\nపేరు: \nఊరు / మండలం: \nజిల్లా: '+(placeName((prefs&&prefs.place)||'')||'')+'\nఫోన్: ')},
+ jobs:{ic:'💼',g:'linear-gradient(135deg,#0B5D3B 0%,#14874F 60%,#1FA463 100%)',ac:'#C9F7DA',
+  te:['ఈరోజు {n} కొత్త ఉద్యోగాలు','ప్రభుత్వ, ప్రైవేట్ · అధికారిక లింక్','చూడండి'],
+  en:['{n} new jobs today','Govt & private · official links only','View jobs'],
+  hi:['आज {n} नई नौकरियाँ','सरकारी व प्राइवेट · आधिकारिक लिंक','देखें'],
+  link:()=>'/?cards=1&jobs=1', view:'jobs'},
+ epaper:{ic:'📰',g:'linear-gradient(135deg,#3A2412 0%,#6B3F1D 60%,#8A5527 100%)',ac:'#FFD9A8',
+  te:['ఈరోజు జనధ్వని ఈ-పేపర్','ఉదయం 5:30కే · పేపర్ లాగే చదవండి','చదవండి'],
+  en:['Today\'s Janadhwani e-paper','Ready by 5:30 am · read it like a paper','Read now'],
+  hi:['आज का जनध्वनि ई-पेपर','सुबह 5:30 तक तैयार · अख़बार की तरह पढ़ें','पढ़ें'],
+  link:()=>'/epaper/'},
+ share:{ic:'🤝',g:'linear-gradient(135deg,#3B1C6E 0%,#5B2BA0 60%,#7A45C9 100%)',ac:'#E2D4FF',
+  te:['Swipe2News ని 5 మందికి పంపండి','మీ వాళ్లకూ వేగంగా వార్తలు','WhatsAppలో పంపండి'],
+  en:['Share Swipe2News with 5 friends','Short news you can check, for your people too','Share on WhatsApp'],
+  hi:['Swipe2News 5 दोस्तों को भेजें','आपके अपनों को भी तेज़ ख़बरें','WhatsApp पर भेजें'],
+  link:()=>'https://wa.me/?text='+encodeURIComponent('📲 తక్కువ స్క్రోల్, ఎక్కువ సమాచారం – Swipe2News యాప్ ఉచితం!\nhttps://swipe2news.com/install')}
+};
+function spaceJobsN(){ try{ const j=(JOBS&&JOBS.length)?JOBS:(store.get('jobs',[])||[]); return j.length||0; }catch(e){ return 0; } }
+function spacePick(s,i){ const C=CONFIG.SPACE; if(!C||!C.on||!s||s.kind==='promo'||s.rep||s.local) return null;
+  const now=Date.now(), pl=(prefs&&prefs.place)||'';
+  const ads=(C.ADS||[]).filter(a=>(!a.until||now<new Date(a.until+'T23:59:59+05:30').getTime())&&(!a.places||!a.places.length||a.places.includes(pl)||a.places.includes(s.place)));
+  if(ads.length && i%2===0) return {paid:ads[(i/2|0)%ads.length]};
+  let house=(C.HOUSE||[]).filter(k=>SPACE_TX[k]&&!(k==='jobs'&&spaceJobsN()<3));
+  if(!house.length) return null; return {k:house[i%house.length]}; }
+function spaceHTML(p,size){ const L=LG();
+  let ic,t,sub,cta,link,g,ac,lab,img='',key;
+  if(p.paid){ const a=p.paid; key='ad:'+a.id; ic=a.icon||'🏪'; t=a.t; sub=a.s||''; cta=a.cta||'సంప్రదించండి'; link=a.link||'#'; g=a.g||'linear-gradient(135deg,#1B1B1B,#3A3A3A)'; ac=a.ac||'#F5A23A'; lab='ప్రకటన · Sponsored'; img=a.img?`<img src="${esc(a.img)}" alt="">`:''; }
+  else { const c=SPACE_TX[p.k], x=c[L]||c.te; key=p.k; ic=c.ic; t=x[0].replace('{n}',spaceJobsN()); sub=x[1]; cta=x[2]; link=c.link(); g=c.g; ac=c.ac; lab='Swipe2News'; }
+  const ext=/^https?:|^tel:/.test(link)?' target="_blank" rel="noopener"':'';
+  if(size==='mini') return `<a class="spb mini" href="${esc(link)}"${ext} data-sk="${esc(key)}" style="--spg:${g};--spa:${ac}"><i class="spi">${img||ic}</i><span class="spt"><b>${esc(t)}</b></span><span class="spc">${esc(cta)} →</span></a>`;
+  if(size==='slim') return `<a class="spb slim" href="${esc(link)}"${ext} data-sk="${esc(key)}" style="--spg:${g};--spa:${ac}"><i class="spi">${img||ic}</i><span class="spt"><b>${esc(t)}</b>${sub?`<small>${esc(sub)}</small>`:''}</span><span class="spc">${esc(cta)} →</span></a>`;
+  return `<a class="spb" href="${esc(link)}"${ext} data-sk="${esc(key)}" style="--spg:${g};--spa:${ac}"><span class="spl">${esc(lab)}</span><i class="spi">${img||ic}</i><span class="spt"><b>${esc(t)}</b><small>${esc(sub)}</small></span><span class="spc">${esc(cta)} →</span></a>`; }
+const spaceSeen=new Set();
+function spaceFill(c){ const sp=c.querySelector('.spacer[data-sp]'); if(!sp) return; sp.innerHTML='';
+  const i=+sp.dataset.sp, s=LIST[i], h=sp.clientHeight; const p=h>=46?spacePick(s,i):null; if(!p) return;
+  // show the banner only if ALL its text fits: full, then slim, then mini (one row, title + button; 10 Nov 2026), else nothing
+  let a=null; for(const size of ['full','slim','mini']){ sp.innerHTML=spaceHTML(p,size); const el=sp.firstElementChild; if(el.offsetHeight<=h-8 && el.scrollHeight<=el.offsetHeight+1){ a=el; break; } }
+  if(!a){ sp.innerHTML=''; return; }
+  const k=a.dataset.sk;
+  if(!c.hidden && !spaceSeen.has(i+k)){ spaceSeen.add(i+k); try{ window.gtag&&gtag('event','space_view',{space:k}); }catch(e){} }
+  a.onclick=e=>{ try{ window.gtag&&gtag('event','space_click',{space:k}); }catch(_){}
+    if(!p.paid && SPACE_TX[p.k].view){ e.preventDefault(); setView(SPACE_TX[p.k].view); } }; }
+function fit(c){ // make the card fit the screen: hide the least important parts first
+  c.classList.remove('t1','t2','t3','t4');
+  const over = () => c.scrollHeight > c.clientHeight + 1;
+  for(const t of ['t1','t2','t3','t4']){ if(!over()) break; c.classList.add(t); }
+  try{ spaceFill(c); }catch(e){}
+  if(c===cards[cur] && window.fsPlace) setTimeout(fsPlace,0);
+}
+function renderFeed(keepKey){
+  LIST = pick(); const feed=$('feed');
+  if(!LIST.length){
+    const s=SECTIONS.find(x=>x[0]===section);
+    if(view==='jobs'){
+      feed.innerHTML = `<div class="empty"><h2>${jobsLoaded||JOBS.length?'ఈ విభాగంలో ఇప్పుడు ఉద్యోగ ప్రకటనలు లేవు':'ఉద్యోగాలు లోడ్ అవుతున్నాయి…'}</h2><p>కొత్త ఉద్యోగ ప్రకటనలు ప్రతిరోజూ ఉదయం జోడిస్తాం.</p>${jobFilter!=='all'?'<button class="btn" type="button" id="toAll">అన్ని ఉద్యోగాలు చూడండి</button>':''}</div>`;
+      if($('toAll')) $('toAll').onclick=()=>{ jobFilter='all'; renderTabs(); renderFeed(); };
+      setCount(0,0); cards=[]; syncSave(); return;
+    }
+    const msg = view==='saved' ? ['ఇంకా సేవ్ చేసిన వార్తలు లేవు','వార్త కింద ఉన్న 🔖 బటన్‌తో నచ్చిన వార్తలను సేవ్ చేసుకోండి.']
+      : section==='district' ? [esc(placeName(prefs.place))+' నుంచి ఇంకా వార్తలు లేవు','కొత్త వార్తలు ప్రతి గంటకు వస్తాయి. అప్పటివరకు అన్ని వార్తలు చూడండి.']
+      : [esc(s[1])+' విభాగంలో ఇంకా వార్తలు లేవు','కొత్త వార్తలు ప్రతి గంటకు వస్తాయి. అప్పటివరకు అన్ని వార్తలు చూడండి.'];
+    feed.innerHTML = `<div class="empty"><h2>${msg[0]}</h2><p>${msg[1]}</p><button class="btn" type="button" id="toAll">అన్ని వార్తలు చూడండి</button></div>`;
+    $('toAll').onclick=()=>{section='all';setView('home')};
+    setCount(0,0); cards=[]; syncSave(); return;
+  }
+  LIST = withPromos(LIST);
+  feed.innerHTML = LIST.map(cardHTML).join('');
+  feed.querySelectorAll('[data-psh]').forEach(b=>b.onclick=()=>shareCard(true));
+  feed.querySelectorAll('.vplay').forEach(b=>b.onclick=()=>playVideo(b.dataset.vid));
+  cur=0; cards=[...feed.querySelectorAll('.story')];
+  if(JUMP){ const j=LIST.findIndex(x=>sid(x)===JUMP); JUMP=null; if(j>0) cur=j; }
+  else if(keepKey){ const j=LIST.findIndex(x=>keyOf(x)===keepKey); if(j>0) cur=j; }
+  cards.forEach((c,k)=>{c.hidden=k!==cur;c.style.transform=''});
+  fit(cards[cur]);
+  setCount(cur+1,cards.length); syncSave();
+}
+addEventListener('resize',()=>{ if(cards[cur]) fit(cards[cur]); });
+
+/* Swipe2News swipe: ← left or ↓ down = next story, → right or ↑ up = previous story */
+const VEC={left:[-1,0],right:[1,0],down:[0,1],up:[0,-1]};
+/* Cards turn like paper pages: ← left / ↓ down = next (the page bends away), → right / ↑ up = previous (the page comes back).
+   Each turn makes a soft "pop" and, on Android, a tiny vibration. */
+let busy=false;
+/* paper grain, drawn once */
+(()=>{ try{ const c=document.createElement('canvas'); c.width=c.height=160; const x=c.getContext('2d'), d=x.createImageData(160,160);
+  for(let i=0;i<d.data.length;i+=4){ const v=225+Math.random()*30|0; d.data[i]=v; d.data[i+1]=v-3; d.data[i+2]=v-10; d.data[i+3]=Math.random()<.5?14:6; }
+  x.putImageData(d,0,0); document.documentElement.style.setProperty('--grain',`url(${c.toDataURL()})`); }catch(e){} })();
+/* pop sound, made by the phone (no sound file) */
+let ACX=null, SND=true; try{ SND=localStorage.getItem('w2s.turnSound')!=='0'; }catch(e){}
+function acx(){ try{ if(!ACX){ const A=window.AudioContext||window.webkitAudioContext; if(!A) return null; ACX=new A(); } if(ACX.state==='suspended') ACX.resume(); return ACX; }catch(e){ return null; } }
+function pop(back){ if(!SND) return; const a=acx(); if(!a) return; try{ const t=a.currentTime+.005, o=a.createOscillator(), g=a.createGain();
+  o.type='sine'; o.frequency.setValueAtTime(back?520:420,t); o.frequency.exponentialRampToValueAtTime(back?260:900,t+.08);
+  g.gain.setValueAtTime(.0001,t); g.gain.exponentialRampToValueAtTime(.09,t+.008); g.gain.exponentialRampToValueAtTime(.0001,t+.08);
+  o.connect(g).connect(a.destination); o.start(t); o.stop(t+.1); }catch(e){} }
+function buzz(ms){ try{ navigator.vibrate&&navigator.vibrate(ms); }catch(e){} }
+const REDUCE=matchMedia('(prefers-reduced-motion: reduce)');
+function bend(el,p,axis){ // p: 0 flat → 1 fully turned away
+  el.style.transition='none';
+  el.style.transformOrigin = axis==='y' ? 'center bottom' : 'left center';
+  el.style.transform = p<=0 ? '' : (axis==='y' ? `rotateX(${-p*180}deg)` : `rotateY(${-p*180}deg)`);
+  let sh=el._sh; if(!sh){ sh=document.createElement('div'); sh.className='pshade'; el.appendChild(sh); el._sh=sh; }
+  sh.style.opacity=p<=0?'0':String(Math.min(1,p*1.6));
+  sh.style.background=`linear-gradient(${axis==='y'?'0deg':'90deg'},rgba(255,255,255,0) ${Math.max(0,60-p*60)}%,rgba(255,255,255,.3) ${Math.max(5,75-p*60)}%,rgba(0,0,0,${.16+.24*p}) 100%)`; }
+function unbend(el){ el.style.transform=''; el.style.transformOrigin=''; el.style.zIndex=''; el.style.transition=''; if(el._sh) el._sh.style.opacity='0'; }
+function turn(el,from,to,axis,done){ const ms=Math.round(140+420*Math.abs(to-from));
+  if(REDUCE.matches){ bend(el,to,axis); done(); return; }
+  const t0=performance.now(), ease=x=>1-Math.pow(1-x,3);
+  (function step(now){ const k=Math.min(1,(now-t0)/ms); bend(el,from+(to-from)*ease(k),axis); if(k<1) requestAnimationFrame(step); else done(); })(t0); }
+function go(i,dir,from){
+  go.n=(go.n||0)+1; if(go.n===3) setTimeout(alertInvite,1200);
+  if(!cards.length||busy) return;
+  if(i>=cards.length && view==='home'){ snapBack(); moreNews(dir); return; }
+  if(i<0||i>=cards.length){ snapBack(); toast(i<0?'ఇదే మొదటి వార్త':'ఇదే చివరి వార్త'); return; }
+  if(i===cur) return;
+  const out=cards[cur], inn=cards[i], fwd=i>cur, axis=(dir==='up'||dir==='down')?'y':'x';
+  busy=true; DR=null; pop(!fwd); buzz(10);
+  inn.hidden=false; fit(inn);
+  if(fwd){ unbend(inn); inn.style.zIndex='1'; out.style.zIndex='2';
+    turn(out, from||0, 1, axis, ()=>{ out.hidden=true; unbend(out); unbend(inn); busy=false; }); }
+  else { out.style.zIndex='1'; inn.style.zIndex='3'; bend(inn, from==null?1:from, axis);
+    turn(inn, from==null?1:from, 0, axis, ()=>{ out.hidden=true; unbend(out); unbend(inn); busy=false; }); }
+  cur=i; setCount(cur+1,cards.length); syncSave(); fsSoon(1200); setTimeout(()=>{ if(window.fsPlace) fsPlace(); },0);
+  try{ const s=LIST[cur]; if(s && s.kind==='promo' && window.gtag) gtag('event','promo_view',{}); if(s && s.kind!=='promo' && window.gtag) gtag('event','story_view',{story_id:sid(s), story_title:String(s.h||'').slice(0,90), kind:s.kind||'news'}); }catch(e){}
+}
+let DR=null; // the page being bent by the finger
+function snapBack(){ const d=DR; DR=null; const c=cards[cur]; if(!d){ if(c) unbend(c); return; }
+  busy=true; turn(d.el, d.p, d.fwd?0:1, d.axis, ()=>{ if(!d.fwd) d.el.hidden=true; else { const nx=cards[cur+1]; if(nx){ nx.hidden=true; unbend(nx); } } unbend(d.el); if(c) unbend(c); busy=false; }); }
+let drag=null; const feedEl=$('feed');
+feedEl.addEventListener('pointerdown',e=>{ if(busy||!cards.length||e.target.closest('a,button')) return; acx(); drag={x:e.clientX,y:e.clientY,t:Date.now(),axis:null,id:e.pointerId}; });
+feedEl.addEventListener('pointermove',e=>{
+  if(!drag||e.pointerId!==drag.id) return;
+  const dx=e.clientX-drag.x, dy=e.clientY-drag.y;
+  if(!drag.axis){ if(Math.hypot(dx,dy)<8) return; drag.axis=Math.abs(dx)>Math.abs(dy)?'x':'y'; try{feedEl.setPointerCapture(e.pointerId)}catch(_){}
+    const fwd = drag.axis==='x' ? dx<0 : dy>0;
+    const el = fwd ? cards[cur] : cards[cur-1];
+    DR = el ? {el, fwd, axis:drag.axis, p: fwd?0:1} : null;
+    if(DR && !fwd){ el.hidden=false; fit(el); el.style.zIndex='3'; bend(el,1,drag.axis); } else if(DR){ el.style.zIndex='2'; const nx=cards[cur+1]; if(nx){ nx.hidden=false; fit(nx); unbend(nx); nx.style.zIndex='1'; } } }
+  if(!DR) return;
+  const size=drag.axis==='x'?feedEl.clientWidth:feedEl.clientHeight, dist=drag.axis==='x'?dx:dy;
+  const frac=Math.max(0,Math.min(1,(DR.fwd?(drag.axis==='x'?-dist:dist):(drag.axis==='x'?dist:-dist))/size));
+  DR.p = DR.fwd ? frac : 1-frac; bend(DR.el,DR.p,DR.axis);
+});
+function endDrag(e){
+  if(!drag||e.pointerId!==drag.id) return;
+  const d=drag; drag=null; if(!d.axis){ if(Date.now()-d.t<450) fsTap(); return; }
+  const dx=e.clientX-d.x, dy=e.clientY-d.y, dt=Math.max(1,Date.now()-d.t);
+  const dist=d.axis==='x'?dx:dy, fast=Math.abs(dist)/dt>0.45, far=Math.abs(dist)>(d.axis==='x'?feedEl.clientWidth:feedEl.clientHeight)*0.18;
+  if(!(fast||far)) return snapBack();
+  const from=DR?DR.p:undefined;
+  // the next page under the bent one was shown for the drag; go() takes over from here
+  if(d.axis==='x') dx<0 ? go(cur+1,'left',from) : go(cur-1,'right',from);
+  else dy>0 ? go(cur+1,'down',from) : go(cur-1,'up',from);
+  if(!busy && DR) snapBack(); // go() refused (first/last card)
+}
+feedEl.addEventListener('pointerup',endDrag);
+feedEl.addEventListener('pointercancel',e=>{ if(drag&&e.pointerId===drag.id){drag=null;snapBack();} });
+{ const b=$('sndToggle'); const draw=()=>{ b.setAttribute('aria-pressed',String(SND)); b.textContent=SND?'ఆన్':'ఆఫ్'; }; draw();
+  b.onclick=()=>{ SND=!SND; try{localStorage.setItem('w2s.turnSound',SND?'1':'0')}catch(e){} draw(); if(SND){ acx(); pop(false); } }; }
+/* ---------- reading mode (auto full card) ---------- */
+let FSON=(()=>{try{return localStorage.getItem('w2s.autoFull')!=='0'}catch(e){return true}})(), fsT=0;
+function fsCan(){ return FSON && cards.length>0 && $('sheet').hidden && (!$('joinSheet')||$('joinSheet').hidden); }
+function fsRefit(){ setTimeout(()=>{ if(cards[cur]) fit(cards[cur]); fsPlace(); },300); setTimeout(()=>{ if(cards[cur]) spaceFill(cards[cur]); },900); }
+function fsPlace(){ const f=$('fsPlay'), c=cards[cur]; if(!f) return; const pn=c&&!c.hidden&&c.querySelector('.panel');
+  if(!pn){ f.classList.add('nop'); return; } f.classList.remove('nop');
+  const r=pn.getBoundingClientRect(), sr=document.querySelector('.shell').getBoundingClientRect();
+  f.style.top=Math.round(r.bottom-sr.top-42-12)+'px'; f.style.right=Math.round(sr.right-r.right+12)+'px'; f.style.bottom='auto'; }
+addEventListener('resize',()=>setTimeout(fsPlace,350));
+function fsBars(show){ clearTimeout(fsT); const b=document.body, was=b.classList.contains('fs');
+  if(show){ if(was){ b.classList.remove('fs'); fsRefit(); } if(FSON) fsSoon(5000); }
+  else if(!was && fsCan()){ b.classList.add('fs'); fsRefit(); fsHint(); } }
+function fsSoon(ms){ clearTimeout(fsT); if(!FSON) return; if(document.body.classList.contains('fs')) return; fsT=setTimeout(()=>fsBars(false),ms); }
+function fsTap(){ if(document.body.classList.contains('fs')) fsBars(true); else { clearTimeout(fsT); fsBars(false); } }
+function fsHint(){ try{ if(localStorage.getItem('w2s.fsHint')) return; localStorage.setItem('w2s.fsHint','1'); }catch(e){ return; } toast('కార్డుపై ఒకసారి తాకితే బటన్లు మళ్లీ వస్తాయి'); }
+{ const pill=$('fsPill'), cnt=$('count'); const sync=()=>{ pill.textContent=cnt.textContent; }; new MutationObserver(sync).observe(cnt,{childList:true,characterData:true,subtree:true}); sync(); }
+document.querySelector('.dockwrap').addEventListener('pointerdown',()=>fsSoon(5000));
+{ const b=$('fsToggle'); const draw=()=>{ b.setAttribute('aria-pressed',String(FSON)); b.textContent=FSON?'ఆన్':'ఆఫ్'; }; draw();
+  b.onclick=()=>{ FSON=!FSON; try{localStorage.setItem('w2s.autoFull',FSON?'1':'0')}catch(e){} draw(); if(!FSON) fsBars(true); }; }
+fsSoon(4000);
+$('prev').onclick=()=>go(cur-1,'right'); $('next').onclick=()=>go(cur+1,'left');
+document.addEventListener('keydown',e=>{ if(!$('sheet').hidden||!$('joinSheet').hidden) return;
+  if(e.key==='ArrowLeft'){e.preventDefault();go(cur+1,'left')}
+  if(['ArrowDown','PageDown'].includes(e.key)){e.preventDefault();go(cur+1,'down')}
+  if(e.key==='ArrowRight'){e.preventDefault();go(cur-1,'right')}
+  if(['ArrowUp','PageUp'].includes(e.key)){e.preventDefault();go(cur-1,'up')}});
+
+/* ---------- save + share ---------- */
+function syncSave(){ const s=LIST[cur]; $('saveBtn').setAttribute('aria-pressed', !!(s && saved.some(x=>keyOf(x)===keyOf(s)))); }
+$('saveBtn').onclick=()=>{
+  const s=LIST[cur]; if(!s) return;
+  if(s.kind==='promo'){ toast('ఇది Swipe2News ప్రకటన'); return; }
+  const k=keyOf(s), has=saved.some(x=>keyOf(x)===k);
+  saved = has ? saved.filter(x=>keyOf(x)!==k) : [s].concat(saved).slice(0,100);
+  store.set('saved',saved); syncSave(); toast(has?'సేవ్ నుంచి తీసేశాం':'సేవ్ అయింది 🔖');
+  if(view==='saved' && has){ renderFeed(); }
+};
+async function share(text){
+  try{ if(navigator.share){ await navigator.share({title:'Swipe2News', text}); return; } }catch(e){ if(e&&e.name==='AbortError') return; }
+  openWA(text);
+}
+/* Open WhatsApp with the text. On iPhone a wa.me link opens whichever WhatsApp the phone picks (often WhatsApp Business),
+   so there we copy the caption + link and let the reader open the WhatsApp they want and paste. */
+function openWA(text){
+  const ios=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+  const u='https://wa.me/?text='+encodeURIComponent(text);
+  if(!ios){ location.href=u; return; }
+  copyText(text); // inside the tap, so iPhone allows it
+  let o=document.getElementById('waCopy');
+  if(!o){ o=document.createElement('div'); o.id='waCopy';
+    o.style.cssText='position:fixed;inset:0;z-index:90;background:rgba(6,10,18,.72);display:flex;align-items:flex-end;justify-content:center';
+    o.innerHTML='<div style="background:var(--paper,#fff);color:var(--ink,#16120E);width:100%;max-width:520px;border-radius:22px 22px 0 0;padding:20px 18px calc(18px + env(safe-area-inset-bottom,0px));display:grid;gap:10px">'
+      +'<b style="font:800 18px/1.4 var(--body)">✅ లింక్ + క్యాప్షన్ కాపీ అయింది</b>'
+      +'<p style="margin:0;font:600 15px/1.6 var(--body)">ఇప్పుడు మీ <b>WhatsApp</b> ను మీరే తెరిచి, చాట్ లేదా ఛానెల్‌లో <b>Paste</b> చేయండి.</p>'
+      +'<textarea id="waCopyTx" readonly rows="4" style="width:100%;box-sizing:border-box;border:1px solid var(--line,#ddd);border-radius:12px;padding:10px;font:500 13px/1.5 var(--body);background:var(--soft,#f6f2ea);color:inherit"></textarea>'
+      +'<button type="button" id="waCopyAgain" class="btn" style="justify-content:center">📋 మళ్లీ కాపీ చేయండి</button>'
+      +'<a id="waCopyGo" href="#" style="text-align:center;color:var(--muted,#6B5F52);font:600 13px/1.5 var(--body)">లేదా WhatsApp లో నేరుగా తెరవండి</a>'
+      +'<button type="button" id="waCopyOk" class="btn" style="background:#1DA851;justify-content:center">సరే</button></div>';
+    document.body.appendChild(o);
+    o.addEventListener('click',e=>{ if(e.target===o||e.target.id==='waCopyOk') o.hidden=true; });
+  }
+  document.getElementById('waCopyTx').value=text;
+  document.getElementById('waCopyGo').href=u;
+  document.getElementById('waCopyAgain').onclick=async()=>{ toast(await copyText(text)?'కాపీ అయింది ✅':'కాపీ కాలేదు – పై టెక్స్ట్‌ను నొక్కి పట్టుకుని Copy చేయండి'); };
+  o.hidden=false;
+}
+/* Share = picture of the card + link text (for WhatsApp Status / chats) */
+const COLS={'--c-election':'#B3400F','--c-gov':'#1F6B3A','--c-money':'#16406E','--c-water':'#0B5CAD','--c-power':'#5B3A8C','--c-city':'#7A4A12','--c-job':'#0F6E5C'};
+const loadImg=src=>new Promise((ok,no)=>{const im=new Image();im.onload=()=>ok(im);im.onerror=no;im.src=src;});
+function wrap(ctx,text,maxW){ // word wrap that keeps Telugu words whole
+  const words=String(text||'').split(/\s+/), lines=[]; let line='';
+  for(const w of words){ const t=line?line+' '+w:w; if(ctx.measureText(t).width>maxW && line){ lines.push(line); line=w; } else line=t; }
+  if(line) lines.push(line); return lines;
+}
+function rrect(ctx,x,y,w,h,r){ctx.beginPath();ctx.moveTo(x+r,y);ctx.arcTo(x+w,y,x+w,y+h,r);ctx.arcTo(x+w,y+h,x,y+h,r);ctx.arcTo(x,y+h,x,y,r);ctx.arcTo(x,y,x+w,y,r);ctx.closePath();}
+async function cardImage(s){
+  if(s&&s.kind==='promo'){ try{ const r=await fetch(s.img||CONFIG.PROMO.img); const b=await r.blob(); try{ b.dataURL=await new Promise(ok=>{const f=new FileReader(); f.onload=()=>ok(f.result); f.readAsDataURL(b);}); }catch(e){} return b; }catch(e){ return null; } }
+  try{ await document.fonts.ready; }catch(e){}
+  const W=1080, P=64, col=COLS[s.col]||COLS['--c-gov'];
+  const TE="'Noto Sans Telugu','Nirmala UI','Gautami','Noto Sans Devanagari','Kohinoor Devanagari',sans-serif", DI="'Archivo Black','Arial Black',Impact,sans-serif";
+  const c=document.createElement('canvas'), ctx=c.getContext('2d');
+  // measure the text block first to know the card height
+  ctx.font=`800 52px ${TE}`; const hl=wrap(ctx,s.h,W-2*P);
+  ctx.font=`400 36px ${TE}`; const pl=wrap(ctx,s.p,W-2*P);
+  const PANEL=600, STRIP=124, QR=190;
+  const KF=0; // photo story: key fact goes in a pill above the headline
+  const textH=48+KF+hl.length*72+24+pl.length*58+40+70+40;
+  const H=PANEL+STRIP+textH+QR; c.width=W; c.height=H;
+  ctx.fillStyle='#FFFDF5'; ctx.fillRect(0,0,W,H);
+  // panel
+  ctx.fillStyle=col; ctx.fillRect(0,0,W,PANEL);
+  const hasPh=await drawStoryPhoto(ctx,s,0,0,W,PANEL);
+  if(!hasPh){
+  try{ const art=await loadImg('data:image/svg+xml;charset=utf-8,'+encodeURIComponent(sceneSVG(s,'cv')));
+       ctx.globalAlpha=.27; ctx.drawImage(art,0,PANEL-540,W,540); ctx.globalAlpha=1; }catch(e){} }
+  ctx.fillStyle='#fff'; ctx.strokeStyle='#fff'; ctx.lineWidth=3;
+  ctx.font=`800 30px ${TE}`; const chip=s.cat||'వార్త', cw=ctx.measureText(chip).width+56;
+  rrect(ctx,P,52,cw,62,31); ctx.stroke(); ctx.textBaseline='middle'; ctx.fillText(chip,P+28,84);
+  ctx.font=`700 28px ${TE}`; ctx.textAlign='right'; ctx.fillText(s.kind==='job'?(s.last?J('lastd')+' '+s.last:''):(s.d||NEWS.date||''),W-P,84); ctx.textAlign='left';
+  ctx.textBaseline='alphabetic';
+  const slF=hasPh?30:40, slH=hasPh?42:54; let statSize=hasPh?84:150; ctx.font=`400 ${statSize}px ${DI}`; while(ctx.measureText(s.stat||'').width>W-2*P && statSize>60){ statSize-=10; ctx.font=`400 ${statSize}px ${DI}`; }
+  // Telugu in the stat needs the Telugu font
+  if(/[ఀ-౿]/.test(s.stat||'')){ ctx.font=`800 ${Math.min(statSize,130)}px ${TE}`; }
+  ctx.font=`800 ${slF}px ${TE}`; const sl=wrap(ctx,s.statl,hasPh?760:620).slice(0,2);
+  let y=PANEL-(hasPh?40:56)-(sl.length-1)*slH;
+  const teStat=/[ఀ-౿]/.test(s.stat||''); let ss=teStat?Math.min(statSize,120):statSize;
+  const setF=()=>{ ctx.font=teStat?`800 ${ss}px ${TE}`:`400 ${ss}px ${DI}`; }; setF();
+  while(ctx.measureText(s.stat||'').width>W-2*P-20 && ss>56){ ss-=8; setF(); }
+  ctx.fillText(s.stat||'',P,y-(hasPh?46:60)-(teStat?Math.round(ss*0.42):0));
+  ctx.font=`800 ${slF}px ${TE}`; sl.forEach((t,k)=>ctx.fillText(t,P,y+k*slH));
+  // brand strip: full logo on the left, then the tagline
+  let yy=PANEL; ctx.fillStyle='#2E0827'; ctx.fillRect(0,yy,W,STRIP);
+  let x=P;
+  try{ const lg=await loadImg('logo-light.png'); const lh=50, lw=lg.width*lh/lg.height; ctx.drawImage(lg,P,yy+16,lw,lh); }catch(e){}
+  ctx.font=`700 25px ${TE}`; ctx.fillStyle='#E3D3DE'; ctx.fillText(s.kind==='job'?J('s3'):U('sub'),P,yy+104);
+  ctx.font=`800 32px ${TE}`; ctx.fillStyle='#F6F0F3'; ctx.textAlign='right'; ctx.fillText(U('tag'),W-P,yy+76); ctx.textAlign='left';
+  // text
+  if(KF){ ctx.font=`900 32px ${TE}`; const st=s.stat||''; const sw=ctx.measureText(st).width;
+    ctx.font=`800 28px ${TE}`; let t=s.statl||''; const maxT=W-2*P-sw-70; while(t && ctx.measureText(t).width>maxT){ t=t.slice(0,-2); } if(t!==(s.statl||'')) t=t.trim()+'…';
+    const pw=Math.min(W-2*P, sw+ctx.measureText(t).width+70); ctx.fillStyle=col; rrect(ctx,P,PANEL+STRIP+30,pw,60,30); ctx.fill();
+    ctx.fillStyle='#fff'; ctx.font=`900 32px ${TE}`; ctx.fillText(st,P+26,PANEL+STRIP+71); ctx.font=`800 28px ${TE}`; ctx.fillText(t,P+26+sw+18,PANEL+STRIP+70); }
+  yy=PANEL+STRIP+48+52+KF; ctx.fillStyle=col; ctx.font=`800 52px ${TE}`; hl.forEach(t=>{ctx.fillText(t,P,yy);yy+=72;});
+  yy+=24-72+58; ctx.fillStyle='#1A1410'; ctx.font=`400 36px ${TE}`; pl.forEach(t=>{ctx.fillText(t,P,yy);yy+=58;});
+  yy+=10; ctx.strokeStyle='#E3D9C8'; ctx.lineWidth=2; ctx.beginPath(); ctx.moveTo(P,yy); ctx.lineTo(W-P,yy); ctx.stroke();
+  yy+=62; ctx.font=`600 30px ${TE}`; ctx.fillStyle='#5E5246'; ctx.fillText('Source | మూలం: ',P,yy);
+  ctx.font=`800 30px ${TE}`; ctx.fillStyle='#1A1410'; ctx.fillText(s.src||'',P+ctx.measureText('Source | మూలం: ').width+8,yy);
+  // QR bar
+  yy=H-QR; ctx.fillStyle='#16130F'; ctx.fillRect(0,yy,W,QR);
+  ctx.textBaseline='middle'; ctx.font=`900 38px ${TE}`; ctx.fillStyle='#F5A23A'; ctx.fillText('మీ ఊరి వార్తలు ఇప్పుడే మీ చేతిలో!',P,yy+44); ctx.font=`800 27px ${TE}`; ctx.fillStyle='#7CF29A'; ctx.fillText('📢 మీ వార్తలు, ప్రకటనలకు ఉచిత ప్రచారం · 📲 70326 56422',P,yy+98); ctx.font=`700 25px ${TE}`; ctx.fillStyle='#E6E0D6'; ctx.fillText('🌐 swipe2news.com · WhatsApp ఛానెల్ · QR స్కాన్ చేయండి',P,yy+146);
+  try{ const qr=await loadImg('qr.png'); ctx.fillStyle='#fff'; ctx.fillRect(W-P-150,yy+20,150,150); ctx.drawImage(qr,W-P-142,yy+28,134,134); }catch(e){}
+  let url=''; try{ url=c.toDataURL('image/jpeg',0.9); }catch(e){}
+  const blob=await new Promise(r=>c.toBlob(r,'image/jpeg',0.9));
+  if(blob && url) blob.dataURL=url;   // ready-made picture for the iPhone long-press screen
+  return blob;
+}
+window.cardImage=cardImage;
+function storyLink(s){ return CONFIG.APP_LINK+'s/'+sid(s)+'?p=2'+(s._lang?'&l='+s._lang:''); } // p=2: new address, so WhatsApp fetches the preview picture fresh // preview page: shows this story's own card in WhatsApp, then opens it
+function shareText(s){
+  if(s.kind==='promo' && s.greet) return CONFIG.GREETING.text;
+  if(s.kind==='promo') return `📰 Swipe2News – మీ ఊరి వార్తలు ఇప్పుడే మీ చేతిలో!\n⚡ క్షణాల్లో తాజా వార్తలు · తెలంగాణ & ఆంధ్రప్రదేశ్ అన్ని జిల్లాలు\n🌐 ${CONFIG.APP_LINK}\n👉 WhatsApp ఛానెల్: ${CONFIG.CHANNEL}`;
+  // Our link comes FIRST and no outside link is included, so WhatsApp shows the Swipe2News preview
+  if(s.kind==='job') return `💼 ${s.h}\n📲 ${storyLink(s)}\n\n👥 ${J('posts')}: ${s.stat}${s.qual?`\n${J('elig')}: ${s.qual}`:''}${s.last?`\n${J('last')}: ${s.last}`:''}\n🏛️ ${s.org||s.src||''}\n${J('warn1')}\n\n👉 ${J('ch')}: ${CONFIG.CHANNEL}`;
+  const when=(s.d||NEWS.date||'')+(s.t?' · '+s.t:'');
+  return `🔴 ${s.h}\n📲 ${storyLink(s)}\n\n📅 ${when} · Source | మూలం: ${s.src}\nSwipe2News – ${U('tag')}\n👉 WhatsApp ఛానెల్: ${CONFIG.CHANNEL}`;
+}
+/* Card picture is made ahead of time: phones only allow the share sheet right after a tap,
+   so building the picture inside the tap made the share fail and fall back to plain text. */
+let cardCache={k:null,blob:null,p:null};
+function prepCard(){ const s=LIST[cur]; if(!s) return Promise.resolve(null); const k=keyOf(s);
+  if(cardCache.k===k && (cardCache.blob||cardCache.p)) return cardCache.blob?Promise.resolve(cardCache.blob):cardCache.p;
+  const c={k,blob:null,p:null}; cardCache=c;
+  const failed=()=>{ setTimeout(()=>{ if(cardCache===c && !c.blob) cardCache={k:null,blob:null,p:null}; },3000); return null; }; // try again a little later
+  c.p=cardImage(s).then(b=>{ if(!b) return failed(); c.blob=b; return b; }).catch(failed); return c.p; }
+setInterval(()=>{ const s=LIST[cur]; if(s && cardCache.k!==keyOf(s)) prepCard(); },400);
+const cardFile=b=>new File([b],'swipe2news-'+Date.now()+'.jpg',{type:'image/jpeg'});
+function saveBlob(b){ const u=URL.createObjectURL(b), a=document.createElement('a');
+  a.href=u; a.download='swipe2news-'+Date.now()+'.jpg'; document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(u),60000); }
+/* copy that also works on iPhone (old way first, it runs inside the tap) */
+function copyLegacy(t){ try{ const a=document.createElement('textarea'); a.value=t; a.setAttribute('readonly',''); a.contentEditable='true';
+    a.style.cssText='position:fixed;top:0;left:0;opacity:0;font-size:16px'; document.body.appendChild(a);
+    const r=document.createRange(); r.selectNodeContents(a); const sel=getSelection(); sel.removeAllRanges(); sel.addRange(r); a.setSelectionRange(0,t.length);
+    const ok=document.execCommand('copy'); a.remove(); sel.removeAllRanges(); return ok; }catch(e){ return false; } }
+// iPhone can report the old copy as done while copying nothing, so always do BOTH, started inside the tap
+async function copyText(t){
+  let p=null; try{ if(navigator.clipboard&&navigator.clipboard.writeText) p=navigator.clipboard.writeText(t); }catch(e){}
+  const old=copyLegacy(t);
+  if(p){ try{ await p; return true; }catch(e){} }
+  return old; }
+$('dlBtn').onclick=async()=>{ const s=LIST[cur]; if(!s) return;
+  const ready=cardCache.k===keyOf(s) && cardCache.blob;
+  if(!ready) toast('చిత్రం తయారవుతోంది…');
+  const b=ready||await prepCard(); if(!b){ toast('చిత్రం తయారు కాలేదు, మళ్లీ ప్రయత్నించండి'); return; }
+  const f=cardFile(b);
+  // iPhone: "Save Image" is in the share sheet; Android/desktop: normal download to gallery
+  if(/iPhone|iPad|iPod/.test(navigator.userAgent) && navigator.canShare && navigator.canShare({files:[f]}) && ready){
+    try{ await navigator.share({files:[f]}); return; }catch(e){ if(e&&e.name==='AbortError') return; } }
+  saveBlob(b); copyText(shareText(s));
+  toast('చిత్రం సేవ్ అయింది ✅ క్యాప్షన్ కాపీ అయింది – ఛానెల్‌లో 📎 నుంచి పోస్ట్ చేయండి');
+};
+const RADIO_ON=()=>{ try{ return RADIO; }catch(e){ return false; } };
+function setCount(a,n){ $('count').innerHTML = n ? `<b>${a}</b>/${n}` : ''; $('railFill').style.width = n ? (a/n*100)+'%' : '0'; if(window.cardChanged && RADIO_ON()) cardChanged(); else if(window.stopVoice) stopVoice(); }
+/* AI voice: reads the card aloud in Telugu with the phone's own voice */
+const synth = window.speechSynthesis;
+/* "News radio": reads the card aloud, then turns to the next card by itself and keeps reading until stopped.
+   Same toggle for the 🔊 button in the bottom bar and the floating 🎧 button shown in reading mode. */
+let RADIO=false, rTok=0, rWait=0;
+function voiceText(s){ if(!s||s.kind==='promo') return '';
+  return s.kind==='job'
+    ? [s.h, s.sum, s.posts&&(J('posts')+' '+s.posts), s.qual&&(J('elig').slice(3)+' '+s.qual), s.last&&(J('lastd')+' '+teDate(s.last))].filter(Boolean).join('. ')
+    : [s.h, s.p, ...(Array.isArray(s.pts)?s.pts:[])].filter(Boolean).join('. '); }
+function radioUI(){ const on=String(RADIO); $('listenBtn').setAttribute('aria-pressed',on); const f=$('fsPlay'); if(f){ f.setAttribute('aria-pressed',on); f.querySelector('span').textContent = RADIO ? ({te:'ఆపండి',en:'Stop',hi:'रोकें'}[LG()]||'ఆపండి') : ({te:'వార్తలు వినండి',en:'Listen',hi:'ख़बरें सुनें'}[LG()]||'వార్తలు వినండి'); } }
+function speakCur(){ clearTimeout(rWait); if(!RADIO) return; const s=LIST[cur], tok=++rTok;
+  const text=voiceText(s); if(!text){ rWait=setTimeout(()=>{ if(RADIO&&tok===rTok) go(cur+1,'left'); },900); return; }
+  // short pieces: Android Chrome stops long speech after ~15 s
+  const parts=(text.replace(/\s+/g,' ').match(/[^.!?।]+[.!?।]*\s*|[.!?।]+\s*/g)||[]).map(x=>x.trim()).filter(Boolean).reduce((a,x)=>{ if(a.length && (a[a.length-1]+' '+x).length<180) a[a.length-1]+=' '+x; else a.push(x); return a; },[]);
+  const sl=U('speech'), v=synth.getVoices().find(v=>v.lang.replace('_','-').toLowerCase().startsWith(sl.slice(0,2)));
+  try{ synth.cancel(); }catch(e){}
+  parts.forEach((x,i)=>{ const u=new SpeechSynthesisUtterance(x); u.lang=sl; u.rate=0.95; if(v) u.voice=v;
+    if(i===parts.length-1) u.onend=()=>{ if(RADIO&&tok===rTok) rWait=setTimeout(()=>{ if(!(RADIO&&tok===rTok)) return; const was=cur; go(cur+1,'left'); setTimeout(()=>{ if(RADIO&&tok===rTok&&cur===was) stopVoice(); },1500); },700); };
+    u.onerror=ev=>{ if(ev&&ev.error!=='interrupted'&&ev.error!=='canceled'&&tok===rTok){ RADIO=false; radioUI(); } };
+    synth.speak(u); }); }
+function stopVoice(){ RADIO=false; rTok++; clearTimeout(rWait); try{ if(synth && (synth.speaking||synth.pending)) synth.cancel(); }catch(e){} radioUI(); }
+function cardChanged(){ if(RADIO){ rTok++; try{synth.cancel()}catch(e){} clearTimeout(rWait); rWait=setTimeout(speakCur,650); } }
+window.stopVoice = stopVoice; window.cardChanged = cardChanged;
+function toggleRadio(){
+  if(!synth){ toast('ఈ ఫోన్‌లో వాయిస్ సపోర్ట్ లేదు'); return; }
+  if(RADIO){ stopVoice(); return; }
+  const sl=U('speech'); if(sl==='te-IN' && !synth.getVoices().some(v=>v.lang.replace('_','-').toLowerCase().startsWith('te'))) toast('తెలుగు వాయిస్ లేకపోతే ఫోన్ Settings → Text-to-speech లో తెలుగు జోడించండి');
+  RADIO=true; radioUI(); speakCur(); try{ window.gtag&&gtag('event','listen_start',{}); }catch(e){} }
+$('listenBtn').onclick=toggleRadio;
+{ const f=$('fsPlay'); f.addEventListener('pointerdown',e=>e.stopPropagation()); f.onclick=e=>{ e.stopPropagation(); toggleRadio(); }; radioUI(); }
+/* Share the CARD PICTURE + caption. Used by both the share button and the green WhatsApp button. */
+const CRIOS=/CriOS|FxiOS|EdgiOS|OPiOS/.test(navigator.userAgent);
+const IOS=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+/* opened from the home-screen icon: iPhone does not let these apps attach pictures, Safari itself can */
+const STANDALONE=!!(navigator.standalone||(window.matchMedia&&matchMedia('(display-mode: standalone)').matches));
+const timeout=(p,ms)=>Promise.race([p,new Promise(r=>setTimeout(()=>r(null),ms))]);
+/* iPhone helpers */
+function capBar(text){ // after the picture is shared: one tap copies caption + link (iPhone needs a tap to copy)
+  let c=$('capBar');
+  if(!c){ c=document.createElement('button'); c.id='capBar'; c.type='button';
+    c.style.cssText='position:fixed;left:50%;bottom:calc(150px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:70;border:0;border-radius:999px;padding:12px 18px;background:#1DA851;color:#fff;font:800 14px/1.2 var(--body);box-shadow:0 8px 24px rgba(0,0,0,.3);max-width:92vw';
+    document.body.appendChild(c); }
+  c.textContent='📋 క్యాప్షన్ + లింక్ కాపీ చేయండి'; c.hidden=false;
+  c.onclick=async()=>{ c.hidden=true; toast(await copyText(text)?'కాపీ అయింది ✅ WhatsAppలో Paste చేయండి':'కాపీ కాలేదు'); };
+  clearTimeout(capBar.t); capBar.t=setTimeout(()=>{ c.hidden=true; },12000);
+}
+function showCardImage(b, text, why){
+  let o=$('imgShare');
+  if(!o){ o=document.createElement('div'); o.id='imgShare';
+    o.style.cssText='position:fixed;inset:0;z-index:80;background:#0A0E16;display:flex;flex-direction:column;align-items:center;gap:12px;padding:16px 16px calc(16px + env(safe-area-inset-bottom,0px));overflow:auto';
+    o.innerHTML='<img id="imgShareImg" alt="" style="display:block;width:auto;max-width:100%;max-height:58vh;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.5);-webkit-touch-callout:default;-webkit-user-select:auto;user-select:auto">'
+      +'<button type="button" id="imgShareGo" class="btn" style="background:#1DA851;min-width:220px">📤 చిత్రాన్ని షేర్ చేయండి</button>'
+      +'<p style="margin:0;color:#E3D3DE;font:600 13px/1.55 var(--body);text-align:center">లేదా చిత్రాన్ని <b>నొక్కి పట్టుకోండి</b> → <b>Save to Photos</b> → WhatsAppలో 📎 నుంచి పంపండి</p>'
+      +'<div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center"><button type="button" id="imgShareCopy" class="btn">📋 క్యాప్షన్ కాపీ</button><button type="button" id="imgShareClose" class="btn" style="background:#fff;color:#16120E">మూసివేయండి</button></div>'
+      +'<small id="imgShareWhy" style="color:#6B7A90;font-size:11px"></small>';
+    document.body.appendChild(o);
+    $('imgShareClose').onclick=()=>{ o.hidden=true; };
+  }
+  const im=$('imgShareImg');
+  im.src = b.dataURL || URL.createObjectURL(b);
+  const canShare=!!(navigator.share&&navigator.canShare);
+  $('imgShareGo').style.display=canShare?'':'none';
+  $('imgShareWhy').textContent = canShare ? '' : 'ఈ ఫోన్‌లో షేర్ బటన్ పనిచేయదు (iPhone లో Lockdown Mode ఆన్‌లో ఉంటే ఇలా జరుగుతుంది). పై చిత్రాన్ని నొక్కి పట్టుకుని Save to Photos చేసి, WhatsAppలో 📎 నుంచి పంపండి.';
+  $('imgShareWhy').style.cssText = canShare ? 'color:#6B7A90;font-size:11px' : 'color:#F5A23A;font:700 14px/1.55 var(--body);text-align:center;max-width:420px';
+  $('imgShareCopy').onclick=async()=>{ toast(await copyText(text)?'కాపీ అయింది ✅':'కాపీ కాలేదు'); };
+  $('imgShareGo').onclick=async()=>{ // fresh tap, nothing else before it: the best chance for the share menu
+    try{ if(!navigator.share) throw new Error('noshare'); await navigator.share({files:[cardFile(b)]}); o.hidden=true; capBar(text); }
+    catch(e){ if(e&&e.name==='AbortError') return;
+      $('imgShareWhy').textContent='షేర్ కాలేదు – పై చిత్రాన్ని నొక్కి పట్టుకుని Save to Photos చేసి, WhatsAppలో 📎 నుంచి పంపండి.';
+      if(STANDALONE){ const u=location.origin+'/?cards=1&sharecard=1&s='+sid(LIST[cur]||{}); copyLegacy(u); o.hidden=true; location.href='x-safari-'+u;
+        setTimeout(()=>{ if(document.visibilityState==='visible') toast('Safari తెరవలేదు – లింక్ కాపీ అయింది: Safari తెరిచి Paste చేయండి'); },1800); return; }
+      toast('షేర్ కాలేదు – చిత్రాన్ని నొక్కి పట్టుకుని Save చేయండి'); }
+  };
+  o.hidden=false;
+}
+/* Chrome on iPhone cannot attach pictures (Apple only allows it in Safari).
+   So we ask: send the full card picture (opens this story in Safari, one tap there), or just the link. */
+function chromeChoice(s,text,viaWA){
+  let o=$('crChoice');
+  if(!o){ o=document.createElement('div'); o.id='crChoice';
+    o.style.cssText='position:fixed;inset:0;z-index:85;background:rgba(6,10,18,.72);display:flex;align-items:flex-end;justify-content:center';
+    o.innerHTML='<div style="background:var(--paper,#fff);color:var(--ink,#16120E);width:100%;max-width:520px;border-radius:22px 22px 0 0;padding:20px 18px calc(18px + env(safe-area-inset-bottom,0px));display:grid;gap:10px">'
+      +'<b style="font:800 17px/1.4 var(--body)">ఎలా పంపాలి?</b>'
+      +'<button type="button" id="crPic" class="btn" style="background:#1DA851;justify-content:center">📷 పూర్తి కార్డ్ చిత్రంగా పంపండి</button>'
+      +'<small id="crWhy" style="color:var(--muted,#6B5F52);font:600 12.5px/1.5 var(--body)"></small>'
+      +'<button type="button" id="crLink" class="btn" style="justify-content:center">🔗 లింక్ కాపీ చేయండి</button>'
+      +'<button type="button" id="crNo" class="btn" style="background:transparent;color:inherit;box-shadow:none;justify-content:center">వద్దు</button></div>';
+    document.body.appendChild(o);
+    o.addEventListener('click',e=>{ if(e.target===o||e.target.id==='crNo') o.hidden=true; });
+  }
+  $('crWhy').textContent=(CRIOS?'iPhone లో Chrome':'హోమ్ స్క్రీన్ యాప్')+' నుంచి చిత్రాలు పంపడం iPhone అనుమతించదు – ఈ వార్త Safari లో తెరుచుకుంటుంది, అక్కడ “📤 షేర్” ఒక్కసారి నొక్కండి.';
+  $('crPic').onclick=async()=>{ const l=LG(), b=(cardCache.k===keyOf(s))?cardCache.blob:null;
+    const safari='https://swipe2news.com/?cards=1&sharecard=1&s='+sid(s)+(s.kind==='job'?'&jobs=1':'')+(l!=='te'?'&l='+l:'');
+    // 1) home-screen app: try sharing the picture right here first, straight from the tap
+    if(!CRIOS && b && navigator.share){ try{ await navigator.share({files:[cardFile(b)]}); o.hidden=true; capBar(text); return; }catch(e){ if(e&&e.name==='AbortError'){ o.hidden=true; return; } } }
+    // 2) open the story in Safari, where picture sharing works; if Safari does not open, the link is already copied
+    o.hidden=true; copyLegacy(safari);
+    location.href='x-safari-'+safari;
+    setTimeout(()=>{ if(document.visibilityState==='visible') toast('Safari తెరవలేదు – లింక్ కాపీ అయింది: Safari తెరిచి అడ్రస్ బార్‌లో Paste చేయండి'); },1800); };
+  $('crLink').onclick=async()=>{ o.hidden=true; // just copy this story's link – the reader pastes it in the WhatsApp they want
+    const link=storyLink(s);
+    copyText(link); linkSheet(link); };
+  o.hidden=false;
+}
+async function shareCard(viaWA){ const s=LIST[cur]; if(!s) return;
+  const text=shareText(s);
+  let b=(cardCache.k===keyOf(s))?cardCache.blob:null;
+  if(IOS && (CRIOS||STANDALONE) && window.isSecureContext){ chromeChoice(s,text,viaWA); return; }
+  if(IOS && (CRIOS || !window.isSecureContext)){
+    // Chrome/Firefox/Edge on iPhone (and any non-https page) cannot share pictures at all:
+    // go straight to WhatsApp (or the share menu) with the Swipe2News link, which shows our preview.
+    if(viaWA){ openWA(text); return; }
+    try{ if(navigator.share){ await navigator.share({text}); return; } }catch(e){ if(e&&e.name==='AbortError') return; }
+    openWA(text); return;
+  }
+  if(IOS){
+    // iPhone: the share menu must open straight after the tap, with nothing else first,
+    // and WhatsApp on iPhone keeps only the text if it gets picture + text. So: picture alone.
+    if(!b && !navigator.share){ // no share menu on this phone (e.g. Lockdown Mode): just wait for the picture and show it
+      toast('చిత్రం తయారవుతోంది…'); b=await timeout(prepCard(),8000);
+      if(!b){ toast('చిత్రం తయారు కాలేదు, మళ్లీ నొక్కండి'); return; }
+      showCardImage(b, text, ''); return; }
+    if(!b){ prepCard(); toast('చిత్రం సిద్ధమవుతోంది… ఒక్క క్షణం తర్వాత మళ్లీ నొక్కండి'); return; }
+    let why='';
+    if(navigator.share && navigator.canShare && navigator.canShare({files:[cardFile(b)]})){
+      try{ await navigator.share({files:[cardFile(b)]}); capBar(text); return; }
+      catch(e){ if(e&&e.name==='AbortError') return; why=e&&e.name||String(e); }
+    } else why='no-file-share';
+    showCardImage(b, text, why); return;
+  }
+  if(!b && navigator.canShare) b=await timeout(prepCard(),2500);
+  if(b && navigator.canShare){
+    const f=cardFile(b), data={files:[f], text};
+    if(navigator.canShare(data)){
+      copyText(text); // caption + link on the clipboard, to paste under the picture
+      try{ await navigator.share(data); toast('క్యాప్షన్ కాపీ అయింది'); return; }
+      catch(e){ if(e&&e.name==='AbortError') return; }
+    }
+  }
+  // computers / phones without picture sharing: open WhatsApp with the text and link
+  if(viaWA){ const u='https://wa.me/?text='+encodeURIComponent(text); const w=window.open(u,'_blank'); if(!w) location.href=u; }
+  else share(text);
+}
+/* Swipe2News logo = home: close any open screen and show the newest stories from the start */
+function goHome(e){ if(e) e.preventDefault();
+  document.querySelectorAll('.sheet').forEach(s=>s.hidden=true);
+  ['imgShare','crChoice','waCopy','capBar'].forEach(id=>{ const x=document.getElementById(id); if(x) x.hidden=true; });
+  DAY=null; section='all'; JUMP=null; setView('home'); scrollTo(0,0); }
+$('homeLogo').onclick=goHome;
+document.querySelectorAll('.sh-head .logo').forEach(l=>{ l.setAttribute('role','link'); l.setAttribute('title','హోమ్'); l.onclick=()=>goHome(); });
+$('shareBtn').onclick=()=>shareCard(false);
+$('waBtn').onclick=()=>shareCard(true);
+$('shareApp').onclick=()=>share(`Swipe2News – ${U('tag')} 📲\n${U('sub')}: ${CONFIG.APP_LINK}\nWhatsApp ఛానెల్: ${CONFIG.CHANNEL}`);
+
+/* ---------- bottom nav ---------- */
+function setView(v){
+  fsBars(true);
+  if(v==='join'){ const jt=document.querySelector('.join-box .tl'); if(jt) jt.textContent=U('tag')+' · '+U('sub'); const jg=document.querySelector('.join-box .tg'); if(jg) jg.textContent=U('l1'); $('joinSheet').hidden=false; return; }
+  if(v==='more'){ openSheet(); return; }
+  if(v==='dates'){ openDates(); return; }
+  view=v; document.querySelectorAll('.nb').forEach(b=>b.setAttribute('aria-current', b.dataset.v===v));
+  renderTabs(); renderFeed();
+  if(v==='jobs') loadJobs().then(()=>{ if(view==='jobs'){ const k=LIST[cur]&&keyOf(LIST[cur]); renderFeed(JUMP?null:k); } });
+}
+document.querySelector('.nav').addEventListener('click',e=>{const b=e.target.closest('.nb'); if(b) setView(b.dataset.v);});
+$('closeJoin').onclick=()=>{$('joinSheet').hidden=true};
+
+/* ---------- readers send local news (opens WhatsApp with the tip typed) ---------- */
+function openTip(){
+  $('tipDist').innerHTML = '<option value="">జిల్లా ఎంచుకోండి</option>' + PLACES.filter(p=>p[0]!=='TS').map(p=>`<option value="${p[0]}"${p[0]===prefs.place?' selected':''}>${esc(p[1])} (${esc(p[2])})</option>`).join('') + AP_DISTRICTS.map(p=>`<option value="${p[0]}"${p[0]===prefs.place?' selected':''}>${esc(p[1])} (${esc(p[2])}) – ఏపీ</option>`).join('') + Object.keys(STATE_DISTRICTS).map(st=>STATE_DISTRICTS[st].map(p=>`<option value="${p[0]}"${p[0]===prefs.place?' selected':''}>${esc(p[1])} (${esc(p[2])}) – ${esc((STATES.find(x=>x[0]===st)||['','',''])[1])}</option>`).join('')).join('') + STATES.filter(s=>s[0]!=='TG'&&s[0]!=='AP').map(s=>`<option value="st-${s[0]}"${'st-'+s[0]===prefs.place?' selected':''}>${esc(s[1])} (${esc(s[2])})</option>`).join('') + '<option value="other">ఇతర ప్రాంతం (Other)</option>';
+  $('tipErr').textContent=''; $('sheet').hidden=true; $('joinSheet').hidden=true; $('tipSheet').hidden=false;
+}
+$('tipOpen1').onclick=openTip; $('tipOpen2').onclick=openTip; $('closeTip').onclick=()=>{ $('tipSheet').hidden=true; };
+$('tipForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  const name=$('tipName').value.trim(), dist=$('tipDist'), place=$('tipPlace').value.trim(), text=$('tipText').value.trim(), when=$('tipWhen').value;
+  const err=m=>{ $('tipErr').textContent=m; };
+  if(!dist.value) return err('జిల్లా ఎంచుకోండి');
+  if(place.length<2) return err('మండలం / గ్రామం రాయండి');
+  if(text.length<20) return err('ఏం జరిగిందో కనీసం ఒక వాక్యం రాయండి');
+  if(!$('tipOk').checked) return err('నిర్ధారణ బాక్స్‌పై టిక్ చేయండి');
+  if(!/^\d{10,15}$/.test(CONFIG.TIP_WHATSAPP||'')) return err('క్షమించండి, వార్తల నంబర్ ఇంకా సెట్ చేయలేదు');
+  const distName=dist.options[dist.selectedIndex].text;
+  const whenTxt=when? when.replace('T',' · ') : 'తెలియదు';
+  const msg=`📝 *Swipe2News – మా ఊరి వార్త*\n\n👤 పేరు: ${name||'పేరు చెప్పలేదు'}\n📍 జిల్లా: ${distName}\n🏘️ మండలం/గ్రామం: ${place}\n🕒 ఎప్పుడు: ${whenTxt}\n\n📰 ఏం జరిగింది:\n${text}\n\n✅ సమాచారం నిజమని నిర్ధారించారు · Swipe2News యాప్ నుంచి పంపబడింది`;
+  location.href=`https://wa.me/${CONFIG.TIP_WHATSAPP}?text=`+encodeURIComponent(msg);
+  $('tipSheet').hidden=true; toast('ధన్యవాదాలు 🙏 WhatsAppలో Send నొక్కండి');
+  $('tipText').value=''; $('tipOk').checked=false;
+});
+if(new URLSearchParams(location.search).has('tip')) setTimeout(openTip,600);
+
+/* ---------- settings sheet ---------- */
+let draft;
+function openSheet(){
+  draft = {place:prefs.place, topics:prefs.topics.slice(), theme:prefs.theme, lang:prefs.lang||'te', st:prefs.st||stOfPlace(prefs.place), village:prefs.village||''};
+  $('q').value=''; $('village').value=draft.village; drawLangs(); drawStates(); drawPlaces(); drawTopics(); drawThemes();
+  $('closeSheet').hidden = firstRun && !store.get('prefs',null);
+  $('sheet').hidden=false;
+}
+function drawLangs(){
+  $('langs').innerHTML = LANGS.map(l=>`<button class="opt" type="button" role="radio" data-k="${l[0]}" aria-checked="${draft.lang===l[0]}"><b>${esc(l[1])}</b><small>${esc(l[2])}</small></button>`).join('');
+}
+function drawStates(){
+  $('states').innerHTML = STATES.map(s=>`<button class="opt" type="button" role="radio" data-k="${s[0]}" aria-checked="${draft.st===s[0]}"><b>${esc(s[1])}</b><small>${esc(s[2])}</small></button>`).join('');
+}
+function distList(){
+  if(draft.st==='TG') return PLACES;
+  if(draft.st==='AP') return [['AP','మొత్తం ఆంధ్రప్రదేశ్','All Andhra Pradesh']].concat(AP_DISTRICTS);
+  if(STATE_DISTRICTS[draft.st]){ const s=STATES.find(x=>x[0]===draft.st); return [['st-'+draft.st,'మొత్తం '+s[1],'All '+s[2]]].concat(STATE_DISTRICTS[draft.st]); }
+  return null;
+}
+function drawPlaces(){
+  const q=$('q').value.trim().toLowerCase(), list=distList();
+  const stName=(STATES.find(s=>s[0]===draft.st)||['','',''])[1];
+  $('distH').textContent = list ? `${stName} – మీ జిల్లా ఎంచుకోండి` : `${stName}`;
+  $('distSub').textContent = list ? 'Choose your district – మీ ప్రాంత వార్తలు ముందుగా కనిపిస్తాయి.' : 'ఈ రాష్ట్ర జిల్లాల జాబితా త్వరలో – అప్పటివరకు రాష్ట్రం మొత్తం వార్తలు ముందుగా చూపిస్తాం.';
+  $('q').hidden = !list;
+  if(!list){ draft.place='st-'+draft.st; $('places').innerHTML=''; return; }
+  if(!list.some(p=>p[0]===draft.place)) draft.place=list[0][0];
+  $('places').innerHTML = list.filter(p=>!q||p[1].includes(q)||p[2].toLowerCase().includes(q)).map(p=>
+    `<button class="opt${p[0]==='TS'||p[0]==='AP'||p[0].startsWith('st-')?' wide':''}" type="button" role="radio" data-k="${p[0]}" aria-checked="${draft.place===p[0]}"><b>${esc(p[1])}</b><small>${esc(p[2])}</small></button>`).join('');
+}
+function drawTopics(){
+  $('topics').innerHTML = SECTIONS.filter(s=>!FIXED.includes(s[0])).map(s=>
+    `<button class="opt" type="button" data-k="${s[0]}" aria-pressed="${draft.topics.includes(s[0])}"><b>${esc(s[1])}</b><small>${esc(s[2])}</small></button>`).join('');
+}
+function drawThemes(){
+  $('themes').innerHTML = THEMES.map(t=>`<button class="opt" type="button" role="radio" data-k="${t[0]}" aria-checked="${draft.theme===t[0]}"><b>${esc(t[1])}</b><small>${esc(t[2])}</small></button>`).join('');
+}
+$('q').addEventListener('input',drawPlaces);
+$('langs').addEventListener('click',e=>{const b=e.target.closest('.opt');if(!b)return; draft.lang=b.dataset.k; drawLangs();});
+$('states').addEventListener('click',e=>{const b=e.target.closest('.opt');if(!b)return; draft.st=b.dataset.k; $('q').value=''; drawStates(); drawPlaces(); $('distH').scrollIntoView({behavior:'smooth',block:'start'});});
+$('village').addEventListener('input',()=>{ draft.village=$('village').value.trim(); });
+$('places').addEventListener('click',e=>{const b=e.target.closest('.opt');if(!b)return;draft.place=b.dataset.k;drawPlaces()});
+$('topics').addEventListener('click',e=>{const b=e.target.closest('.opt');if(!b)return;const k=b.dataset.k;draft.topics=draft.topics.includes(k)?draft.topics.filter(x=>x!==k):draft.topics.concat(k);drawTopics()});
+$('themes').addEventListener('click',e=>{const b=e.target.closest('.opt');if(!b)return;draft.theme=b.dataset.k;drawThemes();prefs.theme=draft.theme;applyTheme()});
+$('save').onclick=()=>{const lc=(prefs.lang||'te')!==(draft.lang||'te');prefs=draft;store.set('prefs',prefs);if(lc){ setJobs(store.get('jobs',[])); cardCache={k:null,blob:null,p:null}; document.documentElement.lang=LG(); }if(pushOK) OneSignalDeferred.push(tagUser);applyTheme();$('sheet').hidden=true;renderTabs();renderFeed();toast('సేవ్ అయింది ✓')};
+$('closeSheet').onclick=()=>{prefs.theme=store.get('prefs',prefs).theme||'auto';applyTheme();$('sheet').hidden=true};
+$('placeBtn').onclick=openSheet; $('setBtn').onclick=openSheet;
+
+/* ---------- news by date ---------- */
+async function loadDates(){ try{ const r=await fetch('archive/index.json?t='+Date.now(),{cache:'no-store'}); if(r.ok) DATES=(await r.json()).dates||[]; }catch(e){} return DATES; }
+async function openDates(){
+  $('dateSheet').hidden=false; $('dateList').innerHTML='<p class="sub">లోడ్ అవుతోంది…</p>';
+  await loadDates();
+  if(DATES.length){ $('datePick').min=DATES[DATES.length-1].iso; $('datePick').max=DATES[0].iso; }
+  $('dateList').innerHTML = DATES.length ? DATES.map(d=>`<button class="opt" type="button" data-iso="${d.iso}"><b>📅 ${esc(teDay(d.iso))}</b><small>${d.count} వార్తలు · ${esc(d.date)}</small></button>`).join('') : '<p class="sub">ఇంకా పాత వార్తలు లేవు.</p>';
+}
+async function showDay(iso, jump){
+  try{
+    const r=await fetch(`archive/${iso}.json?t=`+Date.now(),{cache:'no-store'}); if(!r.ok) throw 0;
+    const d=await r.json(); DAY={iso, date:d.date, stories:d.stories||[]};
+  }catch(e){
+    // today's news may not be archived yet: fall back to the live list
+    const day=fromIso(iso), list=(NEWS.stories||[]).filter(s=>(s.d||NEWS.date)===day);
+    if(!list.length){ toast('ఆ తేదీ వార్తలు దొరకలేదు'); return false; }
+    DAY={iso, date:day, stories:list};
+  }
+  $('dateSheet').hidden=true; JUMP=jump||null; setView('date');
+  history.replaceState(null,'',`?d=${iso}`+(jump?`&s=${jump}`:''));
+  return true;
+}
+$('dateList').addEventListener('click',e=>{ const b=e.target.closest('[data-iso]'); if(b) showDay(b.dataset.iso); });
+$('datePick').addEventListener('change',e=>{ if(e.target.value) showDay(e.target.value); });
+$('closeDates').onclick=()=>{ $('dateSheet').hidden=true; };
+
+/* ---------- all news: today's full list, then older days as the reader swipes on ---------- */
+let BASE=[], EXTRA=new Map(), loadingMore=false;
+function mergeAll(){
+  const seen=new Set(), out=[];
+  const add=s=>{ const k=keyOf(s); if(seen.has(k)) return; seen.add(k); out.push(s); };
+  BASE.forEach(add);
+  [...EXTRA.keys()].sort().reverse().forEach(iso=>EXTRA.get(iso).forEach(add));
+  NEWS.stories=out;
+}
+async function fetchDay(iso){
+  if(EXTRA.has(iso)) return 0;
+  try{ const r=await fetch(`archive/${iso}.json?t=`+Date.now(),{cache:'no-store'}); if(!r.ok) return 0;
+    const d=await r.json(); const list=(d.stories||[]).map(x=>Object.assign({d:d.date},x)); EXTRA.set(iso,list); return list.length; }catch(e){ return 0; }
+}
+async function moreNews(dir){
+  if(loadingMore) return; loadingMore=true;
+  if(!DATES.length) await loadDates();
+  const next=DATES.find(d=>!EXTRA.has(d.iso));
+  if(!next){ loadingMore=false; toast('ఇవే అన్ని వార్తలు – కొత్తవి త్వరలో'); return; }
+  toast(`📅 ${teDay(next.iso)} వార్తలు లోడ్ అవుతున్నాయి…`);
+  const before=LIST.length, k=LIST[cur]?keyOf(LIST[cur]):null;
+  await fetchDay(next.iso); mergeAll(); renderFeed(k); loadingMore=false;
+  if(LIST.length>before) go(cur+1, dir||'left'); else moreNews(dir);
+}
+
+/* ---------- load news ---------- */
+async function load(){
+  // Show the news saved on the phone at once, so a slow network never leaves a black screen (iPhone, 10 Nov 2026).
+  if(!load.shown){ const c=store.get('news',null);
+    if(c && c.stories && c.stories.length){ NEWS=c; WISHES=store.get('wishes',WISHES); renderTabs(); renderFeed(); load.shown=1; } }
+  const keep = load.shown && cur>0 && LIST && LIST[cur] ? keyOf(LIST[cur]) : null; // still on the first card → jump to the newest news
+  try{
+    const ac = window.AbortController ? new AbortController() : null;
+    const tm = setTimeout(()=>{ if(ac) ac.abort(); }, 15000);
+    let r, j;
+    try{ r = await fetch(CONFIG.NEWS_URL+'?t='+Date.now(), {cache:'no-store', signal: ac?ac.signal:undefined});
+      if(!r.ok) throw new Error(r.status); j = await r.json(); } finally { clearTimeout(tm); }
+    NEWS = j; store.set('news', NEWS);
+    BASE = NEWS.stories.slice();
+    // add the rest of today's stories (news.json holds only the newest 50); never wait more than 8 s for these
+    await timeout(Promise.all([loadWishes(), (async()=>{ await loadDates(); if(DATES[0]) await fetchDay(DATES[0].iso); })()]), 8000);
+    mergeAll();
+  }catch(e){
+    if(!load.shown){ NEWS = store.get('news', NEWS); WISHES = store.get('wishes', WISHES); }
+    if(NEWS.stories.length) toast('ఆఫ్‌లైన్ – పాత వార్తలు చూపిస్తున్నాం');
+    else toast('నెట్‌వర్క్ నెమ్మదిగా ఉంది – కొద్దిసేపట్లో మళ్లీ ప్రయత్నించండి');
+  }
+  load.shown=1;
+  renderTabs(); renderFeed(keep||undefined);
+  const q=new URLSearchParams(location.search), qd=q.get('d'), qs=q.get('s');
+  if(qd && /^\d{4}-\d\d-\d\d$/.test(qd) && !load.done){ load.done=1; await showDay(qd, qs); }
+  else if(q.has('jobs') && !load.done){ load.done=1; JUMP=qs; setView('jobs'); }
+  else if(q.has('wishes') && !load.done && wishTab()){ load.done=1; JUMP=qs; section='wishes'; setView('home'); }
+  else if(qs && !load.done){ load.done=1; JUMP=qs; renderFeed();
+    // opened from Chrome on iPhone to send the picture: Safari can share pictures, so show the one-tap share screen
+    if(q.has('sharecard') && LIST[cur]){ const b=await timeout(prepCard(),8000); if(b) showCardImage(b, shareText(LIST[cur]), ''); } }
+  else if(q.has('dates') && !load.done){ load.done=1; openDates(); }
+  else if(firstRun) openSheet();
+}
+load();
+document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible' && $('sheet').hidden && view==='home') load(); });
+/* ---------- live check: every 60 s while the app is open ---------- */
+(function(){
+  const pill=document.createElement('button');
+  pill.id='newPill'; pill.type='button'; pill.hidden=true;
+  pill.textContent='🔴 కొత్త వార్తలు వచ్చాయి – చూడండి ↑';
+  pill.style.cssText='position:fixed;top:72px;left:50%;transform:translateX(-50%);z-index:60;border:0;border-radius:999px;padding:9px 16px;background:#4A0E3F;color:#fff;font:700 14px/1.2 inherit;box-shadow:0 4px 14px rgba(0,0,0,.25);cursor:pointer';
+  document.body.appendChild(pill);
+  pill.onclick=async()=>{ pill.hidden=true; if(view!=='home') setView('home'); await load(); go(0,'right'); };
+  async function check(){
+    if(document.visibilityState!=='visible' || !NEWS || !NEWS.updated) return;
+    try{
+      const r=await fetch(CONFIG.NEWS_URL+'?t='+Date.now(),{cache:'no-store'}); if(!r.ok) return;
+      const j=await r.json();
+      if(j.updated && j.updated!==NEWS.updated){
+        if(view==='home' && cur===0 && $('sheet').hidden){ await load(); toast('కొత్త వార్తలు జోడించాం'); }
+        else pill.hidden=false;
+      }
+    }catch(e){}
+  }
+  setInterval(check,60000);
+})();
+/* ---------- add to home screen ---------- */
+const standalone = matchMedia('(display-mode: standalone)').matches || navigator.standalone === true || document.referrer.startsWith('android-app://');
+const ua = navigator.userAgent;
+const isIOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform==='MacIntel' && navigator.maxTouchPoints>1);
+const inApp = /FBAN|FBAV|Instagram|Line\/|WhatsApp|wv\)/.test(ua);
+let deferredPrompt = null;
+addEventListener('beforeinstallprompt', e => { e.preventDefault(); deferredPrompt = e; showInstall(); });
+addEventListener('appinstalled', () => { $('installBar').hidden = true; store.set('installed', 1); toast('Swipe2News హోమ్ స్క్రీన్‌కు జోడించబడింది ✓'); });
+function showInstall(){
+  if(standalone || store.get('installed',0)) return;
+  if(Date.now() - store.get('installNo', 0) < 2*864e5) return;  // reader closed it: ask again after 2 days
+  $('installBar').hidden = false;
+}
+function howTo(title, steps){ $('howTitle').textContent = title; $('howSteps').innerHTML = steps.map(t=>`<li>${t}</li>`).join(''); $('howTo').hidden = false; }
+$('installGo').onclick = async () => {
+  if(deferredPrompt){ deferredPrompt.prompt(); const r = await deferredPrompt.userChoice.catch(()=>null); deferredPrompt = null; if(r && r.outcome==='accepted') $('installBar').hidden = true; return; }
+  if(isIOS) return howTo('iPhoneలో హోమ్ స్క్రీన్‌కు జోడించడం', ['Safariలో ఈ పేజీ తెరిచి ఉంచండి','కింద ఉన్న <b>Share ⬆️</b> బటన్ నొక్కండి','<b>"Add to Home Screen"</b> ఎంచుకుని <b>Add</b> నొక్కండి']);
+  if(inApp) return howTo('Chromeలో తెరవండి', ['పైన కుడివైపు <b>⋮</b> (మూడు చుక్కలు) నొక్కండి','<b>"Open in Chrome"</b> / "బ్రౌజర్‌లో తెరవండి" ఎంచుకోండి','Chromeలో వచ్చే <b>"జోడించండి"</b> బటన్ నొక్కండి']);
+  howTo('హోమ్ స్క్రీన్‌కు జోడించడం', ['Chromeలో పైన కుడివైపు <b>⋮</b> (మూడు చుక్కలు) నొక్కండి','<b>"Install app"</b> లేదా <b>"Add to Home screen"</b> ఎంచుకోండి','<b>Install</b> / <b>Add</b> నొక్కండి']);
+};
+$('installNo').onclick = () => { $('installBar').hidden = true; store.set('installNo', Date.now()); };
+$('howOk').onclick = () => { $('howTo').hidden = true; };
+// shared install link (swipe2news.com/?install=1): show the add-to-home-screen bar and steps right away
+if(new URLSearchParams(location.search).get('install')==='1' && !standalone){
+  setTimeout(()=>{ $('installBar').hidden=false; if(!deferredPrompt && (isIOS||inApp)) $('installGo').click(); }, 1200);
+  try{ if(window.gtag) gtag('event','install_link_open',{}); }catch(e){}
+}
+// iPhone and in-app browsers never fire the install event, so offer the steps there after a few seconds
+setTimeout(() => { if(!deferredPrompt && (isIOS || inApp)) showInstall(); }, 3000);
+
+/* ---------- news alerts (OneSignal web push) ---------- */
+const ONESIGNAL_APP_ID = ''; // TODO: new OneSignal app for swipe2news.com
+const pushOK = !!ONESIGNAL_APP_ID && ['way2sec.github.io','swipe2news.com','www.swipe2news.com'].includes(location.hostname) && 'serviceWorker' in navigator && 'Notification' in window;
+window.OneSignalDeferred = window.OneSignalDeferred || [];
+function bellState(on){ $('bellBtn').setAttribute('aria-pressed', !!on); }
+function tagUser(OneSignal){ try{ OneSignal.User.addTags({place:prefs.place, topics:prefs.topics.join(',')}); }catch(e){} }
+if(pushOK){
+  OneSignalDeferred.push(async function(OneSignal){
+    await OneSignal.init({ appId: ONESIGNAL_APP_ID, serviceWorkerPath: 'OneSignalSDKWorker.js', serviceWorkerParam: { scope: '/' } });
+    bellState(OneSignal.Notifications.permission);
+    OneSignal.Notifications.addEventListener('permissionChange', p => { bellState(p); if(p) tagUser(OneSignal); });
+    if(OneSignal.Notifications.permission) tagUser(OneSignal);
+  });
+} else if('serviceWorker' in navigator && location.protocol==='https:' && !/claude\.ai|claudeusercontent/.test(location.host)){
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+async function askAlerts(){
+  $('alertCard').hidden = true; store.set('alertAsked', Date.now());
+  if(!pushOK){ toast('అలర్ట్‌లు swipe2news.com యాప్‌లో మాత్రమే పనిచేస్తాయి'); return; }
+  if('Notification' in window && Notification.permission==='denied'){ toast('ఫోన్ సెట్టింగ్స్‌లో Swipe2News నోటిఫికేషన్లు ఆన్ చేయండి'); return; }
+  OneSignalDeferred.push(async function(OneSignal){
+    try{ await OneSignal.Notifications.requestPermission(); }catch(e){}
+    if(OneSignal.Notifications.permission){ toast('అలర్ట్‌లు ఆన్ అయ్యాయి 🔔'); tagUser(OneSignal); }
+  });
+}
+$('bellBtn').onclick=()=>{
+  if($('bellBtn').getAttribute('aria-pressed')==='true'){ toast('అలర్ట్‌లు ఆన్‌లో ఉన్నాయి 🔔 ఆపాలంటే ఫోన్ సెట్టింగ్స్‌లో మార్చండి'); return; }
+  askAlerts();
+};
+$('alertYes').onclick=askAlerts;
+$('alertLater').onclick=()=>{ $('alertCard').hidden=true; store.set('alertAsked', Date.now()); };
+/* show the alert invitation once, after the reader has looked at a few stories (again after 7 days if they said later) */
+/* (10 Nov 2026) ask when the reader is interested: after the 3rd swipe, or after 60 s; names their district */
+function alertInvite(){
+  if(alertInvite.done) return;
+  const last = store.get('alertAsked', 0);
+  const granted = 'Notification' in window && Notification.permission !== 'default';
+  if(!(pushOK && !granted && Date.now()-last > 7*864e5 && $('sheet').hidden && $('installBar').hidden)) return;
+  alertInvite.done = 1;
+  const pl = (prefs && prefs.place && !['TS','AP','IN'].includes(prefs.place) && typeof placeName==='function') ? placeName(prefs.place) : '';
+  const p = $('alertCard').querySelector('p');
+  if(p && pl) p.textContent = `బ్రేకింగ్ న్యూస్, ${pl} జిల్లా ముఖ్య వార్తల అలర్ట్‌లు మీ ఫోన్‌కి పంపమంటారా? ఉచితం – ఎప్పుడైనా ఆపేయవచ్చు.`;
+  $('alertCard').hidden = false;
+}
+setTimeout(alertInvite, 60000);
+</script>
+<script>try{document.querySelectorAll('img.wgreet').forEach(function(i){if(Date.now()<new Date(i.dataset.until).getTime())i.hidden=false})}catch(e){}</script>
+<script>
+/* keep the app exactly inside the visible screen (between the status bar and the home bar) and stop iPhone page bounce */
+(function(){
+  function fitH(){ try{ var h=(window.visualViewport&&visualViewport.height)||innerHeight; document.documentElement.style.setProperty('--appH',Math.round(h)+'px'); window.scrollTo(0,0); }catch(e){} }
+  fitH(); addEventListener('resize',fitH); addEventListener('orientationchange',function(){setTimeout(fitH,300)});
+  if(window.visualViewport) visualViewport.addEventListener('resize',fitH);
+  document.addEventListener('touchmove',function(e){
+    var el=e.target;
+    while(el && el!==document.body){ var cs=getComputedStyle(el); if(/(auto|scroll)/.test(cs.overflowY) && el.scrollHeight>el.clientHeight+1) return; el=el.parentElement; }
+    e.preventDefault();
+  },{passive:false});
+})();
+</script>
+</body>
+</html>

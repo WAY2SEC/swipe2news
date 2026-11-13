@@ -1,0 +1,50 @@
+{
+  "id": "/",
+  "name": "Swipe2News – Know More. Scroll Less.",
+  "short_name": "Swipe2News",
+  "description": "Know More. Scroll Less. – తక్కువ స్క్రోల్, ఎక్కువ సమాచారం. Swipe short Telugu news by district and topic with key points, sources and alerts.",
+  "lang": "te",
+  "start_url": "/?source=app",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#2E0827",
+  "theme_color": "#4A0E3F",
+  "categories": [
+    "news"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/news.png",
+      "sizes": "780x1688",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Telugu news cards"
+    },
+    {
+      "src": "screenshots/jobs.png",
+      "sizes": "780x1688",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Jobs in Telugu"
+    }
+  ]
+}

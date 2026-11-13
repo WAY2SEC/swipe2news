@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="te">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Swipe2News ఎడిటర్ | వార్తల ఆమోదం</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#2E0827"><link rel="icon" href="/favicon-48.png"><link rel="manifest" href="/editor/manifest.webmanifest"><link rel="apple-touch-icon" href="/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@500;700;800&display=swap">
+<style>
+:root{--navy:#2E0827;--brand:#4A0E3F;--gold:#F5A23A;--paper:#F4F1EA;--ink:#16120E;--muted:#6B5F52;--line:#E2D8C8;--ok:#1F6B3A;--te:'Noto Sans Telugu','Nirmala UI',sans-serif}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--te)}
+.top{position:sticky;top:0;z-index:5;background:var(--navy);color:#fff;padding:calc(10px + env(safe-area-inset-top,0px)) max(14px,env(safe-area-inset-right,0px)) 10px max(14px,env(safe-area-inset-left,0px));display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.top img{height:28px} .top b{font-size:16px;color:var(--gold);margin-right:auto}
+.tabs{display:flex;gap:6px;overflow-x:auto;max-width:100%;scrollbar-width:none} .tabs button{white-space:nowrap;flex:none;border:1px solid rgba(255,255,255,.25);background:transparent;color:#fff;border-radius:999px;padding:6px 12px;font:800 13px var(--te);cursor:pointer}
+.tabs button[aria-pressed="true"]{background:var(--gold);color:var(--navy);border-color:var(--gold)}
+.tabs .n{display:inline-block;min-width:20px;border-radius:999px;background:var(--brand);color:#fff;font-size:11px;margin-left:4px;padding:0 5px}
+main{max-width:760px;margin:0 auto;padding:14px max(14px,env(safe-area-inset-right,0px)) 40px max(14px,env(safe-area-inset-left,0px));display:grid;gap:14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.ph{width:100%;max-height:360px;object-fit:contain;background:#EDE7DC;display:block}
+.bd{padding:14px;display:grid;gap:8px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 12px;font:700 12.5px var(--te);color:var(--muted)}
+.meta a{color:#0B5CAD}
+.chip{display:inline-block;border-radius:999px;padding:2px 10px;font:800 11.5px var(--te);color:#fff;background:#8A7E70}
+.chip.risk{background:#6A1B9A} .src2{font:700 13px var(--te);color:#0B5CAD} ul.pts{margin:0;padding-left:20px;font:500 14.5px/1.7 var(--te)}
+.chip.pending{background:#B7791F} .chip.approved{background:#0B5CAD} .chip.published{background:var(--ok)} .chip.rejected{background:var(--brand)}
+h3{margin:0;font:800 17px/1.5 var(--te)} .tx{margin:0;font:500 15px/1.75 var(--te);white-space:pre-wrap}
+.acts{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:0 14px 14px}
+.acts button{height:50px;border:0;border-radius:14px;font:800 16px var(--te);cursor:pointer;color:#fff}
+.yes{background:var(--ok)} .no{background:var(--brand)}
+.note{margin:0 14px 10px;width:calc(100% - 28px);font:600 14px var(--te);border:1.5px solid var(--line);border-radius:10px;padding:9px 10px}
+.login{background:#fff;border-radius:16px;padding:18px;display:grid;gap:12px;border:1px solid var(--line)}
+.login input{font:600 16px var(--te);border:1.5px solid var(--line);border-radius:12px;padding:11px}
+.login button{height:48px;border:0;border-radius:12px;background:var(--navy);color:#fff;font:800 15px var(--te);cursor:pointer}
+.empty{text-align:center;color:var(--muted);font-weight:700;padding:40px 10px}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--navy);color:#fff;padding:10px 16px;border-radius:999px;font:800 14px var(--te);box-shadow:0 8px 24px rgba(0,0,0,.3)}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<header class="top"><a href="/"><img src="/logo-light.png" alt="Swipe2News"></a><b>✅ ఎడిటర్</b>
+  <div class="tabs" id="tabs"><button type="button" data-f="pending" aria-pressed="true">పెండింగ్<span class="n" id="nP">0</span></button><button type="button" data-f="approved" aria-pressed="false">ఆమోదించినవి</button><button type="button" data-f="all" aria-pressed="false">అన్నీ</button><button type="button" data-f="web" aria-pressed="false">🔎 వెబ్ వార్తలు<span class="n" id="nW">0</span></button><button type="button" id="refresh" aria-label="రిఫ్రెష్">↻</button></div>
+</header>
+<main id="main">
+  <div class="login" id="login" hidden>
+    <b>ఎడిటర్ కీ</b>
+    <input id="key" type="password" autocomplete="off" placeholder="ఎడిటర్ కీ టైప్ చేయండి">
+    <button type="button" id="keyGo">లాగిన్</button>
+    <small style="color:var(--muted)">కీ ఈ ఫోన్‌లోనే సేవ్ అవుతుంది. ఎవరితోనూ పంచుకోకండి.</small>
+  </div>
+  <div id="list"></div>
+</main>
+<div class="toast" id="toast" hidden></div>
+<script src="/scenes.js"></script>
+<script src="/reporter/config.js"></script>
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const st={get(){try{return localStorage.getItem('w2s.editorKey')||''}catch(e){return ''}},set(v){try{localStorage.setItem('w2s.editorKey',v)}catch(e){}}};
+let ITEMS=[], WEB=[], F='pending';
+const ST={pending:'పరిశీలనలో',approved:'ఆమోదించారు – త్వరలో ప్రచురణ',published:'ప్రచురించారు',rejected:'తిరస్కరించారు'};
+function toast(m){ const t=$('toast'); t.textContent=m; t.hidden=false; clearTimeout(toast.t); toast.t=setTimeout(()=>t.hidden=true,2400); }
+async function call(body){ const r=await fetch(window.W2S_NEWSROOM,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(Object.assign({key:st.get()},body))}); return r.json(); }
+const placeTx=k=>(typeof placeLabel==='function'&&placeLabel(k))||k;
+function renderWeb(){
+  const l=WEB.filter(i=>i.status==='pending').concat(WEB.filter(i=>i.status!=='pending'));
+  $('list').innerHTML=l.length?l.map(i=>{ const s=i.story||{}; return `<article class="card" data-id="${esc(i.id)}" data-web="1">
+    <div class="bd">
+      <div class="meta"><span class="chip ${esc(i.status)}">${esc(ST[i.status]||i.status)}</span><span class="chip risk">⚠️ ${esc(i.risk)}</span><span>🕒 ${esc(i.time)}</span>${i.link?`<a href="${esc(i.link)}" target="_blank" rel="noopener">🔗 వార్త</a>`:''}</div>
+      <div class="meta"><span>${esc(s.cat||'')}</span>${s.pub?`<span>మూలం ప్రచురణ: ${esc(String(s.pub).replace('T',' ').slice(0,16))}</span>`:''}</div>
+      <h3>${esc(s.h||i.headline)}</h3>
+      <p class="tx">${esc(s.p||'')}</p>
+      ${Array.isArray(s.pts)&&s.pts.length?`<ul class="pts">${s.pts.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}
+      <a class="src2" href="${esc(i.url)}" target="_blank" rel="noopener nofollow">📰 ${esc(i.source||s.src||'మూలం')} – అసలు వార్త చదవండి →</a>
+      ${i.note?`<small style="color:var(--muted)">📝 ${esc(i.note)}</small>`:''}
+    </div>
+    ${i.status==='pending'?`<input class="note" placeholder="ఎడిటర్ నోట్ (ఐచ్ఛికం) – ఉదా: 'ఆరోపణ' అని స్పష్టంగా రాయండి">
+    <div class="acts"><button type="button" class="yes" data-d="approve">✅ ప్రచురించు</button><button type="button" class="no" data-d="reject">❌ వద్దు</button></div>`:''}
+  </article>`; }).join(''):`<div class="empty">ఆపిన వెబ్ వార్తలు లేవు 👍</div>`;
+}
+function render(){
+  $('nP').textContent=ITEMS.filter(i=>i.status==='pending').length;
+  $('nW').textContent=WEB.filter(i=>i.status==='pending').length;
+  if(F==='web') return renderWeb();
+  const l=ITEMS.filter(i=>F==='all'||i.status===F);
+  $('list').innerHTML=l.length?l.map(i=>`<article class="card" data-id="${esc(i.id)}">
+    ${i.photo?`<img class="ph" data-photo="${esc(i.id)}" alt="ఫోటో లోడ్ అవుతోంది…">`:''}
+    <div class="bd">
+      <div class="meta"><span class="chip ${esc(i.status)}">${esc(ST[i.status]||i.status)}</span><span>👤 ${esc(i.reporter)}</span><span>📍 ${esc(i.place)}, ${esc(placeTx(i.district))}</span><span>🕒 ${esc(i.time)}</span>
+        ${i.lat?`<a href="https://maps.google.com/?q=${esc(i.lat)},${esc(i.lng)}" target="_blank" rel="noopener">🗺️ మ్యాప్</a>`:''}${i.link?`<a href="${esc(i.link)}" target="_blank" rel="noopener">🔗 వార్త</a>`:''}</div>
+      ${i.headline?`<h3>${esc(i.headline)}</h3>`:''}
+      <p class="tx">${esc(i.text)}</p>
+      ${i.note?`<small style="color:var(--muted)">📝 ${esc(i.note)}</small>`:''}
+    </div>
+    ${i.status==='pending'?`<input class="note" placeholder="ఎడిటర్ నోట్ (ఐచ్ఛికం) – ఉదా: పేరు తీసేయండి">
+    <div class="acts"><button type="button" class="yes" data-d="approve">✅ ఆమోదించు</button><button type="button" class="no" data-d="reject">❌ తిరస్కరించు</button></div>`:''}
+  </article>`).join(''):`<div class="empty">${F==='pending'?'కొత్త వార్తలు లేవు 👍':'ఏమీ లేవు'}</div>`;
+  document.querySelectorAll('img[data-photo]').forEach(async im=>{ try{ const j=await call({action:'photo',id:im.dataset.photo}); if(j.ok) im.src=j.data; }catch(e){} });
+}
+async function load(){ if(!window.W2S_NEWSROOM){ $('list').innerHTML='<div class="empty">న్యూస్‌రూమ్ ఇంకా కనెక్ట్ కాలేదు.</div>'; return; }
+  if(!st.get()){ $('login').hidden=false; return; } $('login').hidden=true;
+  $('list').innerHTML='<div class="empty">లోడ్ అవుతోంది…</div>';
+  try{ const j=await call({action:'list'}); if(!j.ok){ st.set(''); $('login').hidden=false; $('list').innerHTML='<div class="empty">కీ సరిగ్గా లేదు</div>'; return; } ITEMS=j.items||[]; try{ const w=await call({action:'reviewlist'}); WEB=(w&&w.ok&&w.items)||[]; }catch(e){ WEB=[]; } render(); }
+  catch(e){ $('list').innerHTML='<div class="empty">ఇంటర్నెట్ సమస్య – ↻ నొక్కండి</div>'; } }
+$('keyGo').onclick=()=>{ const k=$('key').value.trim(); if(k.length<6) return; st.set(k); load(); };
+$('tabs').onclick=e=>{ const b=e.target.closest('button'); if(!b) return; if(b.id==='refresh') return load(); F=b.dataset.f; $('tabs').querySelectorAll('button[data-f]').forEach(x=>x.setAttribute('aria-pressed',String(x===b))); render(); };
+$('list').addEventListener('click',async e=>{ const b=e.target.closest('button[data-d]'); if(!b) return; const card=b.closest('.card'), id=card.dataset.id, note=card.querySelector('.note').value.trim();
+  card.querySelectorAll('button').forEach(x=>x.disabled=true);
+  const web=!!card.dataset.web;
+  try{ const j=await call({action:web?'reviewdecide':'decide',id,decision:b.dataset.d,note}); if(j.ok){ const it=(web?WEB:ITEMS).find(x=>x.id===id); it.status=j.status; it.note=note; render();
+      toast(j.status==='approved'?'✅ ఆమోదించారు – 1 గంటలోపు యాప్, వెబ్‌సైట్‌లో వస్తుంది':'❌ తిరస్కరించారు'); } else toast('కుదరలేదు, మళ్లీ ప్రయత్నించండి'); }
+  catch(x){ toast('ఇంటర్నెట్ సమస్య'); card.querySelectorAll('button').forEach(x=>x.disabled=false); } });
+load();
+</script>
+</body>
+</html>
