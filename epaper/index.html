@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="te">
+<head>
+<meta charset="utf-8">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2179H3TXWP"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-2179H3TXWP');</script>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>జనధ్వని ఈ-పేపర్ | ప్రజల గొంతుక… ప్రతి ఊరి పలుకు</title>
+<link rel="canonical" href="https://swipe2news.com/epaper/">
+<meta name="description" content="జనధ్వని ఈ-పేపర్ (A SWIPE2NEWS Publication) – రోజువారీ తెలుగు వార్తాపత్రిక. పేజీలు తిప్పండి, వార్తను క్లిప్ చేసి WhatsAppలో షేర్ చేయండి, PDF డౌన్‌లోడ్ చేయండి.">
+<meta property="og:title" content="జనధ్వని ఈ-పేపర్ · A SWIPE2NEWS Publication"><meta property="og:image" content="https://swipe2news.com/og-image.jpg">
+<meta name="theme-color" content="#2E0827"><link rel="icon" href="/favicon-48.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@500;700;800&display=swap">
+<style>
+:root{--navy:#2E0827;--navy2:#0C1C36;--brand:#4A0E3F;--gold:#F5A23A;--desk:#2A2F38;--line:rgba(255,255,255,.14);--te:'Noto Sans Telugu','Nirmala UI',sans-serif}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--desk);color:#fff;font-family:var(--te)}
+button,select,a{font:inherit}
+.top{position:sticky;top:0;z-index:20;background:var(--navy);box-shadow:0 6px 18px rgba(0,0,0,.35);padding-top:env(safe-area-inset-top,0px)}
+.bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:10px max(14px,env(safe-area-inset-right,0px)) 10px max(14px,env(safe-area-inset-left,0px))}
+.logo img{height:30px;display:block}
+.ttl{display:flex;flex-direction:column;line-height:1.2;margin-right:auto;border-left:1px solid var(--line);padding-left:10px}
+.ttl b{font-size:17px;color:var(--gold)} .ttl small{font-size:11.5px;color:#E3D3DE;font-weight:700}
+.ctl{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.ctl select,.ctl button,.ctl a{height:38px;border-radius:10px;border:1px solid var(--line);background:rgba(255,255,255,.07);color:#fff;padding:0 12px;font-weight:800;font-size:13.5px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.ctl select option{color:#16120E}
+.ctl button[aria-pressed="true"]{background:var(--gold);color:var(--navy);border-color:var(--gold)}
+.ctl .pdf{background:var(--brand);border-color:var(--brand)}
+.wrap{display:grid;grid-template-columns:150px 1fr;height:calc(100% - 58px)}
+.thumbs{overflow:auto;padding:14px 12px;border-right:1px solid rgba(255,255,255,.08);background:#232831;display:grid;gap:12px;align-content:start}
+.thumbs button{border:0;background:none;padding:0;cursor:pointer;color:#E3D3DE;font-weight:700;font-size:11.5px;text-align:center;display:grid;gap:5px}
+.thumbs img{width:100%;border-radius:4px;border:2px solid transparent;box-shadow:0 4px 12px rgba(0,0,0,.4);background:#fff}
+.thumbs button[aria-current="true"] img{border-color:var(--gold)} .thumbs button[aria-current="true"]{color:var(--gold)}
+.view{overflow:auto;position:relative;padding:18px 18px 90px;text-align:center}
+.sheet{position:relative;display:inline-block;width:min(100%,var(--w,860px));box-shadow:0 18px 50px rgba(0,0,0,.55);background:#fff;border-radius:2px;margin:0 auto;transition:width .2s}
+.sheet img{display:block;width:100%;height:auto;user-select:none;-webkit-user-select:none;-webkit-user-drag:none;pointer-events:none}
+.hot{position:absolute;border-radius:4px;cursor:pointer;outline:2px dashed transparent;transition:background .15s,outline-color .15s}
+.clip .hot{outline-color:rgba(200,16,46,.45);background:rgba(255,213,74,.06)}
+.clip .hot:hover,.clip .hot:focus-visible{background:rgba(255,213,74,.28);outline:2.5px solid var(--brand)}
+.nav{position:fixed;bottom:calc(16px + env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%);display:flex;gap:8px;align-items:center;background:rgba(12,28,54,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:999px;padding:6px;z-index:15;box-shadow:0 10px 30px rgba(0,0,0,.45)}
+.nav button{width:42px;height:42px;border-radius:50%;border:0;background:rgba(255,255,255,.1);color:#fff;font-size:18px;font-weight:800;cursor:pointer}
+.nav button:disabled{opacity:.35;cursor:default}
+.nav span{min-width:150px;font-weight:800;font-size:13px;padding:0 6px;white-space:nowrap}
+.tip{position:fixed;top:72px;left:50%;transform:translateX(-50%);background:var(--gold);color:var(--navy);font-weight:800;font-size:13px;padding:8px 14px;border-radius:999px;z-index:30;box-shadow:0 8px 22px rgba(0,0,0,.35)}
+.modal{position:fixed;inset:0;background:rgba(6,10,18,.8);z-index:40;display:flex;align-items:center;justify-content:center;padding:16px}
+.mbox{background:#fff;color:#16120E;border-radius:16px;max-width:560px;width:100%;max-height:92vh;display:flex;flex-direction:column;overflow:hidden}
+.mbox .mh{display:flex;align-items:center;gap:10px;padding:12px 14px;border-bottom:1px solid #E6DCCB}
+.mbox .mh b{font-size:14px;flex:1} .mbox .x{border:0;background:#F2EEE6;border-radius:50%;width:34px;height:34px;font-size:16px;cursor:pointer}
+.mbox .mi{overflow:auto;padding:12px;background:#F2EEE6;text-align:center} .mbox canvas{max-width:100%;height:auto;box-shadow:0 6px 18px rgba(0,0,0,.2)}
+.mbox .ma{display:flex;gap:8px;padding:12px 14px;flex-wrap:wrap}
+.mbox .ma button{flex:1;min-width:140px;height:44px;border-radius:12px;border:0;font-weight:800;font-size:14px;cursor:pointer;background:#2E0827;color:#fff}
+.mbox .ma .wa{background:#1DA851}
+[hidden]{display:none!important}
+.empty{padding:60px 20px;color:#E3D3DE;font-weight:700}
+@media (max-width:760px){
+  .wrap{grid-template-columns:1fr;grid-template-rows:auto 1fr;height:auto}
+  .thumbs{display:flex;overflow-x:auto;border-right:0;border-bottom:1px solid rgba(255,255,255,.08);padding:10px}
+  .thumbs button{flex:none;width:74px;font-size:10px;line-height:1.35}
+  .ctl select,.ctl button,.ctl a{height:34px;font-size:12.5px;padding:0 10px}
+  .view{padding:10px 8px 90px}
+  .ttl small{display:none}
+}
+@media print{body{display:none}}
+</style>
+</head>
+<body oncontextmenu="return false">
+<header class="top"><div class="bar">
+  <a class="logo" href="/" aria-label="హోమ్"><img src="/epaper/mark-light.png" alt="జనధ్వని"></a>
+  <div class="ttl"><b>📰 జనధ్వని ఈ-పేపర్</b><small>ప్రజల గొంతుక… ప్రతి ఊరి పలుకు · A SWIPE2NEWS Publication</small></div>
+  <div class="ctl">
+    <label><span class="sr" style="position:absolute;left:-9999px">తేదీ</span><select id="day" aria-label="తేదీ ఎంచుకోండి"></select></label>
+    <button type="button" id="clip" aria-pressed="false" title="వార్తను క్లిప్ చేసి షేర్ చేయండి">✂️ క్లిప్</button>
+    <button type="button" id="zout" aria-label="చిన్నగా">−</button><button type="button" id="zin" aria-label="పెద్దగా">+</button>
+    <a class="pdf" id="pdf" href="#" download>📥 PDF</a>
+  </div>
+</div></header>
+<div class="wrap">
+  <aside class="thumbs" id="thumbs" aria-label="పేజీలు"></aside>
+  <main class="view" id="view"><div class="sheet" id="sheet"><img id="pimg" alt="" draggable="false"></div><div class="empty" id="empty" hidden>ఈ-పేపర్ ఇంకా సిద్ధం కాలేదు. ప్రతి రోజూ ఉదయం 5:30కి కొత్త సంచిక వస్తుంది.</div></main>
+</div>
+<div class="nav"><button type="button" id="prev" aria-label="ముందు పేజీ">‹</button><span id="pno"></span><button type="button" id="next" aria-label="తర్వాతి పేజీ">›</button></div>
+<div class="tip" id="tip" hidden>✂️ కావలసిన వార్తపై నొక్కండి</div>
+<div class="modal" id="modal" hidden><div class="mbox" role="dialog" aria-modal="true" aria-labelledby="mt">
+  <div class="mh"><b id="mt"></b><button class="x" id="mclose" type="button" aria-label="మూసివేయండి">✕</button></div>
+  <div class="mi"><canvas id="cv"></canvas></div>
+  <div class="ma"><button type="button" class="wa" id="mshare">WhatsApp లో షేర్</button><button type="button" id="msave">📥 చిత్రం సేవ్</button></div>
+</div></div>
+<script>
+const $=id=>document.getElementById(id);
+const TW=['ఆదివారం','సోమవారం','మంగళవారం','బుధవారం','గురువారం','శుక్రవారం','శనివారం'],TM=['జనవరి','ఫిబ్రవరి','మార్చి','ఏప్రిల్','మే','జూన్','జులై','ఆగస్టు','సెప్టెంబర్','అక్టోబర్','నవంబర్','డిసెంబర్'];
+const dayTe=iso=>{const [y,m,d]=iso.split('-').map(Number);return `${d} ${TM[m-1]} ${y}, ${TW[new Date(Date.UTC(y,m-1,d)).getUTCDay()]}`;};
+const Q=new URLSearchParams(location.search);
+let IDX=[], ISS=null, P=0, W=860, CLIP=false;
+async function getJSON(u){ try{ const r=await fetch(u+'?t='+Date.now(),{cache:'no-store'}); return r.ok?await r.json():null; }catch(e){ return null; } }
+function setURL(){ history.replaceState(null,'',`?d=${ISS.iso}&p=${P+1}`); }
+async function openIssue(iso,p){
+  ISS=await getJSON(`/epaper/${iso}/pages.json`); if(!ISS){ $('empty').hidden=false; $('sheet').hidden=true; return; }
+  $('empty').hidden=true; $('sheet').hidden=false; $('pdf').href=`/epaper/${ISS.pdf}`; $('pdf').setAttribute('download',`Janadhwani-ePaper-${iso}.pdf`);
+  $('thumbs').innerHTML=ISS.pages.map((pg,i)=>`<button type="button" data-i="${i}"><img src="/epaper/${pg.img}" alt="" loading="lazy" draggable="false">పేజీ ${i+1} · ${pg.title.replace(/\s*\(.*\)/,'').split('·')[0].trim()}</button>`).join('');
+  show(Math.min(Math.max(0,(p||1)-1),ISS.pages.length-1));
+}
+function show(i){ P=i; const pg=ISS.pages[i]; const img=$('pimg'); img.src=`/epaper/${pg.img}`;
+  $('sheet').querySelectorAll('.hot').forEach(h=>h.remove());
+  pg.clips.forEach((c,k)=>{ const h=document.createElement('div'); h.className='hot'; h.tabIndex=CLIP?0:-1; h.title=c.t; h.dataset.k=k;
+    h.style.cssText=`left:${c.x*100}%;top:${c.y*100}%;width:${c.w*100}%;height:${c.h*100}%`; $('sheet').appendChild(h); });
+  $('thumbs').querySelectorAll('button').forEach(b=>b.setAttribute('aria-current',String(+b.dataset.i===i)));
+  const tb=$('thumbs').querySelector(`button[data-i="${i}"]`); if(tb) tb.scrollIntoView({block:'nearest',inline:'nearest'});
+  $('pno').textContent=`పేజీ ${i+1} / ${ISS.pages.length} · ${pg.title.split('·')[0].trim()}`;
+  $('prev').disabled=i===0; $('next').disabled=i===ISS.pages.length-1; $('view').scrollTo({top:0}); setURL(); }
+$('thumbs').onclick=e=>{ const b=e.target.closest('button[data-i]'); if(b) show(+b.dataset.i); };
+$('prev').onclick=()=>P>0&&show(P-1); $('next').onclick=()=>ISS&&P<ISS.pages.length-1&&show(P+1);
+addEventListener('keydown',e=>{ if(!$('modal').hidden){ if(e.key==='Escape') $('modal').hidden=true; return; } if(e.key==='ArrowRight') $('next').click(); if(e.key==='ArrowLeft') $('prev').click(); });
+const zoom=d=>{ W=Math.max(420,Math.min(2200,W+d)); $('sheet').style.setProperty('--w',W+'px'); };
+$('zin').onclick=()=>zoom(180); $('zout').onclick=()=>zoom(-180);
+$('clip').onclick=()=>{ CLIP=!CLIP; $('clip').setAttribute('aria-pressed',String(CLIP)); $('sheet').classList.toggle('clip',CLIP); $('tip').hidden=!CLIP;
+  $('sheet').querySelectorAll('.hot').forEach(h=>h.tabIndex=CLIP?0:-1); if(CLIP) setTimeout(()=>{$('tip').hidden=true;},3500); };
+$('day').onchange=e=>openIssue(e.target.value,1);
+/* ✂️ clip: crop the story from the page picture and add the జనధ్వని band */
+let BLOB=null, CT='';
+function clipStory(c){ const img=$('pimg'), sw=img.naturalWidth, sh=img.naturalHeight, pad=10;
+  // a story that runs across columns is joined into one picture, top to bottom
+  const parts=ISS.pages[P].clips.filter(q=>q.t===c.t).map(q=>{ const x=Math.max(0,q.x*sw-pad), y=Math.max(0,q.y*sh-pad); return {x,y,w:Math.min(sw-x,q.w*sw+pad*2),h:Math.min(sh-y,q.h*sh+pad*2)}; });
+  const w=Math.max(...parts.map(q=>q.w)), h=parts.reduce((a,q)=>a+q.h,0);
+  const band=Math.round(Math.max(70,w*0.09)), cv=$('cv'); cv.width=w; cv.height=h+band; const g=cv.getContext('2d');
+  g.fillStyle='#fff'; g.fillRect(0,0,w,h+band); let yy=0; parts.forEach(q=>{ g.drawImage(img,q.x,q.y,q.w,q.h,0,yy,q.w,q.h); yy+=q.h; });
+  g.fillStyle='#2E0827'; g.fillRect(0,h,w,band); g.fillStyle='#F5A23A'; g.font=`800 ${Math.round(band*.34)}px 'Noto Sans Telugu',sans-serif`; g.textBaseline='middle';
+  g.fillText('జనధ్వని',Math.round(band*.35),h+band/2); g.fillStyle='#E3D3DE'; g.textAlign='right'; g.font=`700 ${Math.round(band*.26)}px 'Noto Sans Telugu',sans-serif`;
+  g.fillText(`ఈ-పేపర్ · ${dayTe(ISS.iso)}`,w-Math.round(band*.35),h+band/2); g.textAlign='left';
+  CT=c.t; $('mt').textContent=c.t; $('modal').hidden=false; BLOB=null; cv.toBlob(b=>{BLOB=b;},'image/jpeg',.9); }
+$('sheet').addEventListener('click',e=>{ const h=e.target.closest('.hot'); if(!h||!CLIP) return; clipStory(ISS.pages[P].clips[+h.dataset.k]); });
+$('sheet').addEventListener('keydown',e=>{ const h=e.target.closest('.hot'); if(h&&CLIP&&(e.key==='Enter'||e.key===' ')){ e.preventDefault(); clipStory(ISS.pages[P].clips[+h.dataset.k]); } });
+$('mclose').onclick=()=>{$('modal').hidden=true}; $('modal').addEventListener('click',e=>{ if(e.target===$('modal')) $('modal').hidden=true; });
+const link=()=>`${location.origin}/epaper/?d=${ISS.iso}&p=${P+1}`;
+$('mshare').onclick=async()=>{ const text=`📰 ${CT}\nజనధ్వని ఈ-పేపర్ · ${dayTe(ISS.iso)}\n${link()}`;
+  if(BLOB && navigator.canShare){ const f=new File([BLOB],'janadhwani-clip.jpg',{type:'image/jpeg'}); if(navigator.canShare({files:[f]})){ try{ await navigator.share({files:[f],text}); return; }catch(e){ if(e&&e.name==='AbortError') return; } } }
+  location.href='https://wa.me/?text='+encodeURIComponent(text); };
+$('msave').onclick=()=>{ if(!BLOB) return; const u=URL.createObjectURL(BLOB), a=document.createElement('a'); a.href=u; a.download=`janadhwani-clip-${ISS.iso}.jpg`; document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(u),30000); };
+/* swipe pages on phones */
+let sx=null; $('view').addEventListener('touchstart',e=>{ sx=e.touches.length===1?e.touches[0].clientX:null; },{passive:true});
+$('view').addEventListener('touchend',e=>{ if(sx===null||CLIP) return; const dx=e.changedTouches[0].clientX-sx; if(Math.abs(dx)>70 && W<=860){ dx<0?$('next').click():$('prev').click(); } sx=null; });
+(async()=>{ const idx=await getJSON('/epaper/index.json'); IDX=(idx&&idx.issues)||[];
+  if(!IDX.length){ $('empty').hidden=false; $('sheet').hidden=true; return; }
+  $('day').innerHTML=IDX.map(x=>`<option value="${x.iso}">📅 ${dayTe(x.iso)}</option>`).join('');
+  const want=Q.get('d'); const iso=IDX.some(x=>x.iso===want)?want:IDX[0].iso; $('day').value=iso; openIssue(iso,+Q.get('p')||1); })();
+</script>
+</body>
+</html>

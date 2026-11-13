@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="te"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>జనధ్వని ఈ-పేపర్ – నేటి PDF</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://swipe2news.com/epaper/">
+<meta property="og:title" content="జనధ్వని ఈ-పేపర్ – నేటి సంచిక (PDF)">
+<meta property="og:description" content="ప్రజల గొంతుక… ప్రతి ఊరి పలుకు · A SWIPE2NEWS Publication">
+<meta property="og:image" content="https://swipe2news.com/og-image.jpg">
+<style>body{margin:0;font-family:'Noto Sans Telugu','Nirmala UI',sans-serif;background:#2E0827;color:#fff;display:grid;place-items:center;min-height:100vh;text-align:center}a{color:#F5A23A;font-weight:700}</style>
+</head><body>
+<p>📰 జనధ్వని ఈ-పేపర్ తెరుస్తున్నాం…<br><a id="go" href="/epaper/">ఇక్కడ నొక్కండి</a></p>
+<script>
+/* always opens the newest issue's PDF (from index.json) */
+fetch('/epaper/index.json',{cache:'no-store'}).then(r=>r.json()).then(j=>{
+  const x=(j.issues||[])[0]; if(!x) return; const u='/epaper/'+x.iso+'.pdf?v='+Date.now();
+  document.getElementById('go').href=u; location.replace(u);
+}).catch(()=>{});
+</script>
+</body></html>
