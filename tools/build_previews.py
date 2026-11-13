@@ -276,7 +276,7 @@ STATIC_PAGES = {
   <p class="alead">SWIPE2NEWS ను <b>Swipe2News టీమ్</b> నడుపుతోంది. మా కేంద్రం <b>ఆలేరు, యాదాద్రి భువనగిరి జిల్లా, తెలంగాణ</b>. ఆలేరు, యాదాద్రి ప్రాంతంలోని మా స్థానిక రిపోర్టర్లు గ్రామ వార్తలు పంపుతారు; ప్రతి స్థానిక వార్తను మా ఎడిటర్ పరిశీలించి ఆమోదించిన తర్వాతే ప్రచురిస్తాం.</p>
   <table class="jd">
   <tr><th>📍 చిరునామా · Based in</th><td>ఆలేరు, యాదాద్రి భువనగిరి జిల్లా, తెలంగాణ, భారత్ · Aler, Yadadri Bhuvanagiri district, Telangana, India</td></tr>
-  <tr><th>📧 ఈమెయిల్ · Email</th><td><a href="mailto:way2sec.news@gmail.com" style="color:var(--brand);font-weight:800">way2sec.news@gmail.com</a></td></tr>
+  <tr><th>📧 ఈమెయిల్ · Email</th><td><a href="mailto:swipe2news@gmail.com" style="color:var(--brand);font-weight:800">swipe2news@gmail.com</a></td></tr>
   <tr><th>📲 WhatsApp</th><td><a href="https://wa.me/917032656422" target="_blank" rel="noopener" style="color:var(--brand);font-weight:800">+91 70326 56422</a></td></tr>
   </table>
 
@@ -290,7 +290,7 @@ STATIC_PAGES = {
   <p class="alead">మేము వార్తలు ఎలా సిద్ధం చేస్తామో, తప్పులు ఎలా సరిచేస్తామో మా <a href="/editorial-policy.html" style="color:var(--brand);font-weight:800">సంపాదకీయ విధానం (Editorial policy)</a>లో వివరంగా చదవండి.</p>
 
   <h2>In English</h2>
-  <p><b>SWIPE2NEWS — your time matters; a platform for your village's news.</b> Information is everywhere today, yet understanding what happened, why it happened and why it matters to us still means reading page after page. SWIPE2NEWS was born from that need: to deliver the important news in simple Telugu – short, clear and fast. For us, news is not only what happens in big cities; a village problem waiting for a solution, a student's achievement or a farmer's experience is news people deserve to know. We use AI to make information easy to read, while putting accuracy and context first in every story – each one names its original source. Swipe2News is run by the Swipe2News team from Aler, Yadadri Bhuvanagiri district, Telangana (way2sec.news@gmail.com · +91 70326 56422). Local stories come from our own reporters and are approved by our editor before they are published; read how we work in our <a href="/editorial-policy.html" style="color:var(--brand);font-weight:800">Editorial policy</a>. The name SWIPE2NEWS stands for speed: not reading every story in two seconds, but understanding what matters in very little time. Our one big idea: <b>the world's news should reach your hands, and your village's news should reach the world.</b></p>
+  <p><b>SWIPE2NEWS — your time matters; a platform for your village's news.</b> Information is everywhere today, yet understanding what happened, why it happened and why it matters to us still means reading page after page. SWIPE2NEWS was born from that need: to deliver the important news in simple Telugu – short, clear and fast. For us, news is not only what happens in big cities; a village problem waiting for a solution, a student's achievement or a farmer's experience is news people deserve to know. We use AI to make information easy to read, while putting accuracy and context first in every story – each one names its original source. Swipe2News is run by the Swipe2News team from Aler, Yadadri Bhuvanagiri district, Telangana (swipe2news@gmail.com · +91 70326 56422). Local stories come from our own reporters and are approved by our editor before they are published; read how we work in our <a href="/editorial-policy.html" style="color:var(--brand);font-weight:800">Editorial policy</a>. The name SWIPE2NEWS stands for speed: not reading every story in two seconds, but understanding what matters in very little time. Our one big idea: <b>the world's news should reach your hands, and your village's news should reach the world.</b></p>
   <p class="why"><small>తప్పు కనిపించిందా? · Spotted an error?</small>ఏదైనా వార్తలో తప్పు ఉంటే <a href="/contact.html" style="color:var(--brand)">మాకు తెలియజేయండి</a> – వెంటనే సరిచేస్తాం.</p>
 </div>
 """),
@@ -298,7 +298,7 @@ STATIC_PAGES = {
 <h1>సంప్రదించండి · Contact us</h1>
 <p class="alead">వార్తల సమాచారం, తప్పుల సవరణ, ప్రకటనలు లేదా ఏ ప్రశ్నకైనా మమ్మల్ని సంప్రదించండి.</p>
 <table class="jd">
-<tr><th>📧 ఈమెయిల్ · Email</th><td><a href="mailto:way2sec.news@gmail.com" style="color:var(--brand);font-weight:800">way2sec.news@gmail.com</a></td></tr>
+<tr><th>📧 ఈమెయిల్ · Email</th><td><a href="mailto:swipe2news@gmail.com" style="color:var(--brand);font-weight:800">swipe2news@gmail.com</a></td></tr>
 <tr><th>📝 మీ ఊరి వార్త పంపండి</th><td><a href="/?tip=1&amp;cards=1" style="color:var(--brand);font-weight:800">వార్త పంపే ఫారం →</a></td></tr>
 <tr><th>📢 ప్రకటనలు · Advertising</th><td><a href="https://wa.me/917032656422?text=Swipe2News%20advertising" target="_blank" rel="noopener" style="color:var(--brand);font-weight:800">WhatsAppలో సంప్రదించండి →</a></td></tr>
 <tr><th>📲 WhatsApp ఛానెల్</th><td><a href="https://whatsapp.com/channel/0029Vb9nNd8CBtxIYFryH138" target="_blank" rel="noopener" style="color:var(--brand);font-weight:800">Swipe2News ఛానెల్‌లో చేరండి →</a></td></tr>
@@ -330,7 +330,7 @@ STATIC_PAGES = {
 <p><i>English:</i> Political news follows the same standard for every party, sticks to facts and takes no side. Unproven allegations are never presented as fact. In crime news we do not name victims, suspects or children, and avoid graphic detail.</p>
 
 <h2>5. తప్పుల సవరణ · Corrections</h2>
-<p>ఏదైనా వార్తలో తప్పు కనిపిస్తే, ఆ వార్త లింక్‌తో <a href="mailto:way2sec.news@gmail.com" style="color:var(--brand);font-weight:800">way2sec.news@gmail.com</a> కు ఈమెయిల్ చేయండి లేదా <a href="https://wa.me/917032656422" target="_blank" rel="noopener" style="color:var(--brand);font-weight:800">WhatsApp 70326 56422</a> కు పంపండి. పరిశీలించి, తప్పు అయితే <b>వెంటనే సరిచేస్తాం</b>. తీవ్రమైన తప్పు అయితే వార్తను తొలగిస్తాం.</p>
+<p>ఏదైనా వార్తలో తప్పు కనిపిస్తే, ఆ వార్త లింక్‌తో <a href="mailto:swipe2news@gmail.com" style="color:var(--brand);font-weight:800">swipe2news@gmail.com</a> కు ఈమెయిల్ చేయండి లేదా <a href="https://wa.me/917032656422" target="_blank" rel="noopener" style="color:var(--brand);font-weight:800">WhatsApp 70326 56422</a> కు పంపండి. పరిశీలించి, తప్పు అయితే <b>వెంటనే సరిచేస్తాం</b>. తీవ్రమైన తప్పు అయితే వార్తను తొలగిస్తాం.</p>
 <p><i>English:</i> If you find an error, send us the story link by email or WhatsApp. We check it and correct it promptly; a story with a serious error is removed.</p>
 
 <h2>6. ప్రకటనలు · Advertising</h2>
@@ -339,7 +339,7 @@ STATIC_PAGES = {
 
 <h2>7. కాపీరైట్ · Copyright</h2>
 <p>మా సారాంశాలు మా సొంత మాటల్లో ఉంటాయి; ఇతర సంస్థల వ్యాసాలను, వార్తా ఫోటోలను కాపీ చేయం. కాపీరైట్ సమస్య ఉంటే మమ్మల్ని సంప్రదించండి – వెంటనే చర్య తీసుకుంటాం.</p>
-<p class="why"><small>సంప్రదించండి · Contact</small>Swipe2News టీమ్ · ఆలేరు, యాదాద్రి భువనగిరి జిల్లా, తెలంగాణ · way2sec.news@gmail.com · +91 70326 56422</p>
+<p class="why"><small>సంప్రదించండి · Contact</small>Swipe2News టీమ్ · ఆలేరు, యాదాద్రి భువనగిరి జిల్లా, తెలంగాణ · swipe2news@gmail.com · +91 70326 56422</p>
 """),
  "terms.html": ("ఉపయోగ నిబంధనలు | Terms of use – Swipe2News", "Swipe2News వెబ్‌సైట్, యాప్ ఉపయోగ నిబంధనలు. Terms of use for the Swipe2News website and app.", """
 <h1>ఉపయోగ నిబంధనలు · Terms of use</h1>
@@ -367,7 +367,7 @@ STATIC_PAGES = {
 
 <h2>6. గోప్యత, మార్పులు · Privacy and changes</h2>
 <p>మీ సమాచారాన్ని ఎలా ఉపయోగిస్తామో <a href="/privacy.html" style="color:var(--brand);font-weight:800">గోప్యతా విధానం</a>లో చూడండి. ఈ నిబంధనలను అవసరమైనప్పుడు మారుస్తాం; తాజా వెర్షన్ ఎప్పుడూ ఈ పేజీలో ఉంటుంది. ఈ నిబంధనలకు భారతదేశ చట్టాలు వర్తిస్తాయి.</p>
-<p class="why"><small>సంప్రదించండి · Contact</small>Swipe2News టీమ్ · ఆలేరు, యాదాద్రి భువనగిరి జిల్లా, తెలంగాణ · way2sec.news@gmail.com · +91 70326 56422</p>
+<p class="why"><small>సంప్రదించండి · Contact</small>Swipe2News టీమ్ · ఆలేరు, యాదాద్రి భువనగిరి జిల్లా, తెలంగాణ · swipe2news@gmail.com · +91 70326 56422</p>
 """),
 }
 
