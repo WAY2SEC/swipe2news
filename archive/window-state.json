@@ -1,19 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-13T22:05:00+05:30",
+ "cutoff": "2026-11-13T22:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T12:35:00+05:30/2026-11-10T13:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 0,
-   "published": 0,
-   "held": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 1,
-   "gaps": "Search-first; WebFetch via sub-agent. No in-window items. Checked: NT Suryapet bike crash (09:59), Gadwal car (08:59), govt land revenue (07:02), Miryalaguda paddy protest (04:28), IND Today Nitin Nabin Karimnagar padayatra (12:07, before window), Siasat/PTI Revanth Praja Balam tour (10:39), Telangana Today Lagacherla (9 Nov 20:58), Andhra Jyothy/Telugu Times AP cabinet pages (Oct 2026, old). mahaanews AP cabinet-concluded page has no publication time (review). Eenadu blocked by robots.txt; AJC/AP markets page server error. Today's AP cabinet outcome not yet found with a timestamp. Hans India, DC, Sakshi, TOI, The Hindu, IE, HT, NDTV, PTI, Reuters/BBC, other-state and international-topic searches gave no timestamped in-window results."
-  },
   {
    "window": "2026-11-10T13:05:00+05:30/2026-11-10T13:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1298,6 +1286,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "22:05 run started late (22:13 IST). Lookback from 13:35. Read: Siasat/PTI CM to meet PM on drought (18:30), TT El Nino aid (19:51, grouped as duplicate), TT narcotics 19,000 (19:46), Telangana Tribune Madhapur traffic (19:58), TT Ponguleti Sudhakar (20:04), TT Naidu P4 (16:54, duplicate of published CII P4). Skipped: TT Ola fine (2022 article); Siasat Azharuddin CMRF already skipped earlier. Not found with verifiable times: Siasat Rahul bike rally advisory (21:35), Siasat CM 'blindly opposing'. Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, Reuters; no AP or world items with verifiable times in window. Districts searched: Karimnagar, Warangal, Nizamabad, Guntur, NTR, Tirupati, Nellore, Kadapa, Anantapur, Siddipet, Medak, Visakhapatnam, Srikakulam, Khammam, Nalgonda, Mahabubnagar."
+  },
+  {
+   "window": "2026-11-13T22:05:00+05:30/2026-11-13T22:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 0,
+   "published": 0,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 14,
+   "review": 0,
+   "gaps": "22:35 run started on time (22:36 IST). Lookback from 14:05. Nothing eligible: all candidates read were published before lookback (TT High Court drought 01:18, Jangaon car fire 01:01, civil society Global Summit 00:47, Gajularamaram 00:28, Haj House 00:10, GCCs 12 Nov 23:49, DPH flu 12 Nov 23:30, plus older TT tag-page items 7-11 Nov; DC Rahul gig workers 10 Nov 17:42; Nhan Dan world brief is from 2025). Failed: TT Ruthvik FIDE Master (fetch refused, time unknown). Search results thin and mostly stale; not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, Siasat, PTI, Reuters; no AP, national or world items with verifiable times in window. Districts searched: Jagtial, Peddapalli, Nirmal, Kamareddy, Vikarabad, Yadadri, Mulugu, Eluru, Kakinada, Prakasam, Chittoor."
   }
  ],
  "seen": [
@@ -1755,6 +1756,76 @@
    "url": "https://telanganatoday.com/consumer-court-slaps-rs-95k-fine-on-ola-cabs-for-poor-service-overcharging",
    "d": "2026-11-13",
    "w": "skip"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/rahul-gandhi-likely-to-address-gig-workers-in-hyderabad-2003213",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://en.nhandan.vn/world-news-in-brief-november-13-post155398.html",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-to-introduce-102-education-system-from-next-academic-year",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/army-jawan-dies-in-road-accident-in-siddipet",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-rgukt-basar-students-forced-to-consume-sewage-like-water",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/how-did-revanth-reddys-family-businesses-grow-so-fast-asks-brs",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/brs-slams-congress-over-poor-services-at-nalgonda-government-hospital",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-high-court-seeks-state-response-on-drought-preparedness",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/jangaon-two-escape-as-car-catches-fire-on-warangal-hyderabad-highway",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/civil-society-groups-seek-postponement-of-telangana-global-summit-amid-drought",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-gajularamaram-bus-terminal-plan-puts-government-land-encroachments-in-focus",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/muslim-leaders-oppose-entry-restrictions-at-hyderabads-haj-house",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/gccs-to-drive-telanganas-economic-growth-sridhar-babu",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-dph-issues-seasonal-flu-advisory-as-temperatures-set-to-drop",
+   "d": "2026-11-13",
+   "w": "skipped"
   }
  ]
 }
