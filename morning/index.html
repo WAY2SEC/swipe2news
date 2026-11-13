@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="te">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Swipe2News – Morning briefing · శుభోదయం</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#4A0E3F">
+<link rel="icon" href="/favicon-48.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Noto+Sans+Telugu:wght@400;600;700;800&display=swap">
+<script src="/scenes.js?v=20261113a"></script>
+<style>
+:root{--plum:#4A0E3F;--deep:#2E0827;--ap:#F5A23A;--cream:#FFFDF5;--ink:#202124;--muted:#5F6368;--line:#EDE6DF;--card:#FFFFFF}
+@media (prefers-color-scheme:dark){:root{--cream:#141214;--ink:#ECEDEF;--muted:#A6A8AD;--line:#2D2C31;--card:#1C1B1F}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--cream);color:var(--ink);font-family:'Outfit','Noto Sans Telugu',system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+.app{max-width:480px;margin:0 auto;padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+header{display:flex;align-items:center;justify-content:space-between;padding:calc(env(safe-area-inset-top,0px) + 10px) 16px 0 20px;height:calc(env(safe-area-inset-top,0px) + 60px)}
+header img{height:28px;width:auto}
+.hb{display:flex;gap:6px}
+.pill{height:36px;padding:0 12px;border-radius:18px;border:1px solid var(--line);background:var(--card);color:var(--plum);font:700 13px inherit;font-family:inherit;display:inline-flex;align-items:center;gap:6px;cursor:pointer}
+@media (prefers-color-scheme:dark){.pill{color:var(--ap)}}
+.greet{display:flex;align-items:flex-end;justify-content:space-between;gap:10px;padding:6px 20px 0}
+.greet .d{font-size:14px;color:var(--muted);font-weight:500}
+.greet h1{margin:2px 0 0;font-size:26px;font-weight:800;letter-spacing:-.3px}
+.sec{margin:22px 20px 0}
+.lab{display:flex;align-items:center;gap:8px;margin-bottom:10px;font-size:11px;font-weight:800;letter-spacing:1.4px;color:var(--plum)}
+@media (prefers-color-scheme:dark){.lab{color:var(--ap)}}
+.lab i{flex:1;height:1px;background:var(--line)}
+.lab a{font-size:13px;letter-spacing:0;font-weight:700;color:var(--plum)}
+.brief{position:relative;overflow:hidden;border-radius:22px;padding:20px;color:#FFFDF5;background:radial-gradient(120% 120% at 90% 0%,#6E2361 0%,#4A0E3F 55%,#3A0A31 100%)}
+.brief:before{content:"";position:absolute;right:-30px;top:-30px;width:140px;height:140px;border-radius:70px;border:18px solid rgba(255,255,255,.07)}
+.brief .k{position:relative;display:flex;align-items:center;gap:6px;font-size:12px;font-weight:800;color:var(--ap);letter-spacing:.4px}
+.brief h2{position:relative;margin:8px 0 0;font-size:22px;line-height:1.3;font-weight:800}
+.brief .mix{position:relative;margin-top:6px;font-size:14px;color:#E3D3DE}
+.bar{position:relative;margin-top:14px;display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.bar span{height:4px;border-radius:2px;background:rgba(255,255,255,.25)}.bar span.on{background:var(--ap)}
+.btns{position:relative;margin-top:16px;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.btns button,.btns a{height:46px;border-radius:23px;border:0;display:flex;align-items:center;justify-content:center;gap:8px;font:800 15px inherit;font-family:inherit;cursor:pointer}
+.btns .rd{background:#FFFDF5;color:var(--plum)}
+.btns .ls{background:var(--ap);color:var(--deep)}
+.btns .ls[aria-pressed="true"]{background:#FFFDF5}
+.row{display:flex;gap:10px;overflow-x:auto;scrollbar-width:none;margin:0 -20px;padding:0 20px 4px}
+.row::-webkit-scrollbar{display:none}
+.act{flex:none;width:176px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;display:flex;flex-direction:column;gap:8px}
+.act .ic{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px}
+.act b{font-size:15px;line-height:1.3}
+.act p{margin:0;font-size:13px;line-height:1.45;color:var(--muted);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.act .tg{font-size:12px;font-weight:700;color:#0E7A3E}.act .tg.rp{color:#8A4B00}
+.gov{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;display:flex;flex-direction:column;gap:12px;margin-top:14px}
+.gov .t{display:flex;justify-content:space-between;align-items:center;font-weight:800;font-size:15px}.gov .t small{font-size:12px;color:var(--muted);font-weight:500}
+.gi{display:flex;align-items:center;gap:12px}
+.gi .n{flex:none;width:52px;height:52px;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1;background:var(--plum);color:#fff}
+.gi .n.o{background:var(--ap);color:var(--deep)}
+.gi .n b{font-size:18px}.gi .n small{font-size:10px;font-weight:600;margin-top:2px}
+.gi .x{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}.gi .x b{font-size:14px;line-height:1.35}.gi .x span{font-size:12.5px;color:var(--muted)}
+.gi+.gi{border-top:1px solid var(--line);padding-top:12px}
+.vf{display:flex;flex-direction:column;gap:12px}
+.vc{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;display:flex;flex-direction:column;gap:8px;text-align:left;font:inherit;color:inherit;cursor:pointer;width:100%}
+.vc .m{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted)}
+.vc h3{margin:0;font-size:17px;line-height:1.4;font-weight:800}
+.vc .w{font-size:13px;line-height:1.5}.vc .w b{color:var(--plum)}
+@media (prefers-color-scheme:dark){.vc .w b{color:var(--ap)}}
+.vc .e{font-size:12px;color:var(--muted)}
+.tl{font-size:11px;font-weight:800;letter-spacing:.6px;border-radius:6px;padding:3px 8px}
+.tl.fact{background:#0E7A3E;color:#fff}.tl.claim{background:var(--ap);color:var(--deep)}.tl.opinion{border:1px solid var(--line);color:var(--muted)}.tl.misleading{background:#B3261E;color:#fff}
+.vc.mis{background:#FFF4F3;border-color:#F2C9C5}
+@media (prefers-color-scheme:dark){.vc.mis{background:#2A1715}}
+.go{display:flex;align-items:center;justify-content:center;gap:8px;margin:22px 20px 0;height:54px;border-radius:27px;background:var(--plum);color:#fff;font-size:16px;font-weight:800}
+.go small{font-weight:600;opacity:.8}
+nav.bn{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--card);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
+nav.bn .in{max-width:480px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);height:68px;align-items:center}
+nav.bn a{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:11px;font-weight:600;color:var(--muted)}
+nav.bn a.on{color:var(--plum);font-weight:800}
+nav.bn a.sw{justify-self:center;width:58px;height:58px;margin-top:-26px;border-radius:29px;background:var(--plum);display:flex;align-items:center;justify-content:center;box-shadow:0 6px 16px rgba(74,14,63,.35)}
+.sheet{position:fixed;inset:0;z-index:40;background:rgba(24,6,21,.55);display:flex;align-items:flex-end;justify-content:center}
+.sheet[hidden]{display:none}
+.sheet .in{width:min(480px,100%);background:var(--cream);border-radius:26px 26px 0 0;padding:12px 20px calc(24px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:12px;max-height:88vh;overflow:auto}
+.sheet .hd{align-self:center;width:40px;height:5px;border-radius:3px;background:#D8CCD4}
+.sheet h2{margin:0;font-size:20px;display:flex;align-items:center;gap:8px}
+.sheet .q{font-size:15px;font-weight:700;line-height:1.4}
+.lbls{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.lbls span{height:34px;border-radius:8px;border:1px solid var(--line);color:var(--muted);font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.lbls span.fact.on{background:#0E7A3E;border-color:#0E7A3E;color:#fff}.lbls span.claim.on{background:var(--ap);border-color:var(--ap);color:var(--deep)}.lbls span.opinion.on{background:var(--ink);color:var(--cream)}.lbls span.misleading.on{background:#B3261E;border-color:#B3261E;color:#fff}
+.tbl{background:var(--card);border:1px solid var(--line);border-radius:16px}
+.tbl div{display:flex;justify-content:space-between;gap:12px;padding:12px 14px;font-size:14px}.tbl div+div{border-top:1px solid var(--line)}
+.tbl span{color:var(--muted);font-size:13px}.tbl b{text-align:right}
+.ev{display:flex;align-items:center;gap:12px;padding:12px 14px;background:#F6EEF3;border-radius:14px;color:var(--ink)}
+@media (prefers-color-scheme:dark){.ev{background:#2A1A26}}
+.ev i{flex:none;width:40px;height:40px;border-radius:10px;background:var(--plum);color:#fff;display:flex;align-items:center;justify-content:center;font-style:normal}
+.cor{padding:12px 14px;border:1px solid var(--line);border-radius:14px;font-size:14px}
+.rep{height:50px;border-radius:25px;border:1.5px solid var(--plum);background:var(--card);color:var(--plum);font:800 15px inherit;font-family:inherit;display:flex;align-items:center;justify-content:center}
+.empty{color:var(--muted);font-size:14px;padding:6px 0}
+/* language screen (web/s2n.js) */
+.s2lsc{position:fixed;inset:0;z-index:200;background:#FFFDF5;color:#202124;display:flex;flex-direction:column;align-items:center;overflow:auto;padding:24px 20px}
+.s2lsc[hidden]{display:none}.s2lsc .in{width:min(560px,100%)}.s2lsc .lhd img{height:34px}.s2lsc h1{margin:18px 0 0;font-size:28px;font-weight:800}.s2lsc .lsub{margin:6px 0 0;color:#5A5560}
+.s2lsc .lgrid{margin-top:20px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.s2lsc .lt{position:relative;display:flex;align-items:center;gap:12px;height:72px;padding:0 14px;border-radius:16px;border:1.5px solid #E3D7DF;background:#fff;color:#202124;font:inherit;text-align:left}
+.s2lsc .lt .lg{flex:none;width:44px;height:44px;border-radius:12px;background:#F6EEF3;color:#4A0E3F;display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:700}
+.s2lsc .lt .ln{font-weight:700}.s2lsc .lt .soon{position:absolute;top:6px;right:8px;font-size:9.5px;font-weight:800;color:#8A4B00;background:#FDEBD3;border-radius:6px;padding:1px 5px}
+.s2lsc .lt.on{background:#4A0E3F;border-color:#4A0E3F;color:#FFFDF5}.s2lsc .lt.on .lg{background:#F5A23A;color:#2E0827}
+.s2lsc .lgo{width:100%;margin-top:24px;height:56px;border:0;border-radius:28px;background:#4A0E3F;color:#FFFDF5;font:inherit;font-size:17px;font-weight:800}
+.s2bnav,.tkpause{display:none!important}
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <a href="/?cards=1" aria-label="Swipe2News"><img src="/logo.png" alt="Swipe2News"></a>
+    <div class="hb"><button class="pill s2lang" type="button" aria-label="Language · భాష"><span>తెలుగు</span></button></div>
+  </header>
+  <div class="greet">
+    <div><div class="d" id="today"></div><h1 id="hello">శుభోదయం</h1></div>
+    <a class="pill" id="area" href="/web/?pick=1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span id="areaTx">తెలంగాణ</span></a>
+  </div>
+
+  <section class="sec" aria-label="Understand">
+    <div class="lab"><span id="lU">UNDERSTAND · అర్థం చేసుకోండి</span><i></i></div>
+    <div class="brief">
+      <div class="k"><svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg><span id="bk">మీ 3 నిమిషాల బ్రీఫింగ్</span></div>
+      <h2 id="bh">ఈరోజు మీకు ముఖ్యమైన వార్తలు</h2>
+      <div class="mix" id="bmix"></div>
+      <div class="bar" id="bbar"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <div class="btns"><a class="rd" href="/?cards=1" id="bread">📖 చదవండి</a><button class="ls" type="button" id="blisten" aria-pressed="false">▶ వినండి</button></div>
+    </div>
+  </section>
+
+  <section class="sec" aria-label="Act" id="actSec">
+    <div class="lab"><span id="lA">ACT · మీ దగ్గర ఇప్పుడు</span><i></i><a href="/web/?districts=1#dists" id="lAll">అన్నీ</a></div>
+    <div class="row" id="acts"></div>
+    <div class="gov" id="gov"></div>
+  </section>
+
+  <section class="sec" aria-label="Verify" id="verify">
+    <div class="lab"><span id="lV">VERIFY · ముఖ్య వార్తలు</span><i></i></div>
+    <div class="vf" id="vf"></div>
+  </section>
+
+  <a class="go" href="/?cards=1" id="goCards">వార్తలు స్వైప్ చేయండి → <small>Swipe cards</small></a>
+</div>
+
+<nav class="bn" aria-label="Main"><div class="in">
+  <a class="on" href="/morning/"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 10.5L12 3l9 7.5V21h-6v-6H9v6H3z"/></svg><span id="nH">హోమ్</span></a>
+  <a href="/web/?districts=1#dists"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span id="nN">నా దగ్గర</span></a>
+  <a class="sw" href="/?cards=1" aria-label="Swipe news"><svg width="30" height="30" viewBox="0 0 100 100" aria-hidden="true"><g transform="rotate(8 60 46)"><rect x="42" y="18" width="34" height="56" rx="6" fill="#9C6E92"/></g><g transform="rotate(-4 44 54)"><path d="M28 24 h30 a5 5 0 0 1 5 5 v40 l-13 13 h-22 a5 5 0 0 1 -5 -5 v-48 a5 5 0 0 1 5 -5z" fill="#FFFDF5"/><path d="M63 69 L50 82 L50 69 Z" fill="#F5A23A"/></g></svg></a>
+  <a href="#verify"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg><span id="nV">వెరిఫై</span></a>
+  <a href="/?cards=1&saved=1"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg><span id="nS">సేవ్డ్</span></a>
+</div></nav>
+
+<section class="sheet" id="how" hidden role="dialog" aria-label="How we know this"><div class="in" id="howIn"></div></section>
+
+<script>
+const PLACES={hyderabad:'హైదరాబాద్',rangareddy:'రంగారెడ్డి',medchal:'మేడ్చల్',adilabad:'ఆదిలాబాద్',bhadradri:'భద్రాద్రి',hanumakonda:'హనుమకొండ',jagtial:'జగిత్యాల',jangaon:'జనగామ',bhupalpally:'భూపాలపల్లి',gadwal:'గద్వాల',kamareddy:'కామారెడ్డి',karimnagar:'కరీంనగర్',khammam:'ఖమ్మం',asifabad:'ఆసిఫాబాద్',mahabubabad:'మహబూబాబాద్',mahabubnagar:'మహబూబ్‌నగర్',mancherial:'మంచిర్యాల',medak:'మెదక్',mulugu:'ములుగు',nagarkurnool:'నాగర్‌కర్నూల్',nalgonda:'నల్గొండ',narayanpet:'నారాయణపేట',nirmal:'నిర్మల్',nizamabad:'నిజామాబాద్',peddapalli:'పెద్దపల్లి',sircilla:'సిరిసిల్ల',sangareddy:'సంగారెడ్డి',siddipet:'సిద్దిపేట',suryapet:'సూర్యాపేట',vikarabad:'వికారాబాద్',wanaparthy:'వనపర్తి',warangal:'వరంగల్',yadadri:'యాదాద్రి'}
+;
+const $=id=>document.getElementById(id);
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store={get(k,d){try{const v=localStorage.getItem('w2s.'+k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem('w2s.'+k,JSON.stringify(v))}catch(e){}}};
+const sidOf=s=>{if(s._sid)return s._sid;let h=5381;const t=(s.url||'')+'|'+(s.h||'');for(let i=0;i<t.length;i++)h=((h<<5)+h+t.charCodeAt(i))|0;return (h>>>0).toString(36)};
+const P=store.get('prefs',{})||{}; const L=['te','en','hi'].includes(P.lang)?P.lang:'te';
+try{ sessionStorage.setItem('s2n.morningSeen', new Date().toDateString()); }catch(e){}
+const TX={
+ te:{hello:['శుభోదయం','శుభ మధ్యాహ్నం','శుభ సాయంత్రం'],U:'UNDERSTAND · అర్థం చేసుకోండి',A:'ACT · మీ దగ్గర ఇప్పుడు',V:'VERIFY · ముఖ్య వార్తలు',all:'అన్నీ',bk:'మీ 3 నిమిషాల బ్రీఫింగ్',bh:n=>`ఈరోజు మీకు ముఖ్యమైన ${n} వార్తలు`,mix:(a,b,c)=>[a&&`${a} దేశం`,b&&`${b} తెలంగాణ · ఏపీ`,c&&`${c} మీ జిల్లా`].filter(Boolean).join(' · '),read:'📖 చదవండి',listen:'▶ వినండి',stop:'■ ఆపండి',gov:'ప్రభుత్వం మీ కోసం',govs:'చివరి తేదీలు',days:'రోజులు',today:'ఈరోజే',why:'ఇది ఎందుకు ముఖ్యం:',src:'మూలం',off:'✓ అధికారిక సమాచారం',rep:'● రిపోర్టర్ సమాచారం',news:'● ',go:'వార్తలు స్వైప్ చేయండి →',noact:'మీ ప్రాంతం నుంచి ఇప్పుడు అలర్ట్‌లు లేవు.',H:'హోమ్',N:'నా దగ్గర',Vn:'వెరిఫై',S:'సేవ్డ్',how:'మాకు ఎలా తెలుసు',pub:'అసలు ప్రచురణకర్త',when:'ప్రచురణ · అప్‌డేట్',sum:'సారాంశం',ai:'✦ AI, ఎడిటర్ పరిశీలన',ev:'అసలు కథనం',evs:'మూలం వెబ్‌సైట్‌లో తెరవండి',corr:'సవరణలు',none:'ఇప్పటివరకు లేవు',report:'తప్పు ఉందా? తెలియజేయండి',updated:'అప్‌డేట్'},
+ en:{hello:['Good morning','Good afternoon','Good evening'],U:'UNDERSTAND',A:'ACT · NEAR YOU NOW',V:'VERIFY · TOP STORIES',all:'See all',bk:'YOUR 3-MINUTE BRIEFING',bh:n=>`${n} stories that matter to you today`,mix:(a,b,c)=>[a&&`${a} national`,b&&`${b} Telangana · AP`,c&&`${c} your district`].filter(Boolean).join(' · '),read:'📖 Read',listen:'▶ Listen',stop:'■ Stop',gov:'Government for you',govs:'Deadlines',days:'days',today:'today',why:'Why it matters:',src:'Source',off:'✓ Official notice',rep:'● Reporter update',news:'● ',go:'Swipe the news →',noact:'No alerts from your area right now.',H:'Home',N:'Near me',Vn:'Verify',S:'Saved',how:'How we know this',pub:'Original publisher',when:'Published · Updated',sum:'Summary',ai:'✦ AI, checked by editor',ev:'Original report',evs:'Opens the source website',corr:'Corrections',none:'none so far',report:'Report an error',updated:'updated'},
+ hi:{hello:['सुप्रभात','नमस्कार','शुभ संध्या'],U:'समझें',A:'करें · आपके पास अभी',V:'जाँचें · मुख्य खबरें',all:'सभी',bk:'आपकी 3 मिनट की ब्रीफ़िंग',bh:n=>`आज आपके लिए ${n} अहम खबरें`,mix:(a,b,c)=>[a&&`${a} देश`,b&&`${b} तेलंगाना · आंध्र`,c&&`${c} आपका ज़िला`].filter(Boolean).join(' · '),read:'📖 पढ़ें',listen:'▶ सुनें',stop:'■ रोकें',gov:'सरकार आपके लिए',govs:'अंतिम तिथियाँ',days:'दिन',today:'आज',why:'यह क्यों अहम है:',src:'स्रोत',off:'✓ आधिकारिक सूचना',rep:'● रिपोर्टर अपडेट',news:'● ',go:'खबरें स्वाइप करें →',noact:'अभी आपके इलाके से कोई अलर्ट नहीं।',H:'होम',N:'आसपास',Vn:'जाँचें',S:'सेव्ड',how:'हमें कैसे पता है',pub:'मूल प्रकाशक',when:'प्रकाशित · अपडेट',sum:'सारांश',ai:'✦ AI, संपादक द्वारा जाँचा',ev:'मूल रिपोर्ट',evs:'स्रोत वेबसाइट पर खोलें',corr:'सुधार',none:'अब तक कोई नहीं',report:'गलती बताएँ',updated:'अपडेट'}}[L];
+const LBL={fact:{te:'✓ వాస్తవం',en:'✓ FACT',hi:'✓ तथ्य'},claim:{te:'వాదన',en:'CLAIM',hi:'दावा'},opinion:{te:'అభిప్రాయం',en:'OPINION',hi:'राय'},misleading:{te:'తప్పుదోవ',en:'MISLEADING',hi:'भ्रामक'}};
+const tr=s=>{const o=Object.assign({},s); const x=s[L]; if(L!=='te'&&x&&typeof x==='object'){ ['h','p','why','cat','statl','pts'].forEach(k=>{ if(x[k]) o[k]=x[k]; }); } return o;};
+const ist=()=>new Date(Date.now()+(330+new Date().getTimezoneOffset())*60000);
+const tsOf=s=>{ if(s.pub){ const t=Date.parse(s.pub); if(t) return t; } const m=/^(\d\d)\.(\d\d)\.(\d{4})$/.exec(s.d||''),t=/^(\d\d):(\d\d)$/.exec(s.t||''); return m?Date.parse(`${m[3]}-${m[2]}-${m[1]}T${t?t[1]:'12'}:${t?t[2]:'00'}:00+05:30`):0; };
+const hm=s=>{ const t=tsOf(s); if(!t) return s.t||''; const d=new Date(t+(330+new Date().getTimezoneOffset())*60000); return String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0'); };
+const daysLeft=j=>{const m=/^(\d\d)\.(\d\d)\.(\d{4})$/.exec(j.last||'');if(!m)return null;return Math.floor((new Date(+m[3],+m[2]-1,+m[1],23,59,59)-Date.now())/864e5)};
+const AP=(typeof AP_DISTRICTS!=='undefined'?Object.fromEntries(AP_DISTRICTS.map(a=>[a[0],a[1]])):{});
+const placeTx=k=>PLACES[k]||AP[k]||(k==='AP'?'ఆంధ్రప్రదేశ్':'తెలంగాణ');
+const isTGAP=s=>s.st==='TG'||s.st==='AP'||(Array.isArray(s.sec)&&s.sec.includes('telangana'));
+
+/* header bits */
+(()=>{ const d=ist(), h=d.getHours(); $('hello').textContent=TX.hello[h<12?0:h<17?1:2];
+  const W={te:['ఆదివారం','సోమవారం','మంగళవారం','బుధవారం','గురువారం','శుక్రవారం','శనివారం'],en:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],hi:['रविवार','सोमवार','मंगलवार','बुधवार','गुरुवार','शुक्रवार','शनिवार']}[L];
+  const M={te:['జనవరి','ఫిబ్రవరి','మార్చి','ఏప్రిల్','మే','జూన్','జులై','ఆగస్టు','సెప్టెంబర్','అక్టోబర్','నవంబర్','డిసెంబర్'],en:['January','February','March','April','May','June','July','August','September','October','November','December'],hi:['जनवरी','फ़रवरी','मार्च','अप्रैल','मई','जून','जुलाई','अगस्त','सितंबर','अक्टूबर','नवंबर','दिसंबर']}[L];
+  $('today').textContent=`${W[d.getDay()]}, ${d.getDate()} ${M[d.getMonth()]}`;
+  $('areaTx').textContent=P.village||placeTx(P.place);
+  $('lU').textContent=TX.U; $('lA').textContent=TX.A; $('lV').textContent=TX.V; $('lAll').textContent=TX.all; $('bk').textContent=TX.bk;
+  $('bread').textContent=TX.read; $('blisten').textContent=TX.listen; $('goCards').innerHTML=esc(TX.go)+' <small>Swipe cards</small>';
+  $('nH').textContent=TX.H; $('nN').textContent=TX.N; $('nV').textContent=TX.Vn; $('nS').textContent=TX.S; document.documentElement.lang=L; })();
+
+async function getJSON(u){ try{ const r=await fetch(u+'?t='+Date.now(),{cache:'no-store'}); return r.ok?await r.json():null; }catch(e){ return null; } }
+let BRIEF=[];
+(async function(){
+  const [news,jobs]=await Promise.all([getJSON('/news.json'),getJSON('/jobs.json')]);
+  const raw=((news&&news.stories)||[]).filter(s=>!s.wd);
+  raw.forEach(s=>s._id=sidOf(s));
+  raw.sort((a,b)=>tsOf(b)-tsOf(a));
+  const S=raw.map(tr), me=P.place;
+  const mine=s=>me&&s.place===me;
+  // UNDERSTAND: 7 stories – breaking, your district, TG/AP, India, world
+  const pick=[], add=s=>{ if(s&&!pick.includes(s)&&pick.length<7) pick.push(s); };
+  S.filter(s=>s.brk).slice(0,1).forEach(add); S.filter(mine).slice(0,2).forEach(add);
+  S.filter(s=>isTGAP(s)&&!mine(s)).slice(0,3).forEach(add); S.filter(s=>s.st==='IN'||(Array.isArray(s.sec)&&s.sec.includes('india'))).slice(0,1).forEach(add);
+  S.filter(s=>s.st==='WORLD').slice(0,1).forEach(add); S.forEach(add);
+  BRIEF=pick;
+  { const n=pick.reduce((t,x)=>t+String(x.h||'').length+String(x.p||'').length,0), sec=Math.round(n/(L==='te'?9:14)); TX.listen=TX.listen+' '+Math.floor(sec/60)+':'+String(sec%60).padStart(2,'0'); $('blisten').textContent=TX.listen; }
+  const nNat=pick.filter(s=>!isTGAP(s)).length, nMine=pick.filter(mine).length, nTG=pick.length-nNat-nMine;
+  $('bh').textContent=TX.bh(pick.length); $('bmix').textContent=TX.mix(nNat,nTG,nMine);
+  const seen=store.get('seenIds',[])||[]; $('bbar').innerHTML=pick.map(s=>`<span class="${seen.includes(s._id)?'on':''}"></span>`).join('');
+  if(pick[0]) $('bread').href='/?cards=1&s='+pick[0]._id;
+  // ACT: civic alerts
+  const civic=/విద్యుత్|కరెంట్|పవర్|నీటి|నీరు|తాగునీ|వర్ష|వాన|రోడ్డు|ట్రాఫిక్|వాతావరణ|పొగమంచు|ఉష్ణోగ్ర|వరద|power|electric|water|rain|traffic|road|weather|flood|fog/i;
+  const isCivic=s=>['power','water','rain'].includes(s.art)||civic.test((s.cat||'')+' '+((s.en&&s.en.cat)||''));
+  const recent=S.filter(s=>Date.now()-tsOf(s)<48*3600e3);
+  const acts=recent.filter(isCivic).sort((a,b)=>(mine(b)-mine(a))||(tsOf(b)-tsOf(a))).slice(0,6);
+  const IC={power:['⚡','#FDEBD3'],water:['💧','#E5EEFB'],rain:['🌧️','#E5EEFB']};
+  const official=/Police|Collector|IMD|Government|Govt|TGSPDCL|TGNPDCL|APSPDCL|HMWSSB|GHMC|PIB|Department|Corporation|పోలీస|ప్రభుత్వ|కలెక్టర/i;
+  $('acts').innerHTML=acts.length?acts.map(s=>{ const ic=IC[s.art]||(/ట్రాఫిక్|రోడ్డు|traffic|road/i.test(s.cat||'')?['🚧','#F6EEF3']:['📢','#F6EEF3']);
+      const tag=s.local?`<span class="tg rp">${TX.rep}</span>`:official.test(s.src||'')?`<span class="tg">${TX.off}</span>`:`<span class="tg rp">${esc(TX.news+(s.src||''))}</span>`;
+      return `<a class="act" href="/?cards=1&s=${s._id}"><span class="ic" style="background:${ic[1]}">${ic[0]}</span><b>${esc((s.cat||'').split('·').pop().trim()||s.statl||'')}</b><p>${esc(s.h)}</p>${tag}</a>`; }).join('')
+    :`<div class="empty">${esc(TX.noact)}</div>`;
+  // Government for you: nearest deadlines
+  const J=((jobs&&jobs.jobs)||[]).map(j=>{ const id=sidOf({url:j.url||j.apply||'',h:j.h}); const x=L!=='te'&&j[L]?Object.assign({},j,j[L]):j; return [x,daysLeft(j),id]; })
+    .filter(x=>x[1]!==null&&x[1]>=0).sort((a,b)=>a[1]-b[1]).slice(0,2);
+  $('gov').innerHTML=J.length?`<div class="t">${esc(TX.gov)}<small>${esc(TX.govs)}</small></div>`+J.map(([j,d,id],i)=>`<a class="gi" href="/s/${id}"><span class="n${i?' o':''}"><b>${d===0?'⏰':d}</b><small>${d===0?esc(TX.today):esc(TX.days)}</small></span><span class="x"><b>${esc(j.h)}</b><span>${esc(j.org||'')}${j.last?' · '+esc(j.last):''}</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>`).join(''):'';
+  if(!J.length) $('gov').hidden=true;
+  // VERIFY: top stories with trust labels + misleading checks
+  const mis=S.filter(s=>s.lbl==='misleading').slice(0,1);
+  const top=pick.filter(s=>s.lbl!=='misleading').slice(0,3).concat(mis);
+  $('vf').innerHTML=top.map((s,i)=>{ const k=LBL[s.lbl]?s.lbl:'';
+    return `<button class="vc${k==='misleading'?' mis':''}" type="button" data-i="${S.indexOf(s)}"><span class="m">${k?`<span class="tl ${k}">${esc(LBL[k][L])}</span>`:''}<span>${esc((s.cat||'').split('·')[0].trim())} · ${esc(hm(s))}${s.corr&&s.corr.at?' · '+esc(TX.updated)+' '+esc(s.corr.at.split(' ')[1]||''):''}</span></span><h3>${esc(s.h)}</h3>${s.why?`<span class="w"><b>${esc(TX.why)}</b> ${esc(s.why)}</span>`:''}<span class="e">📄 ${esc(TX.src)}: ${esc(s.src||'')}</span></button>`; }).join('');
+  $('vf').onclick=e=>{ const b=e.target.closest('.vc'); if(b) openHow(S[+b.dataset.i]); };
+  window.__S=S;
+})();
+
+/* How we know this */
+function openHow(s){ const k=LBL[s.lbl]?s.lbl:'';
+  const c=s.corr&&(s.corr[L]||s.corr.te);
+  $('howIn').innerHTML=`<div class="hd"></div><h2><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0E7A3E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>${esc(TX.how)}</h2>
+    <div class="q">${esc(s.h)}</div>
+    <div class="lbls">${['fact','claim','opinion','misleading'].map(x=>`<span class="${x}${x===k?' on':''}">${esc(LBL[x][L])}</span>`).join('')}</div>
+    <div class="tbl"><div><span>${esc(TX.pub)}</span><b>${esc(s.src||'Swipe2News')}</b></div><div><span>${esc(TX.when)}</span><b>${esc((s.d||'')+' '+hm(s))}${c&&s.corr.at?' · '+esc(s.corr.at):''}</b></div><div><span>${esc(TX.sum)}</span><b>${esc(TX.ai)}</b></div></div>
+    ${/^https?:/.test(s.url||'')?`<a class="ev" href="${esc(s.url)}" target="_blank" rel="noopener"><i>📄</i><span style="flex:1"><b style="display:block;font-size:14px">${esc(TX.ev)}</b><span style="font-size:12px;color:var(--muted)">${esc(TX.evs)}</span></span>↗</a>`:''}
+    <div class="cor"><b>${esc(TX.corr)}:</b> ${c?esc(c):esc(TX.none)}</div>
+    <a class="rep" href="https://wa.me/917032656422?text=${encodeURIComponent('Swipe2News – error report / తప్పు సమాచారం:\n'+(s.h||'')+'\nhttps://swipe2news.com/s/'+s._id)}" target="_blank" rel="noopener">${esc(TX.report)}</a>
+    <a class="go" style="margin:0" href="/?cards=1&s=${s._id}">${esc(TX.read)}</a>`;
+  $('how').hidden=false; }
+$('how').onclick=e=>{ if(e.target===$('how')) $('how').hidden=true; };
+
+/* Listen: the briefing read aloud */
+$('blisten').onclick=()=>{ const sy=window.speechSynthesis, b=$('blisten'); if(!sy) return;
+  if(b.getAttribute('aria-pressed')==='true'){ sy.cancel(); b.setAttribute('aria-pressed','false'); b.textContent=TX.listen; return; }
+  const intro={te:'Swipe2News నుంచి మీ ఉదయం బ్రీఫింగ్. ',en:'Your morning briefing from Swipe2News. ',hi:'Swipe2News से आपकी सुबह की ब्रीफ़िंग। '}[L];
+  const u=new SpeechSynthesisUtterance(intro+BRIEF.map((s,i)=>`${i+1}. ${s.h}. ${s.p||''}`).join(' '));
+  u.lang={te:'te-IN',en:'en-IN',hi:'hi-IN'}[L]; u.rate=.95; const v=sy.getVoices().find(v=>v.lang.replace('_','-').toLowerCase().startsWith(u.lang.slice(0,2))); if(v) u.voice=v;
+  u.onend=u.onerror=()=>{ b.setAttribute('aria-pressed','false'); b.textContent=TX.listen; };
+  sy.cancel(); sy.speak(u); b.setAttribute('aria-pressed','true'); b.textContent=TX.stop; };
+</script>
+<script src="/web/s2n.js?v=2" defer></script>
+</body>
+</html>

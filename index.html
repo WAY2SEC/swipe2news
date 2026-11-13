@@ -28,13 +28,18 @@ addEventListener('unhandledrejection',function(e){var r=e&&e.reason;errs.push('a
 setTimeout(box,12000);setTimeout(box,25000);})();
 </script>
 <script>
-/* Everyone opening swipe2news.com gets the news website first (Latest News); Swipe Cards open with ?cards=1, the Swipe button, or the installed app */
+/* 5:30–9:00 am India time: everyone opening swipe2news.com (website or installed app) gets the Morning Briefing first, once per visit.
+   Other times: phones and the installed app open the swipe cards; laptops and desktops get the news website. */
 (function(){try{var q=new URLSearchParams(location.search);
+ var ist=new Date(Date.now()+(330+new Date().getTimezoneOffset())*60000), mins=ist.getHours()*60+ist.getMinutes();
+ var plain=!['cards','s','d','dates','saved','jobs','tip','build','l','sharecard','wishes','sec','q'].some(function(k){return q.has(k);});
+ var seen=''; try{seen=sessionStorage.getItem('s2n.morningSeen')||'';}catch(e){}
+ if(mins>=330&&mins<540&&plain&&seen!==new Date().toDateString()){location.replace('/morning/');return;}
  var app=matchMedia('(display-mode: standalone)').matches||navigator.standalone===true||document.referrer.indexOf('android-app://')===0;
  if(q.has('cards'))sessionStorage.setItem('w2s.cards','1');
  if(app||q.has('cards')||q.has('build')||q.has('tip')||q.has('jobs')||q.has('source')||sessionStorage.getItem('w2s.cards'))return;
  var touch=/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)||(navigator.maxTouchPoints>1&&innerWidth<1100);
- var s=q.get('s'); if(touch&&(s||q.has('d')||q.has('dates')||q.has('saved')||q.has('l')))return; location.replace(s?'/s/'+s:'/web/'+location.search);}catch(e){}})();
+ if(touch)return; var s=q.get('s'); location.replace(s?'/s/'+s:'/web/'+location.search);}catch(e){}})();
 </script>
 
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -1759,6 +1764,7 @@ setTimeout(alertInvite, 60000);
   });
   function markSaved(){ const on=$('saveBtn').getAttribute('aria-pressed')==='true'; document.querySelectorAll('.story .ca.sv').forEach(b=>b.classList.toggle('on',on)); }
   setInterval(markSaved,600);
+  setInterval(()=>{ try{ const s=LIST[cur]; if(!s||s.kind==='promo') return; const id=sid(s); const a=store.get('seenIds',[])||[]; if(!a.includes(id)){ a.push(id); store.set('seenIds',a.slice(-300)); } }catch(e){} },1500);
   // first open: language screen, then the swipe tutorial
   try{ const q=new URLSearchParams(location.search);
     if(!q.has('build')){
