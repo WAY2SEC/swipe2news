@@ -1,19 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-13T17:35:00+05:30",
+ "cutoff": "2026-11-13T18:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T09:35:00+05:30/2026-11-10T10:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 0,
-   "published": 0,
-   "held": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; no in-window timestamped results. Checked: ETV Bharat TG live blog (latest 08:19) and AP live blog (latest 09:22), Vaartha listing/home (relative times only) and articles (latest 07:59), Asianet Telugu (08:13), Hans India (06:54). Telangana Today/NT searches returned only listing pages; Eenadu, Sakshi, TOI, The Hindu, DC, IE, HT, NDTV, PTI, Reuters/AP/BBC, other-state and international-topic sources gave no timestamped in-window results."
-  },
   {
    "window": "2026-11-10T10:05:00+05:30/2026-11-10T10:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1292,6 +1280,19 @@
    "skipped": 7,
    "review": 0,
    "gaps": "Lookback from 09:05. Search mostly returned stale tag/listing pages. Read: DC + NewsMeter CII final day (13:03/16:16, grouped), Siasat Tharoor (12:48), Siasat TTD donation (15:41), TT IRF ban (16:38), ThePrint Assam crash (16:46) and Yamuna row (16:52), ETV Bharat TG live blog (snapshot to 10:47). Failed: Deccan Herald Rahul debate. Skipped: Assam Kaziranga bus crash (other state, not major enough), Delhi Yamuna fish row, Delhi AQI severe, KTR remarks on Rahul visit (political reaction), Borabanda missing woman (sensitive/minor), ACB Nagarkurnool & betting-app items (before lookback 06:57/06:55). Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, Reuters/AP; no world items with verifiable times. Districts searched: Nalgonda, Suryapet, Nizamabad, Kamareddy, Siddipet, Medak, Khammam, Bhadradri, Guntur, Kurnool, Tirupati, Visakhapatnam."
+  },
+  {
+   "window": "2026-11-13T17:35:00+05:30/2026-11-13T18:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 2,
+   "late": 2,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 7,
+   "review": 0,
+   "gaps": "Lookback from 09:35. Search mostly returned stale tag/listing pages. Read: Siasat farmer suicides (16:17), Siasat ACB Nagarkurnool DA case (17:11), Telangana Tribune PRTS (11:47, duplicate of published Siasat PRT story). Skipped as before lookback: TT Revanth–Naidu irrigation (Jan), Maharashtra survey (3 Nov), lakes (11 Nov), Kanepally (7 Nov); Hans Devarakadra (4 Nov); DC AP child trafficking (Jun); enewsinsight bulletin (homepage only). Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters/AP; no national or world items with verifiable times. Districts searched: Adilabad, Mahabubnagar, Sangareddy, Wanaparthy, Nagarkurnool, Gadwal, Nalgonda, NTR (Vijayawada), Srikakulam, Vizianagaram, Kadapa, Eluru, West Godavari."
   }
  ],
  "seen": [
@@ -1469,6 +1470,56 @@
    "url": "https://www.deccanherald.com/india/will-end-modis-political-career-rahul-gandhi-calls-for-open-debate-with-prime-minister-4217212",
    "d": "2026-11-13",
    "w": "skip"
+  },
+  {
+   "url": "https://siasat.com/cotton-paddy-and-maize-3-telangana-farmers-die-by-suicide-3576427",
+   "d": "2026-11-13",
+   "w": "published"
+  },
+  {
+   "url": "https://siasat.com/rs-7-23-cr-in-assets-uncovered-from-irrigation-official-booked-3576542",
+   "d": "2026-11-13",
+   "w": "published"
+  },
+  {
+   "url": "https://www.telanganatribune.com/cm-revanth-reddy-wants-prts-lines-across-hyderabad-to-reduce-travel-time-and-pollution/",
+   "d": "2026-11-13",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/revanth-reddy-urges-naidu-not-to-block-telangana-irrigation-projects",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/revanth-reddy-says-telangana-will-not-oppose-maharashtra-survey",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/encroachments-caused-disappearance-of-nearly-half-of-hyderabads-lakes-says-revanth-reddy",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/revanth-reddy-defends-governments-stand-on-kanepally-pump-operations",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/mahaboobnagar/devarakadra-will-soon-get-sub-registrar-office-fire-station-gmr-1139118",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/joint-operation-rescues-25-children-from-trafficking-1966052",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://enewsinsight.com/tni-morning-news-headlines-november-13-2026/",
+   "d": "2026-11-13",
+   "w": "skipped"
   }
  ]
 }
