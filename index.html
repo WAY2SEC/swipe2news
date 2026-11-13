@@ -417,7 +417,7 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .s2n .meta .mloc{max-width:40%;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
 .s2n .srow{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:12px}
 .s2n .srow .aic,.s2n .srow .tl{display:inline-flex;align-items:center;gap:4px;height:22px;padding:0 8px;border-radius:11px;font-size:10.5px;font-weight:800}
-.s2n .srow .aic{background:#2E0827;color:#FFFDF5}
+.s2n .srow .aic{background:#2E0827;color:#FFFDF5;text-decoration:none}
 .s2n .srow .src{color:var(--muted);font-weight:600;font-size:12px}
 .s2n .srow .read{margin-left:auto;font-weight:800;font-size:12.5px;color:var(--brand);text-decoration:none}
 :root[data-theme="dark"] .s2n .srow .read{color:#F5A23A}
@@ -446,11 +446,31 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .s2n .ca,.s2n .ca.wa{flex:1;width:auto;height:52px;margin:0;padding:0;flex-direction:column;gap:2px;border-radius:12px;background:transparent;color:var(--ink);font-family:'Outfit',var(--body);font-size:11px;font-weight:700}
 .s2n .ca span{white-space:nowrap}
 .s2n .ca.wa{color:#0E7A3E}
-.s2n .cfoot .pnext{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:5px;color:#F5A23A;font-weight:800;white-space:nowrap}
-.s2n .cfoot .pnext small{font-weight:600;color:rgba(255,253,245,.7);margin-right:4px;font-size:11px}
+.s2n .cfoot{min-height:48px}.s2n .cfoot .pnext{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:6px;height:36px;padding:0 10px 0 14px;border-radius:18px;background:#F5A23A;color:#2E0827;font-weight:800;font-size:13.5px;white-space:nowrap}
+.s2n .srow .aid{font-size:12px;font-weight:600;color:var(--muted)}
+.s2n .cfoot .pnext small{font-weight:700;color:rgba(46,8,39,.6);margin-right:2px;font-size:11px}
 .story.s2n.t1 .kpts li:nth-child(3){display:none}
 .story.s2n.t2 .kpts{display:none}
 .story.s2n.t3 .bnr{min-height:100px}
+/* house promo card */
+.s2n.house .hwrap{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:28px 24px;text-align:center;background:var(--hg);color:#FFFDF5}
+.s2n.house .hic{width:96px;height:96px;border-radius:28px;display:flex;align-items:center;justify-content:center;font-size:52px;background:rgba(255,253,245,.14);box-shadow:0 0 0 1px rgba(255,253,245,.25) inset}
+.s2n.house .ht{font-size:26px;line-height:1.35;font-weight:800}.s2n.house .hs{font-size:15.5px;line-height:1.55;opacity:.9}
+.s2n.house .hcta{margin-top:6px;padding:14px 24px;border-radius:26px;background:var(--ha);color:#2E0827;font-weight:800;font-size:16px;text-decoration:none}
+.s2n.house .hb{margin-top:10px;display:inline-flex;align-items:center;gap:6px;font:800 14px 'Outfit',var(--body);opacity:.9}.s2n.house .hb img{width:22px;height:22px;border-radius:6px}.s2n.house .hb i{font-style:normal;color:#F5A23A;margin-left:-6px}
+/* mandi card */
+.s2n.mandi .mhd{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:16px 18px;background:radial-gradient(120% 120% at 90% 0%,#6E2361 0%,#4A0E3F 55%,#3A0A31 100%);color:#FFFDF5;flex-shrink:0}
+.s2n.mandi .mhd b{display:block;font-size:21px;font-weight:800}.s2n.mandi .mhd span{font-size:13px;opacity:.85;font-weight:600}
+.s2n.mandi .mall{flex:none;padding:7px 12px;border-radius:16px;background:#F5A23A;color:#2E0827;font-weight:800;font-size:12.5px;text-decoration:none}
+.s2n.mandi .mrows{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.s2n.mandi .mrows li{display:grid;grid-template-columns:30px 1fr auto;align-items:center;gap:8px;padding:10px 0;border-bottom:1px solid var(--line)}
+.s2n.mandi .me{font-size:22px;text-align:center}
+.s2n.mandi .mn b{display:block;font-size:16px;color:var(--ink)}.s2n.mandi .mn small,.s2n.mandi .mp small{font-size:11.5px;color:var(--muted);font-weight:600}
+.s2n.mandi .mp{text-align:right}.s2n.mandi .mp b{display:block;font-family:'Outfit',var(--body);font-size:19px;font-weight:800;color:#4A0E3F}
+:root[data-theme="dark"] .s2n.mandi .mp b{color:#F5A23A}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .s2n.mandi .mp b{color:#F5A23A}}
+.s2n.mandi .mwarn{margin:4px 0 0;font-size:12px;line-height:1.5;color:var(--muted)}
+.story.s2n.mandi.t1 .mwarn{display:none}.story.s2n.mandi.t2 .mrows li:nth-child(n+5){display:none}.story.s2n.mandi.t3 .mrows li:nth-child(n+4){display:none}
 .s2n .bmark{top:11px;bottom:auto!important;right:12px;padding:4px 10px 4px 4px;font-size:12.5px}.s2n .bmark img{width:19px;height:19px}
 .s2n .bchip{max-width:calc(100% - 150px)}
 .s2n.hasph .bmark{top:11px}
@@ -483,6 +503,9 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 /* ===== now-playing bar while the news is read aloud ===== */
 .s2np{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom,0px));z-index:70;max-width:520px;margin:0 auto;display:flex;align-items:center;gap:10px;padding:8px 8px 8px 8px;border-radius:20px;background:linear-gradient(120deg,#2E0827 0%,#4A0E3F 60%,#6E2361 100%);color:#FFFDF5;box-shadow:0 10px 30px rgba(46,8,39,.45),0 0 0 1px rgba(245,162,58,.35)}
 .s2np[hidden]{display:none}
+.s2np{overflow:hidden}.s2np .npp{position:absolute;left:0;right:0;bottom:0;height:3px;background:rgba(255,253,245,.15)}.s2np .npp i{display:block;height:100%;width:0;background:#F5A23A;transition:width .35s linear}
+.s2np.paused .eq b{animation-play-state:paused;opacity:.5}
+@media (max-width:380px){.s2np .npi{display:none}}
 .s2np .npi{flex:none;width:44px;height:44px;border-radius:12px;background:#FFFDF5;display:flex;align-items:center;justify-content:center}
 .s2np .npi img{width:38px;height:38px;border-radius:9px}
 .s2np .npt{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
@@ -538,7 +561,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
     <button class="icon" id="setBtn" type="button" aria-label="సెట్టింగ్స్"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg></button>
   </header>
   <nav class="tabs" id="tabs" aria-label="విభాగాలు"></nav>
-  <main class="feed" id="feed" aria-label="వార్తలు"><!--SSR--><div class="ssr" lang="en"><h1>Swipe2News – Telangana, Andhra Pradesh, India &amp; World news in short</h1><p>Know More. Scroll Less. Short, sourced news from every district of Telangana and Andhra Pradesh, plus the most important news from India and the world – in Telugu, English and Hindi. Every story names and links its original source.</p><p><a href="/en/">English news</a> · <a href="/te/">తెలుగు వార్తలు</a> · <a href="/hi/">हिन्दी खबरें</a> · <a href="/web/">Latest news website</a> · <a href="/install.html">Install the app</a> · <a href="/epaper/">E-paper</a> · <a href="/?jobs=1">Jobs</a></p><h2>Top stories</h2><ul><li><a href="/s/80x55t?l=en">Ban on Zakir Naik&#x27;s IRF extended by five more years</a> <small>Telangana Today (PTI) · 13.11.2026 17:35</small></li><li><a href="/s/778jl4?l=en">Hyderabad to host global NDE, aerospace inspection conferences from Nov 15</a> <small>Telangana Today · 13.11.2026 17:05</small></li><li><a href="/s/1rbs7k9?l=en">Women&#x27;s safety, organised crime top priorities: CP Mahesh Bhagwat</a> <small>Telangana Today · 13.11.2026 17:05</small></li><li><a href="/s/a0w8eq?l=en">Update: Contract hospital staff protests enter day two, strike warning issued</a> <small>Telangana Today · 13.11.2026 17:05</small></li><li><a href="/s/cscapq?l=en">Traffic police book five cases over fake, tampered number plates</a> <small>Telangana Today · 13.11.2026 17:05</small></li><li><a href="/s/zfvjae?l=en">Update: CII summit&#x27;s final day brings 11 MoUs worth ₹1.40 lakh crore</a> <small>NewsMeter · 13.11.2026 17:35</small></li><li><a href="/s/1opujct?l=en">KNRUHS begins first-phase counselling for PG medical admissions</a> <small>Telangana Today · 13.11.2026 17:05</small></li><li><a href="/s/174f8vd?l=en">KPHB–Mindspace PRT corridor must be ready within a year: CM</a> <small>Siasat Daily · 13.11.2026 17:05</small></li><li><a href="/s/1boe9po?l=en">Hyderabad devotee donates ₹10 crore to TTD Annaprasadam trust</a> <small>The Siasat Daily (PTI) · 13.11.2026 17:35</small></li><li><a href="/s/1w63b50?l=en">Tharoor alleges 115 foreign speakers barred from Bharat Summit</a> <small>The Siasat Daily (IANS) · 13.11.2026 17:35</small></li><li><a href="/s/fpx5p2?l=en">CII summit day two: 12 MoUs; CM stresses P4 and quantum tech</a> <small>The Hans India · 13.11.2026 17:05</small></li><li><a href="/s/1ytzd5f?l=en">BRS stages dharna demanding halt to Kukatpally truck park land auction</a> <small>ETV Bharat · 13.11.2026 17:35</small></li><li><a href="/s/hdnnt0?l=en">CII summit day one: 73 MoUs worth Rs 5.84 lakh crore</a> <small>ETV Bharat · 13.11.2026 17:05</small></li><li><a href="/s/11rlk7b?l=en">Central team tours Cyclone Murasu-hit districts today and tomorrow</a> <small>ETV Bharat · 13.11.2026 17:05</small></li><li><a href="/s/1csgj5y?l=en">Two polytechnic students drown in pond in Pendurthi mandal</a> <small>ETV Bharat · 13.11.2026 17:05</small></li><li><a href="/s/siyyl8?l=en">Acid-laden lorry overturns near Allagadda, one dead</a> <small>ETV Bharat · 13.11.2026 17:05</small></li><li><a href="/s/1uqazl3?l=en">Elderly man killed in Ambajipeta mandal; locals catch suspect</a> <small>ETV Bharat · 13.11.2026 17:05</small></li><li><a href="/s/t3bevg?l=en">Sexual harassment allegations: PJTAU VC appears before Women&#x27;s Commission</a> <small>Telangana Today · 13.11.2026 17:05</small></li><li><a href="/s/1c5l0m?l=en">Malkajgiri civic body holds 10-km &#x27;Sweat Run&#x27; for water, power saving</a> <small>Telangana Today · 12.11.2026 23:05</small></li><li><a href="/s/17kv7xn?l=en">GHMC demolishes over 60 shelters on stormwater drain in Tolichowki</a> <small>Telangana Today · 12.11.2026 23:05</small></li><li><a href="/s/1rl7knj?l=en">Safety groups sue five tech firms to halt new AI models</a> <small>AP (via Telangana Today) · 12.11.2026 22:35</small></li><li><a href="/s/18kx3lc?l=en">Koti Deepotsavam at Hyderabad&#x27;s NTR Stadium from November 14</a> <small>Telangana Today · 12.11.2026 22:35</small></li><li><a href="/s/1aercyi?l=en">Coal production halted for third day at Kothagudem VK opencast mine</a> <small>Telangana Today · 12.11.2026 21:05</small></li><li><a href="/s/tfs5iz?l=en">Manjeera water cut from January: 3.5 lakh Cyberabad connections hit</a> <small>Telangana Today · 12.11.2026 21:05</small></li></ul><p class="ssrf"><a href="/about.html">About</a> · <a href="/editorial-policy.html">Editorial policy</a> · <a href="/editorial-policy.html#corrections">Corrections</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p><p class="ssrw">Loading news… · వార్తలు లోడ్ అవుతున్నాయి…</p></div><!--/SSR--></main>
+  <main class="feed" id="feed" aria-label="వార్తలు"><!--SSR--><div class="ssr" lang="en"><h1>Swipe2News – Telangana, Andhra Pradesh, India &amp; World news in short</h1><p>Know More. Scroll Less. Short, sourced news from every district of Telangana and Andhra Pradesh, plus the most important news from India and the world – in Telugu, English and Hindi. Every story names and links its original source.</p><p><a href="/en/">English news</a> · <a href="/te/">తెలుగు వార్తలు</a> · <a href="/hi/">हिन्दी खबरें</a> · <a href="/web/">Latest news website</a> · <a href="/install.html">Install the app</a> · <a href="/epaper/">E-paper</a> · <a href="/mandi/">Mandi prices</a> · <a href="/?jobs=1">Jobs</a></p><h2>Top stories</h2><ul><li><a href="/s/oh0pr4?l=en">ACB books Nagarkurnool irrigation official in disproportionate assets case</a> <small>The Siasat Daily · 13.11.2026 18:05</small></li><li><a href="/s/80x55t?l=en">Ban on Zakir Naik&#x27;s IRF extended by five more years</a> <small>Telangana Today (PTI) · 13.11.2026 17:35</small></li><li><a href="/s/778jl4?l=en">Hyderabad to host global NDE, aerospace inspection conferences from Nov 15</a> <small>Telangana Today · 13.11.2026 17:05</small></li><li><a href="/s/1rbs7k9?l=en">Women&#x27;s safety, organised crime top priorities: CP Mahesh Bhagwat</a> <small>Telangana Today · 13.11.2026 17:05</small></li><li><a href="/s/a0w8eq?l=en">Update: Contract hospital staff protests enter day two, strike warning issued</a> <small>Telangana Today · 13.11.2026 17:05</small></li><li><a href="/s/cscapq?l=en">Traffic police book five cases over fake, tampered number plates</a> <small>Telangana Today · 13.11.2026 17:05</small></li><li><a href="/s/kpbpct?l=en">Three Telangana farmers die by suicide amid debt and crop loss</a> <small>The Siasat Daily · 13.11.2026 18:05</small></li><li><a href="/s/zfvjae?l=en">Update: CII summit&#x27;s final day brings 11 MoUs worth ₹1.40 lakh crore</a> <small>NewsMeter · 13.11.2026 17:35</small></li><li><a href="/s/1opujct?l=en">KNRUHS begins first-phase counselling for PG medical admissions</a> <small>Telangana Today · 13.11.2026 17:05</small></li><li><a href="/s/174f8vd?l=en">KPHB–Mindspace PRT corridor must be ready within a year: CM</a> <small>Siasat Daily · 13.11.2026 17:05</small></li><li><a href="/s/1boe9po?l=en">Hyderabad devotee donates ₹10 crore to TTD Annaprasadam trust</a> <small>The Siasat Daily (PTI) · 13.11.2026 17:35</small></li><li><a href="/s/1w63b50?l=en">Tharoor alleges 115 foreign speakers barred from Bharat Summit</a> <small>The Siasat Daily (IANS) · 13.11.2026 17:35</small></li><li><a href="/s/fpx5p2?l=en">CII summit day two: 12 MoUs; CM stresses P4 and quantum tech</a> <small>The Hans India · 13.11.2026 17:05</small></li><li><a href="/s/1ytzd5f?l=en">BRS stages dharna demanding halt to Kukatpally truck park land auction</a> <small>ETV Bharat · 13.11.2026 17:35</small></li><li><a href="/s/hdnnt0?l=en">CII summit day one: 73 MoUs worth Rs 5.84 lakh crore</a> <small>ETV Bharat · 13.11.2026 17:05</small></li><li><a href="/s/11rlk7b?l=en">Central team tours Cyclone Murasu-hit districts today and tomorrow</a> <small>ETV Bharat · 13.11.2026 17:05</small></li><li><a href="/s/1csgj5y?l=en">Two polytechnic students drown in pond in Pendurthi mandal</a> <small>ETV Bharat · 13.11.2026 17:05</small></li><li><a href="/s/siyyl8?l=en">Acid-laden lorry overturns near Allagadda, one dead</a> <small>ETV Bharat · 13.11.2026 17:05</small></li><li><a href="/s/1uqazl3?l=en">Elderly man killed in Ambajipeta mandal; locals catch suspect</a> <small>ETV Bharat · 13.11.2026 17:05</small></li><li><a href="/s/t3bevg?l=en">Sexual harassment allegations: PJTAU VC appears before Women&#x27;s Commission</a> <small>Telangana Today · 13.11.2026 17:05</small></li><li><a href="/s/1c5l0m?l=en">Malkajgiri civic body holds 10-km &#x27;Sweat Run&#x27; for water, power saving</a> <small>Telangana Today · 12.11.2026 23:05</small></li><li><a href="/s/17kv7xn?l=en">GHMC demolishes over 60 shelters on stormwater drain in Tolichowki</a> <small>Telangana Today · 12.11.2026 23:05</small></li><li><a href="/s/1rl7knj?l=en">Safety groups sue five tech firms to halt new AI models</a> <small>AP (via Telangana Today) · 12.11.2026 22:35</small></li><li><a href="/s/18kx3lc?l=en">Koti Deepotsavam at Hyderabad&#x27;s NTR Stadium from November 14</a> <small>Telangana Today · 12.11.2026 22:35</small></li></ul><p class="ssrf"><a href="/about.html">About</a> · <a href="/editorial-policy.html">Editorial policy</a> · <a href="/editorial-policy.html#corrections">Corrections</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p><p class="ssrw">Loading news… · వార్తలు లోడ్ అవుతున్నాయి…</p></div><!--/SSR--></main>
   <div class="installbar" id="installBar" hidden role="dialog" aria-label="యాప్ ఇన్‌స్టాల్">
     <img src="icon-192.png" alt="">
     <div class="t"><b>Swipe2News యాప్‌ను హోమ్ స్క్రీన్‌కు జోడించండి</b><span>ఉచితం · ఒక్క టచ్‌తో వార్తలు · 🔔 అలర్ట్‌లు</span></div>
@@ -650,12 +673,15 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
       <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
       <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
-      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 5.2 · Swipe2News</p>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 5.3 · Swipe2News</p>
     </div></div>
   </section>
   <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">
+    <span class="npp" aria-hidden="true"><i id="npBar"></i></span>
     <span class="npi"><img src="icon-192.png" alt=""></span>
     <span class="npt"><span class="npb">swipe2news<i>.</i> <em id="npLab">వింటున్నారు</em><span class="eq" aria-hidden="true"><b></b><b></b><b></b><b></b></span></span><span class="nph" id="npH"></span></span>
+    <button type="button" class="npn" id="npReplay" aria-label="మళ్లీ వినండి · Replay"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4.5h4.5"/></svg></button>
+    <button type="button" class="npn" id="npPause" aria-label="పాజ్ · Pause"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg></button>
     <button type="button" class="npn" id="npNext" aria-label="తర్వాతి వార్త"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M6 5l9 7-9 7zM16 5h3v14h-3z"/></svg></button>
     <button type="button" class="nps" id="npStop" aria-label="ఆపండి"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2"/></svg></button>
   </div>
@@ -667,6 +693,8 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
         <button type="button" data-do="place"><span>📍</span><b>నా ప్రాంతం · My area</b></button>
         <button type="button" data-do="set"><span>⚙️</span><b>సెట్టింగ్స్ · Settings</b></button>
         <a href="/web/"><span>📰</span><b>తాజా వార్తలు · Latest news</b></a>
+        <a href="/mandi/"><span>🌾</span><b>మండీ ధరలు · Mandi prices</b></a>
+        <a href="/morning/"><span>☀️</span><b>బ్రీఫింగ్ · Briefing</b></a>
       </div>
       <h3>విభాగాలు · Sections</h3>
       <div id="s2mTabs"></div>
@@ -700,6 +728,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 </div>
 
 <script src="scenes.js?v=20261113a"></script>
+<script src="mandi.js?v=1"></script>
 <script>
 const CONFIG = {
   NEWS_URL: 'news.json',
@@ -747,9 +776,9 @@ const PLACES = [
 const LANGS = [['te','తెలుగు','Telugu'],['en','English','ఇంగ్లీష్'],['hi','हिन्दी','హిందీ']];
 /* reader's language: stories carry en:{…} and hi:{…}; missing ones stay in Telugu */
 const LG = () => (prefs&&prefs.lang)||'te';
-const UI = {te:{read:'పూర్తి వార్త చదవండి →',hint:'తర్వాతి వార్త: ← ఎడమకు లేదా ↓ కిందకు స్వైప్ చేయండి',news:'వార్త',speech:'te-IN',src:'Source | మూలం',tag:'Know More. Scroll Less.',sub:'తక్కువ స్క్రోల్, ఎక్కువ సమాచారం',l1:'ఒక్క స్వైప్‌లో వార్తలు!',min:'ని. చదవడం',listen:'వినండి',swipe:'ఎడమకు స్వైప్ – తర్వాతి వార్త',swp:'స్వైప్',ai:'AI సారాంశం',nxt:'తర్వాతి వార్త',full:'పూర్తి కథనం →',save:'సేవ్',img:'చిత్రం సేవ్',share:'షేర్',lname:'తెలుగు'},
-  en:{read:'Read full story →',hint:'Next story: swipe ← left or ↓ down',news:'News',speech:'en-IN',src:'Source',tag:'Know More. Scroll Less.',sub:'Short news you can check',l1:'News in one swipe!',min:'min read',listen:'Listen',swipe:'Swipe left for next',swp:'swipe',ai:'AI summary',nxt:'Next story',full:'Full story →',save:'Save',img:'Save image',share:'Share',lname:'English'},
-  hi:{read:'पूरी खबर पढ़ें →',hint:'अगली खबर: ← बाएँ या ↓ नीचे स्वाइप करें',news:'खबर',speech:'hi-IN',src:'स्रोत',tag:'कम स्क्रॉल, ज़्यादा जानकारी',sub:'तेज़ और छोटी खबरें, आपकी भाषा में',l1:'एक स्वाइप में खबरें!',min:'मिनट पढ़ें',listen:'सुनें',swipe:'अगली खबर के लिए बाएँ स्वाइप करें',swp:'स्वाइप',ai:'AI सारांश',nxt:'अगली खबर',full:'पूरी खबर →',save:'सेव',img:'इमेज सेव',share:'शेयर',lname:'हिन्दी'}};
+const UI = {te:{read:'పూర్తి వార్త చదవండి →',hint:'తర్వాతి వార్త: ← ఎడమకు లేదా ↓ కిందకు స్వైప్ చేయండి',news:'వార్త',speech:'te-IN',src:'Source | మూలం',tag:'Know More. Scroll Less.',sub:'తక్కువ స్క్రోల్, ఎక్కువ సమాచారం',l1:'ఒక్క స్వైప్‌లో వార్తలు!',min:'ని. చదవడం',listen:'వినండి',swipe:'ఎడమకు స్వైప్ – తర్వాతి వార్త',swp:'స్వైప్',ai:'AI సారాంశం',nxt:'తర్వాతి వార్త',full:'అసలు కథనం →',save:'సేవ్',img:'చిత్రం సేవ్',share:'షేర్',lname:'తెలుగు'},
+  en:{read:'Read full story →',hint:'Next story: swipe ← left or ↓ down',news:'News',speech:'en-IN',src:'Source',tag:'Know More. Scroll Less.',sub:'Short news you can check',l1:'News in one swipe!',min:'min read',listen:'Listen',swipe:'Swipe left for next',swp:'swipe',ai:'AI summary',nxt:'Next story',full:'Original report →',save:'Save',img:'Save image',share:'Share',lname:'English'},
+  hi:{read:'पूरी खबर पढ़ें →',hint:'अगली खबर: ← बाएँ या ↓ नीचे स्वाइप करें',news:'खबर',speech:'hi-IN',src:'स्रोत',tag:'कम स्क्रॉल, ज़्यादा जानकारी',sub:'तेज़ और छोटी खबरें, आपकी भाषा में',l1:'एक स्वाइप में खबरें!',min:'मिनट पढ़ें',listen:'सुनें',swipe:'अगली खबर के लिए बाएँ स्वाइप करें',swp:'स्वाइप',ai:'AI सारांश',nxt:'अगली खबर',full:'मूल रिपोर्ट →',save:'सेव',img:'इमेज सेव',share:'शेयर',lname:'हिन्दी'}};
 const U = k => (UI[LG()]||UI.te)[k];
 /* job card words in the reader's language */
 const JU = {
@@ -974,7 +1003,29 @@ function linkSheet(link){
   o.hidden=false;
 }
 function promoItem(n){ return {kind:'promo', h:'Swipe2News – మీ ఊరి వార్తలు ఇప్పుడే మీ చేతిలో', p:'WhatsApp ఛానెల్‌లో జాయిన్ అవ్వండి, swipe2news.com విజిట్ చేయండి.', url:'https://swipe2news.com/#promo'+n, src:'Swipe2News', d:''}; }
-function withPromos(list){
+/* mandi prices card (13 Nov 2026): 4th card in the main feed, reader's district first */
+let MANDI=null; try{ window.S2Mandi && S2Mandi.load().then(d=>{ MANDI=d; try{ if(view==='home'&&section==='all'&&LIST&&LIST.length&&cur<3&&!LIST.some(x=>x.kind==='mandi')) renderFeed(keyOf(LIST[cur])); }catch(e){} }); }catch(e){}
+function mandiItem(){ if(!MANDI||!MANDI.rows||!MANDI.rows.length) return null; const pk=(prefs&&prefs.place)||'';
+  const pkd=S2Mandi.pick(MANDI,pk,6); if(!pkd.rows.length) return null;
+  return {kind:'mandi', m:pkd, h:'మండీ ధరలు', p:pkd.rows.map(r=>S2Mandi.cropName(r.crop,'te')+' '+r.modal).join(', '), url:'https://swipe2news.com/mandi/', src:'Agmarknet', d:''}; }
+function mandiHTML(s,i){
+  const M=S2Mandi, l=LG(), U=M.UI[l], m=s.m, pk=(prefs&&prefs.place)||'';
+  const where=m.local?M.placeName(pk,l):(m.st==='AP'?(l==='te'?'ఆంధ్రప్రదేశ్':l==='hi'?'आंध्र प्रदेश':'Andhra Pradesh'):(l==='te'?'తెలంగాణ':l==='hi'?'तेलंगाना':'Telangana'));
+  const d=m.rows.map(r=>r.date).sort().pop();
+  return `<article class="story s2n mandi" aria-label="${esc(U.t)}">
+  <div class="mhd"><div><b>🌾 ${esc(U.t)}</b><span>${esc(where)} · ${esc(M.dmy(d,l))}</span></div><a href="/mandi/" class="mall">${esc(U.more)}</a></div>
+  <div class="text"><ul class="mrows">${m.rows.map(r=>`<li><span class="me">${(M.CROPS[r.crop]||{}).e||'•'}</span><span class="mn"><b>${esc(M.cropName(r.crop,l))}</b><small>${esc(r.mkt)}${m.local?'':' · '+esc(M.placeName(r.place,l))}</small></span><span class="mp"><b>${M.inr(r.modal)}</b><small>/ ${esc(U.q.replace(/^per /,''))}</small></span></li>`).join('')}</ul>
+  <p class="mwarn">ℹ️ ${esc(U.warn)}</p><div class="srow"><span class="src">${esc(U.src)}: <b>Agmarknet (Govt of India)</b></span><a class="read" href="/mandi/">${esc(U.more)}</a></div></div>
+  <div class="spacer" data-sp="${i}"></div>
+  <div class="cfoot"><span>Know More. Scroll Less.</span><button class="pnext" type="button"><small>← ${U===M.UI.en?'swipe':l==='hi'?'स्वाइप':'స్వైప్'}</small>${esc(UI[l].nxt)}<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button></div>
+</article>`;
+}
+function withMandi(list){ if(view!=='home'||section!=='all'||list.length<4) return list; const mi=mandiItem(); if(!mi) return list; const o=list.slice(); o.splice(3,0,mi); return o; }
+function withHouse(list){ const C=CONFIG.SPACE; if(!C||!C.on||view!=='home') return list; const house=(C.HOUSE||[]).filter(k=>SPACE_TX[k]&&!(k==='jobs'&&spaceJobsN()<3)); if(!house.length) return list;
+  const o=[]; let n=0; list.forEach((x,i)=>{ o.push(x); if((i+1)%8===6) o.push({kind:'house',k:house[(n++)%house.length],h:'Swipe2News',p:'',url:'https://swipe2news.com/',src:'Swipe2News',d:''}); }); return o; }
+function houseHTML(s,i){ const c=SPACE_TX[s.k], L=LG(), x=c[L]||c.te, link=c.link(), ext=/^https?:|^tel:/.test(link)?' target="_blank" rel="noopener"':'';
+  return `<article class="story s2n house" aria-label="Swipe2News" style="--hg:${c.g};--ha:${c.ac}"><div class="hwrap"><span class="hic">${c.ic}</span><b class="ht">${esc(x[0].replace('{n}',spaceJobsN()))}</b><span class="hs">${esc(x[1])}</span><a class="hcta" data-sk="${esc(s.k)}" href="${esc(link)}"${ext}>${esc(x[2])} →</a><span class="hb"><img src="icon-192.png" alt="">swipe2news<i>.</i></span></div><div class="cfoot"><span>Know More. Scroll Less.</span><button class="pnext" type="button">${esc(UI[L].nxt)}<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button></div></article>`; }
+function withPromos(list){ list=withHouse(withMandi(list));
   const G=CONFIG.GREETING; let gr=null;
   if(G && Date.now()<new Date(G.until).getTime() && view!=='saved' && view!=='jobs') gr={kind:'promo', greet:1, img:G.img, h:'దీపావళి శుభాకాంక్షలు – Swipe2News', p:'', url:G.page, src:'Swipe2News', d:''};
   const P=CONFIG.PROMO; if(!P||!P.on||view==='saved'||view==='jobs'||list.length<P.every) return gr?[gr].concat(list):list;
@@ -996,14 +1047,22 @@ function lblOf(s){ let k=s.lbl; if(LBL[k]) return k;
   if(/ఆరోపణ|allege|आरोप/.test(String(s.h||'')+String(s.p||''))) return 'claim'; return ''; }
 function trustHTML(s){ const k=lblOf(s), l=LG(); const t=k?`<span class="tl ${k}">${esc(LBL[k][l]||LBL[k].en)}</span>`:'';
   return `<div class="trust">${t}<span class="aic"><svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>${U('ai')}</span></div>`; }
+function whenTxt(s){ const l=LG(), m=/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/.exec(String(s.d||'')), t=/^(\d{1,2}):(\d{2})$/.exec(String(s.t||''));
+  const MN={te:['జన','ఫిబ్ర','మార్చి','ఏప్రి','మే','జూన్','జులై','ఆగ','సెప్టెం','అక్టో','నవం','డిసెం'],en:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],hi:['जन','फ़र','मार्च','अप्रै','मई','जून','जुला','अग','सित','अक्टू','नव','दिस']}[l]||[];
+  const d=m?(+m[1])+' '+MN[+m[2]-1]:esc(s.d||''); if(!t) return d;
+  const H=+t[1], h12=(H%12)||12, mm=t[2];
+  const tt=l==='en'?`${h12}:${mm} ${H<12?'am':'pm'}`:l==='hi'?`${H<12?'सुबह':H<16?'दोपहर':H<19?'शाम':'रात'} ${h12}:${mm}`:`${H<12?'ఉ.':H<16?'మ.':H<19?'సా.':'రా.'} ${h12}:${mm}`;
+  return d?d+', '+tt:tt; }
 function statusChip(s){ const k=lblOf(s), l=LG(); return k?`<span class="tl ${k}">${esc(LBL[k][l]||LBL[k].en)}</span>`:''; }
-function aiChip(){ return `<span class="aic"><svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>${U('ai')}</span>`; }
+function aiChip(){ return `<a class="aic" href="/editorial-policy.html#no-clickbait" title="How we write · మా విధానం"><svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>${U('ai')}</a>`; }
 function trustChips(s){ const k=lblOf(s), l=LG(); return `<span class="aic"><svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>${U('ai')}</span>${k?`<span class="tl ${k}">${esc(LBL[k][l]||LBL[k].en)}</span>`:''}`; }
 function readMins(s){ const n=String(s.p||'').length+String(s.h||'').length; return Math.max(1,Math.round(n/600)); }
 function listenSecs(s){ const n=String(s.p||'').length+String(s.h||'').length; const sec=Math.max(15,Math.round(n/(LG()==='te'?9:14))); return Math.floor(sec/60)+':'+String(sec%60).padStart(2,'0'); }
 function cardHTML(s,i){
   if(s.kind==='promo') return promoHTML(s,i);
   if(s.kind==='job') return jobHTML(s,i);
+  if(s.kind==='mandi') return mandiHTML(s,i);
+  if(s.kind==='house') return houseHTML(s,i);
   const where=[s.loc, s.place&&s.place!=='TS'&&s.place!=='IN' ? placeName(s.place) : (s.st&&s.st!=='TG'&&s.st!=='IN' ? placeLabel('st-'+s.st) : '')].filter(Boolean).join(', ');
   const ph = !!storyPhoto(s);
   const read = /^https?:\/\//.test(s.url||'') ? `<a class="read" href="${esc(s.url)}" target="_blank" rel="noopener">${U('full')}</a>` : '';
@@ -1017,9 +1076,9 @@ function cardHTML(s,i){
   <div class="text"${s._lang?` lang="${s._lang}"`:''}>
     <div class="meta"><span><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>${readMins(s)} ${U('min')}</span>${where?`<span class="mloc"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>${esc(where)}</span>`:''}<button class="lis" type="button"><svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M7 4.5v15l12-7.5z" fill="currentColor"/></svg>${U('listen')} ${listenSecs(s)}</button></div>
     <h2>${esc(s.h)}</h2>
-    <div class="sline"><span class="src">${esc(s.src)}</span>${(s.d||s.t)?`<span class="stime">${esc([String(s.d||'').replace(/\.\d{4}$/,''),s.t].filter(Boolean).join(', '))}</span>`:''}${statusChip(s)}</div>
+    <div class="sline"><span class="src">${esc(s.src)}</span>${(s.d||s.t)?`<span class="stime">${whenTxt(s)}</span>`:''}${statusChip(s)}</div>
     <p class="sum">${esc(s.p)}</p>${Array.isArray(s.pts)&&s.pts.length?`<ul class="kpts">${s.pts.slice(0,3).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${corrNote(s)}
-    <div class="srow">${aiChip()}${read}</div>
+    <div class="srow">${aiChip()}<span class="aid">${esc({te:s.src+' కథనం ఆధారంగా',en:'of reporting by '+s.src,hi:s.src+' की रिपोर्ट पर'}[LG()]||'')}</span>${read}</div>
   </div>
   <div class="spacer" data-sp="${i}"></div>
   <div class="cacts">
@@ -1064,8 +1123,7 @@ function spacePick(s,i){ const C=CONFIG.SPACE; if(!C||!C.on||!s||s.kind==='promo
   const now=Date.now(), pl=(prefs&&prefs.place)||'';
   const ads=(C.ADS||[]).filter(a=>(!a.until||now<new Date(a.until+'T23:59:59+05:30').getTime())&&(!a.places||!a.places.length||a.places.includes(pl)||a.places.includes(s.place)));
   if(ads.length && i%2===0) return {paid:ads[(i/2|0)%ads.length]};
-  let house=(C.HOUSE||[]).filter(k=>SPACE_TX[k]&&!(k==='jobs'&&spaceJobsN()<3));
-  if(!house.length) return null; return {k:house[i%house.length]}; }
+  return null; /* 13 Nov 2026: house promos (e-paper, reporter, jobs, share) no longer sit inside story cards; they run as cards between stories */ }
 function spaceHTML(p,size){ const L=LG();
   let ic,t,sub,cta,link,g,ac,lab,img='',key;
   if(p.paid){ const a=p.paid; key='ad:'+a.id; ic=a.icon||'🏪'; t=a.t; sub=a.s||''; cta=a.cta||'సంప్రదించండి'; link=a.link||'#'; g=a.g||'linear-gradient(135deg,#1B1B1B,#3A3A3A)'; ac=a.ac||'#F5A23A'; lab='ప్రకటన · Sponsored'; img=a.img?`<img src="${esc(a.img)}" alt="">`:''; }
@@ -1111,6 +1169,7 @@ function renderFeed(keepKey){
   feed.innerHTML = LIST.map(cardHTML).join('');
   feed.querySelectorAll('[data-psh]').forEach(b=>b.onclick=()=>shareCard(true));
   feed.querySelectorAll('.vplay').forEach(b=>b.onclick=()=>playVideo(b.dataset.vid));
+  feed.querySelectorAll('.s2n.house [data-sk]').forEach(a=>{ const k=a.dataset.sk; a.onclick=e=>{ try{ window.gtag&&gtag('event','space_click',{space:k,at:'card'}); }catch(_){} if(SPACE_TX[k]&&SPACE_TX[k].view){ e.preventDefault(); setView(SPACE_TX[k].view); } }; });
   cur=0; cards=[...feed.querySelectorAll('.story')];
   if(JUMP){ const j=LIST.findIndex(x=>sid(x)===JUMP); JUMP=null; if(j>0) cur=j; }
   else if(keepKey){ const j=LIST.findIndex(x=>keyOf(x)===keepKey); if(j>0) cur=j; }
@@ -1400,24 +1459,31 @@ function voiceText(s){ if(!s||s.kind==='promo') return '';
     ? [s.h, s.sum, s.posts&&(J('posts')+' '+s.posts), s.qual&&(J('elig').slice(3)+' '+s.qual), s.last&&(J('lastd')+' '+teDate(s.last))].filter(Boolean).join('. ')
     : [s.h, s.p, ...(Array.isArray(s.pts)?s.pts:[])].filter(Boolean).join('. '); }
 function radioUI(){ const on=String(RADIO); $('listenBtn').setAttribute('aria-pressed',on); const f=$('fsPlay'); if(f){ f.setAttribute('aria-pressed',on); f.querySelector('span').textContent = RADIO ? ({te:'ఆపండి',en:'Stop',hi:'रोकें'}[LG()]||'ఆపండి') : ({te:'వార్తలు వినండి',en:'Listen',hi:'ख़बरें सुनें'}[LG()]||'వార్తలు వినండి'); } }
-function speakCur(){ clearTimeout(rWait); if(!RADIO) return; const s=LIST[cur], tok=++rTok;
+let rParts=[], rIdx=0, rPaused=false;
+function npProg(f){ const b=document.getElementById('npBar'); if(b) b.style.width=Math.max(0,Math.min(100,f*100))+'%'; }
+function npPauseUI(){ const n=document.getElementById('s2np'); if(n) n.classList.toggle('paused',rPaused); const b=document.getElementById('npPause'); if(b){ b.setAttribute('aria-label',rPaused?({te:'కొనసాగించండి',en:'Resume',hi:'जारी रखें'}[LG()]):({te:'పాజ్',en:'Pause',hi:'रोकें'}[LG()])); b.innerHTML=rPaused?'<svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15l12-7.5z"/></svg>':'<svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>'; } const l=document.getElementById('npLab'); if(l) l.textContent=rPaused?({te:'పాజ్ చేశారు',en:'Paused',hi:'रुका हुआ'}[LG()]):({te:'వింటున్నారు',en:'Listening',hi:'सुन रहे हैं'}[LG()]); }
+function npPause(){ if(!RADIO) return; if(!rPaused){ rPaused=true; rTok++; clearTimeout(rWait); try{ synth.cancel(); }catch(e){} } else { rPaused=false; speakCur(rIdx); } npPauseUI(); }
+function npReplay(){ if(!RADIO) return; rPaused=false; npPauseUI(); rTok++; try{ synth.cancel(); }catch(e){} speakCur(0); }
+function speakCur(from){ clearTimeout(rWait); if(!RADIO||rPaused) return; const s=LIST[cur], tok=++rTok;
   const text=voiceText(s); if(!text){ rWait=setTimeout(()=>{ if(RADIO&&tok===rTok) go(cur+1,'left'); },900); return; }
   // short pieces: Android Chrome stops long speech after ~15 s
   const parts=(text.replace(/\s+/g,' ').match(/[^.!?।]+[.!?।]*\s*|[.!?।]+\s*/g)||[]).map(x=>x.trim()).filter(Boolean).reduce((a,x)=>{ if(a.length && (a[a.length-1]+' '+x).length<180) a[a.length-1]+=' '+x; else a.push(x); return a; },[]);
   const sl=U('speech'), v=synth.getVoices().find(v=>v.lang.replace('_','-').toLowerCase().startsWith(sl.slice(0,2)));
   try{ synth.cancel(); }catch(e){}
-  parts.forEach((x,i)=>{ const u=new SpeechSynthesisUtterance(x); u.lang=sl; u.rate=0.95; if(v) u.voice=v;
-    if(i===parts.length-1) u.onend=()=>{ if(RADIO&&tok===rTok) rWait=setTimeout(()=>{ if(!(RADIO&&tok===rTok)) return; const was=cur; go(cur+1,'left'); setTimeout(()=>{ if(RADIO&&tok===rTok&&cur===was) stopVoice(); },1500); },700); };
+  rParts=parts; const st=Math.max(0,Math.min(parts.length-1,from|0)); rIdx=st; const tot=parts.reduce((a,x)=>a+x.length,0)||1, before=k=>parts.slice(0,k).reduce((a,x)=>a+x.length,0); npProg(before(st)/tot);
+  parts.forEach((x,i)=>{ if(i<st) return; const u=new SpeechSynthesisUtterance(x); u.lang=sl; u.rate=0.95; if(v) u.voice=v;
+    u.onstart=()=>{ if(tok===rTok){ rIdx=i; npProg(before(i)/tot); } }; u.onboundary=ev=>{ if(tok===rTok) npProg((before(i)+(ev.charIndex||0))/tot); };
+    if(i===parts.length-1) u.onend=()=>{ if(tok===rTok) npProg(1); if(RADIO&&tok===rTok) rWait=setTimeout(()=>{ if(!(RADIO&&tok===rTok)) return; const was=cur; go(cur+1,'left'); setTimeout(()=>{ if(RADIO&&tok===rTok&&cur===was) stopVoice(); },1500); },700); };
     u.onerror=ev=>{ if(ev&&ev.error!=='interrupted'&&ev.error!=='canceled'&&tok===rTok){ RADIO=false; radioUI(); } };
     synth.speak(u); }); }
-function stopVoice(){ RADIO=false; rTok++; clearTimeout(rWait); try{ if(synth && (synth.speaking||synth.pending)) synth.cancel(); }catch(e){} radioUI(); }
-function cardChanged(){ if(RADIO){ rTok++; try{synth.cancel()}catch(e){} clearTimeout(rWait); rWait=setTimeout(speakCur,650); } }
+function stopVoice(){ RADIO=false; rPaused=false; npPauseUI(); rTok++; clearTimeout(rWait); try{ if(synth && (synth.speaking||synth.pending)) synth.cancel(); }catch(e){} radioUI(); }
+function cardChanged(){ rIdx=0; npProg(0); if(RADIO&&rPaused){ rTok++; try{synth.cancel()}catch(e){} return; } if(RADIO){ rTok++; try{synth.cancel()}catch(e){} clearTimeout(rWait); rWait=setTimeout(speakCur,650); } }
 window.stopVoice = stopVoice; window.cardChanged = cardChanged;
 function toggleRadio(){
   if(!synth){ toast('ఈ ఫోన్‌లో వాయిస్ సపోర్ట్ లేదు'); return; }
   if(RADIO){ stopVoice(); return; }
   const sl=U('speech'); if(sl==='te-IN' && !synth.getVoices().some(v=>v.lang.replace('_','-').toLowerCase().startsWith('te'))) toast('తెలుగు వాయిస్ లేకపోతే ఫోన్ Settings → Text-to-speech లో తెలుగు జోడించండి');
-  RADIO=true; radioUI(); speakCur(); try{ window.gtag&&gtag('event','listen_start',{}); }catch(e){} }
+  RADIO=true; rPaused=false; npPauseUI(); radioUI(); speakCur(0); try{ window.gtag&&gtag('event','listen_start',{}); }catch(e){} }
 $('listenBtn').onclick=toggleRadio;
 { const f=$('fsPlay'); f.addEventListener('pointerdown',e=>e.stopPropagation()); f.onclick=e=>{ e.stopPropagation(); toggleRadio(); }; radioUI(); }
 /* Share the CARD PICTURE + caption. Used by both the share button and the green WhatsApp button. */
@@ -1840,7 +1906,7 @@ setTimeout(alertInvite, 60000);
     document.querySelectorAll('.story .meta .lis').forEach(b=>{ b.classList.toggle('on',on); if(!b.dataset.t) b.dataset.t=b.innerHTML;
       b.innerHTML=on?'<svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2" fill="currentColor"/></svg>'+l[1]:b.dataset.t; }); }
   const old=radioUI; radioUI=function(){ old.apply(this,arguments); sync(); };
-  $('npStop').onclick=()=>stopVoice(); $('npNext').onclick=()=>$('next').click();
+  $('npStop').onclick=()=>stopVoice(); $('npPause').onclick=()=>npPause(); $('npReplay').onclick=()=>npReplay(); $('npNext').onclick=()=>$('next').click();
   setInterval(()=>{ if(RADIO) sync(); },700);
 })();
 /* ===== ☰ menu: sections, jobs, saved, dates, channel, more (12 Nov 2026: full-screen cards) ===== */

@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Noto+Sans+Telugu:wght@400;600;700;800&display=swap">
 <script src="/scenes.js?v=20261113a"></script>
+<script src="/mandi.js?v=1"></script>
 <style>
 :root{--plum:#4A0E3F;--deep:#2E0827;--ap:#F5A23A;--cream:#FFFDF5;--ink:#202124;--muted:#5F6368;--line:#EDE6DF;--card:#FFFFFF}
 @media (prefers-color-scheme:dark){:root{--cream:#141214;--ink:#ECEDEF;--muted:#A6A8AD;--line:#2D2C31;--card:#1C1B1F}}
@@ -76,6 +77,12 @@ header img{height:28px;width:auto}
 @media (prefers-color-scheme:dark){.vc.mis{background:#2A1715}}
 .go{display:flex;align-items:center;justify-content:center;gap:8px;margin:22px 20px 0;height:54px;border-radius:27px;background:var(--plum);color:#fff;font-size:16px;font-weight:800}
 .go small{font-weight:600;opacity:.8}
+.mnd{display:block;border:1px solid var(--line);border-radius:18px;background:var(--card);padding:4px 14px}
+.mnd .r{display:grid;grid-template-columns:26px 1fr auto;gap:8px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+.mnd .r:last-of-type{border-bottom:0}.mnd .r span{font-size:19px;text-align:center}.mnd .r b{font-size:15px}.mnd .r small{display:block;font-size:11.5px;color:var(--muted);font-weight:600}
+.mnd .r em{font-style:normal;font-size:17px;font-weight:800;color:var(--plum)}
+@media (prefers-color-scheme:dark){.mnd .r em{color:var(--ap)}}
+.mnd .ft{padding:8px 0 10px;font-size:12px;color:var(--muted);font-weight:600;border-top:1px solid var(--line)}
 nav.bn{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--card);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
 nav.bn .in{max-width:480px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);height:68px;align-items:center}
 nav.bn a{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:11px;font-weight:600;color:var(--muted)}
@@ -142,6 +149,11 @@ nav.bn a.sw{justify-self:center;width:58px;height:58px;margin-top:-26px;border-r
     <div class="gov" id="gov"></div>
   </section>
 
+  <section class="sec" aria-label="Mandi prices" id="mandiSec" hidden>
+    <div class="lab"><span id="lM">మండీ ధరలు</span><i></i><a href="/mandi/" id="lMall">అన్నీ</a></div>
+    <a class="mnd" href="/mandi/" id="mnd"></a>
+  </section>
+
   <section class="sec" aria-label="Verify" id="verify">
     <div class="lab"><span id="lV">VERIFY · ముఖ్య వార్తలు</span><i></i></div>
     <div class="vf" id="vf"></div>
@@ -202,6 +214,12 @@ $('nmForm').onsubmit=e=>{ e.preventDefault(); const p=store.get('prefs',{})||{};
 
 async function getJSON(u){ try{ const r=await fetch(u+'?t='+Date.now(),{cache:'no-store'}); return r.ok?await r.json():null; }catch(e){ return null; } }
 let BRIEF=[];
+(async function(){ try{ const M=window.S2Mandi; if(!M) return; const L=M.lang(), U=M.UI[L], d=await M.load(), pk=(P&&P.place)||''; const m=M.pick(d,pk,4); if(!m.rows.length) return;
+  const where=m.local?M.placeName(pk,L):(m.st==='AP'?(L==='te'?'ఆంధ్రప్రదేశ్':'Andhra Pradesh'):(L==='te'?'తెలంగాణ':L==='hi'?'तेलंगाना':'Telangana'));
+  document.getElementById('lM').textContent=(L==='en'?'MANDI · ':L==='hi'?'मंडी · ':'మండీ · ')+where; document.getElementById('lMall').textContent=L==='en'?'All':L==='hi'?'सभी':'అన్నీ';
+  const e=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  document.getElementById('mnd').innerHTML=m.rows.map(r=>`<div class="r"><span>${(M.CROPS[r.crop]||{}).e||'•'}</span><div><b>${e(M.cropName(r.crop,L))}</b><small>${e(r.mkt)} · ${e(M.dmy(r.date,L))}</small></div><em>${M.inr(r.modal)}</em></div>`).join('')+`<div class="ft">₹ ${e(U.q)} · ${e(U.src)}: Agmarknet</div>`;
+  document.getElementById('mandiSec').hidden=false; }catch(e){} })();
 (async function(){
   const [news,jobs]=await Promise.all([getJSON('/news.json'),getJSON('/jobs.json')]);
   const raw=((news&&news.stories)||[]).filter(s=>!s.wd);

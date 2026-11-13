@@ -418,7 +418,7 @@ const NAVL={te:{all:'ముఖ్య వార్తలు',telangana:'తెల
 function renderNav(){
   const P=new URLSearchParams(location.search), onDates=P.has('d')||P.has('dates'), L=NAVL[w2sLang()]||NAVL.te;
   const main=['all','telangana','ap','india','world','business','sports'];
-  const more=[`<a href="/epaper/">📰 ఈ-పేపర్ · E-paper</a>`,`<a href="/?jobs=1">💼 ఉద్యోగాలు · Jobs</a>`]
+  const more=[`<a href="/epaper/">📰 ఈ-పేపర్ · E-paper</a>`,`<a href="/mandi/">🌾 మండీ ధరలు · Mandi prices</a>`,`<a href="/?jobs=1">💼 ఉద్యోగాలు · Jobs</a>`]
     .concat(WT?[`<a href="?sec=wishes" data-k="wishes">${esc(WT.label)}</a>`]:[])
     .concat([`<a href="?sec=ai" data-k="ai">🤖 AI & టెక్</a>`,`<a href="?sec=education" data-k="education">🎓 విద్య</a>`,`<a href="?sec=weather" data-k="weather">🌦️ వాతావరణం</a>`,`<a href="?dates=1" data-dates="1">📅 పాత వార్తలు · Archive</a>`,`<a href="/reporter/join.html">🎙️ రిపోర్టర్ అవ్వండి</a>`]);
   $('secs').innerHTML=main.map(k=>`<a href="?sec=${k}" data-k="${k}" aria-current="${k===section&&!onDates}">${esc(L[k])}</a>`).join('')+

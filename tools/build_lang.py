@@ -252,7 +252,7 @@ def ssr_block(S):
     li = "".join(f'<li><a href="/s/{s["_id"]}?l=en">{e(s.get("h"))}</a> <small>{e(s.get("src") or "")} · {e(s.get("d"))} {e(s.get("t") or "")}</small></li>' for s in T)
     return ('<!--SSR--><div class="ssr" lang="en"><h1>Swipe2News – Telangana, Andhra Pradesh, India &amp; World news in short</h1>'
             '<p>Know More. Scroll Less. Short, sourced news from every district of Telangana and Andhra Pradesh, plus the most important news from India and the world – in Telugu, English and Hindi. Every story names and links its original source.</p>'
-            '<p><a href="/en/">English news</a> · <a href="/te/">తెలుగు వార్తలు</a> · <a href="/hi/">हिन्दी खबरें</a> · <a href="/web/">Latest news website</a> · <a href="/install.html">Install the app</a> · <a href="/epaper/">E-paper</a> · <a href="/?jobs=1">Jobs</a></p>'
+            '<p><a href="/en/">English news</a> · <a href="/te/">తెలుగు వార్తలు</a> · <a href="/hi/">हिन्दी खबरें</a> · <a href="/web/">Latest news website</a> · <a href="/install.html">Install the app</a> · <a href="/epaper/">E-paper</a> · <a href="/mandi/">Mandi prices</a> · <a href="/?jobs=1">Jobs</a></p>'
             f'<h2>Top stories</h2><ul>{li}</ul>'
             '<p class="ssrf"><a href="/about.html">About</a> · <a href="/editorial-policy.html">Editorial policy</a> · <a href="/editorial-policy.html#corrections">Corrections</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p>'
             '<p class="ssrw">Loading news… · వార్తలు లోడ్ అవుతున్నాయి…</p></div><!--/SSR-->')
@@ -276,7 +276,7 @@ def main():
         if new != app: open(ip, "w", encoding="utf-8").write(new)
     # sitemap.xml at the root
     urls = [(SITE + "/", None)] + [(f"{SITE}/{l}/", iso(S[0]) if S else None) for l in LANGS] + \
-           [(SITE + p, None) for p in ("/web/", "/epaper/", "/install.html", "/about.html", "/editorial-policy.html", "/contact.html", "/privacy.html", "/terms.html")]
+           [(SITE + p, None) for p in ("/web/", "/mandi/", "/epaper/", "/install.html", "/about.html", "/editorial-policy.html", "/contact.html", "/privacy.html", "/terms.html")]
     seen = set()
     for f in sorted(glob.glob(os.path.join(ROOT, "s", "*.html"))):
         k = os.path.basename(f)[:-5]

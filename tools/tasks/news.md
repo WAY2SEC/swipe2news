@@ -41,7 +41,7 @@ Crime, arrests, deaths, communal/caste tension, election allegations, disasters:
 ## 3. Write each story (simple Telugu, own words)
 Fields: {cat,col,art,stat,statl,h,p,src,url,sec,st,place,loc,pts,why,d,t,pub,lbl,en,hi} plus "brk" when it applies.
 - pub: original publication time "YYYY-MM-DDTHH:MM+05:30". d: today DD.MM.YYYY. t: this edition's time HH:MM.
-- h: Telugu headline ≤ ~12 words. p: 45–65 word Telugu summary. pts: 3 key points (≤10 words each), only facts in the article. why: ONE sentence (≤20 words) on who is affected — no new facts, no opinion.
+- h: Telugu headline ≤ ~12 words. p: 45–65 word Telugu summary. pts: 2–3 key points (≤10 words each), only facts in the article that are NOT already in p (numbers, dates, names, what happens next); never restate p — if the article has no extra facts, give 2 points or fewer. Headline rule (no clickbait): h says what the story says; no shock words, no question headlines hiding the fact, no number or allegation in h that p does not support. why: ONE sentence (≤20 words) on who is affected — no new facts, no opinion.
 - brk: only for genuinely major confirmed breaking news (max 1, rarely 2 per edition).
 - cat: chip like "తెలంగాణ · ప్రభుత్వం", "హైదరాబాద్ · నీరు", "ఏపీ · విశాఖ", "భారత్ · అంతరిక్షం", "ప్రపంచం · టెక్నాలజీ". stat + statl: one big number or short phrase (≤12 chars) with a one-line label.
 - col: --c-election | --c-gov | --c-money | --c-water | --c-power | --c-city. art (only): voters, deadline, land, economy, water, rain, power, court, farm, campus, unity.

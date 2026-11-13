@@ -93,7 +93,7 @@ def shell():
     SHELL["css"] = t[t.index("<style>") + 7:t.index("</style>")] + "\n" + open(os.path.join(ROOT, "web", "s2n.css"), encoding="utf-8").read()
     hd = t[t.index('<header class="top">'):t.index('<aside class="rail l"')]
     nav = "".join(f'<a href="/?sec={k}">{n}</a>' for k, n in [('telangana','తెలంగాణ'),('ap','ఆంధ్రప్రదేశ్'),('india','దేశం'),('world','ప్రపంచం'),('business','బిజినెస్'),('sports','క్రీడలు')])
-    more = '<div class="s2more"><button type="button" aria-haspopup="true">మరిన్ని ▾</button><div class="menu"><a href="/epaper/">📰 ఈ-పేపర్ · E-paper</a><a href="/?jobs=1">💼 ఉద్యోగాలు · Jobs</a><a href="/?sec=ai">🤖 AI & టెక్</a><a href="/?sec=education">🎓 విద్య</a><a href="/?dates=1">📅 పాత వార్తలు · Archive</a><a href="/reporter/join.html">🎙️ రిపోర్టర్ అవ్వండి</a></div></div>'
+    more = '<div class="s2more"><button type="button" aria-haspopup="true">మరిన్ని ▾</button><div class="menu"><a href="/epaper/">📰 ఈ-పేపర్ · E-paper</a><a href="/mandi/">🌾 మండీ ధరలు · Mandi prices</a><a href="/?jobs=1">💼 ఉద్యోగాలు · Jobs</a><a href="/?sec=ai">🤖 AI & టెక్</a><a href="/?sec=education">🎓 విద్య</a><a href="/?dates=1">📅 పాత వార్తలు · Archive</a><a href="/reporter/join.html">🎙️ రిపోర్టర్ అవ్వండి</a></div></div>'
     hd = hd.replace('<nav class="secs" id="secs" aria-label="విభాగాలు"></nav>', f'<nav class="secs" aria-label="విభాగాలు"><a href="/">ముఖ్య వార్తలు</a>{nav}{more}</nav>')
     hd = hd.replace('<label class="search">', '<form class="search" action="/" method="get" role="search"><label style="display:contents">').replace('<kbd>/</kbd></label>', '<kbd>↵</kbd></label></form>')
     hd = hd.replace('<input id="q" type="search"', '<input id="q" name="q" type="search"')
