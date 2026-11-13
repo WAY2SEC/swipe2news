@@ -1,19 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-13T19:05:00+05:30",
+ "cutoff": "2026-11-13T20:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T10:35:00+05:30/2026-11-10T11:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "held": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first. In-window: HMTV cold-wave yellow alert (10:40), Hans India/IANS market holiday (10:53). Checked: ETV Bharat TG (latest 08:19) and AP (latest 09:22) live blogs, NewsMeter (10:33, just before window), Hans India Telangana items (05:00/05:45), Business Today/ETV English (earlier). Telangana Today/NT searches returned only listing pages; Eenadu, Sakshi, TOI, The Hindu, DC, IE, HT, NDTV, PTI, Reuters/AP/BBC, other-state and international-topic sources gave no timestamped in-window results."
-  },
   {
    "window": "2026-11-10T11:05:00+05:30/2026-11-10T11:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1294,6 +1282,19 @@
    "skipped": 1,
    "review": 1,
    "gaps": "18:35 run did not save state, so window is 18:05-19:05; lookback from 10:05. Read: TT KBR Park parking tower (19:05), UNI Naidu-TIME (18:57), ANI YSRCP claims (18:42), Just Security roundup (18:58; Iran/Hormuz, FBI Binance), IndToday OU hostel protest (15:37), Hans Bharat Summit (11:19). After END, left for next run: TT mule-accounts arrest (19:11), TT Hyderabad Valves (19:52), UNI Sridhar Babu investors (19:35), Punjab Kesari TPCC chief (19:36, no tz). Failed: Deccan Herald Naidu SIR remarks. Skipped: Euronews video bulletin (no content). Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters/AP. Districts searched: Warangal, Hanumakonda, Karimnagar, Peddapalli, Jagtial, Mahabubnagar, Mulugu, Bhupalpally, Mahabubabad, NTR, Guntur, Visakhapatnam, Kakinada, East Godavari, Nellore, Prakasam, Tirupati."
+  },
+  {
+   "window": "2026-11-13T19:05:00+05:30/2026-11-13T20:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 4,
+   "late": 1,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "20:05 run started late (21:18 IST). Lookback from 11:05. Read: TT Hyderabad Valves (19:52), TT Mancherial poaching-trap arrests (19:42), TT mule-account model arrest (19:11), DC Sridhar Babu investors (16:55; UNI 19:35 IST paywalled duplicate grouped). Skipped: Siasat Azharuddin CMRF cheques (18:13, minor), Hans mule racket (31 Oct, before lookback). After END, left for next run: TT NTR Stadium traffic diversions (20:08), TT Jeevandan organ donation Yacharam (20:12), Punjab Kesari/IANS Naidu fireside chat (20:52, no tz). Failed: Deccan Herald AP CII Rs 9.89L cr. Search mostly returned stale tag/listing pages; no AP, national or world items with verifiable times in window. Districts searched: Rangareddy, Vikarabad, Kurnool, Anantapur, Nizamabad, Kamareddy, Nirmal, Siddipet, Medak, Yadadri, Chittoor, Kadapa, Annamayya, Krishna, Eluru."
   }
  ],
  "seen": [
@@ -1566,6 +1567,41 @@
    "url": "https://www.euronews.com/video/2026/11/13/latest-news-bulletin-november-13th-2026-morning",
    "d": "2026-11-13",
    "w": "skip"
+  },
+  {
+   "url": "https://telanganatoday.com/fourth-edition-of-hyderabad-valves-2026-kicks-off-features-26-live-transcatheter-cardiac-cases",
+   "d": "2026-11-13",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/mancherial-11-arrested-after-40-year-old-dies-in-electrified-poaching-trap",
+   "d": "2026-11-13",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/freelance-model-held-for-allegedly-supplying-mule-accounts-to-cyber-fraudsters",
+   "d": "2026-11-13",
+   "w": "p"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/sridhar-babu-invites-investors-to-telangana-assures-full-government-support-2004101",
+   "d": "2026-11-13",
+   "w": "p"
+  },
+  {
+   "url": "https://www.uniindia.com/business-economy/business-telangana-bharat-summit-sridhar-babu/244475",
+   "d": "2026-11-13",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.siasat.com/minister-azharuddin-distributes-cmrf-cheques-worth-rs-15-lakh-3576599/",
+   "d": "2026-11-13",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/five-persons-arrested-in-mule-account-racket-1137666",
+   "d": "2026-11-13",
+   "w": "skipped"
   }
  ]
 }
