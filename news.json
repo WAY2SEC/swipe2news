@@ -1,8 +1,110 @@
 {
  "date": "13.11.2026",
- "updated": "2026-11-13T20:05:00+05:30",
+ "updated": "2026-11-13T20:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "హైదరాబాద్ · ట్రాఫిక్",
+   "col": "--c-city",
+   "stat": "14–30 నవం.",
+   "statl": "ఎన్టీఆర్ స్టేడియం వద్ద మళ్లింపులు",
+   "h": "కోటి దీపోత్సవం: ఎన్టీఆర్ స్టేడియం చుట్టూ నవంబర్ 14–30 ట్రాఫిక్ మళ్లింపులు",
+   "p": "ఎన్టీఆర్ స్టేడియంలో జరిగే కోటి దీపోత్సవం కోసం నవంబర్ 14 నుంచి 30 వరకు ట్రాఫిక్ మళ్లింపులు అమలు చేస్తామని హైదరాబాద్ ట్రాఫిక్ పోలీసులు ప్రకటించారు. రోజూ మధ్యాహ్నం 3 నుంచి రాత్రి 11 గంటల వరకు కట్ట మైసమ్మ ఆలయం నుంచి ఇందిరా పార్క్ క్రాస్‌రోడ్స్, అశోక్‌నగర్ నాలా వరకు రద్దీ ఉంటుందని తెలిపారు. ఆ మార్గాలకు దూరంగా ఉండాలని ప్రయాణికులకు సూచించారు.",
+   "pts": [
+    "తెలంగాణ తల్లి ఫ్లైఓవర్ వాహనాలు కవాడిగూడ, ముషీరాబాద్ మీదుగా",
+    "అశోక్‌నగర్ నుంచి వచ్చే వాహనాలు హిమాయత్‌నగర్ వైపు",
+    "ఆర్కే మఠ్ రోడ్, ధర్నా చౌక్ మార్గం నివారించాలి"
+   ],
+   "why": "లోయర్ ట్యాంక్‌బండ్, ఇందిరా పార్క్ పరిసరాల్లో రోజూ ప్రయాణించే వాహనదారులపై ప్రభావం.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/traffic-diversions-around-ntr-stadium-from-november-14-to-30",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "ఇందిరా పార్క్",
+   "pub": "2026-11-13T20:08+05:30",
+   "lbl": "fact",
+   "en": {
+    "h": "Koti Deepotsavam: traffic diversions around NTR Stadium from November 14 to 30",
+    "p": "Hyderabad Traffic Police announced diversions around NTR Stadium from November 14 to 30 for the Koti Deepotsavam held there. Congestion is expected daily from 3 pm to 11 pm between Katta Maisamma Temple, Indira Park X Roads and Ashok Nagar Nala. Commuters have been asked to avoid these routes.",
+    "pts": [
+     "Telangana Thalli flyover traffic via Kavadiguda, Musheerabad",
+     "Ashok Nagar traffic diverted towards Himayatnagar",
+     "Avoid RK Mutt Road and Dharna Chowk stretch"
+    ],
+    "why": "Affects motorists who use the Lower Tank Bund and Indira Park area daily.",
+    "cat": "Hyderabad · Traffic",
+    "statl": "diversions at NTR Stadium"
+   },
+   "hi": {
+    "h": "कोटि दीपोत्सवम: NTR स्टेडियम के आसपास 14 से 30 नवंबर तक ट्रैफिक डायवर्जन",
+    "p": "NTR स्टेडियम में होने वाले कोटि दीपोत्सवम के लिए हैदराबाद ट्रैफिक पुलिस ने 14 से 30 नवंबर तक डायवर्जन की घोषणा की है। रोज दोपहर 3 से रात 11 बजे तक कट्टा मैसम्मा मंदिर से इंदिरा पार्क क्रॉस रोड्स और अशोक नगर नाला तक भीड़ रहने की संभावना है। यात्रियों से इन रास्तों से बचने को कहा गया है।",
+    "pts": [
+     "तेलंगाना तल्ली फ्लाईओवर का ट्रैफिक कवाडीगुडा, मुशीराबाद होकर",
+     "अशोक नगर का ट्रैफिक हिमायतनगर की ओर मोड़ा जाएगा",
+     "आरके मठ रोड, धरना चौक मार्ग से बचें"
+    ],
+    "why": "लोअर टैंक बंड और इंदिरा पार्क इलाके से रोज गुजरने वाले वाहन चालकों पर असर।",
+    "cat": "हैदराबाद · ट्रैफिक",
+    "statl": "NTR स्टेडियम पर डायवर्जन"
+   },
+   "d": "13.11.2026",
+   "t": "20:35"
+  },
+  {
+   "cat": "ఏపీ · విశాఖ",
+   "col": "--c-water",
+   "art": "water",
+   "stat": "3.5 టీఎంసీ",
+   "statl": "డేటా సెంటర్లకు కావాల్సిన నీరు",
+   "h": "నీటి కొరత విశాఖ డేటా సెంటర్లకు అడ్డంకి కాదన్న సీఎం చంద్రబాబు",
+   "p": "విశాఖపట్నంలో రాబోయే డేటా సెంటర్లకు నీటి కొరత సమస్య కాదని సీఐఐ భాగస్వామ్య సదస్సులో సీఎం చంద్రబాబు నాయుడు పరిశ్రమ వర్గాలకు చెప్పారు. ఈ కేంద్రాలకు సుమారు 3.5 టీఎంసీ నీరు అవసరమని, పోలవరం ప్రాజెక్టు నుంచి విశాఖకు ఏటా 100 టీఎంసీ వరకు ఇవ్వొచ్చని తెలిపారు. డీశాలినేషన్, ఎయిర్-కూలింగ్ కూడా ప్రత్యామ్నాయాలని అన్నారు.",
+   "pts": [
+    "విశాఖలో 6 గిగావాట్లకు పైగా డేటా సెంటర్లు వివిధ దశల్లో",
+    "పోలవరం మార్చి 2027 నాటికి అందుబాటులోకి వస్తుందని అంచనా",
+    "గోదావరి–కావేరి అనుసంధానానికి పిలుపు"
+   ],
+   "why": "విశాఖ ప్రజల తాగునీటి అవసరాలు, ఐటీ ఉద్యోగాల ఆశలున్న యువతకు సంబంధించిన విషయం.",
+   "src": "Business Standard",
+   "url": "https://www.business-standard.com/industry/news/water-shortage-won-t-hinder-visakhapatnam-data-centre-growth-naidu-126111301579_1.html",
+   "sec": [
+    "telangana",
+    "business",
+    "innovation"
+   ],
+   "st": "AP",
+   "place": "ap-visakhapatnam",
+   "pub": "2026-11-13T19:37+05:30",
+   "lbl": "claim",
+   "en": {
+    "h": "Water shortage won't hinder Visakhapatnam data centres, says CM Naidu",
+    "p": "Chief Minister N. Chandrababu Naidu told industry at the CII Partnership Summit that water shortage will not be a hurdle for upcoming data centres in Visakhapatnam. He said these centres would need about 3.5 TMC of water, while the Polavaram project could supply up to 100 TMC a year to the city. He also named desalination and air-cooling as alternatives.",
+    "pts": [
+     "Over 6 GW of data centres at various stages in Vizag",
+     "Polavaram expected to be operational by March 2027",
+     "Called for Godavari–Cauvery river linking"
+    ],
+    "why": "Matters to Vizag residents' drinking water needs and to youth hoping for IT jobs.",
+    "cat": "AP · Visakhapatnam",
+    "statl": "water needed by data centres"
+   },
+   "hi": {
+    "h": "पानी की कमी विशाखापत्तनम डेटा सेंटरों में बाधा नहीं: सीएम नायडू",
+    "p": "मुख्यमंत्री एन. चंद्रबाबू नायडू ने CII पार्टनरशिप समिट में उद्योग जगत से कहा कि विशाखापत्तनम में आने वाले डेटा सेंटरों के लिए पानी की कमी बाधा नहीं बनेगी। उन्होंने कहा कि इन केंद्रों को लगभग 3.5 TMC पानी चाहिए, जबकि पोलावरम परियोजना से शहर को सालाना 100 TMC तक पानी मिल सकता है। उन्होंने डीसैलिनेशन और एयर-कूलिंग को भी विकल्प बताया।",
+    "pts": [
+     "विशाखापत्तनम में 6 GW से अधिक डेटा सेंटर विभिन्न चरणों में",
+     "पोलावरम मार्च 2027 तक चालू होने की उम्मीद",
+     "गोदावरी–कावेरी नदी जोड़ने की अपील"
+    ],
+    "why": "विशाखापत्तनम के लोगों की पेयजल जरूरतों और IT नौकरियों की उम्मीद रखने वाले युवाओं से जुड़ा मुद्दा।",
+    "cat": "आंध्र प्रदेश · विशाखापत्तनम",
+    "statl": "डेटा सेंटरों को चाहिए पानी"
+   },
+   "d": "13.11.2026",
+   "t": "20:35"
+  },
   {
    "cat": "హైదరాబాద్ · ఆరోగ్యం",
    "col": "--c-city",
@@ -2294,105 +2396,6 @@
     "why": "यह घटना काम की तलाश में आने वाली प्रवासी महिला मजदूरों की सुरक्षा पर चिंता बढ़ाती है।",
     "cat": "भद्राद्री · अपराध",
     "statl": "पाल्वंचा पुलिस"
-   },
-   "d": "12.11.2026",
-   "t": "20:35"
-  },
-  {
-   "cat": "హైదరాబాద్ · పోలీసు",
-   "col": "--c-power",
-   "art": "court",
-   "stat": "60+",
-   "statl": "స్క్రీనింగ్‌లో గుర్తించినవారు",
-   "h": "కొత్త కమిషనర్ ఆదేశాలతో 'ఆపరేషన్ థండర్‌బోల్ట్': 8 చోట్ల తనిఖీలు",
-   "p": "కమిషనర్ మహేశ్ భగవత్ ఆదేశాలతో హైదరాబాద్ పోలీసులు గురువారం ఏడు జోన్లలోని ఎనిమిది ప్రాంతాల్లో 'ఆపరేషన్ థండర్‌బోల్ట్' పేరుతో కార్డన్ సెర్చ్ నిర్వహించారు. గోల్కొండ జోన్‌లోనే వెయ్యి మందికి పైగా సిబ్బంది పాల్గొన్నారు. గంజాయి వంటి మత్తు పదార్థాల వినియోగం అనుమానంతో 60 మందికి పైగా గుర్తించినట్లు అదనపు కమిషనర్ ఎం. శ్రీనివాస్ తెలిపారు. నంబర్ ప్లేట్లు, పత్రాలు లేని వాహనాలను కూడా ఆపారు.",
-   "src": "Siasat Daily",
-   "url": "https://www.siasat.com/hyderabad-police-conducts-search-operation-under-new-commissioner-3575645/",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "pts": [
-    "ఏడు జోన్లలో 8 చోట్ల కార్డన్ సెర్చ్",
-    "డ్రగ్ టెస్ట్ కిట్లతో తనిఖీలు",
-    "పత్రాలు లేని వాహనాల యాజమాన్య పరిశీలన"
-   ],
-   "why": "నగరంలో మత్తు పదార్థాలు, నేరాల నియంత్రణపై కొత్త కమిషనర్ దృష్టిని ఇది సూచిస్తోంది.",
-   "pub": "2026-11-12T19:10+05:30",
-   "en": {
-    "h": "'Operation Thunderbolt': Hyderabad police search 8 areas on new commissioner's orders",
-    "p": "On the orders of Commissioner Mahesh Bhagwat, Hyderabad police carried out a cordon-and-search operation named 'Operation Thunderbolt' at eight locations across seven zones on Thursday. More than 1,000 personnel took part in the Golconda zone alone. Additional Commissioner M Srinivas said over 60 people were identified on suspicion of using ganja or other drugs. Vehicles without number plates or documents were also stopped.",
-    "pts": [
-     "Cordon search at 8 locations in seven zones",
-     "Checks conducted with drug-testing kits",
-     "Ownership of undocumented vehicles being verified"
-    ],
-    "why": "It signals the new commissioner's focus on curbing drugs and crime in the city.",
-    "cat": "Hyderabad · Police",
-    "statl": "Identified in screening"
-   },
-   "hi": {
-    "h": "नए आयुक्त के आदेश पर 'ऑपरेशन थंडरबोल्ट': हैदराबाद में 8 जगह तलाशी",
-    "p": "आयुक्त महेश भागवत के आदेश पर हैदराबाद पुलिस ने गुरुवार को सात जोन की आठ जगहों पर 'ऑपरेशन थंडरबोल्ट' नाम से घेराबंदी और तलाशी अभियान चलाया। अकेले गोलकोंडा जोन में 1,000 से अधिक कर्मी शामिल हुए। अतिरिक्त आयुक्त एम. श्रीनिवास ने बताया कि गांजा या अन्य नशीले पदार्थों के सेवन के संदेह में 60 से अधिक लोगों की पहचान की गई। बिना नंबर प्लेट या कागजात वाले वाहनों को भी रोका गया।",
-    "pts": [
-     "सात जोन में 8 जगह घेराबंदी तलाशी",
-     "ड्रग टेस्ट किट से जांच",
-     "बिना कागजात वाले वाहनों के मालिकाना हक की जांच"
-    ],
-    "why": "यह शहर में नशे और अपराध पर नियंत्रण पर नए आयुक्त के जोर को दिखाता है।",
-    "cat": "हैदराबाद · पुलिस",
-    "statl": "स्क्रीनिंग में पहचाने गए"
-   },
-   "d": "12.11.2026",
-   "t": "20:35"
-  },
-  {
-   "cat": "హైదరాబాద్ · రాజకీయం",
-   "col": "--c-election",
-   "art": "voters",
-   "stat": "70 దేశాలు",
-   "statl": "భారత్ సమ్మిట్ ప్రతినిధులు",
-   "h": "భారత్ సమ్మిట్‌కు నార్వే జర్నలిస్టు వీసా రద్దు ఆరోపణ: కాంగ్రెస్ మద్దతు",
-   "p": "నవంబర్ 13, 14 తేదీల్లో హైదరాబాద్‌లో కాంగ్రెస్ నిర్వహించే భారత్ సమ్మిట్‌కు రావాల్సిన నార్వే జర్నలిస్టు హెల్లె లింగ్ తన వీసాను కేంద్ర హోంశాఖ ఆదేశాలతో రద్దు చేశారని ఆరోపించారు. ఆమెకు తెలంగాణ కాంగ్రెస్ నేతలు మద్దతు తెలిపారు. గతంలో ప్రధానిని ప్రశ్నించారన్న కారణంతో అడ్డుకోకూడదని ఎంపీ చామల కిరణ్ కుమార్ రెడ్డి అన్నారు. ఈ ఆరోపణపై ప్రభుత్వం ఇంకా స్పందించలేదని పీటీఐ పేర్కొంది.",
-   "src": "Siasat Daily (PTI)",
-   "url": "https://www.siasat.com/congress-backs-norwegian-journalist-set-to-attend-bharat-summit-3575666/",
-   "sec": [
-    "telangana",
-    "india"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "pts": [
-    "హోంశాఖ ఆదేశాలతో వీసా రద్దని జర్నలిస్టు ఆరోపణ",
-    "ప్రతినిధులను విమానాశ్రయంలో ప్రశ్నిస్తున్నారని ఎంపీ ఆరోపణ",
-    "70 దేశాల నుంచి సుమారు వెయ్యి మంది: ఖుర్షీద్"
-   ],
-   "why": "హైదరాబాద్‌లో జరిగే అంతర్జాతీయ సదస్సు చుట్టూ రాజకీయ వివాదం నెలకొంది.",
-   "pub": "2026-11-12T20:05+05:30",
-   "en": {
-    "h": "Norwegian journalist alleges visa cancelled for Bharat Summit; Congress backs her",
-    "p": "Norwegian journalist Helle Lyng, due to attend the Bharat Summit hosted by Congress in Hyderabad on November 13 and 14, alleged her visa was cancelled on the Union Home Ministry's orders. Telangana Congress leaders backed her. MP Chamala Kiran Kumar Reddy said she cannot be stopped for having questioned the Prime Minister earlier. PTI said the government had not yet responded to the allegation.",
-    "pts": [
-     "Journalist alleges visa cancelled on Home Ministry orders",
-     "MP alleges delegates questioned at airport",
-     "About 1,000 delegates from 70 countries: Khurshid"
-    ],
-    "why": "A political row has erupted around an international summit being held in Hyderabad.",
-    "cat": "Hyderabad · Politics",
-    "statl": "Bharat Summit delegates"
-   },
-   "hi": {
-    "h": "भारत समिट के लिए नॉर्वे की पत्रकार का वीजा रद्द करने का आरोप, कांग्रेस का समर्थन",
-    "p": "13 और 14 नवंबर को हैदराबाद में कांग्रेस की मेजबानी में होने वाले भारत समिट में आने वाली नॉर्वे की पत्रकार हेल्ले लिंग ने आरोप लगाया कि केंद्रीय गृह मंत्रालय के आदेश पर उनका वीजा रद्द किया गया। तेलंगाना कांग्रेस नेताओं ने उनका समर्थन किया। सांसद चामला किरण कुमार रेड्डी ने कहा कि पहले प्रधानमंत्री से सवाल पूछने के कारण उन्हें रोका नहीं जा सकता। पीटीआई के अनुसार सरकार ने अभी तक आरोप पर जवाब नहीं दिया है।",
-    "pts": [
-     "पत्रकार का आरोप: गृह मंत्रालय के आदेश पर वीजा रद्द",
-     "सांसद का आरोप: हवाई अड्डे पर प्रतिनिधियों से पूछताछ",
-     "70 देशों से करीब 1,000 प्रतिनिधि: खुर्शीद"
-    ],
-    "why": "हैदराबाद में होने वाले अंतरराष्ट्रीय सम्मेलन को लेकर राजनीतिक विवाद खड़ा हो गया है।",
-    "cat": "हैदराबाद · राजनीति",
-    "statl": "भारत समिट प्रतिनिधि"
    },
    "d": "12.11.2026",
    "t": "20:35"
