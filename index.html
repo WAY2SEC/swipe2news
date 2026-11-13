@@ -447,6 +447,7 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .s2n .ca span{white-space:nowrap}
 .s2n .ca.wa{color:#0E7A3E}
 .s2n .cfoot{min-height:48px}.s2n .cfoot .pnext{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:6px;height:36px;padding:0 10px 0 14px;border-radius:18px;background:#F5A23A;color:#2E0827;font-weight:800;font-size:13.5px;white-space:nowrap}
+.s2n .text .more{align-self:flex-start;font-size:13px;font-weight:800;color:#4A0E3F;text-decoration:none;margin-top:-4px}.s2n .text .more[hidden]{display:none}
 .s2n .srow .aid{font-size:12px;font-weight:600;color:var(--muted)}
 .s2n .cfoot .pnext small{font-weight:700;color:rgba(46,8,39,.6);margin-right:2px;font-size:11px}
 .story.s2n.t1 .kpts li:nth-child(3){display:none}
@@ -673,7 +674,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
       <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
       <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
-      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 5.3 · Swipe2News</p>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 5.4 · Swipe2News</p>
     </div></div>
   </section>
   <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">
@@ -1048,11 +1049,12 @@ function lblOf(s){ let k=s.lbl; if(LBL[k]) return k;
 function trustHTML(s){ const k=lblOf(s), l=LG(); const t=k?`<span class="tl ${k}">${esc(LBL[k][l]||LBL[k].en)}</span>`:'';
   return `<div class="trust">${t}<span class="aic"><svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>${U('ai')}</span></div>`; }
 function whenTxt(s){ const l=LG(), m=/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/.exec(String(s.d||'')), t=/^(\d{1,2}):(\d{2})$/.exec(String(s.t||''));
-  const MN={te:['జన','ఫిబ్ర','మార్చి','ఏప్రి','మే','జూన్','జులై','ఆగ','సెప్టెం','అక్టో','నవం','డిసెం'],en:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],hi:['जन','फ़र','मार्च','अप्रै','मई','जून','जुला','अग','सित','अक्टू','नव','दिस']}[l]||[];
+  const MN={te:['జనవరి','ఫిబ్రవరి','మార్చి','ఏప్రిల్','మే','జూన్','జులై','ఆగస్టు','సెప్టెంబర్','అక్టోబర్','నవంబర్','డిసెంబర్'],en:['January','February','March','April','May','June','July','August','September','October','November','December'],hi:['जनवरी','फ़रवरी','मार्च','अप्रैल','मई','जून','जुलाई','अगस्त','सितंबर','अक्टूबर','नवंबर','दिसंबर']}[l]||[];
   const d=m?(+m[1])+' '+MN[+m[2]-1]:esc(s.d||''); if(!t) return d;
   const H=+t[1], h12=(H%12)||12, mm=t[2];
   const tt=l==='en'?`${h12}:${mm} ${H<12?'am':'pm'}`:l==='hi'?`${H<12?'सुबह':H<16?'दोपहर':H<19?'शाम':'रात'} ${h12}:${mm}`:`${H<12?'ఉ.':H<16?'మ.':H<19?'సా.':'రా.'} ${h12}:${mm}`;
-  return d?d+', '+tt:tt; }
+  const PB={te:'ప్రచురణ',en:'Published',hi:'प्रकाशित'}[l]||'';
+  return PB+': '+(d?d+', '+tt:tt); }
 function statusChip(s){ const k=lblOf(s), l=LG(); return k?`<span class="tl ${k}">${esc(LBL[k][l]||LBL[k].en)}</span>`:''; }
 function aiChip(){ return `<a class="aic" href="/editorial-policy.html#no-clickbait" title="How we write · మా విధానం"><svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>${U('ai')}</a>`; }
 function trustChips(s){ const k=lblOf(s), l=LG(); return `<span class="aic"><svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>${U('ai')}</span>${k?`<span class="tl ${k}">${esc(LBL[k][l]||LBL[k].en)}</span>`:''}`; }
@@ -1077,7 +1079,7 @@ function cardHTML(s,i){
     <div class="meta"><span><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>${readMins(s)} ${U('min')}</span>${where?`<span class="mloc"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>${esc(where)}</span>`:''}<button class="lis" type="button"><svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M7 4.5v15l12-7.5z" fill="currentColor"/></svg>${U('listen')} ${listenSecs(s)}</button></div>
     <h2>${esc(s.h)}</h2>
     <div class="sline"><span class="src">${esc(s.src)}</span>${(s.d||s.t)?`<span class="stime">${whenTxt(s)}</span>`:''}${statusChip(s)}</div>
-    <p class="sum">${esc(s.p)}</p>${Array.isArray(s.pts)&&s.pts.length?`<ul class="kpts">${s.pts.slice(0,3).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${corrNote(s)}
+    <p class="sum">${esc(s.p)}</p><a class="more" hidden href="/s/${sid(s)}">${esc({te:'పూర్తిగా చదవండి ›',en:'Read more ›',hi:'पूरा पढ़ें ›'}[LG()]||'')}</a>${Array.isArray(s.pts)&&s.pts.length?`<ul class="kpts">${s.pts.slice(0,3).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${corrNote(s)}
     <div class="srow">${aiChip()}<span class="aid">${esc({te:s.src+' కథనం ఆధారంగా',en:'of reporting by '+s.src,hi:s.src+' की रिपोर्ट पर'}[LG()]||'')}</span>${read}</div>
   </div>
   <div class="spacer" data-sp="${i}"></div>
@@ -1144,8 +1146,16 @@ function spaceFill(c){ const sp=c.querySelector('.spacer[data-sp]'); if(!sp) ret
     if(!p.paid && SPACE_TX[p.k].view){ e.preventDefault(); setView(SPACE_TX[p.k].view); } }; }
 function fit(c){ // make the card fit the screen: hide the least important parts first
   c.classList.remove('t1','t2','t3','t4');
-  const over = () => c.scrollHeight > c.clientHeight + 1;
+  const tx=c.querySelector('.text');
+  const over = () => c.scrollHeight > c.clientHeight + 1 || (tx && tx.scrollHeight > tx.clientHeight + 1);
+  const bn=c.querySelector('.s2n .bnr, .story.s2n>.panel.bnr'); if(bn){ bn.style.minHeight=''; bn.style.maxHeight=''; }
   for(const t of ['t1','t2','t3','t4']){ if(!over()) break; c.classList.add(t); }
+  /* still too tall (big phone font / long story): shorten the summary line by line, keep source + label + buttons visible */
+  const sm=c.querySelector('.s2n .text .sum'), mo=c.querySelector('.s2n .text .more'); if(sm){ sm.style.webkitLineClamp=''; sm.style.display=''; } if(mo) mo.hidden=true;
+  const clampTo=n=>{ sm.style.display='-webkit-box'; sm.style.webkitLineClamp=String(n); sm.style.webkitBoxOrient='vertical'; sm.style.overflow='hidden'; };
+  if(sm && over()){ for(let n=3;n>=1&&over();n--) clampTo(n); }
+  if(sm && mo && sm.scrollHeight>sm.clientHeight+2){ mo.hidden=false; let n=Math.max(1,Math.round(sm.clientHeight/parseFloat(getComputedStyle(sm).lineHeight||24))); while(over()&&n>1){ clampTo(--n); } }
+  if(bn && !over()){ const sp=c.querySelector('.spacer'); const spare=sp?sp.clientHeight:0; if(spare>40){ const grow=Math.min(spare-16, Math.round(c.clientHeight*0.42)-bn.offsetHeight); if(grow>20){ bn.style.maxHeight='none'; bn.style.minHeight=(bn.offsetHeight+grow)+'px'; if(over()){ bn.style.minHeight=''; bn.style.maxHeight=''; } } } }
   try{ spaceFill(c); }catch(e){}
   if(c===cards[cur] && window.fsPlace) setTimeout(fsPlace,0);
 }
@@ -1387,12 +1397,15 @@ async function cardImage(s){
   ctx.fillStyle=CR; ctx.textBaseline='middle'; ctx.fillText(chip,cx+IN+16,cy+54,chw-36); ctx.textBaseline='alphabetic';
   // text
   let y=cy+PH+IN+24;
-  ctx.font=`600 26px ${TE}`; ctx.fillStyle='#6A6670'; ctx.fillText(((s.kind==='job'?(s.last?J('lastd')+' '+s.last:''):(s.d||NEWS.date||'')+(s.t?' · '+s.t:''))+' · '+(s.src||'Swipe2News')).slice(0,80),cx+IN,y);
+  let mx=cx+IN; const lk=s.kind==='job'?'':lblOf(s);
+  if(lk){ const LC={fact:['#0E7A3E','#fff'],claim:['#F5A23A','#2E0827'],opinion:['#E8E2EA','#4A0E3F'],misleading:['#B3261E','#fff']}[lk]; const lt=LBL[lk][LG()]||LBL[lk].te; ctx.font=`800 24px ${TE}`; const lw=ctx.measureText(lt).width+32;
+    ctx.fillStyle=LC[0]; rrect(ctx,mx,y-30,lw,40,20); ctx.fill(); ctx.fillStyle=LC[1]; ctx.textBaseline='middle'; ctx.fillText(lt,mx+16,y-9); ctx.textBaseline='alphabetic'; mx+=lw+14; }
+  ctx.font=`600 26px ${TE}`; ctx.fillStyle='#6A6670'; ctx.fillText(((s.kind==='job'?(s.last?J('lastd')+' '+s.last:''):whenTxt(s))+' · '+(s.src||'Swipe2News')).slice(0,90),mx,y,cx+IN+TW-mx);
   y+=22+60; ctx.fillStyle='#202124'; ctx.font=`800 54px ${TE}`; hl.forEach(t=>{ ctx.fillText(t,cx+IN,y); y+=70; });
   y+=18-70+52; ctx.fillStyle='#3C3A40'; ctx.font=`400 34px ${TE}`; pl.forEach(t=>{ ctx.fillText(t,cx+IN,y); y+=54; });
   y+=6; ctx.fillStyle=DEEP; rrect(ctx,cx+IN,y,210,44,22); ctx.fill(); ctx.fillStyle=AP; ctx.font=`800 22px ${TE}`; ctx.textBaseline='middle'; ctx.fillText('✦',cx+IN+18,y+23);
   ctx.fillStyle=CR; ctx.fillText(U('ai'),cx+IN+46,y+23,150);
-  ctx.fillStyle='#6A6670'; ctx.font=`600 24px ${TE}`; ctx.fillText('Source | మూలం: '+(s.src||''),cx+IN+228,y+23,TW-240); ctx.textBaseline='alphabetic';
+  ctx.fillStyle='#6A6670'; ctx.font=`600 24px ${TE}`; ctx.fillText(({te:(s.src||'')+' కథనం ఆధారంగా',en:'of reporting by '+(s.src||''),hi:(s.src||'')+' की रिपोर्ट पर'})[LG()]||('Source: '+(s.src||'')),cx+IN+228,y+23,TW-240); ctx.textBaseline='alphabetic';
   ctx.restore();
   // footer
   const fy=H-P-FOOT/2; ctx.textBaseline='middle'; ctx.font=`700 34px ${DI}`; ctx.font=`700 34px 'Outfit',${TE}`; ctx.fillStyle=CR; ctx.fillText('Know More. Scroll Less.',P,fy);
@@ -1409,8 +1422,9 @@ function shareText(s){
   if(s.kind==='promo') return `📰 Swipe2News – మీ ఊరి వార్తలు ఇప్పుడే మీ చేతిలో!\n⚡ క్షణాల్లో తాజా వార్తలు · తెలంగాణ & ఆంధ్రప్రదేశ్ అన్ని జిల్లాలు\n🌐 ${CONFIG.APP_LINK}\n👉 WhatsApp ఛానెల్: ${CONFIG.CHANNEL}`;
   // Our link comes FIRST and no outside link is included, so WhatsApp shows the Swipe2News preview
   if(s.kind==='job') return `💼 ${s.h}\n📲 ${storyLink(s)}\n\n👥 ${J('posts')}: ${s.stat}${s.qual?`\n${J('elig')}: ${s.qual}`:''}${s.last?`\n${J('last')}: ${s.last}`:''}\n🏛️ ${s.org||s.src||''}\n${J('warn1')}\n\n👉 ${J('ch')}: ${CONFIG.CHANNEL}`;
-  const when=(s.d||NEWS.date||'')+(s.t?' · '+s.t:'');
-  return `🔴 ${s.h}\n📲 ${storyLink(s)}\n\n📅 ${when} · Source | మూలం: ${s.src}\nSwipe2News – ${U('tag')}\n👉 WhatsApp ఛానెల్: ${CONFIG.CHANNEL}`;
+  const when=(s.d||NEWS.date||'')+(s.t?' · '+s.t:''), lk=lblOf(s), lbt=lk?(LBL[lk][LG()]||LBL[lk].te):'';
+  const lbLine=lk&&lk!=='fact'?`\n🏷️ ${lbt} – ${s.src} ${({te:'కథనం ప్రకారం',en:'report',hi:'की रिपोर्ट के अनुसार'})[LG()]||''}`:(lk?`\n🏷️ ${lbt}`:'');
+  return `${s.brk?'🔴':'📰'} ${s.h}${lbLine}\n📲 ${storyLink(s)}\n\n📅 ${when} · Source | మూలం: ${s.src}\nSwipe2News – ${U('tag')}\n👉 WhatsApp ఛానెల్: ${CONFIG.CHANNEL}`;
 }
 /* Card picture is made ahead of time: phones only allow the share sheet right after a tap,
    so building the picture inside the tap made the share fail and fall back to plain text. */

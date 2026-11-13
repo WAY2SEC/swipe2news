@@ -468,7 +468,9 @@ def main():
             else:
                 iso = d.isoformat() if d else ""
                 target = f"/?wishes=1&s={sid}" if "wishes" in secs(s) else (f"/?d={iso}&s={sid}" if iso else f"/?s={sid}")
-                desc = (s.get("p") or "")[:160]
+                _lb = {"claim": "వాదన / ఆరోపణ", "misleading": "తప్పుదోవ", "opinion": "అభిప్రాయం"}.get(s.get("lbl"), "")
+                desc = ((_lb + " · " + (s.get("src") or "") + " ప్రకారం · ") if _lb else "") + (s.get("p") or "")
+                desc = desc[:200]
                 mine = set(secs(s))
                 related = [(rid, r) for k2, r, rid in uniq if k2 == "news" and rid != sid and not r.get("wd") and mine & set(secs(r))][:4]
             out = page(sid, s, kind, img, os.path.exists(img_path), target, desc, related)

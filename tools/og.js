@@ -38,7 +38,7 @@ window.ogImage = async function(s){
   // meta line
   const meta = s.kind==='job'
     ? [s.last&&('చివరి తేదీ: '+s.last), s.qual&&('అర్హత: '+s.qual)].filter(Boolean).join(' · ')
-    : [s.d, s.t].filter(Boolean).join(' · ') + (s.src?'  ·  Source: '+s.src:'');
+    : (({claim:'వాదన / ఆరోపణ · ',misleading:'తప్పుదోవ · ',opinion:'అభిప్రాయం · '})[s.lbl]||'') + [s.d, s.t].filter(Boolean).join(' · ') + (s.src?'  ·  Source: '+s.src:'');
   x.font=`600 26px ${TE}`; x.fillStyle='#5E5246'; const ml=wrap(x,meta,RW-2*P).slice(0,2);
   let my=Math.min(hy+8, H-150); ml.forEach(t=>{ x.fillText(t,R+P,my); my+=36; });
   // first lines of the story in the free space
