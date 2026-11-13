@@ -453,6 +453,7 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .story.s2n.t1 .kpts li:nth-child(3){display:none}
 .story.s2n.t2 .kpts{display:none}
 .story.s2n.t3 .bnr{min-height:100px}
+#s2off{position:fixed;right:76px;top:calc(env(safe-area-inset-top,0px) + 13px);z-index:60;max-width:calc(100vw - 260px);cursor:pointer;padding:6px 11px;border-radius:15px;background:#2E0827;color:#FFFDF5;font:700 12.5px 'Outfit',var(--body);box-shadow:0 4px 14px rgba(0,0,0,.25);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#s2off[hidden]{display:none}
 /* house promo card */
 .s2n.house .hwrap{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:28px 24px;text-align:center;background:var(--hg);color:#FFFDF5}
 .s2n.house .hic{width:96px;height:96px;border-radius:28px;display:flex;align-items:center;justify-content:center;font-size:52px;background:rgba(255,253,245,.14);box-shadow:0 0 0 1px rgba(255,253,245,.25) inset}
@@ -470,6 +471,8 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .s2n.mandi .mp{text-align:right}.s2n.mandi .mp b{display:block;font-family:'Outfit',var(--body);font-size:19px;font-weight:800;color:#4A0E3F}
 :root[data-theme="dark"] .s2n.mandi .mp b{color:#F5A23A}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .s2n.mandi .mp b{color:#F5A23A}}
+.s2n.mandi .mfuel{margin:6px 0 0;padding:9px 12px;border-radius:12px;background:rgba(245,162,58,.13);font-size:14px;font-weight:600;color:var(--ink)}.s2n.mandi .mfuel b{font-family:'Outfit',var(--body);font-weight:800}.s2n.mandi .mfuel small{color:var(--muted);font-size:11.5px}
+.story.s2n.mandi.t2 .mfuel small{display:none}
 .s2n.mandi .mwarn{margin:4px 0 0;font-size:12px;line-height:1.5;color:var(--muted)}
 .story.s2n.mandi.t1 .mwarn{display:none}.story.s2n.mandi.t2 .mrows li:nth-child(n+5){display:none}.story.s2n.mandi.t3 .mrows li:nth-child(n+4){display:none}
 .s2n .bmark{top:11px;bottom:auto!important;right:12px;padding:4px 10px 4px 4px;font-size:12.5px}.s2n .bmark img{width:19px;height:19px}
@@ -729,7 +732,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 </div>
 
 <script src="scenes.js?v=20261113a"></script>
-<script src="mandi.js?v=1"></script>
+<script src="mandi.js?v=2"></script>
 <script>
 const CONFIG = {
   NEWS_URL: 'news.json',
@@ -1016,11 +1019,22 @@ function mandiHTML(s,i){
   return `<article class="story s2n mandi" aria-label="${esc(U.t)}">
   <div class="mhd"><div><b>🌾 ${esc(U.t)}</b><span>${esc(where)} · ${esc(M.dmy(d,l))}</span></div><a href="/mandi/" class="mall">${esc(U.more)}</a></div>
   <div class="text"><ul class="mrows">${m.rows.map(r=>`<li><span class="me">${(M.CROPS[r.crop]||{}).e||'•'}</span><span class="mn"><b>${esc(M.cropName(r.crop,l))}</b><small>${esc(r.mkt)}${m.local?'':' · '+esc(M.placeName(r.place,l))}</small></span><span class="mp"><b>${M.inr(r.modal)}</b><small>/ ${esc(U.q.replace(/^per /,''))}</small></span></li>`).join('')}</ul>
+  ${(()=>{ const f=M.fuel(MANDI,pk); return f?`<p class="mfuel">⛽ ${esc(U.pet)} <b>${M.rs(f.petrol)}</b> · ${esc(U.dsl)} <b>${M.rs(f.diesel)}</b> <small>/ ${esc(U.lit)} · ${esc(M.placeName(f.place,l))}</small></p>`:''; })()}
   <p class="mwarn">ℹ️ ${esc(U.warn)}</p><div class="srow"><span class="src">${esc(U.src)}: <b>Agmarknet (Govt of India)</b></span><a class="read" href="/mandi/">${esc(U.more)}</a></div></div>
   <div class="spacer" data-sp="${i}"></div>
   <div class="cfoot"><span>Know More. Scroll Less.</span><button class="pnext" type="button"><small>← ${U===M.UI.en?'swipe':l==='hi'?'स्वाइप':'స్వైప్'}</small>${esc(UI[l].nxt)}<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button></div>
 </article>`;
 }
+function offlineUI(force){ let b=document.getElementById('s2off'); const off=force===true||navigator.onLine===false;
+  if(!b){ b=document.createElement('div'); b.id='s2off'; b.setAttribute('role','status'); document.body.appendChild(b); }
+  if(!off){ b.hidden=true; return; }
+  let t=''; try{ const m=/T(\d\d):(\d\d)/.exec(String(NEWS.updated||'')); if(m) t=whenTxt({t:(+m[1])+':'+m[2]}).replace(/^[^:]*: /,''); }catch(e){}
+  const full={te:`ఆఫ్‌లైన్ · ${t?t+'కి ':''}సేవ్ చేసిన వార్తలు చదువుతున్నారు. నెట్ వచ్చాక కొత్తవి వస్తాయి.`,en:`Offline · reading news saved${t?' at '+t:''}. New stories load when you're back online.`,hi:`ऑफ़लाइन · ${t?t+' बजे ':''}सेव की गई खबरें. नेट आने पर नई खबरें आएँगी.`}[LG()];
+  b.textContent='📴 '+({te:'ఆఫ్‌లైన్',en:'Offline',hi:'ऑफ़लाइन'}[LG()]); b.title=full; b.onclick=()=>toast(full); b.hidden=false; }
+window.addEventListener('online',()=>{ offlineUI(); try{ load(); }catch(e){} }); window.addEventListener('offline',()=>offlineUI());
+function warmOffline(){ try{ if(!navigator.serviceWorker||!navigator.serviceWorker.controller) return; const c=navigator.connection; if(c&&(c.saveData)) return;
+  const urls=['mandi.json','mandi.js?v=2','mandi/'].concat((NEWS.stories||[]).slice(0,30).map(x=>x.img).filter(u=>u&&!/^https?:/.test(u)));
+  navigator.serviceWorker.controller.postMessage({type:'warm',urls}); }catch(e){} }
 function withMandi(list){ if(view!=='home'||section!=='all'||list.length<4) return list; const mi=mandiItem(); if(!mi) return list; const o=list.slice(); o.splice(3,0,mi); return o; }
 function withHouse(list){ const C=CONFIG.SPACE; if(!C||!C.on||view!=='home') return list; const house=(C.HOUSE||[]).filter(k=>SPACE_TX[k]&&!(k==='jobs'&&spaceJobsN()<3)); if(!house.length) return list;
   const o=[]; let n=0; list.forEach((x,i)=>{ o.push(x); if((i+1)%8===6) o.push({kind:'house',k:house[(n++)%house.length],h:'Swipe2News',p:'',url:'https://swipe2news.com/',src:'Swipe2News',d:''}); }); return o; }
@@ -1766,7 +1780,7 @@ async function moreNews(dir){
 async function load(){
   // Show the news saved on the phone at once, so a slow network never leaves a black screen (iPhone, 10 Nov 2026).
   if(!load.shown){ const c=store.get('news',null);
-    if(c && c.stories && c.stories.length){ NEWS=c; WISHES=store.get('wishes',WISHES); renderTabs(); renderFeed(); load.shown=1; } }
+    if(c && c.stories && c.stories.length){ NEWS=c; WISHES=store.get('wishes',WISHES); renderTabs(); renderFeed(); load.shown=1; if(navigator.onLine===false) offlineUI(true); } }
   const keep = load.shown && cur>0 && LIST && LIST[cur] ? keyOf(LIST[cur]) : null; // still on the first card → jump to the newest news
   try{
     const ac = window.AbortController ? new AbortController() : null;
@@ -1774,14 +1788,15 @@ async function load(){
     let r, j;
     try{ r = await fetch(CONFIG.NEWS_URL+'?t='+Date.now(), {cache:'no-store', signal: ac?ac.signal:undefined});
       if(!r.ok) throw new Error(r.status); j = await r.json(); } finally { clearTimeout(tm); }
-    NEWS = j; store.set('news', NEWS);
+    NEWS = j; store.set('news', NEWS); offlineUI(); warmOffline();
     BASE = NEWS.stories.slice();
     // add the rest of today's stories (news.json holds only the newest 50); never wait more than 8 s for these
     await timeout(Promise.all([loadWishes(), (async()=>{ await loadDates(); if(DATES[0]) await fetchDay(DATES[0].iso); })()]), 8000);
     mergeAll();
   }catch(e){
     if(!load.shown){ NEWS = store.get('news', NEWS); WISHES = store.get('wishes', WISHES); }
-    if(NEWS.stories.length) toast('ఆఫ్‌లైన్ – పాత వార్తలు చూపిస్తున్నాం');
+    offlineUI(true);
+    if(NEWS.stories.length) toast('ఆఫ్‌లైన్ – సేవ్ చేసిన వార్తలు చూపిస్తున్నాం');
     else toast('నెట్‌వర్క్ నెమ్మదిగా ఉంది – కొద్దిసేపట్లో మళ్లీ ప్రయత్నించండి');
   }
   load.shown=1;
@@ -1862,7 +1877,7 @@ if(pushOK){
     OneSignal.Notifications.addEventListener('permissionChange', p => { bellState(p); if(p) tagUser(OneSignal); });
     if(OneSignal.Notifications.permission) tagUser(OneSignal);
   });
-} else if('serviceWorker' in navigator && location.protocol==='https:' && !/claude\.ai|claudeusercontent/.test(location.host)){
+} else if('serviceWorker' in navigator && (location.protocol==='https:'||location.hostname==='127.0.0.1') && !/claude\.ai|claudeusercontent/.test(location.host)){
   navigator.serviceWorker.register('sw.js').catch(()=>{});
 }
 async function askAlerts(){

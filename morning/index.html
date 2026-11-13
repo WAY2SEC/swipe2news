@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Noto+Sans+Telugu:wght@400;600;700;800&display=swap">
 <script src="/scenes.js?v=20261113a"></script>
-<script src="/mandi.js?v=1"></script>
+<script src="/mandi.js?v=2"></script>
 <style>
 :root{--plum:#4A0E3F;--deep:#2E0827;--ap:#F5A23A;--cream:#FFFDF5;--ink:#202124;--muted:#5F6368;--line:#EDE6DF;--card:#FFFFFF}
 @media (prefers-color-scheme:dark){:root{--cream:#141214;--ink:#ECEDEF;--muted:#A6A8AD;--line:#2D2C31;--card:#1C1B1F}}
@@ -218,7 +218,7 @@ let BRIEF=[];
   const where=m.local?M.placeName(pk,L):(m.st==='AP'?(L==='te'?'ఆంధ్రప్రదేశ్':'Andhra Pradesh'):(L==='te'?'తెలంగాణ':L==='hi'?'तेलंगाना':'Telangana'));
   document.getElementById('lM').textContent=(L==='en'?'MANDI · ':L==='hi'?'मंडी · ':'మండీ · ')+where; document.getElementById('lMall').textContent=L==='en'?'All':L==='hi'?'सभी':'అన్నీ';
   const e=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-  document.getElementById('mnd').innerHTML=m.rows.map(r=>`<div class="r"><span>${(M.CROPS[r.crop]||{}).e||'•'}</span><div><b>${e(M.cropName(r.crop,L))}</b><small>${e(r.mkt)} · ${e(M.dmy(r.date,L))}</small></div><em>${M.inr(r.modal)}</em></div>`).join('')+`<div class="ft">₹ ${e(U.q)} · ${e(U.src)}: Agmarknet</div>`;
+  document.getElementById('mnd').innerHTML=m.rows.map(r=>`<div class="r"><span>${(M.CROPS[r.crop]||{}).e||'•'}</span><div><b>${e(M.cropName(r.crop,L))}</b><small>${e(r.mkt)} · ${e(M.dmy(r.date,L))}</small></div><em>${M.inr(r.modal)}</em></div>`).join('')+(()=>{ const f=M.fuel(d,pk); return f?`<div class="r"><span>⛽</span><div><b>${e(U.pet)} / ${e(U.dsl)}</b><small>${e(M.placeName(f.place,L))} · ${e(M.dmy(f.date,L))}</small></div><em>${M.rs(f.petrol)} / ${M.rs(f.diesel)}</em></div>`:''; })()+`<div class="ft">₹ ${e(U.q)} · ${e(U.src)}: Agmarknet</div>`;
   document.getElementById('mandiSec').hidden=false; }catch(e){} })();
 (async function(){
   const [news,jobs]=await Promise.all([getJSON('/news.json'),getJSON('/jobs.json')]);

@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Noto+Sans+Telugu:wght@400;600;700;800&display=swap">
 <script src="/scenes.js?v=20261113a"></script>
-<script src="/mandi.js?v=1"></script>
+<script src="/mandi.js?v=2"></script>
 <style>
 :root{--plum:#4A0E3F;--deep:#2E0827;--ap:#F5A23A;--cream:#FFFDF5;--ink:#202124;--muted:#5F6368;--line:#EDE6DF;--card:#FFFFFF;--up:#0E7A3E;--down:#B3261E}
 @media (prefers-color-scheme:dark){:root{--cream:#141214;--ink:#ECEDEF;--muted:#A6A8AD;--line:#2D2C31;--card:#1C1B1F;--up:#4CC38A;--down:#F2827A}}
@@ -43,6 +43,10 @@ select{height:36px;flex:1;min-width:150px;padding:0 10px;border-radius:18px;bord
 .chip{flex:none;height:32px;padding:0 12px;border-radius:16px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:700 12.5px inherit;font-family:inherit;cursor:pointer;white-space:nowrap}
 .chip.on{border-color:var(--plum);background:rgba(74,14,63,.08);color:var(--plum)}
 @media (prefers-color-scheme:dark){.chip.on{border-color:var(--ap);color:var(--ap);background:rgba(245,162,58,.1)}}
+.fuel{margin:14px 16px 0;border:1px solid var(--line);border-radius:16px;background:var(--card);overflow:hidden}
+.fuel h2{margin:0;padding:12px 14px 6px;font-size:16px;font-weight:800;display:flex;align-items:center;gap:8px}.fuel h2 small{margin-left:auto;font-size:12px;font-weight:600;color:var(--muted)}
+.fuel .fr{display:grid;grid-template-columns:1fr auto auto;gap:14px;padding:8px 14px;border-top:1px solid var(--line);font-size:14px;font-weight:600}.fuel .fr b{font-weight:800}.fuel .fr.me{background:rgba(245,162,58,.12)}
+.fuel .fh{color:var(--muted);font-size:12px}.fuel details summary{padding:9px 14px;border-top:1px solid var(--line);font-size:13px;font-weight:700;color:var(--plum);cursor:pointer}
 .note{margin:12px 16px 0;padding:10px 12px;border-radius:12px;background:rgba(245,162,58,.12);font-size:13px;line-height:1.5}
 .grp{margin:18px 16px 0}
 .gh{display:flex;align-items:center;gap:8px;margin-bottom:8px;font-size:17px;font-weight:800}
@@ -73,6 +77,7 @@ nav.bn a.on{color:var(--plum)}
 <header><a href="/" aria-label="Swipe2News home"><img src="/logo.png" alt="swipe2news" width="140" height="28"></a><a class="pill" href="/?cards=1" id="toCards">📰 వార్తలు</a></header>
 <section class="hero"><h1 id="tt">మండీ ధరలు</h1><p id="sb">ఈరోజు మార్కెట్ యార్డు ధరలు</p><span class="asof" id="asof"></span></section>
 <div class="ctl"><div class="seg" role="tablist"><button id="stTG" class="on" type="button">తెలంగాణ</button><button id="stAP" type="button">ఆంధ్రప్రదేశ్</button></div><select id="dist" aria-label="District"></select></div>
+<section class="fuel" id="fuel" hidden></section>
 <div class="chips" id="chips"></div>
 <div class="note" id="warn"></div>
 <main id="list"></main>
@@ -109,6 +114,9 @@ function render(){
   if(crop && !crops.includes(crop)) crop='';
   $('chips').innerHTML=`<button class="chip${crop?'':' on'}" data-c="">${esc(U.all)}</button>`+crops.map(k=>`<button class="chip${k===crop?' on':''}" data-c="${k}">${(M.CROPS[k]||{}).e||'•'} ${esc(M.cropName(k,L))}</button>`).join('');
   const dates=use.map(r=>r.date).sort(); $('asof').textContent=dates.length?`📅 ${U.asof}: ${M.dmy(dates[dates.length-1],L)}`:'';
+  const fl=(data.fuel||[]).filter(r=>r.st===st).sort((a,b)=>(b.place===(dist||P.place))-(a.place===(dist||P.place))||a.city.localeCompare(b.city));
+  if(fl.length){ const fd=fl.map(r=>r.date).sort().pop(); const row=r=>`<div class="fr${r.place===(dist||P.place)?' me':''}"><span>${esc(pname(r.place))}</span><b>${M.rs(r.petrol)}</b><b>${M.rs(r.diesel)}</b></div>`;
+    $('fuel').innerHTML=`<h2>⛽ ${esc(U.fuel)}<small>₹ / ${esc(U.lit)} · ${M.dmy(fd,L)}</small></h2><div class="fr fh"><span></span><span>${esc(U.pet)}</span><span>${esc(U.dsl)}</span></div>`+fl.slice(0,3).map(row).join('')+(fl.length>3?`<details><summary>${esc(U.all)} (${fl.length})</summary>${fl.slice(3).map(row).join('')}</details>`:''); $('fuel').hidden=false; } else $('fuel').hidden=true;
   const show=crops.filter(k=>!crop||k===crop);
   $('list').innerHTML=(note?`<p class="note">${esc(note)}</p>`:'')+(show.length?show.map(k=>{
     const list=use.filter(r=>r.crop===k).sort((a,b)=>b.modal-a.modal);
@@ -119,7 +127,7 @@ function render(){
     }).join('')+'</section>';
   }).join(''):`<p class="empty">—</p>`);
   const srcs=[...new Set(use.map(r=>r.url).filter(u=>/^https:\/\//.test(u)))];
-  $('foot').innerHTML=`${esc(U.src)}: ${esc(data.src||'Agmarknet (Govt of India)')}. ${srcs.slice(0,4).map((u,i)=>`<a href="${esc(u)}" target="_blank" rel="noopener">${i+1}</a>`).join(' · ')}<br>${esc(U.warn)} <a href="/editorial-policy.html#mandi">${L==='te'?'మా విధానం':L==='hi'?'हमारी नीति':'Our policy'}</a>`;
+  $('foot').innerHTML=`${esc(U.src)}: ${esc(data.src||'Agmarknet (Govt of India)')}${data.fuelSrc?' · ⛽ '+esc(data.fuelSrc):''}. ${srcs.slice(0,4).map((u,i)=>`<a href="${esc(u)}" target="_blank" rel="noopener">${i+1}</a>`).join(' · ')}<br>${esc(U.warn)} <a href="/editorial-policy.html#mandi">${L==='te'?'మా విధానం':L==='hi'?'हमारी नीति':'Our policy'}</a>`;
   const q=new URLSearchParams(); if(st!==M.stateOf(P.place)) q.set('st',st); if(dist) q.set('d',dist); if(crop) q.set('c',crop);
   history.replaceState(null,'',location.pathname+(q.toString()?'?'+q:''));
 }

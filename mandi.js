@@ -25,13 +25,13 @@ const ORDER=['paddy','cotton','chilli','maize','turmeric','groundnut','redgram',
 const UI={
   te:{t:'మండీ ధరలు',sub:'ఈరోజు మార్కెట్ యార్డు ధరలు',q:'క్వింటాకు',kg:'కిలో',asof:'తేదీ',src:'మూలం',range:'కనిష్ఠం–గరిష్ఠం',all:'అన్నీ',
       warn:'ఇవి మార్కెట్ కమిటీలు ప్రభుత్వానికి పంపిన ధరలు. అమ్మే ముందు మీ యార్డులో ఒకసారి నిర్ధారించుకోండి.',more:'అన్ని ధరలు చూడండి →',
-      near:'మీ జిల్లా',state:'రాష్ట్రం',none:'ఈ జిల్లాకు ఈరోజు ధరలు రాలేదు – రాష్ట్రంలోని ధరలు చూపిస్తున్నాం.',old:'పాత ధర',up:'పెరిగింది',down:'తగ్గింది',mkt:'మార్కెట్'},
+      near:'మీ జిల్లా',fuel:'పెట్రోల్ / డీజిల్',pet:'పెట్రోల్',dsl:'డీజిల్',lit:'లీటరు',state:'రాష్ట్రం',none:'ఈ జిల్లాకు ఈరోజు ధరలు రాలేదు – రాష్ట్రంలోని ధరలు చూపిస్తున్నాం.',old:'పాత ధర',up:'పెరిగింది',down:'తగ్గింది',mkt:'మార్కెట్'},
   en:{t:'Mandi prices',sub:"Today's market-yard prices",q:'per quintal',kg:'kg',asof:'Date',src:'Source',range:'Min–Max',all:'All',
       warn:'Prices as reported by market committees to the government. Confirm at your yard before selling.',more:'See all prices →',
-      near:'Your district',state:'State',none:'No prices from this district today – showing the state.',old:'older',up:'up',down:'down',mkt:'Market'},
+      near:'Your district',fuel:'Petrol / Diesel',pet:'Petrol',dsl:'Diesel',lit:'litre',state:'State',none:'No prices from this district today – showing the state.',old:'older',up:'up',down:'down',mkt:'Market'},
   hi:{t:'मंडी भाव',sub:'आज के मंडी भाव',q:'प्रति क्विंटल',kg:'किलो',asof:'तारीख',src:'स्रोत',range:'न्यूनतम–अधिकतम',all:'सभी',
       warn:'ये भाव मंडी समितियों द्वारा सरकार को भेजे गए हैं। बेचने से पहले अपनी मंडी में पुष्टि करें।',more:'सभी भाव देखें →',
-      near:'आपका ज़िला',state:'राज्य',none:'आज इस ज़िले से भाव नहीं आए – राज्य के भाव दिखा रहे हैं।',old:'पुराना',up:'बढ़ा',down:'घटा',mkt:'मंडी'}
+      near:'आपका ज़िला',fuel:'पेट्रोल / डीज़ल',pet:'पेट्रोल',dsl:'डीज़ल',lit:'लीटर',state:'राज्य',none:'आज इस ज़िले से भाव नहीं आए – राज्य के भाव दिखा रहे हैं।',old:'पुराना',up:'बढ़ा',down:'घटा',mkt:'मंडी'}
 };
 const TG=[['hyderabad','హైదరాబాద్','Hyderabad'],['rangareddy','రంగారెడ్డి','Rangareddy'],['medchal','మేడ్చల్ మల్కాజిగిరి','Medchal–Malkajgiri'],['adilabad','ఆదిలాబాద్','Adilabad'],['bhadradri','భద్రాద్రి కొత్తగూడెం','Bhadradri Kothagudem'],['hanumakonda','హనుమకొండ','Hanumakonda'],['jagtial','జగిత్యాల','Jagtial'],['jangaon','జనగామ','Jangaon'],['bhupalpally','జయశంకర్ భూపాలపల్లి','Jayashankar Bhupalpally'],['gadwal','జోగులాంబ గద్వాల','Jogulamba Gadwal'],['kamareddy','కామారెడ్డి','Kamareddy'],['karimnagar','కరీంనగర్','Karimnagar'],['khammam','ఖమ్మం','Khammam'],['asifabad','కుమురం భీం ఆసిఫాబాద్','Kumuram Bheem Asifabad'],['mahabubabad','మహబూబాబాద్','Mahabubabad'],['mahabubnagar','మహబూబ్‌నగర్','Mahabubnagar'],['mancherial','మంచిర్యాల','Mancherial'],['medak','మెదక్','Medak'],['mulugu','ములుగు','Mulugu'],['nagarkurnool','నాగర్‌కర్నూల్','Nagarkurnool'],['nalgonda','నల్గొండ','Nalgonda'],['narayanpet','నారాయణపేట','Narayanpet'],['nirmal','నిర్మల్','Nirmal'],['nizamabad','నిజామాబాద్','Nizamabad'],['peddapalli','పెద్దపల్లి','Peddapalli'],['sircilla','రాజన్న సిరిసిల్ల','Rajanna Sircilla'],['sangareddy','సంగారెడ్డి','Sangareddy'],['siddipet','సిద్దిపేట','Siddipet'],['suryapet','సూర్యాపేట','Suryapet'],['vikarabad','వికారాబాద్','Vikarabad'],['wanaparthy','వనపర్తి','Wanaparthy'],['warangal','వరంగల్','Warangal'],['yadadri','యాదాద్రి భువనగిరి','Yadadri Bhuvanagiri']];
 const MAX_AGE_DAYS=3;
@@ -46,7 +46,7 @@ function dmy(d,l){ const [y,m,dd]=String(d).split('-').map(Number); const M={te:
 function cropName(k,l){ const c=CROPS[k]; return c?(c[l]||c.en):k; }
 function stateOf(place){ return /^ap-/.test(place||'')||place==='AP'?'AP':'TG'; }
 let cache=null;
-async function load(){ if(cache) return cache; try{ const r=await fetch('/mandi.json?'+Math.floor(Date.now()/9e5),{cache:'no-store'}); cache=await r.json(); }catch(e){ cache={rows:[]}; } cache.rows=(cache.rows||[]).filter(fresh); return cache; }
+async function load(){ if(cache) return cache; try{ const r=await fetch('/mandi.json?'+Math.floor(Date.now()/9e5),{cache:'no-store'}); cache=await r.json(); }catch(e){ cache={rows:[]}; } cache.rows=(cache.rows||[]).filter(fresh); cache.fuel=(cache.fuel||[]).filter(fresh); return cache; }
 /* best price per crop for a place: the reader's district first, then the state's highest-modal market */
 function pick(data,place,limit){
   const st=stateOf(place), rows=data.rows.filter(r=>r.st===st);
@@ -57,6 +57,10 @@ function pick(data,place,limit){
     const list=byCrop[k].slice().sort((a,b)=>b.date.localeCompare(a.date)||b.modal-a.modal); out.push(Object.assign({n:list.length},list[0])); });
   return {local:!!local.length, st, rows:out.slice(0,limit||99)};
 }
+/* fuel price for the reader's district, else the state's main city */
+function fuel(data,place){ const st=stateOf(place), f=(data.fuel||[]).filter(r=>r.st===st); if(!f.length) return null;
+  return Object.assign({local:false}, f.find(r=>r.place===place)?Object.assign({},f.find(r=>r.place===place),{local:true}):(f.find(r=>r.place===(st==='AP'?'ap-krishna':'hyderabad'))||f[0])); }
+const rs=n=>'₹'+Number(n).toFixed(2);
 function change(data,r){ const p=(data.prev||{})[r.st+'|'+r.place+'|'+r.mkt+'|'+r.crop]; if(!p||!r.modal) return 0; return r.modal-p; }
-window.S2Mandi={TG,placeName,CROPS,ORDER,UI,load,pick,change,inr,dmy,cropName,stateOf,lang,prefs,fresh,ageDays};
+window.S2Mandi={fuel,rs,TG,placeName,CROPS,ORDER,UI,load,pick,change,inr,dmy,cropName,stateOf,lang,prefs,fresh,ageDays};
 })();
