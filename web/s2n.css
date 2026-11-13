@@ -134,3 +134,6 @@ nav.secs::-webkit-scrollbar{display:none}
 .ar h1,.ar .in h1{color:var(--ink)!important}
 .ar .pnl,.ar .hero{background:radial-gradient(120% 120% at 85% 0%,#6E2361 0%,#4A0E3F 55%,#3A0A31 100%)!important}
 .ar .stat{color:#F5A23A!important}
+.s2lsc .lnm{display:flex;flex-direction:column;gap:6px;margin-top:18px;font-size:14px;font-weight:700;color:#202124}
+.s2lsc .lnm small{font-weight:500;color:#5A5560}
+.s2lsc .lnm input{height:48px;padding:0 14px;border-radius:14px;border:1.5px solid #E3D7DF;background:#fff;font:600 16px 'Outfit','Noto Sans Telugu',sans-serif;color:#202124}

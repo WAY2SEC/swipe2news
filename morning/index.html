@@ -26,7 +26,11 @@ header img{height:28px;width:auto}
 @media (prefers-color-scheme:dark){.pill{color:var(--ap)}}
 .greet{display:flex;align-items:flex-end;justify-content:space-between;gap:10px;padding:6px 20px 0}
 .greet .d{font-size:14px;color:var(--muted);font-weight:500}
-.greet h1{margin:2px 0 0;font-size:26px;font-weight:800;letter-spacing:-.3px}
+.greet h1{margin:2px 0 0;font-size:26px;font-weight:800;letter-spacing:-.3px;line-height:1.25}
+.greet h1 .who{color:var(--plum)}
+@media (prefers-color-scheme:dark){.greet h1 .who{color:var(--ap)}}
+.nm{margin-top:4px;padding:0;border:0;background:none;color:var(--muted);font:600 12.5px inherit;font-family:inherit;cursor:pointer;text-decoration:underline}
+.nmf[hidden]{display:none}.nmf{display:flex;gap:6px;margin-top:6px}.nmf input{height:36px;width:170px;padding:0 12px;border-radius:18px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:600 14px inherit;font-family:inherit}.nmf button{height:36px;width:40px;border-radius:18px;border:0;background:var(--plum);color:#fff;font-weight:800}
 .sec{margin:22px 20px 0}
 .lab{display:flex;align-items:center;gap:8px;margin-bottom:10px;font-size:11px;font-weight:800;letter-spacing:1.4px;color:var(--plum)}
 @media (prefers-color-scheme:dark){.lab{color:var(--ap)}}
@@ -104,6 +108,9 @@ nav.bn a.sw{justify-self:center;width:58px;height:58px;margin-top:-26px;border-r
 .s2lsc .lt .ln{font-weight:700}.s2lsc .lt .soon{position:absolute;top:6px;right:8px;font-size:9.5px;font-weight:800;color:#8A4B00;background:#FDEBD3;border-radius:6px;padding:1px 5px}
 .s2lsc .lt.on{background:#4A0E3F;border-color:#4A0E3F;color:#FFFDF5}.s2lsc .lt.on .lg{background:#F5A23A;color:#2E0827}
 .s2lsc .lgo{width:100%;margin-top:24px;height:56px;border:0;border-radius:28px;background:#4A0E3F;color:#FFFDF5;font:inherit;font-size:17px;font-weight:800}
+.s2lsc .lnm{display:flex;flex-direction:column;gap:6px;margin-top:18px;font-size:14px;font-weight:700;color:#202124}
+.s2lsc .lnm small{font-weight:500;color:#5A5560}
+.s2lsc .lnm input{height:48px;padding:0 14px;border-radius:14px;border:1.5px solid #E3D7DF;background:#fff;font:600 16px 'Outfit','Noto Sans Telugu',sans-serif;color:#202124}
 .s2bnav,.tkpause{display:none!important}
 </style>
 </head>
@@ -114,7 +121,7 @@ nav.bn a.sw{justify-self:center;width:58px;height:58px;margin-top:-26px;border-r
     <div class="hb"><button class="pill s2lang" type="button" aria-label="Language · భాష"><span>తెలుగు</span></button></div>
   </header>
   <div class="greet">
-    <div><div class="d" id="today"></div><h1 id="hello">శుభోదయం</h1></div>
+    <div><div class="d" id="today"></div><h1 id="hello">శుభోదయం</h1><button class="nm" id="nmBtn" type="button"></button><form class="nmf" id="nmForm" hidden><input id="nmIn" maxlength="24" autocomplete="given-name"><button type="submit">✓</button></form></div>
     <a class="pill" id="area" href="/web/?pick=1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span id="areaTx">తెలంగాణ</span></a>
   </div>
 
@@ -163,9 +170,9 @@ const sidOf=s=>{if(s._sid)return s._sid;let h=5381;const t=(s.url||'')+'|'+(s.h|
 const P=store.get('prefs',{})||{}; const L=['te','en','hi'].includes(P.lang)?P.lang:'te';
 try{ sessionStorage.setItem('s2n.morningSeen', new Date().toDateString()); }catch(e){}
 const TX={
- te:{hello:['శుభోదయం','శుభ మధ్యాహ్నం','శుభ సాయంత్రం'],U:'UNDERSTAND · అర్థం చేసుకోండి',A:'ACT · మీ దగ్గర ఇప్పుడు',V:'VERIFY · ముఖ్య వార్తలు',all:'అన్నీ',bk:'మీ 3 నిమిషాల బ్రీఫింగ్',bh:n=>`ఈరోజు మీకు ముఖ్యమైన ${n} వార్తలు`,mix:(a,b,c)=>[a&&`${a} దేశం`,b&&`${b} తెలంగాణ · ఏపీ`,c&&`${c} మీ జిల్లా`].filter(Boolean).join(' · '),read:'📖 చదవండి',listen:'▶ వినండి',stop:'■ ఆపండి',gov:'ప్రభుత్వం మీ కోసం',govs:'చివరి తేదీలు',days:'రోజులు',today:'ఈరోజే',why:'ఇది ఎందుకు ముఖ్యం:',src:'మూలం',off:'✓ అధికారిక సమాచారం',rep:'● రిపోర్టర్ సమాచారం',news:'● ',go:'వార్తలు స్వైప్ చేయండి →',noact:'మీ ప్రాంతం నుంచి ఇప్పుడు అలర్ట్‌లు లేవు.',H:'హోమ్',N:'నా దగ్గర',Vn:'వెరిఫై',S:'సేవ్డ్',how:'మాకు ఎలా తెలుసు',pub:'అసలు ప్రచురణకర్త',when:'ప్రచురణ · అప్‌డేట్',sum:'సారాంశం',ai:'✦ AI, ఎడిటర్ పరిశీలన',ev:'అసలు కథనం',evs:'మూలం వెబ్‌సైట్‌లో తెరవండి',corr:'సవరణలు',none:'ఇప్పటివరకు లేవు',report:'తప్పు ఉందా? తెలియజేయండి',updated:'అప్‌డేట్'},
- en:{hello:['Good morning','Good afternoon','Good evening'],U:'UNDERSTAND',A:'ACT · NEAR YOU NOW',V:'VERIFY · TOP STORIES',all:'See all',bk:'YOUR 3-MINUTE BRIEFING',bh:n=>`${n} stories that matter to you today`,mix:(a,b,c)=>[a&&`${a} national`,b&&`${b} Telangana · AP`,c&&`${c} your district`].filter(Boolean).join(' · '),read:'📖 Read',listen:'▶ Listen',stop:'■ Stop',gov:'Government for you',govs:'Deadlines',days:'days',today:'today',why:'Why it matters:',src:'Source',off:'✓ Official notice',rep:'● Reporter update',news:'● ',go:'Swipe the news →',noact:'No alerts from your area right now.',H:'Home',N:'Near me',Vn:'Verify',S:'Saved',how:'How we know this',pub:'Original publisher',when:'Published · Updated',sum:'Summary',ai:'✦ AI, checked by editor',ev:'Original report',evs:'Opens the source website',corr:'Corrections',none:'none so far',report:'Report an error',updated:'updated'},
- hi:{hello:['सुप्रभात','नमस्कार','शुभ संध्या'],U:'समझें',A:'करें · आपके पास अभी',V:'जाँचें · मुख्य खबरें',all:'सभी',bk:'आपकी 3 मिनट की ब्रीफ़िंग',bh:n=>`आज आपके लिए ${n} अहम खबरें`,mix:(a,b,c)=>[a&&`${a} देश`,b&&`${b} तेलंगाना · आंध्र`,c&&`${c} आपका ज़िला`].filter(Boolean).join(' · '),read:'📖 पढ़ें',listen:'▶ सुनें',stop:'■ रोकें',gov:'सरकार आपके लिए',govs:'अंतिम तिथियाँ',days:'दिन',today:'आज',why:'यह क्यों अहम है:',src:'स्रोत',off:'✓ आधिकारिक सूचना',rep:'● रिपोर्टर अपडेट',news:'● ',go:'खबरें स्वाइप करें →',noact:'अभी आपके इलाके से कोई अलर्ट नहीं।',H:'होम',N:'आसपास',Vn:'जाँचें',S:'सेव्ड',how:'हमें कैसे पता है',pub:'मूल प्रकाशक',when:'प्रकाशित · अपडेट',sum:'सारांश',ai:'✦ AI, संपादक द्वारा जाँचा',ev:'मूल रिपोर्ट',evs:'स्रोत वेबसाइट पर खोलें',corr:'सुधार',none:'अब तक कोई नहीं',report:'गलती बताएँ',updated:'अपडेट'}}[L];
+ te:{hello:['శుభోదయం','శుభ మధ్యాహ్నం','శుభ సాయంత్రం'],friend:'మిత్రమా',addName:'మీ పేరు చేర్చండి ✎',editName:'పేరు మార్చండి ✎',namePh:'మీ పేరు',U:'UNDERSTAND · అర్థం చేసుకోండి',A:'ACT · మీ దగ్గర ఇప్పుడు',V:'VERIFY · ముఖ్య వార్తలు',all:'అన్నీ',bk:'మీ 3 నిమిషాల బ్రీఫింగ్',bh:n=>`ఈరోజు మీకు ముఖ్యమైన ${n} వార్తలు`,mix:(a,b,c)=>[a&&`${a} దేశం`,b&&`${b} తెలంగాణ · ఏపీ`,c&&`${c} మీ జిల్లా`].filter(Boolean).join(' · '),read:'📖 చదవండి',listen:'▶ వినండి',stop:'■ ఆపండి',gov:'ప్రభుత్వం మీ కోసం',govs:'చివరి తేదీలు',days:'రోజులు',today:'ఈరోజే',why:'ఇది ఎందుకు ముఖ్యం:',src:'మూలం',off:'✓ అధికారిక సమాచారం',rep:'● రిపోర్టర్ సమాచారం',news:'● ',go:'వార్తలు స్వైప్ చేయండి →',noact:'మీ ప్రాంతం నుంచి ఇప్పుడు అలర్ట్‌లు లేవు.',H:'హోమ్',N:'నా దగ్గర',Vn:'వెరిఫై',S:'సేవ్డ్',how:'మాకు ఎలా తెలుసు',pub:'అసలు ప్రచురణకర్త',when:'ప్రచురణ · అప్‌డేట్',sum:'సారాంశం',ai:'✦ AI, ఎడిటర్ పరిశీలన',ev:'అసలు కథనం',evs:'మూలం వెబ్‌సైట్‌లో తెరవండి',corr:'సవరణలు',none:'ఇప్పటివరకు లేవు',report:'తప్పు ఉందా? తెలియజేయండి',updated:'అప్‌డేట్'},
+ en:{hello:['Good morning','Good afternoon','Good evening'],friend:'reader',addName:'Add your name ✎',editName:'Change name ✎',namePh:'Your name',U:'UNDERSTAND',A:'ACT · NEAR YOU NOW',V:'VERIFY · TOP STORIES',all:'See all',bk:'YOUR 3-MINUTE BRIEFING',bh:n=>`${n} stories that matter to you today`,mix:(a,b,c)=>[a&&`${a} national`,b&&`${b} Telangana · AP`,c&&`${c} your district`].filter(Boolean).join(' · '),read:'📖 Read',listen:'▶ Listen',stop:'■ Stop',gov:'Government for you',govs:'Deadlines',days:'days',today:'today',why:'Why it matters:',src:'Source',off:'✓ Official notice',rep:'● Reporter update',news:'● ',go:'Swipe the news →',noact:'No alerts from your area right now.',H:'Home',N:'Near me',Vn:'Verify',S:'Saved',how:'How we know this',pub:'Original publisher',when:'Published · Updated',sum:'Summary',ai:'✦ AI, checked by editor',ev:'Original report',evs:'Opens the source website',corr:'Corrections',none:'none so far',report:'Report an error',updated:'updated'},
+ hi:{hello:['सुप्रभात','नमस्कार','शुभ संध्या'],friend:'दोस्त',addName:'अपना नाम जोड़ें ✎',editName:'नाम बदलें ✎',namePh:'आपका नाम',U:'समझें',A:'करें · आपके पास अभी',V:'जाँचें · मुख्य खबरें',all:'सभी',bk:'आपकी 3 मिनट की ब्रीफ़िंग',bh:n=>`आज आपके लिए ${n} अहम खबरें`,mix:(a,b,c)=>[a&&`${a} देश`,b&&`${b} तेलंगाना · आंध्र`,c&&`${c} आपका ज़िला`].filter(Boolean).join(' · '),read:'📖 पढ़ें',listen:'▶ सुनें',stop:'■ रोकें',gov:'सरकार आपके लिए',govs:'अंतिम तिथियाँ',days:'दिन',today:'आज',why:'यह क्यों अहम है:',src:'स्रोत',off:'✓ आधिकारिक सूचना',rep:'● रिपोर्टर अपडेट',news:'● ',go:'खबरें स्वाइप करें →',noact:'अभी आपके इलाके से कोई अलर्ट नहीं।',H:'होम',N:'आसपास',Vn:'जाँचें',S:'सेव्ड',how:'हमें कैसे पता है',pub:'मूल प्रकाशक',when:'प्रकाशित · अपडेट',sum:'सारांश',ai:'✦ AI, संपादक द्वारा जाँचा',ev:'मूल रिपोर्ट',evs:'स्रोत वेबसाइट पर खोलें',corr:'सुधार',none:'अब तक कोई नहीं',report:'गलती बताएँ',updated:'अपडेट'}}[L];
 const LBL={fact:{te:'✓ వాస్తవం',en:'✓ FACT',hi:'✓ तथ्य'},claim:{te:'వాదన',en:'CLAIM',hi:'दावा'},opinion:{te:'అభిప్రాయం',en:'OPINION',hi:'राय'},misleading:{te:'తప్పుదోవ',en:'MISLEADING',hi:'भ्रामक'}};
 const tr=s=>{const o=Object.assign({},s); const x=s[L]; if(L!=='te'&&x&&typeof x==='object'){ ['h','p','why','cat','statl','pts'].forEach(k=>{ if(x[k]) o[k]=x[k]; }); } return o;};
 const ist=()=>new Date(Date.now()+(330+new Date().getTimezoneOffset())*60000);
@@ -177,7 +184,14 @@ const placeTx=k=>PLACES[k]||AP[k]||(k==='AP'?'ఆంధ్రప్రదేశ�
 const isTGAP=s=>s.st==='TG'||s.st==='AP'||(Array.isArray(s.sec)&&s.sec.includes('telangana'));
 
 /* header bits */
-(()=>{ const d=ist(), h=d.getHours(); $('hello').textContent=TX.hello[h<12?0:h<17?1:2];
+function greet(){ const h=ist().getHours(), nm=String(P.name||'').trim();
+  $('hello').innerHTML=esc(TX.hello[h<12?0:h<17?1:2])+', <span class="who">'+esc(nm||TX.friend)+'</span>'+(nm?'':(L==='te'?' 🙏':''));
+  $('nmBtn').textContent=nm?TX.editName:TX.addName; $('nmIn').placeholder=TX.namePh; $('nmIn').value=nm; }
+greet();
+addEventListener('s2prefs',e=>{ P.name=(e.detail||{}).name||''; greet(); });
+$('nmBtn').onclick=()=>{ $('nmBtn').hidden=true; $('nmForm').hidden=false; $('nmIn').focus(); };
+$('nmForm').onsubmit=e=>{ e.preventDefault(); const p=store.get('prefs',{})||{}; p.name=$('nmIn').value.replace(/[<>]/g,'').trim().slice(0,24); store.set('prefs',p); P.name=p.name; $('nmForm').hidden=true; $('nmBtn').hidden=false; greet(); };
+(()=>{ const d=ist(), h=d.getHours();
   const W={te:['ఆదివారం','సోమవారం','మంగళవారం','బుధవారం','గురువారం','శుక్రవారం','శనివారం'],en:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],hi:['रविवार','सोमवार','मंगलवार','बुधवार','गुरुवार','शुक्रवार','शनिवार']}[L];
   const M={te:['జనవరి','ఫిబ్రవరి','మార్చి','ఏప్రిల్','మే','జూన్','జులై','ఆగస్టు','సెప్టెంబర్','అక్టోబర్','నవంబర్','డిసెంబర్'],en:['January','February','March','April','May','June','July','August','September','October','November','December'],hi:['जनवरी','फ़रवरी','मार्च','अप्रैल','मई','जून','जुलाई','अगस्त','सितंबर','अक्टूबर','नवंबर','दिसंबर']}[L];
   $('today').textContent=`${W[d.getDay()]}, ${d.getDate()} ${M[d.getMonth()]}`;

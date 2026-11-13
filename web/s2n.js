@@ -13,6 +13,7 @@
   scr.setAttribute('role','dialog'); scr.setAttribute('aria-label','Choose your language');
   scr.innerHTML='<div class="in"><div class="lhd"><img src="/logo.png" alt="Swipe2News"></div><h1>Choose your language</h1>'+
     '<p class="lsub">Short news in your language. Change it anytime.</p><div class="lgrid" id="s2lgrid" role="radiogroup" aria-label="Language"></div>'+
+    '<label class="lnm">మీ పేరు · Your name <small>(optional)</small><input id="s2lnm" maxlength="24" autocomplete="given-name" placeholder="Ganesh"></label>'+
     '<button class="lgo" id="s2lgo" type="button">Continue</button></div>';
   document.body.appendChild(scr);
   var pick=cur();
@@ -21,9 +22,9 @@
     var c=LANGS.filter(function(l){return l[0]===pick;})[0]; $('s2lgo').textContent='Continue in '+(c?c[2]:'Telugu'); }
   $('s2lgrid').addEventListener('click',function(e){ var b=e.target.closest('.lt'); if(!b) return; var id=b.dataset.l;
     if(READY.indexOf(id)<0){ b.querySelector('.soon').textContent='త్వరలో · SOON'; return; } pick=id; draw(); });
-  function open(){ pick=cur(); draw(); scr.hidden=false; }
-  $('s2lgo').onclick=function(){ var p=get('prefs',{})||{}; var chg=(p.lang||'te')!==pick; p.lang=pick; set('prefs',p); set('langPicked',1); scr.hidden=true;
-    if(chg) location.reload(); };
+  function open(){ pick=cur(); draw(); var n=$('s2lnm'); if(n) n.value=(get('prefs',{})||{}).name||''; scr.hidden=false; }
+  $('s2lgo').onclick=function(){ var p=get('prefs',{})||{}; var chg=(p.lang||'te')!==pick; p.lang=pick; var n=$('s2lnm'); if(n){ p.name=n.value.replace(/[<>]/g,'').trim().slice(0,24); } set('prefs',p); set('langPicked',1); scr.hidden=true;
+    if(chg){ location.reload(); return; } try{ window.dispatchEvent(new CustomEvent('s2prefs',{detail:p})); }catch(e){} };
   window.s2OpenLang=open;
   document.querySelectorAll('.s2lang').forEach(function(b){ var t=b.querySelector('span'); if(t) t.textContent=NAME[cur()]||'తెలుగు'; b.onclick=open; });
   try{ var q=new URLSearchParams(location.search); if(!get('langPicked',0) && !q.has('l') && !/bot|crawl|spider|Lighthouse/i.test(navigator.userAgent)) open(); }catch(e){}

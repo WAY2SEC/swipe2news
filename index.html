@@ -446,6 +446,7 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .lsc .lt.on .lg{background:#F5A23A;color:#2E0827}
 .lsc .lgo{margin-top:auto;position:sticky;bottom:0;height:56px;border:none;border-radius:28px;background:#4A0E3F;color:#FFFDF5;font:inherit;font-size:17px;font-weight:800;cursor:pointer;box-shadow:0 8px 20px rgba(74,14,63,.25)}
 .lsc .lsp{height:20px;flex:none}
+.lsc .lnm{display:flex;flex-direction:column;gap:6px;margin-top:18px;font-size:14px;font-weight:700}.lsc .lnm small{font-weight:500;color:#5A5560}.lsc .lnm input{height:48px;padding:0 14px;border-radius:14px;border:1.5px solid #E3D7DF;background:#fff;font:600 16px 'Outfit','Noto Sans Telugu',sans-serif;color:#202124}
 .fsplay{display:none!important}
 #bellBtn[hidden]{display:none}
 .shell>header .lngb{flex-shrink:0}
@@ -596,6 +597,7 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
     <h1>Choose your language</h1>
     <p class="lsub">Short news in your language. Change it anytime.</p>
     <div class="lgrid" id="langGrid" role="radiogroup" aria-label="Language"></div>
+    <label class="lnm">మీ పేరు · Your name <small>(optional)</small><input id="langName" maxlength="24" autocomplete="given-name" placeholder="Ganesh"></label>
     <div class="lsp"></div>
     <button class="lgo" id="langGo" type="button">Continue</button>
   </section>
@@ -1747,8 +1749,8 @@ setTimeout(alertInvite, 60000);
     const cur=ALL.find(x=>x[0]===pick); $('langGo').textContent='Continue in '+(cur?cur[3]:'Telugu'); }
   $('langGrid').addEventListener('click',e=>{ const b=e.target.closest('.lt'); if(!b) return; const id=b.dataset.l;
     if(!READY.includes(id)){ toast('Coming soon · త్వరలో'); return; } pick=id; drawGrid(); });
-  function openLang(){ pick=LG(); drawGrid(); $('langScr').hidden=false; }
-  $('langGo').onclick=()=>{ $('langScr').hidden=true; const first=!store.get('langPicked',0); store.set('langPicked',1); applyLang(pick);
+  function openLang(){ pick=LG(); drawGrid(); $('langName').value=prefs.name||''; $('langScr').hidden=false; }
+  $('langGo').onclick=()=>{ prefs.name=$('langName').value.replace(/[<>]/g,'').trim().slice(0,24); $('langScr').hidden=true; const first=!store.get('langPicked',0); store.set('langPicked',1); applyLang(pick);
     if(first && !store.get('tutDone',0)) setTimeout(()=>{ $('tut').hidden=false; },350); };
   lngLabel();
   if($('lngBtn')) $('lngBtn').onclick=openLang;
