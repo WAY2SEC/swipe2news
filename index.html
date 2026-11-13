@@ -430,6 +430,25 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .story.s2n.t4 .cfoot{display:none}
 /* header language pill */
 .lngb{display:inline-flex;align-items:center;gap:5px;height:36px;padding:0 11px;border-radius:18px;border:1px solid var(--line);background:var(--chipbg);color:var(--brand);font:inherit;font-size:13px;font-weight:800;cursor:pointer;white-space:nowrap}
+
+/* ===== full-screen cards: only the brand on top; sections + menu live in the ☰ sheet ===== */
+.shell>header{justify-content:space-between}
+.shell>header #placeBtn,.shell>header #lngBtn,.shell>header #bellBtn,.shell>header #setBtn{display:none!important}
+.shell>header .menub{margin-left:auto}
+.shell>.nav{display:none}
+.shell>.tabs{display:none}
+.s2m .nav{display:grid!important;grid-template-columns:repeat(3,1fr);gap:8px;border:0!important;background:none!important;padding:0!important}
+.s2m .nav .nb{height:68px;border-radius:14px;border:1px solid var(--line);background:var(--card)}
+.s2m .tabs{display:flex!important;flex-wrap:wrap;gap:8px;overflow:visible!important;padding:0!important;border:0!important;background:none!important;height:auto!important}
+.s2m .tabs .tab{height:40px}
+.s2m{position:fixed;inset:0;z-index:92;background:rgba(24,6,21,.55);display:flex;justify-content:flex-end}
+.s2m[hidden]{display:none}
+.s2mi{width:min(380px,92vw);height:100%;overflow:auto;background:var(--app);padding:calc(env(safe-area-inset-top,0px) + 10px) 16px calc(env(safe-area-inset-bottom,0px) + 20px);display:flex;flex-direction:column;gap:12px;box-shadow:-10px 0 30px rgba(0,0,0,.2)}
+.s2mh{display:flex;align-items:center;justify-content:space-between;height:48px}.s2mh img{height:28px;width:auto}
+.s2mq{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.s2mq>*{display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:12px;border-radius:14px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit;text-align:left;text-decoration:none;cursor:pointer}
+.s2mq span{font-size:20px}.s2mq b{font-size:13px;line-height:1.35}
+.s2mi h3{margin:6px 0 0;font-size:12px;letter-spacing:.08em;color:var(--muted)}
 /* first-open language screen */
 .lsc{position:fixed;inset:0;z-index:95;background:#FFFDF5;color:#202124;display:flex;flex-direction:column;padding:calc(env(safe-area-inset-top,0px) + 14px) 20px calc(env(safe-area-inset-bottom,0px) + 20px);font-family:'Outfit','Noto Sans Telugu',sans-serif;overflow:auto}
 .lsc[hidden]{display:none}
@@ -462,6 +481,7 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
   <header>
     <a href="/?cards=1" id="homeLogo" aria-label="Swipe2News హోమ్ – మొదటి వార్త"><img class="logo" src="logo.png" alt="Swipe2News"></a>
     <button class="place" id="placeBtn" type="button" aria-label="ప్రాంతం మార్చండి"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span id="placeName">తెలంగాణ</span></button>
+    <button class="icon menub" id="menuBtn" type="button" aria-label="మెనూ · Menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     <button class="lngb" id="lngBtn" type="button" aria-label="భాష మార్చండి · Change language"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span id="lngName">తెలుగు</span></button>
     <button class="icon bell" id="bellBtn" type="button" aria-label="వార్తల అలర్ట్‌లు" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg></button>
     <button class="icon" id="setBtn" type="button" aria-label="సెట్టింగ్స్"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg></button>
@@ -591,6 +611,21 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
       <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 5.1 · Swipe2News</p>
     </div></div>
+  </section>
+  <section class="s2m" id="s2menu" hidden role="dialog" aria-label="మెనూ · Menu">
+    <div class="s2mi">
+      <div class="s2mh"><img src="logo.png" alt="Swipe2News"><button class="icon" id="menuClose" type="button" aria-label="మూసివేయండి"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+      <div class="s2mq">
+        <button type="button" data-do="lang"><span>🌐</span><b id="mLang">భాష · Language</b></button>
+        <button type="button" data-do="place"><span>📍</span><b>నా ప్రాంతం · My area</b></button>
+        <button type="button" data-do="set"><span>⚙️</span><b>సెట్టింగ్స్ · Settings</b></button>
+        <a href="/web/"><span>📰</span><b>తాజా వార్తలు · Latest news</b></a>
+      </div>
+      <h3>విభాగాలు · Sections</h3>
+      <div id="s2mTabs"></div>
+      <h3>మరిన్ని · More</h3>
+      <div id="s2mNav"></div>
+    </div>
   </section>
   <section class="lsc" id="langScr" hidden role="dialog" aria-label="Choose your language · భాష ఎంచుకోండి">
     <div class="lhd"><img src="logo.png" alt="Swipe2News"></div>
@@ -1743,6 +1778,18 @@ setTimeout(alertInvite, 60000);
     while(el && el!==document.body){ var cs=getComputedStyle(el); if(/(auto|scroll)/.test(cs.overflowY) && el.scrollHeight>el.clientHeight+1) return; el=el.parentElement; }
     e.preventDefault();
   },{passive:false});
+})();
+
+/* ===== ☰ menu: sections, jobs, saved, dates, channel, more (12 Nov 2026: full-screen cards) ===== */
+(function(){
+  const m=$('s2menu'); if(!m) return;
+  $('s2mTabs').appendChild($('tabs')); const nv=document.querySelector('.shell>.nav'); if(nv) $('s2mNav').appendChild(nv);
+  const open=()=>{ m.hidden=false; $('menuBtn').setAttribute('aria-expanded','true'); };
+  const close=()=>{ m.hidden=true; $('menuBtn').setAttribute('aria-expanded','false'); };
+  $('menuBtn').onclick=open; $('menuClose').onclick=close;
+  m.addEventListener('click',e=>{ if(e.target===m){ close(); return; }
+    const d=e.target.closest('[data-do]'); if(d){ close(); ({lang:()=>$('lngBtn').click(),place:()=>$('placeBtn').click(),set:()=>$('setBtn').click()})[d.dataset.do](); return; }
+    if(e.target.closest('.tab,.nb,a')) setTimeout(close,120); });
 })();
 /* ===== Swipe2News v5.1: card buttons, language screen, first-open tutorial ===== */
 (function(){
