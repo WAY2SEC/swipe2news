@@ -404,6 +404,9 @@ function artPlan(s){
     const o=['crime','courts','cyber','factcheck'].includes(type)?type:/సైబర్|cyber|మోసం|fraud|scam/i.test(t)?'cyber':/కోర్టు|court/i.test(t)?'courts':/హత్య|అరెస్ట్|దొంగ|పోలీసు|నిందితు|murder|arrest|police|robbery/i.test(t)?'crime':'';
     return {m:'plain',obj:o};
   }
+  { const tq=[s.h,s.statl,String(s.p||'').split(/[.!?।]/)[0]].join(' ');
+    if(/చెరువు|ఆక్రమణ|గాలి నాణ్యత|వాయు కాలుష్య|\bAQI\b|air quality|lake encroach/i.test(tq)) return {m:'cat',cat:'environment'}; // lakes, air quality: environment, not a weather cloud
+    if(type!=='weather'&&/రైళ్లు|రైలు|ట్రైన్|\btrains?\b|railway/i.test(tq)&&!/ప్రపంచం|World/.test(String(s.cat||''))) return {m:'cat',cat:'transport'}; }
   if(type==='weather'){
     const bg=land||sland, rain=/వర్ష|వాన|తుపాను|అల్పపీడన|వరద|జల్లు|rain|cyclone|flood|shower|depression/i.test(t), heat=/ఎండ|వడగాల్పు|ఉక్కపోత|heat|hot\b|scorch/i.test(t), cold=/చలి|పొగమంచు|మంచు|cold|chill|fog|mist|winter/i.test(t);
     const wo=rain?'weather':(heat||cold)?'':'cloud';
@@ -424,7 +427,8 @@ function artPlan(s){
   const isWorld=!land&&(/ప్రపంచం|World/.test(t+(s.cat||''))||(Array.isArray(s.sec)&&s.sec.includes('world')));
   if(!isWorld){ if(/పింఛన్|పెన్షన్|pension/i.test(tt)) return {m:'cat',cat:'schemes'}; if(/పౌరసరఫరా|రేషన్|civil supplies|ration/i.test(tt)) return {m:'land',bg:'n/prices'};
     const nk=artNews(tt); if(nk) return {m:'land',bg:'n/'+nk}; }
-  if(!isWorld&&['health','education','agriculture','sports','entertainment','business','finance','technology','science','jobs','schemes','environment','food','auto','realestate','startups','women','transport','bus','courts','cyber','crime'].includes(type)) return {m:'cat',cat:type};
+  if(!isWorld&&/చెత్త|మురుగు|కాలుష్య|పారిశుద్ధ్య|డ్రైనేజీ|దోమల|garbage|sewage|pollution|sanitation|drainage/i.test(tt)) return {m:'cat',cat:'environment'};
+  if(!isWorld&&['politics','infrastructure','community','lifestyle','explainers','health','education','agriculture','sports','entertainment','business','finance','technology','science','jobs','schemes','environment','food','auto','realestate','startups','women','transport','bus','courts','cyber','crime'].includes(type)) return {m:'cat',cat:type};
   if(land&&['devotional','travel','culture'].includes(type)) return {m:'land',bg:land};
   // owner 14 Nov: place known → the place picture alone, nothing pasted on top
   if(land) return {m:'land',bg:land};
