@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-14T16:05:00+05:30",
+ "cutoff": "2026-11-14T16:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T23:05:00+05:30/2026-11-10T23:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 4,
-   "late": 4,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebSearch returned listing pages only; WebFetch via sub-agent. No in-window (23:05-23:35) article surfaced. Could not open (fetch permission timeout, not added to seen): TT Darulshifa-Chandrayangutta metro, TT UoH programme, TT India 100 chess GMs, IndiaTV Israel govt formation, IndiaTV AIMIM-ASP UP alliance, DC Bulusu Aparna Sahasravadhanam. Eenadu, Sakshi, Andhra Jyothy, ETV Bharat, TV9, V6, NTV, Namasthe Telangana, Reuters/BBC/AP not surfaced. Duplicates: DC/TT NH-44 black spots and Siasat cloud kitchens (already published)."
-  },
   {
    "window": "2026-11-10T23:35:00+05:30/2026-11-11T06:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "16:05 run started 16:06 IST. Lookback from 07:35 14 Nov. Read: V6 Nirmal car fire Sofinagar (13:12, late-found, published, fact, sensitive), M9 AP Investment Protection Act (12:00, late-found, published, fact), NTV Rahul rides gig worker scooty 1035091 (12:21; duplicate of gig-act story), OdishaTV Akvan 12808515 (11:55; duplicate of cyclone story), Telugu360 civil services Rs 1 lakh video (13:00; skipped, video only, no details), newsonair Bharat Summit love politics (Apr 2025; skipped, old). TT Bhupalpalli feed newest 6 Nov. Not reached: Eenadu, Sakshi, NT, TV9, The Hindu, PTI, Reuters; standard TG/AP/India/world/district searches stale. Districts searched: Peddapalli, Jangaon, Mahabubabad, Medchal, Rangareddy, Yadadri, Nandyal, Palnadu, Bapatla, Anakapalli, ASR, Tirupati, Chittoor, Annamayya, Sathyasai, Bhupalpally, Asifabad, Mulugu."
+  },
+  {
+   "window": "2026-11-14T16:05:00+05:30/2026-11-14T16:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 1,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "16:35 run started 16:36 IST. Lookback from 08:05 14 Nov. Read: Sambad English Cyclone Akvan path 12809199 (15:49, late-found, published, forecast: severe cyclonic storm Nov 18, very heavy rain Nov 19-20), OdishaBytes Akvan severe storm (16:01; duplicate), The Federal Akvan third cyclone (16:14; duplicate), Inshorts Revanth defends Rahul Bharat Summit role (10:33; duplicate of 13 Nov ANI story), Telangana Today U19 Asia Cup final first innings (14:55; skipped, result pending). Not reached: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; standard TG/AP/India/world/district searches stale. Districts searched: Jagtial, Sircilla, Suryapet, Vikarabad, Narayanpet, Bhadradri, Hanumakonda, Hyderabad, Visakhapatnam, Krishna, East Godavari, Konaseema, West Godavari."
   }
  ],
  "seen": [
@@ -2401,6 +2401,31 @@
   },
   {
    "url": "https://www.newsonair.gov.in/rahul-gandhi-calls-for-new-politics-of-love-and-affection-at-bharat-summit-in-hyderabad/",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://sambadenglish.com/latest-news/cyclone-akvan-odisha-braces-for-heavy-rainfall-check-path-and-wind-speed-12809199",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://odishabytes.com/odisha-braces-for-heavy-rain-as-cyclone-akvan-set-to-become-severe-storm-check-wind-speed/",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://thefederal.com/category/news/cyclone-akvan-third-cyclone-bay-of-bengal-262913",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://inshorts.com/en/news/revanth-reddy-defends-rahul-gandhi-s-bharat-summit-role-1794632636139",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/u19-asia-cup-2026-final-india-restrict-pakistan-to-337-9-despite-usman-khans-century",
    "d": "2026-11-14",
    "w": "skipped"
   }
