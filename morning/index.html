@@ -22,6 +22,7 @@ a{color:inherit;text-decoration:none}
 .app{max-width:480px;margin:0 auto;padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
 header{display:flex;align-items:center;justify-content:space-between;padding:calc(env(safe-area-inset-top,0px) + 10px) 16px 0 20px;height:calc(env(safe-area-inset-top,0px) + 60px)}
 header img{height:28px;width:auto}
+header .hl{display:inline-flex;align-items:center;gap:9px;text-decoration:none}header .hicon{width:34px;height:34px;border-radius:9px;flex:none}
 .hb{display:flex;gap:6px}
 .pill{height:36px;padding:0 12px;border-radius:18px;border:1px solid var(--line);background:var(--card);color:var(--plum);font:700 13px inherit;font-family:inherit;display:inline-flex;align-items:center;gap:6px;cursor:pointer}
 
@@ -145,7 +146,7 @@ nav.bn a.sw{justify-self:center;width:58px;height:58px;margin-top:-26px;border-r
 <body>
 <div class="app">
   <header>
-    <a href="/?cards=1" aria-label="Swipe2News"><img src="/logo.png" alt="Swipe2News"></a>
+    <a class="hl" href="/?cards=1" aria-label="Swipe2News – swipe cards"><img class="hicon" src="/icon-192.png" alt="" width="34" height="34"><img src="/logo.png" alt="Swipe2News"></a>
     <div class="hb"><button class="pill s2lang" type="button" aria-label="Language · భాష"><span>తెలుగు</span></button></div>
   </header>
   <div class="greet">
