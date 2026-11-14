@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-14T18:05:00+05:30",
+ "cutoff": "2026-11-14T18:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T07:35:00+05:30/2026-11-11T08:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 7,
-   "late": 6,
-   "sensitive": 3,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agents. Eenadu (robots.txt) and Invezz (client error) could not be fetched. Sakshi, Andhra Jyothy, ETV Bharat, TV9, V6, NTV, Telangana Today, Deccan Chronicle, Siasat (in range), Reuters/BBC/AP articles not surfaced in range. Duplicates: Hans CII summit preview 1140971 (already covered 07:05), Siasat land re-survey 3573707 (already covered from NT 06:35; 22:46 also before lookback)."
-  },
   {
    "window": "2026-11-11T08:05:00+05:30/2026-11-11T08:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "18:05 run started 18:05 IST. Lookback from 09:35 14 Nov. Published: India TV Giribabu dies (17:11, fact), UNI Revanth Bharat Summit valedictory (datePublished 12:02Z = 17:32 IST, late-found, fact). Duplicates: The Week Cyclone Akvan (17:16; dup of Sambad forecast), Deccan Chronicle Revanth gig workers (13:00; dup of NewsMeter), Madhyamam Akvan (13 Nov 21:10, pre-lookback). Skipped: India.com Aaryavir Sehwag fifty in U19 final chase (16:35; result pending). Not reached: Cricinfo (client error); Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters not surfaced; standard searches stale. Districts searched: Medchal, Peddapalli, Mulugu, Bhupalpally, Jangaon, Mahabubabad, Tirupati, Nandyal, Kurnool, Chittoor, Annamayya, Palnadu, Bapatla."
+  },
+  {
+   "window": "2026-11-14T18:05:00+05:30/2026-11-14T18:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 3,
+   "late": 2,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 4,
+   "review": 1,
+   "gaps": "18:35 run started 18:36 IST. Lookback from 10:05 14 Nov. Published: Hans India north Andhra rain alert + fishermen advisory (16:59, forecast; new detail beyond earlier Akvan stories), HMTV Bhadrachalam Vaikunta Ekadashi from Dec 10 (16:14, late-found, fact), NT News Sarapaka children's gram sabha (17:53, late-found, fact). Skipped: ESPN/CricketNews U19 Asia Cup final (no result at capture), Sakshi Education JEE Main 2027 notification (old event, applications open since 24 Oct), V6 Bhadradri Maoist surrenders media meet (08:42, pre-lookback), Hans India Tummala irrigation (12 Nov, pre-lookback). Review: Times of Israel 14 Nov liveblog (no entry timestamps). Not reached: Eenadu, Sakshi, TV9, The Hindu, PTI, Reuters; standard searches stale. Districts searched: Adilabad, Mancherial, Sangareddy, Medak, Kamareddy, Suryapet, Vikarabad, Mahabubnagar, Khammam, Bhadradri, Srikakulam, Vizianagaram, Visakhapatnam, Nellore, Prakasam, Anantapur, Kadapa."
   }
  ],
  "seen": [
@@ -2528,6 +2528,46 @@
    "url": "https://madhyamamonline.com/india/bay-of-bengal-system-likely-to-intensify-into-cyclone-akvan-by-november-16-1572033",
    "d": "2026-11-14",
    "w": "18:05"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/rain-alert-issued-to-parts-of-ap-as-low-pressure-likely-to-turn-cyclone-on-18-nov-1142114",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/khammam/bhadrachalam-vaikunta-ekadashi-utsavams-from-dec-10-212785",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/khammam/badradri-kothagudem/childrens-village-assembly-in-sarapaka-2560270",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.cricketnews.com/en/cricket/news/india-vs-pakistan-u-19-asia-cup-final-2026-live-scorecard-result-highlights-muscat-oman/bb3ee40fa50a8922a1eca555",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://education.sakshi.com/en/jee-main/education-news/jee-main-2027-session-1-notification-released-apply-online-till-november-22-exams-january-20-202517",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://v6velugu.com/bhadradri-kothagudem-moves-from-maoist-influence-to-development-918-maoists-surrendered-since-2014-",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/khammam/tummala-seeks-speedy-execution-of-irrigation-projects-in-khammam-1141263",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.timesofisrael.com/liveblog-november-14-2026/",
+   "d": "2026-11-14",
+   "w": "review"
   }
  ]
 }
