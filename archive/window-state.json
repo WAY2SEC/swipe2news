@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-14T10:05:00+05:30",
+ "cutoff": "2026-11-14T10:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T17:35:00+05:30/2026-11-10T18:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 7,
-   "published": 7,
-   "late": 7,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agent. Searches mostly returned listing/tag pages (Telangana Today, Hans India, Business Standard). Eenadu, Sakshi, Andhra Jyothy, ETV Bharat, TV9, V6, NTV, Reuters/BBC articles not reached; Deccan Herald and CNBC article fetches failed (client error). No in-window (17:35-18:05) article found; no other-state or international-topic item published."
-  },
   {
    "window": "2026-11-10T18:05:00+05:30/2026-11-10T18:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "10:05 run started 10:05 IST. Lookback from 01:35 14 Nov. Read: Siasat trading fraud 3576974 (09:55), Siasat TTD Rs 10 cr donation 3576964 (09:49), Siasat Hyderabad listing (no timestamps; items 13 Nov), DC Project Udvasana 2003998 (13 Nov 11:17, pre-lookback, skipped). Published both Siasat items (fraud = claim, sensitive). Not reached: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; India/world searches stale, no world items with verifiable times. Districts searched: Suryapet, Vikarabad, NTR, Chittoor, Srikakulam, Bhadradri, Manyam, Rangareddy, Nalgonda."
+  },
+  {
+   "window": "2026-11-14T10:05:00+05:30/2026-11-14T10:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 2,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "10:35 run started 10:35 IST. Lookback from 02:05 14 Nov. Read: Siasat TGSRTC MST 3576989 (09:53), UNI BJP chief house arrest 244862 (10:20 IST from metadata; paywalled after intro), ETV AP live blog (no items after 06:39), Siasat Hyderabad listing, DC Guntur listing, TT AP listing (all stale, no 14 Nov items). Published both (house arrest = claim, sensitive). Not reached: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; India/world searches stale. Districts searched: Warangal, Karimnagar, Nizamabad, Adilabad, Guntur, Kurnool, Nellore, Anantapur."
   }
  ],
  "seen": [
@@ -2123,6 +2123,16 @@
    "url": "https://www.deccanchronicle.com/southern-states/telangana/project-udvasana-ghmc-identifies-12-centres-across-six-zones-to-collect-sacred-items-2003998",
    "d": "2026-11-14",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/one-pass-many-perks-tgsrtc-rolls-out-revised-mst-from-nov-14-3576989/",
+   "d": "2026-11-14",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/security-telangana-bjp-house-arrest/244862",
+   "d": "2026-11-14",
+   "w": "eligible"
   }
  ]
 }
