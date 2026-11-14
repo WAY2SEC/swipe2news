@@ -31,7 +31,7 @@ const here=location.pathname.replace(/\.html$/,'').split('/').pop();
 /* theme */
 function applyTheme(t){const r=document.documentElement; if(!t||t==='auto') r.removeAttribute('data-theme'); else r.setAttribute('data-theme',t);}
 applyTheme((store.get('prefs',{})||{}).theme);
-const tb=$('theme'); if(tb) tb.onclick=()=>{const r=document.documentElement,cur=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'),nx=cur==='dark'?'light':'dark';applyTheme(nx);const p=store.get('prefs',{})||{};p.theme=nx;store.set('prefs',p);};
+const tb=$('theme'); if(tb){tb.hidden=true;} if(false) tb.onclick=()=>{const r=document.documentElement,cur=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'),nx=cur==='dark'?'light':'dark';applyTheme(nx);const p=store.get('prefs',{})||{};p.theme=nx;store.set('prefs',p);};
 
 /* article in the reader's language (English / Hindi when the story has it) */
 const LANG=w2sLang(); w2sLangSwitch();

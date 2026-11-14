@@ -38,7 +38,7 @@
   var ctx = cv.getContext('2d'); if (!ctx) return;
   var W=0, H=0, P=[], raf=0, KEY='';
   var reduce = window.matchMedia ? matchMedia('(prefers-reduced-motion: reduce)') : {matches:false};
-  function dark(){ var t=document.documentElement.getAttribute('data-theme'); return t ? t==='dark' : !!(window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches); }
+  function dark(){ var t=document.documentElement.getAttribute('data-theme'); return false; }
   var FONT = "'Noto Sans Telugu','Nirmala UI','Noto Sans Kannada','Noto Sans Tamil','Noto Sans Malayalam','Noto Sans Devanagari','Noto Sans Gujarati','Noto Sans Oriya','Noto Sans Bengali','Noto Sans Gurmukhi','Kohinoor Telugu',sans-serif";
   function build(){
     var dpr = Math.min(2, window.devicePixelRatio||1); W = innerWidth; H = innerHeight;

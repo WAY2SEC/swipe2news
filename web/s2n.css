@@ -8,9 +8,7 @@
   --body:'Inter','Noto Sans Telugu','Nirmala UI','Gautami',system-ui,sans-serif;
   --r:16px; --shadow:0 1px 2px rgba(32,33,36,.05),0 4px 14px -6px rgba(32,33,36,.10);
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#121214; --paper:#1C1B1F; --ink:#ECEDEF; --muted:#A6A8AD; --line:#2D2C31; --soft:#232227; --navy:#1C1B1F; --navy2:#1C1B1F;
-  --shadow:0 1px 2px rgba(0,0,0,.4),0 6px 18px -8px rgba(0,0,0,.55)}}
+
 :root[data-theme="dark"]{--bg:#121214; --paper:#1C1B1F; --ink:#ECEDEF; --muted:#A6A8AD; --line:#2D2C31; --soft:#232227; --navy:#1C1B1F; --navy2:#1C1B1F;
   --shadow:0 1px 2px rgba(0,0,0,.4),0 6px 18px -8px rgba(0,0,0,.55)}
 body{background:var(--bg)!important;color:var(--ink);font-family:var(--body)}
@@ -28,7 +26,7 @@ header.top .cta.wa{display:none!important}
 header.top .cta{background:var(--brand)!important;color:#fff!important;border-radius:22px!important;font-family:'Outfit',var(--body);font-weight:700}
 .s2lang{display:inline-flex;align-items:center;gap:6px;height:40px;padding:0 12px;border-radius:20px;border:1px solid var(--line);background:var(--paper);color:var(--brand);font:700 14px 'Outfit',var(--body);cursor:pointer;white-space:nowrap}
 :root[data-theme="dark"] .s2lang{color:#F5A23A}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .s2lang{color:#F5A23A}}
+
 
 /* category navigation: white bar, plum selected */
 .navbar{background:var(--paper)!important;border-bottom:1px solid var(--line);box-shadow:none!important}

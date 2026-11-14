@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="te">
+<html lang="te" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -19,7 +19,7 @@
 <script src="/mandi.js?v=2"></script>
 <style>
 :root{--plum:#4A0E3F;--deep:#2E0827;--ap:#F5A23A;--cream:#FFFDF5;--ink:#202124;--muted:#5F6368;--line:#EDE6DF;--card:#FFFFFF;--up:#0E7A3E;--down:#B3261E}
-@media (prefers-color-scheme:dark){:root{--cream:#141214;--ink:#ECEDEF;--muted:#A6A8AD;--line:#2D2C31;--card:#1C1B1F;--up:#4CC38A;--down:#F2827A}}
+
 *{box-sizing:border-box}
 html,body{margin:0;background:var(--cream);color:var(--ink);font-family:'Outfit','Noto Sans Telugu',system-ui,sans-serif}
 a{color:inherit;text-decoration:none}
@@ -27,7 +27,7 @@ a{color:inherit;text-decoration:none}
 header{display:flex;align-items:center;justify-content:space-between;padding:calc(env(safe-area-inset-top,0px) + 10px) 16px 0 20px;height:calc(env(safe-area-inset-top,0px) + 60px)}
 header img{height:28px;width:auto}
 .pill{height:36px;padding:0 12px;border-radius:18px;border:1px solid var(--line);background:var(--card);color:var(--plum);font:700 13px inherit;font-family:inherit;display:inline-flex;align-items:center;gap:6px;cursor:pointer}
-@media (prefers-color-scheme:dark){.pill{color:var(--ap)}}
+
 .hero{margin:10px 16px 0;border-radius:22px;padding:18px 20px;color:#FFFDF5;background:radial-gradient(120% 120% at 90% 0%,#6E2361 0%,#4A0E3F 55%,#3A0A31 100%);position:relative;overflow:hidden}
 .hero:before{content:"";position:absolute;right:-30px;top:-30px;width:140px;height:140px;border-radius:70px;border:18px solid rgba(255,255,255,.07)}
 .hero h1{margin:0;font-size:26px;font-weight:800;letter-spacing:-.3px}
@@ -42,7 +42,7 @@ select{height:36px;flex:1;min-width:150px;padding:0 10px;border-radius:18px;bord
 .chips::-webkit-scrollbar{display:none}
 .chip{flex:none;height:32px;padding:0 12px;border-radius:16px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:700 12.5px inherit;font-family:inherit;cursor:pointer;white-space:nowrap}
 .chip.on{border-color:var(--plum);background:rgba(74,14,63,.08);color:var(--plum)}
-@media (prefers-color-scheme:dark){.chip.on{border-color:var(--ap);color:var(--ap);background:rgba(245,162,58,.1)}}
+
 .fuel{margin:14px 16px 0;border:1px solid var(--line);border-radius:16px;background:var(--card);overflow:hidden}
 .fuel h2{margin:0;padding:12px 14px 6px;font-size:16px;font-weight:800;display:flex;align-items:center;gap:8px}.fuel h2 small{margin-left:auto;font-size:12px;font-weight:600;color:var(--muted)}
 .fuel .fr{display:grid;grid-template-columns:1fr auto auto;gap:14px;padding:8px 14px;border-top:1px solid var(--line);font-size:14px;font-weight:600}.fuel .fr b{font-weight:800}.fuel .fr.me{background:rgba(245,162,58,.12)}
@@ -56,7 +56,7 @@ select{height:36px;flex:1;min-width:150px;padding:0 10px;border-radius:18px;bord
 .row .m{font-size:14.5px;font-weight:700}
 .row .m em{font-style:normal;font-weight:600;color:var(--muted);font-size:12.5px}
 .row .p{text-align:right;font-size:19px;font-weight:800;color:var(--plum)}
-@media (prefers-color-scheme:dark){.row .p{color:var(--ap)}}
+
 .row .s{font-size:12px;color:var(--muted);font-weight:600}
 .row .s2{text-align:right;font-size:12px;color:var(--muted);font-weight:600}
 .row .up{color:var(--up)}.row .down{color:var(--down)}
@@ -64,12 +64,12 @@ select{height:36px;flex:1;min-width:150px;padding:0 10px;border-radius:18px;bord
 .empty{margin:30px 16px;text-align:center;color:var(--muted)}
 .foot{margin:22px 16px 0;font-size:12.5px;line-height:1.6;color:var(--muted)}
 .foot a{color:var(--plum);font-weight:700;text-decoration:underline}
-@media (prefers-color-scheme:dark){.foot a{color:var(--ap)}}
+
 nav.bn{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--card);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom,0px)}
 nav.bn .in{max-width:560px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);height:64px;align-items:center}
 nav.bn a{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:11px;font-weight:700;color:var(--muted)}
 nav.bn a.on{color:var(--plum)}
-@media (prefers-color-scheme:dark){nav.bn a.on{color:var(--ap)}}
+
 </style>
 </head>
 <body>
