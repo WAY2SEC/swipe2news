@@ -389,6 +389,7 @@ const ART_REG=[[/ఆఫ్రికా|ఈజిప్ట్|నైజీరి�
  [/అమెరికా|యూఎస్|కెనడా|మెక్సికో|ట్రంప్|వాషింగ్టన్|న్యూయార్క్|America|\bUS\b|USA|Canada|Mexico|Washington|New York/i,'namerica'],
  [/యూరప్|బ్రిటన్|యూకే|లండన్|ఫ్రాన్స్|జర్మనీ|ఇటలీ|రష్యా|ఉక్రెయిన్|Europe|Britain|\bUK\b|London|France|Germany|Italy|Russia|Ukraine|Spain/i,'europe'],
  [/చైనా|జపాన్|సింగపూర్|బంగ్లాదేశ్|పాకిస్తాన్|శ్రీలంక|నేపాల్|కొరియా|ఆసియా|China|Japan|Singapore|Bangladesh|Pakistan|Sri Lanka|Nepal|Korea|Asia|Malaysia|Thailand/i,'asia']];
+const ART_HAVE=new Set(['power','water','traffic','prices','telecom','nri','students','friendship','family','healthtips','trading','exams','ai','africa','asia','europe','namerica','mideast']); // art/n pictures we have
 function artNews(t){ for(const [rx,k] of ART_N) if(rx.test(t)) return k; return ''; }
 function artRegion(t){ for(const [rx,k] of ART_REG) if(rx.test(t)) return k; return ''; }
 function artPlan(s){
@@ -410,8 +411,12 @@ function artPlan(s){
     if(wbg) return {m:'land',bg:wbg,wx:rain?'weather':(heat||cold)?'':'cloud'}; // reviewer 14 Nov: place picture clear; one small weather sign in the sky corner
     return {m:'wx',bg,obj:wo,tone:rain?'':heat?'warm':cold?'cool':''};
   }
-  // coal mining / Singareni news: an industry picture, never a temple or landmark (owner, 14 Nov 2026). Switch 'power' to 'coal' once art/n/coal arrives.
-  if(/సింగరేణి|బొగ్గు|బొగ్గుగని|ఓపెన్ కాస్ట్|గనిలో|గని కార్మిక|coal|Singareni|coal mine|colliery|SCCL/i.test(t)) return {m:'land',bg:'n/'+(window.ART_COAL||'power')};
+  // industry, mines, factories, strikes: an industry picture, never a temple or district landmark (owner, 14 Nov 2026).
+  // New owner pictures go in art/n/ and their key in ART_HAVE; until then the closest existing picture is used.
+  { const has=k=>ART_HAVE.has(k);
+    if(/సింగరేణి|బొగ్గు|ఓపెన్ కాస్ట్|coal|Singareni|colliery|SCCL/i.test(t)){ if(/గని కార్మిక|మైనర్లు|mine workers|miners/i.test(t)&&has('mineworkers')) return {m:'land',bg:'n/mineworkers'}; if(/సమ్మె|strike/i.test(t)&&has('strike')) return {m:'land',bg:'n/strike'}; return {m:'land',bg:'n/'+(has('coal')?'coal':'power')}; }
+    if(/సమ్మె|సమ్మెకు|కార్మికుల ఆందోళన|కార్మిక సంఘ|యూనియన్|లాకౌట్|\bstrike\b|\bunion\b|lockout/i.test(t)) return has('strike')?{m:'land',bg:'n/strike'}:{m:'cat',cat:'infrastructure'};
+    if(/పరిశ్రమ|ఫ్యాక్టరీ|కర్మాగార|పారిశ్రామిక|ఫార్మా కంపెనీ|industry|industrial|factory|manufacturing/i.test(t)) return has('industry')?{m:'land',bg:'n/industry'}:{m:'cat',cat:'infrastructure'}; }
   if(land&&['devotional','travel','culture'].includes(type)) return {m:'land',bg:land};
   // owner 14 Nov: place known → the place picture alone, nothing pasted on top
   if(land) return {m:'land',bg:land};

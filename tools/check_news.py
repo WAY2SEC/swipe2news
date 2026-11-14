@@ -87,6 +87,18 @@ def check(d, fix=False):
                     warns.append(f'{tag}: {L} version has no "{k}" – English/Hindi readers would see Telugu ("{s.get(k)}")')
     return errs, warns, fixed
 
+def pictures_needed(d):
+    """Stories whose topic still has no proper picture (tools/art_needed.json) – owner creates them."""
+    import os
+    try: need = json.load(open('tools/art_needed.json', encoding='utf-8'))
+    except Exception: return []
+    out = []
+    for k, v in need.items():
+        if k.startswith('_') or os.path.exists(f'art/n/{k}.jpg'): continue
+        hits = [s.get('h','') for s in stories(d) if not s.get('kind') and re.search(v['rx'], (s.get('h') or '') + ' ' + (s.get('p') or ''), re.I)]
+        if hits: out.append((k, v, hits))
+    return out
+
 def main():
     args = sys.argv[1:]
     fix = '--fix' in args
@@ -105,6 +117,11 @@ def main():
             lines += [f'- {t}: {x}' for x in xs]
         if errs:
             rc = 1
+        pn = pictures_needed(d)
+        if pn:
+            lines.append('\n### Pictures needed (create in your image tool, send to Claude)')
+            for k, v, hits in pn:
+                lines.append(f'- **{v["title"]}** – {len(hits)} story(ies), e.g. "{hits[0][:50]}". Prompt: {v["prompt"]}')
     out = '\n'.join(lines)
     print(out)
     if rep:
