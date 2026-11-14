@@ -1461,7 +1461,8 @@ function shareText(s){
   if(s.kind==='job') return `💼 ${s.h}\n📲 ${storyLink(s)}\n\n👥 ${J('posts')}: ${s.stat}${s.qual?`\n${J('elig')}: ${s.qual}`:''}${s.last?`\n${J('last')}: ${s.last}`:''}\n🏛️ ${s.org||s.src||''}\n${J('warn1')}\n\n👉 ${J('ch')}: ${CONFIG.CHANNEL}`;
   const when=(s.d||NEWS.date||'')+(s.t?' · '+s.t:''), lk=lblOf(s), lbt=lk?(LBL[lk][LG()]||LBL[lk].te):'';
   const lbLine=lk&&lk!=='fact'?`\n🏷️ ${lbt} – ${s.src} ${({te:'కథనం ప్రకారం',en:'report',hi:'की रिपोर्ट के अनुसार'})[LG()]||''}`:(lk?`\n🏷️ ${lbt}`:'');
-  return `${s.brk?'🔴':'📰'} ${s.h}${lbLine}\n📲 ${storyLink(s)}\n\n📅 ${when} · Source | మూలం: ${s.src}\nSwipe2News – ${U('tag')}\n👉 WhatsApp ఛానెల్: ${CONFIG.CHANNEL}`;
+  const pts=Array.isArray(s.pts)&&s.pts.length?'\n'+s.pts.slice(0,3).map(x=>'• '+x).join('\n'):'';
+  return `${s.brk?'🔴':'📰'} *${s.h}*${lbLine}\n\n${s.p||''}${pts}\n\n📅 ${when} · Source | మూలం: ${s.src}\n📲 ${({te:'పూర్తి కార్డు',en:'Full card',hi:'पूरा कार्ड'})[LG()]||'Card'}: ${storyLink(s)}\n\nSwipe2News – ${U('tag')}\n👉 WhatsApp ఛానెల్: ${CONFIG.CHANNEL}`;
 }
 /* Card picture is made ahead of time: phones only allow the share sheet right after a tap,
    so building the picture inside the tap made the share fail and fall back to plain text. */
@@ -1613,7 +1614,10 @@ function chromeChoice(s,text,viaWA){
 }
 async function shareCard(viaWA){ const s=LIST[cur]; if(!s) return;
   const text=shareText(s);
-  if(viaWA){ openWADirect(text); try{ window.gtag&&gtag('event','share_whatsapp',{}); }catch(e){} return; }
+  if(viaWA){ try{ window.gtag&&gtag('event','share_whatsapp',{}); }catch(e){}
+    /* WhatsApp's own link carries text only; a photo can only go through the phone's share menu. Phones that can share pictures get photo + full news + link there; others open WhatsApp with the text and link (its preview shows our card). */
+    if(!(window.isSecureContext && navigator.canShare && !(IOS && CRIOS))){ openWADirect(text); return; }
+    viaWA=false; }
   let b=(cardCache.k===keyOf(s))?cardCache.blob:null;
   if(IOS && (CRIOS||STANDALONE) && window.isSecureContext){ chromeChoice(s,text,viaWA); return; }
   if(IOS && (CRIOS || !window.isSecureContext)){
