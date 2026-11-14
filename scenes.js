@@ -390,6 +390,38 @@ const ART_REG=[[/ఆఫ్రికా|ఈజిప్ట్|నైజీరి�
  [/యూరప్|బ్రిటన్|యూకే|లండన్|ఫ్రాన్స్|జర్మనీ|ఇటలీ|రష్యా|ఉక్రెయిన్|Europe|Britain|\bUK\b|London|France|Germany|Italy|Russia|Ukraine|Spain/i,'europe'],
  [/చైనా|జపాన్|సింగపూర్|బంగ్లాదేశ్|పాకిస్తాన్|శ్రీలంక|నేపాల్|కొరియా|ఆసియా|China|Japan|Singapore|Bangladesh|Pakistan|Sri Lanka|Nepal|Korea|Asia|Malaysia|Thailand/i,'asia']];
 const ART_HAVE=new Set(['coal','mineworkers','power','water','traffic','prices','telecom','nri','students','friendship','family','healthtips','trading','exams','ai','africa','asia','europe','namerica','mideast']); // art/n pictures we have
+
+/* owner's industries & workers library (14 Nov 2026, art/i/): 56 pictures. Workers first (when the story is about the people),
+   then the industry, then the 18 general topics. Company names point to their industry. */
+const WORKER_RX=/కార్మిక|కూలీ|ఉద్యోగుల|ఉద్యోగులు|సిబ్బంది|లైన్‌మెన్|నర్సు|వైద్య సిబ్బంది|ఆశా వర్కర్|డెలివరీ బాయ్|workers?\b|employees|staff|labou?r|linemen|nurses|delivery (?:boys|partners)/i;
+const ART_IW=[[/ఆసుపత్రి సిబ్బంది|ఆసుపత్రుల్లోని|వైద్య|నర్సు|ఆశా|హెల్త్ వర్కర్|hospital|nurses|doctors|ASHA|health workers/i,'healthcare-workers'],[/పారిశుద్ధ్య|చెత్త|sanitation|garbage/i,'sanitation-workers'],[/భూగర్భ గని|అండర్‌గ్రౌండ్|underground mine/i,'underground-miners'],[/గని|బొగ్గు|సింగరేణి|coal|\bmines?\b/i,'coal-mine-workers'],
+ [/భవన నిర్మాణ|నిర్మాణ రంగ|construction/i,'construction-workers'],[/ఉక్కు|స్టీల్|steel/i,'steel-plant-workers'],[/చమురు|గ్యాస్|ఓఎన్జీసీ|oil|gas|ONGC/i,'oil-and-gas-workers'],
+ [/విద్యుత్|లైన్‌మెన్|ట్రాన్స్‌కో|డిస్కం|electricity|power|linemen|discom/i,'electricity-line-workers'],[/పాల ఉత్పత్తి|పాల కేంద్ర|పాల సేకరణ|డెయిరీ|dairy|milk plant/i,'dairy-plant-workers'],[/ఆహార శుద్ధి|ఫుడ్ ఫ్యాక్టరీ|ఫుడ్ ప్రాసెసింగ్|food processing|food factory/i,'food-factory-workers'],
+ [/వ్యవసాయ కూలీ|రైతు కూలీ|వ్యవసాయ కార్మిక|ఉపాధి హామీ|farm workers|agricultural workers|MGNREGA/i,'agricultural-workers'],[/గోదాం|వేర్‌హౌస్|డెలివరీ|గిగ్|warehouse|delivery|gig workers/i,'logistics-and-warehouse-workers']];
+const ART_I=[[/సింగరేణి|కోల్ ఇండియా|బొగ్గు ఉత్పత్తి|coal india|SCCL/i,'n/coal'],[/విశాఖ ఉక్కు|వైజాగ్ స్టీల్|ఆర్ఐఎన్ఎల్|ఉక్కు కర్మాగార|స్టీల్ ప్లాంట్|టాటా స్టీల్|జేఎస్‌డబ్ల్యూ|సెయిల్|\bRINL\b|Vizag Steel|steel plant|Tata Steel|JSW Steel|\bSAIL\b|\bsteel\b/i,'iron-and-steel'],
+ [/రిఫైనరీ|ముడి చమురు|పెట్రోలియం|ఐఓసీ|బీపీసీఎల్|హెచ్‌పీసీఎల్|refinery|crude oil|petroleum|\bIOCL?\b|BPCL|HPCL/i,'crude-oil-and-refining'],[/సహజ వాయువు|గ్యాస్ పైప్‌లైన్|ఎల్‌పీజీ|గెయిల్|natural gas|gas pipeline|\bLPG\b|\bGAIL\b|\bCNG\b/i,'natural-gas'],
+ [/థర్మల్ విద్యుత్|విద్యుత్ కేంద్ర|విద్యుత్ ఉత్పత్తి|ఎన్టీపీసీ|జెన్‌కో|power plant|thermal power|power generation|\bNTPC\b|genco/i,'electric-power'],[/సౌర|సోలార్|పవన విద్యుత్|గ్రీన్ ఎనర్జీ|పునరుత్పాదక|solar|wind power|wind energy|renewable|green energy/i,'solar-and-wind'],
+ [/అల్యూమినియం|హిండాల్కో|నాల్కో|aluminium|aluminum|Hindalco|NALCO/i,'aluminium'],[/రాగి|copper/i,'copper'],[/సిమెంట్|అల్ట్రాటెక్|cement|UltraTech/i,'cement'],[/గాజు|సిరామిక్|glass|ceramic/i,'glass-and-ceramics'],
+ [/రసాయన|కెమికల్|chemical/i,'chemicals'],[/ఎరువు|యూరియా|డీఏపీ|fertili[sz]er|urea|\bDAP\b/i,'fertilizers'],[/పాల ఉత్పత్తి|పాల ధర|డెయిరీ|విజయ డెయిరీ|అమూల్|కరీంనగర్ డెయిరీ|\bdairy\b|milk price|Amul/i,'milk-and-dairy'],
+ [/(?<!ప్రా)ధాన్యం|వరి కొనుగోలు|రైస్ మిల్లు|బియ్యం మిల్లు|పిండి మిల్లు|paddy|rice mill|flour mill|grain/i,'grain-and-flour-milling'],[/చక్కెర|చెరకు|షుగర్ ఫ్యాక్టరీ|sugar|sugarcane/i,'sugar'],[/వంట నూనె ఉత్పత్తి|పామాయిల్|ఆయిల్ పామ్|edible oil|palm oil|oil palm/i,'edible-oils'],
+ [/బేకరీ|బిస్కెట్|bakery|biscuit/i,'bakery-and-biscuits'],[/చాక్లెట్|కోకో|cocoa|chocolate|confectionery/i,'cocoa-and-confectionery'],[/శీతల పానీయ|బేవరేజ్|soft drink|beverage/i,'beverages'],
+ [/చికెన్|కోడి|పౌల్ట్రీ|మాంసం|గుడ్ల|poultry|chicken|\bmeat\b|eggs?\b/i,'meat-and-poultry'],[/మత్స్య|చేపల|రొయ్య|ఆక్వా|fisheries|aquaculture|shrimp|prawn|fish farm/i,'fisheries-and-aquaculture'],
+ [/చేనేత|వస్త్ర|టెక్స్‌టైల్|మగ్గం|పత్తి మిల్లు|నేత కార్మిక|handloom|textile|apparel|garment|weaver/i,'textiles-and-apparel'],[/కాగితం|ప్యాకేజింగ్|paper mill|packaging/i,'paper-and-packaging'],[/ఎఫ్ఎంసీజీ|సబ్బు|FMCG|personal care|household goods/i,'household-and-personal-care'],
+ [/ఎలక్ట్రిక్ వాహన|ఈవీ|కార్ల తయారీ|ఆటోమొబైల్|మారుతి|హ్యుందాయ్|టాటా మోటార్స్|మహీంద్రా|electric vehicle|\bEVs?\b|automobile|car maker|Maruti|Hyundai|Tata Motors|Mahindra|Ola Electric/i,'automobiles-and-evs'],
+ [/యంత్రాల తయారీ|యంత్ర పరికరాల|ఇంజనీరింగ్ పరిశ్రమ|మెషినరీ|machinery|engineering firm|L&T|Larsen/i,'machinery-and-engineering'],[/సెమీకండక్టర్|చిప్ తయారీ|semiconductor|chip (?:plant|making|maker)/i,'semiconductors'],[/ఎలక్ట్రానిక్స్|మొబైల్ తయారీ|electronics|phone manufactur/i,'electronics'],
+ [/ఐటీ కంపెనీ|ఐటీ ఉద్యోగ|సాఫ్ట్‌వేర్ (?:కంపెనీ|సంస్థ|ఉద్యోగ|నిపుణ)|ఇన్ఫోసిస్|టీసీఎస్|విప్రో|కాగ్నిజెంట్|\bIT (?:company|firm|jobs|sector|employees)|software (?:company|firm|jobs)|Infosys|\bTCS\b|Wipro|Cognizant|HCLTech|Tech Mahindra|Microsoft|Google|Amazon Web/i,'it-and-ai'],
+ [/ఫార్మా|బల్క్ డ్రగ్|ఔషధ|మందుల కంపెనీ|డాక్టర్ రెడ్డీస్|అరబిందో|హెటిరో|భారత్ బయోటెక్|pharma|bulk drug|drug maker|Dr Reddy|Aurobindo|Hetero|Bharat Biotech|Divi/i,'pharmaceuticals'],
+ [/ఆసుపత్రి నిర్మాణ|కొత్త ఆసుపత్రి|మెడికల్ కాలేజీ|ఆరోగ్యశ్రీ|hospital (?:opened|building|beds)|medical college|Aarogyasri/i,'healthcare-services'],
+ [/రియల్ ఎస్టేట్|అపార్ట్‌మెంట్|ఇందిరమ్మ ఇళ్ల|ఇళ్ల నిర్మాణ|గృహ నిర్మాణ|టవర్ ఇళ్లు|real estate|apartment|housing project|construction project/i,'construction-and-real-estate'],
+ [/ఓడరేవు|పోర్టు|షిప్పింగ్|లాజిస్టిక్స్|కంటైనర్|డ్రై పోర్టు|\bport\b|shipping|logistics|container/i,'logistics-and-shipping'],[/బ్యాంకు|బ్యాంక్|బీమా|ఎల్ఐసీ|రుణాల|\bbank|insurance|\bLIC\b|loan/i,'banking-and-insurance'],
+ [/పర్యాటక శాఖ|హోటల్|హాస్పిటాలిటీ|రిసార్ట్|tourism|hotel|hospitality|resort/i,'tourism-and-hospitality'],
+ [/ఈ-కామర్స్|అమెజాన్|ఫ్లిప్‌కార్ట్|ఆన్‌లైన్ షాపింగ్|e-commerce|Flipkart|Amazon|Meesho|online shopping/i,'e-commerce'],[/క్విక్ కామర్స్|జెప్టో|బ్లింకిట్|స్విగ్గీ|జొమాటో|quick commerce|Zepto|Blinkit|Swiggy|Zomato|food delivery/i,'quick-commerce-and-delivery'],
+ [/ఆన్‌లైన్ గేమ్|గేమింగ్|online gam|gaming/i,'online-gaming'],[/బెట్టింగ్|betting/i,'online-betting'],[/క్రిప్టో|బిట్‌కాయిన్|crypto|bitcoin/i,'crypto-and-digital-assets'],
+ [/యూపీఐ|ఫోన్‌పే|పేటీఎం|డిజిటల్ చెల్లింపు|ఫిన్‌టెక్|\bUPI\b|PhonePe|Paytm|fintech|digital payment/i,'fintech-and-payments'],[/సోషల్ మీడియా|యూట్యూబర్|ఇన్‌ఫ్లుయెన్సర్|ఇన్‌స్టాగ్రామ్|social media|YouTuber|influencer|Instagram|creator/i,'social-media-and-creators']];
+function artIndustry(tt){
+  if(WORKER_RX.test(tt)) for(const [rx,k] of ART_IW) if(rx.test(tt)) return 'i/'+k;
+  for(const [rx,k] of ART_I) if(rx.test(tt)) return k.startsWith('n/')?k:'i/'+k;
+  return ''; }
 function artNews(t){ for(const [rx,k] of ART_N) if(rx.test(t)) return k; return ''; }
 function artRegion(t){ for(const [rx,k] of ART_REG) if(rx.test(t)) return k; return ''; }
 function artPlan(s){
@@ -425,7 +457,9 @@ function artPlan(s){
   // Landmarks stay for temple, travel, culture and general local / political news.
   const tt=[s.h,s.statl,String(s.p||'').split(/[.!?।]/)[0]].join(' ');
   const isWorld=!land&&(/ప్రపంచం|World/.test(t+(s.cat||''))||(Array.isArray(s.sec)&&s.sec.includes('world')));
-  if(!isWorld){ if(/పింఛన్|పెన్షన్|pension/i.test(tt)) return {m:'cat',cat:'schemes'}; if(/చెత్త|మురుగు|పారిశుద్ధ్య|డ్రైనేజీ|garbage|sewage|sanitation/i.test(tt)) return {m:'cat',cat:'environment'}; if(/పౌరసరఫరా|(?<!కార్పొ)రేషన్ (?:కార్డ|బియ్య|షాప|దుకాణ|సరుకు)|civil supplies|\bration\b/i.test(tt)) return {m:'land',bg:'n/prices'};
+  if(!isWorld){ if(/పింఛన్|పెన్షన్|pension/i.test(tt)) return {m:'cat',cat:'schemes'}; if(/చెత్త|పారిశుద్ధ్య|garbage|sanitation/i.test(tt)&&/శుభ్ర|తొలగి|తరలి|స్వచ్ఛ|clean|clear|drive/i.test(tt)) return {m:'land',bg:'i/sanitation-workers'}; if(/చెత్త|మురుగు|పారిశుద్ధ్య|డ్రైనేజీ|garbage|sewage|sanitation/i.test(tt)) return {m:'cat',cat:'environment'}; if(/పౌరసరఫరా|(?<!కార్పొ)రేషన్ (?:కార్డ|బియ్య|షాప|దుకాణ|సరుకు)|civil supplies|\bration\b/i.test(tt)) return {m:'land',bg:'n/prices'};
+    if(/ఏఐ|\bAI\b|కృత్రిమ మేధ|సెన్సెక్స్|నిఫ్టీ|స్టాక్ మార్కెట్|Sensex|Nifty/i.test(String(s.h||''))){ const nk0=artNews(tt); if(nk0) return {m:'land',bg:'n/'+nk0}; }
+    const ik=artIndustry(tt); if(ik) return {m:'land',bg:ik};
     const nk=artNews(tt); if(nk) return {m:'land',bg:'n/'+nk}; }
   if(!isWorld&&/చెత్త|మురుగు|కాలుష్య|పారిశుద్ధ్య|డ్రైనేజీ|దోమల|garbage|sewage|pollution|sanitation|drainage/i.test(tt)) return {m:'cat',cat:'environment'};
   if(!isWorld&&['politics','infrastructure','community','lifestyle','explainers','health','education','agriculture','sports','entertainment','business','finance','technology','science','jobs','schemes','environment','food','auto','realestate','startups','women','transport','bus','courts','cyber','crime'].includes(type)) return {m:'cat',cat:type};
@@ -443,7 +477,7 @@ function artPlan(s){
 }
 function artImg(s){ const a=artPlan(s); if(!a) return ''; return a.m==='logo'?'/art/logo.svg':a.m==='cat'?'/art/c/'+a.cat+'.jpg':a.bg?artBg(a.bg):'/art/o/'+(a.obj||'local')+'.webp'; }
 const ART_DISC={te:'AI రూపొందించిన చిత్రం',en:'AI-generated illustration',hi:'AI से बना चित्र'};
-function artBg(k,big){ const e=big?'.jpg':'.webp'; return (k.startsWith('w/')||k.startsWith('n/'))?'/art/'+k+e:'/art/d/'+k+e; } // cards: light 960px WebP; shared 4K photo: full-size original
+function artBg(k,big){ const e=big?'.jpg':'.webp'; return (k.startsWith('w/')||k.startsWith('n/')||k.startsWith('i/'))?'/art/'+k+e:'/art/d/'+k+e; } // cards: light 960px WebP; shared 4K photo: full-size original
 function artHTML(a){
   const im=(src,cls)=>`<img class="${cls}" src="${src}" alt="" decoding="async">`;
   if(a.m==='logo') return `<i class="apl2"></i><span class="alw"><span class="alr"><img class="alogo" src="/art/logo.svg" alt=""><i class="adot"></i></span></span>`;
