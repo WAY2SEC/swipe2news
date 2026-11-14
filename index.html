@@ -1693,12 +1693,11 @@ async function newsCard(s,mode){
   if(st||sl){ const line=st+(st&&sl?'  ':'')+sl; const f=fitFont(line,800,54,TE,W-97,22); const y=PIC-(hasArt?70:48);
     ctx.save(); ctx.shadowColor='rgba(0,0,0,.6)'; ctx.shadowBlur=14; ctx.shadowOffsetY=3; ctx.font=`800 ${f}px ${TE}`; ctx.fillStyle=AP; ctx.fillText(st,49,y); const sw=st?ctx.measureText(st+'  ').width:0; ctx.fillStyle=CR; ctx.fillText(sl,49+sw,y); ctx.restore(); }
   if(hasArt){ const ap_=artPlan(s)||{}; if(ap_.m!=='logo'&&!(ap_.m==='plain'&&!ap_.obj)){ ctx.font=`500 24px ${TE}`; ctx.fillStyle='rgba(255,253,245,.75)'; ctx.fillText(ART_DISC[LG()]||ART_DISC.te,49,PIC-24); } }
-  // 2) brand band
-  const BY=PIC, BH=140; ctx.fillStyle=DEEP; ctx.fillRect(0,BY,W,BH); ctx.fillStyle=AP; ctx.fillRect(0,BY,W,5); ctx.fillRect(0,BY+BH-5,W,5);
-  const iy=BY+BH/2; try{ const ic=await loadImg('icon-512.png'); ctx.save(); ctx.fillStyle=CR; rrect(ctx,46,iy-43,86,86,22); ctx.fill(); rrect(ctx,49,iy-40,80,80,19); ctx.clip(); ctx.drawImage(ic,49,iy-40,80,80); ctx.restore(); }catch(e){}
-  ctx.textBaseline='alphabetic'; ctx.font=`800 62px ${OU}`; ctx.fillStyle=CR; ctx.fillText('swipe2news',148,iy+10); const ww=ctx.measureText('swipe2news').width; ctx.fillStyle=AP; ctx.fillText('.',148+ww,iy+10);
-  ctx.font=`700 26px ${TE}`; ctx.fillStyle='rgba(255,253,245,.88)'; ctx.fillText('తక్కువ స్క్రోల్, ఎక్కువ సమాచారం',150,iy+48);
-  ctx.textAlign='right'; ctx.font=`800 44px ${OU}`; const tg=(t,y)=>{ ctx.fillStyle=AP; ctx.fillText('.',W-49,y); const dw=ctx.measureText('.').width; ctx.fillStyle=CR; ctx.fillText(t,W-49-dw,y); }; tg('Know More',iy-6); tg('Scroll Less',iy+44); ctx.textAlign='left';
+  // 2) brand band — official logo lockup (owner's logo sheet): plum icon, plum wordmark with apricot dot, plum tagline, on cream
+  const BY=PIC, BH=140; ctx.fillStyle=CR; ctx.fillRect(0,BY,W,BH); ctx.fillStyle=AP; ctx.fillRect(0,BY,W,5); ctx.fillStyle='#E8DFD3'; ctx.fillRect(0,BY+BH-2,W,2);
+  const iy=BY+BH/2+2; try{ const ic=await loadImg('icon-512.png'); ctx.save(); rrect(ctx,49,iy-44,88,88,22); ctx.clip(); ctx.drawImage(ic,49,iy-44,88,88); ctx.restore(); }catch(e){}
+  ctx.textBaseline='middle'; ctx.font=`800 66px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('swipe2news',156,iy-4); const ww=ctx.measureText('swipe2news').width; ctx.fillStyle=AP; ctx.fillText('.',156+ww,iy-4);
+  ctx.textAlign='right'; ctx.font=`700 40px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('Know More.',W-49,iy-22); ctx.fillText('Scroll Less.',W-49,iy+24); ctx.textAlign='left'; ctx.textBaseline='alphabetic';
   // 3) body
   const FH=151, BX=59, TW=W-2*BX; let y=BY+BH+48;
   const hs=fitFont(s.h||'',800,HS,TE,TW,Math.round(HS*0.6)); ctx.fillStyle=PLUM; ctx.textBaseline='top'; let ht=s.h||''; while(ctx.measureText(ht).width>TW&&ht.length>1) ht=ht.slice(0,-1); ctx.fillText(ht+(ht.length<(s.h||'').length?'…':''),BX,y); y+=hs*1.3+24;
