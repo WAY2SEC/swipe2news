@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-14T11:35:00+05:30",
+ "cutoff": "2026-11-14T12:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T19:05:00+05:30/2026-11-10T19:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agent. Searches returned mostly listing/tag pages. Siasat, Hans India, Deccan Chronicle, Eenadu, Sakshi, Andhra Jyothy, ETV Bharat, TV9, V6, NTV, Reuters/BBC article pages not surfaced; no AP, national, other-state or international item verified in range. Telangana Today 'Latest' widget items (Sangareddy DCC, CPI MLA drought, Asifabad Sirsilk eviction, ED rice-mill attachment, rice price cap, NH-65 crash) undated, not opened."
-  },
   {
    "window": "2026-11-10T19:35:00+05:30/2026-11-10T20:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 1,
    "gaps": "11:35 run started 11:36 IST. Lookback from 03:05 14 Nov. Read: TT Congress hits back at BRS (11:18, claim), DC/ANI cyclone threat 2004332 (11:33, update, fact), Sakshi Post cold 483223 (09:44, late-found, fact), Hans India Bharat Summit 1141968 (05:50, duplicate of summit coverage), ETV TG live blog (already seen; US flights restored item duplicate of US flights story), Siasat Hyderabad listing (no timestamps), AA Morning Briefing 4124855 (date only, review). Not reached: Eenadu, Sakshi Telugu, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; district searches stale. Districts searched: Khammam, Sangareddy, Kamareddy, Nirmal, Mancherial, Peddapalli, Kakinada, NTR, Srikakulam, Vizianagaram, Nandyal, Annamayya."
+  },
+  {
+   "window": "2026-11-14T11:35:00+05:30/2026-11-14T12:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 1,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 0,
+   "review": 1,
+   "gaps": "12:35 run started 12:36 IST; 12:05 run did not save state, so window covers 11:35-12:35. Lookback from 03:35 14 Nov. Read: NewsMeter gig act rollout 779300 (12:32, published as update, fact), Hans India gig board 1142049 (12:36, after END; grouped with same event), ap7am 886711 and DC 2004302 (morning previews; duplicates), Capital Information Bharat Summit visa row (10:03; duplicate of visa-row story), Siasat Telangana listing (no timestamps; BRS rap song 3576451 time unverified, review). Not reached: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; India/world/district searches stale. Districts searched: Nalgonda, Suryapet, Warangal, Hanumakonda, Mulugu, Mahabubabad, Jagtial, Sircilla, Yadadri, Vikarabad, Narayanpet, Asifabad, Guntur, Palnadu, Bapatla, East Godavari, Konaseema, Chittoor, Anakapalli."
   }
  ],
  "seen": [
@@ -2181,6 +2181,26 @@
   },
   {
    "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855",
+   "d": "2026-11-14",
+   "w": "review"
+  },
+  {
+   "url": "https://newsmeter.in/top-stories/rahul-gandhi-launches-gig-workers-act-implementation-announces-insurance-benefits-in-telangana-779300",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/telangana/rahul-gandhi-and-revanth-reddy-meets-gig-workers-launches-welfare-board-1142049",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://capitalinformation.net/bharat-summit-2026-in-hyderabad/",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/welcome-rahul-ji-brs-questions-congress-with-rap-song-3576451/",
    "d": "2026-11-14",
    "w": "review"
   }
