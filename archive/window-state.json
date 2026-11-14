@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-14T12:35:00+05:30",
+ "cutoff": "2026-11-14T13:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T19:35:00+05:30/2026-11-10T20:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 1,
-   "published": 1,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agent. Searches mostly returned listing/tag pages; no in-window article found. Domain-filtered searches rejected by proxy (HTTP 400). Hans India and Telangana Today sidebar links (Charminar Diwali rush, Meta Muse Ember, India 100 GMs, UoH, Dhaka blasts, US-UN review) blocked (not from search results). Andhra Jyothy/Sakshi listings show no times; Eenadu, ETV Bharat, TV9, V6, Reuters/BBC not surfaced."
-  },
   {
    "window": "2026-11-10T20:05:00+05:30/2026-11-10T20:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 1,
    "gaps": "12:35 run started 12:36 IST; 12:05 run did not save state, so window covers 11:35-12:35. Lookback from 03:35 14 Nov. Read: NewsMeter gig act rollout 779300 (12:32, published as update, fact), Hans India gig board 1142049 (12:36, after END; grouped with same event), ap7am 886711 and DC 2004302 (morning previews; duplicates), Capital Information Bharat Summit visa row (10:03; duplicate of visa-row story), Siasat Telangana listing (no timestamps; BRS rap song 3576451 time unverified, review). Not reached: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; India/world/district searches stale. Districts searched: Nalgonda, Suryapet, Warangal, Hanumakonda, Mulugu, Mahabubabad, Jagtial, Sircilla, Yadadri, Vikarabad, Narayanpet, Asifabad, Guntur, Palnadu, Bapatla, East Godavari, Konaseema, Chittoor, Anakapalli."
+  },
+  {
+   "window": "2026-11-14T12:35:00+05:30/2026-11-14T13:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 2,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "13:05 run started 13:06 IST. Lookback from 04:35 14 Nov. Read: Siasat KTR questions Rahul 3577135 (12:47, published, claim), Andhra Jyothy Vizag data centres water 1576158 (06:19, late-found, claim), Siasat/PTI Ramchander Rao house arrest 3577149 (12:36; duplicate of house-arrest story), Andhra Jyothy Naidu interview 1576127 (05:16; skipped, interview feature with no news event). Not reached: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; India/world/district standard searches stale. Districts searched: Nizamabad, Karimnagar, Adilabad, Bhadradri, Nellore, Kurnool, Anantapur, West Godavari."
   }
  ],
  "seen": [
@@ -2203,6 +2203,26 @@
    "url": "https://www.siasat.com/welcome-rahul-ji-brs-questions-congress-with-rap-song-3576451/",
    "d": "2026-11-14",
    "w": "review"
+  },
+  {
+   "url": "https://www.siasat.com/congresss-betrayal-of-telangana-is-a-saga-ktr-questions-rahul-gandhi-3577135/",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/cm-chandrababu-naidu-says-visakhapatnam-data-centers-will-not-face-water-shortage-1576158.html",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/ramchander-rao-claims-house-arrest-to-stop-rahul-visit-protest-3577149/",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/ap-cm-chandrababu-naidu-shares-political-journey-and-amaravati-development-vision-1576127.html",
+   "d": "2026-11-14",
+   "w": "skipped"
   }
  ]
 }
