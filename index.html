@@ -436,6 +436,8 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .s2n .bkw .stat{font-size:clamp(30px,8.5vw,40px)}
 .s2n .text{padding:12px 18px 6px;gap:7px}
 .s2n .sline{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-family:'Outfit',var(--body);font-size:12px;font-weight:700;color:var(--muted)}
+.s2n .sline .src a,.s2n .sline .src b{color:#4A0E3F;font-weight:800;text-decoration:underline;text-underline-offset:2px}
+:root[data-theme="dark"] .s2n .sline .src a{color:#F5A23A}
 .s2n .sline .stime::before{content:'·';margin-right:8px}
 .s2n .sline .tl{display:inline-flex;align-items:center;height:21px;padding:0 8px;border-radius:11px;font-size:10.5px;font-weight:800}
 .s2n .kpts{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:4px}
@@ -1115,7 +1117,7 @@ function cardHTML(s,i){
   <div class="text"${s._lang?` lang="${s._lang}"`:''}>
     <div class="meta"><span><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>${readMins(s)} ${U('min')}</span>${where?`<span class="mloc"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>${esc(where)}</span>`:''}<button class="lis" type="button"><svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M7 4.5v15l12-7.5z" fill="currentColor"/></svg>${U('listen')} ${listenSecs(s)}</button></div>
     <h2>${esc(s.h)}</h2>
-    <div class="sline"><span class="src">${esc(s.src)}</span>${(s.d||s.t)?`<span class="stime">${whenTxt(s)}</span>`:''}${statusChip(s)}</div>
+    <div class="sline"><span class="src">${esc({te:'మూలం',en:'Source',hi:'स्रोत'}[LG()]||'Source')}: ${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.src)} ↗</a>`:`<b>${esc(s.src)}</b>`}</span>${(s.d||s.t)?`<span class="stime">${whenTxt(s)}</span>`:''}${statusChip(s)}</div>
     <p class="sum">${esc(s.p)}</p><a class="more" hidden href="/s/${sid(s)}">${esc({te:'పూర్తిగా చదవండి ›',en:'Read more ›',hi:'पूरा पढ़ें ›'}[LG()]||'')}</a>${Array.isArray(s.pts)&&s.pts.length?`<ul class="kpts">${s.pts.slice(0,3).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${corrNote(s)}
     <div class="srow">${aiChip()}<span class="aid">${esc({te:s.src+' కథనం ఆధారంగా',en:'of reporting by '+s.src,hi:s.src+' की रिपोर्ट पर'}[LG()]||'')}</span>${read}</div>
   </div>
