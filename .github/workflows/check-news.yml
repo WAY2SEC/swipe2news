@@ -1,0 +1,32 @@
+name: Check news before readers see it
+
+# Safety net after every newsroom publish: re-checks news.json and today's archive,
+# repairs what is safe to repair (wrong labels), and keeps a short report at tools/reports/news-check.md.
+on:
+  push:
+    branches: [main]
+    paths: ['news.json', 'archive/*.json']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: { group: check-news, cancel-in-progress: false }
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check and repair
+        run: |
+          today=$(TZ=Asia/Kolkata date +%F)
+          files="news.json"; [ -f "archive/$today.json" ] && files="$files archive/$today.json"
+          python3 tools/check_news.py $files --fix --report tools/reports/news-check.md || echo "::warning::Some stories still need a human look – see tools/reports/news-check.md"
+      - name: Save repairs and report
+        run: |
+          git config user.name "Swipe2News Bot"; git config user.email news-bot@swipe2news.invalid
+          git add news.json archive tools/reports/news-check.md
+          git diff --cached --quiet && exit 0
+          git commit -m "Story check: automatic repairs and report"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done

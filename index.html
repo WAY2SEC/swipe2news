@@ -1306,7 +1306,8 @@ function corrNote(s){ const c=s&&s.corr; if(!c||typeof c!=='object') return ''; 
 const LBL={fact:{te:'✓ వాస్తవం',en:'✓ FACT',hi:'✓ तथ्य'},claim:{te:'వాదన / ఆరోపణ',en:'CLAIM',hi:'दावा'},opinion:{te:'అభిప్రాయం',en:'OPINION',hi:'राय'},misleading:{te:'తప్పుదోవ',en:'MISLEADING',hi:'भ्रामक'},forecast:{te:'వాతావరణ అంచనా',en:'WEATHER FORECAST',hi:'मौसम पूर्वानुमान'}};
 /* a weather story about what is expected is a forecast, not a fact that has happened */
 const FORECAST_RX=/సూచన|అంచనా|అవకాశం|రానున్న|కురిసే|ఏర్పడే|బలపడే|forecast|likely|expected|predict|will (?:bring|form|intensify)/i;
-function isForecast(s){ return (typeof artType==='function'&&artType(s)==='weather') && FORECAST_RX.test(String(s.h||'')+' '+String(s.statl||'')+' '+String(s.p||'').slice(0,200)+' '+String((s.en&&s.en.h)||'')); }
+function isForecast(s){ if(/నష్టం|నష్ట|దెబ్బతిన|ధ్వంసం|మృతి|loss|damage/.test(String(s.h||'')+' '+String(s.statl||''))&&!/సూచన|హెచ్చరిక|అవకాశం|అంచనా/.test(String(s.h||'')+' '+String(s.statl||''))) return false; // a damage report is a fact, not a forecast
+  return (typeof artType==='function'&&artType(s)==='weather') && FORECAST_RX.test(String(s.h||'')+' '+String(s.statl||'')+' '+String(s.p||'').slice(0,200)+' '+String((s.en&&s.en.h)||'')); }
 function lblOf(s){ let k=s.lbl; if(k==='forecast') return k; if((!k||k==='fact')&&isForecast(s)) return 'forecast'; if(LBL[k]) return k;
   const c=String(s.cat||'')+' '+String((s.en&&s.en.cat)||''); if(/సంపాదకీయం|Editorial|संपादकीय/.test(c)) return 'opinion';
   if(/ఆరోపణ|allege|आरोप/.test(String(s.h||'')+String(s.p||''))) return 'claim'; return ''; }

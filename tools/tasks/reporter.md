@@ -16,6 +16,7 @@ Publish reporters' stories from the newsroom (Google Apps Script web app in repo
  Web review items (3b): take "story" as is (apply the editor's note to te/en/hi), set d/t to now, remove "img", add "rv": "<item id>"; skip if its url is already published.
 
 5. SAVE: new stories at the TOP of news.json (keep existing; max 50 but never drop today's "local" stories) and of archive/<today>.json (update count + archive/index.json). Validate. Run `CHROME_PATH=$(which google-chrome || true) python3 tools/build_previews.py`; look at one new card picture with Read. git config user.name "Swipe2News Bot"; git config user.email "news-bot@swipe2news.invalid"; git add news.json archive photos s cards web; git commit -m "Reporter stories YYYY-MM-DD HH:MM IST"; fetch + rebase if needed; git push origin HEAD:main; retry once.
+   QUALITY CHECK before the commit: run `python3 tools/check_news.py news.json --fix`; fix every ERROR in the stories you added (empty picture line, vague headline, missing source) and run it again until they show none.
 
 6. MARK PUBLISHED only after a successful push: {"action":"published","key":KEY,"id","link":"https://swipe2news.com/s/<sid>"} for reporter items, {"action":"reviewpublished",…} for web items.
 
