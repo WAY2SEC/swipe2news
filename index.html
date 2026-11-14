@@ -31,7 +31,8 @@ setTimeout(box,12000);setTimeout(box,25000);})();
 /* 5:30–9:00 am India time: everyone opening swipe2news.com (website or installed app) gets the Morning Briefing first, once per visit.
    Other times: phones and the installed app open the swipe cards; laptops and desktops get the news website. */
 (function(){try{var q=new URLSearchParams(location.search);
- if(/bot|crawl|spider|slurp|facebookexternalhit|WhatsApp|Lighthouse|Google-InspectionTool/i.test(navigator.userAgent))return; // search engines and link previews stay on this page
+ if(/bot|crawl|spider|slurp|facebookexternalhit|WhatsApp|Lighthouse|Google-InspectionTool/i.test(navigator.userAgent))return; // search engines and link preview
+ document.documentElement.classList.add('rdr'); // a real reader: show the loading screen, not the search-engine texts stay on this page
  var ist=new Date(Date.now()+(330+new Date().getTimezoneOffset())*60000), mins=ist.getHours()*60+ist.getMinutes();
  var plain=!['cards','s','d','dates','saved','jobs','tip','build','l','sharecard','wishes','sec','q'].some(function(k){return q.has(k);});
  var seen=''; try{seen=sessionStorage.getItem('s2n.morningSeen')||'';}catch(e){}
@@ -346,6 +347,11 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 @media (prefers-reduced-motion:reduce){.fsplay .wv b{animation:none;height:10px}}
 @media (max-width:380px){.logo{height:28px}.place{font-size:11.5px;padding:4px 9px}}
 @media (prefers-reduced-motion:reduce){.story{transition:none}.toast{transition:none}}
+html.rdr .ssr{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0 0 0 0);padding:0!important}
+html.rdr #feed:has(>.ssr){background:radial-gradient(120% 80% at 50% 30%,#6E2361,#4A0E3F 60%,#2E0827)}
+html.rdr #feed:has(>.ssr)::before{content:'';position:absolute;left:50%;top:40%;width:96px;height:96px;transform:translate(-50%,-50%);background:url(/icon-512.png) center/contain no-repeat;border-radius:24px;box-shadow:0 0 0 3px #FFFDF5;animation:s2nPulse 1.2s ease-in-out infinite}
+html.rdr #feed:has(>.ssr)::after{content:'Know More. Scroll Less.';position:absolute;left:0;right:0;top:calc(40% + 72px);text-align:center;color:#FFFDF5;font:800 18px 'Outfit',sans-serif;letter-spacing:.2px;opacity:.9}
+@keyframes s2nPulse{0%,100%{transform:translate(-50%,-50%) scale(1)}50%{transform:translate(-50%,-50%) scale(1.06)}}
 .ssr{height:100%;overflow:auto;padding:18px 20px 40px;font-size:15px;line-height:1.7;color:var(--ink,#16130F)}.ssr h1{font-size:20px;line-height:1.4;margin:0 0 10px}.ssr h2{font-size:16px;margin:16px 0 6px}.ssr ul{margin:0;padding-left:20px}.ssr a{color:var(--brand,#4A0E3F);font-weight:700}.ssr .ssrf{font-size:13px;margin-top:16px}.ssr .ssrw{color:#888;font-size:13px}
 
 /* ===== Swipe2News canvas design (13 Nov 2026) ===== */
