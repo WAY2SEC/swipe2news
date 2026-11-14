@@ -707,8 +707,8 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .s2n .bnr img.ph,.s2n .bnr img.art2,.s2n .bnr img.aland,.s2n .bnr img.adim{object-fit:contain!important;object-position:50% 50%!important;transform:none!important}
 .story.s2n.hasph>.panel.bnr,.s2n.hasph .bnr{background:#4A0E3F!important}
 /* picture 42% / news 58% (reviewer, 14 Nov 2026): picture = half the card, text = the other half */
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.panel.bnr{flex:0 0 42%!important;height:42%!important;min-height:42%!important;max-height:42%!important}
-.story.s2n.numled>.panel.bnr{flex:0 0 42%!important;min-height:42%!important;max-height:42%!important}
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.panel.bnr{flex:0 0 36%!important;height:36%!important;min-height:36%!important;max-height:36%!important}
+.story.s2n.numled>.panel.bnr{flex:0 0 36%!important;min-height:36%!important;max-height:36%!important}
 .story.s2n.numled>.text{flex:1 1 0!important}
 .s2n.numled .bkw .stat,.s2n.numled .bkw .statl{font-size:26px!important}
 .story.s2n>.text{flex:1 1 0!important;min-height:0}
@@ -717,6 +717,10 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .story.s2n.t4 .bkw .stat,.story.s2n.t4 .bkw .statl{display:block!important}
 .story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text .sum{font-size:16px;line-height:1.55}
 .story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text .kpts{display:none!important}
+.s2n .bnr img.ph.tall{object-fit:cover!important;object-position:50% 100%!important}
+.s2n .bnr img.ph.wide{object-position:50% 100%!important}
+.s2n .bnr img.awxs{position:absolute;right:4%;top:14%;width:30%;max-height:30%;object-fit:contain;z-index:1;filter:drop-shadow(0 8px 12px rgba(0,0,0,.45));pointer-events:none}
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text .more{font-weight:700;color:#4A0E3F;text-decoration:none;font-size:14px;margin-top:-2px}
 .story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.spacer{display:none!important}
 .story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bnr img.ahero{width:92%!important;max-height:72%!important;top:46%!important}
 .story.s2n .cfoot>span{white-space:nowrap}
@@ -899,7 +903,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
   <div class="toast" id="toast" role="status"></div>
 </div>
 
-<script src="scenes.js?v=20261114g"></script>
+<script src="scenes.js?v=20261114h"></script>
 <script src="mandi.js?v=2"></script>
 <script>
 const CONFIG = {
@@ -1408,16 +1412,23 @@ function statFit(c){ const b=c.querySelector('.s2n .bkw'); if(!b) return; const 
   while(l.scrollWidth>l.clientWidth&&f>15){ f-=0.5; a.style.setProperty('font-size',f+'px','important'); l.style.setProperty('font-size',f+'px','important'); } }
 try{ document.fonts&&document.fonts.ready.then(()=>setTimeout(()=>document.querySelectorAll('.story.s2n').forEach(c=>{ try{ oneLine(c); statFit(c); srcFit(c); }catch(e){} }),50)); }catch(e){}
 function srcFit(c){ const r=c.querySelector('.s2n .srow'); if(!r) return; r.classList.remove('tight','tight2'); const a=r.querySelector('.srcb a,.srcb b'); const cut=()=>a&&a.scrollWidth>a.clientWidth+1; if(cut()) r.classList.add('tight'); if(cut()){ r.classList.remove('tight'); r.classList.add('tight2'); } }
+function phShape(c){ c.querySelectorAll('.bnr img.ph').forEach(im=>{ const go=()=>{ const b=im.parentElement.getBoundingClientRect(); if(!im.naturalWidth||!b.height) return; const tall=im.naturalWidth/im.naturalHeight < b.width/b.height; im.classList.toggle('tall',tall); im.classList.toggle('wide',!tall); }; if(im.complete) go(); else im.addEventListener('load',go,{once:true}); }); }
 function fit(c){ // make the card fit the screen: hide the least important parts first
+  try{ phShape(c); }catch(e){}
   oneLine(c); srcFit(c); statFit(c); c.classList.remove('t1','t2','t3','t4');
   const tx=c.querySelector('.text');
   const over = () => c.scrollHeight > c.clientHeight + 1 || (tx && tx.scrollHeight > tx.clientHeight + 1);
   const bn=c.querySelector('.s2n .bnr, .story.s2n>.panel.bnr'); if(bn){ bn.style.minHeight=''; bn.style.maxHeight=''; }
   /* 50/50 card: picture half is fixed; show as many summary lines as the text half holds */
   if(c.matches('.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)') && bn && tx){
-    const sm5=tx.querySelector('.sum'); if(sm5){ sm5.style.display=''; sm5.style.webkitLineClamp=''; sm5.style.overflow='';
+    const sm5=tx.querySelector('.sum'); if(sm5){ if(sm5.dataset.full) sm5.textContent=sm5.dataset.full; sm5.style.display=''; sm5.style.webkitLineClamp=''; sm5.style.overflow='';
       if(over()){ const lh=parseFloat(getComputedStyle(sm5).lineHeight)||24; const room=sm5.offsetHeight-(tx.scrollHeight-tx.clientHeight)-2; const n=Math.max(2,Math.floor(room/lh));
-        sm5.style.display='-webkit-box'; sm5.style.webkitBoxOrient='vertical'; sm5.style.overflow='hidden'; sm5.style.webkitLineClamp=String(n); } }
+        const mo5=tx.querySelector('.more'); if(mo5){ mo5.hidden=false; } const n2=Math.max(2,Math.floor((room-(mo5?mo5.offsetHeight+7:0))/lh));
+        /* stop at the last whole sentence that fits; fall back to line clamp only if even one sentence is too long */
+        const full=sm5.dataset.full||(sm5.dataset.full=sm5.textContent); const parts=full.match(/[^.!?।]+[.!?।]+["'”’)]*\s*|[^.!?।]+$/g)||[full]; let ok=false;
+        for(let k=parts.length-1;k>=1;k--){ sm5.textContent=parts.slice(0,k).join('').trim(); if(sm5.scrollHeight<=n2*lh+2){ ok=true; break; } }
+        if(!ok){ sm5.textContent=full; sm5.style.display='-webkit-box'; sm5.style.webkitBoxOrient='vertical'; sm5.style.overflow='hidden'; sm5.style.webkitLineClamp=String(n2); } }
+      else { const mo5=tx.querySelector('.more'); if(mo5) mo5.hidden=true; } }
     if(c===cards[cur] && window.fsPlace) setTimeout(fsPlace,0); return; }
   for(const t of ['t1','t2','t3','t4']){ if(!over()) break; c.classList.add(t); }
   /* still too tall (big phone font / long story): shorten the summary line by line, keep source + label + buttons visible */
