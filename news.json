@@ -1,8 +1,55 @@
 {
  "date": "14.11.2026",
- "updated": "2026-11-14T08:05:00+05:30",
+ "updated": "2026-11-14T09:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "హైదరాబాద్ · అగ్నిప్రమాదం",
+   "col": "--c-city",
+   "stat": "0",
+   "statl": "ప్రాణనష్టం లేదు",
+   "h": "హఫీజ్‌పేటలో పెయింటింగ్ దుకాణంలో భారీ అగ్నిప్రమాదం",
+   "p": "హైదరాబాద్ హఫీజ్‌పేటలోని ఒక పెయింటింగ్ దుకాణంలో శనివారం తెల్లవారుజామున సుమారు 5 గంటలకు భారీ మంటలు చెలరేగాయి. కూకట్‌పల్లి, పటాన్‌చెరు అగ్నిమాపక కేంద్రాల సిబ్బంది వచ్చి మంటలను అదుపులోకి తెచ్చారు. ఆ సమయంలో దుకాణంలో ఎవరూ లేకపోవడంతో ప్రాణనష్టం జరగలేదు.",
+   "pts": [
+    "కేసు నమోదు; ప్రమాద కారణంపై దర్యాప్తు",
+    "నష్టం అంచనా ఇంకా వెల్లడికాలేదు"
+   ],
+   "why": "హఫీజ్‌పేట పరిసర దుకాణదారులు, నివాసితులు అగ్నిభద్రతపై జాగ్రత్తగా ఉండాల్సిన అవసరాన్ని ఇది గుర్తుచేస్తుంది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-major-fire-breaks-out-at-painting-shop-in-hafeezpet-2004307",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "హఫీజ్‌పేట",
+   "pub": "2026-11-14T08:47+05:30",
+   "lbl": "fact",
+   "en": {
+    "h": "Major fire at painting shop in Hafeezpet",
+    "p": "A major fire broke out at a painting shop in Hafeezpet, Hyderabad, at around 5 am on Saturday. Fire personnel from the Kukatpally and Patancheru fire stations reached the spot and brought the flames under control. No one was inside the shop at the time, so there were no casualties.",
+    "pts": [
+     "Case registered; cause under investigation",
+     "No damage estimate given yet"
+    ],
+    "why": "A reminder for shopkeepers and residents around Hafeezpet to take fire safety seriously.",
+    "cat": "Hyderabad · Fire",
+    "statl": "No casualties"
+   },
+   "hi": {
+    "h": "हफीजपेट में पेंटिंग की दुकान में भीषण आग",
+    "p": "हैदराबाद के हफीजपेट में शनिवार सुबह करीब 5 बजे एक पेंटिंग की दुकान में भीषण आग लग गई। कूकटपल्ली और पटानचेरु दमकल केंद्रों के कर्मियों ने मौके पर पहुंचकर आग पर काबू पाया। उस समय दुकान में कोई नहीं था, इसलिए कोई हताहत नहीं हुआ।",
+    "pts": [
+     "मामला दर्ज; आग के कारण की जांच जारी",
+     "नुकसान का अनुमान अभी नहीं बताया गया"
+    ],
+    "why": "हफीजपेट के दुकानदारों और निवासियों के लिए अग्नि सुरक्षा पर ध्यान देने की याद दिलाता है।",
+    "cat": "हैदराबाद · आग",
+    "statl": "कोई हताहत नहीं"
+   },
+   "d": "14.11.2026",
+   "t": "09:05"
+  },
   {
    "cat": "తెలంగాణ · విమానాశ్రయం",
    "col": "--c-gov",
