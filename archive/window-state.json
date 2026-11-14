@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-14T17:05:00+05:30",
+ "cutoff": "2026-11-14T17:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T06:35:00+05:30/2026-11-11T07:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 7,
-   "published": 5,
-   "late": 3,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agents. investinglive market page failed (server error). Eenadu, Sakshi, Andhra Jyothy, TV9, V6, NTV, Namasthe Telangana, Telangana Today, Siasat, Deccan Chronicle, Reuters/BBC/AP articles not surfaced in range (only listing/old pages). ETV Bharat live blog (one URL) also had Invest Telangana Summit registrations, Nvidia/Microsoft and Karnataka Governor at Narayanaguda entries - not published separately (same URL; governor item minor). Duplicates: Hans NTR/Krishna MPP polls (1140899), Hans Bapatla collector review (1140900) grouped into AP MPP/ZP polls story. Older than lookback: Siasat Hayathnagar auto crash (10 Nov 13:06), DC festive celebrations (5 Nov), South First lakes (Mar 2026)."
-  },
   {
    "window": "2026-11-11T07:05:00+05:30/2026-11-11T07:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "17:05 run started 17:06 IST. Lookback from 08:35 14 Nov. Published (all late-found): ETV English Murasu Rs 2,484 cr damage (11:04, fact), hmtv Vanasthalipuram Rs 50 lakh theft 4 held (16:16, fact, police, sensitive), NT Korutla bus-bike crash 1 dead (14:31, fact, sensitive), Al Jazeera FAA ground stop lifted (09:02 IST, fact; follow-up to 02:34 ABC story). Duplicates: ETV TG live blog 08:52-09:16 entries (Ramchander Rao house arrest, gig act, US flights resume, Hafeezpet fire). Skipped: Outlook/ESPN U19 Asia Cup final live (result pending; Pak 337/9, Ind chasing), The Federal central team Murasu field visit (07:55, pre-lookback; grouped into damage story), Cyberabad traffic restrictions 9-12 (expired). Not reached: Cricinfo (client error), Bloomberg/NBC (robots), indiatvnews article (not from search); Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters not surfaced; standard searches stale. Districts searched: Adilabad, Mancherial, Kamareddy, Medak, Sangareddy, Mahabubnagar, Kurnool, Anantapur, Nellore, Prakasam, Srikakulam, Vizianagaram, Eluru, Kadapa, NTR."
+  },
+  {
+   "window": "2026-11-14T17:05:00+05:30/2026-11-14T17:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 2,
+   "late": 2,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "17:35 run started 17:36 IST. Lookback from 09:05 14 Nov. Published (late-found): Mana Telangana Rajendranagar class 7 girl missing, kidnapping case (11:10, fact, police, sensitive minor, no name), Nhan Dan/Xinhua world brief IRGC says 2 tankers hit mines in Hormuz (16:10 IST, claim). Duplicates: Hyderabad Mail cold wave (09:03; dup of Sakshi cold story), ETV TG live blog (no new entries after 09:16; no Shamshabad landing entry found despite headline). Skipped: ESPN U19 Asia Cup final report (result pending at capture), NTV/South First AP panchayat phase-1 notification (13 Nov 12:40, pre-lookback). Not reached: Eenadu, Sakshi, V6, TV9, The Hindu, PTI, Reuters; standard searches stale. Districts searched: Nalgonda, Karimnagar, Warangal, Nizamabad, Guntur, Kakinada, Siddipet, Wanaparthy, Gadwal, Nagarkurnool, Khammam, Visakhapatnam, NTR."
   }
  ],
  "seen": [
@@ -2471,6 +2471,36 @@
   },
   {
    "url": "https://www.espn.com/cricket/series/8616/report/1558444/india-under-19s-vs-pakistan-under-19s-final-asian-cricket-council-under-19s-asia-cup-2026-27",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.manatelangana.news/telangana-breaking-news/class-7-girl-missing-in-rajendranagar-1651603",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://en.nhandan.vn/world-news-in-brief-november-14-post169136.html",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://hyderabadmail.com/telangana-cold-weather-hyderabad-temperatures-november-14-2026/",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--14th-november-2026-latest-top-news-information-across-telangana-tgs26111400358",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://ntvtelugu.com/andhra-pradesh-news/amaravathi/ap-panchayat-elections-2026-first-phase-notification-released-1034777.html",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://thesouthfirst.com/andhrapradesh/first-phase-notification-released-for-gram-panchayat-elections-in-andhra-pradesh/",
    "d": "2026-11-14",
    "w": "skipped"
   }
