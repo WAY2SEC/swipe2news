@@ -236,8 +236,8 @@ const isTGAP=s=>s.st==='TG'||s.st==='AP'||(Array.isArray(s.sec)&&s.sec.includes(
 
 /* header bits */
 function greet(){ const h=ist().getHours(), nm=String(P.name||'').trim();
-  const ar=P.place&&!['TS','TG','IN','AP',''].includes(P.place)?(P.village||placeName(P.place)):''; $('hello').innerHTML=esc(TX.hello[h<12?0:h<17?1:2])+', <span class="who">'+esc(ar||nm||TX.friend)+'</span>';
-  $('nmBtn').textContent=nm?TX.editName:TX.addName; $('nmBtn').hidden=!!ar; $('nmIn').placeholder=TX.namePh; $('nmIn').value=nm; }
+  const ar=P.place&&!['TS','TG','IN','AP',''].includes(P.place)?(P.village||placeName(P.place)):''; $('hello').innerHTML=esc(TX.hello[h<12?0:h<17?1:2])+', <span class="who">'+esc(nm||ar||TX.friend)+'</span>'+(nm?' 🙏':'');
+  $('nmBtn').textContent=nm?TX.editName:TX.addName; $('nmBtn').hidden=false; $('nmIn').placeholder=TX.namePh; $('nmIn').value=nm; }
 greet();
 addEventListener('s2prefs',e=>{ P.name=(e.detail||{}).name||''; greet(); });
 $('nmBtn').onclick=()=>{ $('nmBtn').hidden=true; $('nmForm').hidden=false; $('nmIn').focus(); };
