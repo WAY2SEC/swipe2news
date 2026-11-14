@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-14T19:05:00+05:30",
+ "cutoff": "2026-11-14T19:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T08:35:00+05:30/2026-11-11T09:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 6,
-   "late": 6,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agents. Search mostly returned listing/tag pages; no in-window (08:35-09:05) article surfaced. Eenadu, Sakshi, Andhra Jyothy, ETV Bharat, TV9, V6, NTV, Telangana Today, Deccan Chronicle, Siasat (in range), Reuters/BBC/AP/PTI articles not surfaced in range. Already covered: Hans APPSC Group-2 1140993, NT FMG police 2557267, Nalgonda home guard (9-10 Nov)."
-  },
   {
    "window": "2026-11-11T09:05:00+05:30/2026-11-11T09:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "19:05 run started 19:06 IST. Lookback from 10:35 14 Nov. Published: Flickonclick India win U19 Asia Cup final by 1 wicket vs Pakistan (19:01, fact). Duplicates: The Federal Cyclone Akvan (16:14; dup of earlier Akvan forecasts), Sakshi Post AP cyclone around Nov 16 (13:05; dup), M9 Revanth gig workers welfare board (13:30; dup of NewsMeter gig story). Skipped: Inshorts/ANI Revanth defends Rahul Bharat Summit role (10:33, pre-lookback), Sakshi Education TG offices open Nov 14 (13 Nov, pre-lookback). Andhra Jyothy live blog: no entries after 07:40. Not reached/not surfaced: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; standard searches stale. Districts searched: Hanumakonda, Warangal, Sircilla, Jagtial, Eluru, West Godavari, East Godavari, Konaseema, Narayanpet, Asifabad, Anakapalli, Krishna, Rangareddy."
+  },
+  {
+   "window": "2026-11-14T19:05:00+05:30/2026-11-14T19:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 3,
+   "late": 3,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "19:35 run started 19:36 IST. Lookback from 11:05 14 Nov. Published (all late-found): Siasat/ANI BJYM protest at Bharat Summit venue, protesters detained (14:43, fact), UNI Seethakka launches 4 child welfare initiatives (15:56, fact; paywalled, lead only), Siasat SIO urges hold on T-Hub meet with Israeli firms (16:07, claim). Duplicates: Outlook Revanth accuses Centre of blocking foreign speakers (17:11; dup of Bharat Summit visa row), Siasat Giribabu dies (dup). Skipped pre-lookback: Hans India Nellore GP polls stage set (05:46), Hans Nellore YSRCP MLC on student suicides (05:43), Hans AP investment intent Rs 32.49L cr (04:40). ETV Bharat TG live blog: no entries after 09:16. Not reached: Eenadu (robots refused); Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters not surfaced; standard searches stale. Districts searched: Nalgonda, Suryapet, Yadadri, Karimnagar, Siddipet, Medak, Nizamabad, Nagarkurnool, Wanaparthy, Gadwal, Guntur, Kakinada, Kurnool, NTR, Nellore, Kadapa, Anantapur."
   }
  ],
  "seen": [
@@ -2581,6 +2581,46 @@
   },
   {
    "url": "https://education.sakshi.com/en/schools/education-news/telangana-government-offices-schools-remain-open-tomorrow-heres-why-202467",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/video-bjym-protests-against-rahul-at-hyderabads-bharat-summit-venue-3577343/",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/children-s-day-telangana-seethakka/245134",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/sio-urges-telangana-to-put-t-hub-event-with-israeli-firms-on-hold-3577339/",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.outlookindia.com/national/bharat-summit-row-revanth-reddy-accuses-centre-of-blocking-foreign-speakers",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/senior-tollywood-actor-giri-babu-dies-in-hyderabad-3577452/",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/nellore/stage-set-for-gram-panchayat-polls-1141963",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/nellore/ysrcp-mlc-blames-naidu-govt-for-student-suicides-1141959",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/aps-investment-flow-swells-to-rs-3249l-cr-1141901",
    "d": "2026-11-14",
    "w": "skipped"
   }
