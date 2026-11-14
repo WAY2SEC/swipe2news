@@ -547,7 +547,16 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .s2n .bchip{max-width:calc(100% - 150px)}
 .s2n.hasph .bmark{top:11px}
 /* picture boards (district landmark / story type) */
-.s2n .bnr img.art2{object-position:50% 60%}.s2n .bnr img.artc{object-fit:contain;object-position:50% 100%;-webkit-mask-image:linear-gradient(transparent,#000 28%);mask-image:linear-gradient(transparent,#000 28%)}.s2n.hasph .bnr:has(img.artc){background:#4A0E3F}
+.s2n .bnr img.art2{object-position:50% 45%}.s2n .bnr img.artc{object-fit:contain;object-position:50% 100%;-webkit-mask-image:linear-gradient(transparent,#000 28%);mask-image:linear-gradient(transparent,#000 28%)}.s2n.hasph .bnr:has(img.artc){background:#4A0E3F}
+.s2n .bnr .apl{position:absolute;inset:0;background:repeating-linear-gradient(135deg,#3A0A31 0 14px,#40103A 14px 28px)}
+.s2n .bnr img.ahero{position:absolute;left:50%;top:42%;transform:translate(-50%,-50%);width:82%;max-height:62%;object-fit:contain;filter:drop-shadow(0 12px 16px rgba(0,0,0,.45));pointer-events:none}
+.s2n .bnr img.awx{width:70%;max-height:50%;top:40%}
+.s2n .bnr img.adim{filter:brightness(.42) saturate(.6) blur(1.5px);transform:scale(1.04)}
+.s2n .bnr .atone{position:absolute;inset:0;pointer-events:none}.s2n .bnr .atone.cool{background:linear-gradient(rgba(120,160,210,.3),rgba(120,160,210,.3)),linear-gradient(transparent 45%,rgba(235,240,250,.35))}.s2n .bnr .atone.warm{background:rgba(245,130,40,.3)}
+.s2n .bnr img.aob{position:absolute;right:6px;top:16%;width:42%;max-height:36%;object-fit:contain;filter:drop-shadow(0 10px 12px rgba(20,4,17,.55));pointer-events:none}
+.s2n.hasph .bkw{background:linear-gradient(transparent,rgba(46,8,39,.9) 38%,#2E0827)}
+.s2n .bkw .adisc{margin-top:4px;font-size:10.5px;font-weight:600;letter-spacing:.2px;color:rgba(255,253,245,.72)}
+.s2n .text h2.one{white-space:nowrap}
 /* header language pill */
 .lngb{display:inline-flex;align-items:center;gap:5px;height:36px;padding:0 11px;border-radius:18px;border:1px solid var(--line);background:var(--chipbg);color:var(--brand);font:inherit;font-size:13px;font-weight:800;cursor:pointer;white-space:nowrap}
 
@@ -756,7 +765,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
       <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
       <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
-      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 7.3 · Swipe2News</p>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 7.4 · Swipe2News</p>
     </div></div>
   </section>
   <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">
@@ -1219,7 +1228,7 @@ function cardHTML(s,i){
   <div class="panel bnr">
     ${sceneSVG(s,'scene')}${/^videos\/[\w.-]+\.mp4$/.test(s.vid||'')?`<button class="vplay" type="button" data-vid="${esc(s.vid)}" aria-label="వీడియో చూడండి"><svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#fff"/></svg><span>వీడియో చూడండి</span></button>`:''}
     <div class="ptop"><span class="bchip">${s.brk?'🔴 BREAKING · ':''}${esc(s.cat||U('news'))}</span></div>
-    <div class="bkw"><div class="stat">${esc(s.stat)}</div><div class="statl">${esc(s.statl)}</div></div>
+    <div class="bkw"><div class="stat">${esc(s.stat)}</div><div class="statl">${esc(s.statl)}</div>${!storyPhoto(s)&&artPlan(s)?`<div class="adisc">${esc(ART_DISC[LG()]||ART_DISC.te)}</div>`:''}</div>
     <span class="bmark"><img src="icon-192.png" alt="">swipe2news<i>.</i></span>
   </div>
   <div class="text"${s._lang?` lang="${s._lang}"`:''}>
@@ -1291,8 +1300,12 @@ function spaceFill(c){ const sp=c.querySelector('.spacer[data-sp]'); if(!sp) ret
   if(!c.hidden && !spaceSeen.has(i+k)){ spaceSeen.add(i+k); try{ window.gtag&&gtag('event','space_view',{space:k}); }catch(e){} }
   a.onclick=e=>{ try{ window.gtag&&gtag('event','space_click',{space:k}); }catch(_){}
     if(!p.paid && SPACE_TX[p.k].view){ e.preventDefault(); setView(SPACE_TX[p.k].view); } }; }
+function oneLine(c){ const h=c.querySelector('.s2n .text h2'); if(!h) return; h.style.fontSize=''; h.classList.add('one');
+  let f=parseFloat(getComputedStyle(h).fontSize); const w=h.clientWidth; if(!w) return;
+  while(h.scrollWidth>w+1&&f>18){ f-=1; h.style.fontSize=f+'px'; }
+  if(h.scrollWidth>w+1){ h.classList.remove('one'); h.style.fontSize=''; } }
 function fit(c){ // make the card fit the screen: hide the least important parts first
-  c.classList.remove('t1','t2','t3','t4');
+  oneLine(c); c.classList.remove('t1','t2','t3','t4');
   const tx=c.querySelector('.text');
   const over = () => c.scrollHeight > c.clientHeight + 1 || (tx && tx.scrollHeight > tx.clientHeight + 1);
   const bn=c.querySelector('.s2n .bnr, .story.s2n>.panel.bnr'); if(bn){ bn.style.minHeight=''; bn.style.maxHeight=''; }
@@ -1536,12 +1549,14 @@ async function cardImage(s){
   ctx.fillStyle='#5C1A50'; ctx.fillRect(cx,cy,CW,PH);
   const hasPh=await drawStoryPhoto(ctx,s,cx,cy,CW,PH);
   if(!hasPh){
-    try{ const art=await loadImg('data:image/svg+xml;charset=utf-8,'+encodeURIComponent(sceneSVG(s,'cv'))); ctx.globalAlpha=.22; ctx.drawImage(art,cx,cy+PH-420,CW,420); ctx.globalAlpha=1; }catch(e){}
+    const hasArt=await drawArtPlan(ctx,s,cx,cy,CW,PH);
+    if(hasArt){ ctx.font=`600 22px ${TE}`; ctx.fillStyle='rgba(255,253,245,.75)'; ctx.textAlign='right'; ctx.fillText(ART_DISC[LG()]||ART_DISC.te,cx+CW-IN,cy+PH-20); ctx.textAlign='left'; }
+    else try{ const art=await loadImg('data:image/svg+xml;charset=utf-8,'+encodeURIComponent(sceneSVG(s,'cv'))); ctx.globalAlpha=.22; ctx.drawImage(art,cx,cy+PH-420,CW,420); ctx.globalAlpha=1; }catch(e){}
     const st=String(s.stat||''), te=/[ఀ-౿]/.test(st); let fs=te?110:130;
     const setF=()=>{ ctx.font=te?`800 ${fs}px ${TE}`:`400 ${fs}px ${DI}`; }; setF();
     while(ctx.measureText(st).width>TW && fs>54){ fs-=8; setF(); }
     ctx.fillStyle=AP; ctx.fillText(st,cx+IN,cy+PH-118);
-    ctx.font=`700 34px ${TE}`; ctx.fillStyle=CR; wrap(ctx,s.statl||'',TW).slice(0,2).forEach((t,k)=>ctx.fillText(t,cx+IN,cy+PH-62+k*44));
+    ctx.font=`700 34px ${TE}`; ctx.fillStyle=CR; wrap(ctx,s.statl||'',TW).slice(0,1).forEach((t,k)=>ctx.fillText(t,cx+IN,cy+PH-62+k*44,TW));
   }
   // category chip on the picture
   ctx.font=`800 26px ${TE}`; const chip=(s.brk?'🔴 ':'')+(s.cat||U('news')); const chw=Math.min(TW,ctx.measureText(chip).width+44);

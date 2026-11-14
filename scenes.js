@@ -352,22 +352,73 @@ const ART_D=new Set(["adilabad", "ap", "ap-anakapalli", "ap-anantapur", "ap-anna
 const ART_SEC={sports:'sports',ai:'technology',innovation:'technology',tech:'technology',world:'world',agri:'agriculture',jobs:'jobs',health:'health',entertainment:'entertainment',cinema:'entertainment',crime:'crime',devotional:'devotional',business:'business',economy:'business',education:'education',weather:'weather',courts:'courts',schemes:'schemes',transport:'transport',environment:'environment',science:'science',auto:'auto',realestate:'realestate',finance:'finance',food:'food',travel:'travel',culture:'culture',women:'women',startups:'startups',cyber:'cyber',factcheck:'factcheck',explainer:'explainers',community:'community',politics:'politics',india:'india',lifestyle:'lifestyle'};
 const ART_KEY={economy:'business',campus:'education',school:'education',voters:'politics',unity:'politics',rain:'weather',farm:'agriculture',court:'courts',land:'realestate',diya:'devotional',deadline:'schemes',water:'infrastructure',power:'infrastructure'};
 const ART_CAT=[[/రాజకీయ|Politic/i,'politics'],[/వాతావరణ|Weather/i,'weather'],[/క్రైమ్|నేర|Crime/i,'crime'],[/విద్య|Education/i,'education'],[/ఆరోగ్య|Health/i,'health'],[/క్రీడ|Sport/i,'sports'],[/వ్యాపార|ఆర్థిక|Business|Econom/i,'business'],[/సినిమా|వినోద|Cinema|Entertain/i,'entertainment'],[/వ్యవసాయ|రైతు|Agri|Farm/i,'agriculture'],[/ఉద్యోగ|Jobs?\b/i,'jobs'],[/టెక్|Tech/i,'technology'],[/భక్తి|ఆధ్యాత్మిక|Devotion/i,'devotional'],[/న్యాయ|కోర్టు|Court|Law/i,'courts'],[/రవాణా|Transport/i,'transport'],[/పర్యావరణ|Environment/i,'environment'],[/సంక్షేమ|పథక|Scheme|Welfare/i,'schemes'],[/మౌలిక|Infrastructure/i,'infrastructure'],[/నీటి|Water/i,'infrastructure'],[/సైబర్|Cyber/i,'cyber'],[/ఆహార|Food/i,'food'],[/పర్యాటక|Travel|Tourism/i,'travel'],[/పండుగ|సంస్కృతి|Festival|Culture/i,'culture'],[/మహిళ|Women/i,'women'],[/సైన్స్|అంతరిక్ష|Science|Space/i,'science'],[/ఫ్యాక్ట్|Fact/i,'factcheck']];
-const ART_RX=[[/సైబర్|ఆన్‌లైన్ మోసం|cyber|online fraud|phishing/i,'cyber'],[/హత్య|అరెస్ట్|దొంగ|పోలీసు|నిందితు|అత్యాచార|murder|arrest|police|robbery|accused/i,'crime'],[/కోర్టు|హైకోర్టు|సుప్రీం|court|bench|judge/i,'courts'],[/వర్ష|తుపాను|అల్పపీడన|చలి|ఎండ|వాతావరణ|rain|cyclone|weather|IMD|fog/i,'weather'],[/ఆలయ|దేవాలయ|తిరుమల|శ్రీవారి|దీపోత్సవ|పూజ|temple|tirumala|festival puja/i,'devotional'],[/క్రికెట్|మ్యాచ్|టోర్నీ|cricket|match|tournament|olympic/i,'sports'],[/ఆసుపత్రి|వైద్య|ఆరోగ్య|వ్యాధి|hospital|health|medical|dengue|fever/i,'health'],[/సినిమా|చిత్రం|హీరో|OTT|movie|film|box office/i,'entertainment'],[/రైలు|మెట్రో|బస్సు|విమాన|ట్రాఫిక్|railway|metro|bus|flight|airport|traffic/i,'transport'],[/పరీక్ష|విద్యార్థ|పాఠశాల|కళాశాల|యూనివర్సిటీ|exam|student|school|college|university/i,'education'],[/ఉద్యోగ|నోటిఫికేషన్|నియామక|recruit|vacanc|jobs?\b/i,'jobs'],[/రైతు|పంట|వరి|పత్తి|మార్కెట్ యార్డ్|farmer|crop|paddy|cotton|mandi/i,'agriculture'],[/పులి|అటవీ|వన్యప్రాణ|కాలుష్య|tiger|forest|wildlife|pollution/i,'environment'],[/బ్రిడ్జి|రోడ్డు|ప్రాజెక్ట్|నిర్మాణ|bridge|road|flyover|project/i,'infrastructure'],[/పథకం|లబ్ధిదారు|scheme|beneficiar|pension/i,'schemes'],[/ఎన్నిక|ఓటు|అసెంబ్లీ|పార్టీ|election|vote|assembly|party/i,'politics'],[/స్టాక్|మార్కెట్|బ్యాంక్|పెట్టుబడ|stock|market|bank|invest|GDP/i,'business'],[/\bAI\b/,'technology'],[/టెక్|ఐటీ|సాఫ్ట్‌వేర్|software|technology|startup|smartphone/i,'technology']];
-function artImg(s){
-  if(!s||s.kind) return '';
-  const pk=normPlace(String(s.place||'').toLowerCase()); if(ART_D.has(pk)) return '/art/d/'+(pk==='hyderabad'?'hyderabad':pk)+'.jpg';
-  const cw=String(s.cat||'').split('·').slice(1).join(' ')+' '+String((s.en&&s.en.cat)||'').split('·').slice(1).join(' '); if(cw.trim()) for(const [rx,k] of ART_CAT) if(rx.test(cw)) return '/art/c/'+k+'.jpg';
-  const sec=Array.isArray(s.sec)?s.sec:(s.sec?[s.sec]:[]); for(const x of sec) if(ART_SEC[x]) return '/art/c/'+ART_SEC[x]+'.jpg';
-  if(s.art&&ART_KEY[s.art]) return '/art/c/'+ART_KEY[s.art]+'.jpg';
-  const t=(s.h||'')+' '+((s.en&&s.en.h)||'')+' '+(s.cat||''); for(const [rx,k] of ART_RX) if(rx.test(t)) return '/art/c/'+k+'.jpg';
-  const st=stateOf(s); if(st==='TG'||st==='TS') return '/art/d/tg.jpg'; if(st==='AP') return '/art/d/ap.jpg';
-  if(/ప్రపంచం|World/.test(t)||sec.includes('world')) return '/art/c/world.jpg';
-  return '/art/c/india.jpg';
+const ART_RX=[[/సైబర్|ఆన్‌లైన్ మోసం|cyber|online fraud|phishing/i,'cyber'],[/హత్య|అరెస్ట్|దొంగ|పోలీసు|నిందితు|అత్యాచార|murder|arrest|police|robbery|accused/i,'crime'],[/కోర్టు|హైకోర్టు|సుప్రీం|court|bench|judge/i,'courts'],[/వర్ష|తుపాను|అల్పపీడన|చలి|ఎండ|వాతావరణ|rain|cyclone|weather|IMD|fog/i,'weather'],[/ఆలయ|దేవాలయ|తిరుమల|శ్రీవారి|దీపోత్సవ|పూజ|temple|tirumala|festival puja/i,'devotional'],[/క్రికెట్|మ్యాచ్|టోర్నీ|cricket|match|tournament|olympic/i,'sports'],[/ఆసుపత్రి|వైద్య|ఆరోగ్య|వ్యాధి|hospital|health|medical|dengue|fever/i,'health'],[/సినిమా|చిత్రం|హీరో|OTT|movie|film|box office/i,'entertainment'],[/రైలు|మెట్రో|బస్సు|విమాన|ట్రాఫిక్|railway|metro|bus|flight|airport|traffic/i,'transport'],[/పరీక్ష|విద్యార్థ|పాఠశాల|కళాశాల|యూనివర్సిటీ|exam|student|school|college|university/i,'education'],[/ఉద్యోగ|నోటిఫికేషన్|నియామక|recruit|vacanc|jobs?\b/i,'jobs'],[/పులి|అటవీ|వన్యప్రాణ|కాలుష్య|tiger|forest|wildlife|pollution/i,'environment'],[/రైతు|పంట|వరి|పత్తి|మార్కెట్ యార్డ్|farmer|crop|paddy|cotton|mandi/i,'agriculture'],[/బ్రిడ్జి|రోడ్డు|ప్రాజెక్ట్|నిర్మాణ|bridge|road|flyover|project/i,'infrastructure'],[/పథకం|లబ్ధిదారు|scheme|beneficiar|pension/i,'schemes'],[/ఎన్నిక|ఓటు|అసెంబ్లీ|పార్టీ|election|vote|assembly|party/i,'politics'],[/స్టాక్|మార్కెట్|బ్యాంక్|పెట్టుబడ|stock|market|bank|invest|GDP/i,'business'],[/\bAI\b/,'technology'],[/టెక్|ఐటీ|సాఫ్ట్‌వేర్|software|technology|startup|smartphone/i,'technology']];
+/* which news type a story is (one of the 36 boards), '' if unknown */
+function artType(s){
+  const t=(s.h||'')+' '+((s.en&&s.en.h)||'')+' '+(s.cat||'');
+  const cw=String(s.cat||'').split('·').slice(1).join(' ')+' '+String((s.en&&s.en.cat)||'').split('·').slice(1).join(' '); if(cw.trim()) for(const [rx,k] of ART_CAT) if(rx.test(cw)) return k;
+  const sec=Array.isArray(s.sec)?s.sec:(s.sec?[s.sec]:[]); for(const x of sec) if(ART_SEC[x]) return ART_SEC[x];
+  if(s.art&&ART_KEY[s.art]) return ART_KEY[s.art];
+  for(const [rx,k] of ART_RX) if(rx.test(t)) return k;
+  return '';
+}
+/* card picture plan (owner-approved 14 Nov 2026):
+   sensitive news → plain background + its type picture, never a landmark;
+   weather → the condition is the hero (rain cloud only when it rains; cool / warm tone for cold / heat), the place dimmed behind;
+   place = subject (temple, travel, festival) → the landmark alone; place + type → landmark + small type picture;
+   type only → its picture; else the state emblem. */
+const ART_SENS=/హత్య|అరెస్ట్|దొంగ|పోలీసు|నిందితు|అత్యాచార|ప్రమాద|మృతి|మరణ|ఆత్మహత్య|చనిపో|కోర్టు|సైబర్|మోసం|murder|arrest|police|accident|killed|death|dies|died|suicide|court|cyber|fraud|scam|rape/i;
+function artPlan(s){
+  if(!s||s.kind) return null;
+  const pk=normPlace(String(s.place||'').toLowerCase()), land=ART_D.has(pk)&&!['tg','ap'].includes(pk)?pk:'';
+  const st=stateOf(s), sland=st==='AP'?'ap':(st==='TG'||st==='TS')?'tg':'';
+  const t=(s.h||'')+' '+((s.en&&s.en.h)||'')+' '+(s.p||'').slice(0,160);
+  const type=artType(s);
+  if(['crime','courts','cyber','factcheck'].includes(type)||ART_SENS.test(t)){
+    const o=['crime','courts','cyber','factcheck'].includes(type)?type:/సైబర్|cyber|మోసం|fraud|scam/i.test(t)?'cyber':/కోర్టు|court/i.test(t)?'courts':/హత్య|అరెస్ట్|దొంగ|పోలీసు|నిందితు|murder|arrest|police|robbery/i.test(t)?'crime':'';
+    return {m:'plain',obj:o};
+  }
+  if(type==='weather'){
+    const bg=land||sland, rain=/వర్ష|వాన|తుపాను|అల్పపీడన|వరద|జల్లు|rain|cyclone|flood|shower|depression/i.test(t), heat=/ఎండ|వడగాల్పు|ఉక్కపోత|heat|hot\b|scorch/i.test(t), cold=/చలి|పొగమంచు|మంచు|cold|chill|fog|mist|winter/i.test(t);
+    return {m:'wx',bg,obj:rain?'weather':(heat||cold)?'':'cloud',tone:rain?'':heat?'warm':cold?'cool':''};
+  }
+  if(land&&['devotional','travel','culture'].includes(type)) return {m:'land',bg:land};
+  if(land&&type&&!['telangana','andhra','local','india'].includes(type)) return {m:'landobj',bg:land,obj:type};
+  if(land) return {m:'land',bg:land};
+  if(type) return {m:'cat',cat:type};
+  if(sland) return {m:'land',bg:sland};
+  return {m:'cat',cat:/ప్రపంచం|World/.test(t+(s.cat||''))?'world':'india'};
+}
+function artImg(s){ const a=artPlan(s); if(!a) return ''; return a.m==='cat'?'/art/c/'+a.cat+'.jpg':a.bg?'/art/d/'+a.bg+'.jpg':'/art/o/'+(a.obj||'local')+'.webp'; }
+const ART_DISC={te:'AI రూపొందించిన చిత్రం',en:'AI-generated illustration',hi:'AI से बना चित्र'};
+function artHTML(a){
+  const im=(src,cls)=>`<img class="${cls}" src="${src}" alt="" loading="lazy" decoding="async">`;
+  if(a.m==='cat') return im('/art/c/'+a.cat+'.jpg','ph art2 artc');
+  if(a.m==='plain') return `<i class="apl"></i>${a.obj?im('/art/o/'+a.obj+'.webp','ahero'):''}`;
+  if(a.m==='wx') return `${a.bg?im('/art/d/'+a.bg+'.jpg','ph art2 adim'):'<i class="apl"></i>'}${a.tone?`<i class="atone ${a.tone}"></i>`:''}${a.obj?im('/art/o/'+a.obj+'.webp','ahero awx'):''}`;
+  return im('/art/d/'+a.bg+'.jpg','ph art2')+(a.m==='landobj'?im('/art/o/'+a.obj+'.webp','aob'):'');
+}
+/* same picture on the shared / downloaded photo */
+async function drawArtPlan(ctx,s,x,y,w,h){
+  const a=artPlan(s); if(!a) return false;
+  const L=src=>new Promise((ok,no)=>{const i=new Image();i.onload=()=>ok(i);i.onerror=no;i.src=src;});
+  const cover=(im,fy)=>{ const sc=Math.max(w/im.width,h/im.height),dw=im.width*sc,dh=im.height*sc; ctx.drawImage(im,x+(w-dw)/2,y+Math.min(0,Math.max(h-dh,(h-dh)*(fy==null?.45:fy))),dw,dh); };
+  const contain=(im,cx,cy,mw,mh)=>{ const sc=Math.min(mw/im.width,mh/im.height),dw=im.width*sc,dh=im.height*sc; ctx.drawImage(im,cx-dw/2,cy-dh/2,dw,dh); };
+  const stripes=()=>{ ctx.fillStyle='#3A0A31'; ctx.fillRect(x,y,w,h); ctx.strokeStyle='#40103A'; ctx.lineWidth=28; for(let k=-h;k<w+h;k+=56){ ctx.beginPath(); ctx.moveTo(x+k,y); ctx.lineTo(x+k+h,y+h); ctx.stroke(); } };
+  try{ ctx.save(); ctx.beginPath(); ctx.rect(x,y,w,h); ctx.clip();
+    if(a.m==='cat'){ ctx.fillStyle='#4A0E3F'; ctx.fillRect(x,y,w,h); const im=await L('/art/c/'+a.cat+'.jpg'); const sc=Math.min(w/im.width,h*.82/im.height); ctx.drawImage(im,x+(w-im.width*sc)/2,y+h-im.height*sc,im.width*sc,im.height*sc); }
+    else if(a.m==='plain'){ stripes(); if(a.obj){ ctx.shadowColor='rgba(0,0,0,.45)'; ctx.shadowBlur=30; ctx.shadowOffsetY=18; contain(await L('/art/o/'+a.obj+'.webp'),x+w/2,y+h*.42,w*.82,h*.62); ctx.shadowColor='transparent'; } }
+    else if(a.m==='wx'){ if(a.bg){ cover(await L('/art/d/'+a.bg+'.jpg')); ctx.fillStyle='rgba(20,4,17,.58)'; ctx.fillRect(x,y,w,h); } else stripes();
+      if(a.tone){ ctx.fillStyle=a.tone==='cool'?'rgba(120,160,210,.30)':'rgba(245,130,40,.30)'; ctx.fillRect(x,y,w,h); if(a.tone==='cool'){ const g=ctx.createLinearGradient(0,y+h*.45,0,y+h); g.addColorStop(0,'rgba(235,240,250,0)'); g.addColorStop(1,'rgba(235,240,250,.35)'); ctx.fillStyle=g; ctx.fillRect(x,y,w,h); } }
+      if(a.obj){ ctx.shadowColor='rgba(0,0,0,.45)'; ctx.shadowBlur=30; ctx.shadowOffsetY=18; contain(await L('/art/o/'+a.obj+'.webp'),x+w/2,y+h*.40,w*.7,h*.5); ctx.shadowColor='transparent'; } }
+    else { cover(await L('/art/d/'+a.bg+'.jpg')); if(a.m==='landobj'){ ctx.shadowColor='rgba(20,4,17,.55)'; ctx.shadowBlur=24; ctx.shadowOffsetY=14; contain(await L('/art/o/'+a.obj+'.webp'),x+w*.76,y+h*.33,w*.4,h*.32); ctx.shadowColor='transparent'; } }
+    const g=ctx.createLinearGradient(0,y,0,y+h); g.addColorStop(0,'rgba(46,8,39,.5)'); g.addColorStop(.22,'rgba(46,8,39,0)'); g.addColorStop(.5,'rgba(46,8,39,0)'); g.addColorStop(.72,'rgba(46,8,39,.85)'); g.addColorStop(1,'rgba(46,8,39,.97)'); ctx.fillStyle=g; ctx.fillRect(x,y,w,h);
+    ctx.restore(); return true; }catch(e){ ctx.restore(); return false; }
 }
 function sceneSVG(s, cls){
   const ph=storyPhoto(s);
-  const ai=(!ph&&cls!=='cv'&&cls!=='og')?artImg(s):'';
-  if(ai) return `<img class="ph art2${ai.includes('/art/c/')?' artc':''}" src="${ai}" alt="" loading="lazy" decoding="async"><i class="phs"></i>`;
+  const ap=(!ph&&cls!=='cv'&&cls!=='og')?artPlan(s):null;
+  if(ap) return artHTML(ap)+'<i class="phs"></i>';
   if(ph && cls!=='cv' && cls!=='og') return `<img class="ph" style="object-position:50% ${Math.round(photoFocus(s)*100)}%" src="${ph}" alt="" loading="lazy" decoding="async"><i class="phs"></i>`;
   const k=sceneFor(s); const body=SCENES[k]||SCENES.city;
   const hole = k==='hyderabad' ? `<mask id="m${cls}"><rect width="400" height="200" fill="#fff"/><g fill="#000">${SCENES.hyderabadHole}</g></mask>` : '';
