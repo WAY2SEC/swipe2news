@@ -456,6 +456,37 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .story.s2n.t2 .kpts{display:none}
 .story.s2n.t3 .bnr{min-height:100px}
 #s2off{position:fixed;right:76px;top:calc(env(safe-area-inset-top,0px) + 13px);z-index:60;max-width:calc(100vw - 260px);cursor:pointer;padding:6px 11px;border-radius:15px;background:#2E0827;color:#FFFDF5;font:700 12.5px 'Outfit',var(--body);box-shadow:0 4px 14px rgba(0,0,0,.25);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#s2off[hidden]{display:none}
+/* card v6 (14 Nov 2026) */
+#homeLogo{display:inline-flex;align-items:center;gap:8px}#homeLogo .hicon{width:30px;height:30px;border-radius:8px;flex:none}
+.s2n .bmark{background:#FFFDF5;border:1.5px solid #F5A23A;border-radius:16px;padding:3px 10px 3px 3px;color:#4A0E3F;box-shadow:0 2px 8px rgba(46,8,39,.25)}
+.s2n .bmark img{width:20px;height:20px;border-radius:6px;box-shadow:none}
+.s2n .tsz{flex:none;margin-left:auto;width:34px;height:30px;border-radius:15px;border:1.5px solid #4A0E3F;background:transparent;color:#4A0E3F;font:800 12px 'Outfit',var(--body);cursor:pointer}
+.s2n .meta .tsz+.lis{margin-left:6px}
+.s2n .text h2{font-weight:800;line-height:1.35;letter-spacing:-.1px}
+.s2n .text h2.hs{font-size:24px}.s2n .text h2.hm{font-size:22px}.s2n .text h2.hl{font-size:20px}
+:root[data-fsz="s"] .s2n .text h2{font-size:calc(var(--h,22px) - 1px)} :root[data-fsz="s"] .s2n .text .sum{font-size:14.5px}
+:root[data-fsz="l"] .s2n .text h2.hs{font-size:26px}:root[data-fsz="l"] .s2n .text h2.hm{font-size:24px}:root[data-fsz="l"] .s2n .text h2.hl{font-size:22px}:root[data-fsz="l"] .s2n .text .sum{font-size:17.5px}:root[data-fsz="l"] .s2n .kpts li{font-size:16px}
+:root[data-fsz="s"] .s2n .text h2.hs{font-size:22px}:root[data-fsz="s"] .s2n .text h2.hm{font-size:20px}:root[data-fsz="s"] .s2n .text h2.hl{font-size:18.5px}
+.s2n .text .sum{font-size:15.5px;line-height:1.65}
+.s2n .sline .stime{display:inline-flex;align-items:center;gap:5px}.s2n .sline .stime::before{content:none}
+.s2n .tbox{display:flex;align-items:center;gap:9px;padding:7px 10px;border-radius:12px;border:1px solid}
+.s2n .tbox .ti2{flex:none;width:24px;text-align:center;font-size:16px;font-weight:800}
+.s2n .tbox .tt{display:flex;flex-direction:column;line-height:1.3;min-width:0}.s2n .tbox b{font-size:12.5px;font-weight:800}.s2n .tbox small{font-size:11px;font-weight:600}
+.s2n .tbox .th{margin-left:auto;font-size:11.5px;font-weight:700;text-decoration:underline;color:inherit;flex:none}
+.s2n .tbox.fact{background:#E7F4EC;border-color:#0E7A3E;color:#0B5A2E}.s2n .tbox.claim{background:#FDF0DC;border-color:#F5A23A;color:#5C3200}
+.s2n .tbox.opinion{background:#F1EAF3;border-color:#B9A3C2;color:#4A0E3F}.s2n .tbox.misleading{background:#FBE9E7;border-color:#B3261E;color:#8C1D18}
+.s2n .srow{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.s2n .srow .aic{background:#2E0827;color:#FFFDF5;border-radius:12px;padding:4px 10px;font-size:11.5px;font-weight:800}
+.s2n .srcb{margin-left:auto;display:flex;flex-direction:column;line-height:1.25;border-left:1px solid var(--line);padding-left:10px;min-width:0}
+.s2n .srcb small{font-size:10.5px;color:var(--muted);font-weight:600}.s2n .srcb a,.s2n .srcb b{font-size:13.5px;font-weight:800;color:#4A0E3F;text-decoration:underline;text-underline-offset:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:180px}
+:root[data-theme="dark"] .s2n .srcb a,:root[data-theme="dark"] .s2n .tsz{color:#F5A23A;border-color:#F5A23A}
+.s2n .cacts{display:grid!important;grid-template-columns:1fr 1fr 1fr 1.4fr;align-items:center;margin:8px 10px 0;padding:4px!important;border:1px solid var(--line)!important;border-radius:16px}
+.s2n .cacts .ca{height:50px}.s2n .cacts .ca+.ca:not(.wa){border-left:1px solid var(--line);border-radius:0}
+.s2n .cacts .ca.wa{flex-direction:row;height:40px;margin-left:6px;border:1.5px solid #F5A23A;border-radius:20px;color:#B86A00;font-size:13px;font-weight:800;gap:6px}
+.s2n .cacts .ca.wa svg path:first-child{stroke:#B86A00}.s2n .cacts .ca.wa svg path:last-child{fill:#B86A00}
+.s2n .cfoot{cursor:pointer}.s2n .cfoot .pnext.sw{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:6px;color:#F5A23A;font-weight:800;font-size:13px;white-space:nowrap}
+.s2n .cfoot .pnext.sw .sws{display:none}
+@media (max-width:389px){.s2n .cfoot .pnext.sw .swl{display:none}.s2n .cfoot .pnext.sw .sws{display:inline}}
+.story.s2n.t2 .tbox small{display:none}.story.s2n.t3 .tbox{padding:4px 10px}.story.s2n.t3 .srcb small{display:none}
 /* promo card between stories (design 13 Nov 2026) */
 .s2n.promo2{background:#fff}
 .s2n.promo2 .p2b{flex:0 1 auto;min-height:0;overflow:hidden;background:#4A0E3F}.s2n.promo2 .p2b img{display:block;width:100%;height:100%;object-fit:cover;object-position:top}
@@ -571,7 +602,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 <body>
 <div class="shell">
   <header>
-    <a href="/?cards=1" id="homeLogo" aria-label="Swipe2News హోమ్ – మొదటి వార్త"><img class="logo" src="logo.png" alt="Swipe2News"></a>
+    <a href="/?cards=1" id="homeLogo" aria-label="Swipe2News హోమ్ – మొదటి వార్త"><img class="hicon" src="icon-192.png" alt="" width="30" height="30"><img class="logo" src="logo.png" alt="Swipe2News"></a>
     <button class="place" id="placeBtn" type="button" aria-label="ప్రాంతం మార్చండి"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span id="placeName">తెలంగాణ</span></button>
     <button class="icon menub" id="menuBtn" type="button" aria-label="మెనూ · Menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     <button class="lngb" id="lngBtn" type="button" aria-label="భాష మార్చండి · Change language"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span id="lngName">తెలుగు</span></button>
@@ -691,7 +722,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
       <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
       <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
-      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 5.5 · Swipe2News</p>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 6.0 · Swipe2News</p>
     </div></div>
   </section>
   <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">
@@ -794,9 +825,9 @@ const PLACES = [
 const LANGS = [['te','తెలుగు','Telugu'],['en','English','ఇంగ్లీష్'],['hi','हिन्दी','హిందీ']];
 /* reader's language: stories carry en:{…} and hi:{…}; missing ones stay in Telugu */
 const LG = () => (prefs&&prefs.lang)||'te';
-const UI = {te:{read:'పూర్తి వార్త చదవండి →',hint:'తర్వాతి వార్త: ← ఎడమకు లేదా ↓ కిందకు స్వైప్ చేయండి',news:'వార్త',speech:'te-IN',src:'Source | మూలం',tag:'Know More. Scroll Less.',sub:'తక్కువ స్క్రోల్, ఎక్కువ సమాచారం',l1:'ఒక్క స్వైప్‌లో వార్తలు!',min:'ని. చదవడం',listen:'వినండి',swipe:'ఎడమకు స్వైప్ – తర్వాతి వార్త',swp:'స్వైప్',ai:'AI సారాంశం',nxt:'తర్వాతి వార్త',full:'అసలు కథనం →',save:'సేవ్',img:'చిత్రం సేవ్',share:'షేర్',lname:'తెలుగు'},
-  en:{read:'Read full story →',hint:'Next story: swipe ← left or ↓ down',news:'News',speech:'en-IN',src:'Source',tag:'Know More. Scroll Less.',sub:'Short news you can check',l1:'News in one swipe!',min:'min read',listen:'Listen',swipe:'Swipe left for next',swp:'swipe',ai:'AI summary',nxt:'Next story',full:'Original report →',save:'Save',img:'Save image',share:'Share',lname:'English'},
-  hi:{read:'पूरी खबर पढ़ें →',hint:'अगली खबर: ← बाएँ या ↓ नीचे स्वाइप करें',news:'खबर',speech:'hi-IN',src:'स्रोत',tag:'कम स्क्रॉल, ज़्यादा जानकारी',sub:'तेज़ और छोटी खबरें, आपकी भाषा में',l1:'एक स्वाइप में खबरें!',min:'मिनट पढ़ें',listen:'सुनें',swipe:'अगली खबर के लिए बाएँ स्वाइप करें',swp:'स्वाइप',ai:'AI सारांश',nxt:'अगली खबर',full:'मूल रिपोर्ट →',save:'सेव',img:'इमेज सेव',share:'शेयर',lname:'हिन्दी'}};
+const UI = {te:{read:'పూర్తి వార్త చదవండి →',hint:'తర్వాతి వార్త: ← ఎడమకు లేదా ↓ కిందకు స్వైప్ చేయండి',news:'వార్త',speech:'te-IN',src:'Source | మూలం',tag:'Know More. Scroll Less.',sub:'తక్కువ స్క్రోల్, ఎక్కువ సమాచారం',l1:'ఒక్క స్వైప్‌లో వార్తలు!',min:'ని. చదవడం',listen:'వినండి',swipe:'ఎడమకు స్వైప్ – తర్వాతి వార్త',swp:'స్వైప్',ai:'AI సారాంశం',nxt:'తర్వాతి వార్త',full:'అసలు కథనం →',save:'సేవ్',img:'ఫోటో',share:'షేర్',lname:'తెలుగు'},
+  en:{read:'Read full story →',hint:'Next story: swipe ← left or ↓ down',news:'News',speech:'en-IN',src:'Source',tag:'Know More. Scroll Less.',sub:'Short news you can check',l1:'News in one swipe!',min:'min read',listen:'Listen',swipe:'Swipe left for next',swp:'swipe',ai:'AI summary',nxt:'Next story',full:'Original report →',save:'Save',img:'Photo',share:'Share',lname:'English'},
+  hi:{read:'पूरी खबर पढ़ें →',hint:'अगली खबर: ← बाएँ या ↓ नीचे स्वाइप करें',news:'खबर',speech:'hi-IN',src:'स्रोत',tag:'कम स्क्रॉल, ज़्यादा जानकारी',sub:'तेज़ और छोटी खबरें, आपकी भाषा में',l1:'एक स्वाइप में खबरें!',min:'मिनट पढ़ें',listen:'सुनें',swipe:'अगली खबर के लिए बाएँ स्वाइप करें',swp:'स्वाइप',ai:'AI सारांश',nxt:'अगली खबर',full:'मूल रिपोर्ट →',save:'सेव',img:'फ़ोटो',share:'शेयर',lname:'हिन्दी'}};
 const U = k => (UI[LG()]||UI.te)[k];
 /* job card words in the reader's language */
 const JU = {
@@ -1094,6 +1125,14 @@ function whenTxt(s){ const l=LG(), m=/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/.exec(Stri
   const tt=l==='en'?`${h12}:${mm} ${H<12?'am':'pm'}`:l==='hi'?`${H<12?'सुबह':H<16?'दोपहर':H<19?'शाम':'रात'} ${h12}:${mm}`:`${H<12?'ఉ.':H<16?'మ.':H<19?'సా.':'రా.'} ${h12}:${mm}`;
   const PB={te:'ప్రచురణ',en:'Published',hi:'प्रकाशित'}[l]||'';
   return PB+': '+(d?d+', '+tt:tt); }
+const TRUSTN={fact:{te:'నమ్మదగిన మూలం నివేదించిన విషయం',en:'Reported by a trusted source',hi:'विश्वसनीय स्रोत की रिपोर्ट'},
+ claim:{te:'చెప్పినవారి మాట · మేము స్వతంత్రంగా నిర్ధారించలేదు',en:'What someone said · not independently verified',hi:'किसी का दावा · हमने स्वतंत्र रूप से पुष्टि नहीं की'},
+ opinion:{te:'ఒకరి అభిప్రాయం · వాస్తవం కాదు',en:'A point of view, not a fact',hi:'एक राय, तथ्य नहीं'},
+ misleading:{te:'తప్పు లేదా తప్పుదోవ పట్టించే సమాచారం',en:'False or misleading information',hi:'ग़लत या भ्रामक जानकारी'}};
+function trustBox(s){ const k=lblOf(s), l=LG(); if(!k) return '';
+  return `<div class="tbox ${k}"><span class="ti2">${({fact:'✓',claim:'❝',opinion:'💬',misleading:'⚠'})[k]}</span><span class="tt"><b>${esc(LBL[k][l]||LBL[k].en)}</b><small>${esc(TRUSTN[k][l]||TRUSTN[k].en)}</small></span><a class="th" href="/editorial-policy.html#no-clickbait">${esc({te:'ఎలా?',en:'How?',hi:'कैसे?'}[l])}</a></div>`; }
+const FSZ=['s','m','l']; function applyFsz(){ let v='m'; try{ v=localStorage.getItem('w2s.fsz')||'m'; }catch(e){} document.documentElement.dataset.fsz=v; }
+applyFsz();
 function statusChip(s){ const k=lblOf(s), l=LG(); return k?`<span class="tl ${k}">${esc(LBL[k][l]||LBL[k].en)}</span>`:''; }
 function aiChip(){ return `<a class="aic" href="/editorial-policy.html#no-clickbait" title="How we write · మా విధానం"><svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>${U('ai')}</a>`; }
 function trustChips(s){ const k=lblOf(s), l=LG(); return `<span class="aic"><svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>${U('ai')}</span>${k?`<span class="tl ${k}">${esc(LBL[k][l]||LBL[k].en)}</span>`:''}`; }
@@ -1115,11 +1154,11 @@ function cardHTML(s,i){
     <span class="bmark"><img src="icon-192.png" alt="">swipe2news<i>.</i></span>
   </div>
   <div class="text"${s._lang?` lang="${s._lang}"`:''}>
-    <div class="meta"><span><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>${readMins(s)} ${U('min')}</span>${where?`<span class="mloc"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>${esc(where)}</span>`:''}<button class="lis" type="button"><svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M7 4.5v15l12-7.5z" fill="currentColor"/></svg>${U('listen')} ${listenSecs(s)}</button></div>
-    <h2>${esc(s.h)}</h2>
-    <div class="sline"><span class="src">${esc({te:'మూలం',en:'Source',hi:'स्रोत'}[LG()]||'Source')}: ${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.src)} ↗</a>`:`<b>${esc(s.src)}</b>`}</span>${(s.d||s.t)?`<span class="stime">${whenTxt(s)}</span>`:''}${statusChip(s)}</div>
+    <div class="meta"><span><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>${readMins(s)} ${U('min')}</span>${where?`<span class="mloc"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>${esc(where)}</span>`:''}<button class="tsz" type="button" aria-label="అక్షరాల సైజు · Text size">aA</button><button class="lis" type="button"><svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M7 4.5v15l12-7.5z" fill="currentColor"/></svg>${U('listen')} ${listenSecs(s)}</button></div>
+    <h2 class="${(s.h||'').length<=45?'hs':(s.h||'').length<=75?'hm':'hl'}">${esc(s.h)}</h2>
+    <div class="sline">${(s.d||s.t)?`<span class="stime"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>${whenTxt(s)}</span>`:''}</div>${trustBox(s)}
     <p class="sum">${esc(s.p)}</p><a class="more" hidden href="/s/${sid(s)}">${esc({te:'పూర్తిగా చదవండి ›',en:'Read more ›',hi:'पूरा पढ़ें ›'}[LG()]||'')}</a>${Array.isArray(s.pts)&&s.pts.length?`<ul class="kpts">${s.pts.slice(0,3).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${corrNote(s)}
-    <div class="srow">${aiChip()}<span class="aid">${esc({te:s.src+' కథనం ఆధారంగా',en:'of reporting by '+s.src,hi:s.src+' की रिपोर्ट पर'}[LG()]||'')}</span>${read}</div>
+    <div class="srow">${aiChip()}<span class="srcb"><small>${esc({te:'మూలం · Source:',en:'Source:',hi:'स्रोत · Source:'}[LG()]||'Source:')}</small>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.src)} <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>`:`<b>${esc(s.src)}</b>`}</span></div>
   </div>
   <div class="spacer" data-sp="${i}"></div>
   <div class="cacts">
@@ -1128,7 +1167,7 @@ function cardHTML(s,i){
     <button class="ca sh" type="button" aria-label="${U('share')}"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg><span>${U('share')}</span></button>
     <button class="ca wa" type="button"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z" stroke="#0E7A3E" stroke-width="1.9" stroke-linejoin="round"/><path d="M9.2 7.8c-.4 0-.9.4-1 1-.2 1.4.6 3.2 2.1 4.7s3.3 2.3 4.7 2.1c.6-.1 1-.6 1-1v-.9l-1.9-.9-.9.9c-.9-.4-2.4-1.9-2.8-2.8l.9-.9-.9-1.9z" fill="#0E7A3E"/></svg><span>WhatsApp</span></button>
   </div>
-  <div class="cfoot"><span>Know More. Scroll Less.</span><button class="pnext" type="button"><small>← ${U('swp')}</small>${U('nxt')}<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button></div>
+  <div class="cfoot"><span>Know More. Scroll Less.</span><button class="pnext sw" type="button"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg><b class="swl">${esc({te:'తర్వాతి వార్త కోసం స్వైప్ చేయండి',en:'Swipe left for next story',hi:'अगली खबर के लिए स्वाइप करें'}[LG()])}</b><b class="sws">${esc({te:'స్వైప్ చేయండి',en:'Swipe left',hi:'स्वाइप करें'}[LG()])}</b></button></div>
 </article>`;
 }
 /* ---------- smart space banner ---------- */
@@ -1218,6 +1257,8 @@ function renderFeed(keepKey){
   feed.innerHTML = LIST.map(cardHTML).join('');
   feed.querySelectorAll('[data-psh]').forEach(b=>b.onclick=()=>shareCard(true));
   feed.querySelectorAll('.vplay').forEach(b=>b.onclick=()=>playVideo(b.dataset.vid));
+  feed.querySelectorAll('.tsz').forEach(b=>b.onclick=e=>{ e.stopPropagation(); let v='m'; try{ v=localStorage.getItem('w2s.fsz')||'m'; }catch(_){} v=FSZ[(FSZ.indexOf(v)+1)%3]; try{ localStorage.setItem('w2s.fsz',v); }catch(_){} applyFsz(); toast({s:'అక్షరాలు: చిన్నవి',m:'అక్షరాలు: సాధారణం',l:'అక్షరాలు: పెద్దవి'}[v]); feed.querySelectorAll('.story').forEach(c=>{ try{ fit(c); }catch(_){} }); });
+  feed.querySelectorAll('.s2n .cfoot').forEach(f=>f.onclick=e=>{ if(e.target.closest('a')) return; const b=f.querySelector('.pnext'); if(b&&e.target!==b&&!b.contains(e.target)) b.click(); });
   feed.querySelectorAll('.s2n.house [data-sk]').forEach(a=>{ const k=a.dataset.sk; a.onclick=e=>{ try{ window.gtag&&gtag('event','space_click',{space:k,at:'card'}); }catch(_){} if(SPACE_TX[k]&&SPACE_TX[k].view){ e.preventDefault(); setView(SPACE_TX[k].view); } }; });
   cur=0; cards=[...feed.querySelectorAll('.story')];
   if(JUMP){ const j=LIST.findIndex(x=>sid(x)===JUMP); JUMP=null; if(j>0) cur=j; }
