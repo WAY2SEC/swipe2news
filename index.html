@@ -578,6 +578,7 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .s2n .bmark{top:auto!important;bottom:8px!important;right:8px;padding:0!important;gap:0;background:none!important;box-shadow:none!important;border:0!important;opacity:.85;font-size:0!important}
 .s2n .bmark img{width:20px!important;height:20px!important;border-radius:5px!important;box-shadow:0 1px 4px rgba(0,0,0,.35)!important}
 .s2n .bmark i{display:none}
+i.kd{font-style:normal;color:#F5A23A}
 /* ===== now-playing bar while the news is read aloud ===== */
 .s2np{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom,0px));z-index:70;max-width:520px;margin:0 auto;display:flex;align-items:center;gap:10px;padding:8px 8px 8px 8px;border-radius:20px;background:linear-gradient(120deg,#2E0827 0%,#4A0E3F 60%,#6E2361 100%);color:#FFFDF5;box-shadow:0 10px 30px rgba(46,8,39,.45),0 0 0 1px rgba(245,162,58,.35)}
 .s2np[hidden]{display:none}
@@ -742,14 +743,14 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
     <div class="sh-body"><div class="join-box">
       <img class="logo jlogo" src="logo.png" alt="Swipe2News">
       <div class="tg">ఒక్క స్వైప్‌లో వార్తలు!</div>
-      <div class="tl">Know More. Scroll Less. · తక్కువ స్క్రోల్, ఎక్కువ సమాచారం</div>
+      <div class="tl">Know More<i class="kd">.</i> Scroll Less<i class="kd">.</i> · తక్కువ స్క్రోల్, ఎక్కువ సమాచారం</div>
       <img class="qr" src="qr.png" alt="Swipe2News WhatsApp ఛానెల్ QR కోడ్">
       <a class="btn wa" id="joinLink" target="_blank" rel="noopener">WhatsApp ఛానెల్‌లో చేరండి</a>
       <button class="btn" id="tipOpen2" type="button" style="background:#4A0E3F">📝 మీ ఊరి వార్త పంపండి</button>
       <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
       <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
-      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 6.7 · Swipe2News</p>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 6.8 · Swipe2News</p>
     </div></div>
   </section>
   <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">
@@ -1151,7 +1152,7 @@ function withPromos(list){ list=withLocAsk(withHouse(withMandi(list)));
 function promoHTML(s,i){
   if(!s.greet) return `<article class="story s2n promo2" aria-label="Swipe2News – మీ ఊరి వార్తలు ఇప్పుడే మీ చేతిలో!">
   <div class="p2b"><img src="promo/swipe2news-promo-banner.jpg" alt="LOCAL • NATIONAL • GLOBAL – మీ ఊరి వార్తలు ఇప్పుడే మీ చేతిలో!" draggable="false"></div>
-  <div class="p2t"><h2>Know More. Scroll Less.</h2>
+  <div class="p2t"><h2>Know More<i class="kd">.</i> Scroll Less<i class="kd">.</i></h2>
    <ul><li><span><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>తెలంగాణ, ఏపీ జిల్లా వార్తలు</li>
    <li><span><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 2.6 15.4 0 18M12 3c-2.6 2.6-2.6 15.4 0 18"/></svg></span>దేశం, ప్రపంచ ముఖ్య వార్తలు</li>
    <li><span><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18"/></svg></span>ఉద్యోగాలు, ఉపయోగకర సమాచారం</li></ul>
@@ -1198,7 +1199,7 @@ function aiChip(){ return `<a class="aic" href="/editorial-policy.html#no-clickb
 function trustChips(s){ const k=lblOf(s), l=LG(); return `<span class="aic"><svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>${U('ai')}</span>${k?`<span class="tl ${k}">${esc(LBL[k][l]||LBL[k].en)}</span>`:''}`; }
 function readMins(s){ const n=String(s.p||'').length+String(s.h||'').length; return Math.max(1,Math.round(n/600)); }
 function listenSecs(s){ const n=String(s.p||'').length+String(s.h||'').length; const sec=Math.max(15,Math.round(n/(LG()==='te'?9:14))); return Math.floor(sec/60)+':'+String(sec%60).padStart(2,'0'); }
-function footHTML(){ const l=LG(); return `<div class="cfoot"><span>Know More. Scroll Less.</span><button class="pnext sw" type="button"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg><b class="swl">${esc({te:'తర్వాత వార్త కోసం స్వైప్ చేయండి',en:'Swipe left for next story',hi:'अगली खबर के लिए स्वाइप करें'}[l])}</b><b class="sws">${esc({te:'స్వైప్ చేయండి',en:'Swipe left',hi:'स्वाइप करें'}[l])}</b></button></div>`; }
+function footHTML(){ const l=LG(); return `<div class="cfoot"><span>Know More<i class="kd">.</i> Scroll Less<i class="kd">.</i></span><button class="pnext sw" type="button"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg><b class="swl">${esc({te:'తర్వాత వార్త కోసం స్వైప్ చేయండి',en:'Swipe left for next story',hi:'अगली खबर के लिए स्वाइप करें'}[l])}</b><b class="sws">${esc({te:'స్వైప్ చేయండి',en:'Swipe left',hi:'स्वाइप करें'}[l])}</b></button></div>`; }
 function cardHTML(s,i){
   if(s.kind==='promo') return promoHTML(s,i);
   if(s.kind==='job') return jobHTML(s,i);
@@ -1508,10 +1509,12 @@ async function cardImage(s){
   const TOP=80, GAP=32, PH=440, FOOT=60;
   const textH=IN+34+22+hl.length*70+18+pl.length*54+30+44+IN;
   const cardH=PH+textH;
-  const H=Math.max(1350, P+TOP+GAP+cardH+GAP+FOOT+P); c.width=W; c.height=H;
+  const H=Math.max(1350, P+TOP+GAP+16+cardH+GAP+16+FOOT+P); c.width=W; c.height=H;
   // background
-  const g=ctx.createRadialGradient(W*0.85,0,40,W*0.85,0,W*1.3); g.addColorStop(0,'#6E2361'); g.addColorStop(0.55,PLUM); g.addColorStop(1,'#3A0A31');
-  ctx.fillStyle=g; ctx.fillRect(0,0,W,H);
+  ctx.fillStyle='#F3EEE9'; ctx.fillRect(0,0,W,H); // light page, so the plum picture and bands stand out
+  const g=ctx.createLinearGradient(0,0,W,0); g.addColorStop(0,DEEP); g.addColorStop(1,PLUM);
+  ctx.fillStyle=g; ctx.fillRect(0,0,W,P+TOP+GAP-8); ctx.fillRect(0,H-FOOT-P+6,W,FOOT+P-6);
+  ctx.fillStyle=AP; ctx.fillRect(0,P+TOP+GAP-8,W,4); ctx.fillRect(0,H-FOOT-P+6,W,4);
   // header: icon + wordmark, place pill
   try{ const ic=await loadImg('icon-rounded.png'); ctx.fillStyle=CR; rrect(ctx,P-4,P+4,80,80,24); ctx.fill(); ctx.drawImage(ic,P,P+8,72,72); }catch(e){}
   try{ const lg=await loadImg('logo-light.png'); const lh=60, lw=lg.width*lh/lg.height; ctx.drawImage(lg,P+92,P+14,lw,lh); }catch(e){}
@@ -1521,7 +1524,7 @@ async function cardImage(s){
   ctx.fillStyle=AP; ctx.beginPath(); ctx.arc(W-P-pw+28,P+45,7,0,7); ctx.fill();
   ctx.fillStyle=CR; ctx.textBaseline='middle'; ctx.fillText(where,W-P-pw+46,P+46,pw-60); ctx.textBaseline='alphabetic';
   // cream card
-  const cx=P, cy=P+TOP+GAP; ctx.save(); rrect(ctx,cx,cy,CW,cardH,36); ctx.clip();
+  const cx=P, cy=P+TOP+GAP+16; ctx.save(); ctx.shadowColor='rgba(46,8,39,.18)'; ctx.shadowBlur=30; ctx.shadowOffsetY=8; ctx.fillStyle=CR; rrect(ctx,cx,cy,CW,cardH,36); ctx.fill(); ctx.restore(); ctx.save(); rrect(ctx,cx,cy,CW,cardH,36); ctx.clip();
   ctx.fillStyle=CR; ctx.fillRect(cx,cy,CW,cardH);
   // picture area: photo, or headline banner with the big keyword
   ctx.fillStyle='#5C1A50'; ctx.fillRect(cx,cy,CW,PH);
@@ -1551,7 +1554,7 @@ async function cardImage(s){
   ctx.fillStyle='#6A6670'; ctx.font=`600 24px ${TE}`; ctx.fillText(({te:(s.src||'')+' కథనం ఆధారంగా',en:'of reporting by '+(s.src||''),hi:(s.src||'')+' की रिपोर्ट पर'})[LG()]||('Source: '+(s.src||'')),cx+IN+228,y+23,TW-240); ctx.textBaseline='alphabetic';
   ctx.restore();
   // footer
-  const fy=H-P-FOOT/2; ctx.textBaseline='middle'; ctx.font=`700 34px ${DI}`; ctx.font=`700 34px 'Outfit',${TE}`; ctx.fillStyle=CR; ctx.fillText('Know More. Scroll Less.',P,fy);
+  const fy=H-(FOOT+P-10)/2; ctx.textBaseline='middle'; ctx.font=`700 34px ${DI}`; ctx.font=`700 34px 'Outfit',${TE}`; let tx=P; [['Know More',CR],['.',AP],[' Scroll Less',CR],['.',AP]].forEach(([t,col])=>{ ctx.fillStyle=col; ctx.fillText(t,tx,fy); tx+=ctx.measureText(t).width; });
   ctx.textAlign='right'; ctx.fillStyle=AP; ctx.font=`800 30px 'Outfit',${TE}`; ctx.fillText('Follow @swipe2newsapp',W-P,fy); ctx.textAlign='left'; ctx.textBaseline='alphabetic';
   let url=''; try{ url=c.toDataURL('image/jpeg',0.92); }catch(e){}
   const blob=await new Promise(r=>c.toBlob(r,'image/jpeg',0.92));
