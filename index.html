@@ -953,11 +953,12 @@ const PLACES = [
 ];
 const LANGS = [['te','తెలుగు','Telugu'],['en','English','ఇంగ్లీష్'],['hi','हिन्दी','హిందీ']];
 /* reader's language: stories carry en:{…} and hi:{…}; missing ones stay in Telugu */
-const LG = () => (prefs&&prefs.lang)||'te';
+const LG = () => { const l=(prefs&&prefs.lang)||'te'; return l==='tl'?'te':l; };
 const UI = {te:{read:'పూర్తి వార్త చదవండి →',hint:'తర్వాత వార్త: ← ఎడమకు లేదా ↓ కిందకు స్వైప్ చేయండి',news:'వార్త',speech:'te-IN',src:'Source | మూలం',tag:'Know More. Scroll Less.',sub:'తక్కువ స్క్రోల్, ఎక్కువ సమాచారం',l1:'ఒక్క స్వైప్‌లో వార్తలు!',min:'ని. చదవడం',listen:'వినండి',swipe:'ఎడమకు స్వైప్ – తర్వాత వార్త',swp:'స్వైప్',ai:'AI సారాంశం',nxt:'తర్వాత వార్త',full:'అసలు కథనం →',save:'సేవ్',img:'ఫోటో',share:'షేర్',lname:'తెలుగు'},
   en:{read:'Read full story →',hint:'Next story: swipe ← left or ↓ down',news:'News',speech:'en-IN',src:'Source',tag:'Know More. Scroll Less.',sub:'Short news you can check',l1:'News in one swipe!',min:'min read',listen:'Listen',swipe:'Swipe left for next',swp:'swipe',ai:'AI summary',nxt:'Next story',full:'Original report →',save:'Save',img:'Photo',share:'Share',lname:'English'},
   hi:{read:'पूरी खबर पढ़ें →',hint:'अगली खबर: ← बाएँ या ↓ नीचे स्वाइप करें',news:'खबर',speech:'hi-IN',src:'स्रोत',tag:'कम स्क्रॉल, ज़्यादा जानकारी',sub:'तेज़ और छोटी खबरें, आपकी भाषा में',l1:'एक स्वाइप में खबरें!',min:'मिनट पढ़ें',listen:'सुनें',swipe:'अगली खबर के लिए बाएँ स्वाइप करें',swp:'स्वाइप',ai:'AI सारांश',nxt:'अगली खबर',full:'मूल रिपोर्ट →',save:'सेव',img:'फ़ोटो',share:'शेयर',lname:'हिन्दी'}};
-const U = k => (UI[LG()]||UI.te)[k];
+const U = k => { if(k!=='speech'&&prefs&&prefs.lang==='tl'){ const e=UI.en[k]; if(e!=null) return e; const v=UI.te[k]; return typeof v==='string'?teLatinSafe(v):v; } return (UI[LG()]||UI.te)[k]; };
+function teLatinSafe(v){ try{ return teLatin(v); }catch(e){ return v; } }
 /* job card words in the reader's language */
 const JU = {
   te:{elig:'🎓 అర్హత',age:'🎂 వయసు',pay:'💰 జీతం',last:'🗓️ చివరి తేదీ',where:'🏢 ఎక్కడ',exp:'🧑‍💼 అనుభవం',how:'📝 ఎలా',today:'⏰ ఈరోజే చివరి రోజు',few:n=>`⏰ ఇంకా ${n} రోజులే మిగిలాయి`,more:n=>`⏳ దరఖాస్తుకు ఇంకా ${n} రోజులు`,lastd:'చివరి తేదీ',pub:'ప్రచురణ',off:'అధికారిక వెబ్‌సైట్ →',hint:'తర్వాత ఉద్యోగం: ← ఎడమకు లేదా ↓ కిందకు స్వైప్ చేయండి',warn:'⚠️ ఉద్యోగం కోసం ఎవరికీ డబ్బులు ఇవ్వకండి. అధికారిక వెబ్‌సైట్‌లోనే దరఖాస్తు చేయండి.',warn1:'⚠️ ఉద్యోగం కోసం ఎవరికీ డబ్బులు ఇవ్వకండి',posts:'పోస్టులు',s1:'💼 జాబ్స్',s2:' – ఉద్యోగ సమాచారం',s3:'తెలుగులో వేగంగా ఉద్యోగ ప్రకటనలు',job:'ఉద్యోగం',jobs:'ఉద్యోగాలు',ch:'Swipe2News WhatsApp ఛానెల్',
@@ -967,6 +968,28 @@ const JU = {
   hi:{elig:'🎓 योग्यता',age:'🎂 आयु',pay:'💰 वेतन',last:'🗓️ अंतिम तिथि',where:'🏢 कहाँ',exp:'🧑‍💼 अनुभव',how:'📝 कैसे आवेदन करें',today:'⏰ आज आख़िरी दिन है',few:n=>`⏰ सिर्फ़ ${n} दिन बाकी`,more:n=>`⏳ आवेदन के लिए ${n} दिन बाकी`,lastd:'अंतिम तिथि',pub:'प्रकाशित',off:'आधिकारिक वेबसाइट →',hint:'अगली नौकरी: ← बाएँ या ↓ नीचे स्वाइप करें',warn:'⚠️ नौकरी के लिए किसी को पैसे न दें। सिर्फ़ आधिकारिक वेबसाइट पर आवेदन करें।',warn1:'⚠️ नौकरी के लिए किसी को पैसे न दें',posts:'पद',s1:'💼 नौकरियाँ',s2:' – नौकरी की खबरें',s3:'तेज़ और भरोसेमंद नौकरी अलर्ट',job:'नौकरी',jobs:'नौकरियाँ',ch:'Swipe2News WhatsApp चैनल',
       types:{tg:'तेलंगाना',ap:'आंध्र प्रदेश',central:'केंद्र सरकार',psu:'केंद्र सरकार',bank:'बैंक',railway:'रेलवे',police:'पुलिस / रक्षा',teaching:'शिक्षक / शिक्षा',it:'आईटी / सॉफ़्टवेयर',private:'प्राइवेट नौकरियाँ',mela:'रोज़गार मेला / अप्रेंटिस',all:'सभी'}}};
 const J = k => (JU[LG()]||JU.te)[k];
+
+/* ---------- Tenglish: Telugu news in English letters (for readers who speak Telugu but read English script) ---------- */
+const TLG = () => !!(prefs&&prefs.lang==='tl');
+const teLatin=(()=>{ const C={'క':'k','ఖ':'kh','గ':'g','ఘ':'gh','ఙ':'n','చ':'ch','ఛ':'chh','జ':'j','ఝ':'jh','ఞ':'n','ట':'t','ఠ':'th','డ':'d','ఢ':'dh','ణ':'n','త':'t','థ':'th','ద':'d','ధ':'dh','న':'n','ప':'p','ఫ':'ph','బ':'b','భ':'bh','మ':'m','య':'y','ర':'r','ఱ':'r','ల':'l','ళ':'l','వ':'v','శ':'sh','ష':'sh','స':'s','హ':'h','ౘ':'ts','ౙ':'dz'};
+  const V={'అ':'a','ఆ':'aa','ఇ':'i','ఈ':'ee','ఉ':'u','ఊ':'oo','ఋ':'ru','ౠ':'roo','ఎ':'e','ఏ':'e','ఐ':'ai','ఒ':'o','ఓ':'o','ఔ':'au'};
+  const M={'ా':'a','ి':'i','ీ':'ee','ు':'u','ూ':'oo','ృ':'ru','ౄ':'roo','ె':'e','ే':'e','ై':'ai','ొ':'o','ో':'o','ౌ':'au'};
+  const NAS=new Set(['k','kh','g','gh','ch','chh','j','jh','t','th','d','dh','n']); // 'n' before these (Telangana, bandh), 'm' elsewhere (aalayamlo, samvatsaram)
+  return str=>{ if(!str||!/[ఀ-౿]/.test(str)) return str; const a=[...String(str).normalize('NFC')]; let o='';
+    for(let i=0;i<a.length;i++){ const ch=a[i], nx=a[i+1];
+      if(C[ch]){ o+=C[ch]; if(nx==='్'){ i++; continue; } if(M[nx]){ o+=M[nx]; i++; } else if(nx==='఼'){ i++; o+='a'; } else o+='a'; continue; }
+      if(V[ch]){ o+=V[ch]; continue; }
+      if(ch==='ం'||ch==='ఁ'){ const nl=C[a[i+1]]; o+= (nl&&NAS.has(nl)) ? 'n' : 'm'; continue; }
+      if(ch==='ః'){ o+='h'; continue; }
+      if(ch>='౦'&&ch<='౯'){ o+=String(ch.charCodeAt(0)-0x0C66); continue; }
+      if(/[ఀ-౿]/.test(ch)) continue; o+=ch; }
+    // tidy: word-final short "a" after a consonant cluster reads fine; capitalise sentence starts
+    return o.replace(/(^|[.!?।]\s+)([a-z])/g,(m,p,c)=>p+c.toUpperCase()).replace(/।/g,'.'); }; })();
+function tlDom(root){ try{ root.querySelectorAll('.swl').forEach(e=>e.textContent='Swipe left for next story'); root.querySelectorAll('.sws').forEach(e=>e.textContent='Swipe left'); root.querySelectorAll('.adisc').forEach(e=>e.textContent='AI-generated illustration'); root.querySelectorAll('.text .more').forEach(e=>e.textContent='Read full story ›'); root.querySelectorAll('.srcb small').forEach(e=>e.textContent='Source:');
+  root.querySelectorAll('.stime').forEach(e=>{ const t=[...e.childNodes].find(n=>n.nodeType===3&&/ప్రచురణ/.test(n.data)); if(t) t.data=t.data.replace('ప్రచురణ','Published'); });
+  const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT); const ns=[]; let n; while(n=w.nextNode()) if(/[\u0C00-\u0C7F]/.test(n.data)) ns.push(n); ns.forEach(n=>n.data=teLatin(n.data)); root.querySelectorAll('[aria-label],[title]').forEach(e=>{ for(const a of ['aria-label','title']){ const v=e.getAttribute(a); if(v&&/[\u0C00-\u0C7F]/.test(v)) e.setAttribute(a,teLatin(v)); } }); }catch(e){} }
+function tlStory(s){ if(!TLG()||!s||s.kind||s._orig) return s; const t=x=>typeof x==='string'?teLatin(x):x;
+  const o=Object.assign({},s,{_sid:sid(s),_orig:s,_lang:'te-Latn'}); for(const k of ['h','p','stat','statl','cat','loc']) if(o[k]) o[k]=t(o[k]); if(Array.isArray(o.pts)) o.pts=o.pts.map(t); return o; }
 function tr(s){ const l=LG(); if(!s||s.kind==='job'||l==='te'||!s[l]||typeof s[l]!=='object') return s; return Object.assign({},s,s[l],{_sid:sid(s),_lang:l}); }
 const placeName = k => { if(!k||k==='TS') return 'మొత్తం తెలంగాణ'; if(k==='AP') return 'మొత్తం ఆంధ్రప్రదేశ్'; const t=PLACES.find(p=>p[0]===k); return t?t[1]:(placeLabel(k)||'మొత్తం తెలంగాణ'); };
 const stOfPlace = k => !k||k==='TS'||PLACES.some(p=>p[0]===k) ? 'TG' : (k==='AP'||k.startsWith('ap-') ? 'AP' : (k.startsWith('st-')?k.slice(3):(/^[a-z]{2}-/.test(k)&&STATE_DISTRICTS[k.slice(0,2).toUpperCase()]?k.slice(0,2).toUpperCase():'TG')));
@@ -1049,7 +1072,7 @@ let prefs = store.get('prefs', null);
 const firstRun = !prefs;
 prefs = prefs || {place:'TS', topics:DEFAULT_TOPICS.slice()};
 if(!Array.isArray(prefs.topics)) prefs.topics=DEFAULT_TOPICS.slice(); if(!prefs.place) prefs.place='TS'; // a story page may have saved only the language
-{ const ql=new URLSearchParams(location.search).get('l'); if(/^(te|en|hi)$/.test(ql||'')) prefs.lang=ql; }
+{ const ql=new URLSearchParams(location.search).get('l'); if(/^(te|tl|en|hi)$/.test(ql||'')) prefs.lang=ql; }
 prefs.theme = 'light'; /* only Editorial White (14 Nov 2026) */
 let saved = store.get('saved', []);
 setJobs(store.get('jobs',[]));
@@ -1101,7 +1124,7 @@ $('tabs').addEventListener('click',e=>{const b=e.target.closest('.tab');if(!b)re
 
 /* ---------- feed ---------- */
 const secsOf = s => Array.isArray(s.sec)?s.sec:(s.sec?[s.sec]:['telangana']);
-function pick(){ return pick0().map(tr); }
+function pick(){ return pick0().map(tr).map(x=>tlStory(x)); }
 function pick0(){
   if(view==='saved') return saved;
   if(view==='jobs'){
@@ -1460,6 +1483,7 @@ function renderFeed(keepKey){
   }
   LIST = withPromos(LIST);
   feed.innerHTML = LIST.map(cardHTML).join('').replace(/<img class="([^"]*)" src="(\/art\/[^"]+)"/g,'<img class="$1" data-src="$2"'); // pictures load only for the card on screen and the next few
+  if(TLG()) tlDom(feed);
   feed.querySelectorAll('[data-psh]').forEach(b=>b.onclick=()=>shareCard(true));
   feed.querySelectorAll('.vplay').forEach(b=>b.onclick=()=>playVideo(b.dataset.vid));
   feed.querySelectorAll('.tsz').forEach(b=>b.onclick=e=>{ e.stopPropagation(); let v='m'; try{ v=localStorage.getItem('w2s.fsz')||'m'; }catch(_){} v=FSZ[(FSZ.indexOf(v)+1)%3]; try{ localStorage.setItem('w2s.fsz',v); }catch(_){} applyFsz(); toast({s:'అక్షరాలు: చిన్నవి',m:'అక్షరాలు: సాధారణం',l:'అక్షరాలు: పెద్దవి'}[v]); feed.querySelectorAll('.story').forEach(c=>{ try{ fit(c); }catch(_){} }); });
@@ -1770,7 +1794,7 @@ const synth = window.speechSynthesis;
 /* "News radio": reads the card aloud, then turns to the next card by itself and keeps reading until stopped.
    Same toggle for the 🔊 button in the bottom bar and the floating 🎧 button shown in reading mode. */
 let RADIO=false, rTok=0, rWait=0;
-function voiceText(s){ if(!s||s.kind==='promo') return '';
+function voiceText(s){ s=(s&&s._orig)||s; if(!s||s.kind==='promo') return '';
   return s.kind==='job'
     ? [s.h, s.sum, s.posts&&(J('posts')+' '+s.posts), s.qual&&(J('elig').slice(3)+' '+s.qual), s.last&&(J('lastd')+' '+teDate(s.last))].filter(Boolean).join('. ')
     : [s.h, s.p, ...(Array.isArray(s.pts)?s.pts:[])].filter(Boolean).join('. '); }
@@ -2249,11 +2273,11 @@ setTimeout(alertInvite, 60000);
 })();
 /* ===== Swipe2News v5.1: card buttons, language screen, first-open tutorial ===== */
 (function(){
-  const ALL=[['te','తె','తెలుగు','Telugu'],['hi','हि','हिन्दी','Hindi'],['en','A','English','English'],['ta','த','தமிழ்','Tamil'],
+  const ALL=[['te','తె','తెలుగు','Telugu'],['tl','Te','Tenglish','Tenglish'],['hi','हि','हिन्दी','Hindi'],['en','A','English','English'],['ta','த','தமிழ்','Tamil'],
     ['kn','ಕ','ಕನ್ನಡ','Kannada'],['ml','മ','മലയാളം','Malayalam'],['mr','म','मराठी','Marathi'],['bn','বা','বাংলা','Bengali'],
     ['gu','ગુ','ગુજરાતી','Gujarati'],['or','ଓ','ଓଡ଼ିଆ','Odia'],['pa','ਪੰ','ਪੰਜਾਬੀ','Punjabi'],['ur','ا','اردو','Urdu']];
-  const READY=['te','en','hi'];
-  let pick=LG();
+  const READY=['te','tl','en','hi'];
+  let pick=(prefs&&prefs.lang)||'te';
   function lngLabel(){ const n=$('lngName'); if(n) n.textContent=U('lname'); }
   function applyLang(n){ prefs.lang=n; store.set('prefs',prefs); setJobs(store.get('jobs',[])); cardCache={k:null,blob:null,p:null};
     document.documentElement.lang=LG(); renderTabs(); renderFeed(); lngLabel(); }
@@ -2262,7 +2286,7 @@ setTimeout(alertInvite, 60000);
     const cur=ALL.find(x=>x[0]===pick); $('langGo').textContent='Continue in '+(cur?cur[3]:'Telugu'); }
   $('langGrid').addEventListener('click',e=>{ const b=e.target.closest('.lt'); if(!b) return; const id=b.dataset.l;
     if(!READY.includes(id)){ toast('Coming soon · త్వరలో'); return; } pick=id; drawGrid(); });
-  function openLang(){ pick=LG(); drawGrid(); $('langName').value=prefs.name||''; $('langScr').hidden=false; }
+  function openLang(){ pick=(prefs&&prefs.lang)||'te'; drawGrid(); $('langName').value=prefs.name||''; $('langScr').hidden=false; }
   $('langGo').onclick=()=>{ prefs.name=$('langName').value.replace(/[<>]/g,'').trim().slice(0,24); $('langScr').hidden=true; const first=!store.get('langPicked',0); store.set('langPicked',1); applyLang(pick);
     if(first && !store.get('tutDone',0)) setTimeout(()=>{ $('tut').hidden=false; },350); };
   lngLabel();
