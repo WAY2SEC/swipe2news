@@ -559,7 +559,7 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .s2n.numled .bkw .stat{font-size:40px!important}.story.s2n.numled>.text{flex:1 1 auto!important}.s2n.numled .bkw{background:none!important}
 .s2n .bnr img.ahero{position:absolute;left:50%;top:42%;transform:translate(-50%,-50%);width:82%;max-height:62%;object-fit:contain;filter:drop-shadow(0 12px 16px rgba(0,0,0,.45));pointer-events:none}
 .s2n .bnr img.awx{width:70%;max-height:50%;top:40%}
-.s2n .bnr img.adim{filter:brightness(.42) saturate(.6) blur(1.5px);transform:scale(1.04)}
+.s2n .bnr img.adim{filter:brightness(.78) saturate(.95)}
 .s2n .bnr .atone{position:absolute;inset:0;pointer-events:none}.s2n .bnr .atone.cool{background:linear-gradient(rgba(120,160,210,.3),rgba(120,160,210,.3)),linear-gradient(transparent 45%,rgba(235,240,250,.35))}.s2n .bnr .atone.warm{background:rgba(245,130,40,.3)}
 .s2n .bnr img.aob{position:absolute;right:6px;top:16%;width:42%;max-height:36%;object-fit:contain;filter:drop-shadow(0 10px 12px rgba(20,4,17,.55));pointer-events:none}
 .s2n.hasph .bkw{background:linear-gradient(transparent,rgba(46,8,39,.9) 38%,#2E0827)}
@@ -733,6 +733,19 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text .kpts,.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text .more{display:none!important}
 .story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.spacer{display:none!important}
 .story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text .sum{font-size:16px;line-height:1.55}
+/* buttons off the picture: a plum strip at the bottom of the picture half holds save / photo / share / WhatsApp; the picture sits above it, whole and uncovered */
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.panel.bnr{padding-bottom:62px!important}
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.panel.bnr::after{content:'';position:absolute;left:0;right:0;bottom:0;height:52px;background:#2E0827;z-index:3}
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bnr img.ph{bottom:52px!important;height:auto!important;top:0!important}
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bnr i.apl,.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bnr i.apl2,.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bnr i.phs{bottom:52px!important}
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bnr img.ahero{width:94%!important;max-height:calc(100% - 52px - 120px)!important;top:calc(50% - 40px)!important}
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bnr span.alw{inset:0 0 52px 0!important}
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi).hasph .bkw{margin-bottom:-10px!important;padding-bottom:10px!important}
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.cacts{top:calc(50% - 45px)!important;bottom:auto!important;right:10px!important;transform:none!important;flex-direction:row!important;gap:10px!important;z-index:7}
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.cacts .ca{width:38px!important;height:38px!important;background:rgba(255,253,245,.08)!important;-webkit-backdrop-filter:none;backdrop-filter:none;box-shadow:none!important}
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.cacts .ca svg{width:19px;height:19px}
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bkw{padding-right:18px!important}
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bmark{top:auto!important;bottom:13px!important;left:14px!important;right:auto!important;z-index:7}
 @media (max-height:780px){.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text .sum{font-size:15px;line-height:1.5}.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text{gap:5px!important;padding-top:10px!important}}
 @media (min-width:380px){.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text>.ctxrow{align-self:flex-end;margin-top:calc(-1 * (19px + 7px));line-height:19px}}
 </style>
@@ -912,7 +925,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
   <div class="toast" id="toast" role="status"></div>
 </div>
 
-<script src="scenes.js?v=20261114d"></script>
+<script src="scenes.js?v=20261114e"></script>
 <script src="mandi.js?v=2"></script>
 <script>
 const CONFIG = {
