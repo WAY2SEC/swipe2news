@@ -418,6 +418,29 @@ const ART_I=[[/సింగరేణి|కోల్ ఇండియా|బొ�
  [/ఈ-కామర్స్|అమెజాన్|ఫ్లిప్‌కార్ట్|ఆన్‌లైన్ షాపింగ్|e-commerce|Flipkart|Amazon|Meesho|online shopping/i,'e-commerce'],[/క్విక్ కామర్స్|జెప్టో|బ్లింకిట్|స్విగ్గీ|జొమాటో|quick commerce|Zepto|Blinkit|Swiggy|Zomato|food delivery/i,'quick-commerce-and-delivery'],
  [/ఆన్‌లైన్ గేమ్|గేమింగ్|online gam|gaming/i,'online-gaming'],[/బెట్టింగ్|betting/i,'online-betting'],[/క్రిప్టో|బిట్‌కాయిన్|crypto|bitcoin/i,'crypto-and-digital-assets'],
  [/యూపీఐ|ఫోన్‌పే|పేటీఎం|డిజిటల్ చెల్లింపు|ఫిన్‌టెక్|\bUPI\b|PhonePe|Paytm|fintech|digital payment/i,'fintech-and-payments'],[/సోషల్ మీడియా|యూట్యూబర్|ఇన్‌ఫ్లుయెన్సర్|ఇన్‌స్టాగ్రామ్|social media|YouTuber|influencer|Instagram|creator/i,'social-media-and-creators']];
+/* owner's civic-news (art/cv) and welfare-scheme (art/s) pictures, 14 Nov 2026. Category pictures, not official logos. */
+const ART_S=[[/కళ్యాణ\s?లక్ష్మి|కల్యాణ\s?లక్ష్మి|Kalyana\s?Lakshmi/i,'kalyana-lakshmi'],[/షాదీ ముబారక్|Shaadi Mubarak/i,'shaadi-mubarak'],
+ [/ఆత్మీయ భరోసా|Atmeeya Bharosa/i,'atmeeya-bharosa'],[/రైతు\s?భరోసా|రైతు\s?బంధు|పీఎం[ -]?కిసాన్|Rythu\s?Bharosa|Rythu\s?Bandhu|PM[ -]KISAN/i,'rythu-bharosa'],[/రైతు\s?బీమా|పంటల? బీమా|Rythu\s?Bima|crop insurance|Fasal Bima/i,'rythu-bima'],
+ [/రుణ\s?మాఫీ|loan waiver/i,'crop-loan-waiver'],[/ఇందిరమ్మ ఇళ్ల|ఇందిరమ్మ ఇల్లు|ఇందిరమ్మ ఇండ్ల|డబుల్ బెడ్‌?రూం|గృహ నిర్మాణ పథక|Indiramma (?:house|housing|homes)|housing scheme|2BHK|PMAY/i,'indiramma-housing'],
+ [/గృహ\s?జ్యోతి|ఉచిత విద్యుత్|Gruha\s?Jyothi|free electricity|free power/i,'gruha-jyothi'],[/(?:మహాలక్ష్మి|ఉచిత).{0,25}(?:బస్|ప్రయాణ)|ఉచిత బస్|free bus|Mahalakshmi.{0,25}bus|women.{0,15}free (?:bus|travel)/i,'mahalakshmi-bus'],
+ [/(?:మహాలక్ష్మి|రూ\.?\s?500).{0,25}(?:గ్యాస్|సిలిండర్)|వంట గ్యాస్|గ్యాస్ సిలిండర్|ఎల్పీజీ|\bLPG\b|cooking gas|gas cylinder/i,'mahalakshmi-lpg'],
+ [/ఆరోగ్య\s?శ్రీ|ఆయుష్మాన్|Aarogyasri|Arogyasri|Ayushman/i,'aarogyasri'],[/ఆరోగ్య లక్ష్మి|అంగన్‌?వాడీ|పౌష్టికాహార|Aarogya Lakshmi|anganwadi|nutrition/i,'aarogya-lakshmi'],
+ [/విదేశీ విద్య|ఓవర్సీస్ స్కాలర్|overseas scholarship|Videshi Vidya|study abroad scholarship/i,'overseas-scholarships'],[/ఫీజు రీయింబర్స్|ఈ-?పాస్|fee reimbursement|\bePASS\b/i,'fee-reimbursement'],[/స్కాలర్‌?షిప్|ఉపకార వేతన|scholarship/i,'scholarships'],
+ [/రాజీవ్ యువ వికాస|స్వయం ఉపాధి రుణ|Rajiv Yuva Vikasam|self-employment loan/i,'rajiv-yuva-vikasam'],
+[/పింఛన్|(?<![\u0C00-\u0C7F])పెన్షన్|ఆసరా పింఛ|చేయూత|\bpensions?\b|Aasara|Cheyutha/i,'pensions'],
+ [/సన్న\s?బియ్య|(?<![\u0C00-\u0C7F])రేషన్ బియ్య|(?<![\u0C00-\u0C7F])రేషన్ (?:కార్డ|షాప|దుకాణ|సరుకు)|పౌరసరఫరా(?!ల(?: శాఖ)? మంత్రి)|fine rice|ration rice|ration card|civil supplies(?! minister)|\bration\b/i,'fine-rice']];
+const ART_CV=[[/డంపింగ్ యార్డ్|డంప్ ?యార్డ్|dumping yard|dump ?yard|landfill/i,'dumping-yards'],[/చెత్త (?:పేరుకు|కుప్ప|సేకరణ|తొలగించ)|చెత్త సమస్య|garbage (?:pile|heap|not collected|collection)|uncollected garbage/i,'uncollected-garbage'],
+ [/(?<!ఇంకుడు )గుంతల|పాట్‌?హోల్|pothole|damaged road|road damage|దెబ్బతిన్న రోడ్/i,'potholes'],[/మ్యాన్‌?హోల్|manhole/i,'open-manholes'],
+ [/వీధి కుక్క|కుక్కల బెడద|కుక్క కాటు|stray (?:dog|cattle|animal)|dog bite/i,'stray-animals'],[/దోమల|ఫాగింగ్|mosquito|fogging/i,'mosquito-breeding'],
+ [/విద్యుత్ కోత|కరెంట్ కోత|కరెంటు కోత|పవర్ కట్|power cut|power outage|outage/i,'power-cuts'],[/వీధి దీపా|స్ట్రీట్ ?లైట్|streetlight|street light/i,'streetlights'],
+ [/పైప్‌?లైన్ (?:లీక్|పగిలి)|నీరు వృథా|pipeline (?:leak|burst)|water leak/i,'water-leaks'],[/తాగునీటి (?:కొరత|సమస్య|ఇబ్బంద)|నీటి కొరత|ట్యాంకర్|water shortage|water crisis|tanker/i,'water-shortage'],
+ [/మురుగు నీరు|సీవరేజ్|sewage/i,'sewage-on-roads'],[/నాలా|డ్రైనేజీ|కాలువ పొంగి|\bdrains?\b|drainage|\bnalas?\b/i,'overflowing-drains'],
+ [/పబ్లిక్ టాయిలెట్|ప్రజా మరుగుదొడ్|public toilet/i,'public-toilets'],[/ఫుట్‌?పాత్ ఆక్రమణ|footpath encroach|blocked footpath|walkway/i,'blocked-walkways'],[/ఫుట్‌?పాత్|footpath|pavement/i,'damaged-footpaths'],
+ [/బస్ షెల్టర్|బస్ స్టాప్|bus shelter|bus stop/i,'bus-stops'],[/చెట్లు కూలి|కూలిన చెట్ల|నేలకొరిగిన|fallen trees?|uprooted/i,'fallen-trees'],[/విద్యుత్ తీగల|వేలాడుతున్న వైర్|live wires?|exposed wires?|hanging wires?/i,'exposed-wires'],
+ [/శబ్ద కాలుష్య|గాలి నాణ్యత|వాయు కాలుష్య|\bAQI\b|air quality|air pollution|noise pollution/i,'air-noise-pollution'],[/(?:పార్కు|park).{0,30}(?:నిర్వహణ|అధ్వాన|దుస్థితి|పిచ్చి మొక్క|పట్టించుకో|maintenance|neglect|renovat|overgrown)|playground/i,'park-maintenance'],
+ [/రోడ్డు పనుల|తవ్వకాల|దుమ్ము|road ?work|dug[- ]up|\bdust\b/i,'roadwork-dust'],[/జలమయ|నీట మునిగిన (?:కాలనీ|రోడ్|వీధు)|వరద నీరు|waterlogg|inundat|flooded (?:roads|streets|colonies)/i,'flooded-streets'],[/రోడ్లపై (?:వర్షపు )?నీరు|rainwater on roads/i,'rainwater-on-roads']];
+function artScheme(tt){ for(const [rx,k] of ART_S) if(rx.test(tt)) return 's/'+k; return ''; }
+function artCivic(tt){ for(const [rx,k] of ART_CV) if(rx.test(tt)) return 'cv/'+k; return ''; }
 function artIndustry(tt){
   if(WORKER_RX.test(tt)) for(const [rx,k] of ART_IW) if(rx.test(tt)) return 'i/'+k;
   for(const [rx,k] of ART_I) if(rx.test(tt)) return k.startsWith('n/')?k:'i/'+k;
@@ -437,7 +460,8 @@ function artPlan(s){
     return {m:'plain',obj:o};
   }
   { const tq=[s.h,s.statl,String(s.p||'').split(/[.!?।]/)[0]].join(' ');
-    if(/చెరువు|ఆక్రమణ|గాలి నాణ్యత|వాయు కాలుష్య|\bAQI\b|air quality|lake encroach/i.test(tq)) return {m:'cat',cat:'environment'}; // lakes, air quality: environment, not a weather cloud
+    if(!/ప్రపంచం|World/.test(String(s.cat||''))){ const ck=artCivic([s.h,s.statl,(s.en&&s.en.h)||''].join(' ')); if(ck) return {m:'land',bg:ck}; } // civic problems: the problem picture (owner, 14 Nov)
+    if(/చెరువు|ఆక్రమణ|lake encroach/i.test(tq)) return {m:'cat',cat:'environment'}; // lakes, air quality: environment, not a weather cloud
     if(type!=='weather'&&/రైళ్లు|రైలు|ట్రైన్|\btrains?\b|railway/i.test(tq)&&!/ప్రపంచం|World/.test(String(s.cat||''))) return {m:'cat',cat:'transport'}; }
   if(type==='weather'){
     const bg=land||sland, rain=/వర్ష|వాన|తుపాను|అల్పపీడన|వరద|జల్లు|rain|cyclone|flood|shower|depression/i.test(t), heat=/ఎండ|వడగాల్పు|ఉక్కపోత|heat|hot\b|scorch/i.test(t), cold=/చలి|పొగమంచు|మంచు|cold|chill|fog|mist|winter/i.test(t);
@@ -457,7 +481,7 @@ function artPlan(s){
   // Landmarks stay for temple, travel, culture and general local / political news.
   const tt=[s.h,s.statl,String(s.p||'').split(/[.!?।]/)[0]].join(' ');
   const isWorld=!land&&(/ప్రపంచం|World/.test(t+(s.cat||''))||(Array.isArray(s.sec)&&s.sec.includes('world')));
-  if(!isWorld){ if(/పింఛన్|పెన్షన్|pension/i.test(tt)) return {m:'cat',cat:'schemes'}; if(/చెత్త|పారిశుద్ధ్య|garbage|sanitation/i.test(tt)&&/శుభ్ర|తొలగి|తరలి|స్వచ్ఛ|clean|clear|drive/i.test(tt)) return {m:'land',bg:'i/sanitation-workers'}; if(/చెత్త|మురుగు|పారిశుద్ధ్య|డ్రైనేజీ|garbage|sewage|sanitation/i.test(tt)) return {m:'cat',cat:'environment'}; if(/పౌరసరఫరా|(?<!కార్పొ)రేషన్ (?:కార్డ|బియ్య|షాప|దుకాణ|సరుకు)|civil supplies|\bration\b/i.test(tt)) return {m:'land',bg:'n/prices'};
+  if(!isWorld){ const sk=artScheme(tt); if(sk) return {m:'land',bg:sk}; if(/చెత్త|పారిశుద్ధ్య|garbage|sanitation/i.test(tt)&&/శుభ్ర|తొలగి|తరలి|స్వచ్ఛ|clean|clear|drive/i.test(tt)) return {m:'land',bg:'i/sanitation-workers'}; if(/చెత్త|మురుగు|పారిశుద్ధ్య|డ్రైనేజీ|garbage|sewage|sanitation/i.test(tt)) return {m:'cat',cat:'environment'}; if(/పౌరసరఫరా|(?<!కార్పొ)రేషన్ (?:కార్డ|బియ్య|షాప|దుకాణ|సరుకు)|civil supplies|\bration\b/i.test(tt)) return {m:'land',bg:'n/prices'};
     if(/ఏఐ|\bAI\b|కృత్రిమ మేధ|సెన్సెక్స్|నిఫ్టీ|స్టాక్ మార్కెట్|Sensex|Nifty/i.test(String(s.h||''))){ const nk0=artNews(tt); if(nk0) return {m:'land',bg:'n/'+nk0}; }
     const ik=artIndustry(tt); if(ik) return {m:'land',bg:ik};
     const nk=artNews(tt); if(nk) return {m:'land',bg:'n/'+nk}; }
@@ -477,7 +501,7 @@ function artPlan(s){
 }
 function artImg(s){ const a=artPlan(s); if(!a) return ''; return a.m==='logo'?'/art/logo.svg':a.m==='cat'?'/art/c/'+a.cat+'.jpg':a.bg?artBg(a.bg):'/art/o/'+(a.obj||'local')+'.webp'; }
 const ART_DISC={te:'AI రూపొందించిన చిత్రం',en:'AI-generated illustration',hi:'AI से बना चित्र'};
-function artBg(k,big){ const e=big?'.jpg':'.webp'; return (k.startsWith('w/')||k.startsWith('n/')||k.startsWith('i/'))?'/art/'+k+e:'/art/d/'+k+e; } // cards: light 960px WebP; shared 4K photo: full-size original
+function artBg(k,big){ const e=big?'.jpg':'.webp'; return /^(?:w|n|i|cv|s)\//.test(k)?'/art/'+k+e:'/art/d/'+k+e; } // cards: light 960px WebP; shared 4K photo: full-size original
 function artHTML(a){
   const im=(src,cls)=>`<img class="${cls}" src="${src}" alt="" decoding="async">`;
   if(a.m==='logo') return `<i class="apl2"></i><span class="alw"><span class="alr"><img class="alogo" src="/art/logo.svg" alt=""><i class="adot"></i></span></span>`;
