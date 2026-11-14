@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-14T17:35:00+05:30",
+ "cutoff": "2026-11-14T18:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T07:05:00+05:30/2026-11-11T07:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 5,
-   "late": 5,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 1,
-   "review": 2,
-   "gaps": "Search-first; WebFetch via sub-agents. Search returned mostly listing pages; no in-window (07:05-07:35) article surfaced. Eenadu, Sakshi, Andhra Jyothy, ETV Bharat, TV9, V6, NTV, Siasat, Telangana Today articles, Reuters/BBC/AP not surfaced in range. Duplicate: Hans APPSC Group-2 (already published from DC). Skipped minor other-state: DC Chennai Deepavali traffic. Review (no publication time): DNA India gold rates 11 Nov, The Standard HK Morning Recap. Older than lookback: DC Vanasthalipuram suicide (10 Nov 08:23), DC Adilabad crop-loss survey (10 Nov 01:17)."
-  },
   {
    "window": "2026-11-11T07:35:00+05:30/2026-11-11T08:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "17:35 run started 17:36 IST. Lookback from 09:05 14 Nov. Published (late-found): Mana Telangana Rajendranagar class 7 girl missing, kidnapping case (11:10, fact, police, sensitive minor, no name), Nhan Dan/Xinhua world brief IRGC says 2 tankers hit mines in Hormuz (16:10 IST, claim). Duplicates: Hyderabad Mail cold wave (09:03; dup of Sakshi cold story), ETV TG live blog (no new entries after 09:16; no Shamshabad landing entry found despite headline). Skipped: ESPN U19 Asia Cup final report (result pending at capture), NTV/South First AP panchayat phase-1 notification (13 Nov 12:40, pre-lookback). Not reached: Eenadu, Sakshi, V6, TV9, The Hindu, PTI, Reuters; standard searches stale. Districts searched: Nalgonda, Karimnagar, Warangal, Nizamabad, Guntur, Kakinada, Siddipet, Wanaparthy, Gadwal, Nagarkurnool, Khammam, Visakhapatnam, NTR."
+  },
+  {
+   "window": "2026-11-14T17:35:00+05:30/2026-11-14T18:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 2,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "18:05 run started 18:05 IST. Lookback from 09:35 14 Nov. Published: India TV Giribabu dies (17:11, fact), UNI Revanth Bharat Summit valedictory (datePublished 12:02Z = 17:32 IST, late-found, fact). Duplicates: The Week Cyclone Akvan (17:16; dup of Sambad forecast), Deccan Chronicle Revanth gig workers (13:00; dup of NewsMeter), Madhyamam Akvan (13 Nov 21:10, pre-lookback). Skipped: India.com Aaryavir Sehwag fifty in U19 final chase (16:35; result pending). Not reached: Cricinfo (client error); Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters not surfaced; standard searches stale. Districts searched: Medchal, Peddapalli, Mulugu, Bhupalpally, Jangaon, Mahabubabad, Tirupati, Nandyal, Kurnool, Chittoor, Annamayya, Palnadu, Bapatla."
   }
  ],
  "seen": [
@@ -2503,6 +2503,31 @@
    "url": "https://thesouthfirst.com/andhrapradesh/first-phase-notification-released-for-gram-panchayat-elections-in-andhra-pradesh/",
    "d": "2026-11-14",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.indiatvnews.com/entertainment/regional-cinema/giribabu-veteran-telugu-actor-dies-andhra-pradesh-cm-chandrababu-naidu-pays-tribute-2026-11-14-1059449",
+   "d": "2026-11-14",
+   "w": "18:05"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/bharat-summit-telangana-cm/245289",
+   "d": "2026-11-14",
+   "w": "18:05"
+  },
+  {
+   "url": "https://www.theweek.in/news/india/2026/11/14/cyclone-akvan-to-make-landfall-in-andhra-pradesh-depression-over-the-bay-of-bengal-to-turn-into-cyclonic-storm.html",
+   "d": "2026-11-14",
+   "w": "18:05"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/revanth-reddy-fulfils-rahul-gandhis-promise-to-secure-gig-workers-2004350",
+   "d": "2026-11-14",
+   "w": "18:05"
+  },
+  {
+   "url": "https://madhyamamonline.com/india/bay-of-bengal-system-likely-to-intensify-into-cyclone-akvan-by-november-16-1572033",
+   "d": "2026-11-14",
+   "w": "18:05"
   }
  ]
 }
