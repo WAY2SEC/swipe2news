@@ -120,7 +120,41 @@ nav.bn a.sw{justify-self:center;width:58px;height:58px;margin-top:-26px;border-r
 .s2lsc .lnm small{font-weight:500;color:#5A5560}
 .s2lsc .lnm input{height:48px;padding:0 14px;border-radius:14px;border:1.5px solid #E3D7DF;background:#fff;font:600 16px 'Outfit','Noto Sans Telugu',sans-serif;color:#202124}
 .s2bnav,.tkpause{display:none!important}
-.m60{margin:14px 16px 0}
+.m60{margin:12px 0 0}
+.ustrip{display:flex;gap:8px;overflow-x:auto;padding:0 16px 2px;scrollbar-width:none}.ustrip::-webkit-scrollbar{display:none}
+.uc{flex:none;min-width:116px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:8px 11px;display:flex;flex-direction:column;gap:1px;color:inherit;text-decoration:none}
+.uc small{font-size:11px;color:var(--muted);white-space:nowrap}.uc b{font:800 16px 'Outfit','Noto Sans Telugu',sans-serif;color:var(--plum);white-space:nowrap}
+.uc.um{background:#F5EBDD;border-color:#F5EBDD}
+.lsb{display:flex;align-items:center;justify-content:center;gap:9px;width:calc(100% - 32px);margin:12px 16px 0;height:50px;border:0;border-radius:16px;background:var(--ap);color:var(--deep);font:800 15.5px 'Noto Sans Telugu','Outfit',sans-serif;cursor:pointer}
+.lsb.on{background:var(--deep);color:#FFFDF5}
+.lsb .eq{display:none;align-items:flex-end;gap:3px;height:16px}.lsb.on .eq{display:flex}.lsb.on .ic{display:none}
+.lsb .eq i{width:3px;border-radius:2px;background:var(--ap);animation:s2eq .9s ease-in-out infinite}
+.lsb .eq i:nth-child(2){animation-delay:.15s}.lsb .eq i:nth-child(3){animation-delay:.3s}.lsb .eq i:nth-child(4){animation-delay:.45s}
+@keyframes s2eq{0%,100%{height:4px}50%{height:16px}}
+.lsb .sq{display:none;width:11px;height:11px;border-radius:2px;background:#FFFDF5}.lsb.on .sq{display:block}
+.bhd{display:flex;align-items:baseline;gap:6px;margin:16px 16px 8px}.bhd h2{margin:0;font-size:13px;font-weight:800;letter-spacing:.4px;color:var(--plum)}
+.bix{font:800 13px 'Outfit',sans-serif;color:var(--plum)}.bsw{margin-left:auto;font-size:12px;color:var(--muted)}
+.bview{overflow:hidden;margin:0 16px;border-radius:20px}
+.btrack{display:flex;transition:transform .32s ease}
+.bc{flex:0 0 100%;box-sizing:border-box;background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column}
+.bv{display:flex;flex-direction:column;justify-content:space-between;gap:8px;min-height:118px;padding:12px 14px;background:var(--plum);text-decoration:none}
+.bv .tg{align-self:flex-start;border:1px solid #9C6E92;color:#FFFDF5;font-size:11.5px;padding:2px 10px;border-radius:12px}
+.bv .st{font:800 30px 'Outfit','Noto Sans Telugu',sans-serif;color:var(--ap);line-height:1.15}
+.bv .sl{font-size:12.5px;font-weight:700;color:#FFFDF5;margin-top:-6px}
+.bt{padding:12px 14px 14px}
+.bt .hd{display:block;font-size:16.5px;font-weight:800;line-height:1.5;color:var(--ink);text-decoration:none}
+.bt ul{margin:6px 0 0;padding-left:18px;font-size:13.5px;line-height:1.6;color:#3C3A40}
+.bt .mt{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:8px;font-size:11.5px;color:var(--muted)}.bt .mt b{color:#0E7A3E}
+.bt .wy{flex:none;height:32px;border:0;border-radius:16px;background:#F5EBDD;color:var(--plum);font:700 12px 'Noto Sans Telugu',sans-serif;padding:0 12px;cursor:pointer}
+.bt .wyt{margin:8px 0 0;background:#F5EBDD;border-radius:10px;padding:8px 10px;font-size:13px;line-height:1.55;color:var(--plum)}
+.bnone{color:var(--muted);font-size:14px;margin:0}
+.bdots{display:flex;justify-content:center;gap:6px;margin:10px 0}.bdots span{width:6px;height:6px;border-radius:3px;background:#D8CFC6;transition:width .2s}.bdots span.on{width:18px;background:var(--ap)}
+.bnav{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 16px}
+.bnav button{height:46px;border-radius:14px;font:800 14px 'Noto Sans Telugu','Outfit',sans-serif;cursor:pointer;border:1px solid var(--line);background:var(--card);color:var(--plum)}
+.bnav button:last-child{background:var(--plum);border-color:var(--plum);color:#FFFDF5}.bnav button:disabled{opacity:.45}
+.bact{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 16px 0}
+.tagbar{display:flex;justify-content:space-between;align-items:center;margin:16px 0 0;padding:12px 18px;background:var(--deep);color:#FFFDF5;font:700 13px 'Outfit','Noto Sans Telugu',sans-serif}
+.tagbar i{font-style:normal;color:var(--ap)}.tagbar a{color:var(--ap);text-decoration:none;font-family:'Noto Sans Telugu','Outfit',sans-serif}
 .m60t{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:10px}
 .m60t h2{margin:0;font-size:20px;font-weight:800;color:var(--plum);line-height:1.4}
 .m60t span{flex:none;font-size:12px;color:var(--muted)}
@@ -150,20 +184,20 @@ nav.bn a.sw{justify-self:center;width:58px;height:58px;margin-top:-26px;border-r
     <div class="hb"><button class="pill s2lang" type="button" aria-label="Language · భాష"><span>తెలుగు</span></button></div>
   </header>
   <div class="greet">
-    <div><div class="d" id="today"></div><h1 id="hello">శుభోదయం</h1><button class="nm" id="nmBtn" type="button"></button><form class="nmf" id="nmForm" hidden><input id="nmIn" maxlength="24" autocomplete="given-name"><button type="submit">✓</button></form></div>
+    <div><div class="d"><span id="today"></span><span id="upd"></span></div><h1 id="hello">శుభోదయం</h1><button class="nm" id="nmBtn" type="button"></button><form class="nmf" id="nmForm" hidden><input id="nmIn" maxlength="24" autocomplete="given-name"><button type="submit">✓</button></form></div>
     <a class="pill" id="area" href="/web/?pick=1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span id="areaTx">తెలంగాణ</span></a>
   </div>
 
   <section class="m60" id="m60" aria-labelledby="m60h">
-    <div class="m60t"><h2 id="m60h">మీ ఉదయం 60 సెకన్లలో</h2><span id="upd"></span></div>
-    <ol class="mlist" id="mlist"><li class="mload">…</li></ol>
-    <div class="macts">
-      <button class="ma ls" type="button" id="mlisten" aria-pressed="false">▶ వినండి</button>
-      <a class="ma rd" href="/?cards=1" id="mread">వార్తలు చదవండి</a>
-      <button class="ma sh" type="button" id="mshare">షేర్</button>
-    </div>
-    <a class="mend" href="/?cards=1" id="mend">ఈ ఉదయానికి ఇంతే · మిగతా వార్తలు స్వైప్ చేయండి →</a>
+    <div class="ustrip" id="ustrip" hidden></div>
+    <button class="lsb" type="button" id="mlisten" aria-pressed="false"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1v-6h3zM3 19a2 2 0 0 0 2 2h1v-6H3z"/></svg><span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span id="ltx">వినండి · ఉదయం బ్రీఫింగ్</span><span class="sq" aria-hidden="true"></span></button>
+    <div class="bhd"><h2 id="m60h">ముఖ్య వార్తలు</h2><span class="bix" id="bix"></span><span class="bsw" id="bsw">స్వైప్ చేయండి →</span></div>
+    <div class="bview" id="bview"><div class="btrack" id="btrack"><div class="bc"><div class="bt"><p class="bnone">…</p></div></div></div></div>
+    <div class="bdots" id="bdots" aria-hidden="true"></div>
+    <div class="bnav"><button type="button" id="bprev">‹ ముందు</button><button type="button" id="bnext">తర్వాత ›</button></div>
+    <div class="bact"><a class="ma rd" href="/?cards=1" id="mread">అన్ని వార్తలు</a><button class="ma sh" type="button" id="mshare">బ్రీఫింగ్ షేర్</button></div>
   </section>
+  <div class="tagbar"><span>Know More<i>.</i> Scroll Less<i>.</i></span><a href="/?cards=1" id="tagmore">మిగతా వార్తలు →</a></div>
 </div>
 
 <nav class="bn" aria-label="Main"><div class="in">
@@ -186,9 +220,9 @@ const sidOf=s=>{if(s._sid)return s._sid;let h=5381;const t=(s.url||'')+'|'+(s.h|
 const P=store.get('prefs',{})||{}; const L=['te','en','hi'].includes(P.lang)?P.lang:'te';
 try{ sessionStorage.setItem('s2n.morningSeen', new Date().toDateString()); }catch(e){}
 const TX={
- te:{hello:['శుభోదయం','శుభ మధ్యాహ్నం','శుభ సాయంత్రం'],friend:'మిత్రమా',addName:'మీ పేరు చేర్చండి ✎',editName:'పేరు మార్చండి ✎',namePh:'మీ పేరు',U:'UNDERSTAND · అర్థం చేసుకోండి',A:'ACT · మీ దగ్గర ఇప్పుడు',V:'VERIFY · ముఖ్య వార్తలు',all:'అన్నీ',bk:'మీ 3 నిమిషాల బ్రీఫింగ్',bh:n=>`ఈరోజు మీకు ముఖ్యమైన ${n} వార్తలు`,mix:(a,b,c)=>[a&&`${a} దేశం`,b&&`${b} తెలంగాణ · ఏపీ`,c&&`${c} మీ జిల్లా`].filter(Boolean).join(' · '),read:'📖 చదవండి',listen:'▶ వినండి',stop:'■ ఆపండి',gov:'ప్రభుత్వం మీ కోసం',govs:'చివరి తేదీలు',days:'రోజులు',today:'ఈరోజే',why:'ఇది ఎందుకు ముఖ్యం:',src:'మూలం',off:'✓ అధికారిక సమాచారం',rep:'● రిపోర్టర్ సమాచారం',news:'● ',go:'వార్తలు స్వైప్ చేయండి →',noact:'మీ ప్రాంతం నుంచి ఇప్పుడు అలర్ట్‌లు లేవు.',H:'హోమ్',N:'నా దగ్గర',Vn:'వెరిఫై',S:'సేవ్డ్',how:'మాకు ఎలా తెలుసు',pub:'అసలు ప్రచురణకర్త',when:'ప్రచురణ · అప్‌డేట్',sum:'సారాంశం',ai:'✦ AI, ఎడిటర్ పరిశీలన',ev:'అసలు కథనం',evs:'మూలం వెబ్‌సైట్‌లో తెరవండి',corr:'సవరణలు',none:'ఇప్పటివరకు లేవు',report:'తప్పు ఉందా? తెలియజేయండి',updated:'అప్‌డేట్',t60:'మీ ఉదయం 60 సెకన్లలో',upd:'అప్‌డేట్',kArea:'మీ ప్రాంతం',kLeave:'బయటకు వెళ్లే ముందు',kTG:'తెలంగాణ',kAP:'ఆంధ్రప్రదేశ్',kIN:'భారత్',kMiss:'మిస్ అవ్వకండి',kMore:'ఇది కూడా ముఖ్యం',last:'చివరి తేదీ',todayLast:'ఈరోజే చివరి తేదీ',ok:'✓',readS:'వార్తలు చదవండి',share:'షేర్',end:'ఈ ఉదయానికి ఇంతే · మిగతా వార్తలు స్వైప్ చేయండి →',none:'ఇంకా ఉదయం వార్తలు రాలేదు. కొద్దిసేపట్లో మళ్లీ చూడండి.',intro:'Swipe2News నుంచి మీ ఉదయం 60 సెకన్లలో. '},
- en:{hello:['Good morning','Good afternoon','Good evening'],friend:'reader',addName:'Add your name ✎',editName:'Change name ✎',namePh:'Your name',U:'UNDERSTAND',A:'ACT · NEAR YOU NOW',V:'VERIFY · TOP STORIES',all:'See all',bk:'YOUR 3-MINUTE BRIEFING',bh:n=>`${n} stories that matter to you today`,mix:(a,b,c)=>[a&&`${a} national`,b&&`${b} Telangana · AP`,c&&`${c} your district`].filter(Boolean).join(' · '),read:'📖 Read',listen:'▶ Listen',stop:'■ Stop',gov:'Government for you',govs:'Deadlines',days:'days',today:'today',why:'Why it matters:',src:'Source',off:'✓ Official notice',rep:'● Reporter update',news:'● ',go:'Swipe the news →',noact:'No alerts from your area right now.',H:'Home',N:'Near me',Vn:'Verify',S:'Saved',how:'How we know this',pub:'Original publisher',when:'Published · Updated',sum:'Summary',ai:'✦ AI, checked by editor',ev:'Original report',evs:'Opens the source website',corr:'Corrections',none:'none so far',report:'Report an error',updated:'updated',t60:'Your Morning in 60 Seconds',upd:'Updated',kArea:'Your area',kLeave:'Before you leave',kTG:'Telangana',kAP:'Andhra Pradesh',kIN:'India',kMiss:'Don\'t miss',kMore:'Also important',last:'Last date',todayLast:'Last date today',ok:'✓',readS:'Read stories',share:'Share',end:'That\'s your morning · swipe for more news →',none:'Morning news is not in yet. Check again shortly.',intro:'Your morning in 60 seconds from Swipe2News. '},
- hi:{hello:['सुप्रभात','नमस्कार','शुभ संध्या'],friend:'दोस्त',addName:'अपना नाम जोड़ें ✎',editName:'नाम बदलें ✎',namePh:'आपका नाम',U:'समझें',A:'करें · आपके पास अभी',V:'जाँचें · मुख्य खबरें',all:'सभी',bk:'आपकी 3 मिनट की ब्रीफ़िंग',bh:n=>`आज आपके लिए ${n} अहम खबरें`,mix:(a,b,c)=>[a&&`${a} देश`,b&&`${b} तेलंगाना · आंध्र`,c&&`${c} आपका ज़िला`].filter(Boolean).join(' · '),read:'📖 पढ़ें',listen:'▶ सुनें',stop:'■ रोकें',gov:'सरकार आपके लिए',govs:'अंतिम तिथियाँ',days:'दिन',today:'आज',why:'यह क्यों अहम है:',src:'स्रोत',off:'✓ आधिकारिक सूचना',rep:'● रिपोर्टर अपडेट',news:'● ',go:'खबरें स्वाइप करें →',noact:'अभी आपके इलाके से कोई अलर्ट नहीं।',H:'होम',N:'आसपास',Vn:'जाँचें',S:'सेव्ड',how:'हमें कैसे पता है',pub:'मूल प्रकाशक',when:'प्रकाशित · अपडेट',sum:'सारांश',ai:'✦ AI, संपादक द्वारा जाँचा',ev:'मूल रिपोर्ट',evs:'स्रोत वेबसाइट पर खोलें',corr:'सुधार',none:'अब तक कोई नहीं',report:'गलती बताएँ',updated:'अपडेट',t60:'60 सेकंड में आपकी सुबह',upd:'अपडेट',kArea:'आपका इलाका',kLeave:'घर से निकलने से पहले',kTG:'तेलंगाना',kAP:'आंध्र प्रदेश',kIN:'भारत',kMiss:'न चूकें',kMore:'यह भी अहम',last:'अंतिम तिथि',todayLast:'आज अंतिम तिथि',ok:'✓',readS:'खबरें पढ़ें',share:'शेयर',end:'आपकी सुबह बस इतनी · और खबरों के लिए स्वाइप करें →',none:'सुबह की खबरें अभी नहीं आईं। थोड़ी देर में देखें।',intro:'Swipe2News से 60 सेकंड में आपकी सुबह। '}}[L];
+ te:{hello:['శుభోదయం','శుభ మధ్యాహ్నం','శుభ సాయంత్రం'],friend:'మిత్రమా',addName:'మీ పేరు చేర్చండి ✎',editName:'పేరు మార్చండి ✎',namePh:'మీ పేరు',U:'UNDERSTAND · అర్థం చేసుకోండి',A:'ACT · మీ దగ్గర ఇప్పుడు',V:'VERIFY · ముఖ్య వార్తలు',all:'అన్నీ',bk:'మీ 3 నిమిషాల బ్రీఫింగ్',bh:n=>`ఈరోజు మీకు ముఖ్యమైన ${n} వార్తలు`,mix:(a,b,c)=>[a&&`${a} దేశం`,b&&`${b} తెలంగాణ · ఏపీ`,c&&`${c} మీ జిల్లా`].filter(Boolean).join(' · '),read:'📖 చదవండి',listen:'▶ వినండి',stop:'■ ఆపండి',gov:'ప్రభుత్వం మీ కోసం',govs:'చివరి తేదీలు',days:'రోజులు',today:'ఈరోజే',why:'ఇది ఎందుకు ముఖ్యం:',src:'మూలం',off:'✓ అధికారిక సమాచారం',rep:'● రిపోర్టర్ సమాచారం',news:'● ',go:'వార్తలు స్వైప్ చేయండి →',noact:'మీ ప్రాంతం నుంచి ఇప్పుడు అలర్ట్‌లు లేవు.',H:'హోమ్',N:'నా దగ్గర',Vn:'వెరిఫై',S:'సేవ్డ్',how:'మాకు ఎలా తెలుసు',pub:'అసలు ప్రచురణకర్త',when:'ప్రచురణ · అప్‌డేట్',sum:'సారాంశం',ai:'✦ AI, ఎడిటర్ పరిశీలన',ev:'అసలు కథనం',evs:'మూలం వెబ్‌సైట్‌లో తెరవండి',corr:'సవరణలు',none:'ఇప్పటివరకు లేవు',report:'తప్పు ఉందా? తెలియజేయండి',updated:'అప్‌డేట్',t60:'మీ ఉదయం 60 సెకన్లలో',upd:'అప్‌డేట్',kArea:'మీ ప్రాంతం',kLeave:'బయటకు వెళ్లే ముందు',kTG:'తెలంగాణ',kAP:'ఆంధ్రప్రదేశ్',kIN:'భారత్',kMiss:'మిస్ అవ్వకండి',kMore:'ఇది కూడా ముఖ్యం',last:'చివరి తేదీ',todayLast:'ఈరోజే చివరి తేదీ',ok:'✓',readS:'వార్తలు చదవండి',share:'షేర్',end:'ఈ ఉదయానికి ఇంతే · మిగతా వార్తలు స్వైప్ చేయండి →',none:'ఇంకా ఉదయం వార్తలు రాలేదు. కొద్దిసేపట్లో మళ్లీ చూడండి.',intro:'Swipe2News నుంచి మీ ఉదయం 60 సెకన్లలో. ',why2:'ఎందుకు ముఖ్యం?',listenB:'వినండి · ఉదయం బ్రీఫింగ్',stop2:'ఆపండి · వింటున్నారు',nextB:'తర్వాత ›',allNews:'అన్ని వార్తలు ›',prevB:'‹ ముందు',top:'ముఖ్య వార్తలు',swipe:'స్వైప్ చేయండి →',allR:'అన్ని వార్తలు',shareB:'బ్రీఫింగ్ షేర్',more:'మిగతా వార్తలు →',wx:'వాతావరణం',petrol:'పెట్రోల్',quintal:'క్వింటాల్'},
+ en:{hello:['Good morning','Good afternoon','Good evening'],friend:'reader',addName:'Add your name ✎',editName:'Change name ✎',namePh:'Your name',U:'UNDERSTAND',A:'ACT · NEAR YOU NOW',V:'VERIFY · TOP STORIES',all:'See all',bk:'YOUR 3-MINUTE BRIEFING',bh:n=>`${n} stories that matter to you today`,mix:(a,b,c)=>[a&&`${a} national`,b&&`${b} Telangana · AP`,c&&`${c} your district`].filter(Boolean).join(' · '),read:'📖 Read',listen:'▶ Listen',stop:'■ Stop',gov:'Government for you',govs:'Deadlines',days:'days',today:'today',why:'Why it matters:',src:'Source',off:'✓ Official notice',rep:'● Reporter update',news:'● ',go:'Swipe the news →',noact:'No alerts from your area right now.',H:'Home',N:'Near me',Vn:'Verify',S:'Saved',how:'How we know this',pub:'Original publisher',when:'Published · Updated',sum:'Summary',ai:'✦ AI, checked by editor',ev:'Original report',evs:'Opens the source website',corr:'Corrections',none:'none so far',report:'Report an error',updated:'updated',t60:'Your Morning in 60 Seconds',upd:'Updated',kArea:'Your area',kLeave:'Before you leave',kTG:'Telangana',kAP:'Andhra Pradesh',kIN:'India',kMiss:'Don\'t miss',kMore:'Also important',last:'Last date',todayLast:'Last date today',ok:'✓',readS:'Read stories',share:'Share',end:'That\'s your morning · swipe for more news →',none:'Morning news is not in yet. Check again shortly.',intro:'Your morning in 60 seconds from Swipe2News. ',why2:'Why it matters?',listenB:'Listen · morning briefing',stop2:'Stop · listening',nextB:'Next ›',allNews:'All news ›',prevB:'‹ Previous',top:'TOP STORIES',swipe:'Swipe →',allR:'All news',shareB:'Share briefing',more:'More news →',wx:'Weather',petrol:'Petrol',quintal:'quintal'},
+ hi:{hello:['सुप्रभात','नमस्कार','शुभ संध्या'],friend:'दोस्त',addName:'अपना नाम जोड़ें ✎',editName:'नाम बदलें ✎',namePh:'आपका नाम',U:'समझें',A:'करें · आपके पास अभी',V:'जाँचें · मुख्य खबरें',all:'सभी',bk:'आपकी 3 मिनट की ब्रीफ़िंग',bh:n=>`आज आपके लिए ${n} अहम खबरें`,mix:(a,b,c)=>[a&&`${a} देश`,b&&`${b} तेलंगाना · आंध्र`,c&&`${c} आपका ज़िला`].filter(Boolean).join(' · '),read:'📖 पढ़ें',listen:'▶ सुनें',stop:'■ रोकें',gov:'सरकार आपके लिए',govs:'अंतिम तिथियाँ',days:'दिन',today:'आज',why:'यह क्यों अहम है:',src:'स्रोत',off:'✓ आधिकारिक सूचना',rep:'● रिपोर्टर अपडेट',news:'● ',go:'खबरें स्वाइप करें →',noact:'अभी आपके इलाके से कोई अलर्ट नहीं।',H:'होम',N:'आसपास',Vn:'जाँचें',S:'सेव्ड',how:'हमें कैसे पता है',pub:'मूल प्रकाशक',when:'प्रकाशित · अपडेट',sum:'सारांश',ai:'✦ AI, संपादक द्वारा जाँचा',ev:'मूल रिपोर्ट',evs:'स्रोत वेबसाइट पर खोलें',corr:'सुधार',none:'अब तक कोई नहीं',report:'गलती बताएँ',updated:'अपडेट',t60:'60 सेकंड में आपकी सुबह',upd:'अपडेट',kArea:'आपका इलाका',kLeave:'घर से निकलने से पहले',kTG:'तेलंगाना',kAP:'आंध्र प्रदेश',kIN:'भारत',kMiss:'न चूकें',kMore:'यह भी अहम',last:'अंतिम तिथि',todayLast:'आज अंतिम तिथि',ok:'✓',readS:'खबरें पढ़ें',share:'शेयर',end:'आपकी सुबह बस इतनी · और खबरों के लिए स्वाइप करें →',none:'सुबह की खबरें अभी नहीं आईं। थोड़ी देर में देखें।',intro:'Swipe2News से 60 सेकंड में आपकी सुबह। ',why2:'क्यों अहम?',listenB:'सुनें · सुबह की ब्रीफ़िंग',stop2:'रोकें · सुन रहे हैं',nextB:'अगली ›',allNews:'सभी खबरें ›',prevB:'‹ पिछली',top:'मुख्य खबरें',swipe:'स्वाइप करें →',allR:'सभी खबरें',shareB:'ब्रीफ़िंग शेयर',more:'और खबरें →',wx:'मौसम',petrol:'पेट्रोल',quintal:'क्विंटल'}}[L];
 const LBL={fact:{te:'✓ వాస్తవం',en:'✓ FACT',hi:'✓ तथ्य'},claim:{te:'వాదన',en:'CLAIM',hi:'दावा'},opinion:{te:'అభిప్రాయం',en:'OPINION',hi:'राय'},misleading:{te:'తప్పుదోవ',en:'MISLEADING',hi:'भ्रामक'}};
 const tr=s=>{const o=Object.assign({},s); const x=s[L]; if(L!=='te'&&x&&typeof x==='object'){ ['h','p','why','cat','statl','pts'].forEach(k=>{ if(x[k]) o[k]=x[k]; }); } return o;};
 const ist=()=>new Date(Date.now()+(330+new Date().getTimezoneOffset())*60000);
@@ -213,13 +247,15 @@ $('nmForm').onsubmit=e=>{ e.preventDefault(); const p=store.get('prefs',{})||{};
   const M={te:['జనవరి','ఫిబ్రవరి','మార్చి','ఏప్రిల్','మే','జూన్','జులై','ఆగస్టు','సెప్టెంబర్','అక్టోబర్','నవంబర్','డిసెంబర్'],en:['January','February','March','April','May','June','July','August','September','October','November','December'],hi:['जनवरी','फ़रवरी','मार्च','अप्रैल','मई','जून','जुलाई','अगस्त','सितंबर','अक्टूबर','नवंबर','दिसंबर']}[L];
   $('today').textContent=`${W[d.getDay()]}, ${d.getDate()} ${M[d.getMonth()]}`;
   $('areaTx').textContent=P.village||placeTx(P.place);
-  $('m60h').textContent=TX.t60; $('mread').textContent=TX.readS; $('mshare').textContent=TX.share; $('mend').textContent=TX.end; $('mlisten').textContent=TX.listen;
+  $('m60h').textContent=TX.top; $('bsw').textContent=TX.swipe; $('bprev').textContent=TX.prevB; $('bnext').textContent=TX.nextB; $('mread').textContent=TX.allR; $('mshare').textContent=TX.shareB; $('tagmore').textContent=TX.more; $('ltx').textContent=TX.listenB;
   $('nH').textContent=TX.H; $('nN').textContent=TX.N; $('nV').textContent=TX.Vn; $('nS').textContent=TX.S; document.documentElement.lang=L; })();
 
 async function getJSON(u){ try{ const r=await fetch(u+'?t='+Date.now(),{cache:'no-store'}); return r.ok?await r.json():null; }catch(e){ return null; } }
 let BRIEF=[];
-/* Your Morning in 60 Seconds (14 Nov 2026): five short updates, reader's district first.
-   Fresh only (last 18 h); a slot with nothing verified gets other useful news, never stale items. */
+/* Morning briefing v2 (14 Nov 2026): utility strip + five swipeable story cards, reader's district first.
+   Fresh only (last 18 h); an empty slot gets other fresh useful news, never stale items. Only real data in the strip. */
+const DHQ={hyderabad:[17.385,78.487],rangareddy:[17.21,78.56],medchal:[17.63,78.48],adilabad:[19.67,78.53],bhadradri:[17.55,80.62],hanumakonda:[18.01,79.56],jagtial:[18.79,78.91],jangaon:[17.72,79.15],bhupalpally:[18.43,79.86],gadwal:[16.23,77.80],kamareddy:[18.32,78.34],karimnagar:[18.44,79.13],khammam:[17.25,80.15],asifabad:[19.36,79.28],mahabubabad:[17.60,80.00],mahabubnagar:[16.74,78.00],mancherial:[18.87,79.46],medak:[18.05,78.26],mulugu:[18.19,79.94],nagarkurnool:[16.48,78.31],nalgonda:[17.05,79.27],narayanpet:[16.74,77.50],nirmal:[19.10,78.34],nizamabad:[18.67,78.09],peddapalli:[18.61,79.38],sircilla:[18.39,78.81],sangareddy:[17.62,78.09],siddipet:[18.10,78.85],suryapet:[17.14,79.62],vikarabad:[17.34,77.90],wanaparthy:[16.36,78.06],warangal:[17.97,79.59],yadadri:[17.51,78.89],
+ 'ap-srikakulam':[18.30,83.90],'ap-manyam':[18.78,83.43],'ap-vizianagaram':[18.11,83.40],'ap-visakhapatnam':[17.69,83.22],'ap-asr':[18.08,82.67],'ap-anakapalli':[17.69,83.00],'ap-kakinada':[16.99,82.25],'ap-eastgodavari':[17.00,81.80],'ap-konaseema':[16.58,82.01],'ap-eluru':[16.71,81.10],'ap-westgodavari':[16.54,81.52],'ap-ntr':[16.51,80.65],'ap-krishna':[16.19,81.14],'ap-palnadu':[16.24,80.05],'ap-guntur':[16.31,80.44],'ap-bapatla':[15.90,80.47],'ap-prakasam':[15.50,80.05],'ap-nellore':[14.44,79.99],'ap-kurnool':[15.83,78.04],'ap-nandyal':[15.48,78.48],'ap-anantapur':[14.68,77.60],'ap-sathyasai':[14.17,77.81],'ap-kadapa':[14.47,78.82],'ap-annamayya':[14.06,78.75],'ap-tirupati':[13.63,79.42],'ap-chittoor':[13.22,79.10]};
 (async function(){
   const [news,jobs]=await Promise.all([getJSON('/news.json'),getJSON('/jobs.json')]);
   const raw=((news&&news.stories)||[]).filter(s=>!s.wd); raw.forEach(s=>s._id=sidOf(s)); raw.sort((a,b)=>tsOf(b)-tsOf(a));
@@ -227,49 +263,67 @@ let BRIEF=[];
   const local=k=>!!k&&!['TS','TG','AP','IN'].includes(k);
   const fresh=S.filter(s=>Date.now()-tsOf(s)<18*3600e3);
   const used=new Set(), take=s=>{ if(s) used.add(s); return s; }, free=s=>!used.has(s);
-  const one=s=>{ const t=String(s.why||s.p||'').trim(); const m=t.match(/^.+?[.!?।](\s|$)/); let x=(m?m[0]:t).trim(); if(x.length>150) x=x.slice(0,147).replace(/\s+\S*$/,'')+'…'; return x; };
   const civic=/విద్యుత్|కరెంట్|పవర్|నీటి సరఫరా|తాగునీ|వర్ష|తుపాను|అల్పపీడన|రోడ్డు మూసి|ట్రాఫిక్|మళ్లింపు|వాతావరణ|పొగమంచు|వరద|హెచ్చరిక|power cut|electric|water supply|rain|cyclone|traffic|diversion|weather|flood|fog|alert/i;
   const txtOf=s=>(s.cat||'')+' '+(s.h||'')+' '+((s.en&&s.en.cat)||'')+' '+((s.en&&s.en.h)||'');
   const isCivic=s=>['power','water','rain'].includes(s.art)||civic.test(txtOf(s));
   const political=s=>s.lbl==='claim'||s.lbl==='opinion'||/విమర్శ|ఆరోపణ|ఎదురుదాడి|slams|alleges|attacks|criticis/i.test(txtOf(s));
   const items=[];
-  // 1. Your area
   const a1=fresh.find(s=>local(me)&&s.place===me)||fresh.find(s=>s.st===myST&&local(s.place)&&s.lbl!=='opinion');
   items.push({k:a1?TX.kArea+' · '+placeName(a1.place):TX.kArea,s:take(a1)});
-  // 2. Before you leave: verified alerts only
   const a2=fresh.filter(free).filter(s=>isCivic(s)&&s.lbl==='fact'&&(s.st===myST||s.st==='IN')).sort((x,y)=>((y.place===me)-(x.place===me))||((y.st===myST)-(x.st===myST)))[0];
   items.push(a2?{k:TX.kLeave,s:take(a2)}:{k:TX.kMore,s:take(fresh.find(s=>free(s)&&s.st===myST&&s.lbl==='fact'))});
-  // 3. State
   items.push({k:myAP?TX.kAP:TX.kTG,s:take(fresh.filter(free).find(s=>s.st===myST&&(s.brk||s.lbl==='fact'))||fresh.find(s=>free(s)&&s.st===myST))});
-  // 4. India: a development, not a political statement
   const inF=s=>s.st==='IN'||(Array.isArray(s.sec)&&s.sec.includes('india'));
   items.push({k:TX.kIN,s:take(fresh.filter(free).find(s=>inF(s)&&!political(s))||fresh.find(s=>free(s)&&inF(s)))});
-  // 5. Don't miss: nearest application deadline (official link), else exam/announcement news
   const dl=j=>{const m=/^(\d\d)\.(\d\d)\.(\d{4})$/.exec(j.last||'');if(!m)return null;return Math.floor((Date.parse(`${m[3]}-${m[2]}-${m[1]}T23:59:59+05:30`)-Date.now())/864e5)};
   const homeJ=j=>j.place===myST||(myST==='TG'&&j.place==='TS')?1:0;
   const J=((jobs&&jobs.jobs)||[]).map(j=>[L!=='te'&&j[L]?Object.assign({},j,j[L]):j,dl(j)]).filter(x=>x[1]!==null&&x[1]>=0&&x[1]<=7).sort((x,y)=>(homeJ(y[0])-homeJ(x[0]))||(x[1]-y[1]));
   const exam=/పరీక్ష|దరఖాస్తు|గడువు|హాల్ టికెట్|నోటిఫికేషన్|ఫలితాలు|exam|deadline|application|admit card|notification|results/i;
   if(J.length) items.push({k:TX.kMiss,job:J[0][0],days:J[0][1]});
   else items.push({k:TX.kMiss,s:take(fresh.find(s=>free(s)&&exam.test(txtOf(s))))});
-  // an empty slot gets other fresh useful news, never stale items
   items.forEach(it=>{ if(!it.s&&!it.job){ const f=fresh.find(s=>free(s)&&s.lbl!=='opinion'); if(f){ it.s=take(f); it.k=TX.kMore; } } });
-  const ok=items.filter(it=>it.s||it.job);
-  BRIEF=ok;
-  // the real update time: when the newsroom last published
+  const ok=items.filter(it=>it.s||it.job); BRIEF=ok;
   const up=Date.parse((news&&news.updated)||'')||(raw[0]?tsOf(raw[0]):0);
-  if(up){ const d=new Date(up+(330+new Date().getTimezoneOffset())*60000); $('upd').textContent=TX.upd+' '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')+' IST'; }
-  if(!ok.length){ $('mlist').innerHTML=`<li class="mnone">${esc(TX.none)}</li>`; return; }
-  $('mlist').innerHTML=ok.map((it,i)=>{
+  if(up){ const d=new Date(up+(330+new Date().getTimezoneOffset())*60000); $('upd').textContent=' · '+TX.upd+' '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')+' IST'; }
+  if(!ok.length){ $('btrack').innerHTML=`<div class="bc"><div class="bt"><p class="bnone">${esc(TX.none)}</p></div></div>`; return; }
+  const sent=t=>{ const m=String(t||'').trim().match(/^.+?[.!?।](\s|$)/); return (m?m[0]:String(t||'')).trim(); };
+  $('btrack').innerHTML=ok.map((it,i)=>{
     if(it.job){ const j=it.job, href=/^https?:/.test(j.apply||'')?j.apply:(j.url||'#'), host=((/^https?:\/\/(?:www\.)?([^/]+)/.exec(href)||[])[1])||j.src||'';
-      return `<li class="mi"><a href="${esc(href)}" target="_blank" rel="noopener"><span class="no">${i+1}</span><span class="bd"><span class="k">${esc(it.k)}</span><h3>${esc(j.h)}</h3><p>${esc(it.days===0?TX.todayLast:TX.last+': '+j.last)}${j.how?' · '+esc(j.how):''}</p><span class="sr">${esc(j.org||'')} · ${esc(host)} ↗</span></span></a></li>`; }
-    const s=it.s; return `<li class="mi"><a href="/?cards=1&s=${s._id}"><span class="no">${i+1}</span><span class="bd"><span class="k">${esc(it.k)}</span><h3>${esc(s.h)}</h3><p>${esc(one(s))}</p><span class="sr">${s.lbl==='fact'?`<b>${esc(LBL.fact[L])}</b> · `:''}${esc(s.src||'')} · ${esc(hm(s))}</span></span></a></li>`; }).join('');
-  const firstS=ok.find(it=>it.s); if(firstS) $('mread').href='/?cards=1&s='+firstS.s._id;
-  const sec=store.get('m60sec',0); if(sec) $('mlisten').textContent=TX.listen+' '+Math.floor(sec/60)+':'+String(sec%60).padStart(2,'0');
+      const pts=[it.days===0?TX.todayLast:TX.last+': '+j.last, j.how, j.pay&&('💰 '+j.pay)].filter(Boolean).slice(0,3);
+      return `<article class="bc" data-i="${i}"><a class="bv" href="${esc(href)}" target="_blank" rel="noopener"><span class="tg">${esc(it.k)}</span><span class="st">${esc(j.posts?j.posts+' '+(j.statl||''):(j.org||''))}</span></a><div class="bt"><a class="hd" href="${esc(href)}" target="_blank" rel="noopener">${esc(j.h)}</a><ul>${pts.map(p=>`<li>${esc(p)}</li>`).join('')}</ul><div class="mt"><span>${esc(j.org||'')} · ${esc(host)} ↗</span></div></div></article>`; }
+    const s=it.s; let pts=(Array.isArray(s.pts)?s.pts:[]).filter(Boolean).slice(0,3); if(pts.length<3){ const f=sent(s.p); if(f&&!pts.includes(f)) pts.unshift(f); } pts=pts.slice(0,3);
+    const tag=it.k+((s.cat||'').includes('·')?' · '+(s.cat.split('·').pop().trim()):'');
+    return `<article class="bc" data-i="${i}"><a class="bv" href="/?cards=1&s=${s._id}"><span class="tg">${esc(tag)}</span><span class="st">${esc(s.stat||'')}</span>${s.statl?`<span class="sl">${esc(s.statl)}</span>`:''}</a><div class="bt"><a class="hd" href="/?cards=1&s=${s._id}">${esc(s.h)}</a><ul>${pts.map(p=>`<li>${esc(p)}</li>`).join('')}</ul><div class="mt"><span>${s.lbl==='fact'?`<b>${esc(LBL.fact[L])}</b> · `:''}${esc(s.src||'')} · ${esc(hm(s))}</span>${s.why?`<button class="wy" type="button" aria-expanded="false">${esc(TX.why2)}</button>`:''}</div>${s.why?`<p class="wyt" hidden>${esc(s.why)}</p>`:''}</div></article>`; }).join('');
+  $('bdots').innerHTML=ok.map((_,i)=>`<span></span>`).join('');
+  go(0);
+  const sec=store.get('m60sec',0); if(sec) $('ltx').textContent=TX.listenB+' · '+Math.floor(sec/60)+':'+String(sec%60).padStart(2,'0');
   window.__S=S;
 })();
-/* keep the reader's place when they come back from a full story */
-document.addEventListener('click',e=>{ if(e.target.closest('.mi a')) try{ sessionStorage.setItem('s2n.m60y',String(scrollY)); }catch(_){} });
-addEventListener('pageshow',()=>{ try{ const y=+sessionStorage.getItem('s2n.m60y'); if(y) setTimeout(()=>scrollTo(0,y),60); }catch(_){} });
+/* cards: swipe, dots, previous / next */
+let BI=0;
+function go(i){ const n=BRIEF.length; if(!n) return; BI=Math.max(0,Math.min(n-1,i)); $('btrack').style.transform=`translateX(${-BI*100}%)`;
+  $('bix').textContent=(BI+1)+'/'+n; [...$('bdots').children].forEach((d,k)=>d.classList.toggle('on',k===BI));
+  $('bprev').disabled=BI===0; $('bnext').textContent=BI===n-1?TX.allNews:TX.nextB; try{ sessionStorage.setItem('s2n.bi',String(BI)); }catch(_){} }
+$('bprev').onclick=()=>go(BI-1);
+$('bnext').onclick=()=>{ if(BI===BRIEF.length-1){ location.href='/?cards=1'; return; } go(BI+1); };
+(()=>{ let x0=null,y0=0; const v=$('bview');
+  v.addEventListener('touchstart',e=>{ x0=e.touches[0].clientX; y0=e.touches[0].clientY; },{passive:true});
+  v.addEventListener('touchend',e=>{ if(x0===null) return; const dx=e.changedTouches[0].clientX-x0, dy=e.changedTouches[0].clientY-y0; x0=null; if(Math.abs(dx)>45&&Math.abs(dx)>Math.abs(dy)) go(BI+(dx<0?1:-1)); },{passive:true});
+  v.addEventListener('click',e=>{ const b=e.target.closest('.wy'); if(!b) return; const t=b.closest('.bt').querySelector('.wyt'); const o=t.hidden; t.hidden=!o; b.setAttribute('aria-expanded',String(o)); });
+})();
+addEventListener('pageshow',()=>{ try{ const i=+sessionStorage.getItem('s2n.bi'); if(i) setTimeout(()=>go(i),80); }catch(_){} });
+/* utility strip: real data only (weather from Open-Meteo for the reader's district, fuel + mandi from mandi.json) */
+(async function(){
+  const strip=$('ustrip'), chip=(lab,val,sub,cls)=>`<div class="uc${cls?' '+cls:''}"><small>${esc(lab)}</small><b>${esc(val)}</b><small>${esc(sub)}</small></div>`; const out={};
+  const pk=DHQ[P.place]?P.place:(/^ap-/.test(P.place||'')||P.place==='AP'?'ap-ntr':'hyderabad'), c=DHQ[pk];
+  const wx=(async()=>{ try{ const r=await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${c[0]}&longitude=${c[1]}&current=temperature_2m,weather_code&daily=temperature_2m_max,temperature_2m_min&timezone=Asia%2FKolkata&forecast_days=1`); if(!r.ok) return; const d=await r.json();
+      const w=d.current.weather_code, ic=w===0?'☀️':w<=3?'⛅':w<=48?'🌫️':w<=67?'🌧️':w<=82?'🌦️':'⛈️';
+      out.w=chip(TX.wx+' · '+placeName(pk),`${ic} ${Math.round(d.current.temperature_2m)}°`,`${Math.round(d.daily.temperature_2m_min[0])}° / ${Math.round(d.daily.temperature_2m_max[0])}° · Open-Meteo`); }catch(e){} })();
+  const md=(async()=>{ try{ const M=window.S2Mandi; if(!M) return; const d=await M.load(); const f=M.fuel(d,P.place||'');
+      if(f) out.f=chip(TX.petrol+' · '+M.placeName(f.place,L),M.rs(f.petrol),M.dmy(f.date,L));
+      const m=M.pick(d,P.place||'',1); const r=m.rows&&m.rows[0]; if(r) out.m=`<a class="uc um" href="/mandi/"><small>${esc(M.cropName(r.crop,L))} · ${esc(r.mkt)}</small><b>${esc(M.inr(r.modal))}</b><small>${esc(M.dmy(r.date,L))} · ${esc(TX.quintal)}</small></a>`; }catch(e){} })();
+  await Promise.all([wx,md]); const h=[out.w,out.f,out.m].filter(Boolean).join(''); if(h){ strip.innerHTML=h; strip.hidden=false; }
+})();
 /* share the whole briefing as one link */
 $('mshare').onclick=async()=>{ const url='https://swipe2news.com/morning/';
   const txt=`*${TX.t60}* · Swipe2News\n`+BRIEF.map((it,i)=>`${i+1}. ${it.k}: ${(it.s||it.job).h}`).join('\n')+`\n\n${url}`;
@@ -290,17 +344,21 @@ function openHow(s){ const k=LBL[s.lbl]?s.lbl:'';
   $('how').hidden=false; }
 $('how').onclick=e=>{ if(e.target===$('how')) $('how').hidden=true; };
 
-/* Listen: one audio track for the whole briefing; its real length is remembered after the first play */
-let t0=0;
-const lenTx=()=>{ const s=store.get('m60sec',0); return s?' '+Math.floor(s/60)+':'+String(s%60).padStart(2,'0'):''; };
-$('mlisten').onclick=()=>{ const sy=window.speechSynthesis, b=$('mlisten'); if(!sy) return;
-  if(b.getAttribute('aria-pressed')==='true'){ sy.cancel(); t0=0; b.setAttribute('aria-pressed','false'); b.textContent=TX.listen+lenTx(); return; }
-  const u=new SpeechSynthesisUtterance(TX.intro+BRIEF.map((it,i)=>{ const x=it.s||it.job; return `${i+1}. ${it.k}. ${x.h}. ${it.job?(it.days===0?TX.todayLast:TX.last+' '+x.last):(String(x.why||x.p||'').split(/(?<=[.!?।])\s/)[0]||'')}`; }).join(' '));
-  u.lang={te:'te-IN',en:'en-IN',hi:'hi-IN'}[L]; u.rate=1; const v=sy.getVoices().find(v=>v.lang.replace('_','-').toLowerCase().startsWith(u.lang.slice(0,2))); if(v) u.voice=v;
-  u.onstart=()=>{ t0=Date.now(); };
-  u.onend=()=>{ if(t0){ const s=Math.round((Date.now()-t0)/1000); if(s>5) store.set('m60sec',s); } t0=0; b.setAttribute('aria-pressed','false'); b.textContent=TX.listen+lenTx(); };
-  u.onerror=()=>{ t0=0; b.setAttribute('aria-pressed','false'); b.textContent=TX.listen; };
-  sy.cancel(); sy.speak(u); b.setAttribute('aria-pressed','true'); b.textContent=TX.stop; };
+/* Listen: one track for the whole briefing, story by story; the card being read is shown; real length remembered */
+let LS=null;
+const lenTx=()=>{ const s=store.get('m60sec',0); return s?' · '+Math.floor(s/60)+':'+String(s%60).padStart(2,'0'):''; };
+function lsOff(){ const b=$('mlisten'); b.classList.remove('on'); b.setAttribute('aria-pressed','false'); $('ltx').textContent=TX.listenB+lenTx(); LS=null; }
+$('mlisten').onclick=()=>{ const sy=window.speechSynthesis, b=$('mlisten'); if(!sy||!BRIEF.length) return;
+  if(LS){ LS.stop=1; sy.cancel(); lsOff(); return; }
+  const st={stop:0,t0:Date.now()}; LS=st; b.classList.add('on'); b.setAttribute('aria-pressed','true'); $('ltx').textContent=TX.stop2;
+  const lang={te:'te-IN',en:'en-IN',hi:'hi-IN'}[L], v=sy.getVoices().find(v=>v.lang.replace('_','-').toLowerCase().startsWith(lang.slice(0,2)));
+  const parts=BRIEF.map((it,i)=>{ const x=it.s||it.job; return (i?'':TX.intro)+`${i+1}. ${it.k}. ${x.h}. `+(it.job?(it.days===0?TX.todayLast:TX.last+' '+x.last):(String(x.why||x.p||'').split(/(?<=[.!?।])\s/)[0]||'')); });
+  sy.cancel();
+  parts.forEach((t,i)=>{ const u=new SpeechSynthesisUtterance(t); u.lang=lang; u.rate=1; if(v) u.voice=v;
+    u.onstart=()=>{ if(!st.stop) go(i); };
+    if(i===parts.length-1) u.onend=()=>{ if(st.stop) return; const s=Math.round((Date.now()-st.t0)/1000); if(s>5) store.set('m60sec',s); lsOff(); };
+    u.onerror=()=>{ if(!st.stop&&LS===st) lsOff(); };
+    sy.speak(u); }); };
 </script>
 <script src="/web/s2n.js?v=3" defer></script>
 </body>
