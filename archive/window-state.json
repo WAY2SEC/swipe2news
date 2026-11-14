@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-14T11:05:00+05:30",
+ "cutoff": "2026-11-14T11:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T18:35:00+05:30/2026-11-10T19:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 2,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 2,
-   "gaps": "Search-first; WebFetch via sub-agent. Searches mostly returned listing/tag pages. Eenadu article pages blocked (robots) so their times could not be verified; Sakshi, Andhra Jyothy, ETV Bharat, TV9, V6, Reuters/BBC articles not surfaced. Deccan Chronicle AP items found were older than lookback. No AP, other-state or national item in range."
-  },
   {
    "window": "2026-11-10T19:05:00+05:30/2026-11-10T19:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "11:05 run started 11:06 IST. Lookback from 02:35 14 Nov. Read: Siasat UAE Fujairah crash 3577034 (10:35, published, fact, sensitive - no victim names), Gulf News Fujairah (no pub time; duplicate), ap7am Rahul gig scheme (08:54, upcoming launch; duplicate of published Rahul update), Avenue Mail Rahul arrival (10:30; duplicate), TT gig law 32-week (13 Nov 22:52; duplicate), Siasat Telangana listing (no timestamps). Not reached: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; India/world/district searches stale. Districts searched: Siddipet, Medak, Jangaon, Mahabubnagar, Wanaparthy, Nagarkurnool, Gadwal, Visakhapatnam, Prakasam, Eluru, Krishna, Kadapa, Tirupati, Sathya Sai."
+  },
+  {
+   "window": "2026-11-14T11:05:00+05:30/2026-11-14T11:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 3,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 0,
+   "review": 1,
+   "gaps": "11:35 run started 11:36 IST. Lookback from 03:05 14 Nov. Read: TT Congress hits back at BRS (11:18, claim), DC/ANI cyclone threat 2004332 (11:33, update, fact), Sakshi Post cold 483223 (09:44, late-found, fact), Hans India Bharat Summit 1141968 (05:50, duplicate of summit coverage), ETV TG live blog (already seen; US flights restored item duplicate of US flights story), Siasat Hyderabad listing (no timestamps), AA Morning Briefing 4124855 (date only, review). Not reached: Eenadu, Sakshi Telugu, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; district searches stale. Districts searched: Khammam, Sangareddy, Kamareddy, Nirmal, Mancherial, Peddapalli, Kakinada, NTR, Srikakulam, Vizianagaram, Nandyal, Annamayya."
   }
  ],
  "seen": [
@@ -2158,6 +2158,31 @@
    "url": "https://telanganatoday.com/rahul-gandhi-to-launch-gig-workers-legislation-after-32-week-delay",
    "d": "2026-11-14",
    "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/congress-hits-back-at-brs-over-criticism-of-rahul-gandhi-revanth-government",
+   "d": "2026-11-14",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-coast-braces-for-heavy-rains-as-cyclone-threat-builds-over-bay-of-bengal-2004332",
+   "d": "2026-11-14",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.sakshipost.com/news/telangana/telangana-weather-hyderabad-records-temperatures-below-16-c-483223",
+   "d": "2026-11-14",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/democratic-values-economic-inequalities-will-be-in-focus-1141968",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855",
+   "d": "2026-11-14",
+   "w": "review"
   }
  ]
 }
