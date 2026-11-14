@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-14T15:05:00+05:30",
+ "cutoff": "2026-11-14T15:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T22:05:00+05:30/2026-11-10T22:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 3,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agent. Searches mostly returned listing/tag pages with relative times only. No in-window (22:05-22:35) article surfaced. Eenadu, Sakshi, Andhra Jyothy, ETV Bharat, TV9, V6, NTV, Namasthe Telangana, Reuters/BBC/AP articles not surfaced; no national, other-state or international item verified in range. Already published: AP cabinet, SC digital-arrest, Sadar mela, Lakdikapul one-way. Older than lookback: Hans Naidu fires (06:50), Hans local-poll (04:12), Siasat HC US jurisdiction (13:16), DC CP Brown (12:38), Hans GHMC sanitation (05:34), Hans Palnadu health (06:47), Pioneer one-way (07:48)."
-  },
   {
    "window": "2026-11-10T22:35:00+05:30/2026-11-10T23:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 2,
    "gaps": "15:05 run started 15:05 IST. Lookback from 06:35 14 Nov. Read: ANI Harish Rao open letter (11:01, late-found, published, claim), ANI BJP defends visa denials (08:55; duplicate of visa-row story), Hans India Kurnool GP polls 1141967 (05:50; skipped, before lookback), Telangana Today Kadem dam (9 Nov; skipped, old). Review (fetch blocked, time unverified): TT Kothagudem Maoist surrenders, TT four construction projects closure. TT Telegram, Siasat, Tribune, TNM listings had no new datable items. Not reached: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; standard India/world/district searches stale. Districts searched: Karimnagar, Mahabubnagar, Sangareddy, Medak, Adilabad, Nirmal, Mancherial, Kamareddy, Kurnool, Nellore, Kadapa, Srikakulam, Anantapur, Prakasam, Eluru, NTR."
+  },
+  {
+   "window": "2026-11-14T15:05:00+05:30/2026-11-14T15:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 0,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "15:35 run started 15:36 IST. Lookback from 07:05 14 Nov. Read: Sambad English well-marked low 12808254 (10:01; duplicate of DC 11:33 cyclone update), Prameya Akvan Gopalpur-Visakhapatnam (07:33; duplicate of cyclone story), Telangana Today BRS challenges Rahul (10:30; duplicate of Harish Rao open letter). Cricinfo U19 final not fetched (match in progress). Not reached: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; standard TG/AP/India/world/district searches stale. Districts searched: Siddipet, Nizamabad, Guntur, Kakinada, Nalgonda, Vizianagaram, Wanaparthy, Gadwal, Nagarkurnool, Karimnagar, Warangal, Khammam."
   }
  ],
  "seen": [
@@ -2358,6 +2358,21 @@
    "url": "https://telanganatoday.com/four-construction-projects-in-hyderabad-ranga-reddy-face-closure-over-environmental-violations",
    "d": "2026-11-14",
    "w": "review"
+  },
+  {
+   "url": "https://sambadenglish.com/latest-news/low-pressure-over-bay-of-bengal-becomes-well-marked-to-intensify-into-cyclonic-storm-around-nov-16-12808254",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.prameyanews.com/cyclone-akvan-may-hit-between-gopalpur-and-visakhapatnam-farmers-on-alert",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/brs-challenges-rahul-gandhi-to-question-revanth-over-unfulfilled-poll-promises",
+   "d": "2026-11-14",
+   "w": "duplicate"
   }
  ]
 }
