@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="te">
+<html lang="te" data-theme="light">
 <head>
 <meta name="google-adsense-account" content="ca-pub-5189488674224327"><script async src="https://www.googletagmanager.com/gtag/js?id=G-2179H3TXWP"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());
 /* How people open Swipe2News (for counting installs): android_app = the APK / Play app, home_screen = added to home screen, browser = website */
@@ -694,9 +694,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
       <h2>మీకు నచ్చిన విభాగాలు</h2>
       <p class="sub">Pick your topics – ఇవి పైన ట్యాబ్‌లుగా కనిపిస్తాయి.</p>
       <div class="grid" id="topics"></div>
-      <h2>థీమ్</h2>
-      <p class="sub">Theme – లైట్ (Editorial White) లేదా డార్క్ (Midnight Pro).</p>
-      <div class="grid three" id="themes" role="radiogroup" aria-label="థీమ్"></div>
+      <div class="grid three" id="themes" hidden role="radiogroup" aria-label="థీమ్"></div>
       <div class="sndrow"><div><b>📖 కార్డు పూర్తిగా చూపించు</b><small>చదువుతున్నప్పుడు పైన, కింది బటన్లు దాగిపోతాయి · కార్డుపై ఒకసారి తాకితే మళ్లీ వస్తాయి</small></div><button class="btn" type="button" id="fsToggle" aria-pressed="true" style="min-width:84px">ఆన్</button></div>
       <div class="sndrow"><div><b>💧 కార్డ్ తిప్పే శబ్దం</b><small>స్వైప్ చేసినప్పుడు చిన్న "పాప్" శబ్దం</small></div><button class="btn" type="button" id="sndToggle" aria-pressed="true" style="min-width:84px">ఆన్</button></div>
       <button class="btn" id="tipOpen1" type="button" style="width:100%;margin-bottom:14px">📝 మీ ఊరి వార్త పంపండి</button>
@@ -747,7 +745,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
       <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
       <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
-      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 6.4 · Swipe2News</p>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 6.5 · Swipe2News</p>
     </div></div>
   </section>
   <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">
@@ -811,7 +809,7 @@ const CONFIG = {
   APP_LINK: 'https://swipe2news.com/',
   TIP_WHATSAPP: '917032656422',
   // Swipe2News promo flyer shown as its own card after every few stories. Set on:false to switch it off.
-  PROMO: {on:true, every:5, img:'promo/swipe2news-promo.jpg'},
+  PROMO: {on:true, every:15, img:'promo/swipe2news-promo.jpg'},
   // Smart space: when a card has empty room under the story, show a banner there (never shrinks the news).
   // ADS = paid ads (shown first, only in their districts): {id, places:['yadadri',...] or [] for all, until:'2026-12-31', icon:'🏥', t:'Title', s:'Line', cta:'Call', link:'tel:...' or 'https://...', img:'promo/ads/x.jpg' (optional logo)}
   SPACE: {on:true, ADS:[], HOUSE:['ads','reporter','jobs','epaper','share']},
@@ -946,7 +944,7 @@ const firstRun = !prefs;
 prefs = prefs || {place:'TS', topics:DEFAULT_TOPICS.slice()};
 if(!Array.isArray(prefs.topics)) prefs.topics=DEFAULT_TOPICS.slice(); if(!prefs.place) prefs.place='TS'; // a story page may have saved only the language
 { const ql=new URLSearchParams(location.search).get('l'); if(/^(te|en|hi)$/.test(ql||'')) prefs.lang=ql; }
-prefs.theme = prefs.theme || 'auto';
+prefs.theme = 'light'; /* only Editorial White (14 Nov 2026) */
 let saved = store.get('saved', []);
 setJobs(store.get('jobs',[]));
 let section = 'all', view = 'home';
@@ -966,7 +964,7 @@ const esc = s => String(s||'').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;',
 const keyOf = s => (s.url||'')+'|'+(s.h||'');
 $('joinLink').href = CONFIG.CHANNEL;
 
-function applyTheme(){ const r=document.documentElement; if(prefs.theme==='auto') r.removeAttribute('data-theme'); else r.setAttribute('data-theme',prefs.theme); }
+function applyTheme(){ prefs.theme='light'; document.documentElement.setAttribute('data-theme','light'); }
 applyTheme();
 function toast(t){const el=$('toast');el.textContent=t;el.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>el.classList.remove('on'),t.length>40?4000:1800)}
 
@@ -1107,7 +1105,7 @@ function warmOffline(){ try{ if(!navigator.serviceWorker||!navigator.serviceWork
   navigator.serviceWorker.controller.postMessage({type:'warm',urls}); }catch(e){} }
 function withMandi(list){ if(view!=='home'||section!=='all'||list.length<4) return list; const mi=mandiItem(); if(!mi) return list; const o=list.slice(); o.splice(3,0,mi); return o; }
 function withHouse(list){ const C=CONFIG.SPACE; if(!C||!C.on||view!=='home') return list; const house=(C.HOUSE||[]).filter(k=>SPACE_TX[k]&&!(k==='jobs'&&spaceJobsN()<3)); if(!house.length) return list;
-  const o=[]; let n=0; list.forEach((x,i)=>{ o.push(x); if((i+1)%8===6) o.push({kind:'house',k:house[(n++)%house.length],h:'Swipe2News',p:'',url:'https://swipe2news.com/',src:'Swipe2News',d:''}); }); return o; }
+  const o=[]; let n=0; let k=0; list.forEach((x,i)=>{ o.push(x); if(!x.kind && ++k%20===0) o.push({kind:'house',k:house[(n++)%house.length],h:'Swipe2News',p:'',url:'https://swipe2news.com/',src:'Swipe2News',d:''}); }); return o; }
 function houseHTML(s,i){ const c=SPACE_TX[s.k], L=LG(), x=c[L]||c.te, link=c.link(), ext=/^https?:|^tel:/.test(link)?' target="_blank" rel="noopener"':'';
   return `<article class="story s2n house" aria-label="Swipe2News" style="--hg:${c.g};--ha:${c.ac}"><div class="hwrap"><span class="hic">${c.ic}</span><b class="ht">${esc(x[0].replace('{n}',spaceJobsN()))}</b><span class="hs">${esc(x[1])}</span><a class="hcta" data-sk="${esc(s.k)}" href="${esc(link)}"${ext}>${esc(x[2])} →</a><span class="hb"><img src="icon-192.png" alt="">swipe2news<i>.</i></span></div>${footHTML()}</article>`; }
 /* location card (14 Nov 2026): after ~10 stories, only while no district is chosen; the phone finds the nearest district itself */
@@ -1144,7 +1142,7 @@ function withPromos(list){ list=withLocAsk(withHouse(withMandi(list)));
   const G=CONFIG.GREETING; let gr=null;
   if(G && Date.now()<new Date(G.until).getTime() && view!=='saved' && view!=='jobs') gr={kind:'promo', greet:1, img:G.img, h:'దీపావళి శుభాకాంక్షలు – Swipe2News', p:'', url:G.page, src:'Swipe2News', d:''};
   const P=CONFIG.PROMO; if(!P||!P.on||view==='saved'||view==='jobs'||list.length<P.every) return gr?[gr].concat(list):list;
-  const out=gr?[gr]:[]; list.forEach((s,i)=>{ out.push(s); if((i+1)%P.every===0) out.push(promoItem(i)); }); return out;
+  const out=gr?[gr]:[]; let k=0; list.forEach((s,i)=>{ out.push(s); if(!s.kind && ++k%P.every===0 && k%20) out.push(promoItem(i)); }); return out;
 }
 function promoHTML(s,i){
   if(!s.greet) return `<article class="story s2n promo2" aria-label="Swipe2News – మీ ఊరి వార్తలు ఇప్పుడే మీ చేతిలో!">
@@ -1853,7 +1851,7 @@ $('places').addEventListener('click',e=>{const b=e.target.closest('.opt');if(!b)
 $('topics').addEventListener('click',e=>{const b=e.target.closest('.opt');if(!b)return;const k=b.dataset.k;draft.topics=draft.topics.includes(k)?draft.topics.filter(x=>x!==k):draft.topics.concat(k);drawTopics()});
 $('themes').addEventListener('click',e=>{const b=e.target.closest('.opt');if(!b)return;draft.theme=b.dataset.k;drawThemes();prefs.theme=draft.theme;applyTheme()});
 $('save').onclick=()=>{const lc=(prefs.lang||'te')!==(draft.lang||'te');prefs=draft;store.set('prefs',prefs);if(lc){ setJobs(store.get('jobs',[])); cardCache={k:null,blob:null,p:null}; document.documentElement.lang=LG(); }if(pushOK) OneSignalDeferred.push(tagUser);applyTheme();$('sheet').hidden=true;renderTabs();renderFeed();toast('సేవ్ అయింది ✓')};
-$('closeSheet').onclick=()=>{prefs.theme=store.get('prefs',prefs).theme||'auto';applyTheme();$('sheet').hidden=true};
+$('closeSheet').onclick=()=>{applyTheme();$('sheet').hidden=true};
 $('placeBtn').onclick=openSheet; $('setBtn').onclick=openSheet;
 
 /* ---------- news by date ---------- */
