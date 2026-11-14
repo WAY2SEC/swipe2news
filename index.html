@@ -498,7 +498,7 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .s2n .srow{gap:8px}
 /* location card */
 .s2n.locq{background:#3A0A31;color:#FFFDF5}
-.s2n.locq .lqb{flex:1 1 auto;min-height:0;max-height:46%;overflow:hidden;background:#2E0827}.s2n.locq .lqb img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.s2n.locq .lqb{flex:1 1 auto;min-height:0;max-height:none;overflow:hidden;background:#2E0827}.s2n.locq .lqb img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
 .s2n.locq .lqt{flex:0 0 auto;display:flex;flex-direction:column;gap:10px;padding:18px 22px 14px;background:#4A0E3F}
 .s2n.locq h2{margin:0;font:800 25px/1.3 'Noto Sans Telugu','Outfit',sans-serif;color:#FFFDF5}
 .s2n.locq .lqe{margin:-6px 0 0;font:600 15.5px/1.4 'Outfit',sans-serif;color:#E9C9DC}
@@ -747,7 +747,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
       <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
       <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
-      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 6.3 · Swipe2News</p>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 6.4 · Swipe2News</p>
     </div></div>
   </section>
   <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">
@@ -1092,7 +1092,7 @@ function mandiHTML(s,i){
   ${(()=>{ const f=M.fuel(MANDI,pk); return f?`<p class="mfuel">⛽ ${esc(U.pet)} <b>${M.rs(f.petrol)}</b> · ${esc(U.dsl)} <b>${M.rs(f.diesel)}</b> <small>/ ${esc(U.lit)} · ${esc(M.placeName(f.place,l))}</small></p>`:''; })()}
   <p class="mwarn">ℹ️ ${esc(U.warn)}</p><div class="srow"><span class="src">${esc(U.src)}: <b>Agmarknet (Govt of India)</b></span><a class="read" href="/mandi/">${esc(U.more)}</a></div></div>
   <div class="spacer" data-sp="${i}"></div>
-  <div class="cfoot"><span>Know More. Scroll Less.</span><button class="pnext" type="button"><small>← ${U===M.UI.en?'swipe':l==='hi'?'स्वाइप':'స్వైప్'}</small>${esc(UI[l].nxt)}<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button></div>
+  ${footHTML()}
 </article>`;
 }
 function offlineUI(force){ let b=document.getElementById('s2off'); const off=force===true||navigator.onLine===false;
@@ -1109,7 +1109,7 @@ function withMandi(list){ if(view!=='home'||section!=='all'||list.length<4) retu
 function withHouse(list){ const C=CONFIG.SPACE; if(!C||!C.on||view!=='home') return list; const house=(C.HOUSE||[]).filter(k=>SPACE_TX[k]&&!(k==='jobs'&&spaceJobsN()<3)); if(!house.length) return list;
   const o=[]; let n=0; list.forEach((x,i)=>{ o.push(x); if((i+1)%8===6) o.push({kind:'house',k:house[(n++)%house.length],h:'Swipe2News',p:'',url:'https://swipe2news.com/',src:'Swipe2News',d:''}); }); return o; }
 function houseHTML(s,i){ const c=SPACE_TX[s.k], L=LG(), x=c[L]||c.te, link=c.link(), ext=/^https?:|^tel:/.test(link)?' target="_blank" rel="noopener"':'';
-  return `<article class="story s2n house" aria-label="Swipe2News" style="--hg:${c.g};--ha:${c.ac}"><div class="hwrap"><span class="hic">${c.ic}</span><b class="ht">${esc(x[0].replace('{n}',spaceJobsN()))}</b><span class="hs">${esc(x[1])}</span><a class="hcta" data-sk="${esc(s.k)}" href="${esc(link)}"${ext}>${esc(x[2])} →</a><span class="hb"><img src="icon-192.png" alt="">swipe2news<i>.</i></span></div><div class="cfoot"><span>Know More. Scroll Less.</span><button class="pnext" type="button">${esc(UI[L].nxt)}<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button></div></article>`; }
+  return `<article class="story s2n house" aria-label="Swipe2News" style="--hg:${c.g};--ha:${c.ac}"><div class="hwrap"><span class="hic">${c.ic}</span><b class="ht">${esc(x[0].replace('{n}',spaceJobsN()))}</b><span class="hs">${esc(x[1])}</span><a class="hcta" data-sk="${esc(s.k)}" href="${esc(link)}"${ext}>${esc(x[2])} →</a><span class="hb"><img src="icon-192.png" alt="">swipe2news<i>.</i></span></div>${footHTML()}</article>`; }
 /* location card (14 Nov 2026): after ~10 stories, only while no district is chosen; the phone finds the nearest district itself */
 const DHQ={hyderabad:[17.385,78.487],rangareddy:[17.21,78.56],medchal:[17.63,78.48],adilabad:[19.67,78.53],bhadradri:[17.55,80.62],hanumakonda:[18.01,79.56],jagtial:[18.79,78.91],jangaon:[17.72,79.15],bhupalpally:[18.43,79.86],gadwal:[16.23,77.80],kamareddy:[18.32,78.34],karimnagar:[18.44,79.13],khammam:[17.25,80.15],asifabad:[19.36,79.28],mahabubabad:[17.60,80.00],mahabubnagar:[16.74,78.00],mancherial:[18.87,79.46],medak:[18.05,78.26],mulugu:[18.19,79.94],nagarkurnool:[16.48,78.31],nalgonda:[17.05,79.27],narayanpet:[16.74,77.50],nirmal:[19.10,78.34],nizamabad:[18.67,78.09],peddapalli:[18.61,79.38],sircilla:[18.39,78.81],sangareddy:[17.62,78.09],siddipet:[18.10,78.85],suryapet:[17.14,79.62],vikarabad:[17.34,77.90],wanaparthy:[16.36,78.06],warangal:[17.97,79.59],yadadri:[17.51,78.89],
  'ap-srikakulam':[18.30,83.90],'ap-manyam':[18.78,83.43],'ap-vizianagaram':[18.11,83.40],'ap-visakhapatnam':[17.69,83.22],'ap-asr':[18.08,82.67],'ap-anakapalli':[17.69,83.00],'ap-kakinada':[16.99,82.25],'ap-eastgodavari':[17.00,81.80],'ap-konaseema':[16.58,82.01],'ap-eluru':[16.71,81.10],'ap-westgodavari':[16.54,81.52],'ap-ntr':[16.51,80.65],'ap-krishna':[16.19,81.14],'ap-palnadu':[16.24,80.05],'ap-guntur':[16.31,80.44],'ap-bapatla':[15.90,80.47],'ap-prakasam':[15.50,80.05],'ap-nellore':[14.44,79.99],'ap-kurnool':[15.83,78.04],'ap-nandyal':[15.48,78.48],'ap-anantapur':[14.68,77.60],'ap-sathyasai':[14.17,77.81],'ap-kadapa':[14.47,78.82],'ap-annamayya':[14.06,78.75],'ap-tirupati':[13.63,79.42],'ap-chittoor':[13.22,79.10]};
@@ -1129,7 +1129,7 @@ function locHTML(s,i){ const l=LG();
    <button class="lqa" type="button" data-loc="pick"><b><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3z"/><path d="M9 3v15M15 6v15"/></svg>${esc(T[2])}</b>${sub[2]?`<small>${esc(sub[2])}</small>`:''}</button>
    <button class="lqg" type="button" data-loc="gps"><b><span class="lqpin"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="#F5A23A" stroke-width="2"/><circle cx="12" cy="12" r="3.6" fill="#F5A23A"/><path d="M12 1v4M12 19v4M1 12h4M19 12h4" stroke="#F5A23A" stroke-width="2" stroke-linecap="round"/></svg></span>${esc(T[3])}</b>${sub[3]?`<small>${esc(sub[3])}</small>`:''}</button>
    <p class="lqp"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>${esc(T[4])}</p></div>
-  <div class="cfoot"><span>Know More. Scroll Less.</span><button class="pnext sw" type="button"><b class="swl">← ${esc(T[5])} · ${l==='te'?'స్వైప్ చేయండి':l==='hi'?'स्वाइप करें':'Keep swiping'}</b><b class="sws">← ${esc(T[5])}</b></button></div>
+  ${footHTML()}
 </article>`; }
 function locSet(k,how){ prefs.place=k; prefs.st=/^ap-/.test(k)?'AP':'TG'; store.set('prefs',prefs); try{ window.gtag&&gtag('event','loc_set',{how}); }catch(e){}
   const n=placeName(k); renderTabs(); renderFeed(); toast(({te:`📍 ${n} సెట్ అయింది · మీ జిల్లా వార్తలు ముందు`,en:`📍 ${n} set · your district news comes first`,hi:`📍 ${n} सेट · आपके ज़िले की खबरें पहले`})[LG()]); }
@@ -1156,7 +1156,7 @@ function promoHTML(s,i){
    <a class="p2wa" href="${esc(CONFIG.CHANNEL)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z" fill="none" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/><path d="M9.2 7.8c-.4 0-.9.4-1 1-.2 1.4.6 3.2 2.1 4.7s3.3 2.3 4.7 2.1c.6-.1 1-.6 1-1v-.9l-1.9-.9-.9.9c-.9-.4-2.4-1.9-2.8-2.8l.9-.9-.9-1.9z" fill="#fff"/></svg>WhatsApp ఛానెల్‌లో చేరండి</a>
    <button class="p2sh" type="button" data-psh="1"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="18" cy="5" r="2.6"/><circle cx="6" cy="12" r="2.6"/><circle cx="18" cy="19" r="2.6"/><path d="M8.3 10.8l7.4-4.4M8.3 13.2l7.4 4.4"/></svg>స్నేహితులతో పంచుకోండి</button>
    <p class="p2f"><b>swipe2news.com</b><i></i><a href="https://wa.me/917032656422" target="_blank" rel="noopener">WhatsApp: 70326 56422</a></p></div>
-  <div class="cfoot"><span>Know More. Scroll Less.</span><button class="pnext" type="button"><small>← ${esc(UI[LG()].swp||'')}</small>${esc(UI[LG()].nxt)}<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button></div>
+  ${footHTML()}
 </article>`;
   return `<article class="story promo" aria-label="Swipe2News">
   <div class="pimg"><img src="${esc(s.img||CONFIG.PROMO.img)}" alt="${s.greet?'Swipe2News – దీపావళి శుభాకాంక్షలు':'Swipe2News – మీ ఊరి వార్తలు ఇప్పుడే మీ చేతిలో! WhatsApp ఛానెల్, వెబ్‌సైట్ swipe2news.com'}" draggable="false"></div>
@@ -1196,6 +1196,7 @@ function aiChip(){ return `<a class="aic" href="/editorial-policy.html#no-clickb
 function trustChips(s){ const k=lblOf(s), l=LG(); return `<span class="aic"><svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>${U('ai')}</span>${k?`<span class="tl ${k}">${esc(LBL[k][l]||LBL[k].en)}</span>`:''}`; }
 function readMins(s){ const n=String(s.p||'').length+String(s.h||'').length; return Math.max(1,Math.round(n/600)); }
 function listenSecs(s){ const n=String(s.p||'').length+String(s.h||'').length; const sec=Math.max(15,Math.round(n/(LG()==='te'?9:14))); return Math.floor(sec/60)+':'+String(sec%60).padStart(2,'0'); }
+function footHTML(){ const l=LG(); return `<div class="cfoot"><span>Know More. Scroll Less.</span><button class="pnext sw" type="button"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg><b class="swl">${esc({te:'తర్వాతి వార్త కోసం స్వైప్ చేయండి',en:'Swipe left for next story',hi:'अगली खबर के लिए स्वाइप करें'}[l])}</b><b class="sws">${esc({te:'స్వైప్ చేయండి',en:'Swipe left',hi:'स्वाइप करें'}[l])}</b></button></div>`; }
 function cardHTML(s,i){
   if(s.kind==='promo') return promoHTML(s,i);
   if(s.kind==='job') return jobHTML(s,i);
@@ -1226,7 +1227,7 @@ function cardHTML(s,i){
     <button class="ca sh" type="button" aria-label="${U('share')}"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg><span>${U('share')}</span></button>
     <button class="ca wa" type="button"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z" stroke="#0E7A3E" stroke-width="1.9" stroke-linejoin="round"/><path d="M9.2 7.8c-.4 0-.9.4-1 1-.2 1.4.6 3.2 2.1 4.7s3.3 2.3 4.7 2.1c.6-.1 1-.6 1-1v-.9l-1.9-.9-.9.9c-.9-.4-2.4-1.9-2.8-2.8l.9-.9-.9-1.9z" fill="#0E7A3E"/></svg><span>WhatsApp</span></button>
   </div>
-  <div class="cfoot"><span>Know More. Scroll Less.</span><button class="pnext sw" type="button"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg><b class="swl">${esc({te:'తర్వాతి వార్త కోసం స్వైప్ చేయండి',en:'Swipe left for next story',hi:'अगली खबर के लिए स्वाइप करें'}[LG()])}</b><b class="sws">${esc({te:'స్వైప్ చేయండి',en:'Swipe left',hi:'स्वाइप करें'}[LG()])}</b></button></div>
+  ${footHTML()}
 </article>`;
 }
 /* ---------- smart space banner ---------- */
