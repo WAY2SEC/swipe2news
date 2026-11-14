@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-14T09:05:00+05:30",
+ "cutoff": "2026-11-14T09:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T16:35:00+05:30/2026-11-10T17:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 5,
-   "late": 5,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 2,
-   "review": 1,
-   "gaps": "Search-first; WebFetch via sub-agent. Searches mostly returned listing pages (Telangana Today, Siasat, DC). Eenadu, Sakshi, ETV Bharat, TV9, V6, NTV, Reuters/BBC articles not reached; few AP district items found in range. No in-range India, other-state or international-topic item found."
-  },
   {
    "window": "2026-11-10T17:05:00+05:30/2026-11-10T17:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 1,
    "gaps": "09:05 run started 09:05 IST. Lookback from 00:35 14 Nov. Read: ETV TG live blog (latest 06:56), ETV AP live blog (latest 06:39), DC Hafeezpet fire (08:47), DC Rahul-Revanth gig scheme schedule (08:18), DC Kishan Reddy Nasha Mukt yatra (00:03, pre-lookback), Telugu360 Murasu Rs 2,484 cr damage (13 Nov 14:18, pre-lookback). Published: Hafeezpet painting-shop fire. Duplicates: DC Rahul gig scheme schedule (Rahul arrival/gig scheme already published), ETV Revanth remarks 06:52. Review: Eenadu Murasu damage 126206801 (robots refused, no pub time). Not reached: foreignexchanges world roundup (client error), Eenadu; search results mostly stale; no world items with verifiable times. Districts searched: Nalgonda, Karimnagar, Nizamabad, Medak, Siddipet, Mahabubnagar, Khammam, Warangal, Adilabad, Guntur, Nellore, Srikakulam, Kadapa, Visakhapatnam, Kurnool, Tirupati, Prakasam, Eluru."
+  },
+  {
+   "window": "2026-11-14T09:05:00+05:30/2026-11-14T09:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 2,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "09:35 run started 09:36 IST. Lookback from 01:05 14 Nov. Read: Siasat elephant Old City procession (08:23), Siasat UN Yemen/IANS (09:06), AJ live blog (no items after 07:40), ETV AP live blog (no items after 06:39). Published both. Not reached: ETV TG live blog (fetch permission not answered), Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; search results mostly stale. Districts searched: Kamareddy, Nirmal, Jagtial, Peddapalli, Mulugu, Mahabubabad, Medchal, Sangareddy, Kakinada, East Godavari, Palnadu, Bapatla, Nandyal, ASR."
   }
  ],
  "seen": [
@@ -2098,6 +2098,16 @@
    "url": "https://eenadu.net/telugu-news/andhra-pradesh/cyclone-murasu-causes-damage-worth-rs-2484-crore/1799/126206801",
    "d": "2026-11-14",
    "w": "review"
+  },
+  {
+   "url": "https://www.siasat.com/elephant-turns-restless-during-religious-procession-in-hyderabad-3576963/",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/un-voices-concern-as-attacks-on-yemen-civilians-intensify-3576990/",
+   "d": "2026-11-14",
+   "w": "published"
   }
  ]
 }
