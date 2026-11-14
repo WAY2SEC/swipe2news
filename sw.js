@@ -1,6 +1,6 @@
 // Swipe2News service worker: keeps the app working offline (villages, weak signal).
 // Pages and news: network first, but fall back to the saved copy after 4 s. Fonts and pictures: saved copy first.
-const CACHE = 's2n-v73';
+const CACHE = 's2n-v74';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'logo.png', 'logo-light.png', 'qr.png', 'icon-192.png', 'icon-512.png',
   'news.json', 'mandi.json', 'mandi.js?v=2', 'mandi/', 'morning/', 'archive/index.json'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(u).catch(() => 0))))); self.skipWaiting(); });
@@ -33,5 +33,9 @@ self.addEventListener('fetch', e => {
 // the app asks us to save today's pictures and pages for offline reading
 self.addEventListener('message', e => {
   const d = e.data || {}; if (d.type !== 'warm' || !Array.isArray(d.urls)) return;
-  e.waitUntil(caches.open(CACHE).then(c => Promise.all(d.urls.slice(0, 40).map(u => c.match(u).then(h => h || c.add(u).catch(() => 0))))));
+  const port = e.ports && e.ports[0];
+  e.waitUntil(caches.open(CACHE).then(async c => { let saved = 0; const list = d.urls.slice(0, 150);
+    for (let i = 0; i < list.length; i += 6) { // a few at a time, so the reader's own swiping stays fast
+      await Promise.all(list.slice(i, i + 6).map(u => c.match(u, {ignoreSearch: true}).then(h => h ? saved++ : c.add(u).then(() => saved++).catch(() => 0)))); }
+    if (port) port.postMessage({saved, total: list.length}); }));
 });

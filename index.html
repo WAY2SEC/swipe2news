@@ -1236,8 +1236,11 @@ function offlineUI(force){ let b=document.getElementById('s2off'); const off=for
   b.textContent='📴 '+({te:'ఆఫ్‌లైన్',en:'Offline',hi:'ऑफ़लाइन'}[LG()]); b.title=full; b.onclick=()=>toast(full); b.hidden=false; }
 window.addEventListener('online',()=>{ offlineUI(); try{ load(); }catch(e){} }); window.addEventListener('offline',()=>offlineUI());
 function warmOffline(){ try{ if(!navigator.serviceWorker||!navigator.serviceWorker.controller) return; const c=navigator.connection; if(c&&(c.saveData)) return;
-  const urls=['mandi.json','mandi.js?v=2','mandi/'].concat((NEWS.stories||[]).slice(0,30).map(x=>x.img).filter(u=>u&&!/^https?:/.test(u)));
-  navigator.serviceWorker.controller.postMessage({type:'warm',urls}); }catch(e){} }
+  const urls=['mandi.json','mandi.js?v=2','mandi/','/icon-512.png','/icon-192.png','/art/logo.svg','/brand/qr-share.png'].concat((NEWS.stories||[]).slice(0,60).map(x=>x.img).filter(u=>u&&!/^https?:/.test(u)));
+  // offline reading: every card picture in today's feed (cards keep them in data-src until shown)
+  const f=document.getElementById('feed'); if(f) f.querySelectorAll('img[data-src],img[src^="/art/"]').forEach(im=>{ const u=im.dataset.src||im.getAttribute('src'); if(u&&u.startsWith('/art/')&&!urls.includes(u)) urls.push(u); });
+  const ch=new MessageChannel(); ch.port1.onmessage=e=>{ const n=(e.data||{}).saved|0; try{ const k='offlineSaved.'+new Date().toDateString(); if(n>0&&!store.get(k,0)){ store.set(k,1); toast({te:'📥 ఈరోజు వార్తలు ఫోన్‌లో సేవ్ అయ్యాయి – నెట్ లేకపోయినా చదవొచ్చు',en:'📥 Today\'s news is saved on your phone – read it even without internet',hi:'📥 आज की खबरें फ़ोन में सेव हो गईं – बिना इंटरनेट भी पढ़ें'}[LG()]||''); } }catch(_){} };
+  navigator.serviceWorker.controller.postMessage({type:'warm',urls},[ch.port2]); }catch(e){} }
 function withMandi(list){ if(view!=='home'||section!=='all'||list.length<4) return list; const mi=mandiItem(); if(!mi) return list; const o=list.slice(); o.splice(3,0,mi); return o; }
 function withHouse(list){ const C=CONFIG.SPACE; if(!C||!C.on||view!=='home') return list; const house=(C.HOUSE||[]).filter(k=>SPACE_TX[k]&&!(k==='jobs'&&spaceJobsN()<3)); if(!house.length) return list;
   const o=[]; let n=0; let k=0; list.forEach((x,i)=>{ o.push(x); if(!x.kind && ++k%20===0) o.push({kind:'house',k:house[(n++)%house.length],h:'Swipe2News',p:'',url:'https://swipe2news.com/',src:'Swipe2News',d:''}); }); return o; }
@@ -2169,7 +2172,7 @@ async function load(){
     let r, j;
     try{ r = await fetch(CONFIG.NEWS_URL+'?t='+Date.now(), {cache:'no-store', signal: ac?ac.signal:undefined});
       if(!r.ok) throw new Error(r.status); j = await r.json(); } finally { clearTimeout(tm); }
-    NEWS = j; store.set('news', NEWS); offlineUI(); warmOffline();
+    NEWS = j; store.set('news', NEWS); offlineUI(); setTimeout(warmOffline,4000); // after the feed is drawn and the first pictures are in
     BASE = NEWS.stories.slice();
     // add the rest of today's stories (news.json holds only the newest 50); never wait more than 8 s for these
     await timeout(Promise.all([loadWishes(), (async()=>{ await loadDates(); if(DATES[0]) await fetchDay(DATES[0].iso); })()]), 8000);
