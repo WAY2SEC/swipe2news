@@ -923,7 +923,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
   <div class="toast" id="toast" role="status"></div>
 </div>
 
-<script src="scenes.js?v=20261114x"></script>
+<script src="scenes.js?v=20261114y"></script>
 <script src="mandi.js?v=2"></script>
 <script>
 const CONFIG = {
@@ -1762,8 +1762,8 @@ async function newsCard(s,mode){
   ctx.font=`800 30px ${OU}`; ctx.fillStyle='rgba(255,253,245,.92)'; ctx.fillText('swipe2news.com · @swipe2newsapp',49,FY+FH/2+26);
   try{ const q=await loadImg('brand/qr-share.png'); const QS=136, QP=14, qx=W-60-QS-2*QP, qy=FY+(FH-QS-2*QP)/2; ctx.fillStyle='#fff'; rrect(ctx,qx,qy,QS+2*QP,QS+2*QP,14); ctx.fill(); ctx.imageSmoothingEnabled=false; ctx.drawImage(q,qx+QP,qy+QP,QS,QS); ctx.imageSmoothingEnabled=true; }catch(e){} // clear white margin so phones scan it from the shared photo
   ctx.textBaseline='alphabetic';
-  let url=''; try{ url=c.toDataURL('image/jpeg',0.92); }catch(e){}
-  const blob=await new Promise(r=>c.toBlob(r,'image/jpeg',0.92)); if(blob&&url) blob.dataURL=url; return blob;
+  let url=''; try{ url=c.toDataURL('image/jpeg',0.96); }catch(e){}
+  const blob=await new Promise(r=>c.toBlob(r,'image/jpeg',0.96)); if(blob&&url) blob.dataURL=url; return blob;
 }
 async function cardImage(s){
   if(s&&!s.kind&&s.h){ try{ const b=await newsCard(s,'full'); if(b) return b; }catch(e){} }
@@ -1834,8 +1834,8 @@ async function cardImage(s){
   // footer
   const fy=H-(FOOT+P-10)/2; ctx.textBaseline='middle'; ctx.font=`700 34px ${DI}`; ctx.font=`700 34px 'Outfit',${TE}`; let tx=P; [['Know More',CR],['.',AP],[' Scroll Less',CR],['.',AP]].forEach(([t,col])=>{ ctx.fillStyle=col; ctx.fillText(t,tx,fy); tx+=ctx.measureText(t).width; });
   ctx.textAlign='right'; ctx.fillStyle=CR; ctx.font=`700 26px ${TE}`; ctx.fillText(({te:'పూర్తి వార్త: swipe2news.com',en:'Full story: swipe2news.com',hi:'पूरी खबर: swipe2news.com'})[LG()]||'swipe2news.com',W-P,fy-17); ctx.fillStyle=AP; ctx.font=`800 24px 'Outfit',${TE}`; ctx.fillText('Follow @swipe2newsapp',W-P,fy+19); ctx.textAlign='left'; ctx.textBaseline='alphabetic';
-  let url=''; try{ url=c.toDataURL('image/jpeg',0.92); }catch(e){}
-  const blob=await new Promise(r=>c.toBlob(r,'image/jpeg',0.92));
+  let url=''; try{ url=c.toDataURL('image/jpeg',0.96); }catch(e){}
+  const blob=await new Promise(r=>c.toBlob(r,'image/jpeg',0.96));
   if(blob && url) blob.dataURL=url;
   return blob;
 }
@@ -1933,6 +1933,13 @@ const IOS=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==='M
 const STANDALONE=!!(navigator.standalone||(window.matchMedia&&matchMedia('(display-mode: standalone)').matches));
 const timeout=(p,ms)=>Promise.race([p,new Promise(r=>setTimeout(()=>r(null),ms))]);
 /* iPhone helpers */
+/* WhatsApp lowers picture quality unless the sender picks HD: a short tip for the first few shares (14 Nov 2026) */
+function hdTip(){ try{ const n=+store.get('hdTip',0); if(n>=5) return; store.set('hdTip',n+1);
+  const T={te:'📸 WhatsAppలో పైన <b>HD</b> నొక్కి పంపండి – ఫోటో స్పష్టంగా వెళ్తుంది. స్టేటస్‌కు: ముందు మీకే HDలో పంపి, అక్కడి నుంచి స్టేటస్‌కు ఫార్వర్డ్ చేయండి.',en:'📸 In WhatsApp tap <b>HD</b> before sending – the photo stays sharp. For Status: send it to yourself in HD first, then forward it to Status.',hi:'📸 WhatsApp में भेजने से पहले ऊपर <b>HD</b> दबाएँ – फ़ोटो साफ़ रहेगी। स्टेटस के लिए: पहले खुद को HD में भेजें, फिर स्टेटस पर फ़ॉरवर्ड करें।'};
+  let d=$('hdTip'); if(!d){ d=document.createElement('div'); d.id='hdTip'; d.style.cssText='position:fixed;left:50%;top:calc(80px + env(safe-area-inset-top,0px));transform:translateX(-50%);z-index:71;width:min(92vw,420px);background:#2E0827;color:#FFFDF5;border:2px solid #F5A23A;border-radius:16px;padding:12px 40px 12px 14px;font:600 14px/1.5 var(--body);box-shadow:0 10px 30px rgba(0,0,0,.35)'; document.body.appendChild(d); }
+  d.innerHTML=(T[LG()]||T.te)+'<button type="button" aria-label="close" style="position:absolute;right:8px;top:6px;border:0;background:none;color:#FFFDF5;font:700 20px/1 sans-serif;padding:6px">×</button>'; d.hidden=false;
+  d.querySelector('button').onclick=()=>{ d.hidden=true; }; clearTimeout(hdTip.t); hdTip.t=setTimeout(()=>{ d.hidden=true; },12000);
+}catch(e){} }
 function capBar(text){ // after the picture is shared: one tap copies caption + link (iPhone needs a tap to copy)
   let c=$('capBar');
   if(!c){ c=document.createElement('button'); c.id='capBar'; c.type='button';
@@ -1962,7 +1969,7 @@ function showCardImage(b, text, why){
   $('imgShareWhy').style.cssText = canShare ? 'color:#6B7A90;font-size:11px' : 'color:#F5A23A;font:700 14px/1.55 var(--body);text-align:center;max-width:420px';
   $('imgShareCopy').onclick=async()=>{ toast(await copyText(text)?'కాపీ అయింది ✅':'కాపీ కాలేదు'); };
   $('imgShareGo').onclick=async()=>{ // fresh tap, nothing else before it: the best chance for the share menu
-    try{ if(!navigator.share) throw new Error('noshare'); await navigator.share({files:[cardFile(b)]}); o.hidden=true; capBar(text); }
+    try{ if(!navigator.share) throw new Error('noshare'); (hdTip(),await navigator.share({files:[cardFile(b)]})); o.hidden=true; capBar(text); }
     catch(e){ if(e&&e.name==='AbortError') return;
       $('imgShareWhy').textContent='షేర్ కాలేదు – పై చిత్రాన్ని నొక్కి పట్టుకుని Save to Photos చేసి, WhatsAppలో 📎 నుంచి పంపండి.';
       if(STANDALONE){ const u=location.origin+'/?cards=1&sharecard=1&s='+sid(LIST[cur]||{}); copyLegacy(u); o.hidden=true; location.href='x-safari-'+u;
@@ -1990,7 +1997,7 @@ function chromeChoice(s,text,viaWA){
   $('crPic').onclick=async()=>{ const l=LG(), b=(cardCache.k===keyOf(s))?cardCache.blob:null;
     const safari='https://swipe2news.com/?cards=1&sharecard=1&s='+sid(s)+(s.kind==='job'?'&jobs=1':'')+(l!=='te'?'&l='+l:'');
     // 1) home-screen app: try sharing the picture right here first, straight from the tap
-    if(!CRIOS && b && navigator.share){ try{ await navigator.share({files:[cardFile(b)]}); o.hidden=true; capBar(text); return; }catch(e){ if(e&&e.name==='AbortError'){ o.hidden=true; return; } } }
+    if(!CRIOS && b && navigator.share){ try{ (hdTip(),await navigator.share({files:[cardFile(b)]})); o.hidden=true; capBar(text); return; }catch(e){ if(e&&e.name==='AbortError'){ o.hidden=true; return; } } }
     // 2) open the story in Safari, where picture sharing works; if Safari does not open, the link is already copied
     o.hidden=true; copyLegacy(safari);
     location.href='x-safari-'+safari;
@@ -2025,7 +2032,7 @@ async function shareCard(viaWA){ const s=LIST[cur]; if(!s) return;
     if(!b){ prepCard(); toast('చిత్రం సిద్ధమవుతోంది… ఒక్క క్షణం తర్వాత మళ్లీ నొక్కండి'); return; }
     let why='';
     if(navigator.share && navigator.canShare && navigator.canShare({files:[cardFile(b)]})){
-      try{ await navigator.share({files:[cardFile(b)]}); capBar(text); return; }
+      try{ (hdTip(),await navigator.share({files:[cardFile(b)]})); capBar(text); return; }
       catch(e){ if(e&&e.name==='AbortError') return; why=e&&e.name||String(e); }
     } else why='no-file-share';
     showCardImage(b, text, why); return;
@@ -2035,7 +2042,7 @@ async function shareCard(viaWA){ const s=LIST[cur]; if(!s) return;
     const f=cardFile(b), data={files:[f], text};
     if(navigator.canShare(data)){
       copyText(text); // caption + link on the clipboard, to paste under the picture
-      try{ await navigator.share(data); toast('క్యాప్షన్ కాపీ అయింది'); return; }
+      try{ hdTip(); await navigator.share(data); toast('క్యాప్షన్ కాపీ అయింది'); return; }
       catch(e){ if(e&&e.name==='AbortError') return; }
     }
   }
