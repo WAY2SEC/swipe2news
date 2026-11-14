@@ -356,7 +356,7 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 
 .trust{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
 .trust .tl,.trust .aic{display:inline-flex;align-items:center;gap:4px;height:22px;padding:0 8px;border-radius:11px;font-size:10.5px;font-weight:800;letter-spacing:.03em}
-.tl.fact{background:#0E7A3E;color:#fff}.tl.claim{background:#F5A23A;color:#2E0827}.tl.opinion{border:1px solid var(--line);color:var(--muted)}.tl.misleading{background:#B3261E;color:#fff}
+.tl.fact{background:#0E7A3E;color:#fff}.tl.claim{background:#F5A23A;color:#2E0827}.tl.opinion{border:1px solid var(--line);color:var(--muted)}.tl.misleading{background:#B3261E;color:#fff}.tl.forecast{background:#1F4E8C;color:#fff}
 .trust .aic{background:#2E0827;color:#FFFDF5}
 .story .panel>.pnext{position:absolute;z-index:3;right:10px;left:auto;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:20px;border:1.5px solid rgba(255,253,245,.6);background:rgba(46,8,39,.5);display:flex;align-items:center;justify-content:center;cursor:pointer}
 .qrbar.cf{background:#2E0827;color:#FFFDF5;min-height:34px;font-size:12px;font-weight:600}
@@ -492,7 +492,7 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .s2n .tchip{display:inline-flex;flex-direction:column;line-height:1.2;padding:3px 9px;border-radius:10px;border:1px solid;text-decoration:none}
 .s2n .tchip b{font-size:11px;font-weight:800}.s2n .tchip small{font-size:9.5px;font-weight:600}
 .s2n .tchip.fact{background:#E7F4EC;border-color:#0E7A3E;color:#0B5A2E}.s2n .tchip.claim{background:#FDF0DC;border-color:#F5A23A;color:#5C3200}
-.s2n .tchip.opinion{background:#F1EAF3;border-color:#B9A3C2;color:#4A0E3F}.s2n .tchip.misleading{background:#FBE9E7;border-color:#B3261E;color:#8C1D18}
+.s2n .tchip.forecast{background:#E8EFF8;border-color:#1F4E8C;color:#163A6B}.s2n .tchip.opinion{background:#F1EAF3;border-color:#B9A3C2;color:#4A0E3F}.s2n .tchip.misleading{background:#FBE9E7;border-color:#B3261E;color:#8C1D18}
 .s2n .srow{gap:8px}
 /* location card */
 .s2n.locq{background:#3A0A31;color:#FFFDF5}
@@ -773,7 +773,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
       <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
       <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
-      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 7.7 · Swipe2News</p>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 7.8 · Swipe2News</p>
     </div></div>
   </section>
   <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">
@@ -1193,12 +1193,21 @@ function promoHTML(s,i){
 function corrNote(s){ const c=s&&s.corr; if(!c||typeof c!=='object') return ''; const l=s._lang||'te', tx=c[l]||c.te||''; if(!tx) return '';
   return `<p class="corr"><b>✏️ ${({te:'సవరణ',en:'Correction',hi:'सुधार'})[l]||'సవరణ'}${c.at?' · '+esc(c.at):''}:</b> ${esc(tx)}</p>`; }
 /* Swipe2News trust label: s.lbl = fact | claim | opinion | misleading (set by the news task); older stories: safe guesses only */
-const LBL={fact:{te:'✓ వాస్తవం',en:'✓ FACT',hi:'✓ तथ्य'},claim:{te:'వాదన / ఆరోపణ',en:'CLAIM',hi:'दावा'},opinion:{te:'అభిప్రాయం',en:'OPINION',hi:'राय'},misleading:{te:'తప్పుదోవ',en:'MISLEADING',hi:'भ्रामक'}};
-function lblOf(s){ let k=s.lbl; if(LBL[k]) return k;
+const LBL={fact:{te:'✓ వాస్తవం',en:'✓ FACT',hi:'✓ तथ्य'},claim:{te:'వాదన / ఆరోపణ',en:'CLAIM',hi:'दावा'},opinion:{te:'అభిప్రాయం',en:'OPINION',hi:'राय'},misleading:{te:'తప్పుదోవ',en:'MISLEADING',hi:'भ्रामक'},forecast:{te:'వాతావరణ అంచనా',en:'WEATHER FORECAST',hi:'मौसम पूर्वानुमान'}};
+/* a weather story about what is expected is a forecast, not a fact that has happened */
+const FORECAST_RX=/సూచన|అంచనా|అవకాశం|రానున్న|కురిసే|ఏర్పడే|బలపడే|forecast|likely|expected|predict|will (?:bring|form|intensify)/i;
+function isForecast(s){ return (typeof artType==='function'&&artType(s)==='weather') && FORECAST_RX.test(String(s.h||'')+' '+String(s.statl||'')+' '+String(s.p||'').slice(0,200)+' '+String((s.en&&s.en.h)||'')); }
+function lblOf(s){ let k=s.lbl; if(k==='forecast') return k; if((!k||k==='fact')&&isForecast(s)) return 'forecast'; if(LBL[k]) return k;
   const c=String(s.cat||'')+' '+String((s.en&&s.en.cat)||''); if(/సంపాదకీయం|Editorial|संपादकीय/.test(c)) return 'opinion';
   if(/ఆరోపణ|allege|आरोप/.test(String(s.h||'')+String(s.p||''))) return 'claim'; return ''; }
 function trustHTML(s){ const k=lblOf(s), l=LG(); const t=k?`<span class="tl ${k}">${esc(LBL[k][l]||LBL[k].en)}</span>`:'';
   return `<div class="trust">${t}<span class="aic"><svg viewBox="0 0 24 24" width="11" height="11" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg>${U('ai')}</span></div>`; }
+/* big number that is a date: write it as a date, month first ("నవంబర్ 18–19") */
+const MON_AB={te:[['జన','జనవరి'],['ఫిబ్ర','ఫిబ్రవరి'],['మార్చి','మార్చి'],['ఏప్రి','ఏప్రిల్'],['మే','మే'],['జూన్','జూన్'],['జులై','జులై'],['ఆగ','ఆగస్టు'],['సెప్టెం','సెప్టెంబర్'],['అక్టో','అక్టోబర్'],['నవం','నవంబర్'],['డిసెం','డిసెంబర్']],
+ en:[['Jan','January'],['Feb','February'],['Mar','March'],['Apr','April'],['May','May'],['Jun','June'],['Jul','July'],['Aug','August'],['Sep','September'],['Oct','October'],['Nov','November'],['Dec','December']]};
+function statTx(s){ const v=String(s.stat||'').trim(); const m=/^(\d{1,2})(\s*[–-]\s*(\d{1,2}))?\s+(\S+?)\.?$/.exec(v); if(!m) return v;
+  for(const L of ['te','en']) for(const [ab,full] of MON_AB[L]) if(m[4].startsWith(ab)) return full+' '+m[1]+(m[3]?'–'+m[3]:'');
+  return v; }
 function whenTxt(s){ const l=LG(), m=/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/.exec(String(s.d||'')), t=/^(\d{1,2}):(\d{2})$/.exec(String(s.t||''));
   const MN={te:['జనవరి','ఫిబ్రవరి','మార్చి','ఏప్రిల్','మే','జూన్','జులై','ఆగస్టు','సెప్టెంబర్','అక్టోబర్','నవంబర్','డిసెంబర్'],en:['January','February','March','April','May','June','July','August','September','October','November','December'],hi:['जनवरी','फ़रवरी','मार्च','अप्रैल','मई','जून','जुलाई','अगस्त','सितंबर','अक्टूबर','नवंबर','दिसंबर']}[l]||[];
   const d=m?(+m[1])+' '+MN[+m[2]-1]:esc(s.d||''); if(!t) return d;
@@ -1209,12 +1218,13 @@ function whenTxt(s){ const l=LG(), m=/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/.exec(Stri
 const TRUSTN={fact:{te:'నమ్మదగిన మూలం నివేదించిన విషయం',en:'Reported by a trusted source',hi:'विश्वसनीय स्रोत की रिपोर्ट'},
  claim:{te:'చెప్పినవారి మాట · మేము స్వతంత్రంగా నిర్ధారించలేదు',en:'What someone said · not independently verified',hi:'किसी का दावा · हमने स्वतंत्र रूप से पुष्टि नहीं की'},
  opinion:{te:'ఒకరి అభిప్రాయం · వాస్తవం కాదు',en:'A point of view, not a fact',hi:'एक राय, तथ्य नहीं'},
- misleading:{te:'తప్పు లేదా తప్పుదోవ పట్టించే సమాచారం',en:'False or misleading information',hi:'ग़लत या भ्रामक जानकारी'}};
-const TRUSTS={fact:{te:'నమ్మదగిన మూలం',en:'Trusted source',hi:'विश्वसनीय स्रोत'},claim:{te:'నిర్ధారించలేదు',en:'Not independently verified',hi:'पुष्टि नहीं'},opinion:{te:'వాస్తవం కాదు',en:'Not a fact',hi:'तथ्य नहीं'},misleading:{te:'తప్పుదోవ సమాచారం',en:'False or misleading',hi:'भ्रामक जानकारी'}};
+ misleading:{te:'తప్పు లేదా తప్పుదోవ పట్టించే సమాచారం',en:'False or misleading information',hi:'ग़लत या भ्रामक जानकारी'},
+ forecast:{te:'ముందస్తు అంచనా · ఇంకా జరగలేదు',en:'A forecast, not something that has happened',hi:'पूर्वानुमान, अभी घटा नहीं'}};
+const TRUSTS={fact:{te:'నమ్మదగిన మూలం',en:'Trusted source',hi:'विश्वसनीय स्रोत'},claim:{te:'నిర్ధారించలేదు',en:'Not independently verified',hi:'पुष्टि नहीं'},opinion:{te:'వాస్తవం కాదు',en:'Not a fact',hi:'तथ्य नहीं'},misleading:{te:'తప్పుదోవ సమాచారం',en:'False or misleading',hi:'भ्रामक जानकारी'},forecast:{te:'ముందస్తు అంచనా',en:'Expected, not yet happened',hi:'अभी घटा नहीं'}};
 function trustChip(s){ const k=lblOf(s), l=LG(); if(!k) return '';
   return `<a class="tchip ${k}" href="/editorial-policy.html#no-clickbait" title="${esc(TRUSTN[k][l]||TRUSTN[k].en)}"><b>${esc(LBL[k][l]||LBL[k].en)}</b><small>${esc(TRUSTS[k][l]||TRUSTS[k].en)}</small></a>`; }
 function trustBox(s){ const k=lblOf(s), l=LG(); if(!k) return '';
-  return `<div class="tbox ${k}"><span class="ti2">${({fact:'✓',claim:'❝',opinion:'💬',misleading:'⚠'})[k]}</span><span class="tt"><b>${esc(LBL[k][l]||LBL[k].en)}</b><small>${esc(TRUSTN[k][l]||TRUSTN[k].en)}</small></span><a class="th" href="/editorial-policy.html#no-clickbait">${esc({te:'ఎలా?',en:'How?',hi:'कैसे?'}[l])}</a></div>`; }
+  return `<div class="tbox ${k}"><span class="ti2">${({fact:'✓',claim:'❝',opinion:'💬',misleading:'⚠',forecast:'☁'})[k]}</span><span class="tt"><b>${esc(LBL[k][l]||LBL[k].en)}</b><small>${esc(TRUSTN[k][l]||TRUSTN[k].en)}</small></span><a class="th" href="/editorial-policy.html#no-clickbait">${esc({te:'ఎలా?',en:'How?',hi:'कैसे?'}[l])}</a></div>`; }
 const FSZ=['s','m','l']; function applyFsz(){ let v='m'; try{ v=localStorage.getItem('w2s.fsz')||'m'; }catch(e){} document.documentElement.dataset.fsz=v; }
 applyFsz();
 function statusChip(s){ const k=lblOf(s), l=LG(); return k?`<span class="tl ${k}">${esc(LBL[k][l]||LBL[k].en)}</span>`:''; }
@@ -1236,7 +1246,7 @@ function cardHTML(s,i){
   <div class="panel bnr">
     ${sceneSVG(s,'scene')}${/^videos\/[\w.-]+\.mp4$/.test(s.vid||'')?`<button class="vplay" type="button" data-vid="${esc(s.vid)}" aria-label="వీడియో చూడండి"><svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#fff"/></svg><span>వీడియో చూడండి</span></button>`:''}
     <div class="ptop"><span class="bchip">${s.brk?'🔴 BREAKING · ':''}${esc(s.cat||U('news'))}</span></div>
-    <div class="bkw"><div class="stat">${esc(s.stat)}</div><div class="statl">${esc(s.statl)}</div>${!storyPhoto(s)&&artPlan(s)?`<div class="adisc">${esc(ART_DISC[LG()]||ART_DISC.te)}</div>`:''}</div>
+    <div class="bkw"><div class="stat">${esc(statTx(s))}</div><div class="statl">${esc(s.statl)}</div>${!storyPhoto(s)&&artPlan(s)?`<div class="adisc">${esc(ART_DISC[LG()]||ART_DISC.te)}</div>`:''}</div>
     <span class="bmark"><img src="icon-192.png" alt="">swipe2news<i>.</i></span>
   </div>
   <div class="text"${s._lang?` lang="${s._lang}"`:''}>
@@ -1560,7 +1570,7 @@ async function cardImage(s){
     const hasArt=await drawArtPlan(ctx,s,cx,cy,CW,PH);
     if(hasArt){ ctx.font=`600 22px ${TE}`; ctx.fillStyle='rgba(255,253,245,.75)'; ctx.textAlign='right'; ctx.fillText(ART_DISC[LG()]||ART_DISC.te,cx+CW-IN,cy+PH-20); ctx.textAlign='left'; }
     else try{ const art=await loadImg('data:image/svg+xml;charset=utf-8,'+encodeURIComponent(sceneSVG(s,'cv'))); ctx.globalAlpha=.22; ctx.drawImage(art,cx,cy+PH-420,CW,420); ctx.globalAlpha=1; }catch(e){}
-    const st=String(s.stat||''), te=/[ఀ-౿]/.test(st); let fs=te?110:130;
+    const st=statTx(s), te=/[ఀ-౿]/.test(st); let fs=te?110:130;
     const setF=()=>{ ctx.font=te?`800 ${fs}px ${TE}`:`400 ${fs}px ${DI}`; }; setF();
     while(ctx.measureText(st).width>TW && fs>54){ fs-=8; setF(); }
     ctx.fillStyle=AP; ctx.fillText(st,cx+IN,cy+PH-118);
@@ -1573,7 +1583,7 @@ async function cardImage(s){
   // text
   let y=cy+PH+IN+24;
   let mx=cx+IN; const lk=s.kind==='job'?'':lblOf(s);
-  if(lk){ const LC={fact:['#0E7A3E','#fff'],claim:['#F5A23A','#2E0827'],opinion:['#E8E2EA','#4A0E3F'],misleading:['#B3261E','#fff']}[lk]; const lt=LBL[lk][LG()]||LBL[lk].te; ctx.font=`800 24px ${TE}`; const lw=ctx.measureText(lt).width+32;
+  if(lk){ const LC={fact:['#0E7A3E','#fff'],claim:['#F5A23A','#2E0827'],opinion:['#E8E2EA','#4A0E3F'],misleading:['#B3261E','#fff'],forecast:['#1F4E8C','#fff']}[lk]; const lt=LBL[lk][LG()]||LBL[lk].te; ctx.font=`800 24px ${TE}`; const lw=ctx.measureText(lt).width+32;
     ctx.fillStyle=LC[0]; rrect(ctx,mx,y-30,lw,40,20); ctx.fill(); ctx.fillStyle=LC[1]; ctx.textBaseline='middle'; ctx.fillText(lt,mx+16,y-9); ctx.textBaseline='alphabetic'; mx+=lw+14; }
   ctx.font=`600 26px ${TE}`; ctx.fillStyle='#6A6670'; ctx.fillText(((s.kind==='job'?(s.last?J('lastd')+' '+s.last:''):whenTxt(s))+' · '+(s.src||'Swipe2News')).slice(0,90),mx,y,cx+IN+TW-mx);
   y+=22+60; ctx.fillStyle='#202124'; ctx.font=`800 54px ${TE}`; hl.forEach(t=>{ ctx.fillText(t,cx+IN,y); y+=70; });
@@ -1584,7 +1594,7 @@ async function cardImage(s){
   ctx.restore();
   // footer
   const fy=H-(FOOT+P-10)/2; ctx.textBaseline='middle'; ctx.font=`700 34px ${DI}`; ctx.font=`700 34px 'Outfit',${TE}`; let tx=P; [['Know More',CR],['.',AP],[' Scroll Less',CR],['.',AP]].forEach(([t,col])=>{ ctx.fillStyle=col; ctx.fillText(t,tx,fy); tx+=ctx.measureText(t).width; });
-  ctx.textAlign='right'; ctx.fillStyle=AP; ctx.font=`800 30px 'Outfit',${TE}`; ctx.fillText('Follow @swipe2newsapp',W-P,fy); ctx.textAlign='left'; ctx.textBaseline='alphabetic';
+  ctx.textAlign='right'; ctx.fillStyle=CR; ctx.font=`700 26px ${TE}`; ctx.fillText(({te:'పూర్తి వార్త: swipe2news.com',en:'Full story: swipe2news.com',hi:'पूरी खबर: swipe2news.com'})[LG()]||'swipe2news.com',W-P,fy-17); ctx.fillStyle=AP; ctx.font=`800 24px 'Outfit',${TE}`; ctx.fillText('Follow @swipe2newsapp',W-P,fy+19); ctx.textAlign='left'; ctx.textBaseline='alphabetic';
   let url=''; try{ url=c.toDataURL('image/jpeg',0.92); }catch(e){}
   const blob=await new Promise(r=>c.toBlob(r,'image/jpeg',0.92));
   if(blob && url) blob.dataURL=url;

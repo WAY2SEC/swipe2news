@@ -17,6 +17,7 @@ Unattended cloud run: don't ask questions; decide and continue.
   - "fact" — the event is stated by an official source, or reported as fact by a reputable outlet that witnessed/confirmed it (accidents with official figures, government orders, results, weather alerts).
   - "claim" — allegations, accusations, arrests on charges, party-vs-party claims, unconfirmed figures, "residents say" stories.
   - "opinion" — editorials / opinion (cat begins "సంపాదకీయం · ", en "Editorial · ", hi "संपादकीय · ").
+  - "forecast" — weather (or other) stories about what is EXPECTED, not what has happened (IMD/forecast "likely", "expected", "సూచన", "అంచనా"). Use "fact" only for weather that has already happened or an identifiable official warning that has been issued.
   - "misleading" — fact-check stories that show a viral claim is false or misleading (the headline must say what is false).
   When unsure between fact and claim, use "claim".
 
@@ -41,7 +42,7 @@ Crime, arrests, deaths, communal/caste tension, election allegations, disasters:
 ## 3. Write each story (simple Telugu, own words)
 Fields: {cat,col,art,stat,statl,h,p,src,url,sec,st,place,loc,pts,why,d,t,pub,lbl,en,hi} plus "brk" when it applies.
 - pub: original publication time "YYYY-MM-DDTHH:MM+05:30". d: today DD.MM.YYYY. t: this edition's time HH:MM.
-- stat + statl: a number is shown only with its meaning. statl always says what the number counts (unit + what, e.g. "2 · గాయపడిన కానిస్టేబుళ్లు", "12 · సమస్యాత్మక జిల్లాలు"); a date is written as a date ("18–19 నవంబర్"). If the story has no meaningful figure, leave stat empty (the card then shows a short topic phrase or nothing) — never a bare or decorative number.
+- stat + statl: a number is shown only with its meaning. statl always says what the number counts (unit + what, e.g. "2 · గాయపడిన కానిస్టేబుళ్లు", "12 · సమస్యాత్మక జిల్లాలు"); a date is written as a date, month first and in full ("నవంబర్ 18–19"). If the story has no meaningful figure, leave stat empty (the card then shows a short topic phrase or nothing) — never a bare or decorative number.
 - h: Telugu headline that fits ONE line on the card: about 6–8 words, at most ~32 Telugu letters (the app shrinks a little, never cuts; longer ones wrap). Lead with place + what happened; no colon-chains, no "అప్‌డేట్:" prefix. en/hi h also short (≤ ~45 characters). p: 45–65 word Telugu summary. pts: 2–3 key points (≤10 words each), only facts in the article that are NOT already in p (numbers, dates, names, what happens next); never restate p — if the article has no extra facts, give 2 points or fewer. Headline rule (no clickbait): h says what the story says; no shock words, no question headlines hiding the fact, no number or allegation in h that p does not support. why: ONE sentence (≤20 words) on who is affected — no new facts, no opinion.
 - brk: only for genuinely major confirmed breaking news (max 1, rarely 2 per edition).
 - cat: chip like "తెలంగాణ · ప్రభుత్వం", "హైదరాబాద్ · నీరు", "ఏపీ · విశాఖ", "భారత్ · అంతరిక్షం", "ప్రపంచం · టెక్నాలజీ". stat + statl: one big number or short phrase (≤12 chars) with a one-line label.
