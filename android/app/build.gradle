@@ -1,7 +1,7 @@
 plugins { id 'com.android.application' }
 
 // Swipe2News Android app: a Trusted Web Activity that opens https://swipe2news.com full-screen.
-// Version: set by the build (GitHub run number), so every build can go to Play Store.
+// Version: set by the build (GitHub run number), so every build can go to Play Store. Signed with the owner upload key (repo secrets).
 def vCode = (System.getenv('VERSION_CODE') ?: '1') as int
 def ks = System.getenv('KEYSTORE_FILE')
 
