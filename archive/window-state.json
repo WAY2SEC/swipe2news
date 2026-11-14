@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-14T07:35:00+05:30",
+ "cutoff": "2026-11-14T08:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T15:05:00+05:30/2026-11-10T15:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 6,
-   "late": 5,
-   "sensitive": 3,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 3,
-   "review": 2,
-   "gaps": "Search-first; WebFetch via sub-agent. munsifdaily.com fetch failed; Hans India PVNR expressway article (1140681) and TN rain article blocked by fetch permission (review). TMV cyclone-roads article has no time (review). ETV Bharat TG/AP live blogs stop at 08:19/09:22, Andhra Jyothy at 07:30. Siasat/DC/Hans listing items were from 9 Nov or before lookback. No in-range international-topic or other-state items found; AP cabinet outcome still not found."
-  },
   {
    "window": "2026-11-10T15:35:00+05:30/2026-11-10T16:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 2,
    "gaps": "07:35 run started on time (07:36 IST). Lookback from 23:05 13 Nov. Read: ETV AP live blog (06:36–06:54) and ETV TG live blog (06:38–06:56). Published: central team cyclone-damage tour (Bapatla/Palnadu/Eluru/East Godavari), AP panchayat first-phase nominations (3,967). Duplicates (already published): Rahul arrival/schedule x3, Revanth Bharat Summit remarks (Siasat 3576852 earlier), Bharat Summit opening, US FAA ground stop, Bay low pressure. Skipped: Lokesh–Rana podcast (low news value), Raptadu accused hospital shift (no details), pharmacists meeting (low value). Review (no verifiable pub time): Siasat auto drivers housing 3576891, Siasat USCIRF Sharjeel Imam 3576874. Search results thin/stale; not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; no world items with verifiable times. Districts searched: Jagtial, Kamareddy, Nirmal, Peddapalli, Mulugu, Eluru, Kakinada, Prakasam."
+  },
+  {
+   "window": "2026-11-14T07:35:00+05:30/2026-11-14T08:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 20,
+   "published": 7,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 6,
+   "skipped": 6,
+   "review": 1,
+   "gaps": "08:05 run started 08:06 IST. Lookback from 23:35 13 Nov. Read: Andhra Jyothy live blog (07:29–07:40, 19 items), Hans India CII exhibitions (05:31), ETV TG/AP live blogs (no new items after 06:56). Published: Kothagudem airport (Sujatanagar), Saudi flight suspension, Bharat Summit visa row (claim), SEC–Rayalaseema SPs Tirupati, Khammam tiger, U-19 Asia Cup final, Vizag CII exhibitions. Duplicates: Assam crash toll 26, US FAA ground stop, Rahul arrival, Bharat Summit schedule, central team Palnadu, AJ CII public visit. Skipped: Rahul breakfast meeting, Modi Gujarat, KTR Karimnagar meeting, SpaceX Starship (no outcome), China surrogacy ban (no issuing body), Raptadu accused hospital shift. Review: AJ 'local bodies nominations 4 corporations/19 municipalities, polls 26, counting 30' conflicts with ETV panchayat schedule. Old/not eligible: Hans Bhadradri rain (4 Nov), TT/Tribune Bharat Summit 2025. Search results mostly stale; not reached: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters. Districts searched: Suryapet, Adilabad, Sangareddy, Vikarabad, Bhadradri, Kurnool, NTR/Vijayawada, Anantapur, Nandyal, Chittoor."
   }
  ],
  "seen": [
@@ -1971,6 +1971,66 @@
   },
   {
    "url": "https://www.siasat.com/congress-will-bring-equal-opportunities-goud-at-bharat-summit-3576906/",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-14th-november-2026-3713.html#kothagudem-airport",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-14th-november-2026-3713.html#saudi-flights",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-14th-november-2026-3713.html#bharat-summit-visa",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-14th-november-2026-3713.html#tirupati-sec",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-14th-november-2026-3713.html#khammam-tiger",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-14th-november-2026-3713.html#u19-asia-cup",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/cii-summit-industrial-exhibitions-open-to-public-on-today-1141945",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-14th-november-2026-3713.html",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-14th-november-2026-3713.html#local-body-nominations",
+   "d": "2026-11-14",
+   "w": "review"
+  },
+  {
+   "url": "https://www.thehansindia.com/telangana/heavy-rain-swells-streams-in-bhadradri-kothagudem-district-road-connectivity-hit-1139184",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/congress-embarrassed-by-absence-of-top-leaders-and-india-map-controversy-at-bharat-summit-in-hyderabad",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.tribuneindia.com/news/india/bharat-summit-passes-hyderabad-resolution-on-global-issues",
    "d": "2026-11-14",
    "w": "skipped"
   }
