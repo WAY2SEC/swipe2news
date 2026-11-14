@@ -1,0 +1,31 @@
+name: Tell search engines about new news
+
+# Every time new stories are published, send their links to IndexNow
+# (Bing, Yandex, Seznam, Naver and others share it). Google reads our sitemaps.
+on:
+  push:
+    branches: [main]
+    paths: ['web/news-sitemap.xml']
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Send new story links to IndexNow
+        run: |
+          python3 - <<'PY'
+          import re, json, urllib.request
+          xml = open('web/news-sitemap.xml', encoding='utf-8').read()
+          urls = re.findall(r'<loc>(https://swipe2news\.com/[^<]+)</loc>', xml)[:100]
+          urls = ['https://swipe2news.com/', 'https://swipe2news.com/te/', 'https://swipe2news.com/en/'] + urls
+          body = json.dumps({"host": "swipe2news.com", "key": "def7b6992ebbf33715254b2f7f185cc3",
+                             "keyLocation": "https://swipe2news.com/def7b6992ebbf33715254b2f7f185cc3.txt", "urlList": urls}).encode()
+          for ep in ['https://api.indexnow.org/indexnow', 'https://www.bing.com/indexnow', 'https://yandex.com/indexnow']:
+              try:
+                  r = urllib.request.urlopen(urllib.request.Request(ep, data=body, headers={'Content-Type': 'application/json; charset=utf-8'}), timeout=30)
+                  print(ep, r.status, len(urls), 'links')
+              except Exception as e:
+                  print(ep, 'failed:', e)
+          PY
