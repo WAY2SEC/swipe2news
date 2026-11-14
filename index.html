@@ -2130,7 +2130,14 @@ if(pushOK){
     if(OneSignal.Notifications.permission) tagUser(OneSignal);
   });
 } else if('serviceWorker' in navigator && (location.protocol==='https:'||location.hostname==='127.0.0.1') && !/claude\.ai|claudeusercontent/.test(location.host)){
-  navigator.serviceWorker.register('sw.js').catch(()=>{});
+  navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).catch(()=>{});
+}
+/* pick up new versions straight away: check on open and when the app comes back to the screen, reload once when the new version takes over */
+if('serviceWorker' in navigator && !/claude\.ai|claudeusercontent/.test(location.host)){
+  const hadSW=!!navigator.serviceWorker.controller; let reloaded=false;
+  navigator.serviceWorker.addEventListener('controllerchange',()=>{ if(hadSW&&!reloaded){ reloaded=true; location.reload(); } });
+  const chk=()=>navigator.serviceWorker.getRegistration().then(r=>r&&r.update()).catch(()=>{});
+  setTimeout(chk,3000); document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible') chk(); });
 }
 async function askAlerts(){
   $('alertCard').hidden = true; store.set('alertAsked', Date.now());
