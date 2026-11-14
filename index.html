@@ -675,6 +675,13 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .s2n .srow .aic .ail{display:inline!important}.s2n .srow .aic .ais{display:none!important}
 .s2n .srow.tight .aic .ail,.s2n .srow.tight2 .aic .ail{display:none!important}.s2n .srow.tight .aic .ais,.s2n .srow.tight2 .aic .ais{display:inline!important}.s2n .srow.tight2 .srcb small{display:none!important}
 .s2n .ctxrow{display:flex;justify-content:flex-start;margin:-2px 0 2px}
+
+/* no fade at the bottom of story cards (cards are fitted, nothing is hidden there); full attribution row on every phone */
+.story.s2n .text{-webkit-mask-image:none!important;mask-image:none!important;padding-bottom:4px}
+.s2n .srow{gap:6px!important}
+.s2n .srow .aic{height:26px!important;padding:0 9px!important;font-size:11px!important;gap:4px}
+.s2n .srow .srcb{gap:3px!important}.s2n .srow .srcb small{font-size:11px!important}
+.s2n .srow .srcb a,.s2n .srow .srcb b{font-size:13px!important;letter-spacing:-.1px}
 </style>
 </head>
 <body>
@@ -798,7 +805,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
       <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
       <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
-      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 8.2 · Swipe2News</p>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 8.3 · Swipe2News</p>
     </div></div>
   </section>
   <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">
