@@ -410,6 +410,8 @@ function artPlan(s){
     if(wbg) return {m:'land',bg:wbg,wx:rain?'weather':(heat||cold)?'':'cloud'}; // reviewer 14 Nov: place picture clear; one small weather sign in the sky corner
     return {m:'wx',bg,obj:wo,tone:rain?'':heat?'warm':cold?'cool':''};
   }
+  // coal mining / Singareni news: an industry picture, never a temple or landmark (owner, 14 Nov 2026). Switch 'power' to 'coal' once art/n/coal arrives.
+  if(/సింగరేణి|బొగ్గు|బొగ్గుగని|ఓపెన్ కాస్ట్|గనిలో|గని కార్మిక|coal|Singareni|coal mine|colliery|SCCL/i.test(t)) return {m:'land',bg:'n/'+(window.ART_COAL||'power')};
   if(land&&['devotional','travel','culture'].includes(type)) return {m:'land',bg:land};
   // owner 14 Nov: place known → the place picture alone, nothing pasted on top
   if(land) return {m:'land',bg:land};
