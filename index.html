@@ -72,7 +72,7 @@ setTimeout(box,12000);setTimeout(box,25000);})();
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Noto+Sans+Telugu:wght@400;600;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Noto+Sans+Telugu:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap">
 <style>
 @font-face{font-family:'Archivo Black';src:url(/tools/fonts/Outfit-ExtraBold.ttf) format('truetype');font-display:swap}
 /* ===== tokens: Editorial White (light) / Midnight Pro (dark) ===== */
@@ -413,7 +413,7 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .s2n .text h2{color:var(--ink);font-size:20px;line-height:1.4;margin:0}
 .s2n .text .sum{color:var(--ink);opacity:.86;font-size:15.5px;line-height:1.65}
 .s2n .meta .mloc{max-width:40%;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
-.s2n .srow{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:12px}
+.s2n .srow{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:13px}
 .s2n .srow .aic,.s2n .srow .tl{display:inline-flex;align-items:center;gap:4px;height:22px;padding:0 8px;border-radius:11px;font-size:10.5px;font-weight:800}
 .s2n .srow .aic{background:#2E0827;color:#FFFDF5;text-decoration:none}
 .s2n .srow .src{color:var(--muted);font-weight:600;font-size:12px}
@@ -433,13 +433,13 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .s2n .bnr{min-height:118px;max-height:23%;padding:12px 18px}
 .s2n .bkw .stat{font-size:clamp(30px,8.5vw,40px)}
 .s2n .text{padding:12px 18px 6px;gap:7px}
-.s2n .sline{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-family:'Outfit',var(--body);font-size:12px;font-weight:700;color:var(--muted)}
+.s2n .sline{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-family:'Outfit',var(--body);font-size:13px;font-weight:700;color:var(--muted)}
 .s2n .sline .src a,.s2n .sline .src b{color:#4A0E3F;font-weight:800;text-decoration:underline;text-underline-offset:2px}
 :root[data-theme="dark"] .s2n .sline .src a{color:#F5A23A}
 .s2n .sline .stime::before{content:'·';margin-right:8px}
 .s2n .sline .tl{display:inline-flex;align-items:center;height:21px;padding:0 8px;border-radius:11px;font-size:10.5px;font-weight:800}
 .s2n .kpts{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:4px}
-.s2n .kpts li{position:relative;padding-left:16px;color:var(--ink);font-size:14.5px;font-weight:600;line-height:1.5}
+.s2n .kpts li{position:relative;padding-left:16px;color:var(--ink);font-size:15.5px;font-weight:500;line-height:1.5}
 .s2n .kpts li::before{content:'';position:absolute;left:2px;top:.62em;width:7px;height:7px;border-radius:2px;background:#F5A23A}
 .s2n .srow{margin-top:2px}
 .s2n .cacts{justify-content:space-around;gap:0;padding:4px 6px}
@@ -461,11 +461,11 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .s2n .tsz{flex:none;margin-left:auto;width:34px;height:30px;border-radius:15px;border:1.5px solid #4A0E3F;background:transparent;color:#4A0E3F;font:800 12px 'Outfit',var(--body);cursor:pointer}
 .s2n .meta .tsz+.lis{margin-left:6px}
 .s2n .text h2{font-weight:800;line-height:1.35;letter-spacing:-.1px}
-.s2n .text h2.hs{font-size:24px}.s2n .text h2.hm{font-size:22px}.s2n .text h2.hl{font-size:20px}
-:root[data-fsz="s"] .s2n .text h2{font-size:calc(var(--h,22px) - 1px)} :root[data-fsz="s"] .s2n .text .sum{font-size:14.5px}
-:root[data-fsz="l"] .s2n .text h2.hs{font-size:26px}:root[data-fsz="l"] .s2n .text h2.hm{font-size:24px}:root[data-fsz="l"] .s2n .text h2.hl{font-size:22px}:root[data-fsz="l"] .s2n .text .sum{font-size:17.5px}:root[data-fsz="l"] .s2n .kpts li{font-size:16px}
+.s2n .text h2.hs{font-size:28px}.s2n .text h2.hm{font-size:26px}.s2n .text h2.hl{font-size:24px}.s2n .text h2{font-weight:700}
+:root[data-fsz="s"] .s2n .text h2{font-size:calc(var(--h,22px) - 1px)} :root[data-fsz="s"] .s2n .text .sum{font-size:16px}
+:root[data-fsz="l"] .s2n .text h2.hs{font-size:30px}:root[data-fsz="l"] .s2n .text h2.hm{font-size:28px}:root[data-fsz="l"] .s2n .text h2.hl{font-size:26px}:root[data-fsz="l"] .s2n .text .sum{font-size:19px}:root[data-fsz="l"] .s2n .kpts li{font-size:16px}
 :root[data-fsz="s"] .s2n .text h2.hs{font-size:22px}:root[data-fsz="s"] .s2n .text h2.hm{font-size:20px}:root[data-fsz="s"] .s2n .text h2.hl{font-size:18.5px}
-.s2n .text .sum{font-size:15.5px;line-height:1.65}
+.s2n .text .sum{font-size:17px;font-weight:400;line-height:1.6}
 .s2n .sline .stime{display:inline-flex;align-items:center;gap:5px}.s2n .sline .stime::before{content:none}
 .s2n .tbox{display:flex;align-items:center;gap:9px;padding:7px 10px;border-radius:12px;border:1px solid}
 .s2n .tbox .ti2{flex:none;width:24px;text-align:center;font-size:16px;font-weight:800}
@@ -546,6 +546,8 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 .s2n .bmark{top:11px;bottom:auto!important;right:12px;padding:4px 10px 4px 4px;font-size:12.5px}.s2n .bmark img{width:19px;height:19px}
 .s2n .bchip{max-width:calc(100% - 150px)}
 .s2n.hasph .bmark{top:11px}
+/* picture boards (district landmark / story type) */
+.s2n .bnr img.art2{object-position:50% 60%}.s2n .bnr img.artc{object-fit:contain;object-position:50% 100%;-webkit-mask-image:linear-gradient(transparent,#000 28%);mask-image:linear-gradient(transparent,#000 28%)}.s2n.hasph .bnr:has(img.artc){background:#4A0E3F}
 /* header language pill */
 .lngb{display:inline-flex;align-items:center;gap:5px;height:36px;padding:0 11px;border-radius:18px;border:1px solid var(--line);background:var(--chipbg);color:var(--brand);font:inherit;font-size:13px;font-weight:800;cursor:pointer;white-space:nowrap}
 
@@ -625,6 +627,12 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .s2n .meta>span{white-space:nowrap;flex-shrink:0}
 .s2n .meta .mloc{flex-shrink:1;min-width:0}
 .s2n .meta .lis{white-space:nowrap;flex-shrink:0}
+
+/* 14 Nov 2026 font guide: one identity, script-specific Noto fonts; logo/wordmark stays Outfit */
+[lang="en"] .text,.text[lang="en"],:root[lang="en"] body{--body:'Noto Sans','Outfit',sans-serif}
+[lang="hi"] .text,.text[lang="hi"],:root[lang="hi"] body{--body:'Noto Sans Devanagari','Noto Sans',sans-serif}
+.text[lang="en"] h2,.text[lang="en"] .sum,.text[lang="en"] .kpts{font-family:'Noto Sans','Outfit',sans-serif}
+.text[lang="hi"] h2,.text[lang="hi"] .sum,.text[lang="hi"] .kpts{font-family:'Noto Sans Devanagari','Noto Sans',sans-serif}
 </style>
 </head>
 <body>
@@ -638,7 +646,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
     <button class="icon" id="setBtn" type="button" aria-label="సెట్టింగ్స్"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg></button>
   </header>
   <nav class="tabs" id="tabs" aria-label="విభాగాలు"></nav>
-  <main class="feed" id="feed" aria-label="వార్తలు"><!--SSR--><div class="ssr" lang="en"><h1>Swipe2News – Telangana, Andhra Pradesh, India &amp; World news in short</h1><p>Know More. Scroll Less. Short, sourced news from every district of Telangana and Andhra Pradesh, plus the most important news from India and the world – in Telugu, English and Hindi. Every story names and links its original source.</p><p><a href="/en/">English news</a> · <a href="/te/">తెలుగు వార్తలు</a> · <a href="/hi/">हिन्दी खबरें</a> · <a href="/web/">Latest news website</a> · <a href="/install.html">Install the app</a> · <a href="/epaper/">E-paper</a> · <a href="/mandi/">Mandi prices</a> · <a href="/?jobs=1">Jobs</a></p><h2>Top stories</h2><ul><li><a href="/s/16zt68l?l=en">Tiger spotted on Khammam district border; residents told to stay alert</a> <small>Andhra Jyothy · 14.11.2026 08:05</small></li><li><a href="/s/16efovw?l=en">Election Commission meets Rayalaseema SPs in Tirupati on panchayat poll security</a> <small>Andhra Jyothy · 14.11.2026 08:05</small></li><li><a href="/s/1o42k76?l=en">Bharat Summit visa row: Centre says granting visas is each country&#x27;s right</a> <small>Andhra Jyothy · 14.11.2026 08:05</small></li><li><a href="/s/y3fx8n?l=en">Suspension of flights to Saudi Arabia extended again</a> <small>Andhra Jyothy · 14.11.2026 08:05</small></li><li><a href="/s/1g64cd5?l=en">Kothagudem airport approved; 667 acres at Sujatanagar</a> <small>Andhra Jyothy · 14.11.2026 08:05</small></li><li><a href="/s/1or3axx?l=en">India face Pakistan in Under-19 Asia Cup final today</a> <small>Andhra Jyothy · 14.11.2026 08:05</small></li><li><a href="/s/14wchok?l=en">Update: Rahul reaches Hyderabad; gig workers&#x27; welfare policy launch today</a> <small>ETV Bharat · 14.11.2026 07:05</small></li><li><a href="/s/asw1tn?l=en">Central team begins tour of cyclone-hit districts today</a> <small>ETV Bharat · 14.11.2026 07:35</small></li><li><a href="/s/1uy542i?l=en">AP panchayat polls: nominations for first phase open tomorrow</a> <small>ETV Bharat · 14.11.2026 07:35</small></li><li><a href="/s/1pvk91r?l=en">Visakhapatnam CII summit industrial exhibitions open to public today</a> <small>The Hans India · 14.11.2026 08:05</small></li><li><a href="/s/qrdpp?l=en">US halts flights nationwide over air traffic communication problem</a> <small>ABC News · 14.11.2026 07:05</small></li><li><a href="/s/f6ks20?l=en">Low pressure in Bay of Bengal may become Cyclone Akvan on Nov 16</a> <small>Deccan Chronicle · 14.11.2026 07:05</small></li><li><a href="/s/h2y8j0?l=en">Childcare centres for working mothers&#x27; children at Pashamylaram, Suraram</a> <small>Telangana Today · 14.11.2026 07:05</small></li><li><a href="/s/xfz9hu?l=en">YSRCP alleges government ignoring drought, cyclone-hit farmers</a> <small>ANI · 13.11.2026 23:05</small></li><li><a href="/s/1yxc4vf?l=en">ED arrests main accused in Mahadev betting app case</a> <small>The Siasat Daily · 13.11.2026 21:35</small></li><li><a href="/s/5cw4r?l=en">Complaints against JNTU-H, PJTAU VCs; Governor seeks report</a> <small>Telangana Today · 14.11.2026 07:05</small></li><li><a href="/s/rr01og?l=en">CM Revanth defends Rahul&#x27;s participation in Bharat Summit</a> <small>ANI · 13.11.2026 21:35</small></li><li><a href="/s/ggpsym?l=en">CM Revanth criticises KCR, KTR over water crisis</a> <small>ANI · 13.11.2026 23:05</small></li><li><a href="/s/bqv157?l=en">Three get 20 years in jail in 2016 robbery, attempted rape case</a> <small>Telangana Today · 13.11.2026 21:35</small></li><li><a href="/s/5lzyy7?l=en">Yacharam farmer declared brain dead; family donates organs under Jeevandan</a> <small>Telangana Today · 13.11.2026 21:35</small></li><li><a href="/s/z97r9f?l=en">Koti Deepotsavam: traffic diversions around NTR Stadium from November 14 to 30</a> <small>Telangana Today · 13.11.2026 20:35</small></li><li><a href="/s/1n1et0e?l=en">BJP leader Ponguleti Sudhakar Reddy alleges Congress, CPI harming democracy</a> <small>Telangana Today · 13.11.2026 22:05</small></li><li><a href="/s/vu4eiv?l=en">Rahul Gandhi gig workers&#x27; bike rally: traffic curbs in Madhapur on Saturday</a> <small>Telangana Tribune · 13.11.2026 22:05</small></li><li><a href="/s/a5eii6?l=en">Hyderabad Valves 2026 conference opens with 26 live cardiac cases</a> <small>Telangana Today · 13.11.2026 20:05</small></li></ul><p class="ssrf"><a href="/about.html">About</a> · <a href="/editorial-policy.html">Editorial policy</a> · <a href="/editorial-policy.html#corrections">Corrections</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p><p class="ssrw">Loading news… · వార్తలు లోడ్ అవుతున్నాయి…</p></div><!--/SSR--></main>
+  <main class="feed" id="feed" aria-label="వార్తలు"><!--SSR--><div class="ssr" lang="en"><h1>Swipe2News – Telangana, Andhra Pradesh, India &amp; World news in short</h1><p>Know More. Scroll Less. Short, sourced news from every district of Telangana and Andhra Pradesh, plus the most important news from India and the world – in Telugu, English and Hindi. Every story names and links its original source.</p><p><a href="/en/">English news</a> · <a href="/te/">తెలుగు వార్తలు</a> · <a href="/hi/">हिन्दी खबरें</a> · <a href="/web/">Latest news website</a> · <a href="/install.html">Install the app</a> · <a href="/epaper/">E-paper</a> · <a href="/mandi/">Mandi prices</a> · <a href="/?jobs=1">Jobs</a></p><h2>Top stories</h2><ul><li><a href="/s/rvhns3?l=en">Accused arrested in Dharpally chain-snatching case: police</a> <small>HMTV · 14.11.2026 13:35</small></li><li><a href="/s/1ccxy62?l=en">KTR questions Rahul, says Congress promises remain unfulfilled</a> <small>Siasat Daily · 14.11.2026 13:05</small></li><li><a href="/s/1efb211?l=en">Update: Kaziranga road crash toll rises to 26; PM announces ex gratia</a> <small>Bombay Samachar (PTI) · 14.11.2026 13:35</small></li><li><a href="/s/1dksgd4?l=en">Update: Gig Workers Act rollout begins; ₹5 lakh accident cover</a> <small>NewsMeter · 14.11.2026 12:35</small></li><li><a href="/s/1pac3z8?l=en">Update: Cyclone threat in Bay of Bengal; heavy rain for coastal Andhra on Nov 18–19</a> <small>Deccan Chronicle (ANI) · 14.11.2026 11:35</small></li><li><a href="/s/1ix38so?l=en">Minister Komatireddy counters BRS criticism of Rahul, government</a> <small>Telangana Today · 14.11.2026 11:35</small></li><li><a href="/s/1bc7w0m?l=en">Four Indians among 14 killed in UAE&#x27;s Fujairah road crash</a> <small>The Siasat Daily · 14.11.2026 11:05</small></li><li><a href="/s/rx9nt?l=en">BJP state chief Ramchander Rao placed under house arrest</a> <small>UNI · 14.11.2026 10:35</small></li><li><a href="/s/z90i60?l=en">Hyderabad businessman says he lost Rs 12.3 crore in trading fraud; case registered</a> <small>The Siasat Daily · 14.11.2026 10:05</small></li><li><a href="/s/lnmxjc?l=en">TGSRTC revises monthly season pass; new benefits from today</a> <small>The Siasat Daily · 14.11.2026 10:35</small></li><li><a href="/s/1p0hszy?l=en">Hyderabad devotee donates Rs 10 crore to TTD Annaprasadam Trust</a> <small>The Siasat Daily · 14.11.2026 10:05</small></li><li><a href="/s/1m20gck?l=en">Cold grips Telangana; Hyderabad below 16°C</a> <small>Sakshi Post · 14.11.2026 11:35</small></li><li><a href="/s/1o0bc0x?l=en">UN voices concern as attacks on civilians rise in Yemen</a> <small>The Siasat Daily (IANS) · 14.11.2026 09:35</small></li><li><a href="/s/1u2d1r?l=en">Major fire at painting shop in Hafeezpet</a> <small>Deccan Chronicle · 14.11.2026 09:05</small></li><li><a href="/s/5fqd8e?l=en">Elephant turns restless at Gyarvi Sharif procession in Old City; no injuries</a> <small>The Siasat Daily · 14.11.2026 09:35</small></li><li><a href="/s/16zt68l?l=en">Tiger spotted on Khammam district border; residents told to stay alert</a> <small>Andhra Jyothy · 14.11.2026 08:05</small></li><li><a href="/s/16efovw?l=en">Election Commission meets Rayalaseema SPs in Tirupati on panchayat poll security</a> <small>Andhra Jyothy · 14.11.2026 08:05</small></li><li><a href="/s/1o42k76?l=en">Bharat Summit visa row: Centre says granting visas is each country&#x27;s right</a> <small>Andhra Jyothy · 14.11.2026 08:05</small></li><li><a href="/s/y3fx8n?l=en">Suspension of flights to Saudi Arabia extended again</a> <small>Andhra Jyothy · 14.11.2026 08:05</small></li><li><a href="/s/1g64cd5?l=en">Kothagudem airport approved; 667 acres at Sujatanagar</a> <small>Andhra Jyothy · 14.11.2026 08:05</small></li><li><a href="/s/1or3axx?l=en">India face Pakistan in Under-19 Asia Cup final today</a> <small>Andhra Jyothy · 14.11.2026 08:05</small></li><li><a href="/s/14wchok?l=en">Update: Rahul reaches Hyderabad; gig workers&#x27; welfare policy launch today</a> <small>ETV Bharat · 14.11.2026 07:05</small></li><li><a href="/s/asw1tn?l=en">Central team begins tour of cyclone-hit districts today</a> <small>ETV Bharat · 14.11.2026 07:35</small></li><li><a href="/s/1uy542i?l=en">AP panchayat polls: nominations for first phase open tomorrow</a> <small>ETV Bharat · 14.11.2026 07:35</small></li></ul><p class="ssrf"><a href="/about.html">About</a> · <a href="/editorial-policy.html">Editorial policy</a> · <a href="/editorial-policy.html#corrections">Corrections</a> · <a href="/contact.html">Contact</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p><p class="ssrw">Loading news… · వార్తలు లోడ్ అవుతున్నాయి…</p></div><!--/SSR--></main>
   <div class="installbar" id="installBar" hidden role="dialog" aria-label="యాప్ ఇన్‌స్టాల్">
     <img src="icon-192.png" alt="">
     <div class="t"><b>Swipe2News యాప్‌ను హోమ్ స్క్రీన్‌కు జోడించండి</b><span>ఉచితం · ఒక్క టచ్‌తో వార్తలు · 🔔 అలర్ట్‌లు</span></div>
@@ -748,7 +756,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
       <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
       <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
-      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 7.2 · Swipe2News</p>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 7.3 · Swipe2News</p>
     </div></div>
   </section>
   <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">
@@ -1205,7 +1213,7 @@ function cardHTML(s,i){
   if(s.kind==='house') return houseHTML(s,i);
   if(s.kind==='loc') return locHTML(s,i);
   const where=[s.loc, s.place&&s.place!=='TS'&&s.place!=='IN' ? placeName(s.place) : (s.st&&s.st!=='TG'&&s.st!=='IN' ? placeLabel('st-'+s.st) : '')].filter(Boolean).join(', ');
-  const ph = !!storyPhoto(s);
+  const ph = !!(storyPhoto(s)||artImg(s));
   const read = /^https?:\/\//.test(s.url||'') ? `<a class="read" href="${esc(s.url)}" target="_blank" rel="noopener">${U('full')}</a>` : '';
   return `<article class="story s2n${ph?' hasph':''}" aria-label="${U('news')} ${i+1}" style="--hl:#4A0E3F;--hl-ink:#4A0E3F">
   <div class="panel bnr">

@@ -267,8 +267,14 @@ footer a:hover{color:var(--brand)}
 .lsw button[aria-pressed="true"]{background:var(--gold,#F5A23A);color:#2E0827}
 .myplace{display:inline-flex;align-items:center;gap:6px;border:0;background:transparent;color:inherit;font:inherit;cursor:pointer;padding:0}
 @media (prefers-reduced-motion:reduce){.tk .row,.live i,.listen .wave i{animation:none!important}.card{transition:none}}
+
+/* 14 Nov 2026 font guide: one identity, script-specific Noto fonts; logo/wordmark stays Outfit */
+[lang="en"] .text,.text[lang="en"],:root[lang="en"] body{--body:'Noto Sans','Outfit',sans-serif}
+[lang="hi"] .text,.text[lang="hi"],:root[lang="hi"] body{--body:'Noto Sans Devanagari','Noto Sans',sans-serif}
+.text[lang="en"] h2,.text[lang="en"] .sum,.text[lang="en"] .kpts{font-family:'Noto Sans','Outfit',sans-serif}
+.text[lang="hi"] h2,.text[lang="hi"] .sum,.text[lang="hi"] .kpts{font-family:'Noto Sans Devanagari','Noto Sans',sans-serif}
 </style>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&family=Noto+Sans+Telugu:wght@400;600;700;800&display=swap"><link rel="stylesheet" href="/web/s2n.css?v=2">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&family=Noto+Sans+Telugu:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap"><link rel="stylesheet" href="/web/s2n.css?v=2">
 </head>
 <body>
 <a class="skip" href="#main">ప్రధాన కంటెంట్‌కు వెళ్లండి</a>

@@ -261,6 +261,12 @@ footer a:hover{color:var(--brand)}
 .myplace{display:inline-flex;align-items:center;gap:6px;border:0;background:transparent;color:inherit;font:inherit;cursor:pointer;padding:0}
 @media (prefers-reduced-motion:reduce){.tk .row,.live i,.listen .wave i{animation:none!important}.card{transition:none}}
 
+/* 14 Nov 2026 font guide: one identity, script-specific Noto fonts; logo/wordmark stays Outfit */
+[lang="en"] .text,.text[lang="en"],:root[lang="en"] body{--body:'Noto Sans','Outfit',sans-serif}
+[lang="hi"] .text,.text[lang="hi"],:root[lang="hi"] body{--body:'Noto Sans Devanagari','Noto Sans',sans-serif}
+.text[lang="en"] h2,.text[lang="en"] .sum,.text[lang="en"] .kpts{font-family:'Noto Sans','Outfit',sans-serif}
+.text[lang="hi"] h2,.text[lang="hi"] .sum,.text[lang="hi"] .kpts{font-family:'Noto Sans Devanagari','Noto Sans',sans-serif}
+
 /* Swipe2News editorial theme (13 Nov 2026)
    Deep plum branding, white editorial cards, restrained orange accents, charcoal headlines,
    Outfit for branding, Inter for English reading, Noto Sans Telugu with generous spacing. */
@@ -464,16 +470,7 @@ table.jd th{width:34%;color:var(--muted);font-weight:800;background:var(--soft)}
 <main class="wrap">
 <div class="agrid">
 <article class="ar" style="--hl:var(--c-water);--hlink:var(--c-water)">
-  <div class="pnl"><svg xmlns="http://www.w3.org/2000/svg" class="scene" viewBox="0 0 400 200" preserveAspectRatio="xMidYMax meet" fill="#fff" aria-hidden="true">
-    <g opacity=".35"><path d="M0 170c80-20 160-24 240-14s120 10 160 4v40H0z"/></g>
-    <g>
-      <path d="M70 200v-36h52v36z"/><path d="M62 166l34-30 34 30z"/>
-      <path d="M150 200v-28h40v28z"/><path d="M144 174l26-24 26 24z"/>
-      <path d="M86 200v-16h14v16z" opacity=".5"/>
-      <path d="M250 200c-2-40 0-80 6-110" stroke="#fff" stroke-width="5" fill="none"/><path d="M256 90c-20 0-34 10-40 22 14-8 28-12 40-10-18 4-30 14-34 26 12-12 24-18 34-18 0 12-6 24-14 32 12-8 18-20 20-30 6 10 18 18 32 22-8-8-14-18-16-28 12 2 26 8 34 18-4-12-16-22-32-26 10-2 24 0 36 8-6-12-22-18-40-18z"/><path d="M300 200c-2-40 0-80 6-88" stroke="#fff" stroke-width="4" fill="none"/><path d="M306 112c-20 0-34 10-40 22 14-8 28-12 40-10-18 4-30 14-34 26 12-12 24-18 34-18 0 12-6 24-14 32 12-8 18-20 20-30 6 10 18 18 32 22-8-8-14-18-16-28 12 2 26 8 34 18-4-12-16-22-32-26 10-2 24 0 36 8-6-12-22-18-40-18z"/><path d="M30 200c-2-40 0-80 6-82.5" stroke="#fff" stroke-width="3.75" fill="none"/><path d="M36 117.5c-20 0-34 10-40 22 14-8 28-12 40-10-18 4-30 14-34 26 12-12 24-18 34-18 0 12-6 24-14 32 12-8 18-20 20-30 6 10 18 18 32 22-8-8-14-18-16-28 12 2 26 8 34 18-4-12-16-22-32-26 10-2 24 0 36 8-6-12-22-18-40-18z"/>
-      <path d="M200 200l40-24 40 24M240 200v-24" stroke="#fff" stroke-width="3" fill="none" opacity=".6"/>
-      <path d="M330 200h70v-6h-70zM320 188h80v-4h-80zM340 178h60v-3h-60z" opacity=".55"/>
-    </g></svg>
+  <div class="pnl"><img class="ph art2 artc" src="/art/c/weather.jpg" alt="" loading="lazy" decoding="async"><i class="phs"></i>
     <div class="chips"><span class="chip">తెలంగాణ · వాతావరణం</span></div>
     <div><div class="stat te">20 సెం.మీ.</div><div class="statl">కొన్ని చోట్ల కురిసే అవకాశం ఉన్న వర్షం</div></div></div>
   <div class="in">
@@ -499,71 +496,7 @@ table.jd th{width:34%;color:var(--muted);font-weight:800;background:var(--soft)}
   <div class="rbox rqr"><h4>📲 Swipe2News ఛానెల్</h4><img src="/qr.png" alt="Swipe2News WhatsApp ఛానెల్ QR"><p>స్కాన్ చేసి ప్రతి 30 నిమిషాలకు వార్తలు పొందండి</p></div>
 </aside>
 </div>
-<section class="sec"><div class="sh"><h2>ఇవి కూడా చదవండి</h2></div><div class="grid"><a class="card" href="/s/1g9jke" style="--hl:var(--c-city);--hlink:var(--c-city)"><div class="pnl"><svg xmlns="http://www.w3.org/2000/svg" class="scene" viewBox="0 0 400 200" preserveAspectRatio="xMidYMax meet" fill="#fff" aria-hidden="true">
-    <g opacity=".45"><path d="M30 33l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M96 15l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M318 23l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M372 51l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M250 7l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M150 53l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/></g>
-    <g opacity=".55"><path d="M70 0v26" stroke="#fff" stroke-width="2"/><path d="M58 30h24l-4 30h-16z"/><rect x="56" y="26" width="28" height="5" rx="2"/><path d="M66 60h8l-4 10z"/><path d="M330 0v26" stroke="#fff" stroke-width="2"/><path d="M318 30h24l-4 30h-16z"/><rect x="316" y="26" width="28" height="5" rx="2"/><path d="M326 60h8l-4 10z"/></g>
-    <g><g transform="translate(110 200) scale(1)">
-      <path d="M-44-34q0 34 44 34t44-34z"/><path d="M38-38q14 0 22-8-6 14-22 14z"/>
-      <path d="M44-46c-6-8-4-18 4-28 2 12 12 14 8 24-2 6-8 8-12 4z" opacity=".95"/>
-      <path d="M48-52c-2-4-1-9 2-13 1 6 5 7 3 11z" fill="var(--hl,#000)" opacity=".45"/>
-      <path d="M-30-30q30 10 60 0" stroke="var(--hl,#000)" stroke-width="3" fill="none" opacity=".35"/></g><g transform="translate(200 200) scale(1.35)">
-      <path d="M-44-34q0 34 44 34t44-34z"/><path d="M38-38q14 0 22-8-6 14-22 14z"/>
-      <path d="M44-46c-6-8-4-18 4-28 2 12 12 14 8 24-2 6-8 8-12 4z" opacity=".95"/>
-      <path d="M48-52c-2-4-1-9 2-13 1 6 5 7 3 11z" fill="var(--hl,#000)" opacity=".45"/>
-      <path d="M-30-30q30 10 60 0" stroke="var(--hl,#000)" stroke-width="3" fill="none" opacity=".35"/></g><g transform="translate(290 200) scale(1)">
-      <path d="M-44-34q0 34 44 34t44-34z"/><path d="M38-38q14 0 22-8-6 14-22 14z"/>
-      <path d="M44-46c-6-8-4-18 4-28 2 12 12 14 8 24-2 6-8 8-12 4z" opacity=".95"/>
-      <path d="M48-52c-2-4-1-9 2-13 1 6 5 7 3 11z" fill="var(--hl,#000)" opacity=".45"/>
-      <path d="M-30-30q30 10 60 0" stroke="var(--hl,#000)" stroke-width="3" fill="none" opacity=".35"/></g></g>
-    <path d="M0 196h400" stroke="#fff" stroke-width="6" opacity=".6"/></svg><span class="chip">🪔 దీపావళి · ఆంధ్రప్రదేశ్</span><div class="stat">ఏపీ సీఎం</div></div><div class="bd"><h3>ప్రతి ఇంట్లో వెలుగులు నిండాలి: సీఎం చంద్రబాబు దీపావళి శుభాకాంక్షలు</h3><div class="m">The Hans India · 08.11.2026</div></div></a><a class="card" href="/s/jz8aon" style="--hl:var(--c-city);--hlink:var(--c-city)"><div class="pnl"><svg xmlns="http://www.w3.org/2000/svg" class="scene" viewBox="0 0 400 200" preserveAspectRatio="xMidYMax meet" fill="#fff" aria-hidden="true">
-    <g opacity=".45"><path d="M30 33l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M96 15l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M318 23l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M372 51l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M250 7l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M150 53l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/></g>
-    <g opacity=".55"><path d="M70 0v26" stroke="#fff" stroke-width="2"/><path d="M58 30h24l-4 30h-16z"/><rect x="56" y="26" width="28" height="5" rx="2"/><path d="M66 60h8l-4 10z"/><path d="M330 0v26" stroke="#fff" stroke-width="2"/><path d="M318 30h24l-4 30h-16z"/><rect x="316" y="26" width="28" height="5" rx="2"/><path d="M326 60h8l-4 10z"/></g>
-    <g><g transform="translate(110 200) scale(1)">
-      <path d="M-44-34q0 34 44 34t44-34z"/><path d="M38-38q14 0 22-8-6 14-22 14z"/>
-      <path d="M44-46c-6-8-4-18 4-28 2 12 12 14 8 24-2 6-8 8-12 4z" opacity=".95"/>
-      <path d="M48-52c-2-4-1-9 2-13 1 6 5 7 3 11z" fill="var(--hl,#000)" opacity=".45"/>
-      <path d="M-30-30q30 10 60 0" stroke="var(--hl,#000)" stroke-width="3" fill="none" opacity=".35"/></g><g transform="translate(200 200) scale(1.35)">
-      <path d="M-44-34q0 34 44 34t44-34z"/><path d="M38-38q14 0 22-8-6 14-22 14z"/>
-      <path d="M44-46c-6-8-4-18 4-28 2 12 12 14 8 24-2 6-8 8-12 4z" opacity=".95"/>
-      <path d="M48-52c-2-4-1-9 2-13 1 6 5 7 3 11z" fill="var(--hl,#000)" opacity=".45"/>
-      <path d="M-30-30q30 10 60 0" stroke="var(--hl,#000)" stroke-width="3" fill="none" opacity=".35"/></g><g transform="translate(290 200) scale(1)">
-      <path d="M-44-34q0 34 44 34t44-34z"/><path d="M38-38q14 0 22-8-6 14-22 14z"/>
-      <path d="M44-46c-6-8-4-18 4-28 2 12 12 14 8 24-2 6-8 8-12 4z" opacity=".95"/>
-      <path d="M48-52c-2-4-1-9 2-13 1 6 5 7 3 11z" fill="var(--hl,#000)" opacity=".45"/>
-      <path d="M-30-30q30 10 60 0" stroke="var(--hl,#000)" stroke-width="3" fill="none" opacity=".35"/></g></g>
-    <path d="M0 196h400" stroke="#fff" stroke-width="6" opacity=".6"/></svg><span class="chip">🪔 దీపావళి · తెలంగాణ</span><div class="stat">తెలంగాణ గవర్నర్</div></div><div class="bd"><h3>ఆనందాన్ని పంచుకుందాం, అవసరమైనవారికి అండగా నిలుద్దాం: గవర్నర్ శివ్ ప్రతాప్ శుక్లా</h3><div class="m">The Hans India · 08.11.2026</div></div></a><a class="card" href="/s/1bxsjt9" style="--hl:var(--c-city);--hlink:var(--c-city)"><div class="pnl"><svg xmlns="http://www.w3.org/2000/svg" class="scene" viewBox="0 0 400 200" preserveAspectRatio="xMidYMax meet" fill="#fff" aria-hidden="true">
-    <g opacity=".45"><path d="M30 33l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M96 15l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M318 23l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M372 51l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M250 7l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M150 53l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/></g>
-    <g opacity=".55"><path d="M70 0v26" stroke="#fff" stroke-width="2"/><path d="M58 30h24l-4 30h-16z"/><rect x="56" y="26" width="28" height="5" rx="2"/><path d="M66 60h8l-4 10z"/><path d="M330 0v26" stroke="#fff" stroke-width="2"/><path d="M318 30h24l-4 30h-16z"/><rect x="316" y="26" width="28" height="5" rx="2"/><path d="M326 60h8l-4 10z"/></g>
-    <g><g transform="translate(110 200) scale(1)">
-      <path d="M-44-34q0 34 44 34t44-34z"/><path d="M38-38q14 0 22-8-6 14-22 14z"/>
-      <path d="M44-46c-6-8-4-18 4-28 2 12 12 14 8 24-2 6-8 8-12 4z" opacity=".95"/>
-      <path d="M48-52c-2-4-1-9 2-13 1 6 5 7 3 11z" fill="var(--hl,#000)" opacity=".45"/>
-      <path d="M-30-30q30 10 60 0" stroke="var(--hl,#000)" stroke-width="3" fill="none" opacity=".35"/></g><g transform="translate(200 200) scale(1.35)">
-      <path d="M-44-34q0 34 44 34t44-34z"/><path d="M38-38q14 0 22-8-6 14-22 14z"/>
-      <path d="M44-46c-6-8-4-18 4-28 2 12 12 14 8 24-2 6-8 8-12 4z" opacity=".95"/>
-      <path d="M48-52c-2-4-1-9 2-13 1 6 5 7 3 11z" fill="var(--hl,#000)" opacity=".45"/>
-      <path d="M-30-30q30 10 60 0" stroke="var(--hl,#000)" stroke-width="3" fill="none" opacity=".35"/></g><g transform="translate(290 200) scale(1)">
-      <path d="M-44-34q0 34 44 34t44-34z"/><path d="M38-38q14 0 22-8-6 14-22 14z"/>
-      <path d="M44-46c-6-8-4-18 4-28 2 12 12 14 8 24-2 6-8 8-12 4z" opacity=".95"/>
-      <path d="M48-52c-2-4-1-9 2-13 1 6 5 7 3 11z" fill="var(--hl,#000)" opacity=".45"/>
-      <path d="M-30-30q30 10 60 0" stroke="var(--hl,#000)" stroke-width="3" fill="none" opacity=".35"/></g></g>
-    <path d="M0 196h400" stroke="#fff" stroke-width="6" opacity=".6"/></svg><span class="chip">🪔 దీపావళి · తెలంగాణ</span><div class="stat">తెలంగాణ సీఎం</div></div><div class="bd"><h3>ప్రతి ఇంట్లో సంతోషం నిండాలి: సీఎం రేవంత్ రెడ్డి దీపావళి శుభాకాంక్షలు</h3><div class="m">Deccan Chronicle · 08.11.2026</div></div></a><a class="card" href="/s/g9bk10" style="--hl:var(--c-city);--hlink:var(--c-city)"><div class="pnl"><svg xmlns="http://www.w3.org/2000/svg" class="scene" viewBox="0 0 400 200" preserveAspectRatio="xMidYMax meet" fill="#fff" aria-hidden="true">
-    <g opacity=".45"><path d="M30 33l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M96 15l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M318 23l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M372 51l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M250 7l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M150 53l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/></g>
-    <g opacity=".55"><path d="M70 0v26" stroke="#fff" stroke-width="2"/><path d="M58 30h24l-4 30h-16z"/><rect x="56" y="26" width="28" height="5" rx="2"/><path d="M66 60h8l-4 10z"/><path d="M330 0v26" stroke="#fff" stroke-width="2"/><path d="M318 30h24l-4 30h-16z"/><rect x="316" y="26" width="28" height="5" rx="2"/><path d="M326 60h8l-4 10z"/></g>
-    <g><g transform="translate(110 200) scale(1)">
-      <path d="M-44-34q0 34 44 34t44-34z"/><path d="M38-38q14 0 22-8-6 14-22 14z"/>
-      <path d="M44-46c-6-8-4-18 4-28 2 12 12 14 8 24-2 6-8 8-12 4z" opacity=".95"/>
-      <path d="M48-52c-2-4-1-9 2-13 1 6 5 7 3 11z" fill="var(--hl,#000)" opacity=".45"/>
-      <path d="M-30-30q30 10 60 0" stroke="var(--hl,#000)" stroke-width="3" fill="none" opacity=".35"/></g><g transform="translate(200 200) scale(1.35)">
-      <path d="M-44-34q0 34 44 34t44-34z"/><path d="M38-38q14 0 22-8-6 14-22 14z"/>
-      <path d="M44-46c-6-8-4-18 4-28 2 12 12 14 8 24-2 6-8 8-12 4z" opacity=".95"/>
-      <path d="M48-52c-2-4-1-9 2-13 1 6 5 7 3 11z" fill="var(--hl,#000)" opacity=".45"/>
-      <path d="M-30-30q30 10 60 0" stroke="var(--hl,#000)" stroke-width="3" fill="none" opacity=".35"/></g><g transform="translate(290 200) scale(1)">
-      <path d="M-44-34q0 34 44 34t44-34z"/><path d="M38-38q14 0 22-8-6 14-22 14z"/>
-      <path d="M44-46c-6-8-4-18 4-28 2 12 12 14 8 24-2 6-8 8-12 4z" opacity=".95"/>
-      <path d="M48-52c-2-4-1-9 2-13 1 6 5 7 3 11z" fill="var(--hl,#000)" opacity=".45"/>
-      <path d="M-30-30q30 10 60 0" stroke="var(--hl,#000)" stroke-width="3" fill="none" opacity=".35"/></g></g>
-    <path d="M0 196h400" stroke="#fff" stroke-width="6" opacity=".6"/></svg><span class="chip">🪔 దీపావళి · ఆంధ్రప్రదేశ్</span><div class="stat">ఏపీ డిప్యూటీ సీఎం</div></div><div class="bd"><h3>ధైర్యంతో చీకటిని జయించాలి: డిప్యూటీ సీఎం పవన్ కళ్యాణ్ దీపావళి శుభాకాంక్షలు</h3><div class="m">ANI · 08.11.2026</div></div></a></div></section>
+<section class="sec"><div class="sh"><h2>ఇవి కూడా చదవండి</h2></div><div class="grid"><a class="card" href="/s/1g9jke" style="--hl:var(--c-city);--hlink:var(--c-city)"><div class="pnl"><img class="ph art2" src="/art/d/ap.jpg" alt="" loading="lazy" decoding="async"><i class="phs"></i><span class="chip">🪔 దీపావళి · ఆంధ్రప్రదేశ్</span><div class="stat">ఏపీ సీఎం</div></div><div class="bd"><h3>ప్రతి ఇంట్లో వెలుగులు నిండాలి: సీఎం చంద్రబాబు దీపావళి శుభాకాంక్షలు</h3><div class="m">The Hans India · 08.11.2026</div></div></a><a class="card" href="/s/jz8aon" style="--hl:var(--c-city);--hlink:var(--c-city)"><div class="pnl"><img class="ph art2 artc" src="/art/c/india.jpg" alt="" loading="lazy" decoding="async"><i class="phs"></i><span class="chip">🪔 దీపావళి · తెలంగాణ</span><div class="stat">తెలంగాణ గవర్నర్</div></div><div class="bd"><h3>ఆనందాన్ని పంచుకుందాం, అవసరమైనవారికి అండగా నిలుద్దాం: గవర్నర్ శివ్ ప్రతాప్ శుక్లా</h3><div class="m">The Hans India · 08.11.2026</div></div></a><a class="card" href="/s/1bxsjt9" style="--hl:var(--c-city);--hlink:var(--c-city)"><div class="pnl"><img class="ph art2 artc" src="/art/c/india.jpg" alt="" loading="lazy" decoding="async"><i class="phs"></i><span class="chip">🪔 దీపావళి · తెలంగాణ</span><div class="stat">తెలంగాణ సీఎం</div></div><div class="bd"><h3>ప్రతి ఇంట్లో సంతోషం నిండాలి: సీఎం రేవంత్ రెడ్డి దీపావళి శుభాకాంక్షలు</h3><div class="m">Deccan Chronicle · 08.11.2026</div></div></a><a class="card" href="/s/g9bk10" style="--hl:var(--c-city);--hlink:var(--c-city)"><div class="pnl"><img class="ph art2" src="/art/d/ap.jpg" alt="" loading="lazy" decoding="async"><i class="phs"></i><span class="chip">🪔 దీపావళి · ఆంధ్రప్రదేశ్</span><div class="stat">ఏపీ డిప్యూటీ సీఎం</div></div><div class="bd"><h3>ధైర్యంతో చీకటిని జయించాలి: డిప్యూటీ సీఎం పవన్ కళ్యాణ్ దీపావళి శుభాకాంక్షలు</h3><div class="m">ANI · 08.11.2026</div></div></a></div></section>
 <section class="sec"><div class="sh"><h2>మరిన్ని తాజా వార్తలు</h2><a href="/">హోమ్ →</a></div><div class="grid" id="more"></div></section>
 </main>
 <footer>
