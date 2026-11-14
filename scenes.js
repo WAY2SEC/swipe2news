@@ -389,7 +389,7 @@ const ART_REG=[[/ఆఫ్రికా|ఈజిప్ట్|నైజీరి�
  [/అమెరికా|యూఎస్|కెనడా|మెక్సికో|ట్రంప్|వాషింగ్టన్|న్యూయార్క్|America|\bUS\b|USA|Canada|Mexico|Washington|New York/i,'namerica'],
  [/యూరప్|బ్రిటన్|యూకే|లండన్|ఫ్రాన్స్|జర్మనీ|ఇటలీ|రష్యా|ఉక్రెయిన్|Europe|Britain|\bUK\b|London|France|Germany|Italy|Russia|Ukraine|Spain/i,'europe'],
  [/చైనా|జపాన్|సింగపూర్|బంగ్లాదేశ్|పాకిస్తాన్|శ్రీలంక|నేపాల్|కొరియా|ఆసియా|China|Japan|Singapore|Bangladesh|Pakistan|Sri Lanka|Nepal|Korea|Asia|Malaysia|Thailand/i,'asia']];
-const ART_HAVE=new Set(['coal','power','water','traffic','prices','telecom','nri','students','friendship','family','healthtips','trading','exams','ai','africa','asia','europe','namerica','mideast']); // art/n pictures we have
+const ART_HAVE=new Set(['coal','mineworkers','power','water','traffic','prices','telecom','nri','students','friendship','family','healthtips','trading','exams','ai','africa','asia','europe','namerica','mideast']); // art/n pictures we have
 function artNews(t){ for(const [rx,k] of ART_N) if(rx.test(t)) return k; return ''; }
 function artRegion(t){ for(const [rx,k] of ART_REG) if(rx.test(t)) return k; return ''; }
 function artPlan(s){
@@ -414,9 +414,17 @@ function artPlan(s){
   // industry, mines, factories, strikes: an industry picture, never a temple or district landmark (owner, 14 Nov 2026).
   // New owner pictures go in art/n/ and their key in ART_HAVE; until then the closest existing picture is used.
   { const has=k=>ART_HAVE.has(k);
-    if(/సింగరేణి|బొగ్గు|ఓపెన్ కాస్ట్|coal|Singareni|colliery|SCCL/i.test(t)){ if(/గని కార్మిక|మైనర్లు|mine workers|miners/i.test(t)&&has('mineworkers')) return {m:'land',bg:'n/mineworkers'}; if(/సమ్మె|strike/i.test(t)&&has('strike')) return {m:'land',bg:'n/strike'}; return {m:'land',bg:'n/'+(has('coal')?'coal':'power')}; }
-    if(/సమ్మె|సమ్మెకు|కార్మికుల ఆందోళన|కార్మిక సంఘ|యూనియన్|లాకౌట్|\bstrike\b|\bunion\b|lockout/i.test(t)) return has('strike')?{m:'land',bg:'n/strike'}:{m:'cat',cat:'infrastructure'};
-    if(/పరిశ్రమ|ఫ్యాక్టరీ|కర్మాగార|పారిశ్రామిక|ఫార్మా కంపెనీ|industry|industrial|factory|manufacturing/i.test(t)) return has('industry')?{m:'land',bg:'n/industry'}:{m:'cat',cat:'infrastructure'}; }
+    if(/సింగరేణి|బొగ్గు|ఓపెన్ కాస్ట్|coal|Singareni|colliery|SCCL/i.test(t)){ if(/గని కార్మిక|కాంట్రాక్టు కార్మిక|కార్మికుల|మైనర్లు|బోనస్|వేతన|భద్రత|సమ్మె|mine workers|miners|workers|bonus|wage|safety|strike/i.test(t)) return {m:'land',bg:'n/'+(has('mineworkers')?'mineworkers':has('strike')?'strike':'coal')}; return {m:'land',bg:'n/'+(has('coal')?'coal':'power')}; }
+    const tt0=[s.h,s.statl,String(s.p||'').split(/[.!?।]/)[0]].join(' ');
+    if(/సమ్మె|సమ్మెకు|కార్మికుల ఆందోళన|కార్మిక సంఘ|యూనియన్|లాకౌట్|\bstrike\b|\bunion\b|lockout/i.test(tt0)) return has('strike')?{m:'land',bg:'n/strike'}:{m:'cat',cat:'infrastructure'};
+    if(/పరిశ్రమ|ఫ్యాక్టరీ|కర్మాగార|పారిశ్రామిక|ఫార్మా కంపెనీ|industry|industrial|factory|manufacturing/i.test(tt0)) return has('industry')?{m:'land',bg:'n/industry'}:{m:'cat',cat:'infrastructure'}; }
+  // owner 14 Nov 2026: the TOPIC picture comes before the district landmark (a health story shows health, not the town's temple).
+  // Landmarks stay for temple, travel, culture and general local / political news.
+  const tt=[s.h,s.statl,String(s.p||'').split(/[.!?।]/)[0]].join(' ');
+  const isWorld=!land&&(/ప్రపంచం|World/.test(t+(s.cat||''))||(Array.isArray(s.sec)&&s.sec.includes('world')));
+  if(!isWorld){ if(/పింఛన్|పెన్షన్|pension/i.test(tt)) return {m:'cat',cat:'schemes'}; if(/పౌరసరఫరా|రేషన్|civil supplies|ration/i.test(tt)) return {m:'land',bg:'n/prices'};
+    const nk=artNews(tt); if(nk) return {m:'land',bg:'n/'+nk}; }
+  if(!isWorld&&['health','education','agriculture','sports','entertainment','business','finance','technology','science','jobs','schemes','environment','food','auto','realestate','startups','women','transport','bus','courts','cyber','crime'].includes(type)) return {m:'cat',cat:type};
   if(land&&['devotional','travel','culture'].includes(type)) return {m:'land',bg:land};
   // owner 14 Nov: place known → the place picture alone, nothing pasted on top
   if(land) return {m:'land',bg:land};
