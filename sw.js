@@ -1,9 +1,9 @@
 // Swipe2News service worker: keeps the app working offline (villages, weak signal).
 // Pages and news: network first, but fall back to the saved copy after 4 s. Fonts and pictures: saved copy first.
-const CACHE = 's2n-v91';
+const CACHE = 's2n-v92';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'logo.png', 'logo-light.png', 'qr.png', 'icon-192.png', 'icon-512.png',
   'news.json', 'mandi.json', 'mandi.js?v=2', 'mandi/', 'morning/', 'archive/index.json'];
-self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(u).catch(() => 0))))); self.skipWaiting(); });
+self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(new Request(u, {cache: 'reload'})).catch(() => 0))))); self.skipWaiting(); });
 self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k))))); self.clients.claim(); });
 const FONT = /^https:\/\/fonts\.(googleapis|gstatic)\.com\//;
 function fresh(req, ms) {
@@ -11,7 +11,8 @@ function fresh(req, ms) {
     let done = false;
     const fallback = () => caches.match(req, {ignoreSearch: true}).then(c => c || null);
     const t = setTimeout(() => fallback().then(c => { if (c && !done) { done = true; resolve(c); } }), ms);
-    fetch(req).then(r => { if (r && r.ok) { const copy = r.clone(); caches.open(CACHE).then(c => c.put(req, copy)); }
+    // ask the server every time (cheap 304 if unchanged), never a stale copy from the phone's HTTP cache
+    fetch(req.url, {cache: 'no-cache', credentials: 'same-origin'}).then(r => { if (r && r.ok) { const copy = r.clone(); caches.open(CACHE).then(c => c.put(req, copy)); }
       clearTimeout(t); if (!done) { done = true; resolve(r); } })
       .catch(() => { clearTimeout(t); fallback().then(c => { if (!done) { done = true; resolve(c || Response.error()); } }); });
   });

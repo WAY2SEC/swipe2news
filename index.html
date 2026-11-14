@@ -48,6 +48,12 @@ setTimeout(box,12000);setTimeout(box,25000);})();
 <title>Swipe2News – Telangana, Andhra Pradesh, India &amp; World news in short | Know More. Scroll Less.</title>
 <link rel="canonical" href="https://swipe2news.com/">
 <link rel="alternate" hreflang="en" href="https://swipe2news.com/en/"><link rel="alternate" hreflang="te" href="https://swipe2news.com/te/"><link rel="alternate" hreflang="hi" href="https://swipe2news.com/hi/"><link rel="alternate" hreflang="x-default" href="https://swipe2news.com/en/">
+<script>/* update check, kept separate from the app code: even if the app code fails, a fixed version still arrives and reloads once */
+(function(){try{if(!('serviceWorker' in navigator)||/claude\.ai|claudeusercontent/.test(location.host))return;var sw=navigator.serviceWorker,had=!!sw.controller,done=false;
+sw.addEventListener('controllerchange',function(){if(had&&!done){done=true;location.reload();}});
+var chk=function(){sw.getRegistration().then(function(r){if(r)r.update();}).catch(function(){});};
+if((location.protocol==='https:'||location.hostname==='127.0.0.1'))sw.getRegistration().then(function(r){if(!r)sw.register('sw.js',{updateViaCache:'none'}).catch(function(){});}).catch(function(){});
+setTimeout(chk,2000);document.addEventListener('visibilitychange',function(){if(document.visibilityState==='visible')chk();});}catch(e){}})();</script>
 <script type="application/ld+json" id="s2nld">[{"@context": "https://schema.org", "@type": "NewsMediaOrganization", "name": "Swipe2News", "url": "https://swipe2news.com/", "logo": "https://swipe2news.com/icon-512.png", "slogan": "Know More. Scroll Less.", "sameAs": ["https://www.instagram.com/swipe2newsapp", "https://whatsapp.com/channel/0029Vb9nNd8CBtxIYFryH138"], "publishingPrinciples": "https://swipe2news.com/editorial-policy.html", "correctionsPolicy": "https://swipe2news.com/editorial-policy.html#corrections"}, {"@context": "https://schema.org", "@type": "WebSite", "name": "Swipe2News", "url": "https://swipe2news.com/", "inLanguage": ["te", "en", "hi"], "potentialAction": {"@type": "SearchAction", "target": "https://swipe2news.com/?q={search_term_string}", "query-input": "required name=search_term_string"}}, {"@context": "https://schema.org", "@type": "MobileApplication", "name": "Swipe2News", "operatingSystem": "Android, iOS (web app)", "applicationCategory": "NewsApplication", "url": "https://swipe2news.com/install.html", "image": "https://swipe2news.com/icon-512.png", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"}}]</script>
 <meta name="application-name" content="Swipe2News">
 <meta name="apple-mobile-web-app-title" content="Swipe2News">
@@ -2287,12 +2293,7 @@ if(pushOK){
   navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).catch(()=>{});
 }
 /* pick up new versions straight away: check on open and when the app comes back to the screen, reload once when the new version takes over */
-if('serviceWorker' in navigator && !/claude\.ai|claudeusercontent/.test(location.host)){
-  const hadSW=!!navigator.serviceWorker.controller; let reloaded=false;
-  navigator.serviceWorker.addEventListener('controllerchange',()=>{ if(hadSW&&!reloaded){ reloaded=true; location.reload(); } });
-  const chk=()=>navigator.serviceWorker.getRegistration().then(r=>r&&r.update()).catch(()=>{});
-  setTimeout(chk,3000); document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible') chk(); });
-}
+/* (moved to its own small script at the top of the page, so an error in the app code can never stop an update) */
 async function askAlerts(){
   $('alertCard').hidden = true; store.set('alertAsked', Date.now());
   if(!pushOK){ toast('అలర్ట్‌లు swipe2news.com యాప్‌లో మాత్రమే పనిచేస్తాయి'); return; }
