@@ -883,7 +883,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
   <div class="toast" id="toast" role="status"></div>
 </div>
 
-<script src="scenes.js?v=20261113a"></script>
+<script src="scenes.js?v=20261114b"></script>
 <script src="mandi.js?v=2"></script>
 <script>
 const CONFIG = {
@@ -1311,7 +1311,7 @@ function cardHTML(s,i){
   <div class="panel bnr">
     ${sceneSVG(s,'scene')}${/^videos\/[\w.-]+\.mp4$/.test(s.vid||'')?`<button class="vplay" type="button" data-vid="${esc(s.vid)}" aria-label="వీడియో చూడండి"><svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#fff"/></svg><span>వీడియో చూడండి</span></button>`:''}
     <div class="ptop"><span class="bchip">${s.brk?'🔴 BREAKING · ':''}${esc(s.cat||U('news'))}</span></div>
-    <div class="bkw"><div class="stat">${esc(statTx(s))}</div><div class="statl">${esc(s.statl)}</div>${!storyPhoto(s)&&artPlan(s)?`<div class="adisc">${esc(ART_DISC[LG()]||ART_DISC.te)}</div>`:''}</div>
+    <div class="bkw"><div class="stat">${esc(statTx(s))}</div><div class="statl">${esc(s.statl)}</div>${!storyPhoto(s)&&artPlan(s)&&artPlan(s).m!=='logo'?`<div class="adisc">${esc(ART_DISC[LG()]||ART_DISC.te)}</div>`:''}</div>
     <span class="bmark"><img src="icon-192.png" alt="">swipe2news<i>.</i></span>
   </div>
   <div class="text"${s._lang?` lang="${s._lang}"`:''}>
@@ -1638,7 +1638,7 @@ async function cardImage(s){
   const hasPh=await drawStoryPhoto(ctx,s,cx,cy,CW,PH);
   if(!hasPh){
     const hasArt=await drawArtPlan(ctx,s,cx,cy,CW,PH);
-    if(hasArt){ ctx.font=`600 22px ${TE}`; ctx.fillStyle='rgba(255,253,245,.75)'; ctx.textAlign='right'; ctx.fillText(ART_DISC[LG()]||ART_DISC.te,cx+CW-IN,cy+PH-20); ctx.textAlign='left'; }
+    if(hasArt&&(artPlan(s)||{}).m!=='logo'){ ctx.font=`600 22px ${TE}`; ctx.fillStyle='rgba(255,253,245,.75)'; ctx.textAlign='right'; ctx.fillText(ART_DISC[LG()]||ART_DISC.te,cx+CW-IN,cy+PH-20); ctx.textAlign='left'; }
     else try{ const art=await loadImg('data:image/svg+xml;charset=utf-8,'+encodeURIComponent(sceneSVG(s,'cv'))); ctx.globalAlpha=.22; ctx.drawImage(art,cx,cy+PH-420,CW,420); ctx.globalAlpha=1; }catch(e){}
     const st=statTx(s), te=/[ఀ-౿]/.test(st); let fs=te?110:130;
     const setF=()=>{ ctx.font=te?`800 ${fs}px ${TE}`:`400 ${fs}px ${DI}`; }; setF();
