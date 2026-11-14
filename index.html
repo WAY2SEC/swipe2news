@@ -1091,14 +1091,14 @@ if(!Array.isArray(prefs.topics)) prefs.topics=DEFAULT_TOPICS.slice(); if(!prefs.
 { const ql=new URLSearchParams(location.search).get('l'); if(/^(te|tl|en|hi)$/.test(ql||'')) prefs.lang=ql; }
 prefs.theme = 'light'; /* only Editorial White (14 Nov 2026) */
 let saved = store.get('saved', []);
-setJobs(store.get('jobs',[]));
+try{ setJobs(store.get('jobs',[])); }catch(e){ JOBS=[]; } // a bad saved job must never stop the app
 let section = 'all', view = 'home';
 let DAY = null;            // {date, iso, stories} when viewing an archived day
 let DATES = [];            // archive/index.json
 let JUMP = null;           // story id to open (from a shared link)
 const toIso = d => { const m=/^(\d\d)\.(\d\d)\.(\d{4})$/.exec(d||''); return m?`${m[3]}-${m[2]}-${m[1]}`:''; };
 const fromIso = i => { const m=/^(\d{4})-(\d\d)-(\d\d)$/.exec(i||''); return m?`${m[3]}.${m[2]}.${m[1]}`:''; };
-const sid = s => { if(s._sid) return s._sid; let h=5381; const t=(s.url||'')+'|'+(s.h||''); for(let i=0;i<t.length;i++) h=((h<<5)+h+t.charCodeAt(i))|0; return (h>>>0).toString(36); };
+function sid(s){ if(s._sid) return s._sid; let h=5381; const t=(s.url||'')+'|'+(s.h||''); for(let i=0;i<t.length;i++) h=((h<<5)+h+t.charCodeAt(i))|0; return (h>>>0).toString(36); } // a function (hoisted): job cards call it at start-up before this line
 const WEEK=['ఆదివారం','సోమవారం','మంగళవారం','బుధవారం','గురువారం','శుక్రవారం','శనివారం'];
 const MON=['జనవరి','ఫిబ్రవరి','మార్చి','ఏప్రిల్','మే','జూన్','జులై','ఆగస్టు','సెప్టెంబర్','అక్టోబర్','నవంబర్','డిసెంబర్'];
 const teDay = iso => { const [y,m,d]=iso.split('-').map(Number); const w=new Date(Date.UTC(y,m-1,d)).getUTCDay(); return `${d} ${MON[m-1]} ${y} · ${WEEK[w]}`; };
