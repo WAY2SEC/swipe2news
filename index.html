@@ -660,6 +660,18 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .s2n .srow .srcb a,.s2n .srow .srcb b{min-width:0;font-size:13px;max-width:none}
 .s2n .srow .aic .ais{display:none}
 @media (max-width:420px){.s2n .srow .aic .ail{display:none}.s2n .srow .aic .ais{display:inline}.s2n .srow .aic,.s2n .srow .tchip{padding:0 8px!important}.s2n .srow{gap:5px!important}}
+
+/* label beside the time; attribution row = AI summary + source, source never squeezed */
+.s2n .sline{align-items:center}
+.s2n .ctxl{display:inline-flex;align-items:center;height:22px;padding:0 9px;border-radius:11px;font-size:11.5px;font-weight:800;line-height:1;white-space:nowrap;font-family:var(--body)}
+.s2n .ctxl.forecast{background:#E8EFF8;color:#163A6B;border:1px solid #1F4E8C}
+.s2n .ctxl.claim,.s2n .ctxl.allegation{background:#FDF0DC;color:#5C3200;border:1px solid #F5A23A}
+.s2n .ctxl.opinion{background:#F1EAF3;color:#4A0E3F;border:1px solid #B9A3C2}
+.s2n .ctxl.misleading{background:#FBE9E7;color:#8C1D18;border:1px solid #B3261E}
+.s2n .srow{flex-wrap:wrap!important;justify-content:flex-start!important;row-gap:4px!important}
+.s2n .srow .srcb{flex:0 1 auto!important;justify-content:flex-start!important;margin-left:0!important;border-left:0!important;padding-left:2px!important}
+.s2n .srow .srcb a,.s2n .srow .srcb b{white-space:normal!important;overflow:visible!important;text-overflow:clip!important}
+.s2n .srow .aic .ail{display:inline!important}.s2n .srow .aic .ais{display:none!important}
 </style>
 </head>
 <body>
@@ -783,7 +795,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
       <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
       <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
-      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 7.9 · Swipe2News</p>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 8.0 · Swipe2News</p>
     </div></div>
   </section>
   <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">
@@ -1231,6 +1243,10 @@ const TRUSTN={fact:{te:'నమ్మదగిన మూలం నివేది
  misleading:{te:'తప్పు లేదా తప్పుదోవ పట్టించే సమాచారం',en:'False or misleading information',hi:'ग़लत या भ्रामक जानकारी'},
  forecast:{te:'ముందస్తు అంచనా · ఇంకా జరగలేదు',en:'A forecast, not something that has happened',hi:'पूर्वानुमान, अभी घटा नहीं'}};
 const TRUSTS={fact:{te:'నమ్మదగిన మూలం',en:'Trusted source',hi:'विश्वसनीय स्रोत'},claim:{te:'నిర్ధారించలేదు',en:'Not independently verified',hi:'पुष्टि नहीं'},opinion:{te:'వాస్తవం కాదు',en:'Not a fact',hi:'तथ्य नहीं'},misleading:{te:'తప్పుదోవ సమాచారం',en:'False or misleading',hi:'भ्रामक जानकारी'},forecast:{te:'ముందస్తు అంచనా',en:'Expected, not yet happened',hi:'अभी घटा नहीं'}};
+/* context label beside the publication time (owner review 14 Nov 2026): only when it means something */
+const CTXL={forecast:{te:'వాతావరణ అంచనా',en:'Weather forecast',hi:'मौसम पूर्वानुमान'},claim:{te:'వాదన',en:'Claim',hi:'दावा'},allegation:{te:'ఆరోపణ',en:'Allegation',hi:'आरोप'},opinion:{te:'అభిప్రాయం',en:'Opinion',hi:'राय'},misleading:{te:'తప్పుదోవ',en:'Misleading',hi:'भ्रामक'}};
+function ctxKey(s){ const k=lblOf(s); if(k==='claim') return /ఆరోపణ|ఆరోపించ|ఆరోపిస్త|నిందితు|అరెస్ట్|కేసు నమోదు|allege|accus|arrest|charged|आरोप/.test(String(s.h||'')+' '+String(s.p||'')+' '+String((s.en&&s.en.h)||''))?'allegation':'claim'; return CTXL[k]?k:''; }
+function ctxLabel(s){ const k=ctxKey(s), l=LG(); return k?`<span class="ctxl ${k}" title="${esc((TRUSTN[k==='allegation'?'claim':k]||{})[l]||'')}">${esc(CTXL[k][l]||CTXL[k].en)}</span>`:''; }
 function trustChip(s){ const k=lblOf(s), l=LG(); if(!k) return '';
   return `<a class="tchip ${k}" href="/editorial-policy.html#no-clickbait" title="${esc(TRUSTN[k][l]||TRUSTN[k].en)}"><b>${esc(LBL[k][l]||LBL[k].en)}</b><small>${esc(TRUSTS[k][l]||TRUSTS[k].en)}</small></a>`; }
 function trustBox(s){ const k=lblOf(s), l=LG(); if(!k) return '';
@@ -1262,9 +1278,9 @@ function cardHTML(s,i){
   <div class="text"${s._lang?` lang="${s._lang}"`:''}>
     <div class="meta"><span><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>${readMins(s)} ${U('min')}</span>${where?`<span class="mloc"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>${esc(where)}</span>`:''}<button class="tsz" type="button" aria-label="అక్షరాల సైజు · Text size">aA</button><button class="lis" type="button"><svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M7 4.5v15l12-7.5z" fill="currentColor"/></svg>${U('listen')} ${listenSecs(s)}</button></div>
     <h2 class="${(s.h||'').length<=45?'hs':(s.h||'').length<=75?'hm':'hl'}">${esc(s.h)}</h2>
-    <div class="sline">${(s.d||s.t)?`<span class="stime"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>${whenTxt(s)}</span>`:''}</div>
+    <div class="sline">${(s.d||s.t)?`<span class="stime"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>${whenTxt(s)}</span>`:''}${ctxLabel(s)}</div>
     <p class="sum">${esc(s.p)}</p><a class="more" hidden href="/s/${sid(s)}">${esc({te:'పూర్తిగా చదవండి ›',en:'Read more ›',hi:'पूरा पढ़ें ›'}[LG()]||'')}</a>${Array.isArray(s.pts)&&s.pts.length?`<ul class="kpts">${s.pts.slice(0,3).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${corrNote(s)}
-    <div class="srow">${aiChip()}${trustChip(s)}<span class="srcb"><small>${esc({te:'మూలం:',en:'Source:',hi:'स्रोत:'}[LG()]||'Source:')}</small>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.src)} <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>`:`<b>${esc(s.src)}</b>`}</span></div>
+    <div class="srow">${aiChip()}<span class="srcb"><small>${esc({te:'మూలం:',en:'Source:',hi:'स्रोत:'}[LG()]||'Source:')}</small>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.src)} <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>`:`<b>${esc(s.src)}</b>`}</span></div>
   </div>
   <div class="spacer" data-sp="${i}"></div>
   <div class="cacts">
@@ -1592,8 +1608,8 @@ async function cardImage(s){
   ctx.fillStyle=CR; ctx.textBaseline='middle'; ctx.fillText(chip,cx+IN+16,cy+54,chw-36); ctx.textBaseline='alphabetic';
   // text
   let y=cy+PH+IN+24;
-  let mx=cx+IN; const lk=s.kind==='job'?'':lblOf(s);
-  if(lk){ const LC={fact:['#0E7A3E','#fff'],claim:['#F5A23A','#2E0827'],opinion:['#E8E2EA','#4A0E3F'],misleading:['#B3261E','#fff'],forecast:['#1F4E8C','#fff']}[lk]; const lt=LBL[lk][LG()]||LBL[lk].te; ctx.font=`800 24px ${TE}`; const lw=ctx.measureText(lt).width+32;
+  let mx=cx+IN; const lk=s.kind==='job'?'':ctxKey(s);
+  if(lk){ const LC={claim:['#F5A23A','#2E0827'],allegation:['#F5A23A','#2E0827'],opinion:['#E8E2EA','#4A0E3F'],misleading:['#B3261E','#fff'],forecast:['#1F4E8C','#fff']}[lk]; const lt=CTXL[lk][LG()]||CTXL[lk].te; ctx.font=`800 24px ${TE}`; const lw=ctx.measureText(lt).width+32;
     ctx.fillStyle=LC[0]; rrect(ctx,mx,y-30,lw,40,20); ctx.fill(); ctx.fillStyle=LC[1]; ctx.textBaseline='middle'; ctx.fillText(lt,mx+16,y-9); ctx.textBaseline='alphabetic'; mx+=lw+14; }
   ctx.font=`600 26px ${TE}`; ctx.fillStyle='#6A6670'; ctx.fillText(((s.kind==='job'?(s.last?J('lastd')+' '+s.last:''):whenTxt(s))+' · '+(s.src||'Swipe2News')).slice(0,90),mx,y,cx+IN+TW-mx);
   y+=22+60; ctx.fillStyle='#202124'; ctx.font=`800 54px ${TE}`; hl.forEach(t=>{ ctx.fillText(t,cx+IN,y); y+=70; });
