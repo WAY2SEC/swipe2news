@@ -369,6 +369,28 @@ function artType(s){
    place = subject (temple, travel, festival) → the landmark alone; place + type → landmark + small type picture;
    type only → its picture; else the state emblem. */
 const ART_SENS=/కిడ్నాప్|అదృశ్య|అపహరణ|kidnap|missing girl|missing boy|హత్య|అరెస్ట్|దొంగ|పోలీసు|నిందితు|అత్యాచార|ప్రమాద|మృతి|మరణ|ఆత్మహత్య|చనిపో|కోర్టు|సైబర్|మోసం|murder|arrest|police|accident|killed|death|dies|died|suicide|court|cyber|fraud|scam|rape/i;
+
+/* owner's 18 topic pictures (14 Nov 2026, art/n/): used when the story is about one of these topics and no district landmark applies */
+const ART_N=[[/విద్యుత్ సరఫరా|కరెంట్ కోత|కరెంటు|విద్యుత్ కోత|పవర్ కట్|ట్రాన్స్‌ఫార్మర్|సబ్‌స్టేషన్|విద్యుత్ బిల్లు|power cut|power supply|electricity|transformer|substation|discom/i,'power'],
+ [/నీటి సరఫరా|తాగునీ|జలమండలి|నీటి కోత|నీటి కొరత|మంచినీ|water supply|drinking water|HMWSSB|water cut|water shortage/i,'water'],
+ [/ట్రాఫిక్|రోడ్డు మూసివే|దారి మళ్లింపు|ట్రాఫిక్ ఆంక్షలు|traffic|road closure|diversion/i,'traffic'],
+ [/నిత్యావసర|కూరగాయల ధర|ఉల్లి ధర|టమాటా ధర|బియ్యం ధర|ధరలు పెరిగ|ధరలు తగ్గ|వంట నూనె|essential prices|vegetable prices|onion price|tomato price|price rise/i,'prices'],
+ [/టెలికాం|మొబైల్ నెట్‌వర్క్|సిమ్ కార్డ్|5జీ|జియో|ఎయిర్‌టెల్|బీఎస్ఎన్ఎల్|రీచార్జ్|telecom|\b5G\b|Jio|Airtel|BSNL|TRAI|recharge plan/i,'telecom'],
+ [/ఎన్ఆర్ఐ|ప్రవాస భారతీయ|వీసా|హెచ్-1బీ|గల్ఫ్ కార్మిక|\bNRI\b|visa|H-1B|diaspora|Gulf workers/i,'nri'],
+ [/పరీక్ష ఫలితాలు|ఫలితాలు విడుదల|హాల్ టికెట్|పరీక్ష షెడ్యూల్|పరీక్షలు|ఎంసెట్|ఈఏపీసెట్|నీట్|జేఈఈ|exam|results declared|hall ticket|EAPCET|NEET|JEE/i,'exams'],
+ [/విద్యార్థుల|విద్యార్థులకు|హాస్టల్|స్కాలర్‌షిప్|ఫీజు రీయింబర్స్|student|scholarship|hostel/i,'students'],
+ [/సెన్సెక్స్|నిఫ్టీ|స్టాక్ మార్కెట్|షేర్ మార్కెట్|ఐపీఓ|Sensex|Nifty|stock market|share market|\bIPO\b/i,'trading'],
+ [/కృత్రిమ మేధ|ఏఐ |\bAI\b|artificial intelligence|ChatGPT|Gemini AI|machine learning/i,'ai'],
+ [/ఆరోగ్య చిట్కా|వ్యాయామం|ఆహార నియమ|health tips|fitness|diet|wellness/i,'healthtips'],
+ [/కుటుంబ|family/i,'family'],
+ [/స్నేహ|friendship|friends day/i,'friendship']];
+const ART_REG=[[/ఆఫ్రికా|ఈజిప్ట్|నైజీరియా|కెన్యా|దక్షిణాఫ్రికా|ఇథియోపియా|Africa|Egypt|Nigeria|Kenya|Ethiopia|Sudan|Ghana/i,'africa'],
+ [/ఇరాన్|ఇజ్రాయెల్|గాజా|సౌదీ|యూఏఈ|దుబాయ్|యెమెన్|హార్మూజ్|ఖతార్|కువైట్|ఒమన్|ఇరాక్|సిరియా|లెబనాన్|ఫుజైరా|Iran|Israel|Gaza|Saudi|UAE|Dubai|Yemen|Hormuz|Qatar|Kuwait|Oman|Iraq|Syria|Lebanon|Middle East|Gulf/i,'mideast'],
+ [/అమెరికా|యూఎస్|కెనడా|మెక్సికో|ట్రంప్|వాషింగ్టన్|న్యూయార్క్|America|\bUS\b|USA|Canada|Mexico|Washington|New York/i,'namerica'],
+ [/యూరప్|బ్రిటన్|యూకే|లండన్|ఫ్రాన్స్|జర్మనీ|ఇటలీ|రష్యా|ఉక్రెయిన్|Europe|Britain|\bUK\b|London|France|Germany|Italy|Russia|Ukraine|Spain/i,'europe'],
+ [/చైనా|జపాన్|సింగపూర్|బంగ్లాదేశ్|పాకిస్తాన్|శ్రీలంక|నేపాల్|కొరియా|ఆసియా|China|Japan|Singapore|Bangladesh|Pakistan|Sri Lanka|Nepal|Korea|Asia|Malaysia|Thailand/i,'asia']];
+function artNews(t){ for(const [rx,k] of ART_N) if(rx.test(t)) return k; return ''; }
+function artRegion(t){ for(const [rx,k] of ART_REG) if(rx.test(t)) return k; return ''; }
 function artPlan(s){
   if(s&&s._orig) s=s._orig; // Tenglish: choose the picture from the Telugu original
   if(!s||s.kind) return null;
@@ -391,17 +413,18 @@ function artPlan(s){
   if(land&&['devotional','travel','culture'].includes(type)) return {m:'land',bg:land};
   // owner 14 Nov: place known → the place picture alone, nothing pasted on top
   if(land) return {m:'land',bg:land};
-  if(!land&&(/ప్రపంచం|World/.test(t+(s.cat||''))||(Array.isArray(s.sec)&&s.sec.includes('world')))&&!['weather'].includes(type)){ for(const [rx,k] of ART_W) if(rx.test(t+' '+(s.cat||''))) return {m:'land',bg:'w/'+k}; }
+  if(!land&&(/ప్రపంచం|World/.test(t+(s.cat||''))||(Array.isArray(s.sec)&&s.sec.includes('world')))&&!['weather'].includes(type)){ for(const [rx,k] of ART_W) if(rx.test(t+' '+(s.cat||''))) return {m:'land',bg:'w/'+k}; const rg=artRegion(t+' '+(s.cat||'')); if(rg) return {m:'land',bg:'n/'+rg}; }
+  { const nk=artNews(t); if(nk) return {m:'land',bg:'n/'+nk}; }
   if(type) return {m:'cat',cat:type};
   if(sland) return {m:'land',bg:sland};
   const world=/ప్రపంచం|World/.test(t+(s.cat||''))||s.st==='WORLD'||(Array.isArray(s.sec)&&s.sec.includes('world'));
-  if(world){ for(const [rx,k] of ART_W) if(rx.test(t+' '+(s.cat||''))) return {m:'land',bg:'w/'+k}; return {m:'cat',cat:'world'}; }
+  if(world){ for(const [rx,k] of ART_W) if(rx.test(t+' '+(s.cat||''))) return {m:'land',bg:'w/'+k}; const rg=artRegion(t+' '+(s.cat||'')); if(rg) return {m:'land',bg:'n/'+rg}; return {m:'cat',cat:'world'}; }
   if(s.st==='IN'||/భారత్|India/.test(s.cat||'')) return {m:'cat',cat:'india'};
   return {m:'logo'};   // nothing to show: our own logo (vector, sharp at any size)
 }
 function artImg(s){ const a=artPlan(s); if(!a) return ''; return a.m==='logo'?'/art/logo.svg':a.m==='cat'?'/art/c/'+a.cat+'.jpg':a.bg?artBg(a.bg):'/art/o/'+(a.obj||'local')+'.webp'; }
 const ART_DISC={te:'AI రూపొందించిన చిత్రం',en:'AI-generated illustration',hi:'AI से बना चित्र'};
-function artBg(k,big){ const e=big?'.jpg':'.webp'; return k.startsWith('w/')?'/art/'+k+e:'/art/d/'+k+e; } // cards: light 960px WebP; shared 4K photo: full-size original
+function artBg(k,big){ const e=big?'.jpg':'.webp'; return (k.startsWith('w/')||k.startsWith('n/'))?'/art/'+k+e:'/art/d/'+k+e; } // cards: light 960px WebP; shared 4K photo: full-size original
 function artHTML(a){
   const im=(src,cls)=>`<img class="${cls}" src="${src}" alt="" decoding="async">`;
   if(a.m==='logo') return `<i class="apl2"></i><span class="alw"><span class="alr"><img class="alogo" src="/art/logo.svg" alt=""><i class="adot"></i></span></span>`;
