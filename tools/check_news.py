@@ -81,7 +81,10 @@ def check(d, fix=False):
         for L in ('en', 'hi'):
             t = s.get(L)
             if not (isinstance(t, dict) and (t.get('h') or '').strip()):
-                warns.append(f'{tag}: {L} translation missing')
+                warns.append(f'{tag}: {L} translation missing'); continue
+            for k in ('stat', 'loc'):
+                if re.search(r'[\u0C00-\u0C7F]', s.get(k) or '') and not (t.get(k) or '').strip():
+                    warns.append(f'{tag}: {L} version has no "{k}" – English/Hindi readers would see Telugu ("{s.get(k)}")')
     return errs, warns, fixed
 
 def main():

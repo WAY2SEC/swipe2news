@@ -999,7 +999,14 @@ function tlDom(root){ try{ root.querySelectorAll('.swl').forEach(e=>e.textConten
   const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT); const ns=[]; let n; while(n=w.nextNode()) if(/[\u0C00-\u0C7F]/.test(n.data)) ns.push(n); ns.forEach(n=>n.data=teLatin(n.data)); root.querySelectorAll('[aria-label],[title]').forEach(e=>{ for(const a of ['aria-label','title']){ const v=e.getAttribute(a); if(v&&/[\u0C00-\u0C7F]/.test(v)) e.setAttribute(a,teLatin(v)); } }); }catch(e){} }
 function tlStory(s){ if(!TLG()||!s||s.kind||s._orig) return s; const t=x=>typeof x==='string'?teLatin(x):x;
   const o=Object.assign({},s,{_sid:sid(s),_orig:s,_lang:'te-Latn'}); for(const k of ['h','p','stat','statl','cat','loc']) if(o[k]) o[k]=t(o[k]); if(Array.isArray(o.pts)) o.pts=o.pts.map(t); return o; }
-function tr(s){ const l=LG(); if(!s||s.kind==='job'||l==='te'||!s[l]||typeof s[l]!=='object') return s; return Object.assign({},s,s[l],{_sid:sid(s),_lang:l}); }
+function locTx(x){ const l=LG(); if(l==='te'||!/[\u0C00-\u0C7F]/.test(x||'')) return x; // English/Hindi reader: no Telugu letters in the place line
+  if(l==='en'){ try{ return teLatin(String(x).replace(/^మొత్తం /,'')).replace(/\b[a-z]/g,c=>c.toUpperCase()); }catch(e){ return ''; } } return ''; }
+function tr(s){ const l=LG(); if(!s||s.kind==='job'||l==='te'||!s[l]||typeof s[l]!=='object') return s;
+  const o=Object.assign({},s,s[l],{_sid:sid(s),_lang:l}), TE=/[\u0C00-\u0C7F]/, t=s[l];
+  // English/Hindi reader: never show leftover Telugu (14 Nov 2026)
+  if(TE.test(o.stat||'') && !t.stat){ const d=String(o.stat).match(/[₹\d][\d,.%]*(\s?(లక్షల|కోట్ల|లక్షలు|కోట్లు))?/); o.stat=d&&/\d/.test(d[0])?d[0].replace(/\s?కోట్ల(ు)?/,l==='hi'?' करोड़':' crore').replace(/\s?లక్షల(ు)?/,l==='hi'?' लाख':' lakh'):''; }
+  if(TE.test(o.loc||'') && !t.loc){ try{ o.loc=l==='en'?teLatin(o.loc).replace(/\b[a-z]/g,c=>c.toUpperCase()):''; }catch(e){ o.loc=''; } }
+  return o; }
 const placeName = k => { if(!k||k==='TS') return 'మొత్తం తెలంగాణ'; if(k==='AP') return 'మొత్తం ఆంధ్రప్రదేశ్'; const t=PLACES.find(p=>p[0]===k); return t?t[1]:(placeLabel(k)||'మొత్తం తెలంగాణ'); };
 const stOfPlace = k => !k||k==='TS'||PLACES.some(p=>p[0]===k) ? 'TG' : (k==='AP'||k.startsWith('ap-') ? 'AP' : (k.startsWith('st-')?k.slice(3):(/^[a-z]{2}-/.test(k)&&STATE_DISTRICTS[k.slice(0,2).toUpperCase()]?k.slice(0,2).toUpperCase():'TG')));
 /* does a story belong to the reader's place? */
@@ -1378,7 +1385,7 @@ function cardHTML(s,i){
   if(s.kind==='mandi') return mandiHTML(s,i);
   if(s.kind==='house') return houseHTML(s,i);
   if(s.kind==='loc') return locHTML(s,i);
-  const where=[s.loc, s.place&&s.place!=='TS'&&s.place!=='IN' ? placeName(s.place) : (s.st&&s.st!=='TG'&&s.st!=='IN' ? placeLabel('st-'+s.st) : '')].filter(Boolean).join(', ');
+  const where=[...new Set([s.loc, s.place&&s.place!=='TS'&&s.place!=='IN' ? placeName(s.place) : (s.st&&s.st!=='TG'&&s.st!=='IN' ? placeLabel('st-'+s.st) : '')].filter(Boolean).map(locTx))].filter(Boolean).join(', ');
   const ph = !!(storyPhoto(s)||artImg(s));
   const read = /^https?:\/\//.test(s.url||'') ? `<a class="read" href="${esc(s.url)}" target="_blank" rel="noopener">${U('full')}</a>` : '';
   return `<article class="story s2n${ph?' hasph':''}${(()=>{const a=!storyPhoto(s)&&artPlan(s);return a&&a.m==='plain'&&!a.obj?' numled':''})()}" aria-label="${U('news')} ${i+1}" style="--hl:#4A0E3F;--hl-ink:#4A0E3F">
