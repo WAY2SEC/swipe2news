@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-14T08:05:00+05:30",
+ "cutoff": "2026-11-14T08:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T15:35:00+05:30/2026-11-10T16:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 12,
-   "published": 9,
-   "late": 8,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 2,
-   "review": 1,
-   "gaps": "Search-first; WebFetch via sub-agent. Eenadu (robots.txt) and Telangana Today Nvidia article (fetch permission error) could not be read. Most district searches returned only listing pages; Sakshi, TV9, V6, NTV, Reuters/BBC direct articles not reached. No in-range other-state item found."
-  },
   {
    "window": "2026-11-10T16:05:00+05:30/2026-11-10T16:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 6,
    "review": 1,
    "gaps": "08:05 run started 08:06 IST. Lookback from 23:35 13 Nov. Read: Andhra Jyothy live blog (07:29–07:40, 19 items), Hans India CII exhibitions (05:31), ETV TG/AP live blogs (no new items after 06:56). Published: Kothagudem airport (Sujatanagar), Saudi flight suspension, Bharat Summit visa row (claim), SEC–Rayalaseema SPs Tirupati, Khammam tiger, U-19 Asia Cup final, Vizag CII exhibitions. Duplicates: Assam crash toll 26, US FAA ground stop, Rahul arrival, Bharat Summit schedule, central team Palnadu, AJ CII public visit. Skipped: Rahul breakfast meeting, Modi Gujarat, KTR Karimnagar meeting, SpaceX Starship (no outcome), China surrogacy ban (no issuing body), Raptadu accused hospital shift. Review: AJ 'local bodies nominations 4 corporations/19 municipalities, polls 26, counting 30' conflicts with ETV panchayat schedule. Old/not eligible: Hans Bhadradri rain (4 Nov), TT/Tribune Bharat Summit 2025. Search results mostly stale; not reached: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters. Districts searched: Suryapet, Adilabad, Sangareddy, Vikarabad, Bhadradri, Kurnool, NTR/Vijayawada, Anantapur, Nandyal, Chittoor."
+  },
+  {
+   "window": "2026-11-14T08:05:00+05:30/2026-11-14T08:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 0,
+   "published": 0,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "08:35 run started 08:36 IST. Lookback from 00:05 14 Nov. Search results stale; nothing published after lookback start found. Pre-lookback (not eligible): Hans AP municipal polls items 1138075/1138110/1138024 (1 Nov), Asianet Anakapalli cyclone review (28 Oct), Siasat ACB Nagarkurnool official, farmer suicides, Sridhar Babu, Rahul phone-tap (13 Nov 15:17-17:11), Al Jazeera Cuba/Finland (13 Nov). Duplicate: Siasat Rahul arrives 3576953. Not reached: US News world (error), Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters. Districts searched: Hanumakonda, Warangal, Jangaon, Mancherial, Asifabad, Bhupalpally, Nagarkurnool, Wanaparthy, Gadwal, Narayanpet, Sircilla, Yadadri, Vizianagaram, Anakapalli, Konaseema, Anantapur, Sathyasai, Annamayya, Krishna, West Godavari."
   }
  ],
  "seen": [
@@ -2033,6 +2033,46 @@
    "url": "https://www.tribuneindia.com/news/india/bharat-summit-passes-hyderabad-resolution-on-global-issues",
    "d": "2026-11-14",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/polling-begins-in-92-urban-local-bodies-in-ap-1138075",
+   "d": "2026-11-14",
+   "w": "old"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/political-leaders-cast-their-votes-in-ap-municipal-elections-1138110",
+   "d": "2026-11-14",
+   "w": "old"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/vijayawada/machilipatnam-vuyyuru-and-pedana-ready-for-municipal-polls-1138024",
+   "d": "2026-11-14",
+   "w": "old"
+  },
+  {
+   "url": "https://newsable.asianetnews.com/india/andhra-minister-reviews-cyclone-damage-in-anakapalli-coastal-villages-articleshow-cke1aeo",
+   "d": "2026-11-14",
+   "w": "old"
+  },
+  {
+   "url": "https://www.siasat.com/rs-7-23-cr-in-assets-uncovered-from-irrigation-official-booked-3576542/",
+   "d": "2026-11-14",
+   "w": "old"
+  },
+  {
+   "url": "https://www.siasat.com/cotton-paddy-and-maize-3-telangana-farmers-die-by-suicide-3576427/",
+   "d": "2026-11-14",
+   "w": "old"
+  },
+  {
+   "url": "https://www.siasat.com/pm-taps-my-phone-knows-what-proof-i-have-on-him-rahul-gandhi-3576444/",
+   "d": "2026-11-14",
+   "w": "old"
+  },
+  {
+   "url": "https://www.siasat.com/rahul-gandhi-arrives-in-hyderabad-to-address-bharat-summit-3576953/",
+   "d": "2026-11-14",
+   "w": "duplicate"
   }
  ]
 }
