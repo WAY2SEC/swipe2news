@@ -905,7 +905,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
   <div class="toast" id="toast" role="status"></div>
 </div>
 
-<script src="scenes.js?v=20261114i"></script>
+<script src="scenes.js?v=20261114j"></script>
 <script src="mandi.js?v=2"></script>
 <script>
 const CONFIG = {
@@ -1667,7 +1667,63 @@ function wrap(ctx,text,maxW){ // word wrap that keeps Telugu words whole
   if(line) lines.push(line); return lines;
 }
 function rrect(ctx,x,y,w,h,r){ctx.beginPath();ctx.moveTo(x+r,y);ctx.arcTo(x+w,y,x+w,y+h,r);ctx.arcTo(x+w,y+h,x,y+h,r);ctx.arcTo(x,y+h,x,y,r);ctx.arcTo(x,y,x+w,y,r);ctx.closePath();}
+
+/* Share photo, old way2sec layout in Swipe2News colours (owner, 14 Nov 2026):
+   picture on top with place pill, date and the number line (one line) · brand band · headline (one line) · summary · source + read more · footer with QR.
+   mode 'full' = 9:16 phone screen 2160x3840 (WhatsApp, Status, social) · 'insta' = 4:5 2160x2700 (photo download). */
+async function newsCard(s,mode){
+  try{ await document.fonts.ready; }catch(e){}
+  const W=1080, H=mode==='insta'?1350:1920, PIC=mode==='insta'?540:900, HS=mode==='insta'?54:68, PS=mode==='insta'?32:40;
+  const PLUM='#4A0E3F', DEEP='#2E0827', AP='#F5A23A', CR='#FFFDF5', TE="'Noto Sans Telugu','Nirmala UI','Gautami','Noto Sans Devanagari',sans-serif", OU="'Outfit',"+"'Noto Sans Telugu',sans-serif";
+  const K=2, c=document.createElement('canvas'), ctx=c.getContext('2d'); c.width=W*K; c.height=H*K; ctx.setTransform(K,0,0,K,0,0); ctx.imageSmoothingQuality='high';
+  const fitFont=(txt,weight,size,family,maxW,minSize)=>{ let f=size; ctx.font=`${weight} ${f}px ${family}`; while(ctx.measureText(txt).width>maxW&&f>minSize){ f-=1; ctx.font=`${weight} ${f}px ${family}`; } return f; };
+  ctx.fillStyle=CR; ctx.fillRect(0,0,W,H);
+  // 1) picture
+  ctx.fillStyle=PLUM; ctx.fillRect(0,0,W,PIC);
+  let hasPh=false, hasArt=false; try{ hasPh=await drawStoryPhoto(ctx,s,0,0,W,PIC); }catch(e){}
+  if(!hasPh){ try{ hasArt=await drawArtPlan(ctx,s,0,0,W,PIC,1); }catch(e){} }
+  const g=ctx.createLinearGradient(0,0,0,PIC); g.addColorStop(0,'rgba(46,8,39,.55)'); g.addColorStop(.22,'rgba(46,8,39,0)'); g.addColorStop(.40,'rgba(46,8,39,0)'); g.addColorStop(.66,'rgba(20,4,17,.82)'); g.addColorStop(1,'rgba(20,4,17,.95)'); ctx.fillStyle=g; ctx.fillRect(0,0,W,PIC);
+  // top row: pill + date/time
+  const pill=(s.brk?'🔴 ':'')+(s.cat||U('news')); ctx.font=`700 32px ${TE}`; const pw=Math.min(W*0.62,ctx.measureText(pill).width+52);
+  ctx.fillStyle='rgba(46,8,39,.4)'; rrect(ctx,43,38,pw,60,30); ctx.fill(); ctx.strokeStyle='rgba(255,253,245,.85)'; ctx.lineWidth=3; rrect(ctx,43,38,pw,60,30); ctx.stroke();
+  ctx.fillStyle=CR; ctx.textBaseline='middle'; ctx.fillText(pill,69,69,pw-52);
+  const dt=[s.d,s.t].filter(Boolean).join(' · '); if(dt){ ctx.font=`800 32px ${OU}`; ctx.textAlign='right'; ctx.fillText(dt,W-43,69); ctx.textAlign='left'; }
+  // number + label, one line
+  const st=s.kind?'':statTx(s), sl=s.kind?'':(s.statl||'');
+  if(st||sl){ const line=st+(st&&sl?'  ':'')+sl; const f=fitFont(line,800,54,TE,W-97,22); const y=PIC-(hasArt?70:48);
+    ctx.save(); ctx.shadowColor='rgba(0,0,0,.6)'; ctx.shadowBlur=14; ctx.shadowOffsetY=3; ctx.font=`800 ${f}px ${TE}`; ctx.fillStyle=AP; ctx.fillText(st,49,y); const sw=st?ctx.measureText(st+'  ').width:0; ctx.fillStyle=CR; ctx.fillText(sl,49+sw,y); ctx.restore(); }
+  if(hasArt){ const ap_=artPlan(s)||{}; if(ap_.m!=='logo'&&!(ap_.m==='plain'&&!ap_.obj)){ ctx.font=`500 24px ${TE}`; ctx.fillStyle='rgba(255,253,245,.75)'; ctx.fillText(ART_DISC[LG()]||ART_DISC.te,49,PIC-24); } }
+  // 2) brand band
+  const BY=PIC, BH=140; ctx.fillStyle=DEEP; ctx.fillRect(0,BY,W,BH); ctx.fillStyle=AP; ctx.fillRect(0,BY,W,5); ctx.fillRect(0,BY+BH-5,W,5);
+  const iy=BY+BH/2; try{ const ic=await loadImg('icon-512.png'); ctx.save(); ctx.fillStyle=CR; rrect(ctx,46,iy-43,86,86,22); ctx.fill(); rrect(ctx,49,iy-40,80,80,19); ctx.clip(); ctx.drawImage(ic,49,iy-40,80,80); ctx.restore(); }catch(e){}
+  ctx.textBaseline='alphabetic'; ctx.font=`800 62px ${OU}`; ctx.fillStyle=CR; ctx.fillText('swipe2news',148,iy+10); const ww=ctx.measureText('swipe2news').width; ctx.fillStyle=AP; ctx.fillText('.',148+ww,iy+10);
+  ctx.font=`700 26px ${TE}`; ctx.fillStyle='rgba(255,253,245,.88)'; ctx.fillText('తక్కువ స్క్రోల్, ఎక్కువ సమాచారం',150,iy+48);
+  ctx.textAlign='right'; ctx.font=`800 44px ${OU}`; const tg=(t,y)=>{ ctx.fillStyle=AP; ctx.fillText('.',W-49,y); const dw=ctx.measureText('.').width; ctx.fillStyle=CR; ctx.fillText(t,W-49-dw,y); }; tg('Know More',iy-6); tg('Scroll Less',iy+44); ctx.textAlign='left';
+  // 3) body
+  const FH=151, BX=59, TW=W-2*BX; let y=BY+BH+48;
+  const hs=fitFont(s.h||'',800,HS,TE,TW,Math.round(HS*0.6)); ctx.fillStyle=PLUM; ctx.textBaseline='top'; let ht=s.h||''; while(ctx.measureText(ht).width>TW&&ht.length>1) ht=ht.slice(0,-1); ctx.fillText(ht+(ht.length<(s.h||'').length?'…':''),BX,y); y+=hs*1.3+24;
+  const srcY=H-FH-30-34; // source row baseline area
+  ctx.font=`400 ${PS}px ${TE}`; ctx.fillStyle='#2B2B2E'; const LH=PS*1.62; const lines=wrap(ctx,s.p||'',TW); const maxL=Math.max(1,Math.floor((srcY-28-y)/LH));
+  let shown=lines.slice(0,maxL); if(lines.length>maxL){ let t=shown[shown.length-1]; while(t&&ctx.measureText(t+'…').width>TW) t=t.slice(0,-1); shown[shown.length-1]=t+'…'; }
+  shown.forEach(t=>{ ctx.fillText(t,BX,y); y+=LH; });
+  ctx.fillStyle='#E8DFD3'; ctx.fillRect(BX,srcY-26,TW,2);
+  ctx.textBaseline='middle'; const sy=srcY+8; const lab=({te:'మూలం: ',en:'Source: ',hi:'स्रोत: '})[LG()]||'Source: ';
+  ctx.font=`600 32px ${TE}`; ctx.fillStyle='#6B5A63'; ctx.fillText(lab,BX,sy); const lw=ctx.measureText(lab).width;
+  const rd=({te:'పూర్తి వార్త చదవండి →',en:'Read full story →',hi:'पूरी खबर पढ़ें →'})[LG()]||'Read full story →'; ctx.font=`800 32px ${TE}`; const rw=ctx.measureText(rd).width;
+  ctx.fillStyle='#202124'; ctx.font=`800 32px ${TE}`; ctx.fillText(s.src||'Swipe2News',BX+lw,sy,TW-lw-rw-30);
+  ctx.textAlign='right'; ctx.fillStyle=PLUM; ctx.fillText(rd,W-BX,sy); ctx.textAlign='left';
+  // 4) footer with QR
+  const FY=H-FH; ctx.fillStyle='#14030F'; ctx.fillRect(0,FY,W,FH);
+  ctx.font=`800 35px ${TE}`; ctx.fillStyle=CR; const f1=({te:'మీ ఊరి వార్తలు మీ చేతిలో! · ',en:'Your local news in your hand! · ',hi:'आपके इलाके की खबरें आपके हाथ में! · '})[LG()]||''; ctx.fillText(f1,49,FY+FH/2-22); const f1w=ctx.measureText(f1).width;
+  ctx.fillStyle=AP; ctx.fillText(({te:'ఉచిత యాప్',en:'Free app',hi:'मुफ़्त ऐप'})[LG()]||'Free app',49+f1w,FY+FH/2-22);
+  ctx.font=`800 30px ${OU}`; ctx.fillStyle='rgba(255,253,245,.92)'; ctx.fillText('swipe2news.com · @swipe2newsapp',49,FY+FH/2+26);
+  try{ const q=await loadImg('brand/qr-share.png'); ctx.fillStyle='#fff'; rrect(ctx,W-49-124,FY+(FH-124)/2,124,124,10); ctx.fill(); ctx.drawImage(q,W-49-118,FY+(FH-124)/2+6,112,112); }catch(e){}
+  ctx.textBaseline='alphabetic';
+  let url=''; try{ url=c.toDataURL('image/jpeg',0.92); }catch(e){}
+  const blob=await new Promise(r=>c.toBlob(r,'image/jpeg',0.92)); if(blob&&url) blob.dataURL=url; return blob;
+}
 async function cardImage(s){
+  if(s&&!s.kind&&s.h){ try{ const b=await newsCard(s,'full'); if(b) return b; }catch(e){} }
   if(s&&s.kind==='promo'){ try{ const r=await fetch(s.img||CONFIG.PROMO.img); const b=await r.blob(); try{ b.dataURL=await new Promise(ok=>{const f=new FileReader(); f.onload=()=>ok(f.result); f.readAsDataURL(b);}); }catch(e){} return b; }catch(e){ return null; } }
   try{ await document.fonts.ready; }catch(e){}
   const W=1080, P=56, IN=48, PLUM='#4A0E3F', DEEP='#2E0827', AP='#F5A23A', CR='#FFFDF5';
@@ -1759,7 +1815,7 @@ function prepCard(){ const s=LIST[cur]; if(!s) return Promise.resolve(null); con
   if(cardCache.k===k && (cardCache.blob||cardCache.p)) return cardCache.blob?Promise.resolve(cardCache.blob):cardCache.p;
   const c={k,blob:null,p:null}; cardCache=c;
   const failed=()=>{ setTimeout(()=>{ if(cardCache===c && !c.blob) cardCache={k:null,blob:null,p:null}; },3000); return null; }; // try again a little later
-  c.p=cardImage(s).then(b=>{ if(!b) return failed(); c.blob=b; return b; }).catch(failed); return c.p; }
+  c.p=cardImage(s).then(b=>{ if(!b) return failed(); c.blob=b; if(s&&!s.kind&&s.h) newsCard(s,'insta').then(x=>{ if(cardCache===c) c.insta=x; }).catch(()=>{}); return b; }).catch(failed); return c.p; }
 setInterval(()=>{ const s=LIST[cur]; if(s && cardCache.k!==keyOf(s)) prepCard(); },400);
 const cardFile=b=>new File([b],'swipe2news-'+Date.now()+'.jpg',{type:'image/jpeg'});
 function saveBlob(b){ const u=URL.createObjectURL(b), a=document.createElement('a');
@@ -1779,7 +1835,8 @@ async function copyText(t){
 $('dlBtn').onclick=async()=>{ const s=LIST[cur]; if(!s) return;
   const ready=cardCache.k===keyOf(s) && cardCache.blob;
   if(!ready) toast('చిత్రం తయారవుతోంది…');
-  const b=ready||await prepCard(); if(!b){ toast('చిత్రం తయారు కాలేదు, మళ్లీ ప్రయత్నించండి'); return; }
+  let b=ready||await prepCard(); if(!b){ toast('చిత్రం తయారు కాలేదు, మళ్లీ ప్రయత్నించండి'); return; }
+  if(s&&!s.kind&&s.h){ const ib=(cardCache.k===keyOf(s)&&cardCache.insta)||await newsCard(s,'insta').catch(()=>null); if(ib) b=ib; } // photo download: Insta 4:5
   const f=cardFile(b);
   // iPhone: "Save Image" is in the share sheet; Android/desktop: normal download to gallery
   if(/iPhone|iPad|iPod/.test(navigator.userAgent) && navigator.canShare && navigator.canShare({files:[f]}) && ready){
