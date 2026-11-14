@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-14T13:05:00+05:30",
+ "cutoff": "2026-11-14T13:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T20:05:00+05:30/2026-11-10T20:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 3,
-   "late": 3,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agent. Searches mostly returned listing/tag pages; no in-window (20:05-20:35) article surfaced. Eenadu, Sakshi, ETV Bharat (new), TV9, V6, NTV, Reuters/BBC/AP article pages not surfaced; no AP, other-state or international item verified in range (TheStreet live blog skipped as minor international). Vantage Markets fetch failed."
-  },
   {
    "window": "2026-11-10T20:35:00+05:30/2026-11-10T21:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "13:05 run started 13:06 IST. Lookback from 04:35 14 Nov. Read: Siasat KTR questions Rahul 3577135 (12:47, published, claim), Andhra Jyothy Vizag data centres water 1576158 (06:19, late-found, claim), Siasat/PTI Ramchander Rao house arrest 3577149 (12:36; duplicate of house-arrest story), Andhra Jyothy Naidu interview 1576127 (05:16; skipped, interview feature with no news event). Not reached: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; India/world/district standard searches stale. Districts searched: Nizamabad, Karimnagar, Adilabad, Bhadradri, Nellore, Kurnool, Anantapur, West Godavari."
+  },
+  {
+   "window": "2026-11-14T13:05:00+05:30/2026-11-14T13:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 2,
+   "late": 1,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 6,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "13:35 run started 13:36 IST. Lookback from 05:05 14 Nov. Read: HMTV Dharpally chain-snatching 212700 (13:24, published, claim), Bombay Samachar/PTI Kaziranga toll 26 (12:46, late-found, published as update, fact), Telangana Today IMD well-marked low (13:19; duplicate of cyclone story), UNI 244976 CM on gig act (13:33) and UNI 244934 Rahul launches scheme (12:43; duplicates of gig-act story), Prabha News Ramchander Rao statement (12:08; duplicate of house-arrest story), ETV Bharat TG/AP and Andhra Jyothy live blogs (no entries after 09:16; already used), Sakshi Naidu remarks 2960369 (05:09; skipped, partisan critique), Hans India Children's Day greetings 1142043 (skipped, greeting). U19 Asia Cup final still in progress. Not reached: Eenadu, NT, V6, TV9, NTV, The Hindu, Reuters; India/world/district standard searches stale. Districts searched: Medak, Siddipet, Sangareddy, Jangaon, Mahabubnagar, Nagarkurnool, Wanaparthy, Gadwal, Kamareddy, Nirmal, Mancherial, Peddapalli, Srikakulam, Vizianagaram, Kakinada, NTR, Eluru, Prakasam, Kadapa, Nandyal, Annamayya."
   }
  ],
  "seen": [
@@ -2221,6 +2221,56 @@
   },
   {
    "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/ap-cm-chandrababu-naidu-shares-political-journey-and-amaravati-development-vision-1576127.html",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/nizamabad/dharpally-police-solve-gold-chain-snatching-case-arrest-accused-212700",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://english.bombaysamachar.com/india-news/kaziranga-accident-26-dead-bus-truck-collision-assam/",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/imd-warns-of-possible-cyclonic-storm-over-bay-of-bengal-around-november-16",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/event-gig-workers-telangana-cm/244976",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/event-telangana-gig-workers-rahul-gandhi/244934",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://prabhanews.com/we-will-not-tolerate-any-damage-to-the-countrys-reputation-bjp-state-president-ramchandra-rao/",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.dtnext.in/news/national/congress-stands-with-gig-workers-considers-them-partners-in-progress-rahul-gandhi",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://ap7am.com/tn/886746/coastal-andhra-cyclone-warning-heavy-rains-from-november-18",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/andhra-pradesh/chandrababu-naidu-says-he-will-bring-sunshine-night-2960369",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/ap-cm-chandrababu-lokesh-greet-children-on-national-childrens-day-1142043",
    "d": "2026-11-14",
    "w": "skipped"
   }
