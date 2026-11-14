@@ -368,7 +368,7 @@ function artType(s){
    weather → the condition is the hero (rain cloud only when it rains; cool / warm tone for cold / heat), the place dimmed behind;
    place = subject (temple, travel, festival) → the landmark alone; place + type → landmark + small type picture;
    type only → its picture; else the state emblem. */
-const ART_SENS=/హత్య|అరెస్ట్|దొంగ|పోలీసు|నిందితు|అత్యాచార|ప్రమాద|మృతి|మరణ|ఆత్మహత్య|చనిపో|కోర్టు|సైబర్|మోసం|murder|arrest|police|accident|killed|death|dies|died|suicide|court|cyber|fraud|scam|rape/i;
+const ART_SENS=/కిడ్నాప్|అదృశ్య|అపహరణ|kidnap|missing girl|missing boy|హత్య|అరెస్ట్|దొంగ|పోలీసు|నిందితు|అత్యాచార|ప్రమాద|మృతి|మరణ|ఆత్మహత్య|చనిపో|కోర్టు|సైబర్|మోసం|murder|arrest|police|accident|killed|death|dies|died|suicide|court|cyber|fraud|scam|rape/i;
 function artPlan(s){
   if(!s||s.kind) return null;
   const pk=normPlace(String(s.place||'').toLowerCase()), land=ART_D.has(pk)&&!['tg','ap'].includes(pk)?pk:'';
@@ -382,10 +382,12 @@ function artPlan(s){
   }
   if(type==='weather'){
     const bg=land||sland, rain=/వర్ష|వాన|తుపాను|అల్పపీడన|వరద|జల్లు|rain|cyclone|flood|shower|depression/i.test(t), heat=/ఎండ|వడగాల్పు|ఉక్కపోత|heat|hot\b|scorch/i.test(t), cold=/చలి|పొగమంచు|మంచు|cold|chill|fog|mist|winter/i.test(t);
-    return {m:'wx',bg,obj:rain?'weather':(heat||cold)?'':'cloud',tone:rain?'':heat?'warm':cold?'cool':''};
+    const wo=rain?'weather':(heat||cold)?'':'cloud';
+    if(bg) return {m:'land',bg}; // owner 14 Nov: when the place is known, show the place picture clear and whole (no cloud on top)
+    return {m:'wx',bg,obj:wo,tone:rain?'':heat?'warm':cold?'cool':''};
   }
   if(land&&['devotional','travel','culture'].includes(type)) return {m:'land',bg:land};
-  if(land&&type&&!['telangana','andhra','local','india'].includes(type)) return {m:'landobj',bg:land,obj:type};
+  // owner 14 Nov: place known → the place picture alone, nothing pasted on top
   if(land) return {m:'land',bg:land};
   if(!land&&(/ప్రపంచం|World/.test(t+(s.cat||''))||(Array.isArray(s.sec)&&s.sec.includes('world')))&&!['weather'].includes(type)){ for(const [rx,k] of ART_W) if(rx.test(t+' '+(s.cat||''))) return {m:'land',bg:'w/'+k}; }
   if(type) return {m:'cat',cat:type};
