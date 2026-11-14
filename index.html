@@ -746,6 +746,23 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .story.s2n .cfoot>span{white-space:nowrap}
 @media (max-height:780px){.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text .sum{font-size:15px;line-height:1.5}.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text{gap:5px!important;padding-top:10px!important}}
 @media (min-width:380px){.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text>.ctxrow{align-self:flex-end;margin-top:calc(-1 * (19px + 7px));line-height:19px}}
+
+/* PREVIEW nav (?nav=1): Home, Previous/Next, flip card */
+.icon.homeb{margin-left:auto;margin-right:8px}
+.s2n .cfoot.navf{padding:0 8px}
+.s2n .cfoot.navf>span{font-size:11px;opacity:.85}
+.s2n .cfoot.navf button{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:3px;height:34px;padding:0 12px;border-radius:17px;background:#F5A23A;color:#2E0827;font:800 13px/1 'Outfit',var(--body);white-space:nowrap}
+.s2n .cfoot.navf .navp{background:rgba(255,253,245,.14);color:#FFFDF5}
+.story.s2n .flipgo,.story.s2n .flipbk{display:none}
+.story.s2n.flipF:not(.promo2):not(.house):not(.locq):not(.mandi)>.panel.bnr{flex:0 0 46%!important;height:46%!important;min-height:46%!important;max-height:46%!important}
+.story.s2n.flipF .text .sum,.story.s2n.flipF .text .more,.story.s2n.flipF .text .kpts,.story.s2n.flipF .text .kph,.story.s2n.flipF .text .srow,.story.s2n.flipF .text .corr{display:none!important}
+.story.s2n.flipF .flipgo{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:6px;align-self:flex-start;margin-top:12px;height:44px;padding:0 18px 0 20px;border-radius:22px;background:#4A0E3F;color:#FFFDF5;font:800 16px/1 var(--body)}
+.story.s2n.flipB:not(.promo2):not(.house):not(.locq):not(.mandi)>.panel.bnr{display:none!important}
+.story.s2n.flipB .flipbk{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:4px;align-self:flex-start;height:32px;padding:0 14px 0 10px;margin:2px 0 8px;border-radius:16px;border:1.5px solid #4A0E3F;color:#4A0E3F;font:800 13px/1 var(--body)}
+.story.s2n.flipB:not(.promo2):not(.house):not(.locq):not(.mandi)>.text .kpts{display:flex!important;margin-top:10px}
+.story.s2n.flipB .kph{margin-top:14px;font:800 13px/1 var(--body);color:#4A0E3F;letter-spacing:.3px;text-transform:uppercase}
+.story.s2n.flipB .text .sum{-webkit-line-clamp:unset!important;display:block!important}
+.story.s2n.flipping{transition:transform .18s ease-in;transform:perspective(1200px) rotateY(90deg)!important}
 </style>
 </head>
 <body>
@@ -753,6 +770,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
   <header>
     <a href="/?cards=1" id="homeLogo" aria-label="Swipe2News హోమ్ – మొదటి వార్త"><img class="hicon" src="icon-192.png" alt="" width="30" height="30"><img class="logo" src="logo.png" alt="Swipe2News"></a>
     <button class="place" id="placeBtn" type="button" aria-label="ప్రాంతం మార్చండి"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span id="placeName">తెలంగాణ</span></button>
+    <button class="icon homeb" id="homeBtn" type="button" aria-label="హోమ్ · Home" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg></button>
     <button class="icon menub" id="menuBtn" type="button" aria-label="మెనూ · Menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     <button class="lngb" id="lngBtn" type="button" aria-label="భాష మార్చండి · Change language"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span id="lngName">తెలుగు</span></button>
     <button class="icon bell" id="bellBtn" type="button" aria-label="వార్తల అలర్ట్‌లు" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg></button>
@@ -1387,6 +1405,11 @@ function actsHTML(){ return `<div class="cacts">
     <button class="ca sh" type="button" aria-label="${U('share')}"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg><span>${U('share')}</span></button>
     <button class="ca wa" type="button"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z" stroke="#0E7A3E" stroke-width="1.9" stroke-linejoin="round"/><path d="M9.2 7.8c-.4 0-.9.4-1 1-.2 1.4.6 3.2 2.1 4.7s3.3 2.3 4.7 2.1c.6-.1 1-.6 1-1v-.9l-1.9-.9-.9.9c-.9-.4-2.4-1.9-2.8-2.8l.9-.9-.9-1.9z" fill="#0E7A3E"/></svg><span>WhatsApp</span></button>
   </div>`; }
+/* PREVIEW (14 Nov 2026, owner to approve): ?nav=1 turns on Home + Previous/Next buttons and the flip card; ?nav=0 turns it off */
+const NAV=(()=>{ try{ const q=new URLSearchParams(location.search).get('nav'); if(q==='1'||q==='0') localStorage.setItem('w2s.nav',q); return localStorage.getItem('w2s.nav')==='1'; }catch(e){ return false; } })();
+const NAVTX={te:{prev:'మునుపటి',next:'తర్వాత',read:'పూర్తిగా చదవండి',front:'ముందు వైపుకు',home:'హోమ్',kp:'ముఖ్యాంశాలు'},en:{prev:'Previous',next:'Next',read:'Read more',front:'Back to front',home:'Home',kp:'Key points'},hi:{prev:'पिछली',next:'अगली',read:'पूरा पढ़ें',front:'सामने की ओर',home:'होम',kp:'मुख्य बातें'}};
+const NT=k=>(NAVTX[LG()]||NAVTX.te)[k];
+function navFootHTML(){ return `<div class="cfoot navf"><button class="navp" type="button" aria-label="${NT('prev')}"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>${NT('prev')}</button><span>Know More<i class="kd">.</i> Scroll Less<i class="kd">.</i></span><button class="navn" type="button" aria-label="${NT('next')}">${NT('next')}<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button></div>`; }
 function footHTML(){ const l=LG(); return `<div class="cfoot"><span>Know More<i class="kd">.</i> Scroll Less<i class="kd">.</i></span><button class="pnext sw" type="button"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg><b class="swl">${esc({te:'తర్వాత వార్త కోసం స్వైప్ చేయండి',en:'Swipe left for next story',hi:'अगली खबर के लिए स्वाइप करें'}[l])}</b><b class="sws">${esc({te:'స్వైప్ చేయండి',en:'Swipe left',hi:'स्वाइप करें'}[l])}</b></button></div>`; }
 function cardHTML(s,i){
   if(s.kind==='promo') return promoHTML(s,i);
@@ -1397,7 +1420,7 @@ function cardHTML(s,i){
   const where=[...new Set([s.loc, s.place&&s.place!=='TS'&&s.place!=='IN' ? placeName(s.place) : (s.st&&s.st!=='TG'&&s.st!=='IN' ? placeLabel('st-'+s.st) : '')].filter(Boolean).map(locTx))].filter(Boolean).join(', ');
   const ph = !!(storyPhoto(s)||artImg(s));
   const read = /^https?:\/\//.test(s.url||'') ? `<a class="read" href="${esc(s.url)}" target="_blank" rel="noopener">${U('full')}</a>` : '';
-  return `<article class="story s2n${ph?' hasph':''}${(()=>{const a=!storyPhoto(s)&&artPlan(s);return a&&a.m==='plain'&&!a.obj?' numled':''})()}" aria-label="${U('news')} ${i+1}" style="--hl:#4A0E3F;--hl-ink:#4A0E3F">
+  return `<article class="story s2n${NAV?' flipF':''}${ph?' hasph':''}${(()=>{const a=!storyPhoto(s)&&artPlan(s);return a&&a.m==='plain'&&!a.obj?' numled':''})()}" aria-label="${U('news')} ${i+1}" style="--hl:#4A0E3F;--hl-ink:#4A0E3F">
   <div class="panel bnr">
     ${sceneSVG(s,'scene')}${/^videos\/[\w.-]+\.mp4$/.test(s.vid||'')?`<button class="vplay" type="button" data-vid="${esc(s.vid)}" aria-label="వీడియో చూడండి"><svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#fff"/></svg><span>వీడియో చూడండి</span></button>`:''}
     <div class="ptop"><span class="bchip">${s.brk?'🔴 BREAKING · ':''}${esc(s.cat||U('news'))}</span></div>
@@ -1406,14 +1429,14 @@ function cardHTML(s,i){
   </div>
   <div class="text"${s._lang?` lang="${s._lang}"`:''}>
     <div class="meta"><span><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>${readMins(s)} ${U('min')}</span>${where?`<span class="mloc"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>${esc(where)}</span>`:''}<button class="tsz" type="button" aria-label="అక్షరాల సైజు · Text size">aA</button><button class="lis" type="button"><svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M7 4.5v15l12-7.5z" fill="currentColor"/></svg>${U('listen')} ${listenSecs(s)}</button></div>
-    <h2 class="${(s.h||'').length<=45?'hs':(s.h||'').length<=75?'hm':'hl'}">${esc(s.h)}</h2>
+    ${NAV?`<button class="flipbk" type="button"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>${NT('front')}</button>`:''}<h2 class="${(s.h||'').length<=45?'hs':(s.h||'').length<=75?'hm':'hl'}">${esc(s.h)}</h2>
     <div class="sline">${(s.d||s.t)?`<span class="stime"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>${whenTxt(s)}</span>`:''}</div>${ctxLabel(s)?`<div class="ctxrow">${ctxLabel(s)}</div>`:''}
-    <p class="sum">${esc(s.p)}</p><a class="more" hidden href="/s/${sid(s)}">${esc({te:'పూర్తిగా చదవండి ›',en:'Read more ›',hi:'पूरा पढ़ें ›'}[LG()]||'')}</a>${Array.isArray(s.pts)&&s.pts.length?`<ul class="kpts">${s.pts.slice(0,3).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${corrNote(s)}
+    ${NAV?`<button class="flipgo" type="button">${NT('read')}<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>`:''}<p class="sum">${esc(s.p)}</p><a class="more" hidden href="/s/${sid(s)}">${esc({te:'పూర్తిగా చదవండి ›',en:'Read more ›',hi:'पूरा पढ़ें ›'}[LG()]||'')}</a>${Array.isArray(s.pts)&&s.pts.length?`${NAV?`<div class="kph">${NT('kp')}</div>`:''}<ul class="kpts">${s.pts.slice(0,3).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${corrNote(s)}
     <div class="srow">${aiChip()}<span class="srcb"><small>${esc({te:'మూలం:',en:'Source:',hi:'स्रोत:'}[LG()]||'Source:')}</small>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.src)} <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>`:`<b>${esc(s.src)}</b>`}</span></div>
   </div>
   <div class="spacer" data-sp="${i}"></div>
   ${actsHTML()}
-  ${footHTML()}
+  ${NAV?navFootHTML():footHTML()}
 </article>`;
 }
 /* ---------- smart space banner ---------- */
@@ -1586,6 +1609,7 @@ function go(i,dir,from){
     turn(out, from||0, 1, axis, ()=>{ out.hidden=true; unbend(out); unbend(inn); busy=false; }); }
   else { out.style.zIndex='1'; inn.style.zIndex='3'; bend(inn, from==null?1:from, axis);
     turn(inn, from==null?1:from, 0, axis, ()=>{ out.hidden=true; unbend(out); unbend(inn); busy=false; }); }
+  if(NAV&&out&&out.classList.contains('flipB')){ setTimeout(()=>{ out.classList.remove('flipB'); out.classList.add('flipF'); },400); }
   cur=i; setCount(cur+1,cards.length); syncSave(); fsSoon(1200); setTimeout(()=>{ if(window.fsPlace) fsPlace(); },0);
   try{ const s=LIST[cur]; if(s && s.kind==='promo' && window.gtag) gtag('event','promo_view',{}); if(s && s.kind!=='promo' && window.gtag) gtag('event','story_view',{story_id:sid(s), story_title:String(s.h||'').slice(0,90), kind:s.kind||'news'}); }catch(e){}
 }
@@ -2056,6 +2080,14 @@ function goHome(e){ if(e) e.preventDefault();
   ['imgShare','crChoice','waCopy','capBar'].forEach(id=>{ const x=document.getElementById(id); if(x) x.hidden=true; });
   DAY=null; section='all'; JUMP=null; setView('home'); scrollTo(0,0); }
 $('homeLogo').onclick=goHome;
+if(NAV){ const hb=$('homeBtn'); if(hb){ hb.hidden=false; hb.onclick=e=>{ e.preventDefault(); goHome(e); }; } }
+function flipTo(c,back){ if(!c||c.classList.contains('flipping')) return; c.classList.add('flipping'); buzz&&buzz(8);
+  setTimeout(()=>{ c.classList.toggle('flipB',back); c.classList.toggle('flipF',!back); const tx=c.querySelector('.text'); if(tx) tx.scrollTop=0; fit(c);
+    c.classList.remove('flipping'); c.style.transform='perspective(1200px) rotateY(-90deg)'; requestAnimationFrame(()=>{ c.style.transition='transform .18s ease-out'; c.style.transform=''; setTimeout(()=>{ c.style.transition=''; },200); }); },180); }
+document.addEventListener('click',e=>{ if(!NAV) return; const t=e.target.closest('.flipgo,.flipbk,.navp,.navn'); if(!t) return; e.preventDefault(); e.stopPropagation();
+  const c=t.closest('.story');
+  if(t.classList.contains('flipgo')) flipTo(c,true); else if(t.classList.contains('flipbk')) flipTo(c,false);
+  else if(t.classList.contains('navp')) go(cur-1,'right'); else go(cur+1,'left'); },true);
 document.querySelectorAll('.sh-head .logo').forEach(l=>{ l.setAttribute('role','link'); l.setAttribute('title','హోమ్'); l.onclick=()=>goHome(); });
 $('shareBtn').onclick=()=>shareCard(false);
 $('waBtn').onclick=()=>shareCard(true);
