@@ -1,6 +1,6 @@
 // Swipe2News service worker: keeps the app working offline (villages, weak signal).
 // Pages and news: network first, but fall back to the saved copy after 4 s. Fonts and pictures: saved copy first.
-const CACHE = 's2n-v93';
+const CACHE = 's2n-v94';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'logo.png', 'logo-light.png', 'qr.png', 'icon-192.png', 'icon-512.png',
   'news.json', 'mandi.json', 'mandi.js?v=2', 'mandi/', 'morning/', 'archive/index.json'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(new Request(u, {cache: 'reload'})).catch(() => 0))))); self.skipWaiting(); });
@@ -27,6 +27,18 @@ self.addEventListener('fetch', e => {
   if (u.origin !== location.origin) return;
   if (/\.(jpg|jpeg|png|webp|svg|woff2?)$/i.test(u.pathname) && !/^\/cards\//.test(u.pathname)) {
     e.respondWith(caches.match(req, {ignoreSearch: true}).then(c => c || fetch(req).then(r => { if (r.ok) { const copy = r.clone(); caches.open(CACHE).then(x => x.put(req, copy)); } return r; })));
+    return;
+  }
+  // The app itself (home page + its scripts): open instantly from the saved copy and refresh it quietly.
+  // New versions still arrive: every release changes this file, the new worker saves the new app and the page reloads once.
+  if ((req.mode === 'navigate' && (u.pathname === '/' || u.pathname === '/index.html')) || /\.js$/.test(u.pathname)) {
+    const key = req.mode === 'navigate' ? './' : req;
+    e.respondWith(caches.match(key, {ignoreSearch: req.mode === 'navigate'}).then(c => {
+      const net = fetch(req.mode === 'navigate' ? './' : req.url, {cache: 'no-cache', credentials: 'same-origin'})
+        .then(r => { if (r && r.ok) { const copy = r.clone(); return caches.open(CACHE).then(x => x.put(key, copy)).then(() => r); } return r; });
+      if (c) { e.waitUntil(net.catch(() => 0)); return c; }
+      return net.catch(() => fresh(req, 4000));
+    }));
     return;
   }
   e.respondWith(fresh(req, req.mode === 'navigate' || /\.json$/.test(u.pathname) ? 4000 : 6000));

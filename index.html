@@ -50,7 +50,10 @@ setTimeout(box,12000);setTimeout(box,25000);})();
 <link rel="alternate" hreflang="en" href="https://swipe2news.com/en/"><link rel="alternate" hreflang="te" href="https://swipe2news.com/te/"><link rel="alternate" hreflang="hi" href="https://swipe2news.com/hi/"><link rel="alternate" hreflang="x-default" href="https://swipe2news.com/en/">
 <script>/* update check, kept separate from the app code: even if the app code fails, a fixed version still arrives and reloads once */
 (function(){try{if(!('serviceWorker' in navigator)||/claude\.ai|claudeusercontent/.test(location.host))return;var sw=navigator.serviceWorker,had=!!sw.controller,done=false;
-sw.addEventListener('controllerchange',function(){if(had&&!done){done=true;location.reload();}});
+var t0=Date.now(),wait=false,rl=function(){if(!done){done=true;location.reload();}};
+/* new version: reload at once if the reader has just opened the app or no news is showing; otherwise wait until they leave and come back, so a card never vanishes mid-read */
+sw.addEventListener('controllerchange',function(){if(!had||done)return;var reading=document.querySelector('#feed .story')&&!document.querySelector('#feed>.ssr');if(!reading||Date.now()-t0<6000)rl();else wait=true;});
+document.addEventListener('visibilitychange',function(){if(wait&&document.visibilityState==='visible')rl();});
 var chk=function(){sw.getRegistration().then(function(r){if(r)r.update();}).catch(function(){});};
 if((location.protocol==='https:'||location.hostname==='127.0.0.1'))sw.getRegistration().then(function(r){if(!r)sw.register('sw.js',{updateViaCache:'none'}).catch(function(){});}).catch(function(){});
 setTimeout(chk,2000);document.addEventListener('visibilitychange',function(){if(document.visibilityState==='visible')chk();});}catch(e){}})();</script>
@@ -920,7 +923,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
   <div class="toast" id="toast" role="status"></div>
 </div>
 
-<script src="scenes.js?v=20261114v"></script>
+<script src="scenes.js?v=20261114w"></script>
 <script src="mandi.js?v=2"></script>
 <script>
 const CONFIG = {
@@ -1008,7 +1011,7 @@ function tlStory(s){ if(!TLG()||!s||s.kind||s._orig) return s; const t=x=>typeof
 function locTx(x){ const l=LG(); if(l==='te'||!/[\u0C00-\u0C7F]/.test(x||'')) return x; // English/Hindi reader: no Telugu letters in the place line
   if(l==='en'){ try{ return teLatin(String(x).replace(/^మొత్తం /,'')).replace(/\b[a-z]/g,c=>c.toUpperCase()); }catch(e){ return ''; } } return ''; }
 function tr(s){ const l=LG(); if(!s||s.kind==='job'||l==='te'||!s[l]||typeof s[l]!=='object') return s;
-  const o=Object.assign({},s,s[l],{_sid:sid(s),_lang:l}), TE=/[\u0C00-\u0C7F]/, t=s[l];
+  const o=Object.assign({},s,s[l],{_sid:sid(s),_lang:l,_orig:s}), TE=/[\u0C00-\u0C7F]/, t=s[l];
   // English/Hindi reader: never show leftover Telugu (14 Nov 2026)
   if(TE.test(o.stat||'') && !t.stat){ const d=String(o.stat).match(/[₹\d][\d,.%]*(\s?(లక్షల|కోట్ల|లక్షలు|కోట్లు))?/); o.stat=d&&/\d/.test(d[0])?d[0].replace(/\s?కోట్ల(ు)?/,l==='hi'?' करोड़':' crore').replace(/\s?లక్షల(ు)?/,l==='hi'?' लाख':' lakh'):''; }
   if(TE.test(o.loc||'') && !t.loc){ try{ o.loc=l==='en'?teLatin(o.loc).replace(/\b[a-z]/g,c=>c.toUpperCase()):''; }catch(e){ o.loc=''; } }
@@ -1891,7 +1894,7 @@ const synth = window.speechSynthesis;
 /* "News radio": reads the card aloud, then turns to the next card by itself and keeps reading until stopped.
    Same toggle for the 🔊 button in the bottom bar and the floating 🎧 button shown in reading mode. */
 let RADIO=false, rTok=0, rWait=0;
-function voiceText(s){ s=(s&&s._orig)||s; if(!s||s.kind==='promo') return '';
+function voiceText(s){ s=(s&&s._lang==='te-Latn'&&s._orig)||s; if(!s||s.kind==='promo') return '';
   return s.kind==='job'
     ? [s.h, s.sum, s.posts&&(J('posts')+' '+s.posts), s.qual&&(J('elig').slice(3)+' '+s.qual), s.last&&(J('lastd')+' '+teDate(s.last))].filter(Boolean).join('. ')
     : [s.h, s.p, ...(Array.isArray(s.pts)?s.pts:[])].filter(Boolean).join('. '); }

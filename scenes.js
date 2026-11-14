@@ -376,7 +376,7 @@ const ART_N=[[/విద్యుత్ సరఫరా|కరెంట్ క�
  [/ట్రాఫిక్|రోడ్డు మూసివే|దారి మళ్లింపు|ట్రాఫిక్ ఆంక్షలు|traffic|road closure|diversion/i,'traffic'],
  [/నిత్యావసర|కూరగాయల ధర|ఉల్లి ధర|టమాటా ధర|బియ్యం ధర|ధరలు పెరిగ|ధరలు తగ్గ|వంట నూనె|essential prices|vegetable prices|onion price|tomato price|price rise/i,'prices'],
  [/టెలికాం|మొబైల్ నెట్‌వర్క్|సిమ్ కార్డ్|5జీ|జియో|ఎయిర్‌టెల్|బీఎస్ఎన్ఎల్|రీచార్జ్|telecom|\b5G\b|Jio|Airtel|BSNL|TRAI|recharge plan/i,'telecom'],
- [/ఎన్ఆర్ఐ|ప్రవాస భారతీయ|వీసా|హెచ్-1బీ|గల్ఫ్ కార్మిక|\bNRI\b|visa|H-1B|diaspora|Gulf workers/i,'nri'],
+ [/ఎన్ఆర్ఐ|ప్రవాస భారతీయ|వీసా|హెచ్-1బీ|గల్ఫ్ కార్మిక|\bNRI\b|\bvisas?\b|H-1B|diaspora|Gulf workers/i,'nri'],
  [/పరీక్ష ఫలితాలు|ఫలితాలు విడుదల|హాల్ టికెట్|పరీక్ష షెడ్యూల్|పరీక్షలు|ఎంసెట్|ఈఏపీసెట్|నీట్|జేఈఈ|exam|results declared|hall ticket|EAPCET|NEET|JEE/i,'exams'],
  [/విద్యార్థుల|విద్యార్థులకు|హాస్టల్|స్కాలర్‌షిప్|ఫీజు రీయింబర్స్|student|scholarship|hostel/i,'students'],
  [/సెన్సెక్స్|నిఫ్టీ|స్టాక్ మార్కెట్|షేర్ మార్కెట్|ఐపీఓ|Sensex|Nifty|stock market|share market|\bIPO\b/i,'trading'],
