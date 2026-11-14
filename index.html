@@ -682,6 +682,14 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .s2n .srow .aic{height:26px!important;padding:0 9px!important;font-size:11px!important;gap:4px}
 .s2n .srow .srcb{gap:3px!important}.s2n .srow .srcb small{font-size:11px!important}
 .s2n .srow .srcb a,.s2n .srow .srcb b{font-size:13px!important;letter-spacing:-.1px}
+
+/* banner: number and its meaning on ONE line ("23+ మృతులు (అధికారుల ప్రకారం)"); disclosure below */
+.s2n .bkw{display:flex!important;flex-wrap:wrap;align-items:baseline;column-gap:9px;row-gap:2px}
+.s2n .bkw .stat{flex:none}
+.s2n .bkw .statl{flex:1 1 auto;min-width:0;margin-top:0!important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.s2n .bkw .adisc{flex-basis:100%}
+/* headline: always one line (standard) — shrinks to fit, "…" only if a headline is still too long */
+.s2n .text h2.one{white-space:nowrap!important;overflow:hidden;text-overflow:ellipsis}
 </style>
 </head>
 <body>
@@ -805,7 +813,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
       <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
       <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
-      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 8.5 · Swipe2News</p>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 8.6 · Swipe2News</p>
     </div></div>
   </section>
   <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">
@@ -1361,8 +1369,8 @@ function spaceFill(c){ const sp=c.querySelector('.spacer[data-sp]'); if(!sp) ret
     if(!p.paid && SPACE_TX[p.k].view){ e.preventDefault(); setView(SPACE_TX[p.k].view); } }; }
 function oneLine(c){ const h=c.querySelector('.s2n .text h2'); if(!h) return; h.style.fontSize=''; h.classList.add('one');
   let f=parseFloat(getComputedStyle(h).fontSize); const w=h.clientWidth; if(!w) return;
-  while(h.scrollWidth>w+1&&f>18){ f-=1; h.style.fontSize=f+'px'; }
-  if(h.scrollWidth>w+1){ h.classList.remove('one'); h.style.fontSize=''; } }
+  while(h.scrollWidth>w+1&&f>19){ f-=0.5; h.style.fontSize=f+'px'; }
+  h.title=h.textContent; }
 function srcFit(c){ const r=c.querySelector('.s2n .srow'); if(!r) return; r.classList.remove('tight','tight2'); const a=r.querySelector('.srcb a,.srcb b'); const cut=()=>a&&a.scrollWidth>a.clientWidth+1; if(cut()) r.classList.add('tight'); if(cut()){ r.classList.remove('tight'); r.classList.add('tight2'); } }
 function fit(c){ // make the card fit the screen: hide the least important parts first
   oneLine(c); srcFit(c); c.classList.remove('t1','t2','t3','t4');
@@ -1616,7 +1624,9 @@ async function cardImage(s){
     const setF=()=>{ ctx.font=te?`800 ${fs}px ${TE}`:`400 ${fs}px ${DI}`; }; setF();
     while(ctx.measureText(st).width>TW && fs>54){ fs-=8; setF(); }
     ctx.fillStyle=AP; ctx.fillText(st,cx+IN,cy+PH-118);
-    ctx.font=`700 34px ${TE}`; ctx.fillStyle=CR; wrap(ctx,s.statl||'',TW).slice(0,1).forEach((t,k)=>ctx.fillText(t,cx+IN,cy+PH-62+k*44,TW));
+    { const sw=ctx.measureText(st).width; ctx.font=`700 34px ${TE}`; ctx.fillStyle=CR; const sl=s.statl||'';
+      if(sw+28+ctx.measureText(sl).width<=TW) ctx.fillText(sl,cx+IN+sw+28,cy+PH-118);   // same line as the number
+      else wrap(ctx,sl,TW).slice(0,1).forEach(t=>ctx.fillText(t,cx+IN,cy+PH-62,TW)); }
   }
   // category chip on the picture
   ctx.font=`800 26px ${TE}`; const chip=(s.brk?'🔴 ':'')+(s.cat||U('news')); const chw=Math.min(TW,ctx.measureText(chip).width+44);
