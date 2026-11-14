@@ -805,7 +805,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
       <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
       <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
-      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 8.4 · Swipe2News</p>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 8.5 · Swipe2News</p>
     </div></div>
   </section>
   <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">
@@ -1630,9 +1630,14 @@ async function cardImage(s){
   ctx.font=`600 26px ${TE}`; ctx.fillStyle='#6A6670'; ctx.fillText(((s.kind==='job'?(s.last?J('lastd')+' '+s.last:''):whenTxt(s))||'').slice(0,90),mx,y,cx+IN+TW-mx); // time only: the source is named once, at the bottom
   y+=22+60; ctx.fillStyle='#202124'; ctx.font=`800 54px ${TE}`; hl.forEach(t=>{ ctx.fillText(t,cx+IN,y); y+=70; });
   y+=18-70+52; ctx.fillStyle='#3C3A40'; ctx.font=`400 34px ${TE}`; pl.forEach(t=>{ ctx.fillText(t,cx+IN,y); y+=54; });
-  y+=6; ctx.fillStyle=DEEP; rrect(ctx,cx+IN,y,210,44,22); ctx.fill(); ctx.fillStyle=AP; ctx.font=`800 22px ${TE}`; ctx.textBaseline='middle'; ctx.fillText('✦',cx+IN+18,y+23);
-  ctx.fillStyle=CR; ctx.fillText(U('ai'),cx+IN+46,y+23,150);
-  ctx.fillStyle='#6A6670'; ctx.font=`600 24px ${TE}`; { const lab=({te:'మూలం: ',en:'Source: ',hi:'स्रोत: '})[LG()]||'Source: '; ctx.fillText(lab,cx+IN+228,y+23); const lw=ctx.measureText(lab).width; ctx.fillStyle='#4A0E3F'; ctx.font=`800 26px ${TE}`; ctx.fillText(s.src||'Swipe2News',cx+IN+228+lw,y+23,TW-240-lw); } ctx.textBaseline='alphabetic';
+  y+=4; { // AI summary badge, drawn as vector shapes so it stays sharp in the 4K photo
+    ctx.font=`800 27px ${TE}`; const at=U('ai'), aw=Math.ceil(ctx.measureText(at).width)+86, ah=54;
+    ctx.fillStyle=DEEP; rrect(ctx,cx+IN,y-4,aw,ah,ah/2); ctx.fill();
+    const sx=cx+IN+30, sy=y-4+ah/2, r=11; ctx.fillStyle=AP; ctx.beginPath(); ctx.moveTo(sx,sy-r); ctx.quadraticCurveTo(sx+2.6,sy-2.6,sx+r,sy); ctx.quadraticCurveTo(sx+2.6,sy+2.6,sx,sy+r); ctx.quadraticCurveTo(sx-2.6,sy+2.6,sx-r,sy); ctx.quadraticCurveTo(sx-2.6,sy-2.6,sx,sy-r); ctx.fill();
+    ctx.fillStyle=CR; ctx.textBaseline='middle'; ctx.fillText(at,cx+IN+52,sy+1);
+    ctx.textBaseline='alphabetic'; ctx.__aw=aw; }
+  ctx.textBaseline='middle';
+  ctx.fillStyle='#6A6670'; ctx.font=`600 24px ${TE}`; { const ax=cx+IN+(ctx.__aw||210)+18, lab=({te:'మూలం: ',en:'Source: ',hi:'स्रोत: '})[LG()]||'Source: '; ctx.fillStyle='#6A6670'; ctx.font=`600 26px ${TE}`; ctx.fillText(lab,ax,y+23); const lw=ctx.measureText(lab).width; ctx.fillStyle='#4A0E3F'; ctx.font=`800 28px ${TE}`; ctx.fillText(s.src||'Swipe2News',ax+lw,y+23,cx+IN+TW-ax-lw); } ctx.textBaseline='alphabetic';
   ctx.restore();
   // footer
   const fy=H-(FOOT+P-10)/2; ctx.textBaseline='middle'; ctx.font=`700 34px ${DI}`; ctx.font=`700 34px 'Outfit',${TE}`; let tx=P; [['Know More',CR],['.',AP],[' Scroll Less',CR],['.',AP]].forEach(([t,col])=>{ ctx.fillStyle=col; ctx.fillText(t,tx,fy); tx+=ctx.measureText(t).width; });
