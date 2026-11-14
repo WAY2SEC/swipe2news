@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-14T19:35:00+05:30",
+ "cutoff": "2026-11-14T20:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T09:05:00+05:30/2026-11-11T09:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agent. Search mostly returned listing/tag pages. Eenadu, Sakshi, Andhra Jyothy, ETV Bharat, TV9, V6, NTV, Siasat, Deccan Chronicle (in range), PTI, BBC/AP articles not surfaced in range. Older than lookback (not published): TT JNTU-H tender complaint (10 Nov 23:30), TT Secretariat gatherings ban (2024), DC coldest Nov morning (2025)."
-  },
   {
    "window": "2026-11-11T09:35:00+05:30/2026-11-11T10:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "19:35 run started 19:36 IST. Lookback from 11:05 14 Nov. Published (all late-found): Siasat/ANI BJYM protest at Bharat Summit venue, protesters detained (14:43, fact), UNI Seethakka launches 4 child welfare initiatives (15:56, fact; paywalled, lead only), Siasat SIO urges hold on T-Hub meet with Israeli firms (16:07, claim). Duplicates: Outlook Revanth accuses Centre of blocking foreign speakers (17:11; dup of Bharat Summit visa row), Siasat Giribabu dies (dup). Skipped pre-lookback: Hans India Nellore GP polls stage set (05:46), Hans Nellore YSRCP MLC on student suicides (05:43), Hans AP investment intent Rs 32.49L cr (04:40). ETV Bharat TG live blog: no entries after 09:16. Not reached: Eenadu (robots refused); Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters not surfaced; standard searches stale. Districts searched: Nalgonda, Suryapet, Yadadri, Karimnagar, Siddipet, Medak, Nizamabad, Nagarkurnool, Wanaparthy, Gadwal, Guntur, Kakinada, Kurnool, NTR, Nellore, Kadapa, Anantapur."
+  },
+  {
+   "window": "2026-11-14T19:35:00+05:30/2026-11-14T20:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 6,
+   "late": 0,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 2,
+   "review": 1,
+   "gaps": "20:05 run started 20:05 IST. Lookback from 11:35 14 Nov. Published: Telugu360 AICC names B.M. Sandeep Telangana Congress in-charge (19:05, fact), Telangana Today Jagadgirigutta 7 held for attempt to murder (19:34, fact, police), Telangana Today Dilsukhnagar mobile shop burglary (19:57, fact), IndToday Vikarabad Methodist jatra security (18:51, fact), Mana Telangana Papanna statue at Warangal Fort (19:00, claim), HMTV Jammikunta special school Children's Day (18:58, fact). Duplicate: Prabha News Sandeep appointment. Skipped: Inshorts YSRCP drought relief (09:49, pre-lookback), IndToday Khammam boy death (10 Nov). Review: Punjab Kesari/IANS Jagan 'credit chori' (7:49 PM, no timezone). Euronews bulletin fetch failed. Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; standard searches stale. Districts searched: Mulugu, Jangaon, Mahabubabad, Peddapalli, Bhupalpally, Warangal, Khammam, Vikarabad, Tirupati, Nandyal, Palnadu, Chittoor, Bapatla, Prakasam, Kurnool, Visakhapatnam, NTR."
   }
  ],
  "seen": [
@@ -2623,6 +2623,56 @@
    "url": "https://www.thehansindia.com/andhra-pradesh/aps-investment-flow-swells-to-rs-3249l-cr-1141901",
    "d": "2026-11-14",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.telugu360.com/te/aicc-appointed-karnataka-leader-b-m-sandeep-as-new-telangana-congress-in-charge/",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/seven-arrested-for-attempted-murder-of-businessman-in-hyderabad",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/burglars-steal-phones-accessories-worth-rs-2-lakh-in-dilsukhnagar",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://indtoday.com/methodist-christian-jatra-2026-vikarabad-police-tightens-security/",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.manatelangana.news/telangana-breaking-news/sarvai-papanna-statue-at-warangal-fort-1651823",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/jammikunta-special-students-turn-teachers-on-childrens-day-212906",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://prabhanews.com/congress-aicc-ts-state-incharge-sandeep/",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://inshorts.com/en/news/ysrcp-slams-naidu-govt-over-drought--cyclone-relief-delay-1794629941015",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://indtoday.com/khammam-boy-death-woman-boyfriend-arrested/",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://english.punjabkesari.com/india/ysrcp-chief-ys-jagan-mohan-reddy-accuses-chandrababu-naidu-of-credit-chori-over-andhra-pradeshs-access-equality-index-surge",
+   "d": "2026-11-14",
+   "w": "review"
   }
  ]
 }
