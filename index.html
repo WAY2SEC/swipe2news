@@ -1679,7 +1679,11 @@ function rrect(ctx,x,y,w,h,r){ctx.beginPath();ctx.moveTo(x+r,y);ctx.arcTo(x+w,y,
    mode 'full' = 9:16 phone screen 2160x3840 (WhatsApp, Status, social) · 'insta' = 4:5 2160x2700 (photo download). */
 async function newsCard(s,mode){
   try{ await document.fonts.ready; }catch(e){}
-  const W=1080, H=mode==='insta'?1350:1920, PIC=mode==='insta'?540:900, HS=mode==='insta'?54:68, PS=mode==='insta'?32:40;
+  const W=1080, H=mode==='insta'?1350:1920, HS=mode==='insta'?54:68, PS=mode==='insta'?34:42, BH0=84, FH0=180;
+  // the story decides the layout: measure the summary, then give any spare height to the picture (no stretched blank space)
+  const _m=document.createElement('canvas').getContext('2d'); _m.font=`400 ${PS}px 'Noto Sans Telugu',sans-serif`; const _ln=wrap(_m,s.p||'',W-118).length;
+  const _text=48+HS*1.3+24+_ln*PS*1.62+36+90; // headline + summary + source row
+  const PIC=Math.max(mode==='insta'?470:760, Math.min(mode==='insta'?760:1240, H-BH0-FH0-_text));
   const PLUM='#4A0E3F', DEEP='#2E0827', AP='#F5A23A', CR='#FFFDF5', TE="'Noto Sans Telugu','Nirmala UI','Gautami','Noto Sans Devanagari',sans-serif", OU="'Outfit',"+"'Noto Sans Telugu',sans-serif";
   const K=2, c=document.createElement('canvas'), ctx=c.getContext('2d'); c.width=W*K; c.height=H*K; ctx.setTransform(K,0,0,K,0,0); ctx.imageSmoothingQuality='high';
   const fitFont=(txt,weight,size,family,maxW,minSize)=>{ let f=size; ctx.font=`${weight} ${f}px ${family}`; while(ctx.measureText(txt).width>maxW&&f>minSize){ f-=1; ctx.font=`${weight} ${f}px ${family}`; } return f; };
@@ -1703,26 +1707,26 @@ async function newsCard(s,mode){
   const BY=PIC, BH=84; ctx.fillStyle=CR; ctx.fillRect(0,BY,W,BH); ctx.fillStyle=AP; ctx.fillRect(0,BY,W,4); ctx.fillStyle='#E8DFD3'; ctx.fillRect(0,BY+BH-2,W,2);
   const iy=BY+BH/2+1; try{ const ic=await loadImg('icon-512.png'); ctx.save(); rrect(ctx,49,iy-25,50,50,13); ctx.clip(); ctx.drawImage(ic,49,iy-25,50,50); ctx.restore(); }catch(e){}
   ctx.textBaseline='middle'; ctx.font=`800 40px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('swipe2news',112,iy-2); const ww=ctx.measureText('swipe2news').width; ctx.fillStyle=AP; ctx.fillText('.',112+ww,iy-2);
-  ctx.textAlign='right'; ctx.font=`700 28px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('Know More. Scroll Less.',W-49,iy); ctx.textAlign='left'; ctx.textBaseline='alphabetic';
+  ctx.textBaseline='alphabetic'; // logo only: the card's maker; the source line below names whose reporting it is
   // 3) body
-  const FH=151, BX=59, TW=W-2*BX; let y=BY+BH+48;
+  const FH=FH0, BX=59, TW=W-2*BX; let y=BY+BH+48;
   const hs=fitFont(s.h||'',800,HS,TE,TW,Math.round(HS*0.6)); ctx.fillStyle=PLUM; ctx.textBaseline='top'; let ht=s.h||''; while(ctx.measureText(ht).width>TW&&ht.length>1) ht=ht.slice(0,-1); ctx.fillText(ht+(ht.length<(s.h||'').length?'…':''),BX,y); y+=hs*1.3+24;
-  const srcY=H-FH-30-34; // source row baseline area
+  const srcY=H-FH-44-30; // source row
   ctx.font=`400 ${PS}px ${TE}`; ctx.fillStyle='#2B2B2E'; const LH=PS*1.62; const lines=wrap(ctx,s.p||'',TW); const maxL=Math.max(1,Math.floor((srcY-28-y)/LH));
   let shown=lines.slice(0,maxL); if(lines.length>maxL){ let t=shown[shown.length-1]; while(t&&ctx.measureText(t+'…').width>TW) t=t.slice(0,-1); shown[shown.length-1]=t+'…'; }
   shown.forEach(t=>{ ctx.fillText(t,BX,y); y+=LH; });
   ctx.fillStyle='#E8DFD3'; ctx.fillRect(BX,srcY-26,TW,2);
   ctx.textBaseline='middle'; const sy=srcY+8; const lab=({te:'మూలం: ',en:'Source: ',hi:'स्रोत: '})[LG()]||'Source: ';
-  ctx.font=`600 32px ${TE}`; ctx.fillStyle='#6B5A63'; ctx.fillText(lab,BX,sy); const lw=ctx.measureText(lab).width;
-  const rd=({te:'పూర్తి వార్త చదవండి →',en:'Read full story →',hi:'पूरी खबर पढ़ें →'})[LG()]||'Read full story →'; ctx.font=`800 32px ${TE}`; const rw=ctx.measureText(rd).width;
-  ctx.fillStyle='#202124'; ctx.font=`800 32px ${TE}`; ctx.fillText(s.src||'Swipe2News',BX+lw,sy,TW-lw-rw-30);
+  ctx.font=`600 36px ${TE}`; ctx.fillStyle='#6B5A63'; ctx.fillText(lab,BX,sy); const lw=ctx.measureText(lab).width;
+  const rd=({te:'పూర్తి వార్త చదవండి →',en:'Read full story →',hi:'पूरी खबर पढ़ें →'})[LG()]||'Read full story →'; ctx.font=`800 34px ${TE}`; const rw=ctx.measureText(rd).width;
+  ctx.fillStyle='#202124'; ctx.font=`800 36px ${TE}`; ctx.fillText(s.src||'Swipe2News',BX+lw,sy,TW-lw-rw-30); ctx.font=`800 34px ${TE}`;
   ctx.textAlign='right'; ctx.fillStyle=PLUM; ctx.fillText(rd,W-BX,sy); ctx.textAlign='left';
   // 4) footer with QR
   const FY=H-FH; ctx.fillStyle='#14030F'; ctx.fillRect(0,FY,W,FH);
   ctx.font=`800 35px ${TE}`; ctx.fillStyle=CR; const f1=({te:'మీ ఊరి వార్తలు మీ చేతిలో! · ',en:'Your local news in your hand! · ',hi:'आपके इलाके की खबरें आपके हाथ में! · '})[LG()]||''; ctx.fillText(f1,49,FY+FH/2-22); const f1w=ctx.measureText(f1).width;
   ctx.fillStyle=AP; ctx.fillText(({te:'ఉచిత యాప్',en:'Free app',hi:'मुफ़्त ऐप'})[LG()]||'Free app',49+f1w,FY+FH/2-22);
   ctx.font=`800 30px ${OU}`; ctx.fillStyle='rgba(255,253,245,.92)'; ctx.fillText('swipe2news.com · @swipe2newsapp',49,FY+FH/2+26);
-  try{ const q=await loadImg('brand/qr-share.png'); ctx.fillStyle='#fff'; rrect(ctx,W-49-124,FY+(FH-124)/2,124,124,10); ctx.fill(); ctx.drawImage(q,W-49-118,FY+(FH-124)/2+6,112,112); }catch(e){}
+  try{ const q=await loadImg('brand/qr-share.png'); const QS=136, QP=14, qx=W-60-QS-2*QP, qy=FY+(FH-QS-2*QP)/2; ctx.fillStyle='#fff'; rrect(ctx,qx,qy,QS+2*QP,QS+2*QP,14); ctx.fill(); ctx.imageSmoothingEnabled=false; ctx.drawImage(q,qx+QP,qy+QP,QS,QS); ctx.imageSmoothingEnabled=true; }catch(e){} // clear white margin so phones scan it from the shared photo
   ctx.textBaseline='alphabetic';
   let url=''; try{ url=c.toDataURL('image/jpeg',0.92); }catch(e){}
   const blob=await new Promise(r=>c.toBlob(r,'image/jpeg',0.92)); if(blob&&url) blob.dataURL=url; return blob;
