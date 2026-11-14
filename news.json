@@ -1,8 +1,60 @@
 {
  "date": "14.11.2026",
- "updated": "2026-11-14T18:05:00+05:30",
+ "updated": "2026-11-14T18:26:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "ఆలేరు · 5వ వార్డు",
+   "col": "--c-gov",
+   "art": "land",
+   "stat": "5వ వార్డు",
+   "statl": "ఎల్లమ్మ గుడి",
+   "h": "ఎల్లమ్మ గుడి వద్ద కంప చెట్ల తొలగింపు",
+   "p": "ఆలేరు పట్టణం 5వ వార్డులోని ఎల్లమ్మ గుడి వద్ద ఏపుగా పెరిగిన కంప చెట్లను జేసీబీ సహాయంతో తొలగించారు. విద్యుత్ ట్రాన్స్‌ఫార్మర్ స్తంభం చుట్టూ అల్లుకున్న పొదలను కూడా తీసివేశారు. వార్డు కౌన్సిలర్ పాసికంటి సంపత్ ఆధ్వర్యంలో ఈ పనులు జరిగాయి.",
+   "src": "Swipe2News రిపోర్టర్ · ఆలేరు",
+   "url": "",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "yadadri",
+   "loc": "ఆలేరు 5వ వార్డు",
+   "pts": [
+    "జేసీబీతో కంప చెట్ల తొలగింపు",
+    "కౌన్సిలర్ పాసికంటి సంపత్ ఆధ్వర్యంలో పనులు"
+   ],
+   "why": "గుడి వద్దకు వచ్చే భక్తులకు, చుట్టుపక్కల నివసించేవారికి దారి శుభ్రంగా ఉంటుంది.",
+   "en": {
+    "cat": "Aler · Ward 5",
+    "stat": "Ward 5",
+    "statl": "Yellamma temple",
+    "h": "Thorny bushes cleared near Yellamma temple",
+    "p": "Overgrown thorny bushes near the Yellamma temple in ward 5 of Aler town were removed with a JCB. Bushes that had wrapped around the electricity transformer pole were also cleared. The work was carried out under ward councillor Pasikanti Sampath.",
+    "pts": [
+     "Thorny bushes removed with a JCB",
+     "Work carried out under councillor Pasikanti Sampath"
+    ],
+    "why": "Devotees visiting the temple and nearby residents get a cleaner path."
+   },
+   "hi": {
+    "cat": "आलेर · वार्ड 5",
+    "stat": "वार्ड 5",
+    "statl": "येल्लम्मा मंदिर",
+    "h": "येल्लम्मा मंदिर के पास कंटीली झाड़ियाँ हटाईं",
+    "p": "आलेर शहर के वार्ड 5 में येल्लम्मा मंदिर के पास उगी घनी कंटीली झाड़ियों को जेसीबी की मदद से हटाया गया। बिजली ट्रांसफ़ॉर्मर के खंभे के चारों ओर लिपटी झाड़ियाँ भी साफ़ की गईं। यह काम वार्ड पार्षद पासिकंटी संपत की देखरेख में हुआ।",
+    "pts": [
+     "जेसीबी से कंटीली झाड़ियाँ हटाई गईं",
+     "पार्षद पासिकंटी संपत की देखरेख में काम"
+    ],
+    "why": "मंदिर आने वाले श्रद्धालुओं और आसपास रहने वालों को साफ़ रास्ता मिलेगा।"
+   },
+   "d": "14.11.2026",
+   "t": "18:26",
+   "lbl": "fact",
+   "img": "photos/2026-11-14-aler-ward5-yellamma-bushes.jpg",
+   "imgfy": 0.35,
+   "local": true
+  },
   {
    "cat": "సినిమా · నివాళి",
    "col": "--c-city",
@@ -2267,54 +2319,6 @@
    "d": "13.11.2026",
    "t": "23:05",
    "_sid": "18wf957"
-  },
-  {
-   "cat": "తెలంగాణ · రాజకీయం",
-   "col": "--c-water",
-   "stat": "70",
-   "statl": "దేశాల ప్రతినిధులు",
-   "h": "కేసీఆర్, కేటీఆర్‌పై రేవంత్ విమర్శ",
-   "p": "హైదరాబాద్‌లో జరుగుతున్న భారత్ సమ్మిట్‌లో వాతావరణ మార్పు, నీటి కొరతపై ప్రభుత్వ దృష్టిని సీఎం రేవంత్ రెడ్డి సమర్థించుకున్నారు. ఎల్‌నినోపై నిపుణుల సలహా కోసమే చర్చ ఏర్పాటు చేశామన్నారు. ప్రభుత్వం నెలల తరబడి హెచ్చరించినా బీఆర్ఎస్ పట్టించుకోలేదని, కేటీఆర్ సోషల్ మీడియా రీల్స్‌కే పరిమితమయ్యారని ఆయన ఆరోపించారు.",
-   "pts": [
-    "కేంద్రం గుజరాత్‌కు ప్రాధాన్యం ఇస్తోందని ఆరోపణ",
-    "గిఫ్ట్ సిటీ తెలంగాణకు ఎందుకు రాలేదని ప్రశ్న"
-   ],
-   "why": "తాగునీరు, సాగునీటి కొరతపై రాజకీయ వాదనలు ప్రజలు తెలుసుకోవడానికి ఉపయోగపడుతుంది.",
-   "src": "ANI",
-   "url": "https://www.aninews.in/news/national/politics/i-havent-read-80000-books-like-kcr-has-telangana-cm-defends-climate-focus-at-bharat-summit-2026-hits-out-at-ktr-over-water-crisis20261113203348",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "art": "water",
-   "pub": "2026-11-13T20:33+05:30",
-   "lbl": "claim",
-   "en": {
-    "h": "CM Revanth criticises KCR, KTR over water crisis",
-    "p": "At the Bharat Summit in Hyderabad, CM Revanth Reddy defended his government's focus on climate change and water scarcity, saying the El Niño discussion was held to get expert advice. He alleged the BRS ignored government warnings for months and that KTR was limited to social media reels.",
-    "pts": [
-     "Alleges Centre favours Gujarat",
-     "Asks why GIFT City did not come to Telangana"
-    ],
-    "why": "Helps people follow the political arguments over drinking and irrigation water shortages.",
-    "cat": "Telangana · Politics",
-    "statl": "Countries' delegates"
-   },
-   "hi": {
-    "h": "जल संकट पर सीएम रेवंत ने केसीआर, केटीआर की आलोचना की",
-    "p": "हैदराबाद में भारत समिट में सीएम रेवंत रेड्डी ने जलवायु परिवर्तन और पानी की कमी पर सरकार के ध्यान का बचाव किया और कहा कि अल नीनो पर चर्चा विशेषज्ञ सलाह के लिए रखी गई। उन्होंने आरोप लगाया कि बीआरएस ने महीनों तक सरकारी चेतावनियों को नजरअंदाज किया और केटीआर सोशल मीडिया रील्स तक सीमित रहे।",
-    "pts": [
-     "केंद्र पर गुजरात को तरजीह देने का आरोप",
-     "गिफ्ट सिटी तेलंगाना क्यों नहीं आई, सवाल"
-    ],
-    "why": "पीने और सिंचाई के पानी की कमी पर राजनीतिक दलीलें समझने में मदद।",
-    "cat": "तेलंगाना · राजनीति",
-    "statl": "देशों के प्रतिनिधि"
-   },
-   "d": "13.11.2026",
-   "t": "23:05",
-   "_sid": "ggpsym"
   },
   {
    "cat": "నీటి సంక్షోభం · హైదరాబాద్",
