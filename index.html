@@ -795,6 +795,26 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 #feed>article.story:first-of-type .cfoot.dock .dhome{display:none}
 #feed>article.story:first-of-type .cfoot.dock .navtag{display:inline}
 .s2n .cfoot.dock .dnext{display:inline-flex;align-items:center;gap:4px;height:42px;padding:0 12px 0 18px;border-radius:21px;color:#2E0827;font:800 15px/1 'Outfit',var(--body);background:linear-gradient(135deg,#FFC46B,#F5A23A);box-shadow:0 6px 16px rgba(245,162,58,.35)}
+
+/* dock style B: clean tab bar – icons with labels, Home in the middle */
+[data-dock="b"] .s2n .cfoot.dock{background:#FFFDF5!important;border-top:1px solid #EFE3D3;min-height:64px!important}
+[data-dock="b"] .s2n .cfoot.dock .dprog{top:-1px}
+[data-dock="b"] .s2n .cfoot.dock .dprev{background:#F5EBDD;border:0;color:#4A0E3F}
+[data-dock="b"] .s2n .cfoot.dock .dcount{color:#8A7A86}[data-dock="b"] .s2n .cfoot.dock .dcount b{color:#4A0E3F}
+[data-dock="b"] .s2n .cfoot.dock .dhome{margin-top:0;width:46px;height:46px;background:#4A0E3F!important;color:#FFFDF5!important;box-shadow:0 6px 16px rgba(74,14,63,.3)}
+[data-dock="b"] .s2n .cfoot.dock .navtag{color:#4A0E3F}
+[data-dock="b"] .s2n .cfoot.dock .dnext{background:#4A0E3F;color:#FFFDF5;box-shadow:none}
+/* dock style C: one floating glass capsule – ‹ | Home | › as a segmented control, progress fills the capsule */
+[data-dock="c"] .s2n .cfoot.dock{display:flex!important;justify-content:center;background:#2E0827!important;min-height:64px!important}
+[data-dock="c"] .s2n .cfoot.dock .dprog{display:none}
+[data-dock="c"] .s2n .cfoot.dock>.dl,[data-dock="c"] .s2n .cfoot.dock>.dc,[data-dock="c"] .s2n .cfoot.dock>.dr{position:relative;z-index:1}
+[data-dock="c"] .s2n .cfoot.dock{gap:0}
+[data-dock="c"] .s2n .cfoot.dock::before{content:'';position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:calc(100% - 28px);height:48px;border-radius:24px;background:linear-gradient(90deg,rgba(245,162,58,.35) var(--dprog,0%),rgba(255,253,245,.08) var(--dprog,0%));border:1px solid rgba(255,253,245,.2)}
+[data-dock="c"] .s2n .cfoot.dock .dl,[data-dock="c"] .s2n .cfoot.dock .dr{flex:1}
+[data-dock="c"] .s2n .cfoot.dock .dl{padding-left:14px}[data-dock="c"] .s2n .cfoot.dock .dr{padding-right:14px}
+[data-dock="c"] .s2n .cfoot.dock .dprev{background:transparent;border:0}
+[data-dock="c"] .s2n .cfoot.dock .dhome{margin-top:0;width:40px;height:40px;background:transparent!important;color:#FFFDF5!important;box-shadow:none;border-left:1px solid rgba(255,253,245,.2)!important;border-right:1px solid rgba(255,253,245,.2)!important;border-radius:0;padding:0 22px!important}
+[data-dock="c"] .s2n .cfoot.dock .dnext{background:transparent;color:#F5A23A;box-shadow:none;padding:0 4px 0 10px}
 </style>
 </head>
 <body>
@@ -1440,6 +1460,7 @@ function actsHTML(){ return `<div class="cacts">
 /* PREVIEW (14 Nov 2026, owner to approve): ?nav=1 turns on the new Home button (Today for you); ?nav=0 turns it off. Previous/Next are on for everyone */
 const NAV=(()=>{ try{ const q=new URLSearchParams(location.search).get('nav'); if(q==='1'||q==='0') localStorage.setItem('w2s.nav',q); return localStorage.getItem('w2s.nav')==='1'; }catch(e){ return false; } })();
 const NAVTX={te:{prev:'మునుపటి',next:'తర్వాత',read:'పూర్తిగా చదవండి',front:'ముందు వైపుకు',home:'హోమ్',kp:'ముఖ్యాంశాలు'},en:{prev:'Previous',next:'Next',read:'Read more',front:'Back to front',home:'Home',kp:'Key points'},hi:{prev:'पिछली',next:'अगली',read:'पूरा पढ़ें',front:'सामने की ओर',home:'होम',kp:'मुख्य बातें'}};
+try{ const dq=new URLSearchParams(location.search).get('dock'); if(dq) localStorage.setItem('w2s.dock',dq); const dv=localStorage.getItem('w2s.dock'); if(dv&&dv!=='a') document.documentElement.dataset.dock=dv; }catch(e){}
 const NT=k=>(NAVTX[TLG()?'en':LG()]||NAVTX.te)[k];
 function dockHTML(){ const ic=d=>`<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
   return `<div class="cfoot navf dock"><i class="dprog"></i>
