@@ -1,8 +1,152 @@
 {
- "date": "2026-11-14",
- "updated": "2026-11-14T11:05:00+05:30",
+ "date": "14.11.2026",
+ "updated": "2026-11-14T11:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "ఏపీ · వాతావరణం",
+   "col": "--c-water",
+   "art": "rain",
+   "stat": "18–19 నవం",
+   "statl": "కోస్తాంధ్రలో భారీ వర్ష సూచన",
+   "h": "అప్‌డేట్: బంగాళాఖాతంలో తుపాను ముప్పు; 18, 19న కోస్తాంధ్రలో భారీ వర్షాలు",
+   "p": "ఆగ్నేయ బంగాళాఖాతంలోని అల్పపీడనం నవంబర్ 15 ఉదయానికి వాయుగుండంగా మారి, 16 సాయంత్రానికి మధ్య బంగాళాఖాతంలో తుపానుగా బలపడే అవకాశం ఉందని ఐఎండీ తెలిపింది. దీని ప్రభావంతో నవంబర్ 18, 19 తేదీల్లో కోస్తా ఆంధ్రప్రదేశ్, ఒడిశాలో భారీ వర్షాలు కురుస్తాయని అంచనా. సముద్రం అల్లకల్లోలంగా ఉంటుందని హెచ్చరించింది.",
+   "pts": [
+    "మత్స్యకారులు నవంబర్ 15లోపు తీరానికి చేరాలి",
+    "మధ్య బంగాళాఖాతంలో 16–19 వేట వద్దు",
+    "అండమాన్ దీవుల్లో 16 వరకు భారీ వర్షాలు"
+   ],
+   "why": "కోస్తాంధ్ర రైతులు, మత్స్యకారులు, తీర ప్రాంత ప్రజలు ముందస్తు జాగ్రత్తలు తీసుకోవాలి.",
+   "src": "Deccan Chronicle (ANI)",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-coast-braces-for-heavy-rains-as-cyclone-threat-builds-over-bay-of-bengal-2004332",
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "pub": "2026-11-14T11:33+05:30",
+   "lbl": "fact",
+   "en": {
+    "h": "Update: Cyclone threat in Bay of Bengal; heavy rain for coastal Andhra on Nov 18–19",
+    "p": "IMD said the low-pressure area over the southeast Bay of Bengal is likely to become a depression by the morning of November 15 and intensify into a cyclonic storm over the central Bay by the evening of November 16. Heavy rain is forecast for coastal Andhra Pradesh and Odisha on November 18 and 19, with rough to very rough seas.",
+    "pts": [
+     "Fishermen told to return to coast by Nov 15",
+     "No fishing in central Bay Nov 16–19",
+     "Heavy rain in Andaman Islands till Nov 16"
+    ],
+    "why": "Farmers, fishermen and coastal residents in Andhra should take precautions early.",
+    "cat": "AP · Weather",
+    "statl": "Heavy rain forecast for coastal AP"
+   },
+   "hi": {
+    "h": "अपडेट: बंगाल की खाड़ी में तूफान का खतरा; 18–19 नवंबर को तटीय आंध्र में भारी बारिश",
+    "p": "आईएमडी ने कहा कि दक्षिण-पूर्व बंगाल की खाड़ी का कम दबाव क्षेत्र 15 नवंबर सुबह तक डिप्रेशन बन सकता है और 16 नवंबर शाम तक मध्य खाड़ी में चक्रवाती तूफान में बदल सकता है। 18 और 19 नवंबर को तटीय आंध्र प्रदेश और ओडिशा में भारी बारिश का अनुमान है, समुद्र बहुत अशांत रहेगा।",
+    "pts": [
+     "मछुआरे 15 नवंबर तक तट पर लौटें",
+     "मध्य खाड़ी में 16–19 नवंबर मछली पकड़ना मना",
+     "अंडमान द्वीपों में 16 तक भारी बारिश"
+    ],
+    "why": "तटीय आंध्र के किसान, मछुआरे और तटवासी पहले से सावधानी बरतें।",
+    "cat": "एपी · मौसम",
+    "statl": "तटीय आंध्र में भारी बारिश का अनुमान"
+   },
+   "d": "14.11.2026",
+   "t": "11:35"
+  },
+  {
+   "cat": "తెలంగాణ · వాతావరణం",
+   "col": "--c-city",
+   "stat": "11°C",
+   "statl": "కోహిర్‌లో రాష్ట్రంలోనే అత్యల్పం",
+   "h": "తెలంగాణలో చలి తీవ్రం; హైదరాబాద్‌లో 16 డిగ్రీల కంటే తక్కువ",
+   "p": "వరుసగా ఆరో రోజు రాష్ట్రంలో కనిష్ఠ ఉష్ణోగ్రతలు తక్కువగా నమోదయ్యాయి. హైదరాబాద్‌లో మౌలాలిలో 14.1 డిగ్రీలు నమోదు కాగా, సంగారెడ్డి జిల్లా కోహిర్‌లో 11 డిగ్రీలతో రాష్ట్రంలోనే అత్యల్ప ఉష్ణోగ్రత నమోదైంది. నవంబర్ 20 తర్వాత తుపాను ప్రభావ వర్షాలతో చలి క్రమంగా తగ్గవచ్చని అంచనా.",
+   "pts": [
+    "సిర్పూర్ (ఆసిఫాబాద్) 11.2, గాంధారి 11.5 డిగ్రీలు",
+    "బీహెచ్ఈఎల్, హెచ్‌సీయూ వద్ద 14.6 డిగ్రీలు"
+   ],
+   "why": "వృద్ధులు, పిల్లలు, ఉదయాన్నే బయటికి వెళ్లేవారు చలి నుంచి జాగ్రత్తగా ఉండాలి.",
+   "src": "Sakshi Post",
+   "url": "https://www.sakshipost.com/news/telangana/telangana-weather-hyderabad-records-temperatures-below-16-c-483223",
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "pub": "2026-11-14T09:44+05:30",
+   "lbl": "fact",
+   "en": {
+    "h": "Cold grips Telangana; Hyderabad below 16°C",
+    "p": "Minimum temperatures stayed low across the state for the sixth day in a row. In Hyderabad, Moula Ali recorded 14.1°C, while Kohir in Sangareddy district recorded the state's lowest at 11°C. The cold is expected to ease gradually after November 20 as cyclone-linked rain changes conditions.",
+    "pts": [
+     "Sirpur (Asifabad) 11.2°C, Gandhari 11.5°C",
+     "BHEL, University of Hyderabad at 14.6°C"
+    ],
+    "why": "Elderly people, children and early-morning commuters should guard against the cold.",
+    "cat": "Telangana · Weather",
+    "statl": "Kohir, lowest in state"
+   },
+   "hi": {
+    "h": "तेलंगाना में ठंड तेज; हैदराबाद में 16 डिग्री से नीचे",
+    "p": "राज्य में लगातार छठे दिन न्यूनतम तापमान कम रहा। हैदराबाद में मौला अली में 14.1 डिग्री दर्ज हुआ, जबकि संगारेड्डी जिले के कोहीर में 11 डिग्री के साथ राज्य का सबसे कम तापमान रहा। 20 नवंबर के बाद तूफान से जुड़ी बारिश के कारण ठंड धीरे-धीरे कम हो सकती है।",
+    "pts": [
+     "सिरपुर (आसिफाबाद) 11.2, गांधारी 11.5 डिग्री",
+     "बीएचईएल, हैदराबाद विश्वविद्यालय में 14.6 डिग्री"
+    ],
+    "why": "बुजुर्ग, बच्चे और सुबह जल्दी निकलने वाले लोग ठंड से बचें।",
+    "cat": "तेलंगाना · मौसम",
+    "statl": "कोहीर, राज्य में सबसे कम"
+   },
+   "d": "14.11.2026",
+   "t": "11:35"
+  },
+  {
+   "cat": "తెలంగాణ · రాజకీయం",
+   "col": "--c-election",
+   "stat": "బీఆర్ఎస్",
+   "statl": "విమర్శలపై కాంగ్రెస్ ఎదురుదాడి",
+   "h": "రాహుల్, ప్రభుత్వంపై బీఆర్ఎస్ విమర్శలకు మంత్రి కోమటిరెడ్డి కౌంటర్",
+   "p": "రాహుల్ గాంధీ, రేవంత్ ప్రభుత్వంపై బీఆర్ఎస్ చేస్తున్న విమర్శలను మంత్రి కోమటిరెడ్డి వెంకట్ రెడ్డి తిప్పికొట్టారు. భారత్ సమ్మిట్ వద్ద మీడియాతో మాట్లాడుతూ, తమ ప్రభుత్వం ఎక్కువ సంక్షేమ పథకాలు అమలు చేస్తోందని అన్నారు. పదేళ్ల బీఆర్ఎస్ పాలన హామీలు నెరవేర్చలేదని, మైనారిటీలు, గిరిజనులను మోసం చేసిందని ఆయన ఆరోపించారు.",
+   "pts": [
+    "కేటీఆర్ వ్యాఖ్యలను మంత్రి తప్పుబట్టారు",
+    "రాష్ట్ర ఏర్పాటులో సోనియా పాత్రను గుర్తుచేశారు"
+   ],
+   "why": "రాష్ట్ర రాజకీయ వాదనలను గమనించే ఓటర్లకు ఇరుపక్షాల వాదన తెలుసుకోవడం ఉపయోగం.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/congress-hits-back-at-brs-over-criticism-of-rahul-gandhi-revanth-government",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "pub": "2026-11-14T11:18+05:30",
+   "lbl": "claim",
+   "en": {
+    "h": "Minister Komatireddy counters BRS criticism of Rahul, government",
+    "p": "Minister Komatireddy Venkat Reddy hit back at BRS criticism of Rahul Gandhi and the Revanth government. Speaking to media at the Bharat Summit, he said his government runs more welfare schemes. He alleged that the 10-year BRS rule failed to keep promises and cheated minorities and tribal communities.",
+    "pts": [
+     "Minister objected to KTR's remarks",
+     "Recalled Sonia Gandhi's role in state formation"
+    ],
+    "why": "Voters following state politics can weigh both sides' arguments.",
+    "cat": "Telangana · Politics",
+    "statl": "Congress counters criticism"
+   },
+   "hi": {
+    "h": "राहुल, सरकार पर बीआरएस की आलोचना का मंत्री कोमटिरेड्डी ने जवाब दिया",
+    "p": "मंत्री कोमटिरेड्डी वेंकट रेड्डी ने राहुल गांधी और रेवंत सरकार पर बीआरएस की आलोचना का जवाब दिया। भारत समिट में मीडिया से बात करते हुए उन्होंने कहा कि उनकी सरकार अधिक कल्याण योजनाएं चला रही है। उन्होंने आरोप लगाया कि बीआरएस के 10 साल के शासन ने वादे पूरे नहीं किए और अल्पसंख्यकों व आदिवासियों को धोखा दिया।",
+    "pts": [
+     "मंत्री ने केटीआर की टिप्पणियों पर आपत्ति जताई",
+     "राज्य गठन में सोनिया की भूमिका याद दिलाई"
+    ],
+    "why": "राज्य की राजनीति पर नज़र रखने वाले मतदाता दोनों पक्षों के तर्क समझ सकते हैं।",
+    "cat": "तेलंगाना · राजनीति",
+    "statl": "आलोचना पर कांग्रेस का पलटवार"
+   },
+   "d": "14.11.2026",
+   "t": "11:35"
+  },
   {
    "cat": "ప్రపంచం · యూఏఈ",
    "col": "--c-city",
@@ -2148,158 +2292,6 @@
    },
    "d": "13.11.2026",
    "t": "21:35"
-  },
-  {
-   "cat": "హైదరాబాద్ · ట్రాఫిక్",
-   "col": "--c-city",
-   "stat": "14–30 నవం.",
-   "statl": "ఎన్టీఆర్ స్టేడియం వద్ద మళ్లింపులు",
-   "h": "కోటి దీపోత్సవం: ఎన్టీఆర్ స్టేడియం చుట్టూ నవంబర్ 14–30 ట్రాఫిక్ మళ్లింపులు",
-   "p": "ఎన్టీఆర్ స్టేడియంలో జరిగే కోటి దీపోత్సవం కోసం నవంబర్ 14 నుంచి 30 వరకు ట్రాఫిక్ మళ్లింపులు అమలు చేస్తామని హైదరాబాద్ ట్రాఫిక్ పోలీసులు ప్రకటించారు. రోజూ మధ్యాహ్నం 3 నుంచి రాత్రి 11 గంటల వరకు కట్ట మైసమ్మ ఆలయం నుంచి ఇందిరా పార్క్ క్రాస్‌రోడ్స్, అశోక్‌నగర్ నాలా వరకు రద్దీ ఉంటుందని తెలిపారు. ఆ మార్గాలకు దూరంగా ఉండాలని ప్రయాణికులకు సూచించారు.",
-   "pts": [
-    "తెలంగాణ తల్లి ఫ్లైఓవర్ వాహనాలు కవాడిగూడ, ముషీరాబాద్ మీదుగా",
-    "అశోక్‌నగర్ నుంచి వచ్చే వాహనాలు హిమాయత్‌నగర్ వైపు",
-    "ఆర్కే మఠ్ రోడ్, ధర్నా చౌక్ మార్గం నివారించాలి"
-   ],
-   "why": "లోయర్ ట్యాంక్‌బండ్, ఇందిరా పార్క్ పరిసరాల్లో రోజూ ప్రయాణించే వాహనదారులపై ప్రభావం.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/traffic-diversions-around-ntr-stadium-from-november-14-to-30",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "ఇందిరా పార్క్",
-   "pub": "2026-11-13T20:08+05:30",
-   "lbl": "fact",
-   "en": {
-    "h": "Koti Deepotsavam: traffic diversions around NTR Stadium from November 14 to 30",
-    "p": "Hyderabad Traffic Police announced diversions around NTR Stadium from November 14 to 30 for the Koti Deepotsavam held there. Congestion is expected daily from 3 pm to 11 pm between Katta Maisamma Temple, Indira Park X Roads and Ashok Nagar Nala. Commuters have been asked to avoid these routes.",
-    "pts": [
-     "Telangana Thalli flyover traffic via Kavadiguda, Musheerabad",
-     "Ashok Nagar traffic diverted towards Himayatnagar",
-     "Avoid RK Mutt Road and Dharna Chowk stretch"
-    ],
-    "why": "Affects motorists who use the Lower Tank Bund and Indira Park area daily.",
-    "cat": "Hyderabad · Traffic",
-    "statl": "diversions at NTR Stadium"
-   },
-   "hi": {
-    "h": "कोटि दीपोत्सवम: NTR स्टेडियम के आसपास 14 से 30 नवंबर तक ट्रैफिक डायवर्जन",
-    "p": "NTR स्टेडियम में होने वाले कोटि दीपोत्सवम के लिए हैदराबाद ट्रैफिक पुलिस ने 14 से 30 नवंबर तक डायवर्जन की घोषणा की है। रोज दोपहर 3 से रात 11 बजे तक कट्टा मैसम्मा मंदिर से इंदिरा पार्क क्रॉस रोड्स और अशोक नगर नाला तक भीड़ रहने की संभावना है। यात्रियों से इन रास्तों से बचने को कहा गया है।",
-    "pts": [
-     "तेलंगाना तल्ली फ्लाईओवर का ट्रैफिक कवाडीगुडा, मुशीराबाद होकर",
-     "अशोक नगर का ट्रैफिक हिमायतनगर की ओर मोड़ा जाएगा",
-     "आरके मठ रोड, धरना चौक मार्ग से बचें"
-    ],
-    "why": "लोअर टैंक बंड और इंदिरा पार्क इलाके से रोज गुजरने वाले वाहन चालकों पर असर।",
-    "cat": "हैदराबाद · ट्रैफिक",
-    "statl": "NTR स्टेडियम पर डायवर्जन"
-   },
-   "d": "13.11.2026",
-   "t": "20:35"
-  },
-  {
-   "cat": "ఏపీ · విశాఖ",
-   "col": "--c-water",
-   "art": "water",
-   "stat": "3.5 టీఎంసీ",
-   "statl": "డేటా సెంటర్లకు కావాల్సిన నీరు",
-   "h": "నీటి కొరత విశాఖ డేటా సెంటర్లకు అడ్డంకి కాదన్న సీఎం చంద్రబాబు",
-   "p": "విశాఖపట్నంలో రాబోయే డేటా సెంటర్లకు నీటి కొరత సమస్య కాదని సీఐఐ భాగస్వామ్య సదస్సులో సీఎం చంద్రబాబు నాయుడు పరిశ్రమ వర్గాలకు చెప్పారు. ఈ కేంద్రాలకు సుమారు 3.5 టీఎంసీ నీరు అవసరమని, పోలవరం ప్రాజెక్టు నుంచి విశాఖకు ఏటా 100 టీఎంసీ వరకు ఇవ్వొచ్చని తెలిపారు. డీశాలినేషన్, ఎయిర్-కూలింగ్ కూడా ప్రత్యామ్నాయాలని అన్నారు.",
-   "pts": [
-    "విశాఖలో 6 గిగావాట్లకు పైగా డేటా సెంటర్లు వివిధ దశల్లో",
-    "పోలవరం మార్చి 2027 నాటికి అందుబాటులోకి వస్తుందని అంచనా",
-    "గోదావరి–కావేరి అనుసంధానానికి పిలుపు"
-   ],
-   "why": "విశాఖ ప్రజల తాగునీటి అవసరాలు, ఐటీ ఉద్యోగాల ఆశలున్న యువతకు సంబంధించిన విషయం.",
-   "src": "Business Standard",
-   "url": "https://www.business-standard.com/industry/news/water-shortage-won-t-hinder-visakhapatnam-data-centre-growth-naidu-126111301579_1.html",
-   "sec": [
-    "telangana",
-    "business",
-    "innovation"
-   ],
-   "st": "AP",
-   "place": "ap-visakhapatnam",
-   "pub": "2026-11-13T19:37+05:30",
-   "lbl": "claim",
-   "en": {
-    "h": "Water shortage won't hinder Visakhapatnam data centres, says CM Naidu",
-    "p": "Chief Minister N. Chandrababu Naidu told industry at the CII Partnership Summit that water shortage will not be a hurdle for upcoming data centres in Visakhapatnam. He said these centres would need about 3.5 TMC of water, while the Polavaram project could supply up to 100 TMC a year to the city. He also named desalination and air-cooling as alternatives.",
-    "pts": [
-     "Over 6 GW of data centres at various stages in Vizag",
-     "Polavaram expected to be operational by March 2027",
-     "Called for Godavari–Cauvery river linking"
-    ],
-    "why": "Matters to Vizag residents' drinking water needs and to youth hoping for IT jobs.",
-    "cat": "AP · Visakhapatnam",
-    "statl": "water needed by data centres"
-   },
-   "hi": {
-    "h": "पानी की कमी विशाखापत्तनम डेटा सेंटरों में बाधा नहीं: सीएम नायडू",
-    "p": "मुख्यमंत्री एन. चंद्रबाबू नायडू ने CII पार्टनरशिप समिट में उद्योग जगत से कहा कि विशाखापत्तनम में आने वाले डेटा सेंटरों के लिए पानी की कमी बाधा नहीं बनेगी। उन्होंने कहा कि इन केंद्रों को लगभग 3.5 TMC पानी चाहिए, जबकि पोलावरम परियोजना से शहर को सालाना 100 TMC तक पानी मिल सकता है। उन्होंने डीसैलिनेशन और एयर-कूलिंग को भी विकल्प बताया।",
-    "pts": [
-     "विशाखापत्तनम में 6 GW से अधिक डेटा सेंटर विभिन्न चरणों में",
-     "पोलावरम मार्च 2027 तक चालू होने की उम्मीद",
-     "गोदावरी–कावेरी नदी जोड़ने की अपील"
-    ],
-    "why": "विशाखापत्तनम के लोगों की पेयजल जरूरतों और IT नौकरियों की उम्मीद रखने वाले युवाओं से जुड़ा मुद्दा।",
-    "cat": "आंध्र प्रदेश · विशाखापत्तनम",
-    "statl": "डेटा सेंटरों को चाहिए पानी"
-   },
-   "d": "13.11.2026",
-   "t": "20:35"
-  },
-  {
-   "cat": "హైదరాబాద్ · ఆరోగ్యం",
-   "col": "--c-city",
-   "stat": "26",
-   "statl": "లైవ్ గుండె కవాట చికిత్సలు",
-   "h": "హైదరాబాద్ వాల్వ్స్ 2026 సదస్సు ప్రారంభం; 26 లైవ్ కార్డియాక్ కేసుల ప్రదర్శన",
-   "p": "శస్త్రచికిత్స లేకుండా కేథెటర్ ద్వారా గుండె కవాటాలకు చికిత్సపై రెండేళ్లకోసారి జరిగే హైదరాబాద్ వాల్వ్స్ నాలుగో ఎడిషన్ హైదరాబాద్‌లో మొదలైంది. దేశ విదేశాల నుంచి గుండె వైద్య నిపుణులు హాజరయ్యారు. రెండు రోజుల సదస్సులో అమెరికా, యూరప్, అపోలో జూబ్లీహిల్స్ నుంచి 26 లైవ్ కేసులు ప్రసారం చేస్తున్నారు. ఆయాసం, అలసట లాంటి లక్షణాలను వృద్ధులు నిర్లక్ష్యం చేయొద్దని నిర్వాహకులు సూచించారు.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/fourth-edition-of-hyderabad-valves-2026-kicks-off-features-26-live-transcatheter-cardiac-cases",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "జూబ్లీహిల్స్",
-   "pts": [
-    "అపోలో జేఎండీ డా. సంగీతారెడ్డి వర్చువల్‌గా ప్రారంభం",
-    "కోర్సు డైరెక్టర్లు డా. పి.సి. రథ్, డా. మనోజ్ అగర్వాలా",
-    "టీఏవీఆర్, టీఎంవీఆర్ చికిత్సలపై దృష్టి"
-   ],
-   "why": "గుండె కవాట సమస్యలున్న వృద్ధులు, వారి కుటుంబాలకు ఉపయోగపడే సమాచారం.",
-   "pub": "2026-11-13T19:52+05:30",
-   "lbl": "fact",
-   "en": {
-    "h": "Hyderabad Valves 2026 conference opens with 26 live cardiac cases",
-    "p": "The fourth edition of Hyderabad Valves, a biennial conference on catheter-based heart valve treatment without open surgery, has begun in Hyderabad with heart specialists from India and abroad. The two-day meet is streaming 26 live cases from the US, Europe and Apollo Jubilee Hills. Organisers urged older people not to ignore symptoms such as breathlessness and fatigue.",
-    "pts": [
-     "Opened virtually by Apollo JMD Dr Sangeetha Reddy",
-     "Course directors Dr P.C. Rath, Dr Manoj Agarwala",
-     "Focus on TAVR and TMVR procedures"
-    ],
-    "why": "Useful for elderly people with heart valve problems and their families.",
-    "cat": "Hyderabad · Health",
-    "statl": "live heart valve cases"
-   },
-   "hi": {
-    "h": "हैदराबाद वाल्व्स 2026 सम्मेलन शुरू; 26 लाइव कार्डियक केस",
-    "p": "बिना ओपन सर्जरी के कैथेटर से हृदय वाल्व के इलाज पर हर दो साल में होने वाला हैदराबाद वाल्व्स का चौथा संस्करण हैदराबाद में शुरू हुआ, जिसमें देश-विदेश के हृदय विशेषज्ञ शामिल हैं। दो दिन के सम्मेलन में अमेरिका, यूरोप और अपोलो जुबली हिल्स से 26 लाइव केस प्रसारित हो रहे हैं। आयोजकों ने बुजुर्गों से सांस फूलने, थकान जैसे लक्षण नजरअंदाज न करने को कहा।",
-    "pts": [
-     "अपोलो JMD डॉ. संगीता रेड्डी ने वर्चुअली उद्घाटन किया",
-     "कोर्स निदेशक डॉ. पी.सी. रथ, डॉ. मनोज अग्रवाला",
-     "TAVR, TMVR इलाज पर फोकस"
-    ],
-    "why": "हृदय वाल्व समस्या वाले बुजुर्गों और उनके परिवारों के लिए उपयोगी जानकारी।",
-    "cat": "हैदराबाद · स्वास्थ्य",
-    "statl": "लाइव हृदय वाल्व केस"
-   },
-   "d": "13.11.2026",
-   "t": "20:05"
   },
   {
    "cat": "నీటి సంక్షోభం · హైదరాబాద్",
