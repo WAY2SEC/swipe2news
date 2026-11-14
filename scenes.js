@@ -389,7 +389,7 @@ const ART_REG=[[/ఆఫ్రికా|ఈజిప్ట్|నైజీరి�
  [/అమెరికా|యూఎస్|కెనడా|మెక్సికో|ట్రంప్|వాషింగ్టన్|న్యూయార్క్|America|\bUS\b|USA|Canada|Mexico|Washington|New York/i,'namerica'],
  [/యూరప్|బ్రిటన్|యూకే|లండన్|ఫ్రాన్స్|జర్మనీ|ఇటలీ|రష్యా|ఉక్రెయిన్|Europe|Britain|\bUK\b|London|France|Germany|Italy|Russia|Ukraine|Spain/i,'europe'],
  [/చైనా|జపాన్|సింగపూర్|బంగ్లాదేశ్|పాకిస్తాన్|శ్రీలంక|నేపాల్|కొరియా|ఆసియా|China|Japan|Singapore|Bangladesh|Pakistan|Sri Lanka|Nepal|Korea|Asia|Malaysia|Thailand/i,'asia']];
-const ART_HAVE=new Set(['coal','mineworkers','power','water','traffic','prices','telecom','nri','students','friendship','family','healthtips','trading','exams','ai','africa','asia','europe','namerica','mideast']); // art/n pictures we have
+const ART_HAVE=new Set(['condolence','coal','mineworkers','power','water','traffic','prices','telecom','nri','students','friendship','family','healthtips','trading','exams','ai','africa','asia','europe','namerica','mideast']); // art/n pictures we have
 
 /* owner's industries & workers library (14 Nov 2026, art/i/): 56 pictures. Workers first (when the story is about the people),
    then the industry, then the 18 general topics. Company names point to their industry. */
@@ -457,6 +457,8 @@ function artPlan(s){
   if(type==='transport'&&/ఆర్టీసీ|RTC|బస్|\bbus/i.test(t)&&!/రైలు|రైల్వే|ట్రైన్|\btrain|\brail|మెట్రో|metro/i.test(t)) type='bus'; // bus-and-pass story: bus picture, no train
   if(['crime','courts','cyber','factcheck'].includes(type)||ART_SENS.test(t)){
     const o=['crime','courts','cyber','factcheck'].includes(type)?type:/సైబర్ (?:నేర|మోస|క్రైమ్)|సైబర్ నేరగాళ్ల|cyber(?!abad)|మోసం|fraud|scam/i.test(t)?'cyber':/కోర్టు|court/i.test(t)?'courts':/హత్య|అరెస్ట్|దొంగ|పోలీసు|నిందితు|murder|arrest|police|robbery/i.test(t)?'crime':'';
+    // owner 14 Nov 2026: death news gets the respectful candle-and-lilies picture (not for court verdicts or fact-checks)
+    if(!['courts','factcheck'].includes(type)&&/మృతి|మృతుల|మృతుడు|మృతురాలు|మృతదేహ|అంత్యక్రియ|మరణించ|మరణం|మరణాలు|మృత్యువాత|ప్రాణాలు కోల్పో|ప్రాణం కోల్పో|కన్నుమూ|చనిపో|దుర్మరణ|నివాళ|సంతాప|\bdead\b|\bdied\b|\bdies\b|\bdeaths?\b|killed|passes away|passed away|condolence|tribute|obituary|funeral|bodies found/i.test([s.h,s.statl,s.stat,(s.en&&s.en.h)||''].join(' '))&&!/మరణ\s?శిక్ష|death sentence|death penalty/i.test(s.h||'')) return {m:'land',bg:'n/condolence'};
     return {m:'plain',obj:o};
   }
   { const tq=[s.h,s.statl,String(s.p||'').split(/[.!?।]/)[0]].join(' ');
