@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.swipe2news.app",
+    "sha256_cert_fingerprints": ["90:06:9A:45:DF:2A:D2:65:B3:F0:82:6D:C5:0F:AD:B6:79:7D:84:6D:48:01:2E:E3:71:FC:1A:29:77:A1:8B:59"]
+  }
+}]

@@ -1,0 +1,63 @@
+name: Android app
+
+# Builds the Swipe2News Android app (Play Store .aab + direct-download .apk)
+# whenever the android/ folder changes, or by hand from the Actions tab.
+on:
+  push:
+    branches: [main]
+    paths: ['android/**', '.github/workflows/android.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: { group: android-build, cancel-in-progress: true }
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: '17' }
+      - uses: gradle/actions/setup-gradle@v4
+        with: { gradle-version: '8.7' }
+
+      - name: Signing key (from repository secrets)
+        env:
+          KS_B64: ${{ secrets.ANDROID_KEYSTORE_B64 }}
+        run: |
+          if [ -n "$KS_B64" ]; then
+            echo "$KS_B64" | base64 -d > "$RUNNER_TEMP/upload.jks"
+            echo "KEYSTORE_FILE=$RUNNER_TEMP/upload.jks" >> "$GITHUB_ENV"
+            echo "Signing with the Swipe2News upload key"
+          else
+            echo "::warning::ANDROID_KEYSTORE_B64 secret not set - building a TEST app signed with a debug key (not for Play Store)"
+          fi
+
+      - name: Build app bundle and APK
+        working-directory: android
+        env:
+          VERSION_CODE: ${{ github.run_number }}
+          KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: swipe2news
+          KEY_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+        run: gradle --no-daemon :app:bundleRelease :app:assembleRelease
+
+      - name: Publish to swipe2news.com/app/
+        run: |
+          mkdir -p app
+          cp android/app/build/outputs/apk/release/app-release.apk app/swipe2news.apk
+          cp android/app/build/outputs/bundle/release/app-release.aab app/swipe2news.aab
+          echo "{\"version\":\"1.0.${{ github.run_number }}\",\"code\":${{ github.run_number }},\"signed\":$([ -n "$KEYSTORE_FILE" ] && echo true || echo false),\"built\":\"$(date -u +%FT%TZ)\"}" > app/version.json
+          git config user.name "Swipe2News Bot"; git config user.email news-bot@swipe2news.invalid
+          git add app/
+          git commit -m "Android app 1.0.${{ github.run_number }}" || exit 0
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: swipe2news-android-1.0.${{ github.run_number }}
+          path: |
+            android/app/build/outputs/bundle/release/app-release.aab
+            android/app/build/outputs/apk/release/app-release.apk
