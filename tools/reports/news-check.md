@@ -2,4 +2,4 @@
 
 ## news.json: 52 stories · 0 to fix · 1 to look at · 0 fixed automatically
 - CHECK: #51 "హైదరాబాద్‌కు నీటి కొరత ముప్పు": summary is 109 words – aim for about 60
-## archive/2026-11-14.json: 80 stories · 0 to fix · 0 to look at · 0 fixed automatically
+## archive/2026-11-14.json: 84 stories · 0 to fix · 0 to look at · 0 fixed automatically
