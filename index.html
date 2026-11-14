@@ -702,6 +702,10 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .s2n .bnr img.aland{transform:none!important;object-position:50% 50%!important}
 .s2n .bnr .aquiet{display:none!important}
 .s2n .bnr img.alogo{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);height:52%;max-width:46%;aspect-ratio:1;object-fit:contain;filter:drop-shadow(0 12px 18px rgba(0,0,0,.4));pointer-events:none}
+
+/* whole picture always visible (owner 14 Nov 2026): fit, never crop; spare space is brand plum */
+.s2n .bnr img.ph,.s2n .bnr img.art2,.s2n .bnr img.aland,.s2n .bnr img.adim{object-fit:contain!important;object-position:50% 50%!important;transform:none!important}
+.story.s2n.hasph>.panel.bnr,.s2n.hasph .bnr{background:#4A0E3F!important}
 </style>
 </head>
 <body>
@@ -825,7 +829,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
       <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
       <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
-      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 8.9 · Swipe2News</p>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 9.0 · Swipe2News</p>
     </div></div>
   </section>
   <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">

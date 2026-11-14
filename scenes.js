@@ -409,7 +409,7 @@ function artHTML(a){
 async function drawArtPlan(ctx,s,x,y,w,h){
   const a=artPlan(s); if(!a) return false;
   const L=src=>new Promise((ok,no)=>{const i=new Image();i.onload=()=>ok(i);i.onerror=no;i.src=src;});
-  const cover=(im,fy)=>{ const sc=Math.max(w/im.width,h/im.height),dw=im.width*sc,dh=im.height*sc; ctx.drawImage(im,x+(w-dw)/2,y+Math.min(0,Math.max(h-dh,(h-dh)*(fy==null?.45:fy))),dw,dh); };
+  const cover=(im)=>{ ctx.fillStyle='#4A0E3F'; ctx.fillRect(x,y,w,h); const sc=Math.min(w/im.width,h/im.height),dw=im.width*sc,dh=im.height*sc; ctx.drawImage(im,x+(w-dw)/2,y+(h-dh)/2,dw,dh); }; // fit the whole picture, plum around it
   const contain=(im,cx,cy,mw,mh)=>{ const sc=Math.min(mw/im.width,mh/im.height),dw=im.width*sc,dh=im.height*sc; ctx.drawImage(im,cx-dw/2,cy-dh/2,dw,dh); };
   const stripes=()=>{ ctx.fillStyle='#3A0A31'; ctx.fillRect(x,y,w,h); ctx.strokeStyle='#40103A'; ctx.lineWidth=28; for(let k=-h;k<w+h;k+=56){ ctx.beginPath(); ctx.moveTo(x+k,y); ctx.lineTo(x+k+h,y+h); ctx.stroke(); } };
   try{ ctx.save(); ctx.beginPath(); ctx.rect(x,y,w,h); ctx.clip();
