@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-13T23:35:00+05:30",
+ "cutoff": "2026-11-14T07:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T14:05:00+05:30/2026-11-10T14:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 17,
-   "published": 6,
-   "late": 3,
-   "held": 5,
-   "corrected": 0,
-   "duplicates": 5,
-   "skipped": 1,
-   "review": 1,
-   "gaps": "Search-first; WebFetch via sub-agent. Eenadu blocked (robots.txt); CNBC gold page fetch failed; Sakshi Guntur accident page has no time zone (review). Newsroom hold returned 'not allowed' – 5 held stories not sent. DC/TOI/The Hindu/Sakshi/Andhra Jyothy/Reuters/BBC searches gave no new timestamped in-range items; AP cabinet outcome still not found (only previews, already published)."
-  },
   {
    "window": "2026-11-10T14:35:00+05:30/2026-11-10T15:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "23:35 run started on time (23:36 IST). Lookback from 15:05. Nothing eligible: DC/PTI 'Rahul likely to address gig workers' is from 10 Nov 17:42; AIR Visakhapatnam 20:30 bulletin PDF is from 4 Nov. Search results thin and stale (mostly old Telangana Today tag/archive pages); not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, Siasat, ANI, PTI, Reuters; no AP, national or world items with verifiable times in window. Districts searched: Adilabad, Asifabad, Bhupalpally, Sangareddy, Gadwal, Wanaparthy, Jangaon, Medchal, Kurnool, Vizianagaram, Anakapalli, Konaseema, Anantapur, West Godavari, Annamayya, Sri Sathya Sai, Manyam."
+  },
+  {
+   "window": "2026-11-13T23:35:00+05:30/2026-11-14T07:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 11,
+   "published": 6,
+   "late": 5,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 5,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "07:05 run started on time (07:05 IST); covers night since last completed 23:35 run (no 05:05–06:35 runs recorded). Lookback from 15:35 13 Nov. Published: DC cyclone Akvan (23:56), ETV live Rahul arrival/gig policy (06:48 today), TT Governor on JNTU-H/PJTAU VCs (21:05), TT COWE-UNDP childcare (22:42), BS/PTI Assam crash (19:37), ABC FAA US ground stop (14 Nov 02:34 IST). Duplicates: DC gig bike rally (23:15), TT fake number plates (16:25, already published), Siasat/PTI CM 'Gujarat' remarks (21:36, already in ANI story), The Week cyclone (15:42) and Meghalayan Express Assam crash (20:48) grouped. Pre-lookback (not eligible): Hans Kalahasti temple kitchen fire (13 Nov 06:19), DC Project Udvasana (11:17), Hans Lokesh-RPSG (14:21), Hans Tirupati deputy mayor (06:41). Not reached: Eenadu pages (robots.txt). Districts searched: Nalgonda, Khammam, Karimnagar, Nizamabad, Warangal, Mahabubnagar, Siddipet, Medak, Srikakulam, Visakhapatnam, Guntur, Nellore, Tirupati, Kadapa."
   }
  ],
  "seen": [
@@ -1883,6 +1883,61 @@
    "url": "https://newsonair.gov.in/wp-content/uploads/2026/11/vish-text2030.pdf",
    "d": "2026-11-13",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/low-pressure-area-may-intensify-into-cyclone-akvan-by-november-16-imd-2004255",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--14th-november-2026-latest-top-news-information-across-telangana-tgs26111400358",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-governor-takes-serious-view-of-complaints-against-jntu-h-pjtau-vice-chancellors",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/cowe-india-undp-launch-workplace-based-childcare-pilot-centres-in-hyderabad",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.business-standard.com/india-news/23-killed-20-injured-in-bus-truck-collision-in-assam-s-kaziranga-126111301578_1.html",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/bike-rally-by-gig-workers-2004221",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://siasat.com/brs-bjp-blindly-opposing-congress-programmes-cm-on-bharat-summit-3576852",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.theweek.in/news/india/2026/11/13/will-it-rain-in-chennai-cyclone-akwan-may-bring-showers-from-november-18.html",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://themeghalayanexpress.com/26-killed-in-bus-truck-collision-in-assams-kaziranga/",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop",
+   "d": "2026-11-14",
+   "w": "duplicate"
   }
  ]
 }
