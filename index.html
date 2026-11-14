@@ -747,7 +747,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 @media (max-height:780px){.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text .sum{font-size:15px;line-height:1.5}.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text{gap:5px!important;padding-top:10px!important}}
 @media (min-width:380px){.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text>.ctxrow{align-self:flex-end;margin-top:calc(-1 * (19px + 7px));line-height:19px}}
 
-/* Previous/Next in the bottom bar (live); Home button + Today-for-you sheet = PREVIEW (?nav=1) */
+/* Previous/Next in the bottom bar (live); Home button + Today-for-you sheet (live) */
 .icon.homeb{margin-left:auto;margin-right:8px}
 .s2n .cfoot.navf{padding:0 8px}
 .s2n .cfoot.navf>span{font-size:11px;opacity:.85}
@@ -2089,7 +2089,7 @@ function goHome(e){ if(e) e.preventDefault();
   ['imgShare','crChoice','waCopy','capBar'].forEach(id=>{ const x=document.getElementById(id); if(x) x.hidden=true; });
   DAY=null; section='all'; JUMP=null; setView('home'); scrollTo(0,0); }
 $('homeLogo').onclick=goHome;
-/* PREVIEW (?nav=1): the Home button opens "Today for you" – an AI brief of the top 5 stories plus quick actions */
+/* the Home button opens "Today for you" – an AI brief of the top 5 stories plus quick actions */
 const HUBTX={te:{t:'ఈరోజు మీ కోసం',b:'AI బ్రీఫ్ · 60 సెకన్లలో టాప్ 5',all:'అన్నీ వినండి',latest:'తాజా వార్తలు',jobs:'ఉద్యోగాలు',saved:'సేవ్ చేసినవి',dates:'తేదీ వారీగా',n:'ఈరోజు {n} వార్తలు',g:['శుభోదయం','శుభ మధ్యాహ్నం','శుభ సాయంత్రం','శుభ రాత్రి']},
  en:{t:'Today for you',b:'AI brief · top 5 in 60 seconds',all:'Listen to all',latest:'Latest news',jobs:'Jobs',saved:'Saved',dates:'By date',n:'{n} stories today',g:['Good morning','Good afternoon','Good evening','Good night']},
  hi:{t:'आज आपके लिए',b:'AI ब्रीफ़ · 60 सेकंड में टॉप 5',all:'सब सुनें',latest:'ताज़ा ख़बरें',jobs:'नौकरियाँ',saved:'सेव की गईं',dates:'तारीख़ से',n:'आज {n} ख़बरें',g:['सुप्रभात','नमस्कार','शुभ संध्या','शुभ रात्रि']}};
@@ -2119,7 +2119,7 @@ function openHub(){ const T=HUBTX[TLG()?'en':LG()]||HUBTX.te; let h=$('hubSheet'
   h.querySelectorAll('.hubgrid button').forEach(b=>b.onclick=()=>{ close(); const a=b.dataset.a;
     if(a==='latest') goHome(); else if(a==='jobs') setView('jobs'); else if(a==='saved') setView('saved'); else if(a==='dates') openDates(); });
 }
-if(NAV){ const hb=$('homeBtn'); if(hb){ hb.hidden=false; hb.onclick=e=>{ e.preventDefault(); openHub(); }; } }
+{ const hb=$('homeBtn'); if(hb){ hb.hidden=false; hb.onclick=e=>{ e.preventDefault(); openHub(); }; } } // owner approved 14 Nov 2026: live for everyone
 document.addEventListener('click',e=>{ const t=e.target.closest('.navp,.navn'); if(!t) return; e.preventDefault(); e.stopPropagation();
   if(t.classList.contains('navp')) go(cur-1,'right'); else go(cur+1,'left'); },true);
 document.querySelectorAll('.sh-head .logo').forEach(l=>{ l.setAttribute('role','link'); l.setAttribute('title','హోమ్'); l.onclick=()=>goHome(); });
