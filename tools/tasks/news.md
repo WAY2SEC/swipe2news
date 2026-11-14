@@ -15,7 +15,8 @@ Unattended cloud run: don't ask questions; decide and continue.
 - News outlets (Namasthe Telangana, Telangana Today, Eenadu, Sakshi, Andhra Jyothy, The Hindu, Deccan Chronicle, Times of India, ETV Bharat, TV9 Telugu, V6, Siasat Daily, The Hans India, NTV, PTI, Reuters, AP, BBC …) only as SHORT summaries IN OUR OWN WORDS, always with "src" (outlet name) and "url" (original article). No link → no story. Never copy sentences; never use news photos.
 - Every story gets a trust label "lbl":
   - "fact" — the event is stated by an official source, or reported as fact by a reputable outlet that witnessed/confirmed it (accidents with official figures, government orders, results, weather alerts).
-  - "claim" — allegations, accusations, arrests on charges, party-vs-party claims, unconfirmed figures, "residents say" stories.
+  - "claim" — disputed assertions and accusations of wrongdoing: party-vs-party claims, "X alleges", unconfirmed figures, "residents say" stories.
+  - Police-reported developments (arrest, case registered, recovery) → "fact", with the police clearly named as the source in h/p ("…: పోలీసులు"). The accused is still written as accused, never as guilty.
   - "opinion" — editorials / opinion (cat begins "సంపాదకీయం · ", en "Editorial · ", hi "संपादकीय · ").
   - "forecast" — weather (or other) stories about what is EXPECTED, not what has happened (IMD/forecast "likely", "expected", "సూచన", "అంచనా"). Use "fact" only for weather that has already happened or an identifiable official warning that has been issued.
   - "misleading" — fact-check stories that show a viral claim is false or misleading (the headline must say what is false).
