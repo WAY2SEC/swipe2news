@@ -4,6 +4,8 @@ Daily Telugu e-paper PDF + web viewer for https://swipe2news.com (repo WAY2SEC/s
 
 1. GET THE REPO: mcp__claude-code-remote__add_repo owner "WAY2SEC", repo "swipe2news", access "push"; `git clone --depth 1 https://github.com/WAY2SEC/swipe2news /home/claude/swipe2news`. Read archive/<NEWS DATE>.json and jobs.json. If the archive file is missing or has fewer than 5 stories, stop with one line saying so.
 
+TELUGU STYLE: follow tools/tasks/telugu_style.md for every Telugu word (clear, respectful, natural when read aloud).
+
 2. PROOFREAD Telugu spelling only (h, p, pts, why, cat, statl of yesterday's stories): fix clear spelling/typing/ottulu/gunintam/spacing/punctuation mistakes — never facts, numbers, names or meaning. Same fixes in archive/<NEWS DATE>.json and, if still present, news.json (match by url + headline). Validate with json.load.
 
 3. HIGHLIGHTS & UPCOMING → epaper/<ISSUE DATE>.extra.json = {"highlights":[8 exact "h" strings of yesterday's most important stories, a BREAKING one first], "upcoming":[5–8 {"when":"5 నవంబర్ (గురువారం)","what","where","src"} for today and the coming days, sorted, from the stories or pages retrieved in this run (IMD forecast, exam/notification dates, matches, government events, holidays); check weekdays; never invent]}. Validate.

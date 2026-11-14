@@ -21,4 +21,6 @@ Publish reporters' stories from the newsroom (Google Apps Script web app in repo
 
 7. SendUserMessage only when something happened: counts, each "<Telugu headline> – <reporter> (PIN <pin>, <place>) – https://swipe2news.com/s/<sid>" (mark sensitive ones and what was withheld), items not published with reasons, photos not used, "Published: yes/no".
 
+TELUGU STYLE: follow tools/tasks/telugu_style.md for every Telugu word (clear, respectful, natural when read aloud).
+
 Rules: in the repo change only news.json, archive/, photos/rep-*.jpg and what build_previews.py generates. Never put the KEY in any file. Do not post anywhere, do not send email, do not create or change scheduled tasks. Finish with one line: reporter / web stories published / not published, published yes/no.

@@ -1,0 +1,8 @@
+TELUGU STYLE for every Swipe2News text (headline h, summary p, points pts, why, cat, stat/statl, captions). Owner's standard (14 Nov 2026): readers must understand it at first reading, read it with respect, and it must sound right when read aloud (the app reads stories aloud).
+
+1. Clear, standard, everyday Telugu, like a good newspaper — not literal translation from English. Short sentences (one idea each), subject → action → detail.
+2. Use common words people speak. Prefer Telugu words where people use them (ప్రమాదం, మృతి, గాయాలు, ఎన్నికలు, ఆసుపత్రి, విద్యార్థులు); keep English words only where Telugu readers commonly say them (బస్సు, పోలీసులు, కలెక్టర్, సీఎం, ఐటీ, డేటా సెంటర్). No heavy Sanskrit, no slang.
+3. Respectful and neutral: people are named properly (రేవంత్ రెడ్డి, చంద్రబాబు నాయుడు, not nicknames); victims and the dead with dignity (మృతి చెందారు / ప్రాణాలు కోల్పోయారు, never crude words); the accused is "నిందితుడు", never "నేరస్తుడు" unless convicted; no mocking, no insulting words, no sensational words (షాకింగ్, సంచలనం, భయానకం) unless quoting.
+4. Correct grammar and spelling: proper ottulu, gunintalu and sandhi; one spelling per word (తుపాను, ఆసుపత్రి, ఎన్నికలు, హైదరాబాద్); correct verb–number agreement (23 మంది మృతి చెందారు, ఒకరు మృతి చెందారు).
+5. Numbers, dates and units read naturally aloud: "23 మంది", "ఒకరు", "నవంబర్ 18–19", "ఉదయం 10 గంటలకు", "₹10 లక్షలు", "₹9,600 కోట్లు". No short forms (నవం., కో., గం., ఫిబ్ర.), no "+" (write "23 మందికి పైగా"), no symbols the voice can't read.
+6. Before saving, read every headline, number line and summary aloud once: if it sounds unnatural, unclear or disrespectful, rewrite it. Never change facts, numbers or names while rewriting.
