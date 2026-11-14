@@ -820,7 +820,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
       <button class="btn" id="shareApp" type="button" style="background:transparent;color:var(--ink);border:1.5px solid var(--line)">యాప్‌ను స్నేహితులతో షేర్ చేయండి</button>
       <a class="btn" href="/epaper/" style="display:flex;justify-content:center;background:#2E0827;color:#fff;margin-top:8px;text-decoration:none">📰 ఈ-పేపర్ చదవండి</a>
       <a class="btn" href="/web/" style="display:flex;justify-content:center;background:transparent;color:var(--ink);border:1.5px solid var(--line);margin-top:8px;text-decoration:none">🖥️ Swipe2News వెబ్‌సైట్ చూడండి</a>
-      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 8.7 · Swipe2News</p>
+      <p id="appVer" style="margin:6px 0 0;text-align:center;font-size:11px;color:var(--muted)">వెర్షన్ 8.8 · Swipe2News</p>
     </div></div>
   </section>
   <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">
@@ -1376,12 +1376,12 @@ function spaceFill(c){ const sp=c.querySelector('.spacer[data-sp]'); if(!sp) ret
     if(!p.paid && SPACE_TX[p.k].view){ e.preventDefault(); setView(SPACE_TX[p.k].view); } }; }
 function oneLine(c){ const h=c.querySelector('.s2n .text h2'); if(!h) return; h.style.fontSize=''; h.classList.add('one');
   let f=parseFloat(getComputedStyle(h).fontSize); const w=h.clientWidth; if(!w) return;
-  while(h.scrollWidth>w+1&&f>19){ f-=0.5; h.style.fontSize=f+'px'; }
+  while(h.scrollWidth>w&&f>18){ f-=0.5; h.style.fontSize=f+'px'; }
   h.title=h.textContent; }
 function statFit(c){ const b=c.querySelector('.s2n .bkw'); if(!b) return; const a=b.querySelector('.stat'), l=b.querySelector('.statl'); if(!a||!l) return;
   a.style.fontSize=l.style.fontSize=''; let f=parseFloat(getComputedStyle(a).fontSize)||22;
   while(l.scrollWidth>l.clientWidth&&f>15){ f-=0.5; a.style.setProperty('font-size',f+'px','important'); l.style.setProperty('font-size',f+'px','important'); } }
-try{ document.fonts&&document.fonts.ready.then(()=>setTimeout(()=>document.querySelectorAll('.story.s2n').forEach(c=>{ try{ statFit(c); srcFit(c); }catch(e){} }),50)); }catch(e){}
+try{ document.fonts&&document.fonts.ready.then(()=>setTimeout(()=>document.querySelectorAll('.story.s2n').forEach(c=>{ try{ oneLine(c); statFit(c); srcFit(c); }catch(e){} }),50)); }catch(e){}
 function srcFit(c){ const r=c.querySelector('.s2n .srow'); if(!r) return; r.classList.remove('tight','tight2'); const a=r.querySelector('.srcb a,.srcb b'); const cut=()=>a&&a.scrollWidth>a.clientWidth+1; if(cut()) r.classList.add('tight'); if(cut()){ r.classList.remove('tight'); r.classList.add('tight2'); } }
 function fit(c){ // make the card fit the screen: hide the least important parts first
   oneLine(c); srcFit(c); statFit(c); c.classList.remove('t1','t2','t3','t4');
