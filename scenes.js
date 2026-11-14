@@ -370,6 +370,7 @@ function artType(s){
    type only → its picture; else the state emblem. */
 const ART_SENS=/కిడ్నాప్|అదృశ్య|అపహరణ|kidnap|missing girl|missing boy|హత్య|అరెస్ట్|దొంగ|పోలీసు|నిందితు|అత్యాచార|ప్రమాద|మృతి|మరణ|ఆత్మహత్య|చనిపో|కోర్టు|సైబర్|మోసం|murder|arrest|police|accident|killed|death|dies|died|suicide|court|cyber|fraud|scam|rape/i;
 function artPlan(s){
+  if(s&&s._orig) s=s._orig; // Tenglish: choose the picture from the Telugu original
   if(!s||s.kind) return null;
   const pk=normPlace(String(s.place||'').toLowerCase()), land=ART_D.has(pk)&&!['tg','ap'].includes(pk)?pk:'';
   const st=stateOf(s), sland=st==='AP'?'ap':(st==='TG'||st==='TS')?'tg':'';
