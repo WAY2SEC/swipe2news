@@ -1,6 +1,6 @@
 // Swipe2News service worker: keeps the app working offline (villages, weak signal).
 // Pages and news: network first, but fall back to the saved copy after 4 s. Fonts and pictures: saved copy first.
-const CACHE = 's2n-v54';
+const CACHE = 's2n-v55';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'logo.png', 'logo-light.png', 'qr.png', 'icon-192.png', 'icon-512.png',
   'news.json', 'mandi.json', 'mandi.js?v=2', 'mandi/', 'morning/', 'archive/index.json'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(u).catch(() => 0))))); self.skipWaiting(); });

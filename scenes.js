@@ -353,6 +353,7 @@ const ART_SEC={sports:'sports',ai:'technology',innovation:'technology',tech:'tec
 const ART_KEY={economy:'business',campus:'education',school:'education',voters:'politics',unity:'politics',rain:'weather',farm:'agriculture',court:'courts',land:'realestate',diya:'devotional',deadline:'schemes',water:'infrastructure',power:'infrastructure'};
 const ART_CAT=[[/రాజకీయ|Politic/i,'politics'],[/వాతావరణ|Weather/i,'weather'],[/క్రైమ్|నేర|Crime/i,'crime'],[/విద్య|Education/i,'education'],[/ఆరోగ్య|Health/i,'health'],[/క్రీడ|Sport/i,'sports'],[/వ్యాపార|ఆర్థిక|Business|Econom/i,'business'],[/సినిమా|వినోద|Cinema|Entertain/i,'entertainment'],[/వ్యవసాయ|రైతు|Agri|Farm/i,'agriculture'],[/ఉద్యోగ|Jobs?\b/i,'jobs'],[/టెక్|Tech/i,'technology'],[/భక్తి|ఆధ్యాత్మిక|Devotion/i,'devotional'],[/న్యాయ|కోర్టు|Court|Law/i,'courts'],[/రవాణా|Transport/i,'transport'],[/పర్యావరణ|Environment/i,'environment'],[/సంక్షేమ|పథక|Scheme|Welfare/i,'schemes'],[/మౌలిక|Infrastructure/i,'infrastructure'],[/నీటి|Water/i,'infrastructure'],[/సైబర్|Cyber/i,'cyber'],[/ఆహార|Food/i,'food'],[/పర్యాటక|Travel|Tourism/i,'travel'],[/పండుగ|సంస్కృతి|Festival|Culture/i,'culture'],[/మహిళ|Women/i,'women'],[/సైన్స్|అంతరిక్ష|Science|Space/i,'science'],[/ఫ్యాక్ట్|Fact/i,'factcheck']];
 const ART_RX=[[/సైబర్|ఆన్‌లైన్ మోసం|cyber|online fraud|phishing/i,'cyber'],[/హత్య|అరెస్ట్|దొంగ|పోలీసు|నిందితు|అత్యాచార|murder|arrest|police|robbery|accused/i,'crime'],[/కోర్టు|హైకోర్టు|సుప్రీం|court|bench|judge/i,'courts'],[/వర్ష|తుపాను|అల్పపీడన|చలి|ఎండ|వాతావరణ|rain|cyclone|weather|IMD|fog/i,'weather'],[/ఆలయ|దేవాలయ|తిరుమల|శ్రీవారి|దీపోత్సవ|పూజ|temple|tirumala|festival puja/i,'devotional'],[/క్రికెట్|మ్యాచ్|టోర్నీ|cricket|match|tournament|olympic/i,'sports'],[/ఆసుపత్రి|వైద్య|ఆరోగ్య|వ్యాధి|hospital|health|medical|dengue|fever/i,'health'],[/సినిమా|చిత్రం|హీరో|OTT|movie|film|box office/i,'entertainment'],[/రైలు|మెట్రో|బస్సు|విమాన|ట్రాఫిక్|railway|metro|bus|flight|airport|traffic/i,'transport'],[/పరీక్ష|విద్యార్థ|పాఠశాల|కళాశాల|యూనివర్సిటీ|exam|student|school|college|university/i,'education'],[/ఉద్యోగ|నోటిఫికేషన్|నియామక|recruit|vacanc|jobs?\b/i,'jobs'],[/పులి|అటవీ|వన్యప్రాణ|కాలుష్య|tiger|forest|wildlife|pollution/i,'environment'],[/రైతు|పంట|వరి|పత్తి|మార్కెట్ యార్డ్|farmer|crop|paddy|cotton|mandi/i,'agriculture'],[/బ్రిడ్జి|రోడ్డు|ప్రాజెక్ట్|నిర్మాణ|bridge|road|flyover|project/i,'infrastructure'],[/పథకం|లబ్ధిదారు|scheme|beneficiar|pension/i,'schemes'],[/ఎన్నిక|ఓటు|అసెంబ్లీ|పార్టీ|election|vote|assembly|party/i,'politics'],[/స్టాక్|మార్కెట్|బ్యాంక్|పెట్టుబడ|stock|market|bank|invest|GDP/i,'business'],[/\bAI\b/,'technology'],[/టెక్|ఐటీ|సాఫ్ట్‌వేర్|software|technology|startup|smartphone/i,'technology']];
+const ART_W=[[/ఫ్రాన్స్|పారిస్|France|Paris/i,'paris'],[/బ్రిటన్|లండన్|యూకే|Britain|London|\bUK\b/i,'london'],[/అమెరికా|న్యూయార్క్|America|\bUS\b|USA|New York/i,'new-york'],[/ఇటలీ|రోమ్|Italy|Rome/i,'rome'],[/ఈజిప్ట్|కైరో|Egypt|Cairo/i,'cairo'],[/యూఏఈ|దుబాయ్|UAE|Dubai|Fujairah|ఫుజైరా/i,'dubai'],[/ఆస్ట్రేలియా|సిడ్నీ|Australia|Sydney/i,'sydney'],[/జపాన్|టోక్యో|Japan|Tokyo/i,'tokyo'],[/బ్రెజిల్|Brazil|Rio/i,'rio-de-janeiro'],[/చైనా|బీజింగ్|China|Beijing/i,'beijing'],[/సింగపూర్|Singapore/i,'singapore'],[/టర్కీ|తుర్కియే|ఇస్తాంబుల్|Turkey|T[uü]rkiye|Istanbul/i,'istanbul'],[/దక్షిణాఫ్రికా|South Africa|Cape Town/i,'cape-town'],[/నైజీరియా|Nigeria|Lagos/i,'lagos'],[/స్పెయిన్|Spain|Barcelona/i,'barcelona'],[/రష్యా|మాస్కో|Russia|Moscow/i,'moscow'],[/జోర్డాన్|Jordan|Petra/i,'petra'],[/వెనిస్|Venice/i,'venice']];
 /* which news type a story is (one of the 36 boards), '' if unknown */
 function artType(s){
   const t=(s.h||'')+' '+((s.en&&s.en.h)||'')+' '+(s.cat||'');
@@ -385,18 +386,24 @@ function artPlan(s){
   if(land&&['devotional','travel','culture'].includes(type)) return {m:'land',bg:land};
   if(land&&type&&!['telangana','andhra','local','india'].includes(type)) return {m:'landobj',bg:land,obj:type};
   if(land) return {m:'land',bg:land};
+  if(!land&&(/ప్రపంచం|World/.test(t+(s.cat||''))||(Array.isArray(s.sec)&&s.sec.includes('world')))&&!['weather'].includes(type)){ for(const [rx,k] of ART_W) if(rx.test(t+' '+(s.cat||''))) return {m:'land',bg:'w/'+k}; }
   if(type) return {m:'cat',cat:type};
   if(sland) return {m:'land',bg:sland};
-  return {m:'cat',cat:/ప్రపంచం|World/.test(t+(s.cat||''))?'world':'india'};
+  const world=/ప్రపంచం|World/.test(t+(s.cat||''))||s.st==='WORLD'||(Array.isArray(s.sec)&&s.sec.includes('world'));
+  if(world){ for(const [rx,k] of ART_W) if(rx.test(t+' '+(s.cat||''))) return {m:'land',bg:'w/'+k}; return {m:'cat',cat:'world'}; }
+  if(s.st==='IN'||/భారత్|India/.test(s.cat||'')) return {m:'cat',cat:'india'};
+  return {m:'logo'};   // nothing to show: our own logo (vector, sharp at any size)
 }
-function artImg(s){ const a=artPlan(s); if(!a) return ''; return a.m==='cat'?'/art/c/'+a.cat+'.jpg':a.bg?'/art/d/'+a.bg+'.jpg':'/art/o/'+(a.obj||'local')+'.webp'; }
+function artImg(s){ const a=artPlan(s); if(!a) return ''; return a.m==='logo'?'/art/logo.svg':a.m==='cat'?'/art/c/'+a.cat+'.jpg':a.bg?artBg(a.bg):'/art/o/'+(a.obj||'local')+'.webp'; }
 const ART_DISC={te:'AI రూపొందించిన చిత్రం',en:'AI-generated illustration',hi:'AI से बना चित्र'};
+function artBg(k){ return k.startsWith('w/')?'/art/'+k+'.jpg':'/art/d/'+k+'.jpg'; }
 function artHTML(a){
   const im=(src,cls)=>`<img class="${cls}" src="${src}" alt="" loading="lazy" decoding="async">`;
+  if(a.m==='logo') return `<i class="apl2"></i><img class="alogo" src="/art/logo.svg" alt="">`;
   if(a.m==='cat') return `<i class="apl2"></i>${im('/art/o/'+a.cat+'.webp','ahero acat')}`; // illustration-led: one large object
   if(a.m==='plain') return `<i class="apl"></i>${a.obj?im('/art/o/'+a.obj+'.webp','ahero'):''}`; // no object = number-led (shorter header)
-  if(a.m==='wx') return `${a.bg?im('/art/d/'+a.bg+'.jpg','ph art2 adim'):'<i class="apl"></i>'}${a.tone?`<i class="atone ${a.tone}"></i>`:''}${a.obj?im('/art/o/'+a.obj+'.webp','ahero awx'):''}`;
-  return im('/art/d/'+a.bg+'.jpg','ph art2 aland')+'<i class="aquiet"></i>'+(a.m==='landobj'?im('/art/o/'+a.obj+'.webp','aob'):''); // location-led: landmark dominant, map badge quietened
+  if(a.m==='wx') return `${a.bg?im(artBg(a.bg),'ph art2 adim'):'<i class="apl"></i>'}${a.tone?`<i class="atone ${a.tone}"></i>`:''}${a.obj?im('/art/o/'+a.obj+'.webp','ahero awx'):''}`;
+  return im(artBg(a.bg),'ph art2 aland')+(a.m==='landobj'?im('/art/o/'+a.obj+'.webp','aob'):''); // location-led: landmark dominant, map badge quietened
 }
 /* same picture on the shared / downloaded photo */
 async function drawArtPlan(ctx,s,x,y,w,h){
@@ -408,10 +415,11 @@ async function drawArtPlan(ctx,s,x,y,w,h){
   try{ ctx.save(); ctx.beginPath(); ctx.rect(x,y,w,h); ctx.clip();
     if(a.m==='cat'){ const rg=ctx.createRadialGradient(x+w/2,y+h*.42,10,x+w/2,y+h*.42,w*.7); rg.addColorStop(0,'#6B2A5E'); rg.addColorStop(1,'#3A0A31'); ctx.fillStyle=rg; ctx.fillRect(x,y,w,h); ctx.shadowColor='rgba(0,0,0,.45)'; ctx.shadowBlur=30; ctx.shadowOffsetY=18; contain(await L('/art/o/'+a.cat+'.webp'),x+w/2,y+h*.42,w*.84,h*.62); ctx.shadowColor='transparent'; }
     else if(a.m==='plain'){ stripes(); if(a.obj){ ctx.shadowColor='rgba(0,0,0,.45)'; ctx.shadowBlur=30; ctx.shadowOffsetY=18; contain(await L('/art/o/'+a.obj+'.webp'),x+w/2,y+h*.42,w*.82,h*.62); ctx.shadowColor='transparent'; } }
-    else if(a.m==='wx'){ if(a.bg){ cover(await L('/art/d/'+a.bg+'.jpg')); ctx.fillStyle='rgba(20,4,17,.58)'; ctx.fillRect(x,y,w,h); } else stripes();
+    else if(a.m==='wx'){ if(a.bg){ cover(await L(artBg(a.bg))); ctx.fillStyle='rgba(20,4,17,.58)'; ctx.fillRect(x,y,w,h); } else stripes();
       if(a.tone){ ctx.fillStyle=a.tone==='cool'?'rgba(120,160,210,.30)':'rgba(245,130,40,.30)'; ctx.fillRect(x,y,w,h); if(a.tone==='cool'){ const g=ctx.createLinearGradient(0,y+h*.45,0,y+h); g.addColorStop(0,'rgba(235,240,250,0)'); g.addColorStop(1,'rgba(235,240,250,.35)'); ctx.fillStyle=g; ctx.fillRect(x,y,w,h); } }
       if(a.obj){ ctx.shadowColor='rgba(0,0,0,.45)'; ctx.shadowBlur=30; ctx.shadowOffsetY=18; contain(await L('/art/o/'+a.obj+'.webp'),x+w/2,y+h*.40,w*.7,h*.5); ctx.shadowColor='transparent'; } }
-    else { { const im=await L('/art/d/'+a.bg+'.jpg'); const sc=Math.max(w/im.width,h/im.height)*1.3, dw=im.width*sc, dh=im.height*sc; ctx.drawImage(im,x-(dw-w)*.22,y-(dh-h)*.92,dw,dh); } { const q=ctx.createRadialGradient(x+w,y,10,x+w,y,w*.55); q.addColorStop(0,'rgba(46,8,39,.86)'); q.addColorStop(.45,'rgba(46,8,39,.5)'); q.addColorStop(1,'rgba(46,8,39,0)'); ctx.fillStyle=q; ctx.fillRect(x,y,w,h); } if(a.m==='landobj'){ ctx.shadowColor='rgba(20,4,17,.55)'; ctx.shadowBlur=24; ctx.shadowOffsetY=14; contain(await L('/art/o/'+a.obj+'.webp'),x+w*.8,y+h*.3,w*.32,h*.26); ctx.shadowColor='transparent'; } }
+    else if(a.m==='logo'){ const rg=ctx.createRadialGradient(x+w/2,y+h*.42,10,x+w/2,y+h*.42,w*.7); rg.addColorStop(0,'#6B2A5E'); rg.addColorStop(1,'#3A0A31'); ctx.fillStyle=rg; ctx.fillRect(x,y,w,h); const lg=await L('/art/logo.svg'); const sz=Math.min(h*.5,w*.4); ctx.shadowColor='rgba(0,0,0,.4)'; ctx.shadowBlur=30; ctx.shadowOffsetY=14; ctx.drawImage(lg,x+(w-sz)/2,y+h*.4-sz/2,sz,sz); ctx.shadowColor='transparent'; }
+    else { cover(await L(artBg(a.bg)),.5); if(a.m==='landobj'){ ctx.shadowColor='rgba(20,4,17,.55)'; ctx.shadowBlur=24; ctx.shadowOffsetY=14; contain(await L('/art/o/'+a.obj+'.webp'),x+w*.8,y+h*.3,w*.32,h*.26); ctx.shadowColor='transparent'; } }
     const g=ctx.createLinearGradient(0,y,0,y+h); g.addColorStop(0,'rgba(46,8,39,.5)'); g.addColorStop(.22,'rgba(46,8,39,0)'); g.addColorStop(.5,'rgba(46,8,39,0)'); g.addColorStop(.72,'rgba(46,8,39,.85)'); g.addColorStop(1,'rgba(46,8,39,.97)'); ctx.fillStyle=g; ctx.fillRect(x,y,w,h);
     ctx.restore(); return true; }catch(e){ ctx.restore(); return false; }
 }
