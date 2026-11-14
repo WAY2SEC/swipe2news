@@ -1,7 +1,7 @@
 # Swipe2News — half-hour news edition (instructions for the scheduled task)
 
 Know More. Scroll Less. Short Telugu news (with English and Hindi versions) for https://swipe2news.com, repo WAY2SEC/swipe2news.
-The task fires at :05 and :35 past each hour, 07:05–23:35 India time. Use the real current date and time in India (Asia/Kolkata).
+The task fires at :05 and :35 past each hour, 05:05–23:35 India time (from 14 Nov 2026; the 05:05 run covers the night since the last 23:35 run). Use the real current date and time in India (Asia/Kolkata).
 Unattended cloud run: don't ask questions; decide and continue.
 
 ## Coverage (decided 13 Nov 2026)
