@@ -1458,9 +1458,9 @@ function actsHTML(){ return `<div class="cacts">
     <button class="ca wa" type="button"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z" stroke="#0E7A3E" stroke-width="1.9" stroke-linejoin="round"/><path d="M9.2 7.8c-.4 0-.9.4-1 1-.2 1.4.6 3.2 2.1 4.7s3.3 2.3 4.7 2.1c.6-.1 1-.6 1-1v-.9l-1.9-.9-.9.9c-.9-.4-2.4-1.9-2.8-2.8l.9-.9-.9-1.9z" fill="#0E7A3E"/></svg><span>WhatsApp</span></button>
   </div>`; }
 /* PREVIEW (14 Nov 2026, owner to approve): ?nav=1 turns on the new Home button (Today for you); ?nav=0 turns it off. Previous/Next are on for everyone */
-const NAV=(()=>{ try{ const q=new URLSearchParams(location.search).get('nav'); if(q==='1'||q==='0') localStorage.setItem('w2s.nav',q); return localStorage.getItem('w2s.nav')==='1'; }catch(e){ return false; } })();
+const NAV=(()=>{ try{ const q=new URLSearchParams(location.search).get('nav'); if(q==='1'||q==='0') localStorage.setItem('w2s.nav',q); return localStorage.getItem('w2s.nav')!=='0'; }catch(e){ return true; } })(); // owner approved style A, 14 Nov 2026: on for everyone
 const NAVTX={te:{prev:'మునుపటి',next:'తర్వాత',read:'పూర్తిగా చదవండి',front:'ముందు వైపుకు',home:'హోమ్',kp:'ముఖ్యాంశాలు'},en:{prev:'Previous',next:'Next',read:'Read more',front:'Back to front',home:'Home',kp:'Key points'},hi:{prev:'पिछली',next:'अगली',read:'पूरा पढ़ें',front:'सामने की ओर',home:'होम',kp:'मुख्य बातें'}};
-try{ const dq=new URLSearchParams(location.search).get('dock'); if(dq) localStorage.setItem('w2s.dock',dq); const dv=localStorage.getItem('w2s.dock'); if(dv&&dv!=='a') document.documentElement.dataset.dock=dv; }catch(e){}
+try{ localStorage.removeItem('w2s.dock'); const dv=new URLSearchParams(location.search).get('dock'); if(dv&&dv!=='a') document.documentElement.dataset.dock=dv; }catch(e){} // style A for everyone; ?dock=b|c only to look at the other styles
 const NT=k=>(NAVTX[TLG()?'en':LG()]||NAVTX.te)[k];
 function dockHTML(){ const ic=d=>`<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
   return `<div class="cfoot navf dock"><i class="dprog"></i>
