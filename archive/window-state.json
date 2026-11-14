@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-14T14:35:00+05:30",
+ "cutoff": "2026-11-14T15:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T21:35:00+05:30/2026-11-10T22:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 4,
-   "late": 4,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 1,
-   "review": 1,
-   "gaps": "Search-first; WebFetch via sub-agent. No in-window (21:35-22:05) article surfaced. Eenadu pages blocked by robots.txt (Khammam item in review). Sakshi, Andhra Jyothy (new), ETV Bharat, TV9, V6, NTV, Reuters/BBC/AP articles not surfaced; no AP, national, other-state or international item verified in range. Older than lookback: Siasat CP cyber advisory (09:11), NT Filmnagar cops (01:52), TT Kanchanbagh murder (5 Nov), Punjab Kesari Keesara SI (9 Nov)."
-  },
   {
    "window": "2026-11-10T22:05:00+05:30/2026-11-10T22:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "14:35 run started 14:36 IST. Lookback from 06:05 14 Nov. Read: ap7am SEC escort 886757 (14:16, published as update, fact), NT News Pochampally effigy 2560113 (13:35, published, fact, sensitive), Inshorts/ANI YSRCP memorandum (08:41, late-found, published, claim), Vaartha TGSRTC pass 804931 (07:47; duplicate of RTC pass story), Deccan Chronicle gig workers 2004342 (12:16; duplicate of gig-act story), Telugu Post AP panchayat notification 1625663 (13 Nov 13:29; skipped, before lookback), Hans India/IANS Abhishek Banerjee questioning 1142068 (14:21; skipped, other state not major). ETV Bharat and Andhra Jyothy live blogs no entries after 09:16. Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; India/world/district standard searches stale. Districts searched: Nalgonda, Suryapet, Warangal, Hanumakonda, Jagtial, Sircilla, Vikarabad, Narayanpet, Mulugu, Guntur, East Godavari, Konaseema."
+  },
+  {
+   "window": "2026-11-14T14:35:00+05:30/2026-11-14T15:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 1,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 2,
+   "review": 2,
+   "gaps": "15:05 run started 15:05 IST. Lookback from 06:35 14 Nov. Read: ANI Harish Rao open letter (11:01, late-found, published, claim), ANI BJP defends visa denials (08:55; duplicate of visa-row story), Hans India Kurnool GP polls 1141967 (05:50; skipped, before lookback), Telangana Today Kadem dam (9 Nov; skipped, old). Review (fetch blocked, time unverified): TT Kothagudem Maoist surrenders, TT four construction projects closure. TT Telegram, Siasat, Tribune, TNM listings had no new datable items. Not reached: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; standard India/world/district searches stale. Districts searched: Karimnagar, Mahabubnagar, Sangareddy, Medak, Adilabad, Nirmal, Mancherial, Kamareddy, Kurnool, Nellore, Kadapa, Srikakulam, Anantapur, Prakasam, Eluru, NTR."
   }
  ],
  "seen": [
@@ -2328,6 +2328,36 @@
    "url": "https://www.thehansindia.com/kolkata/trinamool-mp-abhishek-banerjee-appears-before-kolkata-police-for-questioning-over-cec-post-1142068",
    "d": "2026-11-14",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.aninews.in/news/national/politics/160three-budgets-no-delivery-brs-leader-harish-rao-questions-rahul-gandhi-over-telangana-govts-unfulfilled-poll-promises20261114110115",
+   "d": "2026-11-14",
+   "w": "published"
+  },
+  {
+   "url": "https://www.aninews.in/news/national/politics/those-who-spoke-against-country-are-being-invited-telangana-bjp-defends-visa-denials-for-hyderabad-bharat-summit-speakers20261114085528",
+   "d": "2026-11-14",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/kurnool-to-hold-first-phase-of-2026-gp-polls-on-nov-26-1141967",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/kadem-dam-water-supply-suspension-deferred-after-farmer-protests",
+   "d": "2026-11-14",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/kothagudem-saw-918-maoist-surrenders-829-arrests-since-2014-police-say",
+   "d": "2026-11-14",
+   "w": "review"
+  },
+  {
+   "url": "https://telanganatoday.com/four-construction-projects-in-hyderabad-ranga-reddy-face-closure-over-environmental-violations",
+   "d": "2026-11-14",
+   "w": "review"
   }
  ]
 }
