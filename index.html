@@ -1276,6 +1276,13 @@ function locGPS(btn){ if(!navigator.geolocation){ openSheet(); return; }
       locSet(r.k,'gps'); },
     ()=>{ btn.classList.remove('busy'); store.set('locNo',(store.get('locNo',0)||0)+1); toast(({te:'లొకేషన్ దొరకలేదు – జిల్లా ఎంచుకోండి',en:'Couldn’t get your location – pick a district',hi:'लोकेशन नहीं मिली – ज़िला चुनें'})[LG()]); openSheet(); },
     {enableHighAccuracy:false,timeout:12000,maximumAge:600000}); }
+/* new job notices also appear in the news feed (owner, 14 Nov 2026): the newest jobs (added in the last 3 days, your district first)
+   after the 5th, 13th and 23rd stories; the Jobs tab keeps the full list */
+function withJobs(list){ if(view!=='home'||!(section==='all'||section==='district')||!JOBS.length||list.length<6) return list;
+  const age=j=>{ const m=/^(\d\d)\.(\d\d)\.(\d{4})$/.exec(j.d||''); return m?(Date.now()-new Date(+m[3],+m[2]-1,+m[1]))/864e5:99; };
+  let fresh=JOBS.filter(j=>age(j)<=3).sort((a,b)=>age(a)-age(b)); if(prefs.place&&prefs.place!=='TS') fresh=fresh.filter(j=>j.place===prefs.place).concat(fresh.filter(j=>j.place!==prefs.place));
+  fresh=fresh.slice(0,3); if(!fresh.length) return list;
+  const at=[5,13,23], out=[]; let n=0,k=0; list.forEach(s=>{ out.push(s); if(!s.kind){ n++; if(n===at[k]&&fresh[k]){ out.push(fresh[k]); k++; } } }); return out; }
 function withPromos(list){ list=withLocAsk(withHouse(withMandi(list)));
   const G=CONFIG.GREETING; let gr=null;
   if(G && Date.now()<new Date(G.until).getTime() && view!=='saved' && view!=='jobs') gr={kind:'promo', greet:1, img:G.img, h:'దీపావళి శుభాకాంక్షలు – Swipe2News', p:'', url:G.page, src:'Swipe2News', d:''};
@@ -1491,7 +1498,7 @@ function renderFeed(keepKey){
     $('toAll').onclick=()=>{section='all';setView('home')};
     setCount(0,0); cards=[]; syncSave(); return;
   }
-  LIST = withPromos(LIST);
+  LIST = withPromos(withJobs(LIST));
   feed.innerHTML = LIST.map(cardHTML).join('').replace(/<img class="([^"]*)" src="(\/art\/[^"]+)"/g,'<img class="$1" data-src="$2"'); // pictures load only for the card on screen and the next few
   if(TLG()) tlDom(feed);
   feed.querySelectorAll('[data-psh]').forEach(b=>b.onclick=()=>shareCard(true));
@@ -2165,7 +2172,7 @@ async function moreNews(dir){
 async function load(){
   // Show the news saved on the phone at once, so a slow network never leaves a black screen (iPhone, 10 Nov 2026).
   if(!load.shown){ const c=store.get('news',null);
-    if(c && c.stories && c.stories.length){ NEWS=c; WISHES=store.get('wishes',WISHES); renderTabs(); renderFeed(); load.shown=1; if(navigator.onLine===false) offlineUI(true); } }
+    if(c && c.stories && c.stories.length){ NEWS=c; WISHES=store.get('wishes',WISHES); if(!JOBS.length) setJobs(store.get('jobs',[])); renderTabs(); renderFeed(); load.shown=1; if(navigator.onLine===false) offlineUI(true); } }
   const keep = load.shown && cur>0 && LIST && LIST[cur] ? keyOf(LIST[cur]) : null; // still on the first card → jump to the newest news
   try{
     const ac = window.AbortController ? new AbortController() : null;
@@ -2176,7 +2183,7 @@ async function load(){
     NEWS = j; store.set('news', NEWS); offlineUI(); setTimeout(warmOffline,4000); // after the feed is drawn and the first pictures are in
     BASE = NEWS.stories.slice();
     // add the rest of today's stories (news.json holds only the newest 50); never wait more than 8 s for these
-    await timeout(Promise.all([loadWishes(), (async()=>{ await loadDates(); if(DATES[0]) await fetchDay(DATES[0].iso); })()]), 8000);
+    await timeout(Promise.all([loadWishes(), loadJobs(), (async()=>{ await loadDates(); if(DATES[0]) await fetchDay(DATES[0].iso); })()]), 8000);
     mergeAll();
   }catch(e){
     if(!load.shown){ NEWS = store.get('news', NEWS); WISHES = store.get('wishes', WISHES); }
