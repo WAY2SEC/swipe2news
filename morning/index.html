@@ -119,6 +119,27 @@ nav.bn a.sw{justify-self:center;width:58px;height:58px;margin-top:-26px;border-r
 .s2lsc .lnm small{font-weight:500;color:#5A5560}
 .s2lsc .lnm input{height:48px;padding:0 14px;border-radius:14px;border:1.5px solid #E3D7DF;background:#fff;font:600 16px 'Outfit','Noto Sans Telugu',sans-serif;color:#202124}
 .s2bnav,.tkpause{display:none!important}
+.m60{margin:14px 16px 0}
+.m60t{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:10px}
+.m60t h2{margin:0;font-size:20px;font-weight:800;color:var(--plum);line-height:1.4}
+.m60t span{flex:none;font-size:12px;color:var(--muted)}
+.mlist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.mi a{display:flex;gap:12px;padding:12px 14px;background:var(--card);border:1px solid var(--line);border-radius:16px;color:inherit;text-decoration:none}
+.mi .no{flex:none;width:26px;height:26px;border-radius:13px;background:var(--plum);color:#FFFDF5;font:800 13px 'Outfit',sans-serif;display:flex;align-items:center;justify-content:center;margin-top:2px}
+.mi:first-child .no{background:var(--ap);color:var(--deep)}
+.mi .bd{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.mi .k{font-size:11.5px;font-weight:800;letter-spacing:.3px;color:var(--plum)}
+.mi h3{margin:0;font-size:16px;line-height:1.45;font-weight:800;color:var(--ink)}
+.mi p{margin:0;font-size:13.5px;line-height:1.55;color:#3C3A40}
+.mi .sr{font-size:11.5px;color:var(--muted);margin-top:2px}
+.mi .sr b{font-weight:700;color:#0E7A3E}
+.mload,.mnone{padding:16px;color:var(--muted);font-size:14px}
+.macts{display:grid;grid-template-columns:1.1fr 1.2fr .8fr;gap:8px;margin-top:12px}
+.ma{height:46px;border-radius:23px;border:0;font:800 14px 'Noto Sans Telugu','Outfit',sans-serif;display:flex;align-items:center;justify-content:center;gap:6px;text-decoration:none;cursor:pointer;padding:0 8px}
+.ma.ls{background:var(--ap);color:var(--deep)}.ma.ls[aria-pressed="true"]{background:var(--deep);color:#FFFDF5}
+.ma.rd{background:var(--plum);color:#FFFDF5}
+.ma.sh{background:var(--card);color:var(--plum);border:1.5px solid var(--plum)}
+.mend{display:block;text-align:center;margin:14px 0 6px;font-size:13px;font-weight:700;color:var(--plum);text-decoration:none}
 </style>
 </head>
 <body>
@@ -132,41 +153,23 @@ nav.bn a.sw{justify-self:center;width:58px;height:58px;margin-top:-26px;border-r
     <a class="pill" id="area" href="/web/?pick=1"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span id="areaTx">తెలంగాణ</span></a>
   </div>
 
-  <section class="sec" aria-label="Understand">
-    <div class="lab"><span id="lU">UNDERSTAND · అర్థం చేసుకోండి</span><i></i></div>
-    <div class="brief">
-      <div class="k"><svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true"><path fill="#F5A23A" d="M12 2l2.2 6.6L21 11l-6.8 2.4L12 20l-2.2-6.6L3 11l6.8-2.4z"/></svg><span id="bk">మీ 3 నిమిషాల బ్రీఫింగ్</span></div>
-      <h2 id="bh">ఈరోజు మీకు ముఖ్యమైన వార్తలు</h2>
-      <div class="mix" id="bmix"></div>
-      <div class="bar" id="bbar"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-      <div class="btns"><a class="rd" href="/?cards=1" id="bread">📖 చదవండి</a><button class="ls" type="button" id="blisten" aria-pressed="false">▶ వినండి</button></div>
+  <section class="m60" id="m60" aria-labelledby="m60h">
+    <div class="m60t"><h2 id="m60h">మీ ఉదయం 60 సెకన్లలో</h2><span id="upd"></span></div>
+    <ol class="mlist" id="mlist"><li class="mload">…</li></ol>
+    <div class="macts">
+      <button class="ma ls" type="button" id="mlisten" aria-pressed="false">▶ వినండి</button>
+      <a class="ma rd" href="/?cards=1" id="mread">వార్తలు చదవండి</a>
+      <button class="ma sh" type="button" id="mshare">షేర్</button>
     </div>
+    <a class="mend" href="/?cards=1" id="mend">ఈ ఉదయానికి ఇంతే · మిగతా వార్తలు స్వైప్ చేయండి →</a>
   </section>
-
-  <section class="sec" aria-label="Act" id="actSec">
-    <div class="lab"><span id="lA">ACT · మీ దగ్గర ఇప్పుడు</span><i></i><a href="/web/?districts=1#dists" id="lAll">అన్నీ</a></div>
-    <div class="row" id="acts"></div>
-    <div class="gov" id="gov"></div>
-  </section>
-
-  <section class="sec" aria-label="Mandi prices" id="mandiSec" hidden>
-    <div class="lab"><span id="lM">మండీ ధరలు</span><i></i><a href="/mandi/" id="lMall">అన్నీ</a></div>
-    <a class="mnd" href="/mandi/" id="mnd"></a>
-  </section>
-
-  <section class="sec" aria-label="Verify" id="verify">
-    <div class="lab"><span id="lV">VERIFY · ముఖ్య వార్తలు</span><i></i></div>
-    <div class="vf" id="vf"></div>
-  </section>
-
-  <a class="go" href="/?cards=1" id="goCards">వార్తలు స్వైప్ చేయండి → <small>Swipe cards</small></a>
 </div>
 
 <nav class="bn" aria-label="Main"><div class="in">
   <a class="on" href="/morning/"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 10.5L12 3l9 7.5V21h-6v-6H9v6H3z"/></svg><span id="nH">హోమ్</span></a>
   <a href="/web/?districts=1#dists"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span id="nN">నా దగ్గర</span></a>
   <a class="sw" href="/?cards=1" aria-label="Swipe news"><svg width="30" height="30" viewBox="0 0 100 100" aria-hidden="true"><g transform="rotate(8 60 46)"><rect x="42" y="18" width="34" height="56" rx="6" fill="#9C6E92"/></g><g transform="rotate(-4 44 54)"><path d="M28 24 h30 a5 5 0 0 1 5 5 v40 l-13 13 h-22 a5 5 0 0 1 -5 -5 v-48 a5 5 0 0 1 5 -5z" fill="#FFFDF5"/><path d="M63 69 L50 82 L50 69 Z" fill="#F5A23A"/></g></svg></a>
-  <a href="#verify"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg><span id="nV">వెరిఫై</span></a>
+  <a href="/editorial-policy.html"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg><span id="nV">వెరిఫై</span></a>
   <a href="/?cards=1&saved=1"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg><span id="nS">సేవ్డ్</span></a>
 </div></nav>
 
@@ -182,9 +185,9 @@ const sidOf=s=>{if(s._sid)return s._sid;let h=5381;const t=(s.url||'')+'|'+(s.h|
 const P=store.get('prefs',{})||{}; const L=['te','en','hi'].includes(P.lang)?P.lang:'te';
 try{ sessionStorage.setItem('s2n.morningSeen', new Date().toDateString()); }catch(e){}
 const TX={
- te:{hello:['శుభోదయం','శుభ మధ్యాహ్నం','శుభ సాయంత్రం'],friend:'మిత్రమా',addName:'మీ పేరు చేర్చండి ✎',editName:'పేరు మార్చండి ✎',namePh:'మీ పేరు',U:'UNDERSTAND · అర్థం చేసుకోండి',A:'ACT · మీ దగ్గర ఇప్పుడు',V:'VERIFY · ముఖ్య వార్తలు',all:'అన్నీ',bk:'మీ 3 నిమిషాల బ్రీఫింగ్',bh:n=>`ఈరోజు మీకు ముఖ్యమైన ${n} వార్తలు`,mix:(a,b,c)=>[a&&`${a} దేశం`,b&&`${b} తెలంగాణ · ఏపీ`,c&&`${c} మీ జిల్లా`].filter(Boolean).join(' · '),read:'📖 చదవండి',listen:'▶ వినండి',stop:'■ ఆపండి',gov:'ప్రభుత్వం మీ కోసం',govs:'చివరి తేదీలు',days:'రోజులు',today:'ఈరోజే',why:'ఇది ఎందుకు ముఖ్యం:',src:'మూలం',off:'✓ అధికారిక సమాచారం',rep:'● రిపోర్టర్ సమాచారం',news:'● ',go:'వార్తలు స్వైప్ చేయండి →',noact:'మీ ప్రాంతం నుంచి ఇప్పుడు అలర్ట్‌లు లేవు.',H:'హోమ్',N:'నా దగ్గర',Vn:'వెరిఫై',S:'సేవ్డ్',how:'మాకు ఎలా తెలుసు',pub:'అసలు ప్రచురణకర్త',when:'ప్రచురణ · అప్‌డేట్',sum:'సారాంశం',ai:'✦ AI, ఎడిటర్ పరిశీలన',ev:'అసలు కథనం',evs:'మూలం వెబ్‌సైట్‌లో తెరవండి',corr:'సవరణలు',none:'ఇప్పటివరకు లేవు',report:'తప్పు ఉందా? తెలియజేయండి',updated:'అప్‌డేట్'},
- en:{hello:['Good morning','Good afternoon','Good evening'],friend:'reader',addName:'Add your name ✎',editName:'Change name ✎',namePh:'Your name',U:'UNDERSTAND',A:'ACT · NEAR YOU NOW',V:'VERIFY · TOP STORIES',all:'See all',bk:'YOUR 3-MINUTE BRIEFING',bh:n=>`${n} stories that matter to you today`,mix:(a,b,c)=>[a&&`${a} national`,b&&`${b} Telangana · AP`,c&&`${c} your district`].filter(Boolean).join(' · '),read:'📖 Read',listen:'▶ Listen',stop:'■ Stop',gov:'Government for you',govs:'Deadlines',days:'days',today:'today',why:'Why it matters:',src:'Source',off:'✓ Official notice',rep:'● Reporter update',news:'● ',go:'Swipe the news →',noact:'No alerts from your area right now.',H:'Home',N:'Near me',Vn:'Verify',S:'Saved',how:'How we know this',pub:'Original publisher',when:'Published · Updated',sum:'Summary',ai:'✦ AI, checked by editor',ev:'Original report',evs:'Opens the source website',corr:'Corrections',none:'none so far',report:'Report an error',updated:'updated'},
- hi:{hello:['सुप्रभात','नमस्कार','शुभ संध्या'],friend:'दोस्त',addName:'अपना नाम जोड़ें ✎',editName:'नाम बदलें ✎',namePh:'आपका नाम',U:'समझें',A:'करें · आपके पास अभी',V:'जाँचें · मुख्य खबरें',all:'सभी',bk:'आपकी 3 मिनट की ब्रीफ़िंग',bh:n=>`आज आपके लिए ${n} अहम खबरें`,mix:(a,b,c)=>[a&&`${a} देश`,b&&`${b} तेलंगाना · आंध्र`,c&&`${c} आपका ज़िला`].filter(Boolean).join(' · '),read:'📖 पढ़ें',listen:'▶ सुनें',stop:'■ रोकें',gov:'सरकार आपके लिए',govs:'अंतिम तिथियाँ',days:'दिन',today:'आज',why:'यह क्यों अहम है:',src:'स्रोत',off:'✓ आधिकारिक सूचना',rep:'● रिपोर्टर अपडेट',news:'● ',go:'खबरें स्वाइप करें →',noact:'अभी आपके इलाके से कोई अलर्ट नहीं।',H:'होम',N:'आसपास',Vn:'जाँचें',S:'सेव्ड',how:'हमें कैसे पता है',pub:'मूल प्रकाशक',when:'प्रकाशित · अपडेट',sum:'सारांश',ai:'✦ AI, संपादक द्वारा जाँचा',ev:'मूल रिपोर्ट',evs:'स्रोत वेबसाइट पर खोलें',corr:'सुधार',none:'अब तक कोई नहीं',report:'गलती बताएँ',updated:'अपडेट'}}[L];
+ te:{hello:['శుభోదయం','శుభ మధ్యాహ్నం','శుభ సాయంత్రం'],friend:'మిత్రమా',addName:'మీ పేరు చేర్చండి ✎',editName:'పేరు మార్చండి ✎',namePh:'మీ పేరు',U:'UNDERSTAND · అర్థం చేసుకోండి',A:'ACT · మీ దగ్గర ఇప్పుడు',V:'VERIFY · ముఖ్య వార్తలు',all:'అన్నీ',bk:'మీ 3 నిమిషాల బ్రీఫింగ్',bh:n=>`ఈరోజు మీకు ముఖ్యమైన ${n} వార్తలు`,mix:(a,b,c)=>[a&&`${a} దేశం`,b&&`${b} తెలంగాణ · ఏపీ`,c&&`${c} మీ జిల్లా`].filter(Boolean).join(' · '),read:'📖 చదవండి',listen:'▶ వినండి',stop:'■ ఆపండి',gov:'ప్రభుత్వం మీ కోసం',govs:'చివరి తేదీలు',days:'రోజులు',today:'ఈరోజే',why:'ఇది ఎందుకు ముఖ్యం:',src:'మూలం',off:'✓ అధికారిక సమాచారం',rep:'● రిపోర్టర్ సమాచారం',news:'● ',go:'వార్తలు స్వైప్ చేయండి →',noact:'మీ ప్రాంతం నుంచి ఇప్పుడు అలర్ట్‌లు లేవు.',H:'హోమ్',N:'నా దగ్గర',Vn:'వెరిఫై',S:'సేవ్డ్',how:'మాకు ఎలా తెలుసు',pub:'అసలు ప్రచురణకర్త',when:'ప్రచురణ · అప్‌డేట్',sum:'సారాంశం',ai:'✦ AI, ఎడిటర్ పరిశీలన',ev:'అసలు కథనం',evs:'మూలం వెబ్‌సైట్‌లో తెరవండి',corr:'సవరణలు',none:'ఇప్పటివరకు లేవు',report:'తప్పు ఉందా? తెలియజేయండి',updated:'అప్‌డేట్',t60:'మీ ఉదయం 60 సెకన్లలో',upd:'అప్‌డేట్',kArea:'మీ ప్రాంతం',kLeave:'బయటకు వెళ్లే ముందు',kTG:'తెలంగాణ',kAP:'ఆంధ్రప్రదేశ్',kIN:'భారత్',kMiss:'మిస్ అవ్వకండి',kMore:'ఇది కూడా ముఖ్యం',last:'చివరి తేదీ',todayLast:'ఈరోజే చివరి తేదీ',ok:'✓',readS:'వార్తలు చదవండి',share:'షేర్',end:'ఈ ఉదయానికి ఇంతే · మిగతా వార్తలు స్వైప్ చేయండి →',none:'ఇంకా ఉదయం వార్తలు రాలేదు. కొద్దిసేపట్లో మళ్లీ చూడండి.',intro:'Swipe2News నుంచి మీ ఉదయం 60 సెకన్లలో. '},
+ en:{hello:['Good morning','Good afternoon','Good evening'],friend:'reader',addName:'Add your name ✎',editName:'Change name ✎',namePh:'Your name',U:'UNDERSTAND',A:'ACT · NEAR YOU NOW',V:'VERIFY · TOP STORIES',all:'See all',bk:'YOUR 3-MINUTE BRIEFING',bh:n=>`${n} stories that matter to you today`,mix:(a,b,c)=>[a&&`${a} national`,b&&`${b} Telangana · AP`,c&&`${c} your district`].filter(Boolean).join(' · '),read:'📖 Read',listen:'▶ Listen',stop:'■ Stop',gov:'Government for you',govs:'Deadlines',days:'days',today:'today',why:'Why it matters:',src:'Source',off:'✓ Official notice',rep:'● Reporter update',news:'● ',go:'Swipe the news →',noact:'No alerts from your area right now.',H:'Home',N:'Near me',Vn:'Verify',S:'Saved',how:'How we know this',pub:'Original publisher',when:'Published · Updated',sum:'Summary',ai:'✦ AI, checked by editor',ev:'Original report',evs:'Opens the source website',corr:'Corrections',none:'none so far',report:'Report an error',updated:'updated',t60:'Your Morning in 60 Seconds',upd:'Updated',kArea:'Your area',kLeave:'Before you leave',kTG:'Telangana',kAP:'Andhra Pradesh',kIN:'India',kMiss:'Don\'t miss',kMore:'Also important',last:'Last date',todayLast:'Last date today',ok:'✓',readS:'Read stories',share:'Share',end:'That\'s your morning · swipe for more news →',none:'Morning news is not in yet. Check again shortly.',intro:'Your morning in 60 seconds from Swipe2News. '},
+ hi:{hello:['सुप्रभात','नमस्कार','शुभ संध्या'],friend:'दोस्त',addName:'अपना नाम जोड़ें ✎',editName:'नाम बदलें ✎',namePh:'आपका नाम',U:'समझें',A:'करें · आपके पास अभी',V:'जाँचें · मुख्य खबरें',all:'सभी',bk:'आपकी 3 मिनट की ब्रीफ़िंग',bh:n=>`आज आपके लिए ${n} अहम खबरें`,mix:(a,b,c)=>[a&&`${a} देश`,b&&`${b} तेलंगाना · आंध्र`,c&&`${c} आपका ज़िला`].filter(Boolean).join(' · '),read:'📖 पढ़ें',listen:'▶ सुनें',stop:'■ रोकें',gov:'सरकार आपके लिए',govs:'अंतिम तिथियाँ',days:'दिन',today:'आज',why:'यह क्यों अहम है:',src:'स्रोत',off:'✓ आधिकारिक सूचना',rep:'● रिपोर्टर अपडेट',news:'● ',go:'खबरें स्वाइप करें →',noact:'अभी आपके इलाके से कोई अलर्ट नहीं।',H:'होम',N:'आसपास',Vn:'जाँचें',S:'सेव्ड',how:'हमें कैसे पता है',pub:'मूल प्रकाशक',when:'प्रकाशित · अपडेट',sum:'सारांश',ai:'✦ AI, संपादक द्वारा जाँचा',ev:'मूल रिपोर्ट',evs:'स्रोत वेबसाइट पर खोलें',corr:'सुधार',none:'अब तक कोई नहीं',report:'गलती बताएँ',updated:'अपडेट',t60:'60 सेकंड में आपकी सुबह',upd:'अपडेट',kArea:'आपका इलाका',kLeave:'घर से निकलने से पहले',kTG:'तेलंगाना',kAP:'आंध्र प्रदेश',kIN:'भारत',kMiss:'न चूकें',kMore:'यह भी अहम',last:'अंतिम तिथि',todayLast:'आज अंतिम तिथि',ok:'✓',readS:'खबरें पढ़ें',share:'शेयर',end:'आपकी सुबह बस इतनी · और खबरों के लिए स्वाइप करें →',none:'सुबह की खबरें अभी नहीं आईं। थोड़ी देर में देखें।',intro:'Swipe2News से 60 सेकंड में आपकी सुबह। '}}[L];
 const LBL={fact:{te:'✓ వాస్తవం',en:'✓ FACT',hi:'✓ तथ्य'},claim:{te:'వాదన',en:'CLAIM',hi:'दावा'},opinion:{te:'అభిప్రాయం',en:'OPINION',hi:'राय'},misleading:{te:'తప్పుదోవ',en:'MISLEADING',hi:'भ्रामक'}};
 const tr=s=>{const o=Object.assign({},s); const x=s[L]; if(L!=='te'&&x&&typeof x==='object'){ ['h','p','why','cat','statl','pts'].forEach(k=>{ if(x[k]) o[k]=x[k]; }); } return o;};
 const ist=()=>new Date(Date.now()+(330+new Date().getTimezoneOffset())*60000);
@@ -193,12 +196,13 @@ const hm=s=>{ const t=tsOf(s); if(!t) return s.t||''; const d=new Date(t+(330+ne
 const daysLeft=j=>{const m=/^(\d\d)\.(\d\d)\.(\d{4})$/.exec(j.last||'');if(!m)return null;return Math.floor((new Date(+m[3],+m[2]-1,+m[1],23,59,59)-Date.now())/864e5)};
 const AP=(typeof AP_DISTRICTS!=='undefined'?Object.fromEntries(AP_DISTRICTS.map(a=>[a[0],a[1]])):{});
 const placeTx=k=>PLACES[k]||AP[k]||(k==='AP'?'ఆంధ్రప్రదేశ్':'తెలంగాణ');
+const placeName=k=>L==='te'?placeTx(k):((window.S2Mandi&&S2Mandi.placeName)?S2Mandi.placeName(k,L):placeTx(k));
 const isTGAP=s=>s.st==='TG'||s.st==='AP'||(Array.isArray(s.sec)&&s.sec.includes('telangana'));
 
 /* header bits */
 function greet(){ const h=ist().getHours(), nm=String(P.name||'').trim();
-  $('hello').innerHTML=esc(TX.hello[h<12?0:h<17?1:2])+', <span class="who">'+esc(nm||TX.friend)+'</span>'+(nm?'':(L==='te'?' 🙏':''));
-  $('nmBtn').textContent=nm?TX.editName:TX.addName; $('nmIn').placeholder=TX.namePh; $('nmIn').value=nm; }
+  const ar=P.place&&!['TS','TG','IN','AP',''].includes(P.place)?(P.village||placeName(P.place)):''; $('hello').innerHTML=esc(TX.hello[h<12?0:h<17?1:2])+', <span class="who">'+esc(ar||nm||TX.friend)+'</span>';
+  $('nmBtn').textContent=nm?TX.editName:TX.addName; $('nmBtn').hidden=!!ar; $('nmIn').placeholder=TX.namePh; $('nmIn').value=nm; }
 greet();
 addEventListener('s2prefs',e=>{ P.name=(e.detail||{}).name||''; greet(); });
 $('nmBtn').onclick=()=>{ $('nmBtn').hidden=true; $('nmForm').hidden=false; $('nmIn').focus(); };
@@ -208,60 +212,68 @@ $('nmForm').onsubmit=e=>{ e.preventDefault(); const p=store.get('prefs',{})||{};
   const M={te:['జనవరి','ఫిబ్రవరి','మార్చి','ఏప్రిల్','మే','జూన్','జులై','ఆగస్టు','సెప్టెంబర్','అక్టోబర్','నవంబర్','డిసెంబర్'],en:['January','February','March','April','May','June','July','August','September','October','November','December'],hi:['जनवरी','फ़रवरी','मार्च','अप्रैल','मई','जून','जुलाई','अगस्त','सितंबर','अक्टूबर','नवंबर','दिसंबर']}[L];
   $('today').textContent=`${W[d.getDay()]}, ${d.getDate()} ${M[d.getMonth()]}`;
   $('areaTx').textContent=P.village||placeTx(P.place);
-  $('lU').textContent=TX.U; $('lA').textContent=TX.A; $('lV').textContent=TX.V; $('lAll').textContent=TX.all; $('bk').textContent=TX.bk;
-  $('bread').textContent=TX.read; $('blisten').textContent=TX.listen; $('goCards').innerHTML=esc(TX.go)+' <small>Swipe cards</small>';
+  $('m60h').textContent=TX.t60; $('mread').textContent=TX.readS; $('mshare').textContent=TX.share; $('mend').textContent=TX.end; $('mlisten').textContent=TX.listen;
   $('nH').textContent=TX.H; $('nN').textContent=TX.N; $('nV').textContent=TX.Vn; $('nS').textContent=TX.S; document.documentElement.lang=L; })();
 
 async function getJSON(u){ try{ const r=await fetch(u+'?t='+Date.now(),{cache:'no-store'}); return r.ok?await r.json():null; }catch(e){ return null; } }
 let BRIEF=[];
-(async function(){ try{ const M=window.S2Mandi; if(!M) return; const L=M.lang(), U=M.UI[L], d=await M.load(), pk=(P&&P.place)||''; const m=M.pick(d,pk,4); if(!m.rows.length) return;
-  const where=m.local?M.placeName(pk,L):(m.st==='AP'?(L==='te'?'ఆంధ్రప్రదేశ్':'Andhra Pradesh'):(L==='te'?'తెలంగాణ':L==='hi'?'तेलंगाना':'Telangana'));
-  document.getElementById('lM').textContent=(L==='en'?'MANDI · ':L==='hi'?'मंडी · ':'మండీ · ')+where; document.getElementById('lMall').textContent=L==='en'?'All':L==='hi'?'सभी':'అన్నీ';
-  const e=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-  document.getElementById('mnd').innerHTML=m.rows.map(r=>`<div class="r"><span>${(M.CROPS[r.crop]||{}).e||'•'}</span><div><b>${e(M.cropName(r.crop,L))}</b><small>${e(r.mkt)} · ${e(M.dmy(r.date,L))}</small></div><em>${M.inr(r.modal)}</em></div>`).join('')+(()=>{ const f=M.fuel(d,pk); return f?`<div class="r"><span>⛽</span><div><b>${e(U.pet)} / ${e(U.dsl)}</b><small>${e(M.placeName(f.place,L))} · ${e(M.dmy(f.date,L))}</small></div><em>${M.rs(f.petrol)} / ${M.rs(f.diesel)}</em></div>`:''; })()+`<div class="ft">₹ ${e(U.q)} · ${e(U.src)}: Agmarknet</div>`;
-  document.getElementById('mandiSec').hidden=false; }catch(e){} })();
+/* Your Morning in 60 Seconds (14 Nov 2026): five short updates, reader's district first.
+   Fresh only (last 18 h); a slot with nothing verified gets other useful news, never stale items. */
 (async function(){
   const [news,jobs]=await Promise.all([getJSON('/news.json'),getJSON('/jobs.json')]);
-  const raw=((news&&news.stories)||[]).filter(s=>!s.wd);
-  raw.forEach(s=>s._id=sidOf(s));
-  raw.sort((a,b)=>tsOf(b)-tsOf(a));
-  const S=raw.map(tr), me=P.place;
-  const mine=s=>me&&s.place===me;
-  // UNDERSTAND: 7 stories – breaking, your district, TG/AP, India, world
-  const pick=[], add=s=>{ if(s&&!pick.includes(s)&&pick.length<7) pick.push(s); };
-  S.filter(s=>s.brk).slice(0,1).forEach(add); S.filter(mine).slice(0,2).forEach(add);
-  S.filter(s=>isTGAP(s)&&!mine(s)).slice(0,3).forEach(add); S.filter(s=>s.st==='IN'||(Array.isArray(s.sec)&&s.sec.includes('india'))).slice(0,1).forEach(add);
-  S.filter(s=>s.st==='WORLD').slice(0,1).forEach(add); S.forEach(add);
-  BRIEF=pick;
-  { const n=pick.reduce((t,x)=>t+String(x.h||'').length+String(x.p||'').length,0), sec=Math.round(n/(L==='te'?9:14)); TX.listen=TX.listen+' '+Math.floor(sec/60)+':'+String(sec%60).padStart(2,'0'); $('blisten').textContent=TX.listen; }
-  const nNat=pick.filter(s=>!isTGAP(s)).length, nMine=pick.filter(mine).length, nTG=pick.length-nNat-nMine;
-  $('bh').textContent=TX.bh(pick.length); $('bmix').textContent=TX.mix(nNat,nTG,nMine);
-  const seen=store.get('seenIds',[])||[]; $('bbar').innerHTML=pick.map(s=>`<span class="${seen.includes(s._id)?'on':''}"></span>`).join('');
-  if(pick[0]) $('bread').href='/?cards=1&s='+pick[0]._id;
-  // ACT: civic alerts
-  const civic=/విద్యుత్|కరెంట్|పవర్|నీటి|నీరు|తాగునీ|వర్ష|వాన|రోడ్డు|ట్రాఫిక్|వాతావరణ|పొగమంచు|ఉష్ణోగ్ర|వరద|power|electric|water|rain|traffic|road|weather|flood|fog/i;
-  const isCivic=s=>['power','water','rain'].includes(s.art)||civic.test((s.cat||'')+' '+((s.en&&s.en.cat)||''));
-  const recent=S.filter(s=>Date.now()-tsOf(s)<48*3600e3);
-  const acts=recent.filter(isCivic).sort((a,b)=>(mine(b)-mine(a))||(tsOf(b)-tsOf(a))).slice(0,6);
-  const IC={power:['⚡','#FDEBD3'],water:['💧','#E5EEFB'],rain:['🌧️','#E5EEFB']};
-  const official=/Police|Collector|IMD|Government|Govt|TGSPDCL|TGNPDCL|APSPDCL|HMWSSB|GHMC|PIB|Department|Corporation|పోలీస|ప్రభుత్వ|కలెక్టర/i;
-  $('acts').innerHTML=acts.length?acts.map(s=>{ const ic=IC[s.art]||(/ట్రాఫిక్|రోడ్డు|traffic|road/i.test(s.cat||'')?['🚧','#F6EEF3']:['📢','#F6EEF3']);
-      const tag=s.local?`<span class="tg rp">${TX.rep}</span>`:official.test(s.src||'')?`<span class="tg">${TX.off}</span>`:`<span class="tg rp">${esc(TX.news+(s.src||''))}</span>`;
-      return `<a class="act" href="/?cards=1&s=${s._id}"><span class="ic" style="background:${ic[1]}">${ic[0]}</span><b>${esc((s.cat||'').split('·').pop().trim()||s.statl||'')}</b><p>${esc(s.h)}</p>${tag}</a>`; }).join('')
-    :`<div class="empty">${esc(TX.noact)}</div>`;
-  // Government for you: nearest deadlines
-  const J=((jobs&&jobs.jobs)||[]).map(j=>{ const id=sidOf({url:j.url||j.apply||'',h:j.h}); const x=L!=='te'&&j[L]?Object.assign({},j,j[L]):j; return [x,daysLeft(j),id]; })
-    .filter(x=>x[1]!==null&&x[1]>=0).sort((a,b)=>a[1]-b[1]).slice(0,2);
-  $('gov').innerHTML=J.length?`<div class="t">${esc(TX.gov)}<small>${esc(TX.govs)}</small></div>`+J.map(([j,d,id],i)=>`<a class="gi" href="/s/${id}"><span class="n${i?' o':''}"><b>${d===0?'⏰':d}</b><small>${d===0?esc(TX.today):esc(TX.days)}</small></span><span class="x"><b>${esc(j.h)}</b><span>${esc(j.org||'')}${j.last?' · '+esc(j.last):''}</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a>`).join(''):'';
-  if(!J.length) $('gov').hidden=true;
-  // VERIFY: top stories with trust labels + misleading checks
-  const mis=S.filter(s=>s.lbl==='misleading').slice(0,1);
-  const top=pick.filter(s=>s.lbl!=='misleading').slice(0,3).concat(mis);
-  $('vf').innerHTML=top.map((s,i)=>{ const k=LBL[s.lbl]?s.lbl:'';
-    return `<button class="vc${k==='misleading'?' mis':''}" type="button" data-i="${S.indexOf(s)}"><span class="m">${k?`<span class="tl ${k}">${esc(LBL[k][L])}</span>`:''}<span>${esc((s.cat||'').split('·')[0].trim())} · ${esc(hm(s))}${s.corr&&s.corr.at?' · '+esc(TX.updated)+' '+esc(s.corr.at.split(' ')[1]||''):''}</span></span><h3>${esc(s.h)}</h3>${s.why?`<span class="w"><b>${esc(TX.why)}</b> ${esc(s.why)}</span>`:''}<span class="e">📄 ${esc(TX.src)}: ${esc(s.src||'')}</span></button>`; }).join('');
-  $('vf').onclick=e=>{ const b=e.target.closest('.vc'); if(b) openHow(S[+b.dataset.i]); };
+  const raw=((news&&news.stories)||[]).filter(s=>!s.wd); raw.forEach(s=>s._id=sidOf(s)); raw.sort((a,b)=>tsOf(b)-tsOf(a));
+  const S=raw.map(tr), me=P.place||'', myAP=me==='AP'||/^ap-/.test(me)||P.st==='AP', myST=myAP?'AP':'TG';
+  const local=k=>!!k&&!['TS','TG','AP','IN'].includes(k);
+  const fresh=S.filter(s=>Date.now()-tsOf(s)<18*3600e3);
+  const used=new Set(), take=s=>{ if(s) used.add(s); return s; }, free=s=>!used.has(s);
+  const one=s=>{ const t=String(s.why||s.p||'').trim(); const m=t.match(/^.+?[.!?।](\s|$)/); let x=(m?m[0]:t).trim(); if(x.length>150) x=x.slice(0,147).replace(/\s+\S*$/,'')+'…'; return x; };
+  const civic=/విద్యుత్|కరెంట్|పవర్|నీటి సరఫరా|తాగునీ|వర్ష|తుపాను|అల్పపీడన|రోడ్డు మూసి|ట్రాఫిక్|మళ్లింపు|వాతావరణ|పొగమంచు|వరద|హెచ్చరిక|power cut|electric|water supply|rain|cyclone|traffic|diversion|weather|flood|fog|alert/i;
+  const txtOf=s=>(s.cat||'')+' '+(s.h||'')+' '+((s.en&&s.en.cat)||'')+' '+((s.en&&s.en.h)||'');
+  const isCivic=s=>['power','water','rain'].includes(s.art)||civic.test(txtOf(s));
+  const political=s=>s.lbl==='claim'||s.lbl==='opinion'||/విమర్శ|ఆరోపణ|ఎదురుదాడి|slams|alleges|attacks|criticis/i.test(txtOf(s));
+  const items=[];
+  // 1. Your area
+  const a1=fresh.find(s=>local(me)&&s.place===me)||fresh.find(s=>s.st===myST&&local(s.place)&&s.lbl!=='opinion');
+  items.push({k:a1?TX.kArea+' · '+placeName(a1.place):TX.kArea,s:take(a1)});
+  // 2. Before you leave: verified alerts only
+  const a2=fresh.filter(free).filter(s=>isCivic(s)&&s.lbl==='fact'&&(s.st===myST||s.st==='IN')).sort((x,y)=>((y.place===me)-(x.place===me))||((y.st===myST)-(x.st===myST)))[0];
+  items.push(a2?{k:TX.kLeave,s:take(a2)}:{k:TX.kMore,s:take(fresh.find(s=>free(s)&&s.st===myST&&s.lbl==='fact'))});
+  // 3. State
+  items.push({k:myAP?TX.kAP:TX.kTG,s:take(fresh.filter(free).find(s=>s.st===myST&&(s.brk||s.lbl==='fact'))||fresh.find(s=>free(s)&&s.st===myST))});
+  // 4. India: a development, not a political statement
+  const inF=s=>s.st==='IN'||(Array.isArray(s.sec)&&s.sec.includes('india'));
+  items.push({k:TX.kIN,s:take(fresh.filter(free).find(s=>inF(s)&&!political(s))||fresh.find(s=>free(s)&&inF(s)))});
+  // 5. Don't miss: nearest application deadline (official link), else exam/announcement news
+  const dl=j=>{const m=/^(\d\d)\.(\d\d)\.(\d{4})$/.exec(j.last||'');if(!m)return null;return Math.floor((Date.parse(`${m[3]}-${m[2]}-${m[1]}T23:59:59+05:30`)-Date.now())/864e5)};
+  const homeJ=j=>j.place===myST||(myST==='TG'&&j.place==='TS')?1:0;
+  const J=((jobs&&jobs.jobs)||[]).map(j=>[L!=='te'&&j[L]?Object.assign({},j,j[L]):j,dl(j)]).filter(x=>x[1]!==null&&x[1]>=0&&x[1]<=7).sort((x,y)=>(homeJ(y[0])-homeJ(x[0]))||(x[1]-y[1]));
+  const exam=/పరీక్ష|దరఖాస్తు|గడువు|హాల్ టికెట్|నోటిఫికేషన్|ఫలితాలు|exam|deadline|application|admit card|notification|results/i;
+  if(J.length) items.push({k:TX.kMiss,job:J[0][0],days:J[0][1]});
+  else items.push({k:TX.kMiss,s:take(fresh.find(s=>free(s)&&exam.test(txtOf(s))))});
+  // an empty slot gets other fresh useful news, never stale items
+  items.forEach(it=>{ if(!it.s&&!it.job){ const f=fresh.find(s=>free(s)&&s.lbl!=='opinion'); if(f){ it.s=take(f); it.k=TX.kMore; } } });
+  const ok=items.filter(it=>it.s||it.job);
+  BRIEF=ok;
+  // the real update time: when the newsroom last published
+  const up=Date.parse((news&&news.updated)||'')||(raw[0]?tsOf(raw[0]):0);
+  if(up){ const d=new Date(up+(330+new Date().getTimezoneOffset())*60000); $('upd').textContent=TX.upd+' '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')+' IST'; }
+  if(!ok.length){ $('mlist').innerHTML=`<li class="mnone">${esc(TX.none)}</li>`; return; }
+  $('mlist').innerHTML=ok.map((it,i)=>{
+    if(it.job){ const j=it.job, href=/^https?:/.test(j.apply||'')?j.apply:(j.url||'#'), host=((/^https?:\/\/(?:www\.)?([^/]+)/.exec(href)||[])[1])||j.src||'';
+      return `<li class="mi"><a href="${esc(href)}" target="_blank" rel="noopener"><span class="no">${i+1}</span><span class="bd"><span class="k">${esc(it.k)}</span><h3>${esc(j.h)}</h3><p>${esc(it.days===0?TX.todayLast:TX.last+': '+j.last)}${j.how?' · '+esc(j.how):''}</p><span class="sr">${esc(j.org||'')} · ${esc(host)} ↗</span></span></a></li>`; }
+    const s=it.s; return `<li class="mi"><a href="/?cards=1&s=${s._id}"><span class="no">${i+1}</span><span class="bd"><span class="k">${esc(it.k)}</span><h3>${esc(s.h)}</h3><p>${esc(one(s))}</p><span class="sr">${s.lbl==='fact'?`<b>${esc(LBL.fact[L])}</b> · `:''}${esc(s.src||'')} · ${esc(hm(s))}</span></span></a></li>`; }).join('');
+  const firstS=ok.find(it=>it.s); if(firstS) $('mread').href='/?cards=1&s='+firstS.s._id;
+  const sec=store.get('m60sec',0); if(sec) $('mlisten').textContent=TX.listen+' '+Math.floor(sec/60)+':'+String(sec%60).padStart(2,'0');
   window.__S=S;
 })();
+/* keep the reader's place when they come back from a full story */
+document.addEventListener('click',e=>{ if(e.target.closest('.mi a')) try{ sessionStorage.setItem('s2n.m60y',String(scrollY)); }catch(_){} });
+addEventListener('pageshow',()=>{ try{ const y=+sessionStorage.getItem('s2n.m60y'); if(y) setTimeout(()=>scrollTo(0,y),60); }catch(_){} });
+/* share the whole briefing as one link */
+$('mshare').onclick=async()=>{ const url='https://swipe2news.com/morning/';
+  const txt=`*${TX.t60}* · Swipe2News\n`+BRIEF.map((it,i)=>`${i+1}. ${it.k}: ${(it.s||it.job).h}`).join('\n')+`\n\n${url}`;
+  try{ if(navigator.share){ await navigator.share({title:TX.t60,text:txt}); return; } }catch(e){ if(e&&e.name==='AbortError') return; }
+  location.href='https://wa.me/?text='+encodeURIComponent(txt); };
 
 /* How we know this */
 function openHow(s){ const k=LBL[s.lbl]?s.lbl:'';
@@ -277,13 +289,16 @@ function openHow(s){ const k=LBL[s.lbl]?s.lbl:'';
   $('how').hidden=false; }
 $('how').onclick=e=>{ if(e.target===$('how')) $('how').hidden=true; };
 
-/* Listen: the briefing read aloud */
-$('blisten').onclick=()=>{ const sy=window.speechSynthesis, b=$('blisten'); if(!sy) return;
-  if(b.getAttribute('aria-pressed')==='true'){ sy.cancel(); b.setAttribute('aria-pressed','false'); b.textContent=TX.listen; return; }
-  const intro={te:'Swipe2News నుంచి మీ ఉదయం బ్రీఫింగ్. ',en:'Your morning briefing from Swipe2News. ',hi:'Swipe2News से आपकी सुबह की ब्रीफ़िंग। '}[L];
-  const u=new SpeechSynthesisUtterance(intro+BRIEF.map((s,i)=>`${i+1}. ${s.h}. ${s.p||''}`).join(' '));
-  u.lang={te:'te-IN',en:'en-IN',hi:'hi-IN'}[L]; u.rate=.95; const v=sy.getVoices().find(v=>v.lang.replace('_','-').toLowerCase().startsWith(u.lang.slice(0,2))); if(v) u.voice=v;
-  u.onend=u.onerror=()=>{ b.setAttribute('aria-pressed','false'); b.textContent=TX.listen; };
+/* Listen: one audio track for the whole briefing; its real length is remembered after the first play */
+let t0=0;
+const lenTx=()=>{ const s=store.get('m60sec',0); return s?' '+Math.floor(s/60)+':'+String(s%60).padStart(2,'0'):''; };
+$('mlisten').onclick=()=>{ const sy=window.speechSynthesis, b=$('mlisten'); if(!sy) return;
+  if(b.getAttribute('aria-pressed')==='true'){ sy.cancel(); t0=0; b.setAttribute('aria-pressed','false'); b.textContent=TX.listen+lenTx(); return; }
+  const u=new SpeechSynthesisUtterance(TX.intro+BRIEF.map((it,i)=>{ const x=it.s||it.job; return `${i+1}. ${it.k}. ${x.h}. ${it.job?(it.days===0?TX.todayLast:TX.last+' '+x.last):(String(x.why||x.p||'').split(/(?<=[.!?।])\s/)[0]||'')}`; }).join(' '));
+  u.lang={te:'te-IN',en:'en-IN',hi:'hi-IN'}[L]; u.rate=1; const v=sy.getVoices().find(v=>v.lang.replace('_','-').toLowerCase().startsWith(u.lang.slice(0,2))); if(v) u.voice=v;
+  u.onstart=()=>{ t0=Date.now(); };
+  u.onend=()=>{ if(t0){ const s=Math.round((Date.now()-t0)/1000); if(s>5) store.set('m60sec',s); } t0=0; b.setAttribute('aria-pressed','false'); b.textContent=TX.listen+lenTx(); };
+  u.onerror=()=>{ t0=0; b.setAttribute('aria-pressed','false'); b.textContent=TX.listen; };
   sy.cancel(); sy.speak(u); b.setAttribute('aria-pressed','true'); b.textContent=TX.stop; };
 </script>
 <script src="/web/s2n.js?v=3" defer></script>
