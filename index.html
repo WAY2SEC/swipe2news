@@ -706,46 +706,20 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 /* whole picture always visible (owner 14 Nov 2026): fit, never crop; spare space is brand plum */
 .s2n .bnr img.ph,.s2n .bnr img.art2,.s2n .bnr img.aland,.s2n .bnr img.adim{object-fit:contain!important;object-position:50% 50%!important;transform:none!important}
 .story.s2n.hasph>.panel.bnr,.s2n.hasph .bnr{background:#4A0E3F!important}
-/* 50 / 50 card (owner 14 Nov 2026): picture = half the card, text = the other half */
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.panel.bnr{flex:0 0 50%!important;height:50%!important;min-height:50%!important;max-height:50%!important}
-.story.s2n.numled>.panel.bnr{flex:0 0 50%!important;min-height:50%!important;max-height:50%!important}
+/* picture 42% / news 58% (reviewer, 14 Nov 2026): picture = half the card, text = the other half */
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.panel.bnr{flex:0 0 42%!important;height:42%!important;min-height:42%!important;max-height:42%!important}
+.story.s2n.numled>.panel.bnr{flex:0 0 42%!important;min-height:42%!important;max-height:42%!important}
 .story.s2n.numled>.text{flex:1 1 0!important}
 .s2n.numled .bkw .stat,.s2n.numled .bkw .statl{font-size:26px!important}
 .story.s2n>.text{flex:1 1 0!important;min-height:0}
 /* in the 50/50 card the picture has room: the number line and the swipe bar always stay; only the summary gets shorter */
 .story.s2n.t4 .cfoot{display:flex!important}
 .story.s2n.t4 .bkw .stat,.story.s2n.t4 .bkw .statl{display:block!important}
-/* 50/50 layout: Listen, text size and the save / photo / share / WhatsApp buttons sit on the picture half, so the text half is all news */
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text .meta{display:contents!important}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text .meta>span{display:none!important}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .meta .lis,.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .meta .tsz{position:absolute!important;top:12px;z-index:6;height:32px;margin:0!important;background:rgba(46,8,39,.55)!important;color:#FFFDF5!important;border:1.5px solid rgba(255,253,245,.55)!important;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);box-shadow:0 2px 8px rgba(0,0,0,.25)}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .meta .tsz{right:12px;width:38px;padding:0!important;font-size:14px}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .meta .lis{right:58px;padding:0 12px!important;font-size:13px;white-space:nowrap}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .ptop{max-width:calc(100% - 200px)}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .ptop .bchip{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:inline-block}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.cacts{position:absolute!important;right:10px;top:calc(50% - 36px);transform:translateY(-100%);z-index:6;display:flex!important;flex-direction:column;gap:9px;margin:0!important;padding:0!important;border:0!important;background:none!important;box-shadow:none!important;width:auto!important}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.cacts .ca{width:42px!important;height:42px!important;min-width:0!important;flex:none!important;padding:0!important;margin:0!important;border-radius:50%!important;display:grid!important;place-items:center;background:rgba(46,8,39,.55)!important;color:#FFFDF5!important;border:1.5px solid rgba(255,253,245,.5)!important;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);box-shadow:0 3px 10px rgba(0,0,0,.3)}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.cacts .ca+.ca{border-left:1.5px solid rgba(255,253,245,.5)!important}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.cacts .ca span{display:none!important}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.cacts .ca svg{width:20px;height:20px;margin:0!important}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.cacts .ca.wa{background:#0E7A3E!important;border-color:rgba(255,253,245,.7)!important;color:#fff!important}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bkw{padding-right:62px!important}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text .kpts,.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text .more{display:none!important}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.spacer{display:none!important}
 .story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text .sum{font-size:16px;line-height:1.55}
-/* buttons off the picture: a plum strip at the bottom of the picture half holds save / photo / share / WhatsApp; the picture sits above it, whole and uncovered */
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.panel.bnr{padding-bottom:62px!important}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.panel.bnr::after{content:'';position:absolute;left:0;right:0;bottom:0;height:52px;background:#2E0827;z-index:3}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bnr img.ph{bottom:52px!important;height:auto!important;top:0!important}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bnr i.apl,.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bnr i.apl2,.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bnr i.phs{bottom:52px!important}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bnr img.ahero{width:94%!important;max-height:calc(100% - 52px - 120px)!important;top:calc(50% - 40px)!important}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bnr span.alw{inset:0 0 52px 0!important}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi).hasph .bkw{margin-bottom:-10px!important;padding-bottom:10px!important}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.cacts{top:calc(50% - 45px)!important;bottom:auto!important;right:10px!important;transform:none!important;flex-direction:row!important;gap:10px!important;z-index:7}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.cacts .ca{width:38px!important;height:38px!important;background:rgba(255,253,245,.08)!important;-webkit-backdrop-filter:none;backdrop-filter:none;box-shadow:none!important}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.cacts .ca svg{width:19px;height:19px}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bkw{padding-right:18px!important}
-.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bmark{top:auto!important;bottom:13px!important;left:14px!important;right:auto!important;z-index:7}
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text .kpts{display:none!important}
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.spacer{display:none!important}
+.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi) .bnr img.ahero{width:92%!important;max-height:72%!important;top:46%!important}
+.story.s2n .cfoot>span{white-space:nowrap}
 @media (max-height:780px){.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text .sum{font-size:15px;line-height:1.5}.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text{gap:5px!important;padding-top:10px!important}}
 @media (min-width:380px){.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text>.ctxrow{align-self:flex-end;margin-top:calc(-1 * (19px + 7px));line-height:19px}}
 </style>
@@ -925,7 +899,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
   <div class="toast" id="toast" role="status"></div>
 </div>
 
-<script src="scenes.js?v=20261114e"></script>
+<script src="scenes.js?v=20261114f"></script>
 <script src="mandi.js?v=2"></script>
 <script>
 const CONFIG = {

@@ -374,7 +374,8 @@ function artPlan(s){
   const pk=normPlace(String(s.place||'').toLowerCase()), land=ART_D.has(pk)&&!['tg','ap'].includes(pk)?pk:'';
   const st=stateOf(s), sland=st==='AP'?'ap':(st==='TG'||st==='TS')?'tg':'';
   const t=(s.h||'')+' '+((s.en&&s.en.h)||'')+' '+(s.p||'').slice(0,160);
-  const type=artType(s);
+  let type=artType(s);
+  if(type==='transport'&&/ఆర్టీసీ|RTC|బస్|\bbus/i.test(t)&&!/రైలు|రైల్వే|ట్రైన్|\btrain|\brail|మెట్రో|metro/i.test(t)) type='bus'; // bus-and-pass story: bus picture, no train
   if(['crime','courts','cyber','factcheck'].includes(type)||ART_SENS.test(t)){
     const o=['crime','courts','cyber','factcheck'].includes(type)?type:/సైబర్|cyber|మోసం|fraud|scam/i.test(t)?'cyber':/కోర్టు|court/i.test(t)?'courts':/హత్య|అరెస్ట్|దొంగ|పోలీసు|నిందితు|murder|arrest|police|robbery/i.test(t)?'crime':'';
     return {m:'plain',obj:o};
