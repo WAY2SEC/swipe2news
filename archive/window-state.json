@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-14T09:35:00+05:30",
+ "cutoff": "2026-11-14T10:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-10T17:05:00+05:30/2026-11-10T17:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 5,
-   "late": 4,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agent. Most searches returned listing/tag pages without per-item times (Telangana Today, DC, Hans India). Eenadu, Sakshi, Andhra Jyothy, ETV Bharat, TV9, V6, NTV and Reuters/BBC articles not reached; no in-range AP district, other-state or international-topic item found. FXStreet gold article fetch refused."
-  },
   {
    "window": "2026-11-10T17:35:00+05:30/2026-11-10T18:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "09:35 run started 09:36 IST. Lookback from 01:05 14 Nov. Read: Siasat elephant Old City procession (08:23), Siasat UN Yemen/IANS (09:06), AJ live blog (no items after 07:40), ETV AP live blog (no items after 06:39). Published both. Not reached: ETV TG live blog (fetch permission not answered), Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; search results mostly stale. Districts searched: Kamareddy, Nirmal, Jagtial, Peddapalli, Mulugu, Mahabubabad, Medchal, Sangareddy, Kakinada, East Godavari, Palnadu, Bapatla, Nandyal, ASR."
+  },
+  {
+   "window": "2026-11-14T09:35:00+05:30/2026-11-14T10:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 2,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "10:05 run started 10:05 IST. Lookback from 01:35 14 Nov. Read: Siasat trading fraud 3576974 (09:55), Siasat TTD Rs 10 cr donation 3576964 (09:49), Siasat Hyderabad listing (no timestamps; items 13 Nov), DC Project Udvasana 2003998 (13 Nov 11:17, pre-lookback, skipped). Published both Siasat items (fraud = claim, sensitive). Not reached: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; India/world searches stale, no world items with verifiable times. Districts searched: Suryapet, Vikarabad, NTR, Chittoor, Srikakulam, Bhadradri, Manyam, Rangareddy, Nalgonda."
   }
  ],
  "seen": [
@@ -2108,6 +2108,21 @@
    "url": "https://www.siasat.com/un-voices-concern-as-attacks-on-yemen-civilians-intensify-3576990/",
    "d": "2026-11-14",
    "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/hyderabad-businessman-duped-of-rs-12-3-cr-in-trading-fraud-3576974/",
+   "d": "2026-11-14",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.siasat.com/hyderabad-devotee-donates-rs-10-cr-to-ttd-biggest-single-donation-in-2026-3576964/",
+   "d": "2026-11-14",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/project-udvasana-ghmc-identifies-12-centres-across-six-zones-to-collect-sacred-items-2003998",
+   "d": "2026-11-14",
+   "w": "skipped"
   }
  ]
 }
