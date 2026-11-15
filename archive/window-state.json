@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T05:35:00+05:30",
+ "cutoff": "2026-11-15T06:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T14:05:00+05:30/2026-11-11T14:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 4,
-   "late": 4,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agent. Searches mostly returned stale listing/tag pages (Telangana Today, DC, Hans, Siasat). ETV TG/AP live blog snapshots ended 09:39/09:10. Eenadu, Sakshi, TV9, V6, NTV, The Hindu, PTI, Reuters/BBC/AP and international-topic articles not surfaced in range. Duplicates: AJ Nalgonda home guard killing (published 10 Nov), AJ live-blog 13:30-13:45 entries (CII summit, low pressure, CM Education Day - events already published). Before lookback: AJ cold wave yellow alert (05:10)."
-  },
   {
    "window": "2026-11-11T14:35:00+05:30/2026-11-11T15:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "05:35 run started 05:36 IST. Lookback from 21:05 14 Nov. Published: TT TG-iPASS ransomware probe (15 Nov 00:18, fact). Skipped old (search surfaced): TT single-digit temperatures (15 Nov 2025), TT Hyderabad concerts (15 Nov 2024). Already seen: TT dry weather, DC AP coast cyclone, Sakshipost cyclone 16 Nov, The Week Cyclone Akvan, TT IMD cyclone warning. Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; standard searches stale. Districts searched: Warangal, Hanumakonda, Mancherial, Asifabad, Gadwal, Narayanpet, Sircilla, Siddipet, Konaseema, Kakinada, Sri Sathya Sai, NTR, Alluri Sitharama Raju."
+  },
+  {
+   "window": "2026-11-15T05:35:00+05:30/2026-11-15T06:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 2,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 8,
+   "review": 1,
+   "gaps": "06:05 run started 06:06 IST. Lookback from 21:35 14 Nov. Published: DC Kondagattu Chandanotsavam (15 Nov 00:12, fact), DC Birsa Munda rally Tank Bund (14 Nov 22:46, fact, late). Skipped low-value eligible: DC CDM Discover India (00:17), DC TSCS Children's Day (00:26). Skipped pre-lookback: TT Yadadri lorry hits MLC convoy (14 Nov 00:51), TT Warangal farmer deaths (00:44), TT polytechnics retained (00:38), TT OU hostel protest (00:23), TT 429 asst professors (13 Nov), Siasat CM-PM drought meeting (13 Nov). Review: Hans Janakpur-Ayodhya weekly train (21:39 on homepage, article fetch refused). Not reached: Eenadu (robots), TT Kothagudem Nagula Chavithi (fetch refused), Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; India/world searches stale. Districts searched: Karimnagar, Medak, Siddipet, Nagarkurnool, Wanaparthy, Mahabubnagar, Khammam, Guntur, Krishna, West Godavari, Anakapalli, Parvathipuram Manyam."
   }
  ],
  "seen": [
@@ -3098,6 +3098,61 @@
    "url": "https://telanganatoday.com/hyderabad-all-ready-to-rock-with-star-studded-concerts-in-upcoming-weeks",
    "d": "2026-11-15",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/arrangements-made-for-chandanotsavam-at-kondagattu-2004504",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/birsa-munda-anniv-rally-at-tank-bund-today-2004473",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/cdm-hosts-international-officers-for-discover-india-programme-2004506",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/children-showcase-talent-as-tscs-marks-childrens-day-with-joy-hope-2004511",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/woman-killed-husband-critical-as-lorry-rams-mlc-naveens-convoy-during-padayatra-in-yadadri-bhongir",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/two-farmers-die-by-suicide-in-warangal-one-dies-in-accidental-fall",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-retains-polytechnics-under-education-department-after-month-long-protests",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/osmania-university-students-protest-over-water-power-cuts-in-hostels",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-universities-to-recruit-429-assistant-professors-notifications-on-december-1",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-cm-to-meet-pm-modi-for-drought-relief-on-november-15-3576659/",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/new-delhi/indian-railways-approves-weekly-train-service-connecting-janakpur-dham-and-ayodhya-strengthening-india-nepal-ties-1142155",
+   "d": "2026-11-15",
+   "w": "review"
   }
  ]
 }
