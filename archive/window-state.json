@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T14:05:00+05:30",
+ "cutoff": "2026-11-15T14:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T22:35:00+05:30/2026-11-11T23:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 3,
-   "late": 2,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agent. Siasat, Telangana Today, South First, Hans India, DC AP listings were cached snapshots from before 14:35; UNI pages partly paywalled (summaries from visible text). Eenadu, Sakshi, Andhra Jyothy, Namasthe Telangana, TV9, V6, NTV, ETV, The Hindu, PTI national, Reuters/BBC/AP and international-topic sources not surfaced in range. Duplicates: UNI 242467 Bhatti Warangal West (covered by Siasat Kazipet story), UNI 241830 dry weather/cold (cold already covered)."
-  },
   {
    "window": "2026-11-11T23:05:00+05:30/2026-11-11T23:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "14:05 run started 14:06 IST. Lookback from 05:35 15 Nov. Feeds branch fresh (13:54, 70/70 ok; covered flags stale). Published: TT RIMS Adilabad director transfer (13:50), TT KTR on Congress/BJP leaders (13:32, claim), NewsMeter Ramoji Excellence Awards Vijayawada (13:08), NT Nizamabad lorry crash (12:57, late, sensitive), NewsMeter Telugu Jeevan Reddy gig scheme (12:54, late, claim), Hans Varaha river drowning Anakapalli (11:59, late, sensitive), Hans Guntur free paediatric OPD (06:14, late). Duplicate: NewsMeter Eli Lilly $1bn remark (same PHFI event already covered). Skipped: DC Karimnagar hotel food illness (11 Nov, old), Tiger Triumph Vizag (concluded earlier). Not found by search: Hindu Bar Council AP evening courts, Samayam IT corridor one-way loop, ETV Tirupati station revamp, Samayam Sangareddy PCB closures. Some allowed_domains/extended searches rejected by proxy (HTTP 400). Districts searched: Adilabad, Nizamabad, Anakapalli, Guntur, Karimnagar, Warangal, Khammam, Srikakulam, Siddipet/Medak/Sangareddy, Prakasam, NTR."
+  },
+  {
+   "window": "2026-11-15T14:05:00+05:30/2026-11-15T14:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 3,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "14:35 run started 14:36 IST. Lookback from 06:05 15 Nov. Feeds branch fresh (14:11, 70/70 ok, 803 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: TT GHMC park entry fee hike (14:20), TT Sirgapur residential school student missing (14:16, sensitive), TT/IANS Air India non-stop NY flights (14:19). Duplicate: ETV Bharat AP third cyclone (already covered 11:30). Skipped as old: Hans Goyal Egypt (10 Nov), TT and NewsMeter Karthika chicken prices (2023). Not found by search: Charlapalli jail ITI, Nalgonda Agri Show, AP child safety committees, Gazetted officers PRC demand, Keesara DCM fire, Vikarabad groom accident, Hyderabad-Basara road, Asifabad MJP sports, Mancherial BJP arrests. Siasat Telangana page showed only 14 Nov items. Districts covered: Hyderabad, Sangareddy."
   }
  ],
  "seen": [
@@ -3766,6 +3766,41 @@
   },
   {
    "url": "https://www.deccanchronicle.com/southern-states/telangana/around-20-people-fall-ill-after-eating-at-karimnagar-hotel-2003603",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-ghmc-standing-committee-approves-hike-in-park-entry-fees",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/class-x-student-goes-missing-from-tribal-welfare-residential-school-in-sirgapur",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/air-india-resumes-non-stop-new-york-flights-cuts-travel-time-by-five-hours",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/en/bharat/andhra-pradesh-prepares-for-possible-third-cyclone-as-imd-warns-of-low-pressure-intensifying-by-nov-16-enn26111501332",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/business/piyush-goyals-egypt-visit-to-boost-trade-investment-ties-industry-chamber-1140831",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/chicken-rates-plummet-amid-karthika-masam",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/hyderabad-sees-drop-in-50-per-cent-of-chicken-prices-this-karthika-masam-721039",
    "d": "2026-11-15",
    "w": "skipped"
   }
