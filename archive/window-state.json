@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T10:35:00+05:30",
+ "cutoff": "2026-11-15T11:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T19:05:00+05:30/2026-11-11T19:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 8,
-   "late": 3,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 1,
-   "review": 2,
-   "gaps": "Search-first; WebFetch via sub-agent. Eenadu pages refused (robots) - 2 URLs to review. Most searches returned stale listing pages; Sakshi, TV9, V6, NTV, ETV, The Hindu, PTI national, Reuters/BBC/AP and international-topic sources not surfaced in range. Skipped: Sakshi AP HC 7 cases (02:22, before lookback 11:05)."
-  },
   {
    "window": "2026-11-11T19:35:00+05:30/2026-11-11T20:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "10:35 run started 10:36 IST. Lookback from 02:05 15 Nov. Feeds branch fresh (10:34, 70/70 feeds ok, 772 uncovered events in lookback, 166 TG/AP). Published: Hans AP municipal nominations 25 ULBs (05:15, late-found), ThePrint/PTI PHFI campus foundation (08:46, late-found; govt release 14 Nov 23:17), Siasat TGSRTC 250 e-bus retrofit (09:36). Duplicates: BM Sandeep TG Congress in-charge (covered 14 Nov), Hans Nellore little-finger ink (covered 14 Nov), Mahadev ED 92,000 cr and EC Form 6 SC (PTI 14 Nov, pre-lookback). Skipped: HMTV Konaseema Sanjeevani and Tirupati GP schedule (13 Nov, old), Banjara Hills flyover diversions (first 14 Nov 22:49). Not opened: Eenadu (robots), The Hindu Evening Courts/Ranigunj RuB/TGPCB, TT Yemen/Duffy (search did not return). No world items. Districts searched: Nizamabad, Jagtial, Nagarkurnool, Gadwal, Kurnool, Nellore, Tirupati, Konaseema."
+  },
+  {
+   "window": "2026-11-15T10:35:00+05:30/2026-11-15T11:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 8,
+   "late": 2,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 3,
+   "review": 1,
+   "gaps": "11:05 run started 11:06 IST. Lookback from 02:35 15 Nov. Feeds branch fresh (10:34, 70/70 feeds ok, 741 uncovered events in lookback, 153 TG/AP). Published: Hans S Rayavaram accidents (06:25, late-found, sensitive), ANI TG BJP chief vs Rahul (09:33), HMTV Nagarkurnool Balala Prajavani (08:38, late-found), ETV Bharat Ramoji Rao tribute walk (10:17), Hans TN stock limits (07:11, other state), ETV Bharat/PTI UNGA death penalty vote (10:09), India TV William & Kate Mumbai (10:51), Hans/IANS Netanyahu unity govt (07:31). Skipped: DC Varaha river (14 Nov 21:00, pre-lookback; covered inside Hans story), Tribune Jaishankar (14 Nov 21:28, pre-lookback), Telangana Today cold wave pages (2025, old). Review: BioSpectrum Aster Kondapur 300-bed hospital (14 Nov, no time). Not searched this run: many single-source Eenadu/HMTV/NIE district items; capacity limited. Districts searched: Nagarkurnool, Anakapalli, Hyderabad."
   }
  ],
  "seen": [
@@ -3468,6 +3468,66 @@
    "url": "https://www.hmtvlive.com/telugu-news/tirupati/tirupati-district-gram-panchayat-elections-schedule-16-mandals-404-panchayats-212496",
    "d": "2026-11-15",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/five-die-in-separate-incidents-in-s-rayavaram-mandal-1142234",
+   "d": "2026-11-15",
+   "w": "pub"
+  },
+  {
+   "url": "https://aninews.in/news/national/politics/8220apologise-to-entire-nation8221-telangana-bjp-chief-condemns-rahul-gandhi8217s-remarks-on-democracy20261115093310/",
+   "d": "2026-11-15",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/mahaboobnagar/collector-hemanth-keshav-patil-announces-special-balala-prajavani-on-nov-16-213070",
+   "d": "2026-11-15",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.etvbharat.com/en/bharat/sri-ramoji-rao-birth-anniversary-tribute-walk-walkathon-bike-rally-telangana-andhra-pradesh-enn26111500831",
+   "d": "2026-11-15",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/chennai/govt-imposes-stock-limits-on-paddy-rice-and-pulses-1142303",
+   "d": "2026-11-15",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.etvbharat.com/en/international/india-votes-against-unga-resolution-calling-for-global-moratorium-on-death-penalty-enn26111501098",
+   "d": "2026-11-15",
+   "w": "pub"
+  },
+  {
+   "url": "https://indiatvnews.com/news/world/prince-william-and-kate-middleton-to-visit-india-after-her-cancer-remission-2026-11-15-1059499",
+   "d": "2026-11-15",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/international/netanyahu-urges-unity-government-to-confront-iran-nuclear-threat-1142307",
+   "d": "2026-11-15",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/3-drown-in-varaha-river-one-rescued-2004432",
+   "d": "2026-11-15",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.tribuneindia.com/news/india/border-infrastructure-neglected-for-decades-china-frontier-now-more-alive-jaishankar/",
+   "d": "2026-11-15",
+   "w": "skip"
+  },
+  {
+   "url": "https://telanganatoday.com/severe-cold-wave-grips-telangana-kohir-hits-7-4-degrees-celsius",
+   "d": "2026-11-15",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.biospectrumindia.com/news/109/28821/aster-dm-quality-care-injects-rs-500-cr-to-open-300-bed-hospital-in-hyderabad.html",
+   "d": "2026-11-15",
+   "w": "review"
   }
  ]
 }
