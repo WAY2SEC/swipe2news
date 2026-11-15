@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T16:50:00+05:30",
+ "cutoff": "2026-11-15T17:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T08:35:00+05:30/2026-11-12T09:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 1,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Search-first; WebSearch returned stale listing pages only. WebFetch via sub-agent on TT tag/telangana, TT tag/Nalgonda, Sakshi Post Tirupati, Hans AP election tag. Sakshi cyclone-alert article blocked (PROVENANCE_REQUIRED), no time on listing. Eenadu, Andhra Jyothy, TV9, V6, NTV, ETV Bharat, The Hindu, PTI national, Reuters/AP world, international-topic sources not surfaced in range. Districts searched: Warangal, Jangaon, Mahabubabad, Nalgonda, Suryapet, Khammam, Srikakulam, Vizianagaram, Anakapalli, Tirupati, Nellore, Kadapa, Kurnool. Skipped: Sikkim 4.9 quake no damage (minor other-state), Vermont Praneet Menon (minor international)."
-  },
   {
    "window": "2026-11-12T09:05:00+05:30/2026-11-12T09:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "16:50 run started 16:51 IST. Lookback from 08:35 15 Nov. Feeds branch fresh (16:40, 70/70 ok, 748 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used. Nothing eligible verified: searches for KPHB Phase 15 auction, Jeddah consulate jobs, IMA children diabetes event, KTR-Goud remarks did not surface the articles; India-US market access (NIE) and FAA audit (Telegraph) searches surfaced only older coverage (FAA review Nov 16-20 pages dated Oct/Nov 3). Hans India homepage cached to 14 Nov; Telangana Today refused (robots). District searches: Khammam, Srikakulam/Vizianagaram (no new items)."
+  },
+  {
+   "window": "2026-11-15T16:50:00+05:30/2026-11-15T17:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 2,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 5,
+   "review": 0,
+   "gaps": "17:05 run started 17:05 IST. Lookback from 08:50 15 Nov. Feeds branch fresh (16:40, 70/70 ok, 748 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: Telangana Today Cyclone Akvan TG rain forecast Nov 20-22 (17:02), HMTV Bhadrachalam Karthika rush (12:04, late). Skipped (published before lookback): Hans Goyal Egypt visit (10 Nov), Hans Kurnool GP polls (14 Nov), Hans AP rain alert (14 Nov), Vikarabad U19 cricketer suicide (14 Nov, also minor/suicide victim), DC Anantapur mayor (9 Nov). Not opened: Hindu AP 12 of 13 mayors, Siasat NIMS HC appeal, Teenmar Mallanna attack condemnation, Bar Council AP evening courts, NIE horse gram (searches did not surface articles). District searches: Karimnagar, Warangal/Hanamkonda, Visakhapatnam, Kurnool/Kadapa, Khammam/Bhadradri, Siddipet/Medak, Srikakulam/Vizianagaram/Kakinada, Mahabubnagar/Wanaparthy/Gadwal. Districts covered: Bhadradri, TS."
   }
  ],
  "seen": [
@@ -4001,6 +4001,36 @@
   },
   {
    "url": "https://www.dishadaily.com/andhrapradesh/ap-rolls-out-the-red-carpet-for-investments-601118",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/cyclone-akvan-may-bring-rain-to-telangana-from-november-20-imd-forecasts",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/khammam/bhadrachalam-sri-sita-ramachandra-swamy-temple-heavy-devotees-rush-213148",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/business/piyush-goyals-egypt-visit-to-boost-trade-investment-ties-industry-chamber-1140831",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/kurnool-to-hold-first-phase-of-2026-gp-polls-on-nov-26-1141967",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/rain-alert-issued-to-parts-of-ap-as-low-pressure-likely-to-turn-cyclone-on-18-nov-1142114",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.aninews.in/news/national/general-news/17-year-old-cricket-player-dies-by-suicide-in-telanganas-vikarabad-family-alleges-harassment20261114031918/",
    "d": "2026-11-15",
    "w": "skipped"
   }
