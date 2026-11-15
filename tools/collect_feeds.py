@@ -89,6 +89,10 @@ def parse(raw):
         out.append({'t': html.unescape(text(it, ATOM + 'title')), 'u': ln.get('href') if ln is not None else '', 'p': text(it, ATOM + 'published', ATOM + 'updated'), 'o': ''})
     return out
 
+# not news: tag/search/epaper pages, price tables, horoscopes, galleries, quizzes, ads
+JUNK = re.compile(r'Latest News in Telugu|Top Headline|Search Results|e-?paper|epaper|Tab - Latest News|Silver Rate Today|Gold Rate Today|Petrol (?:and|&) Diesel Price|Today.s (?:Gold|Silver)|రాశి ?ఫలాలు|రాశిఫలం|ఈరోజు రాశి|Horoscope|పంచాంగం|Panchangam|Photo ?Gallery|Photos:|Web ?Stories|Quiz|Sponsored|Advertorial|Lottery (?:Result|Sambad)|Box Office Collection|OTT (?:release|this week)', re.I)
+JUNK_URL = re.compile(r'/(?:tag|tags|topic|topics|search|epaper|photogallery|photos|web-?stories|videos?)/', re.I)
+TGAP = re.compile(r'తెలంగాణ|హైదరాబాద్|ఏపీ|ఆంధ్ర|అమరావతి|విజయవాడ|విశాఖ|తిరుపతి|తిరుమల|రేవంత్|చంద్రబాబు|పవన్|జగన్|కేటీఆర్|కేసీఆర్|Telangana|Hyderabad|Andhra|Amaravati|Vijayawada|Visakhapatnam|Vizag|Tirupati|Tirumala|Revanth|Naidu|Pawan Kalyan|Jagan|KTR|KCR|Secunderabad|Cyberabad|GHMC|TSRTC|TGSRTC|APSRTC|Singareni', re.I)
 items, status = [], []
 for f in feeds:
     st = {'name': f['name'], 'kind': f['kind'], 'ok': False, 'items': 0, 'fresh': 0}
@@ -103,6 +107,9 @@ for f in feeds:
             m = re.match(r'^(.*\S)\s+[-–|]\s+([^-–|]{2,40})$', title)   # Google News: "Headline - Outlet"
             if m and f['kind'].startswith('gnews'):
                 title, outlet = m.group(1), outlet or m.group(2)
+            if JUNK.search(title) or JUNK_URL.search(g['u'] or ''):
+                st['junk'] = st.get('junk', 0) + 1
+                continue
             items.append({'title': title.strip(), 'url': g['u'], 'outlet': outlet.strip(), 'time': d.astimezone(IST).isoformat(timespec='minutes'),
                           'via': f['name'], 'region': f.get('region', ''), 'district': f.get('district', '')})
             st['fresh'] += 1
@@ -185,15 +192,16 @@ for ev in events:
     ev['sources'].sort(key=lambda s: (rank(s), s['time']))
     covered = any(s['url'] in pub_urls for s in ev['sources']) or any(len(ev['_tok'] & t) >= 4 for t in pub_tok)
     eid = hashlib.md5((ev['sources'][0]['url'] or ev['title']).encode()).hexdigest()[:10]
-    out.append({'id': eid, 'title': ev['title'], 'first_seen': ev['first'], 'region': ev['region'], 'districts': ev['districts'],
+    local = bool(ev['districts']) or ev['region'] in ('TG', 'AP') or any(TGAP.search(x['title']) for x in ev['sources'])
+    out.append({'id': eid, 'local': local, 'title': ev['title'], 'first_seen': ev['first'], 'region': ev['region'], 'districts': ev['districts'],
                 'n_sources': len(ev['sources']), 'best': ev['sources'][0], 'others': ev['sources'][1:6], 'covered': covered})
-out.sort(key=lambda e: (e['covered'], -e['n_sources'], e['first_seen']), reverse=False)
+out.sort(key=lambda e: (e['covered'], not e['local'], -e['n_sources'], e['first_seen']))
 
 import os
 os.makedirs(OUT, exist_ok=True)
 summary = {'updated': NOW.astimezone(IST).isoformat(timespec='minutes'), 'window_hours': KEEP_H, 'feeds_read': len(feeds),
            'feeds_ok': sum(1 for s in status if s['ok']), 'headlines': len(uniq), 'events': len(out),
-           'uncovered': sum(1 for e in out if not e['covered']), 'district_slot': slot}
+           'uncovered': sum(1 for e in out if not e['covered']), 'uncovered_tg_ap': sum(1 for e in out if not e['covered'] and e['local']), 'district_slot': slot}
 json.dump({'about': 'Swipe2News feed collector: one entry per EVENT (same news from several papers grouped). Headlines and links only.',
            **summary, 'events': out}, open(f'{OUT}/latest.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 json.dump({**summary, 'feeds': status}, open(f'{OUT}/status.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
