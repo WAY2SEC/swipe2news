@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T11:05:00+05:30",
+ "cutoff": "2026-11-15T11:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T19:35:00+05:30/2026-11-11T20:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 4,
-   "late": 4,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agent. Most searches returned stale listing pages; nothing found published inside 19:35-20:05. Eenadu, Sakshi, TV9, NTV, ETV, The Hindu, PTI national, Reuters/BBC/AP and international-topic sources not surfaced in range. Duplicate: Hans low-pressure 1141094 (event already published 09:35/13:35). Skipped before lookback 11:35: V6 surplus teachers (07:21), Hans Ongole power (02:01), AJ 1575137 (04:37), AJ 1575135 (04:35). ANI YSRCP URL headline mentions Amaravati land scam but body covers teacher vacancies; story written from body."
-  },
   {
    "window": "2026-11-11T20:05:00+05:30/2026-11-11T20:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 1,
    "gaps": "11:05 run started 11:06 IST. Lookback from 02:35 15 Nov. Feeds branch fresh (10:34, 70/70 feeds ok, 741 uncovered events in lookback, 153 TG/AP). Published: Hans S Rayavaram accidents (06:25, late-found, sensitive), ANI TG BJP chief vs Rahul (09:33), HMTV Nagarkurnool Balala Prajavani (08:38, late-found), ETV Bharat Ramoji Rao tribute walk (10:17), Hans TN stock limits (07:11, other state), ETV Bharat/PTI UNGA death penalty vote (10:09), India TV William & Kate Mumbai (10:51), Hans/IANS Netanyahu unity govt (07:31). Skipped: DC Varaha river (14 Nov 21:00, pre-lookback; covered inside Hans story), Tribune Jaishankar (14 Nov 21:28, pre-lookback), Telangana Today cold wave pages (2025, old). Review: BioSpectrum Aster Kondapur 300-bed hospital (14 Nov, no time). Not searched this run: many single-source Eenadu/HMTV/NIE district items; capacity limited. Districts searched: Nagarkurnool, Anakapalli, Hyderabad."
+  },
+  {
+   "window": "2026-11-15T11:05:00+05:30/2026-11-15T11:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 4,
+   "late": 2,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "11:35 run started 11:36 IST. Lookback from 03:05 15 Nov. Feeds branch fresh (11:32, 70/70 ok, 830 uncovered in lookback, 173 TG/AP). Published: TT/IANS Bay depression to severe cyclone Nov 17 (11:30, update, forecast), TT/IANS India 209 all out 5th ODI (11:13), NT Vemulawada temple fire (10:06, late-found), Siasat Basheerbagh Ram statue Maha Harathi (11:23, sensitive, claim). Skipped: V6 RIMS Adilabad director transfer (14 Nov 22:10, pre-lookback), Hans Kurnool GP polls (14 Nov 05:50, pre-lookback), TT fishermen warning (2023, old). Not opened/not found by search: NIE RIMS chief, Hans CM policy paralysis, Siasat Nampally/Vasavi Urban/Yemen, TT Ebola/CTI airfares, HMTV Tollywood notices/Jangaon gold, Suryaa Yadadri crash, ACB engineer. Eenadu/Sakshi/V6 single-source district items not reached; capacity limited. Districts searched: Warangal, Khammam, Bhadradri, Sangareddy, Medak, Siddipet, Visakhapatnam, NTR, Kakinada, East Godavari, Sircilla, Jangaon, Kurnool."
   }
  ],
  "seen": [
@@ -3528,6 +3528,41 @@
    "url": "https://www.biospectrumindia.com/news/109/28821/aster-dm-quality-care-injects-rs-500-cr-to-open-300-bed-hospital-in-hyderabad.html",
    "d": "2026-11-15",
    "w": "review"
+  },
+  {
+   "url": "https://telanganatoday.com/andhra-pradesh-coast-braces-for-another-severe-cyclone-on-november-17-warns-imd",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/india-bowled-out-for-209-against-new-zealand-in-fifth-odi-as-santner-duffy-take-three-wickets-each",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/fire-breaks-out-near-vemulawada-rajanna-temple-queue-line-2560829",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/right-wing-groups-to-protest-ram-statue-removal-in-basheerbagh-3577771/",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://v6velugu.com/adilabad-rims-director-jaisingh-rathod-transferred",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/kurnool-to-hold-first-phase-of-2026-gp-polls-on-nov-26-1141967",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/imd-issues-warning-for-andhra-pradesh-fishermen-as-bay-of-bengal-weather-intensifies",
+   "d": "2026-11-15",
+   "w": "skipped"
   }
  ]
 }
