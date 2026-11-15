@@ -1469,8 +1469,8 @@ function metalsHTML(s,i,city){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=M
 </article>`; }
 document.addEventListener('click',e=>{ const b=e.target.closest('.metals2 .m2c'); if(!b) return; e.preventDefault(); e.stopPropagation(); const art=b.closest('.story'); const it=LIST.find(x=>x&&x.kind==='metals'); if(!art||!it) return;
   store.set('metCity',b.dataset.c); const tmp=document.createElement('div'); tmp.innerHTML=metalsHTML(it,0,b.dataset.c); const nw=tmp.firstElementChild; art.querySelector('.m2hd').replaceWith(nw.querySelector('.m2hd')); art.querySelector('.m2body').replaceWith(nw.querySelector('.m2body')); },true);
-/* PREVIEW (?mt=table): gold · silver · copper as one table for all four cities */
-const MTTAB=(()=>{ try{ const q=new URLSearchParams(location.search).get('mt'); if(q==='table'||q==='panels') localStorage.setItem('w2s.mt',q); return localStorage.getItem('w2s.mt')==='table'; }catch(e){ return false; } })();
+/* gold · silver · copper as one table for all four cities (live 15 Nov 2026; ?mt=panels shows the old picture panels) */
+const MTTAB=(()=>{ try{ const q=new URLSearchParams(location.search).get('mt'); if(q==='table'||q==='panels') localStorage.setItem('w2s.mt',q); return localStorage.getItem('w2s.mt')!=='panels'; }catch(e){ return true; } })(); // owner approved 15 Nov 2026: table for everyone
 function metalsTableHTML(s,i){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=METALS.prev||{}, inr=n=>'₹'+Number(n).toLocaleString('en-IN');
   const ar=(k,v)=>{ const p=prev[k]; if(p==null||v==null||p===v) return ''; return v>p?`<i class="up">▲${Number(v-p).toLocaleString('en-IN')}</i>`:`<i class="dn">▼${Number(p-v).toLocaleString('en-IN')}</i>`; };
   const T={te:{h:['బంగారం','వెండి','రాగి'],sub:'ధరల సమాచారం',city:'నగరం',g:'బంగారం',sv:'వెండి',cp:'రాగి',upd:'అప్‌డేట్',note:'సూచిక ధరలు • పన్నులు, తయారీ ఛార్జీలు అదనం'},
