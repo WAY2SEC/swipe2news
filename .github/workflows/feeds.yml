@@ -7,6 +7,11 @@ name: Collect news feeds
 on:
   schedule:
     - cron: '*/15 * * * *'
+  # GitHub delays scheduled runs (often to once an hour), so also refresh right after every news update:
+  # the next newsroom run then always gets a fresh list.
+  push:
+    branches: [main]
+    paths: ['news.json']
   workflow_dispatch:
 
 concurrency:

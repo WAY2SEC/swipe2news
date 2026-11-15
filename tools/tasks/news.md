@@ -38,6 +38,8 @@ FIRST read the feed list (added 15 Nov 2026 – owner: "each news should be in o
 - ONE story per event, written from ONE source ("best", or another from "others" if "best" can't be opened); never publish the same event twice, also when one paper wrote it in Telugu and another in English — compare with news.json and with the other events before writing.
 - To open an article: WebSearch its exact headline (plus the outlet name), then WebFetch the matching result (Google News links in the list can't be opened directly). If it can't be opened, try the next source of the same event; if none opens, list it under "not opened" in the report.
 - Capacity: publish up to 25 stories per run, oldest-first within priority, so nothing ages out; anything left stays "covered": false and is picked up by the next run.
+- ORDER (15 Nov check-in: runs were spending time on world/other-state and late-found items while TG/AP waited): 1) "local": true events with 2+ sources, 2) other "local": true events (each district at least once a day), 3) at most 3 India and 2 world events per run, only major ones. Other-state news only if it affects TG/AP readers.
+- Don't spend searches on a source that can't be opened: Eenadu refuses fetching (robots), so for an Eenadu "best" go straight to the next source in "others"; if Eenadu is the only source, do one search for the same event at another outlet, else list it as "not opened".
 - Report: events in the list, uncovered at start, published, skipped (why), not opened, and feeds failing in status.json.
 If the feeds branch is missing or older than 1 hour, fall back to searching as below and say so in the report.
 
