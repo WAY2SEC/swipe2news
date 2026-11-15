@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T09:05:00+05:30",
+ "cutoff": "2026-11-15T09:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T17:35:00+05:30/2026-11-11T18:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 11,
-   "published": 4,
-   "late": 2,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 2,
-   "review": 1,
-   "gaps": "Search-first; WebFetch via sub-agent. Searches mostly returned stale tag/listing pages (Telangana Today, Deccan Chronicle, Hans India). Eenadu/ETV live blogs not re-read (already seen). Sakshi, TV9, V6, NTV, The Hindu, PTI national, Reuters/BBC/AP and international-topic sources not surfaced in range. Duplicates: TT/PTI AP 789 lift schemes 17:38 (same CBN irrigation review published 15:05), Hans India 10+2 17:44 and Telangana Tribune 10+2 16:38 (published 17:05). Skipped: HMTV Hanamkonda collector courtesy call (non-news), Vaartha weather 06 Nov (outside lookback). Review: Munsif Daily Revanth Krishna waters (no publication time)."
-  },
   {
    "window": "2026-11-11T18:05:00+05:30/2026-11-11T18:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "09:05 run started 09:06 IST. Lookback from 00:35 15 Nov. Published: Hans India/IANS PM Modi Janjatiya Gaurav Diwas 246 tribal projects Rs 3,000 crore (06:44, fact); merged Hans/IANS Murmu Birsa Munda homage (09:03) as a point. ETV TG/AP live blogs unchanged since 07:36/07:28; ABN flash unchanged since 07:58 (all seen). NewsNation live URL too long for fetch; usnews world refused. Standard searches stale (TT listing pages). Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; no world items found. Districts searched: Adilabad, Nirmal, Srikakulam, Vizianagaram, Prakasam, Visakhapatnam, Kakinada, Nalgonda, Suryapet, Yadadri."
+  },
+  {
+   "window": "2026-11-15T09:05:00+05:30/2026-11-15T09:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 4,
+   "late": 2,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "09:35 run started 09:36 IST. Lookback from 01:05 15 Nov. Published: ABN Cyclone Akvan north coast landfall Nov 20 (03:38, forecast, late-found; differs from Hans Nov 18), ABN IAS officer car crash Nellore (06:49, fact, late-found, name withheld), ETV AP live Tirumala 18-hour sarva darshan (08:00, fact), ETV AP live Tiruvuru hospital death protest (08:52, claim, sensitive, no name). Duplicates: ABN 08:43 Janajatiya Gaurav Divas, ABN gold price, ETV AP panchayat nominations. Skipped: Visakhapatnam student suicide (sensitive, low value), Ramoji walk/bike rallies (house event), Tirumala dignitaries (low value). Wikipedia current events and Times of Israel live refused; no world items. Standard searches stale. Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters. Districts searched: Sangareddy, Kamareddy, Vikarabad, Mancherial, Hanumakonda, Warangal, Anantapur, Kadapa, NTR."
   }
  ],
  "seen": [
@@ -3323,6 +3323,61 @@
    "url": "https://www.thehansindia.com/news/national/prez-murmu-pays-homage-to-birsa-munda-extends-wishes-on-jharkhand-foundation-day-1142316",
    "d": "2026-11-15",
    "w": "duplicate"
+  },
+  {
+   "url": "https://andhrajyothy.com/2026/andhra-pradesh/cyclone-akwan-may-hit-north-andhra-coast-on-november-20-1576420.html",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://andhrajyothy.com/2026/telangana/hyderabad/ias-officer-rajeev-hanumanthu-injured-road-accident-nellore-andhra-pradesh-1576486.html",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--15th-november-2026-ap-news-today-live-updates-telugu-breaking-news-aps26111500366#tirumala-sarvadarshan-0800",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--15th-november-2026-ap-news-today-live-updates-telugu-breaking-news-aps26111500366#tiruvuru-hospital-0852",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-15th-november-2026-3714.html#janajatiya-0843",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://andhrajyothy.com/2026/business/gold-prices-in-india-today-latest-22k-24k-rates-on-november-15th-2026-sgr-1576480.html",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--15th-november-2026-ap-news-today-live-updates-telugu-breaking-news-aps26111500366#panchayat-nominations",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--15th-november-2026-ap-news-today-live-updates-telugu-breaking-news-aps26111500366#vizag-student-suicide-0858",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--15th-november-2026-ap-news-today-live-updates-telugu-breaking-news-aps26111500366#ramoji-bike-rallies-0848",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--15th-november-2026-ap-news-today-live-updates-telugu-breaking-news-aps26111500366#tirumala-dignitaries-0850",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--15th-november-2026-ap-news-today-live-updates-telugu-breaking-news-aps26111500366#ramoji-walk-0804",
+   "d": "2026-11-15",
+   "w": "skipped"
   }
  ]
 }
