@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T18:05:00+05:30",
+ "cutoff": "2026-11-15T18:20:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T11:05:00+05:30/2026-11-12T11:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 13,
-   "published": 8,
-   "late": 8,
-   "sensitive": 4,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 1,
-   "review": 2,
-   "gaps": "Search-first; WebSearch mostly returned stale listing pages. Read via sub-agent: 7 Hans India TG articles (4 published before lookback 03:05 - not eligible, added to seen), Hans CII summit (10:43), NT KTR Nirmal (06:30), Siasat Bharat Summit (8 Nov, old), ETV Bharat TG live blog (cached only to 06:57; Kanjar/Nizamabad accident still not readable - left unseen), Andhra Jyothy live blog (cached 10:30-10:41 only). Eenadu refused (robots); Deccan Herald Pak attack refused (review). Sakshi, TV9, V6, NTV, The Hindu, PTI, Reuters/AP not surfaced. No international-topic items found. Districts searched: Sangareddy, Siddipet, Vikarabad, Mahabubnagar, Wanaparthy, Gadwal, Nagarkurnool, Anantapur, Nandyal, Palnadu, Bapatla."
-  },
   {
    "window": "2026-11-12T11:35:00+05:30/2026-11-12T12:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 6,
    "review": 0,
    "gaps": "18:05 run started 18:06 IST. Lookback from 09:50 15 Nov. Feeds branch fresh (17:59, 70/70 ok, 768 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: South First Telangana rolls back polytechnic merger with SHAKTI (17:47). Duplicate: Hans India Uttam Kumar on PM meeting (16:55, same event as CM-PM story). Skipped as old events/out of lookback: Nagarkurnool and Mancherial children's Prajavani (08:38 / 13 Nov), Naidu cyclone aid letter (6 Nov), AP 526 proposals (10 Nov), GAIL-KRIBHCO urea MoU (12 Nov), AgniKul Tirupati MoU (13 Nov). Not opened: Rythu Bharosa study (The Hindu), TV9 pensions Rs 4,000, Macherla KGBV girl missing, Vinukonda farmers power protest (searches did not surface articles). No district searches (time)."
+  },
+  {
+   "window": "2026-11-15T18:05:00+05:30/2026-11-15T18:20:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 2,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "18:20 run started 18:21 IST. Lookback from 10:05 15 Nov. Feeds branch fresh (18:12, 70/70 ok, 797 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: The 420.in AP vigilance 516 hoarding cases (18:04), Telangana Today/PTI BITS Pilani endowment $54m (17:30). Duplicates: Balapur tipper crash (Hans 18:04, already published 16:20), Bahrain/Iran drones (already published). Skipped: Chittoor MLA son birthday, party joinings, chess/golf events, Salman Khurshid Israel remarks (minor). Not opened (direct links refused / searches did not surface): The Hindu Rythu Bharosa study, HMTV Singareni coal block privatisation, TV9/Prime9 pensions Rs 4,000, Pragativadi Kotia, TT Ladakh LAB. No district searches (time). Districts covered: AP."
   }
  ],
  "seen": [
@@ -4103,6 +4103,21 @@
    "url": "https://thenewsmill.com/2026/11/chandrababu-naidu-seeks-immediate-centre-aid-for-andhra-cyclone-damage/",
    "d": "2026-11-15",
    "w": "skipped"
+  },
+  {
+   "url": "https://the420.in/300-teams-inspect-250-markets-in-andhra-pradesh-against-hoarding-516-cases-registered/",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/bits-pilani-endowment-fund-crosses-usd-54-million-in-23-months",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/vijayawada/vigilance-teams-seize-essentials-worth-rs-1043-cr-1142206",
+   "d": "2026-11-15",
+   "w": "duplicate"
   }
  ]
 }
