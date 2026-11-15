@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T09:35:00+05:30",
+ "cutoff": "2026-11-15T10:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T18:05:00+05:30/2026-11-11T18:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 10,
-   "published": 7,
-   "late": 7,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agent. Searches mostly returned stale tag/listing pages; nothing found published inside 18:05-18:35. Eenadu, Sakshi, TV9, V6, NTV, The Hindu, PTI national, Reuters/BBC/AP and international-topic sources not surfaced in range. Duplicates: AJ CBN irrigation review 1575245 (published 15:05), NT Kulgam CRPF 2557564 (ETV version published 15:35). Skipped: TT Kandukur missing family (personal matter). AJ URL 1575094 served a different (01:25) article; AJ 1575169/1575127/1575097 published before lookback start 10:05."
-  },
   {
    "window": "2026-11-11T18:35:00+05:30/2026-11-11T19:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "09:35 run started 09:36 IST. Lookback from 01:05 15 Nov. Published: ABN Cyclone Akvan north coast landfall Nov 20 (03:38, forecast, late-found; differs from Hans Nov 18), ABN IAS officer car crash Nellore (06:49, fact, late-found, name withheld), ETV AP live Tirumala 18-hour sarva darshan (08:00, fact), ETV AP live Tiruvuru hospital death protest (08:52, claim, sensitive, no name). Duplicates: ABN 08:43 Janajatiya Gaurav Divas, ABN gold price, ETV AP panchayat nominations. Skipped: Visakhapatnam student suicide (sensitive, low value), Ramoji walk/bike rallies (house event), Tirumala dignitaries (low value). Wikipedia current events and Times of Israel live refused; no world items. Standard searches stale. Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters. Districts searched: Sangareddy, Kamareddy, Vikarabad, Mancherial, Hanumakonda, Warangal, Anantapur, Kadapa, NTR."
+  },
+  {
+   "window": "2026-11-15T09:35:00+05:30/2026-11-15T10:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 8,
+   "published": 2,
+   "late": 2,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 5,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "10:05 run started 10:06 IST. Lookback from 01:35 15 Nov. Published: ABN Velagapudi farmer legal notice to Sakshi (04:13, claim, late-found), ABN Sabarimala prasadam by post (02:35, fact, late-found, other state). Duplicates: ABN BJP 'anti-India summit'/Ramchander Rao house arrest (05:24, covered 12 & 14 Nov), India TV Cyclone Akvan (09:12), 10TV AP cyclone rain alert (06:54), TT Dundigal bus fire (09:06), Oneindia egg-donation racket women's commission (09:53, Nov 9 hearing, earlier coverage 11-12 Nov; date inconsistency). Skipped: DC Akvan 13 Nov (pre-lookback). ETV TG/AP live blogs and ABN flash unchanged (all seen). Standard searches stale. Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; no world items. Districts searched: Khammam, Karimnagar, Mahabubnagar, Siddipet, Medak, Guntur, Krishna, Eluru, West Godavari, Anakapalli, Palnadu."
   }
  ],
  "seen": [
@@ -3378,6 +3378,41 @@
    "url": "https://www.etvbharat.com/te/state/live-blog--15th-november-2026-ap-news-today-live-updates-telugu-breaking-news-aps26111500366#ramoji-walk-0804",
    "d": "2026-11-15",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/amaravati-farmer-warns-one-media-of-rs-10-crore-defamation-suit-1576429.html",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/national/sabarimala-prasadam-online-postal-service-ayyappa-devotees-1576397.html",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/bjp-leaders-criticise-rahul-gandhi-bharat-summit-hyderabad-ramchander-rao-house-arrest-1576465.html",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.indiatvnews.com/news/india/after-arnab-and-murasu-cyclone-akvan-approaches-bay-of-bengal-imd-issues-fresh-warning-2026-11-15-1059494",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://10tv.in/telugu-news/andhra-pradesh/heavy-rains-in-several-districts-of-andhra-pradesh-due-to-impact-of-cyclone-hn-1157812.html",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-five-private-buses-gutted-in-a-fire-at-dundigal",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.oneindia.com/india/hyderabad-egg-donation-racket-women-s-commission-issues-notices-to-five-fertility-centres-8260111.html",
+   "d": "2026-11-15",
+   "w": "duplicate"
   }
  ]
 }
