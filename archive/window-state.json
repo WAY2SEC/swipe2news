@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T19:05:00+05:30",
+ "cutoff": "2026-11-15T19:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T12:35:00+05:30/2026-11-12T13:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 13,
-   "published": 9,
-   "late": 6,
-   "sensitive": 3,
-   "corrected": 0,
-   "duplicates": 5,
-   "skipped": 2,
-   "review": 1,
-   "gaps": "Search-first; WebSearch mostly returned stale listing/tag pages. Read via sub-agent: Andhra Jyothy 12 Nov live blog (entries 12:19-13:04), ETV Bharat markets (10:09), India TV markets (09:19, duplicate), Hans petrol prices (10:36), Hans CII to begin (10:15, duplicate of published 1141333), NT 2558037/2558014/2558004/2557998 (01:03-03:30, before lookback). Eenadu robots-disallowed (Warangal 126204991 unverifiable - review). Sakshi, Siasat, TT, TV9, V6, NTV, The Hindu, PTI direct, Reuters/AP not surfaced in range. No international-topic items found. Districts searched: Nizamabad, Adilabad, Nirmal, Sangareddy, Siddipet, Vikarabad, Mahabubnagar, Karimnagar, Khammam, Warangal, Tirupati, Nellore, Kadapa, Kurnool, NTR/Vijayawada, Guntur."
-  },
   {
    "window": "2026-11-12T13:05:00+05:30/2026-11-12T13:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "19:05 run started 19:06 IST. Lookback from 10:35. Feeds branch fresh (18:40, 70/70 ok; covered flags stale). add_repo tool not available; existing clone used. Published: Hans India AP pre-cyclone watch (18:11, forecast), NewsBytes FAA audit of DGCA Nov 16-20 (18:06), Telangana Today JNTU-H students petition Governor (18:35, claim), TT/IANS Dharmana on Vision 2050 (18:41, claim). Duplicate: Chenab Times cyclone Akvan (17:09). Skipped: The Week Naidu 'masala' (09:35, before lookback). Not opened (fetch permission timeout): The Hindu Pulleru canal drowning (Krishna), The Hindu Rythu Bharosa burden, TT Khaleelullah lecture; Thehawk FAA. Search engine surfaced few fresh district items."
+  },
+  {
+   "window": "2026-11-15T19:05:00+05:30/2026-11-15T19:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 3,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "19:35 run started 19:36 IST. Lookback from 11:05. Feeds branch fresh (19:15, 68/68 ok, 713 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: TT TGTDC Sunday bird walks Nanakramguda (19:34), TT/PTI women's quota bill winter session (19:10, claim), TT/IANS Goyal US preferential access (18:52, claim). Skipped: DC Naidu Murasu loss (6 Nov, old). Not opened (search did not surface article; thehindu.com domain-filtered searches rejected by proxy): The Hindu Pulleru canal drowning, Rythu Bharosa burden, Kurnool minister assistive devices, Srikakulam ZP TDP/JSP, Kishan Reddy Naxalism; HMTV Murasu Rs 2,484 cr report; NTV Uttam Medigadda; Jana Sena mayor list; KTR study material; Tadwai youth Malaysia jail. District searches (Warangal, Karimnagar, Tirupati, Visakhapatnam, Nizamabad/Sangareddy/Medak, Guntur/Vijayawada, Khammam/Kothagudem, Nellore/Ongole/Kadapa, Hanamkonda) surfaced only tag pages."
   }
  ],
  "seen": [
@@ -4163,6 +4163,31 @@
    "url": "https://thechenabtimes.com/2026/11/15/cyclone-akvan-intensifies-andhra-pradesh-coast-in-path-rainfall-expected-in-tamil-nadu-and-bengal/",
    "d": "2026-11-15",
    "w": "2026-11-15T19:05"
+  },
+  {
+   "url": "https://telanganatoday.com/tgtdc-launches-wings-wilderness-nature-walk-at-nanakramguda",
+   "d": "2026-11-15",
+   "w": "2026-11-15T19:35"
+  },
+  {
+   "url": "https://telanganatoday.com/govt-may-push-delimitation-linked-womens-reservation-bill-in-winter-session",
+   "d": "2026-11-15",
+   "w": "2026-11-15T19:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/nation/winter-session-likely-in-december-womens-reservation-bill-top-priority-2004620",
+   "d": "2026-11-15",
+   "w": "2026-11-15T19:35"
+  },
+  {
+   "url": "https://telanganatoday.com/goyal-says-india-has-secured-preferential-access-to-american-market",
+   "d": "2026-11-15",
+   "w": "2026-11-15T19:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-cm-naidu-pegs-cyclone-murasu-loss-at-nearly-rs-2000-crore-2002251",
+   "d": "2026-11-15",
+   "w": "2026-11-15T19:35"
   }
  ]
 }
