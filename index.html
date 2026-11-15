@@ -877,6 +877,27 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .s2n.metals .mtab td b{display:block;font:800 15.5px/1.2 'Outfit',var(--body);color:#4A0E3F}
 .s2n.metals .mtab td i{display:block;font:700 11px/1.3 'Outfit',sans-serif;font-style:normal}.s2n.metals i.up{color:#0E7A3E}.s2n.metals i.dn{color:#B3261E}
 .s2n.metals .mfuel i{font-style:normal;font:700 12px 'Outfit',sans-serif;margin-left:4px}
+
+/* gold · silver · copper card v2 (owner's template, 15 Nov 2026) */
+.story.s2n.metals2{background:radial-gradient(140% 90% at 100% 0%,#7A2A55 0%,#4A0E3F 45%,#2E0827 100%)!important}
+.s2n.metals2 .m2hd{padding:16px 16px 8px;color:#FFFDF5;text-align:center}
+.s2n.metals2 .m2t{font:800 clamp(26px,8.4vw,34px)/1.15 var(--body);letter-spacing:.2px}.s2n.metals2 .m2t i{color:#F5A23A;font-style:normal;margin:0 6px}
+.s2n.metals2 .m2s{display:flex;align-items:center;gap:10px;justify-content:center;margin:4px 0 10px;font:700 15px/1 var(--body);opacity:.92}.s2n.metals2 .m2s span{flex:0 0 36px;height:1.5px;background:#F5A23A;opacity:.8}
+.s2n.metals2 .m2city{display:flex;gap:6px;justify-content:center;flex-wrap:wrap}
+.s2n.metals2 .m2c{all:unset;cursor:pointer;padding:7px 12px;border-radius:999px;border:1.5px solid rgba(255,253,245,.35);font:800 12.5px/1 var(--body);color:#FFFDF5}
+.s2n.metals2 .m2c.on{background:linear-gradient(135deg,#FFD08A,#F5A23A);border-color:transparent;color:#2E0827;box-shadow:0 4px 12px rgba(245,162,58,.4)}
+.s2n.metals2 .m2body{background:transparent!important;padding:8px 12px 6px!important;display:flex;flex-direction:column;justify-content:space-evenly;gap:10px;flex:1;min-height:0;overflow:hidden}
+.s2n.metals2 .m2p{display:grid;grid-template-columns:40% 1fr;align-items:center;gap:6px;background:#FBF3E6;border-radius:18px;padding:6px 12px 6px 6px;box-shadow:0 6px 16px rgba(0,0,0,.25);flex:0 1 auto;min-height:0}
+.s2n.metals2 .m2p img{width:100%;height:auto;max-height:150px;object-fit:contain}
+.s2n.metals2 .m2p{padding:10px 14px 10px 8px!important}
+.s2n.metals2 .m2v{border-left:1.5px solid #E7B77A;padding-left:12px;min-width:0}
+.s2n.metals2 .m2v h4{margin:0 0 4px;padding-bottom:5px;border-bottom:1.5px solid #E7B77A;font:800 21px/1.2 var(--body);color:#4A0E3F}.s2n.metals2 .m2v h4 small{font:800 13px/1 'Outfit',sans-serif;color:#4A0E3F;opacity:.85}
+.s2n.metals2 .mr{display:flex;align-items:baseline;flex-wrap:wrap;gap:2px 8px;padding:4px 0}.s2n.metals2 .mr+.mr{border-top:1px solid #EAD5BA}
+.s2n.metals2 .mr span{font:800 13px/1.2 'Outfit',sans-serif;color:#5B3A50;min-width:72px}
+.s2n.metals2 .mr b{font:800 22px/1.1 'Outfit',sans-serif;color:#2E0827}
+.s2n.metals2 .mr i{font:800 11.5px/1 'Outfit',sans-serif;font-style:normal}.s2n.metals2 i.up{color:#0E7A3E}.s2n.metals2 i.dn{color:#B3261E}
+.s2n.metals2 .m2f{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}.s2n.metals2 .m2f span{padding:5px 10px;border-radius:10px;background:#FBF3E6;color:#4A0E3F;font:800 11px/1.2 var(--body)}
+.s2n.metals2 .m2n{margin:0;text-align:center;font:italic 600 11.5px/1.3 var(--body);color:rgba(255,253,245,.8)}
 </style>
 </head>
 <body>
@@ -1402,19 +1423,28 @@ const MTX={te:{t:'బంగారం · వెండి · రాగి',g24:'24
  hi:{t:'सोना · चाँदी · ताँबा',g24:'24 कैरेट',g22:'22 कैरेट',sv:'चाँदी',gu:'10 ग्राम',su:'किलो',cu:'ताँबा',cuu:'किलो · MCX',warn:'ज्वैलर GST और मेकिंग चार्ज अलग से लेते हैं। ख़रीदने से पहले दुकान पर पक्का करें।',src:'स्रोत',city:{Hyderabad:'हैदराबाद',Mumbai:'मुंबई',Chennai:'चेन्नई',Delhi:'दिल्ली',Vijayawada:'विजयवाड़ा'}}};
 function metalsItem(){ if(!METALS) return null; const fresh=x=>x&&x.date&&(Date.now()-new Date(x.date+'T12:00:00+05:30'))<4*864e5; const c=METALS.cities.filter(fresh); if(!c.length) return null;
   return {kind:'metals', c, h:'బంగారం ధరలు', p:c.map(x=>x.city+' '+x.g24).join(', '), url:'https://swipe2news.com/', src:METALS.src||'', d:''}; }
-function metalsHTML(s,i){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=METALS.prev||{}, inr=n=>'₹'+Number(n).toLocaleString('en-IN');
-  const ar=(k,v)=>{ const p=prev[k]; if(p==null||v==null||p===v) return ''; return v>p?`<i class="up">▲${Number(v-p).toLocaleString('en-IN')}</i>`:`<i class="dn">▼${Number(p-v).toLocaleString('en-IN')}</i>`; };
-  const d=s.c.map(x=>x.date).sort().pop(), cu=METALS.copper&&METALS.copper.price?METALS.copper:null;
-  let dd=''; try{ dd=new Date(d+'T12:00:00+05:30').toLocaleDateString(l==='te'?'te-IN':l==='hi'?'hi-IN':'en-IN',{day:'numeric',month:'short'}); }catch(e){ dd=d; }
-  return `<article class="story s2n mandi metals" aria-label="${esc(U.t)}">
-  <div class="mhd"><div><b>💰 ${esc(U.t)}</b><span>${esc(dd)}</span></div></div>
-  <div class="text"><table class="mtab"><thead><tr><th></th><th>${esc(U.g24)}<small>${esc(U.gu)}</small></th><th>${esc(U.g22)}<small>${esc(U.gu)}</small></th><th>${esc(U.sv)}<small>${esc(U.su)}</small></th></tr></thead>
-  <tbody>${s.c.map(x=>`<tr><th>${esc(U.city[x.city]||x.city)}</th><td><b>${x.g24!=null?inr(x.g24):'–'}</b>${ar(x.city+'|g24',x.g24)}</td><td><b>${x.g22!=null?inr(x.g22):'–'}</b>${ar(x.city+'|g22',x.g22)}</td><td><b>${x.silver!=null?inr(x.silver):'–'}</b>${ar(x.city+'|silver',x.silver)}</td></tr>`).join('')}</tbody></table>
-  ${cu?`<p class="mfuel">🟤 ${esc(U.cu)} <b>${inr(cu.price)}</b>${ar('copper',cu.price)} <small>/ ${esc(U.cuu)}</small></p>`:''}
-  <p class="mwarn">ℹ️ ${esc(U.warn)}</p><div class="srow"><span class="src">${esc(U.src)}: <b>${esc(METALS.src||'')}</b></span></div></div>
-  <div class="spacer" data-sp="${i}"></div>
+function metalsHTML(s,i,city){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=METALS.prev||{}, inr=n=>'₹'+Number(n).toLocaleString('en-IN');
+  const ar=(k,v)=>{ const p=prev[k]; if(p==null||v==null||p===v) return ''; return v>p?`<i class="up">▲ ${Number(v-p).toLocaleString('en-IN')}</i>`:`<i class="dn">▼ ${Number(p-v).toLocaleString('en-IN')}</i>`; };
+  const pick=city||(store.get('metCity','')||'Hyderabad'); const c=s.c.find(x=>x.city===pick)||s.c[0], cu=METALS.copper&&METALS.copper.price?METALS.copper:null;
+  const T={te:{h:['బంగారం','వెండి','రాగి'],sub:'ధరల సమాచారం',g:'బంగారం',sv:'వెండి',cp:'రాగి',upd:'అప్‌డేట్',note:'సూచిక ధరలు • పన్నులు, తయారీ ఛార్జీలు అదనం'},
+    en:{h:['Gold','Silver','Copper'],sub:'Today\'s rates',g:'Gold',sv:'Silver',cp:'Copper',upd:'Updated',note:'Indicative rates • Taxes and making charges extra'},
+    hi:{h:['सोना','चाँदी','ताँबा'],sub:'आज के भाव',g:'सोना',sv:'चाँदी',cp:'ताँबा',upd:'अपडेट',note:'सांकेतिक भाव • टैक्स और मेकिंग चार्ज अलग'}}[l]||{};
+  let when=''; try{ const m=/T(\d\d):(\d\d)/.exec(METALS.updated||''); const dd=new Date(c.date+'T12:00:00+05:30').toLocaleDateString(l==='te'?'te-IN':l==='hi'?'hi-IN':'en-IN',{day:'numeric',month:'short'}); when=dd+(m?' · '+(((+m[1])%12)||12)+':'+m[2]+(+m[1]<12?' AM':' PM'):''); }catch(e){ when=c.date||''; }
+  const row=(lab,val,k)=>`<div class="mr"><span>${lab}</span><b>${val!=null?inr(val):'—'}</b>${ar(k,val)}</div>`;
+  return `<article class="story s2n mandi metals2" aria-label="${esc(T.h.join(' · '))}" data-city="${esc(c.city)}">
+  <div class="m2hd"><div class="m2t">${T.h.map(esc).join('<i>•</i>')}</div><div class="m2s"><span></span>${esc(T.sub)}<span></span></div>
+   <div class="m2city">${s.c.map(x=>`<button type="button" class="m2c${x.city===c.city?' on':''}" data-c="${esc(x.city)}">${esc(U.city[x.city]||x.city)}</button>`).join('')}</div></div>
+  <div class="text m2body">
+   <div class="m2p"><img src="/art/m/gold.webp" alt="" loading="lazy"><div class="m2v"><h4>${esc(T.g)}${l!=='en'?' <small>/ GOLD</small>':''}</h4>${row('22K · 10 g',c.g22,c.city+'|g22')}${row('24K · 10 g',c.g24,c.city+'|g24')}</div></div>
+   <div class="m2p"><img src="/art/m/silver.webp" alt="" loading="lazy"><div class="m2v"><h4>${esc(T.sv)}${l!=='en'?' <small>/ SILVER</small>':''}</h4>${row('1 kg',c.silver,c.city+'|silver')}</div></div>
+   <div class="m2p"><img src="/art/m/copper.webp" alt="" loading="lazy"><div class="m2v"><h4>${esc(T.cp)}${l!=='en'?' <small>/ COPPER</small>':''}</h4>${row('1 kg · MCX',cu?cu.price:null,'copper')}</div></div>
+   <div class="m2f"><span>📍 ${esc(U.city[c.city]||c.city)}</span><span>🕒 ${esc(T.upd)}: ${esc(when)}</span><span>${esc(U.src)}: ${esc(METALS.src||'')}</span></div>
+   <p class="m2n">${esc(T.note)}</p>
+  </div>
   ${footHTML()}
 </article>`; }
+document.addEventListener('click',e=>{ const b=e.target.closest('.metals2 .m2c'); if(!b) return; e.preventDefault(); e.stopPropagation(); const art=b.closest('.story'); const it=LIST.find(x=>x&&x.kind==='metals'); if(!art||!it) return;
+  store.set('metCity',b.dataset.c); const tmp=document.createElement('div'); tmp.innerHTML=metalsHTML(it,0,b.dataset.c); const nw=tmp.firstElementChild; art.querySelector('.m2hd').replaceWith(nw.querySelector('.m2hd')); art.querySelector('.m2body').replaceWith(nw.querySelector('.m2body')); },true);
 function withMetals(list){ if(view!=='home'||section!=='all'||list.length<10) return list; const mi=metalsItem(); if(!mi) return list; const o=list.slice(); o.splice(9,0,mi); return o; }
 function withMandi(list){ if(view!=='home'||section!=='all'||list.length<4) return list; const mi=mandiItem(); if(!mi) return list; const o=list.slice(); o.splice(3,0,mi); return o; }
 function withHouse(list){ const C=CONFIG.SPACE; if(!C||!C.on||view!=='home') return list; const house=(C.HOUSE||[]).filter(k=>SPACE_TX[k]&&!(k==='jobs'&&spaceJobsN()<3)); if(!house.length) return list;
