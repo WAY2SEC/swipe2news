@@ -35,12 +35,18 @@ h3{margin:0;font:800 17px/1.5 var(--te)} .tx{margin:0;font:500 15px/1.75 var(--t
 .login button{height:48px;border:0;border-radius:12px;background:var(--navy);color:#fff;font:800 15px var(--te);cursor:pointer}
 .empty{text-align:center;color:var(--muted);font-weight:700;padding:40px 10px}
 .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--navy);color:#fff;padding:10px 16px;border-radius:999px;font:800 14px var(--te);box-shadow:0 8px 24px rgba(0,0,0,.3)}
+.pf{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px;display:grid;gap:10px}
+.pf label{display:grid;gap:5px;font:800 13px var(--te);color:var(--brand)} .pf small{font:600 12px/1.5 var(--te);color:var(--muted)}
+.pf select,.pf input[type=text],.pf input[type=url]{font:600 15px var(--te);border:1.5px solid var(--line);border-radius:10px;padding:10px;width:100%}
+.pf .chk{display:flex;gap:8px;align-items:flex-start;font:600 13.5px/1.5 var(--te);color:var(--ink)} .pf .chk input{margin-top:4px;width:20px;height:20px}
+.pf .prev{width:100%;max-height:260px;object-fit:contain;background:#EDE7DC;border-radius:12px} .pf button.go{height:50px;border:0;border-radius:14px;background:var(--ok);color:#fff;font:800 16px var(--te)}
+.pf button.go:disabled{opacity:.5} .rule{background:#FFF6E6;border:1px solid #F5C77A;border-radius:12px;padding:10px 12px;font:600 13px/1.6 var(--te)}
 [hidden]{display:none!important}
 </style>
 </head>
 <body>
 <header class="top"><a href="/"><img src="/logo-light.png" alt="Swipe2News"></a><b>✅ ఎడిటర్</b>
-  <div class="tabs" id="tabs"><button type="button" data-f="pending" aria-pressed="true">పెండింగ్<span class="n" id="nP">0</span></button><button type="button" data-f="approved" aria-pressed="false">ఆమోదించినవి</button><button type="button" data-f="all" aria-pressed="false">అన్నీ</button><button type="button" data-f="web" aria-pressed="false">🔎 వెబ్ వార్తలు<span class="n" id="nW">0</span></button><button type="button" id="refresh" aria-label="రిఫ్రెష్">↻</button></div>
+  <div class="tabs" id="tabs"><button type="button" data-f="pending" aria-pressed="true">పెండింగ్<span class="n" id="nP">0</span></button><button type="button" data-f="approved" aria-pressed="false">ఆమోదించినవి</button><button type="button" data-f="all" aria-pressed="false">అన్నీ</button><button type="button" data-f="web" aria-pressed="false">🔎 వెబ్ వార్తలు<span class="n" id="nW">0</span></button><button type="button" data-f="photo" aria-pressed="false">📷 అధికారిక ఫోటో</button><button type="button" id="refresh" aria-label="రిఫ్రెష్">↻</button></div>
 </header>
 <main id="main">
   <div class="login" id="login" hidden>
@@ -79,10 +85,47 @@ function renderWeb(){
     <div class="acts"><button type="button" class="yes" data-d="approve">✅ ప్రచురించు</button><button type="button" class="no" data-d="reject">❌ వద్దు</button></div>`:''}
   </article>`; }).join(''):`<div class="empty">ఆపిన వెబ్ వార్తలు లేవు 👍</div>`;
 }
+
+/* ---------- 📷 official photo for a published story (15 Nov 2026) ----------
+   Only photos released for media use: government press releases (PIB, CMO, I&PR) or a party's / leader's OFFICIAL handle.
+   Same rule for every party. Credit + source link are required; the reporter-stories task attaches the photo at its next run. */
+let NEWS=[], PHOTOS=[];
+const CREDITS=['PIB · భారత ప్రభుత్వం','తెలంగాణ సీఎంఓ','తెలంగాణ I&PR','ఏపీ సీఎంఓ','ఏపీ I&PR','PMO India','రాష్ట్రపతి భవన్','పార్టీ అధికారిక ఖాతా','నేత అధికారిక ఖాతా','ఇతర ప్రభుత్వ శాఖ'];
+const sidOf=x=>{ if(x._sid) return x._sid; let h=5381; const t=(x.url||'')+'|'+(x.h||''); for(let i=0;i<t.length;i++) h=((h<<5)+h+t.charCodeAt(i))|0; return (h>>>0).toString(36); };
+async function renderPhoto(){
+  $('list').innerHTML='<div class="empty">లోడ్ అవుతోంది…</div>';
+  try{ const j=await (await fetch('/news.json?'+Date.now())).json(); NEWS=(j.stories||j||[]).filter(x=>x&&x.h&&!x.kind).slice(0,50); }catch(e){ NEWS=[]; }
+  try{ const p=await call({action:'offphotolist'}); PHOTOS=(p&&p.ok&&p.items)||[]; }catch(e){ PHOTOS=[]; }
+  $('list').innerHTML=`<div class="pf" id="pf">
+    <div class="rule">📷 <b>ప్రభుత్వ ప్రెస్ రిలీజ్ (PIB, సీఎంఓ, I&PR)</b> లేదా <b>పార్టీ/నేత అధికారిక ఖాతా</b> విడుదల చేసిన ఫోటోలు మాత్రమే. పత్రికలు, ఏజెన్సీలు (PTI, ANI), ఫోటోగ్రాఫర్ల ఫోటోలు వద్దు. <b>అన్ని పార్టీలకూ ఒకే నియమం.</b> క్రెడిట్ ఫోటో మీద కనిపిస్తుంది.</div>
+    <label>వార్త ఎంచుకోండి<select id="pSid"><option value="">— వార్త —</option>${NEWS.map(x=>`<option value="${esc(sidOf(x))}">${esc(x.h)}</option>`).join('')}</select></label>
+    <label>ఫోటో<input type="file" id="pFile" accept="image/*"></label><img class="prev" id="pPrev" hidden alt="">
+    <label>క్రెడిట్<select id="pCr">${CREDITS.map(c=>`<option>${esc(c)}</option>`).join('')}</select></label>
+    <label>క్రెడిట్ పేరు (ఐచ్ఛికం)<input type="text" id="pCrN" maxlength="60" placeholder="ఉదా: BRS పార్టీ, ఒవైసీ అధికారిక ఖాతా"><small>"పార్టీ/నేత అధికారిక ఖాతా" అయితే పార్టీ లేదా నేత పేరు రాయండి</small></label>
+    <label>ఫోటోలో ఉన్నవారు<input type="text" id="pWho" maxlength="80" placeholder="ఉదా: సీఎం రేవంత్ రెడ్డి, ప్రధాని మోదీ"></label>
+    <label>పార్టీ / పదవి<input type="text" id="pParty" maxlength="60" placeholder="ఉదా: ప్రభుత్వం, కాంగ్రెస్, బీజేపీ, బీఆర్ఎస్, టీడీపీ, వైసీపీ, జనసేన"></label>
+    <label>ఫోటో దొరికిన లింక్ (తప్పనిసరి)<input type="url" id="pSrc" placeholder="https://pib.gov.in/… లేదా అధికారిక పోస్ట్ లింక్"></label>
+    <label class="chk"><input type="checkbox" id="pOk"><span>ఇది అధికారికంగా మీడియా కోసం విడుదల చేసిన ఫోటో అని, ఎడిట్ చేయలేదని నిర్ధారిస్తున్నాను.</span></label>
+    <button type="button" class="go" id="pGo" disabled>📤 ఫోటో పంపండి</button>
+    <small>తర్వాతి రిపోర్టర్ రన్‌లో (గంటకు ఒకసారి) యాప్‌లో వస్తుంది.</small>
+  </div>
+  ${PHOTOS.length?PHOTOS.map(r=>`<article class="card"><div class="bd"><div class="meta"><span class="chip ${esc(r.status==='published'?'published':r.status==='rejected'?'rejected':'approved')}">${esc(r.status==='published'?'యాప్‌లో ఉంది':r.status==='rejected'?'వాడలేదు':'వరుసలో')}</span><span>🕒 ${esc(r.time)}</span><span>📷 ${esc(r.credit)}</span>${r.link?`<a href="${esc(r.link)}" target="_blank" rel="noopener">🔗 వార్త</a>`:''}</div><h3>${esc(r.headline)}</h3>${r.note?`<small style="color:var(--muted)">📝 ${esc(r.note)}</small>`:''}</div></article>`).join(''):''}`;
+  const chk=()=>{ $('pGo').disabled=!($('pSid').value&&$('pFile').files[0]&&/^https:\/\//.test($('pSrc').value.trim())&&$('pOk').checked); };
+  ['pSid','pFile','pSrc','pOk'].forEach(k=>$(k).addEventListener('input',chk)); $('pOk').addEventListener('change',chk);
+  $('pFile').addEventListener('change',()=>{ const f=$('pFile').files[0]; if(f){ $('pPrev').src=URL.createObjectURL(f); $('pPrev').hidden=false; } chk(); });
+  $('pGo').onclick=async()=>{ $('pGo').disabled=true; $('pGo').textContent='పంపుతోంది…';
+    try{ const data=await shrink($('pFile').files[0]); const st=NEWS.find(x=>sidOf(x)===$('pSid').value)||{};
+      const cr=[$('pCr').value,$('pCrN').value.trim()].filter(Boolean).join(' · ');
+      const j=await call({action:'offphoto',sid:$('pSid').value,headline:st.h||'',credit:cr,person:$('pWho').value.trim(),party:$('pParty').value.trim(),srcurl:$('pSrc').value.trim(),data});
+      if(j.ok){ toast('✅ పంపారు – తర్వాతి రన్‌లో యాప్‌లో వస్తుంది'); renderPhoto(); } else { toast('కుదరలేదు: '+(j.error||'')); $('pGo').disabled=false; $('pGo').textContent='📤 ఫోటో పంపండి'; } }
+    catch(e){ toast('ఇంటర్నెట్ సమస్య'); $('pGo').disabled=false; $('pGo').textContent='📤 ఫోటో పంపండి'; } };
+}
+function shrink(f){ return new Promise((ok,no)=>{ const im=new Image(); im.onload=()=>{ const W=Math.min(1600,im.naturalWidth), H=Math.round(im.naturalHeight*W/im.naturalWidth); const c=document.createElement('canvas'); c.width=W; c.height=H; c.getContext('2d').drawImage(im,0,0,W,H); ok(c.toDataURL('image/jpeg',0.88)); }; im.onerror=no; im.src=URL.createObjectURL(f); }); }
 function render(){
   $('nP').textContent=ITEMS.filter(i=>i.status==='pending').length;
   $('nW').textContent=WEB.filter(i=>i.status==='pending').length;
   if(F==='web') return renderWeb();
+  if(F==='photo') return renderPhoto();
   const l=ITEMS.filter(i=>F==='all'||i.status===F);
   $('list').innerHTML=l.length?l.map(i=>`<article class="card" data-id="${esc(i.id)}">
     ${i.photo?`<img class="ph" data-photo="${esc(i.id)}" alt="ఫోటో లోడ్ అవుతోంది…">`:''}

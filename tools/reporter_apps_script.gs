@@ -20,6 +20,11 @@ const COLS = ['id','time','pin','reporter','district','place','lat','lng','headl
 // "Review": web news that the news tasks HOLD for the editor (crime allegations, deaths, communal, elections, emergencies,
 // conflicting reports). The editor approves at /editor/ (tab "వెబ్ వార్తలు"); the reporter-stories task publishes approved ones.
 const RCOLS = ['id','time','risk','headline','source','url','story','status','note','link'];
+// "Photos" (15 Nov 2026): OFFICIAL photos the editor attaches to a published story – government press releases (PIB, CMO, I&PR)
+// or a party's/leader's official handle, for ANY party. Each row keeps the credit and the source link the photo came from.
+const OCOLS = ['id','time','sid','headline','credit','person','party','srcurl','photo','status','note','link'];
+function photos_() { let r = sheet_('Photos'); if (!r) { r = book_().insertSheet('Photos'); r.appendRow(OCOLS); r.setFrozenRows(1); } return r; }
+function prows_() { const v = photos_().getDataRange().getValues(); return v.slice(1).map((r, i) => { const o = { _row: i + 2 }; OCOLS.forEach((c, j) => o[c] = String(r[j])); return o; }); }
 function review_() { let r = sheet_('Review'); if (!r) { r = book_().insertSheet('Review'); r.appendRow(RCOLS); r.setFrozenRows(1); } return r; }
 function rrows_() {
   const v = review_().getDataRange().getValues(), h = v[0];
@@ -149,6 +154,30 @@ function doPost(e) {
     if (b.action === 'reviewpublished' && b.key === BOT_KEY) {
       const r = rrows_().find(x => x.id === b.id); if (!r) return out_({ ok: false });
       const s = review_(); s.getRange(r._row, RCOLS.indexOf('status') + 1).setValue('published'); s.getRange(r._row, RCOLS.indexOf('link') + 1).setValue(clean_(b.link, 200));
+      return out_({ ok: true });
+    }
+    if (b.action === 'offphoto' && b.key === EDITOR_KEY) {   // editor attaches an official photo to a published story
+      const src = String(b.srcurl || ''); if (!/^https:\/\//.test(src)) return out_({ ok: false, error: 'source link (https) required' });
+      if (!b.sid || !b.data || !b.credit) return out_({ ok: false, error: 'missing' });
+      const id = 'o' + Utilities.formatDate(new Date(), 'Asia/Kolkata', 'yyMMddHHmmss') + '-' + Math.floor(Math.random() * 900 + 100);
+      const bytes = Utilities.base64Decode(String(b.data).replace(/^data:image\/\w+;base64,/, ''));
+      if (bytes.length > 4 * 1024 * 1024) return out_({ ok: false, error: 'photo too big' });
+      const f = folder_().createFile(Utilities.newBlob(bytes, 'image/jpeg', id + '.jpg'));
+      photos_().appendRow([id, Utilities.formatDate(new Date(), 'Asia/Kolkata', 'dd.MM.yyyy HH:mm'), clean_(b.sid, 40), clean_(b.headline, 200),
+        clean_(b.credit, 80), clean_(b.person, 80), clean_(b.party, 60), src.slice(0, 500), f.getId(), 'approved', '', '']);
+      return out_({ ok: true, id: id });
+    }
+    if (b.action === 'offphotolist' && b.key === EDITOR_KEY) {
+      return out_({ ok: true, items: prows_().slice(-40).reverse().map(r => Object.assign({}, r, { photo: '' })) });
+    }
+    if (b.action === 'offphotos' && b.key === BOT_KEY) {
+      return out_({ ok: true, items: prows_().filter(r => r.status === 'approved').map(r => Object.assign({}, r,
+        { photo_data: r.photo ? Utilities.base64Encode(DriveApp.getFileById(r.photo).getBlob().getBytes()) : '' })) });
+    }
+    if (b.action === 'offphotodone' && b.key === BOT_KEY) {   // status: published | rejected (note says why)
+      const r = prows_().find(x => x.id === b.id); if (!r) return out_({ ok: false });
+      const s = photos_(); s.getRange(r._row, OCOLS.indexOf('status') + 1).setValue(b.status === 'published' ? 'published' : 'rejected');
+      s.getRange(r._row, OCOLS.indexOf('note') + 1).setValue(clean_(b.note, 200)); s.getRange(r._row, OCOLS.indexOf('link') + 1).setValue(clean_(b.link, 200));
       return out_({ ok: true });
     }
     return out_({ ok: false, error: 'not allowed' });
