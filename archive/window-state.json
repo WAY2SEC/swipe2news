@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T13:35:00+05:30",
+ "cutoff": "2026-11-15T14:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T22:05:00+05:30/2026-11-11T22:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 4,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 2,
-   "review": 1,
-   "gaps": "Search-first; WebFetch via sub-agent. Search returned stale listing pages; UNI 242437 Kakinada Left parties dharna not readable (permission not answered) -> review; UNI south listing only to 16:06; Siasat home relative times only; Hans India page truncated; Eenadu, Sakshi, Andhra Jyothy, Namasthe Telangana, TV9, V6, NTV, ETV, The Hindu, PTI national, Reuters/BBC/AP and international-topic sources not surfaced. Skipped: Siasat 3574735 Indian sailors Saudi (minor international), Siasat PTI 3574734 Bhadohi UP case (minor other-state). TT Global Summit registrations (00:24) and Esha Singh gold (01:24) before lookback."
-  },
   {
    "window": "2026-11-11T22:35:00+05:30/2026-11-11T23:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "13:35 run started 13:36 IST. Lookback from 05:05 15 Nov. Feeds branch fresh (13:09, 70/70 ok, 823 uncovered TG/AP; covered flags stale). Published: Hans Revanth-Modi meeting (13:00), TT Nalgonda Airtel tower theft 9 held (12:12, late-found, sensitive), Siasat Nampally station heritage (10:57, late, claim), Siasat consumer commission ₹1.14L (11:58, late), Siasat/PTI PT Usha IOA nomination (12:48, late). Not opened: Munsif TG SAFE Ameenpur APIs (client error); Vaartha chicken prices, DC Eluru tiger, DC Secunderabad RPF, Siasat NIMS HC (search did not surface article). WebFetch first attempt failed with PROVENANCE_REQUIRED until URLs were surfaced by WebSearch. Districts covered: Hyderabad, Nalgonda."
+  },
+  {
+   "window": "2026-11-15T13:35:00+05:30/2026-11-15T14:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 7,
+   "late": 5,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "14:05 run started 14:06 IST. Lookback from 05:35 15 Nov. Feeds branch fresh (13:54, 70/70 ok; covered flags stale). Published: TT RIMS Adilabad director transfer (13:50), TT KTR on Congress/BJP leaders (13:32, claim), NewsMeter Ramoji Excellence Awards Vijayawada (13:08), NT Nizamabad lorry crash (12:57, late, sensitive), NewsMeter Telugu Jeevan Reddy gig scheme (12:54, late, claim), Hans Varaha river drowning Anakapalli (11:59, late, sensitive), Hans Guntur free paediatric OPD (06:14, late). Duplicate: NewsMeter Eli Lilly $1bn remark (same PHFI event already covered). Skipped: DC Karimnagar hotel food illness (11 Nov, old), Tiger Triumph Vizag (concluded earlier). Not found by search: Hindu Bar Council AP evening courts, Samayam IT corridor one-way loop, ETV Tirupati station revamp, Samayam Sangareddy PCB closures. Some allowed_domains/extended searches rejected by proxy (HTTP 400). Districts searched: Adilabad, Nizamabad, Anakapalli, Guntur, Karimnagar, Warangal, Khammam, Srikakulam, Siddipet/Medak/Sangareddy, Prakasam, NTR."
   }
  ],
  "seen": [
@@ -3718,6 +3718,56 @@
    "url": "https://www.siasat.com/ioa-accepts-pt-ushas-nomination-for-december-5-elections-3577909/",
    "d": "2026-11-15",
    "w": "2026-11-15T13:35"
+  },
+  {
+   "url": "https://telanganatoday.com/rims-adilabad-director-transferred-months-after-five-infants-died-in-sncu-tragedy",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/ktr-criticises-telangana-congress-bjp-leaders-over-conduct-during-national-leaders-visits",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/entertainment/ramoji-excellence-awards-to-be-held-in-vijayawada-on-monday-779350",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/nizamabad/man-killed-after-being-hit-by-a-lorry-in-nizamabad-2560875",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.newsmeter.in/telangana/brs-leader-t-jeevan-reddy-criticizes-rahul-gandhi-over-telangana-gig-workers-scheme-779347",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/ap-home-minister-anitha-condoles-death-of-three-youths-in-varaha-river-1142341",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/three-youth-goes-missing-in-a-river-in-anakapalli-search-underway-1142130",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/guntur/free-paediatric-opd-for-children-inaugurated-1142225",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/top-stories/eli-lilly-eyes-1-billion-investment-in-hyderabad-cm-revanth-woos-global-pharma-investors-779351",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/around-20-people-fall-ill-after-eating-at-karimnagar-hotel-2003603",
+   "d": "2026-11-15",
+   "w": "skipped"
   }
  ]
 }
