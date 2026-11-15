@@ -1,0 +1,599 @@
+{
+ "about": "Feeds read by tools/collect_feeds.py every 15 min. outlets = Google News search per site (last 24 h); direct = RSS feeds; districts = Google News per district (a quarter each run, all 59 every hour). rank: lower = preferred source when several papers report the same event.",
+ "outlets": [
+  {
+   "name": "Eenadu",
+   "site": "eenadu.net",
+   "lang": "te",
+   "rank": 10
+  },
+  {
+   "name": "Sakshi",
+   "site": "sakshi.com",
+   "lang": "te",
+   "rank": 12
+  },
+  {
+   "name": "Andhra Jyothy",
+   "site": "andhrajyothy.com",
+   "lang": "te",
+   "rank": 14
+  },
+  {
+   "name": "Namasthe Telangana",
+   "site": "ntnews.com",
+   "lang": "te",
+   "rank": 14
+  },
+  {
+   "name": "TV9 Telugu",
+   "site": "tv9telugu.com",
+   "lang": "te",
+   "rank": 20
+  },
+  {
+   "name": "NTV Telugu",
+   "site": "ntvtelugu.com",
+   "lang": "te",
+   "rank": 20
+  },
+  {
+   "name": "V6 Velugu",
+   "site": "v6velugu.com",
+   "lang": "te",
+   "rank": 20
+  },
+  {
+   "name": "10TV",
+   "site": "10tv.in",
+   "lang": "te",
+   "rank": 25
+  },
+  {
+   "name": "TV5 News",
+   "site": "tv5news.in",
+   "lang": "te",
+   "rank": 25
+  },
+  {
+   "name": "ETV Bharat",
+   "site": "etvbharat.com",
+   "lang": "te",
+   "rank": 18
+  },
+  {
+   "name": "Prajasakti",
+   "site": "prajasakti.com",
+   "lang": "te",
+   "rank": 30
+  },
+  {
+   "name": "Andhra Prabha",
+   "site": "andhraprabha.com",
+   "lang": "te",
+   "rank": 30
+  },
+  {
+   "name": "Mana Telangana",
+   "site": "manatelangana.news",
+   "lang": "te",
+   "rank": 30
+  },
+  {
+   "name": "Disha Daily",
+   "site": "dishadaily.com",
+   "lang": "te",
+   "rank": 32
+  },
+  {
+   "name": "Vaartha",
+   "site": "vaartha.com",
+   "lang": "te",
+   "rank": 32
+  },
+  {
+   "name": "HMTV",
+   "site": "hmtvlive.com",
+   "lang": "te",
+   "rank": 28
+  },
+  {
+   "name": "BIG TV",
+   "site": "bigtvlive.com",
+   "lang": "te",
+   "rank": 35
+  },
+  {
+   "name": "OneIndia Telugu",
+   "site": "telugu.oneindia.com",
+   "lang": "te",
+   "rank": 35
+  },
+  {
+   "name": "Samayam Telugu",
+   "site": "telugu.samayam.com",
+   "lang": "te",
+   "rank": 35
+  },
+  {
+   "name": "News18 Telugu",
+   "site": "telugu.news18.com",
+   "lang": "te",
+   "rank": 30
+  },
+  {
+   "name": "The Hindu",
+   "site": "thehindu.com",
+   "lang": "en",
+   "rank": 8
+  },
+  {
+   "name": "Deccan Chronicle",
+   "site": "deccanchronicle.com",
+   "lang": "en",
+   "rank": 16
+  },
+  {
+   "name": "Telangana Today",
+   "site": "telanganatoday.com",
+   "lang": "en",
+   "rank": 15
+  },
+  {
+   "name": "The Hans India",
+   "site": "thehansindia.com",
+   "lang": "en",
+   "rank": 18
+  },
+  {
+   "name": "Times of India",
+   "site": "timesofindia.indiatimes.com",
+   "lang": "en",
+   "rank": 16
+  },
+  {
+   "name": "New Indian Express",
+   "site": "newindianexpress.com",
+   "lang": "en",
+   "rank": 15
+  },
+  {
+   "name": "Siasat",
+   "site": "siasat.com",
+   "lang": "en",
+   "rank": 22
+  },
+  {
+   "name": "NewsMeter",
+   "site": "newsmeter.in",
+   "lang": "en",
+   "rank": 26
+  },
+  {
+   "name": "Indian Express",
+   "site": "indianexpress.com",
+   "lang": "en",
+   "rank": 15
+  }
+ ],
+ "direct": [
+  {
+   "name": "The Hindu",
+   "url": "https://www.thehindu.com/news/national/telangana/feeder/default.rss",
+   "region": "TG",
+   "rank": 8
+  },
+  {
+   "name": "The Hindu",
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/feeder/default.rss",
+   "region": "AP",
+   "rank": 8
+  },
+  {
+   "name": "Telangana Today",
+   "url": "https://telanganatoday.com/feed",
+   "region": "TG",
+   "rank": 15
+  },
+  {
+   "name": "Siasat",
+   "url": "https://www.siasat.com/feed/",
+   "region": "TG",
+   "rank": 22
+  },
+  {
+   "name": "PIB",
+   "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+   "region": "IN",
+   "rank": 5
+  }
+ ],
+ "districts": [
+  {
+   "en": "Adilabad",
+   "te": "ఆదిలాబాద్",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Bhadradri Kothagudem",
+   "te": "భద్రాద్రి కొత్తగూడెం",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Hyderabad",
+   "te": "హైదరాబాద్",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Jagtial",
+   "te": "జగిత్యాల",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Jangaon",
+   "te": "జనగామ",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Jayashankar Bhupalpally",
+   "te": "భూపాలపల్లి",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Jogulamba Gadwal",
+   "te": "గద్వాల",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Kamareddy",
+   "te": "కామారెడ్డి",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Karimnagar",
+   "te": "కరీంనగర్",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Khammam",
+   "te": "ఖమ్మం",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Kumuram Bheem Asifabad",
+   "te": "ఆసిఫాబాద్",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Mahabubabad",
+   "te": "మహబూబాబాద్",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Mahabubnagar",
+   "te": "మహబూబ్‌నగర్",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Mancherial",
+   "te": "మంచిర్యాల",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Medak",
+   "te": "మెదక్",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Medchal Malkajgiri",
+   "te": "మేడ్చల్",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Mulugu",
+   "te": "ములుగు",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Nagarkurnool",
+   "te": "నాగర్‌కర్నూల్",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Nalgonda",
+   "te": "నల్గొండ",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Narayanpet",
+   "te": "నారాయణపేట",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Nirmal",
+   "te": "నిర్మల్",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Nizamabad",
+   "te": "నిజామాబాద్",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Peddapalli",
+   "te": "పెద్దపల్లి",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Rajanna Sircilla",
+   "te": "సిరిసిల్ల",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Rangareddy",
+   "te": "రంగారెడ్డి",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Sangareddy",
+   "te": "సంగారెడ్డి",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Siddipet",
+   "te": "సిద్దిపేట",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Suryapet",
+   "te": "సూర్యాపేట",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Vikarabad",
+   "te": "వికారాబాద్",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Wanaparthy",
+   "te": "వనపర్తి",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Warangal",
+   "te": "వరంగల్",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Hanamkonda",
+   "te": "హన్మకొండ",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Yadadri Bhuvanagiri",
+   "te": "యాదాద్రి భువనగిరి",
+   "state": "TG",
+   "state_en": "Telangana"
+  },
+  {
+   "en": "Srikakulam",
+   "te": "శ్రీకాకుళం",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Vizianagaram",
+   "te": "విజయనగరం",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Parvathipuram Manyam",
+   "te": "పార్వతీపురం మన్యం",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Alluri Sitharama Raju",
+   "te": "అల్లూరి సీతారామరాజు జిల్లా",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Visakhapatnam",
+   "te": "విశాఖపట్నం",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Anakapalli",
+   "te": "అనకాపల్లి",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Kakinada",
+   "te": "కాకినాడ",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Konaseema",
+   "te": "కోనసీమ",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "East Godavari",
+   "te": "తూర్పు గోదావరి",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "West Godavari",
+   "te": "పశ్చిమ గోదావరి",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Eluru",
+   "te": "ఏలూరు",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Krishna",
+   "te": "కృష్ణా జిల్లా",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "NTR district",
+   "te": "ఎన్టీఆర్ జిల్లా విజయవాడ",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Guntur",
+   "te": "గుంటూరు",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Bapatla",
+   "te": "బాపట్ల",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Palnadu",
+   "te": "పల్నాడు",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Prakasam",
+   "te": "ప్రకాశం",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Nellore",
+   "te": "నెల్లూరు",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Kurnool",
+   "te": "కర్నూలు",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Nandyal",
+   "te": "నంద్యాల",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Anantapur",
+   "te": "అనంతపురం",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Sri Sathya Sai",
+   "te": "శ్రీ సత్యసాయి జిల్లా",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "YSR Kadapa",
+   "te": "కడప",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Annamayya",
+   "te": "అన్నమయ్య జిల్లా",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Tirupati",
+   "te": "తిరుపతి",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  },
+  {
+   "en": "Chittoor",
+   "te": "చిత్తూరు",
+   "state": "AP",
+   "state_en": "Andhra Pradesh"
+  }
+ ],
+ "topics": [
+  {
+   "q": "Telangana",
+   "lang": "en",
+   "region": "TG"
+  },
+  {
+   "q": "Andhra Pradesh",
+   "lang": "en",
+   "region": "AP"
+  },
+  {
+   "q": "తెలంగాణ ప్రభుత్వం",
+   "lang": "te",
+   "region": "TG"
+  },
+  {
+   "q": "ఏపీ ప్రభుత్వం",
+   "lang": "te",
+   "region": "AP"
+  },
+  {
+   "q": "India",
+   "lang": "en",
+   "region": "IN"
+  },
+  {
+   "q": "world news",
+   "lang": "en",
+   "region": "WORLD"
+  }
+ ]
+}

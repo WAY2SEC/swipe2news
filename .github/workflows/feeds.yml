@@ -1,0 +1,36 @@
+name: Collect news feeds
+
+# Every 15 minutes: read headline feeds from all Telugu/English papers, TV sites,
+# PIB and Google News (per outlet and per district), group the same event from
+# different papers into one, and save the list on the "feeds" branch.
+# The newsroom task reads that list so no news is missed. Headlines + links only.
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: feeds
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Collect
+        run: python3 tools/collect_feeds.py . /tmp/feeds
+      - name: Save to the feeds branch (one commit, no history build-up)
+        run: |
+          cd /tmp/feeds
+          printf '# Swipe2News feeds\n\nlatest.json = news events from the last 36 h (same event from several papers grouped).\nstatus.json = which feeds worked. Updated every 15 min by .github/workflows/feeds.yml on main.\n' > README.md
+          git init -q -b feeds
+          git -c user.name="Swipe2News Bot" -c user.email=news-bot@swipe2news.invalid add -A
+          git -c user.name="Swipe2News Bot" -c user.email=news-bot@swipe2news.invalid commit -qm "feeds $(date -u +%FT%TZ)"
+          git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" feeds:feeds
