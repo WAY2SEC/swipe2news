@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T05:05:00+05:30",
+ "cutoff": "2026-11-15T05:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T13:35:00+05:30/2026-11-11T14:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 7,
-   "published": 4,
-   "late": 3,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agent. Searches mostly returned stale listing/tag pages (Siasat, Telangana Today, DC, Hans, NewsMeter, South First listings showed nothing dated 11 Nov). ETV AP live blog snapshot ended 09:10. Eenadu, Sakshi, TV9, V6, NTV, The Hindu, PTI, Reuters/BBC/AP and international-topic articles not surfaced in range. Duplicates: DC/PTI CII Partnership Summit preview and Hans Amit Shah Vizag visit (same event as 07:05 story). Skipped: Hans petrol/diesel prices page (no figures). Before lookback: TT CPI(M) MLC (24 Oct), TT graduate voter registration (29 Oct)."
-  },
   {
    "window": "2026-11-11T14:05:00+05:30/2026-11-11T14:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 6,
    "review": 3,
    "gaps": "05:05 run started 05:06 IST (overnight window). Lookback from 15:35 14 Nov. Published: TT Pocharam wife attacked by husband allegation (00:47, claim, sensitive), DC Jagtial Nukapalli canal water to tanks (22:22, fact, late), DC Sridhar Babu Our World Institute at Bharat Summit (17:50, fact, late). Duplicate: Hans India AP rain alert cyclone 18 Nov (already published). Skipped pre-lookback: Siasat OU hostel protest (13:14), Hans Anitha CII video (13 Nov), Hans low pressure (13 Nov), Hans Murasu Godavari (5 Nov), DC Eluru/Kakinada ZP posts (13 Nov), TT Nasi and Mee restaurant (promotional). Review: Hans Gadkari Rs 3L-cr roads (only update time 14 Nov 04:47), Eenadu Swachh awards and Amaravati ORR (robots refused). Andhra Jyothy live blog no entries after 07:40. Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; standard world/India searches stale. Districts searched: Nalgonda, Suryapet, Yadadri, Kurnool, Nandyal, Anantapur, Jangaon, Mahabubabad, Bhupalpally, Mulugu, Chittoor, Tirupati, Kadapa, Annamayya, Eluru, Kakinada, East Godavari, Vikarabad, Rangareddy, Sangareddy, Nellore, Prakasam, Bapatla, Palnadu, Visakhapatnam, Srikakulam, Vizianagaram, Nizamabad, Kamareddy, Adilabad, Nirmal."
+  },
+  {
+   "window": "2026-11-15T05:05:00+05:30/2026-11-15T05:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 1,
+   "published": 1,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "05:35 run started 05:36 IST. Lookback from 21:05 14 Nov. Published: TT TG-iPASS ransomware probe (15 Nov 00:18, fact). Skipped old (search surfaced): TT single-digit temperatures (15 Nov 2025), TT Hyderabad concerts (15 Nov 2024). Already seen: TT dry weather, DC AP coast cyclone, Sakshipost cyclone 16 Nov, The Week Cyclone Akvan, TT IMD cyclone warning. Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; standard searches stale. Districts searched: Warangal, Hanumakonda, Mancherial, Asifabad, Gadwal, Narayanpet, Sircilla, Siddipet, Konaseema, Kakinada, Sri Sathya Sai, NTR, Alluri Sitharama Raju."
   }
  ],
  "seen": [
@@ -3083,6 +3083,21 @@
    "url": "https://eenadu.net/telugu-news/andhra-pradesh/amaravati-orr-to-be-executed-in-two-packages/1799/126205973",
    "d": "2026-11-15",
    "w": "review"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-cyber-bureau-probes-ransomware-attack-on-tg-ipass-website",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-records-single-digit-temperatures-as-november-winter-cold-intensifies",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-all-ready-to-rock-with-star-studded-concerts-in-upcoming-weeks",
+   "d": "2026-11-15",
+   "w": "skipped"
   }
  ]
 }
