@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T15:05:00+05:30",
+ "cutoff": "2026-11-15T15:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T23:35:00+05:30/2026-11-12T06:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 19,
-   "published": 14,
-   "late": 3,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 1,
-   "review": 2,
-   "gaps": "Overnight run, search-first (extended); WebFetch via sub-agent. Eenadu refused (robots_disallowed); Sakshi, Andhra Jyothy, TV9, V6, NTV, ETV Bharat, The Hindu, PTI national not surfaced in range; Al Jazeera page had no timezone (review). World/international-topic searches surfaced only items published before lookback (Reuters oil 10:25 IST, CBS CPI) -> no World/International stories. UNI Sohail article partly paywalled (summary from visible text). Districts searched: Nalgonda, Suryapet, Karimnagar, Jagtial, Sircilla, Warangal, Khammam, Nizamabad, Adilabad, Kamareddy, Mahabubnagar, Nagarkurnool, Wanaparthy, Gadwal, Medak, Siddipet, Sangareddy, Visakhapatnam, Guntur, Vijayawada, Tirupati, Nellore, Kurnool, Kakinada, Rajahmundry, Eluru, Srikakulam, Anantapur, Kadapa, Chittoor, Ongole. Skipped: Hans 1141255 Priyank Kharge (minor other-state)."
-  },
   {
    "window": "2026-11-12T06:35:00+05:30/2026-11-12T07:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "15:05 run started 15:06 IST. Lookback from 06:35 15 Nov. Feeds branch fresh (14:45, 70/70 ok, 774 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Standard WebSearch did not surface today's articles; extended search did, and fetches worked only after that. Published: Vaartha Cherlapally jail ITI (14:04), TT Panjagutta complaint against businessman (14:42, sensitive, claim), Siasat Malkajgiri PD Act Rampally (08:35, late, sensitive), Siasat Vasavi Urban Bachupally buyers (09:19, late, claim). Duplicate: TT Adilabad farmer 14:37 (same Talamadugu farmer covered 13:05). Skipped, published before lookback: Andhra Jyothy AP Td vaccination drive Dec 3-5 (05:05; Hindu 14:10 version not surfaced), DC/AP Meta Italy fine (06:27), Hans Khammam Governor/Red Cross (05:58), Hans Tummala pensions Khammam (05:38). Already covered: Bowrampet bus fire, Rahul Bharat Summit remarks, Giribabu. Not opened: Hindu Bar Council evening courts, Siasat NIMS HC, TT MCEME seminar, Siasat Inter student hostel death (search did not surface). Districts covered: Hyderabad, Medchal."
+  },
+  {
+   "window": "2026-11-15T15:05:00+05:30/2026-11-15T15:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 8,
+   "published": 6,
+   "late": 3,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 1,
+   "gaps": "15:35 run started 15:36 IST. Lookback from 07:05 15 Nov. Feeds branch fresh (15:16, 68/68 ok, 698 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: TT Nirmal car fire mechanic dies (15:05, sensitive), TT Raja Singh CBI probe on Sajjanar (15:10, claim), South First AP NCD 4.0 screening (15:07), BigTV Telangana cold Kohir 11C (07:33, late), TT Nalgonda bird feeder (14:47, late), DC Secunderabad RPF rescue (13:07, late). Duplicate: NewsMeter Eli Lilly $1bn (CM remarks at PHFI event already covered; Lilly plan is a 2025 announcement). Review: BW Waaree Kakinada green ammonia (dated 12 Nov, no time, AI-generated label). 8 district searches (Khammam, Karimnagar, Warangal, Srikakulam/Vizianagaram, Kurnool, Mahabubnagar, Nellore/Prakasam, Siddipet/Medak) returned only older items. Districts covered: Nirmal, Hyderabad, Sangareddy, Nalgonda, AP statewide."
   }
  ],
  "seen": [
@@ -3848,6 +3848,41 @@
    "url": "https://www.thehansindia.com/news/cities/khammam/telangana-leads-country-in-welfare-initiatives-tummala-1142199",
    "d": "2026-11-15",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/nirmal-mechanic-dies-after-car-catches-fire-while-transporting-petrol-cans",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/raja-singh-seeks-cbi-probe-into-allegations-against-former-hyderabad-cp-sajjanar",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://thesouthfirst.com/andhrapradesh/andhra-pradesh-identifies-12-23-lakh-new-hypertension-cases-and-11-58-lakh-diabetes-cases-through-state-wide-screening/",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.bigtvlive.com/telangana/cold-winds-across-telangana-lowest-temperature-recorded-in-kohir.html",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/nalgonda-man-feeds-hundreds-of-birds-daily-for-15-years-inspires-others-to-follow",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/rpf-asi-saves-53-year-old-passenger-from-moving-train-at-secunderabad-2004596",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.businessworld.in/article/waaree-energies-bets-rs-15-000-cr-on-green-ammonia-plans-1-2-mt-plant-in-andhra-633217",
+   "d": "2026-11-15",
+   "w": "review"
   }
  ]
 }
