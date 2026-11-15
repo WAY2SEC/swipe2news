@@ -1,8 +1,118 @@
 {
  "date": "15.11.2026",
- "updated": "2026-11-15T22:35:00+05:30",
+ "updated": "2026-11-15T23:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "ఏపీ · తుపాను",
+   "col": "--c-water",
+   "art": "rain",
+   "stat": "₹2,484 కోట్ల",
+   "statl": "నష్టం అని ప్రభుత్వ అంచనా",
+   "h": "మురసు తుపానుతో ఏపీకి ₹2,484 కోట్ల నష్టం",
+   "p": "మురసు తుపాను వల్ల ఆంధ్రప్రదేశ్‌లో ₹2,484 కోట్ల నష్టం జరిగిందని రాష్ట్ర ప్రభుత్వం అంచనా వేసింది. కేంద్ర హోంశాఖ సంయుక్త కార్యదర్శి చిత్తరంజన్ దాస్ నేతృత్వంలోని ఏడుగురు సభ్యుల బృందంతో సీఎం చంద్రబాబు నాయుడు ఆదివారం వర్చువల్‌గా సమావేశమయ్యారు. తక్షణ ఆర్థిక సాయం అందించాలని, తుపానులను తట్టుకునే బలమైన మౌలిక వసతుల కోసం కేంద్రం సహకరించాలని కోరారు.",
+   "pts": [
+    "1,86,063 మంది రైతుల పంటలు దెబ్బతిన్నాయి",
+    "తూర్పు గోదావరిలో 80 శాతం, ఏలూరులో 90 శాతం వరి నష్టం",
+    "10 రోజుల్లో కేంద్రానికి బృందం నివేదిక"
+   ],
+   "why": "తుపానుతో నష్టపోయిన రైతులు, గ్రామీణ ప్రజలకు అందే కేంద్ర సాయం ఈ నివేదికపై ఆధారపడి ఉంటుంది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/stronger-infrastructure-needed-to-minimise-cyclone-damage-cm-2004697",
+   "sec": [
+    "telangana",
+    "weather",
+    "agri"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-15T23:02+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Cyclone",
+    "h": "Cyclone Murasu cost AP ₹2,484 crore",
+    "stat": "₹2,484 crore",
+    "statl": "loss, as estimated by the state",
+    "loc": "Andhra Pradesh",
+    "p": "The Andhra Pradesh government has estimated the damage from Cyclone Murasu at ₹2,484 crore. On Sunday, Chief Minister N Chandrababu Naidu held a virtual meeting with a seven-member central team led by MHA Joint Secretary Chittaranjan Das. He sought immediate financial aid and central help to build stronger, cyclone-resilient infrastructure.",
+    "pts": [
+     "Crops of 1,86,063 farmers were damaged",
+     "Paddy loss up to 80% in East Godavari, 90% in Eluru",
+     "Team to report to the Centre within 10 days"
+    ],
+    "why": "Central aid for cyclone-hit farmers and rural people depends on this team's report."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · चक्रवात",
+    "h": "मुरासु चक्रवात से आंध्र को ₹2,484 करोड़ का नुकसान",
+    "stat": "₹2,484 करोड़",
+    "statl": "नुकसान, राज्य सरकार का अनुमान",
+    "loc": "आंध्र प्रदेश",
+    "p": "आंध्र प्रदेश सरकार ने मुरासु चक्रवात से हुए नुकसान का अनुमान ₹2,484 करोड़ लगाया है। मुख्यमंत्री एन चंद्रबाबू नायडू ने रविवार को गृह मंत्रालय के संयुक्त सचिव चित्तरंजन दास के नेतृत्व वाली सात सदस्यीय केंद्रीय टीम के साथ वर्चुअल बैठक की। उन्होंने तत्काल आर्थिक मदद और चक्रवात झेलने लायक मजबूत बुनियादी ढांचे के लिए केंद्र से सहायता मांगी।",
+    "pts": [
+     "1,86,063 किसानों की फसलें बर्बाद",
+     "पूर्वी गोदावरी में 80%, एलुरु में 90% धान का नुकसान",
+     "टीम 10 दिन में केंद्र को रिपोर्ट देगी"
+    ],
+    "why": "चक्रवात प्रभावित किसानों और ग्रामीणों को मिलने वाली केंद्रीय मदद इसी रिपोर्ट पर निर्भर है।"
+   },
+   "d": "15.11.2026",
+   "t": "23:05",
+   "local": true
+  },
+  {
+   "cat": "హైదరాబాద్ · రైల్వే",
+   "col": "--c-city",
+   "stat": "53 ఏళ్ల ప్రయాణికుడు",
+   "statl": "రైలు, ప్లాట్‌ఫాం మధ్య పడ్డారు",
+   "h": "సికింద్రాబాద్ స్టేషన్‌లో తప్పిన ప్రమాదం",
+   "p": "సికింద్రాబాద్ రైల్వే స్టేషన్‌లో శనివారం సాయంత్రం సుమారు 5 గంటలకు కదులుతున్న గోదావరి ఎక్స్‌ప్రెస్ ఎక్కుతుండగా 53 ఏళ్ల వ్యక్తి జారిపడ్డారు. ఆయన రైలు, ప్లాట్‌ఫాం మధ్య ఖాళీలో పడిపోయారు. అక్కడే ఉన్న ఆర్పీఎఫ్ సిబ్బంది వెంటనే స్పందించి ఆయనను బయటకు లాగి కాపాడారు. దీంతో పెద్ద ప్రమాదం తప్పింది.",
+   "pts": [
+    "ప్రయాణికుడు మంచిర్యాల జిల్లాకు చెందినవారు",
+    "మొత్తం ఘటన స్టేషన్ సీసీటీవీలో రికార్డయింది"
+   ],
+   "why": "కదులుతున్న రైలు ఎక్కడం, దిగడం ఎంత ప్రమాదమో రైలు ప్రయాణికులకు ఈ ఘటన గుర్తు చేస్తోంది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/watch-rpf-personnel-rescue-man-from-gap-between-moving-train-and-platform-in-secunderabad",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "సికింద్రాబాద్",
+   "pub": "2026-11-15T16:12+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Railways",
+    "h": "RPF saves passenger at Secunderabad station",
+    "stat": "53-year-old",
+    "statl": "fell between train and platform",
+    "loc": "Secunderabad, Hyderabad",
+    "p": "At Secunderabad railway station on Saturday at around 5 pm, a 53-year-old man slipped while boarding the moving Godavari Express and fell into the gap between the train and the platform. RPF personnel on duty reacted at once and pulled him out to safety, averting a major accident.",
+    "pts": [
+     "The passenger is from Mancherial district",
+     "The whole incident was caught on station CCTV"
+    ],
+    "why": "The incident reminds rail passengers how risky it is to board or leave a moving train."
+   },
+   "hi": {
+    "cat": "हैदराबाद · रेलवे",
+    "h": "सिकंदराबाद में आरपीएफ ने यात्री को बचाया",
+    "stat": "53 वर्षीय यात्री",
+    "statl": "ट्रेन और प्लेटफॉर्म के बीच गिरे",
+    "loc": "सिकंदराबाद, हैदराबाद",
+    "p": "सिकंदराबाद रेलवे स्टेशन पर शनिवार शाम करीब 5 बजे चलती गोदावरी एक्सप्रेस में चढ़ते समय 53 वर्षीय व्यक्ति फिसलकर ट्रेन और प्लेटफॉर्म के बीच की जगह में गिर गए। ड्यूटी पर मौजूद आरपीएफ कर्मियों ने तुरंत उन्हें बाहर खींचकर बचा लिया और बड़ा हादसा टल गया।",
+    "pts": [
+     "यात्री मंचेरियल जिले के रहने वाले हैं",
+     "पूरी घटना स्टेशन के सीसीटीवी में रिकॉर्ड हुई"
+    ],
+    "why": "यह घटना यात्रियों को याद दिलाती है कि चलती ट्रेन में चढ़ना-उतरना कितना खतरनाक है।"
+   },
+   "d": "15.11.2026",
+   "t": "23:05",
+   "local": true
+  },
   {
    "cat": "తెలంగాణ · ప్రమాదం",
    "col": "--c-power",
@@ -2626,115 +2736,6 @@
    },
    "d": "15.11.2026",
    "t": "17:20"
-  },
-  {
-   "cat": "తెలంగాణ · వాతావరణం",
-   "col": "--c-water",
-   "art": "rain",
-   "stat": "నవంబర్ 20–22",
-   "statl": "తెలంగాణలో వర్షాలకు అవకాశం",
-   "h": "అక్వాన్ తుపానుతో తెలంగాణలో వర్షాల సూచన",
-   "p": "బంగాళాఖాతంలో ఏర్పడనున్న అక్వాన్ తుపాను ప్రభావంతో తెలంగాణలో నవంబర్ 20 నుంచి వర్షాలు పడే అవకాశం ఉందని ఐఎండీ హైదరాబాద్ అంచనా వేసింది. ఖమ్మం, భద్రాద్రి కొత్తగూడెం, మహబూబాబాద్, సూర్యాపేట, నల్గొండ, ములుగు జిల్లాల్లో నవంబర్ 20–21న తేలికపాటి నుంచి మోస్తరు వర్షాలు, అక్కడక్కడ భారీ వర్షాలు పడవచ్చు. హైదరాబాద్ సహా మిగతా ప్రాంతాల్లో నవంబర్ 21–22న జల్లులు కురిసే అవకాశం ఉంది.",
-   "pts": [
-    "ఉరుములు, మెరుపులు, ఈదురుగాలులకు అవకాశం",
-    "వరంగల్, కరీంనగర్, పెద్దపల్లి, మంచిర్యాలలోనూ ఉరుములతో వర్షాలు",
-    "అప్పటివరకు పొడి వాతావరణం, చలి కొనసాగుతుంది"
-   ],
-   "why": "తూర్పు జిల్లాల రైతులు, పంట కోతల్లో ఉన్నవారు ముందే జాగ్రత్తలు తీసుకోవాలి.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/cyclone-akvan-may-bring-rain-to-telangana-from-november-20-imd-forecasts",
-   "sec": [
-    "telangana",
-    "weather"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pub": "2026-11-15T17:02+05:30",
-   "lbl": "forecast",
-   "en": {
-    "cat": "Telangana · Weather",
-    "h": "Cyclone Akvan may bring rain to Telangana",
-    "stat": "Nov 20–22",
-    "statl": "rain likely in Telangana",
-    "loc": "Telangana",
-    "p": "IMD Hyderabad expects rain in Telangana from November 20 under the influence of Cyclone Akvan, which is set to form over the Bay of Bengal. Khammam, Bhadradri Kothagudem, Mahabubabad, Suryapet, Nalgonda and Mulugu may get light to moderate rain with isolated heavy spells on November 20–21. Hyderabad and other areas may see showers on November 21–22.",
-    "pts": [
-     "Thunder, lightning and gusty winds likely",
-     "Thundershowers also likely in Warangal, Karimnagar, Peddapalli, Mancherial",
-     "Dry, cold spell continues until then"
-    ],
-    "why": "Farmers in eastern districts, especially those harvesting, should prepare in advance."
-   },
-   "hi": {
-    "cat": "तेलंगाना · मौसम",
-    "h": "चक्रवात अक्वान से तेलंगाना में बारिश के आसार",
-    "stat": "20–22 नवंबर",
-    "statl": "तेलंगाना में बारिश की संभावना",
-    "loc": "तेलंगाना",
-    "p": "आईएमडी हैदराबाद के अनुसार बंगाल की खाड़ी में बनने वाले चक्रवात अक्वान के असर से तेलंगाना में 20 नवंबर से बारिश हो सकती है। खम्मम, भद्राद्री कोत्तागुडेम, महबूबाबाद, सूर्यापेट, नलगोंडा और मुलुगु में 20–21 नवंबर को हल्की से मध्यम और कहीं-कहीं भारी बारिश हो सकती है। हैदराबाद समेत बाकी इलाकों में 21–22 नवंबर को बौछारें पड़ सकती हैं।",
-    "pts": [
-     "गरज, बिजली और तेज हवाओं की संभावना",
-     "वारंगल, करीमनगर, पेद्दापल्ली, मंचेरियल में भी गरज के साथ बारिश",
-     "तब तक सूखा और ठंडा मौसम रहेगा"
-    ],
-    "why": "पूर्वी जिलों के किसान, खासकर कटाई करने वाले, पहले से तैयारी करें।"
-   },
-   "d": "15.11.2026",
-   "t": "17:05"
-  },
-  {
-   "cat": "తెలంగాణ · భద్రాచలం",
-   "col": "--c-city",
-   "art": "unity",
-   "stat": "3 గంటలు",
-   "statl": "ఉచిత దర్శనానికి నిరీక్షణ",
-   "h": "భద్రాచలం రామాలయానికి పోటెత్తిన భక్తులు",
-   "p": "కార్తీక మాసంలో మొదటి శని, ఆదివారం సెలవులు కావడంతో భద్రాచలం శ్రీ సీతారామచంద్ర స్వామి ఆలయానికి భక్తులు భారీగా తరలివచ్చారు. తెల్లవారుజాము నుంచే క్యూలైన్లలో బారులు తీరారు. ఉచిత దర్శనానికి సుమారు మూడు గంటలు, ప్రత్యేక దర్శనానికి సుమారు గంట సమయం పట్టింది. రద్దీ పెరగడంతో అధికారులు అదనపు క్యూలైన్లు ఏర్పాటు చేశారు.",
-   "pts": [
-    "ప్రత్యేక దర్శనానికి సుమారు గంట",
-    "మిథిలా స్టేడియం ప్రాంగణంలో నిత్య కల్యాణంలో పాల్గొన్న భక్తులు"
-   ],
-   "why": "కార్తీక మాసంలో భద్రాచలం వెళ్లే భక్తులు ఎక్కువ సమయం వేచి ఉండేందుకు సిద్ధంగా ఉండాలి.",
-   "src": "HMTV",
-   "url": "https://www.hmtvlive.com/telugu-news/khammam/bhadrachalam-sri-sita-ramachandra-swamy-temple-heavy-devotees-rush-213148",
-   "sec": [
-    "telangana",
-    "culture"
-   ],
-   "st": "TG",
-   "place": "bhadradri",
-   "loc": "భద్రాచలం",
-   "pub": "2026-11-15T12:04+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Bhadrachalam",
-    "h": "Devotees throng Bhadrachalam Rama temple",
-    "stat": "3 hours",
-    "statl": "wait for free darshan",
-    "loc": "Bhadrachalam, Bhadradri Kothagudem",
-    "p": "Large crowds of devotees reached the Sri Sita Ramachandra Swamy temple at Bhadrachalam on the first weekend holidays of Karthika Masam. Queues formed from early morning. Free darshan took about three hours and special darshan about an hour. Officials set up extra queue lines as the crowd grew.",
-    "pts": [
-     "Special darshan took about one hour",
-     "Devotees joined Nithya Kalyanam at Mithila Stadium premises"
-    ],
-    "why": "Devotees visiting Bhadrachalam during Karthika Masam should be ready for long waits."
-   },
-   "hi": {
-    "cat": "तेलंगाना · भद्राचलम",
-    "h": "भद्राचलम राम मंदिर में भक्तों की भारी भीड़",
-    "stat": "3 घंटे",
-    "statl": "मुफ्त दर्शन का इंतजार",
-    "loc": "भद्राचलम, भद्राद्री कोत्तागुडेम",
-    "p": "कार्तिक मास के पहले सप्ताहांत की छुट्टियों पर भद्राचलम के श्री सीता रामचंद्र स्वामी मंदिर में भक्तों की भारी भीड़ उमड़ी। सुबह से ही कतारें लग गईं। मुफ्त दर्शन में करीब तीन घंटे और विशेष दर्शन में करीब एक घंटा लगा। भीड़ बढ़ने पर अधिकारियों ने अतिरिक्त कतारें बनाईं।",
-    "pts": [
-     "विशेष दर्शन में करीब एक घंटा",
-     "मिथिला स्टेडियम परिसर में नित्य कल्याणम में भक्त शामिल"
-    ],
-    "why": "कार्तिक मास में भद्राचलम जाने वाले भक्त लंबे इंतजार के लिए तैयार रहें।"
-   },
-   "d": "15.11.2026",
-   "t": "17:05"
   }
  ]
 }
