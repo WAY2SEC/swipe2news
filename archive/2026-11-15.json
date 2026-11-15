@@ -1,8 +1,116 @@
 {
  "date": "15.11.2026",
  "iso": "2026-11-15",
- "count": 12,
+ "count": 14,
  "stories": [
+  {
+   "cat": "ఏపీ · వాతావరణం",
+   "col": "--c-water",
+   "art": "rain",
+   "stat": "నవంబర్ 18–19",
+   "statl": "భారీ వర్షాల సూచన",
+   "h": "అక్వాన్ తుపాను: ఏపీకి ఆరెంజ్ అలర్ట్",
+   "p": "బంగాళాఖాతంలోని అల్పపీడనం ఆదివారం వాయుగుండంగా, సోమవారం సాయంత్రానికి తుపానుగా మారే అవకాశం ఉంది. బుధవారం నాటికి తీవ్ర తుపానుగా బలపడి గంటకు సుమారు 120 కిలోమీటర్ల వేగంతో గాలులు వీయవచ్చు. తీరం దాటే ప్రాంతం ఇంకా ఖరారు కాలేదని రాష్ట్ర విపత్తు నిర్వహణ సంస్థ ఎండీ ప్రఖర్ జైన్ తెలిపారు. ఐఎండీ ఆరెంజ్ అలర్ట్ జారీ చేసింది.",
+   "pts": [
+    "మన్యం, అల్లూరి, కాకినాడ, కోనసీమ, గోదావరి జిల్లాలు, ఏలూరులో అతి భారీ వర్షాల సూచన",
+    "మత్స్యకారులు నవంబర్ 15 సాయంత్రంలోగా తిరిగి రావాలి",
+    "తీరం దాటే చోటుపై 24 గంటల్లో స్పష్టత"
+   ],
+   "why": "ఉత్తర, కోస్తా ఆంధ్ర జిల్లాల ప్రజలు, మత్స్యకారులు, రైతులు అప్రమత్తంగా ఉండాలి.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/amaravati/cyclone-akvan-likely-to-hit-ap-coast-on-nov-18-1142184",
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-15T05:13+05:30",
+   "lbl": "forecast",
+   "en": {
+    "cat": "AP · Weather",
+    "h": "Cyclone Akvan: orange alert for AP",
+    "stat": "November 18–19",
+    "statl": "heavy rain forecast",
+    "p": "The low-pressure area over the Bay of Bengal is likely to become a depression on Sunday and a cyclonic storm by Monday evening, strengthening into a severe cyclonic storm by Wednesday with winds near 120 kmph. State Disaster Management Authority MD Prakhar Jain said the landfall point is not yet fixed. IMD has issued an orange alert.",
+    "pts": [
+     "Heavy to extremely heavy rain likely in Manyam, Alluri, Kakinada, Konaseema, Godavari districts, Eluru",
+     "Fishermen told to return by the evening of November 15",
+     "Clearer landfall forecast expected within 24 hours"
+    ],
+    "why": "People, fishermen and farmers in north and coastal Andhra districts need to stay alert.",
+    "loc": ""
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · मौसम",
+    "h": "चक्रवात अक्वान: आंध्र में ऑरेंज अलर्ट",
+    "stat": "18–19 नवंबर",
+    "statl": "भारी बारिश का पूर्वानुमान",
+    "p": "बंगाल की खाड़ी में बना कम दबाव का क्षेत्र रविवार को डिप्रेशन और सोमवार शाम तक चक्रवाती तूफान बन सकता है। बुधवार तक यह गंभीर चक्रवात बनकर लगभग 120 किमी प्रति घंटे की हवाएं ला सकता है। राज्य आपदा प्रबंधन प्राधिकरण के एमडी प्रखर जैन ने कहा कि तट से टकराने की जगह अभी तय नहीं है। आईएमडी ने ऑरेंज अलर्ट जारी किया है।",
+    "pts": [
+     "मन्यम, अल्लूरी, काकीनाडा, कोनसीमा, गोदावरी जिलों, एलुरु में बहुत भारी बारिश की संभावना",
+     "मछुआरों को 15 नवंबर शाम तक लौटने को कहा गया",
+     "24 घंटे में लैंडफॉल पर स्पष्ट पूर्वानुमान"
+    ],
+    "why": "उत्तर और तटीय आंध्र के लोग, मछुआरे और किसान सतर्क रहें।",
+    "loc": ""
+   },
+   "d": "15.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "భారత్ · రక్షణ",
+   "col": "--c-gov",
+   "art": "unity",
+   "stat": "20–25 నిమిషాలు",
+   "statl": "గగనతలంలో చక్కర్లు",
+   "h": "సిక్కింపై చైనా సైనిక విమానం: అధికారులు",
+   "p": "నవంబర్ 12న ఒక చైనా సైనిక విమానం సిక్కిం మీదుగా భారత గగనతలంలోకి ప్రవేశించి 20 నుంచి 25 నిమిషాలు చక్కర్లు కొట్టిందని అధికారులను ఉటంకిస్తూ నమస్తే తెలంగాణ తెలిపింది. ఉదయం 8 గంటల ప్రాంతంలో సుమారు 25 వేల అడుగుల ఎత్తులో భారత వాయుసేన దాన్ని గుర్తించి వెళ్లిపోవాలని పలుమార్లు హెచ్చరించినట్లు సమాచారం. దీనిపై అధికారిక ప్రకటన రాలేదు.",
+   "pts": [
+    "ఈ ప్రాంతం సిలిగుడి కారిడార్‌కు ఎదురుగా ఉంది",
+    "ఈ నెల 7న లద్దాఖ్‌లో నాలుగు చైనా హెలికాప్టర్లు వచ్చాయని కథనం"
+   ],
+   "why": "సరిహద్దు భద్రత, భారత్–చైనా సంబంధాలపై ఇది ప్రభావం చూపవచ్చు.",
+   "src": "Namasthe Telangana",
+   "url": "https://ntnews.com/international/chinese-military-aircraft-allegedly-breaches-indian-airspace-over-sikkim-2560413",
+   "sec": [
+    "india"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "సిక్కిం",
+   "pub": "2026-11-15T02:56+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "India · Defence",
+    "h": "Chinese jet over Sikkim, say officials",
+    "stat": "20–25 minutes",
+    "statl": "circling in Indian airspace",
+    "p": "Citing officials, Namasthe Telangana reported that a Chinese military aircraft entered Indian airspace over Sikkim on November 12 and circled for 20 to 25 minutes. The Indian Air Force reportedly tracked it around 8 am at about 25,000 feet and repeatedly warned it to leave. There has been no official statement on the matter.",
+    "pts": [
+     "The area faces the Siliguri Corridor",
+     "Report says four Chinese helicopters entered Ladakh on the 7th"
+    ],
+    "why": "This could affect border security and India–China relations.",
+    "loc": "Sikkim"
+   },
+   "hi": {
+    "cat": "भारत · रक्षा",
+    "h": "सिक्किम पर चीनी सैन्य विमान: अधिकारी",
+    "stat": "20–25 मिनट",
+    "statl": "भारतीय हवाई क्षेत्र में चक्कर",
+    "p": "अधिकारियों के हवाले से नमस्ते तेलंगाना ने बताया कि 12 नवंबर को एक चीनी सैन्य विमान सिक्किम के ऊपर भारतीय हवाई क्षेत्र में घुसा और 20 से 25 मिनट तक चक्कर लगाता रहा। भारतीय वायुसेना ने सुबह करीब 8 बजे लगभग 25,000 फीट पर उसे पकड़ा और कई बार लौटने की चेतावनी दी। इस पर कोई आधिकारिक बयान नहीं आया है।",
+    "pts": [
+     "यह इलाका सिलीगुड़ी कॉरिडोर के सामने है",
+     "रिपोर्ट के मुताबिक 7 तारीख को लद्दाख में चार चीनी हेलीकॉप्टर आए"
+    ],
+    "why": "इसका असर सीमा सुरक्षा और भारत–चीन संबंधों पर पड़ सकता है।",
+    "loc": "सिक्किम"
+   },
+   "d": "15.11.2026",
+   "t": "07:05"
+  },
   {
    "cat": "తెలంగాణ · ఆర్థికం",
    "col": "--c-money",
