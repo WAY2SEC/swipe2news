@@ -179,18 +179,20 @@ def rank(s):
     return min([v for k, v in RANK.items() if k.lower() in (s['outlet'] or '').lower()] or [60])
 
 published = []
-try:
-    j = json.load(open(f'{ROOT}/news.json', encoding='utf-8'))
-    published = [s for s in (j.get('stories') if isinstance(j, dict) else j) if isinstance(s, dict)]
-except Exception:
-    pass
+import glob as _glob
+for fp in [f'{ROOT}/news.json'] + sorted(_glob.glob(f'{ROOT}/archive/20*.json'))[-2:]:   # today + yesterday too
+    try:
+        j = json.load(open(fp, encoding='utf-8'))
+        published += [s for s in (j.get('stories') if isinstance(j, dict) else j) if isinstance(s, dict)]
+    except Exception:
+        pass
 pub_urls = {s.get('url', '') for s in published}
-pub_tok = [tokens(' '.join([s.get('h', ''), (s.get('en') or {}).get('h', '') if isinstance(s.get('en'), dict) else ''])) for s in published]
+pub_tok = [tokens(' '.join([s.get('h', ''), s.get('statl', '') or '', (s.get('en') or {}).get('h', '') if isinstance(s.get('en'), dict) else ''])) for s in published]
 
 out = []
 for ev in events:
     ev['sources'].sort(key=lambda s: (rank(s), s['time']))
-    covered = any(s['url'] in pub_urls for s in ev['sources']) or any(len(ev['_tok'] & t) >= 4 for t in pub_tok)
+    covered = any(s['url'] in pub_urls for s in ev['sources']) or any(len(ev['_tok'] & t) >= 3 and len(ev['_tok'] & t) / max(1, min(len(ev['_tok']), len(t))) >= 0.5 for t in pub_tok)
     eid = hashlib.md5((ev['sources'][0]['url'] or ev['title']).encode()).hexdigest()[:10]
     local = bool(ev['districts']) or ev['region'] in ('TG', 'AP') or any(TGAP.search(x['title']) for x in ev['sources'])
     out.append({'id': eid, 'local': local, 'title': ev['title'], 'first_seen': ev['first'], 'region': ev['region'], 'districts': ev['districts'],
