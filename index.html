@@ -923,6 +923,8 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .s2n.metalsT .mtcu strong{font:800 21px/1 'Outfit',sans-serif;color:#2E0827;white-space:nowrap}
 .s2n.metalsT .mtcu>i{grid-column:3;justify-self:end;font:800 11px 'Outfit',sans-serif;font-style:normal}
 
+.story.s2n.dly.dly-roots{background:radial-gradient(130% 90% at 100% 0%,#B5651D 0%,#7A3A10 55%,#3A1A08 100%)!important}
+.s2n.dly-roots .dtx{font-size:clamp(18px,5vw,21px);font-weight:700;line-height:1.7}.s2n.dly .droot{font-size:32px}
 /* daily good-words cards */
 .story.s2n.dly{background:radial-gradient(130% 90% at 0% 0%,#7A2A55 0%,#4A0E3F 50%,#2E0827 100%)!important;color:#FFFDF5}
 .story.s2n.dly-tip{background:radial-gradient(130% 90% at 100% 0%,#1C6B47 0%,#0F4A31 55%,#0A2E20 100%)!important}
@@ -1557,30 +1559,34 @@ function withJobs(list){ if(view!=='home'||!(section==='all'||section==='distric
 /* daily "good words" cards (15 Nov 2026): life quote · investment lesson · words of elders (speakers), from daily.json (scheduled task, tools/tasks/daily.md).
    They appear between news after the 10th card: quote at 12, lesson at 24, elders' words at 36. Each says how to continue with the news. */
 let DAILY=null; fetch('daily.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>{ if(!d||!Array.isArray(d.items)||!d.items.length) return; DAILY=d; try{ if(view==='home'&&section==='all'&&LIST&&LIST.length&&cur<10&&!LIST.some(x=>x.kind==='daily')) renderFeed(keyOf(LIST[cur])); }catch(e){} }).catch(()=>{});
-const DTX={te:{quote:'💬 నేటి మంచి మాట',tip:'💰 నేటి డబ్బు పాఠం',wisdom:'🪔 పెద్దల మాట',swipe:'స్వైప్ చేసి వార్తలు కొనసాగించండి',share:'షేర్',nf:'ఇది సాధారణ ఆర్థిక అవగాహన మాత్రమే – పెట్టుబడి సలహా కాదు.',src:'మూలం'},
- en:{quote:'💬 Thought for today',tip:'💰 Money lesson of the day',wisdom:'🪔 Words of the wise',swipe:'Swipe to continue with the news',share:'Share',nf:'General financial awareness only – not investment advice.',src:'Source'},
- hi:{quote:'💬 आज का सुविचार',tip:'💰 आज का पैसा पाठ',wisdom:'🪔 बड़ों की बात',swipe:'ख़बरें जारी रखने के लिए स्वाइप करें',share:'शेयर',nf:'यह सिर्फ़ सामान्य वित्तीय जानकारी है – निवेश सलाह नहीं।',src:'स्रोत'}};
+const DTX={te:{roots:'🌾 మన మూలాలు',quote:'💬 నేటి మంచి మాట',tip:'💰 నేటి డబ్బు పాఠం',wisdom:'🪔 పెద్దల మాట',swipe:'స్వైప్ చేసి వార్తలు కొనసాగించండి',share:'షేర్',nf:'ఇది సాధారణ ఆర్థిక అవగాహన మాత్రమే – పెట్టుబడి సలహా కాదు.',src:'మూలం'},
+ en:{roots:'🌾 Our roots',quote:'💬 Thought for today',tip:'💰 Money lesson of the day',wisdom:'🪔 Words of the wise',swipe:'Swipe to continue with the news',share:'Share',nf:'General financial awareness only – not investment advice.',src:'Source'},
+ hi:{roots:'🌾 हमारी जड़ें',quote:'💬 आज का सुविचार',tip:'💰 आज का पैसा पाठ',wisdom:'🪔 बड़ों की बात',swipe:'ख़बरें जारी रखने के लिए स्वाइप करें',share:'शेयर',nf:'यह सिर्फ़ सामान्य वित्तीय जानकारी है – निवेश सलाह नहीं।',src:'स्रोत'}};
 function dailyItems(){ if(!DAILY) return []; const today=new Date(Date.now()+(330+new Date().getTimezoneOffset())*60000).toISOString().slice(0,10);
   const fresh=DAILY.items.filter(x=>x&&x.kind&&(x.date===today||!x.date||(Date.parse(today)-Date.parse(x.date))<=2*864e5));
-  return ['quote','tip','wisdom'].map(k=>fresh.find(x=>x.kind===k)).filter(Boolean).map(x=>Object.assign({},x,{kind:'daily',dk:x.kind,h:'daily',url:'https://swipe2news.com/'})); }
-function withDaily(list){ if(view!=='home'||section!=='all'||list.length<12) return list; const it=dailyItems(); if(!it.length) return list; const o=list.slice(); [11,23,35].forEach((p,k)=>{ if(it[k]&&o.length>p) o.splice(p,0,it[k]); }); return o; }
+  return ['quote','tip','wisdom','roots'].map(k=>fresh.find(x=>x.kind===k)).filter(Boolean).map(x=>Object.assign({},x,{kind:'daily',dk:x.kind,h:'daily',url:'https://swipe2news.com/'})); }
+function withDaily(list){ if(view!=='home'||section!=='all'||list.length<12) return list; const it=dailyItems(); if(!it.length) return list; const o=list.slice(); [11,23,35,47].forEach((p,k)=>{ if(it[k]&&o.length>p) o.splice(p,0,it[k]); }); return o; }
 function dailyHTML(s,i){ const l=TLG()?'en':LG(), T=DTX[l]||DTX.te, L=(l!=='te'&&s[l])||s, k=s.dk;
   const by=L.by||s.by||'', ctx=L.ctx||s.ctx||'';
   return `<article class="story s2n mandi dly dly-${esc(k)}" aria-label="${esc(T[k]||'')}">
   <div class="text dbody">
     <div class="dchip">${esc(T[k]||'')}</div>
-    ${k==='tip'?`<div class="dtipi">₹</div>`:`<div class="dq">“</div>`}
+    ${k==='tip'?`<div class="dtipi">₹</div>`:k==='roots'?`<div class="dtipi droot">🌾</div>`:`<div class="dq">“</div>`}
     ${L.title?`<h3 class="dtt">${esc(L.title)}</h3>`:''}
     <p class="dtx">${esc(L.text||'')}</p>
-    ${by?`<div class="dby">— ${esc(by)}${ctx?`<small>${esc(ctx)}</small>`:''}</div>`:''}
+    ${by?`<div class="dby">— ${esc(by)}${ctx?`<small>${esc(ctx)}</small>`:''}</div>`:ctx?`<div class="dby"><small>${esc(ctx)}</small></div>`:''}
     ${k==='tip'?`<p class="dnf">ℹ️ ${esc(T.nf)}</p>`:''}
     ${s.src?`<div class="dsrc">${esc(T.src)}: ${s.url2?`<a href="${esc(s.url2)}" target="_blank" rel="noopener nofollow">${esc(s.src)}</a>`:esc(s.src)}</div>`:''}
     <div class="dact"><button type="button" class="dshare" data-t="${esc((L.text||'')+(by?' — '+by:''))}">${esc(T.share)}</button><div class="dswipe"><span class="dhand">👆</span>${esc(T.swipe)} <b>←</b></div></div>
   </div>
   ${footHTML()}
 </article>`; }
-document.addEventListener('click',e=>{ const b=e.target.closest('.dly .dshare'); if(!b) return; e.preventDefault(); e.stopPropagation();
-  const t=b.dataset.t+'\n\n📲 Swipe2News – Know More. Scroll Less.\nhttps://swipe2news.com/'; window.open('https://wa.me/?text='+encodeURIComponent(t),'_blank','noopener'); },true);
+document.addEventListener('click',async e=>{ const b=e.target.closest('.dly .dshare'); if(!b) return; e.preventDefault(); e.stopPropagation();
+  const t=b.dataset.t+'\n\n📲 Swipe2News – Know More. Scroll Less.\nhttps://swipe2news.com/';
+  const it=LIST[cur]; let blob=null; b.disabled=true; try{ if(it&&it.kind==='daily') blob=await dailyCard(it); }catch(x){} b.disabled=false;
+  try{ if(blob&&navigator.canShare&&navigator.canShare({files:[cardFile(blob)]})){ hdTip(); await navigator.share({files:[cardFile(blob)],text:t}); return; } }catch(x){ if(x&&x.name==='AbortError') return; }
+  if(blob){ try{ const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='swipe2news-'+Date.now()+'.jpg'; document.body.appendChild(a); a.click(); a.remove(); }catch(x){} }
+  window.open('https://wa.me/?text='+encodeURIComponent(t),'_blank','noopener'); },true);
 function withPromos(list){ list=withLocAsk(withHouse(withDaily(withMetals(withMandi(list)))));
   const G=CONFIG.GREETING; let gr=null;
   if(G && Date.now()<new Date(G.until).getTime() && view!=='saved' && view!=='jobs') gr={kind:'promo', greet:1, img:G.img, h:'దీపావళి శుభాకాంక్షలు – Swipe2News', p:'', url:G.page, src:'Swipe2News', d:''};
@@ -2055,6 +2061,48 @@ async function newsCard(s,mode){
   ctx.textBaseline='alphabetic';
   let url=''; try{ url=c.toDataURL('image/jpeg',0.96); }catch(e){}
   const blob=await new Promise(r=>c.toBlob(r,'image/jpeg',0.96)); if(blob&&url) blob.dataURL=url; return blob;
+}
+/* daily good-words share photo: 9:16 (2160×3840) with the Swipe2News logo, brand name, tagline and QR */
+async function dailyCard(s){
+  try{ await document.fonts.ready; }catch(e){}
+  const l=TLG()?'en':LG(), T=DTX[l]||DTX.te, L=(l!=='te'&&s[l])||s, k=s.dk;
+  const W=1080, H=1920, K=2, c=document.createElement('canvas'), ctx=c.getContext('2d'); c.width=W*K; c.height=H*K; ctx.setTransform(K,0,0,K,0,0); ctx.imageSmoothingQuality='high';
+  const AP='#F5A23A', CR='#FFFDF5', PLUM='#4A0E3F', TE="'Noto Sans Telugu','Nirmala UI','Gautami','Noto Sans Devanagari',sans-serif", OU="'Outfit','Noto Sans Telugu',sans-serif";
+  const BG={roots:['#B5651D','#7A3A10','#3A1A08'],quote:['#7A2A55','#4A0E3F','#2E0827'],tip:['#1C6B47','#0F4A31','#0A2E20'],wisdom:['#8A3B12','#5A1A0E','#2E0827']}[k]||['#7A2A55','#4A0E3F','#2E0827'];
+  const g=ctx.createRadialGradient(W*0.15,0,40,W*0.5,H*0.35,H*0.95); g.addColorStop(0,BG[0]); g.addColorStop(.5,BG[1]); g.addColorStop(1,BG[2]); ctx.fillStyle=g; ctx.fillRect(0,0,W,H);
+  // brand band at the top: logo · swipe2news. · tagline
+  const BH=150; ctx.fillStyle=CR; ctx.fillRect(0,0,W,BH); ctx.fillStyle=AP; ctx.fillRect(0,BH-6,W,6);
+  try{ const ic=await loadImg('icon-512.png'); ctx.save(); rrect(ctx,60,33,84,84,22); ctx.clip(); ctx.drawImage(ic,60,33,84,84); ctx.restore(); }catch(e){}
+  ctx.textBaseline='middle'; ctx.font=`800 60px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('swipe2news',166,68); const ww=ctx.measureText('swipe2news').width; ctx.fillStyle=AP; ctx.fillText('.',166+ww,68);
+  ctx.font=`800 28px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('Know More',168,112); let tx=168+ctx.measureText('Know More').width; ctx.fillStyle=AP; ctx.fillText('.',tx,112); tx+=ctx.measureText('. ').width; ctx.fillStyle=PLUM; ctx.fillText('Scroll Less',tx,112); tx+=ctx.measureText('Scroll Less').width; ctx.fillStyle=AP; ctx.fillText('.',tx,112);
+  // content block on its own layer, centred later
+  const main=ctx, cc=document.createElement('canvas'); cc.width=W*K; cc.height=H*K; const c2=cc.getContext('2d'); c2.setTransform(K,0,0,K,0,0); c2.imageSmoothingQuality='high';
+  { const ctx=c2;
+  const X=80, TW=W-2*X; const y0=BH+60; let y=y0; const chip=T[k]||''; ctx.font=`800 38px ${TE}`; const cw=ctx.measureText(chip).width+56;
+  ctx.fillStyle='rgba(255,253,245,.12)'; rrect(ctx,X,y,cw,70,35); ctx.fill(); ctx.strokeStyle='rgba(255,253,245,.3)'; ctx.lineWidth=2; rrect(ctx,X,y,cw,70,35); ctx.stroke(); ctx.fillStyle=CR; ctx.fillText(chip,X+28,y+36); y+=130;
+  if(k==='tip'||k==='roots'){ ctx.fillStyle=AP; rrect(ctx,X,y,130,130,36); ctx.fill(); ctx.fillStyle='#0F4A31'; ctx.font=k==='tip'?`900 80px ${OU}`:'72px sans-serif'; ctx.textAlign='center'; ctx.fillText(k==='tip'?'₹':'🌾',X+65,y+70); ctx.textAlign='left'; y+=180; }
+  else { ctx.fillStyle=AP; ctx.font='900 260px Georgia,serif'; ctx.textBaseline='top'; ctx.fillText('“',X-10,y-40); ctx.textBaseline='middle'; y+=150; }
+  ctx.textBaseline='top';
+  if(L.title){ ctx.font=`800 52px ${TE}`; ctx.fillStyle='#FFD08A'; wrap(ctx,L.title,TW).forEach(t=>{ ctx.fillText(t,X,y); y+=70; }); y+=16; }
+  // main text: as big as fits
+  const txt=L.text||''; const room=H-y-420; let fs=(k==='tip'||k==='roots')?56:76, lines=[];
+  for(;fs>=36;fs-=2){ ctx.font=`800 ${fs}px ${TE}`; lines=wrap(ctx,txt,TW); if(lines.length*fs*1.55<=room) break; }
+  ctx.fillStyle=CR; lines.forEach(t=>{ ctx.fillText(t,X,y); y+=fs*1.55; }); y+=30;
+  const by=L.by||s.by||'', cx=L.ctx||s.ctx||'';
+  if(by){ ctx.font=`800 46px ${TE}`; ctx.fillStyle=AP; ctx.fillText('— '+by,X,y); y+=72; }
+  if(cx){ ctx.font=`600 34px ${TE}`; ctx.fillStyle='rgba(255,253,245,.82)'; wrap(ctx,cx,TW).slice(0,3).forEach(t=>{ ctx.fillText(t,X,y); y+=50; }); y+=10; }
+  if(k==='tip'){ ctx.font=`600 30px ${TE}`; ctx.fillStyle='rgba(255,253,245,.8)'; wrap(ctx,'ℹ️ '+T.nf,TW).forEach(t=>{ ctx.fillText(t,X,y); y+=44; }); }
+  if(s.src){ y+=20; ctx.font=`600 28px ${TE}`; ctx.fillStyle='rgba(255,253,245,.65)'; ctx.fillText(T.src+': '+s.src,X,y,TW); y+=40; }
+  const avail=(H-200-40)-y0, used=y-y0, off=Math.max(0,(avail-used)/2);
+  main.setTransform(1,0,0,1,0,0); main.drawImage(cc,0,off*K); main.setTransform(K,0,0,K,0,0); }
+  // footer with QR, like the news share photos
+  const FH=200, FY=H-FH; ctx.fillStyle='#14030F'; ctx.fillRect(0,FY,W,FH); ctx.textBaseline='middle';
+  ctx.font=`800 38px ${TE}`; ctx.fillStyle=CR; const f1=({te:'రోజూ మంచి మాటలు, వార్తలు · ',en:'Good words & news daily · ',hi:'रोज़ अच्छी बातें और ख़बरें · '})[l]||''; ctx.fillText(f1,60,FY+FH/2-26); const f1w=ctx.measureText(f1).width;
+  ctx.fillStyle=AP; ctx.fillText(({te:'ఉచిత యాప్',en:'Free app',hi:'मुफ़्त ऐप'})[l]||'Free app',60+f1w,FY+FH/2-26);
+  ctx.font=`800 32px ${OU}`; ctx.fillStyle='rgba(255,253,245,.92)'; ctx.fillText('swipe2news.com · @swipe2newsapp',60,FY+FH/2+28);
+  try{ const q=await loadImg('brand/qr-share.png'); const QS=140, QP=14, qx=W-60-QS-2*QP, qy=FY+(FH-QS-2*QP)/2; ctx.fillStyle='#fff'; rrect(ctx,qx,qy,QS+2*QP,QS+2*QP,14); ctx.fill(); ctx.imageSmoothingEnabled=false; ctx.drawImage(q,qx+QP,qy+QP,QS,QS); ctx.imageSmoothingEnabled=true; }catch(e){}
+  ctx.textBaseline='alphabetic';
+  return await new Promise(r=>c.toBlob(r,'image/jpeg',0.96));
 }
 async function cardImage(s){
   if(s&&!s.kind&&s.h){ try{ const b=await newsCard(s,'full'); if(b) return b; }catch(e){} }
