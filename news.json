@@ -1,8 +1,227 @@
 {
  "date": "15.11.2026",
- "updated": "2026-11-15T18:39:42+05:30",
+ "updated": "2026-11-15T19:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "ఏపీ · తుపాను",
+   "col": "--c-water",
+   "art": "rain",
+   "stat": "నవంబర్ 18–19",
+   "statl": "తీరం దాటే అవకాశం",
+   "h": "ఏపీ, ఒడిశాకు తుపాను ముందస్తు హెచ్చరిక",
+   "p": "బంగాళాఖాతంలోని వాయుగుండం సోమవారం తుపానుగా మారే అవకాశం ఉందని, మారితే దానికి 'అక్వాన్' అని పేరు పెడతారని ఐఎండీ తెలిపింది. ఆంధ్రప్రదేశ్, ఒడిశాకు తుపాను ముందస్తు హెచ్చరిక జారీ చేసింది. మంగళవారం తీవ్ర తుపానుగా బలపడి నవంబర్ 18 లేదా 19న ఏపీ తీరాన్ని చేరవచ్చని అంచనా. ఉత్తరాంధ్రలో గురు, శుక్రవారాల్లో భారీ వర్షాలు, బలమైన గాలులు ఉండొచ్చని విపత్తు నిర్వహణ సంస్థ సూచించింది.",
+   "pts": [
+    "విశాఖకు సుమారు 960 కి.మీ. దూరంలో వాయుగుండం",
+    "గంటకు 15 కి.మీ. వేగంతో కదులుతోంది",
+    "శ్రీకాకుళం నుంచి అల్లూరి జిల్లా వరకు నవంబర్ 18 నుంచి భారీ వర్ష సూచన"
+   ],
+   "why": "ఉత్తరాంధ్ర జిల్లాల ప్రజలు, రైతులు, మత్స్యకారులు జాగ్రత్తలు తీసుకోవాలి.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/andhra-pradesh/ap-bracing-for-another-cyclone-1142438",
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-15T18:11+05:30",
+   "lbl": "forecast",
+   "local": true,
+   "en": {
+    "cat": "AP · Cyclone",
+    "h": "Pre-cyclone watch for AP and Odisha",
+    "stat": "November 18–19",
+    "statl": "likely landfall window",
+    "loc": "Andhra Pradesh",
+    "p": "IMD says the Bay of Bengal depression may become a cyclonic storm on Monday and will be named Akvan if it does. It has issued a pre-cyclone watch for Andhra Pradesh and Odisha. The system is expected to become a severe cyclonic storm on Tuesday and approach the AP coast on November 18 or 19. The AP disaster management authority says North Andhra may see heavy rain and strong winds on Thursday and Friday.",
+    "pts": [
+     "Depression about 960 km from Visakhapatnam",
+     "Moving at 15 kmph",
+     "Heavy rain likely from Nov 18 in Srikakulam to Alluri district"
+    ],
+    "why": "People, farmers and fishermen in North Andhra districts should take precautions."
+   },
+   "hi": {
+    "cat": "आंध्र · चक्रवात",
+    "h": "आंध्र, ओडिशा के लिए चक्रवात पूर्व चेतावनी",
+    "stat": "18–19 नवंबर",
+    "statl": "तट पर पहुंचने की संभावना",
+    "loc": "आंध्र प्रदेश",
+    "p": "आईएमडी के अनुसार बंगाल की खाड़ी का डिप्रेशन सोमवार को चक्रवाती तूफान बन सकता है, तब इसका नाम 'अक्वान' होगा। आंध्र प्रदेश और ओडिशा के लिए चक्रवात पूर्व चेतावनी जारी की गई है। मंगलवार को इसके गंभीर चक्रवात बनने और 18 या 19 नवंबर को आंध्र तट पर पहुंचने का अनुमान है। उत्तर आंध्र में गुरुवार और शुक्रवार को भारी बारिश व तेज हवाओं की संभावना है।",
+    "pts": [
+     "डिप्रेशन विशाखापत्तनम से करीब 960 किमी दूर",
+     "15 किमी प्रति घंटे की रफ्तार से बढ़ रहा",
+     "18 नवंबर से श्रीकाकुलम से अल्लूरी जिले तक भारी बारिश संभव"
+    ],
+    "why": "उत्तर आंध्र के लोग, किसान और मछुआरे सावधानी बरतें।"
+   },
+   "d": "15.11.2026",
+   "t": "19:05"
+  },
+  {
+   "cat": "భారత్ · విమానయానం",
+   "col": "--c-gov",
+   "art": "deadline",
+   "stat": "నవంబర్ 16–20",
+   "statl": "అమెరికా ఎఫ్ఏఏ తనిఖీ",
+   "h": "విమానయాన భద్రతపై అమెరికా ఎఫ్ఏఏ ఆడిట్",
+   "p": "అమెరికా విమానయాన నియంత్రణ సంస్థ ఎఫ్ఏఏ నవంబర్ 16 నుంచి 20 వరకు భారత డీజీసీఏ భద్రతా పర్యవేక్షణను తనిఖీ చేయనుంది. విమాన కార్యకలాపాలు, విమానాల సాంకేతిక సామర్థ్యం, సిబ్బంది లైసెన్సుల జారీపై ప్రధానంగా పరిశీలిస్తుంది. ప్రస్తుతం భారత్‌కు అత్యున్నత 'కేటగిరీ 1' హోదా ఉంది. అమెరికాకు నేరుగా విమానాలు నడపడానికి ఈ హోదా అవసరం.",
+   "pts": [
+    "చివరి ఆడిట్ 2021 అక్టోబర్‌లో జరిగింది",
+    "ప్రస్తుతం అమెరికాకు నేరుగా నడిపే భారత సంస్థ ఎయిర్ ఇండియా ఒక్కటే"
+   ],
+   "why": "అమెరికాకు ప్రయాణించే భారతీయులు, విమానయాన సంస్థలపై దీని ఫలితం ప్రభావం చూపుతుంది.",
+   "src": "NewsBytes",
+   "url": "https://www.newsbytesapp.com/news/business/faa-to-conduct-audit-of-india-s-aviation-safety-oversight-standards/story",
+   "sec": [
+    "india"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-15T18:06+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Aviation",
+    "h": "US FAA to audit India's air safety oversight",
+    "stat": "November 16–20",
+    "statl": "FAA review of DGCA",
+    "loc": "India",
+    "p": "The US Federal Aviation Administration will audit the DGCA's safety oversight from November 16 to 20. It will focus on aircraft operations, airworthiness and personnel licensing. India currently holds the top Category 1 rating, which Indian airlines need to fly directly to the US.",
+    "pts": [
+     "Last audit was held in October 2021",
+     "Air India is currently the only Indian airline with direct US flights"
+    ],
+    "why": "The outcome matters to Indians flying to the US and to Indian airlines."
+   },
+   "hi": {
+    "cat": "भारत · विमानन",
+    "h": "भारत की विमानन सुरक्षा का अमेरिकी ऑडिट",
+    "stat": "16–20 नवंबर",
+    "statl": "डीजीसीए की एफएए समीक्षा",
+    "loc": "भारत",
+    "p": "अमेरिकी विमानन नियामक एफएए 16 से 20 नवंबर तक भारत के डीजीसीए की सुरक्षा निगरानी का ऑडिट करेगा। इसमें विमान संचालन, विमानों की उड़ान योग्यता और कर्मियों के लाइसेंस पर ध्यान रहेगा। भारत के पास अभी सर्वोच्च 'कैटेगरी 1' दर्जा है, जो अमेरिका के लिए सीधी उड़ानों के लिए जरूरी है।",
+    "pts": [
+     "पिछला ऑडिट अक्टूबर 2021 में हुआ था",
+     "अभी अमेरिका के लिए सीधी उड़ान वाली एकमात्र भारतीय कंपनी एयर इंडिया"
+    ],
+    "why": "नतीजा अमेरिका जाने वाले भारतीयों और विमान कंपनियों के लिए अहम है।"
+   },
+   "d": "15.11.2026",
+   "t": "19:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · విద్య",
+   "col": "--c-gov",
+   "art": "campus",
+   "stat": "₹6 కోట్ల కాంట్రాక్టు",
+   "statl": "టెండర్ లేకుండా ఇచ్చారని ఆరోపణ",
+   "h": "జేఎన్‌టీయూ అక్రమాలపై గవర్నర్‌కు ఫిర్యాదు",
+   "p": "జేఎన్‌టీయూ హైదరాబాద్‌లో పరిపాలన, ఆర్థిక అక్రమాలు జరుగుతున్నాయని ఆరోపిస్తూ స్టూడెంట్స్ ప్రొటెక్షన్ ఫోరం ఛాన్సలర్ అయిన గవర్నర్ శివప్రతాప్ శుక్లాకు వినతిపత్రం ఇచ్చింది. గతంలో నిషేధించిన సంస్థలకు మెస్ టెండర్లు ఇచ్చారని, ₹6 కోట్ల భద్రతా కాంట్రాక్టును టెండర్ లేకుండా ఒకే సంస్థకు ఇచ్చారని ఆరోపించింది. స్వతంత్ర ఉన్నతస్థాయి కమిటీతో విచారణ జరపాలని కోరింది.",
+   "pts": [
+    "బీబీఏ కోర్సు మూసివేత, కొన్ని ఇంజినీరింగ్ సీట్ల తగ్గింపుపై అభ్యంతరం",
+    "హాస్టళ్లలో భోజనం, పరిశుభ్రత సరిగా లేవని ఫిర్యాదు",
+    "గవర్నర్, విశ్వవిద్యాలయం స్పందన ఇంకా రాలేదు"
+   ],
+   "why": "జేఎన్‌టీయూ-హెచ్ విద్యార్థులు, హాస్టళ్లలో ఉండేవారికి సంబంధించిన విషయం.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/jntu-hyderabad-students-seek-governors-probe-into-alleged-irregularities",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-15T18:35+05:30",
+   "lbl": "claim",
+   "local": true,
+   "en": {
+    "cat": "Hyderabad · Education",
+    "h": "JNTU-H students seek Governor's probe",
+    "stat": "₹6 crore contract",
+    "statl": "allegedly given without tender",
+    "loc": "Hyderabad",
+    "p": "The Students Protection Forum petitioned Governor Shiv Pratap Shukla, JNTU-Hyderabad's Chancellor, alleging administrative and financial irregularities. It alleged that mess tenders went to previously blacklisted firms and a ₹6 crore security contract was given to one agency without tenders. It sought an independent high-level inquiry.",
+    "pts": [
+     "Objects to BBA closure and cut in some engineering seats",
+     "Complains of poor food and hygiene in hostels",
+     "No response yet from Governor or university"
+    ],
+    "why": "Concerns JNTU-H students and hostel residents."
+   },
+   "hi": {
+    "cat": "हैदराबाद · शिक्षा",
+    "h": "जेएनटीयू-एच छात्रों ने राज्यपाल से जांच मांगी",
+    "stat": "₹6 करोड़ का ठेका",
+    "statl": "बिना टेंडर देने का आरोप",
+    "loc": "हैदराबाद",
+    "p": "स्टूडेंट्स प्रोटेक्शन फोरम ने जेएनटीयू हैदराबाद के कुलाधिपति राज्यपाल शिव प्रताप शुक्ला को ज्ञापन देकर प्रशासनिक और वित्तीय अनियमितताओं का आरोप लगाया। आरोप है कि मेस टेंडर पहले ब्लैकलिस्ट हुई कंपनियों को दिए गए और ₹6 करोड़ का सुरक्षा ठेका बिना टेंडर एक एजेंसी को दिया गया। फोरम ने स्वतंत्र उच्चस्तरीय जांच मांगी।",
+    "pts": [
+     "बीबीए बंद करने और कुछ इंजीनियरिंग सीटें घटाने पर आपत्ति",
+     "हॉस्टल में खराब खाना और गंदगी की शिकायत",
+     "राज्यपाल या विश्वविद्यालय का जवाब अभी नहीं"
+    ],
+    "why": "जेएनटीयू-एच के छात्रों और हॉस्टल निवासियों से जुड़ा मामला।"
+   },
+   "d": "15.11.2026",
+   "t": "19:05"
+  },
+  {
+   "cat": "ఏపీ · రాజకీయం",
+   "col": "--c-election",
+   "art": "economy",
+   "stat": "విజన్ 2050",
+   "statl": "సీఎంపై వైఎస్ఆర్‌సీపీ విమర్శ",
+   "h": "విజన్ 2050పై చంద్రబాబుకు ధర్మాన విమర్శ",
+   "p": "ధరల పెరుగుదలను పట్టించుకోకుండా సీఎం చంద్రబాబు నాయుడు విజన్ 2050 గురించి మాట్లాడటం సరికాదని మాజీ మంత్రి, వైఎస్ఆర్‌సీపీ నేత ధర్మాన ప్రసాదరావు శ్రీకాకుళంలో విమర్శించారు. నిత్యావసరాలు, ఇంధన ధరలు 2024 కంటే పెరిగాయని, విద్యుత్ ఛార్జీలు పెరిగాయని, ప్రజల కొనుగోలు శక్తి తగ్గిందని ఆయన ఆరోపించారు. ఎన్నికల హామీలు అమలు చేయలేదని అన్నారు. ప్రభుత్వ స్పందన ఇంకా రాలేదు.",
+   "pts": [
+    "జగన్ కుటుంబంపై ఎక్స్ స్పేసెస్ వ్యాఖ్యలపై వైఎస్ఆర్‌సీపీ మహిళా నేతల ఫిర్యాదు",
+    "నెల్లూరు జిల్లా వేదాయపాళెం పోలీస్ స్టేషన్‌లో ఫిర్యాదు"
+   ],
+   "why": "ఏపీలో ధరలు, ఎన్నికల హామీలపై రాజకీయ చర్చకు సంబంధించిన విషయం.",
+   "src": "Telangana Today (IANS)",
+   "url": "https://telanganatoday.com/ysrcp-slams-chandrababu-naidu-over-vision-2050-raises-price-rise-concerns",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-srikakulam",
+   "loc": "శ్రీకాకుళం",
+   "pub": "2026-11-15T18:41+05:30",
+   "lbl": "claim",
+   "local": true,
+   "en": {
+    "cat": "AP · Politics",
+    "h": "Dharmana slams Naidu over Vision 2050",
+    "stat": "Vision 2050",
+    "statl": "YSRCP criticism of CM",
+    "loc": "Srikakulam",
+    "p": "Former minister and YSRCP leader Dharmana Prasada Rao said in Srikakulam that CM Chandrababu Naidu talking of Vision 2050 while ignoring price rise was wrong. He alleged essential and fuel prices are higher than in 2024, power charges have gone up and purchasing power has fallen. He said poll promises were not kept. There was no government response yet.",
+    "pts": [
+     "YSRCP women leaders complain over X Spaces remarks on Jagan's family",
+     "Complaint filed at Vedayapalem police station, Nellore"
+    ],
+    "why": "Part of AP's political debate on prices and poll promises."
+   },
+   "hi": {
+    "cat": "आंध्र · राजनीति",
+    "h": "विज़न 2050 पर धर्माना ने नायडू को घेरा",
+    "stat": "विज़न 2050",
+    "statl": "मुख्यमंत्री पर वाईएसआरसीपी की आलोचना",
+    "loc": "श्रीकाकुलम",
+    "p": "पूर्व मंत्री और वाईएसआरसीपी नेता धर्माना प्रसाद राव ने श्रीकाकुलम में कहा कि महंगाई को अनदेखा कर मुख्यमंत्री चंद्रबाबू नायडू का विज़न 2050 की बात करना गलत है। उनका आरोप है कि जरूरी सामान और ईंधन के दाम 2024 से ज्यादा हैं, बिजली दरें बढ़ीं और लोगों की खरीद क्षमता घटी। उन्होंने कहा कि चुनावी वादे पूरे नहीं हुए। सरकार का जवाब अभी नहीं आया।",
+    "pts": [
+     "जगन परिवार पर एक्स स्पेसेस टिप्पणियों को लेकर वाईएसआरसीपी महिला नेताओं की शिकायत",
+     "नेल्लोर के वेदायपालेम थाने में शिकायत दर्ज"
+    ],
+    "why": "आंध्र में महंगाई और चुनावी वादों पर राजनीतिक बहस का हिस्सा।"
+   },
+   "d": "15.11.2026",
+   "t": "19:05"
+  },
   {
    "cat": "జగిత్యాల · పింఛన్లు",
    "col": "--c-gov",
@@ -2463,213 +2682,6 @@
      "शव पोस्टमार्टम के लिए जिला सरकारी अस्पताल भेजा गया"
     ],
     "why": "यह हादसा विनायक नगर की सड़कों पर गति नियंत्रण की जरूरत याद दिलाता है।"
-   },
-   "d": "15.11.2026",
-   "t": "14:05"
-  },
-  {
-   "cat": "తెలంగాణ · కార్మికులు",
-   "col": "--c-money",
-   "art": "economy",
-   "stat": "₹4,000 భృతి",
-   "statl": "ఇవ్వాలని జీవన్ రెడ్డి డిమాండ్",
-   "h": "గిగ్ పథకంపై జీవన్ రెడ్డి ప్రశ్నలు",
-   "p": "రాహుల్ గాంధీ ప్రారంభించిన గిగ్ వర్కర్ల సామాజిక భద్రత పథకంలో కొత్తగా ఏమీ లేదని బీఆర్ఎస్ ప్రధాన కార్యదర్శి జీవన్ రెడ్డి విమర్శించారు. రేషన్ కార్డుదారులకు ₹5 లక్షల ప్రమాద బీమా, ఆరోగ్యశ్రీ ద్వారా ₹10 లక్షల వైద్య బీమా ఇప్పటికే ఉన్నాయని అన్నారు. నిరుద్యోగ యువతకు నెలకు ₹4,000 భృతి ఇస్తే మేలని ఆయన అభిప్రాయపడ్డారు.",
-   "pts": [
-    "పథకంలో పింఛనుకు ఆదాయంలో 1 శాతం కేటాయింపు",
-    "2023లో ఇచ్చిన హామీ నెరవేర్చామన్న రాహుల్ గాంధీ"
-   ],
-   "why": "రాష్ట్రంలో డెలివరీ, ప్లాట్‌ఫామ్ పనులు చేసే గిగ్ వర్కర్లకు ఈ చర్చ సంబంధించినది.",
-   "src": "NewsMeter Telugu",
-   "url": "https://telugu.newsmeter.in/telangana/brs-leader-t-jeevan-reddy-criticizes-rahul-gandhi-over-telangana-gig-workers-scheme-779347",
-   "sec": [
-    "telangana",
-    "jobs"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "pub": "2026-11-15T12:54+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Telangana · Workers",
-    "h": "Jeevan Reddy questions gig workers scheme",
-    "stat": "₹4,000 allowance",
-    "statl": "demanded by Jeevan Reddy",
-    "loc": "Telangana",
-    "p": "BRS general secretary T Jeevan Reddy said the gig workers social security scheme launched by Rahul Gandhi offers nothing new. He said ₹5 lakh accident cover for ration card holders and ₹10 lakh medical cover under Aarogyasri already exist. He said a ₹4,000 monthly allowance for unemployed youth would help more.",
-    "pts": [
-     "Scheme sets aside 1% of earnings for pensions",
-     "Rahul Gandhi said he kept a 2023 promise"
-    ],
-    "why": "The debate concerns gig workers doing delivery and platform jobs in the state."
-   },
-   "hi": {
-    "cat": "तेलंगाना · कामगार",
-    "h": "जीवन रेड्डी ने गिग वर्कर योजना पर उठाए सवाल",
-    "stat": "₹4,000 भत्ता",
-    "statl": "जीवन रेड्डी की मांग",
-    "loc": "तेलंगाना",
-    "p": "बीआरएस महासचिव टी. जीवन रेड्डी ने कहा कि राहुल गांधी द्वारा शुरू की गई गिग वर्कर सामाजिक सुरक्षा योजना में कुछ नया नहीं है। उन्होंने कहा कि राशन कार्ड धारकों के लिए ₹5 लाख दुर्घटना बीमा और आरोग्यश्री में ₹10 लाख चिकित्सा बीमा पहले से है। उनके अनुसार बेरोजगार युवाओं को ₹4,000 मासिक भत्ता देना बेहतर होता।",
-    "pts": [
-     "योजना में पेंशन के लिए कमाई का 1% अलग",
-     "राहुल गांधी बोले- 2023 का वादा पूरा किया"
-    ],
-    "why": "यह बहस राज्य में डिलीवरी और प्लेटफॉर्म काम करने वाले गिग वर्करों से जुड़ी है।"
-   },
-   "loc": "",
-   "d": "15.11.2026",
-   "t": "14:05"
-  },
-  {
-   "cat": "ఏపీ · అనకాపల్లి",
-   "col": "--c-water",
-   "art": "water",
-   "stat": "ముగ్గురు యువకులు మృతి",
-   "statl": "వరాహ నదిలో స్నానానికి వెళ్లి",
-   "h": "వరాహ నదిలో మునిగి ముగ్గురు యువకులు మృతి",
-   "p": "అనకాపల్లి జిల్లా ఎస్.రాయవరం మండలం పెనుగొల్లు వద్ద శనివారం వరాహ నదిలో స్నానానికి దిగిన ముగ్గురు యువకులు గల్లంతయ్యారు. పోలీసులు, స్థానికులు గాలింపు చేపట్టగా ఆదివారం ఉదయం వారి మృతదేహాలు లభించాయి. హోంమంత్రి వంగలపూడి అనిత మృతుల కుటుంబాలకు సంతాపం తెలిపారు. బాధిత కుటుంబాలను ఆదుకోవాలని బంధువులు జాతీయ రహదారిపై ఆందోళన చేశారు.",
-   "pts": [
-    "ఆందోళనతో రహదారిపై కొన్ని కిలోమీటర్ల మేర ట్రాఫిక్ నిలిచింది"
-   ],
-   "why": "నదుల్లో స్నానానికి వెళ్లే యువత, వారి కుటుంబాలు జాగ్రత్తగా ఉండాలని ఈ ఘటన గుర్తుచేస్తోంది.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/andhra-pradesh/ap-home-minister-anitha-condoles-death-of-three-youths-in-varaha-river-1142341",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-anakapalli",
-   "loc": "పెనుగొల్లు, ఎస్.రాయవరం మండలం",
-   "pub": "2026-11-15T11:59+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Anakapalli",
-    "h": "Three youths drown in Varaha river",
-    "stat": "3 youths dead",
-    "statl": "after going to bathe in Varaha river",
-    "loc": "Penugollu, S. Rayavaram mandal",
-    "p": "Three young men went missing on Saturday after entering the Varaha river to bathe at Penugollu in S. Rayavaram mandal of Anakapalli district. Police and residents searched, and their bodies were found on Sunday morning. Home Minister Vangalapudi Anitha offered condolences to the families. Relatives protested on the national highway seeking support for the families.",
-    "pts": [
-     "Protest halted highway traffic for several kilometres"
-    ],
-    "why": "The incident is a reminder for young people and families to be careful while bathing in rivers."
-   },
-   "hi": {
-    "cat": "एपी · अनकापल्ली",
-    "h": "वराह नदी में डूबकर तीन युवकों की मौत",
-    "stat": "3 युवकों की मौत",
-    "statl": "वराह नदी में नहाने गए थे",
-    "loc": "पेनुगोल्लु, एस. रायवरम मंडल",
-    "p": "अनकापल्ली जिले के एस. रायवरम मंडल के पेनुगोल्लु में शनिवार को वराह नदी में नहाने उतरे तीन युवक लापता हो गए। पुलिस और स्थानीय लोगों की तलाश के बाद रविवार सुबह उनके शव मिले। गृह मंत्री वंगलपुडी अनिता ने परिवारों के प्रति संवेदना जताई। परिजनों ने परिवारों को सहायता की मांग को लेकर राष्ट्रीय राजमार्ग पर प्रदर्शन किया।",
-    "pts": [
-     "प्रदर्शन से राजमार्ग पर कई किलोमीटर तक यातायात रुका"
-    ],
-    "why": "यह घटना नदियों में नहाने जाने वाले युवाओं और परिवारों को सावधान रहने की याद दिलाती है।"
-   },
-   "d": "15.11.2026",
-   "t": "14:05"
-  },
-  {
-   "cat": "ఏపీ · విజయవాడ",
-   "col": "--c-gov",
-   "art": "unity",
-   "stat": "నవంబర్ 16న",
-   "statl": "రామోజీ ఎక్సలెన్స్ అవార్డుల ప్రదానం",
-   "h": "విజయవాడలో రేపు రామోజీ అవార్డులు",
-   "p": "రామోజీ ఎక్సలెన్స్ అవార్డుల రెండో ఎడిషన్ సోమవారం సాయంత్రం 5:30 గంటలకు విజయవాడలోని డాక్టర్ బి.ఆర్. అంబేడ్కర్ కళావేదికలో జరగనుంది. కేంద్ర హోంమంత్రి అమిత్ షా ముఖ్య అతిథిగా హాజరవుతారు. గవర్నర్ అబ్దుల్ నజీర్, సీఎం చంద్రబాబు నాయుడు, ఉప ముఖ్యమంత్రి పవన్ కల్యాణ్ గౌరవ అతిథులు. ఎంపికైన తొమ్మిది మందికి ఒక్కొక్కరికి ₹10 లక్షల నగదు, జ్ఞాపిక అందిస్తారు.",
-   "pts": [
-    "ఈసారి విద్య, వైద్యం కొత్త విభాగాలు",
-    "రామోజీరావు జయంతి రోజున ఏటా ప్రదానం"
-   ],
-   "why": "విజయవాడలో కార్యక్రమానికి హాజరయ్యే వారికి, అవార్డు గ్రహీతల కుటుంబాలకు ఇది సంబంధించినది.",
-   "src": "NewsMeter",
-   "url": "https://newsmeter.in/entertainment/ramoji-excellence-awards-to-be-held-in-vijayawada-on-monday-779350",
-   "sec": [
-    "telangana",
-    "culture"
-   ],
-   "st": "AP",
-   "place": "ap-ntr",
-   "loc": "విజయవాడ",
-   "pub": "2026-11-15T13:08+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Vijayawada",
-    "h": "Ramoji Excellence Awards in Vijayawada Monday",
-    "stat": "November 16",
-    "statl": "Ramoji Excellence Awards ceremony",
-    "loc": "Vijayawada",
-    "p": "The second edition of the Ramoji Excellence Awards will be held at 5:30 pm on Monday at Dr B.R. Ambedkar Kalavedika in Vijayawada. Union Home Minister Amit Shah is the chief guest. Governor Abdul Nazeer, CM Chandrababu Naidu and Deputy CM Pawan Kalyan are guests of honour. Each of the nine awardees gets ₹10 lakh and a memento.",
-    "pts": [
-     "Education, medical and health added as new categories",
-     "Presented every year on Ramoji Rao's birth anniversary"
-    ],
-    "why": "It concerns those attending the event in Vijayawada and the awardees' families."
-   },
-   "hi": {
-    "cat": "एपी · विजयवाड़ा",
-    "h": "विजयवाड़ा में सोमवार को रामोजी एक्सीलेंस अवॉर्ड",
-    "stat": "16 नवंबर",
-    "statl": "रामोजी एक्सीलेंस अवॉर्ड समारोह",
-    "loc": "विजयवाड़ा",
-    "p": "रामोजी एक्सीलेंस अवॉर्ड का दूसरा संस्करण सोमवार शाम 5:30 बजे विजयवाड़ा के डॉ. बी.आर. आंबेडकर कलावेदिका में होगा। केंद्रीय गृह मंत्री अमित शाह मुख्य अतिथि होंगे। राज्यपाल अब्दुल नजीर, मुख्यमंत्री चंद्रबाबू नायडू और उपमुख्यमंत्री पवन कल्याण विशिष्ट अतिथि होंगे। नौ विजेताओं को ₹10 लाख और स्मृति चिह्न मिलेगा।",
-    "pts": [
-     "शिक्षा, चिकित्सा व स्वास्थ्य नई श्रेणियां",
-     "हर साल रामोजी राव की जयंती पर प्रदान"
-    ],
-    "why": "यह विजयवाड़ा में समारोह में शामिल होने वालों और विजेताओं के परिवारों से जुड़ा है।"
-   },
-   "d": "15.11.2026",
-   "t": "14:05"
-  },
-  {
-   "cat": "ఏపీ · గుంటూరు",
-   "col": "--c-city",
-   "art": "campus",
-   "stat": "జనవరి 15 వరకు",
-   "statl": "పిల్లలకు ఉచిత ఓపీడీ సేవలు",
-   "h": "గుంటూరులో పిల్లలకు ఉచిత ఓపీడీ ప్రారంభం",
-   "p": "గుంటూరులోని లలిత పీవీఎస్ ఇన్‌స్టిట్యూట్ ఆఫ్ మెడికల్ సైన్సెస్‌లో 1 నుంచి 15 ఏళ్ల పిల్లలకు ఉచిత పిల్లల వైద్య ఓపీడీని ప్రారంభించారు. ఈ సేవలు జనవరి 15 వరకు అందుబాటులో ఉంటాయి. మధుమేహం, కంటి, దంత, నరాల, ఎదుగుదల సమస్యలకు నిపుణుల సలహా, పరీక్షలు ఉచితంగా అందిస్తారు.",
-   "pts": [
-    "చైర్మన్ డాక్టర్ పీవీ రాఘవ శర్మ ప్రారంభించారు",
-    "మధుమేహ దినోత్సవం సందర్భంగా ఉచిత పరీక్షల శిబిరాలు"
-   ],
-   "why": "గుంటూరు పరిసర ప్రాంతాల్లో పిల్లల ఆరోగ్య పరీక్షలు చేయించాలనుకునే తల్లిదండ్రులకు ఉపయోగం.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/guntur/free-paediatric-opd-for-children-inaugurated-1142225",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-guntur",
-   "loc": "గుంటూరు",
-   "pub": "2026-11-15T06:14+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Guntur",
-    "h": "Free children's OPD opens in Guntur",
-    "stat": "Till January 15",
-    "statl": "free paediatric OPD for children",
-    "loc": "Guntur",
-    "p": "Lalitha PVS Institute of Medical Sciences in Guntur has opened a free paediatric OPD for children aged 1 to 15. The service runs until January 15. Specialist consultations and screening for diabetes, eye, dental, neurological and developmental problems are offered free.",
-    "pts": [
-     "Inaugurated by chairman Dr PV Raghava Sarma",
-     "Free screening camps held for World Diabetes Day"
-    ],
-    "why": "Useful for parents in and around Guntur who want health check-ups for their children."
-   },
-   "hi": {
-    "cat": "एपी · गुंटूर",
-    "h": "गुंटूर में बच्चों के लिए मुफ्त ओपीडी शुरू",
-    "stat": "15 जनवरी तक",
-    "statl": "बच्चों के लिए मुफ्त ओपीडी",
-    "loc": "गुंटूर",
-    "p": "गुंटूर के ललिता पीवीएस इंस्टीट्यूट ऑफ मेडिकल साइंसेज में 1 से 15 साल के बच्चों के लिए मुफ्त बाल चिकित्सा ओपीडी शुरू की गई है। यह सेवा 15 जनवरी तक चलेगी। मधुमेह, आंख, दांत, तंत्रिका और विकास संबंधी समस्याओं के लिए विशेषज्ञ परामर्श और जांच मुफ्त है।",
-    "pts": [
-     "अध्यक्ष डॉ. पीवी राघव शर्मा ने उद्घाटन किया",
-     "विश्व मधुमेह दिवस पर मुफ्त जांच शिविर"
-    ],
-    "why": "गुंटूर और आसपास के माता-पिता के लिए बच्चों की स्वास्थ्य जांच में उपयोगी।"
    },
    "d": "15.11.2026",
    "t": "14:05"
