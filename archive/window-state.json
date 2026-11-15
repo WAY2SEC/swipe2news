@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T16:20:00+05:30",
+ "cutoff": "2026-11-15T16:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T07:35:00+05:30/2026-11-12T08:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebSearch returned mostly stale listing pages; WebFetch via sub-agent on Siasat Hyderabad, Telangana Today tag pages (no timestamps), Hans Anantapur, DC Nellore/Karimnagar tags. Eenadu, Sakshi, Andhra Jyothy, TV9, V6, NTV, ETV Bharat, The Hindu, PTI national not surfaced in range. Districts searched: Karimnagar, Peddapalli, Mancherial, Khammam, Bhadradri, Nellore, Kadapa, Anantapur, Tirupati, Chittoor, Kurnool, Visakhapatnam. Reuters oil (investing.com) page time shown without zone; pinned to 07:22 IST via Nov 12 dateline and 0141 GMT data. Duplicate: Asianet Musi project (covered by Telangana Today story)."
-  },
   {
    "window": "2026-11-12T08:05:00+05:30/2026-11-12T08:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "16:20 run started 16:21 IST. Lookback from 08:05 15 Nov. Feeds branch fresh (16:11, 70/70 ok, 822 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: TT TG SAFE Ameenpur API seizure (16:02), ABN Balapur tipper accident woman dies (15:49, sensitive), Hans Narayana Nellore schools (16:07), Siasat Jalpally python rescue (16:08), Crictoday India win NZ ODI series 3-1 (15:25, late). Duplicate: TT HCL Cyclothon (covered 13:05). Skipped: DC Anantapur mayor defeat (9 Nov). Not opened: Hindu AP 12 of 13 mayors (search surfaced only unreliable sites). No district searches this run (time). Districts covered: Sangareddy, Rangareddy, Nellore."
+  },
+  {
+   "window": "2026-11-15T16:20:00+05:30/2026-11-15T16:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 2,
+   "late": 0,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "16:35 run started 16:36 IST. Lookback from 08:20 15 Nov. Feeds branch fresh (16:32, 70/70 ok, 753 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: NTV Vipparla (Palnadu) petrol bombs seized at panchayat nominations (16:20, sensitive), Telangana Today Adilabad Mavala gold theft arrest (16:26, sensitive). Not opened: Disha AP 1.10 lakh acre land bank (fetch error); Disha Rs 81 lakh sarpanch auction, Pulleru two children missing, AP child-safety plan, KPHB Phase 15 auction, Simhachalam Odia signage (searches did not surface the articles). No district searches beyond Palnadu/Adilabad (time). Districts covered: Palnadu, Adilabad."
   }
  ],
  "seen": [
@@ -3988,6 +3988,21 @@
    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/defeat-of-bjp-nominee-in-mayoral-contest-in-anantapur-hurts-alliance-2003009",
    "d": "2026-11-15",
    "w": "16:20"
+  },
+  {
+   "url": "https://ntvtelugu.com/news/tension-palnadu-panchayat-nominations-petrol-bombs-seized-vipparla-1035490.html",
+   "d": "2026-11-15",
+   "w": "2026-11-15T16:35:00+05:30"
+  },
+  {
+   "url": "https://telanganatoday.com/adilabad-man-arrested-for-stealing-gold-ornaments-worth-rs-3-55-lakh",
+   "d": "2026-11-15",
+   "w": "2026-11-15T16:35:00+05:30"
+  },
+  {
+   "url": "https://www.dishadaily.com/andhrapradesh/ap-rolls-out-the-red-carpet-for-investments-601118",
+   "d": "2026-11-15",
+   "w": "2026-11-15T16:35:00+05:30"
   }
  ]
 }
