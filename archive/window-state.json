@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T21:35:00+05:30",
+ "cutoff": "2026-11-15T22:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T15:05:00+05:30/2026-11-12T15:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 3,
-   "late": 2,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebSearch returned mostly stale tag/listing pages. Read via sub-agent: Telangana Today local-body poll delay (15:13, published), TT HYDRAA HC (11:00, already seen), TT/IANS CII drums (13:06, duplicate of summit-start story), Gulte Kia $2bn (13:57, late-found), Hans 1141334 coffee/chocolate (10:50, late-found), Siasat Hyderabad listing (all already seen). Bloomberg Naidu-Google robots refused; Siasat Telangana listing fetch permission timeout. Eenadu, Sakshi, NT, TV9, V6, NTV, The Hindu, PTI, Reuters/AP not surfaced; no international-topic items found. Districts searched: Medak, Sangareddy, Siddipet, Mahabubnagar, Gadwal, Wanaparthy, Guntur, NTR, Nellore, Srikakulam, Vizianagaram, Kakinada."
-  },
   {
    "window": "2026-11-12T15:35:00+05:30/2026-11-12T16:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "21:35 run started 21:36 IST. Lookback from 13:05. Feeds branch fresh (21:11, 70/70 ok). add_repo not available; existing clone used, push worked. Published: TT ₹10,000 crore central aid (21:05), DC Tirupati newborn abandoned (21:06, sensitive, police), TT Khelo India five cities (19:40, late), ANI 2029 Champions Trophy India (19:58, late), HMTV Medak Tekmal pensions (19:35, late). Skipped: TT/TOI AP cyclone severity updates (already covered several times today). Not opened (search did not surface article): ETV Polavaram Malkangiri–Bhadrachalam rail route, The Hindu Paderu ghat lorry, The Hindu 36 excise arrests, NewsMeter Hyderabad traffic alert, The Hindu Shankarpally liquor raids. District searches (Nalgonda, Khammam/Bhadradri, Adilabad/Nirmal/Nizamabad, Mahabubnagar/Wanaparthy/Nagarkurnool, Guntur/Vijayawada, Tirupati/Chittoor, Srikakulam/Vizianagaram, Karimnagar) returned only tag/old pages."
+  },
+  {
+   "window": "2026-11-15T21:35:00+05:30/2026-11-15T22:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 4,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "22:05 run started 22:06 IST. Lookback from 13:35. Feeds fresh (21:41, 70/70 ok). add_repo not available; existing clone used. Direct feed URLs refused by WebFetch (provenance) until surfaced by extended search. Published: DC AP NCD survey (21:35), Siasat MANUU T-Hub protest (21:37, claim), TT Sridhar Babu NDE (21:13), Siasat Parveda belt shops (21:13, police). Duplicate: Hans India Uttam clearances (same PM meeting as ₹10,000 crore story). Not opened (search did not surface): The Hindu Rajamahendravaram mayoral, Brinda Karat, Kakinada Zimbabwe student drowning, Uttam central nod; DC Ayyappa deeksha; Hyderabad Mail Vikarabad accident. No district searches this run (time spent on fetch failures)."
   }
  ],
  "seen": [
@@ -4318,6 +4318,31 @@
    "url": "https://telanganatoday.com/andhra-pradesh-coast-braces-for-another-severe-cyclone-on-november-17-warns-imd",
    "d": "2026-11-15",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ncd-survey-detects-over-12-lakh-new-hypertension-cases-in-ap-2004672",
+   "d": "2026-11-15",
+   "w": "p"
+  },
+  {
+   "url": "https://www.siasat.com/manuu-protests-against-t-hub-event-featuring-israeli-firms-3578276/",
+   "d": "2026-11-15",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/demand-for-skilled-nde-professionals-set-to-rise-says-sridhar-babu",
+   "d": "2026-11-15",
+   "w": "p"
+  },
+  {
+   "url": "https://www.siasat.com/future-city-police-file-8-firs-against-illegal-liquor-shops-3578268/",
+   "d": "2026-11-15",
+   "w": "p"
+  },
+  {
+   "url": "https://www.thehansindia.com/telangana/sought-centres-help-for-clearances-for-various-projects-says-uttam-kumar-reddy-1142418",
+   "d": "2026-11-15",
+   "w": "dup"
   }
  ]
 }
