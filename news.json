@@ -1,8 +1,224 @@
 {
  "date": "15.11.2026",
- "updated": "2026-11-15T19:35:00+05:30",
+ "updated": "2026-11-15T20:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "తెలంగాణ · నేరాలు",
+   "col": "--c-city",
+   "art": "unity",
+   "stat": "31 ఈ-సిగరెట్లు",
+   "statl": "స్వాధీనం, ఇద్దరు అరెస్టు",
+   "h": "కోల్‌కతా నుంచి తెలంగాణకు ఈ-సిగరెట్లు",
+   "p": "నిషేధిత ఈ-సిగరెట్లు అమ్ముతున్న అంతర్రాష్ట్ర ముఠాను ఈగల్ ఫోర్స్ బయటపెట్టింది. హైదరాబాద్, కరీంనగర్‌లో జరిపిన రెండు దాడుల్లో ఇద్దరిని అదుపులోకి తీసుకుని 31 ఈ-సిగరెట్లు స్వాధీనం చేసుకుంది. కోల్‌కతాలోని ఒక దుకాణం నుంచి కొరియర్ ద్వారా సరుకు తెప్పించి కరీంనగర్‌కు పంపుతున్నారని ఈగల్ ఫోర్స్ డైరెక్టర్ సందీప్ శాండిల్య తెలిపారు. కరీంనగర్‌లో ఒక మైనర్‌కు అమ్ముతుండగా విక్రేత పట్టుబడ్డాడని పోలీసులు చెప్పారు.",
+   "pts": [
+    "కరీంనగర్ కేఫ్‌లో 12, హైదరాబాద్‌లో 19 పరికరాలు స్వాధీనం",
+    "కనీసం ఏడు సార్లు కొరియర్‌లో సరుకు వచ్చినట్లు గుర్తింపు",
+    "మీర్‌చౌక్ పోలీస్ స్టేషన్‌లో కేసు నమోదు"
+   ],
+   "why": "పిల్లలు, యువతకు నిషేధిత ఈ-సిగరెట్లు చేరకుండా తల్లిదండ్రులు అప్రమత్తంగా ఉండాలి.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/eagle-force-traces-e-cigarette-supplies-from-kolkata-to-telangana",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "karimnagar",
+   "loc": "కరీంనగర్, చార్మినార్",
+   "pub": "2026-11-15T19:42+05:30",
+   "lbl": "fact",
+   "local": true,
+   "en": {
+    "cat": "Telangana · Crime",
+    "h": "E-cigarettes traced from Kolkata to Telangana",
+    "stat": "31 e-cigarettes",
+    "statl": "seized, two held",
+    "loc": "Karimnagar and Charminar, Hyderabad",
+    "p": "EAGLE Force has exposed an inter-State network selling banned e-cigarettes, detaining two persons and seizing 31 devices in two operations in Hyderabad and Karimnagar. EAGLE Force Director Sandeep Shandilya said stock was ordered by courier from a shop in Kolkata and sent on to Karimnagar. Police said a seller in Karimnagar was caught selling to a minor.",
+    "pts": [
+     "12 devices seized at a Karimnagar cafe, 19 in Hyderabad",
+     "At least seven courier consignments identified",
+     "Case registered at Mirchowk police station"
+    ],
+    "why": "Parents should stay alert so banned e-cigarettes do not reach children and youth."
+   },
+   "hi": {
+    "cat": "तेलंगाना · अपराध",
+    "h": "कोलकाता से तेलंगाना पहुंच रही ई-सिगरेट",
+    "stat": "31 ई-सिगरेट",
+    "statl": "जब्त, दो गिरफ्तार",
+    "loc": "करीमनगर और चारमीनार, हैदराबाद",
+    "p": "ईगल फोर्स ने प्रतिबंधित ई-सिगरेट बेचने वाले अंतरराज्यीय नेटवर्क का पर्दाफाश किया है। हैदराबाद और करीमनगर में दो कार्रवाइयों में दो लोगों को पकड़ा गया और 31 ई-सिगरेट जब्त की गईं। ईगल फोर्स निदेशक संदीप शांडिल्य ने बताया कि माल कोलकाता की एक दुकान से कूरियर से मंगाकर करीमनगर भेजा जाता था। पुलिस के अनुसार करीमनगर में एक विक्रेता नाबालिग को बेचते पकड़ा गया।",
+    "pts": [
+     "करीमनगर के कैफे से 12, हैदराबाद से 19 उपकरण जब्त",
+     "कम से कम सात कूरियर खेप की पहचान",
+     "मीरचौक थाने में मामला दर्ज"
+    ],
+    "why": "बच्चों और युवाओं तक प्रतिबंधित ई-सिगरेट न पहुंचे, इसके लिए माता-पिता सतर्क रहें।"
+   },
+   "d": "15.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "తెలంగాణ · కోర్టు",
+   "col": "--c-gov",
+   "art": "court",
+   "stat": "6 నెలల జైలు శిక్ష",
+   "statl": "రంగారెడ్డి కలెక్టర్‌కు",
+   "h": "హైకోర్టు ముందు సీనియర్ ఐఏఎస్, ఐపీఎస్‌లు",
+   "p": "ఇటీవలి వారాల్లో తెలంగాణలో పలువురు సీనియర్ ఐఏఎస్, ఐపీఎస్ అధికారులు హైకోర్టు చర్యలు ఎదుర్కొన్నారు. ఎక్కువగా భూవివాదాలు, కోర్టు ఆదేశాలు అమలు చేయకపోవడంపై కోర్టు ధిక్కార కేసులు నమోదయ్యాయి. తుర్కయాంజాల్ భూముల కేసులో 60 రోజుల్లో ఆదేశం అమలు చేయనందుకు రంగారెడ్డి కలెక్టర్‌కు ఆరు నెలల జైలు, ₹2,000 జరిమానా విధించారు. హైడ్రా కమిషనర్‌ను కోర్టుకు హాజరుపరచాలని ఆదేశించారు.",
+   "pts": [
+    "బాచుపల్లి భూ కేసులో మేడ్చల్ కలెక్టర్‌పై కోర్టు అసంతృప్తి",
+    "కంటోన్మెంట్ బోర్డు బకాయిల కేసులో ఆర్థిక ముఖ్య కార్యదర్శి హాజరు",
+    "ప్రభుత్వ నిర్లక్ష్యమే కారణమని ఉద్యోగుల జేఏసీ ఆరోపణ"
+   ],
+   "why": "కోర్టు ఆదేశాల అమలు కోసం ఎదురుచూస్తున్న భూయజమానులు, పిటిషనర్లపై ప్రభావం ఉంటుంది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/senior-ias-ips-officers-in-telangana-face-court-action-over-alleged-violations",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-15T19:37+05:30",
+   "lbl": "fact",
+   "local": true,
+   "en": {
+    "cat": "Telangana · Courts",
+    "h": "Senior IAS, IPS officers face HC action",
+    "stat": "6 months' jail",
+    "statl": "for Rangareddy Collector",
+    "loc": "Telangana",
+    "p": "Several senior IAS and IPS officers in Telangana have faced High Court action in recent weeks, mostly contempt cases over land disputes and non-compliance with court orders. The Rangareddy Collector was sentenced to six months' jail and fined ₹2,000 for not acting within 60 days on an order over Turkayamjal lands. The HYDRAA Commissioner was directed to be produced before the court.",
+    "pts": [
+     "Court displeased with Medchal Collector in Bachupally land case",
+     "Finance Principal Secretary appeared over Cantonment Board dues",
+     "Employees' JAC blames government inaction"
+    ],
+    "why": "Affects landowners and petitioners waiting for court orders to be implemented."
+   },
+   "hi": {
+    "cat": "तेलंगाना · अदालत",
+    "h": "वरिष्ठ IAS, IPS अधिकारियों पर HC की कार्रवाई",
+    "stat": "6 महीने जेल",
+    "statl": "रंगारेड्डी कलेक्टर को",
+    "loc": "तेलंगाना",
+    "p": "हाल के हफ्तों में तेलंगाना के कई वरिष्ठ IAS और IPS अधिकारियों को हाई कोर्ट की कार्रवाई का सामना करना पड़ा है, ज्यादातर भूमि विवाद और अदालती आदेश न मानने पर अवमानना मामलों में। तुर्कयामजाल भूमि मामले में 60 दिन में आदेश लागू न करने पर रंगारेड्डी कलेक्टर को छह महीने जेल और ₹2,000 जुर्माने की सजा हुई। हाइड्रा आयुक्त को अदालत में पेश करने का निर्देश दिया गया।",
+    "pts": [
+     "बाचुपल्ली भूमि मामले में मेडचल कलेक्टर पर अदालत नाराज़",
+     "कैंटोनमेंट बोर्ड बकाया मामले में वित्त प्रधान सचिव पेश",
+     "कर्मचारी जेएसी ने सरकारी निष्क्रियता को दोषी बताया"
+    ],
+    "why": "अदालती आदेशों के अमल का इंतज़ार कर रहे भूमि मालिकों और याचिकाकर्ताओं पर असर।"
+   },
+   "d": "15.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · పండుగ",
+   "col": "--c-water",
+   "art": "water",
+   "stat": "28 ప్రాంతాల్లో",
+   "statl": "ఛఠ్ పూజలు",
+   "h": "హైదరాబాద్ చెరువుల వద్ద ఛఠ్ పూజలు",
+   "p": "ఛఠ్ పూజలో భాగంగా ఆదివారం సాయంత్రం హైదరాబాద్‌లోని 28 ప్రాంతాల్లో వేలాది మంది భక్తులు అస్తమిస్తున్న సూర్యుడికి అర్ఘ్యం సమర్పించారు. ట్యాంక్‌బండ్, దుర్గం చెరువు, హస్మత్‌పేట, నల్లగండ్ల చెరువుల వద్ద పూజలు జరిగాయి. బిహార్, జార్ఖండ్, ఉత్తరప్రదేశ్, పశ్చిమ బెంగాల్‌కు చెందినవారు పాల్గొన్నారు. జీహెచ్ఎంసీ, పోలీసులు భద్రత, పారిశుద్ధ్య ఏర్పాట్లు చేశారు.",
+   "pts": [
+    "సోమవారం ఉదయం సూర్యోదయ అర్ఘ్యంతో నాలుగు రోజుల పండుగ ముగింపు",
+    "భక్తులు 36 గంటల నిర్జల ఉపవాసం ప్రారంభించారు"
+   ],
+   "why": "సోమవారం ఉదయం చెరువుల దగ్గర రద్దీ ఉంటుంది; ఆ దారుల్లో ప్రయాణించేవారు గమనించాలి.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/hyderabad-celebrates-chhath-puja-with-prayers-at-major-water-bodies",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "ట్యాంక్‌బండ్, దుర్గం చెరువు",
+   "pub": "2026-11-15T19:50+05:30",
+   "lbl": "fact",
+   "local": true,
+   "en": {
+    "cat": "Hyderabad · Festival",
+    "h": "Chhath Puja prayers at Hyderabad lakes",
+    "stat": "28 venues",
+    "statl": "for Chhath Puja",
+    "loc": "Tank Bund, Durgam Cheruvu, Hyderabad",
+    "p": "Thousands of devotees offered prayers to the setting sun at 28 locations across Hyderabad on Sunday evening as part of Chhath Puja. Rituals were held at Tank Bund, Durgam Cheruvu, Hasmatpet and Nallagandla lakes. Devotees from Bihar, Jharkhand, Uttar Pradesh and West Bengal took part. GHMC and police arranged security and sanitation.",
+    "pts": [
+     "Four-day festival ends with sunrise prayers on Monday morning",
+     "Devotees began a 36-hour waterless fast"
+    ],
+    "why": "Expect crowds near lakes on Monday morning; commuters on those routes should note."
+   },
+   "hi": {
+    "cat": "हैदराबाद · त्योहार",
+    "h": "हैदराबाद की झीलों पर छठ पूजा",
+    "stat": "28 स्थानों पर",
+    "statl": "छठ पूजा",
+    "loc": "टैंक बंड, दुर्गम चेरुवु, हैदराबाद",
+    "p": "छठ पूजा के तहत रविवार शाम हैदराबाद के 28 स्थानों पर हज़ारों श्रद्धालुओं ने डूबते सूर्य को अर्घ्य दिया। टैंक बंड, दुर्गम चेरुवु, हसमतपेट और नल्लगंडला झीलों पर पूजा हुई। बिहार, झारखंड, उत्तर प्रदेश और पश्चिम बंगाल के लोग शामिल हुए। जीएचएमसी और पुलिस ने सुरक्षा व सफाई के इंतज़ाम किए।",
+    "pts": [
+     "सोमवार सुबह उगते सूर्य को अर्घ्य के साथ चार दिन का पर्व समाप्त",
+     "श्रद्धालुओं ने 36 घंटे का निर्जला व्रत शुरू किया"
+    ],
+    "why": "सोमवार सुबह झीलों के पास भीड़ रहेगी; उन रास्तों से जाने वाले ध्यान दें।"
+   },
+   "d": "15.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "ఏపీ · పంచాయతీ ఎన్నికలు",
+   "col": "--c-election",
+   "art": "voters",
+   "stat": "సిబ్బాల పంచాయతీ",
+   "statl": "నామినేషన్ల వేళ ఘర్షణ",
+   "h": "అన్నమయ్య జిల్లాలో నామినేషన్ల వేళ ఘర్షణ",
+   "p": "ఏపీలో పంచాయతీ ఎన్నికల నామినేషన్లు మొదలైన రోజే అన్నమయ్య జిల్లా రామాపురం మండలంలో ఉద్రిక్తత నెలకొంది. సిబ్బాల గ్రామ పంచాయతీ నామినేషన్ల సమయంలో హసనాపురం గ్రామంలో రెండు వర్గాల మధ్య ఘర్షణ జరిగింది. ఈ ఘటనలో పలువురికి గాయాలయ్యాయి. పోలీసులు జోక్యం చేసుకుని పరిస్థితిని అదుపులోకి తెచ్చారు. తర్వాత నామినేషన్ల ప్రక్రియ షెడ్యూల్ ప్రకారం పూర్తయింది.",
+   "pts": [
+    "గాయపడినవారి సంఖ్య, అరెస్టులపై వివరాలు ఇంకా వెల్లడి కాలేదు"
+   ],
+   "why": "పంచాయతీ ఎన్నికల్లో పాల్గొనే గ్రామస్థులు, అభ్యర్థుల భద్రతకు సంబంధించిన విషయం.",
+   "src": "Andhra Jyothy",
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/annamayya-panchayat-election-clash-1576537.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-annamayya",
+   "loc": "హసనాపురం, రామాపురం మండలం",
+   "pub": "2026-11-15T15:34+05:30",
+   "lbl": "fact",
+   "local": true,
+   "en": {
+    "cat": "AP · Panchayat polls",
+    "h": "Clash during nominations in Annamayya",
+    "stat": "Sibbala panchayat",
+    "statl": "clash at nominations",
+    "loc": "Hasanapuram, Ramapuram mandal, Annamayya",
+    "p": "Tension broke out in Ramapuram mandal of Annamayya district on the first day of panchayat poll nominations in Andhra Pradesh. Two groups clashed in Hasanapuram village during nominations for Sibbala gram panchayat, and several people were injured. Police intervened and brought the situation under control, and the nomination process was completed as scheduled.",
+    "pts": [
+     "No details yet on the number injured or arrests"
+    ],
+    "why": "Concerns the safety of villagers and candidates taking part in panchayat polls."
+   },
+   "hi": {
+    "cat": "आंध्र · पंचायत चुनाव",
+    "h": "अन्नमय्या में नामांकन के दौरान झड़प",
+    "stat": "सिब्बाला पंचायत",
+    "statl": "नामांकन में झड़प",
+    "loc": "हसनापुरम, रामापुरम मंडल, अन्नमय्या",
+    "p": "आंध्र प्रदेश में पंचायत चुनाव नामांकन के पहले दिन अन्नमय्या ज़िले के रामापुरम मंडल में तनाव फैल गया। सिब्बाला ग्राम पंचायत के नामांकन के दौरान हसनापुरम गांव में दो गुटों में झड़प हुई और कई लोग घायल हुए। पुलिस ने हस्तक्षेप कर स्थिति काबू में की और नामांकन प्रक्रिया तय समय पर पूरी हुई।",
+    "pts": [
+     "घायलों की संख्या और गिरफ्तारियों का ब्योरा अभी नहीं"
+    ],
+    "why": "पंचायत चुनाव में भाग लेने वाले ग्रामीणों और उम्मीदवारों की सुरक्षा से जुड़ा मामला।"
+   },
+   "d": "15.11.2026",
+   "t": "20:05"
+  },
   {
    "cat": "హైదరాబాద్ · పర్యాటకం",
    "col": "--c-city",
@@ -2474,229 +2690,6 @@
    },
    "d": "15.11.2026",
    "t": "15:05"
-  },
-  {
-   "cat": "మేడ్చల్ · గృహాలు",
-   "col": "--c-city",
-   "art": "land",
-   "stat": "3,700 ఫ్లాట్లు",
-   "statl": "అప్పగింతలో జాప్యం",
-   "h": "వాసవి అర్బన్ ఫ్లాట్ల కొనుగోలుదారుల నిరసన",
-   "p": "బాచుపల్లిలోని వాసవి అర్బన్ ప్రాజెక్టు ఫ్లాట్ల కొనుగోలుదారులు శనివారం అపార్ట్‌మెంట్ల ఎదుట బైఠాయించి నిరసన తెలిపారు. 2024 డిసెంబర్‌కే ఇవ్వాల్సిన ఫ్లాట్లు ఇంకా అప్పగించలేదని, దాదాపు 90 శాతం డబ్బు చెల్లించామని వారు ఆరోపించారు. టీజీ రెరా ఆదేశించిన పరిహారం కూడా ఇవ్వలేదని, డిమాండ్లు తీర్చకపోతే నిరవధిక నిరాహార దీక్ష చేస్తామని హెచ్చరించారు.",
-   "pts": [
-    "అప్పగింత తేదీని ఎనిమిదిసార్లు మార్చారని కొనుగోలుదారుల ఆరోపణ",
-    "అద్దె, ఇంటి రుణ ఈఎంఐ రెండూ కడుతున్నామని ఆవేదన",
-    "యాజమాన్యం స్పందించలేదని నిరసనకారులు"
-   ],
-   "why": "జాప్యమైన ప్రాజెక్టుల్లో ఫ్లాట్లు కొన్న కుటుంబాలపై అద్దె, రుణాల భారం పడుతోంది.",
-   "src": "The Siasat Daily",
-   "url": "https://www.siasat.com/vasavi-urban-buyers-threaten-hunger-strike-over-construction-delays-3577719/",
-   "sec": [
-    "telangana",
-    "business"
-   ],
-   "st": "TG",
-   "place": "medchal",
-   "loc": "బాచుపల్లి",
-   "pub": "2026-11-15T09:19+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Medchal · Housing",
-    "h": "Vasavi Urban buyers protest in Bachupally",
-    "stat": "3,700 flats",
-    "statl": "handover delayed",
-    "loc": "Bachupally, Medchal",
-    "p": "Homebuyers of the Vasavi Urban project in Bachupally staged a sit-in in front of the apartments on Saturday. They alleged flats promised by December 2024 are still not handed over though they have paid nearly 90 per cent. They said compensation ordered by TG RERA is unpaid and warned of an indefinite hunger strike if demands are not met.",
-    "pts": [
-     "Buyers say handover date was revised eight times",
-     "Many paying both rent and home loan EMIs",
-     "Protesters say management has not responded"
-    ],
-    "why": "Families in delayed projects carry the burden of rent and loans together."
-   },
-   "hi": {
-    "cat": "मेडचल · आवास",
-    "h": "बाचुपल्ली में वासवी अर्बन खरीदारों का धरना",
-    "stat": "3,700 फ्लैट",
-    "statl": "सौंपने में देरी",
-    "loc": "बाचुपल्ली, मेडचल",
-    "p": "बाचुपल्ली के वासवी अर्बन प्रोजेक्ट के फ्लैट खरीदारों ने शनिवार को अपार्टमेंट के सामने धरना दिया। उनका आरोप है कि दिसंबर 2024 तक मिलने वाले फ्लैट अब तक नहीं सौंपे गए, जबकि वे करीब 90 प्रतिशत भुगतान कर चुके हैं। उन्होंने कहा कि TG RERA का आदेशित मुआवजा भी नहीं मिला और मांगें न मानने पर अनिश्चितकालीन भूख हड़ताल की चेतावनी दी।",
-    "pts": [
-     "खरीदारों के अनुसार सौंपने की तारीख आठ बार बदली",
-     "कई लोग किराया और होम लोन EMI दोनों भर रहे",
-     "प्रदर्शनकारियों के अनुसार प्रबंधन ने जवाब नहीं दिया"
-    ],
-    "why": "देरी वाले प्रोजेक्ट में फ्लैट खरीदने वाले परिवारों पर किराए और कर्ज का दोहरा बोझ है।"
-   },
-   "d": "15.11.2026",
-   "t": "15:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · జీహెచ్ఎంసీ",
-   "col": "--c-city",
-   "art": "economy",
-   "stat": "పార్కు టికెట్లు",
-   "statl": "ధరల పెంపునకు ఆమోదం",
-   "h": "జీహెచ్ఎంసీ పార్కుల ప్రవేశ రుసుము పెంపు",
-   "p": "జీహెచ్ఎంసీ నిర్వహించే పార్కుల ప్రవేశ టికెట్ ధరలను పెంచే ప్రతిపాదనకు స్టాండింగ్ కమిటీ ఆమోదం తెలిపింది. కొత్త ధరలు, అమలు తేదీని ఇంకా ప్రకటించలేదు. ఇదే సమావేశంలో వీధి దీపాల నిర్వహణ, ఇంటెలిజెంట్ ట్రాఫిక్ మేనేజ్‌మెంట్ వ్యవస్థ ప్రాజెక్టు నివేదిక, జీహెచ్ఎంసీ అప్లికేషన్లను క్లౌడ్‌కు మార్చడం వంటి ప్రతిపాదనలకూ ఆమోదం లభించింది.",
-   "pts": [
-    "సాహెబ్‌నగర్ వైపు కొత్త రోడ్డుకు 218 ఆస్తుల సేకరణ",
-    "కేశవగిరిలో చాంద్రాయణగుట్ట పోలీస్ స్టేషన్‌కు స్థలం",
-    "భోగిగూడ పశువైద్యశాల పునర్నిర్మాణానికి ₹20 కోట్లు"
-   ],
-   "why": "నగరంలో జీహెచ్ఎంసీ పార్కులకు వెళ్లే కుటుంబాలు, ఉదయపు నడక చేసేవారిపై ఈ పెంపు ప్రభావం ఉంటుంది.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/hyderabad-ghmc-standing-committee-approves-hike-in-park-entry-fees",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "pub": "2026-11-15T14:20+05:30",
-   "lbl": "fact",
-   "loc": "",
-   "en": {
-    "cat": "Hyderabad · GHMC",
-    "h": "GHMC approves hike in park entry fees",
-    "stat": "Park tickets",
-    "statl": "price hike approved",
-    "loc": "Hyderabad",
-    "p": "The GHMC standing committee approved a proposal to raise entry ticket prices at parks maintained by the civic body. New rates and the date they take effect have not been announced. The same meeting approved streetlight maintenance, a project report for an Intelligent Traffic Management System and moving GHMC applications to the cloud.",
-    "pts": [
-     "218 properties to be acquired for road towards Saheb Nagar",
-     "Land at Keshavagiri for Chandrayangutta police station",
-     "₹20 crore to rebuild Bhogiguda veterinary hospital"
-    ],
-    "why": "Families and morning walkers who use GHMC parks across the city will be affected by the hike."
-   },
-   "hi": {
-    "cat": "हैदराबाद · जीएचएमसी",
-    "h": "जीएचएमसी पार्कों का प्रवेश शुल्क बढ़ेगा",
-    "stat": "पार्क टिकट",
-    "statl": "दाम बढ़ाने को मंजूरी",
-    "loc": "हैदराबाद",
-    "p": "जीएचएमसी स्थायी समिति ने नगर निगम के पार्कों के प्रवेश टिकट की कीमतें बढ़ाने के प्रस्ताव को मंजूरी दी। नई दरें और लागू होने की तारीख अभी घोषित नहीं हुई है। इसी बैठक में स्ट्रीटलाइट रखरखाव, इंटेलिजेंट ट्रैफिक मैनेजमेंट सिस्टम की परियोजना रिपोर्ट और जीएचएमसी एप्लिकेशन को क्लाउड पर ले जाने को भी मंजूरी मिली।",
-    "pts": [
-     "साहेब नगर की ओर सड़क के लिए 218 संपत्तियों का अधिग्रहण",
-     "केशवगिरि में चंद्रायणगुट्टा थाने के लिए जमीन",
-     "भोगीगुडा पशु अस्पताल के पुनर्निर्माण को ₹20 करोड़"
-    ],
-    "why": "शहर में जीएचएमसी पार्कों में जाने वाले परिवारों और सुबह टहलने वालों पर इसका असर पड़ेगा।"
-   },
-   "d": "15.11.2026",
-   "t": "14:35"
-  },
-  {
-   "cat": "సంగారెడ్డి · విద్యార్థి భద్రత",
-   "col": "--c-gov",
-   "art": "campus",
-   "stat": "పదో తరగతి విద్యార్థిని",
-   "statl": "గురుకులం నుంచి అదృశ్యం",
-   "h": "సిర్గాపూర్ గురుకులం విద్యార్థిని అదృశ్యం",
-   "p": "సంగారెడ్డి జిల్లా సిర్గాపూర్‌లోని గిరిజన సంక్షేమ గురుకుల పాఠశాల నుంచి పదో తరగతి విద్యార్థిని శనివారం మధ్యాహ్నం కనిపించకుండా పోయింది. భోజనం తర్వాత ఎవరికీ చెప్పకుండా పాఠశాల బయటకు వెళ్లిందని సిబ్బంది తెలిపారు. తల్లిదండ్రులు, బంధువులు వెతికినా ఆచూకీ దొరకలేదు. ప్రిన్సిపాల్ ఫిర్యాదుతో సిర్గాపూర్ పోలీసులు మిస్సింగ్ కేసు నమోదు చేశారు.",
-   "pts": [
-    "విద్యార్థిని కల్హేర్ మండలానికి చెందినది",
-    "శనివారం సాయంత్రమే పోలీసులకు ఫిర్యాదు",
-    "గాలింపు కొనసాగుతోంది"
-   ],
-   "why": "గురుకులాల్లో చదువుతున్న పిల్లల భద్రత, పర్యవేక్షణపై తల్లిదండ్రుల ఆందోళనకు సంబంధించిన విషయం ఇది.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/class-x-student-goes-missing-from-tribal-welfare-residential-school-in-sirgapur",
-   "sec": [
-    "telangana",
-    "education"
-   ],
-   "st": "TG",
-   "place": "sangareddy",
-   "pub": "2026-11-15T14:16+05:30",
-   "lbl": "fact",
-   "loc": "సిర్గాపూర్",
-   "en": {
-    "cat": "Sangareddy · Student safety",
-    "h": "Class X girl missing from Sirgapur school",
-    "stat": "Class X student",
-    "statl": "missing from residential school",
-    "loc": "Sirgapur, Sangareddy",
-    "p": "A Class X girl went missing from the Tribal Welfare Residential School at Sirgapur in Sangareddy district on Saturday afternoon. Staff said she left the premises after lunch without telling anyone. Her parents and relatives searched but could not trace her. Sirgapur police registered a missing case on the principal's complaint.",
-    "pts": [
-     "Student is from Kalher mandal",
-     "Complaint filed on Saturday evening",
-     "Search is continuing"
-    ],
-    "why": "The case concerns parents' worries about the safety and supervision of children in residential schools."
-   },
-   "hi": {
-    "cat": "संगारेड्डी · छात्र सुरक्षा",
-    "h": "सिरगापुर स्कूल से दसवीं की छात्रा लापता",
-    "stat": "दसवीं की छात्रा",
-    "statl": "आवासीय स्कूल से लापता",
-    "loc": "सिरगापुर, संगारेड्डी",
-    "p": "संगारेड्डी जिले के सिरगापुर स्थित आदिवासी कल्याण आवासीय स्कूल से दसवीं कक्षा की एक छात्रा शनिवार दोपहर लापता हो गई। कर्मचारियों के अनुसार वह दोपहर के भोजन के बाद बिना बताए परिसर से निकल गई। माता-पिता और रिश्तेदारों ने खोजा, पर पता नहीं चला। प्रधानाचार्य की शिकायत पर सिरगापुर पुलिस ने गुमशुदगी का मामला दर्ज किया।",
-    "pts": [
-     "छात्रा कल्हेर मंडल की रहने वाली",
-     "शनिवार शाम पुलिस में शिकायत",
-     "तलाश जारी"
-    ],
-    "why": "यह मामला आवासीय स्कूलों में बच्चों की सुरक्षा और निगरानी को लेकर अभिभावकों की चिंता से जुड़ा है।"
-   },
-   "d": "15.11.2026",
-   "t": "14:35"
-  },
-  {
-   "cat": "భారత్ · విమానయానం",
-   "col": "--c-money",
-   "art": "economy",
-   "stat": "ఐదు గంటల",
-   "statl": "ప్రయాణ సమయం ఆదా",
-   "h": "ఎయిర్ ఇండియా న్యూయార్క్ విమానాలు నేరుగా",
-   "p": "ఢిల్లీ, ముంబై నుంచి న్యూయార్క్‌కు అన్ని విమానాలను మళ్లీ నాన్‌స్టాప్‌గా నడుపుతున్నట్లు ఎయిర్ ఇండియా ఆదివారం ప్రకటించింది. గగనతలం మళ్లీ తెరుచుకోవడంతో ఇది సాధ్యమైందని తెలిపింది. ఇప్పటివరకు రోమ్‌లో ఇంధనం కోసం ఆగడంతో దాదాపు 22 గంటలు పట్టిన ప్రయాణం ఇప్పుడు సుమారు 17 గంటల్లో పూర్తవుతుంది.",
-   "pts": [
-    "ఢిల్లీ, ముంబై నుంచి జేఎఫ్‌కేకు రోజూ ఒక్కో విమానం",
-    "నెవార్క్‌కు వారానికి ఢిల్లీ నుంచి నాలుగు, ముంబై నుంచి మూడు",
-    "పాకిస్థాన్ గగనతల మూసివేతతో ఈ ఏడాది అంతరాయం"
-   ],
-   "why": "అమెరికాకు వెళ్లే తెలుగు విద్యార్థులు, ఉద్యోగులు, కుటుంబాలకు ప్రయాణ సమయం తగ్గుతుంది.",
-   "src": "Telangana Today (IANS)",
-   "url": "https://telanganatoday.com/air-india-resumes-non-stop-new-york-flights-cuts-travel-time-by-five-hours",
-   "sec": [
-    "india",
-    "business"
-   ],
-   "st": "IN",
-   "place": "IN",
-   "pub": "2026-11-15T14:19+05:30",
-   "lbl": "fact",
-   "loc": "",
-   "en": {
-    "cat": "India · Aviation",
-    "h": "Air India resumes non-stop New York flights",
-    "stat": "5 hours",
-    "statl": "of travel time saved",
-    "loc": "Delhi, Mumbai",
-    "p": "Air India said on Sunday it has restored non-stop operations on all its flights from Delhi and Mumbai to New York after airspace reopened. The flights had been stopping in Rome to refuel, taking nearly 22 hours; they will now take about 17 hours.",
-    "pts": [
-     "One daily flight each from Delhi and Mumbai to JFK",
-     "Newark: four weekly from Delhi, three from Mumbai",
-     "Routes were hit by Pakistan airspace closure this year"
-    ],
-    "why": "Telugu students, professionals and families travelling to the US will spend less time in transit."
-   },
-   "hi": {
-    "cat": "भारत · विमानन",
-    "h": "एयर इंडिया की न्यूयॉर्क नॉनस्टॉप उड़ानें बहाल",
-    "stat": "5 घंटे",
-    "statl": "यात्रा समय की बचत",
-    "loc": "दिल्ली, मुंबई",
-    "p": "एयर इंडिया ने रविवार को बताया कि हवाई क्षेत्र दोबारा खुलने के बाद दिल्ली और मुंबई से न्यूयॉर्क की सभी उड़ानें फिर नॉनस्टॉप चलेंगी। ईंधन के लिए रोम में रुकने से लगभग 22 घंटे लगते थे, अब यात्रा करीब 17 घंटे में पूरी होगी।",
-    "pts": [
-     "दिल्ली और मुंबई से जेएफके के लिए रोज एक-एक उड़ान",
-     "नेवार्क: दिल्ली से हफ्ते में चार, मुंबई से तीन",
-     "इस साल पाकिस्तान हवाई क्षेत्र बंद होने से बाधा"
-    ],
-    "why": "अमेरिका जाने वाले तेलुगु छात्रों, पेशेवरों और परिवारों का यात्रा समय घटेगा।"
-   },
-   "d": "15.11.2026",
-   "t": "14:35"
   }
  ]
 }
