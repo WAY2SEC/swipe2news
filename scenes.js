@@ -368,7 +368,7 @@ function artType(s){
    weather → the condition is the hero (rain cloud only when it rains; cool / warm tone for cold / heat), the place dimmed behind;
    place = subject (temple, travel, festival) → the landmark alone; place + type → landmark + small type picture;
    type only → its picture; else the state emblem. */
-const ART_SENS=/కిడ్నాప్|అదృశ్య|అపహరణ|kidnap|missing girl|missing boy|హత్య|అరెస్ట్|దొంగ|పోలీసు|నిందితు|అత్యాచార|ప్రమాద|మృతి|మరణ|ఆత్మహత్య|చనిపో|కోర్టు|సైబర్ (?:నేర|మోస|క్రైమ్)|మోసం|murder|arrest|police|accident|killed|death|dies|died|suicide|court|cyber(?!abad)|fraud|scam|rape/i;
+const ART_SENS=/కిడ్నాప్|అదృశ్య|అపహరణ|kidnap|missing girl|missing boy|హత్య|అరెస్ట్|దొంగ|పోలీసు|నిందితు|అత్యాచార|ప్రమాద|మృతి|మరణ|ఆత్మహత్య|చనిపో|కోర్టు|సైబర్ (?:నేర|మోస|క్రైమ్)|మోసం|\bmurder|\barrest|\bpolice\b|\baccident|\bkilled\b|\bdeaths?\b|\bdies\b|\bdied\b|\bsuicide|\bcourts?\b|\bcyber(?!abad)|\bfraud|\bscams?\b|\brape\b/i; // word boundaries: 'bodies' is not 'dies', 'scamper' is not 'scam'
 
 /* owner's 18 topic pictures (14 Nov 2026, art/n/): used when the story is about one of these topics and no district landmark applies */
 const ART_N=[[/విద్యుత్ సరఫరా|కరెంట్ కోత|కరెంటు|విద్యుత్ కోత|పవర్ కట్|ట్రాన్స్‌ఫార్మర్|సబ్‌స్టేషన్|విద్యుత్ బిల్లు|power cut|power supply|electricity|transformer|substation|discom/i,'power'],
