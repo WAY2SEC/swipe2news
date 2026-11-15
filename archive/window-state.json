@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T12:35:00+05:30",
+ "cutoff": "2026-11-15T13:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T21:05:00+05:30/2026-11-11T21:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 13,
-   "published": 6,
-   "late": 5,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 5,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agent. Search returned stale listing pages; siasat.com/news/telangana, telanganatoday.com/telangana, DC Telangana, Hans AP, ANI national, ntnews.com and andhrajyothy.com listings not fetched (permission not granted); Eenadu, Sakshi, TV9, V6, NTV, ETV, The Hindu, Reuters/BBC/AP and international-topic sources not surfaced. Duplicates (events already published): Siasat 10+2 3574525, TT AP 789 lift schemes, TT CII Vizag 3,800 delegates, TT KTR Nirmal Rythu Garjana water crisis, Hans Rahul Gandhi Bharat Summit 1141124. Skipped: Siasat Nisar feature 3574204 (feature, not news), TT Fadnavis Navi Mumbai flights (minor other-state)."
-  },
   {
    "window": "2026-11-11T21:35:00+05:30/2026-11-11T22:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 1,
    "gaps": "12:35 run started 12:36 IST. Lookback from 04:05 15 Nov. Feeds branch 11:32 (66 min old, >1h: searched as fallback too; 70/70 ok; covered flags stale). Published: NewsMeter Yasangi Rythu Bharosa ₹9,000 cr loan plan (10:35, claim), Hans Kadapa SP poll-nomination curbs (06:38, late-found). Duplicates: BM Sandeep TG Congress in-charge (covered 14 Nov), AP panchayat first-phase nominations (covered). Skipped: Asianet/ANI Revanth policy stability (14 Nov 23:00, pre-lookback; PHFI covered), Hans Kadapa diabetes camp (minor), FAA outage/Duffy (13 Nov event), Trump-Xi-Putin Shenzhen meet (Kremlin 14 Nov, pre-lookback by search timestamps). Review: AA Morning Briefing 15 Nov (no time shown). Not found by search: NIE TGPCB realty closures, Hindu Bar Council evening courts, NIE AP missing-kids panels. ETV/ABN live blogs no entries after 08:58. Districts searched: Mahabubabad, Kadapa, Nizamabad, Anantapur, Mancherial, Nirmal, Srikakulam, Eluru, Chittoor, Hyderabad."
+  },
+  {
+   "window": "2026-11-15T12:35:00+05:30/2026-11-15T13:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 5,
+   "late": 4,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "13:05 run started 13:06 IST. Lookback from 04:35 15 Nov. Feeds branch fresh (12:49, 70/70 ok; covered flags stale). Published: TT HCL Cyclothon Hyderabad (12:53), Andhra Prabha Talamadugu farmer suicide (10:49, late-found, sensitive), Hans Nandyal KC Canal farmers (06:49, late, claim), Hans Nandyal nomination security (06:55, late), Hans Banaganapalle dumping yard (06:47, late). Skipped: NewsMeter telecom theft (2024, old). Not found by search: TT Nalgonda Airtel employees Rs1.62 cr, Hans Tirupati car-tipper crash, NIE Bhupalpally BJP protest, DC Sonia book Vijayawada, Siasat Modi tribals/Naxal, Samayam Sangareddy PCB closures. Districts searched: Adilabad, Nandyal, Kurnool, Jagtial, Kamareddy, Palnadu, Konaseema, Annamayya, Wanaparthy, Gadwal, Narayanpet, Hyderabad."
   }
  ],
  "seen": [
@@ -3653,6 +3653,36 @@
    "url": "https://www.aa.com.tr/en/eurasia/kremlin-says-putin-xi-trump-to-hold-trilateral-meeting-in-shenzhen-on-nov-19/4125290",
    "d": "2026-11-15",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/hcl-cyclothon-concludes-in-hyderabad-54debbf9",
+   "d": "2026-11-15",
+   "w": "p"
+  },
+  {
+   "url": "https://prabhanews.com/tragedy-in-undivided-adilabad/",
+   "d": "2026-11-15",
+   "w": "p"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/farmers-demand-immediate-action-to-safeguard-crops-and-livelihoods-1142255",
+   "d": "2026-11-15",
+   "w": "p"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/tight-police-security-arranged-at-nomination-centres-across-nandyal-1142261",
+   "d": "2026-11-15",
+   "w": "p"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/dumping-yard-on-ravvala-konda-to-be-shifted-soon-1142254",
+   "d": "2026-11-15",
+   "w": "p"
+  },
+  {
+   "url": "https://newsmeter.in/crime/telangana-cops-arrest-9-for-stealing-airtel-jio-cell-tower-equipment-726878",
+   "d": "2026-11-15",
+   "w": "skip"
   }
  ]
 }
