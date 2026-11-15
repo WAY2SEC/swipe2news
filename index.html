@@ -893,7 +893,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .s2n.metals2 .m2v{border-left:1.5px solid #E7B77A;padding-left:12px;min-width:0}
 .s2n.metals2 .m2v h4{margin:0 0 4px;padding-bottom:5px;border-bottom:1.5px solid #E7B77A;font:800 21px/1.2 var(--body);color:#4A0E3F}.s2n.metals2 .m2v h4 small{font:800 13px/1 'Outfit',sans-serif;color:#4A0E3F;opacity:.85}
 .s2n.metals2 .mr{display:flex;align-items:baseline;flex-wrap:wrap;gap:2px 8px;padding:4px 0}.s2n.metals2 .mr+.mr{border-top:1px solid #EAD5BA}
-.s2n.metals2 .mr span{font:800 13px/1.2 'Outfit',sans-serif;color:#5B3A50;min-width:72px}
+.s2n.metals2 .mr span{font:800 13px/1.2 'Outfit',var(--body);color:#5B3A50;min-width:72px}
 .s2n.metals2 .mr b{font:800 22px/1.1 'Outfit',sans-serif;color:#2E0827}
 .s2n.metals2 .mr i{font:800 11.5px/1 'Outfit',sans-serif;font-style:normal}.s2n.metals2 i.up{color:#0E7A3E}.s2n.metals2 i.dn{color:#B3261E}
 .s2n.metals2 .m2f{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}.s2n.metals2 .m2f span{padding:5px 10px;border-radius:10px;background:#FBF3E6;color:#4A0E3F;font:800 11px/1.2 var(--body)}
@@ -1437,7 +1437,7 @@ function metalsHTML(s,i,city){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=M
   <div class="text m2body">
    <div class="m2p"><img src="/art/m/gold.webp" alt="" loading="lazy"><div class="m2v"><h4>${esc(T.g)}${l!=='en'?' <small>/ GOLD</small>':''}</h4>${row('22K · 10 g',c.g22,c.city+'|g22')}${row('24K · 10 g',c.g24,c.city+'|g24')}</div></div>
    <div class="m2p"><img src="/art/m/silver.webp" alt="" loading="lazy"><div class="m2v"><h4>${esc(T.sv)}${l!=='en'?' <small>/ SILVER</small>':''}</h4>${row('1 kg',c.silver,c.city+'|silver')}</div></div>
-   <div class="m2p"><img src="/art/m/copper.webp" alt="" loading="lazy"><div class="m2v"><h4>${esc(T.cp)}${l!=='en'?' <small>/ COPPER</small>':''}</h4>${row('1 kg · MCX',cu?cu.price:null,'copper')}</div></div>
+   <div class="m2p"><img src="/art/m/copper.webp" alt="" loading="lazy"><div class="m2v"><h4>${esc(T.cp)}${l!=='en'?' <small>/ COPPER</small>':''}</h4>${row('1 kg · MCX'+(cu&&cu.date&&cu.date!==c.date?(()=>{ try{ return ' · '+new Date(cu.date+'T12:00:00+05:30').toLocaleDateString(l==='te'?'te-IN':l==='hi'?'hi-IN':'en-IN',{day:'numeric',month:'short'}); }catch(e){ return ''; } })():''),cu?cu.price:null,'copper')}</div></div>
    <div class="m2f"><span>📍 ${esc(U.city[c.city]||c.city)}</span><span>🕒 ${esc(T.upd)}: ${esc(when)}</span><span>${esc(U.src)}: ${esc(METALS.src||'')}</span></div>
    <p class="m2n">${esc(T.note)}</p>
   </div>
