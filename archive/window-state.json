@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T17:05:00+05:30",
+ "cutoff": "2026-11-15T17:20:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T09:05:00+05:30/2026-11-12T09:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 4,
-   "late": 4,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebSearch returned mostly stale listing pages. WebFetch via sub-agent on Hans Telangana listing, ntnews home (no times), DC AP listing. 14 newer Hans India articles (01:40-08:01 IST, e.g. Ponguleti land re-survey SOP, TGSRTC Karthika buses, Revanth/KTR remarks, Trump-Iran, Tirupati cross-voting) refused by WebFetch (not in search results) - left unseen for next runs. fxleaders blocked by robots. Eenadu, Sakshi, Andhra Jyothy, TV9, V6, NTV, ETV Bharat, The Hindu, PTI, Reuters/AP not surfaced in range. Districts searched: Medak, Sangareddy, Siddipet, Mahabubnagar, Wanaparthy, Nagarkurnool, Guntur, Palnadu, Bapatla, Anantapur, Sri Sathya Sai, Nandyal, Peddapalli. Out of lookback: Hans goods train derailment Kunaram (11 Nov 21:43)."
-  },
   {
    "window": "2026-11-12T09:35:00+05:30/2026-11-12T10:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 0,
    "gaps": "17:05 run started 17:05 IST. Lookback from 08:50 15 Nov. Feeds branch fresh (16:40, 70/70 ok, 748 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: Telangana Today Cyclone Akvan TG rain forecast Nov 20-22 (17:02), HMTV Bhadrachalam Karthika rush (12:04, late). Skipped (published before lookback): Hans Goyal Egypt visit (10 Nov), Hans Kurnool GP polls (14 Nov), Hans AP rain alert (14 Nov), Vikarabad U19 cricketer suicide (14 Nov, also minor/suicide victim), DC Anantapur mayor (9 Nov). Not opened: Hindu AP 12 of 13 mayors, Siasat NIMS HC appeal, Teenmar Mallanna attack condemnation, Bar Council AP evening courts, NIE horse gram (searches did not surface articles). District searches: Karimnagar, Warangal/Hanamkonda, Visakhapatnam, Kurnool/Kadapa, Khammam/Bhadradri, Siddipet/Medak, Srikakulam/Vizianagaram/Kakinada, Mahabubnagar/Wanaparthy/Gadwal. Districts covered: Bhadradri, TS."
+  },
+  {
+   "window": "2026-11-15T17:05:00+05:30/2026-11-15T17:20:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 2,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "17:20 run started 17:20 IST. Lookback from 09:05 15 Nov. Feeds branch fresh (17:09, 70/70 ok, 820 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: Telangana Today SIR 54,863 ineligible (16:50), HMTV Guntur Etukuru petrol bunk short-measure allegation (17:00, claim). Already covered: Vikarabad car-auto crash, Revanth-Modi meeting, KIYG. Not opened: Mangalagiri-Tadepalli 76 nominations, Shabad best sarpanch award (searches did not surface articles). No extra district searches (time). Districts covered: TS, Guntur."
   }
  ],
  "seen": [
@@ -4033,6 +4033,16 @@
    "url": "https://www.aninews.in/news/national/general-news/17-year-old-cricket-player-dies-by-suicide-in-telanganas-vikarabad-family-alleges-harassment20261114031918/",
    "d": "2026-11-15",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-sir-54863-electors-found-ineligible-for-final-voter-list",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/guntur/guntur-hp-petrol-bunk-adulterated-fuel-measurement-fraud-etukuru-junction-213265",
+   "d": "2026-11-15",
+   "w": "published"
   }
  ]
 }
