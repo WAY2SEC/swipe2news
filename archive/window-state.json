@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T07:35:00+05:30",
+ "cutoff": "2026-11-15T08:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T16:05:00+05:30/2026-11-11T16:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 2,
-   "late": 1,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agent. Searches mostly returned stale tag/listing pages. Eenadu blocked (robots). Siasat/TT listing pages show only relative times. Business Standard market live blog had no closing entry readable. Sakshi, TV9, V6, NTV, ETV Bharat, AJ, The Hindu, PTI, Reuters/BBC/AP and most international-topic sources not surfaced in range. Duplicates: Hans lift schemes/Jalaharati (36 projects already published from AJ), TT Guwahati express derailment (Sairang derailment already seen). Skipped minor: Hans Anthropic office tools, Hans Delhi Nangli manhole, Hans Kedarnath closing, Siasat Pakistani anchor. Before lookback: TT SDRF Khammam (01:12), TT Bhainsa ACB (00:36), Siasat Bachupally HC (10 Nov 15:35), Siasat Nagarjuna HYDRAA (10 Nov 22:56)."
-  },
   {
    "window": "2026-11-11T16:35:00+05:30/2026-11-11T17:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 6,
    "review": 0,
    "gaps": "07:35 run started 07:36 IST. Lookback from 23:05 14 Nov. Published from ETV Bharat TG/AP live blogs (06:34–06:52): CM Revanth Delhi visit (fact), Bourampet 5 buses fire (fact, police), AIKS national conference Nalgonda (fact), Jeelugumilli tiger sighting (claim), SpaceX Starship catch (fact). Duplicates: AP panchayat nominations (published 14 Nov), Giribabu last rites (death published 14 Nov), Sandeep Kumar TG Congress in-charge (published). Skipped: Anantapur minor suicide (minor/sensitive), IAS officer Nellore accident (accident victim name), Vijayawada–Nanded Express theft arrest (low value), Naidu TDP teleconference (party talk), Federal/The Week Akvan (pre-lookback, already covered), Jagran assembly headlines (pre-lookback). Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; standard searches stale. Districts searched: Warangal, Hanumakonda, Sangareddy, Vikarabad, Kakinada, East Godavari, Tirupati, Kamareddy, Mancherial, Asifabad, NTR."
+  },
+  {
+   "window": "2026-11-15T07:35:00+05:30/2026-11-15T08:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 9,
+   "published": 6,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "08:05 run started 08:06 IST. Lookback from 23:35 14 Nov. Published from ABN Andhra Jyothy flash live page (07:45–07:58): Chandragiri toll plaza accident 3 dead (fact, sensitive, no names), central team meets CM on Cyclone Murasu crop loss (fact), TTD arjitha seva tickets Nov 18 (fact), Limbadri Gutta Brahmotsavams Bheemgal (fact), Yadagirigutta Karthika rush (fact, temple officials), gold prices steady (fact). Duplicate: ABN low-pressure/fishermen warning (Akvan already covered). Skipped: ETV Ramoji tribute walk 07:31 (house event, low value), ETV Anantapur minor suicide (minor/sensitive, seen). ETV TG/AP live blogs had no other new entries after 06:52. Standard searches stale (TT/BS listing pages). Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; no India/world items found in window. Districts searched: Khammam, Karimnagar, Siddipet, Mahabubnagar, Guntur, Krishna, Palnadu, Bapatla, Konaseema, Medak."
   }
  ],
  "seen": [
@@ -3251,6 +3251,46 @@
   },
   {
    "url": "https://thedailyjagran.com/education/news/todays-school-assembly-news-headline-november-15-2026-check-top-national-international-and-sports-news-here-10336302",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-15th-november-2026-3714.html#chandragiri-accident",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-15th-november-2026-3714.html#central-team-cm",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-15th-november-2026-3714.html#ttd-arjitha-seva",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-15th-november-2026-3714.html#limbadri-gutta",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-15th-november-2026-3714.html#yadagirigutta-rush",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-15th-november-2026-3714.html#gold-price",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-15th-november-2026-3714.html#low-pressure-fishermen",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--15th-november-2026-latest-top-news-information-across-telangana-tgs26111500354#ramoji-walk-0731",
    "d": "2026-11-15",
    "w": "skipped"
   }
