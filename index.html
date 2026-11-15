@@ -898,6 +898,30 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .s2n.metals2 .mr i{font:800 11.5px/1 'Outfit',sans-serif;font-style:normal}.s2n.metals2 i.up{color:#0E7A3E}.s2n.metals2 i.dn{color:#B3261E}
 .s2n.metals2 .m2f{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}.s2n.metals2 .m2f span{padding:5px 10px;border-radius:10px;background:#FBF3E6;color:#4A0E3F;font:800 11px/1.2 var(--body)}
 .s2n.metals2 .m2n{margin:0;text-align:center;font:italic 600 11.5px/1.3 var(--body);color:rgba(255,253,245,.8)}
+
+/* metals table view (preview ?mt=table) */
+.s2n.metalsT .m2body{justify-content:flex-start!important;gap:12px!important;padding-top:4px!important}
+.s2n.metalsT .mtw{background:#FBF3E6;border-radius:20px;padding:6px 6px 4px;box-shadow:0 8px 20px rgba(0,0,0,.28)}
+.s2n.metalsT .mtt{width:100%;table-layout:fixed;border-collapse:separate;border-spacing:0;font-variant-numeric:tabular-nums}.s2n.metalsT .mtt th:first-child{width:27%}
+.s2n.metalsT .mtimg th{padding:6px 2px 2px;text-align:center;vertical-align:bottom}
+.s2n.metalsT .mtimg img{display:block;margin:0 auto 2px;height:64px;width:auto;max-width:100%;object-fit:contain}
+.s2n.metalsT .mtimg b{display:block;font:800 16px/1.2 var(--body);color:#4A0E3F}.s2n.metalsT .mtimg small{display:block;font:800 11px/1.2 'Outfit',sans-serif;color:#8A6A7E}
+.s2n.metalsT .mtsub th{padding:7px 4px;font:800 12.5px/1 'Outfit',var(--body);color:#FBF3E6;background:#4A0E3F;text-align:right}
+.s2n.metalsT .mtsub th:first-child{text-align:left;border-radius:10px 0 0 10px}.s2n.metalsT .mtsub th:last-child{border-radius:0 10px 10px 0}
+.s2n.metalsT .mtimg th:nth-child(2){border-right:1.5px dashed #E7B77A}
+.s2n.metalsT tbody th{text-align:left;padding:15px 4px 15px 8px;font:800 14px/1.2 var(--body);color:#2E0827;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.s2n.metalsT tbody td{text-align:right;padding:15px 4px;border-left:1px solid #EAD5BA}
+.s2n.metalsT tbody td b{display:block;font:800 clamp(12.5px,3.6vw,15px)/1.1 'Outfit',sans-serif;letter-spacing:-.2px;color:#2E0827;white-space:nowrap}
+.s2n.metalsT tbody td i{display:block;font:800 10.5px/1.3 'Outfit',sans-serif;font-style:normal}.s2n.metalsT i.up{color:#0E7A3E}.s2n.metalsT i.dn{color:#B3261E}
+.s2n.metalsT tbody tr+tr th,.s2n.metalsT tbody tr+tr td{border-top:1px solid #EAD5BA}
+.s2n.metalsT tbody tr:nth-child(even){background:rgba(74,14,63,.04)}
+.s2n.metalsT tbody tr.me{background:linear-gradient(90deg,rgba(245,162,58,.28),rgba(245,162,58,.12))}
+.s2n.metalsT tbody tr.me th:first-child{border-radius:10px 0 0 10px}.s2n.metalsT tbody tr.me td:last-child{border-radius:0 10px 10px 0}
+.s2n.metalsT .mtcu>div{min-width:0}.s2n.metalsT .mtcu{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;background:#FBF3E6;border-radius:18px;padding:8px 16px 8px 8px;box-shadow:0 8px 20px rgba(0,0,0,.28)}
+.s2n.metalsT .mtcu img{height:56px;width:auto;border-radius:12px}
+.s2n.metalsT .mtcu b{display:block;font:800 18px/1.2 var(--body);color:#4A0E3F}.s2n.metalsT .mtcu small{font:800 11.5px/1.2 'Outfit',var(--body);color:#8A6A7E}
+.s2n.metalsT .mtcu strong{font:800 21px/1 'Outfit',sans-serif;color:#2E0827;white-space:nowrap}
+.s2n.metalsT .mtcu>i{grid-column:3;justify-self:end;font:800 11px 'Outfit',sans-serif;font-style:normal}
 </style>
 </head>
 <body>
@@ -1445,6 +1469,29 @@ function metalsHTML(s,i,city){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=M
 </article>`; }
 document.addEventListener('click',e=>{ const b=e.target.closest('.metals2 .m2c'); if(!b) return; e.preventDefault(); e.stopPropagation(); const art=b.closest('.story'); const it=LIST.find(x=>x&&x.kind==='metals'); if(!art||!it) return;
   store.set('metCity',b.dataset.c); const tmp=document.createElement('div'); tmp.innerHTML=metalsHTML(it,0,b.dataset.c); const nw=tmp.firstElementChild; art.querySelector('.m2hd').replaceWith(nw.querySelector('.m2hd')); art.querySelector('.m2body').replaceWith(nw.querySelector('.m2body')); },true);
+/* PREVIEW (?mt=table): gold · silver · copper as one table for all four cities */
+const MTTAB=(()=>{ try{ const q=new URLSearchParams(location.search).get('mt'); if(q==='table'||q==='panels') localStorage.setItem('w2s.mt',q); return localStorage.getItem('w2s.mt')==='table'; }catch(e){ return false; } })();
+function metalsTableHTML(s,i){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=METALS.prev||{}, inr=n=>'₹'+Number(n).toLocaleString('en-IN');
+  const ar=(k,v)=>{ const p=prev[k]; if(p==null||v==null||p===v) return ''; return v>p?`<i class="up">▲${Number(v-p).toLocaleString('en-IN')}</i>`:`<i class="dn">▼${Number(p-v).toLocaleString('en-IN')}</i>`; };
+  const T={te:{h:['బంగారం','వెండి','రాగి'],sub:'ధరల సమాచారం',city:'నగరం',g:'బంగారం',sv:'వెండి',cp:'రాగి',upd:'అప్‌డేట్',note:'సూచిక ధరలు • పన్నులు, తయారీ ఛార్జీలు అదనం'},
+    en:{h:['Gold','Silver','Copper'],sub:'Today\'s rates',city:'City',g:'Gold',sv:'Silver',cp:'Copper',upd:'Updated',note:'Indicative rates • Taxes and making charges extra'},
+    hi:{h:['सोना','चाँदी','ताँबा'],sub:'आज के भाव',city:'शहर',g:'सोना',sv:'चाँदी',cp:'ताँबा',upd:'अपडेट',note:'सांकेतिक भाव • टैक्स और मेकिंग चार्ज अलग'}}[l];
+  const mine=(prefs&&String(prefs.place||'').startsWith('ap-'))?'Hyderabad':'Hyderabad', cu=METALS.copper&&METALS.copper.price?METALS.copper:null;
+  const dt=d=>{ try{ return new Date(d+'T12:00:00+05:30').toLocaleDateString(l==='te'?'te-IN':l==='hi'?'hi-IN':'en-IN',{day:'numeric',month:'short'}); }catch(e){ return d||''; } };
+  let when=''; try{ const m=/T(\d\d):(\d\d)/.exec(METALS.updated||''); when=dt(s.c[0].date)+(m?' · '+(((+m[1])%12)||12)+':'+m[2]+(+m[1]<12?' AM':' PM'):''); }catch(e){}
+  return `<article class="story s2n mandi metals2 metalsT" aria-label="${esc(T.h.join(' · '))}">
+  <div class="m2hd"><div class="m2t">${T.h.map(esc).join('<i>•</i>')}</div><div class="m2s"><span></span>${esc(T.sub)} · ${esc(dt(s.c[0].date))}<span></span></div></div>
+  <div class="text m2body">
+   <div class="mtw"><table class="mtt"><thead>
+    <tr class="mtimg"><th></th><th colspan="2"><img src="/art/m/gold.webp" alt=""><b>${esc(T.g)}</b><small>10 g</small></th><th><img src="/art/m/silver.webp" alt=""><b>${esc(T.sv)}</b><small>1 kg</small></th></tr>
+    <tr class="mtsub"><th>${esc(T.city)}</th><th>22K</th><th>24K</th><th>1 kg</th></tr></thead>
+    <tbody>${s.c.map(x=>`<tr${x.city===mine?' class="me"':''}><th>${esc(U.city[x.city]||x.city)}</th><td><b>${x.g22!=null?inr(x.g22):'—'}</b>${ar(x.city+'|g22',x.g22)}</td><td><b>${x.g24!=null?inr(x.g24):'—'}</b>${ar(x.city+'|g24',x.g24)}</td><td><b>${x.silver!=null?inr(x.silver):'—'}</b>${ar(x.city+'|silver',x.silver)}</td></tr>`).join('')}</tbody></table></div>
+   <div class="mtcu"><img src="/art/m/copper.webp" alt=""><div><b>${esc(T.cp)}</b><small>1 kg · MCX${cu&&cu.date?' · '+esc(dt(cu.date)):''}</small></div><strong>${cu?inr(cu.price):'—'}</strong>${cu?ar('copper',cu.price):''}</div>
+   <div class="m2f"><span>🕒 ${esc(T.upd)}: ${esc(when)}</span><span>${esc(U.src)}: ${esc(METALS.src||'')}</span></div>
+   <p class="m2n">${esc(T.note)}</p>
+  </div>
+  ${footHTML()}
+</article>`; }
 function withMetals(list){ if(view!=='home'||section!=='all'||list.length<10) return list; const mi=metalsItem(); if(!mi) return list; const o=list.slice(); o.splice(9,0,mi); return o; }
 function withMandi(list){ if(view!=='home'||section!=='all'||list.length<4) return list; const mi=mandiItem(); if(!mi) return list; const o=list.slice(); o.splice(3,0,mi); return o; }
 function withHouse(list){ const C=CONFIG.SPACE; if(!C||!C.on||view!=='home') return list; const house=(C.HOUSE||[]).filter(k=>SPACE_TX[k]&&!(k==='jobs'&&spaceJobsN()<3)); if(!house.length) return list;
@@ -1587,7 +1634,7 @@ function cardHTML(s,i){
   if(s.kind==='promo') return promoHTML(s,i);
   if(s.kind==='job') return jobHTML(s,i);
   if(s.kind==='mandi') return mandiHTML(s,i);
-  if(s.kind==='metals') return metalsHTML(s,i);
+  if(s.kind==='metals') return MTTAB?metalsTableHTML(s,i):metalsHTML(s,i);
   if(s.kind==='house') return houseHTML(s,i);
   if(s.kind==='loc') return locHTML(s,i);
   const where=[...new Set([s.loc, s.place&&s.place!=='TS'&&s.place!=='IN' ? placeName(s.place) : (s.st&&s.st!=='TG'&&s.st!=='IN' ? placeLabel('st-'+s.st) : '')].filter(Boolean).map(x=>String(x).replace(/^మొత్తం\s*/,'')).map(locTx))].filter(Boolean).join(', '); // 'మొత్తం ఆంధ్రప్రదేశ్' was cut to 'మొత్తం ఆంధ్రప్రదే' on small screens
