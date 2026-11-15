@@ -1857,8 +1857,8 @@ function pop(back){ if(!SND) return; const a=acx(); if(!a) return; try{ const t=
   o.connect(g).connect(a.destination); o.start(t); o.stop(t+.1); }catch(e){} }
 function buzz(ms){ try{ navigator.vibrate&&navigator.vibrate(ms); }catch(e){} }
 const REDUCE=matchMedia('(prefers-reduced-motion: reduce)');
-/* swipe styles (PREVIEW ?swipe=deck|flip|zoom; default 'page' = the book page-turn) */
-const SWIPE=(()=>{ try{ const q=new URLSearchParams(location.search).get('swipe'); if(/^(page|deck|flip|zoom)$/.test(q||'')) localStorage.setItem('w2s.swipe',q); return localStorage.getItem('w2s.swipe')||'page'; }catch(e){ return 'page'; } })();
+/* swipe styles: default 'deck' (owner's choice); ?swipe=page|flip|zoom to look at the others */
+const SWIPE=(()=>{ try{ const q=new URLSearchParams(location.search).get('swipe'); if(/^(page|deck|flip|zoom)$/.test(q||'')) localStorage.setItem('w2s.swipe',q); return localStorage.getItem('w2s.swipe')||'deck'; }catch(e){ return 'deck'; } })(); // owner chose B 'deck throw' for everyone, 15 Nov 2026
 function bend(el,p,axis){ // p: 0 flat → 1 fully turned away
   el.style.transition='none';
   if(SWIPE==='deck'){ // throw the top card off the deck, like dealing cards
