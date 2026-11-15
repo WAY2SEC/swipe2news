@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T06:35:00+05:30",
+ "cutoff": "2026-11-15T07:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T15:05:00+05:30/2026-11-11T15:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 15,
-   "published": 10,
-   "late": 6,
-   "sensitive": 4,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 1,
-   "review": 2,
-   "gaps": "Search-first; WebFetch via sub-agent. Searches mostly returned stale listing/tag pages. Eenadu blocked (robots) - 2 Karimnagar items unread. ETV TG/AP live blogs no entries after 09:32/09:10; AJ live blog latest 13:45. Sakshi, TV9, V6, NTV, The Hindu, PTI, BBC/AP and most international-topic sources not surfaced in range. Duplicates: NT Nalgonda Shettipalem bus (AJ published), AJ live 13:45 low pressure, 13:40 Education Day, 13:30 CII (published), ETV live 09:32 Swachh award (published). Skipped: NT Advita Carnival week (school promo). Before lookback: Hans Attapur Chabutra (04:54), DC Vizag beach (7 Nov)."
-  },
   {
    "window": "2026-11-11T15:35:00+05:30/2026-11-11T16:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "06:35 run started 06:36 IST. Lookback from 22:05 14 Nov. Published: NT TG ₹1,000 cr borrowing (02:06, fact), NT CWC Godavari-Cauvery letter (02:49, fact), NT Kosgi demolition protest (02:12, claim), NT RS Praveen Kumar allegations (02:20, claim, sensitive), NT Council farewell 3 MLCs (04:02, fact), Business Today markets week ahead (06:00, fact). Skipped low-value: NT Siripuram sarpanch post (04:16). Duplicate: TT NDE aerospace conferences (already seen). Not reached: Japan Times SpaceX catch (fetch 4xx), Eenadu, Sakshi, V6, TV9, The Hindu, PTI, Reuters; standard searches stale. Districts searched: Medchal, Tirupati, Kurnool, Nandyal, Nellore, Peddapalli, Jagtial, Eluru, Chittoor."
+  },
+  {
+   "window": "2026-11-15T06:35:00+05:30/2026-11-15T07:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 2,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "07:05 run started 07:05 IST. Lookback from 22:35 14 Nov. Published: Hans Cyclone Akvan orange alert (15 Nov 05:13, forecast), NT Chinese aircraft over Sikkim (02:56, claim). Skipped other-state low-value: NT Mandya woman reappears (02:43), NT Mekedatu Congress clash (01:30). Skipped pre-lookback: TT Adilabad/Nirmal transformer failures (26 Oct), Siasat Tammidikunta (14 Nov 18:59). Listing pages without timestamps: TT, NT, Siasat home; DC AP listing stale; Hans Telangana newest 21:27. Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; India/world searches stale. Districts searched: Nalgonda, Nizamabad, Visakhapatnam, Srikakulam, Vizianagaram, Suryapet, Adilabad, Nirmal, Anantapur, Kadapa, Prakasam."
   }
  ],
  "seen": [
@@ -3198,6 +3198,36 @@
    "url": "https://www.japantimes.co.jp/news/2026/11/15/world/science-health/spacex-first-spaceship-catch/",
    "d": "2026-11-15",
    "w": "review"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/amaravati/cyclone-akvan-likely-to-hit-ap-coast-on-nov-18-1142184",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://ntnews.com/international/chinese-military-aircraft-allegedly-breaches-indian-airspace-over-sikkim-2560413",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/national/woman-presumed-murdered-reappears-after-seven-years-2560453",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.ntnews.com/national/congress-leaders-clash-over-mekedatu-dam-project-as-karnataka-and-tamil-nadu-dispute-escalates-2560531",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/transformer-failures-rise-in-adilabad-nirmal-amid-higher-power-demand",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/hyderabad-tammidikunta-brought-to-life-on-childrens-day-3577516/",
+   "d": "2026-11-15",
+   "w": "skipped"
   }
  ]
 }
