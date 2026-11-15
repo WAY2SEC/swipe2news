@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T17:50:00+05:30",
+ "cutoff": "2026-11-15T18:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T10:35:00+05:30/2026-11-12T11:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 1,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebSearch returned mostly stale listing pages. Read via sub-agent: ETV Bharat TG 12 Nov live blog (cached copy only to 06:57; Kanjar/Nizamabad accident entry not present - left unseen), Telangana Today HYDRAA HC (11:00), TT/IANS Kishtwar SPOs (10:38), Hans gold rates (10:31), Hans cyclone (01:18, before lookback) and Kedarnath closure (02:15, before lookback). ETV blog entries 06:41-06:52 (Modi Karnataka visit, fake certificates racket, Italy school threats, Trump-Iran, Rahul US tour) share an already-published URL - not republished. No international-topic items surfaced. Eenadu, Sakshi, Andhra Jyothy, TV9, V6, NTV, The Hindu, PTI, Reuters/AP not surfaced in range. Districts searched: Bhadradri Kothagudem, Mahabubabad, Mulugu, Nizamabad, Adilabad, Nirmal, Anakapalli, Konaseema, Visakhapatnam."
-  },
   {
    "window": "2026-11-12T11:05:00+05:30/2026-11-12T11:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "17:50 run started 17:51 IST. Lookback from 09:35 15 Nov. Feeds branch fresh (17:40, 70/70 ok, 752 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: Siasat Cyberabad 282 drunk-driving cases (17:26), Telangana Today AIMIM plea to shift Nampally rare books to Haj House (17:23). Not opened (searches did not surface articles / time): AJ AP 2nd-phase municipal polls BJP allocation, HMTV Karimnagar farmers to Nalgonda meeting, Oneindia Naidu seeks Centre cyclone aid, Vaartha Hyderabad Rs 5 crore marriage fraud, Disha Vikarabad hit-and-run boy injured. KIYG already covered. No district searches (time; first fetches hit unanswered permission prompts). Districts covered: TS, Hyderabad."
+  },
+  {
+   "window": "2026-11-15T17:50:00+05:30/2026-11-15T18:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 1,
+   "published": 1,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 6,
+   "review": 0,
+   "gaps": "18:05 run started 18:06 IST. Lookback from 09:50 15 Nov. Feeds branch fresh (17:59, 70/70 ok, 768 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: South First Telangana rolls back polytechnic merger with SHAKTI (17:47). Duplicate: Hans India Uttam Kumar on PM meeting (16:55, same event as CM-PM story). Skipped as old events/out of lookback: Nagarkurnool and Mancherial children's Prajavani (08:38 / 13 Nov), Naidu cyclone aid letter (6 Nov), AP 526 proposals (10 Nov), GAIL-KRIBHCO urea MoU (12 Nov), AgniKul Tirupati MoU (13 Nov). Not opened: Rythu Bharosa study (The Hindu), TV9 pensions Rs 4,000, Macherla KGBV girl missing, Vinukonda farmers power protest (searches did not surface articles). No district searches (time)."
   }
  ],
  "seen": [
@@ -4073,6 +4073,36 @@
    "url": "https://telanganatoday.com/aimim-leader-urges-telangana-minister-to-shift-rare-books-to-haj-house",
    "d": "2026-11-15",
    "w": "published"
+  },
+  {
+   "url": "https://thesouthfirst.com/telangana/telangana-government-rolls-back-decision-to-merge-polytechnic-colleges-with-shakti/",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-brings-govt-polytechnics-under-tgche-revises-go-97-3577969/",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/telangana/sought-centres-help-for-clearances-for-various-projects-says-uttam-kumar-reddy-1142418",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/mahaboobnagar/collector-hemanth-keshav-patil-announces-special-balala-prajavani-on-nov-16-213070",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/manchiryal-asifabad/special-childrens-prajavani-on-nov-16-collector-deepak-212557",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://thenewsmill.com/2026/11/chandrababu-naidu-seeks-immediate-centre-aid-for-andhra-cyclone-damage/",
+   "d": "2026-11-15",
+   "w": "skipped"
   }
  ]
 }
