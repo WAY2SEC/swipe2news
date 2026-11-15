@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-15T17:23:58+05:30",
- "src": "GoodReturns · BankBazaar",
+ "updated": "2026-11-15T17:50:25+05:30",
+ "src": "GoodReturns · BankBazaar · MCX via Choice",
  "cities": [
   {
    "city": "Hyderabad",
@@ -18,7 +18,7 @@
    "silver": 195000,
    "date": "2026-11-15",
    "url": "https://www.goodreturns.in/news/gold-rate-today-in-india-nov-15-gold-prices-hit-pause-check-24k-22k-18k-rates-silver-shines-1547093.html",
-   "surl": "https://www.bankbazaar.com/silver-rate-mumbai.html"
+   "surl": "https://www.goodreturns.in/silver-rates/"
   },
   {
    "city": "Chennai",
@@ -27,7 +27,7 @@
    "silver": 195000,
    "date": "2026-11-15",
    "url": "https://www.goodreturns.in/news/gold-rate-today-in-india-nov-15-gold-prices-hit-pause-check-24k-22k-18k-rates-silver-shines-1547093.html",
-   "surl": "https://www.goodreturns.in/silver-rates/chennai.html"
+   "surl": "https://www.goodreturns.in/silver-rates/"
   },
   {
    "city": "Delhi",
@@ -36,9 +36,13 @@
    "silver": 195000,
    "date": "2026-11-15",
    "url": "https://www.bankbazaar.com/gold-rate-delhi.html",
-   "surl": "https://www.goodreturns.in/silver-rates/delhi.html"
+   "surl": "https://www.goodreturns.in/silver-rates/"
   }
  ],
- "copper": null,
+ "copper": {
+  "price": 1308.55,
+  "date": "2026-11-13",
+  "url": "https://choiceindia.com/commodity/mcx-copper-price"
+ },
  "prev": {}
 }
