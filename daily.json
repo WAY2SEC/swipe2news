@@ -1,89 +1,93 @@
 {
- "updated": "2026-11-15T22:48:46+05:30",
- "set": "evening",
+ "updated": "2026-11-16T05:24:03+05:30",
+ "set": "morning",
  "items": [
   {
    "kind": "quote",
-   "date": "2026-11-15",
-   "id": "vivekananda-arise-awake",
-   "text": "లేవండి, మేల్కొనండి, గమ్యం చేరే వరకు ఆగకండి.",
-   "by": "స్వామి వివేకానంద",
-   "ctx": "కఠోపనిషత్తులోని 'ఉత్తిష్ఠత జాగ్రత' అనే మాటను వివేకానందుడు యువతకు పిలుపుగా చెప్పారు.",
-   "src": "Wikipedia – Arise, awake, and stop not till the goal is reached (Katha Upanishad 1.3.14)",
-   "url2": "https://en.wikipedia.org/wiki/Arise,_awake,_and_stop_not_till_the_goal_is_reached",
+   "date": "2026-11-16",
+   "id": "tagore-faith-bird-dawn",
+   "text": "విశ్వాసం ఒక పక్షి లాంటిది; తెల్లవారకముందే, చీకటిలోనే వెలుగును గుర్తించి పాడుతుంది.",
+   "by": "రవీంద్రనాథ్ ఠాగూర్",
+   "ctx": "కష్ట సమయంలోనూ మంచి రోజులు వస్తాయనే నమ్మకంతో ముందుకు సాగమని ఠాగూర్ 'ఫైర్‌ఫ్లైస్' (1926) లో చెప్పారు.",
+   "src": "Rabindranath Tagore, Fireflies (1926) – WIST",
+   "url2": "https://wist.info/tagore-rabindranath/3800/",
    "en": {
-    "text": "Arise, awake, and stop not till the goal is reached.",
-    "by": "Swami Vivekananda",
-    "ctx": "Vivekananda gave this call to the youth, drawing on the Katha Upanishad's 'Uttishthata jagrata'."
+    "text": "Faith is the bird that feels the light and sings when the dawn is still dark.",
+    "by": "Rabindranath Tagore",
+    "ctx": "From Tagore's Fireflies (1926): keep going with the belief that better days will come, even in hard times."
    },
    "hi": {
-    "text": "उठो, जागो और लक्ष्य प्राप्त होने तक मत रुको।",
-    "by": "स्वामी विवेकानंद",
-    "ctx": "कठोपनिषद के 'उत्तिष्ठत जाग्रत' वचन को विवेकानंद ने युवाओं के लिए आह्वान बनाया।"
+    "text": "आस्था वह पक्षी है जो भोर के अँधेरे में ही उजाले को महसूस कर गाने लगता है।",
+    "by": "रवींद्रनाथ टैगोर",
+    "ctx": "टैगोर की 'फ़ायरफ़्लाइज़' (1926) से: कठिन समय में भी अच्छे दिनों के विश्वास के साथ आगे बढ़ें।"
    }
   },
   {
    "kind": "tip",
-   "date": "2026-11-15",
-   "id": "rbi-receive-money-no-pin",
-   "title": "డబ్బు అందుకోవడానికి పిన్ అక్కర్లేదు",
-   "text": "డబ్బు పంపుతామని చెప్పి క్యూఆర్ కోడ్ స్కాన్ చేయమన్నా, యూపీఐ పిన్ అడిగినా అది మోసమే. ఆర్‌బీఐ ప్రకారం డబ్బు అందుకోవడానికి క్యూఆర్ స్కాన్ గానీ, పిన్ గానీ అవసరం లేదు. ఓటీపీ, పిన్, పాస్‌వర్డ్ ఎవరికీ చెప్పకండి.",
-   "ctx": "అనుమానం వస్తే వెంటనే మీ బ్యాంకుకు, స్థానిక పోలీసులకు లేదా సైబర్ క్రైమ్ విభాగానికి తెలియజేయండి.",
-   "src": "RBI – Consumer Awareness: Cyber Threats and Frauds",
-   "url2": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=53185",
+   "date": "2026-11-16",
+   "id": "rbi-too-good-to-be-true",
+   "title": "ఎక్కువ లాభం ఆశ – జాగ్రత్త",
+   "text": "తక్కువ కాలంలో ఎక్కువ లాభం ఇస్తామనే పథకాలు ప్రమాదకరం కావచ్చు, అవి మోసాలు కూడా కావచ్చు అని ఆర్‌బీఐ హెచ్చరిస్తోంది. ఆర్‌బీఐ, సెబీ, ఐఆర్‌డీఏఐ, పీఎఫ్‌ఆర్‌డీఏ లేదా ప్రభుత్వం వద్ద నమోదైన సంస్థల్లోనే డబ్బు దాచండి. బ్యాంకుల కంటే తక్కువ వడ్డీకి అప్పు ఇస్తామనే వారిని నమ్మకండి.",
+   "ctx": "ఇలాంటి సంస్థపై ఫిర్యాదు చేయాలంటే ఆర్‌బీఐ 'సచేత్' పోర్టల్ (sachet.rbi.org.in) ఉపయోగించవచ్చు.",
+   "src": "RBI – Financial Awareness Messages (FAME), 2024",
+   "url2": "https://rbi.org.in/commonperson/images/FAME202426022024.pdf",
    "en": {
-    "title": "Receiving money needs no PIN",
-    "text": "If someone says they will send you money but asks you to scan a QR code or enter your UPI PIN, it is a fraud. As per RBI, receiving money does not require scanning a QR code or entering a PIN. Never share your OTP, PIN or password with anyone.",
-    "ctx": "If in doubt, inform your bank, the local police or the cybercrime branch immediately."
+    "title": "Too good to be true? Beware",
+    "text": "RBI warns that schemes promising high and quick returns can be risky and may even be frauds. Invest or deposit only with entities registered with or regulated by RBI, SEBI, IRDAI, PFRDA or the Government. Do not trust those offering loans cheaper than banks.",
+    "ctx": "To report such an entity, you can use RBI's Sachet portal (sachet.rbi.org.in)."
    },
    "hi": {
-    "title": "पैसा पाने के लिए पिन नहीं चाहिए",
-    "text": "कोई पैसे भेजने की बात कहकर क्यूआर कोड स्कैन करने या यूपीआई पिन डालने को कहे, तो यह धोखा है। आरबीआई के अनुसार पैसा पाने के लिए न क्यूआर स्कैन ज़रूरी है, न पिन। ओटीपी, पिन, पासवर्ड किसी को न बताएं।",
-    "ctx": "शक होने पर तुरंत अपने बैंक, स्थानीय पुलिस या साइबर क्राइम शाखा को सूचित करें।"
+    "title": "ज़्यादा मुनाफ़े का लालच – सावधान",
+    "text": "आरबीआई चेतावनी देता है कि कम समय में ऊँचे मुनाफ़े का वादा करने वाली योजनाएँ जोखिम भरी या धोखा हो सकती हैं। पैसा केवल आरबीआई, सेबी, इरडाई, पीएफ़आरडीए या सरकार से पंजीकृत संस्थाओं में ही रखें। बैंक से सस्ते कर्ज़ का वादा करने वालों पर भरोसा न करें।",
+    "ctx": "ऐसी संस्था की शिकायत आरबीआई के 'सचेत' पोर्टल (sachet.rbi.org.in) पर की जा सकती है।"
    }
   },
   {
    "kind": "wisdom",
-   "date": "2026-11-15",
-   "id": "vemana-uppu-kappurambu",
-   "text": "ఉప్పు కప్పురంబు నొక్క పోలిక నుండు\nచూడ చూడ రుచులు జాడ వేరు\nపురుషులందు పుణ్య పురుషులు వేరయా\nవిశ్వదాభిరామ, వినుర వేమా",
-   "by": "వేమన",
-   "ctx": "ఉప్పు, కర్పూరం చూడటానికి ఒకేలా ఉంటాయి, కానీ రుచి చూస్తే తేడా తెలుస్తుంది. అలాగే మనుషులందరిలో మంచి గుణాలు ఉన్నవారు ప్రత్యేకంగా నిలుస్తారు.",
-   "src": "వేమన శతకం (The South First)",
-   "url2": "https://thesouthfirst.com/featured/yogi-vemana-the-poet-who-turned-everyday-telugu-into-a-language-of-truth/",
+   "date": "2026-11-16",
+   "id": "sumati-kanakapu-simhasanamuna",
+   "text": "కనకపు సింహాసనమున\nశునకము గూర్చుండ బెట్టి శుభలగ్నమునన్\nదొనరగ బట్టము గట్టిన\nవెనుకటి గుణమేల మాను వినురా సుమతీ",
+   "by": "బద్దెన (సుమతీ శతకం)",
+   "ctx": "బంగారు సింహాసనం మీద కూర్చోబెట్టి పట్టం కట్టినా, పాత గుణం మారదు. పదవి కాదు, మంచి గుణమే మనిషికి నిజమైన గౌరవం.",
+   "src": "సుమతీ శతకం (Telangana360)",
+   "url2": "https://www.telangana360.com/2026/06/sumati-satakam.html",
    "en": {
-    "text": "Salt and camphor look alike, but taste them and they differ; so too, among people, the virtuous stand apart. (Vemana padyam, meaning)",
-    "by": "Vemana",
-    "ctx": "Appearances can be the same; it is character that shows the difference."
+    "text": "Even if a dog is seated on a golden throne and crowned at an auspicious hour, will it give up its old nature? (Sumati Satakam padyam, meaning)",
+    "by": "Baddena (Sumati Satakam)",
+    "ctx": "A high seat does not change one's nature; true honour comes from good character, not position."
    },
    "hi": {
-    "text": "नमक और कपूर देखने में एक जैसे लगते हैं, पर चखने पर स्वाद अलग होता है; वैसे ही लोगों में सद्गुणी अलग पहचाने जाते हैं। (वेमना पद्यम्, भावार्थ)",
-    "by": "वेमना",
-    "ctx": "रूप एक जैसा हो सकता है; फ़र्क़ चरित्र से दिखता है।"
+    "text": "कुत्ते को सोने के सिंहासन पर बिठाकर शुभ मुहूर्त में राजतिलक कर दें, तो भी क्या वह अपना पुराना स्वभाव छोड़ेगा? (सुमति शतकम् पद्यम्, भावार्थ)",
+    "by": "बद्देना (सुमति शतकम्)",
+    "ctx": "ऊँचा पद स्वभाव नहीं बदलता; सच्चा सम्मान अच्छे चरित्र से मिलता है, पद से नहीं।"
    }
   },
   {
    "kind": "roots",
-   "date": "2026-11-15",
-   "id": "karthika-masam-deepam",
-   "title": "కార్తీక మాసం – దీపాల వెలుగు",
-   "text": "ఈ ఏడాది కార్తీక మాసం నవంబర్ 10 నుంచి డిసెంబర్ 8 వరకు. ఈ నెలలో సాయంత్రం, తెల్లవారుజామున గుమ్మం దగ్గర, తులసి కోట వద్ద దీపాలు వెలిగిస్తారు. రేపు నవంబర్ 16 మొదటి కార్తీక సోమవారం; కార్తీక పౌర్ణమి నవంబర్ 24.",
-   "ctx": "దీపదానాన్ని పెద్దలు పుణ్యకార్యంగా భావించేవారు. మీ ఇంట్లో కార్తీక దీపం ఎలా పెడతారు?",
-   "src": "HinduTone – Karthika Masam 2026",
-   "url2": "https://hindutone.com/festivals/karthika-masam-2026/",
+   "date": "2026-11-16",
+   "id": "karthika-vana-bhojanam",
+   "title": "కార్తీక వన భోజనాలు",
+   "text": "కార్తీక మాసంలో తెలుగువారికి ఎంతో ఇష్టమైన ఆచారం వన భోజనం. పూజ తర్వాత కుటుంబాలు, బంధువులు, ఇరుగుపొరుగు కలిసి తోటలో, వీలైతే ఉసిరి చెట్టు కింద వంట చేసి కలిసి భోజనం చేస్తారు. ఉసిరి చెట్టును పూజించడం పుణ్యమని పెద్దలు భావించేవారు.",
+   "ctx": "ఈ ఏడాది మీ కుటుంబం వన భోజనాలకు ఎక్కడికి వెళ్తోంది?",
+   "src": "HinduTone – Kartika Masam 2026 Telugu Guide",
+   "url2": "https://hindutone.com/festivals/kartika-masam-2026-telugu-guide/",
    "en": {
-    "title": "Karthika Masam – the month of lamps",
-    "text": "This year Karthika Masam runs from 10 November to 8 December. Families light lamps at dusk and dawn, at the threshold and by the Tulasi platform. Tomorrow, 16 November, is the first Karthika Monday; Karthika Pournami falls on 24 November.",
-    "ctx": "Our elders regarded offering lamps as a virtuous act. How do you light the Karthika lamp at home?"
+    "title": "Karthika Vana Bhojanam",
+    "text": "Vana Bhojanam is one of the most loved Telugu customs of Karthika month. After worship, families, relatives and neighbours gather in a garden, ideally under an amla (usiri) tree, cook and eat together. Elders believed worshipping the amla tree was meritorious.",
+    "ctx": "Where is your family going for Vana Bhojanam this year?"
    },
    "hi": {
-    "title": "कार्तीक मास – दीपों का उजाला",
-    "text": "इस वर्ष (तेलुगु पंचांग में) कार्तीक मास 10 नवंबर से 8 दिसंबर तक है। इस महीने शाम और भोर में दहलीज़ और तुलसी चौरे पर दीप जलाए जाते हैं। कल 16 नवंबर पहला कार्तीक सोमवार है; कार्तीक पूर्णिमा 24 नवंबर को है।",
-    "ctx": "बुज़ुर्ग दीपदान को पुण्य कार्य मानते थे। आपके घर में कार्तीक दीप कैसे जलाते हैं?"
+    "title": "कार्तिक वन भोजन",
+    "text": "कार्तिक मास में वन भोजन तेलुगु लोगों की प्रिय परंपरा है। पूजा के बाद परिवार, रिश्तेदार और पड़ोसी किसी बगीचे में, हो सके तो आँवले के पेड़ के नीचे, साथ मिलकर खाना बनाते और खाते हैं। बड़े-बुज़ुर्ग आँवले के पेड़ की पूजा को पुण्य मानते थे।",
+    "ctx": "इस साल आपका परिवार वन भोजन के लिए कहाँ जा रहा है?"
    }
   }
  ],
  "history": [
+  "tagore-faith-bird-dawn",
+  "rbi-too-good-to-be-true",
+  "sumati-kanakapu-simhasanamuna",
+  "karthika-vana-bhojanam",
   "vivekananda-arise-awake",
   "rbi-receive-money-no-pin",
   "vemana-uppu-kappurambu",
