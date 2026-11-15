@@ -925,8 +925,8 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 
 .story.s2n.dly.dly-roots{background:radial-gradient(130% 90% at 100% 0%,#B5651D 0%,#7A3A10 55%,#3A1A08 100%)!important}
 .s2n.dly-roots .dtx{font-size:clamp(18px,5vw,21px);font-weight:700;line-height:1.7}.s2n.dly .droot{font-size:32px}
-.s2n.dly .dbody{position:relative}.s2n.dly .dbody::before{content:'';position:absolute;left:50%;top:46%;width:62%;aspect-ratio:1;transform:translate(-50%,-50%);background:url(/art/logo.svg) center/contain no-repeat;opacity:.07;pointer-events:none;z-index:0}
-.s2n.dly .dbody::after{content:'swipe2news.com';position:absolute;left:50%;top:78%;transform:translate(-50%,-50%) rotate(-10deg);font:900 30px/1 'Outfit',sans-serif;color:#FFFDF5;opacity:.08;white-space:nowrap;pointer-events:none;z-index:0}
+.s2n.dly .dbody{position:relative}.s2n.dly .dbody::before{content:'';position:absolute;left:50%;top:44%;width:62%;aspect-ratio:1;transform:translate(-50%,-50%);background:url(/art/logo.svg) center/contain no-repeat;opacity:.07;pointer-events:none;z-index:0}
+.s2n.dly .dbody::after{content:'swipe2news.';position:absolute;left:50%;top:calc(46% + 31vw + 6px);transform:translate(-50%,0);font:900 clamp(30px,10vw,42px)/1 'Outfit',sans-serif;color:#FFFDF5;opacity:.09;white-space:nowrap;pointer-events:none;z-index:0}
 .s2n.dly .dbody>*{position:relative;z-index:1}
 /* daily good-words cards */
 .story.s2n.dly{background:radial-gradient(130% 90% at 0% 0%,#7A2A55 0%,#4A0E3F 50%,#2E0827 100%)!important;color:#FFFDF5}
@@ -2080,7 +2080,7 @@ async function dailyCard(s){
   ctx.font=`800 28px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('Know More',168,112); let tx=168+ctx.measureText('Know More').width; ctx.fillStyle=AP; ctx.fillText('.',tx,112); tx+=ctx.measureText('. ').width; ctx.fillStyle=PLUM; ctx.fillText('Scroll Less',tx,112); tx+=ctx.measureText('Scroll Less').width; ctx.fillStyle=AP; ctx.fillText('.',tx,112);
   // watermark: big faint logo + brand name, so a copied picture still shows where it came from
   try{ const ic=await loadImg('art/logo.svg'); ctx.save(); ctx.globalAlpha=.07; const WS=640; ctx.drawImage(ic,(W-WS)/2,(H-WS)/2-60,WS,WS); ctx.restore(); }catch(e){}
-  ctx.save(); ctx.globalAlpha=.08; ctx.fillStyle=CR; ctx.font=`900 74px ${OU}`; ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.translate(W/2,H/2+330); ctx.rotate(-0.18); ctx.fillText('swipe2news.com',0,0); ctx.restore();
+  ctx.save(); ctx.globalAlpha=.09; ctx.fillStyle=CR; ctx.font=`900 96px ${OU}`; ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.fillText('swipe2news.',W/2,(H-640)/2-60+640+70); ctx.restore();  // straight, centred under the logo
   // content block on its own layer, centred later
   const main=ctx, cc=document.createElement('canvas'); cc.width=W*K; cc.height=H*K; const c2=cc.getContext('2d'); c2.setTransform(K,0,0,K,0,0); c2.imageSmoothingQuality='high';
   { const ctx=c2;
