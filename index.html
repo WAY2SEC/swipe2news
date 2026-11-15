@@ -1857,14 +1857,30 @@ function pop(back){ if(!SND) return; const a=acx(); if(!a) return; try{ const t=
   o.connect(g).connect(a.destination); o.start(t); o.stop(t+.1); }catch(e){} }
 function buzz(ms){ try{ navigator.vibrate&&navigator.vibrate(ms); }catch(e){} }
 const REDUCE=matchMedia('(prefers-reduced-motion: reduce)');
+/* swipe styles (PREVIEW ?swipe=deck|flip|zoom; default 'page' = the book page-turn) */
+const SWIPE=(()=>{ try{ const q=new URLSearchParams(location.search).get('swipe'); if(/^(page|deck|flip|zoom)$/.test(q||'')) localStorage.setItem('w2s.swipe',q); return localStorage.getItem('w2s.swipe')||'page'; }catch(e){ return 'page'; } })();
 function bend(el,p,axis){ // p: 0 flat → 1 fully turned away
   el.style.transition='none';
+  if(SWIPE==='deck'){ // throw the top card off the deck, like dealing cards
+    el.style.transformOrigin='50% 120%';
+    el.style.transform = p<=0 ? '' : (axis==='y' ? `translateY(${-p*115}%) rotate(${p*4}deg)` : `translateX(${-p*118}%) rotate(${-p*16}deg)`);
+    el.style.opacity=''; }
+  else if(SWIPE==='flip'){ // 3D card flip around the centre
+    el.style.transformOrigin='50% 50%';
+    el.style.transform = p<=0 ? '' : (axis==='y' ? `perspective(1400px) rotateX(${p*90}deg) scale(${1-p*.12})` : `perspective(1400px) rotateY(${-p*90}deg) scale(${1-p*.12})`);
+    el.style.opacity = p<=0 ? '' : String(1-Math.max(0,p-.75)*4); }
+  else if(SWIPE==='zoom'){ // glide away and shrink into the distance
+    el.style.transformOrigin='50% 50%';
+    el.style.transform = p<=0 ? '' : (axis==='y' ? `translateY(${-p*40}%) scale(${1-p*.35})` : `translateX(${-p*55}%) scale(${1-p*.35})`);
+    el.style.opacity = p<=0 ? '' : String(1-p); }
+  else {
   el.style.transformOrigin = axis==='y' ? 'center bottom' : 'left center';
-  el.style.transform = p<=0 ? '' : (axis==='y' ? `rotateX(${-p*180}deg)` : `rotateY(${-p*180}deg)`);
+  el.style.transform = p<=0 ? '' : (axis==='y' ? `rotateX(${-p*180}deg)` : `rotateY(${-p*180}deg)`); }
+  if(SWIPE!=='page'){ if(el._sh) el._sh.style.opacity='0'; return; }
   let sh=el._sh; if(!sh){ sh=document.createElement('div'); sh.className='pshade'; el.appendChild(sh); el._sh=sh; }
   sh.style.opacity=p<=0?'0':String(Math.min(1,p*1.6));
   sh.style.background=`linear-gradient(${axis==='y'?'0deg':'90deg'},rgba(255,255,255,0) ${Math.max(0,60-p*60)}%,rgba(255,255,255,.3) ${Math.max(5,75-p*60)}%,rgba(0,0,0,${.16+.24*p}) 100%)`; }
-function unbend(el){ el.style.transform=''; el.style.transformOrigin=''; el.style.zIndex=''; el.style.transition=''; if(el._sh) el._sh.style.opacity='0'; }
+function unbend(el){ el.style.transform=''; el.style.transformOrigin=''; el.style.zIndex=''; el.style.transition=''; el.style.opacity=''; if(el._sh) el._sh.style.opacity='0'; }
 function turn(el,from,to,axis,done){ const ms=Math.round(140+420*Math.abs(to-from));
   if(REDUCE.matches){ bend(el,to,axis); done(); return; }
   const t0=performance.now(), ease=x=>1-Math.pow(1-x,3);
