@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T17:20:00+05:30",
+ "cutoff": "2026-11-15T17:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T09:35:00+05:30/2026-11-12T10:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 2,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebSearch returned mostly stale listing pages. WebFetch via sub-agent on 2 Hans India articles; Hans Hyderabad and DC AP listings showed only 11 Nov items (cached). Eenadu, Sakshi, Andhra Jyothy, TV9, V6, NTV, ETV Bharat, The Hindu, PTI, Reuters/AP not surfaced in range. Districts searched: Karimnagar, Nizamabad, Adilabad, Nirmal, Mancherial, NTR (Vijayawada), Kakinada, East Godavari, Srikakulam, Vizianagaram, Kadapa, Chittoor, Eluru, Tirupati, Nellore, Kurnool."
-  },
   {
    "window": "2026-11-12T10:05:00+05:30/2026-11-12T10:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "17:20 run started 17:20 IST. Lookback from 09:05 15 Nov. Feeds branch fresh (17:09, 70/70 ok, 820 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: Telangana Today SIR 54,863 ineligible (16:50), HMTV Guntur Etukuru petrol bunk short-measure allegation (17:00, claim). Already covered: Vikarabad car-auto crash, Revanth-Modi meeting, KIYG. Not opened: Mangalagiri-Tadepalli 76 nominations, Shabad best sarpanch award (searches did not surface articles). No extra district searches (time). Districts covered: TS, Guntur."
+  },
+  {
+   "window": "2026-11-15T17:20:00+05:30/2026-11-15T17:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 1,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "17:35 run started 17:36 IST. Lookback from 09:20 15 Nov. Feeds branch fresh (17:24, 68 ok, 727 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: Siasat Mahabubabad excise drive (17:05), NT Nadivada suicide case 6 arrested (16:37, late, sensitive), Telangana Today/PTI Vande Bharat faulty brakes (17:18). Skipped: Hindu AP 12 of 13 mayors (results from 4/9 Nov, old event). Not opened: Kadapa CBI-name kidnap (Eenadu only), Cyberabad CP 10 lakh vehicles, AIMIM rare books Haj House (searches did not surface articles). No extra district searches (time). Districts covered: Mahabubabad."
   }
  ],
  "seen": [
@@ -4043,6 +4043,26 @@
    "url": "https://www.hmtvlive.com/telugu-news/guntur/guntur-hp-petrol-bunk-adulterated-fuel-measurement-fraud-etukuru-junction-213265",
    "d": "2026-11-15",
    "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/from-jaggery-to-yeast-illegal-liquor-recipes-change-to-escape-raids-3578089/",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/six-arrested-in-connection-with-the-suicide-of-a-young-woman-in-mahabubabad-2560982",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/railway-staff-ignore-warnings-as-vande-bharat-travels-463-km-without-effective-brakes",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-local-body-polls-tdp-led-nda-wrests-12-of-13-mayor-posts-anantapur-only-solace-for-ysrcp/article71666119.ece",
+   "d": "2026-11-15",
+   "w": "skipped"
   }
  ]
 }
