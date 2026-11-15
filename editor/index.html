@@ -90,7 +90,14 @@ function renderWeb(){
    Only photos released for media use: government press releases (PIB, CMO, I&PR) or a party's / leader's OFFICIAL handle.
    Same rule for every party. Credit + source link are required; the reporter-stories task attaches the photo at its next run. */
 let NEWS=[], PHOTOS=[];
-const CREDITS=['PIB · భారత ప్రభుత్వం','తెలంగాణ సీఎంఓ','తెలంగాణ I&PR','ఏపీ సీఎంఓ','ఏపీ I&PR','PMO India','రాష్ట్రపతి భవన్','పార్టీ అధికారిక ఖాతా','నేత అధికారిక ఖాతా','ఇతర ప్రభుత్వ శాఖ'];
+/* major parties – national, Telangana, Andhra Pradesh, Tamil Nadu (same treatment for all; alphabetical within each group) */
+const PARTIES=[['ప్రభుత్వం / పదవి',['ప్రభుత్వం (కేంద్రం)','ప్రభుత్వం (తెలంగాణ)','ప్రభుత్వం (ఆంధ్రప్రదేశ్)','ప్రభుత్వం (తమిళనాడు)','రాజ్యాంగ పదవి (రాష్ట్రపతి, గవర్నర్…)']],
+ ['జాతీయ పార్టీలు',['కాంగ్రెస్ (INC)','బీజేపీ (BJP)','సీపీఐ (CPI)','సీపీఐ(ఎం) (CPI-M)']],
+ ['తెలంగాణ',['ఎంఐఎం (AIMIM)','బీఆర్ఎస్ (BRS)','కాంగ్రెస్ (INC)','బీజేపీ (BJP)']],
+ ['ఆంధ్రప్రదేశ్',['జనసేన (JSP)','టీడీపీ (TDP)','వైఎస్సార్సీపీ (YSRCP)','కాంగ్రెస్ (INC)','బీజేపీ (BJP)']],
+ ['తమిళనాడు',['అన్నాడీఎంకే (AIADMK)','డీఎంకే (DMK)','డీఎండీకే (DMDK)','నామ్ తమిళర్ కట్చి (NTK)','పీఎంకే (PMK)','టీవీకే (TVK)','వీసీకే (VCK)','కాంగ్రెస్ (INC)','బీజేపీ (BJP)']],
+ ['ఇతర',['ఇతర పార్టీ (క్రెడిట్ పేరులో రాయండి)','స్వతంత్ర']]];
+const CREDITS=['PIB · భారత ప్రభుత్వం','PMO India','రాష్ట్రపతి భవన్','తెలంగాణ సీఎంఓ','తెలంగాణ I&PR','ఏపీ సీఎంఓ','ఏపీ I&PR','తమిళనాడు సీఎంఓ','తమిళనాడు DIPR','పార్టీ అధికారిక ఖాతా','నేత అధికారిక ఖాతా','ఇతర ప్రభుత్వ శాఖ'];
 const sidOf=x=>{ if(x._sid) return x._sid; let h=5381; const t=(x.url||'')+'|'+(x.h||''); for(let i=0;i<t.length;i++) h=((h<<5)+h+t.charCodeAt(i))|0; return (h>>>0).toString(36); };
 async function renderPhoto(){
   $('list').innerHTML='<div class="empty">లోడ్ అవుతోంది…</div>';
@@ -103,7 +110,7 @@ async function renderPhoto(){
     <label>క్రెడిట్<select id="pCr">${CREDITS.map(c=>`<option>${esc(c)}</option>`).join('')}</select></label>
     <label>క్రెడిట్ పేరు (ఐచ్ఛికం)<input type="text" id="pCrN" maxlength="60" placeholder="ఉదా: BRS పార్టీ, ఒవైసీ అధికారిక ఖాతా"><small>"పార్టీ/నేత అధికారిక ఖాతా" అయితే పార్టీ లేదా నేత పేరు రాయండి</small></label>
     <label>ఫోటోలో ఉన్నవారు<input type="text" id="pWho" maxlength="80" placeholder="ఉదా: సీఎం రేవంత్ రెడ్డి, ప్రధాని మోదీ"></label>
-    <label>పార్టీ / పదవి<input type="text" id="pParty" maxlength="60" placeholder="ఉదా: ప్రభుత్వం, కాంగ్రెస్, బీజేపీ, బీఆర్ఎస్, టీడీపీ, వైసీపీ, జనసేన"></label>
+    <label>పార్టీ / పదవి<select id="pParty">${PARTIES.map(([g,l])=>`<optgroup label="${esc(g)}">${l.map(x=>`<option>${esc(x)}</option>`).join('')}</optgroup>`).join('')}</select><small>ప్రభుత్వ కార్యక్రమం అయితే "ప్రభుత్వం" ఎంచుకోండి. అన్ని పార్టీలకూ ఒకే నియమం.</small></label>
     <label>ఫోటో దొరికిన లింక్ (తప్పనిసరి)<input type="url" id="pSrc" placeholder="https://pib.gov.in/… లేదా అధికారిక పోస్ట్ లింక్"></label>
     <label class="chk"><input type="checkbox" id="pOk"><span>ఇది అధికారికంగా మీడియా కోసం విడుదల చేసిన ఫోటో అని, ఎడిట్ చేయలేదని నిర్ధారిస్తున్నాను.</span></label>
     <button type="button" class="go" id="pGo" disabled>📤 ఫోటో పంపండి</button>
@@ -111,6 +118,8 @@ async function renderPhoto(){
   </div>
   ${PHOTOS.length?PHOTOS.map(r=>`<article class="card"><div class="bd"><div class="meta"><span class="chip ${esc(r.status==='published'?'published':r.status==='rejected'?'rejected':'approved')}">${esc(r.status==='published'?'యాప్‌లో ఉంది':r.status==='rejected'?'వాడలేదు':'వరుసలో')}</span><span>🕒 ${esc(r.time)}</span><span>📷 ${esc(r.credit)}</span>${r.link?`<a href="${esc(r.link)}" target="_blank" rel="noopener">🔗 వార్త</a>`:''}</div><h3>${esc(r.headline)}</h3>${r.note?`<small style="color:var(--muted)">📝 ${esc(r.note)}</small>`:''}</div></article>`).join(''):''}`;
   const chk=()=>{ $('pGo').disabled=!($('pSid').value&&$('pFile').files[0]&&/^https:\/\//.test($('pSrc').value.trim())&&$('pOk').checked); };
+  const fillCr=()=>{ if(/అధికారిక ఖాతా/.test($('pCr').value)&&!$('pCrN').value.trim()&&!/^ప్రభుత్వం|^రాజ్యాంగ|^ఇతర|^స్వతంత్ర/.test($('pParty').value)) $('pCrN').value=$('pParty').value.replace(/\s*\(.*\)$/,''); };
+  $('pCr').addEventListener('change',fillCr); $('pParty').addEventListener('change',fillCr);
   ['pSid','pFile','pSrc','pOk'].forEach(k=>$(k).addEventListener('input',chk)); $('pOk').addEventListener('change',chk);
   $('pFile').addEventListener('change',()=>{ const f=$('pFile').files[0]; if(f){ $('pPrev').src=URL.createObjectURL(f); $('pPrev').hidden=false; } chk(); });
   $('pGo').onclick=async()=>{ $('pGo').disabled=true; $('pGo').textContent='పంపుతోంది…';
