@@ -815,6 +815,46 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 [data-dock="c"] .s2n .cfoot.dock .dprev{background:transparent;border:0}
 [data-dock="c"] .s2n .cfoot.dock .dhome{margin-top:0;width:40px;height:40px;background:transparent!important;color:#FFFDF5!important;box-shadow:none;border-left:1px solid rgba(255,253,245,.2)!important;border-right:1px solid rgba(255,253,245,.2)!important;border-radius:0;padding:0 22px!important}
 [data-dock="c"] .s2n .cfoot.dock .dnext{background:transparent;color:#F5A23A;box-shadow:none;padding:0 4px 0 10px}
+
+/* first-open welcome (preview ?onb=1) */
+#onb{position:fixed;inset:0;z-index:80;display:flex;flex-direction:column;background:radial-gradient(130% 90% at 50% 0%,#6E2361 0%,#4A0E3F 45%,#2E0827 100%);color:#FFFDF5;padding:calc(14px + env(safe-area-inset-top,0px)) 22px calc(20px + env(safe-area-inset-bottom,0px));font-family:var(--body)}
+#onb[hidden]{display:none}
+#onb .obtop{display:flex;align-items:center;justify-content:space-between;height:40px}
+#onb .obdots{display:flex;gap:6px}#onb .obdots i{width:8px;height:8px;border-radius:4px;background:rgba(255,253,245,.3);transition:width .3s}#onb .obdots i.on{width:26px;background:#F5A23A}
+#onb .obskip{all:unset;cursor:pointer;padding:8px 14px;border-radius:18px;background:rgba(255,253,245,.12);font:700 14px/1 var(--body)}
+#onb .obbody{flex:1;overflow:auto;display:flex;flex-direction:column;justify-content:center}
+#onb .obbody.in .obs{animation:obIn .35s ease both}@keyframes obIn{from{opacity:0;transform:translateX(24px)}to{opacity:1;transform:none}}
+#onb h2{margin:0 0 8px;font:800 28px/1.25 var(--body)}#onb p{margin:0 0 6px;font:500 16px/1.5 var(--body);opacity:.85}
+#onb .obw{text-align:center;align-items:center;display:flex;flex-direction:column}
+#onb .oblogo{width:104px;height:104px;border-radius:26px;box-shadow:0 0 0 3px rgba(255,253,245,.9),0 18px 40px rgba(0,0,0,.35);margin-bottom:16px}
+#onb .obwm{font:800 34px/1 'Outfit',sans-serif}#onb .obwm i,#onb .obtag i{color:#F5A23A;font-style:normal}
+#onb .obtag{margin:8px 0 26px;font:800 16px/1 'Outfit',sans-serif;opacity:.9}
+#onb .obbig{font:800 20px/1.4 var(--body)!important;opacity:1!important;color:#FFD08A}
+#onb .oblg{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0}
+#onb .oblang{all:unset;cursor:pointer;display:flex;flex-direction:column;gap:2px;padding:14px;border-radius:18px;background:rgba(255,253,245,.08);border:1.5px solid rgba(255,253,245,.18)}
+#onb .oblang b{font:800 24px/1 var(--body);color:#F5A23A}#onb .oblang span{font:800 16px/1.3 var(--body)}#onb .oblang small{font:600 12px/1 'Outfit',sans-serif;opacity:.6}
+#onb .oblang.on{background:#FFFDF5;color:#4A0E3F;border-color:#F5A23A;box-shadow:0 0 0 3px rgba(245,162,58,.4)}
+#onb .obnm{display:flex;flex-direction:column;gap:6px;font:700 13px/1 var(--body);opacity:.9}
+#onb .obnm input{all:unset;height:46px;padding:0 14px;border-radius:14px;background:rgba(255,253,245,.1);border:1px solid rgba(255,253,245,.22);font:600 16px/1 var(--body)}
+#onb .obphone{position:relative;width:170px;height:250px;margin:16px auto 22px;border-radius:26px;border:3px solid rgba(255,253,245,.5);background:rgba(0,0,0,.18);overflow:hidden}
+#onb .obc{position:absolute;left:12px;right:12px;top:14px;bottom:14px;border-radius:16px;background:#FFFDF5}
+#onb .obc.c3{transform:scale(.9) translateY(10px);opacity:.35}#onb .obc.c2{transform:scale(.95) translateY(5px);opacity:.6}
+#onb .obc.c1{animation:obSw 2.6s ease-in-out infinite;padding:10px;display:flex;flex-direction:column;gap:7px}
+#onb .obc.c1 i{display:block;height:46%;border-radius:10px;background:linear-gradient(135deg,#6E2361,#F5A23A)}
+#onb .obc.c1 b{display:block;height:9px;border-radius:5px;background:#E6D9CB}#onb .obc.c1 b.sh{width:60%}
+#onb .obhand{position:absolute;right:20px;top:120px;font-size:42px;animation:obHand 2.6s ease-in-out infinite;filter:drop-shadow(0 4px 6px rgba(0,0,0,.4))}
+@keyframes obSw{0%,25%{transform:none;opacity:1}55%{transform:translateX(-140%) rotate(-8deg);opacity:0}56%{transform:translateY(8px) scale(.95);opacity:0}80%,100%{transform:none;opacity:1}}
+@keyframes obHand{0%,20%{transform:none}55%{transform:translateX(-90px)}56%,100%{transform:none;opacity:1}}
+#onb .obrow{display:flex;align-items:center;gap:10px;margin:7px 0;font:700 16px/1.4 var(--body)}
+#onb .obk{flex:0 0 32px;height:32px;border-radius:50%;display:grid;place-items:center;background:#F5A23A;color:#2E0827;font:800 18px/1 sans-serif}
+#onb .obdock{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;margin:20px 0 16px;padding:10px 12px;border-radius:22px;background:#2E0827;border:1px solid rgba(255,253,245,.18)}
+#onb .obdock .op{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:rgba(255,253,245,.12)}
+#onb .obdock .oh{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;color:#4A0E3F;background:#FFFDF5;margin-top:-22px;box-shadow:0 0 0 4px #2E0827,0 0 0 7px rgba(245,162,58,.4)}
+#onb .obdock .on{justify-self:end;padding:11px 16px;border-radius:21px;background:#F5A23A;color:#2E0827;font:800 15px/1 var(--body)}
+#onb .obhi{margin-top:12px;padding:12px;border-radius:14px;background:rgba(245,162,58,.15);border:1px solid rgba(245,162,58,.4)}
+#onb .obf{display:flex;align-items:center;gap:12px;margin:8px 0;padding:12px;border-radius:16px;background:rgba(255,253,245,.08);font:700 15px/1.4 var(--body)}
+#onb .obf span{flex:0 0 42px;height:42px;border-radius:12px;display:grid;place-items:center;background:#F5A23A;color:#2E0827}#onb .obf span.wa{background:#0E7A3E;color:#fff}
+#onb .obgo{all:unset;cursor:pointer;display:flex;align-items:center;justify-content:center;height:54px;border-radius:27px;background:linear-gradient(135deg,#FFC46B,#F5A23A);color:#2E0827;font:800 17px/1 var(--body);box-shadow:0 10px 26px rgba(245,162,58,.35)}
 </style>
 </head>
 <body>
@@ -2526,10 +2566,51 @@ setTimeout(alertInvite, 60000);
   try{ const q=new URLSearchParams(location.search);
     if(!q.has('build')){
       // content first: no forced language screen (language stays in the ☰ menu); just the swipe tutorial once
-      if(!store.get('tutDone',0)) setTimeout(()=>{ $('tut').hidden=false; },900);
+      if(!store.get('tutDone',0)) setTimeout(()=>{ const o=document.getElementById('onb'); if(!o||o.hidden) $('tut').hidden=false; },900);
     }
   }catch(e){}
   $('tutOk').onclick=()=>{ $('tut').hidden=true; store.set('tutDone',1); };
+  /* ---------- first-open welcome (5 short steps): welcome · language · swipe · buttons · features ----------
+     PREVIEW: shown with ?onb=1 (owner to approve). */
+  const OB={te:{skip:'దాటవేయి',next:'తర్వాత',start:'చదవడం మొదలుపెట్టండి',w1:'స్వాగతం!',w2:'AI చిన్న వార్తలు – 60 పదాల్లో',w3:'తెలంగాణ, ఏపీ, భారత్, ప్రపంచం – మీ భాషలో',
+      l1:'మీ భాష ఎంచుకోండి',l2:'ఎప్పుడైనా ☰ మెనూలో మార్చుకోవచ్చు',nm:'మీ పేరు (ఐచ్ఛికం)',
+      s1:'స్వైప్ చేసి చదవండి',s2:'ఎడమకు స్వైప్ – తర్వాతి వార్త',s3:'కుడికి స్వైప్ – మునుపటి వార్త',
+      b1:'కింది బటన్లు',b2:'‹ మునుపటి వార్త',b3:'🏠 మొదటి వార్తకు',b4:'తర్వాత › తర్వాతి వార్త',b5:'పైన 🏠 – ఈరోజు మీ కోసం: టాప్ 5 AI బ్రీఫ్',
+      f1:'ఇంకా మీ కోసం',fa:'వినండి – వార్త చదివి వినిపిస్తుంది',fb:'WhatsApp లో స్పష్టమైన ఫోటోగా షేర్',fc:'నెట్ లేకపోయినా చదవండి',fd:'ప్రతి వార్తకు మూలం · వాస్తవం / వాదన లేబుల్'},
+    en:{skip:'Skip',next:'Next',start:'Start reading',w1:'Welcome!',w2:'AI short news in 60 words',w3:'Telangana, AP, India and the world – in your language',
+      l1:'Choose your language',l2:'Change it anytime from the ☰ menu',nm:'Your name (optional)',
+      s1:'Swipe to read',s2:'Swipe left – next story',s3:'Swipe right – previous story',
+      b1:'Buttons at the bottom',b2:'‹ previous story',b3:'🏠 back to the first story',b4:'Next › next story',b5:'🏠 at the top – Today for you: top 5 AI brief',
+      f1:'Also for you',fa:'Listen – the news read aloud',fb:'Share to WhatsApp as a sharp photo',fc:'Read even without internet',fd:'Source + Fact / Claim label on every story'},
+    hi:{skip:'छोड़ें',next:'आगे',start:'पढ़ना शुरू करें',w1:'स्वागत है!',w2:'AI छोटी ख़बरें – 60 शब्दों में',w3:'तेलंगाना, आंध्र, भारत और दुनिया – आपकी भाषा में',
+      l1:'अपनी भाषा चुनें',l2:'☰ मेन्यू से कभी भी बदलें',nm:'आपका नाम (वैकल्पिक)',
+      s1:'स्वाइप करके पढ़ें',s2:'बाएँ स्वाइप – अगली ख़बर',s3:'दाएँ स्वाइप – पिछली ख़बर',
+      b1:'नीचे के बटन',b2:'‹ पिछली ख़बर',b3:'🏠 पहली ख़बर पर',b4:'अगली › अगली ख़बर',b5:'ऊपर 🏠 – आज आपके लिए: टॉप 5 AI ब्रीफ़',
+      f1:'और भी आपके लिए',fa:'सुनें – ख़बर पढ़कर सुनाई जाती है',fb:'WhatsApp पर साफ़ फ़ोटो में शेयर',fc:'बिना इंटरनेट भी पढ़ें',fd:'हर ख़बर पर स्रोत + तथ्य / दावा लेबल'}};
+  const OT=k=>(OB[(prefs&&prefs.lang==='tl')?'en':((prefs&&prefs.lang)||'te')]||OB.te)[k];
+  let obStep=0, obPick=(prefs&&prefs.lang)||'te';
+  function obHTML(){ const N=5, ic=d=>`<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
+    const langs=ALL.filter(x=>READY.includes(x[0])).map(([id,gl,nat,en])=>`<button class="oblang${obPick===id?' on':''}" type="button" data-l="${id}"><b>${gl}</b><span>${nat}</span><small>${en}</small></button>`).join('');
+    const slides=[
+      `<div class="obs obw"><img class="oblogo" src="icon-192.png" alt=""><div class="obwm">swipe2news<i>.</i></div><div class="obtag">Know More<i>.</i> Scroll Less<i>.</i></div><h2>${OT('w1')}</h2><p class="obbig">${OT('w2')}</p><p>${OT('w3')}</p></div>`,
+      `<div class="obs"><h2>${OT('l1')}</h2><p>${OT('l2')}</p><div class="oblg">${langs}</div><label class="obnm">${OT('nm')}<input id="obName" maxlength="24" autocomplete="given-name" value="${esc((prefs&&prefs.name)||'')}"></label></div>`,
+      `<div class="obs"><h2>${OT('s1')}</h2><div class="obphone"><div class="obc c3"></div><div class="obc c2"></div><div class="obc c1"><i></i><b></b><b></b><b class="sh"></b></div><div class="obhand">👆</div></div><div class="obrow"><span class="obk">←</span>${OT('s2')}</div><div class="obrow"><span class="obk">→</span>${OT('s3')}</div></div>`,
+      `<div class="obs"><h2>${OT('b1')}</h2><div class="obdock"><span class="op">${ic('<path d="M15 6l-6 6 6 6"/>')}</span><span class="oh">${ic('<path d="M3 11l9-7 9 7"/><path d="M5 10v10h5v-6h4v6h5V10"/>')}</span><span class="on">${esc(NT('next'))} ›</span></div><div class="obrow">${OT('b2')}</div><div class="obrow">${OT('b3')}</div><div class="obrow">${OT('b4')}</div><div class="obrow obhi">✨ ${OT('b5')}</div></div>`,
+      `<div class="obs"><h2>${OT('f1')}</h2><div class="obf"><span>${ic('<path d="M7 5v14l11-7z" fill="currentColor"/>')}</span>${OT('fa')}</div><div class="obf"><span class="wa">${ic('<path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/>')}</span>${OT('fb')}</div><div class="obf"><span>${ic('<path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/>')}</span>${OT('fc')}</div><div class="obf"><span>${ic('<path d="M5 12l4 4 10-10"/>')}</span>${OT('fd')}</div></div>`];
+    return `<div class="obtop"><div class="obdots">${slides.map((_,i)=>`<i class="${i===obStep?'on':''}"></i>`).join('')}</div>${obStep<N-1?`<button class="obskip" type="button">${OT('skip')}</button>`:''}</div>
+      <div class="obbody">${slides[obStep]}</div>
+      <button class="obgo" type="button">${obStep<N-1?OT('next')+' ›':OT('start')}</button>`; }
+  function obDraw(){ const o=$('onb'); o.innerHTML=obHTML(); o.querySelector('.obbody').classList.add('in'); }
+  function obSave(){ const n=$('obName'); if(n){ prefs.name=n.value.replace(/[<>]/g,'').trim().slice(0,24); store.set('prefs',prefs); } }
+  function obClose(){ obSave(); $('onb').hidden=true; store.set('onbDone',1); store.set('tutDone',1); store.set('langPicked',1); }
+  function openOnb(){ let o=$('onb'); if(!o){ o=document.createElement('section'); o.id='onb'; o.setAttribute('role','dialog'); o.setAttribute('aria-label','Welcome'); document.querySelector('.shell').appendChild(o);
+      o.addEventListener('click',e=>{ const l=e.target.closest('.oblang'); if(l){ obSave(); obPick=l.dataset.l; applyLang(obPick); obDraw(); return; }
+        if(e.target.closest('.obskip')){ obClose(); return; }
+        if(e.target.closest('.obgo')){ obSave(); if(obStep<4){ obStep++; obDraw(); } else obClose(); } });
+      let x0=null; o.addEventListener('touchstart',e=>{ x0=e.touches[0].clientX; },{passive:true});
+      o.addEventListener('touchend',e=>{ if(x0==null) return; const dx=e.changedTouches[0].clientX-x0; x0=null; if(Math.abs(dx)<50) return; obSave(); if(dx<0&&obStep<4){ obStep++; obDraw(); } else if(dx>0&&obStep>0){ obStep--; obDraw(); } },{passive:true}); }
+    obStep=0; obPick=(prefs&&prefs.lang)||'te'; $('tut').hidden=true; obDraw(); o.hidden=false; }
+  try{ if(new URLSearchParams(location.search).get('onb')==='1') setTimeout(openOnb,400); }catch(e){}
 })();
 </script>
 </body>
