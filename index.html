@@ -946,6 +946,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .s2n.dly .dshare{all:unset;cursor:pointer;padding:11px 18px;border-radius:22px;background:#0E7A3E;color:#fff;font:800 15px/1 var(--body)}
 .s2n.dly .dswipe{display:flex;align-items:center;gap:6px;font:700 13px/1.3 var(--body);color:rgba(255,253,245,.85);text-align:right}.s2n.dly .dswipe b{color:#F5A23A;font-size:18px}
 .s2n.dly .dhand{display:inline-block;animation:dHand 1.8s ease-in-out infinite}@keyframes dHand{0%,30%{transform:none}60%{transform:translateX(-14px)}100%{transform:none}}
+.s2n .panel>.pcr{position:absolute;right:12px;top:60px;z-index:3;display:inline-flex;align-items:center;gap:4px;max-width:58%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:4px 10px;border-radius:999px;background:rgba(20,4,17,.72);border:1px solid rgba(245,162,58,.9);color:#FFFDF5;font:600 11.5px/1.2 var(--body)}.s2n .panel>.pcr b{font-weight:800}
 </style>
 </head>
 <body>
@@ -1700,7 +1701,8 @@ function cardHTML(s,i){
   <div class="panel bnr">
     ${sceneSVG(s,'scene')}${/^videos\/[\w.-]+\.mp4$/.test(s.vid||'')?`<button class="vplay" type="button" data-vid="${esc(s.vid)}" aria-label="వీడియో చూడండి"><svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#fff"/></svg><span>వీడియో చూడండి</span></button>`:''}
     <div class="ptop"><span class="bchip">${s.brk?'🔴 BREAKING · ':''}${esc(s.cat||U('news'))}</span></div>
-    <div class="bkw"><div class="stat">${esc(statTx(s))}</div><div class="statl">${esc(s.statl)}</div>${storyPhoto(s)&&s.imgcr?`<div class="adisc pcr">📷 ${esc(s.imgcr)}</div>`:''}${!storyPhoto(s)&&artPlan(s)&&artPlan(s).m!=='logo'&&!(artPlan(s).m==='plain'&&!artPlan(s).obj)?`<div class="adisc">${esc(ART_DISC[LG()]||ART_DISC.te)}</div>`:''}</div>
+    ${storyPhoto(s)&&s.imgcr?`<div class="pcr">📷 ${esc(({te:'ఫోటో',en:'Photo',hi:'फ़ोटो'})[LG()]||'ఫోటో')}: <b>${esc(s.imgcr)}</b></div>`:''}
+    <div class="bkw"><div class="stat">${esc(statTx(s))}</div><div class="statl">${esc(s.statl)}</div>${!storyPhoto(s)&&artPlan(s)&&artPlan(s).m!=='logo'&&!(artPlan(s).m==='plain'&&!artPlan(s).obj)?`<div class="adisc">${esc(ART_DISC[LG()]||ART_DISC.te)}</div>`:''}</div>
     <span class="bmark"><img src="art/logo.svg" alt="">swipe2news<i>.</i></span>
   </div>
   <div class="text"${s._lang?` lang="${s._lang}"`:''}>
@@ -2052,7 +2054,8 @@ async function newsCard(s,mode){
   if(st||sl){ const line=st+(st&&sl?'  ':'')+sl; const f=fitFont(line,800,54,TE,W-97,22); const y=PIC-((hasArt||(storyPhoto(s)&&s.imgcr))?70:48);
     ctx.save(); ctx.shadowColor='rgba(0,0,0,.6)'; ctx.shadowBlur=14; ctx.shadowOffsetY=3; ctx.font=`800 ${f}px ${TE}`; ctx.fillStyle=AP; ctx.fillText(st,49,y); const sw=st?ctx.measureText(st+'  ').width:0; ctx.fillStyle=CR; ctx.fillText(sl,49+sw,y); ctx.restore(); }
   if(hasArt){ const ap_=artPlan(s)||{}; if(ap_.m!=='logo'&&!(ap_.m==='plain'&&!ap_.obj)){ ctx.font=`500 24px ${TE}`; ctx.fillStyle='rgba(255,253,245,.75)'; ctx.fillText(ART_DISC[LG()]||ART_DISC.te,49,PIC-24); } }
-  if(storyPhoto(s)&&s.imgcr){ ctx.font=`600 24px ${TE}`; ctx.fillStyle='rgba(255,253,245,.85)'; ctx.fillText('📷 '+String(s.imgcr).slice(0,60),49,PIC-24); }  // official photo credit
+  if(storyPhoto(s)&&s.imgcr){ const ct='📷 '+(({te:'ఫోటో',en:'Photo',hi:'फ़ोटो'})[LG()]||'ఫోటో')+': '+String(s.imgcr).slice(0,60); ctx.font=`700 26px ${TE}`; const cw=ctx.measureText(ct).width+36;
+    ctx.fillStyle='rgba(20,4,17,.72)'; rrect(ctx,43,PIC-50,cw,40,20); ctx.fill(); ctx.strokeStyle='rgba(245,162,58,.9)'; ctx.lineWidth=2; rrect(ctx,43,PIC-50,cw,40,20); ctx.stroke(); ctx.fillStyle=CR; ctx.textBaseline='middle'; ctx.fillText(ct,61,PIC-29); ctx.textBaseline='alphabetic'; }  // official photo credit
   // 2) brand band — official logo lockup, kept small so the headline leads
   const BY=PIC, BH=84; ctx.fillStyle=CR; ctx.fillRect(0,BY,W,BH); ctx.fillStyle=AP; ctx.fillRect(0,BY,W,4); ctx.fillStyle='#E8DFD3'; ctx.fillRect(0,BY+BH-2,W,2);
   const iy=BY+BH/2+1; try{ const ic=await loadImg('icon-512.png'); ctx.save(); rrect(ctx,49,iy-25,50,50,13); ctx.clip(); ctx.drawImage(ic,49,iy-25,50,50); ctx.restore(); }catch(e){}
