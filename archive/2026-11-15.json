@@ -1,8 +1,287 @@
 {
  "date": "15.11.2026",
  "iso": "2026-11-15",
- "count": 60,
+ "count": 65,
  "stories": [
+  {
+   "cat": "తెలంగాణ · ప్రభుత్వం",
+   "col": "--c-gov",
+   "art": "water",
+   "stat": "365 మండలాలు",
+   "statl": "కరవు ప్రభావితం",
+   "h": "ప్రధాని మోదీతో సీఎం రేవంత్ భేటీ",
+   "p": "ముఖ్యమంత్రి రేవంత్ రెడ్డి ఆదివారం ఢిల్లీలో ప్రధాని నరేంద్ర మోదీని కలిశారు. రాష్ట్రంలో వర్షాభావం, కరవు పరిస్థితిని ఆయనకు వివరించారు. కేంద్రం నుంచి సుమారు ₹30 వేల కోట్ల సాయం కోరినట్లు సమాచారం. తుమ్మిడిహట్టి బ్యారేజీ, సమ్మక్క సాగర్ ప్రాజెక్టులు, సీతారామ బ్యారేజీ పర్యావరణ అనుమతులు, గోదావరి–కావేరి అనుసంధానంపై కూడా చర్చించారు. మంత్రులు ఉత్తమ్ కుమార్ రెడ్డి, వాకిటి శ్రీహరి వెంట ఉన్నారు.",
+   "pts": [
+    "గోదావరి–కావేరి అనుసంధానంలో 50 శాతం వాటా కోరారు",
+    "డిసెంబర్‌లో ఇండియన్ గేమ్స్ ప్రారంభానికి ప్రధాని ఆహ్వానం",
+    "డిసెంబర్ 7–9న తెలంగాణ గ్లోబల్ సమ్మిట్"
+   ],
+   "why": "కరవు మండలాల రైతులు, సాగునీటి ప్రాజెక్టులపై ఆధారపడిన ప్రజలపై ఈ చర్చల ప్రభావం ఉంటుంది.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/telangana/telangana-cm-revanth-reddy-meets-modi-over-telangana-projects-1142352",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-15T13:00+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Government",
+    "h": "CM Revanth meets PM Modi in Delhi",
+    "stat": "365 mandals",
+    "statl": "declared drought-hit",
+    "loc": "New Delhi",
+    "p": "Chief Minister Revanth Reddy met Prime Minister Narendra Modi in Delhi on Sunday and briefed him on deficient rainfall and drought in Telangana. He reportedly sought about ₹30,000 crore in central assistance. The Tummidi Hatti barrage, Sammakka Sagar project, environmental clearances for the Sitarama barrage and the Godavari–Cauvery river link were also discussed. Ministers Uttam Kumar Reddy and Vakiti Srihari were present.",
+    "pts": [
+     "Sought 50% share in Godavari–Cauvery link",
+     "PM invited them to Indian Games opening in December",
+     "Telangana Global Summit on December 7–9"
+    ],
+    "why": "The talks matter for farmers in drought-hit mandals and people depending on irrigation projects."
+   },
+   "hi": {
+    "cat": "तेलंगाना · सरकार",
+    "h": "सीएम रेवंत ने पीएम मोदी से मुलाकात की",
+    "stat": "365 मंडल",
+    "statl": "सूखा प्रभावित घोषित",
+    "loc": "नई दिल्ली",
+    "p": "मुख्यमंत्री रेवंत रेड्डी ने रविवार को दिल्ली में प्रधानमंत्री नरेंद्र मोदी से मुलाकात की और तेलंगाना में कम बारिश व सूखे की स्थिति बताई। बताया गया है कि उन्होंने केंद्र से करीब ₹30,000 करोड़ की सहायता मांगी। तुम्मिडीहट्टी बैराज, सम्मक्का सागर परियोजना, सीतारामा बैराज की पर्यावरण मंजूरी और गोदावरी–कावेरी नदी जोड़ पर भी चर्चा हुई। मंत्री उत्तम कुमार रेड्डी और वाकिटी श्रीहरि साथ थे।",
+    "pts": [
+     "गोदावरी–कावेरी जोड़ में 50% हिस्सा मांगा",
+     "दिसंबर में इंडियन गेम्स उद्घाटन का न्योता",
+     "7–9 दिसंबर को तेलंगाना ग्लोबल समिट"
+    ],
+    "why": "यह बातचीत सूखा प्रभावित मंडलों के किसानों और सिंचाई परियोजनाओं पर निर्भर लोगों के लिए अहम है।"
+   },
+   "d": "15.11.2026",
+   "t": "13:35"
+  },
+  {
+   "cat": "నల్గొండ · నేరాలు",
+   "col": "--c-city",
+   "art": "court",
+   "stat": "9 మంది అరెస్టు",
+   "statl": "టవర్ పరికరాల చోరీ కేసులో",
+   "h": "నల్గొండలో టవర్ పరికరాల చోరీ ముఠా అరెస్టు",
+   "p": "సెల్ టవర్ల నుంచి రేడియో రిమోట్ యూనిట్లను దొంగిలించిన కేసులో ఎయిర్‌టెల్ ప్రస్తుత, మాజీ ఉద్యోగులు తొమ్మిది మందిని అరెస్టు చేసినట్లు నల్గొండ ఎస్పీ శరత్ చంద్ర పవార్ తెలిపారు. తెలంగాణ, ఏపీల్లో 38 చోరీలు చేసినట్లు నిందితులు అంగీకరించారని, వాటి విలువ సుమారు ₹1.62 కోట్లని పోలీసులు చెప్పారు. దొంగిలించిన యూనిట్లను హైదరాబాద్‌లో అమ్మినట్లు పోలీసులు వెల్లడించారు.",
+   "pts": [
+    "మూడు కార్లు, రెండు బైకులు, ₹15 లక్షల నగదు స్వాధీనం",
+    "మిర్యాలగూడలో 16, నల్గొండలో 9, సూర్యాపేటలో 8 కేసులు",
+    "త్రిపురారం, నల్గొండ మండలాల్లో ఫిర్యాదులతో దర్యాప్తు"
+   ],
+   "why": "చోరీలతో సెల్ సేవలు నిలిచిపోతున్న గ్రామాల వినియోగదారులకు ఇది ఊరట.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/nalgonda-nine-airtel-employees-arrested-for-stealing-rs-1-62-crore-worth-of-tower-equipment",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "nalgonda",
+   "loc": "",
+   "pub": "2026-11-15T12:12+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Nalgonda · Crime",
+    "h": "Nalgonda: 9 held for tower equipment theft",
+    "stat": "9 arrested",
+    "statl": "in tower equipment theft",
+    "loc": "Nalgonda",
+    "p": "Nalgonda SP Sharath Chandra Pawar said police arrested nine current and former Airtel employees for stealing radio remote units from mobile towers. Police said the accused admitted to 38 thefts across Telangana and Andhra Pradesh worth about ₹1.62 crore. According to police, the stolen units were sold in Hyderabad.",
+    "pts": [
+     "Three cars, two bikes and ₹15 lakh cash seized",
+     "16 cases in Miryalaguda, 9 Nalgonda, 8 Suryapet",
+     "Probe began on complaints from Tripuraram, Nalgonda mandals"
+    ],
+    "why": "It brings relief to village users whose mobile service is hit by tower thefts."
+   },
+   "hi": {
+    "cat": "नलगोंडा · अपराध",
+    "h": "नलगोंडा: टावर उपकरण चोरी में 9 गिरफ्तार",
+    "stat": "9 गिरफ्तार",
+    "statl": "टावर उपकरण चोरी मामले में",
+    "loc": "नलगोंडा",
+    "p": "नलगोंडा एसपी शरत चंद्र पवार ने बताया कि मोबाइल टावरों से रेडियो रिमोट यूनिट चुराने के मामले में एयरटेल के नौ मौजूदा और पूर्व कर्मचारियों को गिरफ्तार किया गया। पुलिस के अनुसार आरोपियों ने तेलंगाना और आंध्र प्रदेश में करीब ₹1.62 करोड़ की 38 चोरियां कबूल कीं। पुलिस ने बताया कि चोरी की यूनिटें हैदराबाद में बेची गईं।",
+    "pts": [
+     "तीन कारें, दो बाइक और ₹15 लाख नकद जब्त",
+     "मिर्यालगुडा में 16, नलगोंडा 9, सूर्यापेट 8 मामले",
+     "त्रिपुरारम, नलगोंडा मंडल की शिकायतों पर जांच"
+    ],
+    "why": "इससे टावर चोरी के कारण बाधित मोबाइल सेवा वाले गांवों के उपयोगकर्ताओं को राहत मिलेगी।"
+   },
+   "d": "15.11.2026",
+   "t": "13:35"
+  },
+  {
+   "cat": "హైదరాబాద్ · రైల్వే",
+   "col": "--c-city",
+   "art": "land",
+   "stat": "₹327 కోట్లు",
+   "statl": "నాంపల్లి స్టేషన్ అభివృద్ధి వ్యయం",
+   "h": "నాంపల్లి స్టేషన్ వారసత్వ కట్టడంపై ఆందోళన",
+   "p": "అమృత్ భారత్ స్టేషన్ పథకం కింద హైదరాబాద్ నాంపల్లి (హైదరాబాద్ డెక్కన్) రైల్వే స్టేషన్ ఆధునికీకరణ పనుల్లో 1907 నాటి పాత భవనం ముందు భాగాన్ని తొలగించే అవకాశం ఉందని చరిత్రకారులు ఆందోళన వ్యక్తం చేస్తున్నారు. 2024లో మొదలైన పనులు 25 శాతం పూర్తయ్యాయి. అభివృద్ధి అవసరమే అయినా వారసత్వ గుర్తులు కాపాడాలని డెక్కన్ హెరిటేజ్ ట్రస్ట్ ప్రతినిధి కోరారు.",
+   "pts": [
+    "ఆరో నిజాం మీర్ మహబూబ్ అలీ ఖాన్ హయాంలో నిర్మాణం",
+    "రోజుకు సుమారు 45 వేల మంది ప్రయాణికులు",
+    "2027 చివరికి పనులు పూర్తి చేస్తామని కిషన్ రెడ్డి ప్రకటన"
+   ],
+   "why": "నగర వారసత్వాన్ని ప్రేమించేవారు, రోజూ ఈ స్టేషన్ వాడే ప్రయాణికులపై ఇది ప్రభావం చూపుతుంది.",
+   "src": "The Siasat Daily",
+   "url": "https://www.siasat.com/nampally-railway-station-revamp-sparks-loss-of-heritage-concerns-3577740/",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "నాంపల్లి",
+   "pub": "2026-11-15T10:57+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Hyderabad · Railways",
+    "h": "Nampally station revamp worries historians",
+    "stat": "₹327 crore",
+    "statl": "Nampally station revamp cost",
+    "loc": "Nampally, Hyderabad",
+    "p": "Historians fear the 1907 facade of Hyderabad's Nampally (Hyderabad Deccan) railway station may be demolished in its redevelopment under the Amrit Bharat Station Scheme. Work began in 2024 and is 25 per cent complete. A Deccan Heritage Trust representative said development is needed but heritage symbols should be preserved.",
+    "pts": [
+     "Built in the time of sixth Nizam Mahbub Ali Khan",
+     "About 45,000 passengers use it daily",
+     "Kishan Reddy said work will finish by end-2027"
+    ],
+    "why": "It affects heritage lovers and the daily passengers who use the station."
+   },
+   "hi": {
+    "cat": "हैदराबाद · रेलवे",
+    "h": "नामपल्ली स्टेशन की विरासत पर चिंता",
+    "stat": "₹327 करोड़",
+    "statl": "नामपल्ली स्टेशन विकास लागत",
+    "loc": "नामपल्ली, हैदराबाद",
+    "p": "इतिहासकारों को आशंका है कि अमृत भारत स्टेशन योजना के तहत हैदराबाद के नामपल्ली (हैदराबाद डेक्कन) रेलवे स्टेशन के पुनर्विकास में 1907 के पुराने भवन का अग्रभाग गिराया जा सकता है। 2024 में शुरू हुआ काम 25 प्रतिशत पूरा हो चुका है। डेक्कन हेरिटेज ट्रस्ट के प्रतिनिधि ने कहा कि विकास जरूरी है, पर विरासत चिह्न बचाए जाएं।",
+    "pts": [
+     "छठे निज़ाम महबूब अली खान के समय बना",
+     "रोज़ करीब 45,000 यात्री",
+     "किशन रेड्डी: 2027 के अंत तक काम पूरा"
+    ],
+    "why": "इसका असर विरासत प्रेमियों और रोज़ स्टेशन इस्तेमाल करने वाले यात्रियों पर है।"
+   },
+   "d": "15.11.2026",
+   "t": "13:35"
+  },
+  {
+   "cat": "హైదరాబాద్ · వినియోగదారులు",
+   "col": "--c-money",
+   "art": "court",
+   "stat": "₹1.14 లక్షలు",
+   "statl": "చెల్లించాలని వినియోగదారుల కమిషన్ ఆదేశం",
+   "h": "అందని ఫోన్‌కు ₹1.14 లక్షల పరిహారం",
+   "p": "ఈఎంఐపై కొన్న ఫోన్ అందకపోయినా వాయిదాలు కట్టాల్సి వచ్చిన 34 ఏళ్ల వ్యక్తికి ₹1,14,698 చెల్లించాలని హైదరాబాద్ జిల్లా వినియోగదారుల కమిషన్–3 ఒక ఎలక్ట్రానిక్స్ దుకాణాన్ని ఆదేశించింది. రుణ ఖాతాను పూర్తిగా మూసివేయాలని కూడా చెప్పింది. ఫోన్ ఇచ్చినట్లు స్టాక్ రిజిస్టర్, సంతకం చేసిన రసీదు వంటి ఆధారాలు లేవని కమిషన్ పేర్కొంది.",
+   "pts": [
+    "₹74,698 వాపసు, ₹30 వేలు పరిహారం, ₹10 వేలు ఖర్చులు",
+    "2024 మార్చిలో సున్నా వడ్డీ ఈఎంఐపై కొనుగోలు",
+    "మోసం ఆరోపణకు ఆధారాలు లేవన్న కమిషన్"
+   ],
+   "why": "ఈఎంఐపై వస్తువులు కొనే వినియోగదారులు తమ హక్కులు తెలుసుకోవడానికి ఈ తీర్పు ఉపయోగపడుతుంది.",
+   "src": "The Siasat Daily",
+   "url": "https://www.siasat.com/hyderabad-man-gets-rs-1-14l-after-emis-ran-for-undelivered-phone-3577750/",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-15T11:58+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Consumer",
+    "h": "Store told to pay ₹1.14 lakh over phone",
+    "stat": "₹1.14 lakh",
+    "statl": "ordered by consumer commission",
+    "loc": "Hyderabad",
+    "p": "Hyderabad District Consumer Commission-3 ordered an electronics retailer to pay ₹1,14,698 to a 34-year-old man who kept paying EMIs for a phone he never received. It also told the store to close the loan account permanently. The commission found no stock register entry or signed receipt proving delivery.",
+    "pts": [
+     "₹74,698 refund, ₹30,000 compensation, ₹10,000 costs",
+     "Bought on zero-interest EMI in March 2024",
+     "Commission found no proof of retailer's fraud claim"
+    ],
+    "why": "The order helps shoppers buying on EMI know their rights."
+   },
+   "hi": {
+    "cat": "हैदराबाद · उपभोक्ता",
+    "h": "फोन न देने पर दुकान को ₹1.14 लाख का आदेश",
+    "stat": "₹1.14 लाख",
+    "statl": "उपभोक्ता आयोग का आदेश",
+    "loc": "हैदराबाद",
+    "p": "हैदराबाद जिला उपभोक्ता आयोग-3 ने एक इलेक्ट्रॉनिक्स दुकान को 34 वर्षीय व्यक्ति को ₹1,14,698 देने का आदेश दिया, जो कभी न मिले फोन की ईएमआई भरता रहा। आयोग ने लोन खाता स्थायी रूप से बंद करने को भी कहा। डिलीवरी साबित करने वाला स्टॉक रजिस्टर या हस्ताक्षरित रसीद नहीं मिली।",
+    "pts": [
+     "₹74,698 वापसी, ₹30,000 मुआवजा, ₹10,000 खर्च",
+     "मार्च 2024 में शून्य ब्याज ईएमआई पर खरीद",
+     "दुकान के धोखाधड़ी आरोप का सबूत नहीं"
+    ],
+    "why": "यह आदेश ईएमआई पर खरीदारी करने वालों को अपने अधिकार समझने में मदद करता है।"
+   },
+   "d": "15.11.2026",
+   "t": "13:35"
+  },
+  {
+   "cat": "భారత్ · క్రీడలు",
+   "col": "--c-election",
+   "art": "voters",
+   "stat": "డిసెంబర్ 5న",
+   "statl": "ఐఓఏ ఎన్నికలు",
+   "h": "ఐఓఏ ఎన్నికలకు పీటీ ఉష నామినేషన్ ఆమోదం",
+   "p": "డిసెంబర్ 5న జరిగే భారత ఒలింపిక్ సంఘం (ఐఓఏ) ఎన్నికల ఎలక్టోరల్ కాలేజీకి అధ్యక్షురాలు పీటీ ఉష, ఐస్ హాకీ సంఘం ప్రధాన కార్యదర్శి హర్జిందర్ సింగ్ నామినేషన్లను ఎన్నికల అధికారి ఆమోదించారు. ఉష ఐస్ హాకీ సంఘం సభ్యురాలు కాదంటూ ఒక వర్గం చేసిన అభ్యంతరాలను తిరస్కరించారు. వేరే క్రీడా సంఘంలో సభ్యత్వం ఉండటం అనర్హత కాదని ఐఓఏ స్పష్టం చేసింది.",
+   "pts": [
+    "నవంబర్ 13న అభ్యంతరాలు, నవంబర్ 14న విచారణ",
+    "మాజీ అధ్యక్షుడు నరీందర్ బత్రా కూడా అభ్యంతరం",
+    "తుది ఓటర్ల జాబితా ఆదివారం సాయంత్రం"
+   ],
+   "why": "దేశ క్రీడా పాలన, ఒలింపిక్ సన్నద్ధతపై ఆసక్తి ఉన్న క్రీడాకారులకు ఇది ముఖ్యం.",
+   "src": "The Siasat Daily (PTI)",
+   "url": "https://www.siasat.com/ioa-accepts-pt-ushas-nomination-for-december-5-elections-3577909/",
+   "sec": [
+    "india",
+    "sports"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-15T12:48+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Sports",
+    "h": "PT Usha's IOA poll nomination accepted",
+    "stat": "December 5",
+    "statl": "IOA elections",
+    "loc": "New Delhi",
+    "p": "The IOA electoral officer accepted the nominations of president PT Usha and Ice Hockey Association of India secretary general Harjinder Singh to the electoral college for the December 5 elections. Objections by a faction claiming Usha was not an ice hockey body member were rejected. The IOA said membership of another federation is not an automatic disqualification.",
+    "pts": [
+     "Objections filed Nov 13, heard Nov 14",
+     "Ex-president Narinder Batra had also objected",
+     "Final electoral roll due Sunday evening"
+    ],
+    "why": "It matters to athletes following sports governance and Olympic preparation in India."
+   },
+   "hi": {
+    "cat": "भारत · खेल",
+    "h": "आईओए चुनाव: पीटी उषा का नामांकन स्वीकार",
+    "stat": "5 दिसंबर",
+    "statl": "आईओए चुनाव",
+    "loc": "नई दिल्ली",
+    "p": "आईओए के चुनाव अधिकारी ने 5 दिसंबर के चुनाव के लिए अध्यक्ष पीटी उषा और भारतीय आइस हॉकी संघ के महासचिव हरजिंदर सिंह के निर्वाचक मंडल नामांकन स्वीकार कर लिए। उषा के आइस हॉकी संघ की सदस्य न होने संबंधी एक गुट की आपत्तियां खारिज हुईं। आईओए ने कहा कि दूसरे महासंघ की सदस्यता अपने आप अयोग्यता नहीं है।",
+    "pts": [
+     "13 नवंबर को आपत्तियां, 14 को सुनवाई",
+     "पूर्व अध्यक्ष नरिंदर बत्रा ने भी आपत्ति की",
+     "अंतिम मतदाता सूची रविवार शाम"
+    ],
+    "why": "यह भारत में खेल प्रशासन और ओलंपिक तैयारी में रुचि रखने वाले खिलाड़ियों के लिए अहम है।"
+   },
+   "d": "15.11.2026",
+   "t": "13:35"
+  },
   {
    "cat": "హైదరాబాద్ · క్రీడలు",
    "col": "--c-city",
