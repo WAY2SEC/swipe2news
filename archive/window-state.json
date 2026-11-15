@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T23:35:00+05:30",
+ "cutoff": "2026-11-16T05:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T17:05:00+05:30/2026-11-12T17:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 2,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebSearch mostly returned stale tag/listing pages. Read via sub-agent: Siasat Hyderabad, TT Telangana & Karimnagar tags (no absolute times), Hans India Anantapur (02:26-02:30 only), DC Kadapa (latest 10 Nov), Southfirst AP tag (undated); articles TT, DC x3, Hans, Tribune. Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters/AP; no international-topic or other-state items verifiable. Duplicates: DC IPS reshuffle (=TT), Tribune market close (=Hans), DC 303 MoUs (=earlier Hans), DC CII summit begins (=earlier Hans). Districts searched: Nalgonda, Suryapet, Khammam, Warangal, Karimnagar, Adilabad, Mancherial, Anantapur, Kadapa, Prakasam(Ongole), East Godavari(Rajamahendravaram), Visakhapatnam."
-  },
   {
    "window": "2026-11-12T17:35:00+05:30/2026-11-12T18:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "23:35 run started 23:36 IST. Lookback from 15:05. Feeds fresh (23:15, 68/68 ok). add_repo not available; existing clone used, push worked. Published: Telugu360 Jana Sena mayor candidates (19:35, late), BS Bhatti GST interview (22:48), ETV AP FFS fertiliser app (22:18), HMTV Annam Satish quits BJP (23:01), ANI Sri Lanka envoy meets Naidu (22:42). Not opened: Disha Pulleru canal boys (fetch error); search did not surface The Hindu Kadapa electrocution, Paderu ghat lorry, excise fermentation agent arrests, Vizag fishermen cyclone anxiety, 25 industrial parks, BJP leader car at nomination centre. 8 district searches (Nalgonda, Warangal, Karimnagar, Khammam, Nellore, Anantapur, Prakasam, Vizianagaram/Srikakulam) returned only tag/old pages."
+  },
+  {
+   "window": "2026-11-15T23:35:00+05:30/2026-11-16T05:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 3,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 7,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "05:05 run started 05:06 IST; overnight window 23:35–05:05, lookback from 15:35 Nov 15. Feeds fresh (04:36, 70/70 ok). add_repo not available; existing clone used, push worked. Published: NT Palnadu Jonnalagadda sarpanch auction ₹81 lakh (01:48), NT Hyderabad night 16.9°C (01:02), Siasat/PTI Rajasthan track blast 2 arrested (18:42, late). Skipped as duplicates of published stories: Revanth-PM drought aid, Eagle force e-cigarettes, Madanapalle fake CBI, Vikarabad tyre-burst crash, YSRCP Vision 2050, cyclone Akvan Vizag–Bapatla Nov 20, winter session; TDP 2nd ULB list is from October; DC graduates 12.7 lakh is 9 Nov (old). Not opened (fetch permission timeout): TT opinion Hyderabad water, TT Prince/Princess of Wales visit, The Hindu Congress-BCs/Amit Shah. Search did not surface TOI items (TG inflation 7%, rural LPG 95.3%, Adilabad airport streams ₹324 cr, AP semiconductor SEZ, paddy sowing), Hans HYDRAA lakes, Hans Rahul-Congress infighting, Sakshi Tirumala ghat accident. 8 district searches (Nizamabad, Siddipet/Medak/Sangareddy, Kurnool, Guntur, Kakinada/Eluru, Kamareddy, Srikakulam, Hyderabad) returned only tag/old pages."
   }
  ],
  "seen": [
@@ -4443,6 +4443,36 @@
    "url": "https://www.dishadaily.com/andhrapradesh/two-boys-go-missing-after-falling-into-the-pulleru-canal-601153",
    "d": "2026-11-15",
    "w": "not-opened"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/andhra-village-holds-%E2%82%B981-lakh-auction-for-unopposed-sarpanch-post-2561273",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.ntnews.com/hyderabad/night-temperatures-dip-to-16-9c-in-greater-hyderabad-2561148",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.siasat.com/rajasthan-railway-track-blast-2-held-pakistan-link-emerges-3578181/",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/amp/southern-states/telangana/127-lakh-apply-for-graduate-mlc-rolls-2003041",
+   "d": "2026-11-16",
+   "w": "skip"
+  },
+  {
+   "url": "https://ntvtelugu.com/andhra-pradesh-news/tdp-releases-second-list-of-candidates-for-ap-municipal-elections-22-names-announced-1026849.html",
+   "d": "2026-11-16",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-likely-to-cross-ap-coast-between-vizag-and-bapatla-on-nov-20-2004753",
+   "d": "2026-11-16",
+   "w": "dup"
   }
  ]
 }
