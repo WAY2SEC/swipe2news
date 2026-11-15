@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T22:35:00+05:30",
+ "cutoff": "2026-11-15T23:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T16:05:00+05:30/2026-11-12T16:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 10,
-   "published": 5,
-   "late": 5,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "Search-first; WebSearch returned mostly stale tag/listing pages. Read via sub-agent: Siasat Hyderabad & Telangana listings, TNM Telangana, India TV Telangana, TT Andhra Pradesh listing (no 12 Nov AP item verifiable). Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters/AP; no AP district or international-topic items found; market close for 12 Nov 2026 not found. Skipped: Sonia memoir burnt Delhi (minor other-state), Bombay HC protest ruling (minor other-state), Sekhar Master accident (accident-victim naming rule/celebrity), Thammidikunta (already seen). Duplicate: Siasat GHMC Tolichowki huts = earlier Hakeempet story. Districts searched: Medak, Sangareddy, Siddipet, Khammam, Bhadradri, Mahabubabad, Vijayawada(NTR), Guntur, Nellore, Kakinada, East Godavari, Eluru, Srikakulam."
-  },
   {
    "window": "2026-11-12T16:35:00+05:30/2026-11-12T17:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "22:35 run started 22:36 IST. Lookback from 14:05. Feeds fresh (22:23, 68/68 ok). add_repo not available; existing clone used, push worked. Published: TT KTPS artisan death (22:11, sensitive), TT/PTI Bhadrachalam powerlifter (21:57), TT/PTI AP 526 investment projects (19:24, late), DC AP revenue staff resurvey (22:09, claim), DC Somireddy unanimous panchayat (22:06, claim), AP7AM Sharmila meets Naidu (22:20; event first seen 18:34, late). Duplicate: William/Kate Modi meeting (visit already covered). Skipped: Mumbai trader vs Hyderabad merchant allegation (similar to Panjagutta story already covered). Not opened (search did not surface): The Hindu pharmacy fee dues, The Hindu SCERT Maths Day, DC fake CBI kidnap, BigTV Siddipet POCSO. District searches Khammam, Srikakulam/Vizianagaram returned only tag/old pages."
+  },
+  {
+   "window": "2026-11-15T22:35:00+05:30/2026-11-15T23:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 2,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "23:05 run started 23:06 IST. Lookback from 14:35. Feeds fresh (23:00, 70/70 ok). add_repo not available; existing clone used, push worked. Published: DC Cyclone Murasu ₹2,484 crore / central team (23:02), TT Secunderabad RPF rescue (16:12, late; DC version 13:07 before lookback). Skipped: TT-NT Auto Show Hanamkonda (outlet's own promotional event). Not opened (provenance refused or search did not surface): The Hindu Sridhar Babu aerospace, The Hindu pharmacy fee dues, DC Nizamabad resurvey, DC Rythu Bandhu study, DC burglary gang, DC Puttaparthi 101st birthday, The Hindu NHA health spending, Samayam steel flyover diversions, News18 Seethakka SHG loans, BS Bhatti GST, ETV AP FFS app. No district searches this run."
   }
  ],
  "seen": [
@@ -4378,6 +4378,36 @@
    "url": "https://www.businesstoday.in/india/story/prince-william-kate-middleton-to-visit-india-from-november-16-meeting-with-pm-modi-planned-567523-2026-11-15",
    "d": "2026-11-15",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/stronger-infrastructure-needed-to-minimise-cyclone-damage-cm-2004697",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/ap-seeks-long-term-cyclone-solution-as-murasu-damage-pegged-at-2484-crore-1142443",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/watch-rpf-personnel-rescue-man-from-gap-between-moving-train-and-platform-in-secunderabad",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/rpf-asi-saves-53-year-old-passenger-from-moving-train-at-secunderabad-2004596",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/rpf-personnel-rescue-man-who-fell-beside-moving-train-at-secunderabad-railway-station/article71705254.ece",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/namasthe-telangana-telangana-today-auto-show-draws-huge-crowds-in-hanamkonda",
+   "d": "2026-11-15",
+   "w": "skipped"
   }
  ]
 }
