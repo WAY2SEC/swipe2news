@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T14:35:00+05:30",
+ "cutoff": "2026-11-15T15:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-11T23:05:00+05:30/2026-11-11T23:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 2,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agent. Search returned mostly stale listing pages; Siasat and Telangana Today listings show only relative times (not verifiable); DC AP page 2 had nothing after 15:00; Eenadu, Sakshi, Andhra Jyothy, Namasthe Telangana, TV9, V6, NTV, ETV, The Hindu, PTI national, Reuters/BBC/AP and international-topic sources not surfaced in range. ThePrint Naidu Swachh awards congratulation treated as already covered (AP awards story 09:35)."
-  },
   {
    "window": "2026-11-11T23:35:00+05:30/2026-11-12T06:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "14:35 run started 14:36 IST. Lookback from 06:05 15 Nov. Feeds branch fresh (14:11, 70/70 ok, 803 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: TT GHMC park entry fee hike (14:20), TT Sirgapur residential school student missing (14:16, sensitive), TT/IANS Air India non-stop NY flights (14:19). Duplicate: ETV Bharat AP third cyclone (already covered 11:30). Skipped as old: Hans Goyal Egypt (10 Nov), TT and NewsMeter Karthika chicken prices (2023). Not found by search: Charlapalli jail ITI, Nalgonda Agri Show, AP child safety committees, Gazetted officers PRC demand, Keesara DCM fire, Vikarabad groom accident, Hyderabad-Basara road, Asifabad MJP sports, Mancherial BJP arrests. Siasat Telangana page showed only 14 Nov items. Districts covered: Hyderabad, Sangareddy."
+  },
+  {
+   "window": "2026-11-15T14:35:00+05:30/2026-11-15T15:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 4,
+   "late": 2,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "15:05 run started 15:06 IST. Lookback from 06:35 15 Nov. Feeds branch fresh (14:45, 70/70 ok, 774 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Standard WebSearch did not surface today's articles; extended search did, and fetches worked only after that. Published: Vaartha Cherlapally jail ITI (14:04), TT Panjagutta complaint against businessman (14:42, sensitive, claim), Siasat Malkajgiri PD Act Rampally (08:35, late, sensitive), Siasat Vasavi Urban Bachupally buyers (09:19, late, claim). Duplicate: TT Adilabad farmer 14:37 (same Talamadugu farmer covered 13:05). Skipped, published before lookback: Andhra Jyothy AP Td vaccination drive Dec 3-5 (05:05; Hindu 14:10 version not surfaced), DC/AP Meta Italy fine (06:27), Hans Khammam Governor/Red Cross (05:58), Hans Tummala pensions Khammam (05:38). Already covered: Bowrampet bus fire, Rahul Bharat Summit remarks, Giribabu. Not opened: Hindu Bar Council evening courts, Siasat NIMS HC, TT MCEME seminar, Siasat Inter student hostel death (search did not surface). Districts covered: Hyderabad, Medchal."
   }
  ],
  "seen": [
@@ -3801,6 +3801,51 @@
   },
   {
    "url": "https://newsmeter.in/hyderabad/hyderabad-sees-drop-in-50-per-cent-of-chicken-prices-this-karthika-masam-721039",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://vaartha.com/telangana/telangana-prisons-department-run-iti-has-been-launched-at-the-cherlapally-central-jail/805414/",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/woman-accuses-businessman-of-sexual-exploitation-blackmail",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/pd-act-invoked-against-land-grabber-in-malkajgiri-3577707/",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/vasavi-urban-buyers-threaten-hunger-strike-over-construction-delays-3577719/",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/adilabad-farmer-ends-life-as-crop-losses-mount",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/ap-to-conduct-special-td-vaccination-drive-for-children-aged-10-to-16-1576458.html",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/world/europe/meta-fined-887-million-in-italy-over-facebooks-access-to-phone-photos-videos-2004542",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/khammam/governor-appreciates-khammam-docs-services-1142212",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/khammam/telangana-leads-country-in-welfare-initiatives-tummala-1142199",
    "d": "2026-11-15",
    "w": "skipped"
   }
