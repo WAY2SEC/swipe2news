@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T23:05:00+05:30",
+ "cutoff": "2026-11-15T23:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T16:35:00+05:30/2026-11-12T17:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 7,
-   "published": 7,
-   "late": 0,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebSearch returned only stale tag/listing pages. Read via sub-agent: Siasat Hyderabad listing (no new 12 Nov items), Southfirst AP & Telangana listings (undated), TNM AP (latest 10 Nov), Telangana Today AP tag page + 7 TT articles (16:33-16:54), Hans India Anantapur (02:26-02:30, before lookback). Not reachable: TT rupee-94.04 article (permission timeout). Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, Reuters/AP not surfaced; no international-topic items found. Districts searched: Karimnagar, Warangal, Nizamabad, Tirupati, Nellore, Kurnool, Guntur, Anantapur."
-  },
   {
    "window": "2026-11-12T17:05:00+05:30/2026-11-12T17:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "23:05 run started 23:06 IST. Lookback from 14:35. Feeds fresh (23:00, 70/70 ok). add_repo not available; existing clone used, push worked. Published: DC Cyclone Murasu ₹2,484 crore / central team (23:02), TT Secunderabad RPF rescue (16:12, late; DC version 13:07 before lookback). Skipped: TT-NT Auto Show Hanamkonda (outlet's own promotional event). Not opened (provenance refused or search did not surface): The Hindu Sridhar Babu aerospace, The Hindu pharmacy fee dues, DC Nizamabad resurvey, DC Rythu Bandhu study, DC burglary gang, DC Puttaparthi 101st birthday, The Hindu NHA health spending, Samayam steel flyover diversions, News18 Seethakka SHG loans, BS Bhatti GST, ETV AP FFS app. No district searches this run."
+  },
+  {
+   "window": "2026-11-15T23:05:00+05:30/2026-11-15T23:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 5,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "23:35 run started 23:36 IST. Lookback from 15:05. Feeds fresh (23:15, 68/68 ok). add_repo not available; existing clone used, push worked. Published: Telugu360 Jana Sena mayor candidates (19:35, late), BS Bhatti GST interview (22:48), ETV AP FFS fertiliser app (22:18), HMTV Annam Satish quits BJP (23:01), ANI Sri Lanka envoy meets Naidu (22:42). Not opened: Disha Pulleru canal boys (fetch error); search did not surface The Hindu Kadapa electrocution, Paderu ghat lorry, excise fermentation agent arrests, Vizag fishermen cyclone anxiety, 25 industrial parks, BJP leader car at nomination centre. 8 district searches (Nalgonda, Warangal, Karimnagar, Khammam, Nellore, Anantapur, Prakasam, Vizianagaram/Srikakulam) returned only tag/old pages."
   }
  ],
  "seen": [
@@ -4408,6 +4408,41 @@
    "url": "https://telanganatoday.com/namasthe-telangana-telangana-today-auto-show-draws-huge-crowds-in-hanamkonda",
    "d": "2026-11-15",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.telugu360.com/pawan-kalyan-ends-speculation-announces-jana-sena-mayoral-candidates-for-srikakulam-and-kakinada/",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/andhra-pradesh/janasena-names-candidates-for-kakinada-srikakulam-mayoral-races-and-three-municipal-chairman-posts-515087.html",
+   "d": "2026-11-15",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.business-standard.com/politics/our-welfare-schemes-are-investments-for-more-gst-mallu-bhatti-vikramarka-126111500744_1.html",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/framework-for-fertilizer-sale-app-will-implementation-in-ap-aps26111504839",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/amaravathi/ap-former-mlc-annam-satish-prabhakar-resigns-from-bjp-213368",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.aninews.in/news/world/asia/sri-lankan-high-commissioner-meets-andhra-pradesh-cm-at-cii-partnership-summit-in-visakhapatnam20261115224224/",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.dishadaily.com/andhrapradesh/two-boys-go-missing-after-falling-into-the-pulleru-canal-601153",
+   "d": "2026-11-15",
+   "w": "not-opened"
   }
  ]
 }
