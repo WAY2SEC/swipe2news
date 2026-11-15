@@ -867,6 +867,16 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .icon.homeb.aibtn svg{width:18px;height:18px}
 .icon.homeb.aibtn .aib{position:absolute;top:-6px;right:-6px;min-width:20px;height:20px;padding:0 5px;border-radius:10px;background:#4A0E3F;color:#FFFDF5;font:800 11px/20px 'Outfit',sans-serif;text-align:center;box-shadow:0 0 0 2px #fff}
 @keyframes aiGlow{0%,100%{box-shadow:0 4px 14px rgba(245,162,58,.45)}50%{box-shadow:0 4px 22px rgba(245,162,58,.85)}}
+
+/* gold/silver/copper card */
+.s2n.metals .mhd{background:radial-gradient(120% 120% at 90% 0%,#8A5A12,#4A0E3F 70%)!important}
+.s2n.metals .mtab{width:100%;border-collapse:collapse;margin:4px 0 6px;font-variant-numeric:tabular-nums}
+.s2n.metals .mtab th,.s2n.metals .mtab td{padding:9px 4px;border-bottom:1px solid var(--line);text-align:right;vertical-align:top}
+.s2n.metals .mtab thead th{font:800 12.5px/1.2 var(--body);color:#4A0E3F}.s2n.metals .mtab thead th small{display:block;font-weight:600;font-size:10.5px;color:var(--muted)}
+.s2n.metals .mtab tbody th{text-align:left;font:800 15px/1.3 var(--body);color:var(--ink)}
+.s2n.metals .mtab td b{display:block;font:800 15.5px/1.2 'Outfit',var(--body);color:#4A0E3F}
+.s2n.metals .mtab td i{display:block;font:700 11px/1.3 'Outfit',sans-serif;font-style:normal}.s2n.metals i.up{color:#0E7A3E}.s2n.metals i.dn{color:#B3261E}
+.s2n.metals .mfuel i{font-style:normal;font:700 12px 'Outfit',sans-serif;margin-left:4px}
 </style>
 </head>
 <body>
@@ -1380,11 +1390,32 @@ function offlineUI(force){ let b=document.getElementById('s2off'); const off=for
   b.textContent='📴 '+({te:'ఆఫ్‌లైన్',en:'Offline',hi:'ऑफ़लाइन'}[LG()]); b.title=full; b.onclick=()=>toast(full); b.hidden=false; }
 window.addEventListener('online',()=>{ offlineUI(); try{ load(); }catch(e){} }); window.addEventListener('offline',()=>offlineUI());
 function warmOffline(){ try{ if(!navigator.serviceWorker||!navigator.serviceWorker.controller) return; const c=navigator.connection; if(c&&(c.saveData)) return;
-  const urls=['mandi.json','mandi.js?v=2','mandi/','/icon-512.png','/icon-192.png','/art/logo.svg','/brand/qr-share.png'].concat((NEWS.stories||[]).slice(0,60).map(x=>x.img).filter(u=>u&&!/^https?:/.test(u)));
+  const urls=['mandi.json','metals.json','mandi.js?v=2','mandi/','/icon-512.png','/icon-192.png','/art/logo.svg','/brand/qr-share.png'].concat((NEWS.stories||[]).slice(0,60).map(x=>x.img).filter(u=>u&&!/^https?:/.test(u)));
   // offline reading: every card picture in today's feed (cards keep them in data-src until shown)
   const f=document.getElementById('feed'); if(f) f.querySelectorAll('img[data-src],img[src^="/art/"]').forEach(im=>{ const u=im.dataset.src||im.getAttribute('src'); if(u&&u.startsWith('/art/')&&!urls.includes(u)) urls.push(u); });
   const ch=new MessageChannel(); ch.port1.onmessage=e=>{ const n=(e.data||{}).saved|0; try{ const k='offlineSaved.'+new Date().toDateString(); if(n>0&&!store.get(k,0)){ store.set(k,1); toast({te:'📥 ఈరోజు వార్తలు ఫోన్‌లో సేవ్ అయ్యాయి – నెట్ లేకపోయినా చదవొచ్చు',en:'📥 Today\'s news is saved on your phone – read it even without internet',hi:'📥 आज की खबरें फ़ोन में सेव हो गईं – बिना इंटरनेट भी पढ़ें'}[LG()]||''); } }catch(_){} };
   navigator.serviceWorker.controller.postMessage({type:'warm',urls},[ch.port2]); }catch(e){} }
+/* gold · silver · copper card (15 Nov 2026): 10th card in the main feed; data metals.json (scheduled task, tools/tasks/metals.md) */
+let METALS=null; fetch('metals.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>{ if(!d||!Array.isArray(d.cities)||!d.cities.length) return; METALS=d; try{ if(view==='home'&&section==='all'&&LIST&&LIST.length&&cur<8&&!LIST.some(x=>x.kind==='metals')) renderFeed(keyOf(LIST[cur])); }catch(e){} }).catch(()=>{});
+const MTX={te:{t:'బంగారం · వెండి · రాగి',g24:'24 క్యారెట్',g22:'22 క్యారెట్',sv:'వెండి',gu:'10 గ్రాములు',su:'కిలో',cu:'రాగి',cuu:'కిలో · MCX',warn:'ఆభరణాల షాపుల్లో GST, తయారీ ఛార్జీలు అదనం. కొనే ముందు షాపులో నిర్ధారించుకోండి.',src:'మూలం',city:{Hyderabad:'హైదరాబాద్',Mumbai:'ముంబై',Chennai:'చెన్నై',Delhi:'ఢిల్లీ',Vijayawada:'విజయవాడ'}},
+ en:{t:'Gold · Silver · Copper',g24:'24K',g22:'22K',sv:'Silver',gu:'10 g',su:'kg',cu:'Copper',cuu:'kg · MCX',warn:'Jewellers add GST and making charges. Check with your shop before buying.',src:'Source',city:{}},
+ hi:{t:'सोना · चाँदी · ताँबा',g24:'24 कैरेट',g22:'22 कैरेट',sv:'चाँदी',gu:'10 ग्राम',su:'किलो',cu:'ताँबा',cuu:'किलो · MCX',warn:'ज्वैलर GST और मेकिंग चार्ज अलग से लेते हैं। ख़रीदने से पहले दुकान पर पक्का करें।',src:'स्रोत',city:{Hyderabad:'हैदराबाद',Mumbai:'मुंबई',Chennai:'चेन्नई',Delhi:'दिल्ली',Vijayawada:'विजयवाड़ा'}}};
+function metalsItem(){ if(!METALS) return null; const fresh=x=>x&&x.date&&(Date.now()-new Date(x.date+'T12:00:00+05:30'))<4*864e5; const c=METALS.cities.filter(fresh); if(!c.length) return null;
+  return {kind:'metals', c, h:'బంగారం ధరలు', p:c.map(x=>x.city+' '+x.g24).join(', '), url:'https://swipe2news.com/', src:METALS.src||'', d:''}; }
+function metalsHTML(s,i){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=METALS.prev||{}, inr=n=>'₹'+Number(n).toLocaleString('en-IN');
+  const ar=(k,v)=>{ const p=prev[k]; if(p==null||v==null||p===v) return ''; return v>p?`<i class="up">▲${Number(v-p).toLocaleString('en-IN')}</i>`:`<i class="dn">▼${Number(p-v).toLocaleString('en-IN')}</i>`; };
+  const d=s.c.map(x=>x.date).sort().pop(), cu=METALS.copper&&METALS.copper.price?METALS.copper:null;
+  let dd=''; try{ dd=new Date(d+'T12:00:00+05:30').toLocaleDateString(l==='te'?'te-IN':l==='hi'?'hi-IN':'en-IN',{day:'numeric',month:'short'}); }catch(e){ dd=d; }
+  return `<article class="story s2n mandi metals" aria-label="${esc(U.t)}">
+  <div class="mhd"><div><b>💰 ${esc(U.t)}</b><span>${esc(dd)}</span></div></div>
+  <div class="text"><table class="mtab"><thead><tr><th></th><th>${esc(U.g24)}<small>${esc(U.gu)}</small></th><th>${esc(U.g22)}<small>${esc(U.gu)}</small></th><th>${esc(U.sv)}<small>${esc(U.su)}</small></th></tr></thead>
+  <tbody>${s.c.map(x=>`<tr><th>${esc(U.city[x.city]||x.city)}</th><td><b>${x.g24!=null?inr(x.g24):'–'}</b>${ar(x.city+'|g24',x.g24)}</td><td><b>${x.g22!=null?inr(x.g22):'–'}</b>${ar(x.city+'|g22',x.g22)}</td><td><b>${x.silver!=null?inr(x.silver):'–'}</b>${ar(x.city+'|silver',x.silver)}</td></tr>`).join('')}</tbody></table>
+  ${cu?`<p class="mfuel">🟤 ${esc(U.cu)} <b>${inr(cu.price)}</b>${ar('copper',cu.price)} <small>/ ${esc(U.cuu)}</small></p>`:''}
+  <p class="mwarn">ℹ️ ${esc(U.warn)}</p><div class="srow"><span class="src">${esc(U.src)}: <b>${esc(METALS.src||'')}</b></span></div></div>
+  <div class="spacer" data-sp="${i}"></div>
+  ${footHTML()}
+</article>`; }
+function withMetals(list){ if(view!=='home'||section!=='all'||list.length<10) return list; const mi=metalsItem(); if(!mi) return list; const o=list.slice(); o.splice(9,0,mi); return o; }
 function withMandi(list){ if(view!=='home'||section!=='all'||list.length<4) return list; const mi=mandiItem(); if(!mi) return list; const o=list.slice(); o.splice(3,0,mi); return o; }
 function withHouse(list){ const C=CONFIG.SPACE; if(!C||!C.on||view!=='home') return list; const house=(C.HOUSE||[]).filter(k=>SPACE_TX[k]&&!(k==='jobs'&&spaceJobsN()<3)); if(!house.length) return list;
   const o=[]; let n=0; let k=0; list.forEach((x,i)=>{ o.push(x); if(!x.kind && ++k%20===0) o.push({kind:'house',k:house[(n++)%house.length],h:'Swipe2News',p:'',url:'https://swipe2news.com/',src:'Swipe2News',d:''}); }); return o; }
@@ -1427,7 +1458,7 @@ function withJobs(list){ if(view!=='home'||!(section==='all'||section==='distric
   let fresh=JOBS.filter(j=>age(j)<=3).sort((a,b)=>age(a)-age(b)); if(prefs.place&&prefs.place!=='TS') fresh=fresh.filter(j=>j.place===prefs.place).concat(fresh.filter(j=>j.place!==prefs.place));
   fresh=fresh.slice(0,3); if(!fresh.length) return list;
   const at=[5,13,23], out=[]; let n=0,k=0; list.forEach(s=>{ out.push(s); if(!s.kind){ n++; if(n===at[k]&&fresh[k]){ out.push(fresh[k]); k++; } } }); return out; }
-function withPromos(list){ list=withLocAsk(withHouse(withMandi(list)));
+function withPromos(list){ list=withLocAsk(withHouse(withMetals(withMandi(list))));
   const G=CONFIG.GREETING; let gr=null;
   if(G && Date.now()<new Date(G.until).getTime() && view!=='saved' && view!=='jobs') gr={kind:'promo', greet:1, img:G.img, h:'దీపావళి శుభాకాంక్షలు – Swipe2News', p:'', url:G.page, src:'Swipe2News', d:''};
   const P=CONFIG.PROMO; if(!P||!P.on||view==='saved'||view==='jobs'||list.length<P.every) return gr?[gr].concat(list):list;
@@ -1526,6 +1557,7 @@ function cardHTML(s,i){
   if(s.kind==='promo') return promoHTML(s,i);
   if(s.kind==='job') return jobHTML(s,i);
   if(s.kind==='mandi') return mandiHTML(s,i);
+  if(s.kind==='metals') return metalsHTML(s,i);
   if(s.kind==='house') return houseHTML(s,i);
   if(s.kind==='loc') return locHTML(s,i);
   const where=[...new Set([s.loc, s.place&&s.place!=='TS'&&s.place!=='IN' ? placeName(s.place) : (s.st&&s.st!=='TG'&&s.st!=='IN' ? placeLabel('st-'+s.st) : '')].filter(Boolean).map(x=>String(x).replace(/^మొత్తం\s*/,'')).map(locTx))].filter(Boolean).join(', '); // 'మొత్తం ఆంధ్రప్రదేశ్' was cut to 'మొత్తం ఆంధ్రప్రదే' on small screens
