@@ -2221,9 +2221,9 @@ function openHub(){ const T=HUBTX[TLG()?'en':LG()]||HUBTX.te; let h=$('hubSheet'
     if(a==='latest') goHome(); else if(a==='jobs') setView('jobs'); else if(a==='saved') setView('saved'); else if(a==='dates') openDates(); });
 }
 { const hb=$('homeBtn'); if(hb){ hb.hidden=false; hb.onclick=e=>{ e.preventDefault(); openHub(); }; } }
-/* PREVIEW (?top=ai): only ONE house on screen. The top button becomes a "✨ Today" AI pill with a count of stories
+/* (live 15 Nov 2026) only ONE house on screen. The top button becomes a "✨ Today" AI pill with a count of stories
    that arrived since the reader last opened it; the house stays only in the bottom bar. */
-const TOPAI=(()=>{ try{ const q=new URLSearchParams(location.search).get('top'); if(q==='ai'||q==='home') localStorage.setItem('w2s.top',q); return localStorage.getItem('w2s.top')==='ai'; }catch(e){ return false; } })();
+const TOPAI=(()=>{ try{ const q=new URLSearchParams(location.search).get('top'); if(q==='ai'||q==='home') localStorage.setItem('w2s.top',q); return localStorage.getItem('w2s.top')!=='home'; }catch(e){ return true; } })(); // owner approved 15 Nov 2026: live for everyone
 function aiBadge(){ if(!TOPAI) return; const b=document.querySelector('#homeBtn .aib'); if(!b) return; let seen=[]; try{ seen=JSON.parse(localStorage.getItem('w2s.hubSeen')||'[]'); }catch(e){}
   const ids=LIST.filter(x=>x&&!x.kind&&x.h).slice(0,30).map(sid); const n=seen.length?ids.filter(i=>!seen.includes(i)).length:Math.min(ids.length,5);
   b.textContent=n>9?'9+':String(n); b.hidden=!n; }
