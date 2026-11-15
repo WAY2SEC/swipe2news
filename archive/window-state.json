@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-15T15:35:00+05:30",
+ "cutoff": "2026-11-15T16:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T06:35:00+05:30/2026-11-12T07:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 5,
-   "late": 4,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebFetch via sub-agent. Most searches returned stale listing pages; Eenadu, Sakshi, Andhra Jyothy, TV9, V6, NTV, ETV Bharat, The Hindu, PTI national not surfaced in range; district searches (Khammam, Warangal, Nizamabad, Kurnool, Nellore, Tirupati, Guntur) gave no in-range articles. Nvidia story taken from ABC live blog post 12:19pm AEDT citing Reuters/WSJ. Duplicate: Hans 1141198 HYDRAA chief (covered by Siasat story)."
-  },
   {
    "window": "2026-11-12T07:05:00+05:30/2026-11-12T07:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 1,
    "gaps": "15:35 run started 15:36 IST. Lookback from 07:05 15 Nov. Feeds branch fresh (15:16, 68/68 ok, 698 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: TT Nirmal car fire mechanic dies (15:05, sensitive), TT Raja Singh CBI probe on Sajjanar (15:10, claim), South First AP NCD 4.0 screening (15:07), BigTV Telangana cold Kohir 11C (07:33, late), TT Nalgonda bird feeder (14:47, late), DC Secunderabad RPF rescue (13:07, late). Duplicate: NewsMeter Eli Lilly $1bn (CM remarks at PHFI event already covered; Lilly plan is a 2025 announcement). Review: BW Waaree Kakinada green ammonia (dated 12 Nov, no time, AI-generated label). 8 district searches (Khammam, Karimnagar, Warangal, Srikakulam/Vizianagaram, Kurnool, Mahabubnagar, Nellore/Prakasam, Siddipet/Medak) returned only older items. Districts covered: Nirmal, Hyderabad, Sangareddy, Nalgonda, AP statewide."
+  },
+  {
+   "window": "2026-11-15T15:35:00+05:30/2026-11-15T16:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 9,
+   "published": 8,
+   "late": 3,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "16:05 run started 16:06 IST. Lookback from 07:35 15 Nov. Feeds branch fresh (15:45, 70/70 ok, 788 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: NTV 4.63 lakh Cheyutha pensions (15:36), Siasat/PTI Khelo India logo (16:01), NewsMeter Malkajgiri chloral hydrate toddy 5 arrested (15:26, sensitive), NewsMeter 4,252 phone-driving cases (15:03), South First AP Td vaccination Dec 3-5 (15:22), TV9 Garladinne sarpanch post auction Rs 29 lakh (11:43, late, claim, sensitive), Hans NTR/Krishna panchayat nominations (12:04, late), DC central team East Godavari cyclone (12:30, late). Duplicate: Kothagudem airport (covered 14 Nov). Skipped: TT BRS joinings (analysis, no single event), TT SCR Sabarimala trains (2025 article), TT 4,197 phone cases (7 Nov), TT Cheyutha letters (12 Nov). Not opened: Hindu AP mayor results 12 of 13 (search surfaced only unreliable sites), Hindu cyclone Akvan Nov 19 update. 8 district searches (Kurnool/Nandyal, Vizag/Srikakulam, Mahabubnagar, Tirupati/Chittoor, Guntur/Krishna, Nizamabad/Kamareddy, Srikakulam, East Godavari). Districts covered: Hyderabad, Medchal, Anantapur, NTR, East Godavari, TG/AP statewide."
   }
  ],
  "seen": [
@@ -3883,6 +3883,76 @@
    "url": "https://www.businessworld.in/article/waaree-energies-bets-rs-15-000-cr-on-green-ammonia-plans-1-2-mt-plant-in-andhra-633217",
    "d": "2026-11-15",
    "w": "review"
+  },
+  {
+   "url": "https://ntvtelugu.com/news/telangana-cheyutha-scheme-4-63-lakh-new-pensions-november-19-1035464.html",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/khelo-india-youth-games-cm-mandaviya-unveil-logo-mascot-3577999/",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/crime/chloral-hydrate-in-toddy-5-arrested-25-kg-of-banned-chemical-seized-in-telangana-779359",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/hyderabad-traffic-police-book-4252-motorists-in-a-week-for-using-phones-while-driving-779357",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://thesouthfirst.com/andhrapradesh/andhra-pradesh-to-vaccinate-10-and-16-year-olds-against-diphtheria-and-tetanus-from-3-december/",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://tv9telugu.com/andhra-pradesh/ap-panchayat-elections-koppalakonda-sarpanch-post-auctioned-for-rs-29-lakh-for-ram-temple-in-anantapur-1958900.html",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/sarpanch-post-auctioned-for-29-lakh-to-fund-rama-temple-2004518",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/gram-panchayat-poll-nominations-begin-in-ntr-krishna-districts-1142342",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/central-team-inspects-cyclone-hit-areas-of-east-godavari-2004589",
+   "d": "2026-11-15",
+   "w": "published"
+  },
+  {
+   "url": "https://www.bigtvlive.com/telangana/kothagudem-airport-centre-gives-green-signal-for-667-acres-in-sujathanagar.html",
+   "d": "2026-11-15",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/congress-and-bjp-leaders-join-brs-in-multiple-telangana-districts-ahead-of-polls",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/scr-to-run-special-trains-for-sabarimala-pilgrims-from-november-24",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/over-4000-motorists-booked-for-mobile-phone-use-while-driving-in-hyderabad",
+   "d": "2026-11-15",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-cheyutha-pension-sanction-letters-distributed-to-new-beneficiaries",
+   "d": "2026-11-15",
+   "w": "skipped"
   }
  ]
 }
