@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-16T06:35:00+05:30",
+ "cutoff": "2026-11-16T07:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T19:05:00+05:30/2026-11-12T19:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebSearch mostly stale tag/listing pages. Read: Siasat Hyderabad listing + 3 articles (all already published), TT Telangana/AP tags (relative times only), DC Kurnool, Hans AP tag (newest 7 Nov), Techmeme (latest 11 Nov), 5 TT articles. Adibatla woman death (TT 19:38) is after window end - left for next run. Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI direct, Reuters/AP; no national, other-state or international-topic items verifiable. Districts searched: Medak, Siddipet, Sangareddy, Nalgonda, Suryapet, Yadadri, Kurnool, Nandyal, Anantapur, East Godavari, Kakinada, Eluru."
-  },
   {
    "window": "2026-11-12T19:35:00+05:30/2026-11-12T20:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "06:35 run started 06:36 IST; lookback from 22:05 Nov 15. Feeds fresh (06:10, 70/70 ok). add_repo not available; existing clone used, push worked. Feed 'covered' flags unreliable: many listed events were already published (Nalgonda Airtel RRU theft, cyclone Akvan, aerospace, Vision 2050, NCD survey). Published: Hans Japan envoy-Bhongir MP (06:03), Andhra Jyothy Chanchalguda digital arrest ₹1.42 cr (06:01, claim), Hans Rahul concern over T-Congress infighting (03:06, claim), Hans Hyderabad CP Bhagwat challenges (02:27). Skipped: DC Indiramma insurance Siddipet (10 Nov, old); ThePrint William Delhi leg (21:45 Nov 15, before lookback). Search did not surface: TOI TG inflation 7%, rural LPG 95.3%, AP semiconductor SEZ, paddy sowing; TT Prince/Princess of Wales; Hans HYDRAA lakes, Guntur no sugar, Nellore Dy Mayor; The Hindu heart valve, Kadapa start-up award; Eenadu-only items (Hyderabad auto bandh 30th, organ donation, Matsyagiri). District searches: Nalgonda, Warangal/Karimnagar/Khammam, Visakhapatnam/Srikakulam/Vizianagaram returned only tag/old pages."
+  },
+  {
+   "window": "2026-11-16T06:35:00+05:30/2026-11-16T07:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 15,
+   "published": 12,
+   "late": 0,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "07:05 run started 07:06 IST; lookback from 22:35 Nov 15. Feeds fresh (06:42, 70/70 ok). add_repo not available; existing clone used, push worked. Published: V6 statewide Pillala Prajavani (06:54), ETV CM/Uttam Chhattisgarh barrage NOC (06:48, claim), AJ transgender committee meet Hyd (06:43), AJ Tolichowki hotel fire (06:40), DC TG RERA ₹38 lakh refund (00:48), AJ Tirumala Pushpayagam (06:51), AJ Rajahmundry Karthika crowds (06:40), DC AP Newborn Care Week (23:04), DC Bapatla burglary gang (22:47), DC Kurnool ex-MP plot claim (01:00, claim), ETV Modi Manila ASEAN (06:41), AJ Sabarimala opens (06:13). Duplicates: Vikarabad car-auto crash (Bomraspet published Nov 15), DC fake-CBI kidnap Madanapalle, DC Naidu cyclone Murasu aid. Not opened/not surfaced by search: Hans graduates MLC 12.69 lakh, TOI Adilabad airport streams, TOI 4-district yellow alert, Hans HYDRAA 2 lakes, DC Karthika tour, DC 10,500 ULB nominations, Hans Dokiparru, Hans Karimnagar farm credit, DC Tirumala cold, TOI industrial support; DC KTR remark/Sadar/Chaya fetch blocked (permission timeout). No separate district searches this run."
   }
  ],
  "seen": [
@@ -4586,6 +4586,51 @@
   },
   {
    "url": "https://telanganatoday.com/nalgonda-nine-airtel-employees-arrested-for-stealing-rs-1-62-crore-worth-of-tower-equipment",
+   "d": "2026-11-16",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.v6velugu.com/%C2%A0pillala-prajavani-today-across-telangana-at-all-33-collectorates",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/tg-rera-orders-builder-to-refund-rs-38-lakh-2004749",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-launches-campaign-to-protect-newborns-health-2004698",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://deccanchronicle.com/southern-states/andhra-pradesh/four-member-inter-district-burglary-gang-busted-in-48-hours-2004693",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/former-mps-plot-allegedly-encroached-upon-2004752",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-16th-november-2026-3715.html",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--16th-november-2026-latest-top-news-information-across-telangana-tgs26111600447",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/rangareddy/tragic-road-accident-in-vikarabad-bomraspet-mandal-two-dead-and-four-seriously-injured-vk-1576503.html",
+   "d": "2026-11-16",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://deccanchronicle.com/southern-states/andhra-pradesh/6-arrested-for-kidnapping-businessman-posing-as-cbi-officers-2004686",
    "d": "2026-11-16",
    "w": "duplicate"
   }
