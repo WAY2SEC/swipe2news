@@ -1,8 +1,814 @@
 {
  "date": "16.11.2026",
  "iso": "2026-11-16",
- "count": 145,
+ "count": 160,
  "stories": [
+  {
+   "cat": "ఏపీ · వాతావరణం",
+   "col": "--c-water",
+   "art": "rain",
+   "stat": "నవంబర్ 20న",
+   "statl": "తీరం దాటే అవకాశం",
+   "h": "అక్వాన్ తుపానుపై సీఎం చంద్రబాబు సమీక్ష",
+   "p": "అక్వాన్ తుపాను నవంబర్ 20న ఏపీ తీరం దాటే అవకాశం ఉన్న నేపథ్యంలో సీఎం చంద్రబాబు నాయుడు అమరావతి సచివాలయంలోని ఆర్టీజీఎస్ కేంద్రం నుంచి పరిస్థితిని సమీక్షించారు. ఎన్డీఆర్ఎఫ్, ఎస్డీఆర్ఎఫ్ బృందాలను ముందుగానే మోహరించాలని ఆదేశించారు. విద్యుత్ సిబ్బందిని సిద్ధంగా ఉంచాలని, వరద నీటిని జలాశయాలకు మళ్లించాలని సూచించారు. మత్స్యకారులు సముద్రంలోకి వెళ్లవద్దని అధికారులు హెచ్చరించారు.",
+   "pts": [
+    "కోనసీమ, కాకినాడ, ఉభయ గోదావరి జిల్లాలపై దృష్టి",
+    "తీరం దాటే చోటు ఇంకా ఖరారు కాలేదు",
+    "నెల రోజుల్లో ఇది మూడో తుపాను"
+   ],
+   "why": "కోస్తా జిల్లాల ప్రజలు, మత్స్యకారులు, రైతులు ముందు జాగ్రత్తలు తీసుకోవాల్సిన సమయం.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/naidu-directs-officials-to-take-precautionary-measures-as-cyclone-akvan-likely-to-hit-coastal-andhra-on-nov-20-2004855",
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-16T15:39+05:30",
+   "lbl": "forecast",
+   "en": {
+    "cat": "AP · Weather",
+    "h": "Naidu reviews Cyclone Akvan preparedness",
+    "stat": "November 20",
+    "statl": "Likely landfall date",
+    "loc": "Amaravati",
+    "p": "With Cyclone Akvan likely to cross the Andhra Pradesh coast on November 20, Chief Minister N. Chandrababu Naidu reviewed preparations from the RTGS centre in the Amaravati Secretariat. He ordered NDRF and SDRF teams to be deployed in advance, power crews kept on standby and floodwater diverted into reservoirs. Officials warned fishermen not to go to sea.",
+    "pts": [
+     "Focus on Konaseema, Kakinada, Godavari districts",
+     "Exact landfall point not yet fixed",
+     "Third cyclone in about a month"
+    ],
+    "why": "Coastal residents, fishermen and farmers need to take precautions now."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · मौसम",
+    "h": "चक्रवात अक्वान: नायडू ने तैयारियां परखीं",
+    "stat": "20 नवंबर",
+    "statl": "तट पार करने की संभावित तारीख",
+    "loc": "अमरावती",
+    "p": "चक्रवात अक्वान के 20 नवंबर को आंध्र प्रदेश तट पार करने की संभावना के बीच मुख्यमंत्री एन. चंद्रबाबू नायडू ने अमरावती सचिवालय के आरटीजीएस केंद्र से तैयारियों की समीक्षा की। उन्होंने एनडीआरएफ और एसडीआरएफ टीमों को पहले से तैनात करने, बिजली कर्मियों को तैयार रखने और बाढ़ का पानी जलाशयों में मोड़ने के निर्देश दिए। मछुआरों को समुद्र में न जाने की चेतावनी दी गई।",
+    "pts": [
+     "कोनसीमा, काकीनाडा, गोदावरी जिलों पर ध्यान",
+     "तट पार करने का स्थान तय नहीं",
+     "करीब एक महीने में तीसरा चक्रवात"
+    ],
+    "why": "तटीय लोगों, मछुआरों और किसानों को अभी सावधानी बरतनी है।"
+   },
+   "d": "16.11.2026",
+   "t": "16:35",
+   "local": true
+  },
+  {
+   "cat": "తెలంగాణ · విమానాశ్రయం",
+   "col": "--c-gov",
+   "art": "water",
+   "stat": "₹324 కోట్లు",
+   "statl": "వాగుల మళ్లింపు పనులకు",
+   "h": "ఆదిలాబాద్ ఎయిర్‌పోర్టుకు వాగుల మళ్లింపు",
+   "p": "ఆదిలాబాద్‌లో ప్రతిపాదిత విమానాశ్రయ స్థలం గుండా ప్రవహించే వాగులను మళ్లించేందుకు నీటిపారుదల శాఖ సుమారు ₹324 కోట్లతో ప్రణాళిక సిద్ధం చేసింది. భారీ వర్షాల సమయంలో స్థలం మునగకుండా కాలువలు తవ్వి వాగుల నీటిని సాత్నాల వైపు మళ్లిస్తారు. పనులకు టెండర్లు ఆహ్వానించారు. రక్షణ, పౌర విమానాలు రెండింటికీ ఈ విమానాశ్రయం ఉపయోగపడుతుంది.",
+   "pts": [
+    "2.67 కిలోమీటర్లు, 4.5 కిలోమీటర్ల రెండు కాలువలు",
+    "1,500 ఎకరాల్లో విమానాశ్రయం, వాయుసేన స్థావరం"
+   ],
+   "why": "ఆదిలాబాద్ జిల్లాకు విమాన సౌకర్యం, అభివృద్ధి అవకాశాలకు సంబంధించిన పని.",
+   "src": "Siasat Daily",
+   "url": "https://www.siasat.com/telangana-to-divert-streams-at-rs-324-cr-for-adilabad-airport-3578522/",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "TG",
+   "place": "adilabad",
+   "loc": "",
+   "pub": "2026-11-16T15:28+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Airport",
+    "h": "Streams to be diverted for Adilabad airport",
+    "stat": "₹324 crore",
+    "statl": "For stream diversion works",
+    "loc": "Adilabad",
+    "p": "Telangana's Irrigation Department has drawn up plans worth about ₹324 crore to divert streams that cross the proposed Adilabad airport site. New canals will carry the water towards the Satnala stream so the site does not flood in heavy rain. Tenders have been invited. The airport is planned for both defence and civil flights.",
+    "pts": [
+     "Two canals of 2.67 km and 4.5 km",
+     "Airport and Air Force base on 1,500 acres"
+    ],
+    "why": "Matters to Adilabad district's air connectivity and development."
+   },
+   "hi": {
+    "cat": "तेलंगाना · हवाई अड्डा",
+    "h": "आदिलाबाद हवाई अड्डे के लिए नाले मोड़े जाएंगे",
+    "stat": "₹324 करोड़",
+    "statl": "नाले मोड़ने के कामों के लिए",
+    "loc": "आदिलाबाद",
+    "p": "तेलंगाना के सिंचाई विभाग ने प्रस्तावित आदिलाबाद हवाई अड्डे की जमीन से गुजरने वाले नालों को मोड़ने के लिए करीब ₹324 करोड़ की योजना बनाई है। नई नहरें पानी को सातनाला नाले की ओर ले जाएंगी ताकि भारी बारिश में जमीन न डूबे। टेंडर मांगे गए हैं। हवाई अड्डा रक्षा और नागरिक दोनों उड़ानों के लिए होगा।",
+    "pts": [
+     "2.67 किमी और 4.5 किमी की दो नहरें",
+     "1,500 एकड़ में हवाई अड्डा और वायुसेना अड्डा"
+    ],
+    "why": "आदिलाबाद जिले की हवाई कनेक्टिविटी और विकास से जुड़ा।"
+   },
+   "d": "16.11.2026",
+   "t": "16:35",
+   "local": true
+  },
+  {
+   "cat": "తెలంగాణ · పోలీసు",
+   "col": "--c-gov",
+   "art": "unity",
+   "stat": "మహిళా భద్రతా విభాగం",
+   "statl": "కొత్త డీజీపీ బాధ్యతలు",
+   "h": "మహిళా భద్రత డీజీపీగా సౌమ్య మిశ్రా",
+   "p": "తెలంగాణ పోలీసు మహిళా భద్రతా విభాగం డైరెక్టర్ జనరల్‌గా 1994 బ్యాచ్ ఐపీఎస్ అధికారి డాక్టర్ సౌమ్య మిశ్రా సోమవారం బాధ్యతలు స్వీకరించారు. హైదరాబాద్ లక్డీకాపూల్‌లో చారు సిన్హా నుంచి ఆమె బాధ్యతలు తీసుకున్నారు. మహిళలు, పిల్లల రక్షణ కోసం ఇప్పటికే ఉన్న కార్యక్రమాలను బలోపేతం చేసి, ప్రజల్లో అవగాహన పెంచుతామని ఆమె తెలిపారు.",
+   "pts": [
+    "అవగాహన, లింగ సమానత్వ కార్యక్రమాలపై దృష్టి",
+    "కొత్త పథకాలు ఇంకా ప్రకటించలేదు"
+   ],
+   "why": "తెలంగాణలో మహిళలు, పిల్లల భద్రతకు సంబంధించిన పోలీసు విభాగానికి కొత్త నాయకత్వం.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/soumya-mishra-assumes-charge-as-dgp-women-safety-wing-2004849",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "లక్డీకాపూల్",
+   "pub": "2026-11-16T15:26+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Police",
+    "h": "Soumya Mishra takes charge of Women Safety Wing",
+    "stat": "Women Safety Wing",
+    "statl": "New DGP takes charge",
+    "loc": "Lakdikapul, Hyderabad",
+    "p": "Dr Soumya Mishra, a 1994-batch IPS officer, took charge on Monday as Director General of Police of the Telangana Women Safety Wing at Lakdikapul, Hyderabad. She took over from Charu Sinha. She said she would strengthen existing programmes for the safety of women and children and widen public outreach.",
+    "pts": [
+     "Focus on awareness and gender sensitisation",
+     "No new programmes announced yet"
+    ],
+    "why": "New leadership for the police wing handling women's and children's safety in Telangana."
+   },
+   "hi": {
+    "cat": "तेलंगाना · पुलिस",
+    "h": "सौम्या मिश्रा ने महिला सुरक्षा विंग संभाली",
+    "stat": "महिला सुरक्षा विंग",
+    "statl": "नई डीजीपी ने कार्यभार संभाला",
+    "loc": "लकड़ीकापुल, हैदराबाद",
+    "p": "1994 बैच की आईपीएस अधिकारी डॉ. सौम्या मिश्रा ने सोमवार को हैदराबाद के लकड़ीकापुल में तेलंगाना पुलिस महिला सुरक्षा विंग की महानिदेशक का कार्यभार संभाला। उन्होंने चारु सिन्हा से जिम्मेदारी ली। उन्होंने कहा कि महिलाओं और बच्चों की सुरक्षा के मौजूदा कार्यक्रमों को मजबूत करेंगी और जनसंपर्क बढ़ाएंगी।",
+    "pts": [
+     "जागरूकता और लैंगिक संवेदनशीलता पर जोर",
+     "कोई नया कार्यक्रम अभी घोषित नहीं"
+    ],
+    "why": "तेलंगाना में महिलाओं और बच्चों की सुरक्षा देखने वाली विंग को नया नेतृत्व।"
+   },
+   "d": "16.11.2026",
+   "t": "16:35",
+   "local": true
+  },
+  {
+   "cat": "ఏపీ · ఆరోగ్యం",
+   "col": "--c-gov",
+   "art": "campus",
+   "stat": "4,436 మంది పిల్లలకు",
+   "statl": "చర్మ వ్యాధులు",
+   "h": "ఏపీ హాస్టల్ పిల్లలకు చర్మ వ్యాధులు",
+   "p": "వరుస తుపానుల తర్వాత ఆంధ్రప్రదేశ్‌లోని 2,148 ప్రభుత్వ సంక్షేమ వసతి గృహాల్లో వైద్య బృందాలు నవంబర్ 1 నుంచి 13 వరకు పిల్లలకు ఆరోగ్య పరీక్షలు చేశాయి. 4,436 మందికి చర్మ వ్యాధులు, 3,218 మందికి రక్తహీనత ఉన్నట్లు గుర్తించారు. ఈ నివేదికను ఆరోగ్య మంత్రి సత్యకుమార్ యాదవ్‌కు అందజేశారు. పీహెచ్‌సీ వైద్యులు చికిత్స అందిస్తున్నారు.",
+   "pts": [
+    "442 హాస్టళ్లలో పారిశుద్ధ్యం మెరుగుపడాలి",
+    "14 హాస్టళ్లలో మరుగుదొడ్లు లేవు లేదా మరమ్మతు అవసరం",
+    "డెంగీ కేసులు కనిపించలేదు"
+   ],
+   "why": "సంక్షేమ వసతి గృహాల్లో ఉండే పిల్లలు, వారి తల్లిదండ్రులకు ముఖ్యమైన సమాచారం.",
+   "src": "The South First",
+   "url": "https://thesouthfirst.com/andhrapradesh/cyclones-prompt-health-screening-in-andhra-pradesh-hostels-4436-children-found-with-skin-diseases/",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-16T15:52+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Health",
+    "h": "4,436 AP hostel children have skin disease",
+    "stat": "4,436 children",
+    "statl": "Found with skin diseases",
+    "loc": "",
+    "p": "After back-to-back cyclones, medical teams screened children in 2,148 Andhra Pradesh government welfare hostels from November 1 to 13. They found 4,436 children with skin diseases and 3,218 with anaemia. The report was submitted to Health Minister Satyakumar Yadav. Primary health centre doctors are treating the children.",
+    "pts": [
+     "Sanitation needs improvement in 442 hostels",
+     "14 hostels lack toilets or need repairs",
+     "No dengue cases found"
+    ],
+    "why": "Important for children in welfare hostels and their parents."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · स्वास्थ्य",
+    "h": "आंध्र के छात्रावासों में 4,436 बच्चों को त्वचा रोग",
+    "stat": "4,436 बच्चे",
+    "statl": "त्वचा रोग से पीड़ित",
+    "loc": "",
+    "p": "लगातार चक्रवातों के बाद मेडिकल टीमों ने 1 से 13 नवंबर तक आंध्र प्रदेश के 2,148 सरकारी कल्याण छात्रावासों में बच्चों की जांच की। 4,436 बच्चों में त्वचा रोग और 3,218 में खून की कमी पाई गई। रिपोर्ट स्वास्थ्य मंत्री सत्यकुमार यादव को सौंपी गई। प्राथमिक स्वास्थ्य केंद्र के डॉक्टर बच्चों का इलाज कर रहे हैं।",
+    "pts": [
+     "442 छात्रावासों में सफाई सुधारनी होगी",
+     "14 छात्रावासों में शौचालय नहीं या मरम्मत जरूरी",
+     "डेंगू का कोई मामला नहीं"
+    ],
+    "why": "कल्याण छात्रावासों में रहने वाले बच्चों और उनके माता-पिता के लिए अहम।"
+   },
+   "d": "16.11.2026",
+   "t": "16:35",
+   "local": true
+  },
+  {
+   "cat": "హైదరాబాద్ · పర్యావరణం",
+   "col": "--c-city",
+   "art": "water",
+   "stat": "200కు పైగా చెట్లు",
+   "statl": "చెరువు విస్తరణతో ప్రభావితం",
+   "h": "కృష్ణకాంత్ పార్కులో చెట్ల నరికివేత",
+   "p": "హైదరాబాద్ యూసుఫ్‌గూడలోని కృష్ణకాంత్ పార్కులో చెరువును 3 ఎకరాల నుంచి 12 ఎకరాలకు విస్తరించేందుకు హైడ్రా ₹7.5 కోట్ల పనులు చేపట్టింది. దీంతో 30 చెట్లను నరికేశారు, మరో 170 చెట్లను వేరే చోటుకు తరలించనున్నారు. అనుమతులు తీసుకున్నామని జీహెచ్‌ఎంసీ వర్గాలు చెబుతున్నాయి. పచ్చదనం ఒక్కసారిగా కనుమరుగైందని వాకర్లు, పర్యావరణ కార్యకర్తలు ఆవేదన వ్యక్తం చేస్తున్నారు.",
+   "pts": [
+    "తరలించే చెట్లను సున్నం చెరువు వద్ద నాటుతారు",
+    "వాకింగ్ ట్రాక్, ఓపెన్ జిమ్, బోటింగ్ ఏర్పాటు"
+   ],
+   "why": "పార్కును వాడే స్థానికులు, నగర పచ్చదనంపై ఆసక్తి ఉన్నవారికి సంబంధించిన అంశం.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/krishna-kanth-park-loses-green-cover-for-lake-beautification",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "యూసుఫ్‌గూడ",
+   "pub": "2026-11-16T15:45+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Environment",
+    "h": "Tree loss at Krishna Kanth Park angers walkers",
+    "stat": "Over 200 trees",
+    "statl": "Hit by lake expansion",
+    "loc": "Yousufguda, Hyderabad",
+    "p": "HYDRAA has begun a ₹7.5 crore project to expand the lake at Krishna Kanth Park in Yousufguda, Hyderabad, from 3 to 12 acres. Thirty trees have been cut and 170 more are to be translocated. GHMC sources say permissions were taken. Morning walkers and environmental activists say the green cover vanished almost overnight.",
+    "pts": [
+     "Translocated trees to go near Sunnam Cheruvu",
+     "Walkway, open gym and boating planned"
+    ],
+    "why": "Concerns local park users and anyone who cares about the city's green cover."
+   },
+   "hi": {
+    "cat": "हैदराबाद · पर्यावरण",
+    "h": "कृष्णकांत पार्क में पेड़ हटाने पर नाराजगी",
+    "stat": "200 से अधिक पेड़",
+    "statl": "झील विस्तार से प्रभावित",
+    "loc": "यूसुफगुडा, हैदराबाद",
+    "p": "हाइड्रा ने हैदराबाद के यूसुफगुडा स्थित कृष्णकांत पार्क की झील को 3 से 12 एकड़ तक बढ़ाने का ₹7.5 करोड़ का काम शुरू किया है। 30 पेड़ काटे गए हैं और 170 और पेड़ दूसरी जगह लगाए जाएंगे। जीएचएमसी सूत्रों के अनुसार अनुमति ली गई थी। सुबह टहलने वालों और पर्यावरण कार्यकर्ताओं का कहना है कि हरियाली रातोंरात गायब हो गई।",
+    "pts": [
+     "स्थानांतरित पेड़ सुन्नम चेरुवु के पास लगेंगे",
+     "वॉकवे, ओपन जिम और बोटिंग की योजना"
+    ],
+    "why": "पार्क इस्तेमाल करने वालों और शहर की हरियाली की फिक्र करने वालों से जुड़ा।"
+   },
+   "d": "16.11.2026",
+   "t": "16:35",
+   "local": true
+  },
+  {
+   "cat": "మేడ్చల్ · భద్రత",
+   "col": "--c-city",
+   "art": "unity",
+   "stat": "ఏడాదిలో 8 చోరీలు",
+   "statl": "స్థానికుల కథనం ప్రకారం",
+   "h": "పర్వతాపూర్‌లో ముసుగు దొంగల భయం",
+   "p": "మేడ్చల్ జిల్లా పర్వతాపూర్‌లోని బీపీఎం గ్రీన్‌ల్యాండ్ కాలనీలో అర్ధరాత్రి నుంచి తెల్లవారుజాము వరకు ముసుగులు ధరించిన ముఠా తిరుగుతోందని స్థానికులు చెబుతున్నారు. ఏడాదిలో 8 చోరీలు జరిగాయని, అందులో 4 గత రెండు నెలల్లోనే జరిగాయని వారి ఆరోపణ. అనుమానితుల కదలికలు సీసీ కెమెరాల్లో కనిపించాయి. రాత్రి గస్తీ పెంచాలని కాలనీవాసులు కోరుతున్నారు.",
+   "pts": [
+    "చోరీ జరగలేదని మరో పత్రిక కథనం",
+    "పోలీసుల స్పందన ఇంకా రాలేదు"
+   ],
+   "why": "మేడ్చల్ జిల్లా కాలనీల్లో నివసించే కుటుంబాల భద్రతకు సంబంధించిన అంశం.",
+   "src": "Andhra Jyothy",
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/medchal-masked-thieves-greenland-colony-thefts-suchi-1576837.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "medchal",
+   "loc": "పర్వతాపూర్",
+   "pub": "2026-11-16T15:13+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Medchal · Safety",
+    "h": "Masked gang scare in Parvathapur colony",
+    "stat": "8 thefts in a year",
+    "statl": "According to residents",
+    "loc": "Parvathapur, Medchal",
+    "p": "Residents of BPM Greenland Colony in Parvathapur, Medchal district, say a masked gang roams the area from midnight to early morning. They allege eight thefts in a year, four of them in the last two months. CCTV cameras recorded suspicious movements. Residents want more night patrols.",
+    "pts": [
+     "Another paper reported no theft so far",
+     "No police response yet"
+    ],
+    "why": "Concerns the safety of families living in Medchal district colonies."
+   },
+   "hi": {
+    "cat": "मेडचल · सुरक्षा",
+    "h": "पर्वतापुर कॉलोनी में नकाबपोश गिरोह का डर",
+    "stat": "एक साल में 8 चोरियां",
+    "statl": "निवासियों के अनुसार",
+    "loc": "पर्वतापुर, मेडचल",
+    "p": "मेडचल जिले के पर्वतापुर स्थित बीपीएम ग्रीनलैंड कॉलोनी के निवासियों का कहना है कि आधी रात से तड़के तक नकाबपोश गिरोह घूमता है। उनका आरोप है कि एक साल में आठ चोरियां हुईं, जिनमें चार पिछले दो महीनों में। सीसीटीवी में संदिग्ध हलचल दर्ज हुई। निवासी रात की गश्त बढ़ाने की मांग कर रहे हैं।",
+    "pts": [
+     "एक अन्य अखबार के अनुसार अभी चोरी नहीं हुई",
+     "पुलिस का जवाब अभी नहीं"
+    ],
+    "why": "मेडचल जिले की कॉलोनियों में रहने वाले परिवारों की सुरक्षा से जुड़ा।"
+   },
+   "d": "16.11.2026",
+   "t": "16:35",
+   "local": true
+  },
+  {
+   "cat": "మహబూబాబాద్ · రోడ్లు",
+   "col": "--c-election",
+   "art": "land",
+   "stat": "బయ్యారం రోడ్డు",
+   "statl": "నిధుల కోసం బీఆర్ఎస్ ధర్నా",
+   "h": "గౌరారం రోడ్డు కోసం బీఆర్ఎస్ ధర్నా",
+   "p": "మహబూబాబాద్ జిల్లా బయ్యారం మండలంలో చోక్లా తండా నుంచి గురిమళ్ల వరకు బీటీ రోడ్డు పనులు నిలిచిపోయాయని బీఆర్ఎస్ నాయకులు గౌరారం వద్ద ధర్నా చేశారు. గత ప్రభుత్వం మంజూరు చేసిన నిధులను కాంగ్రెస్ ప్రభుత్వం రద్దు చేసిందని వారు ఆరోపించారు. గర్భిణులు, విద్యార్థులు ఇబ్బంది పడుతున్నారని, వెంటనే నిధులు ఇవ్వాలని డిమాండ్ చేశారు.",
+   "pts": [
+    "సమస్య పరిష్కరించకపోతే ఆందోళన తీవ్రం చేస్తామని హెచ్చరిక",
+    "ప్రభుత్వ స్పందన ఇంకా లేదు"
+   ],
+   "why": "బయ్యారం మండల గ్రామాల ప్రజల రాకపోకలకు సంబంధించిన సమస్య.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/warangal/mahabubabad-brs-stages-protest-demanding-gauraram-road-213572",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "mahabubabad",
+   "loc": "గౌరారం, బయ్యారం",
+   "pub": "2026-11-16T15:46+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Mahabubabad · Roads",
+    "h": "BRS dharna for Gauraram road in Bayyaram",
+    "stat": "Bayyaram road",
+    "statl": "BRS dharna for funds",
+    "loc": "Gauraram, Bayyaram",
+    "p": "BRS leaders staged a dharna at Gauraram in Bayyaram mandal, Mahabubabad district, saying work on the BT road from Chokla Thanda to Gurimalla has stalled. They allege the Congress government cancelled funds sanctioned under the previous government. They say pregnant women and students are suffering and demanded immediate funds.",
+    "pts": [
+     "Warned of bigger protest if ignored",
+     "No government response yet"
+    ],
+    "why": "Affects villagers in Bayyaram mandal who depend on this road."
+   },
+   "hi": {
+    "cat": "महबूबाबाद · सड़क",
+    "h": "बय्यारम में गौरारम सड़क के लिए बीआरएस धरना",
+    "stat": "बय्यारम सड़क",
+    "statl": "फंड के लिए बीआरएस धरना",
+    "loc": "गौरारम, बय्यारम",
+    "p": "बीआरएस नेताओं ने महबूबाबाद जिले के बय्यारम मंडल के गौरारम में धरना दिया और कहा कि चोकला तांडा से गुरिमल्ला तक बीटी सड़क का काम रुका है। उनका आरोप है कि कांग्रेस सरकार ने पिछली सरकार के मंजूर फंड रद्द कर दिए। उन्होंने कहा कि गर्भवती महिलाएं और छात्र परेशान हैं और तुरंत फंड की मांग की।",
+    "pts": [
+     "अनदेखी पर बड़े आंदोलन की चेतावनी",
+     "सरकार का जवाब अभी नहीं"
+    ],
+    "why": "इस सड़क पर निर्भर बय्यारम मंडल के गांव वालों से जुड़ा।"
+   },
+   "d": "16.11.2026",
+   "t": "16:35",
+   "local": true
+  },
+  {
+   "cat": "జనగామ · విద్య",
+   "col": "--c-gov",
+   "art": "campus",
+   "stat": "2 గురుకులాలు",
+   "statl": "మండలం బయట నడుస్తున్నాయి",
+   "h": "బచ్చన్నపేట గురుకులాలకు భూమి కోసం వినతి",
+   "p": "జనగామ జిల్లా బచ్చన్నపేట మండలానికి 2018లో బాలురు, బాలికల కోసం రెండు ఎంజేపీ బీసీ గురుకుల పాఠశాలలు మంజూరయ్యాయి. మండల కేంద్రంలో ప్రభుత్వ భవనాలు లేక వాటిని జనగామ, పెంబర్తికి తరలించారు. మండల కేంద్రంలో ప్రభుత్వ భూమి కేటాయించి శాశ్వత భవనాలు నిర్మించాలని క్లీన్ ఫ్యూచర్ సొసైటీ వ్యవస్థాపకుడు మహేందర్ ప్రజావాణిలో వినతిపత్రం అందజేశారు.",
+   "pts": [
+    "బాలుర గురుకులం జనగామలో, బాలికలది పెంబర్తిలో",
+    "అధికారుల స్పందన ఇంకా రాలేదు"
+   ],
+   "why": "బచ్చన్నపేట మండల పేద విద్యార్థులు, వారి కుటుంబాలకు సంబంధించిన విషయం.",
+   "src": "Namasthe Telangana",
+   "url": "https://www.ntnews.com/warangal-rural/warangal-city/mahender-requested-that-government-lands-be-allocated-for-the-permanent-establishment-of-the-gurukulalu-2561673",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "jangaon",
+   "loc": "బచ్చన్నపేట",
+   "pub": "2026-11-16T14:37+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Jangaon · Education",
+    "h": "Plea for Gurukul land in Bachannapet",
+    "stat": "2 Gurukul schools",
+    "statl": "Running outside the mandal",
+    "loc": "Bachannapet, Jangaon",
+    "p": "Two MJP BC Gurukul schools, for boys and girls, were sanctioned for Bachannapet mandal in Jangaon district in 2018. With no government buildings at the mandal centre, they were moved to Jangaon and Pembarthi. Mahender, founder of Clean Future Society, petitioned the grievance forum to allot government land there for permanent buildings.",
+    "pts": [
+     "Boys' school in Jangaon, girls' in Pembarthi",
+     "No official response yet"
+    ],
+    "why": "Matters to poor students and families in Bachannapet mandal."
+   },
+   "hi": {
+    "cat": "जनगांव · शिक्षा",
+    "h": "बच्चन्नापेट में गुरुकुलों के लिए जमीन की मांग",
+    "stat": "2 गुरुकुल स्कूल",
+    "statl": "मंडल के बाहर चल रहे",
+    "loc": "बच्चन्नापेट, जनगांव",
+    "p": "जनगांव जिले के बच्चन्नापेट मंडल के लिए 2018 में लड़कों और लड़कियों के दो एमजेपी बीसी गुरुकुल स्कूल मंजूर हुए थे। मंडल केंद्र में सरकारी भवन न होने से उन्हें जनगांव और पेंबर्ती ले जाया गया। क्लीन फ्यूचर सोसाइटी के संस्थापक महेंदर ने शिकायत मंच में वहीं सरकारी जमीन देकर स्थायी भवन बनाने की मांग की।",
+    "pts": [
+     "लड़कों का स्कूल जनगांव, लड़कियों का पेंबर्ती में",
+     "अधिकारियों का जवाब अभी नहीं"
+    ],
+    "why": "बच्चन्नापेट मंडल के गरीब छात्रों और परिवारों से जुड़ा।"
+   },
+   "d": "16.11.2026",
+   "t": "16:35",
+   "local": true
+  },
+  {
+   "cat": "వరంగల్ · పింఛన్లు",
+   "col": "--c-money",
+   "art": "economy",
+   "stat": "బుధవారం",
+   "statl": "కొత్త చేయూత పింఛన్ల పత్రాల పంపిణీ",
+   "h": "గీసుగొండలో చేయూత పింఛన్ల సభ",
+   "p": "వరంగల్ జిల్లా సంగెం, గీసుగొండ మండలాల కొత్త చేయూత పింఛనుదారులకు మంత్రి సీతక్క బుధవారం మంజూరు పత్రాలు అందజేయనున్నారు. స్టేషన్ చింతలపల్లి సమీపంలోని కాకతీయ మెగా టెక్స్‌టైల్ పార్కు వద్ద ఈ కార్యక్రమం జరుగుతుంది. పరకాల ఎమ్మెల్యే రేవూరి ప్రకాశ్ రెడ్డి, కలెక్టర్ సత్య శారద సోమవారం ఏర్పాట్లను పరిశీలించారు.",
+   "pts": [
+    "తాగునీరు, పార్కింగ్, ట్రాఫిక్ ఏర్పాట్లకు ఆదేశాలు",
+    "లబ్ధిదారుల సంఖ్య ఇంకా వెల్లడించలేదు"
+   ],
+   "why": "సంగెం, గీసుగొండ మండలాల కొత్త పింఛనుదారులు తెలుసుకోవాల్సిన సమాచారం.",
+   "src": "Disha Daily",
+   "url": "https://www.dishadaily.com/telangana/warangal/everything-is-set-for-the-distribution-of-cheyutha-pensions-601346",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "warangal",
+   "loc": "గీసుగొండ, సంగెం",
+   "pub": "2026-11-16T10:51+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Warangal · Pensions",
+    "h": "Geesugonda set for Cheyutha pension event",
+    "stat": "Wednesday",
+    "statl": "New Cheyutha pension letters handed out",
+    "loc": "Geesugonda, Sangem",
+    "p": "Minister Seethakka will hand sanction letters to new Cheyutha pensioners from Sangem and Geesugonda mandals of Warangal district on Wednesday. The event will be held at the Kakatiya Mega Textile Park near Station Chintalapalli. Parkal MLA Revuri Prakash Reddy and Collector Satya Sharada inspected the arrangements on Monday.",
+    "pts": [
+     "Orders for drinking water, parking, traffic control",
+     "Beneficiary count not yet given"
+    ],
+    "why": "Useful for new pensioners in Sangem and Geesugonda mandals."
+   },
+   "hi": {
+    "cat": "वारंगल · पेंशन",
+    "h": "गीसुगोंडा में चेयूता पेंशन कार्यक्रम की तैयारी",
+    "stat": "बुधवार",
+    "statl": "नए चेयूता पेंशन पत्र बंटेंगे",
+    "loc": "गीसुगोंडा, संगेम",
+    "p": "मंत्री सीतक्का बुधवार को वारंगल जिले के संगेम और गीसुगोंडा मंडलों के नए चेयूता पेंशनधारकों को मंजूरी पत्र देंगी। कार्यक्रम स्टेशन चिंतलपल्ली के पास काकतीय मेगा टेक्सटाइल पार्क में होगा। परकाल विधायक रेवूरी प्रकाश रेड्डी और कलेक्टर सत्या शारदा ने सोमवार को तैयारियां देखीं।",
+    "pts": [
+     "पानी, पार्किंग, यातायात के निर्देश",
+     "लाभार्थियों की संख्या अभी नहीं बताई"
+    ],
+    "why": "संगेम और गीसुगोंडा मंडलों के नए पेंशनधारकों के लिए उपयोगी।"
+   },
+   "d": "16.11.2026",
+   "t": "16:35",
+   "local": true
+  },
+  {
+   "cat": "తెలంగాణ · ఉద్యోగులు",
+   "col": "--c-gov",
+   "art": "unity",
+   "stat": "41 రోజుల దీక్ష",
+   "statl": "ఉద్యోగులకు అనుమతి కోరుతూ లేఖ",
+   "h": "అయ్యప్ప దీక్షపై సీఎంకు రాజాసింగ్ లేఖ",
+   "p": "అయ్యప్ప దీక్ష చేపట్టే పోలీసులు, ప్రభుత్వ ఉద్యోగులు ఇబ్బంది లేకుండా 41 రోజుల దీక్ష పాటించేందుకు అనుమతించాలని గోషామహల్ ఎమ్మెల్యే రాజాసింగ్ సీఎం రేవంత్ రెడ్డికి లేఖ రాశారు. దీక్ష కాలమంతా సెలవు పెట్టాలని పోలీసులపై ఒత్తిడి ఉందని ఆయన ఆరోపించారు. అవసరమైన చోట విధుల సమయాలు సర్దుబాటు చేసేలా మార్గదర్శకాలు ఇవ్వాలని కోరారు.",
+   "pts": [
+    "డీజీపీ ద్వారా ఆదేశాలు ఇవ్వాలని విజ్ఞప్తి",
+    "ప్రభుత్వ స్పందన ఇంకా లేదు"
+   ],
+   "why": "అయ్యప్ప దీక్ష చేపట్టే పోలీసులు, ప్రభుత్వ ఉద్యోగులకు సంబంధించిన విషయం.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/raja-singh-seeks-equal-rights-for-ayyappa-devotees-2004828",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-16T13:59+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Employees",
+    "h": "Raja Singh writes to CM on Ayyappa deeksha",
+    "stat": "41-day deeksha",
+    "statl": "Letter seeks leave-free observance",
+    "loc": "",
+    "p": "Goshamahal MLA Raja Singh wrote to Chief Minister Revanth Reddy asking that police and government employees be allowed to observe the 41-day Ayyappa deeksha without harassment. He alleged police are being pressed to take leave for the whole period. He sought guidelines to adjust duty timings where possible.",
+    "pts": [
+     "Wants DGP to instruct all police units",
+     "No government response yet"
+    ],
+    "why": "Concerns police and government staff who observe the Ayyappa deeksha."
+   },
+   "hi": {
+    "cat": "तेलंगाना · कर्मचारी",
+    "h": "अय्यप्पा दीक्षा पर राजा सिंह का सीएम को पत्र",
+    "stat": "41 दिन की दीक्षा",
+    "statl": "बिना छुट्टी पालन की मांग",
+    "loc": "",
+    "p": "गोशामहल विधायक राजा सिंह ने मुख्यमंत्री रेवंत रेड्डी को पत्र लिखकर मांग की कि पुलिस और सरकारी कर्मचारियों को बिना परेशानी 41 दिन की अय्यप्पा दीक्षा रखने दी जाए। उनका आरोप है कि पुलिसकर्मियों पर पूरी अवधि की छुट्टी लेने का दबाव है। उन्होंने जहां संभव हो ड्यूटी समय बदलने के दिशानिर्देश मांगे।",
+    "pts": [
+     "डीजीपी से सभी इकाइयों को निर्देश देने की मांग",
+     "सरकार का जवाब अभी नहीं"
+    ],
+    "why": "अय्यप्पा दीक्षा रखने वाले पुलिस और सरकारी कर्मचारियों से जुड़ा।"
+   },
+   "d": "16.11.2026",
+   "t": "16:35",
+   "local": true
+  },
+  {
+   "cat": "ఏపీ · కడప",
+   "col": "--c-gov",
+   "art": "campus",
+   "stat": "విద్యార్థుల ఫిర్యాదు",
+   "statl": "ఉపాధ్యాయుడిపై వేధింపుల ఆరోపణ",
+   "h": "ప్రొద్దుటూరు టీచర్‌పై వేధింపుల ఆరోపణ",
+   "p": "వైఎస్ఆర్ కడప జిల్లా ప్రొద్దుటూరులోని ప్రభుత్వ బాలుర ఉన్నత పాఠశాలలో ఓ ఉపాధ్యాయుడు అసభ్యంగా ప్రవర్తించాడని విద్యార్థులు ఆరోపించారు. తల్లిదండ్రులు ప్రధానోపాధ్యాయుడికి ఫిర్యాదు చేశారు. కఠిన చర్యలు తీసుకోవాలని విద్యార్థి సంఘాల నాయకులు పాఠశాల వద్ద నిరసన తెలిపారు. విద్యార్థులను మందలించానని మాత్రమే ఉపాధ్యాయుడు చెబుతున్నారని ప్రధానోపాధ్యాయుడు తెలిపారు.",
+   "pts": [
+    "పోలీసు కేసు నమోదైనట్లు సమాచారం లేదు",
+    "ఉపాధ్యాయుడు సెలవుపై వెళ్లినట్లు కథనం"
+   ],
+   "why": "ప్రభుత్వ పాఠశాలల్లో పిల్లల భద్రతపై తల్లిదండ్రులు దృష్టి పెట్టాల్సిన విషయం.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/kadapa/proddatur-government-boys-high-school-teacher-harassment-allegations-213604",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "AP",
+   "place": "ap-kadapa",
+   "loc": "ప్రొద్దుటూరు",
+   "pub": "2026-11-16T16:21+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "AP · Kadapa",
+    "h": "Proddatur teacher accused of harassment",
+    "stat": "Students' complaint",
+    "statl": "Harassment alleged against teacher",
+    "loc": "Proddatur, Kadapa",
+    "p": "Students of a government boys' high school in Proddatur, YSR Kadapa district, have accused a teacher of misbehaving with them. Parents complained to the headmaster, and student union leaders protested at the school demanding strict action. According to the headmaster, the teacher says he only reprimanded the students.",
+    "pts": [
+     "No police case reported yet",
+     "Teacher reportedly went on leave"
+    ],
+    "why": "Raises child-safety concerns for parents of government school students."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · कडपा",
+    "h": "प्रोद्दुटूर में शिक्षक पर उत्पीड़न का आरोप",
+    "stat": "छात्रों की शिकायत",
+    "statl": "शिक्षक पर उत्पीड़न का आरोप",
+    "loc": "प्रोद्दुटूर, कडपा",
+    "p": "वाईएसआर कडपा जिले के प्रोद्दुटूर में एक सरकारी बालक हाई स्कूल के छात्रों ने एक शिक्षक पर दुर्व्यवहार का आरोप लगाया है। अभिभावकों ने प्रधानाध्यापक से शिकायत की और छात्र संगठनों ने स्कूल पर प्रदर्शन कर सख्त कार्रवाई मांगी। प्रधानाध्यापक के अनुसार शिक्षक का कहना है कि उसने केवल छात्रों को डांटा था।",
+    "pts": [
+     "अभी पुलिस केस की खबर नहीं",
+     "शिक्षक के छुट्टी पर जाने की खबर"
+    ],
+    "why": "सरकारी स्कूलों में बच्चों की सुरक्षा को लेकर अभिभावकों के लिए अहम।"
+   },
+   "d": "16.11.2026",
+   "t": "16:35",
+   "local": true
+  },
+  {
+   "cat": "మహబూబ్‌నగర్ · పోలీసు",
+   "col": "--c-gov",
+   "art": "court",
+   "stat": "ఒకరు మృతి",
+   "statl": "పోలీసు విచారణ సమయంలో",
+   "h": "జడ్చర్ల పోలీసు కస్టడీలో యువకుడి మృతి",
+   "p": "మహబూబ్‌నగర్ జిల్లా జడ్చర్లలో పోలీసు కస్టడీలో 28 ఏళ్ల యువకుడు మృతి చెందాడు. ఓ ప్రైవేట్ లాడ్జిలో అకౌంటెంట్‌గా పనిచేసిన అతను నగదు, ల్యాప్‌టాప్‌తో వెళ్లిపోయాడని యజమాని ఆదివారం ఆరోపించి పోలీసులకు అప్పగించారు. విచారణ సమయంలో అతనికి ఫిట్స్ వచ్చాయని, ఆసుపత్రికి తరలిస్తుండగా మృతి చెందాడని పోలీసులు తెలిపారు.",
+   "pts": [
+    "మృతుడు వరంగల్ జిల్లాకు చెందినవాడు",
+    "కుటుంబ సభ్యుల స్పందన ఇంకా రాలేదు"
+   ],
+   "why": "పోలీసు కస్టడీలో ఉన్నవారి భద్రతపై ప్రశ్నలు లేవనెత్తే ఘటన.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/mahabubnagar-28-year-old-man-dies-while-in-police-custody-in-jadcherla-town",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "mahabubnagar",
+   "loc": "జడ్చర్ల",
+   "pub": "2026-11-16T16:27+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Mahabubnagar · Police",
+    "h": "Man, 28, dies in Jadcherla police custody",
+    "stat": "One dead",
+    "statl": "During police questioning",
+    "loc": "Jadcherla, Mahabubnagar",
+    "p": "A 28-year-old man died in police custody in Jadcherla, Mahabubnagar district. He worked as an accountant at a private lodge, and on Sunday the owner accused him of leaving with cash and a laptop and handed him to police. Police say he had a seizure during questioning and died on the way to hospital.",
+    "pts": [
+     "He was a native of Warangal",
+     "No family response reported yet"
+    ],
+    "why": "Raises questions about the safety of people in police custody."
+   },
+   "hi": {
+    "cat": "महबूबनगर · पुलिस",
+    "h": "जडचर्ला पुलिस हिरासत में युवक की मौत",
+    "stat": "एक की मौत",
+    "statl": "पुलिस पूछताछ के दौरान",
+    "loc": "जडचर्ला, महबूबनगर",
+    "p": "महबूबनगर जिले के जडचर्ला में पुलिस हिरासत में 28 साल के एक युवक की मौत हो गई। वह एक निजी लॉज में अकाउंटेंट था और रविवार को मालिक ने उस पर नकदी और लैपटॉप लेकर जाने का आरोप लगाकर उसे पुलिस को सौंपा। पुलिस के अनुसार पूछताछ में उसे दौरा पड़ा और अस्पताल ले जाते समय उसकी मौत हो गई।",
+    "pts": [
+     "वह वारंगल का रहने वाला था",
+     "परिवार की प्रतिक्रिया अभी नहीं"
+    ],
+    "why": "पुलिस हिरासत में लोगों की सुरक्षा पर सवाल उठाने वाली घटना।"
+   },
+   "d": "16.11.2026",
+   "t": "16:35",
+   "local": true
+  },
+  {
+   "cat": "భారత్ · భద్రత",
+   "col": "--c-gov",
+   "art": "unity",
+   "stat": "ఇద్దరు ఉగ్రవాదులు",
+   "statl": "ఎన్‌కౌంటర్‌లో హతం",
+   "h": "కుల్గాంలో ఇద్దరు ఉగ్రవాదులు హతం",
+   "p": "జమ్మూకశ్మీర్‌లోని కుల్గాం జిల్లా లారూ ప్రాంతంలో భద్రతా దళాల ఎన్‌కౌంటర్‌లో ఇద్దరు లష్కరే తోయిబా ఉగ్రవాదులు హతమయ్యారు. వారిలో స్థానిక కమాండర్ మహమ్మద్ లతీఫ్ భట్ ఉన్నాడని జేకే డీజీపీ నళిన్ ప్రభాత్ ధ్రువీకరించారు. నవంబర్ 11న మీర్ బజార్ వద్ద సీఆర్పీఎఫ్ పోస్టుపై కాల్పుల వెనుక అతను ఉన్నాడని అనుమానిస్తున్నారు.",
+   "pts": [
+    "ఆ కాల్పుల్లో ముగ్గురు సీఆర్పీఎఫ్ జవాన్లకు గాయాలు",
+    "రెండో ఉగ్రవాది పేరు అధికారికంగా వెల్లడించలేదు"
+   ],
+   "why": "కశ్మీర్‌లో భద్రతా పరిస్థితిపై దేశవ్యాప్తంగా ఆసక్తి ఉన్న పరిణామం.",
+   "src": "NTV Telugu",
+   "url": "https://ntvtelugu.com/national-news/kulgam-encounter-lashkar-terrorist-latif-bhat-killed-in-kashmir-1035790.html",
+   "sec": [
+    "india"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-16T14:56+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Security",
+    "h": "Kulgam encounter: 2 LeT militants killed",
+    "stat": "Two militants",
+    "statl": "Killed in encounter",
+    "loc": "Laroo, Kulgam",
+    "p": "Two Lashkar-e-Taiba militants were killed in an encounter with security forces at Laroo in Jammu and Kashmir's Kulgam district. J&K DGP Nalin Prabhat confirmed that one of them was local commander Mohammad Latif Bhat. He is suspected of planning the November 11 firing on a CRPF post near Mir Bazar.",
+    "pts": [
+     "Three CRPF men were hurt in that firing",
+     "Second militant not officially named"
+    ],
+    "why": "A security development in Kashmir followed across the country."
+   },
+   "hi": {
+    "cat": "भारत · सुरक्षा",
+    "h": "कुलगाम मुठभेड़ में लश्कर के 2 आतंकी ढेर",
+    "stat": "दो आतंकी",
+    "statl": "मुठभेड़ में मारे गए",
+    "loc": "लारू, कुलगाम",
+    "p": "जम्मू-कश्मीर के कुलगाम जिले के लारू में सुरक्षा बलों के साथ मुठभेड़ में लश्कर-ए-तैयबा के दो आतंकी मारे गए। जेके डीजीपी नलिन प्रभात ने पुष्टि की कि इनमें स्थानीय कमांडर मोहम्मद लतीफ भट था। उस पर 11 नवंबर को मीर बाजार के पास सीआरपीएफ चौकी पर गोलीबारी की साजिश का संदेह है।",
+    "pts": [
+     "उस गोलीबारी में तीन सीआरपीएफ जवान घायल हुए थे",
+     "दूसरे आतंकी का नाम आधिकारिक रूप से नहीं"
+    ],
+    "why": "कश्मीर की सुरक्षा स्थिति से जुड़ा, जिस पर पूरे देश की नजर है।"
+   },
+   "d": "16.11.2026",
+   "t": "16:35"
+  },
+  {
+   "cat": "భారత్ · వాణిజ్యం",
+   "col": "--c-money",
+   "art": "economy",
+   "stat": "12 బిలియన్ డాలర్లు",
+   "statl": "భారత్–ఈజిప్ట్ వాణిజ్య లక్ష్యం",
+   "h": "భారత్–ఈజిప్ట్ వాణిజ్య ఒప్పందంపై చర్చలు",
+   "p": "భారత్, ఈజిప్ట్ మధ్య ప్రాధాన్య లేదా స్వేచ్ఛా వాణిజ్య ఒప్పందం దిశగా చర్చించాలని ఇరు దేశాలు అంగీకరించాయి. ఈజిప్ట్‌లో జరిగిన 7వ సంయుక్త వాణిజ్య కమిటీ సమావేశానికి కేంద్ర మంత్రి పీయూష్ గోయల్ సహ అధ్యక్షత వహించారు. ద్వైపాక్షిక వాణిజ్యాన్ని 12 బిలియన్ డాలర్లకు పెంచాలని లక్ష్యంగా పెట్టుకున్నారు. విధివిధానాల కోసం సంయుక్త కార్యవర్గం ఏర్పాటు చేస్తారు.",
+   "pts": [
+    "2025–26లో వాణిజ్యం 35% పెరిగి 6.5 బిలియన్ డాలర్లు",
+    "ఈజిప్ట్‌లో భారత పెట్టుబడులు 5.5 బిలియన్ డాలర్లకు పైగా"
+   ],
+   "why": "ఎగుమతిదారులు, వ్యాపార సంస్థలకు కొత్త మార్కెట్ అవకాశాలకు సంబంధించిన నిర్ణయం.",
+   "src": "DD News",
+   "url": "https://ddindia.co.in/2026/11/india-egypt-agree-to-explore-preferential-trade-pact-target-usd-12-billion-bilateral-trade/",
+   "sec": [
+    "india",
+    "business"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-16T14:55+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Trade",
+    "h": "India, Egypt to explore trade pact",
+    "stat": "$12 billion",
+    "statl": "India–Egypt trade target",
+    "loc": "",
+    "p": "India and Egypt agreed to explore a preferential or free trade agreement at the 7th Joint Trade Committee meeting in Egypt, co-chaired by Union Minister Piyush Goyal. The two sides set a target of $12 billion in bilateral trade. A Joint Working Group will draft the terms of reference.",
+    "pts": [
+     "Trade rose 35% to $6.5 billion in 2025–26",
+     "Indian investment in Egypt above $5.5 billion"
+    ],
+    "why": "Opens new market chances for Indian exporters and businesses."
+   },
+   "hi": {
+    "cat": "भारत · व्यापार",
+    "h": "भारत-मिस्र व्यापार समझौते पर बातचीत करेंगे",
+    "stat": "12 अरब डॉलर",
+    "statl": "भारत-मिस्र व्यापार लक्ष्य",
+    "loc": "",
+    "p": "भारत और मिस्र ने मिस्र में हुई 7वीं संयुक्त व्यापार समिति की बैठक में तरजीही या मुक्त व्यापार समझौते की संभावना तलाशने पर सहमति जताई। बैठक की सह-अध्यक्षता केंद्रीय मंत्री पीयूष गोयल ने की। द्विपक्षीय व्यापार का लक्ष्य 12 अरब डॉलर रखा गया। संयुक्त कार्य समूह शर्तों का मसौदा तैयार करेगा।",
+    "pts": [
+     "2025-26 में व्यापार 35% बढ़कर 6.5 अरब डॉलर",
+     "मिस्र में भारतीय निवेश 5.5 अरब डॉलर से अधिक"
+    ],
+    "why": "भारतीय निर्यातकों और कारोबारियों के लिए नए बाजार के मौके।"
+   },
+   "d": "16.11.2026",
+   "t": "16:35"
+  },
+  {
+   "cat": "భారత్ · మార్కెట్",
+   "col": "--c-money",
+   "art": "economy",
+   "stat": "₹93.92",
+   "statl": "డాలర్‌కు రూపాయి ముగింపు విలువ",
+   "h": "డాలర్‌తో 27 పైసలు బలపడిన రూపాయి",
+   "p": "వరుసగా రెండు రోజుల నష్టాల తర్వాత సోమవారం రూపాయి డాలర్‌తో 27 పైసలు బలపడి 93.92 వద్ద ముగిసింది. విదేశీ పెట్టుబడుల రాక, దేశీయ స్టాక్ మార్కెట్ల లాభాలు, ముడి చమురు ధర తగ్గడం దీనికి కారణమని ఫారెక్స్ వ్యాపారులు తెలిపారు. సెన్సెక్స్ 512 పాయింట్లు, నిఫ్టీ 146 పాయింట్లు పెరిగాయి.",
+   "pts": [
+    "బ్రెంట్ ముడి చమురు బ్యారెల్ 94.85 డాలర్లు",
+    "విదేశీ మారక నిల్వలు 719.5 బిలియన్ డాలర్లు"
+   ],
+   "why": "దిగుమతి ధరలు, విదేశీ చదువులు, ప్రయాణ ఖర్చులపై ప్రభావం చూపే అంశం.",
+   "src": "Telangana Today (PTI)",
+   "url": "https://telanganatoday.com/rupee-snaps-two-day-losing-streak-settles-at-93-92-against-dollar",
+   "sec": [
+    "india",
+    "business"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-16T16:18+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Markets",
+    "h": "Rupee gains 27 paise to 93.92 per dollar",
+    "stat": "93.92",
+    "statl": "Rupee's closing value per dollar",
+    "loc": "",
+    "p": "The rupee ended a two-day losing streak on Monday, gaining 27 paise to settle at 93.92 against the US dollar. Forex traders credited foreign fund inflows, gains in domestic stocks and softer crude oil prices. The Sensex rose 512 points and the Nifty 146 points.",
+    "pts": [
+     "Brent crude at $94.85 a barrel",
+     "Forex reserves at $719.5 billion"
+    ],
+    "why": "Affects import prices, overseas education and travel costs."
+   },
+   "hi": {
+    "cat": "भारत · बाजार",
+    "h": "रुपया 27 पैसे मजबूत होकर 93.92 पर",
+    "stat": "93.92",
+    "statl": "डॉलर के मुकाबले रुपये का बंद भाव",
+    "loc": "",
+    "p": "लगातार दो दिन की गिरावट के बाद सोमवार को रुपया डॉलर के मुकाबले 27 पैसे मजबूत होकर 93.92 पर बंद हुआ। विदेशी मुद्रा कारोबारियों ने इसका कारण विदेशी निवेश, घरेलू शेयरों में तेजी और कच्चे तेल की नरमी बताया। सेंसेक्स 512 अंक और निफ्टी 146 अंक चढ़ा।",
+    "pts": [
+     "ब्रेंट कच्चा तेल 94.85 डॉलर प्रति बैरल",
+     "विदेशी मुद्रा भंडार 719.5 अरब डॉलर"
+    ],
+    "why": "आयात कीमतों, विदेश में पढ़ाई और यात्रा खर्च पर असर।"
+   },
+   "d": "16.11.2026",
+   "t": "16:35"
+  },
   {
    "cat": "ఏపీ · టెక్నాలజీ",
    "col": "--c-gov",
