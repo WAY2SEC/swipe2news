@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-16T08:05:00+05:30",
+ "cutoff": "2026-11-16T08:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T20:35:00+05:30/2026-11-12T21:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 4,
-   "late": 1,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 1,
-   "review": 1,
-   "gaps": "Search-first; WebSearch returned mostly stale tag/listing pages with no times. Read: TT tag/telangana, Nalgonda, Guntur, AP p2, states listings (relative times only), South First AP tags (no times), 5 articles. Blocked: TT ?p=1619293 (Inter to Classes XI/XII, robots). WHO air-pollution study (08:59) before lookback. Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI direct, Reuters; no national or other-state items verifiable. Districts searched: Nalgonda, Suryapet, Khammam, Guntur, Kurnool, Nellore, Kakinada, Visakhapatnam, Vijayawada, Tirupati, Warangal, Nizamabad, Mahabubnagar, Sangareddy."
-  },
   {
    "window": "2026-11-12T21:05:00+05:30/2026-11-12T21:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "08:05 run started 08:06 IST; lookback from 23:35 Nov 15. Feeds fresh (07:57, 70/70 ok; 153 uncovered local events in lookback). add_repo not available; existing clone reset to origin/main, push worked. Published (all Hans India): graduates MLC 12.69 lakh, Godavari marathon Bhadrachalam Dec 6, East Godavari PGRS cancelled, Husnabad assistive-device camps, Wanaparthy RMP teams, Khammam Red Cross CPR for RTC drivers, Nizamabad doctors 12-hour run, Pulukurthi BRS-to-Congress. Duplicates: Hans Raptadu nominations (Anantapur 590 nominations up), Hans Tirupati garbage-dump baby (Varadaiahpalem story up). Old/not eligible: DC Indiramma insurance (June), Siasat HYDRAA (May), DC Srisailam dead storage (Oct 26), DC rice hoarding (Oct 28), IndiaTV winter session (15 Nov 16:39), South First midnight arrests (July). Not surfaced by search: HT TG ₹5 lakh insurance scheme, Vaartha rice millers rules, V6 Tummidihatti, TOI inflation/LPG/paddy, Maktoob SIO detentions, Hindu heart valve, Sakshi Tirumala e-bus strike, NT Srisailam level, TT Prince of Wales. Karra Samu/Khelo India (DC) skipped as overlap with Khelo India + Revanth-Modi stories. District search Nalgonda returned only tag pages."
+  },
+  {
+   "window": "2026-11-16T08:05:00+05:30/2026-11-16T08:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 11,
+   "published": 9,
+   "late": 9,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "08:35 run started 08:36 IST; lookback from 00:05. Feeds fresh (08:13, 70/70 ok; 169 uncovered local events in lookback). add_repo not available; existing clone reset to origin/main, push worked. Published: NT CPS mass leave Nov 17, NT Siddipet vet polytechnic principal POCSO (sensitive, accused not named), Hans Guntur no ration sugar, Hans Guntur GMC cyclone alert (forecast), Hans Mangalagiri-Tadepalli 76 nominations, Hans Anakapalli beach safety, Hans Nellore AKIS school, Hans Nellore Dy Mayor demand, NT U-17 basketball. Duplicates: AJ versions of POCSO and CPS stories. Skipped: Hans Indiramma insurance (older id; DC version in seen). Not opened: Disha Tirumala e-bus strike (4xx). Not surfaced by search: Prajasakti gold prices, Medak medical student crash, SCR Ayyappa trains, TOI Nalgonda RRU theft (only July NewsMeter), TOI inflation/LPG/AP semiconductor SEZ. No district searches this run."
   }
  ],
  "seen": [
@@ -4708,6 +4708,66 @@
    "url": "https://www.thehansindia.com/news/cities/khammam/5k-walk-marks-world-prematurity-day-1142607",
    "d": "2026-11-16",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/telangana-employees-and-teachers-gear-up-for-massive-cps-abolition-protest-2561141",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/pocso-case-registered-against-veterinary-polytechnic-college-principal-in-siddipet-2561152",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/guntur/no-sugar-supply-through-ration-shops-1142509",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/guntur/be-ready-to-face-cyclone-threat-officials-told-1142508",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/guntur/76-nominations-filed-1142512",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/beaches-are-closely-monitored-during-karthika-season-1142541",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/nellore/akis-to-be-ready-by-next-academic-year-narayana-1142551",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/nellore/muslim-corporators-stake-claim-to-dy-mayor-post-in-nmc-1142552",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.ntnews.com/sports/rangareddy-and-medak-win-telangana-state-basketball-championships-2561196",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/medak/telangana-pocso-case-veterinary-polytechnic-principal-suspended-siddipet-1576776.html",
+   "d": "2026-11-16",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/telangana-employees-mass-leave-november-17-old-pension-scheme-ops-restoration-1576686.html",
+   "d": "2026-11-16",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/cm-revanth-reddy-to-launch-indiramma-insurance-scheme-on-nov-19-1139640",
+   "d": "2026-11-16",
+   "w": "skip"
   }
  ]
 }
