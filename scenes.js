@@ -478,6 +478,8 @@ function artPlan(s){
     if(/సింగరేణి|బొగ్గు|ఓపెన్ కాస్ట్|coal|Singareni|colliery|SCCL/i.test(t)){ if(/గని కార్మిక|కాంట్రాక్టు కార్మిక|కార్మికుల|మైనర్లు|బోనస్|వేతన|భద్రత|సమ్మె|mine workers|miners|workers|bonus|wage|safety|strike/i.test(t)) return {m:'land',bg:'n/'+(has('mineworkers')?'mineworkers':has('strike')?'strike':'coal')}; return {m:'land',bg:'n/'+(has('coal')?'coal':'power')}; }
     const tt0=[s.h,s.statl,String(s.p||'').split(/[.!?।]/)[0]].join(' ');
     if(/సమ్మె|సమ్మెకు|కార్మికుల ఆందోళన|కార్మిక సంఘ|యూనియన్|లాకౌట్|\bstrike\b|\bunion\b|lockout/i.test(tt0)) return has('strike')?{m:'land',bg:'n/strike'}:{m:'cat',cat:'infrastructure'};
+    // owner 16 Nov 2026: pod-car / PRT news shows a POD, not a car, bus or train
+    if(/పాడ్\s?కార్|పాడ్‌కార్|పాడ్ ట్యాక్సీ|పీఆర్‌టీ|పీఆర్టీ|పర్సనల్ ర్యాపిడ్|\bpod[- ]?(?:cars?|taxis?)\b|\bPRT\b|personal rapid transit/i.test(tt0+' '+((s.en&&s.en.h)||''))) return has('pod')?{m:'land',bg:'n/pod'}:{m:'logo'};  // until the owner's pod picture arrives: the neutral logo card, never a wrong vehicle
     if(/పరిశ్రమ|ఫ్యాక్టరీ|కర్మాగార|పారిశ్రామిక|ఫార్మా కంపెనీ|industry|industrial|factory|manufacturing/i.test(tt0)) return has('industry')?{m:'land',bg:'n/industry'}:{m:'cat',cat:'infrastructure'}; }
   // owner 14 Nov 2026: the TOPIC picture comes before the district landmark (a health story shows health, not the town's temple).
   // Landmarks stay for temple, travel, culture and general local / political news.
