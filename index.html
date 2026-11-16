@@ -338,7 +338,7 @@ header{display:flex;align-items:center;gap:8px;padding:8px var(--gr) 6px var(--g
 .join-box .wa{background:#25D366;color:#0B1F12}
 .links{font-size:13px;color:var(--muted)}
 .links a{color:var(--brand)}
-.toast{position:absolute;left:50%;bottom:118px;transform:translateX(-50%);background:#16130F;color:#fff;padding:8px 14px;border-radius:99px;font-size:13px;font-weight:700;opacity:0;transition:opacity .2s;pointer-events:none;z-index:20;white-space:nowrap}
+.toast{position:absolute;left:50%;bottom:118px;max-width:92%;transform:translateX(-50%);background:#16130F;color:#fff;padding:8px 14px;border-radius:99px;font-size:13px;font-weight:700;opacity:0;transition:opacity .2s;pointer-events:none;z-index:20;white-space:nowrap}
 .toast.on{opacity:1}
 /* reading mode: bottom buttons + menu slide away so the card gets the full screen; one tap on the card brings them back */
 .dockwrap,.shell>.nav,.shell>header,.shell>.tabs{transition:max-height .28s ease,opacity .2s ease,padding .28s ease;max-height:160px}
@@ -349,6 +349,7 @@ body.fs .dockwrap,body.fs .shell>.nav{max-height:0;opacity:0;padding-top:0;paddi
 body.fs .feed{padding-bottom:env(safe-area-inset-bottom,0px)}
 .fspill{position:absolute;right:12px;bottom:calc(10px + env(safe-area-inset-bottom,0px));z-index:40;background:rgba(18,40,74,.82);color:#fff;font:800 12px/1 var(--body);padding:7px 11px;border-radius:99px;pointer-events:none;opacity:0;transition:opacity .25s}
 body.fs .toast{bottom:calc(112px + env(safe-area-inset-bottom,0px))}
+.toast{top:calc(70px + env(safe-area-inset-top,0px));bottom:auto!important;white-space:normal;text-align:center;line-height:1.4;width:max-content;background:rgba(22,19,15,.88);font-size:12.5px}
 .fsplay{position:absolute;right:14px;bottom:calc(64px + env(safe-area-inset-bottom,0px));z-index:45;display:flex;align-items:center;gap:7px;height:42px;padding:0 15px 0 12px;border:0;border-radius:99px;background:rgba(18,40,74,.9);color:#fff;font:800 13.5px/1 var(--body);box-shadow:0 8px 22px rgba(0,0,0,.35),0 0 0 2px rgba(255,213,74,.55);cursor:pointer;opacity:0;transform:translateY(12px) scale(.92);pointer-events:none;transition:opacity .25s,transform .25s;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
 .fsplay svg{width:19px;height:19px;display:block}.fsplay .wv{display:none;align-items:flex-end;gap:2px;height:16px}
 .fsplay .wv b{width:3px;border-radius:2px;background:#F5A23A;animation:fsw .9s ease-in-out infinite}.fsplay .wv b:nth-child(2){animation-delay:.15s}.fsplay .wv b:nth-child(3){animation-delay:.3s}.fsplay .wv b:nth-child(4){animation-delay:.45s}
@@ -966,6 +967,40 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .s2n.metals .mfuel i{font-style:normal;font:700 12px 'Outfit',sans-serif;margin-left:4px}
 
 /* gold · silver · copper card v2 (owner's template, 15 Nov 2026) */
+.story.s2n.wxs{background:#FFFBF4!important}
+.s2n.wxs .wxhero{position:relative;flex:0 0 auto;height:31%;min-height:140px;overflow:hidden;border-radius:inherit;border-bottom-left-radius:0;border-bottom-right-radius:0}
+.s2n.wxs .wxhero img{width:100%;height:100%;object-fit:cover;display:block}
+.s2n.wxs .wxfx{position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,251,244,0) 45%,#FFFBF4 100%)}
+.s2n.wx-cloud .wxhero img{filter:saturate(.45) brightness(.95) hue-rotate(-10deg)}.s2n.wx-cloud .wxfx{background:linear-gradient(180deg,rgba(120,135,160,.35),rgba(255,251,244,0) 50%,#FFFBF4 100%)}
+.s2n.wx-rain .wxhero img{filter:saturate(.35) brightness(.7) hue-rotate(160deg)}.s2n.wx-rain .wxfx{background:repeating-linear-gradient(105deg,rgba(255,255,255,.18) 0 1px,transparent 1px 9px),linear-gradient(180deg,rgba(30,63,115,.45),rgba(255,251,244,0) 55%,#FFFBF4 100%)}
+.s2n.wxs .wxtag{position:absolute;left:12px;top:12px;padding:5px 11px;border-radius:999px;background:rgba(255,251,244,.92);color:#4A0E3F;font:800 12px/1.2 var(--body)}
+.s2n.wxs .wxbody{background:transparent!important;padding:0 16px 8px!important;display:flex;flex-direction:column;gap:12px;flex:1;min-height:0;overflow:hidden;justify-content:flex-start}
+.s2n.wxs .wxplace{margin-top:2px}
+.s2n.wxs .wxplace h3{margin:0;font:800 24px/1.25 var(--body);color:#4A0E3F}
+.s2n.wxs .wxplace small{display:block;margin-top:2px;font:600 13px/1.4 var(--body);color:#8C7786}
+.s2n.wxs .wxmain{display:flex;align-items:center;gap:16px}
+.s2n.wxs .wxdeg{font:800 78px/.9 'Outfit',sans-serif;color:#2E0827;letter-spacing:-2px}.s2n.wxs .wxdeg sup{font-size:34px;vertical-align:top;margin-left:2px;color:#E08A1E}
+.s2n.wxs .wxcond{display:flex;flex-direction:column;gap:3px;min-width:0}
+.s2n.wxs .wxcond .ic{font-size:30px;line-height:1}
+.s2n.wxs .wxcond b{font:800 17px/1.3 var(--body);color:#C9701A}
+.s2n.wx-rain .wxcond b{color:#1E5FA8}.s2n.wx-cloud .wxcond b{color:#5B6B85}
+.s2n.wxs .wxcond small{font:700 13px/1.3 var(--body);color:#5B3A50}
+.s2n.wxs .wxstats{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid #F0E3D2;border-radius:16px;background:#fff}
+.s2n.wxs .wxstats div{padding:9px 8px;text-align:center}.s2n.wxs .wxstats div+div{border-left:1px solid #F3E8DA}
+.s2n.wxs .wxstats small{display:block;font:600 11.5px/1.3 var(--body);color:#8C7786}
+.s2n.wxs .wxstats b{display:block;margin-top:2px;font:800 17px/1.2 'Outfit',var(--body);color:#2E0827}.s2n.wxs .wxstats i{font:700 11px var(--body);font-style:normal;color:#8C7786}
+.s2n.wxs .wxtip{padding:9px 12px;border-radius:14px;background:#FFF1DC;color:#7A4A00;font:700 13px/1.45 var(--body)}
+.s2n.wx-rain .wxtip{background:#E3EEFA;color:#1E4F8A}
+.s2n.wxs .wxwarn{padding:10px 12px;border-radius:14px;background:#B3261E;color:#fff;font:600 13px/1.45 var(--body)}
+.s2n.wxs .wxlist{border:1px solid #F0E3D2;border-radius:16px;background:#fff;overflow:hidden}
+.s2n.wxs .wxlist div{display:grid;grid-template-columns:4.6em 1.8em 1fr auto;align-items:center;gap:8px;padding:8px 12px;font:600 13.5px/1.35 var(--body);color:#23131F}
+.s2n.wxs .wxlist div+div{border-top:1px solid #F5ECE0}
+.s2n.wxs .wxlist .d{font-weight:800;color:#4A0E3F}.s2n.wxs .wxlist .i{font-size:18px;text-align:center}.s2n.wxs .wxlist .c{color:#5B3A50}
+.s2n.wxs .wxlist .t{font:700 14px 'Outfit',var(--body);color:#8C7786}.s2n.wxs .wxlist .t b{color:#2E0827}
+.s2n.wxs .wxol{padding:9px 12px;border-radius:14px;background:#F4ECF1;color:#4A0E3F;font:700 12.5px/1.45 var(--body)}
+.s2n.wxs .wxlist div{padding:7px 12px!important}
+.s2n.wxs .wxpick{margin:0;font:700 12.5px/1.4 var(--body);color:#9A5A00}
+.s2n.wxs .wxsrc{margin:auto 0 0;font:600 11px/1.45 var(--body);color:#9C8A96}
 .story.s2n.metals2{background:radial-gradient(140% 90% at 100% 0%,#7A2A55 0%,#4A0E3F 45%,#2E0827 100%)!important}
 .s2n.metals2 .m2hd{padding:16px 16px 8px;color:#FFFDF5;text-align:center}
 .s2n.metals2 .m2t{font:800 clamp(26px,8.4vw,34px)/1.15 var(--body);letter-spacing:.2px}.s2n.metals2 .m2t i{color:#F5A23A;font-style:normal;margin:0 6px}
@@ -1571,7 +1606,7 @@ function warmOffline(){ try{ if(!navigator.serviceWorker||!navigator.serviceWork
   const urls=['mandi.json','metals.json','daily.json','mandi.js?v=2','mandi/','/icon-512.png','/icon-192.png','/art/logo.svg','/brand/qr-share.png'].concat((NEWS.stories||[]).slice(0,60).map(x=>x.img).filter(u=>u&&!/^https?:/.test(u)));
   // offline reading: every card picture in today's feed (cards keep them in data-src until shown)
   const f=document.getElementById('feed'); if(f) f.querySelectorAll('img[data-src],img[src^="/art/"]').forEach(im=>{ const u=im.dataset.src||im.getAttribute('src'); if(u&&u.startsWith('/art/')&&!urls.includes(u)) urls.push(u); });
-  const ch=new MessageChannel(); ch.port1.onmessage=e=>{ const n=(e.data||{}).saved|0; try{ const k='offlineSaved.'+new Date().toDateString(); if(n>0&&!store.get(k,0)){ store.set(k,1); toast({te:'📥 ఈరోజు వార్తలు ఫోన్‌లో సేవ్ అయ్యాయి – నెట్ లేకపోయినా చదవొచ్చు',en:'📥 Today\'s news is saved on your phone – read it even without internet',hi:'📥 आज की खबरें फ़ोन में सेव हो गईं – बिना इंटरनेट भी पढ़ें'}[LG()]||''); } }catch(_){} };
+  const ch=new MessageChannel(); ch.port1.onmessage=e=>{ const n=(e.data||{}).saved|0; try{ const k='offlineSaved.once'; if(n>0&&!store.get(k,0)){ store.set(k,1); toast({te:'📥 ఈరోజు వార్తలు ఫోన్‌లో సేవ్ అయ్యాయి – నెట్ లేకపోయినా చదవొచ్చు',en:'📥 Today\'s news is saved on your phone – read it even without internet',hi:'📥 आज की खबरें फ़ोन में सेव हो गईं – बिना इंटरनेट भी पढ़ें'}[LG()]||''); } }catch(_){} };
   navigator.serviceWorker.controller.postMessage({type:'warm',urls},[ch.port2]); }catch(e){} }
 /* gold · silver · copper card (15 Nov 2026): 10th card in the main feed; data metals.json (scheduled task, tools/tasks/metals.md) */
 let METALS=null; fetch('metals.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>{ if(!d||!Array.isArray(d.cities)||!d.cities.length) return; METALS=d; try{ if(view==='home'&&section==='all'&&LIST&&LIST.length&&cur<8&&!LIST.some(x=>x.kind==='metals')) renderFeed(keyOf(LIST[cur])); }catch(e){} }).catch(()=>{});
@@ -1625,6 +1660,46 @@ function metalsTableHTML(s,i){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=M
   </div>
   ${footHTML()}
 </article>`; }
+/* weather card (user, 16 Nov 2026): IMD district forecast for the reader's district, from weather.json (weather task). Never shown when stale. */
+let WX=null; fetch('weather.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>{ if(!d||!d.d) return; WX=d; try{ if(view==='home'&&section==='all'&&LIST&&LIST.length&&cur<5&&!LIST.some(x=>x.kind==='wx')) renderFeed(keyOf(LIST[cur])); }catch(e){} }).catch(()=>{});
+const WXT={te:{hi:'గరిష్ఠం',lo:'కనిష్ఠం',bul:'బులెటిన్',rainTip:'వర్షం పడే అవకాశం – గొడుగు వెంట ఉంచుకోండి',srcN:{'IMD Meteorological Centre Hyderabad':'IMD వాతావరణ కేంద్రం, హైదరాబాద్','IMD Meteorological Centre Amaravati':'IMD వాతావరణ కేంద్రం, అమరావతి'},t:'వాతావరణం',sub:'IMD అంచనా',today:'ఈరోజు',tom:'రేపు',hum:'ఉదయం తేమ',wind:'గాలి',rain:'వర్షం',kmh:'కి.మీ/గం',mm:'మి.మీ',src:'మూలం',iss:'జారీ',note:'జిల్లా సగటు అంచనా',pick:'మీ జిల్లా ఎంచుకుంటే మీ ప్రాంత వాతావరణం చూపిస్తాం',cold:'రాత్రి చలి ఎక్కువ – పిల్లలు, పెద్దలు జాగ్రత్త',hot:'ఎండ ఎక్కువ – మధ్యాహ్నం జాగ్రత్త',warn:'హెచ్చరిక',
+  d:{dry:'పొడి వాతావరణం',clear:'నిర్మలమైన ఆకాశం',part:'పాక్షికంగా మేఘాలు',cloudy:'ఆకాశం మేఘావృతం',drizzle:'చిరుజల్లులు',light:'తేలికపాటి వర్షం',mod:'ఓ మోస్తరు వర్షం',heavy:'భారీ వర్షం'},mon:['జన','ఫిబ్ర','మార్చి','ఏప్రి','మే','జూన్','జులై','ఆగ','సెప్టెం','అక్టో','నవం','డిసెం'],wd:['ఆది','సోమ','మంగళ','బుధ','గురు','శుక్ర','శని']},
+ en:{hi:'High',lo:'Low',bul:'Bulletin',rainTip:'Rain likely – keep an umbrella handy',t:'Weather',sub:'IMD forecast',today:'Today',tom:'Tomorrow',hum:'Morning humidity',wind:'Wind',rain:'Rain',kmh:'km/h',mm:'mm',src:'Source',iss:'issued',note:'District average',pick:'Pick your district to see your local weather',cold:'Cold nights – keep children and elders warm',hot:'Strong sun – take care in the afternoon',warn:'Warning',
+  d:{dry:'Dry weather',clear:'Clear sky',part:'Partly cloudy',cloudy:'Cloudy',drizzle:'Drizzle',light:'Light rain',mod:'Moderate rain',heavy:'Heavy rain'},mon:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],wd:['Sun','Mon','Tue','Wed','Thu','Fri','Sat']},
+ hi:{hi:'अधिकतम',lo:'न्यूनतम',bul:'बुलेटिन',rainTip:'बारिश की संभावना – छाता साथ रखें',srcN:{'IMD Meteorological Centre Hyderabad':'IMD मौसम केंद्र, हैदराबाद','IMD Meteorological Centre Amaravati':'IMD मौसम केंद्र, अमरावती'},t:'मौसम',sub:'IMD पूर्वानुमान',today:'आज',tom:'कल',hum:'सुबह नमी',wind:'हवा',rain:'बारिश',kmh:'कि.मी/घं',mm:'मि.मी',src:'स्रोत',iss:'जारी',note:'ज़िले का औसत',pick:'अपना ज़िला चुनें, अपने इलाके का मौसम देखें',cold:'रातें ठंडी – बच्चों, बुज़ुर्गों का ध्यान रखें',hot:'तेज़ धूप – दोपहर में सावधान',warn:'चेतावनी',
+  d:{dry:'सूखा मौसम',clear:'साफ़ आसमान',part:'आंशिक बादल',cloudy:'बादल छाए',drizzle:'बूंदाबांदी',light:'हल्की बारिश',mod:'मध्यम बारिश',heavy:'भारी बारिश'},mon:['जन','फ़र','मार्च','अप्रै','मई','जून','जुला','अग','सित','अक्टू','नव','दिस'],wd:['रवि','सोम','मंगल','बुध','गुरु','शुक्र','शनि']}};
+function wxToday(){ const ist=new Date(Date.now()+(330+new Date().getTimezoneOffset())*60000); return ist.getFullYear()+'-'+String(ist.getMonth()+1).padStart(2,'0')+'-'+String(ist.getDate()).padStart(2,'0'); }
+function wxItem(){ if(!WX||!WX.d) return null; const k0=(prefs&&prefs.place)||'TS'; let k=k0, picked=true;
+  if(!WX.d[k]){ if(String(k0).startsWith('ap-')||k0==='AP') return null; k='hyderabad'; picked=false; }
+  const D=WX.d[k]; if(!D) return null; const b=(WX.bulletins||{})[D.st]||{}; if(b.stale) return null;
+  const t=wxToday(), days=(D.days||[]).filter(x=>x.date>=t); if(!days.length||days[0].date!==t) return null;
+  const ol=((WX.outlook||{})[D.st])||null, olOk=ol&&ol.to&&ol.to>=t;
+  return {kind:'wx', h:'weather', url:'https://swipe2news.com/#wx-'+k+'-'+t, k, picked, days:days.slice(0,5), b, ol:olOk?ol:null, warn:((WX.warnings||{})[D.st]||[])}; }
+function wxKind(x){ const r=+x.rain||0; if(r>=64.5) return ['heavy','⛈️']; if(r>=15.6) return ['mod','🌧️']; if(r>=2.5) return ['light','🌦️']; if(r>0) return ['drizzle','🌦️']; if(x.cloud>=6) return ['cloudy','☁️']; if(x.cloud>=3) return ['part','⛅']; return ['clear','☀️']; }
+function wxHTML(s,i){ const l=TLG()?'en':LG(), T=WXT[l]||WXT.te, d0=s.days[0], [kk,ic]=wxKind(d0);
+  const dlab=(x,n)=>{ if(n===0) return T.today; if(n===1) return T.tom; const dt=new Date(x.date+'T12:00:00+05:30'); return T.wd[dt.getDay()]; };
+  const dshort=x=>{ const m=/^\d{4}-(\d\d)-(\d\d)$/.exec(x||''); return m?(+m[2])+' '+T.mon[+m[1]-1]:''; };
+  const dist=l==='te'?placeName(s.k):((PLACES.find(p=>p[0]===s.k)||[])[2]||s.k);
+  const mood=/heavy|mod|light|drizzle/.test(kk)?'rain':(kk==='cloudy'?'cloud':'sun');
+  const tip=(s.warn&&s.warn.length)?'':(mood==='rain'?T.rainTip:(d0.tmin<=16?T.cold:(d0.tmax>=38?T.hot:'')));
+  const srcN=(T.srcN||{})[(s.b&&s.b.src)||'']||((s.b&&s.b.src)||'IMD');
+  const cr=[srcN, s.b.no?T.bul+' '+s.b.no:'', s.b.issued?T.iss+' '+dshort(s.b.issued):''].filter(Boolean).join(' · ');
+  const art=ART_D&&ART_D.has(s.k)?`/art/d/${s.k}.webp`:'/art/o/weather.webp';
+  return `<article class="story s2n wxs wx-${mood}" aria-label="${esc(T.t)}">
+  <div class="wxhero"><img src="${art}" alt="" decoding="async"><i class="wxfx"></i><span class="wxtag">${esc(T.t)} · IMD</span></div>
+  <div class="text wxbody">
+   <div class="wxplace"><h3>${esc(dist)}</h3><small>${esc(T.sub)} · ${esc(dlab(d0,0))}, ${esc(dshort(d0.date))}</small></div>
+   <div class="wxmain"><div class="wxdeg">${Math.round(d0.tmax)}<sup>°</sup></div><div class="wxcond"><span class="ic">${ic}</span><b>${esc(T.d[kk])}</b><small>${esc(T.hi)} ${Math.round(d0.tmax)}° · ${esc(T.lo)} ${Math.round(d0.tmin)}°</small></div></div>
+   <div class="wxstats"><div><small>${esc(T.hum)}</small><b>${d0.ham}%</b></div><div><small>${esc(T.wind)}</small><b>${Math.round(d0.wind)} <i>${esc(T.kmh)}</i></b></div><div><small>${esc(T.rain)}</small><b>${d0.rain} <i>${esc(T.mm)}</i></b></div></div>
+   ${s.warn&&s.warn.length?`<div class="wxwarn">⚠️ <b>${esc(T.warn)}:</b> ${esc(s.warn.map(w=>w[l]||w.te||w.en||'').join(' · '))}</div>`:(tip?`<div class="wxtip">${esc(tip)}</div>`:'')}
+   <div class="wxlist">${s.days.map((x,n)=>{ const [k2,i2]=wxKind(x); return `<div><span class="d">${esc(dlab(x,n))}</span><span class="i">${i2}</span><span class="c">${esc(T.d[k2])}</span><span class="t"><b>${Math.round(x.tmax)}°</b> ${Math.round(x.tmin)}°</span></div>`; }).join('')}</div>
+   ${s.ol&&(s.ol[l]||s.ol.te)?`<div class="wxol">📅 ${esc(s.ol[l]||s.ol.te)}</div>`:''}
+   ${s.picked?'':`<p class="wxpick">📍 ${esc(T.pick)}</p>`}
+   <p class="wxsrc">${esc(T.src)}: ${esc(cr)} · ${esc(T.note)}</p>
+  </div>
+  ${footHTML()}
+</article>`; }
+function withWx(list){ if(view!=='home'||section!=='all'||list.length<7) return list; const it=wxItem(); if(!it) return list; const o=list.slice(); o.splice(6,0,it); return o; }
 function withMetals(list){ if(view!=='home'||section!=='all'||list.length<10) return list; const mi=metalsItem(); if(!mi) return list; const o=list.slice(); o.splice(9,0,mi); return o; }
 function withMandi(list){ if(view!=='home'||section!=='all'||list.length<4) return list; const mi=mandiItem(); if(!mi) return list; const o=list.slice(); o.splice(3,0,mi); return o; }
 function withHouse(list){ const C=CONFIG.SPACE; if(!C||!C.on||view!=='home') return list; const house=(C.HOUSE||[]).filter(k=>SPACE_TX[k]&&!(k==='jobs'&&spaceJobsN()<3)); if(!house.length) return list;
@@ -1699,7 +1774,7 @@ document.addEventListener('click',async e=>{ const b=e.target.closest('.dly .dsh
   try{ if(blob&&navigator.canShare&&navigator.canShare({files:[cardFile(blob)]})){ hdTip(); await navigator.share({files:[cardFile(blob)],text:t}); return; } }catch(x){ if(x&&x.name==='AbortError') return; }
   if(blob){ try{ const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='swipe2news-'+Date.now()+'.jpg'; document.body.appendChild(a); a.click(); a.remove(); }catch(x){} }
   window.open('https://wa.me/?text='+encodeURIComponent(t),'_blank','noopener'); },true);
-function withPromos(list){ list=withLocAsk(withHouse(withDaily(withMetals(withMandi(list)))));
+function withPromos(list){ list=withLocAsk(withHouse(withDaily(withMetals(withWx(withMandi(list))))));
   const G=CONFIG.GREETING; let gr=null;
   if(G && Date.now()<new Date(G.until).getTime() && view!=='saved' && view!=='jobs') gr={kind:'promo', greet:1, img:G.img, h:'దీపావళి శుభాకాంక్షలు – Swipe2News', p:'', url:G.page, src:'Swipe2News', d:''};
   const P=CONFIG.PROMO; if(!P||!P.on||view==='saved'||view==='jobs'||list.length<P.every) return gr?[gr].concat(list):list;
@@ -1805,6 +1880,7 @@ function cardHTML(s,i){
   if(s.kind==='job') return jobHTML(s,i);
   if(s.kind==='mandi') return mandiHTML(s,i);
   if(s.kind==='metals') return MTTAB?metalsTableHTML(s,i):metalsHTML(s,i);
+  if(s.kind==='wx') return wxHTML(s,i);
   if(s.kind==='daily') return dailyHTML(s,i);
   if(s.kind==='house') return houseHTML(s,i);
   if(s.kind==='loc') return locHTML(s,i);
@@ -2715,6 +2791,28 @@ function setView(v){
 document.querySelector('.nav').addEventListener('click',e=>{const b=e.target.closest('.nb'); if(b) setView(b.dataset.v);});
 $('closeJoin').onclick=()=>{$('joinSheet').hidden=true};
 
+
+/* ---------- Phone back button (user, 16 Nov 2026): go to the previous screen instead of closing the app.
+   One "guard" history entry is kept while the reader is away from the home cards; each back press steps back one screen:
+   open sheet (menu, Today, search, jobs home…) → closes; job cards → jobs home; jobs/saved/date view → home cards. ---------- */
+(function(){
+  let order=[], jhSeen=false;
+  const atRoot=()=>view==='home'&&!document.querySelector('.sheet:not([hidden])');
+  const guard=()=>{ try{ if(!atRoot()&&!(history.state&&history.state.s2nGuard)) history.pushState({s2nGuard:1},'',location.href); }catch(e){} };
+  const mo=new MutationObserver(ms=>{ ms.forEach(m=>{ const el=m.target; if(!el.classList||!el.classList.contains('sheet')) return;
+      if(!el.hidden){ order=order.filter(x=>x!==el); order.push(el); if(el.id==='jobSheet') jhSeen=true; setTimeout(guard,0); } else order=order.filter(x=>x!==el); }); });
+  const watch=()=>document.querySelectorAll('.sheet').forEach(el=>{ if(!el.__s2nW){ el.__s2nW=1; mo.observe(el,{attributes:true,attributeFilter:['hidden']}); if(!el.hidden){ order.push(el); if(el.id==='jobSheet') jhSeen=true; setTimeout(guard,0); } } });
+  watch(); new MutationObserver(watch).observe(document.querySelector('.shell')||document.body,{childList:true});
+  const sv=setView; setView=function(v){ const r=sv.apply(this,arguments); if(v!=='home') setTimeout(guard,0); return r; };
+  addEventListener('popstate',()=>{
+    const open=order.filter(x=>!x.hidden), top=open[open.length-1]||document.querySelector('.sheet:not([hidden])');
+    if(top){ top.hidden=true; if(top.id==='jobSheet'&&view==='jobs') goHome(); }
+    else if(view==='jobs'&&jhSeen&&typeof openJobHome==='function'&&JOBS.length) openJobHome();
+    else if(view!=='home') goHome();
+    else return; // already on the home cards: the next back press leaves the app as usual
+    setTimeout(guard,0);
+  });
+})();
 /* ---------- readers send local news (opens WhatsApp with the tip typed) ---------- */
 function openTip(){
   $('tipDist').innerHTML = '<option value="">జిల్లా ఎంచుకోండి</option>' + PLACES.filter(p=>p[0]!=='TS').map(p=>`<option value="${p[0]}"${p[0]===prefs.place?' selected':''}>${esc(p[1])} (${esc(p[2])})</option>`).join('') + AP_DISTRICTS.map(p=>`<option value="${p[0]}"${p[0]===prefs.place?' selected':''}>${esc(p[1])} (${esc(p[2])}) – ఏపీ</option>`).join('') + Object.keys(STATE_DISTRICTS).map(st=>STATE_DISTRICTS[st].map(p=>`<option value="${p[0]}"${p[0]===prefs.place?' selected':''}>${esc(p[1])} (${esc(p[2])}) – ${esc((STATES.find(x=>x[0]===st)||['','',''])[1])}</option>`).join('')).join('') + STATES.filter(s=>s[0]!=='TG'&&s[0]!=='AP').map(s=>`<option value="st-${s[0]}"${'st-'+s[0]===prefs.place?' selected':''}>${esc(s[1])} (${esc(s[2])})</option>`).join('') + '<option value="other">ఇతర ప్రాంతం (Other)</option>';
