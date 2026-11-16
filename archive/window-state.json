@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-16T05:05:00+05:30",
+ "cutoff": "2026-11-16T05:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T17:35:00+05:30/2026-11-12T18:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 1,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebSearch returned only stale tag/listing pages. Read via sub-agents: Siasat Hyderabad listing (newest dated items 11 Nov), TT Telangana/latest tags, TT AP tag, South First AP & Telangana, TNM AP (latest 10 Nov). Blocked (permission timeout): South First 12-Nov weather forecast, South First Kerala LPST item. Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters/AP; no national, other-state or international-topic items verifiable. Districts searched: Nizamabad, Adilabad, Jagtial, Nirmal, Visakhapatnam, NTR(Vijayawada), Tirupati, Anantapur."
-  },
   {
    "window": "2026-11-12T18:05:00+05:30/2026-11-12T18:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "05:05 run started 05:06 IST; overnight window 23:35–05:05, lookback from 15:35 Nov 15. Feeds fresh (04:36, 70/70 ok). add_repo not available; existing clone used, push worked. Published: NT Palnadu Jonnalagadda sarpanch auction ₹81 lakh (01:48), NT Hyderabad night 16.9°C (01:02), Siasat/PTI Rajasthan track blast 2 arrested (18:42, late). Skipped as duplicates of published stories: Revanth-PM drought aid, Eagle force e-cigarettes, Madanapalle fake CBI, Vikarabad tyre-burst crash, YSRCP Vision 2050, cyclone Akvan Vizag–Bapatla Nov 20, winter session; TDP 2nd ULB list is from October; DC graduates 12.7 lakh is 9 Nov (old). Not opened (fetch permission timeout): TT opinion Hyderabad water, TT Prince/Princess of Wales visit, The Hindu Congress-BCs/Amit Shah. Search did not surface TOI items (TG inflation 7%, rural LPG 95.3%, Adilabad airport streams ₹324 cr, AP semiconductor SEZ, paddy sowing), Hans HYDRAA lakes, Hans Rahul-Congress infighting, Sakshi Tirumala ghat accident. 8 district searches (Nizamabad, Siddipet/Medak/Sangareddy, Kurnool, Guntur, Kakinada/Eluru, Kamareddy, Srikakulam, Hyderabad) returned only tag/old pages."
+  },
+  {
+   "window": "2026-11-16T05:05:00+05:30/2026-11-16T05:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 9,
+   "published": 6,
+   "late": 0,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "05:35 run started 05:36 IST; lookback from 21:05 Nov 15. Feeds fresh (05:25, 68/68 ok). add_repo not available; existing clone used, push worked. Direct feed URLs refused by WebFetch (permission timeout); only search-surfaced URLs opened. Published: Siasat TOMCOM FIR vs Fairstreet (22:32), Hans TDP allots Rajahmundry/Kavali/Bapatla to BJP (01:45), Hans Beerappa temple silver crowns theft Kurnool (01:47), Hans Kurnool collector panchayat nominations (02:24), DC Indukurupeta 300 YSRCP join TDP (23:25), Hans Kurnool/Nandyal PACS polls (02:31). Duplicates: DC Bowrampet bus fire (ETV published), DC Karra Samu/Khelo India (TT published). Not opened (search did not surface / direct URL refused): The Hindu Zimbabwe student drowns Kakinada, pharmacy fee dues, Sridhar Babu aerospace, Rajamahendravaram havildar, Kadapa entrepreneur, heart valve; TT Prince/Princess of Wales; TOI TG inflation, LPG, semiconductor SEZ, paddy sowing. Only ~4 district-targeted searches this run."
   }
  ],
  "seen": [
@@ -4473,6 +4473,51 @@
    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-likely-to-cross-ap-coast-between-vizag-and-bapatla-on-nov-20-2004753",
    "d": "2026-11-16",
    "w": "dup"
+  },
+  {
+   "url": "https://www.siasat.com/from-mou-to-fir-tomcom-files-cheating-case-against-ups-fairstreet-3578285/",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/amaravati/tdp-allots-rajahmundry-kavali-bapatla-civic-bodies-to-bjp-1142533",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/thieves-decamp-with-silver-crowns-from-beerappa-temple-1142535",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/collector-urges-transparent-panchayat-poll-nomination-process-1142557",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/over-300-ysrc-workers-join-td-in-indukurupeta-2004710",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/farmers-hope-elected-bodies-will-better-address-credit-needs-1142559",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/fire-officials-avert-major-disaster-at-bowrampet-bus-workshop-2004738",
+   "d": "2026-11-16",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-five-buses-reduced-to-ashes-in-fire-accident-near-bowrampet-of-dundigal-2004554",
+   "d": "2026-11-16",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/karra-samu-of-telugu-states-to-be-a-demonstration-event-2004729",
+   "d": "2026-11-16",
+   "w": "duplicate"
   }
  ]
 }
