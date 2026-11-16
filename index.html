@@ -770,6 +770,34 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .s2n .cfoot.navf button{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:3px;height:34px;padding:0 12px;border-radius:17px;background:#F5A23A;color:#2E0827;font:800 13px/1 'Outfit',var(--body);white-space:nowrap}
 .s2n .cfoot.navf .navp{background:rgba(255,253,245,.14);color:#FFFDF5}
 
+.sqopen{width:100%;display:flex;align-items:center;gap:10px;padding:12px 14px;margin:0 0 14px;border:1.5px solid #E4D3DE;border-radius:16px;background:#fff;color:#7A6574;font:600 14.5px/1.2 var(--body);cursor:pointer;text-align:left}
+.sqopen svg{color:#4A0E3F;flex:none}
+#hubSheet .hubsq{margin:0}
+#srchSheet{background:#F7F3F6;overflow:auto;display:block}
+#srchSheet .sqhead{position:sticky;top:0;z-index:5;display:flex;gap:8px;align-items:center;padding:10px 12px;background:#4A0E3F}
+#srchSheet .sqx{width:40px;height:40px;border:0;border-radius:12px;background:rgba(255,255,255,.12);color:#fff;display:grid;place-items:center;flex:none;cursor:pointer}
+#srchSheet .sqbox{flex:1;min-width:0;overflow:hidden;display:flex;align-items:center;gap:8px;height:44px;padding:0 10px 0 12px;border-radius:14px;background:#fff;color:#4A0E3F}
+#srchSheet .sqbox input{flex:1;min-width:0;border:0;outline:0;background:none;font:600 16px var(--body);color:#23131F}
+#srchSheet .sqbox input::-webkit-search-cancel-button{display:none}
+#srchSheet .sqc{border:0;background:#F3E6EE;color:#4A0E3F;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;cursor:pointer}
+#srchSheet .sqchips{display:flex;gap:8px;padding:12px 14px 4px;overflow-x:auto}
+#srchSheet .sqchips button{flex:none;border:1px solid #E4D3DE;background:#fff;color:#4A0E3F;padding:7px 14px;border-radius:999px;font:700 13px var(--body);cursor:pointer}
+#srchSheet .sqchips .on{background:#4A0E3F;border-color:#4A0E3F;color:#fff}
+#srchSheet .sqout{padding:6px 14px 30px}
+#srchSheet .sqlbl{margin:12px 2px 8px;font:700 12.5px var(--body);color:#7A6574}
+#srchSheet .sqsug{display:flex;flex-wrap:wrap;gap:8px}
+#srchSheet .sqsug button{border:0;background:#fff;box-shadow:0 1px 0 #E9DCE4;border-radius:999px;padding:8px 14px;font:700 13.5px var(--body);color:#23131F;cursor:pointer}
+#srchSheet .sqtip{margin:22px 4px;font:600 12px/1.5 var(--body);color:#8C7786;text-align:center}
+#srchSheet .sqlist{background:#fff;border:1px solid #EDE3EA;border-radius:18px;overflow:hidden}
+#srchSheet .sqr{width:100%;display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border:0;background:#fff;text-align:left;cursor:pointer;color:#23131F}
+#srchSheet .sqr+.sqr{border-top:1px solid #F2EAEF}
+#srchSheet .sqk{flex:none;width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:#F4ECF1;color:#4A0E3F}
+#srchSheet .sqk.jobs{background:#FCEFD9;color:#9A5A00}
+#srchSheet .sqr .t{flex:1;min-width:0}#srchSheet .sqr small{display:block;font:600 11.5px/1.3 var(--body);color:#8C7786}
+#srchSheet .sqr b{display:block;margin-top:3px;font:700 14px/1.45 var(--body)}
+#srchSheet mark{background:#FFE7B8;color:inherit;border-radius:4px;padding:0 2px}
+#srchSheet .sqnone{margin:40px 10px;text-align:center}#srchSheet .sqnone b{display:block;font:800 16px var(--body);color:#23131F}#srchSheet .sqnone span{display:block;margin-top:6px;font:600 13px var(--body);color:#7A6574}
+#jobSheet .jhhead .jhs{background:rgba(255,255,255,.12)}
 #jobSheet{background:#F7F3F6;overflow:auto;display:block}
 #jobSheet .jhhead{position:sticky;top:0;z-index:6;display:flex;align-items:center;gap:10px;padding:12px 14px;background:#4A0E3F;color:#fff}
 #jobSheet .jhhead h1{flex:1;margin:0;font:800 18px/1.2 'Outfit',var(--body);letter-spacing:.2px}
@@ -1061,6 +1089,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
   <section class="sheet" id="sheet" hidden aria-label="మీ ఎంపికలు">
     <div class="sh-head"><img class="logo" src="logo.png" alt="Swipe2News"><button class="icon x" id="closeSheet" type="button" aria-label="మూసివేయండి"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
     <div class="sh-body">
+      <button class="sqopen" id="sqOpen1" type="button"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span>వార్తలు, జాబ్స్ వెతకండి · Search</span></button>
       <img class="wgreet" src="promo/diwali-2026.jpg" alt="Swipe2News – దీపావళి శుభాకాంక్షలు" hidden data-until="2026-11-09T15:00:00+05:30">
       <h2>భాష · Language</h2>
       <div class="grid three" id="langs" role="radiogroup" aria-label="భాష"></div>
@@ -2515,7 +2544,7 @@ function openHub(){ const T=HUBTX[TLG()?'en':LG()]||HUBTX.te; let h=$('hubSheet'
   const ic=d=>`<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
   h.innerHTML=`<div class="hubtop"><button class="icon x hubx" type="button" aria-label="close">${ic('<path d="M6 6l12 12M18 6L6 18"/>')}</button>
     <div class="hubg">${esc(g)} 👋</div><h2>✨ ${esc(T.t)}</h2>${NAV?'<div class="hubtag">Know More<i>.</i> Scroll Less<i>.</i></div>':''}<div class="hubn">${esc(T.n.replace('{n}',today))}</div></div>
-   <div class="hubbody"><div class="hubcard"><div class="hubh"><span class="aidot"></span>${esc(T.b)}</div>
+   <div class="hubbody"><button class="sqopen hubsq" type="button"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span>${esc((SQTX[TLG()?'en':LG()]||SQTX.te).ph)}</span></button><div class="hubcard"><div class="hubh"><span class="aidot"></span>${esc(T.b)}</div>
     <ol class="hubl">${news.map(([x,i],k)=>`<li data-i="${i}"><b>${k+1}</b><span>${esc(x.h)}</span></li>`).join('')}</ol>
     <button class="hubplay" type="button">${ic('<path d="M7 5v14l11-7z" fill="currentColor"/>')}${esc(T.all)}</button></div>
     <div class="hubgrid">
@@ -2527,6 +2556,7 @@ function openHub(){ const T=HUBTX[TLG()?'en':LG()]||HUBTX.te; let h=$('hubSheet'
   h.hidden=false;
   const close=()=>{ h.hidden=true; };
   h.querySelector('.hubx').onclick=close;
+  h.querySelector('.hubsq').onclick=()=>{ close(); openSearch(); };
   h.querySelectorAll('.hubl li').forEach(li=>li.onclick=()=>{ close(); if(view!=='home'){ goHome(); } setTimeout(()=>go(+li.dataset.i,'left'),view==='home'?0:350); });
   h.querySelector('.hubplay').onclick=()=>{ close(); goHome(); setTimeout(()=>{ if(!RADIO) toggleRadio(); },400); };
   h.querySelectorAll('.hubgrid button').forEach(b=>b.onclick=()=>{ close(); const a=b.dataset.a;
@@ -2548,6 +2578,7 @@ document.addEventListener('click',e=>{ const t=e.target.closest('.navp,.navn,.na
   if(t.classList.contains('navp')) go(cur-1,'right'); else go(cur+1,'left'); },true);
 document.querySelectorAll('.sh-head .logo').forEach(l=>{ l.setAttribute('role','link'); l.setAttribute('title','హోమ్'); l.onclick=()=>goHome(); });
 $('shareBtn').onclick=()=>shareCard(false);
+$('sqOpen1').onclick=()=>{ $('sheet').hidden=true; openSearch(); };
 $('waBtn').onclick=()=>shareCard(true);
 $('shareApp').onclick=()=>share(`Swipe2News – ${U('tag')} 📲\n${U('sub')}: ${CONFIG.APP_LINK}\nWhatsApp ఛానెల్: ${CONFIG.CHANNEL}`);
 
@@ -2590,7 +2621,7 @@ function openJobHome(){ const T=JHTX[TLG()?'en':LG()]||JHTX.te, TY=J('types'); l
   const pl=j=>/\d/.test(String(j.posts||''))?`${j.posts} ${T.posts}`:'';
   const dbox=j=>{ const d=daysLeft(j), m=/^(\d\d)\.(\d\d)/.exec(j.last||''); return `<span class="jhd${d<=1?' hot':''}">${m?+m[1]:''}<small>${d===0?T.today:d===1?T.tom:(m?T.mon[+m[2]-1]:'')}</small></span>`; };
   const row=(j,k,lead,sub)=>`<button class="jhrow" type="button" data-id="${esc(j.id||'')}" data-k="${k}">${lead}<span class="t"><b>${esc(j.h)}</b><small>${esc(sub)}</small></span><span class="ch">${jsvg('chev',18)}</span></button>`;
-  h.innerHTML=`<div class="jhhead"><h1>${esc(T.jobs)}</h1><button class="jhx" type="button" aria-label="close">${jsvg('x',20)}</button></div>
+  h.innerHTML=`<div class="jhhead"><h1>${esc(T.jobs)}</h1><button class="jhs" type="button" aria-label="search"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button><button class="jhx" type="button" aria-label="close">${jsvg('x',20)}</button></div>
    <div class="jhhero"><div class="k">${esc(T.k)}</div><h2>${esc(T.t)}</h2></div>
    <div class="jhstats"><button type="button" data-k="all"><b>${JOBS.length}</b><small>${esc(T.n)}</small></button><button type="button" class="g" data-k="all"><b>${nNew}</b><small>${esc(T.nw)}</small></button><button type="button" class="r" data-k="soon"><b>${soon.length}</b><small>${esc(T.soon)}</small></button></div>
    <div class="jhbody">
@@ -2606,6 +2637,7 @@ function openJobHome(){ const T=JHTX[TLG()?'en':LG()]||JHTX.te, TY=J('types'); l
    <nav class="jhnav"><button type="button" data-n="news">${jsvg('news',22)}${esc(T.news)}</button><button type="button" class="on" data-n="top">${jsvg('private',22)}${esc(T.jobs)}</button><button type="button" data-k="soon">${jsvg('soon',22)}${esc(T.soonS2)}</button><button type="button" data-n="saved">${jsvg('save',22)}${esc(T.saved)}</button></nav>`;
   h.hidden=false; h.scrollTop=0;
   h.querySelector('.jhx').onclick=()=>{ h.hidden=true; };
+  h.querySelector('.jhs').onclick=()=>{ h.hidden=true; openSearch('jobs'); };
   h.querySelector('.jhwa').onclick=()=>{ const L=[`💼 ${T.t} – Swipe2News`];
     if(soon.length){ L.push('',`⏰ ${T.soon}:`); soon.slice(0,5).forEach(j=>L.push(`• ${j.h}${j.last?' – '+T.last+' '+teDate(j.last):''}`)); }
     L.push('',`🆕 ${T.latest}:`); latest.slice(0,5).forEach(j=>L.push(`• ${j.h}`));
@@ -2613,6 +2645,58 @@ function openJobHome(){ const T=JHTX[TLG()?'en':LG()]||JHTX.te, TY=J('types'); l
     window.open('https://wa.me/?text='+encodeURIComponent(L.join('\n')),'_blank','noopener'); };
   h.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>openJobs(b.dataset.k,b.dataset.id||''));
   h.querySelectorAll('[data-n]').forEach(b=>b.onclick=()=>{ const n=b.dataset.n; if(n==='top'){ h.scrollTo({top:0,behavior:'smooth'}); return; } h.hidden=true; if(n==='news') goHome(); else setView('saved'); });
+}
+/* ---------- Search (user, 16 Nov 2026): news + jobs, Telugu or English, on the phone; opened from the menu, the Today screen and the Jobs home – never on the card screen ---------- */
+const SQTX={te:{ph:'వార్తలు, జాబ్స్ వెతకండి…',all:'అన్నీ',news:'వార్తలు',jobs:'జాబ్స్',today:'ఈరోజు',n:(n,q)=>`"${q}" కోసం ${n} ఫలితాలు`,none:q=>`"${q}" కోసం ఏమీ దొరకలేదు`,noneS:'వేరే పదం లేదా English లో ప్రయత్నించండి',rec:'ఇటీవల వెతికినవి',try:'ఇవి ప్రయత్నించండి',tip:'తెలుగు లేదా English – రెండింటిలో వెతకొచ్చు · warangal = వరంగల్',job:'జాబ్',last:'చివరి తేదీ',close:'మూసివేయండి',sug:['హైదరాబాద్','వర్షం','రైతు','ఉద్యోగాలు','పోలీస్','విద్యార్థులు']},
+ en:{ph:'Search news and jobs…',all:'All',news:'News',jobs:'Jobs',today:'Today',n:(n,q)=>`${n} results for "${q}"`,none:q=>`Nothing found for "${q}"`,noneS:'Try another word, or Telugu',rec:'Recent searches',try:'Try these',tip:'Search in English or Telugu · వరంగల్ = Warangal',job:'Job',last:'Last date',close:'Close',sug:['Hyderabad','rain','farmers','jobs','police','students']},
+ hi:{ph:'खबरें, नौकरियाँ खोजें…',all:'सभी',news:'खबरें',jobs:'नौकरियाँ',today:'आज',n:(n,q)=>`"${q}" के लिए ${n} नतीजे`,none:q=>`"${q}" के लिए कुछ नहीं मिला`,noneS:'कोई और शब्द आज़माएँ',rec:'हाल की खोजें',try:'ये आज़माएँ',tip:'हिंदी, English या తెలుగు में खोजें',job:'नौकरी',last:'अंतिम तिथि',close:'बंद करें',sug:['Hyderabad','बारिश','किसान','नौकरी','पुलिस','छात्र']}};
+const SQALIAS={gold:'బంగారం',silver:'వెండి',rain:'వర్ష',rains:'వర్ష',flood:'వరద',cyclone:'తుపాను',farmer:'రైతు',farmers:'రైతు',job:'ఉద్యోగ',jobs:'ఉద్యోగ',police:'పోలీస',accident:'ప్రమాద',school:'పాఠశాల',student:'విద్యార్థ',students:'విద్యార్థ',pension:'పింఛ',hospital:'ఆసుపత్రి',election:'ఎన్నిక',cm:'సీఎం',minister:'మంత్రి',court:'కోర్టు',metro:'మెట్రో',railway:'రైల్వే',bank:'బ్యాంక',temple:'ఆలయ',scheme:'పథక',houses:'ఇళ్ల',water:'నీటి',power:'విద్యుత',cricket:'క్రికెట'};
+function sqAliases(t){ const out=[t], tl=t.toLowerCase(); if(SQALIAS[tl]) out.push(SQALIAS[tl]);
+  const pl=PLACES.concat(typeof AP_DISTRICTS!=='undefined'?AP_DISTRICTS:[]);
+  pl.forEach(p=>{ const te=(p[1]||'').toLowerCase(), en=(p[2]||'').toLowerCase(); if(!te||!en||p[0]==='TS'||p[0]==='AP') return; if(tl.length>=3&&(en.startsWith(tl)||tl===en)) out.push(p[1]); if(t.length>=2&&te.startsWith(t)) out.push(p[2]); });
+  Object.keys(SQALIAS).forEach(k=>{ if(SQALIAS[k].startsWith(t)||t.startsWith(SQALIAS[k])) out.push(k); });
+  return out.map(x=>x.toLowerCase()); }
+function sqIndex(){ const L=[];
+  (NEWS.stories||[]).filter(x=>x&&x.h&&!x.wd).forEach(x=>{ const t=[x.h,x.p,x.cat,x.loc,x.src,x.statl,x.en&&x.en.h,x.en&&x.en.p,x.en&&x.en.cat,x.hi&&x.hi.h,x.place&&placeName(x.place)].filter(Boolean).join(' ').toLowerCase();
+    L.push({k:'news',o:x,h:(x.h||'').toLowerCase()+' '+((x.en&&x.en.h)||'').toLowerCase(),t,d:x.d||''}); });
+  (JOBS||[]).forEach(j=>{ const t=[j.h,j.org,j.p,j.qual,j.loc,j.src,j.cat,j.en&&j.en.h,j.en&&j.en.loc].filter(Boolean).join(' ').toLowerCase();
+    L.push({k:'jobs',o:j,h:(j.h||'').toLowerCase()+' '+(j.org||'').toLowerCase(),t,d:j.d||''}); });
+  return L; }
+function openSearch(only){ const T=SQTX[TLG()?'en':LG()]||SQTX.te; let h=$('srchSheet');
+  if(!h){ h=document.createElement('section'); h.className='sheet'; h.id='srchSheet'; h.setAttribute('aria-label','Search'); document.querySelector('.shell').appendChild(h); }
+  if(!jobsLoaded) loadJobs().then(()=>{ if(!h.hidden) run(); });
+  let flt=only||'all'; const ic=d=>`<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
+  h.innerHTML=`<div class="sqhead"><button class="sqx" type="button" aria-label="${esc(T.close)}">${ic('<path d="M15 6l-6 6 6 6"/>')}</button>
+     <label class="sqbox">${ic('<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>')}<input id="sqIn" type="search" enterkeyhint="search" autocomplete="off" placeholder="${esc(T.ph)}"><button class="sqc" type="button" hidden aria-label="clear">${ic('<path d="M6 6l12 12M18 6L6 18"/>')}</button></label></div>
+   <div class="sqchips">${['all','news','jobs','today'].map(k=>`<button type="button" data-f="${k}" class="${k===flt?'on':''}">${esc(T[k])}</button>`).join('')}</div>
+   <div class="sqout" id="sqOut"></div>`;
+  h.hidden=false; const inp=$('sqIn'), out=$('sqOut');
+  const ist=new Date(Date.now()+(330+new Date().getTimezoneOffset())*60000), dd=String(ist.getDate()).padStart(2,'0')+'.'+String(ist.getMonth()+1).padStart(2,'0')+'.'+ist.getFullYear();
+  const rec=()=>{ try{ return JSON.parse(localStorage.getItem('w2s.recentQ')||'[]'); }catch(e){ return []; } };
+  const empty=()=>{ const r=rec(); out.innerHTML=`${r.length?`<div class="sqlbl">${esc(T.rec)}</div><div class="sqsug">${r.map(x=>`<button type="button">${esc(x)}</button>`).join('')}</div>`:''}
+     <div class="sqlbl">${esc(T.try)}</div><div class="sqsug">${T.sug.map(x=>`<button type="button">${esc(x)}</button>`).join('')}</div><div class="sqtip">${esc(T.tip)}</div>`;
+    out.querySelectorAll('.sqsug button').forEach(b=>b.onclick=()=>{ inp.value=b.textContent; run(true); }); };
+  const mark=(txt,terms)=>{ let e=esc(txt); terms.forEach(t=>{ if(t.length<2||e.includes('<mark>')) return; const i=e.toLowerCase().indexOf(t); if(i<0) return; let j=i+t.length; while(j<e.length&&/[\u0C00-\u0C03\u0C3E-\u0C56\u0C62\u0C63\u200C\u200D]/.test(e[j])) j++; if(e[j-1]==='\u0C4D'&&/[\u0C15-\u0C39]/.test(e[j]||'')){ j++; while(j<e.length&&/[\u0C3E-\u0C56\u200C]/.test(e[j])) j++; } e=e.slice(0,i)+'<mark>'+e.slice(i,j)+'</mark>'+e.slice(j); }); return e; };
+  function run(save){ const q=inp.value.trim(); h.querySelector('.sqc').hidden=!q; if(!q){ empty(); return; }
+    if(save){ try{ const r=rec().filter(x=>x!==q); r.unshift(q); localStorage.setItem('w2s.recentQ',JSON.stringify(r.slice(0,6))); }catch(e){} }
+    const toks=q.toLowerCase().split(/\s+/).filter(Boolean).map(sqAliases);
+    let res=sqIndex().filter(it=>(flt==='all'||(flt==='today'?it.d===dd:it.k===flt))&&toks.every(al=>al.some(a=>it.t.includes(a))))
+      .map(it=>({it,sc:toks.reduce((a,al)=>a+(al.some(x=>it.h.includes(x))?3:1),0)+(it.d===dd?1:0)})).sort((a,b)=>b.sc-a.sc).slice(0,40).map(x=>x.it);
+    const terms=[].concat(...toks);
+    if(!res.length){ out.innerHTML=`<div class="sqnone"><b>${esc(T.none(q))}</b><span>${esc(T.noneS)}</span></div>`; return; }
+    out.innerHTML=`<div class="sqlbl">${esc(T.n(res.length,q))}</div><div class="sqlist">${res.map((it,i)=>{ const o=it.k==='news'?tr(it.o):it.o;
+      const meta=it.k==='news'?[o.src,(o.cat||'').split('·').pop().trim(),o.t||o.d].filter(Boolean).join(' · '):[T.job,o.org,o.last?T.last+' '+teDate(o.last):''].filter(Boolean).join(' · ');
+      return `<button type="button" class="sqr" data-i="${i}"><span class="sqk ${it.k}">${it.k==='news'?ic('<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/>'):ic('<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>')}</span><span class="t"><small>${esc(meta)}</small><b>${mark(o.h||'',terms)}</b></span></button>`; }).join('')}</div>`;
+    out.querySelectorAll('.sqr').forEach(b=>b.onclick=()=>{ const it=res[+b.dataset.i]; try{ const r=rec().filter(x=>x!==q); r.unshift(q); localStorage.setItem('w2s.recentQ',JSON.stringify(r.slice(0,6))); }catch(e){}
+      h.hidden=true;
+      if(it.k==='jobs'){ openJobs('all',it.o.id); return; }
+      const key=keyOf(it.o); if(view!=='home'){ goHome(); } setTimeout(()=>{ const i=LIST.findIndex(x=>x&&!x.kind&&keyOf(x._orig||x)===key||(x&&keyOf(x)===key)); if(i>=0) go(i,'left'); },view==='home'?30:380); }); }
+  let tm; inp.addEventListener('input',()=>{ clearTimeout(tm); tm=setTimeout(()=>run(false),160); });
+  inp.addEventListener('keydown',e=>{ if(e.key==='Enter'){ e.preventDefault(); run(true); inp.blur(); } });
+  h.querySelector('.sqc').onclick=()=>{ inp.value=''; run(false); inp.focus(); };
+  h.querySelector('.sqx').onclick=()=>{ h.hidden=true; };
+  h.querySelectorAll('.sqchips button').forEach(b=>b.onclick=()=>{ flt=b.dataset.f; h.querySelectorAll('.sqchips button').forEach(x=>x.classList.toggle('on',x===b)); run(false); });
+  empty(); setTimeout(()=>inp.focus(),80);
 }
 /* ---------- bottom nav ---------- */
 function setView(v){
