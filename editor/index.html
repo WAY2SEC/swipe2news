@@ -101,11 +101,12 @@ const CREDITS=['PIB · భారత ప్రభుత్వం','PMO India','�
 const sidOf=x=>{ if(x._sid) return x._sid; let h=5381; const t=(x.url||'')+'|'+(x.h||''); for(let i=0;i<t.length;i++) h=((h<<5)+h+t.charCodeAt(i))|0; return (h>>>0).toString(36); };
 async function renderPhoto(){
   $('list').innerHTML='<div class="empty">లోడ్ అవుతోంది…</div>';
-  try{ const j=await (await fetch('/news.json?'+Date.now())).json(); NEWS=(j.stories||j||[]).filter(x=>x&&x.h&&!x.kind).slice(0,50); }catch(e){ NEWS=[]; }
+  try{ const j=await (await fetch('/news.json?'+Date.now())).json(); NEWS=(j.stories||j||[]).filter(x=>x&&x.h&&!x.kind); }catch(e){ NEWS=[]; }
   try{ const p=await call({action:'offphotolist'}); PHOTOS=(p&&p.ok&&p.items)||[]; }catch(e){ PHOTOS=[]; }
   $('list').innerHTML=`<div class="pf" id="pf">
     <div class="rule">📷 <b>ప్రభుత్వ ప్రెస్ రిలీజ్ (PIB, సీఎంఓ, I&PR)</b> లేదా <b>పార్టీ/నేత అధికారిక ఖాతా</b> విడుదల చేసిన ఫోటోలు మాత్రమే. పత్రికలు, ఏజెన్సీలు (PTI, ANI), ఫోటోగ్రాఫర్ల ఫోటోలు వద్దు. <b>అన్ని పార్టీలకూ ఒకే నియమం.</b> క్రెడిట్ ఫోటో మీద కనిపిస్తుంది.</div>
-    <label>వార్త ఎంచుకోండి<select id="pSid"><option value="">— వార్త —</option>${NEWS.map(x=>`<option value="${esc(sidOf(x))}">${esc(x.h)}</option>`).join('')}</select></label>
+    <label>వార్త వెతకండి<input type="search" id="pQ" placeholder="ఉదా: రేవంత్, మోదీ, సీఎం"></label>
+    <label>వార్త ఎంచుకోండి (${NEWS.length} వార్తలు)<select id="pSid"><option value="">— వార్త —</option>${NEWS.map(x=>`<option value="${esc(sidOf(x))}">${esc((x.pub||x.t||'').toString().slice(5,10).replace('-','/'))} · ${esc(x.h)}</option>`).join('')}</select></label>
     <label>ఫోటో<input type="file" id="pFile" accept="image/*"></label><img class="prev" id="pPrev" hidden alt="">
     <label>క్రెడిట్<select id="pCr">${CREDITS.map(c=>`<option>${esc(c)}</option>`).join('')}</select></label>
     <label>క్రెడిట్ పేరు (ఐచ్ఛికం)<input type="text" id="pCrN" maxlength="60" placeholder="ఉదా: BRS పార్టీ, ఒవైసీ అధికారిక ఖాతా"><small>"పార్టీ/నేత అధికారిక ఖాతా" అయితే పార్టీ లేదా నేత పేరు రాయండి</small></label>
@@ -120,7 +121,8 @@ async function renderPhoto(){
   const chk=()=>{ $('pGo').disabled=!($('pSid').value&&$('pFile').files[0]&&/^https:\/\//.test($('pSrc').value.trim())&&$('pOk').checked); };
   const fillCr=()=>{ if(/అధికారిక ఖాతా/.test($('pCr').value)&&!$('pCrN').value.trim()&&!/^ప్రభుత్వం|^రాజ్యాంగ|^ఇతర|^స్వతంత్ర/.test($('pParty').value)) $('pCrN').value=$('pParty').value.replace(/\s*\(.*\)$/,''); };
   $('pCr').addEventListener('change',fillCr); $('pParty').addEventListener('change',fillCr);
-  ['pSid','pFile','pSrc','pOk'].forEach(k=>$(k).addEventListener('input',chk)); $('pOk').addEventListener('change',chk);
+  ['pSid','pFile','pSrc','pOk'].forEach(k=>$(k).addEventListener('input',chk));
+  $('pQ').addEventListener('input',()=>{ const q=$('pQ').value.trim().toLowerCase(); const sel=$('pSid'); const opts=NEWS.filter(x=>!q||((x.h||'')+' '+((x.en&&x.en.h)||'')+' '+(x.s||'')).toLowerCase().includes(q)); sel.innerHTML='<option value="">— '+opts.length+' వార్తలు —</option>'+opts.map(x=>`<option value="${esc(sidOf(x))}">${esc(x.h)}</option>`).join(''); chk(); }); $('pOk').addEventListener('change',chk);
   $('pFile').addEventListener('change',()=>{ const f=$('pFile').files[0]; if(f){ $('pPrev').src=URL.createObjectURL(f); $('pPrev').hidden=false; } chk(); });
   $('pGo').onclick=async()=>{ $('pGo').disabled=true; $('pGo').textContent='పంపుతోంది…';
     try{ const data=await shrink($('pFile').files[0]); const st=NEWS.find(x=>sidOf(x)===$('pSid').value)||{};
