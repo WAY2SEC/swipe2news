@@ -1,13 +1,13 @@
 # Swipe2News story check
 
-## news.json: 192 stories · 0 to fix · 0 to look at · 0 fixed automatically
+## news.json: 194 stories · 0 to fix · 0 to look at · 0 fixed automatically
 
 ### Pictures needed (create in your image tool, send to Claude)
 - **Industry & Factories** – 7 story(ies), e.g. "బడ్జెట్ 2027-28పై నిర్మల భేటీ". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
 - **Labour Strike / Workers' Protest** – 1 story(ies), e.g. "బడ్జెట్ 2027-28పై నిర్మల భేటీ". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Peaceful group of workers in helmets and work clothes gathered outside a factory or mine gate holding blank placards and plain red flags, seen from behind or at a distance. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents. Calm, non-violent. Top 15% plain plum sky. No readable text on placards, no faces in close-up, no logos, no watermark.
-## archive/2026-11-16.json: 248 stories · 0 to fix · 2 to look at · 0 fixed automatically
-- CHECK: #88 "మైక్రోసాఫ్ట్ 365 అంతరాయానికి కారణం వెల్ల": headline is 42 characters – may not fit one line (keep ≤ 38)
-- CHECK: #188 "2031 వన్డే ప్రపంచకప్‌కు భారత్, బంగ్లాదేశ": headline is 49 characters – may not fit one line (keep ≤ 38)
+## archive/2026-11-16.json: 250 stories · 0 to fix · 2 to look at · 0 fixed automatically
+- CHECK: #90 "మైక్రోసాఫ్ట్ 365 అంతరాయానికి కారణం వెల్ల": headline is 42 characters – may not fit one line (keep ≤ 38)
+- CHECK: #190 "2031 వన్డే ప్రపంచకప్‌కు భారత్, బంగ్లాదేశ": headline is 49 characters – may not fit one line (keep ≤ 38)
 
 ### Pictures needed (create in your image tool, send to Claude)
 - **Industry & Factories** – 8 story(ies), e.g. "బడ్జెట్ 2027-28పై నిర్మల భేటీ". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
