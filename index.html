@@ -1184,11 +1184,11 @@ function teLatinSafe(v){ try{ return teLatin(v); }catch(e){ return v; } }
 /* job card words in the reader's language */
 const JU = {
   te:{elig:'🎓 అర్హత',age:'🎂 వయసు',pay:'💰 జీతం',last:'🗓️ చివరి తేదీ',where:'🏢 ఎక్కడ',exp:'🧑‍💼 అనుభవం',how:'📝 ఎలా',today:'⏰ ఈరోజే చివరి రోజు',few:n=>`⏰ ఇంకా ${n} రోజులే మిగిలాయి`,more:n=>`⏳ దరఖాస్తుకు ఇంకా ${n} రోజులు`,lastd:'చివరి తేదీ',pub:'ప్రచురణ',off:'అధికారిక వెబ్‌సైట్ →',hint:'తర్వాత ఉద్యోగం: ← ఎడమకు లేదా ↓ కిందకు స్వైప్ చేయండి',warn:'⚠️ ఉద్యోగం కోసం ఎవరికీ డబ్బులు ఇవ్వకండి. అధికారిక వెబ్‌సైట్‌లోనే దరఖాస్తు చేయండి.',warn1:'⚠️ ఉద్యోగం కోసం ఎవరికీ డబ్బులు ఇవ్వకండి',posts:'పోస్టులు',s1:'💼 జాబ్స్',s2:' – ఉద్యోగ సమాచారం',s3:'తెలుగులో వేగంగా ఉద్యోగ ప్రకటనలు',job:'ఉద్యోగం',jobs:'ఉద్యోగాలు',ch:'Swipe2News WhatsApp ఛానెల్',
-      types:{tg:'తెలంగాణ',ap:'ఆంధ్రప్రదేశ్',central:'కేంద్ర ప్రభుత్వం',psu:'కేంద్ర ప్రభుత్వం',bank:'బ్యాంక్',railway:'రైల్వే',police:'పోలీస్ / రక్షణ',teaching:'టీచర్ / విద్య',it:'IT / సాఫ్ట్‌వేర్',private:'ప్రైవేట్ ఉద్యోగాలు',mela:'జాబ్ మేళా / అప్రెంటిస్',all:'అన్నీ'}},
+      types:{near:'📍 మీ ఊరిలో',tg:'తెలంగాణ',ap:'ఆంధ్రప్రదేశ్',central:'కేంద్ర ప్రభుత్వం',psu:'కేంద్ర ప్రభుత్వం',bank:'బ్యాంక్',railway:'రైల్వే',police:'పోలీస్ / రక్షణ',teaching:'టీచర్ / విద్య',it:'IT / సాఫ్ట్‌వేర్',private:'ప్రైవేట్ ఉద్యోగాలు',mela:'జాబ్ మేళా / అప్రెంటిస్',all:'అన్నీ'}},
   en:{elig:'🎓 Eligibility',age:'🎂 Age',pay:'💰 Pay',last:'🗓️ Last date',where:'🏢 Where',exp:'🧑‍💼 Experience',how:'📝 How to apply',today:'⏰ Today is the last day',few:n=>`⏰ Only ${n} day${n>1?'s':''} left`,more:n=>`⏳ ${n} days left to apply`,lastd:'Last date',pub:'Posted',off:'Official website →',hint:'Next job: swipe ← left or ↓ down',warn:'⚠️ Never pay anyone for a job. Apply only on the official website.',warn1:'⚠️ Never pay anyone for a job',posts:'Posts',s1:'💼 Jobs',s2:' – job alerts',s3:'Fast, verified job alerts',job:'Job',jobs:'Jobs',ch:'Swipe2News WhatsApp channel',
-      types:{tg:'Telangana',ap:'Andhra Pradesh',central:'Central Govt',psu:'Central Govt',bank:'Bank',railway:'Railway',police:'Police / Defence',teaching:'Teaching',it:'IT / Software',private:'Private jobs',mela:'Job mela / Apprentice',all:'All'}},
+      types:{near:'📍 Near you',tg:'Telangana',ap:'Andhra Pradesh',central:'Central Govt',psu:'Central Govt',bank:'Bank',railway:'Railway',police:'Police / Defence',teaching:'Teaching',it:'IT / Software',private:'Private jobs',mela:'Job mela / Apprentice',all:'All'}},
   hi:{elig:'🎓 योग्यता',age:'🎂 आयु',pay:'💰 वेतन',last:'🗓️ अंतिम तिथि',where:'🏢 कहाँ',exp:'🧑‍💼 अनुभव',how:'📝 कैसे आवेदन करें',today:'⏰ आज आख़िरी दिन है',few:n=>`⏰ सिर्फ़ ${n} दिन बाकी`,more:n=>`⏳ आवेदन के लिए ${n} दिन बाकी`,lastd:'अंतिम तिथि',pub:'प्रकाशित',off:'आधिकारिक वेबसाइट →',hint:'अगली नौकरी: ← बाएँ या ↓ नीचे स्वाइप करें',warn:'⚠️ नौकरी के लिए किसी को पैसे न दें। सिर्फ़ आधिकारिक वेबसाइट पर आवेदन करें।',warn1:'⚠️ नौकरी के लिए किसी को पैसे न दें',posts:'पद',s1:'💼 नौकरियाँ',s2:' – नौकरी की खबरें',s3:'तेज़ और भरोसेमंद नौकरी अलर्ट',job:'नौकरी',jobs:'नौकरियाँ',ch:'Swipe2News WhatsApp चैनल',
-      types:{tg:'तेलंगाना',ap:'आंध्र प्रदेश',central:'केंद्र सरकार',psu:'केंद्र सरकार',bank:'बैंक',railway:'रेलवे',police:'पुलिस / रक्षा',teaching:'शिक्षक / शिक्षा',it:'आईटी / सॉफ़्टवेयर',private:'प्राइवेट नौकरियाँ',mela:'रोज़गार मेला / अप्रेंटिस',all:'सभी'}}};
+      types:{near:'📍 आपके पास',tg:'तेलंगाना',ap:'आंध्र प्रदेश',central:'केंद्र सरकार',psu:'केंद्र सरकार',bank:'बैंक',railway:'रेलवे',police:'पुलिस / रक्षा',teaching:'शिक्षक / शिक्षा',it:'आईटी / सॉफ़्टवेयर',private:'प्राइवेट नौकरियाँ',mela:'रोज़गार मेला / अप्रेंटिस',all:'सभी'}}};
 const J = k => (JU[LG()]||JU.te)[k];
 
 /* ---------- Tenglish: Telugu news in English letters (for readers who speak Telugu but read English script) ---------- */
@@ -1269,7 +1269,7 @@ async function loadWishes(){ try{ const r=await fetch(CONFIG.WISHES_URL+'?t='+Da
   WISHES=await r.json(); store.set('wishes',WISHES); }catch(e){ WISHES=store.get('wishes',WISHES); } }
 
 /* ---------- jobs (jobs.json, filled once a day) ---------- */
-const JOB_TYPES = [['all','అన్నీ'],['tg','తెలంగాణ'],['ap','ఆంధ్రప్రదేశ్'],['central','కేంద్ర ప్రభుత్వం'],['bank','బ్యాంక్'],['railway','రైల్వే'],['police','పోలీస్ / రక్షణ'],['teaching','టీచర్ / విద్య'],['it','IT / సాఫ్ట్‌వేర్'],['private','ప్రైవేట్ ఉద్యోగాలు'],['mela','జాబ్ మేళా / అప్రెంటిస్']];
+const JOB_TYPES = [['all','అన్నీ'],['near','📍 మీ ఊరిలో'],['tg','తెలంగాణ'],['ap','ఆంధ్రప్రదేశ్'],['central','కేంద్ర ప్రభుత్వం'],['bank','బ్యాంక్'],['railway','రైల్వే'],['police','పోలీస్ / రక్షణ'],['teaching','టీచర్ / విద్య'],['it','IT / సాఫ్ట్‌వేర్'],['private','ప్రైవేట్ ఉద్యోగాలు'],['mela','జాబ్ మేళా / అప్రెంటిస్']];
 const JT = Object.fromEntries(JOB_TYPES);
 let JOBS = [], jobFilter = 'all', jobsLoaded = false;
 function daysLeft(j){ const m=/^(\d\d)\.(\d\d)\.(\d{4})$/.exec(j.last||''); if(!m) return null;
@@ -1354,9 +1354,22 @@ $('tabs').addEventListener('click',e=>{const b=e.target.closest('.tab');if(!b)re
 /* ---------- feed ---------- */
 const secsOf = s => Array.isArray(s.sec)?s.sec:(s.sec?[s.sec]:['telangana']);
 function pick(){ return pick0().map(tr).map(x=>tlStory(x)); }
+/* "మీ ఊరిలో" jobs (user, 16 Nov 2026): the reader's own district first, then their state's jobs.
+   A job counts as local when its place key is the reader's district or its location text names that district/city.
+   Hyderabad, Rangareddy, Medchal and Sangareddy readers all count Hyderabad jobs as near. */
+const HYD_METRO=['hyderabad','rangareddy','medchal','sangareddy'];
+function nearJobs(){ const k=prefs.place||'TS', st=stOfPlace(k), keys=HYD_METRO.includes(k)?HYD_METRO:[k];
+  const names=[]; keys.forEach(x=>{ const t=PLACES.find(p=>p[0]===x); if(t){ names.push(t[1],t[2]); } else if(x!=='TS'&&x!=='AP'&&!x.startsWith('st-')){ const n=placeName(x); if(n) names.push(n); } });
+  if(HYD_METRO.includes(k)) names.push('హైదరాబాద్','Hyderabad');
+  const nm=names.filter(n=>n&&n.length>2).map(n=>n.toLowerCase());
+  const local=j=>keys.includes(j.place)||nm.some(n=>((j.loc||'')+' '+((j.en&&j.en.loc)||'')).toLowerCase().includes(n));
+  const inSt=j=>st==='AP'?(j.place==='AP'||String(j.place||'').startsWith('ap-')):(j.place==='TS'||PLACES.some(p=>p[0]===j.place));
+  const a=JOBS.filter(local), b=JOBS.filter(j=>!local(j)&&inSt(j));
+  return a.concat(b); }
 function pick0(){
   if(view==='saved') return saved;
   if(view==='jobs'){
+    if(jobFilter==='near') return nearJobs();
     let l = jobFilter==='all' ? JOBS : JOBS.filter(j=>j.type===jobFilter || (jobFilter==='central' && j.type==='psu'));
     if(prefs.place!=='TS') l = l.filter(j=>j.place===prefs.place).concat(l.filter(j=>j.place!==prefs.place));
     return l;
@@ -1813,7 +1826,7 @@ function renderFeed(keepKey){
   if(!LIST.length){
     const s=SECTIONS.find(x=>x[0]===section);
     if(view==='jobs'){
-      feed.innerHTML = `<div class="empty"><h2>${jobsLoaded||JOBS.length?'ఈ విభాగంలో ఇప్పుడు ఉద్యోగ ప్రకటనలు లేవు':'ఉద్యోగాలు లోడ్ అవుతున్నాయి…'}</h2><p>కొత్త ఉద్యోగ ప్రకటనలు ప్రతిరోజూ ఉదయం జోడిస్తాం.</p>${jobFilter!=='all'?'<button class="btn" type="button" id="toAll">అన్ని ఉద్యోగాలు చూడండి</button>':''}</div>`;
+      feed.innerHTML = `<div class="empty"><h2>${jobsLoaded||JOBS.length?(jobFilter==='near'?esc(placeName(prefs.place))+' లో ఇప్పుడు ఉద్యోగ ప్రకటనలు లేవు':'ఈ విభాగంలో ఇప్పుడు ఉద్యోగ ప్రకటనలు లేవు'):'ఉద్యోగాలు లోడ్ అవుతున్నాయి…'}</h2><p>కొత్త ఉద్యోగ ప్రకటనలు ప్రతిరోజూ ఉదయం జోడిస్తాం.</p>${jobFilter!=='all'?'<button class="btn" type="button" id="toAll">అన్ని ఉద్యోగాలు చూడండి</button>':''}</div>`;
       if($('toAll')) $('toAll').onclick=()=>{ jobFilter='all'; renderTabs(); renderFeed(); };
       setCount(0,0); cards=[]; syncSave(); return;
     }
