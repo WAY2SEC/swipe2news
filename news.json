@@ -1,8 +1,633 @@
 {
  "date": "16.11.2026",
- "updated": "2026-11-16T16:35:00+05:30",
+ "updated": "2026-11-16T17:16:39+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "తెలంగాణ · ఇంటర్నెట్",
+   "col": "--c-gov",
+   "art": "economy",
+   "stat": "₹3,185 కోట్లు",
+   "statl": "భారత్‌నెట్ పనులకు కేంద్రం మంజూరు",
+   "h": "తెలంగాణ పల్లెల్లో ఇంటింటికీ ఇంటర్నెట్",
+   "p": "సవరించిన భారత్‌నెట్ పథకం కింద కేంద్ర ప్రభుత్వ డిజిటల్ భారత్ నిధి, రాష్ట్ర టి-ఫైబర్ మధ్య ఒప్పందం కుదిరింది. గ్రామాల్లోని ప్రతి ఇంటికీ హైస్పీడ్ ఇంటర్నెట్ అందించడమే లక్ష్యం. ఇందుకు కేంద్రం ₹3,185 కోట్లు మంజూరు చేసింది. పెద్దపల్లి, నారాయణపేట, సంగారెడ్డి జిల్లాల్లో పైలట్ ప్రాజెక్టు ఇప్పటికే నడుస్తోంది. మిగిలిన పంచాయతీలు, కార్యాలయాలు, పాఠశాలలకు టి-ఫైబర్‌ను విస్తరిస్తారు.",
+   "pts": [
+    "ఉమ్మడి కరీంనగర్‌లో 1,179 పంచాయతీలకు ఇప్పటికే ఇంటర్నెట్",
+    "కొన్ని గ్రామాల్లో ఫైబర్ పైపులు దెబ్బతిని సేవలకు అంతరాయం"
+   ],
+   "why": "తెలంగాణ గ్రామీణ కుటుంబాలు, పాఠశాలలు, ప్రభుత్వ కార్యాలయాలకు సంబంధించిన పథకం.",
+   "src": "ETV Bharat",
+   "url": "https://www.etvbharat.com/te/state/telangana-govt-launches-bharatnet-project-to-provide-internet-services-to-every-home-in-rural-areas-tgs26111603335",
+   "sec": [
+    "telangana",
+    "innovation"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-16T16:36+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Internet",
+    "h": "Internet for every rural Telangana home",
+    "stat": "₹3,185 crore",
+    "statl": "Sanctioned by Centre for BharatNet",
+    "loc": "Telangana",
+    "p": "The Centre's Digital Bharat Nidhi and Telangana's T-Fiber have signed an agreement under the amended BharatNet programme. The aim is high-speed internet for every rural household. The Centre has sanctioned ₹3,185 crore. A pilot is already running in Peddapalli, Narayanpet and Sangareddy districts. T-Fiber will be extended to the remaining panchayats, offices and schools.",
+    "pts": [
+     "1,179 panchayats in old Karimnagar district already connected",
+     "Damaged fiber pipes disrupt service in some villages"
+    ],
+    "why": "Affects rural households, schools and government offices across Telangana."
+   },
+   "hi": {
+    "cat": "तेलंगाना · इंटरनेट",
+    "h": "तेलंगाना के गांवों में घर-घर इंटरनेट",
+    "stat": "₹3,185 करोड़",
+    "statl": "भारतनेट के लिए केंद्र की मंजूरी",
+    "loc": "तेलंगाना",
+    "p": "संशोधित भारतनेट कार्यक्रम के तहत केंद्र की डिजिटल भारत निधि और तेलंगाना की टी-फाइबर के बीच समझौता हुआ है। लक्ष्य हर ग्रामीण घर तक हाई-स्पीड इंटरनेट पहुंचाना है। केंद्र ने ₹3,185 करोड़ मंजूर किए हैं। पेद्दापल्ली, नारायणपेट और संगारेड्डी जिलों में पायलट परियोजना पहले से चल रही है। बाकी पंचायतों, दफ्तरों और स्कूलों तक टी-फाइबर बढ़ाया जाएगा।",
+    "pts": [
+     "पुराने करीमनगर जिले में 1,179 पंचायतें पहले से जुड़ीं",
+     "कुछ गांवों में फाइबर पाइप टूटने से सेवा बाधित"
+    ],
+    "why": "तेलंगाना के ग्रामीण परिवारों, स्कूलों और सरकारी दफ्तरों से जुड़ी योजना।"
+   },
+   "d": "16.11.2026",
+   "t": "17:05",
+   "local": true
+  },
+  {
+   "cat": "తెలంగాణ · ఆరోగ్యం",
+   "col": "--c-gov",
+   "art": "deadline",
+   "stat": "జూన్ 2",
+   "statl": "టిమ్స్ ఆసుపత్రుల ప్రారంభానికి గడువు",
+   "h": "టిమ్స్ ఆసుపత్రులకు జూన్ 2 గడువు: సీఎం",
+   "p": "అల్వాల్, ఎల్బీ నగర్ టిమ్స్ ఆసుపత్రులు, వరంగల్ సూపర్ స్పెషాలిటీ ఆసుపత్రి, నిమ్స్ విస్తరణ పనులను 2027 జూన్ 2 నాటికి పూర్తిచేసి ప్రారంభించాలని సీఎం రేవంత్ రెడ్డి ఆదేశించారు. కొత్త ఉస్మానియా ఆసుపత్రి 2027 డిసెంబర్ నాటికి సిద్ధం కావాలన్నారు. శాశ్వత వైద్యుల నియామకం వరకు బయటి నుంచి వైద్యులను తీసుకోవాలని, నిధులు వెంటనే విడుదల చేయాలని సూచించారు.",
+   "pts": [
+    "మూడు టిమ్స్ ఆసుపత్రులకు ఒకే నియామక విధానం",
+    "సిబ్బంది హాజరుపై బయోమెట్రిక్, ఏఐ పర్యవేక్షణ"
+   ],
+   "why": "హైదరాబాద్, వరంగల్ ప్రాంత రోగులకు అందే ప్రభుత్వ వైద్య సేవలకు సంబంధించిన నిర్ణయం.",
+   "src": "Medical Buyer",
+   "url": "https://medicalbuyer.co.in/telangana-sets-june-2-deadline-for-2-tims-hospitals-warangal-ssh/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "అల్వాల్, ఎల్బీ నగర్",
+   "pub": "2026-11-16T16:22+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Health",
+    "h": "June 2 deadline for TIMS hospitals: CM",
+    "stat": "June 2",
+    "statl": "Deadline to open TIMS hospitals",
+    "loc": "Alwal, LB Nagar, Hyderabad",
+    "p": "CM Revanth Reddy has ordered that TIMS hospitals at Alwal and LB Nagar, the Warangal super speciality hospital and the NIMS expansion be completed and opened by June 2, 2027. The new Osmania General Hospital should be ready by December 2027. Until permanent doctors are recruited, doctors are to be brought in from outside, and funds released immediately.",
+    "pts": [
+     "One recruitment policy for all three TIMS hospitals",
+     "Biometric and AI checks on staff attendance"
+    ],
+    "why": "Affects patients relying on government hospitals in Hyderabad and Warangal."
+   },
+   "hi": {
+    "cat": "तेलंगाना · स्वास्थ्य",
+    "h": "टिम्स अस्पतालों के लिए 2 जून की समय-सीमा",
+    "stat": "2 जून",
+    "statl": "टिम्स अस्पताल शुरू करने की समय-सीमा",
+    "loc": "अलवाल, एलबी नगर, हैदराबाद",
+    "p": "मुख्यमंत्री रेवंत रेड्डी ने अलवाल और एलबी नगर के टिम्स अस्पताल, वरंगल सुपर स्पेशियलिटी अस्पताल और निम्स विस्तार का काम 2 जून 2027 तक पूरा कर शुरू करने का आदेश दिया है। नया उस्मानिया जनरल अस्पताल दिसंबर 2027 तक तैयार होना है। स्थायी डॉक्टरों की भर्ती तक बाहर से डॉक्टर लिए जाएंगे और धन तुरंत जारी होगा।",
+    "pts": [
+     "तीनों टिम्स अस्पतालों के लिए एक भर्ती नीति",
+     "कर्मचारियों की हाजिरी पर बायोमेट्रिक और एआई निगरानी"
+    ],
+    "why": "हैदराबाद और वरंगल में सरकारी अस्पतालों पर निर्भर मरीजों से जुड़ा।"
+   },
+   "d": "16.11.2026",
+   "t": "17:05",
+   "local": true
+  },
+  {
+   "cat": "హైదరాబాద్ · నేరాలు",
+   "col": "--c-city",
+   "art": "court",
+   "stat": "₹2,500–3,500",
+   "statl": "ఒక్కో నకిలీ ధ్రువపత్రం ధర",
+   "h": "నకిలీ జనన పత్రాల ముఠా అరెస్టు",
+   "p": "నకిలీ జనన ధ్రువపత్రాలు తయారుచేసి అమ్ముతున్న ముఠాను ఆర్సీ పురం ఎస్‌ఓటీ పోలీసులు అరెస్టు చేశారు. జీడిమెట్ల పరిధిలో నకిలీ పత్రాలతో ఒక డెలివరీ బాయ్ పట్టుబడ్డాడు. ఒక గిఫ్ట్ షాపు నిర్వాహకుడు వాటిని తయారుచేశాడని, ఒక మీ సేవ నిర్వాహకుడు సహకరించాడని పోలీసులు తెలిపారు. ఈ పత్రాలతో ఆధార్, పాన్, బ్యాంకు ఖాతాలు, సిమ్ కార్డులు పొందారని పోలీసులు చెప్పారు.",
+   "pts": [
+    "టెలిగ్రామ్ గ్రూపులోని వెబ్‌సైట్‌తో పది సెకన్లలో పత్రం",
+    "2025 నుంచి దందా సాగుతోందని పోలీసులు"
+   ],
+   "why": "ధ్రువపత్రాల దుర్వినియోగంతో పౌరుల గుర్తింపు, భద్రతకు ముప్పు కలిగే అంశం.",
+   "src": "ETV Bharat",
+   "url": "https://www.etvbharat.com/te/state/busted-fake-birth-certificates-racket-in-hyderabad-tgs26111602570",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "జీడిమెట్ల",
+   "pub": "2026-11-16T16:32+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Crime",
+    "h": "Fake birth certificate gang held in Hyderabad",
+    "stat": "₹2,500–3,500",
+    "statl": "Price of each fake certificate",
+    "loc": "Jeedimetla, Hyderabad",
+    "p": "RC Puram SOT police have arrested a gang that made and sold fake birth certificates. A delivery boy was caught with fake certificates in Jeedimetla limits. Police said a gift-shop operator made them and a Mee Seva operator helped. According to police, the certificates were used to get Aadhaar, PAN, bank accounts and SIM cards.",
+    "pts": [
+     "Telegram-linked website made a certificate in 10 seconds",
+     "Racket running since 2025, police say"
+    ],
+    "why": "Misuse of certificates threatens citizens' identity records and security."
+   },
+   "hi": {
+    "cat": "हैदराबाद · अपराध",
+    "h": "हैदराबाद में फर्जी जन्म प्रमाणपत्र गिरोह पकड़ा",
+    "stat": "₹2,500–3,500",
+    "statl": "एक फर्जी प्रमाणपत्र की कीमत",
+    "loc": "जीडिमेटला, हैदराबाद",
+    "p": "आरसी पुरम एसओटी पुलिस ने फर्जी जन्म प्रमाणपत्र बनाकर बेचने वाले गिरोह को गिरफ्तार किया है। जीडिमेटला इलाके में एक डिलीवरी बॉय फर्जी प्रमाणपत्रों के साथ पकड़ा गया। पुलिस के अनुसार एक गिफ्ट शॉप संचालक इन्हें बनाता था और एक मी सेवा संचालक मदद करता था। पुलिस ने कहा कि इनसे आधार, पैन, बैंक खाते और सिम कार्ड लिए गए।",
+    "pts": [
+     "टेलीग्राम से जुड़ी वेबसाइट 10 सेकंड में प्रमाणपत्र बनाती थी",
+     "पुलिस के अनुसार 2025 से धंधा चल रहा था"
+    ],
+    "why": "प्रमाणपत्रों के दुरुपयोग से नागरिकों की पहचान और सुरक्षा को खतरा।"
+   },
+   "d": "16.11.2026",
+   "t": "17:05",
+   "local": true
+  },
+  {
+   "cat": "హైదరాబాద్ · ప్రమాదం",
+   "col": "--c-city",
+   "art": "",
+   "stat": "ఒకరికి",
+   "statl": "తీవ్ర గాయాలు",
+   "h": "రాంనగర్‌లో షాపులోకి దూసుకెళ్లిన కారు",
+   "p": "హైదరాబాద్ రాంనగర్‌లో సోమవారం ఉదయం వేగంగా వస్తున్న కొత్త కారు అదుపుతప్పింది. పార్క్ చేసిన ద్విచక్ర వాహనాలు, కూరగాయల బండిని ఢీకొని మెడికల్ షాపు షట్టర్ బద్దలుకొట్టి లోపలికి దూసుకెళ్లింది. కూరగాయలు అమ్ముతున్న మహిళకు తీవ్ర గాయాలయ్యాయి. స్థానికులు ఆమెను ఆసుపత్రికి తరలించారు. షాపు తెరవకపోవడంతో ఇతరులెవరికీ గాయాలు కాలేదు.",
+   "pts": [
+    "ముషీరాబాద్ పోలీసులు వాహనాలు తొలగించి ట్రాఫిక్ సరిచేశారు",
+    "ప్రమాదానికి కారణంపై పోలీసుల పరిశీలన"
+   ],
+   "why": "రాంనగర్ ప్రాంత పాదచారులు, చిరు వ్యాపారుల భద్రతకు సంబంధించిన ఘటన.",
+   "src": "Vaartha",
+   "url": "https://vaartha.com/latest-news/hyderabad-ramnagar-car-accident-rams-into-medical-shop-woman-injured/805964/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "రాంనగర్",
+   "pub": "2026-11-16T16:35+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Accident",
+    "h": "Car crashes into medical shop at Ramnagar",
+    "stat": "One woman",
+    "statl": "Seriously injured",
+    "loc": "Ramnagar, Hyderabad",
+    "p": "A speeding new car lost control at Ramnagar in Hyderabad on Monday morning. It hit parked two-wheelers and a vegetable cart, then broke through a medical shop's shutter. A woman selling vegetables was seriously injured and taken to hospital by locals. No one else was hurt as the shop had not yet opened.",
+    "pts": [
+     "Musheerabad police cleared vehicles and traffic",
+     "Police checking the cause of the crash"
+    ],
+    "why": "Concerns safety of pedestrians and street vendors in Ramnagar."
+   },
+   "hi": {
+    "cat": "हैदराबाद · हादसा",
+    "h": "रामनगर में कार मेडिकल दुकान में घुसी",
+    "stat": "एक महिला",
+    "statl": "गंभीर रूप से घायल",
+    "loc": "रामनगर, हैदराबाद",
+    "p": "हैदराबाद के रामनगर में सोमवार सुबह तेज रफ्तार नई कार बेकाबू हो गई। उसने खड़े दोपहिया वाहनों और सब्जी के ठेले को टक्कर मारी और मेडिकल दुकान का शटर तोड़कर अंदर घुस गई। सब्जी बेचने वाली एक महिला गंभीर रूप से घायल हुई, जिसे स्थानीय लोग अस्पताल ले गए। दुकान न खुली होने से कोई और घायल नहीं हुआ।",
+    "pts": [
+     "मुशीराबाद पुलिस ने वाहन हटाकर यातायात सुचारु किया",
+     "पुलिस हादसे के कारण की जांच कर रही"
+    ],
+    "why": "रामनगर में पैदल चलने वालों और रेहड़ी वालों की सुरक्षा से जुड़ा।"
+   },
+   "d": "16.11.2026",
+   "t": "17:05",
+   "local": true
+  },
+  {
+   "cat": "తెలంగాణ · భూపాలపల్లి",
+   "col": "--c-money",
+   "art": "",
+   "stat": "₹18,000",
+   "statl": "నెల వేతనం కోసం డిమాండ్",
+   "h": "భూపాలపల్లిలో ఆశా వర్కర్ల ధర్నా",
+   "p": "జయశంకర్ భూపాలపల్లి జిల్లా కలెక్టరేట్ ఎదుట జిల్లా నలుమూలల నుంచి వచ్చిన ఆశా వర్కర్లు ధర్నా చేశారు. ప్రభుత్వం హామీ ఇచ్చిన ప్రకారం నెలకు ₹18,000 స్థిర వేతనం ఇవ్వాలని వారు డిమాండ్ చేశారు. తక్కువ వేతనంతో ఆర్థికంగా ఇబ్బంది పడుతున్నామని చెప్పారు. ప్రభుత్వం స్పందించే వరకు ఆందోళన కొనసాగిస్తామని తెలిపారు.",
+   "pts": [
+    "ఉద్యోగ భద్రత, పెండింగ్ సమస్యల పరిష్కారం కూడా డిమాండ్"
+   ],
+   "why": "జిల్లాలో గ్రామీణ ఆరోగ్య సేవలు అందించే ఆశా వర్కర్ల జీవనోపాధికి సంబంధించిన అంశం.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/warangal/bhupalpally-asha-workers-stage-dharna-demanding-rs-18k-pay-213599",
+   "sec": [
+    "telangana",
+    "jobs"
+   ],
+   "st": "TG",
+   "place": "bhupalpally",
+   "loc": "భూపాలపల్లి",
+   "pub": "2026-11-16T16:15+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Bhupalpally",
+    "h": "ASHA workers protest at Bhupalpally Collectorate",
+    "stat": "₹18,000",
+    "statl": "Monthly pay demanded",
+    "loc": "Bhupalpally",
+    "p": "ASHA workers from across Jayashankar Bhupalpally district held a dharna in front of the Collectorate. They demanded a fixed monthly pay of ₹18,000, which they say the government promised. They said low pay is causing them financial hardship and that the protest will continue until the government responds.",
+    "pts": [
+     "Also seek job security and settlement of pending issues"
+    ],
+    "why": "Concerns the livelihood of ASHA workers who deliver rural health services."
+   },
+   "hi": {
+    "cat": "तेलंगाना · भूपालपल्ली",
+    "h": "भूपालपल्ली कलेक्ट्रेट पर आशा कार्यकर्ताओं का धरना",
+    "stat": "₹18,000",
+    "statl": "मासिक वेतन की मांग",
+    "loc": "भूपालपल्ली",
+    "p": "जयशंकर भूपालपल्ली जिले भर की आशा कार्यकर्ताओं ने कलेक्ट्रेट के सामने धरना दिया। उन्होंने ₹18,000 मासिक निश्चित वेतन की मांग की, जिसका उनके अनुसार सरकार ने वादा किया था। उन्होंने कहा कि कम वेतन से आर्थिक तंगी है और सरकार के जवाब देने तक आंदोलन जारी रहेगा।",
+    "pts": [
+     "नौकरी की सुरक्षा और लंबित मुद्दों के हल की भी मांग"
+    ],
+    "why": "ग्रामीण स्वास्थ्य सेवाएं देने वाली आशा कार्यकर्ताओं की आजीविका से जुड़ा।"
+   },
+   "d": "16.11.2026",
+   "t": "17:05",
+   "local": true
+  },
+  {
+   "cat": "తెలంగాణ · విద్యుత్",
+   "col": "--c-power",
+   "art": "power",
+   "stat": "1,600 మెగావాట్ల",
+   "statl": "కొత్త ప్లాంటు కోసం వినతి",
+   "h": "పాల్వంచలో కొత్త విద్యుత్ ప్లాంటుకు వినతి",
+   "p": "పాల్వంచలో 2×800 మెగావాట్ల కొత్త విద్యుత్ ప్లాంటు ఏర్పాటు చేయాలని కేటీపీఎస్ సాధన సమితి, వివిధ పార్టీల నాయకులు, విద్యుత్ ఉద్యోగులు మంత్రి తుమ్మల నాగేశ్వరరావును కోరారు. దమ్మపేటలోని మంత్రి నివాసంలో సోమవారం ఆయనను కలిశారు. మంత్రి సానుకూలంగా స్పందించి ప్లాంటు కోసం కృషి చేస్తానని హామీ ఇచ్చారని సమితి తెలిపింది.",
+   "pts": [
+    "ప్లాంటుకు ఇంకా అధికారిక నిర్ణయం, గడువు లేదు"
+   ],
+   "why": "పాల్వంచ ప్రాంత ఉపాధి, రాష్ట్ర విద్యుత్ సరఫరాకు సంబంధించిన అంశం.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/khammam/palvancha-minister-tummala-assures-new-power-plant-support-213602",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "TG",
+   "place": "bhadradri",
+   "loc": "పాల్వంచ",
+   "pub": "2026-11-16T16:18+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Power",
+    "h": "Plea for new power plant at Palvancha",
+    "stat": "1,600 MW",
+    "statl": "New plant sought",
+    "loc": "Palvancha, Bhadradri Kothagudem",
+    "p": "The KTPS Sadhana Samithi, leaders of several parties and power employees met Minister Tummala Nageswara Rao at his Dammapeta home on Monday. They asked for a new 2×800 MW power plant at Palvancha. The Samithi said the minister responded positively and promised to work for the plant.",
+    "pts": [
+     "No official decision or timeline yet"
+    ],
+    "why": "Matters to jobs in Palvancha and Telangana's power supply."
+   },
+   "hi": {
+    "cat": "तेलंगाना · बिजली",
+    "h": "पालवंचा में नए बिजली संयंत्र की मांग",
+    "stat": "1,600 मेगावाट",
+    "statl": "नए संयंत्र की मांग",
+    "loc": "पालवंचा, भद्राद्री कोत्तागुडेम",
+    "p": "केटीपीएस साधना समिति, कई दलों के नेताओं और बिजली कर्मचारियों ने सोमवार को दम्मापेटा स्थित आवास पर मंत्री तुम्मला नागेश्वर राव से मुलाकात की। उन्होंने पालवंचा में 2×800 मेगावाट का नया बिजली संयंत्र मांगा। समिति के अनुसार मंत्री ने सकारात्मक जवाब दिया और प्रयास का भरोसा दिया।",
+    "pts": [
+     "अभी कोई आधिकारिक निर्णय या समय-सीमा नहीं"
+    ],
+    "why": "पालवंचा में रोजगार और तेलंगाना की बिजली आपूर्ति से जुड़ा।"
+   },
+   "d": "16.11.2026",
+   "t": "17:05",
+   "local": true
+  },
+  {
+   "cat": "తెలంగాణ · క్రీడలు",
+   "col": "--c-city",
+   "art": "campus",
+   "stat": "9 బంగారు పతకాలు",
+   "statl": "దుబ్బాక విద్యార్థులకు",
+   "h": "కరాటేలో దుబ్బాకకు 9 బంగారు పతకాలు",
+   "p": "సంగారెడ్డి జిల్లా భానూర్‌లో నవంబర్ 15న జరిగిన తెలంగాణ రాష్ట్ర స్థాయి ఓపెన్ కరాటే ఛాంపియన్‌షిప్‌లో సిద్దిపేట జిల్లా దుబ్బాక మండల విద్యార్థులు సత్తా చాటారు. పోటీలో పాల్గొన్న తొమ్మిది మంది విద్యార్థులూ బంగారు పతకాలు గెలిచారు. వీరు యువ స్పోర్ట్స్ కరాటే అకాడమీలో శిక్షణ పొందారు.",
+   "pts": [
+    "మాస్టర్ మైండ్ స్కూల్ విద్యార్థులకు 5 బంగారు పతకాలు"
+   ],
+   "why": "దుబ్బాక ప్రాంత పాఠశాల విద్యార్థులు, క్రీడాకారులకు ప్రోత్సాహం ఇచ్చే విజయం.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/siddipet/siddipet-dubbak-students-win-9-gold-medals-at-telangana-state-level-open-213622",
+   "sec": [
+    "telangana",
+    "sports"
+   ],
+   "st": "TG",
+   "place": "siddipet",
+   "loc": "దుబ్బాక",
+   "pub": "2026-11-16T16:42+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Sports",
+    "h": "Dubbak students win 9 karate golds",
+    "stat": "9 gold medals",
+    "statl": "Won by Dubbak students",
+    "loc": "Dubbak, Siddipet",
+    "p": "Students from Dubbak mandal in Siddipet district shone at the Telangana State Level Open Karate Championship held at Bhanur in Sangareddy district on November 15. All nine students who took part won gold medals. They trained at the Yuva Sports Karate Academy.",
+    "pts": [
+     "Master Mind School students won 5 golds"
+    ],
+    "why": "Encourages school students and young athletes in the Dubbak area."
+   },
+   "hi": {
+    "cat": "तेलंगाना · खेल",
+    "h": "राज्य कराटे में दुब्बाक को 9 स्वर्ण पदक",
+    "stat": "9 स्वर्ण पदक",
+    "statl": "दुब्बाक के छात्रों ने जीते",
+    "loc": "दुब्बाक, सिद्दिपेट",
+    "p": "सिद्दिपेट जिले के दुब्बाक मंडल के छात्रों ने 15 नवंबर को संगारेड्डी जिले के भानूर में हुई तेलंगाना राज्य स्तरीय ओपन कराटे चैंपियनशिप में शानदार प्रदर्शन किया। भाग लेने वाले सभी नौ छात्रों ने स्वर्ण पदक जीते। उन्होंने युवा स्पोर्ट्स कराटे अकादमी में प्रशिक्षण लिया।",
+    "pts": [
+     "मास्टर माइंड स्कूल के छात्रों को 5 स्वर्ण"
+    ],
+    "why": "दुब्बाक क्षेत्र के स्कूली छात्रों और खिलाड़ियों के लिए प्रोत्साहन।"
+   },
+   "d": "16.11.2026",
+   "t": "17:05",
+   "local": true
+  },
+  {
+   "cat": "ఏపీ · కాకినాడ",
+   "col": "--c-city",
+   "art": "campus",
+   "stat": "2 విద్యార్థులపై",
+   "statl": "దాడి జరిగిందని ఫిర్యాదు",
+   "h": "వెలమకొత్తూరు గురుకులంలో దాడి ఆరోపణ",
+   "p": "కాకినాడ జిల్లా తుని రూరల్ మండలం వెలమకొత్తూరులోని అంబేడ్కర్ గురుకుల పాఠశాలలో ఇద్దరు పదో తరగతి ఎస్సీ విద్యార్థులను ప్రిన్సిపాల్, పీటీ టీచర్ కర్రతో కొట్టారని తల్లిదండ్రులు ఆరోపించారు. నవంబర్ 7న తెల్లటి యూనిఫాం వేసుకోలేదని ఇలా చేశారని, ఇది కుల వివక్షేనని వారు అంటున్నారు. కలెక్టరేట్‌లో గురుకుల అధికారులకు ఫిర్యాదు చేశారు.",
+   "pts": [
+    "ఒక విద్యార్థి రెండు చేతులకు గాయాలైనట్లు ఫిర్యాదు",
+    "పాఠశాల, అధికారుల స్పందన ఇంకా రాలేదు"
+   ],
+   "why": "గురుకుల పాఠశాలల్లో విద్యార్థుల భద్రత, సమాన గౌరవానికి సంబంధించిన అంశం.",
+   "src": "BigTV Live",
+   "url": "https://www.bigtvlive.com/andhra-pradesh/kakinada-gurukul-school-parents-allege-caste-discrimination-assault-dalit-students.html",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "AP",
+   "place": "ap-kakinada",
+   "loc": "వెలమకొత్తూరు, తుని రూరల్",
+   "pub": "2026-11-16T16:39+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "AP · Kakinada",
+    "h": "Gurukul students beaten, parents allege",
+    "stat": "2 students",
+    "statl": "Allegedly beaten, says complaint",
+    "loc": "Velamakotturu, Tuni Rural, Kakinada",
+    "p": "Parents allege that the principal and PT teacher of the Ambedkar Gurukul school at Velamakotturu in Tuni Rural mandal, Kakinada district, beat two Class 10 SC students with a stick on November 7 for not wearing white uniforms. They call it caste discrimination and have complained to Gurukul officials at the Collectorate.",
+    "pts": [
+     "Complaint says one student injured on both hands",
+     "No response yet from school or officials"
+    ],
+    "why": "Concerns the safety and equal treatment of students in residential schools."
+   },
+   "hi": {
+    "cat": "आंध्र · काकीनाडा",
+    "h": "गुरुकुल छात्रों की पिटाई का आरोप",
+    "stat": "2 छात्र",
+    "statl": "शिकायत के अनुसार पीटे गए",
+    "loc": "वेलमकोत्तूरु, तुनी ग्रामीण, काकीनाडा",
+    "p": "अभिभावकों का आरोप है कि काकीनाडा जिले के तुनी ग्रामीण मंडल के वेलमकोत्तूरु स्थित आंबेडकर गुरुकुल स्कूल के प्रिंसिपल और पीटी शिक्षक ने 7 नवंबर को सफेद यूनिफॉर्म न पहनने पर कक्षा 10 के दो एससी छात्रों को डंडे से पीटा। वे इसे जातिगत भेदभाव बताते हैं और कलेक्ट्रेट में गुरुकुल अधिकारियों से शिकायत की है।",
+    "pts": [
+     "शिकायत के अनुसार एक छात्र के दोनों हाथों में चोट",
+     "स्कूल या अधिकारियों का जवाब अभी नहीं"
+    ],
+    "why": "आवासीय स्कूलों में छात्रों की सुरक्षा और समान व्यवहार से जुड़ा।"
+   },
+   "d": "16.11.2026",
+   "t": "17:05",
+   "local": true
+  },
+  {
+   "cat": "తెలంగాణ · సూర్యాపేట",
+   "col": "--c-money",
+   "art": "",
+   "stat": "₹6,000",
+   "statl": "పింఛను కోసం డిమాండ్",
+   "h": "సూర్యాపేటలో దివ్యాంగుల వినూత్న నిరసన",
+   "p": "సూర్యాపేట కలెక్టరేట్ వద్ద వికలాంగుల హక్కుల పరిరక్షణ సమితి ఆధ్వర్యంలో దివ్యాంగులు పచ్చి కాకరకాయలు తింటూ నిరసన తెలిపారు. ఎన్నికల హామీ మేరకు పింఛనును ₹6,000కు పెంచాలని, ఆర్టీసీ బస్సుల్లో ఉచిత ప్రయాణం కల్పించాలని డిమాండ్ చేశారు. డిసెంబర్ 3లోగా స్పందించకపోతే సచివాలయాన్ని ముట్టడిస్తామని హెచ్చరించారు.",
+   "pts": [
+    "ప్రతి జిల్లాలో 5,000 బ్యాక్‌లాగ్ పోస్టుల భర్తీ డిమాండ్",
+    "దివ్యాంగుల సంక్షేమానికి ప్రత్యేక శాఖ కోరిక"
+   ],
+   "why": "రాష్ట్రంలోని దివ్యాంగుల పింఛను, ప్రయాణ సౌకర్యాలకు సంబంధించిన డిమాండ్.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/nalgonda-suryapet/suryapet-differently-abled-protest-eating-bitter-gourd-213637",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "suryapet",
+   "loc": "సూర్యాపేట",
+   "pub": "2026-11-16T16:58+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Suryapet",
+    "h": "Disabled people eat bitter gourd in Suryapet protest",
+    "stat": "₹6,000",
+    "statl": "Pension demanded",
+    "loc": "Suryapet",
+    "p": "Disabled people protested at the Suryapet Collectorate by eating raw bitter gourd, led by the disabled rights protection samithi. They demanded the pension be raised to ₹6,000 as promised in the election manifesto and free travel on RTC buses. They warned they will besiege the Secretariat if there is no response by December 3.",
+    "pts": [
+     "Demand to fill 5,000 backlog posts per district",
+     "Want a separate department for disabled welfare"
+    ],
+    "why": "Concerns pensions and travel support for disabled people in Telangana."
+   },
+   "hi": {
+    "cat": "तेलंगाना · सूर्यापेट",
+    "h": "सूर्यापेट में करेला खाकर दिव्यांगों का विरोध",
+    "stat": "₹6,000",
+    "statl": "पेंशन की मांग",
+    "loc": "सूर्यापेट",
+    "p": "सूर्यापेट कलेक्ट्रेट पर विकलांग अधिकार संरक्षण समिति के नेतृत्व में दिव्यांगों ने कच्चा करेला खाकर विरोध किया। उन्होंने चुनावी वादे के मुताबिक पेंशन ₹6,000 करने और आरटीसी बसों में मुफ्त यात्रा की मांग की। उन्होंने चेतावनी दी कि 3 दिसंबर तक जवाब न मिला तो सचिवालय का घेराव करेंगे।",
+    "pts": [
+     "हर जिले में 5,000 बैकलॉग पद भरने की मांग",
+     "दिव्यांग कल्याण के लिए अलग विभाग की मांग"
+    ],
+    "why": "तेलंगाना में दिव्यांगों की पेंशन और यात्रा सुविधा से जुड़ा।"
+   },
+   "d": "16.11.2026",
+   "t": "17:05",
+   "local": true
+  },
+  {
+   "cat": "తెలంగాణ · సిరిసిల్ల",
+   "col": "--c-gov",
+   "art": "campus",
+   "stat": "బాలల ప్రజావాణి",
+   "statl": "కలెక్టర్‌కు చిన్నారుల వినతులు",
+   "h": "సిరిసిల్లలో బాలల కోసం ప్రత్యేక ప్రజావాణి",
+   "p": "బాలల హక్కుల వారోత్సవాల్లో భాగంగా రాజన్న సిరిసిల్ల జిల్లా సమీకృత కార్యాలయాల సముదాయంలో సోమవారం బాలల ప్రత్యేక ప్రజావాణి జరిగింది. కలెక్టర్ గరిమా అగర్వాల్, బాలల హక్కుల కమిషన్ సభ్యులు చిన్నారుల నుంచి నేరుగా వినతులు స్వీకరించారు. వినతులను సంబంధిత శాఖలకు పంపి సమస్యలు పరిష్కరిస్తామని కలెక్టర్ తెలిపారు.",
+   "pts": [
+    "దివ్యాంగ పింఛన్లు, అదనపు తరగతి గదులు, గురుకుల సీట్లపై వినతులు"
+   ],
+   "why": "జిల్లాలోని పిల్లల చదువు, సంక్షేమ సమస్యల పరిష్కారానికి సంబంధించిన కార్యక్రమం.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/special-prajavani-held-to-resolve-childrens-issues-213566",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "sircilla",
+   "loc": "సిరిసిల్ల",
+   "pub": "2026-11-16T15:38+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Sircilla",
+    "h": "Special children's Prajavani in Sircilla",
+    "stat": "Children's Prajavani",
+    "statl": "Petitions handed to Collector",
+    "loc": "Sircilla",
+    "p": "A special Prajavani for children was held at the Rajanna Sircilla integrated district offices complex on Monday as part of Child Rights Week. Collector Garima Agrawal and a child rights commission member took petitions directly from children. The Collector said the petitions have been sent to the departments concerned for action.",
+    "pts": [
+     "Requests for disability pensions, classrooms, residential school seats"
+    ],
+    "why": "Helps address schooling and welfare problems of children in the district."
+   },
+   "hi": {
+    "cat": "तेलंगाना · सिरसिल्ला",
+    "h": "सिरसिल्ला में बच्चों के लिए विशेष प्रजावाणी",
+    "stat": "बाल प्रजावाणी",
+    "statl": "कलेक्टर को बच्चों की अर्जियां",
+    "loc": "सिरसिल्ला",
+    "p": "बाल अधिकार सप्ताह के तहत सोमवार को राजन्ना सिरसिल्ला के एकीकृत जिला कार्यालय परिसर में बच्चों के लिए विशेष प्रजावाणी हुई। कलेक्टर गरिमा अग्रवाल और बाल अधिकार आयोग के सदस्य ने बच्चों से सीधे अर्जियां लीं। कलेक्टर ने कहा कि अर्जियां संबंधित विभागों को कार्रवाई के लिए भेजी गई हैं।",
+    "pts": [
+     "दिव्यांग पेंशन, कक्षाओं और आवासीय स्कूल सीटों की मांग"
+    ],
+    "why": "जिले में बच्चों की पढ़ाई और कल्याण की समस्याएं हल करने में मदद।"
+   },
+   "d": "16.11.2026",
+   "t": "17:05",
+   "local": true
+  },
+  {
+   "cat": "తెలంగాణ · సిరిసిల్ల",
+   "col": "--c-city",
+   "art": "campus",
+   "stat": "కోతుల బెడద",
+   "statl": "బడికి వెళ్లేందుకు చిన్నారుల భయం",
+   "h": "బావుసాయిపేట బడిలో కోతుల బెడద",
+   "p": "రాజన్న సిరిసిల్ల జిల్లా కోనరావుపేట మండలం బావుసాయిపేట ప్రభుత్వ ప్రాథమిక, ఉన్నత పాఠశాలలో కోతుల సంఖ్య రోజురోజుకూ పెరుగుతోంది. చేతులు కడుక్కోవడానికి, మరుగుదొడ్లకు వెళ్లడానికి విద్యార్థులు భయపడుతున్నారు. చెట్ల కొమ్మల ద్వారా కోతులు తరగతి గదుల్లోకి వస్తున్నాయని, వాటిని తరిమేయడంలో బోధన సమయం పోతోందని చెబుతున్నారు.",
+   "pts": [
+    "కొమ్మలు నరికి కోతులను నియంత్రించాలని తల్లిదండ్రుల వినతి"
+   ],
+   "why": "బావుసాయిపేట పాఠశాల విద్యార్థుల భద్రత, చదువుకు సంబంధించిన సమస్య.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/students-face-severe-monkey-menace-at-bausayipet-school-213478",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "sircilla",
+   "loc": "బావుసాయిపేట, కోనరావుపేట",
+   "pub": "2026-11-16T12:20+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Sircilla",
+    "h": "Monkey menace at Bausayipet school",
+    "stat": "Monkey menace",
+    "statl": "Pupils afraid at school",
+    "loc": "Bausayipet, Konaraopet, Sircilla",
+    "p": "Monkeys are increasing day by day at the government primary and high school in Bausayipet, Konaraopet mandal, Rajanna Sircilla district. Pupils are afraid to go out to wash hands or use toilets. Students say monkeys enter classrooms via tree branches, and teachers lose teaching time chasing them away.",
+    "pts": [
+     "Parents want branches cut and monkeys controlled"
+    ],
+    "why": "Affects the safety and studies of pupils at Bausayipet school."
+   },
+   "hi": {
+    "cat": "तेलंगाना · सिरसिल्ला",
+    "h": "बावुसायीपेट स्कूल में बंदरों का आतंक",
+    "stat": "बंदरों का आतंक",
+    "statl": "स्कूल में डरे बच्चे",
+    "loc": "बावुसायीपेट, कोनारावपेट, सिरसिल्ला",
+    "p": "राजन्ना सिरसिल्ला जिले के कोनारावपेट मंडल के बावुसायीपेट सरकारी प्राथमिक और उच्च विद्यालय में बंदरों की संख्या रोज बढ़ रही है। बच्चे हाथ धोने या शौचालय जाने से डरते हैं। छात्रों के अनुसार बंदर पेड़ की डालियों से कक्षाओं में घुसते हैं और शिक्षकों का पढ़ाई का समय उन्हें भगाने में जाता है।",
+    "pts": [
+     "अभिभावक डालियां कटवाने और बंदर पकड़ने की मांग कर रहे"
+    ],
+    "why": "बावुसायीपेट स्कूल के बच्चों की सुरक्षा और पढ़ाई से जुड़ा।"
+   },
+   "d": "16.11.2026",
+   "t": "17:05",
+   "local": true
+  },
+  {
+   "cat": "తెలంగాణ · పెద్దపల్లి",
+   "col": "--c-election",
+   "art": "voters",
+   "stat": "బీసీ-ఏ",
+   "statl": "లోకి మార్చాలని సగరుల డిమాండ్",
+   "h": "పెద్దపల్లిలో సగర సంఘం నిరసన దీక్ష",
+   "p": "సగర కులాన్ని బీసీ-డీ నుంచి బీసీ-ఏ జాబితాలోకి మార్చాలని డిమాండ్ చేస్తూ సగర సంఘం పెద్దపల్లి జిల్లా శాఖ సోమవారం నిరసన దీక్ష చేపట్టింది. సగర ఫెడరేషన్‌ను పాలకమండలితో కార్పొరేషన్‌గా మార్చాలని, ప్రభుత్వ పనుల్లో సగరులకు ఎక్కువ వాటా కోసం జీవో 59 సవరించాలని కోరారు. డిమాండ్లు నెరవేరకపోతే ఉద్యమం ఉధృతం చేస్తామని నాయకులు హెచ్చరించారు.",
+   "pts": [
+    "భవన నిర్మాణ కార్మికులుగా గుర్తించి హెల్త్ కార్డు, పింఛను డిమాండ్"
+   ],
+   "why": "పెద్దపల్లి జిల్లా, రాష్ట్రంలోని సగర కుటుంబాల రిజర్వేషన్, ఉపాధికి సంబంధించిన అంశం.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/sagara-sangham-stages-protest-in-peddapalli-over-demands-213528",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "peddapalli",
+   "loc": "",
+   "pub": "2026-11-16T14:15+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Peddapalli",
+    "h": "Sagara community protest fast in Peddapalli",
+    "stat": "BC-A",
+    "statl": "Category sought by Sagaras",
+    "loc": "Peddapalli",
+    "p": "The Peddapalli district unit of the Sagara Sangham held a protest fast on Monday, demanding the Sagara community be moved from BC-D to BC-A. They also want the Sagara Federation turned into a corporation and GO 59 amended for a bigger share in government works. Leaders warned of a stronger agitation if demands are not met.",
+    "pts": [
+     "Seek recognition as construction workers with pension"
+    ],
+    "why": "Concerns reservation and livelihood of Sagara families in Telangana."
+   },
+   "hi": {
+    "cat": "तेलंगाना · पेद्दापल्ली",
+    "h": "पेद्दापल्ली में सगर समाज का धरना",
+    "stat": "बीसी-ए",
+    "statl": "सगर समाज की मांगी गई श्रेणी",
+    "loc": "पेद्दापल्ली",
+    "p": "सगर संघम की पेद्दापल्ली जिला इकाई ने सोमवार को धरना देकर सगर समुदाय को बीसी-डी से बीसी-ए में शामिल करने की मांग की। वे सगर फेडरेशन को निगम बनाने और सरकारी कामों में बड़े हिस्से के लिए जीओ 59 में संशोधन भी चाहते हैं। नेताओं ने मांगें न मानने पर आंदोलन तेज करने की चेतावनी दी।",
+    "pts": [
+     "निर्माण मजदूर के रूप में मान्यता और पेंशन की मांग"
+    ],
+    "why": "तेलंगाना में सगर परिवारों के आरक्षण और आजीविका से जुड़ा।"
+   },
+   "d": "16.11.2026",
+   "t": "17:05",
+   "local": true
+  },
   {
    "cat": "ఏపీ · వాతావరణం",
    "col": "--c-water",
@@ -652,164 +1277,6 @@
    "local": true
   },
   {
-   "cat": "భారత్ · భద్రత",
-   "col": "--c-gov",
-   "art": "unity",
-   "stat": "ఇద్దరు ఉగ్రవాదులు",
-   "statl": "ఎన్‌కౌంటర్‌లో హతం",
-   "h": "కుల్గాంలో ఇద్దరు ఉగ్రవాదులు హతం",
-   "p": "జమ్మూకశ్మీర్‌లోని కుల్గాం జిల్లా లారూ ప్రాంతంలో భద్రతా దళాల ఎన్‌కౌంటర్‌లో ఇద్దరు లష్కరే తోయిబా ఉగ్రవాదులు హతమయ్యారు. వారిలో స్థానిక కమాండర్ మహమ్మద్ లతీఫ్ భట్ ఉన్నాడని జేకే డీజీపీ నళిన్ ప్రభాత్ ధ్రువీకరించారు. నవంబర్ 11న మీర్ బజార్ వద్ద సీఆర్పీఎఫ్ పోస్టుపై కాల్పుల వెనుక అతను ఉన్నాడని అనుమానిస్తున్నారు.",
-   "pts": [
-    "ఆ కాల్పుల్లో ముగ్గురు సీఆర్పీఎఫ్ జవాన్లకు గాయాలు",
-    "రెండో ఉగ్రవాది పేరు అధికారికంగా వెల్లడించలేదు"
-   ],
-   "why": "కశ్మీర్‌లో భద్రతా పరిస్థితిపై దేశవ్యాప్తంగా ఆసక్తి ఉన్న పరిణామం.",
-   "src": "NTV Telugu",
-   "url": "https://ntvtelugu.com/national-news/kulgam-encounter-lashkar-terrorist-latif-bhat-killed-in-kashmir-1035790.html",
-   "sec": [
-    "india"
-   ],
-   "st": "IN",
-   "place": "IN",
-   "loc": "",
-   "pub": "2026-11-16T14:56+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "India · Security",
-    "h": "Kulgam encounter: 2 LeT militants killed",
-    "stat": "Two militants",
-    "statl": "Killed in encounter",
-    "loc": "Laroo, Kulgam",
-    "p": "Two Lashkar-e-Taiba militants were killed in an encounter with security forces at Laroo in Jammu and Kashmir's Kulgam district. J&K DGP Nalin Prabhat confirmed that one of them was local commander Mohammad Latif Bhat. He is suspected of planning the November 11 firing on a CRPF post near Mir Bazar.",
-    "pts": [
-     "Three CRPF men were hurt in that firing",
-     "Second militant not officially named"
-    ],
-    "why": "A security development in Kashmir followed across the country."
-   },
-   "hi": {
-    "cat": "भारत · सुरक्षा",
-    "h": "कुलगाम मुठभेड़ में लश्कर के 2 आतंकी ढेर",
-    "stat": "दो आतंकी",
-    "statl": "मुठभेड़ में मारे गए",
-    "loc": "लारू, कुलगाम",
-    "p": "जम्मू-कश्मीर के कुलगाम जिले के लारू में सुरक्षा बलों के साथ मुठभेड़ में लश्कर-ए-तैयबा के दो आतंकी मारे गए। जेके डीजीपी नलिन प्रभात ने पुष्टि की कि इनमें स्थानीय कमांडर मोहम्मद लतीफ भट था। उस पर 11 नवंबर को मीर बाजार के पास सीआरपीएफ चौकी पर गोलीबारी की साजिश का संदेह है।",
-    "pts": [
-     "उस गोलीबारी में तीन सीआरपीएफ जवान घायल हुए थे",
-     "दूसरे आतंकी का नाम आधिकारिक रूप से नहीं"
-    ],
-    "why": "कश्मीर की सुरक्षा स्थिति से जुड़ा, जिस पर पूरे देश की नजर है।"
-   },
-   "d": "16.11.2026",
-   "t": "16:35"
-  },
-  {
-   "cat": "భారత్ · వాణిజ్యం",
-   "col": "--c-money",
-   "art": "economy",
-   "stat": "12 బిలియన్ డాలర్లు",
-   "statl": "భారత్–ఈజిప్ట్ వాణిజ్య లక్ష్యం",
-   "h": "భారత్–ఈజిప్ట్ వాణిజ్య ఒప్పందంపై చర్చలు",
-   "p": "భారత్, ఈజిప్ట్ మధ్య ప్రాధాన్య లేదా స్వేచ్ఛా వాణిజ్య ఒప్పందం దిశగా చర్చించాలని ఇరు దేశాలు అంగీకరించాయి. ఈజిప్ట్‌లో జరిగిన 7వ సంయుక్త వాణిజ్య కమిటీ సమావేశానికి కేంద్ర మంత్రి పీయూష్ గోయల్ సహ అధ్యక్షత వహించారు. ద్వైపాక్షిక వాణిజ్యాన్ని 12 బిలియన్ డాలర్లకు పెంచాలని లక్ష్యంగా పెట్టుకున్నారు. విధివిధానాల కోసం సంయుక్త కార్యవర్గం ఏర్పాటు చేస్తారు.",
-   "pts": [
-    "2025–26లో వాణిజ్యం 35% పెరిగి 6.5 బిలియన్ డాలర్లు",
-    "ఈజిప్ట్‌లో భారత పెట్టుబడులు 5.5 బిలియన్ డాలర్లకు పైగా"
-   ],
-   "why": "ఎగుమతిదారులు, వ్యాపార సంస్థలకు కొత్త మార్కెట్ అవకాశాలకు సంబంధించిన నిర్ణయం.",
-   "src": "DD News",
-   "url": "https://ddindia.co.in/2026/11/india-egypt-agree-to-explore-preferential-trade-pact-target-usd-12-billion-bilateral-trade/",
-   "sec": [
-    "india",
-    "business"
-   ],
-   "st": "IN",
-   "place": "IN",
-   "loc": "",
-   "pub": "2026-11-16T14:55+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "India · Trade",
-    "h": "India, Egypt to explore trade pact",
-    "stat": "$12 billion",
-    "statl": "India–Egypt trade target",
-    "loc": "",
-    "p": "India and Egypt agreed to explore a preferential or free trade agreement at the 7th Joint Trade Committee meeting in Egypt, co-chaired by Union Minister Piyush Goyal. The two sides set a target of $12 billion in bilateral trade. A Joint Working Group will draft the terms of reference.",
-    "pts": [
-     "Trade rose 35% to $6.5 billion in 2025–26",
-     "Indian investment in Egypt above $5.5 billion"
-    ],
-    "why": "Opens new market chances for Indian exporters and businesses."
-   },
-   "hi": {
-    "cat": "भारत · व्यापार",
-    "h": "भारत-मिस्र व्यापार समझौते पर बातचीत करेंगे",
-    "stat": "12 अरब डॉलर",
-    "statl": "भारत-मिस्र व्यापार लक्ष्य",
-    "loc": "",
-    "p": "भारत और मिस्र ने मिस्र में हुई 7वीं संयुक्त व्यापार समिति की बैठक में तरजीही या मुक्त व्यापार समझौते की संभावना तलाशने पर सहमति जताई। बैठक की सह-अध्यक्षता केंद्रीय मंत्री पीयूष गोयल ने की। द्विपक्षीय व्यापार का लक्ष्य 12 अरब डॉलर रखा गया। संयुक्त कार्य समूह शर्तों का मसौदा तैयार करेगा।",
-    "pts": [
-     "2025-26 में व्यापार 35% बढ़कर 6.5 अरब डॉलर",
-     "मिस्र में भारतीय निवेश 5.5 अरब डॉलर से अधिक"
-    ],
-    "why": "भारतीय निर्यातकों और कारोबारियों के लिए नए बाजार के मौके।"
-   },
-   "d": "16.11.2026",
-   "t": "16:35"
-  },
-  {
-   "cat": "భారత్ · మార్కెట్",
-   "col": "--c-money",
-   "art": "economy",
-   "stat": "₹93.92",
-   "statl": "డాలర్‌కు రూపాయి ముగింపు విలువ",
-   "h": "డాలర్‌తో 27 పైసలు బలపడిన రూపాయి",
-   "p": "వరుసగా రెండు రోజుల నష్టాల తర్వాత సోమవారం రూపాయి డాలర్‌తో 27 పైసలు బలపడి 93.92 వద్ద ముగిసింది. విదేశీ పెట్టుబడుల రాక, దేశీయ స్టాక్ మార్కెట్ల లాభాలు, ముడి చమురు ధర తగ్గడం దీనికి కారణమని ఫారెక్స్ వ్యాపారులు తెలిపారు. సెన్సెక్స్ 512 పాయింట్లు, నిఫ్టీ 146 పాయింట్లు పెరిగాయి.",
-   "pts": [
-    "బ్రెంట్ ముడి చమురు బ్యారెల్ 94.85 డాలర్లు",
-    "విదేశీ మారక నిల్వలు 719.5 బిలియన్ డాలర్లు"
-   ],
-   "why": "దిగుమతి ధరలు, విదేశీ చదువులు, ప్రయాణ ఖర్చులపై ప్రభావం చూపే అంశం.",
-   "src": "Telangana Today (PTI)",
-   "url": "https://telanganatoday.com/rupee-snaps-two-day-losing-streak-settles-at-93-92-against-dollar",
-   "sec": [
-    "india",
-    "business"
-   ],
-   "st": "IN",
-   "place": "IN",
-   "loc": "",
-   "pub": "2026-11-16T16:18+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "India · Markets",
-    "h": "Rupee gains 27 paise to 93.92 per dollar",
-    "stat": "93.92",
-    "statl": "Rupee's closing value per dollar",
-    "loc": "",
-    "p": "The rupee ended a two-day losing streak on Monday, gaining 27 paise to settle at 93.92 against the US dollar. Forex traders credited foreign fund inflows, gains in domestic stocks and softer crude oil prices. The Sensex rose 512 points and the Nifty 146 points.",
-    "pts": [
-     "Brent crude at $94.85 a barrel",
-     "Forex reserves at $719.5 billion"
-    ],
-    "why": "Affects import prices, overseas education and travel costs."
-   },
-   "hi": {
-    "cat": "भारत · बाजार",
-    "h": "रुपया 27 पैसे मजबूत होकर 93.92 पर",
-    "stat": "93.92",
-    "statl": "डॉलर के मुकाबले रुपये का बंद भाव",
-    "loc": "",
-    "p": "लगातार दो दिन की गिरावट के बाद सोमवार को रुपया डॉलर के मुकाबले 27 पैसे मजबूत होकर 93.92 पर बंद हुआ। विदेशी मुद्रा कारोबारियों ने इसका कारण विदेशी निवेश, घरेलू शेयरों में तेजी और कच्चे तेल की नरमी बताया। सेंसेक्स 512 अंक और निफ्टी 146 अंक चढ़ा।",
-    "pts": [
-     "ब्रेंट कच्चा तेल 94.85 डॉलर प्रति बैरल",
-     "विदेशी मुद्रा भंडार 719.5 अरब डॉलर"
-    ],
-    "why": "आयात कीमतों, विदेश में पढ़ाई और यात्रा खर्च पर असर।"
-   },
-   "d": "16.11.2026",
-   "t": "16:35"
-  },
-  {
    "cat": "ఏపీ · టెక్నాలజీ",
    "col": "--c-gov",
    "art": "economy",
@@ -918,59 +1385,6 @@
     "why": "बादलों वाली पहाड़ियां देखने आने वाले पर्यटकों और स्थानीय दुकानदारों पर असर।"
    },
    "local": true,
-   "d": "16.11.2026",
-   "t": "16:05"
-  },
-  {
-   "cat": "ప్రపంచం · దౌత్యం",
-   "col": "--c-gov",
-   "art": "unity",
-   "stat": "నాలుగు దేశాలు",
-   "statl": "మనీలాలో క్వాడ్ నేతల భేటీ",
-   "h": "మంగళవారం మనీలాలో క్వాడ్ నేతల భేటీ",
-   "p": "భారత్, అమెరికా, ఆస్ట్రేలియా, జపాన్ దేశాల క్వాడ్ కూటమి నేతలు మంగళవారం సాయంత్రం ఫిలిప్పీన్స్ రాజధాని మనీలాలో సమావేశం కానున్నారు. ఆసియాన్ సదస్సు సందర్భంగా జరిగే ఈ భేటీలో ప్రధాని నరేంద్ర మోదీ, అమెరికా అధ్యక్షుడు డొనాల్డ్ ట్రంప్ పాల్గొంటారు. ఇండో-పసిఫిక్ ప్రాంతంలో శాంతి, భద్రత, అభివృద్ధిపై చర్చిస్తారు. ట్రంప్ పాల్గొంటారని వైట్‌హౌస్ ధ్రువీకరించింది.",
-   "pts": [
-    "రెండేళ్ల తర్వాత జరుగుతున్న తొలి క్వాడ్ నేతల భేటీ",
-    "చివరి సమావేశం 2024 సెప్టెంబర్‌లో అమెరికాలో జరిగింది"
-   ],
-   "why": "భారత విదేశాంగ, భద్రతా సంబంధాలపై ప్రభావం చూపే అంతర్జాతీయ సమావేశం.",
-   "src": "Siasat Daily (PTI)",
-   "url": "https://www.siasat.com/quad-leaders-to-meet-in-manila-on-tuesday-3578397/",
-   "sec": [
-    "world",
-    "india"
-   ],
-   "st": "WORLD",
-   "place": "IN",
-   "loc": "",
-   "pub": "2026-11-16T15:00+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "World · Diplomacy",
-    "h": "Quad leaders to meet in Manila on Tuesday",
-    "stat": "4 nations",
-    "statl": "Quad leaders meet in Manila",
-    "loc": "",
-    "p": "Leaders of the Quad – India, the US, Australia and Japan – will meet on Tuesday evening in Manila, the Philippine capital, on the sidelines of the ASEAN summit. Prime Minister Narendra Modi and US President Donald Trump will take part. They will discuss peace, security and growth in the Indo-Pacific. The White House confirmed Trump's participation.",
-    "pts": [
-     "First Quad leaders' meeting in two years",
-     "Last one was held in the US in September 2024"
-    ],
-    "why": "An international meeting that shapes India's foreign and security ties."
-   },
-   "hi": {
-    "cat": "दुनिया · कूटनीति",
-    "h": "मंगलवार को मनीला में क्वाड नेताओं की बैठक",
-    "stat": "4 देश",
-    "statl": "मनीला में क्वाड नेताओं की बैठक",
-    "loc": "",
-    "p": "क्वाड समूह – भारत, अमेरिका, ऑस्ट्रेलिया और जापान – के नेता मंगलवार शाम फिलीपींस की राजधानी मनीला में आसियान शिखर सम्मेलन के दौरान मिलेंगे। प्रधानमंत्री नरेंद्र मोदी और अमेरिकी राष्ट्रपति डोनाल्ड ट्रंप इसमें शामिल होंगे। हिंद-प्रशांत क्षेत्र में शांति, सुरक्षा और विकास पर चर्चा होगी। व्हाइट हाउस ने ट्रंप की भागीदारी की पुष्टि की है।",
-    "pts": [
-     "दो साल में क्वाड नेताओं की पहली बैठक",
-     "पिछली बैठक सितंबर 2024 में अमेरिका में हुई थी"
-    ],
-    "why": "भारत के विदेश और सुरक्षा संबंधों पर असर डालने वाली अंतरराष्ट्रीय बैठक।"
-   },
    "d": "16.11.2026",
    "t": "16:05"
   },
