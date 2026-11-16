@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-16T09:05:00+05:30",
+ "cutoff": "2026-11-16T09:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T21:35:00+05:30/2026-11-12T22:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 2,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebSearch returned stale tag/listing pages. Read: TT tag/telangana, hyderabad-news-today, Adilabad, hyderabad-news-latest (no article times), Hans Anantapur listing (12 Nov items 02:26-02:30, before lookback), South First AP tags (no times), 9 articles. Blocked: TT Kia AP plant (provenance, already in seen). Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI direct, Reuters/AP; no AP, national, other-state or international-topic items verifiable in range. Districts searched: Adilabad, Nirmal, Mancherial, Anantapur, Kurnool, Nellore, Prakasam."
-  },
   {
    "window": "2026-11-12T22:05:00+05:30/2026-11-12T22:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "09:05 run started 09:06 IST; lookback from 00:35. Feeds fresh (08:41, 70/70 ok; 128 uncovered local events in lookback, most top multi-source ones already covered). add_repo not available; existing clone reset to origin/main, push worked. Published: AJ Palasa 491 nominations, Hans Seethakka Mallareddypalle GP building, Hans Asifabad Birsa Munda, Hans Kurnool hostel anti-ganja drive, Hans Bandi Sanjay on Bharat Summit (claim; V6 version of same remarks folded in). Duplicates: Vikarabad car-auto crash, Tolichowki mandi fire (BigTv), ₹5 crore blackmail case (V6), Prince William India visit, AP NCD screening. Skipped as old: SC AP ULB list (Oct 21), NT Tirumala hundi (Aug), DC Tirumala rush (Nov 14). Not surfaced by search: The Hindu SIO pre-dawn detentions, NIE paddy delay/NCD/Naidu infra, TV9 AP SSC fees, V6 Hyderabad cold, NT farmer suicides. District searches: Warangal, Kurnool, Srikakulam, Nalgonda, Kadapa, Karimnagar."
+  },
+  {
+   "window": "2026-11-16T09:05:00+05:30/2026-11-16T09:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 9,
+   "published": 7,
+   "late": 7,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "09:35 run started 09:36 IST; lookback from 01:05. Feeds fresh (09:10, 70/70 ok; 745 uncovered TG/AP events listed, most top multi-source ones already covered). add_repo not available; existing clone pulled, push worked. Published (all Hans India): HMWSSB 100 MGD summer shortfall, HYDRAA two Medchal lakes, Hyderabad unlicensed water plants (claim), AIKS Nalgonda rally, Ramchander Rao podu lands (claim), Dharmavaram Addl SP nomination-centre checks, Vizag students at mental hospital. Duplicates: Sridhar Babu NDE/aerospace, TGTDC bird walk. Skipped: BRS Dasoju polytechnic (GO 97 already covered), TV9 AP police 1,156 and TGPSC 102 posts (old notifications, Oct), Hans 'water of discontent' (folded into HMWSSB topic). Not surfaced by search: The Hindu SIO detentions, NIE paddy delay/Naidu infra/APIIC land, ETV AP rail terminals, Prajasakti Tirumala hundi. District searches: Mahabubnagar, Vizianagaram (no fresh results)."
   }
  ],
  "seen": [
@@ -4828,6 +4828,66 @@
    "url": "https://www.thehansindia.com/news/cities/amaravati/108-cr-people-battling-diabetes-high-bp-in-ap-1142531",
    "d": "2026-11-16",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/hmwssb-gearing-up-for-100-mgd-summer-shortfall-1142599",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/hydraa-saves-2-more-lakes-from-clutches-of-encroachers-1142560",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/hyderabad-illegal-water-plants-spring-up-all-over-city-as-babus-snooze-1142600",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/nalgonda-suryapet/36th-national-conference-of-the-all-india-kisan-sabha-red-flags-fill-nalgonda-streets-1142615",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/govt-must-regularise-podu-lands-for-tribals-ramchander-rao-1142593",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/additional-sp-inspects-nomination-centres-1142563",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/students-reach-out-to-those-suffering-from-mental-health-conditions-1142544",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/telangana-eyes-global-aerospace-defence-hub-tag-1142584",
+   "d": "2026-11-16",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/tgtdc-launches-drive-to-promote-eco-tourism-among-nature-lovers-1142545",
+   "d": "2026-11-16",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/brs-leader-demands-withdrawal-of-cases-against-polytechnic-students-1142590",
+   "d": "2026-11-16",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/water-of-discontent-hyderabads-thaneer-thaneer-cry-gets-shriller-1142598",
+   "d": "2026-11-16",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-govt-announces-recruitment-for-1156-police-posts-1987788",
+   "d": "2026-11-16",
+   "w": "skip"
   }
  ]
 }
