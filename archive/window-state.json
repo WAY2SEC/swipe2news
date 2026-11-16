@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-16T21:05:00+05:30",
+ "cutoff": "2026-11-16T21:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-14T10:35:00+05:30/2026-11-14T11:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 1,
-   "published": 1,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "11:05 run started 11:06 IST. Lookback from 02:35 14 Nov. Read: Siasat UAE Fujairah crash 3577034 (10:35, published, fact, sensitive - no victim names), Gulf News Fujairah (no pub time; duplicate), ap7am Rahul gig scheme (08:54, upcoming launch; duplicate of published Rahul update), Avenue Mail Rahul arrival (10:30; duplicate), TT gig law 32-week (13 Nov 22:52; duplicate), Siasat Telangana listing (no timestamps). Not reached: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; India/world/district searches stale. Districts searched: Siddipet, Medak, Jangaon, Mahabubnagar, Wanaparthy, Nagarkurnool, Gadwal, Visakhapatnam, Prakasam, Eluru, Krishna, Kadapa, Tirupati, Sathya Sai."
-  },
   {
    "window": "2026-11-14T11:05:00+05:30/2026-11-14T11:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "21:05 run started 21:06 IST; lookback from 12:35. Feeds 20:53, 70/70 ok, 857 uncovered TG/AP (64 new since 20:15, most minor/entertainment or already covered under other wording). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 6: Vaartha Khammam-Devarapalli highway Nov 19, TT Cyberabad 342.5 t debris, HMTV Sangareddy Nandi statue, HMTV Guntur postal ballot centres, DC Musalimadugu elephant camp, Oneindia Sabarimala TDB letter to AP. Skipped: Siasat greenfield (3 Aug 2026). Duplicates: DC 23 ULB nominations (15 Nov, covered), Moinabad TPO DA case. Not opened (not in search index): Hindu Polavaram tribal lands, Hindu Kakinada mayor nominations, Hindu teachers 95% attendance leave order, Hindu Kokapet POCSO sentence, TT/Siasat 2015 murder life term, India Today TG officer ACB, Andhrajyothy Bhatti power cuts, AP7AM Ramoji state festival (already covered), PIB COP31/MPEDA, Kremlin Europe talks. Build step rewrote index.html/sitemap.xml/en/hi/te; reverted."
+  },
+  {
+   "window": "2026-11-16T21:05:00+05:30/2026-11-16T21:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 5,
+   "late": 1,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "21:35 run started 21:37 IST; lookback from 13:05. Feeds 21:11, 70/70 ok, 938 uncovered TG/AP (~50 new since 20:10, most minor/entertainment or covered). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 5: TT Koyagudem OC-3 CPI protest (claim), Siasat Unistring counter-drone at T-Hub, TT Vattepally gambling raid (sensitive), TT 2015 Jagathgirigutta murder life term (sensitive), UNI BARC-CPWD 70 quarters Vizag (late, 18:50). Duplicates: TGSRTC MD Anil Kumar (covered), DC Naidu Cyclone Akvan precautions (covered). Not opened (not in search index): Hindu teachers 95% attendance, Hindu Kakinada mayor nominations, Hindu Akvan cyclonic storm formed, Hindu Gachibowli hookah, NewsMeter HYDRAA traffic curbs, Andhrajyothy APCPDCL leave cancelled, Andhrajyothy Bhatti power cuts. District sweep (Warangal, Visakhapatnam, Tirupati, Khammam, Kurnool/Nandyal, Medak/Sangareddy/Siddipet, Nellore/Ongole, Karimnagar/Peddapalli/Jagtial, Nalgonda): nothing new in window. Build step rewrote index.html/sitemap.xml/en/hi/te; reverted."
   }
  ],
  "seen": [
@@ -5556,6 +5556,41 @@
   },
   {
    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/nominations-filed-for-mayor-chairperson-and-ward-member-posts-in-23-ulbs-2004508",
+   "d": "2026-11-16",
+   "w": "dup"
+  },
+  {
+   "url": "https://telanganatoday.com/kothagudem-cpi-demands-singareni-operate-koyagudem-oc-3-block",
+   "d": "2026-11-16",
+   "w": "p"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-start-up-unveils-counter-drone-surveillance-tech-at-t-hub-3579036/",
+   "d": "2026-11-16",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-police-raid-gambling-den-in-vattepally-seize-rs-9-3-lakh",
+   "d": "2026-11-16",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-court-sentences-two-men-to-life-imprisonment-for-2015-murder",
+   "d": "2026-11-16",
+   "w": "p"
+  },
+  {
+   "url": "https://www.siasat.com/two-get-life-for-setting-man-ablaze-causing-his-death-in-2015-3579054/",
+   "d": "2026-11-16",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/health-ap-barc-residential-quarters/247385",
+   "d": "2026-11-16",
+   "w": "p"
+  },
+  {
+   "url": "https://www.siasat.com/ips-officer-anil-kumar-assumes-charge-as-new-tgsrtc-md-3578388/",
    "d": "2026-11-16",
    "w": "dup"
   }
