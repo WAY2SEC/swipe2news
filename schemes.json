@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T19:30:00+05:30",
+ "updated": "2026-11-16T12:00:00+05:30",
  "about": "Welfare schemes for Telangana, Andhra Pradesh and India. Facts from official/reputable sources, checked on the given date. Kept up to date by the schemes task.",
  "schemes": [
   {
@@ -436,6 +436,347 @@
     "w": "अपना घर, छत और अपने नाम बिजली कनेक्शन वाले परिवार।",
     "d": "ताज़ा बिजली बिल, आधार-लिंक्ड मोबाइल, बैंक खाता।",
     "h": "pmsuryaghar.gov.in पर पंजीकरण; केवल ऑनलाइन।"
+   },
+   "checked": "2026-11-16"
+  },
+  {
+   "id": "pmay-gramin",
+   "st": "IN",
+   "cat": "house",
+   "amt": "₹1.20 లక్షలు",
+   "amt_en": "₹1.20 lakh",
+   "link": "https://pmayg.nic.in",
+   "src": "Ministry of Rural Development (via Bajaj Finserv, GKToday)",
+   "te": {
+    "n": "పీఎం ఆవాస్ యోజన – గ్రామీణ",
+    "u": "ఇంటికి",
+    "b": "పల్లెల్లో పక్కా ఇల్లు కట్టుకోవడానికి ₹1.20 లక్షల సాయం – నిర్మాణం జరిగే కొద్దీ విడతలుగా నేరుగా ఖాతాలోకి.",
+    "w": "గ్రామాల్లో సొంత పక్కా ఇల్లు లేని పేద కుటుంబాలు (ఆవాస్ సర్వే / అర్హుల జాబితాలో పేరు ఉండాలి).",
+    "d": "ఆధార్, బ్యాంకు ఖాతా, జాబ్ కార్డు (MGNREGA), స్థలం వివరాలు.",
+    "h": "గ్రామ పంచాయతీ / మండల కార్యాలయం; pmayg.nic.in లో పేరు, స్టేటస్ చూడొచ్చు."
+   },
+   "en": {
+    "n": "PM Awas Yojana – Gramin",
+    "u": "per house",
+    "b": "₹1.20 lakh to build a pucca house in a village – paid in instalments into the bank account as construction progresses.",
+    "w": "Poor rural families without a pucca house (must be on the Awaas survey / eligible list).",
+    "d": "Aadhaar, bank account, MGNREGA job card, land details.",
+    "h": "Gram panchayat / mandal office; check your name and status at pmayg.nic.in."
+   },
+   "hi": {
+    "n": "पीएम आवास योजना – ग्रामीण",
+    "u": "प्रति घर",
+    "b": "गाँव में पक्का घर बनाने के लिए ₹1.20 लाख – निर्माण के हिसाब से किस्तों में खाते में।",
+    "w": "गाँवों के बेघर / कच्चे घर वाले गरीब परिवार (आवास सर्वे सूची में नाम ज़रूरी)।",
+    "d": "आधार, बैंक खाता, मनरेगा जॉब कार्ड, ज़मीन का विवरण।",
+    "h": "ग्राम पंचायत / ब्लॉक कार्यालय; pmayg.nic.in पर स्टेटस।"
+   },
+   "checked": "2026-11-16"
+  },
+  {
+   "id": "pmay-urban",
+   "st": "IN",
+   "cat": "house",
+   "amt": "₹2.5 లక్షల వరకు",
+   "amt_en": "Up to ₹2.5 lakh",
+   "link": "https://pmay-urban.gov.in",
+   "src": "Ministry of Housing & Urban Affairs (via GKToday, schemesinindia)",
+   "te": {
+    "n": "పీఎం ఆవాస్ యోజన – అర్బన్ 2.0",
+    "u": "ఇంటికి",
+    "b": "పట్టణాల్లో సొంత స్థలంలో ఇల్లు కట్టుకునే పేదలకు ₹2.5 లక్షల వరకు సాయం; గృహ రుణంపై వడ్డీ రాయితీ కూడా ఉంది.",
+    "w": "పట్టణాల్లో దేశంలో ఎక్కడా పక్కా ఇల్లు లేని కుటుంబాలు – EWS (ఏడాది ఆదాయం ₹3 లక్షల వరకు), LIG (₹3–6 లక్షలు), MIG.",
+    "d": "ఆధార్, ఆదాయ ధ్రువపత్రం, బ్యాంకు ఖాతా, స్థలం పత్రాలు.",
+    "h": "pmay-urban.gov.in లో దరఖాస్తు; లేదా మున్సిపల్ కార్యాలయం."
+   },
+   "en": {
+    "n": "PM Awas Yojana – Urban 2.0",
+    "u": "per house",
+    "b": "Up to ₹2.5 lakh for urban poor building on their own land; interest subsidy on home loans is also available.",
+    "w": "Urban families with no pucca house anywhere in India – EWS (income up to ₹3 lakh), LIG (₹3–6 lakh), MIG.",
+    "d": "Aadhaar, income certificate, bank account, land papers.",
+    "h": "Apply at pmay-urban.gov.in or the municipal office."
+   },
+   "hi": {
+    "n": "पीएम आवास योजना – शहरी 2.0",
+    "u": "प्रति घर",
+    "b": "शहर में अपनी ज़मीन पर घर बनाने के लिए ₹2.5 लाख तक; होम लोन पर ब्याज सब्सिडी भी।",
+    "w": "शहरी परिवार जिनका देश में कहीं पक्का घर नहीं – EWS (₹3 लाख तक आय), LIG (₹3–6 लाख), MIG।",
+    "d": "आधार, आय प्रमाणपत्र, बैंक खाता, ज़मीन के कागज़।",
+    "h": "pmay-urban.gov.in या नगर पालिका कार्यालय।"
+   },
+   "checked": "2026-11-16"
+  },
+  {
+   "id": "pm-ujjwala",
+   "st": "IN",
+   "cat": "women",
+   "amt": "₹300",
+   "amt_en": "₹300",
+   "link": "https://pmuy.gov.in",
+   "src": "Ministry of Petroleum (via Business Today, Jun 2026)",
+   "te": {
+    "n": "పీఎం ఉజ్వల యోజన",
+    "u": "సిలిండర్‌కు",
+    "b": "పేద మహిళలకు డిపాజిట్ లేకుండా ఉచిత గ్యాస్ కనెక్షన్. 14.2 కిలోల సిలిండర్‌కు ₹300 రాయితీ – 2026-27 నుంచి ఏడాదికి మొదటి 4 రీఫిల్స్‌కే (గతంలో 9).",
+    "w": "పేద కుటుంబాల్లోని 18 ఏళ్లు నిండిన మహిళ – ఇంట్లో ఇప్పటికే గ్యాస్ కనెక్షన్ ఉండకూడదు.",
+    "d": "ఆధార్, రేషన్ కార్డు, బ్యాంకు ఖాతా, చిరునామా ధ్రువపత్రం.",
+    "h": "pmuy.gov.in లేదా దగ్గరి గ్యాస్ డీలర్ (ఇండేన్ / HP / భారత్ గ్యాస్)."
+   },
+   "en": {
+    "n": "PM Ujjwala Yojana",
+    "u": "per cylinder",
+    "b": "Free, deposit-free LPG connection for poor women. ₹300 subsidy per 14.2 kg cylinder – from 2026-27 only on the first 4 refills a year (was 9).",
+    "w": "Women aged 18+ from poor households with no existing LPG connection at home.",
+    "d": "Aadhaar, ration card, bank account, address proof.",
+    "h": "pmuy.gov.in or your nearest gas distributor (Indane / HP / Bharat Gas)."
+   },
+   "hi": {
+    "n": "पीएम उज्ज्वला योजना",
+    "u": "प्रति सिलेंडर",
+    "b": "गरीब महिलाओं को मुफ़्त गैस कनेक्शन। 14.2 किलो सिलेंडर पर ₹300 सब्सिडी – 2026-27 से साल के पहले 4 रीफ़िल पर ही (पहले 9)।",
+    "w": "गरीब परिवार की 18+ महिला – घर में पहले से गैस कनेक्शन न हो।",
+    "d": "आधार, राशन कार्ड, बैंक खाता, पते का प्रमाण।",
+    "h": "pmuy.gov.in या नज़दीकी गैस वितरक।"
+   },
+   "checked": "2026-11-16"
+  },
+  {
+   "id": "pm-vishwakarma",
+   "st": "IN",
+   "cat": "biz",
+   "amt": "₹3 లక్షలు",
+   "amt_en": "₹3 lakh",
+   "link": "https://pmvishwakarma.gov.in",
+   "src": "Ministry of MSME (via Vikaspedia, district portals)",
+   "te": {
+    "n": "పీఎం విశ్వకర్మ",
+    "u": "రుణం (5% వడ్డీ)",
+    "b": "చేతివృత్తుల వారికి: శిక్షణలో రోజుకు ₹500, పనిముట్లకు ₹15,000, ఎలాంటి హామీ లేకుండా ₹1 లక్ష + ₹2 లక్షల రుణం 5% వడ్డీకి.",
+    "w": "18 సంప్రదాయ వృత్తులు – వడ్రంగి, కమ్మరి, స్వర్ణకారులు, కుమ్మరి, మేస్త్రీ, దర్జీ, నాయీ బ్రాహ్మణులు, చాకలి తదితరులు. 18 ఏళ్లు పైబడి; కుటుంబంలో ప్రభుత్వ ఉద్యోగి ఉండకూడదు.",
+    "d": "ఆధార్, మొబైల్, బ్యాంకు ఖాతా, రేషన్ కార్డు.",
+    "h": "దగ్గరి మీసేవ / CSC కేంద్రంలో నమోదు; pmvishwakarma.gov.in."
+   },
+   "en": {
+    "n": "PM Vishwakarma",
+    "u": "loan at 5%",
+    "b": "For artisans: ₹500/day during training, ₹15,000 for tools, and collateral-free loans of ₹1 lakh + ₹2 lakh at 5% interest.",
+    "w": "18 traditional trades – carpenters, blacksmiths, goldsmiths, potters, masons, tailors, barbers, washermen and more. Age 18+; no family member in government service.",
+    "d": "Aadhaar, mobile, bank account, ration card.",
+    "h": "Register at a nearby CSC / MeeSeva centre; pmvishwakarma.gov.in."
+   },
+   "hi": {
+    "n": "पीएम विश्वकर्मा",
+    "u": "ऋण (5% ब्याज)",
+    "b": "कारीगरों के लिए: प्रशिक्षण में ₹500 प्रतिदिन, औज़ारों के लिए ₹15,000, बिना गारंटी ₹1 लाख + ₹2 लाख ऋण 5% पर।",
+    "w": "18 पारंपरिक व्यवसाय – बढ़ई, लोहार, सुनार, कुम्हार, राजमिस्त्री, दर्ज़ी, नाई आदि। 18+ आयु; परिवार में सरकारी नौकरी न हो।",
+    "d": "आधार, मोबाइल, बैंक खाता, राशन कार्ड।",
+    "h": "नज़दीकी CSC केंद्र; pmvishwakarma.gov.in।"
+   },
+   "checked": "2026-11-16"
+  },
+  {
+   "id": "pm-mudra",
+   "st": "IN",
+   "cat": "biz",
+   "amt": "₹20 లక్షల వరకు",
+   "amt_en": "Up to ₹20 lakh",
+   "link": "https://www.jansamarth.in",
+   "src": "PIB / Ministry of Finance (via Business Today, Aug 2026)",
+   "te": {
+    "n": "పీఎం ముద్ర యోజన",
+    "u": "వ్యాపార రుణం",
+    "b": "చిన్న వ్యాపారాలకు హామీ లేని రుణం: శిశు ₹50 వేల వరకు, కిశోర్ ₹5 లక్షలు, తరుణ్ ₹10 లక్షలు, తరుణ్ ప్లస్ ₹20 లక్షలు (తరుణ్ రుణం తీర్చినవారికి).",
+    "w": "వ్యవసాయేతర చిన్న వ్యాపారాలు – దుకాణాలు, తయారీ, సేవలు, పాడి వంటి అనుబంధ రంగాలు.",
+    "d": "ఆధార్, పాన్, వ్యాపార ప్రణాళిక / వివరాలు, బ్యాంకు ఖాతా.",
+    "h": "ఏ బ్యాంకు శాఖలోనైనా; లేదా jansamarth.in లో ఆన్‌లైన్."
+   },
+   "en": {
+    "n": "PM Mudra Yojana",
+    "u": "business loan",
+    "b": "Collateral-free loans for small businesses: Shishu up to ₹50,000, Kishore ₹5 lakh, Tarun ₹10 lakh, Tarun Plus ₹20 lakh (for those who repaid a Tarun loan).",
+    "w": "Non-farm micro businesses – shops, manufacturing, services and allied activities like dairy.",
+    "d": "Aadhaar, PAN, business plan / details, bank account.",
+    "h": "Any bank branch, or online at jansamarth.in."
+   },
+   "hi": {
+    "n": "पीएम मुद्रा योजना",
+    "u": "व्यापार ऋण",
+    "b": "छोटे व्यापार के लिए बिना गारंटी ऋण: शिशु ₹50,000 तक, किशोर ₹5 लाख, तरुण ₹10 लाख, तरुण प्लस ₹20 लाख।",
+    "w": "गैर-कृषि छोटे व्यवसाय – दुकान, निर्माण, सेवाएँ, डेयरी आदि।",
+    "d": "आधार, पैन, व्यापार योजना, बैंक खाता।",
+    "h": "किसी भी बैंक शाखा में या jansamarth.in पर।"
+   },
+   "checked": "2026-11-16"
+  },
+  {
+   "id": "atal-pension",
+   "st": "IN",
+   "cat": "pension",
+   "amt": "₹1,000–5,000",
+   "amt_en": "₹1,000–5,000",
+   "link": "https://npscra.nsdl.co.in",
+   "help": "1800-110-069",
+   "src": "PFRDA / Ministry of Finance (via Outlook Money, Apr 2026)",
+   "te": {
+    "n": "అటల్ పెన్షన్ యోజన",
+    "u": "నెలకు (60 ఏళ్ల తర్వాత)",
+    "b": "నెలనెలా చిన్న మొత్తం కడితే 60 ఏళ్ల తర్వాత నెలకు ₹1,000 నుంచి ₹5,000 వరకు గ్యారంటీ పింఛను. తర్వాత భార్య/భర్తకు అదే పింఛను.",
+    "w": "18–40 ఏళ్ల భారతీయులు, బ్యాంకు / పోస్టాఫీసు ఖాతా ఉండాలి; ఆదాయపు పన్ను చెల్లించేవారు చేరలేరు.",
+    "d": "ఆధార్, సేవింగ్స్ ఖాతా, మొబైల్ నంబర్.",
+    "h": "మీ బ్యాంకు శాఖ / పోస్టాఫీసులో ఫారం; చాలా బ్యాంకు యాప్‌లలోనూ ఉంది."
+   },
+   "en": {
+    "n": "Atal Pension Yojana",
+    "u": "a month after 60",
+    "b": "Pay a small monthly amount and get a guaranteed pension of ₹1,000 to ₹5,000 a month after age 60; the spouse then gets the same pension.",
+    "w": "Indian citizens aged 18–40 with a bank or post-office account; income-tax payers cannot join.",
+    "d": "Aadhaar, savings account, mobile number.",
+    "h": "Form at your bank branch or post office; also in most bank apps."
+   },
+   "hi": {
+    "n": "अटल पेंशन योजना",
+    "u": "प्रति माह (60 के बाद)",
+    "b": "हर महीने थोड़ा जमा करें, 60 के बाद ₹1,000–5,000 मासिक गारंटीड पेंशन; फिर जीवनसाथी को वही पेंशन।",
+    "w": "18–40 वर्ष के नागरिक, बैंक / डाकघर खाता ज़रूरी; आयकरदाता शामिल नहीं हो सकते।",
+    "d": "आधार, बचत खाता, मोबाइल नंबर।",
+    "h": "अपनी बैंक शाखा / डाकघर या बैंक ऐप।"
+   },
+   "checked": "2026-11-16"
+  },
+  {
+   "id": "pmjjby",
+   "st": "IN",
+   "cat": "insure",
+   "amt": "₹2 లక్షలు",
+   "amt_en": "₹2 lakh",
+   "link": "https://www.jansuraksha.gov.in",
+   "src": "Department of Financial Services (via Angel One, Anantam IAS)",
+   "te": {
+    "n": "పీఎం జీవన్ జ్యోతి బీమా",
+    "u": "బీమా – ఏడాదికి ₹436",
+    "b": "ఏడాదికి ₹436 ప్రీమియంతో ₹2 లక్షల జీవిత బీమా – ఏ కారణంతో మరణించినా కుటుంబానికి. ప్రీమియం ఖాతా నుంచి ఆటోమేటిక్‌గా కట్ అవుతుంది.",
+    "w": "18–50 ఏళ్ల బ్యాంకు / పోస్టాఫీసు ఖాతాదారులు (55 ఏళ్ల వరకు కవర్).",
+    "d": "ఆధార్, సేవింగ్స్ ఖాతా, నామినీ వివరాలు.",
+    "h": "మీ బ్యాంకు శాఖ / నెట్ బ్యాంకింగ్ / పోస్టాఫీసు; jansuraksha.gov.in."
+   },
+   "en": {
+    "n": "PM Jeevan Jyoti Bima",
+    "u": "cover – ₹436 a year",
+    "b": "₹2 lakh life cover for a ₹436 yearly premium – paid to the family on death from any cause. Premium is auto-debited.",
+    "w": "Bank / post-office account holders aged 18–50 (cover continues till 55).",
+    "d": "Aadhaar, savings account, nominee details.",
+    "h": "Your bank branch / net banking / post office; jansuraksha.gov.in."
+   },
+   "hi": {
+    "n": "पीएम जीवन ज्योति बीमा",
+    "u": "बीमा – ₹436 सालाना",
+    "b": "₹436 सालाना प्रीमियम पर ₹2 लाख जीवन बीमा – किसी भी कारण से मृत्यु पर परिवार को। प्रीमियम खाते से अपने-आप कटता है।",
+    "w": "18–50 वर्ष के बैंक / डाकघर खाताधारक (55 तक कवर)।",
+    "d": "आधार, बचत खाता, नॉमिनी विवरण।",
+    "h": "बैंक शाखा / नेट बैंकिंग / डाकघर।"
+   },
+   "checked": "2026-11-16"
+  },
+  {
+   "id": "pmsby",
+   "st": "IN",
+   "cat": "insure",
+   "amt": "₹2 లక్షలు",
+   "amt_en": "₹2 lakh",
+   "link": "https://www.jansuraksha.gov.in",
+   "src": "Department of Financial Services (via Angel One, Drishti IAS)",
+   "te": {
+    "n": "పీఎం సురక్ష బీమా",
+    "u": "బీమా – ఏడాదికి ₹20",
+    "b": "ఏడాదికి కేవలం ₹20 తో ప్రమాద బీమా: ప్రమాద మరణం / పూర్తి వైకల్యానికి ₹2 లక్షలు, పాక్షిక వైకల్యానికి ₹1 లక్ష.",
+    "w": "18–70 ఏళ్ల బ్యాంకు / పోస్టాఫీసు ఖాతాదారులు.",
+    "d": "ఆధార్, సేవింగ్స్ ఖాతా, నామినీ వివరాలు.",
+    "h": "మీ బ్యాంకు శాఖ / నెట్ బ్యాంకింగ్ / పోస్టాఫీసు; jansuraksha.gov.in."
+   },
+   "en": {
+    "n": "PM Suraksha Bima",
+    "u": "cover – ₹20 a year",
+    "b": "Accident cover for just ₹20 a year: ₹2 lakh for accidental death or total disability, ₹1 lakh for partial disability.",
+    "w": "Bank / post-office account holders aged 18–70.",
+    "d": "Aadhaar, savings account, nominee details.",
+    "h": "Your bank branch / net banking / post office; jansuraksha.gov.in."
+   },
+   "hi": {
+    "n": "पीएम सुरक्षा बीमा",
+    "u": "बीमा – ₹20 सालाना",
+    "b": "सिर्फ़ ₹20 सालाना में दुर्घटना बीमा: मृत्यु / पूर्ण विकलांगता पर ₹2 लाख, आंशिक पर ₹1 लाख।",
+    "w": "18–70 वर्ष के बैंक / डाकघर खाताधारक।",
+    "d": "आधार, बचत खाता, नॉमिनी विवरण।",
+    "h": "बैंक शाखा / नेट बैंकिंग / डाकघर।"
+   },
+   "checked": "2026-11-16"
+  },
+  {
+   "id": "sukanya-samriddhi",
+   "st": "IN",
+   "cat": "insure",
+   "amt": "8.2%",
+   "amt_en": "8.2%",
+   "link": "https://www.indiapost.gov.in",
+   "src": "Ministry of Finance, Oct–Dec 2026 rates (via Angel One, Business Today)",
+   "te": {
+    "n": "సుకన్య సమృద్ధి యోజన",
+    "u": "వడ్డీ (అక్టో–డిసెం 2026)",
+    "b": "ఆడపిల్ల చదువు, పెళ్లి కోసం పొదుపు ఖాతా – ప్రస్తుతం 8.2% వడ్డీ, పన్ను మినహాయింపు. వడ్డీ రేటు ప్రతి త్రైమాసికం మారొచ్చు.",
+    "w": "10 ఏళ్ల లోపు ఆడపిల్ల పేరిట తల్లిదండ్రులు / సంరక్షకులు తెరవొచ్చు (కుటుంబానికి సాధారణంగా రెండు ఖాతాలు).",
+    "d": "పాప జనన ధ్రువపత్రం, తల్లిదండ్రుల ఆధార్ / పాన్, చిరునామా.",
+    "h": "దగ్గరి పోస్టాఫీసు లేదా అధీకృత బ్యాంకు శాఖ."
+   },
+   "en": {
+    "n": "Sukanya Samriddhi Yojana",
+    "u": "interest (Oct–Dec 2026)",
+    "b": "Savings account for a girl’s education and marriage – 8.2% interest now, tax-free. The rate is reviewed every quarter.",
+    "w": "Parents / guardians of a girl below 10 years (usually two accounts per family).",
+    "d": "Girl’s birth certificate, parent’s Aadhaar / PAN, address proof.",
+    "h": "Nearest post office or authorised bank branch."
+   },
+   "hi": {
+    "n": "सुकन्या समृद्धि योजना",
+    "u": "ब्याज (अक्टू–दिस 2026)",
+    "b": "बेटी की पढ़ाई और शादी के लिए बचत खाता – अभी 8.2% ब्याज, टैक्स-फ्री। दर हर तिमाही तय होती है।",
+    "w": "10 वर्ष से कम उम्र की बेटी के माता-पिता / अभिभावक।",
+    "d": "जन्म प्रमाणपत्र, माता-पिता का आधार / पैन, पता।",
+    "h": "नज़दीकी डाकघर या अधिकृत बैंक।"
+   },
+   "checked": "2026-11-16"
+  },
+  {
+   "id": "pm-matru-vandana",
+   "st": "IN",
+   "cat": "women",
+   "amt": "₹5,000–6,000",
+   "amt_en": "₹5,000–6,000",
+   "link": "https://pmmvy.wcd.gov.in",
+   "src": "Ministry of Women & Child Development (PIB)",
+   "te": {
+    "n": "పీఎం మాతృ వందన యోజన",
+    "u": "గర్భిణులకు",
+    "b": "మొదటి బిడ్డకు ₹5,000 (రెండు విడతల్లో); రెండో బిడ్డ ఆడపిల్ల అయితే ₹6,000 (ఒకేసారి) – నేరుగా ఖాతాలోకి.",
+    "w": "గర్భిణులు, బాలింతలు – మొదటి కాన్పు, లేదా రెండో కాన్పులో ఆడపిల్ల.",
+    "d": "ఆధార్, మదర్ & చైల్డ్ ప్రొటెక్షన్ కార్డు, బ్యాంకు / పోస్టాఫీసు ఖాతా, బిడ్డ జనన నమోదు.",
+    "h": "దగ్గరి అంగన్‌వాడీ కేంద్రం / ఆరోగ్య కేంద్రంలో నమోదు; pmmvy.wcd.gov.in."
+   },
+   "en": {
+    "n": "PM Matru Vandana Yojana",
+    "u": "for mothers",
+    "b": "₹5,000 for the first child (two instalments); ₹6,000 in one go if the second child is a girl – straight to the bank account.",
+    "w": "Pregnant women and new mothers – first child, or a second child who is a girl.",
+    "d": "Aadhaar, Mother & Child Protection card, bank / post-office account, child’s birth registration.",
+    "h": "Register at your Anganwadi centre / health centre; pmmvy.wcd.gov.in."
+   },
+   "hi": {
+    "n": "पीएम मातृ वंदना योजना",
+    "u": "माताओं के लिए",
+    "b": "पहले बच्चे पर ₹5,000 (दो किस्तें); दूसरी संतान बेटी हो तो ₹6,000 (एक किस्त) – सीधे खाते में।",
+    "w": "गर्भवती व धात्री महिलाएँ – पहला बच्चा, या दूसरी संतान बेटी।",
+    "d": "आधार, MCP कार्ड, बैंक / डाकघर खाता, जन्म पंजीकरण।",
+    "h": "आंगनवाड़ी / स्वास्थ्य केंद्र; pmmvy.wcd.gov.in।"
    },
    "checked": "2026-11-16"
   }

@@ -15,7 +15,7 @@ Keep `schemes.json` (the "పథకాలు / Schemes" section of the app) corr
 3. If a scheme stops (closed / replaced), keep it only with a clear line in "b" saying so, or remove it.
 
 ## Format (keep exactly; same as existing items)
-{"id":"kebab-id","st":"TG"|"AP"|"IN","cat":"farm"|"women"|"house"|"health"|"pension"|"edu"|"power","amt":"₹… (Telugu units ok, e.g. ₹5 లక్షలు)","amt_en":"(only when amt has Telugu words)","link":"https://…"|null,"help":"(optional phone)","src":"outlets / official site","checked":"YYYY-MM-DD",
+{"id":"kebab-id","st":"TG"|"AP"|"IN","cat":"farm"|"women"|"house"|"health"|"pension"|"edu"|"power"|"biz" (jobs, self-employment, loans)|"insure" (insurance, savings),"amt":"₹… (Telugu units ok, e.g. ₹5 లక్షలు)","amt_en":"(only when amt has Telugu words)","link":"https://…"|null,"help":"(optional phone)","src":"outlets / official site","checked":"YYYY-MM-DD",
  "te":{"n":name,"u":unit after amount,"b":benefit (1–2 sentences),"w":who can get it,"d":documents,"h":how to get it},"en":{…same…},"hi":{…same…}}
 Telugu must be natural, correct Telugu; en/hi faithful translations with the same facts. Update "updated" (ISO +05:30) at the top.
 
