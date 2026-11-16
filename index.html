@@ -781,6 +781,37 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .sqopen{width:100%;display:flex;align-items:center;gap:10px;padding:12px 14px;margin:0 0 14px;border:1.5px solid #E4D3DE;border-radius:16px;background:#fff;color:#7A6574;font:600 14.5px/1.2 var(--body);cursor:pointer;text-align:left}
 .sqopen svg{color:#4A0E3F;flex:none}
 #hubSheet .hubsq{margin:0}
+#schSheet{background:#F7F3F6;overflow:auto;display:block}
+#schSheet .schead{position:sticky;top:0;z-index:6;display:flex;align-items:center;gap:10px;padding:12px 14px;background:#4A0E3F;color:#fff}
+#schSheet .schead h1{flex:1;margin:0;font:800 18px/1.2 'Outfit',var(--body)}
+#schSheet .schead button{height:36px;min-width:36px;border:0;border-radius:12px;background:rgba(255,255,255,.12);color:#fff;display:flex;align-items:center;justify-content:center;gap:4px;cursor:pointer;font:700 14px var(--body)}
+#schSheet .scbk{margin-right:auto;padding:0 10px 0 4px}#schSheet .scbk svg{transform:rotate(180deg)}
+#schSheet .schero{background:#4A0E3F;color:#fff;padding:2px 16px 18px}#schSheet .schero b{display:block;font:800 21px/1.3 var(--body)}#schSheet .schero small{display:block;margin-top:3px;font:600 12.5px var(--body);color:#E9CFE0}
+#schSheet .scbody{padding:14px 14px 26px}
+#schSheet .scst{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;padding:4px;border-radius:14px;background:#EDE3EA}
+#schSheet .scst button{height:40px;border:0;border-radius:11px;background:none;color:#5B3A50;font:800 13.5px var(--body);cursor:pointer}#schSheet .scst .on{background:#fff;color:#4A0E3F;box-shadow:0 2px 8px rgba(74,14,63,.15)}
+#schSheet .sccat{display:flex;gap:8px;margin:12px 0;overflow-x:auto;scrollbar-width:none}
+#schSheet .sccat button{flex:none;height:34px;padding:0 13px;border:1px solid #E2D2DC;border-radius:999px;background:#fff;color:#4A0E3F;font:700 13px var(--body);cursor:pointer}#schSheet .sccat .on{background:#4A0E3F;border-color:#4A0E3F;color:#fff}
+#schSheet .sclist{display:flex;flex-direction:column;gap:10px}
+#schSheet .scc{display:flex;align-items:flex-start;gap:12px;padding:14px;border:1px solid #EDE3EA;border-radius:18px;background:#fff;text-align:left;cursor:pointer;color:#23131F}
+#schSheet .ic{flex:none;width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:#F4ECF1;color:#4A0E3F}
+#schSheet .ic.farm{background:#E6F4E8;color:#1F7A4D}#schSheet .ic.women{background:#FCE7F1;color:#A3215E}#schSheet .ic.health{background:#FDE5E3;color:#B3261E}#schSheet .ic.power{background:#FFF1D6;color:#B86A00}#schSheet .ic.edu{background:#E3EEFA;color:#1E5FA8}#schSheet .ic.pension{background:#EFE8FB;color:#5B3FA8}
+#schSheet .scc .t{flex:1;min-width:0}#schSheet .scc b{display:block;font:800 15.5px/1.35 var(--body)}
+#schSheet .scc em{display:block;margin-top:3px;font:800 19px/1.2 'Outfit',var(--body);font-style:normal;color:#4A0E3F}#schSheet .scc em small{font:600 12px var(--body);color:#8C7786}
+#schSheet .scc .d{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:4px;font:500 12.5px/1.45 var(--body);color:#5B3A50}
+#schSheet .scc>svg:last-child{margin-top:12px;color:#C4B1BE;flex:none}
+#schSheet .scnone,#schSheet .scmore{margin:14px 4px;text-align:center;font:600 13px var(--body);color:#8C7786}
+#schSheet .scdh{display:flex;gap:12px;align-items:center}#schSheet .scdh small{font:700 12px var(--body);color:#8C7786}#schSheet .scdh h2{margin:2px 0 0;font:800 21px/1.3 var(--body);color:#23131F}
+#schSheet .scamt{margin:14px 0 6px;padding:14px 16px;border-radius:18px;background:radial-gradient(120% 120% at 100% 0%,#6E2361,#4A0E3F 60%,#2E0827);color:#fff}
+#schSheet .scamt b{display:block;font:800 34px/1.1 'Outfit',var(--body);color:#FFD27A}#schSheet .scamt span{font:600 13.5px var(--body);color:#F3DCEA}
+#schSheet .scsec{margin-top:10px;padding:12px 14px;border:1px solid #EDE3EA;border-radius:16px;background:#fff}
+#schSheet .scsec h4{margin:0 0 4px;font:800 12px/1.2 var(--body);letter-spacing:.4px;text-transform:uppercase;color:#8E3B6E}#schSheet .scsec p{margin:0;font:500 14.5px/1.6 var(--body);color:#23131F}
+#schSheet .schelp{margin-top:6px!important;font-weight:700!important}
+#schSheet .scbtns{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+#schSheet .scoff{flex:1;min-width:150px;display:flex;align-items:center;justify-content:center;height:48px;border-radius:14px;background:linear-gradient(135deg,#FFD27A,#F6A13B);color:#2E0827;font:800 15px var(--body);text-decoration:none}
+#schSheet .scwa{flex:1;min-width:150px;display:flex;align-items:center;justify-content:center;gap:8px;height:48px;border:1px solid #CDEBD8;border-radius:14px;background:#F1FBF5;color:#0E7A3E;font:800 14.5px var(--body);cursor:pointer}
+#schSheet .scsrc{margin:12px 2px 0;font:600 11.5px/1.5 var(--body);color:#8C7786}
+#schSheet .jhwarn{margin-top:14px;padding:12px 14px;border-radius:14px;background:#FFF6E8;font:600 12px/1.5 var(--body);color:#7A4A00}
 #exSheet{background:#F6F0E8;overflow:auto;display:block}
 #exSheet .exhead{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:10px;padding:12px 16px;background:rgba(246,240,232,.97)}
 #exSheet .exhead .exi{width:40px;height:40px;border-radius:12px}
@@ -2921,7 +2952,7 @@ function exPlace(){ const k=prefs.place||'TS', l=TLG()?'en':LG(); if(l==='te') r
 function exJump(kind){ goHome(); setTimeout(()=>{ const i=LIST.findIndex(x=>x&&x.kind===kind); if(i>=0) go(i,'left'); else toast('…'); },380); }
 function openExplore(){ const T=EXTX[TLG()?'en':LG()]||EXTX.te, l=LG(); let h=$('exSheet');
   if(!h){ h=document.createElement('section'); h.className='sheet'; h.id='exSheet'; h.setAttribute('aria-label','Explore'); document.querySelector('.shell').appendChild(h); }
-  const top4=[['jobs','jobs'],['sch','sch',1],['wx','wx'],['mandi','mandi']], more=[['gold','gold'],['ep','ep'],['saved','saved'],['dates','dates']];
+  const top4=[['jobs','jobs'],['sch','sch'],['wx','wx'],['mandi','mandi']], more=[['gold','gold'],['ep','ep'],['saved','saved'],['dates','dates']];
   const main=['district','telangana','india','business','education','sports'], rest=SECTIONS.filter(x=>x[0]!=='all'&&!main.includes(x[0]));
   const nm=k=>{ const x=SECTIONS.find(y=>y[0]===k); return x?(l==='te'?x[1]:x[2]):k; };
   const n=(LIST||[]).filter(x=>x&&!x.kind&&x.h).slice(0,5).length||5;
@@ -2956,12 +2987,57 @@ function openExplore(){ const T=EXTX[TLG()?'en':LG()]||EXTX.te, l=LG(); let h=$(
   h.querySelector('.exsearch').onclick=()=>{ close(); openSearch(); };
   h.querySelectorAll('.exchips button').forEach(b=>b.onclick=()=>{ close(); (b.dataset.a==='lang'?$('lngBtn'):$('placeBtn')).click(); });
   h.querySelectorAll('[data-b]').forEach(b=>b.onclick=()=>{ close(); goHome(); if(b.dataset.b==='listen') setTimeout(()=>{ if(!RADIO) toggleRadio(); },400); });
-  h.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>{ const k=b.dataset.s; if(k==='sch'){ toast(T.sch+' – '+T.soon); return; } close();
+  h.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>{ const k=b.dataset.s; close(); if(k==='sch'){ openSchemes(); return; }
     if(k==='jobs') setView('jobs'); else if(k==='saved') setView('saved'); else if(k==='dates') openDates(); else if(k==='ep') location.href='/epaper/'; else exJump({wx:'wx',mandi:'mandi',gold:'metals'}[k]); });
   h.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{ close(); DAY=null; section=b.dataset.t; setView('home'); setTimeout(()=>go(0,'right'),60); });
   h.querySelectorAll('[data-c]').forEach(b=>b.onclick=()=>{ const c=b.dataset.c; close(); if(c==='tip') openTip(); else if(c==='rep') location.href='/reporter/join.html'; else window.open(CONFIG.CHANNEL,'_blank','noopener'); });
   h.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{ const f=b.dataset.f; close(); if(f==='set') openSheet(); else location.href=f==='trust'?'/trust.html':'/about.html'; });
 }
+
+/* ---------- Schemes (user, 16 Nov 2026): verified welfare schemes for TG, AP and India from schemes.json ---------- */
+let SCH=null; const loadSch=()=>SCH?Promise.resolve(SCH):fetch('schemes.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>{ SCH=d; return d; }).catch(()=>null);
+const SCTX={te:{t:'పథకాలు',k:'మీకు వర్తించే ప్రభుత్వ పథకాలు',n:n=>`${n} పథకాలు · అధికారిక సమాచారం`,st:{TG:'తెలంగాణ',AP:'ఆంధ్రప్రదేశ్',IN:'కేంద్రం'},cats:{all:'అన్నీ',farm:'రైతులు',women:'మహిళలు',house:'ఇళ్లు',health:'ఆరోగ్యం',pension:'పింఛన్లు',edu:'విద్య',power:'కరెంట్'},
+  b:'లాభం',w:'ఎవరికి',d:'కావాల్సిన పత్రాలు',h:'ఎలా పొందాలి',help:'హెల్ప్‌లైన్',off:'అధికారిక వెబ్‌సైట్',src:'మూలం',chk:'సరిచూసిన తేదీ',warn:'⚠️ పథకం కోసం ఎవరికీ డబ్బులు ఇవ్వకండి. అధికారిక కార్యాలయం / వెబ్‌సైట్ ద్వారానే దరఖాస్తు చేయండి.',back:'అన్ని పథకాలు',none:'ఈ విభాగంలో ఇంకా పథకాలు లేవు – త్వరలో జోడిస్తాం.',wa:'WhatsApp లో పంపండి',more:'మరిన్ని పథకాలు రోజూ జోడిస్తున్నాం'},
+ en:{t:'Schemes',k:'Government schemes for you',n:n=>`${n} schemes · official information`,st:{TG:'Telangana',AP:'Andhra Pradesh',IN:'Central'},cats:{all:'All',farm:'Farmers',women:'Women',house:'Housing',health:'Health',pension:'Pensions',edu:'Education',power:'Power'},
+  b:'Benefit',w:'Who can get it',d:'Documents',h:'How to get it',help:'Helpline',off:'Official website',src:'Source',chk:'Checked on',warn:'⚠️ Never pay anyone for a scheme. Apply only through the official office or website.',back:'All schemes',none:'No schemes in this group yet – coming soon.',wa:'Send on WhatsApp',more:'More schemes are being added'},
+ hi:{t:'योजनाएँ',k:'आपके लिए सरकारी योजनाएँ',n:n=>`${n} योजनाएँ · आधिकारिक जानकारी`,st:{TG:'तेलंगाना',AP:'आंध्र प्रदेश',IN:'केंद्र'},cats:{all:'सभी',farm:'किसान',women:'महिलाएँ',house:'आवास',health:'स्वास्थ्य',pension:'पेंशन',edu:'शिक्षा',power:'बिजली'},
+  b:'लाभ',w:'किसे मिलेगा',d:'दस्तावेज़',h:'कैसे पाएँ',help:'हेल्पलाइन',off:'आधिकारिक वेबसाइट',src:'स्रोत',chk:'जाँच की तारीख़',warn:'⚠️ योजना के लिए किसी को पैसे न दें। केवल आधिकारिक कार्यालय / वेबसाइट से आवेदन करें।',back:'सभी योजनाएँ',none:'इस समूह में अभी योजनाएँ नहीं।',wa:'WhatsApp पर भेजें',more:'और योजनाएँ जोड़ी जा रही हैं'}};
+const SCIC={farm:'<path d="M12 21V9M12 9c0-3 2-6 6-6 0 4-2.5 6-6 6zM12 13c0-3-2-5-6-5 0 3.5 2.5 5 6 5z"/>',women:'<circle cx="12" cy="8" r="5"/><path d="M12 13v8M9 18h6"/>',house:'<path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/>',health:'<path d="M12 21s-8-5.2-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.8-8 11-8 11z"/><path d="M12 9v5M9.5 11.5h5"/>',pension:'<circle cx="12" cy="7" r="3.5"/><path d="M5 21c1-4.5 4-7 7-7s6 2.5 7 7M17 3.5l2 2"/>',edu:'<path d="M2 8l10-5 10 5-10 5z"/><path d="M6 10.5V16c3.5 2.5 8.5 2.5 12 0v-5.5"/>',power:'<path d="M13 2L4 14h7l-1 8 9-12h-7z"/>'};
+const scic=(k,w)=>`<svg viewBox="0 0 24 24" width="${w||22}" height="${w||22}" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${SCIC[k]||SCIC.house}</svg>`;
+function openSchemes(id){ loadSch().then(d=>{ if(!d||!d.schemes){ toast('…'); return; }
+  const L=TLG()?'en':LG(), T=SCTX[L]||SCTX.te, A=d.schemes; let h=$('schSheet');
+  if(!h){ h=document.createElement('section'); h.className='sheet'; h.id='schSheet'; h.setAttribute('aria-label','Schemes'); document.querySelector('.shell').appendChild(h); }
+  const myst=stOfPlace(prefs.place)==='AP'?'AP':'TG'; let st=myst, cat='all';
+  const tx=x=>x[L]||x.en||x.te, amt=x=>L==='te'?x.amt:(x.amt_en||x.amt);
+  const dshort=c=>{ const m=/^(\d{4})-(\d\d)-(\d\d)$/.exec(c||''); return m?`${+m[3]}.${m[2]}.${m[1]}`:''; };
+  const list=()=>{ const items=A.filter(x=>x.st===st&&(cat==='all'||x.cat===cat)); const cats=['all'].concat([...new Set(A.filter(x=>x.st===st).map(x=>x.cat))]);
+    h.innerHTML=`<div class="schead"><h1>${esc(T.t)}</h1><button class="scx" type="button" aria-label="close">${jsvg('x',20)}</button></div>
+     <div class="schero"><b>${esc(T.k)}</b><small>${esc(T.n(A.length))}</small></div>
+     <div class="scbody"><div class="scst">${['TG','AP','IN'].map(k=>`<button type="button" data-st="${k}" class="${k===st?'on':''}">${esc(T.st[k])}</button>`).join('')}</div>
+      <div class="sccat">${cats.map(k=>`<button type="button" data-c="${k}" class="${k===cat?'on':''}">${esc(T.cats[k]||k)}</button>`).join('')}</div>
+      ${items.length?`<div class="sclist">${items.map(x=>{ const t=tx(x); return `<button type="button" class="scc" data-id="${esc(x.id)}"><span class="ic ${esc(x.cat)}">${scic(x.cat)}</span><span class="t"><b>${esc(t.n)}</b><em>${esc(amt(x))} <small>${esc(t.u)}</small></em><small class="d">${esc(t.b)}</small></span>${jsvg('chev',18)}</button>`; }).join('')}</div>`:`<p class="scnone">${esc(T.none)}</p>`}
+      <p class="scmore">${esc(T.more)}</p><div class="jhwarn">${esc(T.warn)}</div></div>`;
+    h.scrollTop=0; wire(); };
+  const detail=x=>{ const t=tx(x);
+    h.innerHTML=`<div class="schead"><button class="scbk" type="button">${jsvg('chev',20)}<span>${esc(T.back)}</span></button><button class="scx" type="button" aria-label="close">${jsvg('x',20)}</button></div>
+     <div class="scbody scdet"><div class="scdh"><span class="ic ${esc(x.cat)}">${scic(x.cat,26)}</span><div><small>${esc(T.st[x.st])} · ${esc(T.cats[x.cat]||'')}</small><h2>${esc(t.n)}</h2></div></div>
+      <div class="scamt"><b>${esc(amt(x))}</b><span>${esc(t.u)}</span></div>
+      <div class="scsec"><h4>${esc(T.b)}</h4><p>${esc(t.b)}</p></div>
+      <div class="scsec"><h4>${esc(T.w)}</h4><p>${esc(t.w)}</p></div>
+      <div class="scsec"><h4>${esc(T.d)}</h4><p>${esc(t.d)}</p></div>
+      <div class="scsec"><h4>${esc(T.h)}</h4><p>${esc(t.h)}</p>${x.help?`<p class="schelp">📞 ${esc(T.help)}: <a href="tel:${esc(x.help.replace(/\D/g,''))}">${esc(x.help)}</a></p>`:''}</div>
+      <div class="scbtns">${x.link?`<a class="scoff" href="${esc(x.link)}" target="_blank" rel="noopener">${esc(T.off)} ↗</a>`:''}<button type="button" class="scwa">${walogo(22)}${esc(T.wa)}</button></div>
+      <p class="scsrc">${esc(T.src)}: ${esc(x.src||'')} · ${esc(T.chk)}: ${esc(dshort(x.checked))}</p>
+      <div class="jhwarn">${esc(T.warn)}</div></div>`;
+    h.scrollTop=0;
+    h.querySelector('.scbk').onclick=list; h.querySelector('.scx').onclick=()=>{ h.hidden=true; };
+    h.querySelector('.scwa').onclick=()=>{ const m=[`🏛️ ${t.n} – ${amt(x)} ${t.u}`,'',`✅ ${t.b}`,`👥 ${T.w}: ${t.w}`,`📄 ${T.d}: ${t.d}`,`📝 ${t.h}`].concat(x.link?['',`${T.off}: ${x.link}`]:[]).concat(['','Swipe2News 👉 https://swipe2news.com/?cards=1']);
+      window.open('https://wa.me/?text='+encodeURIComponent(m.join('\n')),'_blank','noopener'); }; };
+  function wire(){ h.querySelector('.scx').onclick=()=>{ h.hidden=true; };
+    h.querySelectorAll('[data-st]').forEach(b=>b.onclick=()=>{ st=b.dataset.st; cat='all'; list(); });
+    h.querySelectorAll('[data-c]').forEach(b=>b.onclick=()=>{ cat=b.dataset.c; list(); });
+    h.querySelectorAll('.scc').forEach(b=>b.onclick=()=>{ const x=A.find(y=>y.id===b.dataset.id); if(x) detail(x); }); }
+  h.hidden=false; const x0=id&&A.find(y=>y.id===id); if(x0){ st=x0.st; detail(x0); } else list(); }); }
 /* ---------- readers send local news (opens WhatsApp with the tip typed) ---------- */
 function openTip(){
   $('tipDist').innerHTML = '<option value="">జిల్లా ఎంచుకోండి</option>' + PLACES.filter(p=>p[0]!=='TS').map(p=>`<option value="${p[0]}"${p[0]===prefs.place?' selected':''}>${esc(p[1])} (${esc(p[2])})</option>`).join('') + AP_DISTRICTS.map(p=>`<option value="${p[0]}"${p[0]===prefs.place?' selected':''}>${esc(p[1])} (${esc(p[2])}) – ఏపీ</option>`).join('') + Object.keys(STATE_DISTRICTS).map(st=>STATE_DISTRICTS[st].map(p=>`<option value="${p[0]}"${p[0]===prefs.place?' selected':''}>${esc(p[1])} (${esc(p[2])}) – ${esc((STATES.find(x=>x[0]===st)||['','',''])[1])}</option>`).join('')).join('') + STATES.filter(s=>s[0]!=='TG'&&s[0]!=='AP').map(s=>`<option value="st-${s[0]}"${'st-'+s[0]===prefs.place?' selected':''}>${esc(s[1])} (${esc(s[2])})</option>`).join('') + '<option value="other">ఇతర ప్రాంతం (Other)</option>';
