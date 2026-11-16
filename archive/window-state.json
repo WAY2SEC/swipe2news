@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-16T07:35:00+05:30",
+ "cutoff": "2026-11-16T08:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T20:05:00+05:30/2026-11-12T20:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 6,
-   "late": 2,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 2,
-   "gaps": "Search-first; WebSearch mostly stale tag/listing pages. Read: TT Telangana/AP p2/Warangal/Peddapalli tags (relative times only), Siasat Hyderabad listing (stale, no times), South First AP tags, Hans AP tag, 15 articles. Blocked (provenance): TT Mahabubnagar fake clinics, TS UTF school merger, Shimla tremors. ReNew Rs 33,500 cr AP deal (South First 11:56) before lookback. Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI direct, Reuters/AP; no national, other-state or international-topic items verifiable. Districts searched: Warangal, Khammam, Nizamabad, Jagtial, Peddapalli, Srikakulam, Vizianagaram, Kadapa, Chittoor, Visakhapatnam."
-  },
   {
    "window": "2026-11-12T20:35:00+05:30/2026-11-12T21:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 0,
    "gaps": "07:35 run started 07:36 IST; lookback from 23:05 Nov 15. Feeds fresh (07:17, 68/68 ok). add_repo not available; existing clone used, push worked. Published: ETV Bharat live blog KPHB 15th Phase fire (06:36). Duplicates: Hans Kolkata vape link, Hans Revanth-Modi drought aid, ETV TG rain Nov 19-21 (Cyclone Akvan rain story already up). Skipped as old: DC AP 1,156 police posts (16 Sep), TT junior college HRMS leave rules (Sep 2025), TGPSC 102 MPSO/ASO (Oct notification), Sonia Gandhi memoir (released Nov 10); AJ Tolichowki flyover car crash (too thin). Search did not surface: TV9 AP police/TGPSC jobs pages, NTV AP 2nd phase panchayat notification, HMTV Banaganapalli student death, V6 egg prices, V6 18k houses, AJ Begumpet pupils at Rashtrapati Bhavan, AJ CBSE Telugu, Hans Red Cross RTC drivers, Hans fruit vendor sheds, TOI Vulcan/Amazon Leo, Estonia border, Jensen Huang. District searches (Nizamabad/Adilabad/Karimnagar, Srikakulam/Vizianagaram/Guntur/Nellore) returned only tag pages."
+  },
+  {
+   "window": "2026-11-16T07:35:00+05:30/2026-11-16T08:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 8,
+   "late": 7,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "08:05 run started 08:06 IST; lookback from 23:35 Nov 15. Feeds fresh (07:57, 70/70 ok; 153 uncovered local events in lookback). add_repo not available; existing clone reset to origin/main, push worked. Published (all Hans India): graduates MLC 12.69 lakh, Godavari marathon Bhadrachalam Dec 6, East Godavari PGRS cancelled, Husnabad assistive-device camps, Wanaparthy RMP teams, Khammam Red Cross CPR for RTC drivers, Nizamabad doctors 12-hour run, Pulukurthi BRS-to-Congress. Duplicates: Hans Raptadu nominations (Anantapur 590 nominations up), Hans Tirupati garbage-dump baby (Varadaiahpalem story up). Old/not eligible: DC Indiramma insurance (June), Siasat HYDRAA (May), DC Srisailam dead storage (Oct 26), DC rice hoarding (Oct 28), IndiaTV winter session (15 Nov 16:39), South First midnight arrests (July). Not surfaced by search: HT TG ₹5 lakh insurance scheme, Vaartha rice millers rules, V6 Tummidihatti, TOI inflation/LPG/paddy, Maktoob SIO detentions, Hindu heart valve, Sakshi Tirumala e-bus strike, NT Srisailam level, TT Prince of Wales. Karra Samu/Khelo India (DC) skipped as overlap with Khelo India + Revanth-Modi stories. District search Nalgonda returned only tag pages."
   }
  ],
  "seen": [
@@ -4646,6 +4646,66 @@
   },
   {
    "url": "https://telanganatoday.com/no-leave-without-approval-new-hrms-rules-for-govt-junior-college-staff-in-telangana",
+   "d": "2026-11-16",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/two-graduates-constituencies-log-1269-lakh-applications-1142571",
+   "d": "2026-11-16",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/khammam/godavari-river-marathon-from-dec-6-1142542",
+   "d": "2026-11-16",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/pgrs-cancelled-due-to-local-body-elections-1142520",
+   "d": "2026-11-16",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/karimnagar/free-assistive-devices-camps-in-husnabad-segment-from-today-1142611",
+   "d": "2026-11-16",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/khammam/gambling-with-peoples-lives-teams-formed-to-act-against-rmps-violating-rules-dmho-issues-warning-1142540",
+   "d": "2026-11-16",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/khammam/red-cross-trains-rtc-drivers-in-first-aid-cpr-1142604",
+   "d": "2026-11-16",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/nizamabad/doctors-display-remarkable-endurance-in-12-hour-stadium-run-1142612",
+   "d": "2026-11-16",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/warangal/brs-leaders-telangana-activists-join-congress-in-the-presence-of-mla-revuri-1142613",
+   "d": "2026-11-16",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/anantapur/raptadu-receives-36-sarpanch-and-39-ward-member-nominations-1142566",
+   "d": "2026-11-16",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/tirupathi/babys-cries-lead-to-rescue-from-garbage-dump-1142556",
+   "d": "2026-11-16",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/karra-samu-of-telugu-states-to-be-a-demonstration-event-2004729",
+   "d": "2026-11-16",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/khammam/5k-walk-marks-world-prematurity-day-1142607",
    "d": "2026-11-16",
    "w": "skipped"
   }
