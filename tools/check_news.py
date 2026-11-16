@@ -50,8 +50,8 @@ def check(d, fix=False):
         n = len(p.split())
         if not p:
             errs.append(f'{tag}: summary missing')
-        elif n < 52 or n > 68:
-            errs.append(f'{tag}: summary is {n} words – the card summary must be about 60 words (55–65); rewrite it from the article, never pad')
+        elif n < 32 or n > 48:
+            errs.append(f'{tag}: summary is {n} words – the card summary must be about 40 words (36–44) so it fits under the half-size picture; rewrite it, never pad')
         # 4) source
         if not (s.get('src') or '').strip():
             errs.append(f'{tag}: source name missing')
