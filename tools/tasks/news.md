@@ -73,6 +73,7 @@ Fields: {cat,col,art,stat,statl,h,p,src,url,sec,st,place,loc,pts,why,d,t,pub,lbl
 
 ## 3b. Corrections and withdrawals
 If a page retrieved in this run shows a Swipe2News story of the last 3 days has a wrong fact, or its source corrected/retracted it: fix h/p/pts/why (+ en/hi); if "h" changes and no "_sid" yet, first set "_sid" to the current page id so shared links keep working; add "corr": {"at","te","en","hi"}; if retracted/false set "wd": true with a corr line. Same change in news.json and the archive file. Never change "local": true stories here — report instead.
+Also add the correction at the TOP of corrections.json "items": {"at","h","en_h","kind":"corrected"|"withdrawn","url","te","en","hi"} (same texts as corr; keep every older item). Spelling/typo fixes need no entry.
 
 ## 4. Update the app (GitHub) in /home/claude/swipe2news
 a. news.json: new stories at the TOP (a "brk" story first), keep existing ones (always keep "local": true and "wd" stories), at most 50 stories and nothing older than 2 days; set "date", "updated" (ISO +05:30), "version": 2.

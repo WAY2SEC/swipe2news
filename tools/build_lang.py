@@ -154,7 +154,7 @@ def org_ld():
     return [
         {"@context": "https://schema.org", "@type": "NewsMediaOrganization", "name": "Swipe2News", "url": SITE + "/", "logo": SITE + "/icon-512.png",
          "slogan": "Know More. Scroll Less.", "sameAs": ["https://www.instagram.com/swipe2newsapp", CHANNEL],
-         "publishingPrinciples": SITE + "/editorial-policy.html", "correctionsPolicy": SITE + "/editorial-policy.html#corrections"},
+         "publishingPrinciples": SITE + "/editorial-policy.html", "correctionsPolicy": SITE + "/trust.html#corrections"},
         {"@context": "https://schema.org", "@type": "WebSite", "name": "Swipe2News", "url": SITE + "/", "inLanguage": ["te", "en", "hi"],
          "potentialAction": {"@type": "SearchAction", "target": SITE + "/?q={search_term_string}", "query-input": "required name=search_term_string"}},
         {"@context": "https://schema.org", "@type": "MobileApplication", "name": "Swipe2News", "operatingSystem": "Android, iOS (web app)", "applicationCategory": "NewsApplication",
@@ -276,7 +276,7 @@ def main():
         if new != app: open(ip, "w", encoding="utf-8").write(new)
     # sitemap.xml at the root
     urls = [(SITE + "/", None)] + [(f"{SITE}/{l}/", iso(S[0]) if S else None) for l in LANGS] + \
-           [(SITE + p, None) for p in ("/web/", "/mandi/", "/epaper/", "/install.html", "/about.html", "/editorial-policy.html", "/contact.html", "/privacy.html", "/terms.html")]
+           [(SITE + p, None) for p in ("/web/", "/mandi/", "/epaper/", "/install.html", "/about.html", "/editorial-policy.html", "/trust.html", "/contact.html", "/privacy.html", "/terms.html")]
     seen = set()
     for f in sorted(glob.glob(os.path.join(ROOT, "s", "*.html"))):
         k = os.path.basename(f)[:-5]

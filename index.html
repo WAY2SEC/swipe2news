@@ -212,6 +212,8 @@ header{display:flex;align-items:center;gap:8px;padding:8px var(--gr) 6px var(--g
 .sum{margin:0;font-size:clamp(14px,3.9vw,16px);line-height:1.62}
 .foot{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;padding-top:8px;border-top:1px solid var(--line)}
 .src{font-size:12.5px;color:var(--muted);font-weight:600}
+.rpt{display:inline-block;margin:6px 0 0;font:600 12px/1.4 var(--body);color:#8C7786;text-decoration:none;border-bottom:1px dashed #CDB9C6}
+.trustlnk{display:grid;grid-template-columns:auto 1fr;gap:0 10px;align-items:center;margin:0 0 16px;padding:10px 14px;border:1px solid #EDE3EA;border-radius:16px;background:#FBF7F9;text-decoration:none;color:#23131F}.trustlnk span{grid-row:1/3;font-size:22px}.trustlnk b{font:800 14px var(--body);color:#4A0E3F}.trustlnk small{font:600 12px var(--body);color:#7A6574}
 .corr{margin:6px 0 0;font-size:12.5px;line-height:1.55;color:#7A4B00;background:#FFF4D6;border-left:3px solid #E0A100;border-radius:6px;padding:5px 8px}
 .corr b{color:#7A4B00}
 .src b{color:var(--ink)}
@@ -1090,6 +1092,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
     <div class="sh-head"><img class="logo" src="logo.png" alt="Swipe2News"><button class="icon x" id="closeSheet" type="button" aria-label="మూసివేయండి"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
     <div class="sh-body">
       <button class="sqopen" id="sqOpen1" type="button"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span>వార్తలు, జాబ్స్ వెతకండి · Search</span></button>
+      <a class="trustlnk" href="/trust.html"><span>🛡️</span><b>ట్రస్ట్ సెంటర్ · Trust centre</b><small>మూలాలు, లేబుల్స్, దిద్దుబాట్లు, ఫిర్యాదులు</small></a>
       <img class="wgreet" src="promo/diwali-2026.jpg" alt="Swipe2News – దీపావళి శుభాకాంక్షలు" hidden data-until="2026-11-09T15:00:00+05:30">
       <h2>భాష · Language</h2>
       <div class="grid three" id="langs" role="radiogroup" aria-label="భాష"></div>
@@ -1822,6 +1825,7 @@ function cardHTML(s,i){
     <div class="sline">${(s.d||s.t)?`<span class="stime"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>${whenTxt(s)}</span>`:''}</div>${ctxLabel(s)?`<div class="ctxrow">${ctxLabel(s)}</div>`:''}
     <p class="sum">${esc(s.p)}</p><a class="more" hidden href="/s/${sid(s)}">${esc({te:'పూర్తిగా చదవండి ›',en:'Read more ›',hi:'पूरा पढ़ें ›'}[LG()]||'')}</a>${Array.isArray(s.pts)&&s.pts.length?`<ul class="kpts">${s.pts.slice(0,3).map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}${corrNote(s)}
     <div class="srow">${aiChip()}<span class="srcb"><small>${esc({te:'మూలం:',en:'Source:',hi:'स्रोत:'}[LG()]||'Source:')}</small>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.src)} <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>`:`<b>${esc(s.src)}</b>`}</span></div>
+    <a class="rpt" href="/trust.html?ref=S2N-${esc(sid(s))}&h=${encodeURIComponent(s.h||'')}&u=${encodeURIComponent(storyLink(s))}#grievance">⚠️ ${esc({te:'తప్పు ఉందా? తెలియజేయండి',en:'Spotted a mistake? Tell us',hi:'गलती दिखी? बताएँ'}[LG()]||'తప్పు ఉందా? తెలియజేయండి')}</a>
   </div>
   <div class="spacer" data-sp="${i}"></div>
   ${actsHTML()}
