@@ -1,20 +1,7 @@
 {
   "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
-  "cutoff": "2026-11-16T13:35:00+05:30",
+  "cutoff": "2026-11-16T14:05:00+05:30",
   "runs": [
-    {
-      "window": "2026-11-13T19:05:00+05:30/2026-11-13T20:05:00+05:30",
-      "status": "completed-with-gaps",
-      "eligible": 6,
-      "published": 4,
-      "late": 1,
-      "sensitive": 2,
-      "corrected": 0,
-      "duplicates": 1,
-      "skipped": 2,
-      "review": 0,
-      "gaps": "20:05 run started late (21:18 IST). Lookback from 11:05. Read: TT Hyderabad Valves (19:52), TT Mancherial poaching-trap arrests (19:42), TT mule-account model arrest (19:11), DC Sridhar Babu investors (16:55; UNI 19:35 IST paywalled duplicate grouped). Skipped: Siasat Azharuddin CMRF cheques (18:13, minor), Hans mule racket (31 Oct, before lookback). After END, left for next run: TT NTR Stadium traffic diversions (20:08), TT Jeevandan organ donation Yacharam (20:12), Punjab Kesari/IANS Naidu fireside chat (20:52, no tz). Failed: Deccan Herald AP CII Rs 9.89L cr. Search mostly returned stale tag/listing pages; no AP, national or world items with verifiable times in window. Districts searched: Rangareddy, Vikarabad, Kurnool, Anantapur, Nizamabad, Kamareddy, Nirmal, Siddipet, Medak, Yadadri, Chittoor, Kadapa, Annamayya, Krishna, Eluru."
-    },
     {
       "window": "2026-11-13T20:05:00+05:30/2026-11-13T20:35:00+05:30",
       "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
       "skipped": 4,
       "review": 0,
       "gaps": "13:35 run started 13:38 IST (no 13:05 state saved, so window 12:35-13:35); lookback from 04:35. Feeds 12:49, 70/70 ok, 714 uncovered TG/AP (many already covered under other URLs). add_repo/WebFetch not available directly; existing clone reset to origin/main; articles read via sub-agents. Published: NewsMeter Nalgonda Airtel tower theft gang, 10TV TGPSC 102 posts, Siasat Hyderabad builders tanker water (claim), V6 tigers into TG, Siasat Ibrahimpatnam boy missing, V6 Kotapally sand seizure, Federal Akvan landfall Nellore-Tuni Nov 20 (forecast), DC Srikakulam BJP leader car at police, News Arena WPI 12.29%, PTI AI supply-chain declaration, ANI Xi-Trump-Putin summit. Skipped old: Hyderabad Mail gig-worker rules (14 Nov), AP SLPRB 1,156 posts (Sep), DC AP NCD survey (15 Nov 21:35, before lookback), HMTV Banaganapalle bus crash (15 Nov). Not opened: Samayam AP 4 universities (only Eenadu), Samayam Hyderabad 3 RTO offices, NIE digital arrest Rs 1.42 cr, NIE AP paddy purchase delay, NIE Prakasam tobacco no-bid, Hyderabad Mail Rs 1,298 cr land registrations. District searches (Nizamabad, Karimnagar, Adilabad, Siddipet, Kurnool, Nellore, Anantapur, Srikakulam) surfaced only listing pages."
+    },
+    {
+      "window": "2026-11-16T13:35:00+05:30/2026-11-16T14:05:00+05:30",
+      "status": "completed-with-gaps",
+      "eligible": 8,
+      "published": 7,
+      "late": 5,
+      "sensitive": 0,
+      "corrected": 0,
+      "duplicates": 0,
+      "skipped": 1,
+      "review": 0,
+      "gaps": "14:05 run started 14:06 IST; lookback from 05:35. Feeds 13:47, 70/70 ok, 721 uncovered TG/AP (many already covered). add_repo/WebFetch not available directly; existing clone reset to origin/main; articles read via sub-agents. Published: Siasat TG retail inflation 7.26%, NTV AP HC Vijaya Dairy chairman election void (Prajasakti not found), TT/IANS Chiranjeevi AI memorandum, Shiksha KNRUHS NEET PG MQ list, HMTV Eluru 44 sarpanch nominations (late), Hans Vijayawada Rural nominations, HMTV Mulugu Pillala Prajavani. Skipped old: Vaartha TGSRTC women pass concession (announced 13 Nov). Not opened: Samayam AP anganwadi milk price (only Eenadu), Hyderabad Mail/Eenadu 5,670 road deaths, Samayam 3 RTO offices, Moneycontrol AP school land policy, Hindu Santragachi-Prasanthi Nilayam trains. District searches: Jangaon, Mulugu, Gadwal, Mahabubabad, Suryapet, Sircilla, Kamareddy, Vikarabad, Kadapa, Eluru, Chittoor."
     }
   ],
   "seen": [
@@ -5278,6 +5278,46 @@
       "url": "https://www.hmtvlive.com/telugu-news/kurnool/nandyal-banaganapalli-rtc-hire-bus-hits-bike-9th-class-student-surya-kumar-213159",
       "d": "2026-11-16",
       "w": "s"
+    },
+    {
+      "url": "https://www.siasat.com/telangana-among-six-states-with-over-7-pc-retail-inflation-in-oct-3578476/",
+      "d": "2026-11-16",
+      "w": "published"
+    },
+    {
+      "url": "https://ntvtelugu.com/andhra-pradesh-news/amaravathi/vijaya-dairy-board-ap-high-court-declares-chairman-and-four-directors-elections-invalid-1035760.html",
+      "d": "2026-11-16",
+      "w": "published"
+    },
+    {
+      "url": "https://telanganatoday.com/chiranjeevi-submits-memorandum-seeking-safeguards-against-ai-impersonation",
+      "d": "2026-11-16",
+      "w": "published"
+    },
+    {
+      "url": "https://www.shiksha.com/news/medicine-health-sciences-telangana-neet-pg-2026-merit-list-out-for-management-quota-knruhs-publishes-competent-quota-addendum-to-merit-list-blogId-246704",
+      "d": "2026-11-16",
+      "w": "published"
+    },
+    {
+      "url": "https://www.hmtvlive.com/telugu-news/eluru/44-sarpanch-140-ward-nominations-filed-on-day-1-of-eluru-polls-213412",
+      "d": "2026-11-16",
+      "w": "published"
+    },
+    {
+      "url": "https://www.thehansindia.com/andhra-pradesh/nominations-pick-up-pace-in-vijayawada-rural-mandal-1142681",
+      "d": "2026-11-16",
+      "w": "published"
+    },
+    {
+      "url": "https://www.hmtvlive.com/telugu-news/warangal/mulugu-collector-receives-petitions-from-students-at-pillala-prajavani-213514",
+      "d": "2026-11-16",
+      "w": "published"
+    },
+    {
+      "url": "https://vaartha.com/telangana/tgsrtc-50-percent-discount-for-women/805700/",
+      "d": "2026-11-16",
+      "w": "skipped"
     }
   ]
 }
