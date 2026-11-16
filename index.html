@@ -788,7 +788,14 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 #exSheet .exhead button{width:42px;height:42px;border:1.5px solid #2E0827;border-radius:50%;background:transparent;color:#2E0827;display:grid;place-items:center;cursor:pointer}
 #exSheet .exhead .exx{border-color:#D8C9BE;color:#6B5562}
 #exSheet .exbody{padding:4px 18px 34px}
-#exSheet h2{margin:10px 0 14px;font:800 30px/1.2 'Outfit',var(--body);color:#1E1018;letter-spacing:-.3px}#exSheet h2 i{color:#F5A23A;font-style:normal}
+#exSheet .exhi{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-top:8px;font:700 16px/1.4 var(--body);color:#5B1450}#exSheet .exhi b{color:#2E0827}
+#exSheet .exname{border:0;background:#FCE6C2;color:#7A4A00;padding:4px 10px;border-radius:999px;font:800 12.5px var(--body);cursor:pointer}
+#exSheet .exprof{margin:0 0 16px;padding:14px;border:1.5px solid #E2D3C6;border-radius:18px;background:#fff}#exSheet .exprof b{display:block;font:800 16px var(--body);color:#2E0827;margin-bottom:8px}
+#exSheet .exprof label{display:block;font:700 13px var(--body);color:#6B5562}#exSheet .exprof input{display:block;width:100%;margin-top:6px;height:46px;padding:0 12px;border:1.5px solid #E2D3C6;border-radius:12px;font:600 16px var(--body);color:#1E1018;background:#FBF7F2}
+#exSheet .exprof small{display:block;margin-top:6px;font:600 12px/1.4 var(--body);color:#8C7786}#exSheet .exprof div{display:flex;gap:10px;margin-top:12px}
+#exSheet .exsave{height:44px;padding:0 22px;border:0;border-radius:12px;background:linear-gradient(135deg,#FFD27A,#F6A13B);color:#2E0827;font:800 15px var(--body);cursor:pointer}
+#exSheet .exset{display:flex;align-items:center;gap:6px;height:44px;padding:0 14px;border:1px solid #E2D3C6;border-radius:12px;background:#fff;color:#4A0E3F;font:700 14px var(--body);cursor:pointer}
+#exSheet h2{margin:4px 0 14px;font:800 30px/1.2 'Outfit',var(--body);color:#1E1018;letter-spacing:-.3px}#exSheet h2 i{color:#F5A23A;font-style:normal}
 #exSheet h3{margin:24px 2px 10px;font:800 14px/1.2 'Outfit',var(--body);letter-spacing:.6px;color:#5B1450;text-transform:uppercase}
 #exSheet .exsearch{width:100%;display:flex;align-items:center;gap:12px;height:54px;padding:0 18px;border:1.5px solid #E2D3C6;border-radius:18px;background:#FBF7F2;color:#8C7786;font:600 15.5px var(--body);cursor:pointer;text-align:left}
 #exSheet .exsearch svg{color:#2E0827}
@@ -2696,12 +2703,12 @@ function openHub(){ const T=HUBTX[TLG()?'en':LG()]||HUBTX.te; let h=$('hubSheet'
   const ST=SVTX[TLG()?'en':LG()]||SVTX.te, tOf=x=>{ const t=Date.parse(x.pub||''); return isNaN(t)?0:t; };
   const fresh=[]; if(LASTV) LIST.forEach((x,i)=>{ if(x&&!x.kind&&x.h&&tOf(x)>LASTV) fresh.push([x,i]); });
   const news=fresh.length?fresh.slice(0,5):[]; if(!news.length) LIST.forEach((x,i)=>{ if(x&&!x.kind&&x.h&&news.length<5) news.push([x,i]); });
-  const hr=new Date().getHours(), g=T.g[hr<12?0:hr<17?1:hr<21?2:3];
+  const g=T.g[exG()];
   const ist=new Date(Date.now()+(330+new Date().getTimezoneOffset())*60000), dd=String(ist.getDate()).padStart(2,'0')+'.'+String(ist.getMonth()+1).padStart(2,'0')+'.'+ist.getFullYear();
   const today=LIST.filter(x=>x&&!x.kind&&x.d===dd).length||LIST.filter(x=>x&&!x.kind).length;
   const ic=d=>`<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
   h.innerHTML=`<div class="hubtop"><button class="icon x hubx" type="button" aria-label="close">${ic('<path d="M6 6l12 12M18 6L6 18"/>')}</button>
-    <div class="hubg">${esc(g)} 👋</div><h2>✨ ${esc(T.t)}</h2>${NAV?'<div class="hubtag">Know More<i>.</i> Scroll Less<i>.</i></div>':''}<div class="hubn">${esc(T.n.replace('{n}',today))}</div></div>
+    <div class="hubg">${esc(g)}${prefs.name?', '+esc(prefs.name):''} 👋</div><h2>✨ ${esc(T.t)}</h2>${NAV?'<div class="hubtag">Know More<i>.</i> Scroll Less<i>.</i></div>':''}<div class="hubn">${esc(T.n.replace('{n}',today))}</div></div>
    <div class="hubbody"><button class="sqopen hubsq" type="button"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span>${esc((SQTX[TLG()?'en':LG()]||SQTX.te).ph)}</span></button><div class="hubcard"><div class="hubh"><span class="aidot"></span>${esc(fresh.length?ST.since(fresh.length):T.b)}</div>
     <ol class="hubl">${news.map(([x,i],k)=>`<li data-i="${i}"><b>${k+1}</b><span>${esc(x.h)}</span></li>`).join('')}</ol>
     ${fresh.length>5?`<button class="hubnew" type="button">+${fresh.length-5} · ${esc(ST.more)} ›</button>`:`<div class="hubok"><b>${esc(ST.ok)}</b><small>${esc(ST.okS)}</small></div>`}
@@ -2895,11 +2902,11 @@ $('closeJoin').onclick=()=>{$('joinSheet').hidden=true};
 })();
 
 /* ---------- Explore (user, 16 Nov 2026): replaces the ☰ menu – search, services, topics, listen, community; settings behind the profile icon. One language per screen, outline icons. ---------- */
-const EXTX={te:{bn:n=>`${n} వార్తలు.`,bm:'ఒక్క నిమిషంలో.',bs:'మీ జిల్లా · దేశం · ప్రపంచం',read:'చదవడం మొదలుపెట్టండి',lis2:'వినండి',moreT:'మరిన్ని విభాగాలు',t:'మీకు కావాల్సింది వెతకండి',ph:'వార్తలు, జాబ్స్, ఊళ్లు వెతకండి',svc:'సేవలు',top:'విభాగాల వారీగా వార్తలు',lis:'వినండి',lisR:'ఈరోజు టాప్ వార్తలు వినండి',lisS:'కార్డులు చదివి వినిపిస్తాం',com:'కమ్యూనిటీ',tip:'మీ ఊరి వార్త పంపండి',rep:'రిపోర్టర్‌గా చేరండి',ch:'WhatsApp ఛానెల్',set:'సెట్టింగ్స్',trust:'ట్రస్ట్ సెంటర్',about:'మా గురించి',soon:'త్వరలో',
+const EXTX={te:{g:['శుభోదయం','శుభ మధ్యాహ్నం','శుభ సాయంత్రం','శుభ రాత్రి'],askN:'మీ పేరు చెప్పండి ›',prof:'మీ ప్రొఫైల్',nameL:'మీ పేరు',nameP:'ఉదా: ప్రదీప్',save:'సేవ్',nameNote:'మీ పేరు మీ ఫోన్‌లోనే ఉంటుంది – ఎక్కడికీ పంపము.',bn:n=>`${n} వార్తలు.`,bm:'ఒక్క నిమిషంలో.',bs:'మీ జిల్లా · దేశం · ప్రపంచం',read:'చదవడం మొదలుపెట్టండి',lis2:'వినండి',moreT:'మరిన్ని విభాగాలు',t:'మీకు కావాల్సింది వెతకండి',ph:'వార్తలు, జాబ్స్, ఊళ్లు వెతకండి',svc:'సేవలు',top:'విభాగాల వారీగా వార్తలు',lis:'వినండి',lisR:'ఈరోజు టాప్ వార్తలు వినండి',lisS:'కార్డులు చదివి వినిపిస్తాం',com:'కమ్యూనిటీ',tip:'మీ ఊరి వార్త పంపండి',rep:'రిపోర్టర్‌గా చేరండి',ch:'WhatsApp ఛానెల్',set:'సెట్టింగ్స్',trust:'ట్రస్ట్ సెంటర్',about:'మా గురించి',soon:'త్వరలో',
   jobs:'జాబ్స్',wx:'వాతావరణం',mandi:'మండీ ధరలు',gold:'బంగారం ధరలు',sch:'పథకాలు',ep:'ఈ-పేపర్',saved:'సేవ్ చేసినవి',dates:'పాత వార్తలు'},
- en:{bn:n=>`${n} stories.`,bm:'One minute.',bs:'Your district · India · The world',read:'Start reading',lis2:'Listen instead',moreT:'More topics',t:'Find what matters',ph:'Search news, jobs, places',svc:'Services',top:'News by topic',lis:'Listen',lisR:"Listen to today's top stories",lisS:'We read the cards aloud',com:'Community',tip:'Send news from your area',rep:'Become a reporter',ch:'WhatsApp channel',set:'Settings',trust:'Trust centre',about:'About us',soon:'Soon',
+ en:{g:['Good morning','Good afternoon','Good evening','Good night'],askN:'Tell us your name ›',prof:'Your profile',nameL:'Your name',nameP:'e.g. Pradeep',save:'Save',nameNote:'Your name stays on your phone – we never send it anywhere.',bn:n=>`${n} stories.`,bm:'One minute.',bs:'Your district · India · The world',read:'Start reading',lis2:'Listen instead',moreT:'More topics',t:'Find what matters',ph:'Search news, jobs, places',svc:'Services',top:'News by topic',lis:'Listen',lisR:"Listen to today's top stories",lisS:'We read the cards aloud',com:'Community',tip:'Send news from your area',rep:'Become a reporter',ch:'WhatsApp channel',set:'Settings',trust:'Trust centre',about:'About us',soon:'Soon',
   jobs:'Jobs',wx:'Weather',mandi:'Mandi prices',gold:'Gold rates',sch:'Schemes',ep:'E-paper',saved:'Saved',dates:'Past news'},
- hi:{bn:n=>`${n} खबरें.`,bm:'एक मिनट में.',bs:'आपका ज़िला · देश · दुनिया',read:'पढ़ना शुरू करें',lis2:'सुनें',moreT:'और विषय',t:'जो ज़रूरी है, खोजें',ph:'खबरें, नौकरियाँ, जगहें खोजें',svc:'सेवाएँ',top:'विषय के अनुसार खबरें',lis:'सुनें',lisR:'आज की टॉप खबरें सुनें',lisS:'हम कार्ड पढ़कर सुनाते हैं',com:'समुदाय',tip:'अपने इलाके की खबर भेजें',rep:'रिपोर्टर बनें',ch:'WhatsApp चैनल',set:'सेटिंग्स',trust:'ट्रस्ट सेंटर',about:'हमारे बारे में',soon:'जल्द',
+ hi:{g:['सुप्रभात','शुभ दोपहर','शुभ संध्या','शुभ रात्रि'],askN:'अपना नाम बताएँ ›',prof:'आपकी प्रोफ़ाइल',nameL:'आपका नाम',nameP:'जैसे: प्रदीप',save:'सेव',nameNote:'आपका नाम आपके फ़ोन में ही रहता है – कहीं नहीं भेजते।',bn:n=>`${n} खबरें.`,bm:'एक मिनट में.',bs:'आपका ज़िला · देश · दुनिया',read:'पढ़ना शुरू करें',lis2:'सुनें',moreT:'और विषय',t:'जो ज़रूरी है, खोजें',ph:'खबरें, नौकरियाँ, जगहें खोजें',svc:'सेवाएँ',top:'विषय के अनुसार खबरें',lis:'सुनें',lisR:'आज की टॉप खबरें सुनें',lisS:'हम कार्ड पढ़कर सुनाते हैं',com:'समुदाय',tip:'अपने इलाके की खबर भेजें',rep:'रिपोर्टर बनें',ch:'WhatsApp चैनल',set:'सेटिंग्स',trust:'ट्रस्ट सेंटर',about:'हमारे बारे में',soon:'जल्द',
   jobs:'नौकरियाँ',wx:'मौसम',mandi:'मंडी भाव',gold:'सोने के भाव',sch:'योजनाएँ',ep:'ई-पेपर',saved:'सेव',dates:'पुरानी खबरें'}};
 const EXI={search:'<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>',user:'<circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/>',lang:'<path d="M4 5h9M8.5 3v2M6 5c.5 3 2.5 5.5 5 7M11 5c-.5 3-3 6-6.5 7.5"/><path d="M13 21l4.5-10L22 21M14.5 18h6"/>',
  pin:JSVG.near,jobs:JSVG.private,wx:'<path d="M7 18a4.5 4.5 0 1 1 1.2-8.8A6 6 0 0 1 19.5 11 3.5 3.5 0 0 1 18.5 18z"/>',mandi:'<path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>',gold:'<path d="M3 17l3-6h12l3 6z"/><path d="M8 11l2-4h4l2 4"/>',
@@ -2908,6 +2915,9 @@ const EXI={search:'<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>',user:
  trust:JSVG.police,set:'<circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/>',
  district:JSVG.near,telangana:JSVG.tg,india:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',world:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',ai:JSVG.it,jobsnews:JSVG.private,business:'<path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>',innovation:'<path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0 0 12 3z"/>',culture:'<path d="M12 3l2.5 5 5.5.8-4 3.9.9 5.5L12 15.6 7.1 18.2l.9-5.5-4-3.9 5.5-.8z"/>',education:JSVG.teaching,agri:'<path d="M12 21V9M12 9c0-3 2-6 6-6 0 4-2.5 6-6 6zM12 13c0-3-2-5-6-5 0 3.5 2.5 5 6 5z"/>',weather:'<path d="M7 18a4.5 4.5 0 1 1 1.2-8.8A6 6 0 0 1 19.5 11 3.5 3.5 0 0 1 18.5 18z"/>',sports:'<circle cx="12" cy="12" r="9"/><path d="M12 7l4 3-1.5 5h-5L8 10z"/>'};
 const exi=(k,w)=>`<svg viewBox="0 0 24 24" width="${w||20}" height="${w||20}" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${EXI[k]||JSVG.all}</svg>`;
+function exG(){ const hr=new Date().getHours(); return hr>=5&&hr<12?0:hr<17&&hr>=12?1:hr>=17&&hr<21?2:3; }
+function exPlace(){ const k=prefs.place||'TS', l=TLG()?'en':LG(); if(l==='te') return placeName(k); if(k==='TS') return l==='hi'?'पूरा तेलंगाना':'All Telangana'; if(k==='AP') return l==='hi'?'पूरा आंध्र प्रदेश':'All Andhra Pradesh';
+  const t=PLACES.concat(typeof AP_DISTRICTS!=='undefined'?AP_DISTRICTS:[]).find(p=>p[0]===k); return t?t[2]:placeName(k); }
 function exJump(kind){ goHome(); setTimeout(()=>{ const i=LIST.findIndex(x=>x&&x.kind===kind); if(i>=0) go(i,'left'); else toast('…'); },380); }
 function openExplore(){ const T=EXTX[TLG()?'en':LG()]||EXTX.te, l=LG(); let h=$('exSheet');
   if(!h){ h=document.createElement('section'); h.className='sheet'; h.id='exSheet'; h.setAttribute('aria-label','Explore'); document.querySelector('.shell').appendChild(h); }
@@ -2918,9 +2928,11 @@ function openExplore(){ const T=EXTX[TLG()?'en':LG()]||EXTX.te, l=LG(); let h=$(
   const row=(k)=>`<button type="button" data-t="${k}">${exi(k==='jobs'?'jobsnews':k,22)}<span>${esc(nm(k))}</span>${jsvg('chev',18)}</button>`;
   h.innerHTML=`<div class="exhead"><img class="exi" src="art/logo.svg" alt=""><img class="exl" src="logo.png" alt="Swipe2News"><button class="exu" type="button" aria-label="${esc(T.set)}">${exi('user',24)}</button><button class="exx" type="button" aria-label="close">${jsvg('x',22)}</button></div>
    <div class="exbody">
+    <div class="exhi"><span>${esc(T.g[exG()])}${prefs.name?', <b>'+esc(prefs.name)+'</b>':''} 👋</span>${prefs.name?'':`<button type="button" class="exname">${esc(T.askN)}</button>`}</div>
     <h2>${esc(T.t)}<i>.</i></h2>
+    <div class="exprof" hidden><b>${esc(T.prof)}</b><label>${esc(T.nameL)}<input type="text" maxlength="30" autocomplete="given-name" placeholder="${esc(T.nameP)}" value="${esc(prefs.name||'')}"></label><small>${esc(T.nameNote)}</small><div><button type="button" class="exsave">${esc(T.save)}</button><button type="button" class="exset">${exi('set',17)}${esc(T.set)}</button></div></div>
     <button class="exsearch" type="button">${exi('search',22)}<span>${esc(T.ph)}</span></button>
-    <div class="exchips"><button type="button" data-a="lang">${exi('lang',18)}<span>${esc(U('lname'))}</span><em>⌄</em></button><button type="button" data-a="place">${exi('pin',18)}<span>${esc((prefs.village?prefs.village+', ':'')+placeName(prefs.place))}</span><em>⌄</em></button></div>
+    <div class="exchips"><button type="button" data-a="lang">${exi('lang',18)}<span>${esc(U('lname'))}</span><em>⌄</em></button><button type="button" data-a="place">${exi('pin',18)}<span>${esc((prefs.village?prefs.village+', ':'')+exPlace())}</span><em>⌄</em></button></div>
     <div class="exbrief"><div class="bt"><b>${esc(T.bn(n))}</b><b>${esc(T.bm)}</b><small>${esc(T.bs)}</small></div>
       <div class="bart"><i class="sun"></i><i class="ray"></i><span class="paper"><em></em><em></em><em></em></span></div>
       <div class="bb"><button type="button" class="go" data-b="read">${esc(T.read)}</button><button type="button" class="ls" data-b="listen">${exi('play',18)}${esc(T.lis2)}</button></div></div>
@@ -2937,7 +2949,10 @@ function openExplore(){ const T=EXTX[TLG()?'en':LG()]||EXTX.te, l=LG(); let h=$(
    </div>`;
   h.hidden=false; h.scrollTop=0; const close=()=>{ h.hidden=true; };
   h.querySelector('.exx').onclick=close;
-  h.querySelector('.exu').onclick=()=>{ close(); openSheet(); };
+  const pf=h.querySelector('.exprof'), showP=()=>{ pf.hidden=false; pf.scrollIntoView({block:'center',behavior:'smooth'}); setTimeout(()=>pf.querySelector('input').focus(),250); };
+  h.querySelector('.exu').onclick=showP; const en=h.querySelector('.exname'); if(en) en.onclick=showP;
+  pf.querySelector('.exset').onclick=()=>{ close(); openSheet(); };
+  pf.querySelector('.exsave').onclick=()=>{ const v=pf.querySelector('input').value.replace(/[<>"]/g,'').trim().slice(0,30); prefs.name=v; store.set('prefs',prefs); openExplore(); };
   h.querySelector('.exsearch').onclick=()=>{ close(); openSearch(); };
   h.querySelectorAll('.exchips button').forEach(b=>b.onclick=()=>{ close(); (b.dataset.a==='lang'?$('lngBtn'):$('placeBtn')).click(); });
   h.querySelectorAll('[data-b]').forEach(b=>b.onclick=()=>{ close(); goHome(); if(b.dataset.b==='listen') setTimeout(()=>{ if(!RADIO) toggleRadio(); },400); });
