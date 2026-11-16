@@ -770,6 +770,41 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .s2n .cfoot.navf button{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:3px;height:34px;padding:0 12px;border-radius:17px;background:#F5A23A;color:#2E0827;font:800 13px/1 'Outfit',var(--body);white-space:nowrap}
 .s2n .cfoot.navf .navp{background:rgba(255,253,245,.14);color:#FFFDF5}
 
+#jobSheet{background:#FBF7F9;overflow:auto;display:block}
+#jobSheet .jhtop{position:relative;padding:18px 16px 18px;background:radial-gradient(120% 120% at 20% 0%,#6E2361,#4A0E3F 55%,#2E0827);color:#FFFDF5;border-radius:0 0 24px 24px}
+#jobSheet .jhx{position:absolute;right:12px;top:12px;color:#FFFDF5;background:rgba(255,253,245,.12);border:0}
+#jobSheet .jhb{display:flex;align-items:flex-end;justify-content:space-between;gap:10px;margin-top:4px}
+#jobSheet .jhk{font:700 13px/1.3 var(--body);opacity:.85}
+#jobSheet h2{margin:4px 0 8px;font:800 24px/1.2 'Outfit',var(--body)}
+#jobSheet .jhpill{display:inline-block;padding:5px 12px;border-radius:999px;background:linear-gradient(135deg,#FFD27A,#F6A13B);color:#2E0827;font:800 12.5px/1.2 var(--body)}
+#jobSheet .jhbig{font:800 54px/1 'Outfit',var(--body);color:#FFD27A;text-align:right;margin-right:4px}
+#jobSheet .jhbig small{display:block;font:600 11.5px/1.3 var(--body);color:#F3D8E7;margin-top:2px}
+#jobSheet .jhbody{padding:14px 14px 20px}
+#jobSheet .jhtiles{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+#jobSheet .jhtiles button{border:0;background:#F3E6EE;border-radius:16px;padding:10px 4px 9px;display:flex;flex-direction:column;align-items:center;gap:2px;color:#4A0E3F;font:700 12.5px/1.25 var(--body);cursor:pointer;text-align:center}
+#jobSheet .jhtiles button.near{background:#FFF3DF;outline:1.5px solid #F6A13B}
+#jobSheet .jhtiles button.soon{background:#FDE5E3;color:#8E1B14}
+#jobSheet .jhtiles .e{font-size:22px}#jobSheet .jhtiles b{font:800 14px 'Outfit',var(--body);color:#E08A1E}
+#jobSheet .jhtiles .soon b{color:#B3261E}
+#jobSheet .jhsec{display:flex;justify-content:space-between;align-items:center;margin:18px 2px 8px;font:800 16px/1.2 var(--body);color:#23131F}
+#jobSheet .jhsec button{border:0;background:none;color:#4A0E3F;font:700 13px var(--body);cursor:pointer}
+#jobSheet .jhsoon{margin:-4px 2px 8px;font:600 12.5px var(--body);color:#8E1B14}
+#jobSheet .jhrow{width:100%;display:flex;gap:10px;align-items:center;text-align:left;margin:0 0 7px;padding:9px 10px;border:1px solid #EFE2EA;border-radius:15px;background:#fff;cursor:pointer;color:#23131F}
+#jobSheet .jhrow .t{flex:1;min-width:0}#jobSheet .jhrow b{display:block;font:700 13.5px/1.35 var(--body)}
+#jobSheet .jhrow small{display:block;margin-top:2px;font:500 11.5px/1.3 var(--body);color:#7A6574}
+#jobSheet .jhd{flex:none;width:50px;text-align:center;border-radius:12px;padding:6px 0;background:#F3E6EE;color:#4A0E3F;font:800 18px/1 'Outfit',var(--body)}
+#jobSheet .jhd small{display:block;margin-top:3px;font:700 10.5px var(--body);color:inherit}
+#jobSheet .jhd.hot{background:#B3261E;color:#fff}
+#jobSheet .jhi{flex:none;width:40px;height:40px;border-radius:12px;display:grid;place-items:center;font-size:20px;background:#F3E6EE}
+#jobSheet .jhcats{display:flex;flex-direction:column;gap:6px}
+#jobSheet .jhcats button{display:flex;align-items:center;gap:10px;padding:9px 12px;border:1px solid #EFE2EA;border-radius:14px;background:#fff;font:700 14px var(--body);color:#23131F;cursor:pointer;text-align:left}
+#jobSheet .jhcats .e{width:32px;height:32px;border-radius:10px;background:#F3E6EE;display:grid;place-items:center;font-size:17px}
+#jobSheet .jhcats .l{flex:1}#jobSheet .jhcats b{font:800 13px 'Outfit',var(--body);color:#4A0E3F;background:#F3E6EE;padding:3px 10px;border-radius:20px}
+#jobSheet .jhcats i{font-style:normal;color:#B9A2B2}
+#jobSheet .jhwarn{margin-top:14px;font:600 12px/1.5 var(--body);color:#7A6574}
+#jobSheet .jhnav{position:sticky;left:0;right:0;bottom:0;z-index:5;display:flex;justify-content:space-around;padding:8px 6px calc(8px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid #EFE2EA;box-shadow:0 -6px 20px rgba(74,14,63,.08)}
+#jobSheet .jhnav button{flex:1;border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:1px;font:700 11px var(--body);color:#7A6574;cursor:pointer}
+#jobSheet .jhnav button span{font-size:20px}#jobSheet .jhnav .on{color:#4A0E3F}
 #hubSheet{background:#FFFDF5;overflow:auto}
 #hubSheet .hubtop{position:relative;padding:22px 20px 26px;background:radial-gradient(120% 120% at 20% 0%,#6E2361,#4A0E3F 55%,#2E0827);color:#FFFDF5;border-radius:0 0 26px 26px}
 #hubSheet .hubx{position:absolute;right:12px;top:12px;color:#FFFDF5;background:rgba(255,253,245,.12);border:0}
@@ -2510,6 +2545,45 @@ $('shareBtn').onclick=()=>shareCard(false);
 $('waBtn').onclick=()=>shareCard(true);
 $('shareApp').onclick=()=>share(`Swipe2News – ${U('tag')} 📲\n${U('sub')}: ${CONFIG.APP_LINK}\nWhatsApp ఛానెల్: ${CONFIG.CHANNEL}`);
 
+/* ---------- Jobs home (user, 16 Nov 2026): opens when the reader taps Jobs – today's count, category tiles, closing soon, latest, all categories ---------- */
+const JHTX={te:{t:'ఈరోజు జాబ్ అలర్ట్స్',n:'ఉద్యోగ ప్రకటనలు',nw:n=>`ఈరోజు కొత్తవి: ${n}`,nw0:'రోజూ కొత్త ప్రకటనలు',soon:'చివరి తేదీ దగ్గర',soonS:n=>`${n} ప్రకటనలు 5 రోజుల్లో ముగుస్తాయి`,latest:'తాజా ప్రకటనలు',cats:'అన్ని విభాగాలు',all:'అన్నీ ›',today:'ఈరోజే',tom:'రేపు',posts:'పోస్టులు',last:'చివరి తేదీ',news:'వార్తలు',jobs:'జాబ్స్',saved:'సేవ్',near:'మీ జిల్లా',none:'ఇప్పుడు ఏవీ లేవు',swipe:'కార్డుల్లో చూడండి ›',mon:['జన','ఫిబ్ర','మార్చి','ఏప్రి','మే','జూన్','జులై','ఆగ','సెప్టెం','అక్టో','నవం','డిసెం']},
+ en:{t:"Today's job alerts",n:'job notices',nw:n=>`New today: ${n}`,nw0:'New notices every day',soon:'Closing soon',soonS:n=>`${n} notices close within 5 days`,latest:'Latest notices',cats:'All categories',all:'All ›',today:'Today',tom:'Tomorrow',posts:'posts',last:'Last date',news:'News',jobs:'Jobs',saved:'Saved',near:'Your district',none:'Nothing right now',swipe:'View as cards ›',mon:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']},
+ hi:{t:'आज के जॉब अलर्ट',n:'नौकरी सूचनाएँ',nw:n=>`आज नई: ${n}`,nw0:'रोज़ नई सूचनाएँ',soon:'जल्द बंद',soonS:n=>`${n} सूचनाएँ 5 दिन में बंद`,latest:'ताज़ा सूचनाएँ',cats:'सभी श्रेणियाँ',all:'सभी ›',today:'आज',tom:'कल',posts:'पद',last:'अंतिम तिथि',news:'खबरें',jobs:'नौकरियाँ',saved:'सेव',near:'आपका ज़िला',none:'अभी कुछ नहीं',swipe:'कार्ड में देखें ›',mon:['जन','फ़र','मार्च','अप्रै','मई','जून','जुला','अग','सित','अक्टू','नव','दिस']}};
+const JICON={near:'📍',soon:'⏰',central:'🏛️',psu:'🏭',bank:'🏦',railway:'🚆',police:'🛡️',teaching:'📚',it:'💻',private:'🏢',tg:'📍',ap:'📍',mela:'🤝',all:'📋'};
+function jobCount(k){ if(k==='all') return JOBS.length; if(k==='near') return nearJobs().length; if(k==='soon') return JOBS.filter(j=>{ const d=daysLeft(j); return d!==null&&d<=SOON_DAYS; }).length;
+  return JOBS.filter(j=>j.type===k||(k==='central'&&j.type==='psu')).length; }
+function jobDnum(d){ const m=/^(\d\d)\.(\d\d)\.(\d{4})$/.exec(d||''); return m?+(m[3]+m[2]+m[1]):0; }
+function openJobs(k,id){ const h=$('jobSheet'); if(h) h.hidden=true; jobFilter=k||'all'; if(view!=='jobs'){ view='jobs'; document.querySelectorAll('.nb').forEach(b=>b.setAttribute('aria-current',b.dataset.v==='jobs')); }
+  renderTabs(); renderFeed(); if(id){ const i=LIST.findIndex(x=>x&&x.kind==='job'&&x.id===id); if(i>0) setTimeout(()=>go(i,'left'),60); } else setTimeout(()=>go(0,'right'),30); }
+function openJobHome(){ const T=JHTX[TLG()?'en':LG()]||JHTX.te, TY=J('types'); let h=$('jobSheet');
+  if(!h){ h=document.createElement('section'); h.className='sheet'; h.id='jobSheet'; h.setAttribute('aria-label','Jobs'); document.querySelector('.shell').appendChild(h); }
+  const ist=new Date(Date.now()+(330+new Date().getTimezoneOffset())*60000), dd=String(ist.getDate()).padStart(2,'0')+'.'+String(ist.getMonth()+1).padStart(2,'0')+'.'+ist.getFullYear();
+  const nNew=JOBS.filter(j=>j.d===dd).length;
+  const soon=JOBS.filter(j=>{ const d=daysLeft(j); return d!==null&&d<=SOON_DAYS; }).sort((a,b)=>daysLeft(a)-daysLeft(b));
+  const latest=JOBS.slice().sort((a,b)=>jobDnum(b.d)-jobDnum(a.d)).slice(0,5);
+  const tiles=['near','soon','central','bank','railway','tg','ap','teaching','it'];
+  const cats=['all','near','soon','central','bank','railway','police','tg','ap','teaching','it','private','mela'].filter(k=>k==='all'||k==='near'||k==='soon'||jobCount(k));
+  const lbl=k=>(TY[k]||k).replace(/^[^\p{L}\p{N}]+/u,'');
+  const pl=j=>/\d/.test(String(j.posts||''))?`${j.posts} ${T.posts}`:'';
+  const dbox=j=>{ const d=daysLeft(j), m=/^(\d\d)\.(\d\d)/.exec(j.last||''); return `<div class="jhd${d<=1?' hot':''}">${m?+m[1]:''}<small>${d===0?T.today:d===1?T.tom:(m?T.mon[+m[2]-1]:'')}</small></div>`; };
+  h.innerHTML=`<div class="jhtop"><button class="icon x jhx" type="button" aria-label="close"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+     <div class="jhb"><div><div class="jhk">💼 ${esc(T.jobs)}</div><h2>${esc(T.t)}</h2><span class="jhpill">${esc(nNew?T.nw(nNew):T.nw0)}</span></div><div class="jhbig">${JOBS.length}<small>${esc(T.n)}</small></div></div></div>
+   <div class="jhbody">
+    <div class="jhtiles">${tiles.map(k=>`<button type="button" data-k="${k}" class="${k==='soon'?'soon':k==='near'?'near':''}"><span class="e">${JICON[k]}</span><span class="l">${esc(lbl(k))}</span><b>${jobCount(k)}</b></button>`).join('')}</div>
+    ${soon.length?`<div class="jhsec"><span>⏰ ${esc(T.soon)}</span><button type="button" data-k="soon">${esc(T.all)}</button></div><div class="jhsoon">${esc(T.soonS(soon.length))}</div>
+    ${soon.slice(0,5).map(j=>`<button class="jhrow" type="button" data-id="${esc(j.id||'')}" data-k="soon">${dbox(j)}<span class="t"><b>${esc(j.h)}</b><small>${esc([TY[j.type]||'',pl(j)].filter(Boolean).join(' · '))}</small></span></button>`).join('')}`:''}
+    <div class="jhsec"><span>🆕 ${esc(T.latest)}</span><button type="button" data-k="all">${esc(T.all)}</button></div>
+    ${latest.map(j=>`<button class="jhrow" type="button" data-id="${esc(j.id||'')}" data-k="all"><span class="jhi">${JICON[j.type]||'💼'}</span><span class="t"><b>${esc(j.h)}</b><small>${esc([pl(j),j.last?T.last+' '+teDate(j.last):''].filter(Boolean).join(' · '))}</small></span></button>`).join('')}
+    <div class="jhsec"><span>📂 ${esc(T.cats)}</span></div>
+    <div class="jhcats">${cats.map(k=>`<button type="button" data-k="${k}"><span class="e">${JICON[k]}</span><span class="l">${esc(lbl(k))}</span><b>${jobCount(k)}</b><i>›</i></button>`).join('')}</div>
+    <div class="jhwarn">${J('warn')}</div>
+   </div>
+   <nav class="jhnav"><button type="button" data-n="news"><span>📰</span>${esc(T.news)}</button><button type="button" class="on" data-n="top"><span>💼</span>${esc(T.jobs)}</button><button type="button" data-k="soon"><span>⏰</span>${esc(T.soon)}</button><button type="button" data-n="saved"><span>🔖</span>${esc(T.saved)}</button></nav>`;
+  h.hidden=false; h.scrollTop=0;
+  h.querySelector('.jhx').onclick=()=>{ h.hidden=true; };
+  h.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>openJobs(b.dataset.k,b.dataset.id||''));
+  h.querySelectorAll('[data-n]').forEach(b=>b.onclick=()=>{ const n=b.dataset.n; if(n==='top'){ h.scrollTo({top:0,behavior:'smooth'}); return; } h.hidden=true; if(n==='news') goHome(); else setView('saved'); });
+}
 /* ---------- bottom nav ---------- */
 function setView(v){
   fsBars(true);
@@ -2518,7 +2592,7 @@ function setView(v){
   if(v==='dates'){ openDates(); return; }
   view=v; document.querySelectorAll('.nb').forEach(b=>b.setAttribute('aria-current', b.dataset.v===v));
   renderTabs(); renderFeed();
-  if(v==='jobs') loadJobs().then(()=>{ if(view==='jobs'){ const k=LIST[cur]&&keyOf(LIST[cur]); renderFeed(JUMP?null:k); } });
+  if(v==='jobs'){ const jh=!JUMP; loadJobs().then(()=>{ if(view==='jobs'){ const k=LIST[cur]&&keyOf(LIST[cur]); renderFeed(JUMP?null:k); if(jh&&JOBS.length) openJobHome(); } }); }
 }
 document.querySelector('.nav').addEventListener('click',e=>{const b=e.target.closest('.nb'); if(b) setView(b.dataset.v);});
 $('closeJoin').onclick=()=>{$('joinSheet').hidden=true};
