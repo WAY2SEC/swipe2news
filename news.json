@@ -1,8 +1,588 @@
 {
   "date": "16.11.2026",
-  "updated": "2026-11-16T12:35:00+05:30",
+  "updated": "2026-11-16T13:35:00+05:30",
   "version": 2,
   "stories": [
+    {
+      "cat": "తెలంగాణ · నేరం",
+      "col": "--c-city",
+      "art": "court",
+      "stat": "9 మంది",
+      "statl": "అరెస్టు, 38 కేసులు ఛేదన",
+      "h": "నల్గొండలో టవర్ పరికరాల చోరీ ముఠా అరెస్టు",
+      "p": "తెలంగాణ, ఏపీల్లో ఎయిర్‌టెల్ సెల్ టవర్ల నుంచి రేడియో రిమోట్ యూనిట్లను రాత్రివేళ దొంగిలిస్తున్న ముఠాను నల్గొండ పోలీసులు పట్టుకున్నారు. ముగ్గురు ఇంజనీర్లు సహా తొమ్మిది మంది నిందితులను అరెస్టు చేశారు. టవర్ పరికరాలపై అవగాహనతోనే వారు చోరీలు చేశారని, దొంగిలించిన సామగ్రిని హైదరాబాద్‌లో అమ్మారని పోలీసులు తెలిపారు. మొత్తం 38 కేసుల్లో సుమారు ₹1.62 కోట్ల నష్టం జరిగిందని ఎస్పీ శరత్ చంద్ర పవార్ వెల్లడించారు.",
+      "pts": [
+        "మిర్యాలగూడలో 16, నల్గొండలో 9, సూర్యాపేటలో 8 కేసులు",
+        "3 కార్లు, 2 బైకులు, ₹15 లక్షల నగదు స్వాధీనం"
+      ],
+      "why": "సెల్ టవర్ల చోరీలతో ఫోన్, ఇంటర్నెట్ సేవలు దెబ్బతినే ప్రాంతాల ప్రజలకు సంబంధించిన వార్త.",
+      "src": "NewsMeter",
+      "url": "https://newsmeter.in/crime/telecom-gang-busted-engineers-among-9-held-for-162-cr-airtel-tower-thefts-in-ap-telangana-779397",
+      "sec": [
+        "telangana"
+      ],
+      "st": "TG",
+      "place": "nalgonda",
+      "loc": "నల్గొండ",
+      "pub": "2026-11-16T10:21+05:30",
+      "lbl": "fact",
+      "en": {
+        "cat": "Telangana · Crime",
+        "h": "Nalgonda police bust telecom tower theft gang",
+        "stat": "9 arrested",
+        "statl": "38 theft cases solved",
+        "loc": "Nalgonda",
+        "p": "Nalgonda police have arrested nine people, including three engineers, accused of stealing Radio Remote Units from Airtel mobile towers at night in Telangana and Andhra Pradesh. Police said the accused used their knowledge of tower equipment and sold the stolen parts in Hyderabad. SP Sharath Chandra Pawar said the gang is linked to 38 cases with a loss of about ₹1.62 crore.",
+        "pts": [
+          "16 cases in Miryalaguda, 9 in Nalgonda, 8 in Suryapet",
+          "3 cars, 2 bikes and ₹15 lakh cash seized"
+        ],
+        "why": "Concerns people in areas where tower thefts disrupt phone and internet services."
+      },
+      "hi": {
+        "cat": "तेलंगाना · अपराध",
+        "h": "नलगोंडा में टावर उपकरण चोर गिरोह पकड़ा",
+        "stat": "9 गिरफ्तार",
+        "statl": "38 चोरी मामले सुलझे",
+        "loc": "नलगोंडा",
+        "p": "नलगोंडा पुलिस ने तेलंगाना और आंध्र प्रदेश में रात के समय एयरटेल मोबाइल टावरों से रेडियो रिमोट यूनिट चुराने के आरोप में तीन इंजीनियरों समेत नौ लोगों को गिरफ्तार किया है। पुलिस के अनुसार आरोपी टावर उपकरणों की जानकारी का इस्तेमाल करते थे और चोरी का सामान हैदराबाद में बेचते थे। एसपी शरत चंद्र पवार ने बताया कि गिरोह 38 मामलों से जुड़ा है, जिनमें करीब ₹1.62 करोड़ का नुकसान हुआ।",
+        "pts": [
+          "मिर्यालगुडा में 16, नलगोंडा में 9, सूर्यापेट में 8 मामले",
+          "3 कारें, 2 बाइक और ₹15 लाख नकद जब्त"
+        ],
+        "why": "टावर चोरी से फोन व इंटरनेट सेवा प्रभावित होने वाले इलाकों के लोगों से जुड़ी खबर।"
+      },
+      "d": "16.11.2026",
+      "t": "13:35",
+      "local": true
+    },
+    {
+      "cat": "తెలంగాణ · ఉద్యోగాలు",
+      "col": "--c-gov",
+      "art": "deadline",
+      "stat": "102 పోస్టులు",
+      "statl": "టీజీపీఎస్సీ ఎంపీఎస్‌ఓ, ఏఎస్‌ఓ",
+      "h": "టీజీపీఎస్సీ 102 గణాంక పోస్టులు",
+      "p": "రాష్ట్ర ఆర్థిక, గణాంక శాఖలో మండల ప్రణాళిక గణాంక అధికారి (ఎంపీఎస్‌ఓ), సహాయ గణాంక అధికారి (ఏఎస్‌ఓ) పోస్టుల భర్తీకి తెలంగాణ పబ్లిక్ సర్వీస్ కమిషన్ ఆన్‌లైన్ దరఖాస్తులు స్వీకరిస్తోంది. మొత్తం 102 పోస్టులు ఉన్నాయి. స్టాటిస్టిక్స్ ప్రధాన సబ్జెక్టుగా డిగ్రీ చేసినవారు అర్హులు. దరఖాస్తుకు చివరి తేదీ నవంబర్ 27. జనవరిలో రాత పరీక్ష ఉంటుంది.",
+      "pts": [
+        "వేతనం నెలకు ₹36,750 నుంచి ₹1,06,990",
+        "వయసు 18 నుంచి 44 ఏళ్లు",
+        "రెండు పేపర్లు, మొత్తం 300 మార్కులు"
+      ],
+      "why": "గణాంక శాస్త్రం చదివిన తెలంగాణ నిరుద్యోగ అభ్యర్థులకు ఉపయోగపడే అవకాశం.",
+      "src": "10TV Telugu",
+      "url": "https://10tv.in/telugu-news/telangana/tgpsc-notification-released-for-102-mpso-and-aso-posts-in-telangana-sn-1158257.html",
+      "sec": [
+        "telangana",
+        "jobs"
+      ],
+      "st": "TG",
+      "place": "TS",
+      "loc": "",
+      "pub": "2026-11-16T10:07+05:30",
+      "lbl": "fact",
+      "en": {
+        "cat": "Telangana · Jobs",
+        "h": "TGPSC invites applications for 102 posts",
+        "stat": "102 posts",
+        "statl": "TGPSC MPSO and ASO",
+        "loc": "Telangana",
+        "p": "The Telangana Public Service Commission is accepting online applications for 102 Mandal Planning and Statistical Officer (MPSO) and Assistant Statistical Officer (ASO) posts in the state Finance and Statistics department. Graduates with statistics as a main subject are eligible. The last date to apply is November 27, and the written test will be held in January.",
+        "pts": [
+          "Pay: ₹36,750 to ₹1,06,990 a month",
+          "Age limit: 18 to 44 years",
+          "Two papers, 300 marks in total"
+        ],
+        "why": "An opportunity for job seekers in Telangana with a statistics background."
+      },
+      "hi": {
+        "cat": "तेलंगाना · नौकरियां",
+        "h": "टीजीपीएससी 102 पदों के लिए आवेदन",
+        "stat": "102 पद",
+        "statl": "टीजीपीएससी एमपीएसओ और एएसओ",
+        "loc": "तेलंगाना",
+        "p": "तेलंगाना लोक सेवा आयोग राज्य वित्त एवं सांख्यिकी विभाग में मंडल योजना एवं सांख्यिकी अधिकारी (एमपीएसओ) और सहायक सांख्यिकी अधिकारी (एएसओ) के 102 पदों के लिए ऑनलाइन आवेदन ले रहा है। सांख्यिकी को मुख्य विषय के रूप में पढ़े स्नातक पात्र हैं। आवेदन की अंतिम तिथि 27 नवंबर है और लिखित परीक्षा जनवरी में होगी।",
+        "pts": [
+          "वेतन: ₹36,750 से ₹1,06,990 प्रति माह",
+          "आयु सीमा: 18 से 44 वर्ष",
+          "दो पेपर, कुल 300 अंक"
+        ],
+        "why": "सांख्यिकी पढ़े तेलंगाना के नौकरी तलाशने वालों के लिए अवसर।"
+      },
+      "d": "16.11.2026",
+      "t": "13:35",
+      "local": true
+    },
+    {
+      "cat": "హైదరాబాద్ · నీరు",
+      "col": "--c-water",
+      "art": "water",
+      "stat": "₹3,000",
+      "statl": "ఒక్కో ప్రైవేట్ ట్యాంకర్‌కు",
+      "h": "హైదరాబాద్ నిర్మాణాలకు ట్యాంకర్ నీటి భారం",
+      "p": "కొత్త నిర్మాణాలకు బోర్‌వెల్ అనుమతులు నిలిపివేయడంతో హైదరాబాద్ బిల్డర్లు ప్రైవేట్ ట్యాంకర్లపై ఆధారపడుతున్నారు. గతంలో సుమారు ₹1,000 ఉన్న ఒక్కో ట్యాంకర్ ధర ఇప్పుడు సుమారు ₹3,000కు చేరిందని బిల్డర్ల సంఘాలు చెబుతున్నాయి. మియాపూర్, కూకట్‌పల్లి, గచ్చిబౌలి, హైటెక్ సిటీ ప్రాంతాల్లో ప్రభావం ఎక్కువగా ఉంది. శుద్ధి చేసిన మురుగు నీటిని వాడాలని జలమండలి సూచిస్తోంది.",
+      "pts": [
+        "350 నుంచి 400 ప్రాజెక్టులపై ప్రభావం: బిల్డర్ల సమాఖ్య",
+        "చదరపు అడుగుకు సుమారు ₹10 అదనపు ఖర్చు",
+        "ఇళ్ల అప్పగింత ఆరు నెలల వరకు ఆలస్యం కావొచ్చని ఆందోళన"
+      ],
+      "why": "హైదరాబాద్‌లో ఇళ్లు కొంటున్నవారు, నిర్మాణ రంగ కార్మికులు, బిల్డర్లపై ప్రభావం.",
+      "src": "Siasat Daily",
+      "url": "https://www.siasat.com/hyderabad-builders-pay-thrice-more-for-water-amid-borewell-curbs-3578462/",
+      "sec": [
+        "telangana",
+        "business"
+      ],
+      "st": "TG",
+      "place": "hyderabad",
+      "loc": "",
+      "pub": "2026-11-16T12:36+05:30",
+      "lbl": "claim",
+      "en": {
+        "cat": "Hyderabad · Water",
+        "h": "Hyderabad builders pay more for tanker water",
+        "stat": "₹3,000",
+        "statl": "per private tanker",
+        "loc": "Hyderabad",
+        "p": "With new borewell permissions for construction halted, Hyderabad builders now depend on private tankers. Builders' associations say a tanker that cost about ₹1,000 now costs about ₹3,000. Miyapur, Kukatpally, Gachibowli and HITEC City are hit hardest. The water board is urging use of treated sewage water.",
+        "pts": [
+          "350 to 400 projects affected, says builders' federation",
+          "About ₹10 extra cost per square foot",
+          "Concern that handovers may slip by up to six months"
+        ],
+        "why": "Affects home buyers, construction workers and builders in Hyderabad."
+      },
+      "hi": {
+        "cat": "हैदराबाद · पानी",
+        "h": "हैदराबाद में बिल्डरों पर टैंकर पानी का बोझ",
+        "stat": "₹3,000",
+        "statl": "प्रति निजी टैंकर",
+        "loc": "हैदराबाद",
+        "p": "निर्माण के लिए नए बोरवेल की अनुमति रुकने से हैदराबाद के बिल्डर निजी टैंकरों पर निर्भर हैं। बिल्डर संघों के अनुसार जो टैंकर पहले करीब ₹1,000 का था, अब करीब ₹3,000 का है। मियापुर, कूकटपल्ली, गच्चीबौली और हाईटेक सिटी सबसे ज्यादा प्रभावित हैं। जल बोर्ड शोधित सीवेज पानी इस्तेमाल करने को कह रहा है।",
+        "pts": [
+          "बिल्डर महासंघ के अनुसार 350 से 400 परियोजनाएं प्रभावित",
+          "प्रति वर्ग फुट करीब ₹10 अतिरिक्त खर्च",
+          "घर सौंपने में छह महीने तक देरी की आशंका"
+        ],
+        "why": "हैदराबाद में घर खरीदारों, निर्माण मजदूरों और बिल्डरों पर असर।"
+      },
+      "d": "16.11.2026",
+      "t": "13:35",
+      "local": true
+    },
+    {
+      "cat": "తెలంగాణ · అడవులు",
+      "col": "--c-gov",
+      "art": "land",
+      "stat": "42 పులులు",
+      "statl": "అమ్రాబాద్‌లో 2026 గణనలో",
+      "h": "తెలంగాణ అడవుల్లోకి పెరుగుతున్న పులుల రాక",
+      "p": "మహారాష్ట్రలోని తడోబా, టిపేశ్వర్ అడవుల నుంచి ప్రాణహిత, పెన్‌గంగ నదులు దాటి పెద్ద పులులు కాగజ్‌నగర్, ఆసిఫాబాద్, కవ్వాల్ పులుల అభయారణ్యంలోకి వస్తున్నాయి. ఏపీలోని నల్లమల నుంచి అమ్రాబాద్‌కు కూడా పులులు చేరుతున్నాయి. 2020లో 12గా ఉన్న అమ్రాబాద్ పులుల సంఖ్య తాజా గణనలో 42కు పెరిగింది. విద్యుత్ కంచెలు, ఉచ్చుల వల్ల కొన్ని పులులు చనిపోతున్నాయి.",
+      "pts": [
+        "2025 చివరి నుంచి 5 నుంచి 8 కొత్త పులుల రాక",
+        "ఆగస్టులో ఆదిలాబాద్‌లోకి రెండు పులులు"
+      ],
+      "why": "అటవీ సరిహద్దు గ్రామాల రైతులు, పశువుల కాపరులు అప్రమత్తంగా ఉండాల్సిన అంశం.",
+      "src": "V6 Velugu",
+      "url": "https://www.v6velugu.com/-tiger-movement-from-maharashtra-and-andhra-pradesh-to-telangana-forests-increases",
+      "sec": [
+        "telangana"
+      ],
+      "st": "TG",
+      "place": "TS",
+      "loc": "",
+      "pub": "2026-11-16T08:22+05:30",
+      "lbl": "fact",
+      "en": {
+        "cat": "Telangana · Forests",
+        "h": "More tigers moving into Telangana forests",
+        "stat": "42 tigers",
+        "statl": "in Amrabad, 2026 count",
+        "loc": "Telangana",
+        "p": "Tigers from Maharashtra's Tadoba and Tipeshwar forests are crossing the Pranahita and Penganga rivers into Kagaznagar, Asifabad and the Kawal Tiger Reserve. Tigers from Nallamala in Andhra Pradesh are also reaching Amrabad, whose count rose from 12 in 2020 to 42 in the latest estimation. Some tigers are dying in electric fences and snares.",
+        "pts": [
+          "5 to 8 new tigers arrived since late 2025",
+          "Two tigers entered Adilabad in August"
+        ],
+        "why": "Farmers and herders in forest-edge villages need to stay alert."
+      },
+      "hi": {
+        "cat": "तेलंगाना · जंगल",
+        "h": "तेलंगाना के जंगलों में बढ़ रहे बाघ",
+        "stat": "42 बाघ",
+        "statl": "अमराबाद में 2026 गणना",
+        "loc": "तेलंगाना",
+        "p": "महाराष्ट्र के ताडोबा और टिपेश्वर जंगलों से बाघ प्राणहिता और पेनगंगा नदियां पार कर कागजनगर, आसिफाबाद और कवाल टाइगर रिजर्व में आ रहे हैं। आंध्र प्रदेश के नल्लमला से भी बाघ अमराबाद पहुंच रहे हैं, जहां संख्या 2020 के 12 से बढ़कर ताजा गणना में 42 हो गई। कुछ बाघ बिजली की बाड़ और फंदों में मर रहे हैं।",
+        "pts": [
+          "2025 के अंत से 5 से 8 नए बाघ आए",
+          "अगस्त में दो बाघ आदिलाबाद पहुंचे"
+        ],
+        "why": "जंगल किनारे के गांवों के किसानों और चरवाहों को सतर्क रहने की जरूरत।"
+      },
+      "d": "16.11.2026",
+      "t": "13:35",
+      "local": true
+    },
+    {
+      "cat": "తెలంగాణ · పోలీసు",
+      "col": "--c-city",
+      "art": "court",
+      "stat": "ఏడేళ్ల బాలుడు",
+      "statl": "పాఠశాల వద్ద అదృశ్యం",
+      "h": "ఇబ్రహీంపట్నంలో బాలుడు అదృశ్యం",
+      "p": "హైదరాబాద్ శివారు ఇబ్రహీంపట్నంలో ఓ ప్రైవేట్ పాఠశాల సమీపంలో రెండో తరగతి చదువుతున్న ఏడేళ్ల బాలుడు సోమవారం ఉదయం కనిపించకుండా పోయాడు. బాలుడిని చివరిసారిగా పాఠశాల దగ్గర చూశారని పోలీసులు తెలిపారు. ఇబ్రహీంపట్నం పోలీసులు గాలింపు చేపట్టారు. బాలుడి ఆచూకీ తెలిసినవారు వెంటనే పోలీసులకు సమాచారం ఇవ్వాలని కోరారు.",
+      "pts": [],
+      "why": "బాలుడి ఆచూకీ కోసం స్థానికుల సహకారం కావాలని పోలీసులు కోరుతున్నారు.",
+      "src": "Siasat Daily",
+      "url": "https://www.siasat.com/seven-year-old-boy-goes-missing-near-school-in-ibrahimpatnam-3578501/",
+      "sec": [
+        "telangana"
+      ],
+      "st": "TG",
+      "place": "rangareddy",
+      "loc": "ఇబ్రహీంపట్నం",
+      "pub": "2026-11-16T12:31+05:30",
+      "lbl": "fact",
+      "en": {
+        "cat": "Telangana · Police",
+        "h": "Boy, 7, missing near Ibrahimpatnam school",
+        "stat": "7-year-old boy",
+        "statl": "missing near school",
+        "loc": "Ibrahimpatnam",
+        "p": "A seven-year-old Class 2 student went missing near a private school in Ibrahimpatnam on the outskirts of Hyderabad on Monday morning. Police said he was last seen near the school. Ibrahimpatnam police have started a search and asked anyone with information about the boy to contact them immediately.",
+        "pts": [],
+        "why": "Police are seeking help from local residents to trace the boy."
+      },
+      "hi": {
+        "cat": "तेलंगाना · पुलिस",
+        "h": "इब्राहिमपट्टनम में स्कूल के पास बच्चा लापता",
+        "stat": "7 साल का बच्चा",
+        "statl": "स्कूल के पास लापता",
+        "loc": "इब्राहिमपट्टनम",
+        "p": "हैदराबाद के बाहरी इलाके इब्राहिमपट्टनम में सोमवार सुबह एक निजी स्कूल के पास कक्षा 2 का सात साल का छात्र लापता हो गया। पुलिस के अनुसार उसे आखिरी बार स्कूल के पास देखा गया था। इब्राहिमपट्टनम पुलिस ने तलाश शुरू की है और जानकारी रखने वालों से तुरंत संपर्क करने को कहा है।",
+        "pts": [],
+        "why": "बच्चे को खोजने के लिए पुलिस स्थानीय लोगों की मदद मांग रही है।"
+      },
+      "d": "16.11.2026",
+      "t": "13:35",
+      "local": true
+    },
+    {
+      "cat": "తెలంగాణ · ఇసుక",
+      "col": "--c-gov",
+      "art": "land",
+      "stat": "10 ట్రాక్టర్లు",
+      "statl": "అక్రమ ఇసుక స్వాధీనం",
+      "h": "కోటపల్లిలో అక్రమ ఇసుక స్వాధీనం",
+      "p": "మంచిర్యాల జిల్లా కోటపల్లి మండలం రాపనపల్లి గ్రామంలో అంతర్రాష్ట్ర చెక్‌పోస్ట్ సమీపంలోని ఓ సిమెంట్ ఇటుకల తయారీ కేంద్రంలో పోలీసు, రెవెన్యూ, మైనింగ్ అధికారులు సంయుక్తంగా తనిఖీలు చేశారు. అక్కడ అక్రమంగా నిల్వ చేసిన సుమారు పది ట్రాక్టర్ల ఇసుకను స్వాధీనం చేసుకున్నారు. అనుమతి లేకుండా ఇసుక నిల్వ చేసినా, తరలించినా కఠిన చర్యలు తీసుకుంటామని అధికారులు హెచ్చరించారు.",
+      "pts": [
+        "ముందస్తు సమాచారంతో సంయుక్త దాడి"
+      ],
+      "why": "చెన్నూరు నియోజకవర్గంలో ఇసుక అక్రమ రవాణాపై అధికారుల నిఘా పెరిగింది.",
+      "src": "V6 Velugu",
+      "url": "https://www.v6velugu.com/officials-seize-10-tractor-loads-of-illegally-stockpiling-sand-in-mancherial-district-",
+      "sec": [
+        "telangana"
+      ],
+      "st": "TG",
+      "place": "mancherial",
+      "loc": "రాపనపల్లి, కోటపల్లి మండలం",
+      "pub": "2026-11-16T08:13+05:30",
+      "lbl": "fact",
+      "en": {
+        "cat": "Telangana · Sand",
+        "h": "Illegal sand stock seized in Kotapally",
+        "stat": "10 tractor loads",
+        "statl": "of illegal sand seized",
+        "loc": "Rapanapalli, Kotapally mandal",
+        "p": "A joint team of police, revenue and mining officials inspected a cement brick unit near the inter-state checkpost at Rapanapalli village in Kotapally mandal of Mancherial district. They seized about ten tractor loads of illegally stored sand. Officials warned of strict action against anyone storing or moving sand without permits.",
+        "pts": [
+          "Joint raid acted on a tip-off"
+        ],
+        "why": "Officials have stepped up checks on illegal sand transport in Chennur constituency."
+      },
+      "hi": {
+        "cat": "तेलंगाना · रेत",
+        "h": "कोटापल्ली में अवैध रेत भंडार जब्त",
+        "stat": "10 ट्रैक्टर",
+        "statl": "अवैध रेत जब्त",
+        "loc": "रापनपल्ली, कोटापल्ली मंडल",
+        "p": "मंचेरियल जिले के कोटापल्ली मंडल के रापनपल्ली गांव में अंतरराज्यीय चेकपोस्ट के पास एक सीमेंट ईंट इकाई पर पुलिस, राजस्व और खनन अधिकारियों की संयुक्त टीम ने जांच की। उन्होंने अवैध रूप से जमा करीब दस ट्रैक्टर रेत जब्त की। अधिकारियों ने बिना अनुमति रेत रखने या ले जाने वालों पर सख्त कार्रवाई की चेतावनी दी।",
+        "pts": [
+          "सूचना के आधार पर संयुक्त छापा"
+        ],
+        "why": "चेन्नूर क्षेत्र में अवैध रेत परिवहन पर अधिकारियों की निगरानी बढ़ी।"
+      },
+      "d": "16.11.2026",
+      "t": "13:35",
+      "local": true
+    },
+    {
+      "cat": "ఏపీ · వాతావరణం",
+      "col": "--c-water",
+      "art": "rain",
+      "stat": "నవంబర్ 20",
+      "statl": "మధ్యాహ్నం తీరం దాటే అవకాశం",
+      "h": "నెల్లూరు–తుని మధ్య అక్వాన్ తీరం దాటొచ్చు",
+      "p": "బంగాళాఖాతంలోని తీవ్ర వాయుగుండం సోమవారం సాయంత్రానికి తుపానుగా, మంగళవారానికి తీవ్ర తుపానుగా మారే అవకాశం ఉందని భారత వాతావరణ శాఖ తెలిపింది. నవంబర్ 19 రాత్రికి అతి తీవ్ర తుపానుగా బలపడి, నవంబర్ 20 మధ్యాహ్నం నెల్లూరు, తుని మధ్య ఏపీ తీరాన్ని దాటవచ్చని అంచనా వేసింది. ఆ సమయంలో గంటకు 120–130 కిలోమీటర్ల వేగంతో గాలులు వీచే అవకాశం ఉంది.",
+      "pts": [
+        "ఏపీ, దక్షిణ ఒడిశా తీరాలకు తుపాను ముందస్తు హెచ్చరిక",
+        "మత్స్యకారులు సముద్రంలోకి వెళ్లొద్దని ఏపీఎస్‌డీఎంఏ సూచన",
+        "నెల రోజుల్లో ఇది మూడో తుపాను"
+      ],
+      "why": "నెల్లూరు నుంచి కాకినాడ వరకు తీర జిల్లాల ప్రజలు, మత్స్యకారులు, రైతులు అప్రమత్తంగా ఉండాలి.",
+      "src": "The Federal",
+      "url": "https://thefederal.com/category/news/cyclone-akvan-bay-of-bengal-east-coast-rainfall-weather-forecast-imd-263072",
+      "sec": [
+        "telangana",
+        "weather"
+      ],
+      "st": "AP",
+      "place": "AP",
+      "loc": "",
+      "pub": "2026-11-16T13:01+05:30",
+      "lbl": "forecast",
+      "en": {
+        "cat": "AP · Weather",
+        "h": "Akvan may cross coast between Nellore, Tuni",
+        "stat": "November 20",
+        "statl": "likely landfall around noon",
+        "loc": "Andhra Pradesh",
+        "p": "The India Meteorological Department said the deep depression over the Bay of Bengal is likely to become a cyclonic storm by Monday evening and a severe cyclonic storm by Tuesday. It may intensify into a very severe cyclonic storm by the night of November 19 and cross the Andhra coast between Nellore and Tuni around noon on November 20, with winds of 120–130 kmph.",
+        "pts": [
+          "Pre-cyclone watch for AP and south Odisha coasts",
+          "APSDMA advises fishermen not to go to sea",
+          "Third cyclone in about a month"
+        ],
+        "why": "People, fishermen and farmers in coastal districts from Nellore to Kakinada should stay alert."
+      },
+      "hi": {
+        "cat": "आंध्र · मौसम",
+        "h": "नेल्लूर–तुनी के बीच तट पार कर सकता है अक्वान",
+        "stat": "20 नवंबर",
+        "statl": "दोपहर तट पार करने की संभावना",
+        "loc": "आंध्र प्रदेश",
+        "p": "भारत मौसम विज्ञान विभाग ने कहा कि बंगाल की खाड़ी में बना गहरा दबाव सोमवार शाम तक चक्रवाती तूफान और मंगलवार तक गंभीर चक्रवाती तूफान बन सकता है। 19 नवंबर की रात तक यह अति गंभीर तूफान बनकर 20 नवंबर दोपहर के आसपास नेल्लूर और तुनी के बीच आंध्र तट पार कर सकता है, तब हवा की गति 120–130 किमी प्रति घंटा रह सकती है।",
+        "pts": [
+          "आंध्र और दक्षिण ओडिशा तटों के लिए पूर्व-चक्रवात चेतावनी",
+          "एपीएसडीएमए ने मछुआरों को समुद्र में न जाने को कहा",
+          "करीब एक महीने में तीसरा चक्रवात"
+        ],
+        "why": "नेल्लूर से काकीनाडा तक तटीय जिलों के लोग, मछुआरे और किसान सतर्क रहें।"
+      },
+      "d": "16.11.2026",
+      "t": "13:35",
+      "local": true
+    },
+    {
+      "cat": "ఏపీ · శ్రీకాకుళం",
+      "col": "--c-election",
+      "art": "voters",
+      "stat": "ఇద్దరు పోలీసులకు",
+      "statl": "గాయాలు, కేసు నమోదు",
+      "h": "శ్రీకాకుళంలో కారుతో పోలీసులకు గాయాలు",
+      "p": "శ్రీకాకుళం నగరపాలక సంస్థ ఎన్నికల నామినేషన్ కేంద్రమైన బొందిలీపురం వంశధార కార్యాలయం వద్ద ఓ బీజేపీ నేత కారును 100 మీటర్ల పరిధిలోకి పోలీసులు అనుమతించలేదు. దీనిపై వాగ్వాదానికి దిగిన ఆయన కారును పోలీసుల పైకి నడిపారని పోలీసులు తెలిపారు. ఈ ఘటనలో గాయపడిన ఇద్దరు పోలీసు అధికారులను ప్రభుత్వ సర్వజన ఆసుపత్రికి తరలించారు. విధుల్లోని పోలీసులపై దాడి కింద కేసు నమోదైంది.",
+      "pts": [
+        "కార్పొరేటర్ అభ్యర్థిగా నామినేషన్ వేయడానికి వచ్చిన నేత",
+        "గాయపడినవారి హోదాలపై పత్రికల్లో భిన్న కథనాలు"
+      ],
+      "why": "ఎన్నికల నామినేషన్ల సమయంలో శాంతిభద్రతలపై శ్రీకాకుళం ఓటర్లకు సంబంధించిన వార్త.",
+      "src": "Deccan Chronicle",
+      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/srikakulam-bjp-leader-rams-car-into-barricade2-cops-injured-2004791",
+      "sec": [
+        "telangana"
+      ],
+      "st": "AP",
+      "place": "ap-srikakulam",
+      "loc": "బొందిలీపురం, శ్రీకాకుళం",
+      "pub": "2026-11-16T11:32+05:30",
+      "lbl": "fact",
+      "en": {
+        "cat": "AP · Srikakulam",
+        "h": "Two police hurt at Srikakulam nomination centre",
+        "stat": "2 policemen",
+        "statl": "injured, case registered",
+        "loc": "Bondilipuram, Srikakulam",
+        "p": "Police at the Vamsadhara office in Bondilipuram, a nomination centre for the Srikakulam Municipal Corporation polls, stopped a BJP leader's car from entering the 100-metre zone. Police said he argued and then drove the car at them. Two injured police officers were taken to the Government General Hospital, and a case of attacking police on duty has been registered.",
+        "pts": [
+          "The leader had come to file nomination as corporator candidate",
+          "Reports differ on the ranks of the injured officers"
+        ],
+        "why": "Concerns Srikakulam voters on law and order during the nomination process."
+      },
+      "hi": {
+        "cat": "आंध्र · श्रीकाकुलम",
+        "h": "श्रीकाकुलम नामांकन केंद्र पर दो पुलिसकर्मी घायल",
+        "stat": "2 पुलिसकर्मी",
+        "statl": "घायल, मामला दर्ज",
+        "loc": "बोंदिलीपुरम, श्रीकाकुलम",
+        "p": "श्रीकाकुलम नगर निगम चुनाव के नामांकन केंद्र बोंदिलीपुरम के वंशधारा कार्यालय पर पुलिस ने एक भाजपा नेता की कार को 100 मीटर दायरे में जाने से रोका। पुलिस के अनुसार उन्होंने बहस की और फिर कार पुलिस पर चढ़ा दी। दो घायल पुलिस अधिकारियों को सरकारी जनरल अस्पताल ले जाया गया और ड्यूटी पर पुलिस पर हमले का मामला दर्ज हुआ।",
+        "pts": [
+          "नेता पार्षद प्रत्याशी के रूप में नामांकन करने आए थे",
+          "घायल अधिकारियों के पद को लेकर खबरों में अंतर"
+        ],
+        "why": "नामांकन के दौरान कानून-व्यवस्था को लेकर श्रीकाकुलम के मतदाताओं से जुड़ी खबर।"
+      },
+      "d": "16.11.2026",
+      "t": "13:35",
+      "local": true
+    },
+    {
+      "cat": "భారత్ · ధరలు",
+      "col": "--c-money",
+      "art": "economy",
+      "stat": "12.29 శాతం",
+      "statl": "అక్టోబర్ టోకు ద్రవ్యోల్బణం",
+      "h": "టోకు ద్రవ్యోల్బణం 12.29 శాతానికి",
+      "p": "దేశంలో టోకు ధరల ద్రవ్యోల్బణం అక్టోబర్‌లో 12.29 శాతానికి పెరిగిందని కేంద్ర వాణిజ్య, పరిశ్రమల శాఖ సోమవారం ప్రకటించిన తాత్కాలిక గణాంకాలు చెబుతున్నాయి. సెప్టెంబర్‌లో ఇది 11.39 శాతంగా ఉంది. వరుసగా మూడో నెల పెరుగుదల ఇది. ఇంధనం, విద్యుత్ ధరలు 32.84 శాతం పెరగడం ప్రధాన కారణం. ఆహార వస్తువుల ధరలు 8.26 శాతం పెరిగాయి.",
+      "pts": [
+        "ముడి చమురు, సహజ వాయువు ధరలు 70.80 శాతం పెరుగుదల",
+        "ఆర్‌బీఐ పరపతి విధాన సమావేశం డిసెంబర్ 2–4"
+      ],
+      "why": "నిత్యావసరాలు, రవాణా ఖర్చులు పెరిగి సామాన్య కుటుంబాల బడ్జెట్‌పై భారం పడవచ్చు.",
+      "src": "News Arena India",
+      "url": "https://newsarenaindia.com/business/india-s-wholesale-inflation-rises-to-12-29-percent-in-october-fuel-prices-surge/85466",
+      "sec": [
+        "india",
+        "business"
+      ],
+      "st": "IN",
+      "place": "IN",
+      "loc": "",
+      "pub": "2026-11-16T12:54+05:30",
+      "lbl": "fact",
+      "en": {
+        "cat": "India · Prices",
+        "h": "Wholesale inflation rises to 12.29% in October",
+        "stat": "12.29%",
+        "statl": "WPI inflation in October",
+        "loc": "India",
+        "p": "India's wholesale price inflation rose to 12.29% in October from 11.39% in September, according to provisional data released by the Commerce and Industry Ministry on Monday. It is the third straight monthly rise. Fuel and power prices, up 32.84%, were the main driver, while food articles rose 8.26%.",
+        "pts": [
+          "Crude petroleum and natural gas up 70.80%",
+          "RBI policy meeting on December 2–4"
+        ],
+        "why": "Higher costs of essentials and transport may strain household budgets."
+      },
+      "hi": {
+        "cat": "भारत · कीमतें",
+        "h": "अक्टूबर में थोक महंगाई 12.29% पर",
+        "stat": "12.29%",
+        "statl": "अक्टूबर में थोक महंगाई",
+        "loc": "भारत",
+        "p": "वाणिज्य एवं उद्योग मंत्रालय के सोमवार को जारी अस्थायी आंकड़ों के अनुसार देश की थोक महंगाई दर अक्टूबर में बढ़कर 12.29% हो गई, जो सितंबर में 11.39% थी। यह लगातार तीसरे महीने की बढ़ोतरी है। ईंधन और बिजली की कीमतों में 32.84% वृद्धि मुख्य वजह रही, जबकि खाद्य वस्तुएं 8.26% महंगी हुईं।",
+        "pts": [
+          "कच्चा तेल और प्राकृतिक गैस 70.80% महंगे",
+          "आरबीआई नीति बैठक 2–4 दिसंबर को"
+        ],
+        "why": "जरूरी चीजों और परिवहन की बढ़ती लागत से घरेलू बजट पर दबाव पड़ सकता है।"
+      },
+      "d": "16.11.2026",
+      "t": "13:35"
+    },
+    {
+      "cat": "ప్రపంచం · టెక్నాలజీ",
+      "col": "--c-power",
+      "art": "unity",
+      "stat": "10 దేశాలు",
+      "statl": "శాన్ ఫ్రాన్సిస్కో డిక్లరేషన్‌పై సంతకం",
+      "h": "ఏఐ సరఫరా రక్షణకు 10 దేశాల ఒప్పందం",
+      "p": "కృత్రిమ మేధ (ఏఐ), చిప్‌ల తయారీకి అవసరమైన సిలికాన్, ఖనిజాల సరఫరాను కాపాడేందుకు భారత్, అమెరికా సహా పది దేశాలు 'శాన్ ఫ్రాన్సిస్కో డిక్లరేషన్'పై ఆదివారం సంతకం చేశాయి. అమెరికా నేతృత్వంలోని 'పాక్స్ సిలికా' కార్యక్రమం వ్యవస్థాపక సభ్యుల సమావేశంలో ఇది జరిగింది. ఆర్థిక భద్రతను జాతీయ భద్రతతో ముడిపెట్టిన ఈ ఒప్పందం కింద త్వరలో కార్యాచరణ బృందాలు ఏర్పాటు కానున్నాయి.",
+      "pts": [
+        "జపాన్, బ్రిటన్, ఆస్ట్రేలియా, యూఏఈ, సింగపూర్ కూడా సంతకం",
+        "ఐదు కార్యాచరణ బృందాల ప్రతిపాదన"
+      ],
+      "why": "భారత టెక్నాలజీ, చిప్ రంగాల్లో పెట్టుబడులు, ఉద్యోగాలపై ప్రభావం చూపే అంశం.",
+      "src": "Greater Kashmir (PTI)",
+      "url": "https://www.greaterkashmir.com/world/india-us-eight-other-nations-sign-declaration-to-safeguard-ai-supply-chains-12813393",
+      "sec": [
+        "world",
+        "ai",
+        "india"
+      ],
+      "st": "WORLD",
+      "place": "IN",
+      "loc": "",
+      "pub": "2026-11-16T12:30+05:30",
+      "lbl": "fact",
+      "en": {
+        "cat": "World · Technology",
+        "h": "India, US among 10 in AI supply chain pact",
+        "stat": "10 nations",
+        "statl": "sign San Francisco Declaration",
+        "loc": "Washington",
+        "p": "India, the US and eight other countries on Sunday signed the 'San Francisco Declaration' to protect supply chains of silicon and minerals needed for chips and artificial intelligence. It was signed at a meeting of founding members of the US-led Pax Silica initiative. The pact links economic security with national security, and working groups will be set up next.",
+        "pts": [
+          "Japan, UK, Australia, UAE and Singapore also signed",
+          "Five working groups proposed"
+        ],
+        "why": "May shape investment and jobs in India's technology and chip sectors."
+      },
+      "hi": {
+        "cat": "विश्व · तकनीक",
+        "h": "एआई आपूर्ति शृंखला समझौते में भारत समेत 10 देश",
+        "stat": "10 देश",
+        "statl": "सैन फ्रांसिस्को घोषणा पर हस्ताक्षर",
+        "loc": "वॉशिंगटन",
+        "p": "भारत, अमेरिका और आठ अन्य देशों ने रविवार को चिप और कृत्रिम बुद्धिमत्ता के लिए जरूरी सिलिकॉन व खनिजों की आपूर्ति शृंखला की सुरक्षा के लिए 'सैन फ्रांसिस्को घोषणा' पर हस्ताक्षर किए। यह अमेरिका के नेतृत्व वाली पैक्स सिलिका पहल के संस्थापक सदस्यों की बैठक में हुआ। समझौता आर्थिक सुरक्षा को राष्ट्रीय सुरक्षा से जोड़ता है, आगे कार्य समूह बनेंगे।",
+        "pts": [
+          "जापान, ब्रिटेन, ऑस्ट्रेलिया, यूएई और सिंगापुर ने भी हस्ताक्षर किए",
+          "पांच कार्य समूहों का प्रस्ताव"
+        ],
+        "why": "भारत के तकनीक और चिप क्षेत्र में निवेश व रोजगार पर असर डाल सकता है।"
+      },
+      "d": "16.11.2026",
+      "t": "13:35"
+    },
+    {
+      "cat": "ప్రపంచం · రాజకీయం",
+      "col": "--c-gov",
+      "art": "unity",
+      "stat": "నవంబర్ 19",
+      "statl": "షెన్‌జెన్‌లో ముగ్గురు నేతల భేటీ",
+      "h": "షీ–ట్రంప్–పుతిన్ తొలి భేటీ నవంబర్ 19న",
+      "p": "చైనా, రష్యా, అమెరికా దేశాధినేతల సమావేశానికి అధ్యక్షుడు షీ జిన్‌పింగ్ ఆతిథ్యం ఇవ్వనున్నారని చైనా విదేశాంగ శాఖ ప్రకటించింది. డొనాల్డ్ ట్రంప్, వ్లాదిమిర్ పుతిన్ పాల్గొనే ఈ భేటీ నవంబర్ 19న షెన్‌జెన్‌లో జరుగుతుంది. ఈ ముగ్గురు నేతల మధ్య ఇలాంటి సమావేశం జరగడం ఇదే తొలిసారి. సమావేశ ఎజెండాను ఇంకా వెల్లడించలేదు.",
+      "pts": [
+        "ముందు నవంబర్ 17–18న గ్వాంగ్‌డాంగ్‌లో అపెక్ సీఈవోల సదస్సు"
+      ],
+      "why": "ప్రపంచ వాణిజ్యం, చమురు ధరలపై ప్రభావం చూపగల పరిణామం.",
+      "src": "Times of Oman (ANI)",
+      "url": "https://timesofoman.com/article/179215-china-confirms-first-xi-trump-putin-summit-on-november-19",
+      "sec": [
+        "world"
+      ],
+      "st": "WORLD",
+      "place": "IN",
+      "loc": "",
+      "pub": "2026-11-16T08:33+05:30",
+      "lbl": "fact",
+      "en": {
+        "cat": "World · Politics",
+        "h": "Xi, Trump, Putin to hold first summit Nov 19",
+        "stat": "November 19",
+        "statl": "three-leader meeting in Shenzhen",
+        "loc": "Shenzhen, China",
+        "p": "China's Foreign Ministry said President Xi Jinping will host a meeting of the heads of state of China, Russia and the US, with Donald Trump and Vladimir Putin, in Shenzhen on November 19. It will be the first such meeting of the three leaders. No agenda has been announced.",
+        "pts": [
+          "APEC CEO Summit in Guangdong on November 17–18 comes first"
+        ],
+        "why": "A development that could affect global trade and oil prices."
+      },
+      "hi": {
+        "cat": "विश्व · राजनीति",
+        "h": "19 नवंबर को शी–ट्रंप–पुतिन की पहली बैठक",
+        "stat": "19 नवंबर",
+        "statl": "शेनझेन में तीन नेताओं की बैठक",
+        "loc": "शेनझेन, चीन",
+        "p": "चीन के विदेश मंत्रालय ने कहा कि राष्ट्रपति शी जिनपिंग 19 नवंबर को शेनझेन में चीन, रूस और अमेरिका के राष्ट्राध्यक्षों की बैठक की मेजबानी करेंगे, जिसमें डोनाल्ड ट्रंप और व्लादिमीर पुतिन शामिल होंगे। तीनों नेताओं की ऐसी यह पहली बैठक होगी। एजेंडा अभी घोषित नहीं हुआ है।",
+        "pts": [
+          "इससे पहले 17–18 नवंबर को ग्वांगडोंग में एपेक सीईओ शिखर सम्मेलन"
+        ],
+        "why": "वैश्विक व्यापार और तेल कीमतों पर असर डाल सकने वाला घटनाक्रम।"
+      },
+      "d": "16.11.2026",
+      "t": "13:35"
+    },
     {
       "cat": "తెలంగాణ · విద్య",
       "col": "--c-gov",
