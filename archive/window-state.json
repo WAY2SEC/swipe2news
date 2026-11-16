@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-16T19:05:00+05:30",
+ "cutoff": "2026-11-16T19:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-14T08:35:00+05:30/2026-11-14T09:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 1,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 0,
-   "review": 1,
-   "gaps": "09:05 run started 09:05 IST. Lookback from 00:35 14 Nov. Read: ETV TG live blog (latest 06:56), ETV AP live blog (latest 06:39), DC Hafeezpet fire (08:47), DC Rahul-Revanth gig scheme schedule (08:18), DC Kishan Reddy Nasha Mukt yatra (00:03, pre-lookback), Telugu360 Murasu Rs 2,484 cr damage (13 Nov 14:18, pre-lookback). Published: Hafeezpet painting-shop fire. Duplicates: DC Rahul gig scheme schedule (Rahul arrival/gig scheme already published), ETV Revanth remarks 06:52. Review: Eenadu Murasu damage 126206801 (robots refused, no pub time). Not reached: foreignexchanges world roundup (client error), Eenadu; search results mostly stale; no world items with verifiable times. Districts searched: Nalgonda, Karimnagar, Nizamabad, Medak, Siddipet, Mahabubnagar, Khammam, Warangal, Adilabad, Guntur, Nellore, Srikakulam, Kadapa, Visakhapatnam, Kurnool, Tirupati, Prakasam, Eluru."
-  },
   {
    "window": "2026-11-14T09:05:00+05:30/2026-11-14T09:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 1,
    "gaps": "19:05 run started 19:06 IST; lookback from 10:35. Feeds 18:47, 70/70 ok, 807 uncovered TG/AP (most already covered under other wording). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Search index lag: plain searches returned old pages; domain-filtered extended searches worked. Published 7: DC Attapur flyover stunts, TT Malkajgiri dating-app drugging gang, Siasat Madnoor gambling, TT Nakkalapalli farmer water dispute (claim, sensitive), Telugu360 Ramoji Rao jayanti AP state festival, NTV AP 23 ULB nominations close, UNI CS Khelo India review. Duplicates: AP NCD survey 12.23 lakh (published 15 Nov), Khelo logo. Review: EC anti-dumping duties on Indian cold-rolled steel 9.5% (official page gives date only, no publication time). Not found in search: Eenadu house-patta mortgage, Srisailam water (Vaartha), IIT Hyderabad diabetes study, Hyderabad police honours, Gangula Cheyutha, Kesamudram boy, PD Act Pasalkar, Adani blades, Houthi/Saudi, Imran Khan letter. Build step also rewrote index.html/sitemap.xml; reverted (not in allowed files)."
+  },
+  {
+   "window": "2026-11-16T19:05:00+05:30/2026-11-16T19:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 15,
+   "published": 11,
+   "late": 8,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "19:35 run started 19:38 IST; lookback from 11:05. Feeds 19:12, 70/70 ok, 410 uncovered TG/AP in lookback (most already covered under other wording). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. thehindu.com could not be opened (domain search 400, fetch timeout). Published 11: UNI TG house pattas 7 lakh, NewsMeter PIT-NDPS ganja detention, TT Karthik Agneya Goa swim, HMTV Kadiri axe attack (sensitive), Siasat Kondurg helpers honoured, TT IITH water, TT river boards/Srisailam (claim), Vaartha Vizag 30 e-buses, Jagran/Reuters unemployment 4.9%, BS edible oil import bill, Siasat/AP Jordan Telegram. Skipped: Hussain Sagar campaign (published 05:55, before lookback; likely club press release), AP Investment Protection Act (only 12 Nov coverage reachable), Vidya Vahini (launched 11 Nov). Not opened: Hindu AP Energy Minister DISCOMs Akvan, Hindu NTR district three-phase panchayat polls. Build step rewrote index.html/sitemap.xml/en/hi/te; reverted."
   }
  ],
  "seen": [
@@ -5358,6 +5358,76 @@
    "url": "https://policy.trade.ec.europa.eu/news/commission-imposes-anti-dumping-duties-certain-cold-rolled-flat-steel-products-2026-11-16_en",
    "d": "2026-11-16",
    "w": "review"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/admin-telangana-house-pattas/247128",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/crime/telangana-detains-maharashtra-drug-trafficker-prashant-pasalkar-linked-to-264-kg-ganja-cases-779430",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-swimmer-karthik-agneya-creates-history-with-three-gold-medals-at-goa-swimathon",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/anantapur/shocking-in-kadiri-son-attacks-mother-with-axe-for-money-213708",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/hyderabad-police-honours-two-for-assisting-during-accident-3578884/",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/iit-hyderabad-cuts-reliance-on-manjeera-water-with-33-borewells-and-recycled-water",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-faces-drinking-water-crisis-over-delayed-river-board-meetings",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://vaartha.com/andhra-pradesh/visakhapatnam-electric-city-buses-launched-gajuwaka-rtc-depot-free-travel-women-stree-shakti/806004/",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thedailyjagran.com/business/news/job-market-update-indias-unemployment-rate-eases-to-4-9pc-as-female-participation-rises-10336508",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://www.business-standard.com/amp/economy/news/india-s-edible-oil-import-bill-rises-24-to-record-2-trillion-in-2025-26-126111601382_1.html",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/jordan-blocks-telegram-over-national-security-concerns-3578939/",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/telangana-to-return-house-pattas-to-pre-2014-housing-scheme-benefitting-7-lakh-people/article71708053.ece",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/i-love-hussain-sagar-lake-campaign-launched-to-promote-conservation-and-tourism/article71707865.ece",
+   "d": "16.11.2026",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhras-proposed-investment-protection-act-seeks-to-shield-investors-from-policy-u-turns/article71707378.ece",
+   "d": "16.11.2026",
+   "w": "skipped"
   }
  ]
 }
