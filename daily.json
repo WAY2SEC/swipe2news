@@ -1,89 +1,93 @@
 {
- "updated": "2026-11-16T05:24:03+05:30",
- "set": "morning",
+ "updated": "2026-11-16T17:23:43+05:30",
+ "set": "evening",
  "items": [
   {
    "kind": "quote",
    "date": "2026-11-16",
-   "id": "tagore-faith-bird-dawn",
-   "text": "విశ్వాసం ఒక పక్షి లాంటిది; తెల్లవారకముందే, చీకటిలోనే వెలుగును గుర్తించి పాడుతుంది.",
-   "by": "రవీంద్రనాథ్ ఠాగూర్",
-   "ctx": "కష్ట సమయంలోనూ మంచి రోజులు వస్తాయనే నమ్మకంతో ముందుకు సాగమని ఠాగూర్ 'ఫైర్‌ఫ్లైస్' (1926) లో చెప్పారు.",
-   "src": "Rabindranath Tagore, Fireflies (1926) – WIST",
-   "url2": "https://wist.info/tagore-rabindranath/3800/",
+   "id": "thiruvalluvar-kural-391-learn-live",
+   "text": "నేర్చుకోవాల్సినవి లోపం లేకుండా బాగా నేర్చుకో; నేర్చుకున్న తర్వాత దానికి తగ్గట్టు జీవించు.",
+   "by": "తిరువళ్లువర్ (తిరుక్కురళ్ 391)",
+   "ctx": "చదువు అంటే తెలుసుకోవడమే కాదు, నేర్చుకున్నది మన ప్రవర్తనలో కనిపించాలి అని తిరువళ్లువర్ చెప్పారు.",
+   "src": "Thirukkural 391 (కల్వి అధ్యాయం) – Daily Project Thirukkural",
+   "url2": "https://dailyprojectthirukkural.blogspot.com/2017/09/kural391.html",
    "en": {
-    "text": "Faith is the bird that feels the light and sings when the dawn is still dark.",
-    "by": "Rabindranath Tagore",
-    "ctx": "From Tagore's Fireflies (1926): keep going with the belief that better days will come, even in hard times."
+    "text": "Learn what is worthy, free of impurities; then live in a way that truly honors the knowledge you have gained.",
+    "by": "Thiruvalluvar (Thirukkural 391)",
+    "ctx": "Learning is not only knowing; what we learn should show in how we live."
    },
    "hi": {
-    "text": "आस्था वह पक्षी है जो भोर के अँधेरे में ही उजाले को महसूस कर गाने लगता है।",
-    "by": "रवींद्रनाथ टैगोर",
-    "ctx": "टैगोर की 'फ़ायरफ़्लाइज़' (1926) से: कठिन समय में भी अच्छे दिनों के विश्वास के साथ आगे बढ़ें।"
+    "text": "जो सीखने योग्य है, उसे बिना दोष के अच्छी तरह सीखो; फिर उस ज्ञान के अनुरूप जीवन जियो।",
+    "by": "तिरुवल्लुवर (तिरुक्कुरल 391)",
+    "ctx": "शिक्षा केवल जानना नहीं है; जो सीखा है वह हमारे आचरण में दिखना चाहिए।"
    }
   },
   {
    "kind": "tip",
    "date": "2026-11-16",
-   "id": "rbi-too-good-to-be-true",
-   "title": "ఎక్కువ లాభం ఆశ – జాగ్రత్త",
-   "text": "తక్కువ కాలంలో ఎక్కువ లాభం ఇస్తామనే పథకాలు ప్రమాదకరం కావచ్చు, అవి మోసాలు కూడా కావచ్చు అని ఆర్‌బీఐ హెచ్చరిస్తోంది. ఆర్‌బీఐ, సెబీ, ఐఆర్‌డీఏఐ, పీఎఫ్‌ఆర్‌డీఏ లేదా ప్రభుత్వం వద్ద నమోదైన సంస్థల్లోనే డబ్బు దాచండి. బ్యాంకుల కంటే తక్కువ వడ్డీకి అప్పు ఇస్తామనే వారిని నమ్మకండి.",
-   "ctx": "ఇలాంటి సంస్థపై ఫిర్యాదు చేయాలంటే ఆర్‌బీఐ 'సచేత్' పోర్టల్ (sachet.rbi.org.in) ఉపయోగించవచ్చు.",
-   "src": "RBI – Financial Awareness Messages (FAME), 2024",
-   "url2": "https://rbi.org.in/commonperson/images/FAME202426022024.pdf",
+   "id": "i4c-digital-arrest-scam",
+   "title": "‘డిజిటల్ అరెస్ట్’ ఒక మోసం",
+   "text": "సీబీఐ, పోలీసులు, కస్టమ్స్, ఈడీ, న్యాయమూర్తులు వీడియో కాల్‌లో ఎవరినీ అరెస్ట్ చేయరు. మీ పేరు డ్రగ్స్ లేదా మనీ లాండరింగ్ కేసులో ఉందని బెదిరించి డబ్బు పంపమంటే అది మోసమే. భయపడకండి, ఒక్క రూపాయి కూడా పంపకండి.",
+   "ctx": "ఇలాంటి కాల్ వస్తే వెంటనే 1930 నంబరుకు ఫోన్ చేయండి లేదా cybercrime.gov.in లో ఫిర్యాదు చేయండి అని కేంద్ర సైబర్ క్రైమ్ సమన్వయ కేంద్రం (ఐ4సీ) సూచించింది.",
+   "src": "I4C advisory via PTI – ThePrint",
+   "url2": "https://theprint.in/india/cbi-ed-police-dont-arrest-people-through-video-calls-indian-cyber-crime-coordination-centre/2299608",
    "en": {
-    "title": "Too good to be true? Beware",
-    "text": "RBI warns that schemes promising high and quick returns can be risky and may even be frauds. Invest or deposit only with entities registered with or regulated by RBI, SEBI, IRDAI, PFRDA or the Government. Do not trust those offering loans cheaper than banks.",
-    "ctx": "To report such an entity, you can use RBI's Sachet portal (sachet.rbi.org.in)."
+    "title": "'Digital arrest' is a scam",
+    "text": "The CBI, police, customs, ED or judges do not arrest anyone over a video call. If someone threatens that your name is in a drugs or money-laundering case and asks you to transfer money, it is a fraud. Don't panic, and don't send a single rupee.",
+    "ctx": "If you get such a call, report it at once on helpline 1930 or at cybercrime.gov.in, as the Indian Cyber Crime Coordination Centre (I4C) advises."
    },
    "hi": {
-    "title": "ज़्यादा मुनाफ़े का लालच – सावधान",
-    "text": "आरबीआई चेतावनी देता है कि कम समय में ऊँचे मुनाफ़े का वादा करने वाली योजनाएँ जोखिम भरी या धोखा हो सकती हैं। पैसा केवल आरबीआई, सेबी, इरडाई, पीएफ़आरडीए या सरकार से पंजीकृत संस्थाओं में ही रखें। बैंक से सस्ते कर्ज़ का वादा करने वालों पर भरोसा न करें।",
-    "ctx": "ऐसी संस्था की शिकायत आरबीआई के 'सचेत' पोर्टल (sachet.rbi.org.in) पर की जा सकती है।"
+    "title": "'डिजिटल अरेस्ट' एक धोखा है",
+    "text": "सीबीआई, पुलिस, कस्टम, ईडी या जज वीडियो कॉल पर किसी को गिरफ्तार नहीं करते। अगर कोई डराए कि आपका नाम ड्रग्स या मनी लॉन्ड्रिंग केस में है और पैसे भेजने को कहे, तो यह धोखा है। घबराएं नहीं, एक रुपया भी न भेजें।",
+    "ctx": "ऐसा कॉल आए तो तुरंत हेल्पलाइन 1930 पर या cybercrime.gov.in पर शिकायत करें — भारतीय साइबर अपराध समन्वय केंद्र (I4C) की सलाह।"
    }
   },
   {
    "kind": "wisdom",
    "date": "2026-11-16",
-   "id": "sumati-kanakapu-simhasanamuna",
-   "text": "కనకపు సింహాసనమున\nశునకము గూర్చుండ బెట్టి శుభలగ్నమునన్\nదొనరగ బట్టము గట్టిన\nవెనుకటి గుణమేల మాను వినురా సుమతీ",
-   "by": "బద్దెన (సుమతీ శతకం)",
-   "ctx": "బంగారు సింహాసనం మీద కూర్చోబెట్టి పట్టం కట్టినా, పాత గుణం మారదు. పదవి కాదు, మంచి గుణమే మనిషికి నిజమైన గౌరవం.",
-   "src": "సుమతీ శతకం (Telangana360)",
-   "url2": "https://www.telangana360.com/2026/06/sumati-satakam.html",
+   "id": "vemana-alpudepudu-paluku",
+   "text": "అల్పు డెపుడు పల్కు ఆడంబరముగాను\nసజ్జనుండు పల్కు చల్లగాను\nకంచు మ్రోగునట్లు కనకంబు మ్రోగునా\nవిశ్వదాభిరామ, వినురవేమ!",
+   "by": "వేమన (వేమన శతకం)",
+   "ctx": "అల్పుడు ఎప్పుడూ గొప్పలు చెప్పుకుంటూ ఆర్భాటంగా మాట్లాడతాడు; మంచివాడు ప్రశాంతంగా, మృదువుగా మాట్లాడతాడు. కంచు మోగినట్లు బంగారం మోగుతుందా? నిజమైన విలువ ఉన్నవారు శబ్దం చేయరు.",
+   "src": "వేమన శతకం – The South First",
+   "url2": "https://thesouthfirst.com/featured/yogi-vemana-the-poet-who-turned-everyday-telugu-into-a-language-of-truth/",
    "en": {
-    "text": "Even if a dog is seated on a golden throne and crowned at an auspicious hour, will it give up its old nature? (Sumati Satakam padyam, meaning)",
-    "by": "Baddena (Sumati Satakam)",
-    "ctx": "A high seat does not change one's nature; true honour comes from good character, not position."
+    "text": "A mean person always speaks with show and boast; a good person speaks calmly. Does gold ring out the way bronze does? (Vemana padyam, meaning)",
+    "by": "Vemana (Vemana Satakam)",
+    "ctx": "A petty person brags loudly; a good person speaks gently. Like gold, people of real worth make no noise."
    },
    "hi": {
-    "text": "कुत्ते को सोने के सिंहासन पर बिठाकर शुभ मुहूर्त में राजतिलक कर दें, तो भी क्या वह अपना पुराना स्वभाव छोड़ेगा? (सुमति शतकम् पद्यम्, भावार्थ)",
-    "by": "बद्देना (सुमति शतकम्)",
-    "ctx": "ऊँचा पद स्वभाव नहीं बदलता; सच्चा सम्मान अच्छे चरित्र से मिलता है, पद से नहीं।"
+    "text": "ओछा व्यक्ति हमेशा दिखावे से बोलता है, सज्जन शांति से बोलता है। क्या सोना काँसे की तरह खनकता है? (वेमना पद्य का अर्थ)",
+    "by": "वेमना (वेमना शतकम्)",
+    "ctx": "ओछा आदमी शोर से डींगें मारता है; सज्जन नरमी से बोलता है। सोने की तरह, सच्चे मूल्य वाले लोग शोर नहीं करते।"
    }
   },
   {
    "kind": "roots",
    "date": "2026-11-16",
-   "id": "karthika-vana-bhojanam",
-   "title": "కార్తీక వన భోజనాలు",
-   "text": "కార్తీక మాసంలో తెలుగువారికి ఎంతో ఇష్టమైన ఆచారం వన భోజనం. పూజ తర్వాత కుటుంబాలు, బంధువులు, ఇరుగుపొరుగు కలిసి తోటలో, వీలైతే ఉసిరి చెట్టు కింద వంట చేసి కలిసి భోజనం చేస్తారు. ఉసిరి చెట్టును పూజించడం పుణ్యమని పెద్దలు భావించేవారు.",
-   "ctx": "ఈ ఏడాది మీ కుటుంబం వన భోజనాలకు ఎక్కడికి వెళ్తోంది?",
-   "src": "HinduTone – Kartika Masam 2026 Telugu Guide",
-   "url2": "https://hindutone.com/festivals/kartika-masam-2026-telugu-guide/",
+   "id": "kondapalli-bommalu",
+   "title": "కొండపల్లి బొమ్మలు",
+   "text": "విజయవాడకు సుమారు 25 కిలోమీటర్ల దూరంలోని కొండపల్లిలో దాదాపు 400 ఏళ్లుగా తెల్ల పొనికి చెక్కతో ఈ బొమ్మలు తయారుచేస్తున్నారు. దశావతారాలు, సీతారామలక్ష్మణులు, పిండి విసిరే మహిళలు, తాటిచెట్టు ఎక్కే గీతకార్మికులు వంటి పల్లె జీవిత దృశ్యాలను రంగులతో అందంగా తీర్చిదిద్దుతారు. ఈ బొమ్మలకు భౌగోళిక గుర్తింపు (జీఐ) కూడా ఉంది.",
+   "ctx": "మీ ఇంట్లో కొండపల్లి బొమ్మ ఏదైనా ఉందా? అది ఏ బొమ్మ?",
+   "src": "NTR District, Govt of Andhra Pradesh – Kondapalli Bommalu",
+   "url2": "https://ntr.ap.gov.in/kondapalli-bommalu/",
    "en": {
-    "title": "Karthika Vana Bhojanam",
-    "text": "Vana Bhojanam is one of the most loved Telugu customs of Karthika month. After worship, families, relatives and neighbours gather in a garden, ideally under an amla (usiri) tree, cook and eat together. Elders believed worshipping the amla tree was meritorious.",
-    "ctx": "Where is your family going for Vana Bhojanam this year?"
+    "title": "Kondapalli toys",
+    "text": "In Kondapalli, about 25 km from Vijayawada, artisans have carved these toys from light tella poniki wood for nearly 400 years. They bring alive the Dasavatharams, Sita-Rama-Lakshmana, and village scenes like women grinding flour and men climbing palm trees, in bright colours. The toys also hold a Geographical Indication (GI) tag.",
+    "ctx": "Do you have a Kondapalli toy at home? Which one?"
    },
    "hi": {
-    "title": "कार्तिक वन भोजन",
-    "text": "कार्तिक मास में वन भोजन तेलुगु लोगों की प्रिय परंपरा है। पूजा के बाद परिवार, रिश्तेदार और पड़ोसी किसी बगीचे में, हो सके तो आँवले के पेड़ के नीचे, साथ मिलकर खाना बनाते और खाते हैं। बड़े-बुज़ुर्ग आँवले के पेड़ की पूजा को पुण्य मानते थे।",
-    "ctx": "इस साल आपका परिवार वन भोजन के लिए कहाँ जा रहा है?"
+    "title": "कोंडापल्ली खिलौने",
+    "text": "विजयवाड़ा से लगभग 25 किलोमीटर दूर कोंडापल्ली में कारीगर करीब 400 वर्षों से हल्की 'तेल्ला पोनिकी' लकड़ी से ये खिलौने बनाते आ रहे हैं। दशावतार, सीता-राम-लक्ष्मण और आटा पीसती महिलाएँ, ताड़ पर चढ़ते लोग जैसे गाँव के दृश्य चटक रंगों में उकेरे जाते हैं। इन खिलौनों को भौगोलिक संकेत (GI) टैग भी मिला है।",
+    "ctx": "क्या आपके घर में कोई कोंडापल्ली खिलौना है? कौन-सा?"
    }
   }
  ],
  "history": [
+  "thiruvalluvar-kural-391-learn-live",
+  "i4c-digital-arrest-scam",
+  "vemana-alpudepudu-paluku",
+  "kondapalli-bommalu",
   "tagore-faith-bird-dawn",
   "rbi-too-good-to-be-true",
   "sumati-kanakapu-simhasanamuna",
