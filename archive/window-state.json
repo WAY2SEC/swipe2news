@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-16T16:35:00+05:30",
+ "cutoff": "2026-11-16T17:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-13T23:05:00+05:30/2026-11-13T23:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 0,
-   "published": 0,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "23:35 run started on time (23:36 IST). Lookback from 15:05. Nothing eligible: DC/PTI 'Rahul likely to address gig workers' is from 10 Nov 17:42; AIR Visakhapatnam 20:30 bulletin PDF is from 4 Nov. Search results thin and stale (mostly old Telangana Today tag/archive pages); not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, Siasat, ANI, PTI, Reuters; no AP, national or world items with verifiable times in window. Districts searched: Adilabad, Asifabad, Bhupalpally, Sangareddy, Gadwal, Wanaparthy, Jangaon, Medchal, Kurnool, Vizianagaram, Anakapalli, Konaseema, Anantapur, West Godavari, Annamayya, Sri Sathya Sai, Manyam."
-  },
   {
    "window": "2026-11-13T23:35:00+05:30/2026-11-14T07:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "16:35 run started 16:37 IST; lookback from 08:05. Feeds 16:25, 68/68 ok, 722 uncovered TG/AP (most already covered under other wording). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published: DC Naidu Akvan review (forecast), Siasat Adilabad airport stream diversion, DC Soumya Mishra DGP Women Safety, South First AP hostel screening, TT Krishna Kanth Park trees, Andhra Jyothy Parvathapur masked gang (claim), HMTV Bayyaram BRS dharna (claim), NT Bachannapet gurukul plea (claim), Disha Geesugonda Cheyutha event, DC Raja Singh Ayyappa letter (claim), HMTV Proddatur teacher allegation (claim, sensitive), TT Jadcherla custody death (sensitive); India: NTV Kulgam encounter, DD India-Egypt trade, TT/PTI rupee. Duplicate: DC Srikakulam ex-BJP leader car into police (covered 13:35). Skipped: LTCG CBDT (India cap), Andhrajyothy 145 km/h cyclone (folded into review story). Not opened: The Hindu Akvan 173 boats, Andhrajyothy Ayyappa (DC used). District sweep (Nirmal, Kamareddy, Medak, Vikarabad, Wanaparthy, Prakasam, Srikakulam, Vizianagaram, Chittoor, Kurnool) found nothing new in window. build_previews also touched index/sitemap root files, left unchanged."
+  },
+  {
+   "window": "2026-11-16T16:35:00+05:30/2026-11-16T17:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 20,
+   "published": 14,
+   "late": 4,
+   "sensitive": 3,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "17:05 run started 17:06 IST; lookback from 08:35. Feeds 16:46, 70/70 ok, 782 uncovered TG/AP. add_repo not available; existing clone used; articles read via sub-agents. Published 14 (TG 11, AP 1, India 1, World 1). Duplicate: AP Investment Protection Act (seen 15 Nov). Skipped old: Estonia border closure (15 Nov 19:38 IST), US temple plot (15 Oct), Andhra constable HC relief (sensitive, low priority). Not opened: TT river board drinking water crisis, TT IIT Hyderabad water cut, Disha collectorate medical students protest, Disha woman electric shock. District sweep (Peddapalli, Sircilla, Suryapet, Gadwal, Medak, Kakinada, Konaseema, Prakasam, Chittoor, West Godavari): 4 HMTV items found, nothing in-window for AP districts, Medak, Gadwal."
   }
  ],
  "seen": [
@@ -5672,6 +5672,86 @@
   {
    "url": "https://telanganatoday.com/ltcg-tax-changes-unlikely-before-budget-2027-28-says-cbdt-chief",
    "d": "2026-11-16",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/telangana-govt-launches-bharatnet-project-to-provide-internet-services-to-every-home-in-rural-areas-tgs26111603335",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://medicalbuyer.co.in/telangana-sets-june-2-deadline-for-2-tims-hospitals-warangal-ssh/",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/busted-fake-birth-certificates-racket-in-hyderabad-tgs26111602570",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://vaartha.com/latest-news/hyderabad-ramnagar-car-accident-rams-into-medical-shop-woman-injured/805964/",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/warangal/bhupalpally-asha-workers-stage-dharna-demanding-rs-18k-pay-213599",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/khammam/palvancha-minister-tummala-assures-new-power-plant-support-213602",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/siddipet/siddipet-dubbak-students-win-9-gold-medals-at-telangana-state-level-open-213622",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://www.bigtvlive.com/andhra-pradesh/kakinada-gurukul-school-parents-allege-caste-discrimination-assault-dalit-students.html",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/nalgonda-suryapet/suryapet-differently-abled-protest-eating-bitter-gourd-213637",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/special-prajavani-held-to-resolve-childrens-issues-213566",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/students-face-severe-monkey-menace-at-bausayipet-school-213478",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/sagara-sangham-stages-protest-in-peddapalli-over-demands-213528",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://theprint.in/economy/indias-unemployment-rate-eases-to-4-9-pc-in-oct-female-participation-rises/3100102/",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/microsoft-reveals-cause-of-global-microsoft-365-outage-on-november-12",
+   "d": "16.11.2026",
+   "w": "published"
+  },
+  {
+   "url": "https://news.err.ee/1610196794/estonia-to-close-border-crossings-with-russia-after-gru-linked-sabotage-attacks",
+   "d": "16.11.2026",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.business-standard.com/world-news/india-condemns-alleged-mass-shooting-plot-targeting-hindu-temple-in-us-126101500822_1.html",
+   "d": "16.11.2026",
    "w": "skipped"
   }
  ]
