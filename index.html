@@ -491,6 +491,8 @@ html.rdr #feed:has(>.ssr)::after{content:'Know More. Scroll Less.';position:abso
 :root[data-fsz="l"] .s2n .text h2.hs{font-size:30px}:root[data-fsz="l"] .s2n .text h2.hm{font-size:28px}:root[data-fsz="l"] .s2n .text h2.hl{font-size:26px}:root[data-fsz="l"] .s2n .text .sum{font-size:19px}:root[data-fsz="l"] .s2n .kpts li{font-size:16px}
 :root[data-fsz="s"] .s2n .text h2.hs{font-size:22px}:root[data-fsz="s"] .s2n .text h2.hm{font-size:20px}:root[data-fsz="s"] .s2n .text h2.hl{font-size:18.5px}
 .s2n .text .sum{font-size:17px;font-weight:400;line-height:1.6}
+/* full 60-word summary on smaller phones: slightly tighter text before any word is cut */
+:root:not([data-fsz="l"]) .story.s2n.f60 .text .sum{font-size:15px!important;line-height:1.5!important}.story.s2n.f60 .rpt{display:none}.story.s2n.f60 .text h2{margin-bottom:2px}
 .s2n .sline .stime{display:inline-flex;align-items:center;gap:5px}.s2n .sline .stime::before{content:none}
 .s2n .tbox{display:flex;align-items:center;gap:9px;padding:7px 10px;border-radius:12px;border:1px solid}
 .s2n .tbox .ti2{flex:none;width:24px;text-align:center;font-size:16px;font-weight:800}
@@ -2080,13 +2082,19 @@ function srcFit(c){ const r=c.querySelector('.s2n .srow'); if(!r) return; r.clas
 function phShape(c){ c.querySelectorAll('.bnr img.ph').forEach(im=>{ const go=()=>{ const b=im.parentElement.getBoundingClientRect(); if(!im.naturalWidth||!b.height) return; const tall=im.naturalWidth/im.naturalHeight < b.width/b.height; im.classList.toggle('tall',tall); im.classList.toggle('wide',!tall); }; if(im.complete) go(); else im.addEventListener('load',go,{once:true}); }); }
 function fit(c){ // make the card fit the screen: hide the least important parts first
   try{ phShape(c); }catch(e){}
-  oneLine(c); srcFit(c); statFit(c); c.classList.remove('t1','t2','t3','t4');
+  oneLine(c); srcFit(c); statFit(c); c.classList.remove('t1','t2','t3','t4','f60');
   const tx=c.querySelector('.text');
   const over = () => c.scrollHeight > c.clientHeight + 1 || (tx && tx.scrollHeight > tx.clientHeight + 1);
-  const bn=c.querySelector('.s2n .bnr, .story.s2n>.panel.bnr'); if(bn){ bn.style.minHeight=''; bn.style.maxHeight=''; }
+  const bn=c.querySelector('.s2n .bnr, .story.s2n>.panel.bnr'); if(bn){ bn.style.minHeight=''; bn.style.removeProperty('max-height'); bn.style.removeProperty('flex'); bn.style.removeProperty('min-height'); }
   /* 50/50 card: picture half is fixed; show as many summary lines as the text half holds */
   if(c.matches('.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)') && bn && tx){
     const sm5=tx.querySelector('.sum'); if(sm5){ if(sm5.dataset.full) sm5.textContent=sm5.dataset.full; sm5.style.display=''; sm5.style.webkitLineClamp=''; sm5.style.overflow='';
+      /* the 60-word summary comes first: drop extras (key points, what next, why it matters) before cutting a single word of it */
+      const ex5=[...tx.querySelectorAll('.kpts,.w3.nx,.w3.why,.w3l')]; ex5.forEach(e=>e.style.display=''); for(const e of ex5){ if(!over()) break; e.style.display='none'; }
+      /* still no room for all 60 words: make the picture smaller (down to ~28% of the card) instead of cutting the summary */
+      if(over()){ const need=Math.max(c.scrollHeight-c.clientHeight, tx.scrollHeight-tx.clientHeight)+6; const minH=Math.max(160,Math.round(c.clientHeight*0.25)); const nh=Math.max(minH, bn.offsetHeight-need);
+        if(nh<bn.offsetHeight){ bn.style.setProperty('max-height',nh+'px','important'); bn.style.setProperty('flex','0 0 '+nh+'px','important'); bn.style.setProperty('min-height',nh+'px','important'); } }
+      if(over()) c.classList.add('f60');
       if(over()){ const lh=parseFloat(getComputedStyle(sm5).lineHeight)||24; const room=sm5.offsetHeight-(tx.scrollHeight-tx.clientHeight)-2; const n=Math.max(2,Math.floor(room/lh));
         const mo5=tx.querySelector('.more'); if(mo5){ mo5.hidden=false; } const n2=Math.max(2,Math.floor((room-(mo5?mo5.offsetHeight+7:0))/lh));
         /* stop at the last whole sentence that fits; fall back to line clamp only if even one sentence is too long */
