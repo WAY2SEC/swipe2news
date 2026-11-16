@@ -776,6 +776,48 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .sqopen{width:100%;display:flex;align-items:center;gap:10px;padding:12px 14px;margin:0 0 14px;border:1.5px solid #E4D3DE;border-radius:16px;background:#fff;color:#7A6574;font:600 14.5px/1.2 var(--body);cursor:pointer;text-align:left}
 .sqopen svg{color:#4A0E3F;flex:none}
 #hubSheet .hubsq{margin:0}
+#exSheet{background:#F6F0E8;overflow:auto;display:block}
+#exSheet .exhead{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:10px;padding:12px 16px;background:rgba(246,240,232,.97)}
+#exSheet .exhead .exi{width:40px;height:40px;border-radius:12px}
+#exSheet .exhead .exl{height:26px;margin-right:auto}
+#exSheet .exhead button{width:42px;height:42px;border:1.5px solid #2E0827;border-radius:50%;background:transparent;color:#2E0827;display:grid;place-items:center;cursor:pointer}
+#exSheet .exhead .exx{border-color:#D8C9BE;color:#6B5562}
+#exSheet .exbody{padding:4px 18px 34px}
+#exSheet h2{margin:10px 0 14px;font:800 30px/1.2 'Outfit',var(--body);color:#1E1018;letter-spacing:-.3px}#exSheet h2 i{color:#F5A23A;font-style:normal}
+#exSheet h3{margin:24px 2px 10px;font:800 14px/1.2 'Outfit',var(--body);letter-spacing:.6px;color:#5B1450;text-transform:uppercase}
+#exSheet .exsearch{width:100%;display:flex;align-items:center;gap:12px;height:54px;padding:0 18px;border:1.5px solid #E2D3C6;border-radius:18px;background:#FBF7F2;color:#8C7786;font:600 15.5px var(--body);cursor:pointer;text-align:left}
+#exSheet .exsearch svg{color:#2E0827}
+#exSheet .exchips{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+#exSheet .exchips button{display:flex;align-items:center;gap:7px;max-width:100%;height:44px;padding:0 14px;border:1.5px solid #E2D3C6;border-radius:14px;background:#FBF7F2;color:#1E1018;font:700 14px var(--body);cursor:pointer}
+#exSheet .exchips span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:160px}#exSheet .exchips em{font-style:normal;color:#6B5562}
+#exSheet .exchips svg{color:#2E0827;flex:none}
+#exSheet .exbrief{position:relative;margin-top:18px;padding:18px 18px 16px;border-radius:22px;background:radial-gradient(120% 130% at 100% 0%,#6E2361 0%,#4A0E3F 55%,#2E0827 100%);color:#fff;overflow:hidden;box-shadow:0 14px 30px rgba(46,8,39,.25)}
+#exSheet .exbrief .bt{position:relative;z-index:2;max-width:64%}
+#exSheet .exbrief .bt b{display:block;font:800 30px/1.12 'Outfit',var(--body)}#exSheet .exbrief .bt small{display:block;margin-top:8px;font:600 13px/1.4 var(--body);color:#EBD3E2}
+#exSheet .exbrief .bart{position:absolute;right:-6px;top:14px;width:132px;height:110px}
+#exSheet .exbrief .sun{position:absolute;right:30px;top:6px;width:62px;height:62px;border-radius:50%;background:radial-gradient(circle at 40% 40%,#FFD27A,#F5A23A)}
+#exSheet .exbrief .ray{position:absolute;right:16px;top:-8px;width:90px;height:90px;border-radius:50%;background:repeating-conic-gradient(from 0deg,rgba(255,210,122,.9) 0 6deg,transparent 6deg 30deg);-webkit-mask:radial-gradient(circle,transparent 40px,#000 41px,#000 45px,transparent 46px);mask:radial-gradient(circle,transparent 40px,#000 41px,#000 45px,transparent 46px)}
+#exSheet .exbrief .paper{position:absolute;right:6px;bottom:0;width:104px;height:66px;border-radius:8px;background:#FBEFE2;transform:rotate(-10deg);box-shadow:0 8px 16px rgba(0,0,0,.3);padding:10px 10px;display:flex;flex-direction:column;gap:7px}
+#exSheet .exbrief .paper em{display:block;height:6px;border-radius:3px;background:#D9B9A4}#exSheet .exbrief .paper em:first-child{height:10px;width:70%;background:#B88A72}
+#exSheet .exbrief .bb{position:relative;z-index:2;display:flex;align-items:center;gap:14px;margin-top:18px}
+#exSheet .exbrief .go{height:48px;padding:0 20px;border:0;border-radius:14px;background:linear-gradient(135deg,#FFD27A,#F6A13B);color:#2E0827;font:800 16px var(--body);cursor:pointer;box-shadow:0 6px 16px rgba(246,161,59,.45)}
+#exSheet .exbrief .ls{display:flex;align-items:center;gap:8px;border:0;background:none;color:#fff;font:700 15px var(--body);cursor:pointer}
+#exSheet .exgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+#exSheet .exgrid button{position:relative;display:flex;align-items:center;gap:12px;min-height:64px;padding:12px 14px;border:1.5px solid #E2D3C6;border-radius:18px;background:#FBF7F2;color:#1E1018;font:700 15.5px/1.25 var(--body);cursor:pointer;text-align:left}
+#exSheet .exgrid svg{color:#2E0827;flex:none}
+#exSheet .exgrid i{position:absolute;top:-8px;right:10px;font:800 10.5px var(--body);font-style:normal;color:#9A5A00;background:#FCE6C2;padding:2px 8px;border-radius:999px}
+#exSheet .exmini{display:flex;gap:8px;margin-top:10px;overflow-x:auto;scrollbar-width:none}
+#exSheet .exmini button{flex:none;display:flex;align-items:center;gap:6px;height:38px;padding:0 12px;border:1px solid #E2D3C6;border-radius:999px;background:#FBF7F2;color:#3A2532;font:700 13px var(--body);cursor:pointer}
+#exSheet .exmini svg{color:#5B1450}
+#exSheet .exlist{border-top:1px solid #E6D8CC}
+#exSheet .exlist button,#exSheet .exlist summary{width:100%;display:flex;align-items:center;gap:16px;padding:13px 4px;border:0;border-bottom:1px solid #E6D8CC;background:none;color:#1E1018;font:600 16px var(--body);cursor:pointer;text-align:left;list-style:none}
+#exSheet .exlist summary::-webkit-details-marker{display:none}#exSheet .exlist summary{color:#5B1450;font-weight:800;font-size:14.5px;justify-content:center}#exSheet .exlist summary em{font-style:normal}
+#exSheet .exlist button>svg:first-child{color:#2E0827;flex:none}#exSheet .exlist button>span{flex:1}#exSheet .exlist button>svg:last-child{color:#2E0827}
+#exSheet .excom{width:100%;display:flex;align-items:center;gap:14px;margin-bottom:8px;padding:14px 16px;border:0;border-radius:16px;background:#EFE5DA;color:#1E1018;font:700 15px var(--body);cursor:pointer;text-align:left}
+#exSheet .excom svg{color:#2E0827;flex:none}#exSheet .excom span{flex:1}#exSheet .excom b{font-size:18px}
+#exSheet .exfoot{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:18px}
+#exSheet .exfoot button{display:flex;align-items:center;gap:7px;border:0;background:none;padding:4px 0;color:#2E0827;font:600 14.5px var(--body);cursor:pointer}
+#exSheet .exfoot u{text-underline-offset:3px;text-decoration-color:#B9A2B2}
 #srchSheet{background:#F7F3F6;overflow:auto;display:block}
 #srchSheet .sqhead{position:sticky;top:0;z-index:5;display:flex;gap:8px;align-items:center;padding:10px 12px;background:#4A0E3F}
 #srchSheet .sqx{width:40px;height:40px;border:0;border-radius:12px;background:rgba(255,255,255,.12);color:#fff;display:grid;place-items:center;flex:none;cursor:pointer}
@@ -2831,6 +2873,60 @@ $('closeJoin').onclick=()=>{$('joinSheet').hidden=true};
     setTimeout(guard,0);
   });
 })();
+
+/* ---------- Explore (user, 16 Nov 2026): replaces the ☰ menu – search, services, topics, listen, community; settings behind the profile icon. One language per screen, outline icons. ---------- */
+const EXTX={te:{bn:n=>`${n} వార్తలు.`,bm:'ఒక్క నిమిషంలో.',bs:'మీ జిల్లా · దేశం · ప్రపంచం',read:'చదవడం మొదలుపెట్టండి',lis2:'వినండి',moreT:'మరిన్ని విభాగాలు',t:'మీకు కావాల్సింది వెతకండి',ph:'వార్తలు, జాబ్స్, ఊళ్లు వెతకండి',svc:'సేవలు',top:'విభాగాల వారీగా వార్తలు',lis:'వినండి',lisR:'ఈరోజు టాప్ వార్తలు వినండి',lisS:'కార్డులు చదివి వినిపిస్తాం',com:'కమ్యూనిటీ',tip:'మీ ఊరి వార్త పంపండి',rep:'రిపోర్టర్‌గా చేరండి',ch:'WhatsApp ఛానెల్',set:'సెట్టింగ్స్',trust:'ట్రస్ట్ సెంటర్',about:'మా గురించి',soon:'త్వరలో',
+  jobs:'జాబ్స్',wx:'వాతావరణం',mandi:'మండీ ధరలు',gold:'బంగారం ధరలు',sch:'పథకాలు',ep:'ఈ-పేపర్',saved:'సేవ్ చేసినవి',dates:'పాత వార్తలు'},
+ en:{bn:n=>`${n} stories.`,bm:'One minute.',bs:'Your district · India · The world',read:'Start reading',lis2:'Listen instead',moreT:'More topics',t:'Find what matters',ph:'Search news, jobs, places',svc:'Services',top:'News by topic',lis:'Listen',lisR:"Listen to today's top stories",lisS:'We read the cards aloud',com:'Community',tip:'Send news from your area',rep:'Become a reporter',ch:'WhatsApp channel',set:'Settings',trust:'Trust centre',about:'About us',soon:'Soon',
+  jobs:'Jobs',wx:'Weather',mandi:'Mandi prices',gold:'Gold rates',sch:'Schemes',ep:'E-paper',saved:'Saved',dates:'Past news'},
+ hi:{bn:n=>`${n} खबरें.`,bm:'एक मिनट में.',bs:'आपका ज़िला · देश · दुनिया',read:'पढ़ना शुरू करें',lis2:'सुनें',moreT:'और विषय',t:'जो ज़रूरी है, खोजें',ph:'खबरें, नौकरियाँ, जगहें खोजें',svc:'सेवाएँ',top:'विषय के अनुसार खबरें',lis:'सुनें',lisR:'आज की टॉप खबरें सुनें',lisS:'हम कार्ड पढ़कर सुनाते हैं',com:'समुदाय',tip:'अपने इलाके की खबर भेजें',rep:'रिपोर्टर बनें',ch:'WhatsApp चैनल',set:'सेटिंग्स',trust:'ट्रस्ट सेंटर',about:'हमारे बारे में',soon:'जल्द',
+  jobs:'नौकरियाँ',wx:'मौसम',mandi:'मंडी भाव',gold:'सोने के भाव',sch:'योजनाएँ',ep:'ई-पेपर',saved:'सेव',dates:'पुरानी खबरें'}};
+const EXI={search:'<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>',user:'<circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/>',lang:'<path d="M4 5h9M8.5 3v2M6 5c.5 3 2.5 5.5 5 7M11 5c-.5 3-3 6-6.5 7.5"/><path d="M13 21l4.5-10L22 21M14.5 18h6"/>',
+ pin:JSVG.near,jobs:JSVG.private,wx:'<path d="M7 18a4.5 4.5 0 1 1 1.2-8.8A6 6 0 0 1 19.5 11 3.5 3.5 0 0 1 18.5 18z"/>',mandi:'<path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>',gold:'<path d="M3 17l3-6h12l3 6z"/><path d="M8 11l2-4h4l2 4"/>',
+ sch:JSVG.central,ep:'<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/>',saved:JSVG.save,dates:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',
+ play:'<path d="M7 5v14l11-7z"/>',tip:'<path d="M21 12a8 8 0 0 1-11.6 7.1L4 21l1.9-5.4A8 8 0 1 1 21 12z"/>',rep:'<rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/>',ch:'<path d="M3 11l18-8-7 18-3-7z"/>',
+ trust:JSVG.police,set:'<circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/>',
+ district:JSVG.near,telangana:JSVG.tg,india:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',world:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',ai:JSVG.it,jobsnews:JSVG.private,business:'<path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>',innovation:'<path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0 0 12 3z"/>',culture:'<path d="M12 3l2.5 5 5.5.8-4 3.9.9 5.5L12 15.6 7.1 18.2l.9-5.5-4-3.9 5.5-.8z"/>',education:JSVG.teaching,agri:'<path d="M12 21V9M12 9c0-3 2-6 6-6 0 4-2.5 6-6 6zM12 13c0-3-2-5-6-5 0 3.5 2.5 5 6 5z"/>',weather:'<path d="M7 18a4.5 4.5 0 1 1 1.2-8.8A6 6 0 0 1 19.5 11 3.5 3.5 0 0 1 18.5 18z"/>',sports:'<circle cx="12" cy="12" r="9"/><path d="M12 7l4 3-1.5 5h-5L8 10z"/>'};
+const exi=(k,w)=>`<svg viewBox="0 0 24 24" width="${w||20}" height="${w||20}" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${EXI[k]||JSVG.all}</svg>`;
+function exJump(kind){ goHome(); setTimeout(()=>{ const i=LIST.findIndex(x=>x&&x.kind===kind); if(i>=0) go(i,'left'); else toast('…'); },380); }
+function openExplore(){ const T=EXTX[TLG()?'en':LG()]||EXTX.te, l=LG(); let h=$('exSheet');
+  if(!h){ h=document.createElement('section'); h.className='sheet'; h.id='exSheet'; h.setAttribute('aria-label','Explore'); document.querySelector('.shell').appendChild(h); }
+  const top4=[['jobs','jobs'],['sch','sch',1],['wx','wx'],['mandi','mandi']], more=[['gold','gold'],['ep','ep'],['saved','saved'],['dates','dates']];
+  const main=['district','telangana','india','business','education','sports'], rest=SECTIONS.filter(x=>x[0]!=='all'&&!main.includes(x[0]));
+  const nm=k=>{ const x=SECTIONS.find(y=>y[0]===k); return x?(l==='te'?x[1]:x[2]):k; };
+  const n=(LIST||[]).filter(x=>x&&!x.kind&&x.h).slice(0,5).length||5;
+  const row=(k)=>`<button type="button" data-t="${k}">${exi(k==='jobs'?'jobsnews':k,22)}<span>${esc(nm(k))}</span>${jsvg('chev',18)}</button>`;
+  h.innerHTML=`<div class="exhead"><img class="exi" src="art/logo.svg" alt=""><img class="exl" src="logo.png" alt="Swipe2News"><button class="exu" type="button" aria-label="${esc(T.set)}">${exi('user',24)}</button><button class="exx" type="button" aria-label="close">${jsvg('x',22)}</button></div>
+   <div class="exbody">
+    <h2>${esc(T.t)}<i>.</i></h2>
+    <button class="exsearch" type="button">${exi('search',22)}<span>${esc(T.ph)}</span></button>
+    <div class="exchips"><button type="button" data-a="lang">${exi('lang',18)}<span>${esc(U('lname'))}</span><em>⌄</em></button><button type="button" data-a="place">${exi('pin',18)}<span>${esc((prefs.village?prefs.village+', ':'')+placeName(prefs.place))}</span><em>⌄</em></button></div>
+    <div class="exbrief"><div class="bt"><b>${esc(T.bn(n))}</b><b>${esc(T.bm)}</b><small>${esc(T.bs)}</small></div>
+      <div class="bart"><i class="sun"></i><i class="ray"></i><span class="paper"><em></em><em></em><em></em></span></div>
+      <div class="bb"><button type="button" class="go" data-b="read">${esc(T.read)}</button><button type="button" class="ls" data-b="listen">${exi('play',18)}${esc(T.lis2)}</button></div></div>
+    <h3>${esc(T.svc)}</h3>
+    <div class="exgrid">${top4.map(([k,ic,soon])=>`<button type="button" data-s="${k}"${soon?' class="soon"':''}>${exi(ic,30)}<span>${esc(T[k])}</span>${soon?`<i>${esc(T.soon)}</i>`:''}</button>`).join('')}</div>
+    <div class="exmini">${more.map(([k,ic])=>`<button type="button" data-s="${k}">${exi(ic,18)}<span>${esc(T[k])}</span></button>`).join('')}</div>
+    <h3>${esc(T.top)}</h3>
+    <div class="exlist">${main.map(row).join('')}<details><summary>${esc(T.moreT)} <em>⌄</em></summary>${rest.map(x=>row(x[0])).join('')}</details></div>
+    <h3>${esc(T.com)}</h3>
+    <button class="excom" type="button" data-c="tip">${exi('tip',22)}<span>${esc(T.tip)}</span><b>→</b></button>
+    <button class="excom" type="button" data-c="rep">${exi('rep',22)}<span>${esc(T.rep)}</span><b>→</b></button>
+    <button class="excom" type="button" data-c="ch">${exi('ch',22)}<span>${esc(T.ch)}</span><b>→</b></button>
+    <div class="exfoot"><button type="button" data-f="set">${exi('set',18)}<u>${esc(T.set)}</u></button><button type="button" data-f="trust">${exi('trust',18)}<u>${esc(T.trust)}</u></button><button type="button" data-f="about"><u>${esc(T.about)}</u></button></div>
+   </div>`;
+  h.hidden=false; h.scrollTop=0; const close=()=>{ h.hidden=true; };
+  h.querySelector('.exx').onclick=close;
+  h.querySelector('.exu').onclick=()=>{ close(); openSheet(); };
+  h.querySelector('.exsearch').onclick=()=>{ close(); openSearch(); };
+  h.querySelectorAll('.exchips button').forEach(b=>b.onclick=()=>{ close(); (b.dataset.a==='lang'?$('lngBtn'):$('placeBtn')).click(); });
+  h.querySelectorAll('[data-b]').forEach(b=>b.onclick=()=>{ close(); goHome(); if(b.dataset.b==='listen') setTimeout(()=>{ if(!RADIO) toggleRadio(); },400); });
+  h.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>{ const k=b.dataset.s; if(k==='sch'){ toast(T.sch+' – '+T.soon); return; } close();
+    if(k==='jobs') setView('jobs'); else if(k==='saved') setView('saved'); else if(k==='dates') openDates(); else if(k==='ep') location.href='/epaper/'; else exJump({wx:'wx',mandi:'mandi',gold:'metals'}[k]); });
+  h.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{ close(); DAY=null; section=b.dataset.t; setView('home'); setTimeout(()=>go(0,'right'),60); });
+  h.querySelectorAll('[data-c]').forEach(b=>b.onclick=()=>{ const c=b.dataset.c; close(); if(c==='tip') openTip(); else if(c==='rep') location.href='/reporter/join.html'; else window.open(CONFIG.CHANNEL,'_blank','noopener'); });
+  h.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{ const f=b.dataset.f; close(); if(f==='set') openSheet(); else location.href=f==='trust'?'/trust.html':'/about.html'; });
+}
 /* ---------- readers send local news (opens WhatsApp with the tip typed) ---------- */
 function openTip(){
   $('tipDist').innerHTML = '<option value="">జిల్లా ఎంచుకోండి</option>' + PLACES.filter(p=>p[0]!=='TS').map(p=>`<option value="${p[0]}"${p[0]===prefs.place?' selected':''}>${esc(p[1])} (${esc(p[2])})</option>`).join('') + AP_DISTRICTS.map(p=>`<option value="${p[0]}"${p[0]===prefs.place?' selected':''}>${esc(p[1])} (${esc(p[2])}) – ఏపీ</option>`).join('') + Object.keys(STATE_DISTRICTS).map(st=>STATE_DISTRICTS[st].map(p=>`<option value="${p[0]}"${p[0]===prefs.place?' selected':''}>${esc(p[1])} (${esc(p[2])}) – ${esc((STATES.find(x=>x[0]===st)||['','',''])[1])}</option>`).join('')).join('') + STATES.filter(s=>s[0]!=='TG'&&s[0]!=='AP').map(s=>`<option value="st-${s[0]}"${'st-'+s[0]===prefs.place?' selected':''}>${esc(s[1])} (${esc(s[2])})</option>`).join('') + '<option value="other">ఇతర ప్రాంతం (Other)</option>';
@@ -3125,7 +3221,7 @@ setTimeout(alertInvite, 60000);
   $('s2mTabs').appendChild($('tabs')); const nv=document.querySelector('.shell>.nav'); if(nv) $('s2mNav').appendChild(nv);
   const open=()=>{ m.hidden=false; $('menuBtn').setAttribute('aria-expanded','true'); };
   const close=()=>{ m.hidden=true; $('menuBtn').setAttribute('aria-expanded','false'); };
-  $('menuBtn').onclick=open; $('menuClose').onclick=close;
+  $('menuBtn').onclick=e=>{ e.preventDefault(); if(typeof openExplore==='function') openExplore(); else open(); }; $('menuClose').onclick=close; // Explore replaces this menu (16 Nov 2026)
   m.addEventListener('click',e=>{ if(e.target===m){ close(); return; }
     const d=e.target.closest('[data-do]'); if(d){ close(); ({lang:()=>$('lngBtn').click(),place:()=>$('placeBtn').click(),set:()=>$('setBtn').click()})[d.dataset.do](); return; }
     if(e.target.closest('.tab,.nb,a')) setTimeout(close,120); });
