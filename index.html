@@ -899,6 +899,8 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 #hubSheet .hubcard{background:#fff;border:1px solid #EFE3D3;border-radius:20px;padding:16px;box-shadow:0 6px 20px rgba(74,14,63,.08)}
 #hubSheet .hubh{display:flex;align-items:center;gap:8px;font:800 14px/1.2 var(--body);color:#4A0E3F}
 #hubSheet .aidot{width:10px;height:10px;border-radius:50%;background:#F5A23A;box-shadow:0 0 0 4px rgba(245,162,58,.25);animation:s2nPulse 1.6s ease-in-out infinite}
+#hubSheet .hubnew{width:100%;margin:12px 0 4px;padding:11px 12px;border:1.5px dashed #E0B26A;border-radius:14px;background:#FFF6E6;color:#7A4A00;font:800 14px/1.3 var(--body);cursor:pointer}
+#hubSheet .hubok{margin:12px 0 4px;padding:10px 12px;border-radius:14px;background:#E9F6EE;color:#0E5A30}#hubSheet .hubok b{display:block;font:800 14px/1.3 var(--body)}#hubSheet .hubok small{display:block;margin-top:2px;font:600 12px/1.4 var(--body);color:#3D6B50}
 #hubSheet .hubl{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-direction:column}
 #hubSheet .hubl li{display:flex;gap:12px;align-items:flex-start;padding:10px 2px;border-top:1px solid #F3EADF;cursor:pointer;font:600 15px/1.45 var(--body);color:#202124}
 #hubSheet .hubl li:first-child{border-top:0}
@@ -1521,6 +1523,7 @@ function renderTabs(){
     return `<button class="tab" type="button" data-k="${k}" aria-pressed="${view==='home'&&k===section}">${esc(s[1])}</button>`;
   }).join('');
   $('placeName').textContent = (prefs.village?prefs.village+', ':'')+placeName(prefs.place);
+  try{ const a=document.querySelector('#homeBtn .ail'); if(a) a.textContent=({te:'ఈరోజు',en:'Today',hi:'आज'})[TLG()?'en':LG()]||'ఈరోజు'; }catch(e){} // follow a language change (user, 16 Nov 2026)
 }
 $('tabs').addEventListener('click',e=>{const b=e.target.closest('.tab');if(!b)return;
   if(b.dataset.j){ jobFilter=b.dataset.j; renderTabs(); renderFeed(); const n=$('tabs').querySelector(`[data-j="${jobFilter}"]`); if(n) n.scrollIntoView({inline:'center',block:'nearest'}); return; }
@@ -2682,17 +2685,26 @@ $('homeLogo').onclick=goHome;
 const HUBTX={te:{t:'ఈరోజు మీ కోసం',b:'AI బ్రీఫ్ · 60 సెకన్లలో టాప్ 5',all:'అన్నీ వినండి',latest:'తాజా వార్తలు',jobs:'ఉద్యోగాలు',saved:'సేవ్ చేసినవి',dates:'తేదీ వారీగా',n:'ఈరోజు {n} వార్తలు',g:['శుభోదయం','శుభ మధ్యాహ్నం','శుభ సాయంత్రం','శుభ రాత్రి']},
  en:{t:'Today for you',b:'AI brief · top 5 in 60 seconds',all:'Listen to all',latest:'Latest news',jobs:'Jobs',saved:'Saved',dates:'By date',n:'{n} stories today',g:['Good morning','Good afternoon','Good evening','Good night']},
  hi:{t:'आज आपके लिए',b:'AI ब्रीफ़ · 60 सेकंड में टॉप 5',all:'सब सुनें',latest:'ताज़ा ख़बरें',jobs:'नौकरियाँ',saved:'सेव की गईं',dates:'तारीख़ से',n:'आज {n} ख़बरें',g:['सुप्रभात','नमस्कार','शुभ संध्या','शुभ रात्रि']}};
+/* "Since your last visit" (user, 16 Nov 2026): remember when the reader was last here (per session) */
+const LASTV=(()=>{ try{ if(!sessionStorage.getItem('w2s.vis')){ sessionStorage.setItem('w2s.vis','1'); const prev=+localStorage.getItem('w2s.lastSeenAt')||0; localStorage.setItem('w2s.prevVisit',String(prev)); }
+  localStorage.setItem('w2s.lastSeenAt',String(Date.now())); return +localStorage.getItem('w2s.prevVisit')||0; }catch(e){ return 0; } })();
+const SVTX={te:{since:n=>`మీరు చివరిసారి వచ్చాక ${n} కొత్త వార్తలు`,ok:'✓ మీరు అన్నీ చూసేశారు',okS:'కొత్త వార్త వస్తే ఇక్కడే చూపిస్తాం. మరిన్ని కావాలంటే కార్డులు స్వైప్ చేయండి.',more:'కొత్తవన్నీ చూడండి'},
+ en:{since:n=>`${n} new since your last visit`,ok:"✓ You're caught up",okS:'New stories will appear here. Swipe the cards for more.',more:'See all new'},
+ hi:{since:n=>`पिछली बार के बाद ${n} नई खबरें`,ok:'✓ आप पूरी तरह अपडेट हैं',okS:'नई खबर आते ही यहाँ दिखेगी। और पढ़ने के लिए कार्ड स्वाइप करें।',more:'सभी नई देखें'}};
 function openHub(){ const T=HUBTX[TLG()?'en':LG()]||HUBTX.te; let h=$('hubSheet');
   if(!h){ h=document.createElement('section'); h.className='sheet'; h.id='hubSheet'; h.setAttribute('aria-label','Home'); document.querySelector('.shell').appendChild(h); }
-  const news=[]; LIST.forEach((x,i)=>{ if(x&&!x.kind&&x.h&&news.length<5) news.push([x,i]); });
+  const ST=SVTX[TLG()?'en':LG()]||SVTX.te, tOf=x=>{ const t=Date.parse(x.pub||''); return isNaN(t)?0:t; };
+  const fresh=[]; if(LASTV) LIST.forEach((x,i)=>{ if(x&&!x.kind&&x.h&&tOf(x)>LASTV) fresh.push([x,i]); });
+  const news=fresh.length?fresh.slice(0,5):[]; if(!news.length) LIST.forEach((x,i)=>{ if(x&&!x.kind&&x.h&&news.length<5) news.push([x,i]); });
   const hr=new Date().getHours(), g=T.g[hr<12?0:hr<17?1:hr<21?2:3];
   const ist=new Date(Date.now()+(330+new Date().getTimezoneOffset())*60000), dd=String(ist.getDate()).padStart(2,'0')+'.'+String(ist.getMonth()+1).padStart(2,'0')+'.'+ist.getFullYear();
   const today=LIST.filter(x=>x&&!x.kind&&x.d===dd).length||LIST.filter(x=>x&&!x.kind).length;
   const ic=d=>`<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
   h.innerHTML=`<div class="hubtop"><button class="icon x hubx" type="button" aria-label="close">${ic('<path d="M6 6l12 12M18 6L6 18"/>')}</button>
     <div class="hubg">${esc(g)} 👋</div><h2>✨ ${esc(T.t)}</h2>${NAV?'<div class="hubtag">Know More<i>.</i> Scroll Less<i>.</i></div>':''}<div class="hubn">${esc(T.n.replace('{n}',today))}</div></div>
-   <div class="hubbody"><button class="sqopen hubsq" type="button"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span>${esc((SQTX[TLG()?'en':LG()]||SQTX.te).ph)}</span></button><div class="hubcard"><div class="hubh"><span class="aidot"></span>${esc(T.b)}</div>
+   <div class="hubbody"><button class="sqopen hubsq" type="button"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span>${esc((SQTX[TLG()?'en':LG()]||SQTX.te).ph)}</span></button><div class="hubcard"><div class="hubh"><span class="aidot"></span>${esc(fresh.length?ST.since(fresh.length):T.b)}</div>
     <ol class="hubl">${news.map(([x,i],k)=>`<li data-i="${i}"><b>${k+1}</b><span>${esc(x.h)}</span></li>`).join('')}</ol>
+    ${fresh.length>5?`<button class="hubnew" type="button">+${fresh.length-5} · ${esc(ST.more)} ›</button>`:`<div class="hubok"><b>${esc(ST.ok)}</b><small>${esc(ST.okS)}</small></div>`}
     <button class="hubplay" type="button">${ic('<path d="M7 5v14l11-7z" fill="currentColor"/>')}${esc(T.all)}</button></div>
     <div class="hubgrid">
      <button type="button" data-a="latest">${ic('<path d="M13 3L4 14h7l-1 7 9-11h-7z"/>')}<span>${esc(T.latest)}</span></button>
@@ -2704,6 +2716,7 @@ function openHub(){ const T=HUBTX[TLG()?'en':LG()]||HUBTX.te; let h=$('hubSheet'
   const close=()=>{ h.hidden=true; };
   h.querySelector('.hubx').onclick=close;
   h.querySelector('.hubsq').onclick=()=>{ close(); openSearch(); };
+  const hn=h.querySelector('.hubnew'); if(hn) hn.onclick=()=>{ close(); goHome(); setTimeout(()=>{ const i=fresh.length>5?fresh[5][1]:0; go(i,'left'); },380); };
   h.querySelectorAll('.hubl li').forEach(li=>li.onclick=()=>{ close(); if(view!=='home'){ goHome(); } setTimeout(()=>go(+li.dataset.i,'left'),view==='home'?0:350); });
   h.querySelector('.hubplay').onclick=()=>{ close(); goHome(); setTimeout(()=>{ if(!RADIO) toggleRadio(); },400); };
   h.querySelectorAll('.hubgrid button').forEach(b=>b.onclick=()=>{ close(); const a=b.dataset.a;
