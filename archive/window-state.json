@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-16T09:35:00+05:30",
+ "cutoff": "2026-11-16T10:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T22:05:00+05:30/2026-11-12T22:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebSearch returned stale tag/listing pages. Read: TT hyderabad-news-today/latest, tag/telangana (relative times only), Hans India Just In (no times), DC Vijayawada & AP sections (latest 01:15, before window), 3 articles. Blocked: DC Telangana section (permission timeout). Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI direct, Reuters; no AP, national or other-state items verifiable in range. GHMC Tolichowki demolition seen in sidebar but URL not found (likely after END). Districts searched: Warangal, Khammam, Nalgonda, Guntur, NTR, Tirupati, Kadapa, Hyderabad."
-  },
   {
    "window": "2026-11-12T22:35:00+05:30/2026-11-12T23:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "09:35 run started 09:36 IST; lookback from 01:05. Feeds fresh (09:10, 70/70 ok; 745 uncovered TG/AP events listed, most top multi-source ones already covered). add_repo not available; existing clone pulled, push worked. Published (all Hans India): HMWSSB 100 MGD summer shortfall, HYDRAA two Medchal lakes, Hyderabad unlicensed water plants (claim), AIKS Nalgonda rally, Ramchander Rao podu lands (claim), Dharmavaram Addl SP nomination-centre checks, Vizag students at mental hospital. Duplicates: Sridhar Babu NDE/aerospace, TGTDC bird walk. Skipped: BRS Dasoju polytechnic (GO 97 already covered), TV9 AP police 1,156 and TGPSC 102 posts (old notifications, Oct), Hans 'water of discontent' (folded into HMWSSB topic). Not surfaced by search: The Hindu SIO detentions, NIE paddy delay/Naidu infra/APIIC land, ETV AP rail terminals, Prajasakti Tirumala hundi. District searches: Mahabubnagar, Vizianagaram (no fresh results)."
+  },
+  {
+   "window": "2026-11-16T09:35:00+05:30/2026-11-16T10:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 14,
+   "published": 12,
+   "late": 9,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 4,
+   "review": 1,
+   "gaps": "10:05 run started 10:06 IST; lookback from 01:35. Feeds fresh (09:41, 70/70 ok; 152 uncovered local events in lookback, many already covered yesterday under other wording). add_repo not available; existing clone reset to origin/main, push worked. Skipped as outside lookback: Hans Vikarabad car-auto crash (15 Nov 16:35), South First AP NCD survey (15 Nov), HMTV Shabad best sarpanch (15 Nov), NewsMeter cyclone (2025 article). Duplicates: Daily Jagran Akvan (same as TT), Hans Bandi Sanjay 'disgrace' (same speech). Review: TTD darshan bulletin (no time). Not opened: Disha Nalgonda best sarpanch. District searches: Khammam, Srikakulam, Nizamabad/Kamareddy, Kurnool/Nandyal, Warangal, Nellore, Karimnagar/Peddapalli, Medak/Sangareddy."
   }
  ],
  "seen": [
@@ -4888,6 +4888,101 @@
    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-govt-announces-recruitment-for-1156-police-posts-1987788",
    "d": "2026-11-16",
    "w": "skip"
+  },
+  {
+   "url": "https://ntvtelugu.com/andhra-pradesh-news/amaravathi/ap-panchayat-elections-second-phase-notification-released-full-schedule-1035622.html",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/cyclone-akwan-set-to-intensify-chennai-faces-very-heavy-rain-on-nov-18-19",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://tv9telugu.com/telangana/telangana-rice-price-hike-sona-masuri-at-rs-100-per-kg-despite-government-price-caps-1959453.html",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/telangana-government-launched-the-roof-restart-scheme-under-the-indiramma-housing-scheme-tgs26111600668",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/srisailam-reservoir-water-levels-decline-raising-drinking-water-concerns-2561415",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.v6velugu.com/telangana-probationary-dsps-embark-on-week-long-bharat-darshan-study-tour-after-police-academy-training-",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.v6velugu.com/seethakka-lays-foundation-for-41-rural-roads-worth-rs-5844-crore-in-warangal-",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.v6velugu.com/marketing-department-director-rahul-raj-to-review-cess-evasion-and-revenue-irregularities-in-khammam-",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/bandi-sanjay-hits-back-at-ktr-over-dignity-of-office-remarks-1576783.html",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.siasat.com/activists-detained-in-hyderabad-ahead-of-israeli-firms-t-hub-event-3578345/",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/ap-to-get-two-state-of-the-art-rail-terminals-in-amaravati-and-visakhapatnam-aps26111600644",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.etvbharat.com/en/sports/india-to-stage-2029-champions-trophy-co-host-2031-odi-world-cup-as-icc-unveils-global-events-roadmap-enn26111504883",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/two-killed-after-car-collides-with-auto-rickshaw-in-telanganas-vikarabad-1142414",
+   "d": "2026-11-16",
+   "w": "skip"
+  },
+  {
+   "url": "https://thesouthfirst.com/andhrapradesh/andhra-pradesh-identifies-12-23-lakh-new-hypertension-cases-and-11-58-lakh-diabetes-cases-through-state-wide-screening/",
+   "d": "2026-11-16",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/hyderabad/delhi-kummariguda-sarpanch-srisailam-yadav-receives-award-213247",
+   "d": "2026-11-16",
+   "w": "skip"
+  },
+  {
+   "url": "https://newsmeter.in/regional/andhra-pradesh/andhra-braces-up-for-another-cyclone-cold-wave-tightens-grip-in-many-parts-758496",
+   "d": "2026-11-16",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.thedailyjagran.com/india/news/cyclone-akvan-alert-cyclonic-storm-andhra-coast-landfall-heavy-rain-in-tamil-nadu-odisha-bengal-chennai-latest-news-10336415",
+   "d": "2026-11-16",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/rahul-gandhi-and-revanth-brought-disgrace-to-telangana-bandi-sanjay-1142594",
+   "d": "2026-11-16",
+   "w": "dup"
+  },
+  {
+   "url": "https://news.tirumala.org/total-pilgrims-who-had-darshan-on-15-11-2026-82173/",
+   "d": "2026-11-16",
+   "w": "review"
   }
  ]
 }
