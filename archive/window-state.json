@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-16T10:35:00+05:30",
+ "cutoff": "2026-11-16T11:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T23:05:00+05:30/2026-11-12T23:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 1,
-   "published": 0,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Search-first; WebSearch returned stale tag/listing pages only. Read: TT hyderabad-news-today/latest, tag/telangana, sangareddy-news, Warangal, mahabubabad-news, Jagtial (no article times; sidebar relative labels), Siasat Hyderabad (all items already published/seen), South First AP tag, 9 articles (AP Rs 33,500 cr investments 11:56, Amul milk 09:12, Sikkim quake 08:55, WHO air study 08:59, Jagan PPP 08:40, Makkah drones 11 Nov — all before lookback 15:05; TT Miyapur and Sangareddy gang — old). DC Warangal listing rendered empty. Skipped minor other-state: AIMIM–Azad UP alliance (15:12). Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI direct, Reuters/AP. Districts searched: Medak, Sangareddy, Siddipet, Jagtial, Peddapalli, Suryapet, Warangal, Khammam, Mahabubabad, Mulugu, Kakinada, Eluru, East Godavari, NTR, Visakhapatnam, Tirupati."
-  },
   {
    "window": "2026-11-13T05:05:00+05:30/2026-11-13T17:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 1,
    "gaps": "10:35 run started 10:36 IST; lookback from 02:05. Feeds fresh (10:14, 70/70 ok; 764 uncovered TG/AP events, most top multi-source ones already covered under other wording). add_repo not available; existing clone reset to origin/main, push worked. Published: Siasat Narayanpet medical hostel fire, Siasat SBI rural LPG, Maritime Gateway CWC-APMB logistics parks, Reuters Mahanadi Coalfields IPO. Skipped as outside lookback: TT WPL Wankhede (15 Nov 16:16), DC Siddipet insurance-scheme launch (10 Nov), Indian Masterminds CWC (14 Nov, same event). Review: Developing Telecoms AirTrunk 1.8 GW Anakapalli MoU (no publication time). Not surfaced by search: Sakshi Peddapalli children's prajavani, Sakshi e-bus drivers' protest, Prajasakti Tirumala hundi, NDTV AP bus-bike death, TV9 AP DSC applications, NIE Sankranti tickets/heat zones/paddy delay, Vaartha rice millers, Disha Ramappa, Samayam TG prices, TT Xi-Trump-Putin. District searches: Siddipet, Adilabad, Prakasam, Kakinada (no fresh results)."
+  },
+  {
+   "window": "2026-11-16T10:35:00+05:30/2026-11-16T11:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 9,
+   "published": 8,
+   "late": 5,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "11:05 run started 11:06 IST; lookback from 02:35. Feeds fresh (10:41, 70/70 ok; 680 uncovered TG/AP events, most top multi-source ones already covered). add_repo not available; existing clone pulled, push worked. Published: AJ Yadagirigutta 83,000 devotees, AJ Hyderabad auto bandh Nov 30, Hans EAGLE vape network (Kolkata link), HMTV Banaganapalle student bus death protest, TV9 AP SSC fee deadlines, Oneindia AP 25 sectoral parks, Tribune/ANI Xi-Trump-Putin summit Nov 19, Malay Mail/AFP Phuket fire 11 dead. Duplicate: ANI vape story. Skipped: TMV AP nomination violence (18 Oct), TT Yadadri rush (2024 article). Not opened (typed URLs refused / not surfaced by search): TT JNTU student suicide, TT Poonch LoC firing, TT Badrinath closing, Siasat Jammu exam racket, NIE Sankranti tickets/IIT-H diabetes study/heat zones/TDP ULB list/APIIC land, Inshorts Murasu damage, NT Talamadugu farmer (15 Nov event), Powerline CleanMax. District searches: Yadadri, Adilabad, Annamayya (Rayachoti), Nandyal (Banaganapalle), Hyderabad, Karimnagar, Srikakulam, Kurnool."
   }
  ],
  "seen": [
@@ -5023,6 +5023,61 @@
    "url": "https://developingtelecoms.com/telecom-technology/data-centres-networks/21131-airtrunk-signs-mou-for-two-data-centre-projects-in-andhra-pradesh.html",
    "d": "2026-11-16",
    "w": "review"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/nalgonda/yadagirigutta-temple-devotee-rush-83000-devotees-karthika-masam-darshan-1576762.html",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/hyderabad-auto-strike-november-30-auto-drivers-bandh-meter-charges-1576778.html",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/kolkata-link-surfaces-in-telangana-vape-racket-1142588",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/kurnool/tension-at-banaganapalle-ps-as-family-protests-students-death-in-bus-crash-213404",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://tv9telugu.com/career-jobs/ap-ssc-exam-fee-payment-2027-students-can-pay-until-december-15-with-late-fee-1959481.html",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/andhra-pradesh/ap-sectoral-parks-andhrapradesh-to-set-up-25-sectoral-parks-eyes-rs-4-lakh-crore-investment-and-4-515129.html",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.tribuneindia.com/news/world/china-confirms-first-xi-trump-putin-summit-on-november-19/",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.malaymail.com/news/world/2026/11/16/eleven-killed-in-phuket-shophouse-fire-victims-include-thais-and-myanmar-nationals/243462",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://aninews.in/news/national/general-news/telanganas-eagle-force-cracks-down-on-interstate-illegal-e-cigarette-network-seizes-31-vapes20261116085533/",
+   "d": "2026-11-16",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://tmv.in/article/violence-allegations-rock-andhra-pradesh-on-second-day-of-nominations",
+   "d": "2026-11-16",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/karthika-masam-yadadri-temple-witnesses-huge-rush-of-devotees",
+   "d": "2026-11-16",
+   "w": "skipped"
   }
  ]
 }
