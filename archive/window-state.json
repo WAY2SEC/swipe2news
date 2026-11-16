@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-16T07:05:00+05:30",
+ "cutoff": "2026-11-16T07:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T19:35:00+05:30/2026-11-12T20:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebSearch returned mostly stale tag/listing pages. Read: Siasat Hyderabad listing, TT Telangana/Adibatla/Adilabad/AP tags, South First AP tag, Sakshi Post Vijayawada (relative times only) and 11 articles; SCCL VKCM strike and Adilabad bus death are 11 Nov (before lookback). Blocked: South First chainsaw-attack article (permission). Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters/AP; no national, other-state or international-topic items verifiable. Districts searched: Adilabad, Nirmal, Mancherial, Rangareddy, NTR, Tirupati, Nellore."
-  },
   {
    "window": "2026-11-12T20:05:00+05:30/2026-11-12T20:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "07:05 run started 07:06 IST; lookback from 22:35 Nov 15. Feeds fresh (06:42, 70/70 ok). add_repo not available; existing clone used, push worked. Published: V6 statewide Pillala Prajavani (06:54), ETV CM/Uttam Chhattisgarh barrage NOC (06:48, claim), AJ transgender committee meet Hyd (06:43), AJ Tolichowki hotel fire (06:40), DC TG RERA ₹38 lakh refund (00:48), AJ Tirumala Pushpayagam (06:51), AJ Rajahmundry Karthika crowds (06:40), DC AP Newborn Care Week (23:04), DC Bapatla burglary gang (22:47), DC Kurnool ex-MP plot claim (01:00, claim), ETV Modi Manila ASEAN (06:41), AJ Sabarimala opens (06:13). Duplicates: Vikarabad car-auto crash (Bomraspet published Nov 15), DC fake-CBI kidnap Madanapalle, DC Naidu cyclone Murasu aid. Not opened/not surfaced by search: Hans graduates MLC 12.69 lakh, TOI Adilabad airport streams, TOI 4-district yellow alert, Hans HYDRAA 2 lakes, DC Karthika tour, DC 10,500 ULB nominations, Hans Dokiparru, Hans Karimnagar farm credit, DC Tirumala cold, TOI industrial support; DC KTR remark/Sadar/Chaya fetch blocked (permission timeout). No separate district searches this run."
+  },
+  {
+   "window": "2026-11-16T07:05:00+05:30/2026-11-16T07:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 1,
+   "published": 1,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 5,
+   "review": 0,
+   "gaps": "07:35 run started 07:36 IST; lookback from 23:05 Nov 15. Feeds fresh (07:17, 68/68 ok). add_repo not available; existing clone used, push worked. Published: ETV Bharat live blog KPHB 15th Phase fire (06:36). Duplicates: Hans Kolkata vape link, Hans Revanth-Modi drought aid, ETV TG rain Nov 19-21 (Cyclone Akvan rain story already up). Skipped as old: DC AP 1,156 police posts (16 Sep), TT junior college HRMS leave rules (Sep 2025), TGPSC 102 MPSO/ASO (Oct notification), Sonia Gandhi memoir (released Nov 10); AJ Tolichowki flyover car crash (too thin). Search did not surface: TV9 AP police/TGPSC jobs pages, NTV AP 2nd phase panchayat notification, HMTV Banaganapalli student death, V6 egg prices, V6 18k houses, AJ Begumpet pupils at Rashtrapati Bhavan, AJ CBSE Telugu, Hans Red Cross RTC drivers, Hans fruit vendor sheds, TOI Vulcan/Amazon Leo, Estonia border, Jensen Huang. District searches (Nizamabad/Adilabad/Karimnagar, Srikakulam/Vizianagaram/Guntur/Nellore) returned only tag pages."
   }
  ],
  "seen": [
@@ -4633,6 +4633,21 @@
    "url": "https://deccanchronicle.com/southern-states/andhra-pradesh/6-arrested-for-kidnapping-businessman-posing-as-cbi-officers-2004686",
    "d": "2026-11-16",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--16th-november-2026-latest-top-news-information-across-telangana-tgs26111600447#kphb-fire",
+   "d": "2026-11-16",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-govt-announces-recruitment-for-1156-police-posts-1987788",
+   "d": "2026-11-16",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/no-leave-without-approval-new-hrms-rules-for-govt-junior-college-staff-in-telangana",
+   "d": "2026-11-16",
+   "w": "skipped"
   }
  ]
 }
