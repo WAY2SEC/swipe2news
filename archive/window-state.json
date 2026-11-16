@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-16T21:35:00+05:30",
+ "cutoff": "2026-11-16T22:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-14T11:05:00+05:30/2026-11-14T11:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 3,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 0,
-   "review": 1,
-   "gaps": "11:35 run started 11:36 IST. Lookback from 03:05 14 Nov. Read: TT Congress hits back at BRS (11:18, claim), DC/ANI cyclone threat 2004332 (11:33, update, fact), Sakshi Post cold 483223 (09:44, late-found, fact), Hans India Bharat Summit 1141968 (05:50, duplicate of summit coverage), ETV TG live blog (already seen; US flights restored item duplicate of US flights story), Siasat Hyderabad listing (no timestamps), AA Morning Briefing 4124855 (date only, review). Not reached: Eenadu, Sakshi Telugu, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; district searches stale. Districts searched: Khammam, Sangareddy, Kamareddy, Nirmal, Mancherial, Peddapalli, Kakinada, NTR, Srikakulam, Vizianagaram, Nandyal, Annamayya."
-  },
   {
    "window": "2026-11-14T11:35:00+05:30/2026-11-14T12:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "21:35 run started 21:37 IST; lookback from 13:05. Feeds 21:11, 70/70 ok, 938 uncovered TG/AP (~50 new since 20:10, most minor/entertainment or covered). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 5: TT Koyagudem OC-3 CPI protest (claim), Siasat Unistring counter-drone at T-Hub, TT Vattepally gambling raid (sensitive), TT 2015 Jagathgirigutta murder life term (sensitive), UNI BARC-CPWD 70 quarters Vizag (late, 18:50). Duplicates: TGSRTC MD Anil Kumar (covered), DC Naidu Cyclone Akvan precautions (covered). Not opened (not in search index): Hindu teachers 95% attendance, Hindu Kakinada mayor nominations, Hindu Akvan cyclonic storm formed, Hindu Gachibowli hookah, NewsMeter HYDRAA traffic curbs, Andhrajyothy APCPDCL leave cancelled, Andhrajyothy Bhatti power cuts. District sweep (Warangal, Visakhapatnam, Tirupati, Khammam, Kurnool/Nandyal, Medak/Sangareddy/Siddipet, Nellore/Ongole, Karimnagar/Peddapalli/Jagtial, Nalgonda): nothing new in window. Build step rewrote index.html/sitemap.xml/en/hi/te; reverted."
+  },
+  {
+   "window": "2026-11-16T21:35:00+05:30/2026-11-16T22:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 6,
+   "late": 3,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 2,
+   "review": 1,
+   "gaps": "22:05 run started 22:06 IST; lookback from 13:35. Feeds 21:42, 70/70 ok, 832 uncovered TG/AP (most minor/entertainment or already covered under other wording). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 6: HMTV Nagarkurnool Sagara BC-A protest (claim), HMTV Devarakadra BJYM fee-dues protest (claim), TT Siddipet AR head constable death (sensitive), Siasat/PTI INDIA bloc SC plea on SIR (claim), TT JEE Main Nov 22 deadline (late), TT Sensex +510 (late). Skipped: Hyderabad Mail AP SLPRB 1,156 jobs (DC shows notification 16 Sep 2026 - old), Rajamahendravaram BJP mayor candidate (Hans 01:16, before lookback; nomination filing not verified). Review: UNI Vizag DRO S.D. Anitha (time zone of 15:45 not confirmed). Not opened (not in search index): Hindu Bhimavaram BJP-JSP-TDP split, Hindu Srisailam Karthika rush, Hindu power utilities Rabi, Hindu Kondapur domestic death, ABP Desam Adilabad child records. FM pre-Budget consultation opened but held (India cap 3). Build step rewrote index.html/sitemap.xml/en/hi/te; reverted."
   }
  ],
  "seen": [
@@ -5593,6 +5593,56 @@
    "url": "https://www.siasat.com/ips-officer-anil-kumar-assumes-charge-as-new-tgsrtc-md-3578388/",
    "d": "2026-11-16",
    "w": "dup"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/mahaboobnagar/nagarkurnool-sagara-sangham-protests-demanding-bc-a-status-213778",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/mahaboobnagar/devarakadra-bjym-stages-begging-protest-over-fee-dues-213777",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/ar-head-constable-dies-of-heart-attack-in-siddipet",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/rahul-gandhi-india-bloc-move-sc-seek-nod-to-question-ec-over-sir-3578826/",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/jee-main-2027-nta-urges-applicants-to-pay-fees-before-november-22",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/sensex-rises-510-points-nifty-gains-147-as-banking-fmcg-stocks-rally",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-govt-announces-recruitment-for-1156-police-posts-1987788",
+   "d": "2026-11-16",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/rajahmundry/sridevi-named-nda-candidate-for-rajahmundry-mayor-post-1142505",
+   "d": "2026-11-16",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/administration-ap-vizag-rdo/247668",
+   "d": "2026-11-16",
+   "w": "review"
+  },
+  {
+   "url": "https://telanganatoday.com/fm-sitharaman-holds-first-pre-budget-consultation-with-economists-for-budget-2027-28",
+   "d": "2026-11-16",
+   "w": "skipped"
   }
  ]
 }
