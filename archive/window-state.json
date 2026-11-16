@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-16T17:35:00+05:30",
+ "cutoff": "2026-11-16T18:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-14T07:05:00+05:30/2026-11-14T07:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 11,
-   "published": 2,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 7,
-   "skipped": 3,
-   "review": 2,
-   "gaps": "07:35 run started on time (07:36 IST). Lookback from 23:05 13 Nov. Read: ETV AP live blog (06:36–06:54) and ETV TG live blog (06:38–06:56). Published: central team cyclone-damage tour (Bapatla/Palnadu/Eluru/East Godavari), AP panchayat first-phase nominations (3,967). Duplicates (already published): Rahul arrival/schedule x3, Revanth Bharat Summit remarks (Siasat 3576852 earlier), Bharat Summit opening, US FAA ground stop, Bay low pressure. Skipped: Lokesh–Rana podcast (low news value), Raptadu accused hospital shift (no details), pharmacists meeting (low value). Review (no verifiable pub time): Siasat auto drivers housing 3576891, Siasat USCIRF Sharjeel Imam 3576874. Search results thin/stale; not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; no world items with verifiable times. Districts searched: Jagtial, Kamareddy, Nirmal, Peddapalli, Mulugu, Eluru, Kakinada, Prakasam."
-  },
   {
    "window": "2026-11-14T07:35:00+05:30/2026-11-14T08:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "17:35 run started 17:38 IST; lookback from 09:05. Feeds 17:30, 70/70 ok, 751 uncovered TG/AP (most already covered under other wording). add_repo not loaded; existing clone reset to origin/main. First fetch round failed (PROVENANCE_REQUIRED: feed URLs not from WebSearch, ~10 min lost); re-searched then fetched via sub-agents. Published: DC Moinabad TPO Rs6.76cr DA (update), TT Bijinepally alprazolam unit, NewsMeter Rs1.42cr digital arrest, HMTV Mudhole fire, TT NIN Vitamin B1 (India), AP/KSAT Russia 1,336 drones (World, claim). Duplicates: pensions 4.63 lakh, Jagtial boy drowning, vape racket. Skipped: JEE Main Nov 22 deadline (reminder, earlier reminders 10 Nov), TT Ukraine (AP used). Not attempted for time: Army pension HC (IE), SBI General claim (TOI), KCR Nagar tyre fire, Jangaon/Dasturabad prajavani, IMNEX-26 (harbour phase ended 15 Nov), patta certificates (Disha). New stories added without 'local' flag (desk summaries)."
+  },
+  {
+   "window": "2026-11-16T17:35:00+05:30/2026-11-16T18:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 14,
+   "published": 6,
+   "late": 2,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 0,
+   "review": 8,
+   "gaps": "18:05 run started 18:06 IST; lookback from 09:35. Feeds 17:48, 70/70 ok, 795 uncovered TG/AP (most already covered under other wording). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 6 TG: TT Devarakonda BRS joining (claim), HMTV Mominpet Cheyutha, Medical Dialogues PG fee GO 163, TT BITS Hyd desalination patent, HMTV Karimnagar ASHA dharna (claim), HMTV Bhupalpally oil palm (claim). Not opened / no search result (search index lag): Disha Nizamabad Bhubharati resurvey, Vizag 30 EV buses, The Hindu AP NCD survey, AP 4 universities, Amit Shah Vijayawada no-fly zone, TNIE SC Yamuna, edible oil imports record, Siasat CJI counsel outburst. No AP/India/World stories this run."
   }
  ],
  "seen": [
@@ -5808,6 +5808,41 @@
    "url": "https://telanganatoday.com/ukraine-launches-massive-drone-assault-on-russia-moscow-claims-1336-intercepted",
    "d": "2026-11-16",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/congress-leaders-from-devarakonda-join-brs-in-presence-of-former-mla",
+   "d": "2026-11-16",
+   "w": "2026-11-16T18:05"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/hyderabad/vikarabad-speaker-gaddam-prasad-distributes-cheyutha-pensions-213605",
+   "d": "2026-11-16",
+   "w": "2026-11-16T18:05"
+  },
+  {
+   "url": "https://medicaldialogues.in/mdtv/healthshorts/neet-pg-2026-telangana-retains-existing-pg-medical-fees-for-2026-29-limits-collection-at-60-70-183328",
+   "d": "2026-11-16",
+   "w": "2026-11-16T18:05"
+  },
+  {
+   "url": "https://telanganatoday.com/bits-hyderabad-team-patents-solar-powered-desalination-cooling-system",
+   "d": "2026-11-16",
+   "w": "2026-11-16T18:05"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/karimnagar-asha-workers-stage-dharna-warn-of-strike-213615",
+   "d": "2026-11-16",
+   "w": "2026-11-16T18:05"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/warangal/bhupalpally-oil-palm-farmers-plead-collector-for-relief-213677",
+   "d": "2026-11-16",
+   "w": "2026-11-16T18:05"
+  },
+  {
+   "url": "https://www.dishadaily.com/telangana/nizamabad/the-goal-of-the-bhu-bharati-re-survey-is-a-permanent-resolution-to-land-related-issues-says-the-tahsildar-601372",
+   "d": "2026-11-16",
+   "w": "review"
   }
  ]
 }
