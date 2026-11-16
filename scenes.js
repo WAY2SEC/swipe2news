@@ -483,7 +483,10 @@ function artPlan(s){
     if(/పరిశ్రమ|ఫ్యాక్టరీ|కర్మాగార|పారిశ్రామిక|ఫార్మా కంపెనీ|industry|industrial|factory|manufacturing/i.test(tt0)) return has('industry')?{m:'land',bg:'n/industry'}:{m:'cat',cat:'infrastructure'}; }
   // owner 14 Nov 2026: the TOPIC picture comes before the district landmark (a health story shows health, not the town's temple).
   // Landmarks stay for temple, travel, culture and general local / political news.
-  const tt=[s.h,s.statl,String(s.p||'').split(/[.!?।]/)[0]].join(' ');
+  // owner 16 Nov 2026 (OU hostels story showed a power tower because the summary said 'restore water and power'):
+  // topic pictures follow the MAIN EVENT – headline + picture line. The first summary sentence is used only when the
+  // newsroom gave no picture key of its own (s.art).
+  const tt=[s.h,s.stat,s.statl].concat(s.art?[]:[String(s.p||'').split(/[.!?।]/)[0]]).join(' ');
   const isWorld=!land&&(/ప్రపంచం|World/.test(t+(s.cat||''))||(Array.isArray(s.sec)&&s.sec.includes('world')));
   if(!isWorld){ const sk=artScheme(tt); if(sk) return {m:'land',bg:sk}; if(/చెత్త|పారిశుద్ధ్య|garbage|sanitation/i.test(tt)&&/శుభ్ర|తొలగి|తరలి|స్వచ్ఛ|clean|clear|drive/i.test(tt)) return {m:'land',bg:'i/sanitation-workers'}; if(/చెత్త|మురుగు|పారిశుద్ధ్య|డ్రైనేజీ|garbage|sewage|sanitation/i.test(tt)) return {m:'cat',cat:'environment'}; if(/పౌరసరఫరా|(?<!కార్పొ)రేషన్ (?:కార్డ|బియ్య|షాప|దుకాణ|సరుకు)|civil supplies|\bration\b/i.test(tt)) return {m:'land',bg:'n/prices'};
     if(/ఏఐ|\bAI\b|కృత్రిమ మేధ|సెన్సెక్స్|నిఫ్టీ|స్టాక్ మార్కెట్|Sensex|Nifty/i.test(String(s.h||''))){ const nk0=artNews(tt); if(nk0) return {m:'land',bg:'n/'+nk0}; }

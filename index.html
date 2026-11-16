@@ -2075,14 +2075,18 @@ function oneLine(c){ const h=c.querySelector('.s2n .text h2'); if(!h) return; h.
   while(h.scrollWidth>w&&f>18){ f-=0.5; h.style.fontSize=f+'px'; }
   h.title=h.textContent; }
 function statFit(c){ const b=c.querySelector('.s2n .bkw'); if(!b) return; const a=b.querySelector('.stat'), l=b.querySelector('.statl'); if(!a||!l) return;
-  a.style.fontSize=l.style.fontSize=''; let f=parseFloat(getComputedStyle(a).fontSize)||22;
-  while(l.scrollWidth>l.clientWidth&&f>15){ f-=0.5; a.style.setProperty('font-size',f+'px','important'); l.style.setProperty('font-size',f+'px','important'); } }
-try{ document.fonts&&document.fonts.ready.then(()=>setTimeout(()=>document.querySelectorAll('.story.s2n').forEach(c=>{ try{ oneLine(c); statFit(c); srcFit(c); }catch(e){} }),50)); }catch(e){}
+  a.style.fontSize=l.style.fontSize=''; ['white-space','display','-webkit-line-clamp','-webkit-box-orient','line-height'].forEach(k=>l.style.removeProperty(k)); let f=parseFloat(getComputedStyle(a).fontSize)||22;
+  while(l.scrollWidth>l.clientWidth&&f>18){ f-=0.5; a.style.setProperty('font-size',f+'px','important'); l.style.setProperty('font-size',f+'px','important'); }
+  /* owner 16 Nov: never end the picture line with "…" – a long line goes onto two lines instead */
+  if(l.scrollWidth>l.clientWidth+1){ l.style.setProperty('white-space','normal','important'); l.style.setProperty('display','-webkit-box','important'); l.style.setProperty('-webkit-box-orient','vertical','important'); l.style.setProperty('-webkit-line-clamp','2','important'); l.style.setProperty('line-height','1.25','important'); } }
+try{ document.fonts&&document.fonts.ready.then(()=>setTimeout(()=>document.querySelectorAll('.story.s2n').forEach(c=>{ try{ oneLine(c); statFit(c); srcFit(c); locFit(c); }catch(e){} }),50)); }catch(e){}
+/* owner 16 Nov: a place name that does not fit in the top row is hidden, never shown half ('ఉస్మా…') */
+function locFit(c){ const m=c.querySelector('.s2n .text .meta'); if(!m) return; m.querySelectorAll('span').forEach(sp=>{ if(!sp.querySelector('circle[r="2.5"]')) return; sp.style.display=''; if(sp.scrollWidth>sp.clientWidth+1||sp.getBoundingClientRect().right>m.getBoundingClientRect().right+1) sp.style.display='none'; }); }
 function srcFit(c){ const r=c.querySelector('.s2n .srow'); if(!r) return; r.classList.remove('tight','tight2'); const a=r.querySelector('.srcb a,.srcb b'); const cut=()=>a&&a.scrollWidth>a.clientWidth+1; if(cut()) r.classList.add('tight'); if(cut()){ r.classList.remove('tight'); r.classList.add('tight2'); } }
 function phShape(c){ c.querySelectorAll('.bnr img.ph').forEach(im=>{ const go=()=>{ const b=im.parentElement.getBoundingClientRect(); if(!im.naturalWidth||!b.height) return; const tall=im.naturalWidth/im.naturalHeight < b.width/b.height; im.classList.toggle('tall',tall); im.classList.toggle('wide',!tall); }; if(im.complete) go(); else im.addEventListener('load',go,{once:true}); }); }
 function fit(c){ // make the card fit the screen: hide the least important parts first
   try{ phShape(c); }catch(e){}
-  oneLine(c); srcFit(c); statFit(c); c.classList.remove('t1','t2','t3','t4','f60');
+  oneLine(c); srcFit(c); statFit(c); locFit(c); c.classList.remove('t1','t2','t3','t4','f60');
   const tx=c.querySelector('.text');
   const over = () => c.scrollHeight > c.clientHeight + 1 || (tx && tx.scrollHeight > tx.clientHeight + 1);
   const bn=c.querySelector('.s2n .bnr, .story.s2n>.panel.bnr'); if(bn){ bn.style.minHeight=''; bn.style.removeProperty('max-height'); bn.style.removeProperty('flex'); bn.style.removeProperty('min-height'); }

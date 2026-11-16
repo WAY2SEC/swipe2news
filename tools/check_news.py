@@ -46,6 +46,9 @@ def check(d, fix=False):
         lat = [w for w in re.findall(r'[A-Za-z][A-Za-z0-9\-]{2,}', h) if not LATIN_OK.match(w)]
         if lat:
             warns.append(f'{tag}: English letters in the Telugu headline: {", ".join(lat)}')
+        pl = len((s.get('stat') or '') + (s.get('statl') or ''))
+        if pl > 34:
+            warns.append(f'{tag}: picture line is long ({pl} letters) – keep stat + statl short so it fits one line')
         # 3) summary
         n = len(p.split())
         if not p:
