@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-16T11:05:00+05:30",
+ "cutoff": "2026-11-16T11:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-13T05:05:00+05:30/2026-11-13T17:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 20,
-   "published": 13,
-   "late": 1,
-   "sensitive": 4,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 5,
-   "review": 6,
-   "gaps": "Previous cutoff 2026-11-12 23:35 was >12h before END, so START capped at END-12h (05:05); lookback from 2026-11-12 21:05. Read: TT 7 articles, Siasat PRT, Hans India CII x2, ETV Bharat AP live blog (07:18), newscura world timeline (relative times only). Failed: munsifdaily MeeSeva, inkl bulletin. Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; no national or world items with verifiable pub times. Districts searched: Adilabad, Nirmal, Mancherial, Vikarabad, Rangareddy, Yadadri, Jangaon, Karimnagar, Warangal, Khammam, Nalgonda, Kurnool, Nandyal, Anantapur, Nellore, Prakasam, Bapatla, Chittoor, Annamayya, Kadapa, Krishna, Srikakulam, Vizianagaram, Kakinada, Eluru."
-  },
   {
    "window": "2026-11-13T17:05:00+05:30/2026-11-13T17:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "11:05 run started 11:06 IST; lookback from 02:35. Feeds fresh (10:41, 70/70 ok; 680 uncovered TG/AP events, most top multi-source ones already covered). add_repo not available; existing clone pulled, push worked. Published: AJ Yadagirigutta 83,000 devotees, AJ Hyderabad auto bandh Nov 30, Hans EAGLE vape network (Kolkata link), HMTV Banaganapalle student bus death protest, TV9 AP SSC fee deadlines, Oneindia AP 25 sectoral parks, Tribune/ANI Xi-Trump-Putin summit Nov 19, Malay Mail/AFP Phuket fire 11 dead. Duplicate: ANI vape story. Skipped: TMV AP nomination violence (18 Oct), TT Yadadri rush (2024 article). Not opened (typed URLs refused / not surfaced by search): TT JNTU student suicide, TT Poonch LoC firing, TT Badrinath closing, Siasat Jammu exam racket, NIE Sankranti tickets/IIT-H diabetes study/heat zones/TDP ULB list/APIIC land, Inshorts Murasu damage, NT Talamadugu farmer (15 Nov event), Powerline CleanMax. District searches: Yadadri, Adilabad, Annamayya (Rayachoti), Nandyal (Banaganapalle), Hyderabad, Karimnagar, Srikakulam, Kurnool."
+  },
+  {
+   "window": "2026-11-16T11:05:00+05:30/2026-11-16T11:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 4,
+   "late": 1,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "11:35 run started 11:36 IST; lookback from 03:05. Feeds fresh (11:16, 68/68 ok; 669 uncovered TG/AP events, most top multi-source ones already covered). add_repo not loaded; existing clone pulled, push worked. Published: ETV Bharat Moinabad TPO ACB searches, TT JNTU-H student death (sensitive), HMTV Guntur PGRS suspended (late), TT Jay Shah ICC chair. Duplicate: ETV Bharat Jay Shah. Skipped: NewsBytes TG insurance scheme (5 Nov), NewsMeter cold nights (Nov 2025 article), TT Vemulawada Karthika rush (Nov 2024 article). Not surfaced by search: Sakshi Mahabubabad suicide case six arrested, NT Mallapur boy drowning, Prajasakti Tirumala hundi, 10TV AP police 1,156 posts, V6 Revanth-Tummidihatti, V6 Hyderabad cold."
   }
  ],
  "seen": [
@@ -5078,6 +5078,46 @@
    "url": "https://telanganatoday.com/karthika-masam-yadadri-temple-witnesses-huge-rush-of-devotees",
    "d": "2026-11-16",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/telangana-acb-searches-moinabad-municipality-town-planning-officer-gundu-vani-house-in-hyderabad-tgs26111601472",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/jntu-hyderabad-btech-student-dies-by-suicide-after-allegedly-failing-semester-exam",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/guntur/pgrs-temporarily-cancelled-in-guntur-due-to-election-code-213386",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/jay-shah-reappointed-unopposed-as-icc-chair-for-second-term",
+   "d": "2026-11-16",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.etvbharat.com/en/sports/jay-shah-re-appointed-unopposed-as-icc-chairman-for-a-second-term-enn26111601704",
+   "d": "2026-11-16",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.newsbytesapp.com/news/india/telangana-launches-family-life-insurance-rs5l-in-siddipet-november-19/tldr",
+   "d": "2026-11-16",
+   "w": "skip"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/telangana-braces-for-1012c-nights-hyderabad-to-see-chilly-week-758196",
+   "d": "2026-11-16",
+   "w": "skip"
+  },
+  {
+   "url": "https://telanganatoday.com/karthika-masam-rush-devotees-throng-vemulawada-shrine",
+   "d": "2026-11-16",
+   "w": "skip"
   }
  ]
 }
