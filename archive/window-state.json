@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-16T23:35:00+05:30",
+ "cutoff": "2026-11-17T05:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-14T13:35:00+05:30/2026-11-14T14:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 0,
-   "published": 0,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "14:05 run started 14:05 IST. Lookback from 05:35 14 Nov. Read: Siasat Telangana listing and Hans India homepage (cached copies, newest ids 3577073 / 1141859, nothing new), Tribune Rahul Bharat Summit speech (published 26 Apr 2025; skipped, old). Duplicates of gig-act story: ThePrint bike rally 3098564, M9 welfare board, Shillong Times arrival. Not reached: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; India/world/district standard searches stale. Districts searched: Rangareddy, Medchal, Bhupalpally, Khammam, Visakhapatnam, ASR, Manyam, Krishna, Tirupati, Sathyasai, Anantapur."
-  },
   {
    "window": "2026-11-14T14:05:00+05:30/2026-11-14T14:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "23:35 run started 23:35 IST; lookback from 15:05. Feeds 23:26, 68/68 ok, 785 uncovered TG/AP (most already covered under other wording). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 7: DC Hyderabad CP zero tolerance, DC Siddipet CM rally Nov 19, DC Peddagattu jatara 2027, HMTV polytechnic PPP rollback, HMTV Garidepally lorry death (sensitive), TT OU hostel evictions (claim, sensitive), TT Venkaiah Swayamkrushi (late 22:20). Skipped: AP SLPRB 1,156 jobs (notified 16 Sep), BJP Rajamahendravaram mayor candidate (announced 00:36, before lookback). Not opened: Hindu 3,478 pregnant women cyclone (only NewsBytes copy without state/time zone). Build step rewrote index.html/sitemap.xml/en/hi/te; reverted."
+  },
+  {
+   "window": "2026-11-16T23:35:00+05:30/2026-11-17T05:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 13,
+   "published": 11,
+   "late": 4,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "05:05 run started 05:05 IST; lookback from 15:35. Feeds 04:56, 54/70 ok (Sakshi, V6, TV5, Mana Telangana, Vaartha, Telangana Today feed, 8 district/topic feeds failing 429). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 11 (late: DC ACB Moinabad DA 23:11, BIE scholarships 23:21, voter Rs1,000 23:25, TT paddy 23:33). Skipped: TT POCSO 20 yrs (2021 article), SC/AP SEC candidate list (Oct 21). Duplicate: Prasanthi Nilayam special train (Sathya Sai trains already covered). Not opened fully: Reuters diesel/ATF export levies (DH fetch failed, Daily Guardian copy lede only). news.json kept untrimmed (222) as prior runs. Build step rewrote index.html/sitemap.xml/en/hi/te; reverted."
   }
  ],
  "seen": [
@@ -5783,6 +5783,86 @@
    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/bjp-announces-candidates-for-three-civic-body-chiefs-in-ap-2004745",
    "d": "2026-11-16",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/cyclone-akvan-to-bring-heavy-rain-to-telangana-on-nov-20-21-orange-alert-for-four-districts-2005040",
+   "d": "2026-11-17",
+   "w": "2026-11-17T05:05"
+  },
+  {
+   "url": "https://telanganatoday.com/imd-steps-up-rain-alert-for-telangana-under-cyclone-akvan",
+   "d": "2026-11-17",
+   "w": "2026-11-17T05:05"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-security-guard-gets-20-years-ri-for-sexually-assaulting-minor",
+   "d": "2026-11-17",
+   "w": "2026-11-17T05:05"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/railways-to-run-special-train-to-prasanthi-nilayam-2005037",
+   "d": "2026-11-17",
+   "w": "2026-11-17T05:05"
+  },
+  {
+   "url": "https://thedailyguardian.com/world/india-raises-diesel-jet-fuel-export-levies-as-inflation-stays-elevated-775216/",
+   "d": "2026-11-17",
+   "w": "2026-11-17T05:05"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/tirupathi/voter-refuses-to-sell-his-vote-returns-rs-1000-through-ballot-box-1142845",
+   "d": "2026-11-17",
+   "w": "2026-11-17T05:05"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/voter-returns-1000-refuses-to-sell-vote-2005005",
+   "d": "2026-11-17",
+   "w": "2026-11-17T05:05"
+  },
+  {
+   "url": "https://telanganatoday.com/t-juda-demands-immediate-intervention-to-provide-students-safety-at-narayanpet-medical-college",
+   "d": "2026-11-17",
+   "w": "2026-11-17T05:05"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/ghmc-doubles-park-entry-fees-for-adults-to-20-children-to-5-2005028",
+   "d": "2026-11-17",
+   "w": "2026-11-17T05:05"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/tiger-enters-habitations-near-chintalapudi-2005016",
+   "d": "2026-11-17",
+   "w": "2026-11-17T05:05"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/lokesh-releases-fee-reimbursement-figures-counters-jagans-criticism-2005013",
+   "d": "2026-11-17",
+   "w": "2026-11-17T05:05"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/acb-registers-da-case-against-town-planning-officer-2004993",
+   "d": "2026-11-17",
+   "w": "2026-11-17T05:05"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-farmers-unconvinced-by-governments-appeal-to-avoid-paddy",
+   "d": "2026-11-17",
+   "w": "2026-11-17T05:05"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/hyderabad-metro-second-highest-revenue-south-india-bengaluru-1577043.html",
+   "d": "2026-11-17",
+   "w": "2026-11-17T05:05"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/1459-new-pensions-sanctioned-in-secunderabad-cantonment-1142807",
+   "d": "2026-11-17",
+   "w": "2026-11-17T05:05"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/bie-invites-applications-for-national-merit-scholarships-nov-30-deadline-2005001",
+   "d": "2026-11-17",
+   "w": "2026-11-17T05:05"
   }
  ]
 }
