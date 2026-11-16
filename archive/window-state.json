@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-16T06:05:00+05:30",
+ "cutoff": "2026-11-16T06:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-12T18:35:00+05:30/2026-11-12T19:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 4,
-   "late": 3,
-   "sensitive": 3,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Search-first; WebSearch mostly stale tag/listing pages. Read: Siasat home + 2 articles, TT Telangana/Karimnagar/Mahabubnagar listings (relative times only), Hans Visakhapatnam listing (12 Nov items 00:44-02:30 only), Punjab Kesari (IANS), TT Kia, HMTV Karimnagar. Failed: investing.com Reuters Nvidia item (rate limit); blocked: Siasat Narayanpet water protest, TT Jagan PPP medical colleges (permission timeout). Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters/AP; no national, other-state or international-topic items verifiable. Districts searched: Khammam, Warangal, Nalgonda, Karimnagar, Nizamabad, Mahabubnagar, Sangareddy, Kurnool, Guntur, Prakasam, Visakhapatnam, NTR, Tirupati."
-  },
   {
    "window": "2026-11-12T19:05:00+05:30/2026-11-12T19:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "06:05 run started 06:06 IST; lookback from 21:35 Nov 15. Feeds fresh (05:46, 70/70 ok). add_repo not available; existing clone used, push worked. Published: Hans Anantapur 590 nominations/Raptadu (02:36), Hans GVMC town planning forum Nov 18-20 (02:08), Hans NTR district costly panchayat polls (01:23, claim), DC CESS Rythu Bandhu study (22:54), DC Tirumala SV Museum opens (23:12). Duplicate: Hans Sridhar Babu aerospace/NDE-2026 (TT NDE story already published). Skipped: News On AIR SC withholds AP ULB list (Oct 21, old). Search did not surface: TOI semiconductor SEZ, TG inflation 7%, TG 4-district yellow alert; Hans HYDRAA lakes, Wanaparthy RMP teams, Godavari River Marathon; DC Nizamabad resurvey; NT Srisailam water level. No separate district searches this run (feed-driven)."
+  },
+  {
+   "window": "2026-11-16T06:05:00+05:30/2026-11-16T06:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 4,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "06:35 run started 06:36 IST; lookback from 22:05 Nov 15. Feeds fresh (06:10, 70/70 ok). add_repo not available; existing clone used, push worked. Feed 'covered' flags unreliable: many listed events were already published (Nalgonda Airtel RRU theft, cyclone Akvan, aerospace, Vision 2050, NCD survey). Published: Hans Japan envoy-Bhongir MP (06:03), Andhra Jyothy Chanchalguda digital arrest ₹1.42 cr (06:01, claim), Hans Rahul concern over T-Congress infighting (03:06, claim), Hans Hyderabad CP Bhagwat challenges (02:27). Skipped: DC Indiramma insurance Siddipet (10 Nov, old); ThePrint William Delhi leg (21:45 Nov 15, before lookback). Search did not surface: TOI TG inflation 7%, rural LPG 95.3%, AP semiconductor SEZ, paddy sowing; TT Prince/Princess of Wales; Hans HYDRAA lakes, Guntur no sugar, Nellore Dy Mayor; The Hindu heart valve, Kadapa start-up award; Eenadu-only items (Hyderabad auto bandh 30th, organ donation, Matsyagiri). District searches: Nalgonda, Warangal/Karimnagar/Khammam, Visakhapatnam/Srikakulam/Vizianagaram returned only tag/old pages."
   }
  ],
  "seen": [
@@ -4553,6 +4553,41 @@
    "url": "https://newsonair.gov.in/sc-directs-andhra-pradesh-state-ec-to-withhold-final-candidate-list-for-urban-local-body-polls-until-oct-26/",
    "d": "2026-11-16",
    "w": "skip"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/telangana-eyes-japanese-investments-jobs-for-youth-1142589",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/hyderabad-digital-arrest-scam-retired-bank-employee-loses-1-crore-42-lakh-1576772.html",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/rahul-expresses-concern-over-infighting-in-telangana-congress-1142586",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/mahesh-bhagwat-faces-major-challenges-as-hyd-police-commissioner-1142558",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/revanth-reddy-to-launch-indiramma-family-insurance-scheme-in-siddipet-2003132",
+   "d": "2026-11-16",
+   "w": "skipped"
+  },
+  {
+   "url": "https://theprint.in/world/britains-prince-william-adds-delhi-leg-to-india-visit-for-meeting-with-pm-modi/3099572/",
+   "d": "2026-11-16",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/nalgonda-nine-airtel-employees-arrested-for-stealing-rs-1-62-crore-worth-of-tower-equipment",
+   "d": "2026-11-16",
+   "w": "duplicate"
   }
  ]
 }
