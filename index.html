@@ -1484,9 +1484,9 @@ function metalsHTML(s,i,city){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=M
   <div class="m2hd"><div class="m2t">${T.h.map(esc).join('<i>•</i>')}</div><div class="m2s"><span></span>${esc(T.sub)}<span></span></div>
    <div class="m2city">${s.c.map(x=>`<button type="button" class="m2c${x.city===c.city?' on':''}" data-c="${esc(x.city)}">${esc(U.city[x.city]||x.city)}</button>`).join('')}</div></div>
   <div class="text m2body">
-   <div class="m2p"><img src="/art/m/gold.webp" alt="" loading="lazy"><div class="m2v"><h4>${esc(T.g)}${l!=='en'?' <small>/ GOLD</small>':''}</h4>${row('22K · 10 g',c.g22,c.city+'|g22')}${row('24K · 10 g',c.g24,c.city+'|g24')}</div></div>
-   <div class="m2p"><img src="/art/m/silver.webp" alt="" loading="lazy"><div class="m2v"><h4>${esc(T.sv)}${l!=='en'?' <small>/ SILVER</small>':''}</h4>${row('1 kg',c.silver,c.city+'|silver')}</div></div>
-   <div class="m2p"><img src="/art/m/copper.webp" alt="" loading="lazy"><div class="m2v"><h4>${esc(T.cp)}${l!=='en'?' <small>/ COPPER</small>':''}</h4>${row('1 kg · MCX'+(cu&&cu.date&&cu.date!==c.date?(()=>{ try{ return ' · '+new Date(cu.date+'T12:00:00+05:30').toLocaleDateString(l==='te'?'te-IN':l==='hi'?'hi-IN':'en-IN',{day:'numeric',month:'short'}); }catch(e){ return ''; } })():''),cu?cu.price:null,'copper')}</div></div>
+   <div class="m2p"><img src="/art/m/gold.webp" alt="" decoding="async"><div class="m2v"><h4>${esc(T.g)}${l!=='en'?' <small>/ GOLD</small>':''}</h4>${row('22K · 10 g',c.g22,c.city+'|g22')}${row('24K · 10 g',c.g24,c.city+'|g24')}</div></div>
+   <div class="m2p"><img src="/art/m/silver.webp" alt="" decoding="async"><div class="m2v"><h4>${esc(T.sv)}${l!=='en'?' <small>/ SILVER</small>':''}</h4>${row('1 kg',c.silver,c.city+'|silver')}</div></div>
+   <div class="m2p"><img src="/art/m/copper.webp" alt="" decoding="async"><div class="m2v"><h4>${esc(T.cp)}${l!=='en'?' <small>/ COPPER</small>':''}</h4>${row('1 kg · MCX'+(cu&&cu.date&&cu.date!==c.date?(()=>{ try{ return ' · '+new Date(cu.date+'T12:00:00+05:30').toLocaleDateString(l==='te'?'te-IN':l==='hi'?'hi-IN':'en-IN',{day:'numeric',month:'short'}); }catch(e){ return ''; } })():''),cu?cu.price:null,'copper')}</div></div>
    <div class="m2f"><span>📍 ${esc(U.city[c.city]||c.city)}</span><span>🕒 ${esc(T.upd)}: ${esc(when)}</span><span>${esc(U.src)}: ${esc(METALS.src||'')}</span></div>
    <p class="m2n">${esc(T.note)}</p>
   </div>
@@ -1495,7 +1495,7 @@ function metalsHTML(s,i,city){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=M
 document.addEventListener('click',e=>{ const b=e.target.closest('.metals2 .m2c'); if(!b) return; e.preventDefault(); e.stopPropagation(); const art=b.closest('.story'); const it=LIST.find(x=>x&&x.kind==='metals'); if(!art||!it) return;
   store.set('metCity',b.dataset.c); const tmp=document.createElement('div'); tmp.innerHTML=metalsHTML(it,0,b.dataset.c); const nw=tmp.firstElementChild; art.querySelector('.m2hd').replaceWith(nw.querySelector('.m2hd')); art.querySelector('.m2body').replaceWith(nw.querySelector('.m2body')); },true);
 /* gold · silver · copper as one table for all four cities (live 15 Nov 2026; ?mt=panels shows the old picture panels) */
-const MTTAB=(()=>{ try{ const q=new URLSearchParams(location.search).get('mt'); if(q==='table'||q==='panels') localStorage.setItem('w2s.mt',q); return localStorage.getItem('w2s.mt')!=='panels'; }catch(e){ return true; } })(); // owner approved 15 Nov 2026: table for everyone
+const MTTAB=(()=>{ try{ const q=new URLSearchParams(location.search).get('mt'); localStorage.removeItem('w2s.mt'); return q!=='panels'; }catch(e){ return true; } })(); // owner approved 15 Nov 2026: table for everyone
 function metalsTableHTML(s,i){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=METALS.prev||{}, inr=n=>'₹'+Number(n).toLocaleString('en-IN');
   const ar=(k,v)=>{ const p=prev[k]; if(p==null||v==null||p===v) return ''; return v>p?`<i class="up">▲${Number(v-p).toLocaleString('en-IN')}</i>`:`<i class="dn">▼${Number(p-v).toLocaleString('en-IN')}</i>`; };
   const T={te:{h:['బంగారం','వెండి','రాగి'],sub:'ధరల సమాచారం',city:'నగరం',g:'బంగారం',sv:'వెండి',cp:'రాగి',upd:'అప్‌డేట్',note:'సూచిక ధరలు • పన్నులు, తయారీ ఛార్జీలు అదనం'},
