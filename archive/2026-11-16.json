@@ -1,8 +1,381 @@
 {
  "date": "16.11.2026",
  "iso": "2026-11-16",
- "count": 53,
+ "count": 60,
  "stories": [
+  {
+   "cat": "హైదరాబాద్ · నీరు",
+   "col": "--c-water",
+   "art": "water",
+   "stat": "100 ఎంజీడీ",
+   "statl": "వేసవిలో నీటి కొరత అంచనా",
+   "h": "నగరానికి వేసవిలో 100 ఎంజీడీ కొరత",
+   "p": "వచ్చే జనవరి నుంచి ఆగస్టు వరకు సింగూరు, మంజీరా జలాశయాల నుంచి నగరానికి దాదాపు 100 ఎంజీడీ నీటి కొరత ఉంటుందని జలమండలి అంచనా వేసింది. పది రోజుల్లో గోదావరి నుంచి అదనంగా 40 ఎంజీడీ తెస్తామని ఎండీ కె. అశోక్ రెడ్డి చెప్పారు. కృష్ణా, ఉస్మాన్‌సాగర్ నుంచి కూడా కొంత నీరు తీసుకుంటామన్నారు. సరఫరాలో 80 శాతం కోత వార్తలు నిజం కాదని ఆయన స్పష్టం చేశారు.",
+   "pts": [
+    "కృష్ణా నుంచి 10–15, ఉస్మాన్‌సాగర్ నుంచి 5 ఎంజీడీ",
+    "శేరిలింగంపల్లి, కూకట్‌పల్లి, కుత్బుల్లాపూర్‌కు ఎక్కువ ముప్పు",
+    "నవంబర్ 1న 'డయల్ ఎ గ్రీన్ ట్యాంకర్' ప్రారంభం"
+   ],
+   "why": "హైదరాబాద్ పశ్చిమ ప్రాంతాల ఇళ్లకు వచ్చే నెలల్లో తాగునీటి సరఫరా ప్రభావితం కావచ్చు.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/hmwssb-gearing-up-for-100-mgd-summer-shortfall-1142599",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-16T06:25+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Water",
+    "h": "Hyderabad faces 100 MGD summer water gap",
+    "stat": "100 MGD",
+    "statl": "expected summer shortfall",
+    "loc": "Hyderabad",
+    "p": "The Hyderabad water board (HMWSSB) expects a shortfall of nearly 100 MGD from the Singur and Manjeera reservoirs between January and August 2027. MD K Ashok Reddy said 40 MGD more Godavari water will be added within 10 days, with some water also drawn from the Krishna and Osman Sagar. He said reports of an 80 per cent supply cut are untrue.",
+    "pts": [
+     "10–15 MGD from Krishna, about 5 MGD from Osman Sagar",
+     "Serilingampally, Kukatpally, Qutbullapur most vulnerable",
+     "'Dial a Green Tanker' launched on November 1"
+    ],
+    "why": "Homes in western Hyderabad may see drinking water supply affected in coming months."
+   },
+   "hi": {
+    "cat": "हैदराबाद · पानी",
+    "h": "हैदराबाद में गर्मी में 100 एमजीडी पानी की कमी",
+    "stat": "100 एमजीडी",
+    "statl": "गर्मी में पानी की अनुमानित कमी",
+    "loc": "हैदराबाद",
+    "p": "हैदराबाद जल बोर्ड (HMWSSB) का अनुमान है कि जनवरी से अगस्त 2027 के बीच सिंगूर और मंजीरा जलाशयों से करीब 100 एमजीडी पानी की कमी रहेगी। एमडी के. अशोक रेड्डी ने कहा कि 10 दिनों में गोदावरी से 40 एमजीडी अतिरिक्त पानी जोड़ा जाएगा, और कृष्णा व उस्मान सागर से भी कुछ पानी लिया जाएगा। उन्होंने 80 प्रतिशत आपूर्ति कटौती की खबरों को गलत बताया।",
+    "pts": [
+     "कृष्णा से 10–15, उस्मान सागर से करीब 5 एमजीडी",
+     "शेरिलिंगमपल्ली, कूकटपल्ली, कुतुबुल्लापुर सबसे ज्यादा प्रभावित",
+     "1 नवंबर को 'डायल ए ग्रीन टैंकर' शुरू"
+    ],
+    "why": "पश्चिमी हैदराबाद के घरों में आने वाले महीनों में पेयजल आपूर्ति प्रभावित हो सकती है।"
+   },
+   "d": "16.11.2026",
+   "t": "09:35",
+   "local": true
+  },
+  {
+   "cat": "తెలంగాణ · మేడ్చల్",
+   "col": "--c-water",
+   "art": "water",
+   "stat": "2 చెరువులు",
+   "statl": "హైడ్రా రక్షణలోకి",
+   "h": "మేడ్చల్‌లో 2 చెరువులకు హైడ్రా రక్షణ",
+   "p": "స్థానికుల ఫిర్యాదులతో మేడ్చల్-మల్కాజిగిరి జిల్లాలోని రెండు చెరువులను హైడ్రా కాపాడింది. దుండిగల్ మండలం దొమ్మర పోచంపల్లిలోని 3.11 ఎకరాల గొల్లవాని కుంటలో మట్టి పోసి నింపుతున్నారని ఫిర్యాదు రావడంతో చుట్టూ కంచె వేసింది. కుత్బుల్లాపూర్ మండలంలోని చింతల చెరువు వద్ద మళ్లీ నిర్మాణాలు రావడంతో తనిఖీ చేసి తొమ్మిది ఎకరాలకు కంచె వేసి హెచ్చరిక బోర్డులు పెట్టింది.",
+   "pts": [
+    "చింతల చెరువు విస్తీర్ణం సుమారు 27 ఎకరాలు",
+    "సర్వే నంబర్ 329లో గతంలోనూ ఆక్రమణల తొలగింపు"
+   ],
+   "why": "చెరువుల పరిసర ప్రాంతాల ప్రజలకు వరద, భూగర్భ జలాల రక్షణ లభిస్తుంది.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/hydraa-saves-2-more-lakes-from-clutches-of-encroachers-1142560",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "medchal",
+   "loc": "దొమ్మర పోచంపల్లి, గాజులరామారం",
+   "pub": "2026-11-16T02:32+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Medchal",
+    "h": "HYDRAA fences two lakes in Medchal district",
+    "stat": "2 lakes",
+    "statl": "protected by HYDRAA",
+    "loc": "Dommara Pochampally, Gajularamaram",
+    "p": "Acting on residents' complaints, HYDRAA protected two lakes in Medchal-Malkajgiri district. At the 3.11-acre Gollavani Kunta in Dommara Pochampally, Dundigal mandal, where soil was allegedly being dumped, it fenced the whole lake. At Chintala Cheruvu in Quthbullapur mandal, after fresh constructions came up, it fenced nine acres and put up warning boards.",
+    "pts": [
+     "Chintala Cheruvu spans about 27 acres",
+     "Encroachments in Survey No. 329 were removed earlier too"
+    ],
+    "why": "Protects flood and groundwater safety for people living around the lakes."
+   },
+   "hi": {
+    "cat": "तेलंगाना · मेडचल",
+    "h": "मेडचल जिले में हाइड्रा ने 2 झीलें बचाईं",
+    "stat": "2 झीलें",
+    "statl": "हाइड्रा की सुरक्षा में",
+    "loc": "दोम्मरा पोचमपल्ली, गाजुलारामारम",
+    "p": "स्थानीय लोगों की शिकायत पर हाइड्रा ने मेडचल-मल्काजगिरी जिले की दो झीलों को बचाया। दुंडीगल मंडल के दोम्मरा पोचमपल्ली में 3.11 एकड़ की गोल्लावानी कुंटा में कथित तौर पर मिट्टी डाली जा रही थी, वहां पूरी झील पर बाड़ लगाई गई। कुतुबुल्लापुर मंडल के चिंतला चेरुवु में नए निर्माण होने पर नौ एकड़ में बाड़ और चेतावनी बोर्ड लगाए गए।",
+    "pts": [
+     "चिंतला चेरुवु करीब 27 एकड़ में फैली",
+     "सर्वे नंबर 329 में पहले भी अतिक्रमण हटाए गए"
+    ],
+    "why": "झीलों के आसपास रहने वालों को बाढ़ और भूजल की सुरक्षा मिलेगी।"
+   },
+   "d": "16.11.2026",
+   "t": "09:35",
+   "local": true
+  },
+  {
+   "cat": "హైదరాబాద్ · నీరు",
+   "col": "--c-water",
+   "art": "water",
+   "stat": "4,000 ప్లాంట్లు",
+   "statl": "నగరంలో మినరల్ వాటర్ ప్లాంట్ల అంచనా",
+   "h": "హైదరాబాద్‌లో అనుమతి లేని నీటి ప్లాంట్లు",
+   "p": "బోర్ల తవ్వకంపై ఆంక్షలు ఉన్నా నగరంలో ప్రైవేటు మినరల్ వాటర్ ప్లాంట్లు భూగర్భ జలాలను అధికంగా తోడుతున్నాయని విమర్శలు వస్తున్నాయి. నగరంలో 4,000కు పైగా ప్లాంట్లు ఉండగా, ఐఎస్ఐ ధ్రువీకరణ ఉన్నవి 2,000లోపేనని అంచనా. మిగతావి అనుమతులు, తనిఖీలు లేకుండా నడుస్తున్నాయని కార్యకర్తలు ఆరోపిస్తున్నారు. డిమాండ్ రెట్టింపైందని ఓ ప్లాంట్ యజమాని చెప్పారు.",
+   "pts": [
+    "అంబర్‌పేట, అమీర్‌పేట, చార్మినార్ అతిగా తోడిన ప్రాంతాలు",
+    "20 లీటర్ల క్యాన్‌కు ₹20 వసూలు"
+   ],
+   "why": "భూగర్భ జలాలు తగ్గితే నగరంలో బోర్లపై ఆధారపడే కుటుంబాలకు ఇబ్బంది.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/hyderabad-illegal-water-plants-spring-up-all-over-city-as-babus-snooze-1142600",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-16T06:27+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Hyderabad · Water",
+    "h": "Unlicensed water plants alleged in Hyderabad",
+    "stat": "4,000 plants",
+    "statl": "estimated water plants in city",
+    "loc": "Hyderabad",
+    "p": "Despite curbs on new borewells, private packaged water plants are over-drawing groundwater in Hyderabad, critics say. The city is estimated to have over 4,000 plants, but fewer than 2,000 have ISI certification. Activists allege the rest run without permissions or inspections. One plant owner said demand has doubled.",
+    "pts": [
+     "Amberpet, Ameerpet, Charminar classed over-exploited",
+     "₹20 charged per 20-litre can"
+    ],
+    "why": "Falling groundwater hurts city families who depend on borewells."
+   },
+   "hi": {
+    "cat": "हैदराबाद · पानी",
+    "h": "हैदराबाद में बिना अनुमति के पानी प्लांट",
+    "stat": "4,000 प्लांट",
+    "statl": "शहर में पानी प्लांटों का अनुमान",
+    "loc": "हैदराबाद",
+    "p": "बोरवेल पर पाबंदी के बावजूद हैदराबाद में निजी पैकेज्ड पानी प्लांट भूजल का अधिक दोहन कर रहे हैं, ऐसी आलोचना हो रही है। शहर में 4,000 से ज्यादा प्लांट होने का अनुमान है, लेकिन 2,000 से कम के पास आईएसआई प्रमाणन है। कार्यकर्ताओं का आरोप है कि बाकी बिना अनुमति और जांच के चल रहे हैं। एक प्लांट मालिक ने कहा कि मांग दोगुनी हो गई है।",
+    "pts": [
+     "अंबरपेट, अमीरपेट, चारमीनार अति-दोहन वाले क्षेत्र",
+     "20 लीटर के कैन के ₹20"
+    ],
+    "why": "भूजल घटने से बोरवेल पर निर्भर परिवारों को परेशानी होगी।"
+   },
+   "d": "16.11.2026",
+   "t": "09:35",
+   "local": true
+  },
+  {
+   "cat": "తెలంగాణ · నల్గొండ",
+   "col": "--c-gov",
+   "art": "farm",
+   "stat": "4 కిలోమీటర్లు",
+   "statl": "రైతుల ర్యాలీ సాగిన దూరం",
+   "h": "నల్గొండలో కిసాన్ సభ రైతుల భారీ ర్యాలీ",
+   "p": "అఖిల భారత కిసాన్ సభ 36వ జాతీయ మహాసభల సందర్భంగా నల్గొండలో ఆదివారం రైతుల భారీ ర్యాలీ జరిగింది. వేలాది మంది రైతులు, వ్యవసాయ కూలీలు పాల్గొన్నారు. మర్రిగూడ బైపాస్ నుంచి ఎన్జీ కళాశాల వరకు రెండు గంటలకుపైగా ర్యాలీ సాగింది. వ్యవసాయంలో కార్పొరేట్ ఆధిపత్యం, ప్రభుత్వ విధానాలకు నిరసనగా దిష్టిబొమ్మను దహనం చేశారు.",
+   "pts": [
+    "ధింసా నృత్యాలు, కోలాటం, ఎడ్ల బండ్లతో ప్రదర్శన",
+    "యూటీఎఫ్, సీఐటీయూ, ఎస్ఎఫ్ఐ, డీవైఎఫ్ఐ స్వాగతం"
+   ],
+   "why": "వ్యవసాయ విధానాలపై రైతు సంఘాల డిమాండ్లు ముందుకొస్తాయి.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/nalgonda-suryapet/36th-national-conference-of-the-all-india-kisan-sabha-red-flags-fill-nalgonda-streets-1142615",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "nalgonda",
+   "loc": "నల్గొండ",
+   "pub": "2026-11-16T07:32+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Nalgonda",
+    "h": "Kisan Sabha farmers' rally in Nalgonda",
+    "stat": "4 km",
+    "statl": "farmers' rally route",
+    "loc": "Nalgonda",
+    "p": "A large farmers' rally was held in Nalgonda on Sunday as part of the 36th national conference of the All India Kisan Sabha. Thousands of farmers and farm workers joined. The rally ran from Marriguda bypass to NG College for over two hours. Participants burnt an effigy to protest corporate dominance in farming and government policies.",
+    "pts": [
+     "Dhimsa dances, Kolatam and bullock carts in procession",
+     "UTF, CITU, SFI, DYFI welcomed the rally"
+    ],
+    "why": "Brings farm unions' demands on agriculture policy to the fore."
+   },
+   "hi": {
+    "cat": "तेलंगाना · नलगोंडा",
+    "h": "नलगोंडा में किसान सभा की बड़ी रैली",
+    "stat": "4 किलोमीटर",
+    "statl": "किसान रैली का रास्ता",
+    "loc": "नलगोंडा",
+    "p": "अखिल भारतीय किसान सभा के 36वें राष्ट्रीय सम्मेलन के तहत रविवार को नलगोंडा में किसानों की बड़ी रैली हुई। हजारों किसान और खेत मजदूर शामिल हुए। रैली मर्रिगुडा बाईपास से एनजी कॉलेज तक दो घंटे से अधिक चली। खेती में कॉर्पोरेट वर्चस्व और सरकारी नीतियों के विरोध में पुतला जलाया गया।",
+    "pts": [
+     "धिम्सा नृत्य, कोलाटम और बैलगाड़ियां शामिल",
+     "यूटीएफ, सीटू, एसएफआई, डीवाईएफआई ने स्वागत किया"
+    ],
+    "why": "कृषि नीति पर किसान संगठनों की मांगें सामने आती हैं।"
+   },
+   "d": "16.11.2026",
+   "t": "09:35",
+   "local": true
+  },
+  {
+   "cat": "తెలంగాణ · రాజకీయం",
+   "col": "--c-election",
+   "art": "land",
+   "stat": "పోడు భూములు",
+   "statl": "క్రమబద్ధీకరణకు బీజేపీ డిమాండ్",
+   "h": "పోడు భూములపై రాంచందర్ రావు డిమాండ్",
+   "p": "గిరిజనులకు ఇచ్చిన హామీలను గత బీఆర్ఎస్, ప్రస్తుత కాంగ్రెస్ ప్రభుత్వాలు నెరవేర్చలేదని బీజేపీ రాష్ట్ర అధ్యక్షుడు ఎన్. రాంచందర్ రావు విమర్శించారు. పోడు భూములను వెంటనే క్రమబద్ధీకరించాలని, పెంచిన ఎస్టీ రిజర్వేషన్లు అమలు చేయాలని డిమాండ్ చేశారు. బిర్సా ముండా జయంతి సందర్భంగా ట్యాంక్‌బండ్‌పై ఎస్టీ మోర్చా ర్యాలీలో ఆయన మాట్లాడారు.",
+   "pts": [
+    "కేంద్ర మంత్రి కిషన్ రెడ్డి, ఎంపీలు లక్ష్మణ్, ఈటల హాజరు",
+    "బిర్సా ముండా 151వ జయంతి, జనజాతీయ గౌరవ దినం"
+   ],
+   "why": "పోడు భూములు సాగు చేస్తున్న గిరిజన కుటుంబాలకు సంబంధించిన అంశం.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/govt-must-regularise-podu-lands-for-tribals-ramchander-rao-1142593",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "ట్యాంక్‌బండ్",
+   "pub": "2026-11-16T06:11+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Politics",
+    "h": "Regularise podu lands: Ramchander Rao",
+    "stat": "Podu lands",
+    "statl": "BJP seeks regularisation",
+    "loc": "Tank Bund, Hyderabad",
+    "p": "BJP state president N Ramchander Rao said both the previous BRS and current Congress governments failed to keep promises to tribals. He demanded immediate regularisation of podu lands and implementation of enhanced ST reservations. He spoke at a BJP ST Morcha rally on Tank Bund on Birsa Munda's birth anniversary.",
+    "pts": [
+     "Union Minister Kishan Reddy, MPs Laxman, Etala attended",
+     "Birsa Munda's 151st birth anniversary, Janjatiya Gaurav Divas"
+    ],
+    "why": "Concerns tribal families cultivating podu lands."
+   },
+   "hi": {
+    "cat": "तेलंगाना · राजनीति",
+    "h": "पोडु भूमि नियमित हो: रामचंदर राव",
+    "stat": "पोडु भूमि",
+    "statl": "नियमितीकरण की भाजपा मांग",
+    "loc": "टैंक बंड, हैदराबाद",
+    "p": "भाजपा प्रदेश अध्यक्ष एन. रामचंदर राव ने कहा कि पिछली बीआरएस और मौजूदा कांग्रेस सरकारें आदिवासियों से किए वादे पूरे नहीं कर पाईं। उन्होंने पोडु भूमि तुरंत नियमित करने और बढ़ा हुआ एसटी आरक्षण लागू करने की मांग की। वे बिरसा मुंडा जयंती पर टैंक बंड पर भाजपा एसटी मोर्चा की रैली में बोल रहे थे।",
+    "pts": [
+     "केंद्रीय मंत्री किशन रेड्डी, सांसद लक्ष्मण, ईटला मौजूद",
+     "बिरसा मुंडा की 151वीं जयंती, जनजातीय गौरव दिवस"
+    ],
+    "why": "पोडु भूमि पर खेती करने वाले आदिवासी परिवारों से जुड़ा मुद्दा।"
+   },
+   "d": "16.11.2026",
+   "t": "09:35",
+   "local": true
+  },
+  {
+   "cat": "ఏపీ · శ్రీ సత్యసాయి",
+   "col": "--c-election",
+   "art": "voters",
+   "stat": "పంచాయతీ ఎన్నికలు",
+   "statl": "నామినేషన్ కేంద్రాల వద్ద భద్రత",
+   "h": "ధర్మవరంలో నామినేషన్ కేంద్రాల తనిఖీ",
+   "p": "ధర్మవరం సబ్ డివిజన్‌లో తొలి విడత పంచాయతీ ఎన్నికల భద్రతను అదనపు ఎస్పీ అంకిత సురానా ఆదివారం పరిశీలించారు. ముదిగుబ్బ, బత్తలపల్లి మండలాల్లోని నామినేషన్ కేంద్రాలను తనిఖీ చేశారు. గొడవలు జరగకుండా ముందుగానే చర్యలు తీసుకోవాలని, అభ్యర్థులు నిబంధనలు పాటించేలా చూడాలని సిబ్బందికి సూచించారు. ప్రశాంత ఎన్నికలకు పూర్తి భద్రత ఏర్పాటు చేశామని తెలిపారు.",
+   "pts": [
+    "జిల్లా ఎస్పీ ఎస్. సతీశ్ కుమార్ ఆదేశాలతో తనిఖీ",
+    "డీఎస్పీలు రవిబాబు, శ్రీనివాసులు పాల్గొన్నారు"
+   ],
+   "why": "ముదిగుబ్బ, బత్తలపల్లి మండలాల అభ్యర్థులు, ఓటర్లకు సంబంధించిన భద్రతా ఏర్పాట్లు.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/andhra-pradesh/additional-sp-inspects-nomination-centres-1142563",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-sathyasai",
+   "loc": "ముదిగుబ్బ, బత్తలపల్లి",
+   "pub": "2026-11-16T02:33+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Sri Sathya Sai",
+    "h": "Addl SP checks nomination centres",
+    "stat": "Panchayat polls",
+    "statl": "security at nomination centres",
+    "loc": "Mudigubba, Battalapalli",
+    "p": "Additional SP Ankita Surana on Sunday reviewed security for first-phase panchayat polls in Dharmavaram sub-division, inspecting nomination centres in Mudigubba and Battalapalli mandals. She told staff to act early to prevent disputes and ensure candidates follow rules. She said full security has been arranged for peaceful polls.",
+    "pts": [
+     "Inspection on District SP S Satish Kumar's orders",
+     "DSPs Ravibabu and Srinivasulu accompanied her"
+    ],
+    "why": "Security arrangements for candidates and voters in Mudigubba and Battalapalli."
+   },
+   "hi": {
+    "cat": "आंध्र · श्री सत्यसाई",
+    "h": "सत्यसाई जिले में नामांकन केंद्रों की जांच",
+    "stat": "पंचायत चुनाव",
+    "statl": "नामांकन केंद्रों पर सुरक्षा",
+    "loc": "मुदिगुब्बा, बत्तलपल्ली",
+    "p": "अतिरिक्त एसपी अंकिता सुराना ने रविवार को धर्मवरम सब-डिवीजन में पहले चरण के पंचायत चुनाव की सुरक्षा की समीक्षा की और मुदिगुब्बा व बत्तलपल्ली मंडलों के नामांकन केंद्रों का निरीक्षण किया। उन्होंने कर्मियों से विवाद रोकने के लिए पहले से कदम उठाने और उम्मीदवारों से नियमों का पालन कराने को कहा।",
+    "pts": [
+     "जिला एसपी एस. सतीश कुमार के आदेश पर निरीक्षण",
+     "डीएसपी रविबाबू और श्रीनिवासुलु साथ रहे"
+    ],
+    "why": "मुदिगुब्बा और बत्तलपल्ली के उम्मीदवारों व मतदाताओं की सुरक्षा व्यवस्था।"
+   },
+   "d": "16.11.2026",
+   "t": "09:35",
+   "local": true
+  },
+  {
+   "cat": "ఏపీ · విశాఖ",
+   "col": "--c-city",
+   "art": "campus",
+   "stat": "400 మంది",
+   "statl": "రోగులకు నిత్యావసరాల పంపిణీ",
+   "h": "విశాఖ మానసిక ఆసుపత్రిలో విద్యార్థుల సేవ",
+   "p": "సత్యసాయి బాబా శతజయంతి వేడుకల్లో భాగంగా విశాఖలోని శ్రీ సత్యసాయి విద్యా విహార్ పదో తరగతి విద్యార్థులు ఆదివారం ప్రభుత్వ మానసిక వైద్యశాలను సందర్శించారు. అక్కడ చికిత్స పొందుతున్న 400 మందికి సబ్బులు, కొబ్బరి నూనె, పండ్లు, బిస్కెట్లు అందించారు. రోగులకు భోజనం వడ్డించి వారితో సమయం గడిపారు. పది మంది ఉపాధ్యాయులు వారికి మార్గదర్శనం చేశారు.",
+   "pts": [
+    "సత్యసాయి బాబా జన్మ శతాబ్ది వేడుకల్లో కార్యక్రమం"
+   ],
+   "why": "మానసిక వైద్యశాల రోగులకు సాయం, విద్యార్థుల్లో సేవాభావం పెరుగుతుంది.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/students-reach-out-to-those-suffering-from-mental-health-conditions-1142544",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "AP",
+   "place": "ap-visakhapatnam",
+   "loc": "విశాఖపట్నం",
+   "pub": "2026-11-16T01:58+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Visakhapatnam",
+    "h": "Vizag students serve mental hospital patients",
+    "stat": "400 patients",
+    "statl": "received daily-use items",
+    "loc": "Visakhapatnam",
+    "p": "As part of Sathya Sai Baba's birth centenary celebrations, Class X students of Sri Sathya Sai Vidya Vihar in Visakhapatnam visited the Government Hospital for Mental Care on Sunday. They gave soaps, coconut oil, fruits and biscuits to all 400 patients, served meals and spent time with them. Ten teachers guided the students.",
+    "pts": [
+     "Part of Sathya Sai Baba birth centenary events"
+    ],
+    "why": "Helps hospital patients and builds a spirit of service among students."
+   },
+   "hi": {
+    "cat": "आंध्र · विशाखापत्तनम",
+    "h": "विशाखापत्तनम मानसिक अस्पताल में छात्रों की सेवा",
+    "stat": "400 मरीज",
+    "statl": "को रोजमर्रा का सामान",
+    "loc": "विशाखापत्तनम",
+    "p": "सत्य साईं बाबा जन्म शताब्दी समारोह के तहत विशाखापत्तनम के श्री सत्य साईं विद्या विहार के दसवीं कक्षा के छात्रों ने रविवार को सरकारी मानसिक चिकित्सालय का दौरा किया। उन्होंने सभी 400 मरीजों को साबुन, नारियल तेल, फल और बिस्कुट दिए, भोजन परोसा और उनके साथ समय बिताया। दस शिक्षकों ने मार्गदर्शन किया।",
+    "pts": [
+     "सत्य साईं बाबा जन्म शताब्दी कार्यक्रम का हिस्सा"
+    ],
+    "why": "अस्पताल के मरीजों को मदद और छात्रों में सेवा भाव।"
+   },
+   "d": "16.11.2026",
+   "t": "09:35",
+   "local": true
+  },
   {
    "cat": "ఏపీ · శ్రీకాకుళం",
    "col": "--c-election",

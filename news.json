@@ -1,8 +1,381 @@
 {
  "date": "16.11.2026",
- "updated": "2026-11-16T09:05:00+05:30",
+ "updated": "2026-11-16T09:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "హైదరాబాద్ · నీరు",
+   "col": "--c-water",
+   "art": "water",
+   "stat": "100 ఎంజీడీ",
+   "statl": "వేసవిలో నీటి కొరత అంచనా",
+   "h": "నగరానికి వేసవిలో 100 ఎంజీడీ కొరత",
+   "p": "వచ్చే జనవరి నుంచి ఆగస్టు వరకు సింగూరు, మంజీరా జలాశయాల నుంచి నగరానికి దాదాపు 100 ఎంజీడీ నీటి కొరత ఉంటుందని జలమండలి అంచనా వేసింది. పది రోజుల్లో గోదావరి నుంచి అదనంగా 40 ఎంజీడీ తెస్తామని ఎండీ కె. అశోక్ రెడ్డి చెప్పారు. కృష్ణా, ఉస్మాన్‌సాగర్ నుంచి కూడా కొంత నీరు తీసుకుంటామన్నారు. సరఫరాలో 80 శాతం కోత వార్తలు నిజం కాదని ఆయన స్పష్టం చేశారు.",
+   "pts": [
+    "కృష్ణా నుంచి 10–15, ఉస్మాన్‌సాగర్ నుంచి 5 ఎంజీడీ",
+    "శేరిలింగంపల్లి, కూకట్‌పల్లి, కుత్బుల్లాపూర్‌కు ఎక్కువ ముప్పు",
+    "నవంబర్ 1న 'డయల్ ఎ గ్రీన్ ట్యాంకర్' ప్రారంభం"
+   ],
+   "why": "హైదరాబాద్ పశ్చిమ ప్రాంతాల ఇళ్లకు వచ్చే నెలల్లో తాగునీటి సరఫరా ప్రభావితం కావచ్చు.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/hmwssb-gearing-up-for-100-mgd-summer-shortfall-1142599",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-16T06:25+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Water",
+    "h": "Hyderabad faces 100 MGD summer water gap",
+    "stat": "100 MGD",
+    "statl": "expected summer shortfall",
+    "loc": "Hyderabad",
+    "p": "The Hyderabad water board (HMWSSB) expects a shortfall of nearly 100 MGD from the Singur and Manjeera reservoirs between January and August 2027. MD K Ashok Reddy said 40 MGD more Godavari water will be added within 10 days, with some water also drawn from the Krishna and Osman Sagar. He said reports of an 80 per cent supply cut are untrue.",
+    "pts": [
+     "10–15 MGD from Krishna, about 5 MGD from Osman Sagar",
+     "Serilingampally, Kukatpally, Qutbullapur most vulnerable",
+     "'Dial a Green Tanker' launched on November 1"
+    ],
+    "why": "Homes in western Hyderabad may see drinking water supply affected in coming months."
+   },
+   "hi": {
+    "cat": "हैदराबाद · पानी",
+    "h": "हैदराबाद में गर्मी में 100 एमजीडी पानी की कमी",
+    "stat": "100 एमजीडी",
+    "statl": "गर्मी में पानी की अनुमानित कमी",
+    "loc": "हैदराबाद",
+    "p": "हैदराबाद जल बोर्ड (HMWSSB) का अनुमान है कि जनवरी से अगस्त 2027 के बीच सिंगूर और मंजीरा जलाशयों से करीब 100 एमजीडी पानी की कमी रहेगी। एमडी के. अशोक रेड्डी ने कहा कि 10 दिनों में गोदावरी से 40 एमजीडी अतिरिक्त पानी जोड़ा जाएगा, और कृष्णा व उस्मान सागर से भी कुछ पानी लिया जाएगा। उन्होंने 80 प्रतिशत आपूर्ति कटौती की खबरों को गलत बताया।",
+    "pts": [
+     "कृष्णा से 10–15, उस्मान सागर से करीब 5 एमजीडी",
+     "शेरिलिंगमपल्ली, कूकटपल्ली, कुतुबुल्लापुर सबसे ज्यादा प्रभावित",
+     "1 नवंबर को 'डायल ए ग्रीन टैंकर' शुरू"
+    ],
+    "why": "पश्चिमी हैदराबाद के घरों में आने वाले महीनों में पेयजल आपूर्ति प्रभावित हो सकती है।"
+   },
+   "d": "16.11.2026",
+   "t": "09:35",
+   "local": true
+  },
+  {
+   "cat": "తెలంగాణ · మేడ్చల్",
+   "col": "--c-water",
+   "art": "water",
+   "stat": "2 చెరువులు",
+   "statl": "హైడ్రా రక్షణలోకి",
+   "h": "మేడ్చల్‌లో 2 చెరువులకు హైడ్రా రక్షణ",
+   "p": "స్థానికుల ఫిర్యాదులతో మేడ్చల్-మల్కాజిగిరి జిల్లాలోని రెండు చెరువులను హైడ్రా కాపాడింది. దుండిగల్ మండలం దొమ్మర పోచంపల్లిలోని 3.11 ఎకరాల గొల్లవాని కుంటలో మట్టి పోసి నింపుతున్నారని ఫిర్యాదు రావడంతో చుట్టూ కంచె వేసింది. కుత్బుల్లాపూర్ మండలంలోని చింతల చెరువు వద్ద మళ్లీ నిర్మాణాలు రావడంతో తనిఖీ చేసి తొమ్మిది ఎకరాలకు కంచె వేసి హెచ్చరిక బోర్డులు పెట్టింది.",
+   "pts": [
+    "చింతల చెరువు విస్తీర్ణం సుమారు 27 ఎకరాలు",
+    "సర్వే నంబర్ 329లో గతంలోనూ ఆక్రమణల తొలగింపు"
+   ],
+   "why": "చెరువుల పరిసర ప్రాంతాల ప్రజలకు వరద, భూగర్భ జలాల రక్షణ లభిస్తుంది.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/hydraa-saves-2-more-lakes-from-clutches-of-encroachers-1142560",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "medchal",
+   "loc": "దొమ్మర పోచంపల్లి, గాజులరామారం",
+   "pub": "2026-11-16T02:32+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Medchal",
+    "h": "HYDRAA fences two lakes in Medchal district",
+    "stat": "2 lakes",
+    "statl": "protected by HYDRAA",
+    "loc": "Dommara Pochampally, Gajularamaram",
+    "p": "Acting on residents' complaints, HYDRAA protected two lakes in Medchal-Malkajgiri district. At the 3.11-acre Gollavani Kunta in Dommara Pochampally, Dundigal mandal, where soil was allegedly being dumped, it fenced the whole lake. At Chintala Cheruvu in Quthbullapur mandal, after fresh constructions came up, it fenced nine acres and put up warning boards.",
+    "pts": [
+     "Chintala Cheruvu spans about 27 acres",
+     "Encroachments in Survey No. 329 were removed earlier too"
+    ],
+    "why": "Protects flood and groundwater safety for people living around the lakes."
+   },
+   "hi": {
+    "cat": "तेलंगाना · मेडचल",
+    "h": "मेडचल जिले में हाइड्रा ने 2 झीलें बचाईं",
+    "stat": "2 झीलें",
+    "statl": "हाइड्रा की सुरक्षा में",
+    "loc": "दोम्मरा पोचमपल्ली, गाजुलारामारम",
+    "p": "स्थानीय लोगों की शिकायत पर हाइड्रा ने मेडचल-मल्काजगिरी जिले की दो झीलों को बचाया। दुंडीगल मंडल के दोम्मरा पोचमपल्ली में 3.11 एकड़ की गोल्लावानी कुंटा में कथित तौर पर मिट्टी डाली जा रही थी, वहां पूरी झील पर बाड़ लगाई गई। कुतुबुल्लापुर मंडल के चिंतला चेरुवु में नए निर्माण होने पर नौ एकड़ में बाड़ और चेतावनी बोर्ड लगाए गए।",
+    "pts": [
+     "चिंतला चेरुवु करीब 27 एकड़ में फैली",
+     "सर्वे नंबर 329 में पहले भी अतिक्रमण हटाए गए"
+    ],
+    "why": "झीलों के आसपास रहने वालों को बाढ़ और भूजल की सुरक्षा मिलेगी।"
+   },
+   "d": "16.11.2026",
+   "t": "09:35",
+   "local": true
+  },
+  {
+   "cat": "హైదరాబాద్ · నీరు",
+   "col": "--c-water",
+   "art": "water",
+   "stat": "4,000 ప్లాంట్లు",
+   "statl": "నగరంలో మినరల్ వాటర్ ప్లాంట్ల అంచనా",
+   "h": "హైదరాబాద్‌లో అనుమతి లేని నీటి ప్లాంట్లు",
+   "p": "బోర్ల తవ్వకంపై ఆంక్షలు ఉన్నా నగరంలో ప్రైవేటు మినరల్ వాటర్ ప్లాంట్లు భూగర్భ జలాలను అధికంగా తోడుతున్నాయని విమర్శలు వస్తున్నాయి. నగరంలో 4,000కు పైగా ప్లాంట్లు ఉండగా, ఐఎస్ఐ ధ్రువీకరణ ఉన్నవి 2,000లోపేనని అంచనా. మిగతావి అనుమతులు, తనిఖీలు లేకుండా నడుస్తున్నాయని కార్యకర్తలు ఆరోపిస్తున్నారు. డిమాండ్ రెట్టింపైందని ఓ ప్లాంట్ యజమాని చెప్పారు.",
+   "pts": [
+    "అంబర్‌పేట, అమీర్‌పేట, చార్మినార్ అతిగా తోడిన ప్రాంతాలు",
+    "20 లీటర్ల క్యాన్‌కు ₹20 వసూలు"
+   ],
+   "why": "భూగర్భ జలాలు తగ్గితే నగరంలో బోర్లపై ఆధారపడే కుటుంబాలకు ఇబ్బంది.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/hyderabad-illegal-water-plants-spring-up-all-over-city-as-babus-snooze-1142600",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-16T06:27+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Hyderabad · Water",
+    "h": "Unlicensed water plants alleged in Hyderabad",
+    "stat": "4,000 plants",
+    "statl": "estimated water plants in city",
+    "loc": "Hyderabad",
+    "p": "Despite curbs on new borewells, private packaged water plants are over-drawing groundwater in Hyderabad, critics say. The city is estimated to have over 4,000 plants, but fewer than 2,000 have ISI certification. Activists allege the rest run without permissions or inspections. One plant owner said demand has doubled.",
+    "pts": [
+     "Amberpet, Ameerpet, Charminar classed over-exploited",
+     "₹20 charged per 20-litre can"
+    ],
+    "why": "Falling groundwater hurts city families who depend on borewells."
+   },
+   "hi": {
+    "cat": "हैदराबाद · पानी",
+    "h": "हैदराबाद में बिना अनुमति के पानी प्लांट",
+    "stat": "4,000 प्लांट",
+    "statl": "शहर में पानी प्लांटों का अनुमान",
+    "loc": "हैदराबाद",
+    "p": "बोरवेल पर पाबंदी के बावजूद हैदराबाद में निजी पैकेज्ड पानी प्लांट भूजल का अधिक दोहन कर रहे हैं, ऐसी आलोचना हो रही है। शहर में 4,000 से ज्यादा प्लांट होने का अनुमान है, लेकिन 2,000 से कम के पास आईएसआई प्रमाणन है। कार्यकर्ताओं का आरोप है कि बाकी बिना अनुमति और जांच के चल रहे हैं। एक प्लांट मालिक ने कहा कि मांग दोगुनी हो गई है।",
+    "pts": [
+     "अंबरपेट, अमीरपेट, चारमीनार अति-दोहन वाले क्षेत्र",
+     "20 लीटर के कैन के ₹20"
+    ],
+    "why": "भूजल घटने से बोरवेल पर निर्भर परिवारों को परेशानी होगी।"
+   },
+   "d": "16.11.2026",
+   "t": "09:35",
+   "local": true
+  },
+  {
+   "cat": "తెలంగాణ · నల్గొండ",
+   "col": "--c-gov",
+   "art": "farm",
+   "stat": "4 కిలోమీటర్లు",
+   "statl": "రైతుల ర్యాలీ సాగిన దూరం",
+   "h": "నల్గొండలో కిసాన్ సభ రైతుల భారీ ర్యాలీ",
+   "p": "అఖిల భారత కిసాన్ సభ 36వ జాతీయ మహాసభల సందర్భంగా నల్గొండలో ఆదివారం రైతుల భారీ ర్యాలీ జరిగింది. వేలాది మంది రైతులు, వ్యవసాయ కూలీలు పాల్గొన్నారు. మర్రిగూడ బైపాస్ నుంచి ఎన్జీ కళాశాల వరకు రెండు గంటలకుపైగా ర్యాలీ సాగింది. వ్యవసాయంలో కార్పొరేట్ ఆధిపత్యం, ప్రభుత్వ విధానాలకు నిరసనగా దిష్టిబొమ్మను దహనం చేశారు.",
+   "pts": [
+    "ధింసా నృత్యాలు, కోలాటం, ఎడ్ల బండ్లతో ప్రదర్శన",
+    "యూటీఎఫ్, సీఐటీయూ, ఎస్ఎఫ్ఐ, డీవైఎఫ్ఐ స్వాగతం"
+   ],
+   "why": "వ్యవసాయ విధానాలపై రైతు సంఘాల డిమాండ్లు ముందుకొస్తాయి.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/nalgonda-suryapet/36th-national-conference-of-the-all-india-kisan-sabha-red-flags-fill-nalgonda-streets-1142615",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "nalgonda",
+   "loc": "నల్గొండ",
+   "pub": "2026-11-16T07:32+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Nalgonda",
+    "h": "Kisan Sabha farmers' rally in Nalgonda",
+    "stat": "4 km",
+    "statl": "farmers' rally route",
+    "loc": "Nalgonda",
+    "p": "A large farmers' rally was held in Nalgonda on Sunday as part of the 36th national conference of the All India Kisan Sabha. Thousands of farmers and farm workers joined. The rally ran from Marriguda bypass to NG College for over two hours. Participants burnt an effigy to protest corporate dominance in farming and government policies.",
+    "pts": [
+     "Dhimsa dances, Kolatam and bullock carts in procession",
+     "UTF, CITU, SFI, DYFI welcomed the rally"
+    ],
+    "why": "Brings farm unions' demands on agriculture policy to the fore."
+   },
+   "hi": {
+    "cat": "तेलंगाना · नलगोंडा",
+    "h": "नलगोंडा में किसान सभा की बड़ी रैली",
+    "stat": "4 किलोमीटर",
+    "statl": "किसान रैली का रास्ता",
+    "loc": "नलगोंडा",
+    "p": "अखिल भारतीय किसान सभा के 36वें राष्ट्रीय सम्मेलन के तहत रविवार को नलगोंडा में किसानों की बड़ी रैली हुई। हजारों किसान और खेत मजदूर शामिल हुए। रैली मर्रिगुडा बाईपास से एनजी कॉलेज तक दो घंटे से अधिक चली। खेती में कॉर्पोरेट वर्चस्व और सरकारी नीतियों के विरोध में पुतला जलाया गया।",
+    "pts": [
+     "धिम्सा नृत्य, कोलाटम और बैलगाड़ियां शामिल",
+     "यूटीएफ, सीटू, एसएफआई, डीवाईएफआई ने स्वागत किया"
+    ],
+    "why": "कृषि नीति पर किसान संगठनों की मांगें सामने आती हैं।"
+   },
+   "d": "16.11.2026",
+   "t": "09:35",
+   "local": true
+  },
+  {
+   "cat": "తెలంగాణ · రాజకీయం",
+   "col": "--c-election",
+   "art": "land",
+   "stat": "పోడు భూములు",
+   "statl": "క్రమబద్ధీకరణకు బీజేపీ డిమాండ్",
+   "h": "పోడు భూములపై రాంచందర్ రావు డిమాండ్",
+   "p": "గిరిజనులకు ఇచ్చిన హామీలను గత బీఆర్ఎస్, ప్రస్తుత కాంగ్రెస్ ప్రభుత్వాలు నెరవేర్చలేదని బీజేపీ రాష్ట్ర అధ్యక్షుడు ఎన్. రాంచందర్ రావు విమర్శించారు. పోడు భూములను వెంటనే క్రమబద్ధీకరించాలని, పెంచిన ఎస్టీ రిజర్వేషన్లు అమలు చేయాలని డిమాండ్ చేశారు. బిర్సా ముండా జయంతి సందర్భంగా ట్యాంక్‌బండ్‌పై ఎస్టీ మోర్చా ర్యాలీలో ఆయన మాట్లాడారు.",
+   "pts": [
+    "కేంద్ర మంత్రి కిషన్ రెడ్డి, ఎంపీలు లక్ష్మణ్, ఈటల హాజరు",
+    "బిర్సా ముండా 151వ జయంతి, జనజాతీయ గౌరవ దినం"
+   ],
+   "why": "పోడు భూములు సాగు చేస్తున్న గిరిజన కుటుంబాలకు సంబంధించిన అంశం.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/govt-must-regularise-podu-lands-for-tribals-ramchander-rao-1142593",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "ట్యాంక్‌బండ్",
+   "pub": "2026-11-16T06:11+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Politics",
+    "h": "Regularise podu lands: Ramchander Rao",
+    "stat": "Podu lands",
+    "statl": "BJP seeks regularisation",
+    "loc": "Tank Bund, Hyderabad",
+    "p": "BJP state president N Ramchander Rao said both the previous BRS and current Congress governments failed to keep promises to tribals. He demanded immediate regularisation of podu lands and implementation of enhanced ST reservations. He spoke at a BJP ST Morcha rally on Tank Bund on Birsa Munda's birth anniversary.",
+    "pts": [
+     "Union Minister Kishan Reddy, MPs Laxman, Etala attended",
+     "Birsa Munda's 151st birth anniversary, Janjatiya Gaurav Divas"
+    ],
+    "why": "Concerns tribal families cultivating podu lands."
+   },
+   "hi": {
+    "cat": "तेलंगाना · राजनीति",
+    "h": "पोडु भूमि नियमित हो: रामचंदर राव",
+    "stat": "पोडु भूमि",
+    "statl": "नियमितीकरण की भाजपा मांग",
+    "loc": "टैंक बंड, हैदराबाद",
+    "p": "भाजपा प्रदेश अध्यक्ष एन. रामचंदर राव ने कहा कि पिछली बीआरएस और मौजूदा कांग्रेस सरकारें आदिवासियों से किए वादे पूरे नहीं कर पाईं। उन्होंने पोडु भूमि तुरंत नियमित करने और बढ़ा हुआ एसटी आरक्षण लागू करने की मांग की। वे बिरसा मुंडा जयंती पर टैंक बंड पर भाजपा एसटी मोर्चा की रैली में बोल रहे थे।",
+    "pts": [
+     "केंद्रीय मंत्री किशन रेड्डी, सांसद लक्ष्मण, ईटला मौजूद",
+     "बिरसा मुंडा की 151वीं जयंती, जनजातीय गौरव दिवस"
+    ],
+    "why": "पोडु भूमि पर खेती करने वाले आदिवासी परिवारों से जुड़ा मुद्दा।"
+   },
+   "d": "16.11.2026",
+   "t": "09:35",
+   "local": true
+  },
+  {
+   "cat": "ఏపీ · శ్రీ సత్యసాయి",
+   "col": "--c-election",
+   "art": "voters",
+   "stat": "పంచాయతీ ఎన్నికలు",
+   "statl": "నామినేషన్ కేంద్రాల వద్ద భద్రత",
+   "h": "ధర్మవరంలో నామినేషన్ కేంద్రాల తనిఖీ",
+   "p": "ధర్మవరం సబ్ డివిజన్‌లో తొలి విడత పంచాయతీ ఎన్నికల భద్రతను అదనపు ఎస్పీ అంకిత సురానా ఆదివారం పరిశీలించారు. ముదిగుబ్బ, బత్తలపల్లి మండలాల్లోని నామినేషన్ కేంద్రాలను తనిఖీ చేశారు. గొడవలు జరగకుండా ముందుగానే చర్యలు తీసుకోవాలని, అభ్యర్థులు నిబంధనలు పాటించేలా చూడాలని సిబ్బందికి సూచించారు. ప్రశాంత ఎన్నికలకు పూర్తి భద్రత ఏర్పాటు చేశామని తెలిపారు.",
+   "pts": [
+    "జిల్లా ఎస్పీ ఎస్. సతీశ్ కుమార్ ఆదేశాలతో తనిఖీ",
+    "డీఎస్పీలు రవిబాబు, శ్రీనివాసులు పాల్గొన్నారు"
+   ],
+   "why": "ముదిగుబ్బ, బత్తలపల్లి మండలాల అభ్యర్థులు, ఓటర్లకు సంబంధించిన భద్రతా ఏర్పాట్లు.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/andhra-pradesh/additional-sp-inspects-nomination-centres-1142563",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-sathyasai",
+   "loc": "ముదిగుబ్బ, బత్తలపల్లి",
+   "pub": "2026-11-16T02:33+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Sri Sathya Sai",
+    "h": "Addl SP checks nomination centres",
+    "stat": "Panchayat polls",
+    "statl": "security at nomination centres",
+    "loc": "Mudigubba, Battalapalli",
+    "p": "Additional SP Ankita Surana on Sunday reviewed security for first-phase panchayat polls in Dharmavaram sub-division, inspecting nomination centres in Mudigubba and Battalapalli mandals. She told staff to act early to prevent disputes and ensure candidates follow rules. She said full security has been arranged for peaceful polls.",
+    "pts": [
+     "Inspection on District SP S Satish Kumar's orders",
+     "DSPs Ravibabu and Srinivasulu accompanied her"
+    ],
+    "why": "Security arrangements for candidates and voters in Mudigubba and Battalapalli."
+   },
+   "hi": {
+    "cat": "आंध्र · श्री सत्यसाई",
+    "h": "सत्यसाई जिले में नामांकन केंद्रों की जांच",
+    "stat": "पंचायत चुनाव",
+    "statl": "नामांकन केंद्रों पर सुरक्षा",
+    "loc": "मुदिगुब्बा, बत्तलपल्ली",
+    "p": "अतिरिक्त एसपी अंकिता सुराना ने रविवार को धर्मवरम सब-डिवीजन में पहले चरण के पंचायत चुनाव की सुरक्षा की समीक्षा की और मुदिगुब्बा व बत्तलपल्ली मंडलों के नामांकन केंद्रों का निरीक्षण किया। उन्होंने कर्मियों से विवाद रोकने के लिए पहले से कदम उठाने और उम्मीदवारों से नियमों का पालन कराने को कहा।",
+    "pts": [
+     "जिला एसपी एस. सतीश कुमार के आदेश पर निरीक्षण",
+     "डीएसपी रविबाबू और श्रीनिवासुलु साथ रहे"
+    ],
+    "why": "मुदिगुब्बा और बत्तलपल्ली के उम्मीदवारों व मतदाताओं की सुरक्षा व्यवस्था।"
+   },
+   "d": "16.11.2026",
+   "t": "09:35",
+   "local": true
+  },
+  {
+   "cat": "ఏపీ · విశాఖ",
+   "col": "--c-city",
+   "art": "campus",
+   "stat": "400 మంది",
+   "statl": "రోగులకు నిత్యావసరాల పంపిణీ",
+   "h": "విశాఖ మానసిక ఆసుపత్రిలో విద్యార్థుల సేవ",
+   "p": "సత్యసాయి బాబా శతజయంతి వేడుకల్లో భాగంగా విశాఖలోని శ్రీ సత్యసాయి విద్యా విహార్ పదో తరగతి విద్యార్థులు ఆదివారం ప్రభుత్వ మానసిక వైద్యశాలను సందర్శించారు. అక్కడ చికిత్స పొందుతున్న 400 మందికి సబ్బులు, కొబ్బరి నూనె, పండ్లు, బిస్కెట్లు అందించారు. రోగులకు భోజనం వడ్డించి వారితో సమయం గడిపారు. పది మంది ఉపాధ్యాయులు వారికి మార్గదర్శనం చేశారు.",
+   "pts": [
+    "సత్యసాయి బాబా జన్మ శతాబ్ది వేడుకల్లో కార్యక్రమం"
+   ],
+   "why": "మానసిక వైద్యశాల రోగులకు సాయం, విద్యార్థుల్లో సేవాభావం పెరుగుతుంది.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/students-reach-out-to-those-suffering-from-mental-health-conditions-1142544",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "AP",
+   "place": "ap-visakhapatnam",
+   "loc": "విశాఖపట్నం",
+   "pub": "2026-11-16T01:58+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Visakhapatnam",
+    "h": "Vizag students serve mental hospital patients",
+    "stat": "400 patients",
+    "statl": "received daily-use items",
+    "loc": "Visakhapatnam",
+    "p": "As part of Sathya Sai Baba's birth centenary celebrations, Class X students of Sri Sathya Sai Vidya Vihar in Visakhapatnam visited the Government Hospital for Mental Care on Sunday. They gave soaps, coconut oil, fruits and biscuits to all 400 patients, served meals and spent time with them. Ten teachers guided the students.",
+    "pts": [
+     "Part of Sathya Sai Baba birth centenary events"
+    ],
+    "why": "Helps hospital patients and builds a spirit of service among students."
+   },
+   "hi": {
+    "cat": "आंध्र · विशाखापत्तनम",
+    "h": "विशाखापत्तनम मानसिक अस्पताल में छात्रों की सेवा",
+    "stat": "400 मरीज",
+    "statl": "को रोजमर्रा का सामान",
+    "loc": "विशाखापत्तनम",
+    "p": "सत्य साईं बाबा जन्म शताब्दी समारोह के तहत विशाखापत्तनम के श्री सत्य साईं विद्या विहार के दसवीं कक्षा के छात्रों ने रविवार को सरकारी मानसिक चिकित्सालय का दौरा किया। उन्होंने सभी 400 मरीजों को साबुन, नारियल तेल, फल और बिस्कुट दिए, भोजन परोसा और उनके साथ समय बिताया। दस शिक्षकों ने मार्गदर्शन किया।",
+    "pts": [
+     "सत्य साईं बाबा जन्म शताब्दी कार्यक्रम का हिस्सा"
+    ],
+    "why": "अस्पताल के मरीजों को मदद और छात्रों में सेवा भाव।"
+   },
+   "d": "16.11.2026",
+   "t": "09:35",
+   "local": true
+  },
   {
    "cat": "ఏపీ · శ్రీకాకుళం",
    "col": "--c-election",
@@ -2321,393 +2694,6 @@
    "d": "16.11.2026",
    "t": "06:05",
    "local": true
-  },
-  {
-   "cat": "తెలంగాణ · ఉద్యోగాలు",
-   "col": "--c-gov",
-   "art": "court",
-   "stat": "₹1.28 కోట్లు",
-   "statl": "సంస్థకు చెల్లించిన మొత్తం",
-   "h": "యూపీ సంస్థపై టామ్‌కామ్ మోసం కేసు",
-   "p": "జర్మనీ ఉద్యోగాల కార్యక్రమం నిర్వహించిన లక్నోకు చెందిన ఫెయిర్‌స్ట్రీట్ ఇండియా సంస్థపై తెలంగాణ ఓవర్సీస్ మ్యాన్‌పవర్ కంపెనీ (టామ్‌కామ్) మోసం ఫిర్యాదు చేసింది. ₹1.28 కోట్లు తీసుకుని ఒక్క అభ్యర్థినే విదేశాలకు పంపిందని ఆరోపించింది. హైదరాబాద్ సెంట్రల్ క్రైమ్ స్టేషన్ నవంబర్ 12న కేసు నమోదు చేయగా, ఆర్థిక నేరాల విభాగం దర్యాప్తు చేస్తోందని సియాసత్ తెలిపింది.",
-   "pts": [
-    "అప్రెంటిస్‌షిప్, బస్సు డ్రైవర్ ఉద్యోగాల కార్యక్రమాలు",
-    "ఫిర్యాదు చేసింది టామ్‌కామ్ జనరల్ మేనేజర్",
-    "రీఫండ్, విచారణ కోరుతున్న బీఆర్ఎస్"
-   ],
-   "why": "విదేశీ ఉద్యోగాల కోసం డబ్బు చెల్లించిన యువతకు ఈ కేసు కీలకం.",
-   "src": "The Siasat Daily",
-   "url": "https://www.siasat.com/from-mou-to-fir-tomcom-files-cheating-case-against-ups-fairstreet-3578285/",
-   "sec": [
-    "telangana",
-    "jobs"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "",
-   "pub": "2026-11-15T22:32+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Jobs",
-    "h": "TOMCOM files cheating case against UP firm",
-    "stat": "₹1.28 crore",
-    "statl": "Amount paid to the firm",
-    "loc": "Hyderabad",
-    "p": "Telangana Overseas Manpower Company (TOMCOM) has filed a cheating complaint against Lucknow-based Fairstreet India, which ran its Germany job programmes. TOMCOM alleges the firm took ₹1.28 crore but placed only one candidate abroad. Hyderabad's Central Crime Station registered an FIR on November 12 and the Economic Offences Wing is investigating, Siasat reported.",
-    "pts": [
-     "Apprenticeship and bus-driver job programmes",
-     "Complaint filed by TOMCOM's general manager",
-     "BRS demands refunds and a probe"
-    ],
-    "why": "The case matters to young people who paid for overseas jobs."
-   },
-   "hi": {
-    "cat": "तेलंगाना · नौकरियां",
-    "h": "टॉमकॉम ने यूपी फर्म पर धोखाधड़ी केस किया",
-    "stat": "₹1.28 करोड़",
-    "statl": "फर्म को दी गई राशि",
-    "loc": "हैदराबाद",
-    "p": "तेलंगाना ओवरसीज मैनपावर कंपनी (टॉमकॉम) ने जर्मनी नौकरी कार्यक्रम चलाने वाली लखनऊ की फेयरस्ट्रीट इंडिया के खिलाफ धोखाधड़ी की शिकायत की है। आरोप है कि फर्म ने ₹1.28 करोड़ लिए पर सिर्फ एक उम्मीदवार को विदेश भेजा। सियासत के अनुसार हैदराबाद सेंट्रल क्राइम स्टेशन ने 12 नवंबर को एफआईआर दर्ज की और आर्थिक अपराध शाखा जांच कर रही है।",
-    "pts": [
-     "अप्रेंटिसशिप और बस ड्राइवर नौकरी कार्यक्रम",
-     "शिकायत टॉमकॉम महाप्रबंधक ने की",
-     "बीआरएस ने रिफंड और जांच मांगी"
-    ],
-    "why": "यह मामला विदेशी नौकरी के लिए पैसे देने वाले युवाओं के लिए अहम है।"
-   },
-   "d": "16.11.2026",
-   "t": "05:35",
-   "local": true
-  },
-  {
-   "cat": "ఏపీ · మున్సిపల్ ఎన్నికలు",
-   "col": "--c-election",
-   "art": "voters",
-   "stat": "3 పురపాలికలు",
-   "statl": "బీజేపీకి కేటాయింపు",
-   "h": "రాజమండ్రి, కావలి, బాపట్ల బీజేపీకి",
-   "p": "రెండో దశ మున్సిపల్ ఎన్నికల కోసం ఏపీలో కూటమి పార్టీలు సీట్ల సర్దుబాటు పూర్తి చేశాయి. రాజమండ్రి నగరపాలక సంస్థ, కావలి, బాపట్ల పురపాలికలను టీడీపీ బీజేపీకి కేటాయించిందని హన్స్ ఇండియా తెలిపింది. బీజేపీ రాష్ట్ర అధ్యక్షుడు పీవీఎన్ మాధవ్ రాజమండ్రి మేయర్‌గా రేలంగి శ్రీదేవి, కావలి, బాపట్ల చైర్‌పర్సన్ అభ్యర్థులను ప్రకటించారు.",
-   "pts": [
-    "రెండో దశలో 23 పట్టణ స్థానిక సంస్థలు",
-    "తొలి దశలో 100 సంస్థల ఎన్నికలు పూర్తి",
-    "కోర్టు కేసులు, డీలిమిటేషన్‌తో ఆలస్యం"
-   ],
-   "why": "ఈ మూడు పట్టణాల ఓటర్లు కూటమి తరఫున బీజేపీ అభ్యర్థులను చూస్తారు.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/amaravati/tdp-allots-rajahmundry-kavali-bapatla-civic-bodies-to-bjp-1142533",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "AP",
-   "loc": "రాజమండ్రి, కావలి, బాపట్ల",
-   "pub": "2026-11-16T01:45+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Civic polls",
-    "h": "Rajahmundry, Kavali, Bapatla go to BJP",
-    "stat": "3 civic bodies",
-    "statl": "Allotted to BJP",
-    "loc": "Rajahmundry, Kavali, Bapatla",
-    "p": "NDA partners in Andhra Pradesh finalised seat-sharing for the second phase of municipal polls. The TDP allotted the Rajahmundry Municipal Corporation and the Kavali and Bapatla municipalities to the BJP, The Hans India reported. State BJP president P V N Madhav named Relangi Sridevi for Rajahmundry mayor, along with chairperson candidates for Kavali and Bapatla.",
-    "pts": [
-     "Second phase covers 23 urban local bodies",
-     "Polls already held in 100 bodies",
-     "Delayed by court cases and delimitation"
-    ],
-    "why": "Voters in these three towns will see BJP candidates for the alliance."
-   },
-   "hi": {
-    "cat": "एपी · नगर निकाय चुनाव",
-    "h": "राजमुंदरी, कावली, बापटला भाजपा को",
-    "stat": "3 नगर निकाय",
-    "statl": "भाजपा को आवंटित",
-    "loc": "राजमुंदरी, कावली, बापटला",
-    "p": "आंध्र प्रदेश में एनडीए दलों ने दूसरे चरण के नगर निकाय चुनावों के लिए सीट बंटवारा पूरा किया। द हंस इंडिया के अनुसार टीडीपी ने राजमुंदरी नगर निगम और कावली व बापटला नगरपालिकाएं भाजपा को दीं। भाजपा प्रदेश अध्यक्ष पीवीएन माधव ने राजमुंदरी मेयर पद के लिए रेलंगी श्रीदेवी और कावली व बापटला के अध्यक्ष उम्मीदवार घोषित किए।",
-    "pts": [
-     "दूसरे चरण में 23 शहरी स्थानीय निकाय",
-     "100 निकायों में चुनाव हो चुके",
-     "अदालती मामलों, परिसीमन से देरी"
-    ],
-    "why": "इन तीन शहरों के मतदाता गठबंधन से भाजपा उम्मीदवार देखेंगे।"
-   },
-   "d": "16.11.2026",
-   "t": "05:35",
-   "local": true
-  },
-  {
-   "cat": "ఏపీ · కర్నూలు",
-   "col": "--c-city",
-   "stat": "₹5 లక్షలు",
-   "statl": "చోరీ అయిన కిరీటాల విలువ",
-   "h": "కర్నూలు బీరప్ప ఆలయంలో వెండి కిరీటాల చోరీ",
-   "p": "కర్నూలు జిల్లా గోనెగండ్ల మండలం చిన్నమరివీడు గ్రామంలోని బీరప్ప స్వామి ఆలయంలో గుర్తు తెలియని దొంగలు చొరబడ్డారు. మూలవిరాట్టు వెండి కిరీటాలు, హుండీలోని నగదు ఎత్తుకెళ్లారని హన్స్ ఇండియా తెలిపింది. ప్రాథమిక సమాచారం ప్రకారం కిరీటాల విలువ సుమారు ₹5 లక్షలు. దొంగలను గుర్తించి, సొత్తు రికవరీ చేయాలని, ఆలయ భద్రత పెంచాలని గ్రామస్థులు పోలీసులను కోరారు.",
-   "pts": [
-    "దొంగలు చెప్పులు ఆలయంలోనే వదిలివెళ్లారు",
-    "అరెస్టులపై ఇంకా సమాచారం లేదు"
-   ],
-   "why": "గ్రామీణ ఆలయాల భద్రతపై భక్తుల్లో ఆందోళన పెరుగుతోంది.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/kurnool/thieves-decamp-with-silver-crowns-from-beerappa-temple-1142535",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-kurnool",
-   "loc": "చిన్నమరివీడు, గోనెగండ్ల మండలం",
-   "pub": "2026-11-16T01:47+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Kurnool",
-    "h": "Silver crowns stolen from Kurnool temple",
-    "stat": "₹5 lakh",
-    "statl": "Value of stolen crowns",
-    "loc": "Chinnamariveedu, Gonegandla mandal",
-    "p": "Unidentified thieves broke into the Beerappa Swamy temple at Chinnamariveedu village in Gonegandla mandal, Kurnool district, and took the deity's silver crowns and cash from the hundi, The Hans India reported. Preliminary information puts the crowns' value at about ₹5 lakh. Villagers urged police to catch the culprits, recover the items and tighten temple security.",
-    "pts": [
-     "Thieves left their footwear inside the temple",
-     "No word yet on arrests"
-    ],
-    "why": "The theft has raised security worries among devotees at village temples."
-   },
-   "hi": {
-    "cat": "एपी · कर्नूल",
-    "h": "कर्नूल मंदिर से चांदी के मुकुट चोरी",
-    "stat": "₹5 लाख",
-    "statl": "चोरी हुए मुकुटों की कीमत",
-    "loc": "चिन्नमारिवीडु, गोनेगंडला मंडल",
-    "p": "द हंस इंडिया के अनुसार कर्नूल जिले के गोनेगंडला मंडल के चिन्नमारिवीडु गांव में बीरप्पा स्वामी मंदिर में अज्ञात चोर घुसे और देवता के चांदी के मुकुट व हुंडी की नकदी ले गए। शुरुआती जानकारी के मुताबिक मुकुटों की कीमत करीब ₹5 लाख है। ग्रामीणों ने पुलिस से चोरों को पकड़ने, सामान बरामद करने और सुरक्षा बढ़ाने की मांग की।",
-    "pts": [
-     "चोर अपनी चप्पलें मंदिर में छोड़ गए",
-     "गिरफ्तारी की अभी जानकारी नहीं"
-    ],
-    "why": "इस चोरी से गांव के मंदिरों की सुरक्षा पर चिंता बढ़ी है।"
-   },
-   "d": "16.11.2026",
-   "t": "05:35",
-   "local": true
-  },
-  {
-   "cat": "ఏపీ · కర్నూలు",
-   "col": "--c-election",
-   "art": "voters",
-   "stat": "నవంబర్ 17",
-   "statl": "తొలి దశ నామినేషన్లకు చివరి రోజు",
-   "h": "కర్నూలు పంచాయతీ నామినేషన్లకు నిబంధనలు",
-   "p": "గ్రామ పంచాయతీ ఎన్నికల నామినేషన్లు, పరిశీలన నిబంధనల ప్రకారం పారదర్శకంగా జరగాలని కర్నూలు కలెక్టర్ డాక్టర్ ఎ. సిరి ఎన్నికల అధికారులను ఆదేశించారు. చిన్న సాంకేతిక కారణాలు, బకాయిలు లేని ధ్రువపత్రం, పోలీస్ ఎన్‌ఓసీ లేదని నామినేషన్లు తిరస్కరించవద్దని, చట్టపరమైన అనర్హత ఉంటేనే తిరస్కరించాలని సూచించారని హన్స్ ఇండియా తెలిపింది. తొలి దశ నామినేషన్లు నవంబర్ 15 నుంచి 17 వరకు.",
-   "pts": [
-    "ప్రక్రియ వీడియో 60 రోజులు భద్రపరచాలి",
-    "కేంద్రాల 100 మీటర్లలో వాహనాలకు నిషేధం",
-    "నామినేషన్ సమయం ఉదయం 10:30 నుంచి సాయంత్రం 5"
-   ],
-   "why": "పంచాయతీ ఎన్నికల్లో పోటీ చేయాలనుకునే కర్నూలు అభ్యర్థులకు ఈ నిబంధనలు వర్తిస్తాయి.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/kurnool/collector-urges-transparent-panchayat-poll-nomination-process-1142557",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-kurnool",
-   "loc": "",
-   "pub": "2026-11-16T02:24+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Kurnool",
-    "h": "Kurnool Collector sets panchayat nomination rules",
-    "stat": "November 17",
-    "statl": "Last day for first-phase nominations",
-    "loc": "Kurnool",
-    "p": "Kurnool Collector Dr A Siri told election officials to run gram panchayat nominations and scrutiny transparently and by the rules. Nominations should not be rejected over minor technical issues or a missing no-dues certificate or police NOC, only for legal disqualification, The Hans India reported. First-phase nominations run from November 15 to 17.",
-    "pts": [
-     "Proceedings to be video-recorded, kept 60 days",
-     "No vehicles within 100 metres of centres",
-     "Nominations from 10:30 am to 5 pm"
-    ],
-    "why": "These rules apply to everyone filing panchayat nominations in Kurnool."
-   },
-   "hi": {
-    "cat": "एपी · कर्नूल",
-    "h": "कर्नूल कलेक्टर ने तय किए पंचायत नामांकन नियम",
-    "stat": "17 नवंबर",
-    "statl": "पहले चरण के नामांकन की अंतिम तिथि",
-    "loc": "कर्नूल",
-    "p": "कर्नूल कलेक्टर डॉ. ए. सिरी ने चुनाव अधिकारियों से ग्राम पंचायत नामांकन और जांच पारदर्शी तरीके से नियमों के अनुसार करने को कहा। द हंस इंडिया के अनुसार छोटी तकनीकी वजह, बकाया-मुक्त प्रमाणपत्र या पुलिस एनओसी न होने पर नामांकन खारिज नहीं होगा, सिर्फ कानूनी अयोग्यता पर होगा। पहले चरण के नामांकन 15 से 17 नवंबर तक हैं।",
-    "pts": [
-     "कार्यवाही की वीडियो 60 दिन रखी जाएगी",
-     "केंद्रों के 100 मीटर में वाहन नहीं",
-     "नामांकन सुबह 10:30 से शाम 5 बजे"
-    ],
-    "why": "ये नियम कर्नूल में पंचायत नामांकन भरने वाले सभी पर लागू हैं।"
-   },
-   "d": "16.11.2026",
-   "t": "05:35",
-   "local": true
-  },
-  {
-   "cat": "ఏపీ · నెల్లూరు",
-   "col": "--c-election",
-   "art": "voters",
-   "stat": "300 మందికి పైగా",
-   "statl": "టీడీపీలో చేరిన వైఎస్సార్సీపీ కార్యకర్తలు",
-   "h": "ఇందుకూరుపేటలో టీడీపీలో చేరిన 300 మంది",
-   "p": "నెల్లూరు జిల్లా ఇందుకూరుపేట మండలం కొత్తూరు గ్రామానికి చెందిన 300 మందికి పైగా వైఎస్సార్సీపీ నాయకులు, కార్యకర్తలు ఆదివారం టీడీపీలో చేరారు. కోవూరు ఎమ్మెల్యే వేమిరెడ్డి ప్రశాంతి రెడ్డి వారికి పసుపు కండువాలు కప్పి ఆహ్వానించారని డెక్కన్ క్రానికల్ తెలిపింది. సంక్షేమ పథకాలు చూసి చేరుతున్నారని, పంచాయతీ ఎన్నికల్లో కూటమి గెలుస్తుందని ఆమె అన్నారు.",
-   "pts": [
-    "చేరినవారిలో ఎంపీటీసీ సభ్యులు ఉన్నారు",
-    "నెల్లూరులోని ఎమ్మెల్యే కార్యాలయంలో కార్యక్రమం"
-   ],
-   "why": "రానున్న పంచాయతీ ఎన్నికల ముందు ఇందుకూరుపేట రాజకీయ సమీకరణాలు మారుతున్నాయి.",
-   "src": "Deccan Chronicle",
-   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/over-300-ysrc-workers-join-td-in-indukurupeta-2004710",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-nellore",
-   "loc": "కొత్తూరు, ఇందుకూరుపేట మండలం",
-   "pub": "2026-11-15T23:25+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Nellore",
-    "h": "300 YSRCP workers join TDP in Indukurupeta",
-    "stat": "300-plus",
-    "statl": "YSRCP workers who joined TDP",
-    "loc": "Kothuru, Indukurupeta mandal",
-    "p": "More than 300 YSRCP leaders and workers from Kothuru village in Indukurupeta mandal, Nellore district, joined the TDP on Sunday. Kovur MLA Vemireddy Prasanthi Reddy welcomed them with yellow scarves, Deccan Chronicle reported. She said welfare schemes were drawing them in and expressed confidence the coalition would win the panchayat polls.",
-    "pts": [
-     "MPTC members among those who joined",
-     "Event held at the MLA's office in Nellore"
-    ],
-    "why": "Political equations in Indukurupeta are shifting ahead of panchayat polls."
-   },
-   "hi": {
-    "cat": "एपी · नेल्लोर",
-    "h": "इंदुकुरुपेटा में 300 वाईएसआरसीपी कार्यकर्ता टीडीपी में",
-    "stat": "300 से अधिक",
-    "statl": "टीडीपी में शामिल वाईएसआरसीपी कार्यकर्ता",
-    "loc": "कोत्तूरु, इंदुकुरुपेटा मंडल",
-    "p": "नेल्लोर जिले के इंदुकुरुपेटा मंडल के कोत्तूरु गांव के 300 से अधिक वाईएसआरसीपी नेता और कार्यकर्ता रविवार को टीडीपी में शामिल हुए। डेक्कन क्रॉनिकल के अनुसार कोवूर विधायक वेमिरेड्डी प्रशांति रेड्डी ने पीले दुपट्टे पहनाकर स्वागत किया। उन्होंने कहा कि कल्याण योजनाएं लोगों को आकर्षित कर रही हैं और पंचायत चुनाव में गठबंधन जीतेगा।",
-    "pts": [
-     "शामिल होने वालों में एमपीटीसी सदस्य",
-     "कार्यक्रम नेल्लोर में विधायक कार्यालय में"
-    ],
-    "why": "पंचायत चुनाव से पहले इंदुकुरुपेटा के राजनीतिक समीकरण बदल रहे हैं।"
-   },
-   "d": "16.11.2026",
-   "t": "05:35",
-   "local": true
-  },
-  {
-   "cat": "ఏపీ · సహకార సంఘాలు",
-   "col": "--c-money",
-   "art": "farm",
-   "stat": "సుమారు 2 లక్షల మంది",
-   "statl": "ఓటు హక్కు ఉన్న రైతులు",
-   "h": "కర్నూలు సహకార సంఘాల ఎన్నికలకు సన్నాహాలు",
-   "p": "స్థానిక సంస్థల ఎన్నికల తర్వాత ప్రాథమిక వ్యవసాయ సహకార సంఘాలు (పీఏసీఎస్), డీసీసీబీలకు ఎన్నికలు నిర్వహించేందుకు ప్రభుత్వం సిద్ధమవుతోంది. దాదాపు 14 ఏళ్ల తర్వాత ఇవి జరగనున్నాయి. ఉమ్మడి కర్నూలు జిల్లాలోని 99 సంఘాల్లో సుమారు 2 లక్షల మంది రైతులకు ఓటు హక్కు ఉందని హన్స్ ఇండియా తెలిపింది. కొత్త సభ్యుల నమోదు కోసం అవగాహన కార్యక్రమాలు జరుగుతున్నాయి.",
-   "pts": [
-    "కర్నూలులో 43, నంద్యాలలో 56 సంఘాలు",
-    "సభ్యత్వ రుసుము ₹300",
-    "చివరి ఎన్నికలు జనవరి 2013లో"
-   ],
-   "why": "పంట రుణాలు ఇచ్చే సంఘాల పాలకవర్గాలను రైతులు నేరుగా ఎన్నుకోగలరు.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/kurnool/farmers-hope-elected-bodies-will-better-address-credit-needs-1142559",
-   "sec": [
-    "telangana",
-    "agri"
-   ],
-   "st": "AP",
-   "place": "ap-kurnool",
-   "loc": "",
-   "pub": "2026-11-16T02:31+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Cooperatives",
-    "h": "Kurnool, Nandyal gear up for PACS polls",
-    "stat": "About 2 lakh",
-    "statl": "Farmers eligible to vote",
-    "loc": "Kurnool, Nandyal",
-    "p": "The state government is preparing to hold elections to primary agricultural cooperative societies (PACS) and DCCBs after the local body polls, the first in about 14 years. Around 2 lakh farmers in 99 societies across erstwhile Kurnool district are eligible to vote, The Hans India reported. Societies are running drives to enrol new members.",
-    "pts": [
-     "43 societies in Kurnool, 56 in Nandyal",
-     "Membership fee is ₹300",
-     "Last elections held in January 2013"
-    ],
-    "why": "Farmers will directly elect the boards of the societies that give crop loans."
-   },
-   "hi": {
-    "cat": "एपी · सहकारी समितियां",
-    "h": "कर्नूल, नंद्याल में पैक्स चुनाव की तैयारी",
-    "stat": "करीब 2 लाख",
-    "statl": "वोट देने योग्य किसान",
-    "loc": "कर्नूल, नंद्याल",
-    "p": "राज्य सरकार स्थानीय निकाय चुनावों के बाद प्राथमिक कृषि सहकारी समितियों (पैक्स) और डीसीसीबी के चुनाव कराने की तैयारी कर रही है, जो करीब 14 साल बाद होंगे। द हंस इंडिया के अनुसार पूर्व कर्नूल जिले की 99 समितियों में करीब 2 लाख किसान वोट देने योग्य हैं। नए सदस्यों के नामांकन के लिए अभियान चल रहे हैं।",
-    "pts": [
-     "कर्नूल में 43, नंद्याल में 56 समितियां",
-     "सदस्यता शुल्क ₹300",
-     "पिछले चुनाव जनवरी 2013 में"
-    ],
-    "why": "किसान फसल ऋण देने वाली समितियों के बोर्ड सीधे चुनेंगे।"
-   },
-   "d": "16.11.2026",
-   "t": "05:35",
-   "local": true
-  },
-  {
-   "cat": "ఏపీ · పల్నాడు",
-   "col": "--c-election",
-   "art": "voters",
-   "stat": "₹81 లక్షలు",
-   "statl": "సర్పంచ్ పదవికి వేలం ధర",
-   "h": "పల్నాడులో సర్పంచ్ పదవికి ₹81 లక్షల వేలం",
-   "p": "పల్నాడు జిల్లా నరసరావుపేట మండలం జొన్నలగడ్డలో సర్పంచ్ పదవిని ఏకగ్రీవం చేసేందుకు గ్రామస్థులు వేలం నిర్వహించినట్లు నమస్తే తెలంగాణ కథనం. ఎన్నికల ఖర్చు, గొడవలు నివారించేందుకు ఈ నిర్ణయం తీసుకున్నారని, రెండు ప్రధాన పార్టీల నాయకులు మద్దతు ఇచ్చారని పేర్కొంది. ముగ్గురు పోటీ పడగా, ₹81 లక్షలకు అంగీకరించిన వ్యక్తిని గ్రామస్థులు ఎన్నుకున్నారని తెలిపింది.",
-   "pts": [
-    "గ్రామ జనాభా సుమారు 5,000",
-    "మరొకరు ₹77 లక్షలు ప్రతిపాదించారు",
-    "గ్రామం తొలి దశ పోలింగ్‌లో ఉంది"
-   ],
-   "why": "పంచాయతీ ఎన్నికల్లో ఓటర్ల ఎంపిక హక్కుపై ఈ తరహా వేలాలు ప్రశ్నలు లేవనెత్తుతున్నాయి.",
-   "src": "Namasthe Telangana",
-   "url": "https://www.ntnews.com/telangana/andhra-village-holds-%E2%82%B981-lakh-auction-for-unopposed-sarpanch-post-2561273",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-palnadu",
-   "loc": "జొన్నలగడ్డ, నరసరావుపేట మండలం",
-   "pub": "2026-11-16T01:48+05:30",
-   "lbl": "claim",
-   "local": true,
-   "en": {
-    "cat": "AP · Palnadu",
-    "h": "Palnadu sarpanch post auctioned for ₹81 lakh",
-    "stat": "₹81 lakh",
-    "statl": "Auction price for sarpanch post",
-    "loc": "Jonnalagadda, Narasaraopet mandal",
-    "p": "Villagers in Jonnalagadda, Narasaraopet mandal of Palnadu district, auctioned the sarpanch post to fill it unopposed, Namasthe Telangana reported. The report says the move aimed to avoid election costs and disputes and had backing from leaders of the two main parties. Three people competed, and villagers chose the person who agreed to pay ₹81 lakh.",
-    "pts": [
-     "Village has about 5,000 people",
-     "Another bidder offered ₹77 lakh",
-     "Village votes in the first phase"
-    ],
-    "why": "Such auctions raise questions about voters' right to choose in panchayat polls."
-   },
-   "hi": {
-    "cat": "एपी · पलनाडु",
-    "h": "पलनाडु में सरपंच पद ₹81 लाख में नीलाम",
-    "stat": "₹81 लाख",
-    "statl": "सरपंच पद की नीलामी कीमत",
-    "loc": "जोन्नलगड्डा, नरसरावपेट मंडल",
-    "p": "नमस्ते तेलंगाना की खबर के अनुसार पलनाडु जिले के नरसरावपेट मंडल के जोन्नलगड्डा गांव में सरपंच पद निर्विरोध भरने के लिए ग्रामीणों ने नीलामी की। खबर के मुताबिक चुनावी खर्च और विवाद से बचने के लिए यह फैसला हुआ और दोनों प्रमुख दलों के नेताओं ने समर्थन किया। तीन लोगों में होड़ रही और ₹81 लाख देने पर सहमत व्यक्ति को चुना गया।",
-    "pts": [
-     "गांव की आबादी करीब 5,000",
-     "दूसरे दावेदार ने ₹77 लाख की पेशकश की",
-     "गांव में पहले चरण में मतदान"
-    ],
-    "why": "ऐसी नीलामियां पंचायत चुनाव में मतदाताओं के चुनने के अधिकार पर सवाल उठाती हैं।"
-   },
-   "d": "16.11.2026",
-   "t": "05:05"
   }
  ]
 }
