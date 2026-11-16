@@ -1,8 +1,547 @@
 {
  "date": "16.11.2026",
  "iso": "2026-11-16",
- "count": 132,
+ "count": 142,
  "stories": [
+  {
+   "cat": "హైదరాబాద్ · రవాణా",
+   "col": "--c-city",
+   "art": "economy",
+   "stat": "3 కారిడార్లు",
+   "statl": "40 కిలోమీటర్ల పాడ్ కార్ మార్గాలు",
+   "h": "హైదరాబాద్ పాడ్ కార్లకు సీఎం ఆమోదం",
+   "p": "హైదరాబాద్‌లో మెట్రో స్టేషన్ల నుంచి చివరి మైలు ప్రయాణానికి పర్సనల్ ర్యాపిడ్ ట్రాన్సిట్ (పీఆర్‌టీఎస్) పాడ్ కార్ల వ్యవస్థకు సీఎం రేవంత్ రెడ్డి ఆమోదం తెలిపారు. సుమారు 40 కిలోమీటర్ల మేర మూడు కారిడార్లు ప్రతిపాదించారు. డిసెంబర్ నాటికి టెండర్ల ప్రక్రియ పూర్తి చేయాలని మెట్రో రైలు అధికారులను ఆయన ఆదేశించారు. బ్యాటరీతో నడిచే ఒక్కో పాడ్‌లో 4 నుంచి 6 మంది ప్రయాణించవచ్చు.",
+   "pts": [
+    "కేపీహెచ్‌బీ–బయోడైవర్సిటీ, ఎల్బీ స్టేడియం–రాణిగంజ్ మార్గాలు",
+    "అసెంబ్లీ మెట్రో–బేగంపేట మూడో కారిడార్",
+    "గచ్చిబౌలి, నెక్లెస్ రోడ్‌లో డిపోలు ప్రతిపాదన"
+   ],
+   "why": "ఐటీ కారిడార్, నగర మధ్య ప్రాంతాల్లో రోజూ ప్రయాణించే వారికి సంబంధించిన ప్రణాళిక.",
+   "src": "ETV Bharat",
+   "url": "https://www.etvbharat.com/te/opinion/telangana-government-makes-arrangements-to-set-up-a-personal-rapid-transit-system-in-hyderabad-tgn26111602179",
+   "sec": [
+    "telangana",
+    "innovation"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "హైదరాబాద్",
+   "pub": "2026-11-16T14:40+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Transport",
+    "h": "CM clears pod car plan for Hyderabad",
+    "stat": "3 corridors",
+    "statl": "About 40 km of pod car routes",
+    "loc": "Hyderabad",
+    "p": "Chief Minister Revanth Reddy has approved a Personal Rapid Transit (PRTS) pod car system in Hyderabad to give last-mile links from Metro stations. Three corridors of about 40 km are proposed. He told Metro Rail officials to finish tendering by December. Each battery-powered pod will carry 4 to 6 passengers.",
+    "pts": [
+     "KPHB–Biodiversity and LB Stadium–Ranigunj routes",
+     "Third corridor: Assembly Metro–Begumpet",
+     "Depots proposed at Gachibowli, Necklace Road"
+    ],
+    "why": "Matters to daily commuters in the IT corridor and central Hyderabad."
+   },
+   "hi": {
+    "cat": "हैदराबाद · परिवहन",
+    "h": "हैदराबाद पॉड कार योजना को सीएम की मंजूरी",
+    "stat": "3 कॉरिडोर",
+    "statl": "लगभग 40 किमी पॉड कार मार्ग",
+    "loc": "हैदराबाद",
+    "p": "मुख्यमंत्री रेवंत रेड्डी ने हैदराबाद में मेट्रो स्टेशनों से आखिरी मील की यात्रा के लिए पर्सनल रैपिड ट्रांजिट (पीआरटीएस) पॉड कार व्यवस्था को मंजूरी दी है। करीब 40 किलोमीटर के तीन कॉरिडोर प्रस्तावित हैं। उन्होंने मेट्रो रेल अधिकारियों को दिसंबर तक टेंडर प्रक्रिया पूरी करने को कहा। बैटरी से चलने वाले हर पॉड में 4 से 6 लोग सफर कर सकेंगे।",
+    "pts": [
+     "केपीएचबी–बायोडायवर्सिटी, एलबी स्टेडियम–रानीगंज मार्ग",
+     "तीसरा कॉरिडोर: असेंबली मेट्रो–बेगमपेट",
+     "गच्चीबौली, नेकलेस रोड पर डिपो प्रस्तावित"
+    ],
+    "why": "आईटी कॉरिडोर और मध्य हैदराबाद के रोज़ाना यात्रियों से जुड़ी योजना।"
+   },
+   "local": true,
+   "d": "16.11.2026",
+   "t": "15:35"
+  },
+  {
+   "cat": "ఏపీ · రక్షణ రంగం",
+   "col": "--c-money",
+   "art": "economy",
+   "stat": "200 ఎకరాల్లో",
+   "statl": "క్షిపణి తయారీ సముదాయం",
+   "h": "ఏపీలో ఐజీ డిఫెన్స్ క్షిపణి తయారీ కేంద్రం",
+   "p": "ఆంధ్రప్రదేశ్‌లో 200 ఎకరాల్లో క్షిపణుల అభివృద్ధి, తయారీ సముదాయం ఏర్పాటుకు ఐజీ డిఫెన్స్ సంస్థ రాష్ట్ర ప్రభుత్వంతో అవగాహన ఒప్పందం కుదుర్చుకుంది. దేశీయ క్షిపణులు, సూక్ష్మ క్షిపణులు, ప్రొపల్షన్ వ్యవస్థల తయారీపై దృష్టి పెడతామని సంస్థ తెలిపింది. ఒప్పంద కార్యక్రమానికి మంత్రి నారా లోకేశ్ హాజరయ్యారు. పెట్టుబడి మొత్తం, కాలపరిమితి ఇంకా వెల్లడించలేదు.",
+   "pts": [
+    "సంస్థ 'జ్వాల' కార్యక్రమం: డ్రోన్ల నిరోధానికి సూక్ష్మ క్షిపణులు",
+    "ప్రాజెక్టు ప్రదేశం ఇంకా అధికారికంగా ప్రకటించలేదు"
+   ],
+   "why": "ఏపీలో రక్షణ తయారీ రంగ ఉద్యోగాలు, పెట్టుబడులపై ఆసక్తి ఉన్నవారికి సంబంధించినది.",
+   "src": "The Tribune",
+   "url": "https://www.tribuneindia.com/news/defence/ig-defence-to-set-up-200-acre-missile-manufacturing-complex-in-andhra-pradesh",
+   "sec": [
+    "telangana",
+    "business",
+    "innovation"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-16T14:54+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Defence",
+    "h": "IG Defence to build missile hub in AP",
+    "stat": "200 acres",
+    "statl": "Missile manufacturing complex",
+    "loc": "Andhra Pradesh",
+    "p": "IG Defence has signed an MoU with the Andhra Pradesh government for a 200-acre missile development and manufacturing complex. The company said it will focus on home-grown missiles, micro-missiles and propulsion systems. Minister Nara Lokesh attended the signing. The investment amount and timeline have not been announced.",
+    "pts": [
+     "Company's 'Jwala' programme: micro-missiles to counter drones",
+     "Exact site not yet officially announced"
+    ],
+    "why": "Of interest to those tracking defence jobs and investment in AP."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · रक्षा",
+    "h": "एपी में आईजी डिफेंस का मिसाइल केंद्र",
+    "stat": "200 एकड़",
+    "statl": "मिसाइल निर्माण परिसर",
+    "loc": "आंध्र प्रदेश",
+    "p": "आईजी डिफेंस ने आंध्र प्रदेश सरकार के साथ 200 एकड़ के मिसाइल विकास और निर्माण परिसर के लिए समझौता ज्ञापन पर हस्ताक्षर किए हैं। कंपनी ने कहा कि वह स्वदेशी मिसाइलों, माइक्रो-मिसाइलों और प्रोपल्शन सिस्टम पर ध्यान देगी। हस्ताक्षर के समय मंत्री नारा लोकेश मौजूद रहे। निवेश राशि और समयसीमा अभी घोषित नहीं हुई है।",
+    "pts": [
+     "कंपनी का 'ज्वाला' कार्यक्रम: ड्रोन रोकने को माइक्रो-मिसाइल",
+     "सटीक जगह अभी आधिकारिक रूप से घोषित नहीं"
+    ],
+    "why": "एपी में रक्षा क्षेत्र के रोजगार और निवेश में रुचि रखने वालों के लिए।"
+   },
+   "local": true,
+   "d": "16.11.2026",
+   "t": "15:35"
+  },
+  {
+   "cat": "ఏపీ · అంగన్‌వాడీ",
+   "col": "--c-gov",
+   "art": "economy",
+   "stat": "లీటర్‌కు ₹9",
+   "statl": "అంగన్‌వాడీ పాల ధర పెంపు",
+   "h": "ఏపీ అంగన్‌వాడీ పాల ధర లీటర్‌కు ₹9 పెంపు",
+   "p": "అంగన్‌వాడీ కేంద్రాలకు సరఫరా చేసే పాల కోసం కర్ణాటక పాల సమాఖ్య (కేఎంఎఫ్)కు చెల్లించే ధరను లీటర్‌కు ₹9 పెంచేందుకు సీఎం చంద్రబాబు నాయుడు ఆమోదం తెలిపారు. ప్రస్తుతం లీటర్ ధర ₹54.60. ఆర్థిక శాఖ పరిశీలన తర్వాత రెండు రోజుల్లో ఉత్తర్వులు వచ్చే అవకాశం ఉంది. పెంపుతో ఏటా సుమారు ₹75 కోట్ల అదనపు భారం పడనుంది.",
+   "pts": [
+    "55,547 కేంద్రాల్లో సుమారు 23.5 లక్షల మందికి పాలు",
+    "ఏటా మొత్తం ఖర్చు సుమారు ₹531 కోట్లకు",
+    "₹5 పెంపు ప్రతిపాదనను కేఎంఎఫ్ తిరస్కరించింది"
+   ],
+   "why": "అంగన్‌వాడీల ద్వారా పాలు పొందే పిల్లలు, గర్భిణులు, బాలింతలకు సంబంధించినది.",
+   "src": "Vaartha",
+   "url": "https://vaartha.com/latest-news/ap-government-hikes-anganwadi-milk-price-rs-9-per-litre-cm-chandrababu-approval/805826/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-16T14:24+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Anganwadi",
+    "h": "AP raises Anganwadi milk price by ₹9/litre",
+    "stat": "₹9 a litre",
+    "statl": "Hike in Anganwadi milk price",
+    "loc": "Andhra Pradesh",
+    "p": "Chief Minister Chandrababu Naidu has approved raising the price paid to the Karnataka Milk Federation (KMF) for Anganwadi milk by ₹9 a litre. The current rate is ₹54.60 a litre. Orders are expected in about two days after the Finance Department's review. The hike adds about ₹75 crore a year to the cost.",
+    "pts": [
+     "Milk for about 23.5 lakh people at 55,547 centres",
+     "Yearly cost to rise to about ₹531 crore",
+     "KMF had rejected an offer of ₹5 more"
+    ],
+    "why": "Concerns children, pregnant women and new mothers who get milk at Anganwadis."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · आंगनवाड़ी",
+    "h": "एपी आंगनवाड़ी दूध ₹9 प्रति लीटर महंगा",
+    "stat": "₹9 प्रति लीटर",
+    "statl": "आंगनवाड़ी दूध दाम में बढ़ोतरी",
+    "loc": "आंध्र प्रदेश",
+    "p": "मुख्यमंत्री चंद्रबाबू नायडू ने आंगनवाड़ी दूध के लिए कर्नाटक मिल्क फेडरेशन (केएमएफ) को दी जाने वाली कीमत ₹9 प्रति लीटर बढ़ाने को मंजूरी दी है। अभी दर ₹54.60 प्रति लीटर है। वित्त विभाग की समीक्षा के बाद करीब दो दिन में आदेश आने की संभावना है। इससे सालाना करीब ₹75 करोड़ का अतिरिक्त खर्च होगा।",
+    "pts": [
+     "55,547 केंद्रों पर करीब 23.5 लाख लोगों को दूध",
+     "सालाना खर्च करीब ₹531 करोड़ होगा",
+     "केएमएफ ने ₹5 बढ़ोतरी का प्रस्ताव ठुकराया था"
+    ],
+    "why": "आंगनवाड़ी से दूध पाने वाले बच्चों, गर्भवती महिलाओं और माताओं से जुड़ा।"
+   },
+   "local": true,
+   "d": "16.11.2026",
+   "t": "15:35"
+  },
+  {
+   "cat": "ఏపీ · శ్రీకాకుళం",
+   "col": "--c-election",
+   "art": "voters",
+   "stat": "మేయర్ పదవి",
+   "statl": "ప్రధాన అభ్యర్థుల నామినేషన్లు",
+   "h": "శ్రీకాకుళం మేయర్ పదవికి నామినేషన్లు",
+   "p": "శ్రీకాకుళం నగరపాలక సంస్థ మేయర్ పదవికి కూటమి (జనసేన–టీడీపీ–బీజేపీ) అభ్యర్థిగా దానేటి రాధారాణి, వైఎస్సార్‌సీపీ అభ్యర్థిగా మాజీ ఎమ్మెల్యే గుండ లక్ష్మీదేవి సోమవారం నామినేషన్లు దాఖలు చేశారు. ఇద్దరూ ర్యాలీలతో వచ్చి నామినేషన్లు వేశారు. డ్రైనేజీ, రోడ్లు, తాగునీటిపై దృష్టి పెడతానని రాధారాణి చెప్పారు. నామినేషన్లకు సోమవారమే చివరి రోజు.",
+   "pts": [
+    "రాధారాణి గాజు గ్లాసు, లక్ష్మీదేవి ఫ్యాన్ గుర్తుపై పోటీ",
+    "నగరంలో మొత్తం 60 డివిజన్లు"
+   ],
+   "why": "శ్రీకాకుళం నగర ఓటర్లకు, స్థానిక పాలనకు సంబంధించిన ఎన్నిక.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/srikakulam/srikakulam-mayor-candidate-ysrcp-former-mla-gunda-lakshmidevi-files-213548",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-srikakulam",
+   "loc": "శ్రీకాకుళం",
+   "pub": "2026-11-16T14:49+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Srikakulam",
+    "h": "Srikakulam mayor: main rivals file papers",
+    "stat": "Mayor post",
+    "statl": "Main candidates file nominations",
+    "loc": "Srikakulam",
+    "p": "Daneti Radha Rani, the alliance (Jana Sena–TDP–BJP) candidate, and former MLA Gunda Lakshmi Devi of YSRCP filed nominations on Monday for the post of Srikakulam Municipal Corporation mayor. Both came in rallies. Radha Rani said she will focus on drainage, roads and drinking water. Monday was the last day for nominations.",
+    "pts": [
+     "Radha Rani on glass symbol, Lakshmi Devi on fan",
+     "The city has 60 divisions"
+    ],
+    "why": "Concerns Srikakulam city voters and local governance."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · श्रीकाकुलम",
+    "h": "श्रीकाकुलम मेयर: मुख्य उम्मीदवारों का नामांकन",
+    "stat": "मेयर पद",
+    "statl": "मुख्य उम्मीदवारों के नामांकन",
+    "loc": "श्रीकाकुलम",
+    "p": "श्रीकाकुलम नगर निगम के मेयर पद के लिए गठबंधन (जनसेना–टीडीपी–बीजेपी) की उम्मीदवार दानेटी राधारानी और वाईएसआरसीपी की पूर्व विधायक गुंडा लक्ष्मीदेवी ने सोमवार को नामांकन दाखिल किया। दोनों रैलियों के साथ पहुंचीं। राधारानी ने कहा कि वे नाली, सड़क और पेयजल पर ध्यान देंगी। सोमवार नामांकन का आखिरी दिन था।",
+    "pts": [
+     "राधारानी गिलास, लक्ष्मीदेवी पंखा चिह्न पर",
+     "शहर में कुल 60 डिवीजन"
+    ],
+    "why": "श्रीकाकुलम शहर के मतदाताओं और स्थानीय शासन से जुड़ा चुनाव।"
+   },
+   "local": true,
+   "d": "16.11.2026",
+   "t": "15:35"
+  },
+  {
+   "cat": "తెలంగాణ · పౌరసరఫరాలు",
+   "col": "--c-gov",
+   "art": "farm",
+   "stat": "రైస్ మిల్లర్లకు",
+   "statl": "కొత్త కఠిన నిబంధనలు",
+   "h": "రైస్ మిల్లర్లకు కొత్త కఠిన నిబంధనలు",
+   "p": "ధాన్యం కొనుగోలు, నిల్వ, సీఎంఆర్ బియ్యం అప్పగింతలో అక్రమాలు అరికట్టేందుకు పౌరసరఫరాల శాఖ రైస్ మిల్లర్లతో 2026–27 వానాకాలం, యాసంగి సీజన్లకు కొత్త ఒప్పందం సిద్ధం చేసింది. ధాన్యం నిల్వల్లో తేడా వచ్చినా, పక్కదారి పట్టించినా భారీ జరిమానాలు విధించి, నష్టాన్ని వడ్డీతో సహా వసూలు చేస్తారు. గడువులోగా బియ్యం అప్పగించని మిల్లులను బ్లాక్‌లిస్ట్ చేస్తారు.",
+   "pts": [
+    "ధాన్యం, గోనె సంచులకు మిల్లర్లే బాధ్యులు, బీమా తప్పనిసరి",
+    "నిల్వల లెక్కలు క్రమం తప్పకుండా సమర్పించాలి"
+   ],
+   "why": "ప్రభుత్వానికి ధాన్యం అమ్మే రైతులు, రైస్ మిల్లర్లకు సంబంధించిన నిర్ణయం.",
+   "src": "Vaartha",
+   "url": "https://vaartha.com/telangana/strict-regulations-imposed-by-the-telangana-government-on-rice-millers/805627/",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-16T07:44+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Civil Supplies",
+    "h": "Stricter rules for Telangana rice millers",
+    "stat": "Rice millers",
+    "statl": "New strict rules",
+    "loc": "Telangana",
+    "p": "The Civil Supplies Department has drafted a new agreement with rice millers for the 2026–27 Vanakalam and Yasangi seasons to stop irregularities in paddy buying, storage and delivery of custom milled rice (CMR). Shortfalls or diversion of paddy will draw heavy fines, with losses recovered with interest. Mills missing the CMR deadline will be blacklisted.",
+    "pts": [
+     "Millers liable for paddy and gunny bags; insurance a must",
+     "Regular stock accounts must be submitted"
+    ],
+    "why": "Affects farmers selling paddy to the government and rice millers."
+   },
+   "hi": {
+    "cat": "तेलंगाना · नागरिक आपूर्ति",
+    "h": "तेलंगाना राइस मिलर्स पर सख्त नियम",
+    "stat": "राइस मिलर्स",
+    "statl": "नए सख्त नियम",
+    "loc": "तेलंगाना",
+    "p": "नागरिक आपूर्ति विभाग ने धान खरीद, भंडारण और सीएमआर चावल सौंपने में गड़बड़ी रोकने के लिए 2026–27 के वानाकालम और यासंगी सीजन के लिए राइस मिलर्स के साथ नया समझौता तैयार किया है। धान स्टॉक में कमी या हेराफेरी पर भारी जुर्माना लगेगा और नुकसान ब्याज सहित वसूला जाएगा। समय पर चावल न देने वाली मिलें ब्लैकलिस्ट होंगी।",
+    "pts": [
+     "धान, बोरियों की जिम्मेदारी मिलर्स की; बीमा जरूरी",
+     "स्टॉक का हिसाब नियमित देना होगा"
+    ],
+    "why": "सरकार को धान बेचने वाले किसानों और मिलर्स से जुड़ा फैसला।"
+   },
+   "local": true,
+   "d": "16.11.2026",
+   "t": "15:35"
+  },
+  {
+   "cat": "జగిత్యాల · విషాదం",
+   "col": "--c-city",
+   "art": "water",
+   "stat": "ఆరేళ్ల బాలుడు",
+   "statl": "నీటితొట్టిలో పడి మృతి",
+   "h": "మల్లాపూర్‌లో తొట్టిలో పడి బాలుడు మృతి",
+   "p": "జగిత్యాల జిల్లా మల్లాపూర్ మండలంలోని వడ్డెర కాలనీలో పశువులకు నీళ్లు పెట్టే తొట్టిలో పడి ఆరేళ్ల బాలుడు మృతి చెందాడు. తల్లి కూలి పనికి వెళ్లి సాయంత్రం తిరిగి వచ్చేసరికి ముగ్గురు పిల్లల్లో ఇద్దరే ఇంట్లో ఉన్నారు. బంధువులు, స్థానికులతో కలిసి వెతకగా బాలుడు తొట్టిలో కనిపించాడు. ఘటన ఏ సమయంలో జరిగిందో తెలియలేదు.",
+   "pts": [
+    "తల్లి వెల్గొండ గ్రామంలో కూలి పనికి వెళ్లారు"
+   ],
+   "why": "ఇంటి దగ్గర నీటితొట్లు, గుంతల వద్ద చిన్నపిల్లలపై తల్లిదండ్రులు జాగ్రత్తగా ఉండాలి.",
+   "src": "TV9 Telugu",
+   "url": "https://tv9telugu.com/telangana/six-year-old-boy-dies-after-falling-into-cattle-water-trough-in-jagtial-district-1959543.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "jagtial",
+   "loc": "వడ్డెర కాలనీ, మల్లాపూర్",
+   "pub": "2026-11-16T10:33+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Jagtial · Tragedy",
+    "h": "Boy, 6, drowns in water trough in Jagtial",
+    "stat": "6-year-old boy",
+    "statl": "Dies after falling into trough",
+    "loc": "Vaddera Colony, Mallapur",
+    "p": "A six-year-old boy died after falling into a cattle water trough in Vaddera Colony, Mallapur mandal, Jagtial district. When his mother returned from daily-wage work in the evening, only two of her three children were home. A search with relatives and neighbours found him in the trough. The exact time of the incident is not known.",
+    "pts": [
+     "Mother had gone for wage work in Valgonda village"
+    ],
+    "why": "A reminder for parents to watch small children near water troughs and pits."
+   },
+   "hi": {
+    "cat": "जगित्याल · हादसा",
+    "h": "जगित्याल में पानी की टंकी में गिरकर बच्चे की मौत",
+    "stat": "छह साल का बच्चा",
+    "statl": "पानी की टंकी में गिरकर मौत",
+    "loc": "वड्डेरा कॉलोनी, मल्लापुर",
+    "p": "जगित्याल जिले के मल्लापुर मंडल की वड्डेरा कॉलोनी में मवेशियों के पानी की टंकी में गिरकर छह साल के बच्चे की मौत हो गई। मां शाम को मजदूरी से लौटीं तो तीन में से दो बच्चे ही घर पर थे। रिश्तेदारों और पड़ोसियों के साथ खोजने पर बच्चा टंकी में मिला। घटना का सही समय पता नहीं है।",
+    "pts": [
+     "मां वेल्गोंडा गांव में मजदूरी करने गई थीं"
+    ],
+    "why": "पानी की टंकियों और गड्ढों के पास छोटे बच्चों पर नजर रखना जरूरी।"
+   },
+   "local": true,
+   "d": "16.11.2026",
+   "t": "15:35"
+  },
+  {
+   "cat": "జగిత్యాల · విద్య",
+   "col": "--c-city",
+   "art": "campus",
+   "stat": "ఫీజు బకాయి",
+   "statl": "విద్యార్థిని శిక్షించారని ఫిర్యాదు",
+   "h": "రాయికల్ స్కూల్‌పై ఫీజు వేధింపుల ఫిర్యాదు",
+   "p": "ఫీజు చెల్లించలేదని జగిత్యాల జిల్లా రాయికల్‌లోని విశ్వశాంతి పబ్లిక్ స్కూల్ యాజమాన్యం తన కుమారుడితో ముక్కు నేలకు రాయించి, ఎండలో నిలబెట్టిందని ఓ తండ్రి ప్రజావాణిలో జిల్లా విద్యాధికారికి ఫిర్యాదు చేశారు. బాలుడి కాలికి గాయమైందని, భయంతో స్కూల్‌కు వెళ్లడం లేదని ఆయన ఆరోపించారు. పాఠశాల స్పందన ఇంకా రాలేదు.",
+   "pts": [
+    "కుమార్తె పదో తరగతి మార్కుల మెమో ఇవ్వలేదని ఆరోపణ",
+    "విచారణ, టీసీ ఇవ్వాలని తండ్రి డిమాండ్"
+   ],
+   "why": "ప్రైవేటు పాఠశాలల్లో ఫీజుల విషయంలో పిల్లల పట్ల వ్యవహారంపై తల్లిదండ్రులకు సంబంధించినది.",
+   "src": "V6 Velugu",
+   "url": "https://www.v6velugu.com/jagtial-school-accused-of-humiliating-student-over-unpaid-fees-father-files-complaint",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "jagtial",
+   "loc": "రాయికల్",
+   "pub": "2026-11-16T13:40+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Jagtial · Education",
+    "h": "Raikal school accused of fee punishment",
+    "stat": "Unpaid fee",
+    "statl": "Father alleges son was punished",
+    "loc": "Raikal, Jagtial",
+    "p": "A father has complained to the District Education Officer at Prajavani that Vishwashanthi Public School in Raikal, Jagtial district, made his son rub his nose on the ground and stand in the sun over unpaid fees. He alleged the boy's leg was hurt and that the child now fears going to school. There is no response from the school yet.",
+    "pts": [
+     "Alleges daughter's Class 10 marks memo withheld",
+     "Father seeks inquiry and son's TC"
+    ],
+    "why": "Concerns parents on how private schools treat children over fees."
+   },
+   "hi": {
+    "cat": "जगित्याल · शिक्षा",
+    "h": "रायकल स्कूल पर फीस को लेकर सजा का आरोप",
+    "stat": "बकाया फीस",
+    "statl": "बेटे को सजा देने का आरोप",
+    "loc": "रायकल, जगित्याल",
+    "p": "एक पिता ने प्रजावाणी में जिला शिक्षा अधिकारी से शिकायत की है कि जगित्याल जिले के रायकल स्थित विश्वशांति पब्लिक स्कूल ने फीस बकाया होने पर उनके बेटे से जमीन पर नाक रगड़वाई और धूप में खड़ा किया। उनका आरोप है कि बच्चे के पैर में चोट आई और अब वह डर से स्कूल नहीं जा रहा। स्कूल का जवाब अभी नहीं आया है।",
+    "pts": [
+     "बेटी की 10वीं की अंकसूची रोकने का आरोप",
+     "पिता ने जांच और बेटे की टीसी मांगी"
+    ],
+    "why": "फीस को लेकर निजी स्कूलों के बच्चों से बर्ताव पर अभिभावकों से जुड़ा।"
+   },
+   "local": true,
+   "d": "16.11.2026",
+   "t": "15:35"
+  },
+  {
+   "cat": "కామారెడ్డి · గల్ఫ్ వలస",
+   "col": "--c-city",
+   "art": "deadline",
+   "stat": "₹1.70 లక్షలు",
+   "statl": "విడుదల కోసం చెల్లించినట్లు కుటుంబం ఆరోపణ",
+   "h": "మలేసియా జైల్లో తాడ్వాయి వాసి",
+   "p": "ఉపాధి కోసం జూన్‌లో మలేసియా వెళ్లిన కామారెడ్డి జిల్లా తాడ్వాయి వాసి సుమారు నాలుగు నెలలుగా అక్కడి జైల్లో ఉన్నారు. ఏజెంట్ ₹1.40 లక్షలు తీసుకుని ఉద్యోగ వీసాకు బదులు టూరిస్ట్ వీసా ఇచ్చాడని కుటుంబం ఆరోపిస్తోంది. విడుదల కోసం మధ్యవర్తులకు ₹1.70 లక్షలు ఇచ్చినా ఫలితం లేదని, ప్రభుత్వం స్వదేశానికి తీసుకురావాలని భార్య కోరుతున్నారు.",
+   "pts": [
+    "వీసా గడువు ముగిశాక జూలై 6న మలేసియా పోలీసులు అదుపులోకి",
+    "తాడ్వాయి పోలీసులకు భార్య ఫిర్యాదు"
+   ],
+   "why": "విదేశీ ఉద్యోగాల కోసం ఏజెంట్లను నమ్ముతున్న కుటుంబాలకు హెచ్చరిక.",
+   "src": "ETV Bharat",
+   "url": "https://www.etvbharat.com/te/state/man-went-to-malaysia-in-search-of-employment-was-deceived-by-agents-currently-in-jail-from-tadwai-mandal-in-kamareddy-tgs26111600986",
+   "sec": [
+    "telangana",
+    "jobs"
+   ],
+   "st": "TG",
+   "place": "kamareddy",
+   "loc": "తాడ్వాయి",
+   "pub": "2026-11-16T11:07+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Kamareddy · Migrant workers",
+    "h": "Tadwai man stuck in Malaysian jail",
+    "stat": "₹1.70 lakh",
+    "statl": "Paid for release, family alleges",
+    "loc": "Tadwai, Kamareddy",
+    "p": "A man from Tadwai in Kamareddy district who went to Malaysia for work in June has been in jail there for about four months. His family alleges an agent took ₹1.40 lakh and gave him a tourist visa instead of a work visa. His wife says ₹1.70 lakh paid to middlemen for his release brought no result and wants the government to bring him home.",
+    "pts": [
+     "Held by Malaysian police on July 6 after visa expired",
+     "Wife has complained to Tadwai police"
+    ],
+    "why": "A warning for families relying on agents for jobs abroad."
+   },
+   "hi": {
+    "cat": "कामारेड्डी · प्रवासी मजदूर",
+    "h": "मलेशिया की जेल में तादवाई का युवक",
+    "stat": "₹1.70 लाख",
+    "statl": "रिहाई के लिए दिए: परिवार",
+    "loc": "तादवाई, कामारेड्डी",
+    "p": "काम की तलाश में जून में मलेशिया गए कामारेड्डी जिले के तादवाई के एक व्यक्ति करीब चार महीने से वहां जेल में हैं। परिवार का आरोप है कि एजेंट ने ₹1.40 लाख लेकर वर्क वीजा की जगह टूरिस्ट वीजा दिया। पत्नी का कहना है कि रिहाई के लिए बिचौलियों को ₹1.70 लाख देने पर भी कुछ नहीं हुआ और सरकार उन्हें वापस लाए।",
+    "pts": [
+     "वीजा खत्म होने पर 6 जुलाई को मलेशिया पुलिस ने पकड़ा",
+     "पत्नी ने तादवाई पुलिस में शिकायत की"
+    ],
+    "why": "विदेश में नौकरी के लिए एजेंटों पर भरोसा करने वाले परिवारों के लिए चेतावनी।"
+   },
+   "local": true,
+   "d": "16.11.2026",
+   "t": "15:35"
+  },
+  {
+   "cat": "నల్గొండ · పెట్రోల్",
+   "col": "--c-money",
+   "art": "economy",
+   "stat": "లీటర్‌కు ₹10",
+   "statl": "అదనంగా వసూలు చేస్తున్నారని ఆరోపణ",
+   "h": "నల్గొండ బంకుల్లో పవర్ పెట్రోల్ బలవంతం",
+   "p": "నల్గొండ పట్టణంలోని పలు పెట్రోల్ బంకుల్లో సాధారణ పెట్రోల్ 'స్టాక్ లేదు' అని చెప్పి, లీటర్‌కు సుమారు ₹10 ఎక్కువ ఉండే పవర్ పెట్రోల్‌నే పోస్తున్నారని వాహనదారులు ఆరోపిస్తున్నారు. దీని గురించి బంకుల వద్ద ఎలాంటి సూచన బోర్డులు లేవని చెబుతున్నారు. విజిలెన్స్ అధికారులు జోక్యం చేసుకోవాలని కోరుతున్నారు. బంకుల యాజమాన్యాల స్పందన రాలేదు.",
+   "pts": [
+    "ప్రశ్నించిన వారిని సిబ్బంది పట్టించుకోవడం లేదని ఆరోపణ"
+   ],
+   "why": "నల్గొండలో రోజూ వాహనాలకు ఇంధనం నింపుకునే వారికి సంబంధించినది.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/nalgonda-suryapet/petrol-bunk-exploitation-alleged-forcing-power-petrol-on-motorists-213473",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "nalgonda",
+   "loc": "నల్గొండ",
+   "pub": "2026-11-16T12:13+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Nalgonda · Fuel",
+    "h": "Nalgonda bunks accused of pushing power petrol",
+    "stat": "₹10 a litre",
+    "statl": "Extra charged, motorists allege",
+    "loc": "Nalgonda",
+    "p": "Motorists allege that several petrol bunks in Nalgonda town say regular petrol is 'out of stock' and fill only power petrol, which costs about ₹10 more a litre. They say no notice boards inform customers about this, and want Vigilance officials to step in. There is no response from bunk owners.",
+    "pts": [
+     "Staff ignore those who question it, motorists allege"
+    ],
+    "why": "Concerns people who fill fuel daily in Nalgonda."
+   },
+   "hi": {
+    "cat": "नलगोंडा · पेट्रोल",
+    "h": "नलगोंडा पंपों पर पावर पेट्रोल थोपने का आरोप",
+    "stat": "₹10 प्रति लीटर",
+    "statl": "ज्यादा वसूली का आरोप",
+    "loc": "नलगोंडा",
+    "p": "वाहन चालकों का आरोप है कि नलगोंडा शहर के कई पेट्रोल पंप सामान्य पेट्रोल 'स्टॉक में नहीं' बताकर केवल पावर पेट्रोल भरते हैं, जो प्रति लीटर करीब ₹10 महंगा है। उनका कहना है कि इसकी कोई सूचना बोर्ड पर नहीं है और वे विजिलेंस अधिकारियों से कार्रवाई चाहते हैं। पंप मालिकों का जवाब नहीं आया है।",
+    "pts": [
+     "सवाल करने वालों को कर्मचारी अनसुना करते हैं: आरोप"
+    ],
+    "why": "नलगोंडा में रोज ईंधन भरवाने वालों से जुड़ा।"
+   },
+   "local": true,
+   "d": "16.11.2026",
+   "t": "15:35"
+  },
+  {
+   "cat": "తెలంగాణ · పౌర హక్కులు",
+   "col": "--c-gov",
+   "art": "court",
+   "stat": "ముందస్తు నిర్బంధం",
+   "statl": "ఖండించిన ఏపీసీఆర్",
+   "h": "టీ-హబ్ నిర్బంధాలపై ఏపీసీఆర్ ఖండన",
+   "p": "ఇజ్రాయెల్ సంస్థలతో టీ-హబ్ సమావేశానికి ముందు సోమవారం తెల్లవారుజామున తమ రాష్ట్ర సమన్వయకర్తను, ఎస్ఐఓ నేతలను పోలీసులు ముందస్తుగా నిర్బంధించడాన్ని పౌర హక్కుల సంస్థ ఏపీసీఆర్ ఖండించింది. శాంతియుత నిరసనను అడ్డుకోవడం భావప్రకటనా స్వేచ్ఛకు విరుద్ధమని ఆరోపించింది. బాధ్యులపై చర్యలు తీసుకోవాలని డిమాండ్ చేసింది. పోలీసుల స్పందన రాలేదు.",
+   "pts": [
+    "సమన్వయకర్తను ఆదిలాబాద్ జిల్లా ఇచ్చోడలో అదుపులోకి",
+    "ఎస్ఐఓ నేతలను మీర్‌చౌక్ పోలీస్ స్టేషన్‌లో ఉంచారు",
+    "న్యాయ బృందం జోక్యంతో సమన్వయకర్త విడుదల"
+   ],
+   "why": "రాష్ట్రంలో శాంతియుత నిరసన హక్కుపై జరుగుతున్న చర్చకు సంబంధించినది.",
+   "src": "Siasat Daily",
+   "url": "https://www.siasat.com/apcr-slams-telangana-police-over-detention-of-activists-3578681/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "హైదరాబాద్",
+   "pub": "2026-11-16T15:17+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Civil rights",
+    "h": "APCR slams detentions before T-Hub meet",
+    "stat": "Preventive detention",
+    "statl": "Condemned by APCR",
+    "loc": "Hyderabad",
+    "p": "Civil rights group APCR condemned the preventive detention of its state coordinator and SIO leaders by police early on Monday, ahead of a T-Hub meeting with Israeli firms. It alleged that stopping peaceful protest violates freedom of expression and demanded accountability. There is no police response yet.",
+    "pts": [
+     "Coordinator picked up at Ichoda, Adilabad district",
+     "SIO leaders held at Mir Chowk police station",
+     "Coordinator freed after legal team stepped in"
+    ],
+    "why": "Part of the debate on the right to peaceful protest in Telangana."
+   },
+   "hi": {
+    "cat": "तेलंगाना · नागरिक अधिकार",
+    "h": "टी-हब बैठक से पहले हिरासत पर एपीसीआर नाराज",
+    "stat": "एहतियाती हिरासत",
+    "statl": "एपीसीआर ने निंदा की",
+    "loc": "हैदराबाद",
+    "p": "नागरिक अधिकार संगठन एपीसीआर ने इजराइली कंपनियों के साथ टी-हब बैठक से पहले सोमवार तड़के अपने राज्य समन्वयक और एसआईओ नेताओं को पुलिस द्वारा एहतियाती हिरासत में लेने की निंदा की। उसका आरोप है कि शांतिपूर्ण विरोध रोकना अभिव्यक्ति की आज़ादी के खिलाफ है और उसने जवाबदेही मांगी। पुलिस का जवाब नहीं आया है।",
+    "pts": [
+     "समन्वयक को आदिलाबाद के इच्चोडा से उठाया",
+     "एसआईओ नेता मीर चौक थाने में रखे गए",
+     "कानूनी टीम के दखल से समन्वयक रिहा"
+    ],
+    "why": "तेलंगाना में शांतिपूर्ण विरोध के अधिकार पर बहस से जुड़ा।"
+   },
+   "local": true,
+   "d": "16.11.2026",
+   "t": "15:35"
+  },
   {
    "cat": "ఖమ్మం · జర్నలిస్టులు",
    "col": "--c-city",
