@@ -1,20 +1,7 @@
 {
   "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
-  "cutoff": "2026-11-16T12:35:00+05:30",
+  "cutoff": "2026-11-16T13:35:00+05:30",
   "runs": [
-    {
-      "window": "2026-11-13T18:05:00+05:30/2026-11-13T19:05:00+05:30",
-      "status": "completed-with-gaps",
-      "eligible": 8,
-      "published": 7,
-      "late": 2,
-      "sensitive": 2,
-      "corrected": 0,
-      "duplicates": 0,
-      "skipped": 1,
-      "review": 1,
-      "gaps": "18:35 run did not save state, so window is 18:05-19:05; lookback from 10:05. Read: TT KBR Park parking tower (19:05), UNI Naidu-TIME (18:57), ANI YSRCP claims (18:42), Just Security roundup (18:58; Iran/Hormuz, FBI Binance), IndToday OU hostel protest (15:37), Hans Bharat Summit (11:19). After END, left for next run: TT mule-accounts arrest (19:11), TT Hyderabad Valves (19:52), UNI Sridhar Babu investors (19:35), Punjab Kesari TPCC chief (19:36, no tz). Failed: Deccan Herald Naidu SIR remarks. Skipped: Euronews video bulletin (no content). Not surfaced: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters/AP. Districts searched: Warangal, Hanumakonda, Karimnagar, Peddapalli, Jagtial, Mahabubnagar, Mulugu, Bhupalpally, Mahabubabad, NTR, Guntur, Visakhapatnam, Kakinada, East Godavari, Nellore, Prakasam, Tirupati."
-    },
     {
       "window": "2026-11-13T19:05:00+05:30/2026-11-13T20:05:00+05:30",
       "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
       "skipped": 0,
       "review": 0,
       "gaps": "12:35 run started 12:38 IST; lookback from 04:05. Feeds fresh (12:12, 70/70 ok; 764 uncovered TG/AP). add_repo and WebFetch not available directly; existing clone reset to origin/main; articles read via sub-agents (search-then-fetch). Published: TT TG SSC fee deadline extended to Nov 26, ETV live blog TG rain Nov 19-21 (forecast, late), ETV Hakimpet police band meet (late), ETV Yadagirigutta Annakutotsavam Nov 24 (late). Duplicate: Mandi King/Tolichowki fire (covered 07:05). Already covered earlier: 4.63 lakh Cheyutha pensions (15 Nov). Not opened (search did not surface today's article; typed URLs refused): TT Ramnagar car into medical shop, TT/Siasat Mandi King fire spread, Siasat Chiranjeevi AI safeguards, NDTV Nalgonda boy Rs 26 cr, Eenadu/News18 Madanapalle fake CBI kidnap, 10TV Sankranti trains full, Eenadu IT corridor one-way loop, 10TV TGPSC 102 posts, Outlook AP MoU audit, HT Murasu Rs 2,484 cr, Hindu Nikhil Gupta, TT Ebola, Siasat Houthis 70 km, TT Poonch LoC. District searches limited (Hyderabad, Nalgonda, Annamayya/Madanapalle, Medak)."
+    },
+    {
+      "window": "2026-11-16T12:35:00+05:30/2026-11-16T13:35:00+05:30",
+      "status": "completed-with-gaps",
+      "eligible": 13,
+      "published": 11,
+      "late": 6,
+      "sensitive": 3,
+      "corrected": 0,
+      "duplicates": 0,
+      "skipped": 4,
+      "review": 0,
+      "gaps": "13:35 run started 13:38 IST (no 13:05 state saved, so window 12:35-13:35); lookback from 04:35. Feeds 12:49, 70/70 ok, 714 uncovered TG/AP (many already covered under other URLs). add_repo/WebFetch not available directly; existing clone reset to origin/main; articles read via sub-agents. Published: NewsMeter Nalgonda Airtel tower theft gang, 10TV TGPSC 102 posts, Siasat Hyderabad builders tanker water (claim), V6 tigers into TG, Siasat Ibrahimpatnam boy missing, V6 Kotapally sand seizure, Federal Akvan landfall Nellore-Tuni Nov 20 (forecast), DC Srikakulam BJP leader car at police, News Arena WPI 12.29%, PTI AI supply-chain declaration, ANI Xi-Trump-Putin summit. Skipped old: Hyderabad Mail gig-worker rules (14 Nov), AP SLPRB 1,156 posts (Sep), DC AP NCD survey (15 Nov 21:35, before lookback), HMTV Banaganapalle bus crash (15 Nov). Not opened: Samayam AP 4 universities (only Eenadu), Samayam Hyderabad 3 RTO offices, NIE digital arrest Rs 1.42 cr, NIE AP paddy purchase delay, NIE Prakasam tobacco no-bid, Hyderabad Mail Rs 1,298 cr land registrations. District searches (Nizamabad, Karimnagar, Adilabad, Siddipet, Kurnool, Nellore, Anantapur, Srikakulam) surfaced only listing pages."
     }
   ],
   "seen": [
@@ -5213,6 +5213,71 @@
       "url": "https://telanganatoday.com/hyderabad-fire-at-mandi-king-spreads-to-neighbouring-hotel-zunera-in-tolichowki",
       "d": "2026-11-16",
       "w": "duplicate"
+    },
+    {
+      "url": "https://newsmeter.in/crime/telecom-gang-busted-engineers-among-9-held-for-162-cr-airtel-tower-thefts-in-ap-telangana-779397",
+      "d": "2026-11-16",
+      "w": "p"
+    },
+    {
+      "url": "https://10tv.in/telugu-news/telangana/tgpsc-notification-released-for-102-mpso-and-aso-posts-in-telangana-sn-1158257.html",
+      "d": "2026-11-16",
+      "w": "p"
+    },
+    {
+      "url": "https://www.siasat.com/hyderabad-builders-pay-thrice-more-for-water-amid-borewell-curbs-3578462/",
+      "d": "2026-11-16",
+      "w": "p"
+    },
+    {
+      "url": "https://www.v6velugu.com/-tiger-movement-from-maharashtra-and-andhra-pradesh-to-telangana-forests-increases",
+      "d": "2026-11-16",
+      "w": "p"
+    },
+    {
+      "url": "https://www.siasat.com/seven-year-old-boy-goes-missing-near-school-in-ibrahimpatnam-3578501/",
+      "d": "2026-11-16",
+      "w": "p"
+    },
+    {
+      "url": "https://www.v6velugu.com/officials-seize-10-tractor-loads-of-illegally-stockpiling-sand-in-mancherial-district-",
+      "d": "2026-11-16",
+      "w": "p"
+    },
+    {
+      "url": "https://thefederal.com/category/news/cyclone-akvan-bay-of-bengal-east-coast-rainfall-weather-forecast-imd-263072",
+      "d": "2026-11-16",
+      "w": "p"
+    },
+    {
+      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/srikakulam-bjp-leader-rams-car-into-barricade2-cops-injured-2004791",
+      "d": "2026-11-16",
+      "w": "p"
+    },
+    {
+      "url": "https://newsarenaindia.com/business/india-s-wholesale-inflation-rises-to-12-29-percent-in-october-fuel-prices-surge/85466",
+      "d": "2026-11-16",
+      "w": "p"
+    },
+    {
+      "url": "https://www.greaterkashmir.com/world/india-us-eight-other-nations-sign-declaration-to-safeguard-ai-supply-chains-12813393",
+      "d": "2026-11-16",
+      "w": "p"
+    },
+    {
+      "url": "https://timesofoman.com/article/179215-china-confirms-first-xi-trump-putin-summit-on-november-19",
+      "d": "2026-11-16",
+      "w": "p"
+    },
+    {
+      "url": "https://hyderabadmail.com/telangana-gig-workers-welfare-rules-2026-12-rights/",
+      "d": "2026-11-16",
+      "w": "s"
+    },
+    {
+      "url": "https://www.hmtvlive.com/telugu-news/kurnool/nandyal-banaganapalli-rtc-hire-bus-hits-bike-9th-class-student-surya-kumar-213159",
+      "d": "2026-11-16",
+      "w": "s"
     }
   ]
 }
