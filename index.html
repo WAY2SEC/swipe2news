@@ -968,13 +968,13 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 
 /* gold · silver · copper card v2 (owner's template, 15 Nov 2026) */
 .story.s2n.wxs{background:#FFFBF4!important}
-.s2n.wxs .wxhero{position:relative;flex:0 0 auto;height:31%;min-height:140px;overflow:hidden;border-radius:inherit;border-bottom-left-radius:0;border-bottom-right-radius:0}
+.s2n.wxs .wxhero{position:relative;flex:0 0 auto;height:26%;min-height:120px;overflow:hidden;border-radius:inherit;border-bottom-left-radius:0;border-bottom-right-radius:0}
 .s2n.wxs .wxhero img{width:100%;height:100%;object-fit:cover;display:block}
 .s2n.wxs .wxfx{position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,251,244,0) 45%,#FFFBF4 100%)}
 .s2n.wx-cloud .wxhero img{filter:saturate(.45) brightness(.95) hue-rotate(-10deg)}.s2n.wx-cloud .wxfx{background:linear-gradient(180deg,rgba(120,135,160,.35),rgba(255,251,244,0) 50%,#FFFBF4 100%)}
 .s2n.wx-rain .wxhero img{filter:saturate(.35) brightness(.7) hue-rotate(160deg)}.s2n.wx-rain .wxfx{background:repeating-linear-gradient(105deg,rgba(255,255,255,.18) 0 1px,transparent 1px 9px),linear-gradient(180deg,rgba(30,63,115,.45),rgba(255,251,244,0) 55%,#FFFBF4 100%)}
 .s2n.wxs .wxtag{position:absolute;left:12px;top:12px;padding:5px 11px;border-radius:999px;background:rgba(255,251,244,.92);color:#4A0E3F;font:800 12px/1.2 var(--body)}
-.s2n.wxs .wxbody{background:transparent!important;padding:0 16px 8px!important;display:flex;flex-direction:column;gap:12px;flex:1;min-height:0;overflow:hidden;justify-content:flex-start}
+.s2n.wxs .wxbody{background:transparent!important;padding:0 16px 40px!important;display:flex;flex-direction:column;gap:10px;flex:1;min-height:0;overflow:hidden;justify-content:flex-start}
 .s2n.wxs .wxplace{margin-top:2px}
 .s2n.wxs .wxplace h3{margin:0;font:800 24px/1.25 var(--body);color:#4A0E3F}
 .s2n.wxs .wxplace small{display:block;margin-top:2px;font:600 13px/1.4 var(--body);color:#8C7786}
@@ -999,8 +999,14 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .s2n.wxs .wxlist .t{font:700 14px 'Outfit',var(--body);color:#8C7786}.s2n.wxs .wxlist .t b{color:#2E0827}
 .s2n.wxs .wxol{padding:9px 12px;border-radius:14px;background:#F4ECF1;color:#4A0E3F;font:700 12.5px/1.45 var(--body)}
 .s2n.wxs .wxlist div{padding:7px 12px!important}
+.s2n.wxs .wxact{display:grid;grid-template-columns:1fr 1.3fr;gap:8px}
+.s2n.wxs .wxact button{display:flex;align-items:center;justify-content:center;gap:8px;height:44px;border-radius:14px;cursor:pointer;font:800 14px var(--body)}
+.s2n.wxs .wxsh{border:1px solid #E4D3DE;background:#fff;color:#4A0E3F}
+.s2n.wxs .wxwa{border:1px solid #CDEBD8;background:#F1FBF5;color:#0E7A3E}
+.s2n.wxs .wxact{margin-top:auto}
+@media (max-height:760px){.s2n.wxs .wxhero{height:21%;min-height:100px}.s2n.wxs .wxbody{gap:8px}.s2n.wxs .wxplace h3{font-size:21px}.s2n.wxs .wxdeg{font-size:58px}.s2n.wxs .wxlist div{padding:5px 12px!important}.s2n.wxs .wxstats div{padding:6px}.s2n.wxs .wxol{padding:7px 10px;font-size:12px}.s2n.wxs .wxact button{height:40px}}
 .s2n.wxs .wxpick{margin:0;font:700 12.5px/1.4 var(--body);color:#9A5A00}
-.s2n.wxs .wxsrc{margin:auto 0 0;font:600 11px/1.45 var(--body);color:#9C8A96}
+.s2n.wxs .wxsrc{margin:0;text-align:center;font:600 11px/1.45 var(--body);color:#9C8A96}
 .story.s2n.metals2{background:radial-gradient(140% 90% at 100% 0%,#7A2A55 0%,#4A0E3F 45%,#2E0827 100%)!important}
 .s2n.metals2 .m2hd{padding:16px 16px 8px;color:#FFFDF5;text-align:center}
 .s2n.metals2 .m2t{font:800 clamp(26px,8.4vw,34px)/1.15 var(--body);letter-spacing:.2px}.s2n.metals2 .m2t i{color:#F5A23A;font-style:normal;margin:0 6px}
@@ -1662,11 +1668,11 @@ function metalsTableHTML(s,i){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=M
 </article>`; }
 /* weather card (user, 16 Nov 2026): IMD district forecast for the reader's district, from weather.json (weather task). Never shown when stale. */
 let WX=null; fetch('weather.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>{ if(!d||!d.d) return; WX=d; try{ if(view==='home'&&section==='all'&&LIST&&LIST.length&&cur<5&&!LIST.some(x=>x.kind==='wx')) renderFeed(keyOf(LIST[cur])); }catch(e){} }).catch(()=>{});
-const WXT={te:{hi:'గరిష్ఠం',lo:'కనిష్ఠం',bul:'బులెటిన్',rainTip:'వర్షం పడే అవకాశం – గొడుగు వెంట ఉంచుకోండి',srcN:{'IMD Meteorological Centre Hyderabad':'IMD వాతావరణ కేంద్రం, హైదరాబాద్','IMD Meteorological Centre Amaravati':'IMD వాతావరణ కేంద్రం, అమరావతి'},t:'వాతావరణం',sub:'IMD అంచనా',today:'ఈరోజు',tom:'రేపు',hum:'ఉదయం తేమ',wind:'గాలి',rain:'వర్షం',kmh:'కి.మీ/గం',mm:'మి.మీ',src:'మూలం',iss:'జారీ',note:'జిల్లా సగటు అంచనా',pick:'మీ జిల్లా ఎంచుకుంటే మీ ప్రాంత వాతావరణం చూపిస్తాం',cold:'రాత్రి చలి ఎక్కువ – పిల్లలు, పెద్దలు జాగ్రత్త',hot:'ఎండ ఎక్కువ – మధ్యాహ్నం జాగ్రత్త',warn:'హెచ్చరిక',
+const WXT={te:{share:'షేర్',hi:'గరిష్ఠం',lo:'కనిష్ఠం',bul:'బులెటిన్',rainTip:'వర్షం పడే అవకాశం – గొడుగు వెంట ఉంచుకోండి',srcN:{'IMD Meteorological Centre Hyderabad':'IMD వాతావరణ కేంద్రం, హైదరాబాద్','IMD Meteorological Centre Amaravati':'IMD వాతావరణ కేంద్రం, అమరావతి'},t:'వాతావరణం',sub:'IMD అంచనా',today:'ఈరోజు',tom:'రేపు',hum:'ఉదయం తేమ',wind:'గాలి',rain:'వర్షం',kmh:'కి.మీ/గం',mm:'మి.మీ',src:'మూలం',iss:'జారీ',note:'జిల్లా సగటు అంచనా',pick:'మీ జిల్లా ఎంచుకుంటే మీ ప్రాంత వాతావరణం చూపిస్తాం',cold:'రాత్రి చలి ఎక్కువ – పిల్లలు, పెద్దలు జాగ్రత్త',hot:'ఎండ ఎక్కువ – మధ్యాహ్నం జాగ్రత్త',warn:'హెచ్చరిక',
   d:{dry:'పొడి వాతావరణం',clear:'నిర్మలమైన ఆకాశం',part:'పాక్షికంగా మేఘాలు',cloudy:'ఆకాశం మేఘావృతం',drizzle:'చిరుజల్లులు',light:'తేలికపాటి వర్షం',mod:'ఓ మోస్తరు వర్షం',heavy:'భారీ వర్షం'},mon:['జన','ఫిబ్ర','మార్చి','ఏప్రి','మే','జూన్','జులై','ఆగ','సెప్టెం','అక్టో','నవం','డిసెం'],wd:['ఆది','సోమ','మంగళ','బుధ','గురు','శుక్ర','శని']},
- en:{hi:'High',lo:'Low',bul:'Bulletin',rainTip:'Rain likely – keep an umbrella handy',t:'Weather',sub:'IMD forecast',today:'Today',tom:'Tomorrow',hum:'Morning humidity',wind:'Wind',rain:'Rain',kmh:'km/h',mm:'mm',src:'Source',iss:'issued',note:'District average',pick:'Pick your district to see your local weather',cold:'Cold nights – keep children and elders warm',hot:'Strong sun – take care in the afternoon',warn:'Warning',
+ en:{share:'Share',hi:'High',lo:'Low',bul:'Bulletin',rainTip:'Rain likely – keep an umbrella handy',t:'Weather',sub:'IMD forecast',today:'Today',tom:'Tomorrow',hum:'Morning humidity',wind:'Wind',rain:'Rain',kmh:'km/h',mm:'mm',src:'Source',iss:'issued',note:'District average',pick:'Pick your district to see your local weather',cold:'Cold nights – keep children and elders warm',hot:'Strong sun – take care in the afternoon',warn:'Warning',
   d:{dry:'Dry weather',clear:'Clear sky',part:'Partly cloudy',cloudy:'Cloudy',drizzle:'Drizzle',light:'Light rain',mod:'Moderate rain',heavy:'Heavy rain'},mon:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],wd:['Sun','Mon','Tue','Wed','Thu','Fri','Sat']},
- hi:{hi:'अधिकतम',lo:'न्यूनतम',bul:'बुलेटिन',rainTip:'बारिश की संभावना – छाता साथ रखें',srcN:{'IMD Meteorological Centre Hyderabad':'IMD मौसम केंद्र, हैदराबाद','IMD Meteorological Centre Amaravati':'IMD मौसम केंद्र, अमरावती'},t:'मौसम',sub:'IMD पूर्वानुमान',today:'आज',tom:'कल',hum:'सुबह नमी',wind:'हवा',rain:'बारिश',kmh:'कि.मी/घं',mm:'मि.मी',src:'स्रोत',iss:'जारी',note:'ज़िले का औसत',pick:'अपना ज़िला चुनें, अपने इलाके का मौसम देखें',cold:'रातें ठंडी – बच्चों, बुज़ुर्गों का ध्यान रखें',hot:'तेज़ धूप – दोपहर में सावधान',warn:'चेतावनी',
+ hi:{share:'शेयर',hi:'अधिकतम',lo:'न्यूनतम',bul:'बुलेटिन',rainTip:'बारिश की संभावना – छाता साथ रखें',srcN:{'IMD Meteorological Centre Hyderabad':'IMD मौसम केंद्र, हैदराबाद','IMD Meteorological Centre Amaravati':'IMD मौसम केंद्र, अमरावती'},t:'मौसम',sub:'IMD पूर्वानुमान',today:'आज',tom:'कल',hum:'सुबह नमी',wind:'हवा',rain:'बारिश',kmh:'कि.मी/घं',mm:'मि.मी',src:'स्रोत',iss:'जारी',note:'ज़िले का औसत',pick:'अपना ज़िला चुनें, अपने इलाके का मौसम देखें',cold:'रातें ठंडी – बच्चों, बुज़ुर्गों का ध्यान रखें',hot:'तेज़ धूप – दोपहर में सावधान',warn:'चेतावनी',
   d:{dry:'सूखा मौसम',clear:'साफ़ आसमान',part:'आंशिक बादल',cloudy:'बादल छाए',drizzle:'बूंदाबांदी',light:'हल्की बारिश',mod:'मध्यम बारिश',heavy:'भारी बारिश'},mon:['जन','फ़र','मार्च','अप्रै','मई','जून','जुला','अग','सित','अक्टू','नव','दिस'],wd:['रवि','सोम','मंगल','बुध','गुरु','शुक्र','शनि']}};
 function wxToday(){ const ist=new Date(Date.now()+(330+new Date().getTimezoneOffset())*60000); return ist.getFullYear()+'-'+String(ist.getMonth()+1).padStart(2,'0')+'-'+String(ist.getDate()).padStart(2,'0'); }
 function wxItem(){ if(!WX||!WX.d) return null; const k0=(prefs&&prefs.place)||'TS'; let k=k0, picked=true;
@@ -1674,7 +1680,7 @@ function wxItem(){ if(!WX||!WX.d) return null; const k0=(prefs&&prefs.place)||'T
   const D=WX.d[k]; if(!D) return null; const b=(WX.bulletins||{})[D.st]||{}; if(b.stale) return null;
   const t=wxToday(), days=(D.days||[]).filter(x=>x.date>=t); if(!days.length||days[0].date!==t) return null;
   const ol=((WX.outlook||{})[D.st])||null, olOk=ol&&ol.to&&ol.to>=t;
-  return {kind:'wx', h:'weather', url:'https://swipe2news.com/#wx-'+k+'-'+t, k, picked, days:days.slice(0,5), b, ol:olOk?ol:null, warn:((WX.warnings||{})[D.st]||[])}; }
+  return {kind:'wx', h:'weather', url:'https://swipe2news.com/#wx-'+k+'-'+t, k, picked, days:days.slice(0,4), b, ol:olOk?ol:null, warn:((WX.warnings||{})[D.st]||[])}; }
 function wxKind(x){ const r=+x.rain||0; if(r>=64.5) return ['heavy','⛈️']; if(r>=15.6) return ['mod','🌧️']; if(r>=2.5) return ['light','🌦️']; if(r>0) return ['drizzle','🌦️']; if(x.cloud>=6) return ['cloudy','☁️']; if(x.cloud>=3) return ['part','⛅']; return ['clear','☀️']; }
 function wxHTML(s,i){ const l=TLG()?'en':LG(), T=WXT[l]||WXT.te, d0=s.days[0], [kk,ic]=wxKind(d0);
   const dlab=(x,n)=>{ if(n===0) return T.today; if(n===1) return T.tom; const dt=new Date(x.date+'T12:00:00+05:30'); return T.wd[dt.getDay()]; };
@@ -1688,17 +1694,29 @@ function wxHTML(s,i){ const l=TLG()?'en':LG(), T=WXT[l]||WXT.te, d0=s.days[0], [
   return `<article class="story s2n wxs wx-${mood}" aria-label="${esc(T.t)}">
   <div class="wxhero"><img src="${art}" alt="" decoding="async"><i class="wxfx"></i><span class="wxtag">${esc(T.t)} · IMD</span></div>
   <div class="text wxbody">
-   <div class="wxplace"><h3>${esc(dist)}</h3><small>${esc(T.sub)} · ${esc(dlab(d0,0))}, ${esc(dshort(d0.date))}</small></div>
+   <div class="wxplace"><h3>${esc(dist)}</h3><small>${esc(dlab(d0,0))}, ${esc(dshort(d0.date))} · ${esc(T.src)}: ${esc(cr)} · ${esc(T.note)}</small></div>
    <div class="wxmain"><div class="wxdeg">${Math.round(d0.tmax)}<sup>°</sup></div><div class="wxcond"><span class="ic">${ic}</span><b>${esc(T.d[kk])}</b><small>${esc(T.hi)} ${Math.round(d0.tmax)}° · ${esc(T.lo)} ${Math.round(d0.tmin)}°</small></div></div>
    <div class="wxstats"><div><small>${esc(T.hum)}</small><b>${d0.ham}%</b></div><div><small>${esc(T.wind)}</small><b>${Math.round(d0.wind)} <i>${esc(T.kmh)}</i></b></div><div><small>${esc(T.rain)}</small><b>${d0.rain} <i>${esc(T.mm)}</i></b></div></div>
    ${s.warn&&s.warn.length?`<div class="wxwarn">⚠️ <b>${esc(T.warn)}:</b> ${esc(s.warn.map(w=>w[l]||w.te||w.en||'').join(' · '))}</div>`:(tip?`<div class="wxtip">${esc(tip)}</div>`:'')}
    <div class="wxlist">${s.days.map((x,n)=>{ const [k2,i2]=wxKind(x); return `<div><span class="d">${esc(dlab(x,n))}</span><span class="i">${i2}</span><span class="c">${esc(T.d[k2])}</span><span class="t"><b>${Math.round(x.tmax)}°</b> ${Math.round(x.tmin)}°</span></div>`; }).join('')}</div>
    ${s.ol&&(s.ol[l]||s.ol.te)?`<div class="wxol">📅 ${esc(s.ol[l]||s.ol.te)}</div>`:''}
    ${s.picked?'':`<p class="wxpick">📍 ${esc(T.pick)}</p>`}
-   <p class="wxsrc">${esc(T.src)}: ${esc(cr)} · ${esc(T.note)}</p>
+   <div class="wxact"><button class="wxsh" type="button"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="2.6"/><circle cx="6" cy="12" r="2.6"/><circle cx="18" cy="19" r="2.6"/><path d="M8.3 10.8l7.4-4.2M8.3 13.2l7.4 4.2"/></svg>${esc(T.share)}</button><button class="wxwa" type="button">${walogo(22)}WhatsApp</button></div>
   </div>
   ${footHTML()}
 </article>`; }
+function wxShareText(s){ const l=TLG()?'en':LG(), T=WXT[l]||WXT.te; const dist=l==='te'?placeName(s.k):((PLACES.find(p=>p[0]===s.k)||[])[2]||s.k);
+  const dshort=x=>{ const m=/^\d{4}-(\d\d)-(\d\d)$/.exec(x||''); return m?(+m[2])+' '+T.mon[+m[1]-1]:''; };
+  const L=[`${wxKind(s.days[0])[1]} ${dist} ${T.t} – ${dshort(s.days[0].date)}`];
+  s.days.slice(0,3).forEach((x,n)=>{ const [k2,i2]=wxKind(x); L.push(`${n===0?T.today:n===1?T.tom:dshort(x.date)}: ${Math.round(x.tmax)}° / ${Math.round(x.tmin)}° · ${T.d[k2]} ${i2}`); });
+  if(s.warn&&s.warn.length) L.push('⚠️ '+s.warn.map(w=>w[l]||w.te||'').join(' · '));
+  if(s.ol&&(s.ol[l]||s.ol.te)) L.push('📅 '+(s.ol[l]||s.ol.te));
+  L.push('',`${T.src}: IMD · Swipe2News`,'👉 https://swipe2news.com/?cards=1');
+  return L.join('\n'); }
+document.addEventListener('click',e=>{ const b=e.target.closest('.wxs .wxsh,.wxs .wxwa'); if(!b) return; e.preventDefault(); e.stopPropagation();
+  const it=LIST.find(x=>x&&x.kind==='wx'); if(!it) return; const t=wxShareText(it);
+  if(b.classList.contains('wxwa')||!navigator.share){ window.open('https://wa.me/?text='+encodeURIComponent(t),'_blank','noopener'); return; }
+  navigator.share({text:t}).catch(()=>{}); },true);
 function withWx(list){ if(view!=='home'||section!=='all'||list.length<7) return list; const it=wxItem(); if(!it) return list; const o=list.slice(); o.splice(6,0,it); return o; }
 function withMetals(list){ if(view!=='home'||section!=='all'||list.length<10) return list; const mi=metalsItem(); if(!mi) return list; const o=list.slice(); o.splice(9,0,mi); return o; }
 function withMandi(list){ if(view!=='home'||section!=='all'||list.length<4) return list; const mi=mandiItem(); if(!mi) return list; const o=list.slice(); o.splice(3,0,mi); return o; }
