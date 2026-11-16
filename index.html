@@ -14,11 +14,13 @@ gtag('event','app_open',{source:s});if(f)gtag('event','app_first_open',{source:s
 /* Safety net (10 Nov 2026): if no news shows within 12 s, show the reason + a one-tap reset (keeps language/place). Plain ES5 so it runs on every phone. */
 (function(){var errs=[],shown=0;
 function bad(){var t=document.getElementById('tabs'),f=document.getElementById('feed');var n=f?f.children.length:0;if(n===1&&f.firstElementChild&&f.firstElementChild.className==='ssr')n=0;return !!(t&&f&&!t.children.length&&!n);}
-function box(){if(shown||!bad())return;shown=1;var msg=errs.length?errs.slice(0,3).join(' | '):'no news after 12 s';
+function box(){if(shown||!bad())return;if(document.hidden){setTimeout(box,5000);return;}shown=1;var msg=errs.length?errs.slice(0,3).join(' | '):'no news after 12 s';
  try{if(window.gtag)gtag('event','js_error',{msg:msg.slice(0,150)});}catch(e){}
  var d=document.createElement('div');d.id='w2sErr';d.style.cssText='position:fixed;left:14px;right:14px;top:30%;z-index:99999;background:#fff;color:#111;border-radius:18px;padding:18px;font:16px/1.45 system-ui,sans-serif;box-shadow:0 12px 48px rgba(0,0,0,.6)';
  d.innerHTML='<b>వార్తలు లోడ్ కాలేదు · News did not load</b><div style="font-size:12px;color:#555;margin:8px 0 14px;word-break:break-word">'+msg.replace(/[<>&]/g,'')+'</div><button id="w2sFix" type="button" style="width:100%;padding:13px;border:0;border-radius:12px;background:#4A0E3F;color:#fff;font-weight:700;font-size:16px">🔄 రీసెట్ చేసి మళ్లీ తెరవండి</button>';
  document.body.appendChild(d);
+ /* slow network: news can still arrive after the box shows – then close it by itself */
+ var iv=setInterval(function(){if(!bad()){clearInterval(iv);if(d.parentNode)d.parentNode.removeChild(d);shown=0;}},800);
  document.getElementById('w2sFix').onclick=function(){var go=function(){location.replace(location.pathname+'?r='+Date.now());};
   try{var p=localStorage.getItem('w2s.prefs'),ks=[];for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(k&&k.indexOf('w2s.')===0)ks.push(k);}for(var j=0;j<ks.length;j++)localStorage.removeItem(ks[j]);if(p)localStorage.setItem('w2s.prefs',p);}catch(e){}
   try{if(navigator.serviceWorker&&navigator.serviceWorker.getRegistrations){navigator.serviceWorker.getRegistrations().then(function(rs){for(var i=0;i<rs.length;i++)rs[i].unregister();}).then(function(){return window.caches?caches.keys().then(function(ks){return Promise.all(ks.map(function(k){return caches.delete(k);}));}):0;}).then(go,go);return;}}catch(e){}
