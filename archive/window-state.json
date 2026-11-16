@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-16T19:35:00+05:30",
+ "cutoff": "2026-11-16T20:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-14T09:05:00+05:30/2026-11-14T09:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "09:35 run started 09:36 IST. Lookback from 01:05 14 Nov. Read: Siasat elephant Old City procession (08:23), Siasat UN Yemen/IANS (09:06), AJ live blog (no items after 07:40), ETV AP live blog (no items after 06:39). Published both. Not reached: ETV TG live blog (fetch permission not answered), Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; search results mostly stale. Districts searched: Kamareddy, Nirmal, Jagtial, Peddapalli, Mulugu, Mahabubabad, Medchal, Sangareddy, Kakinada, East Godavari, Palnadu, Bapatla, Nandyal, ASR."
-  },
   {
    "window": "2026-11-14T09:35:00+05:30/2026-11-14T10:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "19:35 run started 19:38 IST; lookback from 11:05. Feeds 19:12, 70/70 ok, 410 uncovered TG/AP in lookback (most already covered under other wording). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. thehindu.com could not be opened (domain search 400, fetch timeout). Published 11: UNI TG house pattas 7 lakh, NewsMeter PIT-NDPS ganja detention, TT Karthik Agneya Goa swim, HMTV Kadiri axe attack (sensitive), Siasat Kondurg helpers honoured, TT IITH water, TT river boards/Srisailam (claim), Vaartha Vizag 30 e-buses, Jagran/Reuters unemployment 4.9%, BS edible oil import bill, Siasat/AP Jordan Telegram. Skipped: Hussain Sagar campaign (published 05:55, before lookback; likely club press release), AP Investment Protection Act (only 12 Nov coverage reachable), Vidya Vahini (launched 11 Nov). Not opened: Hindu AP Energy Minister DISCOMs Akvan, Hindu NTR district three-phase panchayat polls. Build step rewrote index.html/sitemap.xml/en/hi/te; reverted."
+  },
+  {
+   "window": "2026-11-16T19:35:00+05:30/2026-11-16T20:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 11,
+   "published": 8,
+   "late": 2,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "20:05 run started 20:06 IST; lookback from 11:35. Feeds 19:51, 70/70 ok, 840 uncovered TG/AP (108 new since 19:10, most minor/entertainment or covered under other wording). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 8: NewsMeter Cherlapally empty coach fire, NewsMeter TG SAFE 23 pharmacies suspended, NewsMeter HC HYDRAA chief Shamshabad contempt (claim), TT BRS Hyderabad water crisis (claim), HMTV Nagarkurnool critical care hospital, HMTV Bhupalpally Sagara protest (claim), NewsBytes Vijayawada no-fly zone for Amit Shah, DC/PTI Census phase-2 self-enumeration. Duplicates: Attapur/Manmohan Singh flyover stunts, old pension mass leave, Cyclone Akwan. Not opened: Hindu TGEJAC PRC (fetch permission timeout), NIE Bangladesh/Hasina (search 400), PIB India-Thailand JTC (not in search), BigTv AP tractor-students accident (not found). District sweep: Gadwal, Medak, Chittoor/Annamayya/Prakasam/Krishna/West Godavari searches returned nothing in window (two domain searches rejected 400). Build step rewrote index.html/sitemap.xml/en/hi/te; reverted."
   }
  ],
  "seen": [
@@ -5428,6 +5428,46 @@
    "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhras-proposed-investment-protection-act-seeks-to-shield-investors-from-policy-u-turns/article71707378.ece",
    "d": "2026-11-16",
    "w": "skipped"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/hyderabad-fire-breaks-out-in-empty-train-coach-at-cherlapally-railway-station-no-casualties-779436",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/science-health/telangana-suspends-23-pharmacies-linked-to-zepto-netmeds-over-drug-rule-violations-779434",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/hydraa/why-did-telangana-high-court-summon-hydraa-chief-and-shamshabad-tahsildar-779431",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/brs-raises-concern-over-worsening-drinking-water-crisis-in-hyderabad",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/mahaboobnagar/nagarkurnool-collector-directs-speedy-critical-care-launch-213724",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/warangal/bhupalpally-uppara-community-protests-at-collectorate-213716",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.newsbytesapp.com/news/india/amit-shah-s-visit-no-flying-zone-in-vijayawada-strict-action-if-drones-are-flown/story",
+   "d": "2026-11-16",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/nation/census-self-enumeration-begins-in-poll-bound-states-ahead-of-phase-2-2004921",
+   "d": "2026-11-16",
+   "w": "published"
   }
  ]
 }
