@@ -1,8 +1,503 @@
 {
- "date": "17.11.2026",
- "updated": "2026-11-17T23:35:00+05:30",
+ "date": "18.11.2026",
+ "updated": "2026-11-18T05:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "ఏపీ · వాతావరణం",
+   "col": "--c-water",
+   "art": "rain",
+   "stat": "నవంబర్ 20న",
+   "statl": "తీరం దాటే అవకాశం",
+   "h": "అక్వాన్ తుపాను: ఏపీకి ఆరెంజ్ అలర్ట్",
+   "p": "బంగాళాఖాతంలోని అక్వాన్ అతి తీవ్ర తుపానుగా మారిందని, దీంతో ఏపీ, దక్షిణ ఒడిశాకు ఆరెంజ్ అలర్ట్ ఇచ్చామని ఐఎండీ తెలిపింది. ఇది శుక్రవారం మధ్యాహ్నం నెల్లూరు–తుని మధ్య తీరం దాటే అవకాశం ఉంది. గంటకు 120–130 కిలోమీటర్ల వేగంతో, కొన్నిసార్లు 145 కిలోమీటర్ల వేగంతో గాలులు వీస్తాయని అంచనా. బుధవారం సాయంత్రం నుంచే తీరంలో బలమైన గాలులు మొదలవుతాయి.",
+   "pts": [
+    "కోనసీమ, గోదావరి, కృష్ణా, బాపట్లలో 21 సెంటీమీటర్లకు పైగా వర్షం సూచన",
+    "ఆరు తీర జిల్లాల్లో 1–2 మీటర్ల ఎత్తు అలలు ఎగసే అవకాశం",
+    "నవంబర్ 20 వరకు చేపల వేటకు వెళ్లవద్దని ఆదేశం"
+   ],
+   "why": "తీర ప్రాంత ప్రజలు, మత్స్యకారులు, రైతులు జాగ్రత్తలు తీసుకోవాల్సిన సమయం ఇది.",
+   "next": "శుక్రవారం (నవంబర్ 20) మధ్యాహ్నం తీరం దాటే అవకాశం",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/amaravati/orange-alert-for-ap-as-akvan-nears-coast-1143080",
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "pub": "2026-11-18T01:19+05:30",
+   "lbl": "forecast",
+   "en": {
+    "cat": "AP · Weather",
+    "h": "Cyclone Akvan: orange alert for AP",
+    "stat": "Nov 20",
+    "statl": "likely landfall",
+    "p": "IMD said Akvan has become a very severe cyclonic storm and issued an orange alert for Andhra Pradesh and south Odisha. It is likely to cross the coast between Nellore and Tuni on Friday afternoon. Winds of 120–130 km/h, gusting to 145 km/h, are expected. Strong coastal winds begin from Wednesday evening.",
+    "pts": [
+     "Over 21 cm rain forecast in Konaseema, Godavari, Krishna, Bapatla",
+     "Storm surge of 1–2 m possible in six coastal districts",
+     "Fishing banned until November 20"
+    ],
+    "why": "Coastal residents, fishermen and farmers need to take precautions now.",
+    "next": "Landfall likely on Friday (November 20) afternoon",
+    "loc": "Coastal Andhra Pradesh"
+   },
+   "hi": {
+    "cat": "आंध्र · मौसम",
+    "h": "चक्रवात अक्वान: आंध्र में ऑरेंज अलर्ट",
+    "stat": "20 नवंबर",
+    "statl": "तट पार करने की संभावना",
+    "p": "आईएमडी ने बताया कि अक्वान अति गंभीर चक्रवाती तूफान बन गया है और आंध्र प्रदेश व दक्षिण ओडिशा के लिए ऑरेंज अलर्ट जारी किया। यह शुक्रवार दोपहर नेल्लोर और तुनी के बीच तट पार कर सकता है। 120–130 किमी प्रति घंटे, झोंकों में 145 किमी तक की हवाओं का अनुमान है। बुधवार शाम से तट पर तेज़ हवाएं शुरू होंगी।",
+    "pts": [
+     "कोनसीमा, गोदावरी, कृष्णा, बापटला में 21 सेमी से अधिक बारिश का अनुमान",
+     "छह तटीय जिलों में 1–2 मीटर ऊंची लहरें संभव",
+     "20 नवंबर तक मछली पकड़ने पर रोक"
+    ],
+    "why": "तटीय लोगों, मछुआरों और किसानों को अभी सावधानी बरतनी होगी।",
+    "next": "शुक्रवार (20 नवंबर) दोपहर तट पार करने की संभावना",
+    "loc": "तटीय आंध्र प्रदेश"
+   },
+   "d": "18.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ఏపీ · మత్స్యకారులు",
+   "col": "--c-water",
+   "art": "water",
+   "stat": "30 వేల పడవలు",
+   "statl": "తీరానికి రప్పిస్తున్నారు",
+   "h": "అక్వాన్: తీరానికి 30 వేల పడవలు",
+   "p": "అక్వాన్ తుపాను నేపథ్యంలో సముద్రంలో ఉన్న సుమారు 30 వేల పడవలను, మత్స్యకారులను తీరానికి రప్పించేందుకు ఏపీ ప్రభుత్వం ప్రయత్నిస్తోంది. దగ్గరలోని ల్యాండింగ్ కేంద్రాలకు చేరుకోవాలని సూచించింది. చాలా పడవలు ఇప్పటికే తీరానికి చేరాయని మత్స్యశాఖ జాయింట్ డైరెక్టర్ పి. సురేష్ తెలిపారు. తుపాను గాలులకు పడవలు, వలలు దెబ్బతినే ప్రమాదం ఉందని అధికారులు హెచ్చరించారు.",
+   "pts": [
+    "బాపట్ల ప్రాంతానికి చెందిన 18 మెకనైజ్డ్ పడవలు ఇంకా రావాల్సి ఉంది",
+    "ఒడిశా ల్యాండింగ్ కేంద్రాల వినియోగానికి అనుమతి కోరిన ఏపీ",
+    "చెరువుల యజమానులు జనరేటర్లు సిద్ధం చేసుకోవాలని సూచన"
+   ],
+   "why": "తీర ప్రాంత మత్స్యకార కుటుంబాల ప్రాణాలు, జీవనోపాధికి సంబంధించిన విషయం.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/efforts-on-to-bring-sailing-fishermen-back-to-shore-due-to-cyclone-akvan-2005342",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "pub": "2026-11-17T23:17+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Fishermen",
+    "h": "Akvan: 30,000 boats called back",
+    "stat": "30,000 boats",
+    "statl": "being brought back",
+    "p": "Ahead of Cyclone Akvan, the AP government is working to bring about 30,000 boats and their fishermen back to shore. It asked them to reach the nearest landing centres. Fisheries joint director P. Suresh said most boats have already reached the coast. Officials warned that gales could damage boats and nets.",
+    "pts": [
+     "18 mechanised boats from Bapatla area yet to return",
+     "AP asked Odisha to let its boats use landing centres",
+     "Pond owners told to keep generators ready"
+    ],
+    "why": "Concerns the lives and livelihoods of coastal fishing families.",
+    "loc": "Andhra Pradesh coast"
+   },
+   "hi": {
+    "cat": "आंध्र · मछुआरे",
+    "h": "अक्वान: 30 हज़ार नावें तट पर बुलाईं",
+    "stat": "30 हज़ार नावें",
+    "statl": "तट पर लाने की कोशिश",
+    "p": "चक्रवात अक्वान से पहले आंध्र सरकार समुद्र में मौजूद करीब 30 हज़ार नावों और मछुआरों को तट पर वापस लाने में जुटी है। उन्हें नज़दीकी लैंडिंग केंद्रों पर पहुंचने को कहा गया। मत्स्य संयुक्त निदेशक पी. सुरेश ने कहा कि ज़्यादातर नावें लौट आई हैं। अधिकारियों ने चेताया कि तेज़ हवाओं से नावें और जाल खराब हो सकते हैं।",
+    "pts": [
+     "बापटला क्षेत्र की 18 मशीनी नावें अभी लौटनी बाकी",
+     "आंध्र ने ओडिशा से लैंडिंग केंद्रों के उपयोग की अनुमति मांगी",
+     "तालाब मालिकों को जनरेटर तैयार रखने की सलाह"
+    ],
+    "why": "तटीय मछुआरा परिवारों की जान और रोज़ी-रोटी से जुड़ा मामला।",
+    "loc": "आंध्र प्रदेश तट"
+   },
+   "d": "18.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ఏపీ · విద్యుత్",
+   "col": "--c-power",
+   "art": "power",
+   "stat": "1912",
+   "statl": "విద్యుత్ టోల్ ఫ్రీ నంబర్",
+   "h": "అక్వాన్: నెల్లూరు, ప్రకాశంలో అలర్ట్",
+   "p": "అక్వాన్ తుపాను తీరం దాటనున్న నేపథ్యంలో నెల్లూరు, ప్రకాశం జిల్లాల్లో విద్యుత్ శాఖ ప్రత్యేక బృందాలు, యంత్రాలు, కంట్రోల్ రూమ్‌లను సిద్ధం చేసింది. ఏపీఎస్‌పీడీసీఎల్, ఏపీసీపీడీసీఎల్ సీఎండీలు హై అలర్ట్ ప్రకటించారు. నెల్లూరులో జేసీబీలు, క్రేన్లు, సామగ్రితో ప్రత్యేక బృందాలను మోహరించారు. ప్రకాశంలో సర్కిల్, డివిజన్ స్థాయిలో కంట్రోల్ రూమ్‌లు పనిచేస్తున్నాయి. ముందుజాగ్రత్తగా చెట్ల కొమ్మలను తొలగిస్తున్నారు.",
+   "pts": [
+    "టోల్ ఫ్రీ 1800 425 155333, వాట్సాప్ 91333 31912",
+    "తెగిన తీగలు, పడిన స్తంభాలను తాకవద్దని హెచ్చరిక",
+    "బృందాలు రాత్రింబవళ్లు పనిచేస్తాయని అధికారులు"
+   ],
+   "why": "తుపాను సమయంలో కరెంటు సమస్య వస్తే ఈ రెండు జిల్లాల ప్రజలు ఈ నంబర్లకు ఫోన్ చేయవచ్చు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/power-utilities-in-nellore-prakasam-districts-gear-up-for-cyclone-akvan-2005340",
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "AP",
+   "place": "ap-nellore",
+   "pub": "2026-11-17T23:12+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Power",
+    "h": "Akvan: power alert in Nellore, Prakasam",
+    "stat": "1912",
+    "statl": "toll-free power helpline",
+    "p": "Ahead of Cyclone Akvan's landfall, power utilities in Nellore and Prakasam districts have readied special teams, machinery and control rooms. APSPDCL and APCPDCL CMDs declared a high alert. Teams with JCBs and cranes are deployed in Nellore, and Prakasam has circle- and division-level control rooms. Tree branches are being cleared in advance.",
+    "pts": [
+     "Toll-free 1800 425 155333, WhatsApp 91333 31912",
+     "Public told not to touch snapped wires or fallen poles",
+     "Teams to work round the clock, officials say"
+    ],
+    "why": "Residents of these two districts can call these numbers for power problems during the cyclone.",
+    "loc": "Nellore and Prakasam districts"
+   },
+   "hi": {
+    "cat": "आंध्र · बिजली",
+    "h": "अक्वान: नेल्लोर, प्रकाशम में बिजली अलर्ट",
+    "stat": "1912",
+    "statl": "बिजली शिकायत टोल-फ्री नंबर",
+    "p": "चक्रवात अक्वान के तट पार करने से पहले नेल्लोर और प्रकाशम जिलों में बिजली विभाग ने विशेष टीमें, मशीनें और कंट्रोल रूम तैयार किए हैं। APSPDCL और APCPDCL के सीएमडी ने हाई अलर्ट घोषित किया। नेल्लोर में जेसीबी और क्रेन के साथ टीमें तैनात हैं, प्रकाशम में सर्कल और डिवीजन स्तर पर कंट्रोल रूम हैं। पेड़ों की टहनियां पहले से हटाई जा रही हैं।",
+    "pts": [
+     "टोल-फ्री 1800 425 155333, व्हाट्सऐप 91333 31912",
+     "टूटे तार और गिरे खंभे न छूने की चेतावनी",
+     "अधिकारी: टीमें चौबीसों घंटे काम करेंगी"
+    ],
+    "why": "चक्रवात के दौरान बिजली समस्या होने पर दोनों जिलों के लोग इन नंबरों पर फोन कर सकते हैं।",
+    "loc": "नेल्लोर और प्रकाशम जिले"
+   },
+   "d": "18.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ఏపీ · మున్సిపల్ ఎన్నికలు",
+   "col": "--c-election",
+   "art": "voters",
+   "stat": "నామినేషన్లు",
+   "statl": "కావలిలో ఉద్రిక్తత",
+   "h": "కావలి నామినేషన్ల పరిశీలనలో ఉద్రిక్తత",
+   "p": "నెల్లూరు జిల్లా కావలి మున్సిపల్ కార్యాలయంలో మంగళవారం నామినేషన్ల పరిశీలన సమయంలో ఉద్రిక్తత నెలకొంది. ఒక కౌన్సిలర్ అభ్యర్థి పేరు ఆధార్‌లో వేరుగా ఉందని అభ్యంతరం రావడంతో టీడీపీ, వైఎస్సార్‌సీపీ కార్యకర్తలు ఘర్షణకు దిగారు. నామినేషన్ తిరస్కరించాలన్న ప్రయత్నంపై వైఎస్సార్‌సీపీ నేతలు నిరసన తెలపగా, ఎమ్మెల్యే మద్దతుదారులు కూడా కార్యాలయానికి చేరుకున్నారు. ఇరువర్గాలు నినాదాలు చేశాయి.",
+   "pts": [
+    "అభ్యర్థి సహాయ పత్రాలు సమర్పించారు",
+    "పోలీసుల తీరుపై ఎమ్మెల్యే ఎస్పీకి ఫిర్యాదు చేశారని కథనం"
+   ],
+   "why": "కావలి మున్సిపల్ ఎన్నికల్లో పోటీ చేసే అభ్యర్థులు, ఓటర్లకు సంబంధించిన విషయం.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/tension-over-name-mismatch-during-scrutiny-of-nominations-in-kavali-2005360",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-nellore",
+   "loc": "కావలి",
+   "pub": "2026-11-17T23:42+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "AP · Civic polls",
+    "h": "Tension at Kavali nomination scrutiny",
+    "stat": "Nomination scrutiny",
+    "statl": "tension in Kavali",
+    "p": "Tension broke out at the Kavali municipal office in Nellore district on Tuesday during scrutiny of nominations. After an objection that a council candidate's name differed on his Aadhaar card, TDP and YSRCP workers clashed. YSRCP leaders protested the move to reject the nomination, and the MLA's supporters also reached the office. Both sides raised slogans.",
+    "pts": [
+     "The candidate submitted supporting documents",
+     "MLA reportedly complained to SP about police handling"
+    ],
+    "why": "Concerns candidates and voters in the Kavali municipal election.",
+    "loc": "Kavali, Nellore"
+   },
+   "hi": {
+    "cat": "आंध्र · नगर निकाय चुनाव",
+    "h": "कावली नामांकन जांच में तनाव",
+    "stat": "नामांकन जांच",
+    "statl": "कावली में तनाव",
+    "p": "नेल्लोर जिले के कावली नगर कार्यालय में मंगलवार को नामांकन जांच के दौरान तनाव हो गया। एक पार्षद उम्मीदवार का नाम आधार में अलग होने पर आपत्ति के बाद टीडीपी और वाईएसआरसीपी कार्यकर्ता भिड़ गए। नामांकन खारिज करने की कोशिश पर वाईएसआरसीपी नेताओं ने विरोध किया और विधायक के समर्थक भी कार्यालय पहुंचे। दोनों पक्षों ने नारे लगाए।",
+    "pts": [
+     "उम्मीदवार ने सहायक दस्तावेज़ जमा किए",
+     "खबर के अनुसार विधायक ने पुलिस रवैये पर एसपी से शिकायत की"
+    ],
+    "why": "कावली नगर चुनाव के उम्मीदवारों और मतदाताओं से जुड़ा मामला।",
+    "loc": "कावली, नेल्लोर"
+   },
+   "d": "18.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "తెలంగాణ · పింఛన్లు",
+   "col": "--c-gov",
+   "art": "unity",
+   "stat": "పింఛన్ సభలు",
+   "statl": "పార్టీల ఘర్షణలు",
+   "h": "చేయూత పింఛన్ల సభల్లో పార్టీల ఘర్షణలు",
+   "p": "తెలంగాణలో మంగళవారం చేయూత పింఛన్ల మంజూరు పత్రాల పంపిణీ కార్యక్రమాల్లో పలుచోట్ల కాంగ్రెస్, బీఆర్ఎస్, బీజేపీ కార్యకర్తల మధ్య ఘర్షణలు జరిగాయని తెలంగాణ టుడే పేర్కొంది. వేదికపై స్థానం, ప్రొటోకాల్ విషయంలో వాగ్వాదాలు జరిగాయి. సిద్దిపేట, ఆదిలాబాద్, యాదాద్రి భువనగిరి జిల్లాల్లో ఉద్రిక్తత నెలకొంది. పలుచోట్ల బీఆర్ఎస్ నేతలను వేదికపైకి రానివ్వలేదని కథనం పేర్కొంది.",
+   "pts": [
+    "సిద్దిపేటలో ఎంపీ, ఎమ్మెల్యే మధ్య వాగ్వాదం",
+    "ఆదిలాబాద్‌లో ఫొటోల విషయంలో కార్యకర్తల తోపులాట అని కథనం",
+    "ఏర్పాట్లు పక్కాగా చేశామన్న ప్రభుత్వం"
+   ],
+   "why": "పింఛన్ పత్రాల కోసం వచ్చిన వృద్ధులు, దివ్యాంగులు, లబ్ధిదారులకు ఇబ్బంది కలిగించిన విషయం.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/cheyutha-pension-programme-witnesses-clashes-across-telangana",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "pub": "2026-11-18T00:29+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Pensions",
+    "h": "Clashes at Cheyutha pension events",
+    "stat": "Cheyutha pensions",
+    "statl": "clashes at events",
+    "p": "Telangana Today reported clashes between Congress, BRS and BJP workers at several Cheyutha pension sanction-letter events across Telangana on Tuesday. Arguments broke out over stage seats and protocol. Tension was seen in Siddipet, Adilabad and Yadadri Bhuvanagiri districts. The report said BRS leaders were kept off the stage at several venues.",
+    "pts": [
+     "Argument between an MP and an MLA in Siddipet",
+     "Workers reportedly scuffled over photos in Adilabad",
+     "Government says elaborate arrangements were made"
+    ],
+    "why": "Affected elderly, disabled and other beneficiaries who came for pension letters.",
+    "loc": "Telangana"
+   },
+   "hi": {
+    "cat": "तेलंगाना · पेंशन",
+    "h": "चेयूता पेंशन कार्यक्रमों में झड़पें",
+    "stat": "चेयूता पेंशन",
+    "statl": "कार्यक्रमों में झड़पें",
+    "p": "तेलंगाना टुडे के अनुसार मंगलवार को तेलंगाना में कई जगह चेयूता पेंशन स्वीकृति पत्र वितरण कार्यक्रमों में कांग्रेस, बीआरएस और भाजपा कार्यकर्ताओं में झड़पें हुईं। मंच पर जगह और प्रोटोकॉल को लेकर बहस हुई। सिद्दिपेट, आदिलाबाद और यादाद्री भुवनगिरी जिलों में तनाव रहा। रिपोर्ट के अनुसार कई जगह बीआरएस नेताओं को मंच पर नहीं आने दिया गया।",
+    "pts": [
+     "सिद्दिपेट में सांसद और विधायक में बहस",
+     "खबर के अनुसार आदिलाबाद में फोटो को लेकर धक्का-मुक्की",
+     "सरकार: पूरी व्यवस्था की गई थी"
+    ],
+    "why": "पेंशन पत्र लेने आए बुज़ुर्गों, दिव्यांगों और लाभार्थियों को परेशानी हुई।",
+    "loc": "तेलंगाना"
+   },
+   "d": "18.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "మేడ్చల్ · నీరు",
+   "col": "--c-water",
+   "art": "water",
+   "stat": "74 శాతం",
+   "statl": "అక్టోబర్‌లో వర్షపాతం లోటు",
+   "h": "మేడ్చల్‌లో పడిపోయిన భూగర్భ జలాలు",
+   "p": "మేడ్చల్–మల్కాజిగిరి జిల్లాలో అక్టోబర్‌లో 74 శాతం వర్షపాతం లోటు నమోదైందని భూగర్భ జల శాఖ నివేదిక తెలిపింది. సగటు నీటిమట్టం గత నవంబర్‌లో 6.51 మీటర్లు ఉండగా, ఇప్పుడు 12.67 మీటర్ల లోతుకు పడిపోయింది. దీంతో వచ్చే వేసవిలో నీటి సరఫరాపై కాలనీ సంఘాలు, మల్కాజిగిరి పురపాలక సంస్థ, జలమండలి ఆందోళన వ్యక్తం చేశాయి.",
+   "pts": [
+    "దుండిగల్–గండిమైసమ్మలో 37.63 మీటర్ల లోతులో నీరు",
+    "బాచుపల్లిలో 36.54 శాతం తగ్గిన నీటిమట్టం",
+    "ఉప్పల్, మల్కాజిగిరి ప్రమాదకర జోన్‌లో"
+   ],
+   "why": "మేడ్చల్ జిల్లా, హైదరాబాద్ శివారు కాలనీల్లో వేసవి నీటి కొరతకు ఇది సూచన.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/groundwater-depletion-raises-summer-water-concerns-in-medchal-district",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "medchal",
+   "pub": "2026-11-18T01:09+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Medchal · Water",
+    "h": "Groundwater falls sharply in Medchal",
+    "stat": "74%",
+    "statl": "rainfall deficit in October",
+    "p": "Medchal-Malkajgiri district recorded a 74% rainfall deficit in October, a Groundwater Department report said. The average water level fell from 6.51 metres last November to 12.67 metres below ground now. Resident associations, the Malkajgiri civic body and HMWSSB have raised concerns over next summer's water supply.",
+    "pts": [
+     "Water at 37.63 m depth in Dundigal-Gandimaisamma",
+     "Water table down 36.54% in Bachupally",
+     "Uppal, Malkajgiri in vulnerable zone"
+    ],
+    "why": "Signals summer water shortage for Medchal and Hyderabad's suburban colonies.",
+    "loc": "Medchal-Malkajgiri"
+   },
+   "hi": {
+    "cat": "मेडचल · पानी",
+    "h": "मेडचल में भूजल स्तर तेज़ी से गिरा",
+    "stat": "74%",
+    "statl": "अक्टूबर में बारिश की कमी",
+    "p": "भूजल विभाग की रिपोर्ट के अनुसार मेडचल-मलकाजगिरी जिले में अक्टूबर में 74% कम बारिश हुई। औसत जलस्तर पिछले नवंबर के 6.51 मीटर से गिरकर अब 12.67 मीटर गहराई पर पहुंच गया है। कॉलोनी संघों, मलकाजगिरी नगर निकाय और जल बोर्ड ने अगली गर्मी में पानी आपूर्ति पर चिंता जताई है।",
+    "pts": [
+     "दुंडीगल-गंडीमैसम्मा में 37.63 मीटर पर पानी",
+     "बाचुपल्ली में जलस्तर 36.54% गिरा",
+     "उप्पल, मलकाजगिरी संवेदनशील क्षेत्र में"
+    ],
+    "why": "मेडचल और हैदराबाद की उपनगरीय कॉलोनियों में गर्मी में पानी की कमी का संकेत।",
+    "loc": "मेडचल-मलकाजगिरी"
+   },
+   "d": "18.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "తెలంగాణ · హైకోర్టు",
+   "col": "--c-gov",
+   "art": "court",
+   "stat": "రౌడీషీట్లపై",
+   "statl": "హైకోర్టు మార్గదర్శకాలు",
+   "h": "రౌడీషీట్‌ ఉందని వేధించొద్దు: హైకోర్టు",
+   "p": "రౌడీషీట్ ఉన్నంత మాత్రాన పదేపదే పిలిపించడం, కదలికలు అడ్డుకోవడం, వేధించడం సరికాదని తెలంగాణ హైకోర్టు స్పష్టం చేసింది. రౌడీషీట్లు తెరవడం, కొనసాగించడం, మూసివేయడంపై పోలీసులకు మార్గదర్శకాలు జారీ చేసింది. చత్రినాక పోలీసుల నిఘాను సవాలు చేస్తూ హైదరాబాద్‌కు చెందిన ఒక వ్యాపారి వేసిన పిటిషన్‌ను అనుమతించింది. నేరాల నివారణకు పోలీసులకు ఉన్న చట్టబద్ధ అధికారాలు కొనసాగుతాయని పేర్కొంది.",
+   "pts": [
+    "పిటిషనర్‌పై రౌడీషీట్ 2008 నుంచి దాదాపు 18 ఏళ్లు కొనసాగింది",
+    "తొలగింపు దరఖాస్తులపై ఆరు వారాల్లో కారణాలతో నిర్ణయం",
+    "అమలు బాధ్యత సీపీలు, ఎస్పీలదేనని ఆదేశం"
+   ],
+   "why": "రౌడీషీట్లు ఉన్నవారి హక్కులు, పోలీసుల నిఘా పద్ధతులపై ఈ తీర్పు ప్రభావం చూపుతుంది.",
+   "src": "Siasat",
+   "url": "https://www.siasat.com/cannot-harass-people-merely-for-being-rowdy-sheeters-telangana-hc-3579936/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "pub": "2026-11-17T23:06+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · High Court",
+    "h": "Don't harass rowdy-sheeters: HC",
+    "stat": "Rowdy sheets",
+    "statl": "HC issues guidelines",
+    "p": "The Telangana High Court said having a rowdy sheet alone does not justify repeated summons, restricted movement or harassment. It issued guidelines to police on opening, continuing and closing rowdy sheets. It allowed a Hyderabad businessman's petition against surveillance by Chatrinaka police, while noting police keep their lawful powers to prevent crime.",
+    "pts": [
+     "Petitioner's rowdy sheet ran nearly 18 years since 2008",
+     "Deletion requests to be decided with reasons in six weeks",
+     "CPs and SPs made responsible for implementation"
+    ],
+    "why": "The ruling affects the rights of rowdy-sheeters and how police keep surveillance.",
+    "loc": "Hyderabad"
+   },
+   "hi": {
+    "cat": "तेलंगाना · हाईकोर्ट",
+    "h": "रौडी-शीट के नाम पर परेशान न करें: HC",
+    "stat": "रौडी-शीट",
+    "statl": "हाईकोर्ट के दिशानिर्देश",
+    "p": "तेलंगाना हाईकोर्ट ने कहा कि सिर्फ रौडी-शीट होने से बार-बार बुलाना, आवाजाही रोकना या परेशान करना उचित नहीं है। कोर्ट ने रौडी-शीट खोलने, जारी रखने और बंद करने पर पुलिस को दिशानिर्देश दिए। चत्रिनाका पुलिस की निगरानी के खिलाफ हैदराबाद के एक व्यापारी की याचिका स्वीकार की गई; अपराध रोकने के पुलिस के वैध अधिकार बने रहेंगे।",
+    "pts": [
+     "याचिकाकर्ता पर 2008 से करीब 18 साल रौडी-शीट",
+     "हटाने के आवेदनों पर छह हफ्ते में कारण सहित फैसला",
+     "लागू करने की ज़िम्मेदारी सीपी और एसपी की"
+    ],
+    "why": "यह फैसला रौडी-शीट वाले लोगों के अधिकारों और पुलिस निगरानी के तरीके पर असर डालेगा।",
+    "loc": "हैदराबाद"
+   },
+   "d": "18.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "రంగారెడ్డి · నేరాలు",
+   "col": "--c-city",
+   "art": "court",
+   "stat": "₹5 కోట్లు",
+   "statl": "డిమాండ్ చేసిన కేసు",
+   "h": "డీప్‌ఫేక్ బెదిరింపు: ప్రధాన నిందితుడి అరెస్టు",
+   "p": "ఒక ఎమ్మెల్సీని మార్ఫింగ్ ఫొటోలు, డీప్‌ఫేక్ వీడియోలతో బెదిరించి ₹5 కోట్లు డిమాండ్ చేసిన కేసులో ప్రధాన నిందితుడిని అరెస్టు చేశామని నార్సింగి పోలీసులు తెలిపారు. డబ్బు ఇవ్వకపోవడంతో సోషల్ మీడియాలో అభ్యంతరకర పోస్టులు పెట్టారని పోలీసుల ఆరోపణ. సైబర్ క్రైమ్ ఫిర్యాదు ఆధారంగా ఆగస్టులో కేసు నమోదైంది. నిందితులను రిమాండ్‌కు తరలించారు.",
+   "pts": [
+    "ఈ కేసులో ఇప్పటికే ఆరుగురు అరెస్టు",
+    "ఎమ్మెల్సీ కార్యాలయం నుంచి ₹9 లక్షలు వసూలు చేశారని పోలీసులు",
+    "ప్రధాన నిందితుడిపై 33 కేసులు ఉన్నాయని పోలీసులు"
+   ],
+   "why": "డీప్‌ఫేక్ వీడియోలతో బెదిరింపులు పెరుగుతున్నాయి; ఇలాంటివి ఎదురైతే సైబర్ క్రైమ్‌కు ఫిర్యాదు చేయాలి.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/prime-accused-held-in-5-crore-deepfake-blackmail-case-against-mlc-2005348",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "rangareddy",
+   "loc": "నార్సింగి",
+   "pub": "2026-11-17T23:29+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Rangareddy · Crime",
+    "h": "Main accused held in MLC deepfake case",
+    "stat": "₹5 crore demand",
+    "statl": "deepfake blackmail case",
+    "p": "Narsingi police said they arrested the prime accused in a case where an MLC was threatened with morphed photos and deepfake videos and asked for ₹5 crore. Police allege objectionable posts were put on social media when he refused to pay. The case was registered in August on a cyber crime complaint. The accused were remanded.",
+    "pts": [
+     "Six people already arrested in the case",
+     "Police say ₹9 lakh was collected from the MLC's office",
+     "Police say the main accused faces 33 cases"
+    ],
+    "why": "Deepfake threats are rising; such cases should be reported to cyber crime police.",
+    "loc": "Narsingi, Rangareddy"
+   },
+   "hi": {
+    "cat": "रंगारेड्डी · अपराध",
+    "h": "एमएलसी डीपफेक केस में मुख्य आरोपी गिरफ्तार",
+    "stat": "₹5 करोड़ की मांग",
+    "statl": "डीपफेक ब्लैकमेल केस",
+    "p": "नरसिंगी पुलिस ने बताया कि एक एमएलसी को मॉर्फ्ड फोटो और डीपफेक वीडियो से धमकाकर ₹5 करोड़ मांगने के मामले में मुख्य आरोपी को गिरफ्तार किया गया। पुलिस का आरोप है कि पैसे न देने पर सोशल मीडिया पर आपत्तिजनक पोस्ट डाली गईं। साइबर क्राइम शिकायत पर अगस्त में मामला दर्ज हुआ था। आरोपियों को रिमांड पर भेजा गया।",
+    "pts": [
+     "इस मामले में पहले ही छह लोग गिरफ्तार",
+     "पुलिस के अनुसार एमएलसी कार्यालय से ₹9 लाख वसूले गए",
+     "पुलिस के अनुसार मुख्य आरोपी पर 33 मामले"
+    ],
+    "why": "डीपफेक से धमकियां बढ़ रही हैं; ऐसे मामलों की शिकायत साइबर क्राइम पुलिस से करें।",
+    "loc": "नरसिंगी, रंगारेड्डी"
+   },
+   "d": "18.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "తెలంగాణ · గిగ్ కార్మికులు",
+   "col": "--c-money",
+   "art": "economy",
+   "stat": "₹206 కోట్లు",
+   "statl": "ఏటా నిధికి అంచనా",
+   "h": "గిగ్ కార్మికుల నిధికి ఏటా ₹206 కోట్లు",
+   "p": "తెలంగాణలో గిగ్ కార్మికుల సంక్షేమ నిధికి 2 శాతం గరిష్ఠ రుసుముతో ఏటా సుమారు ₹206 కోట్లు, 1 శాతంతో ₹103 కోట్లు వచ్చే అవకాశం ఉందని శ్రమశక్తి శాఖ లెక్కలు చెబుతున్నాయి. సుమారు ఆరు లక్షల మంది గిగ్, ప్లాట్‌ఫామ్ కార్మికులకు ఇది వర్తిస్తుంది. టిప్పులు, ప్రోత్సాహకాలు ఈ రుసుము లెక్కలోకి రావు.",
+   "pts": [
+    "కొత్త నిబంధనలు నవంబర్ 14 నుంచి అమలులోకి",
+    "రుసుమును కార్మికుల చెల్లింపుల నుంచి కోయకూడదు",
+    "ప్రమాద, ఆరోగ్య బీమా, పింఛన్, ప్రసూతి ప్రయోజనాలు"
+   ],
+   "why": "డెలివరీ, క్యాబ్ వంటి యాప్‌లలో పనిచేసే తెలంగాణ గిగ్ కార్మికులకు సామాజిక భద్రతకు సంబంధించిన విషయం.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-gig-workers-welfare-fund-may-mobilise-up-to-rs-206-cr-a-year-2005350",
+   "sec": [
+    "telangana",
+    "jobs"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "pub": "2026-11-17T23:30+05:30",
+   "lbl": "fact",
+   "next": "ప్రతి నెల ముగిశాక ఐదు పని దినాల్లో అగ్రిగేటర్లు రుసుము జమ చేయాలి",
+   "en": {
+    "cat": "Telangana · Gig workers",
+    "h": "Gig workers' fund may get ₹206 cr a year",
+    "stat": "₹206 crore",
+    "statl": "likely yearly to welfare fund",
+    "p": "Telangana's gig workers welfare fund could raise about ₹206 crore a year at the maximum 2% fee and ₹103 crore at 1%, according to Labour (Shakti) Department estimates. It covers about six lakh gig and platform workers. Tips and incentives are not counted for the fee.",
+    "pts": [
+     "New rules in force from November 14",
+     "Fee cannot be deducted from workers' payouts",
+     "Covers accident, health insurance, pension, maternity"
+    ],
+    "why": "Concerns social security for Telangana's delivery, cab and other app-based workers.",
+    "next": "Aggregators must deposit the fee within five working days after each month",
+    "loc": "Telangana"
+   },
+   "hi": {
+    "cat": "तेलंगाना · गिग वर्कर",
+    "h": "गिग वर्कर फंड को सालाना ₹206 करोड़",
+    "stat": "₹206 करोड़",
+    "statl": "सालाना कल्याण कोष में संभव",
+    "p": "श्रम (शक्ति) विभाग के अनुमान के अनुसार तेलंगाना के गिग वर्कर कल्याण कोष को अधिकतम 2% शुल्क पर सालाना करीब ₹206 करोड़ और 1% पर ₹103 करोड़ मिल सकते हैं। इसके दायरे में करीब छह लाख गिग और प्लेटफॉर्म वर्कर हैं। टिप और प्रोत्साहन राशि शुल्क में नहीं गिनी जाएगी।",
+    "pts": [
+     "नए नियम 14 नवंबर से लागू",
+     "शुल्क वर्करों के भुगतान से नहीं काटा जा सकता",
+     "दुर्घटना, स्वास्थ्य बीमा, पेंशन, मातृत्व लाभ"
+    ],
+    "why": "तेलंगाना के डिलीवरी, कैब और अन्य ऐप आधारित वर्करों की सामाजिक सुरक्षा से जुड़ा मामला।",
+    "next": "एग्रीगेटर हर महीने के बाद पांच कार्यदिवसों में शुल्क जमा करें",
+    "loc": "तेलंगाना"
+   },
+   "d": "18.11.2026",
+   "t": "05:05"
+  },
   {
    "cat": "ఏపీ · విద్య",
    "col": "--c-money",
