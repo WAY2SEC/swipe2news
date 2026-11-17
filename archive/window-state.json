@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T14:05:00+05:30",
+ "cutoff": "2026-11-17T14:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-14T23:05:00+05:30/2026-11-14T23:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 1,
-   "published": 1,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "23:35 run started 23:36 IST. Lookback from 15:05 14 Nov. Published: TT SCCL VK mine contract workers strike day 5, CMD warns contractors on OB targets (23:18, fact). Skipped old (search surfaced): TT GHMC footpath encroachment drive (18 Apr), TT 464 drunk-driving cases (5 Apr), TT GHMC 283 encroachments (20 Jun). Already seen: TT Ramchander Rao house arrest, Indtoday gig workers scheme, Hans India BM Sandeep. Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; standard searches stale. Districts searched: Suryapet, Adilabad, Medchal, West Godavari, Prakasam, Mulugu, Nandyal, Hyderabad."
-  },
   {
    "window": "2026-11-14T23:35:00+05:30/2026-11-15T05:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Feeds 13:49, 69/70 ok; 752 uncovered TG/AP events, small batch handled. add_repo not available; used existing clone. Published: Global Summit postponement letter (South First 13:45, claim), El Nino Rs 500 cr GST loss (Siasat 13:29, forecast), Hyderabad aluminium varaq arrests (Siasat 13:47), Khelo India Kabaddi (Hans 12:37), Gummagatta KGBV 25 ill (HMTV 12:36), Shivaipally mother killed (HMTV 12:37), Update Bijinapally alprazolam 6 held (Hans 11:04). Duplicates: Shamirpet Bhuvanteza Rs 22.22L refund (covered 10:35), Bilkis Bano bail (covered 16 Nov). Skipped: Ramoji Rao jayanti state festival (announced 16 Nov evening; Sakshi copy not openable). Not opened: Dishadaily KGBV, Nagarjunasagar AP tunnel (V6), Bhupalpally 6,000 pensions (HMTV), Minister Vivek 2 lakh houses (V6), Bellampalli police farmhouse (V6). District searches (Krishna, Nirmal, Nellore, Sangareddy/Medak, Mancherial, Nagarkurnool, Anantapur, Bhupalpally) returned few fresh items."
+  },
+  {
+   "window": "2026-11-17T14:05:00+05:30/2026-11-17T14:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 4,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Feeds 14:17, 67/68 ok; 719 uncovered TG/AP events. add_repo not available; used existing clone. Published: Damya Thanda infant death, mother accused (NewsMeter Telugu 13:30, claim), KNRUHS PG fee hike (TT 13:59, claim), Vizianagaram ZP HC Siri Sahasra certificate (Federal 14:03), Harshal Patel SRH to GT (TT 14:00). Duplicates: Cyclone Akvan IMD warning/AP alert (covered several times), Mahabubabad DC 10:29 version of same event. Skipped (old): Sridhar Babu investors DC (13 Nov), Tirumala rush DC (14 Nov), Yadadri 5th unit DC (21 Oct), PM Manila visit preview pmindia (12 Nov). Not opened/not found: Kurnool Grindr gang, Bellampalli police farmhouse video, APEPDCL 703 teams. District searches (Siddipet, Eluru) returned no fresh items."
   }
  ],
  "seen": [
@@ -6653,6 +6653,51 @@
    "url": "https://www.dishadaily.com/andhrapradesh/food-poisoning-at-kgbv-school-571028",
    "d": "2026-11-17",
    "w": "2026-11-17T14:05"
+  },
+  {
+   "url": "https://telugu.newsmeter.in/crime/mahabubabad-district-tragedy-mother-murthers-8-month-old-baby-girl-and-attempts-suicide-779467",
+   "d": "2026-11-17",
+   "w": "p"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/mahabubabad-infant-girl-found-dead-mother-hospitalised-2005097",
+   "d": "2026-11-17",
+   "w": "dup"
+  },
+  {
+   "url": "https://telanganatoday.com/neet-pg-aspirants-squeezed-as-knruhs-hikes-university-fees-by-over-300-percent",
+   "d": "2026-11-17",
+   "w": "p"
+  },
+  {
+   "url": "https://thefederal.com/category/states/south/andhra-pradesh/siri-sahasra-bcd-certificate-zptc-ap-high-court-263188",
+   "d": "2026-11-17",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/ipl-2027-harshal-patel-joins-gujarat-titans-in-trade-from-sunrisers-hyderabad",
+   "d": "2026-11-17",
+   "w": "p"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/sridhar-babu-invites-investors-to-telangana-assures-full-government-support-2004101",
+   "d": "2026-11-17",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/heavy-pilgrim-rush-continues-at-tirumala-2004325",
+   "d": "2026-11-17",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/yadadris-fifth-800-mw-unit-synchronised-1997714",
+   "d": "2026-11-17",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.pmindia.gov.in/?p=16976564",
+   "d": "2026-11-17",
+   "w": "skip"
   }
  ]
 }
