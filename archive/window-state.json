@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T05:35:00+05:30",
+ "cutoff": "2026-11-17T06:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-14T14:35:00+05:30/2026-11-14T15:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 1,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 2,
-   "review": 2,
-   "gaps": "15:05 run started 15:05 IST. Lookback from 06:35 14 Nov. Read: ANI Harish Rao open letter (11:01, late-found, published, claim), ANI BJP defends visa denials (08:55; duplicate of visa-row story), Hans India Kurnool GP polls 1141967 (05:50; skipped, before lookback), Telangana Today Kadem dam (9 Nov; skipped, old). Review (fetch blocked, time unverified): TT Kothagudem Maoist surrenders, TT four construction projects closure. TT Telegram, Siasat, Tribune, TNM listings had no new datable items. Not reached: Eenadu, Sakshi, NT, V6, TV9, NTV, The Hindu, PTI, Reuters; standard India/world/district searches stale. Districts searched: Karimnagar, Mahabubnagar, Sangareddy, Medak, Adilabad, Nirmal, Mancherial, Kamareddy, Kurnool, Nellore, Kadapa, Srikakulam, Anantapur, Prakasam, Eluru, NTR."
-  },
   {
    "window": "2026-11-14T15:05:00+05:30/2026-11-14T15:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "05:35 run started 05:36 IST; lookback from 21:05. Feeds 05:13, 59/70 ok (11 failing 429 incl. Prajasakti, Telangana Today, Indian Express, Hyderabad district). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 1: DC OPS mass leave govt warning (late 22:54, claim; update to 16 Nov NT story). Skipped: NT model school teachers directorate siege (published 16 Nov 00:53, before lookback); Narayanpet GMC hostel fire / AP ULB nominations / Lokesh-Jagan fee dues (already covered). Not opened (not yet indexed by search): Hans Tirupati phase-2 polls, AJ Badepalli paddy record price, AJ 9 medical colleges Rs365.40 cr, AJ Brahmin parishad Rs25 cr, AJ borewells via MeeSeva, AJ OU girls food protest, Eenadu special TET results, India Today parliament panel, ThePrint Santner. District sweep (Nizamabad/Kamareddy, Kurnool/Nandyal, Tirupati): nothing new indexed. Build step rewrote index.html/sitemap.xml/en/hi/te; reverted."
+  },
+  {
+   "window": "2026-11-17T05:35:00+05:30/2026-11-17T06:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 15,
+   "published": 7,
+   "late": 7,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 6,
+   "skipped": 1,
+   "review": 2,
+   "gaps": "06:05 run started 06:06 IST; lookback from 21:35. Feeds 05:45, 44/70 ok. add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 7 (all late-found 21:46-01:32 except none in-window). Duplicates dropped: Kaushik Reddy HC (V6 14:35), Bhimavaram BJP solo (Telugu360 22:35), Nagarkurnool alprazolam (TT 17:35), AI supply-chain pact (13:35), Tirumala museum (16 Nov 06:05), Vijaya Dairy HC (NTV 14:05). Skipped: AP Robotics policy (approved 10 Nov, old). Review: Hindu 3,478 pregnant women (not opened), EU steel tariffs (time unverified). Not opened: News18 Telugu Hyderabad Rs84,746 cr revenue. IMNEX-26 (13:02, before lookback). Build step rewrote index.html/sitemap.xml/en/hi/te; reverted."
   }
  ],
  "seen": [
@@ -5873,6 +5873,91 @@
    "url": "https://www.ntnews.com/telangana/telangana-model-school-teachers-to-besiege-education-directorate-on-november-17-2561156",
    "d": "2026-11-17",
    "w": "2026-11-17T05:35"
+  },
+  {
+   "url": "https://telanganatoday.com/high-court-dismisses-kaushik-reddys-plea-against-voice-sample-collection",
+   "d": "2026-11-17",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/bjp-decides-to-contest-bhimavaram-civic-polls-on-its-own-2005022",
+   "d": "2026-11-17",
+   "w": "dup"
+  },
+  {
+   "url": "https://andhrajyothy.com/2026/telangana/mahbubnagar/alprazolam-manufacturing-gang-arrested-1576913.html",
+   "d": "2026-11-17",
+   "w": "dup"
+  },
+  {
+   "url": "https://inc42.com/buzz/india-nine-other-nations-sign-declaration-to-secure-ai-supply-chains/",
+   "d": "2026-11-17",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/tirupathi/renovated-venkateswara-museum-to-showcase-tirumalas-rich-heritage-1142893",
+   "d": "2026-11-17",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/hc-sets-aside-rejection-of-sivarama-prasads-nomination-2005008",
+   "d": "2026-11-17",
+   "w": "dup"
+  },
+  {
+   "url": "https://cio.eletsonline.com/artificial-intelligence/andhra-pradesh-physical-ai-policy/76839/",
+   "d": "2026-11-17",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/3478-pregnant-women-identified-for-shifting-to-hospitals-amid-cyclone-alert/article71708888.ece",
+   "d": "2026-11-17",
+   "w": "review"
+  },
+  {
+   "url": "https://www.businessday.co.za/world/europe/2026-11-16-eu-imposes-new-tariffs-on-imported-steel-to-offset-unfair-low-prices/",
+   "d": "2026-11-17",
+   "w": "review"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/defence-ap-indo-myanmar-naval-exercise/247356",
+   "d": "2026-11-17",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/telangana-power-supply-remains-comfortable-despite-el-nio-1142803",
+   "d": "2026-11-17",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/revanth-stalled-rs-1070-crore-works-in-siddipet-harish-1142805",
+   "d": "2026-11-17",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/sports/smat-2026-kerala-delhi-bengal-register-massive-wins-hyderabad-edge-chhattisgarh-in-thriller-1142784",
+   "d": "2026-11-17",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/confusion-over-jana-senas-kakinada-mayoral-candidate-2005002",
+   "d": "2026-11-17",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/9-tonnes-of-flowers-offered-during-tirumala-pushpayagam-2004957",
+   "d": "2026-11-17",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.devdiscourse.com/article/international/4007748-india-raises-diesel-jet-fuel-export-levies-as-inflation-stays-elevated",
+   "d": "2026-11-17",
+   "w": "pub"
+  },
+  {
+   "url": "https://theprint.in/economy/india-facing-aircraft-shortage-to-order-more-planes-goyal/3100493/",
+   "d": "2026-11-17",
+   "w": "pub"
   }
  ]
 }
