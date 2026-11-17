@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T18:35:00+05:30",
+ "cutoff": "2026-11-17T19:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T08:35:00+05:30/2026-11-15T09:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 1,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "09:05 run started 09:06 IST. Lookback from 00:35 15 Nov. Published: Hans India/IANS PM Modi Janjatiya Gaurav Diwas 246 tribal projects Rs 3,000 crore (06:44, fact); merged Hans/IANS Murmu Birsa Munda homage (09:03) as a point. ETV TG/AP live blogs unchanged since 07:36/07:28; ABN flash unchanged since 07:58 (all seen). NewsNation live URL too long for fetch; usnews world refused. Standard searches stale (TT listing pages). Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; no world items found. Districts searched: Adilabad, Nirmal, Srikakulam, Vizianagaram, Prakasam, Visakhapatnam, Kakinada, Nalgonda, Suryapet, Yadadri."
-  },
   {
    "window": "2026-11-15T09:05:00+05:30/2026-11-15T09:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Feeds 18:16, 67/68 ok (district:Jagtial failing); 735 uncovered TG/AP (many already published). add_repo not available; used existing clone. Published: Hyderabad State gazettes digitised (TT 18:05), CCMB drug-resistant fungus (TT 18:01), Hormuz Tara Gas tanker Indian sailor missing (Siasat 17:38), Sharmila vs Sakshi wedding-invite report (ETV Bharat 17:41, claim). Duplicates: fake silver varaq (14:05), fake liquor (16:35), Anirudh Reddy graft remarks (11:35), Siddipet principal POCSO (08:35), dating-app gang (16 Nov). Skipped: Adoni car-auto crash (DC 9 Nov, old). Not opened/not found: DC Naidu SAF, DC Hyderabad gambling den, NewsMeter Cyberabad Listening to Children, TG RERA Bhuvanteza bar (NewsMeter), News18 Rapthadu accused shift."
+  },
+  {
+   "window": "2026-11-17T18:35:00+05:30/2026-11-17T19:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 2,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 5,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Feeds 18:44, 69/70 ok; 772 uncovered TG/AP (many already published). add_repo not available; used existing clone. Published: Langer House LPG refilling 6 held (NewsMeter 18:32), Naidu meets Sitharaman for cyclone aid (DC 18:39). Duplicates: Bhadrachalam lodge death (13:05), Harish manifesto (11:05), Balapur ganja (16:05), Maoist dump shells (18:05), fake silver foil (14:05). Skipped: egg-donation racket (Oct 31 event), Kurnool PACS polls (Hans 16 Nov, old). Not found via search: Hindu maternal-child institute, AP rooftop solar 4th, Sandeep PAC Nov 22, TG debt CESS, Prakasam tobacco farmers; Disha Kamareddy lighting (fetch failed)."
   }
  ],
  "seen": [
@@ -6978,6 +6978,31 @@
    "url": "https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/kurnool-one-killed-four-injured-in-car-auto-collision-near-adoni-2002881",
    "d": "2026-11-17",
    "w": "skip"
+  },
+  {
+   "url": "https://newsmeter.in/crime/hyderabad-46-domestic-lpg-cylinders-diverted-for-illegal-refilling-hp-gas-supplier-among-six-held-779499",
+   "d": "2026-11-17",
+   "w": "2026-11-17T19:05:00+05:30"
+  },
+  {
+   "url": "https://www.siasat.com/6-held-in-langer-house-for-running-cylinder-refill-operation-3579728/",
+   "d": "2026-11-17",
+   "w": "2026-11-17T19:05:00+05:30"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/chandrababu-naidu-meets-union-finance-minister-seeks-immediate-release-of-funds-for-cyclone-relief-measures-2005248",
+   "d": "2026-11-17",
+   "w": "2026-11-17T19:05:00+05:30"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/cm-chandrababu-naidu-heads-to-delhi-to-meet-central-ministers-1142959",
+   "d": "2026-11-17",
+   "w": "2026-11-17T19:05:00+05:30"
+  },
+  {
+   "url": "https://telanganatoday.com/nine-arrested-43-women-rescued-in-interstate-illegal-egg-donation-racket-in-hyderabad",
+   "d": "2026-11-17",
+   "w": "2026-11-17T19:05:00+05:30"
   }
  ]
 }
