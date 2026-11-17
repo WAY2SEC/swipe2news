@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T19:35:00+05:30",
+ "cutoff": "2026-11-17T20:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T09:35:00+05:30/2026-11-15T10:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 2,
-   "late": 2,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 5,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "10:05 run started 10:06 IST. Lookback from 01:35 15 Nov. Published: ABN Velagapudi farmer legal notice to Sakshi (04:13, claim, late-found), ABN Sabarimala prasadam by post (02:35, fact, late-found, other state). Duplicates: ABN BJP 'anti-India summit'/Ramchander Rao house arrest (05:24, covered 12 & 14 Nov), India TV Cyclone Akvan (09:12), 10TV AP cyclone rain alert (06:54), TT Dundigal bus fire (09:06), Oneindia egg-donation racket women's commission (09:53, Nov 9 hearing, earlier coverage 11-12 Nov; date inconsistency). Skipped: DC Akvan 13 Nov (pre-lookback). ETV TG/AP live blogs and ABN flash unchanged (all seen). Standard searches stale. Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; no world items. Districts searched: Khammam, Karimnagar, Mahabubnagar, Siddipet, Medak, Guntur, Krishna, Eluru, West Godavari, Anakapalli, Palnadu."
-  },
   {
    "window": "2026-11-15T10:05:00+05:30/2026-11-15T10:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Feeds 19:27, 68/68 ok; 750 uncovered TG/AP (many already published). add_repo not available; used existing clone. Published: TG DGP police promotions 54 Addl SP (Andhra Jyothy 18:13), AP Cabinet Nov 26 (HMTV 19:11), Amazon $7bn India renewables (Business Standard/PTI 15:07). Duplicates: Akvan Nellore-Tuni landfall (Oneindia 14:53; already 16 Nov 13:35 + 17 Nov 12:05), Mailardevpally/Vattepally gambling den (DC 18:09, Siasat 19:12; already 16 Nov). Not opened/not found via search: Hindu AP rooftop solar 4th, Hindu maternal-child institute, SEI GCC (TOI), YSRCP Jana Sena jobs scam probe (Hindu), Statesman Akvan (fetch failed)."
+  },
+  {
+   "window": "2026-11-17T19:35:00+05:30/2026-11-17T20:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 5,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 19:42, 70/70 ok; 795 uncovered TG/AP (many already published). add_repo not available; used existing clone. Published: Nellore sea moves inland (Vaartha 17:18), Chalvai substation Seethakka (HMTV 13:11), Sircilla ex-ZPTC couple quit Congress (HMTV 19:06), Guru Nanak Jayanti Hyderabad (TT 17:10), SC railway station amenities (TT/PTI 19:00). Duplicates: TG SAFE 23 pharmacies (16 Nov), Heeraben Modi temple Kurnool (16 Nov). Skipped: Avinash Reddy civic-poll allegations (newsmill 1 Nov, old); Thai YouTuber case is Udaipur (Rajasthan), not Hyderabad. Not found via search: Hindu TG debt CESS, Sakshi/NewsMeter RERA Bhuvanteza bar, Hindu Kadapa MP booth capture, TV9 Vikarabad seeds illness, Siasat JEH Aerospace Kothur."
   }
  ],
  "seen": [
@@ -7043,6 +7043,51 @@
    "url": "https://www.siasat.com/dogs-cctv-lookouts-fail-to-save-gambling-den-in-hyderabad-3579771/",
    "d": "2026-11-17",
    "w": "duplicate"
+  },
+  {
+   "url": "https://vaartha.com/andhra-pradesh/cyclone-akwan-intensifies-in-bay-of-bengal-danger-signal-3-at-krishnapatnam-port/806514/",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/warangal/minister-seethakka-lays-foundation-stone-for-chalvai-substation-213956",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/sircilla-former-zptc-couple-resigns-from-congress-party-214141",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/guru-nanak-jayanti-celebrations-to-begin-in-hyderabad-on-november-19",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/supreme-court-asks-authorities-to-address-railway-station-amenity-gaps",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/whats-new/temple-to-be-built-for-pm-modis-mother-in-kurnool-district-779477",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thenewsminute.com/andhra-pradesh/temple-for-pm-modis-late-mother-heeraben-to-be-built-in-andhra-pradesh",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://thenewsmill.com/2026/11/ysrcp-mp-avinash-reddy-alleges-violence-and-irregularities-in-andhra-pradesh-civic-polls/",
+   "d": "2026-11-17",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/thai-youtuber-says-udaipur-auto-driver-harassed-her-accused-held-3579692/",
+   "d": "2026-11-17",
+   "w": "skipped"
   }
  ]
 }
