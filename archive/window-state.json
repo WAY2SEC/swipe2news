@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T09:05:00+05:30",
+ "cutoff": "2026-11-17T09:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-14T18:05:00+05:30/2026-11-14T18:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 3,
-   "late": 2,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 4,
-   "review": 1,
-   "gaps": "18:35 run started 18:36 IST. Lookback from 10:05 14 Nov. Published: Hans India north Andhra rain alert + fishermen advisory (16:59, forecast; new detail beyond earlier Akvan stories), HMTV Bhadrachalam Vaikunta Ekadashi from Dec 10 (16:14, late-found, fact), NT News Sarapaka children's gram sabha (17:53, late-found, fact). Skipped: ESPN/CricketNews U19 Asia Cup final (no result at capture), Sakshi Education JEE Main 2027 notification (old event, applications open since 24 Oct), V6 Bhadradri Maoist surrenders media meet (08:42, pre-lookback), Hans India Tummala irrigation (12 Nov, pre-lookback). Review: Times of Israel 14 Nov liveblog (no entry timestamps). Not reached: Eenadu, Sakshi, TV9, The Hindu, PTI, Reuters; standard searches stale. Districts searched: Adilabad, Mancherial, Sangareddy, Medak, Kamareddy, Suryapet, Vikarabad, Mahabubnagar, Khammam, Bhadradri, Srikakulam, Vizianagaram, Visakhapatnam, Nellore, Prakasam, Anantapur, Kadapa."
-  },
   {
    "window": "2026-11-14T18:35:00+05:30/2026-11-14T19:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Run started 09:05 IST; lookback from 00:35. Feeds 09:04, 52/70 ok (Eenadu feed failing). add_repo not available; used existing clone at origin/main; articles read via sub-agents. Published 4: 10TV Inter syllabus unchanged 08:14, NewsMeter land re-survey excess land 08:32, Oneindia AP 12th PRC ToR 08:21, NTV Naidu Delhi trip 08:36. Duplicates: V6 Revanth-Chhattisgarh Sammakka NOC meet (=16 Nov 07:05 story), Siasat Moinabad TPO DA case (=17 Nov 05:05). Not opened/not found in search: TOI Future City Rs18k cr, NIE Telangana ACB crores, NIE Enumamula trader, NIE Khelo India, NewsMeter Patancheru Nakkavagu, Sakshi Bank of Maharashtra MoU. District searches (Nalgonda, Khammam, Kurnool, Srikakulam, Karimnagar, Guntur, Adilabad, Kakinada) gave no fresh in-window items. Build step rewrote index.html/en/hi/te/sitemap.xml; reverted."
+  },
+  {
+   "window": "2026-11-17T09:05:00+05:30/2026-11-17T09:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 0,
+   "published": 0,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 12,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 09:10, 59/70 ok. add_repo not available; used existing clone. Most uncovered TG/AP feed events checked were already published (park fees, 9 medical colleges, Ramoji jayanti, biryani prices, power supply, online pharmacies, pensions Nov 19, census phase 2, polytechnic PPP). WebSearch did not surface fresh in-window articles (NIE megalithic burials, NIE AP HC husband-debts ruling, NIE Tirumala VR darshan, NIE elderly vision, NIE ACB crores, TOI Future City Rs18k cr, V6 steel flyover diversions, AP7AM space city); site-restricted searches rejected by proxy; Telangana Today US DHS rule article fetch failed (permission timeout). Skipped: DC Governor tribute to Lala Lajpat Rai (09:01, social-media tribute, not news). Items remain in lookback for next run."
   }
  ],
  "seen": [
@@ -6293,6 +6293,11 @@
    "url": "https://www.siasat.com/acb-books-jailed-government-officer-in-disproportionate-assets-case-3579119/",
    "d": "2026-11-17",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-governor-leaders-pay-tributes-to-punjab-kesari-lala-lajpat-rai-on-death-anniversary-2005088",
+   "d": "2026-11-17",
+   "w": "skipped"
   }
  ]
 }
