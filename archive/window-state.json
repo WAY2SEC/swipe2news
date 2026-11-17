@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T17:35:00+05:30",
+ "cutoff": "2026-11-17T18:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T07:35:00+05:30/2026-11-15T08:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 6,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "08:05 run started 08:06 IST. Lookback from 23:35 14 Nov. Published from ABN Andhra Jyothy flash live page (07:45–07:58): Chandragiri toll plaza accident 3 dead (fact, sensitive, no names), central team meets CM on Cyclone Murasu crop loss (fact), TTD arjitha seva tickets Nov 18 (fact), Limbadri Gutta Brahmotsavams Bheemgal (fact), Yadagirigutta Karthika rush (fact, temple officials), gold prices steady (fact). Duplicate: ABN low-pressure/fishermen warning (Akvan already covered). Skipped: ETV Ramoji tribute walk 07:31 (house event, low value), ETV Anantapur minor suicide (minor/sensitive, seen). ETV TG/AP live blogs had no other new entries after 06:52. Standard searches stale (TT/BS listing pages). Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; no India/world items found in window. Districts searched: Khammam, Karimnagar, Siddipet, Mahabubnagar, Guntur, Krishna, Palnadu, Bapatla, Konaseema, Medak."
-  },
   {
    "window": "2026-11-15T08:05:00+05:30/2026-11-15T08:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Feeds 17:11, 67/70 ok (V6 Velugu, Mana Telangana, HMTV failing); 864 uncovered TG/AP (many already published but flagged uncovered). add_repo not available; used existing clone. Published: Vempalle TDP leader vehicle fire (ETV Bharat 16:01, sensitive/police), Bharat Summit SC plea (Siasat 17:08, claim), Yadadri thermal near full capacity (DC 13:47), Kalwakurthy bypass HC appeal dismissed (LiveLaw 12:20), Gadwal court women's washrooms HC (LiveLaw 11:50), US master's enrolment -34.4% (TT 17:05), Modi at India-ASEAN summit Manila (TT/PTI 12:51). Duplicates: Bhadrachalam lodge death (covered 12:28), Konaseema ONGC leak (covered), Akvan/rain alerts (covered). Skipped (old): Naidu-Sitharaman TT (Dec 2025), Hyderabad teachers 95% attendance (DC 01:53, before lookback), Gottipati Akvan power alert (Hans 05:23). Not opened: Amazon $7bn renewables (ANI fetch failed), Hyderabad Mail ACB 23 cases (not found), Hindu Bhadrachalam, Hormuz tanker (only old results)."
+  },
+  {
+   "window": "2026-11-17T17:35:00+05:30/2026-11-17T18:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 8,
+   "published": 4,
+   "late": 1,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Feeds 17:44, 69/70 ok; 769 uncovered TG/AP (many already published). add_repo not available; used existing clone. Published: Konaseema ONGC leak contained (IANS/Punjab Kesari 17:30, update), Karreguttalu Maoist dump (HMTV 15:06, late-found), Vemulawada temple tower protest (TT 17:27, claim), BRS Nagarjuna Sagar protest (TT 17:32, claim). Not opened (feed URLs refused by WebFetch, not found via search): Siasat Hormuz LPG tanker, Bahrain blasts, SC SIR Dec 9, JEH Aerospace Kothur, Shamirpet refund; Hindu TG debt CESS; TT Kagaznagar padayatra; Disha Vemulawada (4xx)."
   }
  ],
  "seen": [
@@ -6918,6 +6918,36 @@
    "url": "https://www.thehansindia.com/news/cities/amaravati/energy-department-put-on-high-alert-ahead-of-cyclone-akvan-1142890",
    "d": "2026-11-17",
    "w": "skip"
+  },
+  {
+   "url": "https://english.punjabkesari.com/india/gas-leak-from-ongc-well-in-andhra-brought-under-control",
+   "d": "2026-11-17",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/ongc-well-fire-in-konaseema-contained-after-10-hours-1143033",
+   "d": "2026-11-17",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/telangana/massive-maoist-dump-seized-in-karreguttalu-on-telangana-chhattisgarh-border-214001",
+   "d": "2026-11-17",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/tension-in-vemulawada-as-bjp-opposes-temple-tower-demolition",
+   "d": "2026-11-17",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/brs-protests-against-ap-project-at-nagarjuna-sagar",
+   "d": "2026-11-17",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.v6velugu.com/aps-secret-tunnel-project-at-nagarjuna-sagar-raises-questions-over-krishna-water-sharing",
+   "d": "2026-11-17",
+   "w": "dup"
   }
  ]
 }
