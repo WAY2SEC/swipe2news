@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T11:35:00+05:30",
+ "cutoff": "2026-11-17T12:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-14T20:35:00+05:30/2026-11-14T21:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 7,
-   "late": 2,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 5,
-   "review": 0,
-   "gaps": "21:05 run started 21:05 IST. Lookback from 12:35 14 Nov. Published: TT Manuguru 5 held for killing 2 elderly men over black-magic suspicion (20:47, fact, police, sensitive), Andhra Prabha Khammam 3,244 new pensions (20:02, fact), The Federal Rahul Bharat Summit closing speech (20:47, claim; grouped with The Wire 19:15), IndToday Sabitha Musi pollution Vikarabad (19:03, claim), IndToday Swati Lakra Prisons DG (18:54, fact, late), TT/PTI AP Vizag creative hub (19:45, fact, late), Siasat Shadnagar jewellery theft woman held (20:28, fact, police, sensitive). Duplicates: The Wire Rahul speech, ThePrint/Siasat Sandeep appointment. Skipped pre-lookback: TT Mahesh Bhagwat Hyd CP (12 Nov), TT CID DSP death (00:32), IndToday mule account arrest (10:26), HMTV Eluru paddy procurement (10:38), ThePrint PM congratulates U19 (dup of U19 win). Not reached: Eenadu (robots), Sakshi, V6, TV9, NTV, The Hindu, Reuters; standard searches stale. Districts searched: Rangareddy, Medchal, Narayanpet, Gadwal, Hanumakonda, Asifabad, Sircilla, Khammam, Bhadradri, Warangal, Eluru, West Godavari, Kakinada, Konaseema, East Godavari, Krishna, Anakapalli, Visakhapatnam, Tirupati, Guntur."
-  },
   {
    "window": "2026-11-14T21:05:00+05:30/2026-11-14T21:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Feeds 11:13, 56/70 ok. add_repo not available; used existing clone. Feed URLs only opened after a site-filtered WebSearch returned them. Published: Jadcherla MLA bribe allegation (TT 10:40, claim), Uppal woman assault case (TT 11:11, police), Charlapalli-Kollam Sabarimala specials (Hyderabad Mail 09:41), Kulgam CRPF attacker killed (TT/IANS 10:56, claim). Skipped: Siasat 275 traders (Karnataka, minor), TT Project Pari (Aug 2025 article). Not opened (no search hit): Miryalaguda DCHS warning (HMTV), Kavitha on Harish Rao (HMTV/AJ), Tikait Nov 26 (ETV), Ponnam Elkathurthy school (DC), Rangareddy spending + AP food inflation (Hyderabad Mail), AP 4 universities (Jagran Josh), Abdullapurmet arrests (TT/INDToday), Khammam Indiramma insurance (HMTV). ReNew Rs 80,000 cr = 12 Nov news. 8 district searches (Nalgonda, Visakhapatnam, Tirupati, Karimnagar/Siddipet, Nellore/Ongole, Adilabad/Nirmal/Mancherial, Mahabubnagar/Wanaparthy/Gadwal, Eluru/Rajahmundry/Kakinada) gave no fresh in-window items."
+  },
+  {
+   "window": "2026-11-17T11:35:00+05:30/2026-11-17T12:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 19,
+   "published": 8,
+   "late": 5,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 6,
+   "skipped": 5,
+   "review": 0,
+   "gaps": "Feeds 11:45, 51/70 ok; 581 uncovered TG/AP events in feed, only a small batch handled. add_repo not available; used existing clone. Most search queries return old items; several site-filtered searches rejected by proxy (HTTP 400). Published: Musheerabad girl electrocuted (TT 11:41), Akvan severe cyclone forecast (TT 11:33), TG new pensions Nov 19 (Vaartha 08:16), APPSC asst prof exam to Dec 9 (TV9 06:09), Sankranti specials Srikakulam/Kakinada (HMTV 11:30), Audimulapu Suresh house arrest (HMTV 10:49, claim), HRF TOMCOM refund letter (Siasat 09:25, claim), US court vacates DHS student rule (TT 09:05). Duplicates of earlier stories: Ramoji jayanti state festival, house pattas 7 lakh, Revanth Chhattisgarh visit, TG SSC fee schedule, India-Egypt trade, plus cyclone. Skipped: APPSC 160 DIET lecturers (source dated 14 Oct), TG census 'from tomorrow' (April 2026 article), Uttarakhand bus / megalithic / Amit Shah / 779 panchayats (no search hit). news.json not trimmed to 50 (kept prior practice; 282 stories)."
   }
  ],
  "seen": [
@@ -6428,6 +6428,81 @@
    "url": "https://telanganatoday.com/hyderabad-students-launch-project-pari-to-raise-awareness-on-menstrual-hygiene",
    "d": "2026-11-17",
    "w": "skip"
+  },
+  {
+   "url": "https://telanganatoday.com/girl-electrocuted-while-playing-on-terrace-of-musheerabad-girls-home",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/akvan-set-to-intensify-into-severe-cyclone-by-evening-andhra-cm-takes-stock-of-situation",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://vaartha.com/telangana/telangana-new-pensions-revanth-reddy-govt-november-19/806158/",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://tv9telugu.com/career-jobs/appsc-exam-postponed-2026-assistant-professor-rgukt-lecturer-exam-rescheduled-to-december-9-1960255.html",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/andhrapradesh/scr-special-trains-for-christmas-and-sankranti-south-central-railway-extends-services-to-srikakulam-and-kakinada-213896",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/ongole/singarayakonda-ex-minister-audimulapu-suresh-under-house-arrest-213879",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/hrf-writes-to-tomcom-board-seeks-full-refund-for-germany-batch-3579192/",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/relief-for-foreign-students-as-us-federal-court-blocks-dhs-admission-rule",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://10tv.in/telugu-news/andhra-pradesh/ap-government-declares-ramoji-rao-birth-anniversary-november-16-as-state-festival-sn-1158664.html",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://vaartha.com/telangana/telangana-government-to-return-original-house-pattas-7-lakhs-families/806164/",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://vaartha.com/telangana/cm-revanth-reddy-chhattisgarh-visit-sammakka-sagar-noc/806169/",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://10tv.in/telugu-news/telangana/telangana-ssc-10th-class-exam-fee-schedule-released-last-date-november-26-sn-1158824.html",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/piyush-goyal-concludes-egypt-visit-discussion-on-bilateral-trade-pact-to-begin",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://articles.findmycollege.com/news/appsc-lecturer-recruitment-2026-out-for-160-posts-apply-from-18-november/",
+   "d": "2026-11-17",
+   "w": "skipped"
+  },
+  {
+   "url": "https://newsonair.gov.in/telangana-to-begin-first-ever-census-since-state-formation-from-tomorrow/",
+   "d": "2026-11-17",
+   "w": "skipped"
   }
  ]
 }
