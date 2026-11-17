@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T14:35:00+05:30",
+ "cutoff": "2026-11-17T15:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-14T23:35:00+05:30/2026-11-15T05:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 2,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 6,
-   "review": 3,
-   "gaps": "05:05 run started 05:06 IST (overnight window). Lookback from 15:35 14 Nov. Published: TT Pocharam wife attacked by husband allegation (00:47, claim, sensitive), DC Jagtial Nukapalli canal water to tanks (22:22, fact, late), DC Sridhar Babu Our World Institute at Bharat Summit (17:50, fact, late). Duplicate: Hans India AP rain alert cyclone 18 Nov (already published). Skipped pre-lookback: Siasat OU hostel protest (13:14), Hans Anitha CII video (13 Nov), Hans low pressure (13 Nov), Hans Murasu Godavari (5 Nov), DC Eluru/Kakinada ZP posts (13 Nov), TT Nasi and Mee restaurant (promotional). Review: Hans Gadkari Rs 3L-cr roads (only update time 14 Nov 04:47), Eenadu Swachh awards and Amaravati ORR (robots refused). Andhra Jyothy live blog no entries after 07:40. Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; standard world/India searches stale. Districts searched: Nalgonda, Suryapet, Yadadri, Kurnool, Nandyal, Anantapur, Jangaon, Mahabubabad, Bhupalpally, Mulugu, Chittoor, Tirupati, Kadapa, Annamayya, Eluru, Kakinada, East Godavari, Vikarabad, Rangareddy, Sangareddy, Nellore, Prakasam, Bapatla, Palnadu, Visakhapatnam, Srikakulam, Vizianagaram, Nizamabad, Kamareddy, Adilabad, Nirmal."
-  },
   {
    "window": "2026-11-15T05:05:00+05:30/2026-11-15T05:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Feeds 14:17, 67/68 ok; 719 uncovered TG/AP events. add_repo not available; used existing clone. Published: Damya Thanda infant death, mother accused (NewsMeter Telugu 13:30, claim), KNRUHS PG fee hike (TT 13:59, claim), Vizianagaram ZP HC Siri Sahasra certificate (Federal 14:03), Harshal Patel SRH to GT (TT 14:00). Duplicates: Cyclone Akvan IMD warning/AP alert (covered several times), Mahabubabad DC 10:29 version of same event. Skipped (old): Sridhar Babu investors DC (13 Nov), Tirumala rush DC (14 Nov), Yadadri 5th unit DC (21 Oct), PM Manila visit preview pmindia (12 Nov). Not opened/not found: Kurnool Grindr gang, Bellampalli police farmhouse video, APEPDCL 703 teams. District searches (Siddipet, Eluru) returned no fresh items."
+  },
+  {
+   "window": "2026-11-17T14:35:00+05:30/2026-11-17T15:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 1,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 15:04, 70/70 ok; 864 uncovered TG/AP. add_repo not available; used existing clone. Published: Sammakka Sagar NOC meeting (DC 14:27). Duplicates: house pattas 7 lakh (covered 16 Nov), auto bandh Nov 30 (covered 16 Nov), AP Nov 26 poll holiday (covered 11:05). Skipped: Telangana 20,018 MW demand (older milestone). Not opened (fetch refused/permission timeout): TT Model School teachers salary protest, Siasat JEH Aerospace Kothur tooling centre, Siasat SC SIR Dec 9 hearing, Siasat Bahrain blasts IRGC, ANI Sammakka (4xx). Not found by search: Kavitha Inter board, Bellampalli fake death certificates, Hanumakonda explosives, Mulugu Chalvai substation."
   }
  ],
  "seen": [
@@ -6698,6 +6698,26 @@
    "url": "https://www.pmindia.gov.in/?p=16976564",
    "d": "2026-11-17",
    "w": "skip"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/revanth-reddy-urges-chhattisgarh-to-issue-noc-for-sammakka-sagar-barrage-2005167",
+   "d": "2026-11-17",
+   "w": "2026-11-17T15:05"
+  },
+  {
+   "url": "https://www.aninews.in/news/national/general-news/telangana-cm-revanth-reddy-seeks-chhattisgarh8217s-noc-for-sammakka-sagar-barrage20261117144401/",
+   "d": "2026-11-17",
+   "w": "2026-11-17T15:05"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-govt-to-return-pre-2014-house-pattas-to-7-lakh-families-2004997",
+   "d": "2026-11-17",
+   "w": "2026-11-17T15:05"
+  },
+  {
+   "url": "https://www.dishadaily.com/telangana/a-new-milestone-in-telanganas-power-sector-601521",
+   "d": "2026-11-17",
+   "w": "2026-11-17T15:05"
   }
  ]
 }
