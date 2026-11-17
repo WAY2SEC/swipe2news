@@ -1,8 +1,556 @@
 {
  "date": "17.11.2026",
- "updated": "2026-11-17T06:05:00+05:30",
+ "updated": "2026-11-17T06:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "తెలంగాణ · విద్య",
+   "col": "--c-gov",
+   "art": "campus",
+   "stat": "ఇంటర్ విలీనం",
+   "statl": "పాఠశాల విద్యలోకి",
+   "h": "ఇంటర్‌ను పాఠశాల విద్యలో కలిపే యోచన",
+   "p": "ఇంటర్మీడియట్‌ను పాఠశాల విద్యాశాఖ పరిధిలోకి తేవాలని తెలంగాణ ప్రభుత్వం ఆలోచిస్తోంది. సోమవారం హైదరాబాద్‌లో ప్రభుత్వ, ప్రైవేట్ జూనియర్ కళాశాలల ప్రతినిధులతో విద్యాశాఖ సమావేశం జరిగింది. సలహాదారు కె. కేశవరావు, విద్యాశాఖ కార్యదర్శి యోగితా రాణా పాల్గొన్నారు. పదో తరగతి తర్వాత చదువు మానేసేవారిని తగ్గించడమే లక్ష్యమని అధికారులు చెప్పారు. ప్రస్తుతానికి సిలబస్ మారదు.",
+   "pts": [
+    "పదో తరగతి తర్వాత 16% డ్రాపౌట్లు: యూడైస్",
+    "10వ తరగతి వరకు 11 వేలకు పైగా పాఠశాలలు, సుమారు 3,500 జూనియర్ కళాశాలలు",
+    "ముసాయిదా మార్గదర్శకాలు సిద్ధమవుతున్నాయి"
+   ],
+   "why": "ఇంటర్ విద్యార్థులు, లెక్చరర్లు, జూనియర్ కళాశాలలపై ఈ నిర్ణయం ప్రభావం చూపుతుంది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-explores-merging-inter-school-education-2005036",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-17T00:19+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Education",
+    "h": "Telangana mulls merging Inter with schools",
+    "stat": "Inter merger",
+    "statl": "proposed under school education",
+    "loc": "Hyderabad",
+    "p": "The Telangana government is considering bringing intermediate education under the school education department. The education department met government and private junior college representatives in Hyderabad on Monday. Officials said the aim is to cut dropouts after Class 10. The syllabus will not change for now.",
+    "pts": [
+     "16% drop out after Class 10: UDISE",
+     "Over 11,000 schools up to Class 10, about 3,500 junior colleges",
+     "Draft guidelines being prepared"
+    ],
+    "why": "The move would affect intermediate students, lecturers and junior colleges."
+   },
+   "hi": {
+    "cat": "तेलंगाना · शिक्षा",
+    "h": "तेलंगाना: इंटर को स्कूल शिक्षा में मिलाने पर विचार",
+    "stat": "इंटर विलय",
+    "statl": "स्कूल शिक्षा में लाने का प्रस्ताव",
+    "loc": "हैदराबाद",
+    "p": "तेलंगाना सरकार इंटरमीडिएट शिक्षा को स्कूल शिक्षा विभाग के तहत लाने पर विचार कर रही है। सोमवार को हैदराबाद में शिक्षा विभाग ने सरकारी और निजी जूनियर कॉलेजों के प्रतिनिधियों से बैठक की। अधिकारियों ने कहा कि लक्ष्य दसवीं के बाद पढ़ाई छोड़ने वालों को कम करना है। फिलहाल पाठ्यक्रम नहीं बदलेगा।",
+    "pts": [
+     "दसवीं के बाद 16% पढ़ाई छोड़ते हैं: यूडाइस",
+     "दसवीं तक 11,000 से अधिक स्कूल, करीब 3,500 जूनियर कॉलेज",
+     "मसौदा दिशानिर्देश तैयार हो रहे हैं"
+    ],
+    "why": "इसका असर इंटर के छात्रों, लेक्चररों और जूनियर कॉलेजों पर पड़ेगा।"
+   },
+   "d": "17.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "తెలంగాణ · వైద్యం",
+   "col": "--c-gov",
+   "art": "economy",
+   "stat": "₹365.40 కోట్లు",
+   "statl": "వైద్య కళాశాలలకు అదనం",
+   "h": "9 వైద్య కళాశాలలకు ₹365 కోట్లు అదనం",
+   "p": "తొమ్మిది ప్రభుత్వ వైద్య కళాశాలలకు ₹365.40 కోట్ల అదనపు నిధులను తెలంగాణ ప్రభుత్వం మంజూరు చేసింది. దీంతో వాటి మొత్తం అంచనా వ్యయం ₹1,645 కోట్ల నుంచి ₹2,010.40 కోట్లకు పెరిగింది. భవనాలు, హాస్టళ్లు, రోడ్లు, నీటి పనులకు ఈ నిధులు వాడతారని కామారెడ్డిలో ప్రభుత్వ సలహాదారు షబ్బీర్ అలీ తెలిపారు.",
+   "pts": [
+    "కామారెడ్డి, సిరిసిల్ల, వికారాబాద్, ఖమ్మం, కరీంనగర్, భూపాలపల్లి, ఆసిఫాబాద్, జనగామ, నిర్మల్",
+    "జీవో నంబర్ 175, నవంబర్ 13న జారీ",
+    "కామారెడ్డికి ₹24.40 కోట్లు అదనం"
+   ],
+   "why": "ఈ తొమ్మిది జిల్లాల వైద్య విద్యార్థులు, రోగులకు మెరుగైన వసతులు అందుతాయి.",
+   "src": "NewsAge",
+   "url": "https://www.newsage.in/telangana-medical-colleges-funds-kamareddy-shabbir-ali/",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "kamareddy",
+   "loc": "కామారెడ్డి",
+   "pub": "2026-11-16T22:30+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Health",
+    "h": "₹365 crore more for 9 medical colleges",
+    "stat": "₹365.40 crore",
+    "statl": "extra funds for 9 medical colleges",
+    "loc": "Kamareddy",
+    "p": "The Telangana government sanctioned ₹365.40 crore more for nine government medical colleges, raising their total project cost from ₹1,645 crore to ₹2,010.40 crore. Government adviser Shabbir Ali said in Kamareddy the money will go to buildings, hostels, roads and water works.",
+    "pts": [
+     "Kamareddy, Sircilla, Vikarabad, Khammam, Karimnagar, Bhupalpally, Asifabad, Jangaon, Nirmal",
+     "G.O. Ms. No. 175 issued on November 13",
+     "Kamareddy gets ₹24.40 crore more"
+    ],
+    "why": "Medical students and patients in these nine districts get better facilities."
+   },
+   "hi": {
+    "cat": "तेलंगाना · स्वास्थ्य",
+    "h": "9 मेडिकल कॉलेजों को ₹365 करोड़ और",
+    "stat": "₹365.40 करोड़",
+    "statl": "9 मेडिकल कॉलेजों को अतिरिक्त राशि",
+    "loc": "कामारेड्डी",
+    "p": "तेलंगाना सरकार ने नौ सरकारी मेडिकल कॉलेजों के लिए ₹365.40 करोड़ अतिरिक्त मंज़ूर किए। इससे कुल परियोजना लागत ₹1,645 करोड़ से बढ़कर ₹2,010.40 करोड़ हो गई। सरकारी सलाहकार शब्बीर अली ने कामारेड्डी में बताया कि राशि भवन, छात्रावास, सड़क और पानी के कामों पर खर्च होगी।",
+    "pts": [
+     "कामारेड्डी, सिरसिल्ला, विकाराबाद, खम्मम, करीमनगर, भूपालपल्ली, आसिफाबाद, जनगांव, निर्मल",
+     "जी.ओ. संख्या 175, 13 नवंबर को जारी",
+     "कामारेड्डी को ₹24.40 करोड़ अतिरिक्त"
+    ],
+    "why": "इन नौ जिलों के मेडिकल छात्रों और मरीज़ों को बेहतर सुविधाएं मिलेंगी।"
+   },
+   "d": "17.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "తెలంగాణ · ఉద్యోగులు",
+   "col": "--c-money",
+   "art": "deadline",
+   "stat": "డిసెంబర్ 15",
+   "statl": "నుంచి ఆశా వర్కర్ల సమ్మె",
+   "h": "మేడ్చల్‌లో ఆశా వర్కర్ల సమ్మె నోటీసు",
+   "p": "డిమాండ్లు నెరవేర్చకపోతే డిసెంబర్ 15 నుంచి నిరవధిక సమ్మె చేస్తామని ఆశా వర్కర్లు ప్రకటించారు. సోమవారం మేడ్చల్ కలెక్టరేట్ ఎదుట నిరసన తెలిపి, ప్రజావాణిలో కలెక్టర్‌కు సమ్మె నోటీసు అందజేశారు. సుమారు 20 ఏళ్లుగా తక్కువ గౌరవ వేతనంతో పనిచేస్తున్నామని చెప్పారు. నెలకు ₹18,000 కనీస వేతనం, ఉద్యోగ భద్రత కల్పించాలని ప్రభుత్వాన్ని కోరారు.",
+   "pts": [
+    "ప్రస్తుత గౌరవ వేతనం నెలకు ₹9,900",
+    "పీఎఫ్, ఈఎస్ఐ, బీమా, పింఛన్ కూడా డిమాండ్",
+    "సీఐటీయూ, బీఆర్‌టీయూ నేతలు పాల్గొన్నారు"
+   ],
+   "why": "సమ్మె జరిగితే గ్రామాలు, బస్తీల్లో ఆరోగ్య సేవలపై ప్రభావం పడవచ్చు.",
+   "next": "డిసెంబర్ 15 నుంచి నిరవధిక సమ్మె",
+   "src": "Suryaa",
+   "url": "https://www.suryaa.com/telugu-news/telangana/disembar-15-numchi-aashaa-varkarla-niravadhika-samme-prajaavaanilo-kalektarku-samme-noteesu",
+   "sec": [
+    "telangana",
+    "jobs"
+   ],
+   "st": "TG",
+   "place": "medchal",
+   "loc": "మేడ్చల్",
+   "pub": "2026-11-17T04:08+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Workers",
+    "h": "Medchal ASHA workers serve strike notice",
+    "stat": "December 15",
+    "statl": "ASHA strike from this date",
+    "loc": "Medchal",
+    "p": "ASHA workers said they will go on an indefinite strike from December 15 if their demands are not met. They protested at the Medchal Collectorate on Monday and gave a strike notice to the Collector at Prajavani. They want a ₹18,000 monthly minimum wage and job security.",
+    "pts": [
+     "Current honorarium is ₹9,900 a month",
+     "Also demand PF, ESI, insurance and pension",
+     "CITU and BRTU leaders took part"
+    ],
+    "why": "A strike could hit health services in villages and urban slums.",
+    "next": "Indefinite strike from December 15"
+   },
+   "hi": {
+    "cat": "तेलंगाना · कर्मचारी",
+    "h": "मेडचल में आशा कर्मियों का हड़ताल नोटिस",
+    "stat": "15 दिसंबर",
+    "statl": "से आशा कर्मियों की हड़ताल",
+    "loc": "मेडचल",
+    "p": "आशा कर्मियों ने कहा कि मांगें पूरी न होने पर वे 15 दिसंबर से अनिश्चितकालीन हड़ताल करेंगी। सोमवार को उन्होंने मेडचल कलेक्टरेट के सामने प्रदर्शन किया और प्रजावाणी में कलेक्टर को हड़ताल नोटिस दिया। वे ₹18,000 मासिक न्यूनतम वेतन और नौकरी की सुरक्षा चाहती हैं।",
+    "pts": [
+     "अभी मानदेय ₹9,900 प्रति माह",
+     "पीएफ, ईएसआई, बीमा और पेंशन की भी मांग",
+     "सीटू और बीआरटीयू नेता शामिल हुए"
+    ],
+    "why": "हड़ताल से गांवों और बस्तियों में स्वास्थ्य सेवाएं प्रभावित हो सकती हैं।",
+    "next": "15 दिसंबर से अनिश्चितकालीन हड़ताल"
+   },
+   "d": "17.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "ఏపీ · కడప",
+   "col": "--c-election",
+   "art": "unity",
+   "stat": "మాజీ ఎమ్మెల్సీ",
+   "statl": "కడపలో కన్నుమూత",
+   "h": "మాజీ ఎమ్మెల్సీ షేక్ హుస్సేన్ మృతి",
+   "p": "వైఎస్ఆర్ కడప జిల్లాకు చెందిన సీనియర్ కాంగ్రెస్ నేత, మాజీ ఎమ్మెల్సీ షేక్ హుస్సేన్ సోమవారం తన నివాసంలో అనారోగ్యంతో మృతి చెందారు. వైఎస్ రాజశేఖర్ రెడ్డి ముఖ్యమంత్రిగా ఉన్నప్పుడు ఆయన ఎమ్మెల్సీగా పనిచేశారు. జిల్లా కాంగ్రెస్ కమిటీ అధ్యక్షుడిగానూ సేవలందించారు. వార్త తెలిసి పలువురు నేతలు ఆయన ఇంటికి వెళ్లి నివాళులు అర్పించారు.",
+   "pts": [
+    "మాజీ ఉపముఖ్యమంత్రి అంజాద్ బాషా సంతాపం",
+    "కడప ఎమ్మెల్యే మాధవి రెడ్డి సంతాపం"
+   ],
+   "why": "కడప జిల్లా రాజకీయాల్లో సుదీర్ఘకాలం ఉన్న నేతను జిల్లా కోల్పోయింది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/former-mlc-sheikh-hussain-passes-away-2005006",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-kadapa",
+   "loc": "కడప",
+   "pub": "2026-11-16T23:26+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Kadapa",
+    "h": "Former Kadapa MLC Sheikh Hussain dies",
+    "stat": "Former MLC",
+    "statl": "Sheikh Hussain passes away",
+    "loc": "Kadapa",
+    "p": "Senior Congress leader and former MLC Sheikh Hussain of YSR Kadapa district died at his home on Monday due to health problems. He served as MLC when Y.S. Rajasekhar Reddy was chief minister and was also district Congress president.",
+    "pts": [
+     "Leaders and followers paid respects at his home",
+     "Amjad Basha, MLA Madhavi Reddy condoled"
+    ],
+    "why": "Kadapa district has lost a long-serving political figure."
+   },
+   "hi": {
+    "cat": "आंध्र · कडपा",
+    "h": "कडपा के पूर्व एमएलसी शेख हुसैन का निधन",
+    "stat": "पूर्व एमएलसी",
+    "statl": "शेख हुसैन का निधन",
+    "loc": "कडपा",
+    "p": "वाईएसआर कडपा ज़िले के वरिष्ठ कांग्रेस नेता और पूर्व एमएलसी शेख हुसैन का सोमवार को अपने घर पर बीमारी से निधन हो गया। वाई.एस. राजशेखर रेड्डी के मुख्यमंत्री रहते वे एमएलसी थे और ज़िला कांग्रेस अध्यक्ष भी रहे।",
+    "pts": [
+     "नेताओं और समर्थकों ने घर जाकर श्रद्धांजलि दी",
+     "अमजद बाशा, विधायक माधवी रेड्डी ने शोक जताया"
+    ],
+    "why": "कडपा ज़िले ने लंबे समय तक सक्रिय रहे नेता को खो दिया।"
+   },
+   "d": "17.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "ఏపీ · రాజమహేంద్రవరం",
+   "col": "--c-water",
+   "art": "water",
+   "stat": "పుష్కరాలు 2027",
+   "statl": "ఎన్ఎస్ఎస్ సేవలు",
+   "h": "పుష్కరాలకు మరింత మంది ఎన్ఎస్ఎస్ సేవకులు",
+   "p": "గోదావరి పుష్కరాలు-2027 కోసం మరింత మంది ఎన్ఎస్ఎస్ వాలంటీర్లను నియమిస్తామని తూర్పు గోదావరి కలెక్టర్ కీర్తి చేకూరి తెలిపారు. సోమవారం రాజమహేంద్రవరంలోని ఆదికవి నన్నయ విశ్వవిద్యాలయంలో జరిగిన వర్క్‌షాప్‌లో ఆమె మాట్లాడారు. భక్తులకు స్వాగతం పలకడం, పరిశుభ్రత, సేవలపై అవగాహన బాధ్యతలు వాలంటీర్లకు అప్పగిస్తారు. శాఖల మధ్య సమన్వయం అవసరమని చెప్పారు.",
+   "pts": [
+    "ఘాట్లలో ప్లాస్టిక్ నియంత్రణ, ఆరోగ్యం, రవాణాపై దృష్టి",
+    "విశ్వవిద్యాలయం పూర్తి సహకారం: వీసీ ప్రసన్నశ్రీ"
+   ],
+   "why": "పుష్కరాలకు వచ్చే లక్షలాది భక్తులకు సేవలు మెరుగుపడతాయి.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/more-nss-volunteers-to-be-deployed-for-godavari-pushkaralu-2005033",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "AP",
+   "place": "ap-eastgodavari",
+   "loc": "రాజమహేంద్రవరం",
+   "pub": "2026-11-17T00:15+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Rajamahendravaram",
+    "h": "More NSS volunteers for Godavari Pushkaralu",
+    "stat": "Pushkaralu 2027",
+    "statl": "NSS volunteers to serve pilgrims",
+    "loc": "Rajamahendravaram",
+    "p": "East Godavari Collector Keerthi Chekuri said more NSS volunteers will be deployed for Godavari Pushkaralu-2027. Speaking at a workshop at Adikavi Nannayya University in Rajamahendravaram on Monday, she said volunteers will welcome pilgrims and lead cleanliness and awareness work.",
+    "pts": [
+     "Focus on plastic control at ghats, health and transport",
+     "VC Prasanna Sri pledged full university support"
+    ],
+    "why": "Services for the lakhs of pilgrims expected at the Pushkaralu should improve."
+   },
+   "hi": {
+    "cat": "आंध्र · राजमहेंद्रवरम",
+    "h": "गोदावरी पुष्करालु में और एनएसएस स्वयंसेवक",
+    "stat": "पुष्करालु 2027",
+    "statl": "एनएसएस स्वयंसेवक सेवा देंगे",
+    "loc": "राजमहेंद्रवरम",
+    "p": "पूर्वी गोदावरी की कलेक्टर कीर्ति चेकुरी ने कहा कि गोदावरी पुष्करालु-2027 के लिए और एनएसएस स्वयंसेवक लगाए जाएंगे। सोमवार को राजमहेंद्रवरम के आदिकवि नन्नया विश्वविद्यालय में कार्यशाला में उन्होंने कहा कि स्वयंसेवक श्रद्धालुओं का स्वागत, सफाई और जागरूकता का काम करेंगे।",
+    "pts": [
+     "घाटों पर प्लास्टिक नियंत्रण, स्वास्थ्य और परिवहन पर ध्यान",
+     "कुलपति प्रसन्ना श्री ने पूरा सहयोग का भरोसा दिया"
+    ],
+    "why": "पुष्करालु में आने वाले लाखों श्रद्धालुओं की सेवाएं बेहतर होंगी।"
+   },
+   "d": "17.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "ఏపీ · అనంతపురం",
+   "col": "--c-gov",
+   "art": "voters",
+   "stat": "పీజీఆర్ఎస్",
+   "statl": "ఎన్నికల వరకు వాయిదా",
+   "h": "అనంతపురంలో పీజీఆర్ఎస్ నిలిపివేత",
+   "p": "స్థానిక సంస్థల ఎన్నికలు పూర్తయ్యే వరకు అనంతపురం జిల్లాలో ప్రజా సమస్యల పరిష్కార వేదిక (పీజీఆర్ఎస్), రెవెన్యూ క్లినిక్ కార్యక్రమాలను నిలిపివేస్తున్నట్లు కలెక్టర్ ఓ. ఆనంద్ సోమవారం ప్రకటించారు. ఈ సమయంలో ప్రజలు వెబ్‌సైట్, వాట్సాప్, టోల్ ఫ్రీ నంబర్ ద్వారా ఫిర్యాదులు ఇవ్వవచ్చని సూచించారు. ఫిర్యాదు స్థితి కూడా తెలుసుకోవచ్చు.",
+   "pts": [
+    "Meekosam.ap.gov.in వెబ్‌సైట్‌లో ఫిర్యాదు",
+    "వాట్సాప్ నంబర్ 9552300009, టోల్ ఫ్రీ 1100"
+   ],
+   "why": "అనంతపురం జిల్లా ప్రజలు ఎన్నికల సమయంలో ఫిర్యాదులకు ఆన్‌లైన్ మార్గాలు వాడాలి.",
+   "src": "The Hans India",
+   "url": "https://thehansindia.com/news/cities/kurnool/pgrs-suspended-temporarily-1142847",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-anantapur",
+   "loc": "అనంతపురం",
+   "pub": "2026-11-17T04:10+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Anantapur",
+    "h": "Anantapur suspends PGRS during polls",
+    "stat": "PGRS paused",
+    "statl": "until local body polls end",
+    "loc": "Anantapur",
+    "p": "Anantapur Collector O. Anand announced on Monday that the in-person grievance redressal (PGRS) and Revenue Clinic programmes are suspended until the local body elections are over. People can still file complaints online or by phone.",
+    "pts": [
+     "Complaints at Meekosam.ap.gov.in",
+     "WhatsApp 9552300009, toll-free 1100"
+    ],
+    "why": "Anantapur residents should use online channels for complaints during polls."
+   },
+   "hi": {
+    "cat": "आंध्र · अनंतपुर",
+    "h": "अनंतपुर में चुनाव तक पीजीआरएस स्थगित",
+    "stat": "पीजीआरएस स्थगित",
+    "statl": "स्थानीय चुनाव पूरे होने तक",
+    "loc": "अनंतपुर",
+    "p": "अनंतपुर के कलेक्टर ओ. आनंद ने सोमवार को घोषणा की कि स्थानीय निकाय चुनाव पूरे होने तक जन शिकायत निवारण (पीजीआरएस) और रेवेन्यू क्लिनिक कार्यक्रम स्थगित रहेंगे। लोग ऑनलाइन या फोन से शिकायत दर्ज करा सकते हैं।",
+    "pts": [
+     "Meekosam.ap.gov.in पर शिकायत",
+     "व्हाट्सऐप 9552300009, टोल-फ्री 1100"
+    ],
+    "why": "चुनाव के दौरान अनंतपुर के लोगों को ऑनलाइन माध्यम अपनाने होंगे।"
+   },
+   "d": "17.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "ఏపీ · పుట్టపర్తి",
+   "col": "--c-city",
+   "art": "unity",
+   "stat": "నవంబర్ 23",
+   "statl": "సత్యసాయి జయంతి",
+   "h": "పుట్టపర్తిలో సత్యసాయి శతజయంతి ఏర్పాట్లు",
+   "p": "సత్యసాయి బాబా శతజయంతి ఉత్సవాల చివరి వారానికి పుట్టపర్తి ప్రశాంతి నిలయం సిద్ధమవుతోంది. నవంబర్ 16 నుంచి 24 వరకు 150 మందికి పైగా వైద్యులతో రోజంతా ఉచిత వైద్య శిబిరం నడుస్తుందని సెంట్రల్ ట్రస్ట్ మేనేజింగ్ ట్రస్టీ ఆర్.జె. రత్నాకర్ తెలిపారు. భక్తులకు ఉచిత భోజనం కూడా ఉంటుంది.",
+   "pts": [
+    "నవంబర్ 22న విద్యాసంస్థ స్నాతకోత్సవం, గవర్నర్ హాజరు",
+    "నవంబర్ 23న రథోత్సవం, సాయంత్రం ఝూలా మహోత్సవం",
+    "సుమారు 10 వేల మంది సేవాదళ్ వాలంటీర్లు"
+   ],
+   "why": "పుట్టపర్తికి వెళ్లే భక్తులు ఈ తేదీలు, ఏర్పాట్లు తెలుసుకోవచ్చు.",
+   "next": "నవంబర్ 23న సత్యసాయి జయంతి రథోత్సవం",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/anantapur/prasanthi-nilayam-gears-up-for-sai-baba-centenary-finale-1142885",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "AP",
+   "place": "ap-sathyasai",
+   "loc": "పుట్టపర్తి",
+   "pub": "2026-11-17T05:18+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Puttaparthi",
+    "h": "Puttaparthi readies for Sai centenary finale",
+    "stat": "November 23",
+    "statl": "Sathya Sai centenary celebrations",
+    "loc": "Puttaparthi",
+    "p": "Prasanthi Nilayam in Puttaparthi is preparing for the final week of Sathya Sai Baba's centenary. Central Trust managing trustee R.J. Rathnakar said a round-the-clock free medical camp with over 150 doctors runs from November 16 to 24, with free meals for devotees.",
+    "pts": [
+     "Institute convocation on November 22, Governor to attend",
+     "Chariot procession and Jhoola Mahotsavam on November 23",
+     "About 10,000 Sevadal volunteers"
+    ],
+    "why": "Devotees travelling to Puttaparthi can plan around these dates.",
+    "next": "Sathya Sai birthday chariot procession on November 23"
+   },
+   "hi": {
+    "cat": "आंध्र · पुट्टपर्थी",
+    "h": "पुट्टपर्थी में साईं शताब्दी समापन की तैयारी",
+    "stat": "23 नवंबर",
+    "statl": "सत्य साईं शताब्दी समारोह",
+    "loc": "पुट्टपर्थी",
+    "p": "पुट्टपर्थी का प्रशांति निलयम सत्य साईं बाबा शताब्दी के अंतिम सप्ताह की तैयारी कर रहा है। सेंट्रल ट्रस्ट के प्रबंध न्यासी आर.जे. रत्नाकर ने बताया कि 16 से 24 नवंबर तक 150 से अधिक डॉक्टरों का चौबीसों घंटे मुफ्त चिकित्सा शिविर चलेगा और भक्तों को मुफ्त भोजन मिलेगा।",
+    "pts": [
+     "22 नवंबर को संस्थान का दीक्षांत समारोह, राज्यपाल आएंगे",
+     "23 नवंबर को रथ यात्रा और झूला महोत्सव",
+     "करीब 10,000 सेवादल स्वयंसेवक"
+    ],
+    "why": "पुट्टपर्थी जाने वाले भक्त इन तारीखों के हिसाब से योजना बना सकते हैं।",
+    "next": "23 नवंबर को सत्य साईं जयंती रथ यात्रा"
+   },
+   "d": "17.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "ఏపీ · నెల్లూరు",
+   "col": "--c-city",
+   "art": "unity",
+   "stat": "డిసెంబర్ 4–6",
+   "statl": "లక్ష దీపోత్సవం",
+   "h": "నెల్లూరు లక్ష దీపోత్సవానికి భూమిపూజ",
+   "p": "నెల్లూరు వీఆర్‌సీ మైదానంలో డిసెంబర్ 4 నుంచి 6 వరకు 11వ కార్తీక లక్ష దీపోత్సవం జరగనుంది. ఇందుకోసం ఎంపీ వేమిరెడ్డి ప్రభాకర్ రెడ్డి, కోవూరు ఎమ్మెల్యే వేమిరెడ్డి ప్రశాంతి రెడ్డి దంపతులు సోమవారం భూమిపూజ చేశారు. వీపీఆర్ ఫౌండేషన్ ఈ వేడుకను నిర్వహిస్తోంది. ఎన్నికల కోడ్ వల్ల ఏర్పాట్లు కొంత ఆలస్యమయ్యాయని తెలిపారు.",
+   "pts": [
+    "రామేశ్వరం, అహోబిలం ఆలయాల నమూనాలు",
+    "మూడో రోజు 501 జంటలతో సామూహిక సత్యనారాయణ వ్రతం"
+   ],
+   "why": "నెల్లూరు భక్తులు డిసెంబర్ మొదటి వారంలో ఈ వేడుకకు హాజరుకావచ్చు.",
+   "next": "డిసెంబర్ 4 నుంచి 6 వరకు దీపోత్సవం",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/nellore/vpr-couple-perform-bhumi-puja-for-karthika-deepotsavam-1142883",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "AP",
+   "place": "ap-nellore",
+   "loc": "నెల్లూరు",
+   "pub": "2026-11-17T05:11+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Nellore",
+    "h": "Bhumi puja for Nellore Deepotsavam",
+    "stat": "December 4–6",
+    "statl": "Karthika Laksha Deepotsavam",
+    "loc": "Nellore",
+    "p": "The 11th Karthika Laksha Deepotsavam will be held at VRC Grounds in Nellore from December 4 to 6. MP Vemireddy Prabhakar Reddy and Kovur MLA Vemireddy Prashanthi Reddy performed bhumi puja for it on Monday. The VPR Foundation organises the event.",
+    "pts": [
+     "Replicas of Rameswaram and Ahobilam temples",
+     "Mass Satyanarayana Vratam with 501 couples on day three"
+    ],
+    "why": "Devotees in Nellore can attend the festival in early December.",
+    "next": "Deepotsavam from December 4 to 6"
+   },
+   "hi": {
+    "cat": "आंध्र · नेल्लोर",
+    "h": "नेल्लोर लक्ष दीपोत्सव के लिए भूमि पूजन",
+    "stat": "4–6 दिसंबर",
+    "statl": "कार्तिक लक्ष दीपोत्सव",
+    "loc": "नेल्लोर",
+    "p": "नेल्लोर के वीआरसी मैदान में 4 से 6 दिसंबर तक 11वां कार्तिक लक्ष दीपोत्सव होगा। इसके लिए सांसद वेमिरेड्डी प्रभाकर रेड्डी और कोवूर विधायक वेमिरेड्डी प्रशांति रेड्डी ने सोमवार को भूमि पूजन किया। आयोजन वीपीआर फाउंडेशन कर रहा है।",
+    "pts": [
+     "रामेश्वरम और अहोबिलम मंदिरों की प्रतिकृतियां",
+     "तीसरे दिन 501 जोड़ों का सामूहिक सत्यनारायण व्रत"
+    ],
+    "why": "नेल्लोर के श्रद्धालु दिसंबर के पहले सप्ताह में इसमें शामिल हो सकते हैं।",
+    "next": "4 से 6 दिसंबर तक दीपोत्सव"
+   },
+   "d": "17.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "ప్రపంచం · బ్యాంకింగ్",
+   "col": "--c-money",
+   "art": "economy",
+   "stat": "చేజ్ బ్యాంక్",
+   "statl": "ఆన్‌లైన్ సేవలు ఆగాయి",
+   "h": "అమెరికాలో చేజ్ బ్యాంక్ సేవలకు అంతరాయం",
+   "p": "అమెరికాలో జేపీమోర్గాన్ చేజ్ బ్యాంక్ ఆన్‌లైన్ సేవలు సోమవారం గంటల తరబడి నిలిచిపోయాయి. ఖాతాదారులు లాగిన్, బ్యాలెన్స్ చూడటం, నగదు బదిలీల్లో ఇబ్బందులు ఎదుర్కొన్నారు. హార్డ్‌వేర్ వ్యవస్థల్లో సాఫ్ట్‌వేర్ లోపమే కారణమని, ఇది సైబర్ దాడి కాదని చేజ్ తెలిపింది. చేజ్‌తో లావాదేవీలు చేసిన ఇతర బ్యాంకుల ఖాతాదారులపైనా ప్రభావం పడింది.",
+   "pts": [
+    "డౌన్‌డిటెక్టర్‌లో చేజ్‌పై సుమారు 5,000 ఫిర్యాదులు",
+    "ఖాతాల్లో డబ్బు సురక్షితమని బ్యాంక్ ప్రకటన"
+   ],
+   "why": "అమెరికాలో చేజ్ ఖాతాలున్న తెలుగువారి లావాదేవీలు ఆలస్యం కావచ్చు.",
+   "src": "Fast Company",
+   "url": "https://www.fastcompany.com/91643371/banks-down-chase-boa-wells-fargo-widespread-outages-today",
+   "sec": [
+    "world",
+    "business"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-17T01:14+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "World · Banking",
+    "h": "Chase online banking outage hits US",
+    "stat": "Chase Bank",
+    "statl": "online services disrupted",
+    "loc": "United States",
+    "p": "JPMorgan Chase's online banking was disrupted for hours in the US on Monday, with customers facing login, balance and transfer problems. Chase blamed a software bug in on-premise hardware and said it was not a cyberattack. Some customers of other banks were also affected.",
+    "pts": [
+     "About 5,000 Downdetector reports for Chase at peak",
+     "Bank said customers' funds remain safe"
+    ],
+    "why": "Telugu people with Chase accounts in the US may see delayed transactions."
+   },
+   "hi": {
+    "cat": "दुनिया · बैंकिंग",
+    "h": "अमेरिका में चेज़ बैंक की ऑनलाइन सेवा ठप",
+    "stat": "चेज़ बैंक",
+    "statl": "ऑनलाइन सेवाओं में बाधा",
+    "loc": "अमेरिका",
+    "p": "अमेरिका में सोमवार को चेज़ बैंक की ऑनलाइन सेवाएं घंटों बाधित रहीं। ग्राहकों को लॉगिन, बैलेंस और पैसे भेजने में दिक्कत हुई। चेज़ ने कहा कि वजह हार्डवेयर में सॉफ्टवेयर गड़बड़ी थी, साइबर हमला नहीं। दूसरे बैंकों के कुछ ग्राहक भी प्रभावित हुए।",
+    "pts": [
+     "डाउनडिटेक्टर पर चेज़ की करीब 5,000 शिकायतें",
+     "बैंक ने कहा ग्राहकों का पैसा सुरक्षित"
+    ],
+    "why": "अमेरिका में चेज़ खाता रखने वाले भारतीयों के लेनदेन में देरी हो सकती है।"
+   },
+   "d": "17.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "ప్రపంచం · పర్యటన",
+   "col": "--c-city",
+   "art": "unity",
+   "stat": "15 లక్షల మంది",
+   "statl": "వీడ్కోలు ప్రార్థనకు",
+   "h": "దక్షిణ అమెరికా పర్యటన ముగించిన పోప్ లియో",
+   "p": "పోప్ లియో 14 పది రోజుల దక్షిణ అమెరికా పర్యటన సోమవారం పెరూ రాజధాని లిమాలో ముగిసింది. లాస్ పాల్మాస్ వైమానిక స్థావరంలో జరిగిన వీడ్కోలు ప్రార్థనకు సుమారు 15 లక్షల మంది హాజరయ్యారు. ఈ పర్యటనలో ఆయన ఉరుగ్వే, అర్జెంటీనా, పెరూ దేశాలను సందర్శించారు. పెరూ ప్రజలకు కృతజ్ఞతలు తెలిపి రోమ్‌కు బయలుదేరారు.",
+   "pts": [
+    "నవంబర్ 6 నుంచి 16 వరకు పర్యటన",
+    "2015–2023 మధ్య పెరూలో చిక్లాయో బిషప్‌గా సేవలు"
+   ],
+   "why": "ప్రపంచవ్యాప్తంగా క్రైస్తవులు ఆసక్తిగా గమనించిన పర్యటన ఇది.",
+   "src": "Vatican News",
+   "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-to-peru-words-canno-express-my-gratitude-graces-of-visit.html",
+   "sec": [
+    "world"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-16T23:08+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "World · Visit",
+    "h": "Pope Leo ends South America tour",
+    "stat": "1.5 million",
+    "statl": "attend Pope's farewell Mass",
+    "loc": "Lima, Peru",
+    "p": "Pope Leo XIV ended his ten-day South America tour in Lima, Peru, on Monday. About 1.5 million people attended the farewell Mass. He visited Uruguay, Argentina and Peru, then left for Rome.",
+    "pts": [
+     "Tour ran from November 6 to 16",
+     "Served as Bishop of Chiclayo, Peru, 2015–2023"
+    ],
+    "why": "Christians worldwide followed the Pope's first long tour of the region."
+   },
+   "hi": {
+    "cat": "दुनिया · यात्रा",
+    "h": "पोप लियो की दक्षिण अमेरिका यात्रा पूरी",
+    "stat": "15 लाख लोग",
+    "statl": "पोप की विदाई प्रार्थना में",
+    "loc": "लीमा, पेरू",
+    "p": "पोप लियो चौदहवें की दस दिन की दक्षिण अमेरिका यात्रा सोमवार को पेरू की राजधानी लीमा में पूरी हुई। विदाई प्रार्थना सभा में करीब 15 लाख लोग पहुंचे। उन्होंने उरुग्वे, अर्जेंटीना और पेरू का दौरा किया और फिर रोम रवाना हुए।",
+    "pts": [
+     "यात्रा 6 से 16 नवंबर तक",
+     "2015–2023 में पेरू के चिक्लायो के बिशप रहे"
+    ],
+    "why": "दुनिया भर के ईसाइयों ने इस यात्रा को ध्यान से देखा।"
+   },
+   "d": "17.11.2026",
+   "t": "06:35"
+  },
   {
    "cat": "తెలంగాణ · విద్యుత్",
    "col": "--c-power",
