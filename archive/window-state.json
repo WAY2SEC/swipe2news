@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T10:05:00+05:30",
+ "cutoff": "2026-11-17T10:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-14T19:05:00+05:30/2026-11-14T19:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 3,
-   "late": 3,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "19:35 run started 19:36 IST. Lookback from 11:05 14 Nov. Published (all late-found): Siasat/ANI BJYM protest at Bharat Summit venue, protesters detained (14:43, fact), UNI Seethakka launches 4 child welfare initiatives (15:56, fact; paywalled, lead only), Siasat SIO urges hold on T-Hub meet with Israeli firms (16:07, claim). Duplicates: Outlook Revanth accuses Centre of blocking foreign speakers (17:11; dup of Bharat Summit visa row), Siasat Giribabu dies (dup). Skipped pre-lookback: Hans India Nellore GP polls stage set (05:46), Hans Nellore YSRCP MLC on student suicides (05:43), Hans AP investment intent Rs 32.49L cr (04:40). ETV Bharat TG live blog: no entries after 09:16. Not reached: Eenadu (robots refused); Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters not surfaced; standard searches stale. Districts searched: Nalgonda, Suryapet, Yadadri, Karimnagar, Siddipet, Medak, Nizamabad, Nagarkurnool, Wanaparthy, Gadwal, Guntur, Kakinada, Kurnool, NTR, Nellore, Kadapa, Anantapur."
-  },
   {
    "window": "2026-11-14T19:35:00+05:30/2026-11-14T20:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Run started 10:05 IST; lookback from 01:35. Feeds 09:10 (55 min old), 59/70 ok. add_repo not available; used existing clone at origin/main; articles read via sub-agents. No new eligible events: feed items after 06:30 uncovered by marker were already published or not findable in search. Duplicates: Hans India 'Cyclone Akvan approaches AP coast' (09:13, = 08:35 Akvan story), Sakshi Post 'Cyclone Akvan to intensify further' (07:51). Skipped: Telangana Today BITS Hyderabad desalination patent (16 Nov 17:31, before lookback). Search results old (Feb/Dec 2025 items: Jubilee Hills flyover curbs, HMWSSB treated water, Thane egg racket; PW AP SSC fee 9 Nov). Not found in search: V6 Tummala clarification, V6 Gangapur tourism package, Lokal municipal-poll holiday Nov 26, NIE megalithic burials, NIE AP HC husband-debts ruling, NIE Amit Shah AP economy, NIE Khelo India, NIE Sathya Sai 101st celebrations, TOI Future City Rs18k cr. 8 district/general searches (Warangal, Nellore, Mahabubnagar, Visakhapatnam, Tirupati, Karimnagar, Nizamabad, Telugu general) gave no fresh in-window items."
+  },
+  {
+   "window": "2026-11-17T10:05:00+05:30/2026-11-17T10:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 4,
+   "late": 4,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 5,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Feeds 10:11, 59/70 ok. add_repo not available; used existing clone. Articles read via sub-agents. Published: TG RERA Bhuvanteza refund (NewsMeter 09:53), AP phase-2 civic nominations 7,508 (ETV 09:49), OU hostel food protest (Siasat 09:33), 1,651 CGS seats (V6 09:06). Duplicates of 16 Nov stories: TGPSC 3-week results (TV9 07:51), house pattas 7 lakh families (HMTV 05:55/TV9 07:35), Sammakka Sagar Chhattisgarh visit (V6 06:57), Vijaya Dairy HC (Hans 05:04, DC 23:29). Skipped (before lookback): TG SSC fee Nov 26 (DC 16 Nov 23:20), Governor Excellence Awards (HMTV 16 Nov 17:11), Parvathipuram-Manyam panchayat nominations (AJ 00:22), Amit Shah no-fly zone (AJ 16 Nov). Not found: Lingampally 55 MGD (Samayam), NIE Enumamula trader, 10TV SSC fee. 8 district searches (Adilabad, Khammam, Guntur, Kakinada, Suryapet, Srikakulam, Medak/Sangareddy, Prakasam) gave no fresh in-window items."
   }
  ],
  "seen": [
@@ -6308,6 +6308,56 @@
    "url": "https://www.sakshipost.com/news/andhrapradesh/cyclone-akvan-intensify-further-andhra-pradesh-coast-faces-heavy-rain-and-strong",
    "d": "2026-11-17",
    "w": "duplicate"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/neither-home-nor-construction-tg-rera-orders-bhuvanteza-infra-to-refund-2222-lakh-with-1085-interest-779455",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/phase-2-ap-municipal-election-nominations-conclude-with-7508-candidates-aps26111700744",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/students-protest-over-unhygienic-food-at-osmania-university-3579187/",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/-1651-compulsory-government-service-seats-in-telangana-dme-releases-2026-seat-matrix-for-pg-medical-doctors",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://tv9telugu.com/telangana/telangana-government-big-good-news-original-house-documents-to-be-returned-to-7-lakh-families-1960284.html",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/telangana/telangana-govt-to-return-house-pattas-to-7-lakh-beneficiaries-213813",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/vijayawada/ap-high-court-sets-aside-2022-and-2023-vijaya-dairy-director-elections-1142877",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/ssc-exams-2027-fee-payment-without-late-fee-till-nov-26-2004998",
+   "d": "2026-11-17",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/telangana/telangana-governor-excellence-awards-2026-notification-released-apply-online-or-offline-before-december-10-213651",
+   "d": "2026-11-17",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/vizianagaram/sarpanch-675-ward-members-1651-1576957.html",
+   "d": "2026-11-17",
+   "w": "skipped"
   }
  ]
 }
