@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T13:35:00+05:30",
+ "cutoff": "2026-11-17T14:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-14T22:35:00+05:30/2026-11-14T23:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 2,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 8,
-   "review": 3,
-   "gaps": "23:05 run started 23:05 IST. Lookback from 14:35 14 Nov. Published: HMTV Peddapalli 1,882 Cheyutha pensions (22:37, fact), HMTV Bhadrachalam stroke patient treated (21:26, fact, late). Skipped: TT Arundathi Institute felicitation (20:43, promotional), NT News Sarapaka Bala Grama Sabha (17:53, minor), TT Bengal teen generator accident (20:26, other state minor), TT rain 20 states (12:33 pre-lookback), TT elephant Gyarvi Shareef (00:24), TT Congress six guarantees/Rahul gig (14:32 pre-lookback), TT KTR poll promises (10:00), Jagtial ABN items (13 Nov 23:46-23:49), TT Karimnagar municipal polls (Feb 2026). Review (fetch refused): TT Munneru suspension bridge, TT Jaishankar India-China border, TT India UN Palestine vote. Andhra Jyothy and ETV Bharat TG live blogs no entries after 09:17. Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; standard searches stale. Districts searched: Siddipet, Medak, Sangareddy, Nizamabad, Nirmal, Mahabubnagar, Wanaparthy, Nagarkurnool, Jagtial, Karimnagar, Peddapalli, Khammam, Bhadradri, Nellore, Tirupati, Kadapa, Anantapur, Kurnool, Srikakulam, Vizianagaram, Visakhapatnam, Guntur."
-  },
   {
    "window": "2026-11-14T23:05:00+05:30/2026-11-14T23:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Feeds 13:10, 50/70 ok; 681 uncovered TG/AP events. add_repo not available; used existing clone. Published: Addagudur gurukul cook harassment allegation (NT 12:29, claim), Jupally no canal water for crops (NT 12:01, claim). Duplicate: TG rain alert Nov 20-21 (Sakshi Post 12:00; covered 05:05 from DC). Skipped (old): APPSC 160 DIET lecturers (14 Oct), Prakasam panchayat polls (14 Nov), Amit Shah Vizag (11 Nov). Already covered: pattas 7 lakh, auto bandh Nov 30, Amit Shah Vijayawada. Not opened: Mongolia president resignation (US News, Manila Times), Modi India-ASEAN (ANI), Lingampally 55 MGD, megalithic Bhadradri, Hyderabad 95% attendance teachers, Nellore sea surge, AP food inflation. 9 district searches returned no fresh items."
+  },
+  {
+   "window": "2026-11-17T13:35:00+05:30/2026-11-17T14:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 7,
+   "late": 4,
+   "sensitive": 3,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 13:49, 69/70 ok; 752 uncovered TG/AP events, small batch handled. add_repo not available; used existing clone. Published: Global Summit postponement letter (South First 13:45, claim), El Nino Rs 500 cr GST loss (Siasat 13:29, forecast), Hyderabad aluminium varaq arrests (Siasat 13:47), Khelo India Kabaddi (Hans 12:37), Gummagatta KGBV 25 ill (HMTV 12:36), Shivaipally mother killed (HMTV 12:37), Update Bijinapally alprazolam 6 held (Hans 11:04). Duplicates: Shamirpet Bhuvanteza Rs 22.22L refund (covered 10:35), Bilkis Bano bail (covered 16 Nov). Skipped: Ramoji Rao jayanti state festival (announced 16 Nov evening; Sakshi copy not openable). Not opened: Dishadaily KGBV, Nagarjunasagar AP tunnel (V6), Bhupalpally 6,000 pensions (HMTV), Minister Vivek 2 lakh houses (V6), Bellampalli police farmhouse (V6). District searches (Krishna, Nirmal, Nellore, Sangareddy/Medak, Mancherial, Nagarkurnool, Anantapur, Bhupalpally) returned few fresh items."
   }
  ],
  "seen": [
@@ -6593,6 +6593,66 @@
    "url": "https://www.thehansindia.com/news/cities/visakhapatnam/union-home-minister-amit-shah-to-visit-visakhapatnam-for-two-summits-1141065",
    "d": "2026-11-17",
    "w": "skip"
+  },
+  {
+   "url": "https://thesouthfirst.com/telangana/civil-society-leaders-citizens-urge-cm-revanth-to-postpone-global-investment-summit-amid-severe-el-nino-drought/",
+   "d": "2026-11-17",
+   "w": "2026-11-17T14:05"
+  },
+  {
+   "url": "https://countercurrents.org/2026/11/400-citizens-urge-telangana-cm-to-postpone-global-investment-summit-amid-severe-drought-and-water-crisis/",
+   "d": "2026-11-17",
+   "w": "2026-11-17T14:05"
+  },
+  {
+   "url": "https://www.siasat.com/el-nino-to-cost-telangana-rs-500-crore-in-gst-over-two-months-3579269/",
+   "d": "2026-11-17",
+   "w": "2026-11-17T14:05"
+  },
+  {
+   "url": "https://www.siasat.com/hyderabad-raids-expose-use-of-aluminium-varaq-in-place-of-silver-3579418/",
+   "d": "2026-11-17",
+   "w": "2026-11-17T14:05"
+  },
+  {
+   "url": "https://www.thehansindia.com/telangana/telangana-prepares-to-host-khelo-india-kabaddi-minister-vakiti-srihari-1142966",
+   "d": "2026-11-17",
+   "w": "2026-11-17T14:05"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/anantapur/anantapur-gummagatta-kgbv-around-25-students-fall-ill-suspected-food-213936",
+   "d": "2026-11-17",
+   "w": "2026-11-17T14:05"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/medak-sangareddy/cruel-son-murders-mother-with-pestle-over-family-disputes-in-shivaipally-213937",
+   "d": "2026-11-17",
+   "w": "2026-11-17T14:05"
+  },
+  {
+   "url": "https://www.thehansindia.com/telangana/inter-state-alprazolam-manufacturing-unit-busted-1142942",
+   "d": "2026-11-17",
+   "w": "2026-11-17T14:05"
+  },
+  {
+   "url": "https://www.siasat.com/the-flat-that-never-was-shamirpet-buyer-wins-rs-22-22l-refund-3579403/",
+   "d": "2026-11-17",
+   "w": "2026-11-17T14:05"
+  },
+  {
+   "url": "https://www.siasat.com/im-scared-once-again-bilkis-bano-on-sc-bail-to-2-of-her-rapists-3579394/",
+   "d": "2026-11-17",
+   "w": "2026-11-17T14:05"
+  },
+  {
+   "url": "https://www.etvbharat.com/en/bharat/andhra-pradesh-to-declare-sri-ramoji-rao-birth-anniversary-a-state-festival-chandrababu-naidu-enn26111606349",
+   "d": "2026-11-17",
+   "w": "2026-11-17T14:05"
+  },
+  {
+   "url": "https://www.dishadaily.com/andhrapradesh/food-poisoning-at-kgbv-school-571028",
+   "d": "2026-11-17",
+   "w": "2026-11-17T14:05"
   }
  ]
 }
