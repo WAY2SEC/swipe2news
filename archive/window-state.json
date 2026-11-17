@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T21:05:00+05:30",
+ "cutoff": "2026-11-17T21:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T11:05:00+05:30/2026-11-15T11:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 7,
-   "published": 4,
-   "late": 2,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "11:35 run started 11:36 IST. Lookback from 03:05 15 Nov. Feeds branch fresh (11:32, 70/70 ok, 830 uncovered in lookback, 173 TG/AP). Published: TT/IANS Bay depression to severe cyclone Nov 17 (11:30, update, forecast), TT/IANS India 209 all out 5th ODI (11:13), NT Vemulawada temple fire (10:06, late-found), Siasat Basheerbagh Ram statue Maha Harathi (11:23, sensitive, claim). Skipped: V6 RIMS Adilabad director transfer (14 Nov 22:10, pre-lookback), Hans Kurnool GP polls (14 Nov 05:50, pre-lookback), TT fishermen warning (2023, old). Not opened/not found by search: NIE RIMS chief, Hans CM policy paralysis, Siasat Nampally/Vasavi Urban/Yemen, TT Ebola/CTI airfares, HMTV Tollywood notices/Jangaon gold, Suryaa Yadadri crash, ACB engineer. Eenadu/Sakshi/V6 single-source district items not reached; capacity limited. Districts searched: Warangal, Khammam, Bhadradri, Sangareddy, Medak, Siddipet, Visakhapatnam, NTR, Kakinada, East Godavari, Sircilla, Jangaon, Kurnool."
-  },
   {
    "window": "2026-11-15T11:35:00+05:30/2026-11-15T12:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 0,
    "gaps": "Feeds 20:48, 70/70 ok; 803 uncovered TG/AP (many already published under other URLs). add_repo not available; used existing clone. Search engine surfaced few fresh articles. Published: Apollo Institute of Parents & Children, Financial District (FM Live 16:23). Skipped as old: TT Sangareddy ex-IPS land forgery (2024), TT TOSS results (May 2026), TT Mailardevpally gambling (Aug 2025), DC Nandyal unopposed-poll incentives (13 Nov), Hans NASA Space Apps Vizag (Oct 2025), Business Standard Akvan (10:03, before lookback). Not opened/not found: Hindu Kadapa MP booth capture, KTR white paper, Metpally Congress-BRS tension, YSRCP Jana Sena jobs scam, Mudhole sarpanches join BRS, Ongole adoption, TG RERA Sanali, 12th PRC, Gandhi Hospital jobs, SEI GCC, MMTS demand, Prague train crash, AG contempt CJI remarks."
+  },
+  {
+   "window": "2026-11-17T21:05:00+05:30/2026-11-17T21:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 2,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 1,
+   "gaps": "Feeds 21:21, 65/68 ok; 754 uncovered TG/AP (many already published). add_repo not available; used existing clone. Direct WebFetch refused (provenance); only search-surfaced pages read via subagent. Published: Mudhole 11 sarpanches join BRS (TT 20:45), Cyclone Akvan district rain alerts (ThePrint/PTI 18:45). Duplicate: KTR white paper/manifesto (TT 16:51, same press interaction as KTR Sonia memoir story). Skipped: Moinabad TPO DA case (Hans 01:12, before lookback). Review: UNI YSRCP Jana Sena jobs scam (time zone unclear). Not opened/not found: Hindu Telangana Darshini, Hindu Akvan 21:14, Hindu cyclone repair costs, Hindu Komatireddy roads, Hindu KTR white paper, IE Telangana officer DA, Hindu Ongole adoption, Hindu DYFI DSC."
   }
  ],
  "seen": [
@@ -7173,6 +7173,31 @@
    "url": "https://www.business-standard.com/india-news/after-arnab-and-murasu-third-cyclone-akvan-to-hit-andhra-what-we-know-126111700193_1.html",
    "d": "2026-11-17",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/brs-strengthens-in-mudhole-as-11-sarpanches-four-deputy-sarpanches-join-party",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://theprint.in/india/akvan-likely-to-intensify-into-severe-cyclonic-storm-heavy-rain-forecast-for-andhra/3101315/",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/ktr-accuses-congress-of-failing-telangana-calls-manifesto-biggest-fraud",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/acb-unearths-rs-676-cr-assets-of-moinabad-town-planning-officer-1142796",
+   "d": "2026-11-17",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/politics-ap-ysrcp-probe-17ms25/248384",
+   "d": "2026-11-17",
+   "w": "review"
   }
  ]
 }
