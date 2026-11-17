@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T08:35:00+05:30",
+ "cutoff": "2026-11-17T09:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-14T17:35:00+05:30/2026-11-14T18:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 2,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "18:05 run started 18:05 IST. Lookback from 09:35 14 Nov. Published: India TV Giribabu dies (17:11, fact), UNI Revanth Bharat Summit valedictory (datePublished 12:02Z = 17:32 IST, late-found, fact). Duplicates: The Week Cyclone Akvan (17:16; dup of Sambad forecast), Deccan Chronicle Revanth gig workers (13:00; dup of NewsMeter), Madhyamam Akvan (13 Nov 21:10, pre-lookback). Skipped: India.com Aaryavir Sehwag fifty in U19 final chase (16:35; result pending). Not reached: Cricinfo (client error); Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters not surfaced; standard searches stale. Districts searched: Medchal, Peddapalli, Mulugu, Bhupalpally, Jangaon, Mahabubabad, Tirupati, Nandyal, Kurnool, Chittoor, Annamayya, Palnadu, Bapatla."
-  },
   {
    "window": "2026-11-14T18:05:00+05:30/2026-11-14T18:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "08:35 run started 08:36 IST; lookback from 00:05. Feeds 08:14, 57/70 ok. add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 3 (in-window: NewsMeter Swarna Grama 23% pay hike 08:03; late: 10TV Akvan intensifies 07:33, Hans AP Rs75 cr medicines 05:07). Duplicates: TV9 TGPSC 3-week results (=ETV 16 Nov), DC AP welfare hostel survey (=16 Nov skin-disease story). Not opened (search index lacked them / fetch blocked): NIE megalithic burials, NIE elderly vision, NIE Srisailam route survey, News18 Hyderabad Rs84,746 cr revenue, TOI HC farewell Justice Vinod Kumar, TOI graft-accused in prison, The Hindu Akvan explainer, Ukraine drone attack, United Airlines outage. Build step rewrote index.html/en/hi/te/sitemap.xml; reverted."
+  },
+  {
+   "window": "2026-11-17T08:35:00+05:30/2026-11-17T09:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 4,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Run started 09:05 IST; lookback from 00:35. Feeds 09:04, 52/70 ok (Eenadu feed failing). add_repo not available; used existing clone at origin/main; articles read via sub-agents. Published 4: 10TV Inter syllabus unchanged 08:14, NewsMeter land re-survey excess land 08:32, Oneindia AP 12th PRC ToR 08:21, NTV Naidu Delhi trip 08:36. Duplicates: V6 Revanth-Chhattisgarh Sammakka NOC meet (=16 Nov 07:05 story), Siasat Moinabad TPO DA case (=17 Nov 05:05). Not opened/not found in search: TOI Future City Rs18k cr, NIE Telangana ACB crores, NIE Enumamula trader, NIE Khelo India, NewsMeter Patancheru Nakkavagu, Sakshi Bank of Maharashtra MoU. District searches (Nalgonda, Khammam, Kurnool, Srikakulam, Karimnagar, Guntur, Adilabad, Kakinada) gave no fresh in-window items. Build step rewrote index.html/en/hi/te/sitemap.xml; reverted."
   }
  ],
  "seen": [
@@ -6258,6 +6258,41 @@
    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/survey-finds-skin-dental-problems-and-anaemia-among-welfare-hostel-students-2005063",
    "d": "2026-11-17",
    "w": "2026-11-17T08:35"
+  },
+  {
+   "url": "https://10tv.in/telugu-news/telangana/telangana-inter-board-clarifies-no-syllabus-change-after-merger-keshava-rao-assures-staff-protection-sn-1158674.html",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.newsmeter.in/telangana/telangana-government-issues-guidelines-for-land-re-survey-no-ownership-claims-on-excess-land-found-during-measurements-779450",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/andhra-pradesh/ap-12th-prc-pay-revision-commission-announces-terms-of-reference-seeks-suggestions-by-december-31-515269.html",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/andhra-pradesh-12th-prc-begins-work-invites-suggestions-and-objections-1577055.html",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://ntvtelugu.com/andhra-pradesh-news/amaravathi/ap-cm-chandrababu-naidu-to-visit-delhi-today-meets-union-ministers-1035973.html",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/cm-revanth-reddy-to-visit-chhattisgarh-today-for-sammakka-sagar-project-noc-tgs26111700476",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/acb-books-jailed-government-officer-in-disproportionate-assets-case-3579119/",
+   "d": "2026-11-17",
+   "w": "duplicate"
   }
  ]
 }
