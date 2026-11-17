@@ -1149,7 +1149,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .story.s2n.dly{background:radial-gradient(130% 90% at 0% 0%,#7A2A55 0%,#4A0E3F 50%,#2E0827 100%)!important;color:#FFFDF5}
 .story.s2n.dly-tip{background:radial-gradient(130% 90% at 100% 0%,#1C6B47 0%,#0F4A31 55%,#0A2E20 100%)!important}
 .story.s2n.dly-wisdom{background:radial-gradient(130% 90% at 50% 0%,#8A3B12 0%,#5A1A0E 55%,#2E0827 100%)!important}
-.s2n.dly .dbody{background:transparent!important;color:inherit;display:flex;flex-direction:column;justify-content:center;gap:14px;padding:22px 24px 14px!important;flex:1;min-height:0;overflow:auto}
+.s2n.dly .dbody{background:transparent!important;color:inherit;display:flex;flex-direction:column;justify-content:center;gap:14px;padding:22px 24px 14px!important;flex:1;min-height:0;overflow:hidden} /* owner 17 Nov: a scroll box inside the card stopped the swipe on iPhone */
 .s2n.dly .dchip{align-self:flex-start;padding:7px 14px;border-radius:999px;background:rgba(255,253,245,.12);border:1px solid rgba(255,253,245,.25);font:800 14px/1 var(--body)}
 .s2n.dly .dq{font:900 120px/0.6 Georgia,serif;color:#F5A23A;height:46px;margin-top:10px}
 .s2n.dly .dtipi{width:64px;height:64px;border-radius:20px;display:grid;place-items:center;background:linear-gradient(135deg,#FFD08A,#F5A23A);color:#0F4A31;font:900 36px/1 'Outfit',sans-serif;box-shadow:0 10px 26px rgba(0,0,0,.3)}
@@ -2081,11 +2081,16 @@ function statFit(c){ const b=c.querySelector('.s2n .bkw'); if(!b) return; const 
   if(l.scrollWidth>l.clientWidth+1){ l.style.setProperty('white-space','normal','important'); l.style.setProperty('display','-webkit-box','important'); l.style.setProperty('-webkit-box-orient','vertical','important'); l.style.setProperty('-webkit-line-clamp','2','important'); l.style.setProperty('line-height','1.25','important'); } }
 try{ document.fonts&&document.fonts.ready.then(()=>setTimeout(()=>document.querySelectorAll('.story.s2n').forEach(c=>{ try{ oneLine(c); statFit(c); srcFit(c); locFit(c); }catch(e){} }),50)); }catch(e){}
 /* owner 16 Nov: a place name that does not fit in the top row is hidden, never shown half ('ఉస్మా…') */
+/* daily cards (money lesson, good word…): shrink the text until everything fits – no inner scrolling */
+function dlyFit(c){ const b=c.querySelector('.dbody'); if(!b) return; const els=[...b.querySelectorAll('.dtx,.dtt,.dby,.dnf,.dsrc,.dact,p,small')]; els.forEach(e=>e.style.removeProperty('font-size')); b.style.removeProperty('gap');
+  const over=()=>b.scrollHeight>b.clientHeight+1; let k=0; if(over()) b.style.setProperty('gap','8px','important');
+  while(over()&&k<14){ k++; els.forEach(e=>{ const f=parseFloat(getComputedStyle(e).fontSize)||16; e.style.setProperty('font-size',Math.max(11,f*0.94)+'px','important'); }); } }
 function locFit(c){ const m=c.querySelector('.s2n .text .meta'); if(!m) return; m.querySelectorAll('span').forEach(sp=>{ if(!sp.querySelector('circle[r="2.5"]')) return; sp.style.display=''; if(sp.scrollWidth>sp.clientWidth+1||sp.getBoundingClientRect().right>m.getBoundingClientRect().right+1) sp.style.display='none'; }); }
 function srcFit(c){ const r=c.querySelector('.s2n .srow'); if(!r) return; r.classList.remove('tight','tight2'); const a=r.querySelector('.srcb a,.srcb b'); const cut=()=>a&&a.scrollWidth>a.clientWidth+1; if(cut()) r.classList.add('tight'); if(cut()){ r.classList.remove('tight'); r.classList.add('tight2'); } }
 function phShape(c){ c.querySelectorAll('.bnr img.ph').forEach(im=>{ const go=()=>{ const b=im.parentElement.getBoundingClientRect(); if(!im.naturalWidth||!b.height) return; const tall=im.naturalWidth/im.naturalHeight < b.width/b.height; im.classList.toggle('tall',tall); im.classList.toggle('wide',!tall); }; if(im.complete) go(); else im.addEventListener('load',go,{once:true}); }); }
 function fit(c){ // make the card fit the screen: hide the least important parts first
   try{ phShape(c); }catch(e){}
+  if(c.classList.contains('dly')){ try{ dlyFit(c); }catch(e){} return; }
   oneLine(c); srcFit(c); statFit(c); locFit(c); c.classList.remove('t1','t2','t3','t4','f60');
   const tx=c.querySelector('.text');
   const over = () => c.scrollHeight > c.clientHeight + 1 || (tx && tx.scrollHeight > tx.clientHeight + 1);
