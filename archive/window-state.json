@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T19:05:00+05:30",
+ "cutoff": "2026-11-17T19:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T09:05:00+05:30/2026-11-15T09:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 10,
-   "published": 4,
-   "late": 2,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "09:35 run started 09:36 IST. Lookback from 01:05 15 Nov. Published: ABN Cyclone Akvan north coast landfall Nov 20 (03:38, forecast, late-found; differs from Hans Nov 18), ABN IAS officer car crash Nellore (06:49, fact, late-found, name withheld), ETV AP live Tirumala 18-hour sarva darshan (08:00, fact), ETV AP live Tiruvuru hospital death protest (08:52, claim, sensitive, no name). Duplicates: ABN 08:43 Janajatiya Gaurav Divas, ABN gold price, ETV AP panchayat nominations. Skipped: Visakhapatnam student suicide (sensitive, low value), Ramoji walk/bike rallies (house event), Tirumala dignitaries (low value). Wikipedia current events and Times of Israel live refused; no world items. Standard searches stale. Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters. Districts searched: Sangareddy, Kamareddy, Vikarabad, Mancherial, Hanumakonda, Warangal, Anantapur, Kadapa, NTR."
-  },
   {
    "window": "2026-11-15T09:35:00+05:30/2026-11-15T10:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Feeds 18:44, 69/70 ok; 772 uncovered TG/AP (many already published). add_repo not available; used existing clone. Published: Langer House LPG refilling 6 held (NewsMeter 18:32), Naidu meets Sitharaman for cyclone aid (DC 18:39). Duplicates: Bhadrachalam lodge death (13:05), Harish manifesto (11:05), Balapur ganja (16:05), Maoist dump shells (18:05), fake silver foil (14:05). Skipped: egg-donation racket (Oct 31 event), Kurnool PACS polls (Hans 16 Nov, old). Not found via search: Hindu maternal-child institute, AP rooftop solar 4th, Sandeep PAC Nov 22, TG debt CESS, Prakasam tobacco farmers; Disha Kamareddy lighting (fetch failed)."
+  },
+  {
+   "window": "2026-11-17T19:05:00+05:30/2026-11-17T19:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 3,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Feeds 19:27, 68/68 ok; 750 uncovered TG/AP (many already published). add_repo not available; used existing clone. Published: TG DGP police promotions 54 Addl SP (Andhra Jyothy 18:13), AP Cabinet Nov 26 (HMTV 19:11), Amazon $7bn India renewables (Business Standard/PTI 15:07). Duplicates: Akvan Nellore-Tuni landfall (Oneindia 14:53; already 16 Nov 13:35 + 17 Nov 12:05), Mailardevpally/Vattepally gambling den (DC 18:09, Siasat 19:12; already 16 Nov). Not opened/not found via search: Hindu AP rooftop solar 4th, Hindu maternal-child institute, SEI GCC (TOI), YSRCP Jana Sena jobs scam probe (Hindu), Statesman Akvan (fetch failed)."
   }
  ],
  "seen": [
@@ -7003,6 +7003,46 @@
    "url": "https://telanganatoday.com/nine-arrested-43-women-rescued-in-interstate-illegal-egg-donation-racket-in-hyderabad",
    "d": "2026-11-17",
    "w": "2026-11-17T19:05:00+05:30"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/telangana-police-promotions-dgp-cv-anand-avn-1577210.html",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://tv9telugu.com/telangana/telangana-police-promotions-dgp-c-v-anand-resolves-seniority-disputes-54-dsps-to-get-addl-sp-rank-1960832.html",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/amaravathi/ap-cabinet-to-meet-under-cm-chandrababu-on-november-26-214143",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://www.telugupost.com/amaravati-news/-andhra-pradesh-cabinet-meeting-held-26th-of-this-month-1625892",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.business-standard.com/companies/news/amazon-to-invest-7-billion-in-india-s-renewable-energy-projects-by-2030-126111700633_1.html",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://www.oneindia.com/india/cyclone-akvan-andhra-pradesh-braces-for-145-kmph-winds-landfall-expected-on-november-20-8261885.html",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/tabloid/hyderabad-chronicle/hyderabad-police-bust-gambling-den-seize-assets-worth-rs990-lakh-2005236",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/dogs-cctv-lookouts-fail-to-save-gambling-den-in-hyderabad-3579771/",
+   "d": "2026-11-17",
+   "w": "duplicate"
   }
  ]
 }
