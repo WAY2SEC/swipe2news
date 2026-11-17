@@ -1,8 +1,505 @@
 {
  "date": "17.11.2026",
- "updated": "2026-11-17T06:35:00+05:30",
+ "updated": "2026-11-17T07:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "ఏపీ · వాతావరణం",
+   "col": "--c-water",
+   "art": "rain",
+   "stat": "నవంబర్ 20న",
+   "statl": "తుపాను తీరం దాటే అవకాశం",
+   "h": "అక్వాన్ తుపాను: 8 జిల్లాలకు రెడ్ అలర్ట్",
+   "p": "బంగాళాఖాతంలో అక్వాన్ తుపాను ఏర్పడింది. ఇది నవంబర్ 19 ఉదయానికి అతి తీవ్ర తుపానుగా మారే అవకాశం ఉందని ఐఎండీ తెలిపింది. మంగళవారం సాయంత్రానికే ఇది తీవ్ర తుపానుగా బలపడవచ్చు. శుక్రవారం మధ్యాహ్నం నెల్లూరు, తుని మధ్య తీరం దాటవచ్చు. అప్పుడు గంటకు 120 నుంచి 130 కిలోమీటర్ల వేగంతో గాలులు వీస్తాయని అంచనా.",
+   "pts": [
+    "రెడ్ అలర్ట్: కాకినాడ, కోనసీమ, తూర్పు, పశ్చిమ గోదావరి, ఏలూరు, కృష్ణా, బాపట్ల, యానాం",
+    "గాలుల వేగం గరిష్ఠంగా గంటకు 145 కిలోమీటర్లు",
+    "విశాఖ, గుంటూరు, ప్రకాశం, నెల్లూరు సహా 6 జిల్లాలకు ఆరెంజ్ అలర్ట్"
+   ],
+   "why": "కోస్తా జిల్లాల ప్రజలు, మత్స్యకారులు, రైతులు ముందే జాగ్రత్తలు తీసుకోవాలి.",
+   "next": "నవంబర్ 19–20 తేదీల్లో అతి భారీ వర్షాలు",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/akvan-likely-to-intensify-into-very-severe-cyclone-cross-coast-on-nov-20-2004989",
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-16T23:09+05:30",
+   "lbl": "forecast",
+   "en": {
+    "cat": "Andhra Pradesh · Weather",
+    "h": "Cyclone Akvan: red alert for 8 districts",
+    "stat": "November 20",
+    "statl": "expected landfall of Cyclone Akvan",
+    "loc": "",
+    "p": "Cyclone Akvan has formed over the Bay of Bengal. IMD says it may become a very severe cyclonic storm by the morning of November 19. It is likely to cross the coast between Nellore and Tuni on Friday afternoon, with winds of 120 to 130 kmph.",
+    "pts": [
+     "Red alert: Kakinada, Konaseema, East and West Godavari, Eluru, Krishna, Bapatla, Yanam",
+     "Gusts up to 145 kmph",
+     "Orange alert for 6 districts incl. Visakhapatnam, Guntur, Prakasam, Nellore"
+    ],
+    "why": "People, fishermen and farmers in coastal districts should take precautions in advance.",
+    "next": "Extremely heavy rain likely on November 19–20"
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · मौसम",
+    "h": "चक्रवात अक्वान: 8 जिलों में रेड अलर्ट",
+    "stat": "20 नवंबर",
+    "statl": "चक्रवात अक्वान के तट पार करने की संभावना",
+    "loc": "",
+    "p": "बंगाल की खाड़ी में चक्रवात अक्वान बन गया है। आईएमडी के अनुसार 19 नवंबर की सुबह तक यह बहुत गंभीर चक्रवाती तूफान बन सकता है। शुक्रवार दोपहर नेल्लोर और तुनी के बीच तट पार करने की संभावना है, तब हवा 120 से 130 किमी प्रति घंटे की रफ्तार से चल सकती है।",
+    "pts": [
+     "रेड अलर्ट: काकीनाडा, कोनसीमा, पूर्व व पश्चिम गोदावरी, एलुरु, कृष्णा, बापटला, यानम",
+     "झोंके 145 किमी प्रति घंटे तक",
+     "विशाखापत्तनम, गुंटूर, प्रकाशम, नेल्लोर समेत 6 जिलों में ऑरेंज अलर्ट"
+    ],
+    "why": "तटीय जिलों के लोग, मछुआरे और किसान पहले से सावधानी बरतें।",
+    "next": "19–20 नवंबर को अत्यधिक भारी बारिश की संभावना"
+   },
+   "d": "17.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "తెలంగాణ · ఉద్యోగులు",
+   "col": "--c-gov",
+   "art": "deadline",
+   "stat": "1.5 లక్షల మంది",
+   "statl": "సెలవులో: సంఘాలు",
+   "h": "పాత పెన్షన్ కోసం ఉద్యోగుల సామూహిక సెలవు",
+   "p": "పాత పెన్షన్ విధానం పునరుద్ధరించాలని కోరుతూ తెలంగాణ ప్రభుత్వ ఉద్యోగులు, ఉపాధ్యాయులు మంగళవారం సామూహిక సెలవు పెట్టారు. సుమారు 1.5 లక్షల మంది సెలవు దరఖాస్తు చేశారని సీపీఎస్ ఉద్యోగుల సంఘం నేతలు చెప్పారు. రెవెన్యూ, పంచాయతీరాజ్, మున్సిపల్ సహా పలు శాఖల సిబ్బంది పాల్గొంటున్నారు. హైదరాబాద్ ఇందిరా పార్కు వద్ద ధర్మ దీక్ష చేపడుతున్నారు.",
+   "pts": [
+    "రాష్ట్రంలో సుమారు 3.6 లక్షల మంది ఉద్యోగులు",
+    "సగం మంది సెలవులో ఉన్నారని సంఘాల వాదన",
+    "పీఆర్‌టీయూ, ఎస్‌జీటీయూ మద్దతు"
+   ],
+   "why": "ప్రభుత్వ కార్యాలయాలు, పాఠశాలల్లో ఈరోజు సేవలపై ప్రభావం పడవచ్చు.",
+   "src": "Namasthe Telangana",
+   "url": "https://www.ntnews.com/telangana/cps-ranagarjanatoday-1-5-lakh-telangana-employees-teachers-on-mass-leave-seeking-old-pension-scheme-2562373",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-17T04:56+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Employees",
+    "h": "TG staff on mass leave for old pension",
+    "stat": "1.5 lakh",
+    "statl": "employees on mass leave: unions",
+    "loc": "",
+    "p": "Telangana government employees and teachers are on mass leave on Tuesday, demanding restoration of the Old Pension Scheme. CPS employees' union leaders say about 1.5 lakh people applied for leave. A Dharma Deeksha is planned at Indira Park in Hyderabad.",
+    "pts": [
+     "The state has about 3.6 lakh employees",
+     "Unions claim half are on leave",
+     "PRTU and SGTU back the protest"
+    ],
+    "why": "Services in government offices and schools may be affected today."
+   },
+   "hi": {
+    "cat": "तेलंगाना · कर्मचारी",
+    "h": "पुरानी पेंशन के लिए कर्मचारी सामूहिक छुट्टी पर",
+    "stat": "1.5 लाख",
+    "statl": "कर्मचारी सामूहिक छुट्टी पर: संघ",
+    "loc": "",
+    "p": "पुरानी पेंशन योजना बहाल करने की मांग को लेकर तेलंगाना के सरकारी कर्मचारी और शिक्षक मंगलवार को सामूहिक छुट्टी पर हैं। सीपीएस कर्मचारी संघ के नेताओं के अनुसार करीब 1.5 लाख लोगों ने छुट्टी का आवेदन दिया। हैदराबाद के इंदिरा पार्क में धर्म दीक्षा होगी।",
+    "pts": [
+     "राज्य में करीब 3.6 लाख कर्मचारी",
+     "संघों का दावा: आधे छुट्टी पर",
+     "पीआरटीयू और एसजीटीयू का समर्थन"
+    ],
+    "why": "आज सरकारी दफ्तरों और स्कूलों में सेवाओं पर असर पड़ सकता है।"
+   },
+   "d": "17.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "తెలంగాణ · ఉపాధి",
+   "col": "--c-money",
+   "art": "farm",
+   "stat": "4 లక్షల మందికి",
+   "statl": "రోజూ ఉపాధి పనులు",
+   "h": "ఉపాధి పనుల కల్పనలో తెలంగాణ రికార్డు",
+   "p": "వీబీ-జీ రామ్ జీ పథకం కింద తెలంగాణలో నవంబర్ 1 నుంచి 15 వరకు రోజుకు సగటున సుమారు 4 లక్షల మంది కూలీలకు పని దొరికింది. ఇది రికార్డు అని అధికారిక నివేదిక చెబుతోంది. ఎల్ నినో వల్ల వ్యవసాయ పనులు తగ్గడంతో ప్రభుత్వం గ్రామీణ ఉపాధిపై దృష్టి పెట్టింది.",
+   "pts": [
+    "ఆరు రోజుల్లో రోజుకు 5 లక్షల మందికి పైగా హాజరు",
+    "అక్టోబర్ 2026–జూన్ 2027 మధ్య 19 కోట్ల పనిదినాల లక్ష్యం"
+   ],
+   "why": "పొలం పనులు లేని గ్రామీణ కూలీలకు ఈ పనులు ఆదాయం ఇస్తాయి.",
+   "src": "Andhra Jyothy",
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/telangana-record-vb-g-ram-g-scheme-daily-employment-4-lakh-workers-1577100.html",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-17T06:27+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Jobs",
+    "h": "Telangana sets rural jobs record",
+    "stat": "4 lakh",
+    "statl": "workers given work daily",
+    "loc": "",
+    "p": "Under the VB-G RAM G scheme, about 4 lakh labourers a day on average got work in Telangana from November 1 to 15, a record according to an official report. With farm work down due to El Niño, the government is focusing on rural employment.",
+    "pts": [
+     "Over 5 lakh turned up daily on six days",
+     "Target: 19 crore person-days, Oct 2026–June 2027"
+    ],
+    "why": "The work gives income to rural labourers who have no farm work."
+   },
+   "hi": {
+    "cat": "तेलंगाना · रोजगार",
+    "h": "ग्रामीण रोजगार में तेलंगाना का रिकॉर्ड",
+    "stat": "4 लाख",
+    "statl": "मजदूरों को रोज काम",
+    "loc": "",
+    "p": "वीबी-जी राम जी योजना के तहत तेलंगाना में 1 से 15 नवंबर तक रोज औसतन करीब 4 लाख मजदूरों को काम मिला, जिसे एक आधिकारिक रिपोर्ट रिकॉर्ड बताती है। अल नीनो से खेती का काम घटने के कारण सरकार ग्रामीण रोजगार पर ध्यान दे रही है।",
+    "pts": [
+     "छह दिनों में रोज 5 लाख से अधिक मजदूर पहुंचे",
+     "अक्टूबर 2026–जून 2027 में 19 करोड़ कार्यदिवस का लक्ष्य"
+    ],
+    "why": "खेती का काम न होने पर ग्रामीण मजदूरों को इससे आय मिलेगी।"
+   },
+   "d": "17.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "తెలంగాణ · రాజకీయం",
+   "col": "--c-election",
+   "art": "farm",
+   "stat": "నవంబర్ 19న",
+   "statl": "రైతు గర్జన సభ",
+   "h": "నిజామాబాద్‌లో 19న బీఆర్ఎస్ రైతు గర్జన",
+   "p": "బీఆర్ఎస్ పార్టీ మూడో రైతు గర్జన సభను నవంబర్ 19న నిజామాబాద్‌లో నిర్వహించనుంది. పార్టీ కార్యనిర్వాహక అధ్యక్షుడు కేటీఆర్ ఈ సభకు నాయకత్వం వహిస్తారు. మొదటి సభ ఆదిలాబాద్‌లో, రెండో సభ నిర్మల్ జిల్లాలో జరిగాయి. రైతుల సమస్యలు, కరవు, రైతు ఆత్మహత్యలపై ఈ సభల్లో పార్టీ ప్రభుత్వాన్ని ప్రశ్నిస్తోంది. జనసమీకరణకు నేతలు గ్రామాల్లో పర్యటిస్తున్నారు.",
+   "pts": [
+    "పసుపు బోర్డు హామీలపై బీజేపీ ఎంపీ అర్వింద్‌ను లక్ష్యం చేయనున్న బీఆర్ఎస్",
+    "నవంబర్ 29న కరీంనగర్‌లో దీక్షా దివస్ సభ"
+   ],
+   "why": "నిజామాబాద్ జిల్లా రైతుల సమస్యలు మళ్లీ రాజకీయ చర్చకు వస్తాయి.",
+   "next": "నవంబర్ 29న కరీంనగర్‌లో బహిరంగ సభ",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/brs-to-conduct-3rd-rythu-garjana-sabha-in-nizamabad-on-nov-19-1142798",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "nizamabad",
+   "loc": "నిజామాబాద్",
+   "pub": "2026-11-17T01:14+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Politics",
+    "h": "BRS Rythu Garjana in Nizamabad on Nov 19",
+    "stat": "November 19",
+    "statl": "Rythu Garjana meeting in Nizamabad",
+    "loc": "Nizamabad",
+    "p": "BRS will hold its third Rythu Garjana Sabha in Nizamabad on November 19, led by working president KT Rama Rao. The first two were held in Adilabad and Nirmal. The meetings focus on farmers' problems and drought.",
+    "pts": [
+     "BRS to target BJP MP Arvind over Turmeric Board promises",
+     "Deeksha Diwas meeting in Karimnagar on November 29"
+    ],
+    "why": "Farmers' issues in Nizamabad district return to the political debate.",
+    "next": "Public meeting in Karimnagar on November 29"
+   },
+   "hi": {
+    "cat": "तेलंगाना · राजनीति",
+    "h": "निजामाबाद में 19 नवंबर को बीआरएस रैली",
+    "stat": "19 नवंबर",
+    "statl": "निजामाबाद में रैतु गर्जना सभा",
+    "loc": "निजामाबाद",
+    "p": "बीआरएस 19 नवंबर को निजामाबाद में अपनी तीसरी रैतु गर्जना सभा करेगी, जिसका नेतृत्व कार्यकारी अध्यक्ष केटी रामा राव करेंगे। पहली दो सभाएं आदिलाबाद और निर्मल में हुईं। इन सभाओं में किसानों की समस्याओं और सूखे पर बात हो रही है।",
+    "pts": [
+     "हल्दी बोर्ड के वादों पर भाजपा सांसद अरविंद निशाने पर",
+     "29 नवंबर को करीमनगर में दीक्षा दिवस सभा"
+    ],
+    "why": "निजामाबाद जिले के किसानों के मुद्दे फिर राजनीतिक चर्चा में आएंगे।",
+    "next": "29 नवंबर को करीमनगर में जनसभा"
+   },
+   "d": "17.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · విశాఖ",
+   "col": "--c-money",
+   "art": "economy",
+   "stat": "నకిలీ ఊచలు",
+   "statl": "ఆర్ఐఎన్ఎల్ హెచ్చరిక",
+   "h": "విశాఖ ఉక్కు పేరుతో నకిలీ ఊచలు",
+   "p": "విశాఖ టీఎంటీ 550డీ బ్రాండ్ ముద్రను పోలిన నకిలీ ఇనుప ఊచలు విశాఖపట్నం, ఉత్తరాంధ్ర జిల్లాలతో పాటు ఏపీలోని ఇతర మార్కెట్లలో అమ్ముడవుతున్నాయి. ఉక్కు కర్మాగారంలో ఉత్పత్తి తగ్గడంతో వచ్చిన కొరతను కొందరు వాడుకుంటున్నారని కథనం పేర్కొంది. ఇవి బీఐఎస్ ప్రమాణాలకు సరిపోవని, వీటితో కట్టిన భవనాలు బలహీనపడవచ్చని ఆర్ఐఎన్ఎల్ ప్రజలను హెచ్చరించింది. అధీకృత డీలర్ల వద్దే కొనాలని సూచించింది.",
+   "pts": [
+    "అసలు ఊచలపై ప్రతి మీటరుకు 'Vizag TMT 550D' ముద్ర",
+    "మిల్ టెస్ట్ సర్టిఫికెట్ అడగాలని సూచన",
+    "నకిలీ వెబ్‌సైట్లపై ఫిర్యాదులకు అధికారుల సన్నాహాలు"
+   ],
+   "why": "ఇల్లు కట్టుకునేవారు నకిలీ ఊచలు కొని నష్టపోకుండా జాగ్రత్త పడాలి.",
+   "src": "Sakshi",
+   "url": "https://www.sakshi.com/telugu-news/andhra-pradesh/fake-550d-tmt-bars-flood-market-vizag-steel-logos-2962898",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "AP",
+   "place": "ap-visakhapatnam",
+   "loc": "విశాఖపట్నం",
+   "pub": "2026-11-17T05:28+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Andhra Pradesh · Visakhapatnam",
+    "h": "RINL warns of fake Vizag steel rods",
+    "stat": "Fake steel",
+    "statl": "sold under Vizag brand",
+    "loc": "Visakhapatnam",
+    "p": "Fake steel rods carrying the Vizag TMT 550D brand mark are being sold in Visakhapatnam, north Andhra and other AP markets. RINL warned the public that they do not meet BIS standards and could weaken buildings, and advised buying only from authorised dealers.",
+    "pts": [
+     "Genuine rods carry 'Vizag TMT 550D' every metre",
+     "Ask for a Mill Test Certificate",
+     "Officials preparing complaints over fake websites"
+    ],
+    "why": "Home builders should take care not to lose money on fake rods."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · विशाखापत्तनम",
+    "h": "विजाग स्टील के नाम पर नकली सरिया",
+    "stat": "नकली स्टील",
+    "statl": "विजाग ब्रांड के नाम पर बिक्री",
+    "loc": "विशाखापत्तनम",
+    "p": "विजाग टीएमटी 550डी ब्रांड के निशान वाली नकली सरिया विशाखापत्तनम, उत्तर आंध्र और राज्य के अन्य बाजारों में बिक रही है। आरआईएनएल ने चेताया कि ये बीआईएस मानकों पर खरी नहीं हैं और इमारतें कमजोर कर सकती हैं। केवल अधिकृत डीलरों से खरीदें।",
+    "pts": [
+     "असली सरिया पर हर मीटर 'Vizag TMT 550D' का निशान",
+     "मिल टेस्ट सर्टिफिकेट मांगें",
+     "नकली वेबसाइटों पर शिकायत की तैयारी"
+    ],
+    "why": "घर बनाने वाले नकली सरिया खरीदकर नुकसान से बचें।"
+   },
+   "d": "17.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · తిరుపతి",
+   "col": "--c-election",
+   "art": "voters",
+   "stat": "19 మండలాల్లో",
+   "statl": "పంచాయతీ ఎన్నికలు",
+   "h": "తిరుపతిలో రెండో దశ పంచాయతీ ఎన్నికలు",
+   "p": "తిరుపతి జిల్లాలో రెండో దశ గ్రామ పంచాయతీ ఎన్నికలకు రాష్ట్ర ఎన్నికల సంఘం సోమవారం నోటిఫికేషన్ ఇచ్చింది. శ్రీకాళహస్తి, సూళ్లూరుపేట, తిరుపతి డివిజన్లలోని 19 మండలాల్లో ఈ ఎన్నికలు జరుగుతాయి. నవంబర్ 29న ఉదయం 7 నుంచి మధ్యాహ్నం 1 గంట వరకు పోలింగ్ ఉంటుంది. నవంబర్ 24న తుది అభ్యర్థుల జాబితా వస్తుంది.",
+   "pts": [
+    "నామినేషన్లు నవంబర్ 18 నుంచి 20 వరకు",
+    "నవంబర్ 24 మధ్యాహ్నం 3 గంటల వరకు ఉపసంహరణ",
+    "పోలింగ్ రోజే మధ్యాహ్నం 2 గంటల నుంచి లెక్కింపు"
+   ],
+   "why": "ఈ 19 మండలాల గ్రామాల ఓటర్లు నవంబర్ 29న సర్పంచులను ఎన్నుకుంటారు.",
+   "next": "నామినేషన్లు నవంబర్ 18న ప్రారంభం",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/tirupathi/tirupati-district-gears-up-for-second-phase-of-rural-local-body-elections-1142848",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-tirupati",
+   "loc": "",
+   "pub": "2026-11-17T04:17+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Andhra Pradesh · Tirupati",
+    "h": "Tirupati: phase 2 panchayat polls set",
+    "stat": "19 mandals",
+    "statl": "in phase 2 panchayat polls",
+    "loc": "Tirupati district",
+    "p": "The State Election Commission on Monday notified the second phase of gram panchayat elections in Tirupati district. The polls cover 19 mandals in the Srikalahasti, Sullurpeta and Tirupati divisions. Polling is on November 29 from 7 am to 1 pm.",
+    "pts": [
+     "Nominations November 18 to 20",
+     "Withdrawals till 3 pm on November 24",
+     "Counting from 2 pm on polling day"
+    ],
+    "why": "Villagers in these 19 mandals will elect sarpanches on November 29.",
+    "next": "Nominations open on November 18"
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · तिरुपति",
+    "h": "तिरुपति में दूसरे चरण के पंचायत चुनाव",
+    "stat": "19 मंडल",
+    "statl": "दूसरे चरण के पंचायत चुनाव में",
+    "loc": "तिरुपति जिला",
+    "p": "राज्य चुनाव आयोग ने सोमवार को तिरुपति जिले में दूसरे चरण के ग्राम पंचायत चुनाव की अधिसूचना जारी की। ये चुनाव श्रीकालहस्ती, सूल्लूरपेटा और तिरुपति डिवीजन के 19 मंडलों में होंगे। मतदान 29 नवंबर को सुबह 7 से दोपहर 1 बजे तक होगा।",
+    "pts": [
+     "नामांकन 18 से 20 नवंबर",
+     "24 नवंबर दोपहर 3 बजे तक नाम वापसी",
+     "मतदान के दिन दोपहर 2 बजे से गिनती"
+    ],
+    "why": "इन 19 मंडलों के ग्रामीण 29 नवंबर को सरपंच चुनेंगे।",
+    "next": "नामांकन 18 नवंबर से"
+   },
+   "d": "17.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · విశాఖ",
+   "col": "--c-city",
+   "art": "unity",
+   "stat": "నంది విగ్రహం",
+   "statl": "కైలాసగిరిపై",
+   "h": "విశాఖ కైలాసగిరిపై నందీశ్వరుడి విగ్రహం",
+   "p": "విశాఖపట్నంలోని కైలాసగిరి కొండపై వీఎంఆర్‌డీఏ నందీశ్వరుడి విగ్రహాన్ని ఏర్పాటు చేసింది. ఫైబర్ రీఇన్‌ఫోర్స్‌డ్ ప్లాస్టిక్‌తో చేసిన ఈ విగ్రహం సుమారు 8 అడుగుల 9 అంగుళాల ఎత్తు, 15 అడుగుల పొడవు ఉంది. కొండపై ఇప్పటికే ఉన్న త్రిశూలం, ఢమరుకం పక్కన దీన్ని పెట్టారు. పర్యాటకులకు ఆధ్యాత్మిక ఆకర్షణ పెంచడమే లక్ష్యమని అధికారులు చెప్పారు.",
+   "pts": [
+    "వెడల్పు 7 అడుగుల 9 అంగుళాలు",
+    "గతేడాది గాజు వంతెన, రోప్‌వే, జిప్‌లైన్ ఏర్పాటు"
+   ],
+   "why": "కైలాసగిరికి వచ్చే పర్యాటకులు, భక్తులకు మరో ఆకర్షణ.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/statue-of-nandeeshwar-is-new-attraction-at-kailasagiri-1142875",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "AP",
+   "place": "ap-visakhapatnam",
+   "loc": "కైలాసగిరి, విశాఖపట్నం",
+   "pub": "2026-11-17T05:02+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Andhra Pradesh · Visakhapatnam",
+    "h": "Nandi statue adds charm to Kailasagiri",
+    "stat": "Nandi statue",
+    "statl": "new attraction on Kailasagiri",
+    "loc": "Kailasagiri, Visakhapatnam",
+    "p": "VMRDA has installed a statue of Nandeeshwar on Kailasagiri hill in Visakhapatnam. Made of fibre-reinforced plastic, it is about 8 ft 9 in high and 15 ft long. It stands next to the Trishul and Damarukam already on the hill.",
+    "pts": [
+     "Width: 7 ft 9 in",
+     "Glass bridge, ropeway, zip-line added last year"
+    ],
+    "why": "Another attraction for tourists and devotees visiting Kailasagiri."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · विशाखापत्तनम",
+    "h": "विशाखापत्तनम के कैलासगिरी पर नंदी प्रतिमा",
+    "stat": "नंदी प्रतिमा",
+    "statl": "कैलासगिरी पर नया आकर्षण",
+    "loc": "कैलासगिरी, विशाखापत्तनम",
+    "p": "वीएमआरडीए ने विशाखापत्तनम की कैलासगिरी पहाड़ी पर नंदीश्वर की प्रतिमा स्थापित की है। फाइबर रीइन्फोर्स्ड प्लास्टिक से बनी यह प्रतिमा करीब 8 फुट 9 इंच ऊंची और 15 फुट लंबी है। इसे पहले से मौजूद त्रिशूल और डमरू के पास लगाया गया है।",
+    "pts": [
+     "चौड़ाई 7 फुट 9 इंच",
+     "पिछले साल ग्लास ब्रिज, रोपवे, जिपलाइन जोड़े गए"
+    ],
+    "why": "कैलासगिरी आने वाले पर्यटकों और श्रद्धालुओं के लिए नया आकर्षण।"
+   },
+   "d": "17.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · మున్సిపల్ ఎన్నికలు",
+   "col": "--c-election",
+   "art": "voters",
+   "stat": "17 పదవులకు",
+   "statl": "వైసీపీ అభ్యర్థుల ప్రకటన",
+   "h": "మేయర్ అభ్యర్థులను ప్రకటించిన వైసీపీ",
+   "p": "ఏపీలో రెండో దశ పట్టణ స్థానిక సంస్థల ఎన్నికల్లో 17 పదవులకు వైసీపీ సోమవారం రాత్రి అభ్యర్థులను ప్రకటించింది. పార్టీ అధ్యక్షుడు వైఎస్ జగన్ మోహన్ రెడ్డి ఆదేశాలతో ఈ జాబితా విడుదలైంది. ఇందులో నాలుగు నగరపాలక సంస్థలకు మేయర్ అభ్యర్థులు, 13 మున్సిపాలిటీలు, నగర పంచాయతీలకు చైర్మన్ అభ్యర్థులు ఉన్నారు. శ్రీకాకుళం మేయర్ అభ్యర్థిగా గుండ లక్ష్మీదేవిని ఎంపిక చేశారు.",
+   "pts": [
+    "మేయర్ స్థానాలు: శ్రీకాకుళం, కాకినాడ, రాజమండ్రి, మంగళగిరి-తాడేపల్లి",
+    "భీమవరం, గుడివాడ, నరసరావుపేట, బాపట్ల, కావలి చైర్మన్ స్థానాలు కూడా"
+   ],
+   "why": "ఈ పట్టణాల ఓటర్లకు ప్రతిపక్ష అభ్యర్థులెవరో స్పష్టమైంది.",
+   "src": "10TV Telugu",
+   "url": "https://10tv.in/telugu-news/andhra-pradesh/municipal-elections-in-ap-ysrcp-candidates-for-mayor-and-chairperson-posts-finalized-hn-1158660.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-16T22:39+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Andhra Pradesh · Civic polls",
+    "h": "YSRCP names mayor, chairperson picks",
+    "stat": "17 posts",
+    "statl": "YSRCP candidates announced",
+    "loc": "",
+    "p": "YSRCP on Monday night announced candidates for 17 posts in the second phase of Andhra Pradesh urban local body elections, on party chief Jagan Mohan Reddy's instructions. The list has mayor candidates for four corporations and chairperson candidates for 13 municipalities.",
+    "pts": [
+     "Mayor seats: Srikakulam, Kakinada, Rajahmundry, Mangalagiri-Tadepalli",
+     "Also Bhimavaram, Gudivada, Narasaraopet, Bapatla, Kavali"
+    ],
+    "why": "Voters in these towns now know the opposition's candidates."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · नगर निकाय चुनाव",
+    "h": "वाईएसआरसीपी ने मेयर, अध्यक्ष उम्मीदवार घोषित किए",
+    "stat": "17 पद",
+    "statl": "वाईएसआरसीपी उम्मीदवार घोषित",
+    "loc": "",
+    "p": "वाईएसआरसीपी ने सोमवार रात आंध्र प्रदेश के दूसरे चरण के शहरी स्थानीय निकाय चुनाव में 17 पदों के लिए उम्मीदवार घोषित किए। पार्टी प्रमुख जगन मोहन रेड्डी के निर्देश पर सूची जारी हुई। इसमें चार निगमों के मेयर और 13 नगरपालिकाओं के अध्यक्ष उम्मीदवार हैं।",
+    "pts": [
+     "मेयर सीटें: श्रीकाकुलम, काकीनाडा, राजमंड्री, मंगलगिरी-तादेपल्ली",
+     "भीमवरम, गुडिवाडा, नरसरावपेट, बापटला, कावली भी"
+    ],
+    "why": "इन शहरों के मतदाताओं को विपक्ष के उम्मीदवार पता चल गए।"
+   },
+   "d": "17.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "క్రీడలు · క్రికెట్",
+   "col": "--c-city",
+   "art": "unity",
+   "stat": "నవంబర్ 19న",
+   "statl": "తొలి టెస్టు",
+   "h": "భారత్‌తో టెస్టులకు శాంట్నర్ దూరం",
+   "p": "కుడి చేతికి ఫ్రాక్చర్ కావడంతో న్యూజిలాండ్ స్పిన్ ఆల్‌రౌండర్ మిచెల్ శాంట్నర్ భారత్‌తో జరిగే రెండు టెస్టుల సిరీస్‌కు దూరమయ్యాడు. ఆదివారం మౌంట్ మాంగనూయిలో జరిగిన ఐదో వన్డేలో బ్యాటింగ్ చేస్తుండగా బంతి తగిలింది. స్కానింగ్‌లో ఫ్రాక్చర్ నిర్ధారణ అయిందని న్యూజిలాండ్ క్రికెట్ తెలిపింది. అతని స్థానంలో డీన్ ఫాక్స్‌క్రాఫ్ట్‌ను జట్టులోకి తీసుకున్నారు.",
+   "pts": [
+    "తొలి టెస్టు వెల్లింగ్టన్‌లో, రెండోది నవంబర్ 27న క్రైస్ట్‌చర్చ్‌లో",
+    "వన్డే సిరీస్ 1-3తో కోల్పోయిన కివీస్"
+   ],
+   "why": "భారత జట్టుకు కివీస్ స్పిన్ దాడి కొంత బలహీనపడుతుంది.",
+   "next": "తొలి టెస్టు నవంబర్ 19న వెల్లింగ్టన్‌లో",
+   "src": "ThePrint (PTI)",
+   "url": "https://theprint.in/sport/santner-ruled-out-of-india-tests-with-hand-fracture/3100545/",
+   "sec": [
+    "sports"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-17T04:45+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Sports · Cricket",
+    "h": "Santner ruled out of India Tests",
+    "stat": "November 19",
+    "statl": "first India–NZ Test begins",
+    "loc": "",
+    "p": "New Zealand spin all-rounder Mitchell Santner is out of the two-Test series against India with a fractured right hand. He was hit while batting in the fifth ODI on Sunday. Dean Foxcroft has been called up in his place.",
+    "pts": [
+     "First Test in Wellington, second from November 27 in Christchurch",
+     "NZ lost the ODI series 1-3"
+    ],
+    "why": "New Zealand's spin attack against India is weakened.",
+    "next": "First Test starts November 19 in Wellington"
+   },
+   "hi": {
+    "cat": "खेल · क्रिकेट",
+    "h": "सैंटनर भारत के खिलाफ टेस्ट से बाहर",
+    "stat": "19 नवंबर",
+    "statl": "भारत-न्यूजीलैंड पहला टेस्ट",
+    "loc": "",
+    "p": "न्यूजीलैंड के स्पिन ऑलराउंडर मिचेल सैंटनर दाहिने हाथ में फ्रैक्चर के कारण भारत के खिलाफ दो टेस्ट की सीरीज से बाहर हो गए हैं। रविवार को पांचवें वनडे में बल्लेबाजी करते समय उन्हें चोट लगी। उनकी जगह डीन फॉक्सक्रॉफ्ट को बुलाया गया है।",
+    "pts": [
+     "पहला टेस्ट वेलिंगटन में, दूसरा 27 नवंबर से क्राइस्टचर्च में",
+     "न्यूजीलैंड वनडे सीरीज 1-3 से हारा"
+    ],
+    "why": "भारत के खिलाफ न्यूजीलैंड का स्पिन आक्रमण कमजोर होगा।",
+    "next": "पहला टेस्ट 19 नवंबर से वेलिंगटन में"
+   },
+   "d": "17.11.2026",
+   "t": "07:05"
+  },
   {
    "cat": "తెలంగాణ · విద్య",
    "col": "--c-gov",
