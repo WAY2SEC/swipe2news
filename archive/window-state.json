@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T20:35:00+05:30",
+ "cutoff": "2026-11-17T21:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T10:35:00+05:30/2026-11-15T11:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 10,
-   "published": 8,
-   "late": 2,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 3,
-   "review": 1,
-   "gaps": "11:05 run started 11:06 IST. Lookback from 02:35 15 Nov. Feeds branch fresh (10:34, 70/70 feeds ok, 741 uncovered events in lookback, 153 TG/AP). Published: Hans S Rayavaram accidents (06:25, late-found, sensitive), ANI TG BJP chief vs Rahul (09:33), HMTV Nagarkurnool Balala Prajavani (08:38, late-found), ETV Bharat Ramoji Rao tribute walk (10:17), Hans TN stock limits (07:11, other state), ETV Bharat/PTI UNGA death penalty vote (10:09), India TV William & Kate Mumbai (10:51), Hans/IANS Netanyahu unity govt (07:31). Skipped: DC Varaha river (14 Nov 21:00, pre-lookback; covered inside Hans story), Tribune Jaishankar (14 Nov 21:28, pre-lookback), Telangana Today cold wave pages (2025, old). Review: BioSpectrum Aster Kondapur 300-bed hospital (14 Nov, no time). Not searched this run: many single-source Eenadu/HMTV/NIE district items; capacity limited. Districts searched: Nagarkurnool, Anakapalli, Hyderabad."
-  },
   {
    "window": "2026-11-15T11:05:00+05:30/2026-11-15T11:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Feeds 20:25, 68/68 ok; 761 uncovered TG/AP (many already published). add_repo not available; used existing clone. Direct (non-search) URLs refused by WebFetch (provenance) and several site-filtered searches rejected by proxy, so only search-surfaced articles were read. Published: Telangana SIR final roll Dec 22 (Siasat 20:06), TG rain Nov 19-22 (TT 20:21), forest FASTag fee protest Mancherial (TT 20:15), Rajgopal Reddy Cheyutha Rs 4,000 (TT 20:24), Dasoju Sravan ACB probe (TT 20:28). Duplicates: Balapur 21kg ganja, aluminium varaq, Bhimavaram BJP alone, Naidu central cyclone aid. Skipped: TT Zaheerabad buses (2022 article). Not opened: Apollo mother-child institute (Hindu/TT), Sikandar Khan murder arrests (Siasat), CESS debt study (Hindu/TT), Prakasam tobacco farmers (Hindu), CII GCC forum (Hindu), TG open school results (Disha), AP Nov 26 holiday (Vaartha), Prague train crash (TOI/Sky), Hyderabad ganja/MMTS/PAC/Maoist dump (Hindu)."
+  },
+  {
+   "window": "2026-11-17T20:35:00+05:30/2026-11-17T21:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 1,
+   "published": 1,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 5,
+   "review": 0,
+   "gaps": "Feeds 20:48, 70/70 ok; 803 uncovered TG/AP (many already published under other URLs). add_repo not available; used existing clone. Search engine surfaced few fresh articles. Published: Apollo Institute of Parents & Children, Financial District (FM Live 16:23). Skipped as old: TT Sangareddy ex-IPS land forgery (2024), TT TOSS results (May 2026), TT Mailardevpally gambling (Aug 2025), DC Nandyal unopposed-poll incentives (13 Nov), Hans NASA Space Apps Vizag (Oct 2025), Business Standard Akvan (10:03, before lookback). Not opened/not found: Hindu Kadapa MP booth capture, KTR white paper, Metpally Congress-BRS tension, YSRCP Jana Sena jobs scam, Mudhole sarpanches join BRS, Ongole adoption, TG RERA Sanali, 12th PRC, Gandhi Hospital jobs, SEI GCC, MMTS demand, Prague train crash, AG contempt CJI remarks."
   }
  ],
  "seen": [
@@ -7138,6 +7138,41 @@
    "url": "https://www.thehindu.com/news/national/andhra-pradesh/naidu-seeks-immediate-central-assistance-to-cope-with-damages-caused-by-two-cyclones/article71712161.ece",
    "d": "2026-11-17",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.fmlive.in/apollo-hospitals-launches-institute-of-parents-and-children-at-financial-district/",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/former-ips-officers-signature-forged-attempt-made-to-sell-his-land-in-sangareddy",
+   "d": "2026-11-17",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-open-school-announces-ssc-intermediate-results-2026",
+   "d": "2026-11-17",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/cyberabad-sot-busts-gambling-den-in-mailardevpally",
+   "d": "2026-11-17",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/panchayats-to-get-incentives-of-up-to-50-lakh-for-unopposed-polls-2004253",
+   "d": "2026-11-17",
+   "w": "skipped"
+  },
+  {
+   "url": "https://thehansindia.com/andhra-pradesh/a-platform-for-students-to-collaborate-innovate-and-exchange-ideas-1012188",
+   "d": "2026-11-17",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.business-standard.com/india-news/after-arnab-and-murasu-third-cyclone-akvan-to-hit-andhra-what-we-know-126111700193_1.html",
+   "d": "2026-11-17",
+   "w": "skipped"
   }
  ]
 }
