@@ -1,26 +1,14 @@
 {
- "updated": "2026-11-17T05:15:18+05:30",
+ "updated": "2026-11-18T05:09:02+05:30",
  "panch": {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "place": "Hyderabad",
-  "tithi": {
-   "te": "శుక్ల అష్టమి",
-   "en": "Shukla Ashtami",
-   "hi": "शुक्ल अष्टमी"
-  },
-  "tithiEnd": "06:05",
-  "nak": {
-   "te": "ధనిష్ఠ",
-   "en": "Dhanishta",
-   "hi": "धनिष्ठा"
-  },
-  "nakEnd": "04:34",
-  "masa": {
-   "te": "కార్తీక మాసం",
-   "en": "Kartika",
-   "hi": "कार्तिक"
-  },
-  "src": "Samvat",
-  "url": "https://samvat.in/calendar/2026/november/17/"
+  "tithi": {"te": "శుక్ల నవమి", "en": "Shukla Navami", "hi": "शुक्ल नवमी"},
+  "tithiEnd": "07:05",
+  "nak": {"te": "శతభిషం", "en": "Shatabhisha", "hi": "शतभिषा"},
+  "nakEnd": "06:10",
+  "masa": {"te": "కార్తీక మాసం", "en": "Kartika", "hi": "कार्तिक"},
+  "src": "HinduTone",
+  "url": "https://hindutone.com/astrology/panchangam-18-november-2026-wednesday-akshaya-navami-jagaddhatri-puja/"
  }
 }
