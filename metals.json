@@ -1,57 +1,62 @@
 {
- "updated": "2026-11-16T16:44:03+05:30",
- "src": "GoodReturns · The Hans India · MCX via Choice",
+ "updated": "2026-11-17T10:43:39+05:30",
+ "src": "GoodReturns · MCX via Choice",
  "cities": [
   {
    "city": "Hyderabad",
-   "g24": 136800,
-   "g22": 125400,
+   "g24": 136040,
+   "g22": 124700,
    "silver": 190000,
-   "date": "2026-11-16",
-   "url": "https://www.goodreturns.in/gold-rates/hyderabad.html",
-   "surl": "https://www.goodreturns.in/gold-rates/hyderabad.html"
+   "date": "2026-11-17",
+   "url": "https://telugu.goodreturns.in/news/gold-rates-big-drops-in-india-yellow-metal-price-today-on-november-17-check-24k-22k-and-18k-rates-060077.html",
+   "surl": "https://www.goodreturns.in/silver-rates/"
   },
   {
    "city": "Mumbai",
-   "g24": 136800,
-   "g22": 125400,
+   "g24": 136040,
+   "g22": 124700,
    "silver": 190000,
-   "date": "2026-11-16",
-   "url": "https://www.thehansindia.com/business/market-compass/gold-and-silver-rates-slashes-today-16-nov-2026-in-delhi-mumbai-check-gold-prices-of-18k-22k-24k-1142648",
-   "surl": "https://www.thehansindia.com/business/market-compass/gold-and-silver-rates-slashes-today-16-nov-2026-in-delhi-mumbai-check-gold-prices-of-18k-22k-24k-1142648"
+   "date": "2026-11-17",
+   "url": "https://telugu.goodreturns.in/news/gold-rates-big-drops-in-india-yellow-metal-price-today-on-november-17-check-24k-22k-and-18k-rates-060077.html",
+   "surl": "https://www.goodreturns.in/silver-rates/"
   },
   {
    "city": "Chennai",
-   "g24": 136800,
-   "g22": 125400,
+   "g24": 136040,
+   "g22": 124700,
    "silver": 190000,
-   "date": "2026-11-16",
-   "url": "https://www.goodreturns.in/gold-rates/chennai.html",
-   "surl": "https://www.goodreturns.in/news/gold-rate-today-16-11-2026-another-big-fall-in-24k-22k-18k-gold-prices-silver-crashes-too-1547187.html"
+   "date": "2026-11-17",
+   "url": "https://telugu.goodreturns.in/news/gold-rates-big-drops-in-india-yellow-metal-price-today-on-november-17-check-24k-22k-and-18k-rates-060077.html",
+   "surl": "https://www.goodreturns.in/silver-rates/"
   },
   {
    "city": "Delhi",
-   "g24": 136950,
-   "g22": 125550,
+   "g24": 136200,
+   "g22": 124850,
    "silver": 190000,
-   "date": "2026-11-16",
-   "url": "https://www.thehansindia.com/business/market-compass/gold-and-silver-rates-slashes-today-16-nov-2026-in-delhi-mumbai-check-gold-prices-of-18k-22k-24k-1142648",
-   "surl": "https://www.thehansindia.com/business/market-compass/gold-and-silver-rates-slashes-today-16-nov-2026-in-delhi-mumbai-check-gold-prices-of-18k-22k-24k-1142648"
+   "date": "2026-11-17",
+   "url": "https://telugu.goodreturns.in/news/gold-rates-big-drops-in-india-yellow-metal-price-today-on-november-17-check-24k-22k-and-18k-rates-060077.html",
+   "surl": "https://www.goodreturns.in/silver-rates/"
   }
  ],
  "copper": {
-  "price": 1284.5,
-  "date": "2026-11-16",
+  "price": 1277.4,
+  "date": "2026-11-17",
   "url": "https://choiceindia.com/commodity/mcx-copper-price"
  },
  "prev": {
-  "Hyderabad|g24": 137620,
-  "Hyderabad|g22": 126150,
-  "Hyderabad|silver": 195000,
+  "Hyderabad|g24": 136800,
+  "Hyderabad|g22": 125400,
+  "Hyderabad|silver": 190000,
+  "Mumbai|g24": 136800,
+  "Mumbai|g22": 125400,
   "Mumbai|silver": 190000,
+  "Chennai|g24": 136800,
+  "Chennai|g22": 125400,
   "Chennai|silver": 190000,
+  "Delhi|g24": 136950,
+  "Delhi|g22": 125550,
   "Delhi|silver": 190000,
-  "copper": 1308.55,
-  "Chennai|g22": 126150
+  "copper": 1284.5
  }
 }
