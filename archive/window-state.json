@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T15:35:00+05:30",
+ "cutoff": "2026-11-17T16:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T05:35:00+05:30/2026-11-15T06:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 2,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 8,
-   "review": 1,
-   "gaps": "06:05 run started 06:06 IST. Lookback from 21:35 14 Nov. Published: DC Kondagattu Chandanotsavam (15 Nov 00:12, fact), DC Birsa Munda rally Tank Bund (14 Nov 22:46, fact, late). Skipped low-value eligible: DC CDM Discover India (00:17), DC TSCS Children's Day (00:26). Skipped pre-lookback: TT Yadadri lorry hits MLC convoy (14 Nov 00:51), TT Warangal farmer deaths (00:44), TT polytechnics retained (00:38), TT OU hostel protest (00:23), TT 429 asst professors (13 Nov), Siasat CM-PM drought meeting (13 Nov). Review: Hans Janakpur-Ayodhya weekly train (21:39 on homepage, article fetch refused). Not reached: Eenadu (robots), TT Kothagudem Nagula Chavithi (fetch refused), Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; India/world searches stale. Districts searched: Karimnagar, Medak, Siddipet, Nagarkurnool, Wanaparthy, Mahabubnagar, Khammam, Guntur, Krishna, West Godavari, Anakapalli, Parvathipuram Manyam."
-  },
   {
    "window": "2026-11-15T06:05:00+05:30/2026-11-15T06:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 1,
    "gaps": "Feeds 15:15, 64/68 ok; 684 uncovered TG/AP. add_repo not available; used existing clone. Published: Nadikuda 200 gelatin sticks seized (HMTV 12:22, late-found), Model School teachers dharna (TT 14:19), Dhoni retires from IPL, CSK mentor (Siasat/PTI 15:22). Duplicates: Narsingi deepfake 7th accused = HYC Salman (covered 12:35), OPS mass leave protest (covered 05:35/07:05). Skipped (old): Adilabad cotton traders TT (12 Nov). Review: PM at 23rd India-ASEAN Summit (pmindia, date only, no time). District searches (Khammam, Visakhapatnam, Karimnagar, Guntur, Nizamabad, Tirupati, Warangal, Srikakulam, Nalgonda, Kurnool, Adilabad) mostly returned older items."
+  },
+  {
+   "window": "2026-11-17T15:35:00+05:30/2026-11-17T16:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 3,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Feeds 15:41, 67/70 ok (Sakshi, V6 Velugu, district:Mulugu failing); 750 uncovered TG/AP. add_repo not available; used existing clone. Published: Bellampalli police party probe (TT 15:56), Balapur 21 kg ganja (TT 15:20, sensitive/police), BRS tears Congress manifesto (TT 15:30, claim). Duplicate: TT medical college hostel safety (Narayanpet GMC covered). Skipped (old): NewsMeter Shamshabad fake liquor (8 Jan), APPSC 160 lecturer (14 Oct), BITS GPS-free drone (6 Nov). Not found by search: Hindu tiger Lingapalem, NIE megalithic burials, ABP Yadadri child rescue, HMTV Adilabad scissors attack, Inshorts BJP vs PES complaint. District searches (Nalgonda, Kakinada, Sangareddy, Nellore, Siddipet, Kadapa) returned only older items."
   }
  ],
  "seen": [
@@ -6758,6 +6758,41 @@
    "url": "https://www.pmindia.gov.in/en/news_updates/pm-participates-in-the-23rd-india-asean-summit-in-manila/",
    "d": "2026-11-17",
    "w": "review"
+  },
+  {
+   "url": "https://telanganatoday.com/watch-probe-ordered-into-bellampalli-police-staffs-farmhouse-party",
+   "d": "2026-11-17",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-pan-shop-worker-held-with-21-kg-of-marijuana-in-balapur",
+   "d": "2026-11-17",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/brs-tears-up-congress-manifesto-calls-it-bhasmasura-hastham",
+   "d": "2026-11-17",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/hostel-fire-puts-spotlight-on-safety-gaps-at-telangana-medical-colleges",
+   "d": "2026-11-17",
+   "w": "dup"
+  },
+  {
+   "url": "https://newsmeter.in/crime/gang-selling-cheap-liquor-in-premium-bottles-busted-in-hyderabad-rs-8-lakh-worth-alcohol-seized-761057",
+   "d": "2026-11-17",
+   "w": "skip"
+  },
+  {
+   "url": "https://articles.findmycollege.com/news/appsc-lecturer-recruitment-2026-out-for-160-posts-apply-from-18-november/",
+   "d": "2026-11-17",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.indiandefensenews.in/2026/11/mars-inspired-army-tested-bits.html",
+   "d": "2026-11-17",
+   "w": "skip"
   }
  ]
 }
