@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T16:05:00+05:30",
+ "cutoff": "2026-11-17T16:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T06:05:00+05:30/2026-11-15T06:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 6,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "06:35 run started 06:36 IST. Lookback from 22:05 14 Nov. Published: NT TG ₹1,000 cr borrowing (02:06, fact), NT CWC Godavari-Cauvery letter (02:49, fact), NT Kosgi demolition protest (02:12, claim), NT RS Praveen Kumar allegations (02:20, claim, sensitive), NT Council farewell 3 MLCs (04:02, fact), Business Today markets week ahead (06:00, fact). Skipped low-value: NT Siripuram sarpanch post (04:16). Duplicate: TT NDE aerospace conferences (already seen). Not reached: Japan Times SpaceX catch (fetch 4xx), Eenadu, Sakshi, V6, TV9, The Hindu, PTI, Reuters; standard searches stale. Districts searched: Medchal, Tirupati, Kurnool, Nandyal, Nellore, Peddapalli, Jagtial, Eluru, Chittoor."
-  },
   {
    "window": "2026-11-15T06:35:00+05:30/2026-11-15T07:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Feeds 15:41, 67/70 ok (Sakshi, V6 Velugu, district:Mulugu failing); 750 uncovered TG/AP. add_repo not available; used existing clone. Published: Bellampalli police party probe (TT 15:56), Balapur 21 kg ganja (TT 15:20, sensitive/police), BRS tears Congress manifesto (TT 15:30, claim). Duplicate: TT medical college hostel safety (Narayanpet GMC covered). Skipped (old): NewsMeter Shamshabad fake liquor (8 Jan), APPSC 160 lecturer (14 Oct), BITS GPS-free drone (6 Nov). Not found by search: Hindu tiger Lingapalem, NIE megalithic burials, ABP Yadadri child rescue, HMTV Adilabad scissors attack, Inshorts BJP vs PES complaint. District searches (Nalgonda, Kakinada, Sangareddy, Nellore, Siddipet, Kadapa) returned only older items."
+  },
+  {
+   "window": "2026-11-17T16:05:00+05:30/2026-11-17T16:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 8,
+   "published": 6,
+   "late": 2,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Feeds 16:13, 70/70 ok; 855 uncovered TG/AP. add_repo not available; used existing clone. Direct feed URLs refused by WebFetch (provenance); only search-result URLs opened. Published: HC plainclothes police petition (Siasat 16:11), Shamshabad fake premium liquor 2 held (TT 15:25, sensitive/excise), Kukatpally-Gandimaisamma Metro demand (TT 16:35, claim), Sridhar Babu Ahmedabad roadshow (DC 13:57, late), HC defibrillators (NewsMeter 16:07), KTR on Sonia memoir (IANS/Punjab Kesari 16:03, claim). Duplicate: Bhatti power rabi review (NewsMeter 15:27; power-supply story 06:05). Skipped (old): TG SAFE 23 shops (DC 01:23 / Siasat 16 Nov), HYDRAA HC (16 Nov, covered). Not opened: Bellampalli fake death certificates (HMTV), NIMS ACB searches (Andhrajyothy), Anakapalli RI ACB (HMTV), V6 Nagarjuna Sagar AP tunnel, Kavitha Inter board (INDToday), PM ASEAN summit, Uttarakhand accidents, AP universities. news.json kept at 2-day window (315 stories) as in earlier runs."
   }
  ],
  "seen": [
@@ -6791,6 +6791,51 @@
   },
   {
    "url": "https://www.indiandefensenews.in/2026/11/mars-inspired-army-tested-bits.html",
+   "d": "2026-11-17",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.siasat.com/plainclothes-operations-hc-seeks-answers-from-dgp-home-secy-3579548/",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/excise-task-force-busts-fake-premium-liquor-racket-in-shamshabad",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/metro-extension-demand-gains-ground-in-north-west-hyderabad",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/sridhar-babu-showcases-telanganas-investment-potential-at-ahmedabad-road-show-2005163",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/science-health/telangana-high-court-installs-five-life-saving-defibrillators-for-cardiac-emergencies-779480",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://english.punjabkesari.com/india/why-telangana-found-no-mention-in-sonia-gandhis-book-asks-ktr",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/nation/telangana-power-utilities-gear-up-for-rabi-season-after-meeting-record-demands-779475",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/tg-safe-suspends-23-medical-shops-linked-to-online-pharmacies-2005059",
+   "d": "2026-11-17",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/tg-safe-suspends-licences-of-23-online-pharmacy-linked-medical-shops/article71708906.ece",
    "d": "2026-11-17",
    "w": "skip"
   }
