@@ -1,89 +1,93 @@
 {
- "updated": "2026-11-17T05:24:26+05:30",
- "set": "morning",
+ "updated": "2026-11-17T17:24:27+05:30",
+ "set": "evening",
  "items": [
   {
    "kind": "quote",
    "date": "2026-11-17",
-   "id": "vivekananda-pure-strong-one-man",
-   "text": "నువ్వు పవిత్రంగా ఉంటే, నువ్వు బలంగా ఉంటే, ఒక్కడివే అయినా నువ్వు ప్రపంచమంతటితో సమానం.",
-   "by": "స్వామి వివేకానంద",
-   "ctx": "మనసు నిర్మలంగా, సంకల్పం దృఢంగా ఉంటే ఒక్క మనిషి కూడా గొప్ప మార్పు తీసుకురాగలడు.",
-   "src": "Swami Vivekananda – Business Insider India",
-   "url2": "https://www.businessinsider.in/thelife/personalities/article/swami-vivekananda-quotes-and-thoughts-with-meaning/articleshow/73203563.cms",
+   "id": "gandhi-strength-indomitable-will",
+   "text": "బలం శరీర శక్తి నుంచి రాదు. అది వెనకడుగు వేయని దృఢ సంకల్పం నుంచి వస్తుంది.",
+   "by": "మహాత్మా గాంధీ",
+   "ctx": "నిజమైన బలం కండల్లో కాదు, మనసులో ఉంటుంది. ఎంత కష్టం వచ్చినా పట్టు వదలని సంకల్పమే మనిషిని గెలిపిస్తుంది.",
+   "src": "Young India, 11 August 1920 – mkgandhi.org",
+   "url2": "https://www.mkgandhi.org/voiceoftruth/cowardice.htm",
    "en": {
-    "text": "If you are pure, if you are strong, you, one man are equal to the whole world.",
-    "by": "Swami Vivekananda",
-    "ctx": "With a clean mind and a firm will, even one person can bring great change."
+    "text": "Strength does not come from physical capacity. It comes from an indomitable will.",
+    "by": "Mahatma Gandhi",
+    "ctx": "Real strength is not in the muscles but in the mind. A will that does not give up, however hard things get, is what makes a person win."
    },
    "hi": {
-    "text": "यदि तुम पवित्र हो, यदि तुम बलवान हो, तो तुम अकेले ही पूरे संसार के बराबर हो।",
-    "by": "स्वामी विवेकानंद",
-    "ctx": "मन निर्मल और संकल्प दृढ़ हो, तो एक व्यक्ति भी बड़ा बदलाव ला सकता है।"
+    "text": "शक्ति शारीरिक क्षमता से नहीं आती। वह अदम्य इच्छाशक्ति से आती है।",
+    "by": "महात्मा गांधी",
+    "ctx": "असली ताकत मांसपेशियों में नहीं, मन में होती है। कितनी भी मुश्किल आए, हार न मानने वाला संकल्प ही इंसान को जिताता है।"
    }
   },
   {
    "kind": "tip",
    "date": "2026-11-17",
-   "id": "rbi-kyc-update-fraud",
-   "title": "‘కేవైసీ అప్‌డేట్’ పేరుతో మోసం",
-   "text": "‘కేవైసీ అప్‌డేట్ చేయకపోతే మీ ఖాతా బ్లాక్ అవుతుంది’ అంటూ వచ్చే కాల్స్, ఎస్ఎంఎస్‌లు, ఈమెయిల్స్ నమ్మకండి. అందులోని లింకులు నొక్కకండి, తెలియని యాప్‌లు వేసుకోకండి. ఓటీపీ, పిన్, పాస్‌వర్డ్, కార్డు వివరాలు ఎవరికీ చెప్పకండి.",
-   "ctx": "కేవైసీ గురించి సందేహం ఉంటే బ్యాంకు అధికారిక వెబ్‌సైట్‌లోని నంబరుకు లేదా మీ బ్రాంచికి నేరుగా అడగండి. మోసం జరిగితే వెంటనే 1930కు ఫోన్ చేయండి లేదా cybercrime.gov.in లో ఫిర్యాదు చేయండి అని ఆర్‌బీఐ సూచించింది.",
-   "src": "RBI press release 2023-2024/1794",
-   "url2": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57244",
+   "id": "rbi-dla-fake-loan-apps",
+   "title": "లోన్ యాప్ నిజమైనదేనా? చూసుకోండి",
+   "text": "వాట్సాప్, టెలిగ్రామ్‌లో లింకులు, ఏపీకే ఫైళ్లు పంపి ‘నిమిషాల్లో లోన్’ అనే యాప్‌లను నమ్మకండి. ఆర్‌బీఐ వెబ్‌సైట్‌లో ‘సిటిజన్స్ కార్నర్’ విభాగంలో గుర్తింపు పొందిన డిజిటల్ లోన్ యాప్‌ల జాబితా ఉంది. యాప్ పేరు స్పెల్లింగ్, వెనుక ఉన్న బ్యాంకు లేదా ఎన్‌బీఎఫ్‌సీ పేరు సరిచూసుకోండి.",
+   "ctx": "కేవైసీ లేకుండానే డబ్బు ఇస్తామనడం పెద్ద హెచ్చరిక గుర్తు. ఫోటోలు, ఎస్ఎంఎస్‌లు, కాంటాక్ట్‌లు చూసే అనుమతి ఇవ్వకండి. కీ ఫ్యాక్ట్ స్టేట్‌మెంట్ (కేఎఫ్ఎస్)లో లేని ఏ ఫీజూ వసూలు చేయకూడదు.",
+   "src": "Business Standard (on RBI's list of digital lending apps), 9 July 2025",
+   "url2": "https://www.business-standard.com/amp/finance/personal-finance/avoiding-fraudulent-loan-apps-rbi-listing-ratings-reviews-key-to-safety-125070900931_1.html",
    "en": {
-    "title": "Beware of 'KYC update' fraud",
-    "text": "Don't trust calls, SMS or emails saying 'update your KYC or your account will be blocked'. Don't click their links or install unknown apps. Never share your OTP, PIN, password or card details with anyone.",
-    "ctx": "If you have a doubt about KYC, contact your bank directly using the number on its official website, or visit your branch. If you are cheated, call 1930 at once or complain at cybercrime.gov.in, as the RBI advises."
+    "title": "Is that loan app genuine? Check",
+    "text": "Don't trust apps that promise 'a loan in minutes' through links or APK files sent on WhatsApp or Telegram. RBI's website has a list of authorised digital lending apps in its 'Citizen's Corner' section. Check the app's spelling and the name of the bank or NBFC behind it.",
+    "ctx": "An offer of money without KYC is a big red flag. Don't give access to your photos, SMS or contacts. No fee that is not in the Key Fact Statement (KFS) can be charged."
    },
    "hi": {
-    "title": "'केवाईसी अपडेट' के नाम पर धोखा",
-    "text": "'केवाईसी अपडेट नहीं किया तो खाता ब्लॉक हो जाएगा' — ऐसे कॉल, एसएमएस या ईमेल पर भरोसा न करें। उनके लिंक न खोलें, अनजान ऐप इंस्टॉल न करें। ओटीपी, पिन, पासवर्ड या कार्ड की जानकारी किसी को न बताएं।",
-    "ctx": "केवाईसी को लेकर शंका हो तो बैंक की आधिकारिक वेबसाइट पर दिए नंबर से या अपनी शाखा से सीधे पूछें। धोखा हो तो तुरंत 1930 पर कॉल करें या cybercrime.gov.in पर शिकायत करें — आरबीआई की सलाह।"
+    "title": "लोन ऐप असली है? जांचें",
+    "text": "व्हाट्सऐप, टेलीग्राम पर लिंक या एपीके फाइल भेजकर 'मिनटों में लोन' देने वाले ऐप पर भरोसा न करें। आरबीआई की वेबसाइट के 'सिटिजन्स कॉर्नर' में अधिकृत डिजिटल लोन ऐप की सूची है। ऐप के नाम की स्पेलिंग और उसके पीछे के बैंक या एनबीएफसी का नाम जांचें।",
+    "ctx": "बिना केवाईसी के पैसा देने की बात बड़ा खतरे का संकेत है। फोटो, एसएमएस या कॉन्टैक्ट देखने की अनुमति न दें। की फैक्ट स्टेटमेंट (केएफएस) में न लिखा कोई भी शुल्क नहीं लिया जा सकता।"
    }
   },
   {
    "kind": "wisdom",
    "date": "2026-11-17",
-   "id": "vemana-atmasuddhi-leni",
-   "text": "ఆత్మశుద్ధి లేని యాచారమదియేల?\nభాండశుద్ధి లేని పాకమేల?\nచిత్త శుద్ధి లేని శివపూజలేలరా?\nవిశ్వదాభిరామ వినురవేమ.",
+   "id": "vemana-gangi-govu-palu",
+   "text": "గంగిగోవు పాలు గరిటెడైనను చాలు\nకడివెడైననేమి ఖరము పాలు\nభక్తి కలుగు కూడు పట్టెడైనను చాలు\nవిశ్వదాభిరామ వినురవేమ.",
    "by": "వేమన (వేమన శతకం)",
-   "ctx": "మనసు శుభ్రంగా లేకపోతే ఆచారాలు వ్యర్థం; పాత్ర శుభ్రంగా లేకపోతే వంట వ్యర్థం; మనసులో నిర్మలత్వం లేకపోతే పూజ కూడా వ్యర్థం. పైపై ఆర్భాటం కాదు, మనసులో నిజాయతీ ముఖ్యం.",
-   "src": "వేమన శతకం – The South First",
-   "url2": "https://thesouthfirst.com/featured/yogi-vemana-the-poet-who-turned-everyday-telugu-into-a-language-of-truth/",
+   "ctx": "మంచి ఆవు పాలు ఒక్క గరిటె అయినా చాలు, గాడిద పాలు కుండెడు ఉన్నా ఉపయోగం లేదు. అలాగే ప్రేమతో, భక్తితో పెట్టిన కొద్దిపాటి అన్నమే గొప్పది — ఎంత ఉందన్నది కాదు, ఎలా ఉందన్నదే ముఖ్యం.",
+   "src": "వేమన శతకం – Vemana padyalu (blog)",
+   "url2": "https://reddy-yoursreddy.blogspot.com/2013/03/kumaragiri-vema-reddyvemana.html",
    "en": {
-    "text": "What use are rituals without a pure self? What use is cooking in an unclean pot? What use is worship of Shiva without a pure mind? (Vemana padyam, meaning)",
+    "text": "A ladle of milk from a good cow is enough; what use is a potful of donkey's milk? A handful of food given with devotion is enough. Listen, Vema, beloved of the world.",
     "by": "Vemana (Vemana Satakam)",
-    "ctx": "Outward show is empty without inner purity; sincerity of heart is what matters."
+    "ctx": "Quality matters more than quantity: a little food offered with love and devotion is worth more than plenty given without it."
    },
    "hi": {
-    "text": "आत्मशुद्धि के बिना आचार किस काम का? बर्तन साफ़ न हो तो पकवान किस काम का? मन शुद्ध न हो तो शिव-पूजा किस काम की? (वेमना पद्य का अर्थ)",
-    "by": "वेमना (वेमना शतकम्)",
-    "ctx": "भीतर की पवित्रता के बिना बाहरी दिखावा खोखला है; मन की सच्चाई ही असली है।"
+    "text": "अच्छी गाय का एक कलछी दूध भी काफी है; गधी का घड़ा भर दूध किस काम का? भक्ति से दिया मुट्ठी भर भोजन भी काफी है। सुनो वेमा, विश्व के प्रिय।",
+    "by": "वेमना (वेमना शतकम)",
+    "ctx": "मात्रा से ज्यादा गुण मायने रखता है: प्रेम और भक्ति से दिया थोड़ा भोजन बहुत ज्यादा, पर बिना भाव के दिए भोजन से बेहतर है।"
    }
   },
   {
    "kind": "roots",
    "date": "2026-11-17",
-   "id": "pochampally-ikat",
-   "title": "పోచంపల్లి ఇక్కత్ చీరలు",
-   "text": "యాదాద్రి భువనగిరి జిల్లాలోని పోచంపల్లిలో 10 వేలకు పైగా నేత కుటుంబాలు ఉన్నాయి. నేయడానికి ముందే దారాలను కట్టి, రంగులు అద్ది సుమారు 18 దశల్లో డిజైన్ సిద్ధం చేస్తారు — ఇదే ఇక్కత్ కళ. ఈ చీరలకు జీఐ గుర్తింపు ఉంది; 2021లో ఐక్యరాజ్యసమితి పర్యాటక సంస్థ పోచంపల్లిని ఉత్తమ పర్యాటక గ్రామంగా గుర్తించింది.",
-   "ctx": "మీ ఇంట్లో పోచంపల్లి చీర ఉందా? అది ఏ సందర్భంలో కొన్నారు?",
-   "src": "Ministry of Tourism, Govt of India – Rural Tourism: Pochampally",
-   "url2": "https://rural.tourism.gov.in/Pochampally-culture.html",
+   "id": "karthika-pournami-365-vattulu",
+   "title": "కార్తీక పౌర్ణమి: 365 వత్తుల దీపం",
+   "text": "ఈ ఏడాది కార్తీక పౌర్ణమి నవంబర్ 24, మంగళవారం. ఆ రోజు తెల్లవారుజామునే స్నానం చేసి, శివాలయంలో లేదా ఇంట్లో తులసి కోట దగ్గర 365 వత్తులతో దీపం వెలిగిస్తారు. ఏడాదిలో ప్రతి రోజూ దీపారాధన చేసినంత పుణ్యం వస్తుందని పెద్దలు భావించేవారు.",
+   "ctx": "మీ ఇంట్లో కార్తీక పౌర్ణమి రోజు దీపాలు ఎక్కడ వెలిగిస్తారు? గుడిలోనా, తులసి కోట దగ్గరా?",
+   "src": "Sakshi Post; Dekho Panchang (date)",
+   "url2": "https://www.sakshipost.com/news/telangana/what-reason-lighting-365-wicks-lamp-karthika-pournami-349899",
    "en": {
-    "title": "Pochampally Ikat sarees",
-    "text": "Pochampally in Yadadri Bhuvanagiri district is home to more than 10,000 weaving families. Before weaving, the threads are tied and dyed in about 18 steps to set the design — this is the art of ikat. The sarees carry a GI tag, and in 2021 the UN World Tourism Organization named Pochampally a Best Tourism Village.",
-    "ctx": "Is there a Pochampally saree in your home? For which occasion was it bought?"
+    "title": "Karthika Pournami: the 365-wick lamp",
+    "text": "This year Karthika Pournami falls on Tuesday, November 24. People bathe early and light a lamp of 365 wicks at a Shiva temple or by the tulasi pot at home. Elders believed it brings the merit of lighting a lamp on every day of the year.",
+    "ctx": "Where does your family light lamps on Karthika Pournami — at the temple or by the tulasi pot?"
    },
    "hi": {
-    "title": "पोचमपल्ली इकत साड़ियाँ",
-    "text": "यादाद्री भुवनगिरी ज़िले के पोचमपल्ली में 10 हज़ार से अधिक बुनकर परिवार रहते हैं। बुनाई से पहले धागों को बाँधकर और रंगकर लगभग 18 चरणों में डिज़ाइन तैयार किया जाता है — यही इकत कला है। इन साड़ियों को जीआई टैग मिला है, और 2021 में संयुक्त राष्ट्र विश्व पर्यटन संगठन ने पोचमपल्ली को सर्वश्रेष्ठ पर्यटन गाँव चुना।",
-    "ctx": "क्या आपके घर में पोचमपल्ली साड़ी है? वह किस मौके पर खरीदी गई थी?"
+    "title": "कार्तिक पूर्णिमा: 365 बत्तियों का दीया",
+    "text": "इस साल कार्तिक पूर्णिमा 24 नवंबर, मंगलवार को है। लोग सुबह जल्दी स्नान करके शिव मंदिर में या घर में तुलसी के पास 365 बत्तियों वाला दीया जलाते हैं। बुजुर्ग मानते थे कि इससे साल के हर दिन दीप जलाने जितना पुण्य मिलता है।",
+    "ctx": "आपके घर में कार्तिक पूर्णिमा पर दीये कहां जलाते हैं — मंदिर में या तुलसी के पास?"
    }
   }
  ],
  "history": [
+  "gandhi-strength-indomitable-will",
+  "rbi-dla-fake-loan-apps",
+  "vemana-gangi-govu-palu",
+  "karthika-pournami-365-vattulu",
   "vivekananda-pure-strong-one-man",
   "rbi-kyc-update-fraud",
   "vemana-atmasuddhi-leni",
