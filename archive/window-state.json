@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T18:05:00+05:30",
+ "cutoff": "2026-11-17T18:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T08:05:00+05:30/2026-11-15T08:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 1,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 5,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "08:35 run started 08:36 IST. Lookback from 00:05 15 Nov. Published: India TV 5th ODI KL Rahul out (07:59, fact). Duplicates on ABN flash (07:48-07:58): Bourampet bus fire, Akvan low pressure, Giribabu last rites, AP panchayat nominations, CM Revanth Delhi. Skipped: TT NDE 2026 HITEX conference (pre-lookback, 13 Nov 16:35), DC/ANI AP coast cyclone (pre-lookback, 14 Nov 11:33), Hans central teams cyclone (31 Oct). ETV TG/AP live blogs: only Ramoji walk 07:31 and Anantapur minor suicide 07:10 (both already seen/skipped). Hans home page newest 14 Nov 21:39. Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; standard searches stale. Districts searched: Jagtial, Peddapalli, Sircilla, Nagarkurnool, Wanaparthy, Gadwal, Jangaon, Mulugu, Nellore, Kurnool, Nandyal, Chittoor."
-  },
   {
    "window": "2026-11-15T08:35:00+05:30/2026-11-15T09:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Feeds 17:44, 69/70 ok; 769 uncovered TG/AP (many already published). add_repo not available; used existing clone. Published: Konaseema ONGC leak contained (IANS/Punjab Kesari 17:30, update), Karreguttalu Maoist dump (HMTV 15:06, late-found), Vemulawada temple tower protest (TT 17:27, claim), BRS Nagarjuna Sagar protest (TT 17:32, claim). Not opened (feed URLs refused by WebFetch, not found via search): Siasat Hormuz LPG tanker, Bahrain blasts, SC SIR Dec 9, JEH Aerospace Kothur, Shamirpet refund; Hindu TG debt CESS; TT Kagaznagar padayatra; Disha Vemulawada (4xx)."
+  },
+  {
+   "window": "2026-11-17T18:05:00+05:30/2026-11-17T18:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 9,
+   "published": 4,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 5,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 18:16, 67/68 ok (district:Jagtial failing); 735 uncovered TG/AP (many already published). add_repo not available; used existing clone. Published: Hyderabad State gazettes digitised (TT 18:05), CCMB drug-resistant fungus (TT 18:01), Hormuz Tara Gas tanker Indian sailor missing (Siasat 17:38), Sharmila vs Sakshi wedding-invite report (ETV Bharat 17:41, claim). Duplicates: fake silver varaq (14:05), fake liquor (16:35), Anirudh Reddy graft remarks (11:35), Siddipet principal POCSO (08:35), dating-app gang (16 Nov). Skipped: Adoni car-auto crash (DC 9 Nov, old). Not opened/not found: DC Naidu SAF, DC Hyderabad gambling den, NewsMeter Cyberabad Listening to Children, TG RERA Bhuvanteza bar (NewsMeter), News18 Rapthadu accused shift."
   }
  ],
  "seen": [
@@ -6948,6 +6948,36 @@
    "url": "https://www.v6velugu.com/aps-secret-tunnel-project-at-nagarjuna-sagar-raises-questions-over-krishna-water-sharing",
    "d": "2026-11-17",
    "w": "dup"
+  },
+  {
+   "url": "https://telanganatoday.com/over-3-2-lakh-pages-of-hyderabad-state-gazettes-digitised",
+   "d": "2026-11-17",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-researchers-find-way-to-disarm-drug-resistant-fungus",
+   "d": "2026-11-17",
+   "w": "p"
+  },
+  {
+   "url": "https://www.siasat.com/one-indian-missing-after-fresh-attack-on-lpg-tanker-in-hormuz-3579673/",
+   "d": "2026-11-17",
+   "w": "p"
+  },
+  {
+   "url": "https://gulfnews.com/world/mena/strait-of-hormuz-attack-indian-seafarer-missing-after-second-attack-on-tanker-off-oman-1.500750031",
+   "d": "2026-11-17",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/politics/ys-sharmila-slams-on-wedding-invitation-controversy-in-sakshi-paper-aps26111705161",
+   "d": "2026-11-17",
+   "w": "p"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/kurnool-one-killed-four-injured-in-car-auto-collision-near-adoni-2002881",
+   "d": "2026-11-17",
+   "w": "skip"
   }
  ]
 }
