@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-17T10:35:00+05:30",
+ "cutoff": "2026-11-17T11:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-14T19:35:00+05:30/2026-11-14T20:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 7,
-   "published": 6,
-   "late": 0,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 2,
-   "review": 1,
-   "gaps": "20:05 run started 20:05 IST. Lookback from 11:35 14 Nov. Published: Telugu360 AICC names B.M. Sandeep Telangana Congress in-charge (19:05, fact), Telangana Today Jagadgirigutta 7 held for attempt to murder (19:34, fact, police), Telangana Today Dilsukhnagar mobile shop burglary (19:57, fact), IndToday Vikarabad Methodist jatra security (18:51, fact), Mana Telangana Papanna statue at Warangal Fort (19:00, claim), HMTV Jammikunta special school Children's Day (18:58, fact). Duplicate: Prabha News Sandeep appointment. Skipped: Inshorts YSRCP drought relief (09:49, pre-lookback), IndToday Khammam boy death (10 Nov). Review: Punjab Kesari/IANS Jagan 'credit chori' (7:49 PM, no timezone). Euronews bulletin fetch failed. Not reached: Eenadu, Sakshi, V6, TV9, NTV, The Hindu, PTI, Reuters; standard searches stale. Districts searched: Mulugu, Jangaon, Mahabubabad, Peddapalli, Bhupalpally, Warangal, Khammam, Vikarabad, Tirupati, Nandyal, Palnadu, Chittoor, Bapatla, Prakasam, Kurnool, Visakhapatnam, NTR."
-  },
   {
    "window": "2026-11-14T20:05:00+05:30/2026-11-14T20:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Feeds 10:11, 59/70 ok. add_repo not available; used existing clone. Articles read via sub-agents. Published: TG RERA Bhuvanteza refund (NewsMeter 09:53), AP phase-2 civic nominations 7,508 (ETV 09:49), OU hostel food protest (Siasat 09:33), 1,651 CGS seats (V6 09:06). Duplicates of 16 Nov stories: TGPSC 3-week results (TV9 07:51), house pattas 7 lakh families (HMTV 05:55/TV9 07:35), Sammakka Sagar Chhattisgarh visit (V6 06:57), Vijaya Dairy HC (Hans 05:04, DC 23:29). Skipped (before lookback): TG SSC fee Nov 26 (DC 16 Nov 23:20), Governor Excellence Awards (HMTV 16 Nov 17:11), Parvathipuram-Manyam panchayat nominations (AJ 00:22), Amit Shah no-fly zone (AJ 16 Nov). Not found: Lingampally 55 MGD (Samayam), NIE Enumamula trader, 10TV SSC fee. 8 district searches (Adilabad, Khammam, Guntur, Kakinada, Suryapet, Srikakulam, Medak/Sangareddy, Prakasam) gave no fresh in-window items."
+  },
+  {
+   "window": "2026-11-17T10:35:00+05:30/2026-11-17T11:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 4,
+   "late": 4,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Feeds 10:42, 56/70 ok (14 HTTP 429: Eenadu, TV9, ETV Bharat, Samayam, TOI, 9 district/topic feeds). add_repo not available; used existing clone. Articles read via sub-agents. Published: Konaseema leak update - CM evacuation order, 1 km (Hans 10:49), AP Nov 26 polling holiday (Vaartha 10:53), Kurumurthy Uddala Utsavam (V6 10:10), Harish Rao on poll promises (TT 10:20, claim). Duplicates: Siasat 9 medical colleges Rs365 cr (=16 Nov NewsAge story), ETV 7,508 nominations, 10TV SSC fee Nov 26 (16 Nov event). Skipped: NTV Konaseema CM review (Jan 2026 article), Disha Harish article (fetch failed). Not found in search: Samayam ACB 60 employees jailed, Hyderabad Mail Rangareddy spending, Powerline Fourth Partner Rs2,000 cr, V6 Mulugu ministers welfare. 8 district searches (Nalgonda, Anantapur, Nizamabad/Kamareddy, Vijayawada/Guntur, Karimnagar, Kadapa/Kurnool/Nandyal, Warangal/Hanumakonda, Khammam/Bhadradri) gave no fresh in-window items."
   }
  ],
  "seen": [
@@ -6356,6 +6356,46 @@
   },
   {
    "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/vizianagaram/sarpanch-675-ward-members-1651-1576957.html",
+   "d": "2026-11-17",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/cm-chandrababu-directs-officials-to-evacuate-people-to-safety-amid-gas-leak-on-konaseema-1142939",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/east-godavari/konaseema-ongc-gas-leak-cm-chandrababu-suchi-1577141.html",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://businessupturn.com/business/major-gas-leak-at-ongc-re-drilling-site-in-andhras-konaseema-residents-within-1-km-evacuated-no-fire-reported/",
+   "d": "2026-11-17",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://vaartha.com/andhra-pradesh/polling-holiday-leave-for-government-and-private-employees-in-the-23-urban-local-bodies/806186/",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/kurumurthy-uddala-utsavam-draws-lakhs-of-devotees-in-mahbubnagar-amid-govinda-chants-",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/harish-rao-flays-congress-for-betraying-people-on-poll-promises",
+   "d": "2026-11-17",
+   "w": "published"
+  },
+  {
+   "url": "https://ntvtelugu.com/news/cm-chandrababu-naidu-reviews-ongc-gas-leak-in-konaseema-orders-immediate-fire-control-918499.html",
+   "d": "2026-11-17",
+   "w": "skipped"
+  },
+  {
+   "url": "https://dishadaily.com/telangana/former-minister-harish-rao-criticizes-congresss-implementation-of-promises-601490",
    "d": "2026-11-17",
    "w": "skipped"
   }
