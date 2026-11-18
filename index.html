@@ -3265,7 +3265,7 @@ if(new URLSearchParams(location.search).get('install')==='1' && !standalone){
 setTimeout(() => { if(!deferredPrompt && (isIOS || inApp)) showInstall(); }, 3000);
 
 /* ---------- news alerts (OneSignal web push) ---------- */
-const ONESIGNAL_APP_ID = ''; // TODO: new OneSignal app for swipe2news.com
+const ONESIGNAL_APP_ID = '4f354e28-c33a-4836-8a3a-f25d58b2ba49'; // OneSignal app for swipe2news.com
 const pushOK = !!ONESIGNAL_APP_ID && ['way2sec.github.io','swipe2news.com','www.swipe2news.com'].includes(location.hostname) && 'serviceWorker' in navigator && 'Notification' in window;
 window.OneSignalDeferred = window.OneSignalDeferred || [];
 function bellState(on){ $('bellBtn').setAttribute('aria-pressed', !!on); }
