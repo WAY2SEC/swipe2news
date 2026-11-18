@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T22:05:00+05:30",
+ "cutoff": "2026-11-18T22:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-16T09:35:00+05:30/2026-11-16T10:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 14,
-   "published": 12,
-   "late": 9,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 4,
-   "review": 1,
-   "gaps": "10:05 run started 10:06 IST; lookback from 01:35. Feeds fresh (09:41, 70/70 ok; 152 uncovered local events in lookback, many already covered yesterday under other wording). add_repo not available; existing clone reset to origin/main, push worked. Skipped as outside lookback: Hans Vikarabad car-auto crash (15 Nov 16:35), South First AP NCD survey (15 Nov), HMTV Shabad best sarpanch (15 Nov), NewsMeter cyclone (2025 article). Duplicates: Daily Jagran Akvan (same as TT), Hans Bandi Sanjay 'disgrace' (same speech). Review: TTD darshan bulletin (no time). Not opened: Disha Nalgonda best sarpanch. District searches: Khammam, Srikakulam, Nizamabad/Kamareddy, Kurnool/Nandyal, Warangal, Nellore, Karimnagar/Peddapalli, Medak/Sangareddy."
-  },
   {
    "window": "2026-11-16T10:05:00+05:30/2026-11-16T10:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 0,
    "gaps": "Feeds 21:47 IST, 70/70 ok. Lookback 13:35. Published: TT TGPSC Rs500 per answer-key objection (20:55), Siasat Raj Gopal Reddy slams CM (21:24, claim), TT Nizampet liquor adulteration arrest (20:23, sensitive, accused not named), DC CS reviews 35-km PRTS (16:18, late), SSBCrack Hakimpet 23 helicopters (15:50, late). Duplicates: Khammam sarpanch bribe (=Mahabubabad sarpanch ACB), Siasat TG cops farmhouse dance (=Bellampalli), Indiramma insurance launch (=CM Siddipet visit). Skipped as old: ThePrint AP CM thanks Karnataka (3 Nov), Outlook Traveller Akvan (16 Nov), ThePrint Trump-Xi-Putin (14 Nov), DC Ponguleti (30 Oct), TT ACP medal (2023). Not opened (search did not surface; domain-filtered searches rejected): Hindu Akvan path uncertainty, Hindu schools El Nino drive, Hindu CM SC/ST welfare, Hindu Ponguleti BRS, DC Kadapa violence, TV9 Tirumala ghee, Reuters CEA growth. District searches not done (time). add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-18T22:05:00+05:30/2026-11-18T22:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 2,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 22:28 IST, 68/68 ok, 1244 uncovered-flag events in lookback (most already published; covered flag lags). Lookback 14:05. Published: TT Siddipet flexi banners before CM meeting (21:14, claim), DC Madhav seeks support for NDA in AP panchayat polls (21:49). Duplicates: DC Kadapa nomination violence (=14:05 Vaartha clashes story), DC Adluri accessibility (=20:35 Hans). Skipped as old: DC custard apple prices (17 Nov 20:34), Hans/DC AP MPP-ZP polls notification (10-11 Nov), DC Kakinada mayor confusion (16 Nov), Samco gold (2025). Not opened: DH TG liabilities Rs 5.6 lakh cr (fetch error); search did not surface: Chamala vs KTR, IndiaJoy/animation hub, IndiGo Saudi Nov 30, Vemireddy Nellore rail, AP employees Chalo Delhi, TG HC PD detention quash, petrol pump bike fire, U-19 chess, Sangareddy teacher row, Bhadrachalam killing BRS, Srisailam Kalyanakatta, TG hypertension programme. District searches: Nalgonda, Khammam, Kurnool, Visakhapatnam (no new items). add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -6328,6 +6328,36 @@
    "url": "https://telanganatoday.com/acp-jithender-reddy-wins-union-home-ministers-medal-for-excellence-in-investigation",
    "d": "2026-11-18",
    "w": "2026-11-18T22:05"
+  },
+  {
+   "url": "https://telanganatoday.com/flexi-banners-question-siddipet-projects-ahead-of-revanths-public-meeting",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/madhav-seeks-public-support-for-nda-nominees-in-gram-panchayat-polls-2005643",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/tension-more-violence-in-kadapa-over-local-body-polls-2005632",
+   "d": "2026-11-18",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/custard-apples-become-costly-as-el-nio-hits-yields-2005274",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/amaravati/indirect-polls-to-mpp-zpp-chief-posts-1140984",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/confusion-over-jana-senas-kakinada-mayoral-candidate-2005002",
+   "d": "2026-11-18",
+   "w": "skipped"
   }
  ]
 }
