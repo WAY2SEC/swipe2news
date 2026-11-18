@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T14:05:00+05:30",
+ "cutoff": "2026-11-18T14:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T20:35:00+05:30/2026-11-15T21:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 6,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "21:05 run started 21:06 IST. Lookback from 12:35. Feeds branch fresh (20:45, 70/70 ok, 792 uncovered TG/AP; covered flags stale). add_repo not available; existing clone used, push worked. Published: TT Siddipet/Sangareddy student deaths (20:40, sensitive, claim), TT brick kiln migrants (20:22, claim), ETV Bharat Hyderabad ATM security (20:32, claim), TT Dasoju polytechnic apology (20:13, claim), TT KTR study material (20:21), TT Mandamarri Gandhari Khilla trek (20:17). Skipped: Kothagudem airport, Jeelugumilli tiger, Giri Babu (already covered); Rajnath Hyderabad speech (event 11:52, before lookback); AP cyclone central team (covered). Not opened (The Hindu not surfaced by search; domain-filtered searches for other outlets rejected by proxy): Paderu ghat lorry, BJP leader car at nomination centre, Anakapalli PIT NDPS, Naidu NDA panchayat polls, JSP mayor list, Kadapa electrocution. District searches (Nalgonda, Warangal, Karimnagar, Nizamabad, Kurnool, Visakhapatnam, Guntur, Nellore) returned only tag/old pages."
-  },
   {
    "window": "2026-11-15T21:05:00+05:30/2026-11-15T21:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 7,
    "review": 0,
    "gaps": "Feeds 13:45 IST, 64/70 ok; 760 uncovered TG/AP flagged, most already published or Google-News-only links. add_repo not available; used existing clone. Published: Vaartha AP panchayat nomination clashes (claim), Andhra Prabha Kurnool sewage tankers/Tungabhadra (claim), NT Kothagudem Collector Japan study, Vaartha Kailasagiri new ropeway, Vaartha SCR special trains. Duplicate: V6/AJ old city wife murder (Hasan Nagar, published 09:35). Skipped (published before lookback 05:35): HMTV Bhupalpally 6,000 pensions (17 Nov), TT BRS Sagar protest (17 Nov), TT Nagaraju padayatra (17 Nov), TT Bhupalpally murder (6 Nov), DC Kadapa dog attack (17 Nov), Hans Guntur cyclone (16 Nov), Hans Kurnool GP polls (14 Nov). Not opened: TT HC Task Force searches (fetch refused), NIE Somasila, DC Railway Kodur, ETV Dharani CID, TV9 Wanaparthy electrocution, HMTV Burgampahad (not surfaced by search). District searches: Bhupalpally, Kurnool, Nalgonda, Adilabad, Kadapa, Guntur, Nizamabad, Srikakulam."
+  },
+  {
+   "window": "2026-11-18T14:05:00+05:30/2026-11-18T14:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 2,
+   "late": 2,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 9,
+   "review": 0,
+   "gaps": "Feeds 14:16 IST, 68/68 ok; 730 uncovered TG/AP flagged, most already published, older than lookback 06:05 or Google-News-only links that search did not surface. add_repo not available; used existing clone. Published: ETV Bharat TG national archery medals, IND Today Kavitha on Sagar tunnel (claim). Duplicates: Siasat Balmoor Venkat family crash (09:05), ETV Russian An-12 crash (06:05). Skipped (before lookback): IE US strikes Qeshm (3 Nov), Oneindia Kulgam Lateef Bhat (16 Nov), DC fishermen advisory (17 Nov), DC NPDCL (26 Oct), Hans APSPDCL (17 Nov), CareerPower AP civil judge (3 Oct), Federal/Siasat Akvan (16 Nov); Hans Oxygen Park garbage (clearance on 13 Nov, minor); Business Today Akvan (already covered). Not opened: SCMP Qeshm (fetch refused), The Hindu NDRF/SDRF, KTR 90 TMC ANI, NEET charges, TG police promotions, Polavaram PPA CEO (not surfaced). District searches: Nellore, Warangal, Khammam, Anantapur, Karimnagar only."
   }
  ],
  "seen": [
@@ -7038,6 +7038,41 @@
    "url": "https://telanganatoday.com/bhupalpally-man-found-dead-in-farm-field-wife-alleged-paramour-suspected",
    "d": "2026-11-18",
    "w": "skipped"
+  },
+  {
+   "url": "https://etvbharat.com/te/state/live-blog--18th-november-2026-latest-top-news-information-across-telangana-tgs26111800437",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://indtoday.com/trs-chief-kavitha-says-revanth-reddy-not-worthy-of-cm/",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-mlc-family-escapes-major-accident-near-hyderabad-3580225/",
+   "d": "2026-11-18",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://interestingengineering.com/military/us-strikes-iran-qeshm-island",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://oneindia.com/india/lashkar-terrorist-lateef-bhat-mastermind-behind-crpf-attack-killed-in-south-kashmir-encounter-8260959.html",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/hyderabad-garbage-dump-near-oxygen-park-cleared-1143144",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.businesstoday.in/india/story/cyclone-akvan-warning-storm-to-turn-very-severe-by-november-19-hit-andhra-on-november-20-odisha-telangana-affected-568138-2026-11-18",
+   "d": "2026-11-18",
+   "w": "duplicate"
   }
  ]
 }
