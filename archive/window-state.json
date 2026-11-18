@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T05:05:00+05:30",
+ "cutoff": "2026-11-18T05:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T14:05:00+05:30/2026-11-15T14:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 3,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "14:35 run started 14:36 IST. Lookback from 06:05 15 Nov. Feeds branch fresh (14:11, 70/70 ok, 803 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: TT GHMC park entry fee hike (14:20), TT Sirgapur residential school student missing (14:16, sensitive), TT/IANS Air India non-stop NY flights (14:19). Duplicate: ETV Bharat AP third cyclone (already covered 11:30). Skipped as old: Hans Goyal Egypt (10 Nov), TT and NewsMeter Karthika chicken prices (2023). Not found by search: Charlapalli jail ITI, Nalgonda Agri Show, AP child safety committees, Gazetted officers PRC demand, Keesara DCM fire, Vikarabad groom accident, Hyderabad-Basara road, Asifabad MJP sports, Mancherial BJP arrests. Siasat Telangana page showed only 14 Nov items. Districts covered: Hyderabad, Sangareddy."
-  },
   {
    "window": "2026-11-15T14:35:00+05:30/2026-11-15T15:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Feeds 04:35 IST, 69/70 ok; 770 uncovered TG/AP. add_repo not available; used existing clone. Direct feed URLs refused until surfaced by WebSearch. Duplicates: TG-RERA penalties (Sanali already published), CM Naidu Akvan review (covered via Pawan/Naidu stories). Skipped as old: IG Defence missile complex (14 Nov), TTD-ASI inscriptions (13 Nov). Not opened (not surfaced by search): Hindu NGT Musi EC, Hindu APPSC Thanedar walk test, TT SFR Snehit TT title, TT Balram Naik remarks, TOI flu alert/guarantees/HC lift bill/Karimnagar land, Korutla students (minors, not pursued). District searches (Khammam, Warangal, Nizamabad, Visakhapatnam, Guntur, Srikakulam, Kurnool, Nalgonda) found nothing fresh."
+  },
+  {
+   "window": "2026-11-18T05:05:00+05:30/2026-11-18T05:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 3,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 05:29 IST, 68/68 ok; 738 uncovered TG/AP (most already published under other URLs). add_repo not available; used existing clone. Published: DC Telangana Darshini, DC Tirumala no panchayat, DC Kadapa stray-dog attack (minor not named). Duplicate: Siasat Siddipet veterinary polytechnic POCSO (already published). Skipped as old: DC BJP Bhimavaram solo (16 Nov 23:47). Not surfaced by search: Hindu power utilities Rabi, Hindu skilled-worker cyclone repairs, Hindu MMTS demand, TT SFR Snehit, Hindu KTR white paper, Hindu US couple Ongole adoption, Sakshi district items. District searches (Karimnagar, Adilabad, Tirupati, Kakinada, Siddipet, Srikakulam/Vizianagaram, Kadapa, West Godavari) found nothing else fresh."
   }
  ],
  "seen": [
@@ -6266,6 +6266,31 @@
   },
   {
    "url": "https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/ttd-permits-asi-to-copy-inscriptions-on-tirumala-temple-walls-from-dec-1-2004137",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-darshini-to-offer-tourism-exposure-to-292-lakh-students-2005372",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/tirumala-a-village-without-elected-panchayat-for-decades-2005309",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/nine-year-old-injured-in-stray-dog-attack-in-kadapa-village-2005333",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/siddipet-veterinary-polytechnic-principal-booked-under-pocso-3579883/",
+   "d": "2026-11-18",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/bjp-decides-to-contest-bhimavaram-civic-polls-on-its-own-2005022",
    "d": "2026-11-18",
    "w": "skipped"
   }
