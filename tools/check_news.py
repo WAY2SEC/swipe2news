@@ -8,7 +8,12 @@ Usage:
 --report   also writes a short Markdown report
 Exit code 1 when a story still has a blocking problem (ERROR), so the newsroom fixes it before publishing.
 """
-import json, re, sys
+import json, re, sys, os
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PIC_RX = re.compile(r'^(c|o|i|n|s|cv|w|d)/([a-z0-9-]+)$')
+def pic_ok(pc):
+    m = PIC_RX.match(pc or '')
+    return bool(m) and any(os.path.exists(os.path.join(ROOT, 'art', m.group(1), m.group(2) + e)) for e in ('.webp', '.jpg'))
 
 LATIN_OK = re.compile(r'^(AI|IMD|ISRO|NASA|BJP|BRS|TDP|YSRCP|ANI|PTI|UNI|IANS|ED|CBI|NIA|IPL|ICC|BCCI|UN|US|UK|UAE|GST|EMI|UPI|ATM|SIM|OTP|KYC|PAN|NEET|JEE|EAMCET|TSPSC|APPSC|UPSC|SSC|RTC|TGSRTC|APSRTC|HICC|IT|AP|TG|TS|MLA|MP|CM|PM|SP|DSP|SI|CI|DGP|IAS|IPS|DRDO|ITI|IIT|NIT|AIIMS|COVID|WHO|GDP|RBI|SBI|LIC|TTD|GHMC|HMDA|HMWSSB|SEC|EC|T20|ODI|U19|km|kg|cm)$')
 VAGUE_START = re.compile(r'^(సమ్మిట్|సదస్సు|సమావేశం|పథకం|ప్రాజెక్టు|కార్యక్రమం|ఉత్సవం|ఎన్నిక|కేసు|ఘటన|ప్రమాదం)(\s|$|లో|కు|పై|వద్ద)')
@@ -36,6 +41,12 @@ def check(d, fix=False):
             errs.append(f'{tag}: number "{stat}" has no meaning – add statl')
         if ONE_NOUN.match(stat + ' ' + statl) and re.search(r'మృతి|గాయ', statl):
             warns.append(f'{tag}: "1 …" reads badly – write "ఒకరు మృతి" style Telugu')
+        # 1b) picture (owner 18 Nov 2026): every new story names its picture from tools/pictures.md
+        pc = s.get('pic')
+        if pc and not pic_ok(pc):
+            errs.append(f'{tag}: pic "{pc}" is not in tools/pictures.md – pick a real key')
+        elif not pc and str(s.get('pub') or '') >= '2026-11-18T18':
+            errs.append(f'{tag}: no "pic" – read the story and choose its picture from tools/pictures.md')
         # 2) headline
         if not h:
             errs.append(f'#{i+1}: headline missing')

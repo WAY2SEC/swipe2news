@@ -450,6 +450,10 @@ function artRegion(t){ for(const [rx,k] of ART_REG) if(rx.test(t)) return k; ret
 function artPlan(s){
   if(s&&s._orig) s=s._orig; // Tenglish: choose the picture from the Telugu original
   if(!s||s.kind) return null;
+  // owner 18 Nov 2026 ("no mistakes, we are on the Play Store"): the newsroom now picks the picture for every story
+  // by reading it (field "pic", from tools/pictures.md). Keyword guessing below is only the fallback for old stories.
+  { const pc=String(s.pic||''), m=pc.match(/^(c|o|i|n|s|cv|w|d)\/([a-z0-9-]+)$/);
+    if(m){ if(m[1]==='c') return {m:'cat',cat:m[2]}; if(m[1]==='o') return {m:'plain',obj:m[2]}; return {m:'land',bg:m[1]==='d'?m[2]:pc}; } }
   const pk=normPlace(String(s.place||'').toLowerCase()), land=ART_D.has(pk)&&!['tg','ap'].includes(pk)?pk:'';
   const st=stateOf(s), sland=st==='AP'?'ap':(st==='TG'||st==='TS')?'tg':'';
   const t=(s.h||'')+' '+((s.en&&s.en.h)||'')+' '+(s.p||'').slice(0,160);
