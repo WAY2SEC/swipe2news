@@ -380,7 +380,7 @@ const ART_N=[[/విద్యుత్ సరఫరా|కరెంట్ క�
  [/పరీక్ష ఫలితాలు|ఫలితాలు విడుదల|హాల్ టికెట్|పరీక్ష షెడ్యూల్|పరీక్షలు|ఎంసెట్|ఈఏపీసెట్|నీట్|జేఈఈ|exam|results declared|hall ticket|EAPCET|NEET|JEE/i,'exams'],
  [/విద్యార్థుల|విద్యార్థులకు|హాస్టల్|స్కాలర్‌షిప్|ఫీజు రీయింబర్స్|student|scholarship|hostel/i,'students'],
  [/సెన్సెక్స్|నిఫ్టీ|స్టాక్ మార్కెట్|షేర్ మార్కెట్|ఐపీఓ|Sensex|Nifty|stock market|share market|\bIPO\b/i,'trading'],
- [/కృత్రిమ మేధ|ఏఐ |\bAI\b|artificial intelligence|ChatGPT|Gemini AI|machine learning/i,'ai'],
+ [/కృత్రిమ మేధ|(?:^|[\s(‘'"])ఏఐ(?=[\s,.)’'"]|$)|\bAI\b|artificial intelligence|ChatGPT|Gemini AI|machine learning/i,'ai'], // ఏఐ alone, not the end of ఎఫ్‌ఎస్‌ఎస్‌ఏఐ (FSSAI) – owner 18 Nov
  [/ఆరోగ్య చిట్కా|వ్యాయామం|ఆహార నియమ|health tips|fitness|diet|wellness/i,'healthtips'],
  [/కుటుంబ|family/i,'family'],
  [/స్నేహ|friendship|friends day/i,'friendship']];
@@ -414,7 +414,7 @@ const ART_I=[[/సింగరేణి|కోల్ ఇండియా|బొ�
  [/ఆసుపత్రి నిర్మాణ|కొత్త ఆసుపత్రి|మెడికల్ కాలేజీ|ఆరోగ్యశ్రీ|hospital (?:opened|building|beds)|medical college|Aarogyasri/i,'healthcare-services'],
  [/రియల్ ఎస్టేట్|అపార్ట్‌మెంట్|ఇందిరమ్మ ఇళ్ల|ఇళ్ల నిర్మాణ|గృహ నిర్మాణ|టవర్ ఇళ్లు|real estate|apartment|housing project|construction project/i,'construction-and-real-estate'],
  [/ఓడరేవు|పోర్టు|షిప్పింగ్|లాజిస్టిక్స్|కంటైనర్|డ్రై పోర్టు|\bport\b|shipping|logistics|container/i,'logistics-and-shipping'],[/బ్యాంకు|బ్యాంక్|బీమా|ఎల్ఐసీ|రుణాల|\bbank|insurance|\bLIC\b|loan/i,'banking-and-insurance'],
- [/పర్యాటక శాఖ|హోటల్|హాస్పిటాలిటీ|రిసార్ట్|tourism|hotel|hospitality|resort/i,'tourism-and-hospitality'],
+ [/పర్యాటక శాఖ|హోటల్|హోటళ్ల|హోటళ్లు|హాస్పిటాలిటీ|రిసార్ట్|tourism|hotel|hospitality|resort/i,'tourism-and-hospitality'],
  [/ఈ-కామర్స్|అమెజాన్|ఫ్లిప్‌కార్ట్|ఆన్‌లైన్ షాపింగ్|e-commerce|Flipkart|Amazon|Meesho|online shopping/i,'e-commerce'],[/క్విక్ కామర్స్|జెప్టో|బ్లింకిట్|స్విగ్గీ|జొమాటో|quick commerce|Zepto|Blinkit|Swiggy|Zomato|food delivery/i,'quick-commerce-and-delivery'],
  [/ఆన్‌లైన్ గేమ్|గేమింగ్|online gam|gaming/i,'online-gaming'],[/బెట్టింగ్|betting/i,'online-betting'],[/క్రిప్టో|బిట్‌కాయిన్|crypto|bitcoin/i,'crypto-and-digital-assets'],
  [/యూపీఐ|ఫోన్‌పే|పేటీఎం|డిజిటల్ చెల్లింపు|ఫిన్‌టెక్|\bUPI\b|PhonePe|Paytm|fintech|digital payment/i,'fintech-and-payments'],[/సోషల్ మీడియా|యూట్యూబర్|ఇన్‌ఫ్లుయెన్సర్|ఇన్‌స్టాగ్రామ్|social media|YouTuber|influencer|Instagram|creator/i,'social-media-and-creators']];
@@ -489,7 +489,7 @@ function artPlan(s){
   const tt=[s.h,s.stat,s.statl].concat(s.art?[]:[String(s.p||'').split(/[.!?।]/)[0]]).join(' ');
   const isWorld=!land&&(/ప్రపంచం|World/.test(t+(s.cat||''))||(Array.isArray(s.sec)&&s.sec.includes('world')));
   if(!isWorld){ const sk=artScheme(tt); if(sk) return {m:'land',bg:sk}; if(/చెత్త|పారిశుద్ధ్య|garbage|sanitation/i.test(tt)&&/శుభ్ర|తొలగి|తరలి|స్వచ్ఛ|clean|clear|drive/i.test(tt)) return {m:'land',bg:'i/sanitation-workers'}; if(/చెత్త|మురుగు|పారిశుద్ధ్య|డ్రైనేజీ|garbage|sewage|sanitation/i.test(tt)) return {m:'cat',cat:'environment'}; if(/పౌరసరఫరా|(?<!కార్పొ)రేషన్ (?:కార్డ|బియ్య|షాప|దుకాణ|సరుకు)|civil supplies|\bration\b/i.test(tt)) return {m:'land',bg:'n/prices'};
-    if(/ఏఐ|\bAI\b|కృత్రిమ మేధ|సెన్సెక్స్|నిఫ్టీ|స్టాక్ మార్కెట్|Sensex|Nifty/i.test(String(s.h||''))){ const nk0=artNews(tt); if(nk0) return {m:'land',bg:'n/'+nk0}; }
+    if(/(?:^|[\s(‘'"])ఏఐ(?=[\s,.)’'"]|$)|\bAI\b|కృత్రిమ మేధ|సెన్సెక్స్|నిఫ్టీ|స్టాక్ మార్కెట్|Sensex|Nifty/i.test(String(s.h||''))){ const nk0=artNews(tt); if(nk0) return {m:'land',bg:'n/'+nk0}; }
     const ik=artIndustry(tt); if(ik) return {m:'land',bg:ik};
     const nk=artNews(tt); if(nk) return {m:'land',bg:'n/'+nk}; }
   if(!isWorld&&/చెత్త|మురుగు|కాలుష్య|పారిశుద్ధ్య|డ్రైనేజీ|దోమల|garbage|sewage|pollution|sanitation|drainage/i.test(tt)) return {m:'cat',cat:'environment'};
