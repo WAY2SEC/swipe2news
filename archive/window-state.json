@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T23:05:00+05:30",
+ "cutoff": "2026-11-18T23:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-16T10:35:00+05:30/2026-11-16T11:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 8,
-   "late": 5,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "11:05 run started 11:06 IST; lookback from 02:35. Feeds fresh (10:41, 70/70 ok; 680 uncovered TG/AP events, most top multi-source ones already covered). add_repo not available; existing clone pulled, push worked. Published: AJ Yadagirigutta 83,000 devotees, AJ Hyderabad auto bandh Nov 30, Hans EAGLE vape network (Kolkata link), HMTV Banaganapalle student bus death protest, TV9 AP SSC fee deadlines, Oneindia AP 25 sectoral parks, Tribune/ANI Xi-Trump-Putin summit Nov 19, Malay Mail/AFP Phuket fire 11 dead. Duplicate: ANI vape story. Skipped: TMV AP nomination violence (18 Oct), TT Yadadri rush (2024 article). Not opened (typed URLs refused / not surfaced by search): TT JNTU student suicide, TT Poonch LoC firing, TT Badrinath closing, Siasat Jammu exam racket, NIE Sankranti tickets/IIT-H diabetes study/heat zones/TDP ULB list/APIIC land, Inshorts Murasu damage, NT Talamadugu farmer (15 Nov event), Powerline CleanMax. District searches: Yadadri, Adilabad, Annamayya (Rayachoti), Nandyal (Banaganapalle), Hyderabad, Karimnagar, Srikakulam, Kurnool."
-  },
   {
    "window": "2026-11-16T11:05:00+05:30/2026-11-16T11:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Feeds 22:42 IST: only 4/70 feeds ok (66 failing incl. Eenadu, Sakshi, Hindu, DC, TT, Hans, Siasat, PIB, district Google News). Lookback 14:35. Published: ThePrint (PTI) CM SC/ST welfare priority, meets parliamentary panel (22:51). Duplicates: OrissaPOST Akvan Machilipatnam-Puri Nov 20 (14:38, already covered as track-shift story). Skipped as old: Devdiscourse Chamala vs BRS (13 Apr), Daily Pioneer/Swarajya IndiGo Saudi Nov 30 (11 Nov), NewsBytes Akvan (no tz). Not opened: DH TG liabilities (fetch error); search did not surface: Hindu SCoR 1,560 Pushkaram trains, SPMVV rank, hypertension programme, schools El Nino drive, AP MPP/ZP first meetings, Sama thanks CPI, Srikakulam JSP/BJP seats, Sangareddy teacher row. District searches: Karimnagar, Guntur, Adilabad, Mahabubnagar, Nellore, Tirupati (no new items). add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-18T23:05:00+05:30/2026-11-18T23:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 3,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Feeds 23:26 IST, 67/68 ok, lookback 15:05. Published: TT Hyderabad doctor AHDS drug (23:13), TT VKCM strike called off (22:55), Siasat TG RERA 17 builders (21:09, late-found). Skipped as old: Hans AP MPP/ZP indirect polls (11 Nov, x2). Not opened: Disha Tholi Mudda 7 districts (fetch 4xx). Search did not surface: Livemint UPI PIN/SBI consumer order, SCoR 1,560 Pushkaram trips, TG transport AI cameras, Indiramma sarees postponed, Hindu hypertension programme, Kodumur SI inquiry, cops dancing at farmhouse, Achha Vidyasagar, William-Kate meet Modi (only pre-visit pieces), Scotch 162.5% duty. No district searches this run (time). add_repo not available; used existing clone. Build regenerated root index/sitemap pages; reverted (not committed) per rules."
   }
  ],
  "seen": [
@@ -6388,6 +6388,31 @@
    "url": "https://www.newsbytesapp.com/news/india/imd-forecasts-cyclone-akvan-crossing-between-machilipatnam-and-puri-thursday/tldr",
    "d": "2026-11-18",
    "w": "dup"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-doctor-secures-affordable-rare-disease-drug-for-seven-children-with-ahds",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/vkcm-contract-workers-call-off-strike-after-talks-with-contractor-in-kothagudem",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/tg-rera-slaps-over-rs-1-5-cr-in-refunds-and-fines-on-17-builders-3580700/",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/amaravati/indirect-polls-to-mpp-zpp-chief-posts-1140984",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/stage-set-for-mpp-vice-mpp-elections-1140899",
+   "d": "2026-11-18",
+   "w": "skipped"
   }
  ]
 }
