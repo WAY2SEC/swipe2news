@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T12:05:00+05:30",
+ "cutoff": "2026-11-18T12:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T18:35:00+05:30/2026-11-15T19:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 4,
-   "late": 2,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "19:05 run started 19:06 IST. Lookback from 10:35. Feeds branch fresh (18:40, 70/70 ok; covered flags stale). add_repo tool not available; existing clone used. Published: Hans India AP pre-cyclone watch (18:11, forecast), NewsBytes FAA audit of DGCA Nov 16-20 (18:06), Telangana Today JNTU-H students petition Governor (18:35, claim), TT/IANS Dharmana on Vision 2050 (18:41, claim). Duplicate: Chenab Times cyclone Akvan (17:09). Skipped: The Week Naidu 'masala' (09:35, before lookback). Not opened (fetch permission timeout): The Hindu Pulleru canal drowning (Krishna), The Hindu Rythu Bharosa burden, TT Khaleelullah lecture; Thehawk FAA. Search engine surfaced few fresh district items."
-  },
   {
    "window": "2026-11-15T19:05:00+05:30/2026-11-15T19:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Feeds 11:43 IST, 70/70 ok; 749 uncovered TG/AP flagged, nearly all older/minor or already published (Balmoor Venkat crash, Indiramma insurance, Akvan, AP auto drivers, Telangana Darshini, Shankarpally fire already on site). add_repo not available; used existing clone. Typed feed URLs refused by fetch (permission timeout); only search-surfaced URLs opened. Published: Siasat Hyderabad water crisis (forecast), Siasat/PTI US green card PERM rule, Korea Herald/AP Knesset speaker. Skipped: DC Polavaram alert over Akvan and DC Naidu/Pawan Akvan review (pub 17 Nov 23:03/23:49, before lookback). Not opened: The Hindu PPA CEO Polavaram, NIE Somasila storage, Samayam AP liquor shops closure, Samayam/prime9 TG building cellar rules, Sakshi Vikarabad castor seeds, Sakshi Cheryala division (not surfaced by search / no fetch). No district search sweep."
+  },
+  {
+   "window": "2026-11-18T12:05:00+05:30/2026-11-18T12:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 6,
+   "late": 4,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 12:18 IST, 68/68 ok; 716 uncovered TG/AP flagged, most already published or older/minor. add_repo not available; used existing clone. Published: HMTV SC/ST special courts 33 districts, ETV Bharat TG building rules reform (claim), DC Sridhar Babu Mumbai roadshow, Vaartha Ponnam pension reapply, ETV Bharat AP RC/DL cards, Vaartha TTD SSD tokens. Skipped: DC AP 4th in PM-Surya Ghar (pub 17 Nov 23:11, before lookback). Not opened: The Hindu PPA CEO Polavaram, The Hindu NDRF/SDRF Akvan (likely covered by Naidu review), TT Apple outage, Sakshi Education AP HC civil judge posts. No district search sweep."
   }
  ],
  "seen": [
@@ -6846,6 +6846,46 @@
   },
   {
    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/liquor-shops-in-towns-see-rush-as-polls-shut-rural-outlets-2002048",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/manchiryal-asifabad/telangana-govt-approves-sc-st-special-courts-for-all-33-districts-214363",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/telangana-government-is-preparing-reforms-in-building-construction-regulations-tgs26111801053",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/sridhar-babu-invites-mumbai-businesses-to-expand-and-grow-in-telangana-2005436",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://vaartha.com/telangana/minister-ponnam-prabhakar-telangana-cheyutha-pensions-indiramma-houses-village-sports-funds/806774",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/ap-resumes-printing-of-pending-rc-and-dl-cards-after-3-years-aps26111800626",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://vaartha.com/devotional/tirumala-darshan-cancelled-the-issuance-of-ssd-tokens/806775/",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/business/head-office-in-mumbai-make-in-telangana-it-minister-sridhar-babu-hard-sells-state-to-investors-779536",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-ranks-fourth-in-pm-surya-ghar-scheme-2005339",
    "d": "2026-11-18",
    "w": "skipped"
   }
