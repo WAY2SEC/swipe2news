@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T12:35:00+05:30",
+ "cutoff": "2026-11-18T13:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T19:05:00+05:30/2026-11-15T19:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 3,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "19:35 run started 19:36 IST. Lookback from 11:05. Feeds branch fresh (19:15, 68/68 ok, 713 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: TT TGTDC Sunday bird walks Nanakramguda (19:34), TT/PTI women's quota bill winter session (19:10, claim), TT/IANS Goyal US preferential access (18:52, claim). Skipped: DC Naidu Murasu loss (6 Nov, old). Not opened (search did not surface article; thehindu.com domain-filtered searches rejected by proxy): The Hindu Pulleru canal drowning, Rythu Bharosa burden, Kurnool minister assistive devices, Srikakulam ZP TDP/JSP, Kishan Reddy Naxalism; HMTV Murasu Rs 2,484 cr report; NTV Uttam Medigadda; Jana Sena mayor list; KTR study material; Tadwai youth Malaysia jail. District searches (Warangal, Karimnagar, Tirupati, Visakhapatnam, Nizamabad/Sangareddy/Medak, Guntur/Vijayawada, Khammam/Kothagudem, Nellore/Ongole/Kadapa, Hanamkonda) surfaced only tag pages."
-  },
   {
    "window": "2026-11-15T19:35:00+05:30/2026-11-15T20:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Feeds 12:18 IST, 68/68 ok; 716 uncovered TG/AP flagged, most already published or older/minor. add_repo not available; used existing clone. Published: HMTV SC/ST special courts 33 districts, ETV Bharat TG building rules reform (claim), DC Sridhar Babu Mumbai roadshow, Vaartha Ponnam pension reapply, ETV Bharat AP RC/DL cards, Vaartha TTD SSD tokens. Skipped: DC AP 4th in PM-Surya Ghar (pub 17 Nov 23:11, before lookback). Not opened: The Hindu PPA CEO Polavaram, The Hindu NDRF/SDRF Akvan (likely covered by Naidu review), TT Apple outage, Sakshi Education AP HC civil judge posts. No district search sweep."
+  },
+  {
+   "window": "2026-11-18T12:35:00+05:30/2026-11-18T13:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 8,
+   "published": 7,
+   "late": 5,
+   "sensitive": 4,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 12:41 IST, 70/70 ok; 767 uncovered TG/AP flagged, many already published (TOSS results, summit-delay plea, Darshini, KNRUHS fees, Yadadri, AP Nov 26 holiday, Prakasam nets). add_repo not available; used existing clone. Published: HMTV Bhainsa bus-bike crash, HMTV Mulugu cylinder fire, Sakshi Ibrahimpatnam DCM crash, NT Palnadu lathicharge (claim), ETV Bharat GAIL piped gas, HMTV Tuni murder arrest, HMTV Lakkireddipalli 13 unanimous. Skipped: NT Vikarabad castor seeds (pub 01:38, before lookback). Not opened: The Hindu YTPS/Komatireddy roads/NDRF-SDRF/PPA Polavaram (direct links refused). No district search sweep."
   }
  ],
  "seen": [
@@ -6886,6 +6886,46 @@
   },
   {
    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-ranks-fourth-in-pm-surya-ghar-scheme-2005339",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/adilabad/rtc-bus-collides-with-two-wheeler-in-bhainsa-one-dead-and-another-critical-214365",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/warangal/house-destroyed-in-accidental-fire-after-gas-cylinder-explodes-214369",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/rangareddy/2964035",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/andhrapradesh-news/police-lathicharge-women-in-palnadu-dist-2563314",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/gail-agrees-to-complete-project-for-supplying-piped-gas-to-homes-in-ap-aps26111800624",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/kakinada/kakinada-district-tuni-gandhi-satram-woman-murder-case-solved-accused-214339",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/kadapa/annamayya-rayachoti-lakkireddipalli-13-gram-panchayats-unanimous-tdp-celebrations-214332",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/nine-students-fall-ill-after-consuming-wild-castor-seeds-in-vikarabad-2563059",
    "d": "2026-11-18",
    "w": "skipped"
   }
