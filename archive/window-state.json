@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T11:05:00+05:30",
+ "cutoff": "2026-11-18T11:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T18:05:00+05:30/2026-11-15T18:20:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "18:20 run started 18:21 IST. Lookback from 10:05 15 Nov. Feeds branch fresh (18:12, 70/70 ok, 797 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: The 420.in AP vigilance 516 hoarding cases (18:04), Telangana Today/PTI BITS Pilani endowment $54m (17:30). Duplicates: Balapur tipper crash (Hans 18:04, already published 16:20), Bahrain/Iran drones (already published). Skipped: Chittoor MLA son birthday, party joinings, chess/golf events, Salman Khurshid Israel remarks (minor). Not opened (direct links refused / searches did not surface): The Hindu Rythu Bharosa study, HMTV Singareni coal block privatisation, TV9/Prime9 pensions Rs 4,000, Pragativadi Kotia, TT Ladakh LAB. No district searches (time). Districts covered: AP."
-  },
   {
    "window": "2026-11-15T18:20:00+05:30/2026-11-15T18:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Feeds 10:40 IST, 67/70 ok (TOI, NIE, Nirmal district feed failing); 745 uncovered TG/AP flagged, most older/minor or already published. add_repo not available; used existing clone. Published: The Week/IMD Akvan severe cyclone (forecast), ETV Amaravati ORR HC tenders, DC Kondaparva tiger (claim), V6 Bellampalli 4 GP secretaries suspended, NewsMeter Nacharam hashish oil (sensitive), HMTV Suryapet PHC daily reviews. Duplicates: Hyderabad Mail 70 officials in custody (covered via Siasat 60), TG police promotions. Skipped: DC/NIN thiamine study (pub 16 Nov, before lookback). Not opened: ANI Akvan TN fisheries (fetch error), Eenadu Avinash Reddy notice (robots), NIE Srisailam hydel/Somasila/Naidu alerts/maritime (not surfaced by search). Low priority not taken: HMTV Suryapet SP traffic checks."
+  },
+  {
+   "window": "2026-11-18T11:05:00+05:30/2026-11-18T11:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 7,
+   "late": 7,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 11:15 IST, 68/68 ok; 711 uncovered TG/AP flagged, most older/minor or already published. add_repo not available; used existing clone. Published: Siasat Karimnagar HC land, DC Avinash Reddy notices, DC Bhogapuram taxi protest (claim), NewsMeter Telugu Korutla gurukul (sensitive), V6 Sagar dead storage objection (claim), HMTV Nagarkurnool workers dharna, DC Langar Houz pole (sensitive). Duplicates: Cherla Maoist dumps (covered 17 Nov Karreguttalu), Indiramma insurance launch. Skipped: Sakshi Kakinada mayor change (unnamed sources only). No India/world items this run; no district search sweep beyond feed list."
   }
  ],
  "seen": [
@@ -6746,6 +6746,76 @@
   },
   {
    "url": "https://www.ntnews.com/adilabad/mancherial/congress-leaders-devise-a-plan-to-seize-lands-using-forged-death-certificates-2562585",
+   "d": "2026-11-18",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/hc-raps-karimnagar-officials-for-using-farmers-land-without-compensation-3579985/",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/gram-panchayat-polls-police-issue-notices-to-kadapa-mp-ys-avinash-reddy-2005425",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/police-serve-notice-on-ys-avinash-reddy-amid-panchayat-elections-nomination-1143256",
+   "d": "2026-11-18",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/andhrapradesh/pulivendula-police-issue-precautionary-notices-to-ysrcp-mp-ys-avinash-reddy-214315",
+   "d": "2026-11-18",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/bhogapuram-airport-taxi-drivers-protest-additional-entry-charges-2005413",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.newsmeter.in/telangana/students-ruckus-at-korutla-social-welfare-residential-school-watchman-and-teacher-attacked-property-vandalized-779529",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/students-attack-watchman-at-residential-school-incident-takes-place-at-korutla-social-welfare-residential-school",
+   "d": "2026-11-18",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.v6velugu.com/telangana-objects-to-andhra-pradesh-project-at-nagarjuna-sagar-dead-storage-demands-immediate-halt",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/mahaboobnagar/medical-college-sanitation-and-security-workers-protest-over-pending-salaries-214288",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/vehicle-rams-electric-pole-pole-falls-on-pedestrian-in-hyderabad-2005411",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/politics/akula-bhavani-shocked-nri-kasireddy-vinusha-mayor-2963965",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/cherla-police-led-combing-unearths-3-maoist-dumps-2005284",
+   "d": "2026-11-18",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://aninews.in/news/national/general-news/280-bgl-shells-seized-telangana-police-trace-3-maoist-dumps-in-bhadradri-kothagudem20261118084005/",
+   "d": "2026-11-18",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://aninews.in/news/national/general-news/telangana-cm-revanth-reddy-announces-indiramma-family-insurance-coverage-for-one-crore-families20261118060646/",
    "d": "2026-11-18",
    "w": "duplicate"
   }
