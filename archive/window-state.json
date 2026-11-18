@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T11:35:00+05:30",
+ "cutoff": "2026-11-18T12:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T18:20:00+05:30/2026-11-15T18:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 3,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 6,
-   "review": 0,
-   "gaps": "18:35 run started 18:36 IST. Lookback from 10:20 15 Nov. Feeds branch fresh (18:29, 68/68 ok, 706 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: Hans India Jagtial 13,913 Cheyutha pensions (18:26), Telangana Today/IANS Goldman Sachs India 7.2% 2027 (18:28), Siasat tanker attack near Hormuz (18:26). Duplicate: Siasat Vikarabad/Bomraspet car-auto crash (18:14, already published from TV9). Skipped: Kurnool KIMS infant death (Instagram only), Vanasthalipuram missing young woman (sensitive, minor detail), sports items, OTT/celebrity. Not opened: The 420 AP HC B.Ed colleges inquiry, Nalgonda AIKS meeting (V6), Naidu-central team cyclone review (Disha) - searches did not surface articles. District searches: Khammam, Srikakulam/Vizianagaram, Kurnool/Anantapur - nothing new in window."
-  },
   {
    "window": "2026-11-15T18:35:00+05:30/2026-11-15T19:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Feeds 11:15 IST, 68/68 ok; 711 uncovered TG/AP flagged, most older/minor or already published. add_repo not available; used existing clone. Published: Siasat Karimnagar HC land, DC Avinash Reddy notices, DC Bhogapuram taxi protest (claim), NewsMeter Telugu Korutla gurukul (sensitive), V6 Sagar dead storage objection (claim), HMTV Nagarkurnool workers dharna, DC Langar Houz pole (sensitive). Duplicates: Cherla Maoist dumps (covered 17 Nov Karreguttalu), Indiramma insurance launch. Skipped: Sakshi Kakinada mayor change (unnamed sources only). No India/world items this run; no district search sweep beyond feed list."
+  },
+  {
+   "window": "2026-11-18T11:35:00+05:30/2026-11-18T12:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 3,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Feeds 11:43 IST, 70/70 ok; 749 uncovered TG/AP flagged, nearly all older/minor or already published (Balmoor Venkat crash, Indiramma insurance, Akvan, AP auto drivers, Telangana Darshini, Shankarpally fire already on site). add_repo not available; used existing clone. Typed feed URLs refused by fetch (permission timeout); only search-surfaced URLs opened. Published: Siasat Hyderabad water crisis (forecast), Siasat/PTI US green card PERM rule, Korea Herald/AP Knesset speaker. Skipped: DC Polavaram alert over Akvan and DC Naidu/Pawan Akvan review (pub 17 Nov 23:03/23:49, before lookback). Not opened: The Hindu PPA CEO Polavaram, NIE Somasila storage, Samayam AP liquor shops closure, Samayam/prime9 TG building cellar rules, Sakshi Vikarabad castor seeds, Sakshi Cheryala division (not surfaced by search / no fetch). No district search sweep."
   }
  ],
  "seen": [
@@ -6818,6 +6818,36 @@
    "url": "https://aninews.in/news/national/general-news/telangana-cm-revanth-reddy-announces-indiramma-family-insurance-coverage-for-one-crore-families20261118060646/",
    "d": "2026-11-18",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/hyderabad-staring-at-worst-drinking-water-crisis-among-metros-3579993/",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/us-proposes-tougher-rules-for-employment-based-green-cards-3580074/",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.koreaherald.com/article/10941171",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/polavaram-project-in-alert-mode-over-akvan-2005334",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-pawan-review-akvan-cyclone-preparedness-2005364",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/liquor-shops-in-towns-see-rush-as-polls-shut-rural-outlets-2002048",
+   "d": "2026-11-18",
+   "w": "skipped"
   }
  ]
 }
