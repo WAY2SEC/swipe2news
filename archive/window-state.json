@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T20:35:00+05:30",
+ "cutoff": "2026-11-18T21:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-16T08:05:00+05:30/2026-11-16T08:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 11,
-   "published": 9,
-   "late": 9,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "08:35 run started 08:36 IST; lookback from 00:05. Feeds fresh (08:13, 70/70 ok; 169 uncovered local events in lookback). add_repo not available; existing clone reset to origin/main, push worked. Published: NT CPS mass leave Nov 17, NT Siddipet vet polytechnic principal POCSO (sensitive, accused not named), Hans Guntur no ration sugar, Hans Guntur GMC cyclone alert (forecast), Hans Mangalagiri-Tadepalli 76 nominations, Hans Anakapalli beach safety, Hans Nellore AKIS school, Hans Nellore Dy Mayor demand, NT U-17 basketball. Duplicates: AJ versions of POCSO and CPS stories. Skipped: Hans Indiramma insurance (older id; DC version in seen). Not opened: Disha Tirumala e-bus strike (4xx). Not surfaced by search: Prajasakti gold prices, Medak medical student crash, SCR Ayyappa trains, TOI Nalgonda RRU theft (only July NewsMeter), TOI inflation/LPG/AP semiconductor SEZ. No district searches this run."
-  },
   {
    "window": "2026-11-16T08:35:00+05:30/2026-11-16T09:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Feeds 20:19 IST, 68/68 ok; feed 'covered' flags lag news.json, checked manually. Lookback 12:05. Searches mostly failed to surface today's Hindu/TT article URLs from the feed (Kadapa MP booth-capture claim, Hyderabad animation hub, Bhadrachalam tribal youth, Puttaparthi Rathotsavam, Prakasam tobacco farmers, AP MPP/ZP first meetings, AP university panels, bus driver drunk-driving, Seethakka ₹10L loans Disha, TG liabilities DH, SC animal-ritual plea) -> not opened. CNBC/CNN Trump-Xi-Putin APEC arrival refused. Published: Hans Seethakka Mallampally 215 pensions (18:52), Hans Adluri Sugamya Bharat (late 14:43). Skipped as old: DC SEC MPP/ZP notice (10 Nov), DC TRSMA merger (12 Nov), TT LB Nagar girl traced (2023). add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-18T20:35:00+05:30/2026-11-18T21:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 4,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Feeds 20:41 IST, 70/70 ok. Lookback 12:35. Published: TT HMWSSB 20% water cut till Aug 2027 (20:39), DC/PTI AP power demand 14,852 MW (20:23, forecast), TT contract asst professors protest 12 varsities (20:19), TT TRSMA opposes Classes IX-X in Inter colleges (20:15, claim). Skipped as old: Newsmeter HMWSSB (13 Apr), Siasat Adilabad airport streams (16 Nov), DC YTPS unit (23 Oct), IndiGo Saudi suspension (11 Nov), DC Sathya Sai 101st (15 Nov). Not opened (search did not surface): FSSAI 4 Hyderabad restaurants, Nizampet liquor adulteration, TG hypertension programme, Maredumilli Maoist dump, Ponguleti BRS remarks, AP university panels, Srisailam Kalyanakatta, Pileru crash, Khanapur PDS rice, Rajapet ganja, Gandhi AMR rally, Hyderabad PD Act rowdy. add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -6203,6 +6203,46 @@
    "url": "https://telanganatoday.com/hyderabad-police-trace-4-year-old-girl-missing-girl-within-an-hour",
    "d": "2026-11-18",
    "w": "2026-11-18T20:35"
+  },
+  {
+   "url": "https://telanganatoday.com/hmwssb-urges-citizens-to-cut-water-usage-by-20-per-cent-until-august-2027",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-directs-officials-to-get-prepared-to-meet-unexpected-surge-in-electricity-demand-2005612",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/contract-assistant-professors-protest-across-12-telangana-universities",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/trsma-opposes-intermediate-colleges-adding-classes-ix-x",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/demand-rises-groundwater-table-drops-hmwssb-urges-hyderabadis-to-cut-water-usage-by-20-766252",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/ytps-new-unit-records-1587-mw-peak-load-1998276",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://swarajyamag.com/news-brief/indigo-announces-extended-flight-suspension-to-saudi-arabias-four-major-cities-till-november-30",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/all-set-for-sathya-sai-babas-101st-birthday-celebrations-in-puttaparthi-from-today-2004687",
+   "d": "2026-11-18",
+   "w": "skipped"
   }
  ]
 }
