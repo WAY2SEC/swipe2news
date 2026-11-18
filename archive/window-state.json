@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T13:05:00+05:30",
+ "cutoff": "2026-11-18T13:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T19:35:00+05:30/2026-11-15T20:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 4,
-   "late": 1,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "20:05 run started 20:06 IST. Lookback from 11:35. Feeds branch fresh (19:58, 70/70 ok, 788 uncovered TG/AP; covered flags stale). add_repo not available; existing clone used, push worked. Published: TT EAGLE Force e-cigarette network (19:42), TT IAS/IPS officers HC action (19:37), TT Hyderabad Chhath Puja (19:50), Andhra Jyothy Annamayya nomination clash (15:34, late). Skipped as old: AP 526 investment proposals (10 Nov), GAIL-KRIBHCO urea MoU (12 Nov), AgniKul MoU (search surfaced only Feb 2026 items). Not opened (search did not surface article): The Hindu 25 industrial parks, land resurvey workload, Kotia polls, Srikakulam ZP; INDToday Tummala Kaleshwaram."
-  },
   {
    "window": "2026-11-15T20:05:00+05:30/2026-11-15T20:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Feeds 12:41 IST, 70/70 ok; 767 uncovered TG/AP flagged, many already published (TOSS results, summit-delay plea, Darshini, KNRUHS fees, Yadadri, AP Nov 26 holiday, Prakasam nets). add_repo not available; used existing clone. Published: HMTV Bhainsa bus-bike crash, HMTV Mulugu cylinder fire, Sakshi Ibrahimpatnam DCM crash, NT Palnadu lathicharge (claim), ETV Bharat GAIL piped gas, HMTV Tuni murder arrest, HMTV Lakkireddipalli 13 unanimous. Skipped: NT Vikarabad castor seeds (pub 01:38, before lookback). Not opened: The Hindu YTPS/Komatireddy roads/NDRF-SDRF/PPA Polavaram (direct links refused). No district search sweep."
+  },
+  {
+   "window": "2026-11-18T13:05:00+05:30/2026-11-18T13:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 5,
+   "late": 5,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Feeds 13:18 IST, 68/68 ok; 729 uncovered TG/AP flagged, most already published or older/minor. add_repo not available; used existing clone. Published: HMTV Peddapalli PP ACB trap, HMTV Suryapet fake gold loans, DC Narayanpet Collector college works, V6 TTD February quota schedule, TT IPL 2027 retentions. Duplicates: fake silver waraq, Yadadri TPS, Telangana SIR extension (published 17 Nov). Skipped: INDToday Sangareddy 11.2C cold (similar cold story published 17 Nov, unnamed sources), BS Telangana orange alert Nov 20-21 (already published 17 Nov). Not opened: The Hindu NDRF/SDRF, The Hindu Hyderabad shopping streets (not surfaced by search), NIE KGBV Rayadurg (25-student Gummagatta story already published). District searches: Khammam, Srikakulam only."
   }
  ],
  "seen": [
@@ -6928,6 +6928,71 @@
    "url": "https://www.ntnews.com/telangana/nine-students-fall-ill-after-consuming-wild-castor-seeds-in-vikarabad-2563059",
    "d": "2026-11-18",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/public-prosecutor-caught-red-handed-by-acb-taking-rs-15-lakh-bribe-214361",
+   "d": "2026-11-18",
+   "w": "2026-11-18T13:35"
+  },
+  {
+   "url": "https://www.v6velugu.com/peddapalli-court-public-prosecutor-caught-red-handed-by-acb-while-accepting-%E2%82%B91-lakh-bribe",
+   "d": "2026-11-18",
+   "w": "2026-11-18T13:35"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/nalgonda-suryapet/fake-gold-loan-scam-exposed-as-bank-appraiser-flees-with-wife-214303",
+   "d": "2026-11-18",
+   "w": "2026-11-18T13:35"
+  },
+  {
+   "url": "https://www.v6velugu.com/gold-appraiser-fraud-%E2%82%B921-lakh-scam-using-fake-gold-at-suryapet-grameena-bank",
+   "d": "2026-11-18",
+   "w": "2026-11-18T13:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/priyanka-asks-officials-to-expedite-narayanpet-college-construction-works-2005442",
+   "d": "2026-11-18",
+   "w": "2026-11-18T13:35"
+  },
+  {
+   "url": "https://www.v6velugu.com/alert-for-tirumala-devotees-booking-quota-for-february-darshans-sevas-and-accommodation-has-been-released",
+   "d": "2026-11-18",
+   "w": "2026-11-18T13:35"
+  },
+  {
+   "url": "https://telanganatoday.com/ipl-2027-10-franchises-retain-184-players-leave-rs-297-95-crore-for-auction",
+   "d": "2026-11-18",
+   "w": "2026-11-18T13:35"
+  },
+  {
+   "url": "https://indtoday.com/telangana-cold-wave-sangareddy-lowest-temperature-11-2/",
+   "d": "2026-11-18",
+   "w": "2026-11-18T13:35"
+  },
+  {
+   "url": "https://www.business-standard.com/india-news/cyclone-akvan-strengthens-orange-alert-in-andhra-odisha-and-telangana-126111800424_1.html",
+   "d": "2026-11-18",
+   "w": "2026-11-18T13:35"
+  },
+  {
+   "url": "https://www.siasat.com/cyclone-akvan-to-hit-ap-coast-on-nov-20-heavy-rain-likely-in-telangana-3579212/",
+   "d": "2026-11-18",
+   "w": "2026-11-18T13:35"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-police-bust-alleged-fake-silver-waraq-manufacturing-racket",
+   "d": "2026-11-18",
+   "w": "2026-11-18T13:35"
+  },
+  {
+   "url": "https://telanganatoday.com/eci-extends-telangana-sir-claims-deadline-to-november-26-final-rolls-on-november-30",
+   "d": "2026-11-18",
+   "w": "2026-11-18T13:35"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-yadadri-thermal-plant-to-fully-operate-by-december-3579815/",
+   "d": "2026-11-18",
+   "w": "2026-11-18T13:35"
   }
  ]
 }
