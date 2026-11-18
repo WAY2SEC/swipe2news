@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T17:05:00+05:30",
+ "cutoff": "2026-11-18T17:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T23:35:00+05:30/2026-11-16T05:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 3,
-   "late": 1,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 7,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "05:05 run started 05:06 IST; overnight window 23:35–05:05, lookback from 15:35 Nov 15. Feeds fresh (04:36, 70/70 ok). add_repo not available; existing clone used, push worked. Published: NT Palnadu Jonnalagadda sarpanch auction ₹81 lakh (01:48), NT Hyderabad night 16.9°C (01:02), Siasat/PTI Rajasthan track blast 2 arrested (18:42, late). Skipped as duplicates of published stories: Revanth-PM drought aid, Eagle force e-cigarettes, Madanapalle fake CBI, Vikarabad tyre-burst crash, YSRCP Vision 2050, cyclone Akvan Vizag–Bapatla Nov 20, winter session; TDP 2nd ULB list is from October; DC graduates 12.7 lakh is 9 Nov (old). Not opened (fetch permission timeout): TT opinion Hyderabad water, TT Prince/Princess of Wales visit, The Hindu Congress-BCs/Amit Shah. Search did not surface TOI items (TG inflation 7%, rural LPG 95.3%, Adilabad airport streams ₹324 cr, AP semiconductor SEZ, paddy sowing), Hans HYDRAA lakes, Hans Rahul-Congress infighting, Sakshi Tirumala ghat accident. 8 district searches (Nizamabad, Siddipet/Medak/Sangareddy, Kurnool, Guntur, Kakinada/Eluru, Kamareddy, Srikakulam, Hyderabad) returned only tag/old pages."
-  },
   {
    "window": "2026-11-16T05:05:00+05:30/2026-11-16T05:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Feeds 16:59 IST, 70/70 ok. Lookback 08:35. Published: TT HYDRAA unsafe hostels, TT Hyderabad IMAX Dec 18, Oneindia Kulgam LeT commander killed (late, name withheld). Duplicate: CCMB fungal study (17 Nov story). First WebFetch batch of feed URLs refused (permission timeout) - only URLs from WebSearch results open. Not opened: TT Rajapet ganja, Kukatpally bike fire, Uppal chain snatching; Siasat Xi-Trump-Putin, fake SHE Team notice; Hindu Komatireddy roads; Google-News-only items (CCI cotton, AP medical colleges agitation, AP Rs 15,000 scheme, GMR aviation hub, PRTS, Wanaparthy HIV, Adilabad RIMS). add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-18T17:05:00+05:30/2026-11-18T17:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 3,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 17:15 IST, 65/68 ok (429: NewsMeter, Narayanpet-en, Kakinada-en). Lookback 09:05. Feed 'covered' flags unreliable: most listed uncovered TG/AP events were already published. Published: OdishaTV Akvan track change (forecast), DC AP medical colleges privatisation stir (claim), DC Kishan Reddy SSC fees 4,741 students. Skipped: GMR aviation hub (13 Nov article). Not opened: India TV Akvan (client error); The Hindu TG rain alert withdrawn, IE TG HC women advocates toilets, TT IIIT flyover, ET AP universities not surfaced by search. District searches (Nizamabad/Adilabad/Nirmal, Nellore/Prakasam, Warangal/Khammam/Mahabubabad, Anantapur/Kurnool, Mahabubnagar/Nalgonda) returned stale tag pages. add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -7318,6 +7318,26 @@
    "url": "https://www.etvbharat.com/en/state/ccmb-researchers-identify-compounds-that-could-help-control-deadly-fungal-infections-enn26111801191",
    "d": "2026-11-18",
    "w": "dup"
+  },
+  {
+   "url": "https://odishatv.in/odisha/cyclone-akvan-changes-track-landfall-possible-between-narsapur-and-puri-imd-warns-of-extremely-heavy-rain-in-odisha-12820056",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/panel-warns-of-statewide-stir-over-privatisation-of-10-ap-colleges-2005550",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/kishan-reddy-to-bear-ssc-exam-fees-for-4741-students-2005545",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/gmr-group-to-develop-500-acre-aviation-and-aerospace-hub-in-ap-2003742",
+   "d": "2026-11-18",
+   "w": "skipped"
   }
  ]
 }
