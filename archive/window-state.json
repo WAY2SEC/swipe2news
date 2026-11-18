@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T10:35:00+05:30",
+ "cutoff": "2026-11-18T11:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T17:50:00+05:30/2026-11-15T18:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 1,
-   "published": 1,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 6,
-   "review": 0,
-   "gaps": "18:05 run started 18:06 IST. Lookback from 09:50 15 Nov. Feeds branch fresh (17:59, 70/70 ok, 768 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: South First Telangana rolls back polytechnic merger with SHAKTI (17:47). Duplicate: Hans India Uttam Kumar on PM meeting (16:55, same event as CM-PM story). Skipped as old events/out of lookback: Nagarkurnool and Mancherial children's Prajavani (08:38 / 13 Nov), Naidu cyclone aid letter (6 Nov), AP 526 proposals (10 Nov), GAIL-KRIBHCO urea MoU (12 Nov), AgniKul Tirupati MoU (13 Nov). Not opened: Rythu Bharosa study (The Hindu), TV9 pensions Rs 4,000, Macherla KGBV girl missing, Vinukonda farmers power protest (searches did not surface articles). No district searches (time)."
-  },
   {
    "window": "2026-11-15T18:05:00+05:30/2026-11-15T18:20:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Feeds 10:11 IST, 69/70 ok; 849 uncovered TG/AP flagged, most older/minor or already published. add_repo not available; used existing clone. Published: Medical Dialogues TG 4,417 PG seats, ANI H5N1 chicken vaccine Nov 20, The Federal Rahul Columbia (claim), Alaska Public Media Peltola Senate win. Skipped: HC Task Force searches notice (pub 17 Nov 16:06, before lookback), DC 429 asst professors (pub 18 Oct). Not opened: ANI Rahul (fetch error), ADN/NPR Peltola (robots), thehawk vaccine. Held: Akvan severe-cyclone update (not re-verified this run). District searches (Karimnagar, Khammam, Kurnool/Nandyal, Guntur/Vijayawada, Nizamabad, Srikakulam/Vizianagaram, Adilabad/Nirmal, Tirupati/Chittoor) surfaced no new datable items. news.json not pruned to 50 (kept prior practice)."
+  },
+  {
+   "window": "2026-11-18T10:35:00+05:30/2026-11-18T11:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 9,
+   "published": 6,
+   "late": 3,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 10:40 IST, 67/70 ok (TOI, NIE, Nirmal district feed failing); 745 uncovered TG/AP flagged, most older/minor or already published. add_repo not available; used existing clone. Published: The Week/IMD Akvan severe cyclone (forecast), ETV Amaravati ORR HC tenders, DC Kondaparva tiger (claim), V6 Bellampalli 4 GP secretaries suspended, NewsMeter Nacharam hashish oil (sensitive), HMTV Suryapet PHC daily reviews. Duplicates: Hyderabad Mail 70 officials in custody (covered via Siasat 60), TG police promotions. Skipped: DC/NIN thiamine study (pub 16 Nov, before lookback). Not opened: ANI Akvan TN fisheries (fetch error), Eenadu Avinash Reddy notice (robots), NIE Srisailam hydel/Somasila/Naidu alerts/maritime (not surfaced by search). Low priority not taken: HMTV Suryapet SP traffic checks."
   }
  ],
  "seen": [
@@ -6693,6 +6693,61 @@
    "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-clears-direct-recruitment-for-429-asst-professors-across-7-varsities-ou-gets-lions-share-of-252-1997029",
    "d": "2026-11-18",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.theweek.in/news/india/2026/11/18/cyclonic-storm-akvan-imds-latest-rainfall-forecast-maharashtra-west-bengal-along-with-andhra.html",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/ap-high-court-hearing-on-pil-filed-regarding-amaravati-orr-alignments-aps26111800791",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ntr-district-tiger-sighting-triggers-panic-in-kondaparva-2005420",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/four-gram-panchayat-secretaries-suspended",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/manchiryal-asifabad/four-panchayat-secretaries-suspended-over-fake-death-certificates-213962",
+   "d": "2026-11-18",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://newsmeter.in/crime/hyderabad-police-foil-bid-to-sell-hashish-oil-to-students-3-held-contraband-worth-40l-seized-779532",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/nalgonda-suryapet/suryapet-collector-orders-daily-phc-reviews-to-boost-healthcare-214316",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/nalgonda-suryapet/sp-narasimha-inspects-vehicle-checks-at-khammam-underpass-in-suryapet-214320",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://ommcomnews.com/odisha-news/cyclone-akvan-intensifies-into-severe-cyclonic-storm-730-km-south-of-gopalpur/",
+   "d": "2026-11-18",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/one-in-five-women-has-low-thiamine-levels-study-2005019",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.ntnews.com/adilabad/mancherial/congress-leaders-devise-a-plan-to-seize-lands-using-forged-death-certificates-2562585",
+   "d": "2026-11-18",
+   "w": "duplicate"
   }
  ]
 }
