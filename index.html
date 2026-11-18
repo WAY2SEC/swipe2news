@@ -145,6 +145,7 @@ header{display:flex;align-items:center;gap:8px;padding:8px var(--gr) 6px var(--g
 .alertcard .row{display:flex;gap:8px}
 .alertcard .btn{min-height:40px;font-size:13.5px;flex:1}
 .alertcard .later{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.alertcard .btn,.installbar .go{font-family:inherit}
 
 /* section tabs */
 .tabs{display:flex;gap:4px;overflow-x:auto;padding:6px var(--gr) 8px var(--gx);border-bottom:1px solid var(--line);scrollbar-width:none;background:var(--hdr)}
@@ -3241,24 +3242,47 @@ const isIOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform==='MacIntel' &&
 const inApp = /FBAN|FBAV|Instagram|Line\/|WhatsApp|wv\)/.test(ua);
 let deferredPrompt = null;
 addEventListener('beforeinstallprompt', e => { e.preventDefault(); deferredPrompt = e; showInstall(); });
-addEventListener('appinstalled', () => { $('installBar').hidden = true; store.set('installed', 1); toast('Swipe2News హోమ్ స్క్రీన్‌కు జోడించబడింది ✓'); });
+addEventListener('appinstalled', () => { $('installBar').hidden = true; store.set('installed', 1); toast(PT().added); });
 function showInstall(){
   if(standalone || store.get('installed',0)) return;
   if(Date.now() - store.get('installNo', 0) < 2*864e5) return;  // reader closed it: ask again after 2 days
-  $('installBar').hidden = false;
+  promptTexts(); $('installBar').hidden = false;
 }
+/* owner 18 Nov 2026: alert + install prompts and their messages follow the reader's language (were Telugu only) */
+const PTX={
+ te:{aT:'🔔 ముఖ్యమైన వార్తలు వెంటనే తెలుసుకోండి',aP:'బ్రేకింగ్ న్యూస్, మీ జిల్లా వార్తల అలర్ట్‌లు మీ ఫోన్‌కి పంపమంటారా? ఎప్పుడైనా ఆపేయవచ్చు.',aPd:pl=>`బ్రేకింగ్ న్యూస్, ${pl} జిల్లా ముఖ్య వార్తల అలర్ట్‌లు మీ ఫోన్‌కి పంపమంటారా? ఉచితం – ఎప్పుడైనా ఆపేయవచ్చు.`,aL:'తర్వాత',aY:'అలర్ట్‌లు ఆన్ చేయండి',
+  onlyApp:'అలర్ట్‌లు swipe2news.com యాప్‌లో మాత్రమే పనిచేస్తాయి',denied:'ఫోన్ సెట్టింగ్స్‌లో Swipe2News నోటిఫికేషన్లు ఆన్ చేయండి',on:'అలర్ట్‌లు ఆన్ అయ్యాయి 🔔',already:'అలర్ట్‌లు ఆన్‌లో ఉన్నాయి 🔔 ఆపాలంటే ఫోన్ సెట్టింగ్స్‌లో మార్చండి',
+  iT:'Swipe2News యాప్‌ను హోమ్ స్క్రీన్‌కు జోడించండి',iS:'ఉచితం · ఒక్క టచ్‌తో వార్తలు · 🔔 అలర్ట్‌లు',iG:'జోడించండి',added:'Swipe2News హోమ్ స్క్రీన్‌కు జోడించబడింది ✓',ok:'సరే',
+  hIos:['iPhoneలో హోమ్ స్క్రీన్‌కు జోడించడం',['Safariలో ఈ పేజీ తెరిచి ఉంచండి','కింద ఉన్న <b>Share ⬆️</b> బటన్ నొక్కండి','<b>"Add to Home Screen"</b> ఎంచుకుని <b>Add</b> నొక్కండి']],
+  hApp:['Chromeలో తెరవండి',['పైన కుడివైపు <b>⋮</b> (మూడు చుక్కలు) నొక్కండి','<b>"Open in Chrome"</b> / "బ్రౌజర్‌లో తెరవండి" ఎంచుకోండి','Chromeలో వచ్చే <b>"జోడించండి"</b> బటన్ నొక్కండి']],
+  hAnd:['హోమ్ స్క్రీన్‌కు జోడించడం',['Chromeలో పైన కుడివైపు <b>⋮</b> (మూడు చుక్కలు) నొక్కండి','<b>"Install app"</b> లేదా <b>"Add to Home screen"</b> ఎంచుకోండి','<b>Install</b> / <b>Add</b> నొక్కండి']]},
+ en:{aT:'🔔 Get important news first',aP:'Shall we send breaking news and your district’s news alerts to your phone? You can stop anytime.',aPd:pl=>`Shall we send breaking news and ${pl} district alerts to your phone? Free – stop anytime.`,aL:'Later',aY:'Turn on alerts',
+  onlyApp:'Alerts work only in the swipe2news.com app',denied:'Turn on Swipe2News notifications in your phone settings',on:'Alerts are on 🔔',already:'Alerts are on 🔔 To stop them, change it in phone settings',
+  iT:'Add Swipe2News to your home screen',iS:'Free · news in one tap · 🔔 alerts',iG:'Add',added:'Swipe2News added to your home screen ✓',ok:'OK',
+  hIos:['Add to Home Screen on iPhone',['Keep this page open in Safari','Tap the <b>Share ⬆️</b> button at the bottom','Choose <b>"Add to Home Screen"</b> and tap <b>Add</b>']],
+  hApp:['Open in Chrome',['Tap <b>⋮</b> (three dots) at the top right','Choose <b>"Open in Chrome"</b> / "Open in browser"','Tap the <b>"Add"</b> button that appears in Chrome']],
+  hAnd:['Add to Home Screen',['In Chrome, tap <b>⋮</b> (three dots) at the top right','Choose <b>"Install app"</b> or <b>"Add to Home screen"</b>','Tap <b>Install</b> / <b>Add</b>']]},
+ hi:{aT:'🔔 ज़रूरी ख़बरें सबसे पहले पाएँ',aP:'ब्रेकिंग न्यूज़ और आपके ज़िले की ख़बरों के अलर्ट फ़ोन पर भेजें? कभी भी बंद कर सकते हैं।',aPd:pl=>`ब्रेकिंग न्यूज़ और ${pl} ज़िले के अलर्ट फ़ोन पर भेजें? मुफ़्त – कभी भी बंद करें।`,aL:'बाद में',aY:'अलर्ट चालू करें',
+  onlyApp:'अलर्ट सिर्फ़ swipe2news.com ऐप में काम करते हैं',denied:'फ़ोन सेटिंग्स में Swipe2News नोटिफ़िकेशन चालू करें',on:'अलर्ट चालू हो गए 🔔',already:'अलर्ट चालू हैं 🔔 बंद करने के लिए फ़ोन सेटिंग्स बदलें',
+  iT:'Swipe2News को होम स्क्रीन पर जोड़ें',iS:'मुफ़्त · एक टच में ख़बरें · 🔔 अलर्ट',iG:'जोड़ें',added:'Swipe2News होम स्क्रीन पर जुड़ गया ✓',ok:'ठीक है',
+  hIos:['iPhone पर होम स्क्रीन में जोड़ें',['यह पेज Safari में खुला रखें','नीचे <b>Share ⬆️</b> बटन दबाएँ','<b>"Add to Home Screen"</b> चुनें और <b>Add</b> दबाएँ']],
+  hApp:['Chrome में खोलें',['ऊपर दाईं ओर <b>⋮</b> (तीन बिंदु) दबाएँ','<b>"Open in Chrome"</b> चुनें','Chrome में आने वाला <b>"जोड़ें"</b> बटन दबाएँ']],
+  hAnd:['होम स्क्रीन पर जोड़ें',['Chrome में ऊपर दाईं ओर <b>⋮</b> दबाएँ','<b>"Install app"</b> या <b>"Add to Home screen"</b> चुनें','<b>Install</b> / <b>Add</b> दबाएँ']]}};
+const PT=()=>{ const l=(prefs&&prefs.lang)||'te'; return PTX[l==='tl'?'en':l]||PTX.te; };
+function promptTexts(){ try{ const t=PT(), a=$('alertCard'); a.querySelector('b').textContent=t.aT; a.querySelector('p').textContent=t.aP; $('alertLater').textContent=t.aL; $('alertYes').textContent=t.aY;
+  const ib=$('installBar'); ib.querySelector('.t b').textContent=t.iT; ib.querySelector('.t span').textContent=t.iS; $('installGo').textContent=t.iG; $('howOk').textContent=t.ok; }catch(e){} }
 function howTo(title, steps){ $('howTitle').textContent = title; $('howSteps').innerHTML = steps.map(t=>`<li>${t}</li>`).join(''); $('howTo').hidden = false; }
 $('installGo').onclick = async () => {
   if(deferredPrompt){ deferredPrompt.prompt(); const r = await deferredPrompt.userChoice.catch(()=>null); deferredPrompt = null; if(r && r.outcome==='accepted') $('installBar').hidden = true; return; }
-  if(isIOS) return howTo('iPhoneలో హోమ్ స్క్రీన్‌కు జోడించడం', ['Safariలో ఈ పేజీ తెరిచి ఉంచండి','కింద ఉన్న <b>Share ⬆️</b> బటన్ నొక్కండి','<b>"Add to Home Screen"</b> ఎంచుకుని <b>Add</b> నొక్కండి']);
-  if(inApp) return howTo('Chromeలో తెరవండి', ['పైన కుడివైపు <b>⋮</b> (మూడు చుక్కలు) నొక్కండి','<b>"Open in Chrome"</b> / "బ్రౌజర్‌లో తెరవండి" ఎంచుకోండి','Chromeలో వచ్చే <b>"జోడించండి"</b> బటన్ నొక్కండి']);
-  howTo('హోమ్ స్క్రీన్‌కు జోడించడం', ['Chromeలో పైన కుడివైపు <b>⋮</b> (మూడు చుక్కలు) నొక్కండి','<b>"Install app"</b> లేదా <b>"Add to Home screen"</b> ఎంచుకోండి','<b>Install</b> / <b>Add</b> నొక్కండి']);
+  if(isIOS) return howTo(...PT().hIos);
+  if(inApp) return howTo(...PT().hApp);
+  howTo(...PT().hAnd);
 };
 $('installNo').onclick = () => { $('installBar').hidden = true; store.set('installNo', Date.now()); };
 $('howOk').onclick = () => { $('howTo').hidden = true; };
 // shared install link (swipe2news.com/?install=1): show the add-to-home-screen bar and steps right away
 if(new URLSearchParams(location.search).get('install')==='1' && !standalone){
-  setTimeout(()=>{ $('installBar').hidden=false; if(!deferredPrompt && (isIOS||inApp)) $('installGo').click(); }, 1200);
+  setTimeout(()=>{ promptTexts(); $('installBar').hidden=false; if(!deferredPrompt && (isIOS||inApp)) $('installGo').click(); }, 1200);
   try{ if(window.gtag) gtag('event','install_link_open',{}); }catch(e){}
 }
 // iPhone and in-app browsers never fire the install event, so offer the steps there after a few seconds
@@ -3269,7 +3293,7 @@ const ONESIGNAL_APP_ID = '4f354e28-c33a-4836-8a3a-f25d58b2ba49'; // OneSignal ap
 const pushOK = !!ONESIGNAL_APP_ID && ['way2sec.github.io','swipe2news.com','www.swipe2news.com'].includes(location.hostname) && 'serviceWorker' in navigator && 'Notification' in window;
 window.OneSignalDeferred = window.OneSignalDeferred || [];
 function bellState(on){ $('bellBtn').setAttribute('aria-pressed', !!on); }
-function tagUser(OneSignal){ try{ OneSignal.User.addTags({place:prefs.place, topics:prefs.topics.join(',')}); }catch(e){} }
+function tagUser(OneSignal){ try{ OneSignal.User.addTags({place:prefs.place, topics:prefs.topics.join(','), lang:LG()}); }catch(e){} }
 if(pushOK){
   OneSignalDeferred.push(async function(OneSignal){
     await OneSignal.init({ appId: ONESIGNAL_APP_ID, serviceWorkerPath: 'OneSignalSDKWorker.js', serviceWorkerParam: { scope: '/' } });
@@ -3284,15 +3308,15 @@ if(pushOK){
 /* (moved to its own small script at the top of the page, so an error in the app code can never stop an update) */
 async function askAlerts(){
   $('alertCard').hidden = true; store.set('alertAsked', Date.now());
-  if(!pushOK){ toast('అలర్ట్‌లు swipe2news.com యాప్‌లో మాత్రమే పనిచేస్తాయి'); return; }
-  if('Notification' in window && Notification.permission==='denied'){ toast('ఫోన్ సెట్టింగ్స్‌లో Swipe2News నోటిఫికేషన్లు ఆన్ చేయండి'); return; }
+  if(!pushOK){ toast(PT().onlyApp); return; }
+  if('Notification' in window && Notification.permission==='denied'){ toast(PT().denied); return; }
   OneSignalDeferred.push(async function(OneSignal){
     try{ await OneSignal.Notifications.requestPermission(); }catch(e){}
-    if(OneSignal.Notifications.permission){ toast('అలర్ట్‌లు ఆన్ అయ్యాయి 🔔'); tagUser(OneSignal); }
+    if(OneSignal.Notifications.permission){ toast(PT().on); tagUser(OneSignal); }
   });
 }
 $('bellBtn').onclick=()=>{
-  if($('bellBtn').getAttribute('aria-pressed')==='true'){ toast('అలర్ట్‌లు ఆన్‌లో ఉన్నాయి 🔔 ఆపాలంటే ఫోన్ సెట్టింగ్స్‌లో మార్చండి'); return; }
+  if($('bellBtn').getAttribute('aria-pressed')==='true'){ toast(PT().already); return; }
   askAlerts();
 };
 $('alertYes').onclick=askAlerts;
@@ -3305,9 +3329,9 @@ function alertInvite(){
   const granted = 'Notification' in window && Notification.permission !== 'default';
   if(!(pushOK && !granted && Date.now()-last > 7*864e5 && $('sheet').hidden && $('installBar').hidden)) return;
   alertInvite.done = 1;
-  const pl = (prefs && prefs.place && !['TS','AP','IN'].includes(prefs.place) && typeof placeName==='function') ? placeName(prefs.place) : '';
-  const p = $('alertCard').querySelector('p');
-  if(p && pl) p.textContent = `బ్రేకింగ్ న్యూస్, ${pl} జిల్లా ముఖ్య వార్తల అలర్ట్‌లు మీ ఫోన్‌కి పంపమంటారా? ఉచితం – ఎప్పుడైనా ఆపేయవచ్చు.`;
+  const pl = (prefs && prefs.place && !['TS','AP','IN'].includes(prefs.place)) ? ((LG()!=='te' || TLG()) ? ((PLACES.find(x=>x[0]===prefs.place)||[])[2]||'') : placeName(prefs.place)) : '';
+  promptTexts(); const p = $('alertCard').querySelector('p');
+  if(p && pl) p.textContent = PT().aPd(pl);
   $('alertCard').hidden = false;
 }
 setTimeout(alertInvite, 60000);
