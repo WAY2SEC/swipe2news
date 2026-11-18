@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T07:35:00+05:30",
+ "cutoff": "2026-11-18T08:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T16:20:00+05:30/2026-11-15T16:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 2,
-   "late": 0,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "16:35 run started 16:36 IST. Lookback from 08:20 15 Nov. Feeds branch fresh (16:32, 70/70 ok, 753 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: NTV Vipparla (Palnadu) petrol bombs seized at panchayat nominations (16:20, sensitive), Telangana Today Adilabad Mavala gold theft arrest (16:26, sensitive). Not opened: Disha AP 1.10 lakh acre land bank (fetch error); Disha Rs 81 lakh sarpanch auction, Pulleru two children missing, AP child-safety plan, KPHB Phase 15 auction, Simhachalam Odia signage (searches did not surface the articles). No district searches beyond Palnadu/Adilabad (time). Districts covered: Palnadu, Adilabad."
-  },
   {
    "window": "2026-11-15T16:35:00+05:30/2026-11-15T16:50:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 9,
    "review": 0,
    "gaps": "Feeds 06:42 IST, 69/70 ok; 775 uncovered TG/AP (nearly all already published under other URLs or before lookback 23:05). add_repo not available; used existing clone. Published: Hans India reader report on dug-up road near TGSRTC Hospital (claim). Duplicates: Revanth–Chhattisgarh CM Sammakka Sagar meeting (Hans 17 Nov 15:22), Hans Akvan orange alert. Skipped before lookback: SouthFirst Jana Sena ₹7 cr job fraud (13 Nov), Hans Nation Development Front Anantapur (16 Nov 02:32), HMTV Kothagudem quiz (17 Nov 16:01), SouthFirst TG flu advisory (12 Nov), NewsHunt flu (2025), MENAFN/Mint Akvan (16 Nov), ETV Odisha Akvan (17 Nov 16:45), Daijiworld/IANS Akvan (17 Nov 22:22), tennews IANS Akvan (17 Nov 22:50); Hans Oxygen Park reader letter (event 13 Nov). transclew live blog: no publish time. Not surfaced/opened: TOI guarantees/flu/lift bill/Karimnagar land/cash transfers, DC Korutla watchman, Anakapalli ACB, SFR Snehit, NHRC 22A, Gudivada job mela, net-meter shortage, ASI Tirumala inscriptions, Sabarimala Tirupati model. District searches (Nalgonda, Sangareddy/Vikarabad, Mahabubnagar/Wanaparthy/Nagarkurnool, Nellore/Prakasam, Anantapur/Kadapa, Eluru/W Godavari, Bhadradri/Khammam, Suryapet/Jangaon) found nothing fresh."
+  },
+  {
+   "window": "2026-11-18T07:35:00+05:30/2026-11-18T08:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 2,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Feeds 07:51 IST, 70/70 ok; 816 uncovered TG/AP flagged but most already published under other URLs. add_repo not available; used existing clone. Published: Sakshi Kothapatnam nets fire, TV9 Anantapur hairball surgery, AP/CP24 Earthshot winners. Duplicate: Sakshi TDP-YSRCP nomination clashes (Kavali tension, Suresh house arrest already published). Not surfaced/opened: Samayam AP liquor shops closure, NewsMeter AP auto drivers ₹15,000, Suryaa Tandur car crash, 10TV Hyderabad power cuts, Namasthe new AICC in-charge, DC ASI Tirumala inscriptions, Hindu NGT Musi EC, TOI flu/guarantees/lift bill, V6 Sagar tunnel, Siasat William-Modi meeting (Express & Star fetch failed). Search engine returned few same-day TG/AP pages."
   }
  ],
  "seen": [
@@ -6438,6 +6438,31 @@
    "url": "https://transclew.com/news/cyclone-akvan-live-updates/",
    "d": "2026-11-18",
    "w": "2026-11-18T07:35"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/andhra-pradesh/fishing-nets-fire-prakasam-andhra-pradesh-2963910",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://tv9telugu.com/andhra-pradesh/750-grams-of-hair-removed-from-15-year-old-10th-class-girls-stomach-in-anantapur-hospital-1961073.html",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.cp24.com/news/world/2026/11/18/prince-william-presents-earthshot-prize-winners-with-13m-each-in-mumbai/",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.freepressjournal.in/india/earthshot-prize-2026-indias-mahindra-leads-winners-as-bhutan-denmark-also-take-top-honours",
+   "d": "2026-11-18",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/andhra-pradesh/tdp-leaders-attack-ysrcp-candidates-andhra-pradesh-2963920",
+   "d": "2026-11-18",
+   "w": "duplicate"
   }
  ]
 }
