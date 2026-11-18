@@ -3,6 +3,9 @@
   "target": {
     "namespace": "android_app",
     "package_name": "com.swipe2news.app",
-    "sha256_cert_fingerprints": ["90:06:9A:45:DF:2A:D2:65:B3:F0:82:6D:C5:0F:AD:B6:79:7D:84:6D:48:01:2E:E3:71:FC:1A:29:77:A1:8B:59"]
+    "sha256_cert_fingerprints": [
+      "E0:9E:D7:E1:C8:2A:28:13:D5:FD:41:C7:AB:5A:17:3E:50:A9:E7:D5:51:83:AB:81:33:94:B6:19:F5:11:74:15",
+      "90:06:9A:45:DF:2A:D2:65:B3:F0:82:6D:C5:0F:AD:B6:79:7D:84:6D:48:01:2E:E3:71:FC:1A:29:77:A1:8B:59"
+    ]
   }
 }]
