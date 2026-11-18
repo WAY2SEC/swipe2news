@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T10:05:00+05:30",
+ "cutoff": "2026-11-18T10:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T17:35:00+05:30/2026-11-15T17:50:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "17:50 run started 17:51 IST. Lookback from 09:35 15 Nov. Feeds branch fresh (17:40, 70/70 ok, 752 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: Siasat Cyberabad 282 drunk-driving cases (17:26), Telangana Today AIMIM plea to shift Nampally rare books to Haj House (17:23). Not opened (searches did not surface articles / time): AJ AP 2nd-phase municipal polls BJP allocation, HMTV Karimnagar farmers to Nalgonda meeting, Oneindia Naidu seeks Centre cyclone aid, Vaartha Hyderabad Rs 5 crore marriage fraud, Disha Vikarabad hit-and-run boy injured. KIYG already covered. No district searches (time; first fetches hit unanswered permission prompts). Districts covered: TS, Hyderabad."
-  },
   {
    "window": "2026-11-15T17:50:00+05:30/2026-11-15T18:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Feeds 10:00 IST, 63/70 ok (429 on Siasat and district feeds Medak, Peddapalli, Siddipet, Nellore, Chittoor). add_repo not available; used existing clone. Published: TT HC lift safety Bill 8 weeks, TT HC protective homes safeguards, V6 JEH Aerospace tooling centre Kothur, V6 Gates Foundation team Nov 19, NewsMeter Cyberabad Moves, DC NGRI chain snatching (sensitive), Hans Visakhapatnam Akvan alert, IANS Nvidia board/Huang. Duplicates: TT Hasan Nagar wife murder (published 09:35 via AJ), TGRERA Sanali fine. Skipped: DC Tirupati panchayat phase 2 (pub 16 Nov 23:29, before lookback). Held: Akvan severe-cyclone update (sources differ on further intensification). Not surfaced/opened: Hindu Akvan SCS, Hyderabad Mail Kashi trains, Gates NIE groundwater, V6 KTR Kondapochamma, India Joy."
+  },
+  {
+   "window": "2026-11-18T10:05:00+05:30/2026-11-18T10:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 4,
+   "late": 3,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Feeds 10:11 IST, 69/70 ok; 849 uncovered TG/AP flagged, most older/minor or already published. add_repo not available; used existing clone. Published: Medical Dialogues TG 4,417 PG seats, ANI H5N1 chicken vaccine Nov 20, The Federal Rahul Columbia (claim), Alaska Public Media Peltola Senate win. Skipped: HC Task Force searches notice (pub 17 Nov 16:06, before lookback), DC 429 asst professors (pub 18 Oct). Not opened: ANI Rahul (fetch error), ADN/NPR Peltola (robots), thehawk vaccine. Held: Akvan severe-cyclone update (not re-verified this run). District searches (Karimnagar, Khammam, Kurnool/Nandyal, Guntur/Vijayawada, Nizamabad, Srikakulam/Vizianagaram, Adilabad/Nirmal, Tirupati/Chittoor) surfaced no new datable items. news.json not pruned to 50 (kept prior practice)."
   }
  ],
  "seen": [
@@ -6658,6 +6658,41 @@
    "url": "https://watchers.news/2026/11/18/cyclone-akvan-landfall-nellore-visakhapatnam-noon-november-20-2026/",
    "d": "2026-11-18",
    "w": "skip"
+  },
+  {
+   "url": "https://medicaldialogues.in/news/education/nmc-seat-matrix-4417-pg-medical-seats-in-telangana-183357",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://desitalkchicago.com/shivraj-singh-chouhan-will-dedicate-indias-first-indigenous-h5n1-clade-2-3-2-1a-chicken-vaccine-to-the-nation-on-november-20/",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://thefederal.com/category/news/india-on-brink-of-economic-disaster-says-rahul-gandhi-at-columbia-university-263269",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://alaskapublic.org/news/politics/elections/2026-11-17/mary-peltola-wins-u-s-senate-seat-in-alaska",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://hyderabadmail.com/telangana-hc-police-task-force-search-seizure-procedures/",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/plainclothes-operations-hc-seeks-answers-from-dgp-home-secy-3579548/",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-clears-direct-recruitment-for-429-asst-professors-across-7-varsities-ou-gets-lions-share-of-252-1997029",
+   "d": "2026-11-18",
+   "w": "skipped"
   }
  ]
 }
