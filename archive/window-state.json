@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T09:35:00+05:30",
+ "cutoff": "2026-11-18T10:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T17:20:00+05:30/2026-11-15T17:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 1,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "17:35 run started 17:36 IST. Lookback from 09:20 15 Nov. Feeds branch fresh (17:24, 68 ok, 727 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: Siasat Mahabubabad excise drive (17:05), NT Nadivada suicide case 6 arrested (16:37, late, sensitive), Telangana Today/PTI Vande Bharat faulty brakes (17:18). Skipped: Hindu AP 12 of 13 mayors (results from 4/9 Nov, old event). Not opened: Kadapa CBI-name kidnap (Eenadu only), Cyberabad CP 10 lakh vehicles, AIMIM rare books Haj House (searches did not surface articles). No extra district searches (time). Districts covered: Mahabubabad."
-  },
   {
    "window": "2026-11-15T17:35:00+05:30/2026-11-15T17:50:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Feeds 09:12 IST, 69/70 ok; 847 uncovered TG/AP flagged, most older/minor or already published. add_repo not available; used existing clone. Published: TT Bellampalli cops transfers (update), ETV Amaravati HSR station (claim), V6 Samvidhan Raksha March Nov 26, V6 CCS case Germany jobs fraud (sensitive), AJ Hasan Nagar wife murder (sensitive), BusinessToday Trump plot sentence, Oneindia Tirumala inscriptions digitisation. Duplicates: AP polling holiday, 400 intellectuals summit letter, Hormuz Indian missing, fake silver foil. Not surfaced by search: NIE TG HC private land return, NIE Palnadu water grid/KRMB, TOI El Nino Hyderabad, V6 IndiaJoy Dec 7, Hyderabad Mail SCR Kashi trains, DC pole falls on pedestrian."
+  },
+  {
+   "window": "2026-11-18T09:35:00+05:30/2026-11-18T10:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 8,
+   "late": 4,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 10:00 IST, 63/70 ok (429 on Siasat and district feeds Medak, Peddapalli, Siddipet, Nellore, Chittoor). add_repo not available; used existing clone. Published: TT HC lift safety Bill 8 weeks, TT HC protective homes safeguards, V6 JEH Aerospace tooling centre Kothur, V6 Gates Foundation team Nov 19, NewsMeter Cyberabad Moves, DC NGRI chain snatching (sensitive), Hans Visakhapatnam Akvan alert, IANS Nvidia board/Huang. Duplicates: TT Hasan Nagar wife murder (published 09:35 via AJ), TGRERA Sanali fine. Skipped: DC Tirupati panchayat phase 2 (pub 16 Nov 23:29, before lookback). Held: Akvan severe-cyclone update (sources differ on further intensification). Not surfaced/opened: Hindu Akvan SCS, Hyderabad Mail Kashi trains, Gates NIE groundwater, V6 KTR Kondapochamma, India Joy."
   }
  ],
  "seen": [
@@ -6603,6 +6603,61 @@
    "url": "https://www.v6velugu.com/fake-silver-foil-made-from-aluminium-busted-in-hyderabads-old-city-four-arrested-in-food-adulteration-racket",
    "d": "2026-11-18",
    "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-high-court-directs-government-to-finalise-elevator-safety-bill-within-eight-weeks",
+   "d": "2026-11-18",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-high-court-directs-safeguards-in-placement-of-rescued-women-in-protective-homes",
+   "d": "2026-11-18",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.v6velugu.com/hyderabad-to-become-precision-engineering-hub",
+   "d": "2026-11-18",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.v6velugu.com/bill-and-melinda-gates-foundation-team-to-visit-hyderabad-on-november-19",
+   "d": "2026-11-18",
+   "w": "pub"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/cyberabad-moves-police-cmc-tap-35-lakh-students-for-ideas-to-beat-traffic-jams-779527",
+   "d": "2026-11-18",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-gold-chain-mobile-phone-snatched-from-pedestrian-near-ngri-2005418",
+   "d": "2026-11-18",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/district-administration-steps-up-measures-to-tackle-cyclone-akvan-1143101",
+   "d": "2026-11-18",
+   "w": "pub"
+  },
+  {
+   "url": "https://ianslive.in/nvidia-board-rejects-huang-comeback-as-congress-sets-interview-date--20261118053003",
+   "d": "2026-11-18",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-woman-allegedly-murdered-by-husband-three-year-old-daughter-missing",
+   "d": "2026-11-18",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/sec-notifies-second-phase-of-panchayat-polls-in-tirupati-district-2005009",
+   "d": "2026-11-18",
+   "w": "skip"
+  },
+  {
+   "url": "https://watchers.news/2026/11/18/cyclone-akvan-landfall-nellore-visakhapatnam-noon-november-20-2026/",
+   "d": "2026-11-18",
+   "w": "skip"
   }
  ]
 }
