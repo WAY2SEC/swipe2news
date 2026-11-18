@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T08:35:00+05:30",
+ "cutoff": "2026-11-18T09:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T16:50:00+05:30/2026-11-15T17:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 5,
-   "review": 0,
-   "gaps": "17:05 run started 17:05 IST. Lookback from 08:50 15 Nov. Feeds branch fresh (16:40, 70/70 ok, 748 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: Telangana Today Cyclone Akvan TG rain forecast Nov 20-22 (17:02), HMTV Bhadrachalam Karthika rush (12:04, late). Skipped (published before lookback): Hans Goyal Egypt visit (10 Nov), Hans Kurnool GP polls (14 Nov), Hans AP rain alert (14 Nov), Vikarabad U19 cricketer suicide (14 Nov, also minor/suicide victim), DC Anantapur mayor (9 Nov). Not opened: Hindu AP 12 of 13 mayors, Siasat NIMS HC appeal, Teenmar Mallanna attack condemnation, Bar Council AP evening courts, NIE horse gram (searches did not surface articles). District searches: Karimnagar, Warangal/Hanamkonda, Visakhapatnam, Kurnool/Kadapa, Khammam/Bhadradri, Siddipet/Medak, Srikakulam/Vizianagaram/Kakinada, Mahabubnagar/Wanaparthy/Gadwal. Districts covered: Bhadradri, TS."
-  },
   {
    "window": "2026-11-15T17:05:00+05:30/2026-11-15T17:20:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Feeds 08:11 IST, 70/70 ok; 849 uncovered TG/AP flagged, most already published under other URLs. add_repo not available; used existing clone. Published: ETV Bharat Akvan landfall near Kakinada (forecast), NT vote-for-note adjourned Nov 25, NewsMeter AP Vahana Mitra ₹231 cr (claim), NT Peddapalli MP protest (claim), Siasat Melbourne drowning (sensitive). Skipped: DC Jeh Aerospace Kothur tooling hub (pub 17 Nov 20:47, before lookback), Andhrajyothy TG cold/Akvan direction (Kohir cold already published 17 Nov; conflicting figures). Duplicate: TOMCOM Germany jobs fraud (HRF refund story already). Not opened: US News Trump–China trip (fetch error). Not surfaced: Hans TG-RERA crackdown, Disha CPS study committee, V6 Sagar tunnel govt response, Hyderabad power cuts, TOI/IE US strikes on Qeshm, Pakistani man 27-yr sentence, Tirumala inscriptions digitisation."
+  },
+  {
+   "window": "2026-11-18T08:35:00+05:30/2026-11-18T09:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 8,
+   "late": 5,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Feeds 08:54 IST, 70/70 ok; 811 uncovered TG/AP flagged, most older/minor or already published under other URLs. add_repo not available; used existing clone. Published: TT Balmoor Venkat Kothur crash, DC Shankarpally furniture fire, Hans NGT Musi no stay, Hans Khammam Rajadhani water bottles (claim), Hans TG-RERA refunds, ETV AP Rs7cr jobs fraud (claim, sensitive), Siasat/PTI William-Modi, Hans/IANS US ATC $50.1bn. Skipped: DC AICC in-charge Sandeep (pub 14 Nov), NewsBytes Sangareddy 11.2C (pub 17 Nov 16:24). Duplicates: Mancherial/Bellampalli cops farmhouse party (published 17 Nov), Indiramma family insurance (published 17 Nov), AP auto drivers Rs15,000 (Vahana Mitra published). Not surfaced by search: Samayam AP liquor shops closure, Samayam TTD SSD tokens, NIE Palnadu water grid/KRMB, TOI El Nino Hyderabad water."
   }
  ],
  "seen": [
@@ -6503,6 +6503,51 @@
    "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/lucknow-based-company-cheats-67-telangana-youth-in-the-name-of-german-jobs-vk-1577147.html",
    "d": "2026-11-18",
    "w": "dup"
+  },
+  {
+   "url": "https://telanganatoday.com/congress-mlc-balmoor-venkat-escapes-with-minor-injuries-in-car-accident-near-kothur",
+   "d": "2026-11-18",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/rangareddy-fire-breaks-out-at-furniture-shop-in-shankarpally-2005405",
+   "d": "2026-11-18",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/ntg-refuses-to-stay-musi-riverfront-project-seeks-state-govts-response-1143124",
+   "d": "2026-11-18",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/khammam/water-bottle-supply-discontinued-on-rajadhani-express-buses-1143217",
+   "d": "2026-11-18",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/tg-rera-cracks-down-on-slew-of-rogue-developers-across-hyderabad-1143136",
+   "d": "2026-11-18",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/ap-jobs-fraud-leaked-video-and-whatsapp-chats-expose-7-crore-scam-aps26111800525",
+   "d": "2026-11-18",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.siasat.com/prince-william-princess-kate-to-meet-pm-modi-in-delhi-today-3579966/",
+   "d": "2026-11-18",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/international/trump-administration-seeks-501-billion-aviation-overhaul-after-flight-shutdown-1143221",
+   "d": "2026-11-18",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.newsbytesapp.com/news/india/sangareddy-district-records-112c-low-while-hyderabad-stays-warmer/tldr",
+   "d": "2026-11-18",
+   "w": "skip"
   }
  ]
 }
