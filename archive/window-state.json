@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T15:35:00+05:30",
+ "cutoff": "2026-11-18T16:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T22:05:00+05:30/2026-11-15T22:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 6,
-   "late": 2,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "22:35 run started 22:36 IST. Lookback from 14:05. Feeds fresh (22:23, 68/68 ok). add_repo not available; existing clone used, push worked. Published: TT KTPS artisan death (22:11, sensitive), TT/PTI Bhadrachalam powerlifter (21:57), TT/PTI AP 526 investment projects (19:24, late), DC AP revenue staff resurvey (22:09, claim), DC Somireddy unanimous panchayat (22:06, claim), AP7AM Sharmila meets Naidu (22:20; event first seen 18:34, late). Duplicate: William/Kate Modi meeting (visit already covered). Skipped: Mumbai trader vs Hyderabad merchant allegation (similar to Panjagutta story already covered). Not opened (search did not surface): The Hindu pharmacy fee dues, The Hindu SCERT Maths Day, DC fake CBI kidnap, BigTV Siddipet POCSO. District searches Khammam, Srikakulam/Vizianagaram returned only tag/old pages."
-  },
   {
    "window": "2026-11-15T22:35:00+05:30/2026-11-15T23:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 7,
    "review": 0,
    "gaps": "Feeds 15:17 IST, 68/68 ok. Lookback 07:05. Published: Hans Akvan high alert (13 NDRF/11 SDRF), Siasat OU Lulu job fair, HMTV Sircilla 1,668 Cheyutha pensions, HMTV Eluru corporation ACB checks, INDToday Sangareddy 11.2C cold, Skift Air India Express CEO, Daily Jagran US strike Qeshm. Duplicate: TT Uppal NGRI snatching (DC 10:05). Skipped (before lookback): Hans Gummagatta KGBV 40 ill (02:30), Hans PM Surya Ghar (04:30), DC AP Nov 26 holiday (17 Nov), Siasat YTPS (17 Nov), TT KNRUHS fees (17 Nov), HyderabadMail HC Task Force (17 Nov), DC Polavaram alert (17 Nov). Not opened/not found: CCI cotton BusinessLine, maize edible oil BusinessLine, Rayadurg KGBV NIE, Somasila NIE. add_repo not available; used existing clone. No district rotation searches this run (feed-driven)."
+  },
+  {
+   "window": "2026-11-18T15:35:00+05:30/2026-11-18T16:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 2,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Feeds 15:59 IST, 69/70 ok. Lookback 07:35. Published: NewsMeter Snapchat drug ring (EAGLE, 3 held), HMTV Burgampahad alli roots (5 held). Not opened (fetch refused/permission timeout): The Hindu Vizag semiconductor plant, Siasat Nepal power import, Siasat Chanda Kochhar HC, Disha alli roots; AP semiconductor policy, KTR Sagar, Komatireddy vs Revanth, Visakha e-buses, Satya Sai trains not found via search. add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -7228,6 +7228,26 @@
    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-govt-declares-holiday-on-nov-26-for-polling-in-23-urban-local-bodies-2005138",
    "d": "2026-11-18",
    "w": "skipped"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/snapchat-orders-crypto-payments-and-900-customers-eagle-force-busts-hyderabad-drug-network-779553",
+   "d": "2026-11-18",
+   "w": "2026-11-18T16:05"
+  },
+  {
+   "url": "https://ntvtelugu.com/crime-stories/hyderabad-drug-racket-busted-3-arrested-for-supplying-og-kush-via-snapchat-using-cryptocurrency-1036426.html",
+   "d": "2026-11-18",
+   "w": "2026-11-18T16:05"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/khammam/forest-officials-bust-alli-roots-smuggling-five-held-214329",
+   "d": "2026-11-18",
+   "w": "2026-11-18T16:05"
+  },
+  {
+   "url": "https://dishadaily.com/telugunews/smuggling-of-alli-roots-exposed-five-arrested-601729",
+   "d": "2026-11-18",
+   "w": "2026-11-18T16:05"
   }
  ]
 }
