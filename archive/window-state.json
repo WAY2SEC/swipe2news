@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T06:05:00+05:30",
+ "cutoff": "2026-11-18T06:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T15:05:00+05:30/2026-11-15T15:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 6,
-   "late": 3,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 1,
-   "review": 1,
-   "gaps": "15:35 run started 15:36 IST. Lookback from 07:05 15 Nov. Feeds branch fresh (15:16, 68/68 ok, 698 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: TT Nirmal car fire mechanic dies (15:05, sensitive), TT Raja Singh CBI probe on Sajjanar (15:10, claim), South First AP NCD 4.0 screening (15:07), BigTV Telangana cold Kohir 11C (07:33, late), TT Nalgonda bird feeder (14:47, late), DC Secunderabad RPF rescue (13:07, late). Duplicate: NewsMeter Eli Lilly $1bn (CM remarks at PHFI event already covered; Lilly plan is a 2025 announcement). Review: BW Waaree Kakinada green ammonia (dated 12 Nov, no time, AI-generated label). 8 district searches (Khammam, Karimnagar, Warangal, Srikakulam/Vizianagaram, Kurnool, Mahabubnagar, Nellore/Prakasam, Siddipet/Medak) returned only older items. Districts covered: Nirmal, Hyderabad, Sangareddy, Nalgonda, AP statewide."
-  },
   {
    "window": "2026-11-15T15:35:00+05:30/2026-11-15T16:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Feeds 05:40 IST, 67 ok; 759 uncovered TG/AP (most already published under other URLs or not surfaced by search). add_repo not available; used existing clone. Published: DC TOSS supplementary results, The420 UPI PIN consumer-commission ruling, Indian Opinion (citing The Hindu) APPSC Thanedar walking test, Al Jazeera Russian An-12 crash. Duplicates: EAGLE e-cigarette network (published 16 Nov), AICC in-charge B.M. Sandeep (published), AirTrunk AP data centre (seen). Skipped as old: Hindudayashankar Satavahana University bear (17 Nov 20:40, before lookback), DC Cyclone Akvan Nov 20 landfall (17 Nov 10:21), ETV AVGC media city (AVGC policy already covered 16 Nov). Not opened: Yahoo Apple outage (fetch error), TOI flu alert/HC lift bill/Karimnagar land/guarantees, DC Polavaram alert, DC Khelo India martial art, DC poll-code FIRs, Sakshi bear story, TT SFR Snehit. District searches (Mahabubnagar, Nalgonda, Sangareddy, Mancherial/Peddapalli, Nellore, Anantapur, Eluru/Krishna, Hyderabad) found nothing fresh."
+  },
+  {
+   "window": "2026-11-18T06:05:00+05:30/2026-11-18T06:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 1,
+   "published": 1,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Feeds 06:11 IST, 70/70 ok; 887 uncovered TG/AP (nearly all already published under other URLs or before lookback). add_repo not available; used existing clone. Published: Telangana Today Balram Naik remarks criticism (claim). Skipped as before lookback: TT CESS public-finance study (17 Nov 19:53), TT retired DGP land mutation Sangupet (17 Nov 20:41). Not surfaced/opened: TOI outstanding guarantees, TOI lift-safety bill 8 weeks, TOI flu alert, TOI Karimnagar land, Hathi Bowli, Padmaja fertility bail, SFR Snehit TT title, JEH Kothur hub, net-meter shortage, Bahrain TG worker, Anakapalli ACB, Polavaram alert, Guntur rehab centres, Sakshi/Namasthe/Eenadu district items. District/general searches (Khammam, Nizamabad, NTR/Vijayawada, Kurnool/Nandyal, Warangal/Hanumakonda, Visakhapatnam, Telangana/AP/India/world today) found nothing fresh; listing pages served cached 17 Nov copies."
   }
  ],
  "seen": [
@@ -6338,6 +6338,21 @@
    "url": "https://www.etvbharat.com/en/state/andhra-pradesh-govt-to-develop-media-city-in-amaravati-under-avgc-xr-policy-enn26111704138",
    "d": "2026-11-18",
    "w": "2026-11-18T06:05"
+  },
+  {
+   "url": "https://telanganatoday.com/mahabubabad-mp-balram-naiks-controversial-remarks-draws-criticism-on-social-media",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/brs-decade-built-telanganas-economic-base-growth-slows-under-congress-cess-study",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/even-top-former-police-officer-not-spared-by-land-grabbers-in-telangana",
+   "d": "2026-11-18",
+   "w": "skipped"
   }
  ]
 }
