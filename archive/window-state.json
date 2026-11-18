@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T17:35:00+05:30",
+ "cutoff": "2026-11-18T18:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-16T05:05:00+05:30/2026-11-16T05:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 6,
-   "late": 0,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "05:35 run started 05:36 IST; lookback from 21:05 Nov 15. Feeds fresh (05:25, 68/68 ok). add_repo not available; existing clone used, push worked. Direct feed URLs refused by WebFetch (permission timeout); only search-surfaced URLs opened. Published: Siasat TOMCOM FIR vs Fairstreet (22:32), Hans TDP allots Rajahmundry/Kavali/Bapatla to BJP (01:45), Hans Beerappa temple silver crowns theft Kurnool (01:47), Hans Kurnool collector panchayat nominations (02:24), DC Indukurupeta 300 YSRCP join TDP (23:25), Hans Kurnool/Nandyal PACS polls (02:31). Duplicates: DC Bowrampet bus fire (ETV published), DC Karra Samu/Khelo India (TT published). Not opened (search did not surface / direct URL refused): The Hindu Zimbabwe student drowns Kakinada, pharmacy fee dues, Sridhar Babu aerospace, Rajamahendravaram havildar, Kadapa entrepreneur, heart valve; TT Prince/Princess of Wales; TOI TG inflation, LPG, semiconductor SEZ, paddy sowing. Only ~4 district-targeted searches this run."
-  },
   {
    "window": "2026-11-16T05:35:00+05:30/2026-11-16T06:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Feeds 17:15 IST, 65/68 ok (429: NewsMeter, Narayanpet-en, Kakinada-en). Lookback 09:05. Feed 'covered' flags unreliable: most listed uncovered TG/AP events were already published. Published: OdishaTV Akvan track change (forecast), DC AP medical colleges privatisation stir (claim), DC Kishan Reddy SSC fees 4,741 students. Skipped: GMR aviation hub (13 Nov article). Not opened: India TV Akvan (client error); The Hindu TG rain alert withdrawn, IE TG HC women advocates toilets, TT IIIT flyover, ET AP universities not surfaced by search. District searches (Nizamabad/Adilabad/Nirmal, Nellore/Prakasam, Warangal/Khammam/Mahabubabad, Anantapur/Kurnool, Mahabubnagar/Nalgonda) returned stale tag pages. add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-18T17:35:00+05:30/2026-11-18T18:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 8,
+   "published": 6,
+   "late": 0,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 17:59 IST, 70/70 ok. Lookback 09:35. Feed 'covered' flags unreliable (most uncovered TG/AP events already published). Published: Siasat Mahabubabad sarpanch ACB trap (name withheld), NT News Addagudur gurukul POCSO 5 remanded (names withheld), Andhra Jyothy Indiramma insurance enrolment centres, Siasat TG SAFE Hyderabad hostel raids, Siasat TG HC Hindu adoption ruling, TT IIIT Junction flyover. Duplicate: Siasat Cherla 280 BGL shells (Karreguttalu dump story 17 Nov). Skipped: NT News Dandepalli paddy fire (published 02:39, before lookback). Not surfaced by search: Hindu TG 12-district rain alert, Hindu Vizag chip plant, BusinessLine maize oil, ETV/Hans TG SIR re-extension, ET AP universities, TT blind cricket, IE Nizamabad SBI insurance, DC PRTS, TV9 AP rooftop solar. District searches (Mancherial/Nirmal/Adilabad/Asifabad, Kurnool/Nandyal/Kadapa/Anantapur, Warangal/Hanumakonda/Jangaon/Mulugu, Guntur/Bapatla/Palnadu/Krishna/Eluru, Siddipet/Medak/Sangareddy/Vikarabad) mostly stale. add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -7336,6 +7336,46 @@
   },
   {
    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/gmr-group-to-develop-500-acre-aviation-and-aerospace-hub-in-ap-2003742",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/mahabubabad-sarpanch-held-over-rs-13l-bribe-from-granite-firms-3580647/",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://ntnews.com/nalgonda/yadadri/five-remanded-in-sexual-assault-case-against-girls-2563545",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/indiramma-family-insurance-rs-5-lakh-coverage-vvnp-1577543.html",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/tg-safe-raids-hostels-restaurants-in-hyderabad-orders-shut-down-3580632/",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/adoptions-under-hindu-law-outside-jj-act-or-cara-rules-telangana-hc-3580631/",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/iiit-junction-flyover-works-gather-pace-after-monsoon-in-hyderabad",
+   "d": "2026-11-18",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-police-recover-280-maoist-grenade-launcher-shells-in-forest-3580040/",
+   "d": "2026-11-18",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/farmers-set-fire-to-withered-paddy-crop-in-protest-over-irrigation-water-shortage-2563071",
    "d": "2026-11-18",
    "w": "skipped"
   }
