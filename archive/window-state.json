@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-18T06:35:00+05:30",
+ "cutoff": "2026-11-18T07:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-15T15:35:00+05:30/2026-11-15T16:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 8,
-   "late": 3,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "16:05 run started 16:06 IST. Lookback from 07:35 15 Nov. Feeds branch fresh (15:45, 70/70 ok, 788 uncovered TG/AP; covered flags stale). add_repo tool not available; existing clone used, push worked. Published: NTV 4.63 lakh Cheyutha pensions (15:36), Siasat/PTI Khelo India logo (16:01), NewsMeter Malkajgiri chloral hydrate toddy 5 arrested (15:26, sensitive), NewsMeter 4,252 phone-driving cases (15:03), South First AP Td vaccination Dec 3-5 (15:22), TV9 Garladinne sarpanch post auction Rs 29 lakh (11:43, late, claim, sensitive), Hans NTR/Krishna panchayat nominations (12:04, late), DC central team East Godavari cyclone (12:30, late). Duplicate: Kothagudem airport (covered 14 Nov). Skipped: TT BRS joinings (analysis, no single event), TT SCR Sabarimala trains (2025 article), TT 4,197 phone cases (7 Nov), TT Cheyutha letters (12 Nov). Not opened: Hindu AP mayor results 12 of 13 (search surfaced only unreliable sites), Hindu cyclone Akvan Nov 19 update. 8 district searches (Kurnool/Nandyal, Vizag/Srikakulam, Mahabubnagar, Tirupati/Chittoor, Guntur/Krishna, Nizamabad/Kamareddy, Srikakulam, East Godavari). Districts covered: Hyderabad, Medchal, Anantapur, NTR, East Godavari, TG/AP statewide."
-  },
   {
    "window": "2026-11-15T16:05:00+05:30/2026-11-15T16:20:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Feeds 06:11 IST, 70/70 ok; 887 uncovered TG/AP (nearly all already published under other URLs or before lookback). add_repo not available; used existing clone. Published: Telangana Today Balram Naik remarks criticism (claim). Skipped as before lookback: TT CESS public-finance study (17 Nov 19:53), TT retired DGP land mutation Sangupet (17 Nov 20:41). Not surfaced/opened: TOI outstanding guarantees, TOI lift-safety bill 8 weeks, TOI flu alert, TOI Karimnagar land, Hathi Bowli, Padmaja fertility bail, SFR Snehit TT title, JEH Kothur hub, net-meter shortage, Bahrain TG worker, Anakapalli ACB, Polavaram alert, Guntur rehab centres, Sakshi/Namasthe/Eenadu district items. District/general searches (Khammam, Nizamabad, NTR/Vijayawada, Kurnool/Nandyal, Warangal/Hanumakonda, Visakhapatnam, Telangana/AP/India/world today) found nothing fresh; listing pages served cached 17 Nov copies."
+  },
+  {
+   "window": "2026-11-18T06:35:00+05:30/2026-11-18T07:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 0,
+   "published": 0,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Feeds 06:42 IST, 69/70 ok; 775 uncovered TG/AP (mostly already published under other URLs or before lookback). add_repo not available; used existing clone. Skipped as old (pub before lookback): DC SSD tokens suspended (29 Jul 2026), Siasat TGRERA Puppalguda fine (21 Feb 2026), NewsMeter TGRERA Suvarnabhoomi (26 Jul 2025), Indian Defence News IG Defence Nellore missile complex (14 Nov 2026). Not surfaced/opened: Hans India TG-RERA rogue developers, TT RERA penalties, News18/Eenadu Amaravati high-speed rail station, Samayam TTD SSD tokens, Hans Adi Srinivas vs KTR, DC Korutla watchman attack, TOI outstanding guarantees, Eenadu SLBC tunnel, IE Nvidia board. District searches (Adilabad, Karimnagar, Siddipet/Medak, Guntur/Palnadu, Srikakulam/Vizianagaram, Kakinada/Konaseema, Tirupati/Chittoor, Nirmal/Kamareddy) found nothing fresh."
   }
  ],
  "seen": [
@@ -6351,6 +6351,26 @@
   },
   {
    "url": "https://telanganatoday.com/even-top-former-police-officer-not-spared-by-land-grabbers-in-telangana",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/issuing-of-ssd-tokens-suspended-on-wednesday-1974864",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/hyderabad-rs-43-71-l-fine-by-tgrera-against-puppalguda-realtor-4-more-penalised-3372818/",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/hyderabad-tgrera-fines-suvarnabhoomi-edifice-3-other-builders-rs-455-l-for-delays-violations-752397",
+   "d": "2026-11-18",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.indiandefensenews.in/2026/11/ig-defence-plans-200-acre-indigenous.html",
    "d": "2026-11-18",
    "w": "skipped"
   }
