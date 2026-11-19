@@ -1,8 +1,234 @@
 {
  "date": "19.11.2026",
  "iso": "2026-11-19",
- "count": 64,
+ "count": 68,
  "stories": [
+  {
+   "cat": "తెలంగాణ · కృష్ణా జలాలు",
+   "col": "--c-water",
+   "art": "water",
+   "pic": "n/water",
+   "stat": "సాగర్ ఇంజనీర్లకు",
+   "statl": "షోకాజ్ నోటీసులు",
+   "h": "నాగార్జునసాగర్ ఇంజనీర్లకు నోటీసులు",
+   "p": "నాగార్జునసాగర్ నుంచి ఏపీ నీటి మళ్లింపుపై ప్రభుత్వాన్ని హెచ్చరించలేదని ప్రాజెక్టు సూపరింటెండింగ్ ఇంజనీర్, ఎగ్జిక్యూటివ్ ఇంజనీర్లకు తెలంగాణ ప్రభుత్వం షోకాజ్ నోటీసులు ఇచ్చింది. వారంలో వివరణ ఇవ్వాలని ఆదేశించింది. ఈ విషయంపై ప్రభుత్వం చర్యలు తీసుకోలేదని బీఆర్ఎస్ నేత కేటీఆర్ ప్రశ్నించిన తర్వాత ఈ నిర్ణయం వచ్చింది. ఏపీ ఎనిమిది నెలలుగా కుడివైపు పనులు చేస్తోందని కథనం పేర్కొంది.",
+   "pts": [
+    "పల్నాడు తాగునీటికి 1.86 టీఎంసీల కోసం ఏపీ పనులు",
+    "₹1,200 కోట్ల ప్రాజెక్టు, మూడు ఇన్‌టేక్ బావులు",
+    "కృష్ణా బోర్డుకు లేఖ రాశామన్న మంత్రి ఉత్తమ్"
+   ],
+   "why": "కృష్ణా నీటిపై ఆధారపడే నల్గొండ, పాలమూరు రైతులు, ప్రజలకు ఇది ముఖ్యమైన విషయం.",
+   "next": "వారంలోగా ఇంజనీర్లు వివరణ ఇవ్వాలి",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/govt-issues-show-cause-notices-to-nagarjuna-sagar-engineers-after-ktr-questions-inaction-on-ap-diversion",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "నాగార్జునసాగర్",
+   "pub": "2026-11-19T13:54+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Krishna water",
+    "h": "Show-cause notices to Sagar engineers",
+    "stat": "Show-cause",
+    "statl": "notices to Nagarjuna Sagar engineers",
+    "loc": "Nagarjuna Sagar",
+    "p": "The Telangana government issued show-cause notices to Nagarjuna Sagar's Superintending Engineer and Executive Engineers for failing to alert it about Andhra Pradesh's water diversion from the dam. They must reply within a week. The move came after BRS leader KTR questioned the government's inaction.",
+    "pts": [
+     "AP works to draw 1.86 TMC for Palnadu drinking water",
+     "₹1,200 crore project with three intake wells",
+     "Minister Uttam says letter sent to Krishna board"
+    ],
+    "why": "Krishna water matters to farmers and residents of Nalgonda and Palamuru.",
+    "next": "Engineers must reply within a week"
+   },
+   "hi": {
+    "cat": "तेलंगाना · कृष्णा जल",
+    "h": "सागर इंजीनियरों को कारण बताओ नोटिस",
+    "stat": "कारण बताओ",
+    "statl": "नागार्जुनसागर इंजीनियरों को नोटिस",
+    "loc": "नागार्जुनसागर",
+    "p": "नागार्जुनसागर से आंध्र प्रदेश के पानी मोड़ने की जानकारी सरकार को न देने पर तेलंगाना सरकार ने परियोजना के अधीक्षण अभियंता और कार्यपालक अभियंताओं को कारण बताओ नोटिस दिए। उन्हें एक सप्ताह में जवाब देना है। यह कदम बीआरएस नेता केटीआर के सवाल उठाने के बाद आया।",
+    "pts": [
+     "पलनाडु पेयजल के लिए 1.86 टीएमसी का एपी काम",
+     "₹1,200 करोड़ की परियोजना, तीन इनटेक कुएं",
+     "मंत्री उत्तम बोले, कृष्णा बोर्ड को पत्र भेजा"
+    ],
+    "why": "कृष्णा का पानी नलगोंडा और पालमूरु के किसानों व लोगों के लिए अहम है।",
+    "next": "इंजीनियरों को एक सप्ताह में जवाब देना है"
+   },
+   "d": "19.11.2026",
+   "t": "14:35"
+  },
+  {
+   "cat": "ఏపీ · అక్వాన్ తుపాను",
+   "col": "--c-water",
+   "art": "rain",
+   "pic": "i/fisheries-and-aquaculture",
+   "stat": "80 మంది",
+   "statl": "జాలర్లకు ఆశ్రయం",
+   "h": "ఒడిశాలో 80 మంది కాకినాడ జాలర్లు",
+   "p": "అక్వాన్ తుపాను వల్ల సముద్రం అల్లకల్లోలంగా మారడంతో కాకినాడకు చెందిన సుమారు 80 మంది మత్స్యకారులు 10 పడవలతో ఒడిశాలోని గంజాం జిల్లా ఆర్యపల్లి జెట్టీలో తలదాచుకున్నారు. అక్కడి జిల్లా యంత్రాంగం వసతులు కల్పించిందని అధికారులు తెలిపారు. పడవల్లోనే వంట చేసుకుంటున్నారు. సముద్రంలో ఉండగా వాతావరణం మారడంతో వారు అక్కడికి చేరారు.",
+   "pts": [
+    "సముద్రం శాంతించాక ఏపీకి తిరిగి వస్తారు",
+    "గంజాం మత్స్యకారులంతా సోమవారమే తీరానికి చేరారు"
+   ],
+   "why": "తుపాను సమయంలో సముద్రంలో ఉన్న కాకినాడ మత్స్యకార కుటుంబాలకు ఇది ఊరట కలిగించే సమాచారం.",
+   "next": "నవంబర్ 21 వరకు సముద్రంలోకి వెళ్లొద్దని సూచన",
+   "src": "Deccan Chronicle (PTI)",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-akvan-80-fishermen-from-kakinada-stranded-at-odisha-jetty-2005828",
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "AP",
+   "place": "ap-kakinada",
+   "loc": "ఆర్యపల్లి, గంజాం (ఒడిశా)",
+   "pub": "2026-11-19T13:17+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Cyclone Akvan",
+    "h": "80 Kakinada fishermen shelter in Odisha",
+    "stat": "80 fishermen",
+    "statl": "sheltering at Odisha jetty",
+    "loc": "Aryapalli, Ganjam (Odisha)",
+    "p": "Rough seas caused by Cyclone Akvan forced about 80 fishermen from Kakinada with 10 boats to shelter at the Aryapalli jetty in Odisha's Ganjam district. Officials said the district administration has provided facilities. The fishermen are cooking on their boats.",
+    "pts": [
+     "They will return to AP once the sea calms",
+     "All Ganjam fishermen were back ashore by Monday"
+    ],
+    "why": "Reassuring news for Kakinada fishing families with members at sea during the cyclone.",
+    "next": "Fishermen told not to venture out until November 21"
+   },
+   "hi": {
+    "cat": "आंध्र · चक्रवात अक्वान",
+    "h": "ओडिशा में रुके काकीनाडा के 80 मछुआरे",
+    "stat": "80 मछुआरे",
+    "statl": "ओडिशा जेटी पर शरण",
+    "loc": "आर्यपल्ली, गंजाम (ओडिशा)",
+    "p": "चक्रवात अक्वान से समुद्र उफनने के कारण काकीनाडा के करीब 80 मछुआरों ने 10 नावों के साथ ओडिशा के गंजाम जिले की आर्यपल्ली जेटी पर शरण ली। अधिकारियों ने बताया कि जिला प्रशासन ने सुविधाएं दी हैं। मछुआरे नावों पर ही खाना बना रहे हैं।",
+    "pts": [
+     "समुद्र शांत होने पर आंध्र लौटेंगे",
+     "गंजाम के सभी मछुआरे सोमवार तक लौट आए थे"
+    ],
+    "why": "चक्रवात के दौरान समुद्र में गए काकीनाडा के मछुआरा परिवारों के लिए राहत की खबर।",
+    "next": "21 नवंबर तक समुद्र में न जाने की सलाह"
+   },
+   "d": "19.11.2026",
+   "t": "14:35"
+  },
+  {
+   "cat": "హైదరాబాద్ · నేరాలు",
+   "col": "--c-city",
+   "pic": "c/crime",
+   "stat": "21 కేసులు",
+   "statl": "ఉన్న నిందితుడి అరెస్టు",
+   "h": "పాతబస్తీలో 21 కేసుల నిందితుడి అరెస్టు",
+   "p": "పీడీ చట్టం కింద నిర్బంధ ఉత్తర్వులు ఉన్నా పరారీలో ఉన్న 44 ఏళ్ల గంజాయి విక్రేతను పాతబస్తీలో కమిషనర్ టాస్క్‌ఫోర్స్ బుధవారం అరెస్టు చేసినట్లు పోలీసులు తెలిపారు. చార్మినార్ జోన్ పోలీస్ స్టేషన్లలో అతనిపై 21 కేసులు ఉన్నాయి. నాగపూర్ నుంచి గంజాయి తెచ్చి నగరంలో అమ్మేవాడని, భవానీనగర్ పోలీసులతో కలిసి పట్టుకున్నామని తెలిపారు.",
+   "pts": [
+    "నవంబర్ 10న పీడీ చట్టం ఉత్తర్వులు జారీ",
+    "జూలైలో 2.3 కిలోల గంజాయితో పట్టుబడ్డాడు"
+   ],
+   "why": "పాతబస్తీలో మాదకద్రవ్యాల అమ్మకాలపై పోలీసుల చర్యలు స్థానికుల భద్రతకు సంబంధించినవి.",
+   "src": "Siasat Daily",
+   "url": "https://www.siasat.com/ganja-peddler-with-21-cases-arrested-by-task-force-in-old-city-3581115/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "తలాబ్‌కట్ట, పాతబస్తీ",
+   "pub": "2026-11-19T13:21+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Crime",
+    "h": "Old City: man with 21 cases held",
+    "stat": "21 cases",
+    "statl": "against arrested accused",
+    "loc": "Talabkatta, Old City",
+    "p": "The Commissioner's Task Force arrested a 44-year-old ganja peddler in the Old City on Wednesday who was absconding despite a PD Act detention order, police said. He faces 21 cases in Charminar Zone. Police said he bought ganja in Nagpur and sold it in the city.",
+    "pts": [
+     "PD Act detention order issued on November 10",
+     "Caught with 2.3 kg ganja in July"
+    ],
+    "why": "Police action on drug sales in the Old City affects local residents' safety."
+   },
+   "hi": {
+    "cat": "हैदराबाद · अपराध",
+    "h": "पुराने शहर में 21 मामलों का आरोपी गिरफ्तार",
+    "stat": "21 मामले",
+    "statl": "गिरफ्तार आरोपी पर",
+    "loc": "तलाबकट्टा, पुराना शहर",
+    "p": "पुलिस के मुताबिक, कमिश्नर टास्क फोर्स ने बुधवार को पुराने शहर में 44 वर्षीय गांजा विक्रेता को गिरफ्तार किया, जो पीडी एक्ट के हिरासत आदेश के बावजूद फरार था। चारमीनार ज़ोन में उस पर 21 मामले हैं। पुलिस ने बताया वह नागपुर से गांजा लाकर शहर में बेचता था।",
+    "pts": [
+     "10 नवंबर को पीडी एक्ट आदेश जारी",
+     "जुलाई में 2.3 किलो गांजे के साथ पकड़ा गया"
+    ],
+    "why": "पुराने शहर में नशे की बिक्री पर पुलिस कार्रवाई स्थानीय लोगों की सुरक्षा से जुड़ी है।"
+   },
+   "d": "19.11.2026",
+   "t": "14:35"
+  },
+  {
+   "cat": "తెలంగాణ · విత్తనాలు",
+   "col": "--c-gov",
+   "art": "farm",
+   "pic": "c/agriculture",
+   "stat": "విత్తన ఒప్పందం",
+   "statl": "మహారాష్ట్రతో",
+   "h": "మహాబీజ్‌తో తెలంగాణ విత్తన ఒప్పందం",
+   "p": "మహారాష్ట్ర విత్తనాల సంస్థ మహాబీజ్, తెలంగాణ రాష్ట్ర విత్తనాభివృద్ధి సంస్థ బుధవారం అవగాహన ఒప్పందం చేసుకున్నాయి. రెండు సంస్థలు ఒకరి రాష్ట్రంలో మరొకరు ఫౌండేషన్, సర్టిఫైడ్ విత్తనాలు ఉత్పత్తి చేస్తాయి. అందుబాటును బట్టి విత్తనాలు సరఫరా చేసుకుంటాయి, డిమాండ్ సమాచారం పంచుకుంటాయి. రెండు సంస్థల ఎండీలు ఒప్పందంపై సంతకాలు చేశారు, సమన్వయ అధికారులను కూడా నియమిస్తారు.",
+   "pts": [
+    "తెలంగాణకు కంది రకం ఎంపీవీ-106 (రాణి)",
+    "టిష్యూ కల్చర్ అరటి, వెదురు మొక్కలు, జీవ ఎరువులు",
+    "తెలంగాణ నుంచి కేసర్ మామిడి మొక్కలు"
+   ],
+   "why": "తెలంగాణ రైతులకు కొత్త రకాల విత్తనాలు, మొక్కలు అందుబాటులోకి రావచ్చు.",
+   "src": "ThePrint (PTI)",
+   "url": "https://theprint.in/india/mahabeej-signs-mou-with-telangana-seed-corporation-to-boost-production-research/3102991/",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-19T13:49+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Seeds",
+    "h": "Telangana seed body signs MoU with Mahabeej",
+    "stat": "Seed MoU",
+    "statl": "Telangana and Maharashtra",
+    "loc": "Telangana",
+    "p": "Maharashtra's seed corporation Mahabeej and the Telangana State Seed Development Corporation signed an MoU on Wednesday. Each will produce foundation and certified seed in the other's state, supply seeds subject to availability, and share information on seed demand.",
+    "pts": [
+     "Tur variety MPV-106 (Rani) for Telangana",
+     "Tissue-culture banana, bamboo plants, bio-fertilisers",
+     "Kesar mango plants from Telangana"
+    ],
+    "why": "Telangana farmers could get access to new seed varieties and plants."
+   },
+   "hi": {
+    "cat": "तेलंगाना · बीज",
+    "h": "महाबीज से तेलंगाना बीज निगम का समझौता",
+    "stat": "बीज समझौता",
+    "statl": "तेलंगाना और महाराष्ट्र के बीच",
+    "loc": "तेलंगाना",
+    "p": "महाराष्ट्र के बीज निगम महाबीज और तेलंगाना राज्य बीज विकास निगम ने बुधवार को समझौता ज्ञापन पर हस्ताक्षर किए। दोनों एक-दूसरे के राज्य में आधार और प्रमाणित बीज उत्पादन करेंगे, उपलब्धता के अनुसार बीज देंगे और मांग की जानकारी साझा करेंगे।",
+    "pts": [
+     "तेलंगाना को अरहर किस्म एमपीवी-106 (रानी)",
+     "टिश्यू कल्चर केला, बांस पौधे, जैव उर्वरक",
+     "तेलंगाना से केसर आम के पौधे"
+    ],
+    "why": "तेलंगाना के किसानों को नई बीज किस्में और पौधे मिल सकते हैं।"
+   },
+   "d": "19.11.2026",
+   "t": "14:35"
+  },
   {
    "cat": "తెలంగాణ · ధాన్యం",
    "col": "--c-gov",
