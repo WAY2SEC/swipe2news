@@ -1,8 +1,172 @@
 {
  "date": "19.11.2026",
- "updated": "2026-11-19T12:35:00+05:30",
+ "updated": "2026-11-19T13:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "ఏపీ · వాతావరణం",
+   "col": "--c-water",
+   "art": "rain",
+   "pic": "c/weather",
+   "stat": "24–36 గంటలు",
+   "statl": "అప్రమత్తత",
+   "h": "ఉత్తర కోస్తాకు అక్వాన్ తుపాను హెచ్చరిక",
+   "p": "అక్వాన్ తీవ్ర తుపాను నర్సాపూర్–పూరీ మధ్య ఉత్తరాంధ్ర–యానాం, దక్షిణ ఒడిశా తీరాన్ని దాటే అవకాశం ఉందని ఐఎండీ తెలిపింది. గంటకు 90–100 కిలోమీటర్ల వేగంతో, గరిష్ఠంగా 110 కిలోమీటర్ల వరకు గాలులు వీయవచ్చు. ఉత్తర కోస్తా జిల్లాలు 24 నుంచి 36 గంటలు అప్రమత్తంగా ఉండాలని ఆర్టీజీఎస్ సూచించింది. ఒడిశాలో సుమారు 50 వేల మందిని సురక్షిత ప్రాంతాలకు తరలించారు.",
+   "pts": [
+    "నవంబర్ 20 తెల్లవారుజామున శ్రీకాకుళం ఉత్తరాన తీరం దాటే అంచనా",
+    "తీరం దాటేటప్పుడు బలహీనపడే అవకాశం: ఆర్టీజీఎస్",
+    "దక్షిణ మధ్య రైల్వే మూడు రైళ్ల సమయాలు మార్చింది"
+   ],
+   "why": "ఉత్తరాంధ్ర తీర ప్రాంత ప్రజలు, మత్స్యకారులు, ఈ మార్గంలో రైలు ప్రయాణికులు జాగ్రత్తగా ఉండాలి.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/nation/current-affairs/live-cyclone-akvan-to-cross-ap-odisha-coasts-today-red-alert-issued-2005764",
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-19T08:01+05:30",
+   "lbl": "forecast",
+   "en": {
+    "cat": "AP · Weather",
+    "h": "Cyclone Akvan alert for north coastal AP",
+    "stat": "24–36 hours",
+    "statl": "alert in north coastal districts",
+    "loc": "North coastal Andhra Pradesh",
+    "p": "IMD said severe cyclonic storm Akvan is likely to cross the north Andhra–Yanam and south Odisha coasts between Narsapur and Puri, with winds of 90–100 kmph gusting to 110 kmph. RTGS asked north coastal districts to stay alert for 24 to 36 hours. Odisha has evacuated about 50,000 people.",
+    "pts": [
+     "Expected to cross north of Srikakulam early on November 20",
+     "Likely to weaken while crossing: RTGS",
+     "South Central Railway rescheduled three trains"
+    ],
+    "why": "People and fishermen on the north Andhra coast and train travellers on this route need to stay cautious."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · मौसम",
+    "h": "उत्तर तटीय आंध्र में चक्रवात अक्वान अलर्ट",
+    "stat": "24–36 घंटे",
+    "statl": "उत्तर तटीय जिलों में सतर्कता",
+    "loc": "उत्तर तटीय आंध्र प्रदेश",
+    "p": "आईएमडी ने कहा कि गंभीर चक्रवाती तूफान अक्वान नरसापुर और पुरी के बीच उत्तर आंध्र–यानम और दक्षिण ओडिशा तट पार कर सकता है। हवा की रफ्तार 90–100 किमी प्रति घंटा, झोंकों में 110 किमी तक रह सकती है। आरटीजीएस ने उत्तर तटीय जिलों को 24 से 36 घंटे सतर्क रहने को कहा। ओडिशा ने करीब 50,000 लोगों को सुरक्षित निकाला है।",
+    "pts": [
+     "20 नवंबर तड़के श्रीकाकुलम के उत्तर में तट पार करने का अनुमान",
+     "तट पार करते समय कमजोर होने की संभावना: आरटीजीएस",
+     "दक्षिण मध्य रेलवे ने तीन ट्रेनों का समय बदला"
+    ],
+    "why": "उत्तर आंध्र तट के लोग, मछुआरे और इस मार्ग के रेल यात्री सावधान रहें।"
+   },
+   "d": "19.11.2026",
+   "t": "13:05"
+  },
+  {
+   "cat": "తెలంగాణ · రాజకీయం",
+   "col": "--c-gov",
+   "art": "economy",
+   "pic": "c/politics",
+   "stat": "₹12 కోట్లు",
+   "statl": "ఖర్చు చేశారని ఆరోపణ",
+   "h": "సీఎం ఫుట్‌బాల్ మైదానంపై కేటీఆర్ ఆరోపణ",
+   "p": "హైదరాబాద్‌లోని ఎంసీఆర్‌హెచ్‌ఆర్‌డీ సంస్థలో సీఎం రేవంత్ రెడ్డి ఫుట్‌బాల్ సాధన కోసం మైదానానికి సుమారు ₹12 కోట్ల ప్రజాధనం ఖర్చు చేశారని బీఆర్ఎస్ వర్కింగ్ ప్రెసిడెంట్ కేటీఆర్ ఆరోపించారు. పేదలు ఇబ్బందుల్లో ఉంటే వ్యక్తిగత సౌకర్యాలకు ఖర్చు చేస్తున్నారని విమర్శించారు. ఇది ప్రజాధనం దుర్వినియోగమేనని ఆయన అన్నారు.",
+   "pts": [
+    "మైదానానికి సుమారు ₹10 కోట్లు, నిర్వహణకు ₹2 కోట్లు అని ఆరోపణ",
+    "ప్రభుత్వాన్ని 'పర్సెంటేజీ పాలన'గా అభివర్ణించారు"
+   ],
+   "why": "ప్రజాధనం ఖర్చుపై అధికార, ప్రతిపక్షాల మధ్య వాదనలో ఇది మరో అంశం.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/ktr-slams-revanth-over-spending-on-football-turf",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-19T12:40+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Politics",
+    "h": "KTR targets CM over football ground spend",
+    "stat": "₹12 crore",
+    "statl": "alleged spending",
+    "loc": "Hyderabad",
+    "p": "BRS working president KT Rama Rao alleged that about ₹12 crore of public money was spent on a football ground at the MCRHRD Institute in Hyderabad for CM Revanth Reddy's practice. He said money went to personal facilities while the poor suffer. He termed it misuse of public money.",
+    "pts": [
+     "Alleged ₹10 crore on the ground, ₹2 crore on upkeep",
+     "He called it a 'percentage regime'"
+    ],
+    "why": "It adds to the ruling party–opposition row over public spending."
+   },
+   "hi": {
+    "cat": "तेलंगाना · राजनीति",
+    "h": "सीएम के फुटबॉल मैदान पर केटीआर का आरोप",
+    "stat": "₹12 करोड़",
+    "statl": "खर्च का आरोप",
+    "loc": "हैदराबाद",
+    "p": "बीआरएस कार्यकारी अध्यक्ष के.टी. रामाराव ने आरोप लगाया कि हैदराबाद के एमसीआरएचआरडी संस्थान में सीएम रेवंत रेड्डी के अभ्यास के लिए फुटबॉल मैदान पर करीब ₹12 करोड़ सरकारी पैसा खर्च हुआ। उन्होंने कहा कि गरीब परेशान हैं और पैसा निजी सुविधाओं पर जा रहा है। उन्होंने इसे जनता के पैसे का दुरुपयोग बताया।",
+    "pts": [
+     "मैदान पर ₹10 करोड़, रखरखाव पर ₹2 करोड़ का आरोप",
+     "सरकार को 'पर्सेंटेज राज' बताया"
+    ],
+    "why": "सरकारी खर्च पर सत्ता पक्ष और विपक्ष की बहस में यह नया मुद्दा है।"
+   },
+   "d": "19.11.2026",
+   "t": "13:05"
+  },
+  {
+   "cat": "తెలంగాణ · విద్య",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "c/education",
+   "stat": "₹76 కోట్లు",
+   "statl": "బకాయిలు ఉన్నాయని ఆరోపణ",
+   "h": "పాఠ్యపుస్తక ప్రింటర్లకు ₹76 కోట్ల బకాయి",
+   "p": "పాఠ్యపుస్తకాలు ముద్రించే 56 వెబ్ ఆఫ్‌సెట్ ప్రింటర్లకు మూడేళ్లుగా సుమారు ₹76 కోట్లు బకాయి ఉందని మాజీ మంత్రి హరీశ్ రావు ఎక్స్‌లో ఆరోపించారు. ఆ సంస్థలు 25 ఏళ్లుగా పుస్తకాలు సరఫరా చేస్తున్నాయని గుర్తుచేశారు. ఆ సంస్థలు జీతాలు, అద్దె, కరెంటు బిల్లులు చెల్లించలేకపోతున్నాయన్నారు. బకాయిలు వెంటనే విడుదల చేయాలని డిప్యూటీ సీఎం భట్టి విక్రమార్కను డిమాండ్ చేశారు.",
+   "pts": [
+    "బకాయిల లెక్క తెలంగాణ వెబ్ ఆఫ్‌సెట్ ప్రింటర్స్ సంఘానిది",
+    "అధికారులను కలిసినా ఫలితం లేదని ప్రింటర్లు చెబుతున్నారని తెలిపారు"
+   ],
+   "why": "పాఠ్యపుస్తకాలు ముద్రించే చిన్న సంస్థలు, వాటి కార్మికులపై ఈ బకాయిల ప్రభావం ఉంటుంది.",
+   "src": "NewsMeter Telugu",
+   "url": "https://telugu.newsmeter.in/telangana/harish-rao-questions-telangana-govt-over-rs-76-crore-pending-bills-for-textbook-printers-779608",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-19T12:40+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Education",
+    "h": "Harish flags dues to textbook printers",
+    "stat": "₹76 crore",
+    "statl": "alleged pending dues",
+    "loc": "Telangana",
+    "p": "Former minister Harish Rao alleged on X that about ₹76 crore has been pending for three years to 56 web-offset printers who print school textbooks for 25 years. He said they cannot pay wages, rent or power bills, and asked Deputy CM Bhatti Vikramarka to release the dues at once.",
+    "pts": [
+     "Dues figure is from the Telangana Web Offset Printers Association",
+     "Printers' visits to officials brought no result, he said"
+    ],
+    "why": "The dues affect small printing firms that make textbooks and their workers."
+   },
+   "hi": {
+    "cat": "तेलंगाना · शिक्षा",
+    "h": "पाठ्यपुस्तक प्रिंटरों के बकाये पर हरीश राव",
+    "stat": "₹76 करोड़",
+    "statl": "बकाये का आरोप",
+    "loc": "तेलंगाना",
+    "p": "पूर्व मंत्री हरीश राव ने एक्स पर आरोप लगाया कि स्कूली पाठ्यपुस्तकें छापने वाले 25 साल से काम कर रहे 56 वेब ऑफसेट प्रिंटरों का करीब ₹76 करोड़ तीन साल से बकाया है। उन्होंने कहा कि वे वेतन, किराया और बिजली बिल नहीं चुका पा रहे, और उपमुख्यमंत्री भट्टी विक्रमार्क से तुरंत भुगतान की मांग की।",
+    "pts": [
+     "बकाये का आंकड़ा तेलंगाना वेब ऑफसेट प्रिंटर्स एसोसिएशन का",
+     "अधिकारियों से मिलने पर भी हल नहीं निकला, उन्होंने कहा"
+    ],
+    "why": "इस बकाये का असर पाठ्यपुस्तक छापने वाली छोटी इकाइयों और उनके कर्मचारियों पर है।"
+   },
+   "d": "19.11.2026",
+   "t": "13:05"
+  },
   {
    "cat": "ఆలేరు · వ్యవసాయం",
    "col": "--c-gov",
@@ -3103,174 +3267,6 @@
    },
    "d": "18.11.2026",
    "t": "23:35"
-  },
-  {
-   "cat": "తెలంగాణ · సంక్షేమం",
-   "col": "--c-gov",
-   "art": "unity",
-   "pic": "c/community",
-   "stat": "సీఎం భేటీ",
-   "statl": "పార్లమెంటరీ కమిటీతో",
-   "h": "ఎస్సీ, ఎస్టీలకు అగ్ర ప్రాధాన్యం: సీఎం",
-   "p": "ఎస్సీ, ఎస్టీల సంక్షేమానికి రాష్ట్ర ప్రభుత్వం అత్యధిక ప్రాధాన్యం ఇస్తోందని సీఎం రేవంత్ రెడ్డి తెలిపారు. బుధవారం హైదరాబాద్‌లోని ఎంసీఆర్‌హెచ్‌ఆర్‌డీలో ఎస్సీ, ఎస్టీల సంక్షేమంపై పార్లమెంటరీ కమిటీ ఛైర్మన్ ఫగ్గన్ సింగ్ కులస్తే, సభ్యులతో ఆయన భేటీ అయ్యారు. సీఎంఆర్‌ఎఫ్, ఆరోగ్యశ్రీ నిధుల్లో సగానికి పైగా ఈ వర్గాలకే వెళ్తున్నాయని చెప్పారు.",
-   "pts": [
-    "ఉస్మానియా వర్సిటీకి తొలిసారి దళిత వీసీ నియామకం",
-    "ఎస్సీ వర్గీకరణ అమలులో దేశంలో తొలి రాష్ట్రమని వెల్లడి",
-    "వర్గీకరణ, యంగ్ ఇండియా పాఠశాలలపై కమిటీ ప్రశంస"
-   ],
-   "why": "రాష్ట్రంలోని ఎస్సీ, ఎస్టీ కుటుంబాలకు అందుతున్న పథకాలపై ప్రభుత్వ వైఖరిని ఇది తెలియజేస్తుంది.",
-   "src": "ThePrint (PTI)",
-   "url": "https://theprint.in/india/telangana-accorded-top-priority-to-sc-st-welfare-cm/3102541/",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "హైదరాబాద్",
-   "pub": "2026-11-18T22:51+05:30",
-   "d": "18.11.2026",
-   "t": "23:05",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Welfare",
-    "h": "SC, ST welfare is top priority: CM",
-    "stat": "CM meets",
-    "statl": "with SC/ST parliamentary panel",
-    "loc": "Hyderabad",
-    "p": "CM Revanth Reddy said the state government gives top priority to the welfare of Scheduled Castes and Scheduled Tribes. He met Parliamentary Committee on SC/ST Welfare chairman Faggan Singh Kulaste and members at MCRHRD, Hyderabad, on Wednesday. He said over half of CMRF and Aarogyasri funds go to these communities.",
-    "pts": [
-     "Osmania University got its first Dalit VC",
-     "Telangana first state to implement SC sub-categorisation, CM said",
-     "Committee praised categorisation and Young India schools"
-    ],
-    "why": "It sets out the government's stand on schemes reaching SC and ST families in Telangana."
-   },
-   "hi": {
-    "cat": "तेलंगाना · कल्याण",
-    "h": "एससी, एसटी कल्याण सर्वोच्च प्राथमिकता: सीएम",
-    "stat": "सीएम की बैठक",
-    "statl": "एससी/एसटी संसदीय समिति से",
-    "loc": "हैदराबाद",
-    "p": "मुख्यमंत्री रेवंत रेड्डी ने कहा कि राज्य सरकार अनुसूचित जाति और जनजाति के कल्याण को सर्वोच्च प्राथमिकता देती है। बुधवार को हैदराबाद के एमसीआरएचआरडी में उन्होंने एससी/एसटी कल्याण संसदीय समिति के अध्यक्ष फग्गन सिंह कुलस्ते और सदस्यों से मुलाकात की। उन्होंने बताया कि सीएमआरएफ और आरोग्यश्री के आधे से अधिक फंड इन्हीं वर्गों को जाते हैं।",
-    "pts": [
-     "उस्मानिया विश्वविद्यालय में पहली बार दलित कुलपति",
-     "सीएम के अनुसार एससी उप-वर्गीकरण लागू करने वाला पहला राज्य",
-     "समिति ने वर्गीकरण और यंग इंडिया स्कूलों की सराहना की"
-    ],
-    "why": "इससे तेलंगाना के एससी, एसटी परिवारों तक पहुंचने वाली योजनाओं पर सरकार का रुख पता चलता है।"
-   }
-  },
-  {
-   "cat": "తెలంగాణ · రాజకీయం",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "c/politics",
-   "stat": "ఫ్లెక్సీలు",
-   "statl": "సీఎం సభకు ముందు",
-   "h": "సిద్దిపేటలో అభివృద్ధిపై ఫ్లెక్సీలు",
-   "p": "సీఎం రేవంత్ రెడ్డి గురువారం సిద్దిపేటలో బహిరంగ సభ నిర్వహించనున్నారు. దానికి ఒక రోజు ముందు, పట్టణ అభివృద్ధిని నిర్లక్ష్యం చేశారని ప్రశ్నిస్తూ బుధవారం పట్టణమంతా ఫ్లెక్సీలు వెలిశాయి. సిద్దిపేటకు మంజూరైన పశువైద్య కళాశాలను కొడంగల్‌కు తరలించడాన్ని, కోమటి చెరువు అభివృద్ధి నిధుల నిలిపివేతను అవి ప్రశ్నించాయి. కాంగ్రెస్ వచ్చాక పనులు ఆగాయని మరికొన్ని ఆరోపించాయి.",
-   "pts": [
-    "విద్యార్థులు, పర్యాటక ప్రియులు, పౌరుల పేరిట ఏర్పాటు",
-    "సభా వేదికకు వెళ్లే దారిలో ఫ్లెక్సీలు",
-    "చెరువు అభివృద్ధి ఘనత హరీశ్ రావుదేనని ఓ ఫ్లెక్సీ"
-   ],
-   "why": "సిద్దిపేటలో నిలిచిన అభివృద్ధి పనులపై స్థానికులలో రాజకీయ చర్చ మొదలైంది.",
-   "next": "సీఎం రేవంత్ రెడ్డి బహిరంగ సభ నవంబర్ 19న సిద్దిపేటలో",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/flexi-banners-question-siddipet-projects-ahead-of-revanths-public-meeting",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "siddipet",
-   "loc": "సిద్దిపేట",
-   "pub": "2026-11-18T21:14+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Telangana · Politics",
-    "h": "Siddipet flexis greet CM's visit",
-    "stat": "Flexi banners",
-    "statl": "before CM meeting",
-    "loc": "Siddipet",
-    "p": "CM Revanth Reddy holds a public meeting in Siddipet on Thursday. A day earlier, flexi banners questioning neglect of the town's development came up across Siddipet. They questioned the shifting of a veterinary college sanctioned for Siddipet to Kodangal and the halt of Komati Cheruvu funds. Others alleged works stalled under Congress.",
-    "pts": [
-     "Put up in the name of students, tourism lovers, citizens",
-     "Placed along the route to the meeting venue",
-     "One credits Harish Rao with developing the lake"
-    ],
-    "why": "Pending development works in Siddipet have become a political debate locally.",
-    "next": "CM Revanth Reddy's public meeting in Siddipet on November 19"
-   },
-   "hi": {
-    "cat": "तेलंगाना · राजनीति",
-    "h": "सिद्दिपेट में सीएम सभा से पहले फ्लेक्सी",
-    "stat": "फ्लेक्सी",
-    "statl": "सीएम सभा से पहले",
-    "loc": "सिद्दिपेट",
-    "p": "सिद्दिपेट में सीएम रेवंत रेड्डी की जनसभा से एक दिन पहले बुधवार को शहर भर में विकास की अनदेखी पर सवाल उठाते फ्लेक्सी लगे। उनमें सिद्दिपेट को मिले पशु चिकित्सा कॉलेज को कोडंगल ले जाने और कोमटी चेरुवु विकास के फंड रोकने पर सवाल किए गए। कुछ में आरोप लगाया गया कि कांग्रेस के आने के बाद काम रुक गए।",
-    "pts": [
-     "छात्रों, पर्यटन प्रेमियों, नागरिकों के नाम से लगे",
-     "सभा स्थल के रास्ते पर लगाए गए",
-     "एक फ्लेक्सी में झील के विकास का श्रेय हरीश राव को"
-    ],
-    "why": "सिद्दिपेट के रुके विकास कार्यों पर स्थानीय स्तर पर राजनीतिक बहस छिड़ी है।",
-    "next": "सीएम रेवंत रेड्डी की जनसभा 19 नवंबर को सिद्दिपेट में"
-   },
-   "d": "18.11.2026",
-   "t": "22:35"
-  },
-  {
-   "cat": "ఏపీ · రాజకీయం",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "c/politics",
-   "stat": "పంచాయతీ ఎన్నికలు",
-   "statl": "కూటమి విజ్ఞప్తి",
-   "h": "పంచాయతీల్లో కూటమికి ఓటేయండి: మాధవ్",
-   "p": "రాబోయే గ్రామ పంచాయతీ ఎన్నికల్లో టీడీపీ, జనసేన, బీజేపీ కూటమి అభ్యర్థులను గెలిపించాలని ఏపీ బీజేపీ అధ్యక్షుడు పీవీఎన్ మాధవ్ బుధవారం విజయవాడలో ప్రజలను కోరారు. టీడీపీ రాష్ట్ర అధ్యక్షుడు శ్రీనివాసరావు, మంత్రి నాదెండ్ల మనోహర్ ఆయనతో పాటు మీడియాతో మాట్లాడారు. కూటమికి మరోసారి అవకాశం ఇస్తే కేంద్రం నుంచి ఎక్కువ నిధులు వస్తాయని మాధవ్ అన్నారు.",
-   "pts": [
-    "ఇటీవలి స్థానిక ఎన్నికల్లో కూటమికి భారీ మెజారిటీ వచ్చిందన్నారు",
-    "విశాఖ సీఐఐ సదస్సుతో పెట్టుబడులు వస్తున్నాయన్నారు"
-   ],
-   "why": "ఏపీలో పంచాయతీ ఎన్నికల్లో ఓటు వేయనున్న గ్రామీణ ఓటర్లకు సంబంధించిన పరిణామం.",
-   "src": "Deccan Chronicle",
-   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/madhav-seeks-public-support-for-nda-nominees-in-gram-panchayat-polls-2005643",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "AP",
-   "loc": "విజయవాడ",
-   "pub": "2026-11-18T21:49+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Politics",
-    "h": "Vote alliance in panchayat polls: Madhav",
-    "stat": "Panchayat polls",
-    "statl": "alliance seeks support",
-    "loc": "Vijayawada",
-    "p": "AP BJP president P.V.N. Madhav on Wednesday in Vijayawada urged voters to elect the TDP, Jana Sena and BJP alliance candidates in the coming gram panchayat polls. TDP state president Srinivasa Rao and minister Nadendla Manohar were with him. He said a fresh mandate would bring more central funds.",
-    "pts": [
-     "Says alliance won huge majority in recent local polls",
-     "Says CII summit in Visakhapatnam is bringing investment"
-    ],
-    "why": "It concerns rural voters who will vote in Andhra Pradesh's panchayat polls."
-   },
-   "hi": {
-    "cat": "आंध्र · राजनीति",
-    "h": "पंचायत चुनाव में गठबंधन को वोट दें: माधव",
-    "stat": "पंचायत चुनाव",
-    "statl": "गठबंधन ने मांगा समर्थन",
-    "loc": "विजयवाड़ा",
-    "p": "आंध्र प्रदेश भाजपा अध्यक्ष पी.वी.एन. माधव ने बुधवार को विजयवाड़ा में मतदाताओं से आगामी ग्राम पंचायत चुनावों में टीडीपी, जनसेना और भाजपा गठबंधन के उम्मीदवारों को जिताने की अपील की। टीडीपी प्रदेश अध्यक्ष श्रीनिवास राव और मंत्री नादेंडला मनोहर उनके साथ थे। उन्होंने कहा कि फिर जनादेश मिलने पर केंद्र से अधिक धन आएगा।",
-    "pts": [
-     "कहा, हाल के स्थानीय चुनावों में गठबंधन को भारी बहुमत",
-     "कहा, विशाखापत्तनम सीआईआई सम्मेलन से निवेश आ रहा"
-    ],
-    "why": "यह आंध्र प्रदेश के पंचायत चुनाव में वोट देने वाले ग्रामीण मतदाताओं से जुड़ा है।"
-   },
-   "d": "18.11.2026",
-   "t": "22:35"
   },
   {
    "cat": "తెలంగాణ · రాజకీయం",
