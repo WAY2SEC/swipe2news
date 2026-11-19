@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-19T19:05:00+05:30",
+ "cutoff": "2026-11-19T19:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T07:05:00+05:30/2026-11-17T07:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 12,
-   "published": 8,
-   "late": 7,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "07:35 run started 07:36 IST; lookback from 23:05. Feeds 07:14, 54/70 ok. add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 8 (in-window: NT CESS per capita 07:24; late: NT Thorrur houses 02:16, AJ Lanco HC 05:58, AJ cold Kohir 05:56, AJ Vizianagaram PD Act 00:18, Hans EMRS 05:45, Hans Indiramma insurance 02:30, Hans FCI hockey 05:30). Duplicates: 10TV Ramoji state festival (=16 Nov 18:27), 10TV Cherlapally coach fire (=16 Nov 19:47), Hans SV Museum (=15 Nov 23:12); V6 Revanth-Chhattisgarh CM meeting treated as same event as 16 Nov 06:48 story. Skipped: Telangana Today POCSO guard (2021 article), TV9 gold price (rates unverified/stale). Not opened/searched: TOI Future City, TOI graft-accused in prison, TOI HC farewell, Eenadu-only items (robots). Build step rewrote index.html/en/hi/te/sitemap.xml; reverted."
-  },
   {
    "window": "2026-11-17T07:35:00+05:30/2026-11-17T08:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 1,
    "gaps": "Feeds 18:46 IST, 70/70 ok, lookback 10:35. Published 6: Andhra Jyothy 11,275 Cheyutha pensions (17:34), NTV AYUSH 70 posts (17:29), Telangana Today Kadem bridge Nirmal (18:38), Telangana Today Gandhi IVF 3 couples (18:20), Siasat EAGLE Gachibowli PG hostel raid (18:39, sensitive, police source, no names), Business Today EPFO SWP (16:40). Duplicate: DC Bay-Tech City Vizag = CM three economic regions review (covered 13:06). Skipped old: Malaysia visa-free end (TTJ 09:49, before lookback). Review: PUC validity revision (ANI page not opened; Autocar Pro has no time). Not opened: Disha AYUSH. District searches: Medak/Siddipet, Guntur/Bapatla, Nellore, Suryapet, Jangaon/Mahabubabad, Srikakulam/Vizianagaram, Wanaparthy/Gadwal/Narayanpet, Kurnool/Anantapur (thin). add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-19T19:05:00+05:30/2026-11-19T19:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 9,
+   "published": 6,
+   "late": 0,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Feeds 19:29 IST, 68/68 ok, lookback 11:05. Published 6: Telangana Today KTR corruption allegations (18:57, claim), South First AP 12 MBBS seats after fee cut (19:01), Telangana Today Kothapet wedding extortion 2 held (18:32, sensitive, police), Telangana Today Nirmal farmer-suicide families support (19:10, sensitive, claim), Telangana Today Cyberabad Moves Nov 26-28 (18:47), NewsMeter Gadkari Surat-Kurnool corridor (18:59). Duplicates: Siasat Nanakramguda Pacifica Hillcrest fire (covered 13:32), Siasat Cheyutha 4.6L new beneficiaries (covered 17:34 pensions story). Not opened: The Hindu (search domain rejected) Aswapuram temple burglaries, CSIR-CCMB wastewater guidelines, Nizam College contract faculty protest, Vizag Port Hospital protest; India Today TN data-leak 15 sacked. WebFetch works only for URLs returned by WebSearch this run. District searches (thin): Adilabad, Karimnagar, Khammam, Srikakulam, Nellore, Anantapur/Kurnool, Mahabubnagar/Nagarkurnool, Vijayawada/Guntur. add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -7503,6 +7503,51 @@
    "url": "https://www.autocarpro.in/news/morth-revises-puc-certificate-validity-by-vehicle-age-and-emission-norms-136027",
    "d": "2026-11-19",
    "w": "review"
+  },
+  {
+   "url": "https://telanganatoday.com/ktr-accuses-congress-government-of-corruption-vows-to-recover-alleged-loot",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://thesouthfirst.com/andhrapradesh/andhra-pradesh-fills-12-vacant-mbbs-seats-in-government-colleges-after-cutting-self-financing-fee-by-40/",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-two-transgender-persons-held-for-extorting-money-at-wedding-procession",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/nirmal-farmer-body-leader-alleges-lack-of-support-for-suicide-hit-families",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/cyberabad-moves-2026-poster-unveiled-df3828ca",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/cyberabad-moves-2026-to-focus-on-safer-smarter-mobility",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/delhi-to-hyderabad-without-passing-through-mumbai-pune-gadkari-outlines-new-road-network-779636",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/flames-seen-climbing-up-high-rise-in-nankramguda-no-damage-reported-3581492/",
+   "d": "2026-11-19",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/govt-to-add-4-6l-new-beneficiaries-to-cheyutha-pension-scheme-3581543/",
+   "d": "2026-11-19",
+   "w": "duplicate"
   }
  ]
 }
