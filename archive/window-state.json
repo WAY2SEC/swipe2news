@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-19T06:05:00+05:30",
+ "cutoff": "2026-11-19T06:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-16T12:35:00+05:30/2026-11-16T13:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 13,
-   "published": 11,
-   "late": 6,
-   "sensitive": 3,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "13:35 run started 13:38 IST (no 13:05 state saved, so window 12:35-13:35); lookback from 04:35. Feeds 12:49, 70/70 ok, 714 uncovered TG/AP (many already covered under other URLs). add_repo/WebFetch not available directly; existing clone reset to origin/main; articles read via sub-agents. Published: NewsMeter Nalgonda Airtel tower theft gang, 10TV TGPSC 102 posts, Siasat Hyderabad builders tanker water (claim), V6 tigers into TG, Siasat Ibrahimpatnam boy missing, V6 Kotapally sand seizure, Federal Akvan landfall Nellore-Tuni Nov 20 (forecast), DC Srikakulam BJP leader car at police, News Arena WPI 12.29%, PTI AI supply-chain declaration, ANI Xi-Trump-Putin summit. Skipped old: Hyderabad Mail gig-worker rules (14 Nov), AP SLPRB 1,156 posts (Sep), DC AP NCD survey (15 Nov 21:35, before lookback), HMTV Banaganapalle bus crash (15 Nov). Not opened: Samayam AP 4 universities (only Eenadu), Samayam Hyderabad 3 RTO offices, NIE digital arrest Rs 1.42 cr, NIE AP paddy purchase delay, NIE Prakasam tobacco no-bid, Hyderabad Mail Rs 1,298 cr land registrations. District searches (Nizamabad, Karimnagar, Adilabad, Siddipet, Kurnool, Nellore, Anantapur, Srikakulam) surfaced only listing pages."
-  },
   {
    "window": "2026-11-16T13:35:00+05:30/2026-11-16T14:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 0,
    "gaps": "Feeds 05:47 IST, 70/70 ok, lookback 21:35. No new eligible story opened. Duplicates: Tirupati 5,000-acre chip park (ANI 18 Nov 16:22, published 16:35), Prakasam Kothapatnam nets fire (published 18 Nov 08:05), SC/ST welfare CM (published 23:05). Skipped as old: DC Lokesh fee reimbursement (16 Nov), DC Prakasam nets fire follow-ups (12:30, 21:30 before lookback), AJ Samvidhan Raksha March (18 Nov 06:53), Wisden Andhra beat Kerala (20:38 IST, before lookback), DC/ThePrint IRC Hyderabad preview (pre-window). Not opened: search did not surface Hindu/TT/Siasat in-window items (IRC 85th session, SCoR 1,560 Pushkaram trips, GVMC Akvan, Sreenidi FC, SPMVV rank, Srikakulam seats, Nagarkurnool principal, Wanaparthy millers, Nallamala CM tour 26th, Amaravati Balotsavam, Tirupati MP rly division); cricketworld fetch failed. add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-19T06:05:00+05:30/2026-11-19T06:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 8,
+   "published": 6,
+   "late": 1,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Feeds 06:29 IST, 68/68 ok, 760 uncovered events in lookback (22:05). Published: TT Sangareddy 200 silencers (00:16), Hans Belum Caves makeover (05:40), Hans Tirupati MP rly division (05:15), Hans Owk anganwadi snakebite (05:34, sensitive), Hans Canara Bank loan mela Kakinada (04:35), HMTV Medchal 5-yr-old road death (22:42, late, sensitive). Duplicate: Hans NDA local poll press meet (same as published Madhav/NDA story). Not opened: Disha & telugunow breakfast scheme 7 districts (fetch error), Sakshi Kamareddy ration cards, DC Kodumur SI, Hans Vijayawada teacher organ donation (not surfaced by search). news.json kept at 557 stories (not trimmed to 50, matching previous runs). add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -6538,6 +6538,46 @@
    "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-to-host-85th-indian-roads-congress-from-nov-19-2003837",
    "d": "2026-11-19",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/sangareddy-police-crush-200-modified-silencers-seized-during-checks",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/belum-caves-set-for-grand-makeover-ahead-of-upcoming-tourism-festival-1143468",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/tirupathi/tirupati-mp-bats-for-divisional-rly-office-in-tirupati-1143457",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/childs-snakebite-exposes-anganwadi-neglect-at-pikkalapalle-thanda-1143465",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kakinada/canara-bank-loan-mela-on-nov-21-1143440",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/hyderabad/5-year-old-boy-killed-in-tragic-road-accident-in-medchal-214566",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/guntur/local-poll-sweep-shows-public-trust-in-coalition-nda-1143471",
+   "d": "2026-11-19",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/medak-sangareddy/sangareddy-police-special-drive-on-modified-silencers-crushed-with-road-214412",
+   "d": "2026-11-19",
+   "w": "duplicate"
   }
  ]
 }
