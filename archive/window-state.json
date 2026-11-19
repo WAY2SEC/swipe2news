@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-19T19:35:00+05:30",
+ "cutoff": "2026-11-19T20:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T07:35:00+05:30/2026-11-17T08:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 15,
-   "published": 8,
-   "late": 6,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "08:05 run started 08:07 IST; lookback from 23:35. Feeds 07:42, 55/70 ok. add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 8 (in-window: AJ Konaseema ONGC gas leak 07:20, NT Rs1,700 cr funds 07:30, BS/Reuters diesel-ATF export levy 07:29; late: AJ AP special TET 04:08, Hans Karnan voter roll 01:52, Hans Kurnool Sanjeevani 03:58, Hans Vijayawada rural panchayats 04:49, Hans VMRDA LRS mela 05:00). Duplicates (URL already published): Hans Bhatti power review, TT T-JUDA Narayanpet, ThePrint Goyal 1,000 planes. Skipped: DC TN rooftop solar (other state, no TG/AP impact), ThePrint Odisha rescue teams (other state; Akvan already covered), Hans Tirupati phase 2 (already published), TT POCSO guard (skipped earlier). Not opened: Sakshi gas leak (used AJ), NDTV/Reuters/India Today originals (wire copies used). District searches Gadwal/Asifabad/Bhupalpally/Srikakulam/Manyam/Annamayya/Bapatla/Mulugu/Nandyal found nothing in window. Build step rewrote index.html/en/hi/te/sitemap.xml; reverted."
-  },
   {
    "window": "2026-11-17T08:05:00+05:30/2026-11-17T08:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Feeds 19:29 IST, 68/68 ok, lookback 11:05. Published 6: Telangana Today KTR corruption allegations (18:57, claim), South First AP 12 MBBS seats after fee cut (19:01), Telangana Today Kothapet wedding extortion 2 held (18:32, sensitive, police), Telangana Today Nirmal farmer-suicide families support (19:10, sensitive, claim), Telangana Today Cyberabad Moves Nov 26-28 (18:47), NewsMeter Gadkari Surat-Kurnool corridor (18:59). Duplicates: Siasat Nanakramguda Pacifica Hillcrest fire (covered 13:32), Siasat Cheyutha 4.6L new beneficiaries (covered 17:34 pensions story). Not opened: The Hindu (search domain rejected) Aswapuram temple burglaries, CSIR-CCMB wastewater guidelines, Nizam College contract faculty protest, Vizag Port Hospital protest; India Today TN data-leak 15 sacked. WebFetch works only for URLs returned by WebSearch this run. District searches (thin): Adilabad, Karimnagar, Khammam, Srikakulam, Nellore, Anantapur/Kurnool, Mahabubnagar/Nagarkurnool, Vijayawada/Guntur. add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-19T19:35:00+05:30/2026-11-19T20:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 2,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 19:48 IST, 70/70 ok, lookback 11:35. Published 2: Deccan Chronicle CM Revanth Siddipet 2029 speech (20:03, claim), Siasat Rajendranagar POCSO 20-year sentence (19:34, sensitive, court source, no names). Duplicate: Siasat Ameenpur toddler rescue (covered 15:49). Skipped old: DC 73 lakh ASDD voters (18 Nov 22:59). Not opened/no result: The Hindu Aswapuram temple burglaries, Srikakulam TDP 29/30 MPPs, Nizam College protest, CCMB wastewater guidelines; ETV Nasha Mukt yatra; HMTV Chinturu MPP; Hans Nagarkurnool sheep camp; Disha Ponnam Husnabad; Hyderabad Mail TG SAFE 90 shops; ETV restaurant service charge HC; TN data leak. ETV AP live blog cached at 17:06 (no 601-MPP SEC entry). District searches thin: Khammam, Visakhapatnam, Nizamabad/Kamareddy, Kadapa/Tirupati, Srikakulam, Nagarkurnool, Karimnagar. add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -7548,6 +7548,26 @@
    "url": "https://www.siasat.com/govt-to-add-4-6l-new-beneficiaries-to-cheyutha-pension-scheme-3581543/",
    "d": "2026-11-19",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/revanth-vows-congress-win-in-siddipet-by-2029-targets-brs-leadership-2005931",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/pocso-court-sentences-20-years-imprisonment-for-hyderabad-resident-3581600/",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/two-year-old-girl-kidnapped-from-home-in-hyderabad-rescued-3581584/",
+   "d": "2026-11-19",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/fresh-chance-for-73-lakh-voters-to-enroll-2005686",
+   "d": "2026-11-19",
+   "w": "skipped"
   }
  ]
 }
