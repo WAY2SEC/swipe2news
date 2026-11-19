@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-19T23:05:00+05:30",
+ "cutoff": "2026-11-19T23:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T11:05:00+05:30/2026-11-17T11:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 4,
-   "late": 3,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Feeds 11:13, 56/70 ok. add_repo not available; used existing clone. Feed URLs only opened after a site-filtered WebSearch returned them. Published: Jadcherla MLA bribe allegation (TT 10:40, claim), Uppal woman assault case (TT 11:11, police), Charlapalli-Kollam Sabarimala specials (Hyderabad Mail 09:41), Kulgam CRPF attacker killed (TT/IANS 10:56, claim). Skipped: Siasat 275 traders (Karnataka, minor), TT Project Pari (Aug 2025 article). Not opened (no search hit): Miryalaguda DCHS warning (HMTV), Kavitha on Harish Rao (HMTV/AJ), Tikait Nov 26 (ETV), Ponnam Elkathurthy school (DC), Rangareddy spending + AP food inflation (Hyderabad Mail), AP 4 universities (Jagran Josh), Abdullapurmet arrests (TT/INDToday), Khammam Indiramma insurance (HMTV). ReNew Rs 80,000 cr = 12 Nov news. 8 district searches (Nalgonda, Visakhapatnam, Tirupati, Karimnagar/Siddipet, Nellore/Ongole, Adilabad/Nirmal/Mancherial, Mahabubnagar/Wanaparthy/Gadwal, Eluru/Rajahmundry/Kakinada) gave no fresh in-window items."
-  },
   {
    "window": "2026-11-17T11:35:00+05:30/2026-11-17T12:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 1,
    "gaps": "Feeds 22:45 IST, 67/70 ok, lookback 14:35. Published 2: UNI BE Biosol-Gates FCM pact (17:23), Business News Week Protolabs GCC (16:23). Skipped old: DC SASCI Rs1,087 cr (18 Nov 22:30). Review: TNM VS Babu death (page time 10:00 conflicts with 14:24 death). Direct feed URLs refused by WebFetch (PROVENANCE_REQUIRED, ~5 min lost); search did not surface: Aswapuram temple theft, Adilabad donkey theft, Sircilla KGBV aviation olympiad, Vizag port hospital protest, Pulivendula, Tirupati MPP, Ongole prisoners escape, HYDRAA four lakes, Vizag 347 foreign jobs. No district searches (time). add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-19T23:05:00+05:30/2026-11-19T23:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 2,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Feeds 23:25 IST, 68/68 ok, lookback 15:05. Published 2: ETV Bharat AP 600 MPP polls completed (22:46), Telangana Today CS reviews Global Summit MoUs (23:11). Duplicates: TG SAFE Kothagudem quack raid (already published from Siasat), Pacifica Hillcrest Nanakramguda fire (already published from ETV 13:32). Search did not surface: Hyderabad <18C cooler mornings (TOI), robotic surgeries in teaching hospitals, Skyroot Vikram-1 partnership, Google AI tools Vizag, Kukatpally truck park auction, Aswapuram temple theft, APRCET notification, SIR 9 forms, Koti Deepotsavam Srisailam, India UNGA Palestine vote. 8 district searches (Warangal, Nalgonda, Nellore, Kurnool, Karimnagar, Khammam, Guntur/Vijayawada, Nizamabad/Adilabad) returned only older tag pages. add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -7743,6 +7743,36 @@
    "url": "https://www.thenewsminute.com/tamil-nadu/tvk-kolathur-mla-vs-babu-who-defeated-mk-stalin-dies-of-illness",
    "d": "2026-11-19",
    "w": "review"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/ap-mandal-parishad-president-elections-2026-aps26111907976",
+   "d": "2026-11-19",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-election-of-president-vice-president-held-in-600-mpps-2006020",
+   "d": "2026-11-19",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-chief-secretary-asks-industries-department-to-monitor-global-summit-mous",
+   "d": "2026-11-19",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/tg-safe-raids-quacks-clinic-in-kothagudem-seizes-34-varieties-of-drugs",
+   "d": "2026-11-19",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/medicines-worth-rs-42000-seized-from-quack-2005985",
+   "d": "2026-11-19",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/fire-breaks-out-in-pacifica-hill-crest-tower-no-casualties",
+   "d": "2026-11-19",
+   "w": "duplicate"
   }
  ]
 }
