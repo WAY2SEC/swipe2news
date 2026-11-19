@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-19T06:35:00+05:30",
+ "cutoff": "2026-11-19T07:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-16T13:35:00+05:30/2026-11-16T14:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 7,
-   "late": 5,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "14:05 run started 14:06 IST; lookback from 05:35. Feeds 13:47, 70/70 ok, 721 uncovered TG/AP (many already covered). add_repo/WebFetch not available directly; existing clone reset to origin/main; articles read via sub-agents. Published: Siasat TG retail inflation 7.26%, NTV AP HC Vijaya Dairy chairman election void (Prajasakti not found), TT/IANS Chiranjeevi AI memorandum, Shiksha KNRUHS NEET PG MQ list, HMTV Eluru 44 sarpanch nominations (late), Hans Vijayawada Rural nominations, HMTV Mulugu Pillala Prajavani. Skipped old: Vaartha TGSRTC women pass concession (announced 13 Nov). Not opened: Samayam AP anganwadi milk price (only Eenadu), Hyderabad Mail/Eenadu 5,670 road deaths, Samayam 3 RTO offices, Moneycontrol AP school land policy, Hindu Santragachi-Prasanthi Nilayam trains. District searches: Jangaon, Mulugu, Gadwal, Mahabubabad, Suryapet, Sircilla, Kamareddy, Vikarabad, Kadapa, Eluru, Chittoor."
-  },
   {
    "window": "2026-11-16T14:05:00+05:30/2026-11-16T14:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Feeds 06:29 IST, 68/68 ok, 760 uncovered events in lookback (22:05). Published: TT Sangareddy 200 silencers (00:16), Hans Belum Caves makeover (05:40), Hans Tirupati MP rly division (05:15), Hans Owk anganwadi snakebite (05:34, sensitive), Hans Canara Bank loan mela Kakinada (04:35), HMTV Medchal 5-yr-old road death (22:42, late, sensitive). Duplicate: Hans NDA local poll press meet (same as published Madhav/NDA story). Not opened: Disha & telugunow breakfast scheme 7 districts (fetch error), Sakshi Kamareddy ration cards, DC Kodumur SI, Hans Vijayawada teacher organ donation (not surfaced by search). news.json kept at 557 stories (not trimmed to 50, matching previous runs). add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-19T06:35:00+05:30/2026-11-19T07:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 0,
+   "published": 0,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 6,
+   "review": 0,
+   "gaps": "Feeds 06:41 IST, 70/70 ok, lookback 22:35. Feed times for checked items were first-seen times; opened pages were older: DC Nandyal unopposed-panchayat incentives (13 Nov), Hans TPCC Vote Rakshaks (17 Nov), DC/Hans Bapatla burglary gang (15-16 Nov), DD India/Hans Revanth meets Modi (15 Nov), Hans Akvan threat (17 Nov). Not opened: The Hindu SCoR 1,560 Pushkaram trips, GVMC Akvan control rooms, NEDO-SRM AP (fetch refused, search did not surface them); search did not surface Sakshi Nallamala CM tour, Indiramma saree/pension launch postponement, HMTV Vijayawada organ donation, Hans Yadadri principal suspension, TV9/News18 Akvan track change. Telangana Today homepage served a cached 18 Nov page. add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -6578,6 +6578,41 @@
    "url": "https://www.hmtvlive.com/telugu-news/medak-sangareddy/sangareddy-police-special-drive-on-modified-silencers-crushed-with-road-214412",
    "d": "2026-11-19",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/panchayats-to-get-incentives-of-up-to-50-lakh-for-unopposed-polls-2004253",
+   "d": "2026-11-19",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/tpcc-appoints-vote-rakshaks-in-all-polling-booths-across-telangana-1142795",
+   "d": "2026-11-19",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/four-member-inter-district-burglary-gang-busted-in-48-hours-2004693",
+   "d": "2026-11-19",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/amp/andhra-pradesh/four-held-in-jewellery-shop-theft-case-1142501",
+   "d": "2026-11-19",
+   "w": "skipped"
+  },
+  {
+   "url": "https://ddindia.co.in/2026/11/telangana-cm-revanth-reddy-meets-pm-modi-invites-him-to-invest-telangana-summit-and-khelo-india-games/",
+   "d": "2026-11-19",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/cm-revanth-reddy-meets-pm-modi-in-delhi-discusses-invest-telangana-global-summit-khelo-india-games-1142401",
+   "d": "2026-11-19",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/amaravati/cyclone-akvan-poses-fresh-threat-to-andhra-pradesh-1142863",
+   "d": "2026-11-19",
+   "w": "skipped"
   }
  ]
 }
