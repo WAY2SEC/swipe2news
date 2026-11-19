@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-19T12:05:00+05:30",
+ "cutoff": "2026-11-19T12:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-16T19:05:00+05:30/2026-11-16T19:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 15,
-   "published": 11,
-   "late": 8,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "19:35 run started 19:38 IST; lookback from 11:05. Feeds 19:12, 70/70 ok, 410 uncovered TG/AP in lookback (most already covered under other wording). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. thehindu.com could not be opened (domain search 400, fetch timeout). Published 11: UNI TG house pattas 7 lakh, NewsMeter PIT-NDPS ganja detention, TT Karthik Agneya Goa swim, HMTV Kadiri axe attack (sensitive), Siasat Kondurg helpers honoured, TT IITH water, TT river boards/Srisailam (claim), Vaartha Vizag 30 e-buses, Jagran/Reuters unemployment 4.9%, BS edible oil import bill, Siasat/AP Jordan Telegram. Skipped: Hussain Sagar campaign (published 05:55, before lookback; likely club press release), AP Investment Protection Act (only 12 Nov coverage reachable), Vidya Vahini (launched 11 Nov). Not opened: Hindu AP Energy Minister DISCOMs Akvan, Hindu NTR district three-phase panchayat polls. Build step rewrote index.html/sitemap.xml/en/hi/te; reverted."
-  },
   {
    "window": "2026-11-16T19:35:00+05:30/2026-11-16T20:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 0,
    "gaps": "Feeds 11:39 IST, 68/70 ok, lookback 03:35, ~868 uncovered events in lookback (185 local). Published 3: TV9 Nagole tree fall death (09:51, late, sensitive), Siasat ASI free entry Charminar/Golconda (09:41, late), Andhra Jyothy 18 Hyderabad-Mangaluru Sankranti specials (11:01). Skipped (old articles found by search): TT free-entry 2022, TT/HNH KCR-Prabhanjan Yadav 2025, NT KCR-R Satyanarayana Jan 2025, DC census caste row Sep 2026, DC Uttam vs KTR/Harish (18 Nov 22:55, before lookback). Not found/opened: NIE email spoofing semiconductor firm, NIE 46 borewells, Hyderabad Mail CESS debt study, Siasat Hyderabad student US shooting, NewsMeter BC Commission census, Sakshi Palnadu HC nominations, Namasthe KCR condolence (11:22), Eenadu AP 3rd phase panchayat notification. District searches not run. add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-19T12:05:00+05:30/2026-11-19T12:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 2,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Feeds 12:12 IST, 70/70 ok, lookback 04:05, ~932 uncovered events with first source after lookback (feed 'covered' flag misses many already-published stories). Published 2: Andhra Jyothy AP phase-3 panchayat notification (11:22), Andhra Jyothy Ibrahimpatnam MDMA arrests (10:59, late, sensitive). Duplicates: Tolichowki SHO ACB (covered 18 Nov), Bandla Ganesh jail (covered 18 Nov), DC Alpha Hotel licence (TG SAFE covered 18 Nov). Skipped (old): DC/Gulte paddy diversion Rs 2,200 cr (4-5 Nov), Siasat Kalwakurthy bypass HC (17 Nov), Hans Vizag cyclone prep (18 Nov), Bejjur bus/BC Commission census (no current article found). Not opened: Siasat Hyderabad student US shooting, Telangana Today Houthis Riyadh, ETV Bharat paddy 25 arrests, HMTV Nalgonda sanitation worker, Samayam Anakapalli forgery. 8 district searches run (Karimnagar, Khammam, Nizamabad, Kurnool, Srikakulam, Visakhapatnam, Adilabad, Nellore/Kakinada) – only tag pages returned. add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -7043,6 +7043,46 @@
    "url": "https://www.deccanchronicle.com/southern-states/telangana/uttam-tears-into-ktr-harish-over-nagarjunasagar-water-diversion-claims-2005682",
    "d": "2026-11-19",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/krishna/ap-third-phase-panchayat-elections-notification-suchi-1577839.html",
+   "d": "2026-11-19",
+   "w": "2026-11-19T12:35"
+  },
+  {
+   "url": "https://telugu.newsmeter.in/andhra-pradesh/ap-sec-releases-notification-for-phase-3-panchayat-elections-polling-on-december-2-779605",
+   "d": "2026-11-19",
+   "w": "2026-11-19T12:35"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/drug-kingpin-arrest-mdma-seizure-suchi-1577834.html",
+   "d": "2026-11-19",
+   "w": "2026-11-19T12:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/alpha-hotel-licence-suspended-again-for-violations-2005745",
+   "d": "2026-11-19",
+   "w": "2026-11-19T12:35"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/food-safety-violations-4-hyderabad-eateries-shut-licences-of-4-others-suspended-779583",
+   "d": "2026-11-19",
+   "w": "2026-11-19T12:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/paddy-stocks-worth-rs-2200-crore-diverted-in-telangana-2001821",
+   "d": "2026-11-19",
+   "w": "2026-11-19T12:35"
+  },
+  {
+   "url": "https://www.siasat.com/hc-rejects-plea-against-kalwakurthy-bypass-land-acquisition-3579789/",
+   "d": "2026-11-19",
+   "w": "2026-11-19T12:35"
+  },
+  {
+   "url": "https://aninews.in/news/national/general-news/8220sho-demanded-rs-50000-per-month8221-acb-catches-tolichowki-police-station-officer-accepting-rs-20000-bribe-in-hyderabad20261119084647/",
+   "d": "2026-11-19",
+   "w": "2026-11-19T12:35"
   }
  ]
 }
