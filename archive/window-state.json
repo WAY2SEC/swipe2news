@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-19T16:35:00+05:30",
+ "cutoff": "2026-11-19T17:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-16T23:35:00+05:30/2026-11-17T05:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 13,
-   "published": 11,
-   "late": 4,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "05:05 run started 05:05 IST; lookback from 15:35. Feeds 04:56, 54/70 ok (Sakshi, V6, TV5, Mana Telangana, Vaartha, Telangana Today feed, 8 district/topic feeds failing 429). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 11 (late: DC ACB Moinabad DA 23:11, BIE scholarships 23:21, voter Rs1,000 23:25, TT paddy 23:33). Skipped: TT POCSO 20 yrs (2021 article), SC/AP SEC candidate list (Oct 21). Duplicate: Prasanthi Nilayam special train (Sathya Sai trains already covered). Not opened fully: Reuters diesel/ATF export levies (DH fetch failed, Daily Guardian copy lede only). news.json kept untrimmed (222) as prior runs. Build step rewrote index.html/sitemap.xml/en/hi/te; reverted."
-  },
   {
    "window": "2026-11-17T05:05:00+05:30/2026-11-17T05:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Feeds 16:11 IST, 67/70 ok, lookback 08:05, 892 uncovered TG/AP events (most already published or old). Published 4: ETV Bharat 85th IRC at HITEX (13:53), HMTV Khammam medical college job rumours (16:23), Telangana Today Rs 5 coin dental claim misleading (15:15), Siasat Hyderabad student dies in NY gun mishap (11:28, late, sensitive, no names). Duplicate: TT Cyberabad PRT (covered by Siasat pod cars 11:08). Skipped: OU human capital centre (2021 article). Not opened: Munsif TS Inter 2027 schedule (fetch error; TOI/EdexLive Google links), Hindu Vizag Port hospital protest, Ameenpur kidnap, Punjagutta baby, Modi India Inc, South Korea ex-PM. District searches: Khammam, Kurnool/Anantapur, Karimnagar/Adilabad (thin). add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-19T16:35:00+05:30/2026-11-19T17:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 2,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 16:57 IST, 70/70 ok, lookback 08:35, 804 uncovered TG/AP events (most published or old). Published 2: Telangana Today Inter 2027 schedule (16:42), Telangana Today Mee Seva borewell permits (16:50). Duplicate: TIME100 Sania Mirza (covered 09:05). Skipped/old: Kothagudem 280 BGL shells (17 Nov), DC Akvan TG orange alert (17 Nov). Not opened/not found: Hindu Akvan heavy rain till Friday, Hindu Vizag Port hospital protest, TT Hyderabad hazy spell, Hans Akvan light rain TG, DC Punjagutta baby, Swarajya AP chip incentives, NTV Uttam water share, News18 Tirupati double decker. District searches: Nalgonda/Suryapet, Nellore/Kurnool (thin). add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -7343,6 +7343,26 @@
    "url": "https://telanganatoday.com/osmania-university-sets-up-human-capital-development-centre",
    "d": "2026-11-19",
    "w": "skip"
+  },
+  {
+   "url": "https://telanganatoday.com/inter-students-get-longer-gaps-in-2027-examination-schedule",
+   "d": "2026-11-19",
+   "w": "2026-11-19T17:05:00+05:30"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-opens-mee-seva-route-for-borewell-permissions",
+   "d": "2026-11-19",
+   "w": "2026-11-19T17:05:00+05:30"
+  },
+  {
+   "url": "https://telanganatoday.com/kothagudem-police-seize-280-bgl-shells-in-forest-dumps",
+   "d": "2026-11-19",
+   "w": "2026-11-19T17:05:00+05:30"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/cyclone-akvan-to-bring-heavy-rain-to-telangana-on-nov-20-21-orange-alert-for-four-districts-2005040",
+   "d": "2026-11-19",
+   "w": "2026-11-19T17:05:00+05:30"
   }
  ]
 }
