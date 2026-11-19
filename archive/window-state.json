@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-19T12:35:00+05:30",
+ "cutoff": "2026-11-19T13:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-16T19:35:00+05:30/2026-11-16T20:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 11,
-   "published": 8,
-   "late": 2,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "20:05 run started 20:06 IST; lookback from 11:35. Feeds 19:51, 70/70 ok, 840 uncovered TG/AP (108 new since 19:10, most minor/entertainment or covered under other wording). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 8: NewsMeter Cherlapally empty coach fire, NewsMeter TG SAFE 23 pharmacies suspended, NewsMeter HC HYDRAA chief Shamshabad contempt (claim), TT BRS Hyderabad water crisis (claim), HMTV Nagarkurnool critical care hospital, HMTV Bhupalpally Sagara protest (claim), NewsBytes Vijayawada no-fly zone for Amit Shah, DC/PTI Census phase-2 self-enumeration. Duplicates: Attapur/Manmohan Singh flyover stunts, old pension mass leave, Cyclone Akwan. Not opened: Hindu TGEJAC PRC (fetch permission timeout), NIE Bangladesh/Hasina (search 400), PIB India-Thailand JTC (not in search), BigTv AP tractor-students accident (not found). District sweep: Gadwal, Medak, Chittoor/Annamayya/Prakasam/Krishna/West Godavari searches returned nothing in window (two domain searches rejected 400). Build step rewrote index.html/sitemap.xml/en/hi/te; reverted."
-  },
   {
    "window": "2026-11-16T20:05:00+05:30/2026-11-16T20:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Feeds 12:12 IST, 70/70 ok, lookback 04:05, ~932 uncovered events with first source after lookback (feed 'covered' flag misses many already-published stories). Published 2: Andhra Jyothy AP phase-3 panchayat notification (11:22), Andhra Jyothy Ibrahimpatnam MDMA arrests (10:59, late, sensitive). Duplicates: Tolichowki SHO ACB (covered 18 Nov), Bandla Ganesh jail (covered 18 Nov), DC Alpha Hotel licence (TG SAFE covered 18 Nov). Skipped (old): DC/Gulte paddy diversion Rs 2,200 cr (4-5 Nov), Siasat Kalwakurthy bypass HC (17 Nov), Hans Vizag cyclone prep (18 Nov), Bejjur bus/BC Commission census (no current article found). Not opened: Siasat Hyderabad student US shooting, Telangana Today Houthis Riyadh, ETV Bharat paddy 25 arrests, HMTV Nalgonda sanitation worker, Samayam Anakapalli forgery. 8 district searches run (Karimnagar, Khammam, Nizamabad, Kurnool, Srikakulam, Visakhapatnam, Adilabad, Nellore/Kakinada) – only tag pages returned. add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-19T12:35:00+05:30/2026-11-19T13:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Feeds 12:50 IST, 70/70 ok, lookback 04:35, 777 uncovered TG/AP events. Published 3: DC Cyclone Akvan live (08:01, late), Telangana Today KTR football turf (12:40), NewsMeter Telugu Harish textbook printers dues (12:40). Duplicates: Siasat/NewsMeter HC trafficking SOPs (covered 18 Nov), The Hindu Raptadu bus overturn (covered 06:30). Skipped (before lookback): DC/Hans Bapatla SP jewellers (18 Nov 23:57 / 04:31), Hans CMC 100-person event notice (01:36). Direct feed URLs refused by WebFetch (permission); only search-result URLs opened. Not opened: Disha Nalgonda sanitation workers attack. No district searches. add_repo not available; used clone."
   }
  ],
  "seen": [
@@ -7083,6 +7083,46 @@
    "url": "https://aninews.in/news/national/general-news/8220sho-demanded-rs-50000-per-month8221-acb-catches-tolichowki-police-station-officer-accepting-rs-20000-bribe-in-hyderabad20261119084647/",
    "d": "2026-11-19",
    "w": "2026-11-19T12:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/nation/current-affairs/live-cyclone-akvan-to-cross-ap-odisha-coasts-today-red-alert-issued-2005764",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/ktr-slams-revanth-over-spending-on-football-turf",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.newsmeter.in/telangana/harish-rao-questions-telangana-govt-over-rs-76-crore-pending-bills-for-textbook-printers-779608",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-hc-tells-dgp-to-tighten-coordination-against-trafficking-3581059/",
+   "d": "2026-11-19",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/human-trafficking-telangana-hc-issues-sops-for-police-ngos-others-here-is-how-to-proceed-779596",
+   "d": "2026-11-19",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/bapatla-sp-asks-jewellers-to-tighten-security-against-burglaries-2005723",
+   "d": "2026-11-19",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/ongole/gold-shop-owners-asked-to-install-cc-cameras-1143439",
+   "d": "2026-11-19",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/three-day-notice-must-for-gatherings-exceeding-100-people-1143381",
+   "d": "2026-11-19",
+   "w": "skipped"
   }
  ]
 }
