@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-19T08:05:00+05:30",
+ "cutoff": "2026-11-19T08:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-16T15:05:00+05:30/2026-11-16T15:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 13,
-   "published": 10,
-   "late": 9,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "15:35 run started 15:36 IST; lookback from 07:05. Feeds 15:18, 68/68 ok, 694 uncovered TG/AP (many already covered). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published: ETV Bharat Hyderabad PRTS pod cars, Tribune IG Defence AP missile complex, Vaartha AP Anganwadi milk +Rs9, HMTV Srikakulam mayor nominations, Vaartha TG rice millers rules, TV9 Mallapur boy trough death, V6 Raikal school fee complaint (claim), ETV Bharat Tadwai man Malaysia jail (claim), HMTV Nalgonda power petrol (claim), Siasat APCR detentions (claim). Duplicates: Mahabubabad suicide case arrests (covered 15 Nov), gig workers scheme (covered 14 Nov). Skipped old: AP NCD survey (15 Nov, covered), Eli Lilly CM push (15 Nov), GAIL-KRIBHCO MoU (13 Nov). Not opened: Samayam 3 Hyderabad RTO offices, Samayam AP 4 universities (Eenadu only alt), EdexLive Hetero BPharm fee."
-  },
   {
    "window": "2026-11-16T15:35:00+05:30/2026-11-16T16:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Feeds 07:44 IST, 70/70 ok, lookback 23:35 (223 uncovered events since 05:30, most with first-seen times). Published 1: The Federal Trump–Xi–Putin Shenzhen meeting (07:18, fact). Skipped: DC Indiramma bima Siddipet launch (10 Nov, event already covered), Hans Kurnool NDA clash (6 Nov, old), Telugu360 Naidu HC petitions (Mar 2026, old). Not opened: CNBC (client error), France24 (robots), Asianet IMD (empty page); search did not surface NTV AP HC Naidu case closure, Eenadu/Andhra Jyothy Vaikuntha darshan 8.34 lakh, AJ RRR-south land acquisition, Hans AP power demand 18.23%, HMTV Shankarapatnam bridge protest, NDTV Anthropic IPO $83, ETV Tirupati semiconductor park. District searches (Nalgonda, Karimnagar, Kurnool, Warangal, Hyderabad, Visakhapatnam) returned only tag/index pages. add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-19T08:05:00+05:30/2026-11-19T08:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 5,
+   "review": 0,
+   "gaps": "Feeds 08:09 IST, 70/70 ok, lookback 00:05. Published 3: Andhra Jyothy Raptadu travels bus overturn (06:30, 30–40 injured), Hans Bhupalpally Indiramma insurance enrolment till Dec 18 (06:00), IANS IND–NZ 1st Test NZ 140/5 at tea (08:26). Skipped: Telangana Today TG rain Nov 19–22 (published 17 Nov, old), ETV Tirumala darshan wait (routine), BigTV Palnadu Gamalapadu lorry crash (too few confirmed facts, in same article as bus crash), IANS/Tribune lunch score (superseded), Hans Bhupalpally is a district angle of the already-covered Indiramma insurance launch. Not opened: NST Israel central Gaza ground op (robots), search did not surface Hans Guntur LRS mela, Hans Nellore non-paddy crops, Hans Sathya Sai rythu bazaar, Samayam/AJ deputy collectors suspension, Eenadu/V6 Nagole tree-fall death, NewsOnAir Modi–Prince William meeting, TV9 AP DSC 2,111 posts. District searches (Khammam, Nizamabad, Srikakulam, Nellore, Mahabubnagar, Kadapa, Adilabad, Vizianagaram) returned only tag/index pages. add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -6686,6 +6686,36 @@
   },
   {
    "url": "https://www.telugu360.com/?p=347843",
+   "d": "2026-11-19",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/ananthapuram/private-travels-bus-overturns-near-ramane-palli-in-anantapur-district-and-30-to-40-passengers-injured-vk-1577786.html",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/telangana/rs-5-lakh-life-insurance-scheme-roll-out-today-1143508",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://ianslive.in/1st-test-nicholls-phillips-lead-fightback-as-nz-reach-1405-at-tea--20261119082449",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://ianslive.in/1st-test-bumrah-strikes-twice-as-india-reduce-new-zealand-to-604-at-lunch-on-day-1--20261119054405",
+   "d": "2026-11-19",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.bigtvlive.com/andhra-pradesh/horrific-road-accident-in-anantapur-district-travel-bus-overturns-leaving-30-passengers-injured.html",
+   "d": "2026-11-19",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-to-witness-widespread-rainfall-from-november-19-to-22",
    "d": "2026-11-19",
    "w": "skipped"
   }
