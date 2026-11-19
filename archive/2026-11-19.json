@@ -1,63 +1,302 @@
 {
  "date": "19.11.2026",
  "iso": "2026-11-19",
- "count": 38,
+ "count": 42,
  "stories": [
+  {
+   "cat": "ఏపీ · తిరుపతి",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "i/semiconductors",
+   "stat": "5,000 ఎకరాల్లో",
+   "statl": "సెమీకండక్టర్ పార్కు",
+   "h": "తిరుపతిలో 5,000 ఎకరాల్లో చిప్ పార్కు",
+   "p": "తిరుపతి సమీపంలో 5,000 ఎకరాల్లో అంతర్జాతీయ ప్రమాణాలతో సెమీకండక్టర్ పార్కు ఏర్పాటుకు ఏపీ ప్రభుత్వం చర్యలు చేపట్టింది. కేంద్రం చేపట్టిన ఇండియా సెమీకండక్టర్ మిషన్ 2.0కు అనుగుణంగా రాష్ట్ర ఫ్యాబ్ పాలసీని సవరించింది. ప్రభుత్వ, ప్రైవేటు భాగస్వామ్యంలో నడిచే పార్కులో క్లీన్‌రూమ్‌లు, అధిక వోల్టేజీ విద్యుత్, శుద్ధ నీరు కల్పిస్తారు.",
+   "pts": [
+    "సిలికాన్ ఫ్యాబ్‌లకు 80% వరకు మూలధన సాయం",
+    "డిజైన్ స్టార్టప్‌లకు ₹22.5 కోట్ల వరకు సీడ్ నిధులు",
+    "పార్కులో సెమీకండక్టర్ శిక్షణ కేంద్రం ఏర్పాటు"
+   ],
+   "why": "చిప్ పరిశ్రమల్లో ఉద్యోగాలు ఆశిస్తున్న తిరుపతి ప్రాంత యువతకు ఈ ప్రణాళిక ముఖ్యం.",
+   "src": "ETV Bharat",
+   "url": "https://www.etvbharat.com/te/state/ap-government-steps-to-develop-semiconductor-park-near-tirupati-aps26111900481",
+   "sec": [
+    "telangana",
+    "business",
+    "innovation"
+   ],
+   "st": "AP",
+   "place": "ap-tirupati",
+   "loc": "తిరుపతి",
+   "pub": "2026-11-19T07:15+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Tirupati",
+    "h": "5,000-acre chip park planned at Tirupati",
+    "stat": "5,000 acres",
+    "statl": "semiconductor park",
+    "loc": "Tirupati",
+    "p": "The Andhra Pradesh government has begun steps to set up a 5,000-acre semiconductor park of international standard near Tirupati. It amended the state fab policy to align with the Centre's India Semiconductor Mission 2.0. The park, run under a public-private partnership, will offer cleanrooms, high-voltage power and ultrapure water.",
+    "pts": [
+     "Silicon fabs get up to 80% capital support",
+     "Design startups get seed funding up to ₹22.5 crore",
+     "A semiconductor training centre in the park"
+    ],
+    "why": "The plan matters to young people in the Tirupati region hoping for chip-industry jobs."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · तिरुपति",
+    "h": "तिरुपति में 5,000 एकड़ का चिप पार्क",
+    "stat": "5,000 एकड़",
+    "statl": "सेमीकंडक्टर पार्क",
+    "loc": "तिरुपति",
+    "p": "आंध्र प्रदेश सरकार ने तिरुपति के पास 5,000 एकड़ में अंतरराष्ट्रीय स्तर का सेमीकंडक्टर पार्क बनाने के कदम उठाए हैं। केंद्र के इंडिया सेमीकंडक्टर मिशन 2.0 के अनुरूप राज्य की फैब नीति में संशोधन किया गया। सार्वजनिक-निजी भागीदारी में चलने वाले पार्क में क्लीनरूम, हाई-वोल्टेज बिजली और शुद्ध पानी मिलेगा।",
+    "pts": [
+     "सिलिकॉन फैब को 80% तक पूंजी सहायता",
+     "डिज़ाइन स्टार्टअप को ₹22.5 करोड़ तक सीड फंड",
+     "पार्क में सेमीकंडक्टर प्रशिक्षण केंद्र"
+    ],
+    "why": "तिरुपति क्षेत्र के युवाओं के लिए चिप उद्योग में नौकरियों की दृष्टि से यह अहम है।"
+   },
+   "d": "19.11.2026",
+   "t": "10:05"
+  },
+  {
+   "cat": "ఏపీ · విజయవాడ",
+   "col": "--c-city",
+   "art": "",
+   "pic": "n/condolence",
+   "stat": "61 మృతదేహాలు",
+   "statl": "36 బాక్సుల్లోనే",
+   "h": "విజయవాడ మార్చురీలో 61 మృతదేహాలు",
+   "p": "విజయవాడ ప్రభుత్వ ఆసుపత్రి మార్చురీలో 61 గుర్తుతెలియని మృతదేహాలు ఉండగా, ఫ్రీజర్ బాక్సులు 36 మాత్రమే ఉన్నాయి. దాంతో ఒక్కో బాక్సులో రెండు మృతదేహాలు ఉంచుతున్నారు. రెండు నెలలుగా గుర్తింపు, అంత్యక్రియల్లో జాప్యంపై పోలీస్ కమిషనర్ రాజశేఖర్ బాబు ఆగ్రహం వ్యక్తం చేసి అధికారులకు మెమోలు ఇచ్చారు.",
+   "pts": [
+    "ఎస్‌హెచ్‌ఓలు, సీఐలు, ఏసీపీలకు మెమోలు",
+    "పెండింగ్ కేసుల్లో గుర్తింపు వేగవంతం చేయాలని ఆదేశం",
+    "గుర్తించలేని మృతదేహాలకు నిబంధనల ప్రకారం అంత్యక్రియలు"
+   ],
+   "why": "తప్పిపోయిన వారి కోసం వెతుకుతున్న కుటుంబాలకు త్వరిత గుర్తింపు ముఖ్యం.",
+   "src": "TV9 Telugu",
+   "url": "https://tv9telugu.com/andhra-pradesh/61-unidentified-bodies-piled-up-at-vijayawada-government-hospital-mortuary-1961893.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-ntr",
+   "loc": "విజయవాడ",
+   "pub": "2026-11-19T09:00+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Vijayawada",
+    "h": "61 unidentified bodies at Vijayawada mortuary",
+    "stat": "61 bodies",
+    "statl": "in 36 boxes",
+    "loc": "Vijayawada",
+    "p": "The Vijayawada government hospital mortuary holds 61 unidentified bodies but has only 36 freezer boxes, so two bodies are kept in each box. Angered by two months of delays in identification and last rites, Police Commissioner Rajasekhar Babu issued memos to the officers concerned.",
+    "pts": [
+     "Memos to SHOs, CIs and ACPs",
+     "Order to speed up identification in pending cases",
+     "Unidentified bodies to get last rites as per rules"
+    ],
+    "why": "Faster identification matters to families searching for missing relatives."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · विजयवाड़ा",
+    "h": "विजयवाड़ा मुर्दाघर में 61 अज्ञात शव",
+    "stat": "61 शव",
+    "statl": "36 बॉक्स में",
+    "loc": "विजयवाड़ा",
+    "p": "विजयवाड़ा सरकारी अस्पताल के मुर्दाघर में 61 अज्ञात शव हैं, लेकिन फ्रीज़र बॉक्स केवल 36 हैं, इसलिए एक बॉक्स में दो शव रखे जा रहे हैं। दो महीने से पहचान और अंतिम संस्कार में देरी पर पुलिस आयुक्त राजशेखर बाबू ने नाराज़गी जताई और संबंधित अधिकारियों को मेमो दिए।",
+    "pts": [
+     "एसएचओ, सीआई और एसीपी को मेमो",
+     "लंबित मामलों में पहचान तेज़ करने का आदेश",
+     "अज्ञात शवों का नियमानुसार अंतिम संस्कार"
+    ],
+    "why": "लापता परिजनों को खोज रहे परिवारों के लिए जल्द पहचान अहम है।"
+   },
+   "d": "19.11.2026",
+   "t": "10:05"
+  },
+  {
+   "cat": "ఏపీ · ఉద్యోగాలు",
+   "col": "--c-gov",
+   "art": "campus",
+   "pic": "c/jobs",
+   "stat": "2,111 పోస్టులు",
+   "statl": "టీచర్ ఖాళీలు",
+   "h": "ఏపీ డీఎస్సీలో 2,111 టీచర్ పోస్టులు",
+   "p": "ఏపీ డీఎస్సీ-2026 ద్వారా మొత్తం 2,111 ఉపాధ్యాయ పోస్టులు భర్తీ కానున్నాయి. ప్రభుత్వ, జడ్పీ, ఎంపీపీ పాఠశాలల్లో 1,709 పోస్టులు, మున్సిపాలిటీలు, కార్పొరేషన్ల పాఠశాలల్లో 402 పోస్టులు ఉన్నాయి. వీటిలో ఎస్జీటీ పోస్టులు 1,205 కాగా, మిగిలినవి సబ్జెక్టుల వారీ స్కూల్ అసిస్టెంట్ పోస్టులు. దరఖాస్తు వివరాలకు అధికారిక నోటిఫికేషన్ చూడాలి.",
+   "pts": [
+    "స్కూల్ అసిస్టెంట్ హిందీ 202, సోషల్ 160",
+    "బయాలజీ 151, వ్యాయామ విద్య 110, ఇంగ్లిష్ 87",
+    "ఫిజికల్ సైన్స్ 45, గణితం 41 పోస్టులు"
+   ],
+   "why": "ఏపీలో టీచర్ ఉద్యోగాలకు సిద్ధమవుతున్న అభ్యర్థులకు సబ్జెక్టుల వారీ ఖాళీలు తెలుస్తాయి.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/education-careers/ap-dsc-2026-vacancy-details-2111-teacher-posts-announced-214607",
+   "sec": [
+    "telangana",
+    "jobs",
+    "education"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-19T08:07+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Jobs",
+    "h": "AP DSC: 2,111 teacher posts",
+    "stat": "2,111 posts",
+    "statl": "teacher vacancies",
+    "loc": "Andhra Pradesh",
+    "p": "AP DSC-2026 will fill 2,111 teacher posts in all: 1,709 in government, ZP and MPP schools and 402 in municipalities and corporations. Of these, 1,205 are SGT posts and the rest are subject-wise School Assistant posts. Application details are in the official notification.",
+    "pts": [
+     "School Assistant Hindi 202, Social Studies 160",
+     "Biology 151, Physical Education 110, English 87",
+     "Physical Science 45, Mathematics 41"
+    ],
+    "why": "Candidates preparing for teacher jobs in AP can see vacancies by subject."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · नौकरियां",
+    "h": "एपी डीएससी में 2,111 शिक्षक पद",
+    "stat": "2,111 पद",
+    "statl": "शिक्षक रिक्तियां",
+    "loc": "आंध्र प्रदेश",
+    "p": "एपी डीएससी-2026 में कुल 2,111 शिक्षक पद भरे जाएंगे: सरकारी, जेडपी और एमपीपी स्कूलों में 1,709 तथा नगरपालिकाओं और निगमों में 402। इनमें 1,205 एसजीटी पद हैं और बाकी विषयवार स्कूल असिस्टेंट पद हैं। आवेदन का विवरण आधिकारिक अधिसूचना में है।",
+    "pts": [
+     "स्कूल असिस्टेंट हिंदी 202, सामाजिक अध्ययन 160",
+     "जीवविज्ञान 151, शारीरिक शिक्षा 110, अंग्रेज़ी 87",
+     "भौतिक विज्ञान 45, गणित 41"
+    ],
+    "why": "आंध्र प्रदेश में शिक्षक नौकरी की तैयारी कर रहे उम्मीदवारों को विषयवार रिक्तियां पता चलेंगी।"
+   },
+   "d": "19.11.2026",
+   "t": "10:05"
+  },
+  {
+   "cat": "ఏపీ · రైల్వే",
+   "col": "--c-city",
+   "art": "",
+   "pic": "c/transport",
+   "stat": "ఉదయం 5:35",
+   "statl": "విశాఖ నుంచి బయలుదేరే వీలు",
+   "h": "విశాఖ–తిరుపతి మధ్య కొత్త వందేభారత్",
+   "p": "విశాఖపట్నం నుంచి తిరుపతికి మరో వందేభారత్ రైలు నడపడానికి రైల్వే శాఖ సానుకూలంగా ఉందని వన్ఇండియా తెలుగు పేర్కొంది. సీఎం చంద్రబాబు, పలువురు ఎంపీలు ఈ రైలు కోసం కోరారు. ప్రతిపాదిత షెడ్యూల్ ప్రకారం రైలు ఉదయం 5:35కు విశాఖలో బయలుదేరి మధ్యాహ్నం 2:10కి తిరుపతి చేరుతుంది. సమయాలు ఇంకా అధికారికంగా ఖరారు కాలేదు.",
+   "pts": [
+    "సామర్లకోట, రాజమండ్రి, విజయవాడ, ఒంగోలు, నెల్లూరులో హాల్టులు",
+    "తిరుగు ప్రయాణం తిరుపతిలో మధ్యాహ్నం 2:55కు",
+    "ప్రారంభ తేదీ ఇంకా ప్రకటించలేదు"
+   ],
+   "why": "ఉత్తరాంధ్ర, గోదావరి జిల్లాల నుంచి తిరుమల వెళ్లే భక్తులకు ఈ రైలు ఉపయోగపడుతుంది.",
+   "src": "Oneindia Telugu",
+   "url": "https://telugu.oneindia.com/news/andhra-pradesh/railways-all-set-to-launch-visakhapatnam-tirupati-vande-bharat-express-almost-finalises-schedule-515587.html",
+   "sec": [
+    "telangana",
+    "india"
+   ],
+   "st": "AP",
+   "place": "ap-visakhapatnam",
+   "loc": "విశాఖపట్నం",
+   "pub": "2026-11-19T09:00+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "AP · Railways",
+    "h": "New Vande Bharat likely for Vizag–Tirupati",
+    "stat": "5:35 am",
+    "statl": "likely departure from Vizag",
+    "loc": "Visakhapatnam",
+    "p": "Railways is positive about running another Vande Bharat train from Visakhapatnam to Tirupati, Oneindia Telugu reports. CM Chandrababu Naidu and several MPs had sought it. Under the proposed schedule it would leave Visakhapatnam at 5:35 am and reach Tirupati at 2:10 pm. The timings are not yet officially finalised.",
+    "pts": [
+     "Halts at Samalkot, Rajahmundry, Vijayawada, Ongole, Nellore",
+     "Return trip leaves Tirupati at 2:55 pm",
+     "No launch date announced yet"
+    ],
+    "why": "The train would help pilgrims travelling to Tirumala from north coastal AP and the Godavari districts."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · रेलवे",
+    "h": "विशाखापत्तनम–तिरुपति नई वंदे भारत संभव",
+    "stat": "सुबह 5:35",
+    "statl": "विशाखापत्तनम से संभावित प्रस्थान",
+    "loc": "विशाखापत्तनम",
+    "p": "वनइंडिया तेलुगु के अनुसार रेलवे विशाखापत्तनम से तिरुपति के लिए एक और वंदे भारत ट्रेन चलाने पर सकारात्मक है। मुख्यमंत्री चंद्रबाबू नायडू और कई सांसदों ने इसकी मांग की थी। प्रस्तावित समय-सारिणी में ट्रेन सुबह 5:35 बजे विशाखापत्तनम से चलकर दोपहर 2:10 बजे तिरुपति पहुंचेगी। समय अभी आधिकारिक रूप से तय नहीं है।",
+    "pts": [
+     "सामलकोट, राजमुंद्री, विजयवाड़ा, ओंगोल, नेल्लोर में ठहराव",
+     "वापसी में तिरुपति से दोपहर 2:55 बजे",
+     "शुरुआत की तारीख अभी घोषित नहीं"
+    ],
+    "why": "उत्तर तटीय आंध्र और गोदावरी ज़िलों से तिरुमला जाने वाले श्रद्धालुओं के लिए यह ट्रेन उपयोगी होगी।"
+   },
+   "d": "19.11.2026",
+   "t": "10:05"
+  },
   {
    "cat": "తెలంగాణ · పథకాలు",
    "col": "--c-gov",
    "art": "",
    "pic": "c/women",
-   "stat": "కోటి చీరలు",
-   "statl": "నేటి నుంచి పంపిణీ",
-   "h": "నేడు ఇందిరమ్మ చీరల పంపిణీ ప్రారంభం",
-   "p": "మాజీ ప్రధాని ఇందిరా గాంధీ జయంతి సందర్భంగా రాష్ట్ర ప్రభుత్వం నేటి నుంచి కోటి ఇందిరమ్మ చీరల పంపిణీ మొదలుపెడుతోంది. సిద్దిపేటలో జరిగే బహిరంగ సభలో సీఎం రేవంత్ రెడ్డి ఈ కార్యక్రమాన్ని లాంఛనంగా ప్రారంభిస్తారు. చీరలు ఇప్పటికే అన్ని జిల్లాలకు చేరాయని అధికారులు తెలిపారు. ఈ కార్యక్రమం అన్ని జిల్లాల్లో ఒకేసారి మొదలవుతుంది.",
+   "stat": "నవంబర్ 26",
+   "statl": "నుంచి చీరలు, కొత్త పింఛన్లు",
+   "h": "ఇందిరమ్మ చీరల పంపిణీ నవంబర్ 26కు వాయిదా",
+   "p": "ఇందిరా గాంధీ జయంతి సందర్భంగా నేడు సిద్దిపేటలో ప్రారంభం కావాల్సిన ఇందిరమ్మ చీరల పంపిణీ, కొత్త చేయూత పింఛన్ల జమను ప్రభుత్వం వాయిదా వేసింది. రాజ్యాంగ దినోత్సవమైన నవంబర్ 26న సీఎం రేవంత్ రెడ్డి వీటిని ప్రారంభిస్తారు. రెండు కార్యక్రమాలను వేర్వేరుగా, పెద్ద ఎత్తున జరపాలని నిర్ణయించినట్లు ప్రభుత్వం తెలిపింది.",
    "pts": [
-    "చీరలు చిలుక పచ్చ రంగులో ఉంటాయి",
-    "పుట్టింటి కానుకగా అందిస్తున్నట్లు ప్రభుత్వం వెల్లడి",
-    "మహిళల సాధికారతే లక్ష్యమన్న మంత్రి సీతక్క"
+    "కోటి మంది మహిళలకు చిలుక పచ్చ రంగు చీరలు",
+    "4,63,857 మంది కొత్త పింఛనుదారుల ఖాతాల్లో జమ",
+    "చీరలు ఇప్పటికే జిల్లాల గోదాములకు చేరాయి"
    ],
-   "why": "రాష్ట్రంలోని మహిళలకు ఇందిరమ్మ చీరలు అందనున్నాయి.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/telangana/cm-to-launch-distribution-of-one-crore-indiramma-sarees-today-1143506",
+   "why": "చీరలు, కొత్త పింఛన్ల కోసం ఎదురుచూస్తున్నవారు నవంబర్ 26 వరకు ఆగాలి.",
+   "src": "10TV Telugu",
+   "url": "https://www.10tv.in/telugu-news/telangana/telangana-govt-postpones-indiramma-sarees-distribution-and-cheyutha-pension-release-to-november-26-sn-1159463.html",
    "sec": [
     "telangana"
    ],
    "st": "TG",
    "place": "siddipet",
    "loc": "సిద్దిపేట",
-   "pub": "2026-11-19T05:45+05:30",
+   "pub": "2026-11-19T09:17+05:30",
    "lbl": "fact",
    "en": {
     "cat": "Telangana · Schemes",
-    "h": "Indiramma saree distribution begins today",
-    "stat": "1 crore sarees",
-    "statl": "distribution from today",
+    "h": "Indiramma saree distribution put off to Nov 26",
+    "stat": "From November 26",
+    "statl": "sarees and new pensions",
     "loc": "Siddipet",
-    "p": "On former PM Indira Gandhi's birth anniversary, the Telangana government begins distributing one crore Indiramma sarees today. CM Revanth Reddy will formally launch it at a public meeting in Siddipet. Officials said the sarees have already reached all districts. Distribution starts in all districts at the same time.",
+    "p": "The Indiramma saree distribution and the credit of new Cheyutha pensions, due to start today in Siddipet on Indira Gandhi's birth anniversary, have been postponed. CM Revanth Reddy will launch them on November 26, Constitution Day. The government said it decided to hold the two programmes separately and on a larger scale.",
     "pts": [
-     "The sarees are parrot green",
-     "Government calls it a gift from the parental home",
-     "Minister Seethakka says women's empowerment is the aim"
+     "Parrot-green sarees for one crore women",
+     "Credit to 4,63,857 new pensioners' accounts",
+     "Sarees have already reached district godowns"
     ],
-    "why": "Women across Telangana will receive Indiramma sarees."
+    "why": "Those waiting for sarees and new pensions must wait until November 26.",
+    "next": "CM to launch on November 26"
    },
    "hi": {
     "cat": "तेलंगाना · योजनाएं",
-    "h": "आज से इंदिरम्मा साड़ी वितरण शुरू",
-    "stat": "1 करोड़ साड़ियां",
-    "statl": "आज से वितरण",
+    "h": "इंदिरम्मा साड़ी वितरण 26 नवंबर तक टला",
+    "stat": "26 नवंबर से",
+    "statl": "साड़ियां, नई पेंशन",
     "loc": "सिद्दिपेट",
-    "p": "पूर्व प्रधानमंत्री इंदिरा गांधी की जयंती पर तेलंगाना सरकार आज से एक करोड़ इंदिरम्मा साड़ियों का वितरण शुरू कर रही है। मुख्यमंत्री रेवंत रेड्डी सिद्दिपेट की जनसभा में इसकी औपचारिक शुरुआत करेंगे। अधिकारियों के अनुसार साड़ियां सभी जिलों में पहुंच चुकी हैं। वितरण सभी जिलों में एक साथ शुरू होगा।",
+    "p": "इंदिरा गांधी की जयंती पर आज सिद्दिपेट में शुरू होने वाला इंदिरम्मा साड़ी वितरण और नई चेयूता पेंशन का जमा टाल दिया गया है। मुख्यमंत्री रेवंत रेड्डी 26 नवंबर, संविधान दिवस पर इनकी शुरुआत करेंगे। सरकार ने कहा कि दोनों कार्यक्रम अलग-अलग और बड़े पैमाने पर होंगे।",
     "pts": [
-     "साड़ियां तोता-हरे रंग की हैं",
-     "सरकार ने इसे मायके का उपहार बताया",
-     "मंत्री सीतक्का: लक्ष्य महिला सशक्तिकरण"
+     "एक करोड़ महिलाओं को तोता-हरी साड़ियां",
+     "4,63,857 नए पेंशनधारकों के खातों में राशि",
+     "साड़ियां ज़िला गोदामों में पहुंच चुकी हैं"
     ],
-    "why": "तेलंगाना की महिलाओं को इंदिरम्मा साड़ियां मिलेंगी।"
+    "why": "साड़ियों और नई पेंशन का इंतज़ार कर रहे लोगों को 26 नवंबर तक रुकना होगा।",
+    "next": "26 नवंबर को मुख्यमंत्री करेंगे शुरुआत"
    },
    "d": "19.11.2026",
-   "t": "09:35"
+   "t": "09:35",
+   "_sid": "1iu49v7",
+   "next": "నవంబర్ 26న సీఎం చేతుల మీదుగా ప్రారంభం",
+   "corr": {
+    "at": "19.11.2026 10:05",
+    "te": "నేటి నుంచి చీరల పంపిణీ మొదలవుతుందని రాశాం. ప్రభుత్వం బుధవారమే చీరల పంపిణీని, కొత్త చేయూత పింఛన్ల జమను నవంబర్ 26కు వాయిదా వేసింది. శీర్షిక, వివరాలను సరిచేశాం.",
+    "en": "We reported that saree distribution begins today. The government had already postponed the saree distribution and the new Cheyutha pension credit to November 26 on Wednesday. We corrected the headline and details.",
+    "hi": "हमने लिखा था कि साड़ी वितरण आज से शुरू होगा। सरकार ने बुधवार को ही साड़ी वितरण और नई चेयूता पेंशन जमा को 26 नवंबर तक टाल दिया था। शीर्षक और विवरण सुधारे गए।"
+   }
   },
   {
    "cat": "తెలంగాణ · సంక్షేమం",
