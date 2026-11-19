@@ -111,6 +111,43 @@ def pictures_needed(d):
         if hits: out.append((k, v, hits))
     return out
 
+KEEP_NEWEST = 60
+def trim_feed(d, root):
+    """news.json is the file every phone downloads first: keep it small (owner 19 Nov 2026 – it had grown to 582
+    stories / 2.5 MB, so on 4G the app timed out and showed yesterday's saved news). Older stories stay in
+    archive/<date>.json, which the app loads for today and the date list. A story is removed only if its day's
+    archive already has it."""
+    L = d['stories'] if isinstance(d, dict) else d
+    if len(L) <= KEEP_NEWEST:
+        return []
+    arch = {}
+    def in_archive(s):
+        day = str(s.get('pub') or '')[:10]
+        if not re.match(r'\d{4}-\d\d-\d\d$', day):
+            return False
+        if day not in arch:
+            try:
+                a = json.load(open(os.path.join(root, 'archive', day + '.json'), encoding='utf-8'))
+                arch[day] = {x.get('h') for x in (a['stories'] if isinstance(a, dict) else a)}
+            except Exception:
+                arch[day] = set()
+        return s.get('h') in arch[day]
+    keep, n = [], 0
+    for s in L:
+        if s.get('kind'):
+            keep.append(s); continue
+        n += 1
+        if n <= KEEP_NEWEST or not in_archive(s):
+            keep.append(s)
+    gone = len(L) - len(keep)
+    if not gone:
+        return []
+    if isinstance(d, dict):
+        d['stories'] = keep
+    else:
+        L[:] = keep
+    return [f'news.json trimmed to the newest {KEEP_NEWEST} stories ({gone} older ones stay in archive/) so phones load it fast']
+
 def main():
     args = sys.argv[1:]
     fix = '--fix' in args
@@ -121,6 +158,8 @@ def main():
     for f in files:
         d = json.load(open(f, encoding='utf-8'))
         errs, warns, fixed = check(d, fix)
+        if fix and os.path.basename(f) == 'news.json':
+            fixed += trim_feed(d, os.path.dirname(os.path.abspath(f)))
         if fix and fixed:
             json.dump(d, open(f, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
         n = len([s for s in stories(d) if not s.get('kind')])
