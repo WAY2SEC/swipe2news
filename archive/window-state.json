@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-19T09:05:00+05:30",
+ "cutoff": "2026-11-19T09:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-16T16:05:00+05:30/2026-11-16T16:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 18,
-   "published": 15,
-   "late": 10,
-   "sensitive": 3,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "16:35 run started 16:37 IST; lookback from 08:05. Feeds 16:25, 68/68 ok, 722 uncovered TG/AP (most already covered under other wording). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published: DC Naidu Akvan review (forecast), Siasat Adilabad airport stream diversion, DC Soumya Mishra DGP Women Safety, South First AP hostel screening, TT Krishna Kanth Park trees, Andhra Jyothy Parvathapur masked gang (claim), HMTV Bayyaram BRS dharna (claim), NT Bachannapet gurukul plea (claim), Disha Geesugonda Cheyutha event, DC Raja Singh Ayyappa letter (claim), HMTV Proddatur teacher allegation (claim, sensitive), TT Jadcherla custody death (sensitive); India: NTV Kulgam encounter, DD India-Egypt trade, TT/PTI rupee. Duplicate: DC Srikakulam ex-BJP leader car into police (covered 13:35). Skipped: LTCG CBDT (India cap), Andhrajyothy 145 km/h cyclone (folded into review story). Not opened: The Hindu Akvan 173 boats, Andhrajyothy Ayyappa (DC used). District sweep (Nirmal, Kamareddy, Medak, Vikarabad, Wanaparthy, Prakasam, Srikakulam, Vizianagaram, Chittoor, Kurnool) found nothing new in window. build_previews also touched index/sitemap root files, left unchanged."
-  },
   {
    "window": "2026-11-16T16:35:00+05:30/2026-11-16T17:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Feeds 08:42 IST, 70/70 ok, lookback 00:35. Published 3: TV9 Palnadu Gamalapadu container–DCM crash 3 dead (08:07, fact), Hans KTR Sagar tunnel allegation (01:08, late, claim; AP response from DC 23:44 used in pts), TIME100 Next India list (07:00, fact). Duplicates: Hans Palnadu crash, PRNewswire TIME release. Skipped: Andhra Jyothy two Markapuram deputy collectors suspended (06:21) – Samayam headline reports a U-turn, could not confirm, held; Sakshi HC Naidu cases (11 Nov, old). Already covered: Bandla Ganesh jail, Uttam Sagar, green card, Shenzhen trilateral. Not opened: NTV AP HC Naidu case closure, TV9 AP DSC 2,111 posts, ETV Tirupati semiconductor park, Vaartha Cheyutha pension, Suryaa Parigi girl death, V6 Hyderabad vacant flats, NewsMeter Hyderabad groundwater ₹5 lakh, ETV NH44 (search did not surface). add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-19T09:05:00+05:30/2026-11-19T09:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 9,
+   "late": 3,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Feeds 09:10 IST, 68/70 ok, lookback 01:05. Published 9 (all TG/AP): Hans Indiramma sarees launch (05:45), Hans CM–Parliament SC/ST panel (01:12, late), AP7AM Leonid 87 meteors Hyderabad (07:16), Hans Guntur–Krishna teacher MLC enrolment Dec 23 (04:47), Hans Amaravati Balotsavam Dec 4–6 (04:42), Hans Anakapalli Akvan alert (05:06), Hans AVGC sector (01:33, late), V6 Gujarat PSC at TGPSC (08:39), V6 HC mega medical camp (08:38, late). Duplicate: MEIL ₹1 lakh crore valuation (same event as MEIL $700M story). Skipped: Vaartha Cheyutha pension (feed titles conflict: today vs Nov 26). Not opened: CBC Crimea bridge, DH SWR Sathya Sai diversions (client errors); search not run for Eenadu-only items (pulse polio Nov 22, Chittoor suicide). news.json not pruned to 50 (kept prior practice, 578 stories). add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -6763,6 +6763,66 @@
    "url": "https://www.sakshi.com/telugu-news/andhra-pradesh/andhra-pradesh-high-court-hears-seven-cases-involving-chandrababu-naidu",
    "d": "2026-11-19",
    "w": "skipped-old"
+  },
+  {
+   "url": "https://www.thehansindia.com/telangana/cm-to-launch-distribution-of-one-crore-indiramma-sarees-today-1143506",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/telangana-a-role-model-in-sc-and-st-welfare-revanth-reddy-1143367",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ap7am.com/tn/887238/leonid-meteor-shower-in-hyderabad-sky-stunning-visuals-captured-on-camera",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/guntur/teacher-mlc-voter-registration-from-dec-23-1143444",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/vijayawada/amaravati-balotsavam-from-dec-4-to-6-1143442",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/anakapalli-administration-intensifies-cyclone-preparedness-measures-1143452",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/telangana-bets-big-on-animation-gaming-and-vfx-1143378",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/gujarat-psc-team-visits-tgpsc-to-study-recruitment-reforms-and-best-practices",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/-telangana-high-court-organizes-3-day-mega-medical-camp-for-lawyers-and-staff",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/business/megha-engineering-group-valued-at-nearly-1-lakh-crore-as-global-investors-invest-7000-crore-2564010",
+   "d": "2026-11-19",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.cbc.ca/news/world/crimea-bridge-attacked-9.7427374?cmp=rss",
+   "d": "2026-11-19",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.deccanherald.com/india/swr-announces-train-diversions-for-sathya-sai-baba-event-in-andhra-4223392",
+   "d": "2026-11-19",
+   "w": "skip"
   }
  ]
 }
