@@ -119,7 +119,7 @@ def main():
             # Andhra readers choose "AP" as a whole in the app, so AP district news goes to them as one group
             if pl.lower().startswith('ap-') or (s.get('st') == 'AP' and pl.lower() in ('', 'ap')):
                 pl = 'AP'
-            if not pl or pl in ('tg', 'ap', 'TS', 'IN') or sid(s) in done:
+            if not pl or pl in ('tg', 'ap', 'TS', 'IN') or pl.startswith('st-') or sid(s) in done:  # other states: nobody picks them as home
                 continue
             if logged('local', pl, 4) or len(logged('local', pl, 24)) >= 3:
                 continue
