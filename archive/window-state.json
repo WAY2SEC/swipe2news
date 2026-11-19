@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-19T21:35:00+05:30",
+ "cutoff": "2026-11-19T22:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T09:35:00+05:30/2026-11-17T10:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 0,
-   "published": 0,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Run started 10:05 IST; lookback from 01:35. Feeds 09:10 (55 min old), 59/70 ok. add_repo not available; used existing clone at origin/main; articles read via sub-agents. No new eligible events: feed items after 06:30 uncovered by marker were already published or not findable in search. Duplicates: Hans India 'Cyclone Akvan approaches AP coast' (09:13, = 08:35 Akvan story), Sakshi Post 'Cyclone Akvan to intensify further' (07:51). Skipped: Telangana Today BITS Hyderabad desalination patent (16 Nov 17:31, before lookback). Search results old (Feb/Dec 2025 items: Jubilee Hills flyover curbs, HMWSSB treated water, Thane egg racket; PW AP SSC fee 9 Nov). Not found in search: V6 Tummala clarification, V6 Gangapur tourism package, Lokal municipal-poll holiday Nov 26, NIE megalithic burials, NIE AP HC husband-debts ruling, NIE Amit Shah AP economy, NIE Khelo India, NIE Sathya Sai 101st celebrations, TOI Future City Rs18k cr. 8 district/general searches (Warangal, Nellore, Mahabubnagar, Visakhapatnam, Tirupati, Karimnagar, Nizamabad, Telugu general) gave no fresh in-window items."
-  },
   {
    "window": "2026-11-17T10:05:00+05:30/2026-11-17T10:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Feeds 21:23 IST, 68/68 ok, lookback 13:05. Published 6: Telangana Today Uttam Sagar 1.8 TMC (20:33), Andhra Jyothy KRMB letter on new projects (20:52), Deccan Chronicle WHO teams Siddipet/Alwal (21:29), ManaSakshi Narayanpet Jajapur tiger (20:37, sensitive, claim), News Mill/ANI Adibatla Ayyappa protest (21:21, sensitive, claim), News Mill/ANI Revanth $3tn Telangana Rising (21:20). Skipped old: Hans India Kurnool NDA clash (6 Nov); Asianet Anakapalli cyclone review (28 Oct); Cheyutha pensions part already covered. Not opened (direct URLs refused without search; not indexed yet): The Hindu APRCET notification, Adilabad donkey/goat theft, Protolabs GCC, Rs10,000 explosion aid, ASR SAATHI, VSU-FSME; Telangana Today headmasters vocational courses. District searches thin: Kamareddy, Jagtial, Kurnool, Nellore, Kadapa, Mahabubabad, Anantapur, Vizianagaram. add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-19T21:35:00+05:30/2026-11-19T22:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 4,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Feeds 21:47 IST, 70/70 ok, lookback 13:35. Published 4: Siasat TG SAFE meat-shop raids (21:46), NT Jagan caste census (21:23), Telangana Today Boduppal junction widening (20:15), Telangana Today Bondada-RGUKT Basar MoU (15:20, late-found). Not opened (direct URLs refused; not in search results yet): The Hindu 90 medical shops notices, Financial District fire, Tirupati MPP polls delayed, Adilabad donkey theft, Sircilla KGBV aviation olympiad, Koti Deepotsavam Srisailam, Kurnool SP Mantralayam, SCR women conclave; Siasat Gadkari road safety, Houthi Riyadh attack; South First AP Rs1,000 cr hospital plan. No district searches this run (time). add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -7673,6 +7673,31 @@
    "url": "https://newsable.asianetnews.com/india/andhra-minister-reviews-cyclone-damage-in-anakapalli-coastal-villages-articleshow-cke1aeo",
    "d": "2026-11-19",
    "w": "skipped-old"
+  },
+  {
+   "url": "https://www.siasat.com/hyderabad-food-raids-notice-to-licious-karachi-bakery-5-shut-down-3581664/",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://ntnews.com/andhrapradesh-news/ycp-supports-comprehensive-caste-enumeration-ys-jagan-2564458",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/malkajgiri-civic-body-to-widen-bell-mouth-areas-at-boduppal-area-to-ease-traffic-movement",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/bondada-engineering-rgukt-basar-join-hands-for-student-opportunities",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/bondada-inks-mou-with-rgukt-basar/article71721046.ece",
+   "d": "2026-11-19",
+   "w": "published"
   }
  ]
 }
