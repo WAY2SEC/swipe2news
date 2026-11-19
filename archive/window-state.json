@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-19T16:05:00+05:30",
+ "cutoff": "2026-11-19T16:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-16T23:05:00+05:30/2026-11-16T23:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 7,
-   "late": 2,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "23:35 run started 23:35 IST; lookback from 15:05. Feeds 23:26, 68/68 ok, 785 uncovered TG/AP (most already covered under other wording). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 7: DC Hyderabad CP zero tolerance, DC Siddipet CM rally Nov 19, DC Peddagattu jatara 2027, HMTV polytechnic PPP rollback, HMTV Garidepally lorry death (sensitive), TT OU hostel evictions (claim, sensitive), TT Venkaiah Swayamkrushi (late 22:20). Skipped: AP SLPRB 1,156 jobs (notified 16 Sep), BJP Rajamahendravaram mayor candidate (announced 00:36, before lookback). Not opened: Hindu 3,478 pregnant women cyclone (only NewsBytes copy without state/time zone). Build step rewrote index.html/sitemap.xml/en/hi/te; reverted."
-  },
   {
    "window": "2026-11-16T23:35:00+05:30/2026-11-17T05:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Feeds 15:59 IST, 68/70 ok (NewsMeter, Sangareddy district feed 429), lookback 07:35, 780 uncovered TG/AP events in feed (most already published). Published 5: TT Yadagirigutta tents collapse 10 hurt (15:04), Siasat Vikarabad Doma leopard kills calf (15:43), Oneindia Telugu TG letter to Centre/KRMB to halt Palnadu water grid (12:58, late), Siasat Siraj dropped 1st Test (15:36), Telugu360 TN removes 15 Guidance TN officials over alleged leak to AP (15:36, claim). Old: DC CID Peddi Raju job fraud (18 Nov 23:12), Hans Revanth meets Modi (15 Nov). Not searched (time): HMDA Mokila plots, Rail Parcel App (found only Feb 2026 launch), couple suicide note to CM, NY gun accident, Bhadradri temple thefts, KTR Medigadda claim. No district searches (time). add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-19T16:05:00+05:30/2026-11-19T16:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 4,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 16:11 IST, 67/70 ok, lookback 08:05, 892 uncovered TG/AP events (most already published or old). Published 4: ETV Bharat 85th IRC at HITEX (13:53), HMTV Khammam medical college job rumours (16:23), Telangana Today Rs 5 coin dental claim misleading (15:15), Siasat Hyderabad student dies in NY gun mishap (11:28, late, sensitive, no names). Duplicate: TT Cyberabad PRT (covered by Siasat pod cars 11:08). Skipped: OU human capital centre (2021 article). Not opened: Munsif TS Inter 2027 schedule (fetch error; TOI/EdexLive Google links), Hindu Vizag Port hospital protest, Ameenpur kidnap, Punjagutta baby, Modi India Inc, South Korea ex-PM. District searches: Khammam, Kurnool/Anantapur, Karimnagar/Adilabad (thin). add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -7313,6 +7313,36 @@
    "url": "https://www.telugu360.com/tamil-nadu-sacks-15-officials-over-alleged-investment-data-leak-to-andhra-pradesh/",
    "d": "2026-11-19",
    "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/en/bharat/union-minister-gadkari-to-inaugurate-85th-irc-conference-in-hyderabad-today-enn26111903006",
+   "d": "2026-11-19",
+   "w": "p"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/khammam/khammam-medical-college-dont-believe-job-rumors-214814",
+   "d": "2026-11-19",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/rs-5-coins-vanishing-dentists-say-viral-claim-is-misleading",
+   "d": "2026-11-19",
+   "w": "p"
+  },
+  {
+   "url": "https://www.siasat.com/hyderabad-student-killed-in-us-shooting-brother-charged-3581045/",
+   "d": "2026-11-19",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/cyberabad-may-get-personal-rapid-transit-network-to-ease-commuting",
+   "d": "2026-11-19",
+   "w": "dup"
+  },
+  {
+   "url": "https://telanganatoday.com/osmania-university-sets-up-human-capital-development-centre",
+   "d": "2026-11-19",
+   "w": "skip"
   }
  ]
 }
