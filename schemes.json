@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T11:45:00+05:30",
+ "updated": "2026-11-19T11:45:00+05:30",
  "about": "Welfare schemes for Telangana, Andhra Pradesh and India. Facts from official/reputable sources, checked on the given date. Kept up to date by the schemes task.",
  "schemes": [
   {
@@ -206,16 +206,49 @@
    "checked": "2026-11-18"
   },
   {
+   "id": "kalyana-lakshmi",
+   "st": "TG",
+   "cat": "women",
+   "amt": "₹1,00,116",
+   "link": null,
+   "src": "Telangana Today (13 Aug–1 Oct 2026), The South First (13 Aug 2026), Deccan Chronicle (17 Aug 2026)",
+   "checked": "2026-11-19",
+   "te": {
+    "n": "కళ్యాణ లక్ష్మి / షాదీ ముబారక్",
+    "u": "పెళ్లికి ఒకసారి",
+    "b": "పేద కుటుంబాల ఆడపిల్లల పెళ్లికి ₹1,00,116 (అర్హత ఉన్న దివ్యాంగ వధువులకు ₹1,25,145). ఎన్నికల్లో చెప్పిన తులం బంగారం ఇంకా అమలులో లేదు. ఆగస్టులో హైకోర్టు సింగిల్ జడ్జి చెల్లింపులు ఆపగా, సెప్టెంబర్‌లో డివిజన్ బెంచ్ ఆ ఉత్తర్వుపై స్టే ఇచ్చింది; చెక్కుల ఆలస్యంపై ఫిర్యాదులు ఉన్నాయి.",
+    "w": "తెలంగాణలో ఎస్సీ, ఎస్టీ (కళ్యాణ లక్ష్మి), మైనారిటీ (షాదీ ముబారక్), బీసీ, ఈబీసీ కుటుంబాల వధువులు; పెళ్లి నాటికి వధువుకు 18 ఏళ్లు నిండాలి.",
+    "d": "పూర్తి పత్రాల జాబితా ఈ తనిఖీలో నిర్ధారించలేదు – దరఖాస్తుకు ముందు మీ మండల సంక్షేమ అధికారిని అడగండి.",
+    "h": "పెళ్లి తర్వాత ప్రభుత్వానికి దరఖాస్తు చేయాలి; పరిశీలన తర్వాత వధువు తల్లి పేరిట చెక్కు ఇస్తారు."
+   },
+   "en": {
+    "n": "Kalyana Lakshmi / Shaadi Mubarak",
+    "u": "once, for the wedding",
+    "b": "₹1,00,116 for the wedding of girls from poor families (₹1,25,145 for eligible differently-abled brides). The promised one tola of gold is not in force. A High Court single judge halted payments in August; in September a division bench stayed that order. Delays in cheques have been reported.",
+    "w": "Brides from SC, ST (Kalyana Lakshmi), minority (Shaadi Mubarak), BC and EBC families in Telangana; the bride must be 18 or older.",
+    "d": "Full document list not confirmed in this check – ask your mandal welfare officer before applying.",
+    "h": "Apply to the government after the wedding; after verification the cheque is issued in the bride's mother's name."
+   },
+   "hi": {
+    "n": "कल्याण लक्ष्मी / शादी मुबारक",
+    "u": "शादी पर एक बार",
+    "b": "गरीब परिवारों की बेटियों की शादी के लिए ₹1,00,116 (पात्र दिव्यांग दुल्हनों को ₹1,25,145)। वादा किया गया एक तोला सोना लागू नहीं है। अगस्त में हाई कोर्ट के एकल जज ने भुगतान रोका; सितंबर में डिवीजन बेंच ने उस आदेश पर रोक लगाई। चेक में देरी की शिकायतें हैं।",
+    "w": "तेलंगाना के SC, ST (कल्याण लक्ष्मी), अल्पसंख्यक (शादी मुबारक), BC और EBC परिवारों की दुल्हनें; दुल्हन की उम्र कम से कम 18 वर्ष।",
+    "d": "पूरी दस्तावेज़ सूची इस जाँच में पुष्टि नहीं हुई – आवेदन से पहले मंडल कल्याण अधिकारी से पूछें।",
+    "h": "शादी के बाद सरकार को आवेदन; सत्यापन के बाद चेक दुल्हन की माँ के नाम पर।"
+   }
+  },
+  {
    "id": "annadata-sukhibhava",
    "st": "AP",
    "cat": "farm",
    "amt": "₹20,000",
    "link": "https://annadathasukhibhava.ap.gov.in",
-   "src": "AIR News, The Hans India, Telangana Today (PTI)",
+   "src": "The Hans India (31 Oct 2026), AIR News, Telangana Today (PTI)",
    "te": {
     "n": "అన్నదాత సుఖీభవ – పీఎం కిసాన్",
     "u": "రైతు కుటుంబానికి ఏడాదికి",
-    "b": "ఏడాదికి ₹20,000 (రాష్ట్రం ₹14,000 + పీఎం కిసాన్ ₹6,000) మూడు విడతల్లో. 2026-27 రెండో విడత ₹7,000 అక్టోబర్ 30న జమ అయింది.",
+    "b": "ఏడాదికి ₹20,000 (రాష్ట్రం ₹14,000 + పీఎం కిసాన్ ₹6,000) మూడు విడతల్లో. 2026-27 రెండో విడత అక్టోబర్ 30న జమ అయింది – సాంకేతిక కారణాలతో జమ కాని రైతులకు సరిచేయాలని సీఎం ఆదేశించారు.",
     "w": "ఆంధ్రప్రదేశ్‌లో అర్హత ఉన్న రైతు కుటుంబాలు.",
     "d": "ఆధార్, భూమి వివరాలు, ఆధార్ లింక్ అయిన బ్యాంకు ఖాతా, eKYC.",
     "h": "రైతు సేవా కేంద్రం (RSK) లో వివరాలు; స్టేటస్ అధికారిక వెబ్‌సైట్‌లో ఆధార్‌తో చూడొచ్చు."
@@ -223,7 +256,7 @@
    "en": {
     "n": "Annadata Sukhibhava – PM Kisan",
     "u": "per farmer family per year",
-    "b": "₹20,000 a year (₹14,000 state + ₹6,000 PM-Kisan) in three instalments. The second 2026-27 instalment of ₹7,000 was credited on 30 October.",
+    "b": "₹20,000 a year (₹14,000 state + ₹6,000 PM-Kisan) in three instalments. The second 2026-27 instalment was credited on 30 October; the CM ordered fixes for farmers not credited due to technical issues.",
     "w": "Eligible farmer families in Andhra Pradesh.",
     "d": "Aadhaar, land details, Aadhaar-linked bank account, eKYC.",
     "h": "Details at the Rythu Seva Kendra (RSK); check status with Aadhaar on the official website."
@@ -231,12 +264,12 @@
    "hi": {
     "n": "अन्नदाता सुखीभव – पीएम किसान",
     "u": "प्रति किसान परिवार प्रति वर्ष",
-    "b": "साल में ₹20,000 (राज्य ₹14,000 + पीएम-किसान ₹6,000) तीन किस्तों में। 2026-27 की दूसरी किस्त ₹7,000 30 अक्टूबर को जमा हुई।",
+    "b": "साल में ₹20,000 (राज्य ₹14,000 + पीएम-किसान ₹6,000) तीन किस्तों में। 2026-27 की दूसरी किस्त 30 अक्टूबर को जमा हुई; तकनीकी कारणों से छूटे किसानों के लिए सुधार के आदेश।",
     "w": "आंध्र प्रदेश के पात्र किसान परिवार।",
     "d": "आधार, ज़मीन का विवरण, आधार से जुड़ा बैंक खाता, eKYC।",
     "h": "रायतु सेवा केंद्र में जानकारी; स्टेटस आधिकारिक वेबसाइट पर।"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "talliki-vandanam",
@@ -244,11 +277,11 @@
    "cat": "edu",
    "amt": "₹15,000",
    "link": null,
-   "src": "ClearTax, ThePrint",
+   "src": "Deccan Chronicle (16 & 22 Jul 2026), ClearTax, ThePrint",
    "te": {
     "n": "తల్లికి వందనం",
     "u": "ఒక్కో విద్యార్థికి ఏడాదికి",
-    "b": "1 నుంచి 12వ తరగతి చదివే ప్రతి బిడ్డకూ ఏడాదికి ₹15,000 – తల్లి ఖాతాలో ₹13,000, ₹2,000 పాఠశాల నిర్వహణకు. కుటుంబంలో పిల్లలందరికీ వర్తిస్తుంది.",
+    "b": "1 నుంచి 12వ తరగతి చదివే ప్రతి బిడ్డకూ ఏడాదికి ₹15,000 – తల్లి ఖాతాలో ₹13,000, ₹2,000 పాఠశాల నిర్వహణకు. 2026-27 డబ్బు జూలై 22న 42.70 లక్షల తల్లుల ఖాతాల్లో జమ; కొత్తగా చేరిన విద్యార్థులకు ఆగస్టు 30 లోపు.",
     "w": "ఆంధ్రప్రదేశ్‌లో పాఠశాలకు వెళ్లే పిల్లల తల్లులు / సంరక్షకులు; కనీసం 75% హాజరు.",
     "d": "ఆధార్, రైస్ కార్డు, బ్యాంకు ఖాతా (NPCI లింక్), పాఠశాల వివరాలు.",
     "h": "గ్రామ / వార్డు సచివాలయంలో అర్హత జాబితా, సమస్యలుంటే అక్కడే ఫిర్యాదు."
@@ -256,7 +289,7 @@
    "en": {
     "n": "Talliki Vandanam",
     "u": "per student per year",
-    "b": "₹15,000 a year for every child in Classes 1–12 – ₹13,000 to the mother's account and ₹2,000 for school upkeep. Covers all children in the family.",
+    "b": "₹15,000 a year for every child in Classes 1–12 – ₹13,000 to the mother's account and ₹2,000 for school upkeep. The 2026-27 money was credited from 22 July to 42.70 lakh mothers; newly admitted students by 30 August.",
     "w": "Mothers / guardians of school-going children in Andhra Pradesh; at least 75% attendance.",
     "d": "Aadhaar, rice card, bank account (NPCI-linked), school details.",
     "h": "Eligibility lists and complaints at the village / ward secretariat."
@@ -264,12 +297,12 @@
    "hi": {
     "n": "तल्लिकी वंदनम",
     "u": "प्रति छात्र प्रति वर्ष",
-    "b": "कक्षा 1–12 के हर बच्चे के लिए साल में ₹15,000 – माँ के खाते में ₹13,000, ₹2,000 स्कूल रखरखाव।",
+    "b": "कक्षा 1–12 के हर बच्चे के लिए साल में ₹15,000 – माँ के खाते में ₹13,000, ₹2,000 स्कूल रखरखाव। 2026-27 की राशि 22 जुलाई से 42.70 लाख माताओं के खातों में; नए दाखिले वालों को 30 अगस्त तक।",
     "w": "आंध्र प्रदेश में स्कूल जाने वाले बच्चों की माताएँ; कम से कम 75% हाज़िरी।",
     "d": "आधार, राइस कार्ड, बैंक खाता।",
     "h": "ग्राम / वार्ड सचिवालय में जानकारी।"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "ntr-bharosa",
@@ -277,14 +310,14 @@
    "cat": "pension",
    "amt": "₹4,000",
    "link": "https://sspensions.ap.gov.in",
-   "src": "Govt of AP – G.O.Ms.No.43 (13.06.2024)",
+   "src": "Govt of AP – G.O.Ms.No.43 (13.06.2024); Deccan Chronicle (22 Sep & 1 Oct 2026)",
    "te": {
     "n": "ఎన్టీఆర్ భరోసా పింఛన్లు",
     "u": "నెలకు",
     "b": "వృద్ధులు, వితంతువులు, నేత, గీత కార్మికులు, మత్స్యకారులు, ఒంటరి మహిళలు తదితరులకు నెలకు ₹4,000; దివ్యాంగులకు ₹6,000; కొన్ని తీవ్ర వ్యాధుల వారికి ఎక్కువ.",
     "w": "ఆంధ్రప్రదేశ్‌లో అర్హత ఉన్న పేద కుటుంబాల వారు – వర్గాన్ని బట్టి నిబంధనలు.",
     "d": "ఆధార్, వయసు / వర్గ రుజువు, బ్యాంకు ఖాతా, రైస్ కార్డు.",
-    "h": "గ్రామ / వార్డు సచివాలయంలో దరఖాస్తు; ప్రతి నెల 1న ఇంటి వద్దే పంపిణీ."
+    "h": "గ్రామ / వార్డు సచివాలయంలో దరఖాస్తు; ప్రతి నెల 1న ఇంటి వద్దే పంపిణీ. అక్టోబర్ 1 నుంచి కేంద్ర NSAP పింఛనుదారులకు (9.34 లక్షలు) కేంద్ర వాటా ఆధార్ లింక్ బ్యాంకు ఖాతాలో, మిగతా మొత్తం ఇంటి వద్దే."
    },
    "en": {
     "n": "NTR Bharosa pensions",
@@ -292,7 +325,7 @@
     "b": "₹4,000 a month for the elderly, widows, weavers, toddy tappers, fishermen, single women and others; ₹6,000 for persons with disabilities; more for some serious illnesses.",
     "w": "Eligible people from poor families in Andhra Pradesh – rules differ by category.",
     "d": "Aadhaar, age / category proof, bank account, rice card.",
-    "h": "Apply at the village / ward secretariat; paid at the doorstep on the 1st of each month."
+    "h": "Apply at the village / ward secretariat; paid at the doorstep on the 1st of each month. From 1 October, the Centre's share for NSAP pensioners (9.34 lakh) goes to their Aadhaar-linked bank account; the rest is still paid at home."
    },
    "hi": {
     "n": "एनटीआर भरोसा पेंशन",
@@ -300,9 +333,9 @@
     "b": "बुज़ुर्गों, विधवाओं, बुनकरों, मछुआरों, एकल महिलाओं आदि को ₹4,000 प्रति माह; दिव्यांगों को ₹6,000।",
     "w": "आंध्र प्रदेश के पात्र गरीब परिवार।",
     "d": "आधार, आयु / श्रेणी प्रमाण, बैंक खाता, राइस कार्ड।",
-    "h": "ग्राम / वार्ड सचिवालय में आवेदन।"
+    "h": "ग्राम / वार्ड सचिवालय में आवेदन; हर महीने 1 तारीख को घर पर भुगतान। 1 अक्टूबर से NSAP पेंशनरों का केंद्रीय हिस्सा आधार-लिंक्ड बैंक खाते में।"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "stree-shakti",
@@ -311,11 +344,11 @@
    "amt": "ఉచిత బస్సు",
    "amt_en": "Free bus",
    "link": null,
-   "src": "Vikaspedia, PTI (Telangana Today)",
+   "src": "Deccan Chronicle (6 Oct 2026), The Hans India (7 Oct 2026), Vikaspedia",
    "te": {
     "n": "స్త్రీ శక్తి",
     "u": "మహిళలకు",
-    "b": "APSRTC పల్లెవెలుగు, అల్ట్రా పల్లెవెలుగు, సిటీ ఆర్డినరీ, ఎక్స్‌ప్రెస్, మెట్రో బస్సుల్లో రాష్ట్రమంతా ఉచిత ప్రయాణం. నాన్-స్టాప్, సూపర్ లగ్జరీ, AC, ఘాట్ రోడ్డు సర్వీసులకు వర్తించదు.",
+    "b": "APSRTC పల్లెవెలుగు, అల్ట్రా పల్లెవెలుగు, సిటీ ఆర్డినరీ, ఎక్స్‌ప్రెస్, మెట్రో బస్సుల్లో రాష్ట్రమంతా ఉచిత ప్రయాణం. నాన్-స్టాప్, సూపర్ లగ్జరీ, AC, ఘాట్ రోడ్డు సర్వీసులకు వర్తించదు. అక్టోబర్ 2026 నాటికి 100 కోట్లకు పైగా ఉచిత ప్రయాణాలు.",
     "w": "ఆంధ్రప్రదేశ్ నివాసి బాలికలు, మహిళలు, ట్రాన్స్‌జెండర్లు.",
     "d": "ఏదైనా ప్రభుత్వ గుర్తింపు కార్డు.",
     "h": "దరఖాస్తు అవసరం లేదు – బస్సులో గుర్తింపు కార్డు చూపించండి."
@@ -323,7 +356,7 @@
    "en": {
     "n": "Stree Shakti",
     "u": "for women",
-    "b": "Free travel across the state on APSRTC Pallevelugu, Ultra Pallevelugu, City Ordinary, Express and Metro buses. Not valid on Non-Stop, Super Luxury, AC or ghat-road services.",
+    "b": "Free travel across the state on APSRTC Pallevelugu, Ultra Pallevelugu, City Ordinary, Express and Metro buses. Not valid on Non-Stop, Super Luxury, AC or ghat-road services. Over 100 crore free trips made by October 2026.",
     "w": "Girls, women and transgender persons with Andhra Pradesh domicile.",
     "d": "Any government identity card.",
     "h": "No application – show your ID card on the bus."
@@ -331,12 +364,12 @@
    "hi": {
     "n": "स्त्री शक्ति",
     "u": "महिलाओं के लिए",
-    "b": "APSRTC की पल्लेवेलुगु, एक्सप्रेस, सिटी ऑर्डिनरी, मेट्रो बसों में पूरे राज्य में मुफ़्त यात्रा। AC, सुपर लग्ज़री, नॉन-स्टॉप पर लागू नहीं।",
+    "b": "APSRTC की पल्लेवेलुगु, एक्सप्रेस, सिटी ऑर्डिनरी, मेट्रो बसों में पूरे राज्य में मुफ़्त यात्रा। AC, सुपर लग्ज़री, नॉन-स्टॉप पर लागू नहीं। अक्टूबर 2026 तक 100 करोड़ से अधिक मुफ़्त यात्राएँ।",
     "w": "आंध्र प्रदेश की लड़कियाँ, महिलाएँ, ट्रांसजेंडर व्यक्ति।",
     "d": "कोई भी सरकारी पहचान पत्र।",
     "h": "आवेदन नहीं – बस में पहचान पत्र दिखाएँ।"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "deepam-2",
@@ -414,14 +447,14 @@
    "amt_en": "₹5 lakh",
    "link": "https://beneficiary.nha.gov.in",
    "help": "14555",
-   "src": "National Health Authority (via OneIndia, The Logical Indian)",
+   "src": "National Health Authority (via Organiser, 25 Sep 2026; Deccan Herald; OneIndia)",
    "te": {
     "n": "ఆయుష్మాన్ భారత్ – వయ వందన (70+)",
     "u": "ఏడాదికి ఉచిత చికిత్స",
     "b": "70 ఏళ్లు నిండిన ప్రతి ఒక్కరికీ – ఆదాయంతో సంబంధం లేకుండా – ఏడాదికి ₹5 లక్షల వరకు నగదు రహిత ఆసుపత్రి చికిత్స. ఇప్పటికే PM-JAY కుటుంబంలో ఉంటే వారికి అదనంగా ₹5 లక్షలు.",
     "w": "70 ఏళ్లు పైబడిన అందరూ (ఆధార్‌తో వయసు నిర్ధారణ). PM-JAY అర్హత కుటుంబాలకూ ₹5 లక్షలు.",
     "d": "ఆధార్ (ఆధార్ లింక్ మొబైల్).",
-    "h": "Ayushman యాప్ లేదా అధికారిక వెబ్‌సైట్‌లో eKYC చేసి వయ వందన కార్డు పొందండి. హెల్ప్‌లైన్: 14555."
+    "h": "Ayushman యాప్ లేదా అధికారిక వెబ్‌సైట్‌లో eKYC చేసి వయ వందన కార్డు పొందండి. హెల్ప్‌లైన్: 14555. సెప్టెంబర్ 2026 నాటికి 1.36 కోట్లకు పైగా వయ వందన కార్డులు జారీ."
    },
    "en": {
     "n": "Ayushman Bharat – Vay Vandana (70+)",
@@ -429,7 +462,7 @@
     "b": "Everyone aged 70 or above – regardless of income – gets cashless hospital treatment up to ₹5 lakh a year. Seniors in families already under PM-JAY get an extra ₹5 lakh of their own.",
     "w": "All citizens aged 70+ (age checked from Aadhaar). PM-JAY eligible families also get ₹5 lakh.",
     "d": "Aadhaar (with linked mobile).",
-    "h": "Do eKYC on the Ayushman app or the official website to get the Vay Vandana card. Helpline: 14555."
+    "h": "Do eKYC on the Ayushman app or the official website to get the Vay Vandana card. Helpline: 14555. Over 1.36 crore Vay Vandana cards issued by September 2026."
    },
    "hi": {
     "n": "आयुष्मान भारत – वय वंदना (70+)",
@@ -437,9 +470,9 @@
     "b": "70 वर्ष या उससे ऊपर के हर व्यक्ति को – आय कुछ भी हो – साल में ₹5 लाख तक कैशलेस अस्पताल इलाज।",
     "w": "70+ सभी नागरिक (आधार से आयु)।",
     "d": "आधार (लिंक्ड मोबाइल)।",
-    "h": "आयुष्मान ऐप / वेबसाइट पर eKYC करें। हेल्पलाइन: 14555।"
+    "h": "आयुष्मान ऐप / वेबसाइट पर eKYC करें। हेल्पलाइन: 14555। सितंबर 2026 तक 1.36 करोड़ से अधिक वय वंदना कार्ड जारी।"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-19"
   },
   {
    "id": "pm-surya-ghar",
