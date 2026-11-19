@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-19T18:35:00+05:30",
+ "cutoff": "2026-11-19T19:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T06:35:00+05:30/2026-11-17T07:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 13,
-   "published": 9,
-   "late": 7,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 2,
-   "review": 1,
-   "gaps": "07:05 run started 07:06 IST; lookback from 22:35. Feeds 06:49, 47/70 ok. add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 9 (in-window: AJ VB-G RAM G 06:27; late: DC Akvan 23:09, Namasthe mass leave 04:56, Hans Rythu Garjana 01:14, Sakshi fake Vizag rods 05:28, Hans Tirupati phase 2 04:17, Hans Kailasagiri Nandi 05:02, 10TV YSRCP candidates 22:39, ThePrint Santner 04:45). Duplicates: Hans TG rain alert (=DC orange alert 00:26), Hans Sabarimala TDB letter (=16 Nov Pampa clothes), TOI CCS Lucknow firm (=TOMCOM case 15 Nov). Skipped: News On AIR SC AP SEC order (21 Oct, old), BS RBI Tata Sons (22:08, before lookback). Review: BS COP31 electrification (time unverified). Not opened: TOI Future City master plan, News18 Hyderabad Rs84,746 cr (Eenadu robots), Sakshi Nimmakuru APRJC award. Not used: Hans TDP Guntur nominations, Hans Krishna collector cyclone alert. Build step rewrote index.html/en/hi/te; reverted."
-  },
   {
    "window": "2026-11-17T07:05:00+05:30/2026-11-17T07:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Feeds 18:12 IST, 66/70 ok, lookback 10:05. Published 7, all from ETV Bharat AP live blog (one page; URL fragments added to keep links distinct): Akvan landfall near Gopalpur Nov 20 (16:44, forecast), 6 AP MPP polls postponed (16:45), Tadimarri TDP rebels win MPP posts (16:44), Pothavaram Darsi sarpanch candidate attack (16:45, claim, sensitive), TG HC Jagan cases plea to Nov 30 (14:35), tiger in Reddigudem forest NTR (10:57, late), Vizag MDMA 4 held (14:33). Duplicate: CM Siddipet Indiramma insurance launch (covered 11:35). Skipped old: ONGC Konaseema leak (17 Nov), UGC 32 fake universities (Feb 2026). Not opened: The Hindu items (ANGRAU A grade, CID Rs7cr job fraud Guntur, Krishnapatnam 288 EVs, TG 11C chill, Vizag Port Hospital protest), Disha HIV ranking, gold prices, V6 trains cancelled. District searches: Warangal/Hanumakonda, Tirupati/Chittoor, Konaseema/Kakinada, Mancherial/Peddapalli/Jagtial (thin). add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-19T18:35:00+05:30/2026-11-19T19:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 9,
+   "published": 6,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 1,
+   "gaps": "Feeds 18:46 IST, 70/70 ok, lookback 10:35. Published 6: Andhra Jyothy 11,275 Cheyutha pensions (17:34), NTV AYUSH 70 posts (17:29), Telangana Today Kadem bridge Nirmal (18:38), Telangana Today Gandhi IVF 3 couples (18:20), Siasat EAGLE Gachibowli PG hostel raid (18:39, sensitive, police source, no names), Business Today EPFO SWP (16:40). Duplicate: DC Bay-Tech City Vizag = CM three economic regions review (covered 13:06). Skipped old: Malaysia visa-free end (TTJ 09:49, before lookback). Review: PUC validity revision (ANI page not opened; Autocar Pro has no time). Not opened: Disha AYUSH. District searches: Medak/Siddipet, Guntur/Bapatla, Nellore, Suryapet, Jangaon/Mahabubabad, Srikakulam/Vizianagaram, Wanaparthy/Gadwal/Narayanpet, Kurnool/Anantapur (thin). add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -7458,6 +7458,51 @@
    "url": "https://www.etvbharat.com/te/videos/chief-minister-revanth-reddy-speaking-during-his-visit-to-siddipet-district-live-tgs26111901727",
    "d": "2026-11-19",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/telangana-cheyutha-pensions-11275-beneficiaries-vvnp-1577889.html",
+   "d": "2026-11-19",
+   "w": "p"
+  },
+  {
+   "url": "https://ntvtelugu.com/telangana-news/telangana-ayush-jobs-2026-1036796.html",
+   "d": "2026-11-19",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/kadem-river-bridge-work-drags-on-for-four-years",
+   "d": "2026-11-19",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/three-couples-realise-parenthood-dream-through-ivf-at-gandhi-hospital",
+   "d": "2026-11-19",
+   "w": "p"
+  },
+  {
+   "url": "https://www.siasat.com/eagle-raids-mens-hostel-in-gachibowli-6-test-positive-for-ganja-3581520/",
+   "d": "2026-11-19",
+   "w": "p"
+  },
+  {
+   "url": "https://www.businesstoday.in/personal-finance/story/epfo-approves-systematic-withdrawal-plan-swp-retirees-can-receive-monthly-payouts-while-earning-interest-details-here-568560-2026-11-19",
+   "d": "2026-11-19",
+   "w": "p"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/development-plans-of-visakhapatnam-tirupati-and-amaravati-economic-regions-to-serve-as-blueprints-for-ap-development-naidu-2005894",
+   "d": "2026-11-19",
+   "w": "dup"
+  },
+  {
+   "url": "https://traveltradejournal.com/malaysia-to-end-visa-free-entry-for-indian-nationals-from-january-2027/",
+   "d": "2026-11-19",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.autocarpro.in/news/morth-revises-puc-certificate-validity-by-vehicle-age-and-emission-norms-136027",
+   "d": "2026-11-19",
+   "w": "review"
   }
  ]
 }
