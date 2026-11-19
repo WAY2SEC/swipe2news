@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-19T09:35:00+05:30",
+ "cutoff": "2026-11-19T10:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-16T16:35:00+05:30/2026-11-16T17:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 20,
-   "published": 14,
-   "late": 4,
-   "sensitive": 3,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "17:05 run started 17:06 IST; lookback from 08:35. Feeds 16:46, 70/70 ok, 782 uncovered TG/AP. add_repo not available; existing clone used; articles read via sub-agents. Published 14 (TG 11, AP 1, India 1, World 1). Duplicate: AP Investment Protection Act (seen 15 Nov). Skipped old: Estonia border closure (15 Nov 19:38 IST), US temple plot (15 Oct), Andhra constable HC relief (sensitive, low priority). Not opened: TT river board drinking water crisis, TT IIT Hyderabad water cut, Disha collectorate medical students protest, Disha woman electric shock. District sweep (Peddapalli, Sircilla, Suryapet, Gadwal, Medak, Kakinada, Konaseema, Prakasam, Chittoor, West Godavari): 4 HMTV items found, nothing in-window for AP districts, Medak, Gadwal."
-  },
   {
    "window": "2026-11-16T17:05:00+05:30/2026-11-16T17:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Feeds 09:10 IST, 68/70 ok, lookback 01:05. Published 9 (all TG/AP): Hans Indiramma sarees launch (05:45), Hans CM–Parliament SC/ST panel (01:12, late), AP7AM Leonid 87 meteors Hyderabad (07:16), Hans Guntur–Krishna teacher MLC enrolment Dec 23 (04:47), Hans Amaravati Balotsavam Dec 4–6 (04:42), Hans Anakapalli Akvan alert (05:06), Hans AVGC sector (01:33, late), V6 Gujarat PSC at TGPSC (08:39), V6 HC mega medical camp (08:38, late). Duplicate: MEIL ₹1 lakh crore valuation (same event as MEIL $700M story). Skipped: Vaartha Cheyutha pension (feed titles conflict: today vs Nov 26). Not opened: CBC Crimea bridge, DH SWR Sathya Sai diversions (client errors); search not run for Eenadu-only items (pulse polio Nov 22, Chittoor suicide). news.json not pruned to 50 (kept prior practice, 578 stories). add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-19T09:35:00+05:30/2026-11-19T10:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 4,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 1,
+   "duplicates": 1,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Feeds 09:46 IST, 69/70 ok, lookback 01:35. Published 4 AP: ETV Bharat Tirupati 5,000-acre semiconductor park (07:15), TV9 Vijayawada mortuary 61 bodies (09:00), HMTV AP DSC 2,111 posts (08:07), Oneindia Vizag–Tirupati Vande Bharat proposed schedule (09:00, claim). Corrected 1: Indiramma sarees 'begins today' story -> postponed to Nov 26 (10TV 09:17). Duplicate: Kothapatnam nets fire follow-up (Sakshi 05:29; event covered 18 Nov). Skipped: AP deputy collectors suspension (AJ 06:21; Samayam reports U-turn – conflicting, not opened); TG HC protective homes (LiveLaw 18 Nov 19:40, before lookback; NIE 09:34 not found by search); H5N1 chicken vaccine (articles 18 Nov, before lookback; launch Nov 20); Charminar free entry (search returned 2022 page). Not reached for capacity: ~150 other uncovered TG/AP events incl. many Eenadu-only district items; district searches not run this edition. add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -6823,6 +6823,61 @@
    "url": "https://www.deccanherald.com/india/swr-announces-train-diversions-for-sathya-sai-baba-event-in-andhra-4223392",
    "d": "2026-11-19",
    "w": "skip"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/ap-government-steps-to-develop-semiconductor-park-near-tirupati-aps26111900481",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://tv9telugu.com/andhra-pradesh/61-unidentified-bodies-piled-up-at-vijayawada-government-hospital-mortuary-1961893.html",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/education-careers/ap-dsc-2026-vacancy-details-2111-teacher-posts-announced-214607",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/andhra-pradesh/railways-all-set-to-launch-visakhapatnam-tirupati-vande-bharat-express-almost-finalises-schedule-515587.html",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.10tv.in/telugu-news/telangana/telangana-govt-postpones-indiramma-sarees-distribution-and-cheyutha-pension-release-to-november-26-sn-1159463.html",
+   "d": "2026-11-19",
+   "w": "corrected"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/telangana/telangana-govt-postpones-indiramma-sarees-distribution-and-cheyutha-pension-payments-details-here-515593.html",
+   "d": "2026-11-19",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telugu.newsmeter.in/telangana/indiramma-sarees-and-new-cheyutha-pensions-distribution-to-begin-on-november-26-minister-seethakka-779601",
+   "d": "2026-11-19",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/andhra-pradesh/major-fire-buildings-used-store-hunting-equipment-2964832",
+   "d": "2026-11-19",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/ap-govt-suspends-two-deputy-collectors-for-absence-1577782.html",
+   "d": "2026-11-19",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.livelaw.in/high-court/telangana-high-court/telangana-high-court-issues-directions-prevent-traffickers-entering-protective-homes-558986",
+   "d": "2026-11-19",
+   "w": "skipped"
+  },
+  {
+   "url": "https://health.medicaldialogues.in/latest-news/shivraj-singh-chouhan-to-unveil-indias-first-indigenous-bird-flu-vaccine-on-nov-20-183516",
+   "d": "2026-11-19",
+   "w": "skipped"
   }
  ]
 }
