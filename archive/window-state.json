@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-19T08:35:00+05:30",
+ "cutoff": "2026-11-19T09:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-16T15:35:00+05:30/2026-11-16T16:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 10,
-   "published": 3,
-   "late": 3,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 6,
-   "skipped": 7,
-   "review": 2,
-   "gaps": "16:05 run started 16:06 IST; lookback from 07:35. Feeds 15:43, 70/70 ok, 711 uncovered TG/AP (most already covered under other wording). add_repo not available; existing clone used; articles read via sub-agents. Published: NTV AP three tech policies GOs, AP7AM Vanjangi hills closure extended, Siasat/PTI Quad Manila meet. Duplicates (already covered): AP panchayat phase 2, Hyderabad auto bandh Nov 30, TOMCOM complaint, WPI 12.29%, Sathya Sai special trains, Eagle vape racket. Skipped old (11-13 Nov originals): Agnikul Rs510cr, CleanMax Rs50,000cr, Vidya Vahini, IHCL Ginger Atchutapuram, TG auto/EV council; skipped: Kohir cold (covered 15 Nov), FM pre-budget meet (minor). Review: Reliance UCG Eluru Rs43,000cr (no pub time), TG NEET PG R1 result (unconfirmed). Not opened: Disha Kamareddy med college Rs24.40cr, EdexLive Hetero BPharm fee, Eenadu Pulleru boys."
-  },
   {
    "window": "2026-11-16T16:05:00+05:30/2026-11-16T16:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 0,
    "gaps": "Feeds 08:09 IST, 70/70 ok, lookback 00:05. Published 3: Andhra Jyothy Raptadu travels bus overturn (06:30, 30–40 injured), Hans Bhupalpally Indiramma insurance enrolment till Dec 18 (06:00), IANS IND–NZ 1st Test NZ 140/5 at tea (08:26). Skipped: Telangana Today TG rain Nov 19–22 (published 17 Nov, old), ETV Tirumala darshan wait (routine), BigTV Palnadu Gamalapadu lorry crash (too few confirmed facts, in same article as bus crash), IANS/Tribune lunch score (superseded), Hans Bhupalpally is a district angle of the already-covered Indiramma insurance launch. Not opened: NST Israel central Gaza ground op (robots), search did not surface Hans Guntur LRS mela, Hans Nellore non-paddy crops, Hans Sathya Sai rythu bazaar, Samayam/AJ deputy collectors suspension, Eenadu/V6 Nagole tree-fall death, NewsOnAir Modi–Prince William meeting, TV9 AP DSC 2,111 posts. District searches (Khammam, Nizamabad, Srikakulam, Nellore, Mahabubnagar, Kadapa, Adilabad, Vizianagaram) returned only tag/index pages. add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-19T08:35:00+05:30/2026-11-19T09:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 3,
+   "late": 1,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Feeds 08:42 IST, 70/70 ok, lookback 00:35. Published 3: TV9 Palnadu Gamalapadu container–DCM crash 3 dead (08:07, fact), Hans KTR Sagar tunnel allegation (01:08, late, claim; AP response from DC 23:44 used in pts), TIME100 Next India list (07:00, fact). Duplicates: Hans Palnadu crash, PRNewswire TIME release. Skipped: Andhra Jyothy two Markapuram deputy collectors suspended (06:21) – Samayam headline reports a U-turn, could not confirm, held; Sakshi HC Naidu cases (11 Nov, old). Already covered: Bandla Ganesh jail, Uttam Sagar, green card, Shenzhen trilateral. Not opened: NTV AP HC Naidu case closure, TV9 AP DSC 2,111 posts, ETV Tirupati semiconductor park, Vaartha Cheyutha pension, Suryaa Parigi girl death, V6 Hyderabad vacant flats, NewsMeter Hyderabad groundwater ₹5 lakh, ETV NH44 (search did not surface). add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -6718,6 +6718,51 @@
    "url": "https://telanganatoday.com/telangana-to-witness-widespread-rainfall-from-november-19-to-22",
    "d": "2026-11-19",
    "w": "skipped"
+  },
+  {
+   "url": "https://tv9telugu.com/andhra-pradesh/palnadu-road-accident-three-killed-as-container-truck-overturns-on-dcm-lorry-near-gamalapadu-1961863.html",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/three-killed-in-palnadu-after-lorry-collides-dcm-van-1143515",
+   "d": "2026-11-19",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/ktr-warns-of-mass-movement-over-alleged-krishna-water-diversion-1143362",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu360.com/te/ktr-kavitha-allege-ap-nagarjuna-sagar-tunnel-project",
+   "d": "2026-11-19",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-rules-out-illegal-drawal-of-sagar-water-through-palnadu-water-grid-project-2005714",
+   "d": "2026-11-19",
+   "w": "used-in-pts"
+  },
+  {
+   "url": "https://time.com/article/2026/11/19/how-we-chose-time100-next-india/",
+   "d": "2026-11-19",
+   "w": "published"
+  },
+  {
+   "url": "https://www.prnewswire.com/in/news-releases/time-reveals-inaugural-time100-next-india-list-of-the-leaders-defining-the-future-of-india-302944456.html",
+   "d": "2026-11-19",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/ap-govt-suspends-two-deputy-collectors-for-absence-1577782.html",
+   "d": "2026-11-19",
+   "w": "review"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/andhra-pradesh/andhra-pradesh-high-court-hears-seven-cases-involving-chandrababu-naidu",
+   "d": "2026-11-19",
+   "w": "skipped-old"
   }
  ]
 }
