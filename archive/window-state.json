@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-19T20:35:00+05:30",
+ "cutoff": "2026-11-19T21:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T08:35:00+05:30/2026-11-17T09:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 4,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Run started 09:05 IST; lookback from 00:35. Feeds 09:04, 52/70 ok (Eenadu feed failing). add_repo not available; used existing clone at origin/main; articles read via sub-agents. Published 4: 10TV Inter syllabus unchanged 08:14, NewsMeter land re-survey excess land 08:32, Oneindia AP 12th PRC ToR 08:21, NTV Naidu Delhi trip 08:36. Duplicates: V6 Revanth-Chhattisgarh Sammakka NOC meet (=16 Nov 07:05 story), Siasat Moinabad TPO DA case (=17 Nov 05:05). Not opened/not found in search: TOI Future City Rs18k cr, NIE Telangana ACB crores, NIE Enumamula trader, NIE Khelo India, NewsMeter Patancheru Nakkavagu, Sakshi Bank of Maharashtra MoU. District searches (Nalgonda, Khammam, Kurnool, Srikakulam, Karimnagar, Guntur, Adilabad, Kakinada) gave no fresh in-window items. Build step rewrote index.html/en/hi/te/sitemap.xml; reverted."
-  },
   {
    "window": "2026-11-17T09:05:00+05:30/2026-11-17T09:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Feeds 20:25 IST, 67/68 ok, lookback 12:05. Published 5: Siasat Nagarkurnool bonded labourers (20:03), Telangana Today Banjara Hills woman assault case (20:01, sensitive, police, no names), Andhra Jyothy AP HC EWS/CBI plea (20:12), Telangana Today TGSRTC driver removed (20:22), Al Jazeera ICJ Myanmar Rohingya genocide ruling (10:31 page time, zone not shown; taken as UTC=16:01 IST). Skipped old: ThePrint Lokesh Raptadu survivor (18 Nov 18:51); Coca-Cola Rs 1,127 cr AP (Sept 2026 approvals, re-reported). Duplicate: SASCI incentive (covered 18 Nov). Not opened: The Hindu Harish/Uttam 2 TMC Sagar, Kurnool SP Mantralayam, CCMB guidelines, Nizam College protest; Hyderabad Mail Komatireddy roads, TG SAFE. District searches thin: Adilabad, Nizamabad, Kakinada, Eluru/West Godavari, Prakasam, Mancherial/Peddapalli, Chittoor/Tirupati, Vikarabad/Sangareddy, Khammam/Bhadradri. add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-19T20:35:00+05:30/2026-11-19T21:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 3,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 20:42 IST, 69/70 ok, lookback 12:35. Published 3: BIG TV Srikakulam cyclone school holiday (20:37), Telangana Today Kakatiya University contract faculty rally (20:28), NewsMeter Cyclone Akvan Vizag flights/IndiGo advisory (20:00). Duplicate: TV9 Vizag-Tirupati Vande Bharat (covered earlier via Oneindia). Skipped old: Hans India Guntur LRS mela (06:06). Not tried: The Hindu items (search domain rejected earlier). District searches (thin): Warangal, Guntur/Vijayawada, Karimnagar/Peddapalli, Nalgonda/Suryapet, Srikakulam/Visakhapatnam, Hyderabad. add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -7608,6 +7608,31 @@
    "url": "https://www.theleonews.com/3-ap-gets-another-mega-investment-coca-colas-rs-842-cr-plant-in-vizianagaram-rs-285-cr-in-srikalahasti/",
    "d": "2026-11-19",
    "w": "old"
+  },
+  {
+   "url": "https://www.bigtvlive.com/andhra-pradesh/cyclone-aqwan-schools-closed-in-11-coastal-mandals-srikakulam-district.html",
+   "d": "2026-11-19",
+   "w": "2026-11-19T21:05"
+  },
+  {
+   "url": "https://telanganatoday.com/kakatiya-university-contract-faculty-demands-cm-to-regularise-their-services",
+   "d": "2026-11-19",
+   "w": "2026-11-19T21:05"
+  },
+  {
+   "url": "https://newsmeter.in/top-stories/flight-operations-hit-in-visakhapatnam-bhubaneswar-and-kolkata-due-to-cyclone-akvan-779641",
+   "d": "2026-11-19",
+   "w": "2026-11-19T21:05"
+  },
+  {
+   "url": "https://tv9telugu.com/business/visakhapatnam-to-tirupati-vande-bharat-express-new-train-schedule-and-stops-1962397.html",
+   "d": "2026-11-19",
+   "w": "2026-11-19T21:05"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/guntur/guntur-special-lrs-mela-on-nov-20-21-1143482",
+   "d": "2026-11-19",
+   "w": "2026-11-19T21:05"
   }
  ]
 }
