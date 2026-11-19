@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-19T10:35:00+05:30",
+ "cutoff": "2026-11-19T11:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-16T17:35:00+05:30/2026-11-16T18:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 14,
-   "published": 6,
-   "late": 2,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 8,
-   "gaps": "18:05 run started 18:06 IST; lookback from 09:35. Feeds 17:48, 70/70 ok, 795 uncovered TG/AP (most already covered under other wording). add_repo not available; existing clone reset to origin/main; articles read via sub-agents. Published 6 TG: TT Devarakonda BRS joining (claim), HMTV Mominpet Cheyutha, Medical Dialogues PG fee GO 163, TT BITS Hyd desalination patent, HMTV Karimnagar ASHA dharna (claim), HMTV Bhupalpally oil palm (claim). Not opened / no search result (search index lag): Disha Nizamabad Bhubharati resurvey, Vizag 30 EV buses, The Hindu AP NCD survey, AP 4 universities, Amit Shah Vijayawada no-fly zone, TNIE SC Yamuna, edible oil imports record, Siasat CJI counsel outburst. No AP/India/World stories this run."
-  },
   {
    "window": "2026-11-16T18:05:00+05:30/2026-11-16T18:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 7,
    "review": 0,
    "gaps": "Feeds 10:23 IST, 68/68 ok, 137 uncovered TG/AP events in lookback (02:05). Published 1: ETV Bharat live blog Tirumala 8-hour sarva darshan (07:34, late). Duplicates: Maredumilli Maoist dump (Hans 05:56), Akvan IMD bulletin landfall Narsapur–Puri (Asianet 07:58), AP MPP polls (ETV 06:53). Skipped: CID job-fraud detention (ETV live blog 06:53 too thin, same URL as Tirumala; DC 18 Nov 23:12 before lookback; ₹7 cr case covered 18 Nov); Uttam on AP 1.8 TMC Sagar plan (Hans 01:05/DC 18 Nov 22:55, before lookback); Telangana Today monuments free entry (2022 page); Siasat PRTS (27 Oct); DC Lokesh fee figures (16 Nov); FreshPlaza custard apples (2017); Telugu360 HC Naidu (Mar 2026). Not opened (search did not return article): NIE Lokesh fee reimbursement, NIE email spoofing ₹1.5 cr, CESS debt study, BC Commission census, NIE mandal parishads term, TeluguBulletin cold wave, NewsMeter retail rentals, plus Telugu-only items (Kadapa house fire, Kota Rukmini, Uttam vs BRS). District searches (Nalgonda, Karimnagar, Nellore, Srikakulam, Khammam, Warangal, Kadapa, Nizamabad) returned only tag/old pages. add_repo not available; used existing clone. news.json has 91 stories (>60 cap; left to story check)."
+  },
+  {
+   "window": "2026-11-19T10:35:00+05:30/2026-11-19T11:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 4,
+   "late": 2,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Feeds 11:02 IST, 70/70 ok, lookback 02:35, ~975 uncovered events in lookback. Published 4: AJ Siddipet BRS detentions/Harish Rao (08:49, late, claim; NT 10:52 same event), DC Amberpet biryani 9 ill (10:47, claim), TT Singoor HC plea (10:29), Siasat 7,154 fewer domestic flights (10:31). Duplicate: NT Siddipet detentions (same event). Skipped: Bandla Ganesh jail (18 Nov 20:23, before lookback); Yadadri unit 5 (synchronised in Oct, not new). Not opened (WebFetch permission timeouts): Siasat trafficking-shelters HC ruling, TT EPFO withdrawals, Siasat Anthropic IPO; NIE email spoofing / borewells, CESS debt study, Sabarimala appeal, Bejjur bus, AJ MDMA arrest not found by search. District searches not run. add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -6928,6 +6928,41 @@
    "url": "https://www.freshplaza.com/north-america/article/2182178/india-custard-apples-are-back-in-hyderabad",
    "d": "2026-11-19",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/medak/harish-rao-questions-cm-revanth-reddy-ahead-of-siddipet-visit-and-condemns-brs-leaders-arrests-vk-1577815.html",
+   "d": "2026-11-19",
+   "w": "p"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/siddipeta-police-detain-brs-leaders-ahead-of-cm-revanth-reddy-meeting-2564122",
+   "d": "2026-11-19",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/9-family-members-fall-ill-after-eating-biryani-in-hyderabad-2005785",
+   "d": "2026-11-19",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-high-court-admits-singoor-compensation-plea-084a1f95",
+   "d": "2026-11-19",
+   "w": "p"
+  },
+  {
+   "url": "https://www.siasat.com/festive-flyers-face-fewer-options-as-airlines-cut-7154-domestic-flights-3580983/",
+   "d": "2026-11-19",
+   "w": "p"
+  },
+  {
+   "url": "https://www.siasat.com/tollywood-producer-bandla-ganesh-sentenced-to-1-year-in-jail-3580898/",
+   "d": "2026-11-19",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.constructionworld.in/amp/energy-infrastructure/coal-and-mining/yadadri-plant-synchronises-unit-5-as-coal-india-agrees-coal-supply/99402",
+   "d": "2026-11-19",
+   "w": "skip"
   }
  ]
 }
