@@ -1,8 +1,708 @@
 {
  "date": "20.11.2026",
  "iso": "2026-11-20",
- "count": 77,
+ "count": 90,
  "stories": [
+  {
+   "cat": "తెలంగాణ · ఉద్యోగాలు",
+   "col": "--c-gov",
+   "pic": "n/exams",
+   "stat": "నవంబర్ 29న",
+   "statl": "ఎస్సై ప్రాథమిక పరీక్ష",
+   "h": "నవంబర్ 29న తెలంగాణ ఎస్సై ప్రిలిమ్స్",
+   "p": "తెలంగాణలో ఎస్సై (సివిల్), సమాన హోదా గల 275 పోస్టుల ప్రాథమిక రాత పరీక్ష నవంబర్ 29న జరుగుతుందని పోలీసు నియామక మండలి తెలిపింది. ఉదయం 10 నుంచి మధ్యాహ్నం 1 గంట వరకు 335 కేంద్రాల్లో పరీక్ష ఉంటుంది. 1,60,712 మంది అభ్యర్థులు హాజరవుతారని అంచనా. హాల్‌టికెట్లు నవంబర్ 22 నుంచి మండలి వెబ్‌సైట్‌లో లభిస్తాయి.",
+   "pts": [
+    "హాల్‌టికెట్ల డౌన్‌లోడ్ నవంబర్ 28 అర్ధరాత్రి వరకు",
+    "కేంద్రంలోకి గంట ముందు నుంచే అనుమతి",
+    "ఫోన్లు, స్మార్ట్‌వాచ్‌లకు అనుమతి లేదు"
+   ],
+   "why": "ఎస్సై ఉద్యోగాలకు దరఖాస్తు చేసిన లక్షన్నరకు పైగా అభ్యర్థులు సన్నద్ధం కావాల్సిన తేదీలు ఇవి.",
+   "src": "Siasat",
+   "url": "https://www.siasat.com/telangana-si-exam-2026-on-november-29-hall-tickets-from-nov-22-3582141/",
+   "sec": [
+    "telangana",
+    "jobs",
+    "education"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "next": "హాల్‌టికెట్ల డౌన్‌లోడ్ నవంబర్ 22 ఉదయం 8 గంటల నుంచి",
+   "pub": "2026-11-20T15:44+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Jobs",
+    "h": "Telangana SI prelims on November 29",
+    "stat": "November 29",
+    "statl": "SI preliminary exam",
+    "loc": "Telangana",
+    "p": "The preliminary written exam for 275 Sub-Inspector (Civil) and equivalent posts in Telangana will be held on November 29, the police recruitment board said. It runs from 10 am to 1 pm at 335 centres, and 1,60,712 candidates are expected. Hall tickets will be on the board's website tgprb.in from November 22.",
+    "pts": [
+     "Hall tickets can be downloaded until midnight of November 28",
+     "Entry to centres opens one hour before the exam",
+     "Phones and smartwatches are not allowed"
+    ],
+    "why": "These are the dates over 1.6 lakh SI job applicants need to prepare for.",
+    "next": "Hall ticket download opens at 8 am on November 22"
+   },
+   "hi": {
+    "cat": "तेलंगाना · नौकरियां",
+    "h": "तेलंगाना एसआई प्रारंभिक परीक्षा 29 नवंबर को",
+    "stat": "29 नवंबर को",
+    "statl": "एसआई प्रारंभिक परीक्षा",
+    "loc": "तेलंगाना",
+    "p": "तेलंगाना में उप-निरीक्षक (सिविल) और समकक्ष 275 पदों की प्रारंभिक लिखित परीक्षा 29 नवंबर को होगी, पुलिस भर्ती बोर्ड ने बताया। परीक्षा सुबह 10 से दोपहर 1 बजे तक 335 केंद्रों पर होगी और 1,60,712 अभ्यर्थियों के बैठने की उम्मीद है। हॉल टिकट 22 नवंबर से बोर्ड की वेबसाइट tgprb.in पर मिलेंगे।",
+    "pts": [
+     "हॉल टिकट 28 नवंबर की आधी रात तक डाउनलोड होंगे",
+     "केंद्र में प्रवेश परीक्षा से एक घंटा पहले से",
+     "फोन और स्मार्टवॉच की अनुमति नहीं"
+    ],
+    "why": "एसआई पदों के डेढ़ लाख से अधिक आवेदकों को इन तारीखों के अनुसार तैयारी करनी है।",
+    "next": "हॉल टिकट डाउनलोड 22 नवंबर सुबह 8 बजे से"
+   },
+   "d": "20.11.2026",
+   "t": "16:05"
+  },
+  {
+   "cat": "తెలంగాణ · సైబర్ నేరాలు",
+   "col": "--c-city",
+   "pic": "c/cyber",
+   "stat": "9 మంది",
+   "statl": "అరెస్టు",
+   "h": "మల్కాజిగిరి సైబర్ మోసంలో 9 మంది అరెస్టు",
+   "p": "ఆన్‌లైన్ పెట్టుబడి మోసంలో ₹74 లక్షల తరలింపునకు బ్యాంకు ఖాతాలు సమకూర్చారన్న ఆరోపణపై తొమ్మిది మందిని శుక్రవారం అరెస్టు చేసినట్లు మల్కాజిగిరి సైబర్ క్రైమ్ పోలీసులు తెలిపారు. వాట్సాప్ గ్రూపులో స్టాక్ మార్కెట్ నిపుణులమని నమ్మించి, భారీ లాభాల ఆశ చూపి బాధితుడితో డబ్బు పెట్టించారని పోలీసులు చెప్పారు. ఇద్దరు ప్రధాన నిందితులు పరారీలో ఉన్నారు.",
+   "pts": [
+    "ఖాతాదారులకు 20 శాతం కమీషన్ ఆశ చూపారు: పోలీసులు",
+    "9 ఫోన్లు, సిమ్ కార్డులు స్వాధీనం",
+    "5 నుంచి 50 శాతం లాభాలని నమ్మించారు"
+   ],
+   "why": "వాట్సాప్ పెట్టుబడి గ్రూపుల ద్వారా జరిగే మోసాలపై నగరవాసులు అప్రమత్తంగా ఉండాల్సిన అవసరాన్ని ఇది చూపుతోంది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/nine-held-in-online-investment-fraud-90b43bb0",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "medchal",
+   "loc": "మల్కాజిగిరి",
+   "pub": "2026-11-20T15:14+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Cyber crime",
+    "h": "Nine held in Malkajgiri investment fraud",
+    "stat": "9 arrested",
+    "statl": "in online investment fraud",
+    "loc": "Malkajgiri",
+    "p": "Malkajgiri Cyber Crime police said they arrested nine people on Friday for allegedly arranging bank accounts to move Rs 74 lakh from an online investment fraud. Police said the victim was added to a WhatsApp group where fraudsters posed as stock market experts and promised high returns. Two main accused are absconding.",
+    "pts": [
+     "Account holders were promised 20% commission: police",
+     "Nine phones and SIM cards seized",
+     "Returns of 5% to 50% were promised"
+    ],
+    "why": "It shows why city residents need to be careful about WhatsApp investment groups."
+   },
+   "hi": {
+    "cat": "तेलंगाना · साइबर अपराध",
+    "h": "मलकाजगिरी निवेश ठगी में नौ गिरफ्तार",
+    "stat": "9 गिरफ्तार",
+    "statl": "ऑनलाइन निवेश ठगी में",
+    "loc": "मलकाजगिरी",
+    "p": "मलकाजगिरी साइबर क्राइम पुलिस ने बताया कि ऑनलाइन निवेश ठगी के 74 लाख रुपये इधर-उधर करने के लिए बैंक खाते उपलब्ध कराने के आरोप में शुक्रवार को नौ लोगों को गिरफ्तार किया गया। पुलिस के अनुसार पीड़ित को व्हाट्सऐप ग्रुप में जोड़कर ठगों ने खुद को शेयर बाजार विशेषज्ञ बताया और ऊंचे मुनाफे का लालच दिया। दो मुख्य आरोपी फरार हैं।",
+    "pts": [
+     "खाताधारकों को 20% कमीशन का लालच दिया गया: पुलिस",
+     "नौ फोन और सिम कार्ड जब्त",
+     "5 से 50 प्रतिशत मुनाफे का झांसा दिया गया"
+    ],
+    "why": "यह दिखाता है कि शहरवासियों को व्हाट्सऐप निवेश ग्रुपों से सावधान रहना चाहिए।"
+   },
+   "d": "20.11.2026",
+   "t": "16:05"
+  },
+  {
+   "cat": "తెలంగాణ · సంస్కృతి",
+   "col": "--c-gov",
+   "pic": "c/culture",
+   "stat": "₹2.30 కోట్లు",
+   "statl": "అనభేరి స్మారకానికి",
+   "h": "అనభేరి స్మారక పార్కుకు ₹2.30 కోట్లు",
+   "p": "స్వాతంత్ర్య సమరయోధుడు అనభేరి ప్రభాకర్ రావు స్మారక పార్కు, హాలు నిర్మాణానికి తెలంగాణ ప్రభుత్వం ₹2.30 కోట్లకు పరిపాలన అనుమతి ఇచ్చింది. సిద్దిపేట జిల్లా హుస్నాబాద్ సమీపంలోని మహమ్మదాపూర్ గ్రామంలో దీన్ని నిర్మిస్తారు. పనులను తెలంగాణ పర్యాటక అభివృద్ధి సంస్థ చేపడుతుంది. పర్యాటక మౌలిక వసతుల నిధుల నుంచి ఈ మొత్తాన్ని ఖర్చు చేస్తారు.",
+   "pts": [
+    "అనభేరిని 'తెలంగాణ భగత్ సింగ్' అని పిలుస్తారు",
+    "తదుపరి చర్యల బాధ్యత పర్యాటక సంస్థ ఎండీదే"
+   ],
+   "why": "హుస్నాబాద్ ప్రాంత ప్రజలకు స్థానిక సమరయోధుడి స్మారకం, కొత్త పర్యాటక కేంద్రం అందుబాటులోకి రానుంది.",
+   "src": "Siasat",
+   "url": "https://www.siasat.com/telangana-approves-rs-2-30-crore-for-freedom-fighter-memorial-3582140/",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "TG",
+   "place": "siddipet",
+   "loc": "మహమ్మదాపూర్, హుస్నాబాద్",
+   "pub": "2026-11-20T15:42+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Culture",
+    "h": "Rs 2.30 crore for Anabheri memorial park",
+    "stat": "Rs 2.30 crore",
+    "statl": "for Anabheri memorial",
+    "loc": "Mohammedapur, Husnabad",
+    "p": "The Telangana government has given administrative approval of Rs 2.30 crore for a memorial park and hall for freedom fighter Anabheri Prabhakar Rao. It will come up at Mohammedapur village near Husnabad in Siddipet district. The Telangana Tourism Development Corporation will carry out the work, funded from the tourism infrastructure budget.",
+    "pts": [
+     "Anabheri is known as the 'Telangana Bhagat Singh'",
+     "The tourism corporation's MD will take further action"
+    ],
+    "why": "People of the Husnabad area will get a memorial to a local freedom fighter and a new tourist spot."
+   },
+   "hi": {
+    "cat": "तेलंगाना · संस्कृति",
+    "h": "अनभेरी स्मारक पार्क के लिए 2.30 करोड़",
+    "stat": "₹2.30 करोड़",
+    "statl": "अनभेरी स्मारक के लिए मंजूर",
+    "loc": "मोहम्मदापुर, हुस्नाबाद",
+    "p": "तेलंगाना सरकार ने स्वतंत्रता सेनानी अनभेरी प्रभाकर राव के स्मारक पार्क और हॉल के लिए 2.30 करोड़ रुपये की प्रशासनिक मंजूरी दी है। यह सिद्दिपेट जिले में हुस्नाबाद के पास मोहम्मदापुर गांव में बनेगा। काम तेलंगाना पर्यटन विकास निगम करेगा और राशि पर्यटन बुनियादी ढांचे के बजट से खर्च होगी।",
+    "pts": [
+     "अनभेरी को 'तेलंगाना का भगत सिंह' कहा जाता है",
+     "आगे की कार्रवाई पर्यटन निगम के एमडी करेंगे"
+    ],
+    "why": "हुस्नाबाद क्षेत्र के लोगों को स्थानीय सेनानी का स्मारक और नया पर्यटन स्थल मिलेगा।"
+   },
+   "d": "20.11.2026",
+   "t": "16:05"
+  },
+  {
+   "cat": "తెలంగాణ · ఆవిష్కరణ",
+   "col": "--c-city",
+   "pic": "c/startups",
+   "stat": "180 గ్రాముల",
+   "statl": "లోపు సైనిక రేడియో",
+   "h": "బిట్స్ విద్యార్థుల పాకెట్ రేడియో",
+   "p": "బిట్స్ పిలానీ హైదరాబాద్ క్యాంపస్ విద్యార్థులు ఇద్దరు సైన్యం కోసం 'క్రాత్ కంట్రోల్' అనే పాకెట్ రేడియోను రూపొందించారు. మొబైల్ నెట్‌వర్క్, సిమ్, ఉపగ్రహం లేకుండానే మాటలు, డేటా, లొకేషన్ పంపవచ్చని వారి స్టార్టప్ క్రాత్‌వీల్ చెబుతోంది. దిగుమతి చేసుకునే పరికరం ధర ₹2 లక్షలు కాగా, దీన్ని ₹40 వేలకు అందించాలన్నది వారి లక్ష్యం.",
+   "pts": [
+    "రెండు సైనిక యూనిట్లు నమూనాను పరిశీలించాయి",
+    "మెరుగైన వెర్షన్ ఐదారు నెలల్లో: వ్యవస్థాపకుడు",
+    "100 కిలోమీటర్లకు పైగా పరిధి అని కంపెనీ మాట"
+   ],
+   "why": "హైదరాబాద్ విద్యార్థుల స్టార్టప్‌లు రక్షణ రంగ అవసరాలకు పనిచేయగలవని యువతకు ఇది చూపుతోంది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/bits-students-develop-army-radio-device-4cae3e3b",
+   "sec": [
+    "telangana",
+    "innovation"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "హైదరాబాద్",
+   "pub": "2026-11-20T14:57+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Innovation",
+    "h": "BITS Hyderabad students build pocket radio",
+    "stat": "Under 180 g",
+    "statl": "pocket radio for the Army",
+    "loc": "Hyderabad",
+    "p": "Two students of BITS Pilani's Hyderabad campus have built 'Krath Control', a pocket radio meant for the Army. Their start-up Krathveil says it can send voice, data and live location without a mobile network, SIM or satellite. Similar imported devices cost Rs 2 lakh each; they aim to offer theirs at Rs 40,000.",
+    "pts": [
+     "Two Army units have assessed the prototype",
+     "Upgraded version in five to six months: founder",
+     "Company claims a range of over 100 km"
+    ],
+    "why": "It shows young people that Hyderabad student start-ups can work on defence needs."
+   },
+   "hi": {
+    "cat": "तेलंगाना · नवाचार",
+    "h": "बिट्स हैदराबाद के छात्रों ने बनाया पॉकेट रेडियो",
+    "stat": "180 ग्राम से कम",
+    "statl": "वजन का सैन्य रेडियो",
+    "loc": "हैदराबाद",
+    "p": "बिट्स पिलानी हैदराबाद कैंपस के दो छात्रों ने सेना के लिए 'क्राथ कंट्रोल' नाम का पॉकेट रेडियो बनाया है। उनके स्टार्टअप क्राथवील का कहना है कि यह मोबाइल नेटवर्क, सिम या उपग्रह के बिना आवाज, डेटा और लोकेशन भेज सकता है। ऐसे आयातित उपकरण की कीमत 2 लाख रुपये है; वे इसे 40 हजार रुपये में देना चाहते हैं।",
+    "pts": [
+     "सेना की दो इकाइयों ने प्रोटोटाइप परखा",
+     "उन्नत संस्करण पांच-छह महीने में: संस्थापक",
+     "कंपनी का दावा: 100 किमी से अधिक रेंज"
+    ],
+    "why": "यह युवाओं को दिखाता है कि हैदराबाद के छात्र स्टार्टअप रक्षा जरूरतों पर काम कर सकते हैं।"
+   },
+   "d": "20.11.2026",
+   "t": "16:05"
+  },
+  {
+   "cat": "పెద్దపల్లి · ఉద్యోగాలు",
+   "col": "--c-gov",
+   "pic": "c/jobs",
+   "stat": "2,000కు పైగా",
+   "statl": "ఉద్యోగాలకు జాబ్ మేళా",
+   "h": "పెద్దపల్లిలో శనివారం మెగా జాబ్ మేళా",
+   "p": "పెద్దపల్లి ప్రగతి నగర్‌లోని ట్రినిటీ ఇంజినీరింగ్ కళాశాలలో శనివారం ఉదయం 9 గంటల నుంచి మెగా జాబ్ మేళా జరగనుంది. 2,000కు పైగా ఉద్యోగాల కోసం సుమారు 20 బహుళజాతి కంపెనీలు పాల్గొంటాయని నిర్వాహకులు తెలిపారు. మాజీ మున్సిపల్ ఛైర్‌పర్సన్ డాక్టర్ దాసరి మమతా రెడ్డి శుక్రవారం పోస్టర్ ఆవిష్కరించారు. అభ్యర్థులు బయోడేటాతో హాజరు కావాలి.",
+   "pts": [
+    "డిగ్రీ, పీజీ చదివినవారు, చదువుతున్నవారు అర్హులు",
+    "మాజీ ఎమ్మెల్యే దాసరి మనోహర్ రెడ్డి ఆధ్వర్యంలో నిర్వహణ"
+   ],
+   "why": "పెద్దపల్లి ప్రాంత నిరుద్యోగ యువతకు సొంత ఊరిలోనే ఉద్యోగ అవకాశాలు పొందే వీలు కలుగుతుంది.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/dr-dasari-mamatha-reddy-unveils-peddapalli-mega-job-mela-poster-215153",
+   "sec": [
+    "telangana",
+    "jobs"
+   ],
+   "st": "TG",
+   "place": "peddapalli",
+   "loc": "ప్రగతి నగర్, పెద్దపల్లి",
+   "next": "జాబ్ మేళా నవంబర్ 21 శనివారం ఉదయం 9 గంటలకు",
+   "pub": "2026-11-20T14:35+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Peddapalli · Jobs",
+    "h": "Mega job mela in Peddapalli on Saturday",
+    "stat": "Over 2,000 jobs",
+    "statl": "at the job mela",
+    "loc": "Pragathi Nagar, Peddapalli",
+    "p": "A mega job mela will be held at Trinity Engineering College in Pragathi Nagar, Peddapalli, from 9 am on Saturday. Organisers said about 20 multinational companies will take part for over 2,000 jobs. Former municipal chairperson Dr Dasari Mamatha Reddy released the poster on Friday. Candidates should bring their biodata.",
+    "pts": [
+     "Graduates, postgraduates and those still studying are eligible",
+     "Held under former MLA Dasari Manohar Reddy"
+    ],
+    "why": "Unemployed youth of the Peddapalli area get a chance at jobs in their own town.",
+    "next": "Job mela on Saturday, November 21, at 9 am"
+   },
+   "hi": {
+    "cat": "पेद्दापल्ली · नौकरियां",
+    "h": "पेद्दापल्ली में शनिवार को मेगा जॉब मेला",
+    "stat": "2,000 से अधिक",
+    "statl": "नौकरियों के लिए जॉब मेला",
+    "loc": "प्रगति नगर, पेद्दापल्ली",
+    "p": "पेद्दापल्ली के प्रगति नगर स्थित ट्रिनिटी इंजीनियरिंग कॉलेज में शनिवार सुबह 9 बजे से मेगा जॉब मेला होगा। आयोजकों ने बताया कि 2,000 से अधिक नौकरियों के लिए करीब 20 बहुराष्ट्रीय कंपनियां हिस्सा लेंगी। पूर्व नगरपालिका अध्यक्ष डॉ. दासरी ममता रेड्डी ने शुक्रवार को पोस्टर जारी किया। अभ्यर्थी बायोडाटा साथ लाएं।",
+    "pts": [
+     "स्नातक, स्नातकोत्तर और पढ़ रहे छात्र पात्र हैं",
+     "पूर्व विधायक दासरी मनोहर रेड्डी के तत्वावधान में आयोजन"
+    ],
+    "why": "पेद्दापल्ली क्षेत्र के बेरोजगार युवाओं को अपने ही शहर में नौकरी का मौका मिलेगा।",
+    "next": "जॉब मेला शनिवार 21 नवंबर सुबह 9 बजे"
+   },
+   "d": "20.11.2026",
+   "t": "16:05"
+  },
+  {
+   "cat": "ఏపీ · అనంతపురం",
+   "col": "--c-election",
+   "pic": "c/politics",
+   "stat": "తాడిపత్రిలో",
+   "statl": "ఇంటిపై దాడి",
+   "h": "తాడిపత్రిలో పెద్దారెడ్డి ఇంటిపై దాడి",
+   "p": "అనంతపురం జిల్లా తాడిపత్రిలో వైసీపీ మాజీ ఎమ్మెల్యే కేతిరెడ్డి పెద్దారెడ్డి ఇంటిపై శుక్రవారం దాడి జరిగింది. రాళ్లు విసిరి, బయట నిలిపిన వాహనాలకు నిప్పు పెట్టారు. టీడీపీ వర్గీయులే ఈ దాడి చేశారని వైసీపీ ఆరోపించింది. అగ్నిమాపక సిబ్బంది మంటలను ఆర్పారు. పట్టణంలో పోలీసులు భద్రత పెంచి, ప్రధాన రహదారులపై చెక్‌పోస్టులు ఏర్పాటు చేశారు.",
+   "pts": [
+    "ఉదయం పెద్దారెడ్డి పోలీసులకు లిఖితపూర్వక ఫిర్యాదు ఇచ్చారు",
+    "కాలిపోయిన వాహనాల సంఖ్యపై భిన్న కథనాలు ఉన్నాయి"
+   ],
+   "why": "స్థానిక సంస్థల ఎన్నికల వేళ తాడిపత్రి ప్రజల రోజువారీ జీవనం, భద్రతపై ఈ ఉద్రిక్తత ప్రభావం చూపుతుంది.",
+   "src": "Oneindia Telugu",
+   "url": "https://telugu.oneindia.com/news/andhra-pradesh/tension-prevailed-in-tadipatri-after-former-ysrcp-mla-kethireddy-pedda-reddy-residence-was-torched-515785.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-anantapur",
+   "loc": "తాడిపత్రి",
+   "pub": "2026-11-20T14:46+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "AP · Anantapur",
+    "h": "Ex-MLA's house attacked in Tadipatri",
+    "stat": "Tadipatri",
+    "statl": "ex-MLA's house attacked",
+    "loc": "Tadipatri",
+    "p": "The house of former YSRCP MLA Kethireddy Peddareddy in Tadipatri, Anantapur district, was attacked on Friday. Stones were thrown and vehicles parked outside were set on fire. YSRCP alleged that TDP supporters carried out the attack. Fire services put out the flames. Police stepped up security and set up checkposts on main roads.",
+    "pts": [
+     "Peddareddy gave police a written complaint in the morning",
+     "Reports differ on how many vehicles were burnt"
+    ],
+    "why": "With local body polls on, the tension affects daily life and safety for people in Tadipatri."
+   },
+   "hi": {
+    "cat": "एपी · अनंतपुर",
+    "h": "ताड़िपत्री में पूर्व विधायक के घर पर हमला",
+    "stat": "ताड़िपत्री",
+    "statl": "पूर्व विधायक के घर पर हमला",
+    "loc": "ताड़िपत्री",
+    "p": "अनंतपुर जिले के ताड़िपत्री में वाईएसआरसीपी के पूर्व विधायक केतिरेड्डी पेद्दारेड्डी के घर पर शुक्रवार को हमला हुआ। पत्थर फेंके गए और बाहर खड़े वाहनों में आग लगा दी गई। वाईएसआरसीपी ने आरोप लगाया कि हमला टीडीपी समर्थकों ने किया। दमकल कर्मियों ने आग बुझाई। पुलिस ने सुरक्षा बढ़ाई और मुख्य सड़कों पर चेकपोस्ट लगाए।",
+    "pts": [
+     "पेद्दारेड्डी ने सुबह पुलिस को लिखित शिकायत दी",
+     "जले वाहनों की संख्या पर अलग-अलग खबरें हैं"
+    ],
+    "why": "स्थानीय निकाय चुनाव के बीच यह तनाव ताड़िपत्री के लोगों के रोजमर्रा जीवन और सुरक्षा पर असर डालता है।"
+   },
+   "d": "20.11.2026",
+   "t": "16:05"
+  },
+  {
+   "cat": "ఏపీ · స్థానిక సంస్థలు",
+   "col": "--c-election",
+   "pic": "c/politics",
+   "stat": "28 జడ్పీలకు",
+   "statl": "ఛైర్‌పర్సన్ల ఎన్నిక",
+   "h": "ఏపీలో జడ్పీ ఛైర్‌పర్సన్ల ఎన్నిక",
+   "p": "ఆంధ్రప్రదేశ్‌లో జిల్లా పరిషత్ ఛైర్‌పర్సన్, వైస్ ఛైర్‌పర్సన్ ఎన్నికలు శుక్రవారం జరిగాయి. కొత్త జిల్లాల ఏర్పాటు తర్వాత 28 జడ్పీలకు ఇవే తొలి ఎన్నికలు. ఎన్టీఆర్ జిల్లాలో కోట పుల్లమ్మ, కర్నూలులో ఉలిగయ్య, చిత్తూరులో ఎం.శైలజ ఏకగ్రీవంగా ఎన్నికయ్యారు. శ్రీ సత్యసాయి జిల్లాలో పరిటాల శ్రీరామ్, కడపలో పుత్తా నరసింహారెడ్డి ఛైర్‌పర్సన్లుగా ప్రమాణం చేశారు.",
+   "pts": [
+    "విజయనగరంలో మజ్జి సిరిసహస్ర ఎన్నిక",
+    "మన్యం జిల్లా ఛైర్‌పర్సన్ పదవి జనసేనకు",
+    "కొన్ని జిల్లాల్లో కలెక్టర్లు ప్రమాణం చేయించారు"
+   ],
+   "why": "గ్రామీణ ప్రాంతాల రోడ్లు, తాగునీరు వంటి పనులపై నిర్ణయాలు ఇకపై ఈ కొత్త జడ్పీ పాలకవర్గాలే తీసుకుంటాయి.",
+   "src": "ETV Bharat",
+   "url": "https://www.etvbharat.com/te/state/winners-list-of-chairperson-and-vice-chairperson-of-zilla-parishads-in-ap-aps26112003651",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "pub": "2026-11-20T15:33+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Local bodies",
+    "h": "AP elects zilla parishad chairpersons",
+    "stat": "28 ZPs",
+    "statl": "elect chairpersons",
+    "loc": "Andhra Pradesh",
+    "p": "Elections for zilla parishad chairpersons and vice-chairpersons were held in Andhra Pradesh on Friday, the first for 28 ZPs since new districts were formed. Kota Pullamma in NTR district, Uligayya in Kurnool and M. Sailaja in Chittoor were elected unopposed. Paritala Sriram in Sri Sathya Sai district and Putta Narasimha Reddy in Kadapa took oath as chairpersons.",
+    "pts": [
+     "Majji Sirisahasra elected in Vizianagaram",
+     "Manyam district chairperson post goes to Jana Sena",
+     "Collectors administered the oath in some districts"
+    ],
+    "why": "These new ZP bodies will now decide on rural works such as roads and drinking water."
+   },
+   "hi": {
+    "cat": "एपी · स्थानीय निकाय",
+    "h": "आंध्र में जिला परिषद अध्यक्षों का चुनाव",
+    "stat": "28 जिला परिषदों",
+    "statl": "के अध्यक्षों का चुनाव",
+    "loc": "आंध्र प्रदेश",
+    "p": "आंध्र प्रदेश में जिला परिषद अध्यक्ष और उपाध्यक्ष के चुनाव शुक्रवार को हुए; नए जिले बनने के बाद 28 जिला परिषदों के लिए ये पहले चुनाव हैं। एनटीआर जिले में कोटा पुल्लम्मा, कर्नूल में उलिगय्या और चित्तूर में एम. शैलजा निर्विरोध चुनी गईं। श्री सत्य साई जिले में परिटाला श्रीराम और कडपा में पुत्ता नरसिम्हा रेड्डी ने अध्यक्ष पद की शपथ ली।",
+    "pts": [
+     "विजयनगरम में मज्जी सिरिसहस्रा चुनी गईं",
+     "मन्यम जिले का अध्यक्ष पद जनसेना को",
+     "कुछ जिलों में कलेक्टरों ने शपथ दिलाई"
+    ],
+    "why": "ग्रामीण सड़कों और पेयजल जैसे कामों पर फैसले अब ये नई जिला परिषदें लेंगी।"
+   },
+   "d": "20.11.2026",
+   "t": "16:05"
+  },
+  {
+   "cat": "ఏపీ · పథకాలు",
+   "col": "--c-gov",
+   "pic": "c/schemes",
+   "stat": "మెప్మాకు",
+   "statl": "జాతీయ అవార్డులు",
+   "h": "ఏపీ మెప్మాకు పీఎం స్వనిధి అవార్డులు",
+   "p": "వీధి వ్యాపారులకు రుణాలిచ్చే పీఎం స్వనిధి పథకం అమలులో ఆంధ్రప్రదేశ్ పట్టణ పేదరిక నిర్మూలన సంస్థ (మెప్మా) జాతీయ అవార్డులు పొందింది. పథకం అమలులో దేశంలో మూడో స్థానం, రుణాల మంజూరులో రెండో స్థానం, ప్రత్యేక శిబిరాల నిర్వహణలో మొదటి స్థానం దక్కాయి. అవార్డులు పొందిన అధికారులు, సిబ్బందిని పురపాలక మంత్రి నారాయణ అభినందించారు.",
+   "pts": [
+    "రామచంద్రపురం, అమలాపురం పురపాలికలకు తొలి రెండు అవార్డులు",
+    "డిజిటల్ లావాదేవీల్లో విజయనగరానికి రెండో స్థానం"
+   ],
+   "why": "పట్టణాల్లోని వీధి వ్యాపారులకు తక్కువ వడ్డీ రుణాలు ఎంత మేర అందుతున్నాయో ఈ ర్యాంకులు సూచిస్తాయి.",
+   "src": "Andhra Jyothy",
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/krishna/ap-mepma-national-awards-pm-svanidhi-scheme-minister-narayana-suchi-1578168.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "అమరావతి",
+   "pub": "2026-11-20T15:02+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Schemes",
+    "h": "AP MEPMA wins national PM SVANidhi awards",
+    "stat": "MEPMA",
+    "statl": "wins national awards",
+    "loc": "Amaravati",
+    "p": "Andhra Pradesh's urban poverty elimination agency MEPMA has won national awards for implementing PM SVANidhi, the loan scheme for street vendors. The state ranked third in the country in implementation, second in loans sanctioned and first in holding special camps. Municipal minister Narayana congratulated the officials and staff who received the awards.",
+    "pts": [
+     "Ramachandrapuram and Amalapuram municipalities won the top two awards",
+     "Vizianagaram ranked second in digital transactions"
+    ],
+    "why": "The rankings indicate how far low-interest loans are reaching street vendors in towns."
+   },
+   "hi": {
+    "cat": "एपी · योजनाएं",
+    "h": "पीएम स्वनिधि में एपी मेपमा को राष्ट्रीय पुरस्कार",
+    "stat": "मेपमा को",
+    "statl": "राष्ट्रीय पुरस्कार",
+    "loc": "अमरावती",
+    "p": "रेहड़ी-पटरी वालों को ऋण देने वाली पीएम स्वनिधि योजना के क्रियान्वयन में आंध्र प्रदेश की शहरी गरीबी उन्मूलन संस्था मेपमा को राष्ट्रीय पुरस्कार मिले हैं। राज्य को क्रियान्वयन में देश में तीसरा, ऋण मंजूरी में दूसरा और विशेष शिविरों के आयोजन में पहला स्थान मिला। नगरपालिका मंत्री नारायण ने पुरस्कार पाने वाले अधिकारियों और कर्मचारियों को बधाई दी।",
+    "pts": [
+     "रामचंद्रपुरम और अमलापुरम नगरपालिकाओं को पहले दो पुरस्कार",
+     "डिजिटल लेनदेन में विजयनगरम दूसरे स्थान पर"
+    ],
+    "why": "ये रैंक बताते हैं कि शहरों के रेहड़ी-पटरी वालों तक कम ब्याज के ऋण कितने पहुंच रहे हैं।"
+   },
+   "d": "20.11.2026",
+   "t": "16:05"
+  },
+  {
+   "cat": "ఏపీ · విశాఖ",
+   "col": "--c-city",
+   "pic": "n/condolence",
+   "stat": "విశాఖ మేయర్",
+   "statl": "తండ్రి కన్నుమూత",
+   "h": "విశాఖ మేయర్ ముక్కా శ్రావణి తండ్రి మృతి",
+   "p": "విశాఖపట్నం నగరపాలక సంస్థ మేయర్‌గా కొత్తగా ఎన్నికైన ముక్కా శ్రావణి తండ్రి, మాజీ కార్పొరేటర్ ముక్కా ముత్యాల నాయుడు కన్నుమూశారు. కుమార్తె మేయర్‌గా ప్రమాణం చేయడాన్ని చూడకముందే ఆయన మృతి చెందారు. టీడీపీ రాష్ట్ర అధ్యక్షుడు పల్లా శ్రీనివాసరావు, మంత్రి నారా లోకేశ్ సంతాపం తెలిపారు. కార్పొరేటర్‌గా, టీడీపీ నేతగా ఆయన సేవలు గుర్తుండిపోతాయని లోకేశ్ అన్నారు.",
+   "pts": [
+    "కుటుంబానికి ధైర్యం కలగాలని పల్లా ప్రార్థించారు"
+   ],
+   "why": "విశాఖ నగర ప్రజలకు సుపరిచితుడైన మాజీ కార్పొరేటర్ మృతి స్థానిక రాజకీయ వర్గాల్లో విషాదం నింపింది.",
+   "src": "ap7am",
+   "url": "https://www.ap7am.com/tn/887393/mukka-sravani-father-passes-away-palla-and-lokesh-express-condolences",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-visakhapatnam",
+   "loc": "విశాఖపట్నం",
+   "pub": "2026-11-20T13:11+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Visakhapatnam",
+    "h": "Vizag mayor Mukka Sravani's father dies",
+    "stat": "Vizag mayor",
+    "statl": "loses her father",
+    "loc": "Visakhapatnam",
+    "p": "Mukka Mutyala Naidu, a former corporator and father of newly elected Greater Visakhapatnam mayor Mukka Sravani, has died. He passed away before he could see his daughter take oath as mayor. TDP state president Palla Srinivasa Rao and minister Nara Lokesh expressed condolences. Lokesh said his services as a corporator and TDP leader would be remembered.",
+    "pts": [
+     "Palla prayed for strength for the family"
+    ],
+    "why": "The death of a former corporator well known in the city has saddened local political circles."
+   },
+   "hi": {
+    "cat": "एपी · विशाखापत्तनम",
+    "h": "विशाखा मेयर मुक्का श्रावणी के पिता का निधन",
+    "stat": "विशाखा मेयर",
+    "statl": "के पिता का निधन",
+    "loc": "विशाखापत्तनम",
+    "p": "विशाखापत्तनम नगर निगम की नवनिर्वाचित मेयर मुक्का श्रावणी के पिता और पूर्व पार्षद मुक्का मुत्याला नायडू का निधन हो गया। बेटी को मेयर पद की शपथ लेते देखने से पहले ही उनका निधन हुआ। टीडीपी प्रदेश अध्यक्ष पल्ला श्रीनिवास राव और मंत्री नारा लोकेश ने शोक जताया। लोकेश ने कहा कि पार्षद और टीडीपी नेता के रूप में उनकी सेवाएं याद रहेंगी।",
+    "pts": [
+     "पल्ला ने परिवार को हिम्मत मिलने की प्रार्थना की"
+    ],
+    "why": "शहर में जाने-माने पूर्व पार्षद के निधन से स्थानीय राजनीतिक हलकों में शोक है।"
+   },
+   "d": "20.11.2026",
+   "t": "16:05"
+  },
+  {
+   "cat": "ఏపీ · విజయవాడ",
+   "col": "--c-city",
+   "pic": "c/devotional",
+   "stat": "294 గ్రాముల",
+   "statl": "బంగారు ఆభరణాల కానుక",
+   "h": "ఇంద్రకీలాద్రి దుర్గమ్మకు ₹47 లక్షల నగలు",
+   "p": "విజయవాడ ఇంద్రకీలాద్రిపై కనకదుర్గ అమ్మవారికి ఓ భక్తుడి కుటుంబం 294 గ్రాముల బంగారు ఆభరణాలను కానుకగా సమర్పించింది. మంగళసూత్రాలు, కాసుల హారంతో కూడిన వీటి విలువ సుమారు ₹47.05 లక్షలు. ఆలయ పాలకమండలి ఛైర్మన్ బొర్రా రాధాకృష్ణకు ఆభరణాలను అందజేశారు. అధికారులు నిబంధనల ప్రకారం స్వీకరించి రసీదు ఇచ్చారు. దాత కుటుంబానికి ప్రత్యేక దర్శనం కల్పించారు.",
+   "pts": [
+    "దాత ఆలయానికి గ్యాస్ సరఫరా చేసే డీలర్",
+    "వేద పండితులు దాత కుటుంబానికి ఆశీర్వచనం అందించారు"
+   ],
+   "why": "దుర్గమ్మ భక్తులకు ఆలయానికి అందుతున్న కానుకల వివరాలు తెలుస్తాయి.",
+   "src": "ETV Bharat",
+   "url": "https://www.etvbharat.com/te/videos/devotee-offers-294-grams-of-gold-ornaments-to-kanaka-durga-temple-in-vijayawada-aps26112002583",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "AP",
+   "place": "ap-ntr",
+   "loc": "ఇంద్రకీలాద్రి, విజయవాడ",
+   "pub": "2026-11-20T15:09+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Vijayawada",
+    "h": "Rs 47 lakh gold gifted to Durga temple",
+    "stat": "294 grams",
+    "statl": "of gold ornaments gifted",
+    "loc": "Indrakeeladri, Vijayawada",
+    "p": "A devotee's family has gifted 294 grams of gold ornaments to Goddess Kanaka Durga at Indrakeeladri in Vijayawada. The mangalsutras and a coin necklace are worth about Rs 47.05 lakh. They were handed to temple board chairman Borra Radhakrishna. Officials accepted them as per rules and issued a receipt. The donor family was given a special darshan.",
+    "pts": [
+     "The donor is a dealer who supplies gas to the temple",
+     "Vedic priests blessed the donor family"
+    ],
+    "why": "Durga devotees get to know about the offerings the temple receives."
+   },
+   "hi": {
+    "cat": "एपी · विजयवाड़ा",
+    "h": "दुर्गा मंदिर को 47 लाख के स्वर्ण आभूषण भेंट",
+    "stat": "294 ग्राम",
+    "statl": "स्वर्ण आभूषण भेंट",
+    "loc": "इंद्रकीलाद्रि, विजयवाड़ा",
+    "p": "विजयवाड़ा के इंद्रकीलाद्रि पर कनकदुर्गा देवी को एक भक्त के परिवार ने 294 ग्राम सोने के आभूषण भेंट किए। मंगलसूत्र और कासुला हार वाले इन आभूषणों का मूल्य करीब 47.05 लाख रुपये है। आभूषण मंदिर बोर्ड के अध्यक्ष बोर्रा राधाकृष्ण को सौंपे गए। अधिकारियों ने नियमानुसार इन्हें स्वीकार कर रसीद दी। दाता परिवार को विशेष दर्शन कराया गया।",
+    "pts": [
+     "दाता मंदिर को गैस आपूर्ति करने वाले डीलर हैं",
+     "वैदिक पंडितों ने दाता परिवार को आशीर्वाद दिया"
+    ],
+    "why": "दुर्गा भक्तों को मंदिर को मिलने वाली भेंटों की जानकारी मिलती है।"
+   },
+   "d": "20.11.2026",
+   "t": "16:05"
+  },
+  {
+   "cat": "భారత్ · న్యాయం",
+   "col": "--c-gov",
+   "pic": "c/courts",
+   "stat": "జనవరిలో",
+   "statl": "సుప్రీంకోర్టు విచారణ",
+   "h": "ఈడీ అధికారాల సమీక్షపై జనవరిలో విచారణ",
+   "p": "మనీ లాండరింగ్ నిరోధక చట్టం కింద ఈడీకి ఉన్న అరెస్టు, ఆస్తుల జప్తు, సోదాల అధికారాలను సమర్థించిన 2022 తీర్పును సమీక్షించాలన్న పిటిషన్లను జనవరిలో విచారిస్తామని సుప్రీంకోర్టు శుక్రవారం తెలిపింది. ప్రధాన న్యాయమూర్తి జస్టిస్ సూర్యకాంత్ నేతృత్వంలోని ధర్మాసనం ఈ విషయం చెప్పింది. విచారణ తేదీని తర్వాత ప్రకటిస్తామని పేర్కొంది.",
+   "pts": [
+    "2022 తీర్పు 200కు పైగా పిటిషన్లపై వచ్చింది",
+    "సమీక్ష రెండు అంశాలకే పరిమితమని కేంద్రం వాదన"
+   ],
+   "why": "ఈడీ కేసులు ఎదుర్కొంటున్న తెలుగు రాష్ట్రాల వారితో సహా అందరిపై ఈ విచారణ ఫలితం ప్రభావం చూపవచ్చు.",
+   "src": "Siasat (PTI)",
+   "url": "https://www.siasat.com/sc-to-hear-review-pleas-on-eds-powers-in-january-3582110/",
+   "sec": [
+    "india"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "art": "court",
+   "next": "విచారణ జనవరిలో; తేదీని కోర్టు ప్రకటిస్తుంది",
+   "pub": "2026-11-20T15:35+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Courts",
+    "h": "SC to hear ED powers review in January",
+    "stat": "In January",
+    "statl": "Supreme Court hearing",
+    "loc": "New Delhi",
+    "p": "The Supreme Court said on Friday it will hear in January the pleas seeking review of its 2022 verdict that upheld the Enforcement Directorate's powers of arrest, attachment of property, and search and seizure under the money laundering law. A bench led by Chief Justice Surya Kant said the date will be notified later.",
+    "pts": [
+     "The 2022 verdict came on more than 200 petitions",
+     "Centre argues the review is limited to two issues"
+    ],
+    "why": "The outcome could affect everyone facing ED cases, including people in the Telugu states.",
+    "next": "Hearing in January; the court will notify the date"
+   },
+   "hi": {
+    "cat": "भारत · न्याय",
+    "h": "ईडी के अधिकारों की समीक्षा पर जनवरी में सुनवाई",
+    "stat": "जनवरी में",
+    "statl": "सुप्रीम कोर्ट की सुनवाई",
+    "loc": "नई दिल्ली",
+    "p": "सुप्रीम कोर्ट ने शुक्रवार को कहा कि वह धन शोधन निवारण कानून के तहत ईडी के गिरफ्तारी, संपत्ति कुर्की और तलाशी-जब्ती के अधिकारों को सही ठहराने वाले 2022 के फैसले की समीक्षा की याचिकाओं पर जनवरी में सुनवाई करेगा। मुख्य न्यायाधीश जस्टिस सूर्यकांत की अगुवाई वाली पीठ ने कहा कि तारीख बाद में बताई जाएगी।",
+    "pts": [
+     "2022 का फैसला 200 से अधिक याचिकाओं पर आया था",
+     "केंद्र का तर्क: समीक्षा दो मुद्दों तक सीमित"
+    ],
+    "why": "इस सुनवाई का नतीजा तेलुगु राज्यों समेत ईडी मामलों का सामना कर रहे सभी लोगों पर असर डाल सकता है।",
+    "next": "सुनवाई जनवरी में; तारीख अदालत बताएगी"
+   },
+   "d": "20.11.2026",
+   "t": "16:05"
+  },
+  {
+   "cat": "భారత్ · విదేశాంగం",
+   "col": "--c-gov",
+   "pic": "c/world",
+   "stat": "ఎస్‌సీఓ సదస్సుకు",
+   "statl": "పాక్ మంత్రి రాక",
+   "h": "ఎస్‌సీఓ సదస్సుకు వచ్చిన పాక్ మంత్రి",
+   "p": "పాకిస్థాన్ వాతావరణ మార్పుల మంత్రి ముసాదిక్ మాలిక్ శుక్రవారం న్యూదిల్లీ చేరుకున్నారు. షాంఘై సహకార సంస్థ (ఎస్‌సీఓ) సాంస్కృతిక సదస్సులో ఆయన పాకిస్థాన్ తరఫున పాల్గొంటారని ఆ దేశ హైకమిషన్ తెలిపింది. 2025లో రెండు దేశాల మధ్య నాలుగు రోజుల ఘర్షణ తర్వాత పాకిస్థాన్ మంత్రి భారత్‌కు రావడం ఇదే తొలిసారి. సదస్సులో ప్రధాని మోదీ ప్రసంగించనున్నారు.",
+   "pts": [
+    "చివరిసారి 2023 మేలో బిలావల్ భుట్టో గోవా వచ్చారు",
+    "ఎస్‌సీఓలో 10 సభ్య దేశాలు ఉన్నాయి"
+   ],
+   "why": "భారత్–పాకిస్థాన్ సంబంధాల్లో మార్పులు సరిహద్దు భద్రత, వాణిజ్యం ద్వారా దేశ ప్రజలందరిపై ప్రభావం చూపుతాయి.",
+   "src": "Free Malaysia Today (AFP)",
+   "url": "https://www.freemalaysiatoday.com/category/world/2026/11/20/pakistan-s-minister-in-india-to-attend-regional-meeting",
+   "sec": [
+    "india",
+    "world"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "న్యూదిల్లీ",
+   "pub": "2026-11-20T13:29+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Foreign affairs",
+    "h": "Pakistan minister in Delhi for SCO meet",
+    "stat": "SCO meet",
+    "statl": "Pakistan minister arrives",
+    "loc": "New Delhi",
+    "p": "Pakistan's climate change minister Musadik Malik arrived in New Delhi on Friday. Pakistan's High Commission said he will represent the country at a cultural meeting of the Shanghai Cooperation Organisation. It is the first visit to India by a Pakistani minister since the four-day conflict between the two countries in 2025. Prime Minister Modi is due to address the meet.",
+    "pts": [
+     "The last such visit was Bilawal Bhutto's to Goa in May 2023",
+     "The SCO has 10 member countries"
+    ],
+    "why": "Changes in India–Pakistan ties affect everyone in the country through border security and trade."
+   },
+   "hi": {
+    "cat": "भारत · विदेश",
+    "h": "एससीओ बैठक के लिए पाकिस्तानी मंत्री दिल्ली पहुंचे",
+    "stat": "एससीओ बैठक",
+    "statl": "में पाकिस्तानी मंत्री पहुंचे",
+    "loc": "नई दिल्ली",
+    "p": "पाकिस्तान के जलवायु परिवर्तन मंत्री मुसादिक मलिक शुक्रवार को नई दिल्ली पहुंचे। पाकिस्तान उच्चायोग ने बताया कि वे शंघाई सहयोग संगठन की सांस्कृतिक बैठक में देश का प्रतिनिधित्व करेंगे। 2025 में दोनों देशों के बीच चार दिन के संघर्ष के बाद किसी पाकिस्तानी मंत्री की यह पहली भारत यात्रा है। प्रधानमंत्री मोदी बैठक को संबोधित करेंगे।",
+    "pts": [
+     "पिछली बार मई 2023 में बिलावल भुट्टो गोवा आए थे",
+     "एससीओ में 10 सदस्य देश हैं"
+    ],
+    "why": "भारत-पाकिस्तान संबंधों में बदलाव सीमा सुरक्षा और व्यापार के जरिए देश के सभी लोगों पर असर डालते हैं।"
+   },
+   "d": "20.11.2026",
+   "t": "16:05"
+  },
+  {
+   "cat": "భారత్ · క్రికెట్",
+   "col": "--c-city",
+   "pic": "c/sports",
+   "stat": "130 పరుగుల",
+   "statl": "ఓపెనింగ్ భాగస్వామ్యం",
+   "h": "వెల్లింగ్టన్ టెస్టులో భారత ఓపెనర్ల జోరు",
+   "p": "న్యూజిలాండ్‌తో వెల్లింగ్టన్‌లో జరుగుతున్న తొలి టెస్టు రెండో రోజు ఆట ముగిసేసరికి భారత్ ఒక వికెట్ నష్టానికి 159 పరుగులు చేసింది. యశస్వి జైస్వాల్ 85 పరుగులు చేసి ఔటవగా, కేఎల్ రాహుల్ 52 పరుగులతో క్రీజులో ఉన్నాడు. అంతకుముందు న్యూజిలాండ్ 368 పరుగులకు ఆలౌటైంది. నికోల్స్ 175 నాటౌట్, ఫిలిప్స్ 118 పరుగులు చేశారు.",
+   "pts": [
+    "న్యూజిలాండ్‌లో 32 ఏళ్ల తర్వాత భారత ఓపెనర్ల శతక భాగస్వామ్యం",
+    "పడిక్కల్ 16 పరుగులతో నాటౌట్"
+   ],
+   "why": "క్రికెట్ అభిమానులకు విదేశీ గడ్డపై భారత జట్టు టెస్టు సిరీస్ ఆరంభం ఎలా సాగుతోందో తెలుస్తుంది.",
+   "src": "ETV Bharat",
+   "url": "https://www.etvbharat.com/en/sports/ind-vs-nz-1st-test-day-2-report-kl-rahul-and-yashasvi-jaiswal-score-half-centuries-enn26112001859",
+   "sec": [
+    "india",
+    "sports"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "వెల్లింగ్టన్",
+   "pub": "2026-11-20T11:11+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Cricket",
+    "h": "Jaiswal, Rahul hit fifties in Wellington Test",
+    "stat": "130-run",
+    "statl": "opening partnership",
+    "loc": "Wellington",
+    "p": "India reached 159 for one at stumps on day two of the first Test against New Zealand in Wellington. Yashasvi Jaiswal was out for 85, while KL Rahul is batting on 52. Earlier, New Zealand were all out for 368, with Henry Nicholls unbeaten on 175 and Glenn Phillips making 118.",
+    "pts": [
+     "First century stand by Indian openers in New Zealand in 32 years",
+     "Padikkal is unbeaten on 16"
+    ],
+    "why": "Cricket fans can see how India's Test series is starting away from home."
+   },
+   "hi": {
+    "cat": "भारत · क्रिकेट",
+    "h": "वेलिंगटन टेस्ट में जायसवाल, राहुल के अर्धशतक",
+    "stat": "130 रन",
+    "statl": "की ओपनिंग साझेदारी",
+    "loc": "वेलिंगटन",
+    "p": "न्यूजीलैंड के खिलाफ वेलिंगटन में पहले टेस्ट के दूसरे दिन का खेल खत्म होने तक भारत ने एक विकेट पर 159 रन बनाए। यशस्वी जायसवाल 85 रन बनाकर आउट हुए, जबकि केएल राहुल 52 रन पर खेल रहे हैं। इससे पहले न्यूजीलैंड 368 रन पर ऑलआउट हुआ; हेनरी निकोल्स 175 पर नाबाद रहे और ग्लेन फिलिप्स ने 118 रन बनाए।",
+    "pts": [
+     "न्यूजीलैंड में 32 साल बाद भारतीय ओपनरों की शतकीय साझेदारी",
+     "पडिक्कल 16 रन पर नाबाद"
+    ],
+    "why": "क्रिकेट प्रशंसकों को पता चलता है कि विदेशी धरती पर भारत की टेस्ट सीरीज की शुरुआत कैसी है।"
+   },
+   "d": "20.11.2026",
+   "t": "16:05"
+  },
   {
    "cat": "తెలంగాణ · రాజకీయం",
    "col": "--c-election",
