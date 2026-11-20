@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-20T11:35:00+05:30",
+ "cutoff": "2026-11-20T15:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T18:35:00+05:30/2026-11-17T19:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 2,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 5,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Feeds 18:44, 69/70 ok; 772 uncovered TG/AP (many already published). add_repo not available; used existing clone. Published: Langer House LPG refilling 6 held (NewsMeter 18:32), Naidu meets Sitharaman for cyclone aid (DC 18:39). Duplicates: Bhadrachalam lodge death (13:05), Harish manifesto (11:05), Balapur ganja (16:05), Maoist dump shells (18:05), fake silver foil (14:05). Skipped: egg-donation racket (Oct 31 event), Kurnool PACS polls (Hans 16 Nov, old). Not found via search: Hindu maternal-child institute, AP rooftop solar 4th, Sandeep PAC Nov 22, TG debt CESS, Prakasam tobacco farmers; Disha Kamareddy lighting (fetch failed)."
-  },
   {
    "window": "2026-11-17T19:05:00+05:30/2026-11-17T19:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Feeds 11:28 IST, 68/68 ok, 753 TG/AP uncovered, lookback 03:05 (20 Nov). Published 4 (late-found 04:30-10:25): ETV Sagar engineers action (claim), ETV Sammakka Sagar joint survey (Mulugu), Andhra Jyothy CID Rs7cr job fraud 2nd arrest (sensitive, accused not named), NT Tekulapalli sand tractor overturn 1 dead (sensitive, no name). Duplicate: V6 11,275 Cheyutha pensions (published 19 Nov). Skipped old: NTV TN 15 officials leak (19 Nov 20:33), Sakshi Khammam Akvan crops (19 Nov 00:31), Sakshi Konaseema Akvan (20 Nov 00:07). Not opened: feed direct URLs (Siasat PRS budget 17pc, Hindu 90 medical shops, Hindu ethanol hearing detentions, Siasat HC firecracker ban, TT Trump-Xi-Putin summit, Siasat Iran war cost, TT Nvidia probe, Hindu Yadadri thermal) - WebFetch refused non-search URLs; no search hit for them. District searches 8 (Warangal, Karimnagar, Visakhapatnam, Mahabubnagar, Guntur, Nalgonda, Srikakulam, Khammam/Bhadradri). add_repo not available; used existing clone. build_previews index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-20T11:35:00+05:30/2026-11-20T15:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 7,
+   "late": 0,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 5,
+   "review": 0,
+   "gaps": "No runs between 11:35 and 15:05; this run (started ~15:50 IST) covered the 3.5 h window. Feeds 15:10 IST, 68/70 ok (Siddipet/Anakapalli district feeds failing), 880 TG/AP uncovered, lookback 03:35 (20 Nov). Published 7: TT ED searches ex-MLA house Khanapur (12:20, sensitive, name omitted), Siasat HC voids nominated PACS posts (14:06, claim), Siasat rail parcel app Hyderabad (13:33), Siasat Osmania antibiotic resistance report (12:20), Siasat Skyroot Vikram-1 partners (14:32), TT hockey EV Prakash obituary (12:51), TT/IANS Satwik-Chirag HK Open semis (11:47, India). Duplicates/seen: 90 medical shops, Kothagudem quack clinic, KRMB approvals. Skipped after END (next run): Siasat SI exam hall tickets (15:44), Andhra Jyothy Harish challenge (15:31). Skipped old: AJ TDP ZP candidates (02:34, before lookback), Hyderabad Mail Pochampally tour (3 Jul), HMTV Nellore accident (1 Oct). Not opened: Uttam water rights, borewell restrictions, SC close-relative marriages, world. No district searches this run (only 1). add_repo not available; used existing clone. build_previews index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6418,6 +6418,66 @@
    "url": "https://www.sakshi.com/telugu-news/dr-b-r-ambedkar-konaseema/2965195",
    "d": "2026-11-20",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/nirmal-ed-searches-former-mla-a-rekha-naiks-residence-rice-mill",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-hc-voids-nominated-pacs-posts-orders-polls-in-two-weeks-3582035/",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/book-rail-parcels-from-home-hyderabad-picked-for-new-app-3581999/",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/antibiotic-resistance-rises-in-telangana-hospitals-osmania-study-3581870/",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/hyderabad-skyroot-joins-3-firms-for-next-vikram-1-launch-3582032/",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/former-national-hockey-player-ev-prakash-dies-at-75-in-hyderabad",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/satwik-chirag-enter-hong-kong-open-2026-semifinals-with-hard-fought-win",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/tdp-announces-zp-chairperson-candidates-for-22-districts-in-ap-1578007.html",
+   "d": "2026-11-20",
+   "w": "skipped"
+  },
+  {
+   "url": "https://hyderabadmail.com/telangana-tourism-yadagirigutta-swarnagiri-one-day-tour/",
+   "d": "2026-11-20",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/crime/two-die-in-road-accident-on-national-highway-565-193517",
+   "d": "2026-11-20",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/tg-safe-finds-drug-sale-and-prescription-violations-at-90-medical-shops-in-telangana",
+   "d": "2026-11-20",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/krmb-cites-jurisdictional-constraints-asks-telangana-and-ap-to-follow-approval-process-for-new-projects",
+   "d": "2026-11-20",
+   "w": "duplicate"
   }
  ]
 }
