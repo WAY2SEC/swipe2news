@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-20T05:35:00+05:30",
+ "cutoff": "2026-11-20T06:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T12:35:00+05:30/2026-11-17T13:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "Feeds 12:42, 41/70 ok (Eenadu, Namasthe Telangana, V6 429). add_repo not available; used existing clone. Published: Bhadrachalam lodge dispute death (TT 12:28, claim), Harish Rao on Aarogyasri dues (TT 12:39, claim). Duplicates: ONGC Konaseema gas leak (Siasat/Hindu 12:23-12:25, already covered twice), Revanth Chhattisgarh visit, Inter board merger explainer, Naidu-Nirmala Delhi visit. Skipped: Adilabad airport stream diversion Rs 324 cr (Siasat 16 Nov 15:28, before lookback), BharatNet Rs 3,189 cr (6 Nov), PM gurudwara (PMIndia page is 2015 Vancouver visit), Uttarakhand bus (other state; only older articles found). 8 district searches (Nalgonda, Srikakulam, Warangal, Guntur, Kamareddy, Kadapa/Anantapur, Khammam/Bhadradri, Vizianagaram/Kakinada) returned no fresh items."
-  },
   {
    "window": "2026-11-17T13:05:00+05:30/2026-11-17T13:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Feeds 05:12 IST, 70/70 ok, lookback 21:05 (19 Nov). Published 2: DC Palamaner car hits women drying paddy, 3 dead (00:28, sensitive), DC Kadapa ZP chairperson poll at 1 pm (00:25). Duplicate: TG Inter 2027 schedule (published 19 Nov). Skipped old: DC Cyclone Akvan live blog (19 Nov 08:01), Siasat Akvan TG rain (17 Nov), DC Tirupati ZP aspirants (18 Nov), TT antibiotics (2024). Search did not surface: APSRTC outsourced staff (Hindu), Sircilla KGBV aviation olympiad, Adilabad donkey theft, Google AI tools Vizag, Ponnam Husnabad merger, NTR district 16 MPPs, Asifabad medical students protest, Hanumakonda KUDA office, Bangladesh unrest, Akvan Hyderabad train cancellations. site-restricted searches rejected by proxy. No district searches (time). add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-20T05:35:00+05:30/2026-11-20T06:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 2,
+   "late": 2,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Feeds 05:49 IST, 70/70 ok, lookback 21:35 (19 Nov). Published 2 late-found: Siasat Indiramma family insurance launch in Siddipet (22:53), TT NITW–KITS MoU renewed (23:55). Skipped old: DC/Hans Indiramma insurance pre-launch (17–18 Nov), Karmactive Akvan (19 Nov 22:59, weak source). Not opened: ANI Indiramma launch (fetch error), DC AP page 2 (blocked). Search did not surface fresh Akvan landfall (NIE 05:23), NTR 16 MPPs, Tirupati GP poll vigil, Google AI Vizag, CCMB wastewater, APRCET, Adilabad donkeys, APSRTC outsourced, Husnabad merger. No district searches (time). add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -5943,6 +5943,36 @@
    "url": "https://telanganatoday.com/antibiotics-lose-effectiveness-as-common-infections-rise",
    "d": "2026-11-20",
    "w": "old"
+  },
+  {
+   "url": "https://www.siasat.com/cm-revanth-launches-rs-5-lakh-indiramma-family-insurance-scheme-3581682/",
+   "d": "2026-11-20",
+   "w": "2026-11-20T06:05"
+  },
+  {
+   "url": "https://telanganatoday.com/nitw-kits-warangal-sign-renewed-mou-to-strengthen-academic-research-collaboration",
+   "d": "2026-11-20",
+   "w": "2026-11-20T06:05"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/revanth-orders-indiramma-life-insurance-cover-for-1-crore-families-2005310",
+   "d": "2026-11-20",
+   "w": "2026-11-20T06:05"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/1-cr-families-will-get-rs-5-lakh-insurance-cm-revanth-1143110",
+   "d": "2026-11-20",
+   "w": "2026-11-20T06:05"
+  },
+  {
+   "url": "https://www.karmactive.com/cyclone-akvan-landfall-update-odisha-red-alert-november-2026/",
+   "d": "2026-11-20",
+   "w": "2026-11-20T06:05"
+  },
+  {
+   "url": "https://telanganatoday.com/nitw-kitsw-ink-mou-for-academic-and-research-collaborations",
+   "d": "2026-11-20",
+   "w": "2026-11-20T06:05"
   }
  ]
 }
