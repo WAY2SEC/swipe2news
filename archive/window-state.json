@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-20T06:35:00+05:30",
+ "cutoff": "2026-11-20T07:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T13:35:00+05:30/2026-11-17T14:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 10,
-   "published": 7,
-   "late": 4,
-   "sensitive": 3,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 13:49, 69/70 ok; 752 uncovered TG/AP events, small batch handled. add_repo not available; used existing clone. Published: Global Summit postponement letter (South First 13:45, claim), El Nino Rs 500 cr GST loss (Siasat 13:29, forecast), Hyderabad aluminium varaq arrests (Siasat 13:47), Khelo India Kabaddi (Hans 12:37), Gummagatta KGBV 25 ill (HMTV 12:36), Shivaipally mother killed (HMTV 12:37), Update Bijinapally alprazolam 6 held (Hans 11:04). Duplicates: Shamirpet Bhuvanteza Rs 22.22L refund (covered 10:35), Bilkis Bano bail (covered 16 Nov). Skipped: Ramoji Rao jayanti state festival (announced 16 Nov evening; Sakshi copy not openable). Not opened: Dishadaily KGBV, Nagarjunasagar AP tunnel (V6), Bhupalpally 6,000 pensions (HMTV), Minister Vivek 2 lakh houses (V6), Bellampalli police farmhouse (V6). District searches (Krishna, Nirmal, Nellore, Sangareddy/Medak, Mancherial, Nagarkurnool, Anantapur, Bhupalpally) returned few fresh items."
-  },
   {
    "window": "2026-11-17T14:05:00+05:30/2026-11-17T14:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Feeds 06:14 IST, 70/70 ok, lookback 22:05 (19 Nov). Published 2: Hans Narasaraopet/Palnadu ZP poll arrangements (05:06), TT Ponnam Husnabad merger demand (00:33, late, claim). Skipped old: Hans Akvan 3kmph (17 Nov), Oneindia Akvan (17 Nov), Hans HYDRAA 2 lakes (16 Nov), Hans Srisailam Laksha Deepotsavam (16 Nov), Wire Doval summons (10 Nov). Not opened (fetch permission timeout): Hans gold 8th day, Hans edible oil, TT semiconductor editorial, TT AP power demand. Search did not surface: Hindu Akvan landfall (06:06), KUDA Kaloji, Guntur 3 killed, Adilabad donkeys, Hanamkonda farmer registry, HYDRAA four lakes, TG SAFE Kothagudem, NTR 16 MPPs, Chityal crash, Srisailam Koti Deepotsavam, APSRTC outsourced, Jagadish vs Uttam, Tirupati GP vigil, Nellore PM-RAHAT. District searches: Karimnagar, Kurnool, Khammam, Srikakulam, Nizamabad, Mahabubnagar, Nellore, Warangal (thin results). add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-20T06:35:00+05:30/2026-11-20T07:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 5,
+   "late": 4,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 06:46 IST, 69/70 ok, lookback 22:35 (19 Nov). Published 5: DC NTR district TDP wins 16 MPPs (04:20), Hans Raptadu 6 MPPs (04:34), Hans Tirupati/Chittoor/Annamayya MPPs (04:19), TT HC questions Jagan ED PIL (01:11), Hans Jagadish vs Uttam Sagar water (05:58, claim). Duplicate: TT Revanth Erragadda remark (Siddipet meeting already covered). Not opened: feed-direct URLs (Hindu Google AI Vizag, Hindu robotic surgeries, Hindu APSRTC outsourced) refused - fetch only works on search-result URLs; newsdrum Akvan (client error). Search did not surface: Hindu Akvan landfall 06:06, Tirupati GP vigil, Hyderabad cooler mornings, TG HC 13 NBWs, AP HC EWS CBI. No district searches (time). add_repo not available; used existing clone. build_previews also touched index/sitemap files - reverted."
   }
  ],
  "seen": [
@@ -6008,6 +6008,36 @@
    "url": "https://thewire.in/diplomacy/us-court-clears-way-to-send-summons-to-nsa-doval-former-raw-chief-pannun-lawsuit",
    "d": "2026-11-20",
    "w": "skip"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/telugu-desam-wins-all-16-mpp-president-posts-in-ntr-district-2006107",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/anantapur/tdp-clean-sweeps-mpp-polls-in-anantapur-dist-1143830",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/tirupathi/tdp-sweeps-majority-of-mpp-posts-across-three-districts-1143821",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-high-court-questions-pil-seeking-speedy-disposal-of-ed-cases-against-jagan",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/nalgonda-suryapet/jagadish-questions-uttam-on-nagarjuna-sagar-water-diversion-1143872",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/revanth-reddy-hits-back-at-congress-critics-threatens-to-send-them-to-erragadda",
+   "d": "2026-11-20",
+   "w": "duplicate"
   }
  ]
 }
