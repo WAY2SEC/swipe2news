@@ -1115,7 +1115,12 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .s2n.metals2 .mr b{font:800 22px/1.1 'Outfit',sans-serif;color:#2E0827}
 .s2n.metals2 .mr i{font:800 11.5px/1 'Outfit',sans-serif;font-style:normal}.s2n.metals2 i.up{color:#0E7A3E}.s2n.metals2 i.dn{color:#B3261E}
 .s2n.metals2 .m2f{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}.s2n.metals2 .m2f span{padding:5px 10px;border-radius:10px;background:#FBF3E6;color:#4A0E3F;font:800 11px/1.2 var(--body)}
-.s2n.metals2 .m2n{margin:0;text-align:center;font:italic 600 11.5px/1.3 var(--body);color:rgba(255,253,245,.8)}
+.s2n.metals2 .m2hd{position:relative}
+.metals2 .mtact{position:absolute;left:12px;right:12px;bottom:-2px;display:flex;justify-content:space-between;pointer-events:none;z-index:2}
+.metals2 .mtact button{pointer-events:auto;display:flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;cursor:pointer;padding:0}
+.metals2 .mtsh{border:1px solid rgba(255,253,245,.35);background:rgba(255,253,245,.12);color:#FFFDF5}
+.metals2 .mtwa{border:0;background:#25D366;color:#fff}
+.metals2 .m2n{margin:0;text-align:center;font:italic 600 11.5px/1.3 var(--body);color:rgba(255,253,245,.8)}
 
 /* metals table view (preview ?mt=table) */
 .s2n.metalsT .m2body{justify-content:flex-start!important;gap:12px!important;padding-top:4px!important}
@@ -1712,6 +1717,7 @@ const MTX={te:{t:'బంగారం · వెండి · రాగి',g24:'24
  hi:{t:'सोना · चाँदी · ताँबा',g24:'24 कैरेट',g22:'22 कैरेट',sv:'चाँदी',gu:'10 ग्राम',su:'किलो',cu:'ताँबा',cuu:'किलो · MCX',warn:'ज्वैलर GST और मेकिंग चार्ज अलग से लेते हैं। ख़रीदने से पहले दुकान पर पक्का करें।',src:'स्रोत',city:{Hyderabad:'हैदराबाद',Mumbai:'मुंबई',Chennai:'चेन्नई',Delhi:'दिल्ली',Vijayawada:'विजयवाड़ा'}}};
 function metalsItem(){ if(!METALS) return null; const fresh=x=>x&&x.date&&(Date.now()-new Date(x.date+'T12:00:00+05:30'))<4*864e5; const c=METALS.cities.filter(fresh); if(!c.length) return null;
   return {kind:'metals', c, h:'బంగారం ధరలు', p:c.map(x=>x.city+' '+x.g24).join(', '), url:'https://swipe2news.com/', src:METALS.src||'', d:''}; }
+const MTSH='<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="2.6"/><circle cx="6" cy="12" r="2.6"/><circle cx="18" cy="19" r="2.6"/><path d="M8.3 10.8l7.4-4.2M8.3 13.2l7.4 4.2"/></svg>';
 function metalsHTML(s,i,city){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=METALS.prev||{}, inr=n=>'₹'+Number(n).toLocaleString('en-IN');
   const ar=(k,v)=>{ const p=prev[k]; if(p==null||v==null||p===v) return ''; return v>p?`<i class="up">▲ ${Number(v-p).toLocaleString('en-IN')}</i>`:`<i class="dn">▼ ${Number(p-v).toLocaleString('en-IN')}</i>`; };
   const pick=city||(store.get('metCity','')||'Hyderabad'); const c=s.c.find(x=>x.city===pick)||s.c[0], cu=METALS.copper&&METALS.copper.price?METALS.copper:null;
@@ -1721,7 +1727,7 @@ function metalsHTML(s,i,city){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=M
   let when=''; try{ const m=/T(\d\d):(\d\d)/.exec(METALS.updated||''); const dd=new Date(c.date+'T12:00:00+05:30').toLocaleDateString(l==='te'?'te-IN':l==='hi'?'hi-IN':'en-IN',{day:'numeric',month:'short'}); when=dd+(m?' · '+(((+m[1])%12)||12)+':'+m[2]+(+m[1]<12?' AM':' PM'):''); }catch(e){ when=c.date||''; }
   const row=(lab,val,k)=>`<div class="mr"><span>${lab}</span><b>${val!=null?inr(val):'—'}</b>${ar(k,val)}</div>`;
   return `<article class="story s2n mandi metals2" aria-label="${esc(T.h.join(' · '))}" data-city="${esc(c.city)}">
-  <div class="m2hd"><div class="m2t">${T.h.map(esc).join('<i>•</i>')}</div><div class="m2s"><span></span>${esc(T.sub)}<span></span></div>
+  <div class="m2hd"><div class="mtact"><button class="mtsh" type="button" aria-label="Share">${MTSH}</button><button class="mtwa" type="button" aria-label="WhatsApp">${walogo(20)}</button></div><div class="m2t">${T.h.map(esc).join('<i>•</i>')}</div><div class="m2s"><span></span>${esc(T.sub)}<span></span></div>
    <div class="m2city">${s.c.map(x=>`<button type="button" class="m2c${x.city===c.city?' on':''}" data-c="${esc(x.city)}">${esc(U.city[x.city]||x.city)}</button>`).join('')}</div></div>
   <div class="text m2body">
    <div class="m2p"><img src="/art/m/gold.webp" alt="" decoding="async"><div class="m2v"><h4>${esc(T.g)}${l!=='en'?' <small>/ GOLD</small>':''}</h4>${row('22K · 10 g',c.g22,c.city+'|g22')}${row('24K · 10 g',c.g24,c.city+'|g24')}</div></div>
@@ -1745,7 +1751,7 @@ function metalsTableHTML(s,i){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=M
   const dt=d=>{ try{ return new Date(d+'T12:00:00+05:30').toLocaleDateString(l==='te'?'te-IN':l==='hi'?'hi-IN':'en-IN',{day:'numeric',month:'short'}); }catch(e){ return d||''; } };
   let when=''; try{ const m=/T(\d\d):(\d\d)/.exec(METALS.updated||''); when=dt(s.c[0].date)+(m?' · '+(((+m[1])%12)||12)+':'+m[2]+(+m[1]<12?' AM':' PM'):''); }catch(e){}
   return `<article class="story s2n mandi metals2 metalsT" aria-label="${esc(T.h.join(' · '))}">
-  <div class="m2hd"><div class="m2t">${T.h.map(esc).join('<i>•</i>')}</div><div class="m2s"><span></span>${esc(T.sub)} · ${esc(dt(s.c[0].date))}<span></span></div></div>
+  <div class="m2hd"><div class="mtact"><button class="mtsh" type="button" aria-label="Share">${MTSH}</button><button class="mtwa" type="button" aria-label="WhatsApp">${walogo(20)}</button></div><div class="m2t">${T.h.map(esc).join('<i>•</i>')}</div><div class="m2s"><span></span>${esc(T.sub)} · ${esc(dt(s.c[0].date))}<span></span></div></div>
   <div class="text m2body">
    <div class="mtw"><table class="mtt"><thead>
     <tr class="mtimg"><th></th><th colspan="2"><img src="/art/m/gold.webp" alt=""><b>${esc(T.g)}</b><small>10 g</small></th><th><img src="/art/m/silver.webp" alt=""><b>${esc(T.sv)}</b><small>1 kg</small></th></tr>
@@ -1757,6 +1763,20 @@ function metalsTableHTML(s,i){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=M
   </div>
   ${footHTML()}
 </article>`; }
+/* owner 20 Nov 2026: the gold/silver card can be shared (text with every city's rates) */
+function metalsShareText(){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, inr=n=>n!=null?'₹'+Number(n).toLocaleString('en-IN'):'—';
+  const T={te:{t:'🪙 నేటి బంగారం, వెండి ధరలు',g:'బంగారం 10 గ్రా',s:'వెండి 1 కిలో',n:'సూచిక ధరలు • పన్నులు, తయారీ ఛార్జీలు అదనం',src:'మూలం'},
+    en:{t:'🪙 Today\'s gold & silver rates',g:'Gold 10 g',s:'Silver 1 kg',n:'Indicative rates • Taxes and making charges extra',src:'Source'},
+    hi:{t:'🪙 आज के सोना-चाँदी भाव',g:'सोना 10 ग्राम',s:'चाँदी 1 किलो',n:'सांकेतिक भाव • टैक्स और मेकिंग चार्ज अलग',src:'स्रोत'}}[l];
+  const mi=metalsItem(), c=(mi&&mi.c)||[]; const L=[T.t+(c[0]&&c[0].date?' – '+c[0].date.split('-').reverse().join('.'):''),''];
+  const sv={te:'వెండి',en:'Silver',hi:'चाँदी'}[l]; c.forEach(x=>{ const parts=[]; if(x.g22!=null) parts.push('22K '+inr(x.g22)); if(x.g24!=null) parts.push('24K '+inr(x.g24)); if(x.silver!=null) parts.push(sv+' '+inr(x.silver)); if(parts.length) L.push(`📍 ${U.city[x.city]||x.city}: ${parts.join(' · ')}`); });
+  L.splice(1,0,`(${T.g} · ${T.s})`);
+  const cu=METALS&&METALS.copper; if(cu&&cu.price) L.push(`🟤 ${({te:'రాగి',en:'Copper',hi:'ताँबा'})[l]} 1 kg (MCX): ${inr(cu.price)}`);
+  L.push('',T.n,`${T.src}: ${(METALS&&METALS.src)||''} · Swipe2News`,'👉 https://swipe2news.com/?cards=1');
+  return L.join('\n'); }
+document.addEventListener('click',e=>{ const b=e.target.closest('.metals2 .mtsh,.metals2 .mtwa'); if(!b) return; e.preventDefault(); e.stopPropagation();
+  const t=metalsShareText(); if(b.classList.contains('mtwa')||!navigator.share){ window.open('https://wa.me/?text='+encodeURIComponent(t),'_blank','noopener'); return; }
+  navigator.share({text:t}).catch(()=>{}); },true);
 /* weather card (user, 16 Nov 2026): IMD district forecast for the reader's district, from weather.json (weather task). Never shown when stale. */
 let WX=null; fetch('weather.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>{ if(!d||!d.d) return; WX=d; try{ if(view==='home'&&section==='all'&&LIST&&LIST.length&&cur<5&&!LIST.some(x=>x.kind==='wx')) renderFeed(keyOf(LIST[cur])); }catch(e){} }).catch(()=>{});
 const WXT={te:{share:'షేర్',hi:'గరిష్ఠం',lo:'కనిష్ఠం',bul:'బులెటిన్',rainTip:'వర్షం పడే అవకాశం – గొడుగు వెంట ఉంచుకోండి',srcN:{'IMD Meteorological Centre Hyderabad':'IMD వాతావరణ కేంద్రం, హైదరాబాద్','IMD Meteorological Centre Amaravati':'IMD వాతావరణ కేంద్రం, అమరావతి'},t:'వాతావరణం',sub:'IMD అంచనా',today:'ఈరోజు',tom:'రేపు',hum:'ఉదయం తేమ',wind:'గాలి',rain:'వర్షం',kmh:'కి.మీ/గం',mm:'మి.మీ',src:'మూలం',iss:'జారీ',note:'జిల్లా సగటు అంచనా',pick:'మీ జిల్లా ఎంచుకుంటే మీ ప్రాంత వాతావరణం చూపిస్తాం',cold:'రాత్రి చలి ఎక్కువ – పిల్లలు, పెద్దలు జాగ్రత్త',hot:'ఎండ ఎక్కువ – మధ్యాహ్నం జాగ్రత్త',warn:'హెచ్చరిక',
