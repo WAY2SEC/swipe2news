@@ -1,8 +1,390 @@
 {
  "date": "20.11.2026",
  "iso": "2026-11-20",
- "count": 21,
+ "count": 28,
  "stories": [
+  {
+   "cat": "తెలుగు రాష్ట్రాలు · వాతావరణం",
+   "col": "--c-water",
+   "art": "rain",
+   "pic": "c/weather",
+   "stat": "అక్వాన్ తుపాను",
+   "statl": "నేడు తీరం దాటే అవకాశం",
+   "h": "అక్వాన్ తుపాను నేడు తీరం దాటే అవకాశం",
+   "p": "అక్వాన్ తుపాను శుక్రవారం మధ్యాహ్నం దక్షిణ ఒడిశాలోని గోపాల్‌పూర్ సమీపంలో తీరం దాటే అవకాశం ఉందని వాతావరణ శాఖ తెలిపింది. ఉత్తరాంధ్ర తీరంలో గంటకు 90–100 కిలోమీటర్ల వేగంతో గాలులు వీస్తాయని అంచనా. తెలంగాణలోని నాలుగు జిల్లాలకు ఆరెంజ్ అలర్ట్ జారీ అయింది. తీరం దాటిన తర్వాత గాలుల వేగం తగ్గుతుందని, హైదరాబాద్‌లో భారీ వర్షాలు ఉండవని అధికారులు చెప్పారు.",
+   "pts": [
+    "ఆరెంజ్ అలర్ట్: భద్రాద్రి కొత్తగూడెం, ఖమ్మం, మహబూబాబాద్, సూర్యాపేట",
+    "శ్రీకాకుళం నుంచి కాకినాడ వరకు భారీ వర్షాల సూచన",
+    "మత్స్యకారులు సముద్రంలోకి వెళ్లొద్దని హెచ్చరిక"
+   ],
+   "why": "ఉత్తరాంధ్ర, తూర్పు తెలంగాణ జిల్లాల ప్రజలు, రైతులు, ప్రయాణికులు జాగ్రత్తగా ఉండాలి.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/andhrapradesh/andhra-pradesh-telangana-weather-forecast-for-november-20-2026-215028",
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "pub": "2026-11-20T06:29+05:30",
+   "lbl": "forecast",
+   "en": {
+    "cat": "Telugu states · Weather",
+    "h": "Cyclone Akvan likely to cross coast today",
+    "stat": "Cyclone Akvan",
+    "statl": "likely to cross coast near Gopalpur today",
+    "loc": "North coastal Andhra, Telangana",
+    "p": "IMD said Cyclone Akvan is likely to cross the coast near Gopalpur in south Odisha on Friday afternoon. Winds of 90–100 kmph are expected along the north Andhra coast. An orange alert has been issued for four Telangana districts. Officials said winds will ease after landfall and Hyderabad will not see heavy rain.",
+    "pts": [
+     "Orange alert: Bhadradri Kothagudem, Khammam, Mahabubabad, Suryapet",
+     "Heavy rain forecast from Srikakulam to Kakinada",
+     "Fishermen told not to venture into the sea"
+    ],
+    "why": "People, farmers and travellers in north Andhra and eastern Telangana should stay alert."
+   },
+   "hi": {
+    "cat": "तेलुगु राज्य · मौसम",
+    "h": "चक्रवात अक्वान आज तट पार कर सकता है",
+    "stat": "चक्रवात अक्वान",
+    "statl": "आज गोपालपुर के पास तट पार करने की संभावना",
+    "loc": "उत्तर तटीय आंध्र, तेलंगाना",
+    "p": "मौसम विभाग ने कहा कि चक्रवात अक्वान शुक्रवार दोपहर दक्षिण ओडिशा के गोपालपुर के पास तट पार कर सकता है। उत्तर आंध्र तट पर 90–100 किमी प्रति घंटे की हवाओं का अनुमान है। तेलंगाना के चार ज़िलों के लिए ऑरेंज अलर्ट जारी है। अधिकारियों ने कहा कि तट पार करने के बाद हवाएँ धीमी होंगी और हैदराबाद में भारी बारिश नहीं होगी।",
+    "pts": [
+     "ऑरेंज अलर्ट: भद्राद्री कोत्तागुडेम, खम्मम, महबूबाबाद, सूर्यापेट",
+     "श्रीकाकुलम से काकीनाडा तक भारी बारिश का अनुमान",
+     "मछुआरों को समुद्र में न जाने की चेतावनी"
+    ],
+    "why": "उत्तर आंध्र और पूर्वी तेलंगाना के लोग, किसान और यात्री सतर्क रहें।"
+   },
+   "d": "20.11.2026",
+   "t": "07:35"
+  },
+  {
+   "cat": "తెలంగాణ · విద్య",
+   "col": "--c-gov",
+   "art": "campus",
+   "pic": "n/exams",
+   "stat": "డిసెంబర్ 7 నుంచి",
+   "statl": "అర్ధవార్షిక పరీక్షలు",
+   "h": "ఇంటర్ ప్రీఫైనల్, అర్ధవార్షిక వాయిదా",
+   "p": "తెలంగాణ ఇంటర్మీడియట్ విద్యా మండలి అర్ధవార్షిక, ప్రీఫైనల్ పరీక్షలను వాయిదా వేసి కొత్త తేదీలు ప్రకటించింది. నవంబర్ 25–30 మధ్య జరగాల్సిన అర్ధవార్షిక పరీక్షలు ఇప్పుడు డిసెంబర్ 7–11 తేదీల్లో జరుగుతాయి. ప్రీఫైనల్ పరీక్షలు జనవరి 4–8 తేదీలకు మారాయి. విద్యార్థులు కొత్త షెడ్యూల్ ప్రకారం సిద్ధం కావాలని, బోర్డు అధికారిక ప్రకటనలను గమనించాలని అధికారులు సూచించారు.",
+   "pts": [
+    "ప్రీఫైనల్ పరీక్షలు మొదట డిసెంబర్ 18–23కు నిర్ణయించారు",
+    "వాయిదాకు కారణాన్ని వెల్లడించలేదు"
+   ],
+   "why": "రాష్ట్రంలోని ఇంటర్ విద్యార్థులు, తల్లిదండ్రులు కొత్త తేదీల ప్రకారం సిద్ధం కావాలి.",
+   "next": "అర్ధవార్షిక పరీక్షలు డిసెంబర్ 7న మొదలు",
+   "src": "TV9 Telugu",
+   "url": "https://tv9telugu.com/career-jobs/telangana-inter-exams-2026-27-half-yearly-and-pre-final-exams-postponed-new-dates-announced-1962579.html",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "pub": "2026-11-20T07:05+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Education",
+    "h": "Inter half-yearly, pre-final exams postponed",
+    "stat": "December 7–11",
+    "statl": "Inter half-yearly exams",
+    "loc": "Telangana",
+    "p": "The Telangana Board of Intermediate Education has postponed the half-yearly and pre-final exams and announced new dates. Half-yearly exams set for November 25–30 will now be held on December 7–11. Pre-final exams move to January 4–8. Officials asked students to follow the new schedule and watch the board's official notices.",
+    "pts": [
+     "Pre-finals were first set for December 18–23",
+     "No reason given for the change"
+    ],
+    "why": "Inter students and parents across the state must plan for the new dates.",
+    "next": "Half-yearly exams begin on December 7"
+   },
+   "hi": {
+    "cat": "तेलंगाना · शिक्षा",
+    "h": "इंटर अर्धवार्षिक, प्री-फ़ाइनल परीक्षाएँ टलीं",
+    "stat": "7–11 दिसंबर",
+    "statl": "इंटर अर्धवार्षिक परीक्षाएँ",
+    "loc": "तेलंगाना",
+    "p": "तेलंगाना इंटरमीडिएट शिक्षा बोर्ड ने अर्धवार्षिक और प्री-फ़ाइनल परीक्षाएँ टालकर नई तारीखें घोषित कीं। 25–30 नवंबर की अर्धवार्षिक परीक्षाएँ अब 7–11 दिसंबर को होंगी। प्री-फ़ाइनल परीक्षाएँ 4–8 जनवरी को होंगी। अधिकारियों ने छात्रों से नए कार्यक्रम का पालन करने और बोर्ड की आधिकारिक सूचनाएँ देखने को कहा।",
+    "pts": [
+     "प्री-फ़ाइनल पहले 18–23 दिसंबर को तय थीं",
+     "बदलाव का कारण नहीं बताया गया"
+    ],
+    "why": "राज्य के इंटर छात्र और अभिभावक नई तारीखों के अनुसार तैयारी करें।",
+    "next": "अर्धवार्षिक परीक्षाएँ 7 दिसंबर से"
+   },
+   "d": "20.11.2026",
+   "t": "07:35"
+  },
+  {
+   "cat": "ఏపీ · ఆరోగ్యం",
+   "col": "--c-gov",
+   "pic": "c/health",
+   "stat": "₹1,011 కోట్లు",
+   "statl": "ఆసుపత్రుల ఆధునికీకరణ",
+   "h": "బోధనాసుపత్రులకు ₹1,011 కోట్ల ప్రణాళిక",
+   "p": "ఏపీలోని ప్రభుత్వ బోధనాసుపత్రుల్లో ఆధునిక వైద్య సేవల కోసం ₹1,011 కోట్ల ప్రతిపాదనలు సిద్ధమయ్యాయి. మంగళగిరిలో ఆరోగ్య మంత్రి సత్యకుమార్ యాదవ్ గురువారం వీటిపై సమీక్షించారు. రోబోటిక్ శస్త్రచికిత్స, ఐవీఎఫ్, అవయవ మార్పిడి, క్యాన్సర్ కేంద్రాలు ఇందులో ఉన్నాయి. విద్యా డైరెక్టర్ విష్ణువర్ధన్ ప్రతిపాదనలు వివరించారు. సీఎం చంద్రబాబు నాయుడుతో చర్చించాక తుది నిర్ణయం తీసుకుంటారు.",
+   "pts": [
+    "విజయవాడ జీజీహెచ్‌లో ₹45 కోట్లతో రోబోటిక్ సర్జరీ కేంద్రం",
+    "గుంటూరు, అనంతపురం సహా 5 చోట్ల ఐవీఎఫ్ కేంద్రాలు",
+    "ఐదు సమగ్ర క్యాన్సర్ కేంద్రాలకు ₹500 కోట్లు"
+   ],
+   "why": "ప్రతిపాదనలు అమలైతే పేద రోగులకు ఖరీదైన చికిత్సలు ప్రభుత్వాసుపత్రుల్లోనే అందుతాయి.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/amaravati/rs-1011-cr-upgrade-of-teaching-hospitals-on-cards-1143837",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-guntur",
+   "loc": "మంగళగిరి",
+   "pub": "2026-11-20T04:47+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Health",
+    "h": "₹1,011 cr plan for AP teaching hospitals",
+    "stat": "₹1,011 crore",
+    "statl": "proposed hospital upgrade",
+    "loc": "Mangalagiri, Guntur",
+    "p": "Proposals worth ₹1,011 crore have been prepared to add advanced services in AP's government teaching hospitals. Health Minister Satya Kumar Yadav reviewed them in Mangalagiri on Thursday. They include robotic surgery, IVF, organ transplant and cancer centres. Director of Medical Education Vishnu Vardhan presented them. A final decision will follow talks with CM Chandrababu Naidu.",
+    "pts": [
+     "₹45 crore robotic surgery centre at Vijayawada GGH",
+     "IVF centres at 5 places including Guntur, Anantapur",
+     "₹500 crore for five comprehensive cancer centres"
+    ],
+    "why": "If approved, poor patients could get costly treatments in government hospitals."
+   },
+   "hi": {
+    "cat": "आंध्र · स्वास्थ्य",
+    "h": "आंध्र के शिक्षण अस्पतालों हेतु ₹1,011 करोड़",
+    "stat": "₹1,011 करोड़",
+    "statl": "अस्पताल उन्नयन का प्रस्ताव",
+    "loc": "मंगलगिरि, गुंटूर",
+    "p": "आंध्र के सरकारी शिक्षण अस्पतालों में आधुनिक सेवाओं के लिए ₹1,011 करोड़ के प्रस्ताव तैयार हुए हैं। स्वास्थ्य मंत्री सत्य कुमार यादव ने गुरुवार को मंगलगिरि में इनकी समीक्षा की। इनमें रोबोटिक सर्जरी, आईवीएफ, अंग प्रत्यारोपण और कैंसर केंद्र शामिल हैं। चिकित्सा शिक्षा निदेशक विष्णु वर्धन ने प्रस्ताव रखे। मुख्यमंत्री चंद्रबाबू नायडू से चर्चा के बाद अंतिम फ़ैसला होगा।",
+    "pts": [
+     "विजयवाड़ा जीजीएच में ₹45 करोड़ का रोबोटिक सर्जरी केंद्र",
+     "गुंटूर, अनंतपुर समेत 5 जगह आईवीएफ केंद्र",
+     "पाँच कैंसर केंद्रों के लिए ₹500 करोड़"
+    ],
+    "why": "मंज़ूरी मिली तो गरीब मरीज़ों को महँगा इलाज सरकारी अस्पतालों में मिलेगा।"
+   },
+   "d": "20.11.2026",
+   "t": "07:35"
+  },
+  {
+   "cat": "ఏపీ · తిరుపతి",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "c/politics",
+   "stat": "ఎంపీపీ ఎన్నిక",
+   "statl": "శుక్రవారానికి వాయిదా",
+   "h": "వెంకటగిరి ఎంపీపీ ఎన్నిక వాయిదా",
+   "p": "తిరుపతి జిల్లా వెంకటగిరి మండల పరిషత్ అధ్యక్ష ఎన్నిక గురువారం ఉద్రిక్తత మధ్య వాయిదా పడింది. ఎనిమిది ఎంపీటీసీ స్థానాల్లో టీడీపీ, వైసీపీ చెరో నాలుగు గెలిచాయి. టాస్ వేయాలన్న సూచనను టీడీపీ అంగీకరించకపోవడంతో అధికారులు ఎన్నికను శుక్రవారానికి వాయిదా వేశారు. వాయిదాకు సరైన కారణం లేదని తిరుపతి ఎంపీ గురుమూర్తి విమర్శించారు.",
+   "pts": [
+    "అధికార యంత్రాంగాన్ని దుర్వినియోగం చేశారని ఎంపీ గురుమూర్తి ఆరోపణ",
+    "ఎస్ఈసీకి వైసీపీ ఫిర్యాదు",
+    "సైదాపురంలో టాస్ ద్వారా ఎంపీపీ పదవి టీడీపీకి"
+   ],
+   "why": "వెంకటగిరి మండల స్థానిక పాలన ఎవరి చేతుల్లో ఉంటుందో ఇంకా తేలలేదు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/venkatagiri-mpp-election-put-off-disagreement-over-toss-for-verdict-2006019",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-tirupati",
+   "loc": "వెంకటగిరి",
+   "pub": "2026-11-19T23:05+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Tirupati",
+    "h": "Venkatagiri MPP election put off",
+    "stat": "Venkatagiri MPP",
+    "statl": "election deferred to Friday",
+    "loc": "Venkatagiri, Tirupati",
+    "p": "The Venkatagiri Mandal Parishad president election in Tirupati district was put off amid tension on Thursday. TDP and YSRCP won four of the eight MPTC seats each. Officials deferred the poll to Friday after the TDP refused a toss to break the tie. Tirupati MP Gurumoorthy said there was no valid reason for the postponement.",
+    "pts": [
+     "MP Gurumoorthy alleges misuse of official machinery",
+     "YSRCP has complained to the SEC",
+     "In Saidapuram, TDP won the MPP post by toss"
+    ],
+    "why": "Who will run local government in Venkatagiri mandal is still undecided."
+   },
+   "hi": {
+    "cat": "आंध्र · तिरुपति",
+    "h": "वेंकटगिरि एमपीपी चुनाव टला",
+    "stat": "वेंकटगिरि एमपीपी",
+    "statl": "चुनाव शुक्रवार तक टला",
+    "loc": "वेंकटगिरि, तिरुपति",
+    "p": "तिरुपति ज़िले में वेंकटगिरि मंडल परिषद अध्यक्ष का चुनाव गुरुवार को तनाव के बीच टल गया। आठ एमपीटीसी सीटों में टीडीपी और वाईएसआरसीपी ने चार-चार जीतीं। टीडीपी के टॉस से इनकार के बाद अधिकारियों ने चुनाव शुक्रवार तक टाल दिया। तिरुपति सांसद गुरुमूर्ति ने कहा कि टालने का कोई ठोस कारण नहीं था।",
+    "pts": [
+     "सांसद गुरुमूर्ति का सरकारी तंत्र के दुरुपयोग का आरोप",
+     "वाईएसआरसीपी ने एसईसी से शिकायत की",
+     "सैदापुरम में टॉस से एमपीपी पद टीडीपी को"
+    ],
+    "why": "वेंकटगिरि मंडल में स्थानीय शासन किसके हाथ होगा, अभी तय नहीं।"
+   },
+   "d": "20.11.2026",
+   "t": "07:35"
+  },
+  {
+   "cat": "ఏపీ · తిరుపతి",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "c/politics",
+   "stat": "పంచాయతీ ఎన్నికలు",
+   "statl": "గ్రామాల్లో నిఘా పెంపు",
+   "h": "తిరుపతి పంచాయతీ ఎన్నికలకు పోలీసు నిఘా",
+   "p": "గ్రామ పంచాయతీ ఎన్నికల నేపథ్యంలో తిరుపతి జిల్లాలోని సమస్యాత్మక, అతి సమస్యాత్మక గ్రామాల్లో రోజంతా నిఘా ఉంచాలని ఎస్పీ సుబ్బరాయుడు ఆదేశించారు. నామినేషన్లు ప్రశాంతంగా సాగేందుకు ఎంపీడీవో కార్యాలయాల వద్ద పోలీసులను మోహరించారు. అడ్డంకులు సృష్టిస్తే కఠిన చర్యలు తప్పవన్నారు. ఓటర్లు ప్రలోభాలకు, ఒత్తిళ్లకు లొంగకుండా స్వేచ్ఛగా ఓటు వేయాలని ఎస్పీ కోరారు.",
+   "pts": [
+    "అక్రమ మద్యం, ఓటర్లకు పంచే సామగ్రిపై ప్రత్యేక తనిఖీలు",
+    "నామినేషన్లకు ఆటంకం కలిగిస్తే చట్టపరమైన చర్యలు"
+   ],
+   "why": "తిరుపతి జిల్లా గ్రామాల ఓటర్లు, అభ్యర్థులు భయం లేకుండా ఎన్నికల్లో పాల్గొనేందుకు ఇది ఉద్దేశించింది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/tirupati-district-police-step-up-vigil-at-hyper-sensitive-villages-ahead-of-gp-polls-2006101",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-tirupati",
+   "pub": "2026-11-20T03:28+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Tirupati",
+    "h": "Tirupati police step up vigil for GP polls",
+    "stat": "Panchayat polls",
+    "statl": "more vigil in sensitive villages",
+    "loc": "Tirupati district",
+    "p": "Ahead of gram panchayat polls, Tirupati SP Subba Rayudu ordered round-the-clock watch on sensitive and hyper-sensitive villages in the district. Police are posted at MPDO offices so nominations go on peacefully. He warned of strict action against anyone causing disruption. He urged voters to vote freely without giving in to inducements or pressure.",
+    "pts": [
+     "Special checks for illegal liquor and items to lure voters",
+     "Legal action if nominations are disrupted"
+    ],
+    "why": "It aims to let voters and candidates in Tirupati villages take part without fear."
+   },
+   "hi": {
+    "cat": "आंध्र · तिरुपति",
+    "h": "तिरुपति पंचायत चुनाव: पुलिस निगरानी बढ़ी",
+    "stat": "पंचायत चुनाव",
+    "statl": "संवेदनशील गाँवों में निगरानी बढ़ी",
+    "loc": "तिरुपति ज़िला",
+    "p": "ग्राम पंचायत चुनाव से पहले तिरुपति के एसपी सुब्बा रायुडु ने ज़िले के संवेदनशील और अति-संवेदनशील गाँवों पर चौबीसों घंटे नज़र रखने का आदेश दिया। नामांकन शांति से हों, इसलिए एमपीडीओ दफ़्तरों पर पुलिस तैनात है। गड़बड़ी करने वालों पर सख़्त कार्रवाई की चेतावनी दी। उन्होंने मतदाताओं से प्रलोभन या दबाव में आए बिना स्वतंत्र रूप से वोट देने की अपील की।",
+    "pts": [
+     "अवैध शराब और मतदाताओं को बाँटी जाने वाली सामग्री की विशेष जाँच",
+     "नामांकन में बाधा डालने पर कानूनी कार्रवाई"
+    ],
+    "why": "इसका मकसद तिरुपति के गाँवों में मतदाता और उम्मीदवार बिना डर भाग ले सकें।"
+   },
+   "d": "20.11.2026",
+   "t": "07:35"
+  },
+  {
+   "cat": "తెలంగాణ · రాజకీయం",
+   "col": "--c-election",
+   "pic": "c/politics",
+   "stat": "ఏఐసీసీ నియామకాలు",
+   "statl": "తెలంగాణకు ఇద్దరు",
+   "h": "తెలంగాణకు ఇద్దరు ఏఐసీసీ కార్యదర్శులు",
+   "p": "కాంగ్రెస్ అధిష్ఠానం తెలంగాణకు సచిన్ సావంత్, సైమన్ అలెక్స్ శరణ్‌లను ఏఐసీసీ కార్యదర్శులుగా నియమించింది. రాష్ట్రానికి చెందిన ముగ్గురు నేతలకు జాతీయ బాధ్యతలు దక్కాయి. ఈ మేరకు ఏఐసీసీ ప్రధాన కార్యదర్శి కేసీ వేణుగోపాల్ ప్రకటన విడుదల చేశారు. ఏపీ, అండమాన్ నికోబార్ దీవులకు సెంతమిళ్ అరసు, వి.శంకర్‌లను సంయుక్తంగా నియమించారు.",
+   "pts": [
+    "జెట్టి కుసుమ కుమార్‌కు ఒడిశా, సయ్యద్ అజ్ముతుల్లా హుస్సేనికి కర్ణాటక బాధ్యతలు",
+    "సంతోష్ కొరుకొండకు ఏఐసీసీ శిక్షణ విభాగం బాధ్యత"
+   ],
+   "why": "తెలంగాణ కాంగ్రెస్ వ్యవహారాల పర్యవేక్షణలో కొత్త నేతలు పాల్గొంటారు.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/3-telangana-leaders-get-aicc-secretary-posts-1143739",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "pub": "2026-11-20T00:54+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Politics",
+    "h": "Two new AICC secretaries for Telangana",
+    "stat": "AICC secretaries",
+    "statl": "two named for Telangana",
+    "loc": "Telangana",
+    "p": "The Congress high command has named Sachin Sawant and Simon Alex Saran as AICC secretaries for Telangana. Three leaders from the state also got national roles. AICC general secretary K C Venugopal issued the announcement. Senthamil Arasu and V Shankar were jointly named for Andhra Pradesh and the Andaman and Nicobar Islands.",
+    "pts": [
+     "Jetti Kusuma Kumar gets Odisha, Syed Ajumuthulla Hussaini Karnataka",
+     "Santosh Korukonda to head AICC training department"
+    ],
+    "why": "New leaders will help oversee Congress affairs in Telangana."
+   },
+   "hi": {
+    "cat": "तेलंगाना · राजनीति",
+    "h": "तेलंगाना के लिए दो नए एआईसीसी सचिव",
+    "stat": "एआईसीसी सचिव",
+    "statl": "तेलंगाना के लिए दो नियुक्त",
+    "loc": "तेलंगाना",
+    "p": "कांग्रेस आलाकमान ने सचिन सावंत और साइमन एलेक्स सरन को तेलंगाना के लिए एआईसीसी सचिव नियुक्त किया। राज्य के तीन नेताओं को भी राष्ट्रीय ज़िम्मेदारियाँ मिलीं। एआईसीसी महासचिव के सी वेणुगोपाल ने यह घोषणा की। आंध्र प्रदेश और अंडमान-निकोबार के लिए सेंतमिल अरसु और वी शंकर संयुक्त रूप से नियुक्त हुए।",
+    "pts": [
+     "जेट्टी कुसुम कुमार को ओडिशा, सैयद अजमुतुल्ला हुसैनी को कर्नाटक",
+     "संतोष कोरुकोंडा को एआईसीसी प्रशिक्षण विभाग"
+    ],
+    "why": "नए नेता तेलंगाना में कांग्रेस के कामकाज की निगरानी में मदद करेंगे।"
+   },
+   "d": "20.11.2026",
+   "t": "07:35"
+  },
+  {
+   "cat": "తెలంగాణ · కోర్టు",
+   "col": "--c-gov",
+   "art": "court",
+   "pic": "c/courts",
+   "stat": "జైలు శిక్ష",
+   "statl": "హైకోర్టు నిలిపివేత",
+   "h": "రంగారెడ్డి కలెక్టర్ జైలు శిక్ష నిలిపివేత",
+   "p": "కోర్టు ధిక్కరణ కేసులో రంగారెడ్డి కలెక్టర్ నారాయణ రెడ్డికి విధించిన ఆరు నెలల జైలు శిక్ష, ₹2,000 జరిమానాను హైకోర్టు ధర్మాసనం నిలిపివేసింది. తుర్కయాంజాల్‌లోని ప్లాట్లను నిషేధిత జాబితా నుంచి తొలగించే అంశంలో ఆదేశాలు పాటించలేదని సింగిల్ జడ్జి అక్టోబర్ 30న శిక్ష విధించారు. ఈ ఆదేశాలను అమలు చేయడానికి ధర్మాసనం కలెక్టర్‌కు ఆరు వారాల గడువు ఇచ్చింది.",
+   "pts": [
+    "చర్యలు మొదలయ్యాయని అడ్వకేట్ జనరల్ ద్వారా కలెక్టర్ వివరణ",
+    "అబ్దుల్లాపూర్‌మెట్ తహసీల్దార్‌కు లేఖ రాసినట్లు తెలిపారు"
+   ],
+   "why": "కోర్టు ఆదేశాల అమలుపై అధికారులకు ఇది స్పష్టమైన హెచ్చరిక; తుర్కయాంజాల్ ప్లాట్ యజమానులకు సంబంధం.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hc-suspends-jail-term-for-rr-collector-2006030",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "rangareddy",
+   "loc": "తుర్కయాంజాల్",
+   "pub": "2026-11-19T23:17+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Court",
+    "h": "HC suspends RR collector's jail term",
+    "stat": "6 weeks",
+    "statl": "to comply with HC orders",
+    "loc": "Turkayamjal, Rangareddy",
+    "p": "A High Court division bench suspended the six-month jail term and ₹2,000 fine given to Rangareddy collector Narayan Reddy in a contempt case. A single judge had sentenced him on October 30 for not following orders on removing Turkayamjal plots from the prohibited list. The bench gave the collector six weeks to carry out the orders.",
+    "pts": [
+     "Collector told the court, via the Advocate General, that steps had begun",
+     "He said a letter was sent to the Abdullapurmet tahsildar"
+    ],
+    "why": "It is a clear signal to officials on obeying court orders; Turkayamjal plot owners are affected.",
+    "next": "Six weeks to comply with the orders"
+   },
+   "hi": {
+    "cat": "तेलंगाना · अदालत",
+    "h": "रंगारेड्डी कलेक्टर की जेल सज़ा पर रोक",
+    "stat": "6 हफ़्ते",
+    "statl": "हाईकोर्ट आदेश लागू करने को",
+    "loc": "तुर्कयांजाल, रंगारेड्डी",
+    "p": "हाईकोर्ट की खंडपीठ ने अवमानना मामले में रंगारेड्डी कलेक्टर नारायण रेड्डी को दी गई छह महीने की जेल और ₹2,000 जुर्माने पर रोक लगा दी। तुर्कयांजाल के प्लॉट निषिद्ध सूची से हटाने के आदेश न मानने पर एकल न्यायाधीश ने 30 अक्टूबर को सज़ा दी थी। खंडपीठ ने आदेश लागू करने के लिए कलेक्टर को छह हफ़्ते दिए।",
+    "pts": [
+     "एडवोकेट जनरल के ज़रिए कलेक्टर ने कहा, कदम उठाए जा रहे हैं",
+     "अब्दुल्लापुरमेट तहसीलदार को पत्र भेजा गया"
+    ],
+    "why": "यह अधिकारियों के लिए अदालती आदेश मानने का स्पष्ट संकेत है; तुर्कयांजाल के प्लॉट मालिक प्रभावित।",
+    "next": "आदेश लागू करने के लिए छह हफ़्ते"
+   },
+   "d": "20.11.2026",
+   "t": "07:35",
+   "next": "ఆదేశాల అమలుకు ఆరు వారాల గడువు"
+  },
   {
    "cat": "ఏపీ · ఎన్టీఆర్ జిల్లా",
    "col": "--c-election",
