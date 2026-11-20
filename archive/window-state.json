@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-20T16:05:00+05:30",
+ "cutoff": "2026-11-20T16:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T20:05:00+05:30/2026-11-17T20:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 19,
-   "published": 5,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 20:25, 68/68 ok; 761 uncovered TG/AP (many already published). add_repo not available; used existing clone. Direct (non-search) URLs refused by WebFetch (provenance) and several site-filtered searches rejected by proxy, so only search-surfaced articles were read. Published: Telangana SIR final roll Dec 22 (Siasat 20:06), TG rain Nov 19-22 (TT 20:21), forest FASTag fee protest Mancherial (TT 20:15), Rajgopal Reddy Cheyutha Rs 4,000 (TT 20:24), Dasoju Sravan ACB probe (TT 20:28). Duplicates: Balapur 21kg ganja, aluminium varaq, Bhimavaram BJP alone, Naidu central cyclone aid. Skipped: TT Zaheerabad buses (2022 article). Not opened: Apollo mother-child institute (Hindu/TT), Sikandar Khan murder arrests (Siasat), CESS debt study (Hindu/TT), Prakasam tobacco farmers (Hindu), CII GCC forum (Hindu), TG open school results (Disha), AP Nov 26 holiday (Vaartha), Prague train crash (TOI/Sky), Hyderabad ganja/MMTS/PAC/Maoist dump (Hindu)."
-  },
   {
    "window": "2026-11-17T20:35:00+05:30/2026-11-17T21:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 1,
    "gaps": "Feeds 15:58 IST, 70/70 ok, 831 TG/AP uncovered, lookback 07:35 (20 Nov). Published 13: Siasat SI prelims Nov 29, TT nine held Malkajgiri cyber fraud (sensitive, no names), Siasat Anabheri memorial Rs 2.30 cr, TT BITS pocket radio (claim), HMTV Peddapalli job mela, Oneindia Tadipatri house attack (claim, sensitive, accused side not named), ETV AP ZP chairpersons, Andhra Jyothy MEPMA awards, ap7am Vizag mayor's father dies (sensitive), ETV Durga temple gold, Siasat/PTI SC ED review in January, FMT/AFP Pakistan minister in Delhi, ETV IND-NZ Wellington day 2. Skipped old: Hans India Malakpet Indiramma towers (01:32, before lookback; Hindu 15:38 version not opened). Review (no publication time on page): TRT World Pakistan minister. Not opened: feed-direct URLs are refused (PROVENANCE_REQUIRED) - only search-result URLs open; ANI Tadipatri, Disha mayor's father, Disha 12th PRC (client errors); Hindu tiger Mylavaram, Hindu Pochampally tour (no search hit). No district searches this run (feed list used). add_repo not available; used existing clone. build_previews index/sitemap/lang pages reverted."
+  },
+  {
+   "window": "2026-11-20T16:05:00+05:30/2026-11-20T16:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 3,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Feeds 16:20 IST, 65/68 ok, 711 TG/AP uncovered, lookback 08:05. Published 3: NT Suryapet tipper kills two teachers (sensitive, no names), Andhra Jyothy APMDC IPO by Dec 2027, DC Godavari pipeline to Hyderabad nears completion. Duplicates: Siasat gold prices (gold crash published 09:50), Asianet Cyclone Akvan weakens (Akvan crossing published), ap7am APMDC (same event). Skipped old: hyderabadnewshunt Chukka Ramaiah 100th birthday (2025 article), Careers360 JEE Main live blog (started 18 Nov), Hans Malakpet Indiramma towers (01:32). Not opened: Disha Bahuda flood Ichchapuram and Disha Suryapet (4xx), Hindu YSRCP fee dues, Hindu tiger Mylavaram, Hyderabad Mail Suryapet, ETV Kakinada knife attack, ap7am Chukka Ramaiah 101st (no search hit/not opened). District searches thin (tag pages only). add_repo not available; used existing clone. build_previews index/sitemap/lang pages reverted."
   }
  ],
  "seen": [
@@ -6638,6 +6638,56 @@
    "url": "https://www.trtworld.com/article/776aabd4c635",
    "d": "2026-11-20",
    "w": "review"
+  },
+  {
+   "url": "https://www.ntnews.com/nalgonda/two-female-teachers-die-after-being-hit-by-a-tipper-truck-2564922",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/apmdc-ipo-chandrababu-mineral-resources-erk-1578170.html",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabads-alternative-godavari-water-supply-project-nears-completion-2006200",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/gold-prices-tumble-in-hyderabad-is-it-time-to-buy-3582139/",
+   "d": "2026-11-20",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://newsable.asianetnews.com/india/andhra-pradesh-weather-latest-update-severe-cyclone-akvan-weakens-heavy-rain-for-north-coasts-articleshow-m19qae6",
+   "d": "2026-11-20",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.ap7am.com/tn/887413/apmdc-to-enter-stock-market-cm-chandrababu-naidu-key-instructions",
+   "d": "2026-11-20",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.ap7am.com/tn/887419/chandrababu-naidu-reviews-mineral-wealth-and-approves-ap-rare-earth-corporation",
+   "d": "2026-11-20",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.v6velugu.com/two-women-teachers-dies-as-tippler-truck-hits-two-wheeler-in-suryapet",
+   "d": "2026-11-20",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.hyderabadnewshunt.com/?p=72943",
+   "d": "2026-11-20",
+   "w": "skipped"
+  },
+  {
+   "url": "https://news.careers360.com/jee-main-2027-registration-last-date-live-session-1-form-link-jeemain-nta-nic-in-late-fees-documents-correction-window-updates",
+   "d": "2026-11-20",
+   "w": "skipped"
   }
  ]
 }
