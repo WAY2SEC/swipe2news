@@ -1,8 +1,182 @@
 {
  "date": "20.11.2026",
- "updated": "2026-11-20T23:05:00+05:30",
+ "updated": "2026-11-20T23:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "ఏపీ · ధరలు",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "n/prices",
+   "stat": "ధరల నియంత్రణ",
+   "statl": "ఏడాది ప్రణాళిక",
+   "h": "ధరల నియంత్రణకు ఏడాది ప్రణాళిక: చంద్రబాబు",
+   "p": "నిత్యావసర ధరల నియంత్రణకు ఏడాది కార్యాచరణ ప్రణాళిక సిద్ధం చేయాలని సీఎం చంద్రబాబు నాయుడు శుక్రవారం అధికారులను ఆదేశించారు. వారానికోసారి సమీక్షించి ధరలను నిరంతరం పర్యవేక్షించాలన్నారు. డిసెంబర్ 1 నుంచి రేషన్ దుకాణాల్లో కందిపప్పు, గోధుమపిండి, పామాయిల్ అందిస్తామని మంత్రి నాదెండ్ల మనోహర్ చెప్పారు.",
+   "pts": [
+    "కందిపప్పు కిలో ₹100, గోధుమపిండి ₹25, పామాయిల్ లీటర్ ₹125",
+    "రైతుబజార్లలో ఉల్లి కిలో ₹35",
+    "మార్కెట్ జోక్యానికి నెలకు సుమారు ₹100 కోట్లు ఖర్చు"
+   ],
+   "why": "ఏపీలో రేషన్ కార్డుదారులు, సామాన్య వినియోగదారుల ఇంటి ఖర్చుపై ఇది ప్రభావం చూపుతుంది.",
+   "next": "డిసెంబర్ 1 నుంచి రేషన్ దుకాణాల్లో కందిపప్పు, గోధుమపిండి, పామాయిల్",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/farmers-should-not-suffer-losses-and-consumers-should-not-face-hardship-cm-naidu-2006332",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "pub": "2026-11-20T19:52+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Prices",
+    "h": "Naidu orders year-long price control plan",
+    "stat": "Price control",
+    "statl": "year-long action plan ordered",
+    "loc": "Amaravati",
+    "p": "Chief Minister N. Chandrababu Naidu on Friday directed officials to prepare a year-long action plan to control essential commodity prices, with weekly reviews and continuous monitoring. Minister Nadendla Manohar said ration shops will supply red gram dal, wheat flour and palm oil from December 1.",
+    "pts": [
+     "Red gram Rs 100/kg, wheat flour Rs 25, palm oil Rs 125/litre",
+     "Onions at Rs 35/kg in Rythu Bazaars",
+     "About Rs 100 crore a month on market intervention"
+    ],
+    "why": "It affects household spending of ration card holders and ordinary consumers in AP.",
+    "next": "Dal, wheat flour and palm oil in ration shops from December 1"
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · कीमतें",
+    "h": "कीमतें काबू करने को सालभर की योजना: नायडू",
+    "stat": "मूल्य नियंत्रण",
+    "statl": "सालभर की कार्ययोजना का आदेश",
+    "loc": "अमरावती",
+    "p": "मुख्यमंत्री एन. चंद्रबाबू नायडू ने शुक्रवार को अधिकारियों को आवश्यक वस्तुओं की कीमतें नियंत्रित करने के लिए सालभर की कार्ययोजना बनाने, हर हफ्ते समीक्षा और लगातार निगरानी का निर्देश दिया। मंत्री नादेंडला मनोहर ने कहा कि 1 दिसंबर से राशन दुकानों पर अरहर दाल, गेहूं का आटा और पाम तेल मिलेगा।",
+    "pts": [
+     "अरहर दाल 100 रुपये किलो, आटा 25, पाम तेल 125 रुपये लीटर",
+     "रायतु बाजारों में प्याज 35 रुपये किलो",
+     "बाजार हस्तक्षेप पर हर महीने करीब 100 करोड़ रुपये"
+    ],
+    "why": "इसका असर आंध्र प्रदेश के राशन कार्डधारकों और आम उपभोक्ताओं के घरेलू खर्च पर पड़ेगा।",
+    "next": "1 दिसंबर से राशन दुकानों पर दाल, आटा और पाम तेल"
+   },
+   "d": "20.11.2026",
+   "t": "23:35"
+  },
+  {
+   "cat": "తెలంగాణ · రైతులు",
+   "col": "--c-gov",
+   "art": "farm",
+   "pic": "i/banking-and-insurance",
+   "stat": "రైతుబీమా",
+   "statl": "ఆగస్టు 14తో ముగిసింది",
+   "h": "రైతుబీమా ముగిసి కుటుంబాల నిరీక్షణ",
+   "p": "రైతుబీమా పథకం ఆగస్టు 14తో ముగియడంతో ఆ తర్వాత మృతి చెందిన రైతుల కుటుంబాలకు మూడు నెలలుగా ఎలాంటి సాయం అందలేదని తెలంగాణ టుడే కథనం తెలిపింది. కొత్త ఇందిరమ్మ కుటుంబ జీవిత బీమా గురువారం ప్రారంభమైనా, అమలు, చెల్లింపులు ఎప్పటినుంచో ప్రభుత్వం ఇంకా చెప్పలేదు.",
+   "pts": [
+    "పాత పథకంలో కుటుంబానికి ₹5 లక్షల బీమా",
+    "కొత్త పథకానికి దరఖాస్తుల స్వీకరణ ఇప్పుడే మొదలు",
+    "ఆగస్టు 14 తర్వాతి మృతులకు ఎక్స్‌గ్రేషియా ఇవ్వాలని కార్యకర్త డిమాండ్"
+   ],
+   "why": "రైతు మరణించిన కుటుంబాలకు బీమా సాయం అందడం ఆలస్యమవుతోంది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/farmers-families-await-insurance-cover-after-rythu-bheema-expires",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "sangareddy",
+   "pub": "2026-11-20T18:01+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Farmers",
+    "h": "Farm families wait as Rythu Bheema lapses",
+    "stat": "Rythu Bheema",
+    "statl": "expired on August 14",
+    "loc": "Sangareddy",
+    "p": "With the Rythu Bheema scheme expiring on August 14, families of farmers who died after that date have received no benefit for over three months, Telangana Today reported. The new Indiramma Kutumba Jeevitha Bheema was launched on Thursday, but the government has not said when it takes effect or pays out.",
+    "pts": [
+     "Old scheme gave Rs 5 lakh per family",
+     "Applications for the new scheme have just begun",
+     "Activist seeks ex gratia for deaths after August 14"
+    ],
+    "why": "Families of deceased farmers face delays in receiving insurance support."
+   },
+   "hi": {
+    "cat": "तेलंगाना · किसान",
+    "h": "रायतु बीमा खत्म, किसान परिवारों को इंतजार",
+    "stat": "रायतु बीमा",
+    "statl": "14 अगस्त को समाप्त",
+    "loc": "संगारेड्डी",
+    "p": "तेलंगाना टुडे की रिपोर्ट के अनुसार रायतु बीमा योजना 14 अगस्त को खत्म होने के बाद उस तारीख के बाद मरे किसानों के परिवारों को तीन महीने से कोई लाभ नहीं मिला। नई इंदिरम्मा कुटुंब जीवन बीमा योजना गुरुवार को शुरू हुई, पर सरकार ने नहीं बताया कि यह कब लागू होगी और भुगतान कब मिलेगा।",
+    "pts": [
+     "पुरानी योजना में प्रति परिवार 5 लाख रुपये",
+     "नई योजना के लिए आवेदन अभी शुरू हुए",
+     "कार्यकर्ता ने 14 अगस्त के बाद के मामलों में अनुग्रह राशि मांगी"
+    ],
+    "why": "मृत किसानों के परिवारों को बीमा सहायता मिलने में देरी हो रही है।"
+   },
+   "d": "20.11.2026",
+   "t": "23:35"
+  },
+  {
+   "cat": "భారత్ · విదేశాంగం",
+   "col": "--c-gov",
+   "art": "unity",
+   "pic": "c/culture",
+   "stat": "ఎస్‌సీఓ వేదిక",
+   "statl": "దిల్లీలో ప్రారంభం",
+   "h": "ఎస్‌సీఓ నాగరికతా వేదిక ప్రారంభం",
+   "p": "దిల్లీ పురానా ఖిలాలో తొలి ఎస్‌సీఓ నాగరికతా సంభాషణ వేదికను ప్రధాని నరేంద్ర మోదీ శుక్రవారం ప్రారంభించారు. యుద్ధాలు చర్చనీయాంశమైన వేళ సాంస్కృతిక బంధాలు శాంతికి బలమైన భరోసా అని అన్నారు. ఉమ్మడి మ్యూజియం ప్రదర్శనలు, పండితుల మార్పిడి, సాంస్కృతిక పర్యాటకాన్ని ఆయన ప్రతిపాదించారు.",
+   "pts": [
+    "మూడు రోజుల వేదిక, 'వసుధైవ కుటుంబకం' ఇతివృత్తం",
+    "ప్రాచీన గ్రంథాలను ఏఐతో ఇతర భాషల్లోకి తేవాలని సూచన",
+    "2025 ఎస్‌సీఓ సదస్సులో మోదీ ఈ వేదికను ప్రతిపాదించారు"
+   ],
+   "why": "భారత్, యూరేషియా దేశాల మధ్య సాంస్కృతిక, విద్యా సంబంధాలు బలపడే అవకాశం ఉంది.",
+   "next": "నవంబర్ 21, 22 తేదీల్లో నాలుగు చర్చా సమావేశాలు",
+   "src": "The Week",
+   "url": "https://www.theweek.in/news/india/2026/11/20/pm-modi-inaugurates-sco-civilisational-dialogue.html",
+   "sec": [
+    "india",
+    "culture"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "pub": "2026-11-20T19:33+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Foreign affairs",
+    "h": "Modi opens first SCO civilisational forum",
+    "stat": "SCO dialogue",
+    "statl": "first forum opens in Delhi",
+    "loc": "Purana Qila, New Delhi",
+    "p": "Prime Minister Narendra Modi on Friday inaugurated the first SCO Civilisational Dialogue at Purana Qila in New Delhi. He said cultural bonds are a strong guarantee of peace at a time when wars dominate discussion, and proposed joint museum exhibitions, scholar exchanges and cultural tourism.",
+    "pts": [
+     "Three-day forum on 'Vasudhaiva Kutumbakam' theme",
+     "Suggested AI to take classic texts into more languages",
+     "Modi proposed the platform at the 2025 SCO summit"
+    ],
+    "why": "It may strengthen cultural and academic ties between India and Eurasian countries.",
+    "next": "Four thematic sessions on November 21 and 22"
+   },
+   "hi": {
+    "cat": "भारत · विदेश नीति",
+    "h": "मोदी ने पहला एससीओ सभ्यता मंच खोला",
+    "stat": "एससीओ संवाद",
+    "statl": "दिल्ली में पहला मंच शुरू",
+    "loc": "पुराना किला, नई दिल्ली",
+    "p": "प्रधानमंत्री नरेंद्र मोदी ने शुक्रवार को नई दिल्ली के पुराना किला में पहले एससीओ सभ्यतागत संवाद का उद्घाटन किया। उन्होंने कहा कि जब दुनिया में युद्धों की चर्चा है, सांस्कृतिक रिश्ते शांति की मजबूत गारंटी हैं। उन्होंने संयुक्त संग्रहालय प्रदर्शनियां, विद्वानों का आदान-प्रदान और सांस्कृतिक पर्यटन का प्रस्ताव रखा।",
+    "pts": [
+     "'वसुधैव कुटुंबकम' थीम पर तीन दिन का मंच",
+     "प्राचीन ग्रंथों को एआई से और भाषाओं में लाने का सुझाव",
+     "मोदी ने 2025 एससीओ शिखर सम्मेलन में यह मंच प्रस्तावित किया था"
+    ],
+    "why": "इससे भारत और यूरेशियाई देशों के बीच सांस्कृतिक और शैक्षणिक संबंध मजबूत हो सकते हैं।",
+    "next": "21 और 22 नवंबर को चार विषयगत सत्र"
+   },
+   "d": "20.11.2026",
+   "t": "23:35"
+  },
   {
    "cat": "హైదరాబాద్ · పోలీసులు",
    "col": "--c-city",
@@ -3118,171 +3292,6 @@
    },
    "d": "20.11.2026",
    "t": "19:05"
-  },
-  {
-   "cat": "ఏపీ · విశాఖ",
-   "col": "--c-money",
-   "pic": "c/business",
-   "stat": "20 లక్షల",
-   "statl": "ఉద్యోగాల లక్ష్యం",
-   "h": "విశాఖ ఆర్థిక ప్రాంతానికి మాస్టర్‌ప్లాన్",
-   "p": "విశాఖ ఆర్థిక ప్రాంతం పరిధిలోని తొమ్మిది జిల్లాల అభివృద్ధికి రాష్ట్ర ప్రభుత్వం మాస్టర్‌ప్లాన్ సిద్ధం చేసింది. 2047 నాటికి ఈ ప్రాంతంలో 20 లక్షల మందికి ఉపాధి కల్పించడం లక్ష్యం. హైదరాబాద్ హైటెక్ సిటీ తరహాలో వైజాగ్ బే టెక్ సిటీని తీర్చిదిద్దనున్నారు. దీని పర్యవేక్షణకు సీనియర్ ఐఏఎస్ అధికారిని జాయింట్ సీఈఓగా నియమించనున్నారు.",
-   "pts": [
-    "₹9,180 కోట్లతో 60 ప్రాజెక్టుల ప్రతిపాదన",
-    "మధురవాడ–రుషికొండ ఐటీ కారిడార్‌లో 1.52 లక్షల ఉద్యోగాల అంచనా",
-    "ఒక్కొక్కటి ₹500 కోట్లతో మూడు పర్యాటక క్లస్టర్లు"
-   ],
-   "why": "ఉత్తరాంధ్ర, గోదావరి జిల్లాల యువతకు సొంత ప్రాంతంలోనే ఉద్యోగ అవకాశాలు పెరిగే వీలుంది.",
-   "src": "ETV Bharat",
-   "url": "https://www.etvbharat.com/te/state/visakha-bay-tech-city-become-future-financial-hub-for-andhra-pradesh-aps26112000893",
-   "sec": [
-    "telangana",
-    "business",
-    "jobs"
-   ],
-   "st": "AP",
-   "place": "ap-visakhapatnam",
-   "loc": "విశాఖపట్నం",
-   "pub": "2026-11-20T11:26+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Visakhapatnam",
-    "h": "Master plan ready for Visakha Economic Region",
-    "stat": "20 lakh",
-    "statl": "jobs targeted",
-    "loc": "Visakhapatnam",
-    "p": "The Andhra Pradesh government has prepared a master plan to develop nine districts under the Visakha Economic Region. The aim is to create jobs for 20 lakh people in the region by 2047. Vizag Bay Tech City is to be developed on the lines of Hyderabad's HITEC City, with a senior IAS officer to be appointed Joint CEO to oversee it.",
-    "pts": [
-     "60 projects proposed at Rs 9,180 crore",
-     "1.52 lakh jobs expected in Madhurawada–Rushikonda IT corridor",
-     "Three tourism clusters at Rs 500 crore each"
-    ],
-    "why": "Young people in north Andhra and the Godavari districts may find more jobs closer to home."
-   },
-   "hi": {
-    "cat": "एपी · विशाखापत्तनम",
-    "h": "विशाखा आर्थिक क्षेत्र का मास्टर प्लान तैयार",
-    "stat": "20 लाख",
-    "statl": "रोजगार का लक्ष्य",
-    "loc": "विशाखापत्तनम",
-    "p": "आंध्र प्रदेश सरकार ने विशाखा आर्थिक क्षेत्र के नौ जिलों के विकास के लिए मास्टर प्लान तैयार किया है। लक्ष्य 2047 तक इस क्षेत्र में 20 लाख लोगों को रोजगार देना है। हैदराबाद की हाईटेक सिटी की तर्ज पर वाइजैग बे टेक सिटी विकसित की जाएगी और इसकी निगरानी के लिए एक वरिष्ठ आईएएस अधिकारी को संयुक्त सीईओ नियुक्त किया जाएगा।",
-    "pts": [
-     "₹9,180 करोड़ की 60 परियोजनाओं का प्रस्ताव",
-     "मधुरवाड़ा–रुशिकोंडा आईटी कॉरिडोर में 1.52 लाख नौकरियों का अनुमान",
-     "₹500 करोड़ प्रत्येक के तीन पर्यटन क्लस्टर"
-    ],
-    "why": "उत्तर आंध्र और गोदावरी जिलों के युवाओं को अपने ही क्षेत्र में रोजगार के अधिक अवसर मिल सकते हैं।"
-   },
-   "d": "20.11.2026",
-   "t": "19:05"
-  },
-  {
-   "cat": "తమిళనాడు · మత్స్యకారులు",
-   "col": "--c-gov",
-   "pic": "i/fisheries-and-aquaculture",
-   "stat": "8 పడవల",
-   "statl": "విడుదలకు డిమాండ్",
-   "h": "ఏపీలో ఉన్న పడవల కోసం చెన్నై జాలర్ల సమ్మె",
-   "p": "ఆంధ్రప్రదేశ్ మెరైన్ పోలీసులు స్వాధీనం చేసుకున్న ఎనిమిది యాంత్రిక పడవలను విడుదల చేయాలని డిమాండ్ చేస్తూ చెన్నై కాశిమేడు హార్బర్ మత్స్యకారులు శుక్రవారం నిరవధిక సమ్మె ప్రారంభించారు. జూన్ 17 నుంచి పడవలు ఏపీలోనే ఉన్నాయని వారు చెబుతున్నారు. హైకోర్టు ఆదేశించినా విడుదల చేయలేదని మత్స్యకారులు ఆరోపిస్తున్నారు. కాశిమేడులో దాదాపు 800 పడవలు నిలిచిపోయాయి.",
-   "pts": [
-    "గురువారం నల్ల జెండాలతో నిరసన",
-    "తిరువళ్లూరు, కాంచీపురం జిల్లాలకూ సమ్మె విస్తరణ"
-   ],
-   "why": "ఏపీ అధికారుల చర్యతో ముడిపడిన ఈ సమ్మె చెన్నై చేపల సరఫరాపై ప్రభావం చూపుతోంది.",
-   "next": "కోర్టు ధిక్కరణ కేసు విచారణ నవంబర్ 24న",
-   "src": "Deccan Chronicle (PTI)",
-   "url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/tn-fishermen-stage-demonstration-demanding-release-of-boats-detained-in-andhra-2006259",
-   "sec": [
-    "india"
-   ],
-   "st": "TN",
-   "place": "st-TN",
-   "loc": "చెన్నై",
-   "pub": "2026-11-20T16:16+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Tamil Nadu · Fishermen",
-    "h": "Chennai fishermen strike over boats held in AP",
-    "stat": "8 boats",
-    "statl": "release demanded",
-    "loc": "Chennai",
-    "p": "Fishermen at Chennai's Kasimedu harbour began an indefinite strike on Friday demanding the release of eight mechanised boats seized by the Andhra Pradesh marine police. They say the boats have been held in Andhra Pradesh since June 17 and allege they were not released despite a High Court order. About 800 boats are docked at Kasimedu.",
-    "pts": [
-     "Black flag protest held on Thursday",
-     "Strike spreading to Tiruvallur and Kancheepuram districts"
-    ],
-    "why": "The strike, linked to action by AP authorities, is affecting fish supply in Chennai.",
-    "next": "Contempt case hearing on November 24"
-   },
-   "hi": {
-    "cat": "तमिलनाडु · मछुआरे",
-    "h": "एपी में रोकी नावों पर चेन्नई के मछुआरों की हड़ताल",
-    "stat": "8 नावें",
-    "statl": "छोड़ने की मांग",
-    "loc": "चेन्नई",
-    "p": "आंध्र प्रदेश मरीन पुलिस द्वारा जब्त आठ मशीनी नावों को छोड़ने की मांग पर चेन्नई के कासिमेडु बंदरगाह के मछुआरों ने शुक्रवार को अनिश्चितकालीन हड़ताल शुरू की। उनका कहना है कि नावें 17 जून से आंध्र प्रदेश में हैं और उनका आरोप है कि हाईकोर्ट के आदेश के बावजूद इन्हें नहीं छोड़ा गया। कासिमेडु में करीब 800 नावें खड़ी हैं।",
-    "pts": [
-     "गुरुवार को काले झंडों के साथ प्रदर्शन",
-     "हड़ताल तिरुवल्लूर और कांचीपुरम जिलों तक फैल रही है"
-    ],
-    "why": "एपी अधिकारियों की कार्रवाई से जुड़ी इस हड़ताल का असर चेन्नई में मछली की आपूर्ति पर पड़ रहा है।",
-    "next": "अवमानना मामले की सुनवाई 24 नवंबर को"
-   },
-   "d": "20.11.2026",
-   "t": "19:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · విద్య",
-   "col": "--c-gov",
-   "pic": "c/education",
-   "stat": "100వ",
-   "statl": "పుట్టినరోజు వేడుక",
-   "h": "చుక్కా రామయ్యకు సీఎం రేవంత్ శుభాకాంక్షలు",
-   "p": "విద్యావేత్త చుక్కా రామయ్య 100వ పుట్టినరోజు సందర్భంగా సీఎం రేవంత్ రెడ్డి హైదరాబాద్‌లోని ఆయన నివాసానికి వెళ్లి శుభాకాంక్షలు తెలిపారు. స్వాతంత్ర్య పోరాటం, తెలంగాణ ఉద్యమంలో రామయ్య చురుగ్గా పాల్గొన్నారని, ఐఐటీ విద్యను విద్యార్థులకు చేరువ చేశారని సీఎం అన్నారు. ఆయన సూచనలను ప్రభుత్వం పరిగణిస్తోందని చెప్పారు.",
-   "pts": [
-    "ఉమ్మడి రంగారెడ్డిలో డిగ్రీ కళాశాలకు రామయ్య సూచనే కారణం: సీఎం",
-    "కోదండరాం, కూనంనేని సాంబశివరావు తదితరుల శుభాకాంక్షలు"
-   ],
-   "why": "తెలంగాణ విద్యారంగానికి రామయ్య చేసిన సేవలను ఈ సందర్భం మరోసారి గుర్తుచేస్తుంది.",
-   "src": "Andhra Prabha",
-   "url": "https://prabhanews.com/cm-revanth-wishes-chukka-ramaiah-on-his-centenary/",
-   "sec": [
-    "telangana",
-    "education"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "హైదరాబాద్",
-   "pub": "2026-11-20T15:36+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Education",
-    "h": "CM greets Chukka Ramaiah on 100th birthday",
-    "stat": "100th",
-    "statl": "birthday celebration",
-    "loc": "Hyderabad",
-    "p": "Chief Minister Revanth Reddy visited educationist Chukka Ramaiah at his Hyderabad home on his 100th birthday and greeted him. The CM said Ramaiah took an active part in the freedom struggle and the Telangana movement and brought IIT coaching within students' reach. He said the government still considers Ramaiah's suggestions.",
-    "pts": [
-     "Degree college in old Ranga Reddy district followed his plea: CM",
-     "Kodandaram, Kunamneni Sambasiva Rao among those who greeted him"
-    ],
-    "why": "It recalls Ramaiah's long service to education in Telangana."
-   },
-   "hi": {
-    "cat": "हैदराबाद · शिक्षा",
-    "h": "चुक्का रामय्या को सीएम की जन्मदिन बधाई",
-    "stat": "100वां",
-    "statl": "जन्मदिन समारोह",
-    "loc": "हैदराबाद",
-    "p": "मुख्यमंत्री रेवंत रेड्डी ने शिक्षाविद चुक्का रामय्या के 100वें जन्मदिन पर हैदराबाद स्थित उनके घर जाकर बधाई दी। सीएम ने कहा कि रामय्या ने स्वतंत्रता संग्राम और तेलंगाना आंदोलन में सक्रिय भूमिका निभाई और आईआईटी की पढ़ाई छात्रों तक पहुंचाई। उन्होंने कहा कि सरकार उनके सुझावों पर ध्यान देती है।",
-    "pts": [
-     "पुराने रंगारेड्डी जिले में डिग्री कॉलेज उनकी मांग पर: सीएम",
-     "कोदंडराम, कूनमनेनी सांबशिव राव समेत कई ने दी बधाई"
-    ],
-    "why": "यह तेलंगाना की शिक्षा में रामय्या के लंबे योगदान की याद दिलाता है।"
-   },
-   "d": "20.11.2026",
-   "t": "18:35"
   },
   {
    "cat": "ఏపీ · తిరుపతి",
