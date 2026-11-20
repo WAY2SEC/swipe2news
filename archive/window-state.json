@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-20T17:05:00+05:30",
+ "cutoff": "2026-11-20T17:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T21:05:00+05:30/2026-11-17T21:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 2,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 1,
-   "review": 1,
-   "gaps": "Feeds 21:21, 65/68 ok; 754 uncovered TG/AP (many already published). add_repo not available; used existing clone. Direct WebFetch refused (provenance); only search-surfaced pages read via subagent. Published: Mudhole 11 sarpanches join BRS (TT 20:45), Cyclone Akvan district rain alerts (ThePrint/PTI 18:45). Duplicate: KTR white paper/manifesto (TT 16:51, same press interaction as KTR Sonia memoir story). Skipped: Moinabad TPO DA case (Hans 01:12, before lookback). Review: UNI YSRCP Jana Sena jobs scam (time zone unclear). Not opened/not found: Hindu Telangana Darshini, Hindu Akvan 21:14, Hindu cyclone repair costs, Hindu Komatireddy roads, Hindu KTR white paper, IE Telangana officer DA, Hindu Ongole adoption, Hindu DYFI DSC."
-  },
   {
    "window": "2026-11-17T21:35:00+05:30/2026-11-17T22:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Feeds 16:42 IST, 70/70 ok, 822 TG/AP uncovered, lookback 08:35. Published 7: TT GHMC trade licence renewal by Nov 30, NewsMeter PPP model/medical tourism, NewsMeter AIG bowel ultrasound study, NT Rajapeta gurukul seniors beat juniors (sensitive, minors, no names), HMTV Kodangal lift phase-2 bhumi puja, NewsMeter SIR convention Nov 22, Siasat/PTI DGCA notice to SpiceJet (claim, sourced). Duplicates: Andhra Prabha RRR south 4,962 acres and Hans Vizag station Rs 660 cr (already published), TT HMWSSB 40 MGD trial (Godavari pipeline published 16:35), ap7am rare earth corporation (APMDC review published). Skipped old: ThePrint/PTI UNFPA population (19 Nov 20:47, before lookback). Not opened: ANI Nepal PM visit (4xx), Hindu tiger Mylavaram, Hindu Pochampally tour, TT/Hyderabad Mail Inter exams, Vaartha Arunachalam trains, GK Today EHS guidelines (no search hit for today's article). No district searches this run (feed list used). add_repo not available; used existing clone. build_previews index/sitemap/lang pages reverted."
+  },
+  {
+   "window": "2026-11-20T17:05:00+05:30/2026-11-20T17:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 6,
+   "late": 5,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 17:12 IST, 70/70 ok, 883 TG/AP uncovered, lookback 09:05. Published 6: TT Siddipet woman dies after CM meeting (sensitive, no name), Hans AP ZP 27 of 28 to alliance, ChiniMandi/Hindu Veerlapalem ethanol hearing detentions (claim), DC 2,000 home guards, Federal Jagan DA cases HC status report, ThePrint/PTI AP SMR nuclear. Skipped old: Hans AP Rs 1,011 cr teaching hospitals (04:47, before lookback). Duplicates: Pacifica Hillcrest fire (published 19 Nov), ED raids ex-BRS MLA (published 15:05), Ichchapuram rain (11:05). Not opened: AJ/ETV robotic surgery, Fortune TG tech funding, Munsif Warangal motor thefts (no search hit). District searches Karimnagar/Kurnool returned tag pages only. add_repo not available; used existing clone. build_previews index/sitemap/lang pages reverted."
   }
  ],
  "seen": [
@@ -6733,6 +6733,51 @@
    "url": "https://theprint.in/india/over-one-fourth-of-indias-population-aged-10-24-years-unfpa/3103573/",
    "d": "2026-11-20",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/woman-dies-in-accident-after-cm-revanth-s-meeting-in-14bab497",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/alliance-wins-27-out-of-28-seats-in-zilla-parishad-1144040",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.chinimandi.com/police-detain-villagers-elected-representatives-ahead-of-soham-agro-public-hearing-in-telangana/",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-police-to-recruit-2000-home-guards-2006292",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://thefederal.com/category/states/south/telangana/jagan-reddy-da-case-telangana-hc-status-report-ed-cbi-263570",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://theprint.in/india/andhra-govt-to-tap-nuclear-power-through-smr-tech-as-alternative-to-thermal-power/3104203/",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/amaravati/rs-1011-cr-upgrade-of-teaching-hospitals-on-cards-1143837",
+   "d": "2026-11-20",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.ap7am.com/tn/887369/massive-fire-accident-in-hyderabad-financial-district",
+   "d": "2026-11-20",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/woman-crushed-to-death-during-telangana-cms-siddipet-meeting-3581912/",
+   "d": "2026-11-20",
+   "w": "duplicate"
   }
  ]
 }
