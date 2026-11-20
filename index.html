@@ -1763,6 +1763,56 @@ function metalsTableHTML(s,i){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=M
   </div>
   ${footHTML()}
 </article>`; }
+/* owner 20 Nov 2026: the gold/silver card is shared as a picture + text with the link */
+async function metalsCard(){
+  try{ await document.fonts.ready; }catch(e){}
+  const mi=metalsItem(); if(!mi) return null; const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, prev=METALS.prev||{}, cu=METALS.copper&&METALS.copper.price?METALS.copper:null;
+  const T={te:{h:'బంగారం • వెండి • రాగి',sub:'ధరల సమాచారం',city:'నగరం',g:'బంగారం',sv:'వెండి',cp:'రాగి',note:'సూచిక ధరలు • పన్నులు, తయారీ ఛార్జీలు అదనం',src:'మూలం',f:'రోజూ బంగారం ధరలు, వార్తలు · '},
+    en:{h:'Gold • Silver • Copper',sub:"Today's rates",city:'City',g:'Gold',sv:'Silver',cp:'Copper',note:'Indicative rates • Taxes and making charges extra',src:'Source',f:'Gold rates & news daily · '},
+    hi:{h:'सोना • चाँदी • ताँबा',sub:'आज के भाव',city:'शहर',g:'सोना',sv:'चाँदी',cp:'ताँबा',note:'सांकेतिक भाव • टैक्स और मेकिंग चार्ज अलग',src:'स्रोत',f:'रोज़ सोने के भाव और ख़बरें · '}}[l];
+  const inr=n=>n!=null?'₹'+Number(n).toLocaleString('en-IN'):'—';
+  const dt=d=>{ try{ return new Date(d+'T12:00:00+05:30').toLocaleDateString(l==='te'?'te-IN':l==='hi'?'hi-IN':'en-IN',{day:'numeric',month:'long',year:'numeric'}); }catch(e){ return d||''; } };
+  const W=1080, H=1350, K=2, c=document.createElement('canvas'), ctx=c.getContext('2d'); c.width=W*K; c.height=H*K; ctx.setTransform(K,0,0,K,0,0); ctx.imageSmoothingQuality='high';
+  const AP='#F5A23A', CR='#FFFDF5', PLUM='#4A0E3F', TE="'Noto Sans Telugu','Nirmala UI','Gautami','Noto Sans Devanagari',sans-serif", OU="'Outfit','Noto Sans Telugu',sans-serif";
+  const g=ctx.createRadialGradient(W*0.85,0,40,W*0.5,H*0.4,H); g.addColorStop(0,'#7A2A55'); g.addColorStop(.5,'#4A0E3F'); g.addColorStop(1,'#2E0827'); ctx.fillStyle=g; ctx.fillRect(0,0,W,H);
+  const BH=130; ctx.fillStyle=CR; ctx.fillRect(0,0,W,BH); ctx.fillStyle=AP; ctx.fillRect(0,BH-6,W,6);
+  try{ const ic=await loadImg('icon-512.png'); ctx.save(); rrect(ctx,56,26,78,78,20); ctx.clip(); ctx.drawImage(ic,56,26,78,78); ctx.restore(); }catch(e){}
+  ctx.textBaseline='middle'; ctx.font=`800 54px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('swipe2news',152,58); const ww=ctx.measureText('swipe2news').width; ctx.fillStyle=AP; ctx.fillText('.',152+ww,58);
+  ctx.font=`800 26px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('Know More. Scroll Less.',154,98);
+  ctx.textAlign='center'; ctx.font=`800 64px ${TE}`; ctx.fillStyle=CR; ctx.fillText(T.h,W/2,BH+78);
+  ctx.font=`700 32px ${TE}`; ctx.fillStyle='#FFD08A'; ctx.fillText(T.sub+' · '+dt(mi.c[0].date),W/2,BH+148); ctx.textAlign='left';
+  // table panel
+  const X=48, PW=W-2*X, PY=BH+200, rows=mi.c, RH=92, HH=190, PH=HH+66+rows.length*RH+20;
+  ctx.fillStyle='#FBF4EA'; rrect(ctx,X,PY,PW,PH,36); ctx.fill();
+  const col=[X+30, X+330, X+560, X+PW-30]; // city | 22K | 24K | silver (right edges for numbers)
+  try{ const gi=await loadImg('art/m/gold.webp'); const iw=210, ih=126; ctx.drawImage(gi,(col[1]+col[2])/2-iw/2+30,PY+20,iw,ih); }catch(e){}
+  try{ const si=await loadImg('art/m/silver.webp'); const iw=170, ih=110; ctx.drawImage(si,col[3]-iw-10,PY+38,iw,ih); }catch(e){}
+  ctx.font=`800 34px ${TE}`; ctx.fillStyle=PLUM; ctx.textAlign='center'; ctx.fillText(T.g+' · 10 g',(col[1]+col[2])/2+30,PY+178); ctx.fillText(T.sv+' · 1 kg',col[3]-95,PY+178); ctx.textAlign='left';
+  let y=PY+HH+6; ctx.fillStyle=PLUM; rrect(ctx,X+14,y,PW-28,58,18); ctx.fill(); ctx.font=`800 30px ${TE}`; ctx.fillStyle=CR;
+  ctx.fillText(T.city,col[0],y+30); ctx.textAlign='right'; ctx.fillText('22K',col[1]+130,y+30); ctx.fillText('24K',col[2]+150,y+30); ctx.fillText('1 kg',col[3],y+30); ctx.textAlign='left';
+  y+=66;
+  const delta=(k,v)=>{ const p=prev[k]; if(p==null||v==null||p===v) return null; return v>p?['▲ '+Number(v-p).toLocaleString('en-IN'),'#1E8A4C']:['▼ '+Number(p-v).toLocaleString('en-IN'),'#C0392B']; };
+  rows.forEach((r,n)=>{ if(n%2===0){ ctx.fillStyle='#F3E7D8'; ctx.fillRect(X+14,y,PW-28,RH); }
+    ctx.font=`800 34px ${TE}`; ctx.fillStyle='#2B1A24'; ctx.fillText(U.city[r.city]||r.city,col[0],y+RH/2);
+    [[col[1]+130,r.g22,r.city+'|g22'],[col[2]+150,r.g24,r.city+'|g24'],[col[3],r.silver,r.city+'|silver']].forEach(([x,v,k])=>{
+      const d=delta(k,v); ctx.textAlign='right'; ctx.font=`800 36px ${OU}`; ctx.fillStyle='#2B1A24'; ctx.fillText(inr(v),x,y+(d?RH/2-14:RH/2));
+      if(d){ ctx.font=`800 24px ${OU}`; ctx.fillStyle=d[1]; ctx.fillText(d[0],x,y+RH/2+22); } ctx.textAlign='left'; });
+    y+=RH; });
+  y=PY+PH+24;
+  if(cu){ ctx.fillStyle='#FBF4EA'; rrect(ctx,X,y,PW,110,30); ctx.fill();
+    try{ const ci=await loadImg('art/m/copper.webp'); ctx.save(); rrect(ctx,X+18,y+12,150,86,18); ctx.clip(); ctx.drawImage(ci,X+18,y+12,150,86); ctx.restore(); }catch(e){}
+    ctx.font=`800 38px ${TE}`; ctx.fillStyle=PLUM; ctx.fillText(T.cp,X+196,y+40); ctx.font=`600 26px ${TE}`; ctx.fillStyle='#7A6670'; ctx.fillText('1 kg · MCX',X+196,y+80);
+    const d=delta('copper',cu.price); ctx.textAlign='right'; ctx.font=`800 48px ${OU}`; ctx.fillStyle='#2B1A24'; ctx.fillText(inr(cu.price),X+PW-30,y+(d?42:55)); if(d){ ctx.font=`800 24px ${OU}`; ctx.fillStyle=d[1]; ctx.fillText(d[0],X+PW-30,y+84); } ctx.textAlign='left';
+    y+=134; }
+  ctx.textAlign='center'; ctx.font=`600 26px ${TE}`; ctx.fillStyle='rgba(255,253,245,.82)'; ctx.fillText(T.note,W/2,y+6); ctx.fillText(T.src+': '+(METALS.src||''),W/2,y+46); ctx.textAlign='left';
+  const FH=150, FY=H-FH; ctx.fillStyle='#14030F'; ctx.fillRect(0,FY,W,FH);
+  ctx.font=`800 32px ${TE}`; ctx.fillStyle=CR; ctx.fillText(T.f,56,FY+FH/2-24); const f1w=ctx.measureText(T.f).width;
+  ctx.fillStyle=AP; ctx.fillText(({te:'ఉచిత యాప్',en:'Free app',hi:'मुफ़्त ऐप'})[l]||'Free app',56+f1w,FY+FH/2-24);
+  ctx.font=`800 28px ${OU}`; ctx.fillStyle='rgba(255,253,245,.92)'; ctx.fillText('swipe2news.com · @swipe2newsapp',56,FY+FH/2+24);
+  try{ const q=await loadImg('brand/qr-share.png'); const QS=106, QP=10, qx=W-56-QS-2*QP, qy=FY+(FH-QS-2*QP)/2; ctx.fillStyle='#fff'; rrect(ctx,qx,qy,QS+2*QP,QS+2*QP,12); ctx.fill(); ctx.imageSmoothingEnabled=false; ctx.drawImage(q,qx+QP,qy+QP,QS,QS); ctx.imageSmoothingEnabled=true; }catch(e){}
+  ctx.textBaseline='alphabetic';
+  return await new Promise(r=>c.toBlob(r,'image/jpeg',0.95));
+}
 /* owner 20 Nov 2026: the gold/silver card can be shared (text with every city's rates) */
 function metalsShareText(){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, inr=n=>n!=null?'₹'+Number(n).toLocaleString('en-IN'):'—';
   const T={te:{t:'🪙 నేటి బంగారం, వెండి ధరలు',g:'బంగారం 10 గ్రా',s:'వెండి 1 కిలో',n:'సూచిక ధరలు • పన్నులు, తయారీ ఛార్జీలు అదనం',src:'మూలం'},
@@ -1774,9 +1824,12 @@ function metalsShareText(){ const l=TLG()?'en':LG(), U=MTX[l]||MTX.te, inr=n=>n!
   const cu=METALS&&METALS.copper; if(cu&&cu.price) L.push(`🟤 ${({te:'రాగి',en:'Copper',hi:'ताँबा'})[l]} 1 kg (MCX): ${inr(cu.price)}`);
   L.push('',T.n,`${T.src}: ${(METALS&&METALS.src)||''} · Swipe2News`,'👉 https://swipe2news.com/?cards=1');
   return L.join('\n'); }
-document.addEventListener('click',e=>{ const b=e.target.closest('.metals2 .mtsh,.metals2 .mtwa'); if(!b) return; e.preventDefault(); e.stopPropagation();
-  const t=metalsShareText(); if(b.classList.contains('mtwa')||!navigator.share){ window.open('https://wa.me/?text='+encodeURIComponent(t),'_blank','noopener'); return; }
-  navigator.share({text:t}).catch(()=>{}); },true);
+document.addEventListener('click',async e=>{ const b=e.target.closest('.metals2 .mtsh,.metals2 .mtwa'); if(!b) return; e.preventDefault(); e.stopPropagation();
+  const t=metalsShareText(); let blob=null; b.disabled=true; try{ blob=await metalsCard(); }catch(x){} b.disabled=false;
+  // picture + text (with the link) in one go – the phone's share sheet lets the reader pick WhatsApp
+  try{ if(blob&&navigator.canShare&&navigator.canShare({files:[cardFile(blob)]})){ hdTip(); await navigator.share({files:[cardFile(blob)],text:t}); return; } }catch(x){ if(x&&x.name==='AbortError') return; }
+  if(blob){ try{ const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='swipe2news-gold-'+Date.now()+'.jpg'; document.body.appendChild(a); a.click(); a.remove(); }catch(x){} }
+  window.open('https://wa.me/?text='+encodeURIComponent(t),'_blank','noopener'); },true);
 /* weather card (user, 16 Nov 2026): IMD district forecast for the reader's district, from weather.json (weather task). Never shown when stale. */
 let WX=null; fetch('weather.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>{ if(!d||!d.d) return; WX=d; try{ if(view==='home'&&section==='all'&&LIST&&LIST.length&&cur<5&&!LIST.some(x=>x.kind==='wx')) renderFeed(keyOf(LIST[cur])); }catch(e){} }).catch(()=>{});
 const WXT={te:{share:'షేర్',hi:'గరిష్ఠం',lo:'కనిష్ఠం',bul:'బులెటిన్',rainTip:'వర్షం పడే అవకాశం – గొడుగు వెంట ఉంచుకోండి',srcN:{'IMD Meteorological Centre Hyderabad':'IMD వాతావరణ కేంద్రం, హైదరాబాద్','IMD Meteorological Centre Amaravati':'IMD వాతావరణ కేంద్రం, అమరావతి'},t:'వాతావరణం',sub:'IMD అంచనా',today:'ఈరోజు',tom:'రేపు',hum:'ఉదయం తేమ',wind:'గాలి',rain:'వర్షం',kmh:'కి.మీ/గం',mm:'మి.మీ',src:'మూలం',iss:'జారీ',note:'జిల్లా సగటు అంచనా',pick:'మీ జిల్లా ఎంచుకుంటే మీ ప్రాంత వాతావరణం చూపిస్తాం',cold:'రాత్రి చలి ఎక్కువ – పిల్లలు, పెద్దలు జాగ్రత్త',hot:'ఎండ ఎక్కువ – మధ్యాహ్నం జాగ్రత్త',warn:'హెచ్చరిక',
