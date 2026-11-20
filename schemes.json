@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T11:45:00+05:30",
+ "updated": "2026-11-20T11:40:00+05:30",
  "about": "Welfare schemes for Telangana, Andhra Pradesh and India. Facts from official/reputable sources, checked on the given date. Kept up to date by the schemes task.",
  "schemes": [
   {
@@ -480,32 +480,32 @@
    "cat": "power",
    "amt": "₹78,000",
    "link": "https://pmsuryaghar.gov.in",
-   "src": "MNRE / pmsuryaghar.gov.in (via Business Today)",
+   "src": "SolarQuarter (1 Sep 2026, MNRE guidelines), Energetica India & Mercom (1 Sep 2026)",
    "te": {
     "n": "పీఎం సూర్య ఘర్ – ఉచిత విద్యుత్",
     "u": "వరకు సబ్సిడీ",
-    "b": "ఇంటి పైకప్పుపై సోలార్‌కు సబ్సిడీ: 1 kW ₹30,000, 2 kW ₹60,000, 3 kW పైన ₹78,000. నెలకు 300 యూనిట్ల వరకు సొంత కరెంట్.",
+    "b": "ఇంటి పైకప్పుపై సోలార్‌కు సబ్సిడీ: 1 kW ₹30,000, 2 kW ₹60,000, 3 kW పైన ₹78,000. నెలకు 300 యూనిట్ల వరకు సొంత కరెంట్. పాత రూఫ్‌టాప్ సోలార్ ఫేజ్-2 దరఖాస్తుల సబ్సిడీ క్లెయిమ్‌కు గడువు 30 నవంబర్ 2026.",
     "w": "సొంత ఇల్లు, పైకప్పు, తమ పేరు మీద కరెంట్ కనెక్షన్ ఉన్న కుటుంబాలు.",
-    "d": "తాజా కరెంట్ బిల్లు, ఆధార్ లింక్ మొబైల్, బ్యాంకు ఖాతా.",
+    "d": "తాజా కరెంట్ బిల్లు, ఆధార్ లింక్ మొబైల్, బ్యాంకు ఖాతా. సోలార్ ప్యానెళ్లు దేశీయంగా తయారైనవే ఉండాలి.",
     "h": "pmsuryaghar.gov.in లో నమోదు → నమోదైన వెండర్‌తో ఏర్పాటు → తనిఖీ తర్వాత సబ్సిడీ బ్యాంకులో జమ. ఆఫ్‌లైన్ దరఖాస్తు లేదు – నకిలీ సైట్ల పట్ల జాగ్రత్త."
    },
    "en": {
     "n": "PM Surya Ghar – free electricity",
     "u": "subsidy, up to",
-    "b": "Rooftop solar subsidy: ₹30,000 for 1 kW, ₹60,000 for 2 kW, ₹78,000 for 3 kW and above. Up to 300 units of your own power a month.",
+    "b": "Rooftop solar subsidy: ₹30,000 for 1 kW, ₹60,000 for 2 kW, ₹78,000 for 3 kW and above. Up to 300 units of your own power a month. For old Rooftop Solar Phase-II applications, the subsidy claim must reach by 30 November 2026.",
     "w": "Families with their own house, a rooftop and an electricity connection in their name.",
-    "d": "Latest electricity bill, Aadhaar-linked mobile, bank account.",
+    "d": "Latest electricity bill, Aadhaar-linked mobile, bank account. Panels must be made in India (domestic cells).",
     "h": "Register on pmsuryaghar.gov.in → install through a registered vendor → subsidy credited after inspection. No offline application – beware of fake sites."
    },
    "hi": {
     "n": "पीएम सूर्य घर – मुफ़्त बिजली",
     "u": "तक सब्सिडी",
-    "b": "छत पर सोलार के लिए सब्सिडी: 1 kW ₹30,000, 2 kW ₹60,000, 3 kW और ऊपर ₹78,000।",
+    "b": "छत पर सोलार के लिए सब्सिडी: 1 kW ₹30,000, 2 kW ₹60,000, 3 kW और ऊपर ₹78,000। पुराने रूफ़टॉप सोलार फ़ेज़-2 आवेदनों का सब्सिडी दावा 30 नवंबर 2026 तक पहुँचना ज़रूरी।",
     "w": "अपना घर, छत और अपने नाम बिजली कनेक्शन वाले परिवार।",
-    "d": "ताज़ा बिजली बिल, आधार-लिंक्ड मोबाइल, बैंक खाता।",
+    "d": "ताज़ा बिजली बिल, आधार-लिंक्ड मोबाइल, बैंक खाता। पैनल देश में बने (घरेलू सेल) होने चाहिए।",
     "h": "pmsuryaghar.gov.in पर पंजीकरण; केवल ऑनलाइन।"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-20"
   },
   {
    "id": "pmay-gramin",
@@ -514,11 +514,11 @@
    "amt": "₹1.20 లక్షలు",
    "amt_en": "₹1.20 lakh",
    "link": "https://pmayg.nic.in",
-   "src": "Ministry of Rural Development (via Bajaj Finserv, GKToday)",
+   "src": "Ministry of Rural Development (via Bajaj Finserv, GKToday); PIB backgrounder (31 Mar 2026); DD News (15 Nov 2026)",
    "te": {
     "n": "పీఎం ఆవాస్ యోజన – గ్రామీణ",
     "u": "ఇంటికి",
-    "b": "పల్లెల్లో పక్కా ఇల్లు కట్టుకోవడానికి ₹1.20 లక్షల సాయం – నిర్మాణం జరిగే కొద్దీ విడతలుగా నేరుగా ఖాతాలోకి.",
+    "b": "పల్లెల్లో పక్కా ఇల్లు కట్టుకోవడానికి ₹1.20 లక్షల సాయం – నిర్మాణం జరిగే కొద్దీ విడతలుగా నేరుగా ఖాతాలోకి. ఇల్లు కనీసం 25 చ.మీ. ఉండాలి; మరుగుదొడ్డికి ₹12,000 వేరుగా (స్వచ్ఛ భారత్). 2029 నాటికి 4.95 కోట్ల ఇళ్లు లక్ష్యం.",
     "w": "గ్రామాల్లో సొంత పక్కా ఇల్లు లేని పేద కుటుంబాలు (ఆవాస్ సర్వే / అర్హుల జాబితాలో పేరు ఉండాలి).",
     "d": "ఆధార్, బ్యాంకు ఖాతా, జాబ్ కార్డు (MGNREGA), స్థలం వివరాలు.",
     "h": "గ్రామ పంచాయతీ / మండల కార్యాలయం; pmayg.nic.in లో పేరు, స్టేటస్ చూడొచ్చు."
@@ -526,7 +526,7 @@
    "en": {
     "n": "PM Awas Yojana – Gramin",
     "u": "per house",
-    "b": "₹1.20 lakh to build a pucca house in a village – paid in instalments into the bank account as construction progresses.",
+    "b": "₹1.20 lakh to build a pucca house in a village – paid in instalments into the bank account as construction progresses. Minimum house size 25 sq m; ₹12,000 extra for a toilet (Swachh Bharat). Target: 4.95 crore houses by 2029.",
     "w": "Poor rural families without a pucca house (must be on the Awaas survey / eligible list).",
     "d": "Aadhaar, bank account, MGNREGA job card, land details.",
     "h": "Gram panchayat / mandal office; check your name and status at pmayg.nic.in."
@@ -534,12 +534,12 @@
    "hi": {
     "n": "पीएम आवास योजना – ग्रामीण",
     "u": "प्रति घर",
-    "b": "गाँव में पक्का घर बनाने के लिए ₹1.20 लाख – निर्माण के हिसाब से किस्तों में खाते में।",
+    "b": "गाँव में पक्का घर बनाने के लिए ₹1.20 लाख – निर्माण के हिसाब से किस्तों में खाते में। घर कम से कम 25 वर्ग मीटर; शौचालय के लिए अलग से ₹12,000 (स्वच्छ भारत)। 2029 तक 4.95 करोड़ घरों का लक्ष्य।",
     "w": "गाँवों के बेघर / कच्चे घर वाले गरीब परिवार (आवास सर्वे सूची में नाम ज़रूरी)।",
     "d": "आधार, बैंक खाता, मनरेगा जॉब कार्ड, ज़मीन का विवरण।",
     "h": "ग्राम पंचायत / ब्लॉक कार्यालय; pmayg.nic.in पर स्टेटस।"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-20"
   },
   {
    "id": "pmay-urban",
@@ -548,32 +548,32 @@
    "amt": "₹2.5 లక్షల వరకు",
    "amt_en": "Up to ₹2.5 lakh",
    "link": "https://pmay-urban.gov.in",
-   "src": "Ministry of Housing & Urban Affairs (via GKToday, schemesinindia)",
+   "src": "Organiser (19 Oct 2026), News On AIR (17 Oct 2026); earlier: MoHUA (via GKToday)",
    "te": {
     "n": "పీఎం ఆవాస్ యోజన – అర్బన్ 2.0",
     "u": "ఇంటికి",
-    "b": "పట్టణాల్లో సొంత స్థలంలో ఇల్లు కట్టుకునే పేదలకు ₹2.5 లక్షల వరకు సాయం; గృహ రుణంపై వడ్డీ రాయితీ కూడా ఉంది.",
-    "w": "పట్టణాల్లో దేశంలో ఎక్కడా పక్కా ఇల్లు లేని కుటుంబాలు – EWS (ఏడాది ఆదాయం ₹3 లక్షల వరకు), LIG (₹3–6 లక్షలు), MIG.",
+    "b": "పట్టణాల్లో సొంత స్థలంలో ఇల్లు కట్టుకునే పేదలకు ₹2.5 లక్షల వరకు సాయం; గృహ రుణంపై వడ్డీ రాయితీ కూడా ఉంది. అక్టోబర్ 2026లో మరో 1.93 లక్షల ఇళ్లు మంజూరు (తెలంగాణకు 18,120, ఏపీకి 6,560).",
+    "w": "పట్టణాల్లో దేశంలో ఎక్కడా పక్కా ఇల్లు లేని కుటుంబాలు – EWS (ఏడాది ఆదాయం ₹3 లక్షల వరకు), LIG (₹3–6 లక్షలు), MIG (₹9 లక్షల వరకు).",
     "d": "ఆధార్, ఆదాయ ధ్రువపత్రం, బ్యాంకు ఖాతా, స్థలం పత్రాలు.",
     "h": "pmay-urban.gov.in లో దరఖాస్తు; లేదా మున్సిపల్ కార్యాలయం."
    },
    "en": {
     "n": "PM Awas Yojana – Urban 2.0",
     "u": "per house",
-    "b": "Up to ₹2.5 lakh for urban poor building on their own land; interest subsidy on home loans is also available.",
-    "w": "Urban families with no pucca house anywhere in India – EWS (income up to ₹3 lakh), LIG (₹3–6 lakh), MIG.",
+    "b": "Up to ₹2.5 lakh for urban poor building on their own land; interest subsidy on home loans is also available. Another 1.93 lakh houses were sanctioned in October 2026 (Telangana 18,120, Andhra Pradesh 6,560).",
+    "w": "Urban families with no pucca house anywhere in India – EWS (income up to ₹3 lakh), LIG (₹3–6 lakh), MIG (up to ₹9 lakh).",
     "d": "Aadhaar, income certificate, bank account, land papers.",
     "h": "Apply at pmay-urban.gov.in or the municipal office."
    },
    "hi": {
     "n": "पीएम आवास योजना – शहरी 2.0",
     "u": "प्रति घर",
-    "b": "शहर में अपनी ज़मीन पर घर बनाने के लिए ₹2.5 लाख तक; होम लोन पर ब्याज सब्सिडी भी।",
-    "w": "शहरी परिवार जिनका देश में कहीं पक्का घर नहीं – EWS (₹3 लाख तक आय), LIG (₹3–6 लाख), MIG।",
+    "b": "शहर में अपनी ज़मीन पर घर बनाने के लिए ₹2.5 लाख तक; होम लोन पर ब्याज सब्सिडी भी। अक्टूबर 2026 में 1.93 लाख और घर मंज़ूर (तेलंगाना 18,120, आंध्र प्रदेश 6,560)।",
+    "w": "शहरी परिवार जिनका देश में कहीं पक्का घर नहीं – EWS (₹3 लाख तक आय), LIG (₹3–6 लाख), MIG (₹9 लाख तक)।",
     "d": "आधार, आय प्रमाणपत्र, बैंक खाता, ज़मीन के कागज़।",
     "h": "pmay-urban.gov.in या नगर पालिका कार्यालय।"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-20"
   },
   {
    "id": "pm-ujjwala",
@@ -582,11 +582,11 @@
    "amt": "₹300",
    "amt_en": "₹300",
    "link": "https://pmuy.gov.in",
-   "src": "Ministry of Petroleum (via Business Today, Jun 2026)",
+   "src": "ThePrint (24 Jul 2026), The Wire (9 Jun 2026), Business Today (Jun 2026)",
    "te": {
     "n": "పీఎం ఉజ్వల యోజన",
     "u": "సిలిండర్‌కు",
-    "b": "పేద మహిళలకు డిపాజిట్ లేకుండా ఉచిత గ్యాస్ కనెక్షన్. 14.2 కిలోల సిలిండర్‌కు ₹300 రాయితీ – 2026-27 నుంచి ఏడాదికి మొదటి 4 రీఫిల్స్‌కే (గతంలో 9).",
+    "b": "పేద మహిళలకు డిపాజిట్ లేకుండా ఉచిత గ్యాస్ కనెక్షన్. 14.2 కిలోల సిలిండర్‌కు ₹300 రాయితీ – ఇప్పుడు ఏడాదికి మొదటి 4 రీఫిల్స్‌కే (గతంలో 9). మిగతా సిలిండర్లు మార్కెట్ ధరకు కొనుక్కోవచ్చు.",
     "w": "పేద కుటుంబాల్లోని 18 ఏళ్లు నిండిన మహిళ – ఇంట్లో ఇప్పటికే గ్యాస్ కనెక్షన్ ఉండకూడదు.",
     "d": "ఆధార్, రేషన్ కార్డు, బ్యాంకు ఖాతా, చిరునామా ధ్రువపత్రం.",
     "h": "pmuy.gov.in లేదా దగ్గరి గ్యాస్ డీలర్ (ఇండేన్ / HP / భారత్ గ్యాస్)."
@@ -594,7 +594,7 @@
    "en": {
     "n": "PM Ujjwala Yojana",
     "u": "per cylinder",
-    "b": "Free, deposit-free LPG connection for poor women. ₹300 subsidy per 14.2 kg cylinder – from 2026-27 only on the first 4 refills a year (was 9).",
+    "b": "Free, deposit-free LPG connection for poor women. ₹300 subsidy per 14.2 kg cylinder – now only on the first 4 refills a year (was 9). Extra cylinders can be bought at market price.",
     "w": "Women aged 18+ from poor households with no existing LPG connection at home.",
     "d": "Aadhaar, ration card, bank account, address proof.",
     "h": "pmuy.gov.in or your nearest gas distributor (Indane / HP / Bharat Gas)."
@@ -602,12 +602,12 @@
    "hi": {
     "n": "पीएम उज्ज्वला योजना",
     "u": "प्रति सिलेंडर",
-    "b": "गरीब महिलाओं को मुफ़्त गैस कनेक्शन। 14.2 किलो सिलेंडर पर ₹300 सब्सिडी – 2026-27 से साल के पहले 4 रीफ़िल पर ही (पहले 9)।",
+    "b": "गरीब महिलाओं को मुफ़्त गैस कनेक्शन। 14.2 किलो सिलेंडर पर ₹300 सब्सिडी – अब साल के पहले 4 रीफ़िल पर ही (पहले 9)। बाकी सिलेंडर बाज़ार दाम पर ले सकते हैं।",
     "w": "गरीब परिवार की 18+ महिला – घर में पहले से गैस कनेक्शन न हो।",
     "d": "आधार, राशन कार्ड, बैंक खाता, पते का प्रमाण।",
     "h": "pmuy.gov.in या नज़दीकी गैस वितरक।"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-20"
   },
   {
    "id": "pm-vishwakarma",
@@ -616,32 +616,32 @@
    "amt": "₹3 లక్షలు",
    "amt_en": "₹3 lakh",
    "link": "https://pmvishwakarma.gov.in",
-   "src": "Ministry of MSME (via Vikaspedia, district portals)",
+   "src": "PIB (16 Sep 2025), News On AIR (17 Sep 2026)",
    "te": {
     "n": "పీఎం విశ్వకర్మ",
     "u": "రుణం (5% వడ్డీ)",
-    "b": "చేతివృత్తుల వారికి: శిక్షణలో రోజుకు ₹500, పనిముట్లకు ₹15,000, ఎలాంటి హామీ లేకుండా ₹1 లక్ష + ₹2 లక్షల రుణం 5% వడ్డీకి.",
-    "w": "18 సంప్రదాయ వృత్తులు – వడ్రంగి, కమ్మరి, స్వర్ణకారులు, కుమ్మరి, మేస్త్రీ, దర్జీ, నాయీ బ్రాహ్మణులు, చాకలి తదితరులు. 18 ఏళ్లు పైబడి; కుటుంబంలో ప్రభుత్వ ఉద్యోగి ఉండకూడదు.",
+    "b": "చేతివృత్తుల వారికి: శిక్షణలో రోజుకు ₹500, పనిముట్లకు ₹15,000 ఈ-వోచర్, ఎలాంటి హామీ లేకుండా ₹1 లక్ష (18 నెలల్లో) + ₹2 లక్షల (30 నెలల్లో) రుణం 5% వడ్డీకి. సెప్టెంబర్ 2026 నాటికి 30 లక్షల మంది నమోదు.",
+    "w": "18 సంప్రదాయ కుటుంబ వృత్తులు – వడ్రంగి, కమ్మరి, స్వర్ణకారులు, కుమ్మరి, మేస్త్రీ, దర్జీ, నాయీ బ్రాహ్మణులు, చాకలి తదితరులు. 18 ఏళ్లు పైబడి; కుటుంబంలో ఒక్కరికే; కుటుంబంలో ప్రభుత్వ ఉద్యోగి ఉండకూడదు; గత 5 ఏళ్లలో ఇలాంటి ప్రభుత్వ స్వయం ఉపాధి రుణం తీసుకోకూడదు.",
     "d": "ఆధార్, మొబైల్, బ్యాంకు ఖాతా, రేషన్ కార్డు.",
-    "h": "దగ్గరి మీసేవ / CSC కేంద్రంలో నమోదు; pmvishwakarma.gov.in."
+    "h": "దగ్గరి CSC (కామన్ సర్వీస్ సెంటర్)లో ఆధార్ బయోమెట్రిక్‌తో నమోదు; pmvishwakarma.gov.in."
    },
    "en": {
     "n": "PM Vishwakarma",
     "u": "loan at 5%",
-    "b": "For artisans: ₹500/day during training, ₹15,000 for tools, and collateral-free loans of ₹1 lakh + ₹2 lakh at 5% interest.",
-    "w": "18 traditional trades – carpenters, blacksmiths, goldsmiths, potters, masons, tailors, barbers, washermen and more. Age 18+; no family member in government service.",
+    "b": "For artisans: ₹500/day during training, a ₹15,000 e-voucher for tools, and collateral-free loans of ₹1 lakh (18 months) + ₹2 lakh (30 months) at 5% interest. 30 lakh registered by September 2026.",
+    "w": "18 family-based traditional trades – carpenters, blacksmiths, goldsmiths, potters, masons, tailors, barbers, washermen and more. Age 18+; one member per family; no family member in government service; no similar government self-employment loan in the last 5 years.",
     "d": "Aadhaar, mobile, bank account, ration card.",
-    "h": "Register at a nearby CSC / MeeSeva centre; pmvishwakarma.gov.in."
+    "h": "Register at a nearby CSC (Common Service Centre) with Aadhaar biometric authentication; pmvishwakarma.gov.in."
    },
    "hi": {
     "n": "पीएम विश्वकर्मा",
     "u": "ऋण (5% ब्याज)",
-    "b": "कारीगरों के लिए: प्रशिक्षण में ₹500 प्रतिदिन, औज़ारों के लिए ₹15,000, बिना गारंटी ₹1 लाख + ₹2 लाख ऋण 5% पर।",
-    "w": "18 पारंपरिक व्यवसाय – बढ़ई, लोहार, सुनार, कुम्हार, राजमिस्त्री, दर्ज़ी, नाई आदि। 18+ आयु; परिवार में सरकारी नौकरी न हो।",
+    "b": "कारीगरों के लिए: प्रशिक्षण में ₹500 प्रतिदिन, औज़ारों के लिए ₹15,000 ई-वाउचर, बिना गारंटी ₹1 लाख (18 महीने) + ₹2 लाख (30 महीने) ऋण 5% पर। सितंबर 2026 तक 30 लाख पंजीकरण।",
+    "w": "18 पारंपरिक पारिवारिक व्यवसाय – बढ़ई, लोहार, सुनार, कुम्हार, राजमिस्त्री, दर्ज़ी, नाई आदि। 18+ आयु; परिवार में एक ही सदस्य; परिवार में सरकारी नौकरी न हो; पिछले 5 साल में ऐसा सरकारी स्वरोज़गार ऋण न लिया हो।",
     "d": "आधार, मोबाइल, बैंक खाता, राशन कार्ड।",
-    "h": "नज़दीकी CSC केंद्र; pmvishwakarma.gov.in।"
+    "h": "नज़दीकी CSC केंद्र पर आधार बायोमेट्रिक से पंजीकरण; pmvishwakarma.gov.in।"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-20"
   },
   {
    "id": "pm-mudra",
@@ -847,6 +847,73 @@
     "h": "आंगनवाड़ी / स्वास्थ्य केंद्र; pmmvy.wcd.gov.in।"
    },
    "checked": "2026-11-16"
+  },
+  {
+   "id": "sanna-biyyam",
+   "st": "TG",
+   "cat": "farm",
+   "amt": "6 కిలోలు",
+   "amt_en": "6 kg",
+   "link": null,
+   "src": "News On AIR (31 Mar 2025), Deccan Chronicle (1 Apr 2026)",
+   "checked": "2026-11-20",
+   "te": {
+    "n": "సన్న బియ్యం (ఉచిత రేషన్)",
+    "u": "ఒక్కొక్కరికి నెలకు, ఉచితం",
+    "b": "రేషన్ షాపుల్లో ఒక్కో వ్యక్తికి నెలకు 6 కిలోల సన్న బియ్యం ఉచితం (1 ఏప్రిల్ 2025 నుంచి). సుమారు 3.2 కోట్ల మందికి లబ్ధి. ఏప్రిల్ 2026లో ఏప్రిల్–జూన్ మూడు నెలల బియ్యం ఒకేసారి ఇచ్చారు.",
+    "w": "తెలంగాణలో అర్హత ఉన్న రేషన్ కార్డు (ఆహార భద్రత కార్డు) ఉన్న కుటుంబాలు. అంత్యోదయ కార్డుకు 35 కిలోల బియ్యం + 1 కిలో చక్కెర; అన్నపూర్ణ కార్డుకు 10 కిలోల సన్న బియ్యం + 5 కిలోల గోధుమలు.",
+    "d": "రేషన్ కార్డు.",
+    "h": "మీ రేషన్ షాపులో (చౌక ధరల దుకాణం) తీసుకోవాలి. కొత్త రేషన్ కార్డు కోసం అధికారిక పోర్టల్ ఈ తనిఖీలో నిర్ధారించలేదు – మండల / పౌర సరఫరాల కార్యాలయంలో అడగండి."
+   },
+   "en": {
+    "n": "Sanna Biyyam (free fine rice)",
+    "u": "per person a month, free",
+    "b": "6 kg of fine rice per person per month, free, at ration shops (since 1 April 2025). About 3.2 crore people benefit. In April 2026 three months' rice (April–June) was given in one go.",
+    "w": "Families in Telangana with an eligible ration card (Food Security Card). Antyodaya cards get 35 kg rice + 1 kg sugar; Annapurna cards get 10 kg fine rice + 5 kg wheat.",
+    "d": "Ration card.",
+    "h": "Collect at your ration (fair price) shop. The official portal for new ration cards was not confirmed in this check – ask at the mandal / civil supplies office."
+   },
+   "hi": {
+    "n": "सन्ना बिय्यम (मुफ़्त बारीक चावल)",
+    "u": "प्रति व्यक्ति प्रति माह, मुफ़्त",
+    "b": "राशन दुकानों पर प्रति व्यक्ति हर महीने 6 किलो बारीक चावल मुफ़्त (1 अप्रैल 2025 से)। लगभग 3.2 करोड़ लोगों को लाभ। अप्रैल 2026 में अप्रैल–जून तीन महीने का चावल एक साथ दिया गया।",
+    "w": "तेलंगाना में पात्र राशन कार्ड (खाद्य सुरक्षा कार्ड) वाले परिवार। अंत्योदय कार्ड पर 35 किलो चावल + 1 किलो चीनी; अन्नपूर्णा कार्ड पर 10 किलो बारीक चावल + 5 किलो गेहूँ।",
+    "d": "राशन कार्ड।",
+    "h": "अपनी राशन दुकान से लें। नए राशन कार्ड का आधिकारिक पोर्टल इस जाँच में पुष्टि नहीं हुआ – मंडल / नागरिक आपूर्ति कार्यालय में पूछें।"
+   }
+  },
+  {
+   "id": "matsyakarula-sevalo",
+   "st": "AP",
+   "cat": "farm",
+   "amt": "₹20,000",
+   "link": null,
+   "src": "Deccan Chronicle (18 May 2026), PTI via Devdiscourse (19 May 2026), ANI via Asianet (15 Apr 2026)",
+   "checked": "2026-11-20",
+   "te": {
+    "n": "మత్స్యకారుల సేవలో",
+    "u": "ఏడాదికి ఒక్కో కుటుంబానికి",
+    "b": "సముద్రంలో చేపల వేట నిషేధ కాలంలో (ఏప్రిల్ 15 – జూన్ 14, 61 రోజులు) మత్స్యకార కుటుంబానికి ₹20,000 నేరుగా బ్యాంకు ఖాతాలోకి. 19 మే 2026న 1,30,796 కుటుంబాలకు ₹262 కోట్లు జమ చేశారు. పడవలకు లీటరుకు ₹9 డీజిల్ సబ్సిడీ కూడా ఉంది.",
+    "w": "ఆంధ్రప్రదేశ్‌లో సముద్ర వేటపై ఆధారపడిన అర్హత ఉన్న మత్స్యకార కుటుంబాలు. పూర్తి అర్హత నిబంధనలు ఈ తనిఖీలో నిర్ధారించలేదు.",
+    "d": "పత్రాల జాబితా ఈ తనిఖీలో నిర్ధారించలేదు – మత్స్య శాఖ కార్యాలయంలో అడగండి.",
+    "h": "ప్రభుత్వమే అర్హుల జాబితా ప్రకారం నేరుగా ఖాతాలో జమ చేస్తుంది (DBT). పేరు లేకపోతే మీ జిల్లా మత్స్య శాఖ అధికారిని అడగండి; అధికారిక పోర్టల్ ఈ తనిఖీలో నిర్ధారించలేదు."
+   },
+   "en": {
+    "n": "Matsyakarula Sevalo",
+    "u": "per family a year",
+    "b": "₹20,000 straight into the bank account of fishermen families during the marine fishing ban (15 April – 14 June, 61 days). On 19 May 2026, ₹262 crore was paid to 1,30,796 families. Boats also get a diesel subsidy of ₹9 a litre.",
+    "w": "Eligible marine fishermen families in Andhra Pradesh. Full eligibility rules were not confirmed in this check.",
+    "d": "Document list not confirmed in this check – ask at the fisheries department office.",
+    "h": "The government pays eligible families directly (DBT) from its list. If your name is missing, ask your district fisheries officer; the official portal was not confirmed in this check."
+   },
+   "hi": {
+    "n": "मत्स्यकारुला सेवालो",
+    "u": "प्रति परिवार प्रति वर्ष",
+    "b": "समुद्री मछली पकड़ने पर रोक के दौरान (15 अप्रैल – 14 जून, 61 दिन) मछुआरा परिवारों को ₹20,000 सीधे बैंक खाते में। 19 मई 2026 को 1,30,796 परिवारों को ₹262 करोड़ दिए गए। नावों को ₹9 प्रति लीटर डीज़ल सब्सिडी भी।",
+    "w": "आंध्र प्रदेश के पात्र समुद्री मछुआरा परिवार। पूरी पात्रता शर्तें इस जाँच में पुष्टि नहीं हुईं।",
+    "d": "दस्तावेज़ सूची इस जाँच में पुष्टि नहीं हुई – मत्स्य विभाग कार्यालय में पूछें।",
+    "h": "सरकार पात्र सूची के अनुसार सीधे खाते में भेजती है (DBT)। नाम न हो तो ज़िला मत्स्य अधिकारी से पूछें; आधिकारिक पोर्टल इस जाँच में पुष्टि नहीं हुआ।"
+   }
   }
  ]
 }
