@@ -1,8 +1,118 @@
 {
  "date": "20.11.2026",
- "updated": "2026-11-20T08:35:00+05:30",
+ "updated": "2026-11-20T09:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "తెలుగు రాష్ట్రాలు · వాతావరణం",
+   "col": "--c-water",
+   "art": "rain",
+   "pic": "c/weather",
+   "stat": "అక్వాన్ తుపాను",
+   "statl": "తీరం దాటడం ప్రారంభం",
+   "h": "అక్వాన్ తుపాను తీరం దాటడం ప్రారంభం",
+   "p": "అక్వాన్ తుపాను ఉత్తరాంధ్ర, దక్షిణ ఒడిశా తీరంలో గోపాల్‌పూర్ సమీపంలో తీరం దాటడం మొదలైందని భారత వాతావరణ శాఖ శుక్రవారం ఉదయం తెలిపింది. తీవ్ర తుపాను నుంచి తుపానుగా బలహీనపడింది. గంటకు 90–100 కిలోమీటర్ల వేగంతో గాలులు వీస్తాయని అంచనా. శ్రీకాకుళం, విజయనగరం జిల్లాలకు రెడ్ అలర్ట్ జారీ అయింది.",
+   "pts": [
+    "విశాఖపట్నానికి 170 కిలోమీటర్ల దూరంలో తుపాను కేంద్రం",
+    "గాలుల వేగం గరిష్ఠంగా గంటకు 110 కిలోమీటర్లు",
+    "ఒడిశా వైపు కనీసం 28 ఎక్స్‌ప్రెస్ రైళ్లు రద్దు"
+   ],
+   "why": "శ్రీకాకుళం, విజయనగరం జిల్లాల ప్రజలు, మత్స్యకారులు, రైలు ప్రయాణికులు అప్రమత్తంగా ఉండాలి.",
+   "src": "The Week",
+   "url": "https://www.theweek.in/news/india/2026/11/20/cyclone-akvan-landfall-begins-along-andhra-odisha-coast-imd-issues-red-alert.html",
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "శ్రీకాకుళం, విజయనగరం",
+   "pub": "2026-11-20T08:16+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telugu states · Weather",
+    "h": "Cyclone Akvan begins crossing the coast",
+    "stat": "Cyclone Akvan",
+    "statl": "landfall begins",
+    "loc": "Srikakulam, Vizianagaram",
+    "p": "IMD said on Friday morning that Cyclone Akvan has begun crossing the north Andhra–south Odisha coast near Gopalpur. It has weakened from a severe cyclonic storm to a cyclonic storm. Winds of 90–100 kmph are expected. A red alert has been issued for Srikakulam and Vizianagaram districts.",
+    "pts": [
+     "Storm centre 170 km from Visakhapatnam",
+     "Gusts of up to 110 kmph",
+     "At least 28 express trains cancelled on the Odisha side"
+    ],
+    "why": "People, fishermen and rail travellers in Srikakulam and Vizianagaram should stay alert."
+   },
+   "hi": {
+    "cat": "तेलुगु राज्य · मौसम",
+    "h": "चक्रवात अक्वान का तट पार करना शुरू",
+    "stat": "चक्रवात अक्वान",
+    "statl": "तट पार करना शुरू",
+    "loc": "श्रीकाकुलम, विजयनगरम",
+    "p": "मौसम विभाग ने शुक्रवार सुबह बताया कि चक्रवात अक्वान ने गोपालपुर के पास उत्तर आंध्र–दक्षिण ओडिशा तट पार करना शुरू कर दिया है। यह गंभीर चक्रवात से कमज़ोर होकर चक्रवात बन गया है। 90–100 किमी प्रति घंटे की हवाओं का अनुमान है। श्रीकाकुलम और विजयनगरम ज़िलों के लिए रेड अलर्ट जारी है।",
+    "pts": [
+     "तूफ़ान का केंद्र विशाखापत्तनम से 170 किमी दूर",
+     "हवाओं की रफ़्तार 110 किमी प्रति घंटे तक",
+     "ओडिशा की ओर कम से कम 28 एक्सप्रेस ट्रेनें रद्द"
+    ],
+    "why": "श्रीकाकुलम और विजयनगरम के लोग, मछुआरे और रेल यात्री सतर्क रहें।"
+   },
+   "d": "20.11.2026",
+   "t": "09:05"
+  },
+  {
+   "cat": "తెలంగాణ · రాజకీయం",
+   "col": "--c-election",
+   "art": "water",
+   "pic": "c/politics",
+   "stat": "దృష్టి మళ్లింపు",
+   "statl": "అని కేటీఆర్ ఆరోపణ",
+   "h": "సిద్దిపేట సభ వ్యాఖ్యలపై కేటీఆర్ విమర్శ",
+   "p": "సిద్దిపేట సభలో ముఖ్యమంత్రి రేవంత్ రెడ్డి దూషణలతో కూడిన భాష వాడారని, కరవు, రైతుల కష్టాలు, నీటి వివాదాల నుంచి దృష్టి మళ్లించేందుకే అలా మాట్లాడారని బీఆర్ఎస్ వర్కింగ్ ప్రెసిడెంట్ కేటీఆర్ హైదరాబాద్‌లో ఆరోపించారు. తెలంగాణ నీళ్లు ఆంధ్రప్రదేశ్‌కు మళ్లుతున్నా ప్రభుత్వం పట్టించుకోవడం లేదని అన్నారు.",
+   "pts": [
+    "రేవంత్ తెలంగాణ ఉద్యమానికి ద్రోహి అని కేటీఆర్ విమర్శ",
+    "ఎన్నికలు ఎప్పుడొచ్చినా ప్రజలు బదులిస్తారని వ్యాఖ్య"
+   ],
+   "why": "కృష్ణా నీటి వాటా, కరవు సాయంపై రాజకీయ వివాదం తెలంగాణ రైతులకు ముఖ్యమైన అంశం.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/ktr-calls-revanth-s-abusive-language-attempt-to-divert-e7d376c0",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "హైదరాబాద్",
+   "pub": "2026-11-20T08:27+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Politics",
+    "h": "KTR slams Revanth's Siddipet remarks",
+    "stat": "Diversion tactic",
+    "statl": "alleges KTR",
+    "loc": "Hyderabad",
+    "p": "BRS working president KT Rama Rao alleged in Hyderabad that Chief Minister Revanth Reddy used abusive language at the Siddipet meeting to divert attention from drought, farmers' distress and water disputes. He said the government was ignoring the diversion of Telangana's water to Andhra Pradesh.",
+    "pts": [
+     "KTR called Revanth a traitor to the Telangana movement",
+     "Said people will respond whenever elections are held"
+    ],
+    "why": "The political fight over Krishna water share and drought relief matters to Telangana farmers."
+   },
+   "hi": {
+    "cat": "तेलंगाना · राजनीति",
+    "h": "सिद्दीपेट बयानों पर KTR का रेवंत पर हमला",
+    "stat": "ध्यान भटकाना",
+    "statl": "KTR का आरोप",
+    "loc": "हैदराबाद",
+    "p": "बीआरएस कार्यकारी अध्यक्ष केटी रामा राव ने हैदराबाद में आरोप लगाया कि मुख्यमंत्री रेवंत रेड्डी ने सिद्दीपेट सभा में अपमानजनक भाषा का इस्तेमाल सूखे, किसानों की परेशानी और जल विवादों से ध्यान हटाने के लिए किया। उन्होंने कहा कि तेलंगाना का पानी आंध्र प्रदेश जा रहा है, फिर भी सरकार ध्यान नहीं दे रही।",
+    "pts": [
+     "KTR ने रेवंत को तेलंगाना आंदोलन का गद्दार कहा",
+     "कहा कि चुनाव में जनता जवाब देगी"
+    ],
+    "why": "कृष्णा जल हिस्सेदारी और सूखा राहत पर राजनीतिक विवाद तेलंगाना के किसानों के लिए अहम है।"
+   },
+   "d": "20.11.2026",
+   "t": "09:05"
+  },
   {
    "cat": "హైదరాబాద్ · విద్యార్థులు",
    "col": "--c-city",
@@ -3164,121 +3274,6 @@
    },
    "d": "19.11.2026",
    "t": "20:35"
-  },
-  {
-   "cat": "ప్రపంచం · అంతర్జాతీయ కోర్టు",
-   "col": "--c-gov",
-   "art": "court",
-   "pic": "c/courts",
-   "stat": "ఐసీజే 9–6",
-   "statl": "మెజారిటీతో తీర్పు",
-   "h": "రోహింగ్యాల మారణహోమం: మయన్మార్ దోషి",
-   "p": "రోహింగ్యా ముస్లింలపై మయన్మార్ మారణహోమానికి పాల్పడిందని ఐక్యరాజ్యసమితి అత్యున్నత న్యాయస్థానం అంతర్జాతీయ న్యాయస్థానం (ఐసీజే) గురువారం నెదర్లాండ్స్‌లోని హేగ్‌లో 9–6 మెజారిటీతో చారిత్రక తీర్పు ఇచ్చింది. గాంబియా దేశం 2019లో ఈ కేసు వేసింది. రోహింగ్యా బాధితులకు పరిహారం చెల్లించాలని, రోహింగ్యాలు సురక్షితంగా తిరిగి వచ్చేలా చూడాలని మయన్మార్‌ను కోర్టు ఆదేశించింది.",
-   "pts": [
-    "ఒక దేశం మారణహోమానికి బాధ్యురాలని ఐసీజే తేల్చడం ఇదే మొదటిసారి",
-    "7.3 లక్షల మందికి పైగా రోహింగ్యాలు బంగ్లాదేశ్‌కు పారిపోయారు",
-    "ఐరాస ప్రకారం 13 లక్షల మంది ఇంకా నిరాశ్రయులే"
-   ],
-   "why": "భారత్ పొరుగున ఉన్న శరణార్థుల సమస్యపై ఈ తీర్పు అంతర్జాతీయ ఒత్తిడిని పెంచుతుంది.",
-   "src": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide",
-   "sec": [
-    "world"
-   ],
-   "st": "WORLD",
-   "place": "IN",
-   "loc": "",
-   "pub": "2026-11-19T16:01+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "World · ICJ",
-    "h": "ICJ finds Myanmar guilty of Rohingya genocide",
-    "stat": "ICJ 9–6",
-    "statl": "Myanmar committed genocide",
-    "loc": "The Hague",
-    "p": "The International Court of Justice ruled 9–6 on Thursday that Myanmar committed genocide against Rohingya Muslims, in a case filed by The Gambia in 2019. It ordered Myanmar to pay reparations and enable the safe return of Rohingya.",
-    "pts": [
-     "First time the ICJ has held a state responsible for genocide",
-     "Over 7.3 lakh Rohingya fled to Bangladesh",
-     "UN says 13 lakh remain displaced"
-    ],
-    "why": "Adds global pressure on a refugee crisis in India's neighbourhood."
-   },
-   "hi": {
-    "cat": "दुनिया · आईसीजे",
-    "h": "रोहिंग्या नरसंहार में म्यांमार दोषी: आईसीजे",
-    "stat": "आईसीजे 9–6",
-    "statl": "म्यांमार ने नरसंहार किया",
-    "loc": "द हेग",
-    "p": "अंतरराष्ट्रीय न्यायालय (आईसीजे) ने गुरुवार को 9–6 के बहुमत से फैसला दिया कि म्यांमार ने रोहिंग्या मुसलमानों का नरसंहार किया। यह केस गाम्बिया ने 2019 में दायर किया था। म्यांमार को मुआवजा देने और सुरक्षित वापसी सुनिश्चित करने का आदेश दिया।",
-    "pts": [
-     "पहली बार आईसीजे ने किसी देश को नरसंहार का जिम्मेदार ठहराया",
-     "7.3 लाख से ज्यादा रोहिंग्या बांग्लादेश भागे",
-     "संयुक्त राष्ट्र के अनुसार 13 लाख अब भी विस्थापित"
-    ],
-    "why": "भारत के पड़ोस के शरणार्थी संकट पर अंतरराष्ट्रीय दबाव बढ़ाता है।"
-   },
-   "d": "19.11.2026",
-   "t": "20:35"
-  },
-  {
-   "cat": "తెలంగాణ · రాజకీయం",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "c/politics",
-   "stat": "2029",
-   "statl": "ఎన్నికల్లో గెలుపే లక్ష్యం",
-   "h": "సిద్దిపేట సభలో సీఎం రేవంత్ సవాల్",
-   "p": "సిద్దిపేట బహిరంగ సభలో సీఎం రేవంత్ రెడ్డి మాట్లాడారు. 2029 అసెంబ్లీ ఎన్నికల్లో సిద్దిపేటలో కాంగ్రెస్ గెలుస్తుందని అన్నారు. ఇక్కడ కాంగ్రెస్ అభ్యర్థిని గెలిపిస్తే మంత్రి పదవి ఇస్తామన్నారు. సిద్దిపేట మెడికల్ కాలేజీకి దివంగత నేత మదన్ మోహన్ రావు పేరు పెడతామని చెప్పారు. బీఆర్ఎస్ నేతలపై ఆరోపణలు చేశారు.",
-   "pts": [
-    "75,000 ప్రభుత్వ ఉద్యోగాలు భర్తీ చేశామని వెల్లడి",
-    "అసెంబ్లీ సమావేశాలకు రావాలని బీఆర్ఎస్ నేతలకు సవాల్",
-    "కాళేశ్వరం ఖర్చుపై కేసీఆర్‌ను విమర్శించిన సీఎం"
-   ],
-   "why": "సిద్దిపేట ఓటర్లు, ఆ ప్రాంత రాజకీయాలను గమనించేవారికి ఈ ప్రకటనలు ముఖ్యం.",
-   "next": "కోటి మంది మహిళలకు ఇందిరమ్మ చీరల పంపిణీ నవంబర్ 26 నుంచి",
-   "src": "Deccan Chronicle",
-   "url": "https://www.deccanchronicle.com/southern-states/telangana/revanth-vows-congress-win-in-siddipet-by-2029-targets-brs-leadership-2005931",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "siddipet",
-   "loc": "సిద్దిపేట",
-   "pub": "2026-11-19T20:03+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Telangana · Politics",
-    "h": "Revanth: Congress will win Siddipet in 2029",
-    "stat": "2029",
-    "statl": "polls: Congress eyes win",
-    "loc": "Siddipet",
-    "p": "Addressing a public meeting in Siddipet, CM Revanth Reddy said Congress will win Siddipet in the 2029 Assembly polls and that a Congress MLA from here would get a cabinet post. He said the Siddipet Medical College will be named after late leader Madan Mohan Rao, and made allegations against BRS leaders.",
-    "pts": [
-     "Says 75,000 government jobs filled",
-     "Dares BRS leaders to attend Assembly session",
-     "Criticises KCR over Kaleshwaram cost"
-    ],
-    "why": "Matters to Siddipet voters and those following politics in the region.",
-    "next": "Indiramma saree distribution to one crore women from November 26"
-   },
-   "hi": {
-    "cat": "तेलंगाना · राजनीति",
-    "h": "रेवंत: 2029 में सिद्दिपेट जीतेगी कांग्रेस",
-    "stat": "2029",
-    "statl": "चुनाव में जीत का लक्ष्य",
-    "loc": "सिद्दिपेट",
-    "p": "सिद्दिपेट की जनसभा में मुख्यमंत्री रेवंत रेड्डी ने कहा कि 2029 विधानसभा चुनाव में कांग्रेस सिद्दिपेट जीतेगी और यहां से कांग्रेस विधायक चुने जाने पर मंत्री पद मिलेगा। उन्होंने कहा कि सिद्दिपेट मेडिकल कॉलेज का नाम दिवंगत नेता मदन मोहन राव के नाम पर रखा जाएगा और बीआरएस नेताओं पर आरोप लगाए।",
-    "pts": [
-     "75,000 सरकारी नौकरियां भरने का दावा",
-     "बीआरएस नेताओं को विधानसभा सत्र में आने की चुनौती",
-     "कालेश्वरम खर्च पर केसीआर की आलोचना"
-    ],
-    "why": "सिद्दिपेट के मतदाताओं और क्षेत्र की राजनीति पर नज़र रखने वालों के लिए अहम।",
-    "next": "26 नवंबर से एक करोड़ महिलाओं को इंदिरम्मा साड़ियां"
-   },
-   "d": "19.11.2026",
-   "t": "20:05"
   },
   {
    "cat": "మేడ్చల్ · ప్రమాదం",
