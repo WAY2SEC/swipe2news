@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-20T18:35:00+05:30",
+ "cutoff": "2026-11-20T19:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T22:35:00+05:30/2026-11-17T23:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 0,
-   "published": 0,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Feeds 22:42 IST, 70/70 ok; 807 uncovered TG/AP (most already published under other URLs). add_repo not available; used existing clone. Search engines did not surface Hindu/TT URLs for new items (KTR white paper, Telangana Darshini, Mailardevpally gambling, MMTS demand, TOSS results notice, DC Khelo India martial art, TOI AP higher-ed ₹3,500 cr, IE Telangana officer assets). Not opened: ANI Akvan rainfall (client error), Telangana Today ?p=1621862 (robots). Skipped as old: DC AP engg fee ₹47,000 (30 Jul), NewsMeter MEPMA DA case (3 Nov), PW TOSS results (30 May). Duplicates: Siasat/NewsMill Moinabad TPO DA case (already published). District searches (Nalgonda, Mahabubnagar, Kakinada, Nellore, Suryapet, Anantapur, Medak/Sangareddy, Kadapa/Annamayya) found nothing fresh."
-  },
   {
    "window": "2026-11-17T23:05:00+05:30/2026-11-17T23:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Feeds 18:19 IST, 68/68 ok, 753 TG/AP uncovered, lookback 10:05. Published 6: Andhra Prabha Chukka Ramaiah 100th birthday CM visit, Siasat Wardhannapet medical shop TG SAFE raid, TT BRS Koilsagar diversion protest (claim), Asianet/ANI YSRCP President's rule demand (claim, sensitive), Oneindia Telugu Neerukonda reservoir 85%, South First SC bike taxis Karnataka. Skipped: NewsMeter TG SAFE 90 pharmacy notices (08:44, before lookback); South First Telugu 12th PRC (body not readable, summary too thin – retry next run). Not opened: ANI YSRCP (4xx), Munsif TG-SAFE Bhadradri quack (4xx), greatandhra/ap7am Upasana Pithapuram anganwadi (4xx). Standard search returned old pages; extended used. No district searches this run (feed list used). add_repo not available; used existing clone. build_previews index/lang pages reverted."
+  },
+  {
+   "window": "2026-11-20T18:35:00+05:30/2026-11-20T19:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 8,
+   "published": 7,
+   "late": 7,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Feeds 18:43 IST, 69/70 ok (district:Yadadri Bhuvanagiri:en failing), 807 TG/AP uncovered, lookback 10:35. Published 7: Oneindia Telugu Trinetra app statewide (DGP), Telangana Today KRMB letter on Palnadu grid complaint, Oneindia Telugu Rs 1,087 cr SASCI for farmer registry (claim – no official named), ETV Bharat Rajgopal Reddy reply to CM (claim), ETV Bharat Narasaraopet theft gang (sensitive, police, no names), ETV Bharat Visakha Economic Region master plan, Deccan Chronicle/PTI Chennai fishermen strike over boats held in AP (claim). Duplicate: Telangana Today gold/silver crash (covered 10:05). Skipped as old: Vaartha 12th PRC (17 Nov), hyderabadmail groundwater (June), vizagforever tiger Explorer (Oct), Sakshi Post Akvan (09:40, before lookback, covered). Not opened: France24 (robots) / Al Arabiya (4xx) Poland missile, ANI Akvan (4xx); no today's article found for Hindu Vikarabad borewell curbs, Hindu tiger Mylavaram, Hindu 12th PRC, Telangana EHS guidelines. Extended search used. No district searches this run (feed list used). add_repo not available; used existing clone. build_previews index/lang pages reverted."
   }
  ],
  "seen": [
@@ -6898,6 +6898,66 @@
    "url": "https://newsmeter.in/hyderabad/veteran-educationist-chukka-ramaiah-celebrates-his-100th-birthday-779678",
    "d": "2026-11-20",
    "w": "duplicate"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/andhra-pradesh/trinetra-app-ap-police-ap-dgp-announces-statewide-rollout-of-trinetra-app-to-curb-cyber-crimes-515759.html",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/telangana/telangana-farmer-registry-centre-rewards-telanganas-farmer-registry-success-with-1-087-crore-sasc-515769.html",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/mla-komatireddy-rajagopal-reddy-counter-to-cm-revanth-reddy-comments-tgs26112005102",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/rajgopal-reddy-hits-back-at-revanth-reddy-urges-him-to-avoid-arrogance-and-focus-on-governance",
+   "d": "2026-11-20",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/theft-gang-arrest-gold-and-silver-recovered-in-palnadu-district-aps26112001225",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/visakha-bay-tech-city-become-future-financial-hub-for-andhra-pradesh-aps26112000893",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/tn-fishermen-stage-demonstration-demanding-release-of-boats-detained-in-andhra-2006259",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/gold-and-silver-prices-crash-up-to-6-6-pc-amid-strong-dollar-rising-us-bond-yields",
+   "d": "2026-11-20",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://vaartha.com/andhra-pradesh/ap-12th-prc-guidelines-released-suggestions-deadline-december-31/806245/",
+   "d": "2026-11-20",
+   "w": "skipped"
+  },
+  {
+   "url": "https://hyderabadmail.com/telangana-groundwater-levels-fall-six-districts-vikarabad-deepest/",
+   "d": "2026-11-20",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.vizagforever.com/post/experts-brought-in-to-tranquillise-tiger-explorer",
+   "d": "2026-11-20",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.sakshipost.com/news/andhrapradesh/cyclone-akvan-crosses-odisha-coast-ap-and-telangana-rain-alert-483375",
+   "d": "2026-11-20",
+   "w": "skipped"
   }
  ]
 }
