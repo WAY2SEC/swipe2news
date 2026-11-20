@@ -1,8 +1,489 @@
 {
  "date": "20.11.2026",
- "updated": "2026-11-20T10:05:00+05:30",
+ "updated": "2026-11-20T10:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "ఏపీ · తుపాను",
+   "col": "--c-water",
+   "art": "rain",
+   "pic": "c/weather",
+   "stat": "గోపాల్‌పూర్",
+   "statl": "వద్ద తీరం దాటిన తుపాను",
+   "h": "గోపాల్‌పూర్ వద్ద తీరం దాటిన అక్వాన్",
+   "p": "తీవ్ర తుపాను అక్వాన్ శుక్రవారం ఉదయం ఉత్తర కోస్తాంధ్ర, దక్షిణ ఒడిశా తీరంలో గోపాల్‌పూర్ సమీపంలో తీరం దాటిందని వాతావరణ శాఖ తెలిపింది. తీరం దాటే సమయంలో గంటకు 90 కిలోమీటర్ల వరకు ఈదురుగాలులు వీచాయి. ఉత్తర కోస్తాలో నేడు తేలికపాటి నుంచి మోస్తరు వర్షాలు కురుస్తాయని రాష్ట్ర విపత్తు నిర్వహణ సంస్థ ఎండీ ప్రఖర్ జైన్ తెలిపారు.",
+   "pts": [
+    "శ్రీకాకుళం జిల్లా ప్రజలు జాగ్రత్తగా ఉండాలని సూచన",
+    "ఆరు విపత్తు స్పందన బృందాలు మోహరింపు, విశాఖలో మరో మూడు సిద్ధం"
+   ],
+   "why": "శ్రీకాకుళం సహా ఉత్తర కోస్తా తీర ప్రాంతాల ప్రజలు, మత్స్యకారులు అప్రమత్తంగా ఉండాలి.",
+   "src": "The Hans India (PTI)",
+   "url": "https://www.thehansindia.com/andhra-pradesh/cyclone-akvan-crosses-north-andhra-south-odisha-coast-near-gopalpur-1143922",
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "pub": "2026-11-20T10:14+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Cyclone",
+    "h": "Cyclone Akvan crosses coast near Gopalpur",
+    "stat": "Gopalpur",
+    "statl": "Akvan crosses coast here",
+    "loc": "North Andhra–South Odisha coast",
+    "p": "Severe cyclonic storm Akvan crossed the north Andhra and south Odisha coast near Gopalpur on Friday morning, the Meteorological Department said. Winds gusting up to 90 kmph blew during landfall. APSDMA MD Prakhar Jain said light to moderate rain is expected in north coastal Andhra today.",
+    "pts": [
+     "Srikakulam residents asked to stay cautious",
+     "Six disaster response teams deployed, three more on standby in Visakhapatnam"
+    ],
+    "why": "Coastal residents and fishermen in Srikakulam and north Andhra need to stay alert."
+   },
+   "hi": {
+    "cat": "आंध्र · चक्रवात",
+    "h": "गोपालपुर के पास तट से टकराया चक्रवात अक्वान",
+    "stat": "गोपालपुर",
+    "statl": "यहां तट पार किया अक्वान ने",
+    "loc": "उत्तर आंध्र–दक्षिण ओडिशा तट",
+    "p": "मौसम विभाग के अनुसार भीषण चक्रवाती तूफान अक्वान ने शुक्रवार सुबह गोपालपुर के पास उत्तर आंध्र और दक्षिण ओडिशा तट को पार किया। इस दौरान 90 किमी प्रति घंटे तक की हवाएं चलीं। एपीएसडीएमए के एमडी प्रखर जैन ने कहा कि उत्तर तटीय आंध्र में आज हल्की से मध्यम बारिश होगी।",
+    "pts": [
+     "श्रीकाकुलम के लोगों को सतर्क रहने की सलाह",
+     "छह आपदा राहत दल तैनात, विशाखापत्तनम में तीन और तैयार"
+    ],
+    "why": "श्रीकाकुलम और उत्तर आंध्र के तटीय लोगों व मछुआरों को सतर्क रहना होगा।"
+   },
+   "d": "20.11.2026",
+   "t": "10:35"
+  },
+  {
+   "cat": "ఏపీ · కడప",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "c/politics",
+   "stat": "సింహాద్రిపురం",
+   "statl": "లో ఎంపీ కాన్వాయ్‌పై దాడి",
+   "h": "కడప ఎంపీ అవినాష్ కాన్వాయ్‌పై దాడి",
+   "p": "వైఎస్ఆర్ కడప జిల్లా సింహాద్రిపురం మండలం అంకాలమ్మ గూడూరు వద్ద శుక్రవారం ఉదయం కడప ఎంపీ వైఎస్ అవినాష్ రెడ్డి కాన్వాయ్‌పై రాళ్లు, కర్రలతో దాడి జరిగిందని కథనం. టీడీపీ వర్గీయులే దాడి చేశారని వైసీపీ ఆరోపిస్తోంది. పంచాయతీ అభ్యర్థులను నామినేషన్లకు తీసుకెళ్తుండగా ఘటన జరిగింది. కాన్వాయ్ వాహనాలు దెబ్బతిన్నట్లు సమాచారం. ఘటనపై పోలీసుల ప్రకటన ఇంకా రాలేదు.",
+   "pts": [
+    "ఎవరికీ గాయాలైనట్లు సమాచారం లేదు",
+    "నామినేషన్లకు పోలీసు ఎస్కార్ట్ ఇవ్వాలని హైకోర్టు ఆదేశించినట్లు వైసీపీ వెల్లడి"
+   ],
+   "why": "కడప జిల్లాలో పంచాయతీ ఎన్నికల నామినేషన్ల సమయంలో ఉద్రిక్తత నెలకొంది.",
+   "src": "Telugu OneIndia",
+   "url": "https://telugu.oneindia.com/news/andhra-pradesh/ysrcp-mp-ys-avinash-reddy-s-convoy-attacked-in-kadapa-s-simhadripuram-petrol-bombs-allegedly-hurle-515725.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-kadapa",
+   "loc": "అంకాలమ్మ గూడూరు, సింహాద్రిపురం",
+   "pub": "2026-11-20T09:49+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "AP · Kadapa",
+    "h": "Kadapa MP Avinash Reddy's convoy attacked",
+    "stat": "Ankalamma Gudur",
+    "statl": "attack on MP's convoy reported",
+    "loc": "Ankalamma Gudur, Simhadripuram",
+    "p": "Kadapa MP YS Avinash Reddy's convoy was reportedly attacked with stones and sticks at Ankalamma Gudur in Simhadripuram mandal on Friday morning. YSRCP alleges TDP supporters carried out the attack while he was taking panchayat candidates to file nominations. Convoy vehicles were reportedly damaged. Police have not yet made a statement.",
+    "pts": [
+     "No injuries reported",
+     "YSRCP says the High Court had ordered police escorts for nominations"
+    ],
+    "why": "Tension has risen in Kadapa district during panchayat poll nominations."
+   },
+   "hi": {
+    "cat": "आंध्र · कडपा",
+    "h": "कडपा सांसद अविनाश रेड्डी के काफिले पर हमला",
+    "stat": "अंकालम्मा गुडूर",
+    "statl": "सांसद के काफिले पर हमला",
+    "loc": "अंकालम्मा गुडूर, सिंहाद्रिपुरम",
+    "p": "खबरों के अनुसार शुक्रवार सुबह सिंहाद्रिपुरम मंडल के अंकालम्मा गुडूर में कडपा सांसद वाईएस अविनाश रेड्डी के काफिले पर पत्थरों और लाठियों से हमला हुआ। वाईएसआरसीपी का आरोप है कि टीडीपी समर्थकों ने हमला किया, जब वे पंचायत उम्मीदवारों को नामांकन के लिए ले जा रहे थे। काफिले के वाहन क्षतिग्रस्त होने की खबर है। पुलिस का बयान अभी नहीं आया है।",
+    "pts": [
+     "किसी के घायल होने की सूचना नहीं",
+     "वाईएसआरसीपी के अनुसार हाईकोर्ट ने नामांकन के लिए पुलिस एस्कॉर्ट का आदेश दिया था"
+    ],
+    "why": "पंचायत चुनाव नामांकन के दौरान कडपा जिले में तनाव बढ़ा है।"
+   },
+   "d": "20.11.2026",
+   "t": "10:35"
+  },
+  {
+   "cat": "తెలంగాణ · వాతావరణం",
+   "col": "--c-city",
+   "art": "rain",
+   "pic": "c/weather",
+   "stat": "9.6 డిగ్రీల",
+   "statl": "కనిష్ఠ ఉష్ణోగ్రత నమోదు",
+   "h": "జహీరాబాద్ సత్వార్‌లో 9.6 డిగ్రీల చలి",
+   "p": "ఈ శీతాకాలంలో తెలంగాణలో తొలిసారి ఉష్ణోగ్రత ఒక అంకెకు పడిపోయింది. సంగారెడ్డి జిల్లా జహీరాబాద్ సమీపంలోని సత్వార్‌లో 9.6, కోహిర్‌లో 9.7 డిగ్రీలు నమోదయ్యాయి. హైదరాబాద్‌లో ఆసిఫ్‌నగర్, షేక్‌పేటలో కనిష్ఠంగా 17.2 డిగ్రీలు నమోదైంది. కామారెడ్డి జిల్లా డోంగ్లీలో 10.5, రంగారెడ్డి జిల్లా మొయినాబాద్‌లో 10.7 డిగ్రీలు నమోదయ్యాయి. నవంబర్ 23 వరకు ఉదయం పొగమంచు ఉంటుందని ఐఎండీ తెలిపింది.",
+   "pts": [
+    "వికారాబాద్ బషీరాబాద్‌లో 11, మెదక్ నర్సాపూర్‌లో 12 డిగ్రీలు",
+    "చలి, వర్షంపై ఐఎండీ ఎలాంటి హెచ్చరిక జారీ చేయలేదు"
+   ],
+   "why": "ఉదయం బయటకు వెళ్లేవారు, వృద్ధులు, పిల్లలు చలి నుంచి జాగ్రత్తలు తీసుకోవాలి.",
+   "src": "The Siasat Daily",
+   "url": "https://www.siasat.com/winter-tightens-grip-on-hyderabad-imd-warns-of-haze-3581772/",
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "TG",
+   "place": "sangareddy",
+   "loc": "సత్వార్, జహీరాబాద్",
+   "pub": "2026-11-20T10:19+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Weather",
+    "h": "Satwar near Zaheerabad records 9.6°C",
+    "stat": "9.6°C",
+    "statl": "lowest temperature recorded",
+    "loc": "Satwar, Zaheerabad",
+    "p": "Telangana recorded its first single-digit temperatures of this winter: Satwar near Zaheerabad in Sangareddy district logged 9.6°C and Kohir 9.7°C. In Hyderabad, Asifnagar and Shaikpet recorded the lowest minimum of 17.2°C. Dongli in Kamareddy recorded 10.5°C and Moinabad in Rangareddy 10.7°C. IMD says morning haze will continue until November 23.",
+    "pts": [
+     "Basheerabad (Vikarabad) 11°C, Narsapur (Medak) 12°C",
+     "IMD has issued no cold or rain warning"
+    ],
+    "why": "Early-morning commuters, the elderly and children should take care against the cold."
+   },
+   "hi": {
+    "cat": "तेलंगाना · मौसम",
+    "h": "ज़हीराबाद के सतवार में पारा 9.6 डिग्री",
+    "stat": "9.6 डिग्री",
+    "statl": "न्यूनतम तापमान दर्ज",
+    "loc": "सतवार, ज़हीराबाद",
+    "p": "इस सर्दी में तेलंगाना में पहली बार तापमान एक अंक में पहुंचा। संगारेड्डी ज़िले में ज़हीराबाद के पास सतवार में 9.6 और कोहिर में 9.7 डिग्री दर्ज हुआ। हैदराबाद में आसिफनगर और शेखपेट में न्यूनतम 17.2 डिग्री रहा। कामारेड्डी के डोंगली में 10.5 और रंगारेड्डी के मोइनाबाद में 10.7 डिग्री दर्ज हुआ। आईएमडी के अनुसार 23 नवंबर तक सुबह धुंध रहेगी।",
+    "pts": [
+     "बशीराबाद (विकाराबाद) 11, नरसापुर (मेडक) 12 डिग्री",
+     "आईएमडी ने ठंड या बारिश की कोई चेतावनी नहीं दी"
+    ],
+    "why": "सुबह निकलने वाले, बुज़ुर्ग और बच्चे ठंड से सावधान रहें।"
+   },
+   "d": "20.11.2026",
+   "t": "10:35"
+  },
+  {
+   "cat": "హనుమకొండ · విద్యార్థులు",
+   "col": "--c-city",
+   "art": "campus",
+   "pic": "n/students",
+   "stat": "14 మంది",
+   "statl": "విద్యార్థులకు అస్వస్థత",
+   "h": "కాకతీయ వర్సిటీలో 14 మందికి అస్వస్థత",
+   "p": "హనుమకొండలోని కాకతీయ విశ్వవిద్యాలయం హాస్టల్‌లో వడ్డించిన ఆహారం తిన్న 14 మంది విద్యార్థులు అస్వస్థతకు గురయ్యారు. నాణ్యమైన, పోషకాహారం అందించాలని డిమాండ్ చేస్తూ విద్యార్థులు అర్ధరాత్రి వర్సిటీ మొదటి గేటు వద్ద నిరసనకు దిగారు. అధికారుల నిర్లక్ష్యమే కారణమని వారు ఆరోపించారు. ఘటనపై వర్సిటీ అధికారుల నుంచి ఇంకా ప్రకటన రాలేదు.",
+   "pts": [
+    "హైదరాబాద్ హెచ్‌సీయూలోనూ 30 మందికి పైగా విద్యార్థులకు అస్వస్థత"
+   ],
+   "why": "వర్సిటీ హాస్టళ్లలో ఉండే వేలాది విద్యార్థుల ఆరోగ్యానికి సంబంధించిన విషయం ఇది.",
+   "src": "Namasthe Telangana",
+   "url": "https://www.ntnews.com/telangana/14-students-suffered-with-food-poisoning-in-kakatiya-university-2564842",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "hanumakonda",
+   "loc": "కాకతీయ విశ్వవిద్యాలయం",
+   "pub": "2026-11-20T10:19+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hanumakonda · Students",
+    "h": "14 Kakatiya University students fall ill",
+    "stat": "14 students",
+    "statl": "fell ill after hostel food",
+    "loc": "Kakatiya University, Hanumakonda",
+    "p": "Fourteen students at Kakatiya University in Hanumakonda fell ill after eating food served in the hostel. Students staged a late-night protest at the university's first gate demanding good, nutritious food, blaming officials' neglect. University officials have not yet responded.",
+    "pts": [
+     "Over 30 students also fell ill at HCU in Hyderabad"
+    ],
+    "why": "It concerns the health of thousands of students living in university hostels."
+   },
+   "hi": {
+    "cat": "हनमकोंडा · छात्र",
+    "h": "काकतीय विश्वविद्यालय के 14 छात्र बीमार",
+    "stat": "14 छात्र",
+    "statl": "हॉस्टल का खाना खाकर बीमार",
+    "loc": "काकतीय विश्वविद्यालय, हनमकोंडा",
+    "p": "हनमकोंडा के काकतीय विश्वविद्यालय के हॉस्टल में परोसा गया खाना खाने के बाद 14 छात्र बीमार पड़ गए। अच्छे और पौष्टिक भोजन की मांग को लेकर छात्रों ने देर रात विश्वविद्यालय के पहले गेट पर विरोध किया और अधिकारियों की लापरवाही का आरोप लगाया। विश्वविद्यालय अधिकारियों की प्रतिक्रिया अभी नहीं आई है।",
+    "pts": [
+     "हैदराबाद के एचसीयू में भी 30 से ज़्यादा छात्र बीमार"
+    ],
+    "why": "यह हॉस्टल में रहने वाले हज़ारों छात्रों की सेहत से जुड़ा मामला है।"
+   },
+   "d": "20.11.2026",
+   "t": "10:35"
+  },
+  {
+   "cat": "తెలంగాణ · ఉపాధి హామీ",
+   "col": "--c-gov",
+   "art": "farm",
+   "pic": "i/agricultural-workers",
+   "stat": "5.97 లక్షల మంది",
+   "statl": "రోజూ పనులకు హాజరు",
+   "h": "ఉపాధి హామీలో ప్రతి 40 మందికి ఒక మేట్",
+   "p": "ఉపాధి హామీ పనుల్లో ప్రతి 40 మంది కూలీలకు ఒక మేట్‌ను నియమించాలని మంత్రి సీతక్క అధికారులను ఆదేశించారు. సచివాలయంలో జరిగిన సమీక్షలో ప్రతి గ్రామ పంచాయతీలో రోజువారీ హాజరును 60 మందికి పెంచాలని సూచించారు. ఈ నెల రోజుకు సగటున 5.97 లక్షల మంది పనులకు వస్తున్నారు. ఏజెన్సీ ప్రాంతాల్లో జలసిరి కింద 88,675 పనులు ప్రారంభమయ్యాయి.",
+   "pts": [
+    "నవంబర్ 18న ఆరు లక్షల మందికి పైగా హాజరు",
+    "జలసిరి కింద 28,646 పనులు పూర్తి",
+    "శిక్షణ పొందిన మేట్లు డిసెంబర్ 1 నుంచి బాధ్యతలు"
+   ],
+   "why": "గ్రామాల్లో ఉపాధి హామీ పనులపై ఆధారపడే కూలీలకు ఎక్కువ పని దొరికే అవకాశం ఉంది.",
+   "src": "Namasthe Telangana",
+   "url": "https://www.ntnews.com/telangana/minister-seethakka-directs-increase-in-daily-employment-guarantee-workers-across-villages-2564788",
+   "sec": [
+    "telangana",
+    "jobs"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "pub": "2026-11-20T02:32+05:30",
+   "lbl": "fact",
+   "next": "శిక్షణ పొందిన మేట్లు డిసెంబర్ 1 నుంచి బాధ్యతలు చేపడతారు",
+   "en": {
+    "cat": "Telangana · Rural jobs",
+    "h": "One mate for every 40 MGNREGS workers",
+    "stat": "5.97 lakh",
+    "statl": "workers a day on average",
+    "loc": "Telangana",
+    "p": "Minister Seethakka directed officials to appoint one mate for every 40 workers under the rural employment guarantee scheme. At a Secretariat review, she asked that daily attendance in every gram panchayat be raised to 60. This month an average of 5.97 lakh workers turn up daily. Under Jalasiri, 88,675 works have been started in agency areas.",
+    "pts": [
+     "Over six lakh workers attended on November 18",
+     "28,646 Jalasiri works completed",
+     "Trained mates take charge from December 1"
+    ],
+    "why": "Rural labourers who depend on the scheme could get more work in villages.",
+    "next": "Trained mates take charge from December 1"
+   },
+   "hi": {
+    "cat": "तेलंगाना · ग्रामीण रोज़गार",
+    "h": "मनरेगा में हर 40 मज़दूरों पर एक मेट",
+    "stat": "5.97 लाख",
+    "statl": "रोज़ औसतन मज़दूर",
+    "loc": "तेलंगाना",
+    "p": "मंत्री सीतक्का ने अधिकारियों को रोज़गार गारंटी योजना में हर 40 मज़दूरों पर एक मेट नियुक्त करने का निर्देश दिया। सचिवालय में समीक्षा में उन्होंने हर ग्राम पंचायत में रोज़ की हाज़िरी 60 तक बढ़ाने को कहा। इस महीने रोज़ औसतन 5.97 लाख मज़दूर आ रहे हैं। एजेंसी क्षेत्रों में जलसिरी के तहत 88,675 काम शुरू हुए हैं।",
+    "pts": [
+     "18 नवंबर को छह लाख से ज़्यादा मज़दूर पहुंचे",
+     "जलसिरी के 28,646 काम पूरे",
+     "प्रशिक्षित मेट 1 दिसंबर से ज़िम्मेदारी संभालेंगे"
+    ],
+    "why": "गांवों में योजना पर निर्भर मज़दूरों को ज़्यादा काम मिल सकता है।",
+    "next": "प्रशिक्षित मेट 1 दिसंबर से ज़िम्मेदारी संभालेंगे"
+   },
+   "d": "20.11.2026",
+   "t": "10:35"
+  },
+  {
+   "cat": "ఆదిలాబాద్ · పోలీసులు",
+   "col": "--c-city",
+   "pic": "c/crime",
+   "stat": "గాడిదల చోరీ ముఠా",
+   "statl": "ఐదుగురు అరెస్టు",
+   "h": "ఆదిలాబాద్‌లో గాడిదల చోరీ ముఠా అరెస్టు",
+   "p": "గాడిదలు, గొర్రెలను దొంగిలించి అమ్ముతున్న ఏపీకి చెందిన ఐదుగురు సభ్యుల ముఠాను ఆదిలాబాద్ పోలీసులు అరెస్టు చేశారు. లండసాంగ్వి చౌరస్తాలో తనిఖీల సమయంలో పారిపోయేందుకు ప్రయత్నించిన బొలెరో వాహనాన్ని ఆపి వారిని పట్టుకున్నారని పోలీసులు తెలిపారు. గురువారం తెల్లవారుజామున ఈ తనిఖీలు జరిగాయి. నిందితులు బాపట్ల, ప్రకాశం జిల్లాలకు చెందినవారని, గాడిదల చోరీకే ఆదిలాబాద్ వచ్చారని పోలీసులు చెప్పారు.",
+   "pts": [
+    "ఏపీ, మహారాష్ట్రల్లోనూ చోరీలు చేసినట్లు పోలీసుల వెల్లడి",
+    "ఎస్ఐ ఆధ్వర్యంలో వాహన తనిఖీలు"
+   ],
+   "why": "పశువులు, జీవాలు పెంచుకునే గ్రామీణ కుటుంబాలు అప్రమత్తంగా ఉండాలని ఈ ఘటన గుర్తు చేస్తోంది.",
+   "src": "V6 Velugu",
+   "url": "https://www.v6velugu.com/five-member-inter-state-donkey-theft-gang-from-andhra-pradesh-arrested-in-adilabad-",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "adilabad",
+   "loc": "లండసాంగ్వి",
+   "pub": "2026-11-20T08:20+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Adilabad · Police",
+    "h": "Donkey theft gang held in Adilabad",
+    "stat": "Donkey theft gang",
+    "statl": "5 arrested",
+    "loc": "Landa Sangvi, Adilabad",
+    "p": "Adilabad police arrested a five-member gang from Andhra Pradesh that stole and sold donkeys and sheep. Police said they stopped a Bolero pickup that tried to flee during checks at Landa Sangvi crossroads. The checks took place early Thursday. Police said the accused are from Bapatla and Prakasam districts and had come to Adilabad to steal donkeys.",
+    "pts": [
+     "Police say they committed thefts in AP and Maharashtra too",
+     "Vehicle checks were led by a sub-inspector"
+    ],
+    "why": "It is a reminder for rural families who rear livestock to stay alert."
+   },
+   "hi": {
+    "cat": "आदिलाबाद · पुलिस",
+    "h": "आदिलाबाद में गधा चोर गिरोह गिरफ्तार",
+    "stat": "गधा चोरी गिरोह",
+    "statl": "5 गिरफ्तार",
+    "loc": "लंडा सांगवी, आदिलाबाद",
+    "p": "आदिलाबाद पुलिस ने गधे और भेड़ चुराकर बेचने वाले आंध्र प्रदेश के पांच सदस्यीय गिरोह को गिरफ्तार किया। पुलिस के अनुसार लंडा सांगवी चौराहे पर जांच के दौरान भागने की कोशिश कर रही बोलेरो पिकअप को रोका गया। यह जांच गुरुवार तड़के हुई। पुलिस के अनुसार आरोपी बापटला और प्रकाशम ज़िलों के हैं और गधे चुराने आदिलाबाद आए थे।",
+    "pts": [
+     "पुलिस: आंध्र और महाराष्ट्र में भी चोरियां कीं",
+     "वाहन जांच एक उप-निरीक्षक के नेतृत्व में हुई"
+    ],
+    "why": "पशुपालक ग्रामीण परिवारों के लिए सतर्क रहने की याद दिलाता है।"
+   },
+   "d": "20.11.2026",
+   "t": "10:35"
+  },
+  {
+   "cat": "ఆదిలాబాద్ · వ్యవసాయం",
+   "col": "--c-gov",
+   "art": "farm",
+   "pic": "c/agriculture",
+   "stat": "30 క్లస్టర్లలో",
+   "statl": "బయో కేంద్రాలు",
+   "h": "ఆదిలాబాద్‌లో 30 బయో రిసోర్స్ కేంద్రాలు",
+   "p": "ఆదిలాబాద్ జిల్లాలోని 30 క్లస్టర్లలో బయో రిసోర్స్ కేంద్రాలు ఏర్పాటు చేస్తున్నట్లు కలెక్టర్ రాజర్షి షా తెలిపారు. ఒక్కో కేంద్రానికి ₹1 లక్ష విలువైన పరికరాలు అందిస్తారు. బేల మండలం చాంద్‌పల్లిలో జరిగిన ప్రకృతి సేద్యం అవగాహన సదస్సులో ఆయన పాల్గొన్నారు. ప్రకృతి సేద్యంతో పెట్టుబడి ఖర్చులు తగ్గి, వాతావరణ మార్పుల్లోనూ మంచి దిగుబడి వస్తుందని ఆయన అన్నారు.",
+   "pts": [
+    "జీవామృతం, నీమాస్త్రం వాడుతున్న రైతులకు కలెక్టర్ ప్రశంస",
+    "పథకంతో పంటకుంటలు, చెక్‌డ్యాంలు నిర్మించుకోవాలని సూచన"
+   ],
+   "why": "ప్రకృతి సేద్యం చేసే ఆదిలాబాద్ రైతులకు సాగు ఖర్చులు తగ్గే అవకాశం ఉంది.",
+   "src": "V6 Velugu",
+   "url": "https://www.v6velugu.com/bio-resource-centers-in-30-clusters-across-adilabad-district",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "adilabad",
+   "loc": "చాంద్‌పల్లి, బేల",
+   "pub": "2026-11-20T09:24+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Adilabad · Farming",
+    "h": "30 bio resource centres for Adilabad",
+    "stat": "30 clusters",
+    "statl": "to get bio resource centres",
+    "loc": "Chandpalli, Bela",
+    "p": "Collector Rajarshi Shah said bio resource centres are being set up in 30 clusters across Adilabad district, each with equipment worth ₹1 lakh. He spoke at a natural farming awareness meeting at Chandpalli in Bela mandal. He said natural farming cuts input costs and gives better yields despite climate change.",
+    "pts": [
+     "Collector praised farmers using jeevamrutham and neemastram",
+     "Farmers urged to build farm ponds and check dams under the scheme"
+    ],
+    "why": "Natural-farming farmers in Adilabad could see lower cultivation costs."
+   },
+   "hi": {
+    "cat": "आदिलाबाद · खेती",
+    "h": "आदिलाबाद में 30 बायो रिसोर्स केंद्र",
+    "stat": "30 क्लस्टर",
+    "statl": "में बायो रिसोर्स केंद्र",
+    "loc": "चांदपल्ली, बेला",
+    "p": "कलेक्टर राजर्षि शाह ने बताया कि आदिलाबाद ज़िले के 30 क्लस्टरों में बायो रिसोर्स केंद्र बनाए जा रहे हैं, हर केंद्र को ₹1 लाख के उपकरण मिलेंगे। वे बेला मंडल के चांदपल्ली में प्राकृतिक खेती जागरूकता सभा में बोल रहे थे। उन्होंने कहा कि प्राकृतिक खेती से लागत घटती है और जलवायु बदलाव में भी अच्छी उपज मिलती है।",
+    "pts": [
+     "जीवामृत और नीमास्त्र अपनाने वाले किसानों की सराहना",
+     "योजना से खेत तालाब और चेक डैम बनाने की सलाह"
+    ],
+    "why": "प्राकृतिक खेती करने वाले आदिलाबाद के किसानों की लागत घट सकती है।"
+   },
+   "d": "20.11.2026",
+   "t": "10:35"
+  },
+  {
+   "cat": "ఏపీ · అనంతపురం",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "c/politics",
+   "stat": "172 పంచాయతీలకు",
+   "statl": "డిసెంబర్ 2న పోలింగ్",
+   "h": "అనంతపురంలో మూడో విడత పంచాయతీ పోరు",
+   "p": "అనంతపురం జిల్లాలో మూడో విడత గ్రామ పంచాయతీ ఎన్నికలకు రాష్ట్ర ఎన్నికల సంఘం నోటిఫికేషన్ జారీ చేసిందని జిల్లా పంచాయతీ అధికారి నాగరాజ నాయుడు తెలిపారు. తొమ్మిది మండలాల్లోని 172 పంచాయతీలకు 1,784 పోలింగ్ కేంద్రాల్లో డిసెంబర్ 2న పోలింగ్ జరుగుతుంది. నామినేషన్లు నవంబర్ 21 నుంచి 23 వరకు స్వీకరిస్తారు. ఎన్నికలు ప్రశాంతంగా జరిగేలా ఏర్పాట్లు చేశామని అధికారి చెప్పారు.",
+   "pts": [
+    "స్టేజ్-1, స్టేజ్-2 రిటర్నింగ్ అధికారుల నియామకం పూర్తి"
+   ],
+   "why": "అనంతపురం జిల్లాలోని తొమ్మిది మండలాల గ్రామీణ ఓటర్లు, అభ్యర్థులకు ఇది ముఖ్యమైన షెడ్యూల్.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/anantapur/panchayat-polls-notification-for-third-phase-released-1143833",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-anantapur",
+   "pub": "2026-11-20T04:38+05:30",
+   "lbl": "fact",
+   "next": "నామినేషన్లు నవంబర్ 21–23, పోలింగ్ డిసెంబర్ 2న",
+   "en": {
+    "cat": "AP · Anantapur",
+    "h": "Anantapur third-phase panchayat polls notified",
+    "stat": "172 panchayats",
+    "statl": "vote on December 2",
+    "loc": "Anantapur district",
+    "p": "The State Election Commission has issued the notification for the third phase of gram panchayat elections in Anantapur district, District Panchayat Officer Nagaraja Naidu said. Polling for 172 panchayats in nine mandals will be held at 1,784 stations on December 2. Nominations will be received from November 21 to 23. The official said arrangements are in place for peaceful polls.",
+    "pts": [
+     "Stage-1 and Stage-2 returning officers appointed"
+    ],
+    "why": "It is a key schedule for rural voters and candidates in nine Anantapur mandals.",
+    "next": "Nominations Nov 21–23, polling on December 2"
+   },
+   "hi": {
+    "cat": "आंध्र · अनंतपुर",
+    "h": "अनंतपुर में तीसरे चरण के पंचायत चुनाव",
+    "stat": "172 पंचायतों",
+    "statl": "में 2 दिसंबर को मतदान",
+    "loc": "अनंतपुर ज़िला",
+    "p": "ज़िला पंचायत अधिकारी नागराजा नायडु ने बताया कि राज्य चुनाव आयोग ने अनंतपुर ज़िले में ग्राम पंचायत चुनाव के तीसरे चरण की अधिसूचना जारी की है। नौ मंडलों की 172 पंचायतों के लिए 1,784 केंद्रों पर 2 दिसंबर को मतदान होगा। नामांकन 21 से 23 नवंबर तक लिए जाएंगे। अधिकारी ने कहा कि शांतिपूर्ण चुनाव की तैयारी पूरी है।",
+    "pts": [
+     "स्टेज-1 और स्टेज-2 रिटर्निंग अधिकारी नियुक्त"
+    ],
+    "why": "अनंतपुर के नौ मंडलों के ग्रामीण मतदाताओं और उम्मीदवारों के लिए अहम कार्यक्रम।",
+    "next": "नामांकन 21–23 नवंबर, मतदान 2 दिसंबर"
+   },
+   "d": "20.11.2026",
+   "t": "10:35"
+  },
+  {
+   "cat": "భారత్ · మార్కెట్లు",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "n/trading",
+   "stat": "618 పాయింట్లు",
+   "statl": "పడిపోయిన సెన్సెక్స్",
+   "h": "618 పాయింట్లు పడి కోలుకున్న సెన్సెక్స్",
+   "p": "ఆసియా మార్కెట్ల అమ్మకాల ఒత్తిడితో శుక్రవారం ఉదయం సెన్సెక్స్ 618 పాయింట్లు పడి 82,403 వద్దకు చేరింది. అయితే ఉదయం 10 గంటల సమయానికి నష్టాలన్నీ పూడ్చుకుని 83,100 వరకు పెరిగింది. నిఫ్టీ కూడా 25,345 నుంచి 25,543 వరకు కోలుకుంది. గురువారం సెన్సెక్స్ 990 పాయింట్లు పెరిగింది. శుక్రవారం ప్రారంభంలో లోహ రంగ షేర్లు దాదాపు 2 శాతం పడ్డాయి.",
+   "pts": [
+    "నవంబర్‌లో విదేశీ ఇన్వెస్టర్ల రికార్డు కొనుగోళ్లు: 12.21 బిలియన్ డాలర్లు",
+    "ఏఐ విలువలపై ఆందోళనతో ఆసియా మార్కెట్లు బలహీనం"
+   ],
+   "why": "షేర్లు, మ్యూచువల్ ఫండ్లలో పెట్టుబడి పెట్టినవారిపై ఈ ఒడిదుడుకుల ప్రభావం ఉంటుంది.",
+   "src": "The Week",
+   "url": "https://www.theweek.in/news/biz-tech/2026/11/20/indian-shares-recover-volatility.html",
+   "sec": [
+    "india",
+    "business"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "pub": "2026-11-20T10:05+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Markets",
+    "h": "Sensex falls 618 points, then recovers",
+    "stat": "618 points",
+    "statl": "early Sensex fall",
+    "loc": "Mumbai",
+    "p": "Hit by an Asian sell-off, the Sensex fell 618 points to 82,403 on Friday morning, but by about 10 am it recovered all losses and rose to 83,100. The Nifty also rebounded from 25,345 to 25,543. The Sensex had gained 990 points on Thursday. Metal stocks fell nearly 2% at Friday's open.",
+    "pts": [
+     "Record foreign buying of $12.21 billion in November so far",
+     "Asian markets weak on AI valuation worries"
+    ],
+    "why": "The swings affect people invested in shares and mutual funds."
+   },
+   "hi": {
+    "cat": "भारत · बाज़ार",
+    "h": "618 अंक गिरकर संभला सेंसेक्स",
+    "stat": "618 अंक",
+    "statl": "सेंसेक्स की शुरुआती गिरावट",
+    "loc": "मुंबई",
+    "p": "एशियाई बाज़ारों की बिकवाली से शुक्रवार सुबह सेंसेक्स 618 अंक गिरकर 82,403 पर आ गया, लेकिन करीब 10 बजे तक सारा नुकसान पूरा कर 83,100 तक पहुंचा। निफ्टी भी 25,345 से 25,543 तक संभला। गुरुवार को सेंसेक्स 990 अंक चढ़ा था। शुक्रवार की शुरुआत में धातु शेयर करीब 2% गिरे।",
+    "pts": [
+     "नवंबर में अब तक रिकॉर्ड 12.21 अरब डॉलर की विदेशी खरीद",
+     "एआई मूल्यांकन की चिंता से एशियाई बाज़ार कमज़ोर"
+    ],
+    "why": "इस उतार-चढ़ाव का असर शेयर और म्यूचुअल फंड निवेशकों पर पड़ता है।"
+   },
+   "d": "20.11.2026",
+   "t": "10:35"
+  },
   {
    "cat": "హైదరాబాద్ · పోలీసులు",
    "col": "--c-city",
@@ -2769,494 +3250,6 @@
    },
    "d": "19.11.2026",
    "t": "22:35"
-  },
-  {
-   "cat": "హైదరాబాద్ · ఆహార భద్రత",
-   "col": "--c-city",
-   "art": "unity",
-   "pic": "c/food",
-   "stat": "1,672 కిలోల",
-   "statl": "ఆహారం ధ్వంసం",
-   "h": "హైదరాబాద్ మాంసం దుకాణాలపై దాడులు",
-   "p": "హైదరాబాద్‌లో మాంసం దుకాణాలు, మెట్రో స్టోర్లపై టీజీ సేఫ్ అధికారులు గురువారం తనిఖీలు చేశారు. పరిశుభ్రత లోపాలు బయటపడ్డాయి. చాలా సంస్థలకు ఎఫ్‌ఎస్‌ఎస్‌ఏఐ లైసెన్సులు, రికార్డులు లేవు. ₹6.59 లక్షల విలువైన 1,672 కిలోల ఆహారాన్ని స్వాధీనం చేసుకుని ధ్వంసం చేశారు. నిబంధనలు పాటించని ఐదు దుకాణాలను వెంటనే మూసివేయించారు. మరికొన్నింటికి నోటీసులు ఇచ్చారు.",
-   "pts": [
-    "కరాచీ బేకరీ, లిషియస్‌కు షోకాజ్ నోటీసులు",
-    "ఆరు సంస్థల లైసెన్సులు వెంటనే సస్పెండ్",
-    "నల్లకుంట, ఎర్రగడ్డ, సికింద్రాబాద్ దుకాణాలు మూత"
-   ],
-   "why": "నగరంలో మాంసం, చేపలు కొనే వినియోగదారుల ఆరోగ్యానికి సంబంధించిన అంశం.",
-   "src": "Siasat",
-   "url": "https://www.siasat.com/hyderabad-food-raids-notice-to-licious-karachi-bakery-5-shut-down-3581664/",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "నల్లకుంట, ఎర్రగడ్డ",
-   "pub": "2026-11-19T21:46+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Food safety",
-    "h": "Food raids on Hyderabad meat shops",
-    "stat": "1,672 kg",
-    "statl": "of food seized and destroyed",
-    "loc": "Nallakunta, Erragadda, Hyderabad",
-    "p": "TG SAFE officials on Thursday inspected meat shops and metro stores in Hyderabad and found hygiene lapses. Most had no FSSAI licence or records. About 1,672 kg of food worth Rs 6.59 lakh was seized and destroyed, and five shops were ordered shut.",
-    "pts": [
-     "Show-cause notices to Karachi Bakery, Licious",
-     "Licences of six units suspended at once",
-     "Shops in Nallakunta, Erragadda, Secunderabad shut"
-    ],
-    "why": "It concerns the health of people buying meat and fish in the city."
-   },
-   "hi": {
-    "cat": "हैदराबाद · खाद्य सुरक्षा",
-    "h": "हैदराबाद में मांस दुकानों पर छापे",
-    "stat": "1,672 किलो",
-    "statl": "खाद्य सामग्री नष्ट",
-    "loc": "नल्लाकुंटा, एर्रागड्डा, हैदराबाद",
-    "p": "टीजी सेफ अधिकारियों ने गुरुवार को हैदराबाद में मांस की दुकानों और मेट्रो स्टोर्स की जांच की और सफाई में कमियां पाईं। अधिकतर के पास एफएसएसएआई लाइसेंस या रिकॉर्ड नहीं थे। 6.59 लाख रुपये का 1,672 किलो भोजन जब्त कर नष्ट किया गया और पांच दुकानें बंद कराई गईं।",
-    "pts": [
-     "कराची बेकरी, लिशियस को कारण बताओ नोटिस",
-     "छह प्रतिष्ठानों के लाइसेंस तुरंत निलंबित",
-     "नल्लाकुंटा, एर्रागड्डा, सिकंदराबाद की दुकानें बंद"
-    ],
-    "why": "यह शहर में मांस और मछली खरीदने वालों के स्वास्थ्य से जुड़ा है।"
-   },
-   "d": "19.11.2026",
-   "t": "22:05"
-  },
-  {
-   "cat": "ఏపీ · రాజకీయం",
-   "col": "--c-gov",
-   "art": "unity",
-   "pic": "c/politics",
-   "stat": "కుల గణన",
-   "statl": "వైసీపీ పూర్తి మద్దతు",
-   "h": "సమగ్ర కుల గణనకు జగన్ మద్దతు",
-   "p": "న్యాయమైన, సమగ్రమైన కుల గణనకు తమ పార్టీ పూర్తిగా మద్దతు ఇస్తుందని వైసీపీ అధ్యక్షుడు, మాజీ సీఎం వైఎస్ జగన్ మోహన్ రెడ్డి గురువారం చెప్పారు. అఖిల భారత కుల గణన సమన్వయ కమిటీ ప్రతినిధులు ఆయనను కలిశారు. వారి డిమాండ్లు సహేతుకమైనవని, వాటిని తీవ్రంగా పరిగణించాలని జగన్ అన్నారు.",
-   "pts": [
-    "ఏ కులం వదలకుండా పూర్తి జాబితా కోరిన కమిటీ",
-    "ప్రతి కుటుంబం ఆర్థిక స్థితి నమోదు చేయాలని డిమాండ్"
-   ],
-   "why": "జనగణనలో కులాల వివరాల నమోదుపై ఏపీలోని అన్ని వర్గాలకు సంబంధించిన అంశం.",
-   "src": "Namasthe Telangana",
-   "url": "https://ntnews.com/andhrapradesh-news/ycp-supports-comprehensive-caste-enumeration-ys-jagan-2564458",
-   "sec": [
-    "telangana",
-    "india"
-   ],
-   "st": "AP",
-   "place": "AP",
-   "pub": "2026-11-19T21:23+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Politics",
-    "h": "Jagan backs comprehensive caste census",
-    "stat": "Caste census",
-    "statl": "full YSRCP support",
-    "loc": "Amaravati",
-    "p": "YSRCP chief and former CM YS Jagan Mohan Reddy said on Thursday his party fully supports a fair, comprehensive caste enumeration. A delegation of the All India Caste Enumeration Coordination Committee met him; he called their demands reasonable and said they must be taken seriously.",
-    "pts": [
-     "Committee wants a complete list so no caste is left out",
-     "Demand to record each family's economic status"
-    ],
-    "why": "It concerns how castes will be recorded in the census for all communities in AP."
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · राजनीति",
-    "h": "व्यापक जाति गणना को जगन का समर्थन",
-    "stat": "जाति गणना",
-    "statl": "वाईएसआरसीपी का पूरा समर्थन",
-    "loc": "अमरावती",
-    "p": "वाईएसआरसीपी प्रमुख और पूर्व मुख्यमंत्री वाईएस जगन मोहन रेड्डी ने गुरुवार को कहा कि उनकी पार्टी निष्पक्ष और व्यापक जाति गणना का पूरा समर्थन करती है। अखिल भारतीय जाति गणना समन्वय समिति के प्रतिनिधिमंडल ने उनसे मुलाकात की; उन्होंने उनकी मांगों को उचित बताया।",
-    "pts": [
-     "समिति चाहती है कि कोई जाति छूटे नहीं",
-     "हर परिवार की आर्थिक स्थिति दर्ज करने की मांग"
-    ],
-    "why": "यह आंध्र प्रदेश के सभी समुदायों के लिए जनगणना में जाति दर्ज होने से जुड़ा है।"
-   },
-   "d": "19.11.2026",
-   "t": "22:05"
-  },
-  {
-   "cat": "మేడ్చల్ · రోడ్లు",
-   "col": "--c-city",
-   "art": "unity",
-   "pic": "cv/traffic-congestion",
-   "stat": "బోడుప్పల్",
-   "statl": "జంక్షన్ల విస్తరణ",
-   "h": "బోడుప్పల్ జంక్షన్ల విస్తరణ పనులు",
-   "p": "బోడుప్పల్ సర్కిల్‌లో ట్రాఫిక్ సమస్య తగ్గించేందుకు జంక్షన్ల వద్ద ఫ్రీ లెఫ్ట్ మార్గాలు ఏర్పాటు చేయాలని మల్కాజిగిరి మున్సిపల్ కమిషనర్ వినయ్ కృష్ణారెడ్డి గురువారం ఆదేశించారు. ఇరుకైన రోడ్ల విస్తరణ, ఆక్రమణల తొలగింపు, అడ్డుగా ఉన్న విద్యుత్ స్తంభాల తరలింపు పనులు త్వరగా పూర్తి చేయాలని టౌన్ ప్లానింగ్, ఇంజనీరింగ్ అధికారులకు ఆయన సూచించారు.",
-   "pts": [
-    "జెట్ ప్యాచింగ్‌తో గుంతల మరమ్మతు",
-    "వాడని కేబుళ్ల తొలగింపునకు కేబుల్ ఆపరేటర్లతో సమన్వయం"
-   ],
-   "why": "బోడుప్పల్ ప్రాంతంలో రోజూ ప్రయాణించే వాహనదారులకు ట్రాఫిక్ ఇబ్బందులు తగ్గే అవకాశం.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/malkajgiri-civic-body-to-widen-bell-mouth-areas-at-boduppal-area-to-ease-traffic-movement",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "medchal",
-   "loc": "బోడుప్పల్",
-   "pub": "2026-11-19T20:15+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Medchal · Roads",
-    "h": "Boduppal junctions to be widened",
-    "stat": "Boduppal",
-    "statl": "junction widening",
-    "loc": "Boduppal, Medchal-Malkajgiri",
-    "p": "Malkajgiri Municipal Commissioner T Vinay Krishna Reddy on Thursday ordered free-left-turn lanes at junctions in Boduppal circle to ease traffic. He told officials to quickly widen narrow stretches, clear encroachments and shift electric poles blocking traffic.",
-    "pts": [
-     "Potholes to be fixed with jet patching",
-     "Cable operators to remove unused cables"
-    ],
-    "why": "Daily commuters in Boduppal may face fewer traffic jams."
-   },
-   "hi": {
-    "cat": "मेडचल · सड़कें",
-    "h": "बोडुप्पल जंक्शनों का होगा चौड़ीकरण",
-    "stat": "बोडुप्पल",
-    "statl": "जंक्शन चौड़ीकरण",
-    "loc": "बोडुप्पल, मेडचल-मलकाजगिरी",
-    "p": "मलकाजगिरी नगर आयुक्त टी विनय कृष्णा रेड्डी ने गुरुवार को बोडुप्पल सर्कल के जंक्शनों पर फ्री लेफ्ट टर्न बनाने का आदेश दिया। उन्होंने संकरी सड़कों को चौड़ा करने, अतिक्रमण हटाने और बाधा बने बिजली खंभे हटाने का काम जल्द पूरा करने को कहा।",
-    "pts": [
-     "जेट पैचिंग से गड्ढों की मरम्मत",
-     "केबल ऑपरेटर अनुपयोगी केबल हटाएंगे"
-    ],
-    "why": "बोडुप्पल में रोज सफर करने वालों को जाम से राहत मिल सकती है।"
-   },
-   "d": "19.11.2026",
-   "t": "22:05"
-  },
-  {
-   "cat": "నిర్మల్ · విద్య",
-   "col": "--c-gov",
-   "art": "campus",
-   "pic": "c/education",
-   "stat": "ఆర్జీయూకేటీ",
-   "statl": "ఇంటర్న్‌షిప్ ఒప్పందం",
-   "h": "బాసర ఆర్జీయూకేటీతో బొండాడ ఒప్పందం",
-   "p": "బాసరలోని రాజీవ్ గాంధీ విజ్ఞాన సాంకేతిక విశ్వవిద్యాలయం (ఆర్జీయూకేటీ)తో బొండాడ ఇంజనీరింగ్ సంస్థ గురువారం అవగాహన ఒప్పందం చేసుకుంది. దీని ప్రకారం విద్యార్థులకు వేసవి, శీతాకాల ఇంటర్న్‌షిప్‌లు, దీర్ఘకాల శిక్షణ, క్యాంపస్ నియామకాలు ఉంటాయి. ఇంటర్న్‌షిప్ ప్రతిభ ఆధారంగా విద్యార్థులకు ముందస్తు ఉద్యోగ ఆఫర్లు కూడా ఇస్తారని సంస్థ తెలిపింది.",
-   "pts": [
-    "ఆర్జీయూకేటీలో సుమారు 85 శాతం గ్రామీణ విద్యార్థులు",
-    "పరిశ్రమ నిపుణులతో అతిథి ఉపన్యాసాలు"
-   ],
-   "why": "బాసర ట్రిపుల్ ఐటీ విద్యార్థులకు ఉద్యోగ, శిక్షణ అవకాశాలు పెరుగుతాయి.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/bondada-engineering-rgukt-basar-join-hands-for-student-opportunities",
-   "sec": [
-    "telangana",
-    "education",
-    "jobs"
-   ],
-   "st": "TG",
-   "place": "nirmal",
-   "loc": "బాసర",
-   "pub": "2026-11-19T15:20+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Nirmal · Education",
-    "h": "Bondada signs MoU with RGUKT Basar",
-    "stat": "RGUKT",
-    "statl": "internship pact",
-    "loc": "Basar, Nirmal",
-    "p": "Bondada Engineering on Thursday signed an MoU with Rajiv Gandhi University of Knowledge Technologies (RGUKT), Basar. Students will get summer and winter internships, long-term training and campus recruitment, with pre-placement offers based on internship performance.",
-    "pts": [
-     "About 85% of RGUKT students are from rural areas",
-     "Guest lectures by industry experts planned"
-    ],
-    "why": "Students of IIIT Basar get more training and job chances."
-   },
-   "hi": {
-    "cat": "निर्मल · शिक्षा",
-    "h": "बासर आरजीयूकेटी से बोंडाडा का समझौता",
-    "stat": "आरजीयूकेटी",
-    "statl": "इंटर्नशिप समझौता",
-    "loc": "बासर, निर्मल",
-    "p": "बोंडाडा इंजीनियरिंग ने गुरुवार को बासर स्थित राजीव गांधी ज्ञान प्रौद्योगिकी विश्वविद्यालय (आरजीयूकेटी) के साथ समझौता किया। छात्रों को गर्मी और सर्दी की इंटर्नशिप, लंबी ट्रेनिंग और कैंपस भर्ती मिलेगी, और इंटर्नशिप प्रदर्शन पर प्री-प्लेसमेंट ऑफर दिए जाएंगे।",
-    "pts": [
-     "आरजीयूकेटी के करीब 85% छात्र ग्रामीण",
-     "उद्योग विशेषज्ञों के अतिथि व्याख्यान"
-    ],
-    "why": "बासर आईआईआईटी के छात्रों को प्रशिक्षण और नौकरी के अधिक मौके मिलेंगे।"
-   },
-   "d": "19.11.2026",
-   "t": "22:05"
-  },
-  {
-   "cat": "తెలంగాణ · నీరు",
-   "col": "--c-water",
-   "art": "water",
-   "pic": "n/water",
-   "stat": "1.8 టీఎంసీలు",
-   "statl": "తరలింపుకు ఏపీ యత్నం",
-   "h": "సాగర్ నీటిపై ఏపీని అడ్డుకుంటాం: ఉత్తమ్",
-   "p": "నాగార్జునసాగర్ నుంచి సొరంగం ద్వారా 1.8 టీఎంసీల కృష్ణా నీటిని తరలించేందుకు ఏపీ ప్రయత్నిస్తోందని, దాన్ని అడ్డుకుంటామని నీటిపారుదల శాఖ మంత్రి ఉత్తమ్ కుమార్ రెడ్డి అన్నారు. హుజూర్‌నగర్ సభలో మాట్లాడుతూ, ఇప్పటివరకు ఒక్క చుక్క నీరు కూడా మళ్లలేదని చెప్పారు. దీనిపై కేంద్రానికి, కేఆర్ఎంబీకి ఇప్పటికే అభ్యంతరం తెలిపామని, పోరాటం కొనసాగిస్తామని అన్నారు.",
-   "pts": [
-    "కృష్ణా, గోదావరి నీరు ఏపీకి ఇవ్వబోమని స్పష్టం",
-    "వేసవిలో తాగునీటి కోసం నీటిని పొదుపు చేయాలని పిలుపు"
-   ],
-   "why": "కృష్ణా నీటి వాటా తెలంగాణ రైతుల సాగునీరు, తాగునీటి అవసరాలపై ప్రభావం చూపుతుంది.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/andhra-pradeshs-attempts-to-draw-1-8-tmc-from-nagarjuna-sagar-will-be-foiled-says-uttam",
-   "sec": [
-    "telangana",
-    "agri"
-   ],
-   "st": "TG",
-   "place": "suryapet",
-   "loc": "హుజూర్‌నగర్",
-   "pub": "2026-11-19T20:33+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Telangana · Water",
-    "h": "Will stop AP's Sagar water plan: Uttam",
-    "stat": "1.8 TMC",
-    "statl": "AP's water diversion attempt",
-    "loc": "Huzurnagar, Suryapet",
-    "p": "Irrigation Minister N Uttam Kumar Reddy said at a meeting in Huzurnagar that Andhra Pradesh is trying to draw 1.8 TMC of Krishna water from Nagarjuna Sagar through a tunnel and Telangana will stop it. He said not a drop has been diverted yet and objections were filed with the Centre and KRMB.",
-    "pts": [
-     "Says no Krishna or Godavari water will go to AP",
-     "Urges people to save water for summer drinking needs"
-    ],
-    "why": "Telangana's share of Krishna water affects farmers' irrigation and drinking water needs."
-   },
-   "hi": {
-    "cat": "तेलंगाना · पानी",
-    "h": "सागर का पानी आंध्र नहीं ले पाएगा: उत्तम",
-    "stat": "1.8 टीएमसी",
-    "statl": "आंध्र की पानी मोड़ने की कोशिश",
-    "loc": "हुजूरनगर, सूर्यापेट",
-    "p": "सिंचाई मंत्री एन उत्तम कुमार रेड्डी ने हुजूरनगर की सभा में कहा कि आंध्र प्रदेश सुरंग के जरिए नागार्जुनसागर से 1.8 टीएमसी कृष्णा पानी लेने की कोशिश कर रहा है, जिसे तेलंगाना रोकेगा। उन्होंने कहा कि अब तक एक बूंद भी नहीं मोड़ी गई और केंद्र व केआरएमबी से आपत्ति जताई गई है।",
-    "pts": [
-     "कृष्णा और गोदावरी का पानी आंध्र को नहीं देने की बात",
-     "गर्मियों में पीने के पानी के लिए बचत की अपील"
-    ],
-    "why": "कृष्णा पानी में हिस्सेदारी तेलंगाना के किसानों की सिंचाई और पेयजल जरूरतों को प्रभावित करती है।"
-   },
-   "d": "19.11.2026",
-   "t": "21:35"
-  },
-  {
-   "cat": "తెలుగు రాష్ట్రాలు · నీరు",
-   "col": "--c-water",
-   "art": "water",
-   "pic": "n/water",
-   "stat": "కేఆర్ఎంబీ లేఖ",
-   "statl": "అనుమతి తప్పనిసరి",
-   "h": "కొత్త ప్రాజెక్టులపై కేఆర్ఎంబీ లేఖ",
-   "p": "అనుమతులు లేకుండా కృష్ణా నదిపై కొత్త ప్రాజెక్టులు చేపట్టవద్దని కృష్ణా నది యాజమాన్య బోర్డు (కేఆర్ఎంబీ) గురువారం ఏపీ, తెలంగాణకు లేఖ రాసింది. కొత్త ప్రాజెక్టులకు బోర్డు సాంకేతిక పరిశీలన, అనుమతి, ఆ తర్వాత అపెక్స్ కౌన్సిల్ ఆమోదం తప్పనిసరని తెలిపింది. మిగులు జలాలు ఉన్నాయన్న పేరుతో నీటిపై హక్కులు రావని స్పష్టంగా పేర్కొంది.",
-   "pts": [
-    "కృష్ణా ట్రైబ్యునల్-2 తీర్పు వచ్చే వరకు చట్టపరమైన విధానాలు పాటించాలి",
-    "బోర్డు నిర్ణయాలు అమలు కాకపోతే కేంద్రం జోక్యం చేసుకోవచ్చని వెల్లడి",
-    "ప్రాజెక్టుల వారీ కేటాయింపులు ట్రైబ్యునల్ పరిధిలోనే"
-   ],
-   "why": "కృష్ణా నీటిపై ఆధారపడిన రెండు రాష్ట్రాల రైతులు, కొత్త ప్రాజెక్టులపై ఇది ప్రభావం చూపుతుంది.",
-   "src": "Andhra Jyothy",
-   "url": "https://www.andhrajyothy.com/2026/telangana/krmb-new-projects-approval-ap-telangana-vvnp-1577909.html",
-   "sec": [
-    "telangana",
-    "agri"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pub": "2026-11-19T20:52+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telugu States · Water",
-    "h": "KRMB nod a must for new Krishna projects",
-    "stat": "KRMB letter",
-    "statl": "directions to AP and Telangana",
-    "loc": "Hyderabad",
-    "p": "The Krishna River Management Board wrote to Andhra Pradesh and Telangana on Thursday, saying no new projects on the Krishna should start without approval. New projects need the board's technical scrutiny and approval, then Apex Council clearance. Claimed surplus water does not create water rights, it said.",
-    "pts": [
-     "Legal procedures to be followed until the KWDT-II award",
-     "Centre may step in if board decisions are not implemented",
-     "Project-wise allocations remain with the tribunal"
-    ],
-    "why": "Farmers and new projects in both states that depend on Krishna water are affected."
-   },
-   "hi": {
-    "cat": "तेलुगु राज्य · पानी",
-    "h": "नई कृष्णा परियोजनाओं को केआरएमबी मंजूरी जरूरी",
-    "stat": "केआरएमबी पत्र",
-    "statl": "आंध्र और तेलंगाना को निर्देश",
-    "loc": "हैदराबाद",
-    "p": "कृष्णा नदी प्रबंधन बोर्ड ने गुरुवार को आंध्र प्रदेश और तेलंगाना को पत्र लिखकर कहा कि मंजूरी के बिना कृष्णा पर कोई नई परियोजना शुरू न की जाए। नई परियोजनाओं के लिए बोर्ड की तकनीकी जांच, मंजूरी और फिर एपेक्स काउंसिल की स्वीकृति जरूरी है। अतिरिक्त पानी के दावे से जल अधिकार नहीं बनते।",
-    "pts": [
-     "केडब्ल्यूडीटी-2 फैसले तक कानूनी प्रक्रिया का पालन",
-     "बोर्ड के फैसले लागू न होने पर केंद्र दखल दे सकता है",
-     "परियोजनावार आवंटन न्यायाधिकरण के पास"
-    ],
-    "why": "कृष्णा पानी पर निर्भर दोनों राज्यों के किसानों और नई परियोजनाओं पर असर पड़ेगा।"
-   },
-   "d": "19.11.2026",
-   "t": "21:35"
-  },
-  {
-   "cat": "తెలంగాణ · ఆరోగ్యం",
-   "col": "--c-gov",
-   "art": "unity",
-   "pic": "c/health",
-   "stat": "డబ్ల్యూహెచ్‌ఓ",
-   "statl": "బీపీ సేవల పరిశీలన",
-   "h": "సిద్దిపేటలో డబ్ల్యూహెచ్‌ఓ బృందాల పర్యటన",
-   "p": "ప్రపంచ ఆరోగ్య సంస్థ (డబ్ల్యూహెచ్‌ఓ) బృందాలు గురువారం సిద్దిపేట జిల్లాలోని కుకునూర్‌పల్లి, ములుగు, మర్పడగ, రాయవరం గ్రామాలతో పాటు హైదరాబాద్ అల్వాల్‌లోని ఆరోగ్య కేంద్రాలను సందర్శించాయి. బీపీ నియంత్రణ, అసంక్రమిత వ్యాధుల సేవలు, డిజిటల్ బీపీ యంత్రాలు, డయాగ్నస్టిక్ హబ్ సేవలను పరిశీలించాయి. ఈ కార్యక్రమాలను బృంద సభ్యులు ప్రశంసించారు.",
-   "pts": [
-    "ఒక్కో బృందంలో సుమారు 10 మంది సభ్యులు",
-    "తెలంగాణ నమూనాలను తమ దేశాల్లో పరిశీలిస్తామని వెల్లడి"
-   ],
-   "next": "బృందాల పర్యటన నవంబర్ 20తో ముగుస్తుంది",
-   "why": "ప్రభుత్వ ఆరోగ్య కేంద్రాల్లో బీపీ, మధుమేహ చికిత్స పొందుతున్నవారికి సంబంధించిన అంశం.",
-   "src": "Deccan Chronicle",
-   "url": "https://www.deccanchronicle.com/southern-states/telangana/who-teams-review-telanganas-digital-healthcare-ncd-control-measures-2005958",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "siddipet",
-   "loc": "కుకునూర్‌పల్లి, ములుగు",
-   "pub": "2026-11-19T21:29+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Health",
-    "h": "WHO teams visit Siddipet health centres",
-    "stat": "WHO teams",
-    "statl": "review BP and diabetes care",
-    "loc": "Kuknoor Palli, Siddipet; Alwal, Hyderabad",
-    "p": "World Health Organization teams on Thursday visited health centres in Kuknoor Palli, Mulugu, Marpaddaga and Rayavaram villages of Siddipet district and Alwal in Hyderabad. They reviewed hypertension control, NCD services, digital BP monitors and diagnostic hub services, and praised them.",
-    "pts": [
-     "Each team has about 10 members",
-     "They plan to discuss Telangana's model in their countries"
-    ],
-    "next": "The teams' visit ends on November 20",
-    "why": "It concerns people getting BP and diabetes care at government health centres."
-   },
-   "hi": {
-    "cat": "तेलंगाना · स्वास्थ्य",
-    "h": "सिद्दिपेट में डब्ल्यूएचओ टीमों का दौरा",
-    "stat": "डब्ल्यूएचओ टीमें",
-    "statl": "बीपी, मधुमेह सेवाओं की समीक्षा",
-    "loc": "कुकनूरपल्ली, सिद्दिपेट; अलवाल, हैदराबाद",
-    "p": "विश्व स्वास्थ्य संगठन की टीमों ने गुरुवार को सिद्दिपेट जिले के कुकनूरपल्ली, मुलुगु, मरपडगा और रायवरम गांवों तथा हैदराबाद के अलवाल के स्वास्थ्य केंद्रों का दौरा किया। उन्होंने बीपी नियंत्रण, गैर-संचारी रोग सेवाओं, डिजिटल बीपी मशीनों और डायग्नोस्टिक हब की समीक्षा कर सराहना की।",
-    "pts": [
-     "हर टीम में करीब 10 सदस्य",
-     "तेलंगाना मॉडल पर अपने देशों में चर्चा करेंगे"
-    ],
-    "next": "टीमों का दौरा 20 नवंबर को खत्म होगा",
-    "why": "यह सरकारी केंद्रों में बीपी और मधुमेह का इलाज कराने वालों से जुड़ा है।"
-   },
-   "d": "19.11.2026",
-   "t": "21:35"
-  },
-  {
-   "cat": "నారాయణపేట · వన్యప్రాణులు",
-   "col": "--c-city",
-   "pic": "n/condolence",
-   "stat": "పులి భయం",
-   "statl": "పట్టుకోవాలని వినతి",
-   "h": "నారాయణపేట జాజాపూర్ వద్ద పులి సంచారం",
-   "p": "నారాయణపేట మండలం జాజాపూర్ సమీపంలో రెండు రోజులుగా పులి సంచరిస్తోందని గ్రామస్తులు చెబుతున్నారు. రెండు రోజుల క్రితం ఓ మేకల కాపరి పులి దాడిలో మృతి చెందినట్లు వారు తెలిపారు. రాత్రిపూట పొలాలకు వెళ్లలేకపోతున్నామని, పులిని వెంటనే పట్టుకుని తమకు రక్షణ కల్పించాలని అటవీ శాఖను కోరుతున్నారు. దీనిపై అధికారిక ప్రకటన ఇంకా రాలేదు.",
-   "pts": [
-    "అంబ భవాని ఆలయం, వాగు వద్ద పులి కనిపించిందని స్థానికులు",
-    "అటవీ అధికారులు కొద్దిసేపు వచ్చి వెళ్లారని గ్రామస్తుల ఆరోపణ"
-   ],
-   "why": "జాజాపూర్ పరిసర గ్రామాల రైతులు, పశువుల కాపరుల భద్రతకు సంబంధించిన విషయం.",
-   "src": "ManaSakshi",
-   "url": "https://manasakshi.in/tiger-spotted-near-jajapur-kills-a-goatherd/",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "narayanpet",
-   "loc": "జాజాపూర్",
-   "pub": "2026-11-19T20:37+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Narayanpet · Wildlife",
-    "h": "Tiger roams near Jajapur, Narayanpet",
-    "stat": "Tiger scare",
-    "statl": "villagers seek its capture",
-    "loc": "Jajapur, Narayanpet",
-    "p": "Villagers of Jajapur in Narayanpet mandal say a tiger has been roaming near the village for two days and that a goatherd was killed in an attack two days ago. They say they cannot go to their fields at night and want the forest department to capture the tiger.",
-    "pts": [
-     "Locals say it was seen near a temple and a stream",
-     "Villagers allege forest officials came only briefly"
-    ],
-    "why": "It concerns the safety of farmers and herders in villages around Jajapur."
-   },
-   "hi": {
-    "cat": "नारायणपेट · वन्यजीव",
-    "h": "नारायणपेट के जाजापुर के पास बाघ",
-    "stat": "बाघ का डर",
-    "statl": "पकड़ने की ग्रामीणों की मांग",
-    "loc": "जाजापुर, नारायणपेट",
-    "p": "नारायणपेट मंडल के जाजापुर के ग्रामीणों का कहना है कि दो दिनों से गांव के पास बाघ घूम रहा है और दो दिन पहले एक बकरी चराने वाले की बाघ के हमले में मौत हुई। वे रात में खेत नहीं जा पा रहे और वन विभाग से बाघ पकड़ने की मांग कर रहे हैं।",
-    "pts": [
-     "स्थानीय लोगों के अनुसार मंदिर और नाले के पास दिखा",
-     "ग्रामीणों का आरोप, वन अधिकारी थोड़ी देर आकर लौट गए"
-    ],
-    "why": "यह जाजापुर के आसपास के किसानों और चरवाहों की सुरक्षा से जुड़ा है।"
-   },
-   "d": "19.11.2026",
-   "t": "21:35"
-  },
-  {
-   "cat": "రంగారెడ్డి · ఉద్యోగులు",
-   "col": "--c-city",
-   "pic": "c/devotional",
-   "stat": "అయ్యప్ప దీక్ష",
-   "statl": "ప్రవేశ నిరాకరణ ఆరోపణ",
-   "h": "ఆదిభట్లలో అయ్యప్ప భక్తుల నిరసన",
-   "p": "రంగారెడ్డి జిల్లా ఆదిభట్లలోని ఓ ఐటీ సంస్థ వద్ద గురువారం అయ్యప్ప భక్తులు, హిందూ సంఘాలు నిరసన తెలిపారు. అయ్యప్ప దీక్షలో ఉన్నందున డ్రెస్ కోడ్ పేరుతో తనను కార్యాలయంలోకి అనుమతించలేదని ఓ ఉద్యోగి ఆరోపించారు. దీక్ష దుస్తుల్లోనే పని చేసేందుకు అనుమతించాలని నిరసనకారులు డిమాండ్ చేశారు. పోలీసులు ఘటనపై వివరాలు సేకరిస్తున్నారు.",
-   "pts": [
-    "రెండు నెలల ముందే యాజమాన్యానికి చెప్పానని ఉద్యోగి వెల్లడి",
-    "అధికారిక ఫిర్యాదు రాలేదని, పరిస్థితి అదుపులో ఉందని పోలీసులు"
-   ],
-   "why": "పని ప్రదేశాల్లో మత ఆచారాలు, డ్రెస్ కోడ్ నిబంధనలు ఉద్యోగులందరికీ సంబంధించిన అంశం.",
-   "src": "The News Mill (ANI)",
-   "url": "https://thenewsmill.com/2026/11/ayyappa-devotees-protest-telangana-it-firm-over-employee-entry-denial/",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "rangareddy",
-   "loc": "ఆదిభట్ల",
-   "pub": "2026-11-19T21:21+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Rangareddy · Workplace",
-    "h": "Ayyappa devotees protest at Adibatla IT firm",
-    "stat": "Ayyappa Deeksha",
-    "statl": "employee alleges entry denied",
-    "loc": "Adibatla, Rangareddy",
-    "p": "Ayyappa devotees and Hindu groups protested outside an IT company in Adibatla, Rangareddy district, on Thursday. An employee alleged he was denied entry over the dress code because he was observing Ayyappa Deeksha. Protesters demanded he be allowed to work in deeksha attire.",
-    "pts": [
-     "Employee says he informed management two months earlier",
-     "Police say no formal complaint; situation under control"
-    ],
-    "why": "Rules on religious practice and dress codes at work matter to all employees."
-   },
-   "hi": {
-    "cat": "रंगारेड्डी · कार्यस्थल",
-    "h": "आदिभट्ला आईटी कंपनी पर अय्यप्पा भक्तों का विरोध",
-    "stat": "अय्यप्पा दीक्षा",
-    "statl": "कर्मचारी का प्रवेश रोकने का आरोप",
-    "loc": "आदिभट्ला, रंगारेड्डी",
-    "p": "रंगारेड्डी जिले के आदिभट्ला में एक आईटी कंपनी के बाहर गुरुवार को अय्यप्पा भक्तों और हिंदू संगठनों ने विरोध किया। एक कर्मचारी ने आरोप लगाया कि अय्यप्पा दीक्षा के कारण ड्रेस कोड के नाम पर उसे अंदर नहीं जाने दिया गया। प्रदर्शनकारियों ने दीक्षा के वस्त्रों में काम की अनुमति मांगी।",
-    "pts": [
-     "कर्मचारी के अनुसार दो महीने पहले प्रबंधन को बताया था",
-     "पुलिस: कोई औपचारिक शिकायत नहीं, स्थिति नियंत्रण में"
-    ],
-    "why": "कार्यस्थल पर धार्मिक परंपराओं और ड्रेस कोड के नियम सभी कर्मचारियों से जुड़े हैं।"
-   },
-   "d": "19.11.2026",
-   "t": "21:35"
   },
   {
    "cat": "మేడ్చల్ · ప్రమాదం",
