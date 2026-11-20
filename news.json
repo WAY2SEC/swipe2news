@@ -1,8 +1,553 @@
 {
  "date": "20.11.2026",
- "updated": "2026-11-20T19:35:00+05:30",
+ "updated": "2026-11-20T20:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "హైదరాబాద్ · నీరు",
+   "col": "--c-water",
+   "art": "water",
+   "pic": "n/water",
+   "stat": "24 గంటలు",
+   "statl": "నీటి సరఫరా నిలిపివేత",
+   "h": "సూరారంలో 24 గంటలు నీటి సరఫరా బంద్",
+   "p": "హైదరాబాద్‌లోని సూరారం, సాయిబాబా నగర్ వార్డుల్లోని పలు కాలనీలకు శనివారం రాత్రి 9 గంటల నుంచి ఆదివారం రాత్రి 9 గంటల వరకు తాగునీటి సరఫరా నిలిచిపోనుంది. సూరారం చెరువు నుంచి శివాలయ నగర్ మురుగుశుద్ధి కేంద్రం వరకు 800 మిల్లీమీటర్ల మురుగునీటి పైపులైన్ పనుల కారణంగా ఈ అంతరాయం ఏర్పడనుంది. నీటిని పొదుపుగా వాడుకోవాలని ప్రజలకు సూచించారు.",
+   "pts": [
+    "విశ్వకర్మ కాలనీ, వైష్ణవి నగర్, లక్ష్మీ నగర్‌లో అంతరాయం",
+    "తెలుగు తల్లి నగర్, జై భీమ్ నగర్, మైత్రి నగర్‌లోనూ ప్రభావం"
+   ],
+   "why": "సూరారం పరిసర కాలనీల వారు ముందుగానే నీటిని నిల్వ చేసుకోవాల్సి ఉంటుంది.",
+   "src": "The Siasat Daily",
+   "url": "https://www.siasat.com/hyderabad-water-supply-to-be-disrupted-for-24-hours-on-weekend-3582365/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "medchal",
+   "loc": "సూరారం",
+   "pub": "2026-11-20T19:44+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Water",
+    "h": "24-hour water cut in Suraram areas",
+    "stat": "24 hours",
+    "statl": "water supply shutdown",
+    "loc": "Suraram",
+    "p": "Drinking water supply to several colonies in the Suraram and Saibaba Nagar wards of Hyderabad will stop from 9 pm on Saturday to 9 pm on Sunday. The disruption is due to work on an 800 mm sewerage pipeline from Suraram tank to the Shivalaya Nagar sewage treatment plant. Residents have been asked to use water sparingly.",
+    "pts": [
+     "Vishwakarma Colony, Vaishnavi Nagar, Lakshmi Nagar affected",
+     "Telugu Thalli Nagar, Jai Bheem Nagar, Maitri Nagar also hit"
+    ],
+    "why": "Residents of colonies around Suraram will need to store water in advance.",
+    "next": "Supply stops from 9 pm on November 21"
+   },
+   "hi": {
+    "cat": "हैदराबाद · पानी",
+    "h": "सूरारम क्षेत्र में 24 घंटे पानी बंद",
+    "stat": "24 घंटे",
+    "statl": "जल आपूर्ति बंद",
+    "loc": "सूरारम",
+    "p": "हैदराबाद के सूरारम और साईबाबा नगर वार्ड की कई कॉलोनियों में शनिवार रात 9 बजे से रविवार रात 9 बजे तक पेयजल आपूर्ति बंद रहेगी। सूरारम तालाब से शिवालय नगर सीवेज शोधन संयंत्र तक 800 मिमी सीवरेज पाइपलाइन के काम के कारण यह बाधा आएगी। लोगों से पानी किफायत से इस्तेमाल करने को कहा गया है।",
+    "pts": [
+     "विश्वकर्मा कॉलोनी, वैष्णवी नगर, लक्ष्मी नगर प्रभावित",
+     "तेलुगु तल्ली नगर, जय भीम नगर, मैत्री नगर में भी असर"
+    ],
+    "why": "सूरारम के आसपास की कॉलोनियों के लोगों को पहले से पानी जमा करना होगा।",
+    "next": "21 नवंबर रात 9 बजे से आपूर्ति बंद"
+   },
+   "d": "20.11.2026",
+   "t": "20:05",
+   "next": "నవంబర్ 21 రాత్రి 9 గంటల నుంచి సరఫరా నిలిపివేత"
+  },
+  {
+   "cat": "హైదరాబాద్ · కోర్టు",
+   "col": "--c-gov",
+   "art": "court",
+   "pic": "c/courts",
+   "stat": "సోమవారం తీర్పు",
+   "statl": "బెయిల్ పిటిషన్లపై",
+   "h": "ఐవీఎఫ్ వైద్యుల బెయిల్‌పై సోమవారం తీర్పు",
+   "p": "అక్రమ అండాల సేకరణ కేసులో పలు ఐవీఎఫ్ కేంద్రాల వైద్యులు వేసిన ముందస్తు బెయిల్ పిటిషన్లపై తెలంగాణ హైకోర్టు శుక్రవారం విచారణ జరిపింది. ఎక్కువ అండాల కోసం మహిళలకు హార్మోన్ ఇంజెక్షన్లు ఇవ్వడం దోపిడీ కాదా అని ధర్మాసనం ప్రశ్నించింది. తీర్పు వచ్చే వరకు నిందితులైన వైద్యులు ఆసుపత్రులకు వెళ్లరాదని ఆదేశించి, తీర్పును సోమవారానికి వాయిదా వేసింది.",
+   "pts": [
+    "ఏఆర్‌టీ చట్టం వైద్యులకే వర్తిస్తుందన్న హైకోర్టు",
+    "ఆధారాలు తారుమారు కావచ్చని పబ్లిక్ ప్రాసిక్యూటర్ అభ్యంతరం"
+   ],
+   "why": "ఐవీఎఫ్ చికిత్స తీసుకునే మహిళల భద్రత, కేంద్రాల జవాబుదారీతనంపై ఈ కేసు ప్రభావం చూపుతుంది.",
+   "src": "NewsMeter Telugu",
+   "url": "https://telugu.newsmeter.in/hyderabad/telangana-high-court-slams-ivf-doctors-illegal-egg-donation-case-779690",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-20T19:28+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Courts",
+    "h": "HC verdict on IVF doctors' bail pleas Monday",
+    "stat": "Verdict Monday",
+    "statl": "on anticipatory bail pleas",
+    "loc": "",
+    "p": "The Telangana High Court on Friday heard anticipatory bail petitions filed by doctors of several IVF centres in the illegal egg collection case. The bench asked whether giving women hormone injections to obtain more eggs was not exploitation. It ordered that the accused doctors must not go to hospitals until the verdict, and reserved its judgment for Monday.",
+    "pts": [
+     "High Court says the ART Act applies to doctors",
+     "Public Prosecutor warned evidence could be tampered with"
+    ],
+    "why": "The case bears on the safety of women undergoing IVF treatment and the accountability of centres.",
+    "next": "Verdict on the bail pleas on Monday"
+   },
+   "hi": {
+    "cat": "हैदराबाद · अदालत",
+    "h": "आईवीएफ डॉक्टरों की जमानत पर फैसला सोमवार को",
+    "stat": "सोमवार को फैसला",
+    "statl": "अग्रिम जमानत याचिकाओं पर",
+    "loc": "",
+    "p": "अवैध अंडाणु संग्रह मामले में कई आईवीएफ केंद्रों के डॉक्टरों की अग्रिम जमानत याचिकाओं पर तेलंगाना हाईकोर्ट ने शुक्रवार को सुनवाई की। पीठ ने पूछा कि अधिक अंडाणुओं के लिए महिलाओं को हार्मोन इंजेक्शन देना क्या शोषण नहीं है। अदालत ने आदेश दिया कि फैसले तक आरोपी डॉक्टर अस्पताल नहीं जाएंगे और फैसला सोमवार के लिए सुरक्षित रखा।",
+    "pts": [
+     "हाईकोर्ट ने कहा, एआरटी कानून डॉक्टरों पर लागू",
+     "लोक अभियोजक ने सबूतों से छेड़छाड़ की आशंका जताई"
+    ],
+    "why": "यह मामला आईवीएफ उपचार कराने वाली महिलाओं की सुरक्षा और केंद्रों की जवाबदेही से जुड़ा है।",
+    "next": "जमानत याचिकाओं पर फैसला सोमवार को"
+   },
+   "d": "20.11.2026",
+   "t": "20:05",
+   "next": "బెయిల్ పిటిషన్లపై తీర్పు సోమవారం"
+  },
+  {
+   "cat": "తెలంగాణ · భూములు",
+   "col": "--c-gov",
+   "art": "land",
+   "pic": "c/realestate",
+   "stat": "4 రోజుల ముందు",
+   "statl": "పట్టాదారులకు నోటీసులు",
+   "h": "తెలంగాణ భూముల రీ సర్వేకు మార్గదర్శకాలు",
+   "p": "హైదరాబాద్ జిల్లా మినహా తెలంగాణలోని అన్ని జిల్లాల్లో భూముల రీ సర్వేకు ప్రభుత్వం మార్గదర్శకాలు జారీ చేసింది. సర్వేకు కనీసం నాలుగు రోజుల ముందు పట్టాదారులకు నోటీసులు ఇస్తారు. దండోరా, గ్రామసభల ద్వారా గ్రామస్థులకు సమాచారం అందిస్తారు. రైతులు భూ భారతి పోర్టల్ నుంచి పహాణీ ప్రతిని సిద్ధంగా ఉంచుకోవాలి. కొలతల ఫలితాన్ని అక్కడికక్కడే రైతుకు తెలియజేస్తారు.",
+   "pts": [
+    "రెండు రోజుల ముందు హద్దులపై జెండాలు ఏర్పాటు",
+    "విస్తీర్ణంలో తేడాలుంటే తహసీల్దార్ 3–4 రోజులు శిబిరాలు",
+    "అభ్యంతరాలు పరిష్కరించాకే తుది గెజిట్"
+   ],
+   "why": "భూమి ఉన్న ప్రతి రైతు సర్వే సమయంలో పత్రాలతో హాజరు కావాల్సి ఉంటుంది.",
+   "src": "BIG TV",
+   "url": "https://www.bigtvlive.com/telangana/telangana-land-re-survey-new-guidelines-bhu-bharati-portal-farmers-latest-updates.html",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-20T19:21+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Land",
+    "h": "Guidelines issued for Telangana land re-survey",
+    "stat": "4 days ahead",
+    "statl": "survey notices to landholders",
+    "loc": "",
+    "p": "The Telangana government has issued guidelines for a land re-survey in all districts except Hyderabad district. Pattadars will get notices at least four days before the survey, and villages will be informed through drum announcements and gram sabhas. Farmers should keep a pahani copy from the Bhu Bharati portal ready. The measurement result will be told to the farmer on the spot.",
+    "pts": [
+     "Flags to mark boundaries two days before survey",
+     "Tahsildar camps for 3–4 days where extents differ",
+     "Final gazette only after objections are settled"
+    ],
+    "why": "Every farmer who owns land will need to be present with documents during the survey."
+   },
+   "hi": {
+    "cat": "तेलंगाना · भूमि",
+    "h": "तेलंगाना भूमि पुनर्सर्वेक्षण के दिशानिर्देश जारी",
+    "stat": "4 दिन पहले",
+    "statl": "पट्टाधारकों को सर्वे नोटिस",
+    "loc": "",
+    "p": "तेलंगाना सरकार ने हैदराबाद जिले को छोड़कर सभी जिलों में भूमि पुनर्सर्वेक्षण के दिशानिर्देश जारी किए हैं। सर्वे से कम से कम चार दिन पहले पट्टाधारकों को नोटिस दिए जाएंगे और मुनादी व ग्राम सभाओं से गांवों को सूचना दी जाएगी। किसान भू भारती पोर्टल से पहाणी की प्रति तैयार रखें। माप का नतीजा किसान को मौके पर ही बताया जाएगा।",
+    "pts": [
+     "दो दिन पहले सीमाओं पर झंडे लगाए जाएंगे",
+     "रकबे में अंतर हो तो तहसीलदार के 3–4 दिन शिविर",
+     "आपत्तियां निपटने के बाद ही अंतिम गजट"
+    ],
+    "why": "जमीन वाले हर किसान को सर्वे के समय दस्तावेजों के साथ मौजूद रहना होगा।"
+   },
+   "d": "20.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · రాజకీయం",
+   "col": "--c-election",
+   "art": "unity",
+   "pic": "c/politics",
+   "stat": "21 మంది",
+   "statl": "కార్యకర్తలు అదుపులోకి",
+   "h": "మెటా కార్యాలయంలో యూత్ కాంగ్రెస్ నిరసన",
+   "p": "కాంగ్రెస్ నేతలు, కార్యకర్తల సోషల్ మీడియా ఖాతాలను నిలిపివేశారంటూ తెలంగాణ యూత్ కాంగ్రెస్ నాయకులు శుక్రవారం హైదరాబాద్‌లోని మెటా కార్యాలయంలోకి వెళ్లి నిరసన తెలిపారు. నినాదాలు చేస్తూ అక్కడి పూలకుండీలు, ఫర్నిచర్‌ను ధ్వంసం చేశారని కథనం పేర్కొంది. రాయదుర్గం పోలీసులు 21 మంది కార్యకర్తలను అదుపులోకి తీసుకుని, తర్వాత విడిచిపెట్టారు.",
+   "pts": [
+    "ఏడు రోజుల్లో ఖాతాలపై ఆంక్షలు తొలగించాలని యూత్ కాంగ్రెస్ డిమాండ్",
+    "మెటా స్పందన కథనంలో లేదు"
+   ],
+   "why": "సోషల్ మీడియా ఖాతాల నిలిపివేతపై రాజకీయ వివాదం నగరంలో శాంతిభద్రతల అంశంగా మారింది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/watch-telangana-youth-congress-leaders-create-ruckus-at-meta-office-in-hyderabad",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "రాయదుర్గం",
+   "pub": "2026-11-20T19:55+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Politics",
+    "h": "Youth Congress protest at Meta's Hyderabad office",
+    "stat": "21 workers",
+    "statl": "detained, later released",
+    "loc": "Raidurgam",
+    "p": "Telangana Youth Congress leaders entered Meta's office in Hyderabad on Friday and protested, alleging that the social media accounts of Congress leaders and workers had been blocked. The report says they raised slogans and damaged flower pots and furniture there. Raidurgam police took 21 workers into custody and later released them.",
+    "pts": [
+     "Youth Congress wants account curbs lifted within seven days",
+     "The report carries no response from Meta"
+    ],
+    "why": "A political row over blocked social media accounts turned into a law-and-order issue in the city."
+   },
+   "hi": {
+    "cat": "हैदराबाद · राजनीति",
+    "h": "हैदराबाद के मेटा दफ्तर में युवा कांग्रेस का प्रदर्शन",
+    "stat": "21 कार्यकर्ता",
+    "statl": "हिरासत में, बाद में रिहा",
+    "loc": "रायदुर्गम",
+    "p": "कांग्रेस नेताओं और कार्यकर्ताओं के सोशल मीडिया खाते बंद किए जाने का आरोप लगाते हुए तेलंगाना युवा कांग्रेस के नेता शुक्रवार को हैदराबाद स्थित मेटा कार्यालय में घुसे और प्रदर्शन किया। रिपोर्ट के अनुसार उन्होंने नारे लगाए और वहां गमले व फर्नीचर तोड़े। रायदुर्गम पुलिस ने 21 कार्यकर्ताओं को हिरासत में लिया और बाद में छोड़ दिया।",
+    "pts": [
+     "युवा कांग्रेस की मांग: सात दिन में खातों से रोक हटे",
+     "रिपोर्ट में मेटा की प्रतिक्रिया नहीं"
+    ],
+    "why": "सोशल मीडिया खातों पर रोक का राजनीतिक विवाद शहर में कानून-व्यवस्था का मुद्दा बन गया।"
+   },
+   "d": "20.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "నల్గొండ · నీరు",
+   "col": "--c-water",
+   "art": "water",
+   "pic": "n/water",
+   "stat": "సాగర్ జలాశయం",
+   "statl": "ఇన్‌టేక్ వెల్‌పై ఆరోపణ",
+   "h": "సాగర్ ఇన్‌టేక్ వెల్‌పై విచారణకు డిమాండ్",
+   "p": "నాగార్జునసాగర్ జలాశయం బ్యాక్‌వాటర్‌లో విజయపురి సౌత్ సమీపంలో నిర్మిస్తున్న ఇన్‌టేక్ వెల్ సంప్ పనులను తెలంగాణ రిటైర్డ్ ఇంజనీర్ల సంఘం బృందం శుక్రవారం పరిశీలించింది. ఈ పనులు జలాశయ నిబంధనలకు విరుద్ధమని సంఘం ఆరోపించింది. అనుమతి ఎలా ఇచ్చారని కన్వీనర్ శ్యామ్ ప్రసాద్ రెడ్డి ప్రశ్నించారు. సమగ్ర విచారణ జరిపి, ఉల్లంఘనలు తేలితే చర్యలు తీసుకోవాలని అధికారులను కోరారు.",
+   "pts": [
+    "కుడి గట్టు వైపు నిర్మాణాన్ని పరిశీలించిన బృందం",
+    "జలాశయ భద్రతకు ముప్పు ఉందా అన్నదీ పరిశీలన"
+   ],
+   "why": "సాగర్ నీటిపై ఆధారపడిన ఆయకట్టు రైతులు, తాగునీటి వినియోగదారులకు ఇది ముఖ్యమైన అంశం.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/trea-seeks-inquiry-into-intake-well-sump-construction-at-nagarjunasagar",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "nalgonda",
+   "loc": "నాగార్జునసాగర్",
+   "pub": "2026-11-20T19:42+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Nalgonda · Water",
+    "h": "Probe sought into Sagar intake well work",
+    "stat": "Sagar reservoir",
+    "statl": "objection to intake well work",
+    "loc": "Nagarjunasagar",
+    "p": "A team of the Telangana Retired Engineers Association on Friday inspected an intake well sump being built in the Nagarjunasagar reservoir backwaters near Vijayapuri South. The association alleged the work violates reservoir regulations. Convenor Shyam Prasad Reddy asked how permission was granted. The team urged officials to hold a full inquiry and act if violations are established.",
+    "pts": [
+     "Team examined the construction on the right bank",
+     "It also looked at whether reservoir safety is at risk"
+    ],
+    "why": "The issue matters to ayacut farmers and drinking water users who depend on Sagar water."
+   },
+   "hi": {
+    "cat": "नलगोंडा · पानी",
+    "h": "सागर इनटेक वेल के काम की जांच की मांग",
+    "stat": "सागर जलाशय",
+    "statl": "इनटेक वेल के काम पर आपत्ति",
+    "loc": "नागार्जुनसागर",
+    "p": "तेलंगाना सेवानिवृत्त इंजीनियर संघ की टीम ने शुक्रवार को नागार्जुनसागर जलाशय के बैकवाटर में विजयपुरी साउथ के पास बन रहे इनटेक वेल संप का निरीक्षण किया। संघ ने आरोप लगाया कि यह काम जलाशय के नियमों के खिलाफ है। संयोजक श्याम प्रसाद रेड्डी ने पूछा कि अनुमति कैसे दी गई। टीम ने अधिकारियों से पूरी जांच और उल्लंघन मिलने पर कार्रवाई की मांग की।",
+    "pts": [
+     "टीम ने दाहिने तट पर निर्माण देखा",
+     "जलाशय की सुरक्षा को खतरे की भी जांच की"
+    ],
+    "why": "सागर के पानी पर निर्भर किसानों और पेयजल उपभोक्ताओं के लिए यह अहम मुद्दा है।"
+   },
+   "d": "20.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "రంగారెడ్డి · భూములు",
+   "col": "--c-city",
+   "art": "land",
+   "pic": "c/realestate",
+   "stat": "11.20 ఎకరాలు",
+   "statl": "భూమి ఆక్రమణ ఆరోపణ",
+   "h": "శంషాబాద్ ప్రభుత్వ భూమి ఆక్రమణ ఆరోపణ",
+   "p": "శంషాబాద్ డీసీపీ కార్యాలయం వెనుక, ఔటర్ రింగ్ రోడ్డు పక్కన ఉన్న 11.20 ఎకరాల ప్రభుత్వ ఖాళీ భూమిని ఆక్రమించే ప్రయత్నం జరుగుతోందని స్థానికులు ఆరోపిస్తున్నారు. పాత కంచె తొలగించి రాత్రికి రాత్రే కొత్త హద్దులు, ప్రైవేటు కాపలా, సీసీ కెమెరాలు ఏర్పాటు చేశారని కథనం పేర్కొంది. ఫిర్యాదులపై స్పందన లేదని, హైడ్రా జోక్యం చేసుకోవాలని వారు కోరుతున్నారు.",
+   "pts": [
+    "భూమి విలువ సుమారు ₹600 కోట్లని కథనం",
+    "సర్వే నంబర్ 626/1ను 1981లో హుడాకు కేటాయించారు",
+    "ప్రభుత్వ భూమిని కాపాడతామన్న అధికారులు"
+   ],
+   "why": "విమానాశ్రయం సమీపంలోని విలువైన ప్రభుత్వ భూముల రక్షణ స్థానికులకు ఆందోళన కలిగిస్తోంది.",
+   "src": "ETV Bharat",
+   "url": "https://www.etvbharat.com/te/state/attempts-to-encroach-upon-government-land-worth-six-hundred-crores-in-shamshabad-hyderabad-tgs26112004262",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "rangareddy",
+   "loc": "శంషాబాద్",
+   "pub": "2026-11-20T17:38+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Rangareddy · Land",
+    "h": "Bid to grab Shamshabad govt land alleged",
+    "stat": "11.20 acres",
+    "statl": "govt land encroachment alleged",
+    "loc": "Shamshabad",
+    "p": "Residents allege an attempt is being made to encroach on 11.20 acres of vacant government land behind the Shamshabad DCP office, beside the Outer Ring Road. The report says the old fence was removed and new boundaries, private guards and CCTV cameras were put up overnight. Residents say complaints have drawn no response and want HYDRAA to step in.",
+    "pts": [
+     "Report puts the land's value at about ₹600 crore",
+     "Survey No. 626/1 was allotted to HUDA in 1981",
+     "Officials said they will protect government land"
+    ],
+    "why": "Protection of valuable government land near the airport is a concern for local residents."
+   },
+   "hi": {
+    "cat": "रंगारेड्डी · भूमि",
+    "h": "शमशाबाद में सरकारी जमीन कब्जाने की कोशिश का आरोप",
+    "stat": "11.20 एकड़",
+    "statl": "सरकारी जमीन पर कब्जे का आरोप",
+    "loc": "शमशाबाद",
+    "p": "स्थानीय लोगों का आरोप है कि शमशाबाद डीसीपी कार्यालय के पीछे, आउटर रिंग रोड के पास 11.20 एकड़ खाली सरकारी जमीन पर कब्जे की कोशिश हो रही है। रिपोर्ट के अनुसार पुरानी बाड़ हटाकर रातोंरात नई सीमाएं, निजी गार्ड और सीसीटीवी कैमरे लगा दिए गए। लोगों का कहना है कि शिकायतों पर कार्रवाई नहीं हुई और वे हाइड्रा से दखल की मांग कर रहे हैं।",
+    "pts": [
+     "रिपोर्ट के अनुसार जमीन की कीमत करीब ₹600 करोड़",
+     "सर्वे नंबर 626/1 वर्ष 1981 में हुडा को आवंटित",
+     "अधिकारियों ने कहा, सरकारी जमीन बचाएंगे"
+    ],
+    "why": "हवाई अड्डे के पास कीमती सरकारी जमीन की सुरक्षा स्थानीय लोगों की चिंता है।"
+   },
+   "d": "20.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · సైన్స్",
+   "col": "--c-gov",
+   "art": "campus",
+   "pic": "c/science",
+   "stat": "2 జన్యువుల",
+   "statl": "గుర్తింపు",
+   "h": "నరాలు పెంచే 2 జన్యువులు: సీసీఎంబీ",
+   "p": "వెన్నుపాము గాయం తర్వాత నరాల తంతువులు తిరిగి పెరిగేందుకు తోడ్పడే ఎన్‌ఆర్2ఎఫ్1, ఎన్‌ఆర్2ఎఫ్6 అనే రెండు జన్యువులను హైదరాబాద్‌లోని సీసీఎంబీ శాస్త్రవేత్తలు గుర్తించారు. ఎలుకలపై చేసిన ప్రయోగంలో ఈ జన్యువులను పునరుద్ధరించగా నరాల తంతువులు గాయాన్ని దాటి పెరిగి, కదలిక కొంతమేర తిరిగి వచ్చింది. డాక్టర్ ఈశ్వర్య వెంకటేశ్ నేతృత్వంలోని ఈ అధ్యయనం ఎంబో జర్నల్‌లో ప్రచురితమైంది.",
+   "pts": [
+    "నరాల తంతువులు గాయం దాటి 1.5 మిల్లీమీటర్ల వరకు పెరిగాయి",
+    "ఇది ప్రాథమిక దశ అధ్యయనం, కోలుకోవడం పాక్షికమే"
+   ],
+   "why": "వెన్నుపాము గాయాల చికిత్సకు భవిష్యత్తులో కొత్త మార్గాలు దొరికే అవకాశం ఉంది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/hyderabad-based-ccmb-identifies-two-genes-that-help-nerves-regrow-after-spinal-injury",
+   "sec": [
+    "telangana",
+    "innovation"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-20T19:33+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Science",
+    "h": "CCMB finds genes that help nerves regrow",
+    "stat": "2 genes",
+    "statl": "that aid nerve regrowth",
+    "loc": "",
+    "p": "Scientists at CCMB in Hyderabad have identified two genes, NR2F1 and NR2F6, that help nerve fibres regrow after spinal cord injury. In experiments on mice, restoring these genes let nerve fibres grow past the injury and brought back some movement. The study, led by Dr Ishwariya Venkatesh, has been published in The EMBO Journal.",
+    "pts": [
+     "Nerve fibres grew up to 1.5 mm beyond the injury",
+     "The study is preclinical and recovery was only partial"
+    ],
+    "why": "It could open new paths for treating spinal cord injuries in future."
+   },
+   "hi": {
+    "cat": "हैदराबाद · विज्ञान",
+    "h": "सीसीएमबी ने नसें दोबारा उगाने वाले जीन खोजे",
+    "stat": "2 जीन",
+    "statl": "नसों की वृद्धि में मददगार",
+    "loc": "",
+    "p": "हैदराबाद के सीसीएमबी के वैज्ञानिकों ने एनआर2एफ1 और एनआर2एफ6 नाम के दो जीन पहचाने हैं, जो रीढ़ की हड्डी की चोट के बाद तंत्रिका तंतुओं को दोबारा बढ़ने में मदद करते हैं। चूहों पर प्रयोग में इन जीनों को बहाल करने पर तंतु चोट के पार बढ़े और कुछ हरकत लौटी। डॉ. ईश्वर्या वेंकटेश के नेतृत्व वाला यह अध्ययन एम्बो जर्नल में छपा है।",
+    "pts": [
+     "तंत्रिका तंतु चोट के पार 1.5 मिमी तक बढ़े",
+     "अध्ययन शुरुआती चरण का है, सुधार आंशिक रहा"
+    ],
+    "why": "इससे भविष्य में रीढ़ की चोट के इलाज के नए रास्ते खुल सकते हैं।"
+   },
+   "d": "20.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · టెక్నాలజీ",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "i/it-and-ai",
+   "stat": "36 కంపెనీలు",
+   "statl": "డిజిటెక్ మిషన్‌లో",
+   "h": "హైదరాబాద్‌లో ఆస్ట్రేలియా టెక్ కంపెనీలు",
+   "p": "ఆస్ట్రేలియాకు చెందిన 36 కంపెనీల డిజిటెక్ మిషన్ బృందం నవంబర్ 16 నుంచి 20 వరకు బెంగళూరు, హైదరాబాద్‌లలో పర్యటించింది. ఆస్ట్రేడ్, టెక్ కౌన్సిల్ ఆఫ్ ఆస్ట్రేలియా ఆధ్వర్యంలో వచ్చిన ఈ బృందం హైదరాబాద్‌లో నాస్కామ్, హైసియాతో కలిసి ఐటీ, ఆరోగ్య రంగ ప్రతినిధులతో సమావేశమైంది. అనంతరం టీ-హబ్‌ను సందర్శించి, సాంకేతిక భాగస్వామ్య అవకాశాలపై చర్చించింది.",
+   "pts": [
+    "ఏఐ, సైబర్ భద్రత, డిజిటల్ హెల్త్‌లో అవకాశాలున్నాయన్న ఆస్ట్రేడ్",
+    "5.5 కోట్ల ఆస్ట్రేలియన్ డాలర్ల కార్యక్రమం కింద పర్యటన"
+   ],
+   "why": "విదేశీ భాగస్వామ్యాలు హైదరాబాద్ ఐటీ, స్టార్టప్ రంగాల్లో కొత్త అవకాశాలు తేవచ్చు.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/australian-companies-explore-technology-partnerships-in-hyderabad",
+   "sec": [
+    "telangana",
+    "business",
+    "innovation"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-20T19:37+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Technology",
+    "h": "Australian tech firms visit Hyderabad",
+    "stat": "36 companies",
+    "statl": "in Australian DigiTech Mission",
+    "loc": "",
+    "p": "A DigiTech Mission of 36 Australian companies toured Bengaluru and Hyderabad from November 16 to 20. Led by Austrade and the Tech Council of Australia, the team met IT and healthcare representatives in Hyderabad at a session held with NASSCOM and HYSEA. It then visited T-Hub and discussed opportunities for technology partnerships.",
+    "pts": [
+     "Austrade sees scope in AI, cybersecurity, digital health",
+     "Visit is under an A$55 million export programme"
+    ],
+    "why": "Foreign partnerships could bring new opportunities for Hyderabad's IT and startup sectors."
+   },
+   "hi": {
+    "cat": "हैदराबाद · तकनीक",
+    "h": "ऑस्ट्रेलियाई टेक कंपनियों का हैदराबाद दौरा",
+    "stat": "36 कंपनियां",
+    "statl": "ऑस्ट्रेलियाई डिजिटेक मिशन में",
+    "loc": "",
+    "p": "ऑस्ट्रेलिया की 36 कंपनियों के डिजिटेक मिशन दल ने 16 से 20 नवंबर तक बेंगलुरु और हैदराबाद का दौरा किया। ऑस्ट्रेड और टेक काउंसिल ऑफ ऑस्ट्रेलिया के नेतृत्व में आए दल ने हैदराबाद में नैसकॉम और हाइसिया के साथ आईटी व स्वास्थ्य क्षेत्र के प्रतिनिधियों से मुलाकात की। इसके बाद दल ने टी-हब का दौरा किया और तकनीकी साझेदारी के अवसरों पर चर्चा की।",
+    "pts": [
+     "ऑस्ट्रेड: एआई, साइबर सुरक्षा, डिजिटल हेल्थ में अवसर",
+     "5.5 करोड़ ऑस्ट्रेलियाई डॉलर के कार्यक्रम के तहत दौरा"
+    ],
+    "why": "विदेशी साझेदारियां हैदराबाद के आईटी और स्टार्टअप क्षेत्र में नए अवसर ला सकती हैं।"
+   },
+   "d": "20.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "తెలంగాణ · సింగరేణి",
+   "col": "--c-power",
+   "art": "power",
+   "pic": "n/coal",
+   "stat": "కోటి టన్నులు",
+   "statl": "నైనీ వార్షిక లక్ష్యం",
+   "h": "కనిహా ప్లాంట్‌కు నైనీ బొగ్గు: సింగరేణి",
+   "p": "ఒడిశాలోని నైనీ బొగ్గు బ్లాక్ నుంచి అక్కడి ఎన్టీపీసీ కనిహా థర్మల్ ప్లాంట్‌కు బొగ్గు సరఫరా చేసేందుకు సింగరేణి సిద్ధంగా ఉందని సంస్థ సీఎండీ బుద్ధప్రకాశ్ జ్యోతి తెలిపారు. శుక్రవారం ఢిల్లీలో ఎన్టీపీసీ సీఎండీ గుర్దీప్ సింగ్‌ను ఆయన కలిశారు. నైనీ దగ్గరలో ఉన్నందున ఈ ప్రతిపాదనను పరిశీలిస్తామని గుర్దీప్ సింగ్ చెప్పారు. ఒప్పందం ఇంకా కుదరలేదు.",
+   "pts": [
+    "నైనీ బొగ్గులో ఎక్కువ భాగం యాదాద్రి థర్మల్ కేంద్రానికి",
+    "వచ్చే ఏడాది నుంచి ఏటా కోటి టన్నుల ఉత్పత్తి లక్ష్యం"
+   ],
+   "why": "సింగరేణి ఆదాయం, కార్మికుల భవిష్యత్తుకు నైనీ బొగ్గు అమ్మకాలు ముఖ్యం.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/manchiryal-asifabad/singareni-ready-to-supply-naini-block-coal-to-ntpc-kaniha-plant-215241",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-20T18:36+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Singareni",
+    "h": "Singareni offers Naini coal to NTPC Kaniha plant",
+    "stat": "10 million tonnes",
+    "statl": "Naini block yearly output target",
+    "loc": "",
+    "p": "Singareni is ready to supply coal from its Naini block in Odisha to NTPC's Kaniha thermal plant in the same state, CMD Buddhaprakash Jyothi said. He met NTPC CMD Gurdeep Singh in Delhi on Friday. Gurdeep Singh said NTPC would examine the proposal as Naini is close to the plant. No agreement has been signed yet.",
+    "pts": [
+     "Most Naini coal goes to Yadadri thermal station",
+     "Output target is 10 million tonnes a year from next year"
+    ],
+    "why": "Naini coal sales matter for Singareni's revenue and its workers' future."
+   },
+   "hi": {
+    "cat": "तेलंगाना · सिंगरेनी",
+    "h": "एनटीपीसी कनिहा प्लांट को नैनी कोयला देने को तैयार सिंगरेनी",
+    "stat": "1 करोड़ टन",
+    "statl": "नैनी ब्लॉक का सालाना उत्पादन लक्ष्य",
+    "loc": "",
+    "p": "सिंगरेनी के सीएमडी बुद्धप्रकाश ज्योति ने कहा कि कंपनी ओडिशा के नैनी कोयला ब्लॉक से वहीं स्थित एनटीपीसी के कनिहा ताप संयंत्र को कोयला देने के लिए तैयार है। उन्होंने शुक्रवार को दिल्ली में एनटीपीसी के सीएमडी गुरदीप सिंह से मुलाकात की। गुरदीप सिंह ने कहा कि नैनी पास होने के कारण प्रस्ताव पर विचार किया जाएगा। अभी कोई समझौता नहीं हुआ है।",
+    "pts": [
+     "नैनी का अधिकांश कोयला यादाद्री ताप केंद्र को",
+     "अगले साल से सालाना 1 करोड़ टन उत्पादन का लक्ष्य"
+    ],
+    "why": "नैनी कोयले की बिक्री सिंगरेनी की आय और कर्मचारियों के भविष्य के लिए अहम है।"
+   },
+   "d": "20.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · నేరం",
+   "col": "--c-city",
+   "art": "court",
+   "pic": "c/crime",
+   "stat": "1.1 కిలోల",
+   "statl": "ఎండు గంజాయి స్వాధీనం",
+   "h": "ధూల్‌పేటలో గంజాయి స్వాధీనం: అధికారులు",
+   "p": "హైదరాబాద్ ధూల్‌పేట ప్రాంతంలో గురువారం ఎన్‌ఫోర్స్‌మెంట్ బృందం జరిపిన దాడిలో ఒక మహిళ వద్ద 1.1 కిలోల ఎండు గంజాయి దొరికిందని అధికారులు తెలిపారు. ఆమె మరో ఇద్దరితో కలిసి గంజాయి అమ్ముతున్నట్లు ఆరోపణ ఉంది. స్వాధీనాన్ని వీడియో తీసి పంచనామా నమోదు చేశారు. నిందితురాలిని తదుపరి చర్యల కోసం ధూల్‌పేట పోలీస్ స్టేషన్‌కు అప్పగించారు.",
+   "pts": [
+    "మరో నిందితుడు పరారీలో ఉన్నాడని అధికారుల వెల్లడి"
+   ],
+   "why": "నగరంలో గంజాయి అమ్మకాలపై అధికారుల నిఘా కొనసాగుతోందని ఇది చూపుతోంది.",
+   "src": "The Siasat Daily",
+   "url": "https://www.siasat.com/woman-arrested-in-dhoolpet-with-1-1-kg-dry-ganja-3582336/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "ధూల్‌పేట",
+   "pub": "2026-11-20T18:32+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Crime",
+    "h": "1.1 kg ganja seized in Dhoolpet: officials",
+    "stat": "1.1 kg",
+    "statl": "dry ganja seized",
+    "loc": "Dhoolpet",
+    "p": "An enforcement team found 1.1 kg of dry ganja with a woman during a raid in Hyderabad's Dhoolpet area on Thursday, officials said. She is alleged to have been selling ganja along with two others. The seizure was video-recorded in a panchanama. The accused was handed over to Dhoolpet police station for further action.",
+    "pts": [
+     "Officials said another accused is absconding"
+    ],
+    "why": "It shows officials are keeping up their watch on ganja sales in the city."
+   },
+   "hi": {
+    "cat": "हैदराबाद · अपराध",
+    "h": "धूलपेट में 1.1 किलो गांजा जब्त: अधिकारी",
+    "stat": "1.1 किलो",
+    "statl": "सूखा गांजा जब्त",
+    "loc": "धूलपेट",
+    "p": "अधिकारियों के अनुसार हैदराबाद के धूलपेट इलाके में गुरुवार को प्रवर्तन टीम के छापे में एक महिला के पास से 1.1 किलो सूखा गांजा मिला। आरोप है कि वह दो अन्य लोगों के साथ मिलकर गांजा बेचती थी। जब्ती का वीडियो बनाकर पंचनामा दर्ज किया गया। आरोपी को आगे की कार्रवाई के लिए धूलपेट थाने को सौंप दिया गया।",
+    "pts": [
+     "अधिकारियों ने बताया, एक और आरोपी फरार"
+    ],
+    "why": "इससे पता चलता है कि शहर में गांजे की बिक्री पर अधिकारियों की नजर बनी हुई है।"
+   },
+   "d": "20.11.2026",
+   "t": "20:05"
+  },
   {
    "cat": "తెలంగాణ · కోర్టు",
    "col": "--c-gov",
@@ -2705,545 +3250,6 @@
    },
    "d": "20.11.2026",
    "t": "16:35"
-  },
-  {
-   "cat": "తెలంగాణ · ఉద్యోగాలు",
-   "col": "--c-gov",
-   "pic": "n/exams",
-   "stat": "నవంబర్ 29న",
-   "statl": "ఎస్సై ప్రాథమిక పరీక్ష",
-   "h": "నవంబర్ 29న తెలంగాణ ఎస్సై ప్రిలిమ్స్",
-   "p": "తెలంగాణలో ఎస్సై (సివిల్), సమాన హోదా గల 275 పోస్టుల ప్రాథమిక రాత పరీక్ష నవంబర్ 29న జరుగుతుందని పోలీసు నియామక మండలి తెలిపింది. ఉదయం 10 నుంచి మధ్యాహ్నం 1 గంట వరకు 335 కేంద్రాల్లో పరీక్ష ఉంటుంది. 1,60,712 మంది అభ్యర్థులు హాజరవుతారని అంచనా. హాల్‌టికెట్లు నవంబర్ 22 నుంచి మండలి వెబ్‌సైట్‌లో లభిస్తాయి.",
-   "pts": [
-    "హాల్‌టికెట్ల డౌన్‌లోడ్ నవంబర్ 28 అర్ధరాత్రి వరకు",
-    "కేంద్రంలోకి గంట ముందు నుంచే అనుమతి",
-    "ఫోన్లు, స్మార్ట్‌వాచ్‌లకు అనుమతి లేదు"
-   ],
-   "why": "ఎస్సై ఉద్యోగాలకు దరఖాస్తు చేసిన లక్షన్నరకు పైగా అభ్యర్థులు సన్నద్ధం కావాల్సిన తేదీలు ఇవి.",
-   "src": "Siasat",
-   "url": "https://www.siasat.com/telangana-si-exam-2026-on-november-29-hall-tickets-from-nov-22-3582141/",
-   "sec": [
-    "telangana",
-    "jobs",
-    "education"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "next": "హాల్‌టికెట్ల డౌన్‌లోడ్ నవంబర్ 22 ఉదయం 8 గంటల నుంచి",
-   "pub": "2026-11-20T15:44+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Jobs",
-    "h": "Telangana SI prelims on November 29",
-    "stat": "November 29",
-    "statl": "SI preliminary exam",
-    "loc": "Telangana",
-    "p": "The preliminary written exam for 275 Sub-Inspector (Civil) and equivalent posts in Telangana will be held on November 29, the police recruitment board said. It runs from 10 am to 1 pm at 335 centres, and 1,60,712 candidates are expected. Hall tickets will be on the board's website tgprb.in from November 22.",
-    "pts": [
-     "Hall tickets can be downloaded until midnight of November 28",
-     "Entry to centres opens one hour before the exam",
-     "Phones and smartwatches are not allowed"
-    ],
-    "why": "These are the dates over 1.6 lakh SI job applicants need to prepare for.",
-    "next": "Hall ticket download opens at 8 am on November 22"
-   },
-   "hi": {
-    "cat": "तेलंगाना · नौकरियां",
-    "h": "तेलंगाना एसआई प्रारंभिक परीक्षा 29 नवंबर को",
-    "stat": "29 नवंबर को",
-    "statl": "एसआई प्रारंभिक परीक्षा",
-    "loc": "तेलंगाना",
-    "p": "तेलंगाना में उप-निरीक्षक (सिविल) और समकक्ष 275 पदों की प्रारंभिक लिखित परीक्षा 29 नवंबर को होगी, पुलिस भर्ती बोर्ड ने बताया। परीक्षा सुबह 10 से दोपहर 1 बजे तक 335 केंद्रों पर होगी और 1,60,712 अभ्यर्थियों के बैठने की उम्मीद है। हॉल टिकट 22 नवंबर से बोर्ड की वेबसाइट tgprb.in पर मिलेंगे।",
-    "pts": [
-     "हॉल टिकट 28 नवंबर की आधी रात तक डाउनलोड होंगे",
-     "केंद्र में प्रवेश परीक्षा से एक घंटा पहले से",
-     "फोन और स्मार्टवॉच की अनुमति नहीं"
-    ],
-    "why": "एसआई पदों के डेढ़ लाख से अधिक आवेदकों को इन तारीखों के अनुसार तैयारी करनी है।",
-    "next": "हॉल टिकट डाउनलोड 22 नवंबर सुबह 8 बजे से"
-   },
-   "d": "20.11.2026",
-   "t": "16:05"
-  },
-  {
-   "cat": "తెలంగాణ · సైబర్ నేరాలు",
-   "col": "--c-city",
-   "pic": "c/cyber",
-   "stat": "9 మంది",
-   "statl": "అరెస్టు",
-   "h": "మల్కాజిగిరి సైబర్ మోసంలో 9 మంది అరెస్టు",
-   "p": "ఆన్‌లైన్ పెట్టుబడి మోసంలో ₹74 లక్షల తరలింపునకు బ్యాంకు ఖాతాలు సమకూర్చారన్న ఆరోపణపై తొమ్మిది మందిని శుక్రవారం అరెస్టు చేసినట్లు మల్కాజిగిరి సైబర్ క్రైమ్ పోలీసులు తెలిపారు. వాట్సాప్ గ్రూపులో స్టాక్ మార్కెట్ నిపుణులమని నమ్మించి, భారీ లాభాల ఆశ చూపి బాధితుడితో డబ్బు పెట్టించారని పోలీసులు చెప్పారు. ఇద్దరు ప్రధాన నిందితులు పరారీలో ఉన్నారు.",
-   "pts": [
-    "ఖాతాదారులకు 20 శాతం కమీషన్ ఆశ చూపారు: పోలీసులు",
-    "9 ఫోన్లు, సిమ్ కార్డులు స్వాధీనం",
-    "5 నుంచి 50 శాతం లాభాలని నమ్మించారు"
-   ],
-   "why": "వాట్సాప్ పెట్టుబడి గ్రూపుల ద్వారా జరిగే మోసాలపై నగరవాసులు అప్రమత్తంగా ఉండాల్సిన అవసరాన్ని ఇది చూపుతోంది.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/nine-held-in-online-investment-fraud-90b43bb0",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "medchal",
-   "loc": "మల్కాజిగిరి",
-   "pub": "2026-11-20T15:14+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Cyber crime",
-    "h": "Nine held in Malkajgiri investment fraud",
-    "stat": "9 arrested",
-    "statl": "in online investment fraud",
-    "loc": "Malkajgiri",
-    "p": "Malkajgiri Cyber Crime police said they arrested nine people on Friday for allegedly arranging bank accounts to move Rs 74 lakh from an online investment fraud. Police said the victim was added to a WhatsApp group where fraudsters posed as stock market experts and promised high returns. Two main accused are absconding.",
-    "pts": [
-     "Account holders were promised 20% commission: police",
-     "Nine phones and SIM cards seized",
-     "Returns of 5% to 50% were promised"
-    ],
-    "why": "It shows why city residents need to be careful about WhatsApp investment groups."
-   },
-   "hi": {
-    "cat": "तेलंगाना · साइबर अपराध",
-    "h": "मलकाजगिरी निवेश ठगी में नौ गिरफ्तार",
-    "stat": "9 गिरफ्तार",
-    "statl": "ऑनलाइन निवेश ठगी में",
-    "loc": "मलकाजगिरी",
-    "p": "मलकाजगिरी साइबर क्राइम पुलिस ने बताया कि ऑनलाइन निवेश ठगी के 74 लाख रुपये इधर-उधर करने के लिए बैंक खाते उपलब्ध कराने के आरोप में शुक्रवार को नौ लोगों को गिरफ्तार किया गया। पुलिस के अनुसार पीड़ित को व्हाट्सऐप ग्रुप में जोड़कर ठगों ने खुद को शेयर बाजार विशेषज्ञ बताया और ऊंचे मुनाफे का लालच दिया। दो मुख्य आरोपी फरार हैं।",
-    "pts": [
-     "खाताधारकों को 20% कमीशन का लालच दिया गया: पुलिस",
-     "नौ फोन और सिम कार्ड जब्त",
-     "5 से 50 प्रतिशत मुनाफे का झांसा दिया गया"
-    ],
-    "why": "यह दिखाता है कि शहरवासियों को व्हाट्सऐप निवेश ग्रुपों से सावधान रहना चाहिए।"
-   },
-   "d": "20.11.2026",
-   "t": "16:05"
-  },
-  {
-   "cat": "తెలంగాణ · సంస్కృతి",
-   "col": "--c-gov",
-   "pic": "c/culture",
-   "stat": "₹2.30 కోట్లు",
-   "statl": "అనభేరి స్మారకానికి",
-   "h": "అనభేరి స్మారక పార్కుకు ₹2.30 కోట్లు",
-   "p": "స్వాతంత్ర్య సమరయోధుడు అనభేరి ప్రభాకర్ రావు స్మారక పార్కు, హాలు నిర్మాణానికి తెలంగాణ ప్రభుత్వం ₹2.30 కోట్లకు పరిపాలన అనుమతి ఇచ్చింది. సిద్దిపేట జిల్లా హుస్నాబాద్ సమీపంలోని మహమ్మదాపూర్ గ్రామంలో దీన్ని నిర్మిస్తారు. పనులను తెలంగాణ పర్యాటక అభివృద్ధి సంస్థ చేపడుతుంది. పర్యాటక మౌలిక వసతుల నిధుల నుంచి ఈ మొత్తాన్ని ఖర్చు చేస్తారు.",
-   "pts": [
-    "అనభేరిని 'తెలంగాణ భగత్ సింగ్' అని పిలుస్తారు",
-    "తదుపరి చర్యల బాధ్యత పర్యాటక సంస్థ ఎండీదే"
-   ],
-   "why": "హుస్నాబాద్ ప్రాంత ప్రజలకు స్థానిక సమరయోధుడి స్మారకం, కొత్త పర్యాటక కేంద్రం అందుబాటులోకి రానుంది.",
-   "src": "Siasat",
-   "url": "https://www.siasat.com/telangana-approves-rs-2-30-crore-for-freedom-fighter-memorial-3582140/",
-   "sec": [
-    "telangana",
-    "culture"
-   ],
-   "st": "TG",
-   "place": "siddipet",
-   "loc": "మహమ్మదాపూర్, హుస్నాబాద్",
-   "pub": "2026-11-20T15:42+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Culture",
-    "h": "Rs 2.30 crore for Anabheri memorial park",
-    "stat": "Rs 2.30 crore",
-    "statl": "for Anabheri memorial",
-    "loc": "Mohammedapur, Husnabad",
-    "p": "The Telangana government has given administrative approval of Rs 2.30 crore for a memorial park and hall for freedom fighter Anabheri Prabhakar Rao. It will come up at Mohammedapur village near Husnabad in Siddipet district. The Telangana Tourism Development Corporation will carry out the work, funded from the tourism infrastructure budget.",
-    "pts": [
-     "Anabheri is known as the 'Telangana Bhagat Singh'",
-     "The tourism corporation's MD will take further action"
-    ],
-    "why": "People of the Husnabad area will get a memorial to a local freedom fighter and a new tourist spot."
-   },
-   "hi": {
-    "cat": "तेलंगाना · संस्कृति",
-    "h": "अनभेरी स्मारक पार्क के लिए 2.30 करोड़",
-    "stat": "₹2.30 करोड़",
-    "statl": "अनभेरी स्मारक के लिए मंजूर",
-    "loc": "मोहम्मदापुर, हुस्नाबाद",
-    "p": "तेलंगाना सरकार ने स्वतंत्रता सेनानी अनभेरी प्रभाकर राव के स्मारक पार्क और हॉल के लिए 2.30 करोड़ रुपये की प्रशासनिक मंजूरी दी है। यह सिद्दिपेट जिले में हुस्नाबाद के पास मोहम्मदापुर गांव में बनेगा। काम तेलंगाना पर्यटन विकास निगम करेगा और राशि पर्यटन बुनियादी ढांचे के बजट से खर्च होगी।",
-    "pts": [
-     "अनभेरी को 'तेलंगाना का भगत सिंह' कहा जाता है",
-     "आगे की कार्रवाई पर्यटन निगम के एमडी करेंगे"
-    ],
-    "why": "हुस्नाबाद क्षेत्र के लोगों को स्थानीय सेनानी का स्मारक और नया पर्यटन स्थल मिलेगा।"
-   },
-   "d": "20.11.2026",
-   "t": "16:05"
-  },
-  {
-   "cat": "తెలంగాణ · ఆవిష్కరణ",
-   "col": "--c-city",
-   "pic": "c/startups",
-   "stat": "180 గ్రాముల",
-   "statl": "లోపు సైనిక రేడియో",
-   "h": "బిట్స్ విద్యార్థుల పాకెట్ రేడియో",
-   "p": "బిట్స్ పిలానీ హైదరాబాద్ క్యాంపస్ విద్యార్థులు ఇద్దరు సైన్యం కోసం 'క్రాత్ కంట్రోల్' అనే పాకెట్ రేడియోను రూపొందించారు. మొబైల్ నెట్‌వర్క్, సిమ్, ఉపగ్రహం లేకుండానే మాటలు, డేటా, లొకేషన్ పంపవచ్చని వారి స్టార్టప్ క్రాత్‌వీల్ చెబుతోంది. దిగుమతి చేసుకునే పరికరం ధర ₹2 లక్షలు కాగా, దీన్ని ₹40 వేలకు అందించాలన్నది వారి లక్ష్యం.",
-   "pts": [
-    "రెండు సైనిక యూనిట్లు నమూనాను పరిశీలించాయి",
-    "మెరుగైన వెర్షన్ ఐదారు నెలల్లో: వ్యవస్థాపకుడు",
-    "100 కిలోమీటర్లకు పైగా పరిధి అని కంపెనీ మాట"
-   ],
-   "why": "హైదరాబాద్ విద్యార్థుల స్టార్టప్‌లు రక్షణ రంగ అవసరాలకు పనిచేయగలవని యువతకు ఇది చూపుతోంది.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/bits-students-develop-army-radio-device-4cae3e3b",
-   "sec": [
-    "telangana",
-    "innovation"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "హైదరాబాద్",
-   "pub": "2026-11-20T14:57+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Telangana · Innovation",
-    "h": "BITS Hyderabad students build pocket radio",
-    "stat": "Under 180 g",
-    "statl": "pocket radio for the Army",
-    "loc": "Hyderabad",
-    "p": "Two students of BITS Pilani's Hyderabad campus have built 'Krath Control', a pocket radio meant for the Army. Their start-up Krathveil says it can send voice, data and live location without a mobile network, SIM or satellite. Similar imported devices cost Rs 2 lakh each; they aim to offer theirs at Rs 40,000.",
-    "pts": [
-     "Two Army units have assessed the prototype",
-     "Upgraded version in five to six months: founder",
-     "Company claims a range of over 100 km"
-    ],
-    "why": "It shows young people that Hyderabad student start-ups can work on defence needs."
-   },
-   "hi": {
-    "cat": "तेलंगाना · नवाचार",
-    "h": "बिट्स हैदराबाद के छात्रों ने बनाया पॉकेट रेडियो",
-    "stat": "180 ग्राम से कम",
-    "statl": "वजन का सैन्य रेडियो",
-    "loc": "हैदराबाद",
-    "p": "बिट्स पिलानी हैदराबाद कैंपस के दो छात्रों ने सेना के लिए 'क्राथ कंट्रोल' नाम का पॉकेट रेडियो बनाया है। उनके स्टार्टअप क्राथवील का कहना है कि यह मोबाइल नेटवर्क, सिम या उपग्रह के बिना आवाज, डेटा और लोकेशन भेज सकता है। ऐसे आयातित उपकरण की कीमत 2 लाख रुपये है; वे इसे 40 हजार रुपये में देना चाहते हैं।",
-    "pts": [
-     "सेना की दो इकाइयों ने प्रोटोटाइप परखा",
-     "उन्नत संस्करण पांच-छह महीने में: संस्थापक",
-     "कंपनी का दावा: 100 किमी से अधिक रेंज"
-    ],
-    "why": "यह युवाओं को दिखाता है कि हैदराबाद के छात्र स्टार्टअप रक्षा जरूरतों पर काम कर सकते हैं।"
-   },
-   "d": "20.11.2026",
-   "t": "16:05"
-  },
-  {
-   "cat": "పెద్దపల్లి · ఉద్యోగాలు",
-   "col": "--c-gov",
-   "pic": "c/jobs",
-   "stat": "2,000కు పైగా",
-   "statl": "ఉద్యోగాలకు జాబ్ మేళా",
-   "h": "పెద్దపల్లిలో శనివారం మెగా జాబ్ మేళా",
-   "p": "పెద్దపల్లి ప్రగతి నగర్‌లోని ట్రినిటీ ఇంజినీరింగ్ కళాశాలలో శనివారం ఉదయం 9 గంటల నుంచి మెగా జాబ్ మేళా జరగనుంది. 2,000కు పైగా ఉద్యోగాల కోసం సుమారు 20 బహుళజాతి కంపెనీలు పాల్గొంటాయని నిర్వాహకులు తెలిపారు. మాజీ మున్సిపల్ ఛైర్‌పర్సన్ డాక్టర్ దాసరి మమతా రెడ్డి శుక్రవారం పోస్టర్ ఆవిష్కరించారు. అభ్యర్థులు బయోడేటాతో హాజరు కావాలి.",
-   "pts": [
-    "డిగ్రీ, పీజీ చదివినవారు, చదువుతున్నవారు అర్హులు",
-    "మాజీ ఎమ్మెల్యే దాసరి మనోహర్ రెడ్డి ఆధ్వర్యంలో నిర్వహణ"
-   ],
-   "why": "పెద్దపల్లి ప్రాంత నిరుద్యోగ యువతకు సొంత ఊరిలోనే ఉద్యోగ అవకాశాలు పొందే వీలు కలుగుతుంది.",
-   "src": "HMTV",
-   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/dr-dasari-mamatha-reddy-unveils-peddapalli-mega-job-mela-poster-215153",
-   "sec": [
-    "telangana",
-    "jobs"
-   ],
-   "st": "TG",
-   "place": "peddapalli",
-   "loc": "ప్రగతి నగర్, పెద్దపల్లి",
-   "next": "జాబ్ మేళా నవంబర్ 21 శనివారం ఉదయం 9 గంటలకు",
-   "pub": "2026-11-20T14:35+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Peddapalli · Jobs",
-    "h": "Mega job mela in Peddapalli on Saturday",
-    "stat": "Over 2,000 jobs",
-    "statl": "at the job mela",
-    "loc": "Pragathi Nagar, Peddapalli",
-    "p": "A mega job mela will be held at Trinity Engineering College in Pragathi Nagar, Peddapalli, from 9 am on Saturday. Organisers said about 20 multinational companies will take part for over 2,000 jobs. Former municipal chairperson Dr Dasari Mamatha Reddy released the poster on Friday. Candidates should bring their biodata.",
-    "pts": [
-     "Graduates, postgraduates and those still studying are eligible",
-     "Held under former MLA Dasari Manohar Reddy"
-    ],
-    "why": "Unemployed youth of the Peddapalli area get a chance at jobs in their own town.",
-    "next": "Job mela on Saturday, November 21, at 9 am"
-   },
-   "hi": {
-    "cat": "पेद्दापल्ली · नौकरियां",
-    "h": "पेद्दापल्ली में शनिवार को मेगा जॉब मेला",
-    "stat": "2,000 से अधिक",
-    "statl": "नौकरियों के लिए जॉब मेला",
-    "loc": "प्रगति नगर, पेद्दापल्ली",
-    "p": "पेद्दापल्ली के प्रगति नगर स्थित ट्रिनिटी इंजीनियरिंग कॉलेज में शनिवार सुबह 9 बजे से मेगा जॉब मेला होगा। आयोजकों ने बताया कि 2,000 से अधिक नौकरियों के लिए करीब 20 बहुराष्ट्रीय कंपनियां हिस्सा लेंगी। पूर्व नगरपालिका अध्यक्ष डॉ. दासरी ममता रेड्डी ने शुक्रवार को पोस्टर जारी किया। अभ्यर्थी बायोडाटा साथ लाएं।",
-    "pts": [
-     "स्नातक, स्नातकोत्तर और पढ़ रहे छात्र पात्र हैं",
-     "पूर्व विधायक दासरी मनोहर रेड्डी के तत्वावधान में आयोजन"
-    ],
-    "why": "पेद्दापल्ली क्षेत्र के बेरोजगार युवाओं को अपने ही शहर में नौकरी का मौका मिलेगा।",
-    "next": "जॉब मेला शनिवार 21 नवंबर सुबह 9 बजे"
-   },
-   "d": "20.11.2026",
-   "t": "16:05"
-  },
-  {
-   "cat": "ఏపీ · అనంతపురం",
-   "col": "--c-election",
-   "pic": "c/politics",
-   "stat": "తాడిపత్రిలో",
-   "statl": "ఇంటిపై దాడి",
-   "h": "తాడిపత్రిలో పెద్దారెడ్డి ఇంటిపై దాడి",
-   "p": "అనంతపురం జిల్లా తాడిపత్రిలో వైసీపీ మాజీ ఎమ్మెల్యే కేతిరెడ్డి పెద్దారెడ్డి ఇంటిపై శుక్రవారం దాడి జరిగింది. రాళ్లు విసిరి, బయట నిలిపిన వాహనాలకు నిప్పు పెట్టారు. టీడీపీ వర్గీయులే ఈ దాడి చేశారని వైసీపీ ఆరోపించింది. అగ్నిమాపక సిబ్బంది మంటలను ఆర్పారు. పట్టణంలో పోలీసులు భద్రత పెంచి, ప్రధాన రహదారులపై చెక్‌పోస్టులు ఏర్పాటు చేశారు.",
-   "pts": [
-    "ఉదయం పెద్దారెడ్డి పోలీసులకు లిఖితపూర్వక ఫిర్యాదు ఇచ్చారు",
-    "కాలిపోయిన వాహనాల సంఖ్యపై భిన్న కథనాలు ఉన్నాయి"
-   ],
-   "why": "స్థానిక సంస్థల ఎన్నికల వేళ తాడిపత్రి ప్రజల రోజువారీ జీవనం, భద్రతపై ఈ ఉద్రిక్తత ప్రభావం చూపుతుంది.",
-   "src": "Oneindia Telugu",
-   "url": "https://telugu.oneindia.com/news/andhra-pradesh/tension-prevailed-in-tadipatri-after-former-ysrcp-mla-kethireddy-pedda-reddy-residence-was-torched-515785.html",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-anantapur",
-   "loc": "తాడిపత్రి",
-   "pub": "2026-11-20T14:46+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "AP · Anantapur",
-    "h": "Ex-MLA's house attacked in Tadipatri",
-    "stat": "Tadipatri",
-    "statl": "ex-MLA's house attacked",
-    "loc": "Tadipatri",
-    "p": "The house of former YSRCP MLA Kethireddy Peddareddy in Tadipatri, Anantapur district, was attacked on Friday. Stones were thrown and vehicles parked outside were set on fire. YSRCP alleged that TDP supporters carried out the attack. Fire services put out the flames. Police stepped up security and set up checkposts on main roads.",
-    "pts": [
-     "Peddareddy gave police a written complaint in the morning",
-     "Reports differ on how many vehicles were burnt"
-    ],
-    "why": "With local body polls on, the tension affects daily life and safety for people in Tadipatri."
-   },
-   "hi": {
-    "cat": "एपी · अनंतपुर",
-    "h": "ताड़िपत्री में पूर्व विधायक के घर पर हमला",
-    "stat": "ताड़िपत्री",
-    "statl": "पूर्व विधायक के घर पर हमला",
-    "loc": "ताड़िपत्री",
-    "p": "अनंतपुर जिले के ताड़िपत्री में वाईएसआरसीपी के पूर्व विधायक केतिरेड्डी पेद्दारेड्डी के घर पर शुक्रवार को हमला हुआ। पत्थर फेंके गए और बाहर खड़े वाहनों में आग लगा दी गई। वाईएसआरसीपी ने आरोप लगाया कि हमला टीडीपी समर्थकों ने किया। दमकल कर्मियों ने आग बुझाई। पुलिस ने सुरक्षा बढ़ाई और मुख्य सड़कों पर चेकपोस्ट लगाए।",
-    "pts": [
-     "पेद्दारेड्डी ने सुबह पुलिस को लिखित शिकायत दी",
-     "जले वाहनों की संख्या पर अलग-अलग खबरें हैं"
-    ],
-    "why": "स्थानीय निकाय चुनाव के बीच यह तनाव ताड़िपत्री के लोगों के रोजमर्रा जीवन और सुरक्षा पर असर डालता है।"
-   },
-   "d": "20.11.2026",
-   "t": "16:05"
-  },
-  {
-   "cat": "ఏపీ · స్థానిక సంస్థలు",
-   "col": "--c-election",
-   "pic": "c/politics",
-   "stat": "28 జడ్పీలకు",
-   "statl": "ఛైర్‌పర్సన్ల ఎన్నిక",
-   "h": "ఏపీలో జడ్పీ ఛైర్‌పర్సన్ల ఎన్నిక",
-   "p": "ఆంధ్రప్రదేశ్‌లో జిల్లా పరిషత్ ఛైర్‌పర్సన్, వైస్ ఛైర్‌పర్సన్ ఎన్నికలు శుక్రవారం జరిగాయి. కొత్త జిల్లాల ఏర్పాటు తర్వాత 28 జడ్పీలకు ఇవే తొలి ఎన్నికలు. ఎన్టీఆర్ జిల్లాలో కోట పుల్లమ్మ, కర్నూలులో ఉలిగయ్య, చిత్తూరులో ఎం.శైలజ ఏకగ్రీవంగా ఎన్నికయ్యారు. శ్రీ సత్యసాయి జిల్లాలో పరిటాల శ్రీరామ్, కడపలో పుత్తా నరసింహారెడ్డి ఛైర్‌పర్సన్లుగా ప్రమాణం చేశారు.",
-   "pts": [
-    "విజయనగరంలో మజ్జి సిరిసహస్ర ఎన్నిక",
-    "మన్యం జిల్లా ఛైర్‌పర్సన్ పదవి జనసేనకు",
-    "కొన్ని జిల్లాల్లో కలెక్టర్లు ప్రమాణం చేయించారు"
-   ],
-   "why": "గ్రామీణ ప్రాంతాల రోడ్లు, తాగునీరు వంటి పనులపై నిర్ణయాలు ఇకపై ఈ కొత్త జడ్పీ పాలకవర్గాలే తీసుకుంటాయి.",
-   "src": "ETV Bharat",
-   "url": "https://www.etvbharat.com/te/state/winners-list-of-chairperson-and-vice-chairperson-of-zilla-parishads-in-ap-aps26112003651",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "AP",
-   "pub": "2026-11-20T15:33+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Local bodies",
-    "h": "AP elects zilla parishad chairpersons",
-    "stat": "28 ZPs",
-    "statl": "elect chairpersons",
-    "loc": "Andhra Pradesh",
-    "p": "Elections for zilla parishad chairpersons and vice-chairpersons were held in Andhra Pradesh on Friday, the first for 28 ZPs since new districts were formed. Kota Pullamma in NTR district, Uligayya in Kurnool and M. Sailaja in Chittoor were elected unopposed. Paritala Sriram in Sri Sathya Sai district and Putta Narasimha Reddy in Kadapa took oath as chairpersons.",
-    "pts": [
-     "Majji Sirisahasra elected in Vizianagaram",
-     "Manyam district chairperson post goes to Jana Sena",
-     "Collectors administered the oath in some districts"
-    ],
-    "why": "These new ZP bodies will now decide on rural works such as roads and drinking water."
-   },
-   "hi": {
-    "cat": "एपी · स्थानीय निकाय",
-    "h": "आंध्र में जिला परिषद अध्यक्षों का चुनाव",
-    "stat": "28 जिला परिषदों",
-    "statl": "के अध्यक्षों का चुनाव",
-    "loc": "आंध्र प्रदेश",
-    "p": "आंध्र प्रदेश में जिला परिषद अध्यक्ष और उपाध्यक्ष के चुनाव शुक्रवार को हुए; नए जिले बनने के बाद 28 जिला परिषदों के लिए ये पहले चुनाव हैं। एनटीआर जिले में कोटा पुल्लम्मा, कर्नूल में उलिगय्या और चित्तूर में एम. शैलजा निर्विरोध चुनी गईं। श्री सत्य साई जिले में परिटाला श्रीराम और कडपा में पुत्ता नरसिम्हा रेड्डी ने अध्यक्ष पद की शपथ ली।",
-    "pts": [
-     "विजयनगरम में मज्जी सिरिसहस्रा चुनी गईं",
-     "मन्यम जिले का अध्यक्ष पद जनसेना को",
-     "कुछ जिलों में कलेक्टरों ने शपथ दिलाई"
-    ],
-    "why": "ग्रामीण सड़कों और पेयजल जैसे कामों पर फैसले अब ये नई जिला परिषदें लेंगी।"
-   },
-   "d": "20.11.2026",
-   "t": "16:05"
-  },
-  {
-   "cat": "ఏపీ · పథకాలు",
-   "col": "--c-gov",
-   "pic": "c/schemes",
-   "stat": "మెప్మాకు",
-   "statl": "జాతీయ అవార్డులు",
-   "h": "ఏపీ మెప్మాకు పీఎం స్వనిధి అవార్డులు",
-   "p": "వీధి వ్యాపారులకు రుణాలిచ్చే పీఎం స్వనిధి పథకం అమలులో ఆంధ్రప్రదేశ్ పట్టణ పేదరిక నిర్మూలన సంస్థ (మెప్మా) జాతీయ అవార్డులు పొందింది. పథకం అమలులో దేశంలో మూడో స్థానం, రుణాల మంజూరులో రెండో స్థానం, ప్రత్యేక శిబిరాల నిర్వహణలో మొదటి స్థానం దక్కాయి. అవార్డులు పొందిన అధికారులు, సిబ్బందిని పురపాలక మంత్రి నారాయణ అభినందించారు.",
-   "pts": [
-    "రామచంద్రపురం, అమలాపురం పురపాలికలకు తొలి రెండు అవార్డులు",
-    "డిజిటల్ లావాదేవీల్లో విజయనగరానికి రెండో స్థానం"
-   ],
-   "why": "పట్టణాల్లోని వీధి వ్యాపారులకు తక్కువ వడ్డీ రుణాలు ఎంత మేర అందుతున్నాయో ఈ ర్యాంకులు సూచిస్తాయి.",
-   "src": "Andhra Jyothy",
-   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/krishna/ap-mepma-national-awards-pm-svanidhi-scheme-minister-narayana-suchi-1578168.html",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "AP",
-   "loc": "అమరావతి",
-   "pub": "2026-11-20T15:02+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Schemes",
-    "h": "AP MEPMA wins national PM SVANidhi awards",
-    "stat": "MEPMA",
-    "statl": "wins national awards",
-    "loc": "Amaravati",
-    "p": "Andhra Pradesh's urban poverty elimination agency MEPMA has won national awards for implementing PM SVANidhi, the loan scheme for street vendors. The state ranked third in the country in implementation, second in loans sanctioned and first in holding special camps. Municipal minister Narayana congratulated the officials and staff who received the awards.",
-    "pts": [
-     "Ramachandrapuram and Amalapuram municipalities won the top two awards",
-     "Vizianagaram ranked second in digital transactions"
-    ],
-    "why": "The rankings indicate how far low-interest loans are reaching street vendors in towns."
-   },
-   "hi": {
-    "cat": "एपी · योजनाएं",
-    "h": "पीएम स्वनिधि में एपी मेपमा को राष्ट्रीय पुरस्कार",
-    "stat": "मेपमा को",
-    "statl": "राष्ट्रीय पुरस्कार",
-    "loc": "अमरावती",
-    "p": "रेहड़ी-पटरी वालों को ऋण देने वाली पीएम स्वनिधि योजना के क्रियान्वयन में आंध्र प्रदेश की शहरी गरीबी उन्मूलन संस्था मेपमा को राष्ट्रीय पुरस्कार मिले हैं। राज्य को क्रियान्वयन में देश में तीसरा, ऋण मंजूरी में दूसरा और विशेष शिविरों के आयोजन में पहला स्थान मिला। नगरपालिका मंत्री नारायण ने पुरस्कार पाने वाले अधिकारियों और कर्मचारियों को बधाई दी।",
-    "pts": [
-     "रामचंद्रपुरम और अमलापुरम नगरपालिकाओं को पहले दो पुरस्कार",
-     "डिजिटल लेनदेन में विजयनगरम दूसरे स्थान पर"
-    ],
-    "why": "ये रैंक बताते हैं कि शहरों के रेहड़ी-पटरी वालों तक कम ब्याज के ऋण कितने पहुंच रहे हैं।"
-   },
-   "d": "20.11.2026",
-   "t": "16:05"
-  },
-  {
-   "cat": "ఏపీ · విశాఖ",
-   "col": "--c-city",
-   "pic": "n/condolence",
-   "stat": "విశాఖ మేయర్",
-   "statl": "తండ్రి కన్నుమూత",
-   "h": "విశాఖ మేయర్ ముక్కా శ్రావణి తండ్రి మృతి",
-   "p": "విశాఖపట్నం నగరపాలక సంస్థ మేయర్‌గా కొత్తగా ఎన్నికైన ముక్కా శ్రావణి తండ్రి, మాజీ కార్పొరేటర్ ముక్కా ముత్యాల నాయుడు కన్నుమూశారు. కుమార్తె మేయర్‌గా ప్రమాణం చేయడాన్ని చూడకముందే ఆయన మృతి చెందారు. టీడీపీ రాష్ట్ర అధ్యక్షుడు పల్లా శ్రీనివాసరావు, మంత్రి నారా లోకేశ్ సంతాపం తెలిపారు. కార్పొరేటర్‌గా, టీడీపీ నేతగా ఆయన సేవలు గుర్తుండిపోతాయని లోకేశ్ అన్నారు.",
-   "pts": [
-    "కుటుంబానికి ధైర్యం కలగాలని పల్లా ప్రార్థించారు"
-   ],
-   "why": "విశాఖ నగర ప్రజలకు సుపరిచితుడైన మాజీ కార్పొరేటర్ మృతి స్థానిక రాజకీయ వర్గాల్లో విషాదం నింపింది.",
-   "src": "ap7am",
-   "url": "https://www.ap7am.com/tn/887393/mukka-sravani-father-passes-away-palla-and-lokesh-express-condolences",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-visakhapatnam",
-   "loc": "విశాఖపట్నం",
-   "pub": "2026-11-20T13:11+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Visakhapatnam",
-    "h": "Vizag mayor Mukka Sravani's father dies",
-    "stat": "Vizag mayor",
-    "statl": "loses her father",
-    "loc": "Visakhapatnam",
-    "p": "Mukka Mutyala Naidu, a former corporator and father of newly elected Greater Visakhapatnam mayor Mukka Sravani, has died. He passed away before he could see his daughter take oath as mayor. TDP state president Palla Srinivasa Rao and minister Nara Lokesh expressed condolences. Lokesh said his services as a corporator and TDP leader would be remembered.",
-    "pts": [
-     "Palla prayed for strength for the family"
-    ],
-    "why": "The death of a former corporator well known in the city has saddened local political circles."
-   },
-   "hi": {
-    "cat": "एपी · विशाखापत्तनम",
-    "h": "विशाखा मेयर मुक्का श्रावणी के पिता का निधन",
-    "stat": "विशाखा मेयर",
-    "statl": "के पिता का निधन",
-    "loc": "विशाखापत्तनम",
-    "p": "विशाखापत्तनम नगर निगम की नवनिर्वाचित मेयर मुक्का श्रावणी के पिता और पूर्व पार्षद मुक्का मुत्याला नायडू का निधन हो गया। बेटी को मेयर पद की शपथ लेते देखने से पहले ही उनका निधन हुआ। टीडीपी प्रदेश अध्यक्ष पल्ला श्रीनिवास राव और मंत्री नारा लोकेश ने शोक जताया। लोकेश ने कहा कि पार्षद और टीडीपी नेता के रूप में उनकी सेवाएं याद रहेंगी।",
-    "pts": [
-     "पल्ला ने परिवार को हिम्मत मिलने की प्रार्थना की"
-    ],
-    "why": "शहर में जाने-माने पूर्व पार्षद के निधन से स्थानीय राजनीतिक हलकों में शोक है।"
-   },
-   "d": "20.11.2026",
-   "t": "16:05"
-  },
-  {
-   "cat": "ఏపీ · విజయవాడ",
-   "col": "--c-city",
-   "pic": "c/devotional",
-   "stat": "294 గ్రాముల",
-   "statl": "బంగారు ఆభరణాల కానుక",
-   "h": "ఇంద్రకీలాద్రి దుర్గమ్మకు ₹47 లక్షల నగలు",
-   "p": "విజయవాడ ఇంద్రకీలాద్రిపై కనకదుర్గ అమ్మవారికి ఓ భక్తుడి కుటుంబం 294 గ్రాముల బంగారు ఆభరణాలను కానుకగా సమర్పించింది. మంగళసూత్రాలు, కాసుల హారంతో కూడిన వీటి విలువ సుమారు ₹47.05 లక్షలు. ఆలయ పాలకమండలి ఛైర్మన్ బొర్రా రాధాకృష్ణకు ఆభరణాలను అందజేశారు. అధికారులు నిబంధనల ప్రకారం స్వీకరించి రసీదు ఇచ్చారు. దాత కుటుంబానికి ప్రత్యేక దర్శనం కల్పించారు.",
-   "pts": [
-    "దాత ఆలయానికి గ్యాస్ సరఫరా చేసే డీలర్",
-    "వేద పండితులు దాత కుటుంబానికి ఆశీర్వచనం అందించారు"
-   ],
-   "why": "దుర్గమ్మ భక్తులకు ఆలయానికి అందుతున్న కానుకల వివరాలు తెలుస్తాయి.",
-   "src": "ETV Bharat",
-   "url": "https://www.etvbharat.com/te/videos/devotee-offers-294-grams-of-gold-ornaments-to-kanaka-durga-temple-in-vijayawada-aps26112002583",
-   "sec": [
-    "telangana",
-    "culture"
-   ],
-   "st": "AP",
-   "place": "ap-ntr",
-   "loc": "ఇంద్రకీలాద్రి, విజయవాడ",
-   "pub": "2026-11-20T15:09+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Vijayawada",
-    "h": "Rs 47 lakh gold gifted to Durga temple",
-    "stat": "294 grams",
-    "statl": "of gold ornaments gifted",
-    "loc": "Indrakeeladri, Vijayawada",
-    "p": "A devotee's family has gifted 294 grams of gold ornaments to Goddess Kanaka Durga at Indrakeeladri in Vijayawada. The mangalsutras and a coin necklace are worth about Rs 47.05 lakh. They were handed to temple board chairman Borra Radhakrishna. Officials accepted them as per rules and issued a receipt. The donor family was given a special darshan.",
-    "pts": [
-     "The donor is a dealer who supplies gas to the temple",
-     "Vedic priests blessed the donor family"
-    ],
-    "why": "Durga devotees get to know about the offerings the temple receives."
-   },
-   "hi": {
-    "cat": "एपी · विजयवाड़ा",
-    "h": "दुर्गा मंदिर को 47 लाख के स्वर्ण आभूषण भेंट",
-    "stat": "294 ग्राम",
-    "statl": "स्वर्ण आभूषण भेंट",
-    "loc": "इंद्रकीलाद्रि, विजयवाड़ा",
-    "p": "विजयवाड़ा के इंद्रकीलाद्रि पर कनकदुर्गा देवी को एक भक्त के परिवार ने 294 ग्राम सोने के आभूषण भेंट किए। मंगलसूत्र और कासुला हार वाले इन आभूषणों का मूल्य करीब 47.05 लाख रुपये है। आभूषण मंदिर बोर्ड के अध्यक्ष बोर्रा राधाकृष्ण को सौंपे गए। अधिकारियों ने नियमानुसार इन्हें स्वीकार कर रसीद दी। दाता परिवार को विशेष दर्शन कराया गया।",
-    "pts": [
-     "दाता मंदिर को गैस आपूर्ति करने वाले डीलर हैं",
-     "वैदिक पंडितों ने दाता परिवार को आशीर्वाद दिया"
-    ],
-    "why": "दुर्गा भक्तों को मंदिर को मिलने वाली भेंटों की जानकारी मिलती है।"
-   },
-   "d": "20.11.2026",
-   "t": "16:05"
   },
   {
    "cat": "ఏపీ · తిరుపతి",

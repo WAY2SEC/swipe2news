@@ -1,8 +1,553 @@
 {
  "date": "20.11.2026",
  "iso": "2026-11-20",
- "count": 140,
+ "count": 150,
  "stories": [
+  {
+   "cat": "హైదరాబాద్ · నీరు",
+   "col": "--c-water",
+   "art": "water",
+   "pic": "n/water",
+   "stat": "24 గంటలు",
+   "statl": "నీటి సరఫరా నిలిపివేత",
+   "h": "సూరారంలో 24 గంటలు నీటి సరఫరా బంద్",
+   "p": "హైదరాబాద్‌లోని సూరారం, సాయిబాబా నగర్ వార్డుల్లోని పలు కాలనీలకు శనివారం రాత్రి 9 గంటల నుంచి ఆదివారం రాత్రి 9 గంటల వరకు తాగునీటి సరఫరా నిలిచిపోనుంది. సూరారం చెరువు నుంచి శివాలయ నగర్ మురుగుశుద్ధి కేంద్రం వరకు 800 మిల్లీమీటర్ల మురుగునీటి పైపులైన్ పనుల కారణంగా ఈ అంతరాయం ఏర్పడనుంది. నీటిని పొదుపుగా వాడుకోవాలని ప్రజలకు సూచించారు.",
+   "pts": [
+    "విశ్వకర్మ కాలనీ, వైష్ణవి నగర్, లక్ష్మీ నగర్‌లో అంతరాయం",
+    "తెలుగు తల్లి నగర్, జై భీమ్ నగర్, మైత్రి నగర్‌లోనూ ప్రభావం"
+   ],
+   "why": "సూరారం పరిసర కాలనీల వారు ముందుగానే నీటిని నిల్వ చేసుకోవాల్సి ఉంటుంది.",
+   "src": "The Siasat Daily",
+   "url": "https://www.siasat.com/hyderabad-water-supply-to-be-disrupted-for-24-hours-on-weekend-3582365/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "medchal",
+   "loc": "సూరారం",
+   "pub": "2026-11-20T19:44+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Water",
+    "h": "24-hour water cut in Suraram areas",
+    "stat": "24 hours",
+    "statl": "water supply shutdown",
+    "loc": "Suraram",
+    "p": "Drinking water supply to several colonies in the Suraram and Saibaba Nagar wards of Hyderabad will stop from 9 pm on Saturday to 9 pm on Sunday. The disruption is due to work on an 800 mm sewerage pipeline from Suraram tank to the Shivalaya Nagar sewage treatment plant. Residents have been asked to use water sparingly.",
+    "pts": [
+     "Vishwakarma Colony, Vaishnavi Nagar, Lakshmi Nagar affected",
+     "Telugu Thalli Nagar, Jai Bheem Nagar, Maitri Nagar also hit"
+    ],
+    "why": "Residents of colonies around Suraram will need to store water in advance.",
+    "next": "Supply stops from 9 pm on November 21"
+   },
+   "hi": {
+    "cat": "हैदराबाद · पानी",
+    "h": "सूरारम क्षेत्र में 24 घंटे पानी बंद",
+    "stat": "24 घंटे",
+    "statl": "जल आपूर्ति बंद",
+    "loc": "सूरारम",
+    "p": "हैदराबाद के सूरारम और साईबाबा नगर वार्ड की कई कॉलोनियों में शनिवार रात 9 बजे से रविवार रात 9 बजे तक पेयजल आपूर्ति बंद रहेगी। सूरारम तालाब से शिवालय नगर सीवेज शोधन संयंत्र तक 800 मिमी सीवरेज पाइपलाइन के काम के कारण यह बाधा आएगी। लोगों से पानी किफायत से इस्तेमाल करने को कहा गया है।",
+    "pts": [
+     "विश्वकर्मा कॉलोनी, वैष्णवी नगर, लक्ष्मी नगर प्रभावित",
+     "तेलुगु तल्ली नगर, जय भीम नगर, मैत्री नगर में भी असर"
+    ],
+    "why": "सूरारम के आसपास की कॉलोनियों के लोगों को पहले से पानी जमा करना होगा।",
+    "next": "21 नवंबर रात 9 बजे से आपूर्ति बंद"
+   },
+   "d": "20.11.2026",
+   "t": "20:05",
+   "next": "నవంబర్ 21 రాత్రి 9 గంటల నుంచి సరఫరా నిలిపివేత"
+  },
+  {
+   "cat": "హైదరాబాద్ · కోర్టు",
+   "col": "--c-gov",
+   "art": "court",
+   "pic": "c/courts",
+   "stat": "సోమవారం తీర్పు",
+   "statl": "బెయిల్ పిటిషన్లపై",
+   "h": "ఐవీఎఫ్ వైద్యుల బెయిల్‌పై సోమవారం తీర్పు",
+   "p": "అక్రమ అండాల సేకరణ కేసులో పలు ఐవీఎఫ్ కేంద్రాల వైద్యులు వేసిన ముందస్తు బెయిల్ పిటిషన్లపై తెలంగాణ హైకోర్టు శుక్రవారం విచారణ జరిపింది. ఎక్కువ అండాల కోసం మహిళలకు హార్మోన్ ఇంజెక్షన్లు ఇవ్వడం దోపిడీ కాదా అని ధర్మాసనం ప్రశ్నించింది. తీర్పు వచ్చే వరకు నిందితులైన వైద్యులు ఆసుపత్రులకు వెళ్లరాదని ఆదేశించి, తీర్పును సోమవారానికి వాయిదా వేసింది.",
+   "pts": [
+    "ఏఆర్‌టీ చట్టం వైద్యులకే వర్తిస్తుందన్న హైకోర్టు",
+    "ఆధారాలు తారుమారు కావచ్చని పబ్లిక్ ప్రాసిక్యూటర్ అభ్యంతరం"
+   ],
+   "why": "ఐవీఎఫ్ చికిత్స తీసుకునే మహిళల భద్రత, కేంద్రాల జవాబుదారీతనంపై ఈ కేసు ప్రభావం చూపుతుంది.",
+   "src": "NewsMeter Telugu",
+   "url": "https://telugu.newsmeter.in/hyderabad/telangana-high-court-slams-ivf-doctors-illegal-egg-donation-case-779690",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-20T19:28+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Courts",
+    "h": "HC verdict on IVF doctors' bail pleas Monday",
+    "stat": "Verdict Monday",
+    "statl": "on anticipatory bail pleas",
+    "loc": "",
+    "p": "The Telangana High Court on Friday heard anticipatory bail petitions filed by doctors of several IVF centres in the illegal egg collection case. The bench asked whether giving women hormone injections to obtain more eggs was not exploitation. It ordered that the accused doctors must not go to hospitals until the verdict, and reserved its judgment for Monday.",
+    "pts": [
+     "High Court says the ART Act applies to doctors",
+     "Public Prosecutor warned evidence could be tampered with"
+    ],
+    "why": "The case bears on the safety of women undergoing IVF treatment and the accountability of centres.",
+    "next": "Verdict on the bail pleas on Monday"
+   },
+   "hi": {
+    "cat": "हैदराबाद · अदालत",
+    "h": "आईवीएफ डॉक्टरों की जमानत पर फैसला सोमवार को",
+    "stat": "सोमवार को फैसला",
+    "statl": "अग्रिम जमानत याचिकाओं पर",
+    "loc": "",
+    "p": "अवैध अंडाणु संग्रह मामले में कई आईवीएफ केंद्रों के डॉक्टरों की अग्रिम जमानत याचिकाओं पर तेलंगाना हाईकोर्ट ने शुक्रवार को सुनवाई की। पीठ ने पूछा कि अधिक अंडाणुओं के लिए महिलाओं को हार्मोन इंजेक्शन देना क्या शोषण नहीं है। अदालत ने आदेश दिया कि फैसले तक आरोपी डॉक्टर अस्पताल नहीं जाएंगे और फैसला सोमवार के लिए सुरक्षित रखा।",
+    "pts": [
+     "हाईकोर्ट ने कहा, एआरटी कानून डॉक्टरों पर लागू",
+     "लोक अभियोजक ने सबूतों से छेड़छाड़ की आशंका जताई"
+    ],
+    "why": "यह मामला आईवीएफ उपचार कराने वाली महिलाओं की सुरक्षा और केंद्रों की जवाबदेही से जुड़ा है।",
+    "next": "जमानत याचिकाओं पर फैसला सोमवार को"
+   },
+   "d": "20.11.2026",
+   "t": "20:05",
+   "next": "బెయిల్ పిటిషన్లపై తీర్పు సోమవారం"
+  },
+  {
+   "cat": "తెలంగాణ · భూములు",
+   "col": "--c-gov",
+   "art": "land",
+   "pic": "c/realestate",
+   "stat": "4 రోజుల ముందు",
+   "statl": "పట్టాదారులకు నోటీసులు",
+   "h": "తెలంగాణ భూముల రీ సర్వేకు మార్గదర్శకాలు",
+   "p": "హైదరాబాద్ జిల్లా మినహా తెలంగాణలోని అన్ని జిల్లాల్లో భూముల రీ సర్వేకు ప్రభుత్వం మార్గదర్శకాలు జారీ చేసింది. సర్వేకు కనీసం నాలుగు రోజుల ముందు పట్టాదారులకు నోటీసులు ఇస్తారు. దండోరా, గ్రామసభల ద్వారా గ్రామస్థులకు సమాచారం అందిస్తారు. రైతులు భూ భారతి పోర్టల్ నుంచి పహాణీ ప్రతిని సిద్ధంగా ఉంచుకోవాలి. కొలతల ఫలితాన్ని అక్కడికక్కడే రైతుకు తెలియజేస్తారు.",
+   "pts": [
+    "రెండు రోజుల ముందు హద్దులపై జెండాలు ఏర్పాటు",
+    "విస్తీర్ణంలో తేడాలుంటే తహసీల్దార్ 3–4 రోజులు శిబిరాలు",
+    "అభ్యంతరాలు పరిష్కరించాకే తుది గెజిట్"
+   ],
+   "why": "భూమి ఉన్న ప్రతి రైతు సర్వే సమయంలో పత్రాలతో హాజరు కావాల్సి ఉంటుంది.",
+   "src": "BIG TV",
+   "url": "https://www.bigtvlive.com/telangana/telangana-land-re-survey-new-guidelines-bhu-bharati-portal-farmers-latest-updates.html",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-20T19:21+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Land",
+    "h": "Guidelines issued for Telangana land re-survey",
+    "stat": "4 days ahead",
+    "statl": "survey notices to landholders",
+    "loc": "",
+    "p": "The Telangana government has issued guidelines for a land re-survey in all districts except Hyderabad district. Pattadars will get notices at least four days before the survey, and villages will be informed through drum announcements and gram sabhas. Farmers should keep a pahani copy from the Bhu Bharati portal ready. The measurement result will be told to the farmer on the spot.",
+    "pts": [
+     "Flags to mark boundaries two days before survey",
+     "Tahsildar camps for 3–4 days where extents differ",
+     "Final gazette only after objections are settled"
+    ],
+    "why": "Every farmer who owns land will need to be present with documents during the survey."
+   },
+   "hi": {
+    "cat": "तेलंगाना · भूमि",
+    "h": "तेलंगाना भूमि पुनर्सर्वेक्षण के दिशानिर्देश जारी",
+    "stat": "4 दिन पहले",
+    "statl": "पट्टाधारकों को सर्वे नोटिस",
+    "loc": "",
+    "p": "तेलंगाना सरकार ने हैदराबाद जिले को छोड़कर सभी जिलों में भूमि पुनर्सर्वेक्षण के दिशानिर्देश जारी किए हैं। सर्वे से कम से कम चार दिन पहले पट्टाधारकों को नोटिस दिए जाएंगे और मुनादी व ग्राम सभाओं से गांवों को सूचना दी जाएगी। किसान भू भारती पोर्टल से पहाणी की प्रति तैयार रखें। माप का नतीजा किसान को मौके पर ही बताया जाएगा।",
+    "pts": [
+     "दो दिन पहले सीमाओं पर झंडे लगाए जाएंगे",
+     "रकबे में अंतर हो तो तहसीलदार के 3–4 दिन शिविर",
+     "आपत्तियां निपटने के बाद ही अंतिम गजट"
+    ],
+    "why": "जमीन वाले हर किसान को सर्वे के समय दस्तावेजों के साथ मौजूद रहना होगा।"
+   },
+   "d": "20.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · రాజకీయం",
+   "col": "--c-election",
+   "art": "unity",
+   "pic": "c/politics",
+   "stat": "21 మంది",
+   "statl": "కార్యకర్తలు అదుపులోకి",
+   "h": "మెటా కార్యాలయంలో యూత్ కాంగ్రెస్ నిరసన",
+   "p": "కాంగ్రెస్ నేతలు, కార్యకర్తల సోషల్ మీడియా ఖాతాలను నిలిపివేశారంటూ తెలంగాణ యూత్ కాంగ్రెస్ నాయకులు శుక్రవారం హైదరాబాద్‌లోని మెటా కార్యాలయంలోకి వెళ్లి నిరసన తెలిపారు. నినాదాలు చేస్తూ అక్కడి పూలకుండీలు, ఫర్నిచర్‌ను ధ్వంసం చేశారని కథనం పేర్కొంది. రాయదుర్గం పోలీసులు 21 మంది కార్యకర్తలను అదుపులోకి తీసుకుని, తర్వాత విడిచిపెట్టారు.",
+   "pts": [
+    "ఏడు రోజుల్లో ఖాతాలపై ఆంక్షలు తొలగించాలని యూత్ కాంగ్రెస్ డిమాండ్",
+    "మెటా స్పందన కథనంలో లేదు"
+   ],
+   "why": "సోషల్ మీడియా ఖాతాల నిలిపివేతపై రాజకీయ వివాదం నగరంలో శాంతిభద్రతల అంశంగా మారింది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/watch-telangana-youth-congress-leaders-create-ruckus-at-meta-office-in-hyderabad",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "రాయదుర్గం",
+   "pub": "2026-11-20T19:55+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Politics",
+    "h": "Youth Congress protest at Meta's Hyderabad office",
+    "stat": "21 workers",
+    "statl": "detained, later released",
+    "loc": "Raidurgam",
+    "p": "Telangana Youth Congress leaders entered Meta's office in Hyderabad on Friday and protested, alleging that the social media accounts of Congress leaders and workers had been blocked. The report says they raised slogans and damaged flower pots and furniture there. Raidurgam police took 21 workers into custody and later released them.",
+    "pts": [
+     "Youth Congress wants account curbs lifted within seven days",
+     "The report carries no response from Meta"
+    ],
+    "why": "A political row over blocked social media accounts turned into a law-and-order issue in the city."
+   },
+   "hi": {
+    "cat": "हैदराबाद · राजनीति",
+    "h": "हैदराबाद के मेटा दफ्तर में युवा कांग्रेस का प्रदर्शन",
+    "stat": "21 कार्यकर्ता",
+    "statl": "हिरासत में, बाद में रिहा",
+    "loc": "रायदुर्गम",
+    "p": "कांग्रेस नेताओं और कार्यकर्ताओं के सोशल मीडिया खाते बंद किए जाने का आरोप लगाते हुए तेलंगाना युवा कांग्रेस के नेता शुक्रवार को हैदराबाद स्थित मेटा कार्यालय में घुसे और प्रदर्शन किया। रिपोर्ट के अनुसार उन्होंने नारे लगाए और वहां गमले व फर्नीचर तोड़े। रायदुर्गम पुलिस ने 21 कार्यकर्ताओं को हिरासत में लिया और बाद में छोड़ दिया।",
+    "pts": [
+     "युवा कांग्रेस की मांग: सात दिन में खातों से रोक हटे",
+     "रिपोर्ट में मेटा की प्रतिक्रिया नहीं"
+    ],
+    "why": "सोशल मीडिया खातों पर रोक का राजनीतिक विवाद शहर में कानून-व्यवस्था का मुद्दा बन गया।"
+   },
+   "d": "20.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "నల్గొండ · నీరు",
+   "col": "--c-water",
+   "art": "water",
+   "pic": "n/water",
+   "stat": "సాగర్ జలాశయం",
+   "statl": "ఇన్‌టేక్ వెల్‌పై ఆరోపణ",
+   "h": "సాగర్ ఇన్‌టేక్ వెల్‌పై విచారణకు డిమాండ్",
+   "p": "నాగార్జునసాగర్ జలాశయం బ్యాక్‌వాటర్‌లో విజయపురి సౌత్ సమీపంలో నిర్మిస్తున్న ఇన్‌టేక్ వెల్ సంప్ పనులను తెలంగాణ రిటైర్డ్ ఇంజనీర్ల సంఘం బృందం శుక్రవారం పరిశీలించింది. ఈ పనులు జలాశయ నిబంధనలకు విరుద్ధమని సంఘం ఆరోపించింది. అనుమతి ఎలా ఇచ్చారని కన్వీనర్ శ్యామ్ ప్రసాద్ రెడ్డి ప్రశ్నించారు. సమగ్ర విచారణ జరిపి, ఉల్లంఘనలు తేలితే చర్యలు తీసుకోవాలని అధికారులను కోరారు.",
+   "pts": [
+    "కుడి గట్టు వైపు నిర్మాణాన్ని పరిశీలించిన బృందం",
+    "జలాశయ భద్రతకు ముప్పు ఉందా అన్నదీ పరిశీలన"
+   ],
+   "why": "సాగర్ నీటిపై ఆధారపడిన ఆయకట్టు రైతులు, తాగునీటి వినియోగదారులకు ఇది ముఖ్యమైన అంశం.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/trea-seeks-inquiry-into-intake-well-sump-construction-at-nagarjunasagar",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "nalgonda",
+   "loc": "నాగార్జునసాగర్",
+   "pub": "2026-11-20T19:42+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Nalgonda · Water",
+    "h": "Probe sought into Sagar intake well work",
+    "stat": "Sagar reservoir",
+    "statl": "objection to intake well work",
+    "loc": "Nagarjunasagar",
+    "p": "A team of the Telangana Retired Engineers Association on Friday inspected an intake well sump being built in the Nagarjunasagar reservoir backwaters near Vijayapuri South. The association alleged the work violates reservoir regulations. Convenor Shyam Prasad Reddy asked how permission was granted. The team urged officials to hold a full inquiry and act if violations are established.",
+    "pts": [
+     "Team examined the construction on the right bank",
+     "It also looked at whether reservoir safety is at risk"
+    ],
+    "why": "The issue matters to ayacut farmers and drinking water users who depend on Sagar water."
+   },
+   "hi": {
+    "cat": "नलगोंडा · पानी",
+    "h": "सागर इनटेक वेल के काम की जांच की मांग",
+    "stat": "सागर जलाशय",
+    "statl": "इनटेक वेल के काम पर आपत्ति",
+    "loc": "नागार्जुनसागर",
+    "p": "तेलंगाना सेवानिवृत्त इंजीनियर संघ की टीम ने शुक्रवार को नागार्जुनसागर जलाशय के बैकवाटर में विजयपुरी साउथ के पास बन रहे इनटेक वेल संप का निरीक्षण किया। संघ ने आरोप लगाया कि यह काम जलाशय के नियमों के खिलाफ है। संयोजक श्याम प्रसाद रेड्डी ने पूछा कि अनुमति कैसे दी गई। टीम ने अधिकारियों से पूरी जांच और उल्लंघन मिलने पर कार्रवाई की मांग की।",
+    "pts": [
+     "टीम ने दाहिने तट पर निर्माण देखा",
+     "जलाशय की सुरक्षा को खतरे की भी जांच की"
+    ],
+    "why": "सागर के पानी पर निर्भर किसानों और पेयजल उपभोक्ताओं के लिए यह अहम मुद्दा है।"
+   },
+   "d": "20.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "రంగారెడ్డి · భూములు",
+   "col": "--c-city",
+   "art": "land",
+   "pic": "c/realestate",
+   "stat": "11.20 ఎకరాలు",
+   "statl": "భూమి ఆక్రమణ ఆరోపణ",
+   "h": "శంషాబాద్ ప్రభుత్వ భూమి ఆక్రమణ ఆరోపణ",
+   "p": "శంషాబాద్ డీసీపీ కార్యాలయం వెనుక, ఔటర్ రింగ్ రోడ్డు పక్కన ఉన్న 11.20 ఎకరాల ప్రభుత్వ ఖాళీ భూమిని ఆక్రమించే ప్రయత్నం జరుగుతోందని స్థానికులు ఆరోపిస్తున్నారు. పాత కంచె తొలగించి రాత్రికి రాత్రే కొత్త హద్దులు, ప్రైవేటు కాపలా, సీసీ కెమెరాలు ఏర్పాటు చేశారని కథనం పేర్కొంది. ఫిర్యాదులపై స్పందన లేదని, హైడ్రా జోక్యం చేసుకోవాలని వారు కోరుతున్నారు.",
+   "pts": [
+    "భూమి విలువ సుమారు ₹600 కోట్లని కథనం",
+    "సర్వే నంబర్ 626/1ను 1981లో హుడాకు కేటాయించారు",
+    "ప్రభుత్వ భూమిని కాపాడతామన్న అధికారులు"
+   ],
+   "why": "విమానాశ్రయం సమీపంలోని విలువైన ప్రభుత్వ భూముల రక్షణ స్థానికులకు ఆందోళన కలిగిస్తోంది.",
+   "src": "ETV Bharat",
+   "url": "https://www.etvbharat.com/te/state/attempts-to-encroach-upon-government-land-worth-six-hundred-crores-in-shamshabad-hyderabad-tgs26112004262",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "rangareddy",
+   "loc": "శంషాబాద్",
+   "pub": "2026-11-20T17:38+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Rangareddy · Land",
+    "h": "Bid to grab Shamshabad govt land alleged",
+    "stat": "11.20 acres",
+    "statl": "govt land encroachment alleged",
+    "loc": "Shamshabad",
+    "p": "Residents allege an attempt is being made to encroach on 11.20 acres of vacant government land behind the Shamshabad DCP office, beside the Outer Ring Road. The report says the old fence was removed and new boundaries, private guards and CCTV cameras were put up overnight. Residents say complaints have drawn no response and want HYDRAA to step in.",
+    "pts": [
+     "Report puts the land's value at about ₹600 crore",
+     "Survey No. 626/1 was allotted to HUDA in 1981",
+     "Officials said they will protect government land"
+    ],
+    "why": "Protection of valuable government land near the airport is a concern for local residents."
+   },
+   "hi": {
+    "cat": "रंगारेड्डी · भूमि",
+    "h": "शमशाबाद में सरकारी जमीन कब्जाने की कोशिश का आरोप",
+    "stat": "11.20 एकड़",
+    "statl": "सरकारी जमीन पर कब्जे का आरोप",
+    "loc": "शमशाबाद",
+    "p": "स्थानीय लोगों का आरोप है कि शमशाबाद डीसीपी कार्यालय के पीछे, आउटर रिंग रोड के पास 11.20 एकड़ खाली सरकारी जमीन पर कब्जे की कोशिश हो रही है। रिपोर्ट के अनुसार पुरानी बाड़ हटाकर रातोंरात नई सीमाएं, निजी गार्ड और सीसीटीवी कैमरे लगा दिए गए। लोगों का कहना है कि शिकायतों पर कार्रवाई नहीं हुई और वे हाइड्रा से दखल की मांग कर रहे हैं।",
+    "pts": [
+     "रिपोर्ट के अनुसार जमीन की कीमत करीब ₹600 करोड़",
+     "सर्वे नंबर 626/1 वर्ष 1981 में हुडा को आवंटित",
+     "अधिकारियों ने कहा, सरकारी जमीन बचाएंगे"
+    ],
+    "why": "हवाई अड्डे के पास कीमती सरकारी जमीन की सुरक्षा स्थानीय लोगों की चिंता है।"
+   },
+   "d": "20.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · సైన్స్",
+   "col": "--c-gov",
+   "art": "campus",
+   "pic": "c/science",
+   "stat": "2 జన్యువుల",
+   "statl": "గుర్తింపు",
+   "h": "నరాలు పెంచే 2 జన్యువులు: సీసీఎంబీ",
+   "p": "వెన్నుపాము గాయం తర్వాత నరాల తంతువులు తిరిగి పెరిగేందుకు తోడ్పడే ఎన్‌ఆర్2ఎఫ్1, ఎన్‌ఆర్2ఎఫ్6 అనే రెండు జన్యువులను హైదరాబాద్‌లోని సీసీఎంబీ శాస్త్రవేత్తలు గుర్తించారు. ఎలుకలపై చేసిన ప్రయోగంలో ఈ జన్యువులను పునరుద్ధరించగా నరాల తంతువులు గాయాన్ని దాటి పెరిగి, కదలిక కొంతమేర తిరిగి వచ్చింది. డాక్టర్ ఈశ్వర్య వెంకటేశ్ నేతృత్వంలోని ఈ అధ్యయనం ఎంబో జర్నల్‌లో ప్రచురితమైంది.",
+   "pts": [
+    "నరాల తంతువులు గాయం దాటి 1.5 మిల్లీమీటర్ల వరకు పెరిగాయి",
+    "ఇది ప్రాథమిక దశ అధ్యయనం, కోలుకోవడం పాక్షికమే"
+   ],
+   "why": "వెన్నుపాము గాయాల చికిత్సకు భవిష్యత్తులో కొత్త మార్గాలు దొరికే అవకాశం ఉంది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/hyderabad-based-ccmb-identifies-two-genes-that-help-nerves-regrow-after-spinal-injury",
+   "sec": [
+    "telangana",
+    "innovation"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-20T19:33+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Science",
+    "h": "CCMB finds genes that help nerves regrow",
+    "stat": "2 genes",
+    "statl": "that aid nerve regrowth",
+    "loc": "",
+    "p": "Scientists at CCMB in Hyderabad have identified two genes, NR2F1 and NR2F6, that help nerve fibres regrow after spinal cord injury. In experiments on mice, restoring these genes let nerve fibres grow past the injury and brought back some movement. The study, led by Dr Ishwariya Venkatesh, has been published in The EMBO Journal.",
+    "pts": [
+     "Nerve fibres grew up to 1.5 mm beyond the injury",
+     "The study is preclinical and recovery was only partial"
+    ],
+    "why": "It could open new paths for treating spinal cord injuries in future."
+   },
+   "hi": {
+    "cat": "हैदराबाद · विज्ञान",
+    "h": "सीसीएमबी ने नसें दोबारा उगाने वाले जीन खोजे",
+    "stat": "2 जीन",
+    "statl": "नसों की वृद्धि में मददगार",
+    "loc": "",
+    "p": "हैदराबाद के सीसीएमबी के वैज्ञानिकों ने एनआर2एफ1 और एनआर2एफ6 नाम के दो जीन पहचाने हैं, जो रीढ़ की हड्डी की चोट के बाद तंत्रिका तंतुओं को दोबारा बढ़ने में मदद करते हैं। चूहों पर प्रयोग में इन जीनों को बहाल करने पर तंतु चोट के पार बढ़े और कुछ हरकत लौटी। डॉ. ईश्वर्या वेंकटेश के नेतृत्व वाला यह अध्ययन एम्बो जर्नल में छपा है।",
+    "pts": [
+     "तंत्रिका तंतु चोट के पार 1.5 मिमी तक बढ़े",
+     "अध्ययन शुरुआती चरण का है, सुधार आंशिक रहा"
+    ],
+    "why": "इससे भविष्य में रीढ़ की चोट के इलाज के नए रास्ते खुल सकते हैं।"
+   },
+   "d": "20.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · టెక్నాలజీ",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "i/it-and-ai",
+   "stat": "36 కంపెనీలు",
+   "statl": "డిజిటెక్ మిషన్‌లో",
+   "h": "హైదరాబాద్‌లో ఆస్ట్రేలియా టెక్ కంపెనీలు",
+   "p": "ఆస్ట్రేలియాకు చెందిన 36 కంపెనీల డిజిటెక్ మిషన్ బృందం నవంబర్ 16 నుంచి 20 వరకు బెంగళూరు, హైదరాబాద్‌లలో పర్యటించింది. ఆస్ట్రేడ్, టెక్ కౌన్సిల్ ఆఫ్ ఆస్ట్రేలియా ఆధ్వర్యంలో వచ్చిన ఈ బృందం హైదరాబాద్‌లో నాస్కామ్, హైసియాతో కలిసి ఐటీ, ఆరోగ్య రంగ ప్రతినిధులతో సమావేశమైంది. అనంతరం టీ-హబ్‌ను సందర్శించి, సాంకేతిక భాగస్వామ్య అవకాశాలపై చర్చించింది.",
+   "pts": [
+    "ఏఐ, సైబర్ భద్రత, డిజిటల్ హెల్త్‌లో అవకాశాలున్నాయన్న ఆస్ట్రేడ్",
+    "5.5 కోట్ల ఆస్ట్రేలియన్ డాలర్ల కార్యక్రమం కింద పర్యటన"
+   ],
+   "why": "విదేశీ భాగస్వామ్యాలు హైదరాబాద్ ఐటీ, స్టార్టప్ రంగాల్లో కొత్త అవకాశాలు తేవచ్చు.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/australian-companies-explore-technology-partnerships-in-hyderabad",
+   "sec": [
+    "telangana",
+    "business",
+    "innovation"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-20T19:37+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Technology",
+    "h": "Australian tech firms visit Hyderabad",
+    "stat": "36 companies",
+    "statl": "in Australian DigiTech Mission",
+    "loc": "",
+    "p": "A DigiTech Mission of 36 Australian companies toured Bengaluru and Hyderabad from November 16 to 20. Led by Austrade and the Tech Council of Australia, the team met IT and healthcare representatives in Hyderabad at a session held with NASSCOM and HYSEA. It then visited T-Hub and discussed opportunities for technology partnerships.",
+    "pts": [
+     "Austrade sees scope in AI, cybersecurity, digital health",
+     "Visit is under an A$55 million export programme"
+    ],
+    "why": "Foreign partnerships could bring new opportunities for Hyderabad's IT and startup sectors."
+   },
+   "hi": {
+    "cat": "हैदराबाद · तकनीक",
+    "h": "ऑस्ट्रेलियाई टेक कंपनियों का हैदराबाद दौरा",
+    "stat": "36 कंपनियां",
+    "statl": "ऑस्ट्रेलियाई डिजिटेक मिशन में",
+    "loc": "",
+    "p": "ऑस्ट्रेलिया की 36 कंपनियों के डिजिटेक मिशन दल ने 16 से 20 नवंबर तक बेंगलुरु और हैदराबाद का दौरा किया। ऑस्ट्रेड और टेक काउंसिल ऑफ ऑस्ट्रेलिया के नेतृत्व में आए दल ने हैदराबाद में नैसकॉम और हाइसिया के साथ आईटी व स्वास्थ्य क्षेत्र के प्रतिनिधियों से मुलाकात की। इसके बाद दल ने टी-हब का दौरा किया और तकनीकी साझेदारी के अवसरों पर चर्चा की।",
+    "pts": [
+     "ऑस्ट्रेड: एआई, साइबर सुरक्षा, डिजिटल हेल्थ में अवसर",
+     "5.5 करोड़ ऑस्ट्रेलियाई डॉलर के कार्यक्रम के तहत दौरा"
+    ],
+    "why": "विदेशी साझेदारियां हैदराबाद के आईटी और स्टार्टअप क्षेत्र में नए अवसर ला सकती हैं।"
+   },
+   "d": "20.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "తెలంగాణ · సింగరేణి",
+   "col": "--c-power",
+   "art": "power",
+   "pic": "n/coal",
+   "stat": "కోటి టన్నులు",
+   "statl": "నైనీ వార్షిక లక్ష్యం",
+   "h": "కనిహా ప్లాంట్‌కు నైనీ బొగ్గు: సింగరేణి",
+   "p": "ఒడిశాలోని నైనీ బొగ్గు బ్లాక్ నుంచి అక్కడి ఎన్టీపీసీ కనిహా థర్మల్ ప్లాంట్‌కు బొగ్గు సరఫరా చేసేందుకు సింగరేణి సిద్ధంగా ఉందని సంస్థ సీఎండీ బుద్ధప్రకాశ్ జ్యోతి తెలిపారు. శుక్రవారం ఢిల్లీలో ఎన్టీపీసీ సీఎండీ గుర్దీప్ సింగ్‌ను ఆయన కలిశారు. నైనీ దగ్గరలో ఉన్నందున ఈ ప్రతిపాదనను పరిశీలిస్తామని గుర్దీప్ సింగ్ చెప్పారు. ఒప్పందం ఇంకా కుదరలేదు.",
+   "pts": [
+    "నైనీ బొగ్గులో ఎక్కువ భాగం యాదాద్రి థర్మల్ కేంద్రానికి",
+    "వచ్చే ఏడాది నుంచి ఏటా కోటి టన్నుల ఉత్పత్తి లక్ష్యం"
+   ],
+   "why": "సింగరేణి ఆదాయం, కార్మికుల భవిష్యత్తుకు నైనీ బొగ్గు అమ్మకాలు ముఖ్యం.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/manchiryal-asifabad/singareni-ready-to-supply-naini-block-coal-to-ntpc-kaniha-plant-215241",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-20T18:36+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Singareni",
+    "h": "Singareni offers Naini coal to NTPC Kaniha plant",
+    "stat": "10 million tonnes",
+    "statl": "Naini block yearly output target",
+    "loc": "",
+    "p": "Singareni is ready to supply coal from its Naini block in Odisha to NTPC's Kaniha thermal plant in the same state, CMD Buddhaprakash Jyothi said. He met NTPC CMD Gurdeep Singh in Delhi on Friday. Gurdeep Singh said NTPC would examine the proposal as Naini is close to the plant. No agreement has been signed yet.",
+    "pts": [
+     "Most Naini coal goes to Yadadri thermal station",
+     "Output target is 10 million tonnes a year from next year"
+    ],
+    "why": "Naini coal sales matter for Singareni's revenue and its workers' future."
+   },
+   "hi": {
+    "cat": "तेलंगाना · सिंगरेनी",
+    "h": "एनटीपीसी कनिहा प्लांट को नैनी कोयला देने को तैयार सिंगरेनी",
+    "stat": "1 करोड़ टन",
+    "statl": "नैनी ब्लॉक का सालाना उत्पादन लक्ष्य",
+    "loc": "",
+    "p": "सिंगरेनी के सीएमडी बुद्धप्रकाश ज्योति ने कहा कि कंपनी ओडिशा के नैनी कोयला ब्लॉक से वहीं स्थित एनटीपीसी के कनिहा ताप संयंत्र को कोयला देने के लिए तैयार है। उन्होंने शुक्रवार को दिल्ली में एनटीपीसी के सीएमडी गुरदीप सिंह से मुलाकात की। गुरदीप सिंह ने कहा कि नैनी पास होने के कारण प्रस्ताव पर विचार किया जाएगा। अभी कोई समझौता नहीं हुआ है।",
+    "pts": [
+     "नैनी का अधिकांश कोयला यादाद्री ताप केंद्र को",
+     "अगले साल से सालाना 1 करोड़ टन उत्पादन का लक्ष्य"
+    ],
+    "why": "नैनी कोयले की बिक्री सिंगरेनी की आय और कर्मचारियों के भविष्य के लिए अहम है।"
+   },
+   "d": "20.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · నేరం",
+   "col": "--c-city",
+   "art": "court",
+   "pic": "c/crime",
+   "stat": "1.1 కిలోల",
+   "statl": "ఎండు గంజాయి స్వాధీనం",
+   "h": "ధూల్‌పేటలో గంజాయి స్వాధీనం: అధికారులు",
+   "p": "హైదరాబాద్ ధూల్‌పేట ప్రాంతంలో గురువారం ఎన్‌ఫోర్స్‌మెంట్ బృందం జరిపిన దాడిలో ఒక మహిళ వద్ద 1.1 కిలోల ఎండు గంజాయి దొరికిందని అధికారులు తెలిపారు. ఆమె మరో ఇద్దరితో కలిసి గంజాయి అమ్ముతున్నట్లు ఆరోపణ ఉంది. స్వాధీనాన్ని వీడియో తీసి పంచనామా నమోదు చేశారు. నిందితురాలిని తదుపరి చర్యల కోసం ధూల్‌పేట పోలీస్ స్టేషన్‌కు అప్పగించారు.",
+   "pts": [
+    "మరో నిందితుడు పరారీలో ఉన్నాడని అధికారుల వెల్లడి"
+   ],
+   "why": "నగరంలో గంజాయి అమ్మకాలపై అధికారుల నిఘా కొనసాగుతోందని ఇది చూపుతోంది.",
+   "src": "The Siasat Daily",
+   "url": "https://www.siasat.com/woman-arrested-in-dhoolpet-with-1-1-kg-dry-ganja-3582336/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "ధూల్‌పేట",
+   "pub": "2026-11-20T18:32+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Crime",
+    "h": "1.1 kg ganja seized in Dhoolpet: officials",
+    "stat": "1.1 kg",
+    "statl": "dry ganja seized",
+    "loc": "Dhoolpet",
+    "p": "An enforcement team found 1.1 kg of dry ganja with a woman during a raid in Hyderabad's Dhoolpet area on Thursday, officials said. She is alleged to have been selling ganja along with two others. The seizure was video-recorded in a panchanama. The accused was handed over to Dhoolpet police station for further action.",
+    "pts": [
+     "Officials said another accused is absconding"
+    ],
+    "why": "It shows officials are keeping up their watch on ganja sales in the city."
+   },
+   "hi": {
+    "cat": "हैदराबाद · अपराध",
+    "h": "धूलपेट में 1.1 किलो गांजा जब्त: अधिकारी",
+    "stat": "1.1 किलो",
+    "statl": "सूखा गांजा जब्त",
+    "loc": "धूलपेट",
+    "p": "अधिकारियों के अनुसार हैदराबाद के धूलपेट इलाके में गुरुवार को प्रवर्तन टीम के छापे में एक महिला के पास से 1.1 किलो सूखा गांजा मिला। आरोप है कि वह दो अन्य लोगों के साथ मिलकर गांजा बेचती थी। जब्ती का वीडियो बनाकर पंचनामा दर्ज किया गया। आरोपी को आगे की कार्रवाई के लिए धूलपेट थाने को सौंप दिया गया।",
+    "pts": [
+     "अधिकारियों ने बताया, एक और आरोपी फरार"
+    ],
+    "why": "इससे पता चलता है कि शहर में गांजे की बिक्री पर अधिकारियों की नजर बनी हुई है।"
+   },
+   "d": "20.11.2026",
+   "t": "20:05"
+  },
   {
    "cat": "తెలంగాణ · కోర్టు",
    "col": "--c-gov",
