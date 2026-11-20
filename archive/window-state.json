@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-20T21:35:00+05:30",
+ "cutoff": "2026-11-20T22:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-18T06:35:00+05:30/2026-11-18T07:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 0,
-   "published": 0,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "Feeds 06:42 IST, 69/70 ok; 775 uncovered TG/AP (mostly already published under other URLs or before lookback). add_repo not available; used existing clone. Skipped as old (pub before lookback): DC SSD tokens suspended (29 Jul 2026), Siasat TGRERA Puppalguda fine (21 Feb 2026), NewsMeter TGRERA Suvarnabhoomi (26 Jul 2025), Indian Defence News IG Defence Nellore missile complex (14 Nov 2026). Not surfaced/opened: Hans India TG-RERA rogue developers, TT RERA penalties, News18/Eenadu Amaravati high-speed rail station, Samayam TTD SSD tokens, Hans Adi Srinivas vs KTR, DC Korutla watchman attack, TOI outstanding guarantees, Eenadu SLBC tunnel, IE Nvidia board. District searches (Adilabad, Karimnagar, Siddipet/Medak, Guntur/Palnadu, Srikakulam/Vizianagaram, Kakinada/Konaseema, Tirupati/Chittoor, Nirmal/Kamareddy) found nothing fresh."
-  },
   {
    "window": "2026-11-18T07:05:00+05:30/2026-11-18T07:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Feeds 21:17 IST, 68/68 ok, 769 TG/AP uncovered, lookback 13:05. Published 3: Siasat NHRC notice on Telangana govt hospitals, TV9 Telugu Nanakramguda lift accident (sensitive, no names), Deccan Chronicle/ANI India blind cricket Asia Cup ceremony boycott (CABI allegation attributed). Skipped as old: Deccan Chronicle AP semiconductor policy (18 Nov). Duplicates (already covered though feed said uncovered): Telangana 9.6C cold, APGenco SMR, Chukka Ramaiah, AP ZP results, Suryapet tipper, Tadipatri attack, Naidu cyclone crop aid, Veerlapalem ethanol. Not opened (WebSearch did not surface today's article): Adilabad crypto scam, Malkajgiri expired food, Telangana merchandise exports, TG RERA penalty, Rekha Naik ED, APSRTC outsourced staff, Godavari ZP chiefs. No district searches. add_repo not available; used existing clone. build_previews index/lang pages and sitemap.xml reverted."
+  },
+  {
+   "window": "2026-11-20T21:35:00+05:30/2026-11-20T22:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 6,
+   "late": 4,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 21:42 IST, 69/70 ok (failing: Sakshi, HTTP 429), 815 TG/AP uncovered, lookback 13:35. Published 6: Telangana Today Adilabad crypto fraud arrests (sensitive, no names), Telangana Today KTR on OBC caste census (claim), Telangana Today TBGKS Singareni yatra (claim), Telangana Today Chintakani python rescue, Siasat police T20 final, HMTV Srisailam Koti Deepotsavam. Duplicate: Telangana Today HMWSSB 24-hour cut (Suraram, already published 20:05). Skipped as old: Telangana Today Ranigunj RuB restrictions (18 Nov). Not opened (WebSearch did not surface today's article): Bhadrachalam lodge arrests, Kurnool centring sheets theft, HC exam results date, APSRTC outsourced staff, Sathya Sai Sevadal conference, Telangana merchandise exports, Revanth on delimitation, Kakinada green hydrogen, Rythu Bheema expiry, TIME100 Next. No district searches (feed list used). add_repo not available; used existing clone. build_previews index/lang pages and sitemap.xml reverted."
   }
  ],
  "seen": [
@@ -7188,6 +7188,41 @@
    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/andhra-offers-up-to-80-per-cent-capital-support-for-silicon-fabs-plans-5000-acre-park-at-tirupati-2005526",
    "d": "2026-11-20",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/four-held-for-duping-people-of-rs-1-45-lakh-in-cryptocurrency-scam-in-adilabad",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/ktr-assures-brs-support-for-nationwide-obc-caste-census",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/tbgks-to-embark-on-singareni-parirakshana-yatra-for-workers-welfare-companys-wellbeing",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/large-python-rescued-from-cotton-field-in-khammams-chintakani",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/hyderabad-police-win-telangana-police-t20-cricket-title-3582391/",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/kurnool/srisailam-grand-koti-deepotsavam-held-in-nandyal-district-215324",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/hmwssb-announces-24-hour-water-supply-disruption-in-parts-of-hyderabad-2",
+   "d": "2026-11-20",
+   "w": "duplicate"
   }
  ]
 }
