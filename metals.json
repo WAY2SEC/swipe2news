@@ -1,62 +1,62 @@
 {
- "updated": "2026-11-19T16:43:33+05:30",
- "src": "GoodReturns · MCX via 5paisa",
+ "updated": "2026-11-20T10:43:22+05:30",
+ "src": "GoodReturns · MCX via INDmoney",
  "cities": [
   {
    "city": "Hyderabad",
-   "g24": 130690,
-   "g22": 119800,
-   "silver": 180000,
-   "date": "2026-11-19",
-   "url": "https://www.goodreturns.in/gold-rates/",
+   "g24": 125570,
+   "g22": 115100,
+   "silver": 175000,
+   "date": "2026-11-20",
+   "url": "https://www.goodreturns.in/news/gold-rate-crash-today-20-11-2026-rs-51200-24k-22k-18k-gold-price-chennai-bangalore-hyderabad-cities-1548441.html",
    "surl": "https://www.goodreturns.in/silver-rates/"
   },
   {
    "city": "Mumbai",
-   "g24": 130690,
-   "g22": 119800,
-   "silver": 180000,
-   "date": "2026-11-19",
-   "url": "https://www.goodreturns.in/gold-rates/",
+   "g24": 125570,
+   "g22": 115100,
+   "silver": 175000,
+   "date": "2026-11-20",
+   "url": "https://www.goodreturns.in/news/gold-rate-crash-today-20-11-2026-rs-51200-24k-22k-18k-gold-price-chennai-bangalore-hyderabad-cities-1548441.html",
    "surl": "https://www.goodreturns.in/silver-rates/"
   },
   {
    "city": "Chennai",
-   "g24": 130690,
-   "g22": 119800,
-   "silver": 180000,
-   "date": "2026-11-19",
-   "url": "https://www.goodreturns.in/gold-rates/",
+   "g24": 125570,
+   "g22": 115100,
+   "silver": 175000,
+   "date": "2026-11-20",
+   "url": "https://www.goodreturns.in/news/gold-rate-crash-today-20-11-2026-rs-51200-24k-22k-18k-gold-price-chennai-bangalore-hyderabad-cities-1548441.html",
    "surl": "https://www.goodreturns.in/silver-rates/"
   },
   {
    "city": "Delhi",
-   "g24": 130840,
-   "g22": 119950,
-   "silver": 180000,
-   "date": "2026-11-19",
-   "url": "https://www.goodreturns.in/gold-rates/",
+   "g24": null,
+   "g22": null,
+   "silver": 175000,
+   "date": "2026-11-20",
+   "url": "https://www.goodreturns.in/news/gold-rate-crash-today-20-11-2026-rs-51200-24k-22k-18k-gold-price-chennai-bangalore-hyderabad-cities-1548441.html",
    "surl": "https://www.goodreturns.in/silver-rates/"
   }
  ],
  "copper": {
-  "price": 1200.3,
+  "price": 1192.0,
   "date": "2026-11-19",
-  "url": "https://www.5paisa.com/commodity-trading/mcx-copper-price"
+  "url": "https://www.indmoney.com/commodities/futures/copper?expiry=30-11-2026"
  },
  "prev": {
-  "Hyderabad|g24": 133260,
-  "Hyderabad|g22": 122150,
-  "Hyderabad|silver": 185000,
-  "Mumbai|g24": 133260,
-  "Mumbai|g22": 122150,
-  "Mumbai|silver": 185000,
-  "Chennai|g24": 133260,
-  "Chennai|g22": 122150,
-  "Chennai|silver": 185000,
-  "Delhi|g24": 133410,
-  "Delhi|g22": 122300,
-  "Delhi|silver": 185000,
+  "Hyderabad|g24": 130690,
+  "Hyderabad|g22": 119800,
+  "Hyderabad|silver": 180000,
+  "Mumbai|g24": 130690,
+  "Mumbai|g22": 119800,
+  "Mumbai|silver": 180000,
+  "Chennai|g24": 130690,
+  "Chennai|g22": 119800,
+  "Chennai|silver": 180000,
+  "Delhi|g24": 130840,
+  "Delhi|g22": 119950,
+  "Delhi|silver": 180000,
   "copper": 1224.05
  }
 }
