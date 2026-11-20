@@ -1,14 +1,34 @@
 {
- "updated": "2026-11-20T05:14:00+05:30",
+ "updated": "2026-11-21T05:12+05:30",
+ "gold": {
+  "place": "hyderabad",
+  "k22": 11509,
+  "k24": 12556,
+  "date": "2026-11-21",
+  "src": "GoodReturns",
+  "url": "https://goodreturns.in/gold-rates/hyderabad.html"
+ },
  "panch": {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "place": "Hyderabad",
-  "tithi": {"te": "శుక్ల దశమి", "en": "Shukla Dashami", "hi": "शुक्ल दशमी"},
-  "tithiEnd": "07:16",
-  "nak": {"te": "పూర్వాభాద్ర", "en": "Purva Bhadrapada", "hi": "पूर्वभाद्रपद"},
-  "nakEnd": "06:57",
-  "masa": {"te": "కార్తీక మాసం", "en": "Kartika", "hi": "कार्तिक"},
-  "src": "TodayCalendar",
-  "url": "https://www.todaycalendar.in/te-en/2026-November-20/"
+  "tithi": {
+   "te": "శుక్ల ఏకాదశి",
+   "en": "Shukla Ekadashi",
+   "hi": "शुक्ल एकादशी"
+  },
+  "tithiEnd": "06:31",
+  "nak": {
+   "te": "ఉత్తరాభాద్ర",
+   "en": "Uttara Bhadrapada",
+   "hi": "उत्तर भाद्रपद"
+  },
+  "nakEnd": "06:50",
+  "masa": {
+   "te": "కార్తీక మాసం",
+   "en": "Kartika",
+   "hi": "कार्तिक"
+  },
+  "src": "hindutone.com",
+  "url": "https://hindutone.com/astrology/panchangam-21-november-2026-saturday-devutthana-ekadashi-parana-gauna-devutthana-ekadashi/"
  }
 }
