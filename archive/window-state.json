@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-20T06:05:00+05:30",
+ "cutoff": "2026-11-20T06:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T13:05:00+05:30/2026-11-17T13:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 2,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "Feeds 13:10, 50/70 ok; 681 uncovered TG/AP events. add_repo not available; used existing clone. Published: Addagudur gurukul cook harassment allegation (NT 12:29, claim), Jupally no canal water for crops (NT 12:01, claim). Duplicate: TG rain alert Nov 20-21 (Sakshi Post 12:00; covered 05:05 from DC). Skipped (old): APPSC 160 DIET lecturers (14 Oct), Prakasam panchayat polls (14 Nov), Amit Shah Vizag (11 Nov). Already covered: pattas 7 lakh, auto bandh Nov 30, Amit Shah Vijayawada. Not opened: Mongolia president resignation (US News, Manila Times), Modi India-ASEAN (ANI), Lingampally 55 MGD, megalithic Bhadradri, Hyderabad 95% attendance teachers, Nellore sea surge, AP food inflation. 9 district searches returned no fresh items."
-  },
   {
    "window": "2026-11-17T13:35:00+05:30/2026-11-17T14:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Feeds 05:49 IST, 70/70 ok, lookback 21:35 (19 Nov). Published 2 late-found: Siasat Indiramma family insurance launch in Siddipet (22:53), TT NITW–KITS MoU renewed (23:55). Skipped old: DC/Hans Indiramma insurance pre-launch (17–18 Nov), Karmactive Akvan (19 Nov 22:59, weak source). Not opened: ANI Indiramma launch (fetch error), DC AP page 2 (blocked). Search did not surface fresh Akvan landfall (NIE 05:23), NTR 16 MPPs, Tirupati GP poll vigil, Google AI Vizag, CCMB wastewater, APRCET, Adilabad donkeys, APSRTC outsourced, Husnabad merger. No district searches (time). add_repo not available; used existing clone."
+  },
+  {
+   "window": "2026-11-20T06:05:00+05:30/2026-11-20T06:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 2,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Feeds 06:14 IST, 70/70 ok, lookback 22:05 (19 Nov). Published 2: Hans Narasaraopet/Palnadu ZP poll arrangements (05:06), TT Ponnam Husnabad merger demand (00:33, late, claim). Skipped old: Hans Akvan 3kmph (17 Nov), Oneindia Akvan (17 Nov), Hans HYDRAA 2 lakes (16 Nov), Hans Srisailam Laksha Deepotsavam (16 Nov), Wire Doval summons (10 Nov). Not opened (fetch permission timeout): Hans gold 8th day, Hans edible oil, TT semiconductor editorial, TT AP power demand. Search did not surface: Hindu Akvan landfall (06:06), KUDA Kaloji, Guntur 3 killed, Adilabad donkeys, Hanamkonda farmer registry, HYDRAA four lakes, TG SAFE Kothagudem, NTR 16 MPPs, Chityal crash, Srisailam Koti Deepotsavam, APSRTC outsourced, Jagadish vs Uttam, Tirupati GP vigil, Nellore PM-RAHAT. District searches: Karimnagar, Kurnool, Khammam, Srikakulam, Nizamabad, Mahabubnagar, Nellore, Warangal (thin results). add_repo not available; used existing clone."
   }
  ],
  "seen": [
@@ -5973,6 +5973,41 @@
    "url": "https://telanganatoday.com/nitw-kitsw-ink-mou-for-academic-and-research-collaborations",
    "d": "2026-11-20",
    "w": "2026-11-20T06:05"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/narasaraopet-election-arrangements-reviewed-1143848",
+   "d": "2026-11-20",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/ponnam-seeks-merger-of-husnabad-mandals-with-karimnagar",
+   "d": "2026-11-20",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/cyclone-akvan-moves-at-3kmph-speed-to-hit-coast-between-nellore-and-vizag-1143020",
+   "d": "2026-11-20",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.oneindia.com/india/cyclone-akvan-andhra-pradesh-braces-for-145-kmph-winds-landfall-expected-on-november-20-8261885.html",
+   "d": "2026-11-20",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/hydraa-saves-2-more-lakes-from-clutches-of-encroachers-1142560",
+   "d": "2026-11-20",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/laksha-deepotsavam-and-pushkarini-harathi-to-be-performed-today-1142569",
+   "d": "2026-11-20",
+   "w": "skip"
+  },
+  {
+   "url": "https://thewire.in/diplomacy/us-court-clears-way-to-send-summons-to-nsa-doval-former-raw-chief-pannun-lawsuit",
+   "d": "2026-11-20",
+   "w": "skip"
   }
  ]
 }
