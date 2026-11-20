@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-20T07:35:00+05:30",
+ "cutoff": "2026-11-20T08:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T14:35:00+05:30/2026-11-17T15:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 7,
-   "published": 1,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 15:04, 70/70 ok; 864 uncovered TG/AP. add_repo not available; used existing clone. Published: Sammakka Sagar NOC meeting (DC 14:27). Duplicates: house pattas 7 lakh (covered 16 Nov), auto bandh Nov 30 (covered 16 Nov), AP Nov 26 poll holiday (covered 11:05). Skipped: Telangana 20,018 MW demand (older milestone). Not opened (fetch refused/permission timeout): TT Model School teachers salary protest, Siasat JEH Aerospace Kothur tooling centre, Siasat SC SIR Dec 9 hearing, Siasat Bahrain blasts IRGC, ANI Sammakka (4xx). Not found by search: Kavitha Inter board, Bellampalli fake death certificates, Hanumakonda explosives, Mulugu Chalvai substation."
-  },
   {
    "window": "2026-11-17T15:05:00+05:30/2026-11-17T15:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Feeds 07:17 IST, 68/68 ok, 786 TG/AP uncovered, lookback 23:05 (19 Nov). Published 7: HMTV Akvan landfall + TG orange alert (06:29, forecast), TV9 Inter exams postponed (07:05), Hans AP Rs 1,011 cr teaching hospitals (04:47), DC Venkatagiri MPP poll put off (23:05), DC Tirupati GP poll vigil (03:28), Hans AICC secretaries for TG (00:54), DC HC suspends RR collector jail term (23:17). Duplicate: Hans Gachibowli PG hostel drug bust (EAGLE raid already covered). Skipped old: BS EPFO 90% withdrawal (19 Nov 21:32), Al Jazeera Yunus home fire (19 Nov). Not opened: ANI Akvan weakens (client error), CBC Anthropic debut (client error). Not reached this run: TOI Osmania antibiotics, TOI cooler mornings, Hindu Google AI Vizag, Hindu APSRTC outsourced, DC Kurnool sub-postmaster jail, HMTV HYDRAA 3 lakes, Gadkari solid waste roads. District searches (8: Nalgonda, Srikakulam, Warangal, Vizianagaram, Khammam, Guntur, Medak/Sangareddy, Anantapur) returned only tag pages. add_repo not available; used existing clone. build_previews touched index/sitemap - reverted."
+  },
+  {
+   "window": "2026-11-20T07:35:00+05:30/2026-11-20T08:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 3,
+   "late": 2,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Feeds 07:41 IST, 68/70 ok (BIG TV, TOI 429), 798 TG/AP uncovered, lookback 23:35 (19 Nov). Published 3: NT Yadagirigutta tent collapse 10 injured (02:09), ETV Kondagattu nija roopa darshanam (06:36), ETV AP ZP post-sharing TDP 22/JSP 4/BJP 1 (06:52). Duplicate: ETV Akvan Srikakulam rain (landfall already covered). Skipped old: PIB H5N1 vaccine release (18 Nov 09:38), DC Bhavani deeksha (5 Nov), Al Jazeera Trump-Xi-Putin (19 Nov morning). Not opened: TT H5N1 launch 07:22, TT Trump-Xi-Putin explainer, Hans Aruna Mahbubnagar bypass, Hans Annamayya central team, Hans DGP training centre, Hindu Margasira Masotsavam (searches did not surface the articles). Bhavani deeksha/Tirumala rush items in ETV AP live blog not published (one story per live-blog URL). No district searches (time). add_repo not available; used existing clone. build_previews touched index/sitemap - reverted."
   }
  ],
  "seen": [
@@ -6088,6 +6088,36 @@
    "url": "https://www.aljazeera.com/news/2026/11/19/home-of-bangladeshs-former-leader-muhammad-yunus-set-on-fire",
    "d": "2026-11-20",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/yadagirigutta-temple-tent-collapses-10-devotees-injured-2564773",
+   "d": "2026-11-20",
+   "w": "p"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--20th-november-2026-latest-top-news-information-across-telangana-tgs26112000456",
+   "d": "2026-11-20",
+   "w": "p"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--20th-november-2026-news-today-ap-live-news-updates-telugu-breaking-news-aps26112000474",
+   "d": "2026-11-20",
+   "w": "p"
+  },
+  {
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2337716",
+   "d": "2026-11-20",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/bhavani-deeksha-festivities-from-nov-20-to-jan-3-2002061",
+   "d": "2026-11-20",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks",
+   "d": "2026-11-20",
+   "w": "skip"
   }
  ]
 }
