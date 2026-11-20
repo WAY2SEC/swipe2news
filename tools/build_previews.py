@@ -14,9 +14,10 @@ import json, os, glob, base64, html, threading, functools, datetime, sys
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE = "https://swipe2news.com"
+# S2N_SITE: the staging copy builds its pages for its own address (default = the live site)
+SITE = os.environ.get("S2N_SITE", "https://swipe2news.com").rstrip("/")
 # link-preview pictures: first from our own site (WhatsApp shows these reliably), then the same file on GitHub as a backup
-IMG = "https://swipe2news.com"
+IMG = SITE
 KEEP_DAYS = 21
 # Swipe2News promo flyer under every article (set PROMO_ON = False to switch it off)
 PROMO_ON = True
@@ -528,6 +529,7 @@ def main():
         ns.append("</urlset>")
         with open(os.path.join(ROOT, "web", "news-sitemap.xml"), "w", encoding="utf-8") as f: f.write("\n".join(ns) + "\n")
         rb = f"User-agent: *\nAllow: /\nDisallow: /tools/\nDisallow: /editor/\nDisallow: /reporter/\n\nSitemap: {SITE}/web/sitemap.xml\nSitemap: {SITE}/web/news-sitemap.xml\n"
+        if os.environ.get("S2N_NOINDEX"): rb = "User-agent: *\nDisallow: /\n"  # staging: keep search engines out
         with open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8") as f: f.write(rb)
         # website home page (template + the app's card drawings)
         app = open(os.path.join(ROOT, "index.html"), encoding="utf-8").read()

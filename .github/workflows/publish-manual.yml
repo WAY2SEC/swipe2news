@@ -1,0 +1,83 @@
+name: Publish manual stories
+
+# Manual publishing fallback (no Claude needed). Run it by hand: Actions → "Publish manual stories" → Run workflow.
+# It takes the stories queued in the editor's ✍️ New story tab (newsroom Sheet, tab "Drafts"), checks them with
+# tools/check_news.py, adds them to news.json + today's archive, builds the article pages and share pictures
+# (tools/build_previews.py), pushes, and marks each draft published / rejected in the Sheet.
+# Running it twice never publishes a story twice (each card keeps its draft id in "mid").
+#
+# Secrets (Settings → Secrets and variables → Actions → Secrets): NEWSROOM_URL, NEWSROOM_BOT_KEY
+# Variables (same page → Variables):
+#   S2N_ENV      "staging" or "production". Only "production" sends phone alerts, tells search engines and refreshes feeds.
+#   S2N_SITE     site address for links, e.g. https://staging.swipe2news.com (default https://swipe2news.com)
+#   S2N_NOINDEX  "1" on staging: robots.txt blocks search engines
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: publish-manual
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      NEWSROOM_URL: ${{ secrets.NEWSROOM_URL }}
+      NEWSROOM_BOT_KEY: ${{ secrets.NEWSROOM_BOT_KEY }}
+      S2N_ENV: ${{ vars.S2N_ENV || 'staging' }}
+      S2N_SITE: ${{ vars.S2N_SITE || 'https://swipe2news.com' }}
+      S2N_NOINDEX: ${{ vars.S2N_NOINDEX }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 1 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Tools for the share pictures
+        run: pip install -q playwright
+
+      - name: Publish queued stories
+        id: pub
+        run: |
+          git config user.name "Swipe2News Bot"; git config user.email news-bot@swipe2news.invalid
+          export CHROME_PATH=$(which google-chrome || which chromium || true)
+          today=$(TZ=Asia/Kolkata date +%F)
+          for attempt in 1 2 3; do
+            python3 tools/manual_publish.py fetch | tee /tmp/fetch.txt
+            n=$(grep -o 'published now: [0-9]*' /tmp/fetch.txt | grep -o '[0-9]*$')
+            echo "published=$n" >> "$GITHUB_OUTPUT"
+            if [ "${n:-0}" = "0" ]; then echo "Nothing new to publish."; exit 0; fi
+            files="news.json"; [ -f "archive/$today.json" ] && files="$files archive/$today.json"
+            python3 tools/check_news.py $files --fix || echo "::warning::Older stories still have checker notes (not blocking)."
+            python3 tools/build_previews.py
+            git add -A
+            git commit -qm "Manual stories $(TZ=Asia/Kolkata date '+%Y-%m-%d %H:%M') IST"
+            if git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}"; then
+              echo "Pushed."; exit 0
+            fi
+            echo "::warning::Someone else published at the same time – starting again from the newest version (attempt $attempt)."
+            git rebase --abort 2>/dev/null || true
+            git fetch -q --depth 1 origin "${GITHUB_REF_NAME}" && git reset -q --hard FETCH_HEAD
+            sleep 5
+          done
+          echo "::error::Could not push after 3 attempts – nothing was marked; run the workflow again."; exit 1
+
+      - name: Mark drafts in the Sheet
+        run: python3 tools/manual_publish.py mark
+
+      - name: Alerts, story check, search engines, feeds (production only)
+        if: steps.pub.outputs.published != '0' && steps.pub.outputs.published != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$S2N_ENV" != "production" ]; then
+            echo "S2N_ENV=$S2N_ENV – phone alerts, IndexNow and feeds are OFF here." | tee -a "$GITHUB_STEP_SUMMARY"; exit 0
+          fi
+          # pushes made by this workflow's token do not start other workflows, so start them by hand
+          for w in check-news.yml push-news.yml indexnow.yml feeds.yml; do
+            gh workflow run "$w" --ref "${GITHUB_REF_NAME}" && echo "started $w" || echo "::warning::could not start $w"
+          done

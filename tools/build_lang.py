@@ -11,7 +11,7 @@ Run by tools/build_previews.py at the end of every build; can also be run alone:
 import datetime, glob, html, json, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE = "https://swipe2news.com"
+SITE = os.environ.get("S2N_SITE", "https://swipe2news.com").rstrip("/")  # staging copy uses its own address
 LANGS = ["en", "te", "hi"]
 e = lambda t: html.escape(str(t if t is not None else ""), quote=True)
 
@@ -296,6 +296,7 @@ def main():
     open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write("\n".join(sm) + "\n")
     rb = (f"User-agent: *\nAllow: /\nDisallow: /tools/\nDisallow: /editor/\nDisallow: /reporter/\n\n"
           f"Sitemap: {SITE}/sitemap.xml\nSitemap: {SITE}/web/news-sitemap.xml\n")
+    if os.environ.get("S2N_NOINDEX"): rb = "User-agent: *\nDisallow: /\n"  # staging: keep search engines out
     open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8").write(rb)
     print(f"lang pages: {', '.join(LANGS)} · stories {len(S)} · sitemap {len(urls)} urls")
 

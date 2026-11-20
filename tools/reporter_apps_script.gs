@@ -31,6 +31,14 @@ function rrows_() {
   return v.slice(1).map((r, i) => { const o = { _row: i + 2 }; h.forEach((k, j) => o[k] = r[j]); return o; });
 }
 
+// "Drafts" (manual publishing, 20 Nov 2026): stories the editor writes in the ✍️ New story tab at /editor/.
+// The "Publish manual stories" GitHub Actions workflow (run by hand) publishes queued drafts and marks them here.
+// The draft id is made by the editor page, so sending the same draft twice never makes a second row.
+const DCOLS = ['id','time','status','headline','story','note','link'];
+function drafts_() { let r = sheet_('Drafts'); if (!r) { r = book_().insertSheet('Drafts'); r.appendRow(DCOLS); r.setFrozenRows(1); } return r; }
+function drows_() { const v = drafts_().getDataRange().getValues(); return v.slice(1).map((r, i) => { const o = { _row: i + 2 }; DCOLS.forEach((c, j) => o[c] = String(r[j])); return o; }); }
+function dstory_(r) { try { return JSON.parse(r.story); } catch (x) { return {}; } }
+
 // Works both inside a Google Sheet (Extensions → Apps Script) and as a separate script:
 // if there is no sheet, setup() creates "Swipe2News Reporters" in your Google Drive and remembers it.
 function book_() {
@@ -178,6 +186,34 @@ function doPost(e) {
       const r = prows_().find(x => x.id === b.id); if (!r) return out_({ ok: false });
       const s = photos_(); s.getRange(r._row, OCOLS.indexOf('status') + 1).setValue(b.status === 'published' ? 'published' : 'rejected');
       s.getRange(r._row, OCOLS.indexOf('note') + 1).setValue(clean_(b.note, 200)); s.getRange(r._row, OCOLS.indexOf('link') + 1).setValue(clean_(b.link, 200));
+      return out_({ ok: true });
+    }
+    if (b.action === 'draft' && b.key === EDITOR_KEY) {   // ✍️ New story from /editor/ – queued until the publish workflow runs
+      const id = String(b.id || ''), s = b.story || {};
+      if (!/^d[0-9a-z-]{8,40}$/.test(id)) return out_({ ok: false, error: 'bad id' });
+      const dup = drows_().find(x => x.id === id); if (dup) return out_({ ok: true, id: id, status: dup.status, dup: true });
+      const json = JSON.stringify(s);
+      if (json.length > 20000) return out_({ ok: false, error: 'too long' });
+      if (!s.h || !s.p || !/^https:\/\//.test(String(s.url || '')) || !/^(c|o|i|n|s|cv|w|d)\/[a-z0-9-]+$/.test(String(s.pic || ''))) return out_({ ok: false, error: 'missing' });
+      drafts_().appendRow([id, Utilities.formatDate(new Date(), 'Asia/Kolkata', 'dd.MM.yyyy HH:mm'), 'queued', clean_(s.h, 200), json, '', '']);
+      return out_({ ok: true, id: id, status: 'queued' });
+    }
+    if (b.action === 'draftlist' && b.key === EDITOR_KEY) {
+      return out_({ ok: true, items: drows_().slice(-40).reverse().map(r => Object.assign({}, r, { story: dstory_(r) })) });
+    }
+    if (b.action === 'draftcancel' && b.key === EDITOR_KEY) {   // only a draft that is still waiting can be withdrawn
+      const r = drows_().find(x => x.id === b.id); if (!r) return out_({ ok: false, error: 'missing' });
+      if (r.status !== 'queued') return out_({ ok: false, error: r.status });
+      drafts_().getRange(r._row, DCOLS.indexOf('status') + 1).setValue('cancelled');
+      return out_({ ok: true, status: 'cancelled' });
+    }
+    if (b.action === 'drafts' && b.key === BOT_KEY) {
+      return out_({ ok: true, items: drows_().filter(r => r.status === 'queued').map(r => ({ id: r.id, time: r.time, story: dstory_(r) })) });
+    }
+    if (b.action === 'draftdone' && b.key === BOT_KEY) {   // status: published | rejected (note says why)
+      const r = drows_().find(x => x.id === b.id); if (!r) return out_({ ok: false });
+      const s = drafts_(); s.getRange(r._row, DCOLS.indexOf('status') + 1).setValue(b.status === 'published' ? 'published' : 'rejected');
+      s.getRange(r._row, DCOLS.indexOf('note') + 1).setValue(clean_(b.note, 500)); s.getRange(r._row, DCOLS.indexOf('link') + 1).setValue(clean_(b.link, 200));
       return out_({ ok: true });
     }
     return out_({ ok: false, error: 'not allowed' });
