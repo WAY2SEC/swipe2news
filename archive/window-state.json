@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-20T16:35:00+05:30",
+ "cutoff": "2026-11-20T17:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T20:35:00+05:30/2026-11-17T21:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 1,
-   "published": 1,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 5,
-   "review": 0,
-   "gaps": "Feeds 20:48, 70/70 ok; 803 uncovered TG/AP (many already published under other URLs). add_repo not available; used existing clone. Search engine surfaced few fresh articles. Published: Apollo Institute of Parents & Children, Financial District (FM Live 16:23). Skipped as old: TT Sangareddy ex-IPS land forgery (2024), TT TOSS results (May 2026), TT Mailardevpally gambling (Aug 2025), DC Nandyal unopposed-poll incentives (13 Nov), Hans NASA Space Apps Vizag (Oct 2025), Business Standard Akvan (10:03, before lookback). Not opened/not found: Hindu Kadapa MP booth capture, KTR white paper, Metpally Congress-BRS tension, YSRCP Jana Sena jobs scam, Mudhole sarpanches join BRS, Ongole adoption, TG RERA Sanali, 12th PRC, Gandhi Hospital jobs, SEI GCC, MMTS demand, Prague train crash, AG contempt CJI remarks."
-  },
   {
    "window": "2026-11-17T21:05:00+05:30/2026-11-17T21:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Feeds 16:20 IST, 65/68 ok, 711 TG/AP uncovered, lookback 08:05. Published 3: NT Suryapet tipper kills two teachers (sensitive, no names), Andhra Jyothy APMDC IPO by Dec 2027, DC Godavari pipeline to Hyderabad nears completion. Duplicates: Siasat gold prices (gold crash published 09:50), Asianet Cyclone Akvan weakens (Akvan crossing published), ap7am APMDC (same event). Skipped old: hyderabadnewshunt Chukka Ramaiah 100th birthday (2025 article), Careers360 JEE Main live blog (started 18 Nov), Hans Malakpet Indiramma towers (01:32). Not opened: Disha Bahuda flood Ichchapuram and Disha Suryapet (4xx), Hindu YSRCP fee dues, Hindu tiger Mylavaram, Hyderabad Mail Suryapet, ETV Kakinada knife attack, ap7am Chukka Ramaiah 101st (no search hit/not opened). District searches thin (tag pages only). add_repo not available; used existing clone. build_previews index/sitemap/lang pages reverted."
+  },
+  {
+   "window": "2026-11-20T16:35:00+05:30/2026-11-20T17:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 7,
+   "late": 7,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 16:42 IST, 70/70 ok, 822 TG/AP uncovered, lookback 08:35. Published 7: TT GHMC trade licence renewal by Nov 30, NewsMeter PPP model/medical tourism, NewsMeter AIG bowel ultrasound study, NT Rajapeta gurukul seniors beat juniors (sensitive, minors, no names), HMTV Kodangal lift phase-2 bhumi puja, NewsMeter SIR convention Nov 22, Siasat/PTI DGCA notice to SpiceJet (claim, sourced). Duplicates: Andhra Prabha RRR south 4,962 acres and Hans Vizag station Rs 660 cr (already published), TT HMWSSB 40 MGD trial (Godavari pipeline published 16:35), ap7am rare earth corporation (APMDC review published). Skipped old: ThePrint/PTI UNFPA population (19 Nov 20:47, before lookback). Not opened: ANI Nepal PM visit (4xx), Hindu tiger Mylavaram, Hindu Pochampally tour, TT/Hyderabad Mail Inter exams, Vaartha Arunachalam trains, GK Today EHS guidelines (no search hit for today's article). No district searches this run (feed list used). add_repo not available; used existing clone. build_previews index/sitemap/lang pages reverted."
   }
  ],
  "seen": [
@@ -6686,6 +6686,51 @@
   },
   {
    "url": "https://news.careers360.com/jee-main-2027-registration-last-date-live-session-1-form-link-jeemain-nta-nic-in-late-fees-documents-correction-window-updates",
+   "d": "2026-11-20",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/ghmc-seeks-trade-licence-renewals-f2132894",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/top-stories/telangana-plans-ppp-model-in-healthcare-to-make-hyderabad-a-global-medical-tourism-hub-779681",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/science-health/hyderabad-aig-doctors-find-simpler-cheaper-way-to-monitor-patients-with-bowel-disorders-779680",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/news/seniors-attack-juniors-at-rajapeta-social-welfare-residential-school-2564936",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/vijayawada/enumula-tirupati-reddy-launches-lift-irrigation-phase-2-works-215177",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/hyderabad-sc-lawyer-prashant-bhushan-to-address-convention-on-sir-on-nov-22-779662",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/dgca-issues-show-cause-notice-to-spicejet-on-flight-cancellations-3582091/",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/hmwssb-plans-40-mgd-water-trial-7c24bdd3",
+   "d": "2026-11-20",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://theprint.in/india/over-one-fourth-of-indias-population-aged-10-24-years-unfpa/3103573/",
    "d": "2026-11-20",
    "w": "skipped"
   }
