@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-20T19:05:00+05:30",
+ "cutoff": "2026-11-20T19:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T23:05:00+05:30/2026-11-17T23:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 23:27 IST, 68/68 ok; 766 uncovered TG/AP (most already published under other URLs). add_repo not available; used existing clone. Direct feed URLs (Siasat/Hindu) refused by fetch; only search-surfaced pages read via subagent. Late-found: Kenyan delegation at AU (Yo! Vizag 16:52). Duplicates: Anirudh Reddy officials-corruption (Siasat/NewsMinute/NewsMeter; already published via TT), Mailardevpally gambling (already published), Naidu cyclone-loss letter (already covered). Skipped: DC Nellore fishermen rescue (2 Nov, old). Not opened: Siasat TG HC rowdy-sheeters, Hindu APPSC Thanedar test, Hindu container driver, Hindu Cyberabad child-inclusive planning, AFC SAFF page, TOI AP ORR PIL/AVGC/tribal roads, MANUU rock paintings, Russia military plane crash (not surfaced by search). District searches (Jagtial, Kamareddy, Vikarabad, Prakasam, Vizianagaram, Chittoor, Nirmal, Eluru) found nothing fresh."
-  },
   {
    "window": "2026-11-17T23:35:00+05:30/2026-11-18T05:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Feeds 18:43 IST, 69/70 ok (district:Yadadri Bhuvanagiri:en failing), 807 TG/AP uncovered, lookback 10:35. Published 7: Oneindia Telugu Trinetra app statewide (DGP), Telangana Today KRMB letter on Palnadu grid complaint, Oneindia Telugu Rs 1,087 cr SASCI for farmer registry (claim – no official named), ETV Bharat Rajgopal Reddy reply to CM (claim), ETV Bharat Narasaraopet theft gang (sensitive, police, no names), ETV Bharat Visakha Economic Region master plan, Deccan Chronicle/PTI Chennai fishermen strike over boats held in AP (claim). Duplicate: Telangana Today gold/silver crash (covered 10:05). Skipped as old: Vaartha 12th PRC (17 Nov), hyderabadmail groundwater (June), vizagforever tiger Explorer (Oct), Sakshi Post Akvan (09:40, before lookback, covered). Not opened: France24 (robots) / Al Arabiya (4xx) Poland missile, ANI Akvan (4xx); no today's article found for Hindu Vikarabad borewell curbs, Hindu tiger Mylavaram, Hindu 12th PRC, Telangana EHS guidelines. Extended search used. No district searches this run (feed list used). add_repo not available; used existing clone. build_previews index/lang pages reverted."
+  },
+  {
+   "window": "2026-11-20T19:05:00+05:30/2026-11-20T19:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 11,
+   "published": 11,
+   "late": 11,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 19:30 IST, 54/70 ok (failing: The Hindu, Telangana Today, NIE, NewsMeter, Indian Express, PIB, district Adilabad/Karimnagar-en/Nirmal/Vikarabad-en/Konaseema-en/Annamayya, 3 topic feeds), 656 TG/AP uncovered, lookback 11:05. Published 11: Andhra Prabha rice millers SC, NT ACB Quthbullapur ward officer (sensitive, no name), Siasat TGSPDCL summer plan, TT SSC exams likely Mar 17-18 (forecast), Siasat UoH casteist remarks protest (claim, sensitive), Vaartha Khelo India venues, NT Sarapaka sand curbs, Andhra Prabha Nitin Nabin Nizamabad Nov 23, DC AP horticulture loss, ETV/PTI Jeddah flights, Vaartha Sabarimala buses. Duplicates: Hindu RRR south land (covered 19 Nov), TT Ranigunj RUB (covered 18 Nov), Hindu Malakpet Indiramma towers (skipped earlier). Skipped: TV9 Inter merger bill (published 18 Nov, old). Not opened: Disha rice millers (4xx; used Andhra Prabha), Lokmat/The Hawk Eagle Force hydroponic cannabis (4xx). 8 district searches (Khammam, Kurnool, Nizamabad, Srikakulam, Nellore, Mancherial, Jagtial, Anantapur). add_repo not available; used existing clone. build_previews index/lang pages and sitemap.xml reverted."
   }
  ],
  "seen": [
@@ -6958,6 +6958,81 @@
    "url": "https://www.sakshipost.com/news/andhrapradesh/cyclone-akvan-crosses-odisha-coast-ap-and-telangana-rain-alert-483375",
    "d": "2026-11-20",
    "w": "skipped"
+  },
+  {
+   "url": "https://prabhanews.com/telangana-rice-millers-supreme-court-verdict-defaulter-rice-millers/",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/acb-net-ward-officer-caught-by-acb-while-accepting-bribe-of-rs-30-thousand-2565043",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/tgspdcl-gears-up-to-meet-additional-power-demand-in-summer-3582316/",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-ssc-public-exams-likely-to-begin-on-march-17-or-18",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/uoh-students-demand-professors-termination-over-casteist-remarks-3582259/",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://vaartha.com/telangana/khelo-india-youth-games-2026-venues-finalized-in-telangana-hyderabad-and-five-districts/808013/",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/khammam/badradri-kothagudem/measures-to-curb-illegal-sand-transportation-in-sarapaka-2565085",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://prabhanews.com/nitin-nabeen-to-arrive-in-nizamabad-on-23rd/",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/farmers-suffer-loss-of-rs-1092-crore-with-damage-to-horticulture-due-to-arnav-and-murasu-cyclones-ap-cm-2006318",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/en/bharat/air-india-and-air-india-express-extend-suspension-of-jeddah-flights-till-november-24-enn26112005708",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://vaartha.com/devotional/sabarimala-devotees-ksrtc-ac-bus-services-airports-to-pamba/808069",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://tv9telugu.com/career-jobs/inter-board-merger-telangana-government-to-introduce-new-education-bill-in-winter-session-1961082.html",
+   "d": "2026-11-20",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/4962-acres-land-in-90-villages-need-to-be-acquired-for-201-km-rrrs-southern-section-officials-inform-",
+   "d": "2026-11-20",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-ranigunj-underpass-renovation-to-trigger-traffic-congestion-for-months",
+   "d": "2026-11-20",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/groundbreaking-ceremony-for-indiramma-housing-towers-over-25-acres-in-hyderabads-malakpet-soon/",
+   "d": "2026-11-20",
+   "w": "duplicate"
   }
  ]
 }
