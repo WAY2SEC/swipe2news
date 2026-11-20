@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-20T11:05:00+05:30",
+ "cutoff": "2026-11-20T11:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T18:05:00+05:30/2026-11-17T18:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 4,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 5,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 18:16, 67/68 ok (district:Jagtial failing); 735 uncovered TG/AP (many already published). add_repo not available; used existing clone. Published: Hyderabad State gazettes digitised (TT 18:05), CCMB drug-resistant fungus (TT 18:01), Hormuz Tara Gas tanker Indian sailor missing (Siasat 17:38), Sharmila vs Sakshi wedding-invite report (ETV Bharat 17:41, claim). Duplicates: fake silver varaq (14:05), fake liquor (16:35), Anirudh Reddy graft remarks (11:35), Siddipet principal POCSO (08:35), dating-app gang (16 Nov). Skipped: Adoni car-auto crash (DC 9 Nov, old). Not opened/not found: DC Naidu SAF, DC Hyderabad gambling den, NewsMeter Cyberabad Listening to Children, TG RERA Bhuvanteza bar (NewsMeter), News18 Rapthadu accused shift."
-  },
   {
    "window": "2026-11-17T18:35:00+05:30/2026-11-17T19:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Feeds 10:43 IST, 69/70 ok (Hans gnews 429), 785 TG/AP uncovered, lookback 02:35 (20 Nov). Published 4 (all late-found 07:04-07:20): ETV AP live Srikakulam 16cm rain, ETV Bhavani deeksha Indrakeeladri, ETV Tirumala 8h sarvadarshan, ABN AP paid holiday Nov 26 polls. Dropped: ABN Krishna Board panel Nov 23 (too thin for 36-word summary). Duplicates: ETV/ABN AP ZP post-sharing, Kondagattu darshan. Skipped old: TT Siddipet woman accident (2023), Siasat/Hans 125 medical shops (11-12 Nov), Careers360 pharmacy dues (16 Nov). Not opened: Hindu 90 medical shops, HMTV Pebbair bus-lorry, TCS Ayyappa mala Adibatla, HMTV Rekha Naik ED raids, ETV/Vaartha Vizag Bay-Tech city, NIE 17th-floor fire, NewsMeter new pensions, HMTV Uppununthala sand, V6 Protolabs, TT Sammakka barrage NOC (fetch refused), Siddipet woman bus accident. District searches 8 (Nalgonda, Khammam, Nellore, Kurnool, Nizamabad, Eluru, Siddipet, Tirupati) - tag pages only. add_repo not available; used existing clone. build_previews index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-20T11:05:00+05:30/2026-11-20T11:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 4,
+   "late": 4,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Feeds 11:28 IST, 68/68 ok, 753 TG/AP uncovered, lookback 03:05 (20 Nov). Published 4 (late-found 04:30-10:25): ETV Sagar engineers action (claim), ETV Sammakka Sagar joint survey (Mulugu), Andhra Jyothy CID Rs7cr job fraud 2nd arrest (sensitive, accused not named), NT Tekulapalli sand tractor overturn 1 dead (sensitive, no name). Duplicate: V6 11,275 Cheyutha pensions (published 19 Nov). Skipped old: NTV TN 15 officials leak (19 Nov 20:33), Sakshi Khammam Akvan crops (19 Nov 00:31), Sakshi Konaseema Akvan (20 Nov 00:07). Not opened: feed direct URLs (Siasat PRS budget 17pc, Hindu 90 medical shops, Hindu ethanol hearing detentions, Siasat HC firecracker ban, TT Trump-Xi-Putin summit, Siasat Iran war cost, TT Nvidia probe, Hindu Yadadri thermal) - WebFetch refused non-search URLs; no search hit for them. District searches 8 (Warangal, Karimnagar, Visakhapatnam, Mahabubnagar, Guntur, Nalgonda, Srikakulam, Khammam/Bhadradri). add_repo not available; used existing clone. build_previews index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6373,6 +6373,51 @@
    "url": "https://news.careers360.com/telangana-govt-pharmacy-colleges-urge-govt-clear-pending-fee-reimbursement-dues-rs-120-130-cr-final-year-students-education-pvt",
    "d": "2026-11-20",
    "w": "skip"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/telangana-government-serious-about-palnadu-water-grid-issue-ready-to-take-action-against-sagar-engineers-tgs26112000559",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/joint-survey-by-chhattisgarh-and-telangana-engineers-on-areas-of-flooding-due-to-sammakka-sagar-barrage-backwater-tgs26112000550",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/cid-arrests-peddiraju-in-rs-7-crore-government-job-fraud-case-1578040.html",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://ntnews.com/khammam/badradri-kothagudem/young-man-killed-as-sand-tractor-overturns-in-bhadradri-kothagudem-district-tekulapalli-2564845",
+   "d": "2026-11-20",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/telangana-government-moves-to-suspend-nagarjuna-sagar-se-over-failure-to-report-aps-tunnel-and-pipeline-works",
+   "d": "2026-11-20",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.v6velugu.com/telangana-sanctions-11275-more-cheyutha-pensions-for-filaria-aids-and-dialysis-patients",
+   "d": "2026-11-20",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://ntvtelugu.com/national-news/tamil-nadu-investment-data-leak-to-andhra-vijay-govt-sacks-15-officials-1036849.html",
+   "d": "2026-11-20",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/khammam/2964314",
+   "d": "2026-11-20",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/dr-b-r-ambedkar-konaseema/2965195",
+   "d": "2026-11-20",
+   "w": "skipped"
   }
  ]
 }
