@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-20T10:05:00+05:30",
+ "cutoff": "2026-11-20T10:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-17T17:05:00+05:30/2026-11-17T17:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 10,
-   "published": 7,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Feeds 17:11, 67/70 ok (V6 Velugu, Mana Telangana, HMTV failing); 864 uncovered TG/AP (many already published but flagged uncovered). add_repo not available; used existing clone. Published: Vempalle TDP leader vehicle fire (ETV Bharat 16:01, sensitive/police), Bharat Summit SC plea (Siasat 17:08, claim), Yadadri thermal near full capacity (DC 13:47), Kalwakurthy bypass HC appeal dismissed (LiveLaw 12:20), Gadwal court women's washrooms HC (LiveLaw 11:50), US master's enrolment -34.4% (TT 17:05), Modi at India-ASEAN summit Manila (TT/PTI 12:51). Duplicates: Bhadrachalam lodge death (covered 12:28), Konaseema ONGC leak (covered), Akvan/rain alerts (covered). Skipped (old): Naidu-Sitharaman TT (Dec 2025), Hyderabad teachers 95% attendance (DC 01:53, before lookback), Gottipati Akvan power alert (Hans 05:23). Not opened: Amazon $7bn renewables (ANI fetch failed), Hyderabad Mail ACB 23 cases (not found), Hindu Bhadrachalam, Hormuz tanker (only old results)."
-  },
   {
    "window": "2026-11-17T17:35:00+05:30/2026-11-17T18:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 1,
    "gaps": "Feeds 09:41 IST, 68/70 ok, 765 TG/AP uncovered, lookback 01:35 (20 Nov). Published 3: NTV Pawan Kalyan house knife scare (08:40, fact, sensitive: self-harm detail and name omitted), V6 AYUSH 70 posts (09:04), GoodReturns gold/silver fall (09:50, India). Skipped old: DC AYUSH (19 Nov 22:13, used V6), Hans Snapchat drug network (19 Nov 01:11), TT single-digit temps (2025), Outlook NZ-IND Test (2020). Review: Cybernews Visa/JPMorgan breach (no publication date). Not reached: Hindu Srikakulam heavy rain, NewsMeter new pensions, Hyderabad Mail 9.6C, V6 Secunderabad traffic curbs, HMTV Mancherial cops, Jangaon Rs544 cr works, Trump-Xi-Putin summit (searches did not surface). District searches 6 (Khammam, Nizamabad, Kurnool, Nellore, Warangal, Mahabubnagar, Kakinada, Guntur - tag pages only). add_repo not available; used existing clone. build_previews touched index/sitemap - reverted."
+  },
+  {
+   "window": "2026-11-20T10:05:00+05:30/2026-11-20T10:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 9,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Feeds 10:25 IST, 66/68 ok, 729 TG/AP uncovered, lookback 02:05 (20 Nov). Published 9: Hans/PTI Akvan crossed coast near Gopalpur (10:14), OneIndia Avinash Reddy convoy attack Simhadripuram (09:49, claim, sensitive: accused not named), Siasat Satwar 9.6C cold (10:19), NT Kakatiya Univ 14 students ill (10:19), NT Seethakka MGNREGS mates (02:32), V6 Adilabad donkey theft gang (08:20), V6 Adilabad bio resource centres (09:24), Hans Anantapur phase-3 panchayat notification (04:38), The Week Sensex seesaw (10:05, India). Skipped: NT Siddipet woman crushed between buses (published 10:35:16, after END - next run). Duplicates/seen: Gandhi IVF, Ranigunj RUB traffic, TG SAFE food licences, Malaysia visa. Not reached: Hindu Srikakulam rain, ETV Vizag Bay-Tech city, ETV Sammakka Sagar NOC, Hyderabad 17th-floor fire (NIE), Mancherial cops, robotic surgery AP. District searches 6 (Karimnagar, Adilabad, Vizianagaram, Anantapur, Prakasam, Medak). add_repo not available; used existing clone. build_previews touched index/sitemap - reverted."
   }
  ],
  "seen": [
@@ -6278,6 +6278,56 @@
    "url": "https://cybernews.com/security/visa-jpmorgan-data-breach/",
    "d": "2026-11-20",
    "w": "review"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/cyclone-akvan-crosses-north-andhra-south-odisha-coast-near-gopalpur-1143922",
+   "d": "2026-11-20",
+   "w": "p"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/andhra-pradesh/ysrcp-mp-ys-avinash-reddy-s-convoy-attacked-in-kadapa-s-simhadripuram-petrol-bombs-allegedly-hurle-515725.html",
+   "d": "2026-11-20",
+   "w": "p"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/politics/high-tension-simhadripuram-mp-ys-avinash-reddy-incident-2966016",
+   "d": "2026-11-20",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.siasat.com/winter-tightens-grip-on-hyderabad-imd-warns-of-haze-3581772/",
+   "d": "2026-11-20",
+   "w": "p"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/14-students-suffered-with-food-poisoning-in-kakatiya-university-2564842",
+   "d": "2026-11-20",
+   "w": "p"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/minister-seethakka-directs-increase-in-daily-employment-guarantee-workers-across-villages-2564788",
+   "d": "2026-11-20",
+   "w": "p"
+  },
+  {
+   "url": "https://www.v6velugu.com/five-member-inter-state-donkey-theft-gang-from-andhra-pradesh-arrested-in-adilabad-",
+   "d": "2026-11-20",
+   "w": "p"
+  },
+  {
+   "url": "https://www.v6velugu.com/bio-resource-centers-in-30-clusters-across-adilabad-district",
+   "d": "2026-11-20",
+   "w": "p"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/anantapur/panchayat-polls-notification-for-third-phase-released-1143833",
+   "d": "2026-11-20",
+   "w": "p"
+  },
+  {
+   "url": "https://www.theweek.in/news/biz-tech/2026/11/20/indian-shares-recover-volatility.html",
+   "d": "2026-11-20",
+   "w": "p"
   }
  ]
 }
