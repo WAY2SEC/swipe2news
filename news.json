@@ -1,8 +1,66 @@
 {
  "date": "21.11.2026",
- "updated": "2026-11-21T13:05:00+05:30",
+ "updated": "2026-11-21T13:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "కామారెడ్డి · ప్రవాసులు",
+   "col": "--c-city",
+   "pic": "n/condolence",
+   "stat": "₹5 లక్షల",
+   "statl": "పరిహారంపై వివరణ",
+   "h": "రియాద్ దాడి మృతుని కుటుంబం సాయం విన్నపం",
+   "p": "రియాద్ విమానాశ్రయంపై అక్టోబర్ 10న జరిగిన డ్రోన్ దాడిలో గాయపడి నవంబర్ 3న మృతి చెందిన కామారెడ్డి జిల్లా వ్యక్తి కుటుంబం ప్రభుత్వ సాయం కోరింది. శుక్రవారం హైదరాబాద్‌లో సీఎం ప్రవాసీ ప్రజావాణిలో ఎన్‌ఆర్‌ఐ సలహా కమిటీ అధికారులను కలిసింది. పిల్లల చదువుకు ఆర్థిక సహాయం అడిగింది.",
+   "pts": [
+    "21 రోజులు రియాద్ ఆసుపత్రిలో చికిత్స పొందారు",
+    "నవంబర్ 4న రియాద్‌లోనే అంత్యక్రియలు",
+    "అదనపు పరిహారం కోసం భారత రాయబార కార్యాలయాన్ని సంప్రదిస్తామన్న కమిటీ"
+   ],
+   "why": "గల్ఫ్‌లో పనిచేస్తూ మృతి చెందిన తెలంగాణ కార్మికుల కుటుంబాలకు ఉన్న ప్రభుత్వ సాయాన్ని ఇది గుర్తుచేస్తుంది.",
+   "next": "పత్రాల పరిశీలన, తహసీల్దార్ నివేదిక తర్వాత ₹5 లక్షల పరిహారం బ్యాంకు ఖాతాలో జమ",
+   "src": "Siasat",
+   "url": "https://www.siasat.com/telangana-kin-seeks-aid-after-man-dies-in-riyadh-airport-attack-3582906/",
+   "sec": [
+    "telangana",
+    "world"
+   ],
+   "st": "TG",
+   "place": "kamareddy",
+   "pub": "2026-11-21T12:48+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Kamareddy · NRI",
+    "stat": "₹5 lakh",
+    "statl": "ex-gratia explained",
+    "loc": "Kamareddy",
+    "h": "Riyadh attack victim's family seeks aid",
+    "p": "The family of a Kamareddy district man who was injured in the October 10 drone attack on Riyadh airport and died on November 3 has sought government help. They met NRI Advisory Committee officials at the CM Pravasi Prajavani in Hyderabad on Friday and asked for support for the children's education.",
+    "pts": [
+     "He was treated for 21 days in a Riyadh hospital",
+     "Funeral was held in Riyadh on November 4",
+     "Committee to approach the Indian Embassy for more compensation"
+    ],
+    "why": "It highlights the state help available to families of Telangana workers who die in the Gulf.",
+    "next": "₹5 lakh to be paid to the bank account after document checks and the Tahsildar's report"
+   },
+   "hi": {
+    "cat": "कामारेड्डी · प्रवासी",
+    "stat": "₹5 लाख",
+    "statl": "अनुग्रह राशि की जानकारी",
+    "loc": "कामारेड्डी",
+    "h": "रियाद हमले के मृतक के परिवार ने मांगी मदद",
+    "p": "10 अक्टूबर को रियाद हवाई अड्डे पर हुए ड्रोन हमले में घायल होकर 3 नवंबर को मृत कामारेड्डी जिले के व्यक्ति के परिवार ने सरकारी मदद मांगी है। परिवार ने शुक्रवार को हैदराबाद में सीएम प्रवासी प्रजावाणी में एनआरआई सलाहकार समिति के अधिकारियों से मिलकर बच्चों की पढ़ाई के लिए सहायता मांगी।",
+    "pts": [
+     "रियाद के अस्पताल में 21 दिन इलाज चला",
+     "4 नवंबर को रियाद में ही अंतिम संस्कार",
+     "समिति अतिरिक्त मुआवजे के लिए भारतीय दूतावास से संपर्क करेगी"
+    ],
+    "why": "यह खाड़ी में जान गंवाने वाले तेलंगाना मजदूरों के परिवारों के लिए उपलब्ध सरकारी मदद की याद दिलाता है।",
+    "next": "दस्तावेज़ जांच और तहसीलदार की रिपोर्ट के बाद ₹5 लाख बैंक खाते में"
+   },
+   "d": "21.11.2026",
+   "t": "13:35"
+  },
   {
    "cat": "హైదరాబాద్ · ఆహార భద్రత",
    "col": "--c-city",
@@ -3206,62 +3264,6 @@
      "18–22 अक्टूबर 2027 को दिल्ली में अंतरराष्ट्रीय सीमेंट कांग्रेस"
     ],
     "why": "सीमेंट उद्योग के प्रदूषण घटाने के प्रयासों का असर पर्यावरण और निर्माण क्षेत्र पर पड़ता है।"
-   },
-   "d": "21.11.2026",
-   "t": "07:05"
-  },
-  {
-   "cat": "తెలంగాణ · రాజకీయం",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "c/politics",
-   "stat": "కృష్ణా జలాలు",
-   "statl": "అసెంబ్లీకి సవాల్",
-   "h": "కృష్ణా జలాలపై హరీశ్ రావు సవాల్",
-   "p": "కృష్ణా జలాలు ఆంధ్రప్రదేశ్‌కు తరలిపోతున్నాయన్న తన ఆరోపణలకు ఆధారాలు చూపేందుకు అసెంబ్లీ సమావేశం ఏర్పాటు చేయాలని బీఆర్ఎస్ నేత హరీశ్ రావు సీఎం రేవంత్ రెడ్డికి సవాల్ విసిరారు. శుక్రవారం హైదరాబాద్ తెలంగాణ భవన్‌లో ఆయన మాట్లాడారు. నాగార్జున సాగర్ కుడివైపు ఏపీ సొరంగం నిర్మిస్తోందని ఆరోపించారు. నిరూపించలేకపోతే రాజీనామా చేస్తానని చెప్పారు.",
-   "pts": [
-    "సిద్దిపేట సభలో సీఎం వ్యాఖ్యలకు ఇది స్పందన",
-    "పోతిరెడ్డిపాడుపై కాంగ్రెస్ ప్రభుత్వాలను తప్పుబట్టారు",
-    "సీఎం స్పందన కథనంలో లేదు"
-   ],
-   "why": "కృష్ణా జలాల వాటా తెలంగాణ రైతుల సాగునీటికి, తాగునీటికి సంబంధించిన అంశం.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/hyderabad/harish-rao-dares-revanth-to-prove-water-diversion-claims-1144255",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "హైదరాబాద్",
-   "pub": "2026-11-21T05:27+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Telangana · Politics",
-    "stat": "Krishna water",
-    "statl": "challenge for an Assembly session",
-    "loc": "Hyderabad",
-    "h": "Harish Rao seeks Assembly on Krishna water",
-    "p": "BRS leader Harish Rao challenged Chief Minister Revanth Reddy to convene an Assembly session so that he can present evidence for his allegation that Krishna water is being diverted to Andhra Pradesh. He spoke at Telangana Bhavan in Hyderabad on Friday. He alleged that AP is building a tunnel on the right side of Nagarjuna Sagar and said he would resign if he could not prove it.",
-    "pts": [
-     "It was a reply to the CM's Siddipet speech",
-     "He blamed Congress governments over Pothireddypadu",
-     "The CM's response is not in the report"
-    ],
-    "why": "Krishna water sharing concerns irrigation and drinking water for Telangana's farmers and people."
-   },
-   "hi": {
-    "cat": "तेलंगाना · राजनीति",
-    "stat": "कृष्णा जल",
-    "statl": "विधानसभा सत्र की चुनौती",
-    "loc": "हैदराबाद",
-    "h": "कृष्णा जल पर विधानसभा सत्र बुलाएं: हरीश राव",
-    "p": "बीआरएस नेता हरीश राव ने मुख्यमंत्री रेवंत रेड्डी को चुनौती दी कि वे विधानसभा सत्र बुलाएं, ताकि वे कृष्णा का पानी आंध्र प्रदेश की ओर मोड़े जाने के अपने आरोप के सबूत रख सकें। उन्होंने शुक्रवार को हैदराबाद के तेलंगाना भवन में यह बात कही। उन्होंने आरोप लगाया कि आंध्र प्रदेश नागार्जुन सागर के दाईं ओर सुरंग बना रहा है और कहा कि साबित न कर पाए तो इस्तीफा देंगे।",
-    "pts": [
-     "यह सिद्दीपेट सभा में मुख्यमंत्री के बयान का जवाब था",
-     "पोतिरेड्डीपाडु पर कांग्रेस सरकारों को दोषी ठहराया",
-     "मुख्यमंत्री की प्रतिक्रिया रिपोर्ट में नहीं है"
-    ],
-    "why": "कृष्णा जल का बंटवारा तेलंगाना के किसानों की सिंचाई और पेयजल से जुड़ा मुद्दा है।"
    },
    "d": "21.11.2026",
    "t": "07:05"
