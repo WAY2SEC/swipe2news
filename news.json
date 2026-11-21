@@ -1,8 +1,396 @@
 {
  "date": "21.11.2026",
- "updated": "2026-11-21T10:05:00+05:30",
+ "updated": "2026-11-21T10:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "తెలంగాణ · విద్యుత్",
+   "col": "--c-power",
+   "art": "power",
+   "pic": "n/power",
+   "stat": "2,090 మెగావాట్ల",
+   "statl": "ఉత్పత్తి నిలిపివేత",
+   "h": "తెలంగాణలో థర్మల్ విద్యుత్ ఉత్పత్తికి కోత",
+   "p": "రాష్ట్రంలో విద్యుత్ డిమాండ్ తగ్గడంతో పలు థర్మల్ కేంద్రాల్లో సుమారు 2,090 మెగావాట్ల ఉత్పత్తిని నిలిపివేశారు. రోజువారీ వినియోగం గత నెల 340 మిలియన్ యూనిట్ల నుంచి నవంబర్ 18న 235 మిలియన్ యూనిట్లకు తగ్గింది. వరి కోతలు ముగియడం, వ్యవసాయ వినియోగం తగ్గడం కారణాలని నమస్తే తెలంగాణ తెలిపింది.",
+   "pts": [
+    "కొన్ని కేంద్రాలు ఇప్పుడు ఎక్కువగా రాత్రి వేళల్లోనే నడుస్తున్నాయి",
+    "బహిరంగ మార్కెట్ నుంచి రోజుకు 60–83 మిలియన్ యూనిట్ల కొనుగోలు",
+    "కాకతీయ యూనిట్-1 వార్షిక మరమ్మతుల్లో ఉంది"
+   ],
+   "why": "రాష్ట్ర విద్యుత్ సరఫరా, కొనుగోలు ఖర్చులపై ఆసక్తి ఉన్న వినియోగదారులకు సంబంధించిన సమాచారం ఇది.",
+   "src": "Namasthe Telangana",
+   "url": "https://www.ntnews.com/telangana/telangana-suspends-2090-mw-thermal-power-generation-amid-declining-demand-2565342",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-21T02:56+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Power",
+    "stat": "2,090 MW",
+    "statl": "Thermal output halted",
+    "loc": "Telangana",
+    "h": "Telangana cuts thermal power output",
+    "p": "With electricity demand falling, about 2,090 MW of generation has been halted at several Telangana thermal plants. Daily consumption fell from about 340 million units last month to 235 million units on November 18. Namasthe Telangana cited the end of paddy harvesting and lower farm use.",
+    "pts": [
+     "Some plants now run mainly at night",
+     "State buys 60–83 million units a day on the open market",
+     "Kakatiya Unit-1 is under annual overhaul"
+    ],
+    "why": "This matters to consumers following the state's power supply and purchase costs."
+   },
+   "hi": {
+    "cat": "तेलंगाना · बिजली",
+    "stat": "2,090 मेगावाट",
+    "statl": "थर्मल उत्पादन रोका गया",
+    "loc": "तेलंगाना",
+    "h": "तेलंगाना में थर्मल बिजली उत्पादन घटा",
+    "p": "बिजली की मांग घटने से तेलंगाना के कई थर्मल संयंत्रों में करीब 2,090 मेगावाट उत्पादन रोका गया है। दैनिक खपत पिछले महीने करीब 340 मिलियन यूनिट से घटकर 18 नवंबर को 235 मिलियन यूनिट रह गई। नमस्ते तेलंगाना ने धान कटाई खत्म होने और खेती में कम उपयोग को कारण बताया।",
+    "pts": [
+     "कुछ संयंत्र अब मुख्य रूप से रात में चलते हैं",
+     "राज्य खुले बाजार से रोज 60–83 मिलियन यूनिट खरीदता है",
+     "काकतीय यूनिट-1 वार्षिक मरम्मत में है"
+    ],
+    "why": "यह राज्य की बिजली आपूर्ति और खरीद लागत पर नजर रखने वाले उपभोक्ताओं के लिए अहम है।"
+   },
+   "d": "21.11.2026",
+   "t": "10:35"
+  },
+  {
+   "cat": "తెలంగాణ · రహదారులు",
+   "col": "--c-city",
+   "pic": "c/infrastructure",
+   "stat": "గ్రామాల పేర్లు",
+   "statl": "బోర్డులపై తప్పులు",
+   "h": "హైవే బోర్డులపై తప్పుగా గ్రామాల పేర్లు",
+   "p": "తెలంగాణలో జాతీయ రహదారులపై ఏర్పాటు చేసిన సూచిక బోర్డుల్లో పలు గ్రామాల పేర్లు తప్పుగా రాశారు. జనగామ జిల్లాలోని చిన్న పెండ్యాల, భువనగిరి జిల్లాలోని ఆలేరు పేర్లు తప్పుగా కనిపిస్తున్నాయి. ఏఐ అనువాద సాధనాల వల్లే ఈ తప్పులు జరిగాయని గ్రామస్తులు అంటున్నారని ఆంధ్రజ్యోతి తెలిపింది.",
+   "pts": [
+    "వరంగల్, ఆసిఫాబాద్, నిజామాబాద్ జిల్లాల గ్రామాల పేర్లలోనూ తప్పులు",
+    "రెవెన్యూ రికార్డులతో పేర్లు సరిచూడాలని ఎన్‌హెచ్‌ఏఐకి డిమాండ్"
+   ],
+   "why": "హైవేలపై ప్రయాణించేవారికి, ఆయా గ్రామాల ప్రజలకు ఇది నేరుగా సంబంధించిన విషయం.",
+   "src": "Andhra Jyothy",
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/telangana-village-names-spelling-mistakes-national-highways-ai-translation-errors-telugu-1578353.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-21T04:38+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Roads",
+    "stat": "Village names",
+    "statl": "Wrong on highway signs",
+    "loc": "Telangana",
+    "h": "Village names misspelt on highway signs",
+    "p": "Several village names are wrongly written on national highway signboards in Telangana. Chinna Pendyala in Jangaon district and Aleru in Bhuvanagiri district are among those shown incorrectly. Villagers blame AI translation tools for the errors, Andhra Jyothy reported.",
+    "pts": [
+     "Errors also in Warangal, Asifabad and Nizamabad village names",
+     "Demand that NHAI check names against revenue records"
+    ],
+    "why": "This directly concerns highway travellers and residents of these villages."
+   },
+   "hi": {
+    "cat": "तेलंगाना · सड़कें",
+    "stat": "गांवों के नाम",
+    "statl": "हाईवे बोर्ड पर गलत",
+    "loc": "तेलंगाना",
+    "h": "हाईवे बोर्डों पर गांवों के नाम गलत",
+    "p": "तेलंगाना में राष्ट्रीय राजमार्गों के सूचना बोर्डों पर कई गांवों के नाम गलत लिखे गए हैं। जनगांव जिले का चिन्ना पेंड्याला और भुवनगिरी जिले का आलेरु भी गलत दिख रहे हैं। आंध्र ज्योति के अनुसार ग्रामीण इन गलतियों के लिए एआई अनुवाद टूल को जिम्मेदार बताते हैं।",
+    "pts": [
+     "वरंगल, आसिफाबाद और निजामाबाद के गांवों के नामों में भी गलतियां",
+     "एनएचएआई से राजस्व रिकॉर्ड से नाम मिलाने की मांग"
+    ],
+    "why": "यह हाईवे पर यात्रा करने वालों और इन गांवों के लोगों से सीधे जुड़ा है।"
+   },
+   "d": "21.11.2026",
+   "t": "10:35"
+  },
+  {
+   "cat": "హైదరాబాద్ · ప్రమాదం",
+   "col": "--c-city",
+   "pic": "n/condolence",
+   "stat": "ఇద్దరు",
+   "statl": "మృతి",
+   "h": "ఉప్పల్‌లో బైక్ ప్రమాదం, ఇద్దరు మృతి",
+   "p": "హైదరాబాద్ ఉప్పల్‌లో శుక్రవారం అర్ధరాత్రి ఒక బైక్ రోడ్డు డివైడర్‌పై ఉన్న విద్యుత్ స్తంభాన్ని ఢీకొట్టింది. బైక్‌పై ప్రయాణిస్తున్న 34, 35 ఏళ్ల ఇద్దరు వ్యక్తులు అక్కడికక్కడే మృతి చెందారు. నాగోల్ వైపు వెళ్తుండగా బైక్ నడుపుతున్న వ్యక్తి వాహనంపై నియంత్రణ కోల్పోవడంతో ఈ ప్రమాదం జరిగిందని పోలీసులు తెలిపారు.",
+   "pts": [
+    "మృతుల్లో ఒకరు గుజరాత్‌కు చెందినవారు",
+    "పోలీసులు కేసు నమోదు చేశారు",
+    "మృతదేహాలను గాంధీ ఆసుపత్రికి తరలించారు"
+   ],
+   "why": "రాత్రి వేళల్లో నగర రహదారులపై ప్రయాణించే ద్విచక్ర వాహనదారులకు ఇది జాగ్రత్త సూచన.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/hyderabad-two-youths-killed-as-motorcycle-crashes-into-electricity-pole-at-uppal",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "medchal",
+   "loc": "ఉప్పల్",
+   "pub": "2026-11-21T10:06+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Accident",
+    "stat": "2 dead",
+    "statl": "Bike hits pole",
+    "loc": "Uppal, Hyderabad",
+    "h": "Two die as bike hits pole in Uppal",
+    "p": "A motorcycle crashed into an electricity pole on a road divider at Uppal in Hyderabad around midnight on Friday. Both men on the bike, aged 34 and 35, died on the spot. Police said the rider lost control while heading towards Nagole.",
+    "pts": [
+     "One of the dead was from Gujarat",
+     "Police have registered a case",
+     "Bodies moved to Gandhi Hospital"
+    ],
+    "why": "A caution for two-wheeler riders on city roads at night."
+   },
+   "hi": {
+    "cat": "हैदराबाद · हादसा",
+    "stat": "2 की मौत",
+    "statl": "बाइक खंभे से टकराई",
+    "loc": "उप्पल, हैदराबाद",
+    "h": "उप्पल में बाइक खंभे से टकराई, 2 की मौत",
+    "p": "हैदराबाद के उप्पल में शुक्रवार आधी रात एक बाइक सड़क डिवाइडर पर लगे बिजली के खंभे से टकरा गई। बाइक पर सवार 34 और 35 साल के दोनों व्यक्तियों की मौके पर ही मौत हो गई। पुलिस के अनुसार नागोल की ओर जाते समय चालक ने नियंत्रण खो दिया।",
+    "pts": [
+     "मृतकों में एक गुजरात का था",
+     "पुलिस ने मामला दर्ज किया",
+     "शव गांधी अस्पताल भेजे गए"
+    ],
+    "why": "रात में शहर की सड़कों पर दोपहिया चलाने वालों के लिए यह सावधानी का संदेश है।"
+   },
+   "d": "21.11.2026",
+   "t": "10:35"
+  },
+  {
+   "cat": "హైదరాబాద్ · ఐటీ",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "c/realestate",
+   "stat": "₹1,450 కోట్ల",
+   "statl": "అద్దె, 12 ఏళ్లు",
+   "h": "హైదరాబాద్‌లో బ్యాంక్ ఆఫ్ అమెరికా ఆఫీసు",
+   "p": "బ్యాంక్ ఆఫ్ అమెరికా భారత విభాగం బీఏ కంటిన్యుయం ఇండియా మాదాపూర్‌లోని మైండ్‌స్పేస్ సైబరాబాద్‌లో 10 లక్షల చదరపు అడుగులకు పైగా ఆఫీసు స్థలాన్ని లీజుకు తీసుకుంది. 12 ఏళ్లకు సుమారు ₹1,450 కోట్ల అద్దె చెల్లించనుంది. నెల అద్దె సుమారు ₹8.29 కోట్లు అని సియాసత్ తెలిపింది.",
+   "pts": [
+    "చదరపు అడుగుకు నెలకు ₹82 అద్దె",
+    "ప్రతి మూడేళ్లకు 15 శాతం అద్దె పెంపు",
+    "₹49.72 కోట్ల సెక్యూరిటీ డిపాజిట్"
+   ],
+   "next": "అద్దె చెల్లింపులు జనవరి 2027 నుంచి ప్రారంభం",
+   "why": "హైదరాబాద్ ఐటీ, గ్లోబల్ కేపబిలిటీ సెంటర్లలో ఉద్యోగాలు కోరుకునేవారికి సంబంధించిన వార్త ఇది.",
+   "src": "Siasat Daily",
+   "url": "https://www.siasat.com/bank-of-america-arm-to-pay-rs-1450-cr-rent-for-hyderabad-office-3582731/",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "మాదాపూర్",
+   "pub": "2026-11-21T09:54+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · IT",
+    "stat": "₹1,450 crore",
+    "statl": "Rent over 12 years",
+    "loc": "Madhapur, Hyderabad",
+    "h": "Bank of America takes big Hyderabad office",
+    "p": "BA Continuum India, Bank of America's India arm, has leased over 10 lakh sq ft of office space at Mindspace Cyberabad in Madhapur. It will pay about ₹1,450 crore in rent over 12 years. Monthly rent is about ₹8.29 crore, Siasat reported.",
+    "pts": [
+     "Rent of ₹82 per sq ft a month",
+     "15% rent rise every three years",
+     "Security deposit of ₹49.72 crore"
+    ],
+    "next": "Rent payments begin in January 2027",
+    "why": "This matters to job seekers in Hyderabad's IT and global capability centres."
+   },
+   "hi": {
+    "cat": "हैदराबाद · आईटी",
+    "stat": "₹1,450 करोड़",
+    "statl": "12 साल का किराया",
+    "loc": "मादापुर, हैदराबाद",
+    "h": "हैदराबाद में बैंक ऑफ अमेरिका का बड़ा ऑफिस",
+    "p": "बैंक ऑफ अमेरिका की भारतीय इकाई बीए कंटिन्यूअम इंडिया ने मादापुर के माइंडस्पेस साइबराबाद में 10 लाख वर्ग फुट से अधिक ऑफिस जगह लीज पर ली है। वह 12 साल में करीब ₹1,450 करोड़ किराया देगी। सियासत के अनुसार मासिक किराया करीब ₹8.29 करोड़ है।",
+    "pts": [
+     "₹82 प्रति वर्ग फुट मासिक किराया",
+     "हर तीन साल में 15% किराया वृद्धि",
+     "₹49.72 करोड़ की सुरक्षा जमा"
+    ],
+    "next": "किराया भुगतान जनवरी 2027 से शुरू",
+    "why": "यह हैदराबाद के आईटी और ग्लोबल कैपेबिलिटी सेंटरों में नौकरी चाहने वालों के लिए अहम है।"
+   },
+   "d": "21.11.2026",
+   "t": "10:35"
+  },
+  {
+   "cat": "తెలంగాణ · రాజకీయం",
+   "col": "--c-gov",
+   "pic": "c/politics",
+   "stat": "₹6.24 లక్షలకు",
+   "statl": "తగ్గిన సగటు ఖర్చు",
+   "h": "పంచాయతీ నిధులపై కేటీఆర్ ఆరోపణ",
+   "p": "కాంగ్రెస్ ప్రభుత్వం గ్రామీణాభివృద్ధిని నిర్లక్ష్యం చేసిందని బీఆర్ఎస్ వర్కింగ్ ప్రెసిడెంట్ కేటీఆర్ ఆరోపించారు. ఆర్బీఐ నివేదికను ఉటంకిస్తూ, గ్రామ పంచాయతీ సగటు ఖర్చు 2022-23లో ₹16.59 లక్షల నుంచి 2024-25లో ₹6.24 లక్షలకు తగ్గిందని ఆయన అన్నారు. దీనిపై ప్రభుత్వ స్పందన కథనంలో లేదు.",
+   "pts": [
+    "ఎక్స్ వేదికగా కేటీఆర్ వ్యాఖ్యలు",
+    "పన్నుల సొమ్ము దారి మళ్లుతోందని ఆరోపణ"
+   ],
+   "why": "గ్రామ పంచాయతీల అభివృద్ధి పనులపై ఆధారపడే గ్రామీణ ప్రజలకు సంబంధించిన చర్చ ఇది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/congress-neglecting-villages-ktr-cites-rbi-report-9d59bf4d",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-21T10:24+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Politics",
+    "stat": "₹6.24 lakh",
+    "statl": "Avg panchayat spend, claim",
+    "loc": "Hyderabad",
+    "h": "KTR cites RBI report on panchayat funds",
+    "p": "BRS working president KT Rama Rao alleged that the Congress government has neglected rural development. Citing an RBI report, he said average gram panchayat spending fell from ₹16.59 lakh in 2022-23 to ₹6.24 lakh in 2024-25. The report carried no government response.",
+    "pts": [
+     "KTR made the remarks in a post on X",
+     "He alleged tax money is being diverted"
+    ],
+    "why": "This debate concerns rural residents who depend on panchayat development works."
+   },
+   "hi": {
+    "cat": "तेलंगाना · राजनीति",
+    "stat": "₹6.24 लाख",
+    "statl": "पंचायत का औसत खर्च, दावा",
+    "loc": "हैदराबाद",
+    "h": "पंचायत फंड पर केटीआर ने दिया आरबीआई का हवाला",
+    "p": "बीआरएस कार्यकारी अध्यक्ष के.टी. रामाराव ने आरोप लगाया कि कांग्रेस सरकार ने ग्रामीण विकास की अनदेखी की है। आरबीआई रिपोर्ट का हवाला देकर उन्होंने कहा कि ग्राम पंचायत का औसत खर्च 2022-23 में ₹16.59 लाख से घटकर 2024-25 में ₹6.24 लाख रह गया। रिपोर्ट में सरकार की प्रतिक्रिया नहीं थी।",
+    "pts": [
+     "केटीआर ने एक्स पर पोस्ट में यह कहा",
+     "कर का पैसा दूसरी जगह लगाने का आरोप"
+    ],
+    "why": "यह बहस पंचायत विकास कार्यों पर निर्भर ग्रामीणों से जुड़ी है।"
+   },
+   "d": "21.11.2026",
+   "t": "10:35"
+  },
+  {
+   "cat": "సంపాదకీయం · మత్స్య రంగం",
+   "col": "--c-water",
+   "art": "water",
+   "pic": "i/fisheries-and-aquaculture",
+   "stat": "చేపల వ్యర్థాలు",
+   "statl": "ఎరువుగా మార్పు",
+   "h": "గొర్రెకుంటలో చేపల వ్యర్థాలతో ఎరువు తయారీ",
+   "p": "ప్రపంచ మత్స్య దినోత్సవం సందర్భంగా తెలంగాణ టుడేలో వచ్చిన వ్యాసం ఇది. వరంగల్ సమీపంలోని గొర్రెకుంటలో మత్స్యకార మహిళల సహకార సంఘం మూడేళ్లుగా చేపల వ్యర్థాలతో ఫిష్ అమైనో యాసిడ్, సేంద్రియ ఎరువు తయారు చేస్తోంది. దీనిని పెద్ద యూనిట్‌గా విస్తరించాలని రచయిత సూచించారు.",
+   "pts": [
+    "రోజుకు ఒక టన్ను వ్యర్థాల ప్రాసెసింగ్ యూనిట్ ప్రతిపాదన",
+    "సుమారు రెండు ఎకరాల భూమి కేటాయింపు ప్రతిపాదన",
+    "ప్రాథమిక అంచనా ₹1.50 కోట్లు"
+   ],
+   "why": "చేపల వ్యర్థాల నిర్వహణ, సేంద్రియ ఎరువులపై ఆసక్తి ఉన్న మత్స్యకారులు, రైతులకు ఉపయోగపడే వ్యాసం.",
+   "src": "Telangana Today (Pittala Ravinder)",
+   "url": "https://telanganatoday.com/fish-waste-to-wealth-telanganas-gorrekunta-shows-the-way",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "warangal",
+   "loc": "గొర్రెకుంట",
+   "pub": "2026-11-21T10:00+05:30",
+   "lbl": "opinion",
+   "en": {
+    "cat": "Editorial · Fisheries",
+    "stat": "Fish waste",
+    "statl": "Turned into fertiliser",
+    "loc": "Gorrekunta, Warangal",
+    "h": "Gorrekunta turns fish waste into fertiliser",
+    "p": "This is a Telangana Today column for World Fisheries Day. At Gorrekunta near Warangal, a fisherwomen's cooperative has for three years made fish amino acid and organic compost from fish waste. The writer suggests expanding it into a larger unit.",
+    "pts": [
+     "Proposed unit to process one tonne of waste a day",
+     "About two acres of land proposed",
+     "Preliminary estimate of ₹1.50 crore"
+    ],
+    "why": "Useful for fishers and farmers interested in fish waste use and organic fertiliser."
+   },
+   "hi": {
+    "cat": "संपादकीय · मत्स्य पालन",
+    "stat": "मछली का कचरा",
+    "statl": "खाद में बदला",
+    "loc": "गोर्रेकुंटा, वरंगल",
+    "h": "गोर्रेकुंटा में मछली कचरे से खाद",
+    "p": "यह विश्व मत्स्य दिवस पर तेलंगाना टुडे का एक लेख है। वरंगल के पास गोर्रेकुंटा में मछुआरा महिलाओं की सहकारी समिति तीन साल से मछली के कचरे से फिश अमीनो एसिड और जैविक खाद बना रही है। लेखक ने इसे बड़ी इकाई बनाने का सुझाव दिया है।",
+    "pts": [
+     "रोज एक टन कचरा संसाधित करने वाली इकाई का प्रस्ताव",
+     "करीब दो एकड़ जमीन का प्रस्ताव",
+     "प्रारंभिक अनुमान ₹1.50 करोड़"
+    ],
+    "why": "मछली कचरे के उपयोग और जैविक खाद में रुचि रखने वाले मछुआरों व किसानों के लिए उपयोगी।"
+   },
+   "d": "21.11.2026",
+   "t": "10:35"
+  },
+  {
+   "cat": "భారత్ · దర్యాప్తు",
+   "col": "--c-gov",
+   "art": "court",
+   "pic": "c/crime",
+   "stat": "ఎన్ఐఏ",
+   "statl": "ఫ్లైదుబాయ్ దాడి దర్యాప్తు",
+   "h": "ఫ్లైదుబాయ్ దాడిపై యూఏఈ సాయం కోరిన ఎన్ఐఏ",
+   "p": "సెప్టెంబర్ 30న దుబాయ్ నుంచి టెల్ అవీవ్ వెళ్తున్న ఫ్లైదుబాయ్ విమానంలో భారత కెప్టెన్‌పై ఒమన్‌కు చెందిన కో-పైలట్ కత్తితో దాడి చేసిన కేసులో ఎన్ఐఏ యూఏఈకి న్యాయ సహాయ అభ్యర్థన పంపింది. నిందితుడికి భారత్‌లో ఉన్న సంబంధాలనూ పరిశీలిస్తామని ఎన్ఐఏ డీజీ రాకేశ్ అగర్వాల్ తెలిపారు.",
+   "pts": [
+    "విమానంలో 174 మంది ప్రయాణికులు, ఆరుగురు సిబ్బంది",
+    "విమానం సౌదీలోని తబూక్‌లో దిగింది; నిందితుడి అరెస్టు",
+    "యూఏఈ పత్రాలు అందాక దర్యాప్తులో చేరనున్న ఎన్ఐఏ"
+   ],
+   "why": "విదేశీ విమానయాన సంస్థల్లో పనిచేసే భారతీయ పైలట్ల భద్రతకు సంబంధించిన కేసు ఇది.",
+   "src": "Siasat Daily (PTI)",
+   "url": "https://www.siasat.com/flydubai-attack-nia-probes-omani-co-pilots-links-in-india-3582730/",
+   "sec": [
+    "india"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-21T09:56+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Investigation",
+    "stat": "NIA probe",
+    "statl": "Flydubai mid-air attack",
+    "loc": "New Delhi",
+    "h": "NIA seeks UAE help in Flydubai attack probe",
+    "p": "The NIA has sent a legal assistance request to the UAE in the case of an Omani co-pilot who stabbed an Indian captain on a Dubai–Tel Aviv flydubai flight on September 30. NIA chief Rakesh Aggarwal said the agency will also check the accused's links in India.",
+    "pts": [
+     "Flight carried 174 passengers and six crew",
+     "Plane landed at Tabuk, Saudi Arabia; accused arrested",
+     "NIA to join probe once UAE documents arrive"
+    ],
+    "why": "The case concerns the safety of Indian pilots working for foreign airlines."
+   },
+   "hi": {
+    "cat": "भारत · जांच",
+    "stat": "एनआईए जांच",
+    "statl": "फ्लाईदुबई विमान हमला",
+    "loc": "नई दिल्ली",
+    "h": "फ्लाईदुबई हमले पर एनआईए ने मांगी यूएई की मदद",
+    "p": "30 सितंबर को दुबई से तेल अवीव जा रहे फ्लाईदुबई विमान में ओमानी सह-पायलट द्वारा भारतीय कप्तान पर चाकू से हमले के मामले में एनआईए ने यूएई को कानूनी सहायता अनुरोध भेजा है। एनआईए प्रमुख राकेश अग्रवाल ने कहा कि आरोपी के भारत से संबंधों की भी जांच होगी।",
+    "pts": [
+     "विमान में 174 यात्री और छह चालक दल सदस्य थे",
+     "विमान सऊदी के तबूक में उतरा; आरोपी गिरफ्तार",
+     "यूएई के दस्तावेज मिलने पर एनआईए जांच में शामिल होगी"
+    ],
+    "why": "यह मामला विदेशी एयरलाइनों में काम करने वाले भारतीय पायलटों की सुरक्षा से जुड़ा है।"
+   },
+   "d": "21.11.2026",
+   "t": "10:35"
+  },
   {
    "cat": "ఏపీ · ఎన్టీఆర్ జిల్లా",
    "col": "--c-gov",
@@ -2866,380 +3254,6 @@
      "अपीलों के निपटारे के बाद ही गजट अधिसूचना"
     ],
     "why": "जमीन वाले किसानों को नाप और रिकॉर्ड का अंतर पहले पता चलेगा और वे आपत्ति दे सकेंगे।"
-   },
-   "d": "21.11.2026",
-   "t": "06:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · ఓఆర్‌ఆర్",
-   "col": "--c-city",
-   "art": "water",
-   "pic": "c/environment",
-   "stat": "స్ప్రింక్లర్లతో",
-   "statl": "ఓఆర్‌ఆర్ మొక్కలకు నీరు",
-   "h": "ఓఆర్‌ఆర్ మొక్కలకు స్ప్రింక్లర్ల నీరు",
-   "p": "హైదరాబాద్ ఔటర్ రింగ్ రోడ్డు వెంట మొక్కలకు నీరు పెట్టేందుకు హెచ్‌ఎండీఏ స్ప్రింక్లర్ వ్యవస్థను ప్రయోగాత్మకంగా ఏర్పాటు చేసింది. తొలి దశలో 119వ కిలోమీటరు నుంచి 121వ కిలోమీటరు వరకు అమర్చారు. దీంతో రోడ్డుపై నీటి ట్యాంకర్ల రాకపోకలు తగ్గి, ట్రాఫిక్ ఇబ్బందులు, ప్రమాదాల ముప్పు తగ్గుతాయని అధికారులు తెలిపారు. నీరు, సిబ్బంది అవసరం కూడా తగ్గుతుందన్నారు.",
-   "pts": [
-    "పది రోజుల పాటు పనితీరు పరిశీలన",
-    "ఫలితాలు బాగుంటే మరిన్ని చోట్లకు దశలవారీగా విస్తరణ"
-   ],
-   "why": "ఓఆర్‌ఆర్‌పై ప్రయాణించే వాహనదారులకు నీటి ట్యాంకర్ల వల్ల వచ్చే అడ్డంకులు తగ్గుతాయి.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/hyderabad/hmda-rolls-out-sprinkler-irrigation-system-along-orr-1144261",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "ఔటర్ రింగ్ రోడ్డు",
-   "pub": "2026-11-21T05:39+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · ORR",
-    "h": "HMDA tries sprinklers for ORR greenery",
-    "stat": "ORR plants",
-    "statl": "watered by sprinklers",
-    "loc": "Outer Ring Road",
-    "p": "HMDA has installed a sprinkler irrigation system on a pilot basis to water plantations along Hyderabad's Outer Ring Road. The first phase covers Km 119 to Km 121. Officials said it will cut water-tanker movement on the road, easing traffic disruption and accident risk, and will also save water and manpower.",
-    "pts": [
-     "Performance to be monitored for 10 days",
-     "Phased expansion to more stretches if results are good"
-    ],
-    "why": "Motorists on the ORR will face fewer obstructions from water tankers."
-   },
-   "hi": {
-    "cat": "हैदराबाद · ओआरआर",
-    "h": "ओआरआर की हरियाली के लिए स्प्रिंकलर",
-    "stat": "ओआरआर के पौधे",
-    "statl": "स्प्रिंकलर से सिंचाई",
-    "loc": "आउटर रिंग रोड",
-    "p": "एचएमडीए ने हैदराबाद की आउटर रिंग रोड के किनारे पौधों को पानी देने के लिए प्रायोगिक तौर पर स्प्रिंकलर प्रणाली लगाई है। पहले चरण में किलोमीटर 119 से 121 तक इसे लगाया गया। अधिकारियों के अनुसार इससे सड़क पर पानी के टैंकरों की आवाजाही घटेगी, यातायात बाधा और दुर्घटना का खतरा कम होगा तथा पानी और कर्मचारियों की जरूरत भी घटेगी।",
-    "pts": [
-     "दस दिन तक प्रदर्शन की निगरानी",
-     "नतीजे अच्छे रहे तो चरणबद्ध विस्तार"
-    ],
-    "why": "ओआरआर पर चलने वाले वाहन चालकों को पानी के टैंकरों से होने वाली रुकावट कम होगी।"
-   },
-   "d": "21.11.2026",
-   "t": "06:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · స్థలాలు",
-   "col": "--c-money",
-   "art": "land",
-   "pic": "c/realestate",
-   "stat": "₹55.43 కోట్లు",
-   "statl": "బాచుపల్లి వేలం ఆదాయం",
-   "h": "బాచుపల్లి ప్లాట్ల వేలంలో ₹55.43 కోట్లు",
-   "p": "హైదరాబాద్ బాచుపల్లి లేఅవుట్‌లో హెచ్‌ఎండీఏ శుక్రవారం 50 నివాస ప్లాట్లకు ఈ-వేలం నిర్వహించింది. వీటిలో 40 ప్లాట్లు అమ్ముడయ్యాయి. మొత్తం సుమారు ₹55.43 కోట్ల ఆదాయం వచ్చింది. చదరపు గజానికి అత్యధికంగా ₹60,500 ధర పలికింది. సగటు ధర చదరపు గజానికి ₹49,737గా నమోదైంది. ఇళ్ల కొనుగోలుదారులు, పెట్టుబడిదారుల నుంచి మంచి స్పందన వచ్చింది.",
-   "pts": [],
-   "why": "బాచుపల్లి పరిసరాల్లో స్థలం కొనాలనుకునే వారికి ప్రస్తుత ధరల స్థాయి తెలుస్తుంది.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/hyderabad/hmda-bachupally-e-auction-fetches-rs-5543-crore-1144249",
-   "sec": [
-    "telangana",
-    "business"
-   ],
-   "st": "TG",
-   "place": "medchal",
-   "loc": "బాచుపల్లి",
-   "pub": "2026-11-21T05:15+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Plots",
-    "h": "Bachupally plot auction nets Rs 55.43 crore",
-    "stat": "Rs 55.43 crore",
-    "statl": "from Bachupally plot auction",
-    "loc": "Bachupally",
-    "p": "HMDA held an e-auction of 50 residential plots in its Bachupally Layout in Hyderabad on Friday. Forty plots were sold, bringing in about Rs 55.43 crore. The highest bid was Rs 60,500 per square yard and the weighted average rate was Rs 49,737 per square yard. The auction drew a strong response from homebuyers and investors.",
-    "pts": [],
-    "why": "People planning to buy land around Bachupally get a sense of current price levels."
-   },
-   "hi": {
-    "cat": "हैदराबाद · प्लॉट",
-    "h": "बाचुपल्ली प्लॉट नीलामी से ₹55.43 करोड़",
-    "stat": "₹55.43 करोड़",
-    "statl": "बाचुपल्ली प्लॉट नीलामी से आय",
-    "loc": "बाचुपल्ली",
-    "p": "एचएमडीए ने शुक्रवार को हैदराबाद के बाचुपल्ली लेआउट में 50 आवासीय प्लॉटों की ई-नीलामी की। इनमें से 40 प्लॉट बिके और करीब ₹55.43 करोड़ की आय हुई। सबसे ऊंची बोली ₹60,500 प्रति वर्ग गज रही, जबकि औसत दर ₹49,737 प्रति वर्ग गज रही। घर खरीदारों और निवेशकों की अच्छी भागीदारी रही।",
-    "pts": [],
-    "why": "बाचुपल्ली के आसपास जमीन खरीदने वालों को मौजूदा दरों का अंदाजा मिलता है।"
-   },
-   "d": "21.11.2026",
-   "t": "06:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · విద్యార్థులు",
-   "col": "--c-city",
-   "art": "campus",
-   "pic": "n/students",
-   "stat": "సుమారు 45 మంది",
-   "statl": "విద్యార్థులకు అస్వస్థత",
-   "h": "హైదరాబాద్ వర్సిటీ విద్యార్థులకు అస్వస్థత",
-   "p": "హైదరాబాద్ విశ్వవిద్యాలయంలోని రెండు బాలుర హాస్టళ్లలో శుక్రవారం పలువురు విద్యార్థులు అస్వస్థతకు గురయ్యారు. కలుషిత ఆహారమే కారణమని అనుమానిస్తున్నట్లు విద్యార్థి సంఘాలు తెలిపాయి. సుమారు 45 మంది వర్సిటీ ఆరోగ్య కేంద్రంలో చికిత్స పొందుతున్నారని, వారి పరిస్థితి నిలకడగా ఉందని చెప్పాయి. విద్యార్థి సంక్షేమ డీన్ ఆరోగ్య కేంద్రాన్ని సందర్శించి చికిత్సను సమీక్షించారు.",
-   "pts": [
-    "ఎన్‌ఆర్‌ఎస్, ఎం-హాస్టళ్ల విద్యార్థులకు అస్వస్థత",
-    "ఆహార నాణ్యతకు పోషకాహార నిపుణుడిని నియమించాలని డిమాండ్",
-    "కారణంపై అధికారిక నిర్ధారణ ఇంకా లేదు"
-   ],
-   "why": "హాస్టళ్లలో ఉండే విద్యార్థుల ఆహార భద్రతపై విద్యార్థులు, తల్లిదండ్రులకు ఇది ముఖ్యమైన విషయం.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/hyderabad/45-students-hospitalised-for-food-poisoning-at-uoh-1144246",
-   "sec": [
-    "telangana",
-    "education"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "హైదరాబాద్ విశ్వవిద్యాలయం",
-   "pub": "2026-11-21T05:06+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Hyderabad · Students",
-    "h": "About 45 UoH hostel students fall ill",
-    "stat": "About 45",
-    "statl": "students taken ill",
-    "loc": "University of Hyderabad",
-    "p": "Several students of two boys' hostels at the University of Hyderabad fell ill on Friday. Students' unions said food poisoning is suspected. They said about 45 students are being treated at the university health centre and are stable. The Dean of Students' Welfare visited the health centre and reviewed the treatment.",
-    "pts": [
-     "Students of NRS and M hostels affected",
-     "Unions want a nutritionist to check food quality",
-     "No official finding on the cause yet"
-    ],
-    "why": "Food safety in hostels matters to students living on campus and their parents."
-   },
-   "hi": {
-    "cat": "हैदराबाद · छात्र",
-    "h": "हैदराबाद विवि के छात्रावासों में छात्र बीमार",
-    "stat": "करीब 45",
-    "statl": "छात्र बीमार",
-    "loc": "हैदराबाद विश्वविद्यालय",
-    "p": "हैदराबाद विश्वविद्यालय के दो बालक छात्रावासों में शुक्रवार को कई छात्र बीमार पड़ गए। छात्र संघों ने कहा कि दूषित भोजन कारण होने का संदेह है। उनके अनुसार करीब 45 छात्रों का विश्वविद्यालय के स्वास्थ्य केंद्र में इलाज चल रहा है और उनकी हालत स्थिर है। छात्र कल्याण डीन ने स्वास्थ्य केंद्र जाकर इलाज की समीक्षा की।",
-    "pts": [
-     "एनआरएस और एम-छात्रावास के छात्र प्रभावित",
-     "भोजन की गुणवत्ता के लिए पोषण विशेषज्ञ की मांग",
-     "कारण पर अभी कोई आधिकारिक निष्कर्ष नहीं"
-    ],
-    "why": "छात्रावास में रहने वाले छात्रों और उनके अभिभावकों के लिए भोजन की सुरक्षा अहम है।"
-   },
-   "d": "21.11.2026",
-   "t": "06:05"
-  },
-  {
-   "cat": "నిజామాబాద్ · పింఛన్లు",
-   "col": "--c-gov",
-   "art": "unity",
-   "pic": "s/pensions",
-   "stat": "20,555",
-   "statl": "కొత్త చేయూత పింఛన్లు",
-   "h": "ముప్కాల్‌లో చేయూత పింఛన్ల పత్రాల పంపిణీ",
-   "p": "నిజామాబాద్ జిల్లా ముప్కాల్‌లో మంత్రి సీతక్క శుక్రవారం కొత్త చేయూత పింఛన్ల మంజూరు పత్రాలు పంపిణీ చేశారు. రాష్ట్రంలో 4.63 లక్షల చేయూత లబ్ధిదారుల్లో 3.50 లక్షల మంది మహిళలేనని ఆమె చెప్పారు. జిల్లాలో 20,555 కొత్త పింఛన్లు మంజూరయ్యాయని కలెక్టర్ ఇలా త్రిపాఠి తెలిపారు. పింఛన్ డబ్బులు నవంబర్ 26న బ్యాంకు ఖాతాల్లో జమ అవుతాయని మంత్రి ప్రకటించారు.",
-   "pts": [
-    "బాల్కొండ నియోజకవర్గంలో 3,092 మందికి కొత్త పింఛన్లు",
-    "మహిళా సంఘాలకు ₹21.91 కోట్ల రుణాల చెక్కులు",
-    "మిగిలిన దరఖాస్తులు తదుపరి దశల్లో పరిశీలన"
-   ],
-   "why": "నిజామాబాద్ జిల్లాలో కొత్తగా పింఛన్ మంజూరైన వారికి నవంబర్ 26న డబ్బులు అందుతాయి.",
-   "next": "పింఛన్ డబ్బులు నవంబర్ 26న ఖాతాల్లో జమ",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/nizamabad/over-75-cheyutha-pension-beneficiaries-are-women-minister-1144224",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "nizamabad",
-   "loc": "ముప్కాల్",
-   "pub": "2026-11-21T04:14+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Nizamabad · Pensions",
-    "h": "Cheyutha pension papers given at Mupkal",
-    "stat": "20,555",
-    "statl": "new Cheyutha pensions in Nizamabad",
-    "loc": "Mupkal, Nizamabad",
-    "p": "Minister Seethakka distributed sanction papers for new Cheyutha pensions at Mupkal in Nizamabad district on Friday. She said 3.50 lakh of the 4.63 lakh Cheyutha beneficiaries in the state are women. Collector Ila Tripathi said 20,555 new pensions have been approved in the district. The minister announced that pension amounts will be credited to bank accounts on November 26.",
-    "pts": [
-     "3,092 new pensioners in Balkonda constituency",
-     "Rs 21.91 crore loan cheques given to women's groups",
-     "Remaining applications to be verified in later phases"
-    ],
-    "why": "Newly approved pensioners in Nizamabad district will receive their money on November 26.",
-    "next": "Pension amounts to be credited on November 26"
-   },
-   "hi": {
-    "cat": "निजामाबाद · पेंशन",
-    "h": "मुपकाल में चेयूता पेंशन पत्र बांटे गए",
-    "stat": "20,555",
-    "statl": "नई चेयूता पेंशन",
-    "loc": "मुपकाल, निजामाबाद",
-    "p": "मंत्री सीतक्का ने शुक्रवार को निजामाबाद जिले के मुपकाल में नई चेयूता पेंशन के स्वीकृति पत्र बांटे। उन्होंने कहा कि राज्य के 4.63 लाख चेयूता लाभार्थियों में 3.50 लाख महिलाएं हैं। कलेक्टर इला त्रिपाठी ने बताया कि जिले में 20,555 नई पेंशन मंजूर हुई हैं। मंत्री ने घोषणा की कि पेंशन की राशि 26 नवंबर को बैंक खातों में जमा होगी।",
-    "pts": [
-     "बालकोंडा क्षेत्र में 3,092 नए पेंशनधारी",
-     "महिला समूहों को ₹21.91 करोड़ के ऋण चेक",
-     "बाकी आवेदनों की जांच अगले चरणों में"
-    ],
-    "why": "निजामाबाद जिले के नए पेंशनधारियों को 26 नवंबर को राशि मिलेगी।",
-    "next": "पेंशन राशि 26 नवंबर को खातों में जमा होगी"
-   },
-   "d": "21.11.2026",
-   "t": "06:05"
-  },
-  {
-   "cat": "భద్రాద్రి · భద్రాచలం",
-   "col": "--c-city",
-   "art": "unity",
-   "pic": "c/devotional",
-   "stat": "మండపం స్తంభం",
-   "statl": "బండరాయితో దెబ్బతింది",
-   "h": "భద్రాచలం మండపంపై దొర్లిన బండరాళ్లు",
-   "p": "భద్రాచలంలోని రంగనాయకుల గుట్టపై కొత్త కాటేజీ కోసం తవ్వకాలు జరుగుతుండగా శుక్రవారం తెల్లవారుజామున బండరాళ్లు దొర్లి కింద ఉన్న అంబ సత్రం ఆవరణలో పడ్డాయి. ఒక పెద్ద రాయి సీతారామ మండపం స్తంభానికి తగిలి అది దెబ్బతింది. మండపంలోని సీతారాముల విగ్రహాలకు ఏమీ కాలేదు. ఆ సమయంలో అక్కడ జనం పెద్దగా లేకపోవడంతో ఎవరికీ పెద్ద ప్రమాదం జరగలేదని సమాచారం.",
-   "pts": [
-    "సత్రం నిర్మాత హరిదాసు విగ్రహం పక్కగా రాళ్లు దొర్లాయి",
-    "గుట్టపై తవ్వకాల భద్రతపై ఆందోళన"
-   ],
-   "why": "గుట్ట దిగువన ఉన్న సత్రాలు, ఆలయాలకు వచ్చే భక్తుల భద్రతకు సంబంధించిన విషయం ఇది.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/khammam/boulder-crash-damages-sita-rama-mandapam-1144212",
-   "sec": [
-    "telangana",
-    "culture"
-   ],
-   "st": "TG",
-   "place": "bhadradri",
-   "loc": "భద్రాచలం",
-   "pub": "2026-11-21T03:54+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Bhadradri · Bhadrachalam",
-    "h": "Boulders damage mandapam at Bhadrachalam",
-    "stat": "Mandapam pillar",
-    "statl": "damaged by a rolling boulder",
-    "loc": "Bhadrachalam",
-    "p": "Boulders came loose during excavation for a new cottage on Ranganaikula Gutta in Bhadrachalam early on Friday and rolled into the Ambha Satram premises below. One large stone hit a pillar of the Sita-Rama Mandapam and damaged it. The idols of Sita and Rama in the mandapam were unharmed. The premises were largely empty at that hour and no major casualty was reported.",
-    "pts": [
-     "Boulders passed close to the statue of the satram's founder",
-     "Concern over safety of excavation on the hill"
-    ],
-    "why": "It concerns the safety of devotees visiting the choultries and shrines at the foot of the hill."
-   },
-   "hi": {
-    "cat": "भद्राद्रि · भद्राचलम",
-    "h": "भद्राचलम में चट्टानें गिरने से मंडप क्षतिग्रस्त",
-    "stat": "मंडप का स्तंभ",
-    "statl": "चट्टान लगने से क्षतिग्रस्त",
-    "loc": "भद्राचलम",
-    "p": "भद्राचलम की रंगनायकुला गुट्टा पहाड़ी पर नए कॉटेज के लिए खुदाई के दौरान शुक्रवार तड़के चट्टानें खिसककर नीचे अंबा सत्रम परिसर में आ गिरीं। एक बड़ा पत्थर सीता-राम मंडप के स्तंभ से टकराया और उसे नुकसान पहुंचा। मंडप में सीता-राम की मूर्तियां सुरक्षित रहीं। उस समय परिसर लगभग खाली था और किसी बड़ी जनहानि की सूचना नहीं है।",
-    "pts": [
-     "सत्रम के संस्थापक की प्रतिमा के पास से गुजरीं चट्टानें",
-     "पहाड़ी पर खुदाई की सुरक्षा को लेकर चिंता"
-    ],
-    "why": "यह पहाड़ी के नीचे स्थित सत्रम और मंदिरों में आने वाले श्रद्धालुओं की सुरक्षा से जुड़ा मामला है।"
-   },
-   "d": "21.11.2026",
-   "t": "06:05"
-  },
-  {
-   "cat": "ఏపీ · అనంతపురం",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "c/politics",
-   "stat": "జడ్పీ చైర్మన్",
-   "statl": "గంజె నాగరాజు ఏకగ్రీవం",
-   "h": "అనంతపురం జడ్పీ చైర్మన్‌గా గంజె నాగరాజు",
-   "p": "అనంతపురం జిల్లా ప్రజా పరిషత్ చైర్మన్‌గా గార్లదిన్నె జడ్పీటీసీ గంజె నాగరాజు ఏకగ్రీవంగా ఎన్నికయ్యారు. శుక్రవారం కలెక్టర్ ఓ. ఆనంద్ అధ్యక్షతన జరిగిన ప్రత్యేక సమావేశంలో ఒకే నామినేషన్ రావడంతో ఆయన ఎన్నికను ప్రకటించారు. వైస్ చైర్‌పర్సన్‌గా యల్లనూరు జడ్పీటీసీ వెన్నపూస లలిత ఏకగ్రీవమయ్యారు. ఇద్దరితో కలెక్టర్ ప్రమాణం చేయించారు. ఆర్థిక మంత్రి పయ్యావుల కేశవ్ హాజరయ్యారు.",
-   "pts": [
-    "నాగరాజు పేరును యాడికి జడ్పీటీసీ రంగయ్య ప్రతిపాదించారు",
-    "ఎంపీ అంబికా లక్ష్మీనారాయణ, ఎమ్మెల్యేలు పాల్గొన్నారు"
-   ],
-   "why": "అనంతపురం జిల్లా గ్రామాల్లో రోడ్లు, తాగునీరు వంటి పనుల నిర్ణయాలు కొత్త జడ్పీ పాలకవర్గం తీసుకుంటుంది.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/anantapur/ganje-nagaraju-elected-unanimously-as-anantapur-zp-chief-1144158",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-anantapur",
-   "loc": "అనంతపురం",
-   "pub": "2026-11-21T02:53+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Anantapur",
-    "h": "Ganje Nagaraju is Anantapur ZP chairman",
-    "stat": "ZP chairman",
-    "statl": "Ganje Nagaraju elected unopposed",
-    "loc": "Anantapur",
-    "p": "Garladinne ZPTC Ganje Nagaraju was unanimously elected chairperson of the Anantapur Zilla Praja Parishad. At a special meeting chaired by Collector O. Anand on Friday, his election was declared as only one nomination was received. Yellanuru ZPTC Vennapoosa Lalitha was elected vice-chairperson unopposed. The Collector administered the oath to both. Finance Minister Payyavula Keshav attended.",
-    "pts": [
-     "Yadiki ZPTC Rangaiah proposed Nagaraju's name",
-     "MP Ambica Lakshmi Narayana and MLAs took part"
-    ],
-    "why": "The new ZP body will decide on works such as roads and drinking water in Anantapur villages."
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · अनंतपुर",
-    "h": "गंजे नागराजू अनंतपुर जिला परिषद अध्यक्ष",
-    "stat": "जिला परिषद अध्यक्ष",
-    "statl": "गंजे नागराजू निर्विरोध",
-    "loc": "अनंतपुर",
-    "p": "गार्लदिन्ने के जेडपीटीसी गंजे नागराजू अनंतपुर जिला प्रजा परिषद के अध्यक्ष निर्विरोध चुने गए। शुक्रवार को कलेक्टर ओ. आनंद की अध्यक्षता में हुई विशेष बैठक में केवल एक नामांकन आने पर उनके चुनाव की घोषणा की गई। यल्लनूरु की जेडपीटीसी वेन्नपूसा ललिता निर्विरोध उपाध्यक्ष बनीं। कलेक्टर ने दोनों को शपथ दिलाई। वित्त मंत्री पय्यावुला केशव मौजूद रहे।",
-    "pts": [
-     "याडिकी के जेडपीटीसी रंगय्या ने नागराजू का नाम प्रस्तावित किया",
-     "सांसद अंबिका लक्ष्मीनारायण और विधायक शामिल हुए"
-    ],
-    "why": "अनंतपुर के गांवों में सड़क और पेयजल जैसे कामों के फैसले नई जिला परिषद करेगी।"
-   },
-   "d": "21.11.2026",
-   "t": "06:05"
-  },
-  {
-   "cat": "ఏపీ · తూర్పుగోదావరి",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "c/politics",
-   "stat": "జడ్పీ చైర్‌పర్సన్",
-   "statl": "కడ పద్మ ఏకగ్రీవం",
-   "h": "తూర్పుగోదావరి జడ్పీ పీఠంపై కడ పద్మ",
-   "p": "తూర్పుగోదావరి జిల్లా పరిషత్ చైర్‌పర్సన్‌గా రాయవరం జడ్పీటీసీ కడ పద్మ ఏకగ్రీవంగా ఎన్నికయ్యారు. నిడదవోలు జడ్పీటీసీ పల్నాటి రజిని వైస్ చైర్‌పర్సన్ అయ్యారు. రాజమహేంద్రవరం జడ్పీ కార్యాలయంలో శుక్రవారం కలెక్టర్ కీర్తి చేకూరి ప్రమాణం చేయించారు. 2022లో కొత్త జిల్లా ఏర్పడిన తర్వాత ఈ పదవులకు ఇదే తొలి ఎన్నిక. పద్మకు టీడీపీ బీ-ఫారం ఇచ్చినట్లు జడ్పీ సీఈవో తెలిపారు.",
-   "pts": [
-    "ముందుగా 21 మంది జడ్పీటీసీల ప్రమాణం",
-    "పర్యాటక మంత్రి కందుల దుర్గేశ్ హాజరు"
-   ],
-   "why": "తూర్పుగోదావరి జిల్లా గ్రామీణ పనులు, నిధుల నిర్ణయాలు ఇక ఈ కొత్త పాలకవర్గం చేతిలో ఉంటాయి.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/rajahmundry/kada-padma-elected-eg-zp-chairperson-1144121",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-eastgodavari",
-   "loc": "రాజమహేంద్రవరం",
-   "pub": "2026-11-21T00:56+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · East Godavari",
-    "h": "Kada Padma is East Godavari ZP chairperson",
-    "stat": "ZP chairperson",
-    "statl": "Kada Padma elected unopposed",
-    "loc": "Rajamahendravaram",
-    "p": "Rayavaram ZPTC Kada Padma was unanimously elected chairperson of the East Godavari Zilla Parishad, and Nidadavole ZPTC Palnati Rajini vice-chairperson. Collector Kirti Chekuri conducted the election at the ZP office in Rajamahendravaram on Friday and administered the oath. It was the first election to these posts since the new district was formed in 2022. The ZP CEO said Padma had the TDP B-form.",
-    "pts": [
-     "21 ZPTC members took oath first",
-     "Tourism Minister Kandula Durgesh attended"
-    ],
-    "why": "Decisions on rural works and funds in East Godavari district now rest with this new body."
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · पूर्वी गोदावरी",
-    "h": "कडा पद्मा पूर्वी गोदावरी जिला परिषद अध्यक्ष",
-    "stat": "जिला परिषद अध्यक्ष",
-    "statl": "कडा पद्मा निर्विरोध",
-    "loc": "राजमहेंद्रवरम",
-    "p": "रायवरम की जेडपीटीसी कडा पद्मा पूर्वी गोदावरी जिला परिषद की अध्यक्ष निर्विरोध चुनी गईं और निडदवोलु की जेडपीटीसी पलनाटी रजनी उपाध्यक्ष बनीं। शुक्रवार को राजमहेंद्रवरम के जिला परिषद कार्यालय में कलेक्टर कीर्ति चेकूरी ने चुनाव कराया और शपथ दिलाई। 2022 में नया जिला बनने के बाद इन पदों का यह पहला चुनाव है। सीईओ के अनुसार पद्मा को टीडीपी का बी-फॉर्म मिला था।",
-    "pts": [
-     "पहले 21 जेडपीटीसी सदस्यों ने शपथ ली",
-     "पर्यटन मंत्री कंदुला दुर्गेश मौजूद रहे"
-    ],
-    "why": "पूर्वी गोदावरी जिले के ग्रामीण कामों और धन के फैसले अब यह नई परिषद करेगी।"
    },
    "d": "21.11.2026",
    "t": "06:05"
