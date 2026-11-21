@@ -2652,6 +2652,23 @@ const RADIO_ON=()=>{ try{ return RADIO; }catch(e){ return false; } };
 function setCount(a,n){ $('count').innerHTML = n ? `<b>${a}</b>/${n}` : ''; try{ document.documentElement.style.setProperty('--dprog', n ? (a/n*100)+'%' : '0%'); const cc=cards&&cards[a-1]; if(cc){ const d=cc.querySelector('.dcount'); if(d) d.innerHTML=`<b>${a}</b>/${n}`; } }catch(e){} $('railFill').style.width = n ? (a/n*100)+'%' : '0'; if(window.cardChanged && RADIO_ON()) cardChanged(); else if(window.stopVoice) stopVoice(); }
 /* AI voice: reads the card aloud in Telugu with the phone's own voice */
 const synth = window.speechSynthesis;
+/* owner 21 Nov 2026: "best voices, very fluent" – pick the most natural voice the phone has, and clean the text so it reads like a newsreader */
+function bestVoice(sl){ const L=sl.slice(0,2).toLowerCase(), vs=(synth.getVoices()||[]).filter(v=>v.lang.replace('_','-').toLowerCase().startsWith(L)); if(!vs.length) return null;
+  const score=v=>{ const n=(v.name||'').toLowerCase(); let x=0; if(/natural|neural|premium|enhanced|wavenet|online/.test(n)) x+=6; if(/google/.test(n)) x+=4; if(v.localService===false) x+=2;
+    if(v.lang.replace('_','-').toLowerCase()===sl.toLowerCase()) x+=2; if(/compact|espeak|robot/.test(n)) x-=6; return x; };
+  try{ const k='voice.'+L, saved=store.get(k,''); const sv=saved&&vs.find(v=>v.name===saved); if(sv) return sv; }catch(e){}
+  return vs.slice().sort((a,b)=>score(b)-score(a))[0]; }
+function speakable(t,sl){ if(!t) return t; const te=sl==='te-IN', hi=sl==='hi-IN';
+  t=t.replace(/[\u{1F300}-\u{1FAFF}☀-➿️]/gu,' ').replace(/[“”"‘’'«»]/g,'').replace(/\s*[–—]\s*/g,', ').replace(/\s*:\s*/g,'. ').replace(/[|·•]/g,', ');
+  t=t.replace(/(\d),(?=\d)/g,'$1'); // 1,54,032 → 154032 (voices read the number, not "comma")
+  const RS=te?' రూపాయల':hi?' रुपये':' rupees', CR=te?' కోట్ల':hi?' करोड़':' crore', LK=te?' లక్షల':hi?' लाख':' lakh';
+  t=t.replace(/₹\s?([\d.]+)\s?(వేల|వేలు|thousand|हज़ार|हजार)/g,(m,n)=>n+(te?' వేల':hi?' हज़ार':' thousand')+RS);
+  t=t.replace(/₹\s?([\d.]+)\s?(కోట్ల|కోట్లు|crore|करोड़)/g,(m,n)=>n+CR+RS).replace(/₹\s?([\d.]+)\s?(లక్షల|లక్షలు|lakh|लाख)/g,(m,n)=>n+LK+RS).replace(/₹\s?([\d.]+)/g,(m,n)=>n+RS);
+  if(te) t=t.replace(/కి\.మీ\.?/g,'కిలోమీటర్లు').replace(/సెం\.మీ\.?/g,'సెంటీమీటర్లు').replace(/మి\.మీ\.?/g,'మిల్లీమీటర్లు').replace(/గ్రా\./g,'గ్రాములు').replace(/(\d)\s?%/g,'$1 శాతం').replace(/(\d)°/g,'$1 డిగ్రీలు');
+  else if(hi) t=t.replace(/(\d)\s?%/g,'$1 प्रतिशत').replace(/(\d)°/g,'$1 डिग्री');
+  else t=t.replace(/(\d)°/g,'$1 degrees').replace(/\bkm\b/g,'kilometres');
+  return t.replace(/\s{2,}/g,' ').replace(/(\.\s*){2,}/g,'. ').trim(); }
+
 /* "News radio": reads the card aloud, then turns to the next card by itself and keeps reading until stopped.
    Same toggle for the 🔊 button in the bottom bar and the floating 🎧 button shown in reading mode. */
 let RADIO=false, rTok=0, rWait=0;
@@ -2666,13 +2683,13 @@ function npPauseUI(){ const n=document.getElementById('s2np'); if(n) n.classList
 function npPause(){ if(!RADIO) return; if(!rPaused){ rPaused=true; rTok++; clearTimeout(rWait); try{ synth.cancel(); }catch(e){} } else { rPaused=false; speakCur(rIdx); } npPauseUI(); }
 function npReplay(){ if(!RADIO) return; rPaused=false; npPauseUI(); rTok++; try{ synth.cancel(); }catch(e){} speakCur(0); }
 function speakCur(from){ clearTimeout(rWait); if(!RADIO||rPaused) return; const s=LIST[cur], tok=++rTok;
-  const text=voiceText(s); if(!text){ rWait=setTimeout(()=>{ if(RADIO&&tok===rTok) go(cur+1,'left'); },900); return; }
+  const text=speakable(voiceText(s),U('speech')); if(!text){ rWait=setTimeout(()=>{ if(RADIO&&tok===rTok) go(cur+1,'left'); },900); return; }
   // short pieces: Android Chrome stops long speech after ~15 s
   const parts=(text.replace(/\s+/g,' ').match(/[^.!?।]+[.!?।]*\s*|[.!?।]+\s*/g)||[]).map(x=>x.trim()).filter(Boolean).reduce((a,x)=>{ if(a.length && (a[a.length-1]+' '+x).length<180) a[a.length-1]+=' '+x; else a.push(x); return a; },[]);
-  const sl=U('speech'), v=synth.getVoices().find(v=>v.lang.replace('_','-').toLowerCase().startsWith(sl.slice(0,2)));
+  const sl=U('speech'), v=bestVoice(sl);
   try{ synth.cancel(); }catch(e){}
   rParts=parts; const st=Math.max(0,Math.min(parts.length-1,from|0)); rIdx=st; const tot=parts.reduce((a,x)=>a+x.length,0)||1, before=k=>parts.slice(0,k).reduce((a,x)=>a+x.length,0); npProg(before(st)/tot);
-  parts.forEach((x,i)=>{ if(i<st) return; const u=new SpeechSynthesisUtterance(x); u.lang=sl; u.rate=0.95; if(v) u.voice=v;
+  parts.forEach((x,i)=>{ if(i<st) return; const u=new SpeechSynthesisUtterance(x); u.lang=sl; u.rate=sl==='te-IN'?1.0:1.02; u.pitch=1; if(v) u.voice=v;
     u.onstart=()=>{ if(tok===rTok){ rIdx=i; npProg(before(i)/tot); } }; u.onboundary=ev=>{ if(tok===rTok) npProg((before(i)+(ev.charIndex||0))/tot); };
     if(i===parts.length-1) u.onend=()=>{ if(tok===rTok) npProg(1); if(RADIO&&tok===rTok) rWait=setTimeout(()=>{ if(!(RADIO&&tok===rTok)) return; const was=cur; go(cur+1,'left'); setTimeout(()=>{ if(RADIO&&tok===rTok&&cur===was) stopVoice(); },1500); },700); };
     u.onerror=ev=>{ if(ev&&ev.error!=='interrupted'&&ev.error!=='canceled'&&tok===rTok){ RADIO=false; radioUI(); } };

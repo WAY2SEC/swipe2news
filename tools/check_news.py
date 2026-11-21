@@ -9,6 +9,7 @@ Usage:
 Exit code 1 when a story still has a blocking problem (ERROR), so the newsroom fixes it before publishing.
 """
 import json, re, sys, os
+HARD_WORDS = {'పట్టివేత': 'పట్టుకున్నారు', 'స్వాధీనం': 'పట్టుకున్నారు', 'లభ్యం': 'దొరికింది', 'నిలిపివేత': 'ఆపేశారు', 'పునరుద్ధరణ': 'మళ్లీ మొదలు', 'ఉల్లంఘన': 'నిబంధనలు పాటించలేదు', 'తొలగింపునకు': 'తీసేయాలని', 'జననం': 'పుట్టారు', 'ఆచూకీ': 'దొరికింది / కనిపించలేదు', 'నిమిత్తం': 'కోసం', 'పరిశీలన': 'చూశారు / తనిఖీ', 'ప్రారంభోత్సవం': 'ప్రారంభం', 'శంకుస్థాపన': 'పనులకు పునాది', 'వేర్పాటు': 'విడిగా ఉన్న', 'ఉపసంహరణ': 'వెనక్కి తీసుకున్నారు', 'దుర్మరణం': 'మృతి', 'అస్వస్థత': 'అనారోగ్యం', 'ఆకస్మిక': 'హఠాత్తుగా', 'సమీక్షా సమావేశం': 'సమీక్ష'}
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PIC_RX = re.compile(r'^(c|o|i|n|s|cv|w|d)/([a-z0-9-]+)$')
 def pic_ok(pc):
@@ -54,6 +55,9 @@ def check(d, fix=False):
             errs.append(f'#{i+1}: headline missing')
         if len(h) > 40:
             warns.append(f'{tag}: headline is {len(h)} characters – may not fit one line (keep ≤ 38)')
+        hard = [f'{w} → {e}' for w, e in HARD_WORDS.items() if w in h or w in str(s.get('statl') or '')]
+        if hard:
+            warns.append(f'{tag}: hard words for readers – say it simply: ' + '; '.join(hard))
         if VAGUE_START.match(h):
             errs.append(f'{tag}: headline does not say WHICH event – name it (e.g. "భారత్ సమ్మిట్ వద్ద…")')
         lat = [w for w in re.findall(r'[A-Za-z][A-Za-z0-9\-]{2,}', h) if not LATIN_OK.match(w)]
