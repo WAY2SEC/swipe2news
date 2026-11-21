@@ -1,8 +1,162 @@
 {
  "date": "21.11.2026",
- "updated": "2026-11-21T23:05:00+05:30",
+ "updated": "2026-11-21T23:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "హైదరాబాద్ · ఆరోగ్యం",
+   "col": "--c-city",
+   "pic": "e/hospital-outpatient-queue",
+   "stat": "పీజీ వైద్యుల అభ్యంతరం",
+   "statl": "రోగుల తరలింపుపై",
+   "h": "గాంధీ రోగులను టిమ్స్‌కు పంపొద్దని వినతి",
+   "p": "గాంధీ ఆసుపత్రిలో చేరిన రోగులను సనత్‌నగర్ టిమ్స్‌కు మార్చడాన్ని పీజీ వైద్యులు వ్యతిరేకించారు. పరీక్షలు, ఆపరేషన్ ముందు తనిఖీలు పూర్తయ్యాక రోగులను పంపితే చికిత్సకు, శిక్షణకు నష్టమని జూనియర్ డాక్టర్ల సంఘం సూపరింటెండెంట్‌కు వినతిపత్రం ఇచ్చింది. రోగులను మధ్యలో మార్చడం వారి భద్రతకూ మంచిది కాదని తెలిపింది. పరిష్కారం లేకుంటే శాంతియుత నిరసన చేస్తామన్నారు.",
+   "pts": [
+    "ఆర్థోపెడిక్స్ విభాగం రోగుల తరలింపుపై ప్రధాన అభ్యంతరం",
+    "ఎక్కువ మంది వైద్యులను నియమించాలని ప్రభుత్వానికి విజ్ఞప్తి"
+   ],
+   "why": "గాంధీ ఆసుపత్రిలో చికిత్స పొందుతున్న రోగులు, వారి కుటుంబాలపై ఈ నిర్ణయం ప్రభావం చూపుతుంది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/gandhi-hospital-pg-doctors-oppose-shifting-admitted-patients-to-tims-2006707",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "గాంధీ ఆసుపత్రి",
+   "pub": "2026-11-21T23:07+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Health",
+    "stat": "PG doctors object",
+    "statl": "to shifting patients",
+    "loc": "Gandhi Hospital",
+    "h": "Gandhi PG doctors oppose shifting patients to TIMS",
+    "p": "Postgraduate doctors at Gandhi Hospital opposed moving admitted patients to TIMS, Sanathnagar. The Junior Doctors Association told the superintendent in a representation that shifting patients after tests and pre-operative checks hurts care and training. Moving patients mid-treatment also risks their safety, they said. They said they will hold a peaceful protest if it is not resolved.",
+    "pts": [
+     "Main objection is to shifting orthopaedics patients",
+     "They urged the government to recruit more doctors"
+    ],
+    "why": "The move affects patients being treated at Gandhi Hospital and their families."
+   },
+   "hi": {
+    "cat": "हैदराबाद · स्वास्थ्य",
+    "stat": "पीजी डॉक्टरों की आपत्ति",
+    "statl": "मरीजों को भेजने पर",
+    "loc": "गांधी अस्पताल",
+    "h": "गांधी अस्पताल के मरीज टिम्स भेजने का विरोध",
+    "p": "गांधी अस्पताल के पीजी डॉक्टरों ने भर्ती मरीजों को सनतनगर के टिम्स भेजने का विरोध किया। जूनियर डॉक्टर्स एसोसिएशन ने अधीक्षक को ज्ञापन देकर कहा कि जांच और ऑपरेशन से पहले की जांच के बाद मरीज भेजने से इलाज और प्रशिक्षण को नुकसान होता है। बीच इलाज में मरीज बदलना उनकी सुरक्षा के लिए भी ठीक नहीं। हल न होने पर शांतिपूर्ण विरोध करेंगे।",
+    "pts": [
+     "मुख्य आपत्ति ऑर्थोपेडिक्स के मरीजों को भेजने पर",
+     "सरकार से और डॉक्टर भर्ती करने की अपील"
+    ],
+    "why": "इस फैसले का असर गांधी अस्पताल में इलाज करा रहे मरीजों और उनके परिवारों पर पड़ेगा।"
+   },
+   "d": "21.11.2026",
+   "t": "23:35"
+  },
+  {
+   "cat": "తెలంగాణ · హనుమకొండ",
+   "col": "--c-gov",
+   "pic": "e/classical-dance-performance",
+   "stat": "ఆఫీసులు వద్దు",
+   "statl": "కాళోజీ కళాక్షేత్రంలో",
+   "h": "కాళోజీ కళాక్షేత్రంలో ఆఫీసులు వద్దు: సీఎం",
+   "p": "హనుమకొండలోని కాళోజీ కళాక్షేత్రాన్ని కళలు, సాహిత్యం, సాంస్కృతిక కార్యక్రమాలకే వాడాలని సీఎం రేవంత్ రెడ్డి చెప్పారు. అక్కడికి ప్రభుత్వ ఆఫీసులు మార్చే ప్రతిపాదన వార్తలపై స్పందించి, ఆ దిశగా ఏ పనీ చేయవద్దని కలెక్టర్ చాహత్ బాజ్‌పాయ్‌ను ఆదేశించారు. కాళోజీ ఫౌండేషన్‌తో మాట్లాడి కార్యక్రమాల ప్రణాళిక సిద్ధం చేయాలన్నారు. ఈ ప్రకటనతో ఆఫీసుల తరలింపుపై అనుమానాలు తొలగిపోయాయి.",
+   "pts": [
+    "కవి కాళోజీ నారాయణరావు జ్ఞాపకార్థం కట్టిన కేంద్రం ఇది"
+   ],
+   "why": "వరంగల్ ప్రాంత కళాకారులు, సాహిత్య ప్రియులకు ఈ వేదిక అందుబాటులో ఉంటుంది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/kalakshetram-for-arts-not-government-offices-says-cm-revanth-2006703",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "TG",
+   "place": "hanumakonda",
+   "loc": "హనుమకొండ",
+   "pub": "2026-11-21T22:58+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Hanumakonda",
+    "stat": "No offices",
+    "statl": "at Kaloji Kalakshetram",
+    "loc": "Hanumakonda",
+    "h": "No govt offices at Kaloji Kalakshetram: CM",
+    "p": "Chief Minister Revanth Reddy said the Kaloji Kalakshetram in Hanumakonda must be used only for art, literature and cultural events. Responding to reports of a plan to move government offices there, he told Collector Chahat Bajpai not to take any such step and to plan cultural programmes with the Kaloji Foundation. This ends doubts over moving offices there.",
+    "pts": [
+     "The centre was built in memory of poet Kaloji Narayana Rao"
+    ],
+    "why": "The venue stays available to artists and literature lovers in the Warangal region."
+   },
+   "hi": {
+    "cat": "तेलंगाना · हनुमकोंडा",
+    "stat": "दफ्तर नहीं",
+    "statl": "कालोजी कलाक्षेत्रम में",
+    "loc": "हनुमकोंडा",
+    "h": "कालोजी कलाक्षेत्रम में दफ्तर नहीं: सीएम",
+    "p": "मुख्यमंत्री रेवंत रेड्डी ने कहा कि हनुमकोंडा का कालोजी कलाक्षेत्रम केवल कला, साहित्य और सांस्कृतिक कार्यक्रमों के लिए इस्तेमाल हो। वहां सरकारी दफ्तर ले जाने की खबरों पर उन्होंने कलेक्टर चाहत बाजपेयी को ऐसा कोई कदम न उठाने और कालोजी फाउंडेशन के साथ कार्यक्रम योजना बनाने को कहा। इससे दफ्तर ले जाने की अटकलें खत्म हो गईं।",
+    "pts": [
+     "यह केंद्र कवि कालोजी नारायण राव की याद में बना है"
+    ],
+    "why": "वारंगल क्षेत्र के कलाकारों और साहित्य प्रेमियों के लिए यह मंच उपलब्ध रहेगा।"
+   },
+   "d": "21.11.2026",
+   "t": "23:35"
+  },
+  {
+   "cat": "తెలంగాణ · వరంగల్",
+   "col": "--c-gov",
+   "pic": "e/airport-travel",
+   "stat": "డిసెంబర్‌లో",
+   "statl": "పునాది వేసే అవకాశం",
+   "h": "మామునూరు ఎయిర్‌పోర్ట్ పునాదికి మోదీ రావచ్చు",
+   "p": "వరంగల్ మామునూరు విమానాశ్రయ పనులకు ప్రధాని నరేంద్ర మోదీ డిసెంబర్‌లో పునాది వేసే అవకాశం ఉందని డెక్కన్ క్రానికల్ వర్గాలను ఉటంకిస్తూ రాసింది. అదే పర్యటనలో బహిరంగ సభ, రహదారి, రైల్వే పనుల ప్రారంభాలు ఉండొచ్చని తెలిపింది. ప్రధాని షెడ్యూల్ ఇంకా ఖరారు కాలేదు. 2027 మార్చి ఎమ్మెల్సీ, నగర పాలక ఎన్నికల ముందు బీజేపీ ప్రచారానికి ఇది కీలకమని పేర్కొంది.",
+   "pts": [
+    "నవంబర్ 24న హైదరాబాద్‌కు అమిత్ షా",
+    "నవంబర్ 25న సిద్దిపేటకు జేపీ నడ్డా"
+   ],
+   "why": "వరంగల్, ఉత్తర తెలంగాణ ప్రజలు ఎదురుచూస్తున్న విమానాశ్రయ పనుల గురించిన వార్త ఇది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/pm-modi-likely-to-lay-foundation-stone-for-mamnoor-airport-in-december-2006701",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "warangal",
+   "loc": "మామునూరు",
+   "pub": "2026-11-21T22:52+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Warangal",
+    "stat": "In December",
+    "statl": "Modi likely to lay stone",
+    "loc": "Mamnoor, Warangal",
+    "h": "Modi may lay Mamnoor airport stone in Dec",
+    "p": "Prime Minister Narendra Modi is likely to lay the foundation stone for Mamnoor Airport in Warangal in December, Deccan Chronicle reported citing sources. The visit may include a public meeting and road and railway projects. The PM's schedule has not been finalised yet. The paper said the visit is key to BJP's campaign before the March 2027 MLC and civic polls.",
+    "pts": [
+     "Amit Shah to visit Hyderabad on November 24",
+     "J.P. Nadda to visit Siddipet on November 25"
+    ],
+    "why": "This concerns the airport long awaited by people in Warangal and north Telangana."
+   },
+   "hi": {
+    "cat": "तेलंगाना · वारंगल",
+    "stat": "दिसंबर में",
+    "statl": "मोदी के शिलान्यास की संभावना",
+    "loc": "मामनूर, वारंगल",
+    "h": "मामनूर हवाई अड्डे का शिलान्यास कर सकते हैं मोदी",
+    "p": "डेक्कन क्रॉनिकल ने सूत्रों के हवाले से लिखा कि प्रधानमंत्री नरेंद्र मोदी दिसंबर में वारंगल के मामनूर हवाई अड्डे का शिलान्यास कर सकते हैं। दौरे में जनसभा और सड़क व रेल परियोजनाएं भी हो सकती हैं। प्रधानमंत्री का कार्यक्रम अभी तय नहीं हुआ है। अखबार के अनुसार मार्च 2027 के एमएलसी और नगर निकाय चुनावों से पहले यह दौरा भाजपा प्रचार के लिए अहम है।",
+    "pts": [
+     "24 नवंबर को अमित शाह हैदराबाद आएंगे",
+     "25 नवंबर को जेपी नड्डा सिद्दीपेट जाएंगे"
+    ],
+    "why": "यह खबर वारंगल और उत्तर तेलंगाना के लोगों के लंबे इंतजार वाले हवाई अड्डे से जुड़ी है।"
+   },
+   "d": "21.11.2026",
+   "t": "23:35"
+  },
   {
    "cat": "హైదరాబాద్ · విమానాశ్రయం",
    "col": "--c-city",
@@ -3109,169 +3263,6 @@
    },
    "d": "21.11.2026",
    "t": "18:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · నేరం",
-   "col": "--c-city",
-   "pic": "e/missing-person-search",
-   "stat": "ఆరుగురు",
-   "statl": "నిందితుల అరెస్టు",
-   "h": "గాంధీ ఆసుపత్రిలో శిశువు అపహరణ",
-   "p": "సికింద్రాబాద్ గాంధీ ఆసుపత్రిలో పుట్టిన ఏడు రోజుల ఆడ శిశువును ఓ ముఠా అపహరించిందని పోలీసులు తెలిపారు. మూడో సంతానం కూడా ఆడపిల్ల కావడంతో డబ్బులు వస్తాయని తల్లిని నమ్మించి శిశువును తీసుకెళ్లారని పోలీసుల ప్రకారం. కేసు నమోదైన కొన్ని గంటల్లోనే ఆరుగురిని అరెస్టు చేశారు. శిశువును ₹1 లక్షకు విక్రయించినట్లు గుర్తించారు.",
-   "pts": [
-    "సికింద్రాబాద్ డీసీపీ పర్యవేక్షణలో దర్యాప్తు",
-    "నిందితులను పోలీసులు ఇంకా విచారిస్తున్నారు"
-   ],
-   "why": "ప్రభుత్వ ఆసుపత్రుల్లో నవజాత శిశువుల భద్రత గురించి తల్లిదండ్రులు తెలుసుకోవాల్సిన విషయం ఇది.",
-   "src": "Andhra Jyothy",
-   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/gandhi-hospital-newborn-kidnapping-case-1578520.html",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "సికింద్రాబాద్",
-   "pub": "2026-11-21T16:47+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Crime",
-    "stat": "Six",
-    "statl": "accused arrested",
-    "loc": "Secunderabad",
-    "h": "Newborn taken from Gandhi Hospital; six held",
-    "p": "Police said a gang abducted a seven-day-old baby girl born at Gandhi Hospital in Secunderabad. According to police, they convinced the mother that she would get money because her third child was also a girl, and then took the baby. Six people were arrested within hours of the case being registered. Police found the baby had been sold for ₹1 lakh.",
-    "pts": [
-     "Investigation supervised by the Secunderabad DCP",
-     "Police are still questioning the accused"
-    ],
-    "why": "Parents need to know about the safety of newborns in government hospitals."
-   },
-   "hi": {
-    "cat": "हैदराबाद · अपराध",
-    "stat": "छह",
-    "statl": "आरोपी गिरफ्तार",
-    "loc": "सिकंदराबाद",
-    "h": "गांधी अस्पताल से नवजात अगवा, छह गिरफ्तार",
-    "p": "पुलिस के अनुसार सिकंदराबाद के गांधी अस्पताल में जन्मी सात दिन की बच्ची को एक गिरोह ने अगवा किया। पुलिस का कहना है कि तीसरी संतान भी बेटी होने पर पैसे मिलने का भरोसा दिलाकर वे मां से बच्ची ले गए। केस दर्ज होने के कुछ घंटों में छह लोग गिरफ्तार हुए। पुलिस ने पाया कि बच्ची को ₹1 लाख में बेचा गया।",
-    "pts": [
-     "सिकंदराबाद डीसीपी की निगरानी में जांच",
-     "पुलिस आरोपियों से अभी पूछताछ कर रही है"
-    ],
-    "why": "सरकारी अस्पतालों में नवजातों की सुरक्षा के बारे में माता-पिता के लिए यह जानना ज़रूरी है।"
-   },
-   "d": "21.11.2026",
-   "t": "17:35"
-  },
-  {
-   "cat": "తెలంగాణ · సైబర్ నేరాలు",
-   "col": "--c-city",
-   "pic": "e/cyber-fraud-complaint",
-   "stat": "ఇద్దరు",
-   "statl": "విద్యార్థుల అరెస్టు",
-   "h": "సినిమా పైరసీ కేసులో ఇద్దరి అరెస్టు",
-   "p": "కర్నూలులోని ఓ మల్టీప్లెక్స్‌లో కొత్త సినిమాలను సెల్‌ఫోన్లతో రికార్డు చేసి పైరసీ సైట్లకు చేరవేసిన 19 ఏళ్ల ఇద్దరు విద్యార్థులను తెలంగాణ సైబర్ సెక్యూరిటీ బ్యూరో నవంబర్ 20న అరెస్టు చేసింది. ఒక్కో సినిమాకు ₹20 వేలు క్రిప్టోకరెన్సీలో అందినట్లు పోలీసులు తెలిపారు. ప్రధాన నిందితుడితో పాటు ఇతర సభ్యుల కోసం గాలిస్తున్నారు.",
-   "pts": [
-    "మూడు సెల్‌ఫోన్లు స్వాధీనం",
-    "యాంటీ పైరసీ యూనిట్ ఇప్పటివరకు 42,151 లింకులు బ్లాక్ చేసింది",
-    "పైరసీ సైట్ల ద్వారా బెట్టింగ్ యాప్‌ల ప్రచారం జరిగిందని పోలీసులు"
-   ],
-   "why": "కొత్త సినిమాల పైరసీతో తెలుగు సినీ పరిశ్రమకు జరుగుతున్న నష్టాన్ని అరికట్టే చర్య ఇది.",
-   "src": "Siasat",
-   "url": "https://www.siasat.com/teens-film-movies-inside-theatres-for-piracy-sites-held-by-tgcsb-3583271/",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "కర్నూలు",
-   "pub": "2026-11-21T17:07+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Cybercrime",
-    "stat": "Two",
-    "statl": "students arrested",
-    "loc": "Kurnool",
-    "h": "Two students held for film piracy",
-    "p": "The Telangana Cyber Security Bureau arrested two 19-year-old students on November 20 for recording new films on mobile phones inside a Kurnool multiplex and passing them to piracy sites. Police said they received ₹20,000 per film in cryptocurrency. A search is on for the prime accused and other members.",
-    "pts": [
-     "Three mobile phones seized",
-     "The Anti-Piracy Unit has blocked 42,151 links so far",
-     "Police say piracy sites promoted betting apps"
-    ],
-    "why": "The action targets piracy of new films, which causes losses to the Telugu film industry."
-   },
-   "hi": {
-    "cat": "तेलंगाना · साइबर अपराध",
-    "stat": "दो",
-    "statl": "छात्र गिरफ्तार",
-    "loc": "कर्नूल",
-    "h": "फिल्म पायरेसी में दो छात्र गिरफ्तार",
-    "p": "तेलंगाना साइबर सुरक्षा ब्यूरो ने 20 नवंबर को 19 साल के दो छात्रों को गिरफ्तार किया, जिन पर कर्नूल के एक मल्टीप्लेक्स में मोबाइल से नई फिल्में रिकॉर्ड कर पायरेसी साइटों तक पहुंचाने का आरोप है। पुलिस के अनुसार हर फिल्म के ₹20,000 क्रिप्टोकरेंसी में मिले। मुख्य आरोपी और अन्य सदस्यों की तलाश जारी है।",
-    "pts": [
-     "तीन मोबाइल फोन जब्त",
-     "एंटी-पायरेसी यूनिट अब तक 42,151 लिंक ब्लॉक कर चुकी है",
-     "पुलिस के अनुसार पायरेसी साइटों पर सट्टेबाजी ऐप का प्रचार"
-    ],
-    "why": "यह कार्रवाई नई फिल्मों की पायरेसी रोकने के लिए है, जिससे तेलुगु फिल्म उद्योग को नुकसान होता है।"
-   },
-   "d": "21.11.2026",
-   "t": "17:35"
-  },
-  {
-   "cat": "ఏపీ · పెట్టుబడులు",
-   "col": "--c-money",
-   "art": "economy",
-   "pic": "e/industrial-production",
-   "stat": "₹38,362 కోట్లు",
-   "statl": "ప్రతిపాదనలు",
-   "h": "ఏపీకి ₹38,362 కోట్ల పెట్టుబడి ప్రతిపాదనలు",
-   "p": "రాష్ట్ర పెట్టుబడుల ప్రోత్సాహక కమిటీ నవంబర్ 20న అమరావతి సచివాలయంలో సమావేశమైంది. కియా, అదానీ, సెయింట్ గోబెయిన్ సహా పలు సంస్థలు మొత్తం ₹38,362 కోట్ల ప్రతిపాదనలు సమర్పించాయి. వీటితో సుమారు 20,398 మందికి ఉద్యోగాలు వస్తాయని అంచనా. కియా రెండో కార్ల ప్లాంటుకు ₹19,000 కోట్లు, 12,000 ఉద్యోగాలు ప్రతిపాదించింది.",
-   "pts": [
-    "శ్రీకాకుళంలో అదానీ టైటానియం కాంప్లెక్స్‌కు ₹13,667 కోట్లు",
-    "అచ్యుతాపురంలో గాజు ప్లాంటుకు ₹1,800 కోట్లు",
-    "బేతంచర్లలో 210 మెగావాట్ల పవన విద్యుత్ ప్రాజెక్టు"
-   ],
-   "why": "ఈ ప్రాజెక్టులు అమలైతే పలు జిల్లాల్లో యువతకు ఉద్యోగ అవకాశాలు పెరుగుతాయి.",
-   "src": "ETV Bharat",
-   "url": "https://www.etvbharat.com/en/business/andhra-pradesh-attracts-rs-38362-crore-investment-proposals-from-adani-kia-saint-gobain-20398-jobs-expected-enn26112102703",
-   "sec": [
-    "telangana",
-    "business"
-   ],
-   "st": "AP",
-   "place": "AP",
-   "pub": "2026-11-21T14:20+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Investments",
-    "stat": "₹38,362 crore",
-    "statl": "investment proposals",
-    "loc": "Andhra Pradesh",
-    "h": "AP gets ₹38,362 crore investment proposals",
-    "p": "Andhra Pradesh's State Investment Promotion Committee met at the Secretariat on November 20. Companies including Kia, Adani and Saint-Gobain submitted proposals worth ₹38,362 crore in all, expected to create about 20,398 jobs. Kia proposed ₹19,000 crore and 12,000 jobs for a second car plant.",
-    "pts": [
-     "₹13,667 crore for an Adani titanium complex in Srikakulam",
-     "₹1,800 crore for a glass plant at Achyutapuram",
-     "210 MW wind power project at Bethamcherla"
-    ],
-    "why": "If implemented, these projects would add job openings for young people in several districts."
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · निवेश",
-    "stat": "₹38,362 करोड़",
-    "statl": "निवेश प्रस्ताव",
-    "loc": "आंध्र प्रदेश",
-    "h": "आंध्र को ₹38,362 करोड़ के निवेश प्रस्ताव",
-    "p": "आंध्र प्रदेश की राज्य निवेश प्रोत्साहन समिति की बैठक 20 नवंबर को सचिवालय में हुई। किआ, अदाणी और सेंट-गोबेन समेत कई कंपनियों ने कुल ₹38,362 करोड़ के प्रस्ताव रखे, जिनसे करीब 20,398 नौकरियों की उम्मीद है। किआ ने दूसरे कार संयंत्र के लिए ₹19,000 करोड़ और 12,000 नौकरियों का प्रस्ताव दिया।",
-    "pts": [
-     "श्रीकाकुलम में अदाणी टाइटेनियम परिसर के लिए ₹13,667 करोड़",
-     "अच्युतापुरम में कांच संयंत्र के लिए ₹1,800 करोड़",
-     "बेतमचेरला में 210 मेगावाट पवन ऊर्जा परियोजना"
-    ],
-    "why": "ये परियोजनाएं लागू हुईं तो कई जिलों में युवाओं के लिए नौकरी के अवसर बढ़ेंगे।"
-   },
-   "d": "21.11.2026",
-   "t": "17:35"
   },
   {
    "cat": "ఏపీ · ఉదయగిరి",
