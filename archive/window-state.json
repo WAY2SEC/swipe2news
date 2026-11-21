@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T14:05:00+05:30",
+ "cutoff": "2026-11-21T14:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-18T18:05:00+05:30/2026-11-18T18:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 4,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 8,
-   "review": 0,
-   "gaps": "Feeds 18:11 IST, 69/70 ok. Lookback 10:05. Feed 'covered' flags unreliable. Published: TT Ponnal/Shamirpet rock art, TT Kukatpally fuel-station bike fire, TT Blind Cricket Asia Cup final, TT caste census panel invites Jagan. Skipped (published before lookback): Hans YTPS 5th unit (05:18), Siasat/TT global summit drought letter (17 Nov), Siasat+Hans SIR ASDD re-enrolment (6-7 Nov), DC 7 lakh house pattas (16 Nov), DC 4.63 lakh pensions (16 Nov), Hans YSRCP nomination obstruction (16 Nov). Not opened: DH global summit (client error), TT BRS water crisis (homepage returned); not surfaced: IE TG HC women advocates toilets, DC fake SHE Teams notice, NIE Somasila, Siasat Iran 13 workers, Siasat Kochhar, ET AP universities. District searches stale. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-18T18:35:00+05:30/2026-11-18T19:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 05:35. Feeds 13:42 IST, 70/70 ok, 784 TG/AP flagged uncovered (most already published under other URLs); 101 events new since 12:45 reviewed. add_repo not available; used existing clone. Published 8: census syllabus by December (ETV Bharat), Kaushik Reddy 1,029 pensions claim (Telangana Today), Rajagopal Reddy called by AICC (ETV Bharat), Ghatkesar highway jam (V6, claim), Langer Houz extortion case (Telangana Today, police), Lokesh Railway Koduru harassment order (Deccan Chronicle), Adinarayana Reddy Kadapa ZP resignations (South First, claim; follow-up to 20 Nov story), Manipur suspected spurious liquor 11 dead (Assam Tribune, late-found 09:27). Old: TT Jubilee Hills pub clash (Sep 2026), TT cyclone north TN (15 Nov), TT UPSC outage (2024), GK Today Madhira breakfast (July 2026), ICJ Rohingya ruling (19 Nov). Not opened: The Hindu Srikakulam 15,440 cusecs and Chamala BJP-BRS, Siasat court bail after 24-hour detention (URLs not returned by search, WebFetch refused), Disha Karimnagar ACB widow-pension bribe (client error), Prajasakti Chintakunta/Mangapatnam nomination papers, Prajasakti/NTV Chandrababu press meet, HMTV Vikarabad land. Skipped: Siasat entertainment items. Direct feed URLs cost ~5 min each when refused; only search-returned URLs open. Lang pages, index.html and sitemap.xml reverted."
+  },
+  {
+   "window": "2026-11-21T14:05:00+05:30/2026-11-21T14:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 6,
+   "late": 1,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 06:05. Feeds 14:34 IST, 70/70 ok, 781 TG/AP flagged uncovered; 113 events first seen since 13:35 reviewed. add_repo not available; used existing clone. Published 6: Pulse polio 5 districts Sunday (DC), Laxmipur panchayat secretary ACB trap (V6), live round in bag at RGIA (DC), Mahesh Kumar Goud BRS corruption claim (NewsMeter Telugu), India 1 crore HPV doses (ETV Bharat, late-found 12:03), MEA rejects USCIRF SIR charge (Scroll). Old: DC pulse polio 13 Nov, TT ACB Karimnagar Oct 2025, Hans Doval summons 19 Nov, Gulf News RGIA Oct, DC Gandhi IVF 19 Nov, Hans Kurnool/Kadapa nomination checks 17 Nov, DC Nandigama fire 13 Nov. Duplicates: Siasat Telangana exports (= DC 20 Nov), tiger NTR district. Not opened: ANI HPV (client error). Skipped: Siasat Hayathnagar suicide, entertainment items. Lang pages, index.html and sitemap.xml reverted."
   }
  ],
  "seen": [
@@ -6818,6 +6818,76 @@
    "url": "https://www.siasat.com/pakistans-first-netflix-series-trailer-cast-release-date-update-3582890/",
    "d": "2026-11-21",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/pulse-polio-drive-targets-18-lakh-children-across-5-telangana-districts-2006574",
+   "d": "2026-11-21",
+   "w": "2026-11-21T14:35"
+  },
+  {
+   "url": "https://www.v6velugu.com/panchayat-secretary-caught-by-the-acb-while-accepting-a-bribe-of-rs-10000-in-karimnagar-district",
+   "d": "2026-11-21",
+   "w": "2026-11-21T14:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/passenger-held-with-live-ammunition-at-rgia-2006588",
+   "d": "2026-11-21",
+   "w": "2026-11-21T14:35"
+  },
+  {
+   "url": "https://telugu.newsmeter.in/telangana/tpcc-president-mahesh-kumar-goud-fire-on-brs-779733",
+   "d": "2026-11-21",
+   "w": "2026-11-21T14:35"
+  },
+  {
+   "url": "https://www.etvbharat.com/en/bharat/india-crosses-one-crore-hpv-vaccine-doses-cervical-cancer-uttar-pradesh-leads-as-six-states-achieve-100-percent-coverage-target-enn26112101611",
+   "d": "2026-11-21",
+   "w": "2026-11-21T14:35"
+  },
+  {
+   "url": "https://scroll.in/latest/1097227/mea-says-us-panel-biased-with-political-agenda-for-alleging-india-targeting-muslims-in-sir",
+   "d": "2026-11-21",
+   "w": "2026-11-21T14:35"
+  },
+  {
+   "url": "https://telanganatoday.com/acb-traps-panchayat-secretary-in-karimnagar-for-rs-10000-bribe",
+   "d": "2026-11-21",
+   "w": "2026-11-21T14:35"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/international/us-court-orders-delivery-of-summonses-to-doval-goel-through-delhi-courts-1143550",
+   "d": "2026-11-21",
+   "w": "2026-11-21T14:35"
+  },
+  {
+   "url": "https://gulfnews.com/world/asia/india/abu-dhabi-bound-passenger-stopped-after-live-ammunition-found-in-luggage-1.500701119",
+   "d": "2026-11-21",
+   "w": "2026-11-21T14:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/3-ivf-deliveries-at-gandhi-hospital-in-a-week-after-years-of-infertility-2006024",
+   "d": "2026-11-21",
+   "w": "2026-11-21T14:35"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/surprise-visit-aims-to-ensure-transparent-filing-for-gram-panchayat-polls-1142843",
+   "d": "2026-11-21",
+   "w": "2026-11-21T14:35"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kadapa/sp-inspects-nomination-centres-1142861",
+   "d": "2026-11-21",
+   "w": "2026-11-21T14:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/rs-2-cr-plastic-products-gutted-in-fire-at-manufacturing-unit-in-nandigama-2003921",
+   "d": "2026-11-21",
+   "w": "2026-11-21T14:35"
+  },
+  {
+   "url": "https://aninews.in/news/national/general-news/india-crosses-historic-milestone-of-1-crore-hpv-vaccine-doses-administered-in-less-than-9-months20261121114554/",
+   "d": "2026-11-21",
+   "w": "2026-11-21T14:35"
   }
  ]
 }
