@@ -117,6 +117,10 @@ e/morning-tea-stall · e/vegetable-market-shopping · e/milk-delivery-at-dawn ·
 ### India and World Affairs
 e/international-diplomacy · e/global-trade-routes · e/border-security-patrol · e/armed-forces-relief-work · e/international-student-journey · e/overseas-worker-remittances · e/global-climate-summit · e/humanitarian-aid · e/tourism-and-travel · e/global-economic-uncertainty
 
+### Political parties (owner, 21 Nov 2026)
+e/party-bjp · e/party-bjym · e/party-brs · e/party-bsp · e/party-congress · e/party-cpi · e/party-janasena · e/party-sfi · e/party-tdp · e/party-ysrcp
+Use ONLY when the story is about that one party's own action (joins, quits, wins, rally, picks, statement by its leaders). Two or more parties, an alliance, one party attacking another, or violence/crime → keep c/politics (neutral voting picture) or the crime/court/condolence picture. AAP, ABVP, AIMIM, CPI(M), DYFI and NSUI have no picture yet → c/politics.
+
 ## n/ – specific news topics
 - n/africa – Africa
 - n/ai – glowing AI chip – ONLY artificial intelligence stories
