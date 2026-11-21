@@ -19,13 +19,39 @@ const AUTO_APPROVE = true;
 const COLS = ['id','time','pin','reporter','district','place','lat','lng','headline','text','photo','status','note','link'];
 // "Review": web news that the news tasks HOLD for the editor (crime allegations, deaths, communal, elections, emergencies,
 // conflicting reports). The editor approves at /editor/ (tab "వెబ్ వార్తలు"); the reporter-stories task publishes approved ones.
-const RCOLS = ['id','time','risk','headline','source','url','story','status','note','link'];
+const RCOLS = ['id','time','risk','headline','source','url','story','status','note','link','key','canon','approved','hash','by','approvedat'];
+// RSS candidates (21 Nov 2026, no AI): tools/collect_feeds.py --candidates --post adds rows with risk "rss", status "candidate".
+// The editor writes the Telugu card in /editor/ (tab 📡 RSS), opens the source, and approves ONE exact version:
+// "approved" = that version as JSON, "hash" = its SHA-256. Only tools/publish_approved.py publishes these rows, and only
+// the exact approved text. Editing after approval withdraws the approval. The newsroom (Claude) tasks never see rss rows.
 // "Photos" (15 Nov 2026): OFFICIAL photos the editor attaches to a published story – government press releases (PIB, CMO, I&PR)
 // or a party's/leader's official handle, for ANY party. Each row keeps the credit and the source link the photo came from.
 const OCOLS = ['id','time','sid','headline','credit','person','party','srcurl','photo','status','note','link'];
 function photos_() { let r = sheet_('Photos'); if (!r) { r = book_().insertSheet('Photos'); r.appendRow(OCOLS); r.setFrozenRows(1); } return r; }
 function prows_() { const v = photos_().getDataRange().getValues(); return v.slice(1).map((r, i) => { const o = { _row: i + 2 }; OCOLS.forEach((c, j) => o[c] = String(r[j])); return o; }); }
-function review_() { let r = sheet_('Review'); if (!r) { r = book_().insertSheet('Review'); r.appendRow(RCOLS); r.setFrozenRows(1); } return r; }
+function review_() {
+  let r = sheet_('Review'); if (!r) { r = book_().insertSheet('Review'); r.appendRow(RCOLS); r.setFrozenRows(1); return r; }
+  const h = r.getRange(1, 1, 1, Math.max(r.getLastColumn(), 1)).getValues()[0].map(String);   // older sheets: add the new columns at the end
+  RCOLS.forEach(c => { if (h.indexOf(c) < 0) { h.push(c); r.getRange(1, h.length).setValue(c); } });
+  return r;
+}
+function rset_(s, row, col, v) { const h = s.getRange(1, 1, 1, s.getLastColumn()).getValues()[0].map(String); s.getRange(row, h.indexOf(col) + 1).setValue(v); }
+function sha256_(s) { return Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_256, s, Utilities.Charset.UTF_8).map(b => ((b + 256) % 256).toString(16).padStart(2, '0')).join(''); }
+const RSS_FIELDS = ['h','p','stat','statl','pic','lbl','region','topic','loc','src','url'];
+// one fixed field order, so the same card always gives the same text and hash
+function rssCard_(s, row) {
+  const o = {}; RSS_FIELDS.forEach(k => o[k] = clean_(s && s[k], k === 'p' ? 1200 : k === 'url' ? 500 : 160).trim());
+  if (!o.src) o.src = clean_(row.source, 80); if (!o.url) o.url = String(row.url || '');
+  return o;
+}
+function rssProblem_(o) {
+  if (!o.h) return 'headline'; if (!o.p) return 'summary'; if (!o.stat || !o.statl) return 'picture line';
+  if (!/^(c|o|i|n|s|cv|w|d)\/[a-z0-9-]+$/.test(o.pic)) return 'picture';
+  if (['fact','claim','opinion','forecast'].indexOf(o.lbl) < 0) return 'label';
+  if (['telangana','ap','india','world'].indexOf(o.region) < 0) return 'region';
+  if (!/^https:\/\//.test(o.url) || !o.src) return 'source';
+  return '';
+}
 function rrows_() {
   const v = review_().getDataRange().getValues(), h = v[0];
   return v.slice(1).map((r, i) => { const o = { _row: i + 2 }; h.forEach((k, j) => o[k] = r[j]); return o; });
@@ -140,16 +166,17 @@ function doPost(e) {
       return out_({ ok: true, added: added });
     }
     if (b.action === 'reviewlist' && b.key === EDITOR_KEY) {
-      return out_({ ok: true, items: rrows_().slice(-60).reverse().map(r => { let st = {}; try { st = JSON.parse(r.story); } catch (x) {} return Object.assign({}, r, { story: st }); }) });
+      return out_({ ok: true, items: rrows_().filter(r => r.risk !== 'rss').slice(-60).reverse().map(r => { let st = {}; try { st = JSON.parse(r.story); } catch (x) {} return Object.assign({}, r, { story: st }); }) });
     }
     if (b.action === 'reviewdecide' && b.key === EDITOR_KEY) {
       const r = rrows_().find(x => x.id === b.id); if (!r) return out_({ ok: false, error: 'missing' });
+      if (r.risk === 'rss' && b.decision === 'approve') return out_({ ok: false, error: 'use rssapprove' });   // rss: only an exact version can be approved
       const st = b.decision === 'approve' ? 'approved' : 'rejected', s = review_();
       s.getRange(r._row, RCOLS.indexOf('status') + 1).setValue(st); s.getRange(r._row, RCOLS.indexOf('note') + 1).setValue(clean_(b.note, 300));
       return out_({ ok: true, status: st });
     }
     if (b.action === 'reviewapproved' && b.key === BOT_KEY) {
-      return out_({ ok: true, items: rrows_().filter(r => r.status === 'approved').map(r => { let st = {}; try { st = JSON.parse(r.story); } catch (x) {} return { id: r.id, risk: r.risk, note: r.note, story: st }; }) });
+      return out_({ ok: true, items: rrows_().filter(r => r.status === 'approved' && r.risk !== 'rss').map(r => { let st = {}; try { st = JSON.parse(r.story); } catch (x) {} return { id: r.id, risk: r.risk, note: r.note, story: st }; }) });
     }
     if (b.action === 'reviewpublished' && b.key === BOT_KEY) {
       const r = rrows_().find(x => x.id === b.id); if (!r) return out_({ ok: false });
@@ -179,6 +206,52 @@ function doPost(e) {
       const s = photos_(); s.getRange(r._row, OCOLS.indexOf('status') + 1).setValue(b.status === 'published' ? 'published' : 'rejected');
       s.getRange(r._row, OCOLS.indexOf('note') + 1).setValue(clean_(b.note, 200)); s.getRange(r._row, OCOLS.indexOf('link') + 1).setValue(clean_(b.link, 200));
       return out_({ ok: true });
+    }
+    if (b.action === 'candidates' && b.key === BOT_KEY) {   // RSS candidates from tools/collect_feeds.py --candidates --post
+      const s = review_(), rows = rrows_();
+      const keys = new Set(rows.map(r => String(r.key)).filter(Boolean)), canons = new Set(rows.map(r => String(r.canon)).filter(Boolean)), urls = new Set(rows.map(r => String(r.url)));
+      let added = 0, dups = 0;
+      (Array.isArray(b.items) ? b.items : []).slice(0, 60).forEach((it, i) => {
+        const key = clean_(it && it.key, 40), canon = clean_(it && it.canon, 500), url = clean_(it && it.url, 500);
+        if (!key || !/^https?:\/\//.test(url)) return;
+        if (keys.has(key) || (canon && canons.has(canon)) || urls.has(url)) { dups++; return; }
+        keys.add(key); if (canon) canons.add(canon); urls.add(url);
+        const id = 'q' + Utilities.formatDate(new Date(), 'Asia/Kolkata', 'yyMMddHHmmss') + '-' + ('0' + i).slice(-2) + Math.floor(Math.random() * 90 + 10);
+        const story = { src: clean_(it.outlet, 80), url: canon || url, title_src: clean_(it.title, 300), pub_src: clean_(it.time, 40), feed: clean_(it.feed, 80) };
+        s.appendRow([id, Utilities.formatDate(new Date(), 'Asia/Kolkata', 'dd.MM.yyyy HH:mm'), 'rss', clean_(it.title, 200), clean_(it.outlet, 80), url,
+          JSON.stringify(story), 'candidate', '', '', key, canon, '', '', '', '']);
+        added++;
+      });
+      return out_({ ok: true, added: added, duplicates: dups });
+    }
+    if (b.action === 'rsslist' && b.key === EDITOR_KEY) {
+      return out_({ ok: true, items: rrows_().filter(r => r.risk === 'rss').slice(-80).reverse().map(r => { let st = {}; try { st = JSON.parse(r.story); } catch (x) {} return Object.assign({}, r, { story: st }); }) });
+    }
+    if (b.action === 'rssedit' && b.key === EDITOR_KEY) {   // save the editor's Telugu card; any approval is withdrawn
+      const r = rrows_().find(x => x.id === b.id && x.risk === 'rss'); if (!r) return out_({ ok: false, error: 'missing' });
+      if (r.status === 'published' || r.status === 'rejected') return out_({ ok: false, error: r.status });
+      let old = {}; try { old = JSON.parse(r.story); } catch (x) {}
+      const card = Object.assign({ title_src: old.title_src, pub_src: old.pub_src, feed: old.feed }, rssCard_(b.story, r)), s = review_();
+      rset_(s, r._row, 'story', JSON.stringify(card)); rset_(s, r._row, 'status', 'draft');
+      ['approved','hash','by','approvedat'].forEach(c => rset_(s, r._row, c, ''));
+      return out_({ ok: true, status: 'draft', story: card });
+    }
+    if (b.action === 'rssapprove' && b.key === EDITOR_KEY) {   // approve THIS exact version (the text the editor sees)
+      const r = rrows_().find(x => x.id === b.id && x.risk === 'rss'); if (!r) return out_({ ok: false, error: 'missing' });
+      if (r.status === 'published' || r.status === 'rejected') return out_({ ok: false, error: r.status });
+      if (b.verified !== true) return out_({ ok: false, error: 'open and check the source first' });
+      const by = clean_(b.by, 40).trim(); if (by.length < 2) return out_({ ok: false, error: 'your name' });
+      const card = rssCard_(b.story, r), bad = rssProblem_(card); if (bad) return out_({ ok: false, error: 'missing ' + bad });
+      const text = JSON.stringify(card), hash = 'sha256:' + sha256_(text), s = review_();   // prefix: Sheets never turns it into a number
+      let old = {}; try { old = JSON.parse(r.story); } catch (x) {}
+      rset_(s, r._row, 'story', JSON.stringify(Object.assign({ title_src: old.title_src, pub_src: old.pub_src, feed: old.feed }, card)));
+      rset_(s, r._row, 'approved', text); rset_(s, r._row, 'hash', hash); rset_(s, r._row, 'by', by);
+      rset_(s, r._row, 'approvedat', Utilities.formatDate(new Date(), 'Asia/Kolkata', "yyyy-MM-dd'T'HH:mm:ss'+05:30'")); rset_(s, r._row, 'status', 'approved');
+      return out_({ ok: true, status: 'approved', hash: hash, approved: card });
+    }
+    if (b.action === 'rssapproved' && b.key === BOT_KEY) {   // for tools/publish_approved.py only: the exact approved text + its hash
+      return out_({ ok: true, items: rrows_().filter(r => r.risk === 'rss' && r.status === 'approved' && r.approved && r.hash)
+        .map(r => ({ id: r.id, approved: String(r.approved), hash: String(r.hash), by: String(r.by), approvedat: String(r.approvedat) })) });
     }
     return out_({ ok: false, error: 'not allowed' });
   } finally { lock.releaseLock(); }

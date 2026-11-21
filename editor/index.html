@@ -46,7 +46,7 @@ h3{margin:0;font:800 17px/1.5 var(--te)} .tx{margin:0;font:500 15px/1.75 var(--t
 </head>
 <body>
 <header class="top"><a href="/"><img src="/logo-light.png" alt="Swipe2News"></a><b>✅ ఎడిటర్</b>
-  <div class="tabs" id="tabs"><button type="button" data-f="pending" aria-pressed="true">పెండింగ్<span class="n" id="nP">0</span></button><button type="button" data-f="approved" aria-pressed="false">ఆమోదించినవి</button><button type="button" data-f="all" aria-pressed="false">అన్నీ</button><button type="button" data-f="web" aria-pressed="false">🔎 వెబ్ వార్తలు<span class="n" id="nW">0</span></button><button type="button" data-f="photo" aria-pressed="false">📷 అధికారిక ఫోటో</button><button type="button" id="refresh" aria-label="రిఫ్రెష్">↻</button></div>
+  <div class="tabs" id="tabs"><button type="button" data-f="pending" aria-pressed="true">పెండింగ్<span class="n" id="nP">0</span></button><button type="button" data-f="approved" aria-pressed="false">ఆమోదించినవి</button><button type="button" data-f="all" aria-pressed="false">అన్నీ</button><button type="button" data-f="web" aria-pressed="false">🔎 వెబ్ వార్తలు<span class="n" id="nW">0</span></button><button type="button" data-f="rss" aria-pressed="false">📡 RSS<span class="n" id="nR">0</span></button><button type="button" data-f="photo" aria-pressed="false">📷 అధికారిక ఫోటో</button><button type="button" id="refresh" aria-label="రిఫ్రెష్">↻</button></div>
 </header>
 <main id="main">
   <div class="login" id="login" hidden>
@@ -137,6 +137,7 @@ function render(){
   $('nW').textContent=WEB.filter(i=>i.status==='pending').length;
   if(F==='web') return renderWeb();
   if(F==='photo') return renderPhoto();
+  if(F==='rss') return renderRss();
   const l=ITEMS.filter(i=>F==='all'||i.status===F);
   $('list').innerHTML=l.length?l.map(i=>`<article class="card" data-id="${esc(i.id)}">
     ${i.photo?`<img class="ph" data-photo="${esc(i.id)}" alt="ఫోటో లోడ్ అవుతోంది…">`:''}
@@ -155,7 +156,7 @@ function render(){
 async function load(){ if(!window.W2S_NEWSROOM){ $('list').innerHTML='<div class="empty">న్యూస్‌రూమ్ ఇంకా కనెక్ట్ కాలేదు.</div>'; return; }
   if(!st.get()){ $('login').hidden=false; return; } $('login').hidden=true;
   $('list').innerHTML='<div class="empty">లోడ్ అవుతోంది…</div>';
-  try{ const j=await call({action:'list'}); if(!j.ok){ st.set(''); $('login').hidden=false; $('list').innerHTML='<div class="empty">కీ సరిగ్గా లేదు</div>'; return; } ITEMS=j.items||[]; try{ const w=await call({action:'reviewlist'}); WEB=(w&&w.ok&&w.items)||[]; }catch(e){ WEB=[]; } render(); }
+  try{ const j=await call({action:'list'}); if(!j.ok){ st.set(''); $('login').hidden=false; $('list').innerHTML='<div class="empty">కీ సరిగ్గా లేదు</div>'; return; } ITEMS=j.items||[]; try{ const w=await call({action:'reviewlist'}); WEB=(w&&w.ok&&w.items)||[]; }catch(e){ WEB=[]; } try{ await loadRss(); }catch(e){} render(); }
   catch(e){ $('list').innerHTML='<div class="empty">ఇంటర్నెట్ సమస్య – ↻ నొక్కండి</div>'; } }
 $('keyGo').onclick=()=>{ const k=$('key').value.trim(); if(k.length<6) return; st.set(k); load(); };
 $('tabs').onclick=e=>{ const b=e.target.closest('button'); if(!b) return; if(b.id==='refresh') return load(); F=b.dataset.f; $('tabs').querySelectorAll('button[data-f]').forEach(x=>x.setAttribute('aria-pressed',String(x===b))); render(); };
@@ -167,5 +168,6 @@ $('list').addEventListener('click',async e=>{ const b=e.target.closest('button[d
   catch(x){ toast('ఇంటర్నెట్ సమస్య'); card.querySelectorAll('button').forEach(x=>x.disabled=false); } });
 load();
 </script>
+<script src="/editor/rss-review.js?v=1"></script>
 </body>
 </html>

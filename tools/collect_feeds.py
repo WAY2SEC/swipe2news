@@ -83,16 +83,96 @@ def parse(raw):
     for it in root.iter('item'):
         src = it.find('source')
         out.append({'t': html.unescape(text(it, 'title')), 'u': text(it, 'link'), 'p': text(it, 'pubDate', '{http://purl.org/dc/elements/1.1/}date'),
-                    'o': (src.text.strip() if src is not None and src.text else '')})
+                    'o': (src.text.strip() if src is not None and src.text else ''), 'g': text(it, 'guid')})
     for it in root.iter(ATOM + 'entry'):
         ln = it.find(ATOM + 'link')
-        out.append({'t': html.unescape(text(it, ATOM + 'title')), 'u': ln.get('href') if ln is not None else '', 'p': text(it, ATOM + 'published', ATOM + 'updated'), 'o': ''})
+        out.append({'t': html.unescape(text(it, ATOM + 'title')), 'u': ln.get('href') if ln is not None else '', 'p': text(it, ATOM + 'published', ATOM + 'updated'), 'o': '',
+                    'g': text(it, ATOM + 'id')})
     return out
 
 # not news: tag/search/epaper pages, price tables, horoscopes, galleries, quizzes, ads
 JUNK = re.compile(r'Latest News in Telugu|Top Headline|Search Results|e-?paper|epaper|Tab - Latest News|Silver Rate Today|Gold Rate Today|Petrol (?:and|&) Diesel Price|Today.s (?:Gold|Silver)|రాశి ?ఫలాలు|రాశిఫలం|ఈరోజు రాశి|Horoscope|పంచాంగం|Panchangam|Photo ?Gallery|Photos:|Web ?Stories|Quiz|Sponsored|Advertorial|Lottery (?:Result|Sambad)|Box Office Collection|OTT (?:release|this week)', re.I)
 JUNK_URL = re.compile(r'/(?:tag|tags|topic|topics|search|epaper|photogallery|photos|web-?stories|videos?)/', re.I)
 TGAP = re.compile(r'తెలంగాణ|హైదరాబాద్|ఏపీ|ఆంధ్ర|అమరావతి|విజయవాడ|విశాఖ|తిరుపతి|తిరుమల|రేవంత్|చంద్రబాబు|పవన్|జగన్|కేటీఆర్|కేసీఆర్|Telangana|Hyderabad|Andhra|Amaravati|Vijayawada|Visakhapatnam|Vizag|Tirupati|Tirumala|Revanth|Naidu|Pawan Kalyan|Jagan|KTR|KCR|Secunderabad|Cyberabad|GHMC|TSRTC|TGSRTC|APSRTC|Singareni', re.I)
+# ---- candidates mode (editor queue, no AI) ----------------------------------
+# python3 tools/collect_feeds.py . OUT --candidates [--only "The Hindu,Telangana Today"] [--max 20]
+#                                      [--save-raw DIR] [--from-raw DIR] [--post]
+# Reads ONLY the direct RSS feeds in tools/feeds.json, keeps the same time window and junk filters, and writes
+# OUT/candidates.json: one candidate per story with the feed's own story id (guid) and the canonical article URL.
+# --post sends them to the newsroom's editor queue (Review sheet, risk "rss") using NEWSROOM_URL + NEWSROOM_BOT_KEY;
+# the queue refuses any candidate whose guid key or canonical URL it already has, so a second run adds nothing.
+# This mode never reads or writes news.json, the archive or the feeds branch.
+def canonical(u):
+    p = urllib.parse.urlsplit((u or '').strip())
+    if p.scheme not in ('http', 'https') or not p.netloc:
+        return (u or '').strip()
+    host = p.netloc.lower()
+    host = host[4:] if host.startswith('www.') else host
+    path = re.sub(r'/(?:amp/?|amp\.html)$', '/', p.path or '/') or '/'
+    path = re.sub(r'/+$', '', path) or '/'
+    drop = re.compile(r'^(utm_.*|fbclid|gclid|ref|ref_src|amp|outputtype|cmpid|from)$', re.I)
+    q = urllib.parse.urlencode(sorted((k, v) for k, v in urllib.parse.parse_qsl(p.query, keep_blank_values=True) if not drop.match(k)))
+    return urllib.parse.urlunsplit(('https', host, path, q, ''))
+
+def candidate_key(feed_url, guid, canon):
+    if guid:
+        return 'g:' + hashlib.sha1((urllib.parse.urlsplit(feed_url).netloc.lower() + '|' + guid.strip()).encode()).hexdigest()[:16]
+    return 'u:' + hashlib.sha1(canon.encode()).hexdigest()[:16]
+
+def run_candidates(argv):
+    import os
+    def opt(name, default=''):
+        return argv[argv.index(name) + 1] if name in argv and argv.index(name) + 1 < len(argv) else default
+    only = [x.strip() for x in opt('--only').split(',') if x.strip()]
+    raw_out, raw_in, mx = opt('--save-raw'), opt('--from-raw'), int(opt('--max', '20'))
+    direct = [f for f in cfg['direct'] if not only or f['name'] in only]
+    cands, seen, st = [], set(), []
+    for i, f in enumerate(direct):
+        slug = re.sub(r'[^a-z0-9]+', '-', (f['name'] + '-' + str(i)).lower()).strip('-')
+        try:
+            raw = open(os.path.join(raw_in, slug + '.xml'), 'rb').read() if raw_in else fetch(f['url'])
+            if raw_out:
+                os.makedirs(raw_out, exist_ok=True); open(os.path.join(raw_out, slug + '.xml'), 'wb').write(raw)
+            got, n = parse(raw), 0
+            for g in got:
+                d = ptime(g['p'])
+                if not d or not g['t'] or NOW - d > timedelta(hours=KEEP_H) or d - NOW > timedelta(hours=2):
+                    continue
+                if JUNK.search(g['t']) or JUNK_URL.search(g['u'] or ''):
+                    continue
+                canon = canonical(g['u'])
+                key = candidate_key(f['url'], g.get('g', ''), canon)
+                if key in seen or canon in seen:
+                    continue
+                seen.update([key, canon])
+                cands.append({'key': key, 'guid': (g.get('g') or '')[:300], 'canon': canon, 'url': g['u'], 'title': g['t'].strip()[:300],
+                              'outlet': g['o'] or f['name'], 'time': d.astimezone(IST).isoformat(timespec='minutes'), 'feed': f['name']})
+                n += 1
+            st.append({'name': f['name'], 'ok': True, 'items': len(got), 'candidates': n})
+        except Exception as e:
+            st.append({'name': f['name'], 'ok': False, 'error': str(e)[:120]})
+    cands.sort(key=lambda c: c['time'], reverse=True)
+    cands = cands[:mx]
+    os.makedirs(OUT, exist_ok=True)
+    json.dump({'updated': NOW.astimezone(IST).isoformat(timespec='minutes'), 'feeds': st, 'candidates': cands},
+              open(os.path.join(OUT, 'candidates.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    print(f"candidates: {len(cands)} from {sum(1 for s in st if s['ok'])}/{len(st)} feeds")
+    if '--post' in argv:
+        url, key = os.environ.get('NEWSROOM_URL', ''), os.environ.get('NEWSROOM_BOT_KEY', '')
+        if not url or not key:
+            sys.exit('--post needs NEWSROOM_URL and NEWSROOM_BOT_KEY (GitHub Actions secrets)')
+        body = json.dumps({'action': 'candidates', 'key': key, 'items': cands}).encode()
+        req = urllib.request.Request(url, data=body, headers={'Content-Type': 'text/plain;charset=utf-8'})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            res = json.loads(r.read().decode('utf-8'))
+        if not res.get('ok'):
+            sys.exit('editor queue refused: %s' % res.get('error'))
+        print(f"editor queue: {res.get('added', 0)} new, {res.get('duplicates', 0)} already queued")
+
+if '--candidates' in sys.argv:
+    run_candidates(sys.argv)
+    sys.exit(0)
+
 items, status = [], []
 for f in feeds:
     st = {'name': f['name'], 'kind': f['kind'], 'ok': False, 'items': 0, 'fresh': 0}

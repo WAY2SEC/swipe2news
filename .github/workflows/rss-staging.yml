@@ -1,0 +1,38 @@
+name: STAGING – live RSS snapshot (branch rss-queue only)
+
+# Staging test only: reads 3 live RSS feeds with the real collector in candidates mode, twice (90 s apart),
+# and saves the raw feeds + candidates to staging/rss-live/ on THIS branch. No secrets, no editor queue,
+# never touches news.json, main or the feeds branch. Runs only when staging/rss-live/REQUEST changes on rss-queue.
+# Remove this file before any merge to main.
+on:
+  push:
+    branches: [rss-queue]
+    paths: ['staging/rss-live/REQUEST']
+
+permissions:
+  contents: write
+
+concurrency: { group: rss-staging, cancel-in-progress: false }
+
+jobs:
+  snapshot:
+    if: github.ref_name == 'rss-queue'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: rss-queue, fetch-depth: 1 }
+      - name: Collect twice (live feeds)
+        run: |
+          set -e
+          F="The Hindu,Telangana Today"
+          python3 tools/collect_feeds.py . staging/rss-live/run1 --candidates --only "$F" --max 20 --save-raw staging/rss-live/run1/raw
+          sleep 90
+          python3 tools/collect_feeds.py . staging/rss-live/run2 --candidates --only "$F" --max 20 --save-raw staging/rss-live/run2/raw
+          git status --short -- news.json archive | grep . && { echo "::error::collector touched the feed"; exit 1; } || echo "news.json and archive untouched"
+      - name: Save to this branch only
+        run: |
+          git config user.name "Swipe2News Bot"; git config user.email news-bot@swipe2news.invalid
+          git add staging/rss-live
+          git commit -qm "STAGING: live RSS snapshot $(date -u +%FT%TZ)"
+          git push -q origin HEAD:rss-queue
