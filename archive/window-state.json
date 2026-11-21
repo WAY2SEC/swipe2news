@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T17:05:00+05:30",
+ "cutoff": "2026-11-21T17:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-18T21:05:00+05:30/2026-11-18T21:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 4,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Feeds 21:24 IST, 68/68 ok. Lookback 13:05. Direct feed URLs refused by WebFetch (no search provenance); search-sourced URLs opened. Published: TT Ranigunj RUB diversions from Nov 20 (20:45), TT TG SAFE 4 eatery licences suspended (20:35), DC Raptadu accused discharged Kurnool GGH (21:10, sensitive, accused not named), Siasat Attapur police reunite missing girl (20:53). Duplicates: Siasat/DC TG RERA orders (already covered from Hans 05:36 etc.). Not opened (search did not surface): Hindu Akvan TG alert withdrawn, Hindu AP MPP/ZP first meetings, Hindu Kadapa MP booth-capture claim, Hindu private bus driver jailed, Hindu Srikakulam JSP/BJP seats, Hindu Tirupati ZPTC eligibility, Hindu Vizag collector Akvan, ETV Indiramma sarees postponed, DH TG liabilities. District searches not done this run (time spent on feed items). news.json kept untrimmed (529) as in earlier runs. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-18T21:35:00+05:30/2026-11-18T22:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 1,
    "gaps": "Lookback from 08:35. Feeds 16:43 IST, 70/70 ok, 781 TG/AP flagged uncovered; 62 events first seen since 16:10 reviewed plus afternoon backlog. add_repo not available; used existing clone. Published 1: POSH complaint against a Mahindra University dean taken to State Women's Commission (Siasat, sensitive, claim, nobody named). Duplicate: Oneindia Telugu eateries off delivery apps (= Siasat licences story 13:05). Old: Medical Dialogues Cohance VAI (13 Nov), Taxscan CBDT welfare board (2023). Review (no publication time; event of 14 May): GK Today AP horticulture plan. Not opened (search did not return article): Fortune India TG tech funding (event already published via Sahyadri), HMTV Pargi disabled protest, BigTV Vijayawada Autonagar fire, The Hindu Srikakulam 15,440 cusecs, NewsMeter Ranigunj RUB diversions, TOI Rs 1,011 cr ITI clusters, Eenadu/Oneindia Yelahanka dispute, Siasat Board of Peace, AP Kryvyi Rih strike, NIE Ranchi flights. pic e/women-safety-help-desk rejected by check_news.py (e/ keys not recognised) so c/women used. Lang pages, index.html and sitemap.xml reverted."
+  },
+  {
+   "window": "2026-11-21T17:05:00+05:30/2026-11-21T17:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 4,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 5,
+   "review": 0,
+   "gaps": "Lookback from 09:05. Feeds 17:12 IST, 70/70 ok, 883 TG/AP flagged uncovered; 61 events first seen since 16:40 reviewed. add_repo not available; used existing clone. Published 4: Gandhi Hospital newborn abduction, six held (Andhra Jyothy, sensitive, police), TGCSB arrests two Kurnool students for film piracy (Siasat), AP SIPC Rs 38,362 cr proposals (ETV Bharat), APMDC Rs 40,050 cr mining revenue target (ETV Bharat). Not opened: Sakshi Education PJTAU 566 faculty posts (fetch 4xx; Hyderabad Mail copy not found), The Hindu TISC 1,000 proposals, Eenadu OU Rs 480 cr (no alternate found), ETV Grindr robbery Vijayawada, TT Odissi Utsav. Skipped: entertainment, devotional, recipes, sports, other-state items, BRS party calls. Lang pages, index.html and sitemap.xml reverted."
   }
  ],
  "seen": [
@@ -7098,6 +7098,41 @@
    "url": "https://www.taxscan.in/telangana-building-and-other-construction-workers-welfare-board-exempted-from-income-tax-u-s-1046-notifies-cbdt/336565",
    "d": "2026-11-21",
    "w": "old"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/gandhi-hospital-newborn-kidnapping-case-1578520.html",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://ntvtelugu.com/telangana-news/gandhi-hospital-newborn-baby-kidnapped-sold-for-one-lakh-hyderabad-1037462.html",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/teens-film-movies-inside-theatres-for-piracy-sites-held-by-tgcsb-3583271/",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://ntvtelugu.com/telangana-news/tgcsb-busts-movie-piracy-gang-arrests-kurnool-students-1037486.html",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.etvbharat.com/en/business/andhra-pradesh-attracts-rs-38362-crore-investment-proposals-from-adani-kia-saint-gobain-20398-jobs-expected-enn26112102703",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/en/state/andhra-pradesh-targets-rs-40050-cr-annual-mining-revenue-plans-apmdc-ipo-listing-by-dec-2027-enn26112102915",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://education.sakshi.com/telangana-jobs/education-news/pjsau-telangana-agriculture-university-faculty-recruitment-566-posts-notification-202801",
+   "d": "2026-11-21",
+   "w": "not-opened"
   }
  ]
 }
