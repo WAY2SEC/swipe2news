@@ -32,7 +32,7 @@ def sid(s):  # same id as the app's sid()
 def speakable(t):  # same clean-up as the app's speakable() for Telugu
     t = re.sub('[\U0001F300-\U0001FAFF☀-➿️]', ' ', t)
     t = re.sub('[“”"‘’\'«»]', '', t)
-    t = re.sub(r'\s*[–—]\s*', ', ', t); t = re.sub(r'\s*:\s*', '. ', t); t = re.sub('[|·•]', ', ', t)
+    t = re.sub(r'\s*[–—]\s*', ', ', t); t = re.sub(r'\s*:\s*', ', ', t); t = re.sub('[|·•]', ', ', t)
     t = re.sub(r'(\d),(?=\d)', r'\1', t)
     t = re.sub(r'₹\s?([\d.]+)\s?(వేల|వేలు)', r'\1 వేల రూపాయల', t)
     t = re.sub(r'₹\s?([\d.]+)\s?(కోట్ల|కోట్లు)', r'\1 కోట్ల రూపాయల', t)

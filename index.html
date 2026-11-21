@@ -2659,12 +2659,12 @@ setTimeout(()=>loadAudIdx(),3000); setInterval(()=>{ AUDIDX=null; },10*60*1000);
 function audFor(s){ if(!s||LG()!=='te'||TLG()||!AUDIDX) return ''; const o=AUDIDX[sid(s)]; return o&&o.f?'/audio/'+o.f:''; }
 function stopAud(){ if(AUDP){ try{ AUDP.onended=AUDP.ontimeupdate=AUDP.onerror=null; AUDP.pause(); }catch(e){} AUDP=null; } }
 function bestVoice(sl){ const L=sl.slice(0,2).toLowerCase(), vs=(synth.getVoices()||[]).filter(v=>v.lang.replace('_','-').toLowerCase().startsWith(L)); if(!vs.length) return null;
-  const score=v=>{ const n=(v.name||'').toLowerCase(); let x=0; if(/natural|neural|premium|enhanced|wavenet|online/.test(n)) x+=6; if(/google/.test(n)) x+=4; if(v.localService===false) x+=2;
+  const score=v=>{ const n=(v.name||'').toLowerCase(); let x=0; if(v.localService!==false) x+=8; /* owner 21 Nov: the online voice stopped and started on mobile data – the voice stored on the phone reads smoothly */ if(/google/.test(n)) x+=4; if(/natural|neural|premium|enhanced/.test(n)&&v.localService!==false) x+=3; if(/network|online/.test(n)) x-=4;
     if(v.lang.replace('_','-').toLowerCase()===sl.toLowerCase()) x+=2; if(/compact|espeak|robot/.test(n)) x-=6; return x; };
   try{ const k='voice.'+L, saved=store.get(k,''); const sv=saved&&vs.find(v=>v.name===saved); if(sv) return sv; }catch(e){}
   return vs.slice().sort((a,b)=>score(b)-score(a))[0]; }
 function speakable(t,sl){ if(!t) return t; const te=sl==='te-IN', hi=sl==='hi-IN';
-  t=t.replace(/[\u{1F300}-\u{1FAFF}☀-➿️]/gu,' ').replace(/[“”"‘’'«»]/g,'').replace(/\s*[–—]\s*/g,', ').replace(/\s*:\s*/g,'. ').replace(/[|·•]/g,', ');
+  t=t.replace(/[\u{1F300}-\u{1FAFF}☀-➿️]/gu,' ').replace(/[“”"‘’'«»]/g,'').replace(/\s*[–—]\s*/g,', ').replace(/\s*:\s*/g,', ').replace(/[|·•]/g,', ');
   t=t.replace(/(\d),(?=\d)/g,'$1'); // 1,54,032 → 154032 (voices read the number, not "comma")
   const RS=te?' రూపాయల':hi?' रुपये':' rupees', CR=te?' కోట్ల':hi?' करोड़':' crore', LK=te?' లక్షల':hi?' लाख':' lakh';
   t=t.replace(/₹\s?([\d.]+)\s?(వేల|వేలు|thousand|हज़ार|हजार)/g,(m,n)=>n+(te?' వేల':hi?' हज़ार':' thousand')+RS);
@@ -2696,7 +2696,7 @@ function speakCur(from){ clearTimeout(rWait); if(!RADIO||rPaused) return; const 
     a.play().catch(()=>{ if(tok===rTok){ AUDP=null; AUDIDX&&delete AUDIDX[sid(s)]; speakCur(0); } }); return; }
   const text=speakable(voiceText(s),U('speech')); if(!text){ rWait=setTimeout(()=>{ if(RADIO&&tok===rTok) go(cur+1,'left'); },900); return; }
   // short pieces: Android Chrome stops long speech after ~15 s
-  const parts=(text.replace(/\s+/g,' ').match(/[^.!?।]+[.!?।]*\s*|[.!?।]+\s*/g)||[]).map(x=>x.trim()).filter(Boolean).reduce((a,x)=>{ if(a.length && (a[a.length-1]+' '+x).length<180) a[a.length-1]+=' '+x; else a.push(x); return a; },[]);
+  const parts=(text.replace(/\s+/g,' ').match(/[^.!?।]+[.!?।]*\s*|[.!?।]+\s*/g)||[]).map(x=>x.trim()).filter(Boolean).reduce((a,x)=>{ if(a.length && (a[a.length-1]+' '+x).length<260) a[a.length-1]+=' '+x; else a.push(x); return a; },[]);
   const sl=U('speech'), v=bestVoice(sl);
   try{ synth.cancel(); }catch(e){}
   rParts=parts; const st=Math.max(0,Math.min(parts.length-1,from|0)); rIdx=st; const tot=parts.reduce((a,x)=>a+x.length,0)||1, before=k=>parts.slice(0,k).reduce((a,x)=>a+x.length,0); npProg(before(st)/tot);
