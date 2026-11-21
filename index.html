@@ -1704,10 +1704,10 @@ function offlineUI(force){ let b=document.getElementById('s2off'); const off=for
   const full={te:`ఆఫ్‌లైన్ · ${t?t+'కి ':''}సేవ్ చేసిన వార్తలు చదువుతున్నారు. నెట్ వచ్చాక కొత్తవి వస్తాయి.`,en:`Offline · reading news saved${t?' at '+t:''}. New stories load when you're back online.`,hi:`ऑफ़लाइन · ${t?t+' बजे ':''}सेव की गई खबरें. नेट आने पर नई खबरें आएँगी.`}[LG()];
   b.textContent='📴 '+({te:'ఆఫ్‌లైన్',en:'Offline',hi:'ऑफ़लाइन'}[LG()]); b.title=full; b.onclick=()=>toast(full); b.hidden=false; }
 window.addEventListener('online',()=>{ offlineUI(); try{ load(); }catch(e){} }); window.addEventListener('offline',()=>offlineUI());
-function warmOffline(){ try{ if(!navigator.serviceWorker||!navigator.serviceWorker.controller) return; const c=navigator.connection; if(c&&(c.saveData)) return;
+function warmOffline(){ try{ if(!navigator.serviceWorker||!navigator.serviceWorker.controller) return; const c=navigator.connection; if(c&&(c.saveData||/(^|-)(2g|3g)$/.test(c.effectiveType||'')||(c.downlink&&c.downlink<1.5))) return; // slow network: the cards the reader is looking at come first
   const urls=['mandi.json','metals.json','daily.json','mandi.js?v=2','mandi/','/icon-512.png','/icon-192.png','/art/logo.svg','/brand/qr-share.png'].concat((NEWS.stories||[]).slice(0,60).map(x=>x.img).filter(u=>u&&!/^https?:/.test(u)));
   // offline reading: every card picture in today's feed (cards keep them in data-src until shown)
-  const f=document.getElementById('feed'); if(f) f.querySelectorAll('img[data-src],img[src^="/art/"]').forEach(im=>{ const u=im.dataset.src||im.getAttribute('src'); if(u&&u.startsWith('/art/')&&!urls.includes(u)) urls.push(u); });
+  const f=document.getElementById('feed'); if(f) [...f.querySelectorAll('img[data-src],img[src^="/art/"]')].slice(0,40).forEach(im=>{ const u=im.dataset.src||im.getAttribute('src'); if(u&&u.startsWith('/art/')&&!urls.includes(u)) urls.push(u); });
   const ch=new MessageChannel(); ch.port1.onmessage=e=>{ const n=(e.data||{}).saved|0; try{ const k='offlineSaved.once'; if(n>0&&!store.get(k,0)){ store.set(k,1); toast({te:'📥 ఈరోజు వార్తలు ఫోన్‌లో సేవ్ అయ్యాయి – నెట్ లేకపోయినా చదవొచ్చు',en:'📥 Today\'s news is saved on your phone – read it even without internet',hi:'📥 आज की खबरें फ़ोन में सेव हो गईं – बिना इंटरनेट भी पढ़ें'}[LG()]||''); } }catch(_){} };
   navigator.serviceWorker.controller.postMessage({type:'warm',urls},[ch.port2]); }catch(e){} }
 /* gold · silver · copper card (15 Nov 2026): 10th card in the main feed; data metals.json (scheduled task, tools/tasks/metals.md) */
@@ -2285,7 +2285,7 @@ function turn(el,from,to,axis,done){ const ms=Math.round(140+420*Math.abs(to-fro
   const t0=performance.now(), ease=x=>1-Math.pow(1-x,3);
   (function step(now){ const k=Math.min(1,(now-t0)/ms); bend(el,from+(to-from)*ease(k),axis); if(k<1) requestAnimationFrame(step); else done(); })(t0); }
 /* load the pictures of the shown card first, then the next three, so swiping never waits */
-function warmPics(i){ try{ for(let k=i;k<=i+3&&k<cards.length;k++){ const c=cards[k]; if(!c) continue; c.querySelectorAll('img[data-src]').forEach(im=>{ if(k===i) im.fetchPriority='high'; im.src=im.dataset.src; im.removeAttribute('data-src'); }); } }catch(e){} }
+function warmPics(i){ try{ for(let k=i;k<=i+3&&k<cards.length;k++){ const c=cards[k]; if(!c) continue; c.querySelectorAll('img[data-src]').forEach(im=>{ im.fetchPriority=k===i?'high':'low'; im.src=im.dataset.src; im.removeAttribute('data-src'); }); } }catch(e){} }
 function go(i,dir,from){
   if(i>=0) warmPics(Math.min(i,cards.length-1));
   go.n=(go.n||0)+1; if(go.n===3) setTimeout(alertInvite,1200);
@@ -3272,7 +3272,7 @@ async function load(){
     let r, j;
     try{ r = await fetch(CONFIG.NEWS_URL+'?t='+Date.now(), {cache:'no-store', signal: ac?ac.signal:undefined});
       if(!r.ok) throw new Error(r.status); j = await r.json(); } finally { clearTimeout(tm); }
-    NEWS = j; load.retry=0; store.set('news', NEWS); offlineUI(); setTimeout(warmOffline,4000); // after the feed is drawn and the first pictures are in
+    NEWS = j; load.retry=0; store.set('news', NEWS); offlineUI(); setTimeout(warmOffline,25000); // well after the feed is drawn and the first pictures are in (owner 21 Nov: app must open fast)
     BASE = NEWS.stories.slice();
     // add the rest of today's stories (news.json holds only the newest 50); never wait more than 8 s for these
     await timeout(Promise.all([loadWishes(), loadJobs(), (async()=>{ await loadDates(); if(DATES[0]) await fetchDay(DATES[0].iso); })()]), 8000);
