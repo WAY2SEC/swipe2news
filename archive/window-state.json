@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T19:05:00+05:30",
+ "cutoff": "2026-11-21T19:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-18T23:05:00+05:30/2026-11-18T23:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 3,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Feeds 23:26 IST, 67/68 ok, lookback 15:05. Published: TT Hyderabad doctor AHDS drug (23:13), TT VKCM strike called off (22:55), Siasat TG RERA 17 builders (21:09, late-found). Skipped as old: Hans AP MPP/ZP indirect polls (11 Nov, x2). Not opened: Disha Tholi Mudda 7 districts (fetch 4xx). Search did not surface: Livemint UPI PIN/SBI consumer order, SCoR 1,560 Pushkaram trips, TG transport AI cameras, Indiramma sarees postponed, Hindu hypertension programme, Kodumur SI inquiry, cops dancing at farmhouse, Achha Vidyasagar, William-Kate meet Modi (only pre-visit pieces), Scotch 162.5% duty. No district searches this run (time). add_repo not available; used existing clone. Build regenerated root index/sitemap pages; reverted (not committed) per rules."
-  },
   {
    "window": "2026-11-18T23:35:00+05:30/2026-11-19T05:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Lookback from 10:35. Feeds 18:50 IST, 67/70 ok (Andhra Jyothy, Namasthe Telangana, TV5 HTTP 429), 801 TG/AP flagged uncovered; 81 events first seen since 18:10 reviewed. add_repo not available; used existing clone. Published 8: Kothagudem wife murder case three more held (Andhra Prabha, police, sensitive, nobody named), Seethakka asks eligible to apply for new pensions (Oneindia), Kothagudem School of Mining 50 years (HMTV), Peddampeta wildlife compensation awareness (HMTV), Hussain Sagar 1940 records (TT), Sridevi college silver jubilee (TT, late 16:55), crypto investors vs WazirX/Binance (TT/IANS, claim, sensitive), drones hit Russian ship in Gulf of Finland (Al Jazeera; page time 12:45 without zone, taken as UTC). Duplicates: TG SAFE four eateries (13:05), CERT-In advisory (20 Nov), Naidu local polls (15:05), Pochampally tour (05:05). Old: TT Jadcherla custody death (16 Nov), GK Today Union Bank SHG waiver (July). Skipped: ETV Nagarkurnool alprazolam (bust already reported 18 Nov elsewhere, not confirmed as new), AndhraPravasi media city (17 Nov news), NTV Ibrahimpatnam remains (graphic), entertainment, sports, party statements, other-state. Not opened: Disha BTech ganja (client error); search did not return GK Today AP Cabinet items, TaxGuru GST AAR, News18 corporator, NTV Reliance plant. Lang pages, index.html and sitemap.xml reverted. Older TG/AP backlog not worked."
+  },
+  {
+   "window": "2026-11-21T19:05:00+05:30/2026-11-21T19:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 2,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 6,
+   "review": 0,
+   "gaps": "Lookback from 11:05. Feeds 19:13 IST, 70/70 ok, 900 TG/AP flagged uncovered. add_repo not available; used existing clone. Published 2: Medipally masked gang sighting (TT, claim), Odissi Utsav Shilparamam Nov 22 (TT, late 17:04). Old: TT foreign nationals security (Apr 2025), agri minister tech (Dec 2023), Snapchat drug network (18 Nov), UoH ganja (Aug), Chevella farmhouse (30 Oct), Indian students in US (1 Nov). Not opened (typed Hindu URLs refused, search did not return): KRMB panel Nov 23, TGMC Gadwal unqualified practitioners, Kaloji Kalakshetram CM order, Seethakka Maheshwaram roads, debit-card mule arrest, BJP rice millers dues; munsifdaily Gadwal client error; also not returned: TT engineering student cannabis, Hyderabad Mail ACB TGSPDCL, SFI inter merger. Site-filtered search on thehindu.com rejected by proxy. Lang pages, index.html and sitemap.xml reverted. Older TG/AP backlog not worked."
   }
  ],
  "seen": [
@@ -7398,6 +7398,46 @@
    "url": "https://ntvtelugu.com/telangana-news/ibrahimpatnam-gandhinagar-human-skull-woman-leg-found-police-investigation-1037516.html",
    "d": "2026-11-21",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/masked-gangs-b3d92264",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-odissi-utsav-on-november-22-16dd8bc6",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/lack-of-security-for-foreign-nationals-in-hyderabad-raises-concern",
+   "d": "2026-11-21",
+   "w": "old"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-agriculture-minister-stresses-on-tech-to-boost-crop-yield",
+   "d": "2026-11-21",
+   "w": "old"
+  },
+  {
+   "url": "https://telanganatoday.com/snapchat-crypto-used-to-run-hyderabad-drug-network-three-arrested",
+   "d": "2026-11-21",
+   "w": "old"
+  },
+  {
+   "url": "https://telanganatoday.com/former-university-of-hyderabad-student-held-with-ganja-on-campus",
+   "d": "2026-11-21",
+   "w": "old"
+  },
+  {
+   "url": "https://telanganatoday.com/farmhouse-party-raided-in-chevella-3-test-positive-for-drugs",
+   "d": "2026-11-21",
+   "w": "old"
+  },
+  {
+   "url": "https://telanganatoday.com/indian-students-in-us-decline-13-5-pc-to-3-16-lakh-india-remains-largest-source",
+   "d": "2026-11-21",
+   "w": "old"
   }
  ]
 }
