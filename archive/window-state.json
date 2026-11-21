@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T22:05:00+05:30",
+ "cutoff": "2026-11-21T22:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T07:05:00+05:30/2026-11-19T07:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 5,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Feeds 06:41 IST, 70/70 ok, lookback 23:05 (feed list 692 uncovered-in-lookback events, most already published or seen; feed times often first-seen). Published 5: ETV Bharat AP live blog Akvan veers to Odisha (06:55, forecast), AP MPP elections 659 posts (06:53), ETV TG Anganwadi breakfast 7 more districts (06:50), NT HC halves PG clinical fees (02:11), NT Krishna tribunal TG rebuttal (02:15, claim). Skipped: ETV Guntur CID job-fraud custody (too few facts for a full card), Tirumala darshan wait (routine), CM Siddipet visit / IRC Hyderabad / Tolichowki ACB / Tirupati chip park (already published), SC AP civic poll list (Oct 2026, old). District searches returned only tag/index pages. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T07:35:00+05:30/2026-11-19T08:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 6,
    "review": 0,
    "gaps": "Lookback from 13:35. Feeds 21:50 IST, 69/70 ok (ETV Bharat 429), 803 TG/AP flagged uncovered; 74 events first seen since 21:10 reviewed. add_repo not available; used existing clone. Pages read via web-fetch agents. Published 3: Vizag ASEAN-India Maritime Conclave Nov 23-24 (DC 21:21), 6 kg ganja on Konark Express, Warangal task force (DC 21:34, sensitive; Kesamudram gudumba part already published), OU protest over bail in Bilkis Bano case (Siasat 21:33, sensitive, neutral wording). Duplicates: V6 gold behind tail light (Siasat story published), TT/News18 Tirumala 121 kg gold. Old: ThePrint Ganga Water Treaty delegation (18 Nov), Hans excise raids Mahabubabad (3 Nov), ESPN hockey (2024). Not opened: DH/News On AIR India beat South Korea 2-1 women's hockey (fetch failed), Eenadu Medak idol in anthill, Disha Wanaparthy power lines, Prajasakti Sneha poultry IT raids, Global Agriculture cotton traders (search did not return). Skipped: Owaisi/Jagan/Ramchander party statements, NTV OTR political analysis, entertainment, lifestyle, other-state. check_news.py still flags e/ keys (files exist in art/e). Lang pages, index.html and sitemap.xml reverted. Older TG/AP backlog not worked."
+  },
+  {
+   "window": "2026-11-21T22:05:00+05:30/2026-11-21T22:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 4,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Lookback from 14:05. Feeds 22:11 IST, 70/70 ok, 924 TG/AP flagged uncovered (flag unreliable; checked against news.json/archive). add_repo not available; used existing clone. Feed direct URLs refused by WebFetch (not from search); pages read via search-result URLs. Published 4: Guntur NIELIT quantum/AI campus (DC 22:12), Telangana passport mela 3,300 served (DC 22:22), Gnana Dattu national junior badminton title (IANS 21:23, late), India women beat Korea 2-1 Asian Champions Trophy (IANS 22:27). Duplicate: AP HIV national recognition (Surakshit districts published 20 Nov). Skipped: Kangundi DKT pattas (GK Today, event date unclear), AP gold prices Hindu (not opened), Disha poultry summit (not opened, likely Nov 26-28 expo), Global Agriculture cotton (search did not return). Delhi teen Agniveer data (Indian Express 07:26, other-region, not opened). District searches returned only tag pages. check_news.py flags e/ keys (files exist in art/e). Lang pages, index.html and sitemap.xml reverted. Older TG/AP backlog not worked."
   }
  ],
  "seen": [
@@ -7636,6 +7636,46 @@
   },
   {
    "url": "https://telanganatoday.com/bjp-mla-seeks-ban-on-sonia-gandhis-memoir-in-maharashtra-cites-communal-tension-concerns",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/amaravati-gets-worlds-first-quantum-ai-university-campus-2006678",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/indias-first-ai-quantum-university-campus-inagurated-in-guntur-of-andhra-pradesh/article71728573.ece",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/3300-avail-passport-services-at-special-mela-2006684",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/special-passport-mela-across-state-over-3k-avail-services-3583534/",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://ianslive.in/jr-national-badminton-shaina-manimuthu-retains-girls-singles-crown-gnana-dattu-bags-boys-singles-title--20261121211420",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://ianslive.in/womens-asian-champions-trophy-india-edge-past-south-korea-2-1-to-register-second-win--20261121222015",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-gets-national-recognition-for-its-progress-in-hivaids-control/article71728569.ece",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.gktoday.in/andhra-pradesh-cm-distributes-dkt-pattas-to-322-beneficiaries-in-kangundi/",
    "d": "2026-11-21",
    "w": "skipped"
   }
