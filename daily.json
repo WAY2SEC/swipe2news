@@ -1,89 +1,93 @@
 {
- "updated": "2026-11-21T05:24:40+05:30",
- "set": "morning",
+ "updated": "2026-11-21T17:23:38+05:30",
+ "set": "evening",
  "items": [
   {
    "kind": "quote",
    "date": "2026-11-21",
-   "id": "tagore-weary-kingdoms-little-flowers",
-   "text": "దేవుడు గొప్ప సామ్రాజ్యాలతో విసిగిపోతాడు, కానీ చిన్న పువ్వులతో ఎప్పుడూ విసిగిపోడు.",
+   "id": "tagore-mountain-unmoved-mist",
+   "text": "పొగమంచు కమ్మి ఓడిపోయినట్టు కనిపించినా, పర్వతం కదలకుండా నిలిచే ఉంటుంది.",
    "by": "రవీంద్రనాథ్ ఠాగూర్",
-   "ctx": "పెద్ద పెద్ద ఆర్భాటాల కంటే చిన్న చిన్న మంచి పనులు, సరళమైన ఆనందాలే విలువైనవి. రోజూ చేసే చిన్న మంచితనాన్ని తక్కువ అనుకోవద్దు.",
-   "src": "Stray Birds (1916), No. 67 – Rabindranath Tagore",
-   "url2": "https://ibiblio.org/eldritch/rt/stray.htm",
+   "ctx": "కష్టాలు కొంతకాలం మనల్ని కప్పేసినట్టు అనిపించవచ్చు. మనసు స్థిరంగా ఉంచుకుంటే, పొగమంచులాగే అవీ తొలగిపోతాయి.",
+   "src": "Fireflies (1926) – Rabindranath Tagore",
+   "url2": "https://wist.info/author/tagore-rabindranath/",
    "en": {
-    "text": "God grows weary of great kingdoms, but never of little flowers.",
+    "text": "The mountain remains unmoved at seeming defeat by the mist.",
     "by": "Rabindranath Tagore",
-    "ctx": "Small good deeds and simple joys matter more than grand show. Never think little of the small kindness you do every day."
+    "ctx": "Troubles may seem to cover us for a while. If we keep our mind steady, they too will lift like the mist."
    },
    "hi": {
-    "text": "ईश्वर बड़े-बड़े साम्राज्यों से ऊब जाता है, लेकिन छोटे फूलों से कभी नहीं।",
+    "text": "धुंध से हारता-सा दिखने पर भी पर्वत अडिग खड़ा रहता है।",
     "by": "रवींद्रनाथ टैगोर",
-    "ctx": "बड़े दिखावे से ज़्यादा छोटे-छोटे अच्छे काम और सरल खुशियाँ मायने रखती हैं। रोज़ की छोटी भलाई को कभी कम मत समझिए।"
+    "ctx": "मुश्किलें कुछ समय के लिए हमें ढकती-सी लग सकती हैं। मन को स्थिर रखें, तो वे भी धुंध की तरह छँट जाती हैं।"
    }
   },
   {
    "kind": "tip",
    "date": "2026-11-21",
-   "id": "nism-emergency-fund-basics",
-   "title": "అత్యవసర నిధి ముందే పెట్టుకోండి",
-   "text": "ఉద్యోగం పోవడం, అనారోగ్యం వంటి కష్టాల్లో ఆదాయం ఆగిపోతుంది, కానీ ఖర్చులు ఆగవు. అందుకే మూడు నుంచి ఆరు నెలల ఇంటి ఖర్చులంత డబ్బును అత్యవసర నిధిగా పక్కన పెట్టాలని నిపుణులు సూచిస్తారు. ఈ డబ్బుకు ఎక్కువ లాభం కంటే భద్రత, వెంటనే చేతికి అందడమే ముఖ్యం.",
-   "ctx": "బ్యాంకు ఖాతా వంటి సురక్షితమైన, వెంటనే తీసుకోగలిగే చోట ఉంచండి. ప్రతి నెలా కొంచెం కొంచెం జమ చేస్తూ నిధిని పెంచుకోండి.",
-   "src": "NISM (SEBI స్థాపించిన సంస్థ) – Save for Emergencies",
-   "url2": "https://www.nism.ac.in/save-for-emergencies",
+   "id": "sukanya-samriddhi-basics",
+   "title": "ఆడపిల్ల భవిష్యత్తుకు సుకన్య సమృద్ధి",
+   "text": "సుకన్య సమృద్ధి ఖాతా ఆడపిల్లల చదువు, భవిష్యత్తు కోసం ప్రభుత్వం తెచ్చిన చిన్న పొదుపు పథకం. అమ్మాయి చిన్న వయసులోనే తల్లిదండ్రులు ఆమె పేరిట పోస్టాఫీసులో లేదా బ్యాంకులో ఖాతా తెరవవచ్చు. ఏటా కొంచెం కొంచెం జమ చేస్తే, ఎక్కువ ఏళ్లలో మంచి నిధి తయారవుతుంది.",
+   "ctx": "వయసు పరిమితి, జమ మొత్తం, వడ్డీ వంటి తాజా నియమాలను పోస్టాఫీసులో లేదా బ్యాంకులో అడిగి తెలుసుకోండి. ఇది సాధారణ సమాచారం మాత్రమే.",
+   "src": "Sukanya Samriddhi Account – Punjab National Bank",
+   "url2": "https://www.pnb.bank.in/sukanya-account.html",
    "en": {
-    "title": "Build an emergency fund first",
-    "text": "When a job is lost or illness strikes, income stops but expenses do not. That is why advisors suggest setting aside three to six months of household expenses as an emergency fund. For this money, safety and quick access matter more than high returns.",
-    "ctx": "Keep it somewhere safe and easy to withdraw, like a bank account. Add a little every month to build it up."
+    "title": "Sukanya Samriddhi for your daughter",
+    "text": "The Sukanya Samriddhi Account is a government small savings scheme for a girl's education and future. Parents can open it in her name at a post office or bank while she is still young. Depositing a little every year builds a good fund over many years.",
+    "ctx": "Ask at the post office or bank for the latest rules on age limit, deposit amount and interest. This is general information only."
    },
    "hi": {
-    "title": "पहले आपातकालीन फंड बनाएँ",
-    "text": "नौकरी जाने या बीमारी जैसी मुश्किल में आमदनी रुक जाती है, लेकिन खर्च नहीं रुकते। इसलिए सलाहकार तीन से छह महीने के घरेलू खर्च जितना पैसा आपातकालीन फंड के रूप में अलग रखने की सलाह देते हैं। इस पैसे के लिए ज़्यादा मुनाफ़े से ज़्यादा ज़रूरी है सुरक्षा और तुरंत मिल जाना।",
-    "ctx": "इसे बैंक खाते जैसी सुरक्षित और तुरंत निकाली जा सकने वाली जगह पर रखें। हर महीने थोड़ा-थोड़ा जोड़कर फंड बढ़ाएँ।"
+    "title": "बेटी के भविष्य के लिए सुकन्या समृद्धि",
+    "text": "सुकन्या समृद्धि खाता बेटियों की पढ़ाई और भविष्य के लिए सरकार की छोटी बचत योजना है। बेटी की कम उम्र में ही माता-पिता उसके नाम पर डाकघर या बैंक में खाता खोल सकते हैं। हर साल थोड़ा-थोड़ा जमा करने से कई सालों में अच्छी रकम बन जाती है।",
+    "ctx": "उम्र सीमा, जमा राशि और ब्याज के नए नियम डाकघर या बैंक में पूछकर जानें। यह केवल सामान्य जानकारी है।"
    }
   },
   {
    "kind": "wisdom",
    "date": "2026-11-21",
-   "id": "thiruvalluvar-kural-314-good-for-evil",
-   "text": "మనకు కీడు చేసినవారిని శిక్షించాలంటే, వారు సిగ్గుపడేలా వారికి మేలు చేసి, ఆ విషయం మరిచిపోవాలి.",
-   "by": "తిరువళ్లువర్ (తిరుక్కురళ్ 314)",
-   "ctx": "కీడుకు కీడు కాకుండా మేలుతో జవాబిస్తే, ఎదుటివారి మనసు మారుతుంది. ఇక్కడ సిగ్గు అంటే అవమానించడం కాదు, వారిలో మంచితనాన్ని మేల్కొల్పడం.",
-   "src": "Thirukkural 314 (Not Causing Injury) – Rajaji translation, Boldsky",
-   "url2": "https://www.boldsky.com/yoga-spirituality/thirukural/virtue/not-causing-injury/kural-314-031209.html",
+   "id": "vemana-medipandu-chooda",
+   "text": "మేడిపండు చూడ మేలిమై యుండు\nపొట్ట విప్పి చూడ పురుగులుండు\nపిరికివాని మదిని బింకమీలాగురా\nవిశ్వదాభిరామ వినుర వేమ",
+   "by": "వేమన",
+   "ctx": "మేడిపండు పైకి అందంగా కనిపించినా, లోపల పురుగులు ఉంటాయి. అలాగే పిరికివాడి గొప్పలు పైపై మెరుగులే; మనిషిని పైరూపంతో కాకుండా లోపలి గుణంతో అంచనా వేయాలి.",
+   "src": "వేమన శతకం (Vemana – Wikipedia mirror)",
+   "url2": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Vemana.html",
    "en": {
-    "text": "The best punishment for those who do evil to you is to shame them by returning good for evil — and then forget it.",
-    "by": "Thiruvalluvar (Thirukkural 314)",
-    "ctx": "Answering harm with kindness changes the other person's heart. 'Shame' here is not disgrace; it means awakening their sense of goodness."
+    "text": "The fig fruit looks golden and fine from outside, but open it and you find worms inside. Such is the bold show of a coward's mind — listen, Vema.",
+    "by": "Vemana",
+    "ctx": "A fig may look beautiful outside yet hide worms within. A coward's boasting is just as hollow; judge people by their inner qualities, not their outer show."
    },
    "hi": {
-    "text": "जो आपका बुरा करें, उन्हें सबसे अच्छी सज़ा यह है कि उनका भला करके उन्हें लज्जित करें — और फिर उसे भूल जाएँ।",
-    "by": "तिरुवल्लुवर (तिरुक्कुरल 314)",
-    "ctx": "बुराई का जवाब भलाई से देने पर सामने वाले का मन बदल जाता है। यहाँ लज्जा का अर्थ अपमान नहीं, उनके भीतर की अच्छाई को जगाना है।"
+    "text": "गूलर का फल बाहर से सुनहरा दिखता है, पर खोलकर देखो तो भीतर कीड़े होते हैं। डरपोक के मन की अकड़ भी ऐसी ही होती है — सुनो वेमा।",
+    "by": "वेमना",
+    "ctx": "गूलर बाहर से सुंदर दिखकर भी भीतर कीड़े छिपाए रहता है। डरपोक की शेखी भी वैसी ही खोखली है; इंसान को बाहरी दिखावे से नहीं, भीतर के गुणों से परखें।"
    }
   },
   {
    "kind": "roots",
    "date": "2026-11-21",
-   "id": "oggu-katha-telangana",
-   "title": "తెలంగాణ ఒగ్గు కథ",
-   "text": "ఒగ్గు కథ తెలంగాణ జానపద కథా కళ. మల్లన్న, బీరప్ప, ఎల్లమ్మ దేవతల కథలను పాడుతూ, చెబుతూ ప్రదర్శిస్తారు. నలుగురి నుంచి ఆరుగురు కళాకారుల బృందంలో ప్రధాన కథకుడు, తోడు కథకులు పాత్రలుగా మారి, డోలు, తాళాల మోతతో కథను కళ్లకు కడతారు.",
-   "ctx": "సంక్రాంతి నుంచి ఉగాది వరకు కొమురవెల్లి మల్లన్న జాతర సందడిలో ఒగ్గు కథలు ఎక్కువగా వినిపిస్తాయి. మీరు ఎప్పుడైనా ఒగ్గు కథ విన్నారా?",
-   "src": "Wikipedia – Oggu Katha",
-   "url2": "https://en.wikipedia.org/wiki/Oggu_Katha",
+   "id": "nirmal-bommalu",
+   "title": "నిర్మల్ కొయ్య బొమ్మలు",
+   "text": "నిర్మల్ బొమ్మలు తెలంగాణలోని నిర్మల్ పట్టణంలో మాత్రమే తయారయ్యే ప్రసిద్ధ కొయ్య బొమ్మలు. పొనికి అనే తేలికపాటి చెక్కతో నక్కాష్ కళాకారులు వీటిని చెక్కి, మెరిసే రంగులు, బంగారు ఛాయనిచ్చే మూలికా రసంతో అలంకరిస్తారు. దాదాపు 400 ఏళ్ల ఈ కళ ఇప్పటికీ సజీవంగా ఉంది.",
+   "ctx": "మీ ఇంట్లో నిర్మల్ బొమ్మ లేదా పెయింటింగ్ ఉందా? పిల్లలకు మన చేతి కళల గురించి చెప్పండి.",
+   "src": "Telangana Tourism – Nirmal Toys",
+   "url2": "https://telanganatourism.gov.in/partials/about/arts-crafts/nirmal-toys.html",
    "en": {
-    "title": "Telangana's Oggu Katha",
-    "text": "Oggu Katha is a folk storytelling art of Telangana. Performers sing and narrate the stories of the deities Mallanna, Beerappa and Yellamma. In a troupe of four to six artists, the main narrator and his companions turn into the characters and bring the story alive to the beat of drums and cymbals.",
-    "ctx": "Oggu Katha is heard most during the Komuravelli Mallanna jatara season, from Sankranti to Ugadi. Have you ever heard an Oggu Katha?"
+    "title": "Nirmal wooden toys",
+    "text": "Nirmal toys are famous wooden toys made only in the town of Nirmal in Telangana. Naqqash artisans carve them from a light softwood called poniki and decorate them with bright colours and a herbal extract that gives a golden sheen. This nearly 400-year-old art is still alive today.",
+    "ctx": "Do you have a Nirmal toy or painting at home? Tell children about our handicrafts."
    },
    "hi": {
-    "title": "तेलंगाना की ओग्गु कथा",
-    "text": "ओग्गु कथा तेलंगाना की लोक कथा-कला है। इसमें मल्लन्ना, बीरप्पा और एल्लम्मा देवताओं की कथाएँ गाकर और सुनाकर प्रस्तुत की जाती हैं। चार से छह कलाकारों की टोली में मुख्य कथावाचक और उसके साथी पात्र बनकर, ढोल और ताल की थाप पर कथा को जीवंत कर देते हैं।",
-    "ctx": "संक्रांति से उगादी तक कोमुरवेल्ली मल्लन्ना जातरा के मौसम में ओग्गु कथा सबसे ज़्यादा सुनाई देती है। क्या आपने कभी ओग्गु कथा सुनी है?"
+    "title": "निर्मल के लकड़ी के खिलौने",
+    "text": "निर्मल खिलौने तेलंगाना के निर्मल शहर में ही बनने वाले मशहूर लकड़ी के खिलौने हैं। नक्काश कारीगर इन्हें पोनिकी नाम की हल्की लकड़ी से तराशते हैं और चमकीले रंगों व सुनहरी चमक देने वाले जड़ी-बूटी के रस से सजाते हैं। लगभग 400 साल पुरानी यह कला आज भी जीवित है।",
+    "ctx": "क्या आपके घर में निर्मल खिलौना या चित्र है? बच्चों को हमारी हस्तकला के बारे में बताइए।"
    }
   }
  ],
  "history": [
+  "tagore-mountain-unmoved-mist",
+  "sukanya-samriddhi-basics",
+  "vemana-medipandu-chooda",
+  "nirmal-bommalu",
   "tagore-weary-kingdoms-little-flowers",
   "nism-emergency-fund-basics",
   "thiruvalluvar-kural-314-good-for-evil",
