@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T15:35:00+05:30",
+ "cutoff": "2026-11-21T16:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-18T19:35:00+05:30/2026-11-18T20:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 12,
-   "published": 7,
-   "late": 2,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Feeds 19:48 IST, 70/70 ok. Lookback 11:35. First fetch batch of feed URLs refused (no search provenance / permission timeout); search-sourced URLs then opened fine. Published: Siasat Narayanpet 8 bonded labourers, HMTV BJP Miyapur auction (late 12:04, claim), NewsMeter Indian Roads Congress Nov 19-22, TT HES Nov 20, Hans Seethakka 4.63 lakh pensions (late 16:22), ThePrint/PTI Barak ₹1,976 cr, TenNews/IANS NTPC Chatra collapse. Duplicates: Hindu Narayanpet/Miyapur, TT Barak, ManaTelangana Tirupati chip park (= AP chip policy 16:35; sources differ 5 vs 5,000 acres). Skipped: Agnikul (13 Nov), title deeds (covered 16 Nov), Myanmar ICJ (ruling pending). Not opened: Gandhi AMR rally, Sangareddy teacher row, Eluru tiger drone update, Mancherial drunk-driving community service. District searches (Adilabad/Nirmal, Warangal, Kurnool/Anantapur, Guntur/Vijayawada, Karimnagar/Medak, Kadapa/Nellore) returned only tag pages. build_previews also rewrote index/te/en/hi/sitemap.xml; left uncommitted per add list. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-18T20:05:00+05:30/2026-11-18T20:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 0,
    "gaps": "Lookback from 07:05. Feeds 15:29 IST, 68/68 ok, 758 TG/AP flagged uncovered; 89 events first seen since 14:43 reviewed. add_repo not available; used existing clone. Web search returned few same-day articles (district searches only tag pages). Published 4: Miyapur paint shop fire (Andhra Jyothy), TG HC rejects accident-claim amendment (Siasat), PD Act on toddy adulterant supplier Medchal (HMTV, sensitive, accused not named), Tirupati/Chittoor/Annamayya ZP chairs (Hans, late-found 03:30). Duplicates: Hans NDA sweeps ZPP chief polls (= 20 Nov 27/28), Siasat Karimnagar bribe (= V6), CleanMax AP (12 Nov, old). Not opened (search did not return article): ABP Desam ZP, Hyderabad Mail Kurnool camcording, NIE TISC pitch decks, The Hindu BM Sandeep, Vaartha Hyd-Karimnagar train, Vaartha AP rain alert, Law Trend AP HC custody, ETV Bharat Kishan Reddy drugs, Disha Bhogapuram, DC APSRTC chairman health, Siasat Ramchander Rao on Rahul. Skipped: entertainment/gossip/lifestyle/sports items. Lang pages, index.html and sitemap.xml reverted."
+  },
+  {
+   "window": "2026-11-21T15:35:00+05:30/2026-11-21T16:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 4,
+   "review": 1,
+   "gaps": "Lookback from 07:35. Feeds 15:42 IST, 70/70 ok, 802 TG/AP flagged uncovered; 28 events first seen since 15:25 reviewed. add_repo not available; used existing clone. Published 3: OU alumna Rhodes Scholarship (Siasat), unsigned letter on Chinna Reddy letterhead, he denies sending (The South First, claim, sensitive), two tankers hit near Oman in Hormuz (Siasat/UKMTO). Review (no original publication time): Free Press Journal/ANI Nitish Setu inauguration; India TV copy not opened. Old: Siasat/FPJ Azharuddin on Siraj (19 Nov). Skipped: Siasat/PTI Latur Tipu rally noise cases (other state, not major), entertainment/lifestyle/sports items. Not opened (search did not return article): The Hindu BM Sandeep, The Hindu Azharuddin, Disha AgriGold bond verification, HMTV Jammikunta, HMTV Vikarabad RRR JAC. Rhodes headline 44 chars (CHECK). Lang pages, index.html and sitemap.xml reverted."
   }
  ],
  "seen": [
@@ -6973,6 +6973,46 @@
    "url": "https://www.pv-magazine-india.com/2026/11/12/cleanmax-commits-inr-50000-crore-to-3-gw-of-renewables-and-storage-to-power-compute-factory-in-andhra-pradesh/",
    "d": "2026-11-21",
    "w": "old"
+  },
+  {
+   "url": "https://www.siasat.com/ou-biomedical-engineering-alumna-wins-rhodes-scholarship-3583182/",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://thesouthfirst.com/telangana/mystery-letter-on-chinna-reddys-letterhead-targets-revanth-reddy-rattles-telangana-congress/",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/two-tankers-hit-within-50-minutes-near-oman-in-strait-of-hormuz-3583202/",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://theprint.in/world/tanker-hit-by-unknown-projectile-near-omans-khasab-ukmto-says/3105012/",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.freepressjournal.in/india/pm-modi-inaugurates-4280-crore-nitish-setu-over-ganga-197-km-bridge-linking-patna-with-vaishali-watch",
+   "d": "2026-11-21",
+   "w": "review"
+  },
+  {
+   "url": "https://www.siasat.com/8-booked-for-noise-pollution-during-tipu-sultans-birthday-rally-3583176/",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/entirely-wrong-decision-sirajs-drop-from-nz-test-draws-veterans-ire-3581395/",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.freepressjournal.in/sports/ind-vs-nz-azharuddin-shastri-jaffer-question-indias-decision-to-bench-siraj-for-wellington-test",
+   "d": "2026-11-21",
+   "w": "skipped"
   }
  ]
 }
