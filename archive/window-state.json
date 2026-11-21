@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T13:05:00+05:30",
+ "cutoff": "2026-11-21T13:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-18T17:05:00+05:30/2026-11-18T17:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 3,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 17:15 IST, 65/68 ok (429: NewsMeter, Narayanpet-en, Kakinada-en). Lookback 09:05. Feed 'covered' flags unreliable: most listed uncovered TG/AP events were already published. Published: OdishaTV Akvan track change (forecast), DC AP medical colleges privatisation stir (claim), DC Kishan Reddy SSC fees 4,741 students. Skipped: GMR aviation hub (13 Nov article). Not opened: India TV Akvan (client error); The Hindu TG rain alert withdrawn, IE TG HC women advocates toilets, TT IIIT flyover, ET AP universities not surfaced by search. District searches (Nizamabad/Adilabad/Nirmal, Nellore/Prakasam, Warangal/Khammam/Mahabubabad, Anantapur/Kurnool, Mahabubnagar/Nalgonda) returned stale tag pages. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-18T17:35:00+05:30/2026-11-18T18:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 04:35. Feeds 12:41 IST, 70/70 ok, 765 TG/AP flagged uncovered (most already published under other URLs). add_repo not available; used existing clone. Published 4: TG SAFE suspends 4 Hyderabad eatery licences (Siasat; TT/DC merged), Cyberabad Municipal Corporation twin-tower office Rs 169 cr (ETV Bharat), egg racket case at Malakpet PS (Siasat, police), Chagal elderly couple die hours apart (Deccan Chronicle). Duplicates: Siasat Hyderabad CP Old City drugs (= 11:05 CP story), TOI Telangana man dies in New York crash (= 11:05 Nalgonda youth), TT gram panchayat finances (= 10:35 KTR RBI report), South First/DC Prakasam crash (= 08:05). Old: Tribune UGC 32 fake universities (Feb 2026), UNI Montek at CII (20 Nov 21:15, before lookback). Skipped: Raja Singh gun remark (inflammatory), Hayathnagar suicide. Not opened: The Hindu Montek / GMC Karimnagar (no search match), India-NZ day 3 stumps (France24 robots, NewsDrum/DH errors), Disha Kasu Mahesh Reddy house arrest (client error), Disha Nandipet demolitions and Manchippa tiger, Prime9 IT minister OSD fraud, AJ Chandrababu fisheries day, Court Book HC divorce (no search match). Direct feed URLs are refused by WebFetch unless they first appear in a WebSearch result. news.json holds 115 stories (check_news reports a trim to 60 but the file stays at 115). Lang pages, index.html and sitemap.xml reverted."
+  },
+  {
+   "window": "2026-11-21T13:05:00+05:30/2026-11-21T13:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 1,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 05:05. Feeds 13:17 IST, 67/68 ok (Mana Telangana failing), 751 TG/AP flagged uncovered (most already published under other URLs). add_repo not available; used existing clone. Published 1: Kamareddy Riyadh drone-attack victim's family seeks aid (Siasat). Old: ProjectsMonitor/TOI PM-SETU Rs 1,011 cr ITI clusters (first published 20 Nov 10:13). Already covered: ETV/AJ live-blog items (IT searches Sneha Group, Tiruvuru tiger, Peru quake, Trump remarks, Prakasam crash). Not opened (no search match): The Hindu Chamala BJP-BRS remark, ETV Bharat AP HC Sirisahasra caste row, Eenadu/AJ Chandrababu local-poll strike rate press meet, Prajasakti Chevireddy Mohit Reddy hunger strike, GK Today Maisamma Gutta rock art. Skipped: TT Hyderabad student death (suicide). Lang pages, index.html and sitemap.xml reverted."
   }
  ],
  "seen": [
@@ -6713,6 +6713,21 @@
    "url": "https://www.uniindia.com/business-economy/industry-cii-conference/252305",
    "d": "2026-11-21",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-kin-seeks-aid-after-man-dies-in-riyadh-airport-attack-3582906/",
+   "d": "2026-11-21",
+   "w": "2026-11-21T13:35"
+  },
+  {
+   "url": "https://www.projectsmonitor.com/daily-wire/apollo-medskills-neuland-foundation-zen-technologies-and-sri-siddhartha-infratech-services-sign-shas-with-government-under-pm-setu-for-rs-1011-crore-iti-transformation-projects-in-telangana/",
+   "d": "2026-11-21",
+   "w": "2026-11-21T13:35"
+  },
+  {
+   "url": "https://telanganatoday.com/student-death-reported-d7eed86e",
+   "d": "2026-11-21",
+   "w": "2026-11-21T13:35"
   }
  ]
 }
