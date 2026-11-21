@@ -1844,7 +1844,11 @@ function wxItem(){ if(!WX||!WX.d) return null; const k0=(prefs&&prefs.place)||'T
   const D=WX.d[k]; if(!D) return null; const b=(WX.bulletins||{})[D.st]||{}; if(b.stale) return null;
   const t=wxToday(), days=(D.days||[]).filter(x=>x.date>=t); if(!days.length||days[0].date!==t) return null;
   const ol=((WX.outlook||{})[D.st])||null, olOk=ol&&ol.to&&ol.to>=t;
-  return {kind:'wx', h:'weather', url:'https://swipe2news.com/#wx-'+k+'-'+t, k, picked, days:days.slice(0,4), b, ol:olOk?ol:null, warn:((WX.warnings||{})[D.st]||[])}; }
+  return {kind:'wx', h:'weather', url:'https://swipe2news.com/#wx-'+k+'-'+t, k, picked, days:days.slice(0,4), b, ol:olOk?ol:null, warn:wxWarnFor(D.st,k)}; }
+/* owner 21 Nov 2026: only the warnings for the reader's own district (and not past ones) – the full state list pushed the forecast and share buttons off the card */
+function wxW(w,l){ let x=w[l]||w.te||w.en||''; if(!Array.isArray(w.districts)||!w.districts.length) return x; // the card is already about one district: drop the long district list
+  if(l==='en') return x.replace(/ in [A-Z][^:]*$/,''); if(l==='hi') return x.replace(/:\s[^:]*?\sमें\s/,': '); return x.replace(/:\s[^:]*?జిల్లాల్లో\s*/,': '); }
+function wxWarnFor(st,k){ const t=new Date(Date.now()+5.5*36e5).toISOString().slice(0,10); return ((WX.warnings||{})[st]||[]).filter(w=>(!w.date||w.date>=t)&&(!Array.isArray(w.districts)||!w.districts.length||w.districts.includes(k))).slice(0,1); }
 function wxKind(x){ const r=+x.rain||0; if(r>=64.5) return ['heavy','⛈️']; if(r>=15.6) return ['mod','🌧️']; if(r>=2.5) return ['light','🌦️']; if(r>0) return ['drizzle','🌦️']; if(x.cloud>=6) return ['cloudy','☁️']; if(x.cloud>=3) return ['part','⛅']; return ['clear','☀️']; }
 function wxHTML(s,i){ const l=TLG()?'en':LG(), T=WXT[l]||WXT.te, d0=s.days[0], [kk,ic]=wxKind(d0);
   const dlab=(x,n)=>{ if(n===0) return T.today; if(n===1) return T.tom; const dt=new Date(x.date+'T12:00:00+05:30'); return T.wd[dt.getDay()]; };
@@ -1861,7 +1865,7 @@ function wxHTML(s,i){ const l=TLG()?'en':LG(), T=WXT[l]||WXT.te, d0=s.days[0], [
    <div class="wxplace"><h3>${esc(dist)}</h3><small>${esc(dlab(d0,0))}, ${esc(dshort(d0.date))} · ${esc(T.src)}: ${esc(cr)} · ${esc(T.note)}</small></div>
    <div class="wxmain"><div class="wxdeg">${Math.round(d0.tmax)}<sup>°</sup></div><div class="wxcond"><span class="ic">${ic}</span><b>${esc(T.d[kk])}</b><small>${esc(T.hi)} ${Math.round(d0.tmax)}° · ${esc(T.lo)} ${Math.round(d0.tmin)}°</small></div></div>
    <div class="wxstats"><div><small>${esc(T.hum)}</small><b>${d0.ham}%</b></div><div><small>${esc(T.wind)}</small><b>${Math.round(d0.wind)} <i>${esc(T.kmh)}</i></b></div><div><small>${esc(T.rain)}</small><b>${d0.rain} <i>${esc(T.mm)}</i></b></div></div>
-   ${s.warn&&s.warn.length?`<div class="wxwarn">⚠️ <b>${esc(T.warn)}:</b> ${esc(s.warn.map(w=>w[l]||w.te||w.en||'').join(' · '))}</div>`:(tip?`<div class="wxtip">${esc(tip)}</div>`:'')}
+   ${s.warn&&s.warn.length?`<div class="wxwarn">⚠️ <b>${esc(T.warn)}:</b> ${esc(s.warn.map(w=>wxW(w,l)).join(' · '))}</div>`:(tip?`<div class="wxtip">${esc(tip)}</div>`:'')}
    <div class="wxlist">${s.days.map((x,n)=>{ const [k2,i2]=wxKind(x); return `<div><span class="d">${esc(dlab(x,n))}</span><span class="i">${i2}</span><span class="c">${esc(T.d[k2])}</span><span class="t"><b>${Math.round(x.tmax)}°</b> ${Math.round(x.tmin)}°</span></div>`; }).join('')}</div>
    ${s.ol&&(s.ol[l]||s.ol.te)?`<div class="wxol">📅 ${esc(s.ol[l]||s.ol.te)}</div>`:''}
    ${s.picked?'':`<p class="wxpick">📍 ${esc(T.pick)}</p>`}
@@ -1873,7 +1877,7 @@ function wxShareText(s){ const l=TLG()?'en':LG(), T=WXT[l]||WXT.te; const dist=l
   const dshort=x=>{ const m=/^\d{4}-(\d\d)-(\d\d)$/.exec(x||''); return m?(+m[2])+' '+T.mon[+m[1]-1]:''; };
   const L=[`${wxKind(s.days[0])[1]} ${dist} ${T.t} – ${dshort(s.days[0].date)}`];
   s.days.slice(0,3).forEach((x,n)=>{ const [k2,i2]=wxKind(x); L.push(`${n===0?T.today:n===1?T.tom:dshort(x.date)}: ${Math.round(x.tmax)}° / ${Math.round(x.tmin)}° · ${T.d[k2]} ${i2}`); });
-  if(s.warn&&s.warn.length) L.push('⚠️ '+s.warn.map(w=>w[l]||w.te||'').join(' · '));
+  if(s.warn&&s.warn.length) L.push('⚠️ '+s.warn.map(w=>wxW(w,l)).join(' · '));
   if(s.ol&&(s.ol[l]||s.ol.te)) L.push('📅 '+(s.ol[l]||s.ol.te));
   L.push('',`${T.src}: IMD · Swipe2News`,'👉 https://swipe2news.com/?cards=1');
   return L.join('\n'); }
@@ -2156,6 +2160,11 @@ function statFit(c){ const b=c.querySelector('.s2n .bkw'); if(!b) return; const 
 try{ document.fonts&&document.fonts.ready.then(()=>setTimeout(()=>document.querySelectorAll('.story.s2n').forEach(c=>{ try{ oneLine(c); statFit(c); srcFit(c); locFit(c); }catch(e){} }),50)); }catch(e){}
 /* owner 16 Nov: a place name that does not fit in the top row is hidden, never shown half ('ఉస్మా…') */
 /* daily cards (money lesson, good word…): shrink the text until everything fits – no inner scrolling */
+/* weather card: the Share / WhatsApp buttons must always show – drop the least important parts first (owner 21 Nov 2026) */
+function wxFit(c){ const b=c.querySelector('.wxbody'); if(!b) return; const list=c.querySelector('.wxlist');
+  const parts=[c.querySelector('.wxol'), list&&list.firstElementChild, c.querySelector('.wxtip'), list].filter(Boolean);
+  parts.forEach(e=>e.style.display=''); const over=()=>b.scrollHeight>b.clientHeight+1;
+  for(const e of parts){ if(!over()) break; e.style.display='none'; } }
 function dlyFit(c){ const b=c.querySelector('.dbody'); if(!b) return; const els=[...b.querySelectorAll('.dtx,.dtt,.dby,.dnf,.dsrc,.dact,p,small')]; els.forEach(e=>e.style.removeProperty('font-size')); b.style.removeProperty('gap');
   const over=()=>b.scrollHeight>b.clientHeight+1; let k=0; if(over()) b.style.setProperty('gap','8px','important');
   while(over()&&k<14){ k++; els.forEach(e=>{ const f=parseFloat(getComputedStyle(e).fontSize)||16; e.style.setProperty('font-size',Math.max(11,f*0.94)+'px','important'); }); } }
@@ -2165,6 +2174,7 @@ function phShape(c){ c.querySelectorAll('.bnr img.ph').forEach(im=>{ const go=()
 function fit(c){ // make the card fit the screen: hide the least important parts first
   try{ phShape(c); }catch(e){}
   if(c.classList.contains('dly')){ try{ dlyFit(c); }catch(e){} return; }
+  if(c.classList.contains('wxs')){ try{ wxFit(c); }catch(e){} return; }
   oneLine(c); srcFit(c); statFit(c); locFit(c); c.classList.remove('t1','t2','t3','t4','f60');
   const tx=c.querySelector('.text');
   const over = () => c.scrollHeight > c.clientHeight + 1 || (tx && tx.scrollHeight > tx.clientHeight + 1);
