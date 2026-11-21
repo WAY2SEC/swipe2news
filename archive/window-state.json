@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T12:05:00+05:30",
+ "cutoff": "2026-11-21T12:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-18T16:05:00+05:30/2026-11-18T16:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 7,
-   "late": 1,
-   "sensitive": 3,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 16:14 IST, 70/70 ok. Lookback 08:05. Published: Hans AP semiconductor 80% policy, TT KTR 90 TMC Sagar diversion (claim), NT News Rajagopal Reddy warns Revanth (claim), V6 Bandla Ganesh 1-yr jail Ongole, Oneindia ED fresh Jagan/Dalmia chargesheet, Vaartha Vizag-Yelamanchili e-AC buses, Sakshi Post actress Rs 4.14 lakh ticket fraud (name withheld). Duplicate: Telangana Tribune Singur/Manjeera water crisis (11:27 story). Skipped: Upstox Nov 18 market wrap (2025 article). Not opened: ANI semiconductor, Disha Bandla/Munugode (client error); Rajapet ganja TT not surfaced by search. add_repo not available; used existing clone. District searches: Karimnagar/Peddapalli/Jagtial, Srikakulam/Vizianagaram/Kakinada (stale results)."
-  },
   {
    "window": "2026-11-18T16:35:00+05:30/2026-11-18T17:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 03:35. Feeds 11:41 IST, 70/70 ok, 754 TG/AP flagged uncovered (most top events already published under other URLs). add_repo not available; used existing clone. Published 3: Congress burns Owaisi effigy at Lal Darwaza (Siasat, claim), Kondapur Rs 1 cr funding fraud allegation (Andhra Jyothy flash, claim), Film Chamber piracy complaint to TGCSB (Andhra Jyothy flash, claim). Duplicates: Siasat HC IVF selective action (= 20 Nov HC IVF bail story), Siasat CM Rs 20,000 cr infra review (= 08:35 story), DC NTR tiger panic (= 05:05/10:05 tiger stories), TT HMWSSB 24-hour cut (= 20 Nov). Skipped: AJ flash Yanam JIPMER CT scan (thin), Trump on Jensen Huang (thin). ETV Bharat TG/AP live blogs had nothing after 07:33. Not opened (no search match): ThePrint 400 citizens Global Summit, South First AP HPV coverage, TT US measles, Siasat Parliament unprorogued 100 days, Adilabad Rs 14.36 cr rice mill arrest (Eenadu/HMTV), Vaartha Pochampally tour (already covered 05:05). Lang pages, index.html and sitemap.xml reverted."
+  },
+  {
+   "window": "2026-11-21T12:05:00+05:30/2026-11-21T12:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 3,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 04:05. Feeds 12:29 IST, 68/68 ok, 712 TG/AP flagged uncovered (most already published under other URLs). add_repo not available; used existing clone. Published 3: Telangana 95.28% HPV coverage/AP 100% (DC/PTI), Kesamudram gudumba raids (Andhra Prabha), Invest Telangana summit prep despite appeals (Telangana Today, claim). Duplicates: Siasat SSC 2027 timetable sent for approval (= 20 Nov 'SSC exams likely March 17 or 18'), South First AP HPV (merged into HPV story). Skipped: Andhra Jyothy CM World Fisheries Day greeting (thin). Old: Asianet Kaishika Dwadashi (Nov 2025). Not opened (no search match): The Hindu GMC Karimnagar infra, Siasat egg racket Malakpet, ETV Bharat north TG trains demand, HMTV Kamareddy Ashok Nagar RUB dharna, HMTV Suryapet tippers protest, HMTV Velugumatla Justice Chandrakumar, Indian Express Cyclone Akvan weakening, TT India 118-run lead. District searches (Adilabad, Srikakulam, Nizamabad, Anantapur) returned only tag pages. Lang pages, index.html and sitemap.xml reverted."
   }
  ],
  "seen": [
@@ -6636,6 +6636,41 @@
   },
   {
    "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-21st-november-2026-3720.html#jensen-0933",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-achieves-9528-hpv-vaccination-coverage-among-girls-2006549",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://prabhanews.com/police-crackdown-on-gudumba-manufacturing/",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-government-presses-ahead-with-global-summit-821d53ed",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-ssc-exams-2027-timetable-sent-for-approval-3582775/",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://thesouthfirst.com/health/andhra-pradesh-achieves-full-hpv-vaccination-coverage-as-india-crosses-one-crore-dose-mark/",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/krishna/chandrababu-world-fisheries-day-message-suchi-1578477.html",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://newsable.asianetnews.com/amp/india/tirumala-rare-ugra-srinivasa-murthy-procession-for-dwadashi-articleshow-qlw7sct",
    "d": "2026-11-21",
    "w": "skipped"
   }
