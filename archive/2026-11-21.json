@@ -1,8 +1,227 @@
 {
  "date": "21.11.2026",
  "iso": "2026-11-21",
- "count": 147,
+ "count": 151,
  "stories": [
+  {
+   "cat": "హైదరాబాద్ · నేరం",
+   "col": "--c-city",
+   "pic": "c/crime",
+   "stat": "ఆరుగురు",
+   "statl": "నిందితుల అరెస్టు",
+   "h": "గాంధీ ఆసుపత్రిలో శిశువు అపహరణ",
+   "p": "సికింద్రాబాద్ గాంధీ ఆసుపత్రిలో పుట్టిన ఏడు రోజుల ఆడ శిశువును ఓ ముఠా అపహరించిందని పోలీసులు తెలిపారు. మూడో సంతానం కూడా ఆడపిల్ల కావడంతో డబ్బులు వస్తాయని తల్లిని నమ్మించి శిశువును తీసుకెళ్లారని పోలీసుల ప్రకారం. కేసు నమోదైన కొన్ని గంటల్లోనే ఆరుగురిని అరెస్టు చేశారు. శిశువును ₹1 లక్షకు విక్రయించినట్లు గుర్తించారు.",
+   "pts": [
+    "సికింద్రాబాద్ డీసీపీ పర్యవేక్షణలో దర్యాప్తు",
+    "నిందితులను పోలీసులు ఇంకా విచారిస్తున్నారు"
+   ],
+   "why": "ప్రభుత్వ ఆసుపత్రుల్లో నవజాత శిశువుల భద్రత గురించి తల్లిదండ్రులు తెలుసుకోవాల్సిన విషయం ఇది.",
+   "src": "Andhra Jyothy",
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/gandhi-hospital-newborn-kidnapping-case-1578520.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "సికింద్రాబాద్",
+   "pub": "2026-11-21T16:47+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Crime",
+    "stat": "Six",
+    "statl": "accused arrested",
+    "loc": "Secunderabad",
+    "h": "Newborn taken from Gandhi Hospital; six held",
+    "p": "Police said a gang abducted a seven-day-old baby girl born at Gandhi Hospital in Secunderabad. According to police, they convinced the mother that she would get money because her third child was also a girl, and then took the baby. Six people were arrested within hours of the case being registered. Police found the baby had been sold for ₹1 lakh.",
+    "pts": [
+     "Investigation supervised by the Secunderabad DCP",
+     "Police are still questioning the accused"
+    ],
+    "why": "Parents need to know about the safety of newborns in government hospitals."
+   },
+   "hi": {
+    "cat": "हैदराबाद · अपराध",
+    "stat": "छह",
+    "statl": "आरोपी गिरफ्तार",
+    "loc": "सिकंदराबाद",
+    "h": "गांधी अस्पताल से नवजात अगवा, छह गिरफ्तार",
+    "p": "पुलिस के अनुसार सिकंदराबाद के गांधी अस्पताल में जन्मी सात दिन की बच्ची को एक गिरोह ने अगवा किया। पुलिस का कहना है कि तीसरी संतान भी बेटी होने पर पैसे मिलने का भरोसा दिलाकर वे मां से बच्ची ले गए। केस दर्ज होने के कुछ घंटों में छह लोग गिरफ्तार हुए। पुलिस ने पाया कि बच्ची को ₹1 लाख में बेचा गया।",
+    "pts": [
+     "सिकंदराबाद डीसीपी की निगरानी में जांच",
+     "पुलिस आरोपियों से अभी पूछताछ कर रही है"
+    ],
+    "why": "सरकारी अस्पतालों में नवजातों की सुरक्षा के बारे में माता-पिता के लिए यह जानना ज़रूरी है।"
+   },
+   "d": "21.11.2026",
+   "t": "17:35"
+  },
+  {
+   "cat": "తెలంగాణ · సైబర్ నేరాలు",
+   "col": "--c-city",
+   "pic": "c/cyber",
+   "stat": "ఇద్దరు",
+   "statl": "విద్యార్థుల అరెస్టు",
+   "h": "సినిమా పైరసీ కేసులో ఇద్దరి అరెస్టు",
+   "p": "కర్నూలులోని ఓ మల్టీప్లెక్స్‌లో కొత్త సినిమాలను సెల్‌ఫోన్లతో రికార్డు చేసి పైరసీ సైట్లకు చేరవేసిన 19 ఏళ్ల ఇద్దరు విద్యార్థులను తెలంగాణ సైబర్ సెక్యూరిటీ బ్యూరో నవంబర్ 20న అరెస్టు చేసింది. ఒక్కో సినిమాకు ₹20 వేలు క్రిప్టోకరెన్సీలో అందినట్లు పోలీసులు తెలిపారు. ప్రధాన నిందితుడితో పాటు ఇతర సభ్యుల కోసం గాలిస్తున్నారు.",
+   "pts": [
+    "మూడు సెల్‌ఫోన్లు స్వాధీనం",
+    "యాంటీ పైరసీ యూనిట్ ఇప్పటివరకు 42,151 లింకులు బ్లాక్ చేసింది",
+    "పైరసీ సైట్ల ద్వారా బెట్టింగ్ యాప్‌ల ప్రచారం జరిగిందని పోలీసులు"
+   ],
+   "why": "కొత్త సినిమాల పైరసీతో తెలుగు సినీ పరిశ్రమకు జరుగుతున్న నష్టాన్ని అరికట్టే చర్య ఇది.",
+   "src": "Siasat",
+   "url": "https://www.siasat.com/teens-film-movies-inside-theatres-for-piracy-sites-held-by-tgcsb-3583271/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "కర్నూలు",
+   "pub": "2026-11-21T17:07+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Cybercrime",
+    "stat": "Two",
+    "statl": "students arrested",
+    "loc": "Kurnool",
+    "h": "Two students held for film piracy",
+    "p": "The Telangana Cyber Security Bureau arrested two 19-year-old students on November 20 for recording new films on mobile phones inside a Kurnool multiplex and passing them to piracy sites. Police said they received ₹20,000 per film in cryptocurrency. A search is on for the prime accused and other members.",
+    "pts": [
+     "Three mobile phones seized",
+     "The Anti-Piracy Unit has blocked 42,151 links so far",
+     "Police say piracy sites promoted betting apps"
+    ],
+    "why": "The action targets piracy of new films, which causes losses to the Telugu film industry."
+   },
+   "hi": {
+    "cat": "तेलंगाना · साइबर अपराध",
+    "stat": "दो",
+    "statl": "छात्र गिरफ्तार",
+    "loc": "कर्नूल",
+    "h": "फिल्म पायरेसी में दो छात्र गिरफ्तार",
+    "p": "तेलंगाना साइबर सुरक्षा ब्यूरो ने 20 नवंबर को 19 साल के दो छात्रों को गिरफ्तार किया, जिन पर कर्नूल के एक मल्टीप्लेक्स में मोबाइल से नई फिल्में रिकॉर्ड कर पायरेसी साइटों तक पहुंचाने का आरोप है। पुलिस के अनुसार हर फिल्म के ₹20,000 क्रिप्टोकरेंसी में मिले। मुख्य आरोपी और अन्य सदस्यों की तलाश जारी है।",
+    "pts": [
+     "तीन मोबाइल फोन जब्त",
+     "एंटी-पायरेसी यूनिट अब तक 42,151 लिंक ब्लॉक कर चुकी है",
+     "पुलिस के अनुसार पायरेसी साइटों पर सट्टेबाजी ऐप का प्रचार"
+    ],
+    "why": "यह कार्रवाई नई फिल्मों की पायरेसी रोकने के लिए है, जिससे तेलुगु फिल्म उद्योग को नुकसान होता है।"
+   },
+   "d": "21.11.2026",
+   "t": "17:35"
+  },
+  {
+   "cat": "ఏపీ · పెట్టుబడులు",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "c/business",
+   "stat": "₹38,362 కోట్లు",
+   "statl": "ప్రతిపాదనలు",
+   "h": "ఏపీకి ₹38,362 కోట్ల పెట్టుబడి ప్రతిపాదనలు",
+   "p": "రాష్ట్ర పెట్టుబడుల ప్రోత్సాహక కమిటీ నవంబర్ 20న అమరావతి సచివాలయంలో సమావేశమైంది. కియా, అదానీ, సెయింట్ గోబెయిన్ సహా పలు సంస్థలు మొత్తం ₹38,362 కోట్ల ప్రతిపాదనలు సమర్పించాయి. వీటితో సుమారు 20,398 మందికి ఉద్యోగాలు వస్తాయని అంచనా. కియా రెండో కార్ల ప్లాంటుకు ₹19,000 కోట్లు, 12,000 ఉద్యోగాలు ప్రతిపాదించింది.",
+   "pts": [
+    "శ్రీకాకుళంలో అదానీ టైటానియం కాంప్లెక్స్‌కు ₹13,667 కోట్లు",
+    "అచ్యుతాపురంలో గాజు ప్లాంటుకు ₹1,800 కోట్లు",
+    "బేతంచర్లలో 210 మెగావాట్ల పవన విద్యుత్ ప్రాజెక్టు"
+   ],
+   "why": "ఈ ప్రాజెక్టులు అమలైతే పలు జిల్లాల్లో యువతకు ఉద్యోగ అవకాశాలు పెరుగుతాయి.",
+   "src": "ETV Bharat",
+   "url": "https://www.etvbharat.com/en/business/andhra-pradesh-attracts-rs-38362-crore-investment-proposals-from-adani-kia-saint-gobain-20398-jobs-expected-enn26112102703",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "pub": "2026-11-21T14:20+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Investments",
+    "stat": "₹38,362 crore",
+    "statl": "investment proposals",
+    "loc": "Andhra Pradesh",
+    "h": "AP gets ₹38,362 crore investment proposals",
+    "p": "Andhra Pradesh's State Investment Promotion Committee met at the Secretariat on November 20. Companies including Kia, Adani and Saint-Gobain submitted proposals worth ₹38,362 crore in all, expected to create about 20,398 jobs. Kia proposed ₹19,000 crore and 12,000 jobs for a second car plant.",
+    "pts": [
+     "₹13,667 crore for an Adani titanium complex in Srikakulam",
+     "₹1,800 crore for a glass plant at Achyutapuram",
+     "210 MW wind power project at Bethamcherla"
+    ],
+    "why": "If implemented, these projects would add job openings for young people in several districts."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · निवेश",
+    "stat": "₹38,362 करोड़",
+    "statl": "निवेश प्रस्ताव",
+    "loc": "आंध्र प्रदेश",
+    "h": "आंध्र को ₹38,362 करोड़ के निवेश प्रस्ताव",
+    "p": "आंध्र प्रदेश की राज्य निवेश प्रोत्साहन समिति की बैठक 20 नवंबर को सचिवालय में हुई। किआ, अदाणी और सेंट-गोबेन समेत कई कंपनियों ने कुल ₹38,362 करोड़ के प्रस्ताव रखे, जिनसे करीब 20,398 नौकरियों की उम्मीद है। किआ ने दूसरे कार संयंत्र के लिए ₹19,000 करोड़ और 12,000 नौकरियों का प्रस्ताव दिया।",
+    "pts": [
+     "श्रीकाकुलम में अदाणी टाइटेनियम परिसर के लिए ₹13,667 करोड़",
+     "अच्युतापुरम में कांच संयंत्र के लिए ₹1,800 करोड़",
+     "बेतमचेरला में 210 मेगावाट पवन ऊर्जा परियोजना"
+    ],
+    "why": "ये परियोजनाएं लागू हुईं तो कई जिलों में युवाओं के लिए नौकरी के अवसर बढ़ेंगे।"
+   },
+   "d": "21.11.2026",
+   "t": "17:35"
+  },
+  {
+   "cat": "ఏపీ · ఖనిజాలు",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "c/business",
+   "stat": "₹40,050 కోట్లు",
+   "statl": "ఏటా ఆదాయ లక్ష్యం",
+   "h": "ఏపీ ఖనిజ ఆదాయ లక్ష్యం ₹40,050 కోట్లు",
+   "p": "ఆరు రకాల ఖనిజాల తవ్వకాల విస్తరణ ప్రణాళికకు సీఎం చంద్రబాబు నాయుడు ఆమోదం తెలిపారని ఈటీవీ భారత్ తెలిపింది. 2030–31 నాటికి ఏపీ ఖనిజాభివృద్ధి సంస్థ ఏటా ₹40,050 కోట్ల ఆదాయం లక్ష్యంగా పెట్టుకుంది. ప్రస్తుతం ఈ ఆదాయం ₹3,000 కోట్ల లోపే ఉంది. ప్రైవేట్ సంస్థలతో జాయింట్ వెంచర్ల ద్వారా విస్తరిస్తారు.",
+   "pts": [
+    "బీచ్ శాండ్ ఖనిజాల నుంచే ₹16,750 కోట్లు అంచనా",
+    "2027 డిసెంబర్ నాటికి స్టాక్ మార్కెట్ లిస్టింగ్ లక్ష్యం",
+    "మోనజైట్ కోసం కొత్త అరుదైన ఖనిజాల కార్పొరేషన్"
+   ],
+   "why": "తీర ప్రాంతం, గిరిజన ప్రాంతాల్లో తవ్వకాలు పెరిగితే అక్కడి ప్రజలపై ప్రభావం ఉంటుంది.",
+   "src": "ETV Bharat",
+   "url": "https://www.etvbharat.com/en/state/andhra-pradesh-targets-rs-40050-cr-annual-mining-revenue-plans-apmdc-ipo-listing-by-dec-2027-enn26112102915",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "pub": "2026-11-21T15:39+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Minerals",
+    "stat": "₹40,050 crore",
+    "statl": "yearly mining revenue target",
+    "loc": "Andhra Pradesh",
+    "h": "APMDC targets ₹40,050 crore mining revenue",
+    "p": "ETV Bharat reported that Chief Minister Chandrababu Naidu approved a plan to expand mining across six mineral categories. The AP Mineral Development Corporation aims for ₹40,050 crore a year in revenue by 2030-31, against under ₹3,000 crore now. Expansion will be through joint ventures with private firms.",
+    "pts": [
+     "Beach sand minerals alone estimated at ₹16,750 crore",
+     "Stock market listing targeted by December 2027",
+     "A new rare earths corporation planned for monazite"
+    ],
+    "why": "More mining in coastal and tribal areas would affect people living there."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · खनिज",
+    "stat": "₹40,050 करोड़",
+    "statl": "सालाना खनन आय लक्ष्य",
+    "loc": "आंध्र प्रदेश",
+    "h": "एपीएमडीसी का खनन आय लक्ष्य ₹40,050 करोड़",
+    "p": "ईटीवी भारत के अनुसार मुख्यमंत्री चंद्रबाबू नायडू ने छह तरह के खनिजों के खनन विस्तार की योजना को मंजूरी दी। आंध्र प्रदेश खनिज विकास निगम ने 2030-31 तक सालाना ₹40,050 करोड़ आय का लक्ष्य रखा है, जबकि अभी यह ₹3,000 करोड़ से कम है। विस्तार निजी कंपनियों के साथ संयुक्त उद्यमों से होगा।",
+    "pts": [
+     "केवल बीच सैंड खनिजों से ₹16,750 करोड़ का अनुमान",
+     "दिसंबर 2027 तक शेयर बाजार में लिस्टिंग का लक्ष्य",
+     "मोनाजाइट के लिए नया दुर्लभ खनिज निगम प्रस्तावित"
+    ],
+    "why": "तटीय और आदिवासी इलाकों में खनन बढ़ने का असर वहां के लोगों पर पड़ेगा।"
+   },
+   "d": "21.11.2026",
+   "t": "17:35"
+  },
   {
    "cat": "హైదరాబాద్ · విశ్వవిద్యాలయం",
    "col": "--c-gov",
