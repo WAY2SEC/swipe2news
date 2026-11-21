@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T14:35:00+05:30",
+ "cutoff": "2026-11-21T15:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-18T18:35:00+05:30/2026-11-18T19:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 3,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Feeds 18:42 IST, 69/70 ok (BIG TV failing). Lookback 10:35. Feed 'covered' flags unreliable. Published: TT Khelo India logo unveiled in Khammam (Dec 11-22), INDToday AICC in-charge BM Sandeep visit Nov 22, DC MMC commissioner Ghatkesar inspection (late, 16:58). Duplicates: INDToday SIR key dates (covered 17 Nov Siasat Dec 22 final roll), DC Quthbullapur flat fire (= TT Pet Basheerabad fire). Not opened (fetch permission timeout): DC PRTS review, DC spurious liquor racket, DC Maheshwar Reddy Bharat Summit. Old/out of lookback: LiveLaw Gadwal court washrooms (17 Nov), SCMP Xi-Trump-Putin Shenzhen trilateral (announced 16 Nov), ThePrint Naidu thanks Karnataka (3 Nov). Not surfaced: Pileru accident, Khanapur PDS rice, Vikarabad castor poisoning, Iran 13 workers, Agnikul Tirupati. District searches (Khammam, Srikakulam/Vizianagaram, Kamareddy/Nizamabad, Tirupati/Chittoor, Kakinada, Nalgonda/Suryapet, Wanaparthy/Gadwal/Narayanpet, Ongole/Nellore) stale. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-18T19:05:00+05:30/2026-11-18T19:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 06:05. Feeds 14:34 IST, 70/70 ok, 781 TG/AP flagged uncovered; 113 events first seen since 13:35 reviewed. add_repo not available; used existing clone. Published 6: Pulse polio 5 districts Sunday (DC), Laxmipur panchayat secretary ACB trap (V6), live round in bag at RGIA (DC), Mahesh Kumar Goud BRS corruption claim (NewsMeter Telugu), India 1 crore HPV doses (ETV Bharat, late-found 12:03), MEA rejects USCIRF SIR charge (Scroll). Old: DC pulse polio 13 Nov, TT ACB Karimnagar Oct 2025, Hans Doval summons 19 Nov, Gulf News RGIA Oct, DC Gandhi IVF 19 Nov, Hans Kurnool/Kadapa nomination checks 17 Nov, DC Nandigama fire 13 Nov. Duplicates: Siasat Telangana exports (= DC 20 Nov), tiger NTR district. Not opened: ANI HPV (client error). Skipped: Siasat Hayathnagar suicide, entertainment items. Lang pages, index.html and sitemap.xml reverted."
+  },
+  {
+   "window": "2026-11-21T14:35:00+05:30/2026-11-21T15:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 4,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Lookback from 06:35. Feeds 14:43 IST, 70/70 ok, 797 TG/AP flagged uncovered; 42 events first seen since 14:20 reviewed. add_repo not available; used existing clone. Published 4: Chandrababu 90% strike-rate claim (Andhra Jyothy, late-found 12:25, claim), Ramchander Rao on Meta protest (News Mill/ANI, claim), Google $5M for IIT Kharagpur (Hans India), Bitcoin two-year low (Outlook Money). Old: ThePrint/PTI Naidu local polls (9 Nov), PIB PRID 2272392 (IMA parade, June). Duplicates: Inshorts ED Rekha Naik (= 20 Nov), NIE HPV 1 crore, DC RGIA ammunition. Not opened (search did not return the article): PIB President at Indian Naval Academy parade, NTV Chandrababu on BJP seats, Prabha News Nandyal SP nomination checks, Disha Medchal Chinese manja, Education Times NID AP AAKRUTI, HMTV Gudihathnoor/Bazarhathnoor/Basara, TV9 kidney donor accident. Skipped: Siasat Hayathnagar suicide, VHP Ramayana film ban demand, entertainment/lifestyle items. Lang pages, index.html and sitemap.xml reverted."
   }
  ],
  "seen": [
@@ -6888,6 +6888,61 @@
    "url": "https://aninews.in/news/national/general-news/india-crosses-historic-milestone-of-1-crore-hpv-vaccine-doses-administered-in-less-than-9-months20261121114554/",
    "d": "2026-11-21",
    "w": "2026-11-21T14:35"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/guntur/ap-cm-chandrababu-naidu-addresses-media-after-nda-alliance-big-win-in-local-elections-vk-1578489.html",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://thenewsmill.com/2026/11/telangana-bjp-chief-condemns-congress-over-meta-protest-as-goondaism/",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/tech/google-grants-5-million-to-iit-kharagpur-for-ai-research-1144342",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.outlookmoney.com/invest/bitcoin-drops-around-usd-56000-hits-lowest-level-in-over-two-years",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/cm-chandrababu-commends-alliance-leaders-on-in-local-body-elections-1144334",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/bjp-slams-congress-over-vandalism-at-meta-offices-3582834/",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/cm-chandrababu-naidu-on-ap-local-body-polls-and-election-result-aps26112102602",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://theprint.in/india/andhra-cm-thanks-nda-coalition-cadres-for-victory-in-local-body-polls/3094173/",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2272392",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/vhp-seeks-ban-on-ramayana-accuses-makers-of-glorifying-ravana-3583039/",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/scolded-over-phone-use-hayathnagar-woman-mom-of-2-ends-life-3582967/",
+   "d": "2026-11-21",
+   "w": "skipped"
   }
  ]
 }
