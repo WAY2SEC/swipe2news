@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T11:35:00+05:30",
+ "cutoff": "2026-11-21T12:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-18T15:35:00+05:30/2026-11-18T16:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 1,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Feeds 15:59 IST, 69/70 ok. Lookback 07:35. Published: NewsMeter Snapchat drug ring (EAGLE, 3 held), HMTV Burgampahad alli roots (5 held). Not opened (fetch refused/permission timeout): The Hindu Vizag semiconductor plant, Siasat Nepal power import, Siasat Chanda Kochhar HC, Disha alli roots; AP semiconductor policy, KTR Sagar, Komatireddy vs Revanth, Visakha e-buses, Satya Sai trains not found via search. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-18T16:05:00+05:30/2026-11-18T16:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 6,
    "review": 1,
    "gaps": "Lookback from 03:05. Feeds 11:21 IST, 68/68 ok, 715 TG/AP flagged uncovered (most top events already published under other URLs). add_repo not available; used existing clone. Published 2: Jagtial man stranded in Oman (Siasat, claim), Yemen airstrikes 41 dead per Houthis (Telangana Today/IANS, claim). Duplicate: Kondagattu nijaroopa darshan (= 20 Nov story). Skipped (published before lookback or old): Hans Goshamahal tankers (18 Nov), Hans Guntur poll arrangements (17 Nov), DC ED liquor bail plea (13 Nov), DC SEC fair polls (14 Nov), Hans AP Rs 1,011 cr hospital upgrade (20 Nov 04:47), ThePrint Nepal PM visit (20 Nov 15:18). Review (only updated time): Hans Kondagattu 1142430. Not opened (no search match): Kamareddy pole collapse death, Kurnool mall film piracy (NIE), Telangana cold wave (Disha/Vaartha), ETV Bharat Hyderabad borewells, Kadapa school occult row (NewsMeter), Miss Telangana runner-up, Rangareddy hostel student death (DC), INCOIS La Nina. Lang pages, index.html and sitemap.xml reverted."
+  },
+  {
+   "window": "2026-11-21T11:35:00+05:30/2026-11-21T12:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 2,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 03:35. Feeds 11:41 IST, 70/70 ok, 754 TG/AP flagged uncovered (most top events already published under other URLs). add_repo not available; used existing clone. Published 3: Congress burns Owaisi effigy at Lal Darwaza (Siasat, claim), Kondapur Rs 1 cr funding fraud allegation (Andhra Jyothy flash, claim), Film Chamber piracy complaint to TGCSB (Andhra Jyothy flash, claim). Duplicates: Siasat HC IVF selective action (= 20 Nov HC IVF bail story), Siasat CM Rs 20,000 cr infra review (= 08:35 story), DC NTR tiger panic (= 05:05/10:05 tiger stories), TT HMWSSB 24-hour cut (= 20 Nov). Skipped: AJ flash Yanam JIPMER CT scan (thin), Trump on Jensen Huang (thin). ETV Bharat TG/AP live blogs had nothing after 07:33. Not opened (no search match): ThePrint 400 citizens Global Summit, South First AP HPV coverage, TT US measles, Siasat Parliament unprorogued 100 days, Adilabad Rs 14.36 cr rice mill arrest (Eenadu/HMTV), Vaartha Pochampally tour (already covered 05:05). Lang pages, index.html and sitemap.xml reverted."
   }
  ],
  "seen": [
@@ -6593,6 +6593,51 @@
    "url": "https://www.thehansindia.com/news/cities/karimnagar/kondagattu-temple-set-for-rare-chandanotsavam-after-60-years-1141572",
    "d": "2026-11-21",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/congress-burns-owaisi-effigy-over-remarks-on-kota-neelima-3582784/",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-21st-november-2026-3720.html#fraud-0954",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-21st-november-2026-3720.html#piracy-0944",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-hc-questions-selective-action-on-hyderabad-ivf-centres-3582705/",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-cm-reviews-proposed-rs-20000-cr-infra-projects-3582718/",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/tiger-sighting-triggers-panic-in-villages-of-ntr-district-2006528",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/hyderabad-congress-burns-owaisis-effigy-demands-apology-to-neelima-1144253",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-21st-november-2026-3720.html#yanam-0942",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-21st-november-2026-3720.html#jensen-0933",
+   "d": "2026-11-21",
+   "w": "skipped"
   }
  ]
 }
