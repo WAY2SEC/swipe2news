@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T17:35:00+05:30",
+ "cutoff": "2026-11-21T18:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-18T21:35:00+05:30/2026-11-18T22:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 5,
-   "late": 2,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 5,
-   "review": 0,
-   "gaps": "Feeds 21:47 IST, 70/70 ok. Lookback 13:35. Published: TT TGPSC Rs500 per answer-key objection (20:55), Siasat Raj Gopal Reddy slams CM (21:24, claim), TT Nizampet liquor adulteration arrest (20:23, sensitive, accused not named), DC CS reviews 35-km PRTS (16:18, late), SSBCrack Hakimpet 23 helicopters (15:50, late). Duplicates: Khammam sarpanch bribe (=Mahabubabad sarpanch ACB), Siasat TG cops farmhouse dance (=Bellampalli), Indiramma insurance launch (=CM Siddipet visit). Skipped as old: ThePrint AP CM thanks Karnataka (3 Nov), Outlook Traveller Akvan (16 Nov), ThePrint Trump-Xi-Putin (14 Nov), DC Ponguleti (30 Oct), TT ACP medal (2023). Not opened (search did not surface; domain-filtered searches rejected): Hindu Akvan path uncertainty, Hindu schools El Nino drive, Hindu CM SC/ST welfare, Hindu Ponguleti BRS, DC Kadapa violence, TV9 Tirumala ghee, Reuters CEA growth. District searches not done (time). add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-18T22:05:00+05:30/2026-11-18T22:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 0,
    "gaps": "Lookback from 09:05. Feeds 17:12 IST, 70/70 ok, 883 TG/AP flagged uncovered; 61 events first seen since 16:40 reviewed. add_repo not available; used existing clone. Published 4: Gandhi Hospital newborn abduction, six held (Andhra Jyothy, sensitive, police), TGCSB arrests two Kurnool students for film piracy (Siasat), AP SIPC Rs 38,362 cr proposals (ETV Bharat), APMDC Rs 40,050 cr mining revenue target (ETV Bharat). Not opened: Sakshi Education PJTAU 566 faculty posts (fetch 4xx; Hyderabad Mail copy not found), The Hindu TISC 1,000 proposals, Eenadu OU Rs 480 cr (no alternate found), ETV Grindr robbery Vijayawada, TT Odissi Utsav. Skipped: entertainment, devotional, recipes, sports, other-state items, BRS party calls. Lang pages, index.html and sitemap.xml reverted."
+  },
+  {
+   "window": "2026-11-21T17:35:00+05:30/2026-11-21T18:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 9,
+   "published": 9,
+   "late": 7,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 7,
+   "skipped": 5,
+   "review": 0,
+   "gaps": "Lookback from 09:35. Feeds 18:00 IST, 69/70 ok (topic:world news HTTP 429), 918 TG/AP flagged uncovered; 130 events first seen since 17:05 reviewed. add_repo not available; used existing clone. Published 9: HSRP 7-day order to dealers (V6), Gachibowli job mela Nov 25 (TT), 56 kg chloral hydrate seized at Kandi (Siasat, sensitive), Dixon up to Rs 1,000 cr in AP (The Week), INCOIS to double ocean network (TT), HMDA-HCCB treated water for ORR (TT), Somajiguda heritage building (TT), Manchirevula inscriptions (TT, claim), sit-in seeking Adibatla ACP suspension (DC, sensitive, claim, nobody named). Duplicates: Hafeezpet paint shop fire, AgriGold bond verification, activists committee, Nalgonda youth US crash x2, Disha chloral hydrate, SpiceJet DGCA. Old: NEET charges (18 Nov), Tata Power 800 MW (July). Not opened (search did not return article): ETV Kaleshwaram barrage repairs, News18 AI training 1 lakh, GK Today AP HC Parawada. Skipped: entertainment, devotional, food reviews, sports, party statements, other-state. e/ picture keys rejected by check_news.py; used c/ and n/ keys. Older TG/AP backlog not worked."
   }
  ],
  "seen": [
@@ -7131,6 +7131,126 @@
   },
   {
    "url": "https://education.sakshi.com/telangana-jobs/education-news/pjsau-telangana-agriculture-university-faculty-recruitment-566-posts-notification-202801",
+   "d": "2026-11-21",
+   "w": "not-opened"
+  },
+  {
+   "url": "https://www.v6velugu.com/transport-department-issues-warning-to-bike-and-car-dealers-regarding-high-security-number-plates",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/job-mela-7ac6d9ca",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/56-kgs-of-chloral-hydrate-seized-1-arrested-in-sangareddy-3583306/",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.theweek.in/news/biz-tech/2026/11/21/dixon-technologies-andhra-pradesh-investment.html",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/incois-to-expand-indian-ocean-tracking-f776d052",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/hmda-hccb-to-irrigate-orr-greens-e7dd25af",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/somajiguda-heritage-building-deteriorates-1bd4999a",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/inscriptions-43089c60",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/adibatla-acps-assault-on-ayyappa-swami-sparks-outrage-bjp-demands-suspension-2006623",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/paint-shop-fire-in-hafeezpet-sparks-concern-over-repeated-accidents-3583347/",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOXlRclhZZlI3YU9GWjZUck5KX2RRV01OZ0l3dk9aMGs3LTdablZmaERGOXV6MG9rWkptRXBFemwzVHBLTGtXTnhWc19JVmoyTVlRckpWbnlHTW5OM3FXM0F6MUZhZzdSRnpISjJDaFgzOHZFUFdrOHhqUjdmR1ZlNzZ1OGlmLWgtRzgyMGJZMm15SnQwSGYwTGhrc3JWMm0tU0lmaWJBYldOdXhjV0p6dUN6bU5nLXZFMHROWnlUX2ZSMDFxaE1tWDRBWdIB0AFBVV95cUxNcV9pNmhtT3BiRVVxMk5kSVNsVHZhZTlHX3licDVJN2UxX1RZZEE0WXNwNXh0WVZJZ0pzWTVrNHJZVWJYSVZpY1ZoZFZaVWl3RXlNTG5oUDFaN0FMd1JOVVQtRUQ5dWJyVi1YY0RWMVRvRkRSYzdmb05DM3o4aFhGVUI0YUdJbVpXX0dQS0tGUDhqb1daZ3pMcmpFd1pwUDFWV3BxQnFyVnRweDVtRDc0SThyay1jUHAzMHBUN2RBeFQ3RmdHUmpERFJxbXR4SGFx?oc=5",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYXRHUEI1SXBZb3Z3OE1PeURSYVU5V2Q4NG5oUlB3N2VUTmVRVjlfeDNXZ3dRSlBTbnhGaXN3VjB5RTNqMTJ6dEhRTlI0V3oxWFpFZ0xySDVxekN3WDY5WUtVQzd6cWcwMlJ2dm5BSTNiOG9PN3RWTThlQ1hvdnlLX2NQV0FVTGVQM0x5QU5pVjE2RDNyZVhubV9jR1llRjlLdFczaUFFNXJVNXZYbElSU0NIcmVNUHlzMUlSbVlObmNmMnBsT3VwSXYwWGtkeGlUOU9GUXp1RGbSAd8BQVVfeXFMTmI3UHhDUkJCNWFoYzBoLV8tX3lTSUNFcEtrWjFNdXUtSlc3aDJtUm1nb0EzNXRsejVacnNoMXRpZVRXMG1TREJhbUx5Y0R4ZjlGckVDdTRkM3B4MUx3UzFobmxFb1RDSlRTcTV4MmtuQWszUlJrMkkyekxOVzd0NmVqTk04MURRLXhiWDdNdUpsSWwwbjRGSnJVQXVSak9lUk1pLWg2SUpPMUNDd0pKNDMzRmNZTmlqQU5Qdm01MlBQZzl0X3A5UWNnZjV5cEUtcnVGTFk0VXJHcVhCYkpTUQ?oc=5",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNOWZkMTlBeTUwQ3RQd0ppN0xQTXpPd3FzWW14V0xfT3lsam40LVFVWFFtTkpuakpHX3BpVmpzNjF6cVRRaFZjR29uRUpaaUpRYmRHZllrOWVNdzR6NndOWk04aFRSYTJSdDZqMXc4bC1VeUE0bDlxLTRKR0tIekpEblZKcG9WVml2WWNMLTRIN3BIZmdQVWFtLU8yS2hvWWdBRVR5OU9ra2tEdzJuY0ppWWtSMkI4SUppNktqdkdXbFV3eDZkcDRobTJ1LXBvQlExckFfal9aTnQtSllFUmo0VkxkZ19URGpPVjVyRzg3ZGdqVDFpTThBVnlrUUg2c0F2Nk5XbNIBiAJBVV95cUxQSnFMYVlWTHZ3TG1Sc1Q1eXVxUkQzNDN4ZjBDUnNLMXVrNW1oY1hPZVY3dVN3MU9paWpEeE1YOGgtT3BkV3BoakpIUWZjSDBuQTJHMi1vdmdPZXRyMXlkWkpCOWs2aDNvRExiSFRXWHdXaTU3NGpIYUxHd1FlOExvenFST25ZTEV6WjNRV0Uya3ZpZGNYZHdXdW9WWVd3amMxeXRhaVd6NDNtVG1FYXFtN21vZ2ZsaF96M19tSlBFdDV3THgtRW9qQ2xleTIxMUluWDBKVmZXc1VIWlhSLTR5djByb2MwYjZvVjVNTzdwaG9td3pMdER1U2tGdkgtU2ZRd3BFOExBRHg?oc=5",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPOGRIWldfaW0zOEhYZXNQQU9naDJPYXpzV2FLN01SMlRIblRwY0t6UnZyMGl4OGlEWHZvWU1ZcmU3bDVzbjg1c3pyRWRzNFN1Ty1sSFMzUnN6LXViczdNZWhwTGY4WVlUVjd6c0F3a3NDMG56Nkg2OGlFcTZxZ3pMV09JU21mV2NfQUdPZUdMd2VONm9iZkdfNENETkE3N0ZjNUJyUFBRckNlN3gtenA4OTgtQzZFbkZjVjBCNUhBNG5NVkhoMnNJRmdJYTRMeWFqcGFwNWRPT1NBSUZwNUtOSzdPYW5zM0stdHhrQXg1NHRkSUVlM3BncDhidloyVEFhUlA2bVdwOVlXZzFhczRyMXZB0gGXAkFVX3lxTFAzcl9URUwzOGNVNl9ndFhoU3NQOHdXOExhTlRuZC13SXN2NGtFSi14NUNNdmJDekJTTXQzY2FQMkdfVERyUGlXMTB3OG9nZ3NQMmFmWHIxUlpWb01VdkU4dkZvb1dpMVlnSVBjTGVHb2ZXT2l5cUZ6cnZKaVQ1MVVLU19TUDFZTlZ1YlQwRncxcGFXalhCWjliXzJHZEtQQ0RrQUZXM1ZrZGRSREJPMFNyUWNzZ1ZObldfSGlmZ01UMXhidjRKRXJFTmtHd2pQb1BfQ29aV04xbnNxNkVuS3VtNlZKQmVseVBwazlmeVdtemJjaTg1YUk0U1ZXbk1Qcko1a3MtMUJVU2t3UjhrRW4wUlFnbDJnNA?oc=5",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdUIxZjlWWW13QS0xb1QxXzRDSTQ3Qjk4SFlJbE04bjA2djFEVE9PX0Y4X3Uxc3A4d3BpZ0t2YTI2VDZJTUlnWWVPYjFkWjB5M3hzakNBOFVLTWJvUW5RWWN3SHY1cXBBVUdwb0dEUTE0LWc2a29VWnlPc3JfNlVlaWZPRzlIbWE5Ukw5NGVwNG9zc3lTWnR2ODQ3UHNtWldzQ1JiRlhSNDN6NkxxaUZRM2VJX2k0RHgySmVpOUJPUDdEa3F2ZkFIcndLSmktN3FMMnlMaQ?oc=5",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQT2ZYdFIzdjNGaUlhREt3ZFlseHVPYXQyWUFzaVVSUTFwbUJDVTU2RHlTUVl1cU91ZmdWUTZWdkhXbGtibnJaMzZoNTVCbXczcU5ZMURKalRlNUJYV01lWEhZZEhRZTVoa1ZjenFJcXJqY0s5LWxvalNxNjNXd3NhY0dWMEtHcjJrSmkzcVgxQnJITHI1TUI0R1JTS3E1YzZ6bVRia1ppd0NTX2owdExncTZvd2VnTnJZNG5BZ1AzWU9tZHpOci1QWDhGSdIB0AFBVV95cUxNRTZDbHY0cmxiT212WDhTVzRRZWxjblptVC1IR1MyTnN4TFdLMl9QbmxaaE52anlBcTlWZkdsMW83SC1wcVE2TUllRUJRRGF1YTM5OURTZEJJOTV6QTZ2VTZHNlZHTHcyQzZuRGNvczRaX293SklISkhHZjRjbmwxUFVjR3dKd2YydG9hSWhidGpLOF9fUFZnMDVWUEo3ZkM0Qy1ibTNNN1RfUGxNUzlzZUxmX2V3YXB0V19EcEZLY3Vxc0FFMkk5SWUyRmM3QVBP?oc=5",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS0xiQkctWWt4WXlMdEV1TnpBUXBmcXJ0NFh0bU9VU3RFeWY0aC04dll0T0hMQTh4dHpSeGpETzdLWHdkXzJ2T2FIbzBENG9CUldVRlo0OElIYnFaandkNnJ3NDBkMmRTdXp2MlFUejZyT0diT2dWQ0dHRjJ6WTBIZ0RnMTBjalNoeUJ4MEdzNjlOZUpXX0h1ODZ3?oc=5",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNb1huQU5sOWxGVWFMNTZEa2JmYVlseTlYNmh6MzlBSXlXSERmUk5raXk2YnJqcG1iYzFZUHZrcEtyOHFQVHJRRHhLVDM2cjVnRS1Pb0x1Ml9XblI1TVo4d0trdGRJcnBsWTgwUl9EaHJ3ekRsVVlEdTl0dTZmZ1I5Z0F4d0RGeXphUk5ldmNGU2h6elZmenNnaGR4NXAxWEFvbHVvM0JoWXNSLWM?oc=5",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRzRGNkNxM1E4MnIwZ2hsLVFSRUhOR0d3akVKTjRrbWtHQXRhZHprZFFweWZja2E5LVI3N3J0R0xUOGctQlM5LUxYcmtOUnhJZ3hHcFg2akdfRnBwWFRaRXFmYWZxVmwwY0hwYmNEblhrYjNmNXk4UzVhdUR0UUt2YUZYUkxvbThDbTdhVm5zNUpfVFdLSzc4Q2tBUTg3ZkdkRHZiSnljblZLakoweDBDWXE5UGlsaFl3anJFRDFaV3I5b2ZpMkRRa1hDNNIB0AFBVV95cUxOV01xUmJfSkpzTUFaekhKQ3lETVFmVFl3QXZLYWpNX2wxeUVybWFaUF9QajlPT3U2T29LVjBDT21zMW9qUlZWdWxrcW0xUEEzVDhtTVV3Ql96dTVObDNNTDhUM2xmeExqZ2l0MmZCcTM4MThhRGNQdjlFa1JfaWJ3TjdzcktTTmJMd2NMSGlLLTY3aDc0cFMyN0JJOW5Ba0pvQ2tGbC1QUFpLZ1c0bW55ZFNHZWxxcUtwSGdMQmE3YU9yXzN3dHp5RFREd2ZocXQ1?oc=5",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/hyderabad-25-years-of-dosas-and-memories-under-a-mango-tree-3582224/",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/hanu-man-makers-announce-sequel-who-will-lead-the-part-2-3583007/",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNd0xQMkhDWW14Z1lNRGJmVjY5MGNlV0pDRVBvaERPdl9QUlpfSUpOMUlPQXlGQnFGNkhONGxmckdYYlpaSnM5cVhQVEZ0SGZneGc5c0Yzdk1mc0Vzc1lhUnQyeUxJUGJTVHJ2Zkc0N2RhUXJBeWxxR3AwMlMtaDlDaTFQSnpEam9OZjFTRzJmYWxWSFVuUElZaExQSXhWMmctRWRRbGszRnR0aWQ2MEFXTVJVQnZpVUNYUV9hTXl4WEF1bko4ejdiZzFyT3JOX2haa3d2d05BR3lBVnVXa2xqRDFfWldDTTNwdjU5YzdsUGxRaFV6cEZrWnNXTGFyd0w1bHfSAYcCQVVfeXFMTlBiU1ptZEhJSTFhZ0VGSXRPYlFiV3VUT3ozQlI5bkVreFpMNUQ5YTFoT21fajloWWNVdlRyWTJrdHBfTzA0TEhza3VYZUtEajA4WEZpOERoeXFQMlh6RlBRSjdWUmE0Wkxfd1R6VVJSUFBvakg5ZDFXNzk1TkVUQUZ3MzBsblFJZjUtak10M1dFMklPYXdSM3RTOERJc2U0b2JYLVRfVVg4YjIyV0V2cjlXd3RjN2Z1NUZWR1cyQkQtZzM4MW5CSVBNVkJKUjh2NDM3aUhjNElsVHE5bVNET3hFVVdUdzY5WmdaTEQzM0wtbjdvNE03b3dUV084YkRKREs4M0NYaU0?oc=5",
+   "d": "2026-11-21",
+   "w": "not-opened"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQak5XU1FRSzZzZW1Pc1BTTDRGQzdYQ0I0SmNiUUplY2otTlNMbGhOTUx2bEhJTW11OFB5WUFmN21FZWZWZll3WkJ5blBqYWkyOVFzMnUtSEczQWtpM0V1SWlhR3JfR0dveHJuVHJJZ1Z1ekN4ek51bkdjekstalY1SXZkRjJaTzh5RnJZeUF6Qm9uZEpvRUFIR1JrNTZWazdVSEYzTExrMVZrWHhhelRscE0tZ0pHWmN3WC02S0FFS2JXS1drc2VjY2tucw?oc=5",
+   "d": "2026-11-21",
+   "w": "not-opened"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZjRFZzU1cWlkeEdwSE91RWE5X3JBQWloTUNrV3h6bE1GRHVjam8wQUhRY0lYdUxnZW5rNmdfQXduWWFCb0FuWkRxUDE4WE9CSDJiYk1JcmVjRDlYajdfM3YxLUhPWmxKa0Jwa0FDclJqNXRXM0ZyUXBIZEJTSnZDSDVhM19nN09rSUJINXBCWnBEa3AtZExsZ2h6T05MMTVZZy1DaHlicjNqb1dH?oc=5",
    "d": "2026-11-21",
    "w": "not-opened"
   }
