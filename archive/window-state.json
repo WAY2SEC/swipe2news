@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T18:35:00+05:30",
+ "cutoff": "2026-11-21T19:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-18T22:35:00+05:30/2026-11-18T23:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 1,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Feeds 22:42 IST: only 4/70 feeds ok (66 failing incl. Eenadu, Sakshi, Hindu, DC, TT, Hans, Siasat, PIB, district Google News). Lookback 14:35. Published: ThePrint (PTI) CM SC/ST welfare priority, meets parliamentary panel (22:51). Duplicates: OrissaPOST Akvan Machilipatnam-Puri Nov 20 (14:38, already covered as track-shift story). Skipped as old: Devdiscourse Chamala vs BRS (13 Apr), Daily Pioneer/Swarajya IndiGo Saudi Nov 30 (11 Nov), NewsBytes Akvan (no tz). Not opened: DH TG liabilities (fetch error); search did not surface: Hindu SCoR 1,560 Pushkaram trains, SPMVV rank, hypertension programme, schools El Nino drive, AP MPP/ZP first meetings, Sama thanks CPI, Srikakulam JSP/BJP seats, Sangareddy teacher row. District searches: Karimnagar, Guntur, Adilabad, Mahabubnagar, Nellore, Tirupati (no new items). add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-18T23:05:00+05:30/2026-11-18T23:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 1,
    "gaps": "Lookback from 10:05. Feeds 18:14 IST, 70/70 ok, 884 TG/AP flagged uncovered; 73 events first seen since 17:35 reviewed plus multi-source backlog. add_repo not available; used existing clone. Typed feed URLs refused by fetch (provenance); only search-returned URLs opened. Published 10: ORR Rajendranagar four-car crash (V6, sensitive), Vijayawada Auto Nagar toy factory fire (ETV), IT minister OSD job fraud Rs 50.87 lakh (ETV, police), HC divorce after 20 years (Siasat, sensitive, nobody named), Gandhi Hospital triplets (Siasat), police GTA VI anti-drug post (Siasat), Malkajgiri cables order (TT), Kollapur fishermen protest (NT, claim), Jagadish Reddy Sagar tunnel allegation (NT, claim), Adani Bagheera demo (TT). Old: TT Ranigunj RUB (20 Nov 18:29; The Hindu 21 Nov copy not opened), DC Gutupalli 22-A (older). Review: TTD Kaisika Dwadasi page dated 2017 (2026 event, no dated source opened). Not opened: railjournal India-Nepal rail link (4xx), Indian Express Ayodhya-Janakpur, GK Today Gutupalli, Leo News IBM quantum valley. Duplicates: Siri Sahasra HC (covered 11:05), TGCSB piracy (17:35). Skipped: devotional, entertainment, sports, party statements, other-state. Lang pages, index.html and sitemap.xml reverted."
+  },
+  {
+   "window": "2026-11-21T18:35:00+05:30/2026-11-21T19:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 8,
+   "published": 8,
+   "late": 1,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Lookback from 10:35. Feeds 18:50 IST, 67/70 ok (Andhra Jyothy, Namasthe Telangana, TV5 HTTP 429), 801 TG/AP flagged uncovered; 81 events first seen since 18:10 reviewed. add_repo not available; used existing clone. Published 8: Kothagudem wife murder case three more held (Andhra Prabha, police, sensitive, nobody named), Seethakka asks eligible to apply for new pensions (Oneindia), Kothagudem School of Mining 50 years (HMTV), Peddampeta wildlife compensation awareness (HMTV), Hussain Sagar 1940 records (TT), Sridevi college silver jubilee (TT, late 16:55), crypto investors vs WazirX/Binance (TT/IANS, claim, sensitive), drones hit Russian ship in Gulf of Finland (Al Jazeera; page time 12:45 without zone, taken as UTC). Duplicates: TG SAFE four eateries (13:05), CERT-In advisory (20 Nov), Naidu local polls (15:05), Pochampally tour (05:05). Old: TT Jadcherla custody death (16 Nov), GK Today Union Bank SHG waiver (July). Skipped: ETV Nagarkurnool alprazolam (bust already reported 18 Nov elsewhere, not confirmed as new), AndhraPravasi media city (17 Nov news), NTV Ibrahimpatnam remains (graphic), entertainment, sports, party statements, other-state. Not opened: Disha BTech ganja (client error); search did not return GK Today AP Cabinet items, TaxGuru GST AAR, News18 corporator, NTV Reliance plant. Lang pages, index.html and sitemap.xml reverted. Older TG/AP backlog not worked."
   }
  ],
  "seen": [
@@ -7313,6 +7313,91 @@
    "url": "https://news.tirumala.org/grand-celebration-of-kaisika-dwadasi-asthanam-at-srivari-temple/",
    "d": "2026-11-21",
    "w": "review"
+  },
+  {
+   "url": "https://prabhanews.com/kothagudem-wife-murder-case-father-brother-friend-arrested/",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/telangana/telangana-new-pensions-an-offer-from-seethakka-for-those-who-havent-applied-for-a-new-pension-h-515951.html",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/khammam/kothagudem-alumni-roadmap-soon-for-earth-sciences-univ-215613",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/peddapalli-wildlife-conflict-relief-scheme-awareness-held-215611",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/hussain-sagar-s-troubles-date-to-1940-13675f00",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/sridevi-college-marks-silver-jubilee-75caa45d",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/crypto-investors-seek-govt-action-against-wazirx-binance-over-alleged-fraud",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/crypto-investors-approach-ed-cbi-over-alleged-losses-linked-to-wazirx-binance",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/cert-in-warns-of-ai-driven-cyberattacks-targeting-payment-systems-across-sectors",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/andhra-local-body-polls-show-people-back-nda-at-all-levels-naidu-3583442/",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/mahabubnagar-28-year-old-man-dies-while-in-police-custody-in-jadcherla-town",
+   "d": "2026-11-21",
+   "w": "old"
+  },
+  {
+   "url": "https://www.gktoday.in/union-bank-waives-processing-and-inspection-charges-on-womens-shg-loans-in-andhra-pradesh/",
+   "d": "2026-11-21",
+   "w": "old"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/police-arrest-six-accused-for-manufacturing-alprazolam-in-nagarkurnool-district-tgs26112102863",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.andhrapravasi.com/amaravathi/media-city-to-come-up-on-200-acres-in-amaravati-one-lakh-jobs-9507",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.dishadaily.com/telangana/hyderabad/btech-student-caught-by-police-for-growing-cannabis-at-home-602644",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://ntvtelugu.com/telangana-news/ibrahimpatnam-gandhinagar-human-skull-woman-leg-found-police-investigation-1037516.html",
+   "d": "2026-11-21",
+   "w": "skipped"
   }
  ]
 }
