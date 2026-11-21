@@ -45,6 +45,8 @@ def check(d, fix=False):
         pc = s.get('pic')
         if pc and not pic_ok(pc):
             errs.append(f'{tag}: pic "{pc}" is not in tools/pictures.md – pick a real key')
+        elif pc and str(s.get('pub') or '') >= '2026-11-21T21' and not re.match(r'^(e|d|w|m)/|^c/devotional$|^n/(africa|asia|europe|mideast|namerica|friendship|pod)$|^i/', pc):
+            errs.append(f'{tag}: pic "{pc}" is a generic old key – pick the exact e/ scene for this event (tools/pictures.md, "Exact picture for common stories")')
         elif not pc and str(s.get('pub') or '') >= '2026-11-18T18':
             errs.append(f'{tag}: no "pic" – read the story and choose its picture from tools/pictures.md')
         # 2) headline

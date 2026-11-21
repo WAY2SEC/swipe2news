@@ -51,6 +51,24 @@ District pictures (d/…) are landmarks: use them only for general local news, t
 Temples, district landmarks (d/), c/devotional, world cities (w/) and gold/silver (m/) are unchanged: keep using them for temple, travel, culture and city news.
 Deaths/killings → e/remembrance-and-condolence (same as n/condolence). Do NOT use an e/ picture that shows an Indian landmark on a Nigerian/foreign story.
 
+### Exact picture for common stories (owner 21 Nov 2026: "use the exact images") – REQUIRED for new stories
+Old generic keys (c/…, n/…, cv/…, s/…) are no longer accepted for new stories: pick the e/ scene that shows THIS event.
+- arrest, murder, theft, gang, police case → e/police-investigation · burglary → e/house-burglary-investigation · ganja/drugs → e/drug-seizure · missing/kidnapped child → e/missing-person-search
+- ACB/bribe/ED/corruption → e/corruption-investigation · job/investment/OTP fraud → e/financial-scam-awareness · online fraud, piracy, hacking → e/cyber-fraud-complaint
+- court verdict, bail, High Court → e/court-hearing · consumer forum → e/consumer-complaint · land dispute → e/land-dispute-mediation
+- fire → e/fire-service-response · road accident/collision → e/road-accident-response · train accident → e/railway-accident-response · building collapse → e/building-collapse-rescue
+- deaths, condolence → e/remembrance-and-condolence · protest, dharna, strike → e/peaceful-public-protest
+- leader's statement/allegation/press meet → e/government-press-briefing · govt order/policy/target → e/public-policy-announcement · Assembly → e/state-assembly-session · Parliament → e/parliamentary-debate
+- election results, ZP/MPP wins → e/election-counting · polling, nominations, election dates → e/voting-day · ONE party named, not an attack → e/party-<name>
+- pensions → e/pension-distribution · ration → e/ration-shop-distribution · scholarships → e/student-scholarship-desk
+- school → e/government-school-classroom · college/university event → e/university-graduation · entrance/board exam → e/entrance-exam-preparation / e/board-examination-hall · study abroad → e/international-student-journey
+- hospital births, mothers → e/maternal-health-visit · vaccines → e/vaccination-clinic · polio/child vaccines → e/child-immunization-visit · hospital/OPD → e/hospital-outpatient-queue
+- job mela → e/job-fair-interviews · recruitment notice → e/recruitment-notification · investment/factory → e/industrial-production · exports → e/imports-and-exports
+- traffic jam/diversion → e/traffic-congestion · flyover/RUB → e/flyover-construction · trains → e/railway-station-departures · airport → e/airport-travel
+- lake → e/lake-pollution · tiger/forest → e/forest-conservation · animal rescue → e/wildlife-rescue · heritage/inscriptions → e/warangal-heritage-conservation
+- handloom/Pochampally → e/handloom-weaving · small shops/artisans → e/small-business-shop · women safety/harassment → e/women-safety-help-desk
+Foreign stories: w/<city> or n/<continent> (never an e/ picture with an Indian landmark). Temples: d/<district> or c/devotional. Gold/silver: e/gold-and-silver-prices.
+
 ### Civic Issues
 e/potholes-and-broken-roads · e/overflowing-open-drain · e/neighbourhood-garbage-dump · e/waterlogged-street · e/broken-streetlights · e/stray-dog-management · e/footpath-encroachment · e/public-toilet-maintenance · e/neglected-public-park · e/municipal-complaint-visit
 
