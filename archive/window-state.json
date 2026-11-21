@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T10:35:00+05:30",
+ "cutoff": "2026-11-21T11:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-18T14:35:00+05:30/2026-11-18T15:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 6,
-   "late": 5,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 8,
-   "review": 0,
-   "gaps": "Feeds 14:54 IST, 69/70 ok (district:Khammam failing); 814 uncovered TG/AP flagged, most already published, older than lookback 06:35 or Google-News-only links. add_repo not available; used existing clone. Published: TT Pet Basheerabad apartment fire, Siasat 240 new PACS, Siasat/PTI NEET leak charges vs 14, Telangana Tribune Hyderabad retail streets, DC Railway Kodur school garbage/Lokesh, HMTV Kotapalli breakfast scheme. Duplicates: Indiramma insurance (17 Nov 22:35), TG SIR extension (17 Nov), AP semiconductor policy (16 Nov tech policies), Sridhar Babu Mumbai (12:35). Skipped: Maoist BGL dumps (17 Nov), fake silver foil units (17 Nov), Sammakka barrage (17 Nov), Global Summit deferral plea (17 Nov), Hans Kurnool NDA clash & APPCB (6 Nov), TT Nizamabad IT hub (2023), Devdiscourse Crimea bridge (June); Raptadu accused discharge (sensitive, minor). Not opened: feed-direct URLs blocked without search provenance on first try; CCI cotton BusinessLine, KTR Sagar diversion, Uppal snatching, Nepal power (not surfaced). District searches: Siddipet, Vizianagaram, Medak/Sangareddy, Eluru, Nandyal/Kurnool, Kamareddy/Nirmal, Tirupati/Chittoor, Warangal (mostly stale results)."
-  },
   {
    "window": "2026-11-18T15:05:00+05:30/2026-11-18T15:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Lookback from 02:05. Feeds 10:21 IST, 68/68 ok, 731 TG/AP flagged uncovered but most top events already published 20-21 Nov under other URLs (rice millers SC, 2,000 home guards, Rekha Naik ED, Raj Reddy bail, Suryapet tipper, APMDC IPO, iBreast, Avinash Reddy convoy, Trump-Xi-Putin, Anthropic IPO). add_repo not available; used existing clone. Published 7: thermal output cut 2,090 MW (Namasthe Telangana), NH signboard village-name errors (Andhra Jyothy), Uppal bike crash 2 dead (Telangana Today), Bank of America Hyderabad lease (Siasat), KTR RBI panchayat funds (TT, claim), Gorrekunta fish waste column (TT, opinion), NIA seeks UAE help on Flydubai attack (Siasat/PTI). Not opened (no search match): NIE HWO list HC relief, Hari Hara Kala Bhavan renovation, AP vehicle registrations October. Lang pages and sitemap.xml reverted."
+  },
+  {
+   "window": "2026-11-21T10:35:00+05:30/2026-11-21T11:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 12,
+   "published": 11,
+   "late": 8,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 5,
+   "review": 1,
+   "gaps": "Lookback from 02:35. Feeds 10:43 IST, 70/70 ok, 802 TG/AP flagged uncovered (many already published under other URLs). add_repo not available; used existing clone. Fetch works only for URLs returned by a search in this run (direct feed URLs refused). Published 11: Hyderabad CP crackdown (DC/ANI), KTR on Meta office protest (TT, claim), Madhira 4 doctors suspended (V6), Nalgonda youth dies in US (DC), Vikarabad nakabandi (HMTV), Sangareddy 252 vehicles seized (HMTV), Bhadrachalam Pushkar ghat inspection (HMTV), Kamareddy woman in Victoria poll (ETV Bharat, claim), Vizianagaram ZP chair HC relief (ap7am), Guidance TN denial (DC, claim), Trump overseas data-centre tax (AP via Manila Times). Skipped (before lookback): Konakalla health (20 Nov evening), Visakha-Tirupati Vande Bharat (TV9 19 Nov), Annamayya ZP greetings (HMTV 20 Nov), Federal Siri Sahasra 17 Nov. Duplicate: DC Tadipatri clash = 20 Nov story. Review (no publication time): tmv.in Gadwal Indiramma insurance camp. Not opened (no search match): The Hindu INCOIS La Nina, Hemalatha Tirupati ZP, Koti Deepotsavam; TT Hyderabad suicide report, Amit Shah Arunachal, Air Niugini; Siasat Ramayana protest; NIE HWO list; V6 Centre loan curbs; Indiramma Bima changes (10TV/Samayam); Badvel school; NBC/SCMP refused. Old items in feed ignored: paneer ban (Sep), Goldy Brar FBI list (Sep), SC on AP SEC list (Oct), 429 asst professor posts (13 Nov). Lang pages, index.html and sitemap.xml reverted."
   }
  ],
  "seen": [
@@ -6468,6 +6468,86 @@
    "url": "https://www.deccanchronicle.com/southern-states/telangana/sc-clears-way-for-telangana-to-act-against-defaulting-rice-millers-in-540-firs-2006439",
    "d": "2026-11-21",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-police-to-intensify-crackdown-on-narcotics-mobile-snatching-2006524",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/youth-congress-meta-office-attack-ktr-condemns-damage-to-15d889b2",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/four-doctors-suspended-at-madhira-area-hospital",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/nalgonda-youth-dies-in-road-accident-in-usa-2006518",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/hyderabad/police-conduct-district-wide-nakabandi-inspect-1287-vehicles-215403",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/medak-sangareddy/police-seize-252-vehicles-in-mega-drive-against-fake-plates-215375",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/khammam/sub-collector-mrunal-shrestha-inspects-pushkar-ghat-works-215407",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/telangana-woman-chittedi-suchitra-to-contest-in-australian-elections-tgs26112100922",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ap7am.com/tn/887469/majji-sirisaharsa-relief-for-vizianagaram-zp-chairperson-as-high-court-refuses-to-intervene",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/guidance-tamil-nadu-denies-mass-resignations-calls-employee-attrition-normal-2006498",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.manilatimes.net/2026/11/21/world/americas-emea/trump-seeks-to-penalize-us-companies-that-build-ai-data-centers-abroad-even-as-they-face-backlash/2475389",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/konakalla-narayana-rao-health-chandrababu-orders-treatment-erk-1578209.html",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/kadapa/annamayya-district-minister-mandipalli-ramprasad-reddy-congratulates-215137",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://thefederal.com/category/states/south/andhra-pradesh/siri-sahasra-bcd-certificate-zptc-ap-high-court-263188",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/petrol-bombs-hurled-as-tdp-ysrcp-groups-clash-in-tadipatri-10-vehicles-torched-former-mlas-house-attacked-2006421",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://tmv.in/article/indiramma-insurance-existing-government-scheme-beneficiaries-also-eligible-for-5-lakh-cover",
+   "d": "2026-11-21",
+   "w": "review"
   }
  ]
 }
