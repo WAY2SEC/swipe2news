@@ -55,6 +55,8 @@ def check(d, fix=False):
             errs.append(f'#{i+1}: headline missing')
         if len(h) > 40:
             warns.append(f'{tag}: headline is {len(h)} characters – may not fit one line (keep ≤ 38)')
+        if re.search(r'[:]|అని సంస్థ|అని పోలీసులు|ప్రకారం$', str(s.get('statl') or '')):
+            warns.append(f'{tag}: picture line has a tail ("{s.get("statl")}") – write one natural phrase')
         hard = [f'{w} → {e}' for w, e in HARD_WORDS.items() if w in h or w in str(s.get('statl') or '')]
         if hard:
             warns.append(f'{tag}: hard words for readers – say it simply: ' + '; '.join(hard))
