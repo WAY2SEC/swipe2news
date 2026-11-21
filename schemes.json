@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T11:40:00+05:30",
+ "updated": "2026-11-21T11:40:00+05:30",
  "about": "Welfare schemes for Telangana, Andhra Pradesh and India. Facts from official/reputable sources, checked on the given date. Kept up to date by the schemes task.",
  "schemes": [
   {
@@ -650,11 +650,11 @@
    "amt": "₹20 లక్షల వరకు",
    "amt_en": "Up to ₹20 lakh",
    "link": "https://www.jansamarth.in",
-   "src": "PIB / Ministry of Finance (via Business Today, Aug 2026)",
+   "src": "PIB / Ministry of Finance (via Business Today, Aug 2026); UNI & Swarajya (11 Nov 2026)",
    "te": {
     "n": "పీఎం ముద్ర యోజన",
     "u": "వ్యాపార రుణం",
-    "b": "చిన్న వ్యాపారాలకు హామీ లేని రుణం: శిశు ₹50 వేల వరకు, కిశోర్ ₹5 లక్షలు, తరుణ్ ₹10 లక్షలు, తరుణ్ ప్లస్ ₹20 లక్షలు (తరుణ్ రుణం తీర్చినవారికి).",
+    "b": "చిన్న వ్యాపారాలకు హామీ లేని రుణం: శిశు ₹50 వేల వరకు, కిశోర్ ₹5 లక్షలు, తరుణ్ ₹10 లక్షలు, తరుణ్ ప్లస్ ₹20 లక్షలు (తరుణ్ రుణం తీర్చినవారికి). నవంబర్ 11, 2026న కేంద్ర కేబినెట్ ముద్ర రుణాల హామీ నిధి (CGFMU)ని మార్చి 2031 వరకు పొడిగించింది; బ్యాంకులు కట్టే హామీ ఫీజు 1% నుంచి 0.75%కి తగ్గింది.",
     "w": "వ్యవసాయేతర చిన్న వ్యాపారాలు – దుకాణాలు, తయారీ, సేవలు, పాడి వంటి అనుబంధ రంగాలు.",
     "d": "ఆధార్, పాన్, వ్యాపార ప్రణాళిక / వివరాలు, బ్యాంకు ఖాతా.",
     "h": "ఏ బ్యాంకు శాఖలోనైనా; లేదా jansamarth.in లో ఆన్‌లైన్."
@@ -662,7 +662,7 @@
    "en": {
     "n": "PM Mudra Yojana",
     "u": "business loan",
-    "b": "Collateral-free loans for small businesses: Shishu up to ₹50,000, Kishore ₹5 lakh, Tarun ₹10 lakh, Tarun Plus ₹20 lakh (for those who repaid a Tarun loan).",
+    "b": "Collateral-free loans for small businesses: Shishu up to ₹50,000, Kishore ₹5 lakh, Tarun ₹10 lakh, Tarun Plus ₹20 lakh (for those who repaid a Tarun loan). On 11 Nov 2026 the Union Cabinet extended the Mudra credit guarantee fund (CGFMU) till March 2031 and cut the guarantee fee for lenders from 1% to 0.75%.",
     "w": "Non-farm micro businesses – shops, manufacturing, services and allied activities like dairy.",
     "d": "Aadhaar, PAN, business plan / details, bank account.",
     "h": "Any bank branch, or online at jansamarth.in."
@@ -670,12 +670,12 @@
    "hi": {
     "n": "पीएम मुद्रा योजना",
     "u": "व्यापार ऋण",
-    "b": "छोटे व्यापार के लिए बिना गारंटी ऋण: शिशु ₹50,000 तक, किशोर ₹5 लाख, तरुण ₹10 लाख, तरुण प्लस ₹20 लाख।",
+    "b": "छोटे व्यापार के लिए बिना गारंटी ऋण: शिशु ₹50,000 तक, किशोर ₹5 लाख, तरुण ₹10 लाख, तरुण प्लस ₹20 लाख। 11 नवंबर 2026 को केंद्रीय कैबिनेट ने मुद्रा ऋण गारंटी फंड (CGFMU) मार्च 2031 तक बढ़ाया और बैंकों की गारंटी फीस 1% से घटाकर 0.75% की।",
     "w": "गैर-कृषि छोटे व्यवसाय – दुकान, निर्माण, सेवाएँ, डेयरी आदि।",
     "d": "आधार, पैन, व्यापार योजना, बैंक खाता।",
     "h": "किसी भी बैंक शाखा में या jansamarth.in पर।"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-21"
   },
   {
    "id": "atal-pension",
@@ -685,12 +685,12 @@
    "amt_en": "₹1,000–5,000",
    "link": "https://npscra.nsdl.co.in",
    "help": "1800-110-069",
-   "src": "PFRDA / Ministry of Finance (via Outlook Money, Apr 2026)",
+   "src": "PFRDA / Ministry of Finance (via Business Today, Apr 2026; Outlook Money, Aug 2026)",
    "te": {
     "n": "అటల్ పెన్షన్ యోజన",
     "u": "నెలకు (60 ఏళ్ల తర్వాత)",
     "b": "నెలనెలా చిన్న మొత్తం కడితే 60 ఏళ్ల తర్వాత నెలకు ₹1,000 నుంచి ₹5,000 వరకు గ్యారంటీ పింఛను. తర్వాత భార్య/భర్తకు అదే పింఛను.",
-    "w": "18–40 ఏళ్ల భారతీయులు, బ్యాంకు / పోస్టాఫీసు ఖాతా ఉండాలి; ఆదాయపు పన్ను చెల్లించేవారు చేరలేరు.",
+    "w": "18–40 ఏళ్ల భారతీయులు, బ్యాంకు / పోస్టాఫీసు ఖాతా ఉండాలి; 1 అక్టోబర్ 2022 నుంచి ఆదాయపు పన్ను చెల్లించేవారు కొత్తగా చేరలేరు.",
     "d": "ఆధార్, సేవింగ్స్ ఖాతా, మొబైల్ నంబర్.",
     "h": "మీ బ్యాంకు శాఖ / పోస్టాఫీసులో ఫారం; చాలా బ్యాంకు యాప్‌లలోనూ ఉంది."
    },
@@ -698,7 +698,7 @@
     "n": "Atal Pension Yojana",
     "u": "a month after 60",
     "b": "Pay a small monthly amount and get a guaranteed pension of ₹1,000 to ₹5,000 a month after age 60; the spouse then gets the same pension.",
-    "w": "Indian citizens aged 18–40 with a bank or post-office account; income-tax payers cannot join.",
+    "w": "Indian citizens aged 18–40 with a bank or post-office account; since 1 Oct 2022 income-tax payers cannot join.",
     "d": "Aadhaar, savings account, mobile number.",
     "h": "Form at your bank branch or post office; also in most bank apps."
    },
@@ -706,11 +706,11 @@
     "n": "अटल पेंशन योजना",
     "u": "प्रति माह (60 के बाद)",
     "b": "हर महीने थोड़ा जमा करें, 60 के बाद ₹1,000–5,000 मासिक गारंटीड पेंशन; फिर जीवनसाथी को वही पेंशन।",
-    "w": "18–40 वर्ष के नागरिक, बैंक / डाकघर खाता ज़रूरी; आयकरदाता शामिल नहीं हो सकते।",
+    "w": "18–40 वर्ष के नागरिक, बैंक / डाकघर खाता ज़रूरी; 1 अक्टूबर 2022 से आयकरदाता नए सिरे से शामिल नहीं हो सकते।",
     "d": "आधार, बचत खाता, मोबाइल नंबर।",
     "h": "अपनी बैंक शाखा / डाकघर या बैंक ऐप।"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-21"
   },
   {
    "id": "pmjjby",
@@ -719,14 +719,14 @@
    "amt": "₹2 లక్షలు",
    "amt_en": "₹2 lakh",
    "link": "https://www.jansuraksha.gov.in",
-   "src": "Department of Financial Services (via Angel One, Anantam IAS)",
+   "src": "Department of Financial Services (via PIB New India Samachar, May 2026; AIR News, 9 May 2026)",
    "te": {
     "n": "పీఎం జీవన్ జ్యోతి బీమా",
     "u": "బీమా – ఏడాదికి ₹436",
     "b": "ఏడాదికి ₹436 ప్రీమియంతో ₹2 లక్షల జీవిత బీమా – ఏ కారణంతో మరణించినా కుటుంబానికి. ప్రీమియం ఖాతా నుంచి ఆటోమేటిక్‌గా కట్ అవుతుంది.",
     "w": "18–50 ఏళ్ల బ్యాంకు / పోస్టాఫీసు ఖాతాదారులు (55 ఏళ్ల వరకు కవర్).",
     "d": "ఆధార్, సేవింగ్స్ ఖాతా, నామినీ వివరాలు.",
-    "h": "మీ బ్యాంకు శాఖ / నెట్ బ్యాంకింగ్ / పోస్టాఫీసు; jansuraksha.gov.in."
+    "h": "మీ బ్యాంకు శాఖ / నెట్ బ్యాంకింగ్ / పోస్టాఫీసు; బ్యాంకుకు వెళ్లకుండా jansuraksha.gov.in పోర్టల్‌లో ఆన్‌లైన్‌లోనూ చేరవచ్చు."
    },
    "en": {
     "n": "PM Jeevan Jyoti Bima",
@@ -734,7 +734,7 @@
     "b": "₹2 lakh life cover for a ₹436 yearly premium – paid to the family on death from any cause. Premium is auto-debited.",
     "w": "Bank / post-office account holders aged 18–50 (cover continues till 55).",
     "d": "Aadhaar, savings account, nominee details.",
-    "h": "Your bank branch / net banking / post office; jansuraksha.gov.in."
+    "h": "Your bank branch / net banking / post office; you can also enrol online on the Jan Suraksha portal (jansuraksha.gov.in) without visiting a bank."
    },
    "hi": {
     "n": "पीएम जीवन ज्योति बीमा",
@@ -742,9 +742,9 @@
     "b": "₹436 सालाना प्रीमियम पर ₹2 लाख जीवन बीमा – किसी भी कारण से मृत्यु पर परिवार को। प्रीमियम खाते से अपने-आप कटता है।",
     "w": "18–50 वर्ष के बैंक / डाकघर खाताधारक (55 तक कवर)।",
     "d": "आधार, बचत खाता, नॉमिनी विवरण।",
-    "h": "बैंक शाखा / नेट बैंकिंग / डाकघर।"
+    "h": "बैंक शाखा / नेट बैंकिंग / डाकघर; जन सुरक्षा पोर्टल (jansuraksha.gov.in) पर ऑनलाइन भी।"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-21"
   },
   {
    "id": "pmsby",
@@ -753,14 +753,14 @@
    "amt": "₹2 లక్షలు",
    "amt_en": "₹2 lakh",
    "link": "https://www.jansuraksha.gov.in",
-   "src": "Department of Financial Services (via Angel One, Drishti IAS)",
+   "src": "Department of Financial Services (via PIB New India Samachar, May 2026; AIR News, 9 May 2026)",
    "te": {
     "n": "పీఎం సురక్ష బీమా",
     "u": "బీమా – ఏడాదికి ₹20",
     "b": "ఏడాదికి కేవలం ₹20 తో ప్రమాద బీమా: ప్రమాద మరణం / పూర్తి వైకల్యానికి ₹2 లక్షలు, పాక్షిక వైకల్యానికి ₹1 లక్ష.",
     "w": "18–70 ఏళ్ల బ్యాంకు / పోస్టాఫీసు ఖాతాదారులు.",
     "d": "ఆధార్, సేవింగ్స్ ఖాతా, నామినీ వివరాలు.",
-    "h": "మీ బ్యాంకు శాఖ / నెట్ బ్యాంకింగ్ / పోస్టాఫీసు; jansuraksha.gov.in."
+    "h": "మీ బ్యాంకు శాఖ / నెట్ బ్యాంకింగ్ / పోస్టాఫీసు; బ్యాంకుకు వెళ్లకుండా jansuraksha.gov.in పోర్టల్‌లో ఆన్‌లైన్‌లోనూ చేరవచ్చు."
    },
    "en": {
     "n": "PM Suraksha Bima",
@@ -768,7 +768,7 @@
     "b": "Accident cover for just ₹20 a year: ₹2 lakh for accidental death or total disability, ₹1 lakh for partial disability.",
     "w": "Bank / post-office account holders aged 18–70.",
     "d": "Aadhaar, savings account, nominee details.",
-    "h": "Your bank branch / net banking / post office; jansuraksha.gov.in."
+    "h": "Your bank branch / net banking / post office; you can also enrol online on the Jan Suraksha portal (jansuraksha.gov.in) without visiting a bank."
    },
    "hi": {
     "n": "पीएम सुरक्षा बीमा",
@@ -776,9 +776,9 @@
     "b": "सिर्फ़ ₹20 सालाना में दुर्घटना बीमा: मृत्यु / पूर्ण विकलांगता पर ₹2 लाख, आंशिक पर ₹1 लाख।",
     "w": "18–70 वर्ष के बैंक / डाकघर खाताधारक।",
     "d": "आधार, बचत खाता, नॉमिनी विवरण।",
-    "h": "बैंक शाखा / नेट बैंकिंग / डाकघर।"
+    "h": "बैंक शाखा / नेट बैंकिंग / डाकघर; जन सुरक्षा पोर्टल (jansuraksha.gov.in) पर ऑनलाइन भी।"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-21"
   },
   {
    "id": "sukanya-samriddhi",
@@ -787,7 +787,7 @@
    "amt": "8.2%",
    "amt_en": "8.2%",
    "link": "https://www.indiapost.gov.in",
-   "src": "Ministry of Finance, Oct–Dec 2026 rates (via Angel One, Business Today)",
+   "src": "Ministry of Finance, Oct–Dec 2026 rates (via Business Today, Stable Investor, 30 Sep 2026)",
    "te": {
     "n": "సుకన్య సమృద్ధి యోజన",
     "u": "వడ్డీ (అక్టో–డిసెం 2026)",
@@ -812,7 +812,7 @@
     "d": "जन्म प्रमाणपत्र, माता-पिता का आधार / पैन, पता।",
     "h": "नज़दीकी डाकघर या अधिकृत बैंक।"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-21"
   },
   {
    "id": "pm-matru-vandana",
@@ -913,6 +913,73 @@
     "w": "आंध्र प्रदेश के पात्र समुद्री मछुआरा परिवार। पूरी पात्रता शर्तें इस जाँच में पुष्टि नहीं हुईं।",
     "d": "दस्तावेज़ सूची इस जाँच में पुष्टि नहीं हुई – मत्स्य विभाग कार्यालय में पूछें।",
     "h": "सरकार पात्र सूची के अनुसार सीधे खाते में भेजती है (DBT)। नाम न हो तो ज़िला मत्स्य अधिकारी से पूछें; आधिकारिक पोर्टल इस जाँच में पुष्टि नहीं हुआ।"
+   }
+  },
+  {
+   "id": "ap-housing",
+   "st": "AP",
+   "cat": "house",
+   "amt": "₹50,000–1 లక్ష అదనం",
+   "amt_en": "₹50,000–1 lakh extra",
+   "link": null,
+   "src": "Deccan Chronicle (14 Jun 2026), The Hans India (2 Apr 2025)",
+   "checked": "2026-11-21",
+   "te": {
+    "n": "ఏపీ పేదలకు ఇళ్లు (PMAY – అదనపు సాయం)",
+    "u": "ఇంటికి అదనపు సాయం",
+    "b": "పీఎంఏవై ఇళ్ల నిర్మాణానికి రాష్ట్రం అదనపు సాయం ఇస్తోంది: ఎస్సీ, బీసీ, మైనారిటీలకు ₹50,000, ఎస్టీలకు ₹75,000, ఆదిమ గిరిజన (PVTG) కుటుంబాలకు ₹1 లక్ష. డబ్బు బేస్‌మెంట్, రూఫ్, స్లాబ్, పూర్తి – నాలుగు దశల్లో విడుదల. 2029 నాటికి 16.63 లక్షల ఇళ్లు లక్ష్యం.",
+    "w": "ఆంధ్రప్రదేశ్‌లో పీఎంఏవై (అర్బన్ / గ్రామీణ) కింద ఇల్లు మంజూరైన ఎస్సీ, ఎస్టీ, బీసీ, మైనారిటీ, PVTG లబ్ధిదారులు. కొత్త ఇళ్ల పూర్తి అర్హత నియమాలు ఈ తనిఖీలో నిర్ధారించలేదు.",
+    "d": "పత్రాల జాబితా ఈ తనిఖీలో నిర్ధారించలేదు – గ్రామ / వార్డు సచివాలయంలో అడగండి.",
+    "h": "అదనపు సాయం ఇంటి నిర్మాణ దశల వారీగా వస్తుంది. దరఖాస్తు విధానం, అధికారిక పోర్టల్ ఈ తనిఖీలో నిర్ధారించలేదు – మీ గ్రామ / వార్డు సచివాలయం లేదా గృహ నిర్మాణ శాఖ కార్యాలయంలో అడగండి."
+   },
+   "en": {
+    "n": "AP Housing for the Poor (PMAY – extra aid)",
+    "u": "extra aid per house",
+    "b": "The state gives extra aid on top of PMAY for building houses: ₹50,000 for SC, BC and minority beneficiaries, ₹75,000 for ST and ₹1 lakh for PVTG families. Money is released in four stages – basement, roof, slab, completion. Target: 16.63 lakh houses by 2029.",
+    "w": "SC, ST, BC, minority and PVTG beneficiaries in Andhra Pradesh with a house sanctioned under PMAY (Urban / Gramin). Full eligibility rules for new houses were not confirmed in this check.",
+    "d": "Document list not confirmed in this check – ask at your village / ward secretariat.",
+    "h": "The extra aid comes stage by stage as the house is built. Application process and official portal not confirmed in this check – ask at your village / ward secretariat or housing department office."
+   },
+   "hi": {
+    "n": "आंध्र प्रदेश गरीबों के लिए आवास (PMAY – अतिरिक्त सहायता)",
+    "u": "प्रति घर अतिरिक्त सहायता",
+    "b": "PMAY घर बनाने पर राज्य अतिरिक्त सहायता देता है: SC, BC और अल्पसंख्यकों को ₹50,000, ST को ₹75,000, PVTG परिवारों को ₹1 लाख। राशि चार चरणों में – बेसमेंट, छत, स्लैब, पूरा होने पर। 2029 तक 16.63 लाख घरों का लक्ष्य।",
+    "w": "आंध्र प्रदेश में PMAY (शहरी / ग्रामीण) के तहत घर स्वीकृत SC, ST, BC, अल्पसंख्यक और PVTG लाभार्थी। नए घरों के पूरे पात्रता नियम इस जाँच में पुष्टि नहीं हुए।",
+    "d": "दस्तावेज़ सूची इस जाँच में पुष्टि नहीं हुई – ग्राम / वार्ड सचिवालय में पूछें।",
+    "h": "अतिरिक्त सहायता निर्माण के चरणों के साथ मिलती है। आवेदन प्रक्रिया और आधिकारिक पोर्टल इस जाँच में पुष्टि नहीं हुए – ग्राम / वार्ड सचिवालय या आवास विभाग कार्यालय में पूछें।"
+   }
+  },
+  {
+   "id": "aathmeeya-bharosa",
+   "st": "TG",
+   "cat": "farm",
+   "amt": "₹12,000",
+   "link": null,
+   "src": "Deccan Chronicle (26 Feb 2025), Siasat (26 Feb 2025), The South First (15 Jan 2025), Telangana Today (20 Mar 2025)",
+   "checked": "2026-11-21",
+   "te": {
+    "n": "ఇందిరమ్మ ఆత్మీయ భరోసా",
+    "u": "ఏడాదికి (₹6,000 చొప్పున 2 విడతలు)",
+    "b": "భూమి లేని వ్యవసాయ కూలీ కుటుంబాలకు ఏడాదికి ₹12,000, రెండు విడతల్లో నేరుగా బ్యాంకు ఖాతాకు. జనవరి 26, 2025న ప్రారంభం; ఫిబ్రవరి 2025 నాటికి సుమారు 83 వేల మందికి మొదటి విడత ₹6,000 చేరింది, మిగతా జిల్లాలకు ఎన్నికల కోడ్ తర్వాత ఇస్తామన్నారు. తర్వాతి చెల్లింపులపై తాజా వార్తలు ఈ తనిఖీలో దొరకలేదు.",
+    "w": "తెలంగాణలో సాగు భూమి లేని కుటుంబాలు; ఉపాధి హామీ జాబ్ కార్డులో ఏడాదిలో కనీసం 20 రోజులు పని చేసి ఉండాలి.",
+    "d": "ఉపాధి హామీ జాబ్ కార్డు, ఆధార్, బ్యాంకు పాస్‌బుక్ – మూడూ అనుసంధానమై ఉండాలి.",
+    "h": "విడిగా దరఖాస్తు లేదు: ఉపాధి హామీ వివరాలతో అధికారులు జాబితా తయారు చేసి గ్రామ సభలో ఆమోదిస్తారు. అభ్యంతరాలను ఎంపీడీవోకు ఇవ్వాలి. అధికారిక పోర్టల్ ఈ తనిఖీలో నిర్ధారించలేదు."
+   },
+   "en": {
+    "n": "Indiramma Aathmeeya Bharosa",
+    "u": "a year (2 instalments of ₹6,000)",
+    "b": "₹12,000 a year for landless farm-labour families, paid in two instalments straight to the bank account. Launched 26 Jan 2025; by Feb 2025 about 83,000 workers had got the first ₹6,000, and other districts were promised payment after the election code. No recent news on later payments was found in this check.",
+    "w": "Landless families in Telangana; the MGNREGA job card must show at least 20 days of work in the year.",
+    "d": "MGNREGA job card, Aadhaar and bank passbook – all three linked.",
+    "h": "No separate application: officials draw up the list from MGNREGA data and it is approved in the gram sabha. Objections go to the MPDO. Official portal not confirmed in this check."
+   },
+   "hi": {
+    "n": "इंदिरम्मा आत्मीय भरोसा",
+    "u": "सालाना (₹6,000 की 2 किस्तें)",
+    "b": "भूमिहीन खेतिहर मज़दूर परिवारों को सालाना ₹12,000, दो किस्तों में सीधे बैंक खाते में। 26 जनवरी 2025 को शुरू; फ़रवरी 2025 तक लगभग 83,000 मज़दूरों को पहली किस्त ₹6,000 मिली, बाकी ज़िलों को चुनाव आचार संहिता के बाद देने का वादा। बाद की किस्तों की ताज़ा ख़बर इस जाँच में नहीं मिली।",
+    "w": "तेलंगाना के भूमिहीन परिवार; मनरेगा जॉब कार्ड में साल में कम से कम 20 दिन काम दर्ज हो।",
+    "d": "मनरेगा जॉब कार्ड, आधार और बैंक पासबुक – तीनों जुड़े हों।",
+    "h": "अलग आवेदन नहीं: अधिकारी मनरेगा डेटा से सूची बनाते हैं, ग्राम सभा में मंज़ूरी। आपत्ति MPDO को दें। आधिकारिक पोर्टल इस जाँच में पुष्टि नहीं हुआ।"
    }
   }
  ]
