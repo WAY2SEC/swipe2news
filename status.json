@@ -1,0 +1,523 @@
+{
+ "updated": "2026-11-21T17:12+05:30",
+ "window_hours": 36,
+ "feeds_read": 70,
+ "feeds_ok": 70,
+ "headlines": 3734,
+ "events": 2930,
+ "uncovered": 2739,
+ "uncovered_tg_ap": 883,
+ "district_slot": 2,
+ "feeds": [
+  {
+   "name": "The Hindu",
+   "kind": "direct",
+   "ok": true,
+   "items": 60,
+   "fresh": 45
+  },
+  {
+   "name": "The Hindu",
+   "kind": "direct",
+   "ok": true,
+   "items": 60,
+   "fresh": 56
+  },
+  {
+   "name": "Telangana Today",
+   "kind": "direct",
+   "ok": true,
+   "items": 500,
+   "fresh": 151
+  },
+  {
+   "name": "Siasat",
+   "kind": "direct",
+   "ok": true,
+   "items": 40,
+   "fresh": 40
+  },
+  {
+   "name": "Eenadu",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 79,
+   "junk": 18
+  },
+  {
+   "name": "Sakshi",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 100
+  },
+  {
+   "name": "Andhra Jyothy",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 99,
+   "junk": 1
+  },
+  {
+   "name": "Namasthe Telangana",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 99,
+   "junk": 1
+  },
+  {
+   "name": "TV9 Telugu",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 100
+  },
+  {
+   "name": "NTV Telugu",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 100
+  },
+  {
+   "name": "V6 Velugu",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 98,
+   "junk": 1
+  },
+  {
+   "name": "10TV",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 58,
+   "fresh": 51
+  },
+  {
+   "name": "TV5 News",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 0,
+   "fresh": 0
+  },
+  {
+   "name": "ETV Bharat",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 98,
+   "fresh": 98
+  },
+  {
+   "name": "Prajasakti",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 98,
+   "fresh": 72
+  },
+  {
+   "name": "Andhra Prabha",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 0,
+   "fresh": 0
+  },
+  {
+   "name": "Mana Telangana",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 47,
+   "fresh": 46,
+   "junk": 1
+  },
+  {
+   "name": "Disha Daily",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 99
+  },
+  {
+   "name": "Vaartha",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 92,
+   "junk": 2
+  },
+  {
+   "name": "HMTV",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 98
+  },
+  {
+   "name": "BIG TV",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 99
+  },
+  {
+   "name": "OneIndia Telugu",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 62,
+   "fresh": 62
+  },
+  {
+   "name": "Samayam Telugu",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 97,
+   "fresh": 95,
+   "junk": 1
+  },
+  {
+   "name": "News18 Telugu",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 97,
+   "junk": 3
+  },
+  {
+   "name": "The Hindu",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 98,
+   "junk": 1
+  },
+  {
+   "name": "Deccan Chronicle",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 100
+  },
+  {
+   "name": "Telangana Today",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 100
+  },
+  {
+   "name": "The Hans India",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 100
+  },
+  {
+   "name": "Times of India",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 100
+  },
+  {
+   "name": "New Indian Express",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 100
+  },
+  {
+   "name": "Siasat",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 100
+  },
+  {
+   "name": "NewsMeter",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 35,
+   "fresh": 35
+  },
+  {
+   "name": "Indian Express",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 99,
+   "junk": 1
+  },
+  {
+   "name": "PIB",
+   "kind": "gnews-outlet",
+   "ok": true,
+   "items": 100,
+   "fresh": 98
+  },
+  {
+   "name": "district:Hyderabad",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 100,
+   "fresh": 100
+  },
+  {
+   "name": "district:Hyderabad:en",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 100,
+   "fresh": 100
+  },
+  {
+   "name": "district:Jogulamba Gadwal",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 4,
+   "fresh": 4
+  },
+  {
+   "name": "district:Jogulamba Gadwal:en",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 3,
+   "fresh": 3
+  },
+  {
+   "name": "district:Kumuram Bheem Asifabad",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 13,
+   "fresh": 13
+  },
+  {
+   "name": "district:Kumuram Bheem Asifabad:en",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 2,
+   "fresh": 2
+  },
+  {
+   "name": "district:Medak",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 24,
+   "fresh": 24
+  },
+  {
+   "name": "district:Medak:en",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 5,
+   "fresh": 3,
+   "junk": 2
+  },
+  {
+   "name": "district:Nalgonda",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 28,
+   "fresh": 28
+  },
+  {
+   "name": "district:Nalgonda:en",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 24,
+   "fresh": 23,
+   "junk": 1
+  },
+  {
+   "name": "district:Peddapalli",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 26,
+   "fresh": 26
+  },
+  {
+   "name": "district:Peddapalli:en",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 2,
+   "fresh": 0,
+   "junk": 2
+  },
+  {
+   "name": "district:Siddipet",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 42,
+   "fresh": 42
+  },
+  {
+   "name": "district:Siddipet:en",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 24,
+   "fresh": 21,
+   "junk": 3
+  },
+  {
+   "name": "district:Warangal",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 49,
+   "fresh": 49
+  },
+  {
+   "name": "district:Warangal:en",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 38,
+   "fresh": 37,
+   "junk": 1
+  },
+  {
+   "name": "district:Vizianagaram",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 34,
+   "fresh": 34
+  },
+  {
+   "name": "district:Vizianagaram:en",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 7,
+   "fresh": 5,
+   "junk": 2
+  },
+  {
+   "name": "district:Anakapalli",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 24,
+   "fresh": 24
+  },
+  {
+   "name": "district:Anakapalli:en",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 8,
+   "fresh": 8
+  },
+  {
+   "name": "district:West Godavari",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 18,
+   "fresh": 18
+  },
+  {
+   "name": "district:West Godavari:en",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 6,
+   "fresh": 6
+  },
+  {
+   "name": "district:Guntur",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 25,
+   "fresh": 25
+  },
+  {
+   "name": "district:Guntur:en",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 14,
+   "fresh": 13,
+   "junk": 1
+  },
+  {
+   "name": "district:Nellore",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 34,
+   "fresh": 34
+  },
+  {
+   "name": "district:Nellore:en",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 21,
+   "fresh": 21
+  },
+  {
+   "name": "district:Sri Sathya Sai",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 21,
+   "fresh": 21
+  },
+  {
+   "name": "district:Sri Sathya Sai:en",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 7,
+   "fresh": 7
+  },
+  {
+   "name": "district:Chittoor",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 25,
+   "fresh": 25
+  },
+  {
+   "name": "district:Chittoor:en",
+   "kind": "gnews-district",
+   "ok": true,
+   "items": 10,
+   "fresh": 9,
+   "junk": 1
+  },
+  {
+   "name": "topic:Telangana",
+   "kind": "gnews-topic",
+   "ok": true,
+   "items": 100,
+   "fresh": 99,
+   "junk": 1
+  },
+  {
+   "name": "topic:Andhra Pradesh",
+   "kind": "gnews-topic",
+   "ok": true,
+   "items": 100,
+   "fresh": 99,
+   "junk": 1
+  },
+  {
+   "name": "topic:తెలంగాణ ప్రభుత్వం",
+   "kind": "gnews-topic",
+   "ok": true,
+   "items": 42,
+   "fresh": 42
+  },
+  {
+   "name": "topic:ఏపీ ప్రభుత్వం",
+   "kind": "gnews-topic",
+   "ok": true,
+   "items": 66,
+   "fresh": 66
+  },
+  {
+   "name": "topic:India",
+   "kind": "gnews-topic",
+   "ok": true,
+   "items": 100,
+   "fresh": 100
+  },
+  {
+   "name": "topic:world news",
+   "kind": "gnews-topic",
+   "ok": true,
+   "items": 100,
+   "fresh": 100
+  }
+ ]
+}
