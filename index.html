@@ -1990,6 +1990,8 @@ function corrNote(s){ const c=s&&s.corr; if(!c||typeof c!=='object') return ''; 
 const LBL={fact:{te:'✓ వాస్తవం',en:'✓ FACT',hi:'✓ तथ्य'},claim:{te:'వాదన / ఆరోపణ',en:'CLAIM',hi:'दावा'},opinion:{te:'అభిప్రాయం',en:'OPINION',hi:'राय'},misleading:{te:'తప్పుదోవ',en:'MISLEADING',hi:'भ्रामक'},forecast:{te:'వాతావరణ అంచనా',en:'WEATHER FORECAST',hi:'मौसम पूर्वानुमान'}};
 /* a weather story about what is expected is a forecast, not a fact that has happened */
 const FORECAST_RX=/సూచన|అంచనా|అవకాశం|రానున్న|కురిసే|ఏర్పడే|బలపడే|forecast|likely|expected|predict|will (?:bring|form|intensify)/i;
+/* owner 21 Nov 2026: the picture line must read naturally – "సైబర్ మోసం కేసులో ఒకరు అరెస్ట్", not "ఒకరు అరెస్ట్ సైబర్ మోసం కేసులో". When the white part is a place/case phrase it goes first. */
+function statRev(s){ return !s.kind && LG()==='te' && !TLG() && /(లో|తో|పై|వద్ద|వద్దకు|సమీపంలో|ప్రకారం|నుంచి)$/.test(String(s.statl||'').trim()) && !!String(s.stat||'').trim(); }
 function isForecast(s){ if(/నష్టం|నష్ట|దెబ్బతిన|ధ్వంసం|మృతి|loss|damage/.test(String(s.h||'')+' '+String(s.statl||''))&&!/సూచన|హెచ్చరిక|అవకాశం|అంచనా/.test(String(s.h||'')+' '+String(s.statl||''))) return false; // a damage report is a fact, not a forecast
   return (typeof artType==='function'&&artType(s)==='weather') && FORECAST_RX.test(String(s.h||'')+' '+String(s.statl||'')+' '+String(s.p||'').slice(0,200)+' '+String((s.en&&s.en.h)||'')); }
 function lblOf(s){ let k=s.lbl; if(k==='forecast') return k; if((!k||k==='fact')&&isForecast(s)) return 'forecast'; if(LBL[k]) return k;
@@ -2080,7 +2082,7 @@ function cardHTML(s,i){
     ${sceneSVG(s,'scene')}${/^videos\/[\w.-]+\.mp4$/.test(s.vid||'')?`<button class="vplay" type="button" data-vid="${esc(s.vid)}" aria-label="వీడియో చూడండి"><svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#fff"/></svg><span>వీడియో చూడండి</span></button>`:''}
     <div class="ptop"><span class="bchip">${s.brk?'🔴 BREAKING · ':''}${esc(s.cat||U('news'))}</span></div>
     ${storyPhoto(s)&&s.imgcr?`<div class="pcr">📷 ${esc(({te:'ఫోటో',en:'Photo',hi:'फ़ोटो'})[LG()]||'ఫోటో')}: <b>${esc(s.imgcr)}</b></div>`:''}
-    <div class="bkw"><div class="stat">${esc(statTx(s))}</div><div class="statl">${esc(s.statl)}</div>${!storyPhoto(s)&&artPlan(s)&&artPlan(s).m!=='logo'&&!(artPlan(s).m==='plain'&&!artPlan(s).obj)?`<div class="adisc">${esc(ART_DISC[LG()]||ART_DISC.te)}</div>`:''}</div>
+    <div class="bkw${statRev(s)?' rev':''}">${statRev(s)?`<div class="statl">${esc(s.statl)}</div><div class="stat">${esc(statTx(s))}</div>`:`<div class="stat">${esc(statTx(s))}</div><div class="statl">${esc(s.statl)}</div>`}${!storyPhoto(s)&&artPlan(s)&&artPlan(s).m!=='logo'&&!(artPlan(s).m==='plain'&&!artPlan(s).obj)?`<div class="adisc">${esc(ART_DISC[LG()]||ART_DISC.te)}</div>`:''}</div>
     <span class="bmark"><img src="art/logo.svg" alt="">swipe2news<i>.</i></span>
   </div>
   <div class="text"${s._lang?` lang="${s._lang}"`:''}>
@@ -2449,7 +2451,7 @@ async function newsCard(s,mode){
   // number + label, one line
   const st=s.kind?'':statTx(s), sl=s.kind?'':(s.statl||'');
   if(st||sl){ const line=st+(st&&sl?'  ':'')+sl; const f=fitFont(line,800,54,TE,W-97,22); const y=PIC-((hasArt||(storyPhoto(s)&&s.imgcr))?70:48);
-    ctx.save(); ctx.shadowColor='rgba(0,0,0,.6)'; ctx.shadowBlur=14; ctx.shadowOffsetY=3; ctx.font=`800 ${f}px ${TE}`; ctx.fillStyle=AP; ctx.fillText(st,49,y); const sw=st?ctx.measureText(st+'  ').width:0; ctx.fillStyle=CR; ctx.fillText(sl,49+sw,y); ctx.restore(); }
+    ctx.save(); ctx.shadowColor='rgba(0,0,0,.6)'; ctx.shadowBlur=14; ctx.shadowOffsetY=3; ctx.font=`800 ${f}px ${TE}`; if(statRev(s)){ ctx.fillStyle=CR; ctx.fillText(sl,49,y); const lw=ctx.measureText(sl+'  ').width; ctx.fillStyle=AP; ctx.fillText(st,49+lw,y); } else { ctx.fillStyle=AP; ctx.fillText(st,49,y); const sw=st?ctx.measureText(st+'  ').width:0; ctx.fillStyle=CR; ctx.fillText(sl,49+sw,y); } ctx.restore(); }
   if(hasArt){ const ap_=artPlan(s)||{}; if(ap_.m!=='logo'&&!(ap_.m==='plain'&&!ap_.obj)){ ctx.font=`500 24px ${TE}`; ctx.fillStyle='rgba(255,253,245,.75)'; ctx.fillText(ART_DISC[LG()]||ART_DISC.te,49,PIC-24); } }
   if(storyPhoto(s)&&s.imgcr){ const ct='📷 '+(({te:'ఫోటో',en:'Photo',hi:'फ़ोटो'})[LG()]||'ఫోటో')+': '+String(s.imgcr).slice(0,60); ctx.font=`700 26px ${TE}`; const cw=ctx.measureText(ct).width+36;
     ctx.fillStyle='rgba(20,4,17,.72)'; rrect(ctx,43,PIC-50,cw,40,20); ctx.fill(); ctx.strokeStyle='rgba(245,162,58,.9)'; ctx.lineWidth=2; rrect(ctx,43,PIC-50,cw,40,20); ctx.stroke(); ctx.fillStyle=CR; ctx.textBaseline='middle'; ctx.fillText(ct,61,PIC-29); ctx.textBaseline='alphabetic'; }  // official photo credit
@@ -2567,8 +2569,8 @@ async function cardImage(s){
     const setF=()=>{ ctx.font=te?`800 ${fs}px ${TE}`:`400 ${fs}px ${DI}`; }; setF();
     { const sl=s.statl||''; let f2=58; const F=()=>{ ctx.font=`800 ${f2}px ${TE}`; }; F();
       while(ctx.measureText(st+'  '+sl).width>TW&&f2>40){ f2-=2; F(); }
-      const y0=cy+PH-84; ctx.fillStyle=AP; ctx.fillText(st,cx+IN,y0); const sw=ctx.measureText(st+'  ').width;
-      ctx.fillStyle=CR; let t=sl; while(t&&ctx.measureText(t).width>TW-sw){ t=t.slice(0,-1); } ctx.fillText(t+(t.length<sl.length?'…':''),cx+IN+sw,y0); }
+      const y0=cy+PH-84; if(statRev(s)){ ctx.fillStyle=CR; ctx.fillText(sl,cx+IN,y0); ctx.fillStyle=AP; ctx.fillText(st,cx+IN+ctx.measureText(sl+'  ').width,y0); } else { ctx.fillStyle=AP; ctx.fillText(st,cx+IN,y0); const sw=ctx.measureText(st+'  ').width;
+      ctx.fillStyle=CR; let t=sl; while(t&&ctx.measureText(t).width>TW-sw){ t=t.slice(0,-1); } ctx.fillText(t+(t.length<sl.length?'…':''),cx+IN+sw,y0); } }
 
   }
   // category chip on the picture
