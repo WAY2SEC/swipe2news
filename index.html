@@ -2653,6 +2653,11 @@ function setCount(a,n){ $('count').innerHTML = n ? `<b>${a}</b>/${n}` : ''; try{
 /* AI voice: reads the card aloud in Telugu with the phone's own voice */
 const synth = window.speechSynthesis;
 /* owner 21 Nov 2026: "best voices, very fluent" – pick the most natural voice the phone has, and clean the text so it reads like a newsreader */
+/* Newsreader voice files (Google Chirp 3 HD, made by tools/tts.py) – played when present, phone voice otherwise */
+let AUDIDX=null, AUDP=null; function loadAudIdx(){ if(AUDIDX) return Promise.resolve(AUDIDX); return fetch('/audio/index.json?t='+Math.floor(Date.now()/3e5),{cache:'no-store'}).then(r=>r.ok?r.json():{}).catch(()=>({})).then(j=>AUDIDX=j||{}); }
+setTimeout(()=>loadAudIdx(),3000); setInterval(()=>{ AUDIDX=null; },10*60*1000);
+function audFor(s){ if(!s||LG()!=='te'||TLG()||!AUDIDX) return ''; const o=AUDIDX[sid(s)]; return o&&o.f?'/audio/'+o.f:''; }
+function stopAud(){ if(AUDP){ try{ AUDP.onended=AUDP.ontimeupdate=AUDP.onerror=null; AUDP.pause(); }catch(e){} AUDP=null; } }
 function bestVoice(sl){ const L=sl.slice(0,2).toLowerCase(), vs=(synth.getVoices()||[]).filter(v=>v.lang.replace('_','-').toLowerCase().startsWith(L)); if(!vs.length) return null;
   const score=v=>{ const n=(v.name||'').toLowerCase(); let x=0; if(/natural|neural|premium|enhanced|wavenet|online/.test(n)) x+=6; if(/google/.test(n)) x+=4; if(v.localService===false) x+=2;
     if(v.lang.replace('_','-').toLowerCase()===sl.toLowerCase()) x+=2; if(/compact|espeak|robot/.test(n)) x-=6; return x; };
@@ -2680,9 +2685,15 @@ function radioUI(){ const on=String(RADIO); $('listenBtn').setAttribute('aria-pr
 let rParts=[], rIdx=0, rPaused=false;
 function npProg(f){ const b=document.getElementById('npBar'); if(b) b.style.width=Math.max(0,Math.min(100,f*100))+'%'; }
 function npPauseUI(){ const n=document.getElementById('s2np'); if(n) n.classList.toggle('paused',rPaused); const b=document.getElementById('npPause'); if(b){ b.setAttribute('aria-label',rPaused?({te:'కొనసాగించండి',en:'Resume',hi:'जारी रखें'}[LG()]):({te:'పాజ్',en:'Pause',hi:'रोकें'}[LG()])); b.innerHTML=rPaused?'<svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M7 4.5v15l12-7.5z"/></svg>':'<svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>'; } const l=document.getElementById('npLab'); if(l) l.textContent=rPaused?({te:'పాజ్ చేశారు',en:'Paused',hi:'रुका हुआ'}[LG()]):({te:'వింటున్నారు',en:'Listening',hi:'सुन रहे हैं'}[LG()]); }
-function npPause(){ if(!RADIO) return; if(!rPaused){ rPaused=true; rTok++; clearTimeout(rWait); try{ synth.cancel(); }catch(e){} } else { rPaused=false; speakCur(rIdx); } npPauseUI(); }
-function npReplay(){ if(!RADIO) return; rPaused=false; npPauseUI(); rTok++; try{ synth.cancel(); }catch(e){} speakCur(0); }
+function npPause(){ if(!RADIO) return; if(AUDP){ if(!rPaused){ rPaused=true; AUDP.pause(); } else { rPaused=false; AUDP.play().catch(()=>{}); } npPauseUI(); return; } if(!rPaused){ rPaused=true; rTok++; clearTimeout(rWait); try{ synth.cancel(); }catch(e){} } else { rPaused=false; speakCur(rIdx); } npPauseUI(); }
+function npReplay(){ if(!RADIO) return; rPaused=false; npPauseUI(); stopAud(); rTok++; try{ synth.cancel(); }catch(e){} speakCur(0); }
 function speakCur(from){ clearTimeout(rWait); if(!RADIO||rPaused) return; const s=LIST[cur], tok=++rTok;
+  stopAud(); const af=audFor(s);
+  if(af){ const a=new Audio(af); AUDP=a; a.preload='auto'; if(from&&a.duration) a.currentTime=0;
+    a.ontimeupdate=()=>{ if(tok===rTok&&a.duration) npProg(a.currentTime/a.duration); };
+    a.onended=()=>{ if(tok!==rTok) return; npProg(1); AUDP=null; if(RADIO) rWait=setTimeout(()=>{ if(!(RADIO&&tok===rTok)) return; const was=cur; go(cur+1,'left'); setTimeout(()=>{ if(RADIO&&tok===rTok&&cur===was) stopVoice(); },1500); },700); };
+    a.onerror=()=>{ if(tok!==rTok) return; AUDP=null; AUDIDX&&delete AUDIDX[sid(s)]; speakCur(0); }; // file missing → phone voice
+    a.play().catch(()=>{ if(tok===rTok){ AUDP=null; AUDIDX&&delete AUDIDX[sid(s)]; speakCur(0); } }); return; }
   const text=speakable(voiceText(s),U('speech')); if(!text){ rWait=setTimeout(()=>{ if(RADIO&&tok===rTok) go(cur+1,'left'); },900); return; }
   // short pieces: Android Chrome stops long speech after ~15 s
   const parts=(text.replace(/\s+/g,' ').match(/[^.!?।]+[.!?।]*\s*|[.!?।]+\s*/g)||[]).map(x=>x.trim()).filter(Boolean).reduce((a,x)=>{ if(a.length && (a[a.length-1]+' '+x).length<180) a[a.length-1]+=' '+x; else a.push(x); return a; },[]);
@@ -2694,14 +2705,14 @@ function speakCur(from){ clearTimeout(rWait); if(!RADIO||rPaused) return; const 
     if(i===parts.length-1) u.onend=()=>{ if(tok===rTok) npProg(1); if(RADIO&&tok===rTok) rWait=setTimeout(()=>{ if(!(RADIO&&tok===rTok)) return; const was=cur; go(cur+1,'left'); setTimeout(()=>{ if(RADIO&&tok===rTok&&cur===was) stopVoice(); },1500); },700); };
     u.onerror=ev=>{ if(ev&&ev.error!=='interrupted'&&ev.error!=='canceled'&&tok===rTok){ RADIO=false; radioUI(); } };
     synth.speak(u); }); }
-function stopVoice(){ RADIO=false; rPaused=false; npPauseUI(); rTok++; clearTimeout(rWait); try{ if(synth && (synth.speaking||synth.pending)) synth.cancel(); }catch(e){} radioUI(); }
-function cardChanged(){ rIdx=0; npProg(0); if(RADIO&&rPaused){ rTok++; try{synth.cancel()}catch(e){} return; } if(RADIO){ rTok++; try{synth.cancel()}catch(e){} clearTimeout(rWait); rWait=setTimeout(speakCur,650); } }
+function stopVoice(){ RADIO=false; rPaused=false; npPauseUI(); stopAud(); rTok++; clearTimeout(rWait); try{ if(synth && (synth.speaking||synth.pending)) synth.cancel(); }catch(e){} radioUI(); }
+function cardChanged(){ rIdx=0; npProg(0); stopAud(); if(RADIO&&rPaused){ rTok++; try{synth.cancel()}catch(e){} return; } if(RADIO){ rTok++; try{synth.cancel()}catch(e){} clearTimeout(rWait); rWait=setTimeout(speakCur,650); } }
 window.stopVoice = stopVoice; window.cardChanged = cardChanged;
 function toggleRadio(){
   if(!synth){ toast('ఈ ఫోన్‌లో వాయిస్ సపోర్ట్ లేదు'); return; }
   if(RADIO){ stopVoice(); return; }
   const sl=U('speech'); if(sl==='te-IN' && !synth.getVoices().some(v=>v.lang.replace('_','-').toLowerCase().startsWith('te'))) toast('తెలుగు వాయిస్ లేకపోతే ఫోన్ Settings → Text-to-speech లో తెలుగు జోడించండి');
-  RADIO=true; rPaused=false; npPauseUI(); radioUI(); speakCur(0); try{ window.gtag&&gtag('event','listen_start',{}); }catch(e){} }
+  RADIO=true; rPaused=false; npPauseUI(); radioUI(); loadAudIdx().then(()=>{ if(RADIO) speakCur(0); }); try{ window.gtag&&gtag('event','listen_start',{}); }catch(e){} }
 $('listenBtn').onclick=toggleRadio;
 { const f=$('fsPlay'); f.addEventListener('pointerdown',e=>e.stopPropagation()); f.onclick=e=>{ e.stopPropagation(); toggleRadio(); }; radioUI(); }
 /* Share the CARD PICTURE + caption. Used by both the share button and the green WhatsApp button. */

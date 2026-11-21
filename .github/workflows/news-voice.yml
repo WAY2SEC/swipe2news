@@ -1,0 +1,29 @@
+name: Newsreader voice
+# After every news update: make natural Telugu newsreader audio (Google Chirp 3 HD) for new stories.
+# Needs the secret GOOGLE_TTS_KEY. Without it nothing is made and the app keeps using the phone's voice.
+on:
+  push:
+    branches: [main]
+    paths: ['news.json']
+  workflow_dispatch:
+concurrency:
+  group: news-voice
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Make voice files
+        env:
+          GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
+        run: python3 tools/tts.py --max 40
+      - name: Publish
+        run: |
+          git config user.name "Swipe2News Bot"; git config user.email news-bot@swipe2news.invalid
+          git add -A audio
+          git diff --cached --quiet && exit 0
+          git commit -m "Newsreader voice $(TZ=Asia/Kolkata date '+%Y-%m-%d %H:%M') IST"
+          for i in 1 2 3 4 5; do git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0; sleep 6; done
