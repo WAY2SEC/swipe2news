@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T08:35:00+05:30",
+ "cutoff": "2026-11-21T09:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-18T12:35:00+05:30/2026-11-18T13:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 7,
-   "late": 5,
-   "sensitive": 4,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 12:41 IST, 70/70 ok; 767 uncovered TG/AP flagged, many already published (TOSS results, summit-delay plea, Darshini, KNRUHS fees, Yadadri, AP Nov 26 holiday, Prakasam nets). add_repo not available; used existing clone. Published: HMTV Bhainsa bus-bike crash, HMTV Mulugu cylinder fire, Sakshi Ibrahimpatnam DCM crash, NT Palnadu lathicharge (claim), ETV Bharat GAIL piped gas, HMTV Tuni murder arrest, HMTV Lakkireddipalli 13 unanimous. Skipped: NT Vikarabad castor seeds (pub 01:38, before lookback). Not opened: The Hindu YTPS/Komatireddy roads/NDRF-SDRF/PPA Polavaram (direct links refused). No district search sweep."
-  },
   {
    "window": "2026-11-18T13:05:00+05:30/2026-11-18T13:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Lookback from 00:05. Feeds 08:18 IST, 68/68 ok, 704 uncovered since 00:05 (most already published under other URLs). add_repo not available; used existing clone. Published 5: TG ₹20,000 cr urban infra (ETV Bharat), Amit Shah Nov 24 Hyderabad (V6), AP phase-2 municipal polls 3,141 candidates + MPP 642/659 (ETV AP live blog), AICC in-charge Sandeep Nov 22 (ETV TG live blog), Peru 6.9 quake (Siasat/AP). Dropped for shared live-blog link: AP mandal polls (merged into municipal story), Tirumala Kaishika Dwadashi. Skipped: CM Revanth Chennai wedding reception (personal), Trump data centres/bird flu vaccine (blog lines too thin). Not opened (search gave no match): The Hindu triplets, NIMS medical-tourism wards (DC, pre-lookback older matches only), AP women 18/28 ZP chairs (TOI), HC HWO list (NIE), ethanol firm (NIE), I-T Sneha Group, INCOIS La Nina, KL Rahul ton (ANI 4xx). Lang pages and sitemap.xml reverted."
+  },
+  {
+   "window": "2026-11-21T08:35:00+05:30/2026-11-21T09:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 6,
+   "late": 6,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 5,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 00:35. Feeds 08:41 IST, 70/70 ok, 767 TG/AP uncovered (138 local unseen in lookback, most already published under other URLs). add_repo not available; used existing clone. Published 6: T-Fiber four-village pilot (V6), Yasangi 25% alternative crops (V6), I-T searches Sneha Group 16 places (Andhra Jyothy), KL Rahul Wellington century (IANS), PM Bihar Rs 34,470 cr projects (Hans India/IANS), COP31 overtime (AP via News4JAX). Duplicates: TG exports 68% (Hans/NIE/TOI), Vijayawada bypass diversion, Karimnagar water-waste fine (HMTV), AIG ultrasound study (NIE/DC), Pochampally tour (V6). Skipped old: Tadipatri clashes (AJ 20 Nov 12:55), SC on AP SEC candidate list (Oct item), Oct core sector 10.9% (20 Nov). Not opened: Indus Waters Treaty/SCO (Deccan Herald 4xx; The Hindu no match), HC notices Kesireddy (TOI), Ahluwalia (NIE), oocyte bail (NIE), Cyberabad twin towers (Samayam), TG loans curbs and true-up charges (V6, no search match), Eenadu district items (robots). Lang pages and sitemap.xml reverted."
   }
  ],
  "seen": [
@@ -6268,6 +6268,71 @@
    "url": "https://www.siasat.com/magnitude-6-9-earthquake-jolts-peru-no-casualties-reported-3582683/",
    "d": "2026-11-21",
    "w": "2026-11-21T08:35"
+  },
+  {
+   "url": "https://www.v6velugu.com/t-fiber-pilot-succeeds-in-four-villages-high-speed-internet-reaches-rural-households-",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/telangana-agriculture-department-targets-25-shift-from-paddy-to-alternative-crops-in-rabi-season-",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/it-department-conducts-raids-on-sneha-group-across-telangana-and-andhra-pradesh-vk-1578454.html",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://ianslive.in/1st-test-kl-rahul-becomes-first-indian-opener-to-score-test-tons-in-all-sena-countries--20261121080751",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/national/pm-modi-to-unveil-development-projects-worth-rs-34470-crore-in-bihar-today-1144298",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.news4jax.com/news/world/2026/11/21/climate-talks-in-overtime-as-nations-wrestle-with-response-to-worsening-global-warming/",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/ananthapuram/tadipatri-tdp-ysrcp-clashes-seven-injured-suchi-1578154.html",
+   "d": "2026-11-21",
+   "w": "old"
+  },
+  {
+   "url": "https://newsonair.gov.in/sc-directs-andhra-pradesh-state-ec-to-withhold-final-candidate-list-for-urban-local-body-polls-until-oct-26/",
+   "d": "2026-11-21",
+   "w": "old"
+  },
+  {
+   "url": "https://www.deccanherald.com/business/core-sectors-growth-rises-to-109-in-october-coal-iron-ore-electricity-key-drivers-4225433",
+   "d": "2026-11-21",
+   "w": "old"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/municipal-council-approves-10-agenda-items-fines-on-water-waste-215369",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/intestinal-ultrasound-has-a-lower-carbon-footprint-says-aig-hosp-study-2006403",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.v6velugu.com/telangana-tourism-one-day-tour-package-to-yadagirigutta-and-pochampally",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.telugupost.com/amaravati-news/vehicles-vijayawada-bypass-suspended-saturdays-sundays-1626149",
+   "d": "2026-11-21",
+   "w": "duplicate"
   }
  ]
 }
