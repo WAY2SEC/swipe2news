@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T23:05:00+05:30",
+ "cutoff": "2026-11-21T23:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T08:05:00+05:30/2026-11-19T08:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 5,
-   "review": 0,
-   "gaps": "Feeds 08:09 IST, 70/70 ok, lookback 00:05. Published 3: Andhra Jyothy Raptadu travels bus overturn (06:30, 30–40 injured), Hans Bhupalpally Indiramma insurance enrolment till Dec 18 (06:00), IANS IND–NZ 1st Test NZ 140/5 at tea (08:26). Skipped: Telangana Today TG rain Nov 19–22 (published 17 Nov, old), ETV Tirumala darshan wait (routine), BigTV Palnadu Gamalapadu lorry crash (too few confirmed facts, in same article as bus crash), IANS/Tribune lunch score (superseded), Hans Bhupalpally is a district angle of the already-covered Indiramma insurance launch. Not opened: NST Israel central Gaza ground op (robots), search did not surface Hans Guntur LRS mela, Hans Nellore non-paddy crops, Hans Sathya Sai rythu bazaar, Samayam/AJ deputy collectors suspension, Eenadu/V6 Nagole tree-fall death, NewsOnAir Modi–Prince William meeting, TV9 AP DSC 2,111 posts. District searches (Khammam, Nizamabad, Srikakulam, Nellore, Mahabubnagar, Kadapa, Adilabad, Vizianagaram) returned only tag/index pages. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T08:35:00+05:30/2026-11-19T09:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 8,
    "review": 0,
    "gaps": "Lookback from 14:35. Feeds 22:47 IST, 70/70 ok, 807 TG/AP flagged uncovered; 50 events first seen since 22:05 reviewed. add_repo not available; used existing clone. WebFetch only opens URLs returned by a search in this run (first fetch attempt on feed URLs refused). Published 3: RGIA 1.049 kg gold, two held by DRI (Siasat 22:39, sensitive), Vizag Steel 3 golds at ICQCC Dhaka (DC 22:30), GHMC park fee column (Siasat opinion 22:17). Duplicates: Gandhi Hospital newborn six held (published 17:35), Future City cable thefts DC (published 20 Nov), India-Canada trade talks TOI. Not opened: DC Nelakondapally 19 cows/6 arrested (search did not return), GK Today AP e-SR 2.0 (search did not return), Disha aerospace investment, Disha activists recognition, News18 Vizag cancer surgery, HMTV Hindupur Tipu jayanti. Skipped: party statements (Chandrababu, Jagadish Reddy, Harish Rao), health tips, entertainment, other-state. check_news.py flags e/ keys (files exist in art/e). Lang pages, index.html and sitemap.xml reverted. Older TG/AP backlog not worked."
+  },
+  {
+   "window": "2026-11-21T23:05:00+05:30/2026-11-21T23:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 8,
+   "review": 0,
+   "gaps": "Lookback from 15:05. Feeds 23:29 IST, 68/68 ok, 799 TG/AP flagged uncovered (flag unreliable); 55 events first seen since 22:40 reviewed. add_repo not available; used existing clone. Pages read via web-fetch agents on search-result URLs. Published 3: Gandhi Hospital PG doctors oppose shifting patients to TIMS (DC 23:07), CM: Kaloji Kalakshetram for arts not offices (DC 22:58), Modi likely to lay Mamnoor airport stone in December (DC 22:52, claim - unnamed sources). Duplicates: pulse polio 18 lakh children, Godavari Pushkaralu review, statehood activists panel, Siasat hospital child abduction (Gandhi newborn case published). Not opened (search did not return): TT TASK vs Balakrishna award, DC Gumpula check dam, DC 1M1B MoU, Hindu toy factory fire, GK Today AP police passport award, Hindu Vijayawada skater, DC Akunuri Murali inter merger, TT Paloncha Dammapet rename, TOI AP monsoon deficit. Skipped: party statements (NDA seats, Cong vs BJP/BRS, Naidu allies), sports league scores, health columns, other-state/world minor. check_news.py flags e/ keys (files exist in art/e). Lang pages, index.html and sitemap.xml reverted. Older TG/AP backlog not worked."
   }
  ],
  "seen": [
@@ -7703,6 +7703,21 @@
    "url": "https://www.deccanchronicle.com/southern-states/telangana/future-city-police-bust-serial-cable-theft-cases-19-cases-detected-one-accused-arrested-2006679",
    "d": "2026-11-21",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/gandhi-hospital-pg-doctors-oppose-shifting-admitted-patients-to-tims-2006707",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/kalakshetram-for-arts-not-government-offices-says-cm-revanth-2006703",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/pm-modi-likely-to-lay-foundation-stone-for-mamnoor-airport-in-december-2006701",
+   "d": "2026-11-21",
+   "w": "published"
   }
  ]
 }
