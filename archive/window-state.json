@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T10:05:00+05:30",
+ "cutoff": "2026-11-21T10:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-18T14:05:00+05:30/2026-11-18T14:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 2,
-   "late": 2,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 9,
-   "review": 0,
-   "gaps": "Feeds 14:16 IST, 68/68 ok; 730 uncovered TG/AP flagged, most already published, older than lookback 06:05 or Google-News-only links that search did not surface. add_repo not available; used existing clone. Published: ETV Bharat TG national archery medals, IND Today Kavitha on Sagar tunnel (claim). Duplicates: Siasat Balmoor Venkat family crash (09:05), ETV Russian An-12 crash (06:05). Skipped (before lookback): IE US strikes Qeshm (3 Nov), Oneindia Kulgam Lateef Bhat (16 Nov), DC fishermen advisory (17 Nov), DC NPDCL (26 Oct), Hans APSPDCL (17 Nov), CareerPower AP civil judge (3 Oct), Federal/Siasat Akvan (16 Nov); Hans Oxygen Park garbage (clearance on 13 Nov, minor); Business Today Akvan (already covered). Not opened: SCMP Qeshm (fetch refused), The Hindu NDRF/SDRF, KTR 90 TMC ANI, NEET charges, TG police promotions, Polavaram PPA CEO (not surfaced). District searches: Nellore, Warangal, Khammam, Anantapur, Karimnagar only."
-  },
   {
    "window": "2026-11-18T14:35:00+05:30/2026-11-18T15:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 01:35. Feeds 09:45 IST but only 4/70 feeds ok (Google News outlet/district feeds HTTP 503), 22 uncovered events in lookback. add_repo not available; used existing clone. Fetch works only for URLs returned by a search in this run. Published 5: Tiruvuru tiger movement (Andhra Jyothy live blog), Indus Waters Treaty stand unchanged (Siasat/PTI), Brickwork FY27 GDP 7% forecast (Telangana Today/IANS), Riyadh missiles intercepted (Siasat, claim), Trump wants Huang back at Nvidia (Al Jazeera). Duplicate: NIMS/TIMS medical tourism wards (Siasat) = 20 Nov PPP healthcare story. Skipped: DC six-district ZP chairs incl. Tirupati (20 Nov 22:17, before lookback); Manipur spurious liquor deaths and Kondapur funding fraud (Andhra Jyothy blog lines too thin / unattributed allegation). Not opened (no search match, fetch refused): The Hindu INCOIS La Nina, Koti Deepotsavam, Hemalatha Tirupati ZP; Telangana Today Hyderabad suicide report, Pankaj Advani snooker. Not attempted (caps): Amit Shah Arunachal, Trump immigration talks, ATP Finals, Rohingya verdict reaction. Lang pages and sitemap.xml reverted."
+  },
+  {
+   "window": "2026-11-21T10:05:00+05:30/2026-11-21T10:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 9,
+   "published": 7,
+   "late": 5,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 02:05. Feeds 10:21 IST, 68/68 ok, 731 TG/AP flagged uncovered but most top events already published 20-21 Nov under other URLs (rice millers SC, 2,000 home guards, Rekha Naik ED, Raj Reddy bail, Suryapet tipper, APMDC IPO, iBreast, Avinash Reddy convoy, Trump-Xi-Putin, Anthropic IPO). add_repo not available; used existing clone. Published 7: thermal output cut 2,090 MW (Namasthe Telangana), NH signboard village-name errors (Andhra Jyothy), Uppal bike crash 2 dead (Telangana Today), Bank of America Hyderabad lease (Siasat), KTR RBI panchayat funds (TT, claim), Gorrekunta fish waste column (TT, opinion), NIA seeks UAE help on Flydubai attack (Siasat/PTI). Not opened (no search match): NIE HWO list HC relief, Hari Hara Kala Bhavan renovation, AP vehicle registrations October. Lang pages and sitemap.xml reverted."
   }
  ],
  "seen": [
@@ -6421,6 +6421,51 @@
   },
   {
    "url": "https://www.siasat.com/telangana-plans-medical-tourism-wards-at-nims-3-tims-hospitals-3582698/",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/telangana-suspends-2090-mw-thermal-power-generation-amid-declining-demand-2565342",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/telangana-village-names-spelling-mistakes-national-highways-ai-translation-errors-telugu-1578353.html",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-two-youths-killed-as-motorcycle-crashes-into-electricity-pole-at-uppal",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/bank-of-america-arm-to-pay-rs-1450-cr-rent-for-hyderabad-office-3582731/",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.millenniumpost.in/business/bank-of-america-leases-1010-lakh-sq-ft-in-hyderabad-for-rs-1450-crore-683837",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/congress-neglecting-villages-ktr-cites-rbi-report-9d59bf4d",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/fish-waste-to-wealth-telanganas-gorrekunta-shows-the-way",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/flydubai-attack-nia-probes-omani-co-pilots-links-in-india-3582730/",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/sc-clears-way-for-telangana-to-act-against-defaulting-rice-millers-in-540-firs-2006439",
    "d": "2026-11-21",
    "w": "duplicate"
   }
