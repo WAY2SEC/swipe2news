@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T21:05:00+05:30",
+ "cutoff": "2026-11-21T21:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T06:05:00+05:30/2026-11-19T06:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 6,
-   "late": 1,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Feeds 06:29 IST, 68/68 ok, 760 uncovered events in lookback (22:05). Published: TT Sangareddy 200 silencers (00:16), Hans Belum Caves makeover (05:40), Hans Tirupati MP rly division (05:15), Hans Owk anganwadi snakebite (05:34, sensitive), Hans Canara Bank loan mela Kakinada (04:35), HMTV Medchal 5-yr-old road death (22:42, late, sensitive). Duplicate: Hans NDA local poll press meet (same as published Madhav/NDA story). Not opened: Disha & telugunow breakfast scheme 7 districts (fetch error), Sakshi Kamareddy ration cards, DC Kodumur SI, Hans Vijayawada teacher organ donation (not surfaced by search). news.json kept at 557 stories (not trimmed to 50, matching previous runs). add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T06:35:00+05:30/2026-11-19T07:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 12:35. Feeds 20:58 IST, 70/70 ok, 841 TG/AP flagged uncovered; 99 events first seen since 20:10 reviewed. add_repo not available; used existing clone. No direct WebFetch tool in this run: pages read through web-fetch agents, which only open URLs returned by a search (typed feed URLs time out after 5 min). Published 4: Uppal Heritage Foods drum explosion, woman dies (TT 20:21, sensitive, not named), AP Congress Samvidhan Raksha March Nov 26 (PTI via ThePrint, late 19:46), irumudi in aircraft cabin (Onmanorama, late 19:40), India-Canada CEPA sixth round (PTI via DC 20:52). Duplicates: DRI gold Rs 3.83 crore (Hindu/TT; Siasat story already published), TGSPDCL sub-engineer bribe (TT; V6 story published). Old: South First AP HIV Surakshit districts (20 Nov 20:03). Not opened (Hindu/TT only, typed URLs refused, search did not return): CoRWA rainwater challenge, CEO RTI on SIR publicity, Hyderabad pulse polio 5.22 lakh, CJI AI regulation, Naidu on investors, MBT petition to MEA, IRC pedestrian panel, TDP on Vijayawada mayor venue. Skipped: party statements, entertainment, lifestyle, own-group auto show, other-state. check_news.py still reports e/ pictures as unknown keys (files exist in art/e); kept e/ per pictures.md. Lang pages, index.html and sitemap.xml reverted. Older TG/AP backlog not worked."
+  },
+  {
+   "window": "2026-11-21T21:05:00+05:30/2026-11-21T21:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 2,
+   "late": 2,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 8,
+   "review": 0,
+   "gaps": "Lookback from 13:05. Feeds 21:17 IST, 68/68 ok, 782 TG/AP flagged uncovered (flag unreliable; checked against news.json/archive). add_repo not available; used existing clone. Pages read via web-fetch agents. Published 2: TGSLSA Lok Adalat 3,727 cheque bounce cases (TT 20:32, late), Dabeerpura police arrest in debit-card mule case (TT 19:46, late, sensitive, not named). Not opened: Disha Mallanna Sagar/Kondapochamma oustees land GO (fetch refused), HMTV Sircilla school attendance, HMTV Bhadrachalam VB-G RAM G, HMTV Jammikunta child-marriage awareness, Disha Nizamabad mass weddings (search did not return). Skipped: Jagan rigging allegation, Chandrababu warning to MLAs, YSRCP CBI demand, TDP venue row (party statements), Jagan-Sharmila Yelahanka court petition (m9 'reportedly', no court order confirmed), entertainment, Ranigunj RuB (Nov 18 old), DC Modi skills (Oct 9 old). check_news.py still flags e/ keys (files exist in art/e). Lang pages, index.html and sitemap.xml reverted."
   }
  ],
  "seen": [
@@ -7563,6 +7563,31 @@
    "url": "https://telanganatoday.com/tgspdcl-sub-engineer-held-for-bribery-cbc7e37b",
    "d": "2026-11-21",
    "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/lok-adalat-settles-3-727-cheque-bounce-cases-b4ecfa78",
+   "d": "2026-11-21",
+   "w": "21:35"
+  },
+  {
+   "url": "https://telanganatoday.com/man-held-in-mule-bank-account-case-c873d9d4",
+   "d": "2026-11-21",
+   "w": "21:35"
+  },
+  {
+   "url": "https://www.dishadaily.com/telangana/medak/good-news-for-those-displaced-by-the-mallanna-sagar-and-kondapochamma-projects-government-issues-orders-allocating-land-602702",
+   "d": "2026-11-21",
+   "w": "21:35"
+  },
+  {
+   "url": "https://www.m9.news/politics/jagan-sharmila-yelahanka-property-court-wedding-dispute/",
+   "d": "2026-11-21",
+   "w": "21:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/amp/nation/make-india-a-global-hub-of-skilled-talent-modi-1994489",
+   "d": "2026-11-21",
+   "w": "21:35"
   }
  ]
 }
