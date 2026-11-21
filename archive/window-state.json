@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T13:35:00+05:30",
+ "cutoff": "2026-11-21T14:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-18T17:35:00+05:30/2026-11-18T18:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 6,
-   "late": 0,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 17:59 IST, 70/70 ok. Lookback 09:35. Feed 'covered' flags unreliable (most uncovered TG/AP events already published). Published: Siasat Mahabubabad sarpanch ACB trap (name withheld), NT News Addagudur gurukul POCSO 5 remanded (names withheld), Andhra Jyothy Indiramma insurance enrolment centres, Siasat TG SAFE Hyderabad hostel raids, Siasat TG HC Hindu adoption ruling, TT IIIT Junction flyover. Duplicate: Siasat Cherla 280 BGL shells (Karreguttalu dump story 17 Nov). Skipped: NT News Dandepalli paddy fire (published 02:39, before lookback). Not surfaced by search: Hindu TG 12-district rain alert, Hindu Vizag chip plant, BusinessLine maize oil, ETV/Hans TG SIR re-extension, ET AP universities, TT blind cricket, IE Nizamabad SBI insurance, DC PRTS, TV9 AP rooftop solar. District searches (Mancherial/Nirmal/Adilabad/Asifabad, Kurnool/Nandyal/Kadapa/Anantapur, Warangal/Hanumakonda/Jangaon/Mulugu, Guntur/Bapatla/Palnadu/Krishna/Eluru, Siddipet/Medak/Sangareddy/Vikarabad) mostly stale. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-18T18:05:00+05:30/2026-11-18T18:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 05:05. Feeds 13:17 IST, 67/68 ok (Mana Telangana failing), 751 TG/AP flagged uncovered (most already published under other URLs). add_repo not available; used existing clone. Published 1: Kamareddy Riyadh drone-attack victim's family seeks aid (Siasat). Old: ProjectsMonitor/TOI PM-SETU Rs 1,011 cr ITI clusters (first published 20 Nov 10:13). Already covered: ETV/AJ live-blog items (IT searches Sneha Group, Tiruvuru tiger, Peru quake, Trump remarks, Prakasam crash). Not opened (no search match): The Hindu Chamala BJP-BRS remark, ETV Bharat AP HC Sirisahasra caste row, Eenadu/AJ Chandrababu local-poll strike rate press meet, Prajasakti Chevireddy Mohit Reddy hunger strike, GK Today Maisamma Gutta rock art. Skipped: TT Hyderabad student death (suicide). Lang pages, index.html and sitemap.xml reverted."
+  },
+  {
+   "window": "2026-11-21T13:35:00+05:30/2026-11-21T14:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 8,
+   "published": 8,
+   "late": 1,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 05:35. Feeds 13:42 IST, 70/70 ok, 784 TG/AP flagged uncovered (most already published under other URLs); 101 events new since 12:45 reviewed. add_repo not available; used existing clone. Published 8: census syllabus by December (ETV Bharat), Kaushik Reddy 1,029 pensions claim (Telangana Today), Rajagopal Reddy called by AICC (ETV Bharat), Ghatkesar highway jam (V6, claim), Langer Houz extortion case (Telangana Today, police), Lokesh Railway Koduru harassment order (Deccan Chronicle), Adinarayana Reddy Kadapa ZP resignations (South First, claim; follow-up to 20 Nov story), Manipur suspected spurious liquor 11 dead (Assam Tribune, late-found 09:27). Old: TT Jubilee Hills pub clash (Sep 2026), TT cyclone north TN (15 Nov), TT UPSC outage (2024), GK Today Madhira breakfast (July 2026), ICJ Rohingya ruling (19 Nov). Not opened: The Hindu Srikakulam 15,440 cusecs and Chamala BJP-BRS, Siasat court bail after 24-hour detention (URLs not returned by search, WebFetch refused), Disha Karimnagar ACB widow-pension bribe (client error), Prajasakti Chintakunta/Mangapatnam nomination papers, Prajasakti/NTV Chandrababu press meet, HMTV Vikarabad land. Skipped: Siasat entertainment items. Direct feed URLs cost ~5 min each when refused; only search-returned URLs open. Lang pages, index.html and sitemap.xml reverted."
   }
  ],
  "seen": [
@@ -6728,6 +6728,96 @@
    "url": "https://telanganatoday.com/student-death-reported-d7eed86e",
    "d": "2026-11-21",
    "w": "2026-11-21T13:35"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/second-phase-of-census-in-telangana-starts-from-january-25th-tgs26112101187",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/brs-mla-kaushik-reddy-alleges-1029-pensions-discontinued-in-huzurabad-challenges-revanth",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/mla-komatireddy-rajagopal-reddy-gets-call-from-congress-high-command-tgs26112102819",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/heavy-traffic-jam-on-warangal-national-highway-near-ghatkesar",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-langer-houz-police-books-reshma-don-for-alleged-extortion-trespass",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/nara-lokesh-responds-to-eve-teasing-complaints-by-girl-students-in-railway-koduru-2006571",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://thesouthfirst.com/andhrapradesh/kadapa-zp-chairman-row-jammalamadugu-mla-adinarayana-reddy-alleges-tdp-is-denying-bjp-its-due-share-in-local-bodies/",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://assamtribune.com/north-east/11-dead-over-180-hospitalised-after-suspected-spurious-liquor-consumption-in-manipur-1623085",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/two-groups-clash-at-hyderabad-pub-police-file-3-cases",
+   "d": "2026-11-21",
+   "w": "old"
+  },
+  {
+   "url": "https://telanganatoday.com/cyclonic-storm-threat-north-tamil-nadu-coast-under-watch",
+   "d": "2026-11-21",
+   "w": "old"
+  },
+  {
+   "url": "https://telanganatoday.com/deadline-ends-for-civil-services-exam-aspirants-complain-of-website-outage",
+   "d": "2026-11-21",
+   "w": "old"
+  },
+  {
+   "url": "https://www.gktoday.in/telangana-deputy-cm-launches-school-breakfast-programme-and-kitchen-in-madhira/",
+   "d": "2026-11-21",
+   "w": "old"
+  },
+  {
+   "url": "https://www.hrw.org/news/2026/11/19/world-court-finds-myanmar-committed-rohingya-genocide",
+   "d": "2026-11-21",
+   "w": "old"
+  },
+  {
+   "url": "https://munsifdaily.com/delhi-high-command-directs-rajagopal-reddy-to-meet-new-telangana/",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://dishadaily.com/telangana/congress-high-command-calls-komatireddy-raj-gopal-reddy-for-key-meeting-602556",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/rift-in-alliance-in-kadapa-over-denial-of-zp-chairperson-post-to-bjp-2006408",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/salman-khan-calls-his-18-films-in-rs-100-crore-club-disasters-3582677/",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/pakistans-first-netflix-series-trailer-cast-release-date-update-3582890/",
+   "d": "2026-11-21",
+   "w": "skipped"
   }
  ]
 }
