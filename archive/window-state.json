@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T11:05:00+05:30",
+ "cutoff": "2026-11-21T11:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-18T15:05:00+05:30/2026-11-18T15:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 10,
-   "published": 7,
-   "late": 5,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 7,
-   "review": 0,
-   "gaps": "Feeds 15:17 IST, 68/68 ok. Lookback 07:05. Published: Hans Akvan high alert (13 NDRF/11 SDRF), Siasat OU Lulu job fair, HMTV Sircilla 1,668 Cheyutha pensions, HMTV Eluru corporation ACB checks, INDToday Sangareddy 11.2C cold, Skift Air India Express CEO, Daily Jagran US strike Qeshm. Duplicate: TT Uppal NGRI snatching (DC 10:05). Skipped (before lookback): Hans Gummagatta KGBV 40 ill (02:30), Hans PM Surya Ghar (04:30), DC AP Nov 26 holiday (17 Nov), Siasat YTPS (17 Nov), TT KNRUHS fees (17 Nov), HyderabadMail HC Task Force (17 Nov), DC Polavaram alert (17 Nov). Not opened/not found: CCI cotton BusinessLine, maize edible oil BusinessLine, Rayadurg KGBV NIE, Somasila NIE. add_repo not available; used existing clone. No district rotation searches this run (feed-driven)."
-  },
   {
    "window": "2026-11-18T15:35:00+05:30/2026-11-18T16:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 1,
    "gaps": "Lookback from 02:35. Feeds 10:43 IST, 70/70 ok, 802 TG/AP flagged uncovered (many already published under other URLs). add_repo not available; used existing clone. Fetch works only for URLs returned by a search in this run (direct feed URLs refused). Published 11: Hyderabad CP crackdown (DC/ANI), KTR on Meta office protest (TT, claim), Madhira 4 doctors suspended (V6), Nalgonda youth dies in US (DC), Vikarabad nakabandi (HMTV), Sangareddy 252 vehicles seized (HMTV), Bhadrachalam Pushkar ghat inspection (HMTV), Kamareddy woman in Victoria poll (ETV Bharat, claim), Vizianagaram ZP chair HC relief (ap7am), Guidance TN denial (DC, claim), Trump overseas data-centre tax (AP via Manila Times). Skipped (before lookback): Konakalla health (20 Nov evening), Visakha-Tirupati Vande Bharat (TV9 19 Nov), Annamayya ZP greetings (HMTV 20 Nov), Federal Siri Sahasra 17 Nov. Duplicate: DC Tadipatri clash = 20 Nov story. Review (no publication time): tmv.in Gadwal Indiramma insurance camp. Not opened (no search match): The Hindu INCOIS La Nina, Hemalatha Tirupati ZP, Koti Deepotsavam; TT Hyderabad suicide report, Amit Shah Arunachal, Air Niugini; Siasat Ramayana protest; NIE HWO list; V6 Centre loan curbs; Indiramma Bima changes (10TV/Samayam); Badvel school; NBC/SCMP refused. Old items in feed ignored: paneer ban (Sep), Goldy Brar FBI list (Sep), SC on AP SEC list (Oct), 429 asst professor posts (13 Nov). Lang pages, index.html and sitemap.xml reverted."
+  },
+  {
+   "window": "2026-11-21T11:05:00+05:30/2026-11-21T11:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 2,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 6,
+   "review": 1,
+   "gaps": "Lookback from 03:05. Feeds 11:21 IST, 68/68 ok, 715 TG/AP flagged uncovered (most top events already published under other URLs). add_repo not available; used existing clone. Published 2: Jagtial man stranded in Oman (Siasat, claim), Yemen airstrikes 41 dead per Houthis (Telangana Today/IANS, claim). Duplicate: Kondagattu nijaroopa darshan (= 20 Nov story). Skipped (published before lookback or old): Hans Goshamahal tankers (18 Nov), Hans Guntur poll arrangements (17 Nov), DC ED liquor bail plea (13 Nov), DC SEC fair polls (14 Nov), Hans AP Rs 1,011 cr hospital upgrade (20 Nov 04:47), ThePrint Nepal PM visit (20 Nov 15:18). Review (only updated time): Hans Kondagattu 1142430. Not opened (no search match): Kamareddy pole collapse death, Kurnool mall film piracy (NIE), Telangana cold wave (Disha/Vaartha), ETV Bharat Hyderabad borewells, Kadapa school occult row (NewsMeter), Miss Telangana runner-up, Rangareddy hostel student death (DC), INCOIS La Nina. Lang pages, index.html and sitemap.xml reverted."
   }
  ],
  "seen": [
@@ -6548,6 +6548,51 @@
    "url": "https://tmv.in/article/indiramma-insurance-existing-government-scheme-beneficiaries-also-eligible-for-5-lakh-cover",
    "d": "2026-11-21",
    "w": "review"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-man-stranded-in-oman-after-job-fraud-3582761/",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/saudi-led-coalition-airstrikes-kill-41-in-yemen-as-houthis-claim-attacks-on-saudi-facilities",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/water-tankers-draining-goshamahals-groundwater-1143137",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/guntur/elaborate-arrangements-for-mtmc-ponnuru-municipality-and-gram-panchayat-elections-in-guntur-district-collector-cm-sai-kanth-varma-1143011",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ed-moves-telangana-hc-to-cancel-bail-of-ap-liquor-scam-accused-2003946",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/sec-directs-officials-to-ensure-free-fair-local-body-elections-2004448",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://theprint.in/diplomacy/balen-shah-to-begin-two-day-india-visit-sunday-substantive-economic-package-for-nepal-on-the-cards/3104146/",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/amp/telangana/kondagattu-temple-to-offer-nijaroopa-darshan-after-60-years-1142430",
+   "d": "2026-11-21",
+   "w": "review"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/karimnagar/kondagattu-temple-set-for-rare-chandanotsavam-after-60-years-1141572",
+   "d": "2026-11-21",
+   "w": "duplicate"
   }
  ]
 }
