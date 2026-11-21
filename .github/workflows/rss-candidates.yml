@@ -1,0 +1,27 @@
+name: RSS candidates → editor queue (manual)
+
+# Reads a few direct RSS feeds with tools/collect_feeds.py --candidates and adds new stories to the editor queue
+# (newsroom Sheet "Review", risk "rss"). No AI. Never writes news.json, the archive or the feeds branch:
+# this job has read-only repo access. Run by hand for now (no schedule until the owner approves one).
+on:
+  workflow_dispatch:
+    inputs:
+      feeds:
+        description: 'Direct feeds from tools/feeds.json (comma separated names)'
+        default: 'The Hindu,Telangana Today'
+
+permissions:
+  contents: read
+
+jobs:
+  candidates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 1 }
+      - name: Collect and queue
+        env:
+          NEWSROOM_URL: ${{ secrets.NEWSROOM_URL }}
+          NEWSROOM_BOT_KEY: ${{ secrets.NEWSROOM_BOT_KEY }}
+        run: python3 tools/collect_feeds.py . /tmp/rss --candidates --only "${{ inputs.feeds }}" --max 20 --post

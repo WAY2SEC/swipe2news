@@ -11,6 +11,8 @@ const words=s=>String(s||'').trim().split(/\s+/).filter(Boolean).length;
 const opts=(l,v)=>l.map(([k,t])=>`<option value="${esc(k)}"${k===v?' selected':''}>${esc(t)}</option>`).join('');
 async function pics(){ if(PICS) return PICS; PICS=[]; try{ const md=await (await fetch('/tools/pictures.md')).text();
   md.split('\n').forEach(l=>{ const m=l.match(/^-\s+((?:c|o|i|n|s|cv|w|d)\/[a-z0-9-]+)\s*(?:[–-]\s*(.*))?$/); if(m) PICS.push([m[1],m[1]+(m[2]?' – '+m[2].slice(0,50):'')]); }); }catch(e){} return PICS; }
+   // only the keys tools/check_news.py accepts (the newer e/ library isn't allowed by the checker yet)
+window.__rss=()=>RSS;   // read-only peek for tests
 window.loadRss=async function(){ try{ const j=await call({action:'rsslist'}); RSS=(j&&j.ok&&j.items)||[]; }catch(e){ RSS=[]; }
   const n=document.getElementById('nR'); if(n) n.textContent=RSS.filter(i=>i.status==='candidate'||i.status==='draft').length; };
 

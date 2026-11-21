@@ -1,0 +1,38 @@
+name: Publish approved RSS stories (TEST feed)
+
+# Publishes ONLY stories an editor approved in /editor/ (📡 RSS), word for word, to the TEST feed staging/news.json.
+# Hash-checked, never twice (rv), and the live news.json / archive are refused by the tool itself.
+# Pushes made with this token don't start the alert / IndexNow / feeds workflows, and those only watch news.json anyway.
+# Rollback: run with action = rollback.
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'publish or rollback'
+        default: 'publish'
+
+permissions:
+  contents: write
+
+concurrency: { group: publish-approved, cancel-in-progress: false }
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      NEWSROOM_URL: ${{ secrets.NEWSROOM_URL }}
+      NEWSROOM_BOT_KEY: ${{ secrets.NEWSROOM_BOT_KEY }}
+      S2N_TEST_FEED: staging/news.json
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 1 }
+      - name: ${{ inputs.action }}
+        run: |
+          git config user.name "Swipe2News Bot"; git config user.email news-bot@swipe2news.invalid
+          if [ "${{ inputs.action }}" = "rollback" ]; then python3 tools/publish_approved.py rollback; else python3 tools/publish_approved.py publish --no-mark; fi
+          git add staging/news.json staging/history
+          git diff --cached --quiet && { echo "test feed unchanged"; [ "${{ inputs.action }}" = "rollback" ] || python3 tools/publish_approved.py mark; exit 0; }
+          git commit -qm "TEST feed: ${{ inputs.action }} $(TZ=Asia/Kolkata date '+%Y-%m-%d %H:%M') IST"
+          for i in 1 2 3; do git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && break; sleep 5; done
+          [ "${{ inputs.action }}" = "rollback" ] || python3 tools/publish_approved.py mark   # mark only after the push

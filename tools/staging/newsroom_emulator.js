@@ -54,7 +54,7 @@ function formatDate(d, tz, fmt) {   // supports the patterns in reporter_apps_sc
   return fmt.split(/('[^']*')/).map(p => (p.startsWith("'") ? p.slice(1, -1) : p.replace(/yyyy|yy|MM|dd|HH|mm|ss/g, k => map[k]))).join('');
 }
 const ctx = {
-  console,
+  console, Logger: { log: () => {} },
   SpreadsheetApp: { getActiveSpreadsheet: () => SPREADSHEET, openById: () => SPREADSHEET, create: () => SPREADSHEET },
   PropertiesService: { getScriptProperties: () => ({ getProperty: () => null, setProperty: () => {} }) },
   LockService: { getScriptLock: () => ({ waitLock: () => {}, releaseLock: () => {} }) },
@@ -73,6 +73,9 @@ if (!src.includes("'PUT-EDITOR-KEY-HERE'") || !src.includes("'PUT-BOT-KEY-HERE'"
 src = src.replace("'PUT-EDITOR-KEY-HERE'", JSON.stringify(EK)).replace("'PUT-BOT-KEY-HERE'", JSON.stringify(BK));
 vm.createContext(ctx);
 vm.runInContext(src + '\n;this.__doPost = doPost; this.__doGet = doGet;', ctx, { filename: 'reporter_apps_script.gs' });
+// first start: the script's own setup() makes the sheets (its Drive photo folder step is not emulated)
+try { vm.runInContext('setup()', ctx); } catch (e) { /* Drive folder */ }
+save();
 
 // ---- HTTP, like the web app URL -----------------------------------------------------------------------
 const LOG = arg('--log', '');
