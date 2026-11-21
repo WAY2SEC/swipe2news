@@ -1,6 +1,6 @@
 # Swipe2News story check
 
-## news.json: 115 stories · 64 to fix · 29 to look at · 0 fixed automatically
+## news.json: 115 stories · 64 to fix · 31 to look at · 0 fixed automatically
 - ERROR: #1 "లోక్ అదాలత్‌లో 3,727 కేసుల పరిష్కారం": pic "e/legal-aid-consultation" is not in tools/pictures.md – pick a real key
 - ERROR: #2 "చంచల్‌గూడలో సైబర్ మోసం కేసులో అరెస్ట్": pic "e/cyber-fraud-complaint" is not in tools/pictures.md – pick a real key
 - ERROR: #3 "ఉప్పల్‌లో డ్రమ్ము పేలి మహిళ మృతి": pic "e/industrial-safety-incident" is not in tools/pictures.md – pick a real key
@@ -70,6 +70,7 @@
 - CHECK: #13 "హైదరాబాద్ బాలిక ఆచూకీ బీదర్‌లో లభ్యం": hard words for readers – say it simply: లభ్యం → దొరికింది; ఆచూకీ → దొరికింది / కనిపించలేదు
 - CHECK: #15 "ఓర్వకల్లు రిలయన్స్ ప్లాంట్‌లో ఉత్పత్తి": picture line is long (35 letters) – keep stat + statl short so it fits one line
 - CHECK: #17 "సఫ్రాన్ పెట్టుబడిపై తెలంగాణ ఆశ": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #19 "మేడిపల్లిలో ముసుగు ముఠా సంచారంతో ఆందోళన": picture line has a tail ("స్థానికుల ప్రకారం") – write one natural phrase
 - CHECK: #32 "20 ఏళ్ల వేర్పాటు దంపతులకు విడాకులు": hard words for readers – say it simply: వేర్పాటు → విడిగా ఉన్న
 - CHECK: #32 "20 ఏళ్ల వేర్పాటు దంపతులకు విడాకులు": picture line is long (36 letters) – keep stat + statl short so it fits one line
 - CHECK: #33 "గాంధీ ఆసుపత్రిలో ముగ్గురు శిశువుల జననం": hard words for readers – say it simply: జననం → పుట్టారు
@@ -92,13 +93,14 @@
 - CHECK: #90 "అక్వాన్: తీరానికి 30 వేల పడవలు": picture line is long (36 letters) – keep stat + statl short so it fits one line
 - CHECK: #92 "కావలి నామినేషన్ల పరిశీలనలో ఉద్రిక్తత": hard words for readers – say it simply: పరిశీలన → చూశారు / తనిఖీ
 - CHECK: #94 "డీప్‌ఫేక్ బెదిరింపు: ప్రధాన నిందితుడి అర": headline is 45 characters – may not fit one line (keep ≤ 38)
+- CHECK: #106 "పాత పింఛన్ సెలవుపై సర్కారు హెచ్చరిక": picture line has a tail ("విధులకు దూరం: సంఘాలు") – write one natural phrase
 - CHECK: #114 "ఏపీలో నవజాత శిశు సంరక్షణ వారోత్సవాలు": picture line is long (42 letters) – keep stat + statl short so it fits one line
 - CHECK: #115 "కర్లపాలెం నగల చోరీ: నలుగురు అరెస్ట్": picture line is long (37 letters) – keep stat + statl short so it fits one line
 
 ### Pictures needed (create in your image tool, send to Claude)
 - **Industry & Factories** – 4 story(ies), e.g. "ఉప్పల్‌లో డ్రమ్ము పేలి మహిళ మృతి". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
 - **Labour Strike / Workers' Protest** – 1 story(ies), e.g. "కరీంనగర్ వైద్య విద్యార్థుల సమ్మె". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Peaceful group of workers in helmets and work clothes gathered outside a factory or mine gate holding blank placards and plain red flags, seen from behind or at a distance. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents. Calm, non-violent. Top 15% plain plum sky. No readable text on placards, no faces in close-up, no logos, no watermark.
-## archive/2026-11-21.json: 198 stories · 80 to fix · 34 to look at · 0 fixed automatically
+## archive/2026-11-21.json: 198 stories · 80 to fix · 37 to look at · 0 fixed automatically
 - ERROR: #1 "లోక్ అదాలత్‌లో 3,727 కేసుల పరిష్కారం": pic "e/legal-aid-consultation" is not in tools/pictures.md – pick a real key
 - ERROR: #2 "చంచల్‌గూడలో సైబర్ మోసం కేసులో అరెస్ట్": pic "e/cyber-fraud-complaint" is not in tools/pictures.md – pick a real key
 - ERROR: #3 "ఉప్పల్‌లో డ్రమ్ము పేలి మహిళ మృతి": pic "e/industrial-safety-incident" is not in tools/pictures.md – pick a real key
@@ -184,6 +186,7 @@
 - CHECK: #13 "హైదరాబాద్ బాలిక ఆచూకీ బీదర్‌లో లభ్యం": hard words for readers – say it simply: లభ్యం → దొరికింది; ఆచూకీ → దొరికింది / కనిపించలేదు
 - CHECK: #15 "ఓర్వకల్లు రిలయన్స్ ప్లాంట్‌లో ఉత్పత్తి": picture line is long (35 letters) – keep stat + statl short so it fits one line
 - CHECK: #17 "సఫ్రాన్ పెట్టుబడిపై తెలంగాణ ఆశ": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #19 "మేడిపల్లిలో ముసుగు ముఠా సంచారంతో ఆందోళన": picture line has a tail ("స్థానికుల ప్రకారం") – write one natural phrase
 - CHECK: #32 "20 ఏళ్ల వేర్పాటు దంపతులకు విడాకులు": hard words for readers – say it simply: వేర్పాటు → విడిగా ఉన్న
 - CHECK: #32 "20 ఏళ్ల వేర్పాటు దంపతులకు విడాకులు": picture line is long (36 letters) – keep stat + statl short so it fits one line
 - CHECK: #33 "గాంధీ ఆసుపత్రిలో ముగ్గురు శిశువుల జననం": hard words for readers – say it simply: జననం → పుట్టారు
@@ -194,9 +197,11 @@
 - CHECK: #56 "అగ్రిగోల్డ్ బాండ్ల పరిశీలన షెడ్యూల్": hard words for readers – say it simply: పరిశీలన → చూశారు / తనిఖీ
 - CHECK: #58 "ఓయూ పూర్వ విద్యార్థినికి రోడ్స్ స్కాలర్‌": headline is 44 characters – may not fit one line (keep ≤ 38)
 - CHECK: #58 "ఓయూ పూర్వ విద్యార్థినికి రోడ్స్ స్కాలర్‌": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #65 "స్థానిక ఎన్నికల్లో 90% గెలుపు: చంద్రబాబు": picture line has a tail ("కూటమి గెలుపు: సీఎం") – write one natural phrase
 - CHECK: #71 "శంషాబాద్ విమానాశ్రయంలో బ్యాగులో తూటా": hard words for readers – say it simply: లభ్యం → దొరికింది
 - CHECK: #91 "లాల్ దర్వాజాలో ఒవైసీ దిష్టిబొమ్మ దహనం": picture line is long (36 letters) – keep stat + statl short so it fits one line
 - CHECK: #93 "సినిమా పైరసీపై ఫిల్మ్ ఛాంబర్ ఫిర్యాదు": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #95 "యెమెన్‌పై దాడుల్లో 41 మంది మృతి": picture line has a tail ("హూతీ మీడియా ప్రకారం") – write one natural phrase
 - CHECK: #107 "తెలంగాణలో థర్మల్ విద్యుత్ ఉత్పత్తికి కోత": hard words for readers – say it simply: నిలిపివేత → ఆపేశారు
 - CHECK: #149 "వడ్లపూడి వర్క్‌షాప్‌లో రైల్వే జీఎం తనిఖీ": picture line is long (35 letters) – keep stat + statl short so it fits one line
 - CHECK: #156 "కాకినాడ జడ్పీ చైర్‌పర్సన్‌గా సునీత రాజ్": picture line is long (36 letters) – keep stat + statl short so it fits one line
