@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T22:35:00+05:30",
+ "cutoff": "2026-11-21T23:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T07:35:00+05:30/2026-11-19T08:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 1,
-   "published": 1,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Feeds 07:44 IST, 70/70 ok, lookback 23:35 (223 uncovered events since 05:30, most with first-seen times). Published 1: The Federal Trump–Xi–Putin Shenzhen meeting (07:18, fact). Skipped: DC Indiramma bima Siddipet launch (10 Nov, event already covered), Hans Kurnool NDA clash (6 Nov, old), Telugu360 Naidu HC petitions (Mar 2026, old). Not opened: CNBC (client error), France24 (robots), Asianet IMD (empty page); search did not surface NTV AP HC Naidu case closure, Eenadu/Andhra Jyothy Vaikuntha darshan 8.34 lakh, AJ RRR-south land acquisition, Hans AP power demand 18.23%, HMTV Shankarapatnam bridge protest, NDTV Anthropic IPO $83, ETV Tirupati semiconductor park. District searches (Nalgonda, Karimnagar, Kurnool, Warangal, Hyderabad, Visakhapatnam) returned only tag/index pages. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T08:05:00+05:30/2026-11-19T08:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Lookback from 14:05. Feeds 22:11 IST, 70/70 ok, 924 TG/AP flagged uncovered (flag unreliable; checked against news.json/archive). add_repo not available; used existing clone. Feed direct URLs refused by WebFetch (not from search); pages read via search-result URLs. Published 4: Guntur NIELIT quantum/AI campus (DC 22:12), Telangana passport mela 3,300 served (DC 22:22), Gnana Dattu national junior badminton title (IANS 21:23, late), India women beat Korea 2-1 Asian Champions Trophy (IANS 22:27). Duplicate: AP HIV national recognition (Surakshit districts published 20 Nov). Skipped: Kangundi DKT pattas (GK Today, event date unclear), AP gold prices Hindu (not opened), Disha poultry summit (not opened, likely Nov 26-28 expo), Global Agriculture cotton (search did not return). Delhi teen Agniveer data (Indian Express 07:26, other-region, not opened). District searches returned only tag pages. check_news.py flags e/ keys (files exist in art/e). Lang pages, index.html and sitemap.xml reverted. Older TG/AP backlog not worked."
+  },
+  {
+   "window": "2026-11-21T22:35:00+05:30/2026-11-21T23:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 2,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 8,
+   "review": 0,
+   "gaps": "Lookback from 14:35. Feeds 22:47 IST, 70/70 ok, 807 TG/AP flagged uncovered; 50 events first seen since 22:05 reviewed. add_repo not available; used existing clone. WebFetch only opens URLs returned by a search in this run (first fetch attempt on feed URLs refused). Published 3: RGIA 1.049 kg gold, two held by DRI (Siasat 22:39, sensitive), Vizag Steel 3 golds at ICQCC Dhaka (DC 22:30), GHMC park fee column (Siasat opinion 22:17). Duplicates: Gandhi Hospital newborn six held (published 17:35), Future City cable thefts DC (published 20 Nov), India-Canada trade talks TOI. Not opened: DC Nelakondapally 19 cows/6 arrested (search did not return), GK Today AP e-SR 2.0 (search did not return), Disha aerospace investment, Disha activists recognition, News18 Vizag cancer surgery, HMTV Hindupur Tipu jayanti. Skipped: party statements (Chandrababu, Jagadish Reddy, Harish Rao), health tips, entertainment, other-state. check_news.py flags e/ keys (files exist in art/e). Lang pages, index.html and sitemap.xml reverted. Older TG/AP backlog not worked."
   }
  ],
  "seen": [
@@ -7678,6 +7678,31 @@
    "url": "https://www.gktoday.in/andhra-pradesh-cm-distributes-dkt-pattas-to-322-beneficiaries-in-kangundi/",
    "d": "2026-11-21",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/two-arrested-at-rgia-for-smuggling-gold-worth-rs-1-3-cr-3583559/",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/vizag-steel-wins-three-gold-awards-at-dhaka-convention-2006690",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/ghmcs-park-fee-hike-puts-hyderabads-green-spaces-out-of-reach-3583551/",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/woman-tricks-couple-with-govt-scheme-flees-with-child-from-hospital-3583538/",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/future-city-police-bust-serial-cable-theft-cases-19-cases-detected-one-accused-arrested-2006679",
+   "d": "2026-11-21",
+   "w": "duplicate"
   }
  ]
 }
