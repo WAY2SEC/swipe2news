@@ -1,8 +1,327 @@
 {
  "date": "21.11.2026",
  "iso": "2026-11-21",
- "count": 124,
+ "count": 130,
  "stories": [
+  {
+   "cat": "తెలంగాణ · ఆరోగ్యం",
+   "col": "--c-gov",
+   "pic": "c/health",
+   "stat": "18 లక్షల మంది",
+   "statl": "పిల్లలకు చుక్కలు",
+   "h": "ఐదు జిల్లాల్లో ఆదివారం పల్స్ పోలియో",
+   "p": "పోలియో నిర్మూలనలో భాగంగా ఆదివారం హైదరాబాద్, రంగారెడ్డి, మేడ్చల్-మల్కాజిగిరి, సంగారెడ్డి, హనుమకొండ జిల్లాల్లో ఐదేళ్లలోపు పిల్లలకు పోలియో చుక్కలు వేస్తారు. మొత్తం 18,01,698 మంది పిల్లలు లక్ష్యం. ఇందుకోసం 7,428 కేంద్రాలు, 245 మొబైల్ బృందాలు సిద్ధం చేశారు. కేంద్రాలకు రాని పిల్లల కోసం నవంబర్ 23, 24 తేదీల్లో ఇంటింటికీ వెళ్తారు.",
+   "pts": [
+    "వలస, సంచార, గిరిజన కుటుంబాల పిల్లలపై ప్రత్యేక దృష్టి",
+    "జీహెచ్ఎంసీలో 6,172 డిజిటల్ తెరలపై అవగాహన ప్రచారం"
+   ],
+   "why": "ఈ ఐదు జిల్లాల్లో ఐదేళ్లలోపు పిల్లలున్న తల్లిదండ్రులు ఆదివారం దగ్గరి కేంద్రంలో చుక్కలు వేయించాలి.",
+   "next": "నవంబర్ 25న జీహెచ్ఎంసీ, రంగారెడ్డి, మేడ్చల్, సంగారెడ్డిలో కొనసాగింపు",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/pulse-polio-drive-targets-18-lakh-children-across-5-telangana-districts-2006574",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-21T13:45+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Health",
+    "stat": "18 lakh children",
+    "statl": "to get polio drops",
+    "loc": "Five districts, Telangana",
+    "h": "Pulse polio in five districts on Sunday",
+    "p": "As part of polio eradication, children under five in Hyderabad, Rangareddy, Medchal-Malkajgiri, Sangareddy and Hanumakonda districts will get polio drops on Sunday. The target is 18,01,698 children. 7,428 booths and 245 mobile teams are ready. Teams will go house to house on November 23 and 24 for children who miss the booths.",
+    "pts": [
+     "Special focus on migrant, nomadic and tribal families",
+     "Awareness messages on 6,172 digital screens in GHMC"
+    ],
+    "why": "Parents of children under five in these five districts should take them to the nearest booth on Sunday.",
+    "next": "Drive continues on November 25 in GHMC, Rangareddy, Medchal and Sangareddy"
+   },
+   "hi": {
+    "cat": "तेलंगाना · स्वास्थ्य",
+    "stat": "18 लाख बच्चे",
+    "statl": "को पोलियो की खुराक",
+    "loc": "पांच ज़िले, तेलंगाना",
+    "h": "पांच ज़िलों में रविवार को पल्स पोलियो",
+    "p": "पोलियो उन्मूलन के तहत रविवार को हैदराबाद, रंगारेड्डी, मेडचल-मलकाजगिरी, संगारेड्डी और हनुमकोंडा ज़िलों में पांच साल से कम उम्र के बच्चों को पोलियो की खुराक दी जाएगी। लक्ष्य 18,01,698 बच्चे हैं। 7,428 बूथ और 245 मोबाइल टीमें तैयार हैं। बूथ पर न आ पाने वाले बच्चों के लिए 23 और 24 नवंबर को घर-घर अभियान होगा।",
+    "pts": [
+     "प्रवासी, घुमंतू और आदिवासी परिवारों पर विशेष ध्यान",
+     "जीएचएमसी में 6,172 डिजिटल स्क्रीन पर जागरूकता"
+    ],
+    "why": "इन पांच ज़िलों में पांच साल से छोटे बच्चों के माता-पिता रविवार को नज़दीकी बूथ पर खुराक दिलवाएं।",
+    "next": "25 नवंबर को जीएचएमसी, रंगारेड्डी, मेडचल और संगारेड्डी में जारी"
+   },
+   "d": "21.11.2026",
+   "t": "14:35"
+  },
+  {
+   "cat": "కరీంనగర్ · ఏసీబీ",
+   "col": "--c-gov",
+   "pic": "c/courts",
+   "stat": "₹10 వేల లంచం",
+   "statl": "పింఛను కోసం డిమాండ్",
+   "h": "ఏసీబీకి చిక్కిన లక్ష్మీపూర్ కార్యదర్శి",
+   "p": "కరీంనగర్ జిల్లా మానకొండూరు మండలం లక్ష్మీపూర్ గ్రామ పంచాయతీ కార్యదర్శి రూ.10 వేల లంచం తీసుకుంటూ ఏసీబీ అధికారులకు పట్టుబడ్డారు. ఫిర్యాదుదారు కోడలికి చేయూత వితంతు పింఛను మంజూరు చేయించేందుకు ఈ మొత్తం అడిగినట్లు ఏసీబీ తెలిపింది. ఫిర్యాదుదారు ఇంటి వద్దే ఆయనను పట్టుకున్నారు.",
+   "pts": [
+    "లంచం అడిగితే ఏసీబీ టోల్‌ఫ్రీ 1064కు ఫిర్యాదు చేయవచ్చు",
+    "అధికార దుర్వినియోగంపై దర్యాప్తు కొనసాగుతోంది"
+   ],
+   "why": "పింఛన్లు, పథకాల కోసం లంచం అడిగితే ఏసీబీకి ఫిర్యాదు చేయవచ్చని ఇది గుర్తుచేస్తుంది.",
+   "next": "నిందితుడిని కరీంనగర్ ఏసీబీ ప్రత్యేక కోర్టులో హాజరుపరచనున్నారు",
+   "src": "V6 Velugu",
+   "url": "https://www.v6velugu.com/panchayat-secretary-caught-by-the-acb-while-accepting-a-bribe-of-rs-10000-in-karimnagar-district",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "karimnagar",
+   "loc": "లక్ష్మీపూర్, మానకొండూరు",
+   "pub": "2026-11-21T14:13+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Karimnagar · ACB",
+    "stat": "₹10,000 bribe",
+    "statl": "demanded for a pension: ACB",
+    "loc": "Laxmipur, Manakondur",
+    "h": "Laxmipur panchayat secretary held for bribe",
+    "p": "The panchayat secretary of Laxmipur gram panchayat in Manakondur mandal, Karimnagar district, was caught by ACB officials while accepting a Rs 10,000 bribe. The ACB said he demanded the money to get a Cheyutha widow pension sanctioned for the complainant's daughter-in-law. He was caught at the complainant's house.",
+    "pts": [
+     "Bribe demands can be reported to ACB toll-free 1064",
+     "Probe into abuse of official position continues"
+    ],
+    "why": "It reminds people that bribe demands for pensions and schemes can be reported to the ACB.",
+    "next": "Accused to be produced before the ACB special court in Karimnagar"
+   },
+   "hi": {
+    "cat": "करीमनगर · एसीबी",
+    "stat": "₹10,000 रिश्वत",
+    "statl": "पेंशन के लिए मांगी: एसीबी",
+    "loc": "लक्ष्मीपुर, मानकोंडूर",
+    "h": "लक्ष्मीपुर पंचायत सचिव रिश्वत में गिरफ्तार",
+    "p": "करीमनगर ज़िले के मानकोंडूर मंडल की लक्ष्मीपुर ग्राम पंचायत के सचिव को एसीबी अधिकारियों ने 10,000 रुपये की रिश्वत लेते पकड़ा। एसीबी के अनुसार, उसने शिकायतकर्ता की बहू की चेयूता विधवा पेंशन मंज़ूर कराने के लिए यह रकम मांगी थी। उसे शिकायतकर्ता के घर पर ही पकड़ा गया।",
+    "pts": [
+     "रिश्वत की शिकायत एसीबी टोल-फ्री 1064 पर करें",
+     "पद के दुरुपयोग की जांच जारी"
+    ],
+    "why": "यह याद दिलाता है कि पेंशन और योजनाओं के लिए रिश्वत मांगने पर एसीबी से शिकायत की जा सकती है।",
+    "next": "आरोपी को करीमनगर की एसीबी विशेष अदालत में पेश किया जाएगा"
+   },
+   "d": "21.11.2026",
+   "t": "14:35"
+  },
+  {
+   "cat": "శంషాబాద్ · విమానాశ్రయం",
+   "col": "--c-city",
+   "pic": "c/crime",
+   "stat": "ఒక తూటా",
+   "statl": "ప్రయాణికుడి బ్యాగులో లభ్యం",
+   "h": "శంషాబాద్ విమానాశ్రయంలో బ్యాగులో తూటా",
+   "p": "శంషాబాద్ రాజీవ్ గాంధీ అంతర్జాతీయ విమానాశ్రయంలో శనివారం భద్రతా తనిఖీల్లో ఒక ప్రయాణికుడి చెక్-ఇన్ బ్యాగులో ఒక తూటా బయటపడింది. జార్ఖండ్‌లోని రాంచీకి చెందిన 42 ఏళ్ల ఆ వ్యక్తి దుబాయ్ విమానం ఎక్కాల్సి ఉంది. ఆ బ్యాగు దుబాయ్‌లో ఉండే స్నేహితుడిదని అతను చెప్పినట్లు సమాచారం.",
+   "pts": [
+    "కేసు దర్యాప్తులో ఉందని ఆర్‌జీఐఏ పోలీసులు వెల్లడి",
+    "చట్ట ప్రకారం చర్యలు ఉంటాయని పోలీసులు"
+   ],
+   "why": "విమాన ప్రయాణికులు తమ బ్యాగుల్లో ఏముందో ముందే సరిచూసుకోవాలని ఇది గుర్తుచేస్తుంది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/passenger-held-with-live-ammunition-at-rgia-2006588",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "rangareddy",
+   "loc": "శంషాబాద్",
+   "pub": "2026-11-21T14:30+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Shamshabad · Airport",
+    "stat": "One live round",
+    "statl": "found in passenger's bag",
+    "loc": "Shamshabad, Rangareddy",
+    "h": "Live round found in bag at Hyderabad airport",
+    "p": "During security screening at Rajiv Gandhi International Airport, Shamshabad, on Saturday, one live round was found in a passenger's check-in bag. The 42-year-old man from Ranchi, Jharkhand, was to board a flight to Dubai. He reportedly said the bag belonged to a friend who lives in Dubai.",
+    "pts": [
+     "RGIA police say the case is under investigation",
+     "Police say action will follow as per law"
+    ],
+    "why": "It reminds air travellers to check what is in their bags before they fly."
+   },
+   "hi": {
+    "cat": "शमशाबाद · हवाई अड्डा",
+    "stat": "एक ज़िंदा कारतूस",
+    "statl": "यात्री के बैग में मिला",
+    "loc": "शमशाबाद, रंगारेड्डी",
+    "h": "हैदराबाद एयरपोर्ट पर बैग में कारतूस",
+    "p": "शमशाबाद के राजीव गांधी अंतरराष्ट्रीय हवाई अड्डे पर शनिवार को सुरक्षा जांच में एक यात्री के चेक-इन बैग में एक ज़िंदा कारतूस मिला। झारखंड के रांची का 42 वर्षीय यह व्यक्ति दुबई की उड़ान पकड़ने वाला था। बताया गया कि उसने कहा कि बैग दुबई में रहने वाले दोस्त का है।",
+    "pts": [
+     "आरजीआईए पुलिस ने कहा, मामले की जांच जारी",
+     "पुलिस के अनुसार कानून के मुताबिक कार्रवाई होगी"
+    ],
+    "why": "यह हवाई यात्रियों को याद दिलाता है कि उड़ान से पहले अपने बैग की जांच कर लें।"
+   },
+   "d": "21.11.2026",
+   "t": "14:35"
+  },
+  {
+   "cat": "తెలంగాణ · రాజకీయం",
+   "col": "--c-election",
+   "pic": "c/politics",
+   "stat": "అవినీతి ఆరోపణ",
+   "statl": "టీపీసీసీ అధ్యక్షుడు",
+   "h": "బీఆర్ఎస్‌పై మహేశ్ గౌడ్ అవినీతి ఆరోపణ",
+   "p": "బీఆర్ఎస్ పదేళ్ల పాలనలో జరిగిన అవినీతిని ప్రజలు మర్చిపోరని టీపీసీసీ అధ్యక్షుడు మహేశ్ కుమార్ గౌడ్ అన్నారు. కాళేశ్వరం ప్రాజెక్టుపై లక్షల కోట్లు వృథా చేశారని, భూములు దోచుకున్నారని ఆయన ఆరోపించారు. తెలంగాణ నీటి వాటాలో ఒక్క చుక్క కూడా వదులుకోబోమని చెప్పారు. ఈ ఆరోపణలపై బీఆర్ఎస్ స్పందన వార్తలో లేదు.",
+   "pts": [
+    "కేసీఆర్, హరీశ్ రావులపై నీటి దోపిడీ ఆరోపణ",
+    "సీఎం రేవంత్ రెడ్డి అభివృద్ధికి కృషి చేస్తున్నారని వ్యాఖ్య"
+   ],
+   "why": "కాళేశ్వరం, నదీ జలాల వాటాపై అధికార, ప్రతిపక్షాల మధ్య వివాదం కొనసాగుతోందని ఇది చూపిస్తుంది.",
+   "src": "NewsMeter Telugu",
+   "url": "https://telugu.newsmeter.in/telangana/tpcc-president-mahesh-kumar-goud-fire-on-brs-779733",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-21T14:30+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Politics",
+    "stat": "Corruption charge",
+    "statl": "by TPCC chief",
+    "loc": "Telangana",
+    "h": "Mahesh Goud alleges BRS corruption",
+    "p": "TPCC president Mahesh Kumar Goud said people will never forget the corruption of BRS's ten-year rule. He alleged that lakhs of crores were wasted on the Kaleshwaram project and that land was looted. He said Telangana will not give up even a drop of its water share. The report carries no BRS response.",
+    "pts": [
+     "Alleges KCR and Harish Rao plundered water",
+     "Says CM Revanth Reddy is working for development"
+    ],
+    "why": "It shows the row between the ruling party and opposition over Kaleshwaram and river water shares continues."
+   },
+   "hi": {
+    "cat": "तेलंगाना · राजनीति",
+    "stat": "भ्रष्टाचार का आरोप",
+    "statl": "टीपीसीसी अध्यक्ष का",
+    "loc": "तेलंगाना",
+    "h": "महेश कुमार गौड़ का बीआरएस पर भ्रष्टाचार आरोप",
+    "p": "टीपीसीसी अध्यक्ष महेश कुमार गौड़ ने कहा कि लोग बीआरएस के दस साल के शासन का भ्रष्टाचार कभी नहीं भूलेंगे। उन्होंने आरोप लगाया कि कालेश्वरम परियोजना पर लाखों करोड़ बर्बाद हुए और ज़मीनें लूटी गईं। उन्होंने कहा कि तेलंगाना अपने पानी के हिस्से की एक बूंद भी नहीं छोड़ेगा। खबर में बीआरएस का जवाब नहीं है।",
+    "pts": [
+     "केसीआर और हरीश राव पर पानी लूटने का आरोप",
+     "कहा, सीएम रेवंत रेड्डी विकास के लिए काम कर रहे हैं"
+    ],
+    "why": "यह दिखाता है कि कालेश्वरम और नदी जल हिस्सेदारी पर सत्ता और विपक्ष का विवाद जारी है।"
+   },
+   "d": "21.11.2026",
+   "t": "14:35"
+  },
+  {
+   "cat": "భారత్ · ఆరోగ్యం",
+   "col": "--c-gov",
+   "pic": "c/health",
+   "stat": "కోటి డోసులు",
+   "statl": "హెచ్‌పీవీ టీకా",
+   "h": "దేశంలో కోటి దాటిన హెచ్‌పీవీ టీకాలు",
+   "p": "గర్భాశయ ముఖద్వార క్యాన్సర్ నివారణకు ఫిబ్రవరిలో ప్రారంభించిన జాతీయ హెచ్‌పీవీ టీకా కార్యక్రమంలో తొమ్మిది నెలల్లోనే కోటికి పైగా డోసులు వేశారని కేంద్ర ఆరోగ్య శాఖ శనివారం తెలిపింది. 14 ఏళ్ల బాలికలకు ఉచితంగా ఒకే డోసు ఇస్తున్నారు. ఆంధ్రప్రదేశ్ సహా ఆరు రాష్ట్రాలు వంద శాతం లక్ష్యం చేరాయి.",
+   "pts": [
+    "తెలంగాణలో 95.28 శాతం మంది బాలికలకు టీకా",
+    "దేశవ్యాప్తంగా సుమారు 87 శాతం లక్ష్యం పూర్తి"
+   ],
+   "why": "14 ఏళ్ల బాలికలున్న కుటుంబాలు ప్రభుత్వ కేంద్రాల్లో ఉచిత టీకా వేయించుకోవచ్చు.",
+   "src": "ETV Bharat",
+   "url": "https://www.etvbharat.com/en/bharat/india-crosses-one-crore-hpv-vaccine-doses-cervical-cancer-uttar-pradesh-leads-as-six-states-achieve-100-percent-coverage-target-enn26112101611",
+   "sec": [
+    "india"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-21T12:03+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Health",
+    "stat": "Over 1 crore doses",
+    "statl": "of HPV vaccine in nine months",
+    "loc": "India",
+    "h": "India crosses 1 crore HPV vaccine doses",
+    "p": "The Union Health Ministry said on Saturday that more than one crore doses have been given in nine months under the national HPV vaccination campaign against cervical cancer, launched in February. Girls aged 14 get a free single dose. Six states, including Andhra Pradesh, have reached their full target.",
+    "pts": [
+     "Telangana has covered 95.28% of girls",
+     "About 87% of the national target covered"
+    ],
+    "why": "Families with 14-year-old girls can get the free vaccine at government centres."
+   },
+   "hi": {
+    "cat": "भारत · स्वास्थ्य",
+    "stat": "1 करोड़ से ज़्यादा खुराक",
+    "statl": "नौ महीने में एचपीवी टीका",
+    "loc": "भारत",
+    "h": "देश में एचपीवी टीके 1 करोड़ पार",
+    "p": "केंद्रीय स्वास्थ्य मंत्रालय ने शनिवार को बताया कि सर्वाइकल कैंसर से बचाव के लिए फरवरी में शुरू हुए राष्ट्रीय एचपीवी टीकाकरण अभियान में नौ महीनों में एक करोड़ से ज़्यादा खुराक दी गई हैं। 14 साल की लड़कियों को मुफ्त में एक खुराक दी जाती है। आंध्र प्रदेश समेत छह राज्यों ने पूरा लक्ष्य हासिल किया।",
+    "pts": [
+     "तेलंगाना में 95.28% लड़कियों को टीका",
+     "देशभर में लगभग 87% लक्ष्य पूरा"
+    ],
+    "why": "14 साल की बेटियों वाले परिवार सरकारी केंद्रों पर मुफ्त टीका लगवा सकते हैं।"
+   },
+   "d": "21.11.2026",
+   "t": "14:35"
+  },
+  {
+   "cat": "భారత్ · విదేశాంగం",
+   "col": "--c-gov",
+   "pic": "c/world",
+   "stat": "ఎస్ఐఆర్",
+   "statl": "ఆరోపణల ఖండన",
+   "h": "ఎస్ఐఆర్‌పై అమెరికా కమిషన్ ఆరోపణ ఖండన",
+   "p": "ఓటర్ల జాబితా ప్రత్యేక సమగ్ర సవరణ (ఎస్ఐఆర్)లో భారత్ ముస్లింలను లక్ష్యంగా చేసుకుంటోందన్న అమెరికా అంతర్జాతీయ మత స్వేచ్ఛ కమిషన్ ఆరోపణలను విదేశాంగ శాఖ ఖండించింది. ఆ కమిషన్ పక్షపాతంతో, రాజకీయ ఎజెండాతో వ్యవహరిస్తోందని, దాన్ని పట్టించుకోనక్కర్లేదని శుక్రవారం పేర్కొంది. ముస్లింలను ఓటర్ల జాబితా నుంచి తొలగిస్తున్నారని గురువారం ఆ కమిషన్ ఆరోపించింది.",
+   "pts": [
+    "కమిషన్ సూచనలు అమెరికా ప్రభుత్వానికి కట్టుబాటు కావు",
+    "ఎస్ఐఆర్ మూడో దశ 19 రాష్ట్రాలు, కేంద్రపాలిత ప్రాంతాల్లో"
+   ],
+   "why": "ఓటర్ల జాబితా సవరణపై దేశంలో, విదేశాల్లో చర్చ కొనసాగుతోందని ఇది చూపిస్తుంది.",
+   "src": "Scroll.in",
+   "url": "https://scroll.in/latest/1097227/mea-says-us-panel-biased-with-political-agenda-for-alleging-india-targeting-muslims-in-sir",
+   "sec": [
+    "india",
+    "world"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-21T13:52+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "India · Foreign affairs",
+    "stat": "SIR row",
+    "statl": "India rejects US panel's charge",
+    "loc": "New Delhi",
+    "h": "India rejects US panel's SIR charge",
+    "p": "The Ministry of External Affairs rejected the US Commission on International Religious Freedom's allegation that India is targeting Muslims in the special intensive revision (SIR) of voter rolls. On Friday it said the panel is biased, has a political agenda and need not be taken seriously. On Thursday the commission had alleged that Muslims were being removed from voter rolls.",
+    "pts": [
+     "The commission's suggestions are not binding on the US government",
+     "SIR phase three is under way in 19 states and UTs"
+    ],
+    "why": "It shows the debate over the voter-roll revision continues at home and abroad."
+   },
+   "hi": {
+    "cat": "भारत · विदेश मामले",
+    "stat": "एसआईआर विवाद",
+    "statl": "अमेरिकी आयोग का आरोप खारिज",
+    "loc": "नई दिल्ली",
+    "h": "एसआईआर पर अमेरिकी आयोग का आरोप खारिज",
+    "p": "विदेश मंत्रालय ने अमेरिकी अंतरराष्ट्रीय धार्मिक स्वतंत्रता आयोग के उस आरोप को खारिज किया कि मतदाता सूची के विशेष गहन पुनरीक्षण (एसआईआर) में भारत मुसलमानों को निशाना बना रहा है। शुक्रवार को मंत्रालय ने कहा कि आयोग पक्षपाती है, उसका राजनीतिक एजेंडा है और उसे गंभीरता से लेने की ज़रूरत नहीं। गुरुवार को आयोग ने आरोप लगाया था कि मुसलमानों को मतदाता सूची से हटाया जा रहा है।",
+    "pts": [
+     "आयोग की सिफारिशें अमेरिकी सरकार पर बाध्यकारी नहीं",
+     "एसआईआर का तीसरा चरण 19 राज्यों और केंद्र शासित प्रदेशों में"
+    ],
+    "why": "यह दिखाता है कि मतदाता सूची पुनरीक्षण पर देश और विदेश में बहस जारी है।"
+   },
+   "d": "21.11.2026",
+   "t": "14:35"
+  },
   {
    "cat": "తెలంగాణ · విద్య",
    "col": "--c-gov",
