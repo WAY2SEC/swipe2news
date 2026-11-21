@@ -1,6 +1,71 @@
 # Swipe2News story check
 
-## news.json: 115 stories · 0 to fix · 11 to look at · 0 fixed automatically
+## news.json: 115 stories · 65 to fix · 11 to look at · 0 fixed automatically
+- ERROR: #1 "మేడిపల్లిలో ముసుగు ముఠా సంచారంతో ఆందోళన": pic "e/police-investigation" is not in tools/pictures.md – pick a real key
+- ERROR: #2 "శిల్పారామంలో నవంబర్ 22న ఒడిస్సీ ఉత్సవం": pic "e/classical-dance-performance" is not in tools/pictures.md – pick a real key
+- ERROR: #3 "కొత్తగూడెం హత్య కేసులో ముగ్గురి అరెస్ట్": pic "e/police-investigation" is not in tools/pictures.md – pick a real key
+- ERROR: #4 "కొత్త పింఛన్లకు దరఖాస్తు చేయండి: సీతక్క": pic "e/pension-distribution" is not in tools/pictures.md – pick a real key
+- ERROR: #5 "కొత్తగూడెం మైనింగ్ స్కూల్‌కు 50 ఏళ్లు": pic "e/government-school-classroom" is not in tools/pictures.md – pick a real key
+- ERROR: #6 "పెద్దంపేటలో వన్యప్రాణి పరిహారంపై అవగాహన": pic "e/forest-conservation" is not in tools/pictures.md – pick a real key
+- ERROR: #7 "హుస్సేన్ సాగర్‌లో 1940లోనే కలుపు సమస్య": pic "e/lake-pollution" is not in tools/pictures.md – pick a real key
+- ERROR: #8 "శ్రీదేవి ఇంజినీరింగ్ కాలేజీ రజతోత్సవం": pic "e/university-graduation" is not in tools/pictures.md – pick a real key
+- ERROR: #11 "ఓఆర్ఆర్‌పై నాలుగు కార్లు ఢీ": pic "e/road-accident-response" is not in tools/pictures.md – pick a real key
+- ERROR: #12 "విజయవాడ బొమ్మల కంపెనీలో మంటలు": pic "e/fire-service-response" is not in tools/pictures.md – pick a real key
+- ERROR: #13 "మంత్రి ఓఎస్డీ పేరుతో ఉద్యోగాల మోసం": pic "e/financial-scam-awareness" is not in tools/pictures.md – pick a real key
+- ERROR: #14 "20 ఏళ్ల వేర్పాటు దంపతులకు విడాకులు": pic "e/court-hearing" is not in tools/pictures.md – pick a real key
+- ERROR: #15 "గాంధీ ఆసుపత్రిలో ముగ్గురు శిశువుల జననం": pic "e/maternal-health-visit" is not in tools/pictures.md – pick a real key
+- ERROR: #16 "జీటీఏ-6 శైలిలో పోలీసుల డ్రగ్స్ ప్రచారం": pic "e/drug-seizure" is not in tools/pictures.md – pick a real key
+- ERROR: #17 "మల్కాజిగిరిలో కేబుళ్ల తొలగింపునకు ఆదేశం": pic "e/broadband-cable-repair" is not in tools/pictures.md – pick a real key
+- ERROR: #18 "కొల్లాపూర్ సభలో మత్స్యకారుల నిరసన": pic "e/peaceful-public-protest" is not in tools/pictures.md – pick a real key
+- ERROR: #19 "సాగర్‌లో ఏపీ సొరంగంపై జగదీశ్ ఆరోపణ": pic "e/government-press-briefing" is not in tools/pictures.md – pick a real key
+- ERROR: #20 "పోఖ్రాన్‌లో బఘీరా క్షిపణి ప్రదర్శన": pic "e/border-security-patrol" is not in tools/pictures.md – pick a real key
+- ERROR: #21 "నంబర్ ప్లేట్లపై డీలర్లకు 7 రోజుల గడువు": pic "e/road-safety-check" is not in tools/pictures.md – pick a real key
+- ERROR: #22 "గచ్చిబౌలిలో నవంబర్ 25న మెగా జాబ్ మేళా": pic "e/job-fair-interviews" is not in tools/pictures.md – pick a real key
+- ERROR: #23 "కంది వద్ద క్లోరల్ హైడ్రేట్ పట్టివేత": pic "e/drug-seizure" is not in tools/pictures.md – pick a real key
+- ERROR: #24 "ఏపీలో డిక్సన్ ₹1,000 కోట్ల పెట్టుబడి": pic "e/industrial-production" is not in tools/pictures.md – pick a real key
+- ERROR: #25 "ఇన్‌కాయిస్ సముద్ర పరిశీలన రెట్టింపు": pic "e/scientific-research" is not in tools/pictures.md – pick a real key
+- ERROR: #26 "ఓఆర్ఆర్ మొక్కలకు రోజూ శుద్ధి చేసిన నీరు": pic "e/tree-plantation" is not in tools/pictures.md – pick a real key
+- ERROR: #27 "సోమాజిగూడ వారసత్వ భవనం శిథిలావస్థలో": pic "e/municipal-complaint-visit" is not in tools/pictures.md – pick a real key
+- ERROR: #28 "మంచిరేవుల వద్ద ప్రాచీన శాసనాల గుర్తింపు": pic "e/warangal-heritage-conservation" is not in tools/pictures.md – pick a real key
+- ERROR: #29 "ఆదిభట్ల ఏసీపీని సస్పెండ్ చేయాలని ధర్నా": pic "e/peaceful-public-protest" is not in tools/pictures.md – pick a real key
+- ERROR: #30 "గాంధీ ఆసుపత్రిలో శిశువు అపహరణ": pic "e/missing-person-search" is not in tools/pictures.md – pick a real key
+- ERROR: #31 "సినిమా పైరసీ కేసులో ఇద్దరి అరెస్టు": pic "e/cyber-fraud-complaint" is not in tools/pictures.md – pick a real key
+- ERROR: #32 "ఏపీకి ₹38,362 కోట్ల పెట్టుబడి ప్రతిపాదనల": pic "e/industrial-production" is not in tools/pictures.md – pick a real key
+- ERROR: #33 "ఏపీ ఖనిజ ఆదాయ లక్ష్యం ₹40,050 కోట్లు": pic "e/public-policy-announcement" is not in tools/pictures.md – pick a real key
+- ERROR: #34 "మహీంద్రా వర్సిటీ డీన్‌పై పోష్ ఫిర్యాదు": pic "e/women-safety-help-desk" is not in tools/pictures.md – pick a real key
+- ERROR: #35 "కరీంనగర్ వైద్య విద్యార్థుల సమ్మె": pic "e/peaceful-public-protest" is not in tools/pictures.md – pick a real key
+- ERROR: #36 "జేఈఈ మెయిన్ దరఖాస్తు గడువు నవంబర్ 22": pic "e/entrance-exam-preparation" is not in tools/pictures.md – pick a real key
+- ERROR: #38 "అగ్రిగోల్డ్ బాండ్ల పరిశీలన షెడ్యూల్": pic "e/financial-scam-awareness" is not in tools/pictures.md – pick a real key
+- ERROR: #39 "తెలంగాణ ఉద్యమకారుల గుర్తింపు వేగవంతం": pic "e/government-press-briefing" is not in tools/pictures.md – pick a real key
+- ERROR: #40 "ఓయూ పూర్వ విద్యార్థినికి రోడ్స్ స్కాలర్‌": pic "e/international-student-journey" is not in tools/pictures.md – pick a real key
+- ERROR: #41 "చిన్నారెడ్డి పేరుతో లేఖ.. పంపలేదన్న నేత": pic "e/government-press-briefing" is not in tools/pictures.md – pick a real key
+- ERROR: #43 "మియాపూర్ పెయింట్ దుకాణంలో మంటలు": pic "e/fire-service-response" is not in tools/pictures.md – pick a real key
+- ERROR: #44 "ప్రమాద పరిహారం కేసు సవరణకు హైకోర్టు నో": pic "e/court-hearing" is not in tools/pictures.md – pick a real key
+- ERROR: #45 "కల్తీ కల్లు సరఫరాదారుపై పీడీ యాక్ట్": pic "e/police-investigation" is not in tools/pictures.md – pick a real key
+- ERROR: #46 "తిరుపతి సహా మూడు జడ్పీలు కూటమికి": pic "e/election-counting" is not in tools/pictures.md – pick a real key
+- ERROR: #47 "స్థానిక ఎన్నికల్లో 90% గెలుపు: చంద్రబాబు": pic "e/election-counting" is not in tools/pictures.md – pick a real key
+- ERROR: #48 "హైదరాబాద్ మెటా నిరసనపై బీజేపీ విమర్శ": pic "e/government-press-briefing" is not in tools/pictures.md – pick a real key
+- ERROR: #49 "ఐఐటీ ఖరగ్‌పూర్‌కు గూగుల్ ఏఐ నిధులు": pic "e/artificial-intelligence" is not in tools/pictures.md – pick a real key
+- ERROR: #51 "ఐదు జిల్లాల్లో ఆదివారం పల్స్ పోలియో": pic "e/child-immunization-visit" is not in tools/pictures.md – pick a real key
+- ERROR: #52 "ఏసీబీకి చిక్కిన లక్ష్మీపూర్ కార్యదర్శి": pic "e/corruption-investigation" is not in tools/pictures.md – pick a real key
+- ERROR: #53 "శంషాబాద్ విమానాశ్రయంలో బ్యాగులో తూటా": pic "e/police-investigation" is not in tools/pictures.md – pick a real key
+- ERROR: #54 "బీఆర్ఎస్‌పై మహేశ్ గౌడ్ అవినీతి ఆరోపణ": pic "e/government-press-briefing" is not in tools/pictures.md – pick a real key
+- ERROR: #55 "దేశంలో కోటి దాటిన హెచ్‌పీవీ టీకాలు": pic "e/vaccination-clinic" is not in tools/pictures.md – pick a real key
+- ERROR: #56 "ఎస్ఐఆర్‌పై అమెరికా కమిషన్ ఆరోపణ ఖండన": pic "e/international-diplomacy" is not in tools/pictures.md – pick a real key
+- ERROR: #57 "జనగణనకు ముందే సిలబస్ పూర్తికి సూచన": pic "e/government-school-classroom" is not in tools/pictures.md – pick a real key
+- ERROR: #58 "హుజూరాబాద్ పింఛన్లపై కౌశిక్ ఆరోపణ": pic "e/pension-distribution" is not in tools/pictures.md – pick a real key
+- ERROR: #59 "రాజగోపాల్ రెడ్డికి కాంగ్రెస్ పిలుపు": pic "e/party-congress" is not in tools/pictures.md – pick a real key
+- ERROR: #60 "ఘట్‌కేసర్ వద్ద హైవేపై ట్రాఫిక్ జామ్": pic "e/traffic-congestion" is not in tools/pictures.md – pick a real key
+- ERROR: #61 "ఉదయగిరి చెక్క కట్లరీకి మార్కెట్ కొరత": pic "e/small-business-shop" is not in tools/pictures.md – pick a real key
+- ERROR: #62 "వరంగల్‌లో అగ్ని భద్రత తనిఖీలు": pic "e/fire-service-response" is not in tools/pictures.md – pick a real key
+- ERROR: #63 "ఏపీ పీఆర్సీకి వినతులు డిసెంబర్ 31 వరకు": pic "e/public-policy-announcement" is not in tools/pictures.md – pick a real key
+- ERROR: #64 "పోచంపల్లికి ఒక్కరోజు టూర్ 22 నుంచి": pic "e/handloom-weaving" is not in tools/pictures.md – pick a real key
+- ERROR: #65 "మల్కాజిగిరి ఆర్‌యూబీపై అభ్యంతరం": pic "e/flyover-construction" is not in tools/pictures.md – pick a real key
+- ERROR: #66 "తెలంగాణ సరుకుల ఎగుమతుల్లో 68% వృద్ధి": pic "e/imports-and-exports" is not in tools/pictures.md – pick a real key
+- ERROR: #67 "విజయవాడలో నేడు ట్రాఫిక్ మళ్లింపు": pic "e/traffic-congestion" is not in tools/pictures.md – pick a real key
+- ERROR: #68 "ఎన్టీఆర్ జిల్లాలో చిక్కని పులి": pic "e/forest-conservation" is not in tools/pictures.md – pick a real key
+- ERROR: #69 "తొలి బుల్లెట్ రైలు 2027లో: వైష్ణవ్": pic "e/railway-station-departures" is not in tools/pictures.md – pick a real key
+- ERROR: #70 "వెంకటగిరి ఎంపీపీ ఎన్నిక వాయిదా": pic "e/voting-day" is not in tools/pictures.md – pick a real key
 - CHECK: #14 "20 ఏళ్ల వేర్పాటు దంపతులకు విడాకులు": picture line is long (36 letters) – keep stat + statl short so it fits one line
 - CHECK: #32 "ఏపీకి ₹38,362 కోట్ల పెట్టుబడి ప్రతిపాదనల": headline is 41 characters – may not fit one line (keep ≤ 38)
 - CHECK: #40 "ఓయూ పూర్వ విద్యార్థినికి రోడ్స్ స్కాలర్‌": headline is 44 characters – may not fit one line (keep ≤ 38)
@@ -16,7 +81,71 @@
 ### Pictures needed (create in your image tool, send to Claude)
 - **Industry & Factories** – 1 story(ies), e.g. "మంత్రి ఓఎస్డీ పేరుతో ఉద్యోగాల మోసం". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
 - **Labour Strike / Workers' Protest** – 1 story(ies), e.g. "కరీంనగర్ వైద్య విద్యార్థుల సమ్మె". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Peaceful group of workers in helmets and work clothes gathered outside a factory or mine gate holding blank placards and plain red flags, seen from behind or at a distance. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents. Calm, non-violent. Top 15% plain plum sky. No readable text on placards, no faces in close-up, no logos, no watermark.
-## archive/2026-11-21.json: 180 stories · 0 to fix · 19 to look at · 0 fixed automatically
+## archive/2026-11-21.json: 180 stories · 64 to fix · 19 to look at · 0 fixed automatically
+- ERROR: #1 "మేడిపల్లిలో ముసుగు ముఠా సంచారంతో ఆందోళన": pic "e/police-investigation" is not in tools/pictures.md – pick a real key
+- ERROR: #2 "శిల్పారామంలో నవంబర్ 22న ఒడిస్సీ ఉత్సవం": pic "e/classical-dance-performance" is not in tools/pictures.md – pick a real key
+- ERROR: #3 "కొత్తగూడెం హత్య కేసులో ముగ్గురి అరెస్ట్": pic "e/police-investigation" is not in tools/pictures.md – pick a real key
+- ERROR: #4 "కొత్త పింఛన్లకు దరఖాస్తు చేయండి: సీతక్క": pic "e/pension-distribution" is not in tools/pictures.md – pick a real key
+- ERROR: #5 "కొత్తగూడెం మైనింగ్ స్కూల్‌కు 50 ఏళ్లు": pic "e/government-school-classroom" is not in tools/pictures.md – pick a real key
+- ERROR: #6 "పెద్దంపేటలో వన్యప్రాణి పరిహారంపై అవగాహన": pic "e/forest-conservation" is not in tools/pictures.md – pick a real key
+- ERROR: #7 "హుస్సేన్ సాగర్‌లో 1940లోనే కలుపు సమస్య": pic "e/lake-pollution" is not in tools/pictures.md – pick a real key
+- ERROR: #8 "శ్రీదేవి ఇంజినీరింగ్ కాలేజీ రజతోత్సవం": pic "e/university-graduation" is not in tools/pictures.md – pick a real key
+- ERROR: #11 "ఓఆర్ఆర్‌పై నాలుగు కార్లు ఢీ": pic "e/road-accident-response" is not in tools/pictures.md – pick a real key
+- ERROR: #12 "విజయవాడ బొమ్మల కంపెనీలో మంటలు": pic "e/fire-service-response" is not in tools/pictures.md – pick a real key
+- ERROR: #13 "మంత్రి ఓఎస్డీ పేరుతో ఉద్యోగాల మోసం": pic "e/financial-scam-awareness" is not in tools/pictures.md – pick a real key
+- ERROR: #14 "20 ఏళ్ల వేర్పాటు దంపతులకు విడాకులు": pic "e/court-hearing" is not in tools/pictures.md – pick a real key
+- ERROR: #15 "గాంధీ ఆసుపత్రిలో ముగ్గురు శిశువుల జననం": pic "e/maternal-health-visit" is not in tools/pictures.md – pick a real key
+- ERROR: #16 "జీటీఏ-6 శైలిలో పోలీసుల డ్రగ్స్ ప్రచారం": pic "e/drug-seizure" is not in tools/pictures.md – pick a real key
+- ERROR: #17 "మల్కాజిగిరిలో కేబుళ్ల తొలగింపునకు ఆదేశం": pic "e/broadband-cable-repair" is not in tools/pictures.md – pick a real key
+- ERROR: #18 "కొల్లాపూర్ సభలో మత్స్యకారుల నిరసన": pic "e/peaceful-public-protest" is not in tools/pictures.md – pick a real key
+- ERROR: #19 "సాగర్‌లో ఏపీ సొరంగంపై జగదీశ్ ఆరోపణ": pic "e/government-press-briefing" is not in tools/pictures.md – pick a real key
+- ERROR: #20 "పోఖ్రాన్‌లో బఘీరా క్షిపణి ప్రదర్శన": pic "e/border-security-patrol" is not in tools/pictures.md – pick a real key
+- ERROR: #21 "నంబర్ ప్లేట్లపై డీలర్లకు 7 రోజుల గడువు": pic "e/road-safety-check" is not in tools/pictures.md – pick a real key
+- ERROR: #22 "గచ్చిబౌలిలో నవంబర్ 25న మెగా జాబ్ మేళా": pic "e/job-fair-interviews" is not in tools/pictures.md – pick a real key
+- ERROR: #23 "కంది వద్ద క్లోరల్ హైడ్రేట్ పట్టివేత": pic "e/drug-seizure" is not in tools/pictures.md – pick a real key
+- ERROR: #24 "ఏపీలో డిక్సన్ ₹1,000 కోట్ల పెట్టుబడి": pic "e/industrial-production" is not in tools/pictures.md – pick a real key
+- ERROR: #25 "ఇన్‌కాయిస్ సముద్ర పరిశీలన రెట్టింపు": pic "e/scientific-research" is not in tools/pictures.md – pick a real key
+- ERROR: #26 "ఓఆర్ఆర్ మొక్కలకు రోజూ శుద్ధి చేసిన నీరు": pic "e/tree-plantation" is not in tools/pictures.md – pick a real key
+- ERROR: #27 "సోమాజిగూడ వారసత్వ భవనం శిథిలావస్థలో": pic "e/municipal-complaint-visit" is not in tools/pictures.md – pick a real key
+- ERROR: #28 "మంచిరేవుల వద్ద ప్రాచీన శాసనాల గుర్తింపు": pic "e/warangal-heritage-conservation" is not in tools/pictures.md – pick a real key
+- ERROR: #29 "ఆదిభట్ల ఏసీపీని సస్పెండ్ చేయాలని ధర్నా": pic "e/peaceful-public-protest" is not in tools/pictures.md – pick a real key
+- ERROR: #30 "గాంధీ ఆసుపత్రిలో శిశువు అపహరణ": pic "e/missing-person-search" is not in tools/pictures.md – pick a real key
+- ERROR: #31 "సినిమా పైరసీ కేసులో ఇద్దరి అరెస్టు": pic "e/cyber-fraud-complaint" is not in tools/pictures.md – pick a real key
+- ERROR: #32 "ఏపీకి ₹38,362 కోట్ల పెట్టుబడి ప్రతిపాదనల": pic "e/industrial-production" is not in tools/pictures.md – pick a real key
+- ERROR: #33 "ఏపీ ఖనిజ ఆదాయ లక్ష్యం ₹40,050 కోట్లు": pic "e/public-policy-announcement" is not in tools/pictures.md – pick a real key
+- ERROR: #34 "మహీంద్రా వర్సిటీ డీన్‌పై పోష్ ఫిర్యాదు": pic "e/women-safety-help-desk" is not in tools/pictures.md – pick a real key
+- ERROR: #35 "కరీంనగర్ వైద్య విద్యార్థుల సమ్మె": pic "e/peaceful-public-protest" is not in tools/pictures.md – pick a real key
+- ERROR: #36 "జేఈఈ మెయిన్ దరఖాస్తు గడువు నవంబర్ 22": pic "e/entrance-exam-preparation" is not in tools/pictures.md – pick a real key
+- ERROR: #38 "అగ్రిగోల్డ్ బాండ్ల పరిశీలన షెడ్యూల్": pic "e/financial-scam-awareness" is not in tools/pictures.md – pick a real key
+- ERROR: #39 "తెలంగాణ ఉద్యమకారుల గుర్తింపు వేగవంతం": pic "e/government-press-briefing" is not in tools/pictures.md – pick a real key
+- ERROR: #40 "ఓయూ పూర్వ విద్యార్థినికి రోడ్స్ స్కాలర్‌": pic "e/international-student-journey" is not in tools/pictures.md – pick a real key
+- ERROR: #41 "చిన్నారెడ్డి పేరుతో లేఖ.. పంపలేదన్న నేత": pic "e/government-press-briefing" is not in tools/pictures.md – pick a real key
+- ERROR: #43 "మియాపూర్ పెయింట్ దుకాణంలో మంటలు": pic "e/fire-service-response" is not in tools/pictures.md – pick a real key
+- ERROR: #44 "ప్రమాద పరిహారం కేసు సవరణకు హైకోర్టు నో": pic "e/court-hearing" is not in tools/pictures.md – pick a real key
+- ERROR: #45 "కల్తీ కల్లు సరఫరాదారుపై పీడీ యాక్ట్": pic "e/police-investigation" is not in tools/pictures.md – pick a real key
+- ERROR: #46 "తిరుపతి సహా మూడు జడ్పీలు కూటమికి": pic "e/election-counting" is not in tools/pictures.md – pick a real key
+- ERROR: #47 "స్థానిక ఎన్నికల్లో 90% గెలుపు: చంద్రబాబు": pic "e/election-counting" is not in tools/pictures.md – pick a real key
+- ERROR: #48 "హైదరాబాద్ మెటా నిరసనపై బీజేపీ విమర్శ": pic "e/government-press-briefing" is not in tools/pictures.md – pick a real key
+- ERROR: #49 "ఐఐటీ ఖరగ్‌పూర్‌కు గూగుల్ ఏఐ నిధులు": pic "e/artificial-intelligence" is not in tools/pictures.md – pick a real key
+- ERROR: #51 "ఐదు జిల్లాల్లో ఆదివారం పల్స్ పోలియో": pic "e/child-immunization-visit" is not in tools/pictures.md – pick a real key
+- ERROR: #52 "ఏసీబీకి చిక్కిన లక్ష్మీపూర్ కార్యదర్శి": pic "e/corruption-investigation" is not in tools/pictures.md – pick a real key
+- ERROR: #53 "శంషాబాద్ విమానాశ్రయంలో బ్యాగులో తూటా": pic "e/police-investigation" is not in tools/pictures.md – pick a real key
+- ERROR: #54 "బీఆర్ఎస్‌పై మహేశ్ గౌడ్ అవినీతి ఆరోపణ": pic "e/government-press-briefing" is not in tools/pictures.md – pick a real key
+- ERROR: #55 "దేశంలో కోటి దాటిన హెచ్‌పీవీ టీకాలు": pic "e/vaccination-clinic" is not in tools/pictures.md – pick a real key
+- ERROR: #56 "ఎస్ఐఆర్‌పై అమెరికా కమిషన్ ఆరోపణ ఖండన": pic "e/international-diplomacy" is not in tools/pictures.md – pick a real key
+- ERROR: #57 "జనగణనకు ముందే సిలబస్ పూర్తికి సూచన": pic "e/government-school-classroom" is not in tools/pictures.md – pick a real key
+- ERROR: #58 "హుజూరాబాద్ పింఛన్లపై కౌశిక్ ఆరోపణ": pic "e/pension-distribution" is not in tools/pictures.md – pick a real key
+- ERROR: #59 "రాజగోపాల్ రెడ్డికి కాంగ్రెస్ పిలుపు": pic "e/party-congress" is not in tools/pictures.md – pick a real key
+- ERROR: #60 "ఘట్‌కేసర్ వద్ద హైవేపై ట్రాఫిక్ జామ్": pic "e/traffic-congestion" is not in tools/pictures.md – pick a real key
+- ERROR: #145 "ఉదయగిరి చెక్క కట్లరీకి మార్కెట్ కొరత": pic "e/small-business-shop" is not in tools/pictures.md – pick a real key
+- ERROR: #146 "వరంగల్‌లో అగ్ని భద్రత తనిఖీలు": pic "e/fire-service-response" is not in tools/pictures.md – pick a real key
+- ERROR: #171 "ఏపీ పీఆర్సీకి వినతులు డిసెంబర్ 31 వరకు": pic "e/public-policy-announcement" is not in tools/pictures.md – pick a real key
+- ERROR: #172 "పోచంపల్లికి ఒక్కరోజు టూర్ 22 నుంచి": pic "e/handloom-weaving" is not in tools/pictures.md – pick a real key
+- ERROR: #173 "మల్కాజిగిరి ఆర్‌యూబీపై అభ్యంతరం": pic "e/flyover-construction" is not in tools/pictures.md – pick a real key
+- ERROR: #176 "తెలంగాణ సరుకుల ఎగుమతుల్లో 68% వృద్ధి": pic "e/imports-and-exports" is not in tools/pictures.md – pick a real key
+- ERROR: #177 "విజయవాడలో నేడు ట్రాఫిక్ మళ్లింపు": pic "e/traffic-congestion" is not in tools/pictures.md – pick a real key
+- ERROR: #179 "ఎన్టీఆర్ జిల్లాలో చిక్కని పులి": pic "e/forest-conservation" is not in tools/pictures.md – pick a real key
+- ERROR: #180 "తొలి బుల్లెట్ రైలు 2027లో: వైష్ణవ్": pic "e/railway-station-departures" is not in tools/pictures.md – pick a real key
 - CHECK: #14 "20 ఏళ్ల వేర్పాటు దంపతులకు విడాకులు": picture line is long (36 letters) – keep stat + statl short so it fits one line
 - CHECK: #32 "ఏపీకి ₹38,362 కోట్ల పెట్టుబడి ప్రతిపాదనల": headline is 41 characters – may not fit one line (keep ≤ 38)
 - CHECK: #40 "ఓయూ పూర్వ విద్యార్థినికి రోడ్స్ స్కాలర్‌": headline is 44 characters – may not fit one line (keep ≤ 38)
