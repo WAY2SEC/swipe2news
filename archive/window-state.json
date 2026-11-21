@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-21T07:35:00+05:30",
+ "cutoff": "2026-11-21T08:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-18T11:35:00+05:30/2026-11-18T12:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 3,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Feeds 11:43 IST, 70/70 ok; 749 uncovered TG/AP flagged, nearly all older/minor or already published (Balmoor Venkat crash, Indiramma insurance, Akvan, AP auto drivers, Telangana Darshini, Shankarpally fire already on site). add_repo not available; used existing clone. Typed feed URLs refused by fetch (permission timeout); only search-surfaced URLs opened. Published: Siasat Hyderabad water crisis (forecast), Siasat/PTI US green card PERM rule, Korea Herald/AP Knesset speaker. Skipped: DC Polavaram alert over Akvan and DC Naidu/Pawan Akvan review (pub 17 Nov 23:03/23:49, before lookback). Not opened: The Hindu PPA CEO Polavaram, NIE Somasila storage, Samayam AP liquor shops closure, Samayam/prime9 TG building cellar rules, Sakshi Vikarabad castor seeds, Sakshi Cheryala division (not surfaced by search / no fetch). No district search sweep."
-  },
   {
    "window": "2026-11-18T12:05:00+05:30/2026-11-18T12:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 23:05 (20 Nov). Feeds 07:18 IST, 68/68 ok, 720 TG/AP uncovered (most already published under other URLs). add_repo not available; used existing clone. Published 2 (Hans India): Ongole mayor-elect Sri Shilpa priorities, Thimmapur WEHEAL women's health seminar. Skipped old (published before lookback): Nalgonda double life sentence (20 Nov 14:00), Ramayapatnam customs port (18 Nov). Not opened (search did not surface): govt hospital triplets (The Hindu), Kothagudem mining workshop, AP Census enumeration, Khammam tennis, Amaya Agarwal chess, Ranji UP v Hyderabad, KUDA office BRS allegation, Warangal projects CM review (NTV). No India/world story. Lang pages and sitemap.xml reverted."
+  },
+  {
+   "window": "2026-11-21T07:35:00+05:30/2026-11-21T08:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 6,
+   "late": 4,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 6,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 23:35 (20 Nov). Feeds 07:40 IST, 69/70 ok, 739 TG/AP uncovered (117 local in lookback, most already published under other URLs). add_repo not available; used existing clone. Published 6: Prakasam wedding-party car crash 4 dead (ETV Bharat), AP rice price caps (HMTV), CJI at CLEA conference Hyderabad (V6), Telangana PM SVANidhi Fastest Mover award (V6), Alluri ZP chair to YSRCP (Sakshi), CM Revanth 'BRS main rival' (Hans India, claim). Duplicates of 20 Nov stories: ED search at ex-MLA Rekha Naik's house, Godavari pipeline, 2,000 home guards, SC rice millers, SI prelims, APMDC IPO. Skipped old (published before lookback): Konakalla Narayana illness (20 Nov 19:44), Suraram water shutdown (20 Nov 19:03), Vizag-Tirupati Vande Bharat (19 Nov). Not opened (WebFetch refuses feed URLs not surfaced by search): The Hindu triplets, INCOIS La Nina forecast, Koti Deepotsavam, Kothagudem mining workshop, AP Census; Telangana Today YSRCP on MP attack, Ranji UP v Hyderabad, Khammam tennis, Amaya Agarwal chess, police T20, Inter Board opinion, SCO Pak minister, Pankaj Advani; Siasat Qeshm explosion; I-T Sneha Group (no search hit). No India/world story. Lang pages and sitemap.xml reverted."
   }
  ],
  "seen": [
@@ -6166,6 +6166,71 @@
   },
   {
    "url": "https://www.maritimegateway.com/ramayapatnam-secures-customs-port-status-ahead-of-planned-cargo-operations/",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/road-accident-in-pelluru-at-prakasam-district-aps26112100582",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/andhrapradesh/ap-rice-prices-26-kg-mtu-rice-bag-at-rs-1222-dharani-rice-to-reach-homes-215370",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/%C2%A0supreme-court-judge-justice-surya-kant-to-attend-clea-international-conference-in-hyderabad",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/telangana-wins-fastest-mover-award-for-pm-svanidhi-scheme-2026",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/politics/ysrcp-wins-alluri-sitharama-raju-zilla-parishad-chairman-post-2966837",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/brs-main-political-rival-bjp-no-competitor-cm-revanth-1144233",
+   "d": "2026-11-21",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/khammam/ed-conducts-10-hour-raid-at-rekha-naiks-house-1144208",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/telangana-home-guards-recruitment-2026-2000-vacancies-notification-soon-1578362.html",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/supreme-court-rejects-telangana-rice-millers-plea-to-quash-firs-2565349",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.v6velugu.com/telangana-si-preliminary-exam-on-november-29-16-lakh-candidates-to-appear-for-275-posts",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/ap-mineral-development-corporation-gets-cm-approval-for-ipo-1578394.html",
+   "d": "2026-11-21",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.ap7am.com/tn/887439/konakalla-narayana-shifted-to-hyderabad-kims-for-better-medical-treatment",
+   "d": "2026-11-21",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.v6velugu.com/24-hour-water-supply-disruption-in-hyderabads-suraram-and-saibaba-nagar-wards-from-november-21",
    "d": "2026-11-21",
    "w": "skipped"
   }
