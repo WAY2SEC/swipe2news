@@ -1,8 +1,611 @@
 {
  "date": "21.11.2026",
- "updated": "2026-11-21T10:35:00+05:30",
+ "updated": "2026-11-21T11:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "హైదరాబాద్ · పోలీస్",
+   "col": "--c-city",
+   "art": "court",
+   "pic": "c/crime",
+   "stat": "డ్రగ్స్ కట్టడి",
+   "statl": "పోలీసుల దృష్టి",
+   "h": "హైదరాబాద్‌లో డ్రగ్స్, ఫోన్ చోరీలపై నిఘా",
+   "p": "హైదరాబాద్‌లో మాదక ద్రవ్యాలు, మొబైల్ ఫోన్ల స్నాచింగ్, పదేపదే నేరాలు చేసేవారిపై చర్యలు ముమ్మరం చేస్తామని కొత్త పోలీస్ కమిషనర్ మహేశ్ భగవత్ తెలిపారు. బాధ్యతలు చేపట్టాక పాతబస్తీ ఫిర్యాదుదారులు, స్థానిక అధికారులతో మాట్లాడినట్లు చెప్పారు. టాస్క్ ఫోర్స్, స్థానిక పోలీసులు కలిసి ఆకస్మిక దాడులు చేస్తారని ఏఎన్ఐ కథనం పేర్కొంది.",
+   "pts": [
+    "పదేపదే నేరాలు చేసేవారిని నగరం నుంచి బహిష్కరించే యోచన",
+    "కేసుల్లో శిక్షల రేటు పెంచడంపై దృష్టి",
+    "సాక్షులకు పూర్తి రక్షణ ఇస్తామని హామీ"
+   ],
+   "why": "హైదరాబాద్ వాసుల భద్రతకు, ముఖ్యంగా ఫోన్ చోరీలు, డ్రగ్స్ సమస్య ఉన్న ప్రాంతాల వారికి ఇది సంబంధించినది.",
+   "src": "Deccan Chronicle (ANI)",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-police-to-intensify-crackdown-on-narcotics-mobile-snatching-2006524",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-21T10:36+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Police",
+    "stat": "Drug crackdown",
+    "statl": "Hyderabad police set priorities",
+    "loc": "Hyderabad",
+    "h": "Hyderabad police to target drugs, phone snatching",
+    "p": "Hyderabad's new Police Commissioner Mahesh Bhagwat said policing will be stepped up against narcotics, mobile phone snatching and habitual offenders. After taking charge, he said he spoke with complainants from the old city and local officers. A task force and local police will carry out surprise raids, the ANI report said.",
+    "pts": [
+     "Externment of habitual offenders is being considered",
+     "Focus on raising conviction rates",
+     "Witnesses promised full protection"
+    ],
+    "why": "This concerns the safety of Hyderabad residents, especially in areas facing phone thefts and drugs."
+   },
+   "hi": {
+    "cat": "हैदराबाद · पुलिस",
+    "stat": "ड्रग्स पर सख्ती",
+    "statl": "हैदराबाद पुलिस की प्राथमिकता",
+    "loc": "हैदराबाद",
+    "h": "हैदराबाद में ड्रग्स, फोन स्नैचिंग पर सख्ती",
+    "p": "हैदराबाद के नए पुलिस आयुक्त महेश भागवत ने कहा कि नशीले पदार्थों, मोबाइल फोन स्नैचिंग और आदतन अपराधियों के खिलाफ कार्रवाई तेज की जाएगी। पदभार संभालने के बाद उन्होंने पुराने शहर के शिकायतकर्ताओं और स्थानीय अधिकारियों से बात करने की जानकारी दी। एएनआई के अनुसार टास्क फोर्स और स्थानीय पुलिस औचक छापे मारेंगी।",
+    "pts": [
+     "आदतन अपराधियों को शहर से बाहर करने पर विचार",
+     "मामलों में सजा की दर बढ़ाने पर जोर",
+     "गवाहों को पूरी सुरक्षा का भरोसा"
+    ],
+    "why": "यह हैदराबाद के निवासियों की सुरक्षा से जुड़ा है, खासकर फोन चोरी और ड्रग्स से प्रभावित इलाकों में।"
+   },
+   "d": "21.11.2026",
+   "t": "11:05"
+  },
+  {
+   "cat": "తెలంగాణ · రాజకీయాలు",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "c/politics",
+   "stat": "బ్రాండ్ హైదరాబాద్",
+   "statl": "దెబ్బతిందని ఆరోపణ",
+   "h": "మెటా కార్యాలయ ఘటనపై కేటీఆర్ విమర్శ",
+   "p": "హైదరాబాద్ గచ్చిబౌలిలోని మెటా క్యాంపస్ వద్ద యూత్ కాంగ్రెస్ నిరసనలో ఆస్తి ధ్వంసం జరిగిందని, దీంతో నగర ప్రతిష్ఠ దెబ్బతిందని బీఆర్ఎస్ వర్కింగ్ ప్రెసిడెంట్ కేటీఆర్ శనివారం ఆరోపించారు. పెట్టుబడిదారుల నమ్మకం సన్నగిల్లుతుందని అన్నారు. యూత్ కాంగ్రెస్ జాతీయ నేతల మెటా ఖాతాల నిలిపివేతకు నిరసనగా ఈ ఆందోళన జరిగింది.",
+   "pts": [
+    "నిరసనకు రాష్ట్ర యూత్ కాంగ్రెస్ అధ్యక్షుడు శివచరణ్ రెడ్డి నాయకత్వం",
+    "మూడేళ్లలో ఏ పెద్ద సంస్థను తెచ్చారని కాంగ్రెస్‌కు కేటీఆర్ ప్రశ్న",
+    "కథనంలో పోలీసుల, మెటా స్పందన లేదు"
+   ],
+   "why": "హైదరాబాద్ ఐటీ రంగం, పెట్టుబడులపై జరుగుతున్న రాజకీయ చర్చను గమనించే పాఠకులకు ఇది సంబంధించినది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/youth-congress-meta-office-attack-ktr-condemns-damage-to-15d889b2",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "గచ్చిబౌలి",
+   "pub": "2026-11-21T10:33+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Politics",
+    "stat": "Brand Hyderabad",
+    "statl": "Damaged, alleges KTR",
+    "loc": "Gachibowli, Hyderabad",
+    "h": "KTR slams Congress over Meta office protest",
+    "p": "BRS working president KT Rama Rao alleged on Saturday that property was damaged in a Youth Congress protest at Meta's campus in Gachibowli, Hyderabad, and that this hurt the city's reputation. He said investor confidence would weaken. The protest was against the suspension of Meta accounts of national Youth Congress leaders.",
+    "pts": [
+     "State Youth Congress chief Shivacharan Reddy led the protest",
+     "KTR asked Congress which big firm it brought in three years",
+     "The report carries no police or Meta response"
+    ],
+    "why": "It matters to readers following the political debate over Hyderabad's IT sector and investments."
+   },
+   "hi": {
+    "cat": "तेलंगाना · राजनीति",
+    "stat": "ब्रांड हैदराबाद",
+    "statl": "नुकसान हुआ: केटीआर का आरोप",
+    "loc": "गच्चीबौली, हैदराबाद",
+    "h": "मेटा दफ्तर प्रदर्शन पर केटीआर का हमला",
+    "p": "बीआरएस के कार्यकारी अध्यक्ष केटी रामा राव ने शनिवार को आरोप लगाया कि हैदराबाद के गच्चीबौली स्थित मेटा कैंपस पर युवा कांग्रेस के प्रदर्शन में तोड़फोड़ हुई और इससे शहर की साख को नुकसान पहुंचा। उन्होंने कहा कि निवेशकों का भरोसा कमजोर होगा। यह प्रदर्शन युवा कांग्रेस के राष्ट्रीय नेताओं के मेटा खाते निलंबित होने के विरोध में था।",
+    "pts": [
+     "प्रदर्शन का नेतृत्व प्रदेश युवा कांग्रेस अध्यक्ष शिवचरण रेड्डी ने किया",
+     "केटीआर ने पूछा, तीन साल में कांग्रेस कौन सी बड़ी कंपनी लाई",
+     "रिपोर्ट में पुलिस या मेटा की प्रतिक्रिया नहीं है"
+    ],
+    "why": "यह हैदराबाद के आईटी क्षेत्र और निवेश पर चल रही राजनीतिक बहस पर नजर रखने वाले पाठकों के लिए अहम है।"
+   },
+   "d": "21.11.2026",
+   "t": "11:05"
+  },
+  {
+   "cat": "ఖమ్మం · ఆరోగ్యం",
+   "col": "--c-gov",
+   "pic": "c/health",
+   "stat": "నలుగురు",
+   "statl": "వైద్యుల సస్పెన్షన్",
+   "h": "మధిరలో నలుగురు వైద్యుల సస్పెన్షన్",
+   "p": "ఖమ్మం జిల్లా మధిర ప్రభుత్వ ఏరియా ఆసుపత్రిలో పనిచేస్తున్న నలుగురు వైద్యులను ఉన్నతాధికారులు సస్పెండ్ చేశారు. విధుల్లో నిర్లక్ష్యం, సమయపాలన పాటించకపోవడమే కారణమని వీ6 వెలుగు తెలిపింది. నవంబర్ 19న జరిగిన సమావేశంలో హెచ్చరించినా, 20న వారు సమయానికి విధులకు రాలేదు. కలెక్టర్ ఆదేశాలతో వెంటనే ఈ చర్య తీసుకున్నారు.",
+   "pts": [
+    "జనరల్ మెడిసిన్, పిల్లల, ఎముకల, రేడియాలజీ విభాగాల వైద్యులు",
+    "తెలంగాణ సివిల్ సర్వీసెస్ (సీసీఏ) నిబంధనల కింద చర్య",
+    "నిర్లక్ష్యాన్ని సహించబోమని డీసీహెచ్ఎస్ రాజశేఖర్ గౌడ్ హెచ్చరిక"
+   ],
+   "why": "మధిర ప్రాంతంలో ప్రభుత్వ ఆసుపత్రికి వచ్చే రోగులకు వైద్యులు సమయానికి అందుబాటులో ఉండటానికి ఇది సంబంధించినది.",
+   "src": "V6 Velugu",
+   "url": "https://www.v6velugu.com/four-doctors-suspended-at-madhira-area-hospital",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "khammam",
+   "loc": "మధిర",
+   "pub": "2026-11-21T09:39+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Khammam · Health",
+    "stat": "4 doctors",
+    "statl": "Suspended at Madhira hospital",
+    "loc": "Madhira, Khammam",
+    "h": "Four doctors suspended at Madhira hospital",
+    "p": "Four doctors of the Madhira area hospital in Khammam district have been suspended by senior officials. V6 Velugu reported the reasons as negligence of duty and not keeping working hours. Despite a warning at a meeting on November 19, they did not report on time on November 20. The action followed the Collector's direction.",
+    "pts": [
+     "Doctors are from general medicine, paediatrics, orthopaedics, radiology",
+     "Action taken under Telangana Civil Services (CCA) rules",
+     "DCHS Rajasekhar Goud said negligence will not be tolerated"
+    ],
+    "why": "It concerns patients in the Madhira area who depend on doctors being available on time at the government hospital."
+   },
+   "hi": {
+    "cat": "खम्मम · स्वास्थ्य",
+    "stat": "4 डॉक्टर",
+    "statl": "मधिरा अस्पताल में निलंबित",
+    "loc": "मधिरा, खम्मम",
+    "h": "मधिरा अस्पताल के चार डॉक्टर निलंबित",
+    "p": "खम्मम जिले के मधिरा एरिया अस्पताल के चार डॉक्टरों को वरिष्ठ अधिकारियों ने निलंबित कर दिया है। वी6 वेलुगु के अनुसार कारण ड्यूटी में लापरवाही और समय का पालन न करना है। 19 नवंबर की बैठक में चेतावनी के बावजूद वे 20 नवंबर को समय पर नहीं पहुंचे। कार्रवाई कलेक्टर के निर्देश पर हुई।",
+    "pts": [
+     "डॉक्टर जनरल मेडिसिन, बाल रोग, अस्थि रोग, रेडियोलॉजी विभाग के हैं",
+     "तेलंगाना सिविल सर्विसेज (सीसीए) नियमों के तहत कार्रवाई",
+     "डीसीएचएस राजशेखर गौड़ ने कहा, लापरवाही बर्दाश्त नहीं होगी"
+    ],
+    "why": "यह मधिरा क्षेत्र के उन मरीजों से जुड़ा है जो सरकारी अस्पताल में डॉक्टरों की समय पर उपलब्धता पर निर्भर हैं।"
+   },
+   "d": "21.11.2026",
+   "t": "11:05"
+  },
+  {
+   "cat": "నల్గొండ · ప్రవాసులు",
+   "col": "--c-city",
+   "pic": "n/condolence",
+   "stat": "ఒకరు మృతి",
+   "statl": "అమెరికాలో రోడ్డు ప్రమాదం",
+   "h": "అమెరికాలో నల్గొండ జిల్లా యువకుడి మృతి",
+   "p": "నల్గొండ జిల్లా మునుగోడుకు చెందిన 25 ఏళ్ల యువకుడు అమెరికాలో రోడ్డు ప్రమాదంలో మృతి చెందారు. కారులో ఉద్యోగానికి వెళ్తుండగా రోడ్డుపైకి వచ్చిన జింకను ఢీకొట్టి కారు ఆగిపోయిందని, వెనుక నుంచి వచ్చిన వాహనాలు దాన్ని ఢీకొన్నాయని డెక్కన్ క్రానికల్ తెలిపింది. ఆసుపత్రికి తరలించగా వైద్యులు మృతి చెందినట్లు ధ్రువీకరించారు.",
+   "pts": [
+    "వారం క్రితమే ఆయనకు ఉద్యోగం వచ్చినట్లు సమాచారం",
+    "మృతదేహం ఆదివారం రాత్రికి భారత్‌కు చేరే అవకాశం"
+   ],
+   "why": "అమెరికాలో చదువు, ఉద్యోగాల కోసం ఉన్న తెలుగు యువత కుటుంబాలకు ఇది ఆందోళన కలిగించే వార్త.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/nalgonda-youth-dies-in-road-accident-in-usa-2006518",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "nalgonda",
+   "loc": "మునుగోడు",
+   "pub": "2026-11-21T09:58+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Nalgonda · NRI",
+    "stat": "One dead",
+    "statl": "Road accident in the US",
+    "loc": "Munugode, Nalgonda",
+    "h": "Nalgonda youth dies in US road accident",
+    "p": "A 25-year-old man from Munugode in Nalgonda district died in a road accident in the United States. Deccan Chronicle reported that he was driving to work when his car hit a deer that ran onto the road and stopped, and vehicles behind crashed into it. He was taken to a hospital, where doctors declared him dead.",
+    "pts": [
+     "He had reportedly got a job only a week earlier",
+     "His body is expected to reach India by Sunday night"
+    ],
+    "why": "It is worrying news for families of Telugu youth studying and working in the US."
+   },
+   "hi": {
+    "cat": "नलगोंडा · प्रवासी",
+    "stat": "एक की मौत",
+    "statl": "अमेरिका में सड़क हादसा",
+    "loc": "मुनुगोडे, नलगोंडा",
+    "h": "अमेरिका में नलगोंडा के युवक की मौत",
+    "p": "नलगोंडा जिले के मुनुगोडे के 25 वर्षीय युवक की अमेरिका में सड़क हादसे में मौत हो गई। डेक्कन क्रॉनिकल के अनुसार वह कार से काम पर जा रहा था, तभी सड़क पर आए हिरण से कार टकराकर रुक गई और पीछे से आ रहे वाहन उससे टकरा गए। अस्पताल ले जाने पर डॉक्टरों ने उसे मृत घोषित किया।",
+    "pts": [
+     "बताया गया कि उसे एक हफ्ते पहले ही नौकरी मिली थी",
+     "पार्थिव शरीर रविवार रात तक भारत पहुंचने की संभावना"
+    ],
+    "why": "अमेरिका में पढ़ने और काम करने वाले तेलुगु युवाओं के परिवारों के लिए यह चिंता की खबर है।"
+   },
+   "d": "21.11.2026",
+   "t": "11:05"
+  },
+  {
+   "cat": "వికారాబాద్ · పోలీస్",
+   "col": "--c-city",
+   "art": "court",
+   "pic": "c/crime",
+   "stat": "1,287 వాహనాలు",
+   "statl": "నాకాబందీలో తనిఖీ",
+   "h": "వికారాబాద్ జిల్లాలో 1,287 వాహనాల తనిఖీ",
+   "p": "వికారాబాద్ జిల్లా వ్యాప్తంగా పోలీసులు నాకాబందీ నిర్వహించి 1,287 వాహనాలను తనిఖీ చేశారు. ఎస్పీ స్నేహ మెహ్రా ఆదేశాలతో అన్ని పోలీస్ స్టేషన్ల పరిధిలో ప్రధాన రహదారులు, కూడళ్ల వద్ద తనిఖీలు జరిగాయి. 272 ఈ-చలాన్లు జారీ చేసి ₹98,730 జరిమానా విధించినట్లు పోలీసులు తెలిపారు. ఇలాంటి తనిఖీలు కొనసాగుతాయని చెప్పారు.",
+   "pts": [
+    "610 ద్విచక్ర వాహనాలు, 296 కార్లు, 163 భారీ వాహనాల తనిఖీ",
+    "120 ఈ-పెట్టీ కేసులు, 83 డీడీ కేసులు నమోదు",
+    "హెల్మెట్, సీట్ బెల్ట్ తప్పనిసరిగా వాడాలని ఎస్పీ సూచన"
+   ],
+   "why": "వికారాబాద్ జిల్లా రహదారులపై ప్రయాణించే వాహనదారులు నిబంధనలు పాటించాల్సిన అవసరాన్ని ఇది గుర్తు చేస్తుంది.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/hyderabad/police-conduct-district-wide-nakabandi-inspect-1287-vehicles-215403",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "vikarabad",
+   "loc": "",
+   "pub": "2026-11-21T09:47+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Vikarabad · Police",
+    "stat": "1,287 vehicles",
+    "statl": "Checked in nakabandi",
+    "loc": "Vikarabad",
+    "h": "1,287 vehicles checked across Vikarabad",
+    "p": "Police held a district-wide nakabandi in Vikarabad and checked 1,287 vehicles. On the orders of SP Sneha Mehra, checks were carried out on main roads and junctions in all police station limits. Police said 272 e-challans were issued with fines of ₹98,730. They said such checks will continue.",
+    "pts": [
+     "610 two-wheelers, 296 cars and 163 heavy vehicles checked",
+     "120 e-petty cases and 83 DD cases booked",
+     "SP urged use of helmets and seat belts"
+    ],
+    "why": "It reminds motorists on Vikarabad district roads to follow the rules."
+   },
+   "hi": {
+    "cat": "विकाराबाद · पुलिस",
+    "stat": "1,287 वाहन",
+    "statl": "नाकाबंदी में जांच",
+    "loc": "विकाराबाद",
+    "h": "विकाराबाद जिले में 1,287 वाहनों की जांच",
+    "p": "विकाराबाद जिले में पुलिस ने जिला-व्यापी नाकाबंदी कर 1,287 वाहनों की जांच की। एसपी स्नेहा मेहरा के आदेश पर सभी थाना क्षेत्रों में मुख्य सड़कों और चौराहों पर जांच हुई। पुलिस के अनुसार 272 ई-चालान जारी कर ₹98,730 का जुर्माना लगाया गया। पुलिस ने कहा कि ऐसी जांच जारी रहेगी।",
+    "pts": [
+     "610 दोपहिया, 296 कारों और 163 भारी वाहनों की जांच",
+     "120 ई-पेटी केस और 83 डीडी केस दर्ज",
+     "एसपी ने हेलमेट और सीट बेल्ट लगाने की अपील की"
+    ],
+    "why": "यह विकाराबाद जिले की सड़कों पर चलने वाले वाहन चालकों को नियम मानने की याद दिलाता है।"
+   },
+   "d": "21.11.2026",
+   "t": "11:05"
+  },
+  {
+   "cat": "సంగారెడ్డి · పోలీస్",
+   "col": "--c-city",
+   "art": "court",
+   "pic": "c/crime",
+   "stat": "252 వాహనాలు",
+   "statl": "సీజ్ చేసిన పోలీసులు",
+   "h": "సంగారెడ్డిలో 252 వాహనాలు సీజ్: పోలీసులు",
+   "p": "సంగారెడ్డి పట్టణంలో పోలీసులు ప్రత్యేక వాహన తనిఖీలు నిర్వహించి 252 వాహనాలను సీజ్ చేశారు. నంబర్ ప్లేట్లు లేనివి, నకిలీ ప్లేట్లు ఉన్నవి, నంబర్ కనిపించకుండా కప్పినవి వీటిలో ఉన్నాయని పోలీసులు తెలిపారు. ఎస్పీ పరితోష్ పంకజ్ ఆదేశాలతో ఈ తనిఖీలు జరిగాయి. జిల్లా అంతటా తనిఖీలు ముమ్మరం చేస్తామని ఎస్పీ చెప్పారు.",
+   "pts": [
+    "పెండింగ్ చలాన్లు ఉన్న వాహనాలనూ గుర్తించారు",
+    "చలాన్లు వెంటనే చెల్లించాలని యజమానులకు కౌన్సెలింగ్",
+    "ప్లేట్లు మార్చితే నేరాల్లో వాహనాల గుర్తింపు కష్టమన్న ఎస్పీ"
+   ],
+   "why": "సంగారెడ్డి జిల్లా వాహనదారులు సరైన నంబర్ ప్లేట్లు పెట్టుకోవాలని, చలాన్లు చెల్లించాలని ఇది సూచిస్తోంది.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/medak-sangareddy/police-seize-252-vehicles-in-mega-drive-against-fake-plates-215375",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "sangareddy",
+   "loc": "సంగారెడ్డి",
+   "pub": "2026-11-21T07:39+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Sangareddy · Police",
+    "stat": "252 vehicles",
+    "statl": "Seized by police",
+    "loc": "Sangareddy",
+    "h": "252 vehicles seized in Sangareddy: police",
+    "p": "Police held a special vehicle check in Sangareddy town and seized 252 vehicles. They included vehicles without number plates, with fake plates or with covered numbers, police said. The checks were ordered by SP Paritosh Pankaj. The SP said checks will be stepped up across the district.",
+    "pts": [
+     "Vehicles with pending challans were also identified",
+     "Owners to be counselled to clear challans at once",
+     "SP said altered plates make vehicles hard to trace in crimes"
+    ],
+    "why": "It signals that motorists in Sangareddy district must use proper number plates and clear their challans."
+   },
+   "hi": {
+    "cat": "संगारेड्डी · पुलिस",
+    "stat": "252 वाहन",
+    "statl": "पुलिस ने जब्त किए",
+    "loc": "संगारेड्डी",
+    "h": "संगारेड्डी में 252 वाहन जब्त: पुलिस",
+    "p": "संगारेड्डी शहर में पुलिस ने विशेष वाहन जांच अभियान चलाकर 252 वाहन जब्त किए। पुलिस के अनुसार इनमें बिना नंबर प्लेट, नकली प्लेट और ढके हुए नंबर वाले वाहन शामिल हैं। यह जांच एसपी परितोष पंकज के आदेश पर हुई। एसपी ने कहा कि पूरे जिले में जांच तेज की जाएगी।",
+    "pts": [
+     "लंबित चालान वाले वाहनों की भी पहचान हुई",
+     "मालिकों को चालान तुरंत भरने की समझाइश दी जाएगी",
+     "एसपी: प्लेट बदलने से अपराध में वाहन पहचानना मुश्किल"
+    ],
+    "why": "यह संगारेड्डी जिले के वाहन चालकों को सही नंबर प्लेट लगाने और चालान भरने का संकेत है।"
+   },
+   "d": "21.11.2026",
+   "t": "11:05"
+  },
+  {
+   "cat": "భద్రాద్రి · పుష్కరాలు",
+   "col": "--c-city",
+   "pic": "c/infrastructure",
+   "stat": "పుష్కర ఘాట్లు",
+   "statl": "భద్రాచలంలో పనుల తనిఖీ",
+   "h": "భద్రాచలం పుష్కర ఘాట్ పనుల తనిఖీ",
+   "p": "భద్రాచలంలో కొత్తగా నిర్మిస్తున్న పుష్కర ఘాట్ పనులను సబ్ కలెక్టర్ మృణాల్ శ్రేష్ఠ పరిశీలించారు. 2027లో జరిగే గోదావరి పుష్కరాల కోసం ఈ ఘాట్లు నిర్మిస్తున్నారు. పనులను వేగవంతం చేసి, నాణ్యతతో సకాలంలో పూర్తి చేయాలని నీటిపారుదల శాఖ ఇంజినీర్లను ఆదేశించారు. దేశ విదేశాల నుంచి భక్తులు భారీగా వస్తారని సబ్ కలెక్టర్ తెలిపారు.",
+   "pts": [
+    "తనిఖీలో నీటిపారుదల శాఖ ఈఈ, డీఈఈలు పాల్గొన్నారు"
+   ],
+   "why": "వచ్చే ఏడాది గోదావరి పుష్కరాలకు భద్రాచలం వచ్చే భక్తుల సౌకర్యాలకు ఈ పనులు ముఖ్యం.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/khammam/sub-collector-mrunal-shrestha-inspects-pushkar-ghat-works-215407",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "bhadradri",
+   "loc": "భద్రాచలం",
+   "pub": "2026-11-21T09:56+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Bhadradri · Pushkaralu",
+    "stat": "Pushkar ghats",
+    "statl": "Works inspected at Bhadrachalam",
+    "loc": "Bhadrachalam",
+    "h": "Bhadrachalam Pushkar ghat works inspected",
+    "p": "Sub-Collector Mrunal Shrestha inspected the new Pushkar ghat works under construction at Bhadrachalam. The ghats are being built for the Godavari Pushkaralu in 2027. Irrigation engineers were told to speed up the works and finish them on time with quality. The Sub-Collector said large numbers of devotees are expected from India and abroad.",
+    "pts": [
+     "Irrigation EE and DEEs took part in the inspection"
+    ],
+    "why": "The works matter for the comfort of devotees coming to Bhadrachalam for next year's Godavari Pushkaralu."
+   },
+   "hi": {
+    "cat": "भद्राद्री · पुष्करालु",
+    "stat": "पुष्कर घाट",
+    "statl": "भद्राचलम में कार्यों का निरीक्षण",
+    "loc": "भद्राचलम",
+    "h": "भद्राचलम पुष्कर घाट कार्यों का निरीक्षण",
+    "p": "उप-कलेक्टर मृणाल श्रेष्ठ ने भद्राचलम में बन रहे नए पुष्कर घाट के कार्यों का निरीक्षण किया। ये घाट 2027 के गोदावरी पुष्करालु के लिए बनाए जा रहे हैं। सिंचाई विभाग के इंजीनियरों को काम तेज कर गुणवत्ता के साथ समय पर पूरा करने का निर्देश दिया गया। उप-कलेक्टर ने कहा कि देश-विदेश से बड़ी संख्या में श्रद्धालु आएंगे।",
+    "pts": [
+     "निरीक्षण में सिंचाई विभाग के ईई और डीईई शामिल रहे"
+    ],
+    "why": "अगले साल गोदावरी पुष्करालु के लिए भद्राचलम आने वाले श्रद्धालुओं की सुविधा के लिए ये कार्य अहम हैं।"
+   },
+   "d": "21.11.2026",
+   "t": "11:05"
+  },
+  {
+   "cat": "కామారెడ్డి · ప్రవాసులు",
+   "col": "--c-gov",
+   "pic": "n/nri",
+   "stat": "నవంబర్ 28న",
+   "statl": "విక్టోరియా పోలింగ్",
+   "h": "ఆస్ట్రేలియా ఎన్నికల్లో కామారెడ్డి మహిళ",
+   "p": "కామారెడ్డి జిల్లా భిక్కనూర్ మండలం అంతంపల్లికి చెందిన చిట్టెడి సుచిత్ర ఆస్ట్రేలియాలోని విక్టోరియా రాష్ట్ర ఎన్నికల్లో పోటీ చేస్తున్నారని ఆమె బంధువులు తెలిపారు. ది రిపబ్లికన్ పార్టీ తరఫున లావెర్టన్ స్థానం నుంచి బరిలో ఉన్నారని ఈటీవీ భారత్ పేర్కొంది. 2014లో చదువు కోసం ఆస్ట్రేలియా వెళ్లిన ఆమె అక్కడే స్థిరపడ్డారు. ఆ స్థానంలో తొమ్మిది మంది పోటీలో ఉన్నారు.",
+   "pts": [
+    "ముందస్తు ఓటింగ్ నవంబర్ 18న మొదలైంది",
+    "రవాణా, మౌలిక వసతులు, ఆరోగ్య సేవలు ఆమె ప్రచార అంశాలు"
+   ],
+   "why": "విదేశాల్లో స్థిరపడిన తెలంగాణ వాసులు అక్కడి ప్రజా జీవితంలోకి వస్తున్న తీరును ఇది చూపుతుంది.",
+   "src": "ETV Bharat",
+   "url": "https://www.etvbharat.com/te/state/telangana-woman-chittedi-suchitra-to-contest-in-australian-elections-tgs26112100922",
+   "sec": [
+    "telangana",
+    "world"
+   ],
+   "st": "TG",
+   "place": "kamareddy",
+   "loc": "అంతంపల్లి, భిక్కనూర్",
+   "pub": "2026-11-21T10:10+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Kamareddy · NRI",
+    "stat": "November 28",
+    "statl": "Victoria state election polling",
+    "loc": "Antampalli, Bhiknoor",
+    "h": "Kamareddy woman contests Australian poll",
+    "p": "Chittedi Suchitra, from Antampalli in Bhiknoor mandal of Kamareddy district, is contesting the Victoria state election in Australia, her relatives said. ETV Bharat reported she is the candidate of The Republican Party for the Laverton seat. She went to Australia in 2014 to study and settled there. Nine candidates are contesting the seat.",
+    "pts": [
+     "Early voting began on November 18",
+     "Her campaign issues are transport, infrastructure and health services"
+    ],
+    "why": "It shows how Telangana people settled abroad are entering public life there.",
+    "next": "Polling is on November 28, from 8 am to 6 pm"
+   },
+   "hi": {
+    "cat": "कामारेड्डी · प्रवासी",
+    "stat": "28 नवंबर",
+    "statl": "विक्टोरिया राज्य चुनाव का मतदान",
+    "loc": "अंतमपल्ली, भिक्कनूर",
+    "h": "ऑस्ट्रेलिया चुनाव में कामारेड्डी की महिला",
+    "p": "कामारेड्डी जिले के भिक्कनूर मंडल के अंतमपल्ली की चिट्टेडी सुचित्रा ऑस्ट्रेलिया के विक्टोरिया राज्य चुनाव में उम्मीदवार हैं, यह उनके रिश्तेदारों ने बताया। ईटीवी भारत के अनुसार वे द रिपब्लिकन पार्टी की ओर से लावर्टन सीट से मैदान में हैं। वे 2014 में पढ़ाई के लिए ऑस्ट्रेलिया गईं और वहीं बस गईं। इस सीट पर नौ उम्मीदवार हैं।",
+    "pts": [
+     "अग्रिम मतदान 18 नवंबर से शुरू हुआ",
+     "परिवहन, बुनियादी सुविधाएं और स्वास्थ्य सेवाएं उनके मुद्दे हैं"
+    ],
+    "why": "यह दिखाता है कि विदेश में बसे तेलंगाना के लोग वहां के सार्वजनिक जीवन में कैसे आ रहे हैं।",
+    "next": "मतदान 28 नवंबर को सुबह 8 से शाम 6 बजे तक"
+   },
+   "d": "21.11.2026",
+   "t": "11:05",
+   "next": "పోలింగ్ నవంబర్ 28న ఉదయం 8 నుంచి సాయంత్రం 6 గంటల వరకు"
+  },
+  {
+   "cat": "ఏపీ · విజయనగరం",
+   "col": "--c-gov",
+   "art": "court",
+   "pic": "c/courts",
+   "stat": "డిసెంబర్ 3న",
+   "statl": "హైకోర్టు తదుపరి విచారణ",
+   "h": "విజయనగరం జడ్పీ ఛైర్‌పర్సన్‌కు ఊరట",
+   "p": "విజయనగరం జడ్పీ ఛైర్‌పర్సన్ మజ్జి సిరిసహస్ర బీసీ-డీ ధ్రువపత్రం వాడకుండా మధ్యంతర ఉత్తర్వులు ఇవ్వడానికి ఏపీ హైకోర్టు శుక్రవారం నిరాకరించింది. ధ్రువపత్రం చెల్లుబాటును జిల్లా స్థాయి పరిశీలన కమిటీ, కలెక్టర్ ఇప్పటికే పరిశీలిస్తున్నందున జోక్యం అవసరం లేదని జస్టిస్ ఎన్.హరినాథ్ పేర్కొన్నారు. ఆమె పొందే ప్రయోజనాలు కలెక్టర్ తుది ఉత్తర్వులకు లోబడి ఉంటాయని తెలిపారు.",
+   "pts": [
+    "పిటిషన్ వేసింది వైఎస్సార్‌సీపీ నేత బొమ్మి శ్రీనివాసరావు",
+    "జిల్లా పరిశీలన కమిటీ విచారణ డిసెంబర్ 10న"
+   ],
+   "why": "విజయనగరం జిల్లా పరిషత్ నాయకత్వంపై ఉన్న న్యాయ వివాదం ఎటు సాగుతుందో తెలుసుకోవాలనుకునే వారికి ఇది ముఖ్యం.",
+   "src": "ap7am",
+   "url": "https://www.ap7am.com/tn/887469/majji-sirisaharsa-relief-for-vizianagaram-zp-chairperson-as-high-court-refuses-to-intervene",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-vizianagaram",
+   "loc": "",
+   "pub": "2026-11-21T07:58+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Vizianagaram",
+    "stat": "December 3",
+    "statl": "Next High Court hearing",
+    "loc": "Vizianagaram",
+    "h": "HC relief for Vizianagaram ZP chairperson",
+    "p": "The Andhra Pradesh High Court on Friday declined to pass an interim order stopping Vizianagaram ZP chairperson Majji Sirisaharsa from using her BC-D certificate. Justice N. Harinath said there was no need to intervene as the district scrutiny committee and the Collector are already examining its validity. Any benefits she gets will be subject to the Collector's final orders.",
+    "pts": [
+     "The petition was filed by YSRCP leader Bommi Srinivasa Rao",
+     "District scrutiny committee hearing is on December 10"
+    ],
+    "why": "It matters to those following the legal dispute over the leadership of the Vizianagaram Zilla Parishad.",
+    "next": "Main petition to be heard on December 3"
+   },
+   "hi": {
+    "cat": "आंध्र · विजयनगरम",
+    "stat": "3 दिसंबर",
+    "statl": "हाईकोर्ट में अगली सुनवाई",
+    "loc": "विजयनगरम",
+    "h": "विजयनगरम जेडपी अध्यक्ष को हाईकोर्ट से राहत",
+    "p": "आंध्र प्रदेश हाईकोर्ट ने शुक्रवार को विजयनगरम जिला परिषद अध्यक्ष मज्जी सिरीसहस्रा को बीसी-डी प्रमाणपत्र के उपयोग से रोकने का अंतरिम आदेश देने से इनकार कर दिया। न्यायमूर्ति एन. हरिनाथ ने कहा कि जिला स्तरीय जांच समिति और कलेक्टर पहले से इसकी वैधता जांच रहे हैं, इसलिए दखल की जरूरत नहीं। उन्हें मिलने वाले लाभ कलेक्टर के अंतिम आदेश के अधीन रहेंगे।",
+    "pts": [
+     "याचिका वाईएसआरसीपी नेता बोम्मी श्रीनिवास राव ने दायर की",
+     "जिला जांच समिति की सुनवाई 10 दिसंबर को"
+    ],
+    "why": "यह विजयनगरम जिला परिषद के नेतृत्व पर चल रहे कानूनी विवाद पर नजर रखने वालों के लिए अहम है।",
+    "next": "मुख्य याचिका पर सुनवाई 3 दिसंबर को"
+   },
+   "d": "21.11.2026",
+   "t": "11:05",
+   "next": "ప్రధాన పిటిషన్ విచారణ డిసెంబర్ 3న"
+  },
+  {
+   "cat": "తమిళనాడు · పెట్టుబడులు",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "c/business",
+   "stat": "గైడెన్స్ తమిళనాడు",
+   "statl": "రాజీనామాల ఖండన",
+   "h": "గైడెన్స్ తమిళనాడులో రాజీనామాల ఖండన",
+   "p": "తమ సంస్థలో సామూహిక రాజీనామాలు జరగలేదని తమిళనాడు పెట్టుబడుల ప్రోత్సాహక సంస్థ గైడెన్స్ తమిళనాడు శుక్రవారం ప్రకటించింది. ఉద్యోగులు వెళ్లిపోవడం సాధారణ విషయమేనని తెలిపింది. తమిళనాడు పెట్టుబడుల రహస్య సమాచారం ఆంధ్రప్రదేశ్‌కు చేరిందని అన్నాడీఎంకే నేత పళనిస్వామి ఆరోపించారు. ఆ ఆరోపణపై సంస్థ ప్రకటనలో వివరాలు లేవని డెక్కన్ క్రానికల్ పేర్కొంది.",
+   "pts": [
+    "జూన్, జులైలో సుమారు 15 మంది ఉద్యోగులు వెళ్లినట్లు కథనాలు",
+    "కొందరు ఏపీ ఆర్థికాభివృద్ధి మండలిలో చేరినట్లు సమాచారం",
+    "అనంతపురంలో మూడు కొరియా సంస్థల ₹1,614 కోట్ల పెట్టుబడి నేపథ్యం"
+   ],
+   "why": "పెట్టుబడుల కోసం ఏపీ, తమిళనాడు మధ్య పోటీని గమనించే ఏపీ పాఠకులకు ఇది సంబంధించినది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/guidance-tamil-nadu-denies-mass-resignations-calls-employee-attrition-normal-2006498",
+   "sec": [
+    "india",
+    "business"
+   ],
+   "st": "TN",
+   "place": "st-TN",
+   "loc": "",
+   "pub": "2026-11-21T07:53+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Tamil Nadu · Investment",
+    "stat": "Guidance TN",
+    "statl": "Says no mass resignations",
+    "loc": "Tamil Nadu",
+    "h": "Guidance Tamil Nadu denies mass resignations",
+    "p": "Guidance Tamil Nadu, the state's investment promotion agency, said on Friday that there were no mass resignations from it. It said staff leaving is a normal matter. AIADMK leader Palaniswami has alleged that confidential information on Tamil Nadu investments reached Andhra Pradesh. The agency's statement gave no details on that allegation, Deccan Chronicle reported.",
+    "pts": [
+     "Reports say about 15 employees left in June and July",
+     "Some reportedly joined AP's Economic Development Board",
+     "Backdrop: three Korean firms' ₹1,614 crore plans in Anantapur"
+    ],
+    "why": "It concerns AP readers following the competition between AP and Tamil Nadu for investments."
+   },
+   "hi": {
+    "cat": "तमिलनाडु · निवेश",
+    "stat": "गाइडेंस तमिलनाडु",
+    "statl": "सामूहिक इस्तीफों से इनकार",
+    "loc": "तमिलनाडु",
+    "h": "गाइडेंस तमिलनाडु: सामूहिक इस्तीफे नहीं हुए",
+    "p": "तमिलनाडु की निवेश प्रोत्साहन एजेंसी गाइडेंस तमिलनाडु ने शुक्रवार को कहा कि उसके यहां सामूहिक इस्तीफे नहीं हुए। उसने कहा कि कर्मचारियों का जाना सामान्य बात है। अन्नाद्रमुक नेता पलानीस्वामी ने आरोप लगाया है कि तमिलनाडु के निवेश की गोपनीय जानकारी आंध्र प्रदेश तक पहुंची। डेक्कन क्रॉनिकल के अनुसार एजेंसी के बयान में इस आरोप पर ब्योरा नहीं है।",
+    "pts": [
+     "खबरों के अनुसार जून-जुलाई में करीब 15 कर्मचारी गए",
+     "कुछ के आंध्र के आर्थिक विकास बोर्ड में जाने की खबर",
+     "पृष्ठभूमि: अनंतपुर में तीन कोरियाई कंपनियों का ₹1,614 करोड़ निवेश"
+    ],
+    "why": "यह निवेश के लिए आंध्र और तमिलनाडु की होड़ पर नजर रखने वाले पाठकों से जुड़ा है।"
+   },
+   "d": "21.11.2026",
+   "t": "11:05"
+  },
+  {
+   "cat": "ప్రపంచం · టెక్నాలజీ",
+   "col": "--c-gov",
+   "pic": "n/ai",
+   "stat": "భారీ పన్ను",
+   "statl": "ట్రంప్ హెచ్చరిక",
+   "h": "విదేశీ డేటా సెంటర్లపై పన్ను: ట్రంప్",
+   "p": "అమెరికా వెలుపల ఏఐ డేటా సెంటర్లు నిర్మించే అమెరికా కంపెనీలపై భారీ పన్ను విధిస్తామని అధ్యక్షుడు డొనాల్డ్ ట్రంప్ శుక్రవారం వైట్‌హౌస్‌లో హెచ్చరించారు. ఈ ప్రతిపాదనను ఇంకా తన సిబ్బందికి చెప్పలేదని ఆయన అన్నారు. దీన్ని ఎలా అమలు చేస్తారన్నది స్పష్టం కాలేదని అసోసియేటెడ్ ప్రెస్ తెలిపింది. అమెరికాలో డేటా సెంటర్లపై స్థానికంగా వ్యతిరేకత పెరుగుతోంది.",
+   "pts": [
+    "అసోసియేటెడ్ ప్రెస్ సర్వేలో ప్రతి నలుగురిలో ముగ్గురు ఓటర్ల వ్యతిరేకత",
+    "వచ్చే ఏడాది ఏఐపై వ్యయం 1.8 లక్షల కోట్ల డాలర్ల వరకు: యూబీఎస్"
+   ],
+   "why": "భారత్‌తో సహా విదేశాల్లో డేటా సెంటర్ల పెట్టుబడులను గమనించే వారికి ఇది ముఖ్యమైన పరిణామం.",
+   "src": "AP (The Manila Times)",
+   "url": "https://www.manilatimes.net/2026/11/21/world/americas-emea/trump-seeks-to-penalize-us-companies-that-build-ai-data-centers-abroad-even-as-they-face-backlash/2475389",
+   "sec": [
+    "world",
+    "ai",
+    "business"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-21T08:52+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "World · Technology",
+    "stat": "Heavy tax",
+    "statl": "Trump's warning on overseas data centres",
+    "loc": "United States",
+    "h": "Trump threatens tax on overseas data centres",
+    "p": "US President Donald Trump warned at the White House on Friday of a heavy tax on American companies that build AI data centres outside the United States. He said he had not yet told his staff about the proposal. How it would be enforced is unclear, the Associated Press reported. Local opposition to data centres is growing in the US.",
+    "pts": [
+     "AP poll: three in four voters opposed a data centre nearby",
+     "AI spending may reach $1.8 trillion next year: UBS"
+    ],
+    "why": "It is an important development for those following data centre investments abroad, including in India."
+   },
+   "hi": {
+    "cat": "विश्व · तकनीक",
+    "stat": "भारी टैक्स",
+    "statl": "विदेशी डेटा सेंटरों पर ट्रंप की चेतावनी",
+    "loc": "अमेरिका",
+    "h": "विदेश में डेटा सेंटर बनाने पर टैक्स: ट्रंप",
+    "p": "अमेरिकी राष्ट्रपति डोनाल्ड ट्रंप ने शुक्रवार को व्हाइट हाउस में चेतावनी दी कि अमेरिका के बाहर एआई डेटा सेंटर बनाने वाली अमेरिकी कंपनियों पर भारी टैक्स लगाया जाएगा। उन्होंने कहा कि यह प्रस्ताव उन्होंने अभी अपने स्टाफ को नहीं बताया है। एसोसिएटेड प्रेस के अनुसार इसे कैसे लागू किया जाएगा, यह साफ नहीं है। अमेरिका में डेटा सेंटरों का स्थानीय विरोध बढ़ रहा है।",
+    "pts": [
+     "एपी सर्वे: चार में से तीन मतदाता पास में डेटा सेंटर के खिलाफ",
+     "अगले साल एआई पर खर्च 1.8 ट्रिलियन डॉलर तक: यूबीएस"
+    ],
+    "why": "भारत समेत विदेशों में डेटा सेंटर निवेश पर नजर रखने वालों के लिए यह अहम घटनाक्रम है।"
+   },
+   "d": "21.11.2026",
+   "t": "11:05"
+  },
   {
    "cat": "తెలంగాణ · విద్యుత్",
    "col": "--c-power",
@@ -2667,379 +3270,6 @@
    "t": "06:35"
   },
   {
-   "cat": "ఏపీ · కాకినాడ",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "c/politics",
-   "stat": "జడ్పీ చైర్‌పర్సన్",
-   "statl": "సునీత రాజ్ ఏకగ్రీవం",
-   "h": "కాకినాడ జడ్పీ చైర్‌పర్సన్‌గా సునీత రాజ్",
-   "p": "కాకినాడ జిల్లా ప్రజా పరిషత్ చైర్‌పర్సన్‌గా పెద్దాపురం జడ్పీటీసీ బుర్రా దివ్య సునీత రాజ్ శుక్రవారం ఏకగ్రీవంగా ఎన్నికయ్యారు. వైస్ చైర్‌పర్సన్‌గా కరప జడ్పీటీసీ పి. రాజేశ్వరి దేవి ఎన్నికయ్యారు. వేరే నామినేషన్లు రాకపోవడంతో కలెక్టర్ ఎం.ఎన్. హరేంధిర ప్రసాద్ ఇద్దరి ఎన్నికను ప్రకటించారు. జడ్పీ సీఈవో లక్ష్మణరావు, పరిశీలకురాలు లావణ్యవేణి పాల్గొన్నారు.",
-   "pts": [
-    "కాకినాడ జడ్పీ కార్యాలయంలో ప్రత్యేక సమావేశం",
-    "ఎంపీలు సానా సతీశ్ బాబు, ఉదయ్ శ్రీనివాస్ హాజరు"
-   ],
-   "why": "కాకినాడ జిల్లా గ్రామాల అభివృద్ధి పనులపై నిర్ణయాలు కొత్త జడ్పీ పాలకవర్గం తీసుకుంటుంది.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/kakinada/suneetha-raj-elected-kakinada-zp-chairperson-1144122",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-kakinada",
-   "loc": "కాకినాడ",
-   "pub": "2026-11-21T00:57+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Kakinada",
-    "h": "Suneetha Raj is Kakinada ZP chairperson",
-    "stat": "ZP chairperson",
-    "statl": "Burra Divya Suneetha Raj unopposed",
-    "loc": "Kakinada",
-    "p": "Peddapuram ZPTC member Burra Divya Suneetha Raj was unanimously elected chairperson of the Kakinada Zilla Parishad on Friday. Karapa ZPTC member P. Rajeshwari Devi was elected vice-chairperson. With no other nominations, Collector M.N. Harendhira Prasad declared both elected. ZP CEO Lakshmana Rao and observer Lavanya Veni were present.",
-    "pts": [
-     "Special meeting held at the Kakinada ZP office",
-     "MPs Sana Satish Babu and Uday Srinivas attended"
-    ],
-    "why": "The new ZP body will decide on development works in Kakinada district villages."
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · काकीनाडा",
-    "h": "सुनीता राज काकीनाडा जिला परिषद अध्यक्ष",
-    "stat": "जिला परिषद अध्यक्ष",
-    "statl": "बुर्रा दिव्या सुनीता राज निर्विरोध",
-    "loc": "काकीनाडा",
-    "p": "पेद्दापुरम की जेडपीटीसी बुर्रा दिव्या सुनीता राज शुक्रवार को काकीनाडा जिला परिषद की अध्यक्ष निर्विरोध चुनी गईं। करपा की जेडपीटीसी पी. राजेश्वरी देवी उपाध्यक्ष बनीं। कोई और नामांकन न आने पर कलेक्टर एम.एन. हरेंधिरा प्रसाद ने दोनों के चुनाव की घोषणा की। जिला परिषद सीईओ लक्ष्मण राव और पर्यवेक्षक लावण्या वेणी मौजूद रहीं।",
-    "pts": [
-     "काकीनाडा जिला परिषद कार्यालय में विशेष बैठक",
-     "सांसद साना सतीश बाबू और उदय श्रीनिवास मौजूद"
-    ],
-    "why": "काकीनाडा जिले के गांवों के विकास कार्यों के फैसले नई जिला परिषद करेगी।"
-   },
-   "d": "21.11.2026",
-   "t": "06:35"
-  },
-  {
-   "cat": "ఏపీ · బాపట్ల",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "c/politics",
-   "stat": "జడ్పీ చైర్‌పర్సన్",
-   "statl": "రోహిణి ఏకగ్రీవం",
-   "h": "బాపట్ల తొలి జడ్పీ చైర్‌పర్సన్‌గా రోహిణి",
-   "p": "కొత్తగా ఏర్పడిన బాపట్ల జిల్లా ప్రజా పరిషత్‌కు తొలి చైర్‌పర్సన్‌గా పూషడపు రోహిణి ఏకగ్రీవంగా ఎన్నికయ్యారు. వైస్ చైర్‌పర్సన్‌గా కలవకూరి పిచ్చమ్మ ఎన్నికయ్యారు. శుక్రవారం కలెక్టర్ డాక్టర్ వినోద్ కుమార్ ఫలితాలు ప్రకటించి ధ్రువపత్రాలు అందజేశారు. అనంతరం ఇద్దరూ బాధ్యతలు చేపట్టారు. రెవెన్యూ మంత్రి అనగాని సత్యప్రసాద్, ఎంపీ తెన్నేటి కృష్ణప్రసాద్ వారిని అభినందించారు.",
-   "pts": [
-    "పర్చూరు, వేమూరు, బాపట్ల ఎమ్మెల్యేలు హాజరు",
-    "ఎమ్మెల్సీ పోతుల సునీత అభినందనలు"
-   ],
-   "why": "బాపట్ల జిల్లా గ్రామాల అభివృద్ధి పనులపై నిర్ణయాలు కొత్త జడ్పీ పాలకవర్గం తీసుకుంటుంది.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/guntur/rohini-chosen-bapatla-zp-chairperson-1144124",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-bapatla",
-   "loc": "బాపట్ల",
-   "pub": "2026-11-21T01:50+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Bapatla",
-    "h": "Rohini is Bapatla's first ZP chairperson",
-    "stat": "First ZP chairperson",
-    "statl": "Pushadapu Rohini unopposed",
-    "loc": "Bapatla",
-    "p": "Pushadapu Rohini was unanimously elected the first chairperson of the newly formed Bapatla district Zilla Parishad. Kalavakuri Picchamma was elected vice-chairperson. On Friday Collector Dr Vinod Kumar announced the results and handed over certificates, after which both took charge. Revenue Minister Anagani Satya Prasad and MP Tenneti Krishna Prasad congratulated them.",
-    "pts": [
-     "Parchur, Vemuru and Bapatla MLAs attended",
-     "MLC Pothula Suneetha congratulated them"
-    ],
-    "why": "The new ZP body will decide on development works in Bapatla district villages."
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · बापटला",
-    "h": "रोहिणी बापटला की पहली जिला परिषद अध्यक्ष",
-    "stat": "पहली जिला परिषद अध्यक्ष",
-    "statl": "पूषडपु रोहिणी निर्विरोध",
-    "loc": "बापटला",
-    "p": "नवगठित बापटला जिला परिषद की पहली अध्यक्ष पूषडपु रोहिणी निर्विरोध चुनी गईं। कलवकूरी पिच्चम्मा उपाध्यक्ष चुनी गईं। शुक्रवार को कलेक्टर डॉ. विनोद कुमार ने नतीजे घोषित कर प्रमाण पत्र सौंपे, जिसके बाद दोनों ने कार्यभार संभाला। राजस्व मंत्री अनगानी सत्य प्रसाद और सांसद तेन्नेटी कृष्ण प्रसाद ने उन्हें बधाई दी।",
-    "pts": [
-     "परचूर, वेमुरु और बापटला के विधायक मौजूद",
-     "एमएलसी पोतुला सुनीता ने बधाई दी"
-    ],
-    "why": "बापटला जिले के गांवों के विकास कार्यों के फैसले नई जिला परिषद करेगी।"
-   },
-   "d": "21.11.2026",
-   "t": "06:35"
-  },
-  {
-   "cat": "ఏపీ · శ్రీ సత్యసాయి",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "c/politics",
-   "stat": "జడ్పీ చైర్మన్",
-   "statl": "శ్రీరామ్ ఏకగ్రీవం",
-   "h": "సత్యసాయి జడ్పీ పీఠంపై పరిటాల శ్రీరామ్",
-   "p": "శ్రీ సత్యసాయి జిల్లా ప్రజా పరిషత్ చైర్మన్‌గా పరిటాల శ్రీరామ్ శుక్రవారం ఏకగ్రీవంగా ఎన్నికయ్యారు. జిల్లా ఏర్పడిన తర్వాత ఆయనే తొలి జడ్పీ చైర్మన్. వైస్ చైర్‌పర్సన్‌గా దాసరి సునేత్ర ఎన్నికయ్యారు. పుట్టపర్తిలోని రెవెన్యూ భవనంలో కలెక్టర్ ఎ. శ్యాంప్రసాద్ వారితో ప్రమాణం చేయించారు. జిల్లా అభివృద్ధికి కృషి చేస్తానని శ్రీరామ్ హామీ ఇచ్చారు.",
-   "pts": [
-    "మంత్రి సవిత, ఎంపీ పార్థసారథి అభినందనలు",
-    "ఎమ్మెల్యేలు పరిటాల సునీత, పల్లె సింధూర రెడ్డి హాజరు"
-   ],
-   "why": "శ్రీ సత్యసాయి జిల్లా గ్రామాల్లో మౌలిక వసతుల పనులపై కొత్త జడ్పీ పాలకవర్గం నిర్ణయాలు తీసుకుంటుంది.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/andhra-pradesh/paritala-sriram-elected-chairman-of-sri-sathya-sai-zp-1144154",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-sathyasai",
-   "loc": "పుట్టపర్తి",
-   "pub": "2026-11-21T02:46+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Sri Sathya Sai",
-    "h": "Paritala Sriram is Sri Sathya Sai ZP chief",
-    "stat": "First ZP chairman",
-    "statl": "Paritala Sriram unopposed",
-    "loc": "Puttaparthi",
-    "p": "Paritala Sriram was unanimously elected chairman of the Sri Sathya Sai district Zilla Parishad on Friday, the first since the district was formed. Dasari Sunetra was elected vice-chairperson. Collector A. Shyam Prasad administered the oath at the Revenue building in Puttaparthi. Sriram promised to work for the district's development.",
-    "pts": [
-     "Minister Savitha and MP Parthasaradhi congratulated him",
-     "MLAs Paritala Sunitha and Palle Sindhura Reddy attended"
-    ],
-    "why": "The new ZP body will decide on infrastructure works in Sri Sathya Sai district villages."
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · श्री सत्य साई",
-    "h": "परिटाला श्रीराम श्री सत्य साई जिला परिषद अध्यक्ष",
-    "stat": "पहले जिला परिषद अध्यक्ष",
-    "statl": "परिटाला श्रीराम निर्विरोध",
-    "loc": "पुट्टपर्थी",
-    "p": "परिटाला श्रीराम शुक्रवार को श्री सत्य साई जिला परिषद के अध्यक्ष निर्विरोध चुने गए। जिले के गठन के बाद वे पहले अध्यक्ष हैं। दासरी सुनेत्रा उपाध्यक्ष चुनी गईं। पुट्टपर्थी के राजस्व भवन में कलेक्टर ए. श्याम प्रसाद ने उन्हें शपथ दिलाई। श्रीराम ने जिले के विकास के लिए काम करने का वादा किया।",
-    "pts": [
-     "मंत्री सविता और सांसद पार्थसारथी ने बधाई दी",
-     "विधायक परिटाला सुनीता और पल्ले सिंधुरा रेड्डी मौजूद"
-    ],
-    "why": "श्री सत्य साई जिले के गांवों में बुनियादी ढांचे के कामों के फैसले नई जिला परिषद करेगी।"
-   },
-   "d": "21.11.2026",
-   "t": "06:35"
-  },
-  {
-   "cat": "తెలంగాణ · గద్వాల",
-   "col": "--c-city",
-   "pic": "c/crime",
-   "stat": "39 లీటర్ల",
-   "statl": "అక్రమ కల్లు ధ్వంసం",
-   "h": "గద్వాలలో 39 లీటర్ల అక్రమ కల్లు ధ్వంసం",
-   "p": "జోగులాంబ గద్వాల జిల్లాలో అక్రమ కల్లు, నాటుసారాపై ఎక్సైజ్ దాడులు కొనసాగుతున్నాయి. గద్వాల పట్టణం గంజిపేటలో టాస్క్‌ఫోర్స్ 39 లీటర్ల అక్రమ కల్లును ధ్వంసం చేసి ఒకరిని అరెస్టు చేసింది. కేటీ దొడ్డి మండలం ఇర్కిచేడు తండాలో రెండు లీటర్ల నాటుసారా పట్టుకున్నారని ఎక్సైజ్ అధికారి లింగాచారి తెలిపారు. అక్రమ కల్లు ఆరోగ్యానికి హానికరమని చెప్పారు.",
-   "pts": [
-    "రెండు ఘటనల్లోనూ నిందితులపై కేసులు నమోదు",
-    "అక్రమ అమ్మకాలపై సమాచారం ఇవ్వాలని ప్రజలకు విజ్ఞప్తి"
-   ],
-   "why": "కల్తీ కల్లు, నాటుసారా ప్రాణాలకు ప్రమాదం కాబట్టి గద్వాల ప్రజలు అప్రమత్తంగా ఉండాలి.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/khammam/excise-dept-officials-destroy-illegal-toddy-1144216",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "gadwal",
-   "loc": "గంజిపేట, గద్వాల",
-   "pub": "2026-11-21T04:00+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Gadwal",
-    "h": "39 litres of illegal toddy destroyed in Gadwal",
-    "stat": "39 litres",
-    "statl": "illegal toddy destroyed",
-    "loc": "Ganjipet, Gadwal",
-    "p": "Excise raids against illegal toddy and Natusara are continuing in Jogulamba Gadwal district. A task force destroyed 39 litres of illegal toddy at Ganjipet in Gadwal town and arrested one person. Two litres of Natusara were seized at Irkichedu Thanda in KT Doddi mandal, Excise Officer Lingachari said. He said illegal toddy harms health.",
-    "pts": [
-     "Cases registered against the accused in both incidents",
-     "Public asked to report illegal sales"
-    ],
-    "why": "Adulterated toddy and Natusara endanger lives, so Gadwal residents should stay alert."
-   },
-   "hi": {
-    "cat": "तेलंगाना · गदवाल",
-    "h": "गदवाल में 39 लीटर अवैध ताड़ी नष्ट",
-    "stat": "39 लीटर",
-    "statl": "अवैध ताड़ी नष्ट",
-    "loc": "गंजीपेट, गदवाल",
-    "p": "जोगुलांबा गदवाल जिले में अवैध ताड़ी और नाटुसारा के खिलाफ आबकारी छापे जारी हैं। टास्क फोर्स ने गदवाल शहर के गंजीपेट में 39 लीटर अवैध ताड़ी नष्ट की और एक व्यक्ति को गिरफ्तार किया। आबकारी अधिकारी लिंगाचारी ने बताया कि केटी दोड्डी मंडल के इर्किचेडु तांडा में दो लीटर नाटुसारा जब्त हुई। उन्होंने कहा कि अवैध ताड़ी सेहत के लिए हानिकारक है।",
-    "pts": [
-     "दोनों मामलों में आरोपियों पर केस दर्ज",
-     "अवैध बिक्री की जानकारी देने की अपील"
-    ],
-    "why": "मिलावटी ताड़ी और नाटुसारा जानलेवा हैं, इसलिए गदवाल के लोग सतर्क रहें।"
-   },
-   "d": "21.11.2026",
-   "t": "06:35"
-  },
-  {
-   "cat": "తెలంగాణ · రాజకీయం",
-   "col": "--c-gov",
-   "pic": "c/politics",
-   "stat": "సిద్దిపేట సభ",
-   "statl": "సీఎంపై బీఆర్ఎస్ ఆరోపణలు",
-   "h": "సిద్దిపేట సభపై వద్దిరాజు విమర్శలు",
-   "p": "సిద్దిపేట సభలో సీఎం రేవంత్ రెడ్డి గంటపాటు చేసిన ప్రసంగంలో తప్పుడు మాటలే ఉన్నాయని బీఆర్ఎస్ రాజ్యసభ సభ్యుడు వద్దిరాజు రవిచంద్ర ఆరోపించారు. అభివృద్ధి ప్రకటనలు లేకుండా కేటీఆర్, హరీశ్ రావులపైనే విమర్శలు చేశారన్నారు. కరవుతో ఇబ్బంది పడుతున్న రైతులకు సాయం ప్రకటించలేదని అన్నారు. వచ్చే అసెంబ్లీ ఎన్నికల్లో బీఆర్ఎస్ మళ్లీ అధికారంలోకి వస్తుందని ఆయన అన్నారు.",
-   "pts": [
-    "సిద్దిపేటకు కొత్త నిధులు ఇవ్వలేదని వ్యాఖ్య",
-    "శుక్రవారం ఫోన్‌లో విలేకరులతో మాట్లాడారు"
-   ],
-   "why": "సీఎం సిద్దిపేట పర్యటనపై అధికార, ప్రతిపక్ష పార్టీల మధ్య వాదనలు కొనసాగుతున్నాయి.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/khammam/vaddiraju-accuses-cm-of-diversionary-politics-1144217",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "siddipet",
-   "loc": "సిద్దిపేట",
-   "pub": "2026-11-21T04:01+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Telangana · Politics",
-    "h": "Vaddiraju slams CM over Siddipet meeting",
-    "stat": "Siddipet meeting",
-    "statl": "BRS MP's charges against CM",
-    "loc": "Siddipet",
-    "p": "BRS Rajya Sabha member Vaddiraju Ravichandra alleged that CM Revanth Reddy's hour-long speech at the Siddipet public meeting was full of false claims. He said the CM targeted KTR and Harish Rao instead of announcing development works, and gave no relief to drought-hit farmers. He said BRS would return to power in the next Assembly elections.",
-    "pts": [
-     "Said no fresh funds were given to Siddipet",
-     "He spoke to reporters by phone on Friday"
-    ],
-    "why": "The ruling and opposition parties continue to spar over the CM's Siddipet visit."
-   },
-   "hi": {
-    "cat": "तेलंगाना · राजनीति",
-    "h": "सिद्दीपेट सभा पर वद्दिराजू ने सीएम को घेरा",
-    "stat": "सिद्दीपेट सभा",
-    "statl": "सीएम पर बीआरएस सांसद के आरोप",
-    "loc": "सिद्दीपेट",
-    "p": "बीआरएस राज्यसभा सदस्य वद्दिराजू रविचंद्र ने आरोप लगाया कि सिद्दीपेट सभा में सीएम रेवंत रेड्डी के घंटे भर के भाषण में गलत बातें थीं। उन्होंने कहा कि सीएम ने विकास की घोषणाओं के बजाय केटीआर और हरीश राव पर निशाना साधा और सूखे से परेशान किसानों को कोई राहत नहीं दी। उन्होंने कहा कि अगले विधानसभा चुनाव में बीआरएस फिर सत्ता में आएगी।",
-    "pts": [
-     "कहा कि सिद्दीपेट को नई राशि नहीं मिली",
-     "शुक्रवार को फोन पर पत्रकारों से बात की"
-    ],
-    "why": "सीएम के सिद्दीपेट दौरे को लेकर सत्ता और विपक्ष में बहस जारी है।"
-   },
-   "d": "21.11.2026",
-   "t": "06:35"
-  },
-  {
-   "cat": "తెలంగాణ · వరంగల్",
-   "col": "--c-city",
-   "art": "campus",
-   "pic": "n/students",
-   "stat": "సీకేఎం హాస్టల్",
-   "statl": "నీరు, గ్యాస్ కొరత",
-   "h": "వరంగల్ సీకేఎం బాలికల హాస్టల్‌లో సమస్యలు",
-   "p": "వరంగల్‌లోని సీకేఎం కళాశాల బాలికల హాస్టల్‌లో ఇన్‌చార్జి మారినా సమస్యలు తీరలేదని విద్యార్థినులు చెబుతున్నారు. గత వారం బోరు పనిచేయడం ఆగిపోయిందని, మంగళవారం రాత్రంతా కరెంటు లేదని తెలిపారు. గ్యాస్ సిలిండర్లు ఖాళీ అయితే ఖర్చులకు డబ్బులు వేసుకోమన్నారని ఆరోపించారు. జిల్లా యంత్రాంగం జోక్యం కోరుతున్నారు. కఠిన ఆంక్షలు, అనుచిత మాటలపైనా ఆరోపణలు చేశారు.",
-   "pts": [
-    "ఫిర్యాదు చేస్తే మార్కులపై ప్రభావం పడుతుందని భయం",
-    "సీసీటీవీ, భద్రతపై యాజమాన్యం స్పష్టత ఇవ్వాల్సి ఉంది"
-   ],
-   "why": "హాస్టల్‌లో ఉంటున్న విద్యార్థినుల చదువు, భద్రతకు సంబంధించిన విషయం.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/warangal/change-of-warden-brings-no-relief-at-girls-hostel-1144219",
-   "sec": [
-    "telangana",
-    "education"
-   ],
-   "st": "TG",
-   "place": "warangal",
-   "loc": "వరంగల్",
-   "pub": "2026-11-21T04:06+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Telangana · Warangal",
-    "h": "Problems persist at CKM girls' hostel",
-    "stat": "CKM hostel",
-    "statl": "water, power, gas problems",
-    "loc": "Warangal",
-    "p": "Students at the CKM College girls' hostel in Warangal say problems remain despite a change of in-charge. They said the borewell stopped working last week and there was no power all Tuesday night. They allege they were asked to pool money when gas cylinders ran out, and seek the district administration's help. They also allege strict curbs and improper language.",
-    "pts": [
-     "Students fear complaints could affect their marks",
-     "Management yet to clarify on CCTV and security"
-    ],
-    "why": "It concerns the studies and safety of the students living in the hostel."
-   },
-   "hi": {
-    "cat": "तेलंगाना · वरंगल",
-    "h": "वरंगल सीकेएम छात्रावास में समस्याएं बरकरार",
-    "stat": "सीकेएम छात्रावास",
-    "statl": "पानी, बिजली, गैस की समस्या",
-    "loc": "वरंगल",
-    "p": "वरंगल के सीकेएम कॉलेज के बालिका छात्रावास की छात्राओं का कहना है कि प्रभारी बदलने के बाद भी समस्याएं बनी हैं। उन्होंने बताया कि पिछले हफ्ते बोरवेल बंद हो गया और मंगलवार पूरी रात बिजली नहीं थी। उनका आरोप है कि गैस खत्म होने पर पैसे जुटाने को कहा गया। वे जिला प्रशासन से दखल चाहती हैं। उन्होंने सख्त पाबंदियों और अनुचित भाषा के भी आरोप लगाए।",
-    "pts": [
-     "शिकायत करने पर अंकों पर असर का डर",
-     "सीसीटीवी और सुरक्षा पर प्रबंधन की सफाई बाकी"
-    ],
-    "why": "यह छात्रावास में रहने वाली छात्राओं की पढ़ाई और सुरक्षा से जुड़ा मामला है।"
-   },
-   "d": "21.11.2026",
-   "t": "06:35"
-  },
-  {
-   "cat": "ఏపీ · నెల్లూరు",
-   "col": "--c-water",
-   "art": "water",
-   "pic": "c/infrastructure",
-   "stat": "₹160 కోట్లు",
-   "statl": "యూజీడీ పనుల పూర్తికి",
-   "h": "నెల్లూరు యూజీడీ 2027కి పూర్తి: మేయర్",
-   "p": "నెల్లూరు కొత్త మేయర్ పొలుబోయిన రూప్ కుమార్ యాదవ్ భూగర్భ డ్రైనేజీ పనులు పూర్తిచేయడం, వరదల నివారణే తన ప్రాధాన్యమన్నారు. యూజీడీ పూర్తికి ₹160 కోట్లు, 12 కాలువల పూడికతీత, ఆధునికీకరణకు ₹50 కోట్లు మంజూరయ్యాయని తెలిపారు. 2027 నాటికి పనులు పూర్తవుతాయని చెప్పారు. నగరానికి రోజుకు 22.5 నుంచి 24.3 మిలియన్ గ్యాలన్ల నీరు సరఫరా అవుతోందన్నారు.",
-   "pts": [
-    "గాంధీ బొమ్మ సెంటర్, వీఆర్సీ సెంటర్‌లో తరచూ ముంపు",
-    "నిరాశ్రయులకు మరో 5,000 ఇళ్ల పట్టాలు ఇచ్చే ప్రణాళిక",
-    "రూప్ కుమార్ 80,171 ఓట్ల మెజారిటీతో గెలిచారు"
-   ],
-   "why": "వర్షాలకు ముంపునకు గురయ్యే నెల్లూరు నగర ప్రాంతాల ప్రజలకు ఈ పనులు ఉపయోగపడతాయి.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/nellore/nellore-mayor-aims-for-ugd-completion-flood-control-1144140",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-nellore",
-   "loc": "నెల్లూరు",
-   "pub": "2026-11-21T02:17+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Nellore",
-    "h": "Nellore UGD works by 2027: Mayor",
-    "stat": "Rs 160 crore",
-    "statl": "to complete UGD works",
-    "loc": "Nellore",
-    "p": "Nellore's new Mayor Poluboyina Roop Kumar Yadav said completing the underground drainage works and preventing floods are his priorities. He said Rs 160 crore has been sanctioned to finish UGD and Rs 50 crore to desilt and modernise 12 canals, with works to be completed by 2027. He said the city gets 22.5 to 24.3 million gallons of water a day.",
-    "pts": [
-     "Gandhi Bomma and VRC Centre flood often",
-     "Plan to give 5,000 more house-site pattas to the homeless",
-     "Roop Kumar won by 80,171 votes"
-    ],
-    "why": "The works will help residents of flood-prone areas of Nellore city."
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · नेल्लोर",
-    "h": "नेल्लोर भूमिगत ड्रेनेज 2027 तक पूरा: मेयर",
-    "stat": "₹160 करोड़",
-    "statl": "भूमिगत ड्रेनेज पूरा करने को",
-    "loc": "नेल्लोर",
-    "p": "नेल्लोर के नए मेयर पोलुबोयिना रूप कुमार यादव ने कहा कि भूमिगत ड्रेनेज का काम पूरा करना और बाढ़ रोकना उनकी प्राथमिकता है। उन्होंने बताया कि ड्रेनेज के लिए ₹160 करोड़ और 12 नहरों की सफाई व आधुनिकीकरण के लिए ₹50 करोड़ मंजूर हुए हैं, काम 2027 तक पूरे होंगे। उन्होंने बताया कि शहर को रोज 22.5 से 24.3 मिलियन गैलन पानी मिलता है।",
-    "pts": [
-     "गांधी बोम्मा और वीआरसी सेंटर में अक्सर जलभराव",
-     "बेघरों को 5,000 और आवास पट्टे देने की योजना",
-     "रूप कुमार 80,171 वोटों से जीते"
-    ],
-    "why": "इन कामों से नेल्लोर शहर के बाढ़ प्रभावित इलाकों के लोगों को मदद मिलेगी।"
-   },
-   "d": "21.11.2026",
-   "t": "06:35"
-  },
-  {
    "cat": "ఏపీ · ఉదయగిరి",
    "col": "--c-money",
    "art": "economy",
@@ -3148,115 +3378,6 @@
    },
    "d": "21.11.2026",
    "t": "06:35"
-  },
-  {
-   "cat": "తెలంగాణ · సేవ",
-   "col": "--c-gov",
-   "pic": "c/community",
-   "stat": "రెడ్‌క్రాస్",
-   "statl": "సేవల విస్తరణకు ప్రణాళిక",
-   "h": "తెలంగాణలో రెడ్‌క్రాస్ సేవల విస్తరణ",
-   "p": "తెలంగాణలో సేవలను విస్తరించేందుకు భారత రెడ్‌క్రాస్ సొసైటీ ప్రణాళిక రూపొందించింది. రక్తదానంతో పాటు విపత్తు నిర్వహణ, వైద్య సాయం, తలసేమియా సంరక్షణపై దృష్టి పెడతామని రాష్ట్ర కార్యవర్గ సభ్యులు శుక్రవారం తెలిపారు. కలెక్టర్లు, స్వచ్ఛంద సంస్థలతో కలిసి గ్రామస్థాయికి సేవలు తీసుకెళ్తామన్నారు. నషా ముక్త్ భారత్, టీబీ ముక్త్ భారత్ ప్రచారాల్లో యువత భాగస్వాములవుతారని చెప్పారు.",
-   "pts": [
-    "అత్యవసరాల కోసం పెద్ద రక్తదాతల నెట్‌వర్క్",
-    "విద్యాసంస్థల్లో జూనియర్, యూత్ రెడ్‌క్రాస్ బలోపేతం"
-   ],
-   "why": "అత్యవసర రక్తం, విపత్తు సాయం అవసరమయ్యే తెలంగాణ ప్రజలకు ఈ సేవలు ఉపయోగపడతాయి.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/warangal/tg-red-cross-launches-drive-to-expand-services-1144223",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pub": "2026-11-21T04:12+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Service",
-    "h": "Red Cross plans to expand services in Telangana",
-    "stat": "Red Cross",
-    "statl": "plan to expand services",
-    "loc": "Telangana",
-    "p": "The Indian Red Cross Society has drawn up a plan to expand its services in Telangana. Besides blood donation, it will focus on disaster management, medical aid and thalassemia care, state executive members said on Friday. They will work with collectors and NGOs to take services to villages. Youth will be partners in the Nasha Mukt Bharat and TB Mukt Bharat campaigns.",
-    "pts": [
-     "A larger blood donor network for emergencies",
-     "Junior and Youth Red Cross units in colleges to be strengthened"
-    ],
-    "why": "The services will help Telangana people who need emergency blood or disaster relief."
-   },
-   "hi": {
-    "cat": "तेलंगाना · सेवा",
-    "h": "तेलंगाना में रेड क्रॉस सेवाओं के विस्तार की योजना",
-    "stat": "रेड क्रॉस",
-    "statl": "सेवाओं के विस्तार की योजना",
-    "loc": "तेलंगाना",
-    "p": "भारतीय रेड क्रॉस सोसाइटी ने तेलंगाना में सेवाओं के विस्तार की योजना बनाई है। राज्य कार्यकारिणी सदस्यों ने शुक्रवार को बताया कि रक्तदान के साथ आपदा प्रबंधन, चिकित्सा सहायता और थैलेसीमिया देखभाल पर ध्यान दिया जाएगा। कलेक्टरों और स्वयंसेवी संस्थाओं के साथ मिलकर सेवाएं गांवों तक पहुंचाई जाएंगी। नशा मुक्त भारत और टीबी मुक्त भारत अभियानों में युवा भागीदार होंगे।",
-    "pts": [
-     "आपात स्थिति के लिए बड़ा रक्तदाता नेटवर्क",
-     "शिक्षण संस्थानों में जूनियर और यूथ रेड क्रॉस मजबूत होंगे"
-    ],
-    "why": "इन सेवाओं से आपात रक्त या आपदा राहत चाहने वाले तेलंगाना के लोगों को मदद मिलेगी।"
-   },
-   "d": "21.11.2026",
-   "t": "06:35"
-  },
-  {
-   "cat": "తెలంగాణ · భూములు",
-   "col": "--c-gov",
-   "art": "land",
-   "pic": "c/realestate",
-   "stat": "6 దశల్లో",
-   "statl": "గ్రామాల్లో భూముల రీసర్వే",
-   "h": "తెలంగాణలో భూముల రీసర్వేకు ఆరు దశల విధానం",
-   "p": "తెలంగాణలో గ్రామ స్థాయి భూముల రీసర్వేకు ప్రభుత్వం ఆరు దశల విధానాన్ని జారీ చేసింది. సీసీఎల్‌ఏ లోకేశ్ కుమార్ శుక్రవారం హైదరాబాద్ మినహా అన్ని జిల్లాల కలెక్టర్లకు సర్క్యులర్ పంపారు. సర్వేకు ముందు దండోరా, గ్రామ సభలు తప్పనిసరి. పట్టాదారులకు కనీసం నాలుగు రోజుల ముందు నోటీసు ఇవ్వాలి. కొలిచిన విస్తీర్ణాన్ని, రికార్డులతో తేడాను వెంటనే తెలపాలి.",
-   "pts": [
-    "సరిహద్దు జెండాలు రెండు రోజుల ముందు ఇవ్వాలి",
-    "గ్రామ శిబిరాల తర్వాత 3–4 రోజుల్లో తహసీల్దార్ పరిశీలన",
-    "అప్పీళ్లు తేలాకే గెజిట్ నోటిఫికేషన్"
-   ],
-   "why": "భూమి ఉన్న రైతులకు కొలతలు, రికార్డుల తేడాలు ముందే తెలిసి అభ్యంతరం చెప్పే అవకాశం ఉంటుంది.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/hyderabad/telangana-government-issues-six-phase-sop-for-land-resurvey-1144251",
-   "sec": [
-    "telangana",
-    "agri"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pub": "2026-11-21T05:19+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Land",
-    "h": "Telangana sets six-phase land resurvey SOP",
-    "stat": "6 phases",
-    "statl": "for village land resurvey",
-    "loc": "",
-    "p": "The Telangana government has issued a six-phase procedure for village-level land resurvey. Chief Commissioner of Land Administration Lokesh Kumar sent the circular on Friday to all district collectors except Hyderabad. Tom-tom announcements and grama sabhas are mandatory before the survey, pattadars must get notice at least four days ahead, and measured extents and any variation from records must be told to owners at once.",
-    "pts": [
-     "Boundary flags to be given two days before",
-     "Tahsildar verification within 3–4 days of village camps",
-     "Gazette notification only after appeals are settled"
-    ],
-    "why": "Land-owning farmers will learn of measurement and record differences early and can raise objections."
-   },
-   "hi": {
-    "cat": "तेलंगाना · भूमि",
-    "h": "तेलंगाना में भूमि पुनर्सर्वे की छह चरणीय प्रक्रिया",
-    "stat": "6 चरण",
-    "statl": "गांवों में भूमि पुनर्सर्वे",
-    "loc": "",
-    "p": "तेलंगाना सरकार ने गांव स्तर पर भूमि पुनर्सर्वे के लिए छह चरणों की प्रक्रिया जारी की है। भूमि प्रशासन के मुख्य आयुक्त लोकेश कुमार ने शुक्रवार को हैदराबाद को छोड़ सभी जिला कलेक्टरों को परिपत्र भेजा। सर्वे से पहले मुनादी और ग्राम सभा अनिवार्य है, पट्टादारों को कम से कम चार दिन पहले नोटिस देना होगा और नापा गया रकबा व रिकॉर्ड से अंतर तुरंत बताना होगा।",
-    "pts": [
-     "सीमा के झंडे दो दिन पहले देने होंगे",
-     "ग्राम शिविर के 3–4 दिन में तहसीलदार की जांच",
-     "अपीलों के निपटारे के बाद ही गजट अधिसूचना"
-    ],
-    "why": "जमीन वाले किसानों को नाप और रिकॉर्ड का अंतर पहले पता चलेगा और वे आपत्ति दे सकेंगे।"
-   },
-   "d": "21.11.2026",
-   "t": "06:05"
   },
   {
    "cat": "ఏపీ · ఉద్యోగులు",
