@@ -535,7 +535,7 @@ const ART_PARTY_HAVE=new Set(['ysrcp','bjym','bjp','brs','tdp','janasena','bsp',
 function artParty(s,a){
   const o=(s&&s._orig)||s; if(!o||!a||a.m!=='land') return '';
   const pol=/రాజకీయ|Politic/i.test(String(o.cat||'')+' '+String(((o.en||{}).cat)||'')) || String(o.pic||'')==='c/politics';
-  if(!(a.bg==='e/voting-day'||(pol&&(!/\//.test(a.bg)||/^e\/(government-press-briefing|peaceful-public-protest|public-policy-announcement)$/.test(a.bg))))) return ''; // politics picture, or a district / press-meet / protest picture on a politics story
+  if(!(/^e\/(voting-day|election-office)$/.test(a.bg)||(pol&&(!/\//.test(a.bg)||/^e\/(government-press-briefing|peaceful-public-protest|public-policy-announcement)$/.test(a.bg))))) return ''; // politics picture, or a district / press-meet / protest picture on a politics story
   let t=[o.h,o.statl,(o.en&&o.en.h)||'',(o.en&&o.en.statl)||''].join(' ').replace(/‌|‍/g,'');
   const hit=[]; for(const [k,rx] of ART_PARTY){ if(rx.test(t)){ hit.push(k); t=t.replace(new RegExp(rx.source,'gi'),' '); } }
   if(hit.length!==1||!ART_PARTY_HAVE.has(hit[0])) return '';

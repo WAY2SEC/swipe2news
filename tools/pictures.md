@@ -59,7 +59,7 @@ Old generic keys (c/…, n/…, cv/…, s/…) are no longer accepted for new st
 - fire → e/fire-service-response · road accident/collision → e/road-accident-response · train accident → e/railway-accident-response · building collapse → e/building-collapse-rescue
 - deaths, condolence → e/remembrance-and-condolence · protest, dharna, strike → e/peaceful-public-protest
 - ONE party speaks, condemns, protests or criticises (BRS/Congress/BJP/TDP/YSRCP/Janasena/BSP/CPI/CPI(M)/SFI/BJYM named once, as the speaker) → e/party-<name> (owner 22 Nov 2026: "…ఖండించిన బీఆర్‌ఎస్" shows the BRS picture). Party only as the TARGET (బీఆర్‌ఎస్‌పై…), two parties, alliances → e/government-press-briefing · leader's statement/allegation/press meet with no party named → e/government-press-briefing · govt order/policy/target → e/public-policy-announcement · Assembly → e/state-assembly-session · Parliament → e/parliamentary-debate
-- election results, ZP/MPP wins → e/election-counting · polling, nominations, election dates → e/voting-day · ONE party named, not an attack → e/party-<name>
+- elections (owner's election pictures, 22 Nov 2026): results, counting, ZP/MPP wins → e/election-counting · polling day, turnout, queues, voters → e/voting-day · EVM, VVPAT, machine faults → e/electronic-voting · ballot-paper polls (ZPTC, MPTC, sarpanch, ward member, municipal, co-operative) and ballot-paper stories → e/ballot-paper-vote · election schedule, notification, nominations, scrutiny, withdrawals, voter list / SIR, Election Commission or State Election Commission orders → e/election-office · ONE party named, not an attack → e/party-<name>
 - pensions → e/pension-distribution · ration → e/ration-shop-distribution · scholarships → e/student-scholarship-desk
 - school → e/government-school-classroom · college/university event → e/university-graduation · entrance/board exam → e/entrance-exam-preparation / e/board-examination-hall · study abroad → e/international-student-journey
 - hospital births, mothers → e/maternal-health-visit · vaccines → e/vaccination-clinic · polio/child vaccines → e/child-immunization-visit · hospital/OPD → e/hospital-outpatient-queue
@@ -100,7 +100,7 @@ e/maternal-health-visit · e/anganwadi-nutrition · e/child-immunization-visit �
 e/ration-shop-distribution · e/pension-distribution · e/affordable-housing-support · e/farmer-assistance-counter · e/public-health-coverage-desk · e/employment-guarantee-work · e/women-bus-travel-support · e/drinking-water-scheme · e/digital-citizen-service-centre · e/land-record-verification
 
 ### Politics and Governance
-e/parliamentary-debate · e/state-assembly-session · e/voting-day · e/electronic-voting · e/election-counting · e/public-policy-announcement · e/village-gram-sabha · e/municipal-council-meeting · e/peaceful-public-protest · e/government-press-briefing · e/corruption-investigation · e/political-campaign-rally
+e/parliamentary-debate · e/state-assembly-session · e/voting-day · e/electronic-voting · e/ballot-paper-vote · e/election-office · e/election-counting · e/public-policy-announcement · e/village-gram-sabha · e/municipal-council-meeting · e/peaceful-public-protest · e/government-press-briefing · e/corruption-investigation · e/political-campaign-rally
 
 ### Courts Rights and Justice
 e/court-hearing · e/justice-scales · e/legal-aid-consultation · e/land-dispute-mediation · e/consumer-complaint · e/right-to-information-application · e/labour-rights-hearing · e/environmental-court-case · e/document-registration · e/prison-rehabilitation
