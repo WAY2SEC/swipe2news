@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T15:35:00+05:30",
+ "cutoff": "2026-11-22T16:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T19:35:00+05:30/2026-11-19T20:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 2,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 19:48 IST, 70/70 ok, lookback 11:35. Published 2: Deccan Chronicle CM Revanth Siddipet 2029 speech (20:03, claim), Siasat Rajendranagar POCSO 20-year sentence (19:34, sensitive, court source, no names). Duplicate: Siasat Ameenpur toddler rescue (covered 15:49). Skipped old: DC 73 lakh ASDD voters (18 Nov 22:59). Not opened/no result: The Hindu Aswapuram temple burglaries, Srikakulam TDP 29/30 MPPs, Nizam College protest, CCMB wastewater guidelines; ETV Nasha Mukt yatra; HMTV Chinturu MPP; Hans Nagarkurnool sheep camp; Disha Ponnam Husnabad; Hyderabad Mail TG SAFE 90 shops; ETV restaurant service charge HC; TN data leak. ETV AP live blog cached at 17:06 (no 601-MPP SEC entry). District searches thin: Khammam, Visakhapatnam, Nizamabad/Kamareddy, Kadapa/Tirupati, Srikakulam, Nagarkurnool, Karimnagar. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T20:05:00+05:30/2026-11-19T20:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 6,
    "review": 0,
    "gaps": "Lookback from 07:05 on 22 Nov. Feeds 15:16 IST (68/68 ok). add_repo not available; used existing clone. Published 3: V6 Kukatpally+Miyapur bus accidents 2 dead (14:13, late, sensitive, no names), HMTV Basara Karthika Sunday crowds (14:34), HMTV Suryapet Indiramma insurance camps (13:48). Duplicates: Prabha News Mancherial AgriGold bond verification (statewide schedule published 21 Nov), Hans India Chandrababu panchayat directions (published 13:47), Nepal PM arrival (preview published 06:07). Skipped: ap7am Revanth 'mad dogs' (19 Nov, old), Hans Suryapet RTO extortion arrests (05:33) and Nandyal Akshara Andhra (06:45) before lookback, HMTV Kawal fog (similar Mancherial fog story today), HMTV Basara Rajaka press meet (minor), Andhra Jyothy Kukatpally tipper crash (Jul 2026). Not opened: TOI Revanth dogs-row, Namasthe Telangana Mallu Ravi remarks, The Hindu i-ALERT RTC, The Hindu NHAI fatalities, Disha Rs 1,000 knife attack, News18 belt-shop raid, ETV RK Beach walk (searches did not return articles). check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-22T15:35:00+05:30/2026-11-22T16:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 10,
+   "late": 7,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 5,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Lookback from 07:35 on 22 Nov. Feeds 16:02 IST (70/70 ok); 159 unseen uncovered events since 14:45 scanned by headline. add_repo tool not available; used existing clone. Published 10: Telangana Today TGSRTC i-ALERT Rs 36 cr diesel (15:52), TT Krishna Kanth Park walkers/HYDRAA (15:53), TT Hyderabad Kids Run ICRISAT (15:54), TT age-group chess (15:22), Siasat 288 drunk driving Cyberabad (15:28, sensitive), Siasat Bhatti-Schneider Paris (15:46), NewsMeter Chittoor expressway sound barriers (15:40), ThePrint/Reuters Indonesia factory fire (14:30, sensitive), Hans India Tripura Governor at Bhadrakali (16:02), HMTV Guntur PGRS cancelled (15:52). Duplicates (already published): veterinary university posts, HMDA auctions, Naidu unanimous panchayats, Nepal PM arrival, Nagulaguttapalli. Not opened (search did not find the page): The Hindu Nalgonda kharif agri credit; Eenadu/News18 Kishan Reddy-Prabhas. Skipped: Revanth 'dogs' remark follow-ups (political row, earlier judged old), gold price listings, entertainment items. Many single-source TG/AP events remain uncovered for next runs. check_news.py reports every e/ picture key as 'not in tools/pictures.md' (PIC_RX lacks e and m) for all stories, old and new; picture files exist in art/e; no other ERROR on new stories."
   }
  ],
  "seen": [
@@ -7138,6 +7138,56 @@
    "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/hyderabad-kukatpally-road-accident-two-youths-passed-away-speeding-tipper-truck-hits-scooter-suri-1544959.html",
    "d": "2026-11-22",
    "w": "old"
+  },
+  {
+   "url": "https://telanganatoday.com/tgsrtc-saves-rs-36-crore-on-diesel-2437633d",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/walkers-flag-park-issues-to-hydraa-846b816c",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/800-children-join-hyderabad-kids-run-1f8ae2a7",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/shanmukha-sai-srivatsav-muddala-kumudha-win-under-8-titles-at-telangana-chess-championship",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/288-booked-for-drunk-driving-in-cyberabad-over-the-weekend-3583810/",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/dy-cm-invites-schneider-electric-to-expand-in-telangana-3583909/",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/whats-new/protecting-wildlife-from-traffic-noise-2-expressway-bridges-in-chittoor-get-sound-barriers-779777",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://theprint.in/world/seven-body-bags-recovered-50-missing-after-indonesian-factory-fire/3105694/",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/warangal/tripura-governor-chinna-jeeyar-swami-offer-prayers-at-bhadrakali-temple-1144699",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/guntur/guntur-district-pgrs-temporarily-cancelled-due-to-election-code-215822",
+   "d": "2026-11-22",
+   "w": "published"
   }
  ]
 }
