@@ -1,8 +1,64 @@
 {
  "date": "22.11.2026",
- "updated": "2026-11-22T17:05:00+05:30",
+ "updated": "2026-11-22T17:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "ప్రపంచం · పశ్చిమాసియా",
+   "col": "--c-gov",
+   "pic": "e/fire-service-response",
+   "art": "",
+   "stat": "ఇద్దరికి గాయాలు",
+   "statl": "ఇరాన్ దాడుల్లో",
+   "h": "బహ్రెయిన్‌లో ఇరాన్ దాడి, ఇద్దరికి గాయాలు",
+   "p": "శనివారం బహ్రెయిన్‌పై ఇరాన్ చేసిన దాడుల్లో ఇద్దరు గాయపడ్డారని ఆ దేశ హోం శాఖ ఆదివారం ఉదయం తెలిపింది. వారిలో పాకిస్తాన్‌కు చెందిన ఒకరి పరిస్థితి విషమంగా ఉంది. బహ్రెయిన్ పౌరుడి పరిస్థితి నిలకడగా ఉంది. ఇద్దరికీ ఆసుపత్రిలో చికిత్స అందుతోంది. సిత్రాలోని ఒక పారిశ్రామిక కేంద్రంపై దాడితో మంటలు చెలరేగి ఆస్తి నష్టం జరిగింది.",
+   "pts": [
+    "దాడి తామే చేశామని ఇరాన్ రివల్యూషనరీ గార్డ్స్ ప్రకటన",
+    "అది పూర్తిగా పౌర కేంద్రమని బహ్రెయిన్ విదేశాంగ శాఖ ఖండన",
+    "ఐరాస భద్రతా మండలి చర్య తీసుకోవాలని విజ్ఞప్తి"
+   ],
+   "why": "గల్ఫ్ దేశాల్లో పనిచేస్తున్న తెలుగు కుటుంబాలు అక్కడి భద్రతా సమాచారాన్ని గమనించాలి.",
+   "src": "The Siasat Daily",
+   "url": "https://www.siasat.com/two-injured-in-iranian-attacks-on-bahrain-one-of-them-critical-3584013/",
+   "sec": [
+    "world"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "సిత్రా, బహ్రెయిన్",
+   "pub": "2026-11-22T17:11+05:30",
+   "d": "22.11.2026",
+   "t": "17:35",
+   "lbl": "fact",
+   "en": {
+    "cat": "World · West Asia",
+    "stat": "2 injured",
+    "statl": "in Iranian attacks",
+    "loc": "Sitra, Bahrain",
+    "h": "Iranian attacks on Bahrain injure two",
+    "p": "Bahrain's Interior Ministry said on Sunday morning that two people were injured in Iranian attacks on Saturday. A Pakistani resident is in critical condition and a Bahraini citizen is stable; both are in hospital. A strike on an industrial facility in Sitra caused a fire and damage.",
+    "pts": [
+     "Iran's Revolutionary Guards publicly claimed the strike",
+     "Bahrain's Foreign Ministry says the site was purely civilian",
+     "Bahrain urged the UN Security Council to act"
+    ],
+    "why": "Telugu families with members working in the Gulf should follow local safety updates."
+   },
+   "hi": {
+    "cat": "विश्व · पश्चिम एशिया",
+    "stat": "2 घायल",
+    "statl": "ईरानी हमलों में",
+    "loc": "सित्रा, बहरीन",
+    "h": "बहरीन पर ईरानी हमले, दो घायल",
+    "p": "बहरीन के गृह मंत्रालय ने रविवार सुबह बताया कि शनिवार को हुए ईरानी हमलों में दो लोग घायल हुए। एक पाकिस्तानी निवासी की हालत गंभीर है और एक बहरीनी नागरिक की हालत स्थिर है; दोनों अस्पताल में हैं। सित्रा में एक औद्योगिक केंद्र पर हमले से आग लगी और नुकसान हुआ।",
+    "pts": [
+     "ईरान के रिवोल्यूशनरी गार्ड्स ने हमले की ज़िम्मेदारी ली",
+     "बहरीन विदेश मंत्रालय: केंद्र पूरी तरह नागरिक था",
+     "बहरीन ने संयुक्त राष्ट्र सुरक्षा परिषद से कार्रवाई की मांग की"
+    ],
+    "why": "खाड़ी देशों में काम कर रहे तेलुगु परिवारों के सदस्य स्थानीय सुरक्षा सूचनाओं पर ध्यान दें।"
+   }
+  },
   {
    "cat": "తెలంగాణ · సిద్దిపేట",
    "col": "--c-gov",
@@ -3270,59 +3326,6 @@
    },
    "d": "22.11.2026",
    "t": "10:35"
-  },
-  {
-   "cat": "తెలంగాణ · రంగారెడ్డి",
-   "col": "--c-water",
-   "art": "water",
-   "pic": "e/land-encroachment-survey",
-   "stat": "4 ఎకరాల్లో",
-   "statl": "ఆక్రమణలు తీసేశారు",
-   "h": "సందపల్లి చెరువు ఆక్రమణలు తీసేసిన హైడ్రా",
-   "p": "రంగారెడ్డి జిల్లా శంషాబాద్ మండలంలోని సందపల్లి చెరువులో నాలుగు ఎకరాల ఆక్రమణలను హైడ్రా శనివారం తీసేసింది. చెరువు చుట్టూ కట్టిన గోడలను, నీటి మట్టం హద్దు లోపల ఉన్న 100 గజాల ఇంటిని కూల్చేసింది. సాగునీటి అధికారుల సమక్షంలో 1,600 మీటర్ల కంచె వేసి, ఇది చెరువు భూమి అని బోర్డు పెట్టింది.",
-   "pts": [
-    "చెరువు మొత్తం విస్తీర్ణం 76 ఎకరాలు",
-    "సమాచారం అందాక అధికారులతో కలిసి హైడ్రా పరిశీలన"
-   ],
-   "why": "చెరువు దగ్గర స్థలాలు, ఇళ్లు కొనేవారు హద్దులు సరిచూసుకోవాలని ఇది గుర్తు చేస్తుంది.",
-   "src": "The Siasat Daily",
-   "url": "https://www.siasat.com/hydraa-removes-encroachments-from-sandapalli-lake-in-rangareddy-3583684/",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "rangareddy",
-   "loc": "శంషాబాద్",
-   "pub": "2026-11-22T09:44+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Rangareddy",
-    "stat": "4 acres",
-    "statl": "of encroachments cleared",
-    "loc": "Shamshabad, Rangareddy",
-    "h": "HYDRAA clears Sandapalli lake encroachments",
-    "p": "HYDRAA on Saturday removed encroachments on four acres of Sandapalli lake in Shamshabad mandal of Rangareddy district. It pulled down walls built around the lake and a 100-square-yard house inside the full tank level boundary. With irrigation officials present, it put up 1,600 metres of fencing and a notice saying the land belongs to the lake.",
-    "pts": [
-     "The lake covers 76 acres in all",
-     "HYDRAA inspected the site with officials after being alerted"
-    ],
-    "why": "It reminds people buying plots or houses near lakes to check the boundaries."
-   },
-   "hi": {
-    "cat": "तेलंगाना · रंगारेड्डी",
-    "stat": "4 एकड़ से",
-    "statl": "अतिक्रमण हटाए गए",
-    "loc": "शमशाबाद, रंगारेड्डी",
-    "h": "संदपल्ली झील से हाइड्रा ने अतिक्रमण हटाए",
-    "p": "हाइड्रा ने शनिवार को रंगारेड्डी जिले के शमशाबाद मंडल की संदपल्ली झील में चार एकड़ पर हुए अतिक्रमण हटा दिए। झील के चारों ओर बनी दीवारें और पूर्ण जलस्तर सीमा के भीतर बना 100 वर्ग गज का मकान गिराया गया। सिंचाई अधिकारियों की मौजूदगी में 1,600 मीटर बाड़ लगाई गई और झील की जमीन होने का नोटिस लगाया गया।",
-    "pts": [
-     "झील का कुल क्षेत्रफल 76 एकड़ है",
-     "सूचना मिलने पर हाइड्रा ने अधिकारियों के साथ जांच की"
-    ],
-    "why": "झील के पास प्लॉट या मकान खरीदने वालों को सीमा जांचने की याद दिलाता है।"
-   },
-   "d": "22.11.2026",
-   "t": "10:05"
   },
   {
    "cat": "తెలంగాణ · నీరు",
