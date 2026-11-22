@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T16:35:00+05:30",
+ "cutoff": "2026-11-22T17:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T20:35:00+05:30/2026-11-19T21:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 3,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 20:42 IST, 69/70 ok, lookback 12:35. Published 3: BIG TV Srikakulam cyclone school holiday (20:37), Telangana Today Kakatiya University contract faculty rally (20:28), NewsMeter Cyclone Akvan Vizag flights/IndiGo advisory (20:00). Duplicate: TV9 Vizag-Tirupati Vande Bharat (covered earlier via Oneindia). Skipped old: Hans India Guntur LRS mela (06:06). Not tried: The Hindu items (search domain rejected earlier). District searches (thin): Warangal, Guntur/Vijayawada, Karimnagar/Peddapalli, Nalgonda/Suryapet, Srikakulam/Visakhapatnam, Hyderabad. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T21:05:00+05:30/2026-11-19T21:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 08:05 on 22 Nov. Feeds 16:13 IST (70/70 ok); 165 unseen uncovered events since 14:45 scanned by headline. add_repo tool not available; used existing clone. Published 4: Deccan Chronicle TG Police bugle silver (16:02), NewsMeter Cyberabad Moves cycle rally (15:53), INDToday Hyderabad SIR 7.69 lakh ASDD verified (16:00), Business Upturn RailTel AP legal AI Rs 27 cr (13:25, late). Duplicate: ETV Bharat Karimnagar BJP padayatra (published 21 Nov). Skipped: DC/The Hindu Vizag Steel Dhaka gold awards (published 21 Nov 22:30, before lookback); Indian Express intermediate merger explainer (11 Nov decision). Not opened: Parigi/Doma leopard (Suryaa), Hans Congress PAC meet, Eenadu/others Kishan Reddy-Prabhas (searches did not return articles). 8 district searches returned no new dated articles. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-22T16:35:00+05:30/2026-11-22T17:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 6,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 3,
+   "review": 1,
+   "gaps": "Lookback from 08:35 on 22 Nov. Feeds 16:58 IST (70/70 ok); 134 unseen uncovered events since 15:45 scanned by headline. add_repo tool not available; used existing clone. Published 6: Siasat Siddipet medical institutions renamed after Madan Mohan (16:32), Telangana Today KNRUHS BHMS management quota reopened (16:42), TT Naskal leopard (16:51), NewsMeter Congress PAC resolutions (16:43), TT AIASCT black badge protest (16:39), ETV Bharat Amalapuram Vision Access (16:36). Duplicates: AP rice price caps (TV9/BigTV; published 21 Nov), Hans India PAC curtain-raiser (merged into PAC story). Skipped: Oneindia Secunderabad Ranigunj RUB traffic curbs (announced 18 Nov, old), Sakshi Modi skill convocation (Saturday speech; time zone not verifiable -> review), entertainment/gossip items. Not searched this run (left for next runs): The Hindu Revanth Simon Commission-SIR remark, Kadapa stone pelting, Suryaa single-source items, Kyiv strike (search returned only May articles). No district searches this run. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7218,6 +7218,61 @@
    "url": "https://www.etvbharat.com/te/politics/bjp-national-president-nitin-nabin-participate-in-maha-padayatra-to-be-held-in-karimnagar-tgs26112200919",
    "d": "2026-11-22",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-renames-siddipet-medical-institutions-after-madan-mohan-3583919/",
+   "d": "2026-11-22",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/knruhs-reopens-bhms-quota-registration-34465da5",
+   "d": "2026-11-22",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/leopard-f869e294",
+   "d": "2026-11-22",
+   "w": "pub"
+  },
+  {
+   "url": "https://newsmeter.in/politics/rs-30000-crore-aid-obc-census-and-grassroots-strength-what-telangana-congress-pac-is-planning-779781",
+   "d": "2026-11-22",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/gst-superintendents-to-wear-black-badges-dc4a161a",
+   "d": "2026-11-22",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/young-man-developed-software-to-control-devices-using-movements-aps26112202595",
+   "d": "2026-11-22",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/telangana/congress-pac-meets-in-hyderabad-to-discuss-party-organisation-1144696",
+   "d": "2026-11-22",
+   "w": "dup"
+  },
+  {
+   "url": "https://tv9telugu.com/andhra-pradesh/andhra-pradesh-government-fixes-rice-prices-to-control-rising-rates-1964207.html",
+   "d": "2026-11-22",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.bigtvlive.com/andhra-pradesh/ap-rice-price-regulation-chandrababu-government-fixes-rice-prices-between-rs-47-and-rs-82-per-kg.html",
+   "d": "2026-11-22",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/business/pm-modi-says-ai-cannot-take-jobs-skilled-workers-2967425",
+   "d": "2026-11-22",
+   "w": "review"
+  },
+  {
+   "url": "https://telanganatoday.com/ranigunj-rub-revamp-traffic-restrictions-diversions-from-november-20",
+   "d": "2026-11-22",
+   "w": "skip"
   }
  ]
 }
