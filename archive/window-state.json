@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T05:05:00+05:30",
+ "cutoff": "2026-11-22T05:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T09:05:00+05:30/2026-11-19T09:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 10,
-   "published": 9,
-   "late": 3,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Feeds 09:10 IST, 68/70 ok, lookback 01:05. Published 9 (all TG/AP): Hans Indiramma sarees launch (05:45), Hans CM–Parliament SC/ST panel (01:12, late), AP7AM Leonid 87 meteors Hyderabad (07:16), Hans Guntur–Krishna teacher MLC enrolment Dec 23 (04:47), Hans Amaravati Balotsavam Dec 4–6 (04:42), Hans Anakapalli Akvan alert (05:06), Hans AVGC sector (01:33, late), V6 Gujarat PSC at TGPSC (08:39), V6 HC mega medical camp (08:38, late). Duplicate: MEIL ₹1 lakh crore valuation (same event as MEIL $700M story). Skipped: Vaartha Cheyutha pension (feed titles conflict: today vs Nov 26). Not opened: CBC Crimea bridge, DH SWR Sathya Sai diversions (client errors); search not run for Eenadu-only items (pulse polio Nov 22, Chittoor suicide). news.json not pruned to 50 (kept prior practice, 578 stories). add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T09:35:00+05:30/2026-11-19T10:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Night run. Lookback from 15:35 on 21 Nov. Feeds 04:53 IST, 70/70 ok, 808 TG/AP flagged uncovered; 100 local events first seen since 23:15 reviewed. add_repo not available; used existing clone. Pages read via web-fetch agents on search-result URLs. Published 9: KRMB panel 23 Nov (DC 23:40), 6 lakh voter deletions (DC 00:01, claim), BRS on Meta office attack (TT 00:05, claim), Pawan tiger experts (DC 00:31), Vijayawada mayor oath 23 Nov (DC 01:23), AIIMS Mangalagiri newborn clinic (DC 00:13), Dharani rice vehicles East Godavari (DC 00:02), Nellore Rs 334.59 cr works (DC 00:16), Anupama world snooker (TT 23:34). Duplicates: Safran Rs 4000 cr (Hans), Indiramma Bima Rs 5L (Hans), DRI gold RGIA (ANI), Vijayawada toy factory fire (Hindu). Skipped old: TV9 526 assistant professor posts (13 Nov), News On AIR SC/AP SEC (21 Oct), NT Kataram fossil (feature on 1990 find). Not opened (search did not return): TOI transformer thefts, TOI Rayalaseema poll violence, TOI AP science fairs, News On AIR cyclone Akvan item, Siasat Bahrain radar strikes, Andhraprabha Mancherial BSNL cable theft, Suryaa NTR items, Eenadu/Andhrajyothy district items. Skipped: party statements, sports league items, gold-rate pages. check_news.py flags e/ keys (files exist in art/e). Lang pages, index.html and sitemap.xml reverted. Older TG/AP backlog not worked."
+  },
+  {
+   "window": "2026-11-22T05:05:00+05:30/2026-11-22T05:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 1,
+   "published": 1,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Lookback from 21:05 on 21 Nov. Feeds 05:12 IST, 70/70 ok; 32 events first seen since 04:45 reviewed. add_repo not available; used existing clone. Published 1: Bheem G Nagar forest hamlet named by Bhupalpally CI (Hans 05:09). Duplicate: AP rice price caps (published 21 Nov, hmtv; South First 21 Nov 09:25 outside lookback). Skipped old: DC Akvan crossing (19 Nov), DTE Climate Risk Index (18 Nov), Hans SI hall tickets (20 Nov). Not opened: TOI AP rice, News On AIR Akvan, Telegraph CRI, Hans Odisha flood alert, TOI Amit Shah-Gor narcotics, NDTV India Test NZ, Eenadu items (Khila Warangal fort, vet varsity 117 posts, Machilipatnam dredging, HPV vaccines). Skipped: party statements (TDP venue, BJP vs Cong/BRS, Meta office reactions), health tips, weather explainer. District searches (8) returned only tag pages. check_news.py flags e/ keys (files exist in art/e). Lang pages, index.html and sitemap.xml reverted."
   }
  ],
  "seen": [
@@ -6141,6 +6141,31 @@
   },
   {
    "url": "https://www.ntnews.com/sunday/rincosaur-fossil-discovered-in-kataram-telangana-state-a-testament-to-the-history-of-life-2564170",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/warangal/forest-hamlet-gets-its-own-identity-as-bheem-g-nagar-1144553",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://thesouthfirst.com/andhrapradesh/andhra-pradesh-imposes-stock-limits-on-rice-to-curb-hoarding-caps-prices-at-%E2%82%B947-%E2%82%B982-a-kg/",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cyclone-akvan-to-cross-odisha-coast-today-2006034",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.downtoearth.org.in/climate-change/india-among-10-countries-hardest-hit-by-extreme-weather-since-1996-climate-risk-index-2027",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/telangana/telangana-si-hall-tickets-to-be-available-from-22-november-1144014",
    "d": "2026-11-22",
    "w": "skipped"
   }
