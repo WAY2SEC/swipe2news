@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T19:35:00+05:30",
+ "cutoff": "2026-11-22T20:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T23:35:00+05:30/2026-11-20T05:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 11,
-   "published": 10,
-   "late": 2,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Feeds 04:59 IST, 70/70 ok, lookback 15:35 (19 Nov). Published 10: DC Adilabad hospital fire HC (00:02), DC HC MPs/MLAs report (00:16), TT Teenmar Mallanna HC (00:49), DC RC Puram ₹2.37 cr fraud (23:50), DC Marripudi stray dog (23:02), Hans Vizag station ₹660 cr (04:08), DC Revanth–Gadkari roads (00:04), Pioneer TN Guidance 15 sacked (17:01, claim), ThePrint ECoR 39 trains (18:46), ThePrint India UNGA Palestine (22:47). Skipped old: Palnadu Gamalapadu crash (19 Nov 08:07), Amberpet mandi biryani (19 Nov 10:03), Indiramma insurance pre-launch pages (17–18 Nov). Duplicate: Jagan ED PIL (already published, Nov 30 hearing). Not opened: ANI Indiramma insurance launch (fetch error). No district searches (time). add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-20T05:05:00+05:30/2026-11-20T05:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Lookback from 11:05 on 22 Nov. Feeds 19:18 IST (68/68 ok); 109 unseen uncovered events since 18:30 scanned by headline. add_repo tool not available; used existing clone. Published 3: Siasat Chevella murder arrest (18:23), Siasat HRF on activist detention at CM visit (18:54), Telangana Today/IANS CCPA AirOne fine (17:54). Duplicates: TT terror-alert email (bomb-threat story published 19:05), AP December pensions early (published), BJP SIR rally/Nabin Karimnagar padyatra (published 21 Nov), Kakinada chain collision (published 14:05). Skipped as old: RINL ICQCC gold awards (DC 21 Nov 22:30, Hans 06:26), cyclone pages (2023/2025), AJ cabinet Nov 26 (18 Nov). Not opened (search did not return them): The Hindu brass bands revival, Rayalaseema poll security, Ambedkar Open University AP, CPI(M) Odisha police, YSRCP on police, Sathya Sai Times Square, CPR at SIMS Ramagundam; TT skin creams; V6/News18 gold in car lights; HMTV Manthani fog; Ponnam drought; Disha AP cabinet postponed (client error). 8 district searches gave only tag pages. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-22T19:35:00+05:30/2026-11-22T20:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 11:35 on 22 Nov. Feeds 19:56 IST (70/70 ok); 318 unseen uncovered events since 17:30 scanned by headline, 13 opened via search. add_repo tool not available; used existing clone. Published 3: ETV Bharat Revanth TPCC meeting (19:24), South First Sharmila stopped at Yelahanka (19:40), Mana Telangana Sharjah royal invited to summit (19:13). Duplicates: AP DSC 2,111 teacher posts (published 19 Nov), AgriGold bond verification schedule (published 21 Nov). Skipped as old: TV9 Leonid meteor shower video (event 17-18 Nov). Not opened: The Hindu items not found in search (police brass/pipe bands, Ambedkar Open University AP, CPI(M) on Odisha police, Kawal migratory birds, SIMS Ramagundam CPR, IITH half marathon); Disha AP cabinet meeting postponed (fetch error). check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7533,6 +7533,51 @@
    "url": "https://www.thehindu.com/news/cities/Visakhapatnam/visakhapatnam-steel-plant-teams-win-three-gold-awards-at-international-quality-convention-in-dhaka/article71730755.ece",
    "d": "2026-11-22",
    "w": "2026-11-22T19:35"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/cm-revanth-reddy-stated-that-in-congress-party-positions-will-find-those-who-have-worked-hard-with-sincerity-tgs26112204300",
+   "d": "2026-11-22",
+   "w": "2026-11-22T20:05"
+  },
+  {
+   "url": "https://www.v6velugu.com/cm-revanth-makes-key-remarks-at-tpcc-executive-committee-meeting",
+   "d": "2026-11-22",
+   "w": "2026-11-22T20:05"
+  },
+  {
+   "url": "https://thesouthfirst.com/andhrapradesh/andhra-sibling-rivalry-spills-over-to-bengaluru-police-stop-ys-sharmila-at-yelahanka/",
+   "d": "2026-11-22",
+   "w": "2026-11-22T20:05"
+  },
+  {
+   "url": "https://www.manatelangana.news/telangana-breaking-news/telangana-invites-sharjah-royal-family-to-invest-in-state-1654166",
+   "d": "2026-11-22",
+   "w": "2026-11-22T20:05"
+  },
+  {
+   "url": "https://tv9telugu.com/videos/ap-dsc-2026-2111-teacher-vacancies-announced-full-details-video-tv9d-1964349.html",
+   "d": "2026-11-22",
+   "w": "2026-11-22T20:05"
+  },
+  {
+   "url": "https://www.10tv.in/telugu-news/education-and-job/ap-dsc-2026-notification-2111-teacher-vacancies-announced-sh-1160612.html",
+   "d": "2026-11-22",
+   "w": "2026-11-22T20:05"
+  },
+  {
+   "url": "https://prabhanews.com/agri-gold-victims-bond-verification-from-november-25-khammam/",
+   "d": "2026-11-22",
+   "w": "2026-11-22T20:05"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/agri-gold-victims-bond-verification-schedule-telangana-cid-10-centres-1578702.html",
+   "d": "2026-11-22",
+   "w": "2026-11-22T20:05"
+  },
+  {
+   "url": "https://tv9telugu.com/videos/hyderabad-sky-dazzles-with-leonid-meteor-shower-amateur-astronomers-capture-rare-event-video-tv9d-1964347.html",
+   "d": "2026-11-22",
+   "w": "2026-11-22T20:05"
   }
  ]
 }
