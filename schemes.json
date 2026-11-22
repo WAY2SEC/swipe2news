@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T11:40:00+05:30",
+ "updated": "2026-11-22T11:40:00+05:30",
  "about": "Welfare schemes for Telangana, Andhra Pradesh and India. Facts from official/reputable sources, checked on the given date. Kept up to date by the schemes task.",
  "schemes": [
   {
@@ -8,11 +8,11 @@
    "cat": "farm",
    "amt": "₹12,000",
    "link": "https://rythubharosa.telangana.gov.in",
-   "src": "Telangana Today (30 Jun & 5 Nov 2026)",
+   "src": "Telangana Today (30 Jun, 5 Nov & 9 Nov 2026)",
    "te": {
     "n": "రైతు భరోసా",
     "u": "ఎకరాకు ఏడాదికి",
-    "b": "ఎకరాకు సీజన్‌కు ₹6,000 – ఖరీఫ్, రబీ రెండు విడతల్లో నేరుగా బ్యాంకు ఖాతాలోకి. యాసంగి (రబీ) 2026-27 విడతపై నవంబర్ 5 నాటికి ప్రభుత్వం నుంచి స్పష్టత లేదు; 'డబ్బు జమ అయింది' అంటూ వచ్చే నకిలీ మెసేజ్‌లను నమ్మవద్దు.",
+    "b": "ఎకరాకు సీజన్‌కు ₹6,000 – ఖరీఫ్, రబీ రెండు విడతల్లో నేరుగా బ్యాంకు ఖాతాలోకి. యాసంగి (రబీ) 2026-27 విడతపై నవంబర్ 9 నాటికి కూడా ప్రభుత్వం ఎలాంటి ప్రకటన చేయలేదు; 'డబ్బు జమ అయింది' అంటూ వచ్చే నకిలీ మెసేజ్‌లను నమ్మవద్దు.",
     "w": "సాగు భూమి ఉన్న తెలంగాణ రైతులు (భూ రికార్డుల ప్రకారం).",
     "d": "ఆధార్, పట్టాదార్ పాస్‌బుక్, బ్యాంకు ఖాతా.",
     "h": "భూ రికార్డుల ఆధారంగా ఆటోమేటిక్‌గా జమ. స్టేటస్ అధికారిక వెబ్‌సైట్‌లో చూడొచ్చు; సమస్యలుంటే వ్యవసాయ విస్తరణ అధికారిని (AEO) సంప్రదించండి."
@@ -20,7 +20,7 @@
    "en": {
     "n": "Rythu Bharosa",
     "u": "per acre per year",
-    "b": "₹6,000 per acre per season – Kharif and Rabi – paid straight into the bank account. As of 5 November there was no word from the government on the Yasangi (Rabi) 2026-27 instalment; beware of fake 'amount credited' messages.",
+    "b": "₹6,000 per acre per season – Kharif and Rabi – paid straight into the bank account. As of 9 November the government had still made no announcement on the Yasangi (Rabi) 2026-27 instalment; beware of fake 'amount credited' messages.",
     "w": "Telangana farmers with cultivable land (as per land records).",
     "d": "Aadhaar, pattadar passbook, bank account.",
     "h": "Credited automatically from land records. Check status on the official website; for problems contact your Agriculture Extension Officer (AEO)."
@@ -28,12 +28,12 @@
    "hi": {
     "n": "रायतु भरोसा",
     "u": "प्रति एकड़ प्रति वर्ष",
-    "b": "हर सीज़न ₹6,000 प्रति एकड़ – खरीफ़ और रबी – सीधे बैंक खाते में। 5 नवंबर तक यासंगी (रबी) 2026-27 किस्त पर सरकार की ओर से स्पष्टता नहीं; 'पैसा जमा हुआ' वाले फ़र्ज़ी संदेशों से सावधान।",
+    "b": "हर सीज़न ₹6,000 प्रति एकड़ – खरीफ़ और रबी – सीधे बैंक खाते में। 9 नवंबर तक भी यासंगी (रबी) 2026-27 किस्त पर सरकार ने कोई घोषणा नहीं की; 'पैसा जमा हुआ' वाले फ़र्ज़ी संदेशों से सावधान।",
     "w": "खेती योग्य ज़मीन वाले तेलंगाना के किसान (भू-अभिलेख के अनुसार)।",
     "d": "आधार, पट्टादार पासबुक, बैंक खाता।",
     "h": "भू-अभिलेख के आधार पर अपने-आप जमा। स्टेटस आधिकारिक वेबसाइट पर देखें।"
    },
-   "checked": "2026-11-17"
+   "checked": "2026-11-22"
   },
   {
    "id": "indiramma-indlu",
@@ -144,14 +144,14 @@
    "cat": "pension",
    "amt": "₹2,016",
    "link": "https://aasara.telangana.gov.in",
-   "src": "Telangana Today (14 Aug & 12 Nov 2026), The Hans India",
+   "src": "Telangana Today (12 & 17 Nov 2026), The Hans India (13 Nov 2026), PTI via Deccan Chronicle (19 Nov 2026)",
    "te": {
     "n": "చేయూత పింఛన్లు (ఆసరా)",
     "u": "నెలకు",
     "b": "వృద్ధులు, వితంతువులు, ఒంటరి మహిళలు, నేత, గీత, బీడీ కార్మికులకు నెలకు ₹2,016; దివ్యాంగులకు ₹4,016. (₹4,000 పెంపు హామీ ఇంకా అమలు కాలేదు.)",
     "w": "వృద్ధాప్య పింఛన్‌కు 57 ఏళ్లు నిండిన పేద కుటుంబాల వారు; ఇతర వర్గాలకు వేర్వేరు నిబంధనలు.",
     "d": "ఆధార్, వయసు రుజువు, బ్యాంకు పాస్‌బుక్, రేషన్ కార్డు; దివ్యాంగులకు సదరం సర్టిఫికెట్.",
-    "h": "గ్రామ పంచాయతీ / మున్సిపల్ కార్యాలయంలో దరఖాస్తు; స్టేటస్ అధికారిక వెబ్‌సైట్‌లో. కొత్తగా మంజూరైన సుమారు 4.5 లక్షల మందికి నవంబర్ 12–18 మధ్య మంజూరు పత్రాలు ఇస్తున్నారు. ప్రజాపాలన / ప్రజావాణిలో ఇదివరకే దరఖాస్తు చేసినవారు మళ్లీ దరఖాస్తు చేయనక్కర్లేదు."
+    "h": "గ్రామ పంచాయతీ / మున్సిపల్ కార్యాలయంలో దరఖాస్తు; స్టేటస్ అధికారిక వెబ్‌సైట్‌లో. కొత్తగా మంజూరైన సుమారు 4.5 లక్షల మందికి నవంబర్ 12–18 మధ్య మంజూరు పత్రాలు ఇచ్చారు; వీరికి పింఛన్ నవంబర్ 26 నుంచి మొదలవుతుందని సీఎం కార్యాలయం ప్రకటించినట్లు PTI (నవంబర్ 19) తెలిపింది (ముందు నవంబర్ 19 అని చెప్పారు). ప్రజాపాలన / ప్రజావాణిలో ఇదివరకే దరఖాస్తు చేసినవారు మళ్లీ దరఖాస్తు చేయనక్కర్లేదు."
    },
    "en": {
     "n": "Cheyutha pensions (Aasara)",
@@ -159,7 +159,7 @@
     "b": "₹2,016 a month for the elderly, widows, single women, weavers, toddy tappers and beedi workers; ₹4,016 for persons with disabilities. (The promised hike to ₹4,000 is not yet in force.)",
     "w": "Old-age pension from age 57 for poor families; other categories have their own rules.",
     "d": "Aadhaar, age proof, bank passbook, ration card; SADAREM certificate for disability.",
-    "h": "Apply at the Gram Panchayat / municipal office; check status on the official website. Sanction letters for about 4.5 lakh newly approved pensioners are being handed out 12–18 November. Those who already applied in Praja Palana / Prajavani need not apply again."
+    "h": "Apply at the Gram Panchayat / municipal office; check status on the official website. Sanction letters for about 4.5 lakh newly approved pensioners were handed out 12–18 November; PTI (19 November) reported the CM's office as saying their pensions start on 26 November (earlier reports said 19 November). Those who already applied in Praja Palana / Prajavani need not apply again."
    },
    "hi": {
     "n": "चेयूता पेंशन (आसरा)",
@@ -167,9 +167,9 @@
     "b": "बुज़ुर्गों, विधवाओं, एकल महिलाओं, बुनकरों आदि को ₹2,016 प्रति माह; दिव्यांगों को ₹4,016। (₹4,000 का वादा अभी लागू नहीं।)",
     "w": "गरीब परिवारों में 57 वर्ष से वृद्धावस्था पेंशन।",
     "d": "आधार, आयु प्रमाण, बैंक पासबुक, राशन कार्ड।",
-    "h": "ग्राम पंचायत / नगरपालिका कार्यालय में आवेदन। लगभग 4.5 लाख नए स्वीकृत लाभार्थियों को 12–18 नवंबर के बीच स्वीकृति पत्र दिए जा रहे हैं। प्रजा पालना / प्रजावाणी में पहले आवेदन कर चुके लोगों को दोबारा आवेदन की ज़रूरत नहीं।"
+    "h": "ग्राम पंचायत / नगरपालिका कार्यालय में आवेदन। लगभग 4.5 लाख नए स्वीकृत लाभार्थियों को 12–18 नवंबर के बीच स्वीकृति पत्र दिए गए; PTI (19 नवंबर) के अनुसार मुख्यमंत्री कार्यालय ने कहा कि इनकी पेंशन 26 नवंबर से शुरू होगी (पहले 19 नवंबर बताया गया था)। प्रजा पालना / प्रजावाणी में पहले आवेदन कर चुके लोगों को दोबारा आवेदन की ज़रूरत नहीं।"
    },
-   "checked": "2026-11-17"
+   "checked": "2026-11-22"
   },
   {
    "id": "aarogyasri",
@@ -380,7 +380,7 @@
    "link": null,
    "help": "1967",
    "src": "The Hans India, Deccan Chronicle, PTI (The Week, Siasat)",
-   "checked": "2026-11-17",
+   "checked": "2026-11-22",
    "te": {
     "n": "దీపం-2 (ఉచిత గ్యాస్ సిలిండర్లు)",
     "u": "ఏడాదికి ఉచితం",
@@ -412,11 +412,11 @@
    "cat": "farm",
    "amt": "₹6,000",
    "link": "https://pmkisan.gov.in",
-   "src": "PIB (18 Jun 2026), India TV",
+   "src": "PIB (30 Oct 2026)",
    "te": {
     "n": "పీఎం కిసాన్",
     "u": "ఏడాదికి",
-    "b": "రైతు కుటుంబానికి ఏడాదికి ₹6,000 – ₹2,000 చొప్పున మూడు విడతల్లో నేరుగా బ్యాంకు ఖాతాలోకి. 23వ విడత (జూన్ 20, 2026) కింద 9.44 కోట్ల మంది రైతులకు ₹18,880 కోట్లకు పైగా.",
+    "b": "రైతు కుటుంబానికి ఏడాదికి ₹6,000 – ₹2,000 చొప్పున మూడు విడతల్లో నేరుగా బ్యాంకు ఖాతాలోకి. 24వ విడత (అక్టోబర్ 30, 2026) కింద సుమారు 9.34 కోట్ల మంది రైతులకు ₹18,690 కోట్లకు పైగా జమ చేశారు.",
     "w": "సాగు భూమి ఉన్న రైతు కుటుంబాలు (ఆదాయపు పన్ను చెల్లించేవారు, ఉద్యోగులు తదితరులు మినహా).",
     "d": "ఆధార్, భూమి వివరాలు, ఆధార్ లింక్ బ్యాంకు ఖాతా, eKYC (eKYC లేకపోతే తదుపరి విడత జమ కాదు).",
     "h": "pmkisan.gov.in లో నమోదు / స్టేటస్; లేదా మీసేవ / రైతు సేవా కేంద్రం."
@@ -424,7 +424,7 @@
    "en": {
     "n": "PM-Kisan",
     "u": "per year",
-    "b": "₹6,000 a year per farmer family – three instalments of ₹2,000 straight into the bank account. The 23rd instalment (20 June 2026) sent over ₹18,880 crore to more than 9.44 crore farmers.",
+    "b": "₹6,000 a year per farmer family – three instalments of ₹2,000 straight into the bank account. The 24th instalment (30 October 2026) sent over ₹18,690 crore to about 9.34 crore farmers.",
     "w": "Farmer families with cultivable land (income-tax payers, employees and some others excluded).",
     "d": "Aadhaar, land details, Aadhaar-linked bank account, eKYC (without eKYC the next instalment will not be credited).",
     "h": "Register / check status at pmkisan.gov.in, or at MeeSeva / Rythu Seva Kendra."
@@ -432,12 +432,12 @@
    "hi": {
     "n": "पीएम-किसान",
     "u": "प्रति वर्ष",
-    "b": "हर किसान परिवार को साल में ₹6,000 – ₹2,000 की तीन किस्तें। 23वीं किस्त (20 जून 2026) में 9.44 करोड़ से अधिक किसानों को ₹18,880 करोड़ से ज़्यादा।",
+    "b": "हर किसान परिवार को साल में ₹6,000 – ₹2,000 की तीन किस्तें। 24वीं किस्त (30 अक्टूबर 2026) में लगभग 9.34 करोड़ किसानों को ₹18,690 करोड़ से ज़्यादा।",
     "w": "खेती योग्य ज़मीन वाले किसान परिवार (आयकरदाता आदि छोड़कर)।",
     "d": "आधार, ज़मीन का विवरण, बैंक खाता, eKYC (eKYC के बिना अगली किस्त नहीं आएगी)।",
     "h": "pmkisan.gov.in पर पंजीकरण / स्टेटस।"
    },
-   "checked": "2026-11-17"
+   "checked": "2026-11-22"
   },
   {
    "id": "ayushman-bharat",
@@ -846,7 +846,7 @@
     "d": "आधार, MCP कार्ड, बैंक / डाकघर खाता, जन्म पंजीकरण।",
     "h": "आंगनवाड़ी / स्वास्थ्य केंद्र; pmmvy.wcd.gov.in।"
    },
-   "checked": "2026-11-16"
+   "checked": "2026-11-22"
   },
   {
    "id": "sanna-biyyam",
@@ -980,6 +980,74 @@
     "w": "तेलंगाना के भूमिहीन परिवार; मनरेगा जॉब कार्ड में साल में कम से कम 20 दिन काम दर्ज हो।",
     "d": "मनरेगा जॉब कार्ड, आधार और बैंक पासबुक – तीनों जुड़े हों।",
     "h": "अलग आवेदन नहीं: अधिकारी मनरेगा डेटा से सूची बनाते हैं, ग्राम सभा में मंज़ूरी। आपत्ति MPDO को दें। आधिकारिक पोर्टल इस जाँच में पुष्टि नहीं हुआ।"
+   }
+  },
+  {
+   "id": "ntr-vaidya-seva",
+   "st": "AP",
+   "cat": "health",
+   "amt": "నగదు రహిత వైద్యం",
+   "amt_en": "Cashless treatment",
+   "link": "https://www.drntrvaidyaseva.ap.gov.in",
+   "src": "Dr NTR Vaidya Seva Trust page on spsnellore.ap.gov.in; Business Standard (5 Sep 2025)",
+   "checked": "2026-11-22",
+   "te": {
+    "n": "డా. ఎన్టీఆర్ వైద్య సేవ",
+    "u": "కుటుంబానికి",
+    "b": "జాబితాలోని సుమారు 3,257 చికిత్సలకు నెట్‌వర్క్ ఆసుపత్రుల్లో నగదు రహిత, సహ-చెల్లింపు లేని వైద్యం. గరిష్ఠ పరిమితిపై అధికారిక పేజీలో రెండు వేర్వేరు అంకెలు (₹5 లక్షలు, ₹25 లక్షలు) ఉన్నాయి – ఆసుపత్రిలోని వైద్య మిత్రను అడగండి. అందరికీ ₹25 లక్షల కొత్త హైబ్రిడ్ బీమా పథకం ప్రకటించారు, కానీ అమలులోకి వచ్చినట్లు ఈ తనిఖీలో నిర్ధారణ కాలేదు.",
+    "w": "తెల్ల రేషన్ కార్డు ఉండి, ఆధార్ లింక్ అయిన ఆంధ్రప్రదేశ్ పేద (BPL) కుటుంబాలు.",
+    "d": "తెల్ల రేషన్ కార్డు, ఆధార్.",
+    "h": "పీహెచ్‌సీ, ఏరియా / జిల్లా ఆసుపత్రి లేదా నెట్‌వర్క్ ఆసుపత్రిలోని వైద్య మిత్ర హెల్ప్ డెస్క్‌కు వెళ్లండి."
+   },
+   "en": {
+    "n": "Dr NTR Vaidya Seva",
+    "u": "per family",
+    "b": "Cashless treatment with no co-payment in network hospitals for about 3,257 listed therapies. The official page gives two different limits (₹5 lakh and ₹25 lakh) – ask the Vaidya Mithra at the hospital. A new hybrid ₹25 lakh universal insurance plan has been announced, but this check could not confirm it is in force.",
+    "w": "Poor (BPL) Andhra Pradesh families with a white ration card linked to Aadhaar.",
+    "d": "White ration card, Aadhaar.",
+    "h": "Go to the Vaidya Mithra help desk at a PHC, area / district hospital or network hospital."
+   },
+   "hi": {
+    "n": "डॉ. एनटीआर वैद्य सेवा",
+    "u": "प्रति परिवार",
+    "b": "नेटवर्क अस्पतालों में लगभग 3,257 सूचीबद्ध उपचारों के लिए कैशलेस, बिना सह-भुगतान इलाज। आधिकारिक पेज पर अधिकतम सीमा के दो अलग आँकड़े (₹5 लाख और ₹25 लाख) हैं – अस्पताल में वैद्य मित्र से पूछें। सभी के लिए ₹25 लाख की नई हाइब्रिड बीमा योजना की घोषणा हुई है, पर इस जाँच में उसके लागू होने की पुष्टि नहीं हुई।",
+    "w": "सफ़ेद राशन कार्ड (आधार से लिंक) वाले आंध्र प्रदेश के गरीब (BPL) परिवार।",
+    "d": "सफ़ेद राशन कार्ड, आधार।",
+    "h": "PHC, एरिया / ज़िला अस्पताल या नेटवर्क अस्पताल में वैद्य मित्र हेल्प डेस्क पर जाएँ।"
+   }
+  },
+  {
+   "id": "tg-epass-scholarship",
+   "st": "TG",
+   "cat": "edu",
+   "amt": "ఫీజు రీయింబర్స్‌మెంట్",
+   "amt_en": "Fee reimbursement",
+   "link": "https://telanganaepass.cgg.gov.in",
+   "src": "telanganaepass.cgg.gov.in; Telangana Today (14 Aug & 27 Oct 2026); The Hans India (28 Oct 2026)",
+   "checked": "2026-11-22",
+   "te": {
+    "n": "పోస్ట్-మెట్రిక్ స్కాలర్‌షిప్ / ఫీజు రీయింబర్స్‌మెంట్ (ఈపాస్)",
+    "u": "ఏడాదికి",
+    "b": "ఇంటర్ తర్వాతి చదువులకు ఫీజు రీయింబర్స్‌మెంట్, స్కాలర్‌షిప్. 2026-27 నుంచి ఫీజు డబ్బు నేరుగా విద్యార్థుల బ్యాంకు ఖాతాల్లోకి వేస్తున్నారు. పాత బకాయిలు ఇంకా పెండింగ్‌లో ఉన్నాయని కాలేజీల సంఘం (అక్టోబర్ 27) ఫిర్యాదు చేసింది.",
+    "w": "ఎస్సీ, ఎస్టీ, బీసీ, మైనారిటీ, ఈబీసీ విద్యార్థులు. ఆదాయ పరిమితి ఈ తనిఖీలో అధికారికంగా నిర్ధారించలేదు – పోర్టల్‌లో చూడండి.",
+    "d": "ఆధార్ (పేరు SSC సర్టిఫికెట్‌తో సరిపోలాలి), బ్యాంకు ఖాతా; పూర్తి జాబితా పోర్టల్‌లో చూడండి. ఎస్సీ విద్యార్థులు మీసేవలో బయోమెట్రిక్ ధృవీకరణ చేయించాలి.",
+    "h": "telanganaepass.cgg.gov.in లో కొత్త / రెన్యువల్ నమోదు. 2026-27 దరఖాస్తుకు చివరి తేదీ 31 మార్చి 2027."
+   },
+   "en": {
+    "n": "Post-matric scholarship / fee reimbursement (ePASS)",
+    "u": "per year",
+    "b": "Fee reimbursement and scholarships for studies after Class 10. From 2026-27 the fee money is paid straight into students' bank accounts. The college managements' body said on 27 October that older dues are still pending.",
+    "w": "SC, ST, BC, minority and EBC students. The income limit was not confirmed from an official page in this check – see the portal.",
+    "d": "Aadhaar (name must match the SSC certificate), bank account; see the portal for the full list. SC students must complete biometric authentication at MeeSeva.",
+    "h": "Register (fresh / renewal) at telanganaepass.cgg.gov.in. Last date for 2026-27 is 31 March 2027."
+   },
+   "hi": {
+    "n": "पोस्ट-मैट्रिक छात्रवृत्ति / फ़ीस प्रतिपूर्ति (ई-पास)",
+    "u": "प्रति वर्ष",
+    "b": "10वीं के बाद की पढ़ाई के लिए फ़ीस प्रतिपूर्ति और छात्रवृत्ति। 2026-27 से फ़ीस की राशि सीधे छात्रों के बैंक खाते में। कॉलेज प्रबंधन संघ ने 27 अक्टूबर को कहा कि पुराना बकाया अभी लंबित है।",
+    "w": "SC, ST, BC, अल्पसंख्यक और EBC छात्र। आय सीमा इस जाँच में आधिकारिक रूप से पुष्टि नहीं हुई – पोर्टल देखें।",
+    "d": "आधार (नाम SSC प्रमाणपत्र से मेल खाए), बैंक खाता; पूरी सूची पोर्टल पर। SC छात्रों को मीसेवा में बायोमेट्रिक सत्यापन कराना होगा।",
+    "h": "telanganaepass.cgg.gov.in पर नया / नवीनीकरण पंजीकरण। 2026-27 की अंतिम तिथि 31 मार्च 2027।"
    }
   }
  ]
