@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T12:35:00+05:30",
+ "cutoff": "2026-11-22T13:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T16:35:00+05:30/2026-11-19T17:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 2,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 16:57 IST, 70/70 ok, lookback 08:35, 804 uncovered TG/AP events (most published or old). Published 2: Telangana Today Inter 2027 schedule (16:42), Telangana Today Mee Seva borewell permits (16:50). Duplicate: TIME100 Sania Mirza (covered 09:05). Skipped/old: Kothagudem 280 BGL shells (17 Nov), DC Akvan TG orange alert (17 Nov). Not opened/not found: Hindu Akvan heavy rain till Friday, Hindu Vizag Port hospital protest, TT Hyderabad hazy spell, Hans Akvan light rain TG, DC Punjagutta baby, Swarajya AP chip incentives, NTV Uttam water share, News18 Tirupati double decker. District searches: Nalgonda/Suryapet, Nellore/Kurnool (thin). add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T17:05:00+05:30/2026-11-19T17:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 9,
    "review": 0,
    "gaps": "Lookback from 04:05 on 22 Nov. Feeds 12:18 IST, 68/68 ok; 27 uncovered events first seen since 11:58 reviewed. add_repo not available; used existing clone. Nothing published. Duplicates of earlier stories: Sandeep visit, Iran F-16 claim, Tadipatri dharna, Kotia arrests, mayors' oath, NHM central teams, KRMB meeting, pulse polio, Tirumala darshan (all from ETV/ABN live blogs). Skipped: ABN BRS Hanumakonda meeting and Governor Puttaparthi convocation (only 1-2 lines in live blog, too thin for a 40-word summary; no second source found), ETV Kota-Udaipur highway crash 9 dead (single live-blog line, no other outlet found, link duplicates an existing story), Hans/DC panchayat-poll and Kurnool drug-awareness items (published 16-18 Nov, old), m9 Jabardasth accident (2016). Not opened: The Hindu Chittoor/Annamayya/Sathya Sai police focus on 1,500 panchayats, NewsBytes Nagarjuna Sagar action, Munsif TG weather, Sakshi SI prelims hall tickets (fetch error). 4 district searches (Nalgonda, Srikakulam, Mahabubnagar/Nagarkurnool/Wanaparthy, Adilabad/Nirmal/Mancherial) returned only tag pages."
+  },
+  {
+   "window": "2026-11-22T12:35:00+05:30/2026-11-22T13:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 2,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 04:35 on 22 Nov. Feeds 12:18 IST (48 min old, 68/68 ok), no new events since the last run; 168 unseen uncovered local events since 04:35 scanned by headline. add_repo not available; used existing clone. Published 3: NTV SEC circular on merging polling stations (12:33), NTV phase-2 scrutiny / phase-3 first-day nominations (10:15, late-found), HMTV Mahabubabad Collector on dry crops in Yasangi (11:54, late-found). Duplicate: Andhra Jyothy 1,44,317 phase-2 nominations (same event, pre-scrutiny figures; ward-seat and district counts differ from NTV). Skipped as old: LiveLaw AP HC police waiting-list clause (13 Nov; NIE item today is a rehash), Hans India Chittoor drone surveillance (17 Nov), Hans India Puttaparthi nomination centres (16 Nov). Not opened: Sakshi Education SI prelims hall tickets (fetch error again), India Today/Andhra Jyothy Kakinada NH-16 SUV crash, Hans Mahabubabad fake RTO extortion, NIE Shanigaram Jain-Shaiva site, NIE Hanumakonda cochlear implant, V6 Kondagattu rush, The Hindu 1,500 panchayats police focus, Metro Rail News SCoR tender (searches did not return the articles). ETV and ABN live blogs had no entries after 08:13. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6886,6 +6886,41 @@
   },
   {
    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/madhav-seeks-public-support-for-nda-nominees-in-gram-panchayat-polls-2005643",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://ntvtelugu.com/andhra-pradesh-news/vijayawada/ap-panchayat-elections-2026-ec-issues-new-polling-station-merger-guidelines-1037735.html",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://ntvtelugu.com/andhra-pradesh-news/vijayawada/ap-panchayat-elections-phase-2-scrutiny-completed-phase-3-nominations-update-1037680.html",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/warangal/collector-sneha-shabarish-urges-dry-crops-in-yasangi-215761",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/over-144000-nominations-filed-for-second-phase-panchayat-elections-in-ap-1578636.html",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.livelaw.in/high-court/andhra-pradesh-high-court/ap-high-court-holds-waiting-list-clause-police-constable-recruitment-arbitrary-558364",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/chittoor/cops-strengthen-security-with-drone-surveillance-for-panchayat-election-nominations-1142851",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/additional-sp-inspects-nomination-centres-1142563",
    "d": "2026-11-22",
    "w": "skipped"
   }
