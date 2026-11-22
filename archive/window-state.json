@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T12:05:00+05:30",
+ "cutoff": "2026-11-22T12:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T16:05:00+05:30/2026-11-19T16:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 4,
-   "late": 1,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 16:11 IST, 67/70 ok, lookback 08:05, 892 uncovered TG/AP events (most already published or old). Published 4: ETV Bharat 85th IRC at HITEX (13:53), HMTV Khammam medical college job rumours (16:23), Telangana Today Rs 5 coin dental claim misleading (15:15), Siasat Hyderabad student dies in NY gun mishap (11:28, late, sensitive, no names). Duplicate: TT Cyberabad PRT (covered by Siasat pod cars 11:08). Skipped: OU human capital centre (2021 article). Not opened: Munsif TS Inter 2027 schedule (fetch error; TOI/EdexLive Google links), Hindu Vizag Port hospital protest, Ameenpur kidnap, Punjagutta baby, Modi India Inc, South Korea ex-PM. District searches: Khammam, Kurnool/Anantapur, Karimnagar/Adilabad (thin). add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T16:35:00+05:30/2026-11-19T17:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 03:35 on 22 Nov. Feeds 11:58 IST, 70/70 ok; 113 uncovered events first seen since 11:00 reviewed. add_repo not available; used existing clone. Published 7: Telangana Today Moinabad park swing accident, boy 10 dead (11:55, no names); Siasat Bahadurpura tanker-lorry crash, cleaner dead (11:12); Siasat Kothagudem 51 farm transformers stolen/damaged (11:38, claim); 10TV Bangarupalem highway robbery Rs 20 lakh (11:43, claim, on victims' complaint); Deccan Chronicle Rushikonda student missing (11:22); Hans India NIELIT campus at ANU Guntur (05:42, late-found); ETV Bharat/PTI oil-gas import bill up 60% (11:35). Duplicates: SSC exams March 18, AgriGold bond verification, ED Rekha Naik searches, UGC fake universities (all handled earlier). Skipped: Samayam 240 new PACS (decision reported days ago, rehash), Yadagirigutta rush (search gave only old pages). Not opened: The Hindu SVVU Tirupati cattle research review and Divakar Reddy panchayat remarks (search did not return them; direct feed URLs refused), India Today Andhra SUV crash, Disha Nayini on KTR, Sakshi nomination rejected, Mana Telangana knife attack, Siasat Saudi 15% tax. Typed/feed URLs are refused by fetch (5 min lost). No district searches this run. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-22T12:05:00+05:30/2026-11-22T12:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 0,
+   "published": 0,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 9,
+   "skipped": 9,
+   "review": 0,
+   "gaps": "Lookback from 04:05 on 22 Nov. Feeds 12:18 IST, 68/68 ok; 27 uncovered events first seen since 11:58 reviewed. add_repo not available; used existing clone. Nothing published. Duplicates of earlier stories: Sandeep visit, Iran F-16 claim, Tadipatri dharna, Kotia arrests, mayors' oath, NHM central teams, KRMB meeting, pulse polio, Tirumala darshan (all from ETV/ABN live blogs). Skipped: ABN BRS Hanumakonda meeting and Governor Puttaparthi convocation (only 1-2 lines in live blog, too thin for a 40-word summary; no second source found), ETV Kota-Udaipur highway crash 9 dead (single live-blog line, no other outlet found, link duplicates an existing story), Hans/DC panchayat-poll and Kurnool drug-awareness items (published 16-18 Nov, old), m9 Jabardasth accident (2016). Not opened: The Hindu Chittoor/Annamayya/Sathya Sai police focus on 1,500 panchayats, NewsBytes Nagarjuna Sagar action, Munsif TG weather, Sakshi SI prelims hall tickets (fetch error). 4 district searches (Nalgonda, Srikakulam, Mahabubnagar/Nagarkurnool/Wanaparthy, Adilabad/Nirmal/Mancherial) returned only tag pages."
   }
  ],
  "seen": [
@@ -6843,6 +6843,51 @@
    "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/moinabad-swing-accident-student-vvnp-1578727.html",
    "d": "2026-11-22",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-telangana-national-international-breaking-live-updates-of-22st-november-2026-3721.html#brs-hanamkonda",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-telangana-national-international-breaking-live-updates-of-22st-november-2026-3721.html#governor-puttaparthi",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--22nd-november-2026-latest-top-news-information-across-telangana-tgs26112200403#kota-accident",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/chittoor/cops-strengthen-security-with-drone-surveillance-for-panchayat-election-nominations-1142851",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/students-asked-to-stay-away-from-ganja-and-narcotic-substances-1142564",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/warangal/brs-leaders-telangana-activists-join-congress-in-the-presence-of-mla-revuri-1142613",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/cadre-told-to-work-for-nda-victory-in-panchayats-1142517",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/local-polls-td-led-alliance-seeks-mandate-for-triple-engine-sarkar-2005680",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/madhav-seeks-public-support-for-nda-nominees-in-gram-panchayat-polls-2005643",
+   "d": "2026-11-22",
+   "w": "skipped"
   }
  ]
 }
