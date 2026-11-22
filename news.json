@@ -1,8 +1,343 @@
 {
  "date": "22.11.2026",
- "updated": "2026-11-22T06:05:00+05:30",
+ "updated": "2026-11-22T07:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "ఏపీ · విశాఖ",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/voting-day",
+   "stat": "డిసెంబర్ 2న",
+   "statl": "విశాఖ పంచాయతీ పోలింగ్",
+   "h": "విశాఖ జిల్లాలో పంచాయతీ నామినేషన్లు మొదలు",
+   "p": "విశాఖపట్నం జిల్లాలో గ్రామ పంచాయతీ ఎన్నికల నామినేషన్లు మొదలయ్యాయి. ఆనందపురం, భీమునిపట్నం, పద్మనాభం, పెందుర్తి మండలాల్లో డిసెంబర్ 2న ఉదయం 7 నుంచి మధ్యాహ్నం 1 గంట వరకు పోలింగ్ జరుగుతుందని కలెక్టర్ అభిషిక్త్ కిశోర్ చెప్పారు. నామినేషన్లు నవంబర్ 23 వరకు తీసుకుంటారు. మొత్తం 1,62,407 మంది ఓటర్లు, 802 పోలింగ్ కేంద్రాలు ఉన్నాయి.",
+   "pts": [
+    "297 సమస్యాత్మక కేంద్రాల్లో అదనపు పోలీసు భద్రత",
+    "నామినేషన్లు వెనక్కి తీసుకునే గడువు నవంబర్ 27",
+    "డిసెంబర్ 2 మధ్యాహ్నం 2 గంటలకు ఓట్ల లెక్కింపు"
+   ],
+   "why": "ఈ నాలుగు మండలాల ఓటర్లకు, పోటీ చేయాలనుకునే వారికి ఎన్నికల తేదీలు తెలుస్తాయి.",
+   "next": "నామినేషన్ల పరిశీలన నవంబర్ 24న",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/gp-election-process-begins-in-visakhapatnam-district-1144590",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-visakhapatnam",
+   "loc": "",
+   "pub": "2026-11-22T06:23+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Visakhapatnam",
+    "stat": "Polling on December 2",
+    "statl": "for panchayats in Visakhapatnam district",
+    "loc": "",
+    "h": "Panchayat nominations open in Vizag district",
+    "p": "Nominations have opened for gram panchayat elections in Visakhapatnam district. Collector M. Abhishikth Kishore said polling in Anandapuram, Bheemunipatnam, Padmanabham and Pendurthi mandals will be held on December 2 from 7 am to 1 pm. Nominations are accepted until November 23. There are 1,62,407 voters and 802 polling stations.",
+    "pts": [
+     "Extra police at 297 sensitive polling stations",
+     "Withdrawal deadline is November 27",
+     "Counting starts at 2 pm on December 2"
+    ],
+    "why": "Voters and would-be candidates in these four mandals get the election dates.",
+    "next": "Scrutiny of nominations on November 24"
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · विशाखापत्तनम",
+    "stat": "2 दिसंबर को मतदान",
+    "statl": "विशाखापत्तनम जिले की पंचायतों में",
+    "loc": "",
+    "h": "विशाखापत्तनम जिले में पंचायत नामांकन शुरू",
+    "p": "विशाखापत्तनम जिले में ग्राम पंचायत चुनाव के लिए नामांकन शुरू हो गए हैं। कलेक्टर एम. अभिषिक्त किशोर ने बताया कि आनंदपुरम, भीमुनिपट्टनम, पद्मनाभम और पेंदुर्ति मंडलों में 2 दिसंबर को सुबह 7 से दोपहर 1 बजे तक मतदान होगा। नामांकन 23 नवंबर तक लिए जाएंगे। कुल 1,62,407 मतदाता और 802 मतदान केंद्र हैं।",
+    "pts": [
+     "297 संवेदनशील केंद्रों पर अतिरिक्त पुलिस",
+     "नाम वापसी की अंतिम तारीख 27 नवंबर",
+     "2 दिसंबर को दोपहर 2 बजे से मतगणना"
+    ],
+    "why": "इन चार मंडलों के मतदाताओं और उम्मीदवारों को चुनाव की तारीखें पता चलती हैं।",
+    "next": "नामांकन की जांच 24 नवंबर को"
+   },
+   "d": "22.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · ఆలయాలు",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "d/ap-visakhapatnam",
+   "stat": "డిసెంబర్ 1 నుంచి",
+   "statl": "సంప్రదాయ దుస్తులే",
+   "h": "సింహాచలంలో డిసెంబర్ 1 నుంచి డ్రెస్ కోడ్",
+   "p": "సింహాచలం అప్పన్న ఆలయంలో డిసెంబర్ 1 నుంచి సంప్రదాయ దుస్తుల నిబంధన కచ్చితంగా అమలు చేస్తామని ఈవో వెంకటరావు చెప్పారు. మగవారు పంచె-కండువా, కుర్తా-పైజామా లేదా ప్యాంటు-చొక్కా వేసుకోవాలి. ఆడవారు చీర, లంగా-ఓణీ లేదా చున్నీతో చుడీదార్ వేసుకోవాలి. షార్ట్స్, టీ-షర్టులు, స్లీవ్‌లెస్ దుస్తులతో రానివ్వరు. పిల్లలకూ సంప్రదాయ దుస్తులు వేయాలని తల్లిదండ్రులను కోరారు.",
+   "pts": [
+    "నిత్య కల్యాణం వంటి సేవలకు ప్యాంటు-చొక్కా కుదరదు",
+    "ఆలయంలో బోర్డులు, మీడియా ద్వారా ప్రచారం చేస్తారు"
+   ],
+   "why": "సింహాచలం దర్శనానికి వెళ్లే భక్తులు ఏ దుస్తులు వేసుకోవాలో ముందే తెలుస్తుంది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/simhachalam-temple-to-enforce-dress-code-from-dec-1-2006770",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "AP",
+   "place": "ap-visakhapatnam",
+   "loc": "సింహాచలం",
+   "pub": "2026-11-22T01:19+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Temples",
+    "stat": "From December 1",
+    "statl": "traditional dress only at Simhachalam",
+    "loc": "Simhachalam",
+    "h": "Simhachalam dress code from December 1",
+    "p": "The Simhachalam temple will strictly enforce a traditional dress code from December 1, executive officer Venkatarao said. Men must wear a dhoti with angavastram, kurta-pyjama, or shirt and trousers. Women must wear a saree, langa-voni, or churidar with dupatta. Shorts, T-shirts and sleeveless tops are not allowed. Parents are asked to dress children traditionally too.",
+    "pts": [
+     "Shirt and trousers not allowed for sevas like Nitya Kalyanam",
+     "Awareness through boards at the temple and media"
+    ],
+    "why": "Devotees going to Simhachalam know in advance what to wear."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · मंदिर",
+    "stat": "1 दिसंबर से",
+    "statl": "सिंहाचलम में केवल पारंपरिक वस्त्र",
+    "loc": "सिंहाचलम",
+    "h": "सिंहाचलम में 1 दिसंबर से ड्रेस कोड",
+    "p": "सिंहाचलम मंदिर में 1 दिसंबर से पारंपरिक वस्त्र का नियम सख्ती से लागू होगा, कार्यकारी अधिकारी वेंकटराव ने बताया। पुरुष धोती-अंगवस्त्र, कुर्ता-पायजामा या शर्ट-पैंट पहनें। महिलाएं साड़ी, लंगा-वोणी या दुपट्टे के साथ चूड़ीदार पहनें। शॉर्ट्स, टी-शर्ट और स्लीवलेस कपड़ों में प्रवेश नहीं मिलेगा। माता-पिता से बच्चों को भी पारंपरिक कपड़े पहनाने को कहा गया है।",
+    "pts": [
+     "नित्य कल्याणम जैसी सेवाओं में शर्ट-पैंट की अनुमति नहीं",
+     "मंदिर में बोर्ड और मीडिया से प्रचार होगा"
+    ],
+    "why": "सिंहाचलम दर्शन को जाने वाले भक्तों को पहले से पता रहेगा कि क्या पहनना है।"
+   },
+   "d": "22.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · పుట్టపర్తి",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "d/ap-sathyasai",
+   "stat": "సత్యసాయి జయంతి",
+   "statl": "వేడుకలు మొదలు",
+   "h": "పుట్టపర్తిలో సత్యసాయి జయంతి వేడుకలు",
+   "p": "సత్యసాయి బాబా 101వ జయంతి వేడుకల్లో భాగంగా పుట్టపర్తిలో శనివారం దివ్య నామ స్మరణ కార్యక్రమం మొదలైంది. కలెక్టరేట్ దగ్గర కలెక్టర్ శ్యామ్ ప్రసాద్ దీన్ని ప్రారంభించారు. భక్తులు గణేష్ సర్కిల్ నుంచి సత్యమ్మ గుడి వరకు భజనలు, కోలాటంతో ఊరేగింపు చేశారు. లక్షల మంది భక్తులకు దర్శనం, వైద్యం, బస, రవాణా ఏర్పాట్లు సిద్ధమని కలెక్టర్ చెప్పారు.",
+   "pts": [
+    "హెల్ప్ డెస్క్‌లు, 'ఆస్క్ ఏఐ' స్కానర్ బోర్డులు పెట్టారు",
+    "ప్రత్యేక పూజలు, ప్రసాదం పంపిణీతో కార్యక్రమం ముగిసింది"
+   ],
+   "why": "జయంతి వేడుకలకు పుట్టపర్తి వెళ్లే భక్తులకు అక్కడి ఏర్పాట్లు తెలుస్తాయి.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/anantapur/divya-nama-smarana-begins-in-puttaparthi-1144604",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "AP",
+   "place": "ap-sathyasai",
+   "loc": "పుట్టపర్తి",
+   "pub": "2026-11-22T06:44+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Puttaparthi",
+    "stat": "Sathya Sai 101st birth anniversary",
+    "statl": "celebrations begin in Puttaparthi",
+    "loc": "Puttaparthi",
+    "h": "Sathya Sai birth anniversary events begin",
+    "p": "A Divya Nama Smarana programme began in Puttaparthi on Saturday as part of Sri Sathya Sai Baba's 101st birth anniversary celebrations. Collector A. Shyam Prasad inaugurated it near the Collectorate. Devotees went in procession from Ganesh Circle to Satyamma Temple with bhajans and kolatam. The Collector said darshan, medical, stay and transport arrangements are ready for lakhs of pilgrims.",
+    "pts": [
+     "Help desks and 'ASK AI' scanner boards set up",
+     "Programme ended with special prayers and prasadam"
+    ],
+    "why": "Devotees travelling to Puttaparthi for the anniversary learn what arrangements are in place."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · पुट्टपर्ती",
+    "stat": "सत्य साई की 101वीं जयंती",
+    "statl": "पुट्टपर्ती में समारोह शुरू",
+    "loc": "पुट्टपर्ती",
+    "h": "पुट्टपर्ती में सत्य साई जयंती समारोह शुरू",
+    "p": "श्री सत्य साई बाबा की 101वीं जयंती समारोह के तहत शनिवार को पुट्टपर्ती में दिव्य नाम स्मरण कार्यक्रम शुरू हुआ। कलेक्टर ए. श्याम प्रसाद ने कलेक्टरेट के पास इसका उद्घाटन किया। भक्तों ने गणेश सर्कल से सत्यम्मा मंदिर तक भजन और कोलाटम के साथ शोभायात्रा निकाली। कलेक्टर ने कहा कि लाखों श्रद्धालुओं के लिए दर्शन, चिकित्सा, ठहरने और परिवहन की व्यवस्था तैयार है।",
+    "pts": [
+     "हेल्प डेस्क और 'आस्क एआई' स्कैनर बोर्ड लगाए गए",
+     "विशेष पूजा और प्रसाद वितरण के साथ कार्यक्रम संपन्न"
+    ],
+    "why": "जयंती के लिए पुट्टपर्ती जाने वाले भक्तों को वहां की व्यवस्थाओं की जानकारी मिलती है।"
+   },
+   "d": "22.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · విశాఖ",
+   "col": "--c-city",
+   "art": "campus",
+   "pic": "e/public-library-reading",
+   "stat": "పిల్లల సాహిత్య పండుగ",
+   "statl": "విశాఖలో మొదలు",
+   "h": "విశాఖలో పిల్లల సాహిత్య పండుగ మొదలు",
+   "p": "విశాఖపట్నం హవా మహల్‌లో ఏడో వైజాగ్ జూనియర్ లిటరరీ ఫెస్ట్ శనివారం మొదలైంది. కేంద్ర మంత్రి కింజరాపు రామ్మోహన్ నాయుడు ప్రారంభ సభలో మాట్లాడారు. పిల్లలు ఫోన్లు చూడటం తగ్గించి పుస్తకాలు చదవాలని, పుస్తకాలు సొంతంగా ఆలోచించడం నేర్పుతాయని చెప్పారు. తల్లిదండ్రులు పిల్లలతో సమయం గడపాలని కోరారు. ఏఐని జాగ్రత్తగా వాడాలని ఎంపీ శ్రీభరత్ సూచించారు.",
+   "pts": [
+    "రెండు రోజుల పండుగలో రచయితలు, కథకుల కార్యక్రమాలు",
+    "బొమ్మలు గీయడం, బొమ్మలాట ప్రదర్శనలు కూడా ఉన్నాయి",
+    "లిట్‌లాంటర్న్ సంస్థ 2018 నుంచి నిర్వహిస్తోంది"
+   ],
+   "why": "పిల్లల్లో పుస్తకాలు చదివే అలవాటు పెంచడంపై తల్లిదండ్రులకు ఇది గుర్తు చేస్తుంది.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/books-bolster-childrens-thinking-power-and-creativity-union-minister-1144589",
+   "sec": [
+    "telangana",
+    "education",
+    "culture"
+   ],
+   "st": "AP",
+   "place": "ap-visakhapatnam",
+   "loc": "హవా మహల్",
+   "pub": "2026-11-22T06:22+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Visakhapatnam",
+    "stat": "Children's literary fest",
+    "statl": "begins in Visakhapatnam",
+    "loc": "Hawa Mahal, Visakhapatnam",
+    "h": "Children's literary fest opens in Vizag",
+    "p": "The seventh Vizag Junior Literary Fest began at Hawa Mahal in Visakhapatnam on Saturday. Union Minister Kinjarapu Ram Mohan Naidu spoke at the opening. He said children should cut down on phone scrolling and read books, which teach them to think for themselves. He urged parents to spend time with their children. MP M. Sribharat advised careful use of AI.",
+    "pts": [
+     "Two-day fest has sessions by authors and storytellers",
+     "Illustration demos and puppet shows are also planned",
+     "LitLantern society has organised it since 2018"
+    ],
+    "why": "It reminds parents about building the reading habit in children."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · विशाखापत्तनम",
+    "stat": "बच्चों का साहित्य उत्सव",
+    "statl": "विशाखापत्तनम में शुरू",
+    "loc": "हवा महल, विशाखापत्तनम",
+    "h": "विशाखापत्तनम में बच्चों का साहित्य उत्सव शुरू",
+    "p": "विशाखापत्तनम के हवा महल में शनिवार को सातवां वाइज़ैग जूनियर लिटरेरी फेस्ट शुरू हुआ। केंद्रीय मंत्री किंजरापु राम मोहन नायडू ने उद्घाटन सत्र में कहा कि बच्चे फोन कम देखें और किताबें पढ़ें, क्योंकि किताबें खुद सोचना सिखाती हैं। उन्होंने माता-पिता से बच्चों के साथ समय बिताने को कहा। सांसद एम. श्रीभरत ने एआई का सोच-समझकर उपयोग करने की सलाह दी।",
+    "pts": [
+     "दो दिन के उत्सव में लेखकों और कथावाचकों के सत्र",
+     "चित्रकारी और कठपुतली के कार्यक्रम भी",
+     "लिटलैंटर्न संस्था 2018 से इसका आयोजन कर रही है"
+    ],
+    "why": "यह माता-पिता को बच्चों में पढ़ने की आदत डालने की याद दिलाता है।"
+   },
+   "d": "22.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · విశాఖ",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/disability-access",
+   "stat": "27 ల్యాప్‌టాప్‌లు",
+   "statl": "పంచిపెట్టారు",
+   "h": "విశాఖలో అంధ విద్యార్థులకు ల్యాప్‌టాప్‌లు",
+   "p": "విశాఖపట్నంలో చూపు లేని విద్యార్థులకు 27 ల్యాప్‌టాప్‌లు, 11 స్మార్ట్‌ఫోన్లు ఇచ్చారు. రోటరీ క్లబ్ ఆఫ్ వాల్తేర్, బా-బాపు సేవా సంఘం ఈ కార్యక్రమం నిర్వహించాయి. విజన్-ఎయిడ్ ఇండియా శిక్షణలో బాగా రాణించిన విద్యార్థులకు ల్యాప్‌టాప్‌లు అందాయి. మొత్తం ప్రాజెక్టు ఖర్చు ₹15 లక్షలు. కోర్సు పూర్తి చేసిన వారికి సర్టిఫికెట్లు కూడా ఇచ్చారు.",
+   "pts": [
+    "ప్రాజెక్టుకు నిధులు విజన్-ఎయిడ్ సంస్థ ఇచ్చింది",
+    "విద్యార్థులు చదువులో సొంతంగా నిలబడాలన్నదే లక్ష్యం"
+   ],
+   "why": "చూపు లేని విద్యార్థులకు చదువులో ఉపయోగపడే సాయం గురించి ఇది తెలియజేస్తుంది.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/27-laptops-11-smartphones-presented-to-visually-impaired-students-1144591",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "AP",
+   "place": "ap-visakhapatnam",
+   "loc": "",
+   "pub": "2026-11-22T06:25+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Visakhapatnam",
+    "stat": "27 laptops",
+    "statl": "given to visually impaired students",
+    "loc": "",
+    "h": "Laptops for visually impaired Vizag students",
+    "p": "Visually impaired students in Visakhapatnam were given 27 laptops and 11 smartphones. The Rotary Club of Waltair and Ba-Bapu Seva Sangham organised the programme. The laptops went to students who did well in training by Vision-Aid India. The total project cost is ₹15 lakh. Certificates were also given to those who completed the course.",
+    "pts": [
+     "Vision-Aid funded the project",
+     "The aim is to help students become self-reliant in studies"
+    ],
+    "why": "It shows support available to visually impaired students for their education."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · विशाखापत्तनम",
+    "stat": "27 लैपटॉप",
+    "statl": "दृष्टिबाधित छात्रों को दिए गए",
+    "loc": "",
+    "h": "विशाखापत्तनम में दृष्टिबाधित छात्रों को लैपटॉप",
+    "p": "विशाखापत्तनम में दृष्टिबाधित छात्रों को 27 लैपटॉप और 11 स्मार्टफोन दिए गए। रोटरी क्लब ऑफ वाल्टेयर और बा-बापू सेवा संघम ने यह कार्यक्रम किया। विज़न-एड इंडिया के प्रशिक्षण में अच्छा प्रदर्शन करने वाले छात्रों को लैपटॉप मिले। परियोजना की कुल लागत ₹15 लाख है। कोर्स पूरा करने वालों को प्रमाणपत्र भी दिए गए।",
+    "pts": [
+     "परियोजना का पैसा विज़न-एड संस्था ने दिया",
+     "लक्ष्य छात्रों को पढ़ाई में आत्मनिर्भर बनाना है"
+    ],
+    "why": "यह दृष्टिबाधित छात्रों को पढ़ाई के लिए मिल रही मदद के बारे में बताता है।"
+   },
+   "d": "22.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ప్రపంచం · పశ్చిమాసియా",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "n/mideast",
+   "stat": "పరిశ్రమలో మంటలు",
+   "statl": "ఇరాన్ దాడితో",
+   "h": "బహ్రెయిన్‌లో ఇరాన్ దాడి, పరిశ్రమలో మంటలు",
+   "p": "ఇరాన్ దాడితో ఒక పౌర పరిశ్రమలో మంటలు చెలరేగాయని బహ్రెయిన్ హోం శాఖ తెలిపింది. ఆస్తి నష్టం జరిగిందని, ఎవరికీ గాయాలు కాలేదని చెప్పింది. బహ్రెయిన్‌లోని రెండు అమెరికా పేట్రియాట్ రాడార్లపై క్షిపణులు, డ్రోన్లతో దాడి చేశామని ఇరాన్ రివల్యూషనరీ గార్డ్స్ ప్రకటించింది. ఈ మాటలను ఎవరూ స్వతంత్రంగా నిర్ధారించలేదు. అమెరికా స్పందన కథనంలో లేదు.",
+   "pts": [
+    "అమెరికా డ్రోన్లు తమ గగనతలంలోకి వచ్చాయని ఇరాన్ ఆరోపణ",
+    "బహ్రెయిన్‌కు గల్ఫ్ సహకార మండలి మద్దతు తెలిపింది",
+    "బహ్రెయిన్‌లో అమెరికా నౌకాదళ ఐదో దళం ఉంది"
+   ],
+   "why": "గల్ఫ్‌లో పనిచేసే తెలుగువారి కుటుంబాలు అక్కడి పరిస్థితిని గమనించాలి.",
+   "src": "Siasat",
+   "url": "https://www.siasat.com/two-us-radar-sites-targeted-in-bahrain-industrial-facility-hit-3583633/",
+   "sec": [
+    "world"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-22T04:19+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "World · West Asia",
+    "stat": "Fire at industrial unit",
+    "statl": "after Iranian attack, says Bahrain",
+    "loc": "",
+    "h": "Bahrain reports fire after Iranian attack",
+    "p": "Bahrain's Interior Ministry said a fire broke out at a civilian industrial facility after an Iranian attack. It reported material damage and no injuries. Iran's Revolutionary Guards said they struck two US Patriot radars in Bahrain with missiles and drones. These claims have not been independently verified. The article carries no US response.",
+    "pts": [
+     "Iran alleges US drones entered its airspace",
+     "Gulf Cooperation Council backs Bahrain",
+     "Bahrain hosts the US Navy's Fifth Fleet"
+    ],
+    "why": "Families of Telugu people working in the Gulf should keep track of the situation there."
+   },
+   "hi": {
+    "cat": "विश्व · पश्चिम एशिया",
+    "stat": "औद्योगिक इकाई में आग",
+    "statl": "ईरानी हमले के बाद: बहरीन",
+    "loc": "",
+    "h": "बहरीन: ईरानी हमले के बाद इकाई में आग",
+    "p": "बहरीन के गृह मंत्रालय ने कहा कि ईरानी हमले के बाद एक नागरिक औद्योगिक इकाई में आग लग गई। उसने संपत्ति के नुकसान की बात कही और बताया कि कोई घायल नहीं हुआ। ईरान के रिवोल्यूशनरी गार्ड्स ने कहा कि उन्होंने बहरीन में दो अमेरिकी पैट्रियट रडारों पर मिसाइल और ड्रोन से हमला किया। इन दावों की स्वतंत्र पुष्टि नहीं हुई है। खबर में अमेरिका की प्रतिक्रिया नहीं है।",
+    "pts": [
+     "ईरान का आरोप: अमेरिकी ड्रोन उसके हवाई क्षेत्र में घुसे",
+     "खाड़ी सहयोग परिषद ने बहरीन का समर्थन किया",
+     "बहरीन में अमेरिकी नौसेना का पांचवां बेड़ा तैनात है"
+    ],
+    "why": "खाड़ी में काम करने वाले तेलुगु लोगों के परिवारों को वहां की स्थिति पर नज़र रखनी चाहिए।"
+   },
+   "d": "22.11.2026",
+   "t": "07:05"
+  },
   {
    "cat": "ఏపీ · రాజకీయాలు",
    "col": "--c-election",
@@ -2910,335 +3245,6 @@
    },
    "d": "21.11.2026",
    "t": "19:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · విద్య",
-   "col": "--c-city",
-   "pic": "e/university-graduation",
-   "stat": "25 ఏళ్ల",
-   "statl": "రజతోత్సవ వేడుక",
-   "h": "శ్రీదేవి ఇంజినీరింగ్ కాలేజీ రజతోత్సవం",
-   "p": "హైదరాబాద్‌లోని శ్రీదేవి మహిళా ఇంజినీరింగ్ కాలేజీ 25 ఏళ్లు పూర్తి చేసుకున్న సందర్భంగా రజతోత్సవ వేడుకలు జరిగాయి. తెలంగాణ ఉన్నత విద్యా మండలి చైర్మన్ ప్రొఫెసర్ వి. బాలకిష్టా రెడ్డి, టీసీఎస్ ప్రతినిధి రిచర్డ్ కింగ్ ముఖ్య అతిథులుగా హాజరయ్యారు. కాలేజీ 25 ఏళ్ల ప్రయాణంపై సావనీర్‌ను ఆవిష్కరించారు. 25 ఏళ్లు సేవలందించిన బోధన, బోధనేతర సిబ్బందిని సన్మానించారు.",
-   "pts": [
-    "విద్యార్థుల సాంస్కృతిక ప్రదర్శనలు ఆకట్టుకున్నాయి",
-    "గాయని గీతా మాధురి సంగీత ప్రదర్శనతో ముగింపు"
-   ],
-   "why": "కాలేజీ విద్యార్థులు, పూర్వ విద్యార్థులు, సిబ్బందికి ఇది గుర్తుండే సందర్భం.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/sridevi-college-marks-silver-jubilee-75caa45d",
-   "sec": [
-    "telangana",
-    "education"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "హైదరాబాద్",
-   "pub": "2026-11-21T16:55+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Education",
-    "stat": "25 years",
-    "statl": "silver jubilee event",
-    "loc": "Hyderabad",
-    "h": "Sridevi engineering college marks 25 years",
-    "p": "Sridevi Women's Engineering College in Hyderabad held silver jubilee celebrations on completing 25 years. Telangana State Council of Higher Education chairman Prof. V. Balakista Reddy and TCS representative Richard King attended as chief guests. A souvenir on the college's 25-year journey was unveiled. Teaching and non-teaching staff with 25 years of service were felicitated.",
-    "pts": [
-     "Students presented cultural performances",
-     "Evening closed with singer Geetha Madhuri's performance"
-    ],
-    "why": "It is a milestone for the college's students, alumni and staff."
-   },
-   "hi": {
-    "cat": "हैदराबाद · शिक्षा",
-    "stat": "25 साल",
-    "statl": "रजत जयंती समारोह",
-    "loc": "हैदराबाद",
-    "h": "श्रीदेवी इंजीनियरिंग कॉलेज की रजत जयंती",
-    "p": "हैदराबाद के श्रीदेवी महिला इंजीनियरिंग कॉलेज ने 25 साल पूरे होने पर रजत जयंती समारोह मनाया। तेलंगाना राज्य उच्च शिक्षा परिषद के अध्यक्ष प्रो. वी. बालकिष्टा रेड्डी और टीसीएस के प्रतिनिधि रिचर्ड किंग मुख्य अतिथि रहे। कॉलेज के 25 साल के सफर पर स्मारिका का विमोचन किया गया। 25 साल सेवा दे चुके शिक्षण और गैर-शिक्षण कर्मचारियों को सम्मानित किया गया।",
-    "pts": [
-     "छात्राओं ने सांस्कृतिक प्रस्तुतियां दीं",
-     "गायिका गीता माधुरी की प्रस्तुति से समापन"
-    ],
-    "why": "कॉलेज के छात्रों, पूर्व छात्रों और कर्मचारियों के लिए यह एक यादगार पड़ाव है।"
-   },
-   "d": "21.11.2026",
-   "t": "19:05"
-  },
-  {
-   "cat": "భారత్ · క్రిప్టో",
-   "col": "--c-money",
-   "pic": "i/crypto-and-digital-assets",
-   "stat": "ఈడీ, సీబీఐకి",
-   "statl": "ఇన్వెస్టర్ల ఫిర్యాదు",
-   "h": "వజీర్‌ఎక్స్, బైనాన్స్‌పై ఫిర్యాదులు",
-   "p": "క్రిప్టో ఎక్స్ఛేంజీలు వజీర్‌ఎక్స్, బైనాన్స్ వల్ల భారీగా నష్టపోయామని ఆరోపిస్తూ వేలాది ఇన్వెస్టర్లు ఈడీ, సీబీఐలను ఆశ్రయించినట్లు ఐఏఎన్ఎస్ కథనం తెలిపింది. తమ ఖాతాల్లోకి అనుమతి లేకుండా ప్రవేశించారని, క్రిప్టో ఆస్తులు పోయాయని ఫిర్యాదుల్లో పేర్కొన్నారు. 2024 జులైలో వజీర్‌ఎక్స్‌పై సైబర్ దాడి తర్వాత నష్టాన్ని వినియోగదారులందరిపై పంచారని ఆరోపించారు. కంపెనీల స్పందన కథనంలో లేదు.",
-   "pts": [
-    "వజీర్‌ఎక్స్‌కు సుమారు 1.6 కోట్ల నమోదిత వినియోగదారులు",
-    "సింగపూర్ కోర్టులో పునర్వ్యవస్థీకరణ ప్రణాళికపై అభ్యంతరం",
-    "క్రిప్టో మోసాలపై సమగ్ర చట్టం లేదన్న పిటిషనర్లు"
-   ],
-   "why": "క్రిప్టోలో పెట్టుబడి పెట్టిన తెలుగు రాష్ట్రాల వారికీ ఈ ఫిర్యాదుల ఫలితం ముఖ్యం.",
-   "src": "Telangana Today (IANS)",
-   "url": "https://telanganatoday.com/crypto-investors-seek-govt-action-against-wazirx-binance-over-alleged-fraud",
-   "sec": [
-    "india",
-    "business"
-   ],
-   "st": "IN",
-   "place": "IN",
-   "loc": "",
-   "pub": "2026-11-21T18:37+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "India · Crypto",
-    "stat": "To ED, CBI",
-    "statl": "investors complain",
-    "loc": "New Delhi",
-    "h": "Investors complain against WazirX, Binance",
-    "p": "Thousands of crypto investors have approached the ED and the CBI alleging heavy losses caused by exchanges WazirX and Binance, an IANS report said. The complaints allege unauthorised access to accounts and loss of crypto assets. They also allege that after the July 2024 cyberattack on WazirX, losses were spread across all users. The report carries no response from the companies.",
-    "pts": [
-     "WazirX has about 1.6 crore registered users",
-     "Objection to restructuring plan before Singapore court",
-     "Petitioners say India lacks a full law on crypto fraud"
-    ],
-    "why": "The outcome matters to crypto investors in the Telugu states too."
-   },
-   "hi": {
-    "cat": "भारत · क्रिप्टो",
-    "stat": "ईडी, सीबीआई से",
-    "statl": "निवेशकों की शिकायत",
-    "loc": "नई दिल्ली",
-    "h": "वज़ीरएक्स, बाइनेंस के खिलाफ निवेशकों की शिकायत",
-    "p": "आईएएनएस की रिपोर्ट के अनुसार हजारों क्रिप्टो निवेशकों ने ईडी और सीबीआई से संपर्क कर आरोप लगाया है कि एक्सचेंज वज़ीरएक्स और बाइनेंस के कारण उन्हें भारी नुकसान हुआ। शिकायतों में खातों में बिना अनुमति पहुंच और क्रिप्टो संपत्ति खोने के आरोप हैं। यह भी आरोप है कि जुलाई 2024 में वज़ीरएक्स पर साइबर हमले के बाद नुकसान सभी उपयोगकर्ताओं में बांट दिया गया। रिपोर्ट में कंपनियों का पक्ष नहीं है।",
-    "pts": [
-     "वज़ीरएक्स के करीब 1.6 करोड़ पंजीकृत उपयोगकर्ता",
-     "सिंगापुर अदालत में पुनर्गठन योजना पर आपत्ति",
-     "याचिकाकर्ताओं के अनुसार क्रिप्टो धोखाधड़ी पर व्यापक कानून नहीं"
-    ],
-    "why": "इन शिकायतों का नतीजा तेलुगु राज्यों के क्रिप्टो निवेशकों के लिए भी अहम है।"
-   },
-   "d": "21.11.2026",
-   "t": "19:05"
-  },
-  {
-   "cat": "ప్రపంచం · రష్యా",
-   "col": "--c-city",
-   "pic": "n/europe",
-   "stat": "రష్యా నౌకపై",
-   "statl": "రెండు డ్రోన్ల దాడి",
-   "h": "బాల్టిక్‌లో రష్యా నౌకపై డ్రోన్ల దాడి",
-   "p": "ఫిన్లాండ్ గల్ఫ్‌లోని అంతర్జాతీయ జలాల్లో రష్యాకు చెందిన సరుకు నౌకపై శనివారం రెండు డ్రోన్లు దాడి చేశాయని రష్యా అధికారులు తెలిపారు. కలినిన్‌గ్రాడ్‌కు వెళ్తున్న ఆ నౌక నుంచి సిబ్బందిని తరలిస్తున్నారు. నౌకలో మంటలు చెలరేగాయని ఫిన్లాండ్ సరిహద్దు దళం తెలిపింది. ఫిన్లాండ్ ముందు జాగ్రత్తగా గల్ఫ్ తూర్పున విమాన, నౌకా రాకపోకలపై ఆంక్షలు విధించింది. దాడి ఎవరు చేశారో తెలియలేదు.",
-   "pts": [
-    "గోగ్లాండ్ ద్వీపానికి పశ్చిమాన ఘటన",
-    "మిత్ర దేశాలకు సమాచారం ఇచ్చిన ఫిన్లాండ్",
-    "కలినిన్‌గ్రాడ్‌కు సరఫరాలకు ఇబ్బంది లేదన్న గవర్నర్"
-   ],
-   "why": "బాల్టిక్ సముద్రంలో ఉద్రిక్తత పెరిగితే అంతర్జాతీయ నౌకా రవాణాపై ప్రభావం పడవచ్చు.",
-   "src": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland",
-   "sec": [
-    "world"
-   ],
-   "st": "WORLD",
-   "place": "IN",
-   "loc": "",
-   "pub": "2026-11-21T18:15+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "World · Russia",
-    "stat": "Russian ship",
-    "statl": "hit by two drones",
-    "loc": "Gulf of Finland",
-    "h": "Drones hit Russian ship in Gulf of Finland",
-    "p": "Two drones struck a Russian cargo ship in international waters of the Gulf of Finland on Saturday morning, Russian officials said. The crew of the Kaliningrad-bound vessel were being evacuated. Finland's Border Guard said the ship was on fire. As a precaution, Finland restricted air and sea traffic in the eastern part of the gulf. It is not known who carried out the attack.",
-    "pts": [
-     "Incident took place west of Gogland Island",
-     "Finland has informed its allies",
-     "Governor says supplies to Kaliningrad not at risk"
-    ],
-    "why": "Rising tension in the Baltic Sea could affect international shipping."
-   },
-   "hi": {
-    "cat": "विश्व · रूस",
-    "stat": "रूसी जहाज पर",
-    "statl": "दो ड्रोन का हमला",
-    "loc": "फिनलैंड की खाड़ी",
-    "h": "फिनलैंड की खाड़ी में रूसी जहाज पर ड्रोन हमला",
-    "p": "रूसी अधिकारियों ने बताया कि फिनलैंड की खाड़ी के अंतरराष्ट्रीय जलक्षेत्र में शनिवार सुबह एक रूसी मालवाहक जहाज पर दो ड्रोन ने हमला किया। कलिनिनग्राद जा रहे इस जहाज से चालक दल को निकाला जा रहा है। फिनलैंड के सीमा रक्षक बल ने कहा कि जहाज में आग लगी है। एहतियात के तौर पर फिनलैंड ने खाड़ी के पूर्वी हिस्से में हवाई और समुद्री यातायात पर पाबंदी लगाई है। हमला किसने किया, यह पता नहीं चला है।",
-    "pts": [
-     "घटना गोगलैंड द्वीप के पश्चिम में हुई",
-     "फिनलैंड ने अपने सहयोगी देशों को सूचना दी",
-     "गवर्नर के अनुसार कलिनिनग्राद की आपूर्ति पर खतरा नहीं"
-    ],
-    "why": "बाल्टिक सागर में तनाव बढ़ने से अंतरराष्ट्रीय जहाजरानी पर असर पड़ सकता है।"
-   },
-   "d": "21.11.2026",
-   "t": "19:05"
-  },
-  {
-   "cat": "రంగారెడ్డి · ప్రమాదం",
-   "col": "--c-city",
-   "pic": "e/road-accident-response",
-   "stat": "నాలుగు కార్లు",
-   "statl": "వరుసగా ఢీ",
-   "h": "ఓఆర్ఆర్‌పై నాలుగు కార్లు ఢీ",
-   "p": "రాజేంద్రనగర్ పోలీస్ స్టేషన్ పరిధిలో ఔటర్ రింగ్ రోడ్డుపై శనివారం నాలుగు కార్లు వరుసగా ఢీకొన్నాయి. పక్కనే జరుగుతున్న బ్లాస్టింగ్ పనులతో ముందు వాహనాలు ఒక్కసారిగా వేగం తగ్గించడంతో ప్రమాదం జరిగింది. ఇద్దరి కాళ్లు విరిగాయి, మరో ఇద్దరి పరిస్థితి విషమంగా ఉన్నట్లు సమాచారం. కార్లలో చిక్కుకున్నవారిని స్థానికులు బయటకు తీశారు. పోలీసులు వచ్చి ట్రాఫిక్‌ను క్రమబద్ధీకరించారు.",
-   "pts": [
-    "శంషాబాద్ నుంచి గచ్చిబౌలి వైపు వెళ్లే దారిలో ఘటన",
-    "సుమారు రెండు కిలోమీటర్ల మేర ట్రాఫిక్ నిలిచింది",
-    "క్షతగాత్రులను అంబులెన్స్‌లో ఆసుపత్రికి తరలించారు"
-   ],
-   "why": "ఓఆర్ఆర్‌పై రోజూ ప్రయాణించేవారు రోడ్డు పక్క పనుల చోట జాగ్రత్తగా ఉండాలని ఈ ఘటన చెబుతోంది.",
-   "src": "V6 Velugu",
-   "url": "https://www.v6velugu.com/major-road-accident-on-rajendra-nagar-orr-four-cars-collide-two-people-in-critical-condition",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "rangareddy",
-   "loc": "రాజేంద్రనగర్",
-   "pub": "2026-11-21T13:53+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Rangareddy · Accident",
-    "stat": "Four cars",
-    "statl": "collide in a chain",
-    "loc": "Rajendranagar",
-    "h": "Four cars collide on ORR at Rajendranagar",
-    "p": "Four cars collided one after another on the Outer Ring Road within Rajendranagar police station limits on Saturday. Vehicles ahead slowed suddenly because of blasting work beside the road. Two people suffered leg fractures and two others were reported critical. Locals pulled out those trapped, and police cleared traffic.",
-    "pts": [
-     "Crash on the Shamshabad–Gachibowli stretch",
-     "Traffic was held up for about two kilometres",
-     "The injured were taken to hospital by ambulance"
-    ],
-    "why": "ORR commuters need to take care near roadside work zones."
-   },
-   "hi": {
-    "cat": "रंगारेड्डी · हादसा",
-    "stat": "चार कारें",
-    "statl": "एक के बाद एक टकराईं",
-    "loc": "राजेंद्रनगर",
-    "h": "राजेंद्रनगर ORR पर चार कारें टकराईं",
-    "p": "राजेंद्रनगर थाना क्षेत्र में आउटर रिंग रोड पर शनिवार को चार कारें एक के बाद एक टकरा गईं। सड़क किनारे चल रहे ब्लास्टिंग काम के कारण आगे के वाहन अचानक धीमे हो गए। दो लोगों के पैर टूटे और दो अन्य की हालत गंभीर बताई गई। फंसे लोगों को स्थानीय लोगों ने निकाला और पुलिस ने यातायात संभाला।",
-    "pts": [
-     "हादसा शमशाबाद से गच्चीबौली की ओर जाने वाले मार्ग पर",
-     "करीब दो किलोमीटर तक यातायात रुका",
-     "घायलों को एंबुलेंस से अस्पताल ले जाया गया"
-    ],
-    "why": "ORR पर रोज़ सफर करने वालों को सड़क किनारे काम वाली जगहों पर सावधानी रखनी चाहिए।"
-   },
-   "d": "21.11.2026",
-   "t": "18:35"
-  },
-  {
-   "cat": "ఏపీ · విజయవాడ",
-   "col": "--c-city",
-   "pic": "e/fire-service-response",
-   "stat": "ప్రాణనష్టం లేదు",
-   "statl": "అగ్నిప్రమాదంలో",
-   "h": "విజయవాడ బొమ్మల కంపెనీలో మంటలు",
-   "p": "విజయవాడ ఆటోనగర్‌లోని ఓ బొమ్మల కంపెనీలో శనివారం ఉదయం సుమారు 10:30కు అగ్నిప్రమాదం జరిగింది. ఎగుమతి కోసం ఉంచిన ఎలక్ట్రికల్ బొమ్మలు కాలిపోయాయి. అగ్నిమాపక సిబ్బంది మంటలను అదుపు చేశారు. ఎవరికీ ప్రాణనష్టం లేదని, మంటలకు కారణం ఇంకా తెలియలేదని పటమట సీఐ పవన్ కిశోర్ తెలిపారు. ఈ బొమ్మలను అమెరికా, దుబాయ్ వంటి దేశాలకు పంపుతారు.",
-   "pts": [
-    "పక్క భవనాలకు మంటలు వ్యాపించలేదు",
-    "నష్టం సుమారు ₹6 కోట్లని పారిశ్రామిక సంఘం అంచనా",
-    "ఫిర్యాదుల ఆధారంగా చర్యలు తీసుకుంటామని పోలీసులు"
-   ],
-   "why": "ఆటోనగర్‌లోని పరిశ్రమల యజమానులకు అగ్ని భద్రత ఎంత ముఖ్యమో ఈ ఘటన గుర్తుచేస్తోంది.",
-   "src": "ETV Bharat",
-   "url": "https://www.etvbharat.com/te/state/fire-accident-at-toy-company-in-auto-nagar-of-vijayawada-aps26112103211",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-ntr",
-   "loc": "ఆటోనగర్, విజయవాడ",
-   "pub": "2026-11-21T14:17+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Vijayawada",
-    "stat": "No casualties",
-    "statl": "in toy company fire",
-    "loc": "Auto Nagar, Vijayawada",
-    "h": "Fire at toy company in Vijayawada Auto Nagar",
-    "p": "A fire broke out at a toy company in Auto Nagar, Vijayawada, at about 10:30 am on Saturday. Electrical toys kept for export were burnt. Fire staff brought the flames under control. Patamata CI Pavan Kishore said no lives were lost and the cause is not yet known. The toys are exported to countries such as the US and Dubai.",
-    "pts": [
-     "The fire did not spread to nearby buildings",
-     "An industry association estimates the loss at about ₹6 crore",
-     "Police said action will follow the complaints received"
-    ],
-    "why": "It reminds Auto Nagar unit owners how important fire safety is."
-   },
-   "hi": {
-    "cat": "आंध्र · विजयवाड़ा",
-    "stat": "कोई जनहानि नहीं",
-    "statl": "खिलौना कंपनी में आग",
-    "loc": "ऑटोनगर, विजयवाड़ा",
-    "h": "विजयवाड़ा ऑटोनगर की खिलौना कंपनी में आग",
-    "p": "विजयवाड़ा के ऑटोनगर में एक खिलौना कंपनी में शनिवार सुबह करीब 10:30 बजे आग लग गई। निर्यात के लिए रखे इलेक्ट्रिक खिलौने जल गए। दमकल कर्मियों ने आग पर काबू पाया। पटमटा सीआई पवन किशोर ने कहा कि कोई जनहानि नहीं हुई और कारण अभी पता नहीं है। ये खिलौने अमेरिका, दुबई जैसे देशों को भेजे जाते हैं।",
-    "pts": [
-     "आग आसपास की इमारतों तक नहीं फैली",
-     "उद्योग संघ के अनुसार नुकसान करीब ₹6 करोड़",
-     "पुलिस ने कहा, शिकायतों के आधार पर कार्रवाई होगी"
-    ],
-    "why": "यह घटना ऑटोनगर के उद्योग मालिकों को अग्नि सुरक्षा की अहमियत याद दिलाती है।"
-   },
-   "d": "21.11.2026",
-   "t": "18:35"
-  },
-  {
-   "cat": "తెలంగాణ · మోసం",
-   "col": "--c-city",
-   "pic": "e/financial-scam-awareness",
-   "stat": "₹50.87 లక్షల",
-   "statl": "ఉద్యోగాల పేరుతో మోసం",
-   "h": "మంత్రి ఓఎస్డీ పేరుతో ఉద్యోగాల మోసం",
-   "p": "తెలంగాణ ఐటీ మంత్రి ఓఎస్డీనంటూ నకిలీ గుర్తింపు కార్డుతో ప్రభుత్వ ఉద్యోగాలు ఇప్పిస్తామని నలుగురి నుంచి సుమారు ₹50.87 లక్షలు వసూలు చేశారని టాస్క్‌ఫోర్స్ పోలీసులు కేసు నమోదు చేశారు. టీచర్, రికార్డ్ అసిస్టెంట్ వంటి పోస్టులు ఇప్పిస్తామని నమ్మించారు. పరిశ్రమల శాఖ ముఖ్య కార్యదర్శి ఫిర్యాదుతో దర్యాప్తు మొదలైందని పోలీసులు తెలిపారు.",
-   "pts": [
-    "నకిలీ నియామక పత్రాలు, నకిలీ ప్రభుత్వ వెబ్‌సైట్లు వాడారు",
-    "మరో ఎనిమిది మంది ఇలాగే మోసపోయారని పోలీసులు",
-    "ఐడీ కార్డులు, కారు, ₹2.5 లక్షల నగదు స్వాధీనం"
-   ],
-   "why": "ప్రభుత్వ ఉద్యోగాల పేరుతో డబ్బులు అడిగేవారిని నమ్మవద్దని నిరుద్యోగులకు ఇది హెచ్చరిక.",
-   "src": "ETV Bharat",
-   "url": "https://www.etvbharat.com/te/state/person-promised-to-secure-job-by-using-the-name-of-it-ministers-osd-tgs26112102262",
-   "sec": [
-    "telangana",
-    "jobs"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "pub": "2026-11-21T14:07+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Fraud",
-    "stat": "₹50.87 lakh",
-    "statl": "taken in job fraud",
-    "loc": "Hyderabad",
-    "h": "Job fraud in name of IT minister's OSD",
-    "p": "Task Force police registered a case after accused posing as the Telangana IT minister's OSD with a fake ID card allegedly collected about ₹50.87 lakh from four people, promising government jobs such as teacher and record assistant. The probe began on a complaint by the Industries Principal Secretary, police said.",
-    "pts": [
-     "Fake appointment orders and fake government websites were used",
-     "Police say eight more people were cheated the same way",
-     "ID cards, a car and ₹2.5 lakh cash seized"
-    ],
-    "why": "A warning to job seekers not to trust anyone asking money for government jobs."
-   },
-   "hi": {
-    "cat": "तेलंगाना · धोखाधड़ी",
-    "stat": "₹50.87 लाख",
-    "statl": "नौकरी के नाम पर ठगी",
-    "loc": "हैदराबाद",
-    "h": "आईटी मंत्री के ओएसडी के नाम पर नौकरी ठगी",
-    "p": "तेलंगाना के आईटी मंत्री का ओएसडी बनकर नकली पहचान पत्र से शिक्षक, रिकॉर्ड असिस्टेंट जैसी सरकारी नौकरी दिलाने के नाम पर चार लोगों से करीब ₹50.87 लाख वसूलने के आरोप में टास्क फोर्स पुलिस ने केस दर्ज किया। पुलिस के अनुसार उद्योग विभाग के प्रधान सचिव की शिकायत पर जांच शुरू हुई।",
-    "pts": [
-     "नकली नियुक्ति पत्र और नकली सरकारी वेबसाइटें इस्तेमाल हुईं",
-     "पुलिस के अनुसार आठ और लोग इसी तरह ठगे गए",
-     "पहचान पत्र, कार और ₹2.5 लाख नकद ज़ब्त"
-    ],
-    "why": "यह बेरोज़गारों के लिए चेतावनी है कि सरकारी नौकरी के लिए पैसे मांगने वालों पर भरोसा न करें।"
-   },
-   "d": "21.11.2026",
-   "t": "18:35"
   },
   {
    "cat": "ఏపీ · ఉదయగిరి",
