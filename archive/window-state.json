@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T07:35:00+05:30",
+ "cutoff": "2026-11-22T08:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T11:35:00+05:30/2026-11-19T12:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 2,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 5,
-   "review": 0,
-   "gaps": "Feeds 11:39 IST, 68/70 ok, lookback 03:35, ~868 uncovered events in lookback (185 local). Published 3: TV9 Nagole tree fall death (09:51, late, sensitive), Siasat ASI free entry Charminar/Golconda (09:41, late), Andhra Jyothy 18 Hyderabad-Mangaluru Sankranti specials (11:01). Skipped (old articles found by search): TT free-entry 2022, TT/HNH KCR-Prabhanjan Yadav 2025, NT KCR-R Satyanarayana Jan 2025, DC census caste row Sep 2026, DC Uttam vs KTR/Harish (18 Nov 22:55, before lookback). Not found/opened: NIE email spoofing semiconductor firm, NIE 46 borewells, Hyderabad Mail CESS debt study, Siasat Hyderabad student US shooting, NewsMeter BC Commission census, Sakshi Palnadu HC nominations, Namasthe KCR condolence (11:22), Eenadu AP 3rd phase panchayat notification. District searches not run. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T12:05:00+05:30/2026-11-19T12:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 23:05 on 21 Nov. Feeds 07:12 IST, 70/70 ok; 55 uncovered events first seen since 06:30 reviewed. add_repo not available; used existing clone. Published 4: V6 pulse polio in 5 districts (07:14), HMTV Mancherial fake death certificates 5 arrested (07:02, police, sensitive), Oneindia TG Class 10 exams proposed from March 18 (06:39, forecast), AP/ABC Pant century NZ Test (approx 06:01, page time without zone). Skipped old: Hans TG SI hall tickets (20 Nov), H5N1 poultry vaccine launch (20 Nov). Skipped: ETV live-blog AICC in-charge visit (party meeting). Not opened/not tried: Andhrajyothy $1 trillion, prime9 OU Rs 1000 cr (search found only 2025 items), Disha rented offices. District searches (Nalgonda, Kurnool) returned only tag pages. Lang pages, index.html and sitemap.xml reverted; check_news.py e/ key false errors as before."
+  },
+  {
+   "window": "2026-11-22T07:35:00+05:30/2026-11-22T08:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 10,
+   "late": 0,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 6,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 23:35 on 21 Nov. Feeds 07:58 IST, 70/70 ok; 94 uncovered events first seen since 07:00 reviewed. add_repo not available; used existing clone. Published 10 (ETV Bharat 2, V6 2, Andhra Jyothy 3, HMTV, TV9, NTV). Duplicates of earlier stories: V6 HSRP dealer deadline, AJ Kollapur fishermen walkout, V6 Congress PAC meeting, Vaartha SI hall tickets, AJ fake-OSD job fraud (arrest unconfirmed), Hans Ongole crash follow-up. Skipped old: IndToday SI hall tickets (20 Nov). Not opened: New Indian Express items (Ongole canal, AP HC 400 constable posts, NIELIT campus, Prakasam SP, tiger op) - search could not reach them; Disha private-rentals (client error); Sakshi Education (client error); Hyderabad Mail Miyapur auction and Samayam Musi plan not found. check_news.py reports every e/ picture key as 'not in tools/pictures.md' (also for older stories) - left as is."
   }
  ],
  "seen": [
@@ -6316,6 +6316,91 @@
   },
   {
    "url": "https://www.etvbharat.com/te/state/live-blog--22nd-november-2026-latest-top-news-information-across-telangana-tgs26112200403",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/south-coast-railway-proposed-3-railway-lines-in-ap-aps26112200494",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/first-phase-of-the-polavaram-project-will-be-ready-by-may-2027-aps26112200495",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/rice-miller-arrested-for-diverting-cmr-worth-rs-14-crore",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/india-road-accident-deaths-22-percent-pedestrians-hyderabad-skywalks-1578672.html",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/vijayawada-durga-temple-ticket-scam-duplicate-tickets-exposed-1578667.html",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/narco-terrorism-threatens-youth-g-kishan-reddy-calls-for-drug-free-india-",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/tuni-beggar-narsiyamma-donates-rs-50000-to-shiva-temple-1578687.html",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/eluru/free-medical-camp-organized-at-district-court-premises-judge-sridevi-attends-215702",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://tv9telugu.com/career-jobs/central-railway-recruitment-2026-2861-apprentice-vacancies-announced-10th-pass-can-apply-1964011.html",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://ntvtelugu.com/business-news/indian-railways-new-rules-bulk-ticket-booking-limit-removed-1037594.html",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/telangana-transport-department-gives-dealers-one-week-deadline-to-fix-hsrp-number-plates-",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/mahbubnagar/telangana-fishermen-protest-boycott-ministers-meeting-kollapur-community-division-1578665.html",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.v6velugu.com/congress-pac-meeting-today-in-hyderabad-bm-sandeep-to-meet-cm-revanth-reddy-",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://vaartha.com/career/telangana-si-prelims-exam-hall-tickets-released-download-dates-schedule/808692/",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/telangana-job-fraud-fake-it-minister-osd-arrested-cheating-unemployed-youth-50-87-lakh-1578664.html",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/ongole/four-die-as-car-hits-culvert-in-prakasam-district-1144582",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://indtoday.com/telangana-si-hall-tickets-release-nov-22-exam-on-nov-29/",
    "d": "2026-11-22",
    "w": "skipped"
   }
