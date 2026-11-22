@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T10:05:00+05:30",
+ "cutoff": "2026-11-22T10:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T14:05:00+05:30/2026-11-19T14:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 4,
-   "late": 1,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Feeds 14:15 IST, 65/68 ok (Prajasakti, NIE, Manyam district feed failing), lookback 06:05, 240 uncovered TG/AP events in lookback. Published 4: TT Nagarjuna Sagar engineers show-cause (13:54), DC/PTI 80 Kakinada fishermen in Odisha (13:17), Siasat Old City ganja accused 21 cases (13:21), ThePrint/PTI Mahabeej-TG seed MoU (13:49). Duplicate: ThePrint/Hans Palnadu lorry-DCM crash (covered as Dachepalli crash 08:07). Not opened (feed URLs refused by WebFetch, no search-result URL): Hindu TG chill 11C, Hindu ANGRAU A grade, Hindu Rail Parcel App, TT Congress high command report on Rajgopal. WebSearch with thehindu.com domain filter rejected by proxy. No district searches (time). add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T14:35:00+05:30/2026-11-19T15:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 01:35 on 22 Nov. Feeds 09:59 IST, 70/70 ok; 91 uncovered events first seen since 09:00 reviewed. add_repo not available; used existing clone. Published 3: Siasat HYDRAA Sandapalli lake (09:44), V6 OU Rs 480 cr tenders (09:21), IANS Nepal PM visit (06:07). Skipped as too thin for a 36-word summary: Andhra Jyothy flash BRS Hanumakonda meeting (07:30), Governor at Puttaparthi convocation (07:37). Duplicates of earlier stories on live blogs: Karimnagar BJP march, KRMB meeting, pulse polio, NHM teams, Tirumala wait, Shamshabad gold. Not opened (search found nothing): V6 Siddipet medical college name, NIE HPV 95.28%, NIE Shanigaram Jain centre, Sakshi YSRCP leader kidnap claim, Oneindia Tirumala 121 kg gold, ETV Narsapur coin collection, DC Indonesia factory fire. No district searches this run. check_news.py e/ key false errors as before; news.json holds 116 stories (not trimmed by check); lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-22T10:05:00+05:30/2026-11-22T10:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 1,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 02:05 on 22 Nov. Feeds 10:11 IST, 70/70 ok; 14 uncovered local + 32 other events first seen since 09:45 reviewed. add_repo not available; used existing clone. Published 1: Siasat/IANS Iran deputy FM says US blockade an act of war (10:05, claim). Duplicate: NIE HSRP dealer lapses (covered 21 Nov, dealers 7 days). Skipped: Kota (Rajasthan) pilgrims' crash, 9 dead (other state, no TG/AP link). Search only found old Oct 3 Ananthagiri bus crash; Disha 10:07 'Anantagiri ghat accident, 4 dead' not opened (cannot confirm if new or which district). Not opened (search found nothing): TV9 Hyd-Vijayawada highway fake police, V6 ippa puvvu laddu at Delhi trade fair, V6 ORR treated water, Suryaa Haritha Gopalam fodder scheme. check_news.py e/ key false errors as before; it trimmed news.json to 60; lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6633,6 +6633,16 @@
    "url": "https://english.punjabkesari.com/india/nepal-pm-balendra-shah-to-arrive-in-india-today-on-two-day-state-visit-hold-talks-with-pm-modi-tomorrow",
    "d": "2026-11-22",
    "w": "dup"
+  },
+  {
+   "url": "https://www.siasat.com/iran-vows-to-break-us-blockade-calls-it-an-act-of-war-3583737/",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://thesouthfirst.com/telangana/four-killed-20-injured-as-private-bus-overturns-near-telanganas-ananthagiri/",
+   "d": "2026-11-22",
+   "w": "skipped"
   }
  ]
 }
