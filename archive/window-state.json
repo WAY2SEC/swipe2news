@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T10:35:00+05:30",
+ "cutoff": "2026-11-22T11:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T14:35:00+05:30/2026-11-19T15:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 7,
-   "published": 5,
-   "late": 2,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 14:51 IST, 70/70 ok, lookback 06:35, 270 uncovered TG/AP events in lookback (many are already-published events not matched by the feed). Published 5: TT KCR condoles Accha Vidyasagar (14:20), Siasat TG SAFE Charla clinic raid (14:49), Siasat activists seek Invest Telangana summit delay (14:51), Telugu360 AP three economic regions review (13:06), AP/Daily Gazette Anthropic IPO (07:53). Duplicate: Hindu Anantapur bus overturn (covered as Raptadu 06:30). Skipped: ETV Guntur CID job-fraud detention (too few details). Old: TT TG rain forecast (17 Nov), DC Godavari Akvan alert (18 Nov 23:53), Medchal rock paintings (17 Nov). Not opened: Hindu TG chill 11C, Hindu Rail Parcel App, Hindu ANGRAU advisory/A grade, TT Congress report on Rajgopal, IRC Hyderabad session (businessnewsweek server error), CNN (robots). No district searches (time)."
-  },
   {
    "window": "2026-11-19T15:05:00+05:30/2026-11-19T15:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 02:05 on 22 Nov. Feeds 10:11 IST, 70/70 ok; 14 uncovered local + 32 other events first seen since 09:45 reviewed. add_repo not available; used existing clone. Published 1: Siasat/IANS Iran deputy FM says US blockade an act of war (10:05, claim). Duplicate: NIE HSRP dealer lapses (covered 21 Nov, dealers 7 days). Skipped: Kota (Rajasthan) pilgrims' crash, 9 dead (other state, no TG/AP link). Search only found old Oct 3 Ananthagiri bus crash; Disha 10:07 'Anantagiri ghat accident, 4 dead' not opened (cannot confirm if new or which district). Not opened (search found nothing): TV9 Hyd-Vijayawada highway fake police, V6 ippa puvvu laddu at Delhi trade fair, V6 ORR treated water, Suryaa Haritha Gopalam fodder scheme. check_news.py e/ key false errors as before; it trimmed news.json to 60; lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-22T10:35:00+05:30/2026-11-22T11:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 5,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 5,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 02:35 on 22 Nov. Feeds 10:59 IST, 70/70 ok; 92 uncovered events first seen since 10:05 reviewed. add_repo not available; used existing clone. Published 5: Telangana Today Ananthagiri Ghat lorry-auto crash, 4 dead (10:43, no names); Namasthe Telangana HMDA plot auction Dec 14-21 (10:53, claim; Shabad plot count left out as unclear); Telangana Today Capt Kaoosji dies at 82 (10:50); Deccan Chronicle Manubolu bus into fields, 4 hurt (10:14); Korea Herald S Korea education minister resigns (13:59 KST). Duplicates: ETV Naidu press meet on YSRCP (same press meet as 06:05 story), cyclone explainers (covered 09:05), Simhachalam darshan rule (07:05), AgriGold bonds Kothagudem (21 Nov), DC/NT/AJ/Disha copies of Vikarabad crash. Skipped: Telangana SI hall tickets - only adda247 (02:02, before lookback, says 'will be out') and indtoday 20 Nov opened; TOI 10:06 not found. Not opened (search found nothing): BusinessLine non-basmati rice export curbs, HMTV Kadthal Rs 2.08 cr, ETV Annavaram teppotsavam, TV9 castor seeds children, Samayam Kadapa Janasena worker death, HMTV Kurnool attack. No district searches this run. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6643,6 +6643,126 @@
    "url": "https://thesouthfirst.com/telangana/four-killed-20-injured-as-private-bus-overturns-near-telanganas-ananthagiri/",
    "d": "2026-11-22",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/four-family-members-killed-as-autorickshaw-collides-with-lorry-on-vikarabad-ghat-road",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/hyderabad/telangana-government-plans-another-land-auction-in-hyderabad-targets-rs-600-crore-revenue-2566382",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/captain-bakhtyar-sheheryar-kaoosji-chronicler-of-hyderabads-heritage-dies-at-82",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/nellore-four-injured-as-private-bus-plunges-into-agricultural-fields-2006798",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.koreaherald.com/article/10945089",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/vikarabad-four-of-family-killed-in-lorry-auto-collision-2006800",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/politics/cm-chandrababu-on-ysrcp-fake-propaganda-and-sharmila-wedding-invitation-aps26112200564",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.koreatimes.co.kr/southkorea/education/20261122/education-minister-resigns-amid-backlash-over-csat-anti-cheating-measures",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.adda247.com/exams/telangana/telangana-police-si-hall-ticket-2026/",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMDh6ZFdtcUdLTHNQWUlZamJrNEttYzh4MUUtRC00elhpT1pET3pqU2s1LWd4UkZiOTZXdC1mZnJfSVRRSkI4aTRCY1ZrVU91YjJHT0I2SjI5M1FDNVp4R3FOWHZFUlBkdmxvVzBNMldENjV2Y2tLM1gwYnlLenNPY0l0RmJ4MTZfdWEtdFZfby1pdWdUUE9Rb1BxeDdiMVVlS0JrOG1GZFVjdjNiZG1yUDR3?oc=5",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNanNmTk16OVd5VVk1c3o2S1ZaeUlnekpnWXNpbDY3eGlkMUtnUVlVdmZScUppSUlhMk5tZmMyRzk2Z2J6b3RqOE5IVTJBU2h2SWZZNEtaMWRPZlJvVno3UXBmWmpuNkRKQW0tdEpQa0dMRGlQaHNudVlDV09fYXNLUWRzY1cwTWJlLUlLSXhiTVhxT3BaN19lb2p3M0Rscms3Q3hIdERyLVl1VEMyZzY5eDhEUkg3dTBCNGp6SzNR0gHDAUFVX3lxTFBaSkl6QzNuY1F2aGp5NnZQQW9wV0NMRVJLbzdxdVRlbnhZMFV4SW81NWhlc1BUNF9qWFdkUUl4YlM2ampjYXVYZkVmZEhVMkRSU3B4eGM3WXY3RUxZdVJscUhxSzNJQU0yaUwybjJHdXJNTFJoclloLTlnMzFwWjlldE94c2w1NndQOFk4Q1NxNzV4MUlmMjZKMERLMFdTc1pETmtHaTdHT1M5al9sa0VmM0drNGI2RnRxd0NMc2kzZ2FERQ?oc=5",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPX1RXcWl6SkZtaklYNGU0YmNZODF6dk5mMlRWdmxKX3ZtMmlDdFVOamlBLS1ySXlKZGg4TDFHLTZTNmRocVpWek5NWDNDTE1VWm1DUk1TRmc2SG1qSTBtZnpiaUtlMlFYOGtMcDBXc3pvNTJfQWFYd0tjbXBic1RFU202dGVQTExDVXRyT2x1TU5CNGI1N0JNX19CSTg?oc=5",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTU1jRi0xandyMm93eFhjRXVPM2pubGxPdXhqakotdGEyV3c4YjlGYXcyX2xjX2JTYjF6RUNycnRvbnJ5d2VSWWszVEgybWNYcmNSd2lmc3RtX0hLVWFGZXpFWWRGaV9TRjFITWtKQ0tpZjMxOTQtZlJDWmF1bkpsdUh6bzNENHY3cFlqOW1tSlpDc1V2blYzSlZJQlNwUXJYaE5oUA?oc=5",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa0lHV1RWaGtMQTBkbTJCY1Vub3FET2ZxQ181WmtvM0pDdDhGYk9oMFpBTzNtTERqQXZVeVpFQUY2LXJ3bVJVeGNuSmxUU1JHbW9DZ0M3MjVRTnM4cno4SmFxSEQxRkFOSDM4UUpDTHFFdHQ3eTk4aG41RGJqT29sQk9ZSkE2NkNZME9nSGZRczdWNHZGeU5VLW0wQ1dYb0c2dlk4dXkwQUdQZTVVZDNWS0hCak4xUXhQaEIwR3VrMUpuRWM?oc=5",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcFJCVTNYaTVxUENBelBUV2lIT1ZxRFZqQ0pzOUlYS1lkajVyVjNwUU5EQVhpNEJoakY5SEZMQ2ViRWVQbnV0TzNxY2Nxb0RhMHdQZE41V056eW1NLW5TeVpwYjFkaGlBcHlxV3lEWjVPRWpkTThIQUlpQ3duUHdlb1UzU3Y1T0xmck1iSXZVVHhBVXF1OGJxMjdZN3JHUHY1OVNBNlJvUHBwTWNGZnlna0QzaExpMWJDcmJfdkdNYmFzUUk0M0Ryc2VB?oc=5",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPV25Lb09YT2ZRcnJlWGQxNWpNWmg4d2VNNjRaVXhUYTctU3pranpvS0NqVWZZWXF6Y3BDTHdSc2RzRzN2SjhHOFpHdFNnUFRsY3JuZTEzU3RHR3NsVFZlbWF1QUdwNmNjWDd5ZFdhVDVEZDhGemloOTFhNGxkX0MwbEV5cks0Y1hVRnVTS1dJRmw0VDZ3ODNSSTM3ekFlWnVROHN6d2xDZzZaQ01VQWM5M0JhR01pX1N4eUMwdVZ3dFhqdGJfMEt3ajZMN1U4cXhBYjV2bDlB0gHbAUFVX3lxTE5Vb3FWcXBxOWQ5ellZakZxcTRwT0NOYzZfei1vcXNSTmZCcHBMZUN0V3RFckJsY3dBUU9JcmVDbExhZG11Uy1udHEyYTFxaTVLZmdLRDdZcmotTUdlaWFBekRPQ0FVclhiZFpWNWltSUJINnVIMHRfZ1Y2akJha2xYN01FUUFWbjJuci0zNWsycGNTb0dKSUY2T1BYb0FVcnI3SE92UFZfWVZxOUh2aWxTMEphcVhRYWtaR0JJSjBuOHhPY2p3WDNpSE9iazEybjFVbm1oc1lzMnpOSQ?oc=5",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORF9RUnFlRTRTclBwSzY1Z0lGMDlWRU14UFZlaU1icW9oeU1sS2hobXRRcmVPUnFoQ192eV9SSG8zejJjd0w4aWVhTzNIei12cE5DbmV3Q25jUTQ1V3llSEFNaDQ3SEw4aGItb2ROZkh3WjNmYnBOQklfeDFsVGtZcjRGdmVOcWNrcm1YbHo1Z1FnZ0k5MDdDMkwtY3k5MndFTmp3VGR4aDZ0OEF4Q1I1b2d3bGRFUFZ5OEJjaktsX3kwUkx2a1Vaby1FYlpJcmRzSlVVX1ZR0gHbAUFVX3lxTE13R0wwR1JjVUJHNkxKTTZKMGFmZGx0ZjIwdmpaWm5PQmMzM3prbnV2ckx0ZHZuXzFxYUFidjFHN0VjN0hib2l3Q1BKaFU1b2JfaUFBaTRheUNEb1lXZmFsbjNpSXc1R3hOQlRXSVcyelBxWnZ4OWE5U0tWSnRpMUl6MHFwUm5oUV80V1hzY0NScTdMTUQyalJnZUZaaFhlbU1HSlRrNzJIa1hnSW94TFc1RW5ESFhGOEJBTEJSNGJySzkwam90QTJHY0stSDgyakdsNU5nWkRrSmVjYw?oc=5",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUTk1aXIyWmdQRVVadVROS2gySUtyTmdPeXRYQmFtWU93OFhJLWJxLUNjQTdHNFlpdmc4Mm9ZcmFTTC1uR1hvd1pWcmkyNXdpUTRESlBEU3RqSnVFUVZJdS0wUEw2NTlDazl2bG04d21IdWh4QTZvcndxaDVDUUljQlNibUJLZTdObFA5WHE0UWlaTnZFRk52cERfSHR3Wm1LSDM1TEFtblZUWmpLeWoxVU43QWdaeS1MMTdLek5PNEhKQdIBxwFBVV95cUxOM01IZ3AxVU1oX2NjT3NTZThKZzB4UWxKOG1XRVNwbl9NYk95anNESE5yX0xPTHZ0UmcxQW5VWUtmVDB4NzJGX1B5QnFtcGliajE1ekNYU2x2VU5HS3BQclNaT0VVYW04bkJCMmJ3eXJwSXNoT3I1Q09CbE13TjNTbXNYRk9NdE5HdHFoTmFBblFHZjBZVUVZZDVhYlhFdGVLTjZqU3JZcWhlOGV6cmxIYi1pNVlfWjBEaGQ5RlhUdFo1X0xONW5Z?oc=5",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQc3hoNFRRQk9iZGdwRzNvWW1YMWxBUnJtVjFaYkhuaWt1emg5Y1J6Zm1kTWFnVlJjdm43VGpOSkNrbzJWNUdYVG1NQ1Vid2RxMU0wYlRzZjFfR3FRamhvMGRELTFid0NqNEViel95MWhWaUZGTnlfVEtJemhYeHdGT3dVWDZVLXRaMXJFVVloVUpjdVNLVGphcGN1OUJId0HSAZQBQVVfeXFMTS1nOXlGMzRxMzU3UVNxZVFoY2pxeEd5cDRDalJ4RWlYWFlrOWVkeklRTU1zX21wUGZ2Nnl2U3ZEdUZZVzJyN1RKRTdzcnNDck5lQVc3djhXVktJcjNiNzU0UjNLaVpxWnRZaktfYzd3Y0x5Uk1fdE1Rcmh4RTJKc0VydS1lekFFWW05U3Z6amdVMlVWbw?oc=5",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQZDhUTGlHYWpPT2NpYXNKRzEtRURoZmN5cHotUjlueTNsRDc4aUd3OHZSNlBlTkc3OEZNSExKaVFIZi1pSjA0Tk82cDNsd011cEY2aHZ6azBhUGx5andtSEZRcnZxWUlGX1ZGaExOTFAwV0l5VUd4ZndNX0hGeHl5TWhXNG9FSkV4V2ZQdDIyLTNQNDlHZDdBMms5M2MtZFRNSHhLRVZsZ0YyRDhKNnpUYlU1cjFvd05DTFZpZG5NX3VBMTEtTWphSUpQNG43eWRROGxnMHBpYUNjenQ4WUVkSTlDT21xNmV1QldvWjQ1SmhwTUJEekVjN25KSW80RjNkMmNzckRpMURreUpYbk9kTDNPZzBWZXdXdVZpekVn0gGTAkFVX3lxTE1iQUJleHl1VGdHSTR2RDBtYk1HS1lIV3JOUDJGS2FiQzN0M2loU29IdlNXYks1Nmo0LXNaTGJCOVdwclFpT2xISXhWMnBCOTA3YWtramhpdFRDaWlDbk5WczF4b0JqYjJHQ0V4WHJpMVVWRFBZQmR5ZG1aV3FOTjh2RVV1ZDNoMmowcEFBbUpJeTVrSkNFdHZhcEVmaDdlM1lVV2p6cDNyNWZ6X0FTLUlRbm1vRjZWLTgyak9oOGpwUkpBS0E1NkZuMlFPQ0tKYVQ1QlVUZnJZa0kyZk96Y3puYkdzQnNELU9vVzNweGpYWGZ6d3NwZ3c4eFl6Y1czQ0ZFVXQzbk5XMDBGM3l4TDlZeGVB?oc=5",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPYXNrYUYzSkNRMmpEcWRoWlZHRDFkU3R4MDZZVkltZlFMa0tnVEttSUs5QmcxQ25fWWVyYmFhUVBrWThSZTk1cldBOWlsaTh5dXgwQXcxbTQya0E3Q3lCSl9YY2c2RWt6dXVlRTNiVU1venZBWlprQnRYemVtS0dBTUlMcHRWM0VaNjRvbjB3ZUZqQm5Tb3k4aWFFdjZCbUtOLUJ2ajhNQi1qdFljb1ZGTy12LWdvR0QtNVkxbURBYkRkTE5pVnYxTWRWX0NuMjU4WnlsMVp2Yk5GVzd0UXVYWQ?oc=5",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdFFsazNEN0kwRnlXalJYUWdFaXpTSm1Iak55UDhtRjM4VzhoX19yNVN1eFV6NEU2bEl4VDlmdEhqS3FLUC15TlVfbGtVQnQtM3VKYkxxRGJsNWF1TnRtNkVoVmZ2MVlWUGlpNXZ6REhKUUpjdVh5cHNNSjZCQUU4NXBwdDc5R1owNWFvS3JKN2tET1cxOVJPcE0wa2xGWVBmNVlDVHB0OHlmVnJYd2JBSVdtSVY0cVNpYVBFY2VsUFFVdDlUaktWSVo0eW1wMjR10gHXAUFVX3lxTE9qdVZldklIZHRSSVdqWUpHSXJ0M1k2eXBCN1RBYmlSSkR6cFpTM29mMTZGcWFsa3R0b1lzWW9SSmJfakNJTG5RUzN6X29vZXBydjdsY3pwd0dlZF91Rnl0TlBhR1F0RGp4RFNLVjl1cHNhbEF0dGs5QUI5V0phRjE2eXphdFA1R0g3dGNmQ2IxZkFPMXZkT3FJWXhYdmRXSWJFYzF1WGZ3U2Zzdi0zdGhqTVNRMlZLMER5RFdIT19JSUxVdnZTQno1UW9IOEFoakEwMnVobHFn?oc=5",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONUNrYmF4NzRpLVY2bGRwaUNBSk9CSm1wRW15dzd1enBLUEZtdW5mVEkwTVllZkZqd1dYQjRGeVpFdVZ2LXgwV2pMcS1kenJLbjRha25NTm10NmJ6NlVCZXJhVVZjVW00YmFBNFJWNWh6d1piUng3Y1lXWVNPUDJyTzRmYWZZVmxFb3h2SV9WLTZkTmpQa000Tnoyd1RIVndURksyaUdzZVk0cFN2?oc=5",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTXhJVmJRREl2Mi1zdjBVTUNxWHdFOU5oZUZWNlFDbFVkcXBaUjVGMUxkc184ZzYtMG1KV0lvX2IwbFRKZm9nWW5LSUNGQ3NTaTI0eGJsN0lHdDE4c1VVNU1EUk9McGpKU21oNklQM2s5Qm1hMnZoWlZWNkdBVERici13cWtKWERvQjJPUEJhdlU3YzRxcFdrUDZUczAweTR2eTU4d2x1OVhMbkVNM0Q1Y0NfMnNxcGprQkI4OFN4RW9PQzExWmhybmlsZEFjYTBpeGZPNNIB2gFBVV95cUxNOXNIQVdHTlJIeVJ4blNqUjAwMWVsUGtuUHUwZHpLZE5YUHZ1WnNJT3BFX3RBa2pTZ0l6NFhKeVRHcDVzODUzX0xLWGlxZnp0UWpvbkFmQnBoTnVLdHE2UlhOenZBd3VYSmhCa3pCb3RmaUJTVnB0UnFxOGYxYk1CcVdHSWppdjJseUhTZU9BQUI3cWE1VzZ6MVdrRnVUczN3VEJ2N2p5Q3lLanRTaTBIUGtJVXVsOEhzX1l4M0pXeE9qdUxTcENlY0YtbXdtZU0wa1hvWURjUTNTQQ?oc=5",
+   "d": "2026-11-22",
+   "w": "duplicate"
   }
  ]
 }
