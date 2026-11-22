@@ -1383,7 +1383,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
   <div class="toast" id="toast" role="status"></div>
 </div>
 
-<script src="scenes.js?v=20261122a"></script>
+<script src="scenes.js?v=20261122b"></script>
 <script src="mandi.js?v=2"></script>
 <script>
 const CONFIG = {
@@ -2361,6 +2361,11 @@ function turn(el,from,to,axis,done){ const ms=Math.round(140+420*Math.abs(to-fro
   const t0=performance.now(), ease=x=>1-Math.pow(1-x,3);
   (function step(now){ const k=Math.min(1,(now-t0)/ms); bend(el,from+(to-from)*ease(k),axis); if(k<1) requestAnimationFrame(step); else done(); })(t0); }
 /* load the pictures of the shown card first, then the next three, so swiping never waits */
+/* card picture did not load (weak network, app update in progress): try again, twice, then once more when the phone is back online – so a card never stays an empty purple box (reported 22 Nov 2026) */
+document.addEventListener('error',e=>{ const im=e.target; if(!(im instanceof HTMLImageElement)) return; const u=im.getAttribute('src')||''; if(!/^\/art\//.test(u)) return;
+  const n=+(im.dataset.retry||0); if(n>=2){ im.dataset.failed='1'; return; } im.dataset.retry=n+1;
+  setTimeout(()=>{ im.src=u.split('?')[0]+'?r='+Date.now(); }, n?5000:1500); },true);
+addEventListener('online',()=>{ try{ document.querySelectorAll('#feed img[data-failed]').forEach(im=>{ im.removeAttribute('data-failed'); im.dataset.retry='1'; im.src=(im.getAttribute('src')||'').split('?')[0]+'?r='+Date.now(); }); }catch(e){} });
 function warmPics(i){ try{ for(let k=i;k<=i+3&&k<cards.length;k++){ const c=cards[k]; if(!c) continue; c.querySelectorAll('img[data-src]').forEach(im=>{ im.fetchPriority=k===i?'high':'low'; im.src=im.dataset.src; im.removeAttribute('data-src'); }); } }catch(e){} }
 function go(i,dir,from){
   if(i>=0) warmPics(Math.min(i,cards.length-1));
