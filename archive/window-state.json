@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T13:35:00+05:30",
+ "cutoff": "2026-11-22T14:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T17:35:00+05:30/2026-11-19T18:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 5,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 18:00 IST, 62/70 ok (failing: Vaartha, BIG TV, Telangana Today, NIE, PIB, district Nalgonda/Anakapalli/Sri Sathya Sai en), lookback 09:35. Published 5: Siasat Trump-Xi-Putin Shenzhen meeting (16:25), AndhraPravasi AP MPP lottery results (17:51), HMTV Nirmal AAP pension allegations (14:10, claim), Siasat HMDA Mokila registration hurdle (15:47), HMTV Nalgonda sanitation worker attacked (11:38, sensitive, claim). Skipped/old: Hans Ongole fishing nets fire (04:58), Hans Kadapa prices statement (05:26). Not opened: The Hindu (site blocked) Krishnapatnam 288 EVs and ANGRAU cyclone advisory; Disha Nalgonda; Eenadu Khammam (robots). District searches: Karimnagar, Adilabad/Nirmal, Prakasam, Khammam, Kadapa/Annamayya, Eluru/W Godavari, Nizamabad/Kamareddy, Nalgonda. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T18:05:00+05:30/2026-11-19T18:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 0,
    "gaps": "Lookback from 05:05 on 22 Nov. Feeds 13:17 IST, 68/68 ok; 12 new events since 13:05 plus older uncovered local events reviewed. add_repo not available; used existing clone. Published 4: Hans India KTR Jana Chaitanya Sabha Hanumakonda (05:13, late-found), Deccan Chronicle Jabardasth artists' car crash Palakoderu (13:24, no names), NewsMeter Hyderabad viral fever/dengue surge (13:09), NTV Pawan orders probe into Nagulaguttapalli sarpanch candidate death (12:55, sensitive, no name). Duplicates (already published 21 Nov): Vijayawada toy unit fire, Prakasam/Pelluru car crash 4 dead, Jagtial man stranded in Oman. Skipped: Rajasthan and Gujarat crashes (other state, no TG/AP link), Kurnool piracy gang (21 Nov), News18 two cyclones (dup of 09:05), celebrity/entertainment items. Not opened: Eenadu Kolkata-Hyderabad gold smuggling Rs 4 cr and Warangal Rs 2.12 lakh shed rent (searches returned only old pages), The Hindu SVVU Tirupati review. 4 district searches (Nalgonda, Khammam/Kothagudem, Srikakulam/Vizianagaram, Karimnagar/Peddapalli/Siddipet) gave only tag/old pages. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-22T13:35:00+05:30/2026-11-22T14:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 4,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 05:35 on 22 Nov. Feeds 13:43 IST (70/70 ok); 102 unseen uncovered events since 12:40 scanned by headline. add_repo not available; used existing clone. Published 4: TV9 AP December pensions on Nov 30/Dec 1 (13:04), ETV Bharat Samagra Shiksha-UNICEF survey 60% girls anaemic (13:36), NewsMeter Telugu Kakinada/Gandepalli two-car crash 2 dead (13:04, sensitive, no names; an embedded post gave 1 dead), Deccan Chronicle/PTI RS MP Ramrao Wadkute dies (13:42). Duplicates: Secunderabad Ranigunj RUB 6-8 month diversions (published 20 Nov), Vaartha pensions (27 Oct, old cycle). Skipped as old: Gulf News Azharuddin-UAE invite (17 Nov), Oneindia AI on highways (20 Mar). Not opened: ANI PAC meeting at Gandhi Bhavan with new AICC in-charge (fetch error), TV9 AP rice Rs 47, AJ Kadapa stone attack, News18 AgriGold, V6 farmer python (searches returned only old pages). check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6958,6 +6958,46 @@
    "url": "https://telanganatoday.com/seven-members-of-army-families-killed-in-gujarat-road-accident-pm-modi-offers-condolences-announces-ex-gratia",
    "d": "2026-11-22",
    "w": "skip"
+  },
+  {
+   "url": "https://tv9telugu.com/andhra-pradesh/ap-pensioners-good-news-december-ntr-bharosa-pensions-to-be-distributed-early-1964225.html",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/en/bharat/60-percent-of-girls-aged-15-to-19-in-andhra-pradesh-suffer-from-anemia-36-percent-adolescents-underweight-survey-reveals-enn26112201863",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.newsmeter.in/andhra-pradesh/horrific-chain-collision-on-kakinada-highway-captured-on-cctv-2-killed-3-seriously-injured-as-suv-swerves-to-avoid-elderly-biker-779766",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/nation/pm-modi-condoles-demise-of-bjp-rajya-sabha-mp-ramrao-wadkute-2006824",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/traffic-diversions-in-secunderabad-for-6-8-months-as-ranigunj-rub-renovation-begins-779729",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://vaartha.com/andhra-pradesh/ntr-bharosa-pensions-sec-green-signal-ap/796724/",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://gulfnews.com/sport/mohammed-azharuddin-invites-sheikh-nahyan-bin-mubarak-al-nahyan-to-telangana-1.500749964",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.oneindia.com/hyderabad/telangana-brings-ai-to-highways-hyderabad-vijayawada-nh-expansion-gets-major-boost-8033269.html",
+   "d": "2026-11-22",
+   "w": "skipped"
   }
  ]
 }
