@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T09:35:00+05:30",
+ "cutoff": "2026-11-22T10:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T13:35:00+05:30/2026-11-19T14:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 4,
-   "late": 4,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Feeds 13:47 IST, 70/70 ok, lookback 05:35, 267 uncovered TG/AP events in lookback. Published 4: ETV Bharat CMR paddy diversion 25 millers arrested (11:41, late), Hans Nizamabad turmeric Rs28,000 (05:45, late), Siasat Hyderabad semiconductor firm email spoofing (11:37, late), Siasat TG HC trafficking accused shelters (10:47, late). Skipped: DC CID Peddi Raju job fraud arrest (published 18 Nov 23:12, before lookback; Hindu 13:24 version not opened); Bandla Ganesh jail (first reported 18 Nov 20:23). Not opened (feed URLs refused, no search hit for this-run article): Hindu Rail Parcel App, Hindu Bapatla jewellers security, Hindu AP lorry VAHAN glitch, Hindu Shivakumar-Naidu cyclone help, V6 Akvan trains cancelled from Hyderabad, Telugu360 CBN three-region plan, Siasat Hyderabad student US shooting. No district searches (time). add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T14:05:00+05:30/2026-11-19T14:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 01:05 on 22 Nov. Feeds 09:16 IST, 68/68 ok; ~130 uncovered local events reviewed, most already covered under other links. add_repo not available; used existing clone. Published 2 from ETV Bharat live blogs: Tadipatri JC leaders' dharna (claim, sensitive), Iran F-16 claim / CENTCOM denial (claim). Duplicates of earlier stories: Ongole/Pelluru car crash (Hans 22 Nov follow-up), AP rice price caps (South First), Karimnagar BJP march, TG exports 68%, Shamshabad 1.049 kg wallet gold, Tirumala wait, NHM teams, mayors oath, Kotia arrests. Skipped: Miyapur BJP signature drive (18 Nov), SI hall tickets (covered 20 Nov with SI prelims), Chahal joins BJP (minor). Not opened: Telangana Today IRGC Bahrain (permission timeout), Hyderabad Mail Miyapur 386 acres, TOI AP rice caps, Hans RTO extortion Mahabubabad, HMTV Hindupur quacks, NIE cochlear implant Hanamkonda, Samayam OU Rs 1,000 cr, Adda247 526 asst professor posts (search found nothing). District searches (Adilabad, Nizamabad, Khammam, Srikakulam, Nellore, Anantapur, Warangal, Siddipet/Medak) returned only tag pages. check_news.py e/ key false errors and live-blog same-link duplicate as before; lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-22T09:35:00+05:30/2026-11-22T10:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 3,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 6,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 01:35 on 22 Nov. Feeds 09:59 IST, 70/70 ok; 91 uncovered events first seen since 09:00 reviewed. add_repo not available; used existing clone. Published 3: Siasat HYDRAA Sandapalli lake (09:44), V6 OU Rs 480 cr tenders (09:21), IANS Nepal PM visit (06:07). Skipped as too thin for a 36-word summary: Andhra Jyothy flash BRS Hanumakonda meeting (07:30), Governor at Puttaparthi convocation (07:37). Duplicates of earlier stories on live blogs: Karimnagar BJP march, KRMB meeting, pulse polio, NHM teams, Tirumala wait, Shamshabad gold. Not opened (search found nothing): V6 Siddipet medical college name, NIE HPV 95.28%, NIE Shanigaram Jain centre, Sakshi YSRCP leader kidnap claim, Oneindia Tirumala 121 kg gold, ETV Narsapur coin collection, DC Indonesia factory fire. No district searches this run. check_news.py e/ key false errors as before; news.json holds 116 stories (not trimmed by check); lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6598,6 +6598,41 @@
    "url": "https://education.sakshi.com/en/telangana-jobs/education-news/telangana-si-preliminary-exam-2026-november-29-hall-tickets-november-22-over-160-lakh-candidates-appear-202787",
    "d": "2026-11-22",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/hydraa-removes-encroachments-from-sandapalli-lake-in-rangareddy-3583684/",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/osmania-university-gets-%E2%82%B9480-crore-for-infrastructure-development-in-first-phase-",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://ianslive.in/nepal-pm-balendra-shah-to-arrive-in-india-today-on-two-day-state-visit-hold-talks-with-pm-modi-tomorrow--20261122060456",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-telangana-national-international-breaking-live-updates-of-22st-november-2026-3721.html",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hydraa-clears-encroachments-on-4-acres-of-shamshabads-sandapalli-cheruvu-erects-1600-metre-fence-2006735",
+   "d": "2026-11-22",
+   "w": "dup"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/telangana/osmania-university-tenders-floated-for-rs-480-crore-works-osmania-university-set-for-global-standa-515987.html",
+   "d": "2026-11-22",
+   "w": "dup"
+  },
+  {
+   "url": "https://english.punjabkesari.com/india/nepal-pm-balendra-shah-to-arrive-in-india-today-on-two-day-state-visit-hold-talks-with-pm-modi-tomorrow",
+   "d": "2026-11-22",
+   "w": "dup"
   }
  ]
 }
