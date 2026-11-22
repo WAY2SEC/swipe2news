@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T23:05:00+05:30",
+ "cutoff": "2026-11-22T23:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-20T08:05:00+05:30/2026-11-20T08:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 5,
-   "review": 0,
-   "gaps": "Feeds 08:17 IST, 68/68 ok, 791 TG/AP uncovered, lookback 00:05 (20 Nov). Published 2: TT HCU 30+ students ill (08:10, claim), Oneindia TTD Annaprasadam ₹3,100 cr (06:50). Duplicates: Hindu 90 medical shops notices, V6 Gandhi IVF (already covered). Skipped old: TT TG SAFE 6 licences (19 Nov 21:58), DC Vizag Bay-Tech City (19 Nov 18:07), ThePrint Malaysia visa-free end (19 Nov 16:47), Siasat KTR drought (1 Nov), DC Karimnagar hotel illness (older). Not reached: TV9 ORR car fire, V6 Pawan Kalyan house, V6 Sagar SE suspension, Hindu Srikakulam heavy rain, NT KTR vs Revanth, Prop News Future City ₹18,000 cr (searches did not surface). District searches only 2 (Karimnagar, Kurnool/Nandyal; tag pages). add_repo not available; used existing clone. build_previews touched index/sitemap - reverted."
-  },
   {
    "window": "2026-11-20T08:35:00+05:30/2026-11-20T09:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 14:35 on 22 Nov. Feeds 22:45 IST (68/70 ok). Uncovered events since 22:00 scanned by headline, ~20 searched. add_repo tool not available; used existing clone. Published 7: DC Tirupati DGP conference prep (22:18), DC KSEZ data centre surveys (22:23, claim), DC UoH sit-in day 4 (22:05, claim, sensitive), DC Indiramma Sookthulu book (22:30), NTV TDP 66 civic posts list (22:11), ThePrint/PTI Tiruchirappalli crash 8 dead (19:47, late, sensitive), ETV Bharat COP31 no deal (22:09). Skipped as old: Cyclone Akvan crossing (News On AIR item is from 20 Nov), TT/IANS Pawan probe into Pulivendula activist death (14:15, before lookback). Duplicates: Revanth 90 seats (PCC meeting story 20:05), Siasat Bisleri (21:35 story). Not opened (direct feed URLs: fetch permission timeout): The Hindu Botcha-Governor, Pulivendula death, oil palm AB lines, Peddapalli Rotary, taekwondo medals, Vizag nursing walk; Telangana Today Trichy; Siasat COP31; Deccan Herald COP31 (client error). Search did not return: DC HYDRAA Krishna Kanth Park lake (22:37), DC 1.69 lakh farmers loan waiver. No district searches this run. Archive check: pre-existing duplicate Tirumala sarvadarshan link (#108/#126). lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-22T23:05:00+05:30/2026-11-22T23:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 15:05 on 22 Nov. Feeds 23:29 IST (68/68 ok). 71 uncovered events since 22:30 scanned, ~25 searches incl. 8 district searches (no fresh results). add_repo tool not available; used existing clone. Published 3: DC Yemmiganur ZPTC ballots in garbage (23:13, claim, sensitive), ETV Bharat IRC concludes Hyderabad (22:50), TT/IANS NCS ONE portal (23:02). Skipped old: DC Akvan remnants TG rain (21 Nov 23:55). Duplicates: KTR Warangal KCR return (19:05 story), Sharmila Bengaluru (20:05), Hyderabad bomb threat (20:35). Not opened (direct feed URLs refused / not in search): The Hindu Vizag Beach Road data-centre rally, The Hindu natural childbirth walkathon; search did not return: DC Rayalaseema rain, DC SEC polling station merger, DC GCC coffee, DC Srihari-Rajaiah, TOI Vizag Davos, DC Prathap Reddy TiE award, DC grievance redressal suspended. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7826,6 +7826,36 @@
   },
   {
    "url": "https://aninews.in/news/national/general-news/cyclone-akvan-crosses-north-andhra-pradesh-south-odisha-coast-near-gopalpur-to-weaken-into-deep-depression20261120105926/",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/bundle-of-zptc-ballot-papers-found-in-garbage-heap-near-counting-centre-2006964",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/85th-indian-roads-congress-concludes-successfully-in-hyderabad-tgs26112205269",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/centre-unveils-ncs-one-platform-occupational-shortage-index-912566e1",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/cyclone-akvan-remnants-unlikely-to-bring-widespread-rain-to-telangana-2006739",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-on-high-alert-after-2611-style-bomb-threat-email-2006901",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/pgrs-suspended-temporarily-1142847",
    "d": "2026-11-22",
    "w": "skipped"
   }
