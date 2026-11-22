@@ -11,7 +11,7 @@ Exit code 1 when a story still has a blocking problem (ERROR), so the newsroom f
 import json, re, sys, os
 HARD_WORDS = {'పట్టివేత': 'పట్టుకున్నారు', 'స్వాధీనం': 'పట్టుకున్నారు', 'లభ్యం': 'దొరికింది', 'నిలిపివేత': 'ఆపేశారు', 'పునరుద్ధరణ': 'మళ్లీ మొదలు', 'ఉల్లంఘన': 'నిబంధనలు పాటించలేదు', 'తొలగింపునకు': 'తీసేయాలని', 'జననం': 'పుట్టారు', 'ఆచూకీ': 'దొరికింది / కనిపించలేదు', 'నిమిత్తం': 'కోసం', 'పరిశీలన': 'చూశారు / తనిఖీ', 'ప్రారంభోత్సవం': 'ప్రారంభం', 'శంకుస్థాపన': 'పనులకు పునాది', 'వేర్పాటు': 'విడిగా ఉన్న', 'ఉపసంహరణ': 'వెనక్కి తీసుకున్నారు', 'దుర్మరణం': 'మృతి', 'అస్వస్థత': 'అనారోగ్యం', 'ఆకస్మిక': 'హఠాత్తుగా', 'సమీక్షా సమావేశం': 'సమీక్ష'}
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PIC_RX = re.compile(r'^(c|o|i|n|s|cv|w|d)/([a-z0-9-]+)$')
+PIC_RX = re.compile(r'^(c|o|i|n|s|cv|w|d|e|m)/([a-z0-9-]+)$')
 def pic_ok(pc):
     m = PIC_RX.match(pc or '')
     return bool(m) and any(os.path.exists(os.path.join(ROOT, 'art', m.group(1), m.group(2) + e)) for e in ('.webp', '.jpg'))
