@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T07:05:00+05:30",
+ "cutoff": "2026-11-22T07:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T11:05:00+05:30/2026-11-19T11:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 1,
-   "published": 1,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 5,
-   "review": 0,
-   "gaps": "Feeds 11:15 IST, 68/68 ok, lookback 03:05, ~845 uncovered events in lookback. Published 1: NewsMeter Telugu Indiramma Kutumba Jeevitha Bima launch in Siddipet (07:39, late). Duplicates: Siasat pod-car/PRT network (covered 18 Nov), Siasat trafficking shelters HC (covered 18 Nov). Skipped: DC pulse polio Nov 22 (13 Nov, before lookback), DC Jagan fee reimbursement (17 Nov), DC Revanth insurance order (17 Nov), Outlook antimicrobial blue strip (Jan 2026), ANN North Korea enrichment (2022), Hans gold rates (2019). Not found by search: News18 Hyderabad pulse polio, News18 Pochampally QR saree, Samayam TIDCO loans, AP7AM Sabarimala appeal, V6 Kondagattu ghat road. District searches not run. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T11:35:00+05:30/2026-11-19T12:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 22:35 on 21 Nov. Feeds 06:55 IST, 70/70 ok; 90 uncovered events first seen since 06:00 reviewed (mostly NIE Sunday features, Eenadu-only items, sport live blogs). add_repo not available; used existing clone. Published 6: Hans Vizag GP nominations (06:23), Hans Vizag Junior Literary Fest (06:22), Hans laptops for visually impaired students (06:25), Hans Puttaparthi Divya Nama Smarana (06:44), Deccan Chronicle Simhachalam dress code (01:19, late-found), Siasat Bahrain/Iran strikes (04:19, claim, sensitive, late-found). Skipped old: Surrey Walmart shooting (first reports 21 Nov afternoon). Not opened: ANI Iran-Bahrain (client error; Siasat used), Oneindia Telugu TG SSC exam schedule, Andhrajyothy Telangana $1 trillion, Hans CWRT-NMC water inspection, Federal Yelahanka Palace court move, Eenadu Anantapur items. check_news.py reports every e/ picture key as 'not in pictures.md' because its PIC_RX omits 'e' (pictures exist in art/e); left as is."
+  },
+  {
+   "window": "2026-11-22T07:05:00+05:30/2026-11-22T07:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 4,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 23:05 on 21 Nov. Feeds 07:12 IST, 70/70 ok; 55 uncovered events first seen since 06:30 reviewed. add_repo not available; used existing clone. Published 4: V6 pulse polio in 5 districts (07:14), HMTV Mancherial fake death certificates 5 arrested (07:02, police, sensitive), Oneindia TG Class 10 exams proposed from March 18 (06:39, forecast), AP/ABC Pant century NZ Test (approx 06:01, page time without zone). Skipped old: Hans TG SI hall tickets (20 Nov), H5N1 poultry vaccine launch (20 Nov). Skipped: ETV live-blog AICC in-charge visit (party meeting). Not opened/not tried: Andhrajyothy $1 trillion, prime9 OU Rs 1000 cr (search found only 2025 items), Disha rented offices. District searches (Nalgonda, Kurnool) returned only tag pages. Lang pages, index.html and sitemap.xml reverted; check_news.py e/ key false errors as before."
   }
  ],
  "seen": [
@@ -6286,6 +6286,36 @@
   },
   {
    "url": "https://www.deccanherald.com/world/two-indian-origin-persons-killed-in-targeted-shooting-outside-canada-walmart-report-4226591",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.v6velugu.com/-telangana-launches-special-pulse-polio-campaign-across-five-districts-",
+   "d": "2026-11-22",
+   "w": "p"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/manchiryal-asifabad/five-arrested-in-fake-death-certificate-racket-sanitary-inspector-absconding-215685",
+   "d": "2026-11-22",
+   "w": "p"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/telangana/telangana-ssc-exams-2027-likely-to-begin-on-march-17-or-18-as-proposals-submitted-to-the-govt-515967.html",
+   "d": "2026-11-22",
+   "w": "p"
+  },
+  {
+   "url": "https://abcnews.com/Sports/wireStory/pant-reaches-100-india-tightens-control-1st-test-138351454",
+   "d": "2026-11-22",
+   "w": "p"
+  },
+  {
+   "url": "https://www.thehansindia.com/telangana/telangana-si-hall-tickets-to-be-available-from-22-november-1144014",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--22nd-november-2026-latest-top-news-information-across-telangana-tgs26112200403",
    "d": "2026-11-22",
    "w": "skipped"
   }
