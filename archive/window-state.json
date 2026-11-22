@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T17:05:00+05:30",
+ "cutoff": "2026-11-22T17:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T21:05:00+05:30/2026-11-19T21:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 7,
-   "published": 6,
-   "late": 0,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Feeds 21:23 IST, 68/68 ok, lookback 13:05. Published 6: Telangana Today Uttam Sagar 1.8 TMC (20:33), Andhra Jyothy KRMB letter on new projects (20:52), Deccan Chronicle WHO teams Siddipet/Alwal (21:29), ManaSakshi Narayanpet Jajapur tiger (20:37, sensitive, claim), News Mill/ANI Adibatla Ayyappa protest (21:21, sensitive, claim), News Mill/ANI Revanth $3tn Telangana Rising (21:20). Skipped old: Hans India Kurnool NDA clash (6 Nov); Asianet Anakapalli cyclone review (28 Oct); Cheyutha pensions part already covered. Not opened (direct URLs refused without search; not indexed yet): The Hindu APRCET notification, Adilabad donkey/goat theft, Protolabs GCC, Rs10,000 explosion aid, ASR SAATHI, VSU-FSME; Telangana Today headmasters vocational courses. District searches thin: Kamareddy, Jagtial, Kurnool, Nellore, Kadapa, Mahabubabad, Anantapur, Vizianagaram. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T21:35:00+05:30/2026-11-19T22:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 1,
    "gaps": "Lookback from 08:35 on 22 Nov. Feeds 16:58 IST (70/70 ok); 134 unseen uncovered events since 15:45 scanned by headline. add_repo tool not available; used existing clone. Published 6: Siasat Siddipet medical institutions renamed after Madan Mohan (16:32), Telangana Today KNRUHS BHMS management quota reopened (16:42), TT Naskal leopard (16:51), NewsMeter Congress PAC resolutions (16:43), TT AIASCT black badge protest (16:39), ETV Bharat Amalapuram Vision Access (16:36). Duplicates: AP rice price caps (TV9/BigTV; published 21 Nov), Hans India PAC curtain-raiser (merged into PAC story). Skipped: Oneindia Secunderabad Ranigunj RUB traffic curbs (announced 18 Nov, old), Sakshi Modi skill convocation (Saturday speech; time zone not verifiable -> review), entertainment/gossip items. Not searched this run (left for next runs): The Hindu Revanth Simon Commission-SIR remark, Kadapa stone pelting, Suryaa single-source items, Kyiv strike (search returned only May articles). No district searches this run. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-22T17:05:00+05:30/2026-11-22T17:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 1,
+   "published": 1,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 6,
+   "review": 0,
+   "gaps": "Lookback from 09:05 on 22 Nov. Feeds 17:12 IST (70/70 ok). add_repo tool not available; used existing clone. WebFetch refused direct feed URLs (provenance) for The Hindu Revanth Simon Commission-SIR and Telangana Today women in crime networks; search did not return them -> not opened. Published 1: Siasat Bahrain Iranian attacks two injured (17:11). Skipped: ToI C-section (NFHS-6 data from May, not new), Adda247 526 asst professor posts (Telangana Today reported 13 Nov), Moneycontrol India-EU FTA Dec 16 (announced Sept), DC/Hans Indiramma insurance (21 Nov, before lookback), Munsif Naini-KTR (fetch failed), Hyderabad packing fire (Eenadu only via Google; not found at other outlets). 6 district searches returned only old/tag pages. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7273,6 +7273,26 @@
    "url": "https://telanganatoday.com/ranigunj-rub-revamp-traffic-restrictions-diversions-from-november-20",
    "d": "2026-11-22",
    "w": "skip"
+  },
+  {
+   "url": "https://www.siasat.com/two-injured-in-iranian-attacks-on-bahrain-one-of-them-critical-3584013/",
+   "d": "2026-11-22",
+   "w": "2026-11-22T17:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/guidelines-stipulate-one-indiramma-insurance-cover-per-ration-card-2006713",
+   "d": "2026-11-22",
+   "w": "2026-11-22T17:35"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/warangal/every-eligible-family-to-receive-rs-5l-life-insurance-mla-gandra-1144220",
+   "d": "2026-11-22",
+   "w": "2026-11-22T17:35"
+  },
+  {
+   "url": "https://thesouthfirst.com/health/nfhs-6-reveals-southern-states-dominating-c-section-landscape-telangana-tops-nation/",
+   "d": "2026-11-22",
+   "w": "2026-11-22T17:35"
   }
  ]
 }
