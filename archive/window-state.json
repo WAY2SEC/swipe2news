@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T20:05:00+05:30",
+ "cutoff": "2026-11-22T20:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-20T05:05:00+05:30/2026-11-20T05:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "Feeds 05:12 IST, 70/70 ok, lookback 21:05 (19 Nov). Published 2: DC Palamaner car hits women drying paddy, 3 dead (00:28, sensitive), DC Kadapa ZP chairperson poll at 1 pm (00:25). Duplicate: TG Inter 2027 schedule (published 19 Nov). Skipped old: DC Cyclone Akvan live blog (19 Nov 08:01), Siasat Akvan TG rain (17 Nov), DC Tirupati ZP aspirants (18 Nov), TT antibiotics (2024). Search did not surface: APSRTC outsourced staff (Hindu), Sircilla KGBV aviation olympiad, Adilabad donkey theft, Google AI tools Vizag, Ponnam Husnabad merger, NTR district 16 MPPs, Asifabad medical students protest, Hanumakonda KUDA office, Bangladesh unrest, Akvan Hyderabad train cancellations. site-restricted searches rejected by proxy. No district searches (time). add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-20T05:35:00+05:30/2026-11-20T06:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 11:35 on 22 Nov. Feeds 19:56 IST (70/70 ok); 318 unseen uncovered events since 17:30 scanned by headline, 13 opened via search. add_repo tool not available; used existing clone. Published 3: ETV Bharat Revanth TPCC meeting (19:24), South First Sharmila stopped at Yelahanka (19:40), Mana Telangana Sharjah royal invited to summit (19:13). Duplicates: AP DSC 2,111 teacher posts (published 19 Nov), AgriGold bond verification schedule (published 21 Nov). Skipped as old: TV9 Leonid meteor shower video (event 17-18 Nov). Not opened: The Hindu items not found in search (police brass/pipe bands, Ambedkar Open University AP, CPI(M) on Odisha police, Kawal migratory birds, SIMS Ramagundam CPR, IITH half marathon); Disha AP cabinet meeting postponed (fetch error). check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-22T20:05:00+05:30/2026-11-22T20:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 2,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 12:05 on 22 Nov. Feeds 20:11 IST (70/70 ok); 421 unseen uncovered events since 17:00 scanned by headline, ~25 searched. add_repo tool not available; used existing clone. Published 2: NTV Telugu Hyderabad threat email declared fake by police (20:00, follow-up to 19:05 story), Gulf Today/WAM Nigeria boat capsize 24 dead (13:11 IST). Skipped as old: TGCSB Kurnool piracy arrests (Siasat/TT 21 Nov 17:07), Hyderabad pod-car PRTS (19 Nov), Guntur MTMC poll arrangements (17 Nov). Duplicates: Revanth PAC/high command (TPCC story 20:05), Chevella murder arrest (19:35), AP mayors oath (08:35). Not opened: Disha Khammam 2-day water shutdown (client error), US News Nigeria (client error); search did not return: TOI forest guard PST, The Hindu BRS on Inter abolition, Kawal birds, Jagtial eye exams, Srikakulam debutants, TV9 Kurnool theatre cameras, Kishan Reddy-Prabhas, Nagole theft attempt, Komuravelli rooms, DCM fire. ETV Bharat live blogs had no entries after 16:44. 8 district searches (Nalgonda, Karimnagar, Nizamabad, Khammam, Siddipet, Vizianagaram, Anantapur, Guntur) gave only tag pages. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7578,6 +7578,26 @@
    "url": "https://tv9telugu.com/videos/hyderabad-sky-dazzles-with-leonid-meteor-shower-amateur-astronomers-capture-rare-event-video-tv9d-1964347.html",
    "d": "2026-11-22",
    "w": "2026-11-22T20:05"
+  },
+  {
+   "url": "https://ntvtelugu.com/news/hyderabad-terror-threat-email-fake-1037889.html",
+   "d": "2026-11-22",
+   "w": "2026-11-22T20:35"
+  },
+  {
+   "url": "https://www.gulftoday.ae/news/2026/11/22/24-dead-after-boat-capsizes-in-nigeria",
+   "d": "2026-11-22",
+   "w": "2026-11-22T20:35"
+  },
+  {
+   "url": "https://www.usnews.com/news/world/articles/2026-11-22/death-toll-from-nigeria-boat-accident-rises-to-24",
+   "d": "2026-11-22",
+   "w": "2026-11-22T20:35"
+  },
+  {
+   "url": "https://hyderabadmail.com/kurnool-students-arrested-movie-piracy-tgcsb/",
+   "d": "2026-11-22",
+   "w": "2026-11-22T20:35"
   }
  ]
 }
