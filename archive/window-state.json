@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T06:35:00+05:30",
+ "cutoff": "2026-11-22T07:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T10:35:00+05:30/2026-11-19T11:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 7,
-   "published": 4,
-   "late": 2,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Feeds 11:02 IST, 70/70 ok, lookback 02:35, ~975 uncovered events in lookback. Published 4: AJ Siddipet BRS detentions/Harish Rao (08:49, late, claim; NT 10:52 same event), DC Amberpet biryani 9 ill (10:47, claim), TT Singoor HC plea (10:29), Siasat 7,154 fewer domestic flights (10:31). Duplicate: NT Siddipet detentions (same event). Skipped: Bandla Ganesh jail (18 Nov 20:23, before lookback); Yadadri unit 5 (synchronised in Oct, not new). Not opened (WebFetch permission timeouts): Siasat trafficking-shelters HC ruling, TT EPFO withdrawals, Siasat Anthropic IPO; NIE email spoofing / borewells, CESS debt study, Sabarimala appeal, Bejjur bus, AJ MDMA arrest not found by search. District searches not run. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T11:05:00+05:30/2026-11-19T11:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 22:05 on 21 Nov. Feeds 06:11 IST, 70/70 ok; ~45 uncovered events first seen since 05:30 reviewed, mostly NIE Sunday features, Eenadu-only items, opinion and health pieces. add_repo not available; used existing clone. Nothing published. Duplicate: Hans AICC summons Raj Gopal Reddy (00:41; published 21 Nov 14:05 from ETV Bharat). Skipped old: NewsOnAir Nepal PM visit preview (20 Nov). Skipped: Kolusu campaign (party campaign), TiE50 startup award (promotional), Nagar Kirtan photo caption. Not opened: India TV and Cricinfo India-NZ Test (fetch client error), Sportstar live blog, Eenadu items (Nellore 20 unanimous panchayats, Vizianagaram items, COP31). 8 district searches returned only tag/listing pages."
+  },
+  {
+   "window": "2026-11-22T06:35:00+05:30/2026-11-22T07:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 6,
+   "late": 2,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 22:35 on 21 Nov. Feeds 06:55 IST, 70/70 ok; 90 uncovered events first seen since 06:00 reviewed (mostly NIE Sunday features, Eenadu-only items, sport live blogs). add_repo not available; used existing clone. Published 6: Hans Vizag GP nominations (06:23), Hans Vizag Junior Literary Fest (06:22), Hans laptops for visually impaired students (06:25), Hans Puttaparthi Divya Nama Smarana (06:44), Deccan Chronicle Simhachalam dress code (01:19, late-found), Siasat Bahrain/Iran strikes (04:19, claim, sensitive, late-found). Skipped old: Surrey Walmart shooting (first reports 21 Nov afternoon). Not opened: ANI Iran-Bahrain (client error; Siasat used), Oneindia Telugu TG SSC exam schedule, Andhrajyothy Telangana $1 trillion, Hans CWRT-NMC water inspection, Federal Yelahanka Palace court move, Eenadu Anantapur items. check_news.py reports every e/ picture key as 'not in pictures.md' because its PIC_RX omits 'e' (pictures exist in art/e); left as is."
   }
  ],
  "seen": [
@@ -6238,6 +6238,56 @@
    "url": "https://www.indiatvnews.com/sports/cricket/rishabh-pant-slams-exceptional-century-achieves-massive-feat-with-brilliant-knock-against-new-zealand-2026-11-22-1060057",
    "d": "2026-11-22",
    "w": "06:35"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/gp-election-process-begins-in-visakhapatnam-district-1144590",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/books-bolster-childrens-thinking-power-and-creativity-union-minister-1144589",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/27-laptops-11-smartphones-presented-to-visually-impaired-students-1144591",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/anantapur/divya-nama-smarana-begins-in-puttaparthi-1144604",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/simhachalam-temple-to-enforce-dress-code-from-dec-1-2006770",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/andhrapradesh/simhachalam-temple-dress-code-from-dec-1-no-entry-in-jeans-or-t-shirts-215683",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/two-us-radar-sites-targeted-in-bahrain-industrial-facility-hit-3583633/",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://aninews.in/news/world/middle-east/iran-claims-missile-and-drone-strikes-targeted-us-patriot-air-defence-radars-at-bahrain-bases20261122040017/",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://thefederal.com/category/international/canada-shooting-two-indian-origin-people-killed-police-suspect-target-killing-263680",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanherald.com/world/two-indian-origin-persons-killed-in-targeted-shooting-outside-canada-walmart-report-4226591",
+   "d": "2026-11-22",
+   "w": "skipped"
   }
  ]
 }
