@@ -1,8 +1,408 @@
 {
  "date": "22.11.2026",
- "updated": "2026-11-22T22:35:00+05:30",
+ "updated": "2026-11-22T23:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "ఏపీ · తిరుపతి",
+   "col": "--c-gov",
+   "art": "unity",
+   "pic": "e/community-police-meeting",
+   "stat": "డిసెంబర్ 4–6",
+   "statl": "డీజీపీల సదస్సు",
+   "h": "తిరుపతిలో డీజీపీల సదస్సుకు ఏర్పాట్లు",
+   "p": "డిసెంబర్ 4 నుంచి 6 వరకు తిరుపతిలో జరిగే జాతీయ డీజీపీ, ఐజీపీల సదస్సుకు జిల్లా యంత్రాంగం ఏర్పాట్లు చేస్తోంది. ఢిల్లీ బయట ఈ సదస్సు జరగడం ఇదే మొదటిసారి. ప్రధాన వేదిక ఐసర్ తిరుపతి. కలెక్టర్ వెంకటేశ్వర్ ఆదివారం అధికారులతో సమావేశమై, పనులు సమయానికి పూర్తి చేయాలని చెప్పారు. 200 మందికి పైగా ఐపీఎస్ అధికారులు వస్తారని అంచనా.",
+   "pts": [
+    "ప్రధాని మోదీ, అమిత్ షా హాజరవుతారని అంచనా",
+    "ఇంటెలిజెన్స్ బ్యూరో నుంచి సుమారు 200 మంది అధికారులు",
+    "కలెక్టరేట్, వేదికల వద్ద కంట్రోల్ రూమ్‌లు పెడతారు"
+   ],
+   "why": "దేశ స్థాయి పోలీసు సదస్సు తిరుపతిలో జరగడం నగరానికి, జిల్లా యంత్రాంగానికి పెద్ద బాధ్యత.",
+   "next": "సదస్సు డిసెంబర్ 4 నుంచి 6 వరకు జరుగుతుంది",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/tirupati-gearing-up-for-first-national-dgps-igps-conference-outside-delhi-2006941",
+   "sec": [
+    "telangana",
+    "india"
+   ],
+   "st": "AP",
+   "place": "ap-tirupati",
+   "loc": "తిరుపతి",
+   "pub": "2026-11-22T22:18+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Tirupati",
+    "stat": "December 4–6",
+    "statl": "DGPs' conference in Tirupati",
+    "loc": "Tirupati",
+    "h": "Tirupati prepares for DGPs' conference",
+    "p": "The Tirupati district administration is preparing for the national conference of DGPs and IGPs from December 4 to 6. It is the first time the meet is being held outside Delhi. The main venue is IISER Tirupati. Collector Venkateswar met officials on Sunday and told them to finish the work on time. More than 200 IPS officers are expected.",
+    "pts": [
+     "PM Modi and Amit Shah are expected to attend",
+     "About 200 Intelligence Bureau officials expected",
+     "Control rooms at the Collectorate and venues"
+    ],
+    "why": "Hosting a national police conference is a big responsibility for the city and the district administration.",
+    "next": "The conference runs from December 4 to 6"
+   },
+   "hi": {
+    "cat": "आंध्र · तिरुपति",
+    "stat": "4–6 दिसंबर",
+    "statl": "तिरुपति में डीजीपी सम्मेलन",
+    "loc": "तिरुपति",
+    "h": "तिरुपति में डीजीपी सम्मेलन की तैयारी",
+    "p": "तिरुपति ज़िला प्रशासन 4 से 6 दिसंबर तक होने वाले डीजीपी और आईजीपी के राष्ट्रीय सम्मेलन की तैयारी कर रहा है। यह सम्मेलन पहली बार दिल्ली के बाहर हो रहा है। मुख्य स्थल आईसर तिरुपति है। कलेक्टर वेंकटेश्वर ने रविवार को अधिकारियों के साथ बैठक की और काम समय पर पूरा करने को कहा। 200 से अधिक आईपीएस अधिकारियों के आने की उम्मीद है।",
+    "pts": [
+     "प्रधानमंत्री मोदी और अमित शाह के आने की उम्मीद",
+     "इंटेलिजेंस ब्यूरो के करीब 200 अधिकारी आएँगे",
+     "कलेक्टरेट और स्थलों पर कंट्रोल रूम बनेंगे"
+    ],
+    "why": "राष्ट्रीय पुलिस सम्मेलन की मेज़बानी शहर और ज़िला प्रशासन के लिए बड़ी ज़िम्मेदारी है।",
+    "next": "सम्मेलन 4 से 6 दिसंबर तक चलेगा"
+   },
+   "d": "22.11.2026",
+   "t": "23:05"
+  },
+  {
+   "cat": "ఏపీ · కాకినాడ",
+   "col": "--c-money",
+   "art": "land",
+   "pic": "e/industrial-production",
+   "stat": "700 ఎకరాలు",
+   "statl": "డేటా సెంటర్ ప్రతిపాదన",
+   "h": "కాకినాడ సెజ్‌లో డేటా సెంటర్ కోసం సర్వేలు",
+   "p": "కాకినాడ సెజ్‌లో డేటా సెంటర్ ఏర్పాటు కోసం కన్సల్టెంట్లు భూములను పరిశీలిస్తున్నారు. దీని కోసం సుమారు 700 ఎకరాలు కేటాయించినట్లు సమాచారం. రెండు మూడు సంస్థలు ముందుకు వచ్చాయని, ఇంకా ఏదీ ఖరారు కాలేదని సెజ్ సీఈవో రామిరెడ్డి చెప్పారు. భూగర్భ జలాలు తగ్గుతాయని, స్థానికులకు ఉద్యోగాలు తక్కువగా వస్తాయని రైతులు ఆందోళన చెబుతున్నారు.",
+   "pts": [
+    "సెజ్ గతంలో సుమారు 8,000 ఎకరాలు సేకరించింది",
+    "90 శాతం భూమి 20 ఏళ్లుగా ఖాళీగా ఉందని స్థానికులు",
+    "మడ అడవులపై అధ్యయనం కావాలని నిపుణుడి సూచన"
+   ],
+   "why": "యు.కొత్తపల్లి, తొండంగి మండలాల రైతులు, భూములు ఇచ్చిన కుటుంబాలపై దీని ప్రభావం ఉంటుంది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/surveys-under-way-for-data-centre-at-ksez-2006943",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "AP",
+   "place": "ap-kakinada",
+   "loc": "యు.కొత్తపల్లి, తొండంగి",
+   "pub": "2026-11-22T22:23+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "AP · Kakinada",
+    "stat": "700 acres",
+    "statl": "reportedly set aside for data centre",
+    "loc": "U. Kothapalli, Thondangi",
+    "h": "Surveys on for data centre at Kakinada SEZ",
+    "p": "Consultants are studying land in the Kakinada SEZ for a proposed data centre. About 700 acres have reportedly been set aside for it. SEZ CEO Rami Reddy said two or three firms have come forward and nothing is final yet. Farmers fear groundwater levels will fall and say a data centre will bring few jobs for local people.",
+    "pts": [
+     "The SEZ earlier acquired about 8,000 acres",
+     "Locals say 90% of the land has lain unused for 20 years",
+     "An expert wants a study on mangroves first"
+    ],
+    "why": "It affects farmers and land-giving families in U. Kothapalli and Thondangi mandals."
+   },
+   "hi": {
+    "cat": "आंध्र · काकीनाडा",
+    "stat": "700 एकड़",
+    "statl": "डेटा सेंटर के लिए तय होने की खबर",
+    "loc": "यू. कोत्तापल्ली, तोंडंगी",
+    "h": "काकीनाडा सेज़ में डेटा सेंटर के लिए सर्वे",
+    "p": "काकीनाडा सेज़ में प्रस्तावित डेटा सेंटर के लिए सलाहकार ज़मीन की जाँच कर रहे हैं। खबर है कि इसके लिए करीब 700 एकड़ ज़मीन तय की गई है। सेज़ के सीईओ रामी रेड्डी ने कहा कि दो-तीन कंपनियाँ आगे आई हैं और अभी कुछ तय नहीं है। किसानों को डर है कि भूजल घटेगा और स्थानीय लोगों को कम नौकरियाँ मिलेंगी।",
+    "pts": [
+     "सेज़ ने पहले करीब 8,000 एकड़ ज़मीन ली थी",
+     "स्थानीय लोग: 90% ज़मीन 20 साल से खाली",
+     "विशेषज्ञ ने मैंग्रोव पर अध्ययन की माँग की"
+    ],
+    "why": "इसका असर यू. कोत्तापल्ली और तोंडंगी मंडलों के किसानों और ज़मीन देने वाले परिवारों पर पड़ेगा।"
+   },
+   "d": "22.11.2026",
+   "t": "23:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · విద్య",
+   "col": "--c-city",
+   "art": "campus",
+   "pic": "e/peaceful-public-protest",
+   "stat": "నాలుగో రోజు",
+   "statl": "విద్యార్థుల నిరసన",
+   "h": "హైదరాబాద్ వర్సిటీలో విద్యార్థుల నిరసన",
+   "p": "హైదరాబాద్ యూనివర్సిటీలో విద్యార్థుల నిరవధిక నిరసన ఆదివారం నాలుగో రోజుకు చేరింది. చరిత్ర విభాగం అధ్యాపకుడు ఒకరు కులం పేరుతో అవమానకర వ్యాఖ్యలు చేశారని విద్యార్థి సంఘం ఆరోపిస్తోంది. ఆయనను తొలగించాలని అంబేద్కర్ స్టూడెంట్స్ అసోసియేషన్ కోరుతోంది. విచారణ జరుగుతున్నా ఆలస్యం అవుతోందని, చర్యలు తీసుకునే వరకు నిరసన ఆగదని విద్యార్థులు చెప్పారు.",
+   "pts": [
+    "నిరసన గురువారం సోషల్ సైన్సెస్ స్కూల్ ముందు మొదలైంది",
+    "రోజూ 30–40 మంది ఉంటున్నారని విద్యార్థి సంఘం",
+    "తమిళనాడు మంత్రి ఈ అంశాన్ని సీఎం రేవంత్‌కు చెప్పారు"
+   ],
+   "why": "వర్సిటీల్లో వివక్ష ఫిర్యాదులపై విచారణ ఎంత త్వరగా జరుగుతుందన్నది విద్యార్థులందరికీ ముఖ్యం.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/uoh-students-sit-in-enters-day-4-over-professors-alleged-casteist-remarks-2006934",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "హైదరాబాద్ యూనివర్సిటీ",
+   "pub": "2026-11-22T22:05+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Hyderabad · Education",
+    "stat": "Day 4",
+    "statl": "of UoH students' protest",
+    "loc": "University of Hyderabad",
+    "h": "UoH students' sit-in enters fourth day",
+    "p": "An indefinite sit-in by University of Hyderabad students entered its fourth day on Sunday. The Students' Union alleges that a History faculty member made casteist remarks. The Ambedkar Students' Association wants him removed. Students said an inquiry is on but is being delayed, and the protest will continue until the administration acts.",
+    "pts": [
+     "The protest began Thursday outside the School of Social Sciences",
+     "The union says 30–40 students are present daily",
+     "A Tamil Nadu minister raised the issue with CM Revanth"
+    ],
+    "why": "How quickly discrimination complaints on campuses are probed matters to all students."
+   },
+   "hi": {
+    "cat": "हैदराबाद · शिक्षा",
+    "stat": "चौथा दिन",
+    "statl": "यूओएच छात्रों का धरना",
+    "loc": "हैदराबाद विश्वविद्यालय",
+    "h": "यूओएच में छात्रों का धरना चौथे दिन भी जारी",
+    "p": "हैदराबाद विश्वविद्यालय में छात्रों का अनिश्चितकालीन धरना रविवार को चौथे दिन में पहुँच गया। छात्र संघ का आरोप है कि इतिहास विभाग के एक शिक्षक ने जातिसूचक टिप्पणियाँ कीं। अंबेडकर स्टूडेंट्स एसोसिएशन उन्हें हटाने की माँग कर रहा है। छात्रों ने कहा कि जाँच चल रही है पर देर हो रही है, और कार्रवाई होने तक धरना जारी रहेगा।",
+    "pts": [
+     "धरना गुरुवार को स्कूल ऑफ सोशल साइंसेज के सामने शुरू हुआ",
+     "छात्र संघ: रोज़ 30–40 छात्र मौजूद रहते हैं",
+     "तमिलनाडु के एक मंत्री ने मामला सीएम रेवंत के सामने रखा"
+    ],
+    "why": "परिसरों में भेदभाव की शिकायतों की जाँच कितनी जल्दी होती है, यह सभी छात्रों के लिए अहम है।"
+   },
+   "d": "22.11.2026",
+   "t": "23:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · పుస్తకం",
+   "col": "--c-gov",
+   "art": "unity",
+   "pic": "e/public-library-reading",
+   "stat": "ఇందిరమ్మ సూక్తులు",
+   "statl": "పుస్తకం విడుదల",
+   "h": "'ఇందిరమ్మ సూక్తులు' ఆవిష్కరించిన సీఎం",
+   "p": "ముఖ్యమంత్రి రేవంత్ రెడ్డి ఆదివారం హైదరాబాద్ గాంధీభవన్‌లో 'ఇందిరమ్మ సూక్తులు' తెలుగు పుస్తకాన్ని ఆవిష్కరించారు. ఇది మాజీ ప్రధాని ఇందిరా గాంధీ మాటల సంకలనం. ఆమె ఆలోచనలు, ప్రజాసేవ స్ఫూర్తిని రాబోయే తరాలకు ఈ పుస్తకం పరిచయం చేస్తుందని సీఎం అన్నారు. సోనియా గాంధీ ముందుమాట రాశారు. మంత్రి పొన్నం ప్రభాకర్ చొరవతో తెలుగు ప్రతి వచ్చింది.",
+   "pts": [
+    "అనువాదం: పొన్నం రవిచంద్ర, మామిడి హరికృష్ణ, శ్రీలక్ష్మి",
+    "మంత్రి ఉత్తమ్, పీసీసీ అధ్యక్షుడు మహేశ్ గౌడ్ పాల్గొన్నారు",
+    "ఆంగ్ల పుస్తకం పేరు 'ఇందిరా గాంధీ: సెలెక్టెడ్ సేయింగ్స్'"
+   ],
+   "why": "ఇందిరా గాంధీ మాటలను తెలుగులో చదవాలనుకునే పాఠకులకు ఈ పుస్తకం అందుబాటులోకి వచ్చింది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/cm-revanth-reddy-unveils-the-telugu-book-indiramma-sookthulu-2006945",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "గాంధీభవన్",
+   "pub": "2026-11-22T22:30+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Books",
+    "stat": "Indiramma Sookthulu",
+    "statl": "book released by CM Revanth",
+    "loc": "Gandhi Bhavan",
+    "h": "CM releases book 'Indiramma Sookthulu'",
+    "p": "Chief Minister Revanth Reddy released the Telugu book 'Indiramma Sookthulu' at Gandhi Bhavan in Hyderabad on Sunday. It is a collection of sayings of former Prime Minister Indira Gandhi. The CM said it will introduce her ideas and spirit of public service to coming generations. Sonia Gandhi wrote the foreword. The Telugu edition came out on minister Ponnam Prabhakar's initiative.",
+    "pts": [
+     "Translated by Ponnam Ravichandra, Mamidi Harikrishna, Sri Lakshmi",
+     "Minister Uttam and PCC chief Mahesh Goud attended",
+     "The English book is 'Indira Gandhi: Selected Sayings'"
+    ],
+    "why": "Readers who want Indira Gandhi's sayings in Telugu now have the book."
+   },
+   "hi": {
+    "cat": "हैदराबाद · पुस्तक",
+    "stat": "इंदिरम्मा सूक्तुलु",
+    "statl": "सीएम रेवंत ने पुस्तक जारी की",
+    "loc": "गांधी भवन",
+    "h": "सीएम ने 'इंदिरम्मा सूक्तुलु' पुस्तक जारी की",
+    "p": "मुख्यमंत्री रेवंत रेड्डी ने रविवार को हैदराबाद के गांधी भवन में तेलुगु पुस्तक 'इंदिरम्मा सूक्तुलु' जारी की। यह पूर्व प्रधानमंत्री इंदिरा गांधी के कथनों का संग्रह है। सीएम ने कहा कि यह पुस्तक आने वाली पीढ़ियों को उनके विचारों और जनसेवा की भावना से परिचित कराएगी। प्रस्तावना सोनिया गांधी ने लिखी है। तेलुगु संस्करण मंत्री पोन्नम प्रभाकर की पहल पर आया।",
+    "pts": [
+     "अनुवाद: पोन्नम रविचंद्र, मामिडि हरिकृष्ण, श्रीलक्ष्मी",
+     "मंत्री उत्तम और पीसीसी अध्यक्ष महेश गौड़ मौजूद रहे",
+     "अंग्रेज़ी पुस्तक का नाम 'इंदिरा गांधी: सेलेक्टेड सेइंग्स'"
+    ],
+    "why": "जो पाठक इंदिरा गांधी के कथन तेलुगु में पढ़ना चाहते हैं, उनके लिए यह पुस्तक उपलब्ध हो गई है।"
+   },
+   "d": "22.11.2026",
+   "t": "23:05"
+  },
+  {
+   "cat": "ఏపీ · రాజకీయం",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/party-tdp",
+   "stat": "66 పదవులకు",
+   "statl": "టీడీపీ జాబితా విడుదల",
+   "h": "ఏపీలో 66 పురపాలక పదవులకు టీడీపీ జాబితా",
+   "p": "ఆంధ్రప్రదేశ్‌లో 66 పట్టణ స్థానిక సంస్థల పదవులకు తెలుగుదేశం పార్టీ ఆదివారం జాబితా విడుదల చేసింది. ఇందులో ఏడు నగరపాలక సంస్థల డిప్యూటీ మేయర్ పదవులు, 59 పురపాలక సంఘాలు, నగర పంచాయతీల వైస్ చైర్‌పర్సన్ పదవులు ఉన్నాయి. పార్టీ అధ్యక్షుడు, ముఖ్యమంత్రి చంద్రబాబు నాయుడు పేరుతో పార్టీ కేంద్ర కార్యాలయం రెండు పేజీల జాబితాను ప్రకటించింది.",
+   "pts": [
+    "డిప్యూటీ మేయర్ జాబితాలో విజయవాడ, కడప, ఒంగోలు, ఏలూరు",
+    "అనంతపురం, చిత్తూరు, విజయనగరం కూడా ఉన్నాయి",
+    "వైస్ చైర్‌పర్సన్ జాబితాలో తెనాలి, నంద్యాల, హిందూపురం, కుప్పం"
+   ],
+   "why": "కొత్తగా ఎన్నికైన పట్టణ పాలక మండళ్లలో ఎవరు బాధ్యతలు చేపడతారో పట్టణ ప్రజలకు తెలుస్తుంది.",
+   "src": "NTV Telugu",
+   "url": "https://ntvtelugu.com/andhra-pradesh-news/ap-tdp-municipal-posts-list-1037929.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-22T22:11+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Politics",
+    "stat": "66 posts",
+    "statl": "TDP releases its list",
+    "loc": "Andhra Pradesh",
+    "h": "TDP releases list for 66 civic posts in AP",
+    "p": "The Telugu Desam Party on Sunday released its list for 66 urban local body posts in Andhra Pradesh. It covers deputy mayor posts in seven municipal corporations and vice-chairperson posts in 59 municipalities and nagar panchayats. The party's central office announced the two-page list in the name of party president and Chief Minister Chandrababu Naidu.",
+    "pts": [
+     "Deputy mayor list covers Vijayawada, Kadapa, Ongole, Eluru",
+     "Anantapur, Chittoor and Vizianagaram are also on it",
+     "Vice-chair list includes Tenali, Nandyal, Hindupur, Kuppam"
+    ],
+    "why": "People in towns will know who takes charge in the newly elected civic bodies."
+   },
+   "hi": {
+    "cat": "आंध्र · राजनीति",
+    "stat": "66 पद",
+    "statl": "टीडीपी ने सूची जारी की",
+    "loc": "आंध्र प्रदेश",
+    "h": "आंध्र में 66 निकाय पदों के लिए टीडीपी की सूची",
+    "p": "तेलुगु देशम पार्टी ने रविवार को आंध्र प्रदेश के 66 शहरी स्थानीय निकाय पदों के लिए सूची जारी की। इसमें सात नगर निगमों के डिप्टी मेयर पद और 59 नगरपालिकाओं व नगर पंचायतों के उपाध्यक्ष पद शामिल हैं। पार्टी के केंद्रीय कार्यालय ने पार्टी अध्यक्ष और मुख्यमंत्री चंद्रबाबू नायडू के नाम से दो पन्नों की सूची घोषित की।",
+    "pts": [
+     "डिप्टी मेयर सूची में विजयवाड़ा, कडपा, ओंगोल, एलुरु",
+     "अनंतपुर, चित्तूर और विजयनगरम भी शामिल",
+     "उपाध्यक्ष सूची में तेनाली, नंद्याल, हिंदूपुर, कुप्पम"
+    ],
+    "why": "शहरों के लोगों को पता चलेगा कि नए चुने गए निकायों में कौन ज़िम्मेदारी संभालेगा।"
+   },
+   "d": "22.11.2026",
+   "t": "23:05"
+  },
+  {
+   "cat": "తమిళనాడు · ప్రమాదం",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/road-accident-response",
+   "stat": "8 మంది మృతి",
+   "statl": "తిరుచ్చి కారు ప్రమాదంలో",
+   "h": "తిరుచ్చిలో కారు ప్రమాదం, 8 మంది మృతి",
+   "p": "తమిళనాడులోని తిరుచిరాపల్లి జిల్లా కొత్తూర్‌పట్టి కూడలి వద్ద ఆదివారం సాయంత్రం సుమారు 4 గంటలకు ఒక కారు వేప చెట్టును ఢీకొంది. కారులో ఉన్న పది మందిలో ఎనిమిది మంది మృతి చెందారని పోలీసులు తెలిపారు. ఐదుగురు అక్కడికక్కడే, ముగ్గురు ముసిరి ప్రభుత్వ ఆసుపత్రిలో ప్రాణాలు కోల్పోయారు. మరో ఇద్దరికి తీవ్ర గాయాలయ్యాయి.",
+   "pts": [
+    "నామక్కల్ జిల్లాలో వేడుకకు వెళ్లి తిరిగి వస్తుండగా ప్రమాదం",
+    "వీరు తంజావూరు జిల్లా తిరుకాట్టుపల్లికి వెళ్తున్నారు",
+    "పోలీసులు దర్యాప్తు చేస్తున్నారు"
+   ],
+   "why": "ఒకే వాహనంలో ఎక్కువ మంది ప్రయాణించే కుటుంబాలకు రోడ్డు భద్రత ఎంత ముఖ్యమో ఈ ఘటన గుర్తు చేస్తుంది.",
+   "src": "ThePrint (PTI)",
+   "url": "https://theprint.in/india/eight-killed-two-injured-as-car-rams-into-tree-in-tns-tiruchirappalli/3105905/",
+   "sec": [
+    "india"
+   ],
+   "st": "TN",
+   "place": "st-TN",
+   "loc": "తిరుచిరాపల్లి",
+   "pub": "2026-11-22T19:47+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Tamil Nadu · Accident",
+    "stat": "8 dead",
+    "statl": "in Tiruchirappalli car crash",
+    "loc": "Tiruchirappalli",
+    "h": "Car hits tree near Tiruchirappalli; 8 dead",
+    "p": "A car hit a neem tree near the Kothurpatty junction in Tamil Nadu's Tiruchirappalli district at about 4 pm on Sunday. Police said eight of the ten people in the car died. Five died on the spot and three at the Musiri Government Hospital. Two others were seriously injured.",
+    "pts": [
+     "They were returning from a family ceremony in Namakkal district",
+     "They were headed to Thirukattupalli in Thanjavur district",
+     "Police are investigating"
+    ],
+    "why": "It is a reminder of road safety for families who travel many to a vehicle."
+   },
+   "hi": {
+    "cat": "तमिलनाडु · हादसा",
+    "stat": "8 की मौत",
+    "statl": "तिरुचिरापल्ली कार हादसे में",
+    "loc": "तिरुचिरापल्ली",
+    "h": "तिरुचिरापल्ली के पास पेड़ से टकराई कार, 8 की मौत",
+    "p": "तमिलनाडु के तिरुचिरापल्ली ज़िले में कोत्तूरपट्टी चौराहे के पास रविवार शाम करीब 4 बजे एक कार नीम के पेड़ से टकरा गई। पुलिस ने बताया कि कार में सवार दस लोगों में से आठ की मौत हो गई। पाँच की मौके पर और तीन की मुसिरी सरकारी अस्पताल में मौत हुई। दो अन्य गंभीर रूप से घायल हैं।",
+    "pts": [
+     "वे नामक्कल ज़िले में एक पारिवारिक समारोह से लौट रहे थे",
+     "वे तंजावुर ज़िले के तिरुकाट्टुपल्ली जा रहे थे",
+     "पुलिस जाँच कर रही है"
+    ],
+    "why": "यह घटना एक ही गाड़ी में कई लोगों के साथ सफ़र करने वाले परिवारों को सड़क सुरक्षा की याद दिलाती है।"
+   },
+   "d": "22.11.2026",
+   "t": "23:05"
+  },
+  {
+   "cat": "ప్రపంచం · వాతావరణం",
+   "col": "--c-water",
+   "art": "unity",
+   "pic": "e/global-climate-summit",
+   "stat": "కాప్31",
+   "statl": "ఒప్పందం లేకుండా ముగిసింది",
+   "h": "ఒప్పందం లేకుండానే ముగిసిన కాప్31 సదస్సు",
+   "p": "తుర్కియేలోని అంటాల్యాలో జరిగిన ఐక్యరాజ్యసమితి వాతావరణ సదస్సు కాప్31 ఆదివారం తుది ఒప్పందం లేకుండానే ముగిసింది. శిలాజ ఇంధనాల వాడకం తగ్గించడం, వాతావరణ నిధులపై ఏకాభిప్రాయం రాలేదు. ఇది విచారకరమని కేంద్ర పర్యావరణ మంత్రి భూపేందర్ యాదవ్ అన్నారు. భారత్ చివరి వరకు చర్చల్లో పాల్గొందని, ఒప్పందం లేకపోయినా దేశంలో వాతావరణ చర్యలు ఆగవని చెప్పారు.",
+   "pts": [
+    "భారత్ సౌర విద్యుత్ సామర్థ్యం 170 గిగావాట్లకు పైగా",
+    "అభివృద్ధి చెందుతున్న దేశాలకు నిధులు, సాంకేతికత కావాలన్న భారత్",
+    "కాప్32 వైపు చర్చలు కొనసాగిస్తామన్న మంత్రి"
+   ],
+   "why": "వాతావరణ మార్పు వల్ల వచ్చే వేడి, వరదలు, కరువు మన రైతులు, నగరాలపై నేరుగా ప్రభావం చూపుతాయి.",
+   "src": "ETV Bharat",
+   "url": "https://www.etvbharat.com/en/bharat/cop31-india-engaged-constructively-tirelessly-till-end-says-bhupender-yadav-enn26112205383",
+   "sec": [
+    "world",
+    "india"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "అంటాల్యా, తుర్కియే",
+   "pub": "2026-11-22T22:09+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "World · Climate",
+    "stat": "COP31",
+    "statl": "summit ends without a deal",
+    "loc": "Antalya, Türkiye",
+    "h": "COP31 climate summit ends without a deal",
+    "p": "The UN climate summit COP31 in Antalya, Türkiye, ended on Sunday without a final agreement. There was no consensus on moving away from fossil fuels or on climate finance. Union Environment Minister Bhupender Yadav said this was regrettable. He said India took part in the talks till the end and that climate action in the country will not stop without a deal.",
+    "pts": [
+     "India has over 170 GW of solar capacity",
+     "India said developing countries need finance and technology",
+     "The minister said talks continue on the road to COP32"
+    ],
+    "why": "Heat, floods and drought from climate change directly affect our farmers and cities."
+   },
+   "hi": {
+    "cat": "दुनिया · जलवायु",
+    "stat": "कॉप31",
+    "statl": "बिना समझौते के खत्म हुआ सम्मेलन",
+    "loc": "अंताल्या, तुर्किये",
+    "h": "बिना समझौते के खत्म हुआ कॉप31 सम्मेलन",
+    "p": "तुर्किये के अंताल्या में हुआ संयुक्त राष्ट्र जलवायु सम्मेलन कॉप31 रविवार को बिना अंतिम समझौते के खत्म हो गया। जीवाश्म ईंधन का इस्तेमाल घटाने और जलवायु वित्त पर सहमति नहीं बनी। केंद्रीय पर्यावरण मंत्री भूपेंद्र यादव ने इसे खेदजनक बताया। उन्होंने कहा कि भारत आख़िर तक बातचीत में शामिल रहा और समझौता न होने पर भी देश में जलवायु कार्रवाई नहीं रुकेगी।",
+    "pts": [
+     "भारत की सौर क्षमता 170 गीगावाट से अधिक",
+     "भारत: विकासशील देशों को वित्त और तकनीक चाहिए",
+     "मंत्री: कॉप32 की ओर बातचीत जारी रहेगी"
+    ],
+    "why": "जलवायु परिवर्तन से होने वाली गर्मी, बाढ़ और सूखा सीधे हमारे किसानों और शहरों पर असर डालते हैं।"
+   },
+   "d": "22.11.2026",
+   "t": "23:05"
+  },
   {
    "cat": "తెలంగాణ · క్రీడలు",
    "col": "--c-city",
@@ -2930,383 +3330,6 @@
    "art": "",
    "d": "22.11.2026",
    "t": "16:05"
-  },
-  {
-   "cat": "తెలంగాణ · పెట్టుబడులు",
-   "col": "--c-money",
-   "pic": "e/industrial-production",
-   "stat": "ష్నైడర్‌కు భట్టి ఆహ్వానం",
-   "statl": "పారిస్‌లో",
-   "h": "ష్నైడర్ ఎలక్ట్రిక్‌ను ఆహ్వానించిన భట్టి",
-   "p": "తెలంగాణలో తయారీని మరింత పెంచాలని ష్నైడర్ ఎలక్ట్రిక్ సంస్థను ఉప ముఖ్యమంత్రి భట్టి విక్రమార్క ఆదివారం ఆహ్వానించారు. పారిస్‌లోని ఆ సంస్థ కార్యాలయానికి వెళ్లి ఎగ్జిక్యూటివ్ వైస్ ప్రెసిడెంట్ గ్వెనెల్ హ్యూట్ బృందంతో మాట్లాడారు. రాష్ట్రంలో ఈ సంస్థకు 5,000 మందికి పైగా ఉద్యోగులు ఉన్నారని, విస్తరణకు ఇదే సరైన సమయమని ఆయన చెప్పారు.",
-   "pts": [
-    "డేటా సెంటర్ వ్యాపారం నుంచి 30 శాతానికి పైగా ఆదాయం రావచ్చని భట్టి అన్నారు",
-    "ప్రభుత్వం పూర్తి సహకారం ఇస్తుందని అధికారి చెప్పారు"
-   ],
-   "why": "సంస్థ విస్తరిస్తే రాష్ట్రంలో తయారీ రంగంలో కొత్త ఉద్యోగాలు వచ్చే వీలుంటుంది.",
-   "src": "The Siasat Daily",
-   "url": "https://www.siasat.com/dy-cm-invites-schneider-electric-to-expand-in-telangana-3583909/",
-   "sec": [
-    "telangana",
-    "business"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pub": "2026-11-22T15:46+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Investment",
-    "stat": "Bhatti invites Schneider",
-    "statl": "in Paris",
-    "loc": "",
-    "h": "Bhatti invites Schneider Electric to expand",
-    "p": "Deputy Chief Minister Bhatti Vikramarka on Sunday invited Schneider Electric to expand its manufacturing in Telangana. He visited the company's office in Paris and met Executive Vice President Gwenaelle Huet and her team. He said the company has more than 5,000 employees in the state and that this is the right time to expand.",
-    "pts": [
-     "Bhatti said over 30% of revenue could come from data centre business",
-     "An official said the government will give full support"
-    ],
-    "why": "If the company expands, it could bring new manufacturing jobs to the state."
-   },
-   "hi": {
-    "cat": "तेलंगाना · निवेश",
-    "stat": "श्नाइडर को भट्टी का न्योता",
-    "statl": "पेरिस में",
-    "loc": "",
-    "h": "भट्टी ने श्नाइडर इलेक्ट्रिक को न्योता दिया",
-    "p": "उप मुख्यमंत्री भट्टी विक्रमार्क ने रविवार को श्नाइडर इलेक्ट्रिक को तेलंगाना में अपना विनिर्माण बढ़ाने का न्योता दिया। उन्होंने पेरिस में कंपनी के कार्यालय जाकर एग्ज़ीक्यूटिव वाइस प्रेसिडेंट ग्वेनेल ह्यूएट और उनकी टीम से बात की। उन्होंने कहा कि राज्य में कंपनी के 5,000 से ज़्यादा कर्मचारी हैं और विस्तार का यही सही समय है।",
-    "pts": [
-     "भट्टी के अनुसार 30% से ज़्यादा आय डेटा सेंटर कारोबार से आ सकती है",
-     "अधिकारी ने कहा, सरकार पूरा सहयोग देगी"
-    ],
-    "why": "कंपनी के विस्तार से राज्य में विनिर्माण क्षेत्र में नई नौकरियां आ सकती हैं।"
-   },
-   "art": "",
-   "d": "22.11.2026",
-   "t": "16:05"
-  },
-  {
-   "cat": "ఏపీ · చిత్తూరు",
-   "col": "--c-city",
-   "pic": "e/forest-conservation",
-   "stat": "7 కిలోమీటర్ల మేర",
-   "statl": "శబ్దం ఆపే గోడలు",
-   "h": "పలమనేరు వంతెనలపై శబ్దం తగ్గించే గోడలు",
-   "p": "చిత్తూరు జిల్లా పలమనేరు మండలం మొగిలిఘాట్ వద్ద బెంగళూరు–చెన్నై ఎక్స్‌ప్రెస్‌వేపై కడుతున్న రెండు వంతెనలు పూర్తి కావస్తున్నాయి. వాహనాల శబ్దం ఏనుగులు, ఇతర వన్యప్రాణులను ఇబ్బంది పెట్టకుండా జాతీయ రహదారుల సంస్థ దాదాపు 7 కిలోమీటర్ల మేర శబ్దం తగ్గించే గోడలు పెడుతోంది. ఈ రహదారి కౌండిన్య అభయారణ్యం ప్రాంతం గుండా వెళ్తుంది.",
-   "pts": [
-    "7.1 కిలోమీటర్ల రహదారి రిజర్వ్ అడవుల గుండా వెళ్తుంది",
-    "ఏనుగులు దాటడానికి ప్రత్యేక అండర్‌పాస్‌లు కడతారు",
-    "శబ్దం కొంతవరకు తగ్గుతుందని అధికారి వర్షిత్ రెడ్డి చెప్పారు"
-   ],
-   "why": "ఏనుగులు తిరిగే పలమనేరు అడవి ప్రాంతంలో వన్యప్రాణులకు, ప్రయాణికులకు ప్రమాదాలు తగ్గడానికి ఇది ముఖ్యం.",
-   "src": "NewsMeter",
-   "url": "https://newsmeter.in/whats-new/protecting-wildlife-from-traffic-noise-2-expressway-bridges-in-chittoor-get-sound-barriers-779777",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-chittoor",
-   "loc": "మొగిలిఘాట్, పలమనేరు",
-   "pub": "2026-11-22T15:40+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Chittoor",
-    "stat": "About 7 km",
-    "statl": "of sound barriers",
-    "loc": "Mogilighat, Palamaner",
-    "h": "Sound barriers on Chittoor expressway bridges",
-    "p": "Two bridges on the Bengaluru–Chennai Expressway at Mogilighat in Palamaner mandal of Chittoor district are nearing completion. NHAI is installing sound barriers along about 7 km so that traffic noise does not disturb elephants and other wildlife. The road passes through the Koundinya Wildlife Sanctuary region.",
-    "pts": [
-     "7.1 km of the road runs through reserve forests",
-     "Dedicated elephant underpasses are planned",
-     "Noise will reduce to some extent: NHAI official Varshit Reddy"
-    ],
-    "why": "It matters for cutting accidents for wildlife and travellers in the Palamaner forest area where elephants move."
-   },
-   "hi": {
-    "cat": "आंध्र · चित्तूर",
-    "stat": "करीब 7 किमी",
-    "statl": "आवाज़ रोकने वाली दीवारें",
-    "loc": "मोगिलीघाट, पलमनेर",
-    "h": "चित्तूर एक्सप्रेसवे पुलों पर साउंड बैरियर",
-    "p": "चित्तूर ज़िले के पलमनेर मंडल में मोगिलीघाट पर बेंगलुरु–चेन्नई एक्सप्रेसवे के दो पुल पूरे होने वाले हैं। वाहनों का शोर हाथियों और दूसरे वन्यजीवों को परेशान न करे, इसके लिए एनएचएआई करीब 7 किमी तक आवाज़ रोकने वाली दीवारें लगा रहा है। यह सड़क कौंडिन्य वन्यजीव अभयारण्य क्षेत्र से गुज़रती है।",
-    "pts": [
-     "7.1 किमी सड़क आरक्षित वनों से गुज़रती है",
-     "हाथियों के लिए अलग अंडरपास बनेंगे",
-     "शोर कुछ हद तक घटेगा: एनएचएआई अधिकारी वर्षित रेड्डी"
-    ],
-    "why": "हाथियों की आवाजाही वाले पलमनेर वन क्षेत्र में वन्यजीवों और यात्रियों के लिए हादसे घटाने में यह अहम है।"
-   },
-   "art": "",
-   "d": "22.11.2026",
-   "t": "16:05"
-  },
-  {
-   "cat": "ప్రపంచం · ప్రమాదం",
-   "col": "--c-city",
-   "pic": "e/fire-service-response",
-   "stat": "50 మంది",
-   "statl": "గల్లంతు",
-   "h": "ఇండోనేషియాలో మంటలు, 50 మంది గల్లంతు",
-   "p": "ఇండోనేషియాలోని జావా పశ్చిమ ప్రాంతం చికాండేలో ఒక మిఠాయి ఫ్యాక్టరీలో శనివారం సాయంత్రం పెద్ద అగ్నిప్రమాదం జరిగింది. దాదాపు 50 మంది కార్మికుల జాడ ఇంకా తెలియలేదు. ఏడు బాడీ బ్యాగుల్లో మృతదేహాలను బయటకు తెచ్చినట్లు పోలీసులు చెప్పారు. ప్రమాదం జరిగిన రోజు షిఫ్టులో సుమారు 300 మంది ఉన్నారు. మంటలకు కారణంపై దర్యాప్తు జరుగుతోంది.",
-   "pts": [
-    "మృతులను గుర్తించడానికి 2–3 వారాలు పట్టవచ్చు: పోలీసులు",
-    "కుటుంబ సభ్యుల నుంచి డీఎన్‌ఏ నమూనాలు తీసుకుంటున్నారు",
-    "భవనంలో కొన్ని భాగాలు కూలే ప్రమాదం ఉంది"
-   ],
-   "why": "ఫ్యాక్టరీల్లో అగ్ని భద్రత ఎంత ముఖ్యమో ఈ ప్రమాదం మళ్లీ గుర్తు చేస్తోంది.",
-   "src": "ThePrint (Reuters)",
-   "url": "https://theprint.in/world/seven-body-bags-recovered-50-missing-after-indonesian-factory-fire/3105694/",
-   "sec": [
-    "world"
-   ],
-   "st": "WORLD",
-   "place": "IN",
-   "loc": "చికాండే, ఇండోనేషియా",
-   "pub": "2026-11-22T14:30+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "World · Accident",
-    "stat": "50 missing",
-    "statl": "after factory fire",
-    "loc": "Cikande, Indonesia",
-    "h": "Indonesia factory fire: about 50 missing",
-    "p": "A major fire broke out on Saturday evening at a candy factory in Cikande in western Java, Indonesia. About 50 workers are still unaccounted for. Police said seven body bags have been recovered. Around 300 people were on the day's shift. The cause of the fire is being investigated.",
-    "pts": [
-     "Identifying victims may take 2–3 weeks: police",
-     "DNA samples are being collected from relatives",
-     "Parts of the building are at risk of collapse"
-    ],
-    "why": "The fire is another reminder of how much fire safety in factories matters."
-   },
-   "hi": {
-    "cat": "दुनिया · हादसा",
-    "stat": "50 लापता",
-    "statl": "फैक्टरी में आग के बाद",
-    "loc": "चिकांडे, इंडोनेशिया",
-    "h": "इंडोनेशिया की फैक्टरी में आग, करीब 50 लापता",
-    "p": "इंडोनेशिया के पश्चिमी जावा क्षेत्र के चिकांडे में शनिवार शाम एक कैंडी फैक्टरी में बड़ी आग लग गई। करीब 50 मज़दूरों का अब तक पता नहीं चला है। पुलिस ने बताया कि सात बॉडी बैग निकाले गए हैं। उस दिन की शिफ्ट में करीब 300 लोग थे। आग के कारण की जांच चल रही है।",
-    "pts": [
-     "मृतकों की पहचान में 2–3 हफ्ते लग सकते हैं: पुलिस",
-     "परिजनों से डीएनए नमूने लिए जा रहे हैं",
-     "इमारत के कुछ हिस्सों के गिरने का खतरा"
-    ],
-    "why": "यह हादसा फिर याद दिलाता है कि फैक्टरियों में अग्नि सुरक्षा कितनी ज़रूरी है।"
-   },
-   "art": "",
-   "d": "22.11.2026",
-   "t": "16:05"
-  },
-  {
-   "cat": "వరంగల్ · భక్తి",
-   "col": "--c-city",
-   "pic": "d/warangal",
-   "stat": "గవర్నర్ పూజలు",
-   "statl": "భద్రకాళి ఆలయంలో",
-   "h": "భద్రకాళి ఆలయంలో త్రిపుర గవర్నర్ పూజలు",
-   "p": "వరంగల్‌లోని భద్రకాళి అమ్మవారి ఆలయాన్ని త్రిపుర గవర్నర్ నల్లు ఇంద్రసేనారెడ్డి, త్రిదండి చిన్న జీయర్ స్వామి ఆదివారం వేర్వేరుగా దర్శించుకుని ప్రత్యేక పూజలు చేశారు. ఆలయ ఈవో రామల సునీత, అర్చకులు పూర్ణకుంభంతో స్వాగతం పలికారు. చిన్న జీయర్ స్వామి గోశాలలో ఆవులకు మేత పెట్టి, తర్వాత భక్తులకు ప్రవచనం ఇచ్చారు. సెలవు రోజు కావడంతో భక్తులు ఎక్కువగా వచ్చారు.",
-   "pts": [
-    "వరంగల్ పశ్చిమ ఎమ్మెల్యే నాయిని రాజేందర్ రెడ్డి పాల్గొన్నారు",
-    "మాజీ ఎమ్మెల్యే దాస్యం వినయ్ భాస్కర్ కూడా హాజరయ్యారు"
-   ],
-   "why": "భద్రకాళి ఆలయానికి వచ్చే వరంగల్ ప్రాంత భక్తులకు ఇది ఆసక్తి కలిగించే వార్త.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/warangal/tripura-governor-chinna-jeeyar-swami-offer-prayers-at-bhadrakali-temple-1144699",
-   "sec": [
-    "telangana",
-    "culture"
-   ],
-   "st": "TG",
-   "place": "warangal",
-   "loc": "భద్రకాళి ఆలయం",
-   "pub": "2026-11-22T16:02+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Warangal · Devotion",
-    "stat": "Tripura Governor prays",
-    "statl": "at Bhadrakali temple, Warangal",
-    "loc": "Bhadrakali Temple",
-    "h": "Tripura Governor prays at Bhadrakali temple",
-    "p": "Tripura Governor Nallu Indrasena Reddy and Tridandi Chinna Jeeyar Swami separately visited the Bhadrakali temple in Warangal on Sunday and offered special prayers. Temple EO Ramala Sunitha and the priests welcomed them with poorna kumbham. Chinna Jeeyar Swami fed the cows at the gokulam and later gave a discourse to devotees. Being a holiday, the temple saw a large turnout.",
-    "pts": [
-     "Warangal West MLA Naini Rajender Reddy took part",
-     "Former MLA Dasyam Vinay Bhaskar also attended"
-    ],
-    "why": "It is of interest to devotees from the Warangal area who visit the Bhadrakali temple."
-   },
-   "hi": {
-    "cat": "वरंगल · भक्ति",
-    "stat": "त्रिपुरा के राज्यपाल की पूजा",
-    "statl": "वरंगल के भद्रकाली मंदिर में",
-    "loc": "भद्रकाली मंदिर",
-    "h": "भद्रकाली मंदिर में त्रिपुरा के राज्यपाल की पूजा",
-    "p": "त्रिपुरा के राज्यपाल नल्लू इंद्रसेना रेड्डी और त्रिदंडी चिन्ना जीयर स्वामी ने रविवार को अलग-अलग वरंगल के भद्रकाली मंदिर में दर्शन कर विशेष पूजा की। मंदिर की ईओ रामला सुनीता और पुजारियों ने पूर्णकुंभ से उनका स्वागत किया। चिन्ना जीयर स्वामी ने गोशाला में गायों को चारा खिलाया और बाद में भक्तों को प्रवचन दिया। छुट्टी का दिन होने से भक्त बड़ी संख्या में आए।",
-    "pts": [
-     "वरंगल पश्चिम के विधायक नायिनी राजेंदर रेड्डी शामिल हुए",
-     "पूर्व विधायक दास्यम विनय भास्कर भी मौजूद रहे"
-    ],
-    "why": "यह भद्रकाली मंदिर आने वाले वरंगल क्षेत्र के भक्तों के लिए रुचि की खबर है।"
-   },
-   "art": "",
-   "d": "22.11.2026",
-   "t": "16:05"
-  },
-  {
-   "cat": "ఏపీ · గుంటూరు",
-   "col": "--c-gov",
-   "pic": "e/public-policy-announcement",
-   "stat": "ఫిర్యాదుల వేదిక రద్దు",
-   "statl": "గుంటూరులో",
-   "h": "గుంటూరులో ప్రజా ఫిర్యాదుల వేదిక రద్దు",
-   "p": "గుంటూరు జిల్లాలో ప్రజా సమస్యల పరిష్కార వేదికను తాత్కాలికంగా రద్దు చేసినట్లు కలెక్టర్ సాయికాంత్ వర్మ ఆదివారం ప్రకటించారు. ఎన్నికల కోడ్ అమల్లో ఉండటం, అధికారులు ఎన్నికల పనుల్లో ఉండటమే కారణమని చెప్పారు. కోడ్ ముగిసే వరకు ఈ కార్యక్రమం ఉండదు. ప్రజలు సోమవారం ఫిర్యాదులతో వచ్చి ఇబ్బంది పడవద్దని ఆయన కోరారు.",
-   "pts": [],
-   "why": "ఫిర్యాదు ఇవ్వడానికి దూరం నుంచి వచ్చే గుంటూరు జిల్లా ప్రజలకు అనవసర ప్రయాణం తప్పుతుంది.",
-   "src": "HMTV",
-   "url": "https://www.hmtvlive.com/telugu-news/guntur/guntur-district-pgrs-temporarily-cancelled-due-to-election-code-215822",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-guntur",
-   "loc": "",
-   "pub": "2026-11-22T15:52+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Guntur",
-    "stat": "Grievance day cancelled",
-    "statl": "in Guntur district",
-    "loc": "",
-    "h": "Guntur grievance day (PGRS) cancelled",
-    "p": "Guntur Collector Sai Kanth Varma announced on Sunday that the public grievance redressal programme (PGRS) in the district has been temporarily cancelled. He said this is because the election code is in force and officials are on election duty. It will not be held until the code ends. He asked people not to travel with their petitions on Monday.",
-    "pts": [],
-    "why": "People of Guntur district who travel far to submit petitions are spared a wasted trip."
-   },
-   "hi": {
-    "cat": "आंध्र · गुंटूर",
-    "stat": "शिकायत मंच रद्द",
-    "statl": "गुंटूर ज़िले में",
-    "loc": "",
-    "h": "गुंटूर में जन शिकायत मंच (पीजीआरएस) रद्द",
-    "p": "गुंटूर के कलेक्टर साईकांत वर्मा ने रविवार को बताया कि ज़िले में जन शिकायत निवारण कार्यक्रम (पीजीआरएस) अस्थायी रूप से रद्द कर दिया गया है। उन्होंने कहा कि चुनाव आचार संहिता लागू है और अधिकारी चुनाव के काम में लगे हैं। संहिता खत्म होने तक यह कार्यक्रम नहीं होगा। उन्होंने लोगों से सोमवार को शिकायतें लेकर न आने को कहा।",
-    "pts": [],
-    "why": "शिकायत देने दूर से आने वाले गुंटूर ज़िले के लोगों का बेकार का सफर बचेगा।"
-   },
-   "art": "",
-   "d": "22.11.2026",
-   "t": "16:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · ప్రమాదం",
-   "col": "--c-city",
-   "art": "",
-   "pic": "e/road-accident-response",
-   "stat": "ఇద్దరు",
-   "statl": "మృతి",
-   "h": "హైదరాబాద్‌లో బస్సు ప్రమాదాలు, ఇద్దరు మృతి",
-   "p": "హైదరాబాద్‌లో ఆదివారం జరిగిన రెండు వేర్వేరు రోడ్డు ప్రమాదాల్లో ఇద్దరు చనిపోయారు. కూకట్‌పల్లిలో రామ్‌దేవ్ ఆసుపత్రి దగ్గర మెట్రో పిల్లర్ 759 వద్ద బస్సు, బైక్ ఢీకొని బైక్ నడుపుతున్న వ్యక్తి అక్కడికక్కడే మృతి చెందారు. మియాపూర్‌లో ఆర్టీసీ బస్సు కింద పడి ఒక యువకుడు చనిపోయారు.",
-   "pts": [
-    "మియాపూర్ ప్రమాదం యూనియన్ బ్యాంక్ దగ్గర జరిగింది",
-    "కూకట్‌పల్లి ప్రమాదానికి కారణం ఇంకా తెలియలేదు: పోలీసులు",
-    "మృతదేహాన్ని పోస్టుమార్టంకు తరలించారు"
-   ],
-   "why": "నగరంలో బస్సులు ఎక్కువగా తిరిగే రోడ్లపై బైక్‌లపై వెళ్లేవారి భద్రత మళ్లీ చర్చకు వచ్చింది.",
-   "src": "V6 Velugu",
-   "url": "https://www.v6velugu.com/tragic-road-accidents-in-hyderabad-two-died-in-separate-incidents-at-kukatpally-and-miyapur",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "కూకట్‌పల్లి, మియాపూర్",
-   "pub": "2026-11-22T14:13+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Accident",
-    "stat": "2 dead",
-    "statl": "in two road accidents",
-    "loc": "Kukatpally, Miyapur",
-    "h": "2 die in Kukatpally, Miyapur road accidents",
-    "p": "Two people died in two separate road accidents in Hyderabad on Sunday. In Kukatpally, a bus and a motorcycle collided at metro pillar 759 near Ramdev Hospital and the motorcyclist died on the spot. In Miyapur, a youth died after falling under a TGSRTC bus.",
-    "pts": [
-     "The Miyapur accident happened near Union Bank",
-     "Cause of the Kukatpally crash not yet known: police",
-     "Body shifted for post-mortem"
-    ],
-    "why": "The deaths again raise the safety of two-wheeler riders on busy bus routes in the city."
-   },
-   "hi": {
-    "cat": "हैदराबाद · हादसा",
-    "stat": "2 की मौत",
-    "statl": "दो सड़क हादसों में",
-    "loc": "कूकटपल्ली, मियापुर",
-    "h": "कूकटपल्ली, मियापुर हादसों में 2 की मौत",
-    "p": "हैदराबाद में रविवार को दो अलग-अलग सड़क हादसों में दो लोगों की मौत हो गई। कूकटपल्ली में रामदेव अस्पताल के पास मेट्रो पिलर 759 पर बस और बाइक की टक्कर में बाइक सवार की मौके पर मौत हो गई। मियापुर में एक युवक टीजीएसआरटीसी बस के नीचे आकर मारा गया।",
-    "pts": [
-     "मियापुर हादसा यूनियन बैंक के पास हुआ",
-     "कूकटपल्ली हादसे का कारण अभी पता नहीं: पुलिस",
-     "शव पोस्टमार्टम के लिए भेजा गया"
-    ],
-    "why": "इन मौतों से शहर में बसों वाले व्यस्त रास्तों पर दोपहिया चालकों की सुरक्षा पर फिर सवाल उठे हैं।"
-   },
-   "d": "22.11.2026",
-   "t": "15:35"
-  },
-  {
-   "cat": "నిర్మల్ · భక్తి",
-   "col": "--c-city",
-   "art": "",
-   "pic": "d/nirmal",
-   "stat": "భక్తుల రద్దీ",
-   "statl": "కార్తీక ఆదివారం బాసరలో",
-   "h": "బాసరలో కార్తీక ఆదివారం భక్తుల రద్దీ",
-   "p": "కార్తీక మాసం ఆదివారం సెలవు కావడంతో నిర్మల్ జిల్లా బాసర సరస్వతి ఆలయానికి భక్తులు భారీగా వచ్చారు. తెలుగు రాష్ట్రాలతో పాటు ఇతర రాష్ట్రాల భక్తులు గోదావరిలో పుణ్యస్నానాలు చేసి కార్తీక దీపాలు వెలిగించారు. చాలా మంది తమ పిల్లలకు ఆలయ మండపంలో అక్షరాభ్యాసం చేయించారు.",
-   "pts": [
-    "గోదావరి ఒడ్డున సూర్యేశ్వర ఆలయంలో ప్రత్యేక పూజలు",
-    "మహిళలు గోదావరికి పసుపు, కుంకుమ సమర్పించారు",
-    "భక్తులకు ఇబ్బంది లేకుండా ఏర్పాట్లు చేశామన్న అధికారులు"
-   ],
-   "why": "కార్తీక మాసంలో బాసరకు వెళ్లే భక్తులు, స్థానిక వ్యాపారులపై ఈ రద్దీ ప్రభావం ఉంటుంది.",
-   "src": "HMTV",
-   "url": "https://www.hmtvlive.com/telugu-news/adilabad/devotees-throng-basara-saraswati-temple-on-karthika-sunday-215800",
-   "sec": [
-    "telangana",
-    "culture"
-   ],
-   "st": "TG",
-   "place": "nirmal",
-   "loc": "బాసర",
-   "pub": "2026-11-22T14:34+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Nirmal · Devotion",
-    "stat": "Big crowds",
-    "statl": "at Basara on Karthika Sunday",
-    "loc": "Basara, Nirmal",
-    "h": "Karthika Sunday crowds at Basara temple",
-    "p": "Large numbers of devotees reached the Basara Saraswati temple in Nirmal district on the Karthika month Sunday holiday. Pilgrims from the Telugu states and other states took holy dips in the Godavari and lit Karthika lamps. Many families performed aksharabhyasam for their children at the temple hall.",
-    "pts": [
-     "Special pujas at Sri Suryeswara temple on the riverbank",
-     "Women offered turmeric and kumkum to the Godavari",
-     "Officials say arrangements made to avoid trouble for devotees"
-    ],
-    "why": "The rush affects pilgrims planning a Basara visit in Karthika month and local traders."
-   },
-   "hi": {
-    "cat": "निर्मल · भक्ति",
-    "stat": "भारी भीड़",
-    "statl": "कार्तिक रविवार को बासर में",
-    "loc": "बासर, निर्मल",
-    "h": "कार्तिक रविवार पर बासर मंदिर में भीड़",
-    "p": "कार्तिक मास के रविवार की छुट्टी पर निर्मल जिले के बासर सरस्वती मंदिर में भारी संख्या में श्रद्धालु पहुंचे। तेलुगु राज्यों और दूसरे राज्यों के श्रद्धालुओं ने गोदावरी में पवित्र स्नान कर कार्तिक दीप जलाए। कई परिवारों ने मंदिर मंडप में बच्चों का अक्षराभ्यास कराया।",
-    "pts": [
-     "नदी किनारे श्री सूर्येश्वर मंदिर में विशेष पूजा",
-     "महिलाओं ने गोदावरी को हल्दी-कुमकुम अर्पित किया",
-     "अधिकारियों के अनुसार श्रद्धालुओं के लिए इंतजाम किए गए"
-    ],
-    "why": "यह भीड़ कार्तिक मास में बासर जाने वाले श्रद्धालुओं और स्थानीय व्यापारियों को प्रभावित करती है।"
-   },
-   "d": "22.11.2026",
-   "t": "15:35"
   },
   {
    "cat": "తెలంగాణ · నీరు",
