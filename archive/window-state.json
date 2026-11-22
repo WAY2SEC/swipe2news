@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T14:05:00+05:30",
+ "cutoff": "2026-11-22T14:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T18:05:00+05:30/2026-11-19T18:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 10,
-   "published": 7,
-   "late": 2,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Feeds 18:12 IST, 66/70 ok, lookback 10:05. Published 7, all from ETV Bharat AP live blog (one page; URL fragments added to keep links distinct): Akvan landfall near Gopalpur Nov 20 (16:44, forecast), 6 AP MPP polls postponed (16:45), Tadimarri TDP rebels win MPP posts (16:44), Pothavaram Darsi sarpanch candidate attack (16:45, claim, sensitive), TG HC Jagan cases plea to Nov 30 (14:35), tiger in Reddigudem forest NTR (10:57, late), Vizag MDMA 4 held (14:33). Duplicate: CM Siddipet Indiramma insurance launch (covered 11:35). Skipped old: ONGC Konaseema leak (17 Nov), UGC 32 fake universities (Feb 2026). Not opened: The Hindu items (ANGRAU A grade, CID Rs7cr job fraud Guntur, Krishnapatnam 288 EVs, TG 11C chill, Vizag Port Hospital protest), Disha HIV ranking, gold prices, V6 trains cancelled. District searches: Warangal/Hanumakonda, Tirupati/Chittoor, Konaseema/Kakinada, Mancherial/Peddapalli/Jagtial (thin). add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T18:35:00+05:30/2026-11-19T19:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 05:35 on 22 Nov. Feeds 13:43 IST (70/70 ok); 102 unseen uncovered events since 12:40 scanned by headline. add_repo not available; used existing clone. Published 4: TV9 AP December pensions on Nov 30/Dec 1 (13:04), ETV Bharat Samagra Shiksha-UNICEF survey 60% girls anaemic (13:36), NewsMeter Telugu Kakinada/Gandepalli two-car crash 2 dead (13:04, sensitive, no names; an embedded post gave 1 dead), Deccan Chronicle/PTI RS MP Ramrao Wadkute dies (13:42). Duplicates: Secunderabad Ranigunj RUB 6-8 month diversions (published 20 Nov), Vaartha pensions (27 Oct, old cycle). Skipped as old: Gulf News Azharuddin-UAE invite (17 Nov), Oneindia AI on highways (20 Mar). Not opened: ANI PAC meeting at Gandhi Bhavan with new AICC in-charge (fetch error), TV9 AP rice Rs 47, AJ Kadapa stone attack, News18 AgriGold, V6 farmer python (searches returned only old pages). check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-22T14:05:00+05:30/2026-11-22T14:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 4,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 5,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 06:05 on 22 Nov. Feeds 14:18 IST (68/68 ok); ~76 unseen uncovered events since 13:30 scanned by headline. add_repo not available; used existing clone. Published 4: 10TV veterinary university 117 posts (14:23), NewsMeter Tirupati SHG Rs 1.28 cr overseas orders (14:02), Deccan Chronicle Proddatur POCSO case on teacher (14:09, sensitive, no names), Dynamite News Agniveers may marry in second tour (14:00, claim - sourced report). Duplicates: Siasat Kakinada SUV crash (published 13:05 run), Telangana Today Pawan probe Kadapa death, TV9/TGTDC Pochampally tour (20 Nov), NIE Nitin Nabin rally (21 Nov), The Hindu OU Rs 480 cr bids. Skipped: Telangana Today Adilabad cotton traders (12 Nov, old), other-state Rajasthan crash, entertainment/sports items. Not opened: ANI and India Gazette TPCC PAC meeting with BM Sandeep (fetch error), The Hindu NHAI Telangana fatalities drop (search did not return article). District searches (Nalgonda, Srikakulam/Vizianagaram, Adilabad/Nirmal/Mancherial) gave tag/old pages. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6996,6 +6996,51 @@
   },
   {
    "url": "https://www.oneindia.com/hyderabad/telangana-brings-ai-to-highways-hyderabad-vijayawada-nh-expansion-gets-major-boost-8033269.html",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.10tv.in/telugu-news/telangana/telangana-government-will-issue-notification-for-117-job-vacancies-by-the-end-of-november-hn-1160532.html",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/lifestyle/women-shg-entrepreneurs-secure-19-global-orders-worth-rs-128-crore-in-tirupati-779770",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/kadapa-pocso-case-registered-against-teacher-for-harassing-class-x-girls-2006827",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.dynamitenews.com/national/agniveers-marriage-permission-second-tour-of-duty-new-rules",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/man-crossing-kakinada-highway-triggers-suv-collision-one-dead-3583863/",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/pawan-kalyan-orders-probe-into-jana-sena-activists-death-during-nomination-scrutiny-in-kadapa",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://tv9telugu.com/telangana/telangana-tourism-launches-one-day-yadadri-and-pochampally-tour-package-1964242.html",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/tgewidc-invites-bids-for-works-worth-480-crore-at-osmania-university/article71730639.ece",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/private-traders-exploit-adilabad-cotton-farmers-amid-cci-procurement-delay",
    "d": "2026-11-22",
    "w": "skipped"
   }
