@@ -535,13 +535,16 @@ const ART_PARTY_HAVE=new Set(['ysrcp','bjym','bjp','brs','tdp','janasena','bsp',
 function artParty(s,a){
   const o=(s&&s._orig)||s; if(!o||!a||a.m!=='land') return '';
   const pol=/రాజకీయ|Politic/i.test(String(o.cat||'')+' '+String(((o.en||{}).cat)||'')) || String(o.pic||'')==='c/politics';
-  if(!(a.bg==='e/voting-day'||(pol&&!/\//.test(a.bg)))) return ''; // only the politics picture, or a district picture on a politics story
+  if(!(a.bg==='e/voting-day'||(pol&&(!/\//.test(a.bg)||/^e\/(government-press-briefing|peaceful-public-protest|public-policy-announcement)$/.test(a.bg))))) return ''; // politics picture, or a district / press-meet / protest picture on a politics story
   let t=[o.h,o.statl,(o.en&&o.en.h)||'',(o.en&&o.en.statl)||''].join(' ').replace(/‌|‍/g,'');
   const hit=[]; for(const [k,rx] of ART_PARTY){ if(rx.test(t)){ hit.push(k); t=t.replace(new RegExp(rx.source,'gi'),' '); } }
   if(hit.length!==1||!ART_PARTY_HAVE.has(hit[0])) return '';
-  // a party attacked by another (slams, alleges, rival…) or an alliance story would show the wrong party: keep it neutral
-  const tt=[o.h,o.statl,(o.en&&o.en.h)||''].join(' ');
-  if(/విమర్శ|ఆరోపణ|ఆరోపి|ధ్వజ|మండిప|ఫైర్|నిప్పులు|దుయ్య|అవినీతి|విఫల|ప్రత్యర్థి|క్షమాపణ|కూటమి|slam|allege|accus|critic|attack|blame|rival|corrupt|fail|apolog|hit out|lash|alliance|NDA\b|దాడి|నిప్పంట|తగలబెట్ట|హత్య|set on fire|torch|murder|kill|assault|violence/i.test(tt)) return '';
+  // owner 22 Nov 2026: when ONE party speaks, condemns or protests, show that party's picture ("…ఖండించిన బీఆర్‌ఎస్" → BRS).
+  // Stay neutral only when that party is the TARGET (బీఆర్‌ఎస్‌పై / బీఆర్‌ఎస్‌ను …, "against BRS"), or for alliances and killings.
+  const tt=[o.h,o.statl,(o.en&&o.en.h)||''].join(' ').replace(/‌|‍/g,''); const rx=(ART_PARTY.find(x=>x[0]===hit[0])||[])[1];
+  if(rx){ const g=new RegExp('(?:'+rx.source+')\\s?(?:పై|ను|ని|కు|కి|మీద|పట్ల)','i'); if(g.test(tt)) return '';
+    if(new RegExp('(?:against|slams?|targets?|hits out at|attacks?|on)\\s+(?:the\\s+)?(?:'+rx.source+')','i').test(tt)) return ''; }
+  if(/కూటమి|alliance|NDA\b|హత్య|murder|kill/i.test(tt)) return '';
   return 'e/party-'+hit[0];
 }
 function artPlan(s){ const a=artPlan1(s); const pk=artParty(s,a); return pk?{m:'land',bg:pk}:a; }
