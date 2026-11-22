@@ -1,89 +1,93 @@
 {
- "updated": "2026-11-22T05:20:00+05:30",
- "set": "morning",
+ "updated": "2026-11-22T17:18:44+05:30",
+ "set": "evening",
  "items": [
   {
    "kind": "quote",
    "date": "2026-11-22",
-   "id": "gandhi-lose-yourself-in-service",
-   "text": "మిమ్మల్ని మీరు తెలుసుకోవడానికి ఉత్తమ మార్గం, ఇతరుల సేవలో మిమ్మల్ని మీరు మరచిపోవడమే.",
-   "by": "మహాత్మా గాంధీ",
-   "ctx": "ఇతరులకు సాయం చేసినప్పుడే మనలోని మంచితనం, మన బలం మనకు అర్థమవుతాయి. ఈ రోజు ఎవరికైనా ఒక చిన్న సాయం చేద్దాం.",
-   "src": "Young India, 5 March 1925 (Wikiquote – Mahatma Gandhi)",
-   "url2": "https://www.wikiwand.com/en/quotes/Mahatma_Gandhi",
+   "id": "tagore-shut-door-errors-truth",
+   "text": "తప్పులన్నింటికీ మీరు తలుపు మూసేస్తే, సత్యం కూడా బయటే ఉండిపోతుంది.",
+   "by": "రవీంద్రనాథ్ ఠాగూర్",
+   "ctx": "తప్పు చేస్తామనే భయంతో కొత్తది ప్రయత్నించకపోతే నేర్చుకోవడమూ ఆగిపోతుంది. తప్పుల నుంచి నేర్చుకుంటేనే నిజం మనకు దగ్గరవుతుంది.",
+   "src": "Stray Birds, 130 (Rabindranath Tagore)",
+   "url2": "https://terebess.hu/english/tagore6.html",
    "en": {
-    "text": "The best way to find yourself is to lose yourself in the service of others.",
-    "by": "Mahatma Gandhi",
-    "ctx": "Only when we help others do we understand the goodness and strength within us. Let us do someone a small favour today."
+    "text": "If you shut your door to all errors truth will be shut out.",
+    "by": "Rabindranath Tagore",
+    "ctx": "If we never try anything new for fear of making mistakes, learning stops too. Truth comes closer only when we learn from our mistakes."
    },
    "hi": {
-    "text": "स्वयं को खोजने का सबसे अच्छा तरीका है, दूसरों की सेवा में स्वयं को खो देना।",
-    "by": "महात्मा गांधी",
-    "ctx": "दूसरों की मदद करने पर ही हमें अपने भीतर की अच्छाई और ताकत समझ आती है। आज किसी की एक छोटी-सी मदद करें।"
+    "text": "यदि आप सभी गलतियों के लिए अपना दरवाज़ा बंद कर देंगे, तो सत्य भी बाहर रह जाएगा।",
+    "by": "रवींद्रनाथ टैगोर",
+    "ctx": "गलती के डर से अगर हम कुछ नया न करें, तो सीखना भी रुक जाता है। गलतियों से सीखने पर ही सच हमारे करीब आता है।"
    }
   },
   {
    "kind": "tip",
    "date": "2026-11-22",
-   "id": "rbi-free-annual-credit-report",
-   "title": "ఏటా ఉచిత క్రెడిట్ రిపోర్ట్ చూసుకోండి",
-   "text": "ప్రతి క్రెడిట్ సమాచార సంస్థ (సిబిల్ వంటివి) ఏడాదికి ఒకసారి క్రెడిట్ స్కోరుతో పాటు పూర్తి క్రెడిట్ రిపోర్ట్‌ను ఉచితంగా ఇవ్వాలని ఆర్‌బీఐ ఆదేశించింది. దీన్ని చూసుకుంటే మీ పేరిట మీకు తెలియని రుణాలు, తప్పులు ఉంటే వెంటనే గుర్తించవచ్చు.",
-   "ctx": "సంస్థ అధికారిక వెబ్‌సైట్‌లో మాత్రమే అడగండి; ఉచిత రిపోర్ట్ పేరుతో వచ్చే లింకులు, కాల్స్‌ను నమ్మవద్దు. ఇది సాధారణ సమాచారం మాత్రమే.",
-   "src": "RBI – Free Annual Credit Report to Individuals (1 Sep 2016)",
-   "url2": "https://www.rbi.org.in/CommonPerson/English/Scripts/Notification.aspx?Id=1884",
+   "id": "rbi-sachet-check-deposit-schemes",
+   "title": "డబ్బు కట్టే ముందు 'సచేత్'లో చూడండి",
+   "text": "ఎక్కువ వడ్డీ ఇస్తామని డిపాజిట్లు అడిగే సంస్థకు ఆ అనుమతి ఉందో లేదో ఆర్‌బీఐ 'సచేత్' వెబ్‌సైట్ (sachet.rbi.org.in)లో తెలుసుకోవచ్చు. ఏదైనా సంస్థ అక్రమంగా డబ్బు తీసుకున్నా, తిరిగి ఇవ్వకపోయినా అక్కడే ఫిర్యాదు చేసి, దాని స్థితిని చూసుకోవచ్చు.",
+   "ctx": "స్నేహితులు, బంధువులు చెప్పారని గుడ్డిగా డబ్బు కట్టవద్దు; ముందు తనిఖీ చేయండి. ఇది సాధారణ సమాచారం మాత్రమే.",
+   "src": "RBI press release – Launch of Sachet website (4 Aug 2016)",
+   "url2": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=37689",
    "en": {
-    "title": "Check your free credit report every year",
-    "text": "RBI has directed every credit information company (such as CIBIL) to give one free full credit report, including the credit score, once a year. Checking it helps you spot unknown loans in your name or mistakes right away.",
-    "ctx": "Ask only on the company's official website; don't trust links or calls offering a 'free report'. This is general information only."
+    "title": "Check on 'Sachet' before you pay",
+    "text": "On RBI's 'Sachet' website (sachet.rbi.org.in) you can check whether an entity asking for deposits with promises of high interest is permitted to accept them. If an entity has illegally taken money or not repaid it, you can file a complaint there and track it.",
+    "ctx": "Don't pay blindly just because friends or relatives say so; check first. This is general information only."
    },
    "hi": {
-    "title": "हर साल मुफ्त क्रेडिट रिपोर्ट देखें",
-    "text": "आरबीआई ने हर क्रेडिट सूचना कंपनी (जैसे सिबिल) को साल में एक बार क्रेडिट स्कोर सहित पूरी क्रेडिट रिपोर्ट मुफ्त देने का निर्देश दिया है। इसे देखने से आपके नाम पर अनजान कर्ज या गलतियाँ तुरंत पकड़ में आ जाती हैं।",
-    "ctx": "सिर्फ कंपनी की आधिकारिक वेबसाइट पर ही माँगें; 'मुफ्त रिपोर्ट' के नाम पर आए लिंक या कॉल पर भरोसा न करें। यह केवल सामान्य जानकारी है।"
+    "title": "पैसा देने से पहले 'सचेत' पर देखें",
+    "text": "ज़्यादा ब्याज का वादा कर जमा माँगने वाली संस्था को इसकी अनुमति है या नहीं, यह आरबीआई की 'सचेत' वेबसाइट (sachet.rbi.org.in) पर जाना जा सकता है। अगर किसी संस्था ने गैरकानूनी तरीके से पैसा लिया या लौटाया नहीं, तो वहीं शिकायत दर्ज कर उसकी स्थिति देख सकते हैं।",
+    "ctx": "दोस्तों या रिश्तेदारों के कहने पर आँख मूँदकर पैसा न लगाएँ; पहले जाँच करें। यह केवल सामान्य जानकारी है।"
    }
   },
   {
    "kind": "wisdom",
    "date": "2026-11-22",
-   "id": "gita-3-21-yad-yad-acharati",
-   "text": "యద్యదాచరతి శ్రేష్ఠస్తత్తదేవేతరో జనః ।\nస యత్ప్రమాణం కురుతే లోకస్తదనువర్తతే ॥",
-   "by": "భగవద్గీత (3.21)",
-   "ctx": "గొప్పవారు ఎలా నడుచుకుంటారో, మిగతావారూ అలాగే నడుచుకుంటారు. పెద్దలు చూపిన దారినే లోకం అనుసరిస్తుంది; అందుకే ఇంట్లో పెద్దలు మంచి అలవాట్లతో పిల్లలకు ఆదర్శంగా ఉండాలి.",
-   "src": "Bhagavad Gita 3.21 (Vedabase)",
-   "url2": "https://vedabase.io/en/library/bg/3/21/",
+   "id": "sumati-upakariki-upakaramu",
+   "text": "ఉపకారికి నుపకారము\nవిపరీతము గాదు సేయ వివరింపంగా\nనపకారికి నుపకారము\nనెపమెన్నక సేయువాడు నేర్పరి సుమతీ",
+   "by": "సుమతీ శతకం (బద్దెన)",
+   "ctx": "మనకు మేలు చేసినవారికి మేలు చేయడంలో గొప్పేమీ లేదు. కీడు చేసినవారికి కూడా వారి తప్పు ఎంచకుండా మేలు చేసేవాడే నిజమైన నేర్పరి.",
+   "src": "Sumati Satakam, padyam 16",
+   "url2": "https://sumatisatakamyb.blogspot.com/",
    "en": {
-    "text": "Whatever a great person does, others follow; whatever standard they set, the world goes by it.",
-    "by": "Bhagavad Gita (3.21)",
-    "ctx": "People follow the way great ones behave. The world walks the path elders show; so elders at home should be a good example to children through good habits."
+    "text": "Doing good to one who has helped you is nothing unusual; the one who does good even to a person who harmed him, without finding fault, is truly wise.",
+    "by": "Sumati Satakam (Baddena)",
+    "ctx": "There is nothing great in repaying a kindness. The truly skilled person is one who does good even to those who did harm, without holding their fault against them."
    },
    "hi": {
-    "text": "श्रेष्ठ व्यक्ति जैसा आचरण करता है, दूसरे लोग भी वैसा ही करते हैं; वह जो मानक बनाता है, संसार उसी का पालन करता है।",
-    "by": "भगवद्गीता (3.21)",
-    "ctx": "लोग वैसा ही चलते हैं जैसा बड़े लोग चलते हैं। बड़ों के दिखाए रास्ते पर ही दुनिया चलती है; इसलिए घर के बड़ों को अच्छी आदतों से बच्चों के लिए आदर्श बनना चाहिए।"
+    "text": "उपकार करने वाले का उपकार करना कोई बड़ी बात नहीं; जो बुराई करने वाले का भी बिना दोष गिने भला करे, वही सच्चा समझदार है।",
+    "by": "सुमती शतक (बद्देना)",
+    "ctx": "जिसने हमारा भला किया उसका भला करना कोई बड़ी बात नहीं। जिसने बुरा किया उसका भी बिना गलती गिनाए भला करने वाला ही सच्चा निपुण है।"
    }
   },
   {
    "kind": "roots",
    "date": "2026-11-22",
-   "id": "karthika-pournami-jwala-thoranam",
-   "title": "కార్తీక పౌర్ణమి జ్వాలా తోరణం",
-   "text": "కార్తీక పౌర్ణమి రోజు (ఈ ఏడాది నవంబర్ 24, మంగళవారం) సాయంత్రం తెలుగు రాష్ట్రాల్లోని ఎన్నో శివాలయాల్లో ఎండు గడ్డి చుట్టిన తోరణాన్ని వెలిగిస్తారు. త్రిపురాసురుల మూడు పురాలను శివుడు ఒకే బాణంతో దహించిన కథను ఇది గుర్తుచేస్తుంది. అహంకారం, అజ్ఞానం కాలిపోవాలనే భావనగా పెద్దలు దీన్ని చెబుతారు.",
-   "ctx": "మీ ఊరి గుడిలో జ్వాలా తోరణం చూశారా? మీ దగ్గర కార్తీక పౌర్ణమిని ఎలా జరుపుకుంటారు?",
-   "src": "HinduTone – Karthika Pournami 2026",
-   "url2": "https://hindutone.com/festivals/karthika-pournami-2026/",
+   "id": "siddipet-gollabhama-cheera",
+   "title": "సిద్దిపేట గొల్లభామ చీరలు",
+   "text": "పాల కుండలు పట్టుకున్న గొల్లభామల బొమ్మలను అంచులు, పల్లులో నేసే ఈ నూలు చీరలు సిద్దిపేట చేనేత కార్మికుల ప్రత్యేకత. పాత కాలపు 'జాల' పద్ధతిలో చేతి మగ్గాలపై వీటిని నేస్తారు. ఈ నేతకు భౌగోళిక గుర్తింపు (జీఐ) ట్యాగ్ కూడా వచ్చింది.",
+   "ctx": "మీ ఇంట్లో అమ్మ, అమ్మమ్మల దగ్గర గొల్లభామ చీర ఉందా? మన చేనేతను కొని నేతన్నలకు తోడుగా నిలుద్దాం.",
+   "src": "The Hans India; Telangana Tourism; Wikipedia",
+   "url2": "https://thehansindia.com/featured/sunday-hans/let-the-gollabhaamas-dance-the-untold-glory-of-siddipet-sarees-758613",
    "en": {
-    "title": "Karthika Pournami Jwala Thoranam",
-    "text": "On the evening of Karthika Pournami (this year Tuesday, 24 November), an arch wrapped in dry straw is lit at many Shiva temples in the Telugu states. It recalls the story of Shiva burning the three cities of Tripurasura with a single arrow. Elders explain it as ego and ignorance being burnt away.",
-    "ctx": "Have you seen the Jwala Thoranam at your village temple? How is Karthika Pournami celebrated where you live?"
+    "title": "Siddipet Gollabhama sarees",
+    "text": "These cotton sarees, with figures of Gollabhamas (women holding milk pots) woven into the borders and pallu, are the speciality of Siddipet's handloom weavers. They are woven on handlooms using the age-old 'jala' technique. The weave has also received a Geographical Indication (GI) tag.",
+    "ctx": "Does your mother or grandmother have a Gollabhama saree? Let's support our weavers by buying handloom."
    },
    "hi": {
-    "title": "कार्तिक पूर्णिमा का ज्वाला तोरण",
-    "text": "कार्तिक पूर्णिमा (इस साल मंगलवार, 24 नवंबर) की शाम तेलुगु राज्यों के कई शिव मंदिरों में सूखी घास लिपटा तोरण जलाया जाता है। यह शिव द्वारा एक ही बाण से त्रिपुरासुर के तीनों नगर जलाने की कथा की याद दिलाता है। बड़े इसे अहंकार और अज्ञान के जल जाने का प्रतीक बताते हैं।",
-    "ctx": "क्या आपने अपने गाँव के मंदिर में ज्वाला तोरण देखा है? आपके यहाँ कार्तिक पूर्णिमा कैसे मनाई जाती है?"
+    "title": "सिद्दिपेट की गोल्लभामा साड़ियाँ",
+    "text": "किनारों और पल्लू में दूध के मटके लिए गोल्लभामा (ग्वालिन) की आकृतियों वाली ये सूती साड़ियाँ सिद्दिपेट के हथकरघा बुनकरों की खासियत हैं। इन्हें पुरानी 'जाला' तकनीक से हथकरघे पर बुना जाता है। इस बुनाई को भौगोलिक संकेत (जीआई) टैग भी मिला है।",
+    "ctx": "क्या आपकी माँ या नानी के पास गोल्लभामा साड़ी है? हथकरघा खरीदकर अपने बुनकरों का साथ दें।"
    }
   }
  ],
  "history": [
+  "tagore-shut-door-errors-truth",
+  "rbi-sachet-check-deposit-schemes",
+  "sumati-upakariki-upakaramu",
+  "siddipet-gollabhama-cheera",
   "gandhi-lose-yourself-in-service",
   "rbi-free-annual-credit-report",
   "gita-3-21-yad-yad-acharati",
