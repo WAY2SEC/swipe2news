@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T06:05:00+05:30",
+ "cutoff": "2026-11-22T06:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T10:05:00+05:30/2026-11-19T10:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 1,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 7,
-   "review": 0,
-   "gaps": "Feeds 10:23 IST, 68/68 ok, 137 uncovered TG/AP events in lookback (02:05). Published 1: ETV Bharat live blog Tirumala 8-hour sarva darshan (07:34, late). Duplicates: Maredumilli Maoist dump (Hans 05:56), Akvan IMD bulletin landfall Narsapur–Puri (Asianet 07:58), AP MPP polls (ETV 06:53). Skipped: CID job-fraud detention (ETV live blog 06:53 too thin, same URL as Tirumala; DC 18 Nov 23:12 before lookback; ₹7 cr case covered 18 Nov); Uttam on AP 1.8 TMC Sagar plan (Hans 01:05/DC 18 Nov 22:55, before lookback); Telangana Today monuments free entry (2022 page); Siasat PRTS (27 Oct); DC Lokesh fee figures (16 Nov); FreshPlaza custard apples (2017); Telugu360 HC Naidu (Mar 2026). Not opened (search did not return article): NIE Lokesh fee reimbursement, NIE email spoofing ₹1.5 cr, CESS debt study, BC Commission census, NIE mandal parishads term, TeluguBulletin cold wave, NewsMeter retail rentals, plus Telugu-only items (Kadapa house fire, Kota Rukmini, Uttam vs BRS). District searches (Nalgonda, Karimnagar, Nellore, Srikakulam, Khammam, Warangal, Kadapa, Nizamabad) returned only tag/old pages. add_repo not available; used existing clone. news.json has 91 stories (>60 cap; left to story check)."
-  },
   {
    "window": "2026-11-19T10:35:00+05:30/2026-11-19T11:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Lookback from 21:35 on 21 Nov. Feeds 05:40 IST, 70/70 ok; 42 uncovered events first seen since 05:00 reviewed. add_repo not available; used existing clone. Published 6, all The Hans India: Naidu on local poll vote share (05:39, claim), Bhadrachalam bandh (05:15, claim, sensitive), Asifabad Indiramma Bima launch (05:19), Mudhiraj Mahasabha Rs 1000 cr demand (05:29, claim), Palem scientists crop inspection Amrabad (05:31), Hanumakonda degree college seminar hall (05:22). Duplicates: Karimnagar GMC students protest (published 21 Nov from Siasat), Bandi/BJP Karimnagar march (Nabin padyatra published 21 Nov). Not opened: Dhaka Tribune India-Bangladesh water talks, Cricinfo and Deccan Herald India-NZ Test (fetch client error); Sakshi seven road deaths, News18 LLR, TOI Ganges treaty (search did not return); Eenadu-only items (PG courses, Palnadu, Kaviti panchayat, visa fraud, CipherX drone, Pratap Reddy award). Skipped unopened: opinion, yoga tips, weather explainer, other-state city items. No district searches this run. check_news.py flags e/ keys (files exist in art/e). Lang pages, index.html and sitemap.xml reverted."
+  },
+  {
+   "window": "2026-11-22T06:05:00+05:30/2026-11-22T06:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 0,
+   "published": 0,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 22:05 on 21 Nov. Feeds 06:11 IST, 70/70 ok; ~45 uncovered events first seen since 05:30 reviewed, mostly NIE Sunday features, Eenadu-only items, opinion and health pieces. add_repo not available; used existing clone. Nothing published. Duplicate: Hans AICC summons Raj Gopal Reddy (00:41; published 21 Nov 14:05 from ETV Bharat). Skipped old: NewsOnAir Nepal PM visit preview (20 Nov). Skipped: Kolusu campaign (party campaign), TiE50 startup award (promotional), Nagar Kirtan photo caption. Not opened: India TV and Cricinfo India-NZ Test (fetch client error), Sportstar live blog, Eenadu items (Nellore 20 unanimous panchayats, Vizianagaram items, COP31). 8 district searches returned only tag/listing pages."
   }
  ],
  "seen": [
@@ -6223,6 +6223,21 @@
    "url": "https://www.deccanherald.com/sports/cricket/india-vs-new-zealand-kl-rahul-shubman-gill-put-visitors-in-drivers-seat-4226393",
    "d": "2026-11-22",
    "w": "not-opened"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/aicc-summons-raj-gopal-reddy-1144473",
+   "d": "2026-11-22",
+   "w": "06:35"
+  },
+  {
+   "url": "https://newsonair.gov.in/nepal-pm-balendra-shah-visits-india-on-nov-22-23-at-invitation-of-pm-narendra-modi/",
+   "d": "2026-11-22",
+   "w": "06:35"
+  },
+  {
+   "url": "https://www.indiatvnews.com/sports/cricket/rishabh-pant-slams-exceptional-century-achieves-massive-feat-with-brilliant-knock-against-new-zealand-2026-11-22-1060057",
+   "d": "2026-11-22",
+   "w": "06:35"
   }
  ]
 }
