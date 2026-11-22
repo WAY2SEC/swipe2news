@@ -1168,6 +1168,38 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 .s2n.dly .dsrc{font:600 12px/1.4 var(--body);color:rgba(255,253,245,.7)}.s2n.dly .dsrc a{color:#FFD08A}
 .s2n.dly .dact{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:8px}
 .s2n.dly .dshare{all:unset;cursor:pointer;padding:11px 18px;border-radius:22px;background:#0E7A3E;color:#fff;font:800 15px/1 var(--body)}
+/* Daily motivation card (owner 22 Nov 2026: "use this design as it is") – cream paper, sun + brush title, quote box with leaves and sunrise, meaning + today's action, Save / Listen / Share */
+.story.s2n.dly.mot{background:radial-gradient(130% 70% at 50% 0%,#FFF9EE 0%,#FBF1E1 55%,#F6E7CF 100%)!important;color:#4A0E3F}
+.s2n.dly.mot .dbody::before,.s2n.dly.mot .dbody::after{display:none}
+.s2n.dly.mot .dbody{justify-content:flex-start;gap:clamp(6px,1.4vh,10px);padding:6px 12px 10px!important}
+.mot-top{position:relative;flex:none;height:clamp(66px,9.5vh,84px);display:flex;align-items:flex-end;justify-content:center}
+.mot-sun{position:absolute;top:0;left:50%;transform:translateX(-50%);width:clamp(110px,32vw,150px);pointer-events:none}
+.mot-spl,.mot-spr{position:absolute;bottom:2px;width:clamp(58px,17vw,76px);pointer-events:none}.mot-spl{left:4%}.mot-spr{right:5%}
+.mot-ttl{position:relative;margin:0;padding:3px 30px 7px;background:url(/art/daily/mot-brush.svg) center/100% 100% no-repeat;font:800 clamp(25px,7.6vw,32px)/1.2 var(--body);color:#4A0E3F;white-space:nowrap}
+.mot-ttl.mot-ttl-l{font-size:clamp(19px,5.6vw,25px);padding:5px 24px 8px}
+@media (max-height:780px){.s2n.dly.mot .mot-row p{-webkit-line-clamp:3}.mot-orn{display:none}.mot-q{margin-top:6px}.mot-top{height:62px}}
+.mot-box{position:relative;flex:1;min-height:0;border:1.5px solid rgba(74,14,63,.16);border-radius:22px;background:linear-gradient(180deg,#FFFAF1 0%,#FCF2E2 60%,#FBEBD3 100%);overflow:hidden;display:flex;flex-direction:column;align-items:center;padding:8px 14px 0}
+.mot-sub{position:relative;z-index:1;display:flex;align-items:center;gap:10px;font:italic 600 clamp(13px,3.8vw,15px)/1.3 'Outfit',sans-serif;color:#4A0E3F}
+.mot-sub::before,.mot-sub::after{content:'';width:clamp(34px,11vw,56px);height:1px;background:rgba(74,14,63,.45)}
+.mot-leaves{position:absolute;top:-2px;right:-6px;width:27%;pointer-events:none;z-index:0}
+.mot-q{position:relative;z-index:1;align-self:stretch;margin:clamp(8px,1.6vh,14px) 0 0;padding:0 clamp(14px,5vw,24px) 0 clamp(26px,8vw,36px);font:800 var(--mq,28px)/1.42 var(--body);color:#4A0E3F;letter-spacing:.1px}
+.mot-q::before{content:'“';position:absolute;left:0;top:-.22em;font:900 1.85em/1 Georgia,serif;color:#F08A1C}
+.mot-q .mcl{font:900 1.6em/0 Georgia,serif;color:#F08A1C;vertical-align:-.42em;margin-left:.12em}
+.mot-q mark{background:url(/art/daily/mot-brush.svg) center/100% 100% no-repeat;color:inherit;padding:0 .2em;margin:0 -.05em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.mot-by{position:relative;z-index:1;margin-top:clamp(6px,1.4vh,12px);font:600 clamp(15px,4.4vw,18px)/1.3 var(--body);color:#4A0E3F;text-align:center}
+.mot-src{position:relative;z-index:1;margin-top:2px;font:600 11px/1.3 var(--body);color:rgba(74,14,63,.6);text-align:center}.mot-src a{color:inherit}
+.mot-orn{position:relative;z-index:1;width:48%;margin-top:6px;color:#B8430F;flex:none}
+.mot-scene{position:relative;flex:1 1 0;min-height:clamp(56px,8vh,110px);max-height:clamp(110px,19vh,170px);align-self:stretch;margin:4px -14px 0;background:url(/art/daily/mot-scene.webp) 40% 100%/cover no-repeat;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 30%);mask-image:linear-gradient(180deg,transparent 0,#000 30%)}
+.mot-row{flex:none;display:grid;grid-template-columns:auto auto 1fr;align-items:center;gap:7px;padding:clamp(6px,1vh,10px) 10px;border:1.5px solid rgba(74,14,63,.14);border-radius:18px;background:rgba(255,251,243,.75)}
+.mot-row svg{width:clamp(28px,8vw,36px);height:clamp(28px,8vw,36px);color:#4A0E3F}
+.mot-pill{padding:5px 8px;border-radius:14px;background:radial-gradient(ellipse at center,#FCD9AE 0%,#FBE7CC 60%,rgba(251,231,204,0) 100%);font:800 clamp(13px,3.9vw,16px)/1.15 var(--body);color:#B8430F;text-align:center;max-width:5.2em}
+.mot-row p{margin:0;padding-left:9px;border-left:1.5px solid rgba(74,14,63,.25);font:600 clamp(12.5px,3.6vw,14.5px)/1.45 var(--body);color:#2B0A24;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:5;overflow:hidden}
+.mot-bar{flex:none;display:grid;grid-template-columns:1fr 1fr 1fr;border-radius:20px;background:linear-gradient(180deg,#6C1A4C 0%,#4A0E3F 100%);box-shadow:0 6px 16px rgba(74,14,63,.25)}
+.mot-bar button{all:unset;box-sizing:border-box;display:flex;align-items:center;justify-content:center;gap:8px;padding:clamp(10px,1.7vh,14px) 4px;color:#FFFDF5;font:700 clamp(14px,4vw,16px)/1 var(--body);cursor:pointer;-webkit-tap-highlight-color:transparent}
+.s2n.dly.mot .mot-bar button.dshare{display:flex;align-items:center;justify-content:center;gap:8px;background:none;border-radius:0;border-left:1px solid rgba(255,253,245,.28);padding:clamp(10px,1.7vh,14px) 4px;font:700 clamp(14px,4vw,16px)/1 var(--body);color:#FFFDF5}
+.mot-bar button+button{border-left:1px solid rgba(255,253,245,.28)}
+.mot-bar svg{width:22px;height:22px;color:#F5A23A;flex:none}.mot-bar button[aria-pressed="true"]{color:#F5A23A}
+:root[data-theme="dark"] .story.s2n.dly.mot{background:radial-gradient(130% 70% at 50% 0%,#FFF9EE 0%,#FBF1E1 55%,#F6E7CF 100%)!important}
 .s2n.dly .dswipe{display:flex;align-items:center;gap:6px;font:700 13px/1.3 var(--body);color:rgba(255,253,245,.85);text-align:right}.s2n.dly .dswipe b{color:#F5A23A;font-size:18px}
 .s2n.dly .dhand{display:inline-block;animation:dHand 1.8s ease-in-out infinite}@keyframes dHand{0%,30%{transform:none}60%{transform:translateX(-14px)}100%{transform:none}}
 .s2n .panel>.pcr{position:absolute;right:12px;top:60px;z-index:3;display:inline-flex;align-items:center;gap:4px;max-width:58%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:4px 10px;border-radius:999px;background:rgba(20,4,17,.72);border:1px solid rgba(245,162,58,.9);color:#FFFDF5;font:600 11.5px/1.2 var(--body)}.s2n .panel>.pcr b{font-weight:800}
@@ -1940,7 +1972,48 @@ function dailyItems(){ if(!DAILY) return []; const today=new Date(Date.now()+(33
   const fresh=DAILY.items.filter(x=>x&&x.kind&&(x.date===today||!x.date||(Date.parse(today)-Date.parse(x.date))<=2*864e5));
   return ['quote','tip','wisdom','roots'].map(k=>fresh.find(x=>x.kind===k)).filter(Boolean).map(x=>Object.assign({},x,{kind:'daily',dk:x.kind,h:'daily',url:'https://swipe2news.com/'})); }
 function withDaily(list){ if(view!=='home'||section!=='all'||list.length<12) return list; const it=dailyItems(); if(!it.length) return list; const o=list.slice(); [11,23,35,47].forEach((p,k)=>{ if(it[k]&&o.length>p) o.splice(p,0,it[k]); }); return o; }
+/* Daily motivation card (owner 22 Nov 2026, design given by owner): uses quote "text", "by", "ctx" (meaning), "do" (today's action), "hl" (word to highlight) from daily.json */
+const MOTX={te:{t:'ఈరోజు స్ఫూర్తి',mean:'అర్థం',act:'ఈ రోజు ఆచరణ',save:'సేవ్',listen:'వినండి',share:'పంచుకోండి',src:'మూలం'},
+ en:{t:"Today's Inspiration",mean:'Meaning',act:'Try today',save:'Save',listen:'Listen',share:'Share',src:'Source'},
+ hi:{t:'आज की प्रेरणा',mean:'अर्थ',act:'आज करें',save:'सेव',listen:'सुनें',share:'शेयर',src:'स्रोत'}};
+const MIC={book:'<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c-4-3-10-3.5-15-2.5v23c5-1 11-.5 15 2.5 4-3 10-3.5 15-2.5v-23c-5-1-11-.5-15 2.5z"/><path d="M20 10v23M9 13.5c3-.4 5.6 0 7.5 1M9 18.5c3-.4 5.6 0 7.5 1M9 23.5c3-.4 5.6 0 7.5 1M31 13.5c-3-.4-5.6 0-7.5 1M31 18.5c-3-.4-5.6 0-7.5 1M31 23.5c-3-.4-5.6 0-7.5 1"/></svg>',
+ goal:'<svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="18" cy="22" r="14"/><circle cx="18" cy="22" r="8.5"/><circle cx="18" cy="22" r="3" fill="currentColor"/><path d="M18 22L33 7M28 6.5l5 .5.5 5M33 7l3-3"/></svg>',
+ save:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>',
+ listen:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="3" y="14" width="5" height="7" rx="2" fill="currentColor"/><rect x="16" y="14" width="5" height="7" rx="2" fill="currentColor"/></svg>',
+ share:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="18" cy="5" r="2.6" fill="currentColor"/><circle cx="6" cy="12" r="2.6" fill="currentColor"/><circle cx="18" cy="19" r="2.6" fill="currentColor"/><path d="M8.3 10.8l7.4-4.4M8.3 13.2l7.4 4.4"/></svg>'};
+const MORN='<svg viewBox="0 0 200 20" aria-hidden="true"><path d="M0 10h70M130 10h70" stroke="currentColor" stroke-width="1.6"/><path d="M100 4c-5 0-8 3-8 6s3 6 8 6 8-3 8-6-3-6-8-6zM92 10c-6-5-14-5-18 0 4 5 12 5 18 0zM108 10c6-5 14-5 18 0-4 5-12 5-18 0z" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="100" cy="10" r="2" fill="currentColor"/></svg>';
+function motLen(t){ const n=[...String(t||'')].length; return n<=45?'min(clamp(24px,7.2vw,30px),3.6vh)':n<=70?'min(clamp(21px,6.3vw,26px),3.2vh)':n<=100?'min(clamp(19px,5.6vw,23px),2.9vh)':n<=140?'min(clamp(17px,5vw,20px),2.6vh)':'min(clamp(15.5px,4.6vw,18px),2.4vh)'; }
+function motText(t,hl){ let h=esc(t||''); const w=hl?esc(hl):''; if(w&&h.includes(w)) h=h.replace(w,`<mark>${w}</mark>`); return h; }
+function motHTML(s,L,l){ const M=MOTX[l]||MOTX.te, by=L.by||s.by||'', ctx=L.ctx||s.ctx||'', act=L.do||s.do||'', hl=(l!=='te'&&s[l])?(s[l].hl||''):(s.hl||'');
+  return `<article class="story s2n mandi dly dly-quote mot" aria-label="${esc(M.t)}">
+  <div class="text dbody">
+    <div class="mot-top"><img class="mot-sun" src="/art/daily/mot-sun.webp" alt="" draggable="false"><img class="mot-spl" src="/art/daily/mot-sprig-l.webp" alt="" draggable="false"><h3 class="mot-ttl${[...M.t].length>15?' mot-ttl-l':''}">${esc(M.t)}</h3><img class="mot-spr" src="/art/daily/mot-sprig-r.webp" alt="" draggable="false"></div>
+    <div class="mot-box">
+      <img class="mot-leaves" src="/art/daily/mot-leaves.webp" alt="" draggable="false">
+      <div class="mot-sub">Daily Motivation</div>
+      <p class="mot-q" style="--mq:${motLen(L.text)}">${motText(L.text,hl)}<span class="mcl">”</span></p>
+      ${by?`<div class="mot-by">— ${esc(by)}</div>`:''}
+      ${s.src?`<div class="mot-src">${esc(M.src)}: ${s.url2?`<a href="${esc(s.url2)}" target="_blank" rel="noopener nofollow">${esc(s.src)}</a>`:esc(s.src)}</div>`:''}
+      <div class="mot-orn">${MORN}</div>
+      <div class="mot-scene" role="img" aria-label=""></div>
+    </div>
+    ${ctx?`<div class="mot-row">${MIC.book}<span class="mot-pill">${esc(M.mean)}</span><p>${esc(ctx)}</p></div>`:''}
+    ${act?`<div class="mot-row">${MIC.goal}<span class="mot-pill">${esc(M.act)}</span><p>${esc(act)}</p></div>`:''}
+    <div class="mot-bar"><button type="button" class="mot-save">${MIC.save}${esc(M.save)}</button><button type="button" class="mot-listen" aria-pressed="false">${MIC.listen}${esc(M.listen)}</button><button type="button" class="dshare" data-t="${esc((L.text||'')+(by?' — '+by:''))}">${MIC.share}${esc(M.share)}</button></div>
+  </div>
+  ${footHTML()}
+</article>`; }
+document.addEventListener('click',async e=>{ const b=e.target.closest('.mot .mot-save,.mot .mot-listen'); if(!b) return; e.preventDefault(); e.stopPropagation();
+  const it=LIST[cur]; if(!it||it.kind!=='daily') return;
+  if(b.classList.contains('mot-save')){ b.disabled=true; let blob=null; try{ blob=await dailyCard(it); }catch(x){} b.disabled=false; if(!blob) return;
+    try{ const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='swipe2news-'+(it.id||'quote')+'.jpg'; document.body.appendChild(a); a.click(); a.remove(); }catch(x){} return; }
+  try{ if(synth.speaking){ synth.cancel(); b.setAttribute('aria-pressed','false'); return; }
+    const l=TLG()?'en':LG(), M=MOTX[l]||MOTX.te, L=(l!=='te'&&it[l])||it, sl={te:'te-IN',en:'en-IN',hi:'hi-IN'}[l]||'te-IN';
+    const t=[L.text, L.by||it.by, (L.ctx||it.ctx)?M.mean+'. '+(L.ctx||it.ctx):'', (L.do||it.do)?M.act+'. '+(L.do||it.do):''].filter(Boolean).join('. ');
+    const u=new SpeechSynthesisUtterance(speakable(t,sl)); u.lang=sl; const v=bestVoice(sl); if(v) u.voice=v; u.rate=.95;
+    u.onend=u.onerror=()=>b.setAttribute('aria-pressed','false'); b.setAttribute('aria-pressed','true'); synth.speak(u); }catch(x){} },true);
 function dailyHTML(s,i){ const l=TLG()?'en':LG(), T=DTX[l]||DTX.te, L=(l!=='te'&&s[l])||s, k=s.dk;
+  if(k==='quote') return motHTML(s,L,l);
   const by=L.by||s.by||'', ctx=L.ctx||s.ctx||'';
   return `<article class="story s2n mandi dly dly-${esc(k)}" aria-label="${esc(T[k]||'')}">
   <div class="text dbody">
@@ -2485,7 +2558,78 @@ async function newsCard(s,mode){
   const blob=await new Promise(r=>c.toBlob(r,'image/jpeg',0.96)); if(blob&&url) blob.dataURL=url; return blob;
 }
 /* daily good-words share photo: 9:16 (2160×3840) with the Swipe2News logo, brand name, tagline and QR */
+/* share / save photo for the motivation card – same design as the card (owner 22 Nov 2026) */
+async function motCard(s){
+  try{ await document.fonts.ready; }catch(e){}
+  const l=TLG()?'en':LG(), M=MOTX[l]||MOTX.te, L=(l!=='te'&&s[l])||s, hl=(l!=='te'&&s[l])?(s[l].hl||''):(s.hl||'');
+  const by=L.by||s.by||'', mean=L.ctx||s.ctx||'', act=L.do||s.do||'';
+  const W=1080, H=1920, K=2, c=document.createElement('canvas'), ctx=c.getContext('2d'); c.width=W*K; c.height=H*K; ctx.setTransform(K,0,0,K,0,0); ctx.imageSmoothingQuality='high';
+  const PL='#4A0E3F', AP='#F5A23A', OR='#F08A1C', RU='#B8430F', CR='#FFFDF5', TE="'Noto Sans Telugu','Nirmala UI','Gautami','Noto Sans Devanagari',sans-serif", OU="'Outfit','Noto Sans',sans-serif";
+  const [brush,sun,spl,spr,leaves,scene,icon]=await Promise.all(['art/daily/mot-brush.svg','art/daily/mot-sun.webp','art/daily/mot-sprig-l.webp','art/daily/mot-sprig-r.webp','art/daily/mot-leaves.webp','art/daily/mot-scene.webp','icon-512.png'].map(u=>loadImg(u).catch(()=>null)));
+  // paper
+  let g=ctx.createRadialGradient(W/2,0,60,W/2,H*.4,H); g.addColorStop(0,'#FFF9EE'); g.addColorStop(.55,'#FBF1E1'); g.addColorStop(1,'#F4E3C8'); ctx.fillStyle=g; ctx.fillRect(0,0,W,H);
+  // header: icon · swipe2news. | Know More. Scroll Less.
+  ctx.textBaseline='middle';
+  if(icon){ ctx.save(); rrect(ctx,58,36,96,96,24); ctx.clip(); ctx.drawImage(icon,58,36,96,96); ctx.restore(); }
+  ctx.font=`800 66px ${OU}`; ctx.fillStyle=PL; ctx.fillText('swipe2news',178,86); let x=178+ctx.measureText('swipe2news').width; ctx.fillStyle=OR; ctx.fillText('.',x,86); x+=ctx.measureText('.').width;
+  ctx.strokeStyle=PL; ctx.lineWidth=2.5; ctx.beginPath(); ctx.moveTo(x+38,116); ctx.lineTo(x+46,54); ctx.stroke();
+  const tx=x+76; ctx.font=`italic 600 36px ${OU}`; ctx.save(); ctx.translate(tx,84); ctx.transform(1,0,-.12,1,0,0); ctx.fillStyle=PL; ctx.fillText('Know More. Scroll Less.',0,0); const tw=ctx.measureText('Know More. Scroll Less.').width; ctx.restore();
+  ctx.strokeStyle=OR; ctx.lineWidth=5; ctx.lineCap='round'; ctx.beginPath(); ctx.moveTo(tx+tw*.28,126); ctx.quadraticCurveTo(tx+tw*.7,108,tx+tw+10,104); ctx.stroke();
+  // sun, sprigs, brush title
+  if(sun) ctx.drawImage(sun,W/2-160,138,320,139);
+  if(spl) ctx.drawImage(spl,118,232,165,123); if(spr) ctx.drawImage(spr,812,232,140,124);
+  ctx.font=`800 74px ${TE}`; const tt=M.t, ttw=ctx.measureText(tt).width, bw=ttw+120;
+  if(brush) ctx.drawImage(brush,W/2-bw/2,262,bw,118); ctx.fillStyle=PL; ctx.textAlign='center'; ctx.fillText(tt,W/2,322); ctx.textAlign='left';
+  // quote box
+  const BX=26, BY=378, BW=W-52, BH=946; ctx.save(); rrect(ctx,BX,BY,BW,BH,42); ctx.clip();
+  g=ctx.createLinearGradient(0,BY,0,BY+BH); g.addColorStop(0,'#FFFAF1'); g.addColorStop(.6,'#FCF2E2'); g.addColorStop(1,'#FBEBD3'); ctx.fillStyle=g; ctx.fillRect(BX,BY,BW,BH);
+  const SH=Math.round(BW*233/898); if(scene){ ctx.drawImage(scene,BX,BY+BH-SH,BW,SH); const fg=ctx.createLinearGradient(0,BY+BH-SH,0,BY+BH-SH*.62); fg.addColorStop(0,'#FCF0DE'); fg.addColorStop(1,'rgba(252,240,222,0)'); ctx.fillStyle=fg; ctx.fillRect(BX,BY+BH-SH-2,BW,SH*.4); }
+  if(leaves) ctx.drawImage(leaves,BX+BW-262,BY-4,270,359);
+  ctx.restore(); ctx.strokeStyle='rgba(74,14,63,.2)'; ctx.lineWidth=2.5; rrect(ctx,BX,BY,BW,BH,42); ctx.stroke();
+  // Daily Motivation
+  ctx.font=`italic 600 38px ${OU}`; ctx.fillStyle=PL; ctx.textAlign='center'; ctx.fillText('Daily Motivation',W/2,BY+52); const dw=ctx.measureText('Daily Motivation').width; ctx.textAlign='left';
+  ctx.strokeStyle='rgba(74,14,63,.5)'; ctx.lineWidth=2; ctx.beginPath(); ctx.moveTo(W/2-dw/2-110,BY+52); ctx.lineTo(W/2-dw/2-24,BY+52); ctx.moveTo(W/2+dw/2+24,BY+52); ctx.lineTo(W/2+dw/2+110,BY+52); ctx.stroke();
+  // quote text with the highlighted word on a brush stroke
+  const QX=150, QW=W-QX-200, words=String(L.text||'').split(/\s+/).filter(Boolean); let fs=96, lines=[], lh=0;
+  const room=BH-SH-200-(by?90:0);
+  const isHL=(i)=>{ if(!hl) return false; const hw=hl.split(/\s+/); for(let a=0;a<=words.length-hw.length;a++){ if(hw.every((w,k)=>words[a+k].replace(/[.,!?;:]/g,'')===w.replace(/[.,!?;:]/g,''))) return i>=a&&i<a+hw.length; } return words[i].includes(hl); };
+  for(;fs>=46;fs-=2){ ctx.font=`800 ${fs}px ${TE}`; lh=fs*1.42; lines=[]; let cur=[], cw=0; const sp=ctx.measureText(' ').width;
+    words.forEach((w,i)=>{ const ww=ctx.measureText(w).width; if(cur.length&&cw+sp+ww>QW){ lines.push(cur); cur=[]; cw=0; } cur.push(i); cw+=(cur.length>1?sp:0)+ww; }); if(cur.length) lines.push(cur);
+    if(lines.length*lh<=room) break; }
+  let y=BY+120+Math.max(0,(room-lines.length*lh)/2*.6);
+  ctx.fillStyle=OR; ctx.font='900 190px Georgia,serif'; ctx.textBaseline='top'; ctx.fillText('“',QX-112,y-34);
+  ctx.textBaseline='middle'; ctx.font=`800 ${fs}px ${TE}`; const sp=ctx.measureText(' ').width; let endX=QX, endY=y;
+  lines.forEach(li=>{ let xx=QX; const cy=y+lh/2;
+    li.forEach((i,k)=>{ const w=words[i], ww=ctx.measureText(w).width; if(isHL(i)&&brush) ctx.drawImage(brush,xx-fs*.22,cy-fs*.62,ww+fs*.44,fs*1.24); xx+=ww+(k<li.length-1?sp:0); });
+    xx=QX; li.forEach((i,k)=>{ const w=words[i]; ctx.fillStyle=PL; ctx.fillText(w,xx,cy); xx+=ctx.measureText(w).width+(k<li.length-1?sp:0); }); endX=xx; endY=cy; y+=lh; });
+  ctx.fillStyle=OR; ctx.font='900 150px Georgia,serif'; ctx.fillText('”',endX+14,endY+fs*.45);
+  y+=26; ctx.textAlign='center';
+  if(by){ ctx.font=`600 46px ${TE}`; ctx.fillStyle=PL; ctx.fillText('— '+by,W/2,y+26); y+=70; }
+  if(s.src){ ctx.font=`600 26px ${TE}`; ctx.fillStyle='rgba(74,14,63,.6)'; ctx.fillText(M.src+': '+s.src,W/2,y+8,W-260); y+=40; }
+  ctx.textAlign='left';
+  // ornament
+  const oy=Math.min(y+24,BY+BH-SH+30); ctx.strokeStyle=RU; ctx.lineWidth=2.5; ctx.beginPath(); ctx.moveTo(W/2-230,oy); ctx.lineTo(W/2-70,oy); ctx.moveTo(W/2+70,oy); ctx.lineTo(W/2+230,oy); ctx.stroke();
+  ctx.beginPath(); ctx.ellipse(W/2,oy,17,13,0,0,Math.PI*2); ctx.stroke(); ctx.beginPath(); ctx.ellipse(W/2-42,oy,24,9,0,0,Math.PI*2); ctx.stroke(); ctx.beginPath(); ctx.ellipse(W/2+42,oy,24,9,0,0,Math.PI*2); ctx.stroke(); ctx.fillStyle=RU; ctx.beginPath(); ctx.arc(W/2,oy,5,0,Math.PI*2); ctx.fill();
+  // meaning + today's action rows
+  const rows=[[mean,M.mean,'book'],[act,M.act,'goal']].filter(r=>r[0]); let ry=BY+BH+26; const RH=rows.length>1?196:240;
+  for(const [txt,lab,ic] of rows){ ctx.fillStyle='rgba(255,251,243,.8)'; rrect(ctx,BX+10,ry,BW-20,RH,36); ctx.fill(); ctx.strokeStyle='rgba(74,14,63,.18)'; ctx.lineWidth=2.5; rrect(ctx,BX+10,ry,BW-20,RH,36); ctx.stroke();
+    try{ const svg='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(MIC[ic].replace('<svg ','<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" color="#4A0E3F" ')); const im=await loadImg(svg); ctx.drawImage(im,BX+50,ry+RH/2-46,92,92); }catch(e){}
+    ctx.font=`800 44px ${TE}`; const lw=wrap(ctx,lab,190); const pg=ctx.createRadialGradient(BX+262,ry+RH/2,10,BX+262,ry+RH/2,150); pg.addColorStop(0,'#FCD9AE'); pg.addColorStop(.7,'#FBE7CC'); pg.addColorStop(1,'rgba(251,231,204,0)'); ctx.fillStyle=pg; rrect(ctx,BX+165,ry+RH/2-(lw.length*29+18),200,lw.length*58+36,30); ctx.fill();
+    ctx.fillStyle=RU; ctx.textAlign='center'; lw.forEach((t,k)=>ctx.fillText(t,BX+265,ry+RH/2+(k-(lw.length-1)/2)*58)); ctx.textAlign='left';
+    ctx.strokeStyle='rgba(74,14,63,.3)'; ctx.lineWidth=2.5; ctx.beginPath(); ctx.moveTo(BX+400,ry+34); ctx.lineTo(BX+400,ry+RH-34); ctx.stroke();
+    let f=38, tl=[]; for(;f>=28;f-=2){ ctx.font=`600 ${f}px ${TE}`; tl=wrap(ctx,txt,BW-470); if(tl.length*f*1.45<=RH-40) break; }
+    ctx.fillStyle='#2B0A24'; tl.forEach((t,k)=>ctx.fillText(t,BX+430,ry+RH/2+(k-(tl.length-1)/2)*f*1.45));
+    ry+=RH+22; }
+  // footer bar (instead of buttons): where to find more
+  const FY=Math.max(ry+4,H-150), FH=H-FY-28; g=ctx.createLinearGradient(0,FY,0,FY+FH); g.addColorStop(0,'#6C1A4C'); g.addColorStop(1,PL); ctx.fillStyle=g; rrect(ctx,BX+10,FY,BW-20,FH,FH/2.4); ctx.fill();
+  ctx.font=`800 38px ${TE}`; ctx.fillStyle=CR; const f1=({te:'రోజూ మంచి మాటలు, వార్తలు · ',en:'Good words & news daily · ',hi:'रोज़ अच्छी बातें और ख़बरें · '})[l]||''; ctx.fillText(f1,BX+70,FY+FH/2-22); ctx.fillStyle=AP; ctx.fillText(({te:'ఉచిత యాప్',en:'Free app',hi:'मुफ़्त ऐप'})[l]||'Free app',BX+70+ctx.measureText(f1).width,FY+FH/2-22);
+  ctx.font=`700 30px ${OU}`; ctx.fillStyle='rgba(255,253,245,.92)'; ctx.fillText('swipe2news.com · @swipe2newsapp',BX+70,FY+FH/2+26);
+  try{ const q=await loadImg('brand/qr-share.png'); const QS=FH-34, qx=BX+BW-20-QS-34, qy=FY+17; ctx.fillStyle='#fff'; rrect(ctx,qx-8,qy-8+4,QS+16,QS+16-8,14); ctx.fill(); ctx.imageSmoothingEnabled=false; ctx.drawImage(q,qx,qy+4,QS-8,QS-8); ctx.imageSmoothingEnabled=true; }catch(e){}
+  ctx.textBaseline='alphabetic';
+  return await new Promise(r=>c.toBlob(r,'image/jpeg',0.95));
+}
 async function dailyCard(s){
+  if(s&&s.dk==='quote'){ try{ const m=await motCard(s); if(m) return m; }catch(e){} }
   try{ await document.fonts.ready; }catch(e){}
   const l=TLG()?'en':LG(), T=DTX[l]||DTX.te, L=(l!=='te'&&s[l])||s, k=s.dk;
   const W=1080, H=1920, K=2, c=document.createElement('canvas'), ctx=c.getContext('2d'); c.width=W*K; c.height=H*K; ctx.setTransform(K,0,0,K,0,0); ctx.imageSmoothingQuality='high';
