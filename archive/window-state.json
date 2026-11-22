@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T21:05:00+05:30",
+ "cutoff": "2026-11-22T21:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-20T06:05:00+05:30/2026-11-20T06:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "Feeds 06:14 IST, 70/70 ok, lookback 22:05 (19 Nov). Published 2: Hans Narasaraopet/Palnadu ZP poll arrangements (05:06), TT Ponnam Husnabad merger demand (00:33, late, claim). Skipped old: Hans Akvan 3kmph (17 Nov), Oneindia Akvan (17 Nov), Hans HYDRAA 2 lakes (16 Nov), Hans Srisailam Laksha Deepotsavam (16 Nov), Wire Doval summons (10 Nov). Not opened (fetch permission timeout): Hans gold 8th day, Hans edible oil, TT semiconductor editorial, TT AP power demand. Search did not surface: Hindu Akvan landfall (06:06), KUDA Kaloji, Guntur 3 killed, Adilabad donkeys, Hanamkonda farmer registry, HYDRAA four lakes, TG SAFE Kothagudem, NTR 16 MPPs, Chityal crash, Srisailam Koti Deepotsavam, APSRTC outsourced, Jagadish vs Uttam, Tirupati GP vigil, Nellore PM-RAHAT. District searches: Karimnagar, Kurnool, Khammam, Srikakulam, Nizamabad, Mahabubnagar, Nellore, Warangal (thin results). add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-20T06:35:00+05:30/2026-11-20T07:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 12:35 on 22 Nov. Feeds 20:47 IST (70/70 ok); 263 unseen uncovered events since 19:00 scanned by headline, 23 searched. add_repo tool not available; used existing clone. Published 4: V6 Velugu KTR phones health minister for Karimnagar medical students (20:36), HMTV Markapuram/Kambham SDC suspensions revoked (19:06), Telangana Today HYPEX 2026 3,000 visitors (19:53), Telangana Today Qutb Shahi Tombs nature walk (20:12). Duplicates: AP rice price caps (published 21 Nov), Siasat OBC census resolution (PAC story 17:05), KTR Hanumakonda speech (19:05), AP 100 ULB first meetings (08:35). Skipped as old: Tirupati Alipiri township (12 Oct). Not opened (direct feed URLs refused by fetch, search did not return them): The Hindu ONGC 23 acres Konaseema, Bay cyclonic circulation forecast, Telugu audio lessons app, Pancharama buses from Vizag, Indiramma Sooktulu book, BRS on Inter abolition, Kawal birds, SIMS Ramagundam CPR, Jagtial eye exams, Srikakulam debutants, Nellore YSRCP families, Bhimavaram BJP promise, SSSIHL Governor; Telangana Today skin-lightening creams. No district searches this run. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-22T21:05:00+05:30/2026-11-22T21:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 2,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 5,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 13:05 on 22 Nov. Feeds 21:17 IST (68/68 ok); 228 unseen uncovered events since 19:30 scanned by headline, ~12 searched. add_repo tool not available; used existing clone. Published 3: Deccan Chronicle Vizag ₹1.94 cr digital arrest 6 held (21:14), ThePrint/PTI FSSAI Bisleri prosecution (20:45), IND Today Remaddula house fire (20:53, district not named -> TS). Duplicates: Nitin Nabin Karimnagar padayatra preview (21 Nov), Godavari Pushkaralu logo contest (21 Nov), JEE Main deadline (21 Nov), Nepal PM visit (06:07), Pawan panchayat review (ETV live blog). Not opened: Siasat 447 drunk driving (fetch permission timeout), The Hindu Dwaraka Tirumala minors rescued (fetch permission timeout), ANI Bandi Sanjay SIR rallies (4xx); search did not return: Andhra Jyothy Ponnam drought national disaster, DC Srikalahasti satisfaction, NTV drainage rescue, Disha BRS-KRMB. No district searches this run. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7686,6 +7686,26 @@
   },
   {
    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPLWxHcDBWOWZxdFJMT1EyRE9ZRmFRVG1YSk0zeFF3YWJnRmdHdkRrR2pMZlc3R1YyYTB1UGwwNVpwSDFjRlBjRG93SXhFSGhjYWx3dDBrOUJXMDVZc0FKNk42UkRLc1RhcDdsSFFiWHFfdDdhalVMamhmYmlDRmxLRm1xYk9UTmpoeE1SYVhhSUNvTzZwNkdiYU1KQU9xT2dVbV9PS1lzenhJUEFrQ3lwUzNwYUhBZXNPNnBuNzRzQk5pempWZUw4SjdlVUMwWS1NV2VoS1k4aHpqaGlybkRLUmJzZHkydXh1?oc=5",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/vizag-man-loses-194-crore-after-digital-arrest-police-arrest-6-in-bengaluru-2006911",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://theprint.in/economy/fssai-sanctions-prosecution-against-bisleri-international-for-unsafe-packaged-drinking-water/3105946/",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://indtoday.com/remaddula-house-fire-short-circuit-gutters-home-rs-4-lakh-loss/",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/karimnagar-attains-saffron-hue-ahead-of-bjps-maha-padayatra-to-be-led-by-nitin-nabin-today/article71731611.ece",
    "d": "2026-11-22",
    "w": "duplicate"
   }
