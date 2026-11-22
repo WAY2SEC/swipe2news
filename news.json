@@ -1,8 +1,668 @@
 {
- "date": "22.11.2026",
- "updated": "2026-11-22T23:35:00+05:30",
+ "date": "23.11.2026",
+ "updated": "2026-11-23T05:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "ఏపీ · పంచాయతీ ఎన్నికలు",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/election-office",
+   "stat": "3,191 సర్పంచ్ పదవులకు",
+   "statl": "నవంబర్ 26న పోలింగ్",
+   "h": "ఏపీలో 3,191 సర్పంచ్ పదవులకు 26న పోలింగ్",
+   "p": "ఆంధ్రప్రదేశ్‌లో తొలి దశ గ్రామ పంచాయతీ ఎన్నికల పోలింగ్ నవంబర్ 26న జరుగుతుంది. 3,191 సర్పంచ్ పదవులకు 9,052 మంది, 25,061 వార్డు సభ్యుల పదవులకు 53,678 మంది పోటీలో ఉన్నారని రాష్ట్ర ఎన్నికల సంఘం శనివారం తెలిపింది. 758 సర్పంచ్, 14,727 వార్డు పదవులు ఏకగ్రీవం అయ్యాయి. తిరుపతి జిల్లాలో అత్యధికంగా 269 సర్పంచ్ పదవులకు పోలింగ్ ఉంది.",
+   "pts": [
+    "201 మండలాల్లో 3,949 సర్పంచ్ పదవులకు ప్రక్రియ మొదలైంది",
+    "అన్నమయ్య జిల్లాలో 74 ఏకగ్రీవం, 11 చోట్లే పోలింగ్",
+    "విశాఖ, గుంటూరు జిల్లాల్లో ఈ దశలో పోలింగ్ లేదు"
+   ],
+   "why": "తొలి దశ గ్రామాల ఓటర్లు నవంబర్ 26న తమ సర్పంచ్, వార్డు సభ్యులను ఎన్నుకుంటారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/first-phase-panchayat-polls-for-3191-sarpanch-posts-on-nov-26-2006980",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-22T23:42+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Panchayat polls",
+    "stat": "3,191 sarpanch posts",
+    "statl": "go to polls on November 26",
+    "loc": "Andhra Pradesh",
+    "h": "AP: 3,191 sarpanch posts go to polls Nov 26",
+    "p": "Polling for the first phase of gram panchayat elections in Andhra Pradesh is on November 26. The State Election Commission said on Saturday that 9,052 candidates are contesting 3,191 sarpanch posts and 53,678 are contesting 25,061 ward member posts. As many as 758 sarpanch and 14,727 ward posts were filled unanimously. Tirupati district has the most sarpanch contests, 269.",
+    "pts": [
+     "The process began for 3,949 sarpanch posts in 201 mandals",
+     "Annamayya district: 74 unanimous, polling in only 11",
+     "No polling in Visakhapatnam and Guntur districts in this phase"
+    ],
+    "why": "Voters in first-phase villages choose their sarpanch and ward members on November 26.",
+    "next": "Polling on November 26"
+   },
+   "hi": {
+    "cat": "आंध्र · पंचायत चुनाव",
+    "stat": "3,191 सरपंच पद",
+    "statl": "26 नवंबर को मतदान",
+    "loc": "आंध्र प्रदेश",
+    "h": "आंध्र: 3,191 सरपंच पदों पर 26 को मतदान",
+    "p": "आंध्र प्रदेश में ग्राम पंचायत चुनाव के पहले चरण का मतदान 26 नवंबर को होगा। राज्य चुनाव आयोग ने शनिवार को बताया कि 3,191 सरपंच पदों के लिए 9,052 और 25,061 वार्ड सदस्य पदों के लिए 53,678 उम्मीदवार मैदान में हैं। 758 सरपंच और 14,727 वार्ड पद निर्विरोध भरे गए। तिरुपति ज़िले में सबसे ज़्यादा 269 सरपंच पदों पर मतदान है।",
+    "pts": [
+     "201 मंडलों में 3,949 सरपंच पदों के लिए प्रक्रिया शुरू हुई थी",
+     "अन्नमय्या ज़िले में 74 निर्विरोध, सिर्फ़ 11 जगह मतदान",
+     "विशाखापत्तनम और गुंटूर ज़िलों में इस चरण में मतदान नहीं"
+    ],
+    "why": "पहले चरण के गाँवों के मतदाता 26 नवंबर को सरपंच और वार्ड सदस्य चुनेंगे।",
+    "next": "मतदान 26 नवंबर को"
+   },
+   "d": "23.11.2026",
+   "t": "05:05",
+   "next": "పోలింగ్ నవంబర్ 26న"
+  },
+  {
+   "cat": "ఏపీ · పంచాయతీ ఎన్నికలు",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/party-ysrcp",
+   "stat": "వైసీపీ ఫిర్యాదు",
+   "statl": "బెదిరింపులపై",
+   "h": "బెదిరింపులపై ఎస్‌ఈసీకి వైసీపీ ఫిర్యాదు",
+   "p": "పంచాయతీ ఎన్నికల్లో తమ అభ్యర్థులను పోలీసులు బెదిరిస్తున్నారని, బలవంతంగా నామినేషన్లు వెనక్కి తీయిస్తున్నారని వైఎస్సార్‌సీపీ నేతలు ఆదివారం రాష్ట్ర ఎన్నికల సంఘానికి ఫిర్యాదు చేశారు. మాచర్ల, గురజాల, గుంతకల్లు, గుత్తి, తాడిపత్రి, ఎచ్చెర్లలో బెదిరింపులు, దాడులు జరిగాయని ఆరోపించారు. హైకోర్టు ఆదేశాలను అమలు చేయాలని కోరారు. ఈ ఆరోపణలపై పోలీసులు, ప్రభుత్వ స్పందన కథనంలో లేదు.",
+   "pts": [
+    "ఫిర్యాదు చేసిన వారిలో పార్టీ లీగల్ సెల్ అధ్యక్షుడు మనోహర్ రెడ్డి",
+    "అభ్యర్థులకు రక్షణ, బాధ్యులైన అధికారులపై చర్యలు కోరారు"
+   ],
+   "why": "పంచాయతీ ఎన్నికలు స్వేచ్ఛగా జరుగుతున్నాయా అనే ప్రశ్న గ్రామ ఓటర్లకు ముఖ్యం.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ysrc-accuses-police-of-intimidating-candidates-seeks-sec-intervention-2006977",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-22T23:37+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "AP · Panchayat polls",
+    "stat": "YSRCP complaint",
+    "statl": "to SEC on intimidation",
+    "loc": "Andhra Pradesh",
+    "h": "YSRCP complains to SEC of intimidation",
+    "p": "YSRCP leaders complained to the State Election Commission on Sunday, alleging that police are threatening their candidates in the panchayat elections and forcing them to withdraw nominations. They alleged threats and attacks in Macherla, Gurazala, Guntakal, Gooty, Tadipatri and Etcherla, and asked that High Court orders be enforced. The report carries no response from the police or the government.",
+    "pts": [
+     "Party legal cell president Manohar Reddy was among those who complained",
+     "They sought protection for candidates and action against officials responsible"
+    ],
+    "why": "Whether panchayat polls are being held freely matters to village voters."
+   },
+   "hi": {
+    "cat": "आंध्र · पंचायत चुनाव",
+    "stat": "वाईएसआरसीपी की शिकायत",
+    "statl": "धमकियों पर चुनाव आयोग से",
+    "loc": "आंध्र प्रदेश",
+    "h": "धमकियों पर वाईएसआरसीपी की आयोग से शिकायत",
+    "p": "वाईएसआरसीपी नेताओं ने रविवार को राज्य चुनाव आयोग से शिकायत की। उनका आरोप है कि पंचायत चुनाव में पुलिस उनके उम्मीदवारों को धमका रही है और ज़बरदस्ती नामांकन वापस करवा रही है। उन्होंने माचर्ला, गुरजाला, गुंतकल, गुत्ती, ताड़ीपत्री और एच्चेर्ला में धमकियों और हमलों का आरोप लगाया और हाई कोर्ट के आदेश लागू करने की माँग की। रिपोर्ट में पुलिस या सरकार का जवाब नहीं है।",
+    "pts": [
+     "शिकायत करने वालों में पार्टी लीगल सेल अध्यक्ष मनोहर रेड्डी शामिल",
+     "उम्मीदवारों को सुरक्षा और ज़िम्मेदार अधिकारियों पर कार्रवाई की माँग"
+    ],
+    "why": "पंचायत चुनाव आज़ादी से हो रहे हैं या नहीं, यह गाँव के मतदाताओं के लिए अहम है।"
+   },
+   "d": "23.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ఏపీ · కడప",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/police-investigation",
+   "stat": "ఒకరికి తీవ్ర గాయాలు",
+   "statl": "మిడుతూరు ఘర్షణలో",
+   "h": "ఖాజీపేట మిడుతూరులో నామినేషన్ల ఘర్షణ",
+   "p": "వైఎస్ఆర్ కడప జిల్లా ఖాజీపేట మండలం మిడుతూరులో స్థానిక ఎన్నికల నామినేషన్లు వేయడానికి వెళ్తున్న రెండు వర్గాల మధ్య ఘర్షణ జరిగింది. ఇందులో ఒక టీడీపీ నేత తీవ్రంగా గాయపడ్డారు. ఆయనను ప్రాథమిక ఆరోగ్య కేంద్రానికి తరలించారు. ముద్దనూరు, కొండాపురం మండలాల్లోనూ ఘర్షణలు జరిగాయి. తమ అభ్యర్థులను నామినేషన్లు వేయకుండా అడ్డుకున్నారని వైఎస్సార్‌సీపీ మద్దతుదారులు ఆరోపించారు.",
+   "pts": [
+    "రెండు వర్గాలూ బి.కొత్తపల్లి పంచాయతీకి చెందినవి",
+    "పోలీసులూ అడ్డుకున్నారని వైఎస్సార్‌సీపీ మద్దతుదారుల ఆరోపణ"
+   ],
+   "why": "నామినేషన్ల సమయంలో గొడవలు ఆ గ్రామాల ప్రజల భద్రతపై ప్రభావం చూపుతాయి.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/td-leader-injured-in-clash-while-going-to-file-nomination-2006970",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-kadapa",
+   "loc": "మిడుతూరు, ఖాజీపేట మండలం",
+   "pub": "2026-11-22T23:26+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "AP · Kadapa",
+    "stat": "1 seriously hurt",
+    "statl": "in Miduthuru clash",
+    "loc": "Miduthuru, Khajipet mandal, Kadapa",
+    "h": "Nomination clash at Miduthuru in Khajipet",
+    "p": "Two groups on their way to file nominations for the local elections clashed at Miduthuru in Khajipet mandal of YSR Kadapa district. A TDP leader was seriously injured and was taken to a primary health centre. Clashes were also reported in Muddanur and Kondapuram mandals. YSRCP supporters alleged their candidates were stopped from filing nominations.",
+    "pts": [
+     "Both groups were from B. Kothapalli panchayat",
+     "YSRCP supporters alleged the police too obstructed them"
+    ],
+    "why": "Clashes during nominations affect the safety of people in those villages."
+   },
+   "hi": {
+    "cat": "आंध्र · कडपा",
+    "stat": "1 गंभीर घायल",
+    "statl": "मिडुतूरु झड़प में",
+    "loc": "मिडुतूरु, खाजीपेट मंडल, कडपा",
+    "h": "खाजीपेट के मिडुतूरु में नामांकन पर झड़प",
+    "p": "वाईएसआर कडपा ज़िले के खाजीपेट मंडल के मिडुतूरु में स्थानीय चुनाव का नामांकन भरने जा रहे दो गुटों में झड़प हुई। इसमें एक टीडीपी नेता गंभीर रूप से घायल हुए और उन्हें प्राथमिक स्वास्थ्य केंद्र ले जाया गया। मुद्दनूर और कोंडापुरम मंडलों में भी झड़पें हुईं। वाईएसआरसीपी समर्थकों ने आरोप लगाया कि उनके उम्मीदवारों को नामांकन भरने से रोका गया।",
+    "pts": [
+     "दोनों गुट बी. कोत्तपल्ली पंचायत के थे",
+     "वाईएसआरसीपी समर्थकों का आरोप: पुलिस ने भी रोका"
+    ],
+    "why": "नामांकन के समय झगड़े उन गाँवों के लोगों की सुरक्षा पर असर डालते हैं।"
+   },
+   "d": "23.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ఏపీ · విశాఖ",
+   "col": "--c-gov",
+   "art": "unity",
+   "pic": "e/municipal-council-meeting",
+   "stat": "శ్రావణి ప్రమాణం వాయిదా",
+   "statl": "తండ్రి మృతితో",
+   "h": "విశాఖ మేయర్ శ్రావణి ప్రమాణం వాయిదా",
+   "p": "గ్రేటర్ విశాఖపట్నం నగరపాలక సంస్థ మేయర్‌గా ఎన్నికైన ముక్క శ్రావణి సోమవారం జరిగే ప్రత్యేక సమావేశంలో ప్రమాణం చేయరు. ఆమె తండ్రి మృతి చెందడంతో ప్రమాణాన్ని వాయిదా వేసుకోవడానికి రాష్ట్ర ఎన్నికల సంఘం నవంబర్ 22న అనుమతి ఇచ్చింది. తర్వాతి సమావేశంలో ఆమె ప్రమాణం చేయవచ్చు. ఉదయం 11 గంటల సమావేశం, కార్పొరేటర్ల ప్రమాణం, డిప్యూటీ మేయర్ ఎన్నిక యథావిధిగా జరుగుతాయి.",
+   "pts": [
+    "ఎన్నికల సంఘం కార్యదర్శి ఎ.మల్లికార్జున ఆదేశాలు ఇచ్చారు",
+    "చట్టం ప్రకారం మూడు నెలల్లోపు ప్రమాణం చేయవచ్చు"
+   ],
+   "why": "విశాఖ నగర కొత్త పాలకవర్గం సోమవారం బాధ్యతలు తీసుకుంటుంది, మేయర్ ప్రమాణం మాత్రం తర్వాత జరుగుతుంది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/mayor-elect-sravani-to-skip-oath-taking-ceremony-on-monday-2006974",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-visakhapatnam",
+   "loc": "విశాఖపట్నం",
+   "pub": "2026-11-22T23:33+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Visakhapatnam",
+    "stat": "Oath deferred",
+    "statl": "for Vizag mayor-elect Sravani",
+    "loc": "Visakhapatnam",
+    "h": "Vizag mayor-elect Sravani's oath deferred",
+    "p": "Mukka Sravani, elected mayor of the Greater Visakhapatnam Municipal Corporation, will not take oath at Monday's special meeting. Following her father's death, the State Election Commission on November 22 allowed her to defer the oath; she can take it at the next meeting. The 11 am meeting, the corporators' oath and the deputy mayor's election will go ahead as scheduled.",
+    "pts": [
+     "Commission secretary A. Mallikarjuna issued the orders",
+     "The law allows the oath within three months"
+    ],
+    "why": "Visakhapatnam's new council takes charge on Monday, but the mayor's oath will come later."
+   },
+   "hi": {
+    "cat": "आंध्र · विशाखापत्तनम",
+    "stat": "शपथ टली",
+    "statl": "विशाखापत्तनम की महापौर श्रावणी की",
+    "loc": "विशाखापत्तनम",
+    "h": "विशाखापत्तनम की महापौर श्रावणी की शपथ टली",
+    "p": "ग्रेटर विशाखापत्तनम नगर निगम की निर्वाचित महापौर मुक्का श्रावणी सोमवार की विशेष बैठक में शपथ नहीं लेंगी। उनके पिता के निधन के कारण राज्य चुनाव आयोग ने 22 नवंबर को शपथ टालने की अनुमति दी; वे अगली बैठक में शपथ ले सकती हैं। सुबह 11 बजे की बैठक, पार्षदों की शपथ और उप महापौर का चुनाव तय समय पर होंगे।",
+    "pts": [
+     "आयोग के सचिव ए. मल्लिकार्जुन ने आदेश जारी किए",
+     "क़ानून के अनुसार तीन महीने के भीतर शपथ ली जा सकती है"
+    ],
+    "why": "विशाखापत्तनम की नई परिषद सोमवार को काम संभालेगी, पर महापौर की शपथ बाद में होगी।"
+   },
+   "d": "23.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · నగరం",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/municipal-complaint-visit",
+   "stat": "గుర్రం శిల్పానికి టెండర్",
+   "statl": "షేక్‌పేటలో",
+   "h": "షేక్‌పేటలో గుర్రం శిల్పానికి టెండర్",
+   "p": "హైదరాబాద్ షేక్‌పేట ఫ్లైఓవర్ కింద మాయమైన గుర్రం శిల్పం స్థానంలో కొత్తది పెట్టడానికి జీహెచ్‌ఎంసీ టెండర్ పిలిచింది. మూడు గుర్రాల ఈ శిల్పాన్ని గత ఏడాది ఫిబ్రవరిలో ప్రారంభించారు. ముందు గుర్రం అక్టోబర్ చివర్లో కనిపించకుండా పోయింది. సిబ్బంది దాన్ని అర కిలోమీటరు దూరంలో పాడైన స్థితిలో గుర్తించారు. దాన్ని బాగు చేయడం కుదరలేదు. అధికారులు దీనిపై స్పందించలేదు.",
+   "pts": [
+    "మూడు గుర్రాల శిల్పం ఖర్చు సుమారు ₹24 లక్షలని సమాచారం",
+    "టెండర్ గడువు నవంబర్ 10తో ముగిసింది",
+    "పోలీసులకు ఫిర్యాదు ఇవ్వలేదు"
+   ],
+   "why": "ప్రజల డబ్బుతో పెట్టిన శిల్పాల భద్రతపై నగరవాసులు ప్రశ్నిస్తున్నారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/ghmc-floats-tender-to-replace-damaged-horse-sculpture-missing-from-shaikpet-flyover-2006990",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "షేక్‌పేట",
+   "pub": "2026-11-23T00:32+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · City",
+    "stat": "Tender for horse sculpture",
+    "statl": "at Shaikpet flyover",
+    "loc": "Shaikpet, Hyderabad",
+    "h": "New horse sculpture for Shaikpet flyover",
+    "p": "GHMC has floated a tender to replace the horse sculpture that went missing from under the Shaikpet flyover in Hyderabad. The three-horse installation was inaugurated in February last year. The lead horse disappeared in late October; staff found it about half a kilometre away, damaged beyond repair. Officials did not comment.",
+    "pts": [
+     "The three-horse installation reportedly cost about ₹24 lakh",
+     "The tender deadline ended on November 10",
+     "No police complaint was filed"
+    ],
+    "why": "Residents are asking how public art paid for with public money is protected."
+   },
+   "hi": {
+    "cat": "हैदराबाद · शहर",
+    "stat": "घोड़े की मूर्ति का टेंडर",
+    "statl": "शेखपेट फ्लाईओवर पर",
+    "loc": "शेखपेट, हैदराबाद",
+    "h": "शेखपेट फ्लाईओवर पर लगेगी नई घोड़े की मूर्ति",
+    "p": "हैदराबाद के शेखपेट फ्लाईओवर के नीचे से ग़ायब हुई घोड़े की मूर्ति की जगह नई लगाने के लिए जीएचएमसी ने टेंडर निकाला है। तीन घोड़ों की यह कलाकृति पिछले साल फरवरी में शुरू हुई थी। आगे वाला घोड़ा अक्टूबर के आख़िर में ग़ायब हुआ; कर्मचारियों को वह करीब आधा किलोमीटर दूर ख़राब हालत में मिला और ठीक नहीं हो सका। अधिकारियों ने टिप्पणी नहीं की।",
+    "pts": [
+     "तीन घोड़ों की कलाकृति पर करीब ₹24 लाख ख़र्च होने की जानकारी",
+     "टेंडर की समय-सीमा 10 नवंबर को ख़त्म हुई",
+     "पुलिस में शिकायत नहीं दी गई"
+    ],
+    "why": "लोग पूछ रहे हैं कि जनता के पैसे से लगी कलाकृतियों की सुरक्षा कैसे होती है।"
+   },
+   "d": "23.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "తెలంగాణ · భూపాలపల్లి",
+   "col": "--c-money",
+   "art": "farm",
+   "pic": "e/karimnagar-paddy-procurement",
+   "stat": "ధాన్యం కొనలేదని ఆరోపణ",
+   "statl": "ఖాసింపల్లిలో",
+   "h": "భూపాలపల్లిలో ధాన్యం కొనాలన్న గండ్ర",
+   "p": "జయశంకర్ భూపాలపల్లి జిల్లా భూపాలపల్లి పురపాలక పరిధిలోని ఖాసింపల్లి ధాన్యం కొనుగోలు కేంద్రాన్ని మాజీ ఎమ్మెల్యే గండ్ర వెంకట రమణారెడ్డి ఆదివారం సందర్శించారు. కేంద్రాలు తెరిచినా ప్రభుత్వం కొనుగోళ్లు మొదలుపెట్టలేదని, రైతులు ఇబ్బంది పడుతున్నారని ఆయన ఆరోపించారు. కేంద్రం ప్రారంభించి చాలా రోజులైనా ధాన్యం కొనలేదని రైతులు ఆయనకు చెప్పారు. ప్రభుత్వ స్పందన కథనంలో లేదు.",
+   "pts": [
+    "ఖాసింపల్లి 12, 13 వార్డుల పరిధిలో ఉంది"
+   ],
+   "why": "ధాన్యం కొనుగోళ్లు ఆలస్యమైతే భూపాలపల్లి రైతులకు డబ్బు చేతికి రావడం ఆలస్యమవుతుంది.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/khammam/mla-gandra-demands-immediate-paddy-procurement-1144824",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "bhupalpally",
+   "loc": "ఖాసింపల్లి",
+   "pub": "2026-11-23T03:49+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Bhupalpally",
+    "stat": "Paddy not bought, he alleges",
+    "statl": "at Khasimpalli centre",
+    "loc": "Khasimpalli, Bhupalpally",
+    "h": "Gandra seeks paddy purchase in Bhupalpally",
+    "p": "Former MLA Gandra Venkata Ramana Reddy on Sunday visited the paddy procurement centre at Khasimpalli in Bhupalpally municipality, Jayashankar Bhupalpally district. He alleged that the government opened centres but has not started buying, leaving farmers in difficulty. Farmers told him no paddy was bought though many days have passed since the centre opened. The report carries no government response.",
+    "pts": [
+     "Khasimpalli falls under wards 12 and 13"
+    ],
+    "why": "If paddy purchases are delayed, Bhupalpally farmers get their money late."
+   },
+   "hi": {
+    "cat": "तेलंगाना · भूपालपल्ली",
+    "stat": "धान न ख़रीदने का आरोप",
+    "statl": "खासिमपल्ली केंद्र पर",
+    "loc": "खासिमपल्ली, भूपालपल्ली",
+    "h": "भूपालपल्ली में धान ख़रीद की माँग: गंड्रा",
+    "p": "पूर्व विधायक गंड्रा वेंकट रमणा रेड्डी ने रविवार को जयशंकर भूपालपल्ली ज़िले की भूपालपल्ली नगरपालिका के खासिमपल्ली धान ख़रीद केंद्र का दौरा किया। उन्होंने आरोप लगाया कि सरकार ने केंद्र तो खोले पर ख़रीद शुरू नहीं की, जिससे किसान परेशान हैं। किसानों ने उन्हें बताया कि केंद्र खुले कई दिन हो गए पर धान नहीं ख़रीदा गया। रिपोर्ट में सरकार का जवाब नहीं है।",
+    "pts": [
+     "खासिमपल्ली वार्ड 12 और 13 के दायरे में है"
+    ],
+    "why": "धान ख़रीद में देरी हुई तो भूपालपल्ली के किसानों को पैसा देर से मिलेगा।"
+   },
+   "d": "23.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "తెలంగాణ · కొత్తగూడెం",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "e/financial-scam-awareness",
+   "stat": "నవంబర్ 25 నుంచి",
+   "statl": "అగ్రిగోల్డ్ బాండ్ల తనిఖీ",
+   "h": "కొత్తగూడెంలో అగ్రిగోల్డ్ బాండ్ల తనిఖీ",
+   "p": "భద్రాద్రి కొత్తగూడెం జిల్లాలో అగ్రిగోల్డ్ డిపాజిటర్లు, ఏజెంట్ల అసలు బాండ్లు, నగదు రసీదుల తనిఖీ నవంబర్ 25 బుధవారం మొదలవుతుందని ఎస్పీ రోహిత్ రాజు ఆదివారం తెలిపారు. కొత్తగూడెం హేమచంద్రాపురంలోని పోలీసు హెడ్‌క్వార్టర్స్‌లో పనిదినాల్లో ఉదయం 10 నుంచి సాయంత్రం 5 గంటల వరకు ఇది జరుగుతుంది. మండలాల వారీగా రోజుకు 250 మందికే అవకాశం ఉంటుంది.",
+   "pts": [
+    "23 మండలాల వారికి ఏప్రిల్ 9 వరకు షెడ్యూల్",
+    "ఆధార్, పాన్, బ్యాంకు పాస్‌బుక్, ఫొటో తేవాలి",
+    "సహాయ నంబర్ 8712682128"
+   ],
+   "why": "అగ్రిగోల్డ్‌లో డబ్బు పెట్టిన జిల్లా వాసులు తమ మండలం తేదీన పత్రాలతో హాజరు కావాలి.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/khammam/justice-for-victims-agrigold-bond-verification-drive-to-begin-on-wednesday-1144819",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "bhadradri",
+   "loc": "కొత్తగూడెం",
+   "pub": "2026-11-23T03:37+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Kothagudem",
+    "stat": "From November 25",
+    "statl": "AgriGold bond verification",
+    "loc": "Kothagudem, Bhadradri",
+    "h": "AgriGold bond check starts in Kothagudem",
+    "p": "Verification of original AgriGold bonds and cash receipts of depositors and agents in Bhadradri Kothagudem district begins on Wednesday, November 25, SP Rohit Raju said on Sunday. It will be held on working days from 10 am to 5 pm at the police headquarters at Hemachandrapuram, Kothagudem. Only 250 people a day will be taken, mandal by mandal.",
+    "pts": [
+     "Schedule for 23 mandals runs until April 9",
+     "Bring Aadhaar, PAN, bank passbook and a photo",
+     "Helpline: 8712682128"
+    ],
+    "why": "District residents who put money in AgriGold should attend with papers on their mandal's date.",
+    "next": "Verification begins on November 25"
+   },
+   "hi": {
+    "cat": "तेलंगाना · कोत्तागुडेम",
+    "stat": "25 नवंबर से",
+    "statl": "एग्रीगोल्ड बॉन्ड की जाँच",
+    "loc": "कोत्तागुडेम, भद्राद्री",
+    "h": "कोत्तागुडेम में एग्रीगोल्ड बॉन्ड की जाँच",
+    "p": "भद्राद्री कोत्तागुडेम ज़िले में एग्रीगोल्ड के जमाकर्ताओं और एजेंटों के असली बॉन्ड और नक़द रसीदों की जाँच बुधवार 25 नवंबर से शुरू होगी, एसपी रोहित राजू ने रविवार को बताया। यह कोत्तागुडेम के हेमचंद्रापुरम स्थित पुलिस मुख्यालय में कामकाजी दिनों में सुबह 10 से शाम 5 बजे तक होगी। मंडल के हिसाब से रोज़ सिर्फ़ 250 लोगों को मौक़ा मिलेगा।",
+    "pts": [
+     "23 मंडलों का कार्यक्रम 9 अप्रैल तक",
+     "आधार, पैन, बैंक पासबुक और फ़ोटो लाएँ",
+     "हेल्पलाइन: 8712682128"
+    ],
+    "why": "एग्रीगोल्ड में पैसा लगाने वाले ज़िले के लोग अपने मंडल की तारीख़ पर काग़ज़ लेकर पहुँचें।",
+    "next": "जाँच 25 नवंबर से शुरू"
+   },
+   "d": "23.11.2026",
+   "t": "05:05",
+   "next": "తనిఖీ నవంబర్ 25న మొదలు"
+  },
+  {
+   "cat": "తెలంగాణ · నాగర్‌కర్నూల్",
+   "col": "--c-city",
+   "art": "campus",
+   "pic": "e/digital-classroom",
+   "stat": "30 కంప్యూటర్లు",
+   "statl": "ఎస్‌బీఐ ఇచ్చింది",
+   "h": "నాగర్‌కర్నూల్ కళాశాలకు 30 కంప్యూటర్లు",
+   "p": "నాగర్‌కర్నూల్ జిల్లాలోని ప్రభుత్వ ఆర్ట్స్ అండ్ కామర్స్ డిగ్రీ కళాశాలకు ఎస్‌బీఐ తన సామాజిక బాధ్యత కార్యక్రమం కింద 30 కంప్యూటర్లు, ఐదు ప్రొజెక్టర్లు, ₹24,90,700 చెక్కు ఇచ్చింది. ప్రిన్సిపాల్ డాక్టర్ కె.గీతాంజలి చెక్కు అందుకున్నారు. వీటిని డిజిటల్ లైబ్రరీ, ఆన్‌లైన్ తరగతులు, పోటీ పరీక్షల శిక్షణ, నైపుణ్య శిక్షణకు వాడతామని ఆమె చెప్పారు.",
+   "pts": [
+    "ఎస్‌బీఐ లేడీస్ క్లబ్ అధ్యక్షురాలు శ్రీదేవి సూర్య కార్యక్రమం నిర్వహించారు"
+   ],
+   "why": "గ్రామీణ విద్యార్థులకు కళాశాలలోనే కంప్యూటర్లు, ఆన్‌లైన్ తరగతులు అందుబాటులోకి వస్తాయి.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/warangal/digital-push-sbi-provides-computers-to-college-1144817",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "nagarkurnool",
+   "loc": "",
+   "pub": "2026-11-23T03:31+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Nagarkurnool",
+    "stat": "30 computers",
+    "statl": "given by SBI to degree college",
+    "loc": "Nagarkurnool",
+    "h": "SBI gives computers to Nagarkurnool college",
+    "p": "Under its social responsibility programme, SBI gave 30 computers, five projectors and a cheque for ₹24,90,700 to the Government Arts and Commerce Degree College in Nagarkurnool district. Principal Dr K. Gitanjali received the cheque. She said they will be used for a digital library, online classes, competitive exam coaching and skill training.",
+    "pts": [
+     "SBI Ladies Club president Sridevi Surya organised the event"
+    ],
+    "why": "Rural students get computers and online classes in their own college."
+   },
+   "hi": {
+    "cat": "तेलंगाना · नागरकर्नूल",
+    "stat": "30 कंप्यूटर",
+    "statl": "एसबीआई ने डिग्री कॉलेज को दिए",
+    "loc": "नागरकर्नूल",
+    "h": "नागरकर्नूल कॉलेज को एसबीआई से कंप्यूटर",
+    "p": "एसबीआई ने अपने सामाजिक दायित्व कार्यक्रम के तहत नागरकर्नूल ज़िले के सरकारी आर्ट्स एंड कॉमर्स डिग्री कॉलेज को 30 कंप्यूटर, पाँच प्रोजेक्टर और ₹24,90,700 का चेक दिया। प्रिंसिपल डॉ. के. गीतांजलि ने चेक लिया। उन्होंने कहा कि इनका इस्तेमाल डिजिटल लाइब्रेरी, ऑनलाइन कक्षाओं, प्रतियोगी परीक्षा की तैयारी और कौशल प्रशिक्षण में होगा।",
+    "pts": [
+     "एसबीआई लेडीज़ क्लब की अध्यक्ष श्रीदेवी सूर्या ने कार्यक्रम आयोजित किया"
+    ],
+    "why": "ग्रामीण छात्रों को अपने कॉलेज में ही कंप्यूटर और ऑनलाइन कक्षाएँ मिलेंगी।"
+   },
+   "d": "23.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ఏపీ · తిరుమల",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/diwali-lamps",
+   "stat": "నవంబర్ 24న",
+   "statl": "కార్తీక దీపోత్సవం",
+   "h": "తిరుమలలో నవంబర్ 24న కార్తీక దీపోత్సవం",
+   "p": "తిరుమల శ్రీ వేంకటేశ్వర స్వామి ఆలయంలో కార్తీక పౌర్ణమి సందర్భంగా నవంబర్ 24 మంగళవారం కార్తీక పర్వ దీపోత్సవం జరుగుతుంది. సాయంత్రం 5 నుంచి రాత్రి 8.30 గంటల వరకు నెయ్యి దీపాలు వెలిగిస్తారు. ఆనంద నిలయం చుట్టూ, ఉప ఆలయాల్లో వేలాది దీపాలు పెడతారు. ఆ రోజు పౌర్ణమి గరుడ సేవ, సహస్ర దీపాలంకార సేవలను టీటీడీ రద్దు చేసింది.",
+   "pts": [
+    "సాయంత్రం పూజలు ముగిసిన వెంటనే దీపోత్సవం మొదలవుతుంది"
+   ],
+   "why": "నవంబర్ 24న తిరుమల వెళ్లే భక్తులు రద్దయిన సేవలను గమనించి ప్రయాణం ప్లాన్ చేసుకోవాలి.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/tirupathi/karthika-parva-deepotsavam-at-tirumala-tomorrow-1144786",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "AP",
+   "place": "ap-tirupati",
+   "loc": "తిరుమల",
+   "pub": "2026-11-23T02:01+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Tirumala",
+    "stat": "On November 24",
+    "statl": "Karthika Deepotsavam at Tirumala",
+    "loc": "Tirumala, Tirupati",
+    "h": "Karthika Deepotsavam at Tirumala on Nov 24",
+    "p": "The Karthika Parva Deepotsavam will be held at the Sri Venkateswara Swamy temple in Tirumala on Tuesday, November 24, for Karthika Pournami. Ghee lamps will be lit from 5 pm to 8.30 pm. Thousands of lamps will be placed around the Ananda Nilayam and in the sub-temples. TTD has cancelled the Pournami Garuda Seva and Sahasra Deepalankara Seva that day.",
+    "pts": [
+     "The festival begins right after the evening rituals"
+    ],
+    "why": "Devotees going to Tirumala on November 24 should note the cancelled sevas when planning.",
+    "next": "Deepotsavam on November 24 from 5 pm"
+   },
+   "hi": {
+    "cat": "आंध्र · तिरुमला",
+    "stat": "24 नवंबर को",
+    "statl": "तिरुमला में कार्तिक दीपोत्सव",
+    "loc": "तिरुमला, तिरुपति",
+    "h": "तिरुमला में 24 नवंबर को कार्तिक दीपोत्सव",
+    "p": "तिरुमला के श्री वेंकटेश्वर स्वामी मंदिर में कार्तिक पूर्णिमा पर मंगलवार 24 नवंबर को कार्तिक पर्व दीपोत्सव होगा। शाम 5 बजे से रात 8.30 बजे तक घी के दीये जलाए जाएँगे। आनंद निलयम के चारों ओर और उप-मंदिरों में हज़ारों दीये रखे जाएँगे। इस कारण टीटीडी ने उस दिन की पूर्णिमा गरुड़ सेवा और सहस्र दीपालंकार सेवा रद्द की है।",
+    "pts": [
+     "शाम की पूजा के तुरंत बाद दीपोत्सव शुरू होगा"
+    ],
+    "why": "24 नवंबर को तिरुमला जाने वाले भक्त रद्द सेवाओं को देखकर यात्रा तय करें।",
+    "next": "दीपोत्सव 24 नवंबर शाम 5 बजे से"
+   },
+   "d": "23.11.2026",
+   "t": "05:05",
+   "next": "దీపోత్సవం నవంబర్ 24 సాయంత్రం 5 గంటలకు"
+  },
+  {
+   "cat": "తెలంగాణ · వాలీబాల్",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/volleyball-match",
+   "stat": "కాంస్య పతకం",
+   "statl": "కావా క్లబ్ వాలీబాల్‌లో",
+   "h": "తెలుగు బ్లాక్ హాక్స్‌కు వాలీబాల్ కాంస్యం",
+   "p": "ప్రైమ్ వాలీబాల్ లీగ్ జట్టు తెలుగు బ్లాక్ హాక్స్ కావా పురుషుల క్లబ్ వాలీబాల్ ఛాంపియన్‌షిప్ 2026లో కాంస్య పతకం గెలిచింది. భువనేశ్వర్ కిట్ విశ్వవిద్యాలయంలో ఆదివారం జరిగిన మూడో స్థానం మ్యాచ్‌లో కజకిస్తాన్‌కు చెందిన జెటిసు క్లబ్‌పై 3-1 సెట్ల తేడాతో నెగ్గింది. హెక్టర్ అలెక్సిస్ క్రూజ్ 29 పాయింట్లు సాధించాడు. టోర్నీ నవంబర్ 16–22 మధ్య జరిగింది.",
+   "pts": [
+    "సెట్ల స్కోర్లు 25-23, 21-25, 25-17, 25-22",
+    "జట్టు కోచ్ అర్జెంటీనాకు చెందిన ఏరియల్ గార్సియా",
+    "యజమాని కంకణాల అభిషేక్ రెడ్డి జట్టును అభినందించారు"
+   ],
+   "why": "తెలుగు పేరుతో ఆడే జట్టు అంతర్జాతీయ క్లబ్ టోర్నీలో పతకం గెలవడం ఇక్కడి వాలీబాల్ అభిమానులకు సంతోషం.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/sports/telugu-black-hawks-clinch-bronze-medal-1144806",
+   "sec": [
+    "telangana",
+    "sports"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-23T02:46+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Volleyball",
+    "stat": "Bronze medal",
+    "statl": "at CAVA club volleyball",
+    "loc": "Bhubaneswar",
+    "h": "Telugu Black Hawks win volleyball bronze",
+    "p": "Prime Volleyball League side Telugu Black Hawks won the bronze medal at the CAVA Men's Volleyball Club Championship 2026. In the third-place match at KIIT University, Bhubaneswar, on Sunday, they beat Kazakhstan's Zhetysu club 3-1. Hector Alexis Cruz scored 29 points. The tournament ran from November 16 to 22.",
+    "pts": [
+     "Set scores: 25-23, 21-25, 25-17, 25-22",
+     "The team's coach is Ariel Garcia of Argentina",
+     "Owner Kankanala Abhishek Reddy congratulated the team"
+    ],
+    "why": "A team playing under a Telugu name winning an international club medal cheers volleyball fans here."
+   },
+   "hi": {
+    "cat": "तेलंगाना · वॉलीबॉल",
+    "stat": "कांस्य पदक",
+    "statl": "कावा क्लब वॉलीबॉल में",
+    "loc": "भुवनेश्वर",
+    "h": "तेलुगु ब्लैक हॉक्स को वॉलीबॉल में कांस्य",
+    "p": "प्राइम वॉलीबॉल लीग की टीम तेलुगु ब्लैक हॉक्स ने कावा पुरुष क्लब वॉलीबॉल चैंपियनशिप 2026 में कांस्य पदक जीता। भुवनेश्वर के कीट विश्वविद्यालय में रविवार को तीसरे स्थान के मैच में उसने कज़ाख़स्तान के जेतिसु क्लब को 3-1 से हराया। हेक्टर एलेक्सिस क्रूज़ ने 29 अंक बनाए। टूर्नामेंट 16 से 22 नवंबर तक चला।",
+    "pts": [
+     "सेट स्कोर: 25-23, 21-25, 25-17, 25-22",
+     "टीम के कोच अर्जेंटीना के एरियल गार्सिया हैं",
+     "मालिक कंकणाला अभिषेक रेड्डी ने टीम को बधाई दी"
+    ],
+    "why": "तेलुगु नाम से खेलने वाली टीम का अंतरराष्ट्रीय क्लब पदक जीतना यहाँ के वॉलीबॉल प्रेमियों के लिए ख़ुशी है।"
+   },
+   "d": "23.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "భారత్ · క్రికెట్",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/cricket-match",
+   "stat": "48 పరుగులతో ఓటమి",
+   "statl": "పాక్-ఎ చేతిలో",
+   "h": "పాక్-ఎ చేతిలో భారత్-ఎ ఓటమి, తిలక్ సెంచరీ",
+   "p": "దోహాలో ఆదివారం జరిగిన ఆసియా కప్ రైజింగ్ స్టార్స్ మ్యాచ్‌లో పాకిస్తాన్-ఎ జట్టు భారత్-ఎపై 48 పరుగుల తేడాతో గెలిచింది. ముందు బ్యాటింగ్ చేసిన పాకిస్తాన్-ఎ 313 పరుగులు చేసింది. భారత్-ఎ 265 పరుగులకు ఆలౌట్ అయింది. కెప్టెన్ తిలక్ వర్మ 100 పరుగులతో వరుసగా రెండో సెంచరీ చేశాడు. అభిషేక్ శర్మ 70, షాబాజ్ అహ్మద్ 56 పరుగులు చేశారు.",
+   "pts": [
+    "పాకిస్తాన్-ఎలో హసన్ నవాజ్ 79 పరుగులు, 3 వికెట్లు",
+    "తిలక్, షాబాజ్ ఏడో వికెట్‌కు 112 పరుగులు జోడించారు",
+    "భారత్-ఎ తొలి మ్యాచ్‌లో నేపాల్‌పై గెలిచింది"
+   ],
+   "why": "హైదరాబాద్ ఆటగాడు తిలక్ వర్మ కెప్టెన్‌గా వరుస సెంచరీలు చేయడం తెలుగు క్రికెట్ అభిమానులకు ఆసక్తికరం.",
+   "src": "IANS",
+   "url": "https://ianslive.in/asia-cup-rising-stars-tilak-varmas-century-in-vain-as-india-a-lose-to-pakistan-a--20261123003614",
+   "sec": [
+    "india",
+    "sports"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-23T00:45+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Cricket",
+    "stat": "Lost by 48 runs",
+    "statl": "to Pakistan A",
+    "loc": "Doha",
+    "h": "India A lose to Pakistan A; Tilak hits 100",
+    "p": "Pakistan A beat India A by 48 runs in the Asia Cup Rising Stars match in Doha on Sunday. Batting first, Pakistan A made 313. India A were all out for 265. Captain Tilak Varma made 100, his second century in a row. Abhishek Sharma scored 70 and Shahbaz Ahmed 56.",
+    "pts": [
+     "For Pakistan A, Hasan Nawaz made 79 and took 3 wickets",
+     "Tilak and Shahbaz added 112 for the seventh wicket",
+     "India A had beaten Nepal in their first match"
+    ],
+    "why": "Hyderabad player Tilak Varma's back-to-back centuries as captain interest Telugu cricket fans."
+   },
+   "hi": {
+    "cat": "भारत · क्रिकेट",
+    "stat": "48 रन से हार",
+    "statl": "पाकिस्तान-ए के हाथों",
+    "loc": "दोहा",
+    "h": "पाकिस्तान-ए से हारा भारत-ए, तिलक का शतक",
+    "p": "दोहा में रविवार को एशिया कप राइज़िंग स्टार्स के मैच में पाकिस्तान-ए ने भारत-ए को 48 रन से हराया। पहले बल्लेबाज़ी करते हुए पाकिस्तान-ए ने 313 रन बनाए। भारत-ए 265 रन पर ऑल आउट हो गया। कप्तान तिलक वर्मा ने 100 रन बनाकर लगातार दूसरा शतक लगाया। अभिषेक शर्मा ने 70 और शाहबाज़ अहमद ने 56 रन बनाए।",
+    "pts": [
+     "पाकिस्तान-ए के हसन नवाज़ ने 79 रन बनाए और 3 विकेट लिए",
+     "तिलक और शाहबाज़ ने सातवें विकेट के लिए 112 रन जोड़े",
+     "भारत-ए ने पहले मैच में नेपाल को हराया था"
+    ],
+    "why": "हैदराबाद के खिलाड़ी तिलक वर्मा के कप्तान के तौर पर लगातार शतक तेलुगु क्रिकेट प्रेमियों के लिए दिलचस्प हैं।"
+   },
+   "d": "23.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "భారత్ · వ్యాపారం",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "e/industrial-production",
+   "stat": "₹28,000 కోట్ల డీల్",
+   "statl": "ఏపీఎల్ అపోలోతో",
+   "h": "టాటా స్టీల్ వ్యాపారాలు ఏపీఎల్ అపోలోకు",
+   "p": "టాటా స్టీల్ తన రెండు వ్యాపారాలను ఏపీఎల్ అపోలో ట్యూబ్స్‌కు మొత్తం ₹28,000 కోట్లకు అమ్ముతున్నట్లు ఆదివారం స్టాక్ ఎక్స్ఛేంజీలకు తెలిపింది. స్టీల్ ట్యూబులు, పైపుల వ్యాపారానికి ₹11,700 కోట్ల వరకు, టాటా స్టీల్ కలర్స్ సంస్థలో పూర్తి వాటాకు ₹16,300 కోట్లు వస్తాయి. నియంత్రణ సంస్థల అనుమతులు రావాలి. ఒప్పందం 2028 మార్చి 31లోపు పూర్తవుతుందని అంచనా.",
+   "pts": [
+    "జంషెడ్‌పూర్, హోసూర్, ఖోపోలి, సాహిబాబాద్ ట్యూబ్ కర్మాగారాలు ఇందులో ఉన్నాయి",
+    "ఏపీఎల్ అపోలో టర్నోవర్ సుమారు ₹23,079 కోట్లు"
+   ],
+   "why": "ఈ రెండు కంపెనీల షేర్లు ఉన్న మదుపరులు, స్టీల్ పైపుల వ్యాపారులు ఈ ఒప్పందాన్ని గమనించాలి.",
+   "src": "Business Standard",
+   "url": "https://www.business-standard.com/amp/companies/news/tata-steel-board-clears-28k-cr-sale-of-two-businesses-to-apl-apollo-tubes-126112200721_1.html",
+   "sec": [
+    "india",
+    "business"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-22T21:13+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Business",
+    "stat": "₹28,000 crore deal",
+    "statl": "with APL Apollo",
+    "loc": "India",
+    "h": "Tata Steel to sell two units to APL Apollo",
+    "p": "Tata Steel told the stock exchanges on Sunday that it is selling two businesses to APL Apollo Tubes for a total of ₹28,000 crore. It will get up to ₹11,700 crore for the steel tubes and pipes business and ₹16,300 crore for the full stake in Tata Steel Colors. Regulatory approvals are needed. The deal is expected to close by March 31, 2028.",
+    "pts": [
+     "Tube plants at Jamshedpur, Hosur, Khopoli and Sahibabad are included",
+     "APL Apollo's turnover is about ₹23,079 crore"
+    ],
+    "why": "Investors holding shares of the two companies and steel pipe traders should note the deal.",
+    "next": "The deal is to close by March 31, 2028"
+   },
+   "hi": {
+    "cat": "भारत · कारोबार",
+    "stat": "₹28,000 करोड़ का सौदा",
+    "statl": "एपीएल अपोलो के साथ",
+    "loc": "भारत",
+    "h": "टाटा स्टील के दो कारोबार एपीएल अपोलो को",
+    "p": "टाटा स्टील ने रविवार को स्टॉक एक्सचेंजों को बताया कि वह अपने दो कारोबार एपीएल अपोलो ट्यूब्स को कुल ₹28,000 करोड़ में बेच रही है। स्टील ट्यूब और पाइप कारोबार के लिए ₹11,700 करोड़ तक और टाटा स्टील कलर्स की पूरी हिस्सेदारी के लिए ₹16,300 करोड़ मिलेंगे। नियामकों की मंज़ूरी ज़रूरी है। सौदा 31 मार्च 2028 तक पूरा होने की उम्मीद है।",
+    "pts": [
+     "जमशेदपुर, होसुर, खोपोली और साहिबाबाद के ट्यूब कारख़ाने इसमें शामिल",
+     "एपीएल अपोलो का टर्नओवर करीब ₹23,079 करोड़"
+    ],
+    "why": "दोनों कंपनियों के शेयर रखने वाले निवेशक और स्टील पाइप कारोबारी इस सौदे पर ध्यान दें।",
+    "next": "सौदा 31 मार्च 2028 तक पूरा होना है"
+   },
+   "d": "23.11.2026",
+   "t": "05:05",
+   "next": "ఒప్పందం 2028 మార్చి 31లోపు పూర్తి కావాలి"
+  },
   {
    "cat": "ఏపీ · కర్నూలు",
    "col": "--c-election",
@@ -2643,696 +3303,6 @@
     ],
     "why": "खाड़ी देशों में काम कर रहे तेलुगु परिवारों के सदस्य स्थानीय सुरक्षा सूचनाओं पर ध्यान दें।"
    }
-  },
-  {
-   "cat": "తెలంగాణ · సిద్దిపేట",
-   "col": "--c-gov",
-   "pic": "e/public-policy-announcement",
-   "art": "",
-   "stat": "పేరు మార్పు",
-   "statl": "సిద్దిపేట కాలేజీలో",
-   "h": "సిద్దిపేట మెడికల్ కాలేజీకి కొత్త పేరు",
-   "p": "సిద్దిపేట ప్రభుత్వ మెడికల్ కాలేజీకి అనంతుల మదన్ మోహన్ ఇన్‌స్టిట్యూట్ ఆఫ్ మెడికల్ సైన్సెస్ అని పేరు పెడుతూ తెలంగాణ ప్రభుత్వం ఉత్తర్వులు ఇచ్చింది. నవంబర్ 19న సిద్దిపేట పర్యటనలో సీఎం రేవంత్ రెడ్డి ఆదేశించగా, నవంబర్ 20న ఉత్తర్వులు వచ్చాయి. జనరల్ ఆసుపత్రి, నర్సింగ్ కాలేజీ, ఆయుష్ ఆసుపత్రులకూ ఇదే పేరు చేరుతుంది. ఆయన సిద్దిపేట మాజీ ఎమ్మెల్యే.",
-   "pts": [
-    "ఉత్తర్వులు ఇచ్చింది ముఖ్య కార్యదర్శి క్రిస్టినా చోంగ్తూ",
-    "మదన్ మోహన్ నాలుగుసార్లు ఎమ్మెల్యే, మూడుసార్లు మంత్రి",
-    "సంస్థల పాలన, చదువు ఏర్పాట్లలో మార్పు లేదు"
-   ],
-   "why": "సిద్దిపేట ప్రజలు, వైద్య విద్యార్థులు ఇకపై ఈ సంస్థలను కొత్త పేరుతో పిలుస్తారు.",
-   "src": "The Siasat Daily",
-   "url": "https://www.siasat.com/telangana-renames-siddipet-medical-institutions-after-madan-mohan-3583919/",
-   "sec": [
-    "telangana",
-    "education"
-   ],
-   "st": "TG",
-   "place": "siddipet",
-   "loc": "సిద్దిపేట",
-   "pub": "2026-11-22T16:32+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Siddipet",
-    "stat": "Renamed",
-    "statl": "Siddipet medical institutions",
-    "loc": "Siddipet",
-    "h": "Siddipet medical college named after Madan Mohan",
-    "p": "The Telangana government has ordered that Government Medical College, Siddipet be renamed Anantula Madan Mohan Institute of Medical Sciences. CM Revanth Reddy directed this during his November 19 Siddipet visit and the order came on November 20. The general hospital, nursing college and AYUSH hospital there will also carry the name. Madan Mohan was a former Siddipet MLA and minister.",
-    "pts": [
-     "Order issued by Principal Secretary Christina Chongthu",
-     "Madan Mohan was a four-time MLA and three-time minister",
-     "No change in administrative or academic arrangements"
-    ],
-    "why": "People and medical students in Siddipet will now know these institutions by the new name."
-   },
-   "hi": {
-    "cat": "तेलंगाना · सिद्दीपेट",
-    "stat": "नाम बदला",
-    "statl": "सिद्दीपेट के चिकित्सा संस्थानों का",
-    "loc": "सिद्दीपेट",
-    "h": "सिद्दीपेट मेडिकल कॉलेज को मदन मोहन का नाम",
-    "p": "तेलंगाना सरकार ने सिद्दीपेट सरकारी मेडिकल कॉलेज का नाम अनंतुला मदन मोहन इंस्टीट्यूट ऑफ मेडिकल साइंसेज करने का आदेश दिया है। मुख्यमंत्री रेवंत रेड्डी ने 19 नवंबर के सिद्दीपेट दौरे में इसका निर्देश दिया था और 20 नवंबर को आदेश जारी हुआ। वहां के जनरल अस्पताल, नर्सिंग कॉलेज और आयुष अस्पताल के नाम में भी यही नाम जुड़ेगा। मदन मोहन सिद्दीपेट के पूर्व विधायक और पूर्व मंत्री थे।",
-    "pts": [
-     "आदेश प्रधान सचिव क्रिस्टीना चोंगथू ने जारी किया",
-     "मदन मोहन चार बार विधायक, तीन बार मंत्री रहे",
-     "प्रशासनिक और शैक्षणिक व्यवस्था में कोई बदलाव नहीं"
-    ],
-    "why": "सिद्दीपेट के लोग और मेडिकल छात्र अब इन संस्थानों को नए नाम से जानेंगे।"
-   },
-   "d": "22.11.2026",
-   "t": "17:05"
-  },
-  {
-   "cat": "తెలంగాణ · విద్య",
-   "col": "--c-gov",
-   "pic": "e/university-graduation",
-   "art": "",
-   "stat": "సోమవారం వరకు",
-   "statl": "హోమియో దరఖాస్తులు",
-   "h": "హోమియో యాజమాన్య సీట్లకు మళ్లీ దరఖాస్తులు",
-   "p": "తెలంగాణలోని ప్రైవేట్ హోమియో కాలేజీల్లో బీహెచ్‌ఎంఎస్ యాజమాన్య కోటా సీట్లకు కాళోజీ ఆరోగ్య విశ్వవిద్యాలయం మళ్లీ ఆన్‌లైన్ దరఖాస్తులు తీసుకుంటోంది. 2026-27 సంవత్సరానికి కేటగిరీ బీ, కేటగిరీ సీ (ఎన్నారై) సీట్లకు ఇది వర్తిస్తుంది. నీట్ యూజీ-2026లో అర్హత సాధించి, ఇంతవరకు నమోదు చేసుకోని వారు సోమవారం సాయంత్రం 4 గంటల లోపు దరఖాస్తు చేయాలి.",
-   "pts": [
-    "నమోదు ఫీజు ₹4,000",
-    "ముందే నమోదు చేసుకున్నవారు మళ్లీ చేయనవసరం లేదు",
-    "దరఖాస్తు వెబ్‌సైట్: tsbhmsmq.tsche.in"
-   ],
-   "why": "హోమియో వైద్య విద్యలో చేరాలనుకునే నీట్ అభ్యర్థులకు ఇది మరో అవకాశం.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/knruhs-reopens-bhms-quota-registration-34465da5",
-   "sec": [
-    "telangana",
-    "education"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pub": "2026-11-22T16:42+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Education",
-    "stat": "Till 4 pm Monday",
-    "statl": "Homoeopathy seat applications",
-    "loc": "Telangana",
-    "h": "KNRUHS reopens BHMS management quota forms",
-    "p": "Kaloji Narayana Rao University of Health Sciences has reopened online applications for BHMS management quota seats in private homoeopathic colleges in Telangana for 2026-27. It covers Category B and Category C (NRI) seats. Candidates who qualified in NEET UG-2026 and have not yet registered must apply by 4 pm on Monday.",
-    "pts": [
-     "Registration fee is ₹4,000",
-     "Those who registered earlier need not apply again",
-     "Apply at tsbhmsmq.tsche.in"
-    ],
-    "why": "NEET candidates who want to study homoeopathy get one more chance to apply.",
-    "next": "Applications close at 4 pm on Monday"
-   },
-   "hi": {
-    "cat": "तेलंगाना · शिक्षा",
-    "stat": "सोमवार शाम 4 बजे तक",
-    "statl": "होम्योपैथी सीटों के आवेदन",
-    "loc": "तेलंगाना",
-    "h": "बीएचएमएस मैनेजमेंट कोटा के आवेदन फिर शुरू",
-    "p": "कालोजी नारायण राव स्वास्थ्य विज्ञान विश्वविद्यालय ने तेलंगाना के निजी होम्योपैथी कॉलेजों में 2026-27 के लिए बीएचएमएस मैनेजमेंट कोटा सीटों के ऑनलाइन आवेदन फिर से खोले हैं। यह श्रेणी बी और श्रेणी सी (एनआरआई) सीटों के लिए है। नीट यूजी-2026 में पात्र और अब तक पंजीकरण न कराने वाले उम्मीदवार सोमवार शाम 4 बजे तक आवेदन करें।",
-    "pts": [
-     "पंजीकरण शुल्क ₹4,000",
-     "पहले पंजीकरण करा चुके उम्मीदवारों को दोबारा आवेदन नहीं करना",
-     "आवेदन: tsbhmsmq.tsche.in"
-    ],
-    "why": "होम्योपैथी पढ़ना चाहने वाले नीट उम्मीदवारों को आवेदन का एक और मौका मिला है।",
-    "next": "आवेदन सोमवार शाम 4 बजे बंद होंगे"
-   },
-   "d": "22.11.2026",
-   "t": "17:05",
-   "next": "దరఖాస్తుకు గడువు సోమవారం సాయంత్రం 4 గంటలు"
-  },
-  {
-   "cat": "తెలంగాణ · వికారాబాద్",
-   "col": "--c-gov",
-   "pic": "e/forest-conservation",
-   "art": "",
-   "stat": "చిరుత సంచారం",
-   "statl": "పరిగి మండలం నస్కల్‌లో",
-   "h": "నస్కల్‌లో రైతుపై దాడికి వచ్చిన చిరుత",
-   "p": "వికారాబాద్ జిల్లా పరిగి మండలం నస్కల్ గ్రామంలో ఆదివారం పొలంలో పని చేస్తున్న రైతుపై చిరుత దాడి చేయబోయింది. చిరుత దగ్గరకు రావడం గమనించిన రైతు పరుగెత్తి తప్పించుకున్నారు. ఆ ప్రాంతంలో చిరుత కనిపించిందని జిల్లా అటవీ అధికారి విశాల్ బత్తుల ధ్రువీకరించారు. ప్రజలు భయపడవద్దని, పొలాల్లో పని చేసేటప్పుడు జాగ్రత్తగా ఉండాలని సూచించారు.",
-   "pts": [
-    "కొన్ని రోజుల క్రితం దోమ మండలంలోనూ చిరుత కనిపించింది",
-    "చిరుతలు ఒకేచోట ఉండవని, తిరుగుతూ ఉంటాయని అధికారి చెప్పారు"
-   ],
-   "why": "పరిగి, దోమ ప్రాంత రైతులు పొలాలకు వెళ్లేటప్పుడు జాగ్రత్తగా ఉండాలి.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/leopard-f869e294",
-   "sec": [
-    "telangana",
-    "agri"
-   ],
-   "st": "TG",
-   "place": "vikarabad",
-   "loc": "నస్కల్, పరిగి మండలం",
-   "pub": "2026-11-22T16:51+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Vikarabad",
-    "stat": "Leopard sighted",
-    "statl": "at Naskal in Pargi mandal",
-    "loc": "Naskal, Pargi mandal",
-    "h": "Leopard tries to attack farmer in Naskal",
-    "p": "A leopard tried to attack a farmer working in his field at Naskal village in Pargi mandal of Vikarabad district on Sunday. The farmer saw the animal coming, ran and escaped. District Forest Officer Vishal Battula confirmed that a leopard was spotted in the area. He asked people not to panic but to be careful while working in fields.",
-    "pts": [
-     "A leopard was also seen in Doma mandal a few days ago",
-     "Officer said leopards keep moving and do not stay in one place"
-    ],
-    "why": "Farmers around Pargi and Doma need to be careful when going to their fields."
-   },
-   "hi": {
-    "cat": "तेलंगाना · विकाराबाद",
-    "stat": "तेंदुआ दिखा",
-    "statl": "परिगी मंडल के नस्कल में",
-    "loc": "नस्कल, परिगी मंडल",
-    "h": "नस्कल में तेंदुए ने किसान पर हमले की कोशिश की",
-    "p": "विकाराबाद ज़िले के परिगी मंडल के नस्कल गांव में रविवार को खेत में काम कर रहे एक किसान पर तेंदुए ने हमले की कोशिश की। तेंदुए को आता देख किसान भागकर बच गए। ज़िला वन अधिकारी विशाल बत्तुला ने इलाके में तेंदुआ दिखने की पुष्टि की। उन्होंने लोगों से घबराने के बजाय खेतों में काम करते समय सावधान रहने को कहा।",
-    "pts": [
-     "कुछ दिन पहले दोमा मंडल में भी तेंदुआ दिखा था",
-     "अधिकारी ने कहा, तेंदुए एक जगह नहीं रुकते"
-    ],
-    "why": "परिगी और दोमा क्षेत्र के किसानों को खेत जाते समय सावधान रहना होगा।"
-   },
-   "d": "22.11.2026",
-   "t": "17:05"
-  },
-  {
-   "cat": "తెలంగాణ · రాజకీయం",
-   "col": "--c-gov",
-   "pic": "e/party-congress",
-   "art": "",
-   "stat": "₹30 వేల కోట్ల",
-   "statl": "కరువు సాయం డిమాండ్",
-   "h": "కరువు సాయం కోరిన కాంగ్రెస్ పీఏసీ",
-   "p": "హైదరాబాద్ గాంధీ భవన్‌లో ఆదివారం తెలంగాణ కాంగ్రెస్ రాజకీయ వ్యవహారాల కమిటీ సమావేశమైంది. రాష్ట్రంలో కరువుకు ₹30 వేల కోట్ల సాయం ఇవ్వాలని, దాన్ని జాతీయ విపత్తుగా ప్రకటించాలని ప్రధానిని కోరాలని తీర్మానించింది. 2027 జనగణనలో ఓబీసీ కుల గణనకు ప్రత్యేక కాలమ్ పెట్టాలని కూడా డిమాండ్ చేసింది. వివరాలను మంత్రి పొన్నం ప్రభాకర్ మీడియాకు చెప్పారు.",
-   "pts": [
-    "సమావేశానికి సీఎం రేవంత్ రెడ్డి, పలువురు మంత్రులు హాజరు",
-    "డిసెంబర్ 7కు కాంగ్రెస్ ప్రభుత్వానికి మూడేళ్లు",
-    "పట్టభద్రుల ఎమ్మెల్సీ రెండు స్థానాల్లో గెలుపుకు ప్రణాళిక"
-   ],
-   "why": "కరువు సాయం, ఓబీసీ గణన డిమాండ్లు రాష్ట్ర రైతులకు, బీసీ వర్గాలకు సంబంధించినవి.",
-   "src": "NewsMeter",
-   "url": "https://newsmeter.in/politics/rs-30000-crore-aid-obc-census-and-grassroots-strength-what-telangana-congress-pac-is-planning-779781",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "గాంధీ భవన్",
-   "pub": "2026-11-22T16:43+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Politics",
-    "stat": "₹30,000 crore",
-    "statl": "drought aid to be sought from Centre",
-    "loc": "Gandhi Bhavan, Hyderabad",
-    "h": "Congress PAC seeks ₹30,000 cr drought aid",
-    "p": "The Telangana Congress Political Affairs Committee met at Gandhi Bhavan in Hyderabad on Sunday. It resolved to ask the Prime Minister for ₹30,000 crore in drought aid and to have the drought declared a national calamity. It also demanded a separate column for an OBC caste count in the 2027 Census. Minister Ponnam Prabhakar briefed the media.",
-    "pts": [
-     "CM Revanth Reddy and several ministers attended",
-     "Congress government completes three years on December 7",
-     "Plan to win both Graduate MLC seats"
-    ],
-    "why": "The drought aid and OBC count demands concern the state's farmers and backward classes."
-   },
-   "hi": {
-    "cat": "तेलंगाना · राजनीति",
-    "stat": "₹30,000 करोड़",
-    "statl": "सूखा राहत के लिए केंद्र से मांग का प्रस्ताव",
-    "loc": "गांधी भवन, हैदराबाद",
-    "h": "कांग्रेस पीएसी ने मांगी ₹30,000 करोड़ सूखा राहत",
-    "p": "हैदराबाद के गांधी भवन में रविवार को तेलंगाना कांग्रेस की राजनीतिक मामलों की समिति की बैठक हुई। समिति ने प्रधानमंत्री से सूखे के लिए ₹30,000 करोड़ की मदद मांगने और इसे राष्ट्रीय आपदा घोषित कराने का प्रस्ताव पारित किया। 2027 की जनगणना में ओबीसी जाति गणना के लिए अलग कॉलम की भी मांग की गई। मंत्री पोन्नम प्रभाकर ने मीडिया को जानकारी दी।",
-    "pts": [
-     "मुख्यमंत्री रेवंत रेड्डी और कई मंत्री शामिल हुए",
-     "7 दिसंबर को कांग्रेस सरकार के तीन साल पूरे",
-     "स्नातक एमएलसी की दोनों सीटें जीतने की योजना"
-    ],
-    "why": "सूखा राहत और ओबीसी गणना की मांगें राज्य के किसानों और पिछड़े वर्गों से जुड़ी हैं।"
-   },
-   "d": "22.11.2026",
-   "t": "17:05"
-  },
-  {
-   "cat": "భారత్ · ఉద్యోగులు",
-   "col": "--c-gov",
-   "pic": "e/peaceful-public-protest",
-   "art": "",
-   "stat": "నవంబర్ 23–27",
-   "statl": "నల్ల బ్యాడ్జీల నిరసన",
-   "h": "జీఎస్టీ అధికారుల నల్ల బ్యాడ్జీల నిరసన",
-   "p": "కేంద్ర జీఎస్టీ సూపరింటెండెంట్లు నవంబర్ 23 నుంచి 27 వరకు దేశవ్యాప్తంగా నల్ల బ్యాడ్జీలు ధరించి శాంతియుతంగా నిరసన తెలపనున్నారు. పదోన్నతులు, సర్వీసు సమస్యలు ఏళ్లుగా పెండింగ్‌లో ఉన్నాయని ఆల్ ఇండియా అసోసియేషన్ ఆఫ్ సూపరింటెండెంట్స్ ఆఫ్ సెంట్రల్ ట్యాక్స్ తెలిపింది. భోపాల్‌లో జరిగిన కేంద్ర కార్యవర్గ సమావేశంలో ఈ నిర్ణయం తీసుకున్నట్లు సెక్రటరీ జనరల్ రబీష్ చంద్ర ప్రకటించారు.",
-   "pts": [
-    "30 ఏళ్లకు పైగా సర్వీసులో ఒకే పదోన్నతి అని సంఘం వాదన",
-    "క్యాడర్ పునర్వ్యవస్థీకరణ, సకాలంలో పదోన్నతి కమిటీలు ప్రధాన డిమాండ్లు",
-    "సెంట్రల్ ఎక్సైజ్ ఇన్‌స్పెక్టర్ల సంఘం మద్దతు"
-   ],
-   "why": "తెలుగు రాష్ట్రాల్లోని కేంద్ర జీఎస్టీ కార్యాలయాల అధికారులూ ఈ నిరసనలో పాల్గొనే అవకాశం ఉంది.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/gst-superintendents-to-wear-black-badges-dc4a161a",
-   "sec": [
-    "india",
-    "jobs"
-   ],
-   "st": "IN",
-   "place": "IN",
-   "loc": "",
-   "pub": "2026-11-22T16:39+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "India · Employees",
-    "stat": "November 23–27",
-    "statl": "nationwide black badge protest",
-    "loc": "India",
-    "h": "GST superintendents plan black badge protest",
-    "p": "Central GST Superintendents will wear black badges in a peaceful nationwide protest from November 23 to 27. The All India Association of Superintendents of Central Tax says promotions and service issues have been pending for years. Secretary General Rabish Chandra said the decision was taken at the Central Executive Committee meeting in Bhopal.",
-    "pts": [
-     "Association says many get one promotion in over 30 years",
-     "Cadre restructuring and timely promotion committees are key demands",
-     "Central Excise Inspectors' association backs the protest"
-    ],
-    "why": "Officers in central GST offices in the Telugu states may also take part.",
-    "next": "Protest runs from November 23 to 27"
-   },
-   "hi": {
-    "cat": "भारत · कर्मचारी",
-    "stat": "23–27 नवंबर",
-    "statl": "देशभर में काली पट्टी विरोध",
-    "loc": "भारत",
-    "h": "जीएसटी अधीक्षकों का काली पट्टी विरोध",
-    "p": "केंद्रीय जीएसटी अधीक्षक 23 से 27 नवंबर तक देशभर में काली पट्टी बांधकर शांतिपूर्ण विरोध करेंगे। ऑल इंडिया एसोसिएशन ऑफ सुपरिंटेंडेंट्स ऑफ सेंट्रल टैक्स का कहना है कि पदोन्नति और सेवा से जुड़े मुद्दे वर्षों से लंबित हैं। महासचिव रबीश चंद्र ने बताया कि यह फैसला भोपाल में हुई केंद्रीय कार्यकारिणी की बैठक में लिया गया।",
-    "pts": [
-     "संघ का कहना: 30 साल से ज़्यादा सेवा में एक ही पदोन्नति",
-     "कैडर पुनर्गठन और समय पर पदोन्नति समितियां मुख्य मांगें",
-     "सेंट्रल एक्साइज़ इंस्पेक्टर संघ का समर्थन"
-    ],
-    "why": "तेलुगु राज्यों के केंद्रीय जीएसटी कार्यालयों के अधिकारी भी इसमें शामिल हो सकते हैं।",
-    "next": "विरोध 23 से 27 नवंबर तक"
-   },
-   "d": "22.11.2026",
-   "t": "17:05",
-   "next": "నిరసన నవంబర్ 23 నుంచి 27 వరకు"
-  },
-  {
-   "cat": "ఏపీ · ఆవిష్కరణ",
-   "col": "--c-city",
-   "pic": "e/disability-access",
-   "art": "",
-   "stat": "కంటితో కంప్యూటర్",
-   "statl": "నడిపే సాఫ్ట్‌వేర్",
-   "h": "అమలాపురం యువకుడి 'విజన్ యాక్సెస్'",
-   "p": "అమలాపురానికి చెందిన బీటెక్ విద్యార్థి అనిల్ బాబు కంటి కదలికలతో కంప్యూటర్, మొబైల్, టీవీ నడిపే 'విజన్ యాక్సెస్' సాఫ్ట్‌వేర్ తయారు చేశారు. చేతులు వాడలేని దివ్యాంగులు దీనితో ఫోల్డర్లు, యాప్‌లు తెరవవచ్చు. దివ్యాంగ విద్యార్థులు కంటితో అక్షరాలు ఎంచుకుని పరీక్ష రాసే విధానాన్నీ రూపొందించారు. రాజమహేంద్రవరంలో ఇటీవల జరిగిన ఎంటర్‌ప్రెన్యూర్ సమ్మిట్‌లో మొదటి బహుమతి గెలిచారు.",
-   "pts": [
-    "2024లో కాకినాడ జాతీయ ప్రాజెక్ట్ ఎక్స్‌పోలో మొదటి స్థానం",
-    "ప్రస్తుతం ఐదు కంపెనీల ప్రాజెక్టులు చేస్తున్నారు",
-    "సీఎం చంద్రబాబు, మంత్రి లోకేశ్ అభినందించారు"
-   ],
-   "why": "చేతులు వాడలేని దివ్యాంగులు సొంతంగా కంప్యూటర్ వాడటానికి ఇది ఉపయోగపడుతుంది.",
-   "src": "ETV Bharat",
-   "url": "https://www.etvbharat.com/te/state/young-man-developed-software-to-control-devices-using-movements-aps26112202595",
-   "sec": [
-    "telangana",
-    "innovation"
-   ],
-   "st": "AP",
-   "place": "ap-konaseema",
-   "loc": "అమలాపురం",
-   "pub": "2026-11-22T16:36+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Innovation",
-    "stat": "Vision Access",
-    "statl": "software to run a computer by eye movement",
-    "loc": "Amalapuram",
-    "h": "Amalapuram youth builds eye-control software",
-    "p": "Anil Babu, a B.Tech student from Amalapuram, has built 'Vision Access', software that lets users operate a computer, mobile or TV with eye movements. People who cannot use their hands can open folders and apps with it. He also designed a way for disabled students to write exams by choosing letters with their eyes. He won first prize at a recent Entrepreneur Summit in Rajahmundry.",
-    "pts": [
-     "First place at national project expo in Kakinada in 2024",
-     "Now doing projects for five companies",
-     "CM Chandrababu Naidu and Minister Lokesh praised him"
-    ],
-    "why": "It can help people who cannot use their hands to work on a computer on their own."
-   },
-   "hi": {
-    "cat": "आंध्र · नवाचार",
-    "stat": "विज़न एक्सेस",
-    "statl": "आंखों की हरकत से कंप्यूटर चलाने वाला सॉफ्टवेयर",
-    "loc": "अमलापुरम",
-    "h": "अमलापुरम के युवक का 'विज़न एक्सेस' सॉफ्टवेयर",
-    "p": "अमलापुरम के बीटेक छात्र अनिल बाबू ने 'विज़न एक्सेस' सॉफ्टवेयर बनाया है, जिससे आंखों की हरकत से कंप्यूटर, मोबाइल और टीवी चलाए जा सकते हैं। हाथों का इस्तेमाल न कर पाने वाले दिव्यांग इससे फ़ोल्डर और ऐप खोल सकते हैं। उन्होंने दिव्यांग छात्रों के लिए आंखों से अक्षर चुनकर परीक्षा लिखने की व्यवस्था भी तैयार की है। हाल में राजमहेंद्रवरम के उद्यमी सम्मेलन में उन्हें पहला पुरस्कार मिला।",
-    "pts": [
-     "2024 में काकीनाडा के राष्ट्रीय प्रोजेक्ट एक्सपो में पहला स्थान",
-     "अभी पांच कंपनियों के प्रोजेक्ट कर रहे हैं",
-     "मुख्यमंत्री चंद्रबाबू नायडू और मंत्री लोकेश ने सराहना की"
-    ],
-    "why": "हाथों का इस्तेमाल न कर पाने वाले दिव्यांग इससे खुद कंप्यूटर चला सकेंगे।"
-   },
-   "d": "22.11.2026",
-   "t": "17:05"
-  },
-  {
-   "cat": "తెలంగాణ · పోలీస్",
-   "col": "--c-gov",
-   "pic": "e/community-police-meeting",
-   "art": "",
-   "stat": "వెండి పతకం",
-   "statl": "పోలీస్ బ్యాండ్ పోటీల్లో",
-   "h": "పోలీస్ బ్యూగల్ బృందానికి వెండి పతకం",
-   "p": "హైదరాబాద్ సీఆర్‌పీఎఫ్ గ్రూప్ సెంటర్‌లో నవంబర్ 16 నుంచి 20 వరకు జరిగిన 27వ అఖిల భారత పోలీస్ బ్యాండ్ పోటీల్లో తెలంగాణ పోలీస్ బ్యూగల్ బృందం వెండి పతకం గెలిచింది. ఏడుగురు సభ్యుల ఈ బృందాన్ని డీజీపీ సీవీ ఆనంద్ ఆదివారం అభినందించారు. సభ్యులు వివిధ బెటాలియన్లు, శిక్షణ సంస్థల్లో పనిచేస్తున్నారు.",
-   "pts": [
-    "బృందానికి హెడ్ కానిస్టేబుల్ ఎస్. సంతోష్ కెప్టెన్",
-    "రాష్ట్ర పోలీసు, కేంద్ర సాయుధ బలగాల బృందాలు పోటీ పడ్డాయి",
-    "బ్యాండ్ బృందాలను బలోపేతం చేస్తామని డీజీపీ చెప్పారు"
-   ],
-   "why": "జాతీయ స్థాయిలో రాష్ట్ర పోలీసులకు గుర్తింపు రావడం దళంలోని కళాకారులకు ప్రోత్సాహం.",
-   "src": "Deccan Chronicle",
-   "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-police-bugle-team-wins-silver-medal-in-all-india-police-band-competition-2006855",
-   "sec": [
-    "telangana",
-    "sports"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "",
-   "pub": "2026-11-22T16:02+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Police",
-    "stat": "Silver medal",
-    "statl": "at All India Police Band meet",
-    "loc": "Hyderabad",
-    "h": "Telangana Police bugle team wins silver",
-    "p": "The Telangana Police bugle team won silver at the 27th All India Police Band Competition, held at the CRPF Group Centre in Hyderabad from November 16 to 20. DGP C.V. Anand congratulated the seven-member team on Sunday.",
-    "pts": [
-     "Head Constable S. Santhosh captained the team",
-     "State police and central armed police teams took part",
-     "DGP said band teams will be strengthened"
-    ],
-    "why": "National recognition encourages the performers within the state police force."
-   },
-   "hi": {
-    "cat": "तेलंगाना · पुलिस",
-    "stat": "रजत पदक",
-    "statl": "अखिल भारतीय पुलिस बैंड प्रतियोगिता में",
-    "loc": "हैदराबाद",
-    "h": "तेलंगाना पुलिस बिगुल टीम को रजत पदक",
-    "p": "हैदराबाद के सीआरपीएफ ग्रुप सेंटर में 16 से 20 नवंबर तक हुई 27वीं अखिल भारतीय पुलिस बैंड प्रतियोगिता में तेलंगाना पुलिस की बिगुल टीम ने रजत पदक जीता। डीजीपी सी.वी. आनंद ने रविवार को सात सदस्यीय टीम को बधाई दी।",
-    "pts": [
-     "हेड कांस्टेबल एस. संतोष टीम के कप्तान",
-     "राज्य पुलिस और केंद्रीय सशस्त्र बलों की टीमें शामिल",
-     "डीजीपी ने बैंड टीमों को मज़बूत करने की बात कही"
-    ],
-    "why": "राष्ट्रीय पहचान से पुलिस बल के कलाकारों का हौसला बढ़ता है।"
-   },
-   "d": "22.11.2026",
-   "t": "16:35"
-  },
-  {
-   "cat": "హైదరాబాద్ · ట్రాఫిక్",
-   "col": "--c-city",
-   "pic": "e/traffic-congestion",
-   "art": "",
-   "stat": "150 మందికి పైగా",
-   "statl": "సైకిల్ రైడర్లు",
-   "h": "సైబరాబాద్ మూవ్స్‌లో సైకిల్ ర్యాలీ",
-   "p": "ట్రాఫిక్ సమస్యలపై మూడు రోజుల 'సైబరాబాద్ మూవ్స్' కార్యక్రమం ఆదివారం మొదలైంది. ఉదయం 8 గంటలకు జేఎన్టీయూ నుంచి హైదరాబాద్ విశ్వవిద్యాలయం వరకు 12 కిలోమీటర్ల సైకిల్ ర్యాలీలో 150 మందికి పైగా పాల్గొన్నారు. ఒక్కరే కారులో వెళ్లకుండా ప్రజా రవాణా, కార్ పూలింగ్ వాడాలని సీపీ రమేశ్ కోరారు.",
-   "pts": [
-    "ఎమ్మెల్యే అరెకపూడి గాంధీ ర్యాలీని ప్రారంభించారు",
-    "ఐటీ కంపెనీలు కార్ పూలింగ్ ప్రోత్సహించాలని సీపీ సూచన",
-    "ప్రభుత్వం, కంపెనీలు, పౌరులు కలిసి చర్చించే వేదిక"
-   ],
-   "why": "ఐటీ కారిడార్‌లో రోజూ ట్రాఫిక్‌లో చిక్కుకునే ప్రయాణికులకు ఇది సంబంధించిన అంశం.",
-   "src": "NewsMeter",
-   "url": "https://newsmeter.in/hyderabad/cyberabad-moves-brings-govt-industry-and-citizens-together-to-discuss-sustainable-transport-779780",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "జేఎన్టీయూ, గచ్చిబౌలి",
-   "pub": "2026-11-22T15:53+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Traffic",
-    "stat": "150+ cyclists",
-    "statl": "joined the rally",
-    "loc": "JNTU to HCU, Hyderabad",
-    "h": "Cyberabad Moves opens with cycle rally",
-    "p": "The three-day 'Cyberabad Moves' urban mobility event began on Sunday with a 12 km cycle rally from JNTU to the University of Hyderabad, joined by over 150 cyclists. Cyberabad CP M. Ramesh urged people to use public transport and carpool.",
-    "pts": [
-     "MLA Arekapudi Gandhi flagged off the rally",
-     "CP asked IT firms to promote carpooling",
-     "Platform brings govt, industry and citizens together"
-    ],
-    "why": "It concerns commuters stuck in daily traffic in the IT corridor."
-   },
-   "hi": {
-    "cat": "हैदराबाद · ट्रैफिक",
-    "stat": "150 से ज़्यादा",
-    "statl": "साइकिल सवार शामिल",
-    "loc": "जेएनटीयू से एचसीयू, हैदराबाद",
-    "h": "साइबराबाद मूव्स की शुरुआत साइकिल रैली से",
-    "p": "शहरी यातायात पर तीन दिन का 'साइबराबाद मूव्स' कार्यक्रम रविवार को शुरू हुआ। जेएनटीयू से हैदराबाद विश्वविद्यालय तक 12 किलोमीटर की साइकिल रैली में 150 से ज़्यादा लोग शामिल हुए। सीपी एम. रमेश ने सार्वजनिक परिवहन और कारपूलिंग अपनाने की अपील की।",
-    "pts": [
-     "विधायक अरेकापुडी गांधी ने रैली को हरी झंडी दी",
-     "सीपी ने आईटी कंपनियों से कारपूलिंग बढ़ाने को कहा",
-     "सरकार, उद्योग और नागरिकों का साझा मंच"
-    ],
-    "why": "यह आईटी कॉरिडोर में रोज़ ट्रैफिक में फंसने वाले यात्रियों से जुड़ा है।"
-   },
-   "d": "22.11.2026",
-   "t": "16:35"
-  },
-  {
-   "cat": "హైదరాబాద్ · ఓటర్ల జాబితా",
-   "col": "--c-election",
-   "pic": "e/election-office",
-   "art": "voters",
-   "stat": "7.69 లక్షల",
-   "statl": "ఓటర్ల తనిఖీ పూర్తి",
-   "h": "హైదరాబాద్‌లో 7.69 లక్షల ఓటర్ల తనిఖీ",
-   "p": "హైదరాబాద్ జిల్లాలో ఓటర్ల జాబితా ప్రత్యేక సవరణపై జిల్లా ఎన్నికల అధికారి ఆర్.వి. కర్ణన్ పార్టీల ప్రతినిధులతో సమీక్షించారు. ఇంట్లో లేని, ఇల్లు మారిన, చనిపోయిన, రెండుసార్లు నమోదైన 19.41 లక్షల మంది ఓటర్లను గుర్తించగా, వారిలో 7.69 లక్షల మంది తనిఖీ పూర్తయింది. విచారణలు దాదాపు అన్నీ ముగిశాయి.",
-   "pts": [
-    "12.54 లక్షల నోటీసులు పంపిణీ చేశారు",
-    "270 విచారణలు ఇంకా మిగిలి ఉన్నాయి",
-    "పోలింగ్ కేంద్రాలపై సూచనలకు గడువు డిసెంబర్ 15"
-   ],
-   "next": "తుది ఓటర్ల జాబితా డిసెంబర్ 22న విడుదల",
-   "why": "హైదరాబాద్ ఓటర్లు తమ పేరు జాబితాలో ఉందో లేదో తుది జాబితాకు ముందే చూసుకోవాలి.",
-   "src": "IND Today",
-   "url": "https://indtoday.com/hyderabad-deo-reviews-sir-2026-progress-39-62-of-asdd-electors-verified/",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "",
-   "pub": "2026-11-22T16:00+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Voter list",
-    "stat": "7.69 lakh",
-    "statl": "voters verified",
-    "loc": "Hyderabad",
-    "h": "7.69 lakh voters verified in Hyderabad",
-    "p": "Hyderabad District Election Officer R.V. Karnan reviewed the special intensive revision of rolls with party representatives. Of 19.41 lakh absent, shifted or dead electors identified, 7.69 lakh (39.62%) have been verified, and almost all hearings are done.",
-    "pts": [
-     "12.54 lakh notices distributed",
-     "270 hearings still pending",
-     "Polling station suggestions due by December 15"
-    ],
-    "next": "Final electoral roll to be published on December 22",
-    "why": "Hyderabad voters should check their names before the final roll comes out."
-   },
-   "hi": {
-    "cat": "हैदराबाद · मतदाता सूची",
-    "stat": "7.69 लाख",
-    "statl": "मतदाताओं का सत्यापन",
-    "loc": "हैदराबाद",
-    "h": "हैदराबाद में 7.69 लाख मतदाताओं का सत्यापन",
-    "p": "हैदराबाद के ज़िला निर्वाचन अधिकारी आर.वी. कर्णन ने पार्टियों के प्रतिनिधियों के साथ मतदाता सूची के विशेष गहन पुनरीक्षण की समीक्षा की। चिह्नित 19.41 लाख अनुपस्थित, स्थानांतरित या मृत मतदाताओं में से 7.69 लाख (39.62%) का सत्यापन हो चुका है और लगभग सभी सुनवाइयां पूरी हैं।",
-    "pts": [
-     "12.54 लाख नोटिस बांटे गए",
-     "270 सुनवाइयां अभी बाकी",
-     "मतदान केंद्रों पर सुझाव 15 दिसंबर तक"
-    ],
-    "next": "अंतिम मतदाता सूची 22 दिसंबर को जारी होगी",
-    "why": "हैदराबाद के मतदाता अंतिम सूची से पहले अपना नाम जांच लें।"
-   },
-   "d": "22.11.2026",
-   "t": "16:35"
-  },
-  {
-   "cat": "ఏపీ · టెక్నాలజీ",
-   "col": "--c-gov",
-   "pic": "e/artificial-intelligence",
-   "art": "",
-   "stat": "₹27 కోట్ల",
-   "statl": "లీగల్ ఏఐ ఆర్డర్",
-   "h": "రైల్‌టెల్‌కు ఏపీ లీగల్ ఏఐ ఆర్డర్",
-   "p": "ఆంధ్రప్రదేశ్ ప్రభుత్వం కోసం రాష్ట్రవ్యాప్త 'లీగల్ ఏఐ అసిస్టెంట్' వేదికను తయారు చేసే ఆర్డర్ దక్కిందని రైల్‌టెల్ కార్పొరేషన్ స్టాక్ ఎక్స్ఛేంజ్‌కు తెలిపింది. ఏపీ టెక్నాలజీ సర్వీసెస్ ఇచ్చిన ఈ ఆర్డర్ విలువ పన్నులతో కలిపి సుమారు ₹27 కోట్లు. ఈ వేదికను గూగుల్ క్లౌడ్‌పై నడుపుతారని సంస్థ పేర్కొంది.",
-   "pts": [
-    "ఆర్డర్ లేఖ నవంబర్ 21న అందింది",
-    "తయారీ, హోస్టింగ్, నిర్వహణ సేవలు రైల్‌టెల్ చూస్తుంది",
-    "రైల్‌టెల్ రైల్వే శాఖ పరిధిలోని ప్రభుత్వ సంస్థ"
-   ],
-   "next": "పని మే 9, 2029 నాటికి పూర్తి చేయాలి",
-   "why": "ప్రభుత్వ న్యాయ పనుల్లో ఏఐ వాడకం పెరిగే దిశగా ఇది ఒక అడుగు.",
-   "src": "Business Upturn",
-   "url": "https://businessupturn.com/business/railtel-corporation-secures-rs27-02-56-350-order-for-ai-platform-from-andhra-pradesh-technology-services/",
-   "sec": [
-    "telangana",
-    "ai",
-    "business"
-   ],
-   "st": "AP",
-   "place": "AP",
-   "loc": "",
-   "pub": "2026-11-22T13:25+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Technology",
-    "stat": "₹27 crore",
-    "statl": "legal AI order",
-    "loc": "Andhra Pradesh",
-    "h": "RailTel wins AP legal AI platform order",
-    "p": "RailTel Corporation told the stock exchange it has won an order from Andhra Pradesh Technology Services to build and run a statewide Legal AI Assistant platform for the AP government. The order is worth about ₹27 crore, and the platform will run on Google Cloud.",
-    "pts": [
-     "Letter of acceptance received on November 21",
-     "RailTel will design, host and manage the platform",
-     "RailTel is a PSU under the Railways ministry"
-    ],
-    "next": "Work to be completed by May 9, 2029",
-    "why": "It is a step towards wider use of AI in the state government's legal work."
-   },
-   "hi": {
-    "cat": "आंध्र · तकनीक",
-    "stat": "₹27 करोड़",
-    "statl": "लीगल एआई ऑर्डर",
-    "loc": "आंध्र प्रदेश",
-    "h": "रेलटेल बनाएगी आंध्र के लिए लीगल एआई मंच",
-    "p": "रेलटेल कॉरपोरेशन ने स्टॉक एक्सचेंज को बताया कि उसे आंध्र प्रदेश टेक्नोलॉजी सर्विसेज़ से राज्य सरकार के लिए राज्यव्यापी 'लीगल एआई असिस्टेंट' मंच बनाने और चलाने का ऑर्डर मिला है। ऑर्डर करीब ₹27 करोड़ का है और मंच गूगल क्लाउड पर चलेगा।",
-    "pts": [
-     "स्वीकृति पत्र 21 नवंबर को मिला",
-     "डिज़ाइन, होस्टिंग और प्रबंधन रेलटेल करेगी",
-     "रेलटेल रेल मंत्रालय के तहत सार्वजनिक उपक्रम"
-    ],
-    "next": "काम 9 मई 2029 तक पूरा होना है",
-    "why": "यह सरकारी कानूनी कामकाज में एआई के बढ़ते इस्तेमाल की ओर कदम है।"
-   },
-   "d": "22.11.2026",
-   "t": "16:35"
-  },
-  {
-   "cat": "తెలంగాణ · ఆర్టీసీ",
-   "col": "--c-money",
-   "pic": "e/bus-stand-rush",
-   "stat": "₹36 కోట్ల",
-   "statl": "డీజిల్ ఆదా",
-   "h": "ఆర్టీసీకి ₹36 కోట్ల డీజిల్ ఆదా",
-   "p": "తెలంగాణ ఆర్టీసీ ఐ-అలర్ట్ టెక్నాలజీతో దాదాపు ₹36 కోట్ల డీజిల్ ఖర్చు ఆదా చేసినట్లు తెలిపింది. 1,500 అశోక్ లేలాండ్ బీఎస్-6 బస్సుల్లో ఈ వ్యవస్థ ఉంది. డ్రైవర్ గేర్లు, వేగం, బ్రేకులు ఎలా వాడుతున్నారో ఇది గమనించి మార్కులు ఇస్తుంది. నెలకు సుమారు 1.98 లక్షల లీటర్ల డీజిల్, దాదాపు ₹2 కోట్లు మిగులుతున్నాయని సంస్థ చెప్పింది.",
-   "pts": [
-    "నెలకు 507 టన్నుల కార్బన్ డయాక్సైడ్ తగ్గింది",
-    "ఏపీ, కర్ణాటక ఆర్టీసీలు ఈ వ్యవస్థ వివరాలు అడిగాయి",
-    "దేశంలో దీన్ని మొదట వాడిన ఆర్టీసీ తమదేనని సంస్థ చెప్పింది"
-   ],
-   "why": "డీజిల్ ఖర్చు తగ్గితే ఆర్టీసీపై భారం తగ్గి, ప్రయాణికులకు మెరుగైన సేవలు అందే వీలుంటుంది.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/tgsrtc-saves-rs-36-crore-on-diesel-2437633d",
-   "sec": [
-    "telangana",
-    "business"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pub": "2026-11-22T15:52+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · RTC",
-    "stat": "₹36 crore",
-    "statl": "saved on diesel",
-    "loc": "",
-    "h": "TGSRTC saves ₹36 crore on diesel",
-    "p": "TGSRTC says its i-ALERT technology has saved about ₹36 crore in diesel costs. The system is fitted in 1,500 Ashok Leyland BS-VI buses. It tracks how drivers use gears, speed and brakes and grades them after each duty. The corporation says it saves about 1.98 lakh litres of diesel, or nearly ₹2 crore, every month.",
-    "pts": [
-     "CO2 emissions down by 507 tonnes a month",
-     "AP and Karnataka RTCs have asked for details",
-     "TGSRTC says it was the first state RTC to adopt it"
-    ],
-    "why": "Lower diesel costs ease the burden on the RTC and can help it run better services for passengers."
-   },
-   "hi": {
-    "cat": "तेलंगाना · आरटीसी",
-    "stat": "₹36 करोड़",
-    "statl": "डीज़ल की बचत",
-    "loc": "",
-    "h": "टीजीएसआरटीसी ने डीज़ल पर ₹36 करोड़ बचाए",
-    "p": "टीजीएसआरटीसी ने बताया कि आई-अलर्ट तकनीक से डीज़ल खर्च में करीब ₹36 करोड़ की बचत हुई है। यह प्रणाली 1,500 अशोक लेलैंड बीएस-6 बसों में लगी है। यह देखती है कि चालक गियर, रफ्तार और ब्रेक का कैसे इस्तेमाल करते हैं और हर ड्यूटी के बाद उन्हें ग्रेड देती है। निगम के अनुसार हर महीने करीब 1.98 लाख लीटर डीज़ल यानी लगभग ₹2 करोड़ बच रहे हैं।",
-    "pts": [
-     "हर महीने 507 टन कार्बन डाइऑक्साइड कम",
-     "आंध्र और कर्नाटक की आरटीसी ने जानकारी मांगी",
-     "निगम के अनुसार इसे अपनाने वाली पहली राज्य आरटीसी"
-    ],
-    "why": "डीज़ल खर्च घटने से आरटीसी पर बोझ कम होगा और यात्रियों को बेहतर सेवा मिल सकेगी।"
-   },
-   "art": "",
-   "d": "22.11.2026",
-   "t": "16:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · పార్కులు",
-   "col": "--c-city",
-   "pic": "e/neglected-public-park",
-   "stat": "ఫిర్యాదులు",
-   "statl": "కృష్ణకాంత్ పార్కులో",
-   "h": "కృష్ణకాంత్ పార్కుపై వాకర్ల ఫిర్యాదులు",
-   "p": "హైదరాబాద్ యూసుఫ్‌గూడలోని కృష్ణకాంత్ పార్కును హైడ్రా కమిషనర్ ఏ.వీ. రంగనాథ్ ఆదివారం పరిశీలించారు. పక్కనే ఉన్న చెత్త డంపింగ్ యార్డు నుంచి దుర్వాసన వస్తోందని, దక్షిణం వైపు గోడ కట్టాలని వాకర్లు కోరారు. పాడైన జిమ్ పరికరాలను బాగు చేయాలని అడిగారు. పార్కులో జరుగుతున్న చెరువు పనులను కమిషనర్ దాదాపు గంటపాటు చూశారు.",
-   "pts": [
-    "చెరువును 3 నుంచి 12 ఎకరాలకు పెంచే ₹7.5 కోట్ల ప్రణాళిక",
-    "జూబ్లీహిల్స్, వెంకటగిరి వర్షపు నీటిని చెరువులోకి మళ్లిస్తారు",
-    "కృష్ణానగర్, అమీర్‌పేట ప్రాంతాల్లో ముంపు తగ్గించడమే లక్ష్యం"
-   ],
-   "why": "పార్కుకు రోజూ వచ్చే వాకర్లకు, వానలకు ముంపు ఎదుర్కొనే చుట్టుపక్కల కాలనీలకు ఇది ముఖ్యం.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/walkers-flag-park-issues-to-hydraa-846b816c",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "యూసుఫ్‌గూడ",
-   "pub": "2026-11-22T15:53+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Parks",
-    "stat": "Walkers' complaints",
-    "statl": "at Krishna Kanth Park",
-    "loc": "Yousufguda",
-    "h": "Walkers flag issues at Krishna Kanth Park",
-    "p": "HYDRAA Commissioner A.V. Ranganath visited Krishna Kanth Park in Yousufguda, Hyderabad, on Sunday. Walkers said foul smell comes from the garbage dumping yard next door and asked for a wall on the southern side. They also asked for repairs to damaged gym equipment. The Commissioner spent nearly an hour reviewing the lake works in the park.",
-    "pts": [
-     "₹7.5 crore plan to expand the lake from 3 to 12 acres",
-     "Rainwater from Jubilee Hills, Venkatagiri to be led into the lake",
-     "Aim is to cut flooding in Krishna Nagar, Ameerpet areas"
-    ],
-    "why": "It matters to daily walkers at the park and to nearby colonies that face flooding in the rains."
-   },
-   "hi": {
-    "cat": "हैदराबाद · पार्क",
-    "stat": "वॉकरों की शिकायतें",
-    "statl": "कृष्णकांत पार्क में",
-    "loc": "यूसुफगुडा",
-    "h": "कृष्णकांत पार्क में वॉकरों ने बताईं समस्याएं",
-    "p": "हाइड्रा आयुक्त ए.वी. रंगनाथ ने रविवार को हैदराबाद के यूसुफगुडा स्थित कृष्णकांत पार्क का दौरा किया। वॉकरों ने कहा कि बगल के कचरा डंपिंग यार्ड से बदबू आती है और दक्षिणी ओर दीवार बनाने की मांग की। उन्होंने खराब जिम उपकरण ठीक कराने को भी कहा। आयुक्त ने करीब एक घंटे तक पार्क में चल रहे झील के काम देखे।",
-    "pts": [
-     "झील को 3 से 12 एकड़ करने की ₹7.5 करोड़ की योजना",
-     "जुबली हिल्स, वेंकटगिरी का बारिश का पानी झील में लाया जाएगा",
-     "कृष्णा नगर, अमीरपेट इलाकों में जलभराव घटाना लक्ष्य"
-    ],
-    "why": "यह पार्क में रोज़ आने वाले वॉकरों और बारिश में जलभराव झेलने वाली आसपास की कॉलोनियों के लिए अहम है।"
-   },
-   "art": "",
-   "d": "22.11.2026",
-   "t": "16:05"
   },
   {
    "cat": "తెలంగాణ · నీరు",
