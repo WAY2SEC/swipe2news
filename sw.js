@@ -1,6 +1,6 @@
 // Swipe2News service worker: keeps the app working offline (villages, weak signal).
 // Pages and news: network first, but fall back to the saved copy after 4 s. Fonts and pictures: saved copy first.
-const CACHE = 's2n-v183';
+const CACHE = 's2n-v184'; // when this changes, run tools/bump_app.py (or put the same name in OneSignalSDKWorker.js): Safari only updates the worker when OneSignalSDKWorker.js itself changes
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'logo.png', 'logo-light.png', 'qr.png', 'icon-192.png', 'icon-512.png',
   'news.json', 'mandi.json', 'mandi.js?v=2', 'mandi/', 'morning/', 'archive/index.json'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(new Request(u, {cache: 'reload'})).catch(() => 0))))); self.skipWaiting(); });
@@ -25,6 +25,15 @@ self.addEventListener('fetch', e => {
     return;
   }
   if (u.origin !== location.origin) return;
+  // library pictures (/art/): show the saved copy at once, and quietly check the server for a newer picture (a replaced picture appears from the next view; owner 23 Nov 2026: BRS logo picture stayed old on iPhone)
+  if (/^\/art\//.test(u.pathname) && /\.(jpg|jpeg|png|webp|svg)$/i.test(u.pathname)) {
+    e.respondWith(caches.match(req, {ignoreSearch: true}).then(c => {
+      const net = fetch(req.url, {cache: 'no-cache', credentials: 'same-origin'}).then(r => { if (r && r.ok) { const copy = r.clone(); caches.open(CACHE).then(x => x.put(req, copy)); } return r; });
+      if (c) { e.waitUntil(net.catch(() => 0)); return c; }
+      return net;
+    }));
+    return;
+  }
   if (/\.(jpg|jpeg|png|webp|svg|woff2?)$/i.test(u.pathname) && !/^\/cards\//.test(u.pathname)) {
     e.respondWith(caches.match(req, {ignoreSearch: true}).then(c => c || fetch(req).then(r => { if (r.ok) { const copy = r.clone(); caches.open(CACHE).then(x => x.put(req, copy)); } return r; })));
     return;
