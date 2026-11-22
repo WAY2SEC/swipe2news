@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T09:05:00+05:30",
+ "cutoff": "2026-11-22T09:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T13:05:00+05:30/2026-11-19T13:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 2,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Feeds 13:34 IST, 69/70 ok, lookback 05:05, 729 uncovered TG/AP events. Published 3: DC Sajjanar Fire Services DG (13:11), Siasat Hyderabad 35-km pod car network (11:08, late), Telangana Today Raja Singh backs Rajgopal Reddy (12:55, late). Duplicates: Addagudur gurukul arrests, Uttam Sagar water, IRC Hyderabad (covered 18 Nov). Skipped (before lookback): TT dry weather forecast (14 Nov), DC Akvan shifts north (18 Nov 23:16). Not opened (feed URLs refused by WebFetch, no search-result URL found): The Hindu Akvan red alert north AP, Hindu TG chill 11C, Hindu ANGRAU A grade, Hindu AP lorry VAHAN glitch, TT Congress high command report, Siasat email spoofing Rs1.5 cr, Siasat Hyderabad student US shooting, V6 Akvan trains cancelled, Yadagirigutta koti pushparchana, Reuters Saudi oil. No district searches. add_repo not available; used clone."
-  },
   {
    "window": "2026-11-19T13:35:00+05:30/2026-11-19T14:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Lookback from 00:35 on 22 Nov. Feeds 08:53 IST, 70/70 ok; 128 uncovered events first seen since 07:50 reviewed. add_repo not available; used existing clone. Published 15: V6 x4 (SSC corrections via Mee-Seva, AMR study, Poultry Expo, Sevalal temple), HMTV x3 (Musi plan, Kothagudem scanning centres, Eluru child begging - sensitive), Vaartha adangal by post, Oneindia x2 (Nanded-Kollam special, cyclone forecast), NT Mancherial fog, DC NH-167 (claim, sensitive), Hans/IANS India 720/9, Siasat/PTI Modi gold (claim), TT/IANS Hodeidah strikes (claim). Duplicates of earlier stories: Siasat ACB sub-engineer Gandhinagar, V6 BJP chief on Meta, DC ORR four-car crash. Skipped old: LiveLaw AP HC constable clause (13 Nov), Reuters Nvidia SEC probe (20 Nov), Reuters Honda recall (20 Nov); V6 TDR system (body 'CMC' unclear). Not opened: NIE items (road capacity 2047, Kia feeder units, Kadapa nominations, HC 400 posts), Suryaa East Godavari SP fog advisory. check_news.py e/ key false errors as before; it trimmed 15 older stories from news.json; lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-22T09:05:00+05:30/2026-11-22T09:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 2,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 9,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 01:05 on 22 Nov. Feeds 09:16 IST, 68/68 ok; ~130 uncovered local events reviewed, most already covered under other links. add_repo not available; used existing clone. Published 2 from ETV Bharat live blogs: Tadipatri JC leaders' dharna (claim, sensitive), Iran F-16 claim / CENTCOM denial (claim). Duplicates of earlier stories: Ongole/Pelluru car crash (Hans 22 Nov follow-up), AP rice price caps (South First), Karimnagar BJP march, TG exports 68%, Shamshabad 1.049 kg wallet gold, Tirumala wait, NHM teams, mayors oath, Kotia arrests. Skipped: Miyapur BJP signature drive (18 Nov), SI hall tickets (covered 20 Nov with SI prelims), Chahal joins BJP (minor). Not opened: Telangana Today IRGC Bahrain (permission timeout), Hyderabad Mail Miyapur 386 acres, TOI AP rice caps, Hans RTO extortion Mahabubabad, HMTV Hindupur quacks, NIE cochlear implant Hanamkonda, Samayam OU Rs 1,000 cr, Adda247 526 asst professor posts (search found nothing). District searches (Adilabad, Nizamabad, Khammam, Srikakulam, Nellore, Anantapur, Warangal, Siddipet/Medak) returned only tag pages. check_news.py e/ key false errors and live-blog same-link duplicate as before; lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6568,6 +6568,36 @@
    "url": "https://www.mykhel.com/cricket/ind-vs-nz-india-register-highest-total-in-test-history-on-new-zealand-soil-get-2nd-spot-in-prestig-459763.html",
    "d": "2026-11-22",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--22nd-november-2026-news-today-ap-live-news-updates-telugu-breaking-news-aps26112200385#tadipatri",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/live-blog--22nd-november-2026-latest-top-news-information-across-telangana-tgs26112200403#f16",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/ongole/four-die-as-car-hits-culvert-in-prakasam-district-1144582",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://thesouthfirst.com/andhrapradesh/andhra-pradesh-imposes-stock-limits-on-rice-to-curb-hoarding-caps-prices-at-%E2%82%B947-%E2%82%B982-a-kg/",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.channelhyderabad.com/2026/11/miyapur-govt-lands-auction-dispute.html",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://education.sakshi.com/en/telangana-jobs/education-news/telangana-si-preliminary-exam-2026-november-29-hall-tickets-november-22-over-160-lakh-candidates-appear-202787",
+   "d": "2026-11-22",
+   "w": "skipped"
   }
  ]
 }
