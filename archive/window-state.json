@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T11:05:00+05:30",
+ "cutoff": "2026-11-22T11:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T15:05:00+05:30/2026-11-19T15:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 2,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Feeds 15:11 IST, 70/70 ok, lookback 07:05, 855 uncovered TG/AP events in feed (most already published). Published 2: ETV Bharat Narsingi Pacifica Hillcrest fire (13:32), Telugu360 Congress high command on Rajgopal remarks (11:49, late, claim). Duplicates: DC/PTI Cheyutha 4.6 lakh pensions Nov 26 (covered by 10TV 09:17 story), Sakshi Post/Hans Akvan red alert (covered 08:01). Old (first reported before lookback): Krishnapatnam port 288 EVs (DC 18 Nov 23:21), HIV Surakshit districts (18 Nov 20:20), Houthi Riyadh Aramco attack (8 Nov). Not opened: Hindu Akvan spares most of Andhra, Hindu ANGRAU advisory, TT Rajgopal report, BigMint CCI cotton, ProjectsMonitor Yadadri TPS. No district searches (time). add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T15:35:00+05:30/2026-11-19T16:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 02:35 on 22 Nov. Feeds 10:59 IST, 70/70 ok; 92 uncovered events first seen since 10:05 reviewed. add_repo not available; used existing clone. Published 5: Telangana Today Ananthagiri Ghat lorry-auto crash, 4 dead (10:43, no names); Namasthe Telangana HMDA plot auction Dec 14-21 (10:53, claim; Shabad plot count left out as unclear); Telangana Today Capt Kaoosji dies at 82 (10:50); Deccan Chronicle Manubolu bus into fields, 4 hurt (10:14); Korea Herald S Korea education minister resigns (13:59 KST). Duplicates: ETV Naidu press meet on YSRCP (same press meet as 06:05 story), cyclone explainers (covered 09:05), Simhachalam darshan rule (07:05), AgriGold bonds Kothagudem (21 Nov), DC/NT/AJ/Disha copies of Vikarabad crash. Skipped: Telangana SI hall tickets - only adda247 (02:02, before lookback, says 'will be out') and indtoday 20 Nov opened; TOI 10:06 not found. Not opened (search found nothing): BusinessLine non-basmati rice export curbs, HMTV Kadthal Rs 2.08 cr, ETV Annavaram teppotsavam, TV9 castor seeds children, Samayam Kadapa Janasena worker death, HMTV Kurnool attack. No district searches this run. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-22T11:05:00+05:30/2026-11-22T11:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 3,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 03:05 on 22 Nov. Feeds 11:12 IST, 70/70 ok; 23 uncovered events first seen since 10:55 reviewed. add_repo not available; used existing clone. Published 3: Telangana Today MSESU Kothagudem alumni seek faculty posts (11:04); Deccan Chronicle Chandrampet bypass RTC bus-car collision, 2 hurt (11:04); Hans India MP Kadiyam Kavya graduate voter enrolment (05:24, late-found). Duplicate: Hans India Pelluru (Prakasam) car crash 4 dead (covered 21 Nov). Not opened (search found nothing): ANI CM Revanth PAC meeting, India Today Andhra SUV crash 2 killed (district unknown), NT woman IPS obscene videos, HMTV Moinabad Lotus Pond swing death, HMTV Mancherial temple. Not covered (not major / other state / sports): PIB Kutch mishap, India vs NZ Wellington Test, CJI on AI in legal education, Siasat EV and CSK items. 3 district searches. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6761,6 +6761,26 @@
   },
   {
    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTXhJVmJRREl2Mi1zdjBVTUNxWHdFOU5oZUZWNlFDbFVkcXBaUjVGMUxkc184ZzYtMG1KV0lvX2IwbFRKZm9nWW5LSUNGQ3NTaTI0eGJsN0lHdDE4c1VVNU1EUk9McGpKU21oNklQM2s5Qm1hMnZoWlZWNkdBVERici13cWtKWERvQjJPUEJhdlU3YzRxcFdrUDZUczAweTR2eTU4d2x1OVhMbkVNM0Q1Y0NfMnNxcGprQkI4OFN4RW9PQzExWmhybmlsZEFjYTBpeGZPNNIB2gFBVV95cUxNOXNIQVdHTlJIeVJ4blNqUjAwMWVsUGtuUHUwZHpLZE5YUHZ1WnNJT3BFX3RBa2pTZ0l6NFhKeVRHcDVzODUzX0xLWGlxZnp0UWpvbkFmQnBoTnVLdHE2UlhOenZBd3VYSmhCa3pCb3RmaUJTVnB0UnFxOGYxYk1CcVdHSWppdjJseUhTZU9BQUI3cWE1VzZ6MVdrRnVUczN3VEJ2N2p5Q3lLanRTaTBIUGtJVXVsOEhzX1l4M0pXeE9qdUxTcENlY0YtbXdtZU0wa1hvWURjUTNTQQ?oc=5",
+   "d": "2026-11-22",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/msesu-alumni-urge-telangana-government-to-fill-faculty-vacancies-at-kothagudem-university",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/rajanna-sircilla-rtc-bus-car-collision-leaves-two-injured-2006803",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/warangal/kadiyam-kavya-calls-for-speedy-graduate-voter-registration-ahead-of-mlc-polls-1144561",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/ongole/four-die-as-car-hits-culvert-in-prakasam-district-1144582",
    "d": "2026-11-22",
    "w": "duplicate"
   }
