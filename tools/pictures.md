@@ -58,7 +58,7 @@ Old generic keys (c/…, n/…, cv/…, s/…) are no longer accepted for new st
 - court verdict, bail, High Court → e/court-hearing · consumer forum → e/consumer-complaint · land dispute → e/land-dispute-mediation
 - fire → e/fire-service-response · road accident/collision → e/road-accident-response · train accident → e/railway-accident-response · building collapse → e/building-collapse-rescue
 - deaths, condolence → e/remembrance-and-condolence · protest, dharna, strike → e/peaceful-public-protest
-- ONE party speaks, condemns, protests or criticises (BRS/Congress/BJP/TDP/YSRCP/Janasena/BSP/CPI/SFI/BJYM named once, as the speaker) → e/party-<name> (owner 22 Nov 2026: "…ఖండించిన బీఆర్‌ఎస్" shows the BRS picture). Party only as the TARGET (బీఆర్‌ఎస్‌పై…), two parties, alliances → e/government-press-briefing · leader's statement/allegation/press meet with no party named → e/government-press-briefing · govt order/policy/target → e/public-policy-announcement · Assembly → e/state-assembly-session · Parliament → e/parliamentary-debate
+- ONE party speaks, condemns, protests or criticises (BRS/Congress/BJP/TDP/YSRCP/Janasena/BSP/CPI/CPI(M)/SFI/BJYM named once, as the speaker) → e/party-<name> (owner 22 Nov 2026: "…ఖండించిన బీఆర్‌ఎస్" shows the BRS picture). Party only as the TARGET (బీఆర్‌ఎస్‌పై…), two parties, alliances → e/government-press-briefing · leader's statement/allegation/press meet with no party named → e/government-press-briefing · govt order/policy/target → e/public-policy-announcement · Assembly → e/state-assembly-session · Parliament → e/parliamentary-debate
 - election results, ZP/MPP wins → e/election-counting · polling, nominations, election dates → e/voting-day · ONE party named, not an attack → e/party-<name>
 - pensions → e/pension-distribution · ration → e/ration-shop-distribution · scholarships → e/student-scholarship-desk
 - school → e/government-school-classroom · college/university event → e/university-graduation · entrance/board exam → e/entrance-exam-preparation / e/board-examination-hall · study abroad → e/international-student-journey
@@ -136,8 +136,8 @@ e/morning-tea-stall · e/vegetable-market-shopping · e/milk-delivery-at-dawn ·
 e/international-diplomacy · e/global-trade-routes · e/border-security-patrol · e/armed-forces-relief-work · e/international-student-journey · e/overseas-worker-remittances · e/global-climate-summit · e/humanitarian-aid · e/tourism-and-travel · e/global-economic-uncertainty
 
 ### Political parties (owner, 21 Nov 2026)
-e/party-bjp · e/party-bjym · e/party-brs · e/party-bsp · e/party-congress · e/party-cpi · e/party-janasena · e/party-sfi · e/party-tdp · e/party-ysrcp
-Use ONLY when the story is about that one party's own action (joins, quits, wins, rally, picks, statement by its leaders). Two or more parties, an alliance, one party attacking another, or violence/crime → keep c/politics (neutral voting picture) or the crime/court/condolence picture. AAP, ABVP, AIMIM, CPI(M), DYFI and NSUI have no picture yet → c/politics.
+e/party-bjp · e/party-bjym · e/party-brs · e/party-bsp · e/party-congress · e/party-cpi · e/party-cpim · e/party-janasena · e/party-sfi · e/party-tdp · e/party-ysrcp
+Use ONLY when the story is about that one party's own action (joins, quits, wins, rally, picks, statement by its leaders). Two or more parties, an alliance, one party attacking another, or violence/crime → keep c/politics (neutral voting picture) or the crime/court/condolence picture. CPI(M) (సీపీఎం) → e/party-cpim (CPI/సీపీఐ is a different party → e/party-cpi). AAP, ABVP, AIMIM, DYFI and NSUI have no picture yet → c/politics.
 
 ## n/ – specific news topics
 - n/africa – Africa
