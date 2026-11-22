@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-22T15:05:00+05:30",
+ "cutoff": "2026-11-22T15:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-19T19:05:00+05:30/2026-11-19T19:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 6,
-   "late": 0,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Feeds 19:29 IST, 68/68 ok, lookback 11:05. Published 6: Telangana Today KTR corruption allegations (18:57, claim), South First AP 12 MBBS seats after fee cut (19:01), Telangana Today Kothapet wedding extortion 2 held (18:32, sensitive, police), Telangana Today Nirmal farmer-suicide families support (19:10, sensitive, claim), Telangana Today Cyberabad Moves Nov 26-28 (18:47), NewsMeter Gadkari Surat-Kurnool corridor (18:59). Duplicates: Siasat Nanakramguda Pacifica Hillcrest fire (covered 13:32), Siasat Cheyutha 4.6L new beneficiaries (covered 17:34 pensions story). Not opened: The Hindu (search domain rejected) Aswapuram temple burglaries, CSIR-CCMB wastewater guidelines, Nizam College contract faculty protest, Vizag Port Hospital protest; India Today TN data-leak 15 sacked. WebFetch works only for URLs returned by WebSearch this run. District searches (thin): Adilabad, Karimnagar, Khammam, Srikakulam, Nellore, Anantapur/Kurnool, Mahabubnagar/Nagarkurnool, Vijayawada/Guntur. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-19T19:35:00+05:30/2026-11-19T20:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Lookback from 06:35 on 22 Nov. Feeds 14:42 IST (70/70 ok); 98 unseen uncovered events since 13:45 scanned by headline. add_repo not available; used existing clone. Published 5: ETV Bharat HYDRAA private STPs 720/30% (11:05), HMTV Gurazala nominations under police cover on HC order (14:38, sensitive, claim), ETV Bharat Chandrababu teleconference unanimous panchayats Rs 15-50 lakh (13:47), Andhra Jyothy Lokesh ITI respect X post (13:50), Telangana Today/IANS India-Bulgaria roadmap (14:39). Duplicates: News18 Rushikonda missing student (published 12:05), Munsif/Siasat NH-167 accidents (09:05), 10TV 117 posts. Skipped: Adda247 assistant professor 526 posts (aggregator, 13 Nov news), sports/entertainment/recipes, other-state items. Not opened: The Hindu NHAI Telangana fatalities drop and The Hindu UoH students protest (fetch refused, no other source found), HMTV Vadapalli teppotsavam (search did not return article). check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-22T15:05:00+05:30/2026-11-22T15:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 6,
+   "review": 0,
+   "gaps": "Lookback from 07:05 on 22 Nov. Feeds 15:16 IST (68/68 ok). add_repo not available; used existing clone. Published 3: V6 Kukatpally+Miyapur bus accidents 2 dead (14:13, late, sensitive, no names), HMTV Basara Karthika Sunday crowds (14:34), HMTV Suryapet Indiramma insurance camps (13:48). Duplicates: Prabha News Mancherial AgriGold bond verification (statewide schedule published 21 Nov), Hans India Chandrababu panchayat directions (published 13:47), Nepal PM arrival (preview published 06:07). Skipped: ap7am Revanth 'mad dogs' (19 Nov, old), Hans Suryapet RTO extortion arrests (05:33) and Nandyal Akshara Andhra (06:45) before lookback, HMTV Kawal fog (similar Mancherial fog story today), HMTV Basara Rajaka press meet (minor), Andhra Jyothy Kukatpally tipper crash (Jul 2026). Not opened: TOI Revanth dogs-row, Namasthe Telangana Mallu Ravi remarks, The Hindu i-ALERT RTC, The Hindu NHAI fatalities, Disha Rs 1,000 knife attack, News18 belt-shop raid, ETV RK Beach walk (searches did not return articles). check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7088,6 +7088,56 @@
    "url": "https://www.adda247.com/teaching-jobs-exam/telangana-assistant-professor-notification-2026/",
    "d": "2026-11-22",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.v6velugu.com/tragic-road-accidents-in-hyderabad-two-died-in-separate-incidents-at-kukatpally-and-miyapur",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/adilabad/devotees-throng-basara-saraswati-temple-on-karthika-sunday-215800",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/nalgonda-suryapet/rs-5-lakh-cover-under-indiramma-family-life-insurance-scheme-215785",
+   "d": "2026-11-22",
+   "w": "published"
+  },
+  {
+   "url": "https://prabhanews.com/agri-gold-victims-bond-verification-mancherial/",
+   "d": "2026-11-22",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.ap7am.com/en/139755/amp/bitten-by-mad-dogs-telangana-cm-on-dissenting-mlas",
+   "d": "2026-11-22",
+   "w": "old"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/nalgonda-suryapet/three-arrested-for-extortion-by-posing-as-rto-officials-1144566",
+   "d": "2026-11-22",
+   "w": "old"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/anantapur/akshara-andhra-to-cover-every-illiterate-person-in-nandyal-1144605",
+   "d": "2026-11-22",
+   "w": "old"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/adilabad/dense-fog-blankets-kawal-tiger-reserve-kadem-and-dasturabad-agency-areas-215697",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/adilabad/rajaka-sangham-calls-for-siddipet-mahasabha-in-basara-meet-215801",
+   "d": "2026-11-22",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/hyderabad-kukatpally-road-accident-two-youths-passed-away-speeding-tipper-truck-hits-scooter-suri-1544959.html",
+   "d": "2026-11-22",
+   "w": "old"
   }
  ]
 }
