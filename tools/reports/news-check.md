@@ -1,16 +1,17 @@
 # Swipe2News story check
 
-## news.json: 122 stories · 0 to fix · 28 to look at · 0 fixed automatically
-- CHECK: #1 "నస్పూర్‌లో బాలికపై అసభ్య ప్రవర్తన ఆరోపణ": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #10 "కోరుట్లలో కొత్త పెన్షన్లపై బీజేపీ ఆరోపణ": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #14 "నంబర్ ప్లేట్ దాచి టోల్ ఎగ్గొడితే జరిమానా": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #23 "వైరాలో ₹1.5 కోట్ల అప్పు మోసం ఫిర్యాదు": picture line is long (38 letters) – keep stat + statl short so it fits one line
-- CHECK: #28 "గోల్కొండ రోప్‌వే ఇంకా ప్రతిపాదనల్లోనే": picture line is long (40 letters) – keep stat + statl short so it fits one line
-- CHECK: #32 "భూపాలపల్లిలో వడ్లు వెంటనే కొనాలి: గండ్ర": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #33 "డిసెంబర్ 3న దేశవ్యాప్త బ్యాంకు సమ్మె": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #35 "బాటిల్ నీటికి దేశమంతా పరీక్షలు: నివేదిక": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #47 "బంగాళాఖాతంలో మరో ఆవర్తనం ఏర్పడే అవకాశం": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #49 "రైస్ మిల్లర్లపై ఈడీ మరిన్ని కేసులు": picture line is long (36 letters) – keep stat + statl short so it fits one line
+## news.json: 122 stories · 0 to fix · 29 to look at · 0 fixed automatically
+- CHECK: #8 "ఏపీలో బ్యాటరీ విద్యుత్ నిల్వకు టెండర్లు": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #11 "నస్పూర్‌లో బాలికపై అసభ్య ప్రవర్తన ఆరోపణ": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #20 "కోరుట్లలో కొత్త పెన్షన్లపై బీజేపీ ఆరోపణ": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #24 "నంబర్ ప్లేట్ దాచి టోల్ ఎగ్గొడితే జరిమానా": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #33 "వైరాలో ₹1.5 కోట్ల అప్పు మోసం ఫిర్యాదు": picture line is long (38 letters) – keep stat + statl short so it fits one line
+- CHECK: #38 "గోల్కొండ రోప్‌వే ఇంకా ప్రతిపాదనల్లోనే": picture line is long (40 letters) – keep stat + statl short so it fits one line
+- CHECK: #42 "భూపాలపల్లిలో వడ్లు వెంటనే కొనాలి: గండ్ర": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #43 "డిసెంబర్ 3న దేశవ్యాప్త బ్యాంకు సమ్మె": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #45 "బాటిల్ నీటికి దేశమంతా పరీక్షలు: నివేదిక": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #57 "బంగాళాఖాతంలో మరో ఆవర్తనం ఏర్పడే అవకాశం": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #59 "రైస్ మిల్లర్లపై ఈడీ మరిన్ని కేసులు": picture line is long (36 letters) – keep stat + statl short so it fits one line
 - CHECK: #61 "ఏపీలో 3,191 సర్పంచ్ పదవులకు 26న పోలింగ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
 - CHECK: #63 "ఖాజీపేట మిడుతూరులో నామినేషన్ల ఘర్షణ": picture line is long (35 letters) – keep stat + statl short so it fits one line
 - CHECK: #64 "విశాఖ మేయర్ శ్రావణి ప్రమాణం వాయిదా": picture line is long (35 letters) – keep stat + statl short so it fits one line
@@ -32,40 +33,41 @@
 
 ### Pictures needed (create in your image tool, send to Claude)
 - **Industry & Factories** – 4 story(ies), e.g. "మా నీరు సురక్షితమే: బిస్లరీ ప్రకటన". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
-- **Labour Strike / Workers' Protest** – 2 story(ies), e.g. "డిసెంబర్ 3న దేశవ్యాప్త బ్యాంకు సమ్మె". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Peaceful group of workers in helmets and work clothes gathered outside a factory or mine gate holding blank placards and plain red flags, seen from behind or at a distance. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents. Calm, non-violent. Top 15% plain plum sky. No readable text on placards, no faces in close-up, no logos, no watermark.
-## archive/2026-11-23.json: 155 stories · 0 to fix · 32 to look at · 0 fixed automatically
-- CHECK: #1 "నస్పూర్‌లో బాలికపై అసభ్య ప్రవర్తన ఆరోపణ": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #10 "కోరుట్లలో కొత్త పెన్షన్లపై బీజేపీ ఆరోపణ": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #14 "నంబర్ ప్లేట్ దాచి టోల్ ఎగ్గొడితే జరిమానా": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #23 "వైరాలో ₹1.5 కోట్ల అప్పు మోసం ఫిర్యాదు": picture line is long (38 letters) – keep stat + statl short so it fits one line
-- CHECK: #28 "గోల్కొండ రోప్‌వే ఇంకా ప్రతిపాదనల్లోనే": picture line is long (40 letters) – keep stat + statl short so it fits one line
-- CHECK: #32 "డిసెంబర్ 3న దేశవ్యాప్త బ్యాంకు సమ్మె": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #34 "బాటిల్ నీటికి దేశమంతా పరీక్షలు: నివేదిక": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #46 "బంగాళాఖాతంలో మరో ఆవర్తనం ఏర్పడే అవకాశం": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #48 "రైస్ మిల్లర్లపై ఈడీ మరిన్ని కేసులు": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #79 "రెండు బొగ్గు బ్లాకులకు సింగరేణి బిడ్": picture line is long (42 letters) – keep stat + statl short so it fits one line
-- CHECK: #82 "సివిల్ సప్లైస్ వడ్ల వేలానికి స్పందన తక్క": headline is 42 characters – may not fit one line (keep ≤ 38)
-- CHECK: #83 "హార్డ్‌వేర్ పార్క్ భూములపై సీఎంను కలుస్త": headline is 42 characters – may not fit one line (keep ≤ 38)
-- CHECK: #83 "హార్డ్‌వేర్ పార్క్ భూములపై సీఎంను కలుస్త": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #84 "చర్చించాకే ఇంటర్ విలీనం: డీటీఎఫ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #85 "వారానికి ఒకరోజు సైకిల్ వాడండి: సీపీ": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #86 "డ్రగ్స్ లేని దేశమే లక్ష్యం: కిషన్ రెడ్డి": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #90 "విశాఖ పంచాయతీ పోరులో టీడీపీ, జనసేన పోటీ": picture line is long (38 letters) – keep stat + statl short so it fits one line
-- CHECK: #92 "స్టేషన్ మాస్టర్ పోస్టులకు 2 రోజులే గడువు": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #114 "తిప్పర్తి గ్రామాలకు సాగునీటి కోసం ఆందోళన": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #115 "బేతవోలు బాలికలకు కమిషనర్ సైకిళ్లు": picture line is long (38 letters) – keep stat + statl short so it fits one line
-- CHECK: #118 "ఒకే వీధిలోని రెండు ఊళ్లలో ఏకగ్రీవం": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #122 "పంచదార్లలో మంగళవారం ఫణిగిరి ప్రదక్షిణ": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #123 "ఓపెన్ యూనివర్సిటీ తరగతులు మొదలు": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #124 "శ్రీకాకుళంలో అభ్యర్థులకు పోలీసుల సూచనలు": picture line is long (38 letters) – keep stat + statl short so it fits one line
-- CHECK: #130 "ఇద్దరు ఎమ్మెల్యేలపై మల్లు రవి ఫిర్యాదు": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #133 "కోస్తా, రాయలసీమలో మంగళవారం నుంచి వర్షాలు": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #143 "దేవనకొండ విద్యార్థి రాష్ట్ర క్రికెట్‌కు ": headline is 45 characters – may not fit one line (keep ≤ 38)
-- CHECK: #144 "ఏపీలో 3,191 సర్పంచ్ పదవులకు 26న పోలింగ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #146 "ఖాజీపేట మిడుతూరులో నామినేషన్ల ఘర్షణ": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #147 "విశాఖ మేయర్ శ్రావణి ప్రమాణం వాయిదా": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #149 "భూపాలపల్లిలో ధాన్యం కొనాలన్న గండ్ర": picture line is long (43 letters) – keep stat + statl short so it fits one line
-- CHECK: #150 "కొత్తగూడెంలో అగ్రిగోల్డ్ బాండ్ల తనిఖీ": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- **Labour Strike / Workers' Protest** – 1 story(ies), e.g. "డిసెంబర్ 3న దేశవ్యాప్త బ్యాంకు సమ్మె". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Peaceful group of workers in helmets and work clothes gathered outside a factory or mine gate holding blank placards and plain red flags, seen from behind or at a distance. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents. Calm, non-violent. Top 15% plain plum sky. No readable text on placards, no faces in close-up, no logos, no watermark.
+## archive/2026-11-23.json: 165 stories · 0 to fix · 33 to look at · 0 fixed automatically
+- CHECK: #8 "ఏపీలో బ్యాటరీ విద్యుత్ నిల్వకు టెండర్లు": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #11 "నస్పూర్‌లో బాలికపై అసభ్య ప్రవర్తన ఆరోపణ": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #20 "కోరుట్లలో కొత్త పెన్షన్లపై బీజేపీ ఆరోపణ": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #24 "నంబర్ ప్లేట్ దాచి టోల్ ఎగ్గొడితే జరిమానా": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #33 "వైరాలో ₹1.5 కోట్ల అప్పు మోసం ఫిర్యాదు": picture line is long (38 letters) – keep stat + statl short so it fits one line
+- CHECK: #38 "గోల్కొండ రోప్‌వే ఇంకా ప్రతిపాదనల్లోనే": picture line is long (40 letters) – keep stat + statl short so it fits one line
+- CHECK: #42 "డిసెంబర్ 3న దేశవ్యాప్త బ్యాంకు సమ్మె": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #44 "బాటిల్ నీటికి దేశమంతా పరీక్షలు: నివేదిక": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #56 "బంగాళాఖాతంలో మరో ఆవర్తనం ఏర్పడే అవకాశం": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #58 "రైస్ మిల్లర్లపై ఈడీ మరిన్ని కేసులు": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #89 "రెండు బొగ్గు బ్లాకులకు సింగరేణి బిడ్": picture line is long (42 letters) – keep stat + statl short so it fits one line
+- CHECK: #92 "సివిల్ సప్లైస్ వడ్ల వేలానికి స్పందన తక్క": headline is 42 characters – may not fit one line (keep ≤ 38)
+- CHECK: #93 "హార్డ్‌వేర్ పార్క్ భూములపై సీఎంను కలుస్త": headline is 42 characters – may not fit one line (keep ≤ 38)
+- CHECK: #93 "హార్డ్‌వేర్ పార్క్ భూములపై సీఎంను కలుస్త": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #94 "చర్చించాకే ఇంటర్ విలీనం: డీటీఎఫ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #95 "వారానికి ఒకరోజు సైకిల్ వాడండి: సీపీ": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #96 "డ్రగ్స్ లేని దేశమే లక్ష్యం: కిషన్ రెడ్డి": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #100 "విశాఖ పంచాయతీ పోరులో టీడీపీ, జనసేన పోటీ": picture line is long (38 letters) – keep stat + statl short so it fits one line
+- CHECK: #102 "స్టేషన్ మాస్టర్ పోస్టులకు 2 రోజులే గడువు": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #124 "తిప్పర్తి గ్రామాలకు సాగునీటి కోసం ఆందోళన": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #125 "బేతవోలు బాలికలకు కమిషనర్ సైకిళ్లు": picture line is long (38 letters) – keep stat + statl short so it fits one line
+- CHECK: #128 "ఒకే వీధిలోని రెండు ఊళ్లలో ఏకగ్రీవం": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #132 "పంచదార్లలో మంగళవారం ఫణిగిరి ప్రదక్షిణ": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #133 "ఓపెన్ యూనివర్సిటీ తరగతులు మొదలు": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #134 "శ్రీకాకుళంలో అభ్యర్థులకు పోలీసుల సూచనలు": picture line is long (38 letters) – keep stat + statl short so it fits one line
+- CHECK: #140 "ఇద్దరు ఎమ్మెల్యేలపై మల్లు రవి ఫిర్యాదు": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #143 "కోస్తా, రాయలసీమలో మంగళవారం నుంచి వర్షాలు": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #153 "దేవనకొండ విద్యార్థి రాష్ట్ర క్రికెట్‌కు ": headline is 45 characters – may not fit one line (keep ≤ 38)
+- CHECK: #154 "ఏపీలో 3,191 సర్పంచ్ పదవులకు 26న పోలింగ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #156 "ఖాజీపేట మిడుతూరులో నామినేషన్ల ఘర్షణ": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #157 "విశాఖ మేయర్ శ్రావణి ప్రమాణం వాయిదా": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #159 "భూపాలపల్లిలో ధాన్యం కొనాలన్న గండ్ర": picture line is long (43 letters) – keep stat + statl short so it fits one line
+- CHECK: #160 "కొత్తగూడెంలో అగ్రిగోల్డ్ బాండ్ల తనిఖీ": picture line is long (39 letters) – keep stat + statl short so it fits one line
 
 ### Pictures needed (create in your image tool, send to Claude)
 - **Industry & Factories** – 6 story(ies), e.g. "మా నీరు సురక్షితమే: బిస్లరీ ప్రకటన". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
