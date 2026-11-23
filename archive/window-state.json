@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T07:05:00+05:30",
+ "cutoff": "2026-11-23T07:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-20T11:05:00+05:30/2026-11-20T11:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 4,
-   "late": 4,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Feeds 11:28 IST, 68/68 ok, 753 TG/AP uncovered, lookback 03:05 (20 Nov). Published 4 (late-found 04:30-10:25): ETV Sagar engineers action (claim), ETV Sammakka Sagar joint survey (Mulugu), Andhra Jyothy CID Rs7cr job fraud 2nd arrest (sensitive, accused not named), NT Tekulapalli sand tractor overturn 1 dead (sensitive, no name). Duplicate: V6 11,275 Cheyutha pensions (published 19 Nov). Skipped old: NTV TN 15 officials leak (19 Nov 20:33), Sakshi Khammam Akvan crops (19 Nov 00:31), Sakshi Konaseema Akvan (20 Nov 00:07). Not opened: feed direct URLs (Siasat PRS budget 17pc, Hindu 90 medical shops, Hindu ethanol hearing detentions, Siasat HC firecracker ban, TT Trump-Xi-Putin summit, Siasat Iran war cost, TT Nvidia probe, Hindu Yadadri thermal) - WebFetch refused non-search URLs; no search hit for them. District searches 8 (Warangal, Karimnagar, Visakhapatnam, Mahabubnagar, Guntur, Nalgonda, Srikakulam, Khammam/Bhadradri). add_repo not available; used existing clone. build_previews index/sitemap reverted."
-  },
   {
    "window": "2026-11-20T11:35:00+05:30/2026-11-20T15:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 1,
    "gaps": "Lookback from 22:35 on 22 Nov. Feeds 06:51 IST (69/70 ok; Bhadradri Kothagudem district feed failing). 31 uncovered TG/AP events since 04:30 plus recent Sakshi/AJ/V6/world items scanned; 34 sent to 3 search agents, only 8 opened (search did not return most fresh headlines). add_repo tool not available; used existing clone. Published 7: AJ Rayalaseema rain deficit 30-60% (05:11), Mana Telangana poultry feed costs (04:40, claim), Sakshi Jeedikal jatara from tonight (05:30), Hans BRS Deeksha Diwas Karimnagar Nov 29 (05:27), V6 parties focus on Siddipet (06:36), Sakshi Green Visakha data-centre rally (05:42, claim), Sakshi Narsipatnam Pancharama bus (05:42). Skipped old: assistant professor 526 posts (Adda247 20 Nov / TT 13 Nov). Review: Goodreturns Hyderabad gold rate 23 Nov (no publication time). Not opened: NT Hyderabad 26/11-style threat mail, V6 CM Revanth Krishna water remarks, TV9 SI prelims hall tickets, V6 three cyclones no effect, V6 Tadoba tiger, V6 Tummala AB cables, AJ Peddapalli murder, NT RTC i-Alert; Sakshi crocodile, doddu vadlu, fog, 21-year-old sarpanch candidate, vegetable van; News18 cold wave; DC BepiColombo, DC Delta glitch, Hans bullet train electrification, AJ Andaman cable, IE Hisar tank accident, IE PM 50 crore poverty, Hindu California shooting, TV9 gold price, India Today El Nino Himalayas, Hindu India-NZ Test (result not confirmed), Puri fuel prices, Reuters Libya Russian ship. No district searches this run. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T07:05:00+05:30/2026-11-23T07:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 15,
+   "published": 13,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 4,
+   "review": 1,
+   "gaps": "Lookback from 23:05 on 22 Nov. Feeds 07:14 IST (70/70 ok). 698 uncovered events since 23:05 scanned; most were already published under other URLs. add_repo tool not available; used existing clone. 3 search agents, 18 opened. Published 13: TV9 SI prelims hall tickets (06:14), V6 Yasangi seed plan (06:55), V6 Hyderabad tender coconut prices (06:24), Sakshi Koti Deepotsavam Meenakshi Kalyanam (06:57), Sakshi Kadiyam Rs 300 cr education Ghanpur (05:30, claim), DC AP new civic councils take office (00:56), AJ live TDP deputy mayor picks (06:02), Hans Chittoor poll security (02:04), Hans Anakapalli fake plates (01:36), Hans Governor Puttaparthi convocation (05:13), DC Jana Sena no seat-sharing (00:05), V6 Maruti 0.31% hike (07:03), ETV Bharat women's hockey semis (00:25). Duplicates: HMTV Nacharam 60 kg ganja (published 22 Nov 17:35), Hans Eluru mayor Appala Naidu (published 05:35 edition), plus feed events already covered (Jabardasth crash, Sharmila, AP CID, threat mail, Kotia, TDP SEC, IRC, KRMB, polio, Sevalal). Skipped: Prabha Chittoor Rs 15 lakh robbery (22 Nov 18:31, before lookback; amount differs at 10tv), Hans Warangal polio (same drive as polio story), HMTV TPCC meeting (no date), News On AIR Cyclone Akvan items (stale). Review: ABN live blog Godavarikhani Singareni employee stabbing (06:10, live-blog line only). Not opened: TOI UNICEF midday-meal lab tests, TOI Sneha Group Rs 5 cr. District searches Adilabad, Mancherial, Jagtial, Kamareddy, Vikarabad, Kakinada, Vijayawada, Anantapur had nothing fresh. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6851,6 +6851,101 @@
   },
   {
    "url": "https://goodreturns.in/gold-rates/hyderabad.html",
+   "d": "2026-11-23",
+   "w": "review"
+  },
+  {
+   "url": "https://tv9telugu.com/career-jobs/telangana-si-prelims-hall-tickets-2026-released-download-prelims-admit-card-now-1964640.html",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.v6velugu.com/yasangi-season-crop-seeds-ready-declared-by-agricultural-department",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.v6velugu.com/coconut-rates-increases-winter-season-do-not-decreased",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.sakshi.com/photos/bhakti/koti-deepotsavam-2026-ntr-stadium-hyderabad-2967947",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/jangaon/2967803",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/mukhyaamshalu/abn-andhrajyothy-ap-and-telangana-national-international-breaking-live-updates-of-23st-november-2026-3722.html",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/chittoor/chittoor-police-step-up-security-for-third-phase-gram-panchayat-elections-1144787",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/special-drive-against-fake-number-plates-in-anakapalli-1144772",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/youth-are-future-custodians-of-viksit-bharat-guv-nazeer-1144856",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/guv-nazeer-arrives-in-puttaparthi-1144798",
+   "d": "2026-11-23",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/guv-concludes-prasanthi-nilayam-visit-1144800",
+   "d": "2026-11-23",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/no-seat-sharing-in-panchayat-polls-jana-sena-tells-cadre-2006986",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.v6velugu.com/maruti-suzuki-hikes-car-prices-by-031-percent",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.etvbharat.com/en/sports/defending-champions-india-beat-thailand-reach-semifinals-of-womens-asian-champions-trophy-2026-enn26112205150",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/hyderabad/malkajgiri-sot-police-bust-interstate-ganja-smuggling-network-seize-215982",
+   "d": "2026-11-23",
+   "w": "dup"
+  },
+  {
+   "url": "https://prabhanews.com/vegetable-trader-robbed-of-rs-15-lakh-after-car-chase-in-chittoor/",
+   "d": "2026-11-23",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/warangal/warangal-to-emerge-as-medical-and-education-hub-kavya-naini-1144825",
+   "d": "2026-11-23",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/khammam/hyderabad-gandhi-bhavan-tpcc-extended-executive-meeting-grand-welcome-215981",
+   "d": "2026-11-23",
+   "w": "skip"
+  },
+  {
+   "url": "abn-live-2026-11-23-0610-godavarikhani-stabbing",
    "d": "2026-11-23",
    "w": "review"
   }
