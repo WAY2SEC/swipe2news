@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T10:05:00+05:30",
+ "cutoff": "2026-11-23T10:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-20T17:05:00+05:30/2026-11-20T17:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 6,
-   "late": 5,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 17:12 IST, 70/70 ok, 883 TG/AP uncovered, lookback 09:05. Published 6: TT Siddipet woman dies after CM meeting (sensitive, no name), Hans AP ZP 27 of 28 to alliance, ChiniMandi/Hindu Veerlapalem ethanol hearing detentions (claim), DC 2,000 home guards, Federal Jagan DA cases HC status report, ThePrint/PTI AP SMR nuclear. Skipped old: Hans AP Rs 1,011 cr teaching hospitals (04:47, before lookback). Duplicates: Pacifica Hillcrest fire (published 19 Nov), ED raids ex-BRS MLA (published 15:05), Ichchapuram rain (11:05). Not opened: AJ/ETV robotic surgery, Fortune TG tech funding, Munsif Warangal motor thefts (no search hit). District searches Karimnagar/Kurnool returned tag pages only. add_repo not available; used existing clone. build_previews index/sitemap/lang pages reverted."
-  },
   {
    "window": "2026-11-20T17:35:00+05:30/2026-11-20T18:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 1,
    "gaps": "Lookback from 01:35 on 23 Nov. Feeds 09:43 IST (70/70 ok). 102 uncovered events first seen since 08:50 scanned; 18 sent to 3 fetch agents, 15 opened. add_repo tool not available; used existing clone. Published 12: Goodreturns Orvakal Reliance plant (09:05), AJ ED rice millers (09:07, sensitive, claim, no names), V6 Singareni formation day (09:19), HMTV Achampet cotton weighing (08:55, claim, no names), HMTV Kangti soya fire (09:38, claim, no names), DC Vijayawada minors car (09:23, sensitive, claim), TV9 APPSC lecturer applications (09:30), HMTV Kerala CM Puttaparthi (09:29), ETV Bharat gold price (09:37), V6 India-EU FTA Dec 16 (09:14, forecast), Tribune/ANI Lowy Asia Power Index (08:47), V6 Kim-Trump per WSJ (09:32, claim). Duplicates: Schneider Electric (Siasat 22 Nov published), graduates voter registration (AJ published 06:05). Skipped: Annavaram Giri Pradakshina (only 17 Nov ETV article opened, before lookback), V6 Fit India cycle rally (India cap of 3). Review: Gulf News/AFP Kyiv strikes 12 dead (no publication time). Not opened (left unseen): AJ Chandrababu Sathya Sai tribute, Samayam Annavaram, NIE Kyiv strikes, TOI Asia power, Hyderabad Mail Schneider. No district searches this run. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T10:05:00+05:30/2026-11-23T10:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 13,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 02:05 on 23 Nov. Feeds 10:16 IST (68/68 ok). 38 uncovered events first seen since 09:50 plus 148 unseen TG/AP backlog events scanned. add_repo tool not available; used existing clone. 2 fetch agents, 7 URLs, 5 opened. Published 3: NewsMeter TGRERA BHEL plots Indresham (10:07), HMTV Kamavarapukota 336 liquor bottles (10:07, sensitive, no names), IndToday IMD new circulation Nov 26-Dec 2 (09:31, forecast, late). Duplicates (already published 21-23 Nov): KRMB panel meet, Sharmila Yelahanka, Hyderabad 26/11 threat email, Kotia arrests, TDP 66/JSP 23/BJP 9 posts, DGPs Tirupati, FSSAI Bisleri, AP three rail lines, Sneha Group I-T, KTR medicos call, Singareni worker murder (NT), ED rice millers (NewsMeter), gold price (Disha). Skipped: DC PGRS suspended Vijayawada/Bapatla/Guntur (22 Nov 22:53, before lookback), HMTV Khammam Prajavani cancelled (22 Nov 22:45, before lookback). Not opened (left unseen): Siasat Hyderabad man held in Russia, ANI Telangana BJP chief on Revanth. News On AIR SC/Cyclone Akvan items are old articles. District searches (extended): Nalgonda, Khammam, Guntur, Vijayawada, Nizamabad, Adilabad, Anantapur, Kadapa, Kurnool, Srikakulam, Vizianagaram, Nellore, Warangal, Karimnagar, Mahabubnagar - nothing new beyond above. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7438,6 +7438,171 @@
    "url": "https://gulfnews.com/world/americas/ukraine-says-russian-strikes-kill-12-in-kyiv-region-1.500757016",
    "d": "2026-11-23",
    "w": "review"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/justice-at-last-tgrera-orders-bhel-housing-society-to-register-plots-for-38-left-out-employees-779809",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/eluru/chintalapudi-kamavarapukota-illegal-liquor-seized-336-bottles-confiscated-216031",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://indtoday.com/bay-of-bengal-cyclone-risk-returns-imd-warns-of-new-system/",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/grievance-redressal-suspended-in-three-districts-over-local-body-elections-2006954",
+   "d": "2026-11-23",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/khammam/khammam-prajavani-cancelled-on-nov-23-collector-says-215969",
+   "d": "2026-11-23",
+   "w": "skipped"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV2NNd0NNNmlXUHRaU0VBVi1wMlJuOXhZSGN0Q3dlWFZfMVluOVZxNE9PbmlsYy1QZnBzdEZUWURmUW1iMk1CYy1FN3Z4WVk1V0VwQlcyWjJwVEZma3J6Y1RaeE5sUjdqcTcxeVdMcm5WdjlERk1nZE9tZGdMUmo3Y3lTM0plZHFWVWdyTkduU25OcTZXLVNOR2ttTGphNlZGejhsS0xfMERiRU05d0VYWjlqT1ZrQQ?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMVBMQkpYdllQX2VrQVNKOEtwS2RoUDZoRGZkeXhyUEhmNllESWJ5NVlqTEFUa09abW9QcUpva2YxYWJUekZzTHE0Vlpwb19UNGFzUDhueERLN0MtZVc5OUliQlJBU3VPWmd4cmcxU094RlNmWTFKYWEtQ2xoVXhNS19VZ0xGbW5xTDNrMWdlYzE3WUZnODBR?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPM3ktMW5kNkN2UTZoVnEwUFVZOVI2NTJSbXpVMXNWNkdDeE5lZEdfUUMzQ1FQRkRTVVBLZHQ5WldwOU4wR3dENHQybTV1eWh5dDhhMlMwOXlfX294TFR1V0FCVFA1SmtWaFNfVkh3UG5iNEZuaFdKcHl2WVBmYkRWbjIyamR5RmlSTmJFM0dHVnMtcWVQbWdua1MxY3lhUzRZbi1uM2RYcFU5R254SXRoT0JiTkNYQjRDWUQ0bmFvZG8xVzdsTEI3bGxLRDZ3TWcwTW8ycmF6MUtqdzd5eGU1QWxMaFZXRU9nRmZGUDJCTXlCajN2TnBPdXBQVHd0UmVabWdwR2lwNUdEcllqRGZESmV3MNIB3gFBVV95cUxORjZUbFg0N25JQnNKb2xrYW1Ca041MHEyNEp0TnRmSkhOUS1NNTdkSzNGVTdYRkRnU3FJR3EzdkNuRWVEWGxveU5Gd0NmbF8yTzZPOHh0WGVqYlRVZzZmOE84aEYwWlkyY2JMUFdKbzhIMC0zZnpHeUVMMEtRWVpRTVE4dzJLZjNOSk50dFhCc1pCLWpnM1k1SWtRaHVBVkhlczMtc0hIMW9sZFlPX05DZVVvd05MRV9MazVPc1BVVzFUYi1uRndIbHlocTVaQy1abkkxY3NyNC16SlVCUEE?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOb0ZFZzJyZTlzQ0VKbnN5QkFoTGl2TDRjX29sREZlcG9BRFRrR08wbm9kUGxra0sxaDQwYjdNdFlZNUdqRDVCUk1PWGljd0tRUzE1SFFzTVAxMlFkUWhTaXE0RzRqWnVtZGR6TzI1aGNmamR3SnlzRkZEZE4xb1luSml2aFdCc193cFBIdXJmeU1tdEhqNlUxWUx2TVdYM3Iwc1HSAaIBQVVfeXFMTm9GRWcycmU5c0NFSm5zeUJBaExpdkw0Y19vbERGZXBvQURUa0dPMG5vZFBsa2tLMWg0MGI3TXRZWTVHakQ1QlJNT1hpY3dLUVMxNUhRc01QMTJRZFFoU2lxNEc0alp1bWRkek8yNWhjZmpkd0p5c0ZGRGROMW9ZbkppdmhXQnNfd3BQSHVyZnlNbXRIajZVMVlMdk1XWDNyMHNR?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbV81bS1kZmM0THdGNXJ1V0dBT09mYm5oUkVRNUJiWG02S2F3aHR5WDg3T3Jmb3dUNGV5U0YwcHpvQmJJeDBfcmpKY1BqS0pzcHljaHFwdVF4UlRnb0d2ZmNVYXQ3Q3NtbE5VWExQdlZPOWJwYnh2WTg3VENGUWdJRWdnc2U5SXlKamtUc0NaU2hYT2w5Nkd5WlVwTGJHdUFYS2NscjRUZDJWYzl2NWV1US0yUGk3WE5sVTZ2c3NrVl9KZlZJa01QdUI1ZWJacmtJU0p30gHTAUFVX3lxTE1tXzVtLWRmYzRMd0Y1cnVXR0FPT2ZibmhSRVE1QmJYbTZLYXdodHlYODdPcmZvd1Q0ZXlTRjBwem9CYkl4MF9yakpjUGpLSnNweWNocXB1UXhSVGdvR3ZmY1VhdDdDc21sTlVYTFB2Vk85YnBieHZZODdUQ0ZRZ0lFZ2dzZTlJeUpqa1RzQ1pTaFhPbDk2R3laVXBMYkd1QVhLY2xyNFRkMlZjOXY1ZXVRLTJQaTdYTmxVNnZzc2tWX0pmVklrTVB1QjVlYlpya0lTSnc?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNc0s5RmdlME9jaFhucC1MX1N0OXdfRVRaQk40ekFQUk5PU2ZnZnIxalU1b2U4WU1BNndLRlRDQTJxV1NwR0lpNkRxRTZEWUlMcF91bnBnb1JRRkhyT2ZJbm5weG11R2xQeFlGeVRSaVg2ajk2QUxQajdmdV94bXh0aFlJQ1hLcm5sNDlJMEI1UFRJeV9qaElCcHRaeUtQczdJVDdXc083TU9JTVA5M2ptS09UZTFiQjE1TnB4a3oyV2o4NmRWRUxDZU03VS1NUdIB0wFBVV95cUxNbV81bS1kZmM0THdGNXJ1V0dBT09mYm5oUkVRNUJiWG02S2F3aHR5WDg3T3Jmb3dUNGV5U0YwcHpvQmJJeDBfcmpKY1BqS0pzcHljaHFwdVF4UlRnb0d2ZmNVYXQ3Q3NtbE5VWExQdlZPOWJwYnh2WTg3VENGUWdJRWdnc2U5SXlKamtUc0NaU2hYT2w5Nkd5WlVwTGJHdUFYS2NscjRUZDJWYzl2NWV1US0yUGk3WE5sVTZ2c3NrVl9KZlZJa01QdUI1ZWJacmtJU0p3?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1pUTVxVU13TEVZaThOZF9kS0JneFBBZ2RBaE14b09hTEVIUUJhckthNWx3VVczdmlDREM5NWF1NC1pLUhpTHZhQTJwV09qNXFxUjJkVzN3X0tZU0J3SnVfdmxhdGxnNkFNRE44eG1pd3VnWVNnZzM1VzZkLWXSAXxBVV95cUxNaVE1cVVNd0xFWWk4TmRfZEtCZ3hQQWdkQWhNeG9PYUxFSFFCYXJLYTVsd1VXM3ZpQ0RDOTVhdTQtaS1IaUx2YUEycFdPajVxcVIyZFczd19LWVNCd0p1X3ZsYXRsZzZBTUROOHhtaXd1Z1lTZ2czNVc2ZC1l?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWHRHMGNVMGhHSHJGVlBfLVNOQnJZSGtOazU3NGRtanphbjBDdkxpWm11eFItTFNST3ZTTXg5S2tiY1JDV216Y2RUbnBrWmQyUzJ6ZlZMZXpoeTVmVkpjZWFTVFJ4NndteVVxVUQzVXlZOVpmNDUyVHU1MzgyQU5yMmFRZjJRQ21qOGdB?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPblRzc2FsaGNBNnBVS3JOTlBoenh3WEFTVENpaXdLSWFyZmNuaThZbUxKNUV2enptYnFoYThDZ0RxckpYdXZxUm5qMVhuQTY5RGROem9rSkFrbEVIbG8tTG8wcHpiUFoxNXI4UzdfcWl1LXZQZnNSRGlYQmRPc2lzVmxobjZ0bG8zeTJ0QzRXcy1kUE16V3g0YVNzMzdYZ3BfdGgzTERWdm5PbS1qa2c1VVRyNC02aUlUbzZKOVVwTmNwTmdMR0d1c2cwM09ZM29XQ1ZtTnZmWHhJMUFRd182RDBBeE1aTUJtRnp3R2VR0gHzAUFVX3lxTFBWODZIX1Mtek9fRHhnYTNVeE4zN1hrWnc4UU11MExobXVMZzhHVV9NYWtVeDZTamJiRW5KR29SbDB5SEIyWWNPSjk4cUdNQXFpM3h2UmlnTzU0dC1QZ0YwUjlwN01zdUFNUVYyRm5sYjdtZ2FUYUljR3ByN2hLZXQ1aVZGenZMbHVSN3l3LW1sWmNVSnBxcGJteHhGZllzaXdpMkFnS2c1ZHZaSVVCNkxzVTNqS3JMUmNIR0hMaDhnVC12SFgxWUJWRWZ3T0Y4VXZLU0JHN3JTT2pjM044TjFpc216WmVYNWNhZVFWUXM5cWpxUQ?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPb1BfTHBaY2NiYUtkT1dpTE5xY180NUYyZTdRYVA0SUpsMkFuYTZQb3JtemhSY2lSTTBIWEZqSHQ2X3BpM1ZyUGpsZ1JDMDJGVmRDdGFCVVNoaklNc0E1SlN0NU14S3l1YXV3VXZ2dk9DZk5MdHZoTVhBQXR0cnAzSkxndDZpcWdIZ2s4N08zWTdCUU5SWG1MdUdMZVBVbzJKSmpnNVlOSFlXdXNXY3kyXzdRbHdfamU1RmVrUElud0hSRlpaNFdWZUJFckp2eVhkTkRZM0Z4UdIB3gFBVV95cUxPdG5JZElrUmN6MGNvOUUxNGtPelVDNEp5UHdudXFiOHJfcUZMUmpqZ0x1SG9nb01LeGdHNU1WMjF1Vld2OGlnVXZsVlRCdG9Yb2xSX2J5S2ZJWFFBV2lqNEVudXpRMnhMMmcxZ3cyZlRyU2RHbEpvZ2RTRk02N2l4SU13MGxvQmlqdmhWaEdZX01vTi1RV2ptbDRUYnRQQUtmV25BWjhqZjlHaWI5dHhTMl9kOE1VX0VUOEF0X2hwOWlBSEwzZGZXYnBLQVJCT0VDaTBpeVFlNWFjclBDQ2c?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQ1d0Z1B1RnlLeGtra1I5SHFMWEJxcDF6eVlKT0NWemdzSW56MUVpekNodGVkaDM5VzU2QllKTzFhN3RVSl9sR0RuUkxCbC1Zdzk1U0tjZGhYOW04ZFRGQUU1Sl9uY25Xb1VfTUtWaWI4cFpGb29CZUJzN0dubnZxV1RKanA4TkNkYnBuVW96UHQxZElHTGdtVkR2NmhZUVozcDZQdWVYMnY4NG5MMURuRS10MEXSAbQBQVVfeXFMTUNXdGdQdUZ5S3hra2tSOUhxTFhCcXAxenlZSk9DVnpnc0luejFFaXpDaHRlZGgzOVc1NkJZSk8xYTd0VUpfbEdEblJMQmwtWXc5NVNLY2RoWDltOGRURkFFNUpfbmNuV29VX01LVmliOHBaRm9vQmVCczdHbm52cVdUSmpwOE5DZGJwblVvelB0MWRJR0xnbVZEdjZoWVFaM3A2UHVlWDJ2ODRuTDFEbkUtdDBF?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxORF9FUFN5UFk3ZEpoQWpfd2FDdTdheUlhMWJMejkwaTBUQVphSTR6Y0c4RTN5YjBhbFV1Y0tQaWVvS1FEa053ZjFrcHdNLVZyVERzUHRQR0k4Qnc3bkJDOWcyR1RkQ0ZZZjBpZkRnTC1OdGVQODN6Tm1Nbk1UUDJHYlU2Q1dnUVpvOWVUNUhaNU0yV2xuSFhTb3FsT0gxWEJWQzJuTVJkUW9iTlViZzJHZ3FkLUs0U285aHZwWW44VVdKZ2pTVHFpc1BuTV9CVVBBYnVYZVg2bmVMeVM5clJPTklHajg4VUZCZmxiZ3M0X2RwWExGT3YyTjhQdl9CbERsVXBMczQ4OXZyMy1CMlB6R3hwV0NhSW5DbE5F0gGbAkFVX3lxTE5EX0VQU3lQWTdkSmhBal93YUN1N2F5SWExYkx6OTBpMFRBWmFJNHpjRzhFM3liMGFsVXVjS1BpZW9LUURrTndmMWtwd00tVnJURHNQdFBHSThCdzduQkM5ZzJHVGRDRllmMGlmRGdMLU50ZVA4M3pObU1uTVRQMkdiVTZDV2dRWm85ZVQ1SFo1TTJXbG5IWFNvcWxPSDFYQlZDMm5NUmRRb2JOVWJnMkdncWQtSzRTbzlodnBZbjhVV0pnalNUcWlzUG5NX0JVUEFidVhlWDZuZUx5UzlyUk9OSUdqODhVRkJmbGJnczRfZHBYTEZPdjJOOFB2X0JsRGxVcExzNDg5dnIzLUIyUHpHeHBXQ2FJbkNsTkU?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNX3BZbi1ZNlZ2eWh4cTJPUU9GVk5yVTh0cnFOYzU4eGZ1b2FRenZ0LXpwYUZJMHljYXg0VFViUHBzcVhxYUtQbE1BOHBGRGIxcmNoMVVDS183Z1lvVEt3NjN4VzYxdDJVSlFHVXJfaDlIaU0yZHFJaXhSVzlkTTlTS3ROQ1pyTmVmNlVjX0tjZWRLMXVDd184OXY0OVQ0VEYtRzh3dW5ReWZ0Mk16Qm9YZ1l4Sjh0cGx2YXhGZ2RWaWMzM3lSZUtpUWg0ZU9XanFkeGlnQVNWSV9NR3VucmZnNUlESk5xOUpSeFI2WDFfZmVmTEdwUW1QQTBYWElseHUxV25EV2NCTnBoRVhyRFlER1pSSG9ma1laM25zZHI0WlJWa2ljU2VzQjV2N2MyLWFxTU1MS2dxQm1nU0hncjNLalpB0gHCAkFVX3lxTE1fcFluLVk2VnZ5aHhxMk9RT0ZWTnJVOHRycU5jNTh4ZnVvYVF6dnQtenBhRkkweWNheDRUVWJQcHNxWHFhS1BsTUE4cEZEYjFyY2gxVUNLXzdnWW9US3c2M3hXNjF0MlVKUUdVcl9oOUhpTTJkcUlpeFJXOWRNOVNLdE5DWnJOZWY2VWNfS2NlZEsxdUN3Xzg5djQ5VDRURi1HOHd1blF5ZnQyTXpCb1hnWXhKOHRwbHZheEZnZFZpYzMzeVJlS2lRaDRlT1dqcWR4aWdBU1ZJX01HdW5yZmc1SURKTnE5SlJ4UjZYMV9mZWZMR3BRbVBBMFhYSWx4dTFXbkRXY0JOcGhFWHJEWURHWlJIb2ZrWVozbnNkcjRaUlZraWNTZXNCNXY3YzItYXFNTUxLZ3FCbWdTSGdyM0tqWkE?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYmk2ZkZoQTU3M1BlcG1reXhQSGFqQlVOb3hIV1BPZUM0MEFqQl9YWFNOWGozbnlCM0FUTnQ1dFBXc1cwZGhpanVLbENjZ08wX1ltSl93cE54TGJTaFdCM1F6UzZGS0Q4akhiT2FSRmZfMHZ1TlBGYWZObWdwYkhCQTJCRnptUWhjU1RHNWlXQ1lpS3Y1LUpDS2J4MUxCdmxqam55Z1V4azUtNmJRUlJlYTQ1Z9IBuAFBVV95cUxPNGNUTkt2WHZJNHRFTmtmejRZdndVVjRhY3E5ZmlYSktVSGlscWMtMmJOSVpWQTVxQmFpdXZEZkpYUnZRUlJCN0p4dnBjOFR2ZDF1Q3FPcEJ6S1BiM1o2Z29OQXV4ME91ZXBoRTJNZ3RRZ3pZRWp2TEVkT1RHRVJ4N3ZKbmsxaVltYmF0aTBSTXgyOE5wUzI3RnZYSkNBWTJCWGNuWUVwUWdXZzU3dTM1dlZvWEVnbTJV?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOY1Z5VGZDNmM4MkpSaWExNTFTa18yMktFdW53VDg5OUJHOXhVeFM0elB5REFwVGY0Q0x1eWI4TTZhbGhYcW83MXRydnc4ZkQ1QmxZcU1VOGRGT0NfbGRqb1RmVVFNNm1ZUk56RDh2SkxnQzhWRUhzS3RteTNLblpCRktGVXVyU0xlenNBMnZWckRSRGh2OHdkUVpGX1FueUJGU25HX2ZjNlJDMndxMEE5clo4dWRMSGRxZnhZ0gHAAUFVX3lxTE1MNWxCeWtOWlREN3U4YmdJZVlzckJRQlFsWl92NVFkM3c3TXR4aThxdnFRVUxPNFJEdkk2VTVWc2pSUXI5ejMxVVZFeG5YZFBSMl96R3dLWGZKLUVTRTVhbTUwdFZpbG1ENzVmRjJFTEFiVVBrbGtMVmppd2ZnUDVWTnVvb180VXB5a3Nwb0gza0hjd2RFTWpjWXpUaGtKdi1EdUlmQnJndzIteU1UZUxFX2pmQ1B6Ql9FYW1LanBuSQ?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaVdxNHlGWTRXMlJ6QzBVdVBNeVJsNFEwZzdvTWwwOEE2di1RS3l2TlZmNXRQUEVQcUFwZVJ3VURoQk9JcnFVaDQ1VllQZGVtMW1PcjlHQXdRZjg5NW1ZeU9aM0ctbm5VWFVLbm5teldXZXZLQ1NOTGI0YTRYemIzM0VmamY2LUtpdUtpMVRKMi1ZQ25ZeUJzRjI4cVBmTUljVjdlVW42LTZkeEk?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQX2hCVnNPdllOUVBQSVFsSm5pY2NIYlRlc2RYbkl6aEEtU2Y1LXp0M2J3aXA2SEY0NzJ2YVBiUnRsTmlYbTBfRi1NWXFNbkwxQ0p2anJQeEl1LVd0N0J5OGRUOTh2VGVnSnlMRnNUZ0tiOFlPZ2h6cHlFb1NIc0NCaG1wNnZEQkZweHdlVXNVYUlpTEVnTHFfcm9kdkhtWVF4T3FhR2pFdzZxZWJpbm91eDRNc25IMUhLMTVCX2l1bjVybTVVdnRWVzZpaER2WnBndXkw0gHYAUFVX3lxTE9fcHdLc0ZHbXJGdEJoUm1VZVBCMmQ0U2E0OTk2YnU2REliQW9QWmpQOFhnU2pYVGlZb2Q2UEhXX1d3WXRwWnE3cWhSQy1WQjUzd2VSeFQxZE10VlZaTmdFSVJzSS16b3k2c3hJNGM0eFV5eDZGbDIyU01xZl9QSXktcll1anlYMjNVWTc5cThNUzFJNnVHUHAxa1hYMklnakg4WjJGbDFWR1VLVVdONnZZMTBLcndKVnA2SDQ1SGd2ZHlBMGlDWXN2RXhjTkNjOGJiVGNqclJWdw?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRlhhX2VCRy1rZk1DUEktTmU4S21pZENjZU9uNG9lYldZWFNqaGtCcDRmYWFzLW1fQnlqZk5CSl9VTmcwRXNIblRGNFBrZzU5YWd5Qkh5Y3dERXR6aWhlT3lSNjBScTVCRTdKcGFVYktfQmtFUHZzNkRmZkNUUjBEd3h4Wm1LeXhDMDU2ZVFfeTFFYi1qYVctVE5IY0twS3V1aTJvYzJ2ZXgtNDRl?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS0dBdnpVOW9NM0pwYnhnX2xvWWJudi1PaTEyblVvYkVWSm1UdG00MzR0ZWZScXMyYzE2T0lKZ1MzcWtJWXdDcnlmX21ydU02amNFb3cxYURHVGZSSkR6ZGRRMU94czFiaS1FNk1uazBoTVdzZ3hsdmZJVDV2MVJScFZ6S1hNRWpvVFViYVg3MFhhdlA3WlhXN2s3T2NuRUgxZGhIYTlhRdIBrAFBVV95cUxQeFY3bEc4ejdmc0lfbUlQSUxXQi16TlFmUTZ2Wm9qOXNhSzd6NUxGakpRdjA2d2RnYVl6aTJrcXRQNGhSVUs5NmloekdNeC1RNi1wa0RrcEx0MjZLRUkyUWZVbGg0QlpHN2VyWXR3NkJIM2lvS1pyak1xR0JHMnI2UUZKS1lfQ0ctcFRXYmV1R3R6VEFGNnJ3Q3hwYUtjbHRtWlZwQkltejVSclpj?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUW5pd2FQWHFDV0drdUZ2bGs1QTBpMk8tTXNRNk9ONnFKNDJvenIwUXdtekY2SnpVbUtpZEhFd0lNNUsyUXJJU25GZmN5OXBjNTRDRzhEb3l2RDgwUk1Zal8tM0lib2hqY0p0LTg1bFVsYm90dndyOUlWMUFqd1k4TjZLbDNiamxiQjQ1NkxWUkIxTHQ2Zi1ZMWh4ZzljV1NITDVjY280U3J1NVI2dmZxLW1CSFZjTUk?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWUtnNmlMZVNRZTQtQkZIclo4LW51X3pla1NLanV1VmJ3UWo4Rl9EQXVINGxTOTRtNHhzd0h5WXRySEZSY0gzX2tIUTRqN1F2aXpFVmxfLWdicDZZTkk3cGZBcTVXbnYyZlAza0s1WHFfamZiS3R4Q201NW1jMy1Hbnl0M0FyLURxa2NhTm1qb19aOTFPdmpoMC1US2FlQdIBowFBVV95cUxOY3M2VzhJWkJuQVRMdkFMdU93NlNIZTF2NkE4WHdsc3dyRjdZb0JwbDlLekw5SFRnd1BWVHNaOVNRMkJ0WmhSSG9sUVhZWjNHdDBHRkVKX3RaNzgtU0M2SU0tMDlHZExMSE5uYUZvdzFqamFWREUxdHllYkZ0VGZNVk9FVkVmT0VaNU1FVThPenhYREtacmJMMlhpQkhOcnMyLTk0?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPTllieXJ1eWxNRnBmTzhVY2d4VFV2OGxDdDl1cW54eWVyaVMySGV5TE41WHNnSEJDTUdzUThJSm95bzdiOE9NQm96UVZHb0cxRmFHVGx5b3dUbjg5QlVzZzFEeVdnZXlxMElKNURYVTdLT1ZxUkFnM3FBOWNPdzFCMjVETHN4TTdENDJWMjhIMTNkQUpEdVNWZ091dUd6T1pyNDdzTFpqaTI4R3JaZ282NUlWSEFPbWhFMDBocy1fU3F4NGdCRUdlU3lHZlhIeG1sRVctbng0UmsxNmJvMzNxWlNwYW9ZZ1BsbVRrdTZZT1dqdHFUTTFKZzdZSWFubUM5U01saHNHZHhyaHl3dFNBd2swVGx2UdIBmwJBVV95cUxORF9FUFN5UFk3ZEpoQWpfd2FDdTdheUlhMWJMejkwaTBUQVphSTR6Y0c4RTN5YjBhbFV1Y0tQaWVvS1FEa053ZjFrcHdNLVZyVERzUHRQR0k4Qnc3bkJDOWcyR1RkQ0ZZZjBpZkRnTC1OdGVQODN6Tm1Nbk1UUDJHYlU2Q1dnUVpvOWVUNUhaNU0yV2xuSFhTb3FsT0gxWEJWQzJuTVJkUW9iTlViZzJHZ3FkLUs0U285aHZwWW44VVdKZ2pTVHFpc1BuTV9CVVBBYnVYZVg2bmVMeVM5clJPTklHajg4VUZCZmxiZ3M0X2RwWExGT3YyTjhQdl9CbERsVXBMczQ4OXZyMy1CMlB6R3hwV0NhSW5DbE5F?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYjU1dXNsVzAyMm14bjFsRDIxSXlZVDZPcFVHRnlMOFQzaDc3T3p5SWZuWjg0SzUxcXlGRDBpTHBfN296OU1GVzNmT3ByeWpJRTFJZlRvdHdISXRpUzJ6SktiRlM4Vy14Z1BnZWNRbjNRVDZjbXM2SWFEbFRwaGMxdXBQMXdrUQ?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNLUNDNWpiRzl6T0RjSlNHOVUyUHdpZlVrMGhhWnVsQ1A2a1NrOUE2bWx3NHdtWld5LU5BRkdpaWFKY0hsdHZ6YjFJbmpETTk3MDZ4elNtTmNHUEl0UWhFYlZxMWhfZF9zSEJfTFVTLURLbE9vYUVGUUpBTWtHY3lGdEwxMVE0dmttRkJ4MlFIWVFnckMxRjk0WkVEUjVxU1hFalNNNmhMWTJ0TWVEcGpFSFZhTG83UjROcFBNOXN0NjJ0NDRoeU9uRmU4aDVZSG80bGZSS25BbGl2M2lnV0Q3StIB5gFBVV95cUxONGN5Q3NHYVNrcnN3ZUJUZ29jXzlvQnQ5b1p5OXB3NGhHVk1DSjduQmVSbENMYjRmYXNyOUFNRlgwcUthM1h1Y3ZRdFdRdWdIbTA3QXFBSHlxOTlJLURYeXFXeEVKUl85RGdrdkdaeTZ1eXlKZ2trQTIxSkw5V0xRb0d1bXN3ZFAtR3RfMHNjRDlIQTd4VG5iMlVrMVhuNkZBLUdsRGZsTlRFWlhKMEp2V2ZmRjRkRmFkb1lsN2RhcU5BdW1ILWJoOENhUnVpcEltdVRkZktZTVp3SjJpcVozX3pqMmpCdw?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/karnataka/police-in-karnataka-prevent-ys-sharmila-from-entering-disputed-property/article71732226.ece",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNFBUUUlXNlYwWTFzRElTR29wbFIyVmdoUjFZQlRmcUhhVFFhSEZOQmtua2RYNW80ZHY4bjVMazJGa0tqYWN4eHc4THdGbjNxbU1OT0UtVkNaczhnbWZTc193TVhKWENOWi1HN1N0Skk0SmZZWnF0VzVreGUzZWRFMXBoNGZVaDNUM25mdDlXQ3pJRkJ1QXNVb3ctMFV1OW1tSzZPWGxZSlNkZ2s4TGdWMXRDYXkyMjJIVG5IdzhSenlBMUUyRi00dmxPZTZHWlVYUmV0b2dRMEVwZUlGQ3VN?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNZWtZcDJ1ZXhMRjZOSVFIZXBCNDVFU0ZvZDFjdG9JQmVOQVpNc2w0SHIwbkJ4b3BUaG42alVOM2FkODNKWjlLdFQzdk9VeF9paWFid3ZkcnZ0TmpTZnlSRmhEVHR2UHBRWXRZaVVFeHkyY1c4QjFJWE1rZVd4RDNsckVBdmN5N3pZaHdDUjJtdkRsRkl4ZzFMbEppWXYyMkZMRGNuOUEtQ2F4TDBzR2xFOGVyNExnSFlXQm5feW5NRzVaejhrYTNlYlVZQWtSMW1xY2pkZG5ibXFvUzI5N1Z3QkJMcGtjb0M1T1VKekJBX0ttd2llZl8tSFpUSG9DQXRqTzNkQkt1SnRkZUx3RUpHRXNpZGVvY2xJaVJ1ZER0SEJPS0k2MExrUUttZkFhbHFmbVItRW1nVEhOaG560gHCAkFVX3lxTE1fcFluLVk2VnZ5aHhxMk9RT0ZWTnJVOHRycU5jNTh4ZnVvYVF6dnQtenBhRkkweWNheDRUVWJQcHNxWHFhS1BsTUE4cEZEYjFyY2gxVUNLXzdnWW9US3c2M3hXNjF0MlVKUUdVcl9oOUhpTTJkcUlpeFJXOWRNOVNLdE5DWnJOZWY2VWNfS2NlZEsxdUN3Xzg5djQ5VDRURi1HOHd1blF5ZnQyTXpCb1hnWXhKOHRwbHZheEZnZFZpYzMzeVJlS2lRaDRlT1dqcWR4aWdBU1ZJX01HdW5yZmc1SURKTnE5SlJ4UjZYMV9mZWZMR3BRbVBBMFhYSWx4dTFXbkRXY0JOcGhFWHJEWURHWlJIb2ZrWVozbnNkcjRaUlZraWNTZXNCNXY3YzItYXFNTUxLZ3FCbWdTSGdyM0tqWkE?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTmFydzdob3JNOXZfT0NvV19HMDhjTV94Tl9aTDB6RkY0UG12SDhIcmtCejk1cXRoQlNkUS1MTmg3b2NPN3hzNXlCX3NNRklkd3lRSGgyWnl2YWRJSDhfYmg3clkwVFgwbndLMV8wMFhCdWktenFLenhOM0VyUzh1NWhuX0xfVGVWQUhDcDZ3REFndkZpUGJrMklIeFRDV284UVlwY2ZmdXZEaF9oTkNJ0gG0AUFVX3lxTE1DV3RnUHVGeUt4a2trUjlIcUxYQnFwMXp5WUpPQ1Z6Z3NJbnoxRWl6Q2h0ZWRoMzlXNTZCWUpPMWE3dFVKX2xHRG5STEJsLVl3OTVTS2NkaFg5bThkVEZBRTVKX25jbldvVV9NS1ZpYjhwWkZvb0JlQnM3R25udnFXVEpqcDhOQ2RicG5Vb3pQdDFkSUdMZ21WRHY2aFlRWjNwNlB1ZVgydjg0bkwxRG5FLXQwRQ?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
   }
  ]
 }
