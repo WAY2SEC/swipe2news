@@ -1,26 +1,34 @@
 {
- "updated": "2026-11-23T05:20:00+05:30",
+ "updated": "2026-11-24T05:15:00+05:30",
+ "gold": {
+  "place": "hyderabad",
+  "k22": 11600,
+  "k24": 12656,
+  "date": "2026-11-24",
+  "src": "5paisa",
+  "url": "https://www.5paisa.com/commodity-trading/gold/hyderabad"
+ },
  "panch": {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "place": "Hyderabad",
   "tithi": {
-   "te": "శుక్ల చతుర్దశి",
-   "en": "Shukla Chaturdashi",
-   "hi": "शुक्ल चतुर्दशी"
+   "te": "పౌర్ణమి",
+   "en": "Purnima",
+   "hi": "पूर्णिमा"
   },
-  "tithiEnd": "23:42",
+  "tithiEnd": "20:23",
   "nak": {
-   "te": "భరణి",
-   "en": "Bharani",
-   "hi": "भरणी"
+   "te": "కృత్తిక",
+   "en": "Krittika",
+   "hi": "कृत्तिका"
   },
-  "nakEnd": "02:02",
+  "nakEnd": "23:25",
   "masa": {
    "te": "కార్తీక మాసం",
    "en": "Kartika",
    "hi": "कार्तिक"
   },
-  "src": "Hindutone (Drik Panchang)",
-  "url": "https://hindutone.com/astrology/panchangam-23-november-2026-monday-vaikuntha-chaturdashi/"
+  "src": "hindutone.com (Drik Panchang, Hyderabad)",
+  "url": "https://hindutone.com/astrology/panchangam-24-november-2026-tuesday-dev-diwali-kartika-purnima/"
  }
 }
