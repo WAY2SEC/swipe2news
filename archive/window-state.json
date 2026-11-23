@@ -1,7 +1,20 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T17:05:00+05:30",
+ "cutoff": "2026-11-23T16:35:00+05:30",
  "runs": [
+  {
+   "window": "2026-11-20T23:35:00+05:30/2026-11-21T05:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 12,
+   "published": 10,
+   "late": 7,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Night window 23:35-05:05, lookback from 15:35. Feeds 04:46 IST, 70/70 ok, 810 TG/AP uncovered. Feed direct links refused by fetch (permission not answered); only WebSearch result links opened, and standard search rarely surfaced today's articles (extended did). Published 10: DC AP 12th PRC submissions, TT Pochampally tour, TT Malkajgiri RUB objection (claim), Hans SEBI Amaravati land, Hans Cyberabad cybercrime arrests (sensitive, no names), DC Telangana exports, DC Vijayawada traffic diversion, Hans Coca-Cola AP GO, DC NTR tiger, ThePrint/PTI bullet train. Duplicates not rewritten: RRR south 4,962 acres (published 19 Nov), DC NIMS/TIMS medical tourism wards (same meeting as NewsMeter PPP story). Not opened: The Hindu items (Bhadrachalam lodge arrests, triplets, Bhimavaram BJP, APSRTC, Census, burial grounds), Siasat Madhapur ganja, TT sports results. No world story this run (no openable major item found)."
+  },
   {
    "window": "2026-11-21T05:05:00+05:30/2026-11-21T05:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1288,19 +1301,6 @@
    "skipped": 2,
    "review": 1,
    "gaps": "Lookback from 08:05. Feeds 16:18 IST (68/68 ok). add_repo tool not available; used existing clone. 4 fetch agents. WebFetch blocked (permission timeout) for thehindu.com, siasat.com, telanganatoday.com this run: Hindu crop-loan 12-month moratorium, Hindu Hyderabad bomb-threat email VPN, Siasat MHA WhatsApp Web advisory, Siasat gold imports -40%, TT Future City police school programme left unseen for next run. Not found: TOI smart helmet girls, ET Education UNICEF AP midday meal tests. Review: Hyderabad Mail ACB director Chandrasekhar Reddy takes charge (posting order 12 Nov; charge date unverified). Skipped: ETV poultry El Nino (opinion piece, same topic as 07:05 poultry feed story), ETV Vizag digital-arrest gang (event first reported 22 Nov). Duplicates not re-published: Krishna board TG counter, Nabin padayatra, congestion charge, Pithapuram/Uyyuru, RTC AI cameras, Cyberabad Moves, Golconda ropeway. lang pages/index/sitemap reverted."
-  },
-  {
-   "window": "2026-11-23T16:35:00+05:30/2026-11-23T17:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 20,
-   "published": 17,
-   "late": 0,
-   "sensitive": 3,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 6,
-   "review": 0,
-   "gaps": "Lookback from 08:35. Feeds 16:57 IST (70/70 ok). 116 uncovered events first seen since 16:10 scanned (42 local). add_repo tool not available; used existing clone. 4 fetch agents. Sensitive: Adilabad money-doubling gang (police named, no accused names, arrest count 4 vs 5 stated), Nalgonda ethanol hearing protest (claim), Ukraine says it sank Russian warship in Libya (claim, Russia not confirmed). Duplicates: Kangti soya fire (published 10:05), India-Nepal package (published 15:05), ASEAN maritime conclave Vizag (Lokesh story 15:05). Skipped: NT Bulandshahr child killing (other state), Bar&Bench Justice Bagchi AI divorce courts (21 Nov), News On AIR cyclone Akvan landfall forecast (19 Nov), AJ Sircilla HIV Surakshit (18 Nov), HMTV Dharmana Srikakulam rally (21 Nov; BigTV item not found), Digit Google India layoffs (unverified forum rumour). Not opened/not found (left unseen): The Hindu crop-loan 12-month gap (NewsBytes used), TOI money-multiplying gang (Telangana Today used), Eenadu Pattiseema bank erosion/secretariat collapse (no second source), Suryaa Palamaner council oath, BigTV Dharmana Srikakulam campaign, News18 Sircilla HIV, India Today Google/Microsoft hiring freeze, Disha items (ORR cement lorry, Etala land sales; site refuses fetch). lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8443,131 +8443,6 @@
    "url": "https://indianmasterminds.com/news/telangana-government-transfers-21-ips-officers-mahesh-bhagwat-hyderabad-police-commissioner-249903/",
    "d": "2026-11-23",
    "w": "review"
-  },
-  {
-   "url": "https://www.newsbytesapp.com/news/india/telangana-urges-banks-to-auto-apply-12-month-pause-for-drought-hit-farmers/tldr",
-   "d": "2026-11-23",
-   "w": "published"
-  },
-  {
-   "url": "https://telanganatoday.com/hyderabad-future-city-police-hold-awareness-programme-on-cybercrimes-drug-abuse-at-school",
-   "d": "2026-11-23",
-   "w": "published"
-  },
-  {
-   "url": "https://www.siasat.com/tgspdcl-chief-warns-staff-against-corruption-negligence-in-duty-3584813/",
-   "d": "2026-11-23",
-   "w": "published"
-  },
-  {
-   "url": "https://telanganatoday.com/retaining-wall-work-gathers-pace-at-parade-grounds-as-080ad033",
-   "d": "2026-11-23",
-   "w": "published"
-  },
-  {
-   "url": "https://telanganatoday.com/four-held-in-adilabad-sorcery-fraud-d083c925",
-   "d": "2026-11-23",
-   "w": "published"
-  },
-  {
-   "url": "https://www.hmtvlive.com/telugu-news/khammam/kothagudem-national-award-for-late-forest-officer-naveen-216190",
-   "d": "2026-11-23",
-   "w": "published"
-  },
-  {
-   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/telangana-govt-to-grant-rs-30000-per-church-for-christmas-festivities-216198",
-   "d": "2026-11-23",
-   "w": "published"
-  },
-  {
-   "url": "https://www.hmtvlive.com/telugu-news/nalgonda-suryapet/peoples-groups-protest-demand-cancellation-of-ethanol-plant-public-hearing-216216",
-   "d": "2026-11-23",
-   "w": "published"
-  },
-  {
-   "url": "https://www.hmtvlive.com/telugu-news/mahaboobnagar/speaking-out-fearlessly-is-first-step-to-child-safety-k-laxmipathi-goud-216217",
-   "d": "2026-11-23",
-   "w": "published"
-  },
-  {
-   "url": "https://www.hmtvlive.com/telugu-news/visakhapatnam/visakhapatnam-minister-nara-lokesh-consoles-mayor-sravani-216221",
-   "d": "2026-11-23",
-   "w": "published"
-  },
-  {
-   "url": "https://www.hmtvlive.com/telugu-news/nizamabad/bjp-submits-prajavani-petition-seeking-indiramma-houses-for-beedi-workers-216200",
-   "d": "2026-11-23",
-   "w": "published"
-  },
-  {
-   "url": "https://www.hmtvlive.com/telugu-news/khammam/compassionate-appointment-order-handed-over-to-gunjuluri-renuka-216202",
-   "d": "2026-11-23",
-   "w": "published"
-  },
-  {
-   "url": "https://www.10tv.in/telugu-news/education-and-job/railway-recruitment-2026-rrb-releases-notification-for-191-vacancies-sh-1160953.html",
-   "d": "2026-11-23",
-   "w": "published"
-  },
-  {
-   "url": "https://www.siasat.com/closing-tab-isnt-logging-out-mha-advisory-on-whatsapp-web-use-3584743/",
-   "d": "2026-11-23",
-   "w": "published"
-  },
-  {
-   "url": "https://telanganatoday.com/indian-rupee-reverses-gains-settles-at-92-92-against-us-dollar",
-   "d": "2026-11-23",
-   "w": "published"
-  },
-  {
-   "url": "https://theprint.in/india/resolution-to-rename-west-bengal-as-paschim-banga-to-be-tabled-in-assembly-in-december-cm/3106534/",
-   "d": "2026-11-23",
-   "w": "published"
-  },
-  {
-   "url": "https://theprint.in/world/ukraine-sinks-russian-warship-in-libya-as-conflict-spreads-beyond-europe/3106493/",
-   "d": "2026-11-23",
-   "w": "published"
-  },
-  {
-   "url": "https://www.ntnews.com/national/woman-kills-neighbours-3-year-old-daughter-as-part-of-occult-ritual-in-uttar-pradeshs-bulandshahr-2567225",
-   "d": "2026-11-23",
-   "w": "skip"
-  },
-  {
-   "url": "https://www.barandbench.com/news/supreme-court-justice-joymalya-bagchi-bats-for-dedicated-ai-courts-to-decide-mutual-consent-divorce-cases",
-   "d": "2026-11-23",
-   "w": "skip"
-  },
-  {
-   "url": "https://www.andhrajyothy.com/2026/telangana/karimnagar/district-earns-recognition-for-achieving-hiv-95-targets-1577256.html",
-   "d": "2026-11-23",
-   "w": "skip"
-  },
-  {
-   "url": "https://www.hmtvlive.com/telugu-news/srikakulam/srikakulam-dharmana-slams-govt-at-municipal-poll-rally-215661",
-   "d": "2026-11-23",
-   "w": "skip"
-  },
-  {
-   "url": "https://www.digit.in/news/general/google-india-employees-face-sudden-layoffs-24-hour-resignation-ultimatums-report.html",
-   "d": "2026-11-23",
-   "w": "skip"
-  },
-  {
-   "url": "https://theprint.in/diplomacy/india-announces-1-6-billion-aid-package-for-nepal-flood-recovery-during-pm-balens-1st-bilateral-visit/3106454/",
-   "d": "2026-11-23",
-   "w": "duplicate"
-  },
-  {
-   "url": "https://www.ap7am.com/tn/887766/nara-lokesh-consoles-visakhapatnam-mayor-mukka-sravani",
-   "d": "2026-11-23",
-   "w": "duplicate"
-  },
-  {
-   "url": "https://thenewsmill.com/2026/11/telangana-police-arrest-five-in-adilabad-black-magic-fraud-case/",
-   "d": "2026-11-23",
-   "w": "duplicate"
   }
  ]
 }
