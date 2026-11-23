@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T10:35:00+05:30",
+ "cutoff": "2026-11-23T11:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-20T17:35:00+05:30/2026-11-20T18:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 10,
-   "published": 10,
-   "late": 10,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 5,
-   "review": 0,
-   "gaps": "Feeds 17:42 IST, 68/70 ok (HMTV, New Indian Express failing), 842 TG/AP uncovered, lookback 09:35. Published 10: TT women farmers/Indiramma insurance (claim), South First Warangal couple (sensitive, no names/method), AJ 750 iBreast devices, Federal fake videos HC (sensitive, police), Siasat passport HC, Siasat CM Ronaldo invite, TT HYPEX-2026, Siasat/PTI SC close-relative marriages, Siasat/PTI India-UAE IIT/IIM, Siasat/IANS IRGC. Duplicate: TT Revanth BRS main rival (same ABP summit speech as Ronaldo story). Skipped: TT CPR training (event date unclear), Hans Cyberabad Moves (01:29, before lookback), EPF ceiling (notified 17 Sep, old), Hindu Greenko and Kakinada hydrogen (old articles resurfaced). Not opened (no search hit for today's article): Hindu 12th PRC, Hindu YSRCP fee dues, Hindu Pochampally tour, Hindu tiger Mylavaram, Sakshi Vizag coast erosion, Fortune India TG tech funding, Pioneer mobility summit. Direct feed URLs are refused by WebFetch without a search hit; standard search returned no same-day articles, extended search used. No district searches this run. add_repo not available; used existing clone."
-  },
   {
    "window": "2026-11-20T18:05:00+05:30/2026-11-20T18:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 02:05 on 23 Nov. Feeds 10:16 IST (68/68 ok). 38 uncovered events first seen since 09:50 plus 148 unseen TG/AP backlog events scanned. add_repo tool not available; used existing clone. 2 fetch agents, 7 URLs, 5 opened. Published 3: NewsMeter TGRERA BHEL plots Indresham (10:07), HMTV Kamavarapukota 336 liquor bottles (10:07, sensitive, no names), IndToday IMD new circulation Nov 26-Dec 2 (09:31, forecast, late). Duplicates (already published 21-23 Nov): KRMB panel meet, Sharmila Yelahanka, Hyderabad 26/11 threat email, Kotia arrests, TDP 66/JSP 23/BJP 9 posts, DGPs Tirupati, FSSAI Bisleri, AP three rail lines, Sneha Group I-T, KTR medicos call, Singareni worker murder (NT), ED rice millers (NewsMeter), gold price (Disha). Skipped: DC PGRS suspended Vijayawada/Bapatla/Guntur (22 Nov 22:53, before lookback), HMTV Khammam Prajavani cancelled (22 Nov 22:45, before lookback). Not opened (left unseen): Siasat Hyderabad man held in Russia, ANI Telangana BJP chief on Revanth. News On AIR SC/Cyclone Akvan items are old articles. District searches (extended): Nalgonda, Khammam, Guntur, Vijayawada, Nizamabad, Adilabad, Anantapur, Kadapa, Kurnool, Srikakulam, Vizianagaram, Nellore, Warangal, Karimnagar, Mahabubnagar - nothing new beyond above. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T10:35:00+05:30/2026-11-23T11:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 6,
+   "late": 1,
+   "sensitive": 3,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 02:35 on 23 Nov. Feeds 10:43 IST (69/70 ok). 46 uncovered events first seen since 10:15 scanned. add_repo tool not available; used existing clone. 3 fetch agents, 6 URLs, 6 opened. Published 6: NT BRS leaders house arrest before KRMB visit (10:19, claim), DC Kamareddy tractor-car crash (10:25, sensitive, no names), V6 Nov 24 general holiday (10:31), AJ SCB building permits CBI inquiry (10:26, claim), IANS India-NZ first Test draw (10:36), Business Standard/PTI rupee 92.85 (10:02, late). Duplicates: Malkajgiri SOT ganja (60 kg Nacharam published 22 Nov), HPV 1 crore doses (published 21 Nov), DGP on 26/11 email (published), Asia Power Index (published). Skipped: Polavaram ward candidate (promotional), TOI packaged water testing (not found in search; left unseen), gossip/recipe/health items. Not opened (left unseen): HMTV Makthal Sangambanda leakage, Disha Pushkar ghat, TV9 cyber fraud 8.23 lakh, News18 AP govt 3 lakh, NIE US gun violence, Reuters PMI. No district searches this run. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7601,6 +7601,66 @@
   },
   {
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTmFydzdob3JNOXZfT0NvV19HMDhjTV94Tl9aTDB6RkY0UG12SDhIcmtCejk1cXRoQlNkUS1MTmg3b2NPN3hzNXlCX3NNRklkd3lRSGgyWnl2YWRJSDhfYmg3clkwVFgwbndLMV8wMFhCdWktenFLenhOM0VyUzh1NWhuX0xfVGVWQUhDcDZ3REFndkZpUGJrMklIeFRDV284UVlwY2ZmdXZEaF9oTkNJ0gG0AUFVX3lxTE1DV3RnUHVGeUt4a2trUjlIcUxYQnFwMXp5WUpPQ1Z6Z3NJbnoxRWl6Q2h0ZWRoMzlXNTZCWUpPMWE3dFVKX2xHRG5STEJsLVl3OTVTS2NkaFg5bThkVEZBRTVKX25jbldvVV9NS1ZpYjhwWkZvb0JlQnM3R25udnFXVEpqcDhOQ2RicG5Vb3pQdDFkSUdMZ21WRHY2aFlRWjNwNlB1ZVgydjg0bkwxRG5FLXQwRQ?oc=5",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/brs-leaders-house-arrest-over-krmb-complaint-on-palnadu-water-grid-issue-2567025",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.dishadaily.com/telangana/brs-leaders-oppose-palnadu-water-grid-project-leaders-placed-under-house-arrest-603035",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/jagadish-reddy-slams-arrests-of-brs-leaders-over-krmb-petition-2567028",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.telugupost.com/hyderabad/police-brs-leaders-under-house-arrest-hyderabad-1617977",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/one-killed-five-injured-in-tractor-car-collision-in-kamareddy-2007035",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/telangana-holiday-alert-general-holiday-on-november-24-for-guru-nanak-jayanti-and-karthika-purnima",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/secunderabad-cantonment-cbi-corruption-probe-1579027.html",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://ianslive.in/1st-test-mitchell-phillips-defy-india-as-new-zealand-escape-with-a-draw--20261123103226",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.france24.com/en/live-news/20261123-india-eye-victory-with-new-zealand-157-4-at-lunch-195-runs-behind",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.business-standard.com/amp/finance/news/rupee-declines-23-paise-to-92-85-against-us-dollar-during-early-trade-126112300204_1.html",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/crime/three-drivers-encrypted-whatsapp-calls-long-road-trip-how-malkajgiri-sot-busted-inter-state-ganja-gang-779810",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.aninews.in/news/national/general-news/every-dose-a-step-towards-protecting-girls-from-cervical-cancer-pm-modi-on-1-crore-hpv-vaccine-milestone20261123092918/",
    "d": "2026-11-23",
    "w": "duplicate"
   }
