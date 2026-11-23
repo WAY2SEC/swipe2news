@@ -1383,7 +1383,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
   <div class="toast" id="toast" role="status"></div>
 </div>
 
-<script src="scenes.js?v=20261122c"></script>
+<script src="scenes.js?v=20261123z"></script>
 <script src="mandi.js?v=2"></script>
 <script>
 const CONFIG = {
@@ -2772,7 +2772,13 @@ function prepCard(){ const s=LIST[cur]; if(!s) return Promise.resolve(null); con
   const c={k,blob:null,p:null}; cardCache=c;
   const failed=()=>{ setTimeout(()=>{ if(cardCache===c && !c.blob) cardCache={k:null,blob:null,p:null}; },3000); return null; }; // try again a little later
   c.p=cardImage(s).then(b=>{ if(!b) return failed(); c.blob=b; if(s&&!s.kind&&s.h) newsCard(s,'insta').then(x=>{ if(cardCache===c) c.insta=x; }).catch(()=>{}); return b; }).catch(failed); return c.p; }
-setInterval(()=>{ const s=LIST[cur]; if(s && cardCache.k!==keyOf(s)) prepCard(); },400);
+/* owner 23 Nov 2026 ("why no images"): building the share photo downloads the big original picture – only start it
+   after the reader's own card picture is on screen and they have stayed on the card a moment, so card pictures always come first */
+let prepAt=0, prepFor=null;
+setInterval(()=>{ const s=LIST[cur]; if(!s || cardCache.k===keyOf(s)) return; const k=keyOf(s); if(prepFor!==k){ prepFor=k; prepAt=Date.now(); return; }
+  const c=cards[cur], im=c&&c.querySelector('img.ahero,.bnr img.ph,img.art2'); const shown=!im||(im.complete&&im.naturalWidth>0)||Date.now()-prepAt>8000;
+  const slow=(()=>{ try{ const n=navigator.connection; return !!(n&&(n.saveData||/(^|-)(2g|3g)$/.test(n.effectiveType||''))); }catch(e){ return false; } })();
+  if(shown && Date.now()-prepAt>(slow?4000:1500)) prepCard(); },400);
 const cardFile=b=>new File([b],'swipe2news-'+Date.now()+'.jpg',{type:'image/jpeg'});
 function saveBlob(b){ const u=URL.createObjectURL(b), a=document.createElement('a');
   a.href=u; a.download='swipe2news-'+Date.now()+'.jpg'; document.body.appendChild(a); a.click(); a.remove();
