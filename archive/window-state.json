@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T19:05:00+05:30",
+ "cutoff": "2026-11-23T19:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-21T07:05:00+05:30/2026-11-21T07:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 2,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Lookback from 23:05 (20 Nov). Feeds 07:18 IST, 68/68 ok, 720 TG/AP uncovered (most already published under other URLs). add_repo not available; used existing clone. Published 2 (Hans India): Ongole mayor-elect Sri Shilpa priorities, Thimmapur WEHEAL women's health seminar. Skipped old (published before lookback): Nalgonda double life sentence (20 Nov 14:00), Ramayapatnam customs port (18 Nov). Not opened (search did not surface): govt hospital triplets (The Hindu), Kothagudem mining workshop, AP Census enumeration, Khammam tennis, Amaya Agarwal chess, Ranji UP v Hyderabad, KUDA office BRS allegation, Warangal projects CM review (NTV). No India/world story. Lang pages and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-21T07:35:00+05:30/2026-11-21T08:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 10:35. Feeds 18:53 IST (69/70 ok; New Indian Express 429). 91 uncovered events first seen since 18:10 scanned (23 local). add_repo tool not available; used existing clone. WebFetch only opens URLs returned by a WebSearch in this run: first 11 fetches of feed links were refused, then extended WebSearch with allowed_domains (telanganatoday.com, siasat.com) surfaced fresh articles; thehindu.com domain filter is rejected by search. Sensitive: Palla on Jagan family dispute (claim; UNI lead only, paywalled), CTI gold import figures (claim). Duplicate: Siasat Narsapur bike death (published 11:35 from HMTV). Skipped: DC DRDO scientist award (22 Nov 21:41), DC Karimnagar medical students protest (00:36, before lookback), TT Golf City (2024). Left unseen for next run: TT Cherla U-17 volleyball (published 19:08, after window end), Hindu Karimnagar medical college March-end, News On AIR Akvan crossed coast near Gopalpur, NewsMeter Black Friday scam warning, ETV Bharat AP BSF jawan missing in Assam / Pushkaralu Rs 1,115 cr / panchayat building collapse, PIB ICMR SAMPADA anaemia, NTV Sattenapalli vice-chairman, HMTV Renigunta/Mahabubabad/Kothagudem/Nizamabad items (search did not return them). No separate district searches. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T19:05:00+05:30/2026-11-23T19:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 7,
+   "late": 0,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Lookback from 11:05. Feeds 19:36 IST (68/70 ok). 106 uncovered events first seen since 18:50 scanned (~40 local). add_repo tool not available; used existing clone. 4 fetch agents (16 pages). Published: TT ACB 125 officials, TT Malkajgiri Check 5, TT Shivalal Nagar ganja (sensitive, no name), AJ KRMB meet no decision (follow-up to 15:35 story), DC Naidu AI review, News Mill Bhumana temple demolition (claim), Khaleej Times Iran $290bn (claim; page time 5:48 PM no tz, taken as UAE). Duplicates: TT Sangareddy soya fire (published 10:05 from HMTV), Dawn Nepal $1.62bn package (published 15:05), Hindu Sathya Sai centenary. Skipped: Dynamite HPV 1 crore (21 Nov, before lookback; already covered), Daily Excelsior Sathya Sai (2025 article), Siasat Murtaza Pahalwan attack (unsourced 'reportedly', conflicting Disha 'MIM leader murdered' report; left for next run), Hans KRMB (Aug article). Not opened: US News Grok lawsuit (4xx), Sakshi Education Nov 24 holiday and SI hall ticket (4xx). Not tried: Hindu TDP-Jagan data theft, TIFR-CMC Vellore, Bhatti debt (19:36, after END). District searches: Khammam, Nalgonda, Warangal, Karimnagar, Kurnool, Anantapur, Kakinada, Eluru (nothing new in window). lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8798,6 +8798,76 @@
    "url": "https://telanganatoday.com/efforts-on-to-bring-golf-city-to-hyderabads-southern-region",
    "d": "2026-11-23",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/supreme-court-ruling-strengthens-acb-action-125-officials-d3335b74",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/mmc-launches-mosquito-prevention-campaign-9549e8bb",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/ganja-seized-56ea6b75",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/krmb-three-member-committee-meeting-ends-without-any-decision-on-krishna-water-sharing-vk-1579080.html",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/utilise-ai-technology-to-achieve-better-outcomes-in-public-services-cm-2007143",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://thenewsmill.com/2026/11/former-ttd-chairman-criticises-demolition-of-historic-anjaneya-temple/",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.khaleejtimes.com/world/mena/iran-seeks-290-billion-damages-against-us",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/soya-crop-gutted-in-sangareddy-fire-451c3503",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.dawn.com/news/2046531/india-to-give-162bn-economic-package-to-flood-hit-nepal",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/sri-sathya-sai-babas-birth-centenary-celebrated-in-grand-style-at-puttaparthi/article71734653.ece",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.dynamitenews.com/national/indias-hpv-drive-hits-1-crore-doses-six-states-achieve-full-coverage",
+   "d": "2026-11-23",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.dailyexcelsior.com/sathya-sai-baba-centenary-celebrations-conclude-with-grand-events/",
+   "d": "2026-11-23",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/krishna-water-sharing-krmb-fails-to-break-deadlock-1113642",
+   "d": "2026-11-23",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/3-member-panel-meet-of-krmb-ends-without-taking-any-decision-on-water-use/article71734941.ece",
+   "d": "2026-11-23",
+   "w": "duplicate"
   }
  ]
 }
