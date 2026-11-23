@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T18:35:00+05:30",
+ "cutoff": "2026-11-23T19:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-21T06:35:00+05:30/2026-11-21T07:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 12,
-   "published": 12,
-   "late": 12,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Lookback from 22:35 (20 Nov). Feeds 06:45 IST, 70/70 ok, 806 TG/AP uncovered. add_repo not available; used existing clone. All 12 from The Hans India (only outlet whose links surfaced in search and opened): Chevella Indiramma insurance launch, Hyderabad cement carbon conference, Harish Rao Krishna water challenge (claim), KTR at Southern Rising Summit (claim), Rajgopal Reddy reply to CM (claim), Congress leaders on Harish Rao (claim), BRS leader at KU on job promises (claim), Vizag Holiday Expo, SCoR GM Vadlapudi workshop, VPA generator for Sankar eye hospital, seafood staff training, Anantapur school swimmers. Not opened (WebFetch refused feed URLs typed without a search; search did not surface them): 16 Siasat/The Hindu/Telangana Today items incl. Madhapur ganja arrest, govt hospital triplets, Kothagudem mining workshop, APSRTC JMD, AP Census, Khammam tennis, chess gold, Ranji UP v Hyderabad, YSRCP on MP attack, TT editorial superbugs, Anthropic IPO, Rahul Gandhi on Gaza. Duplicate: TPCC PAC on Rajgopal (merged). Skipped minor: Anantapur ZP officials meet MP, AHUDA felicitation. No India/world story. build_previews lang pages and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-21T07:05:00+05:30/2026-11-21T07:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 1,
    "gaps": "Lookback from 10:05. Feeds 18:13 IST (70/70 ok). 83 uncovered events first seen since 17:40 scanned (32 local). add_repo tool not available; used existing clone. 4 fetch agents. Sensitive: NIMS ACB billing findings (claim, no charges), Hyderabad terror email VPN (police findings, no arrest), Revanth vs BRS Palnadu grid (claim). Duplicates: NewsMeter money-doubling gang (Adilabad published 17:05), Flash PMI (published 12:05), Chittoor poll-slip report/Maharashtra opposition reaction (CEO story 17:35), ASEAN conclave Lokesh. Skipped: Suryaa SIR final list Dec 22 (Guntur JC, 18 Nov article), Tribune India on Rohingya ICJ (20 Nov), SC BS-VI Delhi remark (Delhi-only, oral), Poultry India Expo (CM role not confirmed; DC says Union MoS inaugurates Nov 25), Delhi Jama Masjid attack/Karnataka MLA resignation (other state). Review: Business Today Naidu Honda-Kia video (no publication time). Not found: Suryaa postal ballot polling. District searches: Nirmal, Mulugu, Gadwal, Wanaparthy, Vikarabad, Mahabubabad, Srikakulam, Vizianagaram, Prakasam, Nellore (nothing new in window). Disha items (Sagar water, railway tenders) not tried (site refuses fetch). lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T18:35:00+05:30/2026-11-23T19:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 8,
+   "published": 7,
+   "late": 0,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 10:35. Feeds 18:53 IST (69/70 ok; New Indian Express 429). 91 uncovered events first seen since 18:10 scanned (23 local). add_repo tool not available; used existing clone. WebFetch only opens URLs returned by a WebSearch in this run: first 11 fetches of feed links were refused, then extended WebSearch with allowed_domains (telanganatoday.com, siasat.com) surfaced fresh articles; thehindu.com domain filter is rejected by search. Sensitive: Palla on Jagan family dispute (claim; UNI lead only, paywalled), CTI gold import figures (claim). Duplicate: Siasat Narsapur bike death (published 11:35 from HMTV). Skipped: DC DRDO scientist award (22 Nov 21:41), DC Karimnagar medical students protest (00:36, before lookback), TT Golf City (2024). Left unseen for next run: TT Cherla U-17 volleyball (published 19:08, after window end), Hindu Karimnagar medical college March-end, News On AIR Akvan crossed coast near Gopalpur, NewsMeter Black Friday scam warning, ETV Bharat AP BSF jawan missing in Assam / Pushkaralu Rs 1,115 cr / panchayat building collapse, PIB ICMR SAMPADA anaemia, NTV Sattenapalli vice-chairman, HMTV Renigunta/Mahabubabad/Kothagudem/Nizamabad items (search did not return them). No separate district searches. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8738,6 +8738,66 @@
    "url": "https://www.deccanchronicle.com/southern-states/telangana/union-minister-sp-singh-baghel-to-inaugurate-poultry-india-expo-on-nov-25-2002054",
    "d": "2026-11-23",
    "w": "skip"
+  },
+  {
+   "url": "https://www.siasat.com/s-chandrasekhar-reddy-assumes-charge-as-telangana-acb-director-3584956/",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-karkhanas-date-a-book-library-shuts-down-after-seven-years",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/cyberabad-municipal-corporation-launches-amr-awareness-c930c23c",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/politics-ap-tdp-23ms29/254690",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/jagan-dragging-tdp-into-family-disputes-alleges-palla/article71734670.ece",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/ai-startup-funding-nearly-doubles-d4c9ef10",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/india-gold-imports-down-40-pc-in-april-oct-says-cti-3584716/",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/bangladesh-court-curbs-social-media-access-for-children-under-16-3584634/",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/man-killed-as-vehicle-rams-bike-in-medak-3584604/",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-drdo-scientist-dr-prakash-chand-jain-receives-dr-murli-manohar-joshi-award-for-missile-airframe-research-2006920",
+   "d": "2026-11-23",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/drdo-scientist-pc-jain-receives-murli-manohar-joshi-award/article71731302.ece",
+   "d": "2026-11-23",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/efforts-on-to-bring-golf-city-to-hyderabads-southern-region",
+   "d": "2026-11-23",
+   "w": "skipped"
   }
  ]
 }
