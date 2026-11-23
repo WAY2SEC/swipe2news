@@ -1,8 +1,710 @@
 {
  "date": "23.11.2026",
- "updated": "2026-11-23T06:05:00+05:30",
+ "updated": "2026-11-23T06:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "తెలంగాణ · సాగునీరు",
+   "col": "--c-water",
+   "art": "water",
+   "pic": "e/irrigation-canal-repair",
+   "stat": "రెండు రోజుల్లో",
+   "statl": "నీరు ఇవ్వాలని డిమాండ్",
+   "h": "తిప్పర్తి గ్రామాలకు సాగునీటి కోసం ఆందోళన",
+   "p": "నల్గొండ జిల్లా తిప్పర్తి మండలంలోని గ్రామాలకు వెంటనే సాగునీరు ఇవ్వాలని మాజీ ఎమ్మెల్యే కంచర్ల భూపాల్ రెడ్డి స్థానికులతో కలిసి డీ-39, డీ-40 కాలువల వద్ద ఆందోళన చేశారు. రైతులకు నీరు చాలా అవసరమని చెప్పారు. రెండు రోజుల్లో నీరు ఇవ్వకపోతే తామే తూములు తెరుస్తామని అధికారులను హెచ్చరించారు.",
+   "pts": [
+    "డీ-39, డీ-40 కాలువల వద్ద నిరసన",
+    "అధికారుల స్పందన ఇంకా తెలియలేదు"
+   ],
+   "why": "తిప్పర్తి మండలంలో యాసంగి సాగు చేయాలనుకునే రైతులకు ఇది ముఖ్యం.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/nalgonda-suryapet/irrigation-water-demanded-for-tipparthi-villages-1144821",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "nalgonda",
+   "loc": "తిప్పర్తి",
+   "pub": "2026-11-23T03:42+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Irrigation",
+    "stat": "Within two days",
+    "statl": "water demanded",
+    "loc": "Tipparthi, Nalgonda",
+    "h": "Protest for irrigation water in Tipparthi",
+    "p": "Former MLA Kancherla Bhupal Reddy and local residents protested at the D-39 and D-40 canals, demanding immediate release of irrigation water to villages in Tipparthi mandal of Nalgonda district. He said farmers urgently need water and warned officials that if it is not released in two days, protesters would open the sluices themselves.",
+    "pts": [
+     "Protest held at the D-39 and D-40 canals",
+     "No official response reported yet"
+    ],
+    "why": "It matters to farmers in Tipparthi mandal planning their rabi crop."
+   },
+   "hi": {
+    "cat": "तेलंगाना · सिंचाई",
+    "stat": "दो दिन में",
+    "statl": "पानी देने की मांग",
+    "loc": "तिप्पर्ती, नलगोंडा",
+    "h": "तिप्पर्ती के गांवों को सिंचाई पानी की मांग",
+    "p": "पूर्व विधायक कंचर्ला भूपाल रेड्डी ने स्थानीय लोगों के साथ डी-39 और डी-40 नहरों पर प्रदर्शन कर नलगोंडा ज़िले के तिप्पर्ती मंडल के गांवों को तुरंत सिंचाई पानी देने की मांग की। उन्होंने कहा कि किसानों को पानी की सख़्त ज़रूरत है और चेताया कि दो दिन में पानी न मिला तो प्रदर्शनकारी ख़ुद गेट खोलेंगे।",
+    "pts": [
+     "डी-39 और डी-40 नहरों पर प्रदर्शन",
+     "अधिकारियों का जवाब अभी नहीं आया"
+    ],
+    "why": "तिप्पर्ती मंडल में रबी फ़सल की तैयारी कर रहे किसानों के लिए अहम।"
+   },
+   "d": "23.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "తెలంగాణ · సూర్యాపేట",
+   "col": "--c-gov",
+   "art": "campus",
+   "pic": "e/girls-cycling-to-school",
+   "stat": "₹10 వేలు",
+   "statl": "ముగ్గురు టాపర్లకు ఒక్కొక్కరికి",
+   "h": "బేతవోలు బాలికలకు కమిషనర్ సైకిళ్లు",
+   "p": "తెలంగాణ దేవాదాయ శాఖ కమిషనర్ ఎం. హనుమంతరావు తన సొంత ఊరు సూర్యాపేట జిల్లా చిలుకూరు మండలం బేతవోలులోని జెడ్పీ ఉన్నత పాఠశాల బాలికలకు ఆదివారం సైకిళ్లు ఇచ్చారు. తన చదువు రోజులు గుర్తుచేసుకుని భావోద్వేగానికి లోనయ్యారు. పదో తరగతిలో మొదటి ముగ్గురు విద్యార్థులకు ఒక్కొక్కరికి ₹10 వేలు ఇస్తామన్నారు.",
+   "pts": [
+    "సొంత ఊరు, బడికి సాయం చేయాలని పిలుపు",
+    "ప్రభుత్వ బడులు బలపడాలని సూచన"
+   ],
+   "why": "బేతవోలు పాఠశాల విద్యార్థినులకు బడికి వెళ్లడం సులువవుతుంది.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/nalgonda-suryapet/endowments-commissioners-emotional-return-to-native-village-1144823",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "suryapet",
+   "loc": "బేతవోలు, చిలుకూరు",
+   "pub": "2026-11-23T03:47+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Suryapet",
+    "stat": "₹10,000",
+    "statl": "each for top three students",
+    "loc": "Bethavolu, Chilukur",
+    "h": "Endowments chief gives cycles to Bethavolu girls",
+    "p": "Telangana Endowments Commissioner M. Hanumantha Rao gave bicycles on Sunday to girl students of the ZP High School in his native Bethavolu village, Chilukur mandal, Suryapet district. He became emotional recalling his school days and announced ₹10,000 each for the top three Class 10 students.",
+    "pts": [
+     "Urged people to help their home village and school",
+     "Called for stronger government schools"
+    ],
+    "why": "Girl students of the Bethavolu school will find it easier to reach school."
+   },
+   "hi": {
+    "cat": "तेलंगाना · सूर्यापेट",
+    "stat": "₹10,000",
+    "statl": "तीन टॉपर छात्रों को प्रत्येक",
+    "loc": "बेतवोलु, चिलुकूर",
+    "h": "बेतवोलु की छात्राओं को साइकिलें दीं",
+    "p": "तेलंगाना के धर्मस्व आयुक्त एम. हनुमंत राव ने रविवार को सूर्यापेट ज़िले के चिलुकूर मंडल में अपने पैतृक गांव बेतवोलु के ज़ेडपी हाई स्कूल की छात्राओं को साइकिलें दीं। स्कूल के दिनों को याद कर वे भावुक हुए और दसवीं के तीन टॉपर छात्रों को ₹10,000 प्रत्येक देने की घोषणा की।",
+    "pts": [
+     "अपने गांव और स्कूल की मदद की अपील",
+     "सरकारी स्कूल मज़बूत करने पर ज़ोर"
+    ],
+    "why": "बेतवोलु स्कूल की छात्राओं के लिए स्कूल पहुंचना आसान होगा।"
+   },
+   "d": "23.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "హైదరాబాద్ · క్రికెట్",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/cricket-match",
+   "stat": "నాలుగు సెంచరీలు",
+   "statl": "సి-డివిజన్ లీగ్‌లో",
+   "h": "హెచ్‌సీఏ లీగ్‌లో నాలుగు సెంచరీలు",
+   "p": "హైదరాబాద్ క్రికెట్ సంఘం సి-డివిజన్ వన్డే లీగ్‌లో ఆదివారం నలుగురు బ్యాటర్లు సెంచరీలు చేశారు. గ్రీన్‌ల్యాండ్స్ తరఫున సి. నిఖిల్ యాదవ్ 151 పరుగులు చేశారు. కాకతీయ తరఫున మహాప్రసాద్ సాహు 105, అజయ్ కుమార్ 119 చేసినా సికింద్రాబాద్ క్లబ్ గెలిచింది. పీపీఎంసీకి సోమశుభ్ర పాల్ 101 చేశారు.",
+   "pts": [
+    "కాకతీయ 280 పరుగులను సికింద్రాబాద్ క్లబ్ ఛేదించింది",
+    "ఆర్‌జేసీసీ 8 వికెట్ల తేడాతో గెలుపు"
+   ],
+   "why": "హైదరాబాద్‌లో క్లబ్ క్రికెట్ ఆడే యువ ఆటగాళ్లకు ఇది ప్రోత్సాహం.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/four-centuries-highlight-hca-c-division-league",
+   "sec": [
+    "telangana",
+    "sports"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-23T01:14+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Cricket",
+    "stat": "Four centuries",
+    "statl": "in HCA C-Division league",
+    "loc": "Hyderabad",
+    "h": "Four centuries in HCA C-Division league",
+    "p": "Four batters scored centuries in Sunday's HCA C-Division one-day matches in Hyderabad. C. Nikhil Yadav hit 151 for Greenlands. Mahaprasad Sahu (105) and Ajay Kumar Sangem (119) scored for Kakatiya, but Secunderabad Club still won. Somsubhra Pal made 101 not out for PPMC.",
+    "pts": [
+     "Secunderabad Club chased down Kakatiya's 280",
+     "RJCC won by eight wickets"
+    ],
+    "why": "It encourages young club cricketers in Hyderabad."
+   },
+   "hi": {
+    "cat": "हैदराबाद · क्रिकेट",
+    "stat": "चार शतक",
+    "statl": "एचसीए सी-डिवीज़न लीग में",
+    "loc": "हैदराबाद",
+    "h": "एचसीए सी-डिवीज़न लीग में चार शतक",
+    "p": "हैदराबाद में रविवार को एचसीए सी-डिवीज़न वनडे मैचों में चार बल्लेबाज़ों ने शतक लगाए। ग्रीनलैंड्स के सी. निखिल यादव ने 151 रन बनाए। काकतीय के महाप्रसाद साहू (105) और अजय कुमार (119) के बावजूद सिकंदराबाद क्लब जीता। पीपीएमसी के सोमशुभ्र पाल 101 पर नाबाद रहे।",
+    "pts": [
+     "सिकंदराबाद क्लब ने काकतीय का 280 का लक्ष्य पाया",
+     "आरजेसीसी आठ विकेट से जीता"
+    ],
+    "why": "हैदराबाद के युवा क्लब क्रिकेटरों के लिए प्रोत्साहन।"
+   },
+   "d": "23.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "తెలంగాణ · కరీంనగర్",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/party-bjp",
+   "stat": "2.5 కిలోమీటర్ల",
+   "statl": "పాదయాత్ర ఈరోజు",
+   "h": "కరీంనగర్‌లో నేడు బీజేపీ పాదయాత్ర",
+   "p": "ఓటర్ల జాబితా ప్రత్యేక సమగ్ర సవరణకు మద్దతుగా బీజేపీ జాతీయ అధ్యక్షుడు నితిన్ నబిన్ ఈరోజు కరీంనగర్‌లో పాదయాత్ర చేస్తారు. మధ్యాహ్నం 12:30కి గాంధీ సర్కిల్ దగ్గరి వైశ్య భవన్ నుంచి కమాన్ చౌరస్తా వరకు 2.5 కిలోమీటర్లు నడుస్తారు. ఏర్పాట్లను కేంద్ర మంత్రి బండి సంజయ్ చూస్తున్నారు.",
+   "pts": [
+    "వైశ్య భవన్ నుంచి కమాన్ చౌరస్తా వరకు",
+    "ఓటర్ల జాబితా సవరణకు మద్దతుగా"
+   ],
+   "why": "కరీంనగర్ నగరంలో మధ్యాహ్నం ఆ దారిలో ప్రయాణించే వారికి ఇది ముఖ్యం.",
+   "next": "పాదయాత్ర నవంబర్ 23 మధ్యాహ్నం 12:30కి",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/karimnagar/nitin-nabin-to-lead-bjps-mega-padayatra-in-karimnagar-today-1144818",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "karimnagar",
+   "loc": "కరీంనగర్",
+   "pub": "2026-11-23T03:33+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Karimnagar",
+    "stat": "2.5 km",
+    "statl": "march today",
+    "loc": "Karimnagar",
+    "h": "BJP padayatra in Karimnagar today",
+    "p": "BJP national president Nitin Nabin will lead a padayatra in Karimnagar today in support of the Special Intensive Revision of voter lists. The 2.5 km march starts at 12:30 pm from Vaishya Bhavan near Gandhi Circle and ends at Kaman Chowrasta. Union minister Bandi Sanjay is overseeing arrangements.",
+    "pts": [
+     "From Vaishya Bhavan to Kaman Chowrasta",
+     "In support of the voter list revision"
+    ],
+    "why": "It matters to people travelling on that route in Karimnagar this afternoon.",
+    "next": "March on November 23 at 12:30 pm"
+   },
+   "hi": {
+    "cat": "तेलंगाना · करीमनगर",
+    "stat": "2.5 किमी",
+    "statl": "पदयात्रा आज",
+    "loc": "करीमनगर",
+    "h": "करीमनगर में आज भाजपा की पदयात्रा",
+    "p": "भाजपा राष्ट्रीय अध्यक्ष नितिन नबीन मतदाता सूची के विशेष गहन पुनरीक्षण के समर्थन में आज करीमनगर में पदयात्रा करेंगे। 2.5 किमी की यात्रा दोपहर 12:30 बजे गांधी सर्कल के पास वैश्य भवन से शुरू होकर कमान चौरास्ता पर ख़त्म होगी। केंद्रीय मंत्री बंडी संजय तैयारियां देख रहे हैं।",
+    "pts": [
+     "वैश्य भवन से कमान चौरास्ता तक",
+     "मतदाता सूची पुनरीक्षण के समर्थन में"
+    ],
+    "why": "करीमनगर में दोपहर उस रास्ते से जाने वालों के लिए अहम।",
+    "next": "पदयात्रा 23 नवंबर दोपहर 12:30 बजे"
+   },
+   "d": "23.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "ఏపీ · పంచాయతీ ఎన్నికలు",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/ballot-paper-vote",
+   "stat": "ఒకే వీధి",
+   "statl": "రెండు జిల్లాల ఊళ్లలో ఏకగ్రీవం",
+   "h": "ఒకే వీధిలోని రెండు ఊళ్లలో ఏకగ్రీవం",
+   "p": "ఒక వీధి సరిహద్దుగా ఉన్న ప్రకాశం జిల్లా బల్లికురవ మండలం కె. రాజుపాలెం, బాపట్ల జిల్లా మార్టూరు మండలం రాజుపాలెం గ్రామాల్లో సర్పంచ్‌లు ఏకగ్రీవంగా ఎన్నికయ్యారు. కె. రాజుపాలెంలో ఊరి అభివృద్ధికి ₹35 లక్షలు ఇచ్చిన గొట్టిపాటి శ్రీహరి, రాజుపాలెంలో శాకమూరి పద్మావతి ఎన్నికయ్యారు.",
+   "pts": [
+    "రెండు ఊళ్లకు వేర్వేరు రోజుల్లో పోలింగ్ ఉండాల్సింది",
+    "ఇప్పుడు ఈ రెండు చోట్ల పోలింగ్ అవసరం లేదు"
+   ],
+   "why": "ఈ రెండు గ్రామాల ఓటర్లకు ఈసారి సర్పంచ్ పోలింగ్ ఉండదు.",
+   "src": "Andhra Jyothy",
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/two-villages-in-two-districts-on-the-same-street-unanimously-elect-their-sarpanches-1578986.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-prakasam",
+   "loc": "కె. రాజుపాలెం, బల్లికురవ",
+   "pub": "2026-11-23T05:39+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Panchayat polls",
+    "stat": "One street",
+    "statl": "two districts, both unopposed",
+    "loc": "K. Rajupalem, Ballikurava",
+    "h": "Two villages on one street elect sarpanches unopposed",
+    "p": "K. Rajupalem in Ballikurava mandal of Prakasam district and Rajupalem in Martur mandal of Bapatla district, separated only by a street, have both elected sarpanches unopposed. Gottipati Srihari, who gave ₹35 lakh for village development, won in K. Rajupalem, and Shakamuri Padmavathi in Rajupalem.",
+    "pts": [
+     "The two villages were to vote on different days",
+     "No sarpanch polling now needed in either"
+    ],
+    "why": "Voters in these two villages will not have a sarpanch poll this time."
+   },
+   "hi": {
+    "cat": "आंध्र · पंचायत चुनाव",
+    "stat": "एक गली",
+    "statl": "दो ज़िले, दोनों निर्विरोध",
+    "loc": "के. राजुपालेम, बल्लिकुरवा",
+    "h": "एक गली के दो गांवों में सरपंच निर्विरोध",
+    "p": "सिर्फ़ एक गली से बंटे प्रकाशम ज़िले के बल्लिकुरवा मंडल के के. राजुपालेम और बापटला ज़िले के मार्टूरु मंडल के राजुपालेम में सरपंच निर्विरोध चुने गए। गांव के विकास के लिए ₹35 लाख देने वाले गोट्टिपाटि श्रीहरि के. राजुपालेम में और शाकमूरि पद्मावती राजुपालेम में चुनी गईं।",
+    "pts": [
+     "दोनों गांवों में अलग दिन मतदान होना था",
+     "अब दोनों जगह सरपंच मतदान नहीं"
+    ],
+    "why": "इन दोनों गांवों के मतदाताओं को इस बार सरपंच मतदान नहीं करना होगा।"
+   },
+   "d": "23.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "ఏపీ · కడప",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/ballot-paper-vote",
+   "stat": "టాస్‌",
+   "statl": "తో మాధవికి అవకాశం",
+   "h": "పిట్టిగుంటలో టాస్‌తో అభ్యర్థి ఖరారు",
+   "p": "కడప జిల్లా బద్వేలు నియోజకవర్గంలో సిమెంట్ రోడ్డే సరిహద్దుగా ఉన్న చెన్నారెడ్డిపల్లె, పిట్టిగుంట గ్రామాల్లో పంచాయతీ ఎన్నికలు ఆసక్తిగా మారాయి. పిట్టిగుంటలో టీడీపీ మద్దతుదారు బూసిరెడ్డి విజయలక్ష్మి, వైఎస్సార్‌సీపీ మద్దతుదారు బూసిరెడ్డి మాధవి మధ్య వేసిన టాస్‌లో మాధవికి అవకాశం దక్కింది. ఇంకా ఇద్దరు అభ్యర్థులు బరిలో ఉన్నారు.",
+   "pts": [
+    "పిట్టిగుంటలో 547 మంది, చెన్నారెడ్డిపల్లెలో 820 మంది ఓటర్లు",
+    "ఇద్దరు అభ్యర్థులు తప్పుకోకపోవడంతో పోటీ తప్పదు"
+   ],
+   "why": "ఈ రెండు గ్రామాల ఓటర్లు ఇంకా పోలింగ్‌లో పాల్గొనాల్సి ఉంది.",
+   "src": "Andhra Jyothy",
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/cement-road-separates-two-villages-belonging-to-different-mandals-in-andhra-pradesh-1578993.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-kadapa",
+   "loc": "పిట్టిగుంట, కాశినాయన",
+   "pub": "2026-11-23T05:53+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Kadapa",
+    "stat": "Toss",
+    "statl": "decides for Madhavi",
+    "loc": "Pittigunta, Kasinayana",
+    "h": "Toss settles sarpanch candidate in Pittigunta",
+    "p": "In Badvel constituency of Kadapa district, Chennareddypalle and Pittigunta villages are divided by a cement road. In Pittigunta, a toss between TDP-backed Busireddy Vijayalakshmi and YSRCP-backed Busireddy Madhavi went in Madhavi's favour.",
+    "pts": [
+     "Pittigunta has 547 voters, Chennareddypalle 820",
+     "Contest goes on as two others did not withdraw"
+    ],
+    "why": "Voters in these two villages still have to go to the polls."
+   },
+   "hi": {
+    "cat": "आंध्र · कडपा",
+    "stat": "टॉस",
+    "statl": "से माधवी को मौक़ा",
+    "loc": "पिट्टिगुंटा, काशिनायना",
+    "h": "पिट्टिगुंटा में टॉस से सरपंच उम्मीदवार तय",
+    "p": "कडपा ज़िले के बद्वेल क्षेत्र में चेन्नारेड्डीपल्ले और पिट्टिगुंटा गांव एक सीमेंट सड़क से बंटे हैं। पिट्टिगुंटा में टीडीपी समर्थित बूसिरेड्डी विजयलक्ष्मी और वाईएसआरसीपी समर्थित बूसिरेड्डी माधवी के बीच टॉस में माधवी को मौक़ा मिला।",
+    "pts": [
+     "पिट्टिगुंटा में 547, चेन्नारेड्डीपल्ले में 820 मतदाता",
+     "दो अन्य के न हटने से मुक़ाबला जारी"
+    ],
+    "why": "इन दोनों गांवों के मतदाताओं को अभी मतदान करना है।"
+   },
+   "d": "23.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "ఏపీ · విద్య",
+   "col": "--c-gov",
+   "art": "campus",
+   "pic": "e/digital-classroom",
+   "stat": "8–10 తరగతుల",
+   "statl": "విద్యార్థులకు ఉచిత యాప్",
+   "h": "విశాఖలో విద్యార్థుల కోసం 'వినుహ్' యాప్",
+   "p": "సినీ దర్శకుడు పి. సునీల్ కుమార్ రెడ్డి 8 నుంచి 10వ తరగతి విద్యార్థుల కోసం 'వినుహ్' అనే ఉచిత యాప్ తెచ్చారు. ఏపీ, తెలంగాణ సిలబస్ ప్రకారం చిన్న వీడియో పాఠాలు తెలుగు, ఇంగ్లిష్‌లో ఉంటాయి. పేద పిల్లలు మాతృభాషలో బాగా నేర్చుకుంటారని ఆయన చెప్పారు.",
+   "pts": [
+    "వర్టికల్ సీడ్ స్టూడియోస్ యాప్ తయారు చేసింది",
+    "మరిన్ని భాషలు, స్పోకెన్ ఇంగ్లిష్ కోర్సులు రానున్నాయి"
+   ],
+   "why": "ఏపీ, తెలంగాణలో పదో తరగతి పరీక్షలకు సిద్ధమయ్యే విద్యార్థులకు ఉపయోగం.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/visakhapatnam-vinuh-app-makes-academic-life-easier-and-simpler-for-students-1144779",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "AP",
+   "place": "ap-visakhapatnam",
+   "loc": "విశాఖపట్నం",
+   "pub": "2026-11-23T01:47+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Education",
+    "stat": "Classes 8–10",
+    "statl": "free learning app",
+    "loc": "Visakhapatnam",
+    "h": "'Vinuh' app launched for students in Vizag",
+    "p": "Filmmaker P. Suneel Kumar Reddy has launched Vinuh, a free app of short video lessons for Class 8 to 10 students. It follows the AP and Telangana state syllabi in Telugu and English. He said poorer children often learn better in their mother tongue.",
+    "pts": [
+     "Built by Vertical Seed Studios",
+     "More languages and spoken-English courses planned"
+    ],
+    "why": "Useful for Class 10 students preparing for exams in AP and Telangana."
+   },
+   "hi": {
+    "cat": "आंध्र · शिक्षा",
+    "stat": "कक्षा 8–10",
+    "statl": "के लिए मुफ़्त ऐप",
+    "loc": "विशाखापत्तनम",
+    "h": "विशाखापत्तनम में छात्रों के लिए 'विनुह' ऐप",
+    "p": "फ़िल्मकार पी. सुनील कुमार रेड्डी ने कक्षा 8 से 10 के छात्रों के लिए छोटे वीडियो पाठों वाला मुफ़्त ऐप विनुह शुरू किया। यह आंध्र और तेलंगाना राज्य पाठ्यक्रम पर तेलुगु और अंग्रेज़ी में है। उन्होंने कहा कि ग़रीब बच्चे मातृभाषा में बेहतर सीखते हैं।",
+    "pts": [
+     "वर्टिकल सीड स्टूडियोज़ ने ऐप बनाया",
+     "और भाषाएं, स्पोकन इंग्लिश कोर्स आएंगे"
+    ],
+    "why": "आंध्र और तेलंगाना में दसवीं परीक्षा की तैयारी करने वालों के लिए उपयोगी।"
+   },
+   "d": "23.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "ఏపీ · ఆరోగ్యం",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/athletics-race",
+   "stat": "పురుషుల ఆరోగ్యం",
+   "statl": "పై విశాఖలో నడక",
+   "h": "విశాఖలో పురుషుల ఆరోగ్యంపై నడక",
+   "p": "ప్రపంచ పురుషుల దినోత్సవం సందర్భంగా ఆంధ్రప్రదేశ్ ఎంబ్రియాలజిస్ట్ అసోసియేషన్ ఆదివారం విశాఖ బీచ్ రోడ్‌లో వాకథాన్ నిర్వహించింది. కుటుంబ బాధ్యతలతో పాటు పురుషులు తమ ఆరోగ్యాన్నీ చూసుకోవాలని, రోజూ వ్యాయామం చేయాలని వైద్యులు సూచించారు. ఎక్కువసేపు వేడి తగలడం సంతానలేమికి కారణం కావచ్చని చెప్పారు. సమస్యలపై డాక్టర్లను కలవాలన్నారు.",
+   "pts": [
+    "ఫోన్‌ను ప్యాంటు జేబులో ఉంచడంపై వైద్యుల హెచ్చరిక",
+    "సంఘం అధ్యక్షుడు వై. కిశోర్ బాబు అధ్యక్షత"
+   ],
+   "why": "తమ ఆరోగ్యాన్ని నిర్లక్ష్యం చేసే పురుషులకు ఇది ముఖ్యమైన సూచన.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/visakhapatnam-walkathon-to-build-awareness-of-mens-health-and-well-being-1144776",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-visakhapatnam",
+   "loc": "బీచ్ రోడ్, విశాఖపట్నం",
+   "pub": "2026-11-23T01:43+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Health",
+    "stat": "Men's health",
+    "statl": "walk in Vizag",
+    "loc": "Beach Road, Visakhapatnam",
+    "h": "Vizag walkathon on men's health",
+    "p": "The Embryologist Association of Andhra Pradesh held a walkathon on Visakhapatnam's Beach Road on Sunday for World Men's Day. Doctors urged men to exercise daily and consult doctors about health problems, and said long exposure to heat can contribute to infertility.",
+    "pts": [
+     "Doctors warned against keeping phones in trouser pockets",
+     "Association president Y. Kishore Babu presided"
+    ],
+    "why": "A useful reminder for men who neglect their health."
+   },
+   "hi": {
+    "cat": "आंध्र · स्वास्थ्य",
+    "stat": "पुरुष स्वास्थ्य",
+    "statl": "पर विशाखापत्तनम में वॉक",
+    "loc": "बीच रोड, विशाखापत्तनम",
+    "h": "विशाखापत्तनम में पुरुष स्वास्थ्य पर वॉकथॉन",
+    "p": "विश्व पुरुष दिवस पर आंध्र प्रदेश एम्ब्रियोलॉजिस्ट एसोसिएशन ने रविवार को विशाखापत्तनम के बीच रोड पर वॉकथॉन किया। डॉक्टरों ने पुरुषों से रोज़ व्यायाम करने और स्वास्थ्य समस्याओं पर डॉक्टर से मिलने को कहा और बताया कि ज़्यादा गर्मी बांझपन की वजह बन सकती है।",
+    "pts": [
+     "फ़ोन पैंट की जेब में रखने पर डॉक्टरों की चेतावनी",
+     "एसोसिएशन अध्यक्ष वाई. किशोर बाबू ने अध्यक्षता की"
+    ],
+    "why": "अपनी सेहत की अनदेखी करने वाले पुरुषों के लिए ज़रूरी सलाह।"
+   },
+   "d": "23.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "ఏపీ · అనకాపల్లి",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "d/ap-anakapalli",
+   "stat": "31 కిలోమీటర్ల",
+   "statl": "ఫణిగిరి ప్రదక్షిణ మంగళవారం",
+   "h": "పంచదార్లలో మంగళవారం ఫణిగిరి ప్రదక్షిణ",
+   "p": "కార్తీక పౌర్ణమి సందర్భంగా అనకాపల్లి జిల్లా రాంబిల్లి మండలం పంచదార్లలో మంగళవారం మూడో ఫణిగిరి ప్రదక్షిణ జరుగుతుంది. ఉదయం 6 నుంచి సాయంత్రం 6 వరకు సుమారు 31 కిలోమీటర్ల దారిలో కొత్తూరు, గోకివాడ, కొండకర్ల మీదుగా సాగుతుంది. వేలాది మంది భక్తులు వస్తారని అంచనా.",
+   "pts": [
+    "దారిలో వైద్య శిబిరాలు, పోలీసు భద్రత",
+    "దాతల ఆహార, తాగునీటి కేంద్రాలు"
+   ],
+   "why": "ప్రదక్షిణకు వెళ్లే భక్తులు, ఆ దారిలోని గ్రామాల ప్రజలకు ఇది ముఖ్యం.",
+   "next": "ప్రదక్షిణ నవంబర్ 24 ఉదయం 6 గంటలకు మొదలు",
+   "src": "Sakshi",
+   "url": "https://www.sakshi.com/telugu-news/anakapalle/2967942",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "AP",
+   "place": "ap-anakapalli",
+   "loc": "పంచదార్ల, రాంబిల్లి",
+   "pub": "2026-11-23T05:48+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Anakapalli",
+    "stat": "31 km",
+    "statl": "Phanigiri walk on Tuesday",
+    "loc": "Panchadarla, Rambilli",
+    "h": "Phanigiri giri pradakshina on Tuesday",
+    "p": "The third Phanigiri hill circumambulation will be held on Tuesday at Panchadarla in Rambilli mandal, Anakapalli district, for Karthika Pournami. The roughly 31 km route runs from 6 am to 6 pm through Kotturu, Gokivada and Kondakarla. Thousands of devotees are expected.",
+    "pts": [
+     "Medical camps and police security on the route",
+     "Donors to run food and water stalls"
+    ],
+    "why": "It matters to devotees and to villages along the route.",
+    "next": "Walk starts on November 24 at 6 am"
+   },
+   "hi": {
+    "cat": "आंध्र · अनकापल्ली",
+    "stat": "31 किमी",
+    "statl": "फणिगिरि परिक्रमा मंगलवार को",
+    "loc": "पंचदार्ला, रांबिल्ली",
+    "h": "पंचदार्ला में मंगलवार को फणिगिरि परिक्रमा",
+    "p": "कार्तिक पूर्णिमा पर अनकापल्ली ज़िले के रांबिल्ली मंडल के पंचदार्ला में मंगलवार को तीसरी फणिगिरि परिक्रमा होगी। क़रीब 31 किमी का रास्ता सुबह 6 से शाम 6 बजे तक कोत्तूरु, गोकिवाडा और कोंडकर्ला से गुज़रेगा। हज़ारों श्रद्धालुओं के आने की उम्मीद है।",
+    "pts": [
+     "रास्ते में मेडिकल कैंप और पुलिस सुरक्षा",
+     "दानदाताओं के भोजन-पानी स्टॉल"
+    ],
+    "why": "श्रद्धालुओं और रास्ते के गांवों के लिए अहम।",
+    "next": "परिक्रमा 24 नवंबर सुबह 6 बजे शुरू"
+   },
+   "d": "23.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "ఏపీ · విద్య",
+   "col": "--c-gov",
+   "art": "campus",
+   "pic": "e/university-graduation",
+   "stat": "6,298 మంది",
+   "statl": "విద్యార్థులతో తరగతులు మొదలు",
+   "h": "ఓపెన్ యూనివర్సిటీ తరగతులు మొదలు",
+   "p": "డాక్టర్ బీఆర్ అంబేడ్కర్ ఓపెన్ యూనివర్సిటీ 2026-27 తరగతులు ఆదివారం ఏపీలోని అధ్యయన కేంద్రాల్లో మొదలయ్యాయి. యూనివర్సిటీ ప్రధాన కార్యాలయాన్ని హైదరాబాద్ నుంచి ఏలూరుకు మార్చారు. ఆరు కోర్సుల్లో 6,298 మంది విద్యార్థులు చేరారు. రాజమహేంద్రవరం, నెల్లూరు, కడప జైళ్లలోని 59 మంది ఖైదీలు ఉచితంగా చదువుతారు.",
+   "pts": [
+    "ఇన్‌చార్జి వీసీ ఎస్. విజయభాస్కర్ ఆన్‌లైన్‌లో మాట్లాడారు",
+    "విద్యా క్యాలెండర్ పాటించాలని అధ్యాపకులకు సూచన"
+   ],
+   "why": "ఉద్యోగం చేస్తూ లేదా దూరం నుంచి చదవాలనుకునే ఏపీ ప్రజలకు ఇది అవకాశం.",
+   "src": "Andhra Jyothy",
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/andhra-pradesh-open-university-classes-begin-in-eluru-prison-inmates-also-get-education-opportunities-1578996.html",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "AP",
+   "place": "ap-eluru",
+   "loc": "ఏలూరు",
+   "pub": "2026-11-23T06:02+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Education",
+    "stat": "6,298",
+    "statl": "students as classes begin",
+    "loc": "Eluru",
+    "h": "AP Ambedkar Open University classes begin",
+    "p": "Dr B.R. Ambedkar Open University began its 2026-27 classes on Sunday at study centres in Andhra Pradesh. Its headquarters has moved from Hyderabad to Eluru. 6,298 students have joined six courses, and 59 inmates of Rajamahendravaram, Nellore and Kadapa jails will study free.",
+    "pts": [
+     "Acting VC S. Vijayabhaskar addressed students online",
+     "Faculty told to follow the academic calendar"
+    ],
+    "why": "It is a chance for working people and distance learners in AP."
+   },
+   "hi": {
+    "cat": "आंध्र · शिक्षा",
+    "stat": "6,298",
+    "statl": "छात्रों के साथ कक्षाएं शुरू",
+    "loc": "एलुरु",
+    "h": "आंध्र अंबेडकर ओपन यूनिवर्सिटी की कक्षाएं शुरू",
+    "p": "डॉ. बी.आर. अंबेडकर ओपन यूनिवर्सिटी की 2026-27 की कक्षाएं रविवार को आंध्र प्रदेश के अध्ययन केंद्रों में शुरू हुईं। मुख्यालय हैदराबाद से एलुरु लाया गया है। छह कोर्सों में 6,298 छात्र जुड़े हैं और राजमहेंद्रवरम, नेल्लोर व कडपा जेलों के 59 क़ैदी मुफ़्त पढ़ेंगे।",
+    "pts": [
+     "कार्यवाहक कुलपति एस. विजयभास्कर ने ऑनलाइन संबोधन दिया",
+     "शिक्षकों को शैक्षणिक कैलेंडर मानने को कहा"
+    ],
+    "why": "आंध्र में नौकरीपेशा और दूरस्थ छात्रों के लिए मौक़ा।"
+   },
+   "d": "23.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "ఏపీ · శ్రీకాకుళం",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/community-police-meeting",
+   "stat": "ఎన్నికల నియమాలు",
+   "statl": "పాటించాలని పోలీసుల సూచన",
+   "h": "శ్రీకాకుళంలో అభ్యర్థులకు పోలీసుల సూచనలు",
+   "p": "శ్రీకాకుళం జిల్లాలో పోలీసులు ఆదివారం ఎన్నికల అభ్యర్థులకు ప్రవర్తనా నియమావళిపై అవగాహన సమావేశాలు పెట్టారు. ఆమదాలవలస మున్సిపల్ కార్యాలయంలో డీఎస్పీ ధనుంజయ నాయుడు నియమాలు పాటించి ఎన్నికలు ప్రశాంతంగా జరిగేలా సహకరించాలని కోరారు. కంచిలిలో కాశీబుగ్గ డీఎస్పీ జి.వి. రమణ నియమాలు పాటించని అభ్యర్థులు, మద్దతుదారులపై చర్యలు తప్పవని హెచ్చరించారు.",
+   "pts": [
+    "ఆమదాలవలస మున్సిపల్ కమిషనర్ తమ్మినేని రవి హాజరు",
+    "కంచిలి మార్కెట్ యార్డులో రెండో సమావేశం"
+   ],
+   "why": "శ్రీకాకుళం జిల్లాలో పోటీ చేసే అభ్యర్థులు, మద్దతుదారులు ఈ నియమాలు తెలుసుకోవాలి.",
+   "src": "Andhra Jyothy",
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/srikakulam/cooperate-for-peaceful-elections-dsp-1578867.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-srikakulam",
+   "loc": "ఆమదాలవలస, కంచిలి",
+   "pub": "2026-11-23T00:01+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Srikakulam",
+    "stat": "Poll code",
+    "statl": "police urge candidates",
+    "loc": "Amadalavalasa, Kanchili",
+    "h": "Srikakulam police brief candidates on poll code",
+    "p": "Police in Srikakulam district held model code of conduct awareness meetings for election candidates on Sunday. At Amadalavalasa municipal office, DSP Dhanunjaya Naidu asked candidates to follow the rules. At Kanchili, Kasibugga DSP G.V. Ramana warned that violators would face action.",
+    "pts": [
+     "Amadalavalasa commissioner Tammineni Ravi attended",
+     "Second meeting at Kanchili market yard"
+    ],
+    "why": "Candidates and supporters in Srikakulam district need to know these rules."
+   },
+   "hi": {
+    "cat": "आंध्र · श्रीकाकुलम",
+    "stat": "आचार संहिता",
+    "statl": "मानने की पुलिस की अपील",
+    "loc": "आमदालवलसा, कंचिली",
+    "h": "श्रीकाकुलम पुलिस ने उम्मीदवारों को आचार संहिता बताई",
+    "p": "श्रीकाकुलम ज़िले में पुलिस ने रविवार को चुनाव उम्मीदवारों के लिए आचार संहिता जागरूकता बैठकें कीं। आमदालवलसा नगर कार्यालय में डीएसपी धनुंजय नायडु ने नियम मानने को कहा। कंचिली में काशीबुग्गा डीएसपी जी.वी. रमना ने उल्लंघन पर कार्रवाई की चेतावनी दी।",
+    "pts": [
+     "आमदालवलसा आयुक्त तम्मिनेनि रवि मौजूद",
+     "दूसरी बैठक कंचिली मार्केट यार्ड में"
+    ],
+    "why": "श्रीकाकुलम ज़िले के उम्मीदवारों और समर्थकों को ये नियम जानने चाहिए।"
+   },
+   "d": "23.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "భారత్ · హాకీ",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/rural-sports-ground",
+   "stat": "1-0",
+   "statl": "తో సిరీస్ భారత్ కైవసం",
+   "h": "న్యూజిలాండ్‌పై హాకీ సిరీస్ గెలిచిన భారత్",
+   "p": "ఆక్లాండ్‌లో ఆదివారం న్యూజిలాండ్‌తో జరిగిన మూడో, చివరి మ్యాచ్‌ను భారత పురుషుల హాకీ జట్టు 2-2తో డ్రా చేసింది. దీంతో 'సెంచరీ ఆఫ్ స్పోర్టింగ్ యూనిటీ' సిరీస్‌ను 1-0తో గెలిచింది. కెప్టెన్ సంజయ్, కార్తీ సెల్వం గోల్స్ చేశారు. సిరీస్‌లో భారత్ ఒక్క మ్యాచ్ కూడా ఓడలేదు.",
+   "pts": [
+    "మొదటి మ్యాచ్‌లో భారత్ 3-2తో గెలుపు",
+    "1926 భారత సైనిక జట్టు పర్యటనకు వందేళ్లు"
+   ],
+   "why": "భారత హాకీ అభిమానులకు ఇది సంతోషకరమైన వార్త.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/sports/india-draw-with-new-zealand-win-century-of-sporting-unity-series-1144808",
+   "sec": [
+    "india",
+    "sports"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-23T02:52+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Hockey",
+    "stat": "1-0",
+    "statl": "series win for India",
+    "loc": "Auckland, New Zealand",
+    "h": "India win hockey series against New Zealand",
+    "p": "India's men's hockey team drew 2-2 with New Zealand in the third and final match in Auckland on Sunday, winning the Century of Sporting Unity series 1-0. Captain Sanjay and Karthi Selvam scored. India did not lose a match in the series.",
+    "pts": [
+     "India won the first match 3-2",
+     "Marks 100 years of the 1926 Indian Army tour"
+    ],
+    "why": "Good news for Indian hockey fans."
+   },
+   "hi": {
+    "cat": "भारत · हॉकी",
+    "stat": "1-0",
+    "statl": "से सीरीज़ भारत के नाम",
+    "loc": "ऑकलैंड, न्यूज़ीलैंड",
+    "h": "भारत ने न्यूज़ीलैंड से हॉकी सीरीज़ जीती",
+    "p": "भारतीय पुरुष हॉकी टीम ने रविवार को ऑकलैंड में न्यूज़ीलैंड के साथ तीसरा और आख़िरी मैच 2-2 से ड्रॉ कराया और 'सेंचुरी ऑफ़ स्पोर्टिंग यूनिटी' सीरीज़ 1-0 से जीती। कप्तान संजय और कार्ती सेल्वम ने गोल किए। भारत सीरीज़ में एक भी मैच नहीं हारा।",
+    "pts": [
+     "पहला मैच भारत ने 3-2 से जीता",
+     "1926 के भारतीय सेना दौरे के 100 साल"
+    ],
+    "why": "भारतीय हॉकी प्रशंसकों के लिए ख़ुशख़बरी।"
+   },
+   "d": "23.11.2026",
+   "t": "06:35"
+  },
+  {
+   "cat": "ప్రపంచం · వాతావరణం",
+   "col": "--c-water",
+   "art": "unity",
+   "pic": "n/europe",
+   "stat": "కాప్31",
+   "statl": "ఒప్పందం లేకుండానే ముగిసింది",
+   "h": "ఒప్పందం లేకుండానే ముగిసిన కాప్31 సదస్సు",
+   "p": "టర్కీలోని అంటాల్యాలో జరిగిన ఐక్యరాజ్యసమితి వాతావరణ సదస్సు కాప్31 ఆదివారం తుది ఒప్పంద పత్రం లేకుండానే ముగిసింది. శిలాజ ఇంధనాల ప్రస్తావనపై దేశాల మధ్య విభేదాలు వచ్చాయి. ఆ పదాలు లేని ముసాయిదాను యూరోపియన్ యూనియన్, బ్రిటన్ వ్యతిరేకించాయి. ఫలితం చాలా నిరాశ కలిగించిందని ఆస్ట్రేలియా మంత్రి క్రిస్ బోవెన్ అన్నారు.",
+   "pts": [
+    "సదస్సుకు టర్కీ, ఆస్ట్రేలియా సహ ఆతిథ్యం",
+    "కార్బన్ క్యాప్చర్‌పై ఎక్కువ ఆధారపడిందని పనామా విమర్శ"
+   ],
+   "why": "వాతావరణ నిధులు, ఇంధన మార్పుపై భారత్ వంటి దేశాల ప్రణాళికలపై దీని ప్రభావం ఉంటుంది.",
+   "src": "AP via PBS NewsHour",
+   "url": "https://www.pbs.org/newshour/world/in-their-own-words-leaders-at-un-climate-talks-discuss-why-negotiations-ended-without-deal",
+   "sec": [
+    "world"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-23T04:30+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "World · Climate",
+    "stat": "COP31",
+    "statl": "ends without a deal",
+    "loc": "Antalya, Turkey",
+    "h": "COP31 climate talks end without a deal",
+    "p": "The UN climate conference COP31 in Antalya, Turkey, ended on Sunday without a final cover decision. Countries split over mentioning fossil fuels; the European Union and Britain rejected a draft without that wording. Australia's Chris Bowen called the outcome very disappointing.",
+    "pts": [
+     "Co-hosted by Turkey and Australia",
+     "Panama said the draft leaned too much on carbon capture"
+    ],
+    "why": "It affects climate finance and energy transition plans of countries like India."
+   },
+   "hi": {
+    "cat": "विश्व · जलवायु",
+    "stat": "कॉप31",
+    "statl": "बिना समझौते के ख़त्म",
+    "loc": "अंताल्या, तुर्की",
+    "h": "कॉप31 जलवायु वार्ता बिना समझौते के ख़त्म",
+    "p": "तुर्की के अंताल्या में संयुक्त राष्ट्र जलवायु सम्मेलन कॉप31 रविवार को बिना अंतिम निर्णय पत्र के ख़त्म हुआ। जीवाश्म ईंधन के ज़िक्र पर देशों में मतभेद रहा; यूरोपीय संघ और ब्रिटेन ने उस शब्द के बिना मसौदा ठुकरा दिया। ऑस्ट्रेलिया के क्रिस बोवेन ने नतीजे को बेहद निराशाजनक बताया।",
+    "pts": [
+     "तुर्की और ऑस्ट्रेलिया सह-मेज़बान",
+     "पनामा ने कहा मसौदा कार्बन कैप्चर पर ज़्यादा निर्भर"
+    ],
+    "why": "भारत जैसे देशों की जलवायु वित्त और ऊर्जा बदलाव योजनाओं पर असर।"
+   },
+   "d": "23.11.2026",
+   "t": "06:35"
+  },
   {
    "cat": "తెలంగాణ · ఎన్నికలు",
    "col": "--c-election",
@@ -2588,711 +3290,6 @@
    },
    "d": "22.11.2026",
    "t": "22:05"
-  },
-  {
-   "cat": "ఏపీ · విశాఖ",
-   "col": "--c-city",
-   "art": "economy",
-   "pic": "e/cyber-fraud-complaint",
-   "stat": "ఆరుగురు అరెస్ట్",
-   "statl": "డిజిటల్ అరెస్ట్ కేసులో",
-   "h": "విశాఖ మోసం కేసులో ఆరుగురు అరెస్ట్",
-   "p": "సీబీఐ, ఆర్‌బీఐ అధికారులమని బెదిరించి విశాఖకు చెందిన 65 ఏళ్ల రిటైర్డ్ ఉద్యోగి నుంచి ₹1.94 కోట్లు కాజేసిన ముఠాలో ఆరుగురిని బెంగళూరులో అరెస్ట్ చేశారు. బాధితుడు 13 విడతల్లో డబ్బు పంపారు. నిందితులను 14 రోజుల రిమాండ్‌కు పంపినట్లు విశాఖ పోలీసులు చెప్పారు.",
-   "pts": [
-    "ఇదే కేసులో ఇంతకుముందు ముగ్గురు అరెస్ట్",
-    "డబ్బు చిత్తూరు జిల్లా పుంగనూరు, బెంగళూరుకు చేరింది",
-    "విదేశీ లింకులపై పోలీసుల దర్యాప్తు"
-   ],
-   "why": "ఫోన్‌లో అధికారులమని బెదిరించే మోసగాళ్ల విషయంలో వృద్ధులు జాగ్రత్తగా ఉండాలి.",
-   "src": "Deccan Chronicle",
-   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/vizag-man-loses-194-crore-after-digital-arrest-police-arrest-6-in-bengaluru-2006911",
-   "sec": [
-    "telangana",
-    "india"
-   ],
-   "st": "AP",
-   "place": "ap-visakhapatnam",
-   "loc": "విశాఖపట్నం",
-   "pub": "2026-11-22T21:14+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Visakhapatnam",
-    "stat": "6 arrested",
-    "statl": "in digital arrest fraud case",
-    "loc": "Visakhapatnam",
-    "h": "Vizag digital arrest fraud: 6 arrested",
-    "p": "Posing as CBI and RBI officials, a gang cheated a 65-year-old retired employee from Visakhapatnam of ₹1.94 crore. He sent the money in 13 instalments. Visakhapatnam police said six members were arrested in Bengaluru and sent to 14-day remand.",
-    "pts": [
-     "Three accused were arrested earlier in the same case",
-     "Money trail led to Punganur in Chittoor and to Bengaluru",
-     "Police are probing overseas links"
-    ],
-    "why": "Elderly people should beware of callers posing as officials and threatening arrest."
-   },
-   "hi": {
-    "cat": "आंध्र · विशाखापत्तनम",
-    "stat": "6 गिरफ़्तार",
-    "statl": "डिजिटल अरेस्ट ठगी मामले में",
-    "loc": "विशाखापत्तनम",
-    "h": "विशाखापत्तनम डिजिटल अरेस्ट ठगी: 6 गिरफ़्तार",
-    "p": "सीबीआई और आरबीआई अधिकारी बनकर एक गिरोह ने विशाखापत्तनम के 65 वर्षीय सेवानिवृत्त कर्मचारी से ₹1.94 करोड़ ठग लिए। उन्होंने 13 किस्तों में पैसे भेजे। विशाखापत्तनम पुलिस ने बताया कि गिरोह के छह सदस्य बेंगलुरु में गिरफ़्तार कर 14 दिन की रिमांड पर भेजे गए।",
-    "pts": [
-     "इसी मामले में पहले तीन आरोपी गिरफ़्तार हुए थे",
-     "पैसा चित्तूर के पुंगनूर और बेंगलुरु तक पहुंचा",
-     "पुलिस विदेशी संबंधों की जांच कर रही है"
-    ],
-    "why": "अधिकारी बनकर गिरफ़्तारी की धमकी देने वाले कॉल से बुज़ुर्ग सावधान रहें।"
-   },
-   "d": "22.11.2026",
-   "t": "21:35"
-  },
-  {
-   "cat": "భారత్ · ఆహార భద్రత",
-   "col": "--c-water",
-   "art": "water",
-   "pic": "e/food-safety-inspection",
-   "stat": "బిస్లరీపై కేసు",
-   "statl": "నీళ్లు సురక్షితం కాదని",
-   "h": "బిస్లరీపై కేసుకు ఎఫ్‌ఎస్‌ఎస్‌ఏఐ అనుమతి",
-   "p": "బిస్లరీ ఇంటర్నేషనల్ సంస్థ అమ్మే ప్యాకేజ్డ్ తాగునీటి నమూనా సురక్షితం కాదని తేలడంతో ఆ సంస్థపై కోర్టులో కేసు పెట్టేందుకు ఆహార భద్రతా సంస్థ ఎఫ్‌ఎస్‌ఎస్‌ఏఐ ఆదివారం అనుమతి ఇచ్చింది. సంస్థ ప్రాంగణం నుంచి తీసిన నీటి నమూనాలో బ్రోమేట్ అనే రసాయనం నిర్ణయించిన పరిమితికి మించి ఉందని ల్యాబ్ పరీక్షలో తేలిందని సంస్థ తెలిపింది.",
-   "pts": [
-    "సంస్థ అప్పీల్ చేసినా రెండో ల్యాబ్‌లోనూ సురక్షితం కాదని తేలింది",
-    "ఆహార భద్రతా చట్టం 2006 కింద చర్యలు"
-   ],
-   "why": "బాటిల్ నీళ్లు కొనే వినియోగదారులకు నాణ్యతపై ఇది ముఖ్యమైన హెచ్చరిక.",
-   "src": "ThePrint (PTI)",
-   "url": "https://theprint.in/economy/fssai-sanctions-prosecution-against-bisleri-international-for-unsafe-packaged-drinking-water/3105946/",
-   "sec": [
-    "india",
-    "business"
-   ],
-   "st": "IN",
-   "place": "IN",
-   "loc": "",
-   "pub": "2026-11-22T20:45+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "India · Food safety",
-    "stat": "Case on Bisleri",
-    "statl": "after water sample found unsafe",
-    "loc": "India",
-    "h": "FSSAI clears prosecution of Bisleri",
-    "p": "Food regulator FSSAI on Sunday sanctioned prosecution against Bisleri International after a sample of its packaged drinking water was declared unsafe. The sample, taken from the company's premises, exceeded the prescribed bromate limit, the lab found.",
-    "pts": [
-     "After the company appealed, a referral lab also found it unsafe",
-     "Action is under the Food Safety and Standards Act, 2006"
-    ],
-    "why": "It is an important quality warning for consumers who buy bottled water."
-   },
-   "hi": {
-    "cat": "भारत · खाद्य सुरक्षा",
-    "stat": "बिसलेरी पर केस",
-    "statl": "पानी का नमूना असुरक्षित मिलने पर",
-    "loc": "भारत",
-    "h": "बिसलेरी पर मुकदमे को FSSAI की मंज़ूरी",
-    "p": "खाद्य नियामक एफ़एसएसएआई ने रविवार को बिसलेरी इंटरनेशनल पर मुकदमा चलाने की मंज़ूरी दी, क्योंकि उसके पैकेज्ड पेयजल का नमूना असुरक्षित पाया गया। कंपनी परिसर से लिए गए नमूने में ब्रोमेट तय सीमा से ज़्यादा मिला।",
-    "pts": [
-     "कंपनी की अपील के बाद दूसरी लैब में भी नमूना असुरक्षित निकला",
-     "कार्रवाई खाद्य सुरक्षा एवं मानक अधिनियम 2006 के तहत"
-    ],
-    "why": "बोतलबंद पानी खरीदने वाले उपभोक्ताओं के लिए यह गुणवत्ता पर अहम चेतावनी है।"
-   },
-   "d": "22.11.2026",
-   "t": "21:35"
-  },
-  {
-   "cat": "తెలంగాణ · ప్రమాదం",
-   "col": "--c-city",
-   "art": "power",
-   "pic": "e/fire-service-response",
-   "stat": "₹4 లక్షల నష్టం",
-   "statl": "ఇల్లు కాలి",
-   "h": "రేమద్దులలో ఇంట్లో మంటలు, ఇల్లు కాలింది",
-   "p": "రేమద్దుల గ్రామంలో ఆదివారం విద్యుత్ షార్ట్ సర్క్యూట్‌తో ఓ ఇల్లు పూర్తిగా కాలిపోయింది. ఆ సమయంలో ఇంట్లో ఎవరూ లేకపోవడంతో ప్రాణనష్టం జరగలేదు. ఇంట్లోని టీవీ, ఫ్రిజ్, కూలర్, ఫ్యాన్లు, వంట సామగ్రి, మూడు బస్తాల బియ్యం కాలిపోయాయని, సుమారు ₹4 లక్షల నష్టం జరిగిందని బాధితులు, గ్రామస్థులు చెప్పారు.",
-   "pts": [
-    "ఆ కుటుంబానికి ఇటీవలే ఇందిరమ్మ ఇల్లు మంజూరైంది",
-    "ప్రభుత్వం సాయం చేయాలని గ్రామస్థుల విజ్ఞప్తి"
-   ],
-   "why": "ఇళ్లలో పాత విద్యుత్ వైరింగ్‌ను సమయానికి తనిఖీ చేయించుకోవాల్సిన అవసరం ఉంది.",
-   "src": "IND Today",
-   "url": "https://indtoday.com/remaddula-house-fire-short-circuit-gutters-home-rs-4-lakh-loss/",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "రేమద్దుల",
-   "pub": "2026-11-22T20:53+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Accident",
-    "stat": "₹4 lakh loss",
-    "statl": "as house burns in short circuit",
-    "loc": "Remaddula",
-    "h": "House gutted in short circuit at Remaddula",
-    "p": "A house in Remaddula village was gutted in a short circuit fire on Sunday. No one was inside, so there were no casualties. The victims said a TV, fridge, cooler, fans and three sacks of rice were burnt, putting the loss at about ₹4 lakh.",
-    "pts": [
-     "The family was recently sanctioned an Indiramma house",
-     "Villagers urged the government to help"
-    ],
-    "why": "Old household wiring needs timely checks."
-   },
-   "hi": {
-    "cat": "तेलंगाना · हादसा",
-    "stat": "₹4 लाख का नुकसान",
-    "statl": "शॉर्ट सर्किट से घर जला",
-    "loc": "रेमद्दुला",
-    "h": "रेमद्दुला में शॉर्ट सर्किट से घर जला",
-    "p": "रेमद्दुला गांव में रविवार को शॉर्ट सर्किट से एक घर पूरी तरह जल गया। उस समय घर में कोई नहीं था, इसलिए जान का नुकसान नहीं हुआ। पीड़ितों ने बताया कि टीवी, फ्रिज, कूलर, पंखे और तीन बोरी चावल जल गए और करीब ₹4 लाख का नुकसान हुआ।",
-    "pts": [
-     "परिवार को हाल ही में इंदिरम्मा घर मंज़ूर हुआ था",
-     "ग्रामीणों ने सरकार से मदद मांगी"
-    ],
-    "why": "घरों की पुरानी बिजली वायरिंग की समय पर जांच ज़रूरी है।"
-   },
-   "d": "22.11.2026",
-   "t": "21:35"
-  },
-  {
-   "cat": "తెలంగాణ · కరీంనగర్",
-   "col": "--c-gov",
-   "art": "campus",
-   "pic": "e/party-brs",
-   "stat": "కేటీఆర్ ఫోన్",
-   "statl": "మెడికోల సమస్యలపై",
-   "h": "కరీంనగర్ మెడికోల కోసం కేటీఆర్ ఫోన్",
-   "p": "కరీంనగర్ సమీపంలోని కొత్తపల్లి వద్ద నిరసన చేస్తున్న మెడికల్ కాలేజీ విద్యార్థులను బీఆర్‌ఎస్ వర్కింగ్ ప్రెసిడెంట్ కేటీఆర్ ఆదివారం కలిశారు. వారి సమస్యలపై ఆరోగ్య శాఖ మంత్రి దామోదర రాజనర్సింహకు అక్కడి నుంచే ఫోన్ చేశారు. విషయం తన దృష్టికి వచ్చిందని, అధికారులతో మాట్లాడి పరిష్కరిస్తానని మంత్రి హామీ ఇచ్చారు.",
-   "pts": [
-    "వరంగల్ జన చైతన్య సభకు వెళ్తూ కేటీఆర్ ఆగారు",
-    "విద్యార్థులకు బీఆర్‌ఎస్ అండగా ఉంటుందన్న కేటీఆర్"
-   ],
-   "why": "కరీంనగర్ మెడికల్ కాలేజీ విద్యార్థుల సమస్యలు త్వరగా తీరే అవకాశం ఉంది.",
-   "src": "V6 Velugu",
-   "url": "https://www.v6velugu.com/ktr-calls-minister-damodara-raja-narasimha",
-   "sec": [
-    "telangana",
-    "education"
-   ],
-   "st": "TG",
-   "place": "karimnagar",
-   "loc": "కొత్తపల్లి",
-   "pub": "2026-11-22T20:36+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Karimnagar",
-    "stat": "KTR's call",
-    "statl": "on medical students' problems",
-    "loc": "Kothapalli, Karimnagar",
-    "h": "KTR phones minister for medical students",
-    "p": "BRS working president KTR on Sunday met medical college students who were protesting at Kothapalli near Karimnagar. From the spot, he phoned Health Minister Damodara Raja Narasimha about their problems. The minister said the matter had come to his notice and promised to speak to officials and resolve it.",
-    "pts": [
-     "KTR stopped on his way to the Jana Chaitanya meeting in Warangal",
-     "KTR told the students BRS would stand by them"
-    ],
-    "why": "The problems of Karimnagar medical college students may be resolved sooner."
-   },
-   "hi": {
-    "cat": "तेलंगाना · करीमनगर",
-    "stat": "केटीआर का फ़ोन",
-    "statl": "मेडिकल छात्रों की समस्याओं पर",
-    "loc": "कोत्तापल्ली, करीमनगर",
-    "h": "मेडिकल छात्रों के लिए मंत्री को केटीआर का फ़ोन",
-    "p": "बीआरएस के कार्यकारी अध्यक्ष केटीआर रविवार को करीमनगर के पास कोत्तापल्ली में प्रदर्शन कर रहे मेडिकल कॉलेज के छात्रों से मिले। उन्होंने वहीं से स्वास्थ्य मंत्री दामोदर राजनरसिम्हा को फ़ोन कर छात्रों की समस्याएं बताईं। मंत्री ने कहा कि मामला उनके ध्यान में है और अधिकारियों से बात कर हल निकालेंगे।",
-    "pts": [
-     "केटीआर वरंगल की जन चैतन्य सभा में जाते समय रुके",
-     "केटीआर ने कहा कि बीआरएस छात्रों के साथ रहेगी"
-    ],
-    "why": "करीमनगर मेडिकल कॉलेज के छात्रों की समस्याएं जल्द हल हो सकती हैं।"
-   },
-   "d": "22.11.2026",
-   "t": "21:05"
-  },
-  {
-   "cat": "ఏపీ · ప్రకాశం",
-   "col": "--c-gov",
-   "art": "court",
-   "pic": "e/public-policy-announcement",
-   "stat": "సస్పెన్షన్ రద్దు",
-   "statl": "ఇద్దరు ఎస్‌డీసీలపై",
-   "h": "మార్కాపురం ఎస్‌డీసీల సస్పెన్షన్ రద్దు",
-   "p": "ప్రకాశం జిల్లా మార్కాపురం, కంభం స్పెషల్ డిప్యూటీ కలెక్టర్లను ఏపీ ప్రభుత్వం సస్పెండ్ చేసింది. అనుమతి లేకుండా చాలా రోజులుగా విధులకు రావడం లేదని ఉత్తర్వుల్లో పేర్కొంది. రెవెన్యూ స్పెషల్ చీఫ్ సెక్రటరీ సాయి ప్రసాద్ ఈ ఉత్తర్వులు ఇచ్చారు. కొద్దిసేపటికే ప్రభుత్వం వేర్వేరు జీవోలతో ఆ సస్పెన్షన్లను రద్దు చేసింది.",
-   "pts": [
-    "ఒకరు జూలై 22 నుంచి, మరొకరు సెప్టెంబర్ 2 నుంచి విధులకు రాలేదు",
-    "రద్దుకు కారణాలపై అధికారుల్లో చర్చ"
-   ],
-   "why": "మార్కాపురం, కంభం ప్రాంతాల్లో భూసేకరణ, రెవెన్యూ పనులు చూసే అధికారులకు సంబంధించిన నిర్ణయం ఇది.",
-   "src": "HMTV",
-   "url": "https://www.hmtvlive.com/telugu-news/kurnool/two-markapuram-sdcs-suspended-reinstated-within-hours-by-ap-govt-215893",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-prakasam",
-   "loc": "మార్కాపురం",
-   "pub": "2026-11-22T19:06+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Prakasam",
-    "stat": "Suspension revoked",
-    "statl": "for two Special Deputy Collectors",
-    "loc": "Markapuram",
-    "h": "Markapuram, Kambham SDCs' suspension revoked",
-    "p": "The Andhra Pradesh government suspended the Special Deputy Collectors of Markapuram and Kambham in Prakasam district. The orders said they had been absent from duty for a long time without permission. Revenue Special Chief Secretary Sai Prasad issued the orders. Shortly afterwards, the government revoked both suspensions through separate GOs.",
-    "pts": [
-     "One had been absent since July 22, the other since September 2",
-     "Officials are discussing the reasons for the reversal"
-    ],
-    "why": "The decision concerns officers who handle revenue work in the Markapuram and Kambham areas."
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · प्रकाशम",
-    "stat": "निलंबन रद्द",
-    "statl": "दो स्पेशल डिप्टी कलेक्टरों का",
-    "loc": "मार्कापुरम",
-    "h": "मार्कापुरम, कंभम एसडीसी का निलंबन रद्द",
-    "p": "आंध्र प्रदेश सरकार ने प्रकाशम ज़िले के मार्कापुरम और कंभम के स्पेशल डिप्टी कलेक्टरों को निलंबित किया। आदेश में कहा गया कि वे बिना अनुमति लंबे समय से ड्यूटी पर नहीं आ रहे थे। राजस्व विशेष मुख्य सचिव साई प्रसाद ने ये आदेश जारी किए। कुछ ही देर बाद सरकार ने अलग-अलग जीओ से दोनों निलंबन रद्द कर दिए।",
-    "pts": [
-     "एक 22 जुलाई से और दूसरे 2 सितंबर से ड्यूटी पर नहीं थे",
-     "रद्द करने के कारणों पर अधिकारियों में चर्चा"
-    ],
-    "why": "यह फ़ैसला मार्कापुरम और कंभम इलाक़ों में राजस्व काम देखने वाले अधिकारियों से जुड़ा है।"
-   },
-   "d": "22.11.2026",
-   "t": "21:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · ప్రదర్శన",
-   "col": "--c-city",
-   "art": "unity",
-   "pic": "e/tourism-and-travel",
-   "stat": "3,000 మంది",
-   "statl": "హైపెక్స్ ప్రదర్శనలో",
-   "h": "హైదరాబాద్ హైపెక్స్ ప్రదర్శనకు 3 వేల మంది",
-   "p": "హైదరాబాద్‌లోని ఎఫ్‌టీసీసీఐ హాల్‌లో నవంబర్ 20 నుంచి 22 వరకు హైపెక్స్ 2026 ప్రదర్శన జరిగింది. హైదరాబాద్ ఫిలాటెలిక్ అండ్ హాబీస్ సొసైటీ దీన్ని నిర్వహించింది. దేశ, విదేశీ నాణేలు, కరెన్సీ నోట్లు, తపాలా బిళ్లలు ప్రదర్శించారు. మూడు రోజుల్లో సుమారు 3,000 మంది వచ్చారని కమిటీ సభ్యుడు దీపక్ పారిఖ్ తెలిపారు.",
-   "pts": [
-    "సొసైటీ ఒక ప్రత్యేక స్టాంపును విడుదల చేసింది",
-    "₹100 స్మారక నాణెం సెట్ ప్రత్యేక ఆకర్షణ",
-    "తెలంగాణ, పొరుగు రాష్ట్రాల సేకర్తలు వచ్చారు"
-   ],
-   "why": "పాత నాణేలు, స్టాంపుల ద్వారా చరిత్ర తెలుసుకోవాలనుకునే వారికి ఇది ఉపయోగపడింది.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/hypex-2026-draws-3-000-visitors-54eddea8",
-   "sec": [
-    "telangana",
-    "culture"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "",
-   "pub": "2026-11-22T19:53+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Exhibition",
-    "stat": "3,000 visitors",
-    "statl": "at the HYPEX exhibition",
-    "loc": "",
-    "h": "Hyderabad's HYPEX show draws 3,000 visitors",
-    "p": "The HYPEX 2026 exhibition was held at the FTCCI Hall in Hyderabad from November 20 to 22. It was organised by the Hyderabad Philatelic and Hobbies Society. Indian and foreign coins, currency notes and postage stamps were on display. Committee member Deepak Parikh said about 3,000 people visited over the three days.",
-    "pts": [
-     "The society released a special stamp",
-     "A ₹100 commemorative coin set was a major attraction",
-     "Collectors came from Telangana and neighbouring states"
-    ],
-    "why": "It was useful for people who like to learn history through old coins and stamps."
-   },
-   "hi": {
-    "cat": "हैदराबाद · प्रदर्शनी",
-    "stat": "3,000 दर्शक",
-    "statl": "हाइपेक्स प्रदर्शनी में",
-    "loc": "",
-    "h": "हैदराबाद की हाइपेक्स प्रदर्शनी में 3,000 लोग",
-    "p": "हैदराबाद के एफटीसीसीआई हॉल में 20 से 22 नवंबर तक हाइपेक्स 2026 प्रदर्शनी हुई। इसे हैदराबाद फ़िलैटेलिक एंड हॉबीज़ सोसाइटी ने आयोजित किया। इसमें देश-विदेश के सिक्के, करेंसी नोट और डाक टिकट दिखाए गए। समिति सदस्य दीपक पारिख ने बताया कि तीन दिनों में क़रीब 3,000 लोग आए।",
-    "pts": [
-     "सोसाइटी ने एक विशेष टिकट जारी किया",
-     "₹100 के स्मारक सिक्के का सेट ख़ास आकर्षण रहा",
-     "तेलंगाना और पड़ोसी राज्यों से संग्राहक आए"
-    ],
-    "why": "पुराने सिक्कों और टिकटों से इतिहास जानने वालों के लिए यह उपयोगी रही।"
-   },
-   "d": "22.11.2026",
-   "t": "21:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · పర్యాటకం",
-   "col": "--c-city",
-   "art": "unity",
-   "pic": "e/tourism-and-travel",
-   "stat": "50 మంది",
-   "statl": "ప్రకృతి నడకలో",
-   "h": "కుతుబ్ షాహీ సమాధుల వద్ద ప్రకృతి నడక",
-   "p": "హైదరాబాద్ ఇబ్రహీం బాగ్‌లోని కుతుబ్ షాహీ సమాధుల వద్ద ఆదివారం 'నేచర్ మీట్స్ హెరిటేజ్' నడక జరిగింది. ప్రపంచ వారసత్వ వారోత్సవాల్లో భాగంగా తెలంగాణ పర్యాటక అభివృద్ధి సంస్థ దీన్ని నిర్వహించింది. సుమారు 50 మంది పాల్గొన్నారు. పక్షులను అరుపులతో, రూపంతో గుర్తించడం నేర్చుకున్నారు. 40కి పైగా పక్షి జాతులపై చర్చించారు.",
-   "pts": [
-    "వారసత్వ శాఖ డైరెక్టర్ అర్జున్ రావు ముఖ్య అతిథి",
-    "పేరు నమోదుకు ఫోన్: 80192 49292"
-   ],
-   "why": "హైదరాబాద్‌లో వారసత్వం, పక్షుల గురించి తెలుసుకోవాలనుకునే వారు తర్వాతి నడకలో చేరవచ్చు.",
-   "next": "మూడో ప్రకృతి నడక నవంబర్ 29న",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/nature-walk-held-at-qutub-shahi-tombs-1fa2e4ed",
-   "sec": [
-    "telangana",
-    "culture"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "ఇబ్రహీం బాగ్",
-   "pub": "2026-11-22T20:12+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Tourism",
-    "stat": "50 people",
-    "statl": "on the Qutb Shahi Tombs nature walk",
-    "loc": "Ibrahim Bagh",
-    "h": "Nature walk held at Qutb Shahi Tombs",
-    "p": "A 'Nature Meets Heritage' walk was held on Sunday at the Qutb Shahi Tombs in Ibrahim Bagh, Hyderabad. The Telangana Tourism Development Corporation organised it as part of World Heritage Week. About 50 people took part. They learned to identify birds by their calls and looks, and discussed more than 40 bird species.",
-    "pts": [
-     "Heritage Department Director Arjun Rao was the chief guest",
-     "To register, call 80192 49292"
-    ],
-    "why": "People in Hyderabad who want to learn about heritage and birds can join the next walk.",
-    "next": "The third nature walk is on November 29"
-   },
-   "hi": {
-    "cat": "हैदराबाद · पर्यटन",
-    "stat": "50 लोग",
-    "statl": "क़ुतुब शाही मक़बरों की प्रकृति सैर में",
-    "loc": "इब्राहीम बाग़",
-    "h": "क़ुतुब शाही मक़बरों पर प्रकृति सैर",
-    "p": "हैदराबाद के इब्राहीम बाग़ स्थित क़ुतुब शाही मक़बरों पर रविवार को 'नेचर मीट्स हेरिटेज' सैर हुई। विश्व धरोहर सप्ताह के तहत तेलंगाना पर्यटन विकास निगम ने इसे आयोजित किया। क़रीब 50 लोगों ने हिस्सा लिया। उन्होंने आवाज़ और रूप से पक्षियों को पहचानना सीखा और 40 से ज़्यादा पक्षी प्रजातियों पर चर्चा की।",
-    "pts": [
-     "धरोहर विभाग के निदेशक अर्जुन राव मुख्य अतिथि रहे",
-     "पंजीकरण के लिए फ़ोन: 80192 49292"
-    ],
-    "why": "हैदराबाद में धरोहर और पक्षियों के बारे में जानने के इच्छुक लोग अगली सैर में शामिल हो सकते हैं।",
-    "next": "तीसरी प्रकृति सैर 29 नवंबर को"
-   },
-   "d": "22.11.2026",
-   "t": "21:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · భద్రత",
-   "col": "--c-city",
-   "art": "",
-   "pic": "e/police-investigation",
-   "stat": "నకిలీ",
-   "statl": "బెదిరింపు మెయిల్",
-   "h": "హైదరాబాద్ బెదిరింపు మెయిల్ నకిలీ",
-   "p": "హైదరాబాద్‌లో దాడులు చేస్తామంటూ పోలీసులకు వచ్చిన బెదిరింపు ఈమెయిల్ నకిలీదని పోలీసులు ఆదివారం రాత్రి తేల్చారు. కాచిగూడ రైల్వే స్టేషన్, అక్కడి ఒక హోటల్‌పై దాడి చేస్తామని మెయిల్‌లో ఉంది. బాంబ్ స్క్వాడ్ బృందాలు తనిఖీలు చేశాయి. పుకార్లు నమ్మవద్దని, అనుమానం వస్తే 112కు ఫోన్ చేయాలని కోరారు.",
-   "pts": [
-    "మెయిల్ పంపినవారి కోసం సైబర్ క్రైమ్ పోలీసుల వెతుకులాట",
-    "నగరమంతా పోలీసు గస్తీ పెంచారు"
-   ],
-   "why": "నగర ప్రజలు, కాచిగూడ ప్రయాణికులకు ఊరట; రద్దీ ప్రాంతాల్లో తనిఖీలు కొనసాగవచ్చు.",
-   "src": "NTV Telugu",
-   "url": "https://ntvtelugu.com/news/hyderabad-terror-threat-email-fake-1037889.html",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "కాచిగూడ",
-   "pub": "2026-11-22T20:00+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Security",
-    "stat": "Fake",
-    "statl": "threat email",
-    "loc": "Kacheguda",
-    "h": "Hyderabad threat email was fake: police",
-    "p": "Hyderabad police said on Sunday night that the threatening email warning of attacks in the city was fake. The mail had named Kacheguda railway station and a hotel there as targets. Bomb squad teams carried out checks. Police urged people not to believe rumours and to call 112 if they notice anything suspicious.",
-    "pts": [
-     "Cyber crime police are tracing the sender",
-     "Police patrols stepped up across the city"
-    ],
-    "why": "Relief for city residents and Kacheguda travellers; checks may continue at crowded places."
-   },
-   "hi": {
-    "cat": "हैदराबाद · सुरक्षा",
-    "stat": "फर्जी",
-    "statl": "धमकी वाला ईमेल",
-    "loc": "काचीगुडा",
-    "h": "हैदराबाद धमकी ईमेल फर्जी: पुलिस",
-    "p": "हैदराबाद पुलिस ने रविवार रात बताया कि शहर में हमलों की धमकी वाला ईमेल फर्जी था। मेल में काचीगुडा रेलवे स्टेशन और वहाँ के एक होटल को निशाना बताया गया था। बम स्क्वॉड ने जाँच की। पुलिस ने लोगों से अफवाहों पर भरोसा न करने और कुछ संदिग्ध दिखे तो 112 पर फोन करने को कहा।",
-    "pts": [
-     "साइबर क्राइम पुलिस भेजने वाले की तलाश में",
-     "पूरे शहर में पुलिस गश्त बढ़ाई गई"
-    ],
-    "why": "शहर के लोगों और काचीगुडा यात्रियों को राहत; भीड़ वाली जगहों पर जाँच जारी रह सकती है।"
-   },
-   "d": "22.11.2026",
-   "t": "20:35"
-  },
-  {
-   "cat": "ప్రపంచం · ప్రమాదం",
-   "col": "--c-city",
-   "art": "",
-   "pic": "n/africa",
-   "stat": "24 మంది",
-   "statl": "మృతి",
-   "h": "నైజీరియాలో పడవ బోల్తా, 24 మంది మృతి",
-   "p": "నైజీరియా దక్షిణ ప్రాంతంలోని బేయెల్సా రాష్ట్రంలో అంత్యక్రియలకు వెళ్తున్న వారితో నిండిన పడవ బోల్తా పడింది. ఈ ప్రమాదంలో కనీసం 24 మంది మృతి చెందారని జాతీయ అత్యవసర నిర్వహణ సంస్థ ప్రాథమికంగా తెలిపింది. సదరన్ ఇజా ప్రాంతంలో నదులు కలిసే చోట పడవ మునిగిందని స్థానిక పోలీసులు చెప్పారు. గాలింపు కొనసాగుతోంది.",
-   "pts": [
-    "మృతుల సంఖ్యను శనివారం ప్రకటించారు"
-   ],
-   "why": "నదీ ప్రయాణాల్లో భద్రత ఎంత ముఖ్యమో ఈ ప్రమాదం గుర్తుచేస్తోంది.",
-   "src": "Gulf Today (WAM)",
-   "url": "https://www.gulftoday.ae/news/2026/11/22/24-dead-after-boat-capsizes-in-nigeria",
-   "sec": [
-    "world"
-   ],
-   "st": "WORLD",
-   "place": "IN",
-   "loc": "బేయెల్సా, నైజీరియా",
-   "pub": "2026-11-22T13:11+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "World · Accident",
-    "stat": "24 dead",
-    "statl": "in boat capsize",
-    "loc": "Bayelsa, Nigeria",
-    "h": "Boat capsizes in Nigeria, 24 dead",
-    "p": "A boat carrying dozens of people to a funeral capsized in Bayelsa State in southern Nigeria. At least 24 people died, according to a provisional toll from the National Emergency Management Agency. Local police said the boat sank at a river junction in Southern Ijaw area. The search is continuing.",
-    "pts": [
-     "The death toll was announced on Saturday"
-    ],
-    "why": "The accident is a reminder of how important safety is on river journeys."
-   },
-   "hi": {
-    "cat": "दुनिया · हादसा",
-    "stat": "24 की मौत",
-    "statl": "नाव पलटने से",
-    "loc": "बायेल्सा, नाइजीरिया",
-    "h": "नाइजीरिया में नाव पलटी, 24 की मौत",
-    "p": "दक्षिणी नाइजीरिया के बायेल्सा राज्य में अंतिम संस्कार में जा रहे लोगों से भरी एक नाव पलट गई। राष्ट्रीय आपात प्रबंधन एजेंसी के शुरुआती आँकड़ों के अनुसार कम से कम 24 लोगों की मौत हुई। स्थानीय पुलिस ने बताया कि नाव सदर्न इजॉ इलाके में नदियों के संगम पर डूबी। तलाश जारी है।",
-    "pts": [
-     "मृतकों की संख्या शनिवार को बताई गई"
-    ],
-    "why": "यह हादसा याद दिलाता है कि नदी यात्रा में सुरक्षा कितनी ज़रूरी है।"
-   },
-   "d": "22.11.2026",
-   "t": "20:35"
-  },
-  {
-   "cat": "తెలంగాణ · రాజకీయం",
-   "col": "--c-gov",
-   "art": "",
-   "pic": "e/party-congress",
-   "stat": "నేతలకు సీఎం సూచన",
-   "statl": "గాంధీ భవన్‌లో",
-   "h": "పైరవీలతో పదవులు రావన్న సీఎం రేవంత్",
-   "p": "హైదరాబాద్ గాంధీ భవన్‌లో ఆదివారం జరిగిన తెలంగాణ కాంగ్రెస్ విస్తృత స్థాయి సమావేశంలో సీఎం రేవంత్ రెడ్డి మాట్లాడారు. పైరవీలతో, ఢిల్లీ పెద్దల చుట్టూ తిరిగితే పార్టీ పదవులు రావని, నిజాయితీగా కష్టపడిన వారికే ఇస్తామని చెప్పారు. నేతలు గ్రామాలు, తండాల్లో ప్రజల మధ్య ఉండాలని సూచించారు. అలా పనిచేసిన వారే మంత్రులు, ఎమ్మెల్యేలు అయ్యారని గుర్తు చేశారు.",
-   "pts": [
-    "గాంధీ భవన్ చుట్టూ తిరిగినా లాభం ఉండదన్నారు"
-   ],
-   "why": "అధికార పార్టీలో పదవులు ఎవరికి దక్కుతాయో ఈ మాటలు కార్యకర్తలకు సూచిస్తున్నాయి.",
-   "src": "ETV Bharat",
-   "url": "https://www.etvbharat.com/te/state/cm-revanth-reddy-stated-that-in-congress-party-positions-will-find-those-who-have-worked-hard-with-sincerity-tgs26112204300",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "గాంధీ భవన్",
-   "pub": "2026-11-22T19:24+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Politics",
-    "stat": "CM's advice to leaders",
-    "statl": "at Gandhi Bhavan",
-    "loc": "Gandhi Bhavan, Hyderabad",
-    "h": "Lobbying won't win party posts: CM Revanth",
-    "p": "Chief Minister Revanth Reddy spoke at the Telangana Congress extended meeting at Gandhi Bhavan, Hyderabad, on Sunday. He said party posts will not come through lobbying or by doing the rounds of senior leaders in Delhi, and will go only to those who worked sincerely. He told leaders to stay among people in villages and tandas, and recalled that those who worked that way became ministers and MLAs.",
-    "pts": [
-     "He said doing the rounds of Gandhi Bhavan will not help either"
-    ],
-    "why": "The remarks signal to party workers who is likely to get posts in the ruling party."
-   },
-   "hi": {
-    "cat": "तेलंगाना · राजनीति",
-    "stat": "नेताओं को सीएम की सलाह",
-    "statl": "गांधी भवन में",
-    "loc": "गांधी भवन, हैदराबाद",
-    "h": "सिफ़ारिश से पद नहीं मिलेंगे: सीएम रेवंत",
-    "p": "मुख्यमंत्री रेवंत रेड्डी ने रविवार को हैदराबाद के गांधी भवन में तेलंगाना कांग्रेस की विस्तारित बैठक को संबोधित किया। उन्होंने कहा कि सिफ़ारिश से या दिल्ली में बड़े नेताओं के चक्कर लगाने से पार्टी पद नहीं मिलेंगे, ईमानदारी से मेहनत करने वालों को ही मिलेंगे। उन्होंने नेताओं से गाँवों और तांडों में जनता के बीच रहने को कहा और याद दिलाया कि ऐसे काम करने वाले ही मंत्री और विधायक बने।",
-    "pts": [
-     "उन्होंने कहा कि गांधी भवन के चक्कर लगाने से भी फ़ायदा नहीं होगा"
-    ],
-    "why": "इन बातों से कार्यकर्ताओं को संकेत मिलता है कि सत्तारूढ़ पार्टी में पद किसे मिलेंगे।"
-   },
-   "d": "22.11.2026",
-   "t": "20:05"
-  },
-  {
-   "cat": "ఏపీ · రాజకీయం",
-   "col": "--c-gov",
-   "art": "court",
-   "pic": "e/court-hearing",
-   "stat": "షర్మిలను ఆపారు",
-   "statl": "కోర్టు ఉత్తర్వులతో",
-   "h": "యలహంకలో షర్మిలను ఆపిన పోలీసులు",
-   "p": "బెంగళూరు యలహంకలోని వివాదంలో ఉన్న భవనానికి వెళ్తున్న ఏపీ కాంగ్రెస్ అధ్యక్షురాలు వైఎస్ షర్మిలను ఆదివారం పోలీసులు ఆపారు. ఆ ఆస్తి విషయంలో ఆమె జోక్యం చేసుకోవద్దని దేవనహళ్లి కోర్టు శనివారం మధ్యంతర ఉత్తర్వులు ఇచ్చిందని పోలీసులు చెప్పారు. అది తన సొంత ఇల్లని షర్మిల అంటుండగా, లీజుకు తీసుకున్న కంపెనీ ఆ వాదనను కాదంటోంది.",
-   "pts": [
-    "కోర్టులో పిటిషన్ వేసింది సిలికాన్ బిల్డర్స్ సంస్థ",
-    "2007 నుంచి ఆస్తి తమ లీజులో ఉందని సంస్థ వాదన"
-   ],
-   "why": "ఏపీ ముఖ్య నేతల కుటుంబ ఆస్తి వివాదం కోర్టుకు చేరిందని ఈ ఘటన చూపిస్తోంది.",
-   "next": "కేసు తదుపరి విచారణ డిసెంబర్ 19న",
-   "src": "The South First",
-   "url": "https://thesouthfirst.com/andhrapradesh/andhra-sibling-rivalry-spills-over-to-bengaluru-police-stop-ys-sharmila-at-yelahanka/",
-   "sec": [
-    "telangana",
-    "india"
-   ],
-   "st": "KA",
-   "place": "st-KA",
-   "loc": "యలహంక, బెంగళూరు",
-   "pub": "2026-11-22T19:40+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Politics",
-    "stat": "Sharmila stopped",
-    "statl": "citing a court order",
-    "loc": "Yelahanka, Bengaluru",
-    "h": "Police stop Sharmila at Yelahanka",
-    "p": "Police on Sunday stopped AP Congress president Y.S. Sharmila as she headed to a disputed property at Yelahanka in Bengaluru. Police said a Devanahalli court issued an interim order on Saturday barring her from interfering with the property. Sharmila says it is her own residence, while the company that has leased it rejects that claim.",
-    "pts": [
-     "The court petition was filed by Silicon Builders",
-     "The firm says it has leased the property since 2007"
-    ],
-    "why": "The incident shows a family property dispute among AP's top leaders has reached the courts.",
-    "next": "The next court hearing is on December 19"
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · राजनीति",
-    "stat": "शर्मिला को रोका",
-    "statl": "अदालती आदेश के हवाले से",
-    "loc": "येलहंका, बेंगलुरु",
-    "h": "येलहंका में पुलिस ने शर्मिला को रोका",
-    "p": "बेंगलुरु के येलहंका में विवादित संपत्ति की ओर जा रहीं आंध्र प्रदेश कांग्रेस अध्यक्ष वाई.एस. शर्मिला को रविवार को पुलिस ने रोक दिया। पुलिस ने कहा कि देवनहल्ली की अदालत ने शनिवार को अंतरिम आदेश देकर उन्हें इस संपत्ति में दख़ल देने से रोका है। शर्मिला इसे अपना घर बताती हैं, जबकि इसे लीज़ पर लेने वाली कंपनी इस दावे को नकारती है।",
-    "pts": [
-     "अदालत में याचिका सिलिकॉन बिल्डर्स ने दायर की",
-     "कंपनी के अनुसार संपत्ति 2007 से उसकी लीज़ पर है"
-    ],
-    "why": "यह घटना दिखाती है कि आंध्र के शीर्ष नेताओं का पारिवारिक संपत्ति विवाद अदालत तक पहुँच गया है।",
-    "next": "मामले की अगली सुनवाई 19 दिसंबर को"
-   },
-   "d": "22.11.2026",
-   "t": "20:05"
-  },
-  {
-   "cat": "తెలంగాణ · పెట్టుబడులు",
-   "col": "--c-money",
-   "art": "economy",
-   "pic": "e/international-diplomacy",
-   "stat": "డిసెంబర్ 7–9",
-   "statl": "తెలంగాణ సమ్మిట్",
-   "h": "షార్జా రాజకుటుంబానికి తెలంగాణ పిలుపు",
-   "p": "యూఏఈలోని షార్జా, రాస్ అల్ ఖైమా రాజకుటుంబాలకు చెందిన షేక్ సౌద్ బిన్ ఫైసల్ అల్ ఖాసిమీని తెలంగాణ మైనారిటీ సంక్షేమ మంత్రి మహమ్మద్ అజారుద్దీన్ కలిశారు. డిసెంబర్ 7 నుంచి 9 వరకు హైదరాబాద్‌లో జరిగే ఇన్వెస్ట్ తెలంగాణ గ్లోబల్ సమ్మిట్‌కు రావాలని ఆహ్వానించారు. రాష్ట్రంలో పెట్టుబడి అవకాశాలను ఆయనకు వివరించారు.",
-   "pts": [
-    "యూఏఈ ప్రతినిధులు ఖలీద్ అల్ హొసానీ, డాక్టర్ అహ్మద్ యూసుఫ్ పాల్గొన్నారు",
-    "తెలంగాణ–యూఏఈ సంబంధాలు పెంచుతామన్న మంత్రి"
-   ],
-   "why": "విదేశీ పెట్టుబడులు వస్తే రాష్ట్రంలో పరిశ్రమలు, ఉద్యోగాలు పెరిగే అవకాశం ఉంటుంది.",
-   "next": "సమ్మిట్ డిసెంబర్ 7న హైదరాబాద్‌లో మొదలవుతుంది",
-   "src": "Mana Telangana",
-   "url": "https://www.manatelangana.news/telangana-breaking-news/telangana-invites-sharjah-royal-family-to-invest-in-state-1654166",
-   "sec": [
-    "telangana",
-    "business"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pub": "2026-11-22T19:13+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Investment",
-    "stat": "December 7–9",
-    "statl": "Telangana summit",
-    "loc": "",
-    "h": "Telangana invites Sharjah royal to summit",
-    "p": "Telangana Minority Welfare Minister Mohammed Azharuddin met Sheikh Saud bin Faisal Al Qasimi, a member of the Sharjah and Ras Al Khaimah royal families of the UAE. He invited him to the Invest Telangana Global Summit, to be held in Hyderabad from December 7 to 9, and briefed him on investment opportunities in the state.",
-    "pts": [
-     "UAE representatives Khalid Al Hosani and Dr Ahmed Yousuf took part",
-     "The minister said he wants stronger Telangana–UAE ties"
-    ],
-    "why": "Foreign investment could bring more industries and jobs to the state.",
-    "next": "The summit opens in Hyderabad on December 7"
-   },
-   "hi": {
-    "cat": "तेलंगाना · निवेश",
-    "stat": "7–9 दिसंबर",
-    "statl": "तेलंगाना समिट",
-    "loc": "",
-    "h": "शारजाह शाही सदस्य को तेलंगाना का न्योता",
-    "p": "तेलंगाना के अल्पसंख्यक कल्याण मंत्री मोहम्मद अज़हरुद्दीन ने यूएई के शारजाह और रास अल ख़ैमा शाही परिवारों के सदस्य शेख़ सऊद बिन फ़ैसल अल क़ासिमी से मुलाक़ात की। उन्होंने उन्हें 7 से 9 दिसंबर तक हैदराबाद में होने वाले इन्वेस्ट तेलंगाना ग्लोबल समिट में आने का न्योता दिया और राज्य में निवेश के अवसरों की जानकारी दी।",
-    "pts": [
-     "यूएई के प्रतिनिधि ख़ालिद अल होसानी और डॉ. अहमद यूसुफ़ भी शामिल हुए",
-     "मंत्री ने तेलंगाना–यूएई संबंध मज़बूत करने की बात कही"
-    ],
-    "why": "विदेशी निवेश आने से राज्य में उद्योग और रोज़गार बढ़ सकते हैं।",
-    "next": "समिट 7 दिसंबर को हैदराबाद में शुरू होगा"
-   },
-   "d": "22.11.2026",
-   "t": "20:05"
-  },
-  {
-   "cat": "తెలంగాణ · నేరాలు",
-   "col": "--c-city",
-   "art": "",
-   "pic": "e/police-investigation",
-   "stat": "నిందితుడు అరెస్ట్",
-   "statl": "24 గంటల్లో",
-   "h": "చేవెళ్ల హత్య కేసులో నిందితుడు అరెస్ట్",
-   "p": "చేవెళ్లలో ఒక మహిళను కత్తితో పొడిచి చంపిన కేసులో నంద్యాల జిల్లాకు చెందిన నిందితుడిని 24 గంటల్లో అరెస్ట్ చేశామని పోలీసులు తెలిపారు. ఒకరి ఫోన్ దొంగిలించి ఖాతా నుంచి ₹45 వేలు బదిలీ చేశాడని ఆమె కూడా వెళ్లి ఫిర్యాదు చేయడంతో కోపంతో ఈ హత్య చేశాడని పోలీసుల ప్రకారం.",
-   "pts": [
-    "దొంగిలించిన ఫోన్, కత్తి పోలీసులకు దొరికాయి",
-    "నిందితుడిపై ఏపీలో ఇంతకుముందు రెండు దొంగతనం కేసులు ఉన్నాయి"
-   ],
-   "why": "ఫోన్ పోతే వెంటనే బ్యాంకు ఖాతాను భద్రం చేసుకోవాలని ఈ కేసు గుర్తు చేస్తోంది.",
-   "src": "The Siasat Daily",
-   "url": "https://www.siasat.com/chevella-womans-murder-andhra-native-arrested-within-24-hrs-3584063/",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "rangareddy",
-   "loc": "చేవెళ్ల",
-   "pub": "2026-11-22T18:23+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Crime",
-    "stat": "Accused arrested",
-    "statl": "within 24 hours",
-    "loc": "Chevella, Rangareddy",
-    "h": "Chevella woman's murder: accused arrested",
-    "p": "Police said they arrested an accused from Nandyal district within 24 hours in the case of a woman stabbed to death in Chevella. According to police, he killed her in anger after she went along to file a complaint that he had stolen a man's phone and transferred ₹45,000 from his account.",
-    "pts": [
-     "Police recovered the stolen phone and the knife",
-     "The accused already faced two theft cases in AP"
-    ],
-    "why": "The case is a reminder to secure your bank account quickly if your phone is stolen."
-   },
-   "hi": {
-    "cat": "तेलंगाना · अपराध",
-    "stat": "आरोपी गिरफ़्तार",
-    "statl": "24 घंटे में",
-    "loc": "चेवेल्ला, रंगारेड्डी",
-    "h": "चेवेल्ला महिला हत्या: आरोपी गिरफ़्तार",
-    "p": "पुलिस ने बताया कि चेवेल्ला में एक महिला की चाकू मारकर हत्या के मामले में नंद्याल ज़िले के आरोपी को 24 घंटे में गिरफ़्तार किया गया। पुलिस के अनुसार, उसने एक व्यक्ति का फ़ोन चुराकर खाते से ₹45,000 निकाले थे और महिला के साथ शिकायत दर्ज होने पर गुस्से में हत्या की।",
-    "pts": [
-     "पुलिस ने चोरी का फ़ोन और चाकू बरामद किया",
-     "आरोपी पर आंध्र प्रदेश में पहले से चोरी के दो मामले हैं"
-    ],
-    "why": "फ़ोन चोरी होने पर तुरंत बैंक खाता सुरक्षित करना ज़रूरी है, यह मामला यही याद दिलाता है।"
-   },
-   "d": "22.11.2026",
-   "t": "19:35"
   },
   {
    "cat": "తెలంగాణ · నీరు",
