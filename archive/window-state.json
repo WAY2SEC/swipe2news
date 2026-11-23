@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T23:05:00+05:30",
+ "cutoff": "2026-11-23T23:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-21T11:05:00+05:30/2026-11-21T11:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 6,
-   "review": 1,
-   "gaps": "Lookback from 03:05. Feeds 11:21 IST, 68/68 ok, 715 TG/AP flagged uncovered (most top events already published under other URLs). add_repo not available; used existing clone. Published 2: Jagtial man stranded in Oman (Siasat, claim), Yemen airstrikes 41 dead per Houthis (Telangana Today/IANS, claim). Duplicate: Kondagattu nijaroopa darshan (= 20 Nov story). Skipped (published before lookback or old): Hans Goshamahal tankers (18 Nov), Hans Guntur poll arrangements (17 Nov), DC ED liquor bail plea (13 Nov), DC SEC fair polls (14 Nov), Hans AP Rs 1,011 cr hospital upgrade (20 Nov 04:47), ThePrint Nepal PM visit (20 Nov 15:18). Review (only updated time): Hans Kondagattu 1142430. Not opened (no search match): Kamareddy pole collapse death, Kurnool mall film piracy (NIE), Telangana cold wave (Disha/Vaartha), ETV Bharat Hyderabad borewells, Kadapa school occult row (NewsMeter), Miss Telangana runner-up, Rangareddy hostel student death (DC), INCOIS La Nina. Lang pages, index.html and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-21T11:35:00+05:30/2026-11-21T12:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 14:35. Feeds 22:59 IST (70/70 ok). 98 uncovered events first seen since 22:10 scanned (43 local, many Suryaa minor panchayat/party items). add_repo tool not available; used existing clone. Published: Siasat Cyberabad SHE Teams 52 caught (fact), ETV Bharat AP SEC expense accounts deadline, DC Palamuru villagers vs illegal liquor (claim, sensitive), Mana Telangana Harish Rao reply to CM (claim), HMTV Kothagudem 4 probationary DSPs, South First ICMR-NIN anaemia survey, DC/PTI Pak operatives in defence WhatsApp groups (claim, sensitive), Korea Times/DPA Russia nuclear satellite reports (claim). Duplicates (already published today): Hindu/ANI Revanth Krishna press meet, Siasat ED CMR, Siasat RBI stop switch, DC KRMB, Hindu Himayatsagar, Hindu Adilabad Prajavani, DC Srisailam Karthika Monday rush, DC Jangaon medical college, DC NIMS ACB, DC BRS Palnadu, DC 12 mayors, DC Pithapuram, Adda247 SI hall ticket. Skipped: TT/DC Ranigunj RUB diversions (only 18 Nov article found), TOI HC Rs 2 lakh encounter compensation (17 Nov ruling), entertainment items. Search did not return: Hindu PJTSAU new degree courses, Hindu Telangana-German state workforce, Hindu RERA Indiramma towers, HT Telugu Project GATTU - left unseen. No separate district searches this run. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T23:05:00+05:30/2026-11-23T23:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 13,
+   "published": 2,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 5,
+   "review": 0,
+   "gaps": "Lookback from 15:05. Feeds 23:14 IST (70/70 ok). 35 uncovered events first seen since 22:50 scanned (13 local, 8 minor Suryaa West Godavari panchayat items). add_repo tool not available; used existing clone. Published: TT Kothagudem Anisettypalle Palle Prakruthi Vanam trees felled (claim, no names), V6 HMDA Huda Heights e-auction Nov 25 (fact). Duplicates: ANI Revanth Krishna water, DC NIMS ACB, DC Srisailam Kartika Monday, DC BRS Palnadu. Skipped: entertainment/opinion items (TOI shaadi, Tollywood, Actor Suresh, BigTv cricket), HMTV Siddipet political jibe. Search did not return (left unseen): Hindu Uttam rejects KTR 90 TMC claim, DC robotic surgeries Hyd, DC Kishan Reddy on Rahul, Hindu landslide susceptibility, BBC COP31. Direct feed URLs refused by WebFetch. District searches: Nalgonda, Kurnool/Nandyal, Warangal/Hanumakonda (no new in-window items). lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -9163,6 +9163,16 @@
    "url": "https://www.deccanchronicle.com/southern-states/telangana/she-teams-conduct-112-decoy-operations-in-7-days-2007228",
    "d": "2026-11-23",
    "w": "dup"
+  },
+  {
+   "url": "https://telanganatoday.com/deputy-sarpanch-draws-ire-of-locals-for-felling-trees-at-palle-prakruthi-vanam-in-kothagudem",
+   "d": "2026-11-23",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.v6velugu.com/hmda-to-auction-plots-at-banjara-hills-huda-heights-on-november-25",
+   "d": "2026-11-23",
+   "w": "pub"
   }
  ]
 }
