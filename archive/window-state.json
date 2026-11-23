@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T12:35:00+05:30",
+ "cutoff": "2026-11-23T13:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-20T19:35:00+05:30/2026-11-20T20:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 12,
-   "published": 10,
-   "late": 6,
-   "sensitive": 4,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Feeds 19:45 IST, 65/70 ok (failing: NTV Telugu, OneIndia Telugu, district Visakhapatnam / East Godavari-en / Anantapur), 759 TG/AP uncovered, lookback 11:35. Published 10: Siasat Suraram 24-h water cut, NewsMeter Telugu HC IVF doctors bail verdict Monday (sensitive, no names), BIG TV land re-survey guidelines, Telangana Today Youth Congress protest at Meta office (sensitive), Telangana Today TREA Sagar intake well (claim), ETV Bharat Shamshabad govt land (claim, sensitive), Telangana Today CCMB genes, Telangana Today Australian DigiTech mission, HMTV Singareni Naini coal for NTPC Kaniha, Siasat Dhoolpet ganja (sensitive, officials, no names). Duplicates: ETV Bharat Eagle Force OG Kush (covered 18 Nov), South First Telugu 12th PRC (covered). Skipped as old: Business Upturn India-Italy (17 Nov preview), Telangana Today Mahabubabad electrocution (2023), Telangana Today Christian leaders (26 Oct). Not opened: Disha IVF (4xx; used NewsMeter Telugu), The Hawk India-Italy (4xx); no today's article found for Hindu Christians burial grounds, Hindu health minister medical tourism, Hindu/Sportstar Andhra beat MP (SMAT). Extended search used. No district searches this run (feed list used). add_repo not available; used existing clone. build_previews index/lang pages and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-20T20:05:00+05:30/2026-11-20T20:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 04:05 on 23 Nov. Feeds 12:15 IST (68/68 ok). 60 uncovered events first seen since 11:50 plus local backlog scanned. add_repo tool not available; used existing clone. 3 fetch agents, 9 URLs, 8 opened. Published 6: NewsMeter AIIA Tirupati (12:11), DC Nalgonda lorry fire (12:09), HMTV Anantapur mayor oath (11:57), Hans India polio 17.21 lakh (05:24, late), Siasat Bisleri says water safe (11:13, claim), Business Standard Nepal PM welcome (10:58). Duplicates: Disha BRS-KRMB Palnadu complaint, DC polio 95.55% (22 Nov 22:41, before lookback). Skipped: India TV Bisleri (fetch error). Not found in search (left unseen): Siasat Hyderabad congestion pricing, Samayam 24-yr deputy mayor, Disha Jalasoudha media curbs, NT Buggavagu grama sabha, HMTV Suryapet RDO football, HMTV Sangambanda leakage, NIE triple talaq, News18 Rs 30,000 subsidy fact-check, News18 Khammam Rs 1.5 crore job, HMTV Veldanda gambling. 12 district searches (Adilabad, Srikakulam, Nizamabad, Nellore, Karimnagar, Prakasam, Mahabubnagar, Guntur/Vijayawada…) gave no new eligible items. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T12:35:00+05:30/2026-11-23T13:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 14,
+   "published": 14,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 2,
+   "review": 1,
+   "gaps": "Lookback from 04:35 on 23 Nov. Feeds 13:05 IST (67/70 ok). 165 uncovered events first seen since 12:10 scanned. add_repo tool not available; used existing clone. 3 fetch agents, 20 items, 14 opened. Published 14: V6 214 Maoists rewards (12:26), DC AP phase-3 16,505 nominations (12:27), HMTV Chittoor mayor oath (12:31), Oneindia IRCTC Kashi-Ayodhya train (12:51), ETV TIMS theatres for Gandhi/NIMS (12:17), ETV Jana Sena deputy mayor picks (09:24, late), DC Rushikonda student found dead (12:35, sensitive, no name), DC Pushkaralu logo contest (12:51), HMTV Korutla BJP pensions (12:23, claim), HMTV Basara +2 policy (12:27, claim), Oneindia Satwar 9.6C cold (13:00), HMTV Dharmapuri Bharani pujas (12:17), TV9 toll number-plate fines (12:25, claim), Business Standard 1.38 crore jobs (12:12, forecast). Duplicates (feed, not opened): TT Godavarikhani miner, TT Hyderabad threat email, TT India-NZ draw. Skipped: US House Democrats 258 seats (figure not confirmed; only 19 Nov page opened), Suryaa Puttaparthi oath (article not found). Review: Pakistan astronaut (NDTV not found; alternates show no publication time today). Not opened (left unseen): Disha Khammam Sabarimala buses, Disha Khammam two lorries collide (fetch refused), News18 Nabin arrives in Hyderabad, Prajasakti Bandar deputy mayor. Not attempted: HMTV Asifabad school complaint. No district searches this run. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7793,6 +7793,91 @@
    "url": "https://www.therightnews.in/2026/11/23/pm-modi-holds-bilateral-talks-with-nepal-pm-balendra-shah-in-new-delhi/",
    "d": "2026-11-23",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.v6velugu.com/dgp-cv-anand-press-meet-rewards-and-financial-support-to-surrendered-maoists",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-panchayat-elections-phase-3-16505-nominations-filed-for-sarpanch-posts-in-two-days-2007067",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/chittoor/chittoor-municipal-corporation-new-mayor-katari-hemalatha-corporators-216082",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/telangana/irctc-to-run-varanasi-ayodhya-punya-kshetra-yatra-bharat-gaurav-express-from-secunderabad-in-dec-5-516121.html",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/doctors-from-gandhi-and-nims-hospitals-to-use-tims-operation-theatres-for-surgeries-tgs26112301079",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/politics/janasena-announce-deputy-mayors-and-vice-chairpersons-candidates-list-2026-aps26112300569",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/rushikonda-beach-tragedy-19-year-old-students-body-washes-ashore-2007070",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/godavari-pushkaralu-2027-logo-contest-offers-rs1-lakh-prize-2007077",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/bjp-warns-of-mass-protest-over-pending-new-aasara-pensions-216077",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/adilabad/tribal-student-union-raises-concern-over-new-plus-2-education-policy-216079",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/andhra-pradesh/imd-weather-alert-rains-likely-in-ap-cold-intensifies-in-telangana-here-the-latest-report-516123.html",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/jagtial-dharmapuri-sri-yamadharmaraja-temple-bharani-nakshatra-special-poojas-216075",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://tv9telugu.com/business/number-plate-tampering-fine-up-to-rs-10000-penalty-for-toll-evasion-1964854.html",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.business-standard.com/finance/personal-finance/india-to-see-1-38-cr-white-collar-jobs-in-2027-as-hiring-growth-hits-8-16-126112300363_1.html",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.suryaa.com/telugu-news/andhrapradesh/nedu-munsipal-chairman-kaunsil-sabhyula-pramaana-sveekaarm",
+   "d": "2026-11-23",
+   "w": "skipped"
+  },
+  {
+   "url": "https://gulfnews.com/world/asia/pakistan/pakistani-astronaut-to-board-shenzhou-24-and-become-the-first-foreigner-on-chinas-space-station-1.500739205",
+   "d": "2026-11-23",
+   "w": "review"
+  },
+  {
+   "url": "https://www.opb.org/article/2026/11/19/democrats-house-win-was-the-largest-in-50-years/",
+   "d": "2026-11-23",
+   "w": "skipped"
   }
  ]
 }
