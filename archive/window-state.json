@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T09:35:00+05:30",
+ "cutoff": "2026-11-23T10:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-20T16:35:00+05:30/2026-11-20T17:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 7,
-   "published": 7,
-   "late": 7,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 16:42 IST, 70/70 ok, 822 TG/AP uncovered, lookback 08:35. Published 7: TT GHMC trade licence renewal by Nov 30, NewsMeter PPP model/medical tourism, NewsMeter AIG bowel ultrasound study, NT Rajapeta gurukul seniors beat juniors (sensitive, minors, no names), HMTV Kodangal lift phase-2 bhumi puja, NewsMeter SIR convention Nov 22, Siasat/PTI DGCA notice to SpiceJet (claim, sourced). Duplicates: Andhra Prabha RRR south 4,962 acres and Hans Vizag station Rs 660 cr (already published), TT HMWSSB 40 MGD trial (Godavari pipeline published 16:35), ap7am rare earth corporation (APMDC review published). Skipped old: ThePrint/PTI UNFPA population (19 Nov 20:47, before lookback). Not opened: ANI Nepal PM visit (4xx), Hindu tiger Mylavaram, Hindu Pochampally tour, TT/Hyderabad Mail Inter exams, Vaartha Arunachalam trains, GK Today EHS guidelines (no search hit for today's article). No district searches this run (feed list used). add_repo not available; used existing clone. build_previews index/sitemap/lang pages reverted."
-  },
   {
    "window": "2026-11-20T17:05:00+05:30/2026-11-20T17:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 1,
    "gaps": "Lookback from 01:05 on 23 Nov. Feeds 09:16 IST (68/68 ok). 38 uncovered events first seen since 08:50 plus TG/AP backlog since 05:00 checked; most new items not yet indexed by search. add_repo tool not available; used fresh clone. 5 fetch agents. Published 1: Andhra Jyothy Godavarikhani Singareni worker killed (06:25, sensitive, no names). Duplicates: Srisailam Karthika rush, AP sarpanch phase 1, TN Tiruchi crash, Nepal PM visit (already published). Skipped: IndToday ED rice millers (09:22, thin, no named source), Huang/Trump Nvidia (17 Nov, before lookback), Asianet AP/TG rain (old May article), Secunderabad card den (only in AJ live blog already used). Review: Lowy Asia Power Index India 3rd (no publication time; launch 26 Nov). Not opened (left unseen): AJ ED rice millers, Disha soya fire, Disha Medchal jail Ayurveda, Samayam gold man IT attach, ANI Chamala, NIE 429 AI signals, TOI Sneha Group I-T, Medical Buyer NHRC hospitals, NIE quacks Kamareddy, V6 Tadoba tiger, Hyderabad Mail dengue, V6 Kondagattu, NIE Ayush NTR Vaidya Seva, NIE Kotia tribals, HMTV Vemulawada, Delta glitch. District searches (extended): Sangareddy, Medak, Vikarabad, Kakinada, Rajahmundry, Eluru, Bhupalpally, Mulugu, Jangaon, Mahabubabad, Nandyal, Prakasam, Bapatla, Kamareddy, Sircilla, Jagtial, Peddapalli - nothing fresh. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T09:35:00+05:30/2026-11-23T10:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 12,
+   "published": 12,
+   "late": 3,
+   "sensitive": 4,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 2,
+   "review": 1,
+   "gaps": "Lookback from 01:35 on 23 Nov. Feeds 09:43 IST (70/70 ok). 102 uncovered events first seen since 08:50 scanned; 18 sent to 3 fetch agents, 15 opened. add_repo tool not available; used existing clone. Published 12: Goodreturns Orvakal Reliance plant (09:05), AJ ED rice millers (09:07, sensitive, claim, no names), V6 Singareni formation day (09:19), HMTV Achampet cotton weighing (08:55, claim, no names), HMTV Kangti soya fire (09:38, claim, no names), DC Vijayawada minors car (09:23, sensitive, claim), TV9 APPSC lecturer applications (09:30), HMTV Kerala CM Puttaparthi (09:29), ETV Bharat gold price (09:37), V6 India-EU FTA Dec 16 (09:14, forecast), Tribune/ANI Lowy Asia Power Index (08:47), V6 Kim-Trump per WSJ (09:32, claim). Duplicates: Schneider Electric (Siasat 22 Nov published), graduates voter registration (AJ published 06:05). Skipped: Annavaram Giri Pradakshina (only 17 Nov ETV article opened, before lookback), V6 Fit India cycle rally (India cap of 3). Review: Gulf News/AFP Kyiv strikes 12 dead (no publication time). Not opened (left unseen): AJ Chandrababu Sathya Sai tribute, Samayam Annavaram, NIE Kyiv strikes, TOI Asia power, Hyderabad Mail Schneider. No district searches this run. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7356,6 +7356,86 @@
   },
   {
    "url": "https://power.lowyinstitute.org/countries/india",
+   "d": "2026-11-23",
+   "w": "review"
+  },
+  {
+   "url": "https://telugu.goodreturns.in/news/reliance-beverage-plant-in-kurnool-to-create-1-200-direct-jobs-060303.html",
+   "d": "2026-11-23",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/telangana-rice-millers-paddy-scam-1579022.html",
+   "d": "2026-11-23",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.v6velugu.com/singareni-foundation-day-celebrations-on-december-23-company-allocates-%E2%82%B93661-lakh-",
+   "d": "2026-11-23",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/mahaboobnagar/achampet-balmoor-banala-cotton-weighing-fraud-10-quintals-difference-216020",
+   "d": "2026-11-23",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/medak-sangareddy/sangareddy-kangti-turkawadgaon-tenant-farmer-ashok-100-quintals-soya-crop-216027",
+   "d": "2026-11-23",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/four-minors-drive-car-at-high-speed-injure-boy-in-vijayawada-2007025",
+   "d": "2026-11-23",
+   "w": "pub"
+  },
+  {
+   "url": "https://tv9telugu.com/career-jobs/appsc-lecturer-recruitment-2026-online-applications-not-started-despite-november-18-schedule-1964751.html",
+   "d": "2026-11-23",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/anantapur/sri-sathya-sai-district-puttaparthi-kerala-cm-satheesan-visits-prasanthi-nilayam-216022",
+   "d": "2026-11-23",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/business/gold-and-silver-rate-today-23rd-november-in-telugu-states-ten26112101152-ten26112300802",
+   "d": "2026-11-23",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.v6velugu.com/india-eu-free-trade-agreement-likely-to-be-signed-on-december-16",
+   "d": "2026-11-23",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.tribuneindia.com/news/asia-power-index/india-consolidates-position-as-asias-third-most-powerful-country-lowy-institute",
+   "d": "2026-11-23",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.v6velugu.com/kim-ignored-by-trump-phone-call-details-here",
+   "d": "2026-11-23",
+   "w": "pub"
+  },
+  {
+   "url": "https://indtoday.com/telangana-graduates-voter-registration-form-18-applications-approved/",
+   "d": "2026-11-23",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/annavaram-arrangements-of-teppotsavam-on21st-and-giri-pradakshina-on-24th-aps26111701498",
+   "d": "2026-11-23",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.v6velugu.com/fit-india-cycle-rally-held-across-26000-locations-100th-edition-scheduled-for-november-29-",
+   "d": "2026-11-23",
+   "w": "skip"
+  },
+  {
+   "url": "https://gulfnews.com/world/americas/ukraine-says-russian-strikes-kill-12-in-kyiv-region-1.500757016",
    "d": "2026-11-23",
    "w": "review"
   }
