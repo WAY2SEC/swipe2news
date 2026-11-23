@@ -1,8 +1,172 @@
 {
  "date": "23.11.2026",
- "updated": "2026-11-23T10:05:00+05:30",
+ "updated": "2026-11-23T10:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "తెలంగాణ · సంగారెడ్డి",
+   "col": "--c-city",
+   "art": "land",
+   "pic": "e/housing-and-real-estate",
+   "stat": "38 మంది",
+   "statl": "భెల్ ఉద్యోగులకు ప్లాట్లు",
+   "h": "38 మంది భెల్ ఉద్యోగులకు ప్లాట్లు",
+   "p": "సంగారెడ్డి జిల్లా పటాన్‌చెరు పరిధి ఇంద్రేశంలో భెల్ ఉద్యోగుల హౌసింగ్ సొసైటీ లేఅవుట్‌లో 38 మంది సభ్యులకు ప్లాట్లు రిజిస్టర్ చేయాలని రెరా ఆదేశించింది. ఇక్కడ ఇప్పటికే 125 మందికి ప్లాట్లు రిజిస్టర్ అయ్యాయి. మిగిలిన డబ్బు 30 రోజుల్లో ఎస్క్రో ఖాతాలో జమ చేయాలని చెప్పింది. డబ్బు అందిన 15 రోజుల్లో సేల్ డీడ్‌లు చేయాలి.",
+   "pts": [
+    "ఒక్కొక్కరు ₹19.12 లక్షల నుంచి ₹24.40 లక్షలు జమ చేయాలి",
+    "గడువు దాటితే అడ్వాన్స్ మాత్రమే తిరిగి వస్తుంది",
+    "ప్లాట్ ఇవ్వలేకపోతే మరో ప్లాట్ లేదా వడ్డీతో వాపసు"
+   ],
+   "why": "ప్లాట్ల కోసం ఎదురుచూస్తున్న 38 మంది ఉద్యోగుల కుటుంబాలకు ఇది ఊరట.",
+   "next": "మిగిలిన డబ్బు జమ చేయడానికి 30 రోజుల గడువు",
+   "src": "NewsMeter",
+   "url": "https://newsmeter.in/hyderabad/justice-at-last-tgrera-orders-bhel-housing-society-to-register-plots-for-38-left-out-employees-779809",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "TG",
+   "place": "sangareddy",
+   "loc": "ఇంద్రేశం, పటాన్‌చెరు",
+   "pub": "2026-11-23T10:07+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Sangareddy",
+    "stat": "38 employees",
+    "statl": "to get BHEL society plots",
+    "loc": "Indresham, Patancheru",
+    "h": "RERA orders plots for 38 BHEL employees",
+    "p": "Telangana RERA has ordered registration of plots for 38 members left out of the BHEL employees' housing society layout at Indresham near Patancheru in Sangareddy district. 125 members there already have registered plots. The 38 must deposit their balance into an escrow account within 30 days, and sale deeds must follow within 15 days of payment.",
+    "pts": [
+     "Each must pay about ₹19.12 lakh to ₹24.40 lakh",
+     "Missing the deadline means only advances are refunded",
+     "If plots can't be given: another plot or refund with interest"
+    ],
+    "why": "It brings relief to 38 employee families waiting for their plots.",
+    "next": "30 days to deposit the balance amount"
+   },
+   "hi": {
+    "cat": "तेलंगाना · संगारेड्डी",
+    "stat": "38 कर्मचारी",
+    "statl": "को भेल सोसाइटी में प्लॉट",
+    "loc": "इंद्रेशम, पटानचेरु",
+    "h": "रेरा का आदेश: 38 भेल कर्मचारियों को प्लॉट",
+    "p": "तेलंगाना रेरा ने संगारेड्डी ज़िले में पटानचेरु के पास इंद्रेशम में भेल कर्मचारियों की हाउसिंग सोसाइटी के लेआउट में छूटे 38 सदस्यों के प्लॉट रजिस्टर करने का आदेश दिया है। वहां 125 सदस्यों के प्लॉट पहले से रजिस्टर हैं। 38 सदस्यों को 30 दिन में बाकी रकम एस्क्रो खाते में जमा करनी होगी और भुगतान के 15 दिन में सेल डीड होगी।",
+    "pts": [
+     "हर सदस्य को लगभग ₹19.12 लाख से ₹24.40 लाख जमा करने होंगे",
+     "समय सीमा चूकने पर सिर्फ़ अग्रिम राशि लौटेगी",
+     "प्लॉट न मिले तो दूसरा प्लॉट या ब्याज सहित वापसी"
+    ],
+    "why": "प्लॉट का इंतज़ार कर रहे 38 कर्मचारी परिवारों को इससे राहत मिलेगी।",
+    "next": "बाकी रकम जमा करने के लिए 30 दिन"
+   },
+   "d": "23.11.2026",
+   "t": "10:35"
+  },
+  {
+   "cat": "ఏపీ · ఏలూరు",
+   "col": "--c-city",
+   "art": "court",
+   "pic": "e/police-investigation",
+   "stat": "336 మద్యం సీసాలు",
+   "statl": "కామవరపుకోటలో",
+   "h": "కామవరపుకోటలో 336 మద్యం సీసాలు",
+   "p": "ఏలూరు జిల్లా చింతలపూడి నియోజకవర్గం కామవరపుకోటలో ఒక ఇంట్లో అక్రమంగా నిల్వ చేసిన 336 మద్యం సీసాలను పట్టుకున్నట్లు ఎక్సైజ్ సీఐ తెలిపారు. సోమవారం తెల్లవారుజామున ఎక్సైజ్, పోలీసు, రెవెన్యూ సిబ్బంది కలిసి తనిఖీ చేశారు. ఇంటి యజమాని లేకపోవడంతో అతని తండ్రిని అరెస్ట్ చేశారు. యజమానిపై కేసు నమోదు చేశారు.",
+   "pts": [
+    "మొత్తం 60.58 లీటర్ల మద్యం",
+    "తాడికలపూడి పోలీసులు దాడిలో పాల్గొన్నారు"
+   ],
+   "why": "గ్రామాల్లో అక్రమ మద్యం నిల్వలపై ఎక్సైజ్ తనిఖీలు కొనసాగుతున్నాయని ఈ కేసు చూపిస్తోంది.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/eluru/chintalapudi-kamavarapukota-illegal-liquor-seized-336-bottles-confiscated-216031",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-eluru",
+   "loc": "కామవరపుకోట, చింతలపూడి",
+   "pub": "2026-11-23T10:07+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Eluru",
+    "stat": "336 liquor bottles",
+    "statl": "seized at Kamavarapukota",
+    "loc": "Kamavarapukota, Chintalapudi",
+    "h": "336 liquor bottles seized at Kamavarapukota",
+    "p": "The Excise CI said 336 bottles of illegally stored liquor were seized from a house in Kamavarapukota in Chintalapudi constituency, Eluru district. Excise, police and revenue staff searched the house early on Monday. As the owner was absent, his father was arrested. A case was registered against the owner.",
+    "pts": [
+     "The liquor totals 60.58 litres",
+     "Tadikalapudi police took part in the raid"
+    ],
+    "why": "The case shows excise checks on illegal liquor stocks in villages are continuing."
+   },
+   "hi": {
+    "cat": "आंध्र · एलुरु",
+    "stat": "336 शराब की बोतलें",
+    "statl": "कामवरपुकोटा में ज़ब्त",
+    "loc": "कामवरपुकोटा, चिंतलपुडी",
+    "h": "कामवरपुकोटा में 336 शराब की बोतलें ज़ब्त",
+    "p": "एक्साइज़ सीआई ने बताया कि एलुरु ज़िले के चिंतलपुडी क्षेत्र के कामवरपुकोटा में एक घर से अवैध रूप से रखी 336 शराब की बोतलें ज़ब्त की गईं। सोमवार तड़के एक्साइज़, पुलिस और राजस्व कर्मचारियों ने तलाशी ली। मालिक घर पर नहीं था, इसलिए उसके पिता को गिरफ़्तार किया गया। मालिक पर मामला दर्ज हुआ।",
+    "pts": [
+     "कुल 60.58 लीटर शराब",
+     "तडिकलपुडी पुलिस छापे में शामिल थी"
+    ],
+    "why": "यह मामला दिखाता है कि गांवों में अवैध शराब पर एक्साइज़ जांच जारी है।"
+   },
+   "d": "23.11.2026",
+   "t": "10:35"
+  },
+  {
+   "cat": "భారత్ · వాతావరణం",
+   "col": "--c-water",
+   "art": "rain",
+   "pic": "e/cyclone-coastal-warning",
+   "stat": "నవంబర్ 26 నుంచి",
+   "statl": "వాతావరణ మార్పు అవకాశం",
+   "h": "బంగాళాఖాతంలో మరో ఆవర్తనం ఏర్పడే అవకాశం",
+   "p": "నవంబర్ 26 నుంచి డిసెంబర్ 2 మధ్య వాతావరణం మారే అవకాశం ఉందని భారత వాతావరణ శాఖ సూచించింది. నెలాఖరులో అండమాన్ సముద్రంపై ఉపరితల ఆవర్తనం ఏర్పడవచ్చని, ఆగ్నేయ బంగాళాఖాతంలోనూ మరొకటి రావచ్చని తెలిపింది. ఇది తుపానుగా మారుతుందా, ఏ తీరంపై ప్రభావం ఉంటుందో ఇంకా చెప్పలేదు. ఈ నెలలో ఏపీ, ఒడిశా తీరాలపై వరుస తుపానులు వచ్చాయి.",
+   "pts": [
+    "మ్యాడెన్-జూలియన్ పరిస్థితులు అల్పపీడనాలకు అనుకూలమని సూచన"
+   ],
+   "why": "కోస్తా ఏపీ రైతులు, మత్స్యకారులపై ఈ వాతావరణ మార్పు ప్రభావం ఉండవచ్చు.",
+   "src": "IndToday",
+   "url": "https://indtoday.com/bay-of-bengal-cyclone-risk-returns-imd-warns-of-new-system/",
+   "sec": [
+    "weather",
+    "india"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-23T09:31+05:30",
+   "lbl": "forecast",
+   "en": {
+    "cat": "India · Weather",
+    "stat": "Nov 26–Dec 2",
+    "statl": "weather may change",
+    "loc": "Bay of Bengal",
+    "h": "New circulation likely in Bay of Bengal",
+    "p": "The India Meteorological Department said weather may change between November 26 and December 2. A surface circulation may form over the Andaman Sea late this month, and another could develop in the southeast Bay of Bengal. It has not said whether it will become a cyclone or which coast it may affect. AP and Odisha coasts saw several cyclones this month.",
+    "pts": [
+     "Madden-Julian conditions favour low-pressure systems, IMD said"
+    ],
+    "why": "Farmers and fishermen in coastal AP may be affected by the change."
+   },
+   "hi": {
+    "cat": "भारत · मौसम",
+    "stat": "26 नवंबर–2 दिसंबर",
+    "statl": "मौसम बदल सकता है",
+    "loc": "बंगाल की खाड़ी",
+    "h": "बंगाल की खाड़ी में नया चक्रवाती घेरा संभव",
+    "p": "भारत मौसम विज्ञान विभाग ने कहा कि 26 नवंबर से 2 दिसंबर के बीच मौसम बदल सकता है। महीने के अंत में अंडमान सागर पर एक सतही चक्रवाती घेरा बन सकता है और दक्षिण-पूर्व बंगाल की खाड़ी में भी दूसरा बन सकता है। यह चक्रवात बनेगा या किस तट पर असर होगा, यह अभी नहीं बताया गया। इस महीने आंध्र और ओडिशा तटों पर कई चक्रवात आए।",
+    "pts": [
+     "मैडेन-जूलियन स्थितियां निम्न दबाव के अनुकूल: आईएमडी"
+    ],
+    "why": "तटीय आंध्र के किसानों और मछुआरों पर इसका असर हो सकता है।"
+   },
+   "d": "23.11.2026",
+   "t": "10:35"
+  },
   {
    "cat": "ఏపీ · కర్నూలు",
    "col": "--c-money",
@@ -3066,170 +3230,6 @@
    },
    "d": "23.11.2026",
    "t": "07:35"
-  },
-  {
-   "cat": "ఏపీ · పంచాయతీ ఎన్నికలు",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "e/party-janasena",
-   "stat": "సర్దుబాటు లేదు",
-   "statl": "పంచాయతీ సీట్లలో",
-   "h": "పంచాయతీల్లో సీట్ల సర్దుబాటు లేదు: జనసేన",
-   "p": "గ్రామ పంచాయతీ ఎన్నికల్లో సీట్ల సర్దుబాటు ఉండదని జనసేన ఆదివారం ఒక ప్రకటనలో తెలిపింది. పంచాయతీ ఎన్నికలు పార్టీలకు అతీతంగా జరుగుతాయని చెప్పింది. స్వతంత్రంగా పోటీ చేయాలనుకునే కార్యకర్తలను అడ్డుకోవద్దని శ్రేణులకు సూచించింది. మున్సిపల్, జడ్పీటీసీ, ఎంపీటీసీ ఎన్నికలకు ఇది భిన్నమని పార్టీ స్పష్టం చేసింది.",
-   "pts": [
-    "కడపలో కార్యకర్త మృతిపై విచారణకు పవన్ కల్యాణ్ ఆదేశం",
-    "విచారణను మంత్రి నాదెండ్ల మనోహర్ పర్యవేక్షిస్తారు"
-   ],
-   "why": "ఏపీ గ్రామాల్లో పోటీ చేయాలనుకునే జనసేన కార్యకర్తలకు ఇది స్పష్టత ఇస్తుంది.",
-   "src": "Deccan Chronicle",
-   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/no-seat-sharing-in-panchayat-polls-jana-sena-tells-cadre-2006986",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "AP",
-   "loc": "",
-   "pub": "2026-11-23T00:05+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Panchayat polls",
-    "stat": "No seat-sharing",
-    "statl": "in panchayat polls",
-    "loc": "",
-    "h": "No seat-sharing in panchayat polls: Jana Sena",
-    "p": "Jana Sena said in a statement on Sunday that there will be no seat-sharing in the gram panchayat elections, since these polls are held beyond party lines. It told cadre not to block workers who want to contest independently, and said this differs from the municipal, ZPTC and MPTC polls.",
-    "pts": [
-     "Pawan Kalyan ordered inquiry into a worker's death in Kadapa",
-     "Minister Nadendla Manohar to supervise the inquiry"
-    ],
-    "why": "It gives clarity to Jana Sena workers who want to contest in AP villages."
-   },
-   "hi": {
-    "cat": "एपी · पंचायत चुनाव",
-    "stat": "सीट बंटवारा नहीं",
-    "statl": "पंचायत चुनावों में",
-    "loc": "",
-    "h": "पंचायत चुनाव में सीट बंटवारा नहीं: जनसेना",
-    "p": "जनसेना ने रविवार को एक बयान में कहा कि ग्राम पंचायत चुनावों में सीटों का बंटवारा नहीं होगा, क्योंकि ये चुनाव दलगत आधार से ऊपर होते हैं। पार्टी ने कार्यकर्ताओं से कहा कि निर्दलीय लड़ना चाहने वालों को न रोकें, और कहा कि यह नगरपालिका, ज़ेडपीटीसी व एमपीटीसी चुनावों से अलग है।",
-    "pts": [
-     "पवन कल्याण ने कडपा में कार्यकर्ता की मौत की जांच का आदेश दिया",
-     "मंत्री नादेंडला मनोहर जांच की निगरानी करेंगे"
-    ],
-    "why": "एपी के गांवों में चुनाव लड़ना चाहने वाले जनसेना कार्यकर्ताओं को स्पष्टता मिली।"
-   },
-   "d": "23.11.2026",
-   "t": "07:35"
-  },
-  {
-   "cat": "భారత్ · వ్యాపారం",
-   "col": "--c-money",
-   "art": "economy",
-   "pic": "e/industrial-production",
-   "stat": "0.31 శాతం",
-   "statl": "కార్ల ధరల పెంపు",
-   "h": "మారుతీ సుజుకీ కార్ల ధరలు పెరిగాయి",
-   "p": "మారుతీ సుజుకీ ఇండియా కొన్ని మోడళ్ల కార్ల ధరలను సగటున 0.31 శాతం పెంచింది. కొత్త ధరలు ఆదివారం నుంచే అమల్లోకి వచ్చాయని స్టాక్ ఎక్స్ఛేంజీకి తెలిపింది. ముడిసరుకుల ఖర్చు పెరగడమే కారణమని, అందులో కొంత భారాన్ని మాత్రమే కొనుగోలుదారులపై వేశామని చెప్పింది. ఈ ఆర్థిక సంవత్సరంలో ఇది నాలుగో పెంపు.",
-   "pts": [
-    "ఏప్రిల్–సెప్టెంబర్ మధ్య మూడు పెంపులు కలిపి 1 శాతానికి పైగా",
-    "ఏ మోడళ్లపై పెంపో కంపెనీ చెప్పలేదు"
-   ],
-   "why": "కొత్త కారు కొనాలనుకునే కుటుంబాలకు ఖర్చు కొంచెం పెరుగుతుంది.",
-   "src": "V6 Velugu",
-   "url": "https://www.v6velugu.com/maruti-suzuki-hikes-car-prices-by-031-percent",
-   "sec": [
-    "india",
-    "business"
-   ],
-   "st": "IN",
-   "place": "IN",
-   "loc": "",
-   "pub": "2026-11-23T07:03+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "India · Business",
-    "stat": "0.31% on average",
-    "statl": "Maruti car price hike",
-    "loc": "",
-    "h": "Maruti Suzuki raises car prices",
-    "p": "Maruti Suzuki India has raised prices of some models by an average 0.31 per cent, effective Sunday, according to a stock exchange filing. The company cited higher raw-material costs and said it is passing on only part of them. It is the fourth increase this financial year.",
-    "pts": [
-     "Three hikes between April and September totalled just over 1%",
-     "The company did not name the models"
-    ],
-    "why": "Families planning to buy a new car will pay slightly more."
-   },
-   "hi": {
-    "cat": "भारत · कारोबार",
-    "stat": "औसतन 0.31%",
-    "statl": "मारुति कारों के दाम बढ़े",
-    "loc": "",
-    "h": "मारुति सुज़ुकी ने कारों के दाम बढ़ाए",
-    "p": "मारुति सुज़ुकी इंडिया ने स्टॉक एक्सचेंज को बताया कि उसने कुछ मॉडलों के दाम औसतन 0.31 प्रतिशत बढ़ाए हैं, जो रविवार से लागू हैं। कंपनी ने कच्चे माल की बढ़ी लागत को वजह बताया और कहा कि वह इसका कुछ हिस्सा ही ग्राहकों पर डाल रही है। इस वित्त वर्ष में यह चौथी बढ़ोतरी है।",
-    "pts": [
-     "अप्रैल–सितंबर में तीन बढ़ोतरी मिलाकर 1% से कुछ ज़्यादा",
-     "कंपनी ने मॉडलों के नाम नहीं बताए"
-    ],
-    "why": "नई कार ख़रीदने की सोच रहे परिवारों का खर्च थोड़ा बढ़ेगा।"
-   },
-   "d": "23.11.2026",
-   "t": "07:35"
-  },
-  {
-   "cat": "భారత్ · హాకీ",
-   "col": "--c-city",
-   "art": "unity",
-   "pic": "e/rural-sports-ground",
-   "stat": "7–0 గెలుపు",
-   "statl": "థాయ్‌లాండ్‌పై",
-   "h": "ఆసియా ఛాంపియన్స్ ట్రోఫీ సెమీస్‌కు భారత్",
-   "p": "మహిళల ఆసియా ఛాంపియన్స్ ట్రోఫీ హాకీలో డిఫెండింగ్ ఛాంపియన్ భారత్ ఆదివారం థాయ్‌లాండ్‌ను 7–0తో ఓడించింది. దీపిక హ్యాట్రిక్ గోల్స్ చేసింది. నవనీత్ కౌర్ రెండు గోల్స్ కొట్టింది. మూడు మ్యాచ్‌ల్లో 9 పాయింట్లతో భారత్ ముందంజలో ఉంది. జపాన్‌తో పాటు భారత్ సెమీఫైనల్‌కు చేరింది. భోపాల్‌లో ఈ టోర్నీ జరుగుతోంది.",
-   "pts": [
-    "ముంతాజ్ ఖాన్, సునేలిత టొప్పో తలో గోల్",
-    "సెమీస్ ప్రత్యర్థి ఇంకా తేలలేదు"
-   ],
-   "why": "భారత హాకీ అభిమానులకు, ఆటల్లో రాణించాలనుకునే అమ్మాయిలకు ఇది ఉత్సాహం ఇచ్చే వార్త.",
-   "src": "ETV Bharat",
-   "url": "https://www.etvbharat.com/en/sports/defending-champions-india-beat-thailand-reach-semifinals-of-womens-asian-champions-trophy-2026-enn26112205150",
-   "sec": [
-    "india",
-    "sports"
-   ],
-   "st": "IN",
-   "place": "IN",
-   "loc": "",
-   "pub": "2026-11-23T00:25+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "India · Hockey",
-    "stat": "7–0 win",
-    "statl": "over Thailand",
-    "loc": "Bhopal",
-    "h": "India reach Asian Champions Trophy semis",
-    "p": "Defending champions India beat Thailand 7–0 in the women's Asian Champions Trophy hockey in Bhopal on Sunday. Deepika scored a hat-trick and Navneet Kaur struck twice. With 9 points from three games, India lead the table and have reached the semifinals along with Japan.",
-    "pts": [
-     "Mumtaz Khan and Sunelita Toppo scored one each",
-     "Semifinal opponent not yet decided"
-    ],
-    "why": "Good news for Indian hockey fans and girls hoping to excel in sport.",
-    "next": "India play China on November 24"
-   },
-   "hi": {
-    "cat": "भारत · हॉकी",
-    "stat": "7–0 से जीत",
-    "statl": "थाईलैंड पर",
-    "loc": "भोपाल",
-    "h": "भारत एशियन चैंपियंस ट्रॉफी सेमीफ़ाइनल में",
-    "p": "गत चैंपियन भारत ने रविवार को भोपाल में महिला एशियन चैंपियंस ट्रॉफी हॉकी में थाईलैंड को 7–0 से हराया। दीपिका ने हैट्रिक लगाई और नवनीत कौर ने दो गोल किए। तीन मैचों में 9 अंकों के साथ भारत शीर्ष पर है और जापान के साथ सेमीफ़ाइनल में पहुंच गया है।",
-    "pts": [
-     "मुमताज़ ख़ान और सुनेलिता टोप्पो ने एक-एक गोल किया",
-     "सेमीफ़ाइनल प्रतिद्वंद्वी अभी तय नहीं"
-    ],
-    "why": "भारतीय हॉकी प्रशंसकों और खेल में आगे बढ़ना चाहने वाली लड़कियों के लिए अच्छी ख़बर।",
-    "next": "भारत 24 नवंबर को चीन से खेलेगा"
-   },
-   "d": "23.11.2026",
-   "t": "07:35",
-   "next": "నవంబర్ 24న చైనాతో భారత్ తదుపరి మ్యాచ్"
   },
   {
    "cat": "ఏపీ · పంచాయతీ ఎన్నికలు",
