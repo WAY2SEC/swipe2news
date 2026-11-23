@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T20:35:00+05:30",
+ "cutoff": "2026-11-23T21:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-21T08:35:00+05:30/2026-11-21T09:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 6,
-   "late": 6,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 5,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Lookback from 00:35. Feeds 08:41 IST, 70/70 ok, 767 TG/AP uncovered (138 local unseen in lookback, most already published under other URLs). add_repo not available; used existing clone. Published 6: T-Fiber four-village pilot (V6), Yasangi 25% alternative crops (V6), I-T searches Sneha Group 16 places (Andhra Jyothy), KL Rahul Wellington century (IANS), PM Bihar Rs 34,470 cr projects (Hans India/IANS), COP31 overtime (AP via News4JAX). Duplicates: TG exports 68% (Hans/NIE/TOI), Vijayawada bypass diversion, Karimnagar water-waste fine (HMTV), AIG ultrasound study (NIE/DC), Pochampally tour (V6). Skipped old: Tadipatri clashes (AJ 20 Nov 12:55), SC on AP SEC candidate list (Oct item), Oct core sector 10.9% (20 Nov). Not opened: Indus Waters Treaty/SCO (Deccan Herald 4xx; The Hindu no match), HC notices Kesireddy (TOI), Ahluwalia (NIE), oocyte bail (NIE), Cyberabad twin towers (Samayam), TG loans curbs and true-up charges (V6, no search match), Eenadu district items (robots). Lang pages and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-21T09:05:00+05:30/2026-11-21T09:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 1,
    "gaps": "Lookback from 12:05. Feeds 20:13 IST (70/70 ok). 94 uncovered events first seen since 19:40 scanned (~40 local). add_repo tool not available; used existing clone. Published: NewsMeter Cyberabad hospitals traffic meet, NewsMeter HYDRAA Miralam Lake (Medchal), TT Mothkupalli on Dalits (claim, sensitive), Fox Business Nvidia reinstates Huang. Duplicates: TT/TOI Rs 5.59 cr to 214 surrendered Maoists (13:05), Hindu ACB NIMS (18:35), ETV KRMB Sagar water (19:35), Samayam Global Summit review (16:35). Skipped (before lookback/old): Hans Khammam Gandra paddy (03:49), Hans Tipparthi water (03:42), Hans Suryapet fake RTO (22 Nov), Hans Vizag GP polls (22 Nov), V6 SEC expenses (Dec 2025). Review: Deccan Herald Karreguttalu tourism/landmines (no publication time on fetched page). Not opened: CNBC Nvidia (4xx), Disha AP medicine procurement (4xx). Search did not return: Hindu AP six-month medicine procurement, Hindu SEC expenditure returns, NewsMeter fake number plates, Hindu Cyberabad children ideas, Hindu Miyapur racket, AJ Indiramma RERA flats – left unseen for next run. District searches: Nalgonda/Suryapet/Khammam, Visakhapatnam/Vijayawada/Guntur (nothing new in window). lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T20:35:00+05:30/2026-11-23T21:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 6,
+   "late": 2,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 3,
+   "review": 1,
+   "gaps": "Lookback from 12:35. Feeds 20:52 IST (70/70 ok). 93 uncovered events first seen since 20:05 scanned (22 local). add_repo tool not available; used existing clone. Published: Asianet/ANI AIMIM leader dies after Himayat Sagar attack (follow-up to 20:05 story; police, fact, no name), Mana Telangana SSC memo corrections via MeeSeva, NT Bowrampet gas refilling 3 arrested (police, no names), TT BRS representation to KRMB on Palnadu grid (claim), HMTV Sarapaka ESI hospital demand (claim), HMTV Tirupati ward 11 corporator oath. Late-found: TT BRS-KRMB (13:23), NT gas refilling (18:50). Duplicates: V6/TT HMDA-HCCB treated water (published 21 Nov), Siasat HYDRAA Miralam lake (20:35). Skipped: Sircilla fog bus-car crash (22 Nov, before lookback), DC SC vehicular emissions (10 Nov), NewsBytes bullet train trials (Sep). Not published (unconfirmed): Mana Telangana HC rejects fertility-centre doctor's anticipatory bail - article itself says only 'learned'/social media; Disha copy 4xx. Review: Munsif BRS-KRMB (no time on page). Search did not return: Hindu Nitin Nabin countdown, Hindu CID cybercrime meet, Hindu ex-SC judge electoral rights, DC Congress voter deletion details, DC tenant farmers crop loss survey, NIE SC BS-VI, ANI bullet train - left unseen for next run. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8958,6 +8958,81 @@
    "url": "https://www.deccanherald.com/india/telangana/telangana-eyes-to-make-karreguttalu-once-naxal-stronghold-into-tourist-destination-3960820",
    "d": "2026-11-23",
    "w": "review"
+  },
+  {
+   "url": "https://newsable.asianetnews.com/india/aimim-leader-murtaza-pahalwan-dies-after-knife-attack-in-telangana-articleshow-ebao37a",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://prabhanews.com/murtaza-pahalwan-attack-rajendranagar-hyderabad/",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.manatelangana.news/telangana-breaking-news/telangana-ssc-certificate-corrections-2026-1654483",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.newsmeter.in/telangana/telangana-stops-offline-applications-for-ssc-memo-corrections-students-must-apply-via-meeseva-portal-779753",
+   "d": "2026-11-23",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.ntnews.com/news/three-arrested-in-dundigal-limits-linked-with-illegal-gas-refilling-2567325",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/brs-urges-krmb-to-stop-palnadu-project-7144963c",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://munsifdaily.com/brs-delegation-meets-krmb-chairman-complains-against-alleged/",
+   "d": "2026-11-23",
+   "w": "review"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/khammam/set-up-100-bed-govt-esi-hospital-in-sarapaka-contract-workers-jac-216338",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/tirupati/tirupati-svu-alumna-b-jyothsna-takes-oath-as-corporator-216341",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/hmda-signs-aggreement-with-hccb-to-supply-600-kl-of-treated-water-daily-for-orr-greenery",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.v6velugu.com/cold-wave-and-fog-wreak-havoc-in-rajanna-sircilla-district",
+   "d": "2026-11-23",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/rtc-bus-collides-with-car-on-second-bypass-two-photographers-injured-215696",
+   "d": "2026-11-23",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/nation/sc-says-vehicular-emissions-warrant-urgent-intervention-seeks-action-report-2003146",
+   "d": "2026-11-23",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.newsbytesapp.com/news/india/indias-1st-bullet-train-trials-slated-for-mumbai-ahmedabad-mayjune-2027/tldr",
+   "d": "2026-11-23",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.manatelangana.news/telangana-breaking-news/high-court-shock-to-doctor-padmaja-1654486",
+   "d": "2026-11-23",
+   "w": "skipped"
   }
  ]
 }
