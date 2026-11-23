@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T13:05:00+05:30",
+ "cutoff": "2026-11-23T13:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-20T20:05:00+05:30/2026-11-20T20:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 14,
-   "published": 3,
-   "late": 2,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 20:12 IST, 69/70 ok, 901 TG/AP uncovered, lookback 12:05. Published 3: Andhra Jyothy YSRCP MLC 3-day custody (sensitive, no name), Siasat Kalapathar car theft (sensitive, no name), South First AP six districts HIV Surakshit. Skipped: m9.news traffic challan scam (Jan 2026, old). Not opened (feed URLs refused by fetch; WebSearch did not surface articles; allowed_domains searches rejected by proxy): Hindu Kurnool centring sheets, Hindu Revanth delimitation, Hindu IT minister entrepreneurs, Hindu NHAI AI tool, Hindu Cyclone Akvan live, Siasat Modi SCO, V6 Nanakramguda lift death, NewsMeter Guru Nanak Jayanti diversions, NT TGSRTC 63 promotions, NTV TTD e-dip, TV9 challan alert, Hindu BJP vs Rahul $30T remark. No district searches. add_repo not available; used existing clone. build_previews index/lang pages and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-20T20:35:00+05:30/2026-11-20T21:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 1,
    "gaps": "Lookback from 04:35 on 23 Nov. Feeds 13:05 IST (67/70 ok). 165 uncovered events first seen since 12:10 scanned. add_repo tool not available; used existing clone. 3 fetch agents, 20 items, 14 opened. Published 14: V6 214 Maoists rewards (12:26), DC AP phase-3 16,505 nominations (12:27), HMTV Chittoor mayor oath (12:31), Oneindia IRCTC Kashi-Ayodhya train (12:51), ETV TIMS theatres for Gandhi/NIMS (12:17), ETV Jana Sena deputy mayor picks (09:24, late), DC Rushikonda student found dead (12:35, sensitive, no name), DC Pushkaralu logo contest (12:51), HMTV Korutla BJP pensions (12:23, claim), HMTV Basara +2 policy (12:27, claim), Oneindia Satwar 9.6C cold (13:00), HMTV Dharmapuri Bharani pujas (12:17), TV9 toll number-plate fines (12:25, claim), Business Standard 1.38 crore jobs (12:12, forecast). Duplicates (feed, not opened): TT Godavarikhani miner, TT Hyderabad threat email, TT India-NZ draw. Skipped: US House Democrats 258 seats (figure not confirmed; only 19 Nov page opened), Suryaa Puttaparthi oath (article not found). Review: Pakistan astronaut (NDTV not found; alternates show no publication time today). Not opened (left unseen): Disha Khammam Sabarimala buses, Disha Khammam two lorries collide (fetch refused), News18 Nabin arrives in Hyderabad, Prajasakti Bandar deputy mayor. Not attempted: HMTV Asifabad school complaint. No district searches this run. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T13:05:00+05:30/2026-11-23T13:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 11,
+   "published": 1,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 10,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 05:05 on 23 Nov. Feeds 13:16 IST (67/68 ok); 86 uncovered events first seen since 12:40 scanned. add_repo tool not available; used existing clone. Published 1: Siasat Naspur shopkeeper detained after 8-yr-old girl's complaint (13:32, sensitive, claim, no names). Duplicates (already on app): Godavarikhani SCCL worker murder, Lowy Asia Power Index, India-NZ Test draw, CV Anand Maoist rehab, COP31 no deal, Kancharla stopped at Chityal, SI hall tickets, Hyderabad threat email, Kamareddy car-tractor crash, AIIA Tirupati. Not opened: Prabha News RRR-South 4,962 acres (fetch server error); not found in search: TOI Telangana dengue 47 vs 0, Samayam Jayesh Ranjan VRS, Telugu360 Lokesh ASEAN pitch, Andhraprabha Kurnool flexi row, Hyderabad Mail BRS/Congress 2028, Hans Panchalingala sarpanch race, HMTV Toguta CMRF cheques, HMTV Khammam Vidyanagar, Sakshi Mahabubabad. ETV TG/AP live blogs had no entries after 08:01. 8 district searches (Nalgonda, Warangal, Khammam, Kadapa, Srikakulam, Medak, Kakinada, Adilabad) gave no new eligible items. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7878,6 +7878,26 @@
    "url": "https://www.opb.org/article/2026/11/19/democrats-house-win-was-the-largest-in-50-years/",
    "d": "2026-11-23",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-shopkeeper-held-after-girl-8-accuses-him-of-misbehaviour-3584516/",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/sccl-employee-stabbed-to-death-by-unidentified-assailants-3584310/",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.business-standard.com/world-news/cop31-climate-talks-collapse-eu-russia-arab-states-fossil-fuels-finance-126112300457_1.html",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/kancherla-bhupal-reddy-stopped-by-police-at-chityal-2567019",
+   "d": "2026-11-23",
+   "w": "duplicate"
   }
  ]
 }
