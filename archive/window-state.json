@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T18:05:00+05:30",
+ "cutoff": "2026-11-23T18:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-21T06:05:00+05:30/2026-11-21T06:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 14,
-   "published": 13,
-   "late": 13,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 0,
-   "review": 1,
-   "gaps": "Lookback from 22:05 (20 Nov). Feeds 06:14 IST, 70/70 ok, 874 TG/AP uncovered (many already published under other URLs). add_repo not available; used existing clone. Published 13: Hans graduate MLC enrolment 12.69 lakh, Hans Godavari Pushkaralu logo contest, Hans Chiranjeevi deepfake memo, Hans Kakinada/Bapatla/Sri Sathya Sai ZP chiefs, Hans Gadwal illegal toddy, Hans Vaddiraju on Siddipet meeting (claim), Hans CKM girls hostel Warangal (claim), Hans Nellore mayor UGD, DC Udayagiri wooden cutlery, DC GWMC fire safety checks, Hans Red Cross expansion. Review: wsvn/AP Trump-Xi-Putin nuclear talks (no publish time; summit already covered 19 Nov). Not attempted (capacity/Eenadu-only): Hyderabad AI hub (Eenadu), Warangal drainage CM review (Suryaa), triplets govt hospital (The Hindu, search did not surface), Tirupati ZP Hemalatha (The Hindu), Nellore road accident, Gadwal Indiramma insurance phases, CJI Hyderabad visit, Amit Shah Nov 24 visit. No India/world story. build_previews lang pages and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-21T06:35:00+05:30/2026-11-21T07:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Lookback from 09:35. Feeds 18:02 IST (70/70 ok). 132 uncovered events first seen since 17:10 scanned (52 local). add_repo tool not available; used existing clone. 3 fetch agents (9 pages). Published all from Telangana Today: Manjeera foam (claim), Mailardevpally POCSO 20 years (sensitive, no names), Shamshabad ORR cement lorry, Bandarupally Khet Bachao (body says Sangareddy, caption Siddipet; Thoguta mandal is Siddipet). Sensitive: POCSO verdict, Manjeera pollution claims. Duplicates not re-published: Chittoor voter slips, Global Summit review, KRMB meeting, Pushkaralu logo, WhatsApp Web advisory, Nabin in Telangana, Kadapa oath, Adilabad drought plea. Skipped: DC TGSRTC i-ALERT diesel (published 22 Nov 23:50), Siasat gated-community guard sentence (16 Nov), Mana Telangana Revanth on Palnadu at PAC (05:50, before lookback), Siasat Air India Saudi (13 Nov article; today's item not found). Not opened/not found (left unseen): Deccan Herald SC notice on anti-defection PIL (4xx), ETV live Revanth press meet on Palnadu water grid (video only), Business Today Naidu Honda-Kia, Oneindia Jangaon medical college, AJ Nellore rain alert, Hans India Station Ghanpur Rs 1,600 cr and farm workers law, HMTV Peddapalli Indiramma Bima and Dubbak martial arts, TV9 train trafficking arrest. No separate district searches this run. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T18:05:00+05:30/2026-11-23T18:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 13,
+   "published": 10,
+   "late": 0,
+   "sensitive": 3,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 5,
+   "review": 1,
+   "gaps": "Lookback from 10:05. Feeds 18:13 IST (70/70 ok). 83 uncovered events first seen since 17:40 scanned (32 local). add_repo tool not available; used existing clone. 4 fetch agents. Sensitive: NIMS ACB billing findings (claim, no charges), Hyderabad terror email VPN (police findings, no arrest), Revanth vs BRS Palnadu grid (claim). Duplicates: NewsMeter money-doubling gang (Adilabad published 17:05), Flash PMI (published 12:05), Chittoor poll-slip report/Maharashtra opposition reaction (CEO story 17:35), ASEAN conclave Lokesh. Skipped: Suryaa SIR final list Dec 22 (Guntur JC, 18 Nov article), Tribune India on Rohingya ICJ (20 Nov), SC BS-VI Delhi remark (Delhi-only, oral), Poultry India Expo (CM role not confirmed; DC says Union MoS inaugurates Nov 25), Delhi Jama Masjid attack/Karnataka MLA resignation (other state). Review: Business Today Naidu Honda-Kia video (no publication time). Not found: Suryaa postal ballot polling. District searches: Nirmal, Mulugu, Gadwal, Wanaparthy, Vikarabad, Mahabubabad, Srikakulam, Vizianagaram, Prakasam, Nellore (nothing new in window). Disha items (Sagar water, railway tenders) not tried (site refuses fetch). lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8653,6 +8653,91 @@
    "url": "https://www.siasat.com/air-india-extends-flight-suspension-to-three-saudi-cities-3576628/",
    "d": "2026-11-23",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/800-gloves-for-one-patient-in-a-week-nims-under-acb-scanner-3584947/",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://telugu.newsmeter.in/hyderabad/hyderabad-terror-threat-sender-used-europe-based-vpn-and-temporary-email-to-threaten-2611-style-attacks-779847",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.v6velugu.com/cm-revanth-reddy-attacks-kcr-and-brs-leaders-over-palnadu-water-grid-after-krmb-meeting",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/telangana/telangana-health-news-jangaon-medical-college-and-critical-care-block-to-open-soon-here-remaining-516179.html",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/do-not-allow-soil-excavation-from-sammakka-gutta-ranapur-sarpanch-216260",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/tirupati/tirupati-jb-srinivas-sworn-in-as-mayor-tuda-chair-greets-216255",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/guntur/guntur-gmc-commissioner-reviews-pending-court-cases-216266",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/legalnews/sc-seeks-centre-ec-response-on-pil-for-anti-defection-law-reforms-2007097",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.businesstoday.in/markets/stocks/story/mahanadi-coalfields-ipo-subscribed-1-52-times-on-final-day-qibs-lead-demand-569138-2026-11-23",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://en.dailypakistan.com.pk/23-Nov-2026/ahsan-iqbal-heads-to-china-for-historic-send-off-of-pakistans-first-astronaut-into-space",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/nation/politics/maharashtra-opposition-questions-eci-impartiality-following-report-on-andhra-poll-discrepancies-2007184",
+   "d": "2026-11-23",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/andhra-pradesh/31000-voter-slip-gap-chittoor-after-6-pm-2024-polls-reporters-collective",
+   "d": "2026-11-23",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.suryaa.com/telugu-news/andhrapradesh/disembaru-22na-esaiaar-tudi-jaabitaa-prakatana-jesee-ashutosh-shreevaastav",
+   "d": "2026-11-23",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.tribuneindia.com/news/india/india-takes-note-of-icj-verdict-on-myanmar-genocide-backs-rohingya-return/",
+   "d": "2026-11-23",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.barandbench.com/news/supreme-court-says-will-consider-allowing-only-bs-vi-vehicles-in-delhi-ncr",
+   "d": "2026-11-23",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.businesstoday.in/bt-tv/whats-hot/short-video/chandrababu-naidu-says-andhra-pradesh-open-to-investments-addresses-honda-kia-plant-speculation-569131-2026-11-23",
+   "d": "2026-11-23",
+   "w": "review"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/union-minister-sp-singh-baghel-to-inaugurate-poultry-india-expo-on-nov-25-2002054",
+   "d": "2026-11-23",
+   "w": "skip"
   }
  ]
 }
