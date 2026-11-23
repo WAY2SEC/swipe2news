@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T21:35:00+05:30",
+ "cutoff": "2026-11-23T22:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-21T09:35:00+05:30/2026-11-21T10:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 5,
-   "late": 4,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Lookback from 01:35. Feeds 09:45 IST but only 4/70 feeds ok (Google News outlet/district feeds HTTP 503), 22 uncovered events in lookback. add_repo not available; used existing clone. Fetch works only for URLs returned by a search in this run. Published 5: Tiruvuru tiger movement (Andhra Jyothy live blog), Indus Waters Treaty stand unchanged (Siasat/PTI), Brickwork FY27 GDP 7% forecast (Telangana Today/IANS), Riyadh missiles intercepted (Siasat, claim), Trump wants Huang back at Nvidia (Al Jazeera). Duplicate: NIMS/TIMS medical tourism wards (Siasat) = 20 Nov PPP healthcare story. Skipped: DC six-district ZP chairs incl. Tirupati (20 Nov 22:17, before lookback); Manipur spurious liquor deaths and Kondapur funding fraud (Andhra Jyothy blog lines too thin / unattributed allegation). Not opened (no search match, fetch refused): The Hindu INCOIS La Nina, Koti Deepotsavam, Hemalatha Tirupati ZP; Telangana Today Hyderabad suicide report, Pankaj Advani snooker. Not attempted (caps): Amit Shah Arunachal, Trump immigration talks, ATP Finals, Rohingya verdict reaction. Lang pages and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-21T10:05:00+05:30/2026-11-21T10:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Lookback from 13:05. Feeds 21:13 IST (70/70 ok). 43 uncovered events first seen since 20:50 scanned (~19 local). add_repo tool not available; used existing clone. Published: Siasat PJTAU professor detained (police, fact, sensitive, no names), ETV Bharat Bikkavolu-Duvvada 3rd/4th lines tender Rs 4,299 cr (late-found 18:37). Duplicate: AJ Hyderabad rowdy-sheeter murder = Murtaza Pahalwan (published 21:05). Not published: Godavarikhani 4 arrested - The Hindu not found by search; only small site hindudayashankar.com (admin byline) opened - left for next run. Search did not return: Hindu Swati Lakra Chanchalguda women's prison, Hindu 4,100 children Cyberabad, TT BRS slum tap connections, BusinessLine sugar import, HMTV Khammam El Nino health - left unseen. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T21:35:00+05:30/2026-11-23T22:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 7,
+   "late": 1,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 9,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 13:35. Feeds 21:59 IST (70/70 ok). 140 uncovered events first seen since 21:00 scanned (42 local). add_repo tool not available; used existing clone. Published: Siasat Karimnagar GMC bans protests, TT Godavarikhani 4 arrested (police, fact, sensitive, no names), DC Naini mine 1 MT coal, Siasat wife's letter to CM on husband in Italy (claim, sensitive, no names), DC AP rural roads 46% unpaved, DC RBI trusted person/stop switch draft, Tribune/ANI sugar imports (forecast, late-found 16:52). Duplicates (already published today): TT wife arrested Sangareddy, Hindu ACB NIMS, Hindu BRS-KRMB, Hindu Himayatsagar killing, Hindu Adilabad Prajavani farmer, Hindu/News18 Pithapuram, TT KRMB deferred, HMTV Khammam AgriGold, India-Nepal package. Skipped (old): LiveLaw HC Rs 2 lakh encounter compensation (17 Nov; Hindu 21:51 copy not found by search), Yahoo/Ukrainska Pravda NATO Russia space (Apr 2025; Guardian not found). Search did not return: Hindu 4,100 children Cyberabad, Hindu Miyapur racket, TT BRS slum tap connections, TT Revanth Krishna water, Mana Telangana Germany jobs, DC AICC Raj Gopal Reddy, DC rural development works Dec 1, DC Amalapuram planned city, HMTV Nagarkurnool sarees Nov 26, HMTV Mancherial Prajavani - left unseen for next run. No separate district searches this run. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -9053,6 +9053,51 @@
    "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/rowdy-sheeter-murtuza-pah-ilwan-hacked-to-death-near-himayat-sagar-in-hyderabad-vk-1579095.html",
    "d": "2026-11-23",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/students-protest-lack-of-infra-karimnagar-gmc-bans-stir-3585076/",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/four-held-for-murdering-coal-miner-in-godavarikhani",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/naini-coal-mine-crosses-1-million-tonne-transportation-mark-2007238",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-woman-seeks-cms-help-to-bring-back-husband-from-italy-3585078/",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/nearly-half-of-ap-rural-roads-unpaved-16k-km-bt-cc-roads-require-repairs-2007242",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/nation/rbi-proposes-trusted-person-approval-for-online-fund-transfers-2007229",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.tribuneindia.com/news/business/india-may-need-up-to-3-5-million-tonnes-of-sugar-imports-as-production-falls-below-consumption-report",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.livelaw.in/high-court/telangana-high-court/telangana-high-court-orders-compensation-alleged-fake-encounter-death-558736",
+   "d": "2026-11-23",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.yahoo.com/news/nato-concerned-russia-may-deploy-100606849.html",
+   "d": "2026-11-23",
+   "w": "skipped"
   }
  ]
 }
