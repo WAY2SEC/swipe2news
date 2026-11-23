@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T15:05:00+05:30",
+ "cutoff": "2026-11-23T15:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-20T22:05:00+05:30/2026-11-20T22:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 8,
-   "late": 4,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Feeds 22:11 IST, 70/70 ok, 901 TG/AP uncovered, lookback 14:05. Published 8: Telangana Today Rebbena Kerala Express two deaths (sensitive, no names), Telangana Today SSC certificate corrections via MeeSeva, Telangana Today Sridhar Babu at UN Global Impact Summit, The Federal HC notice on ED plea vs Raj Reddy bail (Dec 2), Siasat Owaisi remark/Congress apology demand (claim), NewsMeter HYDRAA Ambir Cheruvu restoration, TV9 Telugu Narayankhed distress cattle sales (claim), Reuters/Devdiscourse CERT-In unauthorised payment transactions. Skipped: Sakshi Bhimavaram BJP seat share (17 Nov, old), Mongolia president resignation (17 Nov, old). Not opened (search did not surface today's article): Kurnool centring sheets theft, APSRTC JMD revenue leakages, Hindu Bhimavaram BJP seat deal, Revanth on delimitation, Udayagiri wooden cutlery, DC Harish drought, DC Hyderabad AI hub. No district searches (feed list used). add_repo not available; used existing clone. build_previews index/lang pages and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-20T22:35:00+05:30/2026-11-20T23:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 1,
    "gaps": "Lookback from 06:35 on 23 Nov. Feeds 14:51 IST (69/70 ok; Prajasakti failing). 111 uncovered events first seen since 14:05 scanned. add_repo tool not available; used existing clone. 4 fetch agents, 31 items, 21 published: TT free cancer medicines racket 6 states (14:45, sensitive, police, no names), TT retired police corporate jobs (14:32), Siasat BJP chief on Rahul-PM remark (14:12, claim), LiveLawBiz TG RERA Phoenix order (14:46), NT Nalgonda life term loan murder (14:38, sensitive, no names), HMTV Kodad Bollam Sagar water (14:32, claim), HMTV Medak 2BHK complaint (14:24, claim), HMTV Vemulawada paddy centre (14:10), HMTV Sarapaka insurance drum campaign (14:21), HMTV Khammam Deeksha Divas Nov 29 (14:15, claim), NewsBytes Lokesh maritime (14:16), Sakshi Bhumana temple demolition (14:19, claim), DC YSRCP Chittoor queue count (14:38, claim), BIG TV Botsa power cut (14:41, claim), NTV Balakrishna Hindupur council (14:29), ETV Araku instant coffee (14:05), ETV Nellore gurukulam students Parliament (14:42, no names), BS India-Nepal 8 MoUs (14:17), Medical Dialogues HPV 1 crore doses (12:00), Tribune/ANI S&P India 7% (14:12, forecast), Reuters via Yahoo Hasina arrest warning (14:37). Duplicate: Hyderabad threat email (Hans; The Hindu VPN version not found). Skipped: Karimnagar BJP padayatra (only pre-event previews 03:33), stock market fall (NewsX, no index figures), Starlink/ISpA (India cap of 3). Review (pub time not found): DT Next/PTI Bangladesh HC under-16 social media. Not opened (left unseen): Disha Bodu anganwadi inspection, Disha substandard provisions, Disha Annojiguda Mirkan Kunta HYDRAA (site refuses fetch), Hyderabad Mail weather, News18 Telugu airport (not found). No district searches this run. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T15:05:00+05:30/2026-11-23T15:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 20,
+   "published": 16,
+   "late": 0,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 4,
+   "review": 1,
+   "gaps": "Lookback from 07:05. Feeds 15:24 IST (68/68 ok). add_repo tool not available; used existing clone. 5 fetch agents. Duplicates: Maoist Rs5.59cr rewards (already 12:26), AP Cabinet Nov 27 (already). Skipped as older than lookback: Safran Rs4,000cr (ETV 22 Nov 12:53), Vizag Rs1.94cr digital-arrest gang (DC 22 Nov 21:14; ETV version not found), AP 3 new rail lines (ETV 22 Nov 07:27), RRR 4,962 acres (19 Nov), Asst Prof 526 posts (13 Nov). Review: Mahanadi Coalfields IPO (Upstox, only updated time). Not opened: TOI dengue 47 vs 0, TOI Odisha labour racket, DGP appeal to Ganapathy (UNI time unclear), Sakshi Nawipet rail gate. District searches: Nizamabad, Vikarabad, Yadadri, Warangal, Asifabad, Konaseema, Bapatla, Annamayya, Manyam (only Vikarabad + Warangal found). lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8146,6 +8146,111 @@
   },
   {
    "url": "https://www.dtnext.in/news/world/bangladeshi-court-orders-interim-curbs-on-social-media-access-for-children-under-16",
+   "d": "2026-11-23",
+   "w": "review"
+  },
+  {
+   "url": "https://www.ntnews.com/news/ap-and-telangana-hold-meeting-with-krmb-on-krishna-river-water-distribution-2567160",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/balakrishnas-pa-pavuluri-srinivas-booked-65-followers-arrested-in-palnadu-2007121",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://www.siasat.com/500-cops-compete-at-telangana-police-duty-meet-2026-in-hyderabad-3584651/",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://v6velugu.com/leopard-spotted-in-parigi-for-four-days-attempts-to-attack-farmer-in-vikarabad",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://www.siasat.com/school-picnic-turns-fatal-as-swing-kills-boy-near-hyderabad-3584254/",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://medicaldialogues.in/news/health/doctors/telangana-medical-council-inspections-uncover-alleged-illegal-medical-practice-at-4-clinics-183802",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/mahaboobnagar/bjp-demands-immediate-fix-to-sangambanda-gate-leakage-216034",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/jagtial-korutla-metpally-farmers-complain-in-prajavani-demanding-paddy-216073",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/nalgonda-suryapet/ikp-1-paddy-procurement-centre-opened-in-suryapets-maddirala-mandal-216135",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/warangal/cpi-urges-garla-mpdo-to-take-up-desilting-of-agricultural-wells-216153",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/pamphlet-unveiled-at-peddapalli-market-yard-highlighting-farmers-issues-216155",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://www.manatelangana.news/telangana-breaking-news/discussion-on-kaloji-kalakshetram-1654352",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://www.siasat.com/congestion-pricing-could-ease-hyderabad-traffic-study-3584311/",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://www.telugutimes.net/politics/telangana/top-50-promising-startups-announced-report-launched-at-hes-2026-444466.html",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://thecsrjournal.in/india-inaugurates-first-quantum-ai-university-campus-at-acharya-nagarjuna-university-in-guntur-andhra-pradesh-with-plans-for-permanent-facility-in-amaravati",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://telanganatoday.com/bangladesh-rabindranath-tagores-portrait-defaced-again-days-after-restoration",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://www.ap7am.com/tn/887761/telangana-government-releases-559-crore-for-maoist-rehabilitation",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-disburses-rs-5-59-crore-to-surrendered-maoists-92c6c72d",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://www.etvbharat.com/en/business/french-aircraft-engine-manufacturer-eyes-rs-4000-crore-investment-in-telangana-enn26112201587",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://www.v6velugu.com/warangal-congress-leaders-press-meet-counter-to-ktr-allegations",
+   "d": "2026-11-23",
+   "w": "2026-11-23T15:35"
+  },
+  {
+   "url": "https://upstox.com/news/market-news/ipo/mahanadi-coalfields-ipo-day-3-check-subscription-status-allotment-date-and-steps/article-203824/",
    "d": "2026-11-23",
    "w": "review"
   }
