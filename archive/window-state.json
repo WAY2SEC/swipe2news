@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T06:05:00+05:30",
+ "cutoff": "2026-11-23T06:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-20T10:05:00+05:30/2026-11-20T10:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 10,
-   "published": 9,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 10:25 IST, 66/68 ok, 729 TG/AP uncovered, lookback 02:05 (20 Nov). Published 9: Hans/PTI Akvan crossed coast near Gopalpur (10:14), OneIndia Avinash Reddy convoy attack Simhadripuram (09:49, claim, sensitive: accused not named), Siasat Satwar 9.6C cold (10:19), NT Kakatiya Univ 14 students ill (10:19), NT Seethakka MGNREGS mates (02:32), V6 Adilabad donkey theft gang (08:20), V6 Adilabad bio resource centres (09:24), Hans Anantapur phase-3 panchayat notification (04:38), The Week Sensex seesaw (10:05, India). Skipped: NT Siddipet woman crushed between buses (published 10:35:16, after END - next run). Duplicates/seen: Gandhi IVF, Ranigunj RUB traffic, TG SAFE food licences, Malaysia visa. Not reached: Hindu Srikakulam rain, ETV Vizag Bay-Tech city, ETV Sammakka Sagar NOC, Hyderabad 17th-floor fire (NIE), Mancherial cops, robotic surgery AP. District searches 6 (Karimnagar, Adilabad, Vizianagaram, Anantapur, Prakasam, Medak). add_repo not available; used existing clone. build_previews touched index/sitemap - reverted."
-  },
   {
    "window": "2026-11-20T10:35:00+05:30/2026-11-20T11:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 1,
    "gaps": "Lookback from 21:35 on 22 Nov. Feeds 05:45 IST (68/70 ok). 37 uncovered TG/AP events since 03:30 scanned plus recent Sakshi/AJ/Hans items; 32 sent to 3 search agents, 14 opened. add_repo tool not available; used existing clone. Published 10: AJ graduate voter applications 12.69 lakh (05:43), Hans Sagar-Srisailam cruise paused (05:04), AJ Kokya Tanda youth Rs 1.5 cr job (05:19, claim), AJ Mallu Ravi complaint on two MLAs (05:02, claim), Hans Wanaparthy natural-birth rally (03:44), Hans Hidayatullah Fellowship Hyderabad (05:10), AJ coastal AP rain from 24 Nov (05:17, forecast), Hans Tirupati mayor-elect (05:25), Hans Narayana AI Ready MBA book Nellore (05:03), ThePrint/PTI SCO Indraprastha Communique (01:45). Duplicates: Hans PM at Tirupati DGP meet (same review meeting as 22:18 story), Hans CM Achampet/Maddimadugu Nov 26. Skipped old (before lookback): PTI Kota crash 9 dead (22 Nov 12:45), IANS India 720/9 (22 Nov 12:41). Review: TOI US 1,389 Indian children (only an aggregator copy, TOI time not verified). Not opened: Eenadu PG medical counselling options, Vikarabad lorry accident, TGSRTC i-Alert, Prakasam 62 unanimous panchayats; Mana Telangana public health; Sakshi crocodile, Srikakulam fencing, Jana Sena candidate kidnap, Gandikota, Kaleshwaram, PGRS cancelled, Kothur, state-level competitions; Disha Anantapur fake police (client error); News18 digital arrest; IE PMGKAY study; Deccan Herald CII $106 trillion (client error). No district searches this run. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T06:05:00+05:30/2026-11-23T06:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 15,
+   "published": 13,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 3,
+   "review": 1,
+   "gaps": "Lookback from 22:05 on 22 Nov. Feeds 06:15 IST (66/68 ok; Eenadu and Deccan Chronicle gnews 429). 110 uncovered TG/AP events since 22:05 scanned; 3 search agents, 17 opened. add_repo tool not available; used existing clone. Published 13: Hans Tipparthi irrigation protest (03:42, claim), Hans Bethavolu cycles (03:47), TT HCA C-Division four centuries (01:14), Hans BJP Karimnagar padayatra today (03:33), AJ one street two villages unanimous (05:39), AJ Pittigunta toss (05:53), Hans Vinuh app Vizag (01:47), Hans Vizag men's health walk (01:43), Sakshi Phanigiri pradakshina Nov 24 (05:48), AJ Open University classes 6,298 (06:02), AJ Srikakulam poll-code meetings (00:01), Hans India-NZ hockey series 1-0 (02:52), AP/PBS COP31 no deal (04:30). Duplicate: DC Karimnagar medical students (KTR story 22 Nov 21:05). Skipped: Sneha Group I-T searches (DC 21 Nov 10:06, before lookback; TOI Rs 5 cr not opened), News On AIR SC/AP SEC (21 Oct), India-NZ Test (in progress at lunch, wait for result). Review: Hans Putin India diversity (numbers inconsistent). Not opened: TOI Sneha Rs 5 cr, TOI Hyderabad congestion pricing, HMTV Suryapet murder arrest, Hindu Vizag data-centre rally, Eenadu Manyam unanimous tally, AJ Ongole deputy mayor, AJ Lokesh-Jagan debate. District searches: Adilabad, Nizamabad, Sangareddy, Anantapur, Prakasam, Guntur had nothing fresh. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6716,6 +6716,96 @@
   },
   {
    "url": "https://urallnews.com/breaking-illegal-immigration-us-put-1389-indian-children-in-custody-in-4-yrs-ahmedabad-news-latest-updates/",
+   "d": "2026-11-23",
+   "w": "review"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/nalgonda-suryapet/irrigation-water-demanded-for-tipparthi-villages-1144821",
+   "d": "2026-11-23",
+   "w": "2026-11-23T06:35"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/nalgonda-suryapet/endowments-commissioners-emotional-return-to-native-village-1144823",
+   "d": "2026-11-23",
+   "w": "2026-11-23T06:35"
+  },
+  {
+   "url": "https://telanganatoday.com/four-centuries-highlight-hca-c-division-league",
+   "d": "2026-11-23",
+   "w": "2026-11-23T06:35"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/karimnagar/nitin-nabin-to-lead-bjps-mega-padayatra-in-karimnagar-today-1144818",
+   "d": "2026-11-23",
+   "w": "2026-11-23T06:35"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/two-villages-in-two-districts-on-the-same-street-unanimously-elect-their-sarpanches-1578986.html",
+   "d": "2026-11-23",
+   "w": "2026-11-23T06:35"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/cement-road-separates-two-villages-belonging-to-different-mandals-in-andhra-pradesh-1578993.html",
+   "d": "2026-11-23",
+   "w": "2026-11-23T06:35"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/visakhapatnam-vinuh-app-makes-academic-life-easier-and-simpler-for-students-1144779",
+   "d": "2026-11-23",
+   "w": "2026-11-23T06:35"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/visakhapatnam-walkathon-to-build-awareness-of-mens-health-and-well-being-1144776",
+   "d": "2026-11-23",
+   "w": "2026-11-23T06:35"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/anakapalle/2967942",
+   "d": "2026-11-23",
+   "w": "2026-11-23T06:35"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/andhra-pradesh-open-university-classes-begin-in-eluru-prison-inmates-also-get-education-opportunities-1578996.html",
+   "d": "2026-11-23",
+   "w": "2026-11-23T06:35"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/srikakulam/cooperate-for-peaceful-elections-dsp-1578867.html",
+   "d": "2026-11-23",
+   "w": "2026-11-23T06:35"
+  },
+  {
+   "url": "https://www.thehansindia.com/sports/india-draw-with-new-zealand-win-century-of-sporting-unity-series-1144808",
+   "d": "2026-11-23",
+   "w": "2026-11-23T06:35"
+  },
+  {
+   "url": "https://www.pbs.org/newshour/world/in-their-own-words-leaders-at-un-climate-talks-discuss-why-negotiations-ended-without-deal",
+   "d": "2026-11-23",
+   "w": "2026-11-23T06:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/it-raids-on-poultry-firm-sneha-group-at-16-locations-in-telangana-andhra-pradesh-2006521",
+   "d": "2026-11-23",
+   "w": "2026-11-23T06:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/karimnagar-medical-college-students-continue-protest-2006992",
+   "d": "2026-11-23",
+   "w": "2026-11-23T06:35"
+  },
+  {
+   "url": "https://newsonair.gov.in/sc-directs-andhra-pradesh-state-ec-to-withhold-final-candidate-list-for-urban-local-body-polls-until-oct-26/",
+   "d": "2026-11-23",
+   "w": "2026-11-23T06:35"
+  },
+  {
+   "url": "https://infonews.ca/news/7991657/india-strikes-twice-before-lunch-closes-on-victory-over-new-zealand-in-1st-cricket-test/",
+   "d": "2026-11-23",
+   "w": "2026-11-23T06:35"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/international/its-stunning-indias-diversity-fascinates-putin-1144836",
    "d": "2026-11-23",
    "w": "review"
   }
