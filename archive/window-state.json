@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T12:05:00+05:30",
+ "cutoff": "2026-11-23T12:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-20T19:05:00+05:30/2026-11-20T19:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 11,
-   "published": 11,
-   "late": 11,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 19:30 IST, 54/70 ok (failing: The Hindu, Telangana Today, NIE, NewsMeter, Indian Express, PIB, district Adilabad/Karimnagar-en/Nirmal/Vikarabad-en/Konaseema-en/Annamayya, 3 topic feeds), 656 TG/AP uncovered, lookback 11:05. Published 11: Andhra Prabha rice millers SC, NT ACB Quthbullapur ward officer (sensitive, no name), Siasat TGSPDCL summer plan, TT SSC exams likely Mar 17-18 (forecast), Siasat UoH casteist remarks protest (claim, sensitive), Vaartha Khelo India venues, NT Sarapaka sand curbs, Andhra Prabha Nitin Nabin Nizamabad Nov 23, DC AP horticulture loss, ETV/PTI Jeddah flights, Vaartha Sabarimala buses. Duplicates: Hindu RRR south land (covered 19 Nov), TT Ranigunj RUB (covered 18 Nov), Hindu Malakpet Indiramma towers (skipped earlier). Skipped: TV9 Inter merger bill (published 18 Nov, old). Not opened: Disha rice millers (4xx; used Andhra Prabha), Lokmat/The Hawk Eagle Force hydroponic cannabis (4xx). 8 district searches (Khammam, Kurnool, Nizamabad, Srikakulam, Nellore, Mancherial, Jagtial, Anantapur). add_repo not available; used existing clone. build_previews index/lang pages and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-20T19:35:00+05:30/2026-11-20T20:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 03:35 on 23 Nov. Feeds 11:47 IST (70/70 ok). 52 uncovered events first seen since 11:20 plus multi-source TG/AP backlog scanned. add_repo tool not available; used existing clone. 3 fetch agents, 18 events, 15 opened. Published 14: TT Singur below 2 TMC (11:35), TT Wyra Rs 1.5 crore loans complaint (11:42, claim, no names), Siasat Keesara ex-inspector bail refused (11:32, claim, no name), Vaartha TGSRTC AI cameras (11:27), Vaartha NFHS-6 C-section (11:23), DC Munugode youth's body arrives (11:22, sensitive, no names), ETV Golconda ropeway (11:32), BigTV Sneha Group I-T searches (10:54, claim), HMTV Mancherial helmets (08:33, late), AJ 758 sarpanches unopposed (03:55, late), Hans India Gandra paddy (03:49, late, claim), TV9 bank strike Dec 3 (11:26), Business Standard flash PMI 56 (10:40, late), NewsBytes/Reuters packaged water tests (11:31, claim). Duplicates: TT BRS stopped at KRMB, DC Sangareddy soybean fire, Siasat picnic swing death, Samayam two cyclones, Webdunia Tirupati conference. Skipped: ETV AP three railway lines (published 22 Nov 07:27, before lookback). Not opened (left unseen): Siasat Hyderabad man held in Russia, Disha Anantapur fake police, Eenadu Vizag student drowned (death not confirmed elsewhere). No district searches this run. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T12:05:00+05:30/2026-11-23T12:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 6,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 04:05 on 23 Nov. Feeds 12:15 IST (68/68 ok). 60 uncovered events first seen since 11:50 plus local backlog scanned. add_repo tool not available; used existing clone. 3 fetch agents, 9 URLs, 8 opened. Published 6: NewsMeter AIIA Tirupati (12:11), DC Nalgonda lorry fire (12:09), HMTV Anantapur mayor oath (11:57), Hans India polio 17.21 lakh (05:24, late), Siasat Bisleri says water safe (11:13, claim), Business Standard Nepal PM welcome (10:58). Duplicates: Disha BRS-KRMB Palnadu complaint, DC polio 95.55% (22 Nov 22:41, before lookback). Skipped: India TV Bisleri (fetch error). Not found in search (left unseen): Siasat Hyderabad congestion pricing, Samayam 24-yr deputy mayor, Disha Jalasoudha media curbs, NT Buggavagu grama sabha, HMTV Suryapet RDO football, HMTV Sangambanda leakage, NIE triple talaq, News18 Rs 30,000 subsidy fact-check, News18 Khammam Rs 1.5 crore job, HMTV Veldanda gambling. 12 district searches (Adilabad, Srikakulam, Nizamabad, Nellore, Karimnagar, Prakasam, Mahabubnagar, Guntur/Vijayawada…) gave no new eligible items. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7748,6 +7748,51 @@
    "url": "https://www.newsbytesapp.com/news/business/nationwide-testing-of-packaged-water-brands/story",
    "d": "2026-11-23",
    "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/regional/andhra-pradesh/andhra-urges-centre-to-set-up-aiia-in-tirupati-offers-350-cr-assistance-60-acre-land-779816",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/lorry-catches-fire-on-national-highway-in-nalgonda-2007064",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/anantapur/anantapur-municipal-corporation-mayor-ysrcp-ramesh-goud-oath-ceremony-216068",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/pulse-polio-drive-covers-956-of-target-kids-on-day-one-1144864",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/bisleri-says-packaged-water-is-safe-after-fssai-orders-prosecution-3584304/",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.business-standard.com/amp/external-affairs-defence-security/news/pm-modi-balen-shah-meeting-nepal-india-new-delhi-visit-agenda-energy-trade-126112300284_1.html",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/five-districts-record-9555-coverage-in-pulse-polio-drive-2006951",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.indiatvnews.com/news/india/bisleri-issues-clarification-after-sample-fails-safety-test-says-product-safe-for-consumption-latest-updates-2026-11-23-1060136",
+   "d": "2026-11-23",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.therightnews.in/2026/11/23/pm-modi-holds-bilateral-talks-with-nepal-pm-balendra-shah-in-new-delhi/",
+   "d": "2026-11-23",
+   "w": "duplicate"
   }
  ]
 }
