@@ -65,7 +65,7 @@ Old generic keys (c/…, n/…, cv/…, s/…) are no longer accepted for new st
 - hospital births, mothers → e/maternal-health-visit · vaccines → e/vaccination-clinic · polio/child vaccines → e/child-immunization-visit · hospital/OPD → e/hospital-outpatient-queue
 - job mela → e/job-fair-interviews · recruitment notice → e/recruitment-notification · investment/factory → e/industrial-production · exports → e/imports-and-exports
 - traffic jam/diversion → e/traffic-congestion · flyover/RUB → e/flyover-construction · trains → e/railway-station-departures · airport → e/airport-travel
-- lake → e/lake-pollution · tiger/forest → e/forest-conservation · animal rescue → e/wildlife-rescue · heritage/inscriptions → e/warangal-heritage-conservation
+- any HYDRAA story → the app shows HYDRAA's logo automatically (e/logo-hydraa) · lake → e/lake-pollution · tiger/forest → e/forest-conservation · animal rescue → e/wildlife-rescue · heritage/inscriptions → e/warangal-heritage-conservation
 - handloom/Pochampally → e/handloom-weaving · small shops/artisans → e/small-business-shop · women safety/harassment → e/women-safety-help-desk
 Foreign stories: w/<city> or n/<continent> (never an e/ picture with an Indian landmark). Temples: d/<district> or c/devotional. Gold/silver: e/gold-and-silver-prices.
 

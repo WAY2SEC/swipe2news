@@ -547,7 +547,11 @@ function artParty(s,a){
   if(/కూటమి|alliance|NDA\b|హత్య|murder|kill/i.test(tt)) return '';
   return 'e/party-'+hit[0];
 }
-function artPlan(s){ const a=artPlan1(s); const pk=artParty(s,a); return pk?{m:'land',bg:pk}:a; }
+/* owner 23 Nov 2026: HYDRAA stories show HYDRAA's own logo (sent by the owner); no "AI picture" label on logos */
+const ART_ORG=[['hydraa',/హైడ్రా(?!లిక్|క్సి|జన్|కార్బన్|ఫోన్)|\bHYDRAA?\b|Hydraa/i]];
+function artOrg(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[o.h,o.statl,(o.en&&o.en.h)||''].join(' ');
+  for(const [k,rx] of ART_ORG) if(rx.test(t)) return 'e/logo-'+k; return ''; }
+function artPlan(s){ const ok=artOrg(s); if(ok) return {m:'land',bg:ok}; const a=artPlan1(s); const pk=artParty(s,a); return pk?{m:'land',bg:pk}:a; }
 function artPlan1(s){ const a=artPlan0(s); if(!a) return a;
   if(a.m==='cat'){ const k=ART_NEW['c/'+a.cat]; if(k) return {m:'land',bg:k}; }
   else if(a.m==='plain'&&a.obj){ const k=ART_NEW['c/'+a.obj]; if(k) return {m:'land',bg:k}; }
