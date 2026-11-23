@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T09:05:00+05:30",
+ "cutoff": "2026-11-23T09:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-20T16:05:00+05:30/2026-11-20T16:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 3,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Feeds 16:20 IST, 65/68 ok, 711 TG/AP uncovered, lookback 08:05. Published 3: NT Suryapet tipper kills two teachers (sensitive, no names), Andhra Jyothy APMDC IPO by Dec 2027, DC Godavari pipeline to Hyderabad nears completion. Duplicates: Siasat gold prices (gold crash published 09:50), Asianet Cyclone Akvan weakens (Akvan crossing published), ap7am APMDC (same event). Skipped old: hyderabadnewshunt Chukka Ramaiah 100th birthday (2025 article), Careers360 JEE Main live blog (started 18 Nov), Hans Malakpet Indiramma towers (01:32). Not opened: Disha Bahuda flood Ichchapuram and Disha Suryapet (4xx), Hindu YSRCP fee dues, Hindu tiger Mylavaram, Hyderabad Mail Suryapet, ETV Kakinada knife attack, ap7am Chukka Ramaiah 101st (no search hit/not opened). District searches thin (tag pages only). add_repo not available; used existing clone. build_previews index/sitemap/lang pages reverted."
-  },
   {
    "window": "2026-11-20T16:35:00+05:30/2026-11-20T17:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 00:35 on 23 Nov. Feeds 08:59 IST (70/70 ok). 96 uncovered events first seen since 08:10 scanned; 31 sent to 4 search agents, 17 opened. add_repo tool not available; used existing clone. Published 14: DC NTR district 1,341 liquor bottles (08:12, sensitive, no names), AJ AP Cabinet 27 Nov hybrid (08:23), V6 Gadwal SBI office (08:11), NewsBytes Telugu TOMCOM 14,850 jobs (08:42), V6 student kits tenders (08:33), V6 road deaths 5,105 in 8 months (08:43), HMTV Devarkadra stubble advice (08:37), Siasat/PTI Nabin ATM charge (08:33, claim), HMTV Chityala ex-MLA stopped (08:53), V6 Medaram statehood activists (08:44, claim), V6 Krishnaiah Miyapur hostels (08:35, claim), V6 Kishan Reddy Nataka Niketan (08:41), V6 Desam Kosam book (08:25), Business Standard/PTI El Nino Himalaya outlook (08:12, forecast). Duplicates: ETV two more cyclones (published 22 Nov; no official forecaster named), i-ALERT TGSRTC (22 Nov), Amit Shah Hyderabad visit (21 Nov), SSC exams from March 18 (22 Nov). Skipped: HMTV Mancherial helmets (three on one scooter), DC Ramchander golden decade (00:25, before lookback). Not opened (left unseen for next run): NIE Pawan probe Jana Sena worker death, NIE Visakhapatnam-Tiruvannamalai train, NIE NDA rift Kadapa, NIE Odisha residents in AP polls, NIE Naidu unanimous polls, NIE BRS free rein Revanth, NIE ESIC rules, NTV TTD alert, NDTV Trump Iran deadline, ANI Lowy index, Hyderabad Mail dengue deaths, ETV Buddy band, Disha Nabin Karimnagar. No district searches this run. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T09:05:00+05:30/2026-11-23T09:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 1,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 4,
+   "review": 1,
+   "gaps": "Lookback from 01:05 on 23 Nov. Feeds 09:16 IST (68/68 ok). 38 uncovered events first seen since 08:50 plus TG/AP backlog since 05:00 checked; most new items not yet indexed by search. add_repo tool not available; used fresh clone. 5 fetch agents. Published 1: Andhra Jyothy Godavarikhani Singareni worker killed (06:25, sensitive, no names). Duplicates: Srisailam Karthika rush, AP sarpanch phase 1, TN Tiruchi crash, Nepal PM visit (already published). Skipped: IndToday ED rice millers (09:22, thin, no named source), Huang/Trump Nvidia (17 Nov, before lookback), Asianet AP/TG rain (old May article), Secunderabad card den (only in AJ live blog already used). Review: Lowy Asia Power Index India 3rd (no publication time; launch 26 Nov). Not opened (left unseen): AJ ED rice millers, Disha soya fire, Disha Medchal jail Ayurveda, Samayam gold man IT attach, ANI Chamala, NIE 429 AI signals, TOI Sneha Group I-T, Medical Buyer NHRC hospitals, NIE quacks Kamareddy, V6 Tadoba tiger, Hyderabad Mail dengue, V6 Kondagattu, NIE Ayush NTR Vaidya Seva, NIE Kotia tribals, HMTV Vemulawada, Delta glitch. District searches (extended): Sangareddy, Medak, Vikarabad, Kakinada, Rajahmundry, Eluru, Bhupalpally, Mulugu, Jangaon, Mahabubabad, Nandyal, Prakasam, Bapatla, Kamareddy, Sircilla, Jagtial, Peddapalli - nothing fresh. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7333,6 +7333,31 @@
    "url": "https://www.deccanchronicle.com/southern-states/telangana/bjp-to-spotlight-modi-governments-economic-record-ahead-of-two-graduates-mlc-polls-2006989",
    "d": "2026-11-23",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/karimnagar/godavarikhani-singareni-worker-was-attacked-death-1579004.html",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://indtoday.com/telangana-rice-millers-ed-files-more-cases/",
+   "d": "2026-11-23",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.pcgamer.com/software/ai/trump-supports-jensen-huangs-return-as-nvidia-ceo-but-it-doesnt-sound-like-the-board-is-interested/",
+   "d": "2026-11-23",
+   "w": "skip"
+  },
+  {
+   "url": "https://newsable.asianetnews.com/gallery/india/andhra-pradesh-telangana-weather-latest-update-bay-of-bengal-trough-rain-across-parts-telugu-states-zeb1ksg",
+   "d": "2026-11-23",
+   "w": "skip"
+  },
+  {
+   "url": "https://power.lowyinstitute.org/countries/india",
+   "d": "2026-11-23",
+   "w": "review"
   }
  ]
 }
