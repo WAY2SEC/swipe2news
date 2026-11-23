@@ -1,21 +1,21 @@
 # Swipe2News story check
 
 ## news.json: 117 stories · 0 to fix · 30 to look at · 0 fixed automatically
-- CHECK: #1 "ఏపీలో 3,191 సర్పంచ్ పదవులకు 26న పోలింగ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #3 "ఖాజీపేట మిడుతూరులో నామినేషన్ల ఘర్షణ": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #4 "విశాఖ మేయర్ శ్రావణి ప్రమాణం వాయిదా": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #7 "కొత్తగూడెంలో అగ్రిగోల్డ్ బాండ్ల తనిఖీ": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #14 "హైదరాబాద్‌లో రోడ్స్ కాంగ్రెస్ ముగిసింది": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #29 "హైదరాబాద్‌లో 447 డ్రంక్ డ్రైవ్ కేసులు": picture line is long (44 letters) – keep stat + statl short so it fits one line
-- CHECK: #30 "ఓటర్ల జాబితా సవరణపై ప్రశాంత్ భూషణ్ విమర్": headline is 43 characters – may not fit one line (keep ≤ 38)
-- CHECK: #30 "ఓటర్ల జాబితా సవరణపై ప్రశాంత్ భూషణ్ విమర్": picture line is long (42 letters) – keep stat + statl short so it fits one line
-- CHECK: #31 "విశాఖ మోసం కేసులో ఆరుగురు అరెస్ట్": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #32 "బిస్లరీపై కేసుకు ఎఫ్‌ఎస్‌ఎస్‌ఏఐ అనుమతి": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #45 "డ్రోన్ గన్ ప్రకటనకు ₹10 లక్షల జరిమానా": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #49 "తిరుచానూరు బ్రహ్మోత్సవాలకు ఏర్పాట్లు": picture line is long (38 letters) – keep stat + statl short so it fits one line
-- CHECK: #50 "రామగిరి ఖిల్లా అభివృద్ధికి ఎంపీ హామీ": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #51 "సీఎం కాన్వాయ్‌కు అడ్డొచ్చిన ఎద్దు": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #58 "భారీ కరెంటు వాడకానికి రెండు కనెక్షన్లు": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #7 "దేవనకొండ విద్యార్థి రాష్ట్ర క్రికెట్‌కు ": headline is 45 characters – may not fit one line (keep ≤ 38)
+- CHECK: #8 "ఏపీలో 3,191 సర్పంచ్ పదవులకు 26న పోలింగ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #10 "ఖాజీపేట మిడుతూరులో నామినేషన్ల ఘర్షణ": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #11 "విశాఖ మేయర్ శ్రావణి ప్రమాణం వాయిదా": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #14 "కొత్తగూడెంలో అగ్రిగోల్డ్ బాండ్ల తనిఖీ": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #21 "హైదరాబాద్‌లో రోడ్స్ కాంగ్రెస్ ముగిసింది": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #36 "హైదరాబాద్‌లో 447 డ్రంక్ డ్రైవ్ కేసులు": picture line is long (44 letters) – keep stat + statl short so it fits one line
+- CHECK: #37 "ఓటర్ల జాబితా సవరణపై ప్రశాంత్ భూషణ్ విమర్": headline is 43 characters – may not fit one line (keep ≤ 38)
+- CHECK: #37 "ఓటర్ల జాబితా సవరణపై ప్రశాంత్ భూషణ్ విమర్": picture line is long (42 letters) – keep stat + statl short so it fits one line
+- CHECK: #38 "విశాఖ మోసం కేసులో ఆరుగురు అరెస్ట్": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #39 "బిస్లరీపై కేసుకు ఎఫ్‌ఎస్‌ఎస్‌ఏఐ అనుమతి": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #52 "డ్రోన్ గన్ ప్రకటనకు ₹10 లక్షల జరిమానా": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #56 "తిరుచానూరు బ్రహ్మోత్సవాలకు ఏర్పాట్లు": picture line is long (38 letters) – keep stat + statl short so it fits one line
+- CHECK: #57 "రామగిరి ఖిల్లా అభివృద్ధికి ఎంపీ హామీ": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #58 "సీఎం కాన్వాయ్‌కు అడ్డొచ్చిన ఎద్దు": picture line is long (35 letters) – keep stat + statl short so it fits one line
 - CHECK: #64 "వరంగల్‌లో అగ్ని భద్రత తనిఖీలు": hard words for readers – say it simply: ఆకస్మిక → హఠాత్తుగా
 - CHECK: #67 "మల్కాజిగిరి ఆర్‌యూబీపై అభ్యంతరం": picture line is long (39 letters) – keep stat + statl short so it fits one line
 - CHECK: #68 "తెలంగాణ సరుకుల ఎగుమతుల్లో 68% వృద్ధి": picture line is long (37 letters) – keep stat + statl short so it fits one line
@@ -31,11 +31,9 @@
 - CHECK: #108 "పాత పింఛన్ సెలవుపై సర్కారు హెచ్చరిక": picture line has a tail ("విధులకు దూరం: సంఘాలు") – write one natural phrase
 - CHECK: #116 "ఏపీలో నవజాత శిశు సంరక్షణ వారోత్సవాలు": picture line is long (42 letters) – keep stat + statl short so it fits one line
 - CHECK: #117 "కర్లపాలెం నగల చోరీ: నలుగురు అరెస్ట్": picture line is long (37 letters) – keep stat + statl short so it fits one line
-
-### Pictures needed (create in your image tool, send to Claude)
-- **Industry & Factories** – 3 story(ies), e.g. "నాచారంలో 60 కిలోల గంజాయి పట్టుకున్నారు". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
-## archive/2026-11-23.json: 12 stories · 0 to fix · 4 to look at · 0 fixed automatically
-- CHECK: #1 "ఏపీలో 3,191 సర్పంచ్ పదవులకు 26న పోలింగ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #3 "ఖాజీపేట మిడుతూరులో నామినేషన్ల ఘర్షణ": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #4 "విశాఖ మేయర్ శ్రావణి ప్రమాణం వాయిదా": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #7 "కొత్తగూడెంలో అగ్రిగోల్డ్ బాండ్ల తనిఖీ": picture line is long (39 letters) – keep stat + statl short so it fits one line
+## archive/2026-11-23.json: 19 stories · 0 to fix · 5 to look at · 0 fixed automatically
+- CHECK: #7 "దేవనకొండ విద్యార్థి రాష్ట్ర క్రికెట్‌కు ": headline is 45 characters – may not fit one line (keep ≤ 38)
+- CHECK: #8 "ఏపీలో 3,191 సర్పంచ్ పదవులకు 26న పోలింగ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #10 "ఖాజీపేట మిడుతూరులో నామినేషన్ల ఘర్షణ": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #11 "విశాఖ మేయర్ శ్రావణి ప్రమాణం వాయిదా": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #14 "కొత్తగూడెంలో అగ్రిగోల్డ్ బాండ్ల తనిఖీ": picture line is long (39 letters) – keep stat + statl short so it fits one line
