@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T14:35:00+05:30",
+ "cutoff": "2026-11-23T15:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-20T21:35:00+05:30/2026-11-20T22:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 6,
-   "late": 4,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Feeds 21:42 IST, 69/70 ok (failing: Sakshi, HTTP 429), 815 TG/AP uncovered, lookback 13:35. Published 6: Telangana Today Adilabad crypto fraud arrests (sensitive, no names), Telangana Today KTR on OBC caste census (claim), Telangana Today TBGKS Singareni yatra (claim), Telangana Today Chintakani python rescue, Siasat police T20 final, HMTV Srisailam Koti Deepotsavam. Duplicate: Telangana Today HMWSSB 24-hour cut (Suraram, already published 20:05). Skipped as old: Telangana Today Ranigunj RuB restrictions (18 Nov). Not opened (WebSearch did not surface today's article): Bhadrachalam lodge arrests, Kurnool centring sheets theft, HC exam results date, APSRTC outsourced staff, Sathya Sai Sevadal conference, Telangana merchandise exports, Revanth on delimitation, Kakinada green hydrogen, Rythu Bheema expiry, TIME100 Next. No district searches (feed list used). add_repo not available; used existing clone. build_previews index/lang pages and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-20T22:05:00+05:30/2026-11-20T22:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 06:05 on 23 Nov. Feeds 14:33 IST (70/70 ok); 162 uncovered events first seen since 13:35 scanned. add_repo tool not available; used existing clone. 4 fetch agents, 21 items, 11 published: NT Adilabad Prajavani farmer suicide attempt (14:09, sensitive, no name/method), Siasat Munugode youth killed in US body home (14:00, sensitive, no name), HMTV Dhone chairperson oath (14:07), ETV Pithapuram/Uyyuru/Dharmavaram vice-chair poll tension (14:16, sensitive, claim), ETV Annavaram giri pradakshina Nov 24 (14:11), NT PJTAU professor hunger strike vs VC (14:11, claim, no names), ETV MoES radars for Telugu states (13:52), DC Hyderabad anti-drug walk Nov 25-27 (14:30), TT NMC FMG draft rules (14:15), Hans Modi-Shah flag off Saryu-Kamala Express (14:18), Hans Delta outage 2,000 flights (14:12). Duplicates (already on app): Samayam Nandyal post to TDP, Vaartha TIMS surgeries, Siasat NH65 lorry fire, TT/TV9 Adilabad money-doubling. Skipped: Siasat Nagarkurnool bonded labour (published 19 Nov, TOI version not found); ETV rare-earth opinion piece (analysis, not news). Not opened/not found (left unseen): HMTV Gudur vice-chair poll postponed (server error), V6 Attapur demolition (server error), ANI Bhumana Anjaneya temple (fetch failed), Medical Dialogues TGMC 4 clinics, Disha/AJ DGP appeal to Ganapathy, The Hindu threat-email VPN, NDTV Rs 15,000 cr package/8 pacts figures, stock market Black Monday, TOI JWALA MK-1. No district searches this run. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 25,
+   "published": 21,
+   "late": 0,
+   "sensitive": 3,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 3,
+   "review": 1,
+   "gaps": "Lookback from 06:35 on 23 Nov. Feeds 14:51 IST (69/70 ok; Prajasakti failing). 111 uncovered events first seen since 14:05 scanned. add_repo tool not available; used existing clone. 4 fetch agents, 31 items, 21 published: TT free cancer medicines racket 6 states (14:45, sensitive, police, no names), TT retired police corporate jobs (14:32), Siasat BJP chief on Rahul-PM remark (14:12, claim), LiveLawBiz TG RERA Phoenix order (14:46), NT Nalgonda life term loan murder (14:38, sensitive, no names), HMTV Kodad Bollam Sagar water (14:32, claim), HMTV Medak 2BHK complaint (14:24, claim), HMTV Vemulawada paddy centre (14:10), HMTV Sarapaka insurance drum campaign (14:21), HMTV Khammam Deeksha Divas Nov 29 (14:15, claim), NewsBytes Lokesh maritime (14:16), Sakshi Bhumana temple demolition (14:19, claim), DC YSRCP Chittoor queue count (14:38, claim), BIG TV Botsa power cut (14:41, claim), NTV Balakrishna Hindupur council (14:29), ETV Araku instant coffee (14:05), ETV Nellore gurukulam students Parliament (14:42, no names), BS India-Nepal 8 MoUs (14:17), Medical Dialogues HPV 1 crore doses (12:00), Tribune/ANI S&P India 7% (14:12, forecast), Reuters via Yahoo Hasina arrest warning (14:37). Duplicate: Hyderabad threat email (Hans; The Hindu VPN version not found). Skipped: Karimnagar BJP padayatra (only pre-event previews 03:33), stock market fall (NewsX, no index figures), Starlink/ISpA (India cap of 3). Review (pub time not found): DT Next/PTI Bangladesh HC under-16 social media. Not opened (left unseen): Disha Bodu anganwadi inspection, Disha substandard provisions, Disha Annojiguda Mirkan Kunta HYDRAA (site refuses fetch), Hyderabad Mail weather, News18 Telugu airport (not found). No district searches this run. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8023,6 +8023,131 @@
    "url": "https://www.hmtvlive.com/telugu-news/adilabad/farmer-attempts-suicide-by-drinking-pesticide-at-adilabad-prajavani-216130",
    "d": "2026-11-23",
    "w": "2026-11-23T14:35"
+  },
+  {
+   "url": "https://telanganatoday.com/free-cancer-medicines-allegedly-sold-at-high-prices-over-15000-patients-cheated-across-six-states-including-telangana-andhra",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://telanganatoday.com/retired-police-officials-find-corporate-jobs-cf8d8ae0",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-bjp-chief-dismisses-claims-of-rahul-gandhi-becoming-pm-3584366/",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.livelawbiz.com/rera/construction-development-agreements-alone-do-not-trigger-rera-registration-telangana-rera-559600",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.ntnews.com/nalgonda/man-sentenced-to-life-imprisonment-in-murder-case-2567118",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/nalgonda-suryapet/curb-water-plunder-grant-pensions-to-all-eligible-bollam-mallaiah-216145",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/medak-sangareddy/former-mla-padma-devender-reddy-demands-fair-2bhk-allocation-in-medak-216139",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/paddy-procurement-centre-launched-under-pacs-with-support-of-adi-srinivas-216129",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/khammam/sarapaka-sarpanch-deputy-beat-traditional-drums-to-explain-insurance-216138",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/khammam/puvvada-slams-congress-over-srikantachary-deeksha-divas-216133",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://telugu.newsbytesapp.com/news/india/andhra-pradesh-to-become-a-major-maritime-and-industrial-hub-lokesh/story",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/politics/pawan-kalyan-sanatan-dharma-temple-demolition-2968083",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/2024-polls-ec-must-answer-andhra-voters-numerical-aberration-says-ysrc-2007111",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.bigtvlive.com/andhra-pradesh/botsa-satyanarayana-slams-coalition-government-ysrcp-public-meeting-in-cheepurupalli.html",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://ntvtelugu.com/andhra-pradesh-news/sri-satyasai-district/balakrishna-urges-hindupur-council-members-to-focus-on-development-1038084.html",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/gcc-araku-coffee-premium-quality-product-launch-soon-aps26112301914",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/student-selected-for-know-your-leader-from-district-sri-potti-sriramulu-nellore-aps26112302874",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.business-standard.com/external-affairs-defence-security/news/india-nepal-sign-8-mous-advance-six-projects-to-deepen-bilateral-ties-126112300546_1.html",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://health.medicaldialogues.in/latest-news/pm-modi-lauds-india-for-crossing-1-crore-hpv-vaccine-doses-calls-it-milestone-in-preventive-healthcare-183788",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.tribuneindia.com/news/asia-pacific-forecast/india-vietnam-to-lead-asia-pacific-growth-in-2027-china-slowdown-to-weigh-on-regional-outlook-sp-global",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.yahoo.com/news/politics/articles/bangladesh-vows-arrest-hasina-she-090759089.html",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/hyderabad-police-tighten-security-after-email-threatens-2611-style-terror-attack-1144925",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.newsx.com/business/sensex-nifty-crash-as-investors-lose-rs-533-lakh-crore-in-a-single-session-why-is-the-stock-market-falling-today-294429/",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.tribuneindia.com/news/india-space-market/satellite-internet-rollout-in-india-nearing-next-phase-starlink-awaits-spectrum-allocation-jio-eyes-2029-constellation-ispa",
+   "d": "2026-11-23",
+   "w": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30"
+  },
+  {
+   "url": "https://www.dtnext.in/news/world/bangladeshi-court-orders-interim-curbs-on-social-media-access-for-children-under-16",
+   "d": "2026-11-23",
+   "w": "review"
   }
  ]
 }
