@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T22:05:00+05:30",
+ "cutoff": "2026-11-23T22:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-21T10:05:00+05:30/2026-11-21T10:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 7,
-   "late": 5,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Lookback from 02:05. Feeds 10:21 IST, 68/68 ok, 731 TG/AP flagged uncovered but most top events already published 20-21 Nov under other URLs (rice millers SC, 2,000 home guards, Rekha Naik ED, Raj Reddy bail, Suryapet tipper, APMDC IPO, iBreast, Avinash Reddy convoy, Trump-Xi-Putin, Anthropic IPO). add_repo not available; used existing clone. Published 7: thermal output cut 2,090 MW (Namasthe Telangana), NH signboard village-name errors (Andhra Jyothy), Uppal bike crash 2 dead (Telangana Today), Bank of America Hyderabad lease (Siasat), KTR RBI panchayat funds (TT, claim), Gorrekunta fish waste column (TT, opinion), NIA seeks UAE help on Flydubai attack (Siasat/PTI). Not opened (no search match): NIE HWO list HC relief, Hari Hara Kala Bhavan renovation, AP vehicle registrations October. Lang pages and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-21T10:35:00+05:30/2026-11-21T11:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 13:35. Feeds 21:59 IST (70/70 ok). 140 uncovered events first seen since 21:00 scanned (42 local). add_repo tool not available; used existing clone. Published: Siasat Karimnagar GMC bans protests, TT Godavarikhani 4 arrested (police, fact, sensitive, no names), DC Naini mine 1 MT coal, Siasat wife's letter to CM on husband in Italy (claim, sensitive, no names), DC AP rural roads 46% unpaved, DC RBI trusted person/stop switch draft, Tribune/ANI sugar imports (forecast, late-found 16:52). Duplicates (already published today): TT wife arrested Sangareddy, Hindu ACB NIMS, Hindu BRS-KRMB, Hindu Himayatsagar killing, Hindu Adilabad Prajavani farmer, Hindu/News18 Pithapuram, TT KRMB deferred, HMTV Khammam AgriGold, India-Nepal package. Skipped (old): LiveLaw HC Rs 2 lakh encounter compensation (17 Nov; Hindu 21:51 copy not found by search), Yahoo/Ukrainska Pravda NATO Russia space (Apr 2025; Guardian not found). Search did not return: Hindu 4,100 children Cyberabad, Hindu Miyapur racket, TT BRS slum tap connections, TT Revanth Krishna water, Mana Telangana Germany jobs, DC AICC Raj Gopal Reddy, DC rural development works Dec 1, DC Amalapuram planned city, HMTV Nagarkurnool sarees Nov 26, HMTV Mancherial Prajavani - left unseen for next run. No separate district searches this run. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T22:05:00+05:30/2026-11-23T22:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 2,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 14:05. Feeds 22:13 IST (70/70 ok). ~45 uncovered events first seen since 21:50 scanned (~26 local, many Suryaa West Godavari minor/entertainment items). add_repo tool not available; used existing clone. Published: DC Kadiyam Kavya challenges KTR (claim), UNI Prisons DG Swati Lakra inspects Chanchalguda (fact, late-found 18:23). Duplicates: DC Revanth MCR HRD press meet on Krishna water (published 18:35 via V6; TT/TV9/Hindu copies same event), Siasat ED widens CMR rice probe (same as 10:05 AJ 'ED files more cases'). Skipped as before: Hindu HC Rs 2 lakh encounter compensation (17 Nov ruling), Hindu Godavarikhani (published 22:05). Search did not return: Hindu PJTSAU new degree courses/Rythu Bharosa yatras, DC Indo-French team Vizag fishing harbour, DC Vizag stray cattle, DC AICC Raj Gopal Reddy, Hyderabad Mail T-Works Taiwan fair, TOI Indonesia ship seizure - left unseen. No separate district searches this run. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -9098,6 +9098,26 @@
    "url": "https://www.yahoo.com/news/nato-concerned-russia-may-deploy-100606849.html",
    "d": "2026-11-23",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/kadiyam-kavya-asks-ktr-to-first-answer-sister-kavithas-questions-2007252",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/security-telangana-chanchalguda-central-prison-dg/254745",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/live-cm-revanth-reddy-addresses-media-at-mcr-hrd-hyderabad-2007189",
+   "d": "2026-11-23",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-ed-widens-probe-into-custom-milled-rice-scam-3585107/",
+   "d": "2026-11-23",
+   "w": "duplicate"
   }
  ]
 }
