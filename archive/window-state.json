@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T16:05:00+05:30",
+ "cutoff": "2026-11-23T16:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-20T23:05:00+05:30/2026-11-20T23:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 3,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 5,
-   "review": 0,
-   "gaps": "Feeds 23:16 IST, 67/68 ok, 737 TG/AP uncovered, lookback 15:05. Published 3: Deccan Chronicle Naidu year-long price control plan, Telangana Today Rythu Bheema lapse (claim), The Week Modi opens SCO Civilisational Dialogue. Skipped as old: DC AP semiconductor 80% (18 Nov), DC Inter-school education merger (17 Nov), DC Naidu meets Sitharaman (17 Nov), Gulf News Saudi coalition op (1 Nov), Hans/Siasat listings stale. Not opened (search did not surface today's article): Hindu 12th PRC representations, Hindu RRR 4,962 acres, Hindu TG merchandise exports, Hindu Bhadrachalam lodge arrests, Upasana Pithapuram anganwadi, TV9 Inter board merger, Godavari Pushkaralu logo contest, Jawaharnagar dump yard protest, Tirupati ZP chief Hemalatha, ASI Tirumala, Naidu Rs 96.33 cr horticulture aid, TIME100 Next India. add_repo not available; used existing clone. build_previews index/lang pages and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-20T23:35:00+05:30/2026-11-21T05:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Lookback from 07:35. Feeds 15:56 IST (69/70 ok; district:Visakhapatnam failing). 118 uncovered events first seen since 15:10 scanned (35 local). add_repo tool not available; used existing clone. 5 fetch agents. Sensitive: Wyra chilli theft (claim, no name), Kurnool flex row (claim), ED Royal Twinkle (ED named, no accused names). Skipped: Siasat HITEX La La Land flea (entertainment listing), AJ soldiers conduct wedding (Rajasthan, other state), Sakshi AP polling-day holiday order (published 18 Nov, older than lookback), Sakshi Byreddy speech (video only, no text). India cap of 3: Siasat gold imports down 40% and TT AI startup funding left unseen for next run. Not opened/not found (left unseen): The Hindu Guntur mayor (10TV used instead), ETV Rajamahendravaram court 222 years (only Eenadu), News18 Telugu Telangana district national ranking, News18 Telugu Bay of Bengal weather, INDToday Bhatti, Suryaa East Godavari items, Disha items (site refuses fetch), Andhra Prabha Kurnool mayor Vijaya Pratyusha (time unverified, not fetched), V6 CM Achampet visit Nov 26 (time unverified). District searches: Sircilla, Nizamabad, Mahabubnagar, Mulugu, Yadadri, ASR, West Godavari, Krishna, Kurnool, Manyam (found: Kurnool x3, West Godavari, Yadadri). lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T16:05:00+05:30/2026-11-23T16:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 16,
+   "published": 10,
+   "late": 0,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 2,
+   "review": 1,
+   "gaps": "Lookback from 08:05. Feeds 16:18 IST (68/68 ok). add_repo tool not available; used existing clone. 4 fetch agents. WebFetch blocked (permission timeout) for thehindu.com, siasat.com, telanganatoday.com this run: Hindu crop-loan 12-month moratorium, Hindu Hyderabad bomb-threat email VPN, Siasat MHA WhatsApp Web advisory, Siasat gold imports -40%, TT Future City police school programme left unseen for next run. Not found: TOI smart helmet girls, ET Education UNICEF AP midday meal tests. Review: Hyderabad Mail ACB director Chandrasekhar Reddy takes charge (posting order 12 Nov; charge date unverified). Skipped: ETV poultry El Nino (opinion piece, same topic as 07:05 poultry feed story), ETV Vizag digital-arrest gang (event first reported 22 Nov). Duplicates not re-published: Krishna board TG counter, Nabin padayatra, congestion charge, Pithapuram/Uyyuru, RTC AI cameras, Cyberabad Moves, Golconda ropeway. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8378,6 +8378,71 @@
    "url": "https://www.sakshi.com/video/news-videos/byreddy-siddharth-reddy-goosebumps-speech-2968095",
    "d": "2026-11-23",
    "w": "skipped"
+  },
+  {
+   "url": "https://ntvtelugu.com/telangana-news/telangana-global-summit-revanth-reddy-1038118.html",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.ntnews.com/adilabad/protest-on-national-highway-demanding-declaration-of-talamadugu-mandal-as-a-drought-affected-area-2567208",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://aadabhyderabad.in/kamareddy-farmers-protest-paddy-delay/",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.ntnews.com/hyderabad/police-raided-a-gambling-den-in-lalaguda-and-arrested-25-people-2567085",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/rajanna-sircilla-students-smart-glove-selected-for-national-science-expo-216149",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/huge-devotee-rush-at-bhimeshwara-temple-27897-darshans-by-1025-am-216085",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://tv9telugu.com/telangana/hyderabad-gold-man-yadagiri-chinna-goud-benami-property-attached-1964884.html",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/kadapa/kadapa-proddatur-municipal-vice-chairman-tdp-bc-leader-challa-rajagopal-216067",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://prabhanews.com/vijaya-pratyusha-elected-as-kurnool-mayor/",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/el-nino-drought-and-floods-hit-ap-farmers-and-threatens-rabi-crops-aps26112300934",
+   "d": "2026-11-23",
+   "w": "p"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/opinion/el-ninos-impact-on-the-poultry-sector-an-allied-agricultural-industry-tgn26112303004",
+   "d": "2026-11-23",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/vizag-cyber-crime-police-bust-digital-arrest-scam-arrest-six-in-bengaluru-aps26112302029",
+   "d": "2026-11-23",
+   "w": "skip"
+  },
+  {
+   "url": "https://indianmasterminds.com/news/telangana-government-transfers-21-ips-officers-mahesh-bhagwat-hyderabad-police-commissioner-249903/",
+   "d": "2026-11-23",
+   "w": "review"
   }
  ]
 }
