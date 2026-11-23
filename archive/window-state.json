@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-23T13:35:00+05:30",
+ "cutoff": "2026-11-23T14:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-20T20:35:00+05:30/2026-11-20T21:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 6,
-   "late": 2,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "Feeds 20:46 IST, 68/70 ok (failing: Sakshi, NTV Telugu, HTTP 429), 809 TG/AP uncovered, lookback 12:35. Published 6: Telangana Today Guru Nanak Jayanti traffic advisory, Telangana Today Khammam gang posts cases (sensitive, no names), Telangana Today Mancherial millers CMR conditions (claim), HMTV Ramagundam 112 convicted, Sahyadri Startups Tracxn Telangana tech funding, Deccan Chronicle Cyclone Akvan weakens (other state, sensitive). Skipped as outside lookback: Andhra Prabha RRR south 4,962 acres (19 Nov), ETV Bharat inter merger draft (09:17), Hans India Malakpet Indiramma towers (01:32), Deccan Chronicle Cyberabad Moves poster (19 Nov). Not opened: direct feed URLs refused by fetch (Hindu burial grounds, Jagan ports, Sathya Sai Sevadal, TIME100 Next, Nellore ZP, India-Italy, Malakpet; Telangana Today Harish Rao, Rekha Naik ED), ANI Jagan Ramayapatnam (4xx). No district searches (feed list used). add_repo not available; used existing clone. build_previews index/lang pages and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-20T21:05:00+05:30/2026-11-20T21:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Lookback from 05:05 on 23 Nov. Feeds 13:16 IST (67/68 ok); 86 uncovered events first seen since 12:40 scanned. add_repo tool not available; used existing clone. Published 1: Siasat Naspur shopkeeper detained after 8-yr-old girl's complaint (13:32, sensitive, claim, no names). Duplicates (already on app): Godavarikhani SCCL worker murder, Lowy Asia Power Index, India-NZ Test draw, CV Anand Maoist rehab, COP31 no deal, Kancharla stopped at Chityal, SI hall tickets, Hyderabad threat email, Kamareddy car-tractor crash, AIIA Tirupati. Not opened: Prabha News RRR-South 4,962 acres (fetch server error); not found in search: TOI Telangana dengue 47 vs 0, Samayam Jayesh Ranjan VRS, Telugu360 Lokesh ASEAN pitch, Andhraprabha Kurnool flexi row, Hyderabad Mail BRS/Congress 2028, Hans Panchalingala sarpanch race, HMTV Toguta CMRF cheques, HMTV Khammam Vidyanagar, Sakshi Mahabubabad. ETV TG/AP live blogs had no entries after 08:01. 8 district searches (Nalgonda, Warangal, Khammam, Kadapa, Srikakulam, Medak, Kakinada, Adilabad) gave no new eligible items. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-23T13:35:00+05:30/2026-11-23T14:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 10,
+   "late": 0,
+   "sensitive": 3,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 05:35 on 23 Nov. Feeds 13:42 IST (69/70 ok; district:Palnadu:en HTTP 429). 90 uncovered events first seen since 13:05 scanned. add_repo tool not available; used existing clone. 3 fetch agents, 22 items, 10 opened and published: DC Ichoda money-doubling gang 5 held (13:24, sensitive, police), DC Amit Shah Nov 24 visit cancelled (13:24), TT Shaikpet woman threat calls over loan (13:16, sensitive, claim), HMTV Mydukur chairman oath (13:26), AJ Nandyal vice-chairman to TDP (13:28), DC Ongole 24-yr deputy mayor (13:36), ETV 13 AP corporations oath (13:14), SolarQuarter APTRANSCO 1,000 MW BESS bids (13:23), ETV Cyberabad Moves 26-28 Nov (13:18), NTV Pithapuram Jana Sena rift (13:12, sensitive, claim). Duplicates (feed, already on app): Kerala CM Puttaparthi, SI hall tickets, Tata Steel-APL Apollo, BRS-KRMB. Skipped: Prabha News RRR-South 4,962 acres (published 19 Nov, before lookback). Not found in search (left unseen): ET Education UNICEF midday meals 6%, TOI dengue 47 vs 0, TOI/Siasat congestion pricing, DC NCERT blurred text, Samayam Puri fuel 7%, Siasat PV retail sales, NDTV Ganga treaty, Reuters Armenia constitution, DC OpenAI scientist, Disha Nandyal borewells. No district searches this run. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7898,6 +7898,61 @@
    "url": "https://www.ntnews.com/telangana/kancherla-bhupal-reddy-stopped-by-police-at-chityal-2567019",
    "d": "2026-11-23",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/adilabad-police-bust-money-doubling-fraud-gang-5-held-2007088",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/amit-shahs-visit-to-hyderabad-on-november-24-cancelled-2007087",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/woman-harassed-over-loan-repayment-in-hyderabad-a5e73640",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/kadapa/kadapa-mydukur-municipality-new-chairman-dhanapala-jagan-vice-chairman-216106",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/kurnool/uppari-subrahmanyam-nandyal-municipal-vice-chairman-suchi-1579048.html",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/tdp-chavali-charpita-becomes-youngest-deputy-mayor-of-ongole-municipal-corporation-2007092",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/swearing-on-13-municipal-corporations-in-ap-aps26112302258",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://solarquarter.com/2026/11/23/aptransco-invites-bids-for-1000-mw-4000-mwh-standalone-battery-storage-projects-in-andhra-pradesh/",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://www.etvbharat.com/te/state/the-cyberabad-moves-2026-initiative-gathering-public-suggestions-and-local-transit-ideas-on-traffic-issues-tgs26112301061",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://ntvtelugu.com/andhra-pradesh-news/kakinada/pithapuram-vice-chairman-election-turns-chaotic-janasena-dispute-1038068.html",
+   "d": "2026-11-23",
+   "w": "published"
+  },
+  {
+   "url": "https://prabhanews.com/4962-acres-for-the-southern-rrr/",
+   "d": "2026-11-23",
+   "w": "skipped"
   }
  ]
 }
