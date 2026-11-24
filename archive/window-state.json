@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-24T06:35:00+05:30",
+ "cutoff": "2026-11-24T07:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-21T12:35:00+05:30/2026-11-21T13:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 4,
-   "late": 2,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Lookback from 04:35. Feeds 12:41 IST, 70/70 ok, 765 TG/AP flagged uncovered (most already published under other URLs). add_repo not available; used existing clone. Published 4: TG SAFE suspends 4 Hyderabad eatery licences (Siasat; TT/DC merged), Cyberabad Municipal Corporation twin-tower office Rs 169 cr (ETV Bharat), egg racket case at Malakpet PS (Siasat, police), Chagal elderly couple die hours apart (Deccan Chronicle). Duplicates: Siasat Hyderabad CP Old City drugs (= 11:05 CP story), TOI Telangana man dies in New York crash (= 11:05 Nalgonda youth), TT gram panchayat finances (= 10:35 KTR RBI report), South First/DC Prakasam crash (= 08:05). Old: Tribune UGC 32 fake universities (Feb 2026), UNI Montek at CII (20 Nov 21:15, before lookback). Skipped: Raja Singh gun remark (inflammatory), Hayathnagar suicide. Not opened: The Hindu Montek / GMC Karimnagar (no search match), India-NZ day 3 stumps (France24 robots, NewsDrum/DH errors), Disha Kasu Mahesh Reddy house arrest (client error), Disha Nandipet demolitions and Manchippa tiger, Prime9 IT minister OSD fraud, AJ Chandrababu fisheries day, Court Book HC divorce (no search match). Direct feed URLs are refused by WebFetch unless they first appear in a WebSearch result. news.json holds 115 stories (check_news reports a trim to 60 but the file stays at 115). Lang pages, index.html and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-21T13:05:00+05:30/2026-11-21T13:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 0,
    "gaps": "Lookback from 21:35 (23 Nov). Feeds 06:04 IST (63/70 ok; failing TV9 Telugu, V6, 10TV, Vaartha, district Hyderabad-en/Medak/Vizianagaram). 06:05 sister run had not saved state, so window covers 05:35-06:35. 75 uncovered events first seen since 05:00 (22 local, many Eenadu-only). add_repo tool not available; used existing clone. Published: Hans AP phase-3 panchayat nominations (fact), Hans Kadiyam quit-politics challenge (claim), Hans YSRCP Save Visakhapatnam (claim), Hans Parakala Vetapalem library (fact). Skipped as old: Herald Baengnyeong aircraft (Sep 2026), Maritime Executive SCI tender (Aug 2026), AJ Siddipet flexis (19 Nov), News On AIR AP rain Nov 26-29 (2024), Vizag Forever nominations (23 Nov 09:51, before lookback). Already covered: India-Nepal vision, Amit Shah visit cancelled, Guru Nanak holiday. Search did not return: Hans Congress vs KTR Warangal, News On AIR Akvan alert, IE India-Nepal, ANI UNSC Black Sea, NDTV Jaishankar-Lavrov, Eenadu items (robots). District searches: Mahabubnagar/Nagarkurnool/Wanaparthy, Visakhapatnam/Vizianagaram/Kakinada, Siddipet/Medak/Sangareddy, Tirupati/Chittoor/Nellore, Karimnagar/Peddapalli/Jagtial, Guntur/Prakasam/Bapatla. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-24T06:35:00+05:30/2026-11-24T07:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 4,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 22:35 (23 Nov). Feeds 07:29 IST (68/68 ok). 133 uncovered events since 06:00 (31 local, many Eenadu-only). add_repo tool not available; used existing clone. Published: NT Mustabad hit-and-run (fact, no names; HMTV same event as duplicate), AJ Telangana-Lower Saxony Germany jobs (fact), NT Kukatpally Truck Park auction protest (claim), TT Pandit Jasraj Samaroha Nov 24-30 (fact, late-found). Skipped as old: Hans Indiramma towers (5 Nov), DC Sabarimala 54 trains (13 Nov). Already covered: RBI digital fraud, Paschim Banga, EU FTA, SI hall tickets, AP mayor oaths. Search did not return: Pandit-era items like Hans fake number plates, Hans CID-banks meet, Hans Lokesh green energy, NewsMeter rain trough, Samayam Tirupati train, TOI Megaspeed blacklist, Eenadu items (robots). DC Sabarimala RTC buses fetch blocked. District searches: Rajanna Sircilla, Adilabad/Nirmal/Mancherial, Srikakulam/Vizianagaram (no in-window items). lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7788,6 +7788,46 @@
    "url": "https://vizagforever.com/post/panchayat-nominations-close-today-polling-on-december-2",
    "d": "2026-11-24",
    "w": "skip"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/young-man-killed-in-hit-and-run-accident-in-rajanna-sircilla-2567625",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/rajanna-sircilla-mustabad-bandanakal-road-accident-kcr-erravalli-residence-216409",
+   "d": "2026-11-24",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/telangana-germany-jobs-partnership-vivek-venkataswamy-youth-employment-1579274.html",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/telangana-youth-to-get-skill-training-and-job-opportunities-in-germany",
+   "d": "2026-11-24",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/cm-revanth-reddy-directs-officials-to-make-elaborate-arrangements-for-global-summit-2567715",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-to-host-54th-pandit-jasraj-sangeet-samaroha",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/indiramma-towers-to-dot-skyline-in-4-municipal-corpns-across-state-1139340",
+   "d": "2026-11-24",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/south-central-railway-to-operate-54-special-trains-for-sabarimala-pilgrims-2003977",
+   "d": "2026-11-24",
+   "w": "skipped"
   }
  ]
 }
