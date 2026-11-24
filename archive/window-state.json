@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-24T11:35:00+05:30",
+ "cutoff": "2026-11-24T12:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-21T15:05:00+05:30/2026-11-21T15:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 4,
-   "late": 1,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 5,
-   "review": 0,
-   "gaps": "Lookback from 07:05. Feeds 15:29 IST, 68/68 ok, 758 TG/AP flagged uncovered; 89 events first seen since 14:43 reviewed. add_repo not available; used existing clone. Web search returned few same-day articles (district searches only tag pages). Published 4: Miyapur paint shop fire (Andhra Jyothy), TG HC rejects accident-claim amendment (Siasat), PD Act on toddy adulterant supplier Medchal (HMTV, sensitive, accused not named), Tirupati/Chittoor/Annamayya ZP chairs (Hans, late-found 03:30). Duplicates: Hans NDA sweeps ZPP chief polls (= 20 Nov 27/28), Siasat Karimnagar bribe (= V6), CleanMax AP (12 Nov, old). Not opened (search did not return article): ABP Desam ZP, Hyderabad Mail Kurnool camcording, NIE TISC pitch decks, The Hindu BM Sandeep, Vaartha Hyd-Karimnagar train, Vaartha AP rain alert, Law Trend AP HC custody, ETV Bharat Kishan Reddy drugs, Disha Bhogapuram, DC APSRTC chairman health, Siasat Ramchander Rao on Rahul. Skipped: entertainment/gossip/lifestyle/sports items. Lang pages, index.html and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-21T15:35:00+05:30/2026-11-21T16:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 02:35. Feeds 11:32 IST (64/70 ok; Sakshi 429, ETV Bharat, Disha, Vaartha, Adilabad/Mahabubnagar en failing). 59 uncovered local events since 09:30. 11:05 sister run had not saved state. add_repo tool not available; used existing clone. Typed feed URLs refused by WebFetch (provenance) - only search-result URLs opened. Published: Siasat KRMB TG rejects AP 10 tmcft (late-found, 09:36), TT Zaheerabad couple crash (sensitive, no names), Siasat Vaishnaw Metro loan, TT SAMPADA TG anaemia, NewsMeter AP ULB deputy posts, NewsMeter AP CID-banks meet, National Herald/AP Hasina Dec 16 return. Skipped old: DC Vangaveeti Radha VMC oath (24 Nov 00:04, event 23 Nov), DC North Andhra ULB heads (01:15). Skipped: SC Umar Khalid/Sharjeel Imam bail hearing (accused-name rule). Duplicate: Samayam Renigunta Anjaneya temple = Kadapa fact-check (08:35). Not opened: Hindu Lokesh ASEAN (likely = 23 Nov ports story), NTV 3 MLAs absent, HMTV Mungonda body, Samayam Guntur-Guntakal, NT Kadiyam protest, Hyderabad Mail child marriage, TNIE Congress-AICC. District searches: Adilabad, Mahabubnagar, Nizamabad, Sangareddy, Srikakulam, Kurnool, Guntur, Konaseema. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-24T11:35:00+05:30/2026-11-24T12:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 13,
+   "published": 11,
+   "late": 9,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Lookback from 03:35. Feeds 11:48 IST (70/70 ok). 252 uncovered local events in lookback (many already covered/old). 12:05 sister run had not saved state. add_repo tool not available; used existing clone. Published: HMTV Toopran court, TT Karthika Pournami Hyderabad, HMTV Sircilla farmer electrocuted (sensitive, no name), NewsMeter Telugu Kangti wife arrested (sensitive, police), Siasat Brigade Rs180cr land, HMTV Kalwakurthy Rs5.60cr works, Hans Khammam journalists (claim), HMTV Singarayakonda theft, Hans APSRTC EHS, Hans APCPDCL Surya Ghar Dec 15, Hans AP 2027-28 school plan. Skipped: HMTV Chandrapur bears (Maharashtra, minor other-state); Outlook Lokesh clean energy (announcement/advertorial); SC Umar Khalid hearing (rule); Hyderabad congestion charge (10TV) = 23 Nov study story. Old in search: Akvan alert (18 Nov), SC AP SEC list (21 Oct), Agrigold, Natco. Not opened: Disha Huzurabad fire (fetch failed), NIE Singur cutoff Dec 20, Hyderabad Mail child marriage, TT Lokesh green energy. District searches: Nalgonda, Sangareddy, Nagarkurnool, Karimnagar/Sircilla, Khammam, Medak, Prakasam, Mancherial. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8053,6 +8053,71 @@
    "url": "https://www.siasat.com/sc-to-hear-bail-pleas-of-sharjeel-imam-umar-khalid-on-wednesday-3585277/",
    "d": "2026-11-24",
    "w": "skip"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/medak-sangareddy/justice-suddala-chalapathi-rao-inaugurates-new-jmfc-court-in-medak-216510",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/city-marks-karthika-pournami-3b545bbf",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/karimnagar/young-farmer-electrocuted-by-live-wire-in-bandalingampally-field-216472",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.newsmeter.in/crime/sangareddy-shocker-wife-sets-sleeping-husband-ablaze-over-daily-alcohol-harassment-arrested-by-kangti-police-779877",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/brigade-group-buys-prime-land-for-premium-homes-in-hyderabad-3585219/",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/mahaboobnagar/kalwakurthy-veldanda-development-rs-560-crore-works-mla-kasireddy-216441",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/khammam/khammam-journalists-demand-issuance-of-accreditation-cards-1145219",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/ongole/prakasam-singarayakonda-mulaguntapadu-house-theft-rs-1012-lakh-cash-216482",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/vijayawada/apsrtc-extends-ehs-to-retired-employees-and-spouses-1145171",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/vijayawada/apcpdcl-sets-deadline-for-pm-surya-ghar-1145163",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/vijayawada/state-plans-need-based-academic-programmes-for-202728-1145193",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/manchiryal-asifabad/maharashtra-chandrapur-chimur-illegal-electric-fencing-kills-mother-sloth-216442",
+   "d": "2026-11-24",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.outlookindia.com/announcements/nara-lokesh-andhra-pradesh-to-become-saudi-arabia-of-clean-energy-targets-energy-self-reliance",
+   "d": "2026-11-24",
+   "w": "skipped"
   }
  ]
 }
