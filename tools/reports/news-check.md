@@ -1,13 +1,11 @@
 # Swipe2News story check
 
-## news.json: 123 stories · 0 to fix · 26 to look at · 0 fixed automatically
-- CHECK: #12 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #12 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #14 "హైదరాబాద్ మెట్రో రుణం తెలియదన్న వైష్ణవ్": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #17 "సైబర్ మోసాలపై బ్యాంకులతో ఏపీ సీఐడీ భేటీ": picture line is long (47 letters) – keep stat + statl short so it fits one line
-- CHECK: #18 "డిసెంబర్ 16న బంగ్లాదేశ్‌కు వెళ్తా: హసీనా": picture line is long (40 letters) – keep stat + statl short so it fits one line
-- CHECK: #58 "రక్షణ గ్రూపుల్లో పాక్ గూఢచారులు: అధికారు": headline is 42 characters – may not fit one line (keep ≤ 38)
-- CHECK: #58 "రక్షణ గ్రూపుల్లో పాక్ గూఢచారులు: అధికారు": picture line is long (39 letters) – keep stat + statl short so it fits one line
+## news.json: 123 stories · 0 to fix · 24 to look at · 0 fixed automatically
+- CHECK: #16 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #16 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #18 "హైదరాబాద్ మెట్రో రుణం తెలియదన్న వైష్ణవ్": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #21 "సైబర్ మోసాలపై బ్యాంకులతో ఏపీ సీఐడీ భేటీ": picture line is long (47 letters) – keep stat + statl short so it fits one line
+- CHECK: #22 "డిసెంబర్ 16న బంగ్లాదేశ్‌కు వెళ్తా: హసీనా": picture line is long (40 letters) – keep stat + statl short so it fits one line
 - CHECK: #61 "భూపాలపల్లిలో వడ్లు వెంటనే కొనాలి: గండ్ర": picture line is long (35 letters) – keep stat + statl short so it fits one line
 - CHECK: #62 "ఏపీలో 3,191 సర్పంచ్ పదవులకు 26న పోలింగ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
 - CHECK: #64 "ఖాజీపేట మిడుతూరులో నామినేషన్ల ఘర్షణ": picture line is long (35 letters) – keep stat + statl short so it fits one line
@@ -27,9 +25,9 @@
 - CHECK: #114 "పాత పింఛన్ సెలవుపై సర్కారు హెచ్చరిక": picture line has a tail ("విధులకు దూరం: సంఘాలు") – write one natural phrase
 - CHECK: #122 "ఏపీలో నవజాత శిశు సంరక్షణ వారోత్సవాలు": picture line is long (42 letters) – keep stat + statl short so it fits one line
 - CHECK: #123 "కర్లపాలెం నగల చోరీ: నలుగురు అరెస్ట్": picture line is long (37 letters) – keep stat + statl short so it fits one line
-## archive/2026-11-24.json: 49 stories · 0 to fix · 5 to look at · 0 fixed automatically
-- CHECK: #12 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #12 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #14 "హైదరాబాద్ మెట్రో రుణం తెలియదన్న వైష్ణవ్": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #17 "సైబర్ మోసాలపై బ్యాంకులతో ఏపీ సీఐడీ భేటీ": picture line is long (47 letters) – keep stat + statl short so it fits one line
-- CHECK: #18 "డిసెంబర్ 16న బంగ్లాదేశ్‌కు వెళ్తా: హసీనా": picture line is long (40 letters) – keep stat + statl short so it fits one line
+## archive/2026-11-24.json: 53 stories · 0 to fix · 5 to look at · 0 fixed automatically
+- CHECK: #16 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #16 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #18 "హైదరాబాద్ మెట్రో రుణం తెలియదన్న వైష్ణవ్": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #21 "సైబర్ మోసాలపై బ్యాంకులతో ఏపీ సీఐడీ భేటీ": picture line is long (47 letters) – keep stat + statl short so it fits one line
+- CHECK: #22 "డిసెంబర్ 16న బంగ్లాదేశ్‌కు వెళ్తా: హసీనా": picture line is long (40 letters) – keep stat + statl short so it fits one line
