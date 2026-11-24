@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-24T12:35:00+05:30",
+ "cutoff": "2026-11-24T13:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-21T15:35:00+05:30/2026-11-21T16:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 4,
-   "review": 1,
-   "gaps": "Lookback from 07:35. Feeds 15:42 IST, 70/70 ok, 802 TG/AP flagged uncovered; 28 events first seen since 15:25 reviewed. add_repo not available; used existing clone. Published 3: OU alumna Rhodes Scholarship (Siasat), unsigned letter on Chinna Reddy letterhead, he denies sending (The South First, claim, sensitive), two tankers hit near Oman in Hormuz (Siasat/UKMTO). Review (no original publication time): Free Press Journal/ANI Nitish Setu inauguration; India TV copy not opened. Old: Siasat/FPJ Azharuddin on Siraj (19 Nov). Skipped: Siasat/PTI Latur Tipu rally noise cases (other state, not major), entertainment/lifestyle/sports items. Not opened (search did not return article): The Hindu BM Sandeep, The Hindu Azharuddin, Disha AgriGold bond verification, HMTV Jammikunta, HMTV Vikarabad RRR JAC. Rhodes headline 44 chars (CHECK). Lang pages, index.html and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-21T16:05:00+05:30/2026-11-21T16:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Lookback from 03:35. Feeds 11:48 IST (70/70 ok). 252 uncovered local events in lookback (many already covered/old). 12:05 sister run had not saved state. add_repo tool not available; used existing clone. Published: HMTV Toopran court, TT Karthika Pournami Hyderabad, HMTV Sircilla farmer electrocuted (sensitive, no name), NewsMeter Telugu Kangti wife arrested (sensitive, police), Siasat Brigade Rs180cr land, HMTV Kalwakurthy Rs5.60cr works, Hans Khammam journalists (claim), HMTV Singarayakonda theft, Hans APSRTC EHS, Hans APCPDCL Surya Ghar Dec 15, Hans AP 2027-28 school plan. Skipped: HMTV Chandrapur bears (Maharashtra, minor other-state); Outlook Lokesh clean energy (announcement/advertorial); SC Umar Khalid hearing (rule); Hyderabad congestion charge (10TV) = 23 Nov study story. Old in search: Akvan alert (18 Nov), SC AP SEC list (21 Oct), Agrigold, Natco. Not opened: Disha Huzurabad fire (fetch failed), NIE Singur cutoff Dec 20, Hyderabad Mail child marriage, TT Lokesh green energy. District searches: Nalgonda, Sangareddy, Nagarkurnool, Karimnagar/Sircilla, Khammam, Medak, Prakasam, Mancherial. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-24T12:35:00+05:30/2026-11-24T13:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 4,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 04:35. Feeds 13:06 IST (70/70 ok). 13:05 sister run had not saved state. add_repo tool not available; used existing clone. Feed URLs refused by WebFetch (provenance). Published: NTV Indiramma sarees Nov 26 Achampet, Mana Telangana Harish Rao Godavari (claim), Andhra Jyothy Sabbavaram tipper fire (late-found 10:45, sensitive, no names), Siasat HC non-tribal land/RDO. Duplicates: Siasat SSC memo Meeseva (23 Nov), Godavarikhani murder (23 Nov), India-Canada trade talks (23 Nov). Skipped: TT Nainar Nagenthran house arrest (TN, other state); Hindu RERA Indiramma towers (pub 23 Nov 22:57, old). Not opened: Hindu Rayalaseema rice hoarding 300 cases (not in search), Siasat/Cricinfo Priyansh Arya 181 (fetch failed). lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8118,6 +8118,51 @@
    "url": "https://www.outlookindia.com/announcements/nara-lokesh-andhra-pradesh-to-become-saudi-arabia-of-clean-energy-targets-energy-self-reliance",
    "d": "2026-11-24",
    "w": "skipped"
+  },
+  {
+   "url": "https://ntvtelugu.com/news/indiramma-sarees-who-is-eligible-for-telanganas-one-crore-saree-distribution-1038368.html",
+   "d": "2026-11-24",
+   "w": "2026-11-24T13:35"
+  },
+  {
+   "url": "https://www.telugupost.com/telangana/telangana-government-launch-indiramma-sarees-scheme-1626350",
+   "d": "2026-11-24",
+   "w": "2026-11-24T13:35"
+  },
+  {
+   "url": "https://www.manatelangana.news/godavari-water-rights",
+   "d": "2026-11-24",
+   "w": "2026-11-24T13:35"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/anakapalli-tipper-truck-fire-accident-1579335.html",
+   "d": "2026-11-24",
+   "w": "2026-11-24T13:35"
+  },
+  {
+   "url": "https://www.siasat.com/rdo-cant-hear-land-disputes-between-non-tribals-telangana-hc-3585386/",
+   "d": "2026-11-24",
+   "w": "2026-11-24T13:35"
+  },
+  {
+   "url": "https://www.livelaw.in/high-court/telangana-high-court/telangana-high-court-sets-aside-agency-court-injunction-police-protection-non-tribal-land-dispute-559533",
+   "d": "2026-11-24",
+   "w": "2026-11-24T13:35"
+  },
+  {
+   "url": "https://www.siasat.com/how-to-correct-your-telangana-ssc-memo-through-meeseva-3585296/",
+   "d": "2026-11-24",
+   "w": "2026-11-24T13:35"
+  },
+  {
+   "url": "https://telanganatoday.com/bjp-president-nainar-nagenthran-placed-under-house-arrest",
+   "d": "2026-11-24",
+   "w": "2026-11-24T13:35"
+  },
+  {
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/rera-approvals-for-two-indiramma-housing-towers-in-hyderabad-to-help-beneficiaries-in-getting-bank-loans/article71735686.ece",
+   "d": "2026-11-24",
+   "w": "2026-11-24T13:35"
   }
  ]
 }
