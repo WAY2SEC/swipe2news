@@ -1,0 +1,215 @@
+{
+ "note": "Nigeria edition sources (24 Nov 2026). Direct outlet feeds + Google News Nigeria. Summaries in our own words + source link only; no copied text or photos. 'ok' is filled by tools/ng/collect_ng.py --check.",
+ "direct": [
+  {
+   "name": "Punch",
+   "url": "https://punchng.com/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "Vanguard",
+   "url": "https://www.vanguardngr.com/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "Premium Times",
+   "url": "https://www.premiumtimesng.com/feed",
+   "kind": "news"
+  },
+  {
+   "name": "Channels TV",
+   "url": "https://www.channelstv.com/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "TheCable",
+   "url": "https://www.thecable.ng/feed",
+   "kind": "news"
+  },
+  {
+   "name": "BusinessDay",
+   "url": "https://businessday.ng/feed/",
+   "kind": "business"
+  },
+  {
+   "name": "The Guardian Nigeria",
+   "url": "https://guardian.ng/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "Daily Post",
+   "url": "https://dailypost.ng/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "Daily Trust",
+   "url": "https://dailytrust.com/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "ThisDay",
+   "url": "https://www.thisdaylive.com/index.php/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "Leadership",
+   "url": "https://leadership.ng/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "The Nation",
+   "url": "https://thenationonlineng.net/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "Nigerian Tribune",
+   "url": "https://tribuneonlineng.com/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "The Sun Nigeria",
+   "url": "https://sunnewsonline.com/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "Independent",
+   "url": "https://independent.ng/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "PM News",
+   "url": "https://pmnewsnigeria.com/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "Sahara Reporters",
+   "url": "https://saharareporters.com/feeds/latest/feed",
+   "kind": "news"
+  },
+  {
+   "name": "Legit.ng",
+   "url": "https://www.legit.ng/rss/all.rss",
+   "kind": "news"
+  },
+  {
+   "name": "Nairametrics",
+   "url": "https://nairametrics.com/feed/",
+   "kind": "business"
+  },
+  {
+   "name": "Peoples Gazette",
+   "url": "https://gazettengr.com/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "Ripples Nigeria",
+   "url": "https://www.ripplesnigeria.com/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "Blueprint",
+   "url": "https://www.blueprint.ng/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "Naija News",
+   "url": "https://www.naijanews.com/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "Arise News",
+   "url": "https://www.arise.tv/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "TVC News",
+   "url": "https://www.tvcnews.tv/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "HumAngle",
+   "url": "https://humanglemedia.com/feed/",
+   "kind": "security"
+  },
+  {
+   "name": "News Agency of Nigeria",
+   "url": "https://nannews.ng/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "Pulse Nigeria",
+   "url": "https://www.pulse.ng/rss",
+   "kind": "entertainment"
+  },
+  {
+   "name": "Complete Sports",
+   "url": "https://www.completesports.com/feed/",
+   "kind": "sports"
+  },
+  {
+   "name": "Techpoint Africa",
+   "url": "https://techpoint.africa/feed/",
+   "kind": "tech"
+  },
+  {
+   "name": "TechCabal",
+   "url": "https://techcabal.com/feed/",
+   "kind": "tech"
+  },
+  {
+   "name": "Daily Nigerian",
+   "url": "https://dailynigerian.com/feed/",
+   "kind": "news"
+  },
+  {
+   "name": "Information Nigeria",
+   "url": "https://www.informationng.com/feed",
+   "kind": "news"
+  },
+  {
+   "name": "Business Post",
+   "url": "https://businesspost.ng/feed/",
+   "kind": "business"
+  },
+  {
+   "name": "State House Nigeria",
+   "url": "https://statehouse.gov.ng/feed/",
+   "kind": "official"
+  },
+  {
+   "name": "NCDC",
+   "url": "https://ncdc.gov.ng/news/feed",
+   "kind": "official"
+  }
+ ],
+ "gnews": [
+  {
+   "name": "Google News Nigeria – top",
+   "url": "https://news.google.com/rss?hl=en-NG&gl=NG&ceid=NG:en"
+  },
+  {
+   "name": "Google News Nigeria – business",
+   "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-NG&gl=NG&ceid=NG:en"
+  },
+  {
+   "name": "Google News Nigeria – sports",
+   "url": "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=en-NG&gl=NG&ceid=NG:en"
+  },
+  {
+   "name": "Google News Nigeria – Lagos",
+   "url": "https://news.google.com/rss/search?q=Lagos+when:1d&hl=en-NG&gl=NG&ceid=NG:en"
+  },
+  {
+   "name": "Google News Nigeria – Abuja",
+   "url": "https://news.google.com/rss/search?q=Abuja+when:1d&hl=en-NG&gl=NG&ceid=NG:en"
+  },
+  {
+   "name": "Google News Nigeria – CBN naira",
+   "url": "https://news.google.com/rss/search?q=CBN+OR+naira+when:1d&hl=en-NG&gl=NG&ceid=NG:en"
+  },
+  {
+   "name": "Google News Nigeria – NiMet weather",
+   "url": "https://news.google.com/rss/search?q=NiMet+OR+flood+Nigeria+when:2d&hl=en-NG&gl=NG&ceid=NG:en"
+  }
+ ]
+}
