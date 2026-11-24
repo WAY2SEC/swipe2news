@@ -3,7 +3,7 @@
 
 Who gets what (owner 19 Nov 2026 – alerts must reach people who installed the app):
   * BREAKING ("brk": true)       -> everyone, at once
-  * Top story of the moment       -> everyone, 5 times a day (about 8, 11 AM, 2, 5, 8 PM IST), if there was no breaking alert in the last 2 h
+  * Top story of the moment       -> everyone, 6 times a day: 7 AM "Good morning", 11 AM, 1 PM "Had your lunch?", 4 PM, 6 PM "Good evening", 9 PM "Good night" (IST); skipped right after a breaking alert
   * New jobs                      -> everyone, once a day at about 9 AM IST, when new job notices came in
   * District news ("place")       -> only readers who chose that district (Andhra: readers who chose AP), at most 1 per district every 2 h and 5 a day
 Every alert is sent in the reader's own language (tag "lang": te / en / hi; readers without a tag get Telugu).
@@ -19,7 +19,8 @@ APP_ID = '4f354e28-c33a-4836-8a3a-f25d58b2ba49'
 STATE = os.path.join(ROOT, 'push', 'state.json')
 IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
 SITE = 'https://swipe2news.com/'
-DIGEST_HOURS = (8, 11, 14, 17, 20)  # owner 24 Nov 2026: more alerts – 5 top stories a day
+DIGEST_HOURS = (7, 11, 13, 16, 18, 21)  # owner 24 Nov 2026: top story with greetings – morning 7, lunch 1 PM, evening 6, night 9 PM
+GREET = {7: 'morning', 13: 'lunch', 18: 'evening', 21: 'night'}
 
 def sid(s):  # same id as the app (index.html sid()), so the alert opens that exact card
     h = 5381
@@ -58,6 +59,9 @@ LANG_FILTERS = {
 HEAD = {'te': {'brk': '🔴 బ్రేకింగ్', 'top': '📰 ముఖ్య వార్త', 'local': '📍 మీ జిల్లా వార్త'},
         'en': {'brk': '🔴 Breaking', 'top': '📰 Top story', 'local': '📍 Your district'},
         'hi': {'brk': '🔴 ब्रेकिंग', 'top': '📰 बड़ी ख़बर', 'local': '📍 आपके ज़िले की ख़बर'}}
+HEAD['te'].update(morning='☀️ శుభోదయం! నేటి ముఖ్య వార్త', lunch='🍛 భోజనం చేశారా? ఈ వార్త చూడండి', evening='🌆 శుభ సాయంత్రం! ఇప్పటి ముఖ్య వార్త', night='🌙 శుభరాత్రి! నేటి ముఖ్య వార్త')
+HEAD['en'].update(morning='☀️ Good morning! Top story', lunch='🍛 Had your lunch? Catch this', evening='🌆 Good evening! Top story now', night='🌙 Good night! Today\'s top story')
+HEAD['hi'].update(morning='☀️ सुप्रभात! आज की बड़ी ख़बर', lunch='🍛 खाना खाया? यह ख़बर देखिए', evening='🌆 शुभ संध्या! अभी की बड़ी ख़बर', night='🌙 शुभ रात्रि! आज की बड़ी ख़बर')
 
 JOBTX = {'te': ('💼 కొత్త ఉద్యోగాలు', '{n} కొత్త ఉద్యోగ ప్రకటనలు · '), 'en': ('💼 New jobs', '{n} new job notices · '), 'hi': ('💼 नई नौकरियाँ', '{n} नई भर्तियाँ · ')}
 def send(s, kind, key, dry, place=None):
@@ -70,7 +74,7 @@ def send(s, kind, key, dry, place=None):
         body = {'app_id': APP_ID, 'target_channel': 'push', 'filters': filters,
                 'headings': {'en': f"{HEAD[lang][kind]} · {h}"[:90]}, 'contents': {'en': short(p) or h},
                 'url': SITE + '?s=' + sid(s), 'chrome_web_icon': SITE + 'icon-192.png',
-                'chrome_web_badge': SITE + 'icon-192.png', 'web_push_topic': kind + (place or ''), 'ttl': 6 * 3600}
+                'chrome_web_badge': SITE + 'icon-192.png', 'web_push_topic': ('top' if kind in GREET.values() else kind) + (place or ''), 'ttl': 6 * 3600}
         if dry or not key:
             print(f'  [{"dry" if dry else "no key"}] {kind}/{lang}{"/" + place if place else ""}: {body["headings"]["en"]}')
             continue
@@ -112,7 +116,7 @@ def main():
     if now.hour in DIGEST_HOURS and st.get('slot') != slot and not logged('brk', hours=2):
         top = next((x for x in stories if sid(x) not in done and when(x) and now - when(x) < datetime.timedelta(hours=6)), None)
         if top:
-            print('TOP STORY:', top.get('h')); send(top, 'top', key, dry); mark(top, 'top')
+            kd = GREET.get(now.hour, 'top'); print('TOP STORY (' + kd + '):', top.get('h')); send(top, kd, key, dry); mark(top, 'top')
         st['slot'] = slot
     # 3) district news to readers of that district
     if not night:
