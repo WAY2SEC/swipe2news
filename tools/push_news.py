@@ -12,7 +12,7 @@ No alerts between 10 PM and 6 AM IST except breaking news.
 Needs the GitHub secret ONESIGNAL_REST_KEY (OneSignal -> Settings -> Keys & IDs -> REST API key).
 Without it the script only prints what it would send.   Usage: python3 tools/push_news.py [--dry]
 """
-import json, os, sys, datetime, urllib.request
+import json, os, re, sys, datetime, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 APP_ID = '4f354e28-c33a-4836-8a3a-f25d58b2ba49'
@@ -114,7 +114,10 @@ def main():
     # 2) top story at 8 AM / 1 PM / 7 PM (first run in that hour), skipped right after a breaking alert
     slot = f'{today}-{now.hour}'
     if now.hour in DIGEST_HOURS and st.get('slot') != slot and not logged('brk', hours=2):
-        top = next((x for x in stories if sid(x) not in done and when(x) and now - when(x) < datetime.timedelta(hours=6)), None)
+        sad = re.compile(r'మృతి|మరణ|చనిపో|హత్య|ఆత్మహత్య|ప్రమాదం|మునిగి|గల్లంతు|దుర్మరణ|అత్యాచార|died|death|dead|killed|murder|suicide|drown|accident|rape|मौत|मृत|हत्या|हादसा')
+        greet = now.hour in GREET  # a "Good night / Good morning" greeting must never sit on a death or accident story
+        top = next((x for x in stories if sid(x) not in done and when(x) and now - when(x) < datetime.timedelta(hours=6)
+                    and not (greet and sad.search(' '.join([x.get('h') or '', x.get('statl') or '', (x.get('en') or {}).get('h') or ''])))), None)
         if top:
             kd = GREET.get(now.hour, 'top'); print('TOP STORY (' + kd + '):', top.get('h')); send(top, kd, key, dry); mark(top, 'top')
         st['slot'] = slot
