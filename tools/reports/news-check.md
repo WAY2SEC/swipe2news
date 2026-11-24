@@ -1,17 +1,19 @@
 # Swipe2News story check
 
-## news.json: 123 stories · 0 to fix · 30 to look at · 0 fixed automatically
-- CHECK: #40 "రక్షణ గ్రూపుల్లో పాక్ గూఢచారులు: అధికారు": headline is 42 characters – may not fit one line (keep ≤ 38)
-- CHECK: #40 "రక్షణ గ్రూపుల్లో పాక్ గూఢచారులు: అధికారు": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #44 "కరీంనగర్ మెడికల్ కాలేజీలో నిరసనలపై నిషేధ": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #44 "కరీంనగర్ మెడికల్ కాలేజీలో నిరసనలపై నిషేధ": picture line is long (40 letters) – keep stat + statl short so it fits one line
-- CHECK: #45 "గోదావరిఖని హత్య: నలుగురు అరెస్ట్": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #47 "ఇటలీలో ఉన్న భర్తను రప్పించాలని సీఎంకు లే": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #49 "మోసాలు ఆపేందుకు ఆర్‌బీఐ కొత్త ప్రతిపాదనల": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #50 "చక్కెర దిగుమతి అవసరం కావచ్చు: నివేదిక": picture line is long (40 letters) – keep stat + statl short so it fits one line
-- CHECK: #55 "బౌరంపేట గ్యాస్ కేసులో ముగ్గురు అరెస్ట్": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #58 "తిరుపతి కార్పొరేటర్‌గా జ్యోత్స్న ప్రమాణం": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #59 "సైబరాబాద్ ట్రాఫిక్‌పై ఆసుపత్రులతో భేటీ": picture line is long (36 letters) – keep stat + statl short so it fits one line
+## news.json: 123 stories · 0 to fix · 32 to look at · 0 fixed automatically
+- CHECK: #1 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #1 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #3 "హైదరాబాద్ మెట్రో రుణం తెలియదన్న వైష్ణవ్": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #6 "సైబర్ మోసాలపై బ్యాంకులతో ఏపీ సీఐడీ భేటీ": picture line is long (47 letters) – keep stat + statl short so it fits one line
+- CHECK: #7 "డిసెంబర్ 16న బంగ్లాదేశ్‌కు వెళ్తా: హసీనా": picture line is long (40 letters) – keep stat + statl short so it fits one line
+- CHECK: #47 "రక్షణ గ్రూపుల్లో పాక్ గూఢచారులు: అధికారు": headline is 42 characters – may not fit one line (keep ≤ 38)
+- CHECK: #47 "రక్షణ గ్రూపుల్లో పాక్ గూఢచారులు: అధికారు": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #51 "కరీంనగర్ మెడికల్ కాలేజీలో నిరసనలపై నిషేధ": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #51 "కరీంనగర్ మెడికల్ కాలేజీలో నిరసనలపై నిషేధ": picture line is long (40 letters) – keep stat + statl short so it fits one line
+- CHECK: #52 "గోదావరిఖని హత్య: నలుగురు అరెస్ట్": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #54 "ఇటలీలో ఉన్న భర్తను రప్పించాలని సీఎంకు లే": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #56 "మోసాలు ఆపేందుకు ఆర్‌బీఐ కొత్త ప్రతిపాదనల": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #57 "చక్కెర దిగుమతి అవసరం కావచ్చు: నివేదిక": picture line is long (40 letters) – keep stat + statl short so it fits one line
 - CHECK: #61 "భూపాలపల్లిలో వడ్లు వెంటనే కొనాలి: గండ్ర": picture line is long (35 letters) – keep stat + statl short so it fits one line
 - CHECK: #62 "ఏపీలో 3,191 సర్పంచ్ పదవులకు 26న పోలింగ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
 - CHECK: #64 "ఖాజీపేట మిడుతూరులో నామినేషన్ల ఘర్షణ": picture line is long (35 letters) – keep stat + statl short so it fits one line
@@ -31,8 +33,9 @@
 - CHECK: #114 "పాత పింఛన్ సెలవుపై సర్కారు హెచ్చరిక": picture line has a tail ("విధులకు దూరం: సంఘాలు") – write one natural phrase
 - CHECK: #122 "ఏపీలో నవజాత శిశు సంరక్షణ వారోత్సవాలు": picture line is long (42 letters) – keep stat + statl short so it fits one line
 - CHECK: #123 "కర్లపాలెం నగల చోరీ: నలుగురు అరెస్ట్": picture line is long (37 letters) – keep stat + statl short so it fits one line
-
-### Pictures needed (create in your image tool, send to Claude)
-- **Industry & Factories** – 1 story(ies), e.g. "సారపాకలో ఈఎస్ఐ ఆసుపత్రి కావాలి: జేఏసీ". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
-- **Labour Strike / Workers' Protest** – 1 story(ies), e.g. "సారపాకలో ఈఎస్ఐ ఆసుపత్రి కావాలి: జేఏసీ". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Peaceful group of workers in helmets and work clothes gathered outside a factory or mine gate holding blank placards and plain red flags, seen from behind or at a distance. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents. Calm, non-violent. Top 15% plain plum sky. No readable text on placards, no faces in close-up, no logos, no watermark.
-## archive/2026-11-24.json: 31 stories · 0 to fix · 0 to look at · 0 fixed automatically
+## archive/2026-11-24.json: 38 stories · 0 to fix · 5 to look at · 0 fixed automatically
+- CHECK: #1 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #1 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #3 "హైదరాబాద్ మెట్రో రుణం తెలియదన్న వైష్ణవ్": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #6 "సైబర్ మోసాలపై బ్యాంకులతో ఏపీ సీఐడీ భేటీ": picture line is long (47 letters) – keep stat + statl short so it fits one line
+- CHECK: #7 "డిసెంబర్ 16న బంగ్లాదేశ్‌కు వెళ్తా: హసీనా": picture line is long (40 letters) – keep stat + statl short so it fits one line
