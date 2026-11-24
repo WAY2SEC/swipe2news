@@ -12,15 +12,16 @@ No alerts between 10 PM and 6 AM IST except breaking news.
 Needs the GitHub secret ONESIGNAL_REST_KEY (OneSignal -> Settings -> Keys & IDs -> REST API key).
 Without it the script only prints what it would send.   Usage: python3 tools/push_news.py [--dry]
 """
-import json, os, re, sys, datetime, urllib.request
+import json, os, re, sys, datetime, urllib.request, urllib.parse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 APP_ID = '4f354e28-c33a-4836-8a3a-f25d58b2ba49'
 STATE = os.path.join(ROOT, 'push', 'state.json')
 IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
 SITE = 'https://swipe2news.com/'
-DIGEST_HOURS = (7, 11, 13, 16, 18, 21)  # owner 24 Nov 2026: top story with greetings – morning 7, lunch 1 PM, evening 6, night 9 PM
-GREET = {7: 'morning', 13: 'lunch', 18: 'evening', 21: 'night'}
+DIGEST_HOURS = (7, 11, 13, 16, 20)  # owner 24 Nov 2026: 7 AM and 8 PM use the owner's 30-day greeting calendar (tools/greetings.json); 1 PM lunch greeting
+GREET = {7: 'morning', 13: 'lunch', 20: 'evening'}
+CAL = {7: 'm', 20: 'e'}
 
 def sid(s):  # same id as the app (index.html sid()), so the alert opens that exact card
     h = 5381
@@ -89,6 +90,109 @@ def send(s, kind, key, dry, place=None):
             print(f'  FAILED {kind}/{lang}: {e}')
     return sent
 
+
+# ---- owner's 30-day greeting calendar (tools/greetings.json) ----
+TOPIC = {'weather': r'వాతావరణ|వర్ష|చలి|ఎండ', 'commute': r'ట్రాఫిక్|మెట్రో|రోడ్డు|బస్|ఆర్టీసీ|రైలు', 'money': r'బంగారం|వెండి|ధర|మార్కెట్|వ్యాపార|బ్యాంక',
+         'farm': r'వ్యవసాయ|రైతు|పంట|మార్కెట్ యార్డ్|మండీ|పత్తి|వరి|ధాన్యం', 'edu': r'విద్య|పరీక్ష|స్కూల్|పాఠశాల|కాలేజీ|ఫలితాల|విద్యార్థ',
+         'jobs': r'ఉద్యోగ|నియామక|పోస్టుల|రిక్రూట్', 'politics': r'రాజకీయ|ఎన్నిక|పార్టీ|అసెంబ్లీ', 'movies': r'సినిమా|వినోద|OTT|ట్రైలర్',
+         'health': r'ఆరోగ్య|ఆసుపత్రి|వైద్య|హాస్పిటల్', 'sports': r'క్రీడ|క్రికెట్|మ్యాచ్|టోర్నీ|పోటీలు', 'schemes': r'పథక|పింఛన్|రేషన్|సంక్షేమ',
+         'tech': r'టెక్|సైబర్|యాప్|ఏఐ|మొబైల్', 'city': r'నీటి|కరెంట్|విద్యుత్|రోడ్డు|జీహెచ్ఎంసీ|మున్సిప|హైడ్రా|డ్రైనేజీ',
+         'devotional': r'ఆలయ|భక్తి|తిరుమల|టీటీడీ|దేవాలయ|దర్శనం', 'world': r'భారత్|దేశం|ప్రపంచ|అంతర్జాతీయ|కేంద్ర'}
+LIQ = {'te': {'district': 'మీ ప్రాంతం', 'city': 'మీ నగరం', 'state': 'తెలంగాణ, ఏపీ'},  # used for readers with no district chosen
+       'en': {'district': 'your area', 'city': 'your city', 'state': 'Telangana and AP'}}
+
+def post(body, label, key, dry):
+    if dry or not key:
+        print(f'  [{"dry" if dry else "no key"}] {label}: {body["headings"]["en"]} | {body["contents"]["en"][:70]}'); return
+    req = urllib.request.Request('https://api.onesignal.com/notifications', data=json.dumps(body).encode(),
+                                 headers={'Content-Type': 'application/json', 'Authorization': 'Key ' + key})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            res = json.loads(r.read().decode() or '{}')
+        print(f'  sent {label}: {res.get("id")} {res.get("errors") or ""}')
+    except Exception as e:
+        print(f'  FAILED {label}: {e}')
+
+def wx_line(day, lang):
+    cond = ('వర్షం అవకాశం' if lang == 'te' else 'rain likely') if (day.get('rain') or 0) >= 2.5 else \
+           ('మేఘావృతం' if lang == 'te' else 'cloudy') if (day.get('cloud') or 0) >= 5 else ('పొడి వాతావరణం' if lang == 'te' else 'dry')
+    return f"{int(day['tmin'])}–{int(day['tmax'])}°, {cond}"
+
+def calendar(now, which, stories, sadf, done, key, dry):
+    """Send the calendar greeting for this morning ('m') or evening ('e'). Returns the story used (or None)."""
+    try: G = json.load(open(os.path.join(ROOT, 'tools', 'greetings.json'), encoding='utf-8'))
+    except Exception as e: print('  greetings.json missing:', e); return None
+    today = now.strftime('%Y-%m-%d'); wd = now.weekday()
+    n = (now.date() - datetime.date.fromisoformat(G['start'])).days
+    if n < 0: return None
+    day = G['days'][n % len(G['days'])]; line = day[which]; topic = day.get('topic', '')
+    fest = (G.get('festivals') or {}).get(today, {})
+    over = {(0, 'm'): 'mon_m', (4, 'm'): 'fri_m', (5, 'e'): 'sat_e', (6, 'm'): 'sun_m', (6, 'e'): 'sun_e'}.get((wd, which))
+    if fest.get(which): line, topic = fest[which], ''
+    elif over and not topic and not re.search(r'\{(weather|quote|local_fact)\}', line.get('en', '')):  # weekday lines only replace the general days
+        line = G['weekday'][over]; topic = {'fri_m': 'movies'}.get(over, '')
+    else: over = None
+    ok = lambda x: sid(x) not in done and when(x) and now - when(x) < datetime.timedelta(hours=8) and not sadf(x)
+    pool = [x for x in stories if ok(x)]
+    rx = re.compile(TOPIC[topic]) if topic in TOPIC else None
+    top = next((x for x in pool if rx and rx.search((x.get('cat') or '') + ' ' + (x.get('h') or ''))), None) or (pool[0] if pool else None)
+    if not top: return None
+    url = SITE + ('?jobs' if topic == 'jobs' else '?s=' + sid(top))
+    if day.get('theme') == 'Thank you' and which == 'e' and 'WhatsApp' in line.get('en', ''):
+        url = 'https://wa.me/917032656422?text=' + urllib.parse.quote('Swipe2News – నాకు ఈ వార్తలు ఎక్కువ కావాలి: ')
+    try: D = json.load(open(os.path.join(ROOT, 'daily.json'), encoding='utf-8')).get('items', [])
+    except Exception: D = []
+    def item(kind): return next((x for x in D if x.get('kind') == kind), None)
+    print(f'CALENDAR day {n % len(G["days"]) + 1} {which} ({day.get("theme")}{" · festival" if fest.get(which) else " · " + over if over else ""}):', top.get('h'))
+    for lang, flt in LANG_FILTERS.items():
+        h, p = text(top, lang)
+        base = {'app_id': APP_ID, 'target_channel': 'push', 'url': url, 'chrome_web_icon': SITE + 'icon-192.png',
+                'chrome_web_badge': SITE + 'icon-192.png', 'web_push_topic': 'greet', 'ttl': 6 * 3600}
+        if lang == 'hi':  # the calendar is Telugu + English; Hindi readers keep the simple greeting
+            post(dict(base, filters=flt, headings={'en': f"{HEAD['hi']['morning' if which == 'm' else 'evening']} · {h}"[:90]}, contents={'en': short(p) or h}), f'greet/{which}/hi', key, dry)
+            continue
+        tx = line[lang]; body = h  # the alert shows the personal note, then the story headline
+        fill = dict(LIQ[lang], headline=h)
+        q = item('quote'); r = item('roots')
+        qt = ((q or {}).get('text') if lang == 'te' else ((q or {}).get('en') or {}).get('text')) or ''
+        rt = ((r or {}).get('text') if lang == 'te' else ((r or {}).get('en') or {}).get('text')) or ''
+        rt = re.split(r'(?<=[.!?।])\s', rt.strip())[0] if rt else ''
+        fill['quote'] = qt; fill['local_fact'] = rt
+        if '{headline}' in tx: body = short(p) or h
+        need = re.findall(r'\{(quote|local_fact|weather|headline)\}', tx)
+        plain = line.get('p' + lang)
+        if any(k in ('quote', 'local_fact') for k in need):
+            val = ' '.join(fill.get(k) or '' for k in need if k in ('quote', 'local_fact')).strip()
+            if not val: tx = plain or tx
+            elif len(tx.format(**{**fill, 'weather': ''})) > 90 and plain: tx, body = plain, short(val, 150)  # long thought: short heading, the thought below
+        if re.search(r'\{(weather|district|city|state)\}', tx):  # one alert per district with its own name (and IMD forecast), the plain line for everyone else
+            try: W = json.load(open(os.path.join(ROOT, 'weather.json'), encoding='utf-8'))['d']
+            except Exception: W = {}
+            try:
+                NM = {k: (te, en) for k, te, en in re.findall(r"\['([a-zA-Z]+)','([^']+)','([^']+)'\]", open(os.path.join(ROOT, 'index.html'), encoding='utf-8').read().split('const PLACES', 1)[1].split('];', 1)[0])}
+            except Exception: NM = {}
+            done_keys = []
+            for k, (nte, nen) in NM.items():
+                f2 = dict(fill, state='తెలంగాణ' if lang == 'te' else 'Telangana')
+                if k != 'TS':
+                    nm = nte + ('\u200c' if nte.endswith('్') else '') if lang == 'te' else nen
+                    f2.update(city=nm, district=nm)
+                t2 = tx
+                if '{weather}' in tx:
+                    dd = next((x for x in (W.get(k) or {}).get('days', []) if x.get('date') == today), None)
+                    if not dd: continue
+                    f2['weather'] = wx_line(dd, lang)
+                done_keys.append(k)
+                post(dict(base, filters=[{'field': 'tag', 'key': 'place', 'relation': '=', 'value': k}] + flt,
+                          headings={'en': t2.format(**f2)}, contents={'en': body}), f'greet/{which}/{lang}/{k}', key, dry)
+            ex = [{'field': 'tag', 'key': 'place', 'relation': '!=', 'value': k} for k in done_keys]
+            rest = (plain or tx.replace('{weather}', '')) if '{weather}' in tx else tx
+            f3 = dict(fill); f3.setdefault('weather', '')
+            post(dict(base, filters=ex + flt, headings={'en': rest.format(**f3)}, contents={'en': body}), f'greet/{which}/{lang}/rest', key, dry)
+            continue
+        post(dict(base, filters=flt, headings={'en': tx.format(**fill)}, contents={'en': body}), f'greet/{which}/{lang}', key, dry)
+    return top
+
 def main():
     dry = '--dry' in sys.argv
     key = os.environ.get('ONESIGNAL_REST_KEY', '').strip()
@@ -116,8 +220,14 @@ def main():
     if now.hour in DIGEST_HOURS and st.get('slot') != slot and not logged('brk', hours=2):
         sad = re.compile(r'మృతి|మరణ|చనిపో|హత్య|ఆత్మహత్య|ప్రమాదం|మునిగి|గల్లంతు|దుర్మరణ|అత్యాచార|died|death|dead|killed|murder|suicide|drown|accident|rape|मौत|मृत|हत्या|हादसा')
         greet = now.hour in GREET  # a "Good night / Good morning" greeting must never sit on a death or accident story
-        top = next((x for x in stories if sid(x) not in done and when(x) and now - when(x) < datetime.timedelta(hours=6)
-                    and not (greet and sad.search(' '.join([x.get('h') or '', x.get('statl') or '', (x.get('en') or {}).get('h') or ''])))), None)
+        sadf = lambda x: bool(sad.search(' '.join([x.get('h') or '', x.get('statl') or '', (x.get('en') or {}).get('h') or ''])))
+        if now.hour in CAL:
+            top = calendar(now, CAL[now.hour], stories, sadf, done, key, dry)
+            if top: mark(top, 'top')
+            st['slot'] = slot; top = None
+        else:
+            top = next((x for x in stories if sid(x) not in done and when(x) and now - when(x) < datetime.timedelta(hours=6)
+                    and not (greet and sadf(x))), None)
         if top:
             kd = GREET.get(now.hour, 'top'); print('TOP STORY (' + kd + '):', top.get('h')); send(top, kd, key, dry); mark(top, 'top')
         st['slot'] = slot

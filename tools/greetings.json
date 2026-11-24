@@ -1,0 +1,469 @@
+{
+ "start": "2026-11-25",
+ "note": "From the owner's \"Swipe2News 30-Day Greeting Alert Calendar\" (24 Nov 2026). Lines that promised things the app does not have yet (petrol rates, tithi, recipes, quizzes, reading streak, monthly top-10, reader names) were adjusted. Restart from Day 1 after Day 30.",
+ "days": [
+  {
+   "day": 1,
+   "theme": "Fresh start",
+   "topic": "",
+   "m": {
+    "te": "శుభోదయం. {district}లో కొత్త రోజు మొదలైంది. ముందుగా చదవాల్సిన వార్తలు ఇవే.",
+    "en": "Good morning. A fresh day in {district}. Here are the stories to start with."
+   },
+   "e": {
+    "te": "శుభ సాయంత్రం. ఈరోజు {district}లో జరిగిన ముఖ్య విషయాలు ఇవే.",
+    "en": "Good evening. Here's what happened in {district} today."
+   }
+  },
+  {
+   "day": 2,
+   "theme": "Chai time",
+   "topic": "",
+   "m": {
+    "te": "చాయ్ రెడీ, వార్తలూ రెడీ. ఈరోజు ముఖ్యాంశాలు చూడండి.",
+    "en": "Your chai is ready, and so is your news. Today's top headlines inside."
+   },
+   "e": {
+    "te": "బిజీ రోజా? ఈరోజు ముఖ్య వార్తలు 2 నిమిషాల్లో.",
+    "en": "Long day? Catch up on today's top stories in 2 minutes."
+   }
+  },
+  {
+   "day": 3,
+   "theme": "Weather",
+   "topic": "weather",
+   "m": {
+    "te": "ఈరోజు {city}లో వాతావరణం: {weather}. బయలుదేరే ముందు వార్తలు చూడండి.",
+    "en": "Today in {city}: {weather}. Plan your day with the latest news.",
+    "pte": "ఈరోజు వాతావరణం, ముఖ్య వార్తలు. బయలుదేరే ముందు చూడండి.",
+    "pen": "Today's weather and top news. Check before you head out."
+   },
+   "e": {
+    "te": "రేపటి వాతావరణం, ఈరాత్రి ముఖ్య వార్తలు ఒకే చోట.",
+    "en": "Tomorrow's weather and tonight's top stories, all in one place."
+   }
+  },
+  {
+   "day": 4,
+   "theme": "Commute",
+   "topic": "commute",
+   "m": {
+    "te": "ఆఫీస్‌కి బయలుదేరుతున్నారా? {city} ట్రాఫిక్, నగర వార్తలు ఇక్కడ.",
+    "en": "On your way to work? Traffic and city updates for {city}."
+   },
+   "e": {
+    "te": "ఇంటికి వెళ్తున్నారా? ఈరోజు మీరు మిస్ అయిన వార్తలు ఇవే.",
+    "en": "Heading home? Here's what you missed today."
+   }
+  },
+  {
+   "day": 5,
+   "theme": "Gold rates",
+   "topic": "money",
+   "m": {
+    "te": "ఈరోజు బంగారం, వెండి ధరలు, ముఖ్య వార్తలు.",
+    "en": "Today's gold and silver rates, plus top news."
+   },
+   "e": {
+    "te": "ఈరోజు మార్కెట్ ఎలా ఉంది? ధరలు, వ్యాపార వార్తలు క్లుప్తంగా.",
+    "en": "How did markets move today? Prices and business news in brief."
+   }
+  },
+  {
+   "day": 6,
+   "theme": "Farmers",
+   "topic": "farm",
+   "m": {
+    "te": "రైతన్నలకు శుభోదయం. ఈరోజు మార్కెట్ యార్డ్ ధరలు, పంట సమాచారం.",
+    "en": "Good morning to our farmers. Today's mandi prices and crop updates."
+   },
+   "e": {
+    "te": "వర్షం, ధరలు, పథకాలు: {district} వ్యవసాయ వార్తలు.",
+    "en": "Rain, rates and schemes: today's agriculture news for {district}."
+   }
+  },
+  {
+   "day": 7,
+   "theme": "Parents & students",
+   "topic": "edu",
+   "m": {
+    "te": "తల్లిదండ్రుల కోసం: స్కూల్ సెలవులు, పరీక్షలు, ఫలితాల సమాచారం.",
+    "en": "For parents: school holidays, exams and results news today."
+   },
+   "e": {
+    "te": "రేపటి స్కూల్, కాలేజీ అప్‌డేట్స్ ఒకే చోట.",
+    "en": "Tomorrow's school and college updates, in one place."
+   }
+  },
+  {
+   "day": 8,
+   "theme": "Big story",
+   "topic": "",
+   "m": {
+    "te": "ఈరోజు {state} అంతా మాట్లాడుకుంటున్న పెద్ద వార్త ఇదే.",
+    "en": "One big story everyone in {state} is talking about today."
+   },
+   "e": {
+    "te": "ఈరోజు పెద్ద వార్త, సులభంగా వివరంగా.",
+    "en": "The full picture: today's big story, explained simply."
+   }
+  },
+  {
+   "day": 9,
+   "theme": "Jobs",
+   "topic": "jobs",
+   "m": {
+    "te": "ఈరోజు కొత్త ఉద్యోగ నోటిఫికేషన్లు, పరీక్షల అప్‌డేట్స్. గడువు మిస్ అవ్వకండి.",
+    "en": "New job notifications and exam updates today. Don't miss the deadlines."
+   },
+   "e": {
+    "te": "విద్యార్థులు, ఉద్యోగార్థులకు: ఈరోజు విద్యా వార్తలు క్లుప్తంగా.",
+    "en": "Students and job seekers: today's education news in brief."
+   }
+  },
+  {
+   "day": 10,
+   "theme": "Remember today",
+   "topic": "",
+   "m": {
+    "te": "శుభోదయం. ఈరోజు గుర్తుంచుకోవాల్సిన వార్తలతో రోజు మొదలుపెట్టండి.",
+    "en": "Good morning. Start your day with the news worth remembering."
+   },
+   "e": {
+    "te": "ఈరోజు గుర్తుండిపోయే వార్త: {headline}.",
+    "en": "Today's story you'll remember: {headline}.",
+    "pte": "ఈరోజు గుర్తుండిపోయే వార్త ఇదే.",
+    "pen": "Today's story you'll remember."
+   }
+  },
+  {
+   "day": 11,
+   "theme": "Good words",
+   "topic": "",
+   "m": {
+    "te": "నేటి మంచి మాట: {quote}",
+    "en": "Today's thought: {quote}",
+    "pte": "నేటి మంచి మాటతో, ముఖ్య వార్తలతో రోజు మొదలుపెట్టండి.",
+    "pen": "Start your day with a good thought and the top news."
+   },
+   "e": {
+    "te": "శుభరాత్రి. రేపటి ముఖ్య విషయాలు లోపల.",
+    "en": "Good night. Tomorrow's key updates inside."
+   }
+  },
+  {
+   "day": 12,
+   "theme": "Politics",
+   "topic": "politics",
+   "m": {
+    "te": "ఈరోజు హైదరాబాద్, అమరావతిలో ఏం జరుగుతోంది? రాజకీయ వార్తలు ఇక్కడ.",
+    "en": "What's happening in Hyderabad and Amaravati today? Political updates inside."
+   },
+   "e": {
+    "te": "ఈరోజు ప్రభుత్వం, పార్టీల వార్తలు 60 సెకన్లలో.",
+    "en": "Government and party news from today, in 60 seconds."
+   }
+  },
+  {
+   "day": 13,
+   "theme": "Movies",
+   "topic": "movies",
+   "m": {
+    "te": "కొత్త తెలుగు సినిమా అప్‌డేట్స్, ట్రైలర్లు, బాక్స్ ఆఫీస్ వార్తలు.",
+    "en": "New Telugu movie updates, trailers and box office news."
+   },
+   "e": {
+    "te": "ఈరాత్రి ఏం చూడాలి? OTT విడుదలలు, వినోద వార్తలు.",
+    "en": "What to watch tonight? OTT releases and entertainment news."
+   }
+  },
+  {
+   "day": 14,
+   "theme": "Family",
+   "topic": "",
+   "m": {
+    "te": "కుటుంబంతో హాయిగా చదవదగిన వార్తలు.",
+    "en": "Easy reads for a relaxed morning with your family."
+   },
+   "e": {
+    "te": "ఈరోజు మీ జిల్లా నుంచి మంచి వార్తలు.",
+    "en": "Today's feel-good stories from your district."
+   }
+  },
+  {
+   "day": 15,
+   "theme": "Health",
+   "topic": "health",
+   "m": {
+    "te": "శుభోదయం. ఆరోగ్య వార్తలు, నేటి ముఖ్య వార్తలు.",
+    "en": "Good morning. Health news and today's top stories."
+   },
+   "e": {
+    "te": "ఈరోజు తెలంగాణ, ఏపీ ఆరోగ్య వార్తలు.",
+    "en": "Health and hospital news from Telangana and AP today."
+   }
+  },
+  {
+   "day": 16,
+   "theme": "Did you know",
+   "topic": "",
+   "m": {
+    "te": "మీకు తెలుసా? {local_fact} నేటి ముఖ్యాంశాలు లోపల.",
+    "en": "Did you know? {local_fact} Today's headlines inside.",
+    "pte": "మీకు తెలుసా? నేటి ఆసక్తికర విషయాలు, ముఖ్యాంశాలు లోపల.",
+    "pen": "Did you know? Today's interesting reads and headlines inside."
+   },
+   "e": {
+    "te": "ఈరోజు మిస్ అవ్వకూడని ఒక ఆసక్తికర వార్త.",
+    "en": "One surprising story from today you shouldn't miss."
+   }
+  },
+  {
+   "day": 17,
+   "theme": "Sports",
+   "topic": "sports",
+   "m": {
+    "te": "క్రికెట్, క్రీడా అప్‌డేట్స్‌తో ఉదయం మొదలుపెట్టండి.",
+    "en": "Start your morning with cricket and sports updates."
+   },
+   "e": {
+    "te": "ఈరోజు మ్యాచ్ స్కోర్లు, ఫలితాలు, హైలైట్స్.",
+    "en": "Scores, results and highlights from today's games."
+   }
+  },
+  {
+   "day": 18,
+   "theme": "Your district",
+   "topic": "",
+   "m": {
+    "te": "ఈరోజు {district}లో ఏం జరుగుతోందో చూడండి.",
+    "en": "Here's what's happening in {district} today."
+   },
+   "e": {
+    "te": "మీ సాయంత్రం వార్తలు సిద్ధం. 2 నిమిషాల్లో చదివేయండి.",
+    "en": "Your evening brief is ready. Read it in 2 minutes."
+   }
+  },
+  {
+   "day": 19,
+   "theme": "Schemes",
+   "topic": "schemes",
+   "m": {
+    "te": "కొత్త పథకాల సమాచారం: ఎవరు అర్హులు, ఎలా దరఖాస్తు చేయాలి.",
+    "en": "New scheme updates: who's eligible and how to apply."
+   },
+   "e": {
+    "te": "ఈరోజు పింఛన్, రేషన్, సంక్షేమ పథకాల అప్‌డేట్స్.",
+    "en": "Pension, ration and welfare updates from today."
+   }
+  },
+  {
+   "day": 20,
+   "theme": "Thank you",
+   "topic": "",
+   "m": {
+    "te": "రోజూ మాతో వార్తలు చదువుతున్నందుకు ధన్యవాదాలు. నేటి వార్తలు ఇవే.",
+    "en": "Thank you for reading with us every day. Here's today's brief."
+   },
+   "e": {
+    "te": "ఈరాత్రి ముఖ్య వార్తలు సిద్ధం.",
+    "en": "Tonight's top stories are ready."
+   }
+  },
+  {
+   "day": 21,
+   "theme": "Good news",
+   "topic": "",
+   "m": {
+    "te": "మంచి వార్తతో రోజు మొదలుపెట్టండి. {state} నుంచి స్ఫూర్తిదాయక కథనం.",
+    "en": "Start with something good. Today's inspiring story from {state}."
+   },
+   "e": {
+    "te": "మంచి వార్తలు మాత్రమే: మిమ్మల్ని నవ్వించే కథనాలు.",
+    "en": "Good news only: stories that will make you smile tonight."
+   }
+  },
+  {
+   "day": 22,
+   "theme": "Tech & cyber",
+   "topic": "tech",
+   "m": {
+    "te": "కొత్త ఫోన్లు, యాప్‌లు, సైబర్ మోసాల హెచ్చరికలు: నేటి టెక్ వార్తలు.",
+    "en": "New phones, new apps and scam alerts: today's tech news in brief."
+   },
+   "e": {
+    "te": "ఆన్‌లైన్‌లో జాగ్రత్త: ఈరోజు సైబర్ క్రైమ్ హెచ్చరికలు.",
+    "en": "Stay safe online: today's cyber crime alerts from Telangana and AP."
+   }
+  },
+  {
+   "day": 23,
+   "theme": "City services",
+   "topic": "city",
+   "m": {
+    "te": "ఈరోజు {city}లో నీటి సరఫరా, కరెంట్ కోతలు, రోడ్ పనుల సమాచారం.",
+    "en": "Water supply, power cuts and roadworks in {city} today."
+   },
+   "e": {
+    "te": "రేపటి కోసం నగర సమాచారం: ముందే ప్లాన్ చేసుకోండి.",
+    "en": "City updates for tomorrow, so you can plan ahead."
+   }
+  },
+  {
+   "day": 24,
+   "theme": "Devotional",
+   "topic": "devotional",
+   "m": {
+    "te": "శుభోదయం. ఆలయ విశేషాలు, ముఖ్య వార్తలు.",
+    "en": "Good morning. Temple updates and top news."
+   },
+   "e": {
+    "te": "తిరుమల, ఆలయాల విశేషాలు, ఈరోజు భక్తి వార్తలు.",
+    "en": "Tirumala, temple updates and devotional news from today."
+   }
+  },
+  {
+   "day": 25,
+   "theme": "Follow the news",
+   "topic": "",
+   "m": {
+    "te": "ఈరోజు వార్తలు ఫాలో అవుతున్నారా? ముఖ్యాంశాలు ఇక్కడ.",
+    "en": "Following today's news? The headlines are here."
+   },
+   "e": {
+    "te": "ఈరోజు వార్తలు ఎంత ఫాలో అయ్యారు? రోజు మొత్తం ఒకే చోట.",
+    "en": "How well did you follow today's news? The whole day in one place."
+   }
+  },
+  {
+   "day": 26,
+   "theme": "District spotlight",
+   "topic": "",
+   "m": {
+    "te": "{district} ప్రత్యేకం: నేటి స్థానిక కథనాలు, వ్యక్తులు.",
+    "en": "Spotlight on {district}: today's local stories and people."
+   },
+   "e": {
+    "te": "మీ మండలం నుంచి రాష్ట్రం వరకు: నేటి స్థానిక వార్తలు.",
+    "en": "From your mandal to the state: today's local news roundup."
+   }
+  },
+  {
+   "day": 27,
+   "theme": "India & world",
+   "topic": "world",
+   "m": {
+    "te": "దేశం, ప్రపంచం: ఈ ఉదయం ముఖ్య వార్తలు తెలుగులో.",
+    "en": "India and the world this morning, explained in Telugu."
+   },
+   "e": {
+    "te": "ఈరోజు జాతీయ ముఖ్య వార్తలు, మీపై వాటి ప్రభావం.",
+    "en": "Today's big national stories and how they affect you."
+   }
+  },
+  {
+   "day": 28,
+   "theme": "Prices",
+   "topic": "money",
+   "m": {
+    "te": "శుభోదయం. టిఫిన్ అయిందా? నేటి వార్తలు ఇవే.",
+    "en": "Good morning. Had your tiffin? Here's today's news."
+   },
+   "e": {
+    "te": "ఈరోజు మార్కెట్ ధరలు, ముఖ్య వార్తలు.",
+    "en": "Today's market prices and top news."
+   }
+  },
+  {
+   "day": 29,
+   "theme": "Thank you",
+   "topic": "",
+   "m": {
+    "te": "Swipe2News తో రోజు మొదలుపెట్టినందుకు ధన్యవాదాలు. నేటి వార్తలు ఇవే.",
+    "en": "Thanks for starting your day with Swipe2News. Here's today's brief."
+   },
+   "e": {
+    "te": "మీకు ఎలాంటి వార్తలు ఎక్కువ కావాలి? ట్యాప్ చేసి వాట్సాప్‌లో చెప్పండి.",
+    "en": "What news do you want more of? Tap to tell us on WhatsApp."
+   }
+  },
+  {
+   "day": 30,
+   "theme": "Month end",
+   "topic": "",
+   "m": {
+    "te": "నెలలో చివరి రోజు: బిల్లులు, గడువులు గుర్తుంచుకోండి. నేటి వార్తలు ఇవే.",
+    "en": "Last day of the month: remember your bills and deadlines. Today's news inside."
+   },
+   "e": {
+    "te": "ఈ రోజు తెలంగాణ, ఏపీలో ముఖ్య వార్తలు ఒకే చోట.",
+    "en": "Today's key stories from Telangana and AP, in one place."
+   }
+  }
+ ],
+ "weekday": {
+  "mon_m": {
+   "te": "కొత్త వారం, కొత్త ఆరంభం. వారం ప్లాన్‌కి ముఖ్య అప్‌డేట్స్.",
+   "en": "New week, fresh start. Key updates to plan your week."
+  },
+  "fri_m": {
+   "te": "శుక్రవారం వచ్చేసింది. కొత్త తెలుగు సినిమాలు, ఫస్ట్ రివ్యూలు.",
+   "en": "Friday is here. New Telugu releases and first reviews."
+  },
+  "sat_e": {
+   "te": "వీకెండ్ ప్లాన్? {city} దగ్గర సినిమాలు, ఈవెంట్లు, చూడదగిన ప్రదేశాలు.",
+   "en": "Weekend plans? Movies, events and places to visit near {city}."
+  },
+  "sun_m": {
+   "te": "ఆదివారం విశ్రాంతి. ఈ వారం పెద్ద వార్తలు ఒకే చోట.",
+   "en": "Slow Sunday? The week's biggest stories in one place."
+  },
+  "sun_e": {
+   "te": "సోమవారానికి సిద్ధమా? రాబోయే వారం తెలుసుకోవాల్సినవి.",
+   "en": "Get ready for Monday. What to know for the week ahead."
+  }
+ },
+ "festivals": {
+  "2026-12-25": {
+   "m": {
+    "te": "మీకు, మీ కుటుంబానికి క్రిస్మస్ శుభాకాంక్షలు. మీ నగరంలో వేడుకలు, కథనాలు.",
+    "en": "Merry Christmas. Celebrations and stories from your city."
+   }
+  }
+ },
+ "festival_lines": {
+  "sankranti": {
+   "te": "మీకు, మీ కుటుంబానికి సంక్రాంతి శుభాకాంక్షలు. మీ ఊరి పండుగ విశేషాలు.",
+   "en": "Sankranti wishes to you and your family. Festival updates from your town."
+  },
+  "ugadi": {
+   "te": "ఉగాది శుభాకాంక్షలు. ఈ ఏడాది పంచాంగ విశేషాలు, నేటి వార్తలు.",
+   "en": "Happy Ugadi. Read this year's panchangam highlights and today's news."
+  },
+  "bathukamma": {
+   "te": "బతుకమ్మ శుభాకాంక్షలు. తెలంగాణ అంతటా వేడుకలు ఇలా.",
+   "en": "Happy Bathukamma. See how Telangana is celebrating today."
+  },
+  "bonalu": {
+   "te": "బోనాల శుభాకాంక్షలు. హైదరాబాద్ ఆలయ విశేషాలు, వేడుకలు.",
+   "en": "Bonalu wishes. Temple updates and celebrations from Hyderabad."
+  },
+  "dasara": {
+   "te": "దసరా శుభాకాంక్షలు. పండుగ వార్తలు, ట్రాఫిక్, సెలవుల సమాచారం.",
+   "en": "Happy Dasara. Festival news, traffic and holiday updates."
+  },
+  "diwali": {
+   "te": "దీపావళి శుభాకాంక్షలు. జాగ్రత్తగా జరుపుకోండి: పండుగ, భద్రత వార్తలు.",
+   "en": "Happy Diwali. Celebrate safely: today's festival and safety updates."
+  },
+  "ramzan": {
+   "te": "రంజాన్ శుభాకాంక్షలు. రాష్ట్రమంతటా వేడుకలు, అప్‌డేట్స్.",
+   "en": "Ramzan Mubarak. Celebrations and updates from across the state."
+  },
+  "christmas": {
+   "te": "మీకు, మీ కుటుంబానికి క్రిస్మస్ శుభాకాంక్షలు. మీ నగరంలో వేడుకలు, కథనాలు.",
+   "en": "Merry Christmas. Celebrations and stories from your city."
+  }
+ },
+ "festival_how": "Add a date to \"festivals\" once the official 2027 holiday list is out: \"YYYY-MM-DD\": {\"m\": festival_lines[<name>]} (morning) and optionally \"e\"."
+}
