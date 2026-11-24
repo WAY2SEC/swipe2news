@@ -60,6 +60,11 @@ p.sum{font:400 16px/1.6 var(--tx);color:var(--ink)}
 .toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:var(--deep);color:#fff;font:600 14px var(--ui);padding:10px 16px;border-radius:12px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:10}
 .toast.on{opacity:1}
 </style>
+<script>
+/* Nigeria edition is only for phones on Nigerian time (Africa/Lagos). Everyone else goes to the normal app. */
+(function(){try{var tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';
+ if(tz!=='Africa/Lagos'&&!/bot|crawl|spider|Lighthouse/i.test(navigator.userAgent))location.replace('/');}catch(e){}})();
+</script>
 </head>
 <body>
 <header>
@@ -138,6 +143,15 @@ $('chips').onclick=e=>{ const b=e.target.closest('[data-s]'); if(!b) return; sec
 $('prev').onclick=()=>go(-1); $('next').onclick=()=>go(1);
 addEventListener('keydown',e=>{ if(e.key==='ArrowRight') go(1); if(e.key==='ArrowLeft') go(-1); });
 $('ed').onclick=()=>{ $('sheet').hidden=false; };
+// NEW readers only (never used Swipe2News on this phone): welcome + "Choose your country" (Nigeria already ticked).
+// Existing readers (any saved w2s.* setting from the app) go straight to the news.
+let first=false; try{ let old=false; for(let k=0;k<localStorage.length;k++){ if((localStorage.key(k)||'').indexOf('w2s.')===0){ old=true; break; } }
+  first=!old&&!localStorage.getItem('s2n.ng.welcomed'); }catch(e){}
+if(first){ $('shT').textContent='Welcome to Swipe2News 👋'; $('sheet').querySelector('p').innerHTML='<b>Choose your country</b> – we show the news for the country you pick. You can change it later from the 🇳🇬 menu at the top.';
+  const c=$('sheet').querySelector('[data-close]'); c.textContent='Continue with Nigeria ›'; c.style.background='var(--apricot)'; c.style.borderColor='var(--apricot)'; c.style.color='var(--deep)';
+  $('sheet').hidden=false; }
+const done=()=>{ try{ localStorage.setItem('s2n.ng.welcomed','1'); }catch(e){} if(first){ first=false; $('shT').textContent='Choose your country'; } };
+$('sheet').addEventListener('click',e=>{ if(e.target.closest('[data-ed],[data-close]')||e.target===$('sheet')) done(); },true);
 $('sheet').onclick=e=>{ const b=e.target.closest('[data-ed],[data-close]'); if(e.target===$('sheet')||(b&&b.dataset.close!==undefined)) return $('sheet').hidden=true;
   if(b&&b.dataset.ed==='in'){ try{ localStorage.setItem('s2n.edition','in'); }catch(x){} location.href='/?ed=in'+(q.has('source')?'&source='+encodeURIComponent(q.get('source')):''); }
   else if(b) $('sheet').hidden=true; };
