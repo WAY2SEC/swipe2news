@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-24T05:35:00+05:30",
+ "cutoff": "2026-11-24T06:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-21T12:05:00+05:30/2026-11-21T12:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 3,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Lookback from 04:05. Feeds 12:29 IST, 68/68 ok, 712 TG/AP flagged uncovered (most already published under other URLs). add_repo not available; used existing clone. Published 3: Telangana 95.28% HPV coverage/AP 100% (DC/PTI), Kesamudram gudumba raids (Andhra Prabha), Invest Telangana summit prep despite appeals (Telangana Today, claim). Duplicates: Siasat SSC 2027 timetable sent for approval (= 20 Nov 'SSC exams likely March 17 or 18'), South First AP HPV (merged into HPV story). Skipped: Andhra Jyothy CM World Fisheries Day greeting (thin). Old: Asianet Kaishika Dwadashi (Nov 2025). Not opened (no search match): The Hindu GMC Karimnagar infra, Siasat egg racket Malakpet, ETV Bharat north TG trains demand, HMTV Kamareddy Ashok Nagar RUB dharna, HMTV Suryapet tippers protest, HMTV Velugumatla Justice Chandrakumar, Indian Express Cyclone Akvan weakening, TT India 118-run lead. District searches (Adilabad, Srikakulam, Nizamabad, Anantapur) returned only tag pages. Lang pages, index.html and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-21T12:35:00+05:30/2026-11-21T13:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 0,
    "gaps": "Lookback from 15:35 (23 Nov). Feeds 05:05 IST (69/70 ok). 492 uncovered events first seen since 23:10 scanned (~120 local). add_repo tool not available; used existing clone. 05:05 sister run had not saved state, so window covers 23:35-05:35. Published: Hans India Hyderabad bomb threat mail hoax per DGP (fact), DC Godavari Pushkaralu Rs 1,115 cr (fact). Skipped as old articles re-surfaced in feeds: DD News Cyclone Murasu NDRF (2 Nov), News On AIR SC AP SEC candidate list (21 Oct), TT BRS water rights (Jul 2025), TT oil palm (Jun 2026), NT oil palm price demand (18 Nov). Duplicates: TOI/Hans KRMB no headway (published 23 Nov), TT AIMIM worker Himayatsagar (published 23 Nov), TOI Guntur mayor (published 23 Nov). Search did not return (left unseen): DC Vijayawada mayor, Hans Nellore mayor, DC old secretariat collapse, DC PJTSAU BTech AI, DC OU PhD entrance, Hans HMDA-HCCB pact, TOI Metro Phase-II, DC Warangal rice PDS, Hans Errolla, Adda247 asst professor, earthquake Utnur, Andhraprabha Nalgonda verdict, Eenadu items (robots). District searches: Karimnagar, Srikakulam, Khammam, Kadapa, Nizamabad, Anantapur (no in-window items returned). lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-24T05:35:00+05:30/2026-11-24T06:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 4,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 5,
+   "review": 0,
+   "gaps": "Lookback from 21:35 (23 Nov). Feeds 06:04 IST (63/70 ok; failing TV9 Telugu, V6, 10TV, Vaartha, district Hyderabad-en/Medak/Vizianagaram). 06:05 sister run had not saved state, so window covers 05:35-06:35. 75 uncovered events first seen since 05:00 (22 local, many Eenadu-only). add_repo tool not available; used existing clone. Published: Hans AP phase-3 panchayat nominations (fact), Hans Kadiyam quit-politics challenge (claim), Hans YSRCP Save Visakhapatnam (claim), Hans Parakala Vetapalem library (fact). Skipped as old: Herald Baengnyeong aircraft (Sep 2026), Maritime Executive SCI tender (Aug 2026), AJ Siddipet flexis (19 Nov), News On AIR AP rain Nov 26-29 (2024), Vizag Forever nominations (23 Nov 09:51, before lookback). Already covered: India-Nepal vision, Amit Shah visit cancelled, Guru Nanak holiday. Search did not return: Hans Congress vs KTR Warangal, News On AIR Akvan alert, IE India-Nepal, ANI UNSC Black Sea, NDTV Jaishankar-Lavrov, Eenadu items (robots). District searches: Mahabubnagar/Nagarkurnool/Wanaparthy, Visakhapatnam/Vizianagaram/Kakinada, Siddipet/Medak/Sangareddy, Tirupati/Chittoor/Nellore, Karimnagar/Peddapalli/Jagtial, Guntur/Prakasam/Bapatla. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7743,6 +7743,51 @@
    "url": "https://www.ntnews.com/telangana/fix-rs-25-000-minimum-guaranteed-price-per-ton-for-oil-palm-farmers-demand-2563106",
    "d": "2026-11-24",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/vijayawada/3rd-phase-panchayat-polls-sees-surge-in-nominations-on-2nd-day-1145156",
+   "d": "2026-11-24",
+   "w": "p"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/warangal/ready-to-quit-politics-if-corruption-charges-proved-kadiyam-srihari-1145161",
+   "d": "2026-11-24",
+   "w": "p"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/ysrcp-vows-to-intensify-save-visakhapatnam-campaign-1145137",
+   "d": "2026-11-24",
+   "w": "p"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/parakala-visits-saraswata-niketanam-library-1145212",
+   "d": "2026-11-24",
+   "w": "p"
+  },
+  {
+   "url": "https://mbiz.heraldcorp.com/article/10882627",
+   "d": "2026-11-24",
+   "w": "skip"
+  },
+  {
+   "url": "https://maritime-executive.com/article/india-s-sci-seeks-six-newbuild-lng-containerships-in-its-biggest-tender",
+   "d": "2026-11-24",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/medak/revanth-reddy-siddipet-visit-flexi-banners-pending-development-works-1577722.html",
+   "d": "2026-11-24",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.newsonair.gov.in/imd-predicts-heavy-rainfall-in-andhra-pradesh-from-nov-26-29",
+   "d": "2026-11-24",
+   "w": "skip"
+  },
+  {
+   "url": "https://vizagforever.com/post/panchayat-nominations-close-today-polling-on-december-2",
+   "d": "2026-11-24",
+   "w": "skip"
   }
  ]
 }
