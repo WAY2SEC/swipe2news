@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-24T15:35:00+05:30",
+ "cutoff": "2026-11-24T16:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-21T17:05:00+05:30/2026-11-21T17:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 4,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 5,
-   "review": 0,
-   "gaps": "Lookback from 09:05. Feeds 17:12 IST, 70/70 ok, 883 TG/AP flagged uncovered; 61 events first seen since 16:40 reviewed. add_repo not available; used existing clone. Published 4: Gandhi Hospital newborn abduction, six held (Andhra Jyothy, sensitive, police), TGCSB arrests two Kurnool students for film piracy (Siasat), AP SIPC Rs 38,362 cr proposals (ETV Bharat), APMDC Rs 40,050 cr mining revenue target (ETV Bharat). Not opened: Sakshi Education PJTAU 566 faculty posts (fetch 4xx; Hyderabad Mail copy not found), The Hindu TISC 1,000 proposals, Eenadu OU Rs 480 cr (no alternate found), ETV Grindr robbery Vijayawada, TT Odissi Utsav. Skipped: entertainment, devotional, recipes, sports, other-state items, BRS party calls. Lang pages, index.html and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-21T17:35:00+05:30/2026-11-21T18:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 06:35. Feeds 15:32 IST (70/70 ok). 15:05 sister run had not saved state. add_repo tool not available; used existing clone. Published: NT News Bachupally septic tank 3 deaths (sensitive, no names), DC CM Naidu review of 8 road deaths, Andhra Jyothy AP SEC poll review, Sakshi YSRCP legal notices (claim, late-found 08:43), DC Kanumuru tiger operation. Duplicates: Basara IIIT student death (10:35), SI hall tickets (23 Nov). Skipped old: South First/Medical Dialogues AP Rs1,011cr hospitals (19-21 Nov), TT Manjeera cut (18 Oct), newsonair rain (2024). Not opened (no search hit for feed headline): Vaartha/TV9 trough rain forecast, NT Adilabad fake currency, Hindu TG agri NPAs Rs7,304cr, HMTV Alluri panchayat phases, HMTV Kollapur KLI water, ETV AP road-safety GO, NTV Khajaguda green tankers, TT IndiGo Agartala, TT Nizamabad ATM, Samayam Singur Dec 20. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-24T15:35:00+05:30/2026-11-24T16:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 4,
+   "late": 2,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 07:35. Feeds 15:43 IST (70/70 ok). add_repo tool not available; used existing clone. Published: Andhra Jyothy Ootpally (Vikarabad) house fire, NT News Adilabad fake-notes gang 4 arrested (police), DC Manuguru car-bus collision, Siasat AICC in-charge meets two Congress MLAs (claim, late-found 13:19). Skipped old: DC 12 AP mayors take charge (23 Nov 22:48), Hans Narsipatnam chairperson oath (02:03), Siasat Invest Telangana summit expo (23 Nov 22:54). Not opened (no search hit for feed headline): V6 Hyderabad congestion charges, Hindu TG agri NPAs Rs7,304cr, Andhra Jyothy Sridhar Babu global summit, Prabha AgriGold bonds, TT AIMIM outreach. General TG/AP date searches returned little fresh; no district searches this run. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8243,6 +8243,46 @@
    "url": "https://telanganatoday.com/hyderabad-water-supply-hmwssb-plans-10-mgd-manjeera-cut-from-december",
    "d": "2026-11-24",
    "w": "2026-11-24T15:35"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/rangareddy/vikarabad-ootpally-house-fire-cylinder-blast-suchi-1579377.html",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/adilabad/gang-involved-in-counterfeit-currency-fraud-busted-2567949",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/manuguru-car-collides-with-pallevelugu-bus-driver-seriously-injured-2007487",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/hyderabad-raj-gopal-reddy-anirudh-reddy-meet-aicc-in-charge-sandeep-3585429/",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/fake-currency-scam-busted-gang-using-children-bank-of-india-notes-cheats-people-from-hyderabad-to-adilabad",
+   "d": "2026-11-24",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/12-mayors-nine-from-td-assume-charge-in-ap-2007276",
+   "d": "2026-11-24",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/chintakayala-padmavathi-takes-oath-as-narsipatnam-municipal-chairperson-1145140",
+   "d": "2026-11-24",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/invest-telangana-global-summit-to-be-indias-largest-exhibition-cm-3585129/",
+   "d": "2026-11-24",
+   "w": "skipped"
   }
  ]
 }
