@@ -34,6 +34,13 @@ setTimeout(box,12000);setTimeout(box,25000);})();
    Other times: phones and the installed app open the swipe cards; laptops and desktops get the news website. */
 (function(){try{var q=new URLSearchParams(location.search);
  if(/bot|crawl|spider|slurp|facebookexternalhit|WhatsApp|Lighthouse|Google-InspectionTool/i.test(navigator.userAgent))return; // search engines and link preview
+ /* Nigeria edition (TEST, 24 Nov 2026): ?ed=ng / ?ed=in saves the reader's choice; with no choice, phones on Nigerian time
+    (Africa/Lagos) open /ng/. Only plain visits move (no story/section links). Everyone else: no change. */
+ var ed=q.get('ed'),ch='',tz='';
+ try{if(ed==='ng'||ed==='in')localStorage.setItem('s2n.edition',ed);ch=localStorage.getItem('s2n.edition')||'';}catch(e){}
+ try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';}catch(e){}
+ var bare=true;q.forEach(function(v,k){if(k!=='source'&&k!=='ed')bare=false;});
+ if(bare&&(ch==='ng'||(!ch&&tz==='Africa/Lagos'))){location.replace('/ng/'+(q.has('source')?'?source='+encodeURIComponent(q.get('source')):''));return;}
  document.documentElement.classList.add('rdr'); // a real reader: show the loading screen, not the search-engine texts stay on this page
  var ist=new Date(Date.now()+(330+new Date().getTimezoneOffset())*60000), mins=ist.getHours()*60+ist.getMinutes();
  var plain=!['cards','s','d','dates','saved','jobs','tip','build','l','sharecard','wishes','sec','q'].some(function(k){return q.has(k);});

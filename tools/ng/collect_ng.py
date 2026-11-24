@@ -46,7 +46,7 @@ def plain(x, n):
 
 
 def parse(raw):
-    root = ET.fromstring(raw)
+    root = ET.fromstring(raw.lstrip())   # some feeds start with a blank line
     out = []
     for it in root.iter("item"):
         src = it.find("source")
