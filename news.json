@@ -1,8 +1,400 @@
 {
  "date": "24.11.2026",
- "updated": "2026-11-24T10:35:00+05:30",
+ "updated": "2026-11-24T11:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "తెలంగాణ · నీరు",
+   "col": "--c-water",
+   "art": "water",
+   "pic": "e/irrigation-canal-repair",
+   "stat": "10 టీఎంసీల",
+   "statl": "అదనపు నీటికి తెలంగాణ అడ్డు",
+   "h": "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగాణ",
+   "p": "కృష్ణా డెల్టాకు అదనంగా 10 టీఎంసీల నీరు కావాలన్న ఏపీ కోరికను తెలంగాణ ఒప్పుకోలేదు. సోమవారం హైదరాబాద్‌లో నాలుగు గంటల పాటు జరిగిన కృష్ణా నది యాజమాన్య బోర్డు సమావేశం ఏ నిర్ణయం లేకుండానే ముగిసింది. హైదరాబాద్ తాగునీటికి నీళ్లు అవసరమని తెలంగాణ చెప్పింది.",
+   "pts": [
+    "సాగర్‌లో 45 టీఎంసీలు ఉన్నా పంచుకోగలిగేది 25 టీఎంసీలే: తెలంగాణ",
+    "ఫిబ్రవరి వరకు తెలంగాణ 21, ఏపీ 19 టీఎంసీలు అడిగాయి",
+    "డెల్టా హక్కులు వదులుకోమని ఏపీ ఇంజినీర్ చెప్పారు"
+   ],
+   "why": "నాగార్జునసాగర్ నీటిపై ఆధారపడిన రెండు రాష్ట్రాల రైతులు, హైదరాబాద్ ప్రజలపై ఈ నిర్ణయం ప్రభావం ఉంటుంది.",
+   "next": "కృష్ణా డెల్టా అంశాన్ని బోర్డు తదుపరి సమావేశంలో మళ్లీ చర్చిస్తుంది",
+   "src": "Siasat",
+   "url": "https://www.siasat.com/telangana-opposes-aps-extra-10-tmcft-demand-krmb-talks-stall-3585204/",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-24T09:36+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Water",
+    "stat": "10 tmcft",
+    "statl": "extra water opposed by Telangana",
+    "loc": "Hyderabad",
+    "h": "No extra Krishna water for AP delta: TG",
+    "p": "Telangana refused Andhra Pradesh's request for an extra 10 tmcft of Krishna water for the Krishna Delta. The four-hour Krishna River Management Board meeting in Hyderabad on Monday ended without a decision. Telangana said it needs the water for Hyderabad's drinking supply.",
+    "pts": [
+     "Telangana: of 45 tmcft in Sagar, only about 25 tmcft can be shared",
+     "Telangana sought 21 tmcft and AP 19 tmcft till February",
+     "AP engineer said the state will not give up delta rights"
+    ],
+    "why": "Farmers in both states and Hyderabad residents depend on Nagarjuna Sagar water.",
+    "next": "The board will take up the Krishna Delta issue again at its next meeting"
+   },
+   "hi": {
+    "cat": "तेलंगाना · पानी",
+    "stat": "10 टीएमसी",
+    "statl": "अतिरिक्त पानी पर तेलंगाना का विरोध",
+    "loc": "हैदराबाद",
+    "h": "आंध्र डेल्टा को अतिरिक्त पानी नहीं: तेलंगाना",
+    "p": "तेलंगाना ने कृष्णा डेल्टा के लिए 10 टीएमसी अतिरिक्त कृष्णा पानी की आंध्र प्रदेश की मांग नहीं मानी। सोमवार को हैदराबाद में चार घंटे चली कृष्णा नदी प्रबंधन बोर्ड की बैठक बिना फैसले के खत्म हुई। तेलंगाना ने कहा कि हैदराबाद के पीने के पानी के लिए यह जरूरी है।",
+    "pts": [
+     "तेलंगाना: सागर के 45 टीएमसी में से करीब 25 टीएमसी ही बांटा जा सकता है",
+     "फरवरी तक तेलंगाना ने 21, आंध्र ने 19 टीएमसी मांगा",
+     "आंध्र के इंजीनियर बोले, डेल्टा के अधिकार नहीं छोड़ेंगे"
+    ],
+    "why": "दोनों राज्यों के किसान और हैदराबाद के लोग नागार्जुनसागर के पानी पर निर्भर हैं।",
+    "next": "बोर्ड अगली बैठक में कृष्णा डेल्टा मुद्दे पर फिर चर्चा करेगा"
+   },
+   "d": "24.11.2026",
+   "t": "11:35"
+  },
+  {
+   "cat": "తెలంగాణ · సంగారెడ్డి",
+   "col": "--c-city",
+   "pic": "e/road-accident-response",
+   "stat": "దంపతులు మృతి",
+   "statl": "జహీరాబాద్ ప్రమాదంలో",
+   "h": "జహీరాబాద్ వద్ద ప్రమాదంలో దంపతులు మృతి",
+   "p": "సంగారెడ్డి జిల్లా జహీరాబాద్ బైపాస్ వద్ద 65వ నంబర్ జాతీయ రహదారిపై మంగళవారం ఉదయం ఒక కారు కోళ్ల లారీని ఢీకొట్టింది. ఈ ప్రమాదంలో మహారాష్ట్రకు చెందిన భార్యాభర్తలు అక్కడికక్కడే మృతి చెందారు. కారు డ్రైవర్‌కు తీవ్ర గాయాలయ్యాయి. పోలీసులు కేసు నమోదు చేశారు.",
+   "pts": [
+    "కుమారుడిని శంషాబాద్ విమానాశ్రయంలో దింపి తిరిగి వెళ్తున్నారు",
+    "మృతదేహాలను జహీరాబాద్ ప్రభుత్వ ఆసుపత్రికి తరలించారు"
+   ],
+   "why": "65వ నంబర్ జాతీయ రహదారిపై తరచూ ప్రయాణించే వారికి ఇది భద్రతా హెచ్చరిక.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/couple-die-in-road-accident-near-zaheerabad-d9fff4a0",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "sangareddy",
+   "loc": "జహీరాబాద్",
+   "pub": "2026-11-24T11:32+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Sangareddy",
+    "stat": "Couple killed",
+    "statl": "in Zaheerabad crash",
+    "loc": "Zaheerabad, Sangareddy",
+    "h": "Maharashtra couple killed near Zaheerabad",
+    "p": "A car rammed a truck carrying chickens on NH-65 at the Zaheerabad bypass in Sangareddy district on Tuesday morning. A couple from Maharashtra died on the spot. The car driver was seriously injured. Police registered a case.",
+    "pts": [
+     "They were returning after dropping their son at Shamshabad airport",
+     "Bodies moved to Zaheerabad government hospital"
+    ],
+    "why": "A safety warning for people who travel often on NH-65."
+   },
+   "hi": {
+    "cat": "तेलंगाना · संगारेड्डी",
+    "stat": "दंपती की मौत",
+    "statl": "ज़हीराबाद हादसे में",
+    "loc": "ज़हीराबाद, संगारेड्डी",
+    "h": "ज़हीराबाद के पास हादसे में दंपती की मौत",
+    "p": "संगारेड्डी जिले में ज़हीराबाद बाईपास पर एनएच-65 पर मंगलवार सुबह एक कार मुर्गियां ले जा रहे ट्रक से टकरा गई। महाराष्ट्र के एक दंपती की मौके पर ही मौत हो गई। कार चालक गंभीर रूप से घायल हुआ। पुलिस ने मामला दर्ज किया।",
+    "pts": [
+     "वे बेटे को शमशाबाद हवाई अड्डे पर छोड़कर लौट रहे थे",
+     "शव ज़हीराबाद सरकारी अस्पताल भेजे गए"
+    ],
+    "why": "एनएच-65 पर अक्सर सफर करने वालों के लिए यह सुरक्षा चेतावनी है।"
+   },
+   "art": "",
+   "d": "24.11.2026",
+   "t": "11:35"
+  },
+  {
+   "cat": "హైదరాబాద్ · మెట్రో",
+   "col": "--c-city",
+   "pic": "e/hyderabad-metro-commute",
+   "stat": "₹13,600 కోట్ల",
+   "statl": "మెట్రో రుణం ఇంకా రాలేదు",
+   "h": "హైదరాబాద్ మెట్రో రుణం తెలియదన్న వైష్ణవ్",
+   "p": "హైదరాబాద్ మెట్రో మొదటి దశను ఎల్ అండ్ టీ నుంచి తీసుకునేందుకు ఐఆర్‌ఎఫ్‌సీ ఇవ్వాల్సిన ₹13,600 కోట్ల రుణం గురించి తనకు తెలియదని రైల్వే మంత్రి అశ్విని వైష్ణవ్ సోమవారం ఢిల్లీలో చెప్పారు. సీఎం రేవంత్ రెడ్డి జూన్ 22న ఈ విషయాన్ని ఆయన దగ్గర ప్రస్తావించారు. మే 25న ఒప్పందం కుదిరినా డబ్బు ఇంకా రాలేదు.",
+   "pts": [
+    "మెట్రో రెండో దశ తన శాఖ పరిధిలో లేదన్న మంత్రి",
+    "అప్పగింత గడువును డిసెంబర్‌కు పొడిగించిన ఎల్ అండ్ టీ",
+    "జపాన్ సంస్థల నుంచి రుణం కోసం రాష్ట్రం ప్రయత్నం"
+   ],
+   "why": "మెట్రో అప్పగింత, విస్తరణ ఆలస్యమైతే హైదరాబాద్ ప్రయాణికులపై ప్రభావం ఉంటుంది.",
+   "src": "Siasat",
+   "url": "https://www.siasat.com/union-min-vaishnaw-unaware-of-rs-13600-cr-loan-hyderabad-metro-awaits-3585281/",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-24T11:11+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Metro",
+    "stat": "₹13,600 crore",
+    "statl": "Metro loan still not received",
+    "loc": "Hyderabad",
+    "h": "Vaishnaw 'unaware' of Hyderabad Metro loan",
+    "p": "Railways Minister Ashwini Vaishnaw said in Delhi on Monday he was not aware of the ₹13,600 crore IRFC loan meant for Telangana to take over Hyderabad Metro Phase 1 from L&T. CM Revanth Reddy had raised it with him on June 22. The agreement was signed on May 25, but the money has not come.",
+    "pts": [
+     "Minister said Metro Phase 2 is not under his ministry",
+     "L&T extended the handover deadline to December",
+     "State exploring loans from Japanese lenders"
+    ],
+    "why": "Delays in the Metro takeover and expansion affect Hyderabad commuters."
+   },
+   "hi": {
+    "cat": "हैदराबाद · मेट्रो",
+    "stat": "₹13,600 करोड़",
+    "statl": "मेट्रो कर्ज अब तक नहीं मिला",
+    "loc": "हैदराबाद",
+    "h": "हैदराबाद मेट्रो कर्ज से अनजान: वैष्णव",
+    "p": "रेल मंत्री अश्विनी वैष्णव ने सोमवार को दिल्ली में कहा कि उन्हें हैदराबाद मेट्रो के पहले चरण को एलएंडटी से लेने के लिए तेलंगाना को आईआरएफसी के ₹13,600 करोड़ के कर्ज की जानकारी नहीं है। मुख्यमंत्री रेवंत रेड्डी ने 22 जून को उनसे यह मुद्दा उठाया था। 25 मई को समझौता हुआ, पर पैसा अब तक नहीं आया।",
+    "pts": [
+     "मंत्री बोले, मेट्रो का दूसरा चरण उनके मंत्रालय के तहत नहीं",
+     "एलएंडटी ने सौंपने की समय सीमा दिसंबर तक बढ़ाई",
+     "राज्य जापानी संस्थाओं से कर्ज की कोशिश में"
+    ],
+    "why": "मेट्रो के हस्तांतरण और विस्तार में देरी का असर हैदराबाद के यात्रियों पर पड़ेगा।"
+   },
+   "art": "",
+   "d": "24.11.2026",
+   "t": "11:35"
+  },
+  {
+   "cat": "తెలంగాణ · ఆరోగ్యం",
+   "col": "--c-gov",
+   "pic": "e/anganwadi-nutrition",
+   "stat": "47.4%",
+   "statl": "చిన్నారులకు రక్తహీనత",
+   "h": "తెలంగాణలో 47.4% చిన్నారులకు రక్తహీనత",
+   "p": "ఐసీఎంఆర్–జాతీయ పోషకాహార సంస్థ చేసిన సంపద సర్వే ప్రకారం తెలంగాణలో ఒకటి నుంచి ఐదేళ్ల లోపు పిల్లల్లో 47.4 శాతం మందికి రక్తహీనత ఉంది. దేశ సగటు 41.8 శాతం. రాష్ట్రంలో 15 నుంచి 49 ఏళ్ల మహిళల్లో 54 శాతం మందికి ఈ సమస్య ఉంది.",
+   "pts": [
+    "దేశంలో 183 జిల్లాల్లో సర్వే చేశారు",
+    "5–9 ఏళ్ల పిల్లల్లో తెలంగాణలో 23.8%, దేశంలో 31.3%",
+    "రక్త నమూనా పద్ధతి మారినందున పాత లెక్కలతో పోల్చలేమన్న నిపుణులు"
+   ],
+   "why": "చిన్నపిల్లల తల్లిదండ్రులు, మహిళలు, అంగన్‌వాడీ పోషకాహార పథకాలకు ఈ లెక్కలు ముఖ్యం.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/nearly-half-of-telangana-children-anaemic-study-89493792",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-24T10:52+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Health",
+    "stat": "47.4%",
+    "statl": "young children anaemic",
+    "loc": "Telangana",
+    "h": "47.4% of young children anaemic in Telangana",
+    "p": "The SAMPADA survey by ICMR-National Institute of Nutrition found 47.4% of Telangana children aged one to under five have anaemia, against a national 41.8%. Among women aged 15 to 49 in the state, 54% have the condition.",
+    "pts": [
+     "Survey covered 183 districts across India",
+     "Children aged 5–9: 23.8% in Telangana, 31.3% nationally",
+     "Experts say a new blood-sample method limits comparison with old data"
+    ],
+    "why": "The figures matter for parents of young children, women and anganwadi nutrition schemes."
+   },
+   "hi": {
+    "cat": "तेलंगाना · स्वास्थ्य",
+    "stat": "47.4%",
+    "statl": "छोटे बच्चों में खून की कमी",
+    "loc": "तेलंगाना",
+    "h": "तेलंगाना में 47.4% छोटे बच्चों में एनीमिया",
+    "p": "आईसीएमआर-राष्ट्रीय पोषण संस्थान के सम्पदा सर्वे के अनुसार तेलंगाना में एक से पांच साल से कम उम्र के 47.4 प्रतिशत बच्चों में खून की कमी है। राष्ट्रीय औसत 41.8 प्रतिशत है। राज्य में 15 से 49 साल की 54 प्रतिशत महिलाओं में यह समस्या है।",
+    "pts": [
+     "देश के 183 जिलों में सर्वे हुआ",
+     "5–9 साल के बच्चे: तेलंगाना 23.8%, देश 31.3%",
+     "विशेषज्ञ: नए रक्त-नमूना तरीके से पुराने आंकड़ों से तुलना सीमित"
+    ],
+    "why": "ये आंकड़े छोटे बच्चों के माता-पिता, महिलाओं और आंगनवाड़ी पोषण योजनाओं के लिए अहम हैं।"
+   },
+   "art": "",
+   "d": "24.11.2026",
+   "t": "11:35"
+  },
+  {
+   "cat": "ఏపీ · మున్సిపల్ ఎన్నికలు",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/election-counting",
+   "stat": "57 పదవులు",
+   "statl": "గెలిచిన టీడీపీ",
+   "h": "ఏపీ మున్సిపల్ ఉప పదవుల్లో టీడీపీకి 57",
+   "p": "ఏపీలో మొదటి దశలో ఎన్నికలు జరిగిన 100 పుర సంస్థల్లో 84 చోట్ల డిప్యూటీ మేయర్, వైస్ చైర్మన్ ఎన్నికలు పూర్తయ్యాయి. టీడీపీ 57, జనసేన 19, బీజేపీ 8, వైసీపీ 2 పదవులు గెలిచాయి. ఒక పదవి స్వతంత్ర అభ్యర్థికి దక్కింది. 13 చోట్ల ఎన్నికలు వాయిదా పడ్డాయి.",
+   "pts": [
+    "సోమవారం 12 కార్పొరేషన్లలో మేయర్లు ప్రమాణం చేశారు",
+    "కూటమిలో విభేదాలు, కోరం లేకపోవడంతో వాయిదాలు",
+    "పిఠాపురం, నిడదవోలులో పోటీపై వివాదాలు"
+   ],
+   "why": "ఈ పాలకవర్గాలు పట్టణాల్లో రోడ్లు, నీరు, పారిశుధ్యం పనులపై నిర్ణయాలు తీసుకుంటాయి.",
+   "src": "NewsMeter",
+   "url": "https://newsmeter.in/politics/andhra-ulb-polls-tdp-secures-57-jana-sena-19-bjp-8-ysrcp-two-posts-12-mayors-take-oath-779885",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-24T10:24+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Civic polls",
+    "stat": "57 posts",
+    "statl": "won by TDP",
+    "loc": "Andhra Pradesh",
+    "h": "TDP wins 57 deputy civic posts in AP",
+    "p": "Deputy mayor and vice-chairperson elections were completed in 84 of the 100 urban local bodies that voted in Andhra Pradesh's first phase. TDP won 57 posts, Jana Sena 19, BJP 8 and YSRCP 2, with one going to an independent. Polls in 13 bodies were postponed.",
+    "pts": [
+     "Mayors in 12 corporations took oath on Monday",
+     "Postponements due to alliance differences and lack of quorum",
+     "Disputes over contests in Pithapuram and Nidadavole"
+    ],
+    "why": "These councils decide on roads, water and sanitation works in towns."
+   },
+   "hi": {
+    "cat": "आंध्र · नगर निकाय चुनाव",
+    "stat": "57 पद",
+    "statl": "टीडीपी ने जीते",
+    "loc": "आंध्र प्रदेश",
+    "h": "आंध्र में उप-निकाय पदों पर टीडीपी को 57",
+    "p": "आंध्र प्रदेश में पहले चरण के 100 शहरी निकायों में से 84 में उप महापौर और उपाध्यक्ष चुनाव पूरे हुए। टीडीपी ने 57, जनसेना ने 19, भाजपा ने 8 और वाईएसआरसीपी ने 2 पद जीते, एक पद निर्दलीय को मिला। 13 निकायों में चुनाव टल गए।",
+    "pts": [
+     "सोमवार को 12 नगर निगमों में महापौरों ने शपथ ली",
+     "गठबंधन में मतभेद और कोरम न होने से चुनाव टले",
+     "पिठापुरम और निडदवोलू में मुकाबले पर विवाद"
+    ],
+    "why": "ये परिषदें शहरों में सड़क, पानी और सफाई के कामों पर फैसले लेती हैं।"
+   },
+   "d": "24.11.2026",
+   "t": "11:35"
+  },
+  {
+   "cat": "ఏపీ · సైబర్ భద్రత",
+   "col": "--c-money",
+   "pic": "e/cyber-fraud-complaint",
+   "stat": "120 మంది",
+   "statl": "బ్యాంకు, ఫిన్‌టెక్ ప్రతినిధులతో సమావేశం",
+   "h": "సైబర్ మోసాలపై బ్యాంకులతో ఏపీ సీఐడీ భేటీ",
+   "p": "సైబర్ ఆర్థిక మోసాలను అడ్డుకునేందుకు ఏపీ సీఐడీ మంగళగిరి కార్యాలయంలో బ్యాంకులు, ఎన్‌బీఎఫ్‌సీలు, ఫిన్‌టెక్ సంస్థలతో సమావేశం నిర్వహించింది. కేంద్ర సైబర్ క్రైమ్ సమన్వయ కేంద్రం సూచనల మేరకు ఈ భేటీ జరిగింది. సీఐడీ డీజీపీ, సైబర్ క్రైమ్స్ ఐజీ, ఎస్పీ సమావేశాన్ని నడిపించారు. చెల్లింపు వ్యవస్థల భద్రత పెంచాలని నిపుణులు సూచించారు.",
+   "pts": [
+    "మోసం జరిగితే వెంటనే 1930కి ఫోన్ చేయాలి",
+    "బ్యాంకు ఖాతాలు అద్దెకు ఇవ్వడం నేరం: సీఐడీ",
+    "హెచ్‌ఎస్‌బీసీ, యాక్సిస్, ఐసీఐసీఐ సహా బ్యాంకులు హాజరు"
+   ],
+   "why": "ఆన్‌లైన్ చెల్లింపులు చేసే ప్రతి ఒక్కరి డబ్బు భద్రతకు ఇది సంబంధించినది.",
+   "src": "NewsMeter",
+   "url": "https://newsmeter.in/regional/andhra-pradesh/andhra-cid-meets-banks-nbfcs-fintech-firms-to-strengthen-cyber-security-in-financial-transactions-779888",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "AP",
+   "place": "ap-guntur",
+   "loc": "మంగళగిరి",
+   "pub": "2026-11-24T10:54+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Cyber safety",
+    "stat": "120 people",
+    "statl": "from banks and fintechs at meeting",
+    "loc": "Mangalagiri, Guntur",
+    "h": "AP CID meets banks on cyber fraud",
+    "p": "The Andhra Pradesh CID held a meeting with banks, NBFCs and fintech firms at its Mangalagiri office to curb cyber financial fraud. It followed guidelines of the Indian Cyber Crime Coordination Centre. The CID DGP, the IG and the SP of cyber crimes led the meeting. Experts called for stronger security in payment systems.",
+    "pts": [
+     "Fraud victims should call 1930 immediately",
+     "Renting out bank accounts is an offence: CID",
+     "HSBC, Axis, ICICI among banks present"
+    ],
+    "why": "It concerns the safety of money for everyone who pays online."
+   },
+   "hi": {
+    "cat": "आंध्र · साइबर सुरक्षा",
+    "stat": "120 लोग",
+    "statl": "बैंक, फिनटेक प्रतिनिधियों के साथ बैठक",
+    "loc": "मंगलगिरि, गुंटूर",
+    "h": "साइबर ठगी पर बैंकों से मिली आंध्र सीआईडी",
+    "p": "आंध्र प्रदेश सीआईडी ने साइबर वित्तीय ठगी रोकने के लिए मंगलगिरि कार्यालय में बैंकों, एनबीएफसी और फिनटेक कंपनियों के साथ बैठक की। यह भारतीय साइबर अपराध समन्वय केंद्र के दिशानिर्देशों के तहत हुई। सीआईडी डीजीपी, साइबर अपराध आईजी और एसपी ने बैठक की अगुवाई की। विशेषज्ञों ने भुगतान प्रणालियों की सुरक्षा बढ़ाने को कहा।",
+    "pts": [
+     "ठगी होने पर तुरंत 1930 पर कॉल करें",
+     "बैंक खाता किराये पर देना अपराध: सीआईडी",
+     "एचएसबीसी, एक्सिस, आईसीआईसीआई समेत बैंक मौजूद"
+    ],
+    "why": "यह ऑनलाइन भुगतान करने वाले हर व्यक्ति के पैसे की सुरक्षा से जुड़ा है।"
+   },
+   "art": "",
+   "d": "24.11.2026",
+   "t": "11:35"
+  },
+  {
+   "cat": "ప్రపంచం · బంగ్లాదేశ్",
+   "col": "--c-gov",
+   "pic": "n/asia",
+   "stat": "డిసెంబర్ 16న",
+   "statl": "స్వదేశానికి వెళ్తానన్న హసీనా",
+   "h": "డిసెంబర్ 16న బంగ్లాదేశ్‌కు వెళ్తా: హసీనా",
+   "p": "భారత్‌లో ఉంటున్న బంగ్లాదేశ్ మాజీ ప్రధాని షేక్ హసీనా డిసెంబర్ 16న విజయ దినోత్సవం రోజు స్వదేశానికి తిరిగి వెళ్తానని ప్రకటించారు. ఢిల్లీ నుంచి ఢాకాకు ప్రయాణ ఏర్పాట్లు చేయాలని ఆమె ప్రతినిధి ప్రధాని తారిఖ్ రెహమాన్ ప్రభుత్వాన్ని కోరారు. ఏర్పాట్లపై ఇంకా స్పష్టత లేదు.",
+   "pts": [
+    "2024 ఆగస్టు 5న ఆమె భారత్‌కు వచ్చారు",
+    "గైర్హాజరీలో వచ్చిన మరణశిక్ష తీర్పును ఆమె తిరస్కరిస్తున్నారు"
+   ],
+   "why": "ఈ పరిణామం భారత్–బంగ్లాదేశ్ సంబంధాలపై ప్రభావం చూపవచ్చు.",
+   "src": "National Herald (AP)",
+   "url": "https://www.nationalheraldindia.com/international/sheikh-hasina-plans-16-december-return-to-bangladesh-on-victory-day",
+   "sec": [
+    "world"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-24T10:51+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "World · Bangladesh",
+    "stat": "December 16",
+    "statl": "Hasina plans to return home",
+    "loc": "Delhi–Dhaka",
+    "h": "Hasina plans Bangladesh return on Dec 16",
+    "p": "Former Bangladesh prime minister Sheikh Hasina, who is living in India, said she plans to return home on December 16, Victory Day. Her spokesperson asked Prime Minister Tarique Rahman's government to arrange her travel from Delhi to Dhaka. Arrangements remain unclear.",
+    "pts": [
+     "She came to India on August 5, 2024",
+     "She rejects the death sentence given in her absence"
+    ],
+    "why": "The move could affect India–Bangladesh relations."
+   },
+   "hi": {
+    "cat": "दुनिया · बांग्लादेश",
+    "stat": "16 दिसंबर",
+    "statl": "को स्वदेश लौटेंगी हसीना",
+    "loc": "दिल्ली–ढाका",
+    "h": "16 दिसंबर को बांग्लादेश लौटेंगी हसीना",
+    "p": "भारत में रह रहीं बांग्लादेश की पूर्व प्रधानमंत्री शेख हसीना ने कहा कि वे 16 दिसंबर, विजय दिवस पर स्वदेश लौटेंगी। उनके प्रवक्ता ने प्रधानमंत्री तारिक रहमान की सरकार से दिल्ली से ढाका यात्रा की व्यवस्था करने को कहा। व्यवस्थाएं अभी साफ नहीं हैं।",
+    "pts": [
+     "वे 5 अगस्त 2024 को भारत आई थीं",
+     "वे अपनी गैरमौजूदगी में दी गई मौत की सजा को नहीं मानतीं"
+    ],
+    "why": "इस कदम का असर भारत–बांग्लादेश संबंधों पर पड़ सकता है।"
+   },
+   "art": "",
+   "d": "24.11.2026",
+   "t": "11:35"
+  },
   {
    "cat": "తెలంగాణ · నిర్మల్ · విద్య",
    "col": "--c-gov",
@@ -2908,387 +3300,6 @@
    },
    "d": "23.11.2026",
    "t": "21:05"
-  },
-  {
-   "cat": "తెలంగాణ · విద్య",
-   "col": "--c-gov",
-   "art": "campus",
-   "pic": "e/digital-citizen-service-centre",
-   "stat": "మెమో సవరణ",
-   "statl": "మీసేవ కేంద్రాల్లో",
-   "h": "పదో తరగతి మెమో తప్పులకు మీసేవలో దరఖాస్తు",
-   "p": "పదో తరగతి మెమోలో పేరు, పుట్టిన తేదీ తప్పులు సరిచేయించుకోవడానికి మీసేవ కేంద్రాల ద్వారా ఆన్‌లైన్‌లో దరఖాస్తు చేయవచ్చని పాఠశాల విద్యాశాఖ డైరెక్టర్ ఇ. నవీన్ నికోలస్ సోమవారం తెలిపారు. ఈ సదుపాయం ఆగస్టు 17 నుంచి అందుబాటులో ఉంది. సరైన వివరాలు, అవసరమైన ధ్రువపత్రాలతో దగ్గరలోని మీసేవ కేంద్రంలో దరఖాస్తు ఇవ్వాలని సూచించారు.",
-   "pts": [
-    "నిబంధనల ప్రకారం పరిశీలించి తదుపరి చర్యలు తీసుకుంటారు",
-    "విద్యార్థులు, తల్లిదండ్రులు ఎవరైనా దరఖాస్తు చేయవచ్చు"
-   ],
-   "why": "మెమోలో తప్పులున్న విద్యార్థులు దగ్గరలోని మీసేవ కేంద్రంలోనే దరఖాస్తు చేయవచ్చు.",
-   "src": "Mana Telangana",
-   "url": "https://www.manatelangana.news/telangana-breaking-news/telangana-ssc-certificate-corrections-2026-1654483",
-   "sec": [
-    "telangana",
-    "education"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pub": "2026-11-23T20:33+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Education",
-    "stat": "Memo corrections",
-    "statl": "at MeeSeva centres",
-    "loc": "",
-    "h": "Class 10 memo errors: apply at MeeSeva",
-    "p": "Students can apply online through MeeSeva centres to correct name and date-of-birth errors in their Class 10 (SSC) memos, School Education Director E Naveen Nicholas said on Monday. The facility has been available since August 17. Applicants should give accurate details and the required certificates at a nearby MeeSeva centre.",
-    "pts": [
-     "Applications will be examined under the rules before further action",
-     "Students, parents or others can apply"
-    ],
-    "why": "Students with errors in their memos can apply at a nearby MeeSeva centre."
-   },
-   "hi": {
-    "cat": "तेलंगाना · शिक्षा",
-    "stat": "मेमो में सुधार",
-    "statl": "मीसेवा केंद्रों पर",
-    "loc": "",
-    "h": "दसवीं के मेमो की गलतियां: मीसेवा पर आवेदन",
-    "p": "दसवीं (एसएससी) के मेमो में नाम और जन्मतिथि की गलतियां ठीक कराने के लिए छात्र मीसेवा केंद्रों के ज़रिए ऑनलाइन आवेदन कर सकते हैं, स्कूल शिक्षा निदेशक ई. नवीन निकोलस ने सोमवार को बताया। यह सुविधा 17 अगस्त से उपलब्ध है। सही जानकारी और ज़रूरी प्रमाणपत्रों के साथ नज़दीकी मीसेवा केंद्र पर आवेदन देना होगा।",
-    "pts": [
-     "आवेदनों की नियमों के अनुसार जांच के बाद आगे की कार्रवाई होगी",
-     "छात्र, अभिभावक या अन्य लोग आवेदन कर सकते हैं"
-    ],
-    "why": "जिन छात्रों के मेमो में गलती है, वे नज़दीकी मीसेवा केंद्र पर आवेदन कर सकते हैं।"
-   },
-   "d": "23.11.2026",
-   "t": "21:05"
-  },
-  {
-   "cat": "మేడ్చల్ · నేరం",
-   "col": "--c-city",
-   "art": "court",
-   "pic": "e/police-investigation",
-   "stat": "ముగ్గురు అరెస్ట్",
-   "statl": "అక్రమ గ్యాస్ కేసులో",
-   "h": "బౌరంపేట గ్యాస్ కేసులో ముగ్గురు అరెస్ట్",
-   "p": "మేడ్చల్ మల్కాజిగిరి జిల్లా దుండిగల్ పోలీస్ స్టేషన్ పరిధిలోని బౌరంపేటలో వంట గ్యాస్‌ను అక్రమంగా రీఫిల్లింగ్ చేస్తున్న ముగ్గురిని అరెస్ట్ చేసినట్లు పోలీసులు తెలిపారు. అయ్యప్ప స్వామి ఆలయం సమీపంలో జరిపిన దాడిలో 81 గృహ వినియోగ సిలిండర్లు, మూడు టాటా ఏస్ వాహనాలు పట్టుకున్నారు. నిందితులపై కేసు నమోదు చేసి దర్యాప్తు చేస్తున్నారు.",
-   "pts": [
-    "పట్టుకున్న సిలిండర్లు హెచ్‌పీ కంపెనీవి",
-    "మరికొన్ని రీఫిల్లింగ్ కేంద్రాలపైనా పోలీసులు దాడులు చేశారు"
-   ],
-   "why": "ఇళ్ల మధ్య అక్రమ గ్యాస్ రీఫిల్లింగ్ స్థానికుల భద్రతకు సంబంధించిన విషయం.",
-   "src": "Namasthe Telangana",
-   "url": "https://www.ntnews.com/news/three-arrested-in-dundigal-limits-linked-with-illegal-gas-refilling-2567325",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "medchal",
-   "loc": "బౌరంపేట, దుండిగల్",
-   "pub": "2026-11-23T18:50+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Medchal · Crime",
-    "stat": "3 arrested",
-    "statl": "in illegal gas refilling case",
-    "loc": "Bowrampet, Dundigal",
-    "h": "3 held for illegal gas refilling in Bowrampet",
-    "p": "Police said they arrested three people for illegally refilling cooking gas at Bowrampet, in Dundigal police station limits of Medchal-Malkajgiri district. In a raid near the Ayyappa Swamy temple they seized 81 domestic cylinders and three Tata Ace vehicles. A case has been registered against the accused and the investigation continues.",
-    "pts": [
-     "The seized cylinders were HP domestic cylinders",
-     "Police also raided other refilling centres"
-    ],
-    "why": "Illegal gas refilling in residential areas is a safety concern for local people."
-   },
-   "hi": {
-    "cat": "मेडचल · अपराध",
-    "stat": "3 गिरफ्तार",
-    "statl": "अवैध गैस रीफिलिंग मामले में",
-    "loc": "बौरमपेट, दुंडीगल",
-    "h": "बौरमपेट में अवैध गैस रीफिलिंग: 3 गिरफ्तार",
-    "p": "पुलिस ने बताया कि मेडचल-मलकाजगिरी ज़िले के दुंडीगल थाना क्षेत्र के बौरमपेट में रसोई गैस की अवैध रीफिलिंग करने वाले तीन लोगों को गिरफ्तार किया गया। अय्यप्पा स्वामी मंदिर के पास छापे में 81 घरेलू सिलेंडर और तीन टाटा ऐस वाहन ज़ब्त किए गए। आरोपियों पर मामला दर्ज कर जांच जारी है।",
-    "pts": [
-     "ज़ब्त सिलेंडर एचपी कंपनी के घरेलू सिलेंडर थे",
-     "पुलिस ने अन्य रीफिलिंग केंद्रों पर भी छापे मारे"
-    ],
-    "why": "रिहायशी इलाकों में अवैध गैस रीफिलिंग स्थानीय लोगों की सुरक्षा से जुड़ा मामला है।"
-   },
-   "d": "23.11.2026",
-   "t": "21:05"
-  },
-  {
-   "cat": "తెలంగాణ · కృష్ణా జలాలు",
-   "col": "--c-water",
-   "art": "water",
-   "pic": "e/party-brs",
-   "stat": "పల్నాడు గ్రిడ్",
-   "statl": "పనులు ఆపాలని వినతి",
-   "h": "పల్నాడు పనులు ఆపాలని బీఆర్‌ఎస్ వినతి",
-   "p": "ఏపీ చేపట్టిన పల్నాడు వాటర్ గ్రిడ్ పనులను వెంటనే ఆపాలని బీఆర్‌ఎస్ బృందం కృష్ణా బోర్డు చైర్మన్‌ను కోరింది. ఎమ్మెల్యేలు జి. జగదీశ్ రెడ్డి, పి. సబితా ఇంద్రారెడ్డి నాయకత్వంలో రెండు వినతిపత్రాలు ఇచ్చారు. నాగార్జునసాగర్‌లో హైదరాబాద్ తాగునీటి నిల్వలను కాపాడాలని కోరారు. సరైన పరిశీలన లేకుండానే నీటి తరలింపునకు ఆమోదం ఇచ్చారని ఆరోపించారు.",
-   "pts": [
-    "ప్రతిపాదిత నీటి మట్టం 493.47 అడుగులని బీఆర్‌ఎస్ చెప్పింది",
-    "హైదరాబాద్‌కు నీరు తీసుకోవాలంటే 510 అడుగులు కావాలని తెలిపింది",
-    "ఆగస్టు 4 నాటి ఏపీ ప్రభుత్వ ఉత్తర్వును ప్రస్తావించింది"
-   ],
-   "why": "హైదరాబాద్ తాగునీరు సాగర్ నిల్వలపై ఆధారపడి ఉండటంతో నగరవాసులకు ఇది ముఖ్యం.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/brs-urges-krmb-to-stop-palnadu-project-7144963c",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pub": "2026-11-23T13:23+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Telangana · Krishna water",
-    "stat": "Palnadu Water Grid",
-    "statl": "BRS asks board to halt works",
-    "loc": "",
-    "h": "BRS asks Krishna board to halt Palnadu works",
-    "p": "A BRS delegation asked the Krishna River Management Board chairman to immediately halt Andhra Pradesh's Palnadu Water Grid works. Led by MLAs G Jagadish Reddy and P Sabitha Indra Reddy, it submitted two representations seeking protection of Nagarjuna Sagar reserves for Hyderabad's drinking water, and alleged that water transfers were approved without proper scrutiny.",
-    "pts": [
-     "BRS said the proposed withdrawal level is 493.47 ft",
-     "It said 510 ft is needed to draw water for Hyderabad",
-     "It cited an AP government order dated August 4"
-    ],
-    "why": "Hyderabad's drinking water depends on Sagar reserves, so this matters to city residents."
-   },
-   "hi": {
-    "cat": "तेलंगाना · कृष्णा जल",
-    "stat": "पलनाडु वाटर ग्रिड",
-    "statl": "बीआरएस ने काम रोकने की मांग की",
-    "loc": "",
-    "h": "बीआरएस ने कृष्णा बोर्ड से पलनाडु काम रोकने को कहा",
-    "p": "बीआरएस के प्रतिनिधिमंडल ने कृष्णा नदी प्रबंधन बोर्ड के अध्यक्ष से आंध्र प्रदेश के पलनाडु वाटर ग्रिड का काम तुरंत रोकने की मांग की। विधायक जी. जगदीश रेड्डी और पी. सबिता इंद्रा रेड्डी के नेतृत्व में दो ज्ञापन दिए गए। हैदराबाद के पेयजल के लिए नागार्जुन सागर के भंडार बचाने की मांग की गई और आरोप लगाया गया कि पानी के स्थानांतरण को उचित जांच के बिना मंज़ूरी दी गई।",
-    "pts": [
-     "बीआरएस के अनुसार प्रस्तावित जल स्तर 493.47 फुट है",
-     "उसने कहा कि हैदराबाद के लिए पानी लेने को 510 फुट चाहिए",
-     "उसने 4 अगस्त के आंध्र प्रदेश सरकार के आदेश का हवाला दिया"
-    ],
-    "why": "हैदराबाद का पेयजल सागर के भंडार पर निर्भर है, इसलिए यह शहरवासियों के लिए अहम है।"
-   },
-   "d": "23.11.2026",
-   "t": "21:05"
-  },
-  {
-   "cat": "భద్రాద్రి · ఆరోగ్యం",
-   "col": "--c-gov",
-   "art": "unity",
-   "pic": "e/hospital-bed-shortage",
-   "stat": "100 పడకల ఆసుపత్రి",
-   "statl": "కావాలని డిమాండ్",
-   "h": "సారపాకలో ఈఎస్ఐ ఆసుపత్రి కావాలి: జేఏసీ",
-   "p": "భద్రాద్రి కొత్తగూడెం జిల్లా సారపాకలో 100 పడకల ఈఎస్ఐ ఆసుపత్రి కట్టాలని, వెంటనే స్థలం కేటాయించాలని కాంట్రాక్ట్ కార్మిక సంఘాల జేఏసీ డిమాండ్ చేసింది. ఐటీసీ పరిశ్రమలో సుమారు 5,000 మంది కాంట్రాక్ట్ కార్మికులు ఉన్నారని, ఇప్పుడున్న డిస్పెన్సరీలో డాక్టర్ వారానికి ఒక్కరోజే వస్తున్నారని, అంబులెన్స్ లేదని జేఏసీ తెలిపింది.",
-   "pts": [
-    "కార్మికులు నెలకు సుమారు ₹27 లక్షలు ఈఎస్ఐకి కడుతున్నారని జేఏసీ లెక్క",
-    "స్థలం ఇస్తే భవనం కడతామని ఐటీసీ యాజమాన్యం చెప్పింది",
-    "ఎమ్మెల్యే, మంత్రి, కలెక్టర్‌కు వినతిపత్రాలు ఇచ్చారు"
-   ],
-   "why": "సారపాక ప్రాంత కార్మిక కుటుంబాలకు దగ్గరలో వైద్యం అందడం ఈ డిమాండ్‌తో ముడిపడి ఉంది.",
-   "src": "HMTV",
-   "url": "https://www.hmtvlive.com/telugu-news/khammam/set-up-100-bed-govt-esi-hospital-in-sarapaka-contract-workers-jac-216338",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "bhadradri",
-   "loc": "సారపాక, బూర్గంపాడు మండలం",
-   "pub": "2026-11-23T20:38+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Bhadradri · Health",
-    "stat": "100-bed hospital",
-    "statl": "demanded for Sarapaka",
-    "loc": "Sarapaka, Burgampahad mandal",
-    "h": "JAC seeks 100-bed ESI hospital in Sarapaka",
-    "p": "A joint action committee of contract workers' unions has demanded a 100-bed ESI hospital at Sarapaka in Bhadradri Kothagudem district and immediate allotment of land. The JAC said about 5,000 contract workers are employed at the ITC unit, and that the existing dispensary has a doctor only one day a week and no ambulance.",
-    "pts": [
-     "JAC says workers pay about ₹27 lakh a month towards ESI",
-     "ITC management said it would build the hospital if land is allotted",
-     "Petitions were given to the MLA, a minister and the Collector"
-    ],
-    "why": "Nearby medical care for workers' families around Sarapaka hinges on this demand."
-   },
-   "hi": {
-    "cat": "भद्राद्री · स्वास्थ्य",
-    "stat": "100 बिस्तरों का अस्पताल",
-    "statl": "सारपाका में बनाने की मांग",
-    "loc": "सारपाका, बुर्गमपहाड़ मंडल",
-    "h": "सारपाका में 100 बिस्तरों का ईएसआई अस्पताल मांगा",
-    "p": "ठेका मज़दूर संगठनों की संयुक्त कार्रवाई समिति (जेएसी) ने भद्राद्री कोत्तागुडेम ज़िले के सारपाका में 100 बिस्तरों का ईएसआई अस्पताल बनाने और तुरंत ज़मीन देने की मांग की है। जेएसी के अनुसार आईटीसी इकाई में करीब 5,000 ठेका मज़दूर हैं, मौजूदा डिस्पेंसरी में डॉक्टर हफ्ते में सिर्फ एक दिन आते हैं और एंबुलेंस नहीं है।",
-    "pts": [
-     "जेएसी के अनुसार मज़दूर हर महीने करीब ₹27 लाख ईएसआई में देते हैं",
-     "आईटीसी प्रबंधन ने कहा कि ज़मीन मिलने पर वह भवन बनाएगा",
-     "विधायक, मंत्री और कलेक्टर को ज्ञापन दिए गए"
-    ],
-    "why": "सारपाका क्षेत्र के मज़दूर परिवारों को पास में इलाज मिलना इस मांग से जुड़ा है।"
-   },
-   "d": "23.11.2026",
-   "t": "21:05"
-  },
-  {
-   "cat": "ఏపీ · తిరుపతి",
-   "col": "--c-gov",
-   "art": "unity",
-   "pic": "e/municipal-council-meeting",
-   "stat": "కార్పొరేటర్‌గా ప్రమాణం",
-   "statl": "ఎస్వీయూ వేదికపై",
-   "h": "తిరుపతి కార్పొరేటర్‌గా జ్యోత్స్న ప్రమాణం",
-   "p": "తిరుపతి నగరపాలక సంస్థ 11వ వార్డు టీడీపీ కార్పొరేటర్‌గా బి. జ్యోత్స్న సోమవారం ప్రమాణం చేశారు. ఎస్వీ యూనివర్సిటీ శ్రీనివాస ఆడిటోరియంలో జరిగిన కొత్త కౌన్సిల్ కార్యక్రమంలో అధికారులు ఆమెతో ప్రమాణం చేయించారు. ఆమె ఇదే యూనివర్సిటీలో పీజీ చదివారు. తర్వాత వైస్ ఛాన్సలర్ ప్రొఫెసర్ టాటా నర్సింగరావును మర్యాదపూర్వకంగా కలిశారు.",
-   "pts": [
-    "కార్పొరేషన్ కమిషనర్ జయకృష్ణ కార్యక్రమంలో పాల్గొన్నారు",
-    "పూర్వ విద్యార్థిని ఎన్నిక కావడాన్ని వీసీ అభినందించారు"
-   ],
-   "why": "తిరుపతి 11వ వార్డు ప్రజలకు కొత్త కార్పొరేటర్ బాధ్యతలు మొదలయ్యాయి.",
-   "src": "HMTV",
-   "url": "https://www.hmtvlive.com/telugu-news/tirupati/tirupati-svu-alumna-b-jyothsna-takes-oath-as-corporator-216341",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-tirupati",
-   "loc": "ఎస్వీ యూనివర్సిటీ",
-   "pub": "2026-11-23T20:42+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Tirupati",
-    "stat": "Sworn in as corporator",
-    "statl": "on the SV University stage",
-    "loc": "SV University",
-    "h": "SVU alumna Jyothsna sworn in as Tirupati corporator",
-    "p": "B Jyothsna took oath on Monday as the TDP corporator for ward 11 of Tirupati Municipal Corporation. Officials administered the oath at the new council's ceremony in the Srinivasa Auditorium of SV University, where she had completed her postgraduate studies. She later paid a courtesy call on Vice-Chancellor Prof Tata Narasinga Rao.",
-    "pts": [
-     "Corporation Commissioner Jaya Krishna attended the ceremony",
-     "The Vice-Chancellor congratulated the former student"
-    ],
-    "why": "Residents of Tirupati's ward 11 now have their new corporator in office."
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · तिरुपति",
-    "stat": "पार्षद पद की शपथ",
-    "statl": "एसवी विश्वविद्यालय के मंच पर",
-    "loc": "एसवी विश्वविद्यालय",
-    "h": "तिरुपति: वार्ड 11 की पार्षद ज्योत्स्ना ने शपथ ली",
-    "p": "बी. ज्योत्स्ना ने सोमवार को तिरुपति नगर निगम के वार्ड 11 की टीडीपी पार्षद के रूप में शपथ ली। एसवी विश्वविद्यालय के श्रीनिवास ऑडिटोरियम में नई परिषद के कार्यक्रम में अधिकारियों ने उन्हें शपथ दिलाई। उन्होंने इसी विश्वविद्यालय से स्नातकोत्तर किया है। बाद में वे कुलपति प्रो. टाटा नरसिंगा राव से शिष्टाचार भेंट करने गईं।",
-    "pts": [
-     "निगम आयुक्त जय कृष्ण कार्यक्रम में शामिल हुए",
-     "कुलपति ने पूर्व छात्रा को बधाई दी"
-    ],
-    "why": "तिरुपति के वार्ड 11 के लोगों को नई पार्षद मिल गई हैं।"
-   },
-   "d": "23.11.2026",
-   "t": "21:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · ట్రాఫిక్",
-   "col": "--c-city",
-   "art": "unity",
-   "pic": "e/traffic-congestion",
-   "stat": "రోజూ 2,500 కొత్త వాహనాలు",
-   "statl": "సైబరాబాద్‌లో",
-   "h": "సైబరాబాద్ ట్రాఫిక్‌పై ఆసుపత్రులతో భేటీ",
-   "p": "సైబరాబాద్ రోడ్లపై రోజూ సుమారు 25 లక్షల వాహనాలు తిరుగుతున్నాయని, రోజుకు 2,500 కొత్తవి చేరుతున్నాయని పోలీసులు తెలిపారు. సోమవారం ఆసుపత్రుల అధిపతులతో జరిగిన సమావేశంలో ఓపీ సమయాలు మార్చాలని, అంబులెన్సులకు దారి ఇవ్వాలని, ఒక్కరే ప్రయాణించే వాహనాలు తగ్గించాలని కమిషనర్ ఎం. రమేశ్ కోరారు.",
-   "pts": [
-    "ట్రాఫిక్ వల్ల అంబులెన్సులు ఆలస్యమవుతున్నాయని ఎస్‌సీఎస్‌సీ తెలిపింది",
-    "ఉదయం త్వరగా ఓపీ, కార్‌పూలింగ్ వంటి సూచనలు వచ్చాయి",
-    "ప్రతి మూడు నెలలకు సమావేశం పెట్టాలని పోలీసుల ప్రతిపాదన"
-   ],
-   "why": "ఐటీ కారిడార్‌లో రోజూ ప్రయాణించే వారికి, రోగులకు ట్రాఫిక్ తగ్గితే మేలు.",
-   "src": "NewsMeter",
-   "url": "https://newsmeter.in/hyderabad/25-lakh-vehicles-2500-added-daily-cyberabad-police-seeks-hospitals-help-to-ease-traffic-779863",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "సైబరాబాద్",
-   "pub": "2026-11-23T20:04+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Traffic",
-    "stat": "2,500 new vehicles a day",
-    "statl": "on Cyberabad roads",
-    "loc": "Cyberabad",
-    "h": "Cyberabad police seek hospitals' help on traffic",
-    "p": "Cyberabad Police said about 25 lakh vehicles use its roads daily, with around 2,500 added every day. At a meeting with hospital heads on Monday, Commissioner M Ramesh urged hospitals to stagger OP timings, give way to ambulances and cut single-occupancy vehicle use.",
-    "pts": [
-     "SCSC said congestion is delaying ambulances",
-     "Ideas included early OP slots and carpooling",
-     "Police proposed quarterly meetings with hospitals"
-    ],
-    "why": "Less congestion would help IT corridor commuters and patients."
-   },
-   "hi": {
-    "cat": "हैदराबाद · ट्रैफिक",
-    "stat": "रोज़ 2,500 नए वाहन",
-    "statl": "साइबराबाद की सड़कों पर",
-    "loc": "साइबराबाद",
-    "h": "साइबराबाद पुलिस ने ट्रैफिक पर अस्पतालों से मदद मांगी",
-    "p": "साइबराबाद पुलिस ने बताया कि उसकी सड़कों पर रोज़ लगभग 25 लाख वाहन चलते हैं और हर दिन करीब 2,500 नए जुड़ते हैं। सोमवार को अस्पताल प्रमुखों की बैठक में आयुक्त एम. रमेश ने ओपीडी समय बदलने, एंबुलेंस को रास्ता देने और अकेले सवारी वाले वाहन घटाने को कहा।",
-    "pts": [
-     "एससीएससी ने कहा कि जाम से एंबुलेंस देर से पहुंचती हैं",
-     "सुबह जल्दी ओपीडी और कारपूलिंग जैसे सुझाव आए",
-     "पुलिस ने हर तीन महीने बैठक का प्रस्ताव रखा"
-    ],
-    "why": "जाम घटने से आईटी कॉरिडोर के यात्रियों और मरीज़ों को राहत मिलेगी।"
-   },
-   "d": "23.11.2026",
-   "t": "20:35"
-  },
-  {
-   "cat": "మేడ్చల్ · చెరువులు",
-   "col": "--c-water",
-   "art": "water",
-   "pic": "e/land-encroachment-survey",
-   "stat": "4.12 ఎకరాల చెరువు",
-   "statl": "కాపాడారు",
-   "h": "అన్నోజిగూడ మీరాలం చెరువుకు హైడ్రా కంచె",
-   "p": "మేడ్చల్ జిల్లా ఘట్‌కేసర్ మండలం అన్నోజిగూడలోని 4.12 ఎకరాల మీరాలం చెరువును హైడ్రా కబ్జా నుంచి కాపాడింది. చెరువు హద్దులో ప్లాట్లు వేసి, గోడలు కట్టారని స్థానికులు ఫిర్యాదు చేశారు. ఫిర్యాదు అందిన వారంలోనే అధికారులు రికార్డులు పరిశీలించి, సోమవారం గోడలు తీసేసి చెరువు చుట్టూ కంచె వేశారు.",
-   "pts": [
-    "సర్వే మ్యాపులు, ఉపగ్రహ చిత్రాలు, గ్రామ రికార్డులు చూశారు",
-    "ఇతర అధికారులకు ఫిర్యాదు చేసినా ఫలితం లేదని స్థానికులు చెప్పారు"
-   ],
-   "why": "చెరువు కాపాడితే వర్షపు నీరు నిలిచి, ఆ ప్రాంతానికి వరద ముప్పు తగ్గుతుంది.",
-   "src": "NewsMeter",
-   "url": "https://newsmeter.in/hyderabad/hydraa-saves-412-acre-miralam-lake-from-encroachers-after-locals-raise-alarm-779862",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "medchal",
-   "loc": "అన్నోజిగూడ, ఘట్‌కేసర్",
-   "pub": "2026-11-23T19:54+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Medchal · Lakes",
-    "stat": "4.12-acre lake",
-    "statl": "saved from encroachment",
-    "loc": "Annojiguda, Ghatkesar",
-    "h": "HYDRAA fences Miralam Lake in Annojiguda",
-    "p": "HYDRAA reclaimed the 4.12-acre Miralam Lake at Annojiguda in Ghatkesar mandal, Medchal district. Residents complained that plots were marked and walls built inside the lake boundary. Within a week of the complaint, officials checked records, removed the walls on Monday and fenced the lake.",
-    "pts": [
-     "Survey maps, satellite images and village records were checked",
-     "Residents said earlier complaints elsewhere had failed"
-    ],
-    "why": "A protected lake holds rainwater and lowers flood risk for the area."
-   },
-   "hi": {
-    "cat": "मेडचल · झीलें",
-    "stat": "4.12 एकड़ झील",
-    "statl": "कब्ज़े से बचाई गई",
-    "loc": "अन्नोजिगुडा, घटकेसर",
-    "h": "हाइड्रा ने अन्नोजिगुडा की मीरालम झील घेरी",
-    "p": "हाइड्रा ने मेडचल ज़िले के घटकेसर मंडल के अन्नोजिगुडा में 4.12 एकड़ की मीरालम झील को कब्ज़े से मुक्त कराया। निवासियों ने शिकायत की थी कि झील की सीमा में प्लॉट काटे गए और दीवारें बनाई गईं। शिकायत के एक हफ्ते में अधिकारियों ने रिकॉर्ड जांचे, सोमवार को दीवारें हटाईं और बाड़ लगाई।",
-    "pts": [
-     "सर्वे नक्शे, सैटेलाइट तस्वीरें और गांव के रिकॉर्ड जांचे गए",
-     "निवासियों ने कहा कि दूसरी जगह शिकायतें बेअसर रहीं"
-    ],
-    "why": "सुरक्षित झील बारिश का पानी रोकती है और इलाके में बाढ़ का खतरा घटाती है।"
-   },
-   "d": "23.11.2026",
-   "t": "20:35"
   },
   {
    "cat": "తెలంగాణ · భూపాలపల్లి",

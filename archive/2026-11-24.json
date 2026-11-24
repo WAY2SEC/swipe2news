@@ -1,8 +1,400 @@
 {
  "date": "24.11.2026",
  "iso": "2026-11-24",
- "count": 31,
+ "count": 38,
  "stories": [
+  {
+   "cat": "తెలంగాణ · నీరు",
+   "col": "--c-water",
+   "art": "water",
+   "pic": "e/irrigation-canal-repair",
+   "stat": "10 టీఎంసీల",
+   "statl": "అదనపు నీటికి తెలంగాణ అడ్డు",
+   "h": "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగాణ",
+   "p": "కృష్ణా డెల్టాకు అదనంగా 10 టీఎంసీల నీరు కావాలన్న ఏపీ కోరికను తెలంగాణ ఒప్పుకోలేదు. సోమవారం హైదరాబాద్‌లో నాలుగు గంటల పాటు జరిగిన కృష్ణా నది యాజమాన్య బోర్డు సమావేశం ఏ నిర్ణయం లేకుండానే ముగిసింది. హైదరాబాద్ తాగునీటికి నీళ్లు అవసరమని తెలంగాణ చెప్పింది.",
+   "pts": [
+    "సాగర్‌లో 45 టీఎంసీలు ఉన్నా పంచుకోగలిగేది 25 టీఎంసీలే: తెలంగాణ",
+    "ఫిబ్రవరి వరకు తెలంగాణ 21, ఏపీ 19 టీఎంసీలు అడిగాయి",
+    "డెల్టా హక్కులు వదులుకోమని ఏపీ ఇంజినీర్ చెప్పారు"
+   ],
+   "why": "నాగార్జునసాగర్ నీటిపై ఆధారపడిన రెండు రాష్ట్రాల రైతులు, హైదరాబాద్ ప్రజలపై ఈ నిర్ణయం ప్రభావం ఉంటుంది.",
+   "next": "కృష్ణా డెల్టా అంశాన్ని బోర్డు తదుపరి సమావేశంలో మళ్లీ చర్చిస్తుంది",
+   "src": "Siasat",
+   "url": "https://www.siasat.com/telangana-opposes-aps-extra-10-tmcft-demand-krmb-talks-stall-3585204/",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-24T09:36+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Water",
+    "stat": "10 tmcft",
+    "statl": "extra water opposed by Telangana",
+    "loc": "Hyderabad",
+    "h": "No extra Krishna water for AP delta: TG",
+    "p": "Telangana refused Andhra Pradesh's request for an extra 10 tmcft of Krishna water for the Krishna Delta. The four-hour Krishna River Management Board meeting in Hyderabad on Monday ended without a decision. Telangana said it needs the water for Hyderabad's drinking supply.",
+    "pts": [
+     "Telangana: of 45 tmcft in Sagar, only about 25 tmcft can be shared",
+     "Telangana sought 21 tmcft and AP 19 tmcft till February",
+     "AP engineer said the state will not give up delta rights"
+    ],
+    "why": "Farmers in both states and Hyderabad residents depend on Nagarjuna Sagar water.",
+    "next": "The board will take up the Krishna Delta issue again at its next meeting"
+   },
+   "hi": {
+    "cat": "तेलंगाना · पानी",
+    "stat": "10 टीएमसी",
+    "statl": "अतिरिक्त पानी पर तेलंगाना का विरोध",
+    "loc": "हैदराबाद",
+    "h": "आंध्र डेल्टा को अतिरिक्त पानी नहीं: तेलंगाना",
+    "p": "तेलंगाना ने कृष्णा डेल्टा के लिए 10 टीएमसी अतिरिक्त कृष्णा पानी की आंध्र प्रदेश की मांग नहीं मानी। सोमवार को हैदराबाद में चार घंटे चली कृष्णा नदी प्रबंधन बोर्ड की बैठक बिना फैसले के खत्म हुई। तेलंगाना ने कहा कि हैदराबाद के पीने के पानी के लिए यह जरूरी है।",
+    "pts": [
+     "तेलंगाना: सागर के 45 टीएमसी में से करीब 25 टीएमसी ही बांटा जा सकता है",
+     "फरवरी तक तेलंगाना ने 21, आंध्र ने 19 टीएमसी मांगा",
+     "आंध्र के इंजीनियर बोले, डेल्टा के अधिकार नहीं छोड़ेंगे"
+    ],
+    "why": "दोनों राज्यों के किसान और हैदराबाद के लोग नागार्जुनसागर के पानी पर निर्भर हैं।",
+    "next": "बोर्ड अगली बैठक में कृष्णा डेल्टा मुद्दे पर फिर चर्चा करेगा"
+   },
+   "d": "24.11.2026",
+   "t": "11:35"
+  },
+  {
+   "cat": "తెలంగాణ · సంగారెడ్డి",
+   "col": "--c-city",
+   "pic": "e/road-accident-response",
+   "stat": "దంపతులు మృతి",
+   "statl": "జహీరాబాద్ ప్రమాదంలో",
+   "h": "జహీరాబాద్ వద్ద ప్రమాదంలో దంపతులు మృతి",
+   "p": "సంగారెడ్డి జిల్లా జహీరాబాద్ బైపాస్ వద్ద 65వ నంబర్ జాతీయ రహదారిపై మంగళవారం ఉదయం ఒక కారు కోళ్ల లారీని ఢీకొట్టింది. ఈ ప్రమాదంలో మహారాష్ట్రకు చెందిన భార్యాభర్తలు అక్కడికక్కడే మృతి చెందారు. కారు డ్రైవర్‌కు తీవ్ర గాయాలయ్యాయి. పోలీసులు కేసు నమోదు చేశారు.",
+   "pts": [
+    "కుమారుడిని శంషాబాద్ విమానాశ్రయంలో దింపి తిరిగి వెళ్తున్నారు",
+    "మృతదేహాలను జహీరాబాద్ ప్రభుత్వ ఆసుపత్రికి తరలించారు"
+   ],
+   "why": "65వ నంబర్ జాతీయ రహదారిపై తరచూ ప్రయాణించే వారికి ఇది భద్రతా హెచ్చరిక.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/couple-die-in-road-accident-near-zaheerabad-d9fff4a0",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "sangareddy",
+   "loc": "జహీరాబాద్",
+   "pub": "2026-11-24T11:32+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Sangareddy",
+    "stat": "Couple killed",
+    "statl": "in Zaheerabad crash",
+    "loc": "Zaheerabad, Sangareddy",
+    "h": "Maharashtra couple killed near Zaheerabad",
+    "p": "A car rammed a truck carrying chickens on NH-65 at the Zaheerabad bypass in Sangareddy district on Tuesday morning. A couple from Maharashtra died on the spot. The car driver was seriously injured. Police registered a case.",
+    "pts": [
+     "They were returning after dropping their son at Shamshabad airport",
+     "Bodies moved to Zaheerabad government hospital"
+    ],
+    "why": "A safety warning for people who travel often on NH-65."
+   },
+   "hi": {
+    "cat": "तेलंगाना · संगारेड्डी",
+    "stat": "दंपती की मौत",
+    "statl": "ज़हीराबाद हादसे में",
+    "loc": "ज़हीराबाद, संगारेड्डी",
+    "h": "ज़हीराबाद के पास हादसे में दंपती की मौत",
+    "p": "संगारेड्डी जिले में ज़हीराबाद बाईपास पर एनएच-65 पर मंगलवार सुबह एक कार मुर्गियां ले जा रहे ट्रक से टकरा गई। महाराष्ट्र के एक दंपती की मौके पर ही मौत हो गई। कार चालक गंभीर रूप से घायल हुआ। पुलिस ने मामला दर्ज किया।",
+    "pts": [
+     "वे बेटे को शमशाबाद हवाई अड्डे पर छोड़कर लौट रहे थे",
+     "शव ज़हीराबाद सरकारी अस्पताल भेजे गए"
+    ],
+    "why": "एनएच-65 पर अक्सर सफर करने वालों के लिए यह सुरक्षा चेतावनी है।"
+   },
+   "art": "",
+   "d": "24.11.2026",
+   "t": "11:35"
+  },
+  {
+   "cat": "హైదరాబాద్ · మెట్రో",
+   "col": "--c-city",
+   "pic": "e/hyderabad-metro-commute",
+   "stat": "₹13,600 కోట్ల",
+   "statl": "మెట్రో రుణం ఇంకా రాలేదు",
+   "h": "హైదరాబాద్ మెట్రో రుణం తెలియదన్న వైష్ణవ్",
+   "p": "హైదరాబాద్ మెట్రో మొదటి దశను ఎల్ అండ్ టీ నుంచి తీసుకునేందుకు ఐఆర్‌ఎఫ్‌సీ ఇవ్వాల్సిన ₹13,600 కోట్ల రుణం గురించి తనకు తెలియదని రైల్వే మంత్రి అశ్విని వైష్ణవ్ సోమవారం ఢిల్లీలో చెప్పారు. సీఎం రేవంత్ రెడ్డి జూన్ 22న ఈ విషయాన్ని ఆయన దగ్గర ప్రస్తావించారు. మే 25న ఒప్పందం కుదిరినా డబ్బు ఇంకా రాలేదు.",
+   "pts": [
+    "మెట్రో రెండో దశ తన శాఖ పరిధిలో లేదన్న మంత్రి",
+    "అప్పగింత గడువును డిసెంబర్‌కు పొడిగించిన ఎల్ అండ్ టీ",
+    "జపాన్ సంస్థల నుంచి రుణం కోసం రాష్ట్రం ప్రయత్నం"
+   ],
+   "why": "మెట్రో అప్పగింత, విస్తరణ ఆలస్యమైతే హైదరాబాద్ ప్రయాణికులపై ప్రభావం ఉంటుంది.",
+   "src": "Siasat",
+   "url": "https://www.siasat.com/union-min-vaishnaw-unaware-of-rs-13600-cr-loan-hyderabad-metro-awaits-3585281/",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-24T11:11+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Metro",
+    "stat": "₹13,600 crore",
+    "statl": "Metro loan still not received",
+    "loc": "Hyderabad",
+    "h": "Vaishnaw 'unaware' of Hyderabad Metro loan",
+    "p": "Railways Minister Ashwini Vaishnaw said in Delhi on Monday he was not aware of the ₹13,600 crore IRFC loan meant for Telangana to take over Hyderabad Metro Phase 1 from L&T. CM Revanth Reddy had raised it with him on June 22. The agreement was signed on May 25, but the money has not come.",
+    "pts": [
+     "Minister said Metro Phase 2 is not under his ministry",
+     "L&T extended the handover deadline to December",
+     "State exploring loans from Japanese lenders"
+    ],
+    "why": "Delays in the Metro takeover and expansion affect Hyderabad commuters."
+   },
+   "hi": {
+    "cat": "हैदराबाद · मेट्रो",
+    "stat": "₹13,600 करोड़",
+    "statl": "मेट्रो कर्ज अब तक नहीं मिला",
+    "loc": "हैदराबाद",
+    "h": "हैदराबाद मेट्रो कर्ज से अनजान: वैष्णव",
+    "p": "रेल मंत्री अश्विनी वैष्णव ने सोमवार को दिल्ली में कहा कि उन्हें हैदराबाद मेट्रो के पहले चरण को एलएंडटी से लेने के लिए तेलंगाना को आईआरएफसी के ₹13,600 करोड़ के कर्ज की जानकारी नहीं है। मुख्यमंत्री रेवंत रेड्डी ने 22 जून को उनसे यह मुद्दा उठाया था। 25 मई को समझौता हुआ, पर पैसा अब तक नहीं आया।",
+    "pts": [
+     "मंत्री बोले, मेट्रो का दूसरा चरण उनके मंत्रालय के तहत नहीं",
+     "एलएंडटी ने सौंपने की समय सीमा दिसंबर तक बढ़ाई",
+     "राज्य जापानी संस्थाओं से कर्ज की कोशिश में"
+    ],
+    "why": "मेट्रो के हस्तांतरण और विस्तार में देरी का असर हैदराबाद के यात्रियों पर पड़ेगा।"
+   },
+   "art": "",
+   "d": "24.11.2026",
+   "t": "11:35"
+  },
+  {
+   "cat": "తెలంగాణ · ఆరోగ్యం",
+   "col": "--c-gov",
+   "pic": "e/anganwadi-nutrition",
+   "stat": "47.4%",
+   "statl": "చిన్నారులకు రక్తహీనత",
+   "h": "తెలంగాణలో 47.4% చిన్నారులకు రక్తహీనత",
+   "p": "ఐసీఎంఆర్–జాతీయ పోషకాహార సంస్థ చేసిన సంపద సర్వే ప్రకారం తెలంగాణలో ఒకటి నుంచి ఐదేళ్ల లోపు పిల్లల్లో 47.4 శాతం మందికి రక్తహీనత ఉంది. దేశ సగటు 41.8 శాతం. రాష్ట్రంలో 15 నుంచి 49 ఏళ్ల మహిళల్లో 54 శాతం మందికి ఈ సమస్య ఉంది.",
+   "pts": [
+    "దేశంలో 183 జిల్లాల్లో సర్వే చేశారు",
+    "5–9 ఏళ్ల పిల్లల్లో తెలంగాణలో 23.8%, దేశంలో 31.3%",
+    "రక్త నమూనా పద్ధతి మారినందున పాత లెక్కలతో పోల్చలేమన్న నిపుణులు"
+   ],
+   "why": "చిన్నపిల్లల తల్లిదండ్రులు, మహిళలు, అంగన్‌వాడీ పోషకాహార పథకాలకు ఈ లెక్కలు ముఖ్యం.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/nearly-half-of-telangana-children-anaemic-study-89493792",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-24T10:52+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Health",
+    "stat": "47.4%",
+    "statl": "young children anaemic",
+    "loc": "Telangana",
+    "h": "47.4% of young children anaemic in Telangana",
+    "p": "The SAMPADA survey by ICMR-National Institute of Nutrition found 47.4% of Telangana children aged one to under five have anaemia, against a national 41.8%. Among women aged 15 to 49 in the state, 54% have the condition.",
+    "pts": [
+     "Survey covered 183 districts across India",
+     "Children aged 5–9: 23.8% in Telangana, 31.3% nationally",
+     "Experts say a new blood-sample method limits comparison with old data"
+    ],
+    "why": "The figures matter for parents of young children, women and anganwadi nutrition schemes."
+   },
+   "hi": {
+    "cat": "तेलंगाना · स्वास्थ्य",
+    "stat": "47.4%",
+    "statl": "छोटे बच्चों में खून की कमी",
+    "loc": "तेलंगाना",
+    "h": "तेलंगाना में 47.4% छोटे बच्चों में एनीमिया",
+    "p": "आईसीएमआर-राष्ट्रीय पोषण संस्थान के सम्पदा सर्वे के अनुसार तेलंगाना में एक से पांच साल से कम उम्र के 47.4 प्रतिशत बच्चों में खून की कमी है। राष्ट्रीय औसत 41.8 प्रतिशत है। राज्य में 15 से 49 साल की 54 प्रतिशत महिलाओं में यह समस्या है।",
+    "pts": [
+     "देश के 183 जिलों में सर्वे हुआ",
+     "5–9 साल के बच्चे: तेलंगाना 23.8%, देश 31.3%",
+     "विशेषज्ञ: नए रक्त-नमूना तरीके से पुराने आंकड़ों से तुलना सीमित"
+    ],
+    "why": "ये आंकड़े छोटे बच्चों के माता-पिता, महिलाओं और आंगनवाड़ी पोषण योजनाओं के लिए अहम हैं।"
+   },
+   "art": "",
+   "d": "24.11.2026",
+   "t": "11:35"
+  },
+  {
+   "cat": "ఏపీ · మున్సిపల్ ఎన్నికలు",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/election-counting",
+   "stat": "57 పదవులు",
+   "statl": "గెలిచిన టీడీపీ",
+   "h": "ఏపీ మున్సిపల్ ఉప పదవుల్లో టీడీపీకి 57",
+   "p": "ఏపీలో మొదటి దశలో ఎన్నికలు జరిగిన 100 పుర సంస్థల్లో 84 చోట్ల డిప్యూటీ మేయర్, వైస్ చైర్మన్ ఎన్నికలు పూర్తయ్యాయి. టీడీపీ 57, జనసేన 19, బీజేపీ 8, వైసీపీ 2 పదవులు గెలిచాయి. ఒక పదవి స్వతంత్ర అభ్యర్థికి దక్కింది. 13 చోట్ల ఎన్నికలు వాయిదా పడ్డాయి.",
+   "pts": [
+    "సోమవారం 12 కార్పొరేషన్లలో మేయర్లు ప్రమాణం చేశారు",
+    "కూటమిలో విభేదాలు, కోరం లేకపోవడంతో వాయిదాలు",
+    "పిఠాపురం, నిడదవోలులో పోటీపై వివాదాలు"
+   ],
+   "why": "ఈ పాలకవర్గాలు పట్టణాల్లో రోడ్లు, నీరు, పారిశుధ్యం పనులపై నిర్ణయాలు తీసుకుంటాయి.",
+   "src": "NewsMeter",
+   "url": "https://newsmeter.in/politics/andhra-ulb-polls-tdp-secures-57-jana-sena-19-bjp-8-ysrcp-two-posts-12-mayors-take-oath-779885",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-24T10:24+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Civic polls",
+    "stat": "57 posts",
+    "statl": "won by TDP",
+    "loc": "Andhra Pradesh",
+    "h": "TDP wins 57 deputy civic posts in AP",
+    "p": "Deputy mayor and vice-chairperson elections were completed in 84 of the 100 urban local bodies that voted in Andhra Pradesh's first phase. TDP won 57 posts, Jana Sena 19, BJP 8 and YSRCP 2, with one going to an independent. Polls in 13 bodies were postponed.",
+    "pts": [
+     "Mayors in 12 corporations took oath on Monday",
+     "Postponements due to alliance differences and lack of quorum",
+     "Disputes over contests in Pithapuram and Nidadavole"
+    ],
+    "why": "These councils decide on roads, water and sanitation works in towns."
+   },
+   "hi": {
+    "cat": "आंध्र · नगर निकाय चुनाव",
+    "stat": "57 पद",
+    "statl": "टीडीपी ने जीते",
+    "loc": "आंध्र प्रदेश",
+    "h": "आंध्र में उप-निकाय पदों पर टीडीपी को 57",
+    "p": "आंध्र प्रदेश में पहले चरण के 100 शहरी निकायों में से 84 में उप महापौर और उपाध्यक्ष चुनाव पूरे हुए। टीडीपी ने 57, जनसेना ने 19, भाजपा ने 8 और वाईएसआरसीपी ने 2 पद जीते, एक पद निर्दलीय को मिला। 13 निकायों में चुनाव टल गए।",
+    "pts": [
+     "सोमवार को 12 नगर निगमों में महापौरों ने शपथ ली",
+     "गठबंधन में मतभेद और कोरम न होने से चुनाव टले",
+     "पिठापुरम और निडदवोलू में मुकाबले पर विवाद"
+    ],
+    "why": "ये परिषदें शहरों में सड़क, पानी और सफाई के कामों पर फैसले लेती हैं।"
+   },
+   "d": "24.11.2026",
+   "t": "11:35"
+  },
+  {
+   "cat": "ఏపీ · సైబర్ భద్రత",
+   "col": "--c-money",
+   "pic": "e/cyber-fraud-complaint",
+   "stat": "120 మంది",
+   "statl": "బ్యాంకు, ఫిన్‌టెక్ ప్రతినిధులతో సమావేశం",
+   "h": "సైబర్ మోసాలపై బ్యాంకులతో ఏపీ సీఐడీ భేటీ",
+   "p": "సైబర్ ఆర్థిక మోసాలను అడ్డుకునేందుకు ఏపీ సీఐడీ మంగళగిరి కార్యాలయంలో బ్యాంకులు, ఎన్‌బీఎఫ్‌సీలు, ఫిన్‌టెక్ సంస్థలతో సమావేశం నిర్వహించింది. కేంద్ర సైబర్ క్రైమ్ సమన్వయ కేంద్రం సూచనల మేరకు ఈ భేటీ జరిగింది. సీఐడీ డీజీపీ, సైబర్ క్రైమ్స్ ఐజీ, ఎస్పీ సమావేశాన్ని నడిపించారు. చెల్లింపు వ్యవస్థల భద్రత పెంచాలని నిపుణులు సూచించారు.",
+   "pts": [
+    "మోసం జరిగితే వెంటనే 1930కి ఫోన్ చేయాలి",
+    "బ్యాంకు ఖాతాలు అద్దెకు ఇవ్వడం నేరం: సీఐడీ",
+    "హెచ్‌ఎస్‌బీసీ, యాక్సిస్, ఐసీఐసీఐ సహా బ్యాంకులు హాజరు"
+   ],
+   "why": "ఆన్‌లైన్ చెల్లింపులు చేసే ప్రతి ఒక్కరి డబ్బు భద్రతకు ఇది సంబంధించినది.",
+   "src": "NewsMeter",
+   "url": "https://newsmeter.in/regional/andhra-pradesh/andhra-cid-meets-banks-nbfcs-fintech-firms-to-strengthen-cyber-security-in-financial-transactions-779888",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "AP",
+   "place": "ap-guntur",
+   "loc": "మంగళగిరి",
+   "pub": "2026-11-24T10:54+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Cyber safety",
+    "stat": "120 people",
+    "statl": "from banks and fintechs at meeting",
+    "loc": "Mangalagiri, Guntur",
+    "h": "AP CID meets banks on cyber fraud",
+    "p": "The Andhra Pradesh CID held a meeting with banks, NBFCs and fintech firms at its Mangalagiri office to curb cyber financial fraud. It followed guidelines of the Indian Cyber Crime Coordination Centre. The CID DGP, the IG and the SP of cyber crimes led the meeting. Experts called for stronger security in payment systems.",
+    "pts": [
+     "Fraud victims should call 1930 immediately",
+     "Renting out bank accounts is an offence: CID",
+     "HSBC, Axis, ICICI among banks present"
+    ],
+    "why": "It concerns the safety of money for everyone who pays online."
+   },
+   "hi": {
+    "cat": "आंध्र · साइबर सुरक्षा",
+    "stat": "120 लोग",
+    "statl": "बैंक, फिनटेक प्रतिनिधियों के साथ बैठक",
+    "loc": "मंगलगिरि, गुंटूर",
+    "h": "साइबर ठगी पर बैंकों से मिली आंध्र सीआईडी",
+    "p": "आंध्र प्रदेश सीआईडी ने साइबर वित्तीय ठगी रोकने के लिए मंगलगिरि कार्यालय में बैंकों, एनबीएफसी और फिनटेक कंपनियों के साथ बैठक की। यह भारतीय साइबर अपराध समन्वय केंद्र के दिशानिर्देशों के तहत हुई। सीआईडी डीजीपी, साइबर अपराध आईजी और एसपी ने बैठक की अगुवाई की। विशेषज्ञों ने भुगतान प्रणालियों की सुरक्षा बढ़ाने को कहा।",
+    "pts": [
+     "ठगी होने पर तुरंत 1930 पर कॉल करें",
+     "बैंक खाता किराये पर देना अपराध: सीआईडी",
+     "एचएसबीसी, एक्सिस, आईसीआईसीआई समेत बैंक मौजूद"
+    ],
+    "why": "यह ऑनलाइन भुगतान करने वाले हर व्यक्ति के पैसे की सुरक्षा से जुड़ा है।"
+   },
+   "art": "",
+   "d": "24.11.2026",
+   "t": "11:35"
+  },
+  {
+   "cat": "ప్రపంచం · బంగ్లాదేశ్",
+   "col": "--c-gov",
+   "pic": "n/asia",
+   "stat": "డిసెంబర్ 16న",
+   "statl": "స్వదేశానికి వెళ్తానన్న హసీనా",
+   "h": "డిసెంబర్ 16న బంగ్లాదేశ్‌కు వెళ్తా: హసీనా",
+   "p": "భారత్‌లో ఉంటున్న బంగ్లాదేశ్ మాజీ ప్రధాని షేక్ హసీనా డిసెంబర్ 16న విజయ దినోత్సవం రోజు స్వదేశానికి తిరిగి వెళ్తానని ప్రకటించారు. ఢిల్లీ నుంచి ఢాకాకు ప్రయాణ ఏర్పాట్లు చేయాలని ఆమె ప్రతినిధి ప్రధాని తారిఖ్ రెహమాన్ ప్రభుత్వాన్ని కోరారు. ఏర్పాట్లపై ఇంకా స్పష్టత లేదు.",
+   "pts": [
+    "2024 ఆగస్టు 5న ఆమె భారత్‌కు వచ్చారు",
+    "గైర్హాజరీలో వచ్చిన మరణశిక్ష తీర్పును ఆమె తిరస్కరిస్తున్నారు"
+   ],
+   "why": "ఈ పరిణామం భారత్–బంగ్లాదేశ్ సంబంధాలపై ప్రభావం చూపవచ్చు.",
+   "src": "National Herald (AP)",
+   "url": "https://www.nationalheraldindia.com/international/sheikh-hasina-plans-16-december-return-to-bangladesh-on-victory-day",
+   "sec": [
+    "world"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-24T10:51+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "World · Bangladesh",
+    "stat": "December 16",
+    "statl": "Hasina plans to return home",
+    "loc": "Delhi–Dhaka",
+    "h": "Hasina plans Bangladesh return on Dec 16",
+    "p": "Former Bangladesh prime minister Sheikh Hasina, who is living in India, said she plans to return home on December 16, Victory Day. Her spokesperson asked Prime Minister Tarique Rahman's government to arrange her travel from Delhi to Dhaka. Arrangements remain unclear.",
+    "pts": [
+     "She came to India on August 5, 2024",
+     "She rejects the death sentence given in her absence"
+    ],
+    "why": "The move could affect India–Bangladesh relations."
+   },
+   "hi": {
+    "cat": "दुनिया · बांग्लादेश",
+    "stat": "16 दिसंबर",
+    "statl": "को स्वदेश लौटेंगी हसीना",
+    "loc": "दिल्ली–ढाका",
+    "h": "16 दिसंबर को बांग्लादेश लौटेंगी हसीना",
+    "p": "भारत में रह रहीं बांग्लादेश की पूर्व प्रधानमंत्री शेख हसीना ने कहा कि वे 16 दिसंबर, विजय दिवस पर स्वदेश लौटेंगी। उनके प्रवक्ता ने प्रधानमंत्री तारिक रहमान की सरकार से दिल्ली से ढाका यात्रा की व्यवस्था करने को कहा। व्यवस्थाएं अभी साफ नहीं हैं।",
+    "pts": [
+     "वे 5 अगस्त 2024 को भारत आई थीं",
+     "वे अपनी गैरमौजूदगी में दी गई मौत की सजा को नहीं मानतीं"
+    ],
+    "why": "इस कदम का असर भारत–बांग्लादेश संबंधों पर पड़ सकता है।"
+   },
+   "art": "",
+   "d": "24.11.2026",
+   "t": "11:35"
+  },
   {
    "cat": "తెలంగాణ · నిర్మల్ · విద్య",
    "col": "--c-gov",
