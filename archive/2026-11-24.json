@@ -1,8 +1,176 @@
 {
  "date": "24.11.2026",
  "iso": "2026-11-24",
- "count": 146,
+ "count": 149,
  "stories": [
+  {
+   "cat": "హైదరాబాద్ · పోలీస్",
+   "col": "--c-city",
+   "pic": "e/cctv-monitoring",
+   "stat": "5 ఏఐ సేవలు",
+   "statl": "తొలి దశలో",
+   "h": "పంజాగుట్టలో తొలి ఏఐ పోలీస్ స్టేషన్",
+   "p": "హైదరాబాద్ పోలీస్ స్టేషన్లలో కృత్రిమ మేధ (ఏఐ) వాడేందుకు నగర పోలీసులు ప్రణాళిక సిద్ధం చేశారు. పంజాగుట్ట స్టేషన్‌ను దేశంలోనే తొలి ఏఐ పోలీస్ స్టేషన్‌గా మారుస్తున్నారు. డిసెంబర్ మొదటి వారంలో ప్రయోగాత్మకంగా మొదలవుతుంది. ముందుగా కమాండ్ సెంటర్‌లో ఐదు ఏఐ సేవలు పరీక్షిస్తారు. సీసీటీవీ దృశ్యాలు వెతకడం, ముఖ గుర్తింపు, రద్దీ పర్యవేక్షణ ఏఐ చేస్తుంది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-police-stations-to-turn-smart-with-artificial-intelligence-2007618",
+   "sec": [
+    "telangana",
+    "ai"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "పంజాగుట్ట",
+   "pts": [
+    "కమిషనర్ మహేశ్ భగవత్ సోమవారం స్టేషన్‌ను పరిశీలించారు",
+    "ముఖ గుర్తింపు ఫలితాలను సిబ్బంది తప్పక సరిచూస్తారు",
+    "పాత నేరాల రికార్డులతో మళ్లీ మళ్లీ నేరాలు చేసేవారి గుర్తింపు"
+   ],
+   "why": "హైదరాబాద్ ప్రజల ఫిర్యాదులు, కేసుల దర్యాప్తు వేగంగా సాగడమే దీని లక్ష్యం.",
+   "next": "పంజాగుట్టలో ప్రయోగం డిసెంబర్ మొదటి వారంలో మొదలు",
+   "pub": "2026-11-24T22:40+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Police",
+    "stat": "5 AI tools",
+    "statl": "in the first phase",
+    "loc": "Panjagutta, Hyderabad",
+    "h": "Panjagutta to get India's first AI police station",
+    "p": "Hyderabad police have drawn up a plan to use artificial intelligence in police stations. Panjagutta station is being turned into what officials call India's first AI police station, with a pilot from the first week of December. AI will search CCTV footage, match faces and monitor crowds.",
+    "pts": [
+     "Commissioner Mahesh Bhagwat inspected the station on Monday",
+     "Face-match results must be checked by staff",
+     "Old crime records used to spot repeat offenders"
+    ],
+    "why": "The aim is faster response to complaints and quicker investigations for Hyderabad residents.",
+    "next": "Panjagutta pilot starts in the first week of December"
+   },
+   "hi": {
+    "cat": "हैदराबाद · पुलिस",
+    "stat": "5 एआई सेवाएं",
+    "statl": "पहले चरण में",
+    "loc": "पंजागुट्टा, हैदराबाद",
+    "h": "पंजागुट्टा में देश का पहला एआई पुलिस थाना",
+    "p": "हैदराबाद पुलिस ने थानों में आर्टिफिशियल इंटेलिजेंस के इस्तेमाल की योजना बनाई है। पंजागुट्टा थाने को देश का पहला एआई पुलिस थाना बनाया जा रहा है, जिसका पायलट दिसंबर के पहले हफ्ते में शुरू होगा। एआई सीसीटीवी फुटेज खोजेगा, चेहरे पहचानेगा और भीड़ पर नज़र रखेगा।",
+    "pts": [
+     "कमिश्नर महेश भागवत ने सोमवार को थाने का दौरा किया",
+     "चेहरा पहचान के नतीजे कर्मचारी ज़रूर जांचेंगे",
+     "पुराने अपराध रिकॉर्ड से बार-बार अपराध करने वालों की पहचान"
+    ],
+    "why": "इसका लक्ष्य हैदराबाद के लोगों की शिकायतों और जांच में तेज़ी लाना है।",
+    "next": "पंजागुट्टा में पायलट दिसंबर के पहले हफ्ते में शुरू"
+   },
+   "d": "24.11.2026",
+   "t": "23:35"
+  },
+  {
+   "cat": "తెలంగాణ · మహబూబాబాద్ · ఆధ్యాత్మికం",
+   "col": "--c-gov",
+   "pic": "d/mahabubabad",
+   "stat": "కల్యాణోత్సవం",
+   "statl": "కందికొండ గుట్టపై",
+   "h": "కందికొండపై లక్ష్మీనరసింహస్వామి జాతర",
+   "p": "మహబూబాబాద్ జిల్లా కురవి మండలంలోని కందికొండ గుట్టపై మంగళవారం కార్తీక పౌర్ణమి సందర్భంగా శ్రీ లక్ష్మీనరసింహస్వామి జాతర, కల్యాణోత్సవం జరిగాయి. తెలంగాణతో పాటు పొరుగు రాష్ట్రాల నుంచి గిరిజనులు సహా పెద్ద సంఖ్యలో భక్తులు వచ్చారు. కొండ కింద వెంకటేశ్వరస్వామి ఆలయంలో పూజల తర్వాత గుట్ట ఎక్కారు. గుట్టపై కోనేరులో పుణ్యస్నానాలు చేసి, గుహలోని స్వామిని దర్శించుకున్నారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/kandikonda-hill-witnesses-lakshmi-narasimha-swamy-jatara",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "TG",
+   "place": "mahabubabad",
+   "loc": "కందికొండ, కురవి",
+   "pts": [
+    "కలెక్టర్ స్నేహ శబరీష్ ఏర్పాట్లు పర్యవేక్షించారు",
+    "మాజీ మంత్రి సత్యవతి రాథోడ్, ఎమ్మెల్యే రామచంద్రునాయక్ దర్శనం",
+    "కురవి ఆరోగ్య కేంద్రం వద్ద వైద్య శిబిరం"
+   ],
+   "why": "మహబూబాబాద్ జిల్లా భక్తులకు, గిరిజనులకు ఇది ముఖ్యమైన వార్షిక జాతర.",
+   "pub": "2026-11-24T22:54+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Mahabubabad · Devotion",
+    "stat": "Kalyanotsavam",
+    "statl": "on Kandikonda hill",
+    "loc": "Kandikonda, Kuravi",
+    "h": "Narasimha Swamy jatara on Kandikonda hill",
+    "p": "The annual jatara and Kalyanotsavam of Sri Lakshmi Narasimha Swamy were held on Kandikonda hill in Kuravi mandal of Mahabubabad district on Tuesday, Karthika Pournami. Devotees came from Telangana and neighbouring states, bathed in the hilltop pond and prayed at the cave shrine.",
+    "pts": [
+     "Collector Sneha Shabarish oversaw arrangements",
+     "Ex-minister Satyavathi Rathod, MLA Ramchander Naik visited",
+     "Medical camp at Kuravi health centre"
+    ],
+    "why": "It is an important annual fair for devotees and tribal people in Mahabubabad district."
+   },
+   "hi": {
+    "cat": "तेलंगाना · महबूबाबाद · आस्था",
+    "stat": "कल्याणोत्सवम",
+    "statl": "कंदिकोंडा पहाड़ी पर",
+    "loc": "कंदिकोंडा, कुरवी",
+    "h": "कंदिकोंडा पहाड़ी पर नरसिंह स्वामी जात्रा",
+    "p": "महबूबाबाद ज़िले के कुरवी मंडल में कंदिकोंडा पहाड़ी पर मंगलवार को कार्तिक पूर्णिमा पर श्री लक्ष्मी नरसिंह स्वामी की वार्षिक जात्रा और कल्याणोत्सवम हुआ। तेलंगाना और पड़ोसी राज्यों से भक्त आए, पहाड़ी के तालाब में स्नान किया और गुफा मंदिर में दर्शन किए।",
+    "pts": [
+     "कलेक्टर स्नेहा शबरीश ने इंतज़ाम देखे",
+     "पूर्व मंत्री सत्यवती राठौड़, विधायक रामचंदर नायक पहुंचे",
+     "कुरवी स्वास्थ्य केंद्र पर मेडिकल कैंप"
+    ],
+    "why": "महबूबाबाद ज़िले के भक्तों और आदिवासियों के लिए यह अहम वार्षिक मेला है।"
+   },
+   "d": "24.11.2026",
+   "t": "23:35"
+  },
+  {
+   "cat": "తెలంగాణ · నిర్మల్ · విద్య",
+   "col": "--c-gov",
+   "pic": "e/remembrance-and-condolence",
+   "stat": "₹2 లక్షలు",
+   "statl": "బెట్టింగ్‌లో పోయాయని అనుమానం",
+   "h": "బాసర విద్యార్థి మృతిలో బెట్టింగ్ కోణం",
+   "p": "నిర్మల్ జిల్లా బాసర ట్రిపుల్ ఐటీలో సోమవారం రాత్రి ఆత్మహత్య చేసుకున్న రెండో సంవత్సరం విద్యార్థి ఆన్‌లైన్ బెట్టింగ్‌లో సుమారు ₹2 లక్షలు పోగొట్టుకున్నట్లు అనుమానిస్తున్నారు. కాలేజీ ఫీజు పేరుతో బంధువు దగ్గర ₹1 లక్ష, తల్లి దగ్గర ₹50 వేలు తీసుకున్నట్లు సమాచారం. పోలీసులు ల్యాప్‌టాప్, ఫోన్ తీసుకుని దర్యాప్తు చేస్తున్నారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/basar-iiit-student-dies-by-suicide-online-betting-losses-suspected-2007640",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "nirmal",
+   "loc": "బాసర",
+   "pts": [
+    "స్నేహితుల వల్లే బెట్టింగ్‌కు అలవాటు పడ్డాడని కుటుంబం ఆరోపణ",
+    "కుటుంబం ఫిర్యాదుతో పోలీసులు కేసు నమోదు చేశారు"
+   ],
+   "why": "బెట్టింగ్ అప్పులతో ఇబ్బంది పడుతున్నవారు ఒంటరిగా ఉండొద్దు; టెలీ-మానస్ 14416కు ఫోన్ చేయండి.",
+   "pub": "2026-11-24T23:20+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Nirmal · Education",
+    "stat": "₹2 lakh",
+    "statl": "suspected lost in betting",
+    "loc": "Basara, Nirmal",
+    "h": "Betting losses suspected in Basara death",
+    "p": "The second-year Basara IIIT student in Nirmal district who died by suicide on Monday night is suspected to have lost about ₹2 lakh in online betting. Preliminary information says he took ₹1 lakh from a relative citing college fees and ₹50,000 from his mother. Police took his laptop and phone and are investigating.",
+    "pts": [
+     "Family alleges friends got him into betting",
+     "Police registered a case on the family's complaint"
+    ],
+    "why": "Anyone struggling with betting debts should not stay alone; call Tele-MANAS 14416."
+   },
+   "hi": {
+    "cat": "तेलंगाना · निर्मल · शिक्षा",
+    "stat": "₹2 लाख",
+    "statl": "सट्टेबाज़ी में गंवाने का शक",
+    "loc": "बासर, निर्मल",
+    "h": "बासर छात्र की मौत में सट्टेबाज़ी का शक",
+    "p": "निर्मल ज़िले के बासर ट्रिपल आईटी में सोमवार रात आत्महत्या करने वाले दूसरे वर्ष के छात्र पर करीब ₹2 लाख ऑनलाइन सट्टेबाज़ी में गंवाने का शक है। शुरुआती जानकारी के अनुसार उसने कॉलेज फीस के नाम पर एक रिश्तेदार से ₹1 लाख और मां से ₹50,000 लिए थे। पुलिस ने लैपटॉप और फोन लेकर जांच शुरू की है।",
+    "pts": [
+     "परिवार का आरोप, दोस्तों ने सट्टेबाज़ी की लत लगाई",
+     "परिवार की शिकायत पर पुलिस ने केस दर्ज किया"
+    ],
+    "why": "सट्टेबाज़ी के कर्ज़ से परेशान लोग अकेले न रहें; टेली-मानस 14416 पर कॉल करें।"
+   },
+   "d": "24.11.2026",
+   "t": "23:35"
+  },
   {
    "cat": "హైదరాబాద్ · మూసీ",
    "col": "--c-water",
