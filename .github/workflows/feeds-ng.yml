@@ -1,0 +1,31 @@
+name: Nigeria feeds
+
+# Nigeria edition: reads the Nigerian news sites + Google News Nigeria (tools/ng/feeds.json) with tools/ng/collect_ng.py
+# and keeps the newest list on the separate branch "feeds-ng" (latest.json + status.json). The Nigeria newsroom task
+# reads it there. No AI, no secrets; never writes main, news.json, editions/ or the India "feeds" branch.
+on:
+  schedule:
+    - cron: '20,50 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: { group: feeds-ng, cancel-in-progress: true }
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 1 }
+      - run: python3 tools/ng/collect_ng.py /tmp/feeds-ng
+      - name: Publish to the feeds-ng branch (one commit, replaced each time)
+        run: |
+          cd /tmp/feeds-ng
+          git init -q -b feeds-ng
+          git config user.name "Swipe2News Bot"; git config user.email news-bot@swipe2news.invalid
+          git add latest.json status.json
+          git commit -qm "Nigeria feeds $(date -u +%FT%TZ)"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" feeds-ng
