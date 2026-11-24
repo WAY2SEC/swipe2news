@@ -3,8 +3,9 @@
 
 Who gets what (owner 19 Nov 2026 – alerts must reach people who installed the app):
   * BREAKING ("brk": true)       -> everyone, at once
-  * Top story of the moment       -> everyone, 3 times a day (about 8 AM, 1 PM, 7 PM IST), if there was no breaking alert in the last 3 h
-  * District news ("place")       -> only readers who chose that district (Andhra: readers who chose AP), at most 1 per district every 4 h and 3 a day
+  * Top story of the moment       -> everyone, 5 times a day (about 8, 11 AM, 2, 5, 8 PM IST), if there was no breaking alert in the last 2 h
+  * New jobs                      -> everyone, once a day at about 9 AM IST, when new job notices came in
+  * District news ("place")       -> only readers who chose that district (Andhra: readers who chose AP), at most 1 per district every 2 h and 5 a day
 Every alert is sent in the reader's own language (tag "lang": te / en / hi; readers without a tag get Telugu).
 No alerts between 10 PM and 6 AM IST except breaking news.
 
@@ -18,7 +19,7 @@ APP_ID = '4f354e28-c33a-4836-8a3a-f25d58b2ba49'
 STATE = os.path.join(ROOT, 'push', 'state.json')
 IST = datetime.timezone(datetime.timedelta(hours=5, minutes=30))
 SITE = 'https://swipe2news.com/'
-DIGEST_HOURS = (8, 13, 19)
+DIGEST_HOURS = (8, 11, 14, 17, 20)  # owner 24 Nov 2026: more alerts – 5 top stories a day
 
 def sid(s):  # same id as the app (index.html sid()), so the alert opens that exact card
     h = 5381
@@ -58,6 +59,7 @@ HEAD = {'te': {'brk': '🔴 బ్రేకింగ్', 'top': '📰 ముఖ
         'en': {'brk': '🔴 Breaking', 'top': '📰 Top story', 'local': '📍 Your district'},
         'hi': {'brk': '🔴 ब्रेकिंग', 'top': '📰 बड़ी ख़बर', 'local': '📍 आपके ज़िले की ख़बर'}}
 
+JOBTX = {'te': ('💼 కొత్త ఉద్యోగాలు', '{n} కొత్త ఉద్యోగ ప్రకటనలు · '), 'en': ('💼 New jobs', '{n} new job notices · '), 'hi': ('💼 नई नौकरियाँ', '{n} नई भर्तियाँ · ')}
 def send(s, kind, key, dry, place=None):
     sent = 0
     for lang, flt in LANG_FILTERS.items():
@@ -107,7 +109,7 @@ def main():
         print('BREAKING:', s.get('h')); send(s, 'brk', key, dry); mark(s, 'brk')
     # 2) top story at 8 AM / 1 PM / 7 PM (first run in that hour), skipped right after a breaking alert
     slot = f'{today}-{now.hour}'
-    if now.hour in DIGEST_HOURS and st.get('slot') != slot and not logged('brk', hours=3):
+    if now.hour in DIGEST_HOURS and st.get('slot') != slot and not logged('brk', hours=2):
         top = next((x for x in stories if sid(x) not in done and when(x) and now - when(x) < datetime.timedelta(hours=6)), None)
         if top:
             print('TOP STORY:', top.get('h')); send(top, 'top', key, dry); mark(top, 'top')
@@ -121,9 +123,34 @@ def main():
                 pl = 'AP'
             if not pl or pl in ('tg', 'ap', 'TS', 'IN') or pl.startswith('st-') or sid(s) in done:  # other states: nobody picks them as home
                 continue
-            if logged('local', pl, 4) or len(logged('local', pl, 24)) >= 3:
+            if logged('local', pl, 2) or len(logged('local', pl, 24)) >= 5:  # 1 every 2 h, 5 a day per district
                 continue
             print('DISTRICT', pl + ':', s.get('h')); send(s, 'local', key, dry, place=pl); mark(s, 'local', pl)
+    # 4) new jobs once a day (~9 AM IST)
+    if now.hour == 9 and st.get('jobday') != today:
+        try:
+            J = json.load(open(os.path.join(ROOT, 'jobs.json'), encoding='utf-8'))['jobs']
+        except Exception:
+            J = []
+        seen = set(st.get('jobs_seen', []))
+        new = [j for j in J if j.get('id') and j['id'] not in seen]
+        if new and seen:  # the very first run only remembers what is there
+            top = new[0]
+            for lang, flt in LANG_FILTERS.items():
+                hd, pre = JOBTX[lang]; h = (top.get(lang) or {}).get('h') if isinstance(top.get(lang), dict) else None
+                body = {'app_id': APP_ID, 'target_channel': 'push', 'filters': flt, 'headings': {'en': hd},
+                        'contents': {'en': (pre.format(n=len(new)) + (h or top.get('h') or ''))[:160]},
+                        'url': SITE + '?jobs', 'chrome_web_icon': SITE + 'icon-192.png', 'web_push_topic': 'jobs', 'ttl': 12 * 3600}
+                if dry or not key:
+                    print('  [dry] jobs/' + lang + ':', body['contents']['en']); continue
+                try:
+                    req = urllib.request.Request('https://api.onesignal.com/notifications', data=json.dumps(body).encode(), headers={'Content-Type': 'application/json', 'Authorization': 'Key ' + key})
+                    with urllib.request.urlopen(req, timeout=20) as r: print('  sent jobs/' + lang + ':', json.loads(r.read().decode() or '{}').get('id'))
+                except Exception as e:
+                    print('  FAILED jobs/' + lang + ':', e)
+            st['log'].append({'t': now.isoformat(), 'kind': 'jobs', 'place': None, 'h': f'{len(new)} new jobs'})
+        st['jobs_seen'] = [j['id'] for j in J if j.get('id')][-800:]
+        st['jobday'] = today
     if not dry and key:  # without the key nothing went out, so nothing is marked as sent
         os.makedirs(os.path.dirname(STATE), exist_ok=True)
         st['sent'] = st['sent'][-600:]
