@@ -549,9 +549,9 @@ function artParty(s,a){
   return 'e/party-'+hit[0];
 }
 /* owner 23 Nov 2026: HYDRAA stories show HYDRAA's own logo (sent by the owner); no "AI picture" label on logos */
-const ART_ORG=[['hydraa',/హైడ్రా(?!లిక్|క్సి|జన్|కార్బన్|ఫోన్)|\bHYDRAA?\b|Hydraa/i],
+const ART_ORG=[['ghmc',/జీహెచ్ఎంసీ|జీహెచ్‌ఎంసీ|\bGHMC\b|గ్రేటర్ హైదరాబాద్ మున్సిపల్/i],['hydraa',/హైడ్రా(?!లిక్|క్సి|జన్|కార్బన్|ఫోన్)|\bHYDRAA?\b|Hydraa/i],
   ['rss',/ఆర్\s?ఎస్\s?ఎస్|ఆర్‌ఎస్‌ఎస్|స్వయంసేవక్ సంఘ్|\bRSS\b|Rashtriya Swayamsevak|स्वयंसेवक संघ|आरएसएस/]]; // owner 24 Nov 2026: "use attached image for all RSS news"
-function artOrg(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[o.h,o.statl,(o.en&&o.en.h)||''].join(' ');
+function artOrg(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[o.h,o.statl,(o.en&&o.en.h)||''].join(' ').replace(/\u200c|\u200d/g,'');
   for(const [k,rx] of ART_ORG) if(rx.test(t)){ if(k==='rss'&&/హత్య|దాడి|మృతి|అరెస్ట్|murder|attack|kill|arrest|हत्या|हमला/i.test(t)) return ''; return 'e/logo-'+k; } return ''; }
 function artPlan(s){ const ok=artOrg(s); if(ok) return {m:'land',bg:ok}; const a=artPlan1(s); const pk=artParty(s,a); return pk?{m:'land',bg:pk}:a; }
 function artPlan1(s){ const a=artPlan0(s); if(!a) return a;
