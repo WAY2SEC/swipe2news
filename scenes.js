@@ -532,7 +532,7 @@ const ART_PARTY=[ // order matters: longer names first (YSR Congress before Cong
   ['congress',/కాంగ్రెస్|హస్తం పార్టీ|\bCongress\b|\bINC\b/i],
   ['aap',/ఆమ్ ఆద్మీ|\bAAP\b|Aam Aadmi/i],['abvp',/ఏబీవీపీ|\bABVP\b/i],['aimim',/ఎంఐఎం|మజ్లిస్|\bA?IMIM\b|\bMIM\b|Owaisi|ఒవైసీ/i],
   ['dyfi',/డీవైఎఫ్ఐ|\bDYFI\b/i],['nsui',/ఎన్ఎస్‌యూఐ|ఎన్ఎస్యూఐ|\bNSUI\b/i]];
-const ART_PARTY_HAVE=new Set(['ysrcp','bjym','bjp','brs','tdp','janasena','bsp','cpim','cpi','sfi','congress']); // cpim added 22 Nov 2026 (official logo picture)
+const ART_PARTY_HAVE=new Set(['ysrcp','bjym','bjp','brs','tdp','janasena','bsp','cpim','cpi','sfi','congress','aimim']); // aimim added 24 Nov 2026 (official logo) // cpim added 22 Nov 2026 (official logo picture)
 function artParty(s,a){
   const o=(s&&s._orig)||s; if(!o||!a||a.m!=='land') return '';
   const pol=/రాజకీయ|Politic/i.test(String(o.cat||'')+' '+String(((o.en||{}).cat)||'')) || String(o.pic||'')==='c/politics';
