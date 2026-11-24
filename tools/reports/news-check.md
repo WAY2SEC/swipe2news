@@ -1,17 +1,17 @@
 # Swipe2News story check
 
 ## news.json: 123 stories · 0 to fix · 30 to look at · 0 fixed automatically
-- CHECK: #24 "రక్షణ గ్రూపుల్లో పాక్ గూఢచారులు: అధికారు": headline is 42 characters – may not fit one line (keep ≤ 38)
-- CHECK: #24 "రక్షణ గ్రూపుల్లో పాక్ గూఢచారులు: అధికారు": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #28 "కరీంనగర్ మెడికల్ కాలేజీలో నిరసనలపై నిషేధ": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #28 "కరీంనగర్ మెడికల్ కాలేజీలో నిరసనలపై నిషేధ": picture line is long (40 letters) – keep stat + statl short so it fits one line
-- CHECK: #29 "గోదావరిఖని హత్య: నలుగురు అరెస్ట్": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #31 "ఇటలీలో ఉన్న భర్తను రప్పించాలని సీఎంకు లే": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #33 "మోసాలు ఆపేందుకు ఆర్‌బీఐ కొత్త ప్రతిపాదనల": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #34 "చక్కెర దిగుమతి అవసరం కావచ్చు: నివేదిక": picture line is long (40 letters) – keep stat + statl short so it fits one line
-- CHECK: #39 "బౌరంపేట గ్యాస్ కేసులో ముగ్గురు అరెస్ట్": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #42 "తిరుపతి కార్పొరేటర్‌గా జ్యోత్స్న ప్రమాణం": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #43 "సైబరాబాద్ ట్రాఫిక్‌పై ఆసుపత్రులతో భేటీ": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #33 "రక్షణ గ్రూపుల్లో పాక్ గూఢచారులు: అధికారు": headline is 42 characters – may not fit one line (keep ≤ 38)
+- CHECK: #33 "రక్షణ గ్రూపుల్లో పాక్ గూఢచారులు: అధికారు": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #37 "కరీంనగర్ మెడికల్ కాలేజీలో నిరసనలపై నిషేధ": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #37 "కరీంనగర్ మెడికల్ కాలేజీలో నిరసనలపై నిషేధ": picture line is long (40 letters) – keep stat + statl short so it fits one line
+- CHECK: #38 "గోదావరిఖని హత్య: నలుగురు అరెస్ట్": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #40 "ఇటలీలో ఉన్న భర్తను రప్పించాలని సీఎంకు లే": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #42 "మోసాలు ఆపేందుకు ఆర్‌బీఐ కొత్త ప్రతిపాదనల": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #43 "చక్కెర దిగుమతి అవసరం కావచ్చు: నివేదిక": picture line is long (40 letters) – keep stat + statl short so it fits one line
+- CHECK: #48 "బౌరంపేట గ్యాస్ కేసులో ముగ్గురు అరెస్ట్": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #51 "తిరుపతి కార్పొరేటర్‌గా జ్యోత్స్న ప్రమాణం": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #52 "సైబరాబాద్ ట్రాఫిక్‌పై ఆసుపత్రులతో భేటీ": picture line is long (36 letters) – keep stat + statl short so it fits one line
 - CHECK: #61 "భూపాలపల్లిలో వడ్లు వెంటనే కొనాలి: గండ్ర": picture line is long (35 letters) – keep stat + statl short so it fits one line
 - CHECK: #62 "ఏపీలో 3,191 సర్పంచ్ పదవులకు 26న పోలింగ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
 - CHECK: #64 "ఖాజీపేట మిడుతూరులో నామినేషన్ల ఘర్షణ": picture line is long (35 letters) – keep stat + statl short so it fits one line
@@ -35,4 +35,4 @@
 ### Pictures needed (create in your image tool, send to Claude)
 - **Industry & Factories** – 1 story(ies), e.g. "సారపాకలో ఈఎస్ఐ ఆసుపత్రి కావాలి: జేఏసీ". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
 - **Labour Strike / Workers' Protest** – 1 story(ies), e.g. "సారపాకలో ఈఎస్ఐ ఆసుపత్రి కావాలి: జేఏసీ". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Peaceful group of workers in helmets and work clothes gathered outside a factory or mine gate holding blank placards and plain red flags, seen from behind or at a distance. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents. Calm, non-violent. Top 15% plain plum sky. No readable text on placards, no faces in close-up, no logos, no watermark.
-## archive/2026-11-24.json: 15 stories · 0 to fix · 0 to look at · 0 fixed automatically
+## archive/2026-11-24.json: 24 stories · 0 to fix · 0 to look at · 0 fixed automatically
