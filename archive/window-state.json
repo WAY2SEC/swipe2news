@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-24T17:05:00+05:30",
+ "cutoff": "2026-11-24T17:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-21T18:35:00+05:30/2026-11-21T19:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 8,
-   "late": 1,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "Lookback from 10:35. Feeds 18:50 IST, 67/70 ok (Andhra Jyothy, Namasthe Telangana, TV5 HTTP 429), 801 TG/AP flagged uncovered; 81 events first seen since 18:10 reviewed. add_repo not available; used existing clone. Published 8: Kothagudem wife murder case three more held (Andhra Prabha, police, sensitive, nobody named), Seethakka asks eligible to apply for new pensions (Oneindia), Kothagudem School of Mining 50 years (HMTV), Peddampeta wildlife compensation awareness (HMTV), Hussain Sagar 1940 records (TT), Sridevi college silver jubilee (TT, late 16:55), crypto investors vs WazirX/Binance (TT/IANS, claim, sensitive), drones hit Russian ship in Gulf of Finland (Al Jazeera; page time 12:45 without zone, taken as UTC). Duplicates: TG SAFE four eateries (13:05), CERT-In advisory (20 Nov), Naidu local polls (15:05), Pochampally tour (05:05). Old: TT Jadcherla custody death (16 Nov), GK Today Union Bank SHG waiver (July). Skipped: ETV Nagarkurnool alprazolam (bust already reported 18 Nov elsewhere, not confirmed as new), AndhraPravasi media city (17 Nov news), NTV Ibrahimpatnam remains (graphic), entertainment, sports, party statements, other-state. Not opened: Disha BTech ganja (client error); search did not return GK Today AP Cabinet items, TaxGuru GST AAR, News18 corporator, NTV Reliance plant. Lang pages, index.html and sitemap.xml reverted. Older TG/AP backlog not worked."
-  },
   {
    "window": "2026-11-21T19:05:00+05:30/2026-11-21T19:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 08:35. Feeds 16:52 IST (69/70 ok). add_repo tool not available; used existing clone. Direct feed URLs are refused by WebFetch (PROVENANCE_REQUIRED) unless the same URL came out of a WebSearch this run; exact-title searches find Telangana Today/Siasat but not The Hindu or most Telugu outlets. Published: TT Nizamabad ATM break-in attempt (police), TT Sangareddy beverage plants water (claim), TT AIMIM outreach, NewsBytes winter eases, TT TIFR-CMC metabolic chamber, Siasat Iran 7 conditions (claim). Duplicate: SI hall tickets (published 23 Nov). Skipped old: HMTV Achampet CM visit review (22 Nov), Hans APSCHE workshop (10 Nov); skipped other-state minor: IndiGo Agartala landing. Not opened/no search hit: Hindu Bikkavolu-Duvvada rail tenders, Hindu APSCHE 10 workshops, Hindu Rayalaseema rice hoarding, Hindu cold snap, AJ Zaheerabad bypass accident, AJ AP PRC commissioner pay GO, NewsMeter Harish Krishna counter, NewsMeter Date A Book, Oneindia AP rains, Disha Achampet (client error). No district searches this run. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-24T17:05:00+05:30/2026-11-24T17:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 13,
+   "published": 10,
+   "late": 8,
+   "sensitive": 4,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 09:05. Feeds 17:17 IST (68/68 ok). add_repo tool not available; used existing clone. Fetched via web-fetch agent after exact-title site searches. Published: TT KCR attendant Sircilla crash (sensitive, no names), TT Hyderabad bomb-threat email probe, HMTV Nalgonda AgriGold bond checks Nov 25, TT Vemulawada/Kondagattu crowds, DC 7 Kakinada fishermen missing, TV9 AP rain 4 days (forecast), Siasat trainee IPS brother A2 (sensitive), DC Mancherial woman death harassment case (sensitive, claim), Siasat Chittoor voter count gap (claim), Siasat UAE RAK bus crash 13 dead. Duplicates: Bhogapuram 5 killed (update of 09:35 story), KCR condoles attendant. Skipped old: TG 526 asst professor posts (13 Nov). Not opened/no search hit: Andhrajyothy Annavaram giri pradakshina, Moneycontrol Pixxel (search proxy error), HMTV Huzurnagar SI suspended, HMTV Quthbullapur thefts, Hyderabad Mail Grameena Bank consumer order. Only 1 district search equivalent; no broad district searches. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8358,6 +8358,71 @@
    "url": "https://telanganatoday.com/indigo-shanghai-kolkata-flight-makes-emergency-landing-at-d13673b8",
    "d": "2026-11-24",
    "w": "skip"
+  },
+  {
+   "url": "https://telanganatoday.com/kcr-s-personal-attendant-dies-in-road-accident-in-sircilla-23cdc734",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/disposable-email-id-used-in-bomb-threat-cb14d1d8",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/nalgonda-suryapet/agrigold-bond-verification-starts-nov-25-sp-sharath-chandra-pawar-216540",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/bheemeshwara-swamy-kondagattu-temples-see-huge-influx-2794b0cf",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/fishing-boat-carrying-7-fishermen-from-kakinada-goes-missing-near-puri-2007506",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://tv9telugu.com/andhra-pradesh/ap-weather-alert-rains-thunderstorms-14-districts-four-days-1965845.html",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/ips-trainee-case-accuseds-brother-booked-for-hiding-evidence-3585531/",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/mancherial-youth-accused-of-harassing-woman-who-ends-her-life-2007468",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/chandrababu-naidus-2024-election-win-faces-vote-count-scrutiny-3585654/",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/uae-13-people-killed-in-bus-truck-collision-in-ras-al-khaimah-3585600/",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/andhra-pradesh-five-killed-in-bhogapuram-highway-crash-2b586a81",
+   "d": "2026-11-24",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/kcr-condoles-attendant-s-death-88a425af",
+   "d": "2026-11-24",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-universities-to-recruit-429-assistant-professors-notifications-on-december-1",
+   "d": "2026-11-24",
+   "w": "skipped"
   }
  ]
 }
