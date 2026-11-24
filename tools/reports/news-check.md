@@ -1,12 +1,11 @@
 # Swipe2News story check
 
-## news.json: 124 stories · 0 to fix · 24 to look at · 1 fixed automatically
-- FIXED: news.json trimmed to the newest 60 stories (1 older ones stay in archive/) so phones load it fast
-- CHECK: #29 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #29 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #31 "హైదరాబాద్ మెట్రో రుణం తెలియదన్న వైష్ణవ్": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #34 "సైబర్ మోసాలపై బ్యాంకులతో ఏపీ సీఐడీ భేటీ": picture line is long (47 letters) – keep stat + statl short so it fits one line
-- CHECK: #35 "డిసెంబర్ 16న బంగ్లాదేశ్‌కు వెళ్తా: హసీనా": picture line is long (40 letters) – keep stat + statl short so it fits one line
+## news.json: 125 stories · 0 to fix · 24 to look at · 0 fixed automatically
+- CHECK: #33 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #33 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #35 "హైదరాబాద్ మెట్రో రుణం తెలియదన్న వైష్ణవ్": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #38 "సైబర్ మోసాలపై బ్యాంకులతో ఏపీ సీఐడీ భేటీ": picture line is long (47 letters) – keep stat + statl short so it fits one line
+- CHECK: #39 "డిసెంబర్ 16న బంగ్లాదేశ్‌కు వెళ్తా: హసీనా": picture line is long (40 letters) – keep stat + statl short so it fits one line
 - CHECK: #63 "భూపాలపల్లిలో వడ్లు వెంటనే కొనాలి: గండ్ర": picture line is long (35 letters) – keep stat + statl short so it fits one line
 - CHECK: #64 "ఏపీలో 3,191 సర్పంచ్ పదవులకు 26న పోలింగ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
 - CHECK: #66 "ఖాజీపేట మిడుతూరులో నామినేషన్ల ఘర్షణ": picture line is long (35 letters) – keep stat + statl short so it fits one line
@@ -29,12 +28,12 @@
 
 ### Pictures needed (create in your image tool, send to Claude)
 - **Industry & Factories** – 1 story(ies), e.g. "అశ్వాపురం భగీరథ ప్లాంట్‌లో గ్యాస్ లీక్". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
-## archive/2026-11-24.json: 66 stories · 0 to fix · 5 to look at · 0 fixed automatically
-- CHECK: #29 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #29 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #31 "హైదరాబాద్ మెట్రో రుణం తెలియదన్న వైష్ణవ్": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #34 "సైబర్ మోసాలపై బ్యాంకులతో ఏపీ సీఐడీ భేటీ": picture line is long (47 letters) – keep stat + statl short so it fits one line
-- CHECK: #35 "డిసెంబర్ 16న బంగ్లాదేశ్‌కు వెళ్తా: హసీనా": picture line is long (40 letters) – keep stat + statl short so it fits one line
+## archive/2026-11-24.json: 70 stories · 0 to fix · 5 to look at · 0 fixed automatically
+- CHECK: #33 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #33 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #35 "హైదరాబాద్ మెట్రో రుణం తెలియదన్న వైష్ణవ్": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #38 "సైబర్ మోసాలపై బ్యాంకులతో ఏపీ సీఐడీ భేటీ": picture line is long (47 letters) – keep stat + statl short so it fits one line
+- CHECK: #39 "డిసెంబర్ 16న బంగ్లాదేశ్‌కు వెళ్తా: హసీనా": picture line is long (40 letters) – keep stat + statl short so it fits one line
 
 ### Pictures needed (create in your image tool, send to Claude)
 - **Industry & Factories** – 1 story(ies), e.g. "అశ్వాపురం భగీరథ ప్లాంట్‌లో గ్యాస్ లీక్". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
