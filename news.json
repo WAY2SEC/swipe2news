@@ -1,8 +1,561 @@
 {
- "date": "24.11.2026",
- "updated": "2026-11-24T23:35:00+05:30",
+ "date": "25.11.2026",
+ "updated": "2026-11-25T05:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "ఏపీ · ప్రమాదాలు",
+   "col": "--c-city",
+   "pic": "e/remembrance-and-condolence",
+   "stat": "11 మంది మృతి",
+   "statl": "ఏపీలో నాలుగు ఘటనల్లో",
+   "h": "ఏపీ ప్రమాదాల్లో ఒక్కరోజే 11 మంది మృతి",
+   "p": "ఆంధ్రప్రదేశ్‌లో మంగళవారం మూడు రోడ్డు ప్రమాదాలు, ఒక నీట మునిగిన ఘటనలో ఇద్దరు పిల్లలు సహా 11 మంది మృతి చెందారు. విజయనగరం జిల్లా భోగాపురం టోల్‌గేట్ వద్ద ఆగి ఉన్న ట్యాంకర్‌ను వాహనం ఢీకొని ఐదుగురు చనిపోయారు. అనకాపల్లి–ఆనందపురం రోడ్డుపై టిప్పర్‌కు మంటలు అంటుకుని ఇద్దరు, పల్నాడు జిల్లా క్రోసూరు మండలంలో కారు కాలువలో పడి ఇద్దరు మృతి చెందారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/11-die-in-road-accidents-drowning-incidents-across-ap-2007670",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pts": [
+    "గరివిడి మండలంలో వాగులో మునిగి ఇద్దరు చిన్నారులు మృతి",
+    "భోగాపురం మృతులు శ్రీముఖలింగం ఆలయం నుంచి తిరిగి వస్తున్నారు",
+    "కారణాలు తేల్చి నివారణ చర్యలు తీసుకోవాలని సీఎం ఆదేశం"
+   ],
+   "why": "హైవేలపై ఆగి ఉన్న వాహనాల వల్ల జరిగే ప్రమాదాలు ప్రయాణికులందరికీ హెచ్చరిక.",
+   "pub": "2026-11-25T00:38+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Accidents",
+    "stat": "11 dead",
+    "statl": "in four incidents across AP",
+    "loc": "Andhra Pradesh",
+    "h": "11 die in accidents across AP on Tuesday",
+    "p": "Eleven people, including two children, died in three road accidents and one drowning in Andhra Pradesh on Tuesday. Five died when a vehicle hit a parked tanker at Bhogapuram toll gate in Vizianagaram district. Two died when a tipper caught fire on the Anakapalli–Anandapuram road, and two when a car fell into a canal in Krosuru mandal, Palnadu.",
+    "pts": [
+     "Two young children drowned in a stream in Garividi mandal",
+     "Bhogapuram victims were returning from Srimukhalingam temple",
+     "CM ordered a probe into causes and preventive steps"
+    ],
+    "why": "Crashes into vehicles parked on highways are a warning for all travellers."
+   },
+   "hi": {
+    "cat": "आंध्र · हादसे",
+    "stat": "11 की मौत",
+    "statl": "आंध्र में चार घटनाओं में",
+    "loc": "आंध्र प्रदेश",
+    "h": "आंध्र में मंगलवार को हादसों में 11 की मौत",
+    "p": "आंध्र प्रदेश में मंगलवार को तीन सड़क हादसों और डूबने की एक घटना में दो बच्चों समेत 11 लोगों की मौत हुई। विजयनगरम ज़िले के भोगापुरम टोल गेट पर खड़े टैंकर से वाहन टकराने से पांच लोगों की जान गई। अनकापल्ली–आनंदपुरम रोड पर टिपर में आग लगने से दो और पलनाडु के क्रोसूरु मंडल में कार नहर में गिरने से दो की मौत हुई।",
+    "pts": [
+     "गरिविडी मंडल में नाले में डूबकर दो छोटे बच्चों की मौत",
+     "भोगापुरम के मृतक श्रीमुखलिंगम मंदिर से लौट रहे थे",
+     "मुख्यमंत्री ने कारणों की जांच और रोकथाम के आदेश दिए"
+    ],
+    "why": "हाईवे पर खड़े वाहनों से होने वाले हादसे सभी यात्रियों के लिए चेतावनी हैं।"
+   },
+   "d": "25.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "తెలంగాణ · హైకోర్టు",
+   "col": "--c-gov",
+   "art": "court",
+   "pic": "e/court-hearing",
+   "stat": "జైలు శిక్ష రద్దు",
+   "statl": "విడాకుల కేసులో",
+   "h": "కుటుంబ గొడవల్లో రాజీ ముఖ్యం: హైకోర్టు",
+   "p": "భార్యాభర్తల వివాదాల్లో ఫ్యామిలీ కోర్టులు, న్యాయవాదులు ఉదారంగా వ్యవహరించాలని తెలంగాణ హైకోర్టు సూచించింది. ముందుగా రాజీకి ప్రయత్నించాలని జస్టిస్ కె.లక్ష్మణ్, జస్టిస్ కె.సుజనల ధర్మాసనం తెలిపింది. అబుదాబిలో విడాకుల కేసు కొనసాగించారని ఒక వైద్యుడికి ఫ్యామిలీ కోర్టు విధించిన నెల రోజుల సివిల్ జైలు శిక్షను రద్దు చేసింది. కేసును మళ్లీ ఫ్యామిలీ కోర్టుకు పంపింది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-hc-urges-family-courts-lawyers-to-adopt-a-magnanimous-approach-in-matrimonial-disputes-2007669",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pts": [
+    "పిల్లలు ఉన్న కేసుల్లో మరింత జాగ్రత్త అవసరమన్న కోర్టు",
+    "అబుదాబి కోర్టు విడాకుల ఉత్తర్వు 2025 ఆగస్టు 19న",
+    "కేసును త్వరగా తేల్చాలని ఫ్యామిలీ కోర్టుకు సూచన"
+   ],
+   "why": "విడాకుల కేసుల్లో ఉన్న కుటుంబాలకు, వారి పిల్లలకు ఈ సూచన ముఖ్యం.",
+   "pub": "2026-11-25T00:38+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · High Court",
+    "stat": "Jail term set aside",
+    "statl": "in a divorce dispute case",
+    "loc": "Hyderabad",
+    "h": "Be magnanimous in family disputes: HC",
+    "p": "The Telangana High Court said family courts and lawyers should take a magnanimous approach in matrimonial disputes and try reconciliation first. A bench of Justices K. Lakshman and K. Sujana set aside a one-month civil imprisonment imposed on a doctor for pursuing divorce proceedings in Abu Dhabi, and sent the matter back to the family court.",
+    "pts": [
+     "Court urged extra care in cases involving children",
+     "Abu Dhabi divorce order was passed on August 19, 2025",
+     "Family court told to dispose of the case quickly"
+    ],
+    "why": "The advice matters for families and children caught in divorce cases."
+   },
+   "hi": {
+    "cat": "तेलंगाना · हाईकोर्ट",
+    "stat": "जेल की सज़ा रद्द",
+    "statl": "तलाक विवाद के मामले में",
+    "loc": "हैदराबाद",
+    "h": "पारिवारिक विवादों में उदार रहें: हाईकोर्ट",
+    "p": "तेलंगाना हाईकोर्ट ने कहा कि वैवाहिक विवादों में फैमिली कोर्ट और वकील उदार रुख अपनाएं और पहले सुलह की कोशिश करें। जस्टिस के. लक्ष्मण और जस्टिस के. सुजना की पीठ ने अबू धाबी में तलाक का मामला जारी रखने पर एक डॉक्टर को दी गई एक महीने की सिविल जेल की सज़ा रद्द की और मामला फैमिली कोर्ट को लौटा दिया।",
+    "pts": [
+     "बच्चों वाले मामलों में ज़्यादा सावधानी की ज़रूरत: कोर्ट",
+     "अबू धाबी कोर्ट का तलाक आदेश 19 अगस्त 2025 को आया",
+     "फैमिली कोर्ट को मामला जल्द निपटाने को कहा"
+    ],
+    "why": "तलाक के मामलों में फंसे परिवारों और बच्चों के लिए यह सलाह अहम है।"
+   },
+   "d": "25.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "తెలంగాణ · హైకోర్టు",
+   "col": "--c-gov",
+   "art": "court",
+   "pic": "e/court-hearing",
+   "stat": "హైకోర్టు తీర్పు",
+   "statl": "క్రిమినల్ అప్పీళ్లపై",
+   "h": "రాలేదని అప్పీల్ కొట్టేయొద్దు: హైకోర్టు",
+   "p": "శిక్షపై వేసిన క్రిమినల్ అప్పీల్‌ను నిందితుడు లేదా న్యాయవాది హాజరు కాలేదన్న కారణంతో కొట్టేయకూడదని తెలంగాణ హైకోర్టు తీర్పు ఇచ్చింది. కోర్టు విచారణను వాయిదా వేయాలి, లేదా ఉచిత న్యాయ సహాయ న్యాయవాదిని పెట్టి కేసును పూర్తిగా విని తేల్చాలని జస్టిస్ జె.శ్రీనివాస్ రావు చెప్పారు. హైదరాబాద్ సెషన్స్ కోర్టు అలా కొట్టేసిన ఉత్తర్వును రద్దు చేశారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-hc-rules-criminal-appeals-against-conviction-cannot-be-dismissed-for-non-prosecution-2007656",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pts": [
+    "మేజిస్ట్రేట్ కోర్టు ₹10 వేల జరిమానా విధించిన కేసు ఇది",
+    "మూడుసార్లు అప్పీలుదారు, న్యాయవాది హాజరు కాలేదు",
+    "సుప్రీంకోర్టు తీర్పులను హైకోర్టు ఆధారంగా తీసుకుంది"
+   ],
+   "why": "న్యాయవాది పొరపాటు వల్ల అప్పీల్ హక్కు కోల్పోకుండా ఈ తీర్పు కాపాడుతుంది.",
+   "next": "సెషన్స్ కోర్టు అప్పీల్‌ను మళ్లీ విని తేల్చాలి",
+   "pub": "2026-11-25T00:01+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · High Court",
+    "stat": "High Court ruling",
+    "statl": "on criminal appeals",
+    "loc": "Hyderabad",
+    "h": "Appeal can't be dismissed for absence: HC",
+    "p": "The Telangana High Court ruled that a criminal appeal against conviction cannot be dismissed just because the accused or the lawyer did not appear. Justice J. Sreenivas Rao said the court must adjourn or decide the appeal on merits with a legal aid counsel, and set aside a Hyderabad sessions court order that had dismissed one such appeal.",
+    "pts": [
+     "The case involved a Rs 10,000 fine by a magistrate court",
+     "Appellant and counsel were absent on three occasions",
+     "High Court relied on Supreme Court rulings"
+    ],
+    "why": "The ruling protects the right to appeal from being lost through a lawyer's lapse.",
+    "next": "Sessions court must hear and decide the appeal again"
+   },
+   "hi": {
+    "cat": "तेलंगाना · हाईकोर्ट",
+    "stat": "हाईकोर्ट का फ़ैसला",
+    "statl": "आपराधिक अपीलों पर",
+    "loc": "हैदराबाद",
+    "h": "गैरहाज़िरी पर अपील ख़ारिज नहीं: हाईकोर्ट",
+    "p": "तेलंगाना हाईकोर्ट ने फ़ैसला दिया कि सज़ा के ख़िलाफ़ आपराधिक अपील सिर्फ़ इसलिए ख़ारिज नहीं की जा सकती कि आरोपी या वकील पेश नहीं हुए। जस्टिस जे. श्रीनिवास राव ने कहा कि अदालत सुनवाई टाले या कानूनी सहायता वकील रखकर अपील पर गुण-दोष से फ़ैसला करे। उन्होंने हैदराबाद सेशंस कोर्ट का ऐसा आदेश रद्द किया।",
+    "pts": [
+     "मामला मजिस्ट्रेट कोर्ट के ₹10 हज़ार जुर्माने का था",
+     "अपीलकर्ता और वकील तीन बार पेश नहीं हुए",
+     "हाईकोर्ट ने सुप्रीम कोर्ट के फ़ैसलों को आधार बनाया"
+    ],
+    "why": "यह फ़ैसला वकील की चूक से अपील का हक़ खोने से बचाता है।",
+    "next": "सेशंस कोर्ट अपील दोबारा सुनकर फ़ैसला करेगा"
+   },
+   "d": "25.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ఏపీ · వ్యవసాయం",
+   "col": "--c-gov",
+   "art": "farm",
+   "pic": "logo",
+   "stat": "12.64 లక్షల హెక్టార్లలో",
+   "statl": "పంట నష్టం",
+   "h": "పంట సీజన్‌కు ముందే ప్రణాళిక: చంద్రబాబు",
+   "p": "పంట నష్టాలు తగ్గించేందుకు ప్రతి సీజన్‌కు ముందే కార్యాచరణ ప్రణాళిక సిద్ధం చేయాలని ఏపీ సీఎం చంద్రబాబు నాయుడు అధికారులను ఆదేశించారు. మంగళవారం సచివాలయంలో వ్యవసాయం, ఉద్యాన శాఖలపై సమీక్షించారు. తుపాన్లకు ముందే కోతలు పూర్తయ్యేలా అవసరమైతే ఖరీఫ్ క్యాలెండర్‌ను ముందుకు జరపాలని సూచించారు. ఖరీఫ్‌లో 26 జిల్లాల్లో 12.64 లక్షల హెక్టార్లలో పంటలు దెబ్బతిన్నాయని అధికారులు తెలిపారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/naidu-calls-for-advance-farm-action-plans-to-minimise-crop-losses-2007657",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pts": [
+    "₹2,743 కోట్ల ఇన్‌పుట్ సబ్సిడీకి అధికారుల ప్రతిపాదన",
+    "పంట బీమా క్లెయిమ్‌ల అంచనా ₹1,732 కోట్లు",
+    "2027–28 నాటికి 26.5 లక్షల రైతులు ప్రకృతి సాగులోకి"
+   ],
+   "why": "కరువు, తుపాన్లతో నష్టపోయిన ఏపీ రైతులకు సబ్సిడీ, బీమాపై ఇది కీలక సమీక్ష.",
+   "pub": "2026-11-25T00:13+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Agriculture",
+    "stat": "12.64 lakh hectares",
+    "statl": "of kharif crop damaged",
+    "loc": "Andhra Pradesh",
+    "h": "Plan before every crop season: Naidu",
+    "p": "AP Chief Minister N. Chandrababu Naidu told officials to prepare action plans before every crop season to cut losses. Reviewing agriculture and horticulture at the Secretariat on Tuesday, he suggested advancing the kharif calendar if needed so harvests finish before cyclones. Officials said crops on 12.64 lakh hectares in 26 districts were damaged this kharif.",
+    "pts": [
+     "Officials proposed Rs 2,743 crore input subsidy",
+     "Crop insurance claims estimated at Rs 1,732 crore",
+     "Target: 26.5 lakh farmers in natural farming by 2027-28"
+    ],
+    "why": "A key review on subsidy and insurance for AP farmers hit by drought and cyclones."
+   },
+   "hi": {
+    "cat": "आंध्र · कृषि",
+    "stat": "12.64 लाख हेक्टेयर में",
+    "statl": "खरीफ़ फ़सल का नुकसान",
+    "loc": "आंध्र प्रदेश",
+    "h": "हर फ़सल सीज़न से पहले योजना बनाएं: नायडू",
+    "p": "आंध्र के मुख्यमंत्री एन. चंद्रबाबू नायडू ने अधिकारियों से कहा कि फ़सल नुकसान घटाने के लिए हर सीज़न से पहले कार्ययोजना बनाएं। मंगलवार को सचिवालय में कृषि और बागवानी की समीक्षा में उन्होंने सुझाव दिया कि ज़रूरत हो तो खरीफ़ कैलेंडर आगे किया जाए ताकि कटाई चक्रवातों से पहले हो जाए। अधिकारियों ने बताया कि इस खरीफ़ में 26 ज़िलों में 12.64 लाख हेक्टेयर फ़सल खराब हुई।",
+    "pts": [
+     "अधिकारियों ने ₹2,743 करोड़ इनपुट सब्सिडी का प्रस्ताव रखा",
+     "फ़सल बीमा दावों का अनुमान ₹1,732 करोड़",
+     "लक्ष्य: 2027-28 तक 26.5 लाख किसान प्राकृतिक खेती में"
+    ],
+    "why": "सूखे और चक्रवात से प्रभावित आंध्र के किसानों की सब्सिडी और बीमा पर यह अहम समीक्षा है।"
+   },
+   "d": "25.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ఏపీ · విశాఖ",
+   "col": "--c-money",
+   "pic": "logo",
+   "stat": "డిసెంబర్ 10–13",
+   "statl": "విశాఖలో స్టోన్ ఫెస్ట్",
+   "h": "విశాఖలో డిసెంబర్ 10 నుంచి స్టోన్ ఫెస్ట్",
+   "p": "విశాఖపట్నంలో డిసెంబర్ 10 నుంచి 13 వరకు నాలుగు రోజుల పాటు ఇంటర్నేషనల్ స్టోన్ ఫెస్ట్-2026 జరుగుతుందని ఏపీ గనుల శాఖ మంత్రి కొల్లు రవీంద్ర మంగళవారం ప్రకటించారు. ఆంధ్ర యూనివర్సిటీ ఇంజినీరింగ్ కాలేజీ మైదానం వేదిక. రాష్ట్ర ప్రభుత్వం, ఏపీ గ్రానైట్ అసోసియేషన్ కలిసి నిర్వహిస్తున్నాయి. ఖనిజ సంపద, గ్రానైట్ పరిశ్రమపై స్టాళ్లు, చర్చలు ఉంటాయి.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/vizag-to-host-four-day-international-stone-fest-in-dec-2007672",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "AP",
+   "place": "ap-visakhapatnam",
+   "loc": "విశాఖపట్నం",
+   "pts": [
+    "సీఎం చంద్రబాబు, కేంద్ర మంత్రి కిషన్ రెడ్డి వస్తారని అంచనా",
+    "దేశ విదేశాల గనుల పరిశ్రమ ప్రతినిధులకు ఆహ్వానం",
+    "గనుల రంగంలో పెట్టుబడులు తేవడమే లక్ష్యం"
+   ],
+   "why": "గ్రానైట్, గనుల రంగంలో ఉన్న ఏపీ వ్యాపారులకు, కార్మికులకు కొత్త అవకాశాలు రావచ్చు.",
+   "next": "స్టోన్ ఫెస్ట్ డిసెంబర్ 10న మొదలు",
+   "pub": "2026-11-25T00:51+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Visakhapatnam",
+    "stat": "December 10–13",
+    "statl": "International Stone Fest in Vizag",
+    "loc": "Visakhapatnam",
+    "h": "Vizag to host Stone Fest from Dec 10",
+    "p": "Visakhapatnam will host the four-day International Stone Fest-2026 from December 10 to 13, AP Mines Minister Kollu Ravindra announced on Tuesday. The venue is the Andhra University Engineering College grounds. The state government and the AP Granite Association are organising it jointly, with stalls and discussions on mineral wealth and the granite industry.",
+    "pts": [
+     "CM Naidu and Union Minister Kishan Reddy are expected",
+     "Mining industry representatives from India and abroad invited",
+     "The aim is to draw investment into mining"
+    ],
+    "why": "It may open new opportunities for AP's granite and mining businesses and workers.",
+    "next": "Stone Fest opens on December 10"
+   },
+   "hi": {
+    "cat": "आंध्र · विशाखापत्तनम",
+    "stat": "10–13 दिसंबर",
+    "statl": "विशाखापत्तनम में इंटरनेशनल स्टोन फेस्ट",
+    "loc": "विशाखापत्तनम",
+    "h": "विशाखापत्तनम में 10 दिसंबर से स्टोन फेस्ट",
+    "p": "विशाखापत्तनम में 10 से 13 दिसंबर तक चार दिन का इंटरनेशनल स्टोन फेस्ट-2026 होगा, आंध्र के खनन मंत्री कोल्लू रवींद्र ने मंगलवार को यह घोषणा की। आयोजन आंध्र यूनिवर्सिटी इंजीनियरिंग कॉलेज मैदान में होगा। राज्य सरकार और एपी ग्रेनाइट एसोसिएशन इसे मिलकर करा रहे हैं। खनिज संपदा और ग्रेनाइट उद्योग पर स्टॉल और चर्चाएं होंगी।",
+    "pts": [
+     "मुख्यमंत्री नायडू और केंद्रीय मंत्री किशन रेड्डी के आने की उम्मीद",
+     "देश-विदेश के खनन उद्योग प्रतिनिधियों को न्योता",
+     "मकसद खनन क्षेत्र में निवेश लाना है"
+    ],
+    "why": "आंध्र के ग्रेनाइट और खनन कारोबारियों व मज़दूरों के लिए नए मौके बन सकते हैं।",
+    "next": "स्टोन फेस्ट 10 दिसंबर को शुरू होगा"
+   },
+   "d": "25.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ఏపీ · విజయవాడ",
+   "col": "--c-city",
+   "pic": "d/ap-ntr",
+   "stat": "కార్తీక పౌర్ణమి",
+   "statl": "కృష్ణాలో పుణ్యస్నానాలు",
+   "h": "కృష్ణా ఘాట్లలో కార్తీక పౌర్ణమి రద్దీ",
+   "p": "కార్తీక పౌర్ణమి సందర్భంగా మంగళవారం విజయవాడ, ఎన్టీఆర్, కృష్ణా జిల్లాల్లో వేలాది మంది భక్తులు కృష్ణా నదిలో, సముద్రంలో పుణ్యస్నానాలు చేశారు. తెల్లవారుజాము నుంచే దుర్గా ఘాట్ కిటకిటలాడింది. భక్తులు అరటి దొప్పల్లో దీపాలు వెలిగించి నదిలో వదిలారు. ఇంద్రకీలాద్రిపై దుర్గా మల్లేశ్వర స్వామి ఆలయంలో, నగరంలోని శివాలయాల్లో ప్రత్యేక పూజలు జరిగాయి.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/vijayawada/devotees-throng-river-ghats-beaches-for-holy-dip-1145497",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "AP",
+   "place": "ap-ntr",
+   "loc": "విజయవాడ",
+   "pts": [
+    "జగ్గయ్యపేట మండలం ముక్త్యాలలో భారీగా భక్తులు",
+    "మచిలీపట్నం దగ్గర మంగినపూడి బీచ్‌లో సముద్ర స్నానాలు",
+    "మోపిదేవి సుబ్రహ్మణ్యేశ్వర ఆలయంలో ప్రత్యేక పూజలు"
+   ],
+   "why": "ఎన్టీఆర్, కృష్ణా జిల్లాల భక్తులకు ఇది ఏడాదిలో ముఖ్యమైన పండుగ రోజు.",
+   "pub": "2026-11-25T02:12+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Vijayawada",
+    "stat": "Karthika Pournami",
+    "statl": "holy dips in the Krishna river",
+    "loc": "Vijayawada",
+    "h": "Devotees throng Krishna ghats on Karthika Pournami",
+    "p": "Thousands of devotees from Vijayawada and NTR and Krishna districts took holy dips in the Krishna river and the sea on Karthika Pournami on Tuesday. Durga Ghat was crowded from before dawn, and devotees floated lamps on banana stems in the river. Special prayers were held at the Durga Malleswara Swamy temple on Indrakeeladri and at Shiva temples in the city.",
+    "pts": [
+     "Large crowd at Muktyala in Jaggaiahpet mandal",
+     "Sea dips at Manginapudi beach near Machilipatnam",
+     "Special pujas at Mopidevi Subrahmanyeswara temple"
+    ],
+    "why": "It is one of the year's main festival days for devotees in NTR and Krishna districts."
+   },
+   "hi": {
+    "cat": "आंध्र · विजयवाड़ा",
+    "stat": "कार्तिक पूर्णिमा",
+    "statl": "कृष्णा नदी में पवित्र स्नान",
+    "loc": "विजयवाड़ा",
+    "h": "कार्तिक पूर्णिमा पर कृष्णा घाटों पर भीड़",
+    "p": "कार्तिक पूर्णिमा पर मंगलवार को विजयवाड़ा, एनटीआर और कृष्णा ज़िलों के हज़ारों श्रद्धालुओं ने कृष्णा नदी और समुद्र में पवित्र स्नान किया। दुर्गा घाट पर तड़के से ही भीड़ रही। श्रद्धालुओं ने केले के तने पर दीप जलाकर नदी में प्रवाहित किए। इंद्रकीलाद्री पर दुर्गा मल्लेश्वर स्वामी मंदिर और शहर के शिव मंदिरों में विशेष पूजा हुई।",
+    "pts": [
+     "जग्गय्यपेट मंडल के मुक्त्याला में भारी भीड़",
+     "मछलीपट्टनम के पास मंगिनापुडी बीच पर समुद्र स्नान",
+     "मोपिदेवी सुब्रह्मण्येश्वर मंदिर में विशेष पूजा"
+    ],
+    "why": "एनटीआर और कृष्णा ज़िलों के श्रद्धालुओं के लिए यह साल का अहम पर्व है।"
+   },
+   "d": "25.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ఏపీ · నెల్లూరు",
+   "col": "--c-city",
+   "pic": "d/ap-nellore",
+   "stat": "కార్తీక దీపోత్సవం",
+   "statl": "గణేశ్ ఘాట్‌లో",
+   "h": "నెల్లూరు గణేశ్ ఘాట్‌లో కార్తీక దీపోత్సవం",
+   "p": "కార్తీక పౌర్ణమి సందర్భంగా మంగళవారం నెల్లూరు గణేశ్ ఘాట్‌లో కార్తీక దీపోత్సవం ఘనంగా జరిగింది. సింహపురి కార్తీక దీపోత్సవ సమితి దీన్ని నిర్వహించింది. నగరం నలుమూలల నుంచి మహిళలు పెద్ద సంఖ్యలో వచ్చారు. శ్రీశైలం అర్చకులు మల్లికార్జున స్వామి కల్యాణం జరిపారు. కాశీ అర్చకులు గంగా హారతి ఇచ్చారు. సాయంత్రం ఊరేగింపు తర్వాత మహిళలు స్వర్ణాల చెరువులో దీపాలు వదిలారు.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/nellore/several-women-join-karthika-poornima-rituals-in-nellore-city-1145505",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "AP",
+   "place": "ap-nellore",
+   "loc": "నెల్లూరు",
+   "pts": [
+    "నర్మదా తీరం నుంచి తెచ్చిన శివలింగం ప్రతిష్ఠ",
+    "శ్రీకాళహస్తి ఆలయం తరఫున పట్టు వస్త్రాలు",
+    "వర్షం ఉన్నా శివాలయాల్లో భక్తుల రద్దీ"
+   ],
+   "why": "నెల్లూరు నగర మహిళలు పెద్ద సంఖ్యలో కలిసి జరుపుకున్న పండుగ ఇది.",
+   "pub": "2026-11-25T02:46+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Nellore",
+    "stat": "Karthika Deepotsavam",
+    "statl": "at Ganesh Ghat, Nellore",
+    "loc": "Nellore",
+    "h": "Karthika Deepotsavam held at Nellore's Ganesh Ghat",
+    "p": "Karthika Deepotsavam was held at Ganesh Ghat in Nellore on Karthika Pournami on Tuesday, organised by the Simhapuri Karthika Deepotsava Samithi. Women came in large numbers from across the city. Priests from Srisailam performed the Mallikarjuna Swamy Kalyanam and priests from Kashi offered Ganga Harathi. After an evening procession, women floated lamps in Swarnala Cheruvu.",
+    "pts": [
+     "A Shiva Lingam brought from the Narmada banks was installed",
+     "Silk clothes presented on behalf of Srikalahasti temple",
+     "Shiva temples were crowded despite rain"
+    ],
+    "why": "It was a festival that women of Nellore city celebrated together in large numbers."
+   },
+   "hi": {
+    "cat": "आंध्र · नेल्लोर",
+    "stat": "कार्तिक दीपोत्सव",
+    "statl": "नेल्लोर के गणेश घाट पर",
+    "loc": "नेल्लोर",
+    "h": "नेल्लोर के गणेश घाट पर कार्तिक दीपोत्सव",
+    "p": "कार्तिक पूर्णिमा पर मंगलवार को नेल्लोर के गणेश घाट पर कार्तिक दीपोत्सव हुआ, जिसे सिंहपुरी कार्तिक दीपोत्सव समिति ने आयोजित किया। शहर भर से बड़ी संख्या में महिलाएं पहुंचीं। श्रीशैलम के पुजारियों ने मल्लिकार्जुन स्वामी कल्याणम कराया और काशी के पुजारियों ने गंगा आरती की। शाम की शोभायात्रा के बाद महिलाओं ने स्वर्णाला चेरुवु में दीप प्रवाहित किए।",
+    "pts": [
+     "नर्मदा तट से लाया गया शिवलिंग स्थापित किया गया",
+     "श्रीकालहस्ती मंदिर की ओर से रेशमी वस्त्र भेंट",
+     "बारिश के बावजूद शिव मंदिरों में भीड़"
+    ],
+    "why": "नेल्लोर शहर की महिलाओं ने बड़ी संख्या में मिलकर यह पर्व मनाया।"
+   },
+   "d": "25.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ఏపీ · కడప",
+   "col": "--c-election",
+   "pic": "logo",
+   "stat": "ఎమ్మెల్యేకు ప్రశ్నలు",
+   "statl": "ప్రచారంలో",
+   "h": "రైల్వేకోడూరు ఎమ్మెల్యేను నిలదీసిన మహిళలు",
+   "p": "వైఎస్సార్ కడప జిల్లా చిట్వేల్ మండలం కొత్తపల్లెలో పంచాయతీ ఎన్నికల ప్రచారానికి వచ్చిన రైల్వేకోడూరు జనసేన ఎమ్మెల్యే అరవ శ్రీధర్‌ను గ్రామ మహిళలు నిలదీశారని డెక్కన్ క్రానికల్ తెలిపింది. జడ్పీటీసీ, ఎంపీటీసీ ఎన్నికల్లో జనసేనపై పోటీ పెట్టిన టీడీపీ అభ్యర్థులకు ఎందుకు మద్దతిస్తున్నారని వారు అడిగారు. ఎమ్మెల్యే గ్రామం నుంచి వెళ్లిపోయారని, ఆ వీడియోలు సోషల్ మీడియాలో వ్యాపించాయని పేర్కొంది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/women-confront-jana-sena-mla-during-campaign-in-kadapa-village-2007660",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-kadapa",
+   "loc": "కొత్తపల్లె, చిట్వేల్ మండలం",
+   "pts": [
+    "జనసేన సొంత అభ్యర్థులకు ప్రచారం చేయలేదేమని కూడా ప్రశ్న"
+   ],
+   "why": "పంచాయతీ ఎన్నికల ముందు కూటమి పార్టీల మధ్య స్థానిక విభేదాలను ఇది చూపుతోంది.",
+   "pub": "2026-11-25T00:17+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "AP · Kadapa",
+    "stat": "MLA questioned",
+    "statl": "during campaign in Kothapalle",
+    "loc": "Kothapalle, Chitvel mandal, Kadapa",
+    "h": "Women question Railway Koduru MLA in village",
+    "p": "Women of Kothapalle village in Chitvel mandal, YSR Kadapa district, confronted Railway Koduru Jana Sena MLA Arava Sridhar when he came to campaign for the panchayat polls, Deccan Chronicle reported. They asked why he was backing TDP candidates when TDP had fielded candidates against Jana Sena in ZPTC and MPTC polls. The report said the MLA left the village and videos spread on social media.",
+    "pts": [
+     "They also asked why he did not campaign for Jana Sena's own candidates"
+    ],
+    "why": "It shows local differences among alliance parties ahead of the panchayat polls."
+   },
+   "hi": {
+    "cat": "आंध्र · कडपा",
+    "stat": "विधायक से सवाल",
+    "statl": "कोत्तापल्ले में प्रचार के दौरान",
+    "loc": "कोत्तापल्ले, चिटवेल मंडल, कडपा",
+    "h": "रेलवे कोडूरु विधायक से महिलाओं के सवाल",
+    "p": "डेक्कन क्रॉनिकल के मुताबिक, वाईएसआर कडपा ज़िले के चिटवेल मंडल के कोत्तापल्ले गांव में पंचायत चुनाव प्रचार के लिए आए रेलवे कोडूरु के जनसेना विधायक अरवा श्रीधर को गांव की महिलाओं ने घेरकर सवाल किए। उन्होंने पूछा कि ज़ेडपीटीसी, एमपीटीसी चुनाव में जनसेना के ख़िलाफ़ उम्मीदवार उतारने वाली टीडीपी का वे समर्थन क्यों कर रहे हैं। रिपोर्ट के अनुसार विधायक गांव से चले गए और वीडियो सोशल मीडिया पर फैल गए।",
+    "pts": [
+     "जनसेना के अपने उम्मीदवारों के लिए प्रचार न करने पर भी सवाल"
+    ],
+    "why": "यह पंचायत चुनाव से पहले गठबंधन दलों के बीच स्थानीय मतभेद दिखाता है।"
+   },
+   "d": "25.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ప్రపంచం · సౌదీ అరేబియా",
+   "col": "--c-city",
+   "pic": "n/mideast",
+   "stat": "ఇద్దరు భారతీయులకు గాయాలు",
+   "statl": "రియాద్‌లో",
+   "h": "రియాద్ దాడిలో ఇద్దరు భారతీయులకు గాయాలు",
+   "p": "సౌదీ అరేబియా రాజధాని రియాద్‌లో మంగళవారం జరిగిన దాడిలో ఇద్దరు భారతీయులు గాయపడ్డారని అక్కడి భారత రాయబార కార్యాలయం ఎక్స్‌లో తెలిపింది. పూర్తి వివరాలు తెలుసుకుంటున్నామని, గాయపడిన వారికి, వారి కుటుంబాలకు అన్ని విధాలా సాయం చేస్తామని చెప్పింది. రియాద్ ఆర్థిక కేంద్రంలోని ఒక టవర్‌పై ఉగ్రదాడి జరిగిందని సౌదీ కూటమి ప్రకటించింది. దాడి ఎవరు చేశారో చెప్పలేదు.",
+   "src": "Telangana Today (IANS)",
+   "url": "https://telanganatoday.com/embassy-two-indians-injured-in-riyadh-attack",
+   "sec": [
+    "world",
+    "india"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "",
+   "pts": [
+    "అక్టోబర్ 10 రియాద్ విమానాశ్రయ దాడిలో 11 మంది భారతీయులకు గాయాలు",
+    "వారిలో ఒకరు నవంబర్ 4న ఆసుపత్రిలో మృతి చెందారు"
+   ],
+   "why": "సౌదీలో పనిచేస్తున్న తెలుగు వారి, భారతీయుల కుటుంబాలకు ఇది ఆందోళన కలిగించే వార్త.",
+   "pub": "2026-11-25T00:59+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "World · Saudi Arabia",
+    "stat": "2 Indians injured",
+    "statl": "in the Riyadh attack",
+    "loc": "Riyadh, Saudi Arabia",
+    "h": "Two Indians injured in Riyadh tower attack",
+    "p": "Two Indian nationals were injured in Tuesday's attack in Riyadh, the Indian Embassy in Saudi Arabia said on X. It said it is still gathering details and will give all possible help to the injured and their families. The Saudi-led coalition said a tower in Riyadh's financial centre was hit by a terrorist attack, without saying who was behind it.",
+    "pts": [
+     "11 Indians were injured in the October 10 Riyadh airport attack",
+     "One of them died in hospital on November 4"
+    ],
+    "why": "The news is a worry for families of Telugu and other Indian workers in Saudi Arabia."
+   },
+   "hi": {
+    "cat": "दुनिया · सऊदी अरब",
+    "stat": "2 भारतीय घायल",
+    "statl": "रियाद हमले में",
+    "loc": "रियाद, सऊदी अरब",
+    "h": "रियाद टावर हमले में दो भारतीय घायल",
+    "p": "सऊदी अरब की राजधानी रियाद में मंगलवार को हुए हमले में दो भारतीय घायल हुए, वहां के भारतीय दूतावास ने एक्स पर बताया। दूतावास ने कहा कि वह पूरी जानकारी जुटा रहा है और घायलों व उनके परिवारों की हर संभव मदद करेगा। सऊदी गठबंधन ने कहा कि रियाद के वित्तीय केंद्र के एक टावर पर आतंकी हमला हुआ; हमला किसने किया, यह नहीं बताया।",
+    "pts": [
+     "10 अक्टूबर के रियाद हवाई अड्डा हमले में 11 भारतीय घायल हुए थे",
+     "उनमें से एक की 4 नवंबर को अस्पताल में मौत हुई"
+    ],
+    "why": "सऊदी में काम कर रहे तेलुगु और अन्य भारतीयों के परिवारों के लिए यह चिंता की ख़बर है।"
+   },
+   "d": "25.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ప్రపంచం · ఇరాన్",
+   "col": "--c-money",
+   "pic": "n/mideast",
+   "stat": "2 ట్యాంకర్లలో మంటలు",
+   "statl": "హార్ముజ్ వద్ద",
+   "h": "హార్ముజ్ వద్ద 2 ఆయిల్ ట్యాంకర్లలో మంటలు",
+   "p": "హార్ముజ్ జలసంధికి తూర్పున రెండు ఆయిల్ ట్యాంకర్లు సముద్ర మందుపాతరలను తాకి మంటల్లో చిక్కుకున్నాయని ఇరాన్ నౌకాదళం మంగళవారం ప్రకటించింది. ఆ నౌకలు గుర్తింపు వ్యవస్థలు ఆపేసి నిషేధిత ప్రాంతంలోకి వచ్చాయని ఆరోపించింది. తమ ఏడు షరతులు నెరవేరే వరకు జలసంధిని తెరవబోమని ఇరాన్ సైన్యాధిపతి అమీర్ హతామీ చెప్పారు. ట్యాంకర్ల యజమానులు తమ సైన్యంతో సమన్వయం చేసుకోవాలని నౌకాదళం కోరింది.",
+   "src": "Telangana Today (IANS)",
+   "url": "https://telanganatoday.com/iran-says-tankers-hit-naval-mines",
+   "sec": [
+    "world",
+    "business"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "",
+   "pts": [
+    "గల్ఫ్ చమురు, ఎల్‌ఎన్‌జీ ఎగుమతులు ఈ జలసంధి గుండానే వెళ్తాయి",
+    "జలసంధిపై నియంత్రణ పెంచుతామని ఇరాన్ మీడియా కథనం"
+   ],
+   "why": "గల్ఫ్ చమురుపై ఆధారపడే భారత్ వంటి దేశాలకు ఈ సముద్ర మార్గం కీలకం.",
+   "pub": "2026-11-25T00:43+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "World · Iran",
+    "stat": "2 tankers on fire",
+    "statl": "near the Strait of Hormuz",
+    "loc": "Strait of Hormuz",
+    "h": "Two oil tankers on fire near Hormuz: Iran",
+    "p": "Iran's Navy said on Tuesday that two oil tankers caught fire after hitting naval mines east of the Strait of Hormuz. It alleged the ships had switched off their identification systems and entered a forbidden area. Army chief Amir Hatami said the strait will stay closed until Iran's seven conditions are met. The Navy asked tanker owners to coordinate with Iran's forces.",
+    "pts": [
+     "Gulf oil and LNG exports pass through this strait",
+     "Iranian media say Tehran will tighten control of the strait"
+    ],
+    "why": "The sea route is vital for countries like India that depend on Gulf oil."
+   },
+   "hi": {
+    "cat": "दुनिया · ईरान",
+    "stat": "2 टैंकरों में आग",
+    "statl": "होर्मुज़ जलडमरूमध्य के पास",
+    "loc": "होर्मुज़ जलडमरूमध्य",
+    "h": "होर्मुज़ के पास दो तेल टैंकरों में आग: ईरान",
+    "p": "ईरान की नौसेना ने मंगलवार को कहा कि होर्मुज़ जलडमरूमध्य के पूर्व में दो तेल टैंकर समुद्री बारूदी सुरंगों से टकराकर आग की चपेट में आ गए। उसका आरोप है कि जहाज़ पहचान प्रणाली बंद कर प्रतिबंधित इलाके में घुसे थे। सेना प्रमुख अमीर हातमी ने कहा कि ईरान की सात शर्तें पूरी होने तक जलडमरूमध्य बंद रहेगा। नौसेना ने टैंकर मालिकों से ईरानी सेना से तालमेल करने को कहा।",
+    "pts": [
+     "खाड़ी का तेल और एलएनजी निर्यात इसी जलडमरूमध्य से गुज़रता है",
+     "ईरानी मीडिया के अनुसार तेहरान जलडमरूमध्य पर नियंत्रण कड़ा करेगा"
+    ],
+    "why": "खाड़ी के तेल पर निर्भर भारत जैसे देशों के लिए यह समुद्री रास्ता अहम है।"
+   },
+   "d": "25.11.2026",
+   "t": "05:05"
+  },
   {
    "cat": "హైదరాబాద్ · పోలీస్",
    "col": "--c-city",
@@ -2731,562 +3284,6 @@
    "art": "",
    "d": "24.11.2026",
    "t": "18:35"
-  },
-  {
-   "cat": "ఏపీ · ఉద్యోగులు",
-   "col": "--c-money",
-   "pic": "e/public-policy-announcement",
-   "stat": "₹2.25 లక్షల",
-   "statl": "నెల జీతం",
-   "h": "పీఆర్సీ కమిషనర్‌కు ₹2.25 లక్షల జీతం",
-   "p": "ఏపీ 12వ వేతన సవరణ సంఘం (పీఆర్సీ) కమిషనర్, రిటైర్డ్ ఐఏఎస్ అధికారి దినేష్ కుమార్‌కు నెలకు ₹2,25,000 స్థిర జీతం ఇస్తూ ప్రభుత్వం ఉత్తర్వులు ఇచ్చింది. దీనికి డీఏ వర్తిస్తుంది. ఉన్నత స్థాయి అధికారుల లాగే ఇంటి అద్దె, ప్రయాణ భత్యాలు కూడా ఇస్తారు.",
-   "src": "Andhra Jyothy",
-   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/krishna/ap-12th-prc-commissioner-dinesh-kumar-salary-suchi-1579381.html",
-   "sec": [
-    "telangana",
-    "jobs"
-   ],
-   "st": "AP",
-   "place": "AP",
-   "pts": [
-    "మళ్లీ నియామకం కాలంలో పెన్షన్‌పై డీఆర్ వర్తించదు",
-    "సీఎస్ జి. సాయిప్రసాద్ పేరుతో ఉత్తర్వులు"
-   ],
-   "why": "ఏపీ ప్రభుత్వ ఉద్యోగుల కొత్త జీతాలపై సిఫార్సులు చేసే సంఘానికి సంబంధించిన ఉత్తర్వు ఇది.",
-   "pub": "2026-11-24T15:46+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Employees",
-    "stat": "₹2.25 lakh",
-    "statl": "monthly salary",
-    "loc": "Andhra Pradesh",
-    "h": "AP PRC commissioner gets ₹2.25 lakh a month",
-    "p": "The Andhra Pradesh government issued orders giving a fixed monthly salary of ₹2,25,000 to retired IAS officer Dinesh Kumar, commissioner of the 12th Pay Revision Commission. DA applies to it. He will also get house rent and travel allowances like apex-scale officers.",
-    "pts": [
-     "DR on pension does not apply during re-employment",
-     "Orders issued in the name of Chief Secretary G. Sai Prasad"
-    ],
-    "why": "The order concerns the panel that will recommend new pay for AP government employees."
-   },
-   "hi": {
-    "cat": "आंध्र · कर्मचारी",
-    "stat": "₹2.25 लाख",
-    "statl": "मासिक वेतन",
-    "loc": "आंध्र प्रदेश",
-    "h": "आंध्र पीआरसी आयुक्त को ₹2.25 लाख मासिक वेतन",
-    "p": "आंध्र प्रदेश सरकार ने 12वें वेतन संशोधन आयोग के आयुक्त, सेवानिवृत्त आईएएस अधिकारी दिनेश कुमार को ₹2,25,000 मासिक निश्चित वेतन देने का आदेश जारी किया। इस पर डीए लागू होगा। उन्हें शीर्ष स्तर के अधिकारियों की तरह मकान किराया और यात्रा भत्ते भी मिलेंगे।",
-    "pts": [
-     "पुनर्नियुक्ति के दौरान पेंशन पर डीआर लागू नहीं",
-     "मुख्य सचिव जी. साई प्रसाद के नाम से आदेश"
-    ],
-    "why": "यह आदेश आंध्र के सरकारी कर्मचारियों के नए वेतन की सिफारिश करने वाले आयोग से जुड़ा है।"
-   },
-   "art": "",
-   "loc": "",
-   "d": "24.11.2026",
-   "t": "18:35"
-  },
-  {
-   "cat": "భారత్ · క్రికెట్",
-   "col": "--c-city",
-   "pic": "e/cricket-match",
-   "stat": "204 పరుగులు",
-   "statl": "53 బంతుల్లో",
-   "h": "సూర్యవంశీ 52 బంతుల్లో డబుల్ సెంచరీ",
-   "p": "ఆసియా కప్ రైజింగ్ స్టార్స్ టోర్నీలో యూఏఈపై భారత్-ఎ బ్యాటర్ వైభవ్ సూర్యవంశీ 53 బంతుల్లో 204 పరుగులు చేశాడు. 15 ఏళ్ల సూర్యవంశీ 52 బంతుల్లోనే 200 పూర్తి చేసి, పురుషుల లిస్ట్-ఎ క్రికెట్‌లో అత్యంత వేగంగా డబుల్ సెంచరీ చేశాడు. 28 సిక్సర్లు కొట్టాడు.",
-   "src": "Business Standard",
-   "url": "https://www.business-standard.com/cricket/news/vaibhav-sooryavanshi-fastest-list-a-century-double-hundred-india-a-vs-uae-rising-stars-asia-cup-126112400780_1.html",
-   "sec": [
-    "india",
-    "sports"
-   ],
-   "st": "IN",
-   "place": "IN",
-   "loc": "దోహా",
-   "pts": [
-    "యూఏఈ 50 ఓవర్లలో 8 వికెట్లకు 249 పరుగులు",
-    "భారత్-ఎ 14.2 ఓవర్లలోనే 7 వికెట్ల తేడాతో గెలుపు"
-   ],
-   "why": "భారత యువ క్రికెట్‌కు ఇది ఒక పెద్ద రికార్డు.",
-   "pub": "2026-11-24T17:42+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "India · Cricket",
-    "stat": "204 runs",
-    "statl": "off 53 balls",
-    "loc": "Doha",
-    "h": "Sooryavanshi hits 52-ball double century",
-    "p": "India A batter Vaibhav Sooryavanshi scored 204 off 53 balls against the UAE in the Asia Cup Rising Stars. The 15-year-old reached 200 in 52 balls, the fastest double century in men's List A cricket. He hit 28 sixes.",
-    "pts": [
-     "UAE made 249 for 8 in 50 overs",
-     "India A won by 7 wickets in just 14.2 overs"
-    ],
-    "why": "It is a major record for Indian youth cricket."
-   },
-   "hi": {
-    "cat": "भारत · क्रिकेट",
-    "stat": "204 रन",
-    "statl": "53 गेंदों में",
-    "loc": "दोहा",
-    "h": "सूर्यवंशी का 52 गेंदों में दोहरा शतक",
-    "p": "एशिया कप राइजिंग स्टार्स में यूएई के खिलाफ भारत-ए के बल्लेबाज वैभव सूर्यवंशी ने 53 गेंदों में 204 रन बनाए। 15 साल के सूर्यवंशी ने 52 गेंदों में 200 पूरे कर पुरुष लिस्ट-ए क्रिकेट का सबसे तेज दोहरा शतक लगाया। उन्होंने 28 छक्के मारे।",
-    "pts": [
-     "यूएई ने 50 ओवर में 8 विकेट पर 249 रन बनाए",
-     "भारत-ए ने सिर्फ 14.2 ओवर में 7 विकेट से जीत दर्ज की"
-    ],
-    "why": "यह भारतीय युवा क्रिकेट के लिए बड़ा रिकॉर्ड है।"
-   },
-   "art": "",
-   "d": "24.11.2026",
-   "t": "18:35"
-  },
-  {
-   "cat": "ఆలేరు · వ్యవసాయ మార్కెట్",
-   "col": "--c-gov",
-   "art": "",
-   "pic": "logo",
-   "stat": "మార్కెట్ వైస్ చైర్మన్",
-   "statl": "ఏజాస్‌కు సత్కారం",
-   "h": "మార్కెట్ వైస్ చైర్మన్ ఏజాస్‌కు సత్కారం",
-   "p": "ఆలేరు వ్యవసాయ మార్కెట్ కమిటీ వైస్ చైర్మన్‌గా నియమితులైన ఎం.ఏ. ఏజాస్‌ను బహదూర్‌పేట నాయకులు మంగళవారం కలిసి శాలువాతో సత్కరించి శుభాకాంక్షలు తెలిపారు. మున్సిపల్ వైస్ చైర్మన్ అంగిడి ఆంజనేయులు, బీఆర్ఎస్ ఆలేరు పట్టణ ప్రధాన కార్యదర్శి కుండె సంపత్, సంగి మైసయ్య, వట్టిపల్లి సిద్ది మల్లయ్య, దొంతుల ఎల్లేష్ తదితరులు పాల్గొన్నారు.",
-   "src": "Swipe2News రిపోర్టర్ · ఆలేరు",
-   "url": "",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "yadadri",
-   "loc": "ఆలేరు, బహదూర్‌పేట",
-   "pts": [
-    "ఆలేరు వ్యవసాయ మార్కెట్ వైస్ చైర్మన్‌గా ఎం.ఏ. ఏజాస్",
-    "బహదూర్‌పేట నాయకుల సత్కారం, శుభాకాంక్షలు",
-    "మున్సిపల్ వైస్ చైర్మన్ అంగిడి ఆంజనేయులు హాజరు"
-   ],
-   "why": "ఆలేరు మార్కెట్‌కు వచ్చే రైతులకు కొత్త వైస్ చైర్మన్ ఎవరో తెలుస్తుంది.",
-   "en": {
-    "cat": "Aler · Agricultural market",
-    "stat": "Market vice-chairman",
-    "statl": "Ejaz felicitated",
-    "loc": "Aler, Bahadurpet",
-    "h": "Aler market vice-chairman Ejaz felicitated",
-    "p": "Leaders from Bahadurpet met M.A. Ejaz, newly appointed vice-chairman of the Aler agricultural market committee, on Tuesday, honoured him with a shawl and congratulated him. Municipal vice-chairman Angidi Anjaneyulu, BRS Aler town general secretary Kunde Sampath, Sangi Maisaiah, Vattipalli Siddi Mallaiah, Donthula Yellesh and others attended.",
-    "pts": [
-     "M.A. Ejaz appointed Aler market vice-chairman",
-     "Felicitated by Bahadurpet leaders",
-     "Municipal vice-chairman Angidi Anjaneyulu attends"
-    ],
-    "why": "Farmers using the Aler market know who the new vice-chairman is."
-   },
-   "hi": {
-    "cat": "आलेर · कृषि मंडी",
-    "stat": "मंडी उपाध्यक्ष",
-    "statl": "एजाज़ का सम्मान",
-    "loc": "आलेर, बहादुरपेट",
-    "h": "आलेर मंडी उपाध्यक्ष एजाज़ का सम्मान",
-    "p": "आलेर कृषि मंडी समिति के नए उपाध्यक्ष एम.ए. एजाज़ से बहादुरपेट के नेताओं ने मंगलवार को मुलाकात कर शॉल से सम्मानित किया और बधाई दी। नगरपालिका उपाध्यक्ष अंगिडी आंजनेयुलु, बीआरएस आलेर शहर महासचिव कुंडे संपत, संगी मैसय्या, वट्टिपल्ली सिद्दी मल्लय्या, दोंतुला एल्लेश समेत अन्य लोग मौजूद रहे।",
-    "pts": [
-     "एम.ए. एजाज़ आलेर मंडी उपाध्यक्ष नियुक्त",
-     "बहादुरपेट नेताओं ने किया सम्मान",
-     "नगरपालिका उपाध्यक्ष अंगिडी आंजनेयुलु मौजूद"
-    ],
-    "why": "आलेर मंडी आने वाले किसानों को नए उपाध्यक्ष की जानकारी।"
-   },
-   "d": "24.11.2026",
-   "t": "18:40",
-   "pub": "2026-11-24T18:40+05:30",
-   "lbl": "fact",
-   "img": "photos/2026-11-24-aler-market-vice-chairman-ejaz.jpg",
-   "imgfy": 0.3,
-   "imgcr": "ఆలేరు రిపోర్టర్",
-   "local": true
-  },
-  {
-   "cat": "తెలంగాణ · ఇంటర్ పరీక్షలు",
-   "col": "--c-gov",
-   "pic": "e/board-examination-hall",
-   "stat": "జంబ్లింగ్ లేదు",
-   "statl": "ప్రాక్టికల్స్‌లో",
-   "h": "ఇంటర్ ప్రాక్టికల్స్‌లో జంబ్లింగ్ లేదు",
-   "p": "తెలంగాణ ఇంటర్ బోర్డు 2027 ప్రాక్టికల్ పరీక్షల్లో జంబ్లింగ్ పద్ధతి అమలు చేయడం లేదు. విద్యార్థులు తమ సొంత కాలేజీల్లోనే ప్రాక్టికల్స్ రాస్తారు. రెండో సంవత్సరం సైన్స్ ప్రాక్టికల్స్ ఫిబ్రవరి 1 నుంచి 10 వరకు, మొదటి సంవత్సరం ప్రాక్టికల్స్ ఫిబ్రవరి 11 నుంచి 18 వరకు జరుగుతాయి. దాదాపు 10 లక్షల మంది విద్యార్థులు పరీక్షలు రాయనున్నారు.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/no-jumbling-for-practical-exams-again-79a81568",
-   "sec": [
-    "telangana",
-    "education"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pts": [
-    "థియరీ పరీక్షల్లో జంబ్లింగ్ కొనసాగుతుంది",
-    "మొదటి సంవత్సరం థియరీ పరీక్షలు ఫిబ్రవరి 24 నుంచి",
-    "కొన్ని ప్రైవేట్ కాలేజీలు మార్కులకు డబ్బు తీసుకుంటున్నాయని విద్యార్థి సంఘాల ఆరోపణ"
-   ],
-   "why": "ఇంటర్ సైన్స్ విద్యార్థులు ప్రాక్టికల్స్ కోసం వేరే కాలేజీకి వెళ్లాల్సిన అవసరం ఉండదు.",
-   "next": "రెండో సంవత్సరం సైన్స్ ప్రాక్టికల్స్ ఫిబ్రవరి 1న మొదలవుతాయి",
-   "pub": "2026-11-24T17:18+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Inter exams",
-    "stat": "No jumbling",
-    "statl": "in Inter practical exams",
-    "loc": "Telangana",
-    "h": "No jumbling in Inter practicals this year too",
-    "p": "The Telangana Board of Intermediate Education will not use the jumbling system for the 2027 practical exams. Students will take practicals in their own colleges. Second-year science practicals will be held from February 1 to 10 and first-year practicals from February 11 to 18. About 10 lakh students are expected to appear.",
-    "pts": [
-     "Jumbling continues for theory exams",
-     "First-year theory exams begin on February 24",
-     "Student groups allege some private colleges take money for marks"
-    ],
-    "why": "Inter science students will not have to travel to another college for practicals.",
-    "next": "Second-year science practicals begin on February 1"
-   },
-   "hi": {
-    "cat": "तेलंगाना · इंटर परीक्षा",
-    "stat": "जंबलिंग नहीं",
-    "statl": "इंटर प्रैक्टिकल परीक्षा में",
-    "loc": "तेलंगाना",
-    "h": "इंटर प्रैक्टिकल में इस बार भी जंबलिंग नहीं",
-    "p": "तेलंगाना इंटरमीडिएट बोर्ड 2027 की प्रैक्टिकल परीक्षाओं में जंबलिंग व्यवस्था लागू नहीं करेगा। छात्र अपने ही कॉलेज में प्रैक्टिकल देंगे। दूसरे वर्ष के साइंस प्रैक्टिकल 1 से 10 फरवरी तक और पहले वर्ष के प्रैक्टिकल 11 से 18 फरवरी तक होंगे। करीब 10 लाख छात्रों के परीक्षा देने की उम्मीद है।",
-    "pts": [
-     "थ्योरी परीक्षाओं में जंबलिंग जारी रहेगी",
-     "पहले वर्ष की थ्योरी परीक्षा 24 फरवरी से",
-     "छात्र संगठनों का आरोप: कुछ निजी कॉलेज अंकों के लिए पैसे लेते हैं"
-    ],
-    "why": "इंटर साइंस के छात्रों को प्रैक्टिकल के लिए दूसरे कॉलेज नहीं जाना पड़ेगा।",
-    "next": "दूसरे वर्ष के साइंस प्रैक्टिकल 1 फरवरी से शुरू होंगे"
-   },
-   "art": "",
-   "d": "24.11.2026",
-   "t": "18:05"
-  },
-  {
-   "cat": "తెలంగాణ · సింగరేణి",
-   "col": "--c-gov",
-   "pic": "e/government-school-classroom",
-   "stat": "కార్మికుల పిల్లలకు",
-   "statl": "ఉచిత చదువు",
-   "h": "సింగరేణి కార్మికుల పిల్లలకు ఉచిత చదువు",
-   "p": "సింగరేణి సంస్థ కాంట్రాక్ట్, అవుట్‌సోర్సింగ్ కార్మికుల పిల్లలకు తమ పాఠశాలల్లో 10వ తరగతి వరకు ఉచితంగా చదువు చెప్పనున్నట్లు మంగళవారం ప్రకటించింది. 12 ఏరియాల్లోని దాదాపు 30 వేల కార్మిక కుటుంబాలకు ఇది మేలు చేస్తుంది. సింగరేణి ఎడ్యుకేషనల్ సొసైటీ నడిపే 9 పాఠశాలల్లో 400 మందికి పైగా పిల్లలకు వెంటనే వర్తిస్తుంది.",
-   "src": "Siasat",
-   "url": "https://www.siasat.com/singareni-offers-free-schooling-up-to-class-10-for-workers-kids-3585686/",
-   "sec": [
-    "telangana",
-    "education"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pts": [
-    "ఉప ముఖ్యమంత్రి భట్టి విక్రమార్క అధ్యక్షతన జరిగిన భేటీలో నిర్ణయం",
-    "వచ్చే విద్యా సంవత్సరం నుంచి కొత్త ప్రవేశాలకూ వర్తింపు",
-    "విభాగాధిపతి ధ్రువీకరించిన పత్రాలు ఇవ్వాలి"
-   ],
-   "why": "బొగ్గు గనుల ప్రాంతాల్లోని కాంట్రాక్ట్ కార్మికుల కుటుంబాలకు పిల్లల చదువు ఖర్చు తగ్గుతుంది.",
-   "pub": "2026-11-24T17:47+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Singareni",
-    "stat": "Free schooling",
-    "statl": "up to Class 10 for workers' children",
-    "loc": "Telangana",
-    "h": "Singareni: free schooling for contract workers' kids",
-    "p": "Singareni Collieries announced on Tuesday that children of its contract and outsourced workers will get free education up to Class 10 in its schools. About 30,000 workers' families across its 12 areas stand to benefit. It applies immediately to more than 400 children in the nine schools run by the Singareni Educational Society.",
-    "pts": [
-     "Decided at a meeting chaired by Deputy CM Bhatti Vikramarka",
-     "Extends to new admissions from the next academic year",
-     "Documents certified by the department head are required"
-    ],
-    "why": "Contract workers' families in the coal belt will spend less on their children's schooling."
-   },
-   "hi": {
-    "cat": "तेलंगाना · सिंगरेनी",
-    "stat": "मुफ्त पढ़ाई",
-    "statl": "मजदूरों के बच्चों को 10वीं तक",
-    "loc": "तेलंगाना",
-    "h": "सिंगरेनी मजदूरों के बच्चों को मुफ्त पढ़ाई",
-    "p": "सिंगरेनी कोलियरीज ने मंगलवार को घोषणा की कि उसके ठेका और आउटसोर्स मजदूरों के बच्चों को उसके स्कूलों में 10वीं कक्षा तक मुफ्त शिक्षा मिलेगी। उसके 12 क्षेत्रों के करीब 30 हजार मजदूर परिवारों को इसका लाभ होगा। सिंगरेनी एजुकेशनल सोसाइटी के 9 स्कूलों में 400 से अधिक बच्चों पर यह तुरंत लागू होगा।",
-    "pts": [
-     "उपमुख्यमंत्री भट्टी विक्रमार्क की अध्यक्षता वाली बैठक में फैसला",
-     "अगले शैक्षणिक वर्ष से नए दाखिलों पर भी लागू",
-     "विभागाध्यक्ष से प्रमाणित दस्तावेज देने होंगे"
-    ],
-    "why": "कोयला क्षेत्र के ठेका मजदूर परिवारों का बच्चों की पढ़ाई पर खर्च घटेगा।"
-   },
-   "art": "",
-   "d": "24.11.2026",
-   "t": "18:05"
-  },
-  {
-   "cat": "తెలంగాణ · హైకోర్టు",
-   "col": "--c-gov",
-   "pic": "e/court-hearing",
-   "stat": "120 రోజుల గడువు",
-   "statl": "సివిల్ దావాలకు లేదు",
-   "h": "సివిల్ దావాలకు 120 రోజుల గడువు లేదు",
-   "p": "లిఖిత వాదన దాఖలు చేయడానికి ఉన్న 120 రోజుల గడువు వాణిజ్య వివాదాలకే వర్తిస్తుందని, సాధారణ సివిల్ దావాలకు కాదని తెలంగాణ హైకోర్టు స్పష్టం చేసింది. ఆలస్యమైందంటూ ఒక ప్రతివాది లిఖిత వాదనను తిరస్కరించిన హైదరాబాద్ సిటీ సివిల్ కోర్టు 2025 ఉత్తర్వును జస్టిస్ గాడి ప్రవీణ్ కుమార్ రద్దు చేశారు.",
-   "src": "Siasat",
-   "url": "https://www.siasat.com/120-day-written-statement-cap-not-for-civil-suits-telangana-hc-3585694/",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "",
-   "pts": [
-    "ఈ గడువు 2015 వాణిజ్య కోర్టుల చట్టం కిందే ఉంది",
-    "లిఖిత వాదనను తీసుకుని విచారణ కొనసాగించాలని ఆదేశం"
-   ],
-   "why": "సివిల్ కేసుల్లో ఆలస్యంగా సమాధానం ఇచ్చిన వారికి ఈ తీర్పు ఊరట ఇస్తుంది.",
-   "pub": "2026-11-24T17:38+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · High Court",
-    "stat": "120-day limit",
-    "statl": "only for commercial cases: HC",
-    "loc": "Hyderabad",
-    "h": "120-day cap not for civil suits: Telangana HC",
-    "p": "The Telangana High Court has held that the 120-day limit for filing a written statement applies only to commercial disputes, not to ordinary civil suits. Justice Gadi Praveen Kumar set aside a 2025 order of the Hyderabad City Civil Court that had rejected a defendant's written statement as late.",
-    "pts": [
-     "The limit comes from the Commercial Courts Act, 2015",
-     "Trial court told to accept the statement and continue the trial"
-    ],
-    "why": "The ruling gives relief to people who file their reply late in civil cases."
-   },
-   "hi": {
-    "cat": "तेलंगाना · हाईकोर्ट",
-    "stat": "120 दिन की सीमा",
-    "statl": "सिर्फ वाणिज्यिक मामलों पर: हाईकोर्ट",
-    "loc": "हैदराबाद",
-    "h": "सिविल मुकदमों पर 120 दिन की सीमा नहीं: हाईकोर्ट",
-    "p": "तेलंगाना हाईकोर्ट ने कहा है कि लिखित बयान दाखिल करने की 120 दिन की सीमा सिर्फ वाणिज्यिक विवादों पर लागू होती है, सामान्य सिविल मुकदमों पर नहीं। जस्टिस गाडी प्रवीण कुमार ने हैदराबाद सिटी सिविल कोर्ट का 2025 का वह आदेश रद्द कर दिया, जिसमें एक प्रतिवादी का लिखित बयान देरी के कारण खारिज किया गया था।",
-    "pts": [
-     "यह सीमा वाणिज्यिक न्यायालय अधिनियम, 2015 के तहत है",
-     "निचली अदालत को बयान स्वीकार कर सुनवाई जारी रखने का निर्देश"
-    ],
-    "why": "सिविल मामलों में देर से जवाब दाखिल करने वालों को इस फैसले से राहत मिलेगी।"
-   },
-   "art": "",
-   "d": "24.11.2026",
-   "t": "18:05"
-  },
-  {
-   "cat": "ఏపీ · పోలీసు కేసు",
-   "col": "--c-city",
-   "pic": "e/police-investigation",
-   "stat": "పూజారి అరెస్ట్",
-   "statl": "పూజ మోసం కేసులో",
-   "h": "లక్ష్మీ పూజ మోసం కేసులో పూజారి అరెస్ట్",
-   "p": "లక్ష్మీ పూజ పేరుతో పేద కుటుంబాల యువతులను మోసం చేశారన్న కేసులో అనంతపురం జిల్లాకు చెందిన 47 ఏళ్ల పూజారిని పోలీసులు మంగళవారం శ్రీశైలంలో అరెస్ట్ చేశారు. కర్ణాటకలోని బళ్లారి ఏపీఎంసీ పోలీస్ స్టేషన్‌లో ఈ కేసు నమోదైంది. 15 మందికి పైగా యువతులు, బాలికలు బాధితులని ప్రాథమిక దర్యాప్తులో తేలిందని పోలీసులు తెలిపారు.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/lakshmi-puja-racket-andhra-priest-accused-of-exploiting-women-blackmailing-victims",
-   "sec": [
-    "telangana",
-    "india"
-   ],
-   "st": "AP",
-   "place": "AP",
-   "loc": "శ్రీశైలం",
-   "pts": [
-    "ఇదే కేసులో ఇంతకు ముందు 15 మంది అరెస్ట్",
-    "మహిళా పోలీసులు దాదాపు రెండు నెలలు రహస్యంగా దర్యాప్తు చేశారు",
-    "డబ్బు ఆశ చూపి, తర్వాత బెదిరించారని పోలీసుల ఆరోపణ"
-   ],
-   "why": "పూజల పేరుతో డబ్బు ఆశ చూపే వారి విషయంలో కుటుంబాలు జాగ్రత్తగా ఉండాలి.",
-   "pub": "2026-11-24T17:28+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Police case",
-    "stat": "Priest arrested",
-    "statl": "in 'Lakshmi Puja' fraud case",
-    "loc": "Srisailam",
-    "h": "Priest held in 'Lakshmi Puja' fraud case: police",
-    "p": "Police arrested a 47-year-old priest from Anantapur district at Srisailam on Tuesday in a case of cheating young women from poor families in the name of a Lakshmi Puja. The case is registered at Ballari APMC police station in Karnataka. Police said the preliminary probe shows more than 15 young women and girls were victims.",
-    "pts": [
-     "15 people were arrested earlier in the same case",
-     "Women officers investigated undercover for nearly two months",
-     "Police allege victims were lured with money and later threatened"
-    ],
-    "why": "Families should be careful about anyone promising money through special pujas."
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · पुलिस केस",
-    "stat": "पुजारी गिरफ्तार",
-    "statl": "'लक्ष्मी पूजा' ठगी मामले में",
-    "loc": "श्रीशैलम",
-    "h": "'लक्ष्मी पूजा' ठगी मामले में पुजारी गिरफ्तार: पुलिस",
-    "p": "लक्ष्मी पूजा के नाम पर गरीब परिवारों की युवतियों को ठगने के मामले में पुलिस ने मंगलवार को अनंतपुर ज़िले के 47 वर्षीय पुजारी को श्रीशैलम में गिरफ्तार किया। मामला कर्नाटक के बल्लारी एपीएमसी थाने में दर्ज है। पुलिस के अनुसार शुरुआती जांच में 15 से अधिक युवतियां और लड़कियां पीड़ित पाई गई हैं।",
-    "pts": [
-     "इसी मामले में पहले 15 लोग गिरफ्तार हो चुके हैं",
-     "महिला पुलिसकर्मियों ने करीब दो महीने गुप्त जांच की",
-     "पुलिस का आरोप: पैसों का लालच देकर बाद में धमकाया गया"
-    ],
-    "why": "विशेष पूजा के नाम पर पैसों का लालच देने वालों से परिवार सावधान रहें।"
-   },
-   "art": "",
-   "d": "24.11.2026",
-   "t": "18:05"
-  },
-  {
-   "cat": "తెలంగాణ · రాజకీయం",
-   "col": "--c-gov",
-   "pic": "e/party-brs",
-   "stat": "హోం శాఖ వదలాలని",
-   "statl": "బీఆర్‌ఎస్ డిమాండ్",
-   "h": "సీఎం హోం శాఖ వదలాలని బీఆర్‌ఎస్ డిమాండ్",
-   "p": "రాష్ట్రంలో శాంతిభద్రతలు దెబ్బతిన్నాయని, అందుకే ముఖ్యమంత్రి రేవంత్ రెడ్డి హోం మంత్రి పదవికి రాజీనామా చేయాలని బీఆర్‌ఎస్ ప్రధాన కార్యదర్శి ఆర్‌ఎస్ ప్రవీణ్ కుమార్ డిమాండ్ చేశారు. మంగళవారం తెలంగాణ భవన్‌లో ఆయన మీడియాతో మాట్లాడారు. ఉగ్ర దాడి హెచ్చరికకు సంబంధించిన పోలీసు సమాచారం సోషల్ మీడియాలోకి ఎలా వచ్చిందో విచారణ జరపాలని కోరారు.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/praveen-kumar-seeks-revanth-s-resignation-as-home-minister",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "తెలంగాణ భవన్",
-   "pts": [
-    "హైదరాబాద్‌లో ఇటీవల జరిగిన హత్యలను ఆయన ప్రస్తావించారు",
-    "బీఆర్‌ఎస్ నేతలపై పోలీసులు అధికారం దుర్వినియోగం చేస్తున్నారని ఆరోపణ"
-   ],
-   "why": "హైదరాబాద్ భద్రత, పోలీసుల పనితీరుపై ప్రతిపక్షం ప్రభుత్వాన్ని ప్రశ్నిస్తోంది.",
-   "pub": "2026-11-24T17:35+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Telangana · Politics",
-    "stat": "BRS demand",
-    "statl": "CM should give up Home portfolio",
-    "loc": "Telangana Bhavan, Hyderabad",
-    "h": "BRS asks Revanth Reddy to quit as Home Minister",
-    "p": "BRS general secretary RS Praveen Kumar demanded that Chief Minister Revanth Reddy resign as Home Minister, saying law and order in the state has broken down. He spoke to the media at Telangana Bhavan on Tuesday. He also sought an inquiry into how police information about a terror-attack alert reached social media.",
-    "pts": [
-     "He referred to recent murders in Hyderabad",
-     "He alleged police are misusing their powers against BRS leaders"
-    ],
-    "why": "The opposition is questioning the government on Hyderabad's safety and police functioning."
-   },
-   "hi": {
-    "cat": "तेलंगाना · राजनीति",
-    "stat": "बीआरएस की मांग",
-    "statl": "मुख्यमंत्री गृह विभाग छोड़ें",
-    "loc": "तेलंगाना भवन, हैदराबाद",
-    "h": "बीआरएस: रेवंत रेड्डी गृह मंत्री पद छोड़ें",
-    "p": "बीआरएस महासचिव आर.एस. प्रवीण कुमार ने मांग की कि राज्य में कानून-व्यवस्था बिगड़ने के कारण मुख्यमंत्री रेवंत रेड्डी गृह मंत्री पद से इस्तीफा दें। उन्होंने मंगलवार को तेलंगाना भवन में मीडिया से बात की। उन्होंने यह जांच भी मांगी कि आतंकी हमले की चेतावनी से जुड़ी पुलिस की जानकारी सोशल मीडिया तक कैसे पहुंची।",
-    "pts": [
-     "उन्होंने हैदराबाद में हाल की हत्याओं का ज़िक्र किया",
-     "आरोप: पुलिस बीआरएस नेताओं के खिलाफ अधिकारों का दुरुपयोग कर रही है"
-    ],
-    "why": "विपक्ष हैदराबाद की सुरक्षा और पुलिस के कामकाज पर सरकार से सवाल कर रहा है।"
-   },
-   "art": "",
-   "d": "24.11.2026",
-   "t": "18:05"
-  },
-  {
-   "cat": "తెలంగాణ · రాజకీయం",
-   "col": "--c-election",
-   "pic": "e/party-congress",
-   "stat": "పొన్నం సవాల్",
-   "statl": "ఓటర్ల జాబితా సవరణపై",
-   "h": "ఓటర్ల జాబితాపై బీజేపీకి పొన్నం సవాల్",
-   "p": "ఓటర్ల జాబితా ప్రత్యేక సవరణ (ఎస్‌ఐఆర్)పై పార్లమెంటులో ప్రత్యేకంగా చర్చించాలని తెలంగాణ రవాణా శాఖ మంత్రి పొన్నం ప్రభాకర్ మంగళవారం ఎక్స్‌లో కోరారు. ఓట్ల తొలగింపు, ఎన్నికల లెక్కల మార్పులపై రాహుల్ గాంధీ అడిగిన ప్రశ్నలకు బీజేపీ జవాబు చెప్పాలని సవాల్ చేశారు. అక్రమ వలసదారుల ఓట్లను కాంగ్రెస్ కాపాడటం లేదని అన్నారు.",
-   "src": "Siasat",
-   "url": "https://www.siasat.com/how-about-sir-debate-in-parliament-ponnam-challenges-bjp-3585518/",
-   "sec": [
-    "telangana",
-    "india"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pts": [
-    "చొరబాట్లను ఆపడానికి కేంద్రం ఏం చేస్తోందని ప్రశ్నించారు",
-    "12 ఏళ్లలో తెలంగాణకు బీజేపీ ఏం చేసిందో చెప్పాలన్నారు"
-   ],
-   "why": "ఓటర్ల జాబితా సవరణపై కాంగ్రెస్, బీజేపీ మధ్య వాదన కొనసాగుతోంది.",
-   "pub": "2026-11-24T16:59+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Telangana · Politics",
-    "stat": "Ponnam's challenge",
-    "statl": "on voter list revision",
-    "loc": "Telangana",
-    "h": "Ponnam dares BJP to debate voter list revision",
-    "p": "Telangana Transport Minister Ponnam Prabhakar, in a post on X on Tuesday, called for a special discussion in Parliament on the Special Intensive Revision (SIR) of voter lists. He challenged the BJP to answer Rahul Gandhi's questions on voter deletions and changes in election data. He said the Congress is not protecting the votes of illegal immigrants.",
-    "pts": [
-     "He asked what the Centre is doing to stop infiltration",
-     "He asked the BJP to state what it did for Telangana in 12 years"
-    ],
-    "why": "The argument between the Congress and the BJP over voter list revision continues."
-   },
-   "hi": {
-    "cat": "तेलंगाना · राजनीति",
-    "stat": "पोन्नम की चुनौती",
-    "statl": "मतदाता सूची संशोधन पर",
-    "loc": "तेलंगाना",
-    "h": "मतदाता सूची संशोधन पर पोन्नम की भाजपा को चुनौती",
-    "p": "तेलंगाना के परिवहन मंत्री पोन्नम प्रभाकर ने मंगलवार को एक्स पर मतदाता सूची के विशेष गहन पुनरीक्षण (एसआईआर) पर संसद में विशेष चर्चा की मांग की। उन्होंने भाजपा को चुनौती दी कि वह वोट हटाने और चुनावी आंकड़ों में बदलाव पर राहुल गांधी के सवालों का जवाब दे। उन्होंने कहा कि कांग्रेस अवैध प्रवासियों के वोट नहीं बचा रही है।",
-    "pts": [
-     "उन्होंने पूछा कि घुसपैठ रोकने के लिए केंद्र क्या कर रहा है",
-     "कहा: भाजपा बताए कि 12 साल में तेलंगाना के लिए क्या किया"
-    ],
-    "why": "मतदाता सूची संशोधन पर कांग्रेस और भाजपा के बीच बहस जारी है।"
-   },
-   "art": "",
-   "d": "24.11.2026",
-   "t": "18:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · క్రికెట్",
-   "col": "--c-city",
-   "pic": "e/cricket-match",
-   "stat": "చివరి బంతికి గెలుపు",
-   "statl": "గుజరాత్‌పై",
-   "h": "ముస్తాక్ అలీ ట్రోఫీలో హైదరాబాద్ గెలుపు",
-   "p": "సయ్యద్ ముస్తాక్ అలీ టీ20 ట్రోఫీలో హైదరాబాద్ జట్టు మంగళవారం గుజరాత్‌పై చివరి బంతికి గెలిచింది. కోల్‌కతా ఈడెన్ గార్డెన్స్‌లో జరిగిన మ్యాచ్‌లో గుజరాత్ 7 వికెట్లకు 187 పరుగులు చేసింది. 188 పరుగుల లక్ష్యాన్ని హైదరాబాద్ అందుకుంది. అమన్ రావు 59, హిమతేజ 54 పరుగులు చేశారు. టోర్నీలో హైదరాబాద్‌కు ఇది మూడో గెలుపు.",
-   "src": "Telangana Today (IANS)",
-   "url": "https://telanganatoday.com/syed-mushtaq-ali-trophy-hyderabad-edge-gujarat-maharashtra-overcome-tripura",
-   "sec": [
-    "telangana",
-    "sports"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "",
-   "pts": [
-    "గుజరాత్ తరఫున హర్షల్ పటేల్, అశుతోష్ శర్మ చెరో 40 పరుగులు",
-    "మరో మ్యాచ్‌లో త్రిపురపై మహారాష్ట్ర చివరి బంతికి గెలిచింది"
-   ],
-   "why": "హైదరాబాద్ క్రికెట్ అభిమానులకు ఈ గెలుపు ఉత్సాహం ఇస్తుంది.",
-   "pub": "2026-11-24T17:36+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Cricket",
-    "stat": "Last-ball win",
-    "statl": "over Gujarat",
-    "loc": "Hyderabad",
-    "h": "Hyderabad beat Gujarat in Mushtaq Ali Trophy",
-    "p": "Hyderabad beat Gujarat off the last ball in the Syed Mushtaq Ali T20 Trophy on Tuesday. In the match at Eden Gardens, Kolkata, Gujarat scored 187 for 7. Hyderabad reached the target of 188. Aman Rao made 59 and Himateja 54. It is Hyderabad's third win in the tournament.",
-    "pts": [
-     "Harshal Patel and Ashutosh Sharma made 40 each for Gujarat",
-     "In another match Maharashtra beat Tripura off the last ball"
-    ],
-    "why": "The win is a boost for Hyderabad's cricket fans."
-   },
-   "hi": {
-    "cat": "हैदराबाद · क्रिकेट",
-    "stat": "आखिरी गेंद पर जीत",
-    "statl": "गुजरात के खिलाफ",
-    "loc": "हैदराबाद",
-    "h": "मुश्ताक अली ट्रॉफी में हैदराबाद की जीत",
-    "p": "सैयद मुश्ताक अली टी20 ट्रॉफी में हैदराबाद ने मंगलवार को गुजरात को आखिरी गेंद पर हराया। कोलकाता के ईडन गार्डन्स में हुए मैच में गुजरात ने 7 विकेट पर 187 रन बनाए। हैदराबाद ने 188 रन का लक्ष्य हासिल कर लिया। अमन राव ने 59 और हिमतेजा ने 54 रन बनाए। टूर्नामेंट में यह हैदराबाद की तीसरी जीत है।",
-    "pts": [
-     "गुजरात के लिए हर्षल पटेल और आशुतोष शर्मा ने 40-40 रन बनाए",
-     "दूसरे मैच में महाराष्ट्र ने त्रिपुरा को आखिरी गेंद पर हराया"
-    ],
-    "why": "इस जीत से हैदराबाद के क्रिकेट प्रशंसकों का उत्साह बढ़ेगा।"
-   },
-   "art": "",
-   "d": "24.11.2026",
-   "t": "18:05"
   },
   {
    "cat": "హైదరాబాద్ · సంస్కృతి",
