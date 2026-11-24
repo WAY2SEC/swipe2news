@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-24T16:05:00+05:30",
+ "cutoff": "2026-11-24T16:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-21T17:35:00+05:30/2026-11-21T18:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 9,
-   "late": 7,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 7,
-   "skipped": 5,
-   "review": 0,
-   "gaps": "Lookback from 09:35. Feeds 18:00 IST, 69/70 ok (topic:world news HTTP 429), 918 TG/AP flagged uncovered; 130 events first seen since 17:05 reviewed. add_repo not available; used existing clone. Published 9: HSRP 7-day order to dealers (V6), Gachibowli job mela Nov 25 (TT), 56 kg chloral hydrate seized at Kandi (Siasat, sensitive), Dixon up to Rs 1,000 cr in AP (The Week), INCOIS to double ocean network (TT), HMDA-HCCB treated water for ORR (TT), Somajiguda heritage building (TT), Manchirevula inscriptions (TT, claim), sit-in seeking Adibatla ACP suspension (DC, sensitive, claim, nobody named). Duplicates: Hafeezpet paint shop fire, AgriGold bond verification, activists committee, Nalgonda youth US crash x2, Disha chloral hydrate, SpiceJet DGCA. Old: NEET charges (18 Nov), Tata Power 800 MW (July). Not opened (search did not return article): ETV Kaleshwaram barrage repairs, News18 AI training 1 lakh, GK Today AP HC Parawada. Skipped: entertainment, devotional, food reviews, sports, party statements, other-state. e/ picture keys rejected by check_news.py; used c/ and n/ keys. Older TG/AP backlog not worked."
-  },
   {
    "window": "2026-11-21T18:05:00+05:30/2026-11-21T18:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 07:35. Feeds 15:43 IST (70/70 ok). add_repo tool not available; used existing clone. Published: Andhra Jyothy Ootpally (Vikarabad) house fire, NT News Adilabad fake-notes gang 4 arrested (police), DC Manuguru car-bus collision, Siasat AICC in-charge meets two Congress MLAs (claim, late-found 13:19). Skipped old: DC 12 AP mayors take charge (23 Nov 22:48), Hans Narsipatnam chairperson oath (02:03), Siasat Invest Telangana summit expo (23 Nov 22:54). Not opened (no search hit for feed headline): V6 Hyderabad congestion charges, Hindu TG agri NPAs Rs7,304cr, Andhra Jyothy Sridhar Babu global summit, Prabha AgriGold bonds, TT AIMIM outreach. General TG/AP date searches returned little fresh; no district searches this run. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-24T16:05:00+05:30/2026-11-24T16:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 4,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 08:05. Feeds 16:10 IST (65/70 ok; failing: The Hindu x1, Hans India, Gadwal en, Nalgonda te/en). add_repo tool not available; used existing clone. Direct-URL fetches without a same-run search were refused, costing time. Published: TT Ameerpet saree fire death (sensitive, no name), TT JNTU flyover oil spill, NewsBytes TG farm NPAs Rs7,304cr (claim, late-found 15:29), TT Anantapur girls' football Dec 10-17. Skipped old: DC HC Rs2 lakh encounter compensation (23 Nov 23:21). Not opened/no search hit: Hindu Rayalaseema rice hoarding, Hindu Kishan Reddy de-addiction (dup of padayatra press meet), ETV Indrakeeladri giri pradakshina, DC Vizianagaram siblings drown, Munsif Karregutta tourists, ETV AP road-safety GO, Samayam Singur Dec 20, V6 congestion charges, Oneindia Pushkaralu logo contest, TT Nizamabad ATM, TT Kondagattu crowds. No district searches this run. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8283,6 +8283,31 @@
    "url": "https://www.siasat.com/invest-telangana-global-summit-to-be-indias-largest-exhibition-cm-3585129/",
    "d": "2026-11-24",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-woman-dies-after-saree-catches-fire-while-lighting-karthika-lamps",
+   "d": "2026-11-24",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/oil-spillage-on-jntu-flyover-ctp-caution-motorists-b80c155c",
+   "d": "2026-11-24",
+   "w": "p"
+  },
+  {
+   "url": "https://www.newsbytesapp.com/news/business/telangana-agricultural-npas-reach-rs730466cr-and-affect-487l-accounts/tldr",
+   "d": "2026-11-24",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/anantapur-to-host-sub-junior-national-football-championship-9970c46f",
+   "d": "2026-11-24",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/gram-panchayats-across-telangana-struggle-with-fund-crisis",
+   "d": "2026-11-24",
+   "w": "old"
   }
  ]
 }
