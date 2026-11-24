@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-24T19:05:00+05:30",
+ "cutoff": "2026-11-24T19:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-21T20:35:00+05:30/2026-11-21T21:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 4,
-   "late": 2,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Lookback from 12:35. Feeds 20:58 IST, 70/70 ok, 841 TG/AP flagged uncovered; 99 events first seen since 20:10 reviewed. add_repo not available; used existing clone. No direct WebFetch tool in this run: pages read through web-fetch agents, which only open URLs returned by a search (typed feed URLs time out after 5 min). Published 4: Uppal Heritage Foods drum explosion, woman dies (TT 20:21, sensitive, not named), AP Congress Samvidhan Raksha March Nov 26 (PTI via ThePrint, late 19:46), irumudi in aircraft cabin (Onmanorama, late 19:40), India-Canada CEPA sixth round (PTI via DC 20:52). Duplicates: DRI gold Rs 3.83 crore (Hindu/TT; Siasat story already published), TGSPDCL sub-engineer bribe (TT; V6 story published). Old: South First AP HIV Surakshit districts (20 Nov 20:03). Not opened (Hindu/TT only, typed URLs refused, search did not return): CoRWA rainwater challenge, CEO RTI on SIR publicity, Hyderabad pulse polio 5.22 lakh, CJI AI regulation, Naidu on investors, MBT petition to MEA, IRC pedestrian panel, TDP on Vijayawada mayor venue. Skipped: party statements, entertainment, lifestyle, own-group auto show, other-state. check_news.py still reports e/ pictures as unknown keys (files exist in art/e); kept e/ per pictures.md. Lang pages, index.html and sitemap.xml reverted. Older TG/AP backlog not worked."
-  },
   {
    "window": "2026-11-21T21:05:00+05:30/2026-11-21T21:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 10:35. Feeds 19:04 IST (69/70 ok; failing: Siddipet en district feed). add_repo tool not available; used existing clone. Exact-title searches did not surface fresh articles; direct Telangana Today/Siasat feed URLs opened through the web-fetch agent. Published: TT Himayatsagar murder raids (sensitive, no names of victim/accused), TT ex-HCA office-bearers on accounts (claim), TT Guru Nanak Jayanti Hyderabad, Siasat Hyderabad bagel firm gold, TT VJIM convocation, TT blood donors federation president, TT HCA league scores, TT YMCA basketball, TT SBI volleyball, TT DPS archery, TT/PTI Bisleri clarification (claim), Siasat/PTI RBI on G-sec demand, TT Aditya Mehta snooker, Siasat Yemen air strike 26 dead (claim, sensitive). Skipped: TT KNRUHS PG web options (deadline 12 noon today had already passed at 18:33 publication), Pioneer cold wave till Dec 2 (06:25, before lookback; private forecaster). Not opened: The Hindu is blocked for fetching (Rayalaseema poll alert, Srisailam Karthika Pournami, ULB counting SEC, BRS rebuts CM, Medchal PM-RAHAT refund); Google-News-only items with no search hit: HMTV Kodad boy killed by lorry, NewsMeter Hyderabad traffic curbs tomorrow, NewsMeter RTI drought 365 mandals, HMTV Miryalaguda cell tower protest, TV9 Peddapalli murder, Disha airport cargo capacity. No district searches this run. lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-24T19:05:00+05:30/2026-11-24T19:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 4,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 11:05. Feeds 19:17 IST (68/68 ok). add_repo tool not available; used existing clone. Direct feed URLs refused (PROVENANCE_REQUIRED) until surfaced by WebSearch. Published: TT Hyderabad PG hostels drug watch (6 positive), HMTV Kodad 13-year-old boy killed by lorry (sensitive, no name), TT South Zone women's T20 win, Siasat/AFP Riyadh tower hit again. Late (after END, left for next run): TT/PTI TTD Srivari Yatra Suraksha Rs 2 lakh to 7 families (19:38). Skipped: TT Miryalaguda BSNL tower (July 2026, old), TT Diljit concert IED threat FIR (other state, not major for TG/AP). Not opened: Disha airport cargo 140% and Bhadradri suspicious death (site client error); The Hindu items blocked (stevia, SIPB 88,625 cr, Malla Reddy Tirupati, Medchal PM-RAHAT, ULB counting, BRS rebuts CM, Rayalaseema temples); HMTV Miryalaguda cell tower (not tried). District searches: Kodad/Suryapet, Miryalaguda, Bhadradri, Khammam, Nizamabad – no further fresh items. lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8628,6 +8628,36 @@
    "url": "https://dailypioneer.com/telangana/cold-wave-likely-in-parts-of-telangana-till-december-2",
    "d": "2026-11-24",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/pg-hostels-shared-accommodations-under-drug-scanner",
+   "d": "2026-11-24",
+   "w": "2026-11-24T19:35:00+05:30"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/nalgonda-suryapet/13-year-old-boy-killed-as-lorry-hits-two-wheeler-near-kodad-216719",
+   "d": "2026-11-24",
+   "w": "2026-11-24T19:35:00+05:30"
+  },
+  {
+   "url": "https://telanganatoday.com/south-zone-thrash-north-east-zone-by-58-runs-in-womens-t20-championship",
+   "d": "2026-11-24",
+   "w": "2026-11-24T19:35:00+05:30"
+  },
+  {
+   "url": "https://www.siasat.com/tower-hit-again-in-riyadhs-financial-centre-houthis-claim-attack-3585809/",
+   "d": "2026-11-24",
+   "w": "2026-11-24T19:35:00+05:30"
+  },
+  {
+   "url": "https://telanganatoday.com/man-threatens-to-jump-from-bsnl-tower-seeking-indiramma-house-in-miryalaguda",
+   "d": "2026-11-24",
+   "w": "2026-11-24T19:35:00+05:30"
+  },
+  {
+   "url": "https://telanganatoday.com/fir-registered-over-ied-threat-to-diljit-dosanjh-s-6f6897b3",
+   "d": "2026-11-24",
+   "w": "2026-11-24T19:35:00+05:30"
   }
  ]
 }
