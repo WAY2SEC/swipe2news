@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-24T08:35:00+05:30",
+ "cutoff": "2026-11-24T09:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-21T13:35:00+05:30/2026-11-21T14:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 8,
-   "late": 1,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Lookback from 05:35. Feeds 13:42 IST, 70/70 ok, 784 TG/AP flagged uncovered (most already published under other URLs); 101 events new since 12:45 reviewed. add_repo not available; used existing clone. Published 8: census syllabus by December (ETV Bharat), Kaushik Reddy 1,029 pensions claim (Telangana Today), Rajagopal Reddy called by AICC (ETV Bharat), Ghatkesar highway jam (V6, claim), Langer Houz extortion case (Telangana Today, police), Lokesh Railway Koduru harassment order (Deccan Chronicle), Adinarayana Reddy Kadapa ZP resignations (South First, claim; follow-up to 20 Nov story), Manipur suspected spurious liquor 11 dead (Assam Tribune, late-found 09:27). Old: TT Jubilee Hills pub clash (Sep 2026), TT cyclone north TN (15 Nov), TT UPSC outage (2024), GK Today Madhira breakfast (July 2026), ICJ Rohingya ruling (19 Nov). Not opened: The Hindu Srikakulam 15,440 cusecs and Chamala BJP-BRS, Siasat court bail after 24-hour detention (URLs not returned by search, WebFetch refused), Disha Karimnagar ACB widow-pension bribe (client error), Prajasakti Chintakunta/Mangapatnam nomination papers, Prajasakti/NTV Chandrababu press meet, HMTV Vikarabad land. Skipped: Siasat entertainment items. Direct feed URLs cost ~5 min each when refused; only search-returned URLs open. Lang pages, index.html and sitemap.xml reverted."
-  },
   {
    "window": "2026-11-21T14:05:00+05:30/2026-11-21T14:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 1,
    "gaps": "Lookback from 23:35 (23 Nov). Feeds 08:24 IST (68/68 ok). 26 uncovered local events first seen since 07:00. 08:05 sister run had not saved state, so window covers 07:35-08:35. add_repo tool not available; used existing clone. Published: NT teachers online leave (fact), NewsMeter AP fact check Kadapa Anjaneya temple (misleading), V6 Revanth Krishna water charges (claim), DC Pattiseema old secretariat collapse (fact, late-found), Communications Today Telangana tech funding $726M (fact). Skipped as old: NTV TTD Vaikunta schedule (23 Nov 11:40), DC Tirupati/Chittoor civic chiefs (23 Nov 22:50). Review: Hello Vizag Vizag-Tiruvannamalai train (date only, no time). Andhrajyothy metro article was June 2026 (Eenadu-only for today's metro remark). Search did not return: TNIE AP drug policy, CPDCL rooftop solar, Guntur/Palnadu security, 84 civic chiefs, Siasat TGCSB Black Friday, DC Naidu SIPB/CRDA, AJ Kurnool compensation. District searches: Nalgonda/Khammam/Warangal, Anantapur/Kadapa/Prakasam/Eluru (no in-window items). lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-24T08:35:00+05:30/2026-11-24T09:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 9,
+   "late": 3,
+   "sensitive": 3,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 6,
+   "review": 0,
+   "gaps": "Lookback from 00:35. Feeds 09:24 IST (68/68 ok). 242 uncovered events since 07:30 (~50 local). 09:05 sister run had not saved state. add_repo tool not available; used existing clone. Published: DC Bhogapuram jeep-lorry 4 dead, AJ Krosuru Ayyappa devotees 2 dead, NT HC denies bail ~30 in egg harvesting cases, AJ Secunderabad-Tirupati special train, Siasat TGCSB Black Friday, DC Prakasam rain, AJ 121 kg gold Tirumala/CM Nov 26, TNM(ANI) Srisailam Lakshadeepotsavam (late), Punjab Kesari(IANS) Nepal 5.3 quake. Duplicate: V6 Gold Man (covered 23 Nov). Skipped old: DC egg bail (23 Nov 17:08), DC fake encounter (23 Nov 23:21), ThePrint Jwala (23 Nov), TV9 526 posts (13 Nov), DC KRMB panel (21 Nov), Siasat PACS (20 Nov). Not found by search: TOI KRMB 9 TMC, The Hindu Sigachi, TNIE PACS/DSC/CID/forester, TOI TIDCO, Vijayawada mayor (Hindu). District searches: Karimnagar, Nellore, Khammam, Siddipet/Medak, Kakinada/Konaseema, Prakasam (few in-window items). lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7878,6 +7878,86 @@
    "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/revanth-reddy-accuses-kishan-reddy-of-blocking-hyderabad-metro-expansion-slams-previous-kcr-govt-suchi-1532957.html",
    "d": "2026-11-24",
    "w": "old"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/vizianagaram-four-killed-in-jeep-lorry-collision-near-bhogapuram-2007393",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/palnadu-ayyappa-devotees-car-accident-1579316.html",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/telangana-high-court-rejects-anticipatory-bail-pleas-in-illegal-egg-collection-cases-2567611",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/cherlapalliraxaulsecunderabadtirupatispecialtrains-1579310.html",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/tgcsb-cautions-public-against-black-friday-sale-fraud-3585183/",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/intermittent-rain-lashes-several-parts-of-prakasam-district-2007391",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/cm-chandrababu-to-attend-121-kg-gold-jewellery-donation-to-tirumala-temple-1579228.html",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://thenewsmill.com/2026/11/lakshadeepotsavam-and-pushkarini-harathi-held-at-srisailam-temple/",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://english.punjabkesari.com/india/53-magnitude-earthquake-hits-nepal-tremors-felt-across-parts-of-india/",
+   "d": "2026-11-24",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/illegal-egg-harvesting-case-telangana-high-court-dismisses-doctors-anticipatory-bail-pleas-2007156",
+   "d": "2026-11-24",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/25-years-after-fake-encounter-hc-awards-2-lakh-to-widow-refuses-fir-2007303",
+   "d": "2026-11-24",
+   "w": "skipped"
+  },
+  {
+   "url": "https://theprint.in/defence/india-successfully-test-fires-jwala-mk-1-small-cost-effective-smart-anti-drone-missile-from-pvt-sector/3106401/",
+   "d": "2026-11-24",
+   "w": "skipped"
+  },
+  {
+   "url": "https://tv9telugu.com/career-jobs/telangana-to-recruit-526-assistant-professors-notification-expected-on-december-1-1957053.html",
+   "d": "2026-11-24",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/krmb-panel-to-meet-on-monday-over-telanganaap-krishna-water-sharing-amid-row-over-palnadu-tunnel-project-2006730",
+   "d": "2026-11-24",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-hc-voids-nominated-pacs-posts-orders-polls-in-two-weeks-3582035/",
+   "d": "2026-11-24",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.v6velugu.com/%C2%A0it-department-attaches-gold-man%E2%80%99s-raidurg-building-under-benami-act-seizes-700-grams-of-gold",
+   "d": "2026-11-24",
+   "w": "duplicate"
   }
  ]
 }
