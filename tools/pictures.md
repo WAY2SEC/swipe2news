@@ -52,6 +52,7 @@ Temples, district landmarks (d/), c/devotional, world cities (w/) and gold/silve
 Deaths/killings → e/remembrance-and-condolence (same as n/condolence). Do NOT use an e/ picture that shows an Indian landmark on a Nigerian/foreign story.
 
 ### Exact picture for common stories (owner 21 Nov 2026: "use the exact images") – REQUIRED for new stories
+**No exact picture → `"pic":"logo"` (owner 24 Nov 2026: "if you do not have any image, don't use anyone – just use our logo").** Use an e/ scene only when a reader seeing ONLY the picture would guess this event. A near miss is wrong: an anti-drug padayatra is not a counselling clinic, a minister's meeting is not a hospital, a festival is not a protest. When in doubt → "logo" (the app shows the Swipe2News logo card, no "AI picture" label). Party/organisation logo pictures still count as exact when the rules below say so.
 Old generic keys (c/…, n/…, cv/…, s/…) are no longer accepted for new stories: pick the e/ scene that shows THIS event.
 - arrest, murder, theft, gang, police case → e/police-investigation · burglary → e/house-burglary-investigation · ganja/drugs → e/drug-seizure · missing/kidnapped child → e/missing-person-search
 - ACB/bribe/ED/corruption → e/corruption-investigation · job/investment/OTP fraud → e/financial-scam-awareness · online fraud, piracy, hacking → e/cyber-fraud-complaint

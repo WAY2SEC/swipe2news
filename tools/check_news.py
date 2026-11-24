@@ -13,6 +13,7 @@ HARD_WORDS = {'పట్టివేత': 'పట్టుకున్నార�
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PIC_RX = re.compile(r'^(c|o|i|n|s|cv|w|d|e|m)/([a-z0-9-]+)$')
 def pic_ok(pc):
+    if pc == 'logo': return True  # owner 24 Nov 2026: no exact picture → our logo card
     m = PIC_RX.match(pc or '')
     return bool(m) and any(os.path.exists(os.path.join(ROOT, 'art', m.group(1), m.group(2) + e)) for e in ('.webp', '.jpg'))
 
@@ -46,7 +47,7 @@ def check(d, fix=False):
         pc = s.get('pic')
         if pc and not pic_ok(pc):
             errs.append(f'{tag}: pic "{pc}" is not in tools/pictures.md – pick a real key')
-        elif pc and str(s.get('pub') or '') >= '2026-11-21T21' and not re.match(r'^(e|d|w|m)/|^c/devotional$|^n/(africa|asia|europe|mideast|namerica|friendship|pod)$|^i/', pc):
+        elif pc and pc != 'logo' and str(s.get('pub') or '') >= '2026-11-21T21' and not re.match(r'^(e|d|w|m)/|^c/devotional$|^n/(africa|asia|europe|mideast|namerica|friendship|pod)$|^i/', pc):
             errs.append(f'{tag}: pic "{pc}" is a generic old key – pick the exact e/ scene for this event (tools/pictures.md, "Exact picture for common stories")')
         elif not pc and str(s.get('pub') or '') >= '2026-11-18T18':
             errs.append(f'{tag}: no "pic" – read the story and choose its picture from tools/pictures.md')
