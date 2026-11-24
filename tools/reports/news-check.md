@@ -1,24 +1,23 @@
 # Swipe2News story check
 
-## news.json: 125 stories · 0 to fix · 37 to look at · 0 fixed automatically
-- CHECK: #7 "కిషన్ రెడ్డి పాదయాత్రకు ట్రాఫిక్ మళ్లింప": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #7 "కిషన్ రెడ్డి పాదయాత్రకు ట్రాఫిక్ మళ్లింప": picture line is long (40 letters) – keep stat + statl short so it fits one line
-- CHECK: #8 "కొంపల్లిలో డిఫెన్స్ మద్యం పట్టుకున్నారు": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #14 "హెచ్‌సీఏ లెక్కలు చూపాలి: అర్షద్ అయూబ్": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #15 "హైదరాబాద్‌లో ఘనంగా గురునానక్ జయంతి": picture line is long (41 letters) – keep stat + statl short so it fits one line
-- CHECK: #16 "బేగల్‌ఫెస్ట్‌లో హైదరాబాద్ సంస్థకు స్వర్ణ": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #16 "బేగల్‌ఫెస్ట్‌లో హైదరాబాద్ సంస్థకు స్వర్ణ": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #17 "విజ్ఞాన జ్యోతి సంస్థ 32వ స్నాతకోత్సవం": picture line is long (43 letters) – keep stat + statl short so it fits one line
-- CHECK: #18 "రక్తదాతల సమాఖ్యకు అగర్వాల్ అధ్యక్షుడు": picture line is long (45 letters) – keep stat + statl short so it fits one line
-- CHECK: #19 "హెచ్‌సీఏ లీగ్‌లో సాయిరాజ్ 172 నాటౌట్": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #22 "డీపీఎస్ ఆర్చరీలో కొల్లూర్ స్కూల్ విజేత": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #23 "ఒక్క బ్యాచ్ నీటిపైనే నిషేధం: బిస్లెరీ": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #24 "ప్రభుత్వ బాండ్లకు గిరాకీ తగ్గింది": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #25 "స్నూకర్ ప్రపంచకప్: మెహతాకు 2 గెలుపులు": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #31 "రిపబ్లిక్ డే క్యాంప్‌కు కరీంనగర్ క్యాడెట": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #34 "మార్కెట్ వైస్ చైర్మన్ ఏజాస్‌కు సత్కారం": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #45 "సిరిసిల్ల ప్రమాదంలో కేసీఆర్ సహాయకుడు మృత": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #59 "వెల్లూరులో హ్యూమన్ మెటబాలిక్ ఛాంబర్": picture line is long (35 letters) – keep stat + statl short so it fits one line
+## news.json: 125 stories · 0 to fix · 36 to look at · 0 fixed automatically
+- CHECK: #12 "కిషన్ రెడ్డి పాదయాత్రకు ట్రాఫిక్ మళ్లింప": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #12 "కిషన్ రెడ్డి పాదయాత్రకు ట్రాఫిక్ మళ్లింప": picture line is long (40 letters) – keep stat + statl short so it fits one line
+- CHECK: #13 "కొంపల్లిలో డిఫెన్స్ మద్యం పట్టుకున్నారు": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #19 "హెచ్‌సీఏ లెక్కలు చూపాలి: అర్షద్ అయూబ్": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #20 "హైదరాబాద్‌లో ఘనంగా గురునానక్ జయంతి": picture line is long (41 letters) – keep stat + statl short so it fits one line
+- CHECK: #21 "బేగల్‌ఫెస్ట్‌లో హైదరాబాద్ సంస్థకు స్వర్ణ": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #21 "బేగల్‌ఫెస్ట్‌లో హైదరాబాద్ సంస్థకు స్వర్ణ": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #22 "విజ్ఞాన జ్యోతి సంస్థ 32వ స్నాతకోత్సవం": picture line is long (43 letters) – keep stat + statl short so it fits one line
+- CHECK: #23 "రక్తదాతల సమాఖ్యకు అగర్వాల్ అధ్యక్షుడు": picture line is long (45 letters) – keep stat + statl short so it fits one line
+- CHECK: #24 "హెచ్‌సీఏ లీగ్‌లో సాయిరాజ్ 172 నాటౌట్": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #27 "డీపీఎస్ ఆర్చరీలో కొల్లూర్ స్కూల్ విజేత": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #28 "ఒక్క బ్యాచ్ నీటిపైనే నిషేధం: బిస్లెరీ": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #29 "ప్రభుత్వ బాండ్లకు గిరాకీ తగ్గింది": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #30 "స్నూకర్ ప్రపంచకప్: మెహతాకు 2 గెలుపులు": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #36 "రిపబ్లిక్ డే క్యాంప్‌కు కరీంనగర్ క్యాడెట": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #39 "మార్కెట్ వైస్ చైర్మన్ ఏజాస్‌కు సత్కారం": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #50 "సిరిసిల్ల ప్రమాదంలో కేసీఆర్ సహాయకుడు మృత": headline is 41 characters – may not fit one line (keep ≤ 38)
 - CHECK: #63 "భూపాలపల్లిలో వడ్లు వెంటనే కొనాలి: గండ్ర": picture line is long (35 letters) – keep stat + statl short so it fits one line
 - CHECK: #64 "ఏపీలో 3,191 సర్పంచ్ పదవులకు 26న పోలింగ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
 - CHECK: #66 "ఖాజీపేట మిడుతూరులో నామినేషన్ల ఘర్షణ": picture line is long (35 letters) – keep stat + statl short so it fits one line
@@ -40,31 +39,31 @@
 - CHECK: #125 "కర్లపాలెం నగల చోరీ: నలుగురు అరెస్ట్": picture line is long (37 letters) – keep stat + statl short so it fits one line
 
 ### Pictures needed (create in your image tool, send to Claude)
-- **Industry & Factories** – 2 story(ies), e.g. "ఒక్క బ్యాచ్ నీటిపైనే నిషేధం: బిస్లెరీ". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
-## archive/2026-11-24.json: 130 stories · 0 to fix · 23 to look at · 0 fixed automatically
-- CHECK: #7 "కిషన్ రెడ్డి పాదయాత్రకు ట్రాఫిక్ మళ్లింప": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #7 "కిషన్ రెడ్డి పాదయాత్రకు ట్రాఫిక్ మళ్లింప": picture line is long (40 letters) – keep stat + statl short so it fits one line
-- CHECK: #8 "కొంపల్లిలో డిఫెన్స్ మద్యం పట్టుకున్నారు": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #14 "హెచ్‌సీఏ లెక్కలు చూపాలి: అర్షద్ అయూబ్": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #15 "హైదరాబాద్‌లో ఘనంగా గురునానక్ జయంతి": picture line is long (41 letters) – keep stat + statl short so it fits one line
-- CHECK: #16 "బేగల్‌ఫెస్ట్‌లో హైదరాబాద్ సంస్థకు స్వర్ణ": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #16 "బేగల్‌ఫెస్ట్‌లో హైదరాబాద్ సంస్థకు స్వర్ణ": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #17 "విజ్ఞాన జ్యోతి సంస్థ 32వ స్నాతకోత్సవం": picture line is long (43 letters) – keep stat + statl short so it fits one line
-- CHECK: #18 "రక్తదాతల సమాఖ్యకు అగర్వాల్ అధ్యక్షుడు": picture line is long (45 letters) – keep stat + statl short so it fits one line
-- CHECK: #19 "హెచ్‌సీఏ లీగ్‌లో సాయిరాజ్ 172 నాటౌట్": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #22 "డీపీఎస్ ఆర్చరీలో కొల్లూర్ స్కూల్ విజేత": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #23 "ఒక్క బ్యాచ్ నీటిపైనే నిషేధం: బిస్లెరీ": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #24 "ప్రభుత్వ బాండ్లకు గిరాకీ తగ్గింది": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #25 "స్నూకర్ ప్రపంచకప్: మెహతాకు 2 గెలుపులు": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #31 "రిపబ్లిక్ డే క్యాంప్‌కు కరీంనగర్ క్యాడెట": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #34 "మార్కెట్ వైస్ చైర్మన్ ఏజాస్‌కు సత్కారం": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #45 "సిరిసిల్ల ప్రమాదంలో కేసీఆర్ సహాయకుడు మృత": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #59 "వెల్లూరులో హ్యూమన్ మెటబాలిక్ ఛాంబర్": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #93 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #93 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #95 "హైదరాబాద్ మెట్రో రుణం తెలియదన్న వైష్ణవ్": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #98 "సైబర్ మోసాలపై బ్యాంకులతో ఏపీ సీఐడీ భేటీ": picture line is long (47 letters) – keep stat + statl short so it fits one line
-- CHECK: #99 "డిసెంబర్ 16న బంగ్లాదేశ్‌కు వెళ్తా: హసీనా": picture line is long (40 letters) – keep stat + statl short so it fits one line
+- **Industry & Factories** – 1 story(ies), e.g. "ఒక్క బ్యాచ్ నీటిపైనే నిషేధం: బిస్లెరీ". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
+## archive/2026-11-24.json: 135 stories · 0 to fix · 23 to look at · 0 fixed automatically
+- CHECK: #12 "కిషన్ రెడ్డి పాదయాత్రకు ట్రాఫిక్ మళ్లింప": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #12 "కిషన్ రెడ్డి పాదయాత్రకు ట్రాఫిక్ మళ్లింప": picture line is long (40 letters) – keep stat + statl short so it fits one line
+- CHECK: #13 "కొంపల్లిలో డిఫెన్స్ మద్యం పట్టుకున్నారు": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #19 "హెచ్‌సీఏ లెక్కలు చూపాలి: అర్షద్ అయూబ్": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #20 "హైదరాబాద్‌లో ఘనంగా గురునానక్ జయంతి": picture line is long (41 letters) – keep stat + statl short so it fits one line
+- CHECK: #21 "బేగల్‌ఫెస్ట్‌లో హైదరాబాద్ సంస్థకు స్వర్ణ": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #21 "బేగల్‌ఫెస్ట్‌లో హైదరాబాద్ సంస్థకు స్వర్ణ": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #22 "విజ్ఞాన జ్యోతి సంస్థ 32వ స్నాతకోత్సవం": picture line is long (43 letters) – keep stat + statl short so it fits one line
+- CHECK: #23 "రక్తదాతల సమాఖ్యకు అగర్వాల్ అధ్యక్షుడు": picture line is long (45 letters) – keep stat + statl short so it fits one line
+- CHECK: #24 "హెచ్‌సీఏ లీగ్‌లో సాయిరాజ్ 172 నాటౌట్": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #27 "డీపీఎస్ ఆర్చరీలో కొల్లూర్ స్కూల్ విజేత": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #28 "ఒక్క బ్యాచ్ నీటిపైనే నిషేధం: బిస్లెరీ": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #29 "ప్రభుత్వ బాండ్లకు గిరాకీ తగ్గింది": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #30 "స్నూకర్ ప్రపంచకప్: మెహతాకు 2 గెలుపులు": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #36 "రిపబ్లిక్ డే క్యాంప్‌కు కరీంనగర్ క్యాడెట": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #39 "మార్కెట్ వైస్ చైర్మన్ ఏజాస్‌కు సత్కారం": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #50 "సిరిసిల్ల ప్రమాదంలో కేసీఆర్ సహాయకుడు మృత": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #64 "వెల్లూరులో హ్యూమన్ మెటబాలిక్ ఛాంబర్": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #98 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #98 "కృష్ణా డెల్టాకు అదనపు నీరు ఇవ్వం: తెలంగా": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #100 "హైదరాబాద్ మెట్రో రుణం తెలియదన్న వైష్ణవ్": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #103 "సైబర్ మోసాలపై బ్యాంకులతో ఏపీ సీఐడీ భేటీ": picture line is long (47 letters) – keep stat + statl short so it fits one line
+- CHECK: #104 "డిసెంబర్ 16న బంగ్లాదేశ్‌కు వెళ్తా: హసీనా": picture line is long (40 letters) – keep stat + statl short so it fits one line
 
 ### Pictures needed (create in your image tool, send to Claude)
 - **Industry & Factories** – 3 story(ies), e.g. "ఒక్క బ్యాచ్ నీటిపైనే నిషేధం: బిస్లెరీ". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
