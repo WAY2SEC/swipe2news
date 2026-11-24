@@ -55,6 +55,8 @@ Deaths/killings → e/remembrance-and-condolence (same as n/condolence). Do NOT 
 **No exact picture → `"pic":"logo"` (owner 24 Nov 2026: "if you do not have any image, don't use anyone – just use our logo").** Use an e/ scene only when a reader seeing ONLY the picture would guess this event. A near miss is wrong: an anti-drug padayatra is not a counselling clinic, a minister's meeting is not a hospital, a festival is not a protest. When in doubt → "logo" (the app shows the Swipe2News logo card, no "AI picture" label). Party/organisation logo pictures still count as exact when the rules below say so.
 Old generic keys (c/…, n/…, cv/…, s/…) are no longer accepted for new stories: pick the e/ scene that shows THIS event.
 - arrest, murder, theft, gang, police case → e/police-investigation · burglary → e/house-burglary-investigation · ganja/drugs → e/drug-seizure · missing/kidnapped child → e/missing-person-search
+- ANY ATM story (owner 24 Nov 2026: "if any ATM news use this image") – ATM theft/loot attempt, ATM broken, no cash, ATM out of service, ATM card/skimming fraud at an ATM → e/atm-out-of-service
+- walking campaigns (owner 24 Nov 2026) – walkathon, awareness walk, health walk, "walk for …", morning-walk drive → e/walking-campaign (street, crowd at sunrise) or e/morning-walk-jog (park path, walkers and joggers) · running campaigns – 2K/5K/10K run, marathon, Run for Unity, fun run, run against drugs → e/running-campaign. A political padayatra or party rally is NOT a fitness walk → party picture / e/political-campaign-rally / "logo"
 - ACB/bribe/ED/corruption → e/corruption-investigation · job/investment/OTP fraud → e/financial-scam-awareness · online fraud, piracy, hacking → e/cyber-fraud-complaint
 - court verdict, bail, High Court → e/court-hearing · consumer forum → e/consumer-complaint · land dispute → e/land-dispute-mediation
 - fire → e/fire-service-response · road accident/collision → e/road-accident-response · train accident → e/railway-accident-response · building collapse → e/building-collapse-rescue
@@ -119,13 +121,13 @@ e/cyclone-coastal-warning · e/heavy-monsoon-rain · e/heatwave-afternoon · e/d
 e/lake-pollution · e/river-cleanup · e/tree-plantation · e/air-pollution · e/waste-segregation · e/plastic-waste-collection · e/forest-conservation · e/wildlife-rescue · e/stray-cattle-on-roads · e/rainwater-harvesting · e/unauthorized-sand-mining
 
 ### Business Economy and Money
-e/stock-market-movement · e/gold-and-silver-prices · e/inflation-and-groceries · e/banking-services · e/digital-payments · e/small-business-shop · e/industrial-production · e/housing-and-real-estate · e/fuel-price-concern · e/imports-and-exports · e/bank-loan-consultation
+e/stock-market-movement · e/gold-and-silver-prices · e/inflation-and-groceries · e/banking-services · e/digital-payments · e/small-business-shop · e/industrial-production · e/housing-and-real-estate · e/fuel-price-concern · e/imports-and-exports · e/bank-loan-consultation · e/atm-out-of-service
 
 ### Technology Science and Media
 e/artificial-intelligence · e/mobile-network-coverage · e/data-privacy · e/space-rocket-launch · e/satellite-communication · e/scientific-research · e/electric-mobility-technology · e/digital-newsroom · e/misinformation-verification · e/robotics-training
 
 ### Sports and Fitness
-e/cricket-match · e/badminton-tournament · e/kabaddi-match · e/football-practice · e/volleyball-match · e/athletics-race · e/wrestling-training · e/chess-tournament · e/community-yoga · e/rural-sports-ground
+e/cricket-match · e/badminton-tournament · e/kabaddi-match · e/football-practice · e/volleyball-match · e/athletics-race · e/wrestling-training · e/chess-tournament · e/community-yoga · e/rural-sports-ground · e/walking-campaign · e/morning-walk-jog · e/running-campaign
 
 ### Culture Entertainment and Heritage
 e/bathukamma-celebration · e/bonalu-procession · e/sankranti-village-festival · e/ugadi-family-celebration · e/diwali-lamps · e/eid-community-gathering · e/christmas-community-celebration · e/telugu-cinema-screening · e/classical-dance-performance · e/handloom-weaving
