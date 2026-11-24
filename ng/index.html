@@ -64,7 +64,7 @@ p.sum{font:400 16px/1.6 var(--tx);color:var(--ink)}
 <body>
 <header>
   <a class="brand" href="/ng/" aria-label="Swipe2News Nigeria"><img src="/art/logo.svg" alt=""><span>swipe2news<i>.</i></span></a>
-  <button class="ed" id="ed" type="button" aria-haspopup="dialog">🇳🇬 Nigeria <span class="beta">BETA</span> ▾</button>
+  <button class="ed" id="ed" type="button" aria-haspopup="dialog" aria-label="Choose your country">🇳🇬 Nigeria <span class="beta">BETA</span> ▾</button>
 </header>
 <nav class="chips" id="chips" aria-label="Sections"></nav>
 <main id="stage"><div class="empty" id="msg">Loading Nigeria news…</div></main>
@@ -75,10 +75,10 @@ p.sum{font:400 16px/1.6 var(--tx);color:var(--ink)}
   <button class="next" id="next" type="button">Next ›</button>
 </div>
 <div class="sheet" id="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="shT"><div>
-  <h2 id="shT">Choose your edition</h2>
-  <p>Swipe2News Nigeria is in testing. Your choice is saved on this phone.</p>
-  <button class="opt" type="button" data-ed="ng" aria-current="true">🇳🇬<span>Nigeria<small>English · Nigeria and world news</small></span></button>
-  <button class="opt" type="button" data-ed="in">🇮🇳<span>Telangana &amp; Andhra Pradesh<small>తెలుగు · English · हिन्दी</small></span></button>
+  <h2 id="shT">Choose your country</h2>
+  <p>We show the news for the country you pick. Your choice is saved on this phone. (Nigeria is in testing.)</p>
+  <button class="opt" type="button" data-ed="ng" aria-current="true">🇳🇬<span>Nigeria<small>English · Nigerian and world news</small></span></button>
+  <button class="opt" type="button" data-ed="in">🇮🇳<span>India<small>Telangana &amp; Andhra Pradesh · తెలుగు · English · हिन्दी</small></span></button>
   <button class="opt" type="button" data-close style="justify-content:center">Close</button>
 </div></div>
 <div class="toast" id="toast" role="status"></div>
