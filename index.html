@@ -3436,6 +3436,19 @@ async function openDates(){
   if(DATES.length){ $('datePick').min=DATES[DATES.length-1].iso; $('datePick').max=DATES[0].iso; }
   $('dateList').innerHTML = DATES.length ? DATES.map(d=>`<button class="opt" type="button" data-iso="${d.iso}"><b>📅 ${esc(teDay(d.iso))}</b><small>${d.count} వార్తలు · ${esc(d.date)}</small></button>`).join('') : '<p class="sub">ఇంకా పాత వార్తలు లేవు.</p>';
 }
+/* alert / shared link to a story that has left the live list (user, 25 Nov 2026: "it should take to the actual alert news only"):
+   look for it in the last 7 days of the archive and open that exact story */
+async function findOld(id){
+  try{
+    const r=await fetch('archive/index.json?t='+Date.now(),{cache:'no-store'}); if(!r.ok) return false;
+    const days=((await r.json()).dates||[]).slice(0,7);
+    for(const d of days){
+      try{ const a=await fetch(`archive/${d.iso}.json`,{cache:'no-store'}); if(!a.ok) continue;
+        const j=await a.json(); if((j.stories||[]).some(x=>sid(x)===id)) return await showDay(d.iso, id); }catch(e){}
+    }
+  }catch(e){}
+  return false;
+}
 async function showDay(iso, jump){
   try{
     const r=await fetch(`archive/${iso}.json?t=`+Date.now(),{cache:'no-store'}); if(!r.ok) throw 0;
@@ -3510,6 +3523,7 @@ async function load(){
   else if(q.has('contact') && !load.done){ load.done=1; setTimeout(openContact,300); }
   else if(q.has('jobs') && !load.done){ load.done=1; JUMP=qs; setView('jobs'); }
   else if(q.has('wishes') && !load.done && wishTab()){ load.done=1; JUMP=qs; section='wishes'; setView('home'); }
+  else if(qs && !load.done && !NEWS.stories.some(x=>sid(x)===qs) && await findOld(qs)){ load.done=1; }
   else if(qs && !load.done){ load.done=1; JUMP=qs; renderFeed();
     // opened from Chrome on iPhone to send the picture: Safari can share pictures, so show the one-tap share screen
     if(q.has('sharecard') && LIST[cur]){ const b=await timeout(prepCard(),8000); if(b) showCardImage(b, shareText(LIST[cur]), ''); } }
