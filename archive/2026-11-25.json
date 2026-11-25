@@ -1,8 +1,438 @@
 {
  "date": "25.11.2026",
  "iso": "2026-11-25",
- "count": 152,
+ "count": 161,
  "stories": [
+  {
+   "cat": "ఖమ్మం · ప్రమాదం",
+   "col": "--c-city",
+   "pic": "e/industrial-safety-incident",
+   "stat": "20 మంది",
+   "statl": "ఆసుపత్రిలో చేరారు",
+   "h": "ఖమ్మంలో గ్యాస్ లీక్, 20 మంది ఆసుపత్రికి",
+   "p": "ఖమ్మం ఏదులాపురం క్రాస్‌రోడ్స్ వద్ద బుధవారం ఒక సిలిండర్ నుంచి రసాయన వాయువు లీక్ అయింది. చుట్టుపక్కల ఉన్న సుమారు 20 మందికి ఊపిరి తీసుకోవడం కష్టమై ఆసుపత్రిలో చేరారు. చికిత్స తర్వాత అందరినీ ఇంటికి పంపారని, ఎవరికీ తీవ్ర ఇబ్బంది లేదని ఖమ్మం రూరల్ పోలీసులు తెలిపారు. సిలిండర్‌లో ఏ రసాయనం ఉందో ఇంకా తేలలేదు.",
+   "pts": [
+    "జేసీబీ గ్యారేజీ బయట కొన్ని రోజులుగా సిలిండర్ ఉంది",
+    "జేసీబీతో కదిలిస్తుండగా సిలిండర్ పగిలింది",
+    "పర్యావరణ పరిరక్షణ చట్టం కింద కేసు నమోదు"
+   ],
+   "why": "ఏదులాపురం పరిసరాల్లో ఉండేవారి భద్రతకు సంబంధించిన విషయం ఇది.",
+   "src": "Siasat Daily",
+   "url": "https://www.siasat.com/chemical-gas-leaks-out-of-cylinder-in-khammam-20-hospitalised-3586698/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "khammam",
+   "loc": "ఏదులాపురం క్రాస్‌రోడ్స్",
+   "pub": "2026-11-25T19:48+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Khammam · Accident",
+    "stat": "20 people",
+    "statl": "taken to hospital",
+    "loc": "Edulapuram crossroads, Khammam",
+    "h": "Khammam gas leak sends 20 to hospital",
+    "p": "A chemical gas leaked from a cylinder at Edulapuram crossroads in Khammam on Wednesday. About 20 people nearby had breathing trouble and were admitted to hospital. Khammam Rural police said all were sent home after treatment and no one was seriously affected. What chemical was in the cylinder is not yet known.",
+    "pts": [
+     "Cylinder lay outside a JCB repair garage for days",
+     "It burst while being moved with a JCB",
+     "Case registered under the Environment (Protection) Act"
+    ],
+    "why": "It concerns the safety of people living around Edulapuram."
+   },
+   "hi": {
+    "cat": "खम्मम · हादसा",
+    "stat": "20 लोग",
+    "statl": "अस्पताल में भर्ती हुए",
+    "loc": "एदुलापुरम चौराहा, खम्मम",
+    "h": "खम्मम में गैस रिसाव, 20 लोग अस्पताल पहुंचे",
+    "p": "खम्मम के एदुलापुरम चौराहे पर बुधवार को एक सिलेंडर से रासायनिक गैस का रिसाव हुआ। आसपास के करीब 20 लोगों को सांस लेने में तकलीफ हुई और उन्हें अस्पताल में भर्ती किया गया। खम्मम रूरल पुलिस के अनुसार इलाज के बाद सभी को घर भेज दिया गया और किसी की हालत गंभीर नहीं है। सिलेंडर में कौन सा रसायन था, यह अभी पता नहीं चला है।",
+    "pts": [
+     "सिलेंडर कई दिन से जेसीबी गैराज के बाहर पड़ा था",
+     "जेसीबी से हटाते समय सिलेंडर फट गया",
+     "पर्यावरण संरक्षण अधिनियम के तहत मामला दर्ज"
+    ],
+    "why": "यह एदुलापुरम के आसपास रहने वालों की सुरक्षा से जुड़ा मामला है।"
+   },
+   "d": "25.11.2026",
+   "t": "20:05",
+   "art": ""
+  },
+  {
+   "cat": "హైదరాబాద్ · ప్రమాదం",
+   "col": "--c-city",
+   "pic": "e/road-accident-response",
+   "stat": "ఒకరు మృతి",
+   "statl": "మాదాపూర్ బైక్ ప్రమాదంలో",
+   "h": "మాదాపూర్‌లో బైక్ ప్రమాదం, యువతి మృతి",
+   "p": "హైదరాబాద్ మాదాపూర్ సీఐఐ జంక్షన్ వద్ద బుధవారం తెల్లవారుజామున సుమారు ఒంటి గంటకు బైక్ డివైడర్‌ను, ఆ తర్వాత చెట్టును ఢీకొంది. వెనుక కూర్చున్న 28 ఏళ్ల యువతి తలకు తీవ్ర గాయాలై మృతి చెందారు. బైక్‌ను వేగంగా నడపడంతో అదుపు తప్పిందని ఆరోపణ. మాదాపూర్ పోలీసులు కేసు నమోదు చేసి దర్యాప్తు చేస్తున్నారు.",
+   "pts": [
+    "బైక్ నడిపింది 28 ఏళ్ల సాఫ్ట్‌వేర్ ఉద్యోగి",
+    "స్నేహితుడి ఇంట్లో భోజనం చేసి కొండాపూర్ వెళ్తుండగా ప్రమాదం",
+    "స్నేహితుడి ఫిర్యాదుతో కేసు నమోదు"
+   ],
+   "why": "రాత్రి వేళ ఐటీ కారిడార్ రోడ్లపై ప్రయాణించేవారి భద్రతకు సంబంధించిన ఘటన ఇది.",
+   "src": "Siasat Daily",
+   "url": "https://www.siasat.com/madhapur-bike-rams-into-road-divider-woman-riding-pillion-dies-3586761/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "rangareddy",
+   "loc": "మాదాపూర్",
+   "pub": "2026-11-25T19:41+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Accident",
+    "stat": "One dead",
+    "statl": "in Madhapur bike crash",
+    "loc": "Madhapur",
+    "h": "Madhapur: bike hits divider, woman dies",
+    "p": "A motorcycle hit a road divider and then a tree at CII Junction in Madhapur, Hyderabad, around 1 am on Wednesday. The 28-year-old woman riding pillion suffered severe head injuries and died. The bike was allegedly being ridden at high speed and went out of control. Madhapur police have registered a case and are investigating.",
+    "pts": [
+     "The rider is a 28-year-old software employee",
+     "They were heading to Kondapur after dinner at a friend's home",
+     "Case registered on a friend's complaint"
+    ],
+    "why": "It concerns the safety of people travelling on IT corridor roads at night."
+   },
+   "hi": {
+    "cat": "हैदराबाद · हादसा",
+    "stat": "एक की मौत",
+    "statl": "माधापुर बाइक हादसे में",
+    "loc": "माधापुर",
+    "h": "माधापुर: बाइक डिवाइडर से टकराई, युवती की मौत",
+    "p": "हैदराबाद के माधापुर में सीआईआई जंक्शन पर बुधवार तड़के करीब एक बजे एक बाइक डिवाइडर और फिर पेड़ से टकरा गई। पीछे बैठी 28 वर्षीय युवती के सिर में गंभीर चोटें आईं और उनकी मौत हो गई। आरोप है कि बाइक तेज रफ्तार में थी और बेकाबू हो गई। माधापुर पुलिस ने मामला दर्ज कर जांच शुरू की है।",
+    "pts": [
+     "बाइक 28 वर्षीय सॉफ्टवेयर कर्मचारी चला रहा था",
+     "दोस्त के घर खाना खाकर कोंडापुर जा रहे थे",
+     "एक दोस्त की शिकायत पर मामला दर्ज"
+    ],
+    "why": "यह रात में आईटी कॉरिडोर की सड़कों पर चलने वालों की सुरक्षा से जुड़ी घटना है।"
+   },
+   "d": "25.11.2026",
+   "t": "20:05",
+   "art": ""
+  },
+  {
+   "cat": "సంగారెడ్డి · ప్రమాదం",
+   "col": "--c-city",
+   "pic": "e/remembrance-and-condolence",
+   "stat": "ఒకరు మృతి",
+   "statl": "చెరకు ట్రాక్టర్ ప్రమాదంలో",
+   "h": "సంగారెడ్డిలో ట్రాక్టర్ కింద కూలీ మృతి",
+   "p": "సంగారెడ్డి జిల్లా ఝరాసంగం మండలం బర్దీపూర్‌లో బుధవారం చెరకు లోడుతో వెళ్తున్న ట్రాక్టర్ 65 ఏళ్ల కూలీ మీద నుంచి వెళ్లింది. ఆయన అక్కడికక్కడే మృతి చెందారు. ఒక రైతు పొలంలో చెరకు కోత జరుగుతుండగా మిగిలిన చెరకు ఏరుకుంటున్న సమయంలో ఈ ప్రమాదం జరిగింది. డ్రైవర్ నిర్లక్ష్యమే కారణమని ఆరోపణ. పోలీసులు కేసు నమోదు చేశారు.",
+   "pts": [],
+   "why": "చెరకు కోతల సమయంలో పొలాల్లో పనిచేసే కూలీల భద్రతకు సంబంధించిన ఘటన ఇది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/tractor-runs-over-labourer-in-sangareddy",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "sangareddy",
+   "loc": "బర్దీపూర్, ఝరాసంగం మండలం",
+   "pub": "2026-11-25T19:42+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Sangareddy · Accident",
+    "stat": "One dead",
+    "statl": "in sugarcane tractor accident",
+    "loc": "Bardipur, Jharasangam mandal",
+    "h": "Sangareddy: sugarcane tractor runs over labourer",
+    "p": "A tractor carrying harvested sugarcane ran over a 65-year-old labourer at Bardipur in Jharasangam mandal of Sangareddy district on Wednesday. He died on the spot. He was collecting leftover cane in a farmer's field while harvesting was under way. The driver's negligence is alleged to be the cause. Police have registered a case.",
+    "pts": [],
+    "why": "It concerns the safety of labourers working in fields during the sugarcane harvest."
+   },
+   "hi": {
+    "cat": "संगारेड्डी · हादसा",
+    "stat": "एक की मौत",
+    "statl": "गन्ना ट्रैक्टर हादसे में",
+    "loc": "बर्दीपुर, झरासंगम मंडल",
+    "h": "संगारेड्डी: गन्ना ट्रैक्टर से कुचलकर मजदूर की मौत",
+    "p": "संगारेड्डी जिले के झरासंगम मंडल के बर्दीपुर में बुधवार को गन्ने से लदा ट्रैक्टर 65 वर्षीय मजदूर के ऊपर से गुजर गया। उनकी मौके पर ही मौत हो गई। वे एक किसान के खेत में कटाई के दौरान बचा हुआ गन्ना बीन रहे थे। आरोप है कि हादसा चालक की लापरवाही से हुआ। पुलिस ने मामला दर्ज किया है।",
+    "pts": [],
+    "why": "यह गन्ना कटाई के समय खेतों में काम करने वाले मजदूरों की सुरक्षा से जुड़ी घटना है।"
+   },
+   "d": "25.11.2026",
+   "t": "20:05",
+   "art": ""
+  },
+  {
+   "cat": "హైదరాబాద్ · సైబర్ మోసం",
+   "col": "--c-city",
+   "pic": "e/cyber-fraud-complaint",
+   "stat": "₹12.20 లక్షల నష్టం",
+   "statl": "ఓఎల్ఎక్స్ మోసంలో",
+   "h": "ఓఎల్ఎక్స్ మోసంలో ₹12.20 లక్షల నష్టం",
+   "p": "ఓఎల్ఎక్స్‌లో పాత సోఫా అమ్మకానికి పెట్టిన హైదరాబాద్ మహిళ ₹12.20 లక్షలు పోగొట్టుకున్నారని మల్కాజిగిరి సైబర్ క్రైమ్ పోలీసులు తెలిపారు. కొనేవారిలా నటించిన మోసగాళ్లు ముందు చిన్న మొత్తం పంపి నమ్మించారు. తర్వాత క్యూఆర్ కోడ్ స్కాన్ చేయించి, యూపీఐ పిన్ కొట్టించి డబ్బు లాగారు. డబ్బు తీసుకోవడానికి పిన్ అవసరం లేదని పోలీసులు హెచ్చరించారు.",
+   "pts": [
+    "ఫిర్యాదుకు సైబర్ క్రైమ్ హెల్ప్‌లైన్ 1930",
+    "పోలీసులమని బెదిరించి మరింత డబ్బు అడిగారు",
+    "ఓటీపీ, పిన్, పాస్‌వర్డ్ ఎవరికీ చెప్పొద్దు"
+   ],
+   "why": "ఆన్‌లైన్‌లో పాత వస్తువులు అమ్మే ప్రతి ఒక్కరూ ఈ మోసం గురించి తెలుసుకోవాలి.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/malkajgiri-cybercrime-cops-caution-against-olx-fraud",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-25T19:39+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Cyber fraud",
+    "stat": "₹12.20 lakh lost",
+    "statl": "in OLX fraud",
+    "loc": "Hyderabad",
+    "h": "Selling a sofa on OLX, woman loses ₹12.20 lakh",
+    "p": "A Hyderabad woman who listed an old sofa on OLX lost ₹12.20 lakh, Malkajgiri Cyber Crime police said. Fraudsters posing as buyers first sent a small amount to win her trust, then made her scan QR codes and enter her UPI PIN, draining her money. Police warned that no PIN is ever needed to receive money.",
+    "pts": [
+     "Report fraud on cybercrime helpline 1930",
+     "They posed as police and demanded more money",
+     "Never share OTP, PIN or passwords"
+    ],
+    "why": "Anyone selling used goods online should know how this fraud works."
+   },
+   "hi": {
+    "cat": "हैदराबाद · साइबर ठगी",
+    "stat": "₹12.20 लाख की ठगी",
+    "statl": "ओएलएक्स पर",
+    "loc": "हैदराबाद",
+    "h": "ओएलएक्स पर सोफा बेचते ₹12.20 लाख गंवाए",
+    "p": "मलकाजगिरी साइबर क्राइम पुलिस के अनुसार ओएलएक्स पर पुराना सोफा बेचने वाली हैदराबाद की एक महिला ने ₹12.20 लाख गंवा दिए। खरीदार बनकर आए ठगों ने पहले छोटी रकम भेजकर भरोसा जीता, फिर क्यूआर कोड स्कैन कराकर और यूपीआई पिन डलवाकर पैसे निकाल लिए। पुलिस ने चेताया कि पैसे पाने के लिए पिन की जरूरत नहीं होती।",
+    "pts": [
+     "शिकायत के लिए साइबर क्राइम हेल्पलाइन 1930",
+     "पुलिस बनकर धमकाया और और पैसे मांगे",
+     "ओटीपी, पिन, पासवर्ड किसी को न बताएं"
+    ],
+    "why": "ऑनलाइन पुराना सामान बेचने वाले हर व्यक्ति को यह ठगी समझनी चाहिए।"
+   },
+   "d": "25.11.2026",
+   "t": "20:05",
+   "art": ""
+  },
+  {
+   "cat": "నిర్మల్ · సైబర్ మోసం",
+   "col": "--c-city",
+   "pic": "e/cyber-fraud-complaint",
+   "stat": "సైబర్ మోసం",
+   "statl": "బాసర విద్యార్థి కేసులో",
+   "h": "బాసర విద్యార్థికి సైబర్ మోసం: ఎస్పీ",
+   "p": "బాసర ట్రిపుల్ ఐటీలో ఆత్మహత్య చేసుకున్న 18 ఏళ్ల విద్యార్థి సైబర్ మోసగాళ్ల చేతిలో మోసపోయాడని నిర్మల్ ఎస్పీ జానకీ షర్మిల బుధవారం బాసరలో తెలిపారు. అమ్మకు బంగారం కొనడానికి డబ్బు దాచుకుంటూ అతను బంగారు నగల స్కీమ్‌లో చిక్కుకున్నాడని చెప్పారు. బెట్టింగ్ యాప్‌ల వల్లే అన్న సోషల్ మీడియా ప్రచారం నిజం కాదన్నారు. తల్లి ఫిర్యాదుపై కేసు నమోదైంది.",
+   "pts": [
+    "మూడు నెలల క్రితం స్కీమ్‌లో ₹5,000 లాభం వచ్చింది",
+    "విద్యార్థి ఇంజినీరింగ్ రెండో సంవత్సరం చదువుతున్నాడు"
+   ],
+   "why": "ఆన్‌లైన్ స్కీమ్‌ల పేరుతో జరిగే మోసాలపై విద్యార్థులు, తల్లిదండ్రులు జాగ్రత్తగా ఉండాలి.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/rgukt-student-who-ended-life-was-duped-by-cyber-fraudsters",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "nirmal",
+   "loc": "బాసర",
+   "pub": "2026-11-25T19:31+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Nirmal · Cyber fraud",
+    "stat": "Cyber fraud",
+    "statl": "in Basar student death case",
+    "loc": "Basar",
+    "h": "Basar IIIT student was cyber fraud victim: SP",
+    "p": "The 18-year-old RGUKT Basar student who died by suicide had been duped by cyber fraudsters, Nirmal SP Janaki Sharmila said in Basar on Wednesday. She said he was saving to buy gold for his mother and got trapped through a gold jewellery scheme, and denied social media claims that betting apps were the cause. A case has been registered on his mother's complaint.",
+    "pts": [
+     "He had made a ₹5,000 profit in the scheme three months ago",
+     "He was a second-year engineering student"
+    ],
+    "why": "Students and parents need to be careful about frauds run in the name of online schemes."
+   },
+   "hi": {
+    "cat": "निर्मल · साइबर ठगी",
+    "stat": "साइबर ठगी",
+    "statl": "बासर छात्र मौत मामले में",
+    "loc": "बासर",
+    "h": "बासर ट्रिपल आईटी छात्र साइबर ठगी का शिकार: एसपी",
+    "p": "निर्मल की एसपी जानकी शर्मिला ने बुधवार को बासर में कहा कि आत्महत्या करने वाला आरजीयूकेटी बासर का 18 वर्षीय छात्र साइबर ठगों का शिकार हुआ था। उन्होंने बताया कि वह मां के लिए सोना खरीदने को पैसे जोड़ रहा था और सोने के गहनों की एक स्कीम में फंस गया। सट्टेबाजी ऐप वाली सोशल मीडिया की बातों को उन्होंने गलत बताया। मां की शिकायत पर मामला दर्ज हुआ है।",
+    "pts": [
+     "तीन महीने पहले स्कीम में ₹5,000 का मुनाफा हुआ था",
+     "छात्र इंजीनियरिंग के दूसरे वर्ष में था"
+    ],
+    "why": "ऑनलाइन स्कीमों के नाम पर होने वाली ठगी से छात्रों और अभिभावकों को सावधान रहना चाहिए।"
+   },
+   "d": "25.11.2026",
+   "t": "20:05",
+   "art": ""
+  },
+  {
+   "cat": "హైదరాబాద్ · రియల్ ఎస్టేట్",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "e/housing-and-real-estate",
+   "stat": "₹25 లక్షల జరిమానా",
+   "statl": "ఆరో రియాల్టీపై",
+   "h": "ఆరో రియాల్టీకి రెరా ₹25 లక్షల జరిమానా",
+   "p": "హైదరాబాద్ కొండాపూర్‌లోని ఆరో సఫైర్ ప్రాజెక్టును రెరాలో నమోదు చేయకుండానే ఆన్‌లైన్‌లో ప్రచారం చేసినందుకు ఆరో రియాల్టీకి తెలంగాణ రెరా ₹25 లక్షల జరిమానా వేసింది. ప్రీ-లాంచ్ పేరు పెట్టినా నమోదు తప్పనిసరి అని చెప్పింది. నమోదు లేని రెండు ప్రాజెక్టుల ప్రకటనలపై జనప్రియ టౌన్‌షిప్స్‌కు ₹10 లక్షలు, కోర్టు కేసులు దాచినందుకు జీకేహెచ్ ప్రాపర్టీస్‌కు ₹6.10 లక్షల జరిమానా పడింది.",
+   "pts": [
+    "ఆరో సఫైర్: 8 ఎకరాలు, 1,300కు పైగా ఫ్లాట్లు",
+    "జరిమానా 30 రోజుల్లో కట్టాలి"
+   ],
+   "why": "ఫ్లాట్ కొనే ముందు ప్రాజెక్టుకు రెరా నమోదు ఉందో లేదో చూసుకోవడం కొనుగోలుదారులకు ముఖ్యం.",
+   "src": "NewsMeter",
+   "url": "https://newsmeter.in/hyderabad/auro-realty-fined-rs-25-lakh-for-promoting-rs-2-crore-apartments-sans-tg-rera-registration-780003",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "కొండాపూర్",
+   "pub": "2026-11-25T19:57+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Real estate",
+    "stat": "₹25 lakh fine",
+    "statl": "for promotion without RERA registration",
+    "loc": "Kondapur",
+    "h": "TG RERA fines Auro Realty ₹25 lakh",
+    "p": "Telangana RERA has fined Auro Realty ₹25 lakh for promoting its Auro Sapphire project at Kondapur, Hyderabad, online before registering it. It said calling a campaign a pre-launch does not remove the need to register. Janapriya Townships was fined ₹10 lakh for advertising two unregistered projects, and GKH Properties ₹6.10 lakh for not disclosing court cases.",
+    "pts": [
+     "Auro Sapphire: 8 acres, over 1,300 flats",
+     "Penalty to be paid within 30 days"
+    ],
+    "why": "Homebuyers should check a project's RERA registration before booking a flat."
+   },
+   "hi": {
+    "cat": "हैदराबाद · रियल एस्टेट",
+    "stat": "₹25 लाख जुर्माना",
+    "statl": "बिना रेरा पंजीकरण प्रचार पर",
+    "loc": "कोंडापुर",
+    "h": "ऑरो रियल्टी पर रेरा का ₹25 लाख जुर्माना",
+    "p": "तेलंगाना रेरा ने हैदराबाद के कोंडापुर की ऑरो सफायर परियोजना का पंजीकरण से पहले ऑनलाइन प्रचार करने पर ऑरो रियल्टी पर ₹25 लाख का जुर्माना लगाया। उसने कहा कि प्री-लॉन्च नाम देने से पंजीकरण की जरूरत खत्म नहीं होती। दो अपंजीकृत परियोजनाओं के विज्ञापन पर जनप्रिया टाउनशिप्स पर ₹10 लाख और अदालती मामले छिपाने पर जीकेएच प्रॉपर्टीज पर ₹6.10 लाख का जुर्माना लगा।",
+    "pts": [
+     "ऑरो सफायर: 8 एकड़, 1,300 से ज्यादा फ्लैट",
+     "जुर्माना 30 दिन में भरना होगा"
+    ],
+    "why": "फ्लैट बुक करने से पहले खरीदारों को परियोजना का रेरा पंजीकरण जांचना चाहिए।"
+   },
+   "d": "25.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "ఏపీ · వాతావరణం",
+   "col": "--c-water",
+   "art": "rain",
+   "pic": "e/lightning-storm",
+   "stat": "రెండు రోజులు",
+   "statl": "ఏపీలో వర్ష సూచన",
+   "h": "ఏపీలో మరో రెండు రోజులు వర్ష సూచన",
+   "p": "మన్నార్ గల్ఫ్ నుంచి నైరుతి బంగాళాఖాతం వరకు ఉన్న ద్రోణి వల్ల ఏపీలో మరో రెండు రోజులు తేలికపాటి నుంచి మోస్తరు వర్షాలు పడే అవకాశం ఉందని రాష్ట్ర విపత్తుల నిర్వహణ సంస్థ తెలిపింది. పిడుగులు, ఈదురుగాలులు కూడా ఉండొచ్చు. గురువారం తూర్పుగోదావరి, కోనసీమ, బాపట్ల, ప్రకాశం, నెల్లూరు, తిరుపతి, చిత్తూరు, అన్నమయ్య, కడప జిల్లాల్లో వర్షాలు పడవచ్చు.",
+   "pts": [
+    "బుధవారం నాయుడుపేటలో 45.3 మిల్లీమీటర్ల వర్షం",
+    "నెల్లూరు జిల్లా అల్లంపాడులో 41.5 మిల్లీమీటర్లు",
+    "పోలవరం ప్రాంతానికీ గురువారం వర్ష సూచన"
+   ],
+   "why": "గురువారం పంచాయతీ పోలింగ్‌కు వెళ్లే ఓటర్లు, పొలం పనుల్లో ఉండే రైతులు పిడుగుల విషయంలో జాగ్రత్తగా ఉండాలి.",
+   "src": "Namasthe Telangana",
+   "url": "https://www.ntnews.com/andhrapradesh-news/light-to-moderate-rains-expected-in-ap-for-another-two-days-2568899",
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-25T19:53+05:30",
+   "lbl": "forecast",
+   "en": {
+    "cat": "AP · Weather",
+    "stat": "Two more days",
+    "statl": "of rain likely in AP",
+    "loc": "Andhra Pradesh",
+    "h": "Rain likely in AP for two more days",
+    "p": "Light to moderate rain is likely in Andhra Pradesh for two more days because of a trough from the Gulf of Mannar to the southwest Bay of Bengal, the state disaster management authority said. Thunderstorms, lightning and gusty winds are also possible. On Thursday rain is likely in East Godavari, Konaseema, Bapatla, Prakasam, Nellore, Tirupati, Chittoor, Annamayya and Kadapa districts.",
+    "pts": [
+     "Naidupeta recorded 45.3 mm of rain on Wednesday",
+     "Allampadu in Nellore district got 41.5 mm",
+     "Polavaram area also has a rain forecast for Thursday"
+    ],
+    "why": "Voters going to Thursday's panchayat polling and farmers in the fields should be careful about lightning."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · मौसम",
+    "stat": "दो दिन और",
+    "statl": "आंध्र में बारिश के आसार",
+    "loc": "आंध्र प्रदेश",
+    "h": "आंध्र में दो दिन और बारिश के आसार",
+    "p": "राज्य आपदा प्रबंधन संस्था के अनुसार मन्नार की खाड़ी से दक्षिण-पश्चिम बंगाल की खाड़ी तक बनी द्रोणिका के कारण आंध्र प्रदेश में दो दिन और हल्की से मध्यम बारिश हो सकती है। बिजली गिरने और तेज हवाओं की भी संभावना है। गुरुवार को पूर्वी गोदावरी, कोनसीमा, बापटला, प्रकाशम, नेल्लोर, तिरुपति, चित्तूर, अन्नमय्या और कडपा जिलों में बारिश हो सकती है।",
+    "pts": [
+     "बुधवार को नायडुपेटा में 45.3 मिमी बारिश दर्ज",
+     "नेल्लोर जिले के अल्लमपाडु में 41.5 मिमी",
+     "पोलावरम क्षेत्र में भी गुरुवार को बारिश का अनुमान"
+    ],
+    "why": "गुरुवार को पंचायत मतदान के लिए जाने वाले मतदाता और खेतों में काम करने वाले किसान बिजली गिरने से सावधान रहें।"
+   },
+   "d": "25.11.2026",
+   "t": "20:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · నీరు",
+   "col": "--c-water",
+   "art": "water",
+   "pic": "e/drinking-water-scheme",
+   "stat": "రోజూ 10 కోట్ల లీటర్లు",
+   "statl": "మల్లన్నసాగర్ నుంచి",
+   "h": "హైదరాబాద్‌కు మల్లన్నసాగర్ నీటి ట్రయల్",
+   "p": "మల్లన్నసాగర్ నుంచి హైదరాబాద్ జంటనగరాల తాగునీటి కోసం రోజుకు 10 కోట్ల లీటర్ల నీటి సరఫరా ట్రయల్ రన్ జరుగుతోందని మిషన్ భగీరథ ఈఎన్‌సీ కృపాకర్ రెడ్డి తెలిపారు. ఆదివారం మొదలైన ఈ సరఫరా మూడు రోజులుగా సాగుతోంది. శామీర్‌పేట వద్ద సింగూరు పైప్‌లైన్‌కు దీన్ని కలిపారు. ప్రస్తుతం నగరంలో కొంత భాగానికే ఈ నీరు అందుతోంది.",
+   "pts": [
+    "ఇది ట్రయల్ మాత్రమే; శాశ్వత సరఫరాకు ఏర్పాట్లు పూర్తి కావాలి",
+    "ప్రభుత్వ ఆదేశాల మేరకు పనులు జరుగుతున్నాయి"
+   ],
+   "why": "హైదరాబాద్ తాగునీటి సరఫరాకు అదనపు నీరు అందే అవకాశం ఉన్నందున నగర ప్రజలకు ఇది ముఖ్యం.",
+   "src": "BigTV",
+   "url": "https://www.bigtvlive.com/telangana/hyderabad-to-receive-100-mld-drinking-water-from-mallanna-sagar-trial-run-underway.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-25T19:23+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Water",
+    "stat": "100 million litres a day",
+    "statl": "from Mallanna Sagar",
+    "loc": "Hyderabad",
+    "h": "Mallanna Sagar water trial run to Hyderabad",
+    "p": "A trial run to supply 100 million litres of water a day from Mallanna Sagar for the drinking water needs of Hyderabad's twin cities is under way, Mission Bhagiratha ENC Krupakar Reddy said. The supply began on Sunday and has run for three days. It has been linked to the Singur pipeline at Shamirpet. For now the water reaches only a part of the city.",
+    "pts": [
+     "Only a trial; permanent supply needs arrangements to be completed",
+     "Work is being done on government orders"
+    ],
+    "why": "It matters to Hyderabad residents because the city may get additional drinking water."
+   },
+   "hi": {
+    "cat": "हैदराबाद · पानी",
+    "stat": "रोज 10 करोड़ लीटर",
+    "statl": "मल्लन्नासागर से",
+    "loc": "हैदराबाद",
+    "h": "मल्लन्नासागर से हैदराबाद को पानी का ट्रायल रन",
+    "p": "मिशन भगीरथ के ईएनसी कृपाकर रेड्डी ने बताया कि हैदराबाद जुड़वां शहरों के पेयजल के लिए मल्लन्नासागर से रोज 10 करोड़ लीटर पानी की आपूर्ति का ट्रायल रन चल रहा है। रविवार को शुरू हुई यह आपूर्ति तीन दिन से जारी है। इसे शामीरपेट में सिंगूर पाइपलाइन से जोड़ा गया है। फिलहाल यह पानी शहर के कुछ हिस्से तक ही पहुंच रहा है।",
+    "pts": [
+     "यह केवल ट्रायल है; स्थायी आपूर्ति के लिए इंतजाम पूरे होने हैं",
+     "काम सरकार के आदेश पर हो रहा है"
+    ],
+    "why": "हैदराबाद को अतिरिक्त पेयजल मिलने की संभावना के कारण यह शहरवासियों के लिए अहम है।"
+   },
+   "d": "25.11.2026",
+   "t": "20:05"
+  },
   {
    "cat": "యాదాద్రి · ఆలయం",
    "col": "--c-gov",
@@ -20,7 +450,7 @@
    "why": "ఆ రోజు దర్శనానికి వెళ్లే భక్తులు కొత్త సమయాల ప్రకారం ప్రయాణం ప్లాన్ చేసుకోవచ్చు.",
    "src": "యాదగిరిగుట్ట దేవస్థానం (వైటీడీ)",
    "url": "https://swipe2news.com/photos/2026-12-01-yadagirigutta-timings.jpg",
- "doc": "/photos/2026-12-01-yadagirigutta-timings.jpg",
+   "doc": "/photos/2026-12-01-yadagirigutta-timings.jpg",
    "sec": [
     "telangana"
    ],
