@@ -1,0 +1,25 @@
+name: Nigeria phone alerts
+# After each Nigeria news update: one greeting alert with the top Nigerian story (morning / lunch / evening / night, WAT)
+# to /ng/ readers who turned alerts on (OneSignal tag edition=ng). India readers never get these.
+on:
+  push:
+    branches: [main]
+    paths: ['editions/ng/news.json']
+  workflow_dispatch:
+concurrency: { group: push-ng, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  alerts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Send alert
+        env: { ONESIGNAL_REST_KEY: "${{ secrets.ONESIGNAL_REST_KEY }}" }
+        run: python3 tools/ng/push_ng.py
+      - name: Save what was sent
+        run: |
+          git config user.name "Swipe2News Bot"; git config user.email news-bot@swipe2news.invalid
+          git add push/state-ng.json 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "Nigeria alert sent $(TZ=Africa/Lagos date '+%Y-%m-%d %H:%M') WAT"
+          for i in 1 2 3 4; do git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0; sleep 5; done

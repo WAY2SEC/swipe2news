@@ -57,6 +57,12 @@ LANG_FILTERS = {
     'en': [{'field': 'tag', 'key': 'lang', 'relation': '=', 'value': 'en'}],
     'hi': [{'field': 'tag', 'key': 'lang', 'relation': '=', 'value': 'hi'}],
 }
+# Nigeria edition (25 Nov 2026): readers of /ng/ are tagged edition=ng and get only Nigeria alerts (tools/ng/push_ng.py).
+# Every India alert goes to readers with NO edition tag OR edition=in – written with not_exists / "=" (clear meaning in
+# OneSignal) instead of "!=". India readers get edition=in when they open the app (index.html tagUser).
+def india_only(filters):
+    f = [x for x in filters if x.get('operator') is None]
+    return f + [{'field': 'tag', 'key': 'edition', 'relation': 'not_exists'}, {'operator': 'OR'}] + f + [{'field': 'tag', 'key': 'edition', 'relation': '=', 'value': 'in'}]
 HEAD = {'te': {'brk': '🔴 బ్రేకింగ్', 'top': '📰 ముఖ్య వార్త', 'local': '📍 మీ జిల్లా వార్త'},
         'en': {'brk': '🔴 Breaking', 'top': '📰 Top story', 'local': '📍 Your district'},
         'hi': {'brk': '🔴 ब्रेकिंग', 'top': '📰 बड़ी ख़बर', 'local': '📍 आपके ज़िले की ख़बर'}}
@@ -72,7 +78,7 @@ def send(s, kind, key, dry, place=None):
         filters = list(flt)
         if place:
             filters = [{'field': 'tag', 'key': 'place', 'relation': '=', 'value': place}] + filters
-        body = {'app_id': APP_ID, 'target_channel': 'push', 'filters': filters,
+        body = {'app_id': APP_ID, 'target_channel': 'push', 'filters': india_only(filters),
                 'headings': {'en': f"{HEAD[lang][kind]} · {h}"[:90]}, 'contents': {'en': short(p) or h},
                 'url': SITE + '?s=' + sid(s), 'chrome_web_icon': SITE + 'icon-192.png',
                 'chrome_web_badge': SITE + 'icon-192.png', 'web_push_topic': ('top' if kind in GREET.values() else kind) + (place or ''), 'ttl': 6 * 3600}
@@ -102,6 +108,7 @@ LIQ = {'te': {'district': 'మీ ప్రాంతం', 'city': 'మీ నగ
        'en': {'district': 'your area', 'city': 'your city', 'state': 'Telangana and AP'}}
 
 def post(body, label, key, dry):
+    body = dict(body, filters=india_only(body.get('filters') or []))
     if dry or not key:
         print(f'  [{"dry" if dry else "no key"}] {label}: {body["headings"]["en"]} | {body["contents"]["en"][:70]}'); return
     req = urllib.request.Request('https://api.onesignal.com/notifications', data=json.dumps(body).encode(),
@@ -255,7 +262,7 @@ def main():
             top = new[0]
             for lang, flt in LANG_FILTERS.items():
                 hd, pre = JOBTX[lang]; h = (top.get(lang) or {}).get('h') if isinstance(top.get(lang), dict) else None
-                body = {'app_id': APP_ID, 'target_channel': 'push', 'filters': flt, 'headings': {'en': hd},
+                body = {'app_id': APP_ID, 'target_channel': 'push', 'filters': india_only(flt), 'headings': {'en': hd},
                         'contents': {'en': (pre.format(n=len(new)) + (h or top.get('h') or ''))[:160]},
                         'url': SITE + '?jobs', 'chrome_web_icon': SITE + 'icon-192.png', 'web_push_topic': 'jobs', 'ttl': 12 * 3600}
                 if dry or not key:

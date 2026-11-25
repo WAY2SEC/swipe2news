@@ -8,6 +8,7 @@
 <meta name="theme-color" content="#4A0E3F">
 <link rel="icon" href="/art/logo.svg">
 <link rel="manifest" href="/manifest.webmanifest">
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -19,6 +20,8 @@ body{display:flex;flex-direction:column;max-width:520px;margin:0 auto;height:100
 header{display:flex;align-items:center;gap:10px;padding:10px 14px calc(8px);padding-top:max(10px,env(safe-area-inset-top));background:var(--cream);border-bottom:1px solid var(--line)}
 .brand{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--plum);font:800 20px var(--ui);letter-spacing:-.02em}
 .brand img{width:30px;height:30px;border-radius:8px}.brand i{color:var(--apricot);font-style:normal}
+.bell{margin-left:auto;width:38px;height:38px;border-radius:50%;border:1.5px solid var(--line);background:#fff;font-size:17px;cursor:pointer}.bell[aria-pressed=true]{background:var(--apricot);border-color:var(--apricot)}
+.bell:not([hidden])+.ed{margin-left:0}
 .ed{margin-left:auto;display:flex;align-items:center;gap:6px;border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font:700 13px var(--ui);color:var(--plum);cursor:pointer}
 .beta{font:700 10px var(--ui);letter-spacing:.08em;color:var(--deep);background:var(--apricot);border-radius:6px;padding:2px 6px}
 .chips{display:flex;gap:8px;overflow-x:auto;padding:10px 14px;background:var(--cream);scrollbar-width:none}.chips::-webkit-scrollbar{display:none}
@@ -69,6 +72,7 @@ p.sum{font:400 16px/1.6 var(--tx);color:var(--ink)}
 <body>
 <header>
   <a class="brand" href="/ng/" aria-label="Swipe2News Nigeria"><img src="/art/logo.svg" alt=""><span>swipe2news<i>.</i></span></a>
+  <button class="bell" id="bell" type="button" aria-label="Nigeria news alerts" aria-pressed="false" hidden>🔔</button>
   <button class="ed" id="ed" type="button" aria-haspopup="dialog" aria-label="Choose your country">🇳🇬 Nigeria <span class="beta">BETA</span> ▾</button>
 </header>
 <nav class="chips" id="chips" aria-label="Sections"></nav>
@@ -85,6 +89,12 @@ p.sum{font:400 16px/1.6 var(--tx);color:var(--ink)}
   <button class="opt" type="button" data-ed="ng" aria-current="true">🇳🇬<span>Nigeria<small>English · Nigerian and world news</small></span></button>
   <button class="opt" type="button" data-ed="in">🇮🇳<span>India<small>Telangana &amp; Andhra Pradesh · తెలుగు · English · हिन्दी</small></span></button>
   <button class="opt" type="button" data-close style="justify-content:center">Close</button>
+</div></div>
+<div class="sheet" id="ask" hidden role="dialog" aria-modal="true" aria-labelledby="askT"><div>
+  <h2 id="askT">🔔 Get Nigeria news alerts?</h2>
+  <p>A short top story in the morning, at lunch, in the evening and at night – Nigerian news only. Turn off any time.</p>
+  <button class="opt" type="button" id="askYes" style="justify-content:center;background:var(--apricot);border-color:var(--apricot);color:var(--deep)">Turn on alerts</button>
+  <button class="opt" type="button" id="askNo" style="justify-content:center">Not now</button>
 </div></div>
 <div class="toast" id="toast" role="status"></div>
 <script>
@@ -157,6 +167,30 @@ $('sheet').addEventListener('click',e=>{ if(e.target.closest('[data-ed],[data-cl
 $('sheet').onclick=e=>{ const b=e.target.closest('[data-ed],[data-close]'); if(e.target===$('sheet')||(b&&b.dataset.close!==undefined)) return $('sheet').hidden=true;
   if(b&&b.dataset.ed==='in'){ try{ localStorage.setItem('s2n.edition','in'); }catch(x){} location.href='/?ed=in'+(q.has('source')?'&source='+encodeURIComponent(q.get('source')):''); }
   else if(b) $('sheet').hidden=true; };
+/* Nigeria alerts (OneSignal, same app as India): readers here are tagged edition=ng + lang=en, so they get only the
+   Nigeria greetings (tools/ng/push_ng.py) and none of the India alerts. */
+const pushOK=['swipe2news.com','www.swipe2news.com'].includes(location.hostname)&&'serviceWorker' in navigator&&'Notification' in window;
+window.OneSignalDeferred=window.OneSignalDeferred||[];
+const tag=OS=>{ try{ OS.User.addTags({edition:'ng',lang:'en'}); }catch(e){} };
+const bell=on=>{ $('bell').setAttribute('aria-pressed',!!on); };
+if(pushOK){
+  $('bell').hidden=false;
+  OneSignalDeferred.push(async function(OS){
+    await OS.init({ appId:'4f354e28-c33a-4836-8a3a-f25d58b2ba49', serviceWorkerPath:'OneSignalSDKWorker.js', serviceWorkerParam:{ scope:'/' } });
+    bell(OS.Notifications.permission);
+    OS.Notifications.addEventListener('permissionChange',p=>{ bell(p); if(p) tag(OS); });
+    if(OS.Notifications.permission) tag(OS);   // also moves readers who turned alerts on earlier in the India app
+  });
+}
+function askAlerts(){ $('ask').hidden=true; try{ localStorage.setItem('s2n.ng.asked',Date.now()); }catch(e){}
+  if(!pushOK) return; if(Notification.permission==='denied'){ toast('Alerts are blocked – allow notifications for swipe2news.com in settings'); return; }
+  OneSignalDeferred.push(async function(OS){ try{ await OS.Notifications.requestPermission(); }catch(e){} if(OS.Notifications.permission){ tag(OS); toast('🔔 Alerts on – Nigeria news only'); } }); }
+$('bell').onclick=()=>{ if($('bell').getAttribute('aria-pressed')==='true') return toast('Alerts are on ✓'); askAlerts(); };
+$('askYes').onclick=askAlerts;
+$('askNo').onclick=()=>{ $('ask').hidden=true; try{ localStorage.setItem('s2n.ng.asked',Date.now()); }catch(e){} };
+// invite once, after the reader has looked at 2 stories (again after 7 days if they said "Not now")
+let swipes=0; const _go=go; go=function(d){ _go(d); if(++swipes===2&&pushOK&&'Notification' in window&&Notification.permission==='default'){
+  let a=0; try{ a=+localStorage.getItem('s2n.ng.asked')||0; }catch(e){} if(Date.now()-a>7*864e5&&$('sheet').hidden) $('ask').hidden=false; } };
 load();
 })();
 </script>
