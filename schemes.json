@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T11:40:00+05:30",
+ "updated": "2026-11-25T11:40:00+05:30",
  "about": "Welfare schemes for Telangana, Andhra Pradesh and India. Facts from official/reputable sources, checked on the given date. Kept up to date by the schemes task.",
  "schemes": [
   {
@@ -480,11 +480,11 @@
    "cat": "power",
    "amt": "₹78,000",
    "link": "https://pmsuryaghar.gov.in",
-   "src": "SolarQuarter (1 Sep 2026, MNRE guidelines), Energetica India & Mercom (1 Sep 2026)",
+   "src": "SolarQuarter (1 Sep 2026, MNRE guidelines), Energetica India & Mercom (1 Sep 2026); Angel One (29 May 2026, 26 lakh+ installations)",
    "te": {
     "n": "పీఎం సూర్య ఘర్ – ఉచిత విద్యుత్",
     "u": "వరకు సబ్సిడీ",
-    "b": "ఇంటి పైకప్పుపై సోలార్‌కు సబ్సిడీ: 1 kW ₹30,000, 2 kW ₹60,000, 3 kW పైన ₹78,000. నెలకు 300 యూనిట్ల వరకు సొంత కరెంట్. పాత రూఫ్‌టాప్ సోలార్ ఫేజ్-2 దరఖాస్తుల సబ్సిడీ క్లెయిమ్‌కు గడువు 30 నవంబర్ 2026.",
+    "b": "ఇంటి పైకప్పుపై సోలార్‌కు సబ్సిడీ: 1 kW ₹30,000, 2 kW ₹60,000, 3 kW పైన ₹78,000. నెలకు 300 యూనిట్ల వరకు సొంత కరెంట్. పాత రూఫ్‌టాప్ సోలార్ ఫేజ్-2 దరఖాస్తుల సబ్సిడీ క్లెయిమ్‌కు గడువు 30 నవంబర్ 2026. మార్చి 2026 నాటికి 26 లక్షలకు పైగా ఇళ్లలో ఏర్పాటు.",
     "w": "సొంత ఇల్లు, పైకప్పు, తమ పేరు మీద కరెంట్ కనెక్షన్ ఉన్న కుటుంబాలు.",
     "d": "తాజా కరెంట్ బిల్లు, ఆధార్ లింక్ మొబైల్, బ్యాంకు ఖాతా. సోలార్ ప్యానెళ్లు దేశీయంగా తయారైనవే ఉండాలి.",
     "h": "pmsuryaghar.gov.in లో నమోదు → నమోదైన వెండర్‌తో ఏర్పాటు → తనిఖీ తర్వాత సబ్సిడీ బ్యాంకులో జమ. ఆఫ్‌లైన్ దరఖాస్తు లేదు – నకిలీ సైట్ల పట్ల జాగ్రత్త."
@@ -492,7 +492,7 @@
    "en": {
     "n": "PM Surya Ghar – free electricity",
     "u": "subsidy, up to",
-    "b": "Rooftop solar subsidy: ₹30,000 for 1 kW, ₹60,000 for 2 kW, ₹78,000 for 3 kW and above. Up to 300 units of your own power a month. For old Rooftop Solar Phase-II applications, the subsidy claim must reach by 30 November 2026.",
+    "b": "Rooftop solar subsidy: ₹30,000 for 1 kW, ₹60,000 for 2 kW, ₹78,000 for 3 kW and above. Up to 300 units of your own power a month. For old Rooftop Solar Phase-II applications, the subsidy claim must reach by 30 November 2026. Over 26 lakh homes installed by March 2026.",
     "w": "Families with their own house, a rooftop and an electricity connection in their name.",
     "d": "Latest electricity bill, Aadhaar-linked mobile, bank account. Panels must be made in India (domestic cells).",
     "h": "Register on pmsuryaghar.gov.in → install through a registered vendor → subsidy credited after inspection. No offline application – beware of fake sites."
@@ -500,12 +500,12 @@
    "hi": {
     "n": "पीएम सूर्य घर – मुफ़्त बिजली",
     "u": "तक सब्सिडी",
-    "b": "छत पर सोलार के लिए सब्सिडी: 1 kW ₹30,000, 2 kW ₹60,000, 3 kW और ऊपर ₹78,000। पुराने रूफ़टॉप सोलार फ़ेज़-2 आवेदनों का सब्सिडी दावा 30 नवंबर 2026 तक पहुँचना ज़रूरी।",
+    "b": "छत पर सोलार के लिए सब्सिडी: 1 kW ₹30,000, 2 kW ₹60,000, 3 kW और ऊपर ₹78,000। पुराने रूफ़टॉप सोलार फ़ेज़-2 आवेदनों का सब्सिडी दावा 30 नवंबर 2026 तक पहुँचना ज़रूरी। मार्च 2026 तक 26 लाख से ज़्यादा घरों में लगा।",
     "w": "अपना घर, छत और अपने नाम बिजली कनेक्शन वाले परिवार।",
     "d": "ताज़ा बिजली बिल, आधार-लिंक्ड मोबाइल, बैंक खाता। पैनल देश में बने (घरेलू सेल) होने चाहिए।",
     "h": "pmsuryaghar.gov.in पर पंजीकरण; केवल ऑनलाइन।"
    },
-   "checked": "2026-11-20"
+   "checked": "2026-11-25"
   },
   {
    "id": "pmay-gramin",
@@ -514,11 +514,11 @@
    "amt": "₹1.20 లక్షలు",
    "amt_en": "₹1.20 lakh",
    "link": "https://pmayg.nic.in",
-   "src": "Ministry of Rural Development (via Bajaj Finserv, GKToday); PIB backgrounder (31 Mar 2026); DD News (15 Nov 2026)",
+   "src": "Ministry of Rural Development (via Bajaj Finserv, GKToday); PIB backgrounder (31 Mar 2026); DD News (15 Nov 2026); News On AIR (6 Feb 2026, Rajya Sabha reply)",
    "te": {
     "n": "పీఎం ఆవాస్ యోజన – గ్రామీణ",
     "u": "ఇంటికి",
-    "b": "పల్లెల్లో పక్కా ఇల్లు కట్టుకోవడానికి ₹1.20 లక్షల సాయం – నిర్మాణం జరిగే కొద్దీ విడతలుగా నేరుగా ఖాతాలోకి. ఇల్లు కనీసం 25 చ.మీ. ఉండాలి; మరుగుదొడ్డికి ₹12,000 వేరుగా (స్వచ్ఛ భారత్). 2029 నాటికి 4.95 కోట్ల ఇళ్లు లక్ష్యం.",
+    "b": "పల్లెల్లో పక్కా ఇల్లు కట్టుకోవడానికి ₹1.20 లక్షల సాయం – నిర్మాణం జరిగే కొద్దీ విడతలుగా నేరుగా ఖాతాలోకి. ఇల్లు కనీసం 25 చ.మీ. ఉండాలి; మరుగుదొడ్డికి ₹12,000 వేరుగా (స్వచ్ఛ భారత్). 2029 మార్చి నాటికి 4.95 కోట్ల ఇళ్లు లక్ష్యం; ఫిబ్రవరి 2026 నాటికి 3.87 కోట్లు మంజూరు, 2.95 కోట్లు పూర్తి.",
     "w": "గ్రామాల్లో సొంత పక్కా ఇల్లు లేని పేద కుటుంబాలు (ఆవాస్ సర్వే / అర్హుల జాబితాలో పేరు ఉండాలి).",
     "d": "ఆధార్, బ్యాంకు ఖాతా, జాబ్ కార్డు (MGNREGA), స్థలం వివరాలు.",
     "h": "గ్రామ పంచాయతీ / మండల కార్యాలయం; pmayg.nic.in లో పేరు, స్టేటస్ చూడొచ్చు."
@@ -526,7 +526,7 @@
    "en": {
     "n": "PM Awas Yojana – Gramin",
     "u": "per house",
-    "b": "₹1.20 lakh to build a pucca house in a village – paid in instalments into the bank account as construction progresses. Minimum house size 25 sq m; ₹12,000 extra for a toilet (Swachh Bharat). Target: 4.95 crore houses by 2029.",
+    "b": "₹1.20 lakh to build a pucca house in a village – paid in instalments into the bank account as construction progresses. Minimum house size 25 sq m; ₹12,000 extra for a toilet (Swachh Bharat). Target: 4.95 crore houses by March 2029; by February 2026, 3.87 crore sanctioned and 2.95 crore completed.",
     "w": "Poor rural families without a pucca house (must be on the Awaas survey / eligible list).",
     "d": "Aadhaar, bank account, MGNREGA job card, land details.",
     "h": "Gram panchayat / mandal office; check your name and status at pmayg.nic.in."
@@ -534,12 +534,12 @@
    "hi": {
     "n": "पीएम आवास योजना – ग्रामीण",
     "u": "प्रति घर",
-    "b": "गाँव में पक्का घर बनाने के लिए ₹1.20 लाख – निर्माण के हिसाब से किस्तों में खाते में। घर कम से कम 25 वर्ग मीटर; शौचालय के लिए अलग से ₹12,000 (स्वच्छ भारत)। 2029 तक 4.95 करोड़ घरों का लक्ष्य।",
+    "b": "गाँव में पक्का घर बनाने के लिए ₹1.20 लाख – निर्माण के हिसाब से किस्तों में खाते में। घर कम से कम 25 वर्ग मीटर; शौचालय के लिए अलग से ₹12,000 (स्वच्छ भारत)। मार्च 2029 तक 4.95 करोड़ घरों का लक्ष्य; फ़रवरी 2026 तक 3.87 करोड़ मंज़ूर, 2.95 करोड़ पूरे।",
     "w": "गाँवों के बेघर / कच्चे घर वाले गरीब परिवार (आवास सर्वे सूची में नाम ज़रूरी)।",
     "d": "आधार, बैंक खाता, मनरेगा जॉब कार्ड, ज़मीन का विवरण।",
     "h": "ग्राम पंचायत / ब्लॉक कार्यालय; pmayg.nic.in पर स्टेटस।"
    },
-   "checked": "2026-11-20"
+   "checked": "2026-11-25"
   },
   {
    "id": "pmay-urban",
@@ -548,11 +548,11 @@
    "amt": "₹2.5 లక్షల వరకు",
    "amt_en": "Up to ₹2.5 lakh",
    "link": "https://pmay-urban.gov.in",
-   "src": "Organiser (19 Oct 2026), News On AIR (17 Oct 2026); earlier: MoHUA (via GKToday)",
+   "src": "Elets eGov (17 Oct 2026), PIB (9 Aug 2026), Organiser (19 Oct 2026), News On AIR (17 Oct 2026)",
    "te": {
     "n": "పీఎం ఆవాస్ యోజన – అర్బన్ 2.0",
     "u": "ఇంటికి",
-    "b": "పట్టణాల్లో సొంత స్థలంలో ఇల్లు కట్టుకునే పేదలకు ₹2.5 లక్షల వరకు సాయం; గృహ రుణంపై వడ్డీ రాయితీ కూడా ఉంది. అక్టోబర్ 2026లో మరో 1.93 లక్షల ఇళ్లు మంజూరు (తెలంగాణకు 18,120, ఏపీకి 6,560).",
+    "b": "పట్టణాల్లో సొంత స్థలంలో ఇల్లు కట్టుకునే పేదలకు ₹2.5 లక్షల వరకు సాయం; గృహ రుణంపై వడ్డీ రాయితీ కూడా ఉంది. అక్టోబర్ 2026లో మరో 1.93 లక్షల ఇళ్లు మంజూరు (తెలంగాణకు 18,120, ఏపీకి 6,560). ఇప్పటివరకు అర్బన్ 2.0లో 20 లక్షలకు పైగా ఇళ్లు మంజూరు.",
     "w": "పట్టణాల్లో దేశంలో ఎక్కడా పక్కా ఇల్లు లేని కుటుంబాలు – EWS (ఏడాది ఆదాయం ₹3 లక్షల వరకు), LIG (₹3–6 లక్షలు), MIG (₹9 లక్షల వరకు).",
     "d": "ఆధార్, ఆదాయ ధ్రువపత్రం, బ్యాంకు ఖాతా, స్థలం పత్రాలు.",
     "h": "pmay-urban.gov.in లో దరఖాస్తు; లేదా మున్సిపల్ కార్యాలయం."
@@ -560,7 +560,7 @@
    "en": {
     "n": "PM Awas Yojana – Urban 2.0",
     "u": "per house",
-    "b": "Up to ₹2.5 lakh for urban poor building on their own land; interest subsidy on home loans is also available. Another 1.93 lakh houses were sanctioned in October 2026 (Telangana 18,120, Andhra Pradesh 6,560).",
+    "b": "Up to ₹2.5 lakh for urban poor building on their own land; interest subsidy on home loans is also available. Another 1.93 lakh houses were sanctioned in October 2026 (Telangana 18,120, Andhra Pradesh 6,560). Total PMAY-U 2.0 sanctions have now crossed 20 lakh houses.",
     "w": "Urban families with no pucca house anywhere in India – EWS (income up to ₹3 lakh), LIG (₹3–6 lakh), MIG (up to ₹9 lakh).",
     "d": "Aadhaar, income certificate, bank account, land papers.",
     "h": "Apply at pmay-urban.gov.in or the municipal office."
@@ -568,12 +568,12 @@
    "hi": {
     "n": "पीएम आवास योजना – शहरी 2.0",
     "u": "प्रति घर",
-    "b": "शहर में अपनी ज़मीन पर घर बनाने के लिए ₹2.5 लाख तक; होम लोन पर ब्याज सब्सिडी भी। अक्टूबर 2026 में 1.93 लाख और घर मंज़ूर (तेलंगाना 18,120, आंध्र प्रदेश 6,560)।",
+    "b": "शहर में अपनी ज़मीन पर घर बनाने के लिए ₹2.5 लाख तक; होम लोन पर ब्याज सब्सिडी भी। अक्टूबर 2026 में 1.93 लाख और घर मंज़ूर (तेलंगाना 18,120, आंध्र प्रदेश 6,560)। PMAY-U 2.0 में अब तक 20 लाख से ज़्यादा घर मंज़ूर।",
     "w": "शहरी परिवार जिनका देश में कहीं पक्का घर नहीं – EWS (₹3 लाख तक आय), LIG (₹3–6 लाख), MIG (₹9 लाख तक)।",
     "d": "आधार, आय प्रमाणपत्र, बैंक खाता, ज़मीन के कागज़।",
     "h": "pmay-urban.gov.in या नगर पालिका कार्यालय।"
    },
-   "checked": "2026-11-20"
+   "checked": "2026-11-25"
   },
   {
    "id": "pm-ujjwala",
@@ -607,7 +607,7 @@
     "d": "आधार, राशन कार्ड, बैंक खाता, पते का प्रमाण।",
     "h": "pmuy.gov.in या नज़दीकी गैस वितरक।"
    },
-   "checked": "2026-11-20"
+   "checked": "2026-11-25"
   },
   {
    "id": "pm-vishwakarma",
@@ -641,7 +641,7 @@
     "d": "आधार, मोबाइल, बैंक खाता, राशन कार्ड।",
     "h": "नज़दीकी CSC केंद्र पर आधार बायोमेट्रिक से पंजीकरण; pmvishwakarma.gov.in।"
    },
-   "checked": "2026-11-20"
+   "checked": "2026-11-25"
   },
   {
    "id": "pm-mudra",
@@ -1182,6 +1182,72 @@
     "w": "अधिसूचित बारीक धान उगाकर बेचने वाले तेलंगाना के किसान।",
     "d": "पूरी सूची इस जाँच में पुष्टि नहीं – ख़रीद केंद्र / कृषि विस्तार अधिकारी (AEO) से पूछें।",
     "h": "अलग आवेदन घोषित नहीं; धान बेचने के बाद बोनस बैंक खाते में। देरी हो तो AEO / ख़रीद केंद्र से पूछें।"
+   }
+  },
+  {
+   "id": "pm-svanidhi",
+   "st": "IN",
+   "cat": "biz",
+   "amt": "₹15,000–50,000",
+   "link": null,
+   "src": "News On AIR (27 Aug 2025, 30 Mar 2026), Business Standard/PTI (27 Aug 2025)",
+   "checked": "2026-11-25",
+   "te": {
+    "n": "పీఎం స్వనిధి – వీధి వ్యాపారులకు రుణం",
+    "u": "హామీ లేని రుణం",
+    "b": "వీధి వ్యాపారులకు ఎలాంటి హామీ లేకుండా పని మూలధన రుణం: మొదటి విడత ₹15,000, సకాలంలో తీర్చితే రెండో విడత ₹25,000, మూడో విడత ₹50,000. రెండో రుణం సకాలంలో తీర్చినవారికి UPI-లింక్డ్ రూపే క్రెడిట్ కార్డు; డిజిటల్ చెల్లింపులపై ₹1,600 వరకు క్యాష్‌బ్యాక్. పథకం 31 మార్చి 2030 వరకు.",
+    "w": "పట్టణాల్లోని వీధి వ్యాపారులు; ఇప్పుడు సెన్సస్ టౌన్లు, పట్టణ శివారు ప్రాంతాలకూ దశలవారీగా విస్తరణ.",
+    "d": "పత్రాల జాబితా ఈ తనిఖీలో నిర్ధారించలేదు – మీ బ్యాంకు లేదా మున్సిపల్ కార్యాలయంలో అడగండి.",
+    "h": "బ్యాంకుల ద్వారా రుణం ఇస్తారు (కేంద్ర గృహ, పట్టణ వ్యవహారాల శాఖ పథకం). అధికారిక పోర్టల్ ఈ తనిఖీలో నిర్ధారించలేదు – దగ్గరి బ్యాంకు శాఖలో అడగండి."
+   },
+   "en": {
+    "n": "PM SVANidhi – loans for street vendors",
+    "u": "collateral-free loan",
+    "b": "Collateral-free working-capital loans for street vendors: ₹15,000 in the first tranche, ₹25,000 in the second after timely repayment, and ₹50,000 in the third. Those who repay the second loan on time get a UPI-linked RuPay credit card; cashback of up to ₹1,600 on digital payments. Scheme runs till 31 March 2030.",
+    "w": "Urban street vendors; coverage is being extended in phases to census towns and peri-urban areas.",
+    "d": "Document list not confirmed in this check – ask your bank or municipal office.",
+    "h": "Loans are given through banks (a Ministry of Housing & Urban Affairs scheme). The official portal was not confirmed in this check – ask at your nearest bank branch."
+   },
+   "hi": {
+    "n": "पीएम स्वनिधि – रेहड़ी-पटरी वालों को ऋण",
+    "u": "बिना गारंटी ऋण",
+    "b": "रेहड़ी-पटरी विक्रेताओं को बिना गारंटी कार्यशील पूंजी ऋण: पहली किस्त ₹15,000, समय पर चुकाने पर दूसरी ₹25,000, तीसरी ₹50,000। दूसरा ऋण समय पर चुकाने वालों को UPI-लिंक्ड रुपे क्रेडिट कार्ड; डिजिटल भुगतान पर ₹1,600 तक कैशबैक। योजना 31 मार्च 2030 तक।",
+    "w": "शहरी रेहड़ी-पटरी विक्रेता; अब जनगणना कस्बों और शहर से लगे इलाकों में चरणबद्ध विस्तार।",
+    "d": "दस्तावेज़ सूची इस जाँच में पुष्टि नहीं हुई – अपने बैंक या नगर पालिका कार्यालय से पूछें।",
+    "h": "ऋण बैंकों के ज़रिए (आवास एवं शहरी कार्य मंत्रालय की योजना)। आधिकारिक पोर्टल इस जाँच में पुष्टि नहीं हुआ – नज़दीकी बैंक शाखा में पूछें।"
+   }
+  },
+  {
+   "id": "nethanna-sevalo",
+   "st": "AP",
+   "cat": "biz",
+   "amt": "₹25,000",
+   "link": null,
+   "src": "Telangana Today/IANS (7 Aug 2026), Deccan Chronicle/PTI (7 Aug 2026)",
+   "checked": "2026-11-25",
+   "te": {
+    "n": "నేతన్న సేవలో – చేనేత కుటుంబాలకు సాయం",
+    "u": "కుటుంబానికి",
+    "b": "అర్హులైన చేనేత కుటుంబాలకు ₹25,000 ఆర్థిక సాయం. 7 ఆగస్టు 2026 (జాతీయ చేనేత దినోత్సవం) న 71,536 కుటుంబాలకు ₹179 కోట్లు విడుదల. దీనితో పాటు చేనేత కుటుంబాలకు నెలకు 200 యూనిట్లు, పవర్‌లూమ్‌లకు 500 యూనిట్ల ఉచిత విద్యుత్.",
+    "w": "ఆంధ్రప్రదేశ్‌లో అర్హులైన చేనేత కుటుంబాలు. పూర్తి అర్హత నిబంధనలు ఈ తనిఖీలో నిర్ధారించలేదు.",
+    "d": "పత్రాల జాబితా ఈ తనిఖీలో నిర్ధారించలేదు.",
+    "h": "దరఖాస్తు విధానం, అధికారిక పోర్టల్ ఈ తనిఖీలో నిర్ధారించలేదు – మీ గ్రామ/వార్డు సచివాలయం లేదా చేనేత జౌళి శాఖ కార్యాలయంలో అడగండి."
+   },
+   "en": {
+    "n": "Nethanna Sevalo – aid for handloom families",
+    "u": "per family",
+    "b": "₹25,000 financial aid to eligible handloom families. On 7 August 2026 (National Handloom Day), ₹179 crore was released to 71,536 families. Also free electricity: 200 units a month for handloom families and 500 units for power looms.",
+    "w": "Eligible handloom families in Andhra Pradesh. Full eligibility rules were not confirmed in this check.",
+    "d": "Document list not confirmed in this check.",
+    "h": "How to apply and the official portal were not confirmed in this check – ask at your village/ward secretariat or the Handlooms & Textiles department office."
+   },
+   "hi": {
+    "n": "नेतन्ना सेवलो – हथकरघा परिवारों को सहायता",
+    "u": "प्रति परिवार",
+    "b": "पात्र हथकरघा परिवारों को ₹25,000 की आर्थिक सहायता। 7 अगस्त 2026 (राष्ट्रीय हथकरघा दिवस) को 71,536 परिवारों को ₹179 करोड़ जारी। साथ में मुफ़्त बिजली: हथकरघा परिवारों को हर महीने 200 यूनिट, पावरलूम को 500 यूनिट।",
+    "w": "आंध्र प्रदेश के पात्र हथकरघा परिवार। पूरी पात्रता शर्तें इस जाँच में पुष्टि नहीं हुईं।",
+    "d": "दस्तावेज़ सूची इस जाँच में पुष्टि नहीं हुई।",
+    "h": "आवेदन का तरीका और आधिकारिक पोर्टल इस जाँच में पुष्टि नहीं हुए – अपने ग्राम/वार्ड सचिवालय या हथकरघा एवं वस्त्र विभाग कार्यालय में पूछें।"
    }
   }
  ]
