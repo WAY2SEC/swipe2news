@@ -2253,7 +2253,11 @@ function statFit(c){ const b=c.querySelector('.s2n .bkw'); if(!b) return; const 
   a.style.fontSize=l.style.fontSize=''; ['white-space','display','-webkit-line-clamp','-webkit-box-orient','line-height'].forEach(k=>l.style.removeProperty(k)); let f=parseFloat(getComputedStyle(a).fontSize)||22;
   while(l.scrollWidth>l.clientWidth&&f>18){ f-=0.5; a.style.setProperty('font-size',f+'px','important'); l.style.setProperty('font-size',f+'px','important'); }
   /* owner 16 Nov: never end the picture line with "…" – a long line goes onto two lines instead */
-  if(l.scrollWidth>l.clientWidth+1){ l.style.setProperty('white-space','normal','important'); l.style.setProperty('display','-webkit-box','important'); l.style.setProperty('-webkit-box-orient','vertical','important'); l.style.setProperty('-webkit-line-clamp','2','important'); l.style.setProperty('line-height','1.25','important'); } }
+  if(l.scrollWidth>l.clientWidth+1){ l.style.setProperty('white-space','normal','important'); l.style.setProperty('display','-webkit-box','important'); l.style.setProperty('-webkit-box-orient','vertical','important'); l.style.setProperty('-webkit-line-clamp','2','important'); l.style.setProperty('line-height','1.25','important'); }
+  /* logo card: the logo never covers the picture line (owner 25 Nov 2026: "text is hiding") */
+  const w=c.querySelector('.s2n .bnr .alw'); if(w){ w.style.transform=''; b.style.position='relative'; b.style.zIndex='3';
+    const lr=(w.querySelector('.alr')||w).getBoundingClientRect(), br=b.getBoundingClientRect(), top=br.top-6;
+    if(lr.height>0 && lr.bottom>top){ const k=Math.max(.45,(top-lr.top)/lr.height); w.style.transformOrigin='50% '+(lr.top-w.getBoundingClientRect().top)+'px'; w.style.transform='scale('+k.toFixed(3)+')'; } } }
 try{ document.fonts&&document.fonts.ready.then(()=>setTimeout(()=>document.querySelectorAll('.story.s2n').forEach(c=>{ try{ oneLine(c); statFit(c); srcFit(c); locFit(c); }catch(e){} }),50)); }catch(e){}
 /* owner 16 Nov: a place name that does not fit in the top row is hidden, never shown half ('ఉస్మా…') */
 /* daily cards (money lesson, good word…): shrink the text until everything fits – no inner scrolling */
