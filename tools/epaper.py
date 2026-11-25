@@ -108,6 +108,10 @@ def quote_box(d, extra):
 def build_html(iso, day, jobs, extra=None):
     extra = extra or {}
     d = datetime.date.fromisoformat(iso)
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import fillers; fill = fillers.build(iso)
+    except Exception as ex:
+        print('fillers skipped:', ex); fill = {'list': []}
     date_te = f'{d.day} {MON[d.month - 1]} {d.year}'
     wk = WEEK[d.weekday()]
     issue = (d - LAUNCH).days + 1
@@ -282,6 +286,31 @@ table.jobs tr:nth-child(even) td{{background:#F3F5F8}} table.jobs tr.jx{{display
 table.jobs td small{{display:block;color:#6B5F52;font-weight:600;font-size:7pt}}
 table.jobs .n{{text-align:right;white-space:nowrap;width:24mm}}
 .warn{{font:800 8.6pt/1.5 W2Sans;color:#B3400F;margin:3mm 0 0}}
+.frow{{position:absolute;left:11mm;right:11mm;display:grid;grid-template-columns:repeat(3,1fr);gap:5mm;align-items:start}} .frow.fewer{{justify-content:center;grid-template-columns:repeat(auto-fit,minmax(0,calc((100% - 10mm)/3)))}}
+.fcell{{min-width:0}}
+.fm{{break-inside:avoid;margin:3mm 0 0;padding:2.6mm 0 0;border-top:1.6pt solid #4A0E3F;font:500 8pt/1.6 W2Sans;color:#1A1410}}
+.fcell .fm{{margin-top:0}}
+.fmh{{display:flex;align-items:center;gap:1.6mm;margin:0 0 1.8mm}} .fmh i{{width:2.2mm;height:2.2mm;background:#F5A23A;border-radius:.4mm}} .fmh span{{font:400 11pt/1.3 W2Rama;color:#4A0E3F}}
+.fmf{{font:600 6.4pt/1.4 W2Sans;color:#7A6E60;margin-top:1.4mm}}
+.fm h4{{font:400 10.5pt/1.4 W2Rama;margin:0 0 .8mm;color:#14100C}} .fm p{{margin:0 0 1.2mm}}
+.fq{{font:400 10.5pt/1.6 W2Serif;color:#2E0827}} .fqa{{text-align:right;font:700 7.4pt/1.4 W2Sans;color:#7A6E60}}
+.fpv{{margin:0 0 1.6mm}} .fpv b{{display:block;font:400 10pt/1.45 W2Rama;color:#4A0E3F}} .fpv span{{font:500 7.8pt/1.55 W2Sans;color:#3B332B}}
+.fdate{{font:400 12pt/1.3 W2Rama;color:#B3400F;margin:0 0 1mm!important}} .fev{{font:500 8pt/1.6 W2Sans;border-bottom:.5pt dotted #D9CDBE;padding-bottom:1mm}}
+.fht b{{display:block;font:800 8pt/1.4 W2Sans;color:#4A0E3F}}
+.fhl{{display:grid;grid-template-columns:1fr 1fr;gap:.8mm 2mm;margin-top:1mm;border-top:.5pt solid #E4D9CB;padding-top:1.2mm}} .fhl span{{display:flex;justify-content:space-between;font:600 6.8pt/1.4 W2Sans;color:#3B332B}} .fhl b{{color:#B3400F}}
+.fgk{{margin:0;padding-left:4mm;font:500 8pt/1.55 W2Sans}} .fgk li{{margin-bottom:1mm}} .fgk li::marker{{color:#F5A23A;font-weight:800}}
+.fans{{transform:rotate(180deg);font:600 6.4pt/1.4 W2Sans;color:#8A7E70;margin-top:1.4mm!important;border-top:.5pt solid #E4D9CB;padding-top:1mm}}
+.ffc{{font:400 8.4pt/1.65 W2Serif;padding-left:2.4mm;border-left:1.6pt solid #F5A23A}}
+.fhr{{margin-bottom:1.6mm}} .fhr small{{display:block;font:700 6.8pt/1.3 W2Sans;color:#7A6E60;margin-bottom:.6mm}} .fhr p{{font:400 8pt/1.6 W2Serif}}
+.fsd{{font:500 7pt/1.45 W2Sans;color:#4A4036}}
+table.sdk{{border-collapse:collapse;margin:1.4mm auto 0;border:1.2pt solid #2E0827}} table.sdk td{{width:5.6mm;height:5.6mm;border:.4pt solid #B9AE9F;text-align:center;font:400 9pt/1 W2Disp;color:#2E0827;padding:0}}
+table.sdk.n6 td{{width:7mm;height:7mm}} table.sdk td.bR{{border-right:1.2pt solid #2E0827}} table.sdk td.bB{{border-bottom:1.2pt solid #2E0827}}
+table.fmt{{width:100%;border-collapse:collapse;font:600 7.6pt/1.35 W2Sans}} table.fmt th{{text-align:left;font:800 6.6pt/1.3 W2Sans;color:#7A6E60;border-bottom:.8pt solid #4A0E3F;padding:.6mm 0}}
+table.fmt td{{border-bottom:.5pt solid #E4D9CB;padding:1mm 0;vertical-align:top}} table.fmt td small{{display:block;font-weight:500;font-size:6.4pt;color:#7A6E60}} table.fmt .n{{text-align:right;white-space:nowrap}} table.fmt td.n{{font:400 9pt/1.2 W2Disp;color:#2E0827}}
+.fm.pr{{background:#FBF6EE;border-top-color:#F5A23A;padding:2.6mm 2.6mm 2mm}} .fm .fct{{font:700 7.4pt/1.4 W2Sans;color:#4A0E3F}}
+.fqr{{display:flex;gap:2.4mm;align-items:center}} .fqr img{{width:17mm;height:17mm;background:#fff;padding:.6mm;flex:none}}
+.fch{{display:grid;grid-template-columns:repeat(3,1fr);gap:1.6mm}} .fch figure{{margin:0;text-align:center}} .fch svg{{width:100%;height:auto}} .fch figcaption{{font:700 6.4pt/1.3 W2Sans}}
+.fm.paid{{border:.8pt solid #4A0E3F;border-top-width:1.6pt;padding:2.4mm}} .fadimg{{width:100%;height:auto;margin-bottom:1.4mm}} .fadv{{display:block;font:600 6pt/1.3 W2Sans;color:#8A7E70}}
 .hab{{position:absolute;left:11mm;right:11mm;display:flex;gap:5mm;align-items:center;justify-content:center;border:1.2pt dashed #C9A9BE;border-radius:3mm;background:#FBF4F8;padding:4mm 6mm;overflow:hidden}}
 .hab.col{{position:static;flex-direction:column;text-align:center;margin-top:3mm;break-inside:avoid;padding:3mm}} .hab.col .hx{{max-width:none}}
 .hab img{{width:24mm;height:24mm;background:#fff;padding:1mm;border-radius:1.5mm;flex:none}} .hab .hx{{max-width:120mm}}
@@ -293,7 +322,7 @@ table.jobs .n{{text-align:right;white-space:nowrap;width:24mm}}
 .back h3{{margin:0 0 2mm;font:400 14pt/1.3 W2Rama;color:#F5A23A}} .back p{{margin:0 0 1.5mm;font:600 8.4pt/1.5 W2Sans}} .back .fine{{font-size:6.8pt;color:#B9C4D6;margin:2mm 0 0}}
 </style></head><body>{''.join(pages)}
 <script src="/scenes.js"></script>
-<script>const S={json.dumps(stories, ensure_ascii=False)};
+<script>window.FILL={json.dumps(fill, ensure_ascii=False)};const S={json.dumps(stories, ensure_ascii=False)};
 document.querySelectorAll('.page:not(:has(.secopen)) .cols').forEach(c=>{{ for(const st of c.querySelectorAll('.st')){{ const s=S.find(x=>x._k===st.dataset.sid); let a=null; try{{ a=s&&artPlan(s); }}catch(e){{}}
   if(a&&a.bg){{ const h=st.querySelector('h2'); if(h) h.insertAdjacentHTML('beforebegin','<img class="pic" src="'+artBg(a.bg)+'" alt=""><small class="pcap">AI రూపొందించిన చిత్రం</small>'); break; }} }} }});
 document.querySelectorAll('.scene[data-sid]').forEach(el=>{{ const s=S.find(x=>x._k===el.dataset.sid); if(s) el.insertAdjacentHTML('afterbegin', sceneSVG(s,'ep')); }});
@@ -329,28 +358,28 @@ async function fit(){ await document.fonts.ready; let changed=true, guard=0;
     const room=last.getBoundingClientRect().bottom-16*MM-bot; if(room>BH+8*MM){ last.appendChild(back); }
     else if(room>17*MM){ back.classList.add('slim'); last.appendChild(back); } // little room: one slim line, never an extra page for the box alone
     pgs=[...document.querySelectorAll('.page')]; }
-  // white space left under the stories (review 25 Nov 2026): fill it with our own notices, like a printed paper
-  const ADS=[
-    ['📱','ప్రతి 30 నిమిషాలకు తాజా వార్తలు','Swipe2News యాప్ – మీ జిల్లా వార్తలు, ఉద్యోగాలు, మండీ ధరలు, వాతావరణం.','<b>swipe2news.com</b> · ఉచితం',1],
-    ['📝','మీ ఊరి రిపోర్టర్ అవ్వండి','మీ గ్రామం, మండలం వార్తలు మాకు పంపండి – పరిశీలించి ప్రచురిస్తాం.','<b>swipe2news.com/reporter/join.html</b>',0],
-    ['💼','ఉద్యోగాల సమాచారం – రోజూ ఉచితంగా','ప్రభుత్వ, ప్రైవేట్ ఉద్యోగాలు, చివరి తేదీలు ఒకే చోట.','<b>swipe2news.com/?jobs=1</b>',1],
-    ['📢','మీ వ్యాపారానికి ప్రకటన ఇవ్వండి','జనధ్వని ఈ-పేపర్, Swipe2News యాప్‌లో మీ ప్రకటన – తెలుగు పాఠకులకు నేరుగా.','📞 <b>+91 70326 56422</b> · ✉️ <b>swipe2news@gmail.com</b>',0]];
-  let ai=0;
+  // white space (user, 25 Nov 2026): measured on every page after the news is placed, then filled from the
+  // day's module library (tools/fillers.json via tools/fillers.py). Paid ads first, no module twice, few promos, small gaps left alone.
+  const F=window.FILL||{list:[]}, used=new Set(); let promos=0;
+  const take=(hmax, tryIn)=>{ for(const m of F.list){ if(used.has(m.k)) continue; if(m.promo&&promos>=F.max_promos) continue;
+      for(const v of m.v){ const el=tryIn(v); if(el){ used.add(m.k); if(m.promo) promos++; return el; } } } return null; };
   document.querySelectorAll('.page').forEach(pg=>{ const c=pg.querySelector('.cols'); if(!c||!c.children.length) return;
     const pr=pg.getBoundingClientRect(), bk=pg.querySelector('.back');
     const lim=bk?bk.getBoundingClientRect().top-4*MM:pr.bottom-16*MM;
-    const bot=Math.max(...[...c.querySelectorAll(':scope > *')].map(x=>{ const rs=[...x.getClientRects()]; return rs.length?Math.max(...rs.map(q=>q.bottom)):0; }));
-    const pick=()=>{ let a=ADS[ai++%ADS.length]; if(bk&&a[4]) a=ADS[ai++%ADS.length]; return a; };
-    const html=a=>(a[4]?'<img src="/qr.png" alt="">':'<span class="em">'+a[0]+'</span>')+'<div class="hx"><h3>'+a[1]+'</h3><p>'+a[2]+'</p><p>'+a[3]+'</p></div>';
-    // a) columns filled one after another: space left at the foot of the last column
+    // a) columns filled one after another: space at the foot of the last column
     const lastEl=c.lastElementChild, lr=[...lastEl.getClientRects()].pop(), cb=c.getBoundingClientRect().bottom;
-    if(c.style.columnFill!=='balance' && lr && cb-lr.bottom>30*MM){ const a=pick(), d=document.createElement('div');
-      d.className='hab col'+(cb-lr.bottom<60*MM?' sm':''); d.style.height=(cb-lr.bottom-5*MM)+'px'; d.innerHTML=html(a); c.appendChild(d);
-      if(c.scrollWidth>c.clientWidth+2) d.remove(); return; }
-    // b) balanced columns: space under them, full width
-    const room=lim-bot-4*MM; if(room<28*MM) return;
-    const n=room>150*MM?3:room>95*MM?2:1, gap=4*MM, h=Math.min((room-gap*(n-1))/n,70*MM), top0=bot-pr.top+4*MM+(room-(h*n+gap*(n-1)))/2;
-    for(let k=0;k<n;k++){ const d=document.createElement('div'); d.className='hab'+(h<45*MM?' sm':''); d.style.top=(top0+k*(h+gap))+'px'; d.style.height=h+'px'; d.innerHTML=html(pick()); pg.appendChild(d); } });
+    if(!c.classList.contains('bal') && lr && cb-lr.bottom>F.min_col_mm*MM){
+      take(0, v=>{ const w=document.createElement('div'); w.className='fslot'; w.innerHTML=v; const el=w.firstElementChild; c.appendChild(el);
+        if(c.scrollWidth>c.clientWidth+2 || el.getBoundingClientRect().bottom>cb+1){ el.remove(); return null; } return el; });
+      return; }
+    // b) balanced columns: a row of up to three column-wide modules in the space under them
+    const bot=Math.max(...[...c.querySelectorAll(':scope > *')].map(x=>{ const rs=[...x.getClientRects()]; return rs.length?Math.max(...rs.map(q=>q.bottom)):0; }));
+    const room=lim-bot-5*MM; if(room<F.min_row_mm*MM) return;
+    const row=document.createElement('div'); row.className='frow'; row.style.top=(bot-pr.top+5*MM)+'px'; row.style.height=room+'px'; pg.appendChild(row);
+    for(let k=0;k<3;k++){ const slot=document.createElement('div'); slot.className='fcell'; row.appendChild(slot);
+      const el=take(0, v=>{ slot.innerHTML=v; const e=slot.firstElementChild; if(e.getBoundingClientRect().bottom>row.getBoundingClientRect().bottom+1){ slot.innerHTML=''; return null; } return e; });
+      if(!el){ slot.remove(); break; } }
+    if(!row.children.length) row.remove(); else if(row.children.length<3) row.classList.add('fewer'); });
   document.querySelectorAll('.idx b[data-p]').forEach(b=>{ const i=pgs.findIndex(p=>p.dataset.p===b.dataset.p); if(i>=0) b.textContent=i+1; else b.parentNode.remove(); });
   document.querySelectorAll('.page').forEach((pg,i)=>{ const pm=pg.querySelector('.pm'); if(pm) pm.innerHTML=pm.innerHTML.replace(/పేజీ \d+/,'పేజీ '+(i+1)); });
   document.body.dataset.ready='1'; }

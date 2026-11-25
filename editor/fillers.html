@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="te"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>జనధ్వని ఈ-పేపర్ – ఖాళీ స్థలం మాడ్యూల్స్ (అడ్మిన్)</title>
+<style>
+body{margin:0;font:15px/1.5 system-ui,'Noto Sans Telugu',sans-serif;background:#F6F0E8;color:#1A1410}
+header{background:#4A0E3F;color:#fff;padding:14px 16px}header h1{margin:0;font-size:18px}header p{margin:4px 0 0;font-size:13px;opacity:.85}
+main{padding:14px;max-width:720px;margin:auto}
+.card{background:#fff;border-radius:12px;padding:12px 14px;margin:0 0 12px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+h2{font-size:16px;margin:0 0 8px;color:#4A0E3F}
+.row{display:grid;grid-template-columns:1fr auto auto;gap:10px;align-items:center;padding:8px 0;border-top:1px solid #EFE6DA}
+.row:first-of-type{border-top:0}.row small{display:block;color:#7A6E60}
+input[type=number]{width:56px;padding:6px;border:1px solid #D8C9BE;border-radius:8px;font-size:15px}
+input[type=text],input[type=date],textarea{width:100%;box-sizing:border-box;padding:8px;border:1px solid #D8C9BE;border-radius:8px;font:inherit;margin:3px 0 8px}
+label.sw{display:flex;gap:6px;align-items:center;font-size:13px}
+.btn{display:inline-block;border:0;border-radius:999px;padding:10px 16px;font:700 14px system-ui;background:#4A0E3F;color:#fff;margin:4px 6px 4px 0;cursor:pointer;text-decoration:none}
+.btn.g{background:#F5A23A;color:#2E0827}.btn.l{background:#fff;color:#4A0E3F;border:1.5px solid #4A0E3F}
+.ad{border:1px solid #EFE6DA;border-radius:10px;padding:10px;margin:8px 0}
+.note{font-size:13px;color:#5B4F45;background:#FFF8E6;border-left:3px solid #F5A23A;padding:8px 10px;border-radius:6px}
+pre{white-space:pre-wrap;word-break:break-all;font-size:11px;background:#F3EEE6;padding:8px;border-radius:8px;max-height:200px;overflow:auto}
+</style></head><body>
+<header><h1>ఈ-పేపర్ ఖాళీ స్థలం · అడ్మిన్</h1><p>ఏ మాడ్యూల్ రావాలో, ఏ వరుసలో రావాలో, ప్రకటనలు – ఇక్కడ మార్చండి.</p></header>
+<main>
+<div class="card"><h2>మాడ్యూల్స్</h2><p class="note">ఆన్/ఆఫ్ చేయండి. <b>క్రమం</b>: చిన్న సంఖ్య = ముందు. చెల్లింపు ప్రకటనలు ఎప్పుడూ మొదట వస్తాయి.</p><div id="mods"></div>
+<label>ప్రచార బాక్సులు ఒక సంచికలో గరిష్ఠంగా: <input type="number" id="maxp" min="0" max="6"></label></div>
+<div class="card"><h2>చెల్లింపు ప్రకటనలు</h2><div id="ads"></div><button class="btn l" id="addAd" type="button">+ కొత్త ప్రకటన</button></div>
+<div class="card"><h2>జిల్లా వాట్సాప్ ఛానెల్ లింకులు</h2><p class="note">ప్రతి లైన్‌లో: జిల్లా పేరు | ఛానెల్ లింక్. లింక్ ఉన్న జిల్లాలకే QR కోడ్ ముద్రిస్తాం.</p><textarea id="chs" rows="5" placeholder="నల్గొండ | https://whatsapp.com/channel/..."></textarea></div>
+<div class="card"><h2>సేవ్ చేయండి</h2>
+<p class="note">1) <b>కాపీ</b> నొక్కండి. 2) <b>GitHub లో తెరవండి</b> – ఫైల్‌లోని పాత మాటర్ అంతా తీసేసి పేస్ట్ చేసి <b>Commit changes</b> నొక్కండి. రేపటి ఈ-పేపర్ నుంచి మార్పులు వస్తాయి.</p>
+<button class="btn g" id="copy" type="button">కాపీ</button><a class="btn" href="https://github.com/WAY2SEC/swipe2news/edit/main/tools/fillers.json" target="_blank" rel="noopener">GitHub లో తెరవండి</a>
+<pre id="out"></pre></div>
+</main>
+<script>
+let LIB=null;
+const $=id=>document.getElementById(id);
+function adHTML(a,i){ return `<div class="ad" data-i="${i}"><label class="sw"><input type="checkbox" data-f="on" ${a.on?'checked':''}> ఆన్</label>
+ <input type="text" data-f="advertiser" placeholder="ప్రకటనదారు" value="${(a.advertiser||'').replace(/"/g,'&quot;')}">
+ <input type="text" data-f="title" placeholder="శీర్షిక" value="${(a.title||'').replace(/"/g,'&quot;')}">
+ <textarea data-f="text" rows="2" placeholder="వివరాలు">${a.text||''}</textarea>
+ <input type="text" data-f="contact" placeholder="ఫోన్ / చిరునామా" value="${(a.contact||'').replace(/"/g,'&quot;')}">
+ <input type="text" data-f="img" placeholder="చిత్రం లింక్ (ఐచ్ఛికం)" value="${(a.img||'').replace(/"/g,'&quot;')}">
+ నుంచి <input type="date" data-f="from" value="${a.from||''}"> వరకు <input type="date" data-f="to" value="${a.to||''}">
+ <button class="btn l" type="button" data-del="${i}">తొలగించు</button></div>`; }
+function render(){
+  const m=LIB.settings.modules;
+  $('mods').innerHTML=Object.keys(m).map(k=>`<div class="row"><span>${m[k].label||k}<small>${k}</small></span><label class="sw"><input type="checkbox" data-k="${k}" ${m[k].on?'checked':''}> ఆన్</label><input type="number" data-p="${k}" value="${m[k].pri}" min="0" max="20"></div>`).join('');
+  $('maxp').value=LIB.settings.max_promos??2;
+  $('ads').innerHTML=(LIB.ads||[]).map(adHTML).join('');
+  $('chs').value=Object.entries(LIB.district_channels||{}).map(([k,v])=>k+' | '+v).join('\n');
+  out(); }
+function collect(){
+  document.querySelectorAll('[data-k]').forEach(c=>LIB.settings.modules[c.dataset.k].on=c.checked);
+  document.querySelectorAll('[data-p]').forEach(c=>LIB.settings.modules[c.dataset.p].pri=+c.value||0);
+  LIB.settings.max_promos=+$('maxp').value||0;
+  LIB.ads=[...document.querySelectorAll('.ad')].map((d,i)=>{ const a={id:(LIB.ads[i]&&LIB.ads[i].id)||('ad'+Date.now()+i)}; d.querySelectorAll('[data-f]').forEach(f=>a[f.dataset.f]=f.type==='checkbox'?f.checked:f.value.trim()); return a; });
+  const ch={}; $('chs').value.split('\n').forEach(l=>{ const [n,u]=l.split('|').map(x=>(x||'').trim()); if(n&&/^https:\/\//.test(u||'')) ch[n]=u; }); LIB.district_channels=ch; }
+function out(){ collect(); $('out').textContent=JSON.stringify(LIB,null,1); }
+document.addEventListener('input',out); document.addEventListener('change',out);
+document.addEventListener('click',e=>{ const d=e.target.closest('[data-del]'); if(d){ collect(); LIB.ads.splice(+d.dataset.del,1); render(); } });
+$('addAd').onclick=()=>{ collect(); LIB.ads.push({id:'ad'+Date.now(),on:true,from:new Date().toISOString().slice(0,10),to:'',advertiser:'',title:'',text:'',contact:'',img:''}); render(); };
+$('copy').onclick=async()=>{ out(); try{ await navigator.clipboard.writeText($('out').textContent); $('copy').textContent='కాపీ అయింది ✓'; }catch(e){ alert('కాపీ కాలేదు – కింద ఉన్న మాటర్‌ను సెలెక్ట్ చేసి కాపీ చేయండి.'); } };
+fetch('/tools/fillers.json?'+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(j=>{ LIB=j; render(); }).catch(()=>{ document.querySelector('main').innerHTML='<p>ఫైల్ లోడ్ కాలేదు.</p>'; });
+</script></body></html>
