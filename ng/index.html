@@ -22,7 +22,7 @@ header{display:flex;align-items:center;gap:10px;padding:10px 14px calc(8px);padd
 .brand img{width:30px;height:30px;border-radius:8px}.brand i{color:var(--apricot);font-style:normal}
 .bell{margin-left:auto;width:38px;height:38px;border-radius:50%;border:1.5px solid var(--line);background:#fff;font-size:17px;cursor:pointer}.bell[aria-pressed=true]{background:var(--apricot);border-color:var(--apricot)}
 .bell:not([hidden])+.ed{margin-left:0}
-.ed{margin-left:auto;display:flex;align-items:center;gap:6px;border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font:700 13px var(--ui);color:var(--plum);cursor:pointer}
+.ed{margin-left:auto;display:flex;align-items:center;gap:6px;border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font:700 13px var(--ui);color:var(--plum)}
 .beta{font:700 10px var(--ui);letter-spacing:.08em;color:var(--deep);background:var(--apricot);border-radius:6px;padding:2px 6px}
 .chips{display:flex;gap:8px;overflow-x:auto;padding:10px 14px;background:var(--cream);scrollbar-width:none}.chips::-webkit-scrollbar{display:none}
 .chip{flex:none;border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:7px 14px;font:700 13px var(--ui);color:var(--ink);cursor:pointer}
@@ -91,7 +91,7 @@ p.sum{font:400 16px/1.6 var(--tx);color:var(--ink)}
 <header>
   <a class="brand" href="/ng/" aria-label="Swipe2News Nigeria"><img src="/art/logo.svg" alt=""><span>swipe2news<i>.</i></span></a>
   <button class="bell" id="bell" type="button" aria-label="Nigeria news alerts" aria-pressed="false" hidden>🔔</button>
-  <button class="ed" id="ed" type="button" aria-haspopup="dialog" aria-label="Choose your country">🇳🇬 Nigeria <span class="beta">BETA</span> ▾</button>
+  <span class="ed" id="ed">🇳🇬 Nigeria</span>
 </header>
 <nav class="chips" id="chips" aria-label="Sections"></nav>
 <main id="stage"><div class="empty" id="msg">Loading Nigeria news…</div></main>
@@ -118,7 +118,6 @@ p.sum{font:400 16px/1.6 var(--tx);color:var(--ink)}
   <picture><source srcset="/art/ng/welcome.webp" type="image/webp"><img src="/art/ng/welcome.jpg" alt="Welcome to Swipe2News Nigeria – Your Community. Your Country. Your World."></picture>
   <button type="button" class="go" id="welGo">Continue with 🇳🇬 Nigeria ›</button>
   <button type="button" class="al" id="welAl" hidden>🔔 Get daily news alerts</button>
-  <button type="button" class="in" id="welIn">I'm in India – Telangana &amp; Andhra Pradesh news</button>
 </div>
 <div class="toast" id="toast" role="status"></div>
 <script>
@@ -185,7 +184,7 @@ async function load(){
 $('chips').onclick=e=>{ const b=e.target.closest('[data-s]'); if(!b) return; sec=b.dataset.s; i=0; chips(); show(0); };
 $('prev').onclick=()=>go(-1); $('next').onclick=()=>go(1);
 addEventListener('keydown',e=>{ if(e.key==='ArrowRight') go(1); if(e.key==='ArrowLeft') go(-1); });
-$('ed').onclick=()=>{ $('sheet').hidden=false; };
+
 // NEW readers only (never used Swipe2News on this phone): welcome + "Choose your country" (Nigeria already ticked).
 // Existing readers (any saved w2s.* setting from the app) go straight to the news.
 // The installed app (opened with ?source=android) always shows it once after install, even if this phone used the website before.
@@ -195,7 +194,6 @@ let first=false; try{ let old=false; for(let k=0;k<localStorage.length;k++){ if(
 if(first) $('wel').hidden=false;
 const done=()=>{ try{ localStorage.setItem(WK,'1'); localStorage.setItem('s2n.ng.welcomed','1'); }catch(e){} first=false; $('wel').hidden=true; };
 $('welGo').onclick=done;
-$('welIn').onclick=()=>{ done(); try{ localStorage.setItem('s2n.edition','in'); }catch(x){} location.href='/?ed=in'+(q.has('source')?'&source='+encodeURIComponent(q.get('source')):''); };
 $('sheet').onclick=e=>{ const b=e.target.closest('[data-ed],[data-close]'); if(e.target===$('sheet')||(b&&b.dataset.close!==undefined)) return $('sheet').hidden=true;
   if(b&&b.dataset.ed==='in'){ try{ localStorage.setItem('s2n.edition','in'); }catch(x){} location.href='/?ed=in'+(q.has('source')?'&source='+encodeURIComponent(q.get('source')):''); }
   else if(b) $('sheet').hidden=true; };
