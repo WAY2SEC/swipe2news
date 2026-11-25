@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-25T18:05:00+05:30",
+ "cutoff": "2026-11-25T18:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-22T19:35:00+05:30/2026-11-22T20:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Lookback from 11:35 on 22 Nov. Feeds 19:56 IST (70/70 ok); 318 unseen uncovered events since 17:30 scanned by headline, 13 opened via search. add_repo tool not available; used existing clone. Published 3: ETV Bharat Revanth TPCC meeting (19:24), South First Sharmila stopped at Yelahanka (19:40), Mana Telangana Sharjah royal invited to summit (19:13). Duplicates: AP DSC 2,111 teacher posts (published 19 Nov), AgriGold bond verification schedule (published 21 Nov). Skipped as old: TV9 Leonid meteor shower video (event 17-18 Nov). Not opened: The Hindu items not found in search (police brass/pipe bands, Ambedkar Open University AP, CPI(M) on Odisha police, Kawal migratory birds, SIMS Ramagundam CPR, IITH half marathon); Disha AP cabinet meeting postponed (fetch error). check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-22T20:05:00+05:30/2026-11-22T20:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Lookback from 09:35. Feeds 17:56 IST (68/70 ok; Samayam Telugu, Indian Express 429; 126 uncovered events first seen since 17:00 scanned, 40 local). add_repo tool not available; used existing clone. Direct feed URLs refused (PROVENANCE_REQUIRED) until found by extended WebSearch. Published 9: DC AP SEC ink on left little finger for 23 ULB polls (18:01, fact), TT 65% commuters enter IT corridor in 90 min (17:13, fact), NewsMeter HYDRAA on STP safety after Bachupally deaths (17:28, fact, sensitive), TT ACB enquiry into charges against own officer (17:07, fact), Siasat TG HC quashes FIR on ex-BJP corporator CJP banner (17:13, fact, accused not named), Hindu via KhanList TIFR-H Virupaksha MoU (17:21, fact), TT lookalike water bottle sales fall (17:52, claim, logo), DC/PTI 6 urea projects Rs 54,000 cr (17:41, fact), Siasat Houthi claim on Ras Tanura (17:46, claim, sensitive). Duplicates: Siasat and NewsMeter ex-TGSPDCL officer Rs 30L allegation (published via Andhra Jyothy). Not found by search (left unseen): Hindu Madanapalle tomato prices, TT man held for rape threats, TOI RERA Aliens Developers Rs 2 cr, Hans polling set for 23 AP ULBs. Not attempted: HMTV district items (Nirmal, Jogipet, Mancherial, Khammam AgriGold bond verification), NT Venganna Palem drain protest, BigTV AP HC NOTA question, NTV AP rain alert, Hyderabad Mail RERA Alekya Infra refund, other India/world items. No district searches. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-25T18:05:00+05:30/2026-11-25T18:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 2,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 10:05. Feeds 18:29 IST (67/68 ok; 113 uncovered events since 17:30, 26 local). add_repo tool not available; used existing clone. Published 2: The Hindu (via Matrix News) Madanapalle tomato ₹3,800/quintal beats Karnataka (17:38, fact), NewsMeter TG HC notices to 'Baby' director/producer on story-copy petition (18:20, claim, accused not named). Duplicate: HT Navy search for 7 Kakinada fishermen (already published as found safe). Skipped: Hans Prakasam panchayat polls (14 Nov, old), TT Siddipet BRS detentions (19 Nov, old), INDToday DEEP Trust cancer camp (PR-wire/advertorial). Not opened: ANI YSRCP condemns attack on advocate Swarnalatha in Eluru (client error), KhanList/Hindu Srisailam Karthika Vanabhojanalu (provenance refused), Dairy Chronicle Chittoor fodder (server error); Hindu Nellore Gopal Ratna and Chittoor fodder 6,000 acres not found by search. Not attempted: Kadapa collector orders, Vijayasai padayatra, IIT-H solar cooker (not found), AP HC NOTA, Pentlavelli KGBV, other India/world. District searches: Siddipet, Prakasam only. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8143,6 +8143,36 @@
    "url": "https://newsmeter.in/top-stories/ex-tgspdcl-engineer-alleges-acb-officials-demanded-30-lakh-bribe-bureau-says-he-skipped-3-inquiries-779986",
    "d": "2026-11-25",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/madanapalle-tomato-prices-outpace-karnataka-markets-despite-dry-spell/article71742154.ece",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/baby-movie-director-sai-rajesh-producer-skn-get-telangana-hc-notices-over-story-theft-779997",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://web.matrixnews.in/news/hnh3fw6d75l3a/madanapalle-tomato-prices-exceed-those-in-neighbouring-karnataka-markets",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/ongole/prakasam-ready-for-panchayat-polls-1141925",
+   "d": "2026-11-25",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/several-brs-leaders-workers-detained-ahead-of-revanth-reddys-public-meeting-in-siddipet",
+   "d": "2026-11-25",
+   "w": "skipped"
+  },
+  {
+   "url": "https://indtoday.com/deep-trust-cancer-screening-camp-patigadda-hyderabad-women/",
+   "d": "2026-11-25",
+   "w": "skipped"
   }
  ]
 }
