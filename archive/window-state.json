@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-25T17:35:00+05:30",
+ "cutoff": "2026-11-25T18:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-22T19:05:00+05:30/2026-11-22T19:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 3,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "Lookback from 11:05 on 22 Nov. Feeds 19:18 IST (68/68 ok); 109 unseen uncovered events since 18:30 scanned by headline. add_repo tool not available; used existing clone. Published 3: Siasat Chevella murder arrest (18:23), Siasat HRF on activist detention at CM visit (18:54), Telangana Today/IANS CCPA AirOne fine (17:54). Duplicates: TT terror-alert email (bomb-threat story published 19:05), AP December pensions early (published), BJP SIR rally/Nabin Karimnagar padyatra (published 21 Nov), Kakinada chain collision (published 14:05). Skipped as old: RINL ICQCC gold awards (DC 21 Nov 22:30, Hans 06:26), cyclone pages (2023/2025), AJ cabinet Nov 26 (18 Nov). Not opened (search did not return them): The Hindu brass bands revival, Rayalaseema poll security, Ambedkar Open University AP, CPI(M) Odisha police, YSRCP on police, Sathya Sai Times Square, CPR at SIMS Ramagundam; TT skin creams; V6/News18 gold in car lights; HMTV Manthani fog; Ponnam drought; Disha AP cabinet postponed (client error). 8 district searches gave only tag pages. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-22T19:35:00+05:30/2026-11-22T20:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 09:05. Feeds 17:27 IST (67/68 ok; Andhra Jyothy 429). add_repo tool not available; used existing clone. Published 3: Siasat TG HC police can't decide civil/property disputes (17:01, fact), HMTV Achampet ~30 vendor stalls removed before CM visit (16:57, claim), ThePrint/PTI Bangladesh 108 BGB platoons before Hasina return (16:45, fact, logo). Duplicates: 10TV/RTGS AP 4-day thunderstorm alert (published 24 Nov 17:35 and 05:35), Khammam ammonia/gas leak (published 12:05 via ntnews), Naidu revenue review. Skipped (old): Hans India AP 4-day rain (3 Nov), Hans Nellore rain (5 Nov), NewsMeter liquor QR scan (Oct 2025). Not found by search (left unseen): TOI RERA Aliens Developers Rs 2 cr, TT ACB warning, TT IT-corridor commute survey, Hindu TIFR-H tie-up, TOI Germany-Telangana agriculture, TG HC FIR quash ex-BJP corporator, NewsMeter Bhagwant Mann fact check, home guard posts, AP liquor scan rule (today). 8 district searches (Nalgonda, Karimnagar, Kurnool, Nellore, Adilabad/Nirmal, Khammam, Vizianagaram/Srikakulam, Warangal) returned only tag pages. Pre-existing check ERROR: Australia poll story pic n/nri. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-25T17:35:00+05:30/2026-11-25T18:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 9,
+   "published": 9,
+   "late": 0,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 09:35. Feeds 17:56 IST (68/70 ok; Samayam Telugu, Indian Express 429; 126 uncovered events first seen since 17:00 scanned, 40 local). add_repo tool not available; used existing clone. Direct feed URLs refused (PROVENANCE_REQUIRED) until found by extended WebSearch. Published 9: DC AP SEC ink on left little finger for 23 ULB polls (18:01, fact), TT 65% commuters enter IT corridor in 90 min (17:13, fact), NewsMeter HYDRAA on STP safety after Bachupally deaths (17:28, fact, sensitive), TT ACB enquiry into charges against own officer (17:07, fact), Siasat TG HC quashes FIR on ex-BJP corporator CJP banner (17:13, fact, accused not named), Hindu via KhanList TIFR-H Virupaksha MoU (17:21, fact), TT lookalike water bottle sales fall (17:52, claim, logo), DC/PTI 6 urea projects Rs 54,000 cr (17:41, fact), Siasat Houthi claim on Ras Tanura (17:46, claim, sensitive). Duplicates: Siasat and NewsMeter ex-TGSPDCL officer Rs 30L allegation (published via Andhra Jyothy). Not found by search (left unseen): Hindu Madanapalle tomato prices, TT man held for rape threats, TOI RERA Aliens Developers Rs 2 cr, Hans polling set for 23 AP ULBs. Not attempted: HMTV district items (Nirmal, Jogipet, Mancherial, Khammam AgriGold bond verification), NT Venganna Palem drain protest, BigTV AP HC NOTA question, NTV AP rain alert, Hyderabad Mail RERA Alekya Infra refund, other India/world items. No district searches. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8088,6 +8088,61 @@
    "url": "https://newsmeter.in/top-stories/scan-qr-code-before-you-buy-a-liquor-bottle-cm-naidu-756655",
    "d": "2026-11-25",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-ulb-polls-indelible-ink-to-be-applied-on-left-hand-little-finger-2007849",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/65-per-cent-of-commuters-enter-it-corridor-within-90-minutes-triggering-jams",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/bachupally-stp-deaths-hydraa-warns-gated-communities-agencies-of-action-over-safety-lapses-779991",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/acb-warns-action-against-corrupt-officers",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-hc-quashes-fir-against-ex-bjp-corporator-over-burning-cjp-banner-3586602/",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://khanlist.com/story/tifr-hyd-virupaksha-organics-join-hands-for-advanced-82af12ac",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/people-begin-to-reject-counterfeit-water-bottles",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/business/market/govt-approves-6-brownfield-gas-based-urea-projects-worth-rs-54000-crore-2007846",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/saudi-oil-hub-ras-tanura-targeted-in-houthi-attack-fires-reported-3586632/",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/acb-officials-booked-false-case-asked-rs-30l-bribe-ex-tgspdcl-officer-3586504/",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://newsmeter.in/top-stories/ex-tgspdcl-engineer-alleges-acb-officials-demanded-30-lakh-bribe-bureau-says-he-skipped-3-inquiries-779986",
+   "d": "2026-11-25",
+   "w": "duplicate"
   }
  ]
 }
