@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-25T20:35:00+05:30",
+ "cutoff": "2026-11-25T21:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-22T22:05:00+05:30/2026-11-22T22:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 6,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Lookback from 14:05 on 22 Nov. Feeds 22:16 IST (66/68 ok; Namasthe Telangana, Andhra Prabha gnews 429). 74 uncovered events since 21:30 scanned, ~20 searched. add_repo tool not available; used existing clone. Published 6: DC IITH half marathon (22:08), Siasat BRS Inter local status (22:00, claim), DC TG varsity contract faculty dharna Nov 25 (21:57), TT BRS-KRMB Sagar water (21:55, claim), ThePrint/PTI Lokesh debate challenge (21:47, claim), Hans India Karimnagar gurudwara solar (16:36, late). Duplicates: Bahrain Iranian strikes (17:11 story), KTR KCR 2028 (Hanumakonda), Karimnagar GMC medicos (KTR call story). Search did not return: Revanth 90 seats (The Hindu), Tirumala Karthika Pournami sevas (News18), Kotia arrests (Hyderabad Mail; only Odisha outlets), Chagalamarri Bhuma-Gangula clash (Eenadu only). No district searches this run. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-22T22:35:00+05:30/2026-11-22T23:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 12:05. Feeds 20:14 IST (68/70 ok; failing topic:తెలంగాణ ప్రభుత్వం, topic:India; 39 uncovered unseen events first seen since 19:50, 16 local). add_repo tool not available; used existing clone. Published 3: DC Ponguleti Indiramma houses for all eligible, Vepalagadda/Burgampadu (20:03, fact), Siasat TGHRC suo motu on Bachupally STP deaths, reports by Dec 22 (18:18, fact), Hans India Warangal CP Shweta reviews pending cases at Thorrur (19:37, fact, logo). Duplicates: Kishan Reddy anti-drug padayatra (published 12:35), Graduate MLC draft rolls (published 11:35), AP 46,080 police for polls (seen), Kukatpally auction BRS protest (published 14:05), Hyderabad power bank blast (published 13:05). Skipped: NewsBytes oocyte notices (13 Nov, old); Warangal camp office political statements (party claims). Not opened: Hindu APPSC exam reschedule to Dec 20-24, Hindu TG agriculture value addition (feed URLs not fetchable, not found by search), 10TV/Disha/HMTV/Suryaa Google News items, Khammam poisoning, Women's Commission oocyte Governor, Appi Reddy bail, barat knives arrests. No other India/world. Few district searches (web search returned little). Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-25T20:35:00+05:30/2026-11-25T21:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 6,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 12:35. Feeds 20:48 IST (70/70 ok; 88 uncovered unseen events first seen since 20:10, 43 local). add_repo tool not available; used existing clone. WebFetch refused feed URLs not returned by a search (first attempt lost ~10 min). Published 6: Hindu via KhanList AP SSC 2027 fee dates revised (20:14, fact), Siasat TG Rs 30,000 per church for Christmas, apply by Nov 30 (20:26, fact), Hindu via KhanList Nellore rice prices/stock limits (20:27, fact), TT Rashtrapati Nilayam closed Dec 1-Jan 1 (20:22, fact, logo), Hindu via KhanList CMRF Rs 20.25 lakh for injured Srikalahasti temple guard (20:36, fact, sensitive, no name), TT Mahabubnagar man's organs donated via Jeevandan (20:43, fact, no name). Duplicates: TT Hitec City techie crash (same as Madhapur crash published 20:05, not opened to confirm), Hindu Cyberabad net-zero HQ (published 16:35). Skipped: TT Kanak culinary pop-up (listing). Not opened/not found by search: Hindu Russia detained Hyderabad man (search gave older DC/Siasat versions), Hindu Tirupati Mayor first file, Hindu Tirupati Anjaneya temple collector, Hindu AI electronic warfare, Hindu MyTDP, India Today cop jailed 4 weeks, BigTV Uttam 15-month rice buffer, TOI TG dry weather till Dec 1, HMTV police band silver, ANI PM PRAGATI/PM-SETU, Suryaa/Disha/HMTV village items. No India/world. No district searches. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8453,6 +8453,86 @@
    "url": "https://www.thehansindia.com/news/cities/warangal/brs-cannot-be-intimidated-by-force-1145734",
    "d": "2026-11-25",
    "w": "skipped"
+  },
+  {
+   "url": "https://khanlist.com/story/revised-fee-payment-schedule-announced-for-ap-ssc-public-ccd22265",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/christmas-state-churches-to-get-rs-30k-each-for-whitewash-lights-3586801/",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://khanlist.com/story/rice-prices-soar-in-nellore-district-traders-told-to-limit-d3e3e125",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/rashtrapati-nilayam-to-close-for-winter",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://khanlist.com/story/cmrf-sanctions-2025-lakh-for-injured-srikalahasti-temple-9343ecce",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/brain-dead-patient-s-organs-donated",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/software-engineer-dies-in-hitec-city-crash",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9MU1hPTFc1U0xTc0FKVkdtNXVsU3VwNHl0V0twazUzWlpzQXllU1pyNFdOQmxZVFBPXzhPdzk3T1dIWEFVWmdpbzlhM28xM1dNVmpVTEhsMWpiOTdic3lQcFlNbm52MXNDMk8tZVpyR1I2QV9h?oc=5",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSmtZeVNKbHlvZEtNODFCcDV4OGphN2ZPRmprVjNSOUo3Snk4Mm05dC1BMUwxWjlObHhZY1RiQnQwa2NCRkVzVFJyUVBIb0FPNlhuZmZvNWh4QnBYSHBOQUc4M0lWbW1rVkM2VWNHb2Rkc0VQODdfWGZRV3lxTUdYMVZkSmw3N0ZyaWM5bkNZN2F6MlhwRVAtOHZnNjg?oc=5",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/trident",
+   "d": "2026-11-25",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/cmrf-sanctions-2025-lakh-for-injured-srikalahasti-temple-guard/article71743041.ece",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQb3NGQkp4VlJMTHNoV0RsakYyVXpwS0dWektlX3dYbEcxbllBZF9OMnRiTTN6OGZ6WjRGT0FtbVY4bHg5VUFfdEppUGd4SDJMbDBqWnJFTE1NdEgxOGFzTDdHYzNDWTBkVV9EX1dJTFFQcEREUnNlSmp6Y0JYUlNRdUV5eExlV2s2SS1DRDlJbVh6Nm5KVXZRb3JsTm0yRUpCajlFbWtwaHdReEhQS3BibU5ieGpFcnp1aW5wOVlnbU5UR3JfdW90X21VeVpIYkhpY1HSAdgBQVVfeXFMTUs0Qm9Jd2loQllqdmdtVjE4bjF1WjVqUWFGamdiUXlld0pQRGFvM3lYTGpuY2NTc01tb2c5Rk5GRmpGb3FZOXpoV1gyMi1ETFNkaVJpYndTeVFMZXpmSjNGVGRqejZVU3ZvMWs3ck9La0hSWVVMTzRIeVhpXzNwbDMwM1NTbERab19mQzVRZUtpcVhkSUxMN3RmWWY1cFo0Z19ObTNHdkR2WTVJb3VmNkQ5VE9nWkhyUWdFOURGcHBSbWZBVFBsUUVkVGpzbWl1dmduVEd4cFJ4?oc=5",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16Q3Y2NjBkemZRTU9SRTVTZXEwdlRLOUxYZ2xJeUJBMlVSTmlJS0cyWDdZeFhxUnFLejNQZ2hjNERjTHNFdVVYOTkwWTZ4UkVBRzBpOGtIeGhCc3lyMHkzVFEyYjBBOEFQekJPOGxmYw?oc=5",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/revised-fee-payment-schedule-announced-for-ap-ssc-public-exams-2027/article71743134.ece",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/cyberabad-civic-body-plans-169-crore-net-zero-headquarters-on-the-edge-of-kotha-kunta-lake/article71742492.ece",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/rice-prices-soar-in-nellore-district-traders-told-to-limit-stocks-register-on-portal/article71743206.ece",
+   "d": "2026-11-25",
+   "w": "published"
   }
  ]
 }
