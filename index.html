@@ -2567,7 +2567,7 @@ async function newsCard(s,mode){
   ctx.font=`600 36px ${TE}`; ctx.fillStyle='#6B5A63'; ctx.fillText(lab,BX,sy); const lw=ctx.measureText(lab).width;
   const rd=({te:'పూర్తి వార్త చదవండి →',en:'Read full story →',hi:'पूरी खबर पढ़ें →'})[LG()]||'Read full story →'; ctx.font=`800 34px ${TE}`; const rw=ctx.measureText(rd).width;
   ctx.fillStyle='#202124'; ctx.font=`800 36px ${TE}`; ctx.fillText(s.src||'Swipe2News',BX+lw,sy,TW-lw-rw-30); ctx.font=`800 34px ${TE}`;
-  ctx.textAlign='right'; ctx.fillStyle=PLUM; ctx.fillText(rd,W-BX,sy); ctx.textAlign='left';
+  ctx.textAlign='left'; ctx.fillStyle=PLUM; ctx.fillText(rd,W-BX-rw,sy); // placed by measured width: iPhone drew right-aligned Telugu off the card edge
   // 4) footer with QR
   const FY=H-FH; ctx.fillStyle='#14030F'; ctx.fillRect(0,FY,W,FH);
   ctx.font=`800 35px ${TE}`; ctx.fillStyle=CR; const f1=({te:'మీ ఊరి వార్తలు మీ చేతిలో! · ',en:'Your local news in your hand! · ',hi:'आपके इलाके की खबरें आपके हाथ में! · '})[LG()]||''; ctx.fillText(f1,49,FY+FH/2-22); const f1w=ctx.measureText(f1).width;
