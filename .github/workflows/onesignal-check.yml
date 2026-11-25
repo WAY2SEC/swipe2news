@@ -1,0 +1,39 @@
+name: OneSignal filter check (temporary)
+# Counts only – sends NO alerts. Creates 4 temporary segments, reads their subscriber counts, deletes them,
+# and saves the counts to branch diag-onesignal. Remove this file after the check.
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Count
+        env: { KEY: "${{ secrets.ONESIGNAL_REST_KEY }}" }
+        run: |
+          python3 - <<'PY' > counts.json
+          import json, os, time, urllib.request
+          APP='4f354e28-c33a-4836-8a3a-f25d58b2ba49'; K=os.environ['KEY']; B=f'https://api.onesignal.com/apps/{APP}/segments'
+          def call(m, url, body=None):
+              r=urllib.request.Request(url, method=m, data=json.dumps(body).encode() if body else None, headers={'Authorization':'Key '+K,'Content-Type':'application/json'})
+              try:
+                  with urllib.request.urlopen(r, timeout=30) as x: return json.loads(x.read().decode() or '{}')
+              except urllib.error.HTTPError as e: return {'http': e.code, 'err': e.read().decode()[:300]}
+          T={'tmp-lang-exists':[{'field':'tag','key':'lang','relation':'exists'}],
+             'tmp-lang-not-exists':[{'field':'tag','key':'lang','relation':'not_exists'}],
+             'tmp-edition-not-ng':[{'field':'tag','key':'edition','relation':'!=','value':'ng'}],
+             'tmp-edition-exists':[{'field':'tag','key':'edition','relation':'exists'}],
+             'tmp-te-filter':[{'field':'tag','key':'lang','relation':'!=','value':'en'},{'field':'tag','key':'lang','relation':'!=','value':'hi'}]}
+          ids={n:call('POST',B,{'name':n,'filters':f}) for n,f in T.items()}
+          time.sleep(20)
+          out={}
+          for n,r in ids.items():
+              sid=r.get('id')
+              out[n]=call('GET',f'{B}/{sid}').get('subscriber_count') if sid else r
+              if sid: call('DELETE',f'{B}/{sid}')
+          print(json.dumps(out))
+          PY
+          cat counts.json
+      - name: Save counts to branch diag-onesignal
+        run: |
+          mkdir d && cp counts.json d/ && cd d && git init -q -b diag-onesignal && git config user.name bot && git config user.email bot@x.invalid
+          git add counts.json && git commit -qm counts && git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" diag-onesignal
