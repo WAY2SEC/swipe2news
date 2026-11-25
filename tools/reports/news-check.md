@@ -1,13 +1,13 @@
 # Swipe2News story check
 
 ## news.json: 125 stories · 0 to fix · 26 to look at · 0 fixed automatically
-- CHECK: #12 "కాళేశ్వరం నీళ్లు ఎత్తే పని లేదు: సీతక్క": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #21 "హ్యాండ్‌బాల్ విజేతలు పాలమూరు, వరంగల్": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #24 "కృష్ణా వర్సిటీలో కోస్ట్ గార్డ్‌పై అవగాహన": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #49 "రాలేదని అప్పీల్ కొట్టేయొద్దు: హైకోర్టు": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #51 "విశాఖలో డిసెంబర్ 10 నుంచి స్టోన్ ఫెస్ట్": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #52 "కృష్ణా ఘాట్లలో కార్తీక పౌర్ణమి రద్దీ": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #59 "బాసర విద్యార్థి మృతిలో బెట్టింగ్ కోణం": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #1 "ఉగ్ర అలర్ట్ లీక్‌పై విచారణ కోరిన బీఆర్‌ఎ": headline is 42 characters – may not fit one line (keep ≤ 38)
+- CHECK: #15 "కాళేశ్వరం నీళ్లు ఎత్తే పని లేదు: సీతక్క": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #24 "హ్యాండ్‌బాల్ విజేతలు పాలమూరు, వరంగల్": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #27 "కృష్ణా వర్సిటీలో కోస్ట్ గార్డ్‌పై అవగాహన": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #52 "రాలేదని అప్పీల్ కొట్టేయొద్దు: హైకోర్టు": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #54 "విశాఖలో డిసెంబర్ 10 నుంచి స్టోన్ ఫెస్ట్": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #55 "కృష్ణా ఘాట్లలో కార్తీక పౌర్ణమి రద్దీ": picture line is long (37 letters) – keep stat + statl short so it fits one line
 - CHECK: #63 "భూపాలపల్లిలో వడ్లు వెంటనే కొనాలి: గండ్ర": picture line is long (35 letters) – keep stat + statl short so it fits one line
 - CHECK: #64 "ఏపీలో 3,191 సర్పంచ్ పదవులకు 26న పోలింగ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
 - CHECK: #66 "ఖాజీపేట మిడుతూరులో నామినేషన్ల ఘర్షణ": picture line is long (35 letters) – keep stat + statl short so it fits one line
@@ -30,13 +30,14 @@
 
 ### Pictures needed (create in your image tool, send to Claude)
 - **Industry & Factories** – 3 story(ies), e.g. "పౌల్ట్రీలో నంబర్ వన్ లక్ష్యం: శ్రీహరి". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
-## archive/2026-11-25.json: 56 stories · 0 to fix · 6 to look at · 0 fixed automatically
-- CHECK: #12 "కాళేశ్వరం నీళ్లు ఎత్తే పని లేదు: సీతక్క": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #21 "హ్యాండ్‌బాల్ విజేతలు పాలమూరు, వరంగల్": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #24 "కృష్ణా వర్సిటీలో కోస్ట్ గార్డ్‌పై అవగాహన": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #49 "రాలేదని అప్పీల్ కొట్టేయొద్దు: హైకోర్టు": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #51 "విశాఖలో డిసెంబర్ 10 నుంచి స్టోన్ ఫెస్ట్": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #52 "కృష్ణా ఘాట్లలో కార్తీక పౌర్ణమి రద్దీ": picture line is long (37 letters) – keep stat + statl short so it fits one line
+## archive/2026-11-25.json: 59 stories · 0 to fix · 7 to look at · 0 fixed automatically
+- CHECK: #1 "ఉగ్ర అలర్ట్ లీక్‌పై విచారణ కోరిన బీఆర్‌ఎ": headline is 42 characters – may not fit one line (keep ≤ 38)
+- CHECK: #15 "కాళేశ్వరం నీళ్లు ఎత్తే పని లేదు: సీతక్క": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #24 "హ్యాండ్‌బాల్ విజేతలు పాలమూరు, వరంగల్": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #27 "కృష్ణా వర్సిటీలో కోస్ట్ గార్డ్‌పై అవగాహన": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #52 "రాలేదని అప్పీల్ కొట్టేయొద్దు: హైకోర్టు": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #54 "విశాఖలో డిసెంబర్ 10 నుంచి స్టోన్ ఫెస్ట్": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #55 "కృష్ణా ఘాట్లలో కార్తీక పౌర్ణమి రద్దీ": picture line is long (37 letters) – keep stat + statl short so it fits one line
 
 ### Pictures needed (create in your image tool, send to Claude)
 - **Industry & Factories** – 3 story(ies), e.g. "పౌల్ట్రీలో నంబర్ వన్ లక్ష్యం: శ్రీహరి". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
