@@ -452,7 +452,11 @@ function artPlan0(s){
   if(!s||s.kind) return null;
   // owner 18 Nov 2026 ("no mistakes, we are on the Play Store"): the newsroom now picks the picture for every story
   // by reading it (field "pic", from tools/pictures.md). Keyword guessing below is only the fallback for old stories.
-  if(String(s.pic||'')==='logo') return {m:'logo'}; // owner 24 Nov 2026: "if you do not have any image, don't use anyone – just our logo"
+  if(String(s.pic||'')==='logo'){ // owner 24 Nov 2026: "if you do not have any image, don't use anyone – just our logo"
+    // …but when we do have the exact picture, use it (owner 25 Nov 2026: airport story showed the logo – "use airport images")
+    const t=[s.h,s.statl,(s.en&&s.en.h)||''].join(' ').replace(/\u200c|\u200d/g,'');
+    if(/విమానాశ్రయ|ఎయిర్\s?పోర్ట్|ఎయిర్‌పోర్ట్|\bairports?\b|हवाई\s?अड्ड|एयरपोर्ट/i.test(t)) return {m:'land',bg:'e/airport-travel'};
+    return {m:'logo'}; }
   { const pc=String(s.pic||''), m=pc.match(/^(c|o|i|n|s|cv|w|d|e)\/([a-z0-9-]+)$/);
     if(m){ if(m[1]==='c') return {m:'cat',cat:m[2]}; if(m[1]==='o') return {m:'plain',obj:m[2]}; return {m:'land',bg:m[1]==='d'?m[2]:pc}; } }
   const pk=normPlace(String(s.place||'').toLowerCase()), land=ART_D.has(pk)&&!['tg','ap'].includes(pk)?pk:'';
