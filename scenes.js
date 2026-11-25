@@ -556,9 +556,27 @@ function artParty(s,a){
 /* owner 23 Nov 2026: HYDRAA stories show HYDRAA's own logo (sent by the owner); no "AI picture" label on logos */
 const ART_ORG=[['ghmc',/జీహెచ్ఎంసీ|జీహెచ్‌ఎంసీ|\bGHMC\b|గ్రేటర్ హైదరాబాద్ మున్సిపల్/i],['hydraa',/హైడ్రా(?!లిక్|క్సి|జన్|కార్బన్|ఫోన్)|\bHYDRAA?\b|Hydraa/i],
   ['rss',/ఆర్\s?ఎస్\s?ఎస్|ఆర్‌ఎస్‌ఎస్|స్వయంసేవక్ సంఘ్|\bRSS\b|Rashtriya Swayamsevak|स्वयंसेवक संघ|आरएसएस/],
-  ['khelo-india',/ఖేలో\s?ఇండియా|Khelo\s?India|खेलो\s?इंडिया/i]]; // owner 25 Nov 2026: official Khelo India Youth Games 2026 (Telangana) logo for all its news // owner 24 Nov 2026: "use attached image for all RSS news"
+  ['khelo-india',/ఖేలో\s?ఇండియా|Khelo\s?India|खेलो\s?इंडिया/i],
+  // owner 25 Nov 2026: official emblems of India's defence and security forces (first match wins: specific forces before the Army)
+  ['territorial-army',/టెరిటోరియల్\s?ఆర్మీ|Territorial Army|प्रादेशिक सेना/i],
+  ['assam-rifles',/అస్సాం\s?రైఫిల్స్|Assam Rifles|असम राइफल्स/i],
+  ['bsf',/బీఎస్ఎఫ్|సరిహద్దు\s?భద్రతా\s?దళ|\bBSF\b|Border Security Force|बीएसएफ|सीमा सुरक्षा बल/i],
+  ['crpf',/సీఆర్పీఎఫ్|\bCRPF\b|Central Reserve Police|सीआरपीएफ/i],
+  ['cisf',/సీఐఎస్ఎఫ్|\bCISF\b|Central Industrial Security|सीआईएसएफ/i],
+  ['itbp',/ఐటీబీపీ|\bITBP\b|Indo-Tibetan Border Police|आईटीबीपी/i],
+  ['ssb',/సశస్త్ర\s?సీమా\s?బల్|Sashastra Seema Bal|सशस्त्र सीमा बल/i],
+  ['nsg',/ఎన్ఎస్జీ\s?(?:కమాండో|బ్లాక్)|బ్లాక్\s?క్యాట్|NSG commandos?|National Security Guard|एनएसजी कमांडो/i],
+  ['spg',/ఎస్పీజీ|\bSPG\b|Special Protection Group|एसपीजी/i],
+  ['ndrf',/ఎన్డీఆర్ఎఫ్|\bNDRF\b|National Disaster Response Force|एनडीआरएफ/i],
+  ['ncc',/ఎన్సీసీ\s?(?:క్యాడెట్|దినోత్సవ|శిబిర|డే)|నేషనల్\s?క్యాడెట్|\bNCC\s?(?:cadets?|Day|camp)|National Cadet Corps|एनसीसी कैडेट/i],
+  ['rpf',/ఆర్పీఎఫ్|రైల్వే\s?రక్షణ\s?దళ|\bRPF\b|Railway Protection Force|आरपीएफ/i],
+  ['navy',/నౌకాదళ|నేవీ|\bIndian Navy\b|\bNavy\b|नौसेना/i],
+  ['iaf',/వైమానిక\s?దళ|ఎయిర్\s?ఫోర్స్|ఐఏఎఫ్|\bIAF\b|Air Force|वायुसेना|वायु सेना/i],
+  ['army',/భారత\s?సైన్య|ఇండియన్\s?ఆర్మీ|భారత\s?ఆర్మీ|ఆర్మీ\s?చీఫ్|సైన్యాధిపతి|\bIndian Army\b|भारतीय सेना|थल सेना/i]];
+// Army/Navy/Air Force emblems only for India's own forces – not for stories about another country's army, navy or air force
+const ART_FOREIGN=/పాక్|పాకిస్తాన్|చైనా|అమెరికా|ఇజ్రాయెల్|ఇరాన్|రష్యా|ఉక్రెయిన్|బంగ్లాదేశ్\s?(?:సైన్య|ఆర్మీ|నేవీ)|Pakistan|China|Chinese|America|\bUS\b|U\.S\.|Israel|Iran|Russia|Ukraine|पाक|चीन|अमेरिका|इज़राइल|ईरान|रूस/i; // owner 25 Nov 2026: official Khelo India Youth Games 2026 (Telangana) logo for all its news // owner 24 Nov 2026: "use attached image for all RSS news"
 function artOrg(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[o.h,o.statl,(o.en&&o.en.h)||''].join(' ').replace(/\u200c|\u200d/g,'');
-  for(const [k,rx] of ART_ORG) if(rx.test(t)){ if(k==='rss'&&/హత్య|దాడి|మృతి|అరెస్ట్|murder|attack|kill|arrest|हत्या|हमला/i.test(t)) return ''; return 'e/logo-'+k; } return ''; }
+  for(const [k,rx] of ART_ORG) if(rx.test(t)){ if((k==='army'||k==='navy'||k==='iaf')&&ART_FOREIGN.test(t)) continue; if(k==='rss'&&/హత్య|దాడి|మృతి|అరెస్ట్|murder|attack|kill|arrest|हत्या|हमला/i.test(t)) return ''; return 'e/logo-'+k; } return ''; }
 function artPlan(s){ const ok=artOrg(s); if(ok) return {m:'land',bg:ok}; const a=artPlan1(s); const pk=artParty(s,a); return pk?{m:'land',bg:pk}:a; }
 function artPlan1(s){ const a=artPlan0(s); if(!a) return a;
   if(a.m==='cat'){ const k=ART_NEW['c/'+a.cat]; if(k) return {m:'land',bg:k}; }

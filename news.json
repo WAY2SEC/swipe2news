@@ -4,6 +4,62 @@
  "version": 2,
  "stories": [
   {
+   "cat": "హైదరాబాద్ · విమానాశ్రయం",
+   "col": "--c-money",
+   "art": "",
+   "pic": "e/airport-travel",
+   "stat": "80 కంటైనర్ల",
+   "statl": "నిల్వకు చోటు",
+   "h": "శంషాబాద్‌లో కార్గో నిల్వ 140% పెంపు",
+   "p": "శంషాబాద్ జీఎంఆర్ హైదరాబాద్ విమానాశ్రయం కార్గో టెర్మినల్‌లో కొత్త ఈటీవీ నిల్వ వ్యవస్థను అందుబాటులోకి తెచ్చారు. దీంతో కార్గో కంటైనర్ల (యూఎల్‌డీ) నిల్వ సామర్థ్యం 33 నుంచి 80కి పెరిగింది. మందులు, విలువైన సరుకుల రవాణాకు ఇది ఉపయోగపడుతుందని సంస్థ సీఈఓ కదిర్ కదిరవన్ చెప్పారు.",
+   "pts": [
+    "మందుల కోసం ఉన్న చల్లని గదులకు కంటైనర్లు నేరుగా తరలింపు",
+    "రిఫ్రిజిరేటెడ్ కంటైనర్లకు ర్యాక్‌లోనే చార్జింగ్",
+    "రోజంతా, ఒకేసారి పలు కార్గో విమానాలకు సేవలు"
+   ],
+   "why": "హైదరాబాద్ నుంచి మందులు, విలువైన సరుకుల రవాణా వేగంగా, సురక్షితంగా జరుగుతుంది.",
+   "src": "Logistics Insider",
+   "url": "https://www.logisticsinsider.in/hyderabad-airport-boosts-uld-storage-capacity-by-over-140-with-upgraded-etv-system/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "rangareddy",
+   "loc": "శంషాబాద్ విమానాశ్రయం",
+   "pub": "2026-11-25T17:57+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Airport",
+    "stat": "80 containers",
+    "statl": "storage space",
+    "loc": "Shamshabad airport",
+    "h": "Hyderabad airport boosts cargo storage by 140%",
+    "p": "GMR Hyderabad International Airport has commissioned an upgraded Elevated Transfer Vehicle (ETV) storage system at its cargo terminal. Storage for cargo containers (ULDs) rises from 33 to 80 units. CEO Kadhir Kadhiravan said it will support pharma, high-value and time-critical shipments.",
+    "pts": [
+     "Containers move straight into the pre-chilled Cool Corridor",
+     "In-rack charging for refrigerated containers",
+     "Built for round-the-clock, multi-freighter operations"
+    ],
+    "why": "Medicines and high-value cargo from Hyderabad can move faster and more safely."
+   },
+   "hi": {
+    "cat": "हैदराबाद · हवाई अड्डा",
+    "stat": "80 कंटेनरों",
+    "statl": "के रखने की जगह",
+    "loc": "शमशाबाद हवाई अड्डा",
+    "h": "हैदराबाद हवाई अड्डे पर कार्गो भंडारण 140% बढ़ा",
+    "p": "जीएमआर हैदराबाद अंतरराष्ट्रीय हवाई अड्डे के कार्गो टर्मिनल में नई ईटीवी भंडारण व्यवस्था शुरू हुई है। इससे कार्गो कंटेनरों (यूएलडी) की भंडारण क्षमता 33 से बढ़कर 80 हो गई है। सीईओ कदिर कदिरवन ने कहा कि इससे दवाओं और कीमती माल की ढुलाई में मदद मिलेगी।",
+    "pts": [
+     "कंटेनर सीधे ठंडे कूल कॉरिडोर में",
+     "रेफ्रिजरेटेड कंटेनरों के लिए रैक में ही चार्जिंग",
+     "चौबीसों घंटे, कई कार्गो विमानों के लिए एक साथ"
+    ],
+    "why": "हैदराबाद से दवाओं और कीमती माल की ढुलाई तेज़ और सुरक्षित होगी।"
+   },
+   "d": "25.11.2026",
+   "t": "18:15"
+  },
+  {
    "cat": "హైదరాబాద్ · హైకోర్టు",
    "col": "--c-gov",
    "art": "court",
@@ -2683,7 +2739,7 @@
    "cat": "హైదరాబాద్ · ప్రపంచం",
    "col": "--c-election",
    "art": "voters",
-   "pic": "n/nri",
+   "pic": "e/walking-campaign",
    "stat": "నవంబర్ 28న",
    "statl": "విక్టోరియా ఎన్నికలు",
    "h": "ఆస్ట్రేలియా ఎన్నికల బరిలో హైదరాబాద్ మహిళ",
