@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24T16:41:52+05:30",
- "src": "GoodReturns · MCX via 5paisa",
+ "updated": "2026-11-25T10:44:02+05:30",
+ "src": "GoodReturns · MCX via INDmoney",
  "cities": [
   {
    "city": "Hyderabad",
@@ -13,11 +13,11 @@
   },
   {
    "city": "Mumbai",
-   "g24": 127800,
-   "g22": 117150,
-   "silver": 175000,
-   "date": "2026-11-24",
-   "url": "https://www.goodreturns.in/news/gold-rates-today-november-24-gold-jumps-rs-27200-24k-22k-18k-gold-prices-in-bangalore-chennai-cities-1549221.html",
+   "g24": 124580,
+   "g22": 114200,
+   "silver": 165000,
+   "date": "2026-11-25",
+   "url": "https://hindi.goodreturns.in/gold-rates/mumbai.html",
    "surl": "https://www.goodreturns.in/silver-rates/"
   },
   {
@@ -40,16 +40,16 @@
   }
  ],
  "copper": {
-  "price": 1192.15,
-  "date": "2026-11-24",
-  "url": "https://www.5paisa.com/commodity-trading/mcx-copper-price"
+  "price": 1133.0,
+  "date": "2026-11-25",
+  "url": "https://www.indmoney.com/commodities/futures/copper?expiry=30-11-2026"
  },
  "prev": {
   "Hyderabad|g24": 126560,
   "Hyderabad|g22": 116000,
   "Hyderabad|silver": 175000,
-  "Mumbai|g24": 126560,
-  "Mumbai|g22": 116000,
+  "Mumbai|g24": 127800,
+  "Mumbai|g22": 117150,
   "Mumbai|silver": 175000,
   "Chennai|g24": 126560,
   "Chennai|g22": 116000,
@@ -57,6 +57,6 @@
   "Delhi|g24": 126710,
   "Delhi|g22": 116150,
   "Delhi|silver": 175000,
-  "copper": 1167.55
+  "copper": 1192.15
  }
 }
