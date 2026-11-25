@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-25T17:05:00+05:30",
+ "cutoff": "2026-11-25T17:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-22T18:35:00+05:30/2026-11-22T19:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 6,
-   "late": 2,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 5,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Lookback from 10:35 on 22 Nov. Feeds 19:00 IST (64/70 ok; Prajasakti, News18 Telugu, NewsMeter and 3 district feeds HTTP 429); 123 unseen uncovered events since 17:45 scanned by headline. add_repo tool not available; used existing clone. Published 6: ETV Bharat Hyderabad bomb-threat email (18:51), Namasthe Telangana KTR Hanumakonda sabha (18:55), Andhra Jyothy AP CID Kukatpally searches in job fraud case (18:47), ETV Bharat Tiruchanur Brahmotsavams Dec 6-14 (18:29), V6 Ramagiri Fort MP promise (18:19; page time has no zone, taken as IST), NTV CM convoy bull at Chaderghat (16:58). Duplicates: Revanth OBC count/Rs 30,000 cr (Congress PAC story published 17:05), Bhadrachalam lodge death (bandh/BRS stories published), AgriGold bond verification (published 21 Nov), Miyapur RTC bus death (in V6 bus accidents story 15:35), Malkajgiri 60 kg ganja (published 18:05). Not opened (WebFetch refused direct feed URLs, search did not return them): Siasat Chevella murder arrest, HRF on activist detention, Saudi drone; The Hindu Ambedkar Open University AP, CPI(M) on Odisha police, YSRCP on police in local polls, DRDO P.C. Jain award, Amaravati Economic Region; Telangana Today CCPA AirOne penalty, UPI MDR survey; Disha bomb-mail and Miyapur pages (client error). No district searches this run. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-22T19:05:00+05:30/2026-11-22T19:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 08:35. Feeds 16:46 IST (69/70 ok; 193 uncovered events first seen since 15:30 scanned). add_repo tool not available; used existing clone. Published 5: Siasat SIR 73.3 lakh excluded, ~1,000 fresh forms (16:21, fact), NewsMeter Khajaguda green tanker lake water - CMC manager suspended (16:28, fact), Telangana Today BRS seeks 1 TMC Tungabhadra water for RDS (15:54, claim), Telangana Today Hyderabad teen Star Miss Teen India runner-up (16:30, fact, logo), ANI/Punjab Kesari Sensex closes +1,502 (15:55, fact). Duplicates: Siasat Botcha Anusha HC order (published 05:35 via Live Law), DC Naidu revenue review (published 15:05), Kukatpally truck park HMDA protest (published 14:05). Skipped (old): Siasat Miyapur CI contempt sentence (same judgment reported 5 Nov). Not opened (PROVENANCE_REQUIRED; left unseen): Siasat Pargi woman, TT HMDA debris. Not found by search (left unseen): TOI Germany-Telangana agriculture, Andhra Jyothy Tirupati rain. Not attempted: TT unemployed youth jobs, Tirupati collector on temple rumours, Colombia hostages freed, other India/world items. No district searches. Pre-existing check ERROR: Australia poll story pic n/nri. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-25T17:05:00+05:30/2026-11-25T17:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 09:05. Feeds 17:27 IST (67/68 ok; Andhra Jyothy 429). add_repo tool not available; used existing clone. Published 3: Siasat TG HC police can't decide civil/property disputes (17:01, fact), HMTV Achampet ~30 vendor stalls removed before CM visit (16:57, claim), ThePrint/PTI Bangladesh 108 BGB platoons before Hasina return (16:45, fact, logo). Duplicates: 10TV/RTGS AP 4-day thunderstorm alert (published 24 Nov 17:35 and 05:35), Khammam ammonia/gas leak (published 12:05 via ntnews), Naidu revenue review. Skipped (old): Hans India AP 4-day rain (3 Nov), Hans Nellore rain (5 Nov), NewsMeter liquor QR scan (Oct 2025). Not found by search (left unseen): TOI RERA Aliens Developers Rs 2 cr, TT ACB warning, TT IT-corridor commute survey, Hindu TIFR-H tie-up, TOI Germany-Telangana agriculture, TG HC FIR quash ex-BJP corporator, NewsMeter Bhagwant Mann fact check, home guard posts, AP liquor scan rule (today). 8 district searches (Nalgonda, Karimnagar, Kurnool, Nellore, Adilabad/Nirmal, Khammam, Vizianagaram/Srikakulam, Warangal) returned only tag pages. Pre-existing check ERROR: Australia poll story pic n/nri. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8051,6 +8051,41 @@
   },
   {
    "url": "https://www.siasat.com/miyapur-cop-sentenced-to-4-weeks-in-jail-fined-rs-2k-for-contempt-3586439/",
+   "d": "2026-11-25",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/police-cant-interfere-in-civil-dispute-says-telangana-hc-3586576/",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/mahaboobnagar/municipal-officials-remove-petty-shops-overnight-217071",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://theprint.in/world/bangladesh-tightens-border-security-ahead-of-hasinas-planned-return-deploys-108-bgb-platoons/3108715/",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.10tv.in/telugu-news/andhra-pradesh/rtgs-warns-thunderstorms-and-ap-heavy-rain-alert-for-four-days-due-to-trough-in-bay-of-bengal-in-ap-sn-1161691.html",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/andhra-pradesh-braces-for-heavy-rain-for-next-four-days-1138796",
+   "d": "2026-11-25",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/nellore/heavy-rain-disrupts-nellore-1139555",
+   "d": "2026-11-25",
+   "w": "skipped"
+  },
+  {
+   "url": "https://newsmeter.in/top-stories/scan-qr-code-before-you-buy-a-liquor-bottle-cm-naidu-756655",
    "d": "2026-11-25",
    "w": "skipped"
   }
