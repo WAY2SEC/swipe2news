@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-25T16:05:00+05:30",
+ "cutoff": "2026-11-25T16:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-22T17:35:00+05:30/2026-11-22T18:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 4,
-   "late": 0,
-   "sensitive": 3,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Lookback from 09:35 on 22 Nov. Feeds 17:48 IST (70/70 ok); 98 unseen uncovered events since 16:50 scanned by headline. add_repo tool not available; used existing clone. Published 4: BigTV Nacharam 60.38 kg ganja, 3 arrested (17:35), Namasthe Telangana Jinkalapalli AR constable death (17:29), ETV Bharat CERC two connections for 50 MW users (17:23), V6 Chandanvelly Trefoil fire, 3 injured (17:16; page time has no zone, taken as IST). Duplicates: FPJ RailTel AP legal AI (published 13:25), Hans India AP ULB inaugural meetings (mayors oath story published). Skipped: News On AIR Janakpur-Ayodhya train (approved 15 Nov, old), Disha Trefoil fire (fetch failed; merged into V6 story). Not opened: The Hindu Vizag Steel Plant 3 gold awards and Andhrajyothy Schneider expansion (search returned only old articles). Suryaa single-source items, Disha/HMTV local items and district searches left for next runs. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-22T18:05:00+05:30/2026-11-22T18:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 07:35. Feeds 15:49 IST (70/70 ok; uncovered events first seen since 14:45 scanned). add_repo tool not available; used existing clone. Published 3: NTV Telugu CM reviews Khelo India 2026 arrangements, Dec 11-22 (15:32, fact, pic logo), Deccan Chronicle AP HC bans unauthorised recording of court proceedings (15:25, fact), IANS Cabinet Rs 11,000 cr construction equipment manufacturing scheme (15:38, fact, pic logo). Skipped (old): Oneindia Tirupati-Visakhapatnam special trains extended (pub 24 Nov 13:08). Not opened (direct feed URLs refused: PROVENANCE_REQUIRED, search did not return them; left unseen): Hindu IIIT-H junction FoB designs, TT HMDA debris on SCB corridors, Siasat Rs 33 lakh digital arrest scam, Siasat Keesara missing girl found, TT SEBI MD tenures. Not attempted (left unseen): Tirupati mayor takes charge, Tirupati collector on temple rumours, AP Rs 1,011 cr health infra, Siasat mother-sons deaths, other cabinet decisions, world items. No district searches. Pre-existing check ERROR: Australia poll story pic n/nri. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-25T16:05:00+05:30/2026-11-25T16:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 2,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 08:05. Feeds 16:25 IST (68/68 ok; 81 uncovered events first seen since 15:45 scanned, 22 local). add_repo tool not available; used existing clone. Published 2: Deccan Chronicle Cyberabad CMC Rs 169 cr twin-tower office tenders at Izzath Nagar (16:21, fact, logo), TV9 Telugu Cabinet Rs 19,934 cr decisions - Silchar airport, Kamarajar port terminal, postal schemes (16:04, fact, logo; Rs 11,000 cr CIE part already published). Duplicates: DC Kakinada 7 fishermen safe (already published 11:24), Siasat/Hans graduate MLC draft rolls (already published via Andhra Jyothy), Rs 11,000 cr CIE scheme. Not opened (PROVENANCE_REQUIRED/client error; left unseen): Siasat 73.3L voters excluded, TT BRS seeks Tungabhadra water for RDS, Deccan Herald fishermen, NewsDrum cabinet. Not attempted: Samayam IT corridor hostel drug test, HMTV Sircilla ARSI family aid, Disha Kavitha on Inter board merger, Mahabubabad hostel student delivery (sensitive), world items. No district searches. Pre-existing check ERROR: Australia poll story pic n/nri. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7983,6 +7983,31 @@
    "url": "https://telugu.oneindia.com/news/andhra-pradesh/tirupati-visakhapatnam-special-trains-extended-until-january-2027-check-full-schedule-516279.html",
    "d": "2026-11-25",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/cyberabad-cmc-invites-tenders-for-rs-169-crore-twin-tower-office-at-izzath-nagar-2007826",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://tv9telugu.com/national/narendra-modi-cabinet-approves-5-major-projects-worth-rs-19934-crore-1966479.html",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/atchannaidu-says-7-missing-kakinada-fishermen-are-safe-2007764",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/womens-share-rises-in-telangana-graduate-mlc-draft-rolls-3586515/",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/telangana/telangana-sec-releases-draft-graduate-voter-rolls-1145716",
+   "d": "2026-11-25",
+   "w": "duplicate"
   }
  ]
 }
