@@ -1,6 +1,7 @@
 # Swipe2News story check
 
-## news.json: 130 stories · 0 to fix · 23 to look at · 0 fixed automatically
+## news.json: 130 stories · 1 to fix · 23 to look at · 0 fixed automatically
+- ERROR: #3 "ఆస్ట్రేలియా ఎన్నికల బరిలో హైదరాబాద్ మహిళ": pic "n/nri" is a generic old key – pick the exact e/ scene for this event (tools/pictures.md, "Exact picture for common stories")
 - CHECK: #25 "ఉగ్ర అలర్ట్ లీక్‌పై విచారణ కోరిన బీఆర్‌ఎ": headline is 42 characters – may not fit one line (keep ≤ 38)
 - CHECK: #39 "కాళేశ్వరం నీళ్లు ఎత్తే పని లేదు: సీతక్క": picture line is long (35 letters) – keep stat + statl short so it fits one line
 - CHECK: #48 "హ్యాండ్‌బాల్ విజేతలు పాలమూరు, వరంగల్": picture line is long (35 letters) – keep stat + statl short so it fits one line
@@ -27,7 +28,8 @@
 
 ### Pictures needed (create in your image tool, send to Claude)
 - **Industry & Factories** – 2 story(ies), e.g. "పౌల్ట్రీలో నంబర్ వన్ లక్ష్యం: శ్రీహరి". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
-## archive/2026-11-25.json: 83 stories · 0 to fix · 7 to look at · 0 fixed automatically
+## archive/2026-11-25.json: 83 stories · 1 to fix · 7 to look at · 0 fixed automatically
+- ERROR: #3 "ఆస్ట్రేలియా ఎన్నికల బరిలో హైదరాబాద్ మహిళ": pic "n/nri" is a generic old key – pick the exact e/ scene for this event (tools/pictures.md, "Exact picture for common stories")
 - CHECK: #25 "ఉగ్ర అలర్ట్ లీక్‌పై విచారణ కోరిన బీఆర్‌ఎ": headline is 42 characters – may not fit one line (keep ≤ 38)
 - CHECK: #39 "కాళేశ్వరం నీళ్లు ఎత్తే పని లేదు: సీతక్క": picture line is long (35 letters) – keep stat + statl short so it fits one line
 - CHECK: #48 "హ్యాండ్‌బాల్ విజేతలు పాలమూరు, వరంగల్": picture line is long (35 letters) – keep stat + statl short so it fits one line
