@@ -1023,6 +1023,8 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 #onb .oblogo{width:104px;height:104px;border-radius:26px;box-shadow:0 0 0 3px rgba(255,253,245,.9),0 18px 40px rgba(0,0,0,.35);margin-bottom:16px}
 #onb .obwm{font:800 34px/1 'Outfit',sans-serif}#onb .obwm i,#onb .obtag i{color:#F5A23A;font-style:normal}
 #onb .obtag{margin:8px 0 26px;font:800 16px/1 'Outfit',sans-serif;opacity:.9}
+#onb .ob2,#onb .obf .ob2{display:block!important;flex:none!important;width:auto!important;height:auto!important;background:none!important;color:inherit!important;border-radius:0!important;box-shadow:none!important;font-size:.8em!important;font-weight:500!important;opacity:.72;margin-top:2px;line-height:1.35!important;letter-spacing:0}
+#onb h2 .ob2{font-size:.6em!important;margin-top:4px}
 #onb .obbig{font:800 20px/1.4 var(--body)!important;opacity:1!important;color:#FFD08A}
 #onb .oblg{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0}
 #onb .oblang{all:unset;cursor:pointer;display:flex;flex-direction:column;gap:2px;padding:14px;border-radius:18px;background:rgba(255,253,245,.08);border:1.5px solid rgba(255,253,245,.18)}
@@ -3751,36 +3753,41 @@ setTimeout(alertInvite, 60000);
   $('tutOk').onclick=()=>{ $('tut').hidden=true; store.set('tutDone',1); };
   /* ---------- first-open welcome (5 short steps): welcome · language · swipe · buttons · features ----------
      Live for new readers; ?onb=1 shows it again for testing. */
-  const OB={te:{skip:'దాటవేయి',next:'తర్వాత',start:'చదవడం మొదలుపెట్టండి',w1:'స్వాగతం!',w2:'AI చిన్న వార్తలు – 60 పదాల్లో',w3:'తెలంగాణ, ఏపీ, భారత్, ప్రపంచం – మీ భాషలో',
+  const OB={te:{skip:'దాటవేయి',next:'తర్వాత',start:'చదవడం మొదలుపెట్టండి',w1:'స్వాగతం!',w2:'AI చిన్న వార్తలు – 40 పదాల్లో',w3:'తెలంగాణ, ఏపీ, భారత్, ప్రపంచం – మీ భాషలో',
       l1:'మీ భాష ఎంచుకోండి',l2:'ఎప్పుడైనా ☰ మెనూలో మార్చుకోవచ్చు',nm:'మీ పేరు (ఐచ్ఛికం)',
       s1:'స్వైప్ చేసి చదవండి',s2:'ఎడమకు స్వైప్ – తర్వాతి వార్త',s3:'కుడికి స్వైప్ – మునుపటి వార్త',
       b1:'బటన్లతోనూ చదవండి',b2:'మునుపటి వార్త',b3:'హోమ్‌కు వెళ్లండి – మొదటి వార్త',b4:'తర్వాతి వార్త',bt:'పైన ఉన్న బటన్',b5:'ఈరోజు మీ కోసం – టాప్ 5 వార్తలు ఒకే చోట',
       f1:'ఇంకా మీ కోసం',fa:'వినండి',fa2:'వార్తను ఆడియోలో వినండి',fb:'పంచుకోండి',fb2:'WhatsAppలో న్యూస్ కార్డ్ షేర్ చేయండి',fc:'ఆఫ్‌లైన్‌లో చదవండి',fc2:'ఈరోజు వార్తలు నెట్ లేకపోయినా చదవండి',fd:'మూలం చూడండి',fd2:'వార్త సోర్స్, సందర్భం తెలుసుకోండి'},
-    en:{skip:'Skip',next:'Next',start:'Start reading',w1:'Welcome!',w2:'AI short news in 60 words',w3:'Telangana, AP, India and the world – in your language',
+    en:{skip:'Skip',next:'Next',start:'Start reading',w1:'Welcome!',w2:'AI short news in about 40 words',w3:'Telangana, AP, India and the world – in your language',
       l1:'Choose your language',l2:'Change it anytime from the ☰ menu',nm:'Your name (optional)',
       s1:'Swipe to read',s2:'Swipe left – next story',s3:'Swipe right – previous story',
       b1:'Read with buttons too',b2:'Previous story',b3:'Go home – the first story',b4:'Next story',bt:'The button at the top',b5:'Today for you – the top 5 stories in one place',
       f1:'Also for you',fa:'Listen',fa2:'Hear the news as audio',fb:'Share',fb2:'Send the news card on WhatsApp',fc:'Read offline',fc2:"Today's news, even without internet",fd:'See the source',fd2:'Know where each story comes from and its context'},
-    hi:{skip:'छोड़ें',next:'आगे',start:'पढ़ना शुरू करें',w1:'स्वागत है!',w2:'AI छोटी ख़बरें – 60 शब्दों में',w3:'तेलंगाना, आंध्र, भारत और दुनिया – आपकी भाषा में',
+    hi:{skip:'छोड़ें',next:'आगे',start:'पढ़ना शुरू करें',w1:'स्वागत है!',w2:'AI छोटी ख़बरें – लगभग 40 शब्दों में',w3:'तेलंगाना, आंध्र, भारत और दुनिया – आपकी भाषा में',
       l1:'अपनी भाषा चुनें',l2:'☰ मेन्यू से कभी भी बदलें',nm:'आपका नाम (वैकल्पिक)',
       s1:'स्वाइप करके पढ़ें',s2:'बाएँ स्वाइप – अगली ख़बर',s3:'दाएँ स्वाइप – पिछली ख़बर',
       b1:'बटन से भी पढ़ें',b2:'पिछली ख़बर',b3:'होम – पहली ख़बर पर जाएँ',b4:'अगली ख़बर',bt:'ऊपर वाला बटन',b5:'आज आपके लिए – टॉप 5 ख़बरें एक जगह',
       f1:'और भी आपके लिए',fa:'सुनें',fa2:'ख़बर ऑडियो में सुनें',fb:'शेयर करें',fb2:'WhatsApp पर न्यूज़ कार्ड भेजें',fc:'ऑफ़लाइन पढ़ें',fc2:'आज की ख़बरें बिना इंटरनेट भी',fd:'स्रोत देखें',fd2:'ख़बर का स्रोत और संदर्भ जानें'}};
-  const OT=k=>(OB[(prefs&&prefs.lang==='tl')?'en':((prefs&&prefs.lang)||'te')]||OB.te)[k];
+  const OL=()=>{ const l=(prefs&&prefs.lang==='tl')?'en':((prefs&&prefs.lang)||'te'); return OB[l]?l:'te'; };
+  const OT=k=>OB[OL()][k];
+  // owner 25 Nov 2026: the welcome reads in both Telugu and English
+  const O2L=()=>OL()==='en'?'te':'en';
+  const OT2=k=>OT(k)+(OB[O2L()][k]&&OB[O2L()][k]!==OT(k)?`<span class="ob2" lang="${O2L()}">${OB[O2L()][k]}</span>`:'');
+  const OTB=k=>OT(k)+' · '+OB[O2L()][k];
   let obStep=0, obPick=(prefs&&prefs.lang)||'te';
   function obHTML(){ const N=5, ic=d=>`<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
     const langs=ALL.filter(x=>READY.includes(x[0])).map(([id,gl,nat,en])=>`<button class="oblang${obPick===id?' on':''}" type="button" data-l="${id}"><b>${gl}</b><span>${nat}</span><small>${en}</small></button>`).join('');
     const slides=[
-      `<div class="obs obw"><img class="oblogo" src="art/logo.svg" alt=""><div class="obwm">swipe2news<i>.</i></div><div class="obtag">Know More<i>.</i> Scroll Less<i>.</i></div><h2>${OT('w1')}</h2><p class="obbig">${OT('w2')}</p><p>${OT('w3')}</p></div>`,
-      `<div class="obs"><h2>${OT('l1')}</h2><p>${OT('l2')}</p><div class="oblg">${langs}</div><label class="obnm">${OT('nm')}<input id="obName" maxlength="24" autocomplete="given-name" value="${esc((prefs&&prefs.name)||'')}"></label></div>`,
-      `<div class="obs"><h2>${OT('s1')}</h2><div class="obphone"><div class="obc c3"></div><div class="obc c2"></div><div class="obc c1"><i></i><b></b><b></b><b class="sh"></b></div><div class="obhand">👆</div><div class="obarrow">← ← ←</div></div><div class="obrow"><span class="obk">←</span>${OT('s2')}</div><div class="obrow"><span class="obk">→</span>${OT('s3')}</div></div>`,
-      `<div class="obs"><h2>${OT('b1')}</h2><div class="obdock"><span class="op">${ic('<path d="M15 6l-6 6 6 6"/>')}</span><span class="oh">${ic('<path d="M3 11l9-7 9 7"/><path d="M5 10v10h5v-6h4v6h5V10"/>')}</span><span class="on">${esc(NT('next'))} ›</span></div>
-        <div class="obrow"><span class="obk sm">‹</span>${OT('b2')}</div><div class="obrow"><span class="obk sm home">${ic('<path d="M3 11l9-7 9 7"/><path d="M5 10v10h5v-6h4v6h5V10"/>')}</span>${OT('b3')}</div><div class="obrow"><span class="obk sm">›</span>${OT('b4')}</div>
-        <div class="obtopbar"><div class="obtl">${OT('bt')}</div><div class="obmini"><img src="art/logo.svg" alt=""><b>swipe2news<i>.</i></b><span class="obmh">${ic('<path d="M3 11l9-7 9 7"/><path d="M5 10v10h5v-6h4v6h5V10"/>')}</span></div><div class="obrow">✨ ${OT('b5')}</div></div></div>`,
-      `<div class="obs"><h2>${OT('f1')}</h2>${[['fa','<path d="M7 5v14l11-7z" fill="currentColor"/>',''],['fb','<path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/>','wa'],['fc','<path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/>',''],['fd','<path d="M5 12l4 4 10-10"/>','']].map(([k,d,c])=>`<div class="obf"><span class="${c}">${ic(d)}</span><div><b>${OT(k)}</b><small>${OT(k+'2')}</small></div></div>`).join('')}</div>`];
-    return `<div class="obtop"><div class="obdots">${slides.map((_,i)=>`<i class="${i===obStep?'on':''}"></i>`).join('')}</div>${obStep<N-1?`<button class="obskip" type="button">${OT('skip')}</button>`:''}</div>
+      `<div class="obs obw"><img class="oblogo" src="art/logo.svg" alt=""><div class="obwm">swipe2news<i>.</i></div><div class="obtag">Know More<i>.</i> Scroll Less<i>.</i></div><h2>${OT2('w1')}</h2><p class="obbig">${OT2('w2')}</p><p>${OT2('w3')}</p></div>`,
+      `<div class="obs"><h2>${OT2('l1')}</h2><p>${OT2('l2')}</p><div class="oblg">${langs}</div><label class="obnm">${OT2('nm')}<input id="obName" maxlength="24" autocomplete="given-name" value="${esc((prefs&&prefs.name)||'')}"></label></div>`,
+      `<div class="obs"><h2>${OT2('s1')}</h2><div class="obphone"><div class="obc c3"></div><div class="obc c2"></div><div class="obc c1"><i></i><b></b><b></b><b class="sh"></b></div><div class="obhand">👆</div><div class="obarrow">← ← ←</div></div><div class="obrow"><span class="obk">←</span><span>${OT2('s2')}</span></div><div class="obrow"><span class="obk">→</span><span>${OT2('s3')}</span></div></div>`,
+      `<div class="obs"><h2>${OT2('b1')}</h2><div class="obdock"><span class="op">${ic('<path d="M15 6l-6 6 6 6"/>')}</span><span class="oh">${ic('<path d="M3 11l9-7 9 7"/><path d="M5 10v10h5v-6h4v6h5V10"/>')}</span><span class="on">${esc(NT('next'))} ›</span></div>
+        <div class="obrow"><span class="obk sm">‹</span><span>${OT2('b2')}</span></div><div class="obrow"><span class="obk sm home">${ic('<path d="M3 11l9-7 9 7"/><path d="M5 10v10h5v-6h4v6h5V10"/>')}</span><span>${OT2('b3')}</span></div><div class="obrow"><span class="obk sm">›</span><span>${OT2('b4')}</span></div>
+        <div class="obtopbar"><div class="obtl">${OTB('bt')}</div><div class="obmini"><img src="art/logo.svg" alt=""><b>swipe2news<i>.</i></b><span class="obmh">${ic('<path d="M3 11l9-7 9 7"/><path d="M5 10v10h5v-6h4v6h5V10"/>')}</span></div><div class="obrow"><span>✨</span><span>${OT2('b5')}</span></div></div></div>`,
+      `<div class="obs"><h2>${OT2('f1')}</h2>${[['fa','<path d="M7 5v14l11-7z" fill="currentColor"/>',''],['fb','<path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/>','wa'],['fc','<path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/>',''],['fd','<path d="M5 12l4 4 10-10"/>','']].map(([k,d,c])=>`<div class="obf"><span class="${c}">${ic(d)}</span><div><b>${OTB(k)}</b><small>${OT2(k+'2')}</small></div></div>`).join('')}</div>`];
+    return `<div class="obtop"><div class="obdots">${slides.map((_,i)=>`<i class="${i===obStep?'on':''}"></i>`).join('')}</div>${obStep<N-1?`<button class="obskip" type="button">${OTB('skip')}</button>`:''}</div>
       <div class="obbody">${slides[obStep]}</div>
-      <button class="obgo" type="button">${obStep<N-1?OT('next')+' ›':OT('start')}</button>`; }
+      <button class="obgo" type="button">${obStep<N-1?OTB('next')+' ›':OTB('start')}</button>`; }
   function obDraw(){ const o=$('onb'); o.innerHTML=obHTML(); o.querySelector('.obbody').classList.add('in'); }
   function obSave(){ const n=$('obName'); if(n){ prefs.name=n.value.replace(/[<>]/g,'').trim().slice(0,24); store.set('prefs',prefs); } }
   function obClose(){ obSave(); $('onb').hidden=true; store.set('onbDone',1); store.set('tutDone',1); store.set('langPicked',1); }
