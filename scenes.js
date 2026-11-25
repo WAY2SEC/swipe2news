@@ -559,6 +559,7 @@ function artParty(s,a){
 /* owner 23 Nov 2026: HYDRAA stories show HYDRAA's own logo (sent by the owner); no "AI picture" label on logos */
 const ART_ORG=[['ghmc',/జీహెచ్ఎంసీ|జీహెచ్‌ఎంసీ|\bGHMC\b|గ్రేటర్ హైదరాబాద్ మున్సిపల్/i],['hydraa',/హైడ్రా(?!లిక్|క్సి|జన్|కార్బన్|ఫోన్)|\bHYDRAA?\b|Hydraa/i],
   ['rss',/ఆర్\s?ఎస్\s?ఎస్|ఆర్‌ఎస్‌ఎస్|స్వయంసేవక్ సంఘ్|\bRSS\b|Rashtriya Swayamsevak|स्वयंसेवक संघ|आरएसएस/],
+  ['invest-telangana',/ఇన్వెస్ట్\s?తెలంగాణ|గ్లోబల్\s?సమ్మిట్|Invest\s?Telangana|Telangana\s?(?:Rising\s?)?Global\s?Summit|इन्वेस्ट\s?तेलंगाना|ग्लोबल\s?समिट/i], // owner 26 Nov 2026: official summit logo
   ['khelo-india',/ఖేలో\s?ఇండియా|Khelo\s?India|खेलो\s?इंडिया/i],
   // owner 25 Nov 2026: official emblems of India's defence and security forces (first match wins: specific forces before the Army)
   ['territorial-army',/టెరిటోరియల్\s?ఆర్మీ|Territorial Army|प्रादेशिक सेना/i],
