@@ -64,7 +64,20 @@ p.sum{font:400 16px/1.6 var(--tx);color:var(--ink)}
 .wel[hidden]{display:none}.wel img{width:100%;max-width:420px;max-height:68vh;object-fit:contain;border-radius:18px}
 .wel button{width:100%;max-width:420px;min-height:48px;border-radius:14px;border:0;font:800 16px var(--ui);cursor:pointer}
 .wel .go{background:var(--apricot);color:var(--deep)}.wel .al{background:#fff;color:var(--plum)}.wel .in{background:transparent;color:#F5EBDD;font:600 14px var(--ui);min-height:36px}
-.gcard{background:var(--deep)}.gcard picture{flex:1;display:flex;align-items:center;justify-content:center;padding:10px 10px 56px}.gcard img{width:100%;height:auto;max-height:100%;object-fit:contain;display:block;border-radius:16px}.gcard .hint{position:absolute;left:0;right:0;bottom:0;padding:14px;text-align:center;font:800 15px var(--ui);color:#fff;background:linear-gradient(transparent,rgba(46,8,39,.85))}
+.gcard{background:var(--deep);justify-content:flex-start}
+.gcard .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center bottom}
+.gcard .sh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,253,245,.94) 0%,rgba(255,253,245,.82) 46%,rgba(255,253,245,0) 72%)}
+.gcard.night .sh{background:linear-gradient(180deg,rgba(18,14,48,.92) 0%,rgba(18,14,48,.72) 46%,rgba(18,14,48,0) 72%)}
+.gcard .gt{position:relative;padding:22px 22px 0;display:flex;flex-direction:column;gap:6px}
+.gcard .lg{display:flex;align-items:center;gap:10px;margin:0 auto 14px}.gcard .lg img{width:46px;height:46px;border-radius:12px}
+.gcard .lg b{display:block;font:800 26px var(--ui);color:var(--plum);letter-spacing:-.02em}.gcard .lg b i{color:var(--apricot);font-style:normal}
+.gcard .lg small{display:block;font:600 13px var(--ui);color:var(--deep)}
+.gcard h2{font:800 46px/1.02 var(--ui);color:var(--deep);letter-spacing:-.02em}
+.gcard h2 em{display:block;color:#F07B1D;font-style:italic}.gcard h2 em span{font-style:normal}
+.gcard .ul{width:150px;height:5px;border-radius:5px;background:linear-gradient(90deg,#F07B1D,var(--apricot));margin:4px 0 10px}
+.gcard .sub{border-left:4px solid #F07B1D;padding-left:12px;font:700 19px/1.35 var(--ui);color:var(--deep);max-width:300px}
+.gcard.night h2,.gcard.night .sub,.gcard.night .lg b,.gcard.night .lg small{color:#fff}
+.gcard .hint{position:absolute;left:0;right:0;bottom:0;padding:16px;text-align:center;font:800 15px var(--ui);color:#fff;background:linear-gradient(transparent,rgba(46,8,39,.85))}
 .toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:var(--deep);color:#fff;font:600 14px var(--ui);padding:10px 16px;border-radius:12px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:10}
 .toast.on{opacity:1}
 </style>
@@ -128,7 +141,12 @@ function greet(){ const h=+new Date().toLocaleString('en-GB',{hour:'2-digit',hou
   return {greet:g, alt:{morning:'Good Morning, Naija!',afternoon:'Good Afternoon, Naija!',evening:'Good Evening, Naija!',night:'Good Night, Naija!'}[g]}; }
 function pick(){ list=sec==='all'?(ALL.length?[greet()].concat(ALL):ALL):ALL.filter(s=>(s.sec||[]).includes(sec)); if(i>=list.length) i=0; }
 function card(s){
-  if(s.greet) return `<article class="card gcard" id="card"><picture><source srcset="/art/ng/greet-${s.greet}.webp" type="image/webp"><img src="/art/ng/greet-${s.greet}.jpg" alt="${esc(s.alt)}"></picture><div class="hint">Swipe for today's top stories ›</div></article>`;
+  if(s.greet){ const G={morning:['Good Morning,','☀️',"Here are today's top stories, updates and alerts for you."],afternoon:['Good Afternoon,','☀️',"Catch up on today's latest news, trending stories and key updates."],
+    evening:['Good Evening,','🌅',"Here's what made headlines today across Nigeria and the world."],night:['Good Night,','🌙',"Sleep well! Stay informed, stay ahead with Swipe2News."]}[s.greet];
+    return `<article class="card gcard ${s.greet}" id="card"><picture><source srcset="/art/ng/scene-${s.greet}.webp" type="image/webp"><img class="bg" src="/art/ng/scene-${s.greet}.jpg" alt=""></picture><div class="sh"></div>
+    <div class="gt"><div class="lg"><img src="/art/logo.svg" alt=""><div><b>swipe2news<i>.</i></b><small>Know More. Scroll Less.</small></div></div>
+    <h2>${G[0]}<em>Naija! <span>${G[1]}</span></em></h2><div class="ul"></div><p class="sub">${G[2]}</p></div>
+    <div class="hint">Swipe for today's top stories ›</div></article>`; }
   const share=location.origin+'/ng/?s='+sid(s);
   const wa='https://wa.me/?text='+encodeURIComponent(s.h+'\n'+share);
   return `<article class="card" id="card">
