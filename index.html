@@ -2326,8 +2326,8 @@ function renderFeed(keepKey){
   if(JUMP){ const j=LIST.findIndex(x=>sid(x)===JUMP); JUMP=null; if(j>0) cur=j; }
   else if(keepKey){ const j=LIST.findIndex(x=>keyOf(x)===keepKey); if(j>0) cur=j; }
   warmPics(cur);
-  cards.forEach((c,k)=>{c.hidden=k!==cur;c.style.transform=''});
-  fit(cards[cur]);
+  cards.forEach((c,k)=>{c.hidden=k!==cur;c.style.transform='';c._fk=null});
+  fit(cards[cur]); cards[cur]._fk=fitKey(); setTimeout(preFit,900);
   setCount(cur+1,cards.length); syncSave();
 }
 addEventListener('resize',()=>{ if(cards[cur]) fit(cards[cur]); });
@@ -2374,10 +2374,21 @@ function bend(el,p,axis){ // p: 0 flat → 1 fully turned away
   sh.style.opacity=p<=0?'0':String(Math.min(1,p*1.6));
   sh.style.background=`linear-gradient(${axis==='y'?'0deg':'90deg'},rgba(255,255,255,0) ${Math.max(0,60-p*60)}%,rgba(255,255,255,.3) ${Math.max(5,75-p*60)}%,rgba(0,0,0,${.16+.24*p}) 100%)`; }
 function unbend(el){ el.style.transform=''; el.style.transformOrigin=''; el.style.zIndex=''; el.style.transition=''; el.style.opacity=''; if(el._sh) el._sh.style.opacity='0'; }
-function turn(el,from,to,axis,done){ const ms=Math.round(140+420*Math.abs(to-from));
+/* smooth swipe (readers, 25 Nov 2026: "hard and not smooth"): quicker turns, and a new swipe never waits for the last one –
+   the running turn is finished at once and the next starts straight away */
+let TURN=null;
+function turn(el,from,to,axis,done){ const ms=Math.round(110+250*Math.abs(to-from));
   if(REDUCE.matches){ bend(el,to,axis); done(); return; }
-  const t0=performance.now(), ease=x=>1-Math.pow(1-x,3);
-  (function step(now){ const k=Math.min(1,(now-t0)/ms); bend(el,from+(to-from)*ease(k),axis); if(k<1) requestAnimationFrame(step); else done(); })(t0); }
+  const t0=performance.now(), ease=x=>1-Math.pow(1-x,3), me={el,to,axis,done,raf:0}; TURN=me;
+  (function step(now){ if(TURN!==me) return; const k=Math.min(1,(now-t0)/ms); bend(el,from+(to-from)*ease(k),axis);
+    if(k<1) me.raf=requestAnimationFrame(step); else { TURN=null; done(); } })(t0); }
+function finishTurn(){ const t=TURN; if(!t) return; TURN=null; cancelAnimationFrame(t.raf); bend(t.el,t.to,t.axis); t.done(); }
+/* the card text is fitted once per screen size; next/previous cards are fitted while the reader is reading, so a swipe starts instantly */
+function fitKey(){ const b=document.body.classList, f=document.getElementById('feed'); return f.clientWidth+'x'+f.clientHeight+(b.contains('fs')?'f':'')+(b.contains('np')?'n':'')+document.documentElement.className; }
+function fitOnce(c){ if(!c) return; const k=fitKey(); if(c._fk===k) return; fit(c); c._fk=k; }
+function preFit(){ const run=()=>{ if(busy||drag) return; for(const k of [cur+1,cur-1,cur+2]){ const c=cards[k]; if(!c||!c.hidden||c._fk===fitKey()) continue;
+    c.style.visibility='hidden'; c.hidden=false; try{ fitOnce(c); }catch(e){} c.hidden=true; c.style.visibility=''; } };
+  (window.requestIdleCallback||((f)=>setTimeout(f,150)))(run,{timeout:800}); }
 /* load the pictures of the shown card first, then the next three, so swiping never waits */
 /* card picture did not load (weak network, app update in progress): try again, twice, then once more when the phone is back online – so a card never stays an empty purple box (reported 22 Nov 2026) */
 document.addEventListener('error',e=>{ const im=e.target; if(!(im instanceof HTMLImageElement)) return; const u=im.getAttribute('src')||''; if(!/^\/art\//.test(u)) return;
@@ -2388,17 +2399,18 @@ function warmPics(i){ try{ for(let k=i;k<=i+3&&k<cards.length;k++){ const c=card
 function go(i,dir,from){
   if(i>=0) warmPics(Math.min(i,cards.length-1));
   go.n=(go.n||0)+1; if(go.n===3) setTimeout(alertInvite,1200);
+  if(busy) finishTurn();
   if(!cards.length||busy) return;
   if(i>=cards.length && view==='home'){ snapBack(); moreNews(dir); return; }
   if(i<0||i>=cards.length){ snapBack(); toast(i<0?'ఇదే మొదటి వార్త':'ఇదే చివరి వార్త'); return; }
   if(i===cur) return;
   const out=cards[cur], inn=cards[i], fwd=i>cur, axis=(dir==='up'||dir==='down')?'y':'x';
   busy=true; DR=null; pop(!fwd); buzz(10);
-  inn.hidden=false; fit(inn);
+  inn.hidden=false; fitOnce(inn);
   if(fwd){ unbend(inn); inn.style.zIndex='1'; out.style.zIndex='2';
-    turn(out, from||0, 1, axis, ()=>{ out.hidden=true; unbend(out); unbend(inn); busy=false; }); }
+    turn(out, from||0, 1, axis, ()=>{ out.hidden=true; unbend(out); unbend(inn); busy=false; preFit(); }); }
   else { out.style.zIndex='1'; inn.style.zIndex='3'; bend(inn, from==null?1:from, axis);
-    turn(inn, from==null?1:from, 0, axis, ()=>{ out.hidden=true; unbend(out); unbend(inn); busy=false; }); }
+    turn(inn, from==null?1:from, 0, axis, ()=>{ out.hidden=true; unbend(out); unbend(inn); busy=false; preFit(); }); }
   cur=i; setCount(cur+1,cards.length); syncSave(); fsSoon(1200); setTimeout(()=>{ if(window.fsPlace) fsPlace(); },0);
   try{ const s=LIST[cur]; if(s && s.kind==='promo' && window.gtag) gtag('event','promo_view',{}); if(s && s.kind!=='promo' && window.gtag) gtag('event','story_view',{story_id:sid(s), story_title:String(s.h||'').slice(0,90), kind:s.kind||'news'}); }catch(e){}
 }
@@ -2406,25 +2418,31 @@ let DR=null; // the page being bent by the finger
 function snapBack(){ const d=DR; DR=null; const c=cards[cur]; if(!d){ if(c) unbend(c); return; }
   busy=true; turn(d.el, d.p, d.fwd?0:1, d.axis, ()=>{ if(!d.fwd) d.el.hidden=true; else { const nx=cards[cur+1]; if(nx){ nx.hidden=true; unbend(nx); } } unbend(d.el); if(c) unbend(c); busy=false; }); }
 let drag=null; const feedEl=$('feed');
-feedEl.addEventListener('pointerdown',e=>{ if(busy||!cards.length||e.target.closest('a,button')) return; acx(); drag={x:e.clientX,y:e.clientY,t:Date.now(),axis:null,id:e.pointerId}; });
+feedEl.addEventListener('pointerdown',e=>{ if(!cards.length||e.target.closest('a,button')) return; if(busy) finishTurn(); if(busy) return; acx();
+  drag={x:e.clientX,y:e.clientY,t:Date.now(),axis:null,id:e.pointerId,hist:[[performance.now(),e.clientX,e.clientY]]}; });
+let dragRaf=0;
 feedEl.addEventListener('pointermove',e=>{
   if(!drag||e.pointerId!==drag.id) return;
   const dx=e.clientX-drag.x, dy=e.clientY-drag.y;
-  if(!drag.axis){ if(Math.hypot(dx,dy)<8) return; drag.axis=Math.abs(dx)>Math.abs(dy)?'x':'y'; try{feedEl.setPointerCapture(e.pointerId)}catch(_){}
+  const hn=performance.now(); drag.hist.push([hn,e.clientX,e.clientY]); while(drag.hist.length>2&&hn-drag.hist[0][0]>120) drag.hist.shift();
+  if(!drag.axis){ if(Math.hypot(dx,dy)<7) return; drag.axis=Math.abs(dx)>=Math.abs(dy)*0.9?'x':'y'; try{feedEl.setPointerCapture(e.pointerId)}catch(_){}
     const fwd = drag.axis==='x' ? dx<0 : dy>0;
     const el = fwd ? cards[cur] : cards[cur-1];
     DR = el ? {el, fwd, axis:drag.axis, p: fwd?0:1} : null;
-    if(DR && !fwd){ el.hidden=false; fit(el); el.style.zIndex='3'; bend(el,1,drag.axis); } else if(DR){ el.style.zIndex='2'; const nx=cards[cur+1]; if(nx){ nx.hidden=false; fit(nx); unbend(nx); nx.style.zIndex='1'; } } }
+    if(DR && !fwd){ el.hidden=false; fitOnce(el); el.style.zIndex='3'; bend(el,1,drag.axis); } else if(DR){ el.style.zIndex='2'; const nx=cards[cur+1]; if(nx){ nx.hidden=false; fitOnce(nx); unbend(nx); nx.style.zIndex='1'; } } }
   if(!DR) return;
   const size=drag.axis==='x'?feedEl.clientWidth:feedEl.clientHeight, dist=drag.axis==='x'?dx:dy;
   const frac=Math.max(0,Math.min(1,(DR.fwd?(drag.axis==='x'?-dist:dist):(drag.axis==='x'?dist:-dist))/size));
-  DR.p = DR.fwd ? frac : 1-frac; bend(DR.el,DR.p,DR.axis);
+  DR.p = DR.fwd ? frac : 1-frac;
+  if(!dragRaf) dragRaf=requestAnimationFrame(()=>{ dragRaf=0; if(DR) bend(DR.el,DR.p,DR.axis); });
 });
 function endDrag(e){
   if(!drag||e.pointerId!==drag.id) return;
   const d=drag; drag=null; if(!d.axis){ if(Date.now()-d.t<450) fsTap(); return; }
   const dx=e.clientX-d.x, dy=e.clientY-d.y, dt=Math.max(1,Date.now()-d.t);
-  const dist=d.axis==='x'?dx:dy, fast=Math.abs(dist)/dt>0.45, far=Math.abs(dist)>(d.axis==='x'?feedEl.clientWidth:feedEl.clientHeight)*0.18;
+  if(dragRaf){ cancelAnimationFrame(dragRaf); dragRaf=0; if(DR) bend(DR.el,DR.p,DR.axis); }
+  const h0=d.hist[0], ht=Math.max(1,performance.now()-h0[0]), vel=((d.axis==='x'?e.clientX-h0[1]:e.clientY-h0[2]))/ht; // px per ms, last ~120 ms
+  const dist=d.axis==='x'?dx:dy, fast=Math.abs(vel)>0.3&&Math.sign(vel)===Math.sign(dist), far=Math.abs(dist)>(d.axis==='x'?feedEl.clientWidth:feedEl.clientHeight)*0.13;
   if(!(fast||far)) return snapBack();
   const from=DR?DR.p:undefined;
   // the next page under the bent one was shown for the drag; go() takes over from here
@@ -3679,6 +3697,7 @@ setTimeout(alertInvite, 60000);
   if(window.visualViewport) visualViewport.addEventListener('resize',fitH);
   document.addEventListener('touchmove',function(e){
     var el=e.target;
+    if(el && el.closest && el.closest('#feed') && !el.closest('.ssr')){ e.preventDefault(); return; }
     while(el && el!==document.body){ var cs=getComputedStyle(el); if(/(auto|scroll)/.test(cs.overflowY) && el.scrollHeight>el.clientHeight+1) return; el=el.parentElement; }
     e.preventDefault();
   },{passive:false});
