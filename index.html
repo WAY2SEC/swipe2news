@@ -2572,7 +2572,7 @@ async function newsCard(s,mode){
   const FY=H-FH; ctx.fillStyle='#14030F'; ctx.fillRect(0,FY,W,FH);
   ctx.font=`800 35px ${TE}`; ctx.fillStyle=CR; const f1=({te:'మీ ఊరి వార్తలు మీ చేతిలో! · ',en:'Your local news in your hand! · ',hi:'आपके इलाके की खबरें आपके हाथ में! · '})[LG()]||''; ctx.fillText(f1,49,FY+FH/2-22); const f1w=ctx.measureText(f1).width;
   ctx.fillStyle=AP; ctx.fillText(({te:'ఉచిత యాప్',en:'Free app',hi:'मुफ़्त ऐप'})[LG()]||'Free app',49+f1w,FY+FH/2-22);
-  ctx.font=`800 30px ${OU}`; ctx.fillStyle='rgba(255,253,245,.92)'; ctx.fillText('swipe2news.com · @swipe2newsapp',49,FY+FH/2+26);
+  ctx.font=`800 30px ${OU}`; ctx.fillStyle='rgba(255,253,245,.92)'; ctx.fillText(s&&s.h&&s.kind!=='job'?'swipe2news.com/s/'+sid(s):'swipe2news.com · @swipe2newsapp',49,FY+FH/2+26);
   try{ const q=await loadImg('brand/qr-share.png'); const QS=136, QP=14, qx=W-60-QS-2*QP, qy=FY+(FH-QS-2*QP)/2; ctx.fillStyle='#fff'; rrect(ctx,qx,qy,QS+2*QP,QS+2*QP,14); ctx.fill(); ctx.imageSmoothingEnabled=false; ctx.drawImage(q,qx+QP,qy+QP,QS,QS); ctx.imageSmoothingEnabled=true; }catch(e){} // clear white margin so phones scan it from the shared photo
   ctx.textBaseline='alphabetic';
   let url=''; try{ url=c.toDataURL('image/jpeg',0.96); }catch(e){}
@@ -2805,6 +2805,7 @@ function copyLegacy(t){ try{ const a=document.createElement('textarea'); a.value
     const r=document.createRange(); r.selectNodeContents(a); const sel=getSelection(); sel.removeAllRanges(); sel.addRange(r); a.setSelectionRange(0,t.length);
     const ok=document.execCommand('copy'); a.remove(); sel.removeAllRanges(); return ok; }catch(e){ return false; } }
 // iPhone can report the old copy as done while copying nothing, so always do BOTH, started inside the tap
+function quietCopy(t){ try{ if(navigator.clipboard&&navigator.clipboard.writeText) navigator.clipboard.writeText(t).catch(()=>{}); }catch(e){} } // no focus change: keeps the tap free for the share menu (iPhone)
 async function copyText(t){
   let p=null; try{ if(navigator.clipboard&&navigator.clipboard.writeText) p=navigator.clipboard.writeText(t); }catch(e){}
   const old=copyLegacy(t);
@@ -2977,7 +2978,13 @@ async function shareCard(viaWA){ const s=LIST[cur]; if(!s) return;
     if(!(window.isSecureContext && navigator.canShare && !(IOS && CRIOS))){ openWADirect(text); return; }
     viaWA=false; }
   let b=(cardCache.k===keyOf(s))?cardCache.blob:null;
-  if(IOS && (CRIOS||STANDALONE) && window.isSecureContext){ chromeChoice(s,text,viaWA); return; }
+  if(IOS && (CRIOS||STANDALONE) && window.isSecureContext){
+    // home-screen app: picture straight to the share menu (caption + link copied for pasting); Chrome on iPhone cannot attach
+    // pictures at all, so it shares the link – WhatsApp shows our card picture as the link preview
+    if(!CRIOS && b && navigator.canShare && navigator.canShare({files:[cardFile(b)]})){
+      quietCopy(text); try{ hdTip(); await navigator.share({files:[cardFile(b)]}); capBar(text); return; }catch(e){ if(e&&e.name==='AbortError') return; } }
+    try{ if(navigator.share){ await navigator.share({text}); return; } }catch(e){ if(e&&e.name==='AbortError') return; }
+    openWA(text); return; }
   if(IOS && (CRIOS || !window.isSecureContext)){
     // Chrome/Firefox/Edge on iPhone (and any non-https page) cannot share pictures at all:
     // go straight to WhatsApp (or the share menu) with the Swipe2News link, which shows our preview.
@@ -2992,9 +2999,11 @@ async function shareCard(viaWA){ const s=LIST[cur]; if(!s) return;
       toast('చిత్రం తయారవుతోంది…'); b=await timeout(prepCard(),8000);
       if(!b){ toast('చిత్రం తయారు కాలేదు, మళ్లీ నొక్కండి'); return; }
       showCardImage(b, text, ''); return; }
-    if(!b){ prepCard(); toast('చిత్రం సిద్ధమవుతోంది… ఒక్క క్షణం తర్వాత మళ్లీ నొక్కండి'); return; }
+    if(!b){ prepCard(); // picture not ready yet: share the link now (its preview shows the card) instead of asking to tap again
+      try{ if(navigator.share){ await navigator.share({text}); return; } }catch(e){ if(e&&e.name==='AbortError') return; } openWA(text); return; }
     let why='';
     if(navigator.share && navigator.canShare && navigator.canShare({files:[cardFile(b)]})){
+      quietCopy(text); // caption + link ready to paste under the picture
       try{ (hdTip(),await navigator.share({files:[cardFile(b)]})); capBar(text); return; }
       catch(e){ if(e&&e.name==='AbortError') return; why=e&&e.name||String(e); }
     } else why='no-file-share';
