@@ -3,7 +3,8 @@
 (.github/workflows/push-ng.yml). Only readers of /ng/ who turned alerts on get these (tag edition=ng).
 
 One top story per time slot, at most 4 a day (Nigerian time, WAT):
-  morning 06–09 "☀️ Good morning, Nigeria!" · lunch 11–14 "🍲 Lunch break?" · evening 16–19 "🌆 Good evening!" · night 20–21 "🌙 Good night!"
+  (Nigerian Pidgin) morning 05–10 "Good morning o, Naija!" · afternoon 11–15 "How your day dey go?" ·
+  evening 16–19 "How far, Naija? Evening gist don land" · night 20–21 "Sleep well o, Naija!" – each with the owner's greeting picture
 No alerts 22:00–06:00. A story is never alerted twice.   Usage: python3 tools/ng/push_ng.py [--dry]
 """
 import datetime, json, os, sys, urllib.request
@@ -14,8 +15,11 @@ FEED = os.path.join(ROOT, 'editions', 'ng', 'news.json')
 STATE = os.path.join(ROOT, 'push', 'state-ng.json')
 WAT = datetime.timezone(datetime.timedelta(hours=1))
 SITE = 'https://swipe2news.com/'
-SLOTS = [((6, 7, 8, 9), 'morning', '☀️ Good morning, Nigeria!'), ((11, 12, 13, 14), 'lunch', '🍲 Lunch break? Catch this'),
-         ((16, 17, 18, 19), 'evening', '🌆 Good evening! Top story now'), ((20, 21), 'night', '🌙 Good night! Today\'s top story')]
+# owner 25 Nov 2026: alert greetings in friendly Nigerian Pidgin, with the owner's greeting pictures (art/ng/greet-*.jpg)
+SLOTS = [((5, 6, 7, 8, 9, 10), 'morning', '☀️ Good morning o, Naija!', 'greet-morning'),
+         ((11, 12, 13, 14, 15), 'afternoon', '🌤️ How your day dey go?', 'greet-afternoon'),
+         ((16, 17, 18, 19), 'evening', '🌆 How far, Naija? Evening gist don land', 'greet-evening'),
+         ((20, 21), 'night', '🌙 Sleep well o, Naija!', 'greet-night')]
 
 
 def sid(s):  # same id as /ng/ (and index.html)
@@ -39,7 +43,7 @@ def main():
     dry = '--dry' in sys.argv
     key = os.environ.get('ONESIGNAL_REST_KEY', '').strip()
     now = datetime.datetime.now(WAT)
-    slot = next(((name, greet) for hours, name, greet in SLOTS if now.hour in hours), None)
+    slot = next(((name, greet, pic) for hours, name, greet, pic in SLOTS if now.hour in hours), None)
     if not slot:
         print(f'{now:%H:%M} WAT: no alert slot now (quiet or between slots)'); return
     try: st = json.load(open(STATE, encoding='utf-8'))
@@ -60,8 +64,9 @@ def main():
     if not top:
         print('no new story to alert'); return
     body = {'app_id': APP_ID, 'target_channel': 'push', 'filters': [{'field': 'tag', 'key': 'edition', 'relation': '=', 'value': 'ng'}],
-            'headings': {'en': f"{slot[1]} · {top['h']}"[:90]}, 'contents': {'en': short(top.get('p')) or top['h']},
+            'headings': {'en': slot[1]}, 'contents': {'en': short(top['h'] + ' – ' + (top.get('p') or ''), 150)},  # Pidgin greeting, then the story
             'url': SITE + 'ng/?s=' + sid(top), 'chrome_web_icon': SITE + 'icon-192.png', 'chrome_web_badge': SITE + 'icon-192.png',
+            'chrome_web_image': SITE + 'art/ng/' + slot[2] + '.jpg',
             'web_push_topic': 'ng-top', 'ttl': 6 * 3600}
     if dry or not key:
         print(f'[{"dry" if dry else "no key"}] {slot[0]}: {body["headings"]["en"]} | {body["contents"]["en"][:80]} | {body["url"]}'); return
