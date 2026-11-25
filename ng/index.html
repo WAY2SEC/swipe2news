@@ -8,7 +8,8 @@
 <meta name="theme-color" content="#4A0E3F">
 <link rel="icon" href="/art/logo.svg">
 <link rel="manifest" href="/manifest.webmanifest">
-<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Swipe2News"><meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -119,6 +120,12 @@ p.sum{font:400 16px/1.6 var(--tx);color:var(--ink)}
   <button type="button" class="go" id="welGo">Continue with 🇳🇬 Nigeria ›</button>
   <button type="button" class="al" id="welAl" hidden>🔔 Get daily news alerts</button>
 </div>
+<div class="sheet" id="ios" hidden role="dialog" aria-modal="true" aria-labelledby="iosT"><div>
+  <h2 id="iosT">📲 Add Swipe2News to your iPhone</h2>
+  <p>Get Swipe2News like an app – one tap from your Home Screen, plus news alerts.</p>
+  <p style="color:var(--ink);font-weight:600">1. Tap the <b>Share</b> button <span aria-hidden="true">⬆️</span> at the bottom of Safari<br>2. Scroll down and tap <b>Add to Home Screen</b><br>3. Tap <b>Add</b>, then open Swipe2News from your Home Screen</p>
+  <button class="opt" type="button" id="iosOk" style="justify-content:center;background:var(--apricot);border-color:var(--apricot);color:var(--deep)">OK, got it</button>
+</div></div>
 <div class="toast" id="toast" role="status"></div>
 <script>
 /* Swipe2News – Nigeria edition (test, 24 Nov 2026). Reads /editions/ng/news.json (same format as /news.json, English text).
@@ -199,28 +206,37 @@ $('sheet').onclick=e=>{ const b=e.target.closest('[data-ed],[data-close]'); if(e
   else if(b) $('sheet').hidden=true; };
 /* Nigeria alerts (OneSignal, same app as India): readers here are tagged edition=ng + lang=en, so they get only the
    Nigeria greetings (tools/ng/push_ng.py) and none of the India alerts. */
-const pushOK=['swipe2news.com','www.swipe2news.com'].includes(location.hostname)&&'serviceWorker' in navigator&&'Notification' in window;
+const onSite=['swipe2news.com','www.swipe2news.com'].includes(location.hostname);
+const IOS=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+const STANDALONE=matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
+const pushOK=onSite&&'serviceWorker' in navigator&&'Notification' in window;   // iPhone: only once added to the Home Screen
 window.OneSignalDeferred=window.OneSignalDeferred||[];
 const tag=OS=>{ try{ OS.User.addTags({edition:'ng',lang:'en'}); }catch(e){} };
 const bell=on=>{ $('bell').setAttribute('aria-pressed',!!on); };
-if(pushOK){
-  $('bell').hidden=false;
+let osLoaded=false;
+function loadOS(){ if(osLoaded||!pushOK) return; osLoaded=true;   // saves data: the alerts code loads only when needed
+  const s=document.createElement('script'); s.src='https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js'; s.defer=true; document.head.appendChild(s);
   OneSignalDeferred.push(async function(OS){
     await OS.init({ appId:'4f354e28-c33a-4836-8a3a-f25d58b2ba49', serviceWorkerPath:'OneSignalSDKWorker.js', serviceWorkerParam:{ scope:'/' } });
     bell(OS.Notifications.permission);
     OS.Notifications.addEventListener('permissionChange',p=>{ bell(p); if(p) tag(OS); });
-    if(OS.Notifications.permission) tag(OS);   // also moves readers who turned alerts on earlier in the India app
-  });
-}
+    if(OS.Notifications.permission) tag(OS);
+  }); }
+const iosGuide=()=>{ $('ios').hidden=false; try{ localStorage.setItem('s2n.ng.ios',Date.now()); }catch(e){} };
+$('iosOk').onclick=()=>{ $('ios').hidden=true; };
+if(pushOK){ $('bell').hidden=false; if(Notification.permission==='granted'){ bell(true); loadOS(); } }
+else if(onSite&&IOS&&!STANDALONE){ $('bell').hidden=false; }   // iPhone in Safari: the bell shows how to add the app
 function askAlerts(){ $('ask').hidden=true; try{ localStorage.setItem('s2n.ng.asked',Date.now()); }catch(e){}
-  if(!pushOK) return; if(Notification.permission==='denied'){ toast('Alerts are blocked – allow notifications for swipe2news.com in settings'); return; }
+  if(!pushOK){ if(IOS&&!STANDALONE) iosGuide(); return; } loadOS(); if(Notification.permission==='denied'){ toast('Alerts are blocked – allow notifications for swipe2news.com in settings'); return; }
   OneSignalDeferred.push(async function(OS){ try{ await OS.Notifications.requestPermission(); }catch(e){} if(OS.Notifications.permission){ tag(OS); toast('🔔 Alerts on – Nigeria news only'); } }); }
-$('bell').onclick=()=>{ if($('bell').getAttribute('aria-pressed')==='true') return toast('Alerts are on ✓'); askAlerts(); };
+$('bell').onclick=()=>{ if($('bell').getAttribute('aria-pressed')==='true') return toast('Alerts are on ✓'); if(!pushOK&&IOS) return iosGuide(); askAlerts(); };
 $('askYes').onclick=askAlerts;
-if(pushOK&&'Notification' in window&&Notification.permission==='default'){ $('welAl').hidden=false; $('welAl').onclick=()=>{ askAlerts(); $('welAl').hidden=true; }; }
+if((pushOK&&Notification.permission==='default')||(onSite&&IOS&&!STANDALONE)){ $('welAl').hidden=false; $('welAl').onclick=()=>{ askAlerts(); $('welAl').hidden=true; }; }
 $('askNo').onclick=()=>{ $('ask').hidden=true; try{ localStorage.setItem('s2n.ng.asked',Date.now()); }catch(e){} };
 // invite once, after the reader has looked at 2 stories (again after 7 days if they said "Not now")
-let swipes=0; const _go=go; go=function(d){ _go(d); if(++swipes===2&&pushOK&&'Notification' in window&&Notification.permission==='default'){
+let swipes=0; const _go=go; go=function(d){ _go(d); swipes++;
+  if(swipes===3&&onSite&&IOS&&!STANDALONE){ let a=0; try{ a=+localStorage.getItem('s2n.ng.ios')||0; }catch(e){} if(Date.now()-a>14*864e5&&$('sheet').hidden&&$('ask').hidden) iosGuide(); }
+  if(swipes===2&&pushOK&&Notification.permission==='default'){
   let a=0; try{ a=+localStorage.getItem('s2n.ng.asked')||0; }catch(e){} if(Date.now()-a>7*864e5&&$('sheet').hidden) $('ask').hidden=false; } };
 load();
 })();
