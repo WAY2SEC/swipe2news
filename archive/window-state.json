@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-25T13:35:00+05:30",
+ "cutoff": "2026-11-25T14:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-22T15:05:00+05:30/2026-11-22T15:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 1,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 6,
-   "review": 0,
-   "gaps": "Lookback from 07:05 on 22 Nov. Feeds 15:16 IST (68/68 ok). add_repo not available; used existing clone. Published 3: V6 Kukatpally+Miyapur bus accidents 2 dead (14:13, late, sensitive, no names), HMTV Basara Karthika Sunday crowds (14:34), HMTV Suryapet Indiramma insurance camps (13:48). Duplicates: Prabha News Mancherial AgriGold bond verification (statewide schedule published 21 Nov), Hans India Chandrababu panchayat directions (published 13:47), Nepal PM arrival (preview published 06:07). Skipped: ap7am Revanth 'mad dogs' (19 Nov, old), Hans Suryapet RTO extortion arrests (05:33) and Nandyal Akshara Andhra (06:45) before lookback, HMTV Kawal fog (similar Mancherial fog story today), HMTV Basara Rajaka press meet (minor), Andhra Jyothy Kukatpally tipper crash (Jul 2026). Not opened: TOI Revanth dogs-row, Namasthe Telangana Mallu Ravi remarks, The Hindu i-ALERT RTC, The Hindu NHAI fatalities, Disha Rs 1,000 knife attack, News18 belt-shop raid, ETV RK Beach walk (searches did not return articles). check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-22T15:35:00+05:30/2026-11-22T16:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Lookback from 05:05. Feeds 13:12 IST (69/70 ok; Google News topic:Andhra Pradesh HTTP 429; 56 uncovered events first seen since 12:39 scanned, 21 local). add_repo tool not available; used existing clone. Published 5: DC Gachibowli PG hostel 6 drug-positive incl 2 techies (13:03, fact, police source, sensitive), NTV AP Assembly winter session likely from Dec 5 (13:03, claim - unofficial report), The Hindu via KhanList HUMTA 120 skywalk/FoB locations (12:50, fact), ETV Bharat IPL 2027 auction 1,220 players (13:11, fact), TT/AP 2 Libyan naval officers die after Benghazi drone attack (12:52, fact). Duplicates: Disha AP Assembly (same event). Not found by search: 10TV TG 2,000 home guard posts, V6 University of Hyderabad jobs Dec 7, Audacy Bangladesh garment minimum wage (search returned only 2023 items). Not attempted (left unseen): Munsif CM urban projects, Construction World Mamnoor airport (may), Inshorts AICC meets TG MLAs, Siasat Hyderabad homes Rs 21 lakh, Disha Ponguleti medical student, ETV e-challan Parivahan, Prajasakti HC live-streaming, older local multi-source events (Khammam rat poison, West Godavari electrocution, AP rain alert). District searches: 4 (Nalgonda, Kurnool, Nizamabad, Tirupati) returned only tag pages. Pre-existing check ERROR: Australia poll story pic n/nri. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-25T13:35:00+05:30/2026-11-25T14:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 8,
+   "published": 8,
+   "late": 1,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 05:35. Feeds 13:47 IST (70/70 ok; 84 uncovered events first seen since 13:00 scanned, 22 local). add_repo tool not available; used existing clone. Published 8: TT KTR/Harish condemn Kukatpally land auction protest arrests (13:39, claim, sensitive), DC Jogipet SC girls hostel students ill (13:42, claim, sensitive; source says 4 in headline, 7 in text), TT Congress may skip 3-year celebrations (13:36, claim - unnamed sources), TV9 VMRDA says Vizag not renamed/Bay-Tech City (13:20, fact), ThePrint/PTI SC sets aside HC order in Rahul Gandhi assets case (13:45, fact), SocialNews/IANS India top milk producer (13:03, fact), Daijiworld women's hockey world No. 5 (11:24, fact, late-found), ThePrint/Reuters North Korea expels Swiss diplomat (12:30, fact). Duplicate: Eenadu VMRDA no rename (same event). Not found by search: Colombia hostages freed follow-up. Not attempted (left unseen): ETV Bharat Khammam woman/children deaths, Prime9 Nidadavolu vice-chair poll tension, Vaartha ration card cancellations, Disha Sajjanar fire safety, Siasat women unsafe study, Siasat CPI(M) activist murder life terms, News On AIR Surya Kiran exercise, HMTV Mancherial insurance centres, ETV Vijayawada railway hospital. No district searches. Pre-existing check ERROR: Australia poll story pic n/nri. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7808,6 +7808,51 @@
    "url": "https://www.dishadaily.com/andhrapradesh/ap-assembly-winter-session-from-december-5-603570",
    "d": "2026-11-25",
    "w": "2026-11-25T13:35:00+05:30"
+  },
+  {
+   "url": "https://telanganatoday.com/ktr-harish-rao-seek-protesters-release",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/sangareddy-four-students-fall-ill-at-sc-girls-hostel-in-jogipet-2007779",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/congress-to-skip-anniversary-celebrations-amid-farmer",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://tv9telugu.com/videos/vmrda-clarifies-vizag-bay-tech-city-project-amidst-renaming-rumours-1966342.html",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://theprint.in/india/sc-sets-aside-allahabad-hc-order-directing-cbi-ed-to-verify-da-allegations-against-rahul-gandhi/3108401/",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.socialnews.xyz/2026/11/25/india-remains-worlds-largest-milk-producer-output-up-69-pc/",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://daijiworld.com/news/newsDisplay?newsID=1336253",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://theprint.in/world/north-korea-expels-swiss-diplomat-over-sanctions-weeks-after-office-reopening/3108309/",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.eenadu.net/telugu-news/districts/visakhapatnam-news/11/126214147",
+   "d": "2026-11-25",
+   "w": "duplicate"
   }
  ]
 }
