@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-25T15:35:00+05:30",
+ "cutoff": "2026-11-25T16:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-22T17:05:00+05:30/2026-11-22T17:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 1,
-   "published": 1,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 6,
-   "review": 0,
-   "gaps": "Lookback from 09:05 on 22 Nov. Feeds 17:12 IST (70/70 ok). add_repo tool not available; used existing clone. WebFetch refused direct feed URLs (provenance) for The Hindu Revanth Simon Commission-SIR and Telangana Today women in crime networks; search did not return them -> not opened. Published 1: Siasat Bahrain Iranian attacks two injured (17:11). Skipped: ToI C-section (NFHS-6 data from May, not new), Adda247 526 asst professor posts (Telangana Today reported 13 Nov), Moneycontrol India-EU FTA Dec 16 (announced Sept), DC/Hans Indiramma insurance (21 Nov, before lookback), Munsif Naini-KTR (fetch failed), Hyderabad packing fire (Eenadu only via Google; not found at other outlets). 6 district searches returned only old/tag pages. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-22T17:35:00+05:30/2026-11-22T18:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 0,
    "gaps": "Lookback from 07:05. Feeds 15:17 IST (68 feeds ok; 31 uncovered events first seen since 15:00 scanned, 12 local; plus older local multi-source events). add_repo tool not available; used existing clone. Direct feed URLs refused by WebFetch without search provenance; opened via search results. Published 4: Siasat Basar (Nirmal) house fire burns Rs 10 lakh wedding savings (15:07, fact), Andhra Jyothy CM Naidu orders report on Penna illegal sand mining at Proddatur (13:39, fact; BigTV 13:51 same event = duplicate), Telangana Today proposed immediate licence suspension for NSQ drugs (15:05, fact), Live Law TG HC lets student register for JEE Main 2027 without Aadhaar (10:30, fact, late-found). Skipped (old, before lookback): DC 2,000 home guards (20 Nov), Hans India/Siasat El Nino Rs 10,000 cr plan (24 Nov/25 Nov 04:52), Bar & Bench Kia 2nd AP unit (04:26; MoU 12 Nov), Vaartha/South Matters Cheyutha pensions Nov 26 (19 Nov). Not opened: Sakshi Education AP school holidays Nov 26 (client error). Not attempted (left unseen): Kurnool LPG consumer order (search failed), Eluru job mela Nov 30, ICAR-CRIDA event, SEBI MD tenures, Pawan Khera Gaza aid, HUMTA 2050 plan, India/world items. No district searches. Pre-existing check ERROR: Australia poll story pic n/nri. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-25T15:35:00+05:30/2026-11-25T16:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 07:35. Feeds 15:49 IST (70/70 ok; uncovered events first seen since 14:45 scanned). add_repo tool not available; used existing clone. Published 3: NTV Telugu CM reviews Khelo India 2026 arrangements, Dec 11-22 (15:32, fact, pic logo), Deccan Chronicle AP HC bans unauthorised recording of court proceedings (15:25, fact), IANS Cabinet Rs 11,000 cr construction equipment manufacturing scheme (15:38, fact, pic logo). Skipped (old): Oneindia Tirupati-Visakhapatnam special trains extended (pub 24 Nov 13:08). Not opened (direct feed URLs refused: PROVENANCE_REQUIRED, search did not return them; left unseen): Hindu IIIT-H junction FoB designs, TT HMDA debris on SCB corridors, Siasat Rs 33 lakh digital arrest scam, Siasat Keesara missing girl found, TT SEBI MD tenures. Not attempted (left unseen): Tirupati mayor takes charge, Tirupati collector on temple rumours, AP Rs 1,011 cr health infra, Siasat mother-sons deaths, other cabinet decisions, world items. No district searches. Pre-existing check ERROR: Australia poll story pic n/nri. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7956,6 +7956,31 @@
   },
   {
    "url": "https://www.southmatters.com/telangana/telangana-cheyutha-pension-november-26-2026/",
+   "d": "2026-11-25",
+   "w": "skipped"
+  },
+  {
+   "url": "https://ntvtelugu.com/news/cm-revanth-reddy-reviews-khelo-india-2026-arrangements-telangana-1038726.html",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-high-court-bans-recording-live-streaming-screenshots-of-court-proceedings-2007800",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://ianslive.in/cabinet-okays-rs-11000-crore-scheme-to-promote-domestic-manufacturing-of-construction-infra-equipment--20261125153302",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/stage-being-set-for-khelo-india-in-telangana-from-december-11-to-22/article71741820.ece",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/andhra-pradesh/tirupati-visakhapatnam-special-trains-extended-until-january-2027-check-full-schedule-516279.html",
    "d": "2026-11-25",
    "w": "skipped"
   }
