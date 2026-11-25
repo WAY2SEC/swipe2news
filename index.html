@@ -1572,6 +1572,8 @@ const store = {
   set(k,v){try{localStorage.setItem('w2s.'+k,JSON.stringify(v))}catch(e){}}
 };
 let prefs = store.get('prefs', null);
+/* owner 25 Nov 2026: Tenglish removed (readers found it confusing) – anyone who had it now reads Telugu */
+if(prefs && prefs.lang==='tl'){ prefs.lang='te'; store.set('prefs',prefs); }
 const firstRun = !prefs;
 prefs = prefs || {place:'TS', topics:DEFAULT_TOPICS.slice()};
 if(!Array.isArray(prefs.topics)) prefs.topics=DEFAULT_TOPICS.slice(); if(!prefs.place) prefs.place='TS'; // a story page may have saved only the language
@@ -3730,10 +3732,10 @@ setTimeout(alertInvite, 60000);
 })();
 /* ===== Swipe2News v5.1: card buttons, language screen, first-open tutorial ===== */
 (function(){
-  const ALL=[['te','తె','తెలుగు','Telugu'],['tl','Te','Tenglish','Tenglish'],['hi','हि','हिन्दी','Hindi'],['en','A','English','English'],['ta','த','தமிழ்','Tamil'],
+  const ALL=[['te','తె','తెలుగు','Telugu'],['hi','हि','हिन्दी','Hindi'],['en','A','English','English'],['ta','த','தமிழ்','Tamil'],
     ['kn','ಕ','ಕನ್ನಡ','Kannada'],['ml','മ','മലയാളം','Malayalam'],['mr','म','मराठी','Marathi'],['bn','বা','বাংলা','Bengali'],
     ['gu','ગુ','ગુજરાતી','Gujarati'],['or','ଓ','ଓଡ଼ିଆ','Odia'],['pa','ਪੰ','ਪੰਜਾਬੀ','Punjabi'],['ur','ا','اردو','Urdu']];
-  const READY=['te','tl','en','hi'];
+  const READY=['te','en','hi']; // Tenglish (tl) removed 25 Nov 2026
   let pick=(prefs&&prefs.lang)||'te';
   function lngLabel(){ const n=$('lngName'); if(n) n.textContent=U('lname'); }
   function applyLang(n){ prefs.lang=n; store.set('prefs',prefs); setJobs(store.get('jobs',[])); cardCache={k:null,blob:null,p:null};
