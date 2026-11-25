@@ -1,8 +1,986 @@
 {
  "date": "25.11.2026",
- "updated": "2026-11-25T06:35:00+05:30",
+ "updated": "2026-11-25T07:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "ఏపీ · పెట్టుబడులు",
+   "col": "--c-money",
+   "pic": "e/industrial-production",
+   "stat": "₹88,625 కోట్ల",
+   "statl": "పెట్టుబడులకు ఆమోదం",
+   "h": "ఏపీలో ₹88,625 కోట్ల పెట్టుబడులకు ఆమోదం",
+   "p": "ముఖ్యమంత్రి చంద్రబాబు నాయుడు అధ్యక్షతన మంగళవారం జరిగిన రాష్ట్ర పెట్టుబడుల ప్రోత్సాహక బోర్డు సమావేశం 17 ప్రతిపాదనలను ఆమోదించింది. మొత్తం ₹88,625 కోట్ల పెట్టుబడులతో 54,419 ఉద్యోగాలు వస్తాయని ప్రభుత్వం అంచనా వేసింది. శ్రీసత్యసాయి జిల్లాలో కియా ₹19,000 కోట్లు, శ్రీకాకుళంలో అదానీ ₹13,667 కోట్లు పెట్టనున్నాయి. అనకాపల్లి జిల్లాలో భారీ డేటా సెంటర్ రానుంది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-cm-clears-rs-88625-crore-investments-54419-jobs-promised-2007667",
+   "sec": [
+    "telangana",
+    "business",
+    "jobs"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pts": [
+    "మాకవరపాలెం డేటా సెంటర్ పెట్టుబడి ₹47,009 కోట్లు",
+    "కాపులుప్పాడ ఐటీ ప్రాజెక్టులో 27,600 ఉద్యోగాలు",
+    "ఇప్పటివరకు 24 సమావేశాల్లో 431 ప్రాజెక్టులకు ఆమోదం"
+   ],
+   "why": "కొత్త పరిశ్రమలతో ఏపీ యువతకు ఉద్యోగ అవకాశాలు పెరగవచ్చు.",
+   "pub": "2026-11-25T00:32+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Investments",
+    "stat": "₹88,625 crore",
+    "statl": "investments approved",
+    "loc": "Andhra Pradesh",
+    "h": "AP clears ₹88,625 crore investments",
+    "p": "Andhra Pradesh's State Investment Promotion Board, chaired by Chief Minister N. Chandrababu Naidu, approved 17 proposals on Tuesday. The government estimates a total investment of ₹88,625 crore and 54,419 jobs. Kia is to invest ₹19,000 crore in Sri Sathya Sai district and Adani ₹13,667 crore in Srikakulam. A large data centre is planned in Anakapalli district.",
+    "pts": [
+     "Makavarapalem data centre investment: ₹47,009 crore",
+     "Kapuluppada IT project: 27,600 jobs",
+     "431 projects cleared in 24 board meetings so far"
+    ],
+    "why": "New industries could mean more job openings for young people in AP."
+   },
+   "hi": {
+    "cat": "एपी · निवेश",
+    "stat": "₹88,625 करोड़",
+    "statl": "के निवेश को मंज़ूरी",
+    "loc": "आंध्र प्रदेश",
+    "h": "एपी में ₹88,625 करोड़ के निवेश को मंज़ूरी",
+    "p": "मुख्यमंत्री चंद्रबाबू नायडू की अध्यक्षता में मंगलवार को हुई राज्य निवेश प्रोत्साहन बोर्ड की बैठक ने 17 प्रस्ताव मंज़ूर किए। सरकार का अनुमान है कि कुल ₹88,625 करोड़ के निवेश से 54,419 नौकरियां आएंगी। श्री सत्य साई ज़िले में किआ ₹19,000 करोड़ और श्रीकाकुलम में अदाणी ₹13,667 करोड़ लगाएंगे। अनकापल्ली ज़िले में बड़ा डेटा सेंटर बनेगा।",
+    "pts": [
+     "माकवरपालेम डेटा सेंटर में ₹47,009 करोड़ का निवेश",
+     "कापुलुप्पाडा आईटी परियोजना में 27,600 नौकरियां",
+     "अब तक 24 बैठकों में 431 परियोजनाएं मंज़ूर"
+    ],
+    "why": "नए उद्योगों से एपी के युवाओं के लिए रोज़गार के मौके बढ़ सकते हैं।"
+   },
+   "d": "25.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · నంద్యాల",
+   "col": "--c-city",
+   "pic": "e/remembrance-and-condolence",
+   "stat": "బాలుడు మృతి",
+   "statl": "గుడిసె అగ్ని ప్రమాదంలో",
+   "h": "నంద్యాల జిల్లాలో గుడిసె కాలి బాలుడు మృతి",
+   "p": "నంద్యాల జిల్లా కొత్తపల్లి మండలంలోని ఒక గ్రామంలో మంగళవారం గుడిసెకు నిప్పంటుకుని, లోపల నిద్రపోతున్న ఐదేళ్ల బాలుడు మృతి చెందాడు. ఫోన్ ఛార్జింగ్ కోసం పెట్టిన సోలార్ ప్యానెల్ వైర్లలో షార్ట్ సర్క్యూట్ వల్ల మంటలు వచ్చాయని సమాచారం. కొంచెం దూరంలో బట్టలు ఉతుకుతున్న తల్లి పరుగున వచ్చినా కాపాడలేకపోయారు. పోలీసులు కేసు నమోదు చేశారు.",
+   "src": "Andhra Jyothy",
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/nandyal-solar-battery-short-circuit-causes-fire-and-claims-young-boys-life-1579572.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-nandyal",
+   "loc": "కొత్తపల్లి మండలం",
+   "pts": [
+    "తండ్రి కూలి పనికి వెళ్లిన సమయంలో ప్రమాదం",
+    "మృతదేహాన్ని ఆత్మకూరు ప్రభుత్వ ఆసుపత్రికి తరలించారు"
+   ],
+   "why": "గుడిసెల్లో సోలార్, విద్యుత్ వైరింగ్ విషయంలో జాగ్రత్త అవసరమని ఈ ఘటన గుర్తు చేస్తోంది.",
+   "pub": "2026-11-25T04:40+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Nandyal",
+    "stat": "Boy dies",
+    "statl": "in hut fire",
+    "loc": "Kothapalli mandal, Nandyal",
+    "h": "Boy, 5, dies in hut fire in Nandyal district",
+    "p": "A five-year-old boy asleep inside a hut died when it caught fire on Tuesday in a village in Kothapalli mandal of Nandyal district. The fire is reported to have started from a short circuit in the wiring of a solar panel used to charge a phone. His mother, washing clothes a short distance away, ran back but could not save him. Police have registered a case.",
+    "pts": [
+     "The father was away on daily-wage work at the time",
+     "Body shifted to Atmakur government hospital"
+    ],
+    "why": "The incident is a reminder to take care with solar and electrical wiring in huts."
+   },
+   "hi": {
+    "cat": "एपी · नंद्याल",
+    "stat": "बच्चे की मौत",
+    "statl": "झोपड़ी की आग में",
+    "loc": "कोत्तापल्ली मंडल, नंद्याल",
+    "h": "नंद्याल ज़िले में झोपड़ी जली, बच्चे की मौत",
+    "p": "नंद्याल ज़िले के कोत्तापल्ली मंडल के एक गांव में मंगलवार को झोपड़ी में आग लगने से अंदर सो रहे पांच साल के बच्चे की मौत हो गई। बताया गया कि फ़ोन चार्ज करने के लिए लगे सोलर पैनल की वायरिंग में शॉर्ट सर्किट से आग लगी। कुछ दूरी पर कपड़े धो रही मां दौड़कर आईं, पर बचा नहीं सकीं। पुलिस ने मामला दर्ज किया है।",
+    "pts": [
+     "हादसे के समय पिता मज़दूरी पर गए थे",
+     "शव आत्मकूर सरकारी अस्पताल भेजा गया"
+    ],
+    "why": "यह घटना याद दिलाती है कि झोपड़ियों में सोलर और बिजली की वायरिंग में सावधानी ज़रूरी है।"
+   },
+   "d": "25.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ములుగు · రాజకీయం",
+   "col": "--c-water",
+   "pic": "e/government-press-briefing",
+   "stat": "కాళేశ్వరం",
+   "statl": "పంపులు అవసరం లేదన్న మంత్రి",
+   "h": "కాళేశ్వరం నీళ్లు ఎత్తే పని లేదు: సీతక్క",
+   "p": "కాళేశ్వరం నీళ్లు ఎత్తిపోయకపోయినా పంటలు పండుతున్నాయని, పంపులు నడపాల్సిన అవసరం లేదని మంత్రి సీతక్క అన్నారు. ములుగు జిల్లాలో పింఛన్ల పంపిణీ కార్యక్రమంలో ఆమె మాట్లాడారు. వరంగల్‌కు ఎస్సారెస్పీ, దేవాదుల నుంచి నీరు వస్తోందని చెప్పారు. కట్టడం కూలే ప్రమాదం ఉన్నందునే నీళ్లు ఎత్తలేదని అన్నారు. ఈ వ్యాఖ్యలపై వివాదం రేగిందని నమస్తే తెలంగాణ పేర్కొంది.",
+   "src": "Namasthe Telangana",
+   "url": "https://www.ntnews.com/telangana/minister-seethakkas-remarks-on-kaleshwaram-project-spark-political-controversy-2568412",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "mulugu",
+   "loc": "",
+   "pts": [
+    "రెండేళ్లుగా నీళ్లు ఎత్తకుండానే రికార్డు దిగుబడి వచ్చిందని మంత్రి వాదన",
+    "కాళేశ్వరం నీరు సిరిసిల్ల, సిద్దిపేట, గజ్వేల్‌కే వెళ్లిందన్నారు"
+   ],
+   "why": "కాళేశ్వరంపై రాజకీయ చర్చ సాగునీటిపై ఆధారపడే తెలంగాణ రైతులకు ముఖ్యం.",
+   "pub": "2026-11-25T06:47+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Mulugu · Politics",
+    "stat": "Kaleshwaram",
+    "statl": "no need to run pumps, says minister",
+    "loc": "Mulugu district",
+    "h": "No need to lift Kaleshwaram water: Seethakka",
+    "p": "Minister Seethakka said crops are growing even without lifting Kaleshwaram water and there is no need to run the pumps. She was speaking at a pension distribution event in Mulugu district. She said Warangal gets water from SRSP and Devadula, and that water was not lifted because the structure could collapse. Namasthe Telangana reported that the remarks have stirred a controversy.",
+    "pts": [
+     "Minister claims record yields in two years without lifting water",
+     "She said Kaleshwaram water went only to Sircilla, Siddipet and Gajwel"
+    ],
+    "why": "The political debate on Kaleshwaram matters to Telangana farmers who depend on irrigation."
+   },
+   "hi": {
+    "cat": "मुलुगु · राजनीति",
+    "stat": "कालेश्वरम",
+    "statl": "पंप चलाने की ज़रूरत नहीं: मंत्री",
+    "loc": "मुलुगु ज़िला",
+    "h": "कालेश्वरम का पानी उठाने की ज़रूरत नहीं: सीतक्का",
+    "p": "मंत्री सीतक्का ने कहा कि कालेश्वरम का पानी उठाए बिना भी फ़सलें हो रही हैं और पंप चलाने की ज़रूरत नहीं है। वे मुलुगु ज़िले में पेंशन वितरण कार्यक्रम में बोल रही थीं। उन्होंने कहा कि वरंगल को एसआरएसपी और देवादुला से पानी मिलता है और ढांचा गिरने के ख़तरे के कारण पानी नहीं उठाया गया। नमस्ते तेलंगाना के अनुसार इन बयानों पर विवाद हुआ है।",
+    "pts": [
+     "मंत्री का दावा: दो साल पानी उठाए बिना रिकॉर्ड पैदावार",
+     "उन्होंने कहा कालेश्वरम का पानी सिरसिल्ला, सिद्दिपेट, गजवेल ही गया"
+    ],
+    "why": "कालेश्वरम पर राजनीतिक बहस सिंचाई पर निर्भर तेलंगाना के किसानों के लिए अहम है।"
+   },
+   "d": "25.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · కృష్ణా జలాలు",
+   "col": "--c-water",
+   "pic": "e/government-press-briefing",
+   "stat": "కృష్ణా జలాలు",
+   "statl": "మళ్లింపుపై కవిత ఆరోపణ",
+   "h": "కృష్ణా నీటిపై ఏపీ మీద కవిత ఆరోపణ",
+   "p": "ఆంధ్రప్రదేశ్ ప్రభుత్వం అవసరమైన అనుమతులు లేకుండా కృష్ణా నది నీటిని మళ్లిస్తోందని తెలంగాణ రక్షణ సేన అధ్యక్షురాలు కె.కవిత ఆరోపించారు. రాజమహేంద్రవరంలో ఆమె మీడియాతో మాట్లాడారు. తెలంగాణ ముఖ్యమంత్రి నిర్లక్ష్యం వల్ల రాష్ట్రానికి అన్యాయం జరుగుతోందని విమర్శించారు. విభజన చట్టం ప్రకారం నీటి పంపకం జరగాలని, చంద్రబాబు నాయుడు చొరవ తీసుకోవాలని కోరారు.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/rajahmundry/kavitha-accuses-ap-of-taking-krishna-waters-without-approval-1145487",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "AP",
+   "place": "ap-eastgodavari",
+   "loc": "రాజమహేంద్రవరం",
+   "pts": [
+    "2015 తాత్కాలిక పంపకం: ఏపీకి 512, తెలంగాణకు 299 టీఎంసీలు",
+    "తెలంగాణ 50 శాతం వాటా కోరుతోంది",
+    "రెండు రాష్ట్రాల తెలుగు ప్రజలు కలిసి ఉండాలన్నారు"
+   ],
+   "why": "కృష్ణా నీటి పంపకం రెండు తెలుగు రాష్ట్రాల రైతులకు, తాగునీటికి ముఖ్యం.",
+   "pub": "2026-11-25T01:37+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "AP · Krishna waters",
+    "stat": "Krishna waters",
+    "statl": "AP diverting them, alleges Kavitha",
+    "loc": "Rajamahendravaram",
+    "h": "Kavitha alleges AP is diverting Krishna water",
+    "p": "K. Kavitha, president of Telangana Rakshana Sena, alleged that the Andhra Pradesh government is diverting Krishna river water without the required permissions. She spoke to the media in Rajamahendravaram. She said the Telangana Chief Minister's negligence is causing injustice to the state. She wanted water shared as per the bifurcation Act and asked Chandrababu Naidu to take the initiative.",
+    "pts": [
+     "2015 interim sharing: 512 TMC for AP, 299 TMC for Telangana",
+     "Telangana is seeking a 50 per cent share",
+     "She said Telugu people of both states should stay united"
+    ],
+    "why": "Krishna water sharing matters for farmers and drinking water in both Telugu states."
+   },
+   "hi": {
+    "cat": "एपी · कृष्णा जल",
+    "stat": "कृष्णा जल",
+    "statl": "एपी मोड़ रहा है: कविता का आरोप",
+    "loc": "राजमहेंद्रवरम",
+    "h": "कृष्णा जल पर कविता का एपी पर आरोप",
+    "p": "तेलंगाना रक्षणा सेना की अध्यक्ष के. कविता ने आरोप लगाया कि आंध्र प्रदेश सरकार ज़रूरी अनुमति के बिना कृष्णा नदी का पानी मोड़ रही है। उन्होंने राजमहेंद्रवरम में मीडिया से बात की। उन्होंने कहा कि तेलंगाना के मुख्यमंत्री की लापरवाही से राज्य के साथ अन्याय हो रहा है। उन्होंने विभाजन क़ानून के अनुसार जल बंटवारे की मांग की और चंद्रबाबू नायडू से पहल करने को कहा।",
+    "pts": [
+     "2015 का अंतरिम बंटवारा: एपी को 512, तेलंगाना को 299 टीएमसी",
+     "तेलंगाना 50 प्रतिशत हिस्सा मांग रहा है",
+     "उन्होंने कहा दोनों राज्यों के तेलुगु लोग एकजुट रहें"
+    ],
+    "why": "कृष्णा जल बंटवारा दोनों तेलुगु राज्यों के किसानों और पेयजल के लिए अहम है।"
+   },
+   "d": "25.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · ఎన్టీఆర్ జిల్లా",
+   "col": "--c-gov",
+   "pic": "logo",
+   "stat": "ఆర్డీవో తనిఖీ",
+   "statl": "గురుకుల పాఠశాలలో",
+   "h": "ఎన్టీఆర్ జిల్లా గురుకులంలో ఆర్డీవో తనిఖీ",
+   "p": "ఎన్టీఆర్ జిల్లా ఎ.కొండూరు మండలం కృష్ణారావుపాలెం అంబేడ్కర్ గురుకుల పాఠశాలలో తొమ్మిదో తరగతి విద్యార్థి సోమవారం ఆత్మహత్యకు ప్రయత్నించాడు. చర్మ సమస్య గురించి తల్లిదండ్రులకు చెప్పినందుకు సిబ్బంది మందలించారని ఆరోపణ. విజయవాడ ప్రభుత్వ ఆసుపత్రిలో ఉన్న బాలుడికి ప్రమాదం లేదని సమాచారం. మంగళవారం తిరువూరు ఆర్డీవో పాఠశాలను తనిఖీ చేసి, పారిశుద్ధ్యంపై అసంతృప్తి వ్యక్తం చేశారు.",
+   "src": "Sakshi",
+   "url": "https://www.sakshi.com/telugu-news/andhra-pradesh/gurukul-school-student-attempts-suicide-2969672",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "AP",
+   "place": "ap-ntr",
+   "loc": "కృష్ణారావుపాలెం",
+   "pts": [
+    "పాఠశాలలో 14 మందికి పైగా విద్యార్థులకు చర్మ సమస్యలని కథనం",
+    "విషయాన్ని కలెక్టర్ దృష్టికి తీసుకెళ్తానని ఆర్డీవో చెప్పారు",
+    "బాధ్యులపై చర్య తీసుకోవాలని తల్లిదండ్రుల డిమాండ్"
+   ],
+   "why": "గురుకుల హాస్టళ్లలో పరిశుభ్రత, పిల్లల ఆరోగ్యంపై తల్లిదండ్రుల ఆందోళనను ఇది చూపిస్తోంది.",
+   "pub": "2026-11-25T05:19+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "AP · NTR district",
+    "stat": "RDO inspection",
+    "statl": "at gurukul school",
+    "loc": "Krishnaraopalem, NTR district",
+    "h": "RDO inspects gurukul school in NTR district",
+    "p": "A Class 9 student of the Ambedkar gurukul school at Krishnaraopalem in A. Konduru mandal, NTR district, attempted suicide on Monday. It is alleged that staff scolded him for telling his parents about a skin problem. The boy, in Vijayawada government hospital, is reported to be out of danger. On Tuesday the Tiruvuru RDO inspected the school and expressed displeasure over sanitation.",
+    "pts": [
+     "Report says more than 14 students at the school have skin problems",
+     "RDO said he would take the matter to the Collector",
+     "Parents demand action against those responsible"
+    ],
+    "why": "It shows parents' worries about hygiene and children's health in gurukul hostels."
+   },
+   "hi": {
+    "cat": "एपी · एनटीआर ज़िला",
+    "stat": "आरडीओ का निरीक्षण",
+    "statl": "गुरुकुल स्कूल में",
+    "loc": "कृष्णारावपालेम, एनटीआर ज़िला",
+    "h": "एनटीआर ज़िले के गुरुकुल में आरडीओ का निरीक्षण",
+    "p": "एनटीआर ज़िले के ए. कोंडूरु मंडल के कृष्णारावपालेम स्थित आंबेडकर गुरुकुल स्कूल में कक्षा 9 के छात्र ने सोमवार को आत्महत्या की कोशिश की। आरोप है कि त्वचा की समस्या माता-पिता को बताने पर स्टाफ़ ने उसे डांटा था। विजयवाड़ा सरकारी अस्पताल में भर्ती बच्चा ख़तरे से बाहर बताया गया है। मंगलवार को तिरुवूरु आरडीओ ने स्कूल का निरीक्षण किया और सफ़ाई पर नाराज़गी जताई।",
+    "pts": [
+     "रिपोर्ट के अनुसार स्कूल में 14 से ज़्यादा छात्रों को त्वचा की समस्या",
+     "आरडीओ ने कहा कि मामला कलेक्टर तक ले जाएंगे",
+     "माता-पिता ने ज़िम्मेदारों पर कार्रवाई की मांग की"
+    ],
+    "why": "यह गुरुकुल छात्रावासों में सफ़ाई और बच्चों की सेहत पर माता-पिता की चिंता दिखाता है।"
+   },
+   "d": "25.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · నీరు",
+   "col": "--c-water",
+   "pic": "e/drought-water-scarcity",
+   "stat": "45 టీఎంసీలే నీరు",
+   "statl": "శ్రీశైలంలో",
+   "h": "ఏపీ జలాశయాల్లో నీరు తక్కువ, ఆందోళన",
+   "p": "ఆంధ్రప్రదేశ్ జలాశయాల్లో నీటి నిల్వ బాగా తగ్గింది. శ్రీశైలంలో 215 టీఎంసీల సామర్థ్యానికి 45.24 టీఎంసీలే ఉన్నాయి, కొత్తగా వరద రావడం లేదు. తుంగభద్రలో గత ఏడాది ఈ సమయానికి 73 టీఎంసీలు ఉండగా ఇప్పుడు 24 టీఎంసీలే ఉన్నాయి. ఎల్ నినో వల్ల వరద రాలేదని అధికారులు చెప్పారు. తాగునీటికే ముందు ప్రాధాన్యం ఇస్తున్నారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/poor-water-storage-in-ap-dams-raises-concern-over-supply-2007623",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pts": [
+    "పెన్నా అహోబిలం జలాశయంలో 4.16 టీఎంసీలు, అనంతపురం తాగునీటికి",
+    "చిత్రావతి జలాశయంలో 10.22కు 2.89 టీఎంసీలే",
+    "సాగుకు నీటి కేటాయింపులు తగ్గించారు"
+   ],
+   "why": "రాయలసీమ జిల్లాల్లో తాగునీరు, సాగునీటి సరఫరాపై ఇది ప్రభావం చూపవచ్చు.",
+   "pub": "2026-11-24T22:46+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Water",
+    "stat": "only 45 TMC",
+    "statl": "in Srisailam",
+    "loc": "Andhra Pradesh",
+    "h": "Low water in AP reservoirs raises concern",
+    "p": "Water storage in Andhra Pradesh reservoirs has fallen sharply. Srisailam holds only 45.24 TMC against its 215 TMC capacity and has no fresh inflow. Tungabhadra has 24 TMC, against 73 TMC at this time last year. Officials said El Nino meant no floods came. Drinking water is being given first priority.",
+    "pts": [
+     "Penna Ahobilam reservoir has 4.16 TMC, kept for Anantapur drinking water",
+     "Chitravati reservoir has 2.89 TMC of 10.22 TMC",
+     "Water allocations for farming have been cut"
+    ],
+    "why": "It may affect drinking and irrigation water supply in Rayalaseema districts."
+   },
+   "hi": {
+    "cat": "एपी · पानी",
+    "stat": "सिर्फ़ 45 टीएमसी पानी",
+    "statl": "श्रीशैलम में",
+    "loc": "आंध्र प्रदेश",
+    "h": "एपी के जलाशयों में पानी कम, चिंता बढ़ी",
+    "p": "आंध्र प्रदेश के जलाशयों में पानी का भंडार काफ़ी घट गया है। श्रीशैलम में 215 टीएमसी क्षमता के मुक़ाबले सिर्फ़ 45.24 टीएमसी पानी है और नया पानी नहीं आ रहा। तुंगभद्रा में पिछले साल इस समय 73 टीएमसी था, अब 24 टीएमसी है। अधिकारियों ने कहा कि अल नीनो के कारण बाढ़ का पानी नहीं आया। पेयजल को पहली प्राथमिकता दी जा रही है।",
+    "pts": [
+     "पेन्ना अहोबिलम जलाशय में 4.16 टीएमसी, अनंतपुर के पेयजल के लिए",
+     "चित्रावती जलाशय में 10.22 में से 2.89 टीएमसी",
+     "खेती के लिए पानी का आवंटन घटाया गया"
+    ],
+    "why": "इससे रायलसीमा ज़िलों में पेयजल और सिंचाई की आपूर्ति पर असर पड़ सकता है।"
+   },
+   "d": "25.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "తెలంగాణ · పెట్టుబడులు",
+   "col": "--c-money",
+   "pic": "logo",
+   "stat": "డిసెంబర్ 7–9",
+   "statl": "ఇన్వెస్ట్ తెలంగాణ",
+   "h": "ఇన్వెస్ట్ తెలంగాణకు కేంద్ర మంత్రులు",
+   "p": "డిసెంబర్ 7 నుంచి 9 వరకు భారత్ ఫ్యూచర్ సిటీలో జరిగే ఇన్వెస్ట్ తెలంగాణ గ్లోబల్ సమ్మిట్‌కు కేంద్ర మంత్రులు రాజ్‌నాథ్ సింగ్, పీయూష్ గోయల్, అశ్వినీ వైష్ణవ్ వచ్చే అవకాశం ఉందని అధికార వర్గాలు తెలిపాయి. కర్ణాటక, కేరళ, హిమాచల్ ప్రదేశ్ ముఖ్యమంత్రులను ఆహ్వానించనున్నారు. చంద్రబాబు నాయుడును పిలవడంపై రేవంత్ రెడ్డి సహచరులతో చర్చించి నిర్ణయిస్తారని సమాచారం.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/union-ministers-cms-likely-to-attend-invest-telangana-1145486",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pts": [
+    "డిసెంబర్ 7న ప్రారంభ సభకు వస్తానని గోయల్ హామీ ఇచ్చినట్లు సమాచారం",
+    "డిఫెన్స్ ఎక్స్‌పో, ఎయిర్ షో బాధ్యత మంత్రి ఉత్తమ్ కుమార్ రెడ్డిది",
+    "తమిళనాడు ముఖ్యమంత్రిని కూడా ఆహ్వానించే అవకాశం"
+   ],
+   "why": "ఈ సదస్సు ద్వారా తెలంగాణకు పెట్టుబడులు, ఉద్యోగాలు రావచ్చని ప్రభుత్వం ఆశిస్తోంది.",
+   "pub": "2026-11-25T01:36+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Investments",
+    "stat": "December 7–9",
+    "statl": "Invest Telangana summit",
+    "loc": "Telangana",
+    "h": "Union ministers likely at Invest Telangana",
+    "p": "Union ministers Rajnath Singh, Piyush Goyal and Ashwini Vaishnaw are likely to attend the Invest Telangana Global Summit at Bharat Future City from December 7 to 9, official sources said. The Chief Ministers of Karnataka, Kerala and Himachal Pradesh are to be invited. Revanth Reddy is reported to be deciding on inviting Chandrababu Naidu after consulting colleagues.",
+    "pts": [
+     "Goyal is said to have assured he will attend the December 7 inaugural",
+     "Minister Uttam Kumar Reddy is in charge of the Defence Expo and Air Show",
+     "Tamil Nadu Chief Minister may also be invited"
+    ],
+    "why": "The government hopes the summit will bring investments and jobs to Telangana."
+   },
+   "hi": {
+    "cat": "तेलंगाना · निवेश",
+    "stat": "7–9 दिसंबर",
+    "statl": "इन्वेस्ट तेलंगाना सम्मेलन",
+    "loc": "तेलंगाना",
+    "h": "इन्वेस्ट तेलंगाना में केंद्रीय मंत्रियों के आने की संभावना",
+    "p": "आधिकारिक सूत्रों के अनुसार 7 से 9 दिसंबर तक भारत फ़्यूचर सिटी में होने वाले इन्वेस्ट तेलंगाना ग्लोबल समिट में केंद्रीय मंत्री राजनाथ सिंह, पीयूष गोयल और अश्विनी वैष्णव के आने की संभावना है। कर्नाटक, केरल और हिमाचल प्रदेश के मुख्यमंत्रियों को न्योता दिया जाएगा। बताया गया है कि चंद्रबाबू नायडू को बुलाने पर रेवंत रेड्डी सहयोगियों से चर्चा के बाद फ़ैसला करेंगे।",
+    "pts": [
+     "बताया गया कि गोयल ने 7 दिसंबर के उद्घाटन में आने का भरोसा दिया",
+     "डिफ़ेंस एक्सपो और एयर शो की ज़िम्मेदारी मंत्री उत्तम कुमार रेड्डी की",
+     "तमिलनाडु के मुख्यमंत्री को भी न्योता मिल सकता है"
+    ],
+    "why": "सरकार को उम्मीद है कि सम्मेलन से तेलंगाना में निवेश और नौकरियां आएंगी।"
+   },
+   "d": "25.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · కాకినాడ",
+   "col": "--c-election",
+   "pic": "e/election-office",
+   "stat": "నవంబర్ 26న",
+   "statl": "66 వార్డుల్లో పోలింగ్",
+   "h": "కాకినాడ ఎన్నికల ఏర్పాట్లు చూసిన కలెక్టర్",
+   "p": "కాకినాడ నగరపాలక సంస్థ ఎన్నికలను స్వేచ్ఛగా, ప్రశాంతంగా నిర్వహించాలని జిల్లా కలెక్టర్ అధికారులను ఆదేశించారు. రంగరాయ మెడికల్ కాలేజీలోని రిసెప్షన్ కేంద్రం, స్ట్రాంగ్ రూమ్‌లు, కౌంటింగ్ హాళ్లను ఆయన పరిశీలించారు. నవంబర్ 26న మొత్తం 66 వార్డుల్లో 306 పోలింగ్ కేంద్రాల్లో పోలింగ్ జరుగుతుంది. భద్రత, బ్యాలెట్ బాక్సుల నిల్వ ఏర్పాట్లపై సమీక్షించారు.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/kakinada/call-for-foolproof-arrangements-at-kmc-polls-1145475",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-kakinada",
+   "loc": "కాకినాడ",
+   "pts": [
+    "ఓట్ల లెక్కింపు నవంబర్ 30న రంగరాయ మెడికల్ కాలేజీలో",
+    "కలెక్టర్ వెంట ఆర్డీవో, మున్సిపల్ కమిషనర్ ఉన్నారు"
+   ],
+   "why": "కాకినాడ నగర ఓటర్లు గురువారం జరిగే పోలింగ్‌కు సిద్ధం కావచ్చు.",
+   "pub": "2026-11-25T00:51+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Kakinada",
+    "stat": "November 26",
+    "statl": "polling in 66 wards",
+    "loc": "Kakinada",
+    "h": "Collector checks Kakinada poll arrangements",
+    "p": "The District Collector told officials to conduct the Kakinada Municipal Corporation elections freely and peacefully. He inspected the reception centre, strong rooms and counting halls at Rangaraya Medical College. Polling will be held on November 26 in all 66 wards at 306 polling stations. Security and ballot box storage arrangements were reviewed.",
+    "pts": [
+     "Counting on November 30 at Rangaraya Medical College",
+     "The RDO and Municipal Commissioner accompanied the Collector"
+    ],
+    "why": "Voters in Kakinada city can get ready for Thursday's polling.",
+    "next": "Polling on November 26, counting on November 30"
+   },
+   "hi": {
+    "cat": "एपी · काकीनाडा",
+    "stat": "26 नवंबर को",
+    "statl": "66 वार्डों में मतदान",
+    "loc": "काकीनाडा",
+    "h": "कलेक्टर ने काकीनाडा चुनाव की तैयारियां देखीं",
+    "p": "ज़िला कलेक्टर ने अधिकारियों को काकीनाडा नगर निगम चुनाव स्वतंत्र और शांतिपूर्ण ढंग से कराने का निर्देश दिया। उन्होंने रंगराया मेडिकल कॉलेज में रिसेप्शन केंद्र, स्ट्रॉन्ग रूम और मतगणना हॉल का निरीक्षण किया। 26 नवंबर को सभी 66 वार्डों के 306 मतदान केंद्रों पर मतदान होगा। सुरक्षा और मतपेटियों के भंडारण की व्यवस्था की समीक्षा की गई।",
+    "pts": [
+     "मतगणना 30 नवंबर को रंगराया मेडिकल कॉलेज में",
+     "कलेक्टर के साथ आरडीओ और नगर आयुक्त थे"
+    ],
+    "why": "काकीनाडा शहर के मतदाता गुरुवार के मतदान की तैयारी कर सकते हैं।",
+    "next": "26 नवंबर को मतदान, 30 नवंबर को मतगणना"
+   },
+   "d": "25.11.2026",
+   "t": "07:05",
+   "next": "నవంబర్ 26న పోలింగ్, నవంబర్ 30న ఓట్ల లెక్కింపు"
+  },
+  {
+   "cat": "ఏపీ · నెల్లూరు",
+   "col": "--c-election",
+   "pic": "e/municipal-council-meeting",
+   "stat": "17 ఓట్లతో",
+   "statl": "జనసేన అభ్యర్థి గెలుపు",
+   "h": "ఆత్మకూరు వైస్ చైర్‌పర్సన్‌గా శిరీష",
+   "p": "నెల్లూరు జిల్లా ఆత్మకూరు మున్సిపల్ వైస్ చైర్‌పర్సన్‌గా జనసేనకు చెందిన కొలగాని శిరీష మంగళవారం ఎన్నికయ్యారు. ఆమెకు 17 ఓట్లు రాగా, వైఎస్సార్‌సీపీ అభ్యర్థికి 11 ఓట్లు వచ్చాయి. సోమవారం వేరే పేరు ప్రతిపాదించడంతో ఎన్నిక ఆగిపోయింది. మంగళవారం మంత్రి ఆనం రామనారాయణ రెడ్డి కూటమి కౌన్సిలర్లతో వచ్చాక ఎన్నిక పూర్తయింది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/jana-senas-kolagani-sirisha-elected-atmakur-municipal-vice-chairperson-2007639",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-nellore",
+   "loc": "ఆత్మకూరు",
+   "pts": [
+    "కూటమి పొత్తులో ఈ పదవి జనసేనకు దక్కింది",
+    "ఉదయం 11కు మొదలైన సమావేశం మధ్యాహ్నం 2 వరకు ఆగింది"
+   ],
+   "why": "ఆత్మకూరు మున్సిపల్ పాలకవర్గం ఏర్పాటు దీనితో పూర్తయింది.",
+   "pub": "2026-11-24T23:14+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Nellore",
+    "stat": "17 votes",
+    "statl": "Jana Sena candidate wins",
+    "loc": "Atmakur, Nellore",
+    "h": "Sirisha elected Atmakur vice-chairperson",
+    "p": "Jana Sena's Kolagani Sirisha was elected vice-chairperson of Atmakur municipality in Nellore district on Tuesday. She got 17 votes against 11 for the YSRCP candidate. The election had stalled on Monday when another name was proposed. It was completed on Tuesday after minister Anam Ramanarayana Reddy arrived with the alliance councillors.",
+    "pts": [
+     "The post went to Jana Sena under the alliance arrangement",
+     "The meeting began at 11 am and was held up until 2 pm"
+    ],
+    "why": "This completes the formation of the Atmakur municipal council."
+   },
+   "hi": {
+    "cat": "एपी · नेल्लोर",
+    "stat": "17 वोट से",
+    "statl": "जनसेना उम्मीदवार की जीत",
+    "loc": "आत्मकूर, नेल्लोर",
+    "h": "आत्मकूर की उपाध्यक्ष चुनी गईं शिरीषा",
+    "p": "नेल्लोर ज़िले की आत्मकूर नगरपालिका की उपाध्यक्ष के रूप में मंगलवार को जनसेना की कोलगानी शिरीषा चुनी गईं। उन्हें 17 वोट मिले, जबकि वाईएसआरसीपी उम्मीदवार को 11 वोट मिले। सोमवार को दूसरा नाम प्रस्तावित होने से चुनाव रुक गया था। मंगलवार को मंत्री आनम रामनारायण रेड्डी के गठबंधन पार्षदों के साथ पहुंचने के बाद चुनाव पूरा हुआ।",
+    "pts": [
+     "गठबंधन के बंटवारे में यह पद जनसेना को मिला",
+     "सुबह 11 बजे शुरू हुई बैठक दोपहर 2 बजे तक रुकी रही"
+    ],
+    "why": "इसके साथ आत्मकूर नगरपालिका परिषद का गठन पूरा हो गया।"
+   },
+   "d": "25.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · విజయవాడ",
+   "col": "--c-city",
+   "pic": "e/food-safety-inspection",
+   "stat": "ఆరోగ్య తనిఖీలు",
+   "statl": "53, 54 డివిజన్లలో",
+   "h": "విజయవాడలో హోటళ్లు, దుకాణాల్లో తనిఖీలు",
+   "p": "విజయవాడ నగరపాలక సంస్థ ప్రజారోగ్య విభాగం అధికారులు మంగళవారం సర్కిల్-1లోని 53, 54 డివిజన్లలో వ్యాపార సంస్థలను తనిఖీ చేశారు. తాగునీటి నాణ్యత, ఆహార నాణ్యత, పరిసరాల శుభ్రత, చెత్త తొలగింపును పరిశీలించారు. లోపాలు ఉన్నవారికి నోటీసులు ఇచ్చారు. ఇచ్చిన గడువులోగా సరిచేయకపోతే చట్టపరమైన చర్యలు తీసుకుంటామని అధికారులు హెచ్చరించారు.",
+   "src": "The Hans India",
+   "url": "https://thehansindia.com/news/cities/vijayawada/vmc-steps-up-inspections-to-safeguard-public-health-1145500",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-ntr",
+   "loc": "విజయవాడ",
+   "pts": [
+    "ఇన్‌ఛార్జి కమిషనర్ ఆదేశాలతో తనిఖీలు జరిగాయి",
+    "నగరమంతా జరుగుతున్న పారిశుద్ధ్య డ్రైవ్‌లో ఇది భాగం"
+   ],
+   "why": "హోటళ్లు, దుకాణాల్లో శుభ్రత పెరిగితే నగర ప్రజల ఆరోగ్యానికి మేలు.",
+   "pub": "2026-11-25T02:32+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Vijayawada",
+    "stat": "Public health checks",
+    "statl": "in divisions 53 and 54",
+    "loc": "Vijayawada",
+    "h": "Hotels, shops inspected in Vijayawada",
+    "p": "Public health officials of the Vijayawada Municipal Corporation inspected commercial establishments in divisions 53 and 54 of Circle-I on Tuesday. They checked drinking water quality, food quality, cleanliness of premises and waste disposal. Notices were served on those with shortcomings. Officials warned of legal action if these are not corrected within the given deadline.",
+    "pts": [
+     "The checks were ordered by the in-charge Commissioner",
+     "They are part of a city-wide sanitation drive"
+    ],
+    "why": "Cleaner hotels and shops are good for the health of city residents."
+   },
+   "hi": {
+    "cat": "एपी · विजयवाड़ा",
+    "stat": "जन स्वास्थ्य जांच",
+    "statl": "डिवीज़न 53 और 54 में",
+    "loc": "विजयवाड़ा",
+    "h": "विजयवाड़ा में होटलों, दुकानों की जांच",
+    "p": "विजयवाड़ा नगर निगम के जन स्वास्थ्य विभाग के अधिकारियों ने मंगलवार को सर्कल-1 के डिवीज़न 53 और 54 में व्यावसायिक प्रतिष्ठानों की जांच की। पीने के पानी और खाने की गुणवत्ता, परिसर की सफ़ाई और कचरा निपटान देखा गया। कमियां मिलने पर नोटिस दिए गए। अधिकारियों ने चेतावनी दी कि तय समय में सुधार नहीं हुआ तो क़ानूनी कार्रवाई होगी।",
+    "pts": [
+     "जांच प्रभारी आयुक्त के निर्देश पर हुई",
+     "यह शहर भर में चल रहे सफ़ाई अभियान का हिस्सा है"
+    ],
+    "why": "होटलों और दुकानों में सफ़ाई बढ़ने से शहर के लोगों की सेहत को फ़ायदा होगा।"
+   },
+   "d": "25.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · పోలీసు",
+   "col": "--c-gov",
+   "pic": "logo",
+   "stat": "రెండో ర్యాంకు",
+   "statl": "జాతీయ సైబర్ శిక్షణలో",
+   "h": "సైబర్ శిక్షణలో ఏపీ ఎస్సైకి 2వ ర్యాంకు",
+   "p": "జాతీయ స్థాయి సైబర్ నేరాల దర్యాప్తు శిక్షణలో ఆంధ్రప్రదేశ్ పోలీసు ఎస్సై ఇ.శ్రీరచన రెండో ర్యాంకు సాధించారు. ఆమె మంగళగిరి పోలీసు ప్రధాన కార్యాలయంలోని సీఐడీ సైబర్ క్రైమ్ విభాగంలో పని చేస్తున్నారు. హైదరాబాద్‌లోని సెంట్రల్ డిటెక్టివ్ ట్రైనింగ్ ఇన్‌స్టిట్యూట్‌లో నవంబర్ 9 నుంచి 20 వరకు ఈ శిక్షణ జరిగింది. వివిధ రాష్ట్రాలు, కేంద్ర బలగాల అధికారులు పాల్గొన్నారు.",
+   "src": "Andhra Jyothy",
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/ap-police-si-sri-rachana-secures-second-rank-in-national-cyber-crime-training-1579600.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-guntur",
+   "loc": "మంగళగిరి",
+   "pts": [
+    "డిజిటల్ ఆధారాల సేకరణ, సైబర్ నేరాల విశ్లేషణపై శిక్షణ",
+    "సంస్థ డైరెక్టర్ ప్రశంసా పత్రం అందజేశారు"
+   ],
+   "why": "సైబర్ నేరాల దర్యాప్తులో ఏపీ పోలీసుల నైపుణ్యం పెరగడానికి ఇది తోడ్పడుతుంది.",
+   "pub": "2026-11-25T05:35+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Police",
+    "stat": "Second rank",
+    "statl": "in national cyber training",
+    "loc": "Mangalagiri",
+    "h": "AP woman SI ranks second in cyber training",
+    "p": "Andhra Pradesh Police Sub-Inspector E. Sri Rachana secured the second rank in a national-level cyber crime investigation training course. She works in the CID cyber crime wing at police headquarters in Mangalagiri. The course was held at the Central Detective Training Institute in Hyderabad from November 9 to 20. Officers from various states and central forces took part.",
+    "pts": [
+     "Training covered collecting digital evidence and analysing cyber crimes",
+     "The institute's director presented her an appreciation certificate"
+    ],
+    "why": "It helps build AP Police skills in investigating cyber crimes."
+   },
+   "hi": {
+    "cat": "एपी · पुलिस",
+    "stat": "दूसरी रैंक",
+    "statl": "राष्ट्रीय साइबर प्रशिक्षण में",
+    "loc": "मंगलगिरि",
+    "h": "साइबर प्रशिक्षण में एपी की महिला एसआई को दूसरी रैंक",
+    "p": "राष्ट्रीय स्तर के साइबर अपराध जांच प्रशिक्षण में आंध्र प्रदेश पुलिस की सब-इंस्पेक्टर ई. श्री रचना ने दूसरी रैंक हासिल की। वे मंगलगिरि पुलिस मुख्यालय की सीआईडी साइबर क्राइम शाखा में काम करती हैं। यह प्रशिक्षण हैदराबाद के सेंट्रल डिटेक्टिव ट्रेनिंग इंस्टीट्यूट में 9 से 20 नवंबर तक चला। इसमें कई राज्यों और केंद्रीय बलों के अधिकारी शामिल हुए।",
+    "pts": [
+     "डिजिटल सबूत जुटाने और साइबर अपराध विश्लेषण का प्रशिक्षण",
+     "संस्थान के निदेशक ने प्रशंसा पत्र दिया"
+    ],
+    "why": "इससे साइबर अपराधों की जांच में एपी पुलिस की दक्षता बढ़ेगी।"
+   },
+   "d": "25.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "తెలంగాణ · క్రీడలు",
+   "col": "--c-city",
+   "pic": "logo",
+   "stat": "పాలమూరు బాలికలు",
+   "statl": "హ్యాండ్‌బాల్ విజేతలు",
+   "h": "హ్యాండ్‌బాల్ విజేతలు పాలమూరు, వరంగల్",
+   "p": "స్కూల్ గేమ్స్ ఫెడరేషన్ 70వ రాష్ట్ర స్థాయి అండర్-19 హ్యాండ్‌బాల్ పోటీలు ముగిశాయి. బాలికల విభాగంలో మహబూబ్‌నగర్ జట్టు ఫైనల్‌లో కరీంనగర్‌ను 12-8 తేడాతో ఓడించి విజేతగా నిలిచింది. బాలుర విభాగంలో వరంగల్ జట్టు 14-7 తేడాతో మహబూబ్‌నగర్‌పై గెలిచి టైటిల్ సాధించింది. ఆదిలాబాద్, కరీంనగర్ జట్లకు మూడో స్థానం దక్కింది.",
+   "src": "Namasthe Telangana",
+   "url": "https://www.ntnews.com/sports/mahabubnagar-girls-crowned-champions-in-state-level-under-19-handball-2568296",
+   "sec": [
+    "telangana",
+    "sports"
+   ],
+   "st": "TG",
+   "place": "mahabubnagar",
+   "loc": "",
+   "pts": [
+    "బాలికల్లో కరీంనగర్, బాలురలో మహబూబ్‌నగర్ రెండో స్థానం"
+   ],
+   "why": "జిల్లా స్థాయి యువ క్రీడాకారులకు రాష్ట్ర పోటీల్లో గుర్తింపు దక్కింది.",
+   "pub": "2026-11-25T00:16+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Sports",
+    "stat": "Mahabubnagar girls",
+    "statl": "state handball champions",
+    "loc": "Mahabubnagar",
+    "h": "Mahabubnagar, Warangal win state handball",
+    "p": "The 70th state-level Under-19 handball championship of the School Games Federation has concluded. In the girls' section, Mahabubnagar beat Karimnagar 12-8 in the final to win the title. In the boys' section, Warangal beat Mahabubnagar 14-7 to take the title. The Adilabad and Karimnagar teams finished third.",
+    "pts": [
+     "Runners-up: Karimnagar in girls, Mahabubnagar in boys"
+    ],
+    "why": "Young district-level players earned recognition at the state championship."
+   },
+   "hi": {
+    "cat": "तेलंगाना · खेल",
+    "stat": "महबूबनगर की लड़कियां",
+    "statl": "राज्य हैंडबॉल विजेता",
+    "loc": "महबूबनगर",
+    "h": "राज्य हैंडबॉल में महबूबनगर, वरंगल विजेता",
+    "p": "स्कूल गेम्स फ़ेडरेशन की 70वीं राज्य स्तरीय अंडर-19 हैंडबॉल प्रतियोगिता संपन्न हुई। बालिका वर्ग के फ़ाइनल में महबूबनगर ने करीमनगर को 12-8 से हराकर ख़िताब जीता। बालक वर्ग में वरंगल ने महबूबनगर को 14-7 से हराकर ख़िताब अपने नाम किया। आदिलाबाद और करीमनगर की टीमें तीसरे स्थान पर रहीं।",
+    "pts": [
+     "उपविजेता: बालिका वर्ग में करीमनगर, बालक वर्ग में महबूबनगर"
+    ],
+    "why": "ज़िला स्तर के युवा खिलाड़ियों को राज्य प्रतियोगिता में पहचान मिली।"
+   },
+   "d": "25.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · విశాఖ",
+   "col": "--c-city",
+   "pic": "logo",
+   "stat": "7 రోజుల",
+   "statl": "సంగీత ఉత్సవం, ప్రవేశం ఉచితం",
+   "h": "విశాఖలో నేటి నుంచి వార్షిక సంగీత ఉత్సవం",
+   "p": "విశాఖ మ్యూజిక్ అకాడమీ 57వ వార్షిక సంగీత ఉత్సవం నవంబర్ 25 నుంచి డిసెంబర్ 1 వరకు విశాఖపట్నం కళాభారతి ఆడిటోరియంలో జరుగుతుంది. రోజూ రాత్రి 7 నుంచి 9 గంటల వరకు కచేరీలు ఉంటాయి, ప్రవేశం ఉచితం. విజయవాడకు చెందిన మల్లాది సూరిబాబుకు 'సంగీత కళా సాగర' బిరుదు ఇవ్వనున్నారు. మొదటి రోజు జయంతి కుమరేష్ వీణ కచేరీ ఉంటుంది.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/57th-annual-music-festival-from-nov-25-1145507",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "AP",
+   "place": "ap-visakhapatnam",
+   "loc": "విశాఖపట్నం",
+   "pts": [
+    "హిందుస్థాన్ షిప్‌యార్డ్ సీఎండీ ఉత్సవాన్ని ప్రారంభిస్తారు",
+    "నవంబర్ 30న మైసూర్ చందన్ కుమార్ వేణువు కచేరీ"
+   ],
+   "why": "విశాఖ సంగీత ప్రియులు వారం పాటు ఉచితంగా కచేరీలు వినవచ్చు.",
+   "pub": "2026-11-25T02:54+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Visakhapatnam",
+    "stat": "7-day",
+    "statl": "music festival, entry free",
+    "loc": "Visakhapatnam",
+    "h": "Annual music festival begins in Vizag today",
+    "p": "The 57th annual music festival of the Visakha Music Academy will be held at Kalabharathi Auditorium, Visakhapatnam, from November 25 to December 1. Concerts will run from 7 pm to 9 pm every day and entry is free. The 'Sangeetha Kala Sagara' title will be conferred on Malladi Suribabu of Vijayawada. The first day features a veena concert by Jayanthi Kumaresh.",
+    "pts": [
+     "The CMD of Hindustan Shipyard will inaugurate the festival",
+     "Flute concert by Mysore Chandan Kumar on November 30"
+    ],
+    "why": "Music lovers in Vizag can attend free concerts for a week.",
+    "next": "Festival runs daily at 7 pm until December 1"
+   },
+   "hi": {
+    "cat": "एपी · विशाखापत्तनम",
+    "stat": "7 दिन का",
+    "statl": "संगीत उत्सव, प्रवेश निःशुल्क",
+    "loc": "विशाखापत्तनम",
+    "h": "विशाखापत्तनम में आज से वार्षिक संगीत उत्सव",
+    "p": "विशाखा म्यूज़िक अकादमी का 57वां वार्षिक संगीत उत्सव 25 नवंबर से 1 दिसंबर तक विशाखापत्तनम के कलाभारती सभागार में होगा। रोज़ शाम 7 से 9 बजे तक कार्यक्रम होंगे और प्रवेश निःशुल्क है। विजयवाड़ा के मल्लादी सूरिबाबू को 'संगीत कला सागर' उपाधि दी जाएगी। पहले दिन जयंती कुमरेश का वीणा वादन होगा।",
+    "pts": [
+     "हिंदुस्तान शिपयार्ड के सीएमडी उत्सव का उद्घाटन करेंगे",
+     "30 नवंबर को मैसूर चंदन कुमार का बांसुरी वादन"
+    ],
+    "why": "विशाखापत्तनम के संगीत प्रेमी हफ़्ते भर निःशुल्क कार्यक्रम सुन सकते हैं।",
+    "next": "उत्सव 1 दिसंबर तक रोज़ शाम 7 बजे"
+   },
+   "d": "25.11.2026",
+   "t": "07:05",
+   "next": "ఉత్సవం డిసెంబర్ 1 వరకు రోజూ రాత్రి 7 గంటలకు"
+  },
+  {
+   "cat": "ఏపీ · కోనసీమ",
+   "col": "--c-city",
+   "pic": "logo",
+   "stat": "ఉద్యోగాలపై",
+   "statl": "ఒప్పో బృందం అవగాహన",
+   "h": "బీవీసీ కాలేజీలో ఒప్పో అవగాహన సదస్సు",
+   "p": "కోనసీమ జిల్లా ఓడలరేవులోని బీవీసీ ఇంజినీరింగ్ కాలేజీలో మంగళవారం ఉద్యోగాలు, వ్యక్తిత్వ వికాసంపై అవగాహన కార్యక్రమం జరిగింది. ఒప్పో సంస్థకు చెందిన ముగ్గురు ప్రతినిధులు మూడు, నాలుగో సంవత్సరం బీటెక్ విద్యార్థులతో మాట్లాడారు. సంస్థలో ఉన్న ఉద్యోగ అవకాశాలు, ఇంజినీరింగ్ పట్టభద్రులు ఎలా ఎదగవచ్చో వివరించారు. మొదటి సంవత్సరం విద్యార్థులకు వ్యక్తిత్వ వికాసంపై మరో నిపుణుడు సూచనలు ఇచ్చారు.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/oppo-experts-interact-with-bvc-college-students-1145485",
+   "sec": [
+    "telangana",
+    "education",
+    "jobs"
+   ],
+   "st": "AP",
+   "place": "ap-konaseema",
+   "loc": "ఓడలరేవు",
+   "pts": [
+    "అమెరికా రవాణా శాఖ ఇంజినీర్ సత్య సుందరనీడి ప్రసంగించారు",
+    "కాలేజీ ట్రైనింగ్, ప్లేస్‌మెంట్ విభాగం దీన్ని నిర్వహించింది"
+   ],
+   "why": "గ్రామీణ ప్రాంత ఇంజినీరింగ్ విద్యార్థులకు ఉద్యోగ మార్గాలపై స్పష్టత వస్తుంది.",
+   "pub": "2026-11-25T01:33+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Konaseema",
+    "stat": "On job openings",
+    "statl": "Oppo team briefs students",
+    "loc": "Odalarevu, Konaseema",
+    "h": "Oppo team meets BVC college students",
+    "p": "An awareness programme on careers and personality development was held on Tuesday at BVC Engineering College, Odalarevu, in Konaseema district. Three representatives of Oppo spoke to third- and fourth-year B.Tech students. They explained job openings at the company and how engineering graduates can grow. Another expert guided first-year students on personality development.",
+    "pts": [
+     "US Department of Transportation engineer Satya Sundaraneedi addressed students",
+     "The college's training and placement wing organised it"
+    ],
+    "why": "Engineering students from rural areas get clarity on career paths."
+   },
+   "hi": {
+    "cat": "एपी · कोनसीमा",
+    "stat": "नौकरी के अवसरों पर",
+    "statl": "ओप्पो प्रतिनिधियों की जानकारी",
+    "loc": "ओडलरेवु, कोनसीमा",
+    "h": "बीवीसी कॉलेज के छात्रों से मिले ओप्पो प्रतिनिधि",
+    "p": "कोनसीमा ज़िले के ओडलरेवु स्थित बीवीसी इंजीनियरिंग कॉलेज में मंगलवार को करियर और व्यक्तित्व विकास पर जागरूकता कार्यक्रम हुआ। ओप्पो कंपनी के तीन प्रतिनिधियों ने बीटेक तीसरे और चौथे वर्ष के छात्रों से बात की। उन्होंने कंपनी में नौकरी के अवसर और इंजीनियरिंग स्नातकों के आगे बढ़ने के रास्ते बताए। पहले वर्ष के छात्रों को एक अन्य विशेषज्ञ ने व्यक्तित्व विकास पर सुझाव दिए।",
+    "pts": [
+     "अमेरिकी परिवहन विभाग के इंजीनियर सत्य सुंदरनीडी ने संबोधित किया",
+     "कॉलेज के ट्रेनिंग और प्लेसमेंट विभाग ने आयोजन किया"
+    ],
+    "why": "ग्रामीण इलाक़ों के इंजीनियरिंग छात्रों को करियर के रास्तों पर स्पष्टता मिलती है।"
+   },
+   "d": "25.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · కృష్ణా",
+   "col": "--c-city",
+   "pic": "logo",
+   "stat": "కోస్ట్ గార్డ్ అవగాహన",
+   "statl": "కృష్ణా వర్సిటీలో",
+   "h": "కృష్ణా వర్సిటీలో కోస్ట్ గార్డ్‌పై అవగాహన",
+   "p": "మచిలీపట్నంలోని కృష్ణా యూనివర్సిటీ ఇంజినీరింగ్ కాలేజీలో ఎన్‌ఎస్‌ఎస్ విభాగం మంగళవారం భారత కోస్ట్ గార్డ్‌పై అవగాహన కార్యక్రమం నిర్వహించింది. సముద్ర భద్రత, తీర రక్షణ, ఈ దళంలో ఉద్యోగ అవకాశాల గురించి ఏపీ కోస్ట్ గార్డ్ కోఆర్డినేటర్ కిరణ్ కుమార్ వివరించారు. అర్హతలు, నియామక పద్ధతులను విద్యార్థులకు చెప్పారు. కోస్ట్ గార్డ్ అవగాహన వాహనంలోని వీడియోలను చూపించారు.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/andhra-pradesh/kru-students-sensitised-to-coast-guard-operations-1145499",
+   "sec": [
+    "telangana",
+    "education",
+    "jobs"
+   ],
+   "st": "AP",
+   "place": "ap-krishna",
+   "loc": "మచిలీపట్నం",
+   "pts": [
+    "స్మగ్లింగ్ అడ్డుకోవడం, మత్స్యకారులకు సాయం దళం పనులని వివరణ",
+    "కాలుష్యం నుంచి సముద్రాన్ని కాపాడటం కూడా దళం బాధ్యత"
+   ],
+   "why": "తీర ప్రాంత విద్యార్థులకు కోస్ట్ గార్డ్ ఉద్యోగాలపై అవగాహన కలుగుతుంది.",
+   "pub": "2026-11-25T02:28+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Krishna",
+    "stat": "Coast Guard awareness",
+    "statl": "at Krishna University",
+    "loc": "Machilipatnam",
+    "h": "Coast Guard awareness at Krishna University",
+    "p": "The NSS wing of Krishna University Engineering College in Machilipatnam held an awareness programme on the Indian Coast Guard on Tuesday. AP Coast Guard coordinator Kiran Kumar spoke about maritime security, coastal protection and careers in the force. Students were told about eligibility and recruitment routes. Videos from the Coast Guard's awareness vehicle were shown.",
+    "pts": [
+     "The force curbs smuggling and helps fishermen, he explained",
+     "It also protects the sea from pollution"
+    ],
+    "why": "Students in the coastal region learn about Coast Guard careers."
+   },
+   "hi": {
+    "cat": "एपी · कृष्णा",
+    "stat": "कोस्ट गार्ड जागरूकता",
+    "statl": "कृष्णा विश्वविद्यालय में",
+    "loc": "मछलीपट्टनम",
+    "h": "कृष्णा विश्वविद्यालय में कोस्ट गार्ड पर जागरूकता",
+    "p": "मछलीपट्टनम के कृष्णा विश्वविद्यालय इंजीनियरिंग कॉलेज की एनएसएस इकाई ने मंगलवार को भारतीय तटरक्षक बल पर जागरूकता कार्यक्रम किया। एपी कोस्ट गार्ड समन्वयक किरण कुमार ने समुद्री सुरक्षा, तट रक्षा और बल में करियर के बारे में बताया। छात्रों को पात्रता और भर्ती के तरीक़े समझाए गए। कोस्ट गार्ड के जागरूकता वाहन के वीडियो दिखाए गए।",
+    "pts": [
+     "उन्होंने बताया कि बल तस्करी रोकता है और मछुआरों की मदद करता है",
+     "समुद्र को प्रदूषण से बचाना भी बल का काम है"
+    ],
+    "why": "तटीय इलाक़े के छात्रों को कोस्ट गार्ड की नौकरियों की जानकारी मिलती है।"
+   },
+   "d": "25.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "భారత్ · హాకీ",
+   "col": "--c-city",
+   "pic": "logo",
+   "stat": "6-2తో భారత్ గెలుపు",
+   "statl": "చైనాపై",
+   "h": "మహిళల హాకీలో చైనాపై భారత్ 6-2 గెలుపు",
+   "p": "భోపాల్‌లో జరుగుతున్న మహిళల ఆసియా ఛాంపియన్స్ ట్రోఫీ హాకీలో భారత జట్టు మంగళవారం చైనాను 6-2 తేడాతో ఓడించింది. ఇది భారత్‌కు వరుసగా నాలుగో గెలుపు. దీపిక మొదటి క్వార్టర్‌లోనే మూడు గోల్స్ చేసి హ్యాట్రిక్ సాధించింది. లాల్‌రెమ్సియామి, నేహా, సాక్షి రాణా మిగతా గోల్స్ చేశారు. భారత్ ఇప్పటికే సెమీఫైనల్‌కు చేరింది.",
+   "src": "IANS",
+   "url": "https://ianslive.in/womens-act-2026-deepikas-hat-trick-leads-india-to-big-6-2-win-over-china-in-bhopal--20261124231349",
+   "sec": [
+    "india",
+    "sports"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "భోపాల్",
+   "pts": [
+    "ఈ టోర్నీలో చైనాపై భారత్‌కు ఇదే అతి పెద్ద గెలుపు",
+    "ప్రపంచ ర్యాంకింగ్స్‌లో భారత్ ఐదో స్థానానికి చేరింది"
+   ],
+   "why": "సొంత గడ్డపై భారత మహిళల హాకీ జట్టు టైటిల్ ఆశలు పెరిగాయి.",
+   "pub": "2026-11-24T23:19+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Hockey",
+    "stat": "India win 6-2",
+    "statl": "against China",
+    "loc": "Bhopal",
+    "h": "India beat China 6-2 in women's hockey",
+    "p": "India beat China 6-2 on Tuesday in the Women's Asian Champions Trophy hockey in Bhopal. It was India's fourth win in a row. Deepika scored a hat-trick with three goals in the first quarter. Lalremsiami, Neha and Sakshi Rana scored the other goals. India have already reached the semi-finals.",
+    "pts": [
+     "It is India's biggest win over China in this tournament",
+     "India moved up to fifth in the world rankings"
+    ],
+    "why": "The Indian women's hockey team's title hopes at home have grown.",
+    "next": "India play Japan on November 25 at 7 pm"
+   },
+   "hi": {
+    "cat": "भारत · हॉकी",
+    "stat": "भारत 6-2 से जीता",
+    "statl": "चीन पर",
+    "loc": "भोपाल",
+    "h": "महिला हॉकी में भारत ने चीन को 6-2 से हराया",
+    "p": "भोपाल में चल रही महिला एशियन चैंपियंस ट्रॉफ़ी हॉकी में भारत ने मंगलवार को चीन को 6-2 से हराया। यह भारत की लगातार चौथी जीत है। दीपिका ने पहले क्वार्टर में ही तीन गोल कर हैट्रिक बनाई। बाक़ी गोल लालरेम्सियामी, नेहा और साक्षी राणा ने किए। भारत पहले ही सेमीफ़ाइनल में पहुंच चुका है।",
+    "pts": [
+     "इस टूर्नामेंट में चीन पर भारत की यह सबसे बड़ी जीत है",
+     "विश्व रैंकिंग में भारत पांचवें स्थान पर पहुंचा"
+    ],
+    "why": "घरेलू मैदान पर भारतीय महिला हॉकी टीम की ख़िताब की उम्मीदें बढ़ी हैं।",
+    "next": "25 नवंबर शाम 7 बजे भारत-जापान मैच"
+   },
+   "d": "25.11.2026",
+   "t": "07:05",
+   "next": "నవంబర్ 25 రాత్రి 7 గంటలకు భారత్, జపాన్ మ్యాచ్"
+  },
+  {
+   "cat": "ప్రపంచం · ఇజ్రాయెల్",
+   "col": "--c-election",
+   "pic": "n/mideast",
+   "stat": "తొలి కూటమి ఒప్పందం",
+   "statl": "ఇజ్రాయెల్‌లో",
+   "h": "ఇజ్రాయెల్‌లో తొలి కూటమి ఒప్పందం",
+   "p": "ఇజ్రాయెల్‌లో ప్రభుత్వ ఏర్పాటుకు ప్రయత్నిస్తున్న గాడి ఐజెన్‌కోట్ పార్టీ 'యాషార్', అవిగ్డోర్ లీబర్‌మన్ పార్టీతో కూటమి ఒప్పందానికి అంగీకరించినట్లు మంగళవారం ప్రకటించింది. అక్టోబర్ 27 ఎన్నికల తర్వాత ఇదే తొలి కూటమి ఒప్పందం. ఆ ఎన్నికల్లో నెతన్యాహుకు మెజారిటీ రాలేదు. ప్రభుత్వ ఏర్పాటుకు ఐజెన్‌కోట్‌కు డిసెంబర్ 6 వరకు గడువు ఉంది. నెతన్యాహు ఆపద్ధర్మ ప్రధానిగా కొనసాగుతున్నారు.",
+   "src": "Reuters (ThePrint)",
+   "url": "https://theprint.in/world/israels-eisenkot-clinches-first-coalition-agreement-in-bid-to-form-government/3108100/",
+   "sec": [
+    "world"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "",
+   "pts": [
+    "120 సీట్లలో యాషార్‌కు 21, లీబర్‌మన్ పార్టీకి 7",
+    "గడువును మరో 14 రోజులు పొడిగించే వీలుంది",
+    "ఐజెన్‌కోట్ విఫలమైతే నెతన్యాహుకు అవకాశం"
+   ],
+   "why": "ఇజ్రాయెల్‌లో ప్రభుత్వ మార్పు పశ్చిమాసియా పరిస్థితులపై ప్రభావం చూపవచ్చు.",
+   "pub": "2026-11-25T04:00+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "World · Israel",
+    "stat": "First coalition deal",
+    "statl": "in Israel government formation",
+    "loc": "Israel",
+    "h": "Eisenkot gets first coalition deal in Israel",
+    "p": "Yashar, the party of Gadi Eisenkot, who is trying to form a government in Israel, said on Tuesday it had agreed on a coalition pact with Avigdor Lieberman's party. It is the first coalition agreement since the October 27 election, which left Netanyahu without a majority. Eisenkot has until December 6 to form a government. Netanyahu remains caretaker prime minister.",
+    "pts": [
+     "Of 120 seats, Yashar has 21 and Lieberman's party 7",
+     "The deadline can be extended by 14 more days",
+     "If Eisenkot fails, Netanyahu gets a turn"
+    ],
+    "why": "A change of government in Israel could affect the situation in West Asia.",
+    "next": "Deadline to form a government is December 6"
+   },
+   "hi": {
+    "cat": "दुनिया · इज़राइल",
+    "stat": "पहला गठबंधन समझौता",
+    "statl": "इज़राइल में सरकार गठन में",
+    "loc": "इज़राइल",
+    "h": "इज़राइल में आइज़नकोट का पहला गठबंधन समझौता",
+    "p": "इज़राइल में सरकार बनाने की कोशिश कर रहे गाडी आइज़नकोट की पार्टी 'याशार' ने मंगलवार को कहा कि वह अविग्डोर लिबरमैन की पार्टी के साथ गठबंधन समझौते पर सहमत हो गई है। 27 अक्टूबर के चुनाव के बाद यह पहला गठबंधन समझौता है। उस चुनाव में नेतन्याहू को बहुमत नहीं मिला था। आइज़नकोट के पास सरकार बनाने के लिए 6 दिसंबर तक का समय है। नेतन्याहू कार्यवाहक प्रधानमंत्री बने हुए हैं।",
+    "pts": [
+     "120 सीटों में याशार की 21, लिबरमैन की पार्टी की 7",
+     "समय सीमा 14 दिन और बढ़ाई जा सकती है",
+     "आइज़नकोट नाकाम रहे तो नेतन्याहू को मौक़ा"
+    ],
+    "why": "इज़राइल में सरकार बदलने का असर पश्चिम एशिया के हालात पर पड़ सकता है।",
+    "next": "सरकार बनाने की समय सीमा 6 दिसंबर"
+   },
+   "d": "25.11.2026",
+   "t": "07:05",
+   "next": "ప్రభుత్వ ఏర్పాటుకు గడువు డిసెంబర్ 6"
+  },
+  {
+   "cat": "ప్రపంచం · టెక్నాలజీ",
+   "col": "--c-city",
+   "pic": "logo",
+   "stat": "సైబర్ దాడి",
+   "statl": "సీఐఏ కంప్యూటర్ వ్యవస్థపై",
+   "h": "అమెరికా సీఐఏ వ్యవస్థపై సైబర్ దాడి",
+   "p": "అమెరికా గూఢచార సంస్థ సీఐఏకు చెందిన, రహస్యం కాని ఒక కంప్యూటర్ వ్యవస్థలోకి హ్యాకర్లు చొరబడ్డారని న్యూయార్క్ టైమ్స్ మంగళవారం తెలిపింది. పేరు చెప్పని ఒక వ్యక్తి ద్వారా ఏపీ వార్తా సంస్థ దీన్ని ధ్రువీకరించింది. బహిరంగ సమాచారం సేకరించే వ్యవస్థ ఇది. రహస్య సమాచారం పోలేదని, సమస్యను సరిచేశారని ఆ వ్యక్తి చెప్పారు. దాడి ఎవరు చేశారో ఇంకా తెలియలేదు.",
+   "src": "AP (KATV)",
+   "url": "https://katv.com/news/nation-world/unclassified-cia-system-breached-in-a-cyberattack-sources-say-ap-tech-outage",
+   "sec": [
+    "world",
+    "ai"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "",
+   "pts": [
+    "ఏ సమాచారం పోయిందో ఇంకా తెలియలేదు",
+    "సీఐఏ అధికారికంగా స్పందించలేదు"
+   ],
+   "why": "పెద్ద సంస్థలపైనా సైబర్ దాడులు జరుగుతాయని, డేటా భద్రత ముఖ్యమని ఇది చూపిస్తోంది.",
+   "pub": "2026-11-25T03:23+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "World · Technology",
+    "stat": "Cyberattack",
+    "statl": "on a CIA computer system",
+    "loc": "United States",
+    "h": "Cyberattack on US CIA computer system",
+    "p": "Hackers broke into an unclassified computer system of the US spy agency CIA, the New York Times reported on Tuesday. The AP news agency confirmed it through one unnamed person. The system is used to collect publicly available information. That person said no classified information was lost and the problem has been fixed. It is not yet known who carried out the attack.",
+    "pts": [
+     "It is not yet known what information was taken",
+     "The CIA has not commented officially"
+    ],
+    "why": "It shows even big agencies face cyberattacks and data security matters."
+   },
+   "hi": {
+    "cat": "दुनिया · तकनीक",
+    "stat": "साइबर हमला",
+    "statl": "सीआईए के कंप्यूटर सिस्टम पर",
+    "loc": "अमेरिका",
+    "h": "अमेरिकी सीआईए के कंप्यूटर सिस्टम पर साइबर हमला",
+    "p": "न्यूयॉर्क टाइम्स ने मंगलवार को बताया कि अमेरिकी ख़ुफ़िया एजेंसी सीआईए के एक ग़ैर-गोपनीय कंप्यूटर सिस्टम में हैकर घुस गए। समाचार एजेंसी एपी ने एक अनाम व्यक्ति के हवाले से इसकी पुष्टि की। यह सिस्टम सार्वजनिक जानकारी जुटाने के काम आता है। उस व्यक्ति ने कहा कि गोपनीय जानकारी नहीं गई और समस्या ठीक कर दी गई है। हमला किसने किया, यह अभी पता नहीं है।",
+    "pts": [
+     "कौन सी जानकारी गई, यह अभी पता नहीं",
+     "सीआईए ने आधिकारिक टिप्पणी नहीं की"
+    ],
+    "why": "यह दिखाता है कि बड़ी एजेंसियों पर भी साइबर हमले होते हैं और डेटा सुरक्षा अहम है।"
+   },
+   "d": "25.11.2026",
+   "t": "07:05"
+  },
   {
    "cat": "కరీంనగర్ · విద్య",
    "col": "--c-gov",
@@ -2330,925 +3308,6 @@
    "d": "24.11.2026",
    "t": "21:35",
    "loc": ""
-  },
-  {
-   "cat": "తెలంగాణ · రాజకీయం",
-   "col": "--c-water",
-   "art": "water",
-   "pic": "e/party-brs",
-   "stat": "కృష్ణా నీటిపై",
-   "statl": "హరీశ్ రావు సవాల్",
-   "h": "కృష్ణా నీటిపై సీఎంకు హరీశ్ రావు సవాల్",
-   "p": "కృష్ణా నీటిపై సీఎం రేవంత్ రెడ్డి చేసిన ఆరోపణలు అబద్ధాలని బీఆర్‌ఎస్ నేత హరీశ్ రావు అన్నారు. పల్నాడు వాటర్ గ్రిడ్, రాయలసీమ లిఫ్ట్, పాలమూరు–రంగారెడ్డి ప్రాజెక్టులపై చర్చకు రావాలని సవాల్ చేశారు. అసెంబ్లీలో చర్చ, కృష్ణా బోర్డు అత్యవసర సమావేశం, శ్వేతపత్రం కావాలని డిమాండ్ చేశారు.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/harish-rao-challenges-revanth-reddy-s-claims-on-krishna",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "pts": [
-    "299:512 టీఎంసీల పంపకం 2015 నాటి తాత్కాలిక ఏర్పాటు అని వాదన",
-    "పల్నాడు పనులు వెంటనే ఆపాలని డిమాండ్",
-    "బీఆర్‌ఎస్ హయాంలో సాగునీటికి ₹30 వేల కోట్లు ఖర్చు చేశామన్నారు"
-   ],
-   "why": "కృష్ణా నీటి వాటాపై ఈ వివాదం తెలంగాణ రైతులకు ముఖ్యం.",
-   "pub": "2026-11-24T18:03+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Telangana · Politics",
-    "stat": "Krishna water",
-    "statl": "Harish Rao dares CM to debate",
-    "loc": "Telangana",
-    "h": "Harish Rao dares CM to debate Krishna water",
-    "p": "BRS leader Harish Rao called CM Revanth Reddy's allegations on Krishna water lies. He challenged him to a debate on the Palnadu Water Grid, Rayalaseema lift and Palamuru-Rangareddy projects, and demanded an Assembly debate, an emergency Krishna board meeting and a white paper.",
-    "pts": [
-     "Says 299:512 TMC sharing was a temporary 2015 arrangement",
-     "Demands Palnadu works be stopped immediately",
-     "Says BRS spent ₹30,000 crore on irrigation"
-    ],
-    "why": "The dispute over Krishna water share matters to Telangana farmers."
-   },
-   "hi": {
-    "cat": "तेलंगाना · राजनीति",
-    "stat": "कृष्णा पानी",
-    "statl": "हरीश राव की CM को चुनौती",
-    "loc": "तेलंगाना",
-    "h": "कृष्णा पानी पर हरीश राव की CM को चुनौती",
-    "p": "बीआरएस नेता हरीश राव ने कृष्णा पानी पर मुख्यमंत्री रेवंत रेड्डी के आरोपों को झूठ बताया। उन्होंने पलनाडु वाटर ग्रिड, रायलसीमा लिफ्ट और पालमुरु-रंगारेड्डी परियोजनाओं पर बहस की चुनौती दी और विधानसभा में बहस, कृष्णा बोर्ड की आपात बैठक और श्वेत पत्र की मांग की।",
-    "pts": [
-     "299:512 टीएमसी बंटवारा 2015 की अस्थायी व्यवस्था बताया",
-     "पलनाडु काम तुरंत रोकने की मांग",
-     "बीआरएस ने सिंचाई पर ₹30,000 करोड़ खर्च करने की बात कही"
-    ],
-    "why": "कृष्णा पानी के हिस्से का विवाद तेलंगाना के किसानों के लिए अहम है।"
-   },
-   "d": "24.11.2026",
-   "t": "21:35",
-   "loc": ""
-  },
-  {
-   "cat": "భూపాలపల్లి · ప్రమాదం",
-   "col": "--c-water",
-   "pic": "e/remembrance-and-condolence",
-   "stat": "14 ఏళ్ల బాలుడు",
-   "statl": "నదిలో మునిగి మృతి",
-   "h": "కాళేశ్వరం గోదావరిలో మునిగి బాలుడు మృతి",
-   "p": "జయశంకర్ భూపాలపల్లి జిల్లా కాళేశ్వరంలో మంగళవారం గోదావరిలో మునిగి 14 ఏళ్ల బాలుడు మృతి చెందాడు. ఛత్తీస్‌గఢ్‌లోని బీజాపూర్‌కు చెందిన ఈ బాలుడు కార్తీక పౌర్ణమి సందర్భంగా త్రివేణి సంగమంలో పుణ్యస్నానానికి వచ్చాడు. నీటిలో గల్లంతైన అతని కోసం పోలీసులు జాలర్ల సాయంతో గాలించారు. తర్వాత మృతదేహాన్ని బయటకు తీసి మహదేవ్‌పూర్ ఆసుపత్రికి తరలించారు.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/boy-drowns-in-godavari-at-kaleshwaram",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "bhupalpally",
-   "loc": "కాళేశ్వరం",
-   "pts": [
-    "బాలుడు నీటిలో గల్లంతయ్యాడని స్థానికులు తెలిపారు"
-   ],
-   "why": "పండుగ రోజుల్లో నదీ స్నానాలకు పిల్లలను తీసుకెళ్లే కుటుంబాలు మరింత జాగ్రత్తగా ఉండాలి.",
-   "pub": "2026-11-24T20:38+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Bhupalpally · Accident",
-    "stat": "14-year-old boy",
-    "statl": "drowns in the Godavari",
-    "loc": "Kaleshwaram",
-    "h": "Boy, 14, drowns in Godavari at Kaleshwaram",
-    "p": "A 14-year-old boy drowned in the Godavari at Kaleshwaram in Jayashankar Bhupalpally district on Tuesday. The boy, from Bijapur in Chhattisgarh, had come for a holy dip at Triveni Sangam on Karthika Pournami. Police searched for him with the help of fishermen after he went missing in the water. The body was later recovered and shifted to Mahadevpur hospital.",
-    "pts": [
-     "Locals said the boy went missing in the water"
-    ],
-    "why": "Families taking children for river baths on festival days need to be extra careful."
-   },
-   "hi": {
-    "cat": "भूपालपल्ली · हादसा",
-    "stat": "14 साल का लड़का",
-    "statl": "गोदावरी में डूबने से मौत",
-    "loc": "कालेश्वरम",
-    "h": "कालेश्वरम में गोदावरी में डूबा 14 साल का लड़का",
-    "p": "जयशंकर भूपालपल्ली जिले के कालेश्वरम में मंगलवार को गोदावरी में डूबने से 14 साल के लड़के की मौत हो गई। छत्तीसगढ़ के बीजापुर का यह लड़का कार्तिक पूर्णिमा पर त्रिवेणी संगम में पवित्र स्नान के लिए आया था। पानी में लापता होने के बाद पुलिस ने मछुआरों की मदद से तलाश की। बाद में शव निकालकर महादेवपुर अस्पताल भेजा गया।",
-    "pts": [
-     "स्थानीय लोगों ने बताया कि लड़का पानी में लापता हो गया था"
-    ],
-    "why": "त्योहार के दिनों में बच्चों को नदी स्नान के लिए ले जाने वाले परिवारों को ज्यादा सावधान रहना चाहिए।"
-   },
-   "art": "",
-   "d": "24.11.2026",
-   "t": "21:05"
-  },
-  {
-   "cat": "ఏపీ · విజయనగరం",
-   "col": "--c-water",
-   "pic": "e/remembrance-and-condolence",
-   "stat": "ఇద్దరు పిల్లలు",
-   "statl": "వాగులో మునిగి మృతి",
-   "h": "గరివిడి వాగులో ఇద్దరు పిల్లలు మృతి",
-   "p": "విజయనగరం జిల్లా గరివిడి మండలం వి.పి.రేగ గ్రామంలో మంగళవారం వాగులో మునిగి అన్నాచెల్లెళ్లు మృతి చెందారు. ఏడేళ్ల బాలుడు, నాలుగేళ్ల బాలిక ప్రాణాలు కోల్పోయారు. కార్తీక పౌర్ణమి సందర్భంగా తల్లి వాగు ఒడ్డున దీపాలు వెలిగిస్తుండగా, పక్కనే ఆడుకుంటున్న పిల్లలు నీటిలోకి దిగి ప్రమాదవశాత్తు మునిగిపోయారని డెక్కన్ క్రానికల్ కథనం తెలిపింది.",
-   "src": "Deccan Chronicle",
-   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/vizianagaram-brother-sister-drown-in-river-stream-2007475",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-vizianagaram",
-   "loc": "వి.పి.రేగ, గరివిడి మండలం",
-   "pts": [],
-   "why": "నీటి దగ్గర పూజలు, దీపాల సమయంలో చిన్న పిల్లలను ఒక్క క్షణం కూడా వదలకూడదని గుర్తు చేసే ఘటన.",
-   "pub": "2026-11-24T14:22+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Vizianagaram",
-    "stat": "2 children",
-    "statl": "drown in a stream",
-    "loc": "V.P. Rega, Garividi mandal",
-    "h": "Brother, sister drown in stream in Garividi",
-    "p": "A brother and sister drowned in a stream at V.P. Rega village in Garividi mandal of Vizianagaram district on Tuesday. The boy was seven and the girl four. According to a Deccan Chronicle report, their mother was lighting lamps on the bank for Karthika Pournami when the children, playing nearby, stepped into the water and accidentally drowned.",
-    "pts": [],
-    "why": "A reminder not to leave small children alone even for a moment during rituals near water."
-   },
-   "hi": {
-    "cat": "आंध्र · विजयनगरम",
-    "stat": "दो बच्चे",
-    "statl": "नाले में डूबने से मौत",
-    "loc": "वी.पी. रेगा, गरिविडी मंडल",
-    "h": "गरिविडी में नाले में डूबे भाई-बहन, दोनों की मौत",
-    "p": "विजयनगरम जिले के गरिविडी मंडल के वी.पी. रेगा गांव में मंगलवार को नाले में डूबने से भाई-बहन की मौत हो गई। लड़का सात साल का और लड़की चार साल की थी। डेक्कन क्रॉनिकल की रिपोर्ट के अनुसार, मां कार्तिक पूर्णिमा पर किनारे दीये जला रही थी, तभी पास में खेल रहे बच्चे पानी में उतर गए और डूब गए।",
-    "pts": [],
-    "why": "पानी के पास पूजा के समय छोटे बच्चों को एक पल भी अकेला न छोड़ने की याद दिलाने वाली घटना।"
-   },
-   "art": "",
-   "d": "24.11.2026",
-   "t": "21:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · రాజకీయం",
-   "col": "--c-city",
-   "pic": "e/peaceful-public-protest",
-   "stat": "ముట్టడికి పిలుపు",
-   "statl": "భూముల వేలంపై",
-   "h": "హెచ్‌ఎండీఏ ముట్టడికి బీఆర్‌ఎస్ పిలుపు",
-   "p": "హైదరాబాద్‌లోని కూకట్‌పల్లి, మియాపూర్ వంటి ప్రాంతాల్లో ప్రభుత్వ భూముల ఈ-వేలాన్ని వ్యతిరేకిస్తూ బీఆర్‌ఎస్, వామపక్షాలు మంగళవారం హెచ్‌ఎండీఏ ప్రధాన కార్యాలయం ముట్టడికి పిలుపునిచ్చాయి. వేలం నవంబర్ 27న జరగాల్సి ఉంది. ప్రజల అవసరాల కోసం సేకరించిన భూములను కార్పొరేట్ సంస్థలకు ఇవ్వకూడదని ఆ పార్టీలు అంటున్నాయి. తమ డిమాండ్లపై ప్రభుత్వం స్పందించలేదని బీఆర్‌ఎస్ ఆరోపించింది.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/brs-left-parties-to-lay-siege-to-hmda-office-over-land",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "కూకట్‌పల్లి, మియాపూర్",
-   "pts": [
-    "హరీశ్ రావు, సీపీఐ, సీపీఎం, న్యూ డెమోక్రసీ నేతలు పాల్గొంటారని సమాచారం",
-    "కూకట్‌పల్లి భూమిని లారీల పార్కింగ్‌కే వాడాలని డిమాండ్",
-    "వారం రోజులుగా స్థానికంగా నిరసనలు, నిరాహార దీక్షలు"
-   ],
-   "why": "కూకట్‌పల్లి, మియాపూర్ వాసులకు తమ ప్రాంతంలోని ప్రభుత్వ భూమి ఎలా వాడతారన్నది ముఖ్యమైన విషయం.",
-   "next": "భూముల ఈ-వేలం నవంబర్ 27న జరగాల్సి ఉంది",
-   "pub": "2026-11-24T20:35+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Hyderabad · Politics",
-    "stat": "Siege call",
-    "statl": "over Hyderabad land auction",
-    "loc": "Kukatpally, Miyapur",
-    "h": "BRS, Left call siege of HMDA office over auction",
-    "p": "The BRS and Left parties called for a siege of the HMDA headquarters on Tuesday against the e-auction of government lands in Kukatpally, Miyapur and other parts of Hyderabad. The auction is scheduled for November 27. The parties say land acquired for public purposes should not go to corporate firms. The BRS alleged that the government did not respond to their demands.",
-    "pts": [
-     "Harish Rao and CPI, CPM, New Democracy leaders expected to join",
-     "Demand to use the Kukatpally land for truck parking only",
-     "Local protests and hunger strikes for a week"
-    ],
-    "why": "For residents of Kukatpally and Miyapur, how government land in their area is used matters.",
-    "next": "The land e-auction is scheduled for November 27"
-   },
-   "hi": {
-    "cat": "हैदराबाद · राजनीति",
-    "stat": "घेराव का आह्वान",
-    "statl": "हैदराबाद भूमि नीलामी पर",
-    "loc": "कुकटपल्ली, मियापुर",
-    "h": "एचएमडीए दफ्तर घेराव का बीआरएस, वाम दलों का आह्वान",
-    "p": "हैदराबाद के कुकटपल्ली, मियापुर और अन्य इलाकों में सरकारी जमीनों की ई-नीलामी के विरोध में बीआरएस और वाम दलों ने मंगलवार को एचएमडीए मुख्यालय के घेराव का आह्वान किया। नीलामी 27 नवंबर को होनी है। दलों का कहना है कि जनता के काम के लिए ली गई जमीन कॉरपोरेट कंपनियों को नहीं दी जानी चाहिए। बीआरएस ने आरोप लगाया कि सरकार ने उनकी मांगों पर जवाब नहीं दिया।",
-    "pts": [
-     "हरीश राव और सीपीआई, सीपीएम, न्यू डेमोक्रेसी नेताओं के शामिल होने की उम्मीद",
-     "कुकटपल्ली की जमीन ट्रक पार्किंग के लिए ही रखने की मांग",
-     "एक हफ्ते से स्थानीय प्रदर्शन और भूख हड़ताल"
-    ],
-    "why": "कुकटपल्ली और मियापुर के लोगों के लिए अपने इलाके की सरकारी जमीन का इस्तेमाल अहम मुद्दा है।",
-    "next": "भूमि की ई-नीलामी 27 नवंबर को होनी है"
-   },
-   "art": "",
-   "d": "24.11.2026",
-   "t": "21:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · రవాణా",
-   "col": "--c-city",
-   "pic": "logo",
-   "stat": "సైబరాబాద్ మూవ్స్",
-   "statl": "26 నుంచి టీ-హబ్‌లో",
-   "h": "టీ-హబ్‌లో 26 నుంచి సైబరాబాద్ మూవ్స్",
-   "p": "హైదరాబాద్ రాయదుర్గంలోని టీ-హబ్‌లో నవంబర్ 26 నుంచి 28 వరకు 'సైబరాబాద్ మూవ్స్ 2026' కార్యక్రమం జరగనుంది. సులభమైన ప్రయాణం, సురక్షితమైన రోడ్లు, మెరుగైన ప్రజా రవాణాపై నిపుణులు, ప్రజలు ఇక్కడ చర్చిస్తారు. సైబరాబాద్ మున్సిపల్ కార్పొరేషన్ కమిషనర్ జి. సృజన, పోలీస్ కమిషనర్ ఎం. రమేష్ మంగళవారం ఏర్పాట్లను పరిశీలించారు.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/cyberabad-moves-2026-begins-thursday",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "rangareddy",
-   "loc": "రాయదుర్గం",
-   "pts": [
-    "కొత్త ఆలోచనలు, టెక్నాలజీ పరిష్కారాలు ప్రదర్శిస్తామన్న కమిషనర్",
-    "వేదిక ఏర్పాట్లు, ట్రాఫిక్ నిర్వహణపై అధికారుల సమీక్ష"
-   ],
-   "why": "ఐటీ కారిడార్‌లో రోజూ ట్రాఫిక్‌లో చిక్కుకునే ఉద్యోగులకు ఉపయోగపడే పరిష్కారాలపై ఇక్కడ చర్చ జరుగుతుంది.",
-   "next": "కార్యక్రమం నవంబర్ 26న మొదలై 28 వరకు జరుగుతుంది",
-   "pub": "2026-11-24T20:43+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Transport",
-    "stat": "Cyberabad Moves",
-    "statl": "at T-Hub from November 26",
-    "loc": "Raidurgam",
-    "h": "'Cyberabad Moves' at T-Hub from November 26",
-    "p": "The three-day 'Cyberabad Moves 2026' event will be held at T-Hub in Raidurgam, Hyderabad, from November 26 to 28. Experts and citizens will discuss smarter mobility, safer streets and better public transport. Cyberabad Municipal Corporation Commissioner G. Srijana and Police Commissioner M. Ramesh inspected the arrangements on Tuesday.",
-    "pts": [
-     "Commissioner says new ideas and tech solutions will be showcased",
-     "Officials reviewed venue readiness and traffic management"
-    ],
-    "why": "The talks cover solutions that could help employees stuck in IT corridor traffic every day.",
-    "next": "The event runs from November 26 to 28"
-   },
-   "hi": {
-    "cat": "हैदराबाद · परिवहन",
-    "stat": "साइबराबाद मूव्स",
-    "statl": "26 नवंबर से टी-हब में",
-    "loc": "रायदुर्गम",
-    "h": "टी-हब में 26 नवंबर से 'साइबराबाद मूव्स'",
-    "p": "हैदराबाद के रायदुर्गम स्थित टी-हब में 26 से 28 नवंबर तक 'साइबराबाद मूव्स 2026' कार्यक्रम होगा। इसमें विशेषज्ञ और नागरिक आसान आवागमन, सुरक्षित सड़कों और बेहतर सार्वजनिक परिवहन पर चर्चा करेंगे। साइबराबाद नगर निगम आयुक्त जी. सृजना और पुलिस आयुक्त एम. रमेश ने मंगलवार को तैयारियों का निरीक्षण किया।",
-    "pts": [
-     "आयुक्त ने कहा कि नए विचार और तकनीकी समाधान दिखाए जाएंगे",
-     "अधिकारियों ने स्थल की तैयारी और ट्रैफिक प्रबंधन की समीक्षा की"
-    ],
-    "why": "यहां उन समाधानों पर चर्चा होगी जो आईटी कॉरिडोर के जाम में रोज फंसने वाले कर्मचारियों के काम आ सकते हैं।",
-    "next": "कार्यक्रम 26 से 28 नवंबर तक चलेगा"
-   },
-   "art": "",
-   "d": "24.11.2026",
-   "t": "21:05"
-  },
-  {
-   "cat": "భారత్ · రాజకీయం",
-   "col": "--c-election",
-   "pic": "e/government-press-briefing",
-   "stat": "117 స్థానాల్లో",
-   "statl": "కలిసి పోటీ",
-   "h": "పంజాబ్‌లో మళ్లీ బీజేపీ–అకాలీదళ్ పొత్తు",
-   "p": "2027 పంజాబ్ అసెంబ్లీ ఎన్నికల కోసం బీజేపీ, శిరోమణి అకాలీదళ్ మళ్లీ పొత్తు పెట్టుకున్నాయి. మొత్తం 117 స్థానాల్లో కలిసి పోటీ చేస్తామని అమిత్ షా దిల్లీలో ప్రకటించారు. కూటమి గెలిస్తే ముఖ్యమంత్రి పదవి అకాలీదళ్‌కే దక్కుతుందని చెప్పారు. సాగు చట్టాల వివాదంతో 2020లో ఎన్డీయే నుంచి బయటకు వెళ్లిన అకాలీదళ్ ఆరేళ్ల తర్వాత తిరిగి వచ్చింది.",
-   "src": "Telangana Today (PTI)",
-   "url": "https://telanganatoday.com/bjp-sad-alliance-revived-ahead-of-2027-punjab-assembly-elections",
-   "sec": [
-    "india"
-   ],
-   "st": "PB",
-   "place": "st-PB",
-   "loc": "",
-   "pts": [
-    "సీట్ల పంపకం తర్వాత తేలుస్తామన్న బీజేపీ అధ్యక్షుడు నితిన్ నబీన్",
-    "అధికారం కోసమే ఈ పొత్తు అని ఆప్, కాంగ్రెస్ విమర్శ",
-    "డ్రగ్స్, రైతుల సంక్షేమంపై ఉమ్మడి మేనిఫెస్టో"
-   ],
-   "why": "వచ్చే ఏడాది పంజాబ్ ఎన్నికల్లో పోటీ తీరును, జాతీయ రాజకీయాల్లో ఎన్డీయే బలాన్ని ఈ పొత్తు మారుస్తుంది.",
-   "pub": "2026-11-24T17:17+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "India · Politics",
-    "stat": "117 seats",
-    "statl": "to be contested together",
-    "loc": "",
-    "h": "BJP, Akali Dal reunite for Punjab polls",
-    "p": "The BJP and the Shiromani Akali Dal have revived their alliance for the 2027 Punjab Assembly elections. Amit Shah announced in Delhi that they will contest all 117 seats together and that the Akali Dal will get the Chief Minister's post if the alliance wins. The Akali Dal, which left the NDA in 2020 over the farm laws, returns after six years.",
-    "pts": [
-     "BJP president Nitin Nabin says seat-sharing will be decided later",
-     "AAP and Congress call it an alliance for power",
-     "Joint manifesto to focus on drugs and farmers' welfare"
-    ],
-    "why": "The tie-up changes the contest in next year's Punjab election and the NDA's strength nationally."
-   },
-   "hi": {
-    "cat": "भारत · राजनीति",
-    "stat": "117 सीटों पर",
-    "statl": "साथ चुनाव लड़ेंगे",
-    "loc": "",
-    "h": "पंजाब में फिर भाजपा-अकाली दल गठबंधन",
-    "p": "2027 के पंजाब विधानसभा चुनाव के लिए भाजपा और शिरोमणि अकाली दल ने फिर गठबंधन कर लिया है। अमित शाह ने दिल्ली में घोषणा की कि दोनों दल सभी 117 सीटों पर साथ लड़ेंगे और गठबंधन जीता तो मुख्यमंत्री पद अकाली दल को मिलेगा। कृषि कानूनों के विवाद पर 2020 में एनडीए छोड़ने वाला अकाली दल छह साल बाद लौटा है।",
-    "pts": [
-     "भाजपा अध्यक्ष नितिन नबीन ने कहा कि सीट बंटवारा बाद में तय होगा",
-     "आप और कांग्रेस ने इसे सत्ता के लिए गठबंधन बताया",
-     "साझा घोषणापत्र में नशा और किसान कल्याण पर जोर"
-    ],
-    "why": "यह गठबंधन अगले साल के पंजाब चुनाव का मुकाबला और राष्ट्रीय स्तर पर एनडीए की ताकत बदलता है।"
-   },
-   "art": "",
-   "d": "24.11.2026",
-   "t": "21:05"
-  },
-  {
-   "cat": "తెలంగాణ · హనుమకొండ",
-   "col": "--c-city",
-   "art": "",
-   "pic": "logo",
-   "stat": "హనుమకొండలో",
-   "statl": "పార్టీల ఘర్షణ",
-   "h": "హనుమకొండ బీఆర్‌ఎస్ ఆఫీసు వద్ద ఘర్షణ",
-   "p": "హనుమకొండ బాలసముద్రంలోని బీఆర్‌ఎస్ పార్టీ ఆఫీసు వద్ద మంగళవారం సాయంత్రం కాంగ్రెస్, బీఆర్‌ఎస్ కార్యకర్తల మధ్య ఘర్షణ జరిగింది. కాంగ్రెస్ కార్యకర్తలు ఆఫీసులోకి వెళ్లేందుకు ప్రయత్నించారు. ఫ్లెక్సీలు చింపేశారు, గుడ్లు, టమాటాలు, రాళ్లు విసిరారు. ఇరు పార్టీల కార్యకర్తలను ముందు జాగ్రత్తగా అదుపులోకి తీసుకున్నామని, శాంతిభద్రతలకు భంగం కలిగిస్తే ఊరుకోబోమని పోలీస్ కమిషనర్ తెలిపారు.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/tension-in-hanamkonda-as-congress-cadres-attack-brs-office",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hanumakonda",
-   "loc": "బాలసముద్రం",
-   "pts": [
-    "వరంగల్ పశ్చిమ అభివృద్ధిపై ఎమ్మెల్యే, మాజీ ఎమ్మెల్యే మధ్య మాటల యుద్ధమే కారణం",
-    "బీఆర్‌ఎస్ ఆఫీసు, ఎమ్మెల్యే క్యాంపు ఆఫీసు వద్ద పోలీసుల మోహరింపు"
-   ],
-   "why": "హనుమకొండ నగరవాసులు ఈ ప్రాంతాల్లో పోలీసు బందోబస్తు ఉంటుందని గుర్తుంచుకోవాలి.",
-   "pub": "2026-11-24T20:25+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Hanamkonda",
-    "stat": "Hanamkonda",
-    "statl": "party workers clash",
-    "loc": "Balasamudram, Hanamkonda",
-    "h": "Congress, BRS cadres clash at Hanamkonda office",
-    "p": "Congress and BRS workers clashed at the BRS party office in Balasamudram, Hanamkonda, on Tuesday evening. Flex banners were torn and eggs, tomatoes and stones were thrown. The Commissioner of Police said workers of both parties were taken into preventive custody.",
-    "pts": [
-     "Row followed a war of words between Warangal West MLA and former MLA over development",
-     "Police deployed at BRS office and MLA camp office"
-    ],
-    "why": "Hanamkonda residents can expect heavy police presence around these offices."
-   },
-   "hi": {
-    "cat": "तेलंगाना · हनमकोंडा",
-    "stat": "हनमकोंडा में",
-    "statl": "दलों में झड़प",
-    "loc": "बालसमुद्रम, हनमकोंडा",
-    "h": "हनमकोंडा में बीआरएस दफ्तर पर झड़प",
-    "p": "मंगलवार शाम हनमकोंडा के बालसमुद्रम स्थित बीआरएस पार्टी दफ्तर पर कांग्रेस और बीआरएस कार्यकर्ताओं के बीच झड़प हुई। फ्लेक्स फाड़े गए और अंडे, टमाटर व पत्थर फेंके गए। पुलिस कमिश्नर ने बताया कि दोनों दलों के कार्यकर्ताओं को एहतियातन हिरासत में लिया गया।",
-    "pts": [
-     "वरंगल पश्चिम के विकास पर विधायक और पूर्व विधायक के बीच बयानबाजी से विवाद",
-     "बीआरएस दफ्तर और विधायक कैंप कार्यालय पर पुलिस तैनात"
-    ],
-    "why": "हनमकोंडा के लोग इन इलाकों में भारी पुलिस बंदोबस्त की उम्मीद रखें।"
-   },
-   "d": "24.11.2026",
-   "t": "20:35"
-  },
-  {
-   "cat": "తెలంగాణ · వరంగల్",
-   "col": "--c-city",
-   "art": "",
-   "pic": "e/missing-person-search",
-   "stat": "4 నెలల పాప",
-   "statl": "కనిపించట్లేదు",
-   "h": "వరంగల్ ఎంజీఎం నుంచి పసిపాప మాయం",
-   "p": "వరంగల్ ఎంజీఎం ఆసుపత్రి నుంచి నాలుగు నెలల పాప నవంబర్ 21న కనిపించకుండా పోయింది. బంధువు చికిత్స కోసం తల్లి ఇద్దరు పిల్లలతో ఆసుపత్రికి వచ్చారు. ఆమె పోలీసులకు ఫిర్యాదు చేయలేదు. ఒక బంధువు చైల్డ్ హెల్ప్‌లైన్ 1098కు ఫోన్ చేయడంతో ఐసీడీఎస్ అధికారి ఫిర్యాదు చేశారు. మట్టెవాడ పోలీసులు కేసు నమోదు చేసి దర్యాప్తు చేస్తున్నారు.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/infant-reported-missing-from-mgm-hospital-in-warangal",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "warangal",
-   "loc": "ఎంజీఎం ఆసుపత్రి",
-   "pts": [
-    "కుటుంబం జనగామ జిల్లాకు చెందినది",
-    "తల్లి మాటలు పొంతన లేవని అధికారుల అనుమానం"
-   ],
-   "why": "పిల్లలు కనిపించకుండా పోతే వెంటనే 1098 లేదా పోలీసులకు తెలియజేయాలని ఈ ఘటన గుర్తు చేస్తోంది.",
-   "pub": "2026-11-24T19:54+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Warangal",
-    "stat": "4-month-old girl",
-    "statl": "missing",
-    "loc": "MGM Hospital, Warangal",
-    "h": "Infant girl missing from Warangal MGM",
-    "p": "A four-month-old girl went missing from MGM Hospital in Warangal on November 21. The mother had come to the hospital with two children for a relative's treatment and did not file a police complaint. A relative called Child Helpline 1098, an ICDS official complained, and Mattewada police registered a case and are investigating.",
-    "pts": [
-     "The family is from Jangaon district",
-     "Officials suspect the mother's statements do not match"
-    ],
-    "why": "The case is a reminder to report a missing child at once to 1098 or the police."
-   },
-   "hi": {
-    "cat": "तेलंगाना · वरंगल",
-    "stat": "4 महीने की बच्ची",
-    "statl": "लापता",
-    "loc": "एमजीएम अस्पताल, वरंगल",
-    "h": "वरंगल एमजीएम से 4 महीने की बच्ची लापता",
-    "p": "वरंगल के एमजीएम अस्पताल से 21 नवंबर को चार महीने की बच्ची लापता हो गई। मां एक रिश्तेदार के इलाज के लिए दो बच्चों के साथ आई थी और उसने पुलिस में शिकायत नहीं की। एक रिश्तेदार ने चाइल्ड हेल्पलाइन 1098 पर फोन किया, आईसीडीएस अधिकारी ने शिकायत दी और मट्टेवाड़ा पुलिस ने मामला दर्ज कर जांच शुरू की।",
-    "pts": [
-     "परिवार जनगांव जिले का है",
-     "अधिकारियों को मां के बयानों में विरोधाभास का संदेह"
-    ],
-    "why": "यह घटना याद दिलाती है कि बच्चा लापता हो तो तुरंत 1098 या पुलिस को बताएं।"
-   },
-   "d": "24.11.2026",
-   "t": "20:35"
-  },
-  {
-   "cat": "తెలంగాణ · ప్రమాదం",
-   "col": "--c-power",
-   "art": "",
-   "pic": "e/remembrance-and-condolence",
-   "stat": "ఇద్దరు మృతి",
-   "statl": "కరెంట్ షాక్‌తో",
-   "h": "కొండపాకలో కరెంట్ షాక్‌తో ఇద్దరు మృతి",
-   "p": "కొండపాక మండలంలో మంగళవారం జరిగిన వేర్వేరు ఘటనల్లో కరెంట్ షాక్‌తో ఇద్దరు మృతి చెందారు. దుద్దెడలో పడి పూజ కార్యక్రమానికి ఏర్పాట్లు చేస్తుండగా ఒక యువకుడు, బందారంలోని పెద్దమ్మ గుడి వద్ద కార్తీక పౌర్ణమి వేడుకల గురించి మైక్‌లో ప్రకటన చేస్తుండగా ఒక వృద్ధుడు ప్రాణాలు కోల్పోయారు. రెండు ఘటనలపై కేసులు నమోదయ్యాయి.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/two-electrocuted-in-kondapak-mandal",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "కొండపాక మండలం",
-   "pts": [
-    "మృతుల వయసు 28, 63 ఏళ్లు"
-   ],
-   "why": "పండుగ ఏర్పాట్లలో కరెంట్ వైర్లు, మైకుల వద్ద జాగ్రత్త అవసరమని ఈ ఘటనలు గుర్తు చేస్తున్నాయి.",
-   "pub": "2026-11-24T19:51+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Accident",
-    "stat": "2 dead",
-    "statl": "of electric shock",
-    "loc": "Kondapak mandal",
-    "h": "Two die of electric shock in Kondapak",
-    "p": "Two people died of electric shock in separate incidents in Kondapak mandal on Tuesday. A young man died while making arrangements for a padi puja at Duddeda, and an elderly man died after holding a microphone while announcing Karthika Pournami celebrations at Bandaram.",
-    "pts": [
-     "The victims were aged 28 and 63"
-    ],
-    "why": "The deaths are a reminder to take care with wires and microphones during festival arrangements."
-   },
-   "hi": {
-    "cat": "तेलंगाना · हादसा",
-    "stat": "दो की मौत",
-    "statl": "करंट से",
-    "loc": "कोंडापाक मंडल",
-    "h": "कोंडापाक में करंट लगने से दो की मौत",
-    "p": "मंगलवार को कोंडापाक मंडल में अलग-अलग घटनाओं में करंट लगने से दो लोगों की मौत हो गई। दुद्देडा में पडि पूजा की तैयारी कर रहे एक युवक और बंदारम में कार्तिक पूर्णिमा उत्सव की घोषणा करते हुए माइक पकड़ने वाले एक बुजुर्ग की जान चली गई।",
-    "pts": [
-     "मृतकों की उम्र 28 और 63 साल"
-    ],
-    "why": "त्योहार की तैयारियों में बिजली के तारों और माइक के पास सावधानी जरूरी है।"
-   },
-   "d": "24.11.2026",
-   "t": "20:35"
-  },
-  {
-   "cat": "భారత్ · క్రీడలు",
-   "col": "--c-gov",
-   "art": "",
-   "pic": "logo",
-   "stat": "డిసెంబర్ 5తో",
-   "statl": "ఉష పదవీకాలం ముగింపు",
-   "h": "ఐఓఏ అధ్యక్ష పోటీకి పీటీ ఉష దూరం",
-   "p": "భారత ఒలింపిక్ సంఘం అధ్యక్ష పదవికి మళ్లీ పోటీ చేయకూడదని పరుగుల రాణి పీటీ ఉష నిర్ణయించారు. మంగళవారం సాయంత్రం నాలుగున్నర గంటల గడువులోగా ఆమె నామినేషన్ వేయలేదు. కొత్త కార్యవర్గం డిసెంబర్ 5న బాధ్యతలు తీసుకోగానే ఆమె నాలుగేళ్ల పదవీకాలం ముగుస్తుంది. అధ్యక్ష పదవికి ముగ్గురు నామినేషన్లు వేశారు.",
-   "src": "Telangana Today (PTI)",
-   "url": "https://telanganatoday.com/pt-ushas-ioa-tenure-to-end-on-december-5-as-she-skips-re-election",
-   "sec": [
-    "india",
-    "sports"
-   ],
-   "st": "IN",
-   "place": "IN",
-   "loc": "",
-   "pts": [
-    "పోటీలో గగన్ నారంగ్, వీరేంద్ర సచ్‌దేవా, రాజీవ్ మెహతా"
-   ],
-   "next": "కొత్త కార్యవర్గం డిసెంబర్ 5న బాధ్యతలు",
-   "why": "దేశంలో ఒలింపిక్ క్రీడల నిర్వహణకు కొత్త నాయకత్వం రానుంది.",
-   "pub": "2026-11-24T20:06+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "India · Sports",
-    "stat": "December 5",
-    "statl": "PT Usha's term ends",
-    "loc": "",
-    "h": "PT Usha skips IOA presidential race",
-    "p": "PT Usha has decided not to seek re-election as Indian Olympic Association president. She did not file a nomination by Tuesday's deadline. Her four-year term ends when the new executive council takes charge on December 5.",
-    "pts": [
-     "Gagan Narang, Virendra Sachdeva and Rajeev Mehta in the race"
-    ],
-    "next": "New executive council takes charge on December 5",
-    "why": "Olympic sport in India will get new leadership."
-   },
-   "hi": {
-    "cat": "भारत · खेल",
-    "stat": "5 दिसंबर",
-    "statl": "पीटी उषा का कार्यकाल खत्म",
-    "loc": "",
-    "h": "आईओए अध्यक्ष चुनाव से पीटी उषा बाहर",
-    "p": "पीटी उषा ने भारतीय ओलंपिक संघ के अध्यक्ष पद के लिए दोबारा चुनाव नहीं लड़ने का फैसला किया। मंगलवार की समय सीमा तक उन्होंने नामांकन नहीं भरा। 5 दिसंबर को नई कार्यकारिणी के कार्यभार संभालते ही उनका चार साल का कार्यकाल खत्म होगा।",
-    "pts": [
-     "दौड़ में गगन नारंग, वीरेंद्र सचदेवा और राजीव मेहता"
-    ],
-    "next": "नई कार्यकारिणी 5 दिसंबर को कार्यभार संभालेगी",
-    "why": "देश में ओलंपिक खेलों को नया नेतृत्व मिलेगा।"
-   },
-   "d": "24.11.2026",
-   "t": "20:35"
-  },
-  {
-   "cat": "ఏపీ · ఎన్నికలు",
-   "col": "--c-election",
-   "art": "",
-   "pic": "e/election-office",
-   "stat": "46,080 మంది",
-   "statl": "పోలీసులతో భద్రత",
-   "h": "ఏపీ పంచాయతీ ఎన్నికలకు భారీ భద్రత",
-   "p": "ఆంధ్రప్రదేశ్‌లో గ్రామ పంచాయతీ ఎన్నికలకు 46,080 మంది పోలీసులతో భద్రత ఏర్పాటు చేసినట్లు డీజీపీ హరీశ్ కుమార్ గుప్తా మంగళవారం అమరావతిలో తెలిపారు. సమస్యాత్మక ప్రాంతాల్లో అదనపు బలగాలు, ప్రత్యేక నిఘా ఉంటాయన్నారు. ఎన్నికల తర్వాత విజయోత్సవ ర్యాలీలపై నిషేధం ఉంటుందని చెప్పారు. ఓటర్లు భయం లేకుండా స్వేచ్ఛగా ఓటు వేయాలని కోరారు.",
-   "src": "Andhra Jyothy",
-   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/guntur/ap-panchayat-elections-police-security-vvnp-1579405.html",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "AP",
-   "loc": "అమరావతి",
-   "pts": [
-    "పోలింగ్ మూడు దశల్లో: నవంబర్ 26, 29, డిసెంబర్ 2",
-    "23 స్థానిక సంస్థలకు నవంబర్ 26న పోలింగ్",
-    "వాటిలో ప్రచారం మంగళవారం సాయంత్రం 5 గంటలకు ముగిసింది"
-   ],
-   "why": "పంచాయతీ ఎన్నికల్లో ఓటు వేసే ఏపీ గ్రామీణ ఓటర్లు, అభ్యర్థులు, పార్టీల కార్యకర్తలకు ఇది ముఖ్యం.",
-   "next": "మొదటి దశ పోలింగ్ నవంబర్ 26న",
-   "pub": "2026-11-24T19:34+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Elections",
-    "stat": "46,080",
-    "statl": "police on poll duty",
-    "loc": "Amaravati",
-    "h": "Heavy security for AP panchayat polls",
-    "p": "Andhra Pradesh DGP Harish Kumar Gupta said in Amaravati on Tuesday that 46,080 police personnel have been deployed for the gram panchayat elections. Sensitive areas will get extra forces and special surveillance. Victory rallies after the elections are banned, he said, and urged voters to vote freely and without fear.",
-    "pts": [
-     "Polling in three phases: November 26, 29 and December 2",
-     "23 local bodies also go to polls on November 26",
-     "Campaigning there ended at 5 pm on Tuesday"
-    ],
-    "why": "It matters to rural voters, candidates and party workers in the AP panchayat elections.",
-    "next": "First-phase polling on November 26"
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · चुनाव",
-    "stat": "46,080",
-    "statl": "पुलिसकर्मी तैनात",
-    "loc": "अमरावती",
-    "h": "एपी पंचायत चुनाव के लिए कड़ी सुरक्षा",
-    "p": "आंध्र प्रदेश के डीजीपी हरीश कुमार गुप्ता ने मंगलवार को अमरावती में बताया कि ग्राम पंचायत चुनावों के लिए 46,080 पुलिसकर्मी तैनात किए गए हैं। संवेदनशील इलाकों में अतिरिक्त बल और विशेष निगरानी रहेगी। उन्होंने कहा कि चुनाव के बाद विजय जुलूसों पर रोक रहेगी और मतदाताओं से बिना डर के वोट डालने की अपील की।",
-    "pts": [
-     "मतदान तीन चरणों में: 26, 29 नवंबर और 2 दिसंबर",
-     "23 स्थानीय निकायों में भी 26 नवंबर को मतदान",
-     "वहां प्रचार मंगलवार शाम 5 बजे खत्म हुआ"
-    ],
-    "why": "एपी पंचायत चुनाव के ग्रामीण मतदाताओं, उम्मीदवारों और कार्यकर्ताओं के लिए यह अहम है।",
-    "next": "पहले चरण का मतदान 26 नवंबर को"
-   },
-   "d": "24.11.2026",
-   "t": "20:05"
-  },
-  {
-   "cat": "తిరుమల · భక్తులు",
-   "col": "--c-gov",
-   "art": "",
-   "pic": "logo",
-   "stat": "7 కుటుంబాలకు",
-   "statl": "₹2 లక్షల చొప్పున బీమా",
-   "h": "తిరుమల భక్తుల 7 కుటుంబాలకు బీమా సాయం",
-   "p": "తిరుమలలో గత రెండు నెలల్లో మృతి చెందిన ఏడుగురు భక్తుల కుటుంబాలకు టీటీడీ మంగళవారం ₹2 లక్షల చొప్పున బీమా పరిహారం అందించింది. టీటీడీ, ఎల్ఐసీ కలిసి సెప్టెంబర్ 9న మొదలుపెట్టిన 'శ్రీవారి యాత్ర సురక్ష' పథకం కింద ఈ సాయం ఇచ్చారు. మిగతా కుటుంబాలకు త్వరలో ఇస్తామని అదనపు ఈవో వెంకయ్య చౌదరి తెలిపారు.",
-   "src": "Telangana Today (PTI)",
-   "url": "https://telanganatoday.com/seven-tirumala-pilgrims-families-receive-rs-2-lakh-each-under-ttd-insurance-scheme",
-   "sec": [
-    "telangana",
-    "culture"
-   ],
-   "st": "AP",
-   "place": "ap-tirupati",
-   "loc": "తిరుమల",
-   "pts": [
-    "రెండు నెలల్లో తిరుమలలో 17 మంది భక్తులు మృతి",
-    "సహజ మరణానికి ₹2 లక్షలు, ప్రమాద మరణానికి ₹10 లక్షలు",
-    "మరణ ధ్రువపత్రం, నామినీ బ్యాంకు వివరాలు ఇస్తే చెల్లింపు"
-   ],
-   "why": "తిరుమలకు వెళ్లే తెలుగు రాష్ట్రాల భక్తులు, వారి కుటుంబాలకు ఈ బీమా గురించి తెలియడం ఉపయోగం.",
-   "pub": "2026-11-24T19:38+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Tirumala · Pilgrims",
-    "stat": "7 families",
-    "statl": "get ₹2 lakh insurance each",
-    "loc": "Tirumala",
-    "h": "7 Tirumala pilgrim families get insurance",
-    "p": "The TTD on Tuesday paid ₹2 lakh each as insurance compensation to the families of seven pilgrims who died in Tirumala in the past two months. The money came under 'Srivari Yatra Suraksha', a scheme started by TTD and LIC on September 9. Additional EO Venkaiah Chowdary said the remaining families will be paid shortly.",
-    "pts": [
-     "17 pilgrims died in Tirumala in two months",
-     "₹2 lakh for natural death, ₹10 lakh for accidental death",
-     "Paid on death certificate and nominee's bank details"
-    ],
-    "why": "Useful for pilgrims from the Telugu states who visit Tirumala, and for their families."
-   },
-   "hi": {
-    "cat": "तिरुमला · श्रद्धालु",
-    "stat": "7 परिवारों को",
-    "statl": "₹2-2 लाख का बीमा",
-    "loc": "तिरुमला",
-    "h": "तिरुमला के 7 श्रद्धालु परिवारों को बीमा राशि",
-    "p": "टीटीडी ने मंगलवार को तिरुमला में पिछले दो महीनों में जान गंवाने वाले सात श्रद्धालुओं के परिवारों को ₹2-2 लाख का बीमा मुआवजा दिया। यह राशि टीटीडी और एलआईसी की 9 सितंबर को शुरू हुई 'श्रीवारी यात्रा सुरक्षा' योजना के तहत दी गई। अतिरिक्त ईओ वेंकैया चौधरी ने कहा कि बाकी परिवारों को जल्द राशि मिलेगी।",
-    "pts": [
-     "दो महीनों में तिरुमला में 17 श्रद्धालुओं की मृत्यु",
-     "स्वाभाविक मृत्यु पर ₹2 लाख, दुर्घटना में ₹10 लाख",
-     "मृत्यु प्रमाणपत्र और नामिनी के बैंक विवरण पर भुगतान"
-    ],
-    "why": "तिरुमला जाने वाले तेलुगु राज्यों के श्रद्धालुओं और उनके परिवारों के लिए उपयोगी।"
-   },
-   "d": "24.11.2026",
-   "t": "20:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · ట్రాఫిక్",
-   "col": "--c-city",
-   "art": "",
-   "pic": "e/traffic-congestion",
-   "stat": "ట్రాఫిక్ మళ్లింపు",
-   "statl": "అంబర్‌పేట–ముషీరాబాద్‌లో",
-   "h": "కిషన్ రెడ్డి పాదయాత్రకు ట్రాఫిక్ మళ్లింపు",
-   "p": "కేంద్ర మంత్రి కిషన్ రెడ్డి నాయకత్వంలో బుధవారం జరిగే 'నషా ముక్త్ భారత్' పాదయాత్ర కోసం హైదరాబాద్ ట్రాఫిక్ పోలీసులు అవసరాన్ని బట్టి ట్రాఫిక్ మళ్లింపులు ప్రకటించారు. పాదయాత్ర అంబర్‌పేట మహంకాళి ఆలయం దగ్గర మొదలై ముషీరాబాద్ కశిష్ ఫంక్షన్ హాల్ వద్ద ముగుస్తుంది. ఈ మార్గంలో, పక్క రోడ్లలో రద్దీ ఉండొచ్చని, ప్రయాణాలు ముందే ప్లాన్ చేసుకోవాలని పోలీసులు సూచించారు.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/traffic-diversions",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "అంబర్‌పేట, ముషీరాబాద్",
-   "pts": [
-    "మార్గం: తిలక్‌నగర్, ఫీవర్ ఆసుపత్రి, విద్యానగర్, ఓయూ ఆర్ట్స్ కాలేజీ",
-    "సీతాఫల్‌మండి, చిలకలగూడ, గాంధీ ఆసుపత్రి మీదుగా ముషీరాబాద్",
-    "పెద్ద సంఖ్యలో జనం పాల్గొంటారని అంచనా"
-   ],
-   "why": "బుధవారం అంబర్‌పేట, ఓయూ, ముషీరాబాద్ వైపు ప్రయాణించే వారు ఆలస్యం కాకుండా ముందే సిద్ధం కావచ్చు.",
-   "pub": "2026-11-24T19:00+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Traffic",
-    "stat": "Traffic diversions",
-    "statl": "Amberpet to Musheerabad",
-    "loc": "Amberpet, Musheerabad",
-    "h": "Diversions for Kishan Reddy walk on Wednesday",
-    "p": "Hyderabad traffic police have announced need-based traffic diversions for Wednesday's 'Nasha Mukth Bharath' padayatra led by Union Minister Kishan Reddy. The walk starts near the Mahankali Temple in Amberpet and ends at Kashish Function Hall in Musheerabad. Police said congestion is likely on the route and nearby roads and asked commuters to plan their trips.",
-    "pts": [
-     "Route: Tilaknagar, Fever Hospital, Vidyanagar, OU Arts College",
-     "Then Seethaphalmandi, Chilkalguda, Gandhi Hospital to Musheerabad",
-     "A large number of participants is expected"
-    ],
-    "why": "People travelling towards Amberpet, OU and Musheerabad on Wednesday can plan ahead to avoid delays."
-   },
-   "hi": {
-    "cat": "हैदराबाद · ट्रैफिक",
-    "stat": "ट्रैफिक डायवर्जन",
-    "statl": "अंबरपेट से मुशीराबाद तक",
-    "loc": "अंबरपेट, मुशीराबाद",
-    "h": "किशन रेड्डी पदयात्रा: बुधवार को डायवर्जन",
-    "p": "केंद्रीय मंत्री किशन रेड्डी की अगुवाई में बुधवार को होने वाली 'नशा मुक्त भारत' पदयात्रा के लिए हैदराबाद ट्रैफिक पुलिस ने जरूरत के हिसाब से ट्रैफिक डायवर्जन की घोषणा की है। पदयात्रा अंबरपेट के महांकाली मंदिर के पास से शुरू होकर मुशीराबाद के कशिश फंक्शन हॉल पर खत्म होगी। पुलिस ने कहा कि मार्ग और आसपास की सड़कों पर जाम लग सकता है, लोग यात्रा की योजना पहले बना लें।",
-    "pts": [
-     "मार्ग: तिलकनगर, फीवर अस्पताल, विद्यानगर, ओयू आर्ट्स कॉलेज",
-     "फिर सीताफलमंडी, चिलकलगुडा, गांधी अस्पताल से मुशीराबाद",
-     "बड़ी संख्या में लोगों के शामिल होने की उम्मीद"
-    ],
-    "why": "बुधवार को अंबरपेट, ओयू और मुशीराबाद की ओर जाने वाले लोग देरी से बचने की तैयारी कर सकते हैं।"
-   },
-   "d": "24.11.2026",
-   "t": "20:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · ఎక్సైజ్",
-   "col": "--c-city",
-   "art": "",
-   "pic": "e/police-investigation",
-   "stat": "ఇద్దరు అరెస్ట్",
-   "statl": "డిఫెన్స్ మద్యం కేసులో",
-   "h": "కొంపల్లిలో డిఫెన్స్ మద్యం పట్టుకున్నారు",
-   "p": "కొంపల్లిలో డిఫెన్స్ మద్యం అక్రమంగా ఉంచుకున్న ఇద్దరిని సైబరాబాద్ ఎక్సైజ్ ఎన్‌ఫోర్స్‌మెంట్ బృందం మంగళవారం అరెస్ట్ చేసింది. కొంపల్లి చౌరస్తాలో ఒకరి దగ్గర 7 సీసాలు దొరికాయి. అతను చెప్పిన వివరాలతో మరో వ్యక్తి ఇంట్లో సోదా చేసి ఇంకో 10 సీసాలు పట్టుకున్నారు. ఇద్దరినీ, మద్యాన్ని కొంపల్లి ఎక్సైజ్ స్టేషన్‌కు అప్పగించినట్లు అధికారులు తెలిపారు.",
-   "src": "Siasat Daily",
-   "url": "https://www.siasat.com/two-held-for-illegal-possession-of-defence-liquor-in-kompally-3585843/",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "medchal",
-   "loc": "కొంపల్లి",
-   "pts": [
-    "మొత్తం 17 సీసాలు పట్టుకున్నారు",
-    "టీచర్స్, బ్లాక్ అండ్ వైట్, అమృత్ బ్రాండ్ల మద్యం"
-   ],
-   "why": "సైనికుల కోసం ఇచ్చే మద్యాన్ని బయట అమ్మడం, కొనడం నేరమని కొంపల్లి, పరిసర ప్రాంతాల వారు తెలుసుకోవాలి.",
-   "pub": "2026-11-24T19:34+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Excise",
-    "stat": "2 arrested",
-    "statl": "in defence liquor case",
-    "loc": "Kompally",
-    "h": "Two held with defence liquor in Kompally",
-    "p": "The Cyberabad Excise Enforcement Team on Tuesday arrested two people for illegally possessing defence liquor in Kompally. Seven bottles were found with one man at Kompally crossroads. Based on what he told them, officers searched another man's house and seized 10 more. Both accused and the liquor were handed over to the Kompally Excise Station, officials said.",
-    "pts": [
-     "17 bottles seized in all",
-     "Brands include Teachers, Black & White and Amrut"
-    ],
-    "why": "People in and around Kompally should know that selling or buying liquor meant for defence personnel is an offence."
-   },
-   "hi": {
-    "cat": "हैदराबाद · आबकारी",
-    "stat": "दो गिरफ्तार",
-    "statl": "डिफेंस शराब मामले में",
-    "loc": "कोमपल्ली",
-    "h": "कोमपल्ली में डिफेंस शराब के साथ दो गिरफ्तार",
-    "p": "साइबराबाद आबकारी प्रवर्तन टीम ने मंगलवार को कोमपल्ली में अवैध रूप से डिफेंस शराब रखने के आरोप में दो लोगों को गिरफ्तार किया। कोमपल्ली चौराहे पर एक व्यक्ति के पास 7 बोतलें मिलीं। उसकी दी जानकारी पर दूसरे व्यक्ति के घर की तलाशी में 10 और बोतलें जब्त हुईं। अधिकारियों ने बताया कि दोनों आरोपियों और शराब को कोमपल्ली आबकारी थाने को सौंप दिया गया।",
-    "pts": [
-     "कुल 17 बोतलें जब्त",
-     "टीचर्स, ब्लैक एंड व्हाइट, अमृत ब्रांड की शराब"
-    ],
-    "why": "कोमपल्ली और आसपास के लोग जान लें कि सैनिकों के लिए दी जाने वाली शराब बाहर बेचना या खरीदना अपराध है।"
-   },
-   "d": "24.11.2026",
-   "t": "20:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · డ్రగ్స్",
-   "col": "--c-city",
-   "art": "",
-   "pic": "e/drug-seizure",
-   "stat": "ఆరుగురికి",
-   "statl": "గంజాయి పాజిటివ్",
-   "h": "హైదరాబాద్ పీజీ హాస్టళ్లపై డ్రగ్స్ నిఘా",
-   "p": "హైదరాబాద్‌లో పీజీ హాస్టళ్లు, షేర్డ్ గదుల్లో డ్రగ్స్ వాడకంపై పోలీసులు నిఘా పెంచారు. గచ్చిబౌలిలోని ఓ పురుషుల పీజీ హాస్టల్‌పై ఈగల్ ఫోర్స్ దాడి చేసింది. ఎనిమిది మందికి మూత్ర పరీక్షలు చేయగా ఇద్దరు సాఫ్ట్‌వేర్ ఇంజినీర్లు సహా ఆరుగురు గంజాయి వాడినట్లు తేలింది. సరఫరా మార్గాలను గుర్తిస్తున్నామని అధికారులు తెలిపారు.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/pg-hostels-shared-accommodations-under-drug-scanner",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "గచ్చిబౌలి",
-   "pts": [
-    "మాదాపూర్, గచ్చిబౌలి, కొండాపూర్ ఐటీ ప్రాంతాలపై దృష్టి",
-    "రాత్రివేళ బయటివారు హాస్టళ్లకు వస్తున్నారని అధికారులు",
-    "సమాచారం ఇవ్వాలంటే: 1908, వాట్సాప్ 8712671111"
-   ],
-   "why": "పీజీ హాస్టళ్లలో ఉండే విద్యార్థులు, ఉద్యోగులు, వారి తల్లిదండ్రులు, హాస్టల్ నిర్వాహకులకు ఇది ముఖ్యం.",
-   "pub": "2026-11-24T19:06+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Drugs",
-    "stat": "Six",
-    "statl": "test positive for ganja",
-    "loc": "Gachibowli, Hyderabad",
-    "h": "Hyderabad PG hostels under drug watch",
-    "p": "Police in Hyderabad have stepped up checks on PG hostels and shared rooms over drug use. The EAGLE Force raided a men's PG hostel in Gachibowli. Of eight residents given urine tests, six, including two software engineers, tested positive for cannabis. Officials said supply links are being traced.",
-    "pts": [
-     "Focus on Madhapur, Gachibowli and Kondapur IT areas",
-     "Officials say outsiders visit hostels late at night",
-     "Tip-offs: 1908, WhatsApp 8712671111"
-    ],
-    "why": "It matters to students and employees living in PG hostels, their parents and hostel managers."
-   },
-   "hi": {
-    "cat": "हैदराबाद · ड्रग्स",
-    "stat": "छह",
-    "statl": "गांजा पॉज़िटिव",
-    "loc": "गचीबौली, हैदराबाद",
-    "h": "हैदराबाद के पीजी हॉस्टलों पर ड्रग्स निगरानी",
-    "p": "हैदराबाद में पुलिस ने पीजी हॉस्टलों और साझा कमरों में ड्रग्स के इस्तेमाल पर निगरानी बढ़ाई है। ईगल फोर्स ने गचीबौली के एक पुरुष पीजी हॉस्टल पर छापा मारा। आठ लोगों की यूरिन जांच में दो सॉफ्टवेयर इंजीनियरों समेत छह गांजा पॉज़िटिव पाए गए। अधिकारियों ने कहा कि सप्लाई की कड़ियां खोजी जा रही हैं।",
-    "pts": [
-     "माधापुर, गचीबौली, कोंडापुर आईटी इलाकों पर ध्यान",
-     "अधिकारियों के अनुसार रात में बाहरी लोग आते हैं",
-     "सूचना दें: 1908, व्हाट्सऐप 8712671111"
-    ],
-    "why": "पीजी हॉस्टलों में रहने वाले छात्रों, कर्मचारियों, उनके माता-पिता और संचालकों के लिए अहम।"
-   },
-   "d": "24.11.2026",
-   "t": "19:35"
-  },
-  {
-   "cat": "సూర్యాపేట · ప్రమాదం",
-   "col": "--c-city",
-   "art": "",
-   "pic": "e/road-accident-response",
-   "stat": "13 ఏళ్ల బాలుడు",
-   "statl": "లారీ ఢీకొని మృతి",
-   "h": "కోదాడ వద్ద లారీ ఢీకొని బాలుడు మృతి",
-   "p": "సూర్యాపేట జిల్లా కోదాడ మండలం అడ్లూరు శివారులో మంగళవారం లారీ ఓ ద్విచక్ర వాహనాన్ని ఢీకొట్టింది. ఈ ప్రమాదంలో ఏడో తరగతి చదువుతున్న 13 ఏళ్ల బాలుడు అక్కడికక్కడే మృతి చెందాడు. స్నేహితుడితో కలిసి బైక్‌పై వెళ్తుండగా కోదాడ నుంచి మేళ్లచెరువు వైపు వెళ్తున్న లారీ ఢీకొట్టింది. పోస్టుమార్టం కోసం మృతదేహాన్ని కోదాడ ప్రభుత్వ ఆసుపత్రికి తరలించారు.",
-   "src": "HMTV",
-   "url": "https://www.hmtvlive.com/telugu-news/nalgonda-suryapet/13-year-old-boy-killed-as-lorry-hits-two-wheeler-near-kodad-216719",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "suryapet",
-   "loc": "అడ్లూరు, కోదాడ మండలం",
-   "pts": [
-    "బాలుడు కుటుంబానికి ఒక్కడే కొడుకు"
-   ],
-   "why": "రహదారులపై పిల్లలు బైక్‌లు నడపడం ఎంత ప్రమాదమో తల్లిదండ్రులు గుర్తించాల్సిన ఘటన.",
-   "pub": "2026-11-24T18:31+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Suryapet · Accident",
-    "stat": "13-year-old boy",
-    "statl": "killed by lorry",
-    "loc": "Adluru, Kodad mandal",
-    "h": "Boy, 13, killed as lorry hits bike near Kodad",
-    "p": "A lorry hit a two-wheeler on the outskirts of Adluru in Kodad mandal, Suryapet district, on Tuesday. A 13-year-old boy studying in Class 7 died on the spot. He was riding with a friend when the lorry, heading from Kodad towards Mellacheruvu, hit them. The body was shifted to Kodad government hospital for post-mortem.",
-    "pts": [
-     "The boy was the family's only son"
-    ],
-    "why": "A reminder to parents of how risky it is for children to ride bikes on highways."
-   },
-   "hi": {
-    "cat": "सूर्यापेट · हादसा",
-    "stat": "13 साल का लड़का",
-    "statl": "लॉरी की टक्कर से मौत",
-    "loc": "अडलूरु, कोदाड मंडल",
-    "h": "कोदाड के पास लॉरी की टक्कर से बच्चे की मौत",
-    "p": "सूर्यापेट जिले के कोदाड मंडल में अडलूरु के बाहरी इलाके में मंगलवार को एक लॉरी ने दोपहिया वाहन को टक्कर मार दी। सातवीं कक्षा में पढ़ने वाले 13 साल के लड़के की मौके पर मौत हो गई। वह दोस्त के साथ बाइक पर था, तभी कोदाड से मेल्लाचेरुवु जा रही लॉरी ने टक्कर मारी। शव को पोस्टमार्टम के लिए कोदाड सरकारी अस्पताल भेजा गया।",
-    "pts": [
-     "लड़का परिवार का इकलौता बेटा था"
-    ],
-    "why": "माता-पिता के लिए याद दिलाने वाली घटना कि बच्चों का हाईवे पर बाइक चलाना कितना खतरनाक है।"
-   },
-   "d": "24.11.2026",
-   "t": "19:35"
-  },
-  {
-   "cat": "భారత్ · క్రికెట్",
-   "col": "--c-city",
-   "art": "",
-   "pic": "e/cricket-match",
-   "stat": "58 పరుగుల",
-   "statl": "తేడాతో సౌత్ జోన్ గెలుపు",
-   "h": "మహిళల టీ20: సౌత్ జోన్ ఘన విజయం",
-   "p": "బీసీసీఐ మహిళల టీ20 చాంపియన్‌షిప్‌లో మంగళవారం సౌత్ జోన్ జట్టు నార్త్-ఈస్ట్ జోన్‌పై 58 పరుగుల తేడాతో గెలిచింది. ముందు బ్యాటింగ్ చేసిన సౌత్ జోన్ 20 ఓవర్లలో ఐదు వికెట్లకు 155 పరుగులు చేసింది. కమలిని 63 పరుగులు చేసింది. నార్త్-ఈస్ట్ జోన్ ఆరు వికెట్లకు 97 పరుగులే చేయగలిగింది.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/south-zone-thrash-north-east-zone-by-58-runs-in-womens-t20-championship",
-   "sec": [
-    "india",
-    "sports"
-   ],
-   "st": "IN",
-   "place": "IN",
-   "loc": "",
-   "pts": [
-    "శ్రీ చరణికి 18 పరుగులకు 3 వికెట్లు",
-    "హైదరాబాద్ కెప్టెన్ ప్రణవి చంద్ర 5 బంతుల్లో 10 పరుగులు",
-    "శ్రేయాంక పాటిల్ 15 బంతుల్లో 27 నాటౌట్"
-   ],
-   "why": "దేశవాళీ మహిళల క్రికెట్‌లో తెలుగు, దక్షిణాది క్రీడాకారిణుల ఆట తీరు తెలుస్తుంది.",
-   "pub": "2026-11-24T19:09+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "India · Cricket",
-    "stat": "58 runs",
-    "statl": "South Zone win by",
-    "loc": "",
-    "h": "Women's T20: South Zone win by 58 runs",
-    "p": "South Zone beat North-East Zone by 58 runs in the BCCI Women's T20 Championship on Tuesday. Batting first, South Zone made 155 for five in 20 overs, with Kamalini scoring 63. North-East Zone could manage only 97 for six.",
-    "pts": [
-     "Sree Charani took 3 for 18",
-     "Hyderabad captain Pranavi Chandra made 10 off 5 balls",
-     "Shreyanka Patil 27 not out off 15 balls"
-    ],
-    "why": "It shows how Telugu and South Indian players are doing in domestic women's cricket."
-   },
-   "hi": {
-    "cat": "भारत · क्रिकेट",
-    "stat": "58 रन",
-    "statl": "से साउथ ज़ोन जीता",
-    "loc": "",
-    "h": "महिला टी20: साउथ ज़ोन 58 रन से जीता",
-    "p": "बीसीसीआई महिला टी20 चैंपियनशिप में मंगलवार को साउथ ज़ोन ने नॉर्थ-ईस्ट ज़ोन को 58 रन से हराया। पहले बल्लेबाज़ी करते हुए साउथ ज़ोन ने 20 ओवर में पांच विकेट पर 155 रन बनाए, कमलिनी ने 63 रन बनाए। नॉर्थ-ईस्ट ज़ोन छह विकेट पर 97 रन ही बना सका।",
-    "pts": [
-     "श्री चरणी ने 18 रन देकर 3 विकेट लिए",
-     "हैदराबाद कप्तान प्रणवी चंद्र के 5 गेंदों में 10 रन",
-     "श्रेयंका पाटिल 15 गेंदों में 27 नाबाद"
-    ],
-    "why": "घरेलू महिला क्रिकेट में तेलुगु और दक्षिण भारतीय खिलाड़ियों का प्रदर्शन पता चलता है।"
-   },
-   "d": "24.11.2026",
-   "t": "19:35"
   },
   {
    "cat": "హైదరాబాద్ · సంస్కృతి",
