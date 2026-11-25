@@ -1,8 +1,169 @@
 {
  "date": "25.11.2026",
- "updated": "2026-11-25T09:05:00+05:30",
+ "updated": "2026-11-25T09:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "హైదరాబాద్ · పోలీస్",
+   "col": "--c-city",
+   "pic": "e/missing-person-search",
+   "stat": "2 గంటల్లో",
+   "statl": "అక్కాచెల్లెళ్లు దొరికారు",
+   "h": "ఐఎస్ సదన్‌లో అక్కాచెల్లెళ్లు క్షేమం",
+   "p": "ఇబ్రహీంపట్నం బస్టాప్ వద్ద కనిపించకుండా పోయిన 17, 5 ఏళ్ల అక్కాచెల్లెళ్లను హైదరాబాద్ ఐఎస్ సదన్ పోలీసులు రెండు గంటల్లో గుర్తించారు. మంగళవారం సాయంత్రం తల్లి ఫిర్యాదు చేయగానే పోలీసులు గాలింపు మొదలుపెట్టారు. రాత్రి 8.30కి వినయ్ నగర్ కాలనీలో ఇద్దరూ క్షేమంగా దొరికారు. వారిని తల్లిదండ్రులకు అప్పగించామని పోలీసులు తెలిపారు.",
+   "src": "Siasat Daily",
+   "url": "https://www.siasat.com/hyderabad-police-trace-missing-sisters-5-and-17-within-two-hours-3586018/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "ఐఎస్ సదన్",
+   "pts": [
+    "కుటుంబం రంగారెడ్డి జిల్లా కందుకూరు మండలానికి చెందినది",
+    "కందుకూరు, మహేశ్వరం పోలీసులకూ సమాచారం ఇచ్చారు",
+    "బ్లూ కోల్ట్స్ సిబ్బంది సీసీటీవీ దృశ్యాలు పరిశీలించారు"
+   ],
+   "why": "పిల్లలు కనిపించకపోతే వెంటనే పోలీసులకు ఫిర్యాదు చేస్తే త్వరగా దొరుకుతారని ఇది చూపిస్తోంది.",
+   "pub": "2026-11-25T09:02+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Police",
+    "stat": "Within 2 hours",
+    "statl": "missing sisters traced",
+    "loc": "IS Sadan, Hyderabad",
+    "h": "IS Sadan police find missing sisters safe",
+    "p": "IS Sadan police traced two sisters, aged 17 and 5, who went missing from Ibrahimpatnam bus stop, within two hours. Police began searching soon after their mother complained on Tuesday evening. Both were found safe in Vinay Nagar Colony around 8.30 pm and handed over to their parents, police said.",
+    "pts": [
+     "The family is from Kandukur mandal, Rangareddy district",
+     "Kandukur and Maheshwaram police were also alerted",
+     "Blue Colts staff checked CCTV footage"
+    ],
+    "why": "It shows a quick police complaint helps find missing children fast."
+   },
+   "hi": {
+    "cat": "हैदराबाद · पुलिस",
+    "stat": "दो घंटे में",
+    "statl": "लापता बहनें मिलीं",
+    "loc": "आईएस सदन, हैदराबाद",
+    "h": "आईएस सदन में लापता बहनें सुरक्षित मिलीं",
+    "p": "इब्राहिमपट्नम बस स्टॉप से लापता हुई 17 और 5 साल की दो बहनों को आईएस सदन पुलिस ने दो घंटे में ढूंढ लिया। मंगलवार शाम मां की शिकायत के बाद पुलिस ने तलाश शुरू की। रात करीब 8.30 बजे दोनों विनय नगर कॉलोनी में सुरक्षित मिलीं और माता-पिता को सौंपी गईं: पुलिस।",
+    "pts": [
+     "परिवार रंगारेड्डी जिले के कंदुकुर मंडल का है",
+     "कंदुकुर और महेश्वरम पुलिस को भी सूचना दी गई",
+     "ब्लू कोल्ट्स कर्मियों ने सीसीटीवी फुटेज देखी"
+    ],
+    "why": "यह दिखाता है कि तुरंत पुलिस शिकायत से लापता बच्चे जल्दी मिलते हैं।"
+   },
+   "d": "25.11.2026",
+   "t": "09:35"
+  },
+  {
+   "cat": "భారత్ · ఐక్యరాజ్యసమితి",
+   "col": "--c-gov",
+   "pic": "e/artificial-intelligence",
+   "stat": "ఏఐ ముప్పు",
+   "statl": "గురించి భారత్ హెచ్చరిక",
+   "h": "ఉగ్రవాదుల ఏఐ వాడకంపై భారత్ హెచ్చరిక",
+   "p": "ఉగ్రవాదులు కృత్రిమ మేధ వంటి కొత్త సాంకేతికతలను దుర్వినియోగం చేసే ప్రమాదం ఉందని ఐరాస భద్రతా మండలి చర్చలో భారత్ హెచ్చరించింది. తప్పుడు లేదా మార్చిన డేటాతో నడిచే ఏఐ నిర్ణయాలను తప్పుదోవ పట్టిస్తుందని భారత శాశ్వత ప్రతినిధి పి. హరీశ్ అన్నారు. స్వయంచాలక ఆయుధాలపై మనుషుల నియంత్రణ తప్పనిసరిగా ఉండాలని చెప్పారు.",
+   "src": "Telangana Today (IANS)",
+   "url": "https://telanganatoday.com/india-warns-un-of-terrorists-misusing-ai-and-emerging-technologies-during-conflicts",
+   "sec": [
+    "india",
+    "world",
+    "ai"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pts": [
+    "గ్లోబల్ సౌత్‌పై ఎగుమతి ఆంక్షలను భారత్ విమర్శించింది",
+    "న్యూఢిల్లీ ఏఐ డిక్లరేషన్‌కు 90కి పైగా దేశాల మద్దతు"
+   ],
+   "why": "ఏఐ భద్రతపై ప్రపంచ నియమాల్లో భారత్ పాత్ర పెరుగుతోందని ఇది చూపిస్తోంది.",
+   "pub": "2026-11-25T09:27+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · United Nations",
+    "stat": "AI threat",
+    "statl": "India's warning at the UN",
+    "loc": "United Nations",
+    "h": "India warns UN on terrorists' use of AI",
+    "p": "India warned the UN Security Council that terrorists and non-State actors could misuse AI and other new technologies. Permanent Representative P. Harish said AI fed with wrong or manipulated data can distort decisions. He said humans must keep control and oversight of autonomous weapons.",
+    "pts": [
+     "India criticised export controls that hurt the Global South",
+     "Over 90 countries backed the New Delhi AI Declaration"
+    ],
+    "why": "It shows India's growing role in shaping global rules on AI safety."
+   },
+   "hi": {
+    "cat": "भारत · संयुक्त राष्ट्र",
+    "stat": "एआई का खतरा",
+    "statl": "संयुक्त राष्ट्र में भारत की चेतावनी",
+    "loc": "संयुक्त राष्ट्र",
+    "h": "आतंकियों के एआई इस्तेमाल पर भारत की चेतावनी",
+    "p": "भारत ने संयुक्त राष्ट्र सुरक्षा परिषद में चेतावनी दी कि आतंकवादी और गैर-सरकारी तत्व एआई और नई तकनीकों का दुरुपयोग कर सकते हैं। स्थायी प्रतिनिधि पी. हरीश ने कहा कि गलत या छेड़छाड़ वाले डेटा से चलने वाला एआई फैसलों को बिगाड़ सकता है। स्वायत्त हथियारों पर इंसानी नियंत्रण जरूरी है।",
+    "pts": [
+     "भारत ने ग्लोबल साउथ पर निर्यात नियंत्रणों की आलोचना की",
+     "90 से अधिक देशों ने नई दिल्ली एआई घोषणा का समर्थन किया"
+    ],
+    "why": "यह एआई सुरक्षा के वैश्विक नियमों में भारत की बढ़ती भूमिका दिखाता है।"
+   },
+   "d": "25.11.2026",
+   "t": "09:35"
+  },
+  {
+   "cat": "ప్రపంచం · కొలంబియా",
+   "col": "--c-city",
+   "pic": "logo",
+   "stat": "30 మంది",
+   "statl": "సూపర్ మార్కెట్‌లో బందీలు",
+   "h": "కొలంబియా మార్కెట్‌లో 30 మంది బందీలు",
+   "p": "కొలంబియాలోని కార్టజీనా నగరంలో మంగళవారం నగదు వాహనం దోపిడీ విఫలమవడంతో సాయుధ దుండగులు ఒక పెద్ద సూపర్ మార్కెట్‌లో సుమారు 30 మందిని బందీలుగా పట్టుకున్నారు. వృద్ధ మహిళలైన కనీసం 10 మందిని తర్వాత విడిచిపెట్టారు. ప్రత్యేక దళాలు, సైన్యం, నౌకాదళం రంగంలోకి దిగాయి. మిగిలినవారి విడుదలకు చర్చలు కొనసాగుతున్నాయి.",
+   "src": "The Hans India (IANS)",
+   "url": "https://www.thehansindia.com/news/international/gunmen-take-around-30-hostages-at-supermarket-in-colombias-cartagena-after-failed-robbery-attempt-1145613",
+   "sec": [
+    "world"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "",
+   "pts": [
+    "విమానాశ్రయంలో విమానాల రాక కొద్దిసేపు ఆగి మళ్లీ మొదలైంది",
+    "దుండగులు గెరిల్లాలు కాదు, నేరగాళ్లని అధ్యక్షుడు చెప్పారు"
+   ],
+   "why": "విదేశాల్లో పర్యటించే, పని చేసే భారతీయులు స్థానిక భద్రతా సూచనలు పాటించాలి.",
+   "pub": "2026-11-25T07:48+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "World · Colombia",
+    "stat": "30 people",
+    "statl": "held hostage in supermarket",
+    "loc": "Cartagena, Colombia",
+    "h": "Gunmen hold 30 hostage in Colombia store",
+    "p": "Armed men took about 30 people hostage in a supermarket in Cartagena, Colombia, after a failed robbery of a cash van. At least 10 hostages, all elderly women, were later freed. Special forces, the army and navy were deployed as negotiations continued.",
+    "pts": [
+     "Arriving flights were briefly halted, then resumed",
+     "The president said the gunmen were criminals, not guerrillas"
+    ],
+    "why": "Indians travelling or working abroad should follow local safety advice."
+   },
+   "hi": {
+    "cat": "दुनिया · कोलंबिया",
+    "stat": "30 लोग",
+    "statl": "सुपरमार्केट में बंधक",
+    "loc": "कार्टाहेना, कोलंबिया",
+    "h": "कोलंबिया के सुपरमार्केट में 30 लोग बंधक",
+    "p": "कोलंबिया के कार्टाहेना शहर में नकदी वाहन की लूट नाकाम होने के बाद हथियारबंद बदमाशों ने एक सुपरमार्केट में करीब 30 लोगों को बंधक बना लिया। कम से कम 10 बुजुर्ग महिलाओं को बाद में छोड़ दिया गया। विशेष बल, सेना और नौसेना तैनात हैं और बातचीत जारी है।",
+    "pts": [
+     "आने वाली उड़ानें कुछ देर रुकीं, फिर शुरू हुईं",
+     "राष्ट्रपति ने कहा कि हमलावर अपराधी हैं, गुरिल्ला नहीं"
+    ],
+    "why": "विदेश यात्रा करने या काम करने वाले भारतीयों को स्थानीय सुरक्षा सलाह माननी चाहिए।"
+   },
+   "d": "25.11.2026",
+   "t": "09:35"
+  },
   {
    "cat": "కరీంనగర్ · వైద్యం",
    "col": "--c-gov",
@@ -3102,178 +3263,6 @@
     ],
     "why": "यह फ़ैसला वकील की चूक से अपील का हक़ खोने से बचाता है।",
     "next": "सेशंस कोर्ट अपील दोबारा सुनकर फ़ैसला करेगा"
-   },
-   "d": "25.11.2026",
-   "t": "05:05"
-  },
-  {
-   "cat": "ఏపీ · వ్యవసాయం",
-   "col": "--c-gov",
-   "art": "farm",
-   "pic": "logo",
-   "stat": "12.64 లక్షల హెక్టార్లలో",
-   "statl": "పంట నష్టం",
-   "h": "పంట సీజన్‌కు ముందే ప్రణాళిక: చంద్రబాబు",
-   "p": "పంట నష్టాలు తగ్గించేందుకు ప్రతి సీజన్‌కు ముందే కార్యాచరణ ప్రణాళిక సిద్ధం చేయాలని ఏపీ సీఎం చంద్రబాబు నాయుడు అధికారులను ఆదేశించారు. మంగళవారం సచివాలయంలో వ్యవసాయం, ఉద్యాన శాఖలపై సమీక్షించారు. తుపాన్లకు ముందే కోతలు పూర్తయ్యేలా అవసరమైతే ఖరీఫ్ క్యాలెండర్‌ను ముందుకు జరపాలని సూచించారు. ఖరీఫ్‌లో 26 జిల్లాల్లో 12.64 లక్షల హెక్టార్లలో పంటలు దెబ్బతిన్నాయని అధికారులు తెలిపారు.",
-   "src": "Deccan Chronicle",
-   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/naidu-calls-for-advance-farm-action-plans-to-minimise-crop-losses-2007657",
-   "sec": [
-    "telangana",
-    "agri"
-   ],
-   "st": "AP",
-   "place": "AP",
-   "loc": "",
-   "pts": [
-    "₹2,743 కోట్ల ఇన్‌పుట్ సబ్సిడీకి అధికారుల ప్రతిపాదన",
-    "పంట బీమా క్లెయిమ్‌ల అంచనా ₹1,732 కోట్లు",
-    "2027–28 నాటికి 26.5 లక్షల రైతులు ప్రకృతి సాగులోకి"
-   ],
-   "why": "కరువు, తుపాన్లతో నష్టపోయిన ఏపీ రైతులకు సబ్సిడీ, బీమాపై ఇది కీలక సమీక్ష.",
-   "pub": "2026-11-25T00:13+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Agriculture",
-    "stat": "12.64 lakh hectares",
-    "statl": "of kharif crop damaged",
-    "loc": "Andhra Pradesh",
-    "h": "Plan before every crop season: Naidu",
-    "p": "AP Chief Minister N. Chandrababu Naidu told officials to prepare action plans before every crop season to cut losses. Reviewing agriculture and horticulture at the Secretariat on Tuesday, he suggested advancing the kharif calendar if needed so harvests finish before cyclones. Officials said crops on 12.64 lakh hectares in 26 districts were damaged this kharif.",
-    "pts": [
-     "Officials proposed Rs 2,743 crore input subsidy",
-     "Crop insurance claims estimated at Rs 1,732 crore",
-     "Target: 26.5 lakh farmers in natural farming by 2027-28"
-    ],
-    "why": "A key review on subsidy and insurance for AP farmers hit by drought and cyclones."
-   },
-   "hi": {
-    "cat": "आंध्र · कृषि",
-    "stat": "12.64 लाख हेक्टेयर में",
-    "statl": "खरीफ़ फ़सल का नुकसान",
-    "loc": "आंध्र प्रदेश",
-    "h": "हर फ़सल सीज़न से पहले योजना बनाएं: नायडू",
-    "p": "आंध्र के मुख्यमंत्री एन. चंद्रबाबू नायडू ने अधिकारियों से कहा कि फ़सल नुकसान घटाने के लिए हर सीज़न से पहले कार्ययोजना बनाएं। मंगलवार को सचिवालय में कृषि और बागवानी की समीक्षा में उन्होंने सुझाव दिया कि ज़रूरत हो तो खरीफ़ कैलेंडर आगे किया जाए ताकि कटाई चक्रवातों से पहले हो जाए। अधिकारियों ने बताया कि इस खरीफ़ में 26 ज़िलों में 12.64 लाख हेक्टेयर फ़सल खराब हुई।",
-    "pts": [
-     "अधिकारियों ने ₹2,743 करोड़ इनपुट सब्सिडी का प्रस्ताव रखा",
-     "फ़सल बीमा दावों का अनुमान ₹1,732 करोड़",
-     "लक्ष्य: 2027-28 तक 26.5 लाख किसान प्राकृतिक खेती में"
-    ],
-    "why": "सूखे और चक्रवात से प्रभावित आंध्र के किसानों की सब्सिडी और बीमा पर यह अहम समीक्षा है।"
-   },
-   "d": "25.11.2026",
-   "t": "05:05"
-  },
-  {
-   "cat": "ఏపీ · విశాఖ",
-   "col": "--c-money",
-   "pic": "logo",
-   "stat": "డిసెంబర్ 10–13",
-   "statl": "విశాఖలో స్టోన్ ఫెస్ట్",
-   "h": "విశాఖలో డిసెంబర్ 10 నుంచి స్టోన్ ఫెస్ట్",
-   "p": "విశాఖపట్నంలో డిసెంబర్ 10 నుంచి 13 వరకు నాలుగు రోజుల పాటు ఇంటర్నేషనల్ స్టోన్ ఫెస్ట్-2026 జరుగుతుందని ఏపీ గనుల శాఖ మంత్రి కొల్లు రవీంద్ర మంగళవారం ప్రకటించారు. ఆంధ్ర యూనివర్సిటీ ఇంజినీరింగ్ కాలేజీ మైదానం వేదిక. రాష్ట్ర ప్రభుత్వం, ఏపీ గ్రానైట్ అసోసియేషన్ కలిసి నిర్వహిస్తున్నాయి. ఖనిజ సంపద, గ్రానైట్ పరిశ్రమపై స్టాళ్లు, చర్చలు ఉంటాయి.",
-   "src": "Deccan Chronicle",
-   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/vizag-to-host-four-day-international-stone-fest-in-dec-2007672",
-   "sec": [
-    "telangana",
-    "business"
-   ],
-   "st": "AP",
-   "place": "ap-visakhapatnam",
-   "loc": "విశాఖపట్నం",
-   "pts": [
-    "సీఎం చంద్రబాబు, కేంద్ర మంత్రి కిషన్ రెడ్డి వస్తారని అంచనా",
-    "దేశ విదేశాల గనుల పరిశ్రమ ప్రతినిధులకు ఆహ్వానం",
-    "గనుల రంగంలో పెట్టుబడులు తేవడమే లక్ష్యం"
-   ],
-   "why": "గ్రానైట్, గనుల రంగంలో ఉన్న ఏపీ వ్యాపారులకు, కార్మికులకు కొత్త అవకాశాలు రావచ్చు.",
-   "next": "స్టోన్ ఫెస్ట్ డిసెంబర్ 10న మొదలు",
-   "pub": "2026-11-25T00:51+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Visakhapatnam",
-    "stat": "December 10–13",
-    "statl": "International Stone Fest in Vizag",
-    "loc": "Visakhapatnam",
-    "h": "Vizag to host Stone Fest from Dec 10",
-    "p": "Visakhapatnam will host the four-day International Stone Fest-2026 from December 10 to 13, AP Mines Minister Kollu Ravindra announced on Tuesday. The venue is the Andhra University Engineering College grounds. The state government and the AP Granite Association are organising it jointly, with stalls and discussions on mineral wealth and the granite industry.",
-    "pts": [
-     "CM Naidu and Union Minister Kishan Reddy are expected",
-     "Mining industry representatives from India and abroad invited",
-     "The aim is to draw investment into mining"
-    ],
-    "why": "It may open new opportunities for AP's granite and mining businesses and workers.",
-    "next": "Stone Fest opens on December 10"
-   },
-   "hi": {
-    "cat": "आंध्र · विशाखापत्तनम",
-    "stat": "10–13 दिसंबर",
-    "statl": "विशाखापत्तनम में इंटरनेशनल स्टोन फेस्ट",
-    "loc": "विशाखापत्तनम",
-    "h": "विशाखापत्तनम में 10 दिसंबर से स्टोन फेस्ट",
-    "p": "विशाखापत्तनम में 10 से 13 दिसंबर तक चार दिन का इंटरनेशनल स्टोन फेस्ट-2026 होगा, आंध्र के खनन मंत्री कोल्लू रवींद्र ने मंगलवार को यह घोषणा की। आयोजन आंध्र यूनिवर्सिटी इंजीनियरिंग कॉलेज मैदान में होगा। राज्य सरकार और एपी ग्रेनाइट एसोसिएशन इसे मिलकर करा रहे हैं। खनिज संपदा और ग्रेनाइट उद्योग पर स्टॉल और चर्चाएं होंगी।",
-    "pts": [
-     "मुख्यमंत्री नायडू और केंद्रीय मंत्री किशन रेड्डी के आने की उम्मीद",
-     "देश-विदेश के खनन उद्योग प्रतिनिधियों को न्योता",
-     "मकसद खनन क्षेत्र में निवेश लाना है"
-    ],
-    "why": "आंध्र के ग्रेनाइट और खनन कारोबारियों व मज़दूरों के लिए नए मौके बन सकते हैं।",
-    "next": "स्टोन फेस्ट 10 दिसंबर को शुरू होगा"
-   },
-   "d": "25.11.2026",
-   "t": "05:05"
-  },
-  {
-   "cat": "ఏపీ · విజయవాడ",
-   "col": "--c-city",
-   "pic": "d/ap-ntr",
-   "stat": "కార్తీక పౌర్ణమి",
-   "statl": "కృష్ణాలో పుణ్యస్నానాలు",
-   "h": "కృష్ణా ఘాట్లలో కార్తీక పౌర్ణమి రద్దీ",
-   "p": "కార్తీక పౌర్ణమి సందర్భంగా మంగళవారం విజయవాడ, ఎన్టీఆర్, కృష్ణా జిల్లాల్లో వేలాది మంది భక్తులు కృష్ణా నదిలో, సముద్రంలో పుణ్యస్నానాలు చేశారు. తెల్లవారుజాము నుంచే దుర్గా ఘాట్ కిటకిటలాడింది. భక్తులు అరటి దొప్పల్లో దీపాలు వెలిగించి నదిలో వదిలారు. ఇంద్రకీలాద్రిపై దుర్గా మల్లేశ్వర స్వామి ఆలయంలో, నగరంలోని శివాలయాల్లో ప్రత్యేక పూజలు జరిగాయి.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/vijayawada/devotees-throng-river-ghats-beaches-for-holy-dip-1145497",
-   "sec": [
-    "telangana",
-    "culture"
-   ],
-   "st": "AP",
-   "place": "ap-ntr",
-   "loc": "విజయవాడ",
-   "pts": [
-    "జగ్గయ్యపేట మండలం ముక్త్యాలలో భారీగా భక్తులు",
-    "మచిలీపట్నం దగ్గర మంగినపూడి బీచ్‌లో సముద్ర స్నానాలు",
-    "మోపిదేవి సుబ్రహ్మణ్యేశ్వర ఆలయంలో ప్రత్యేక పూజలు"
-   ],
-   "why": "ఎన్టీఆర్, కృష్ణా జిల్లాల భక్తులకు ఇది ఏడాదిలో ముఖ్యమైన పండుగ రోజు.",
-   "pub": "2026-11-25T02:12+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Vijayawada",
-    "stat": "Karthika Pournami",
-    "statl": "holy dips in the Krishna river",
-    "loc": "Vijayawada",
-    "h": "Devotees throng Krishna ghats on Karthika Pournami",
-    "p": "Thousands of devotees from Vijayawada and NTR and Krishna districts took holy dips in the Krishna river and the sea on Karthika Pournami on Tuesday. Durga Ghat was crowded from before dawn, and devotees floated lamps on banana stems in the river. Special prayers were held at the Durga Malleswara Swamy temple on Indrakeeladri and at Shiva temples in the city.",
-    "pts": [
-     "Large crowd at Muktyala in Jaggaiahpet mandal",
-     "Sea dips at Manginapudi beach near Machilipatnam",
-     "Special pujas at Mopidevi Subrahmanyeswara temple"
-    ],
-    "why": "It is one of the year's main festival days for devotees in NTR and Krishna districts."
-   },
-   "hi": {
-    "cat": "आंध्र · विजयवाड़ा",
-    "stat": "कार्तिक पूर्णिमा",
-    "statl": "कृष्णा नदी में पवित्र स्नान",
-    "loc": "विजयवाड़ा",
-    "h": "कार्तिक पूर्णिमा पर कृष्णा घाटों पर भीड़",
-    "p": "कार्तिक पूर्णिमा पर मंगलवार को विजयवाड़ा, एनटीआर और कृष्णा ज़िलों के हज़ारों श्रद्धालुओं ने कृष्णा नदी और समुद्र में पवित्र स्नान किया। दुर्गा घाट पर तड़के से ही भीड़ रही। श्रद्धालुओं ने केले के तने पर दीप जलाकर नदी में प्रवाहित किए। इंद्रकीलाद्री पर दुर्गा मल्लेश्वर स्वामी मंदिर और शहर के शिव मंदिरों में विशेष पूजा हुई।",
-    "pts": [
-     "जग्गय्यपेट मंडल के मुक्त्याला में भारी भीड़",
-     "मछलीपट्टनम के पास मंगिनापुडी बीच पर समुद्र स्नान",
-     "मोपिदेवी सुब्रह्मण्येश्वर मंदिर में विशेष पूजा"
-    ],
-    "why": "एनटीआर और कृष्णा ज़िलों के श्रद्धालुओं के लिए यह साल का अहम पर्व है।"
    },
    "d": "25.11.2026",
    "t": "05:05"
