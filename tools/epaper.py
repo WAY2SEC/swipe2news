@@ -49,8 +49,28 @@ def group(stories):
     state = mark(take([s for s in order if (s.get('st') in (None, 'TG', 'AP') and 'telangana' in secs(s))], 12))
     india = mark(take([s for s in order if 'india' in secs(s)], 10))
     world = mark(take([s for s in order if 'world' in secs(s)], 10))
-    rest = mark(take(order, 20))
-    return front, state, india, world, rest
+    def mix(l):  # round-robin by source: no page full of one paper's stories (review 25 Nov 2026)
+        by = {}
+        for x in l: by.setdefault(x.get('src') or '', []).append(x)
+        out = []
+        while any(by.values()):
+            for k in list(by):
+                if by[k]: out.append(by[k].pop(0))
+        return out
+    sport = mark(take([s for s in order if 'sports' in secs(s)], 8))
+    hyd = lambda s: s.get('place') in ('hyderabad', 'rangareddy', 'medchal') or 'హైదరాబాద్' in (s.get('cat') or '')
+    city = mark(mix(take([s for s in order if hyd(s)], 8)))
+    rest = mark(mix(take(order, 14)))
+    return front, state, india, world, city, sport, rest
+
+
+def ptime(s):
+    m = re.search(r'T(\d\d:\d\d)', str(s.get('pub') or ''))
+    return m.group(1) if m else (s.get('t') or '')
+
+
+def own(s):
+    return 'swipe2news' in str(s.get('src') or '').lower()
 
 
 def story(s, size='', lead=False):
@@ -58,14 +78,14 @@ def story(s, size='', lead=False):
     pts = ''.join(f'<li>{e(p)}</li>' for p in (s.get('pts') or []))
     art = f'<div class="scene" data-sid="{e(s["_k"])}" style="background:{col}"><span class="kick">{e(s.get("cat"))}</span><b class="big{' te' if any('ఀ' <= ch <= '౿' for ch in str(s.get('stat') or '')) else ''}">{e(s.get("stat"))}</b><i>{e(s.get("statl"))}</i></div>' if lead or size == 'mid' else ''
     brk = '<span class="brk">BREAKING</span>' if s.get('brk') else ''
-    return f'''<article class="st {size}" style="--c:{col}">{art}
-  {'' if (lead or size == 'mid') else f'<div class="kick2">{e(s.get("cat"))}</div>'}
+    return f'''<article class="st {size}{' own' if own(s) else ''}" style="--c:{col}" data-sid="{e(s['_k'])}">{art}
+  {'' if (lead or size == 'mid') else f'<div class="kick2">{"📝 మా రిపోర్టర్ · " if own(s) else ""}{e(s.get("cat"))}</div>'}
   {f'<div class="fact"><b class="{"te" if any("ఀ" <= ch <= "౿" for ch in str(s.get("stat") or "")) else ""}">{e(s.get("stat"))}</b><i>{e(s.get("statl"))}</i></div>' if size == '' and s.get('stat') else ''}
   <h2>{brk}{e(s.get('h'))}</h2>
   <p class="p">{e(s.get('p'))}</p>
   {f'<ul class="pts">{pts}</ul>' if pts and size not in ('small', 'mid') else ''}
   {f'<p class="why"><b>ఎందుకు ముఖ్యం?</b> {e(s.get("why"))}</p>' if s.get('why') and size not in ('small', 'mid') else ''}
-  <p class="src">మూలం: {e(s.get('src'))}{(' · ' + e(s.get('t')) + ' గం.') if s.get('t') else ''}</p>
+  <p class="src">మూలం: {e(s.get('src'))}{(' · ' + e(ptime(s)) + ' గం.') if ptime(s) else ''}</p>
 </article>'''
 
 
@@ -92,7 +112,7 @@ def build_html(iso, day, jobs, extra=None):
     wk = WEEK[d.weekday()]
     issue = (d - LAUNCH).days + 1
     stories = [dict(s, _k=str(i)) for i, s in enumerate(day.get('stories') or [])]
-    front, state, india, world, rest = group(stories)
+    front, state, india, world, city, sport, rest = group(stories)
     nums = [s for s in stories if s.get('stat')][:5]
     lead, sub = (front[0] if front else None), front[1:4]
     def jobrow(j):
@@ -111,7 +131,7 @@ def build_html(iso, day, jobs, extra=None):
    <aside class="fside">
      <div class="box nums"><h3>ఈరోజు సంఖ్యల్లో</h3>{''.join(f'<div class="num"><b class="{'te' if any('ఀ' <= ch <= '౿' for ch in str(s.get('stat') or '')) else ''}" style="color:{COLS.get(s.get("col"), "#2E0827")}">{e(s.get("stat"))}</b><span>{e(s.get("statl"))}</span></div>' for s in nums)}</div>
      <div class="box idx"><h3>ఈ సంచికలో</h3>
-       <div><span>ముఖ్యాంశాలు & రాబోయే ఘట్టాలు</span><b data-p="high">2</b></div><div><span>రాష్ట్రం – తెలంగాణ, ఏపీ</span><b data-p="state">3</b></div><div><span>దేశం</span><b data-p="india">3</b></div><div><span>ప్రపంచం</span><b data-p="world">4</b></div><div><span>ఉద్యోగాలు</span><b data-p="jobs">5</b></div><div><span>మరిన్ని వార్తలు</span><b data-p="rest">6</b></div>
+       <div><span>ముఖ్యాంశాలు & రాబోయే ఘట్టాలు</span><b data-p="high">2</b></div><div><span>రాష్ట్రం – తెలంగాణ, ఏపీ</span><b data-p="state">3</b></div><div><span>దేశం</span><b data-p="india">3</b></div><div><span>ప్రపంచం</span><b data-p="world">4</b></div><div><span>ఉద్యోగాలు</span><b data-p="jobs">5</b></div><div><span>హైదరాబాద్ నగరం</span><b data-p="city">6</b></div><div><span>క్రీడలు</span><b data-p="sport">7</b></div><div><span>జిల్లాలు · మరిన్ని వార్తలు</span><b data-p="rest">8</b></div>
        <p>మొత్తం {len(stories)} వార్తలు · {len(jobs)} ఉద్యోగ ప్రకటనలు</p></div>
    </aside>
  </div>
@@ -151,7 +171,7 @@ def build_html(iso, day, jobs, extra=None):
     def sec_page(title, color, items, pno, key):
         if not items: return ''
         first, more = items[0], items[1:]
-        return f'''<section class="page" data-p="{key}">{page_head(title, color, date_te, pno)}
+        return f'''<section class="page" data-p="{key}" style="--pc:{color}">{page_head(title, color, date_te, pno)}
   <div class="secopen">{story(first, 'lead', True)}</div>
   <div class="cols">{''.join(story(s) for s in more)}</div></section>'''
     pno = 3
@@ -164,8 +184,14 @@ def build_html(iso, day, jobs, extra=None):
   <table class="jobs"><thead><tr><th>ఉద్యోగం</th><th class="n">పోస్టులు</th><th class="n">చివరి తేదీ</th></tr></thead><tbody>{''.join(jobrow(j) for j in jobs[:22])}</tbody></table>
   <p class="warn">⚠️ ఉద్యోగం కోసం ఎవరికీ డబ్బులు ఇవ్వకండి. అధికారిక వెబ్‌సైట్‌లోనే దరఖాస్తు చేయండి.</p></section>''')
     pno += 1
-    # ---------- more news + back cover ----------
-    pages.append(f'''<section class="page" data-p="rest">{page_head('మరిన్ని వార్తలు', '#16406E', date_te, pno)}
+    # ---------- Hyderabad city, sports (review 25 Nov 2026: named pages, not four "more news" pages) ----------
+    for title, color, items, key in [('హైదరాబాద్ నగరం', '#7A4A12', city, 'city'), ('క్రీడలు', '#0B5CAD', sport, 'sport')]:
+        if items:
+            pages.append(f'''<section class="page" data-p="{key}" style="--pc:{color}">{page_head(title, color, date_te, pno)}
+  <div class="cols">{''.join(story(x) for x in items)}</div></section>''')
+            pno += 1
+    # ---------- districts + more news + back cover ----------
+    pages.append(f'''<section class="page" data-p="rest" style="--pc:#2E0827">{page_head('జిల్లాలు · మరిన్ని వార్తలు', '#2E0827', date_te, pno)}
   <div class="cols" data-rest="1">{''.join(story(s, 'small') for s in rest)}</div>
   <div class="back">
     <img src="/qr.png" alt="">
@@ -186,7 +212,7 @@ html,body{{margin:0;background:#fff;color:#1A1410;-webkit-print-color-adjust:exa
 .page{{width:210mm;height:297mm;padding:11mm 11mm 14mm;position:relative;overflow:hidden;break-after:page;background:#FFFFFF}}
 .page::after{{content:"జనధ్వని · {date_te} · A SWIPE2NEWS Publication";position:absolute;left:11mm;right:11mm;bottom:0;font:600 7pt/1 W2Sans;color:#8A7E70;z-index:5;background:#fff;
   border-top:.6pt solid #CFC4B2;padding:2.2mm 0 6mm;letter-spacing:.3pt}}
-.page::before{{content:"జనధ్వని";position:absolute;left:50%;top:52%;transform:translate(-50%,-50%) rotate(-30deg);font:400 120pt/1 W2Rama;color:rgba(200,16,46,.03);pointer-events:none;white-space:nowrap}}
+.page::before{{content:"జనధ్వని";position:absolute;left:50%;top:52%;transform:translate(-50%,-50%) rotate(-30deg);font:400 120pt/1 W2Rama;color:rgba(200,16,46,.018);pointer-events:none;white-space:nowrap}}
 /* masthead */
 .mast{{border-bottom:2.4pt solid #2E0827;margin-bottom:4mm}}
 .mtop{{display:flex;justify-content:space-between;font:700 7.6pt/1.4 W2Sans;color:#fff;background:#4A0E3F;padding:1.6mm 4mm;border-radius:1.2mm 1.2mm 0 0}}
@@ -200,12 +226,13 @@ html,body{{margin:0;background:#fff;color:#1A1410;-webkit-print-color-adjust:exa
 .st{{break-inside:avoid;margin:0 0 4mm}}
 .st h2{{font:400 13pt/1.45 W2Rama;margin:1mm 0 1.5mm;color:#14100C;text-wrap:balance}}
 .st .p{{font:400 8.8pt/1.8 W2Serif;margin:0 0 1.6mm;text-align:left;word-spacing:normal;hyphens:none}}
-.kick2{{font:800 6.8pt/1.4 W2Sans;color:#fff;background:var(--c);border-radius:.8mm;padding:.6mm 2.2mm;display:inline-block}}
+.kick2{{font:800 6.8pt/1.4 W2Sans;color:#fff;background:var(--pc,var(--c));border-radius:.8mm;padding:.6mm 2.2mm;display:inline-block}}
 .fact{{display:flex;align-items:baseline;gap:2.5mm;background:color-mix(in srgb,var(--c) 10%,#fff);border-left:2.4pt solid var(--c);border-radius:0 1.5mm 1.5mm 0;padding:1.6mm 2.5mm;margin:1.4mm 0 1.6mm}}
 .fact b{{font:400 15pt/1.1 W2Disp;color:var(--c);white-space:nowrap}} .fact b.te{{font:400 13pt/1.3 W2Rama}} .fact i{{font:700 7.2pt/1.4 W2Sans;font-style:normal;color:#3B332B}}
 .pts{{margin:0 0 1.6mm;padding-left:4mm;font:600 8pt/1.65 W2Sans}} .pts li::marker{{color:var(--c)}}
 .why{{font:500 7.8pt/1.65 W2Sans;margin:0 0 1.5mm;background:#F2F4F7;border-left:2pt solid var(--c);padding:1.5mm 2.5mm}} .why b{{color:var(--c)}}
-.src{{font:600 6.8pt/1.4 W2Sans;color:#7A6E60;margin:0}}
+.src{{font:600 6.8pt/1.4 W2Sans;color:#7A6E60;margin:0}} .st.own .kick2{{background:#1F6B3A}}
+.pic{{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:1.5mm;margin:0 0 2mm}} .pcap{{display:block;font:600 5.8pt/1.2 W2Sans;color:#9A8E80;margin:-1.4mm 0 1.6mm}}
 .brk{{display:inline-block;background:#4A0E3F;color:#fff;font:800 7pt/1 W2Sans;padding:1mm 2mm;border-radius:1mm;margin-right:2mm;vertical-align:middle}}
 .scene{{position:relative;height:46mm;border-radius:2mm;overflow:hidden;color:#fff;padding:4mm 5mm;display:flex;flex-direction:column;justify-content:flex-end;margin-bottom:2.5mm}}
 .scene svg{{position:absolute;inset:0;width:100%;height:100%;opacity:.3}}
@@ -229,7 +256,7 @@ html,body{{margin:0;background:#fff;color:#1A1410;-webkit-print-color-adjust:exa
 .secopen .scene{{height:52mm}}
 .secopen{{border-bottom:.8pt solid #CFC4B2;margin-bottom:4mm}}
 .cols{{column-count:3;column-gap:5mm;column-rule:.6pt solid #E0D6C6;column-fill:auto}}
-.cols .st{{break-inside:auto}} .cols .st:nth-child(3n+2){{background:color-mix(in srgb,var(--c) 6%,#fff);border-top:2pt solid var(--c);padding:2mm 2.5mm;border-radius:1.5mm}} .cols .st h2{{color:#2E0827}} .cols .st:nth-child(3n+2) h2{{color:color-mix(in srgb,var(--c) 75%,#000)}} .st h2,.kick2{{break-after:avoid}} .why,.pts li,.src{{break-inside:avoid}} .cols .st .p{{orphans:3;widows:3}}
+.cols .st{{break-inside:auto}} .cols .st .src{{break-before:avoid}} .cols .st .why{{break-before:avoid}} .cols .st:nth-child(3n+2){{background:color-mix(in srgb,var(--c) 6%,#fff);border-top:2pt solid var(--c);padding:2mm 2.5mm;border-radius:1.5mm}} .cols .st h2{{color:#2E0827}} .cols .st:nth-child(3n+2) h2{{color:color-mix(in srgb,var(--c) 75%,#000)}} .st h2,.kick2{{break-after:avoid}} .why,.pts li,.src{{break-inside:avoid}} .cols .st .p{{orphans:3;widows:3}}
 .jintro{{font:600 9pt/1.5 W2Sans;margin:0 0 3mm}}
 .hgrid{{display:grid;grid-template-columns:1.15fr 1fr;gap:6mm;height:calc(100% - 22mm)}}
 .hh{{font:400 15pt/1.35 W2Rama;margin:0 0 3mm;color:#2E0827;border-bottom:1.6pt solid #2E0827;padding-bottom:1.5mm}}
@@ -261,6 +288,8 @@ table.jobs .n{{text-align:right;white-space:nowrap;width:24mm}}
 </style></head><body>{''.join(pages)}
 <script src="/scenes.js"></script>
 <script>const S={json.dumps(stories, ensure_ascii=False)};
+document.querySelectorAll('.page:not(:has(.secopen)) .cols').forEach(c=>{{ for(const st of c.querySelectorAll('.st')){{ const s=S.find(x=>x._k===st.dataset.sid); let a=null; try{{ a=s&&artPlan(s); }}catch(e){{}}
+  if(a&&a.bg){{ const h=st.querySelector('h2'); if(h) h.insertAdjacentHTML('beforebegin','<img class="pic" src="'+artBg(a.bg)+'" alt=""><small class="pcap">AI రూపొందించిన చిత్రం</small>'); break; }} }} }});
 document.querySelectorAll('.scene[data-sid]').forEach(el=>{{ const s=S.find(x=>x._k===el.dataset.sid); if(s) el.insertAdjacentHTML('afterbegin', sceneSVG(s,'ep')); }});
 {FIT_JS}</script></body></html>'''
 
@@ -283,9 +312,13 @@ async function fit(){ await document.fonts.ready; let changed=true, guard=0;
       if(moved.length){ const np=document.createElement('section'); np.className='page cont'; const ph=pg.querySelector('.ph');
         np.innerHTML=(ph?ph.outerHTML:'')+'<div class="cols"></div>'; const t=np.querySelector('.pt'); if(t&&!/కొనసాగింపు/.test(t.textContent)) t.textContent+=' (కొనసాగింపు)';
         moved.forEach(m=>np.querySelector('.cols').appendChild(m)); (back?pg:pg).after(np); changed=true; break; } } }
+  // last page of each section: spread the stories evenly over the 3 columns (no half-empty last column)
+  document.querySelectorAll('.page .cols').forEach(c=>{ const pg=c.closest('.page'), nx=pg.nextElementSibling;
+    if(nx && nx.classList.contains('cont')) return; const h=c.style.height; c.style.height=''; c.style.columnFill='balance';
+    if(c.scrollWidth>c.clientWidth+2){ c.style.height=h; c.style.columnFill=''; } });
   const pgs=[...document.querySelectorAll('.page')], last=pgs[pgs.length-1], back=document.querySelector('.back');
   if(back && last && !last.contains(back)){ const cs=[...last.querySelectorAll('.cols > *')], bot=cs.length?Math.max(...cs.map(x=>x.getBoundingClientRect().bottom)):last.getBoundingClientRect().top+40*MM;
-    const room=last.getBoundingClientRect().bottom-16*MM-bot; if(room>back.offsetHeight+8*MM){ last.appendChild(back); const c=last.querySelector('.cols'); if(c) c.style.height=''; } }
+    const room=last.getBoundingClientRect().bottom-16*MM-bot; if(room>back.offsetHeight+8*MM){ last.appendChild(back); } }
   document.querySelectorAll('.idx b[data-p]').forEach(b=>{ const i=pgs.findIndex(p=>p.dataset.p===b.dataset.p); if(i>=0) b.textContent=i+1; else b.parentNode.remove(); });
   document.querySelectorAll('.page').forEach((pg,i)=>{ const pm=pg.querySelector('.pm'); if(pm) pm.innerHTML=pm.innerHTML.replace(/పేజీ \d+/,'పేజీ '+(i+1)); });
   document.body.dataset.ready='1'; }
