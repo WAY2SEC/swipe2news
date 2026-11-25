@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-25T21:35:00+05:30",
+ "cutoff": "2026-11-25T22:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-22T23:05:00+05:30/2026-11-22T23:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Lookback from 15:05 on 22 Nov. Feeds 23:29 IST (68/68 ok). 71 uncovered events since 22:30 scanned, ~25 searches incl. 8 district searches (no fresh results). add_repo tool not available; used existing clone. Published 3: DC Yemmiganur ZPTC ballots in garbage (23:13, claim, sensitive), ETV Bharat IRC concludes Hyderabad (22:50), TT/IANS NCS ONE portal (23:02). Skipped old: DC Akvan remnants TG rain (21 Nov 23:55). Duplicates: KTR Warangal KCR return (19:05 story), Sharmila Bengaluru (20:05), Hyderabad bomb threat (20:35). Not opened (direct feed URLs refused / not in search): The Hindu Vizag Beach Road data-centre rally, The Hindu natural childbirth walkathon; search did not return: DC Rayalaseema rain, DC SEC polling station merger, DC GCC coffee, DC Srihari-Rajaiah, TOI Vizag Davos, DC Prathap Reddy TiE award, DC grievance redressal suspended. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-22T23:35:00+05:30/2026-11-23T05:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 13:05. Feeds 21:17 IST (67/68 ok; 1,147 uncovered unseen events in lookback, most older). add_repo tool not available; used existing clone. thehindu.com blocked for fetching (SITE_BLOCKED): APPSC asst professor/RGUKT exams moved to Dec 20-24, Chittoor fodder 6,000 acres, Naidu Tirumala Nov 26, Tirupati Mayor first file, Prakasam/Nellore heavy rain, Women's Commission oocyte probe, Hyderabad man detained in Russia, AP circular economy policy, AP Rythu Sangham aid - not opened, no other source found by search. Not opened: NIE baby-sale (used Andhra Prabha), TOI HC summons CS (search only found Oct item), ANI Adilabad fake currency, ANI Vijayasai Reddy. Published 6 (all TG): Andhra Prabha Warangal infant sale 12 arrested (16:17, sensitive), Siasat/PTI Mahabubabad hostel newborn death POCSO (20:54, sensitive, no names, logo), Siasat Sunnam Cheruvu ready (20:51), TT CMC trade licence Nov 30 (20:53), TT HMDA Cantonment debris (15:41, logo), TT OU professor vs Inter merger (19:22, claim). Duplicates: Siasat RERA Auro Realty fine (published 20:05), Siasat Revanth governance/poultry (published 14:35). Skipped: NewsMeter HC-CS (Oct 26 article). No India/world, no district searches. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-25T21:35:00+05:30/2026-11-25T22:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 4,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 13:35. Feeds 21:45 IST (68/70 ok; 114 uncovered unseen events since 20:45, 40 local). add_repo tool not available; used existing clone. Published 4: DC Uttam 15-month fine rice buffer/miller recoveries (21:18, fact), TT 74% on two-wheelers: Cyberabad CP (21:23, fact, logo), DC Khelo India stadium repairs (21:32, fact, logo), News Mill/ANI Vijayasai PRP third alternative (21:12, claim). Duplicates: Business Today US tariffs on India (published 19:35), South First AP tur dal Rs 100/palm oil Rs 125 (TV9 version published earlier today), Asianet PRP (same event). Skipped: search returned old DC items for Bhadrachalam temple (Oct 30) and AP commodities (Oct 27); shawarma 43 ill is Bhiwandi, Maharashtra (other state). Not opened (thehindu.com blocked / no other source found): Bhadrachalam Rs 300 crore works, TG CM ration basket, Sridhar Babu Manthani Pushkaralu, Guntur SP ULB polls, AP circular economy, Prakasam/Nellore heavy rain, Akbaruddin minority schools, TG CEO RTI SIR. Not searched: DC I4C WhatsApp Web (search gave no DC link), HMTV/Suryaa/Disha village items, Harish Rao statements, AJ Naidu warning to rebels. First TT fetch without search provenance lost ~5 min. No world, no district searches. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8578,6 +8578,56 @@
    "url": "https://newsmeter.in/hyderabad/telangana-high-court-warns-chief-secretary-of-personal-appearance-over-non-compliance-with-court-orders-778100",
    "d": "2026-11-25",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/no-let-up-in-recoveries-from-defaulting-rice-millers-uttam-2007918",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/74-telangana-commuters-use-personal-vehicles",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/stadiums-in-telangana-get-spruced-up-for-khelo-india-games-2007923",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://thenewsmill.com/2026/11/v-vijayasai-reddy-launches-prp-as-third-front-in-andhra-pradesh/",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://newsable.asianetnews.com/india/v-vijayasai-reddy-launches-prp-as-third-alternative-in-andhra-pradesh-articleshow-2t6q76x",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.businesstoday.in/latest/economy/story/trump-proposes-fresh-tariffs-of-up-to-25-on-india-other-economies-as-us-trade-tensions-escalate-569520-2026-11-25",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://thesouthfirst.com/andhrapradesh/andhra-government-to-supply-tur-dal-at-₹100-kg-palm-oil-at-₹125-litre-via-ration-shops-from-december/",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/bhadrachalam-temple-to-be-developed-before-godavari-pushkarams-ponguleti-2000105",
+   "d": "2026-11-25",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-cm-orders-sale-of-essential-commodities-at-lower-prices-1999452",
+   "d": "2026-11-25",
+   "w": "skip"
+  },
+  {
+   "url": "https://telanganatoday.com/43-fall-ill-after-eating-chicken-shawarma-in-maharashtra-s",
+   "d": "2026-11-25",
+   "w": "skip"
   }
  ]
 }
