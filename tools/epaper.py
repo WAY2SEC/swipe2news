@@ -79,10 +79,10 @@ def story(s, size='', lead=False):
     art = f'<div class="scene" data-sid="{e(s["_k"])}" style="background:{col}"><span class="kick">{e(s.get("cat"))}</span><b class="big{' te' if any('ఀ' <= ch <= '౿' for ch in str(s.get('stat') or '')) else ''}">{e(s.get("stat"))}</b><i>{e(s.get("statl"))}</i></div>' if lead or size == 'mid' else ''
     brk = '<span class="brk">BREAKING</span>' if s.get('brk') else ''
     return f'''<article class="st {size}{' own' if own(s) else ''}" style="--c:{col}" data-sid="{e(s['_k'])}">{art}
-  {'' if (lead or size == 'mid') else f'<div class="kick2">{"📝 మా రిపోర్టర్ · " if own(s) else ""}{e(s.get("cat"))}</div>'}
+  <div class="hd">{'' if (lead or size == 'mid') else f'<div class="kick2">{"📝 మా రిపోర్టర్ · " if own(s) else ""}{e(s.get("cat"))}</div>'}
   {f'<div class="fact"><b class="{"te" if any("ఀ" <= ch <= "౿" for ch in str(s.get("stat") or "")) else ""}">{e(s.get("stat"))}</b><i>{e(s.get("statl"))}</i></div>' if size == '' and s.get('stat') else ''}
   <h2>{brk}{e(s.get('h'))}</h2>
-  <p class="p">{e(s.get('p'))}</p>
+  <p class="p">{e(s.get('p'))}</p></div>
   {f'<ul class="pts">{pts}</ul>' if pts and size not in ('small', 'mid') else ''}
   {f'<p class="why"><b>ఎందుకు ముఖ్యం?</b> {e(s.get("why"))}</p>' if s.get('why') and size not in ('small', 'mid') else ''}
   <p class="src">మూలం: {e(s.get('src'))}{(' · ' + e(ptime(s)) + ' గం.') if ptime(s) else ''}</p>
@@ -181,7 +181,7 @@ def build_html(iso, day, jobs, extra=None):
     # ---------- jobs ----------
     pages.append(f'''<section class="page" data-p="jobs">{page_head('ఉద్యోగాలు · Jobs', '#0F6E5C', date_te, pno)}
   <p class="jintro">ఈరోజు దరఖాస్తు చేయగలిగే ప్రభుత్వ, ప్రైవేట్ ఉద్యోగాలు. పూర్తి వివరాలు, అధికారిక లింకులు: <b>swipe2news.com/?jobs=1</b></p>
-  <table class="jobs"><thead><tr><th>ఉద్యోగం</th><th class="n">పోస్టులు</th><th class="n">చివరి తేదీ</th></tr></thead><tbody>{''.join(jobrow(j) for j in jobs[:22])}</tbody></table>
+  <table class="jobs"><thead><tr><th>ఉద్యోగం</th><th class="n">పోస్టులు</th><th class="n">చివరి తేదీ</th></tr></thead><tbody>{''.join(jobrow(j) for j in jobs[:22])}{''.join(jobrow(j).replace('<tr>', '<tr class="jx">', 1) for j in jobs[22:45])}</tbody></table>
   <p class="warn">⚠️ ఉద్యోగం కోసం ఎవరికీ డబ్బులు ఇవ్వకండి. అధికారిక వెబ్‌సైట్‌లోనే దరఖాస్తు చేయండి.</p></section>''')
     pno += 1
     # ---------- Hyderabad city, sports (review 25 Nov 2026: named pages, not four "more news" pages) ----------
@@ -256,7 +256,7 @@ html,body{{margin:0;background:#fff;color:#1A1410;-webkit-print-color-adjust:exa
 .secopen .scene{{height:52mm}}
 .secopen{{border-bottom:.8pt solid #CFC4B2;margin-bottom:4mm}}
 .cols{{column-count:3;column-gap:5mm;column-rule:.6pt solid #E0D6C6;column-fill:auto}}
-.cols .st{{break-inside:auto}} .cols .st .src{{break-before:avoid}} .cols .st .why{{break-before:avoid}} .cols .st:nth-child(3n+2){{background:color-mix(in srgb,var(--c) 6%,#fff);border-top:2pt solid var(--c);padding:2mm 2.5mm;border-radius:1.5mm}} .cols .st h2{{color:#2E0827}} .cols .st:nth-child(3n+2) h2{{color:color-mix(in srgb,var(--c) 75%,#000)}} .st h2,.kick2{{break-after:avoid}} .why,.pts li,.src{{break-inside:avoid}} .cols .st .p{{orphans:3;widows:3}}
+.cols .st{{break-inside:auto}} .cols .st .hd{{break-inside:avoid}} .cols.bal .st{{break-inside:avoid}} .cols .st .src{{break-before:avoid}} .cols .st .why{{break-before:avoid}} .cols .st:nth-child(3n+2){{background:color-mix(in srgb,var(--c) 6%,#fff);border-top:2pt solid var(--c);padding:2mm 2.5mm;border-radius:1.5mm}} .cols .st h2{{color:#2E0827}} .cols .st:nth-child(3n+2) h2{{color:color-mix(in srgb,var(--c) 75%,#000)}} .st h2,.kick2{{break-after:avoid}} .why,.pts li,.src{{break-inside:avoid}} .cols .st .p{{orphans:3;widows:3}}
 .jintro{{font:600 9pt/1.5 W2Sans;margin:0 0 3mm}}
 .hgrid{{display:grid;grid-template-columns:1.15fr 1fr;gap:6mm;height:calc(100% - 22mm)}}
 .hh{{font:400 15pt/1.35 W2Rama;margin:0 0 3mm;color:#2E0827;border-bottom:1.6pt solid #2E0827;padding-bottom:1.5mm}}
@@ -278,11 +278,17 @@ html,body{{margin:0;background:#fff;color:#1A1410;-webkit-print-color-adjust:exa
 table.jobs{{width:100%;border-collapse:collapse;font:600 8pt/1.4 W2Sans}}
 table.jobs th{{background:#0F6E5C;color:#fff;text-align:left;padding:2mm 2.5mm;font-weight:800}}
 table.jobs td{{border-bottom:.6pt solid #DDD3C4;padding:1.8mm 2.5mm;vertical-align:top}}
-table.jobs tr:nth-child(even) td{{background:#F3F5F8}}
+table.jobs tr:nth-child(even) td{{background:#F3F5F8}} table.jobs tr.jx{{display:none}}
 table.jobs td small{{display:block;color:#6B5F52;font-weight:600;font-size:7pt}}
 table.jobs .n{{text-align:right;white-space:nowrap;width:24mm}}
 .warn{{font:800 8.6pt/1.5 W2Sans;color:#B3400F;margin:3mm 0 0}}
+.hab{{position:absolute;left:11mm;right:11mm;display:flex;gap:5mm;align-items:center;justify-content:center;border:1.2pt dashed #C9A9BE;border-radius:3mm;background:#FBF4F8;padding:4mm 6mm;overflow:hidden}}
+.hab.col{{position:static;flex-direction:column;text-align:center;margin-top:3mm;break-inside:avoid;padding:3mm}} .hab.col .hx{{max-width:none}}
+.hab img{{width:24mm;height:24mm;background:#fff;padding:1mm;border-radius:1.5mm;flex:none}} .hab .hx{{max-width:120mm}}
+.hab h3{{margin:0 0 1.5mm;font:400 15pt/1.35 W2Rama;color:#2E0827}} .hab p{{margin:0 0 1mm;font:600 8.6pt/1.55 W2Sans;color:#3B2A35}} .hab b{{color:#B3400F}}
+.hab .em{{font-size:26pt;line-height:1}} .hab.sm h3{{font-size:12pt}} .hab.sm img{{width:16mm;height:16mm}} .hab.sm .em{{font-size:18pt}}
 .back{{position:absolute;left:11mm;right:11mm;bottom:16mm;display:flex;gap:6mm;align-items:center;background:#2E0827;color:#fff;border-radius:3mm;padding:5mm}}
+.back.slim{{padding:2mm 4mm;gap:3mm;bottom:15mm}} .back.slim img{{width:11mm;height:11mm;padding:.6mm}} .back.slim h3{{font-size:10pt;margin:0}} .back.slim p{{display:none}}
 .back img{{width:30mm;height:30mm;background:#fff;padding:1.5mm;border-radius:1.5mm}}
 .back h3{{margin:0 0 2mm;font:400 14pt/1.3 W2Rama;color:#F5A23A}} .back p{{margin:0 0 1.5mm;font:600 8.4pt/1.5 W2Sans}} .back .fine{{font-size:6.8pt;color:#B9C4D6;margin:2mm 0 0}}
 </style></head><body>{''.join(pages)}
@@ -297,6 +303,8 @@ document.querySelectorAll('.scene[data-sid]').forEach(el=>{{ const s=S.find(x=>x
 FIT_JS = r'''/* fit every page: stories that do not fit move to a continuation page, nothing is cut */
 const MM=96/25.4;
 async function fit(){ await document.fonts.ready; let changed=true, guard=0;
+  // the QR back box goes on the last page at the end, so no page keeps a hole where it used to be (review 25 Nov 2026)
+  const BACK=document.querySelector('.back'), BH=BACK?BACK.offsetHeight:0; if(BACK) BACK.remove();
   while(changed && guard++<30){ changed=false;
     for(const pg of [...document.querySelectorAll('.page')]){ const c=pg.querySelector('.cols'); if(!c||c.dataset.fit) continue;
       const back=pg.querySelector('.back'); const pr=pg.getBoundingClientRect();
@@ -305,20 +313,44 @@ async function fit(){ await document.fonts.ready; let changed=true, guard=0;
       const moved=[]; while(c.scrollWidth>c.clientWidth+2 && c.children.length>1){ moved.unshift(c.lastElementChild); c.lastElementChild.remove(); }
       const rest=document.querySelector('.cols[data-rest]');
       if(moved.length && rest && c!==rest && !c.closest('.page.cont')){ moved.reverse().forEach(m=>{ m.classList.add('small'); rest.insertBefore(m,rest.firstChild); });
-        // fill the gap left at the bottom with shorter stories from "more news"
-        for(const cand of [...rest.children]){ const nx=cand.nextSibling; c.appendChild(cand); cand.classList.add('small');
-          if(c.scrollWidth>c.clientWidth+2){ rest.insertBefore(cand,nx); } }
         delete rest.dataset.fit; rest.style.height=''; changed=true; break; }
       if(moved.length){ const np=document.createElement('section'); np.className='page cont'; const ph=pg.querySelector('.ph');
         np.innerHTML=(ph?ph.outerHTML:'')+'<div class="cols"></div>'; const t=np.querySelector('.pt'); if(t&&!/కొనసాగింపు/.test(t.textContent)) t.textContent+=' (కొనసాగింపు)';
         moved.forEach(m=>np.querySelector('.cols').appendChild(m)); (back?pg:pg).after(np); changed=true; break; } } }
   // last page of each section: spread the stories evenly over the 3 columns (no half-empty last column)
   document.querySelectorAll('.page .cols').forEach(c=>{ const pg=c.closest('.page'), nx=pg.nextElementSibling;
-    if(nx && nx.classList.contains('cont')) return; const h=c.style.height; c.style.height=''; c.style.columnFill='balance';
-    if(c.scrollWidth>c.clientWidth+2){ c.style.height=h; c.style.columnFill=''; } });
-  const pgs=[...document.querySelectorAll('.page')], last=pgs[pgs.length-1], back=document.querySelector('.back');
-  if(back && last && !last.contains(back)){ const cs=[...last.querySelectorAll('.cols > *')], bot=cs.length?Math.max(...cs.map(x=>x.getBoundingClientRect().bottom)):last.getBoundingClientRect().top+40*MM;
-    const room=last.getBoundingClientRect().bottom-16*MM-bot; if(room>back.offsetHeight+8*MM){ last.appendChild(back); } }
+    if(nx && nx.classList.contains('cont')) return; const h=c.style.height; c.style.height=''; c.style.columnFill='balance'; c.classList.add('bal');
+    if(c.scrollWidth>c.clientWidth+2){ c.style.height=h; c.style.columnFill=''; c.classList.remove('bal'); } });
+  let pgs=[...document.querySelectorAll('.page')], last=pgs[pgs.length-1]; const back=BACK;
+  // jobs page: show more jobs until the page is full
+  document.querySelectorAll('table.jobs').forEach(t=>{ const pg=t.closest('.page'), lim=pg.getBoundingClientRect().bottom-30*MM;
+    for(const r of t.querySelectorAll('tr.jx')){ r.classList.remove('jx'); if(t.getBoundingClientRect().bottom>lim){ r.classList.add('jx'); break; } } });
+  if(back && last){ const cs=[...last.querySelectorAll('.cols > *')], bot=cs.length?Math.max(...cs.map(x=>x.getBoundingClientRect().bottom)):last.getBoundingClientRect().top+40*MM;
+    const room=last.getBoundingClientRect().bottom-16*MM-bot; if(room>BH+8*MM){ last.appendChild(back); }
+    else if(room>17*MM){ back.classList.add('slim'); last.appendChild(back); } // little room: one slim line, never an extra page for the box alone
+    pgs=[...document.querySelectorAll('.page')]; }
+  // white space left under the stories (review 25 Nov 2026): fill it with our own notices, like a printed paper
+  const ADS=[
+    ['📱','ప్రతి 30 నిమిషాలకు తాజా వార్తలు','Swipe2News యాప్ – మీ జిల్లా వార్తలు, ఉద్యోగాలు, మండీ ధరలు, వాతావరణం.','<b>swipe2news.com</b> · ఉచితం',1],
+    ['📝','మీ ఊరి రిపోర్టర్ అవ్వండి','మీ గ్రామం, మండలం వార్తలు మాకు పంపండి – పరిశీలించి ప్రచురిస్తాం.','<b>swipe2news.com/reporter/join.html</b>',0],
+    ['💼','ఉద్యోగాల సమాచారం – రోజూ ఉచితంగా','ప్రభుత్వ, ప్రైవేట్ ఉద్యోగాలు, చివరి తేదీలు ఒకే చోట.','<b>swipe2news.com/?jobs=1</b>',1],
+    ['📢','మీ వ్యాపారానికి ప్రకటన ఇవ్వండి','జనధ్వని ఈ-పేపర్, Swipe2News యాప్‌లో మీ ప్రకటన – తెలుగు పాఠకులకు నేరుగా.','📞 <b>+91 70326 56422</b> · ✉️ <b>swipe2news@gmail.com</b>',0]];
+  let ai=0;
+  document.querySelectorAll('.page').forEach(pg=>{ const c=pg.querySelector('.cols'); if(!c||!c.children.length) return;
+    const pr=pg.getBoundingClientRect(), bk=pg.querySelector('.back');
+    const lim=bk?bk.getBoundingClientRect().top-4*MM:pr.bottom-16*MM;
+    const bot=Math.max(...[...c.querySelectorAll(':scope > *')].map(x=>{ const rs=[...x.getClientRects()]; return rs.length?Math.max(...rs.map(q=>q.bottom)):0; }));
+    const pick=()=>{ let a=ADS[ai++%ADS.length]; if(bk&&a[4]) a=ADS[ai++%ADS.length]; return a; };
+    const html=a=>(a[4]?'<img src="/qr.png" alt="">':'<span class="em">'+a[0]+'</span>')+'<div class="hx"><h3>'+a[1]+'</h3><p>'+a[2]+'</p><p>'+a[3]+'</p></div>';
+    // a) columns filled one after another: space left at the foot of the last column
+    const lastEl=c.lastElementChild, lr=[...lastEl.getClientRects()].pop(), cb=c.getBoundingClientRect().bottom;
+    if(c.style.columnFill!=='balance' && lr && cb-lr.bottom>30*MM){ const a=pick(), d=document.createElement('div');
+      d.className='hab col'+(cb-lr.bottom<60*MM?' sm':''); d.style.height=(cb-lr.bottom-5*MM)+'px'; d.innerHTML=html(a); c.appendChild(d);
+      if(c.scrollWidth>c.clientWidth+2) d.remove(); return; }
+    // b) balanced columns: space under them, full width
+    const room=lim-bot-4*MM; if(room<28*MM) return;
+    const n=room>150*MM?3:room>95*MM?2:1, gap=4*MM, h=Math.min((room-gap*(n-1))/n,70*MM), top0=bot-pr.top+4*MM+(room-(h*n+gap*(n-1)))/2;
+    for(let k=0;k<n;k++){ const d=document.createElement('div'); d.className='hab'+(h<45*MM?' sm':''); d.style.top=(top0+k*(h+gap))+'px'; d.style.height=h+'px'; d.innerHTML=html(pick()); pg.appendChild(d); } });
   document.querySelectorAll('.idx b[data-p]').forEach(b=>{ const i=pgs.findIndex(p=>p.dataset.p===b.dataset.p); if(i>=0) b.textContent=i+1; else b.parentNode.remove(); });
   document.querySelectorAll('.page').forEach((pg,i)=>{ const pm=pg.querySelector('.pm'); if(pm) pm.innerHTML=pm.innerHTML.replace(/పేజీ \d+/,'పేజీ '+(i+1)); });
   document.body.dataset.ready='1'; }
