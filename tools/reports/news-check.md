@@ -1,16 +1,16 @@
 # Swipe2News story check
 
 ## news.json: 134 stories · 0 to fix · 29 to look at · 0 fixed automatically
-- CHECK: #4 "పీఆర్‌పీ మూడో ప్రత్యామ్నాయం: విజయసాయి": picture line is long (38 letters) – keep stat + statl short so it fits one line
-- CHECK: #8 "సైబరాబాద్ ట్రేడ్ లైసెన్స్ గడువు నవంబర్ 3": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #9 "కంటోన్మెంట్‌లో కూల్చివేతల చెత్త కుప్పలు": picture line is long (40 letters) – keep stat + statl short so it fits one line
-- CHECK: #12 "క్రిస్మస్‌కు ఒక్కో చర్చికి ₹30 వేల సాయం": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #14 "రాష్ట్రపతి నిలయం నెల రోజులు మూసి ఉంటుంది": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #15 "శ్రీకాళహస్తి గార్డుకు ₹20.25 లక్షల సాయం": picture line is long (38 letters) – keep stat + statl short so it fits one line
-- CHECK: #28 "హైదరాబాద్‌కు మల్లన్నసాగర్ నీటి ట్రయల్": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #47 "టీఐఎఫ్‌ఆర్ హైదరాబాద్, విరూపాక్ష ఒప్పందం": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #52 "పోలీసులు ఆస్తి తగాదా తేల్చొద్దు: హైకోర్ట": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #52 "పోలీసులు ఆస్తి తగాదా తేల్చొద్దు: హైకోర్ట": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #9 "పీఆర్‌పీ మూడో ప్రత్యామ్నాయం: విజయసాయి": picture line is long (38 letters) – keep stat + statl short so it fits one line
+- CHECK: #13 "సైబరాబాద్ ట్రేడ్ లైసెన్స్ గడువు నవంబర్ 3": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #14 "కంటోన్మెంట్‌లో కూల్చివేతల చెత్త కుప్పలు": picture line is long (40 letters) – keep stat + statl short so it fits one line
+- CHECK: #17 "క్రిస్మస్‌కు ఒక్కో చర్చికి ₹30 వేల సాయం": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #19 "రాష్ట్రపతి నిలయం నెల రోజులు మూసి ఉంటుంది": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #20 "శ్రీకాళహస్తి గార్డుకు ₹20.25 లక్షల సాయం": picture line is long (38 letters) – keep stat + statl short so it fits one line
+- CHECK: #33 "హైదరాబాద్‌కు మల్లన్నసాగర్ నీటి ట్రయల్": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #52 "టీఐఎఫ్‌ఆర్ హైదరాబాద్, విరూపాక్ష ఒప్పందం": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #57 "పోలీసులు ఆస్తి తగాదా తేల్చొద్దు: హైకోర్ట": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #57 "పోలీసులు ఆస్తి తగాదా తేల్చొద్దు: హైకోర్ట": picture line is long (35 letters) – keep stat + statl short so it fits one line
 - CHECK: #72 "భూపాలపల్లిలో వడ్లు వెంటనే కొనాలి: గండ్ర": picture line is long (35 letters) – keep stat + statl short so it fits one line
 - CHECK: #73 "ఏపీలో 3,191 సర్పంచ్ పదవులకు 26న పోలింగ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
 - CHECK: #75 "ఖాజీపేట మిడుతూరులో నామినేషన్ల ఘర్షణ": picture line is long (35 letters) – keep stat + statl short so it fits one line
@@ -32,28 +32,28 @@
 - CHECK: #134 "కర్లపాలెం నగల చోరీ: నలుగురు అరెస్ట్": picture line is long (37 letters) – keep stat + statl short so it fits one line
 
 ### Pictures needed (create in your image tool, send to Claude)
-- **Industry & Factories** – 6 story(ies), e.g. "కంటోన్మెంట్‌లో కూల్చివేతల చెత్త కుప్పలు". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
-## archive/2026-11-25.json: 181 stories · 0 to fix · 20 to look at · 0 fixed automatically
-- CHECK: #4 "పీఆర్‌పీ మూడో ప్రత్యామ్నాయం: విజయసాయి": picture line is long (38 letters) – keep stat + statl short so it fits one line
-- CHECK: #8 "సైబరాబాద్ ట్రేడ్ లైసెన్స్ గడువు నవంబర్ 3": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #9 "కంటోన్మెంట్‌లో కూల్చివేతల చెత్త కుప్పలు": picture line is long (40 letters) – keep stat + statl short so it fits one line
-- CHECK: #12 "క్రిస్మస్‌కు ఒక్కో చర్చికి ₹30 వేల సాయం": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #14 "రాష్ట్రపతి నిలయం నెల రోజులు మూసి ఉంటుంది": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #15 "శ్రీకాళహస్తి గార్డుకు ₹20.25 లక్షల సాయం": picture line is long (38 letters) – keep stat + statl short so it fits one line
-- CHECK: #28 "హైదరాబాద్‌కు మల్లన్నసాగర్ నీటి ట్రయల్": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #47 "టీఐఎఫ్‌ఆర్ హైదరాబాద్, విరూపాక్ష ఒప్పందం": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #52 "పోలీసులు ఆస్తి తగాదా తేల్చొద్దు: హైకోర్ట": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #52 "పోలీసులు ఆస్తి తగాదా తేల్చొద్దు: హైకోర్ట": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #77 "కూకట్‌పల్లి అరెస్టులను ఖండించిన బీఆర్ఎస్": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #78 "జోగిపేట హాస్టల్‌లో బాలికలకు అనారోగ్యం": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #81 "రాహుల్ కేసులో హైకోర్టు ఆదేశం రద్దు": picture line is long (40 letters) – keep stat + statl short so it fits one line
-- CHECK: #123 "ఉగ్ర అలర్ట్ లీక్‌పై విచారణ కోరిన బీఆర్‌ఎ": headline is 42 characters – may not fit one line (keep ≤ 38)
-- CHECK: #137 "కాళేశ్వరం నీళ్లు ఎత్తే పని లేదు: సీతక్క": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #146 "హ్యాండ్‌బాల్ విజేతలు పాలమూరు, వరంగల్": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #149 "కృష్ణా వర్సిటీలో కోస్ట్ గార్డ్‌పై అవగాహన": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #174 "రాలేదని అప్పీల్ కొట్టేయొద్దు: హైకోర్టు": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #176 "విశాఖలో డిసెంబర్ 10 నుంచి స్టోన్ ఫెస్ట్": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #177 "కృష్ణా ఘాట్లలో కార్తీక పౌర్ణమి రద్దీ": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- **Industry & Factories** – 5 story(ies), e.g. "కంటోన్మెంట్‌లో కూల్చివేతల చెత్త కుప్పలు". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
+## archive/2026-11-25.json: 186 stories · 0 to fix · 20 to look at · 0 fixed automatically
+- CHECK: #9 "పీఆర్‌పీ మూడో ప్రత్యామ్నాయం: విజయసాయి": picture line is long (38 letters) – keep stat + statl short so it fits one line
+- CHECK: #13 "సైబరాబాద్ ట్రేడ్ లైసెన్స్ గడువు నవంబర్ 3": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #14 "కంటోన్మెంట్‌లో కూల్చివేతల చెత్త కుప్పలు": picture line is long (40 letters) – keep stat + statl short so it fits one line
+- CHECK: #17 "క్రిస్మస్‌కు ఒక్కో చర్చికి ₹30 వేల సాయం": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #19 "రాష్ట్రపతి నిలయం నెల రోజులు మూసి ఉంటుంది": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #20 "శ్రీకాళహస్తి గార్డుకు ₹20.25 లక్షల సాయం": picture line is long (38 letters) – keep stat + statl short so it fits one line
+- CHECK: #33 "హైదరాబాద్‌కు మల్లన్నసాగర్ నీటి ట్రయల్": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #52 "టీఐఎఫ్‌ఆర్ హైదరాబాద్, విరూపాక్ష ఒప్పందం": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #57 "పోలీసులు ఆస్తి తగాదా తేల్చొద్దు: హైకోర్ట": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #57 "పోలీసులు ఆస్తి తగాదా తేల్చొద్దు: హైకోర్ట": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #82 "కూకట్‌పల్లి అరెస్టులను ఖండించిన బీఆర్ఎస్": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #83 "జోగిపేట హాస్టల్‌లో బాలికలకు అనారోగ్యం": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #86 "రాహుల్ కేసులో హైకోర్టు ఆదేశం రద్దు": picture line is long (40 letters) – keep stat + statl short so it fits one line
+- CHECK: #128 "ఉగ్ర అలర్ట్ లీక్‌పై విచారణ కోరిన బీఆర్‌ఎ": headline is 42 characters – may not fit one line (keep ≤ 38)
+- CHECK: #142 "కాళేశ్వరం నీళ్లు ఎత్తే పని లేదు: సీతక్క": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #151 "హ్యాండ్‌బాల్ విజేతలు పాలమూరు, వరంగల్": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #154 "కృష్ణా వర్సిటీలో కోస్ట్ గార్డ్‌పై అవగాహన": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #179 "రాలేదని అప్పీల్ కొట్టేయొద్దు: హైకోర్టు": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #181 "విశాఖలో డిసెంబర్ 10 నుంచి స్టోన్ ఫెస్ట్": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #182 "కృష్ణా ఘాట్లలో కార్తీక పౌర్ణమి రద్దీ": picture line is long (37 letters) – keep stat + statl short so it fits one line
 
 ### Pictures needed (create in your image tool, send to Claude)
 - **Industry & Factories** – 10 story(ies), e.g. "కంటోన్మెంట్‌లో కూల్చివేతల చెత్త కుప్పలు". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
