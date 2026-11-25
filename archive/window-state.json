@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-25T19:35:00+05:30",
+ "cutoff": "2026-11-25T20:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-22T21:05:00+05:30/2026-11-22T21:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 2,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 5,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Lookback from 13:05 on 22 Nov. Feeds 21:17 IST (68/68 ok); 228 unseen uncovered events since 19:30 scanned by headline, ~12 searched. add_repo tool not available; used existing clone. Published 3: Deccan Chronicle Vizag ₹1.94 cr digital arrest 6 held (21:14), ThePrint/PTI FSSAI Bisleri prosecution (20:45), IND Today Remaddula house fire (20:53, district not named -> TS). Duplicates: Nitin Nabin Karimnagar padayatra preview (21 Nov), Godavari Pushkaralu logo contest (21 Nov), JEE Main deadline (21 Nov), Nepal PM visit (06:07), Pawan panchayat review (ETV live blog). Not opened: Siasat 447 drunk driving (fetch permission timeout), The Hindu Dwaraka Tirumala minors rescued (fetch permission timeout), ANI Bandi Sanjay SIR rallies (4xx); search did not return: Andhra Jyothy Ponnam drought national disaster, DC Srikalahasti satisfaction, NTV drainage rescue, Disha BRS-KRMB. No district searches this run. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-22T21:35:00+05:30/2026-11-22T22:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 11:05. Feeds 19:12 IST (68/70 ok; 37 uncovered events first seen since 18:50, 14 local). add_repo tool not available; used existing clone. Published 3: Andhra Jyothy AP IG Rajakumari election code warning, 607 FIRs (18:54, fact), Telangana Today TGCHE launches HERIF (18:52, fact, logo), Business Standard/Reuters US proposes tariffs on 14 partners incl India (19:06, fact). Duplicate: NewsMeter Telugu Panjagutta AI police station DGP visit (published 24 Nov 23:35). Skipped: HMTV Veenavanka paddy theft arrests (08:44, before lookback), NT Mailardevpally boy death (June 2026 article, old). Not opened: Disha Mailardevpally boy (client error), TOI TG HC summons chief secretary (not found by search), ANI tariffs (client error). Not attempted: Vizianagaram fine rice counter, Medak encroachments, Asianet IT towers, Sakshi AP leaders weekend, Siasat items, other India/world. No district searches. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-25T19:35:00+05:30/2026-11-25T20:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 8,
+   "published": 8,
+   "late": 0,
+   "sensitive": 3,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 11:35. Feeds 19:56 IST (69/70 ok, ETV Bharat failing; 111 uncovered events first seen since 19:05). add_repo tool not available; used existing clone. Published 8: Siasat Khammam Edulapuram gas cylinder leak 20 hospitalised (19:48, fact), Siasat Madhapur bike crash pillion dies (19:41, fact, sensitive, no names), TT Sangareddy Bardipur tractor death (19:42, fact, sensitive, no name), TT Malkajgiri cybercrime OLX fraud Rs 12.20 lakh (19:39, fact), TT Nirmal SP on RGUKT Basar student cyber fraud (19:31, claim, sensitive, no name/method), NewsMeter TG RERA fines Auro Realty Rs 25 lakh (19:57, fact), NT AP rain two more days (19:53, forecast), BigTV Mallanna Sagar 100 MLD trial run to Hyderabad (19:23, fact). Duplicates: Hindu Kadapa sand mining CM report (published 15:35), Khelo India CM review (published 16:05), Deccan Herald Kakinada fishermen (published earlier). Skipped: HMTV Banaganapalle sarpanch unanimous (24 Nov 18:59, before lookback; Hindu 19:30 version not found by search). Not found by search: Hyderabad Mail TGiCCC driver posts, Disha green water tanker suspensions, HMTV Khammam CP inspection, ANI India-China talks. Not attempted: Suryaa/HMTV/Disha village items, Vijayasai remarks, Cityflo shuttles, Srisailam Vanabhojanalu, other India/world. No district searches. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8253,6 +8253,131 @@
    "url": "https://www.ntnews.com/hyderabad/three-year-old-boy-dies-after-falling-under-car-wheels-in-mailardevpally-2417965",
    "d": "2026-11-25",
    "w": "2026-11-25T19:35"
+  },
+  {
+   "url": "https://www.siasat.com/chemical-gas-leaks-out-of-cylinder-in-khammam-20-hospitalised-3586698/",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/madhapur-bike-rams-into-road-divider-woman-riding-pillion-dies-3586761/",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/tractor-runs-over-labourer-in-sangareddy",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/malkajgiri-cybercrime-cops-caution-against-olx-fraud",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/crime/selling-on-olx-never-scan-a-qr-code-to-receive-money-hyderabad-woman-loses-rs-1220-lakh-780001",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/rgukt-student-who-ended-life-was-duped-by-cyber-fraudsters",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/auro-realty-fined-rs-25-lakh-for-promoting-rs-2-crore-apartments-sans-tg-rera-registration-780003",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/andhrapradesh-news/light-to-moderate-rains-expected-in-ap-for-another-two-days-2568899",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.bigtvlive.com/telangana/hyderabad-to-receive-100-mld-drinking-water-from-mallanna-sagar-trial-run-underway.html",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/kurnool/nandyal-minister-bc-janardhans-wife-elected-banaganapalle-sarpanch-216729",
+   "d": "2026-11-25",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/khelo-india-youth-games-to-make-telangana-global-sports-hub-cm-3586740/",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQWhPSVJNd3RncE9ISkdQVnVfY3JFMGJrbjd2b05neWJyX0Zfc2RENDRQNzdsTVQ1QzRrSlJoaWlnXzRNZmJBTjJQVGV0LWJ4c3plaDVQdllNYVhvYmFRYmRWal91RnVfb0phZGRpSlEydG9LMTdHMFpPaURONFNvYzdiT0Q1TVBJWWxVbVRvamJoWEhINWFNSjZBZEdzdTZoYjRWeldGNjZpdHROck9xcHBBSkhxeFHSAboBQVVfeXFMTmVvNDVSbkx6ai1GeTQweDluZmlEbUl0ZHhtTndGSEpRR1ZOd3VhZnQ2Z1Bnb1BTSkNvWkV4WFNtM3UwX2libDh1Qm9ORXByV1ZMMUtId3lXaTZvTGVBVUliMmQzVnpSTnROUGJWS2ljblNOaWtCOGNjaVZqb09XZTV6V0ZBWGZ4NXcxU0V6cjJpRmc1RHNjV1M1Mlhtei1ObHoyTGl4VEpEZ0V1YkJxYTY2bGZqWmhyY0lR?oc=5",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-cm-calls-for-report-on-illegal-sand-mining-damage-to-drinking-water-pipeline-in-kadapa/article71742802.ece",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQY0xVNHVIa1FhYWlzY2VkZ1BYSlZkbGxsR3ZYYUJnanNKX3lpODVGSWtucWtadTRsZlZfaEczQl9qSTQ5N3FCRFRoZ0FDeFEyemJrTzMtTzM0bU1JU200SGV0MmgyV2FVdjVPU3BQay1MQ3k0Z013TzJYbGJOVG53LVg0cEk3dzc4VUItU1h5MGxWalhSNW5MM2ExbHFaOTFvclBVenhNWEU4VkNSMmprUEFxVVYxdWd0VGtEd3RqWS00V1VQZkl2eXd1T3hGb1BCUVZHT01sbXQ3X1hPZTJsVUduUmdrNnlQV2x6YkZuOHVKQ1BUcGRTU0luWdIBggJBVV95cUxQYmJaaGxuWmVudmhDUVNMc0puTDNkZFlrMk1KbDk2dURvOXpXT2dQRHFyVEZoSzdmb0ZZbC15bVBKOVZIdVRsQUJaQWRUa0dwSVRxR3owOEZqYm03Q0VfMDcxQ09yVkVUMks0QmxzTUh0TnRpczh4c1owa1lzTkF5SWZaVURyT0dDVk9TMjNGNGhETk9Zc0pWTnRJa2tsU1RYRy04aEZNMGZTejRNVkQ2MmRyaW9xMHBIbEZjdmN0QXF0MENrUDdPbjZ5SUpTd2dpSzZUd29UZWVRTG9yb0VnQ0tCVE5FRUFvR2FEdDB4a3BYQzRTcy1udnMyLUZvRUR5OUE?oc=5",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdlpnZlcwVU5tSlB0UFZvZFRIblVxN3hBSGhSTGpELWgxR2lpc3QyeG9JeHFfNXdrRGpZZ3RTdnNIa0d1ZXVaclNQU0kxRGdBRWd2Xy1Mc0wtaG05dWdwRUhlZ3RIQURrbkE5cWQwUHpObWJpdi1iQVpnelRVVGNISUVsVUx3dw?oc=5",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd3BTd0NfRVJsZnF1X0NsZlBRR2hDcFlETUgxSl9VUlFuWE1Gbkhia0FaRW5nZnMzSzBBN01iak5JbmJfYmNqNkk0WWF2cDNQMVZZeGdCeWdRemdJel8yYWxiNS1BY1B1VDBUbkpHX3czTThrS2NNQnZBNFotQTd4RjV6MGo1NnZMNk1OcVdMVWY1LUtuaW1rOTBn0gGfAUFVX3lxTE9YWVA1TDl6VXJfQ0ZRMzdGWjMwWGE3RWwySE5qdDNtMkNxb1JvNFU0ZzRHTUVEejZmN3FfYkVuOUFIMjNuVWlDVlZBU3p0OG41RHYzM2U3TGhESVlIS0J0VEJTMVNmLWI0OGlHZTMzY0dLdDF1cGY3YXRVU0ExanNDd24wc2tzbGtXa3F5S0dVbXdVMkRoTkVKNUtibkk1bw?oc=5",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE90NmV5c09xMnc3bXU0YU1mVHA4Z2dtdHpqQmFuSXRhYUN4QmxtYm4yN1J2VlRJTWlnS3d6QXBKREVxOVFEYUlhNE1VM1VFRmNuU19GVnItRFpTeFRCS3ZRRkxKWldDdzJaenFmYlBZb0hNYy1qd3c?oc=5",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaFBFYXlaUHRzSldvN2hRWVpRdDJUZ19UcnBEemRJTFhaVjlZWEU1RnZqczhCM1FEQl9ORFpTLVZjYkdEQzVsVUVkS1hkekdQWkRnYWZOVkVFTGhHNzQwakNJaHlrWDZFaV9IZlY4bHR0elYtb0hmcDE2b0tHWXNqNVc4QzJSeHdRM2ROVTBZLXAyNkdKeTA1R9IBngFBVV95cUxQQjlDRnpvaEhBQWhkZ1BmVlI2aXBtcHdlZWIyR1VKSmlXUEpQM3NBc0dTam1MdEZHcDRSc0ZEVm8wTkdkWlB0dElfOVZTeHY3U3JZN2J1dm9uVC1zTEdKaVZ4UmpWZ2RFY1ZURU1zV2F6b05EN1U5dDZRWlFNMU4wOHRHc2dieWQ3a3cwTGdWbFhObUtlQUUxbDV3amgyQQ?oc=5",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/rera-penalises-three-realty-firms-for-violating-norms/article71742675.ece",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaDJMTFJ6M0JZMmZENjVaMUJ4bkZ0ai1YNEJCazlNbWR0c1M5eDJGeHdfVmNsRE5vN2licG1IRGgwNkM5cFgtVXdCV1d3bjREN3V5QmNRZWNPZGk5Wnd1Q0tYRmN4ckFNVU01TS1fcUlJaDBsY2k4WklnM290MVdENE14WF9QaXdPWVVaUVFkNVNYbmkzaC05eURaMlItdFdvZnR4WmZMdHZDYmRDWDdxR3k1dmZqNFROU1gzemJGUXM?oc=5",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/rb-ministers-wife-unanimously-elected-banaganapalle-sarpanch/article71742908.ece",
+   "d": "2026-11-25",
+   "w": "skipped"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMS04T2hPU3J3dVV5bXNtRXgzQm9uTFhsUVdpSy1wWXVVVC12MkJwMDBoQzY3bWJJTHh0RFhjeUN3UkNEZlBMUUpJTGRGVS1Md3ItNnloUVBFcUJvV2ZPTmUzU1BGcjhleVl4bTJuck9LQ3kxUExQNUE3ZmFJZ3VZVHFsRHNZTGszN1dnWmF0ZVg5RndnN3VzLU9QMXBIQ0NzdGtrVEYyTlhjYVdKY2M4Rk12dzF2OS1SeExQOGxn?oc=5",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNcWt1TDlDcmtCNzhzUHpYbFY3d2NXTDU4TS10ZFlmQnBaQS1QSXJZVUZkWEUtd3FwMXZXYnZVbi04eW0wUkVjNmRyWGwyX0lqVkg1dWkyQXBBRHltV1duVjlUeTcwLTJ4QktqZUZmWXJqMVhVTXgyLUdjN2xIUUkyMkdfeE9PV0xRTEVMWEVncUptVmVnSGt2Nk5ISDFGRXJoNkVRWXVkNlA2YmpwUVNVZFluQ21raTd4bEF1ZlZ4ZHB3NU5QYU82ZlJJZ3F5OGVxajFYaUlVOVNMNFRmOGVmVzY4V2hVekdZNXZzN0czT3ZwbXR6TzhGbFFSSHktZw?oc=5",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONjVKaGZ5N0g0dndtX1VIMFNISWVhY1JZVDZHUnpLc3YzRUhoMEdCTDE0QW1PRGtNZkkwOG1JcXBmbWkwUkpabmNhbjhYTURGYy1hdWVRX2lqSXBkWmVjTTRUX2dHcTVYZE10M0lvMnc0SlZQaXRRNXpmcUpZOEZ6VnpzbXp2MkNyRzRqZllYSUZVQXp6M1FaemhFb1B3OF9YVEpRSDVjMk9BU3pLYm5MSTRUUXowRlk1M1ZldGotNDdaQlZ4LW5XM3pFY0Y0QXl1N2ZGTGsxRWtXbE5PVjAxNFRuTE01UdIB6wFBVV95cUxQMlBLRDZveUNvQThWa0hYWTRPS1VjOWJWNmdyamdXMEhNNzcxcDJpMVhrM0dSTGJpN2N2Q1ltR1VLOXVpcExhdEpNRW02NEtnUjEyN19OaVRmc2NrS3VSOGFvVUNfNllwNFhJUlBiV0FZNVB6QkZuYVEtb04zdGVUVHpod0JvZlJlS0RrNXo4Y0ZIUDN6cEFIdGV3endKMU5EYWFfMEg0UlVZMVM3LWRseUtLVDRiRXpMWXk1U2NsR2hqNUVIcF9SRzRBSjFLeF9RcURYSXFSdmxfaU1EaE5QaFE4UEhLcXFOQWNB?oc=5",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOclF5RmZWS19WakVfanRuY2xYVWNidUJ4VWxodE1wWjdfUmZwSEtzV1RyejI0WlQ1OHktUWI1MGVfV1FMbGRvTzRrQUwwb0x3UDFKV3VYNnNaNk5QUExxQkhVZ2xZOV9VQUoyenYydE9neXBrdk02Z09laGM1TS1COHhPSEh1M3VlQ2FIdXpWbTlWZExhdk9hYzB4ZEVPT0pUOG5TMzcwcUxnLUx5eUE?oc=5",
+   "d": "2026-11-25",
+   "w": "published"
   }
  ]
 }
