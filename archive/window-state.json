@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-25T22:35:00+05:30",
+ "cutoff": "2026-11-25T23:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-23T05:05:00+05:30/2026-11-23T05:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 7,
-   "late": 0,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 7,
-   "review": 1,
-   "gaps": "Lookback from 21:05 on 22 Nov. Feeds 05:29 IST (68/68 ok). 63 uncovered TG/AP events since 00:00 scanned; 18 sent to 3 search agents, 11 opened. add_repo tool not available; used existing clone. Published 7: NT pulse polio 95.6% five districts (01:34), AJ Suryapet fake labour insurance claims (04:41, claim, sensitive), DC TDP complaint to SEC (01:18, claim, sensitive), Hans Raj Gopal Reddy row (04:18, claim), Hans Eluru mayor Appala Naidu (05:00), DC BJP Rajamahendravaram campaign (01:12), Hans Devanakonda U-17 cricket (02:16). Skipped: TT Golf League final (no fitting picture), Air Indo/Amaravati (only a 2 Nov German report, Amaravati not confirmed); old (first published before lookback): Kishan Reddy-Prabhas (16:20), triple talaq message (09:26), Kurnool piracy (06:58), Inter merger Ramchander Rao (11:09), belt shop raid (15:10). Duplicates: Pawan free hand, Sharmila Bengaluru, Iran-Bahrain attacks, Black Hawks. Review: Air Indo aeroTELEGRAPH (time zone unclear). Not opened: TOI/Hyderabad Mail Kotia arrests, Lokal Sircilla silencers, Eenadu TGSRTC i-Alert, Mahabubabad tourism, Bapatla canals Rs 18 cr, Kadapa Bolero accident, Hans Pant 720 and women's hockey SF. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T05:35:00+05:30/2026-11-23T06:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Lookback from 14:05. Feeds 22:20 IST (67/68 ok; 62 uncovered unseen events first seen since 21:40, 24 local). add_repo tool not available; used existing clone. Published 5: Siasat HYDRAA Khajaguda park Rs 70 cr (21:55, fact), DC Keeravani anthem Invest Telangana summit Dec 7-9 (21:51, fact, logo), DC Google/LLF NARI Shakti 10,000 women Vizag/Anakapalli (21:56, fact), Andhra Jyothy World Bank/ADB Amaravati visit (21:44, fact), DC Ichoda harassment arrest (22:11, fact, sensitive, no name). Duplicate: DC/Hindu Naidu essentials review incl. Dharani rice 500 centres (same review as tur dal Rs 100 story published earlier). Not opened/not found by search: Pulivendula RDO NBW (Disha), V6 T-Hub buses every 5 min, IIIT-H Google PhD fellowship, Hindu KRMB/BRS, Hindu Bandi Sanjay Kondagattu, Hindu APPSC reschedule, Hindu Russia detainee, Pawan forest patrol (AJ), Women's ACT hockey India-Japan (Hindu). No world/India, no district searches. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-25T22:35:00+05:30/2026-11-25T23:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 5,
+   "late": 0,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 14:35. Feeds 22:47 IST (69/70 ok; district:Khammam:en failing; 77 uncovered unseen events first seen since 21:50, 30 local). add_repo tool not available; used existing clone. Published 5: TT AP man among 13 dead in UAE bus accident (22:29, claim, sensitive, no name; follow-up to 24 Nov Siasat story), DC Vizag first modern ITI cluster PM-SETU Rs 200 cr (22:37, fact), Siasat Nampally court 5-yr jail 2017 cheating case (22:25, fact, sensitive, no names), DC IIIT-H researcher Google PhD Fellowship (22:16, fact, logo), Siasat Cyberabad CP Metro ride (21:53, fact). Skipped: DC 42 lakh farmers free foodgrains (Maharashtra, other state), News On AIR cyclone Akvan weakens (search returned only 20 Nov items). Not opened/not searched: Hindu items (KRMB/BRS, Bandi Sanjay Kondagattu - search found no other source, Russia detainee, Manthani Pushkaralu, Bhadrachalam Rs 300 cr, Akbaruddin, London official), TT ballot papers, DC Christian bodies boycott, DC MV Maa, Disha Germany-Telangana, Disha Ilamma university water protest, Suryaa/HMTV village items, AJ Pawan forest patrol. No world/India, no district searches. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8718,6 +8718,36 @@
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNc002WWZUYnFzU3RiT0t4RE1Od3lGcjkyZGFKQkdvY2ZUVHBKVlRBbDdmdUtsYmpDdF9kS3liV2RjWWowZ1dnS2RPZW1Eck1vaXFIN01EUU81dG84NlY4aVlWaGhHUld6Y0dUWklla21tRjhnQXlhR2tGeXRpZ2RoV2Nzc05WWC1kdHN5TFFqOFg0amdfQ1ladUMtYTJUUVh2QzZOS0k1eS1LbTloZ1puQkNuS00zWEVMMDlN0gHAAUFVX3lxTE1BeG5odzFySnN1akpweW9INS1oSGdwdHAyYzlhRnJzVlZYcjRndkRMSFUyakVYcVk4cHp0bk8xUjI4VmFCRHQycExIUTBfek0zRWNkLURxeE1RVlNuMnNmS0g2S0NtRmhsVGxRRGt5eTE2WGNuMnhRTllHME9MZGdxWU81NjQtOGhUUWlwYzJoZEJmUjh1b1N0T1JHbGwwWWcyWlFVdUU2OWc1YzRMMjVGaUZsTDBPLVZPcS1WSWZRVQ?oc=5",
    "d": "2026-11-25",
    "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://telanganatoday.com/telugu-nri-among-13-dead-in-uae-bus-accident",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/vizag-to-get-countrys-first-modernised-iti-cluster-under-pm-setu-2007950",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/hyderabad-man-gets-5-yr-jail-rs-1k-fine-in-2017-cheating-case-3586903/",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/iiit-hyderabad-researcher-pranjal-paul-selected-for-2026-google-phd-fellowship-2007938",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/ahead-of-cyberabad-moves-cp-takes-metro-to-drive-home-point-3586891/",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/nation/42-lakh-farmers-to-get-free-foodgrains-2007935",
+   "d": "2026-11-25",
+   "w": "skipped"
   }
  ]
 }
