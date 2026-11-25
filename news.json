@@ -1,8 +1,270 @@
 {
  "date": "25.11.2026",
- "updated": "2026-11-25T13:05:00+05:30",
+ "updated": "2026-11-25T13:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "హైదరాబాద్ · డ్రగ్స్",
+   "col": "--c-city",
+   "art": "",
+   "pic": "e/drug-seizure",
+   "stat": "ఆరుగురికి",
+   "statl": "డ్రగ్స్ పాజిటివ్",
+   "h": "గచ్చిబౌలిలో ఆరుగురికి డ్రగ్స్ పాజిటివ్",
+   "p": "హైదరాబాద్‌లోని గచ్చిబౌలి, మాదాపూర్, కొండాపూర్ ప్రాంతాల్లోని ప్రైవేట్ పీజీ హాస్టళ్లలో ఈగల్ పోలీసులు హఠాత్తుగా తనిఖీలు చేశారు. ఒక పురుషుల హాస్టల్‌లో ఎనిమిది మందికి డ్రగ్స్ పరీక్షలు చేయగా ఆరుగురికి పాజిటివ్ వచ్చింది. వారిలో ఇద్దరు సాఫ్ట్‌వేర్ ఇంజినీర్లు ఉన్నారని పోలీసులు తెలిపారు. డ్రగ్స్ ఎవరు సరఫరా చేశారో తెలుసుకునేందుకు దర్యాప్తు చేస్తున్నామని చెప్పారు.",
+   "pts": [],
+   "why": "నగరంలోని పీజీ హాస్టళ్లలో ఉండే విద్యార్థులు, ఉద్యోగులకు ఈ తనిఖీలు సంబంధించినవి.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-two-techies-among-six-who-test-positive-for-drugs-2007769",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "గచ్చిబౌలి",
+   "pub": "2026-11-25T13:03+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Drugs",
+    "stat": "6 test positive",
+    "statl": "for drugs at a PG hostel",
+    "loc": "Gachibowli, Hyderabad",
+    "h": "Six test drug-positive at Gachibowli hostel",
+    "p": "EAGLE police ran surprise checks at private PG hostels in Gachibowli, Madhapur and Kondapur in Hyderabad. At one men's hostel, eight people were tested for drugs and six tested positive. Police said two of them are software engineers and they are investigating who supplied the drugs.",
+    "pts": [],
+    "why": "The checks concern students and employees living in PG hostels in the city."
+   },
+   "hi": {
+    "cat": "हैदराबाद · ड्रग्स",
+    "stat": "6 लोग पॉजिटिव",
+    "statl": "पीजी हॉस्टल में ड्रग्स जांच",
+    "loc": "गच्चीबौली, हैदराबाद",
+    "h": "गच्चीबौली हॉस्टल में छह ड्रग्स पॉजिटिव",
+    "p": "हैदराबाद के गच्चीबौली, मादापुर और कोंडापुर इलाकों के निजी पीजी हॉस्टलों में ईगल पुलिस ने अचानक जांच की। एक पुरुष हॉस्टल में आठ लोगों की ड्रग्स जांच हुई, जिनमें छह पॉजिटिव पाए गए। पुलिस के अनुसार इनमें दो सॉफ्टवेयर इंजीनियर हैं और ड्रग्स सप्लाई करने वालों की जांच हो रही है।",
+    "pts": [],
+    "why": "यह जांच शहर के पीजी हॉस्टलों में रहने वाले छात्रों और कर्मचारियों से जुड़ी है।"
+   },
+   "d": "25.11.2026",
+   "t": "13:35"
+  },
+  {
+   "cat": "ఏపీ · అసెంబ్లీ",
+   "col": "--c-gov",
+   "art": "",
+   "pic": "e/state-assembly-session",
+   "stat": "డిసెంబర్ 5 నుంచి",
+   "statl": "శీతాకాల సమావేశాలు",
+   "h": "డిసెంబర్ 5 నుంచి ఏపీ అసెంబ్లీ సమావేశాలు",
+   "p": "ఆంధ్రప్రదేశ్ అసెంబ్లీ శీతాకాల సమావేశాలు డిసెంబర్ 5 నుంచి సుమారు 15 రోజులు జరిగే అవకాశం ఉందని ఎన్టీవీ కథనం తెలిపింది. ఈ సమావేశాల్లో పెట్టుబడుల రక్షణ బిల్లు, పరిశ్రమలు, ఉద్యోగాలు, సాగునీటి ప్రాజెక్టులపై చర్చ ఉంటుందని సమాచారం. స్థానిక ఎన్నికల్లో కూటమి విజయాలను కూడా ప్రభుత్వం ప్రస్తావించే అవకాశం ఉంది. అధికారిక ప్రకటన గురించి కథనంలో లేదు.",
+   "pts": [
+    "తల్లికి వందనం, అన్నదాత సుఖీభవ, దీపం పథకాలపైనా చర్చ",
+    "ప్రోత్సాహకాల చెల్లింపుకు ఎస్క్రో విధానం ఆలోచన"
+   ],
+   "why": "ఏపీలో పరిశ్రమలు, రైతులు, పథకాల లబ్ధిదారులకు సంబంధించిన అంశాలు చర్చకు రానున్నాయి.",
+   "src": "NTV Telugu",
+   "url": "https://ntvtelugu.com/news/ap-assembly-winter-session-from-december-5-key-focus-on-investments-and-industries-1038679.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-25T13:03+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "AP · Assembly",
+    "stat": "From December 5",
+    "statl": "winter session likely",
+    "loc": "Andhra Pradesh",
+    "h": "AP Assembly session likely from December 5",
+    "p": "The Andhra Pradesh Assembly winter session is likely to begin on December 5 and last about 15 days, an NTV report said. An investment protection bill, industries, jobs and irrigation projects are expected to be discussed. The report did not cite an official notice.",
+    "pts": [
+     "Schemes like Thalliki Vandanam, Annadata Sukhibhava, Deepam on agenda",
+     "An escrow system for incentive payments is being considered"
+    ],
+    "why": "Issues for industries, farmers and scheme beneficiaries in AP are set for debate."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · विधानसभा",
+    "stat": "5 दिसंबर से",
+    "statl": "शीतकालीन सत्र संभव",
+    "loc": "आंध्र प्रदेश",
+    "h": "आंध्र विधानसभा सत्र 5 दिसंबर से संभव",
+    "p": "एनटीवी की रिपोर्ट के अनुसार आंध्र प्रदेश विधानसभा का शीतकालीन सत्र 5 दिसंबर से शुरू होकर करीब 15 दिन चल सकता है। इसमें निवेश संरक्षण विधेयक, उद्योग, रोजगार और सिंचाई परियोजनाओं पर चर्चा होने की उम्मीद है। रिपोर्ट में किसी आधिकारिक सूचना का जिक्र नहीं है।",
+    "pts": [
+     "तल्लिकी वंदनम, अन्नदाता सुखीभव, दीपम योजनाओं पर भी चर्चा",
+     "प्रोत्साहन भुगतान के लिए एस्क्रो व्यवस्था पर विचार"
+    ],
+    "why": "आंध्र के उद्योगों, किसानों और योजनाओं के लाभार्थियों से जुड़े मुद्दों पर बहस होगी।"
+   },
+   "d": "25.11.2026",
+   "t": "13:35"
+  },
+  {
+   "cat": "హైదరాబాద్ · రవాణా",
+   "col": "--c-city",
+   "art": "",
+   "pic": "logo",
+   "stat": "120 చోట్ల",
+   "statl": "స్కైవాక్‌ల ప్రణాళిక",
+   "h": "హైదరాబాద్‌లో 120 చోట్ల స్కైవాక్‌లు",
+   "p": "2050 నాటికి హైదరాబాద్‌ను పాదచారులకు అనుకూలమైన నగరంగా మార్చడమే లక్ష్యమని ఇండియన్ రోడ్స్ కాంగ్రెస్ సదస్సులో హుమ్టా ఎండీ బి. జీవన్ బాబు చెప్పారు. స్కైవాక్‌లు, ఫుట్ ఓవర్ బ్రిడ్జిల కోసం 120 చోట్లను గుర్తించామన్నారు. సమగ్ర రవాణా ప్రణాళిక 2050 తుది నివేదిక ఒకటి రెండు నెలల్లో వస్తుందని తెలిపారు.",
+   "pts": [
+    "సికింద్రాబాద్‌లో మెట్రో, రైల్వే, బస్ స్టేషన్లను కలిపే స్కైవాక్",
+    "కూకట్‌పల్లిలో జేఎన్టీయూ మెట్రో నుంచి 2.63 కిలోమీటర్ల నడక దారి",
+    "దిల్‌సుఖ్‌నగర్, హైటెక్ సిటీలోనూ స్కైవాక్‌లు"
+   ],
+   "why": "నగరంలో నడిచి వెళ్లేవారు, మెట్రో, బస్సు ప్రయాణికులకు ఈ ప్రణాళిక సంబంధించినది.",
+   "src": "The Hindu (via KhanList)",
+   "url": "https://khanlist.com/story/humta-promises-space-in-hyderabad-for-pedestrians-other-3f2f3579",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-25T12:50+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Transport",
+    "stat": "120 locations",
+    "statl": "for skywalks and foot bridges",
+    "loc": "Hyderabad",
+    "h": "Hyderabad plans skywalks at 120 locations",
+    "p": "HUMTA Managing Director B. Jeevan Babu said the aim is to make Hyderabad pedestrian-friendly by 2050. He said 120 locations have been identified for skywalks and foot-over-bridges. The final report of the Comprehensive Mobility Plan 2050 is expected in one to two months.",
+    "pts": [
+     "Secunderabad skywalk to link Metro, railway and bus stations",
+     "2.63 km walkway from JNTU Metro station in Kukatpally",
+     "Skywalks also planned at Dilsukhnagar and Hitec City"
+    ],
+    "why": "The plan concerns people who walk, and Metro and bus users in the city."
+   },
+   "hi": {
+    "cat": "हैदराबाद · परिवहन",
+    "stat": "120 जगहें",
+    "statl": "स्काईवॉक और फुट ब्रिज के लिए",
+    "loc": "हैदराबाद",
+    "h": "हैदराबाद में 120 जगह स्काईवॉक की योजना",
+    "p": "हुम्टा के प्रबंध निदेशक बी. जीवन बाबू ने कहा कि 2050 तक हैदराबाद को पैदल चलने वालों के अनुकूल शहर बनाने का लक्ष्य है। स्काईवॉक और फुट ओवर ब्रिज के लिए 120 जगहें चुनी गई हैं। व्यापक गतिशीलता योजना 2050 की अंतिम रिपोर्ट एक-दो महीने में आएगी।",
+    "pts": [
+     "सिकंदराबाद में मेट्रो, रेलवे और बस स्टेशनों को जोड़ेगा स्काईवॉक",
+     "कुकटपल्ली में जेएनटीयू मेट्रो से 2.63 किमी पैदल रास्ता",
+     "दिलसुखनगर और हाईटेक सिटी में भी स्काईवॉक"
+    ],
+    "why": "यह योजना शहर में पैदल चलने वालों, मेट्रो और बस यात्रियों से जुड़ी है।"
+   },
+   "d": "25.11.2026",
+   "t": "13:35"
+  },
+  {
+   "cat": "భారత్ · క్రికెట్",
+   "col": "--c-city",
+   "art": "",
+   "pic": "logo",
+   "stat": "1,220 మంది",
+   "statl": "ఆటగాళ్ల పేర్లు నమోదు",
+   "h": "ఐపీఎల్ 2027 వేలానికి 1,220 మంది ఆటగాళ్లు",
+   "p": "డిసెంబర్ 16న గోవాలో జరిగే ఐపీఎల్ 2027 మినీ వేలానికి 1,220 మంది ఆటగాళ్లు పేర్లు నమోదు చేసుకున్నారు. వీరిలో 939 మంది భారతీయులు, 281 మంది విదేశీయులు. పది జట్లలో గరిష్ఠంగా 66 స్థానాలే ఖాళీగా ఉన్నాయి. అందులో 25 విదేశీ ఆటగాళ్లకు. ఇప్పటికే 184 మంది ఆటగాళ్లను జట్లు అట్టిపెట్టుకున్నాయి.",
+   "pts": [
+    "విదేశీయుల్లో ఆస్ట్రేలియా నుంచి ఎక్కువగా 53 మంది",
+    "జట్ల దగ్గర మొత్తం ₹295.60 కోట్లు మిగిలాయి"
+   ],
+   "next": "తుది వేలం జాబితా డిసెంబర్ 4న విడుదల",
+   "why": "సన్‌రైజర్స్ హైదరాబాద్ సహా అన్ని జట్లు ఈ వేలంలో కొత్త ఆటగాళ్లను తీసుకుంటాయి.",
+   "src": "ETV Bharat",
+   "url": "https://www.etvbharat.com/en/sports/1220-players-including-939-indians-register-for-ipl-mini-auction-2027-enn26112502712",
+   "sec": [
+    "india",
+    "sports"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-25T13:11+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Cricket",
+    "stat": "1,220 players",
+    "statl": "registered for auction",
+    "loc": "Goa",
+    "h": "1,220 players register for IPL 2027 auction",
+    "p": "A total of 1,220 players have registered for the IPL 2027 mini auction to be held in Goa on December 16. Of them, 939 are Indian and 281 overseas. The ten teams have at most 66 slots left, 25 of them for overseas players.",
+    "pts": [
+     "Australia has the most overseas entries with 53",
+     "Teams have Rs 295.60 crore left in total"
+    ],
+    "next": "Final auction list to be released on December 4",
+    "why": "All teams, including Sunrisers Hyderabad, will pick new players at this auction."
+   },
+   "hi": {
+    "cat": "भारत · क्रिकेट",
+    "stat": "1,220 खिलाड़ी",
+    "statl": "नीलामी के लिए पंजीकृत",
+    "loc": "गोवा",
+    "h": "आईपीएल 2027 नीलामी में 1,220 खिलाड़ी",
+    "p": "16 दिसंबर को गोवा में होने वाली आईपीएल 2027 मिनी नीलामी के लिए 1,220 खिलाड़ियों ने पंजीकरण कराया है। इनमें 939 भारतीय और 281 विदेशी हैं। दस टीमों में अधिकतम 66 जगहें खाली हैं, जिनमें 25 विदेशी खिलाड़ियों के लिए हैं।",
+    "pts": [
+     "विदेशियों में सबसे ज्यादा 53 ऑस्ट्रेलिया से",
+     "टीमों के पास कुल ₹295.60 करोड़ बचे हैं"
+    ],
+    "next": "अंतिम नीलामी सूची 4 दिसंबर को जारी होगी",
+    "why": "सनराइजर्स हैदराबाद समेत सभी टीमें इस नीलामी में नए खिलाड़ी चुनेंगी।"
+   },
+   "d": "25.11.2026",
+   "t": "13:35"
+  },
+  {
+   "cat": "ప్రపంచం · లిబియా",
+   "col": "--c-city",
+   "art": "",
+   "pic": "n/africa",
+   "stat": "ఇద్దరు అధికారులు",
+   "statl": "మృతి",
+   "h": "బెంఘాజీ దాడిలో ఇద్దరు అధికారులు మృతి",
+   "p": "లిబియాలోని బెంఘాజీ నౌకా స్థావరంలో ఆగి ఉన్న రష్యా యుద్ధ నౌకపై ఆదివారం జరిగిన డ్రోన్ దాడిలో గాయపడిన ఇద్దరు లిబియా నౌకాదళ అధికారులు మంగళవారం మృతి చెందారు. దాడిలో కనీసం 10 మందికి గాయాలయ్యాయి. ఏడు డ్రోన్లు వాడినట్లు ఉక్రెయిన్ అధ్యక్షుడు జెలెన్‌స్కీ చెప్పారు. ప్రతీకారం తీర్చుకుంటామని లిబియా జాతీయ సైన్యం ప్రకటించింది.",
+   "pts": [
+    "ఇంధనం కోసం నౌక అక్కడ ఆగిందని లిబియా అధికారులు"
+   ],
+   "why": "రష్యా–ఉక్రెయిన్ యుద్ధం ప్రభావం ఇతర దేశాల ప్రజలపైనా పడుతోంది.",
+   "src": "Telangana Today (AP)",
+   "url": "https://telanganatoday.com/2-libyan-naval-officers-die-in-ukrainian-strike-on-russian",
+   "sec": [
+    "world"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-25T12:52+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "World · Libya",
+    "stat": "2 officers dead",
+    "statl": "after drone attack",
+    "loc": "Benghazi, Libya",
+    "h": "Two Libyan officers die after Benghazi drone hit",
+    "p": "Two Libyan naval officers wounded in a Sunday drone attack on a Russian warship docked at the Benghazi naval base died on Tuesday. Ukrainian President Zelenskyy said seven drones were used. The Libyan National Army said it would retaliate.",
+    "pts": [
+     "At least 10 people were wounded in the attack",
+     "Libyan authorities say the ship had docked to refuel"
+    ],
+    "why": "The Russia–Ukraine war is affecting people in other countries too."
+   },
+   "hi": {
+    "cat": "दुनिया · लीबिया",
+    "stat": "2 अधिकारियों की मौत",
+    "statl": "ड्रोन हमले के बाद",
+    "loc": "बेनगाजी, लीबिया",
+    "h": "बेनगाजी ड्रोन हमले में दो अधिकारियों की मौत",
+    "p": "बेनगाजी नौसैनिक अड्डे पर खड़े रूसी युद्धपोत पर रविवार को हुए ड्रोन हमले में घायल दो लीबियाई नौसेना अधिकारियों की मंगलवार को मौत हो गई। यूक्रेन के राष्ट्रपति जेलेंस्की ने कहा कि सात ड्रोन इस्तेमाल हुए। लीबियाई राष्ट्रीय सेना ने जवाबी कार्रवाई की बात कही।",
+    "pts": [
+     "हमले में कम से कम 10 लोग घायल हुए",
+     "लीबियाई अधिकारियों के अनुसार जहाज ईंधन के लिए रुका था"
+    ],
+    "why": "रूस-यूक्रेन युद्ध का असर दूसरे देशों के लोगों पर भी पड़ रहा है।"
+   },
+   "d": "25.11.2026",
+   "t": "13:35"
+  },
   {
    "cat": "తెలంగాణ · భద్రాద్రి",
    "col": "--c-water",
@@ -2994,272 +3256,6 @@
      "यह शहर भर में चल रहे सफ़ाई अभियान का हिस्सा है"
     ],
     "why": "होटलों और दुकानों में सफ़ाई बढ़ने से शहर के लोगों की सेहत को फ़ायदा होगा।"
-   },
-   "d": "25.11.2026",
-   "t": "07:05"
-  },
-  {
-   "cat": "ఏపీ · పోలీసు",
-   "col": "--c-gov",
-   "pic": "logo",
-   "stat": "రెండో ర్యాంకు",
-   "statl": "జాతీయ సైబర్ శిక్షణలో",
-   "h": "సైబర్ శిక్షణలో ఏపీ ఎస్సైకి 2వ ర్యాంకు",
-   "p": "జాతీయ స్థాయి సైబర్ నేరాల దర్యాప్తు శిక్షణలో ఆంధ్రప్రదేశ్ పోలీసు ఎస్సై ఇ.శ్రీరచన రెండో ర్యాంకు సాధించారు. ఆమె మంగళగిరి పోలీసు ప్రధాన కార్యాలయంలోని సీఐడీ సైబర్ క్రైమ్ విభాగంలో పని చేస్తున్నారు. హైదరాబాద్‌లోని సెంట్రల్ డిటెక్టివ్ ట్రైనింగ్ ఇన్‌స్టిట్యూట్‌లో నవంబర్ 9 నుంచి 20 వరకు ఈ శిక్షణ జరిగింది. వివిధ రాష్ట్రాలు, కేంద్ర బలగాల అధికారులు పాల్గొన్నారు.",
-   "src": "Andhra Jyothy",
-   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/ap-police-si-sri-rachana-secures-second-rank-in-national-cyber-crime-training-1579600.html",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-guntur",
-   "loc": "మంగళగిరి",
-   "pts": [
-    "డిజిటల్ ఆధారాల సేకరణ, సైబర్ నేరాల విశ్లేషణపై శిక్షణ",
-    "సంస్థ డైరెక్టర్ ప్రశంసా పత్రం అందజేశారు"
-   ],
-   "why": "సైబర్ నేరాల దర్యాప్తులో ఏపీ పోలీసుల నైపుణ్యం పెరగడానికి ఇది తోడ్పడుతుంది.",
-   "pub": "2026-11-25T05:35+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Police",
-    "stat": "Second rank",
-    "statl": "in national cyber training",
-    "loc": "Mangalagiri",
-    "h": "AP woman SI ranks second in cyber training",
-    "p": "Andhra Pradesh Police Sub-Inspector E. Sri Rachana secured the second rank in a national-level cyber crime investigation training course. She works in the CID cyber crime wing at police headquarters in Mangalagiri. The course was held at the Central Detective Training Institute in Hyderabad from November 9 to 20. Officers from various states and central forces took part.",
-    "pts": [
-     "Training covered collecting digital evidence and analysing cyber crimes",
-     "The institute's director presented her an appreciation certificate"
-    ],
-    "why": "It helps build AP Police skills in investigating cyber crimes."
-   },
-   "hi": {
-    "cat": "एपी · पुलिस",
-    "stat": "दूसरी रैंक",
-    "statl": "राष्ट्रीय साइबर प्रशिक्षण में",
-    "loc": "मंगलगिरि",
-    "h": "साइबर प्रशिक्षण में एपी की महिला एसआई को दूसरी रैंक",
-    "p": "राष्ट्रीय स्तर के साइबर अपराध जांच प्रशिक्षण में आंध्र प्रदेश पुलिस की सब-इंस्पेक्टर ई. श्री रचना ने दूसरी रैंक हासिल की। वे मंगलगिरि पुलिस मुख्यालय की सीआईडी साइबर क्राइम शाखा में काम करती हैं। यह प्रशिक्षण हैदराबाद के सेंट्रल डिटेक्टिव ट्रेनिंग इंस्टीट्यूट में 9 से 20 नवंबर तक चला। इसमें कई राज्यों और केंद्रीय बलों के अधिकारी शामिल हुए।",
-    "pts": [
-     "डिजिटल सबूत जुटाने और साइबर अपराध विश्लेषण का प्रशिक्षण",
-     "संस्थान के निदेशक ने प्रशंसा पत्र दिया"
-    ],
-    "why": "इससे साइबर अपराधों की जांच में एपी पुलिस की दक्षता बढ़ेगी।"
-   },
-   "d": "25.11.2026",
-   "t": "07:05"
-  },
-  {
-   "cat": "తెలంగాణ · క్రీడలు",
-   "col": "--c-city",
-   "pic": "logo",
-   "stat": "పాలమూరు బాలికలు",
-   "statl": "హ్యాండ్‌బాల్ విజేతలు",
-   "h": "హ్యాండ్‌బాల్ విజేతలు పాలమూరు, వరంగల్",
-   "p": "స్కూల్ గేమ్స్ ఫెడరేషన్ 70వ రాష్ట్ర స్థాయి అండర్-19 హ్యాండ్‌బాల్ పోటీలు ముగిశాయి. బాలికల విభాగంలో మహబూబ్‌నగర్ జట్టు ఫైనల్‌లో కరీంనగర్‌ను 12-8 తేడాతో ఓడించి విజేతగా నిలిచింది. బాలుర విభాగంలో వరంగల్ జట్టు 14-7 తేడాతో మహబూబ్‌నగర్‌పై గెలిచి టైటిల్ సాధించింది. ఆదిలాబాద్, కరీంనగర్ జట్లకు మూడో స్థానం దక్కింది.",
-   "src": "Namasthe Telangana",
-   "url": "https://www.ntnews.com/sports/mahabubnagar-girls-crowned-champions-in-state-level-under-19-handball-2568296",
-   "sec": [
-    "telangana",
-    "sports"
-   ],
-   "st": "TG",
-   "place": "mahabubnagar",
-   "loc": "",
-   "pts": [
-    "బాలికల్లో కరీంనగర్, బాలురలో మహబూబ్‌నగర్ రెండో స్థానం"
-   ],
-   "why": "జిల్లా స్థాయి యువ క్రీడాకారులకు రాష్ట్ర పోటీల్లో గుర్తింపు దక్కింది.",
-   "pub": "2026-11-25T00:16+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Sports",
-    "stat": "Mahabubnagar girls",
-    "statl": "state handball champions",
-    "loc": "Mahabubnagar",
-    "h": "Mahabubnagar, Warangal win state handball",
-    "p": "The 70th state-level Under-19 handball championship of the School Games Federation has concluded. In the girls' section, Mahabubnagar beat Karimnagar 12-8 in the final to win the title. In the boys' section, Warangal beat Mahabubnagar 14-7 to take the title. The Adilabad and Karimnagar teams finished third.",
-    "pts": [
-     "Runners-up: Karimnagar in girls, Mahabubnagar in boys"
-    ],
-    "why": "Young district-level players earned recognition at the state championship."
-   },
-   "hi": {
-    "cat": "तेलंगाना · खेल",
-    "stat": "महबूबनगर की लड़कियां",
-    "statl": "राज्य हैंडबॉल विजेता",
-    "loc": "महबूबनगर",
-    "h": "राज्य हैंडबॉल में महबूबनगर, वरंगल विजेता",
-    "p": "स्कूल गेम्स फ़ेडरेशन की 70वीं राज्य स्तरीय अंडर-19 हैंडबॉल प्रतियोगिता संपन्न हुई। बालिका वर्ग के फ़ाइनल में महबूबनगर ने करीमनगर को 12-8 से हराकर ख़िताब जीता। बालक वर्ग में वरंगल ने महबूबनगर को 14-7 से हराकर ख़िताब अपने नाम किया। आदिलाबाद और करीमनगर की टीमें तीसरे स्थान पर रहीं।",
-    "pts": [
-     "उपविजेता: बालिका वर्ग में करीमनगर, बालक वर्ग में महबूबनगर"
-    ],
-    "why": "ज़िला स्तर के युवा खिलाड़ियों को राज्य प्रतियोगिता में पहचान मिली।"
-   },
-   "d": "25.11.2026",
-   "t": "07:05"
-  },
-  {
-   "cat": "ఏపీ · విశాఖ",
-   "col": "--c-city",
-   "pic": "logo",
-   "stat": "7 రోజుల",
-   "statl": "సంగీత ఉత్సవం, ప్రవేశం ఉచితం",
-   "h": "విశాఖలో నేటి నుంచి వార్షిక సంగీత ఉత్సవం",
-   "p": "విశాఖ మ్యూజిక్ అకాడమీ 57వ వార్షిక సంగీత ఉత్సవం నవంబర్ 25 నుంచి డిసెంబర్ 1 వరకు విశాఖపట్నం కళాభారతి ఆడిటోరియంలో జరుగుతుంది. రోజూ రాత్రి 7 నుంచి 9 గంటల వరకు కచేరీలు ఉంటాయి, ప్రవేశం ఉచితం. విజయవాడకు చెందిన మల్లాది సూరిబాబుకు 'సంగీత కళా సాగర' బిరుదు ఇవ్వనున్నారు. మొదటి రోజు జయంతి కుమరేష్ వీణ కచేరీ ఉంటుంది.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/57th-annual-music-festival-from-nov-25-1145507",
-   "sec": [
-    "telangana",
-    "culture"
-   ],
-   "st": "AP",
-   "place": "ap-visakhapatnam",
-   "loc": "విశాఖపట్నం",
-   "pts": [
-    "హిందుస్థాన్ షిప్‌యార్డ్ సీఎండీ ఉత్సవాన్ని ప్రారంభిస్తారు",
-    "నవంబర్ 30న మైసూర్ చందన్ కుమార్ వేణువు కచేరీ"
-   ],
-   "why": "విశాఖ సంగీత ప్రియులు వారం పాటు ఉచితంగా కచేరీలు వినవచ్చు.",
-   "pub": "2026-11-25T02:54+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Visakhapatnam",
-    "stat": "7-day",
-    "statl": "music festival, entry free",
-    "loc": "Visakhapatnam",
-    "h": "Annual music festival begins in Vizag today",
-    "p": "The 57th annual music festival of the Visakha Music Academy will be held at Kalabharathi Auditorium, Visakhapatnam, from November 25 to December 1. Concerts will run from 7 pm to 9 pm every day and entry is free. The 'Sangeetha Kala Sagara' title will be conferred on Malladi Suribabu of Vijayawada. The first day features a veena concert by Jayanthi Kumaresh.",
-    "pts": [
-     "The CMD of Hindustan Shipyard will inaugurate the festival",
-     "Flute concert by Mysore Chandan Kumar on November 30"
-    ],
-    "why": "Music lovers in Vizag can attend free concerts for a week.",
-    "next": "Festival runs daily at 7 pm until December 1"
-   },
-   "hi": {
-    "cat": "एपी · विशाखापत्तनम",
-    "stat": "7 दिन का",
-    "statl": "संगीत उत्सव, प्रवेश निःशुल्क",
-    "loc": "विशाखापत्तनम",
-    "h": "विशाखापत्तनम में आज से वार्षिक संगीत उत्सव",
-    "p": "विशाखा म्यूज़िक अकादमी का 57वां वार्षिक संगीत उत्सव 25 नवंबर से 1 दिसंबर तक विशाखापत्तनम के कलाभारती सभागार में होगा। रोज़ शाम 7 से 9 बजे तक कार्यक्रम होंगे और प्रवेश निःशुल्क है। विजयवाड़ा के मल्लादी सूरिबाबू को 'संगीत कला सागर' उपाधि दी जाएगी। पहले दिन जयंती कुमरेश का वीणा वादन होगा।",
-    "pts": [
-     "हिंदुस्तान शिपयार्ड के सीएमडी उत्सव का उद्घाटन करेंगे",
-     "30 नवंबर को मैसूर चंदन कुमार का बांसुरी वादन"
-    ],
-    "why": "विशाखापत्तनम के संगीत प्रेमी हफ़्ते भर निःशुल्क कार्यक्रम सुन सकते हैं।",
-    "next": "उत्सव 1 दिसंबर तक रोज़ शाम 7 बजे"
-   },
-   "d": "25.11.2026",
-   "t": "07:05",
-   "next": "ఉత్సవం డిసెంబర్ 1 వరకు రోజూ రాత్రి 7 గంటలకు"
-  },
-  {
-   "cat": "ఏపీ · కోనసీమ",
-   "col": "--c-city",
-   "pic": "logo",
-   "stat": "ఉద్యోగాలపై",
-   "statl": "ఒప్పో బృందం అవగాహన",
-   "h": "బీవీసీ కాలేజీలో ఒప్పో అవగాహన సదస్సు",
-   "p": "కోనసీమ జిల్లా ఓడలరేవులోని బీవీసీ ఇంజినీరింగ్ కాలేజీలో మంగళవారం ఉద్యోగాలు, వ్యక్తిత్వ వికాసంపై అవగాహన కార్యక్రమం జరిగింది. ఒప్పో సంస్థకు చెందిన ముగ్గురు ప్రతినిధులు మూడు, నాలుగో సంవత్సరం బీటెక్ విద్యార్థులతో మాట్లాడారు. సంస్థలో ఉన్న ఉద్యోగ అవకాశాలు, ఇంజినీరింగ్ పట్టభద్రులు ఎలా ఎదగవచ్చో వివరించారు. మొదటి సంవత్సరం విద్యార్థులకు వ్యక్తిత్వ వికాసంపై మరో నిపుణుడు సూచనలు ఇచ్చారు.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/oppo-experts-interact-with-bvc-college-students-1145485",
-   "sec": [
-    "telangana",
-    "education",
-    "jobs"
-   ],
-   "st": "AP",
-   "place": "ap-konaseema",
-   "loc": "ఓడలరేవు",
-   "pts": [
-    "అమెరికా రవాణా శాఖ ఇంజినీర్ సత్య సుందరనీడి ప్రసంగించారు",
-    "కాలేజీ ట్రైనింగ్, ప్లేస్‌మెంట్ విభాగం దీన్ని నిర్వహించింది"
-   ],
-   "why": "గ్రామీణ ప్రాంత ఇంజినీరింగ్ విద్యార్థులకు ఉద్యోగ మార్గాలపై స్పష్టత వస్తుంది.",
-   "pub": "2026-11-25T01:33+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Konaseema",
-    "stat": "On job openings",
-    "statl": "Oppo team briefs students",
-    "loc": "Odalarevu, Konaseema",
-    "h": "Oppo team meets BVC college students",
-    "p": "An awareness programme on careers and personality development was held on Tuesday at BVC Engineering College, Odalarevu, in Konaseema district. Three representatives of Oppo spoke to third- and fourth-year B.Tech students. They explained job openings at the company and how engineering graduates can grow. Another expert guided first-year students on personality development.",
-    "pts": [
-     "US Department of Transportation engineer Satya Sundaraneedi addressed students",
-     "The college's training and placement wing organised it"
-    ],
-    "why": "Engineering students from rural areas get clarity on career paths."
-   },
-   "hi": {
-    "cat": "एपी · कोनसीमा",
-    "stat": "नौकरी के अवसरों पर",
-    "statl": "ओप्पो प्रतिनिधियों की जानकारी",
-    "loc": "ओडलरेवु, कोनसीमा",
-    "h": "बीवीसी कॉलेज के छात्रों से मिले ओप्पो प्रतिनिधि",
-    "p": "कोनसीमा ज़िले के ओडलरेवु स्थित बीवीसी इंजीनियरिंग कॉलेज में मंगलवार को करियर और व्यक्तित्व विकास पर जागरूकता कार्यक्रम हुआ। ओप्पो कंपनी के तीन प्रतिनिधियों ने बीटेक तीसरे और चौथे वर्ष के छात्रों से बात की। उन्होंने कंपनी में नौकरी के अवसर और इंजीनियरिंग स्नातकों के आगे बढ़ने के रास्ते बताए। पहले वर्ष के छात्रों को एक अन्य विशेषज्ञ ने व्यक्तित्व विकास पर सुझाव दिए।",
-    "pts": [
-     "अमेरिकी परिवहन विभाग के इंजीनियर सत्य सुंदरनीडी ने संबोधित किया",
-     "कॉलेज के ट्रेनिंग और प्लेसमेंट विभाग ने आयोजन किया"
-    ],
-    "why": "ग्रामीण इलाक़ों के इंजीनियरिंग छात्रों को करियर के रास्तों पर स्पष्टता मिलती है।"
-   },
-   "d": "25.11.2026",
-   "t": "07:05"
-  },
-  {
-   "cat": "ఏపీ · కృష్ణా",
-   "col": "--c-city",
-   "pic": "logo",
-   "stat": "కోస్ట్ గార్డ్ అవగాహన",
-   "statl": "కృష్ణా వర్సిటీలో",
-   "h": "కృష్ణా వర్సిటీలో కోస్ట్ గార్డ్‌పై అవగాహన",
-   "p": "మచిలీపట్నంలోని కృష్ణా యూనివర్సిటీ ఇంజినీరింగ్ కాలేజీలో ఎన్‌ఎస్‌ఎస్ విభాగం మంగళవారం భారత కోస్ట్ గార్డ్‌పై అవగాహన కార్యక్రమం నిర్వహించింది. సముద్ర భద్రత, తీర రక్షణ, ఈ దళంలో ఉద్యోగ అవకాశాల గురించి ఏపీ కోస్ట్ గార్డ్ కోఆర్డినేటర్ కిరణ్ కుమార్ వివరించారు. అర్హతలు, నియామక పద్ధతులను విద్యార్థులకు చెప్పారు. కోస్ట్ గార్డ్ అవగాహన వాహనంలోని వీడియోలను చూపించారు.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/andhra-pradesh/kru-students-sensitised-to-coast-guard-operations-1145499",
-   "sec": [
-    "telangana",
-    "education",
-    "jobs"
-   ],
-   "st": "AP",
-   "place": "ap-krishna",
-   "loc": "మచిలీపట్నం",
-   "pts": [
-    "స్మగ్లింగ్ అడ్డుకోవడం, మత్స్యకారులకు సాయం దళం పనులని వివరణ",
-    "కాలుష్యం నుంచి సముద్రాన్ని కాపాడటం కూడా దళం బాధ్యత"
-   ],
-   "why": "తీర ప్రాంత విద్యార్థులకు కోస్ట్ గార్డ్ ఉద్యోగాలపై అవగాహన కలుగుతుంది.",
-   "pub": "2026-11-25T02:28+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Krishna",
-    "stat": "Coast Guard awareness",
-    "statl": "at Krishna University",
-    "loc": "Machilipatnam",
-    "h": "Coast Guard awareness at Krishna University",
-    "p": "The NSS wing of Krishna University Engineering College in Machilipatnam held an awareness programme on the Indian Coast Guard on Tuesday. AP Coast Guard coordinator Kiran Kumar spoke about maritime security, coastal protection and careers in the force. Students were told about eligibility and recruitment routes. Videos from the Coast Guard's awareness vehicle were shown.",
-    "pts": [
-     "The force curbs smuggling and helps fishermen, he explained",
-     "It also protects the sea from pollution"
-    ],
-    "why": "Students in the coastal region learn about Coast Guard careers."
-   },
-   "hi": {
-    "cat": "एपी · कृष्णा",
-    "stat": "कोस्ट गार्ड जागरूकता",
-    "statl": "कृष्णा विश्वविद्यालय में",
-    "loc": "मछलीपट्टनम",
-    "h": "कृष्णा विश्वविद्यालय में कोस्ट गार्ड पर जागरूकता",
-    "p": "मछलीपट्टनम के कृष्णा विश्वविद्यालय इंजीनियरिंग कॉलेज की एनएसएस इकाई ने मंगलवार को भारतीय तटरक्षक बल पर जागरूकता कार्यक्रम किया। एपी कोस्ट गार्ड समन्वयक किरण कुमार ने समुद्री सुरक्षा, तट रक्षा और बल में करियर के बारे में बताया। छात्रों को पात्रता और भर्ती के तरीक़े समझाए गए। कोस्ट गार्ड के जागरूकता वाहन के वीडियो दिखाए गए।",
-    "pts": [
-     "उन्होंने बताया कि बल तस्करी रोकता है और मछुआरों की मदद करता है",
-     "समुद्र को प्रदूषण से बचाना भी बल का काम है"
-    ],
-    "why": "तटीय इलाक़े के छात्रों को कोस्ट गार्ड की नौकरियों की जानकारी मिलती है।"
    },
    "d": "25.11.2026",
    "t": "07:05"
