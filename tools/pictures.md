@@ -51,6 +51,21 @@ District pictures (d/…) are landmarks: use them only for general local news, t
 Temples, district landmarks (d/), c/devotional, world cities (w/) and gold/silver (m/) are unchanged: keep using them for temple, travel, culture and city news.
 Deaths/killings → e/remembrance-and-condolence (same as n/condolence). Do NOT use an e/ picture that shows an Indian landmark on a Nigerian/foreign story.
 
+### Everyday-life pictures (owner, 25 Nov 2026) – use these for daily people/work stories
+- e/auto-rickshaw-driver – auto drivers, fares, auto unions, permits, gig/transport workers
+- e/cement-work – masons, cement/sand prices, building workers, Indiramma/housing construction work
+- e/civil-construction – construction projects, engineers, contractors, site inspections, real estate, building approvals
+- e/college-lecturer – degree/university colleges, lecturers, admissions, fee reimbursement, college exams
+- e/food-manufacturing – food processing units, packaged food, FSSAI/food safety in factories, MSME food industry
+- e/govt-school-teacher – government schools, teachers' postings/transfers, DSC/TET, mid-day meal, school infrastructure
+- e/private-school-teacher – private schools, science/labs, school fees, school events, students' achievements
+- e/rice-farmers – paddy farmers, transplanting, kharif/rabi paddy, crop loans, Rythu Bharosa
+- e/rice-mill – rice mills, paddy procurement, millers, CMR, FCI rice delivery
+- e/sanitation-workers – sanitation/municipal workers, garbage collection, Swachh, waste segregation
+- e/software-work – IT jobs, Hyderabad IT companies, startups, layoffs/hiring, tech skills
+- e/street-vendor – street vendors, rythu bazaar, vegetable prices, PM SVANidhi, market encroachment
+- e/tailor – tailors, women self-help groups, skill training, handloom/garment work, saree/blouse business
+
 ### Exact picture for common stories (owner 21 Nov 2026: "use the exact images") – REQUIRED for new stories
 **No exact picture → `"pic":"logo"` (owner 24 Nov 2026: "if you do not have any image, don't use anyone – just use our logo").** Use an e/ scene only when a reader seeing ONLY the picture would guess this event. A near miss is wrong: an anti-drug padayatra is not a counselling clinic, a minister's meeting is not a hospital, a festival is not a protest. When in doubt → "logo" (the app shows the Swipe2News logo card, no "AI picture" label). Party/organisation logo pictures still count as exact when the rules below say so.
 Old generic keys (c/…, n/…, cv/…, s/…) are no longer accepted for new stories: pick the e/ scene that shows THIS event.
