@@ -1,8 +1,515 @@
 {
  "date": "25.11.2026",
- "updated": "2026-11-25T17:35:00+05:30",
+ "updated": "2026-11-25T18:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "ఏపీ · ఎన్నికలు",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/election-office",
+   "stat": "ఎడమ చిటికెన వేలికి",
+   "statl": "ఓటు సిరా గుర్తు",
+   "h": "ఏపీ ఎన్నికల్లో ఎడమ చిటికెన వేలికి సిరా",
+   "p": "ఆంధ్రప్రదేశ్‌లో నవంబర్ 26న 23 పట్టణ స్థానిక సంస్థల ఎన్నికల్లో ఓటరు ఎడమ చేతి చిటికెన వేలికి సిరా గుర్తు పెట్టాలని రాష్ట్ర ఎన్నికల సంఘం ఆదేశించింది. ఇటీవలి ఎంపీటీసీ, జడ్పీటీసీ ఎన్నికల సిరా గుర్తు కనిపిస్తుండటమే కారణం. నాలుగు మేయర్, 19 చైర్‌పర్సన్ పదవులకు పోలింగ్ జరుగుతుంది. భయం లేకుండా ఓటు వేయాలని కమిషనర్ అనిల్ చంద్ర పునేఠా కోరారు.",
+   "pts": [
+    "4 కార్పొరేషన్లు, 19 మున్సిపాలిటీలు, నగర పంచాయతీలు",
+    "ఏ పదవీ ఏకగ్రీవం కాలేదు",
+    "ఎన్నికల నియమావళి కఠినంగా అమలు చేస్తామన్న సంఘం"
+   ],
+   "why": "రేపు ఓటు వేసే పట్టణ ఓటర్లు ఏ వేలికి సిరా వేస్తారో ముందే తెలుసుకోవచ్చు.",
+   "next": "పోలింగ్ నవంబర్ 26న జరుగుతుంది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-ulb-polls-indelible-ink-to-be-applied-on-left-hand-little-finger-2007849",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "అమరావతి",
+   "pub": "2026-11-25T18:01+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Elections",
+    "stat": "Left little finger",
+    "statl": "gets the voting ink mark",
+    "loc": "Amaravati",
+    "h": "AP civic polls: ink on left little finger",
+    "p": "The Andhra Pradesh State Election Commission on Wednesday ordered polling staff to put the indelible ink mark on the little finger of the voter's left hand in the November 26 elections to 23 urban local bodies. It said the ink from the recent MPTC and ZPTC polls is still visible. Polling is for four mayor and 19 chairperson posts. Commissioner Anil Chandra Punetha urged people to vote without fear.",
+    "pts": [
+     "4 corporations, 19 municipalities and nagar panchayats",
+     "No post was filled unopposed",
+     "Commission says poll code will be enforced strictly"
+    ],
+    "why": "Urban voters going to the booths tomorrow know in advance which finger will be inked.",
+    "next": "Polling is on November 26."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · चुनाव",
+    "stat": "बाएं हाथ की छोटी उंगली",
+    "statl": "पर लगेगी स्याही",
+    "loc": "अमरावती",
+    "h": "एपी निकाय चुनाव: बाईं छोटी उंगली पर स्याही",
+    "p": "आंध्र प्रदेश राज्य चुनाव आयोग ने बुधवार को आदेश दिया कि 26 नवंबर को 23 शहरी स्थानीय निकायों के चुनाव में मतदाता के बाएं हाथ की छोटी उंगली पर स्याही लगाई जाए। आयोग ने कहा कि हाल के एमपीटीसी, जेडपीटीसी चुनाव की स्याही अभी दिख रही है। चार मेयर और 19 चेयरपर्सन पदों के लिए मतदान होगा। आयुक्त अनिल चंद्र पुनेठा ने बिना डर के वोट डालने की अपील की।",
+    "pts": [
+     "4 निगम, 19 नगरपालिकाएं और नगर पंचायतें",
+     "कोई पद निर्विरोध नहीं भरा",
+     "आयोग: आचार संहिता सख्ती से लागू होगी"
+    ],
+    "why": "कल वोट डालने वाले शहरी मतदाता पहले से जान सकते हैं कि स्याही किस उंगली पर लगेगी।",
+    "next": "मतदान 26 नवंबर को होगा।"
+   },
+   "d": "25.11.2026",
+   "t": "18:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · ట్రాఫిక్",
+   "col": "--c-city",
+   "pic": "e/traffic-congestion",
+   "stat": "65% మంది",
+   "statl": "గంటన్నరలోనే కారిడార్‌లోకి",
+   "h": "ఐటీ కారిడార్‌లోకి గంటన్నరలోనే 65% మంది",
+   "p": "హైదరాబాద్ జేఎన్‌టీయూ–ఐకియా ఐటీ కారిడార్‌కు వెళ్లేవారిలో దాదాపు 65 శాతం మంది 60 నుంచి 90 నిమిషాల వ్యవధిలోనే రోడ్డెక్కుతున్నారని సైబరాబాద్ ట్రాఫిక్ పోలీసుల అధ్యయనంలో తేలింది. ట్రాఫిక్ జామ్‌లకు ఇదే ప్రధాన కారణమని గుర్తించారు. ఒంటరిగా వాహనంలో రావద్దని, తోటి ఉద్యోగులతో కలిసి ప్రయాణించాలని కమిషనర్ ఎం. రమేష్ కోరారు. రద్దీ వేళల్లో అదనపు బస్సులు నడపడానికి ఆర్టీసీ అంగీకరించింది.",
+   "pts": [
+    "సీసీటీవీ లెక్కలతో రద్దీని పోల్చి చూస్తారు",
+    "మెట్రో, ఎంఎంటీఎస్, ఆర్టీసీ వాడాలని పోలీసుల సూచన",
+    "కార్‌పూలింగ్‌కు ఇన్ఫోసిస్ వంటి సంస్థల ఆసక్తి"
+   ],
+   "why": "ఐటీ కారిడార్‌కు రోజూ వెళ్లే ఉద్యోగుల ప్రయాణ సమయంపై ఇది నేరుగా ప్రభావం చూపుతుంది.",
+   "next": "'సైబరాబాద్ మూవ్స్ 2026' నవంబర్ 26 నుంచి 28 వరకు రాయదుర్గం టీ-హబ్‌లో జరుగుతుంది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/65-per-cent-of-commuters-enter-it-corridor-within-90-minutes-triggering-jams",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "ఐటీ కారిడార్, సైబరాబాద్",
+   "pub": "2026-11-25T17:13+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Traffic",
+    "stat": "65% of commuters",
+    "statl": "enter IT corridor in 90 minutes",
+    "loc": "IT Corridor, Cyberabad",
+    "h": "65% reach IT corridor in a 90-minute window",
+    "p": "A Cyberabad Traffic Police study found that nearly 65 per cent of commuters heading to Hyderabad's JNTU–IKEA IT corridor enter the stretch within a 60 to 90 minute window, a major cause of the jams. Commissioner M Ramesh urged people not to travel alone in their vehicles and to share rides with colleagues. TGSRTC has agreed to run extra buses at peak hours.",
+    "pts": [
+     "CCTV counts will compare congestion during the campaign",
+     "Police ask commuters to use Metro, MMTS and RTC",
+     "Firms such as Infosys show interest in carpooling"
+    ],
+    "why": "It directly affects the daily travel time of employees going to the IT corridor.",
+    "next": "'Cyberabad Moves 2026' runs from November 26 to 28 at T-Hub, Raidurgam."
+   },
+   "hi": {
+    "cat": "हैदराबाद · ट्रैफिक",
+    "stat": "65% यात्री",
+    "statl": "डेढ़ घंटे में ही आईटी कॉरिडोर में",
+    "loc": "आईटी कॉरिडोर, साइबराबाद",
+    "h": "डेढ़ घंटे में 65% लोग आईटी कॉरिडोर पहुंचते हैं",
+    "p": "साइबराबाद ट्रैफिक पुलिस के अध्ययन में पाया गया कि हैदराबाद के जेएनटीयू–आइकिया आईटी कॉरिडोर जाने वालों में करीब 65 प्रतिशत लोग 60 से 90 मिनट के भीतर ही सड़क पर आते हैं, जो जाम की बड़ी वजह है। आयुक्त एम. रमेश ने अकेले वाहन में न चलने और सहकर्मियों के साथ सफर करने की अपील की। आरटीसी व्यस्त समय में अतिरिक्त बसें चलाने पर सहमत हुई है।",
+    "pts": [
+     "सीसीटीवी गिनती से अभियान के दौरान भीड़ की तुलना होगी",
+     "पुलिस की सलाह: मेट्रो, एमएमटीएस, आरटीसी अपनाएं",
+     "इन्फोसिस जैसी कंपनियों ने कारपूलिंग में रुचि दिखाई"
+    ],
+    "why": "इसका सीधा असर आईटी कॉरिडोर जाने वाले कर्मचारियों के रोज़ के सफर पर पड़ता है।",
+    "next": "'साइबराबाद मूव्स 2026' 26 से 28 नवंबर तक रायदुर्गम के टी-हब में होगा।"
+   },
+   "art": "",
+   "d": "25.11.2026",
+   "t": "18:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · హైడ్రా",
+   "col": "--c-city",
+   "pic": "e/logo-hydraa",
+   "stat": "ఎస్‌టీపీ భద్రతపై",
+   "statl": "హైడ్రా హెచ్చరిక",
+   "h": "ఎస్‌టీపీ భద్రత మీ బాధ్యతే: హైడ్రా",
+   "p": "బాచుపల్లిలో మురుగునీటి శుద్ధి ట్యాంక్ శుభ్రం చేస్తూ ముగ్గురు కార్మికులు మృతి చెందిన చోటును హైడ్రా కమిషనర్ ఏవీ రంగనాథ్ బుధవారం పరిశీలించారు. నిర్వహణను ప్రైవేటు ఏజెన్సీకి అప్పగించినంత మాత్రాన గేటెడ్ కమ్యూనిటీల బాధ్యత తీరిపోదని చెప్పారు. కార్మికులకు శిక్షణ, శ్వాస పరికరాలు, రక్షణ సామగ్రి తప్పనిసరి అన్నారు. నిర్లక్ష్యం చేస్తే చర్యలు తప్పవని హెచ్చరించారు.",
+   "pts": [
+    "ఎస్‌టీపీ నిర్వాహకులతో త్వరలో హైడ్రా సమావేశం",
+    "నగరమంతా ఎస్‌టీపీల తనిఖీలు పెంచుతారు",
+    "పోలీసులు క్రిమినల్ కేసు నమోదు చేశారు"
+   ],
+   "why": "అపార్ట్‌మెంట్ సంఘాలు ఎస్‌టీపీ కార్మికుల భద్రతకు తామే జవాబుదారీ అని గుర్తించాలి.",
+   "src": "NewsMeter",
+   "url": "https://newsmeter.in/hyderabad/bachupally-stp-deaths-hydraa-warns-gated-communities-agencies-of-action-over-safety-lapses-779991",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "medchal",
+   "loc": "బాచుపల్లి",
+   "pub": "2026-11-25T17:28+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · HYDRAA",
+    "stat": "STP safety",
+    "statl": "is the apartments' duty: HYDRAA",
+    "loc": "Bachupally",
+    "h": "STP safety is apartments' duty: HYDRAA",
+    "p": "HYDRAA Commissioner AV Ranganath on Wednesday inspected the Bachupally site where three workers died while cleaning a sewage treatment plant tank. He said gated communities do not shed their responsibility by handing maintenance to a private agency. Training, breathing apparatus and protective gear for workers are a must, he said, warning of action for negligence.",
+    "pts": [
+     "HYDRAA to meet STP operators soon",
+     "STP inspections to be stepped up across the city",
+     "Police have registered a criminal case"
+    ],
+    "why": "Apartment associations must see that they are answerable for the safety of STP workers."
+   },
+   "hi": {
+    "cat": "हैदराबाद · हाइड्रा",
+    "stat": "एसटीपी सुरक्षा",
+    "statl": "अपार्टमेंट की ही ज़िम्मेदारी: हाइड्रा",
+    "loc": "बाचुपल्ली",
+    "h": "एसटीपी सुरक्षा अपार्टमेंट की ज़िम्मेदारी: हाइड्रा",
+    "p": "हाइड्रा आयुक्त ए.वी. रंगनाथ ने बुधवार को बाचुपल्ली में उस जगह का निरीक्षण किया जहां सीवेज ट्रीटमेंट प्लांट की टंकी साफ करते हुए तीन मज़दूरों की मौत हुई थी। उन्होंने कहा कि रखरखाव निजी एजेंसी को सौंप देने से गेटेड कम्युनिटी की ज़िम्मेदारी खत्म नहीं होती। मज़दूरों के लिए प्रशिक्षण, सांस के उपकरण और सुरक्षा सामान ज़रूरी हैं। लापरवाही पर कार्रवाई की चेतावनी दी।",
+    "pts": [
+     "हाइड्रा जल्द एसटीपी संचालकों से बैठक करेगा",
+     "शहर भर में एसटीपी की जांच बढ़ेगी",
+     "पुलिस ने आपराधिक मामला दर्ज किया है"
+    ],
+    "why": "अपार्टमेंट संघों को समझना होगा कि एसटीपी मज़दूरों की सुरक्षा के लिए वे ही जवाबदेह हैं।"
+   },
+   "art": "",
+   "d": "25.11.2026",
+   "t": "18:05"
+  },
+  {
+   "cat": "తెలంగాణ · ఏసీబీ",
+   "col": "--c-gov",
+   "pic": "e/corruption-investigation",
+   "stat": "ఏసీబీ విచారణ",
+   "statl": "సొంత అధికారిపై",
+   "h": "సొంత అధికారిపై ఆరోపణలపై ఏసీబీ విచారణ",
+   "p": "తమ అధికారిపై వచ్చిన ఆరోపణలపై శాఖాపరమైన విచారణ జరుగుతోందని తెలంగాణ ఏసీబీ బుధవారం ప్రకటించింది. ఆదాయానికి మించిన ఆస్తుల కేసు ఎదుర్కొంటున్న ఒక అధికారి ఈ ఆరోపణలు చేశారు. ఆయన్ను మూడుసార్లు పిలిచినా విచారణకు రాలేదని ఏసీబీ తెలిపింది. ఆరోపణలు నిజమని తేలితే సంబంధిత అధికారిని వదిలిపెట్టబోమని, సంస్థలో అవినీతిని ఏమాత్రం సహించబోమని స్పష్టం చేసింది.",
+   "pts": [
+    "ఏసీబీ సిబ్బంది అవినీతిపై ప్రజలు ఫిర్యాదు చేయవచ్చు",
+    "ఫిర్యాదుదారుల వివరాలు రహస్యంగా ఉంచుతామని హామీ"
+   ],
+   "why": "అవినీతి నిరోధక సంస్థ సిబ్బందిపైనా ఫిర్యాదు చేయవచ్చని ప్రజలకు ఇది తెలియజేస్తోంది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/acb-warns-action-against-corrupt-officers",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "హైదరాబాద్",
+   "pub": "2026-11-25T17:07+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · ACB",
+    "stat": "ACB enquiry",
+    "statl": "into charges against its own officer",
+    "loc": "Hyderabad",
+    "h": "ACB probes charges against its own officer",
+    "p": "The Telangana Anti-Corruption Bureau said on Wednesday that a departmental enquiry is under way into allegations against one of its officers. The allegations were made by an officer who faces a disproportionate assets case. The bureau said he was called three times but did not appear. It said the officer concerned will not be spared if the charges are proved and that it has zero tolerance for corruption in its ranks.",
+    "pts": [
+     "Public can report corruption by ACB staff",
+     "Bureau promises to keep complainants' identity secret"
+    ],
+    "why": "It tells people that complaints can also be made against staff of the anti-corruption agency."
+   },
+   "hi": {
+    "cat": "तेलंगाना · एसीबी",
+    "stat": "एसीबी जांच",
+    "statl": "अपने ही अधिकारी पर आरोपों की",
+    "loc": "हैदराबाद",
+    "h": "अपने अधिकारी पर आरोपों की एसीबी जांच",
+    "p": "तेलंगाना भ्रष्टाचार निरोधक ब्यूरो ने बुधवार को कहा कि उसके एक अधिकारी पर लगे आरोपों की विभागीय जांच चल रही है। ये आरोप आय से अधिक संपत्ति के मामले का सामना कर रहे एक अधिकारी ने लगाए हैं। ब्यूरो के अनुसार उन्हें तीन बार बुलाया गया, पर वे नहीं आए। आरोप सही निकले तो संबंधित अधिकारी को बख्शा नहीं जाएगा और संस्था में भ्रष्टाचार बर्दाश्त नहीं होगा, ब्यूरो ने कहा।",
+    "pts": [
+     "लोग एसीबी कर्मियों के भ्रष्टाचार की शिकायत कर सकते हैं",
+     "शिकायतकर्ता की पहचान गुप्त रखने का भरोसा"
+    ],
+    "why": "इससे लोगों को पता चलता है कि भ्रष्टाचार निरोधक संस्था के कर्मियों की भी शिकायत की जा सकती है।"
+   },
+   "art": "",
+   "d": "25.11.2026",
+   "t": "18:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · హైకోర్టు",
+   "col": "--c-gov",
+   "art": "court",
+   "pic": "e/court-hearing",
+   "stat": "ఎఫ్‌ఐఆర్ రద్దు",
+   "statl": "బ్యానర్ కేసులో",
+   "h": "మూసాపేట బ్యానర్ కేసు ఎఫ్‌ఐఆర్ రద్దు",
+   "p": "హైదరాబాద్ మూసాపేట మాజీ బీజేపీ కార్పొరేటర్‌పై కూకట్‌పల్లి పోలీసులు పెట్టిన ఎఫ్‌ఐఆర్‌ను తెలంగాణ హైకోర్టు రద్దు చేసింది. దసరా రావణ దహనం మంటలో కాక్రోచ్ జనతా పార్టీ ఫ్లెక్సీ బ్యానర్ కాల్చారని, విధుల్లో ఉన్న పోలీసును అడ్డుకున్నారని ఆయనపై కేసు నమోదైంది. ఫిర్యాదులో దాడి లేదా బలప్రయోగం చేసినట్లు ఎక్కడా లేదని జస్టిస్ జె. శ్రీనివాసరావు చెప్పారు.",
+   "pts": [
+    "నవంబర్ 11న ఉత్తర్వు ఇచ్చారు",
+    "అక్టోబర్ 20న పోలీసు అధికారి ఫిర్యాదు చేశారు",
+    "మాటల వాదన మాత్రమే సెక్షన్ 132 నేరం కాదన్న కోర్టు"
+   ],
+   "why": "నిరసనల్లో పోలీసులను అడ్డుకున్నారనే కేసులకు ఏ ఆధారం కావాలో ఈ తీర్పు చెబుతోంది.",
+   "src": "Siasat Daily",
+   "url": "https://www.siasat.com/telangana-hc-quashes-fir-against-ex-bjp-corporator-over-burning-cjp-banner-3586602/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "మూసాపేట",
+   "pub": "2026-11-25T17:13+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · High Court",
+    "stat": "FIR quashed",
+    "statl": "in banner-burning case",
+    "loc": "Moosapet",
+    "h": "HC quashes FIR in Moosapet banner case",
+    "p": "The Telangana High Court has quashed an FIR registered by Kukatpally police against a former BJP corporator of Moosapet, Hyderabad. He was booked for burning a Cockroach Janta Party flex banner in a Dasara Ravana Dahanam bonfire and obstructing a police officer on duty. Justice J Sreenivasa Rao said the complaint nowhere alleged assault or use of criminal force.",
+    "pts": [
+     "The order is dated November 11",
+     "A police officer lodged the complaint on October 20",
+     "Court: a verbal exchange alone is not a Section 132 offence"
+    ],
+    "why": "The ruling shows what is needed to sustain cases of obstructing police during protests."
+   },
+   "hi": {
+    "cat": "हैदराबाद · हाईकोर्ट",
+    "stat": "एफआईआर रद्द",
+    "statl": "बैनर जलाने के मामले में",
+    "loc": "मूसापेट",
+    "h": "मूसापेट बैनर मामले की एफआईआर रद्द: हाईकोर्ट",
+    "p": "तेलंगाना हाईकोर्ट ने हैदराबाद के मूसापेट के एक पूर्व भाजपा पार्षद के खिलाफ कूकटपल्ली पुलिस की एफआईआर रद्द कर दी। उन पर दशहरे के रावण दहन की आग में कॉकरोच जनता पार्टी का फ्लेक्स बैनर जलाने और ड्यूटी पर तैनात पुलिसकर्मी को रोकने का मामला दर्ज था। जस्टिस जे. श्रीनिवास राव ने कहा कि शिकायत में हमले या बल प्रयोग का कहीं ज़िक्र नहीं है।",
+    "pts": [
+     "आदेश 11 नवंबर का है",
+     "पुलिस अधिकारी ने 20 अक्टूबर को शिकायत दी थी",
+     "कोर्ट: सिर्फ कहासुनी धारा 132 का अपराध नहीं"
+    ],
+    "why": "यह फैसला बताता है कि प्रदर्शन में पुलिस को रोकने के मामलों के लिए क्या आधार चाहिए।"
+   },
+   "d": "25.11.2026",
+   "t": "18:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · పరిశోధన",
+   "col": "--c-city",
+   "pic": "e/scientific-research",
+   "stat": "టీఐఎఫ్‌ఆర్, విరూపాక్ష",
+   "statl": "పరిశోధన ఒప్పందం",
+   "h": "టీఐఎఫ్‌ఆర్ హైదరాబాద్, విరూపాక్ష ఒప్పందం",
+   "p": "టాటా ఇన్‌స్టిట్యూట్ ఆఫ్ ఫండమెంటల్ రీసెర్చ్ హైదరాబాద్, నగరానికి చెందిన విరూపాక్ష ఆర్గానిక్స్ సంస్థ బుధవారం అవగాహన ఒప్పందం చేసుకున్నాయి. కొత్త తరం పదార్థాలపై పరిశోధన, సాంకేతిక అభివృద్ధి, పరీక్షల్లో కలిసి పనిచేస్తాయి. మొదట ఆప్టోఎలక్ట్రానిక్స్‌కు పనికొచ్చే సెమీకండక్టర్ పదార్థాలు, 2డీ పదార్థాలు, క్వాంటం పదార్థాలపై దృష్టి పెడతాయి. ప్రయోగశాల పరిశోధనను పరిశ్రమకు చేర్చడమే ఈ ఒప్పందం లక్ష్యం.",
+   "pts": [
+    "ప్రతి ప్రాజెక్టుకు విడిగా ఒప్పందం ఉంటుంది",
+    "పరిశోధకులు, పరిశ్రమ నిపుణుల మధ్య జ్ఞాన మార్పిడి"
+   ],
+   "why": "హైదరాబాద్‌లో పరిశోధన సంస్థలు, పరిశ్రమలు కలిసి పనిచేయడానికి ఇది మరో అడుగు.",
+   "src": "The Hindu (via KhanList)",
+   "url": "https://khanlist.com/story/tifr-hyd-virupaksha-organics-join-hands-for-advanced-82af12ac",
+   "sec": [
+    "telangana",
+    "innovation"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "హైదరాబాద్",
+   "pub": "2026-11-25T17:21+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Research",
+    "stat": "Advanced materials",
+    "statl": "TIFR, Virupaksha sign pact",
+    "loc": "Hyderabad",
+    "h": "TIFR Hyderabad, Virupaksha Organics sign MoU",
+    "p": "The Tata Institute of Fundamental Research Hyderabad and city-based Virupaksha Organics signed a memorandum of understanding on Wednesday. They will work together on research, technology development and testing in advanced materials. The first focus is on semiconducting materials for optoelectronics, 2D materials and quantum materials. The aim is to take laboratory research to industry.",
+    "pts": [
+     "Each project will have a separate agreement",
+     "Knowledge exchange between researchers and industry experts"
+    ],
+    "why": "It is one more step in research institutes and industry working together in Hyderabad."
+   },
+   "hi": {
+    "cat": "हैदराबाद · शोध",
+    "stat": "उन्नत पदार्थों पर",
+    "statl": "टीआईएफआर, विरुपाक्ष का समझौता",
+    "loc": "हैदराबाद",
+    "h": "टीआईएफआर हैदराबाद, विरुपाक्ष का समझौता",
+    "p": "टाटा इंस्टीट्यूट ऑफ फंडामेंटल रिसर्च हैदराबाद और शहर की कंपनी विरुपाक्ष ऑर्गेनिक्स ने बुधवार को समझौता ज्ञापन पर दस्तखत किए। दोनों उन्नत पदार्थों पर शोध, तकनीक विकास और परीक्षण में साथ काम करेंगे। शुरुआत में ऑप्टोइलेक्ट्रॉनिक्स के लिए सेमीकंडक्टर पदार्थों, 2डी पदार्थों और क्वांटम पदार्थों पर ध्यान रहेगा। मकसद प्रयोगशाला के शोध को उद्योग तक पहुंचाना है।",
+    "pts": [
+     "हर परियोजना के लिए अलग समझौता होगा",
+     "शोधकर्ताओं और उद्योग विशेषज्ञों के बीच ज्ञान का आदान-प्रदान"
+    ],
+    "why": "हैदराबाद में शोध संस्थानों और उद्योग के साथ काम करने की दिशा में यह एक और कदम है।"
+   },
+   "art": "",
+   "d": "25.11.2026",
+   "t": "18:05"
+  },
+  {
+   "cat": "తెలంగాణ · వినియోగదారులు",
+   "col": "--c-city",
+   "pic": "logo",
+   "stat": "పోలిక నీళ్ల సీసాల",
+   "statl": "అమ్మకాలు తగ్గాయి",
+   "h": "పోలిక పేర్ల నీళ్ల సీసాల అమ్మకాలు తగ్గాయి",
+   "p": "పెద్ద మినరల్ వాటర్ కంపెనీపై ఎఫ్‌ఎస్‌ఎస్‌ఏఐ నివేదిక వచ్చిన తర్వాత, ఆ బ్రాండ్‌ను పోలిన పేర్లతో అమ్మే స్థానిక నీళ్ల సీసాల అమ్మకాలు బాగా తగ్గాయని తెలంగాణ టుడే కథనం తెలిపింది. రాష్ట్రంలో కనీసం 12 కంపెనీలు అదే రంగు లేబుల్, దాదాపు అదే పేరు, అదే ఆకారంతో సీసాలు అమ్ముతున్నాయని పేర్కొంది. కొనేముందు జనం సీసాను రెండుసార్లు చూస్తున్నారని రాసింది.",
+   "pts": [
+    "వ్యాపారులకు ఎక్కువ మార్జిన్ ఇస్తున్న పోలిక బ్రాండ్లు",
+    "నాణ్యతపై సోషల్ మీడియాలో ప్రశ్నలు",
+    "అమ్మకాల లెక్కలు కథనంలో లేవు"
+   ],
+   "why": "నీళ్ల సీసా కొనేముందు పేరు, లేబుల్ సరిగ్గా చూసుకోవాలని ఇది గుర్తు చేస్తోంది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/people-begin-to-reject-counterfeit-water-bottles",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "TG",
+   "place": "sangareddy",
+   "loc": "సంగారెడ్డి",
+   "pub": "2026-11-25T17:52+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Consumers",
+    "stat": "Lookalike water bottles",
+    "statl": "see sales fall",
+    "loc": "Sangareddy",
+    "h": "Sales of lookalike water bottles fall: report",
+    "p": "Sales of local water bottles sold under names resembling a major mineral water brand have dropped considerably after a recent FSSAI report on that company, Telangana Today reported. It said at least 12 firms in the state sell bottles with the same label colour, a near-identical name and the same shape. People are now checking the bottle twice before buying, the report said.",
+    "pts": [
+     "Lookalike brands give vendors higher margins",
+     "Quality questioned on social media",
+     "The report gives no sales figures"
+    ],
+    "why": "It is a reminder to check the name and label carefully before buying bottled water."
+   },
+   "hi": {
+    "cat": "तेलंगाना · उपभोक्ता",
+    "stat": "मिलते-जुलते नाम की पानी बोतलें",
+    "statl": "बिक्री घटी",
+    "loc": "संगारेड्डी",
+    "h": "मिलते-जुलते नाम की पानी बोतलों की बिक्री घटी",
+    "p": "तेलंगाना टुडे की रिपोर्ट के अनुसार, एक बड़ी मिनरल वाटर कंपनी पर हाल की एफएसएसएआई रिपोर्ट के बाद उस ब्रांड से मिलते-जुलते नामों वाली स्थानीय पानी की बोतलों की बिक्री काफी घट गई है। रिपोर्ट के मुताबिक राज्य में कम से कम 12 कंपनियां वैसे ही रंग के लेबल, लगभग वही नाम और वैसी ही बनावट की बोतलें बेचती हैं। लोग अब खरीदने से पहले बोतल दो बार देख रहे हैं।",
+    "pts": [
+     "नकल ब्रांड दुकानदारों को ज़्यादा मार्जिन देते हैं",
+     "सोशल मीडिया पर गुणवत्ता पर सवाल",
+     "रिपोर्ट में बिक्री के आंकड़े नहीं हैं"
+    ],
+    "why": "यह याद दिलाता है कि पानी की बोतल खरीदने से पहले नाम और लेबल ध्यान से देखें।"
+   },
+   "art": "",
+   "d": "25.11.2026",
+   "t": "18:05"
+  },
+  {
+   "cat": "భారత్ · ఎరువులు",
+   "col": "--c-money",
+   "art": "farm",
+   "pic": "e/fertilizer-and-seed-supply",
+   "stat": "6 యూరియా ప్లాంట్లు",
+   "statl": "₹54,000 కోట్లతో",
+   "h": "6 యూరియా ప్రాజెక్టులకు కేంద్రం అనుమతి",
+   "p": "దేశంలో యూరియా ఉత్పత్తి పెంచడానికి సుమారు ₹54,000 కోట్ల విలువైన ఆరు గ్యాస్ ఆధారిత ప్రాజెక్టులకు కేంద్రం అనుమతి ఇచ్చిందని ఎరువుల శాఖ అధికారి పీటీఐకి తెలిపారు. కొత్త యూరియా పెట్టుబడి విధానం కింద 18 ప్రతిపాదనలు వచ్చాయి. చెన్నై, నంగల్, షాజహాన్‌పూర్, పానాగఢ్, కోటా, జగదీష్‌పూర్ ప్లాంట్లను విస్తరిస్తారు. దేశ వార్షిక యూరియా వినియోగం దాదాపు 400 లక్షల టన్నులు.",
+   "pts": [
+    "ఒక్కో ప్రాజెక్టు ఖర్చు సుమారు ₹9,000 కోట్లు",
+    "2025-26లో దేశీయ ఉత్పత్తి 293.30 లక్షల టన్నులు",
+    "ఆరింటిలో తెలుగు రాష్ట్రాల ప్రాజెక్టు లేదు"
+   ],
+   "why": "దేశంలో ఉత్పత్తి పెరిగితే యూరియా కోసం దిగుమతులపై ఆధారపడటం తగ్గుతుంది; ఇది రైతులకు ముఖ్యం.",
+   "src": "Deccan Chronicle (PTI)",
+   "url": "https://www.deccanchronicle.com/business/market/govt-approves-6-brownfield-gas-based-urea-projects-worth-rs-54000-crore-2007846",
+   "sec": [
+    "india",
+    "agri"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "న్యూఢిల్లీ",
+   "pub": "2026-11-25T17:41+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Fertilisers",
+    "stat": "6 urea projects",
+    "statl": "worth ₹54,000 crore cleared",
+    "loc": "New Delhi",
+    "h": "Six urea projects worth ₹54,000 cr cleared",
+    "p": "The Centre has cleared six gas-based urea projects worth about ₹54,000 crore to raise domestic output, a senior Fertiliser Ministry official told PTI on Wednesday. Eighteen proposals came in under the new urea investment policy. Existing plants at Chennai, Nangal, Shahjahanpur, Panagarh, Kota and Jagdishpur will be expanded. India uses about 400 lakh tonnes of urea a year.",
+    "pts": [
+     "Each project costs about ₹9,000 crore",
+     "Domestic output was 293.30 lakh tonnes in 2025-26",
+     "None of the six is in the Telugu states"
+    ],
+    "why": "More output at home cuts dependence on urea imports, which matters to farmers."
+   },
+   "hi": {
+    "cat": "भारत · उर्वरक",
+    "stat": "6 यूरिया परियोजनाएं",
+    "statl": "₹54,000 करोड़ की मंज़ूर",
+    "loc": "नई दिल्ली",
+    "h": "₹54,000 करोड़ की 6 यूरिया परियोजनाएं मंज़ूर",
+    "p": "देश में यूरिया उत्पादन बढ़ाने के लिए केंद्र ने करीब ₹54,000 करोड़ की छह गैस आधारित परियोजनाओं को मंज़ूरी दी है, उर्वरक मंत्रालय के एक वरिष्ठ अधिकारी ने बुधवार को पीटीआई को बताया। नई यूरिया निवेश नीति के तहत 18 प्रस्ताव आए थे। चेन्नई, नंगल, शाहजहांपुर, पानागढ़, कोटा और जगदीशपुर के मौजूदा संयंत्रों का विस्तार होगा। देश में यूरिया की सालाना खपत करीब 400 लाख टन है।",
+    "pts": [
+     "हर परियोजना की लागत करीब ₹9,000 करोड़",
+     "2025-26 में घरेलू उत्पादन 293.30 लाख टन रहा",
+     "छह में से कोई तेलुगु राज्यों में नहीं"
+    ],
+    "why": "देश में उत्पादन बढ़ने से यूरिया आयात पर निर्भरता घटेगी, जो किसानों के लिए अहम है।"
+   },
+   "d": "25.11.2026",
+   "t": "18:05"
+  },
+  {
+   "cat": "ప్రపంచం · సౌదీ అరేబియా",
+   "col": "--c-gov",
+   "pic": "n/mideast",
+   "stat": "4 డ్రోన్లు",
+   "statl": "కూల్చేశామన్న సౌదీ కూటమి",
+   "h": "రాస్ తనూరా రిఫైనరీపై దాడి చేశాం: హూతీలు",
+   "p": "సౌదీ అరేబియా తూర్పు ప్రాంతంలోని రాస్ తనూరా చమురు రిఫైనరీపై బుధవారం దాడి చేశామని యెమెన్ హూతీలు ప్రకటించారు. అక్కడ మంటలు చెలరేగాయని వారి ప్రతినిధి యాహ్యా సరీ చెప్పారు. రాస్ తనూరా మీదుగా వచ్చిన నాలుగు డ్రోన్లను కూల్చేశామని, ఎవరికీ గాయాలు కాలేదని సౌదీ నేతృత్వంలోని కూటమి తెలిపింది. రిఫైనరీకి నష్టం జరిగిందో లేదో కూటమి ధ్రువీకరించలేదు.",
+   "pts": [
+    "మంగళవారం రియాద్ దాడిలో 11 మంది విదేశీయులకు గాయాలు: సౌదీ సివిల్ డిఫెన్స్",
+    "జెడ్డా రేవు కూడా లక్ష్యమవుతుందని హూతీల హెచ్చరిక",
+    "రియాద్ ఆర్థిక జిల్లాపైనా దాడి చేశామన్న హూతీలు"
+   ],
+   "why": "సౌదీలో పనిచేసే తెలుగువారికి, అక్కడి చమురుపై ఆధారపడే భారత్‌కు ఈ ఉద్రిక్తత ముఖ్యం.",
+   "src": "Siasat Daily",
+   "url": "https://www.siasat.com/saudi-oil-hub-ras-tanura-targeted-in-houthi-attack-fires-reported-3586632/",
+   "sec": [
+    "world"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "రాస్ తనూరా",
+   "pub": "2026-11-25T17:46+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "World · Saudi Arabia",
+    "stat": "4 drones",
+    "statl": "shot down, says Saudi-led coalition",
+    "loc": "Ras Tanura",
+    "h": "Houthis say they hit Ras Tanura refinery",
+    "p": "Yemen's Houthis said they attacked the Ras Tanura oil refinery in Saudi Arabia's Eastern Province on Wednesday. Their spokesperson Yahya Saree said the strikes caused fires there. The Saudi-led coalition said it shot down four drones over Ras Tanura and that no one was hurt. The coalition did not confirm any damage to the refinery.",
+    "pts": [
+     "11 foreigners hurt in Tuesday's Riyadh attack: Saudi Civil Defence",
+     "Houthis warn Jeddah port could also be a target",
+     "Houthis also claim a strike on Riyadh's financial district"
+    ],
+    "why": "The tension matters to Telugu people working in Saudi Arabia and to India, which relies on its oil."
+   },
+   "hi": {
+    "cat": "दुनिया · सऊदी अरब",
+    "stat": "4 ड्रोन",
+    "statl": "गिराए: सऊदी गठबंधन",
+    "loc": "रास तनूरा",
+    "h": "रास तनूरा रिफाइनरी पर हमला किया: हूती",
+    "p": "यमन के हूतियों ने कहा कि उन्होंने बुधवार को सऊदी अरब के पूर्वी प्रांत की रास तनूरा तेल रिफाइनरी पर हमला किया। उनके प्रवक्ता याह्या सरी ने कहा कि वहां आग लगी। सऊदी नेतृत्व वाले गठबंधन ने कहा कि रास तनूरा के ऊपर चार ड्रोन मार गिराए गए और कोई घायल नहीं हुआ। गठबंधन ने रिफाइनरी को नुकसान की पुष्टि नहीं की।",
+    "pts": [
+     "मंगलवार के रियाद हमले में 11 विदेशी घायल: सऊदी सिविल डिफेंस",
+     "हूतियों की चेतावनी: जेद्दा बंदरगाह भी निशाना बन सकता है",
+     "हूतियों का रियाद के वित्तीय ज़िले पर भी हमले का दावा"
+    ],
+    "why": "यह तनाव सऊदी में काम करने वाले तेलुगु लोगों और उसके तेल पर निर्भर भारत के लिए अहम है।"
+   },
+   "art": "",
+   "d": "25.11.2026",
+   "t": "18:05"
+  },
   {
    "cat": "హైదరాబాద్ · విమానాశ్రయం",
    "col": "--c-money",
@@ -2791,512 +3298,6 @@
    },
    "d": "25.11.2026",
    "t": "11:35"
-  },
-  {
-   "cat": "హైదరాబాద్ · ప్రమాదం",
-   "col": "--c-city",
-   "art": "unity",
-   "pic": "e/industrial-safety-incident",
-   "stat": "17 ఏళ్ల కార్మికుడికి",
-   "statl": "తీవ్ర గాయం",
-   "h": "నుమాయిష్ మిక్సర్‌లో చిక్కిన బాలుడి చేయి",
-   "p": "హైదరాబాద్ నాంపల్లిలోని నుమాయిష్ మైదానంలో మంగళవారం కాంక్రీట్ పనులు జరుగుతుండగా 17 ఏళ్ల కార్మికుడి చేయి మిక్సర్ యంత్రంలో చిక్కుకుంది. గౌలిగూడ అగ్నిమాపక సిబ్బంది వచ్చి చేతిని బయటకు తీశారు. బాలుడిని ఉస్మానియా ఆసుపత్రికి తరలించారు. చేతికి తీవ్ర గాయమైందని వైద్యులు చెప్పారు. కేసు నమోదు చేసి దర్యాప్తు చేస్తున్నామని బేగంబజార్ పోలీసులు తెలిపారు.",
-   "src": "Siasat",
-   "url": "https://www.siasat.com/teen-trapped-in-concrete-mixer-at-numaish-grounds-in-hyderabad-3586048/",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "నాంపల్లి",
-   "pts": [
-    "బాలుడు ఛత్తీస్‌గఢ్‌లోని బీజాపూర్ జిల్లా వాసి",
-    "అన్నతో కలిసి పనుల కోసం నగరానికి వచ్చాడు",
-    "నుమాయిష్ ప్రదర్శన జనవరి 1న మొదలవుతుంది"
-   ],
-   "why": "పని ప్రదేశాల్లో యంత్రాల దగ్గర భద్రత, మైనర్లను పనిలో పెట్టడంపై జాగ్రత్త అవసరమని ఇది గుర్తు చేస్తుంది.",
-   "pub": "2026-11-25T10:40+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Accident",
-    "stat": "17-year-old worker",
-    "statl": "seriously hurt",
-    "loc": "Nampally, Hyderabad",
-    "h": "Teen's hand caught in mixer at Numaish Grounds",
-    "p": "A 17-year-old worker's hand got caught in a concrete mixer on Tuesday during concrete work at Numaish Grounds in Nampally, Hyderabad. Firefighters from Gowliguda freed his hand and he was taken to Osmania Hospital, where doctors said the injury is serious. Begum Bazar police said a case has been registered and is being investigated.",
-    "pts": [
-     "The boy is from Bijapur district in Chhattisgarh",
-     "He had come to the city with his brother for work",
-     "The Numaish exhibition begins on January 1"
-    ],
-    "why": "It is a reminder of safety around machines at work sites and of care about employing minors."
-   },
-   "hi": {
-    "cat": "हैदराबाद · हादसा",
-    "stat": "17 साल का मज़दूर",
-    "statl": "गंभीर रूप से घायल",
-    "loc": "नामपल्ली, हैदराबाद",
-    "h": "नुमाइश मैदान में मिक्सर में फँसा किशोर का हाथ",
-    "p": "हैदराबाद के नामपल्ली स्थित नुमाइश मैदान में मंगलवार को कंक्रीट के काम के दौरान 17 साल के एक मज़दूर का हाथ मिक्सर मशीन में फँस गया। गौलीगुडा के दमकल कर्मियों ने हाथ निकाला और उसे उस्मानिया अस्पताल ले जाया गया, जहाँ डॉक्टरों ने चोट को गंभीर बताया। बेगम बाज़ार पुलिस ने कहा कि केस दर्ज कर जाँच की जा रही है।",
-    "pts": [
-     "किशोर छत्तीसगढ़ के बीजापुर ज़िले का रहने वाला है",
-     "वह भाई के साथ काम के लिए शहर आया था",
-     "नुमाइश प्रदर्शनी 1 जनवरी से शुरू होगी"
-    ],
-    "why": "यह काम की जगहों पर मशीनों के पास सुरक्षा और नाबालिगों को काम पर रखने में सावधानी की याद दिलाता है।"
-   },
-   "d": "25.11.2026",
-   "t": "11:05"
-  },
-  {
-   "cat": "భారత్ · స్టాక్ మార్కెట్",
-   "col": "--c-money",
-   "art": "economy",
-   "pic": "e/stock-market-movement",
-   "stat": "1,382 పాయింట్లు",
-   "statl": "పెరిగిన సెన్సెక్స్",
-   "h": "ఆరంభంలో సెన్సెక్స్ 1,382 పాయింట్లు పైకి",
-   "p": "బుధవారం ఉదయం ట్రేడింగ్ ఆరంభంలో స్టాక్ మార్కెట్లు బాగా పెరిగాయి. సెన్సెక్స్ 1,382 పాయింట్లు పెరిగి 83,818కి చేరింది. నిఫ్టీ 407 పాయింట్లు పెరిగి 25,758 వద్ద ఉంది. విదేశీ పెట్టుబడులు రావడం, ముడి చమురు ధరలు తగ్గడం, బ్యాంకు షేర్లలో కొనుగోళ్లు ఇందుకు కారణమని పీటీఐ తెలిపింది. హెచ్‌డీఎఫ్‌సీ బ్యాంక్, ఇన్ఫోసిస్, ఐసీఐసీఐ బ్యాంక్ షేర్లు ఎక్కువగా లాభపడ్డాయి.",
-   "src": "Siasat (PTI)",
-   "url": "https://www.siasat.com/markets-rally-in-early-trade-on-foreign-fund-inflows-lower-crude-oil-3586050/",
-   "sec": [
-    "india",
-    "business"
-   ],
-   "st": "IN",
-   "place": "IN",
-   "loc": "",
-   "pts": [
-    "సోమవారం సెన్సెక్స్ 1,483 పాయింట్లు పడింది",
-    "సోమవారం విదేశీ సంస్థలు ₹5,672 కోట్ల షేర్లు కొన్నాయి",
-    "బ్రెంట్ ముడి చమురు బ్యారెల్ 90.12 డాలర్లు"
-   ],
-   "why": "షేర్లు, మ్యూచువల్ ఫండ్లలో డబ్బు పెట్టిన వారి పెట్టుబడి విలువపై ఇది ప్రభావం చూపుతుంది.",
-   "pub": "2026-11-25T10:58+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "India · Stock market",
-    "stat": "1,382 points",
-    "statl": "Sensex gain in early trade",
-    "loc": "Mumbai",
-    "h": "Sensex jumps 1,382 points in early trade",
-    "p": "Stock markets rose sharply in early trade on Wednesday. The Sensex gained 1,382 points to 83,818 and the Nifty rose 407 points to 25,758. PTI reported that foreign fund inflows, lower crude oil prices and buying in bank stocks drove the rally. HDFC Bank, Infosys and ICICI Bank were among the biggest gainers.",
-    "pts": [
-     "Sensex had fallen 1,483 points on Monday",
-     "Foreign investors bought shares worth ₹5,672 crore on Monday",
-     "Brent crude at 90.12 dollars a barrel"
-    ],
-    "why": "It affects the value of investments held by people with money in shares and mutual funds."
-   },
-   "hi": {
-    "cat": "भारत · शेयर बाज़ार",
-    "stat": "1,382 अंक",
-    "statl": "शुरुआती कारोबार में सेंसेक्स चढ़ा",
-    "loc": "मुंबई",
-    "h": "शुरुआती कारोबार में सेंसेक्स 1,382 अंक चढ़ा",
-    "p": "बुधवार को शुरुआती कारोबार में शेयर बाज़ार तेज़ी से चढ़े। सेंसेक्स 1,382 अंक बढ़कर 83,818 पर और निफ्टी 407 अंक बढ़कर 25,758 पर पहुँचा। पीटीआई के अनुसार विदेशी निवेश आने, कच्चे तेल के दाम घटने और बैंक शेयरों में खरीद से यह तेज़ी आई। एचडीएफसी बैंक, इन्फोसिस और आईसीआईसीआई बैंक के शेयर सबसे ज़्यादा बढ़े।",
-    "pts": [
-     "सोमवार को सेंसेक्स 1,483 अंक गिरा था",
-     "सोमवार को विदेशी निवेशकों ने ₹5,672 करोड़ के शेयर खरीदे",
-     "ब्रेंट कच्चा तेल 90.12 डॉलर प्रति बैरल"
-    ],
-    "why": "शेयर और म्यूचुअल फंड में पैसा लगाने वालों के निवेश की कीमत पर इसका असर पड़ता है।"
-   },
-   "d": "25.11.2026",
-   "t": "11:05"
-  },
-  {
-   "cat": "తెలంగాణ · ధరలు",
-   "col": "--c-money",
-   "art": "economy",
-   "pic": "e/inflation-and-groceries",
-   "stat": "కిలోకు ₹10",
-   "statl": "తగ్గిన బియ్యం ధర",
-   "h": "తెలంగాణలో కిలోకు ₹10 తగ్గిన బియ్యం",
-   "p": "తెలంగాణలో నెల రోజుల్లో బియ్యం ధర కిలోకు సగటున ₹10 తగ్గిందని ఆంధ్రజ్యోతి తెలిపింది. గిరాకీ తగ్గడంతో ధరలు దిగొచ్చాయి. బీపీటీ, కూనారం సన్న బియ్యం కిలో ₹66కు మించి అమ్మకూడదని ప్రభుత్వం ఆదేశించింది. ఎక్కువ ధరకు అమ్మిన వ్యాపారులపై కేసులు పెట్టారు. అక్రమ నిల్వలపై పౌర సరఫరాల అధికారులు దాడులు చేశారు. దుకాణాల్లో ధరల బోర్డులు పెట్టాలని చెప్పారు.",
-   "src": "Andhra Jyothy",
-   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/hyderabad-rice-prices-drop-10-rupees-per-kg-bpt-rice-66-telangana-1579542.html",
-   "sec": [
-    "telangana",
-    "business"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pts": [
-    "తెలంగాణ సోనా కిలో ₹74, హెచ్ఎంటీ ₹79 మించకూడదు",
-    "ఒక దశలో సన్న బియ్యం కిలో ₹100 వరకు అమ్మారు",
-    "ఆన్‌లైన్‌లో మాత్రం ఇంకా పాత ధరలే ఉన్నాయి"
-   ],
-   "why": "బియ్యం కొనే ప్రతి కుటుంబానికి, ముఖ్యంగా పేద, మధ్యతరగతి వారికి ఖర్చు తగ్గుతుంది.",
-   "pub": "2026-11-25T03:38+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Prices",
-    "stat": "₹10 a kg",
-    "statl": "drop in rice price",
-    "loc": "Telangana",
-    "h": "Rice ₹10 a kg cheaper in Telangana",
-    "p": "Rice prices in Telangana fell by an average of ₹10 a kg over a month, Andhra Jyothy reported. The government ordered that BPT and Koonaram fine rice must not be sold above ₹66 a kg. Cases were booked against traders who charged more, and shops were told to display price boards.",
-    "pts": [
-     "Telangana Sona capped at ₹74 a kg, HMT at ₹79",
-     "Fine rice had touched ₹100 a kg at one point",
-     "Online prices are still at the old levels"
-    ],
-    "why": "Every family that buys rice, especially poor and middle-class homes, spends less."
-   },
-   "hi": {
-    "cat": "तेलंगाना · दाम",
-    "stat": "₹10 प्रति किलो",
-    "statl": "चावल सस्ता",
-    "loc": "तेलंगाना",
-    "h": "तेलंगाना में चावल ₹10 प्रति किलो सस्ता",
-    "p": "आंध्र ज्योति के अनुसार तेलंगाना में एक महीने में चावल का दाम औसतन ₹10 प्रति किलो घटा है। सरकार ने आदेश दिया कि बीपीटी और कूनारम महीन चावल ₹66 प्रति किलो से ज़्यादा में न बिके। ज़्यादा दाम लेने वाले व्यापारियों पर केस दर्ज हुए और दुकानों पर दाम बोर्ड लगाने को कहा गया।",
-    "pts": [
-     "तेलंगाना सोना ₹74, एचएमटी ₹79 प्रति किलो तक",
-     "एक समय महीन चावल ₹100 प्रति किलो तक बिका",
-     "ऑनलाइन दाम अब भी पुराने स्तर पर"
-    ],
-    "why": "चावल खरीदने वाले हर परिवार, ख़ासकर गरीब और मध्यम वर्ग का खर्च घटेगा।"
-   },
-   "d": "25.11.2026",
-   "t": "10:35"
-  },
-  {
-   "cat": "తెలంగాణ · ప్రమాదం",
-   "col": "--c-power",
-   "art": "power",
-   "pic": "e/remembrance-and-condolence",
-   "stat": "ఇద్దరు మృతి",
-   "statl": "సిరిసిల్ల, ములుగులో",
-   "h": "సిరిసిల్ల, ములుగులో షాక్‌తో ఇద్దరు మృతి",
-   "p": "రాజన్న సిరిసిల్ల, ములుగు జిల్లాల్లో కరెంట్ షాక్‌తో ఇద్దరు ప్రాణాలు కోల్పోయారని వీ6 వెలుగు తెలిపింది. ఎల్లారెడ్డిపేట మండలం బండలింగంపల్లిలో పందుల కోసం పెట్టిన కరెంట్ తీగ తగిలి ఒక యువకుడు అక్కడికక్కడే చనిపోయాడు. ఏటూరునాగారం మండలం చిన్నబోయినపల్లిలో పొలంలో బోరు మోటార్ పని చేస్తూ ఒక రైతు మృతి చెందారు.",
-   "src": "V6 Velugu",
-   "url": "https://www.v6velugu.com/siddepeta-siricilla-mulugu-districts-electric-shock-incidents-four-members-lifeless-details-here",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "sircilla",
-   "loc": "ఎల్లారెడ్డిపేట, ఏటూరునాగారం",
-   "pts": [
-    "సిద్దిపేట జిల్లాలోనూ ఇద్దరు కరెంట్ షాక్‌తో చనిపోయారు",
-    "మూడు జిల్లాల్లో మొత్తం నలుగురు మృతి",
-    "కేసులు నమోదు చేసి పోలీసులు దర్యాప్తు చేస్తున్నారు"
-   ],
-   "why": "పొలాల్లో కరెంట్ తీగలు, మోటార్ల దగ్గర రైతులు, కూలీలు జాగ్రత్తగా ఉండాలని ఈ ఘటనలు చెబుతున్నాయి.",
-   "pub": "2026-11-25T09:35+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Accident",
-    "stat": "2 dead",
-    "statl": "in Sircilla and Mulugu",
-    "loc": "Yellareddypet, Eturnagaram",
-    "h": "2 electrocuted in Sircilla, Mulugu",
-    "p": "Two people died of electric shocks in Rajanna Sircilla and Mulugu districts, V6 Velugu reported. In Yellareddypet mandal a young man touched a live fence wire set up to keep pigs away. In Eturnagaram mandal a farmer died while working on a borewell motor in his field.",
-    "pts": [
-     "Two more died of electric shocks in Siddipet district",
-     "Four deaths in all across three districts",
-     "Police have registered cases and are investigating"
-    ],
-    "why": "The deaths are a warning to farmers and workers to take care near live wires and motors."
-   },
-   "hi": {
-    "cat": "तेलंगाना · हादसा",
-    "stat": "2 की मौत",
-    "statl": "सिरसिल्ला, मुलुगु में",
-    "loc": "येल्लारेड्डीपेट, एटूरनागारम",
-    "h": "सिरसिल्ला, मुलुगु में करंट से 2 की मौत",
-    "p": "वी6 वेलुगु के अनुसार राजन्ना सिरसिल्ला और मुलुगु ज़िलों में बिजली के झटके से दो लोगों की मौत हुई। येल्लारेड्डीपेट मंडल में सूअरों को रोकने के लिए लगाए करंट वाले तार से एक युवक की जान गई। एटूरनागारम मंडल में खेत में बोरवेल मोटर पर काम करते समय एक किसान की मौत हुई।",
-    "pts": [
-     "सिद्दीपेट ज़िले में भी दो लोगों की करंट से मौत",
-     "तीन ज़िलों में कुल चार मौतें",
-     "पुलिस ने केस दर्ज कर जांच शुरू की"
-    ],
-    "why": "ये घटनाएं किसानों और मज़दूरों को बिजली के तारों और मोटरों के पास सावधान रहने की चेतावनी हैं।"
-   },
-   "d": "25.11.2026",
-   "t": "10:35"
-  },
-  {
-   "cat": "వరంగల్ · వైద్యం",
-   "col": "--c-gov",
-   "pic": "e/hospital-outpatient-queue",
-   "stat": "మహాత్మా గాంధీ",
-   "statl": "పేరు ఖరారు",
-   "h": "వరంగల్ ఆసుపత్రికి మహాత్మా గాంధీ పేరు",
-   "p": "వరంగల్‌లో కడుతున్న సూపర్ స్పెషాలిటీ ఆసుపత్రికి మహాత్మా గాంధీ సూపర్ స్పెషాలిటీ ఆసుపత్రి అని పేరు పెట్టారని డెక్కన్ క్రానికల్ తెలిపింది. ఈ మేరకు వైద్య ఆరోగ్య శాఖ నవంబర్ 23న జీవో 180 ఇచ్చింది. ఈ ఆదేశాన్ని అమలు చేయాలని వరంగల్ జిల్లా కలెక్టర్‌ను ప్రభుత్వం ఆదేశించింది. ఆసుపత్రి నిర్మాణ పనులు ఇంకా జరుగుతున్నాయి.",
-   "src": "Deccan Chronicle",
-   "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-issues-go-naming-warangal-super-speciality-hospital-as-mahatma-gandhi-super-speciality-hospital-mgssh-2007715",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "warangal",
-   "loc": "",
-   "pts": [
-    "పనులు వేగంగా పూర్తి చేయాలని మంత్రి దామోదర రాజనర్సింహ ఆదేశం",
-    "ఆసుపత్రి పూర్తయ్యే తేదీని ఇంకా ప్రకటించలేదు"
-   ],
-   "why": "ఉమ్మడి వరంగల్ ప్రజలు పెద్ద వైద్యం కోసం ఎదురుచూస్తున్న ఆసుపత్రి ఇదే.",
-   "pub": "2026-11-25T08:45+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Warangal · Health",
-    "stat": "Mahatma Gandhi",
-    "statl": "name finalised",
-    "loc": "Warangal",
-    "h": "Warangal hospital named after Gandhi",
-    "p": "The super speciality hospital being built in Warangal has been named Mahatma Gandhi Super Speciality Hospital, Deccan Chronicle reported. The health department issued GO 180 on November 23 and asked the Warangal Collector to put the order into effect.",
-    "pts": [
-     "Minister Damodar Raja Narasimha ordered faster work",
-     "No completion date has been announced yet"
-    ],
-    "why": "It is the hospital people across the old Warangal district are waiting on for specialist care."
-   },
-   "hi": {
-    "cat": "वरंगल · स्वास्थ्य",
-    "stat": "महात्मा गांधी",
-    "statl": "नाम तय",
-    "loc": "वरंगल",
-    "h": "वरंगल अस्पताल को गांधी का नाम",
-    "p": "डेक्कन क्रॉनिकल के अनुसार वरंगल में बन रहे सुपर स्पेशियलिटी अस्पताल का नाम महात्मा गांधी सुपर स्पेशियलिटी अस्पताल रखा गया है। स्वास्थ्य विभाग ने 23 नवंबर को जीओ 180 जारी कर वरंगल कलेक्टर को इसे लागू करने को कहा।",
-    "pts": [
-     "मंत्री दामोदर राजा नरसिम्हा ने काम तेज़ करने को कहा",
-     "पूरा होने की तारीख अभी घोषित नहीं"
-    ],
-    "why": "पुराने वरंगल ज़िले के लोग बड़े इलाज के लिए इसी अस्पताल का इंतज़ार कर रहे हैं।"
-   },
-   "d": "25.11.2026",
-   "t": "10:35"
-  },
-  {
-   "cat": "ప్రపంచం · టెక్నాలజీ",
-   "col": "--c-money",
-   "art": "court",
-   "pic": "w/new-york",
-   "stat": "హువావే",
-   "statl": "దోషిగా తీర్పు",
-   "h": "అమెరికా కోర్టులో హువావే దోషిగా తేలింది",
-   "p": "ఇరాన్‌పై అమెరికా ఆంక్షలను ఉల్లంఘించడం, బ్యాంకులను మోసం చేయడం, అమెరికా కంపెనీల వ్యాపార రహస్యాలు దొంగిలించేందుకు కుట్ర చేయడం కేసుల్లో చైనా సంస్థ హువావే, దాని మూడు అనుబంధ సంస్థలు దోషులని న్యూయార్క్ ఫెడరల్ కోర్టు జ్యూరీ తేల్చిందని బిజినెస్ స్టాండర్డ్ తెలిపింది. ఈ కేసులో మూడు నెలల పాటు విచారణ జరిగింది. తీర్పును అమెరికా న్యాయ శాఖ ప్రకటించింది.",
-   "src": "Business Standard",
-   "url": "https://www.business-standard.com/amp/world-news/huawei-us-conviction-iran-sanctions-bank-fraud-trade-secrets-126112500078_1.html",
-   "sec": [
-    "world",
-    "business"
-   ],
-   "st": "WORLD",
-   "place": "IN",
-   "loc": "",
-   "pts": [
-    "మనీ లాండరింగ్ ఆరోపణలూ రుజువయ్యాయి",
-    "జరిమానా, ఆస్తుల జప్తు తర్వాత నిర్ణయిస్తారు"
-   ],
-   "next": "శిక్ష ఖరారు 2027 సెప్టెంబర్ 14న",
-   "why": "హువావే ఫోన్లు, నెట్‌వర్క్ పరికరాలు వాడే దేశాలపై, టెక్ వ్యాపారంపై దీని ప్రభావం ఉండొచ్చు.",
-   "pub": "2026-11-25T08:20+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "World · Technology",
-    "stat": "Huawei",
-    "statl": "convicted",
-    "loc": "New York, USA",
-    "h": "US jury convicts Huawei",
-    "p": "A New York federal jury convicted China's Huawei and three subsidiaries of violating Iran sanctions, bank fraud and conspiring to steal trade secrets from US companies, Business Standard reported. The verdict came after a three-month trial.",
-    "pts": [
-     "Money laundering charges were also proven",
-     "Fines and forfeiture will be decided later"
-    ],
-    "next": "Sentencing on September 14, 2027",
-    "why": "The verdict could affect countries and businesses that use Huawei phones and network gear."
-   },
-   "hi": {
-    "cat": "दुनिया · टेक्नोलॉजी",
-    "stat": "हुआवेई",
-    "statl": "दोषी करार",
-    "loc": "न्यूयॉर्क, अमेरिका",
-    "h": "अमेरिकी जूरी ने हुआवेई को दोषी ठहराया",
-    "p": "बिज़नेस स्टैंडर्ड के अनुसार न्यूयॉर्क की संघीय जूरी ने चीन की हुआवेई और उसकी तीन सहायक कंपनियों को ईरान पर प्रतिबंध तोड़ने, बैंक धोखाधड़ी और अमेरिकी कंपनियों के व्यापार रहस्य चुराने की साज़िश का दोषी पाया। तीन महीने मुकदमा चला।",
-    "pts": [
-     "मनी लॉन्ड्रिंग के आरोप भी साबित",
-     "जुर्माना और ज़ब्ती बाद में तय होगी"
-    ],
-    "next": "सज़ा 14 सितंबर 2027 को सुनाई जाएगी",
-    "why": "हुआवेई फ़ोन और नेटवर्क उपकरण इस्तेमाल करने वाले देशों व कारोबार पर असर पड़ सकता है।"
-   },
-   "d": "25.11.2026",
-   "t": "10:35"
-  },
-  {
-   "cat": "హైదరాబాద్ · రైల్వే",
-   "col": "--c-city",
-   "pic": "logo",
-   "stat": "1907 నాటి భవనం",
-   "statl": "కొంత భాగం కూల్చేశారు",
-   "h": "నాంపల్లి స్టేషన్ పాత భవనం కూల్చేశారు",
-   "p": "హైదరాబాద్ నాంపల్లి రైల్వే స్టేషన్ పాత భవనాన్ని దక్షిణ మధ్య రైల్వే కొంత భాగం కూల్చేసిందని సియాసత్ డైలీ తెలిపింది. స్టేషన్‌ను కొత్తగా కట్టే పనుల్లో భాగంగా ఇది జరిగింది. ఈ భవనాన్ని 1907లో ఆరో నిజాం మహబూబ్ అలీ పాషా కాలంలో కట్టారు. ఇది రక్షిత వారసత్వ కట్టడాల జాబితాలో లేదని రైల్వే అధికారులు చెప్పారు.",
-   "src": "Siasat Daily",
-   "url": "https://www.siasat.com/hyderabad-historic-nampally-railway-station-demolished-by-scr-3586026/",
-   "sec": [
-    "telangana",
-    "culture"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "నాంపల్లి",
-   "pts": [
-    "కాచిగూడ స్టేషన్ రక్షిత జాబితాలో ఉంది, దాన్ని మార్చడం లేదు",
-    "సికింద్రాబాద్ స్టేషన్ భవనాన్ని ఏడాది కిందటే కూల్చారు",
-    "దీన్ని హైదరాబాద్-డెక్కన్ స్టేషన్ అని కూడా అంటారు"
-   ],
-   "why": "నగర చరిత్రకు గుర్తుగా ఉన్న పాత భవనం పోవడం హైదరాబాద్ ప్రజలకు, ప్రయాణికులకు సంబంధించిన విషయం.",
-   "pub": "2026-11-25T09:18+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Railways",
-    "stat": "1907 building",
-    "statl": "partly demolished",
-    "loc": "Nampally, Hyderabad",
-    "h": "Old Nampally station building torn down",
-    "p": "South Central Railway has partly demolished the old building of Hyderabad's Nampally railway station as part of its redevelopment, Siasat Daily reported. The building was put up in 1907, in the time of the sixth Nizam, Mahbub Ali Pasha. Railway officials said it is not on the list of protected heritage structures.",
-    "pts": [
-     "Kacheguda station is on the protected list and is not being rebuilt",
-     "Secunderabad station's building was razed over a year ago",
-     "It is also called Hyderabad-Deccan station"
-    ],
-    "why": "The loss of an old landmark matters to Hyderabad's residents and rail passengers."
-   },
-   "hi": {
-    "cat": "हैदराबाद · रेलवे",
-    "stat": "1907 की इमारत",
-    "statl": "आंशिक रूप से गिराई गई",
-    "loc": "नामपल्ली, हैदराबाद",
-    "h": "नामपल्ली स्टेशन की पुरानी इमारत गिराई गई",
-    "p": "दक्षिण मध्य रेलवे ने पुनर्विकास के तहत हैदराबाद के नामपल्ली रेलवे स्टेशन की पुरानी इमारत का कुछ हिस्सा गिरा दिया है, सियासत डेली ने बताया। यह इमारत 1907 में छठे निज़ाम महबूब अली पाशा के समय बनी थी। रेलवे अधिकारियों ने कहा कि यह संरक्षित धरोहर इमारतों की सूची में नहीं है।",
-    "pts": [
-     "काचीगुडा स्टेशन संरक्षित सूची में है, उसे नहीं बदला जा रहा",
-     "सिकंदराबाद स्टेशन की इमारत साल भर पहले गिराई गई थी",
-     "इसे हैदराबाद-डेक्कन स्टेशन भी कहा जाता है"
-    ],
-    "why": "शहर की पुरानी पहचान का जाना हैदराबाद के लोगों और यात्रियों से जुड़ा मामला है।"
-   },
-   "d": "25.11.2026",
-   "t": "10:05"
-  },
-  {
-   "cat": "తెలంగాణ · హైకోర్టు",
-   "col": "--c-gov",
-   "art": "court",
-   "pic": "e/court-hearing",
-   "stat": "నెల జైలు శిక్ష",
-   "statl": "హైకోర్టు రద్దు",
-   "h": "డాక్టర్ జైలు శిక్ష రద్దు: హైకోర్టు",
-   "p": "మధ్యంతర ఉత్తర్వు పాటించలేదన్న ఆరోపణపై హైదరాబాద్ ఫ్యామిలీ కోర్టు ఒక డాక్టర్‌కు విధించిన నెల రోజుల సివిల్ జైలు శిక్షను తెలంగాణ హైకోర్టు రద్దు చేసింది. కావాలనే ఉత్తర్వును మీరినట్టు రుజువైతేనే శిక్ష వేయాలని ధర్మాసనం చెప్పింది. ఆటిజం ఉన్న ఆరేళ్ల కొడుకు బాగోగులు తల్లిదండ్రులిద్దరి బాధ్యత అని గుర్తు చేసింది.",
-   "src": "Siasat Daily",
-   "url": "https://www.siasat.com/telangana-hc-quashes-doctors-jail-term-cites-autistic-child-3586033/",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "",
-   "pts": [
-    "జస్టిస్ కె. లక్ష్మణ్, జస్టిస్ కె. సుజనల ధర్మాసనం తీర్పు",
-    "అబుదాబి కోర్టు 2025 ఆగస్టులో విడాకులు ఇచ్చింది",
-    "కుటుంబ కోర్టులు రాజీకి ప్రయత్నించాలని సూచన"
-   ],
-   "why": "విడిపోయిన దంపతులైనా పిల్లల బాధ్యత ఇద్దరిదేనని ఈ తీర్పు గుర్తు చేస్తోంది.",
-   "next": "భార్య మిగతా పిటిషన్లను ఫ్యామిలీ కోర్టు మళ్లీ వింటుంది.",
-   "pub": "2026-11-25T09:22+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · High Court",
-    "stat": "One-month jail term",
-    "statl": "set aside by High Court",
-    "loc": "Hyderabad",
-    "h": "HC sets aside doctor's one-month jail term",
-    "p": "The Telangana High Court has set aside a one-month civil detention that a Hyderabad family court gave a doctor for allegedly violating an interim order. The bench said punishment is possible only when wilful violation is proved. It reminded both parents that they share responsibility for their six-year-old son, who has autism.",
-    "pts": [
-     "Bench of Justice K Lakshman and Justice K Sujana",
-     "An Abu Dhabi court granted a divorce in August 2025",
-     "Family courts urged to work towards reconciliation"
-    ],
-    "why": "The ruling is a reminder that separated parents still share responsibility for their children.",
-    "next": "The family court will hear the wife's remaining petitions afresh."
-   },
-   "hi": {
-    "cat": "तेलंगाना · हाईकोर्ट",
-    "stat": "एक महीने की जेल",
-    "statl": "हाईकोर्ट ने रद्द की",
-    "loc": "हैदराबाद",
-    "h": "डॉक्टर की एक महीने की जेल रद्द: हाईकोर्ट",
-    "p": "तेलंगाना हाईकोर्ट ने अंतरिम आदेश न मानने के आरोप में हैदराबाद की फैमिली कोर्ट द्वारा एक डॉक्टर को दी गई एक महीने की सिविल हिरासत रद्द कर दी। पीठ ने कहा कि सज़ा तभी दी जा सकती है जब जानबूझकर उल्लंघन साबित हो। ऑटिज़्म से जूझ रहे छह साल के बेटे की देखभाल माता-पिता दोनों की ज़िम्मेदारी बताई।",
-    "pts": [
-     "जस्टिस के. लक्ष्मण और जस्टिस के. सुजना की पीठ का फैसला",
-     "अबू धाबी की अदालत ने अगस्त 2025 में तलाक दिया था",
-     "फैमिली कोर्ट से सुलह की कोशिश करने को कहा"
-    ],
-    "why": "यह फैसला याद दिलाता है कि अलग हुए माता-पिता पर भी बच्चों की साझा ज़िम्मेदारी है।",
-    "next": "फैमिली कोर्ट पत्नी की बाकी याचिकाएं नए सिरे से सुनेगी।"
-   },
-   "d": "25.11.2026",
-   "t": "10:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · ఇళ్లు",
-   "col": "--c-gov",
-   "pic": "e/affordable-housing-support",
-   "stat": "2 ఇందిరమ్మ టవర్లకు",
-   "statl": "రెరా అనుమతి",
-   "h": "రెండు ఇందిరమ్మ టవర్లకు రెరా అనుమతి",
-   "p": "హైదరాబాద్‌లో కట్టబోయే రెండు ఇందిరమ్మ ఇళ్ల టవర్లకు తెలంగాణ రెరా అనుమతి ఇచ్చింది. మలక్‌పేట, కుత్బుల్లాపూర్‌లో ఈ టవర్లు రానున్నాయి. రాష్ట్రంలో ప్రభుత్వ ఇళ్ల ప్రాజెక్టుకు రెరా అనుమతి రావడం ఇదే మొదటిసారి. దీంతో లబ్ధిదారులకు బ్యాంకులు ఇంటి రుణాలు ఇవ్వగలవని హౌసింగ్ బోర్డు అధికారులు చెప్పారు. టవర్ల నిర్మాణం ఇంకా మొదలు కాలేదు.",
-   "src": "Siasat Daily",
-   "url": "https://www.siasat.com/two-indiramma-towers-in-hyderabad-win-rera-approval-3586042/",
-   "sec": [
-    "telangana",
-    "business"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "మలక్‌పేట, కుత్బుల్లాపూర్",
-   "pts": [
-    "ఔటర్ రింగ్ రోడ్డు లోపల లక్ష ఫ్లాట్లు కట్టాలన్నది ప్రభుత్వ ప్రణాళిక",
-    "మిగతా ప్రాంతాల టవర్లకూ రెరా అనుమతి కోసం దరఖాస్తు",
-    "లబ్ధిదారుల ఎంపిక లాటరీలు ఆగస్టులో మొదలయ్యాయి"
-   ],
-   "why": "ఇందిరమ్మ ఫ్లాట్లు పొందే కుటుంబాలు బ్యాంకు రుణం తీసుకోవడం సులువవుతుంది.",
-   "pub": "2026-11-25T09:58+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Housing",
-    "stat": "2 Indiramma towers",
-    "statl": "get RERA approval",
-    "loc": "Malakpet, Quthbullapur",
-    "h": "Two Indiramma towers get RERA approval",
-    "p": "Telangana RERA has approved two Indiramma housing towers planned in Hyderabad, at Malakpet and Quthbullapur. It is the first such clearance for a government housing project in the state. Housing Board officials said banks can now sanction home loans to beneficiaries. Construction of the towers has not yet begun.",
-    "pts": [
-     "The government plans one lakh flats inside the Outer Ring Road",
-     "RERA approval sought for towers in other localities too",
-     "Lucky draws to pick beneficiaries began in August"
-    ],
-    "why": "Families allotted Indiramma flats will find it easier to get bank loans."
-   },
-   "hi": {
-    "cat": "हैदराबाद · आवास",
-    "stat": "2 इंदिरम्मा टावर",
-    "statl": "रेरा की मंज़ूरी मिली",
-    "loc": "मलकपेट, कुतुबुल्लापुर",
-    "h": "दो इंदिरम्मा टावरों को रेरा की मंज़ूरी",
-    "p": "तेलंगाना रेरा ने हैदराबाद के मलकपेट और कुतुबुल्लापुर में बनने वाले दो इंदिरम्मा आवास टावरों को मंज़ूरी दे दी है। राज्य में किसी सरकारी आवास परियोजना को पहली बार यह मंज़ूरी मिली है। हाउसिंग बोर्ड के अधिकारियों ने कहा कि अब बैंक लाभार्थियों को होम लोन दे सकेंगे। टावरों का निर्माण अभी शुरू नहीं हुआ है।",
-    "pts": [
-     "सरकार की योजना आउटर रिंग रोड के भीतर एक लाख फ्लैट बनाने की है",
-     "अन्य इलाकों के टावरों के लिए भी रेरा मंज़ूरी मांगी गई",
-     "लाभार्थी चुनने के लकी ड्रॉ अगस्त में शुरू हुए"
-    ],
-    "why": "इंदिरम्मा फ्लैट पाने वाले परिवारों के लिए बैंक लोन लेना आसान होगा।"
-   },
-   "d": "25.11.2026",
-   "t": "10:05"
   },
   {
    "cat": "ఏపీ · నీరు",
