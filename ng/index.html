@@ -145,12 +145,14 @@ addEventListener('keydown',e=>{ if(e.key==='ArrowRight') go(1); if(e.key==='Arro
 $('ed').onclick=()=>{ $('sheet').hidden=false; };
 // NEW readers only (never used Swipe2News on this phone): welcome + "Choose your country" (Nigeria already ticked).
 // Existing readers (any saved w2s.* setting from the app) go straight to the news.
+// The installed app (opened with ?source=android) always shows it once after install, even if this phone used the website before.
+const APP=q.get('source')==='android', WK=APP?'s2n.ng.welcomed.app':'s2n.ng.welcomed';
 let first=false; try{ let old=false; for(let k=0;k<localStorage.length;k++){ if((localStorage.key(k)||'').indexOf('w2s.')===0){ old=true; break; } }
-  first=!old&&!localStorage.getItem('s2n.ng.welcomed'); }catch(e){}
+  first=(APP||!old)&&!localStorage.getItem(WK); }catch(e){}
 if(first){ $('shT').textContent='Welcome to Swipe2News 👋'; $('sheet').querySelector('p').innerHTML='<b>Choose your country</b> – we show the news for the country you pick. You can change it later from the 🇳🇬 menu at the top.';
   const c=$('sheet').querySelector('[data-close]'); c.textContent='Continue with Nigeria ›'; c.style.background='var(--apricot)'; c.style.borderColor='var(--apricot)'; c.style.color='var(--deep)';
   $('sheet').hidden=false; }
-const done=()=>{ try{ localStorage.setItem('s2n.ng.welcomed','1'); }catch(e){} if(first){ first=false; $('shT').textContent='Choose your country'; } };
+const done=()=>{ try{ localStorage.setItem(WK,'1'); localStorage.setItem('s2n.ng.welcomed','1'); }catch(e){} if(first){ first=false; $('shT').textContent='Choose your country'; } };
 $('sheet').addEventListener('click',e=>{ if(e.target.closest('[data-ed],[data-close]')||e.target===$('sheet')) done(); },true);
 $('sheet').onclick=e=>{ const b=e.target.closest('[data-ed],[data-close]'); if(e.target===$('sheet')||(b&&b.dataset.close!==undefined)) return $('sheet').hidden=true;
   if(b&&b.dataset.ed==='in'){ try{ localStorage.setItem('s2n.edition','in'); }catch(x){} location.href='/?ed=in'+(q.has('source')?'&source='+encodeURIComponent(q.get('source')):''); }

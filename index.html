@@ -3650,7 +3650,7 @@ const pushOK = !!ONESIGNAL_APP_ID && ['way2sec.github.io','swipe2news.com','www.
 window.OneSignalDeferred = window.OneSignalDeferred || [];
 function bellState(on){ $('bellBtn').setAttribute('aria-pressed', !!on); }
 function tagUser(OneSignal){ try{ const P=PLACES.find(x=>x[0]===prefs.place), dist=P&&!['TS','AP','IN'].includes(P[0]); const zw=t=>/్$/.test(t)?t+'\u200c':t; // district names for the owner's greeting calendar ({district}లో …)
-  const t={place:prefs.place, topics:prefs.topics.join(','), lang:LG(), pte:dist?zw(P[1]):'', pen:dist?P[2]:''};
+  const t={place:prefs.place, topics:prefs.topics.join(','), lang:LG(), pte:dist?zw(P[1]):'', pen:dist?P[2]:'', edition:'in'}; // edition: India alerts (Nigeria readers are tagged 'ng' on /ng/)
   if(prefs.place==='AP'){ t.ste='ఆంధ్రప్రదేశ్'; t.sen='Andhra Pradesh'; } else if(prefs.place&&prefs.place!=='IN'){ t.ste='తెలంగాణ'; t.sen='Telangana'; } else { t.ste=''; t.sen=''; }
   OneSignal.User.addTags(t); }catch(e){} }
 if(pushOK){
