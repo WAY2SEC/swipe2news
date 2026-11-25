@@ -1,11 +1,11 @@
 # Swipe2News story check
 
 ## news.json: 134 stories · 1 to fix · 23 to look at · 0 fixed automatically
-- ERROR: #25 "ఆస్ట్రేలియా ఎన్నికల బరిలో హైదరాబాద్ మహిళ": pic "n/nri" is a generic old key – pick the exact e/ scene for this event (tools/pictures.md, "Exact picture for common stories")
-- CHECK: #1 "కూకట్‌పల్లి అరెస్టులను ఖండించిన బీఆర్ఎస్": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #2 "జోగిపేట హాస్టల్‌లో బాలికలకు అనారోగ్యం": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #5 "రాహుల్ కేసులో హైకోర్టు ఆదేశం రద్దు": picture line is long (40 letters) – keep stat + statl short so it fits one line
-- CHECK: #47 "ఉగ్ర అలర్ట్ లీక్‌పై విచారణ కోరిన బీఆర్‌ఎ": headline is 42 characters – may not fit one line (keep ≤ 38)
+- ERROR: #30 "ఆస్ట్రేలియా ఎన్నికల బరిలో హైదరాబాద్ మహిళ": pic "n/nri" is a generic old key – pick the exact e/ scene for this event (tools/pictures.md, "Exact picture for common stories")
+- CHECK: #6 "కూకట్‌పల్లి అరెస్టులను ఖండించిన బీఆర్ఎస్": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #7 "జోగిపేట హాస్టల్‌లో బాలికలకు అనారోగ్యం": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #10 "రాహుల్ కేసులో హైకోర్టు ఆదేశం రద్దు": picture line is long (40 letters) – keep stat + statl short so it fits one line
+- CHECK: #52 "ఉగ్ర అలర్ట్ లీక్‌పై విచారణ కోరిన బీఆర్‌ఎ": headline is 42 characters – may not fit one line (keep ≤ 38)
 - CHECK: #72 "భూపాలపల్లిలో వడ్లు వెంటనే కొనాలి: గండ్ర": picture line is long (35 letters) – keep stat + statl short so it fits one line
 - CHECK: #73 "ఏపీలో 3,191 సర్పంచ్ పదవులకు 26న పోలింగ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
 - CHECK: #75 "ఖాజీపేట మిడుతూరులో నామినేషన్ల ఘర్షణ": picture line is long (35 letters) – keep stat + statl short so it fits one line
@@ -28,18 +28,20 @@
 
 ### Pictures needed (create in your image tool, send to Claude)
 - **Industry & Factories** – 3 story(ies), e.g. "డిసెంబర్ 5 నుంచి ఏపీ అసెంబ్లీ సమావేశాలు". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
-## archive/2026-11-25.json: 105 stories · 1 to fix · 10 to look at · 0 fixed automatically
-- ERROR: #25 "ఆస్ట్రేలియా ఎన్నికల బరిలో హైదరాబాద్ మహిళ": pic "n/nri" is a generic old key – pick the exact e/ scene for this event (tools/pictures.md, "Exact picture for common stories")
-- CHECK: #1 "కూకట్‌పల్లి అరెస్టులను ఖండించిన బీఆర్ఎస్": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #2 "జోగిపేట హాస్టల్‌లో బాలికలకు అనారోగ్యం": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #5 "రాహుల్ కేసులో హైకోర్టు ఆదేశం రద్దు": picture line is long (40 letters) – keep stat + statl short so it fits one line
-- CHECK: #47 "ఉగ్ర అలర్ట్ లీక్‌పై విచారణ కోరిన బీఆర్‌ఎ": headline is 42 characters – may not fit one line (keep ≤ 38)
-- CHECK: #61 "కాళేశ్వరం నీళ్లు ఎత్తే పని లేదు: సీతక్క": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #70 "హ్యాండ్‌బాల్ విజేతలు పాలమూరు, వరంగల్": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #73 "కృష్ణా వర్సిటీలో కోస్ట్ గార్డ్‌పై అవగాహన": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #98 "రాలేదని అప్పీల్ కొట్టేయొద్దు: హైకోర్టు": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #100 "విశాఖలో డిసెంబర్ 10 నుంచి స్టోన్ ఫెస్ట్": picture line is long (35 letters) – keep stat + statl short so it fits one line
-- CHECK: #101 "కృష్ణా ఘాట్లలో కార్తీక పౌర్ణమి రద్దీ": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- **Labour Strike / Workers' Protest** – 1 story(ies), e.g. "యూకే ప్రయాణంపై హైకోర్టుకు సౌరవ్ దాస్". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Peaceful group of workers in helmets and work clothes gathered outside a factory or mine gate holding blank placards and plain red flags, seen from behind or at a distance. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents. Calm, non-violent. Top 15% plain plum sky. No readable text on placards, no faces in close-up, no logos, no watermark.
+## archive/2026-11-25.json: 110 stories · 1 to fix · 10 to look at · 0 fixed automatically
+- ERROR: #30 "ఆస్ట్రేలియా ఎన్నికల బరిలో హైదరాబాద్ మహిళ": pic "n/nri" is a generic old key – pick the exact e/ scene for this event (tools/pictures.md, "Exact picture for common stories")
+- CHECK: #6 "కూకట్‌పల్లి అరెస్టులను ఖండించిన బీఆర్ఎస్": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #7 "జోగిపేట హాస్టల్‌లో బాలికలకు అనారోగ్యం": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #10 "రాహుల్ కేసులో హైకోర్టు ఆదేశం రద్దు": picture line is long (40 letters) – keep stat + statl short so it fits one line
+- CHECK: #52 "ఉగ్ర అలర్ట్ లీక్‌పై విచారణ కోరిన బీఆర్‌ఎ": headline is 42 characters – may not fit one line (keep ≤ 38)
+- CHECK: #66 "కాళేశ్వరం నీళ్లు ఎత్తే పని లేదు: సీతక్క": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #75 "హ్యాండ్‌బాల్ విజేతలు పాలమూరు, వరంగల్": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #78 "కృష్ణా వర్సిటీలో కోస్ట్ గార్డ్‌పై అవగాహన": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #103 "రాలేదని అప్పీల్ కొట్టేయొద్దు: హైకోర్టు": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #105 "విశాఖలో డిసెంబర్ 10 నుంచి స్టోన్ ఫెస్ట్": picture line is long (35 letters) – keep stat + statl short so it fits one line
+- CHECK: #106 "కృష్ణా ఘాట్లలో కార్తీక పౌర్ణమి రద్దీ": picture line is long (37 letters) – keep stat + statl short so it fits one line
 
 ### Pictures needed (create in your image tool, send to Claude)
 - **Industry & Factories** – 4 story(ies), e.g. "డిసెంబర్ 5 నుంచి ఏపీ అసెంబ్లీ సమావేశాలు". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
+- **Labour Strike / Workers' Protest** – 1 story(ies), e.g. "యూకే ప్రయాణంపై హైకోర్టుకు సౌరవ్ దాస్". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Peaceful group of workers in helmets and work clothes gathered outside a factory or mine gate holding blank placards and plain red flags, seen from behind or at a distance. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents. Calm, non-violent. Top 15% plain plum sky. No readable text on placards, no faces in close-up, no logos, no watermark.
