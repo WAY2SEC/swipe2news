@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-25T11:35:00+05:30",
+ "cutoff": "2026-11-25T12:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-22T13:05:00+05:30/2026-11-22T13:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 4,
-   "late": 1,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 5,
-   "review": 0,
-   "gaps": "Lookback from 05:05 on 22 Nov. Feeds 13:17 IST, 68/68 ok; 12 new events since 13:05 plus older uncovered local events reviewed. add_repo not available; used existing clone. Published 4: Hans India KTR Jana Chaitanya Sabha Hanumakonda (05:13, late-found), Deccan Chronicle Jabardasth artists' car crash Palakoderu (13:24, no names), NewsMeter Hyderabad viral fever/dengue surge (13:09), NTV Pawan orders probe into Nagulaguttapalli sarpanch candidate death (12:55, sensitive, no name). Duplicates (already published 21 Nov): Vijayawada toy unit fire, Prakasam/Pelluru car crash 4 dead, Jagtial man stranded in Oman. Skipped: Rajasthan and Gujarat crashes (other state, no TG/AP link), Kurnool piracy gang (21 Nov), News18 two cyclones (dup of 09:05), celebrity/entertainment items. Not opened: Eenadu Kolkata-Hyderabad gold smuggling Rs 4 cr and Warangal Rs 2.12 lakh shed rent (searches returned only old pages), The Hindu SVVU Tirupati review. 4 district searches (Nalgonda, Khammam/Kothagudem, Srikakulam/Vizianagaram, Karimnagar/Peddapalli/Siddipet) gave only tag/old pages. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-22T13:35:00+05:30/2026-11-22T14:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 1,
    "gaps": "Lookback from 03:05. Feeds 11:15 IST (67/68 ok; 2795 events, 691 TG/AP uncovered by flag but most already on site). add_repo tool not available; used existing clone. Published 3: IANS/Punjab Kesari Kakinada 7 fishermen safe (11:24, update to 24 Nov story); Andhra Jyothy live graduate MLC draft voter lists, Form-18 till Dec 10 (07:18, late); INDToday Hyderabad-born Laxmi in Victoria poll Nov 28 (11:12). Dropped: Tirumala 12-hour wait (same live-page link as MLC item, check flags duplicate link). Skipped: Pendurthi official suspension (too vague), Nandyal/Vikarabad suicide items (sensitive, thin), PM Modi verse post (not news). Review: devdiscourse Reuters world summary (no publication time). Not found by search: TOI digital-arrest Rs 50 cr, The Hindu IRISET Kavach MoUs, NIE BJP 25-day agitation, NIE Kotia 58 nominations, NewsMeter AP crop loss 12.64 lakh ha, NIE CPDCL polling power, Medical Dialogues egg-harvesting bail. District searches: Nalgonda/Suryapet, Srikakulam/Vizianagaram, Medak/Sangareddy/Siddipet, Tirupati/Chittoor/Nellore, Jagtial/Nizamabad/Kamareddy, Eluru/W Godavari/Rajahmundry (all returned only tag pages). Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-25T11:35:00+05:30/2026-11-25T12:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 3,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 03:35. Feeds 11:56 IST (70/70 ok; 2884 events, 839 TG/AP uncovered by flag). add_repo tool not available; used existing clone. Published 3: Namasthe Telangana Khammam Edulapuram acid gas leak, 2 youths mildly ill (11:45); Hans India DEFCORE 2026 Vizag Nov 25-27 (07:27, late; earlier in review via Hello Vizag); Telangana Today/PTI Doval at Colombo Security Conclave (11:51). Duplicates: Siasat HC revives appeal (DC version already published), Moinabad swing death (22-23 Nov), SI hall tickets (23 Nov), 46,080 police for AP polls (24 Nov). Skipped: Mississippi Cessna crash 6 dead (Boston Globe 11:17, not major for readers here), Telangana Today Brigade land (31 Jan 2026, old). Not opened: 10 feed URLs typed directly were refused (PROVENANCE_REQUIRED, cost 5 min - never fetch feed URLs without a search hit); The Hindu items not found by search (school case after swing death, airport storage +140%, Brigade Rs 180 cr, Vijayasai toll demand, Bhairavakona 10,000 devotees, Kanchi pontiff Tirupati hall); aircargoweek GHIAL cargo page failed. No district searches done. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7663,6 +7663,61 @@
    "url": "https://ommcomnews.com/india-news/education-austerity-knowledge-control-over-senses-means-to-good-life-salvation-pm-modi/",
    "d": "2026-11-25",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.ntnews.com/khammam/gas-leakage-causes-chaos-in-emc-under-edulapuram-municipality-2568618",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/visakha-to-host-defence-manufacturing-meet-1145607",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/india-pledges-csc-security-cooperation",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/high-court-revives-hyderabad-mans-appeal-dismissed-for-his-no-show-3586131/",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.bostonglobe.com/2026/11/25/nation/mississippi-plane-crash/",
+   "d": "2026-11-25",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.jpost.com/international/article-916047",
+   "d": "2026-11-25",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/six-die-in-mississippi-plane-crash",
+   "d": "2026-11-25",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/brigade-group-signs-deal-for-prime-secunderabad-land-plans-premium-residences",
+   "d": "2026-11-25",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/46080-police-personnel-being-deployed-for-thursdays-elections-2007646",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/10-year-old-dies-after-giant-swing-hits-him-during-school-picnic-in-moinabad-779913",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://education.sakshi.com/en/telangana-jobs/education-news/telangana-si-hall-ticket-2026-released-download-admit-card-preliminary-exam-november-29-202843",
+   "d": "2026-11-25",
+   "w": "duplicate"
   }
  ]
 }
