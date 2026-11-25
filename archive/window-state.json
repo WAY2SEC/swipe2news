@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-25T22:05:00+05:30",
+ "cutoff": "2026-11-25T22:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-22T23:35:00+05:30/2026-11-23T05:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 13,
-   "published": 12,
-   "late": 1,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 5,
-   "skipped": 4,
-   "review": 1,
-   "gaps": "Night run. Lookback from 15:35 on 22 Nov. Feeds 04:45 IST (70/70 ok). 414 uncovered events since 23:00 (77 TG/AP) scanned by headline; 22 opened via 3 search agents; no district searches. add_repo tool not available; used existing clone. Published 12: DC AP first-phase panchayat poll 3,191 sarpanch posts (23:42), DC YSRCP complaint to SEC (23:37, claim, sensitive), DC Miduthuru nomination clash (23:26, claim, sensitive), DC Vizag mayor-elect oath deferred (23:33), DC GHMC Shaikpet horse sculpture tender (00:32), Hans Gandra paddy Bhupalpally (03:49, claim), Hans AgriGold bond verification Kothagudem (03:37), Hans SBI computers Nagarkurnool (03:31), Hans Tirumala Karthika Deepotsavam Nov 24 (02:01), Hans Telugu Black Hawks bronze (02:46), IANS Tilak Varma 100 India A lose (00:45), Business Standard Tata Steel-APL Apollo Rs 28,000 cr (22 Nov 21:13, late). Duplicates: AP civic swearing-in today, CBN unanimous panchayat incentives, SEC polling station merger, CM Achampet/Maddimadugu Nov 26, Revanth 90 seats (same PAC meeting as 20:05 story). Skipped old: News On AIR Cyclone Akvan x2 (18-19 Nov), TG assistant professor 526 posts (12-20 Nov); ETV Bharat UNICEF survey (13:36, before lookback). Review: Reuters/Investing.com US intel chief on Putin (time zone unclear). Not opened: TOI UNICEF midday-meal lab tests, DH/PTI India-Iran SCO meet, Telangana Today URLs (fetch timed out). Eenadu/Sakshi/Andhra Jyothy/Suryaa district items from the night not worked through - left uncovered for next runs. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T05:05:00+05:30/2026-11-23T05:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 13:35. Feeds 21:45 IST (68/70 ok; 114 uncovered unseen events since 20:45, 40 local). add_repo tool not available; used existing clone. Published 4: DC Uttam 15-month fine rice buffer/miller recoveries (21:18, fact), TT 74% on two-wheelers: Cyberabad CP (21:23, fact, logo), DC Khelo India stadium repairs (21:32, fact, logo), News Mill/ANI Vijayasai PRP third alternative (21:12, claim). Duplicates: Business Today US tariffs on India (published 19:35), South First AP tur dal Rs 100/palm oil Rs 125 (TV9 version published earlier today), Asianet PRP (same event). Skipped: search returned old DC items for Bhadrachalam temple (Oct 30) and AP commodities (Oct 27); shawarma 43 ill is Bhiwandi, Maharashtra (other state). Not opened (thehindu.com blocked / no other source found): Bhadrachalam Rs 300 crore works, TG CM ration basket, Sridhar Babu Manthani Pushkaralu, Guntur SP ULB polls, AP circular economy, Prakasam/Nellore heavy rain, Akbaruddin minority schools, TG CEO RTI SIR. Not searched: DC I4C WhatsApp Web (search gave no DC link), HMTV/Suryaa/Disha village items, Harish Rao statements, AJ Naidu warning to rebels. First TT fetch without search provenance lost ~5 min. No world, no district searches. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-25T22:05:00+05:30/2026-11-25T22:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 5,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 14:05. Feeds 22:20 IST (67/68 ok; 62 uncovered unseen events first seen since 21:40, 24 local). add_repo tool not available; used existing clone. Published 5: Siasat HYDRAA Khajaguda park Rs 70 cr (21:55, fact), DC Keeravani anthem Invest Telangana summit Dec 7-9 (21:51, fact, logo), DC Google/LLF NARI Shakti 10,000 women Vizag/Anakapalli (21:56, fact), Andhra Jyothy World Bank/ADB Amaravati visit (21:44, fact), DC Ichoda harassment arrest (22:11, fact, sensitive, no name). Duplicate: DC/Hindu Naidu essentials review incl. Dharani rice 500 centres (same review as tur dal Rs 100 story published earlier). Not opened/not found by search: Pulivendula RDO NBW (Disha), V6 T-Hub buses every 5 min, IIIT-H Google PhD fellowship, Hindu KRMB/BRS, Hindu Bandi Sanjay Kondagattu, Hindu APPSC reschedule, Hindu Russia detainee, Pawan forest patrol (AJ), Women's ACT hockey India-Japan (Hindu). No world/India, no district searches. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8628,6 +8628,96 @@
    "url": "https://telanganatoday.com/43-fall-ill-after-eating-chicken-shawarma-in-maharashtra-s",
    "d": "2026-11-25",
    "w": "skip"
+  },
+  {
+   "url": "https://www.siasat.com/hydraa-protects-park-land-worth-rs-70-crore-in-khajaguda-3586885/",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/mm-keeravani-to-compose-four-language-anthem-for-invest-telangana-global-summit-2026-2007926",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/google-llf-to-train-10000-women-entrepreneurs-in-vizag-anakapalli-2007930",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/guntur/world-bank-adb-team-visits-amaravati-development-projects-1579749.html",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/ichoda-police-arrest-man-for-harassing-woman-2007936",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/common-people-should-not-face-burden-of-rising-prices-of-essential-commodities-naidu-2007910",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://hmtvlive.com/telugu-news/hyderabad/hydraa-protects-3500-sq-yards-park-worth-rs-70-crore-in-khajaguda-217219",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://manatelangana.news/telangana-breaking-news/hydraa-protects-park-land-worth-rs-70-crore-in-khajaguda-1655135",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://newsmeter.in/hydraa/rs-70-crore-park-land-saved-in-hyderabads-it-corridor-hydraa-fences-3500-sq-yards-780004",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/telangana-global-summit-keeravani-anthem-vvnp-1579732.html",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/cm-naidu-orders-expansion-of-dharani-rice-sales-to-500-centres-in-andhra-pradesh/article71743399.ece",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPYllKVS1hODBxUmxJQkdKUE9yb1R0QzFNdjhDTTNZWnZUcElNZG1raVpiX3M1NDBtQUJ6Vl9FNmhlV0YxYlNJMzBlRnpTanh6YmJaaXpvdmJyV3VCQjZ3RE95Sld2am13RTZGc2ZGME1SRnFzTHBmYkdraXdLTHFnTlp6VXo1MnNwaUFoVV9QUXNQWEJtVHpEdm1tWFpmWGxoUDVXMmVtYTFsM01nemh5TGtoV0x5MU9rMGcza3F2YTNlaDZPbzBKb2JPVEJBWUVjQkFsSTRoVWVQdy11UzEzdUdqNzFMSmthaGfSAfABQVVfeXFMUDJ1Z180eFdBXzRPZTBkV2pJSk1RckhabVp4LXBOV2dMaXJzZUdCWEZqTkhlNzZ1azNBa2FNSTNSRUYwT2xsY3gyVjVweEl1UEFQWHJjUVBVckNCOWdaUEx5Z2xCWnN5TTkxUGtrRTNrcnpXdi1hQlRNNW1nMHpSUkVHbzZxSTFTX0dobTA1dGdTcGhuTWhnUWM5SlYwUW5CUnNHZ250Z0o3ZnljRHVWSm1lRnBjSUdwWVkyV2ptbTFCaGU3ZlVnV3pPYk16dnJLNU0wQ1o0VW1NZDhKTUI0Zkc2UmhXNlhHTFpBVVI1Y2U1?oc=5",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMHhxb3h2Y1Bhd213Qm1YUU1SUzJRRFFYSkNnTWp3RXd5QzNoTEZ0eFVmQm0zNVpUaUplY3plX1M0LVh4a2NlZlRkZ3JWbWt0ckU4T1BYSGdtMkVoV3pmNEdnRlpydV9YUmxiOEdFYlRKOUlsS0s5X09vTVFRNHFpQjdDV1BnU3g5dTBpaEhucUd0Z9IBlwFBVV95cUxNTWx3eWR1b3JDM0JYbFJyUy0wMkxEQUM0YnE2bEtNYWwyN0tobm1yVUdTX0hBSGpJRy1rUlhtWWdJcF9WNmRieUpJRnZrNGdFSE9yMjJaaWhSUUE3dXkxcE9rd29mcWdTRkM5TVdoQUhTdWd2cmtvMXphQ1pkdXk3dnF1Vmw1a0ozNEx0alRJNEU5ZFR5X2V3?oc=5",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORTVINXMzcWhobk5KRWpMQWRDMGlnU2w3c2VkSzVfcnFOWlA5QWZNNDJ3U1ZLZ1JmTGFEX040UDBqbVB6ZlRzNEp1emxRampGRlYyR2JUQVFGd01rZGxiRVpoTzFzMHFfd1pKeXgwcjhkRnJrNmU5c01lR2VRbkhtWkZ2VThVLWtSTXNUcVp6aEw2UTRDRlVkb29Qc1EtWS1GU1ViQS1EdmtySlU4Y3ZlYVlMRWs4RFV1cXQxVk5KTzlSblVW?oc=5",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcjNXRmVfS2FsWGN1NXpTU0JKT29VSll4VHc4UEVYMkF6WGxPS001T19ZWF9CMkEtTXRaOWhFWWRJN085dEIwcjh2bGQxZUgwMjZyYnNRbTBEdnVCeDViZjM5ZWM4OXdqMXZNU2VIT1ZfNzZiWWM2OFQtN1ZtbElzcE5TdFVHVnE1VjBlbFBOeFNnZG1idVhDMEUtdVBlUHZ4MmNSU0ZMTlZ2cFZKcE9tR3F3RVNVbXk4d1dycmZmWXAzaHZEaGRQQ3NZUHFCTzJhbnEtUktPUVN3QTRUMG9kek5XNFnSAeoBQVVfeXFMT0RCUVZITHlJRGJlNkNaY0s1MXE1RFNaWDZTelMxQ0lVWG1WOUdIWmQ2OGI4Z0hWdHZBSEZIdWhmRkFrMkRreWpYdEZWRzR4RVFiQVEzbzQ3MUlzdWk1MHI3WkZRWnBDSzZlZm55aDJpVHMySVhtRU5PbjFQUXhHaUtyQWxJcVZlY3RhdkYzd0V0OXplYmlQOVJ3Q3FWa0d6MGp5cUM2cU5vWWV6RWdHeGduNnF4Yi16Wkg2ZXVRcDRWaG5WaDVwMEV3MjV3bnFnTVdhTm1CeDlNcUgxOEwtMXlRa1J3WUNnZlZn?oc=5",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUU56NmFkcXU2SFR3S0d2aDAxQ2xKZDFEc1pwLWozSHZiNi1nTzFHSGR3SlNjNXBpSE9STjR3ZjNGOGM4bEkwcUtDa3ZNV21NVUNFRUxJV29ubnpSTXRNeTBEMjRrTGZESVhMWlU2aTFjbVFhS1BxWFR0cWlJeHJMNGl6WTdieldZOFdBc19fVlRiZjNqbENfbHgyaHhUdHFRTnZ2QjNZd25aRG0xMTF3eVU1dVY3WFBCdXg0YmRSS3VHcVFGSkI1c1g5Z3ZxSUFmc0HSAdcBQVVfeXFMTTFvZ3JQUVJlMTA1NU1iR0VCcWQydnZkV0UtZ3RLU1ZqZzdGUmJXN1RGLXZHdU9mMXBobS1YVExPR3BONmlWWEZ3MHZHRThiSU51ak9qdmk1MUx3YWp2eDNxUjFjZ0Y5djBXZThLaGIzanRNNUk5TUJkTWZuSDZYVU9NaHJBZjJveVpicl9EQThXWjhrSnl4TmUza0FzclkyWVV2anUzSjRKLU5UM2pFdnZxWkV4UGVkakhhTG1ERGo5a0pSYlFhbm9adTVOS0hWdzhZQXVZdzA?oc=5",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVi1WNGJ4UjJWQmNIM3dmZ0NaZ2F3MDBhcUk1UktpTElPZ0lNN0pZM0RtR2R5ZktJQ3FkS2xmYWZvTlZlZHBsVTNXTUlCZ05lVTVJSC1TS0EzeVRnbDZVRnpaSU5fVExrWHpqaTIzRTV2Q2g0OWhBVlNlNnp3LVR6eGtlOEswM3ZRRWw0Yk5BNWQ5d0hUMFZERDFnSEFPM2paOVpDTW5DTVRSUS1sRnVZ0gG0AUFVX3lxTE8wS3JtcUdPaldUQXBibWpGUGlPcjQ0RHFJa1poRmRlSFRXRmVZSE80MkF4U0xjWU5jcmZFWEhqek5makNxUHdUdlBMdUhzUTFKTF9UU2lZSURHSmtVdWlpN1FiQjFqWGE5RHUwUFhKYzZWa0YwU0N0M253dzg2REs1TlB4Z3g3M3RsQk8tOGp1V1RieS1zdzE1bGhrWHpiYWlXd2hteHFRNG5GT2xjMGlKOFdCRA?oc=5",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNc002WWZUYnFzU3RiT0t4RE1Od3lGcjkyZGFKQkdvY2ZUVHBKVlRBbDdmdUtsYmpDdF9kS3liV2RjWWowZ1dnS2RPZW1Eck1vaXFIN01EUU81dG84NlY4aVlWaGhHUld6Y0dUWklla21tRjhnQXlhR2tGeXRpZ2RoV2Nzc05WWC1kdHN5TFFqOFg0amdfQ1ladUMtYTJUUVh2QzZOS0k1eS1LbTloZ1puQkNuS00zWEVMMDlN0gHAAUFVX3lxTE1BeG5odzFySnN1akpweW9INS1oSGdwdHAyYzlhRnJzVlZYcjRndkRMSFUyakVYcVk4cHp0bk8xUjI4VmFCRHQycExIUTBfek0zRWNkLURxeE1RVlNuMnNmS0g2S0NtRmhsVGxRRGt5eTE2WGNuMnhRTllHME9MZGdxWU81NjQtOGhUUWlwYzJoZEJmUjh1b1N0T1JHbGwwWWcyWlFVdUU2OWc1YzRMMjVGaUZsTDBPLVZPcS1WSWZRVQ?oc=5",
+   "d": "2026-11-25",
+   "w": "2026-11-25T22:35"
   }
  ]
 }
