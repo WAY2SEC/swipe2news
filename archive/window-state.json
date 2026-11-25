@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-25T20:05:00+05:30",
+ "cutoff": "2026-11-25T20:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-22T21:35:00+05:30/2026-11-22T22:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 2,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Lookback from 13:35 on 22 Nov. Feeds 21:48 IST (70/70 ok); 157 unseen uncovered events since 20:30 scanned by headline, ~20 searched. add_repo tool not available; used existing clone. Published 2: Siasat Hyderabad 447 drunk driving (21:15), Siasat Prashant Bhushan on SIR in Hyderabad (21:23, claim). Duplicates: DC KRMB panel Monday meeting (published 21 Nov 23:40), KTR 'KCR CM in 2028' (Hanumakonda story 18:55), AP ULB first meetings (08:35). Skipped as old: South First NFHS-6 C-section stories (29 May, 5 Oct; Samayam 21:27 version not found). Not opened: Disha daily (site client error on all 5: Srisailam ghat accident, Mahadevpur cockfight raid, land-dispute death, NH-44 fog lorries, fake police arrest); The Hindu direct feed URLs (fetch permission timeout: AB lines in oil palm fields, Dwaraka Tirumala minors rescued, Telugu audio lessons app, Kadapa ZP chairperson); search did not return: Lokesh challenge to Jagan, AP taekwondo medals, BRS-KRMB delegation. ETV Bharat live blogs had no entries after 16:42; Andhra Jyothy flash page ended 07:37. No district searches this run. check_news.py e/ key false errors as before; lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-22T22:05:00+05:30/2026-11-22T22:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 11:35. Feeds 19:56 IST (69/70 ok, ETV Bharat failing; 111 uncovered events first seen since 19:05). add_repo tool not available; used existing clone. Published 8: Siasat Khammam Edulapuram gas cylinder leak 20 hospitalised (19:48, fact), Siasat Madhapur bike crash pillion dies (19:41, fact, sensitive, no names), TT Sangareddy Bardipur tractor death (19:42, fact, sensitive, no name), TT Malkajgiri cybercrime OLX fraud Rs 12.20 lakh (19:39, fact), TT Nirmal SP on RGUKT Basar student cyber fraud (19:31, claim, sensitive, no name/method), NewsMeter TG RERA fines Auro Realty Rs 25 lakh (19:57, fact), NT AP rain two more days (19:53, forecast), BigTV Mallanna Sagar 100 MLD trial run to Hyderabad (19:23, fact). Duplicates: Hindu Kadapa sand mining CM report (published 15:35), Khelo India CM review (published 16:05), Deccan Herald Kakinada fishermen (published earlier). Skipped: HMTV Banaganapalle sarpanch unanimous (24 Nov 18:59, before lookback; Hindu 19:30 version not found by search). Not found by search: Hyderabad Mail TGiCCC driver posts, Disha green water tanker suspensions, HMTV Khammam CP inspection, ANI India-China talks. Not attempted: Suryaa/HMTV/Disha village items, Vijayasai remarks, Cityflo shuttles, Srisailam Vanabhojanalu, other India/world. No district searches. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-25T20:05:00+05:30/2026-11-25T20:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 3,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 5,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 12:05. Feeds 20:14 IST (68/70 ok; failing topic:తెలంగాణ ప్రభుత్వం, topic:India; 39 uncovered unseen events first seen since 19:50, 16 local). add_repo tool not available; used existing clone. Published 3: DC Ponguleti Indiramma houses for all eligible, Vepalagadda/Burgampadu (20:03, fact), Siasat TGHRC suo motu on Bachupally STP deaths, reports by Dec 22 (18:18, fact), Hans India Warangal CP Shweta reviews pending cases at Thorrur (19:37, fact, logo). Duplicates: Kishan Reddy anti-drug padayatra (published 12:35), Graduate MLC draft rolls (published 11:35), AP 46,080 police for polls (seen), Kukatpally auction BRS protest (published 14:05), Hyderabad power bank blast (published 13:05). Skipped: NewsBytes oocyte notices (13 Nov, old); Warangal camp office political statements (party claims). Not opened: Hindu APPSC exam reschedule to Dec 20-24, Hindu TG agriculture value addition (feed URLs not fetchable, not found by search), 10TV/Disha/HMTV/Suryaa Google News items, Khammam poisoning, Women's Commission oocyte Governor, Appi Reddy bail, barat knives arrests. No other India/world. Few district searches (web search returned little). Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8378,6 +8378,81 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOclF5RmZWS19WakVfanRuY2xYVWNidUJ4VWxodE1wWjdfUmZwSEtzV1RyejI0WlQ1OHktUWI1MGVfV1FMbGRvTzRrQUwwb0x3UDFKV3VYNnNaNk5QUExxQkhVZ2xZOV9VQUoyenYydE9neXBrdk02Z09laGM1TS1COHhPSEh1M3VlQ2FIdXpWbTlWZExhdk9hYzB4ZEVPT0pUOG5TMzcwcUxnLUx5eUE?oc=5",
    "d": "2026-11-25",
    "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/every-eligible-poor-family-to-get-indiramma-house-ponguleti-2007898",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/septic-tank-deaths-tghrc-seeks-reports-hydraa-warns-of-action-3586638/",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/warangal/no-negligence-in-crime-control-and-resolution-of-pending-cases-1145739",
+   "d": "2026-11-25",
+   "w": "published"
+  },
+  {
+   "url": "https://vaartha.com/latest-news/minister-ponguleti-srinivas-reddy-indiramma-houses-welfare-schemes-burgampahad/810276/",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/kishan-reddy-kicks-off-3-day-padayatra-for-nasha-mukt-bharat-3586279/",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/kishan-reddy-flags-off-anti-drug-march-urges-youth-to-join-the-cause/article71742137.ece",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.10tv.in/telugu-news/telangana/telangana-graduate-mlc-draft-electoral-roll-published-1189-lakh-applications-approved-sn-1161828.html",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/telangana-ceo-releases-draft-electoral-rolls-for-two-graduate-mlc-seats-vk-1579701.html",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/46000-police-personnel-deployed-for-first-phase-panchayat-and-urban-local-body-polls-ap-dgp-harish-kumar-gupta-2007738",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/46000-cops-on-guard-for-panchayat-urban-polls-1145604",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/brs-leaders-protest-against-government-land-auction-detained-3586438/",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/hyderabad-man-suffers-burns-as-power-bank-explodes-while-charging-3586304/",
+   "d": "2026-11-25",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.newsbytesapp.com/news/india/telangana-state-womens-commission-flags-suspected-illegal-oocyte-donations/tldr",
+   "d": "2026-11-25",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/warangal/congress-party-ready-for-discussion-on-warangal-development-will-not-tolerate-attacks-1145735",
+   "d": "2026-11-25",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/warangal/brs-cannot-be-intimidated-by-force-1145734",
+   "d": "2026-11-25",
+   "w": "skipped"
   }
  ]
 }
