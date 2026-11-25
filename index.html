@@ -870,6 +870,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 #exSheet .exlist button>svg:first-child{color:#2E0827;flex:none}#exSheet .exlist button>span{flex:1}#exSheet .exlist button>svg:last-child{color:#2E0827}
 #exSheet .excom{width:100%;display:flex;align-items:center;gap:14px;margin-bottom:8px;padding:14px 16px;border:0;border-radius:16px;background:#EFE5DA;color:#1E1018;font:700 15px var(--body);cursor:pointer;text-align:left}
 #exSheet .excom svg{color:#2E0827;flex:none}#exSheet .excom span{flex:1}#exSheet .excom b{font-size:18px}
+#exSheet .extop-ct{display:block;width:100%;text-align:left;margin:2px 0 12px;padding:9px 12px;border:1.5px solid #E9D8E4;border-radius:12px;background:#FBF4F8;color:#2E0827;font:600 13px/1.35 var(--body);cursor:pointer}#exSheet .extop-ct span{display:block;font-size:12px;color:#7A5A70}
 #exSheet .excontact{border:1.5px solid #E9D8E4!important;background:#FBF4F8!important}.excontact .cic{font-size:22px;width:22px;text-align:center}.excontact small{display:block;font:600 12px var(--body);color:#7A5A70;margin-top:2px}
 #ctSheet{background:#F7F3F6;overflow:auto;display:block}#ctSheet .schead{position:sticky;top:0;z-index:6;display:flex;align-items:center;gap:10px;padding:12px 14px;background:#4A0E3F;color:#fff}#ctSheet .schead h1{flex:1;margin:0;font:800 18px/1.2 'Outfit',var(--body)}#ctSheet .schead button{height:36px;min-width:36px;border:0;border-radius:12px;background:rgba(255,255,255,.12);color:#fff;font:800 18px var(--body);cursor:pointer}
 #ctSheet .ctw{padding:22px 20px 40px;max-width:560px;margin:0 auto}#ctSheet h2{font:800 26px var(--head,inherit);color:#4A0E3F;margin:6px 0 4px}#ctSheet .lead{color:#6B5563;margin:0 0 18px;font-size:15px;line-height:1.5}
@@ -3260,6 +3261,7 @@ function openExplore(){ const T=EXTX[TLG()?'en':LG()]||EXTX.te, l=LG(); let h=$(
    <div class="exbody">
     <div class="exhi"><span>${esc(T.g[exG()])}${prefs.name?', <b>'+esc(prefs.name)+'</b>':''} 👋</span>${prefs.name?'':`<button type="button" class="exname">${esc(T.askN)}</button>`}</div>
     <h2>${esc(T.t)}<i>.</i></h2>
+    <button type="button" class="extop-ct" data-c="contact">📞 <b>${esc((CTX[l]||CTX.te).sub)}</b> <span>swipe2news@gmail.com · +91 70326 56422</span></button>
     <div class="exprof" hidden><b>${esc(T.prof)}</b><label>${esc(T.nameL)}<input type="text" maxlength="30" autocomplete="given-name" placeholder="${esc(T.nameP)}" value="${esc(prefs.name||'')}"></label><small>${esc(T.nameNote)}</small><div><button type="button" class="exsave">${esc(T.save)}</button><button type="button" class="exset">${exi('set',17)}${esc(T.set)}</button></div></div>
     <button class="exsearch" type="button">${exi('search',22)}<span>${esc(T.ph)}</span></button>
     <div class="exchips"><button type="button" data-a="lang">${exi('lang',18)}<span>${esc(U('lname'))}</span><em>⌄</em></button><button type="button" data-a="place">${exi('pin',18)}<span>${esc((prefs.village?prefs.village+', ':'')+exPlace())}</span><em>⌄</em></button></div>
