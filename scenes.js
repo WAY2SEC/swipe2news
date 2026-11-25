@@ -456,6 +456,9 @@ function artPlan0(s){
     // …but when we do have the exact picture, use it (owner 25 Nov 2026: airport story showed the logo – "use airport images")
     const t=[s.h,s.statl,(s.en&&s.en.h)||''].join(' ').replace(/\u200c|\u200d/g,'');
     if(/విమానాశ్రయ|ఎయిర్\s?పోర్ట్|ఎయిర్‌పోర్ట్|\bairports?\b|हवाई\s?अड्ड|एयरपोर्ट/i.test(t)) return {m:'land',bg:'e/airport-travel'};
+    // owner 25 Nov 2026: cycle riders and motorcycle riders
+    if(/సైకిల్|సైక్లింగ్|సైక్లిస్ట్|\bcycl(?:e|ing|ists?)\b|\bbicycles?\b|साइकिल/i.test(t)) return {m:'land',bg:/ర్యాలీ|యాత్ర|బృంద|గ్రూప్|rally|group|ride\b|साइकिल यात्रा/i.test(t)?'e/cycling-group':'e/cycling-city'};
+    if(/బైక్|ద్విచక్ర|మోటార్\s?సైకిల్|టూ\s?వీలర్|\bbikes?\b|\bbikers?\b|motorcycl|two-?wheeler|बाइक|दोपहिया|मोटरसाइकिल/i.test(t)) return {m:'land',bg:/యాత్ర|టూర్|దేశవ్యాప్త|tour|expedition|across India|road trip|यात्रा/i.test(t)?'e/bike-tour':'e/bike-riders-city'};
     if(/సరిహద్దు|బీఎస్ఎఫ్|బీఎస్‌ఎఫ్|\bBSF\b|\bborder\b|सीमा|बीएसएफ/i.test(t)) return {m:'land',bg:'e/border-security-patrol'}; // owner 25 Nov 2026 (Bangladesh border story)
     return {m:'logo'}; }
   { const pc=String(s.pic||''), m=pc.match(/^(c|o|i|n|s|cv|w|d|e)\/([a-z0-9-]+)$/);

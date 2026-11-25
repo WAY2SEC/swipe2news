@@ -66,6 +66,13 @@ Deaths/killings → e/remembrance-and-condolence (same as n/condolence). Do NOT 
 - e/street-vendor – street vendors, rythu bazaar, vegetable prices, PM SVANidhi, market encroachment
 - e/tailor – tailors, women self-help groups, skill training, handloom/garment work, saree/blouse business
 
+### Cycle and bike riders (owner, 25 Nov 2026)
+- e/cycling-city – cyclists in Hyderabad (Charminar): cycling day, cycle commuting, cycle tracks, cyclists' safety
+- e/cycling-group – a group ride: cyclothons, cycle rallies, cycling clubs, "ride for …" events
+- e/bike-riders-city – motorcycle riders in Hyderabad: two-wheeler commuters, bike numbers, helmets, bikers' clubs
+- e/bike-tour – couple on a long bike tour across India: bike expeditions, road trips, all-India rides
+(the app also uses these automatically for cycle / bike stories marked "logo")
+
 ### Exact picture for common stories (owner 21 Nov 2026: "use the exact images") – REQUIRED for new stories
 **No exact picture → `"pic":"logo"` (owner 24 Nov 2026: "if you do not have any image, don't use anyone – just use our logo").** Use an e/ scene only when a reader seeing ONLY the picture would guess this event. A near miss is wrong: an anti-drug padayatra is not a counselling clinic, a minister's meeting is not a hospital, a festival is not a protest. When in doubt → "logo" (the app shows the Swipe2News logo card, no "AI picture" label). Party/organisation logo pictures still count as exact when the rules below say so.
 Old generic keys (c/…, n/…, cv/…, s/…) are no longer accepted for new stories: pick the e/ scene that shows THIS event.
