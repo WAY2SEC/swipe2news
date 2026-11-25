@@ -577,7 +577,13 @@ const ART_ORG=[['ghmc',/జీహెచ్ఎంసీ|జీహెచ్‌ఎ�
 const ART_FOREIGN=/పాక్|పాకిస్తాన్|చైనా|అమెరికా|ఇజ్రాయెల్|ఇరాన్|రష్యా|ఉక్రెయిన్|బంగ్లాదేశ్\s?(?:సైన్య|ఆర్మీ|నేవీ)|Pakistan|China|Chinese|America|\bUS\b|U\.S\.|Israel|Iran|Russia|Ukraine|पाक|चीन|अमेरिका|इज़राइल|ईरान|रूस/i; // owner 25 Nov 2026: official Khelo India Youth Games 2026 (Telangana) logo for all its news // owner 24 Nov 2026: "use attached image for all RSS news"
 function artOrg(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[o.h,o.statl,(o.en&&o.en.h)||''].join(' ').replace(/\u200c|\u200d/g,'');
   for(const [k,rx] of ART_ORG) if(rx.test(t)){ if((k==='army'||k==='navy'||k==='iaf')&&ART_FOREIGN.test(t)) continue; if(k==='rss'&&/హత్య|దాడి|మృతి|అరెస్ట్|murder|attack|kill|arrest|हत्या|हमला/i.test(t)) return ''; return 'e/logo-'+k; } return ''; }
-function artPlan(s){ const ok=artOrg(s); if(ok) return {m:'land',bg:ok}; const a=artPlan1(s); const pk=artParty(s,a); return pk?{m:'land',bg:pk}:a; }
+// owner 25 Nov 2026: "use this image for all airport cargo news"
+const ART_AIRCARGO=[/కార్గో|సరుకు\s?రవాణా|\bcargo\b|\bfreighters?\b|\bULDs?\b|कार्गो|माल\s?ढुलाई/i, /విమాన|ఎయిర్|ఏవియేషన్|\bair\b|airport|airline|aviation|हवाई|एयर/i];
+function artAirCargo(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[o.h,o.statl,o.stat,(o.en&&o.en.h)||''].join(' ').replace(/\u200c|\u200d/g,''); return ART_AIRCARGO.every(r=>r.test(t))?'e/air-cargo':''; }
+function artPlan(s){ const ac=artAirCargo(s); if(ac) return {m:'land',bg:ac};
+  { const o=(s&&s._orig)||s; // airport stories without a chosen picture: the airport picture, not the train/travel one
+    if(o&&!o.kind&&(!o.pic||String(o.pic).startsWith('c/')||String(o.pic).startsWith('n/'))&&!artOrg(s)&&/విమానాశ్రయ|ఎయిర్\s?పోర్ట్|\bairports?\b|हवाई\s?अड्ड|एयरपोर्ट/i.test([o.h,o.statl,(o.en&&o.en.h)||''].join(' ').replace(/\u200c|\u200d/g,''))) return {m:'land',bg:'e/airport-travel'}; }
+  const ok=artOrg(s); if(ok) return {m:'land',bg:ok}; const a=artPlan1(s); const pk=artParty(s,a); return pk?{m:'land',bg:pk}:a; }
 function artPlan1(s){ const a=artPlan0(s); if(!a) return a;
   if(a.m==='cat'){ const k=ART_NEW['c/'+a.cat]; if(k) return {m:'land',bg:k}; }
   else if(a.m==='plain'&&a.obj){ const k=ART_NEW['c/'+a.obj]; if(k) return {m:'land',bg:k}; }
