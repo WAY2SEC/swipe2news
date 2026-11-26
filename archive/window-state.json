@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-26T06:05:00+05:30",
+ "cutoff": "2026-11-26T06:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-23T07:35:00+05:30/2026-11-23T08:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 16,
-   "published": 16,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 3,
-   "review": 2,
-   "gaps": "Lookback from 23:35 on 22 Nov. Feeds 07:56 IST (69/70 ok; Mana Telangana failing). 144 uncovered events since 06:45 scanned; 32 sent to 4 search agents, 24 opened. add_repo tool not available; used existing clone. Published 16: V6 pre-primary staff pay (06:56), V6 Singareni coal block bids (07:46), V6 KTR Hanumakonda (07:27, claim), V6 CM Revanth 15 MP seats (07:30, claim), NT paddy auctions (07:12, claim), V6 Kodandaram Hardware Park (07:24, claim), V6 DTF Inter merger (07:22), V6 Cyberabad CP cycle (07:37), V6 Kishan Reddy drug-free (07:32), V6 MP Vamsi Krishna Peddapalli (07:10, claim), V6 BRS to meet KRMB (06:45), TV9 AP NCD survey (07:12), NTV Visakha TDP vs Jana Sena (07:35, claim), AJ Srisailam rush (07:45), TV9 RRB station master (06:52), ap7am/IANS India A lose to Pakistan A (06:42). Duplicates: HMTV Nacharam 60 kg ganja (published 22 Nov), The Week Bisleri FSSAI (published 22 Nov 21:35), Ommcom Nepal PM talks (visit programme published 22 Nov). Skipped: Siasat TGRERA Sanali fine (18 Nov, old), Reuters RBI poll (20 Nov, old), 10TV two more cyclones (07:12; vague, no named official warning). Review: Anews Trump Iran strikes (22 Nov 22:50, timezone not shown), NewsBytes Ganga treaty renewal (07:04, timezone not shown, summary page). Hans Indonesia factory fire update (24 body bags, 34 missing) opened but not published - earlier story stands, left for next run. Not opened: NIE quacks Telangana, NIE Kawal winter birds, NIE Ayush hospitals NTR Vaidya Seva, NIE Vizag green campuses, NIE five sarpanches unopposed NTR, NIE Srikalahasti kitchen, NIE Prakasam 215 in fray. No district searches this run. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T08:05:00+05:30/2026-11-23T08:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Lookback from 21:35 (25 Nov). Feeds 05:47 IST (70/70 ok; 701 uncovered unseen events in lookback, 172 local). add_repo tool not available; used existing clone. Published 5: DC contract assistant professors dharnas (23:44, fact), DC YSRCP seeks more police for municipal polls (23:27, claim), Hans Mahadevpur Tahsildar office + fire station (01:16, fact, logo), Hans Akkampet model village (01:19, fact, logo), Hans Vizag fake power-bill messages (01:42, fact). Duplicates: DC Edulapuram gas leak 3 sick (already published from NT/Siasat; Siasat said 20 hospitalised, DC says 3), Hans BRS-Left HMDA protest (already published from TT). Not opened: Siasat Children's Bank notes gang (direct feed URL refused, no search hit), TOI HC JEE Aadhaar/CGHS, DC HC bars recording, Hans/South First AP subsidised tur dal + palm oil, DC/NIE MLC draft rolls, Hindu Bandi Sanjay Kondagattu station (no search hit; domain-filtered searches partly rejected by search proxy). AP panchayat poll security stories skipped as already covered by first-phase polling story. No district searches. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-26T06:05:00+05:30/2026-11-26T06:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 9,
+   "published": 6,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 3,
+   "review": 1,
+   "gaps": "Lookback from 22:05 (25 Nov). Feeds 06:30 IST (57/70 ok; 546 uncovered unseen events in lookback, 106 local). add_repo tool not available; used existing clone. Published 6: DC Nagarkurnool ₹450 cr works (23:24, fact, logo), Hans AP 23 ULB polling today (03:01, fact), Hans AP junior colleges Constitution Day (02:53, fact, logo), HMTV Gadwal bike-tree crash 1 dead (22:41, claim, no name), ThePrint/PTI India rejects US excess-capacity charge (23:45, fact), Korea Times Kim nuclear sites (04:11, fact). Review: Matrix agri value-addition (no absolute time). Skipped as before lookback: Hans Warangal Congress (19:21), HMTV Food Commission Wanaparthy (23 Nov), Miss Universe (17:44). Duplicates: graduate rolls, AP phase-2 sarpanch polls, India TV tariff. Not opened: CNN (robots), socialnews.xyz, Eenadu items, Hindu direct feed URLs (no search hit). 8 district searches run (mostly poll-prep results)."
   }
  ],
  "seen": [
@@ -7121,6 +7121,61 @@
   },
   {
    "url": "https://www.thehansindia.com/news/cities/hyderabad/brs-left-protest-near-hmda-office-over-sale-of-sarkari-lands-in-hydbad-1145799",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/amaravati/stage-set-for-polling-in-23-ulbs-today-1145824",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/vijayawada/all-junior-colleges-to-celebrate-constitution-day-today-1145821",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/mahaboobnagar/tragic-road-accident-in-gadwal-youth-dies-after-bike-hits-tamarind-tree-217254",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://theprint.in/economy/ustr-report-india-committed-to-early-conclusion-of-us-trade-pact-rejects-excess-capacity-charge/3109261/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261126/nk-leader-stresses-use-of-tactical-nukes-in-diverse-areas",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://web.matrixnews.in/news/sjmegreg5pepq/telangana-plans-to-boost-crop-processing-and-agriculture-investment",
+   "d": "2026-11-26",
+   "w": "review"
+  },
+  {
+   "url": "https://www.indiatvnews.com/news/india/india-refutes-us-notice-on-excess-capacity-claims-says-fresh-tariffs-notice-under-examination-2026-11-25-1060393",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://thehansindia.com/news/cities/warangal/congress-party-ready-for-discussion-on-warangal-development-will-not-tolerate-attacks-1145735",
+   "d": "2026-11-26",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/mahaboobnagar/telangana-state-food-commission-to-tour-wanaparthy-district-on-nov-26-216299",
+   "d": "2026-11-26",
+   "w": "skipped"
+  },
+  {
+   "url": "https://abc7ny.com/story/miss-universe-jennifer-barreto-puerto-rico-crowned-winner-another-turbulent-year-worlds-biggest-pageant/20078920/",
+   "d": "2026-11-26",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/more-men-than-women-enrol-for-mlc-polls",
    "d": "2026-11-26",
    "w": "duplicate"
   }
