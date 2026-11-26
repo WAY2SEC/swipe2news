@@ -1,8 +1,566 @@
 {
- "date": "26.11.2026",
- "updated": "2026-11-26T23:35:00+05:30",
+ "date": "27.11.2026",
+ "updated": "2026-11-27T05:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "ఏపీ · ఉద్యోగాలు",
+   "col": "--c-gov",
+   "art": "deadline",
+   "pic": "e/recruitment-notification",
+   "stat": "1,534 పోలీసు",
+   "statl": "ఉద్యోగాలకు నోటిఫికేషన్",
+   "h": "ఏపీలో 1,534 పోలీసు ఉద్యోగాల ప్రకటన",
+   "p": "ఆంధ్రప్రదేశ్‌లో 1,534 పోలీసు ఉద్యోగాలకు రాష్ట్ర స్థాయి పోలీసు నియామక బోర్డు గురువారం నోటిఫికేషన్ ఇచ్చింది. ఇందులో 378 ఎస్ఐ పోస్టులు, 1,156 కానిస్టేబుల్ స్థాయి పోస్టులు ఉన్నాయి. ఫైర్‌మెన్, జైలు వార్డర్ పోస్టులూ ఇందులోనే ఉన్నాయి. నవంబర్ 27 సాయంత్రం 5 గంటల నుంచి డిసెంబర్ 16 సాయంత్రం 5 గంటల వరకు ఆన్‌లైన్‌లో దరఖాస్తు చేసుకోవచ్చు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/police-recruitment-1534-si-constable-posts-notified-2008295",
+   "sec": [
+    "telangana",
+    "jobs"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pts": [
+    "కానిస్టేబుల్ ప్రిలిమినరీ పరీక్ష జనవరి 31, 2027న",
+    "ఎస్ఐ ప్రిలిమినరీ పరీక్ష ఫిబ్రవరి 28, 2027న",
+    "సివిల్ కానిస్టేబుల్ 542, ఏఆర్ 285, ఫైర్‌మెన్ 158, వార్డర్లు 171"
+   ],
+   "why": "పోలీసు ఉద్యోగాల కోసం సిద్ధమవుతున్న ఏపీ యువతకు దరఖాస్తు, పరీక్ష తేదీలు తెలిశాయి.",
+   "next": "దరఖాస్తుకు చివరి తేదీ డిసెంబర్ 16",
+   "pub": "2026-11-26T22:45+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Jobs",
+    "stat": "1,534 police",
+    "statl": "posts notified",
+    "loc": "",
+    "h": "AP notifies 1,534 police posts",
+    "p": "Andhra Pradesh's State Level Police Recruitment Board on Thursday notified 1,534 police posts. They include 378 sub-inspector posts and 1,156 constable-level posts. Firemen and prison warder posts are part of the same notification. Online applications open at 5 pm on November 27 and close at 5 pm on December 16.",
+    "pts": [
+     "Constable preliminary exam on January 31, 2027",
+     "SI preliminary exam on February 28, 2027",
+     "Civil constables 542, AR 285, firemen 158, warders 171"
+    ],
+    "why": "AP youth preparing for police jobs now know the application and exam dates.",
+    "next": "Last date to apply is December 16"
+   },
+   "hi": {
+    "cat": "आंध्र · नौकरियां",
+    "stat": "1,534 पुलिस",
+    "statl": "पदों की अधिसूचना",
+    "loc": "",
+    "h": "आंध्र में 1,534 पुलिस पदों की अधिसूचना",
+    "p": "आंध्र प्रदेश के राज्य स्तरीय पुलिस भर्ती बोर्ड ने गुरुवार को 1,534 पुलिस पदों की अधिसूचना जारी की। इनमें 378 एसआई पद और 1,156 कांस्टेबल स्तर के पद हैं। फायरमैन और जेल वार्डर के पद भी इसी में शामिल हैं। ऑनलाइन आवेदन 27 नवंबर शाम 5 बजे से 16 दिसंबर शाम 5 बजे तक किए जा सकते हैं।",
+    "pts": [
+     "कांस्टेबल प्रारंभिक परीक्षा 31 जनवरी 2027 को",
+     "एसआई प्रारंभिक परीक्षा 28 फरवरी 2027 को",
+     "सिविल कांस्टेबल 542, एआर 285, फायरमैन 158, वार्डर 171"
+    ],
+    "why": "पुलिस नौकरी की तैयारी कर रहे आंध्र के युवाओं को आवेदन और परीक्षा की तारीखें मिल गई हैं।",
+    "next": "आवेदन की अंतिम तारीख 16 दिसंबर"
+   },
+   "d": "27.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ఏపీ · ఎన్నికలు",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/ballot-paper-vote",
+   "stat": "77.65 శాతం పోలింగ్",
+   "statl": "పంచాయతీ ఎన్నికల్లో",
+   "h": "ఏపీలో మూడు పంచాయతీల్లో నేడు రీపోలింగ్",
+   "p": "ఆంధ్రప్రదేశ్ పంచాయతీ ఎన్నికల్లో సగటున 77.65 శాతం పోలింగ్ నమోదైంది. 3,189 సర్పంచ్, 25,057 వార్డు సభ్యుల స్థానాలకు ఓటింగ్ జరిగింది. చిత్తూరు జిల్లాలో అత్యధికంగా 83.37 శాతం, అల్లూరి సీతారామరాజు జిల్లాలో అతి తక్కువగా 58.85 శాతం నమోదైంది. బ్యాలెట్ పెట్టెలు పగలగొట్టడం, బ్యాలెట్ పత్రాలు చించడం వంటి ఘటనలతో మూడు పంచాయతీల్లో శుక్రవారం రీపోలింగ్ జరుగుతుంది.",
+   "src": "NTV Telugu",
+   "url": "https://ntvtelugu.com/andhra-pradesh-news/vijayawada/ap-panchayat-elections-77-65-polling-recorded-repolling-in-three-places-tomorrow-1039248.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pts": [
+    "పల్నాడు జిల్లా బొల్లాపల్లి మండలం వెల్లటూరు, గరికపాడులో రీపోలింగ్",
+    "సత్యసాయి జిల్లా కనగానపల్లి మండలం నర్సంపల్లిలో రీపోలింగ్",
+    "ఉదయం 7 నుంచి మధ్యాహ్నం 1 గంట వరకు ఓటింగ్"
+   ],
+   "why": "ఈ మూడు పంచాయతీల ఓటర్లు శుక్రవారం మళ్లీ ఓటు వేయాల్సి ఉంటుంది.",
+   "next": "రీపోలింగ్ ఓట్ల లెక్కింపు నవంబర్ 27 మధ్యాహ్నం 2 గంటల తర్వాత",
+   "pub": "2026-11-26T23:19+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Elections",
+    "stat": "77.65% turnout",
+    "statl": "in AP panchayat polls",
+    "loc": "",
+    "h": "Repoll today in three AP panchayats",
+    "p": "Andhra Pradesh's panchayat elections recorded an average turnout of 77.65 per cent. Voting was held for 3,189 sarpanch and 25,057 ward member seats. Chittoor district had the highest turnout at 83.37 per cent and Alluri Sitarama Raju district the lowest at 58.85 per cent. After ballot boxes were damaged and ballot papers torn, a repoll will be held in three panchayats on Friday.",
+    "pts": [
+     "Repoll in Vellatur and Garikapadu, Bollapalli mandal, Palnadu district",
+     "Repoll in Narsampalli, Kanaganapalli mandal, Sri Sathya Sai district",
+     "Voting from 7 am to 1 pm"
+    ],
+    "why": "Voters in these three panchayats will have to vote again on Friday.",
+    "next": "Repoll votes will be counted after 2 pm on November 27"
+   },
+   "hi": {
+    "cat": "आंध्र · चुनाव",
+    "stat": "77.65% मतदान",
+    "statl": "आंध्र पंचायत चुनाव में",
+    "loc": "",
+    "h": "आंध्र की तीन पंचायतों में आज पुनर्मतदान",
+    "p": "आंध्र प्रदेश के पंचायत चुनाव में औसतन 77.65 प्रतिशत मतदान हुआ। 3,189 सरपंच और 25,057 वार्ड सदस्य पदों के लिए वोट डाले गए। चित्तूर जिले में सबसे ज्यादा 83.37 प्रतिशत और अल्लूरी सीताराम राजू जिले में सबसे कम 58.85 प्रतिशत मतदान रहा। मतपेटियां तोड़ने और मतपत्र फाड़ने की घटनाओं के बाद तीन पंचायतों में शुक्रवार को पुनर्मतदान होगा।",
+    "pts": [
+     "पलनाडु जिले के बोल्लापल्ली मंडल के वेल्लटूरु, गरिकपाडु में पुनर्मतदान",
+     "श्री सत्य साई जिले के कनगानपल्ली मंडल के नरसंपल्ली में पुनर्मतदान",
+     "सुबह 7 से दोपहर 1 बजे तक मतदान"
+    ],
+    "why": "इन तीन पंचायतों के मतदाताओं को शुक्रवार को दोबारा वोट डालना होगा।",
+    "next": "पुनर्मतदान की गिनती 27 नवंबर दोपहर 2 बजे के बाद"
+   },
+   "d": "27.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "తెలంగాణ · జగిత్యాల",
+   "col": "--c-power",
+   "art": "power",
+   "pic": "e/remembrance-and-condolence",
+   "stat": "రైతు మృతి",
+   "statl": "వేములకుర్తి పొలంలో",
+   "h": "వేములకుర్తిలో కరెంట్ తీగ తగిలి రైతు మృతి",
+   "p": "జగిత్యాల జిల్లా ఇబ్రహీంపట్నం మండలం వేములకుర్తిలో తెగిపడిన కరెంట్ తీగ తగిలి 70 ఏళ్ల రైతు మృతి చెందారు. బుధవారం మధ్యాహ్నం పొలానికి వెళ్లిన ఆయన రాత్రి ఇంటికి రాలేదు. గురువారం ఉదయం పొలంలో మృతదేహం కనిపించింది. స్తంభం మీది ప్రధాన తీగ తెగి కాలికి తగిలిందని ఇబ్రహీంపట్నం ఎస్ఐ తెలిపారు. కుటుంబం ఫిర్యాదుపై పోలీసులు కేసు పెట్టారు.",
+   "src": "Namasthe Telangana",
+   "url": "https://www.ntnews.com/telangana/farmer-dies-of-electric-shock-after-fallen-power-line-touches-his-leg-in-jagtial-2569965",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "jagtial",
+   "loc": "వేములకుర్తి",
+   "pts": [
+    "రాత్రంతా కుటుంబ సభ్యులు, బంధువులు వెతికారు",
+    "పోలీసులు దర్యాప్తు చేస్తున్నారు"
+   ],
+   "why": "పొలాల్లో తెగిపడిన కరెంట్ తీగలు రైతుల ప్రాణాలకు ప్రమాదమని ఈ ఘటన గుర్తు చేస్తోంది.",
+   "pub": "2026-11-27T01:35+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Jagtial",
+    "stat": "Farmer dies",
+    "statl": "in a field at Vemulakurthi",
+    "loc": "Vemulakurthi, Jagtial",
+    "h": "Jagtial farmer dies after live wire falls",
+    "p": "A 70-year-old farmer died after a snapped power line touched him at Vemulakurthi in Ibrahimpatnam mandal of Jagtial district. He went to his field on Wednesday afternoon and did not return home at night. His body was found in the field on Thursday morning. The Ibrahimpatnam sub-inspector said the main wire on a pole snapped and touched his leg. Police registered a case on the family's complaint.",
+    "pts": [
+     "Family and relatives searched through the night",
+     "Police are investigating"
+    ],
+    "why": "The incident is a reminder that snapped power lines in fields are a danger to farmers."
+   },
+   "hi": {
+    "cat": "तेलंगाना · जगित्याल",
+    "stat": "किसान की मौत",
+    "statl": "वेमुलकुर्ती के खेत में",
+    "loc": "वेमुलकुर्ती, जगित्याल",
+    "h": "जगित्याल: टूटे बिजली तार से किसान की मौत",
+    "p": "जगित्याल जिले के इब्राहिमपटनम मंडल के वेमुलकुर्ती में टूटकर गिरे बिजली के तार की चपेट में आने से 70 साल के किसान की मौत हो गई। वे बुधवार दोपहर खेत गए थे और रात को घर नहीं लौटे। गुरुवार सुबह खेत में उनका शव मिला। इब्राहिमपटनम के एसआई ने बताया कि खंभे का मुख्य तार टूटकर उनके पैर से लगा। परिवार की शिकायत पर पुलिस ने मामला दर्ज किया है।",
+    "pts": [
+     "परिवार और रिश्तेदारों ने रात भर तलाश की",
+     "पुलिस जांच कर रही है"
+    ],
+    "why": "यह घटना याद दिलाती है कि खेतों में टूटे बिजली के तार किसानों के लिए खतरा हैं।"
+   },
+   "d": "27.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "తెలంగాణ · సిరిసిల్ల",
+   "col": "--c-city",
+   "art": "court",
+   "pic": "e/police-investigation",
+   "stat": "150 వీధి కుక్కలను",
+   "statl": "చంపారని కేసు",
+   "h": "పోతుగల్‌లో 150 కుక్కలను చంపారని కేసు",
+   "p": "రాజన్న సిరిసిల్ల జిల్లా పోతుగల్‌లో సుమారు 150 వీధి కుక్కలను చంపారన్న ఫిర్యాదుపై ముస్తాబాద్ పోలీసులు గుర్తు తెలియని వ్యక్తులపై కేసు పెట్టారు. నవంబర్ 22న కుక్కలకు విషపు ఇంజెక్షన్లు ఇచ్చి, కళేబరాలను డంపింగ్ యార్డులో కాల్చేశారని ఫిర్యాదులో ఉంది. స్ట్రే యానిమల్ ఫౌండేషన్ ప్రతినిధి నవంబర్ 25న ఫిర్యాదు చేశారు. జంతు హింస నిరోధక చట్టం కింద కేసు నమోదైంది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/unidentified-persons-booked-for-killing-150-stray-dogs-2008305",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "sircilla",
+   "loc": "పోతుగల్",
+   "pts": [
+    "ఇలాంటి 11 ఘటనల్లో 1,430 కుక్కలు చనిపోయాయని సంస్థ లెక్క",
+    "సమాచారం ఆలస్యంగా అందడంతో ఫిర్యాదు ఆలస్యమైందని ఎఫ్ఐఆర్‌లో ఉంది"
+   ],
+   "why": "వీధి కుక్కలను చంపితే జంతు హింస చట్టం కింద కేసులు అవుతాయని గ్రామాలకు ఇది గుర్తు చేస్తోంది.",
+   "pub": "2026-11-26T23:04+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Sircilla",
+    "stat": "150 stray dogs",
+    "statl": "killed, case filed",
+    "loc": "Pothugal, Rajanna Sircilla",
+    "h": "Case over killing of 150 dogs in Pothugal",
+    "p": "Mustabad police in Rajanna Sircilla district have booked unidentified persons on a complaint that about 150 stray dogs were killed in Pothugal village. The complaint says the dogs were given lethal injections on November 22 and the carcasses burnt at a dumping yard. A representative of the Stray Animal Foundation of India filed the complaint on November 25. The case was registered under the Prevention of Cruelty to Animals Act.",
+    "pts": [
+     "The foundation has counted 1,430 dogs killed in 11 such incidents",
+     "FIR says the complaint was late because information came late"
+    ],
+    "why": "It reminds villages that killing stray dogs leads to cases under the animal cruelty law."
+   },
+   "hi": {
+    "cat": "तेलंगाना · सिरसिल्ला",
+    "stat": "150 आवारा कुत्तों",
+    "statl": "को मारने का केस",
+    "loc": "पोतुगल, राजन्ना सिरसिल्ला",
+    "h": "पोतुगल में 150 कुत्ते मारने पर केस दर्ज",
+    "p": "राजन्ना सिरसिल्ला जिले के पोतुगल गांव में करीब 150 आवारा कुत्तों को मारने की शिकायत पर मुस्ताबाद पुलिस ने अज्ञात लोगों के खिलाफ मामला दर्ज किया है। शिकायत के अनुसार 22 नवंबर को कुत्तों को जहरीले इंजेक्शन दिए गए और शव डंपिंग यार्ड में जला दिए गए। स्ट्रे एनिमल फाउंडेशन ऑफ इंडिया के प्रतिनिधि ने 25 नवंबर को शिकायत दी। मामला पशु क्रूरता निवारण कानून के तहत दर्ज हुआ है।",
+    "pts": [
+     "संस्था के अनुसार ऐसी 11 घटनाओं में 1,430 कुत्ते मारे गए",
+     "एफआईआर के अनुसार जानकारी देर से मिलने से शिकायत में देरी हुई"
+    ],
+    "why": "यह गांवों को याद दिलाता है कि आवारा कुत्तों को मारने पर पशु क्रूरता कानून में केस होता है।"
+   },
+   "d": "27.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ఏపీ · నీరు",
+   "col": "--c-water",
+   "art": "water",
+   "pic": "e/dam-nagarjuna-sagar",
+   "stat": "8 టీఎంసీల తాగునీరు",
+   "statl": "ఐదు జిల్లాలకు",
+   "h": "సాగర్ నుంచి ఏపీకి 8 టీఎంసీల తాగునీరు",
+   "p": "నాగార్జునసాగర్ నుంచి ఆంధ్రప్రదేశ్ గురువారం 8 టీఎంసీల తాగునీటిని తీసుకోవడం మొదలుపెట్టింది. కుడి ప్రధాన కాలువ ద్వారా 6,500 క్యూసెక్కులు వదులుతున్నారు. పల్నాడు, గుంటూరు, బాపట్ల, మార్కాపురం, ప్రకాశం జిల్లాల్లోని 16 పట్టణాల వేసవి నిల్వ చెరువులు, మరో 422 చెరువులను నింపుతారు. మంత్రి నిమ్మల రామానాయుడు ఆదేశాలతో ఇది రెండో విడత అని ప్రాజెక్టు చీఫ్ ఇంజినీర్ కె.రమేష్ చెప్పారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-begins-drawal-of-8-tmc-ft-from-sagar-to-supply-water-to-5-districts-2008367",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "నాగార్జునసాగర్",
+   "pts": [
+    "ఆగస్టులో ఏపీ 10 టీఎంసీలు తీసుకుంది",
+    "హైదరాబాద్ తాగునీటికి తెలంగాణ కూడా నీరు తీసుకుంటోంది",
+    "నాలుగో విడత మార్చి చివరి నుంచి జూలై వరకు"
+   ],
+   "why": "ఈ ఐదు జిల్లాల పట్టణాలు, గ్రామాలకు వేసవి వరకు తాగునీటి నిల్వ ఏర్పడుతుంది.",
+   "next": "మూడో విడత 8 టీఎంసీలు మార్చి మొదటి వారంలో",
+   "pub": "2026-11-27T00:40+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Water",
+    "stat": "8 tmc ft drinking water",
+    "statl": "for five AP districts",
+    "loc": "Nagarjunasagar",
+    "h": "AP starts drawing 8 tmc ft from Sagar",
+    "p": "Andhra Pradesh on Thursday began drawing 8 tmc ft of drinking water from Nagarjunasagar. About 6,500 cusecs is being released through the right main canal. It will fill summer storage tanks of 16 towns and another 422 tanks in Palnadu, Guntur, Bapatla, Markapuram and Prakasam districts. Project chief engineer K. Ramesh said this is the second spell, on the directions of Minister Nimmala Ramanaidu.",
+    "pts": [
+     "AP drew 10 tmc ft in August",
+     "Telangana is also drawing water for Hyderabad's drinking needs",
+     "Fourth spell from late March to July"
+    ],
+    "why": "Towns and villages in these five districts get drinking water storage until summer.",
+    "next": "Third spell of 8 tmc ft in the first week of March"
+   },
+   "hi": {
+    "cat": "आंध्र · पानी",
+    "stat": "8 टीएमसी पेयजल",
+    "statl": "आंध्र के पांच जिलों को",
+    "loc": "नागार्जुनसागर",
+    "h": "सागर से आंध्र को 8 टीएमसी पेयजल",
+    "p": "आंध्र प्रदेश ने गुरुवार को नागार्जुनसागर से 8 टीएमसी पेयजल लेना शुरू किया। दाईं मुख्य नहर से 6,500 क्यूसेक पानी छोड़ा जा रहा है। इससे पलनाडु, गुंटूर, बापटला, मार्कापुरम और प्रकाशम जिलों के 16 शहरों के ग्रीष्मकालीन भंडारण तालाब और 422 अन्य तालाब भरे जाएंगे। परियोजना के मुख्य अभियंता के. रमेश ने बताया कि मंत्री निम्मला रामानायडू के निर्देश पर यह दूसरा चरण है।",
+    "pts": [
+     "अगस्त में आंध्र ने 10 टीएमसी पानी लिया था",
+     "हैदराबाद के पेयजल के लिए तेलंगाना भी पानी ले रहा है",
+     "चौथा चरण मार्च के अंत से जुलाई तक"
+    ],
+    "why": "इन पांच जिलों के शहरों और गांवों के लिए गर्मी तक पेयजल का भंडार बनेगा।",
+    "next": "8 टीएमसी का तीसरा चरण मार्च के पहले हफ्ते में"
+   },
+   "d": "27.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · పెన్షనర్లు",
+   "col": "--c-gov",
+   "art": "deadline",
+   "pic": "e/senior-citizen-care",
+   "stat": "నవంబర్ 30 వరకు",
+   "statl": "లైఫ్ సర్టిఫికెట్ శిబిరాలు",
+   "h": "పెన్షనర్లకు లైఫ్ సర్టిఫికెట్ శిబిరాలు",
+   "p": "కేంద్ర ప్రభుత్వ పెన్షనర్లు ఫోన్‌లో ముఖ గుర్తింపు ద్వారా డిజిటల్ లైఫ్ సర్టిఫికెట్ ఇచ్చేలా హైదరాబాద్‌లో నవంబర్ 1 నుంచి 30 వరకు ప్రచార కార్యక్రమం జరుగుతోంది. పెన్షన్ శాఖ సీనియర్ డైరెక్టర్ అనిల్ బన్సల్ గురువారం ఎస్‌బీఐ స్థానిక ప్రధాన కార్యాలయం, జనరల్ పోస్టాఫీసులోని శిబిరాలను చూశారు. వృద్ధులు, దివ్యాంగుల ఇళ్లకే తపాలా, బ్యాంకు సిబ్బంది వెళ్లి సర్టిఫికెట్లు ఇప్పిస్తున్నారు.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/digital-life-certificate-campaign-underway",
+   "sec": [
+    "telangana",
+    "india"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pts": [
+    "ఆండ్రాయిడ్ ఫోన్‌తో సొంతంగా సర్టిఫికెట్ ఇవ్వడం నేర్పుతున్నారు",
+    "2022 నుంచి ఇలాంటి నాలుగు ప్రచారాలు జరిగాయి"
+   ],
+   "why": "హైదరాబాద్‌లోని కేంద్ర పెన్షనర్లు బ్యాంకుకు వెళ్లకుండానే లైఫ్ సర్టిఫికెట్ ఇవ్వవచ్చు.",
+   "next": "ప్రచార కార్యక్రమం నవంబర్ 30తో ముగుస్తుంది",
+   "pub": "2026-11-26T23:10+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Pensioners",
+    "stat": "Till November 30",
+    "statl": "Digital Life Certificate camps",
+    "loc": "",
+    "h": "Digital Life Certificate camps in Hyderabad",
+    "p": "A campaign is on in Hyderabad from November 1 to 30 to help central government pensioners submit Digital Life Certificates through face authentication on a phone. Anil Bansal, Senior Director in the pension department, visited camps at the SBI local head office and the General Post Office on Thursday. Postal and bank staff are visiting very elderly and disabled pensioners at home to generate their certificates.",
+    "pts": [
+     "Pensioners are being taught to do it themselves on Android phones",
+     "Four such campaigns have been held since 2022"
+    ],
+    "why": "Central pensioners in Hyderabad can submit a life certificate without visiting the bank.",
+    "next": "The campaign ends on November 30"
+   },
+   "hi": {
+    "cat": "हैदराबाद · पेंशनर",
+    "stat": "30 नवंबर तक",
+    "statl": "डिजिटल जीवन प्रमाणपत्र शिविर",
+    "loc": "",
+    "h": "हैदराबाद में डिजिटल जीवन प्रमाणपत्र शिविर",
+    "p": "केंद्र सरकार के पेंशनर फोन पर चेहरे की पहचान से डिजिटल जीवन प्रमाणपत्र जमा कर सकें, इसके लिए हैदराबाद में 1 से 30 नवंबर तक अभियान चल रहा है। पेंशन विभाग के वरिष्ठ निदेशक अनिल बंसल ने गुरुवार को एसबीआई के स्थानीय मुख्य कार्यालय और जनरल पोस्ट ऑफिस के शिविर देखे। बहुत बुजुर्ग और दिव्यांग पेंशनरों के घर जाकर डाक और बैंक कर्मचारी प्रमाणपत्र बनवा रहे हैं।",
+    "pts": [
+     "एंड्रॉयड फोन से खुद प्रमाणपत्र देना सिखाया जा रहा है",
+     "2022 से ऐसे चार अभियान हो चुके हैं"
+    ],
+    "why": "हैदराबाद के केंद्रीय पेंशनर बैंक गए बिना जीवन प्रमाणपत्र दे सकते हैं।",
+    "next": "अभियान 30 नवंबर को खत्म होगा"
+   },
+   "d": "27.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ఏపీ · అమరావతి",
+   "col": "--c-city",
+   "art": "economy",
+   "pic": "e/amaravati-construction",
+   "stat": "ఈ-13, ఈ-15 రోడ్లను",
+   "statl": "చూసిన బృందాలు",
+   "h": "అమరావతి రోడ్లను చూసిన ప్రపంచ బ్యాంకు",
+   "p": "అమరావతిలో కడుతున్న ఈ-13, ఈ-15 రోడ్ల పనులను ప్రపంచ బ్యాంకు, ఏషియన్ డెవలప్‌మెంట్ బ్యాంకు బృందాలు గురువారం చూశాయి. ఎర్రబాలెం నుంచి ఎయిమ్స్ ఎదురుగా ఉన్న కొండ వరకు కడుతున్న 3.52 కిలోమీటర్ల ఎలివేటెడ్ కారిడార్‌ను పరిశీలించాయి. నిడమర్రు వైపు నుంచి మంగళగిరికి వెళ్లే ఈ-15 రోడ్డు, దానిలోని రైల్వే వంతెన పనులను అమరావతి అభివృద్ధి సంస్థ ఇంజినీర్లు వివరించారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/world-bank-adb-teams-inspect-e-13-e-15-road-works-in-amaravati-2008344",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "అమరావతి",
+   "pts": [
+    "ప్రపంచ బ్యాంకు నుంచి 11 మంది, ఏడీబీ నుంచి ముగ్గురు వచ్చారు",
+    "రైల్వే వంతెన పొడవు 0.8 కిలోమీటర్లు",
+    "రాజధానిలో బృందం పర్యటనకు ఇది రెండో రోజు"
+   ],
+   "why": "అమరావతి పనులకు అప్పు ఇస్తున్న బ్యాంకులు పనుల తీరును నేరుగా చూస్తున్నాయి.",
+   "pub": "2026-11-26T23:57+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Amaravati",
+    "stat": "E-13, E-15 road works",
+    "statl": "inspected by bank teams",
+    "loc": "Amaravati",
+    "h": "World Bank team inspects Amaravati roads",
+    "p": "Teams from the World Bank and the Asian Development Bank inspected the E-13 and E-15 road works in Amaravati on Thursday. They looked at a 3.52-km elevated corridor being built from Yerrabalem to the hill opposite AIIMS. Amaravati Development Corporation engineers explained the E-15 road from the Nidamarru side to Mangalagiri and the railway overbridge that is part of it.",
+    "pts": [
+     "11 members from the World Bank and three from ADB",
+     "The railway overbridge is 0.8 km long",
+     "It was the second day of the team's visit to the capital"
+    ],
+    "why": "The banks lending for Amaravati are checking the progress of works on the ground."
+   },
+   "hi": {
+    "cat": "आंध्र · अमरावती",
+    "stat": "ई-13, ई-15 सड़कों",
+    "statl": "का बैंक टीमों ने निरीक्षण किया",
+    "loc": "अमरावती",
+    "h": "विश्व बैंक टीम ने अमरावती की सड़कें देखीं",
+    "p": "विश्व बैंक और एशियाई विकास बैंक की टीमों ने गुरुवार को अमरावती में बन रही ई-13 और ई-15 सड़कों का निरीक्षण किया। उन्होंने येर्राबालेम से एम्स के सामने की पहाड़ी तक बन रहा 3.52 किलोमीटर का एलिवेटेड कॉरिडोर देखा। निडमर्रु की ओर से मंगलगिरि जाने वाली ई-15 सड़क और उसके रेलवे ओवरब्रिज के काम की जानकारी अमरावती विकास निगम के इंजीनियरों ने दी।",
+    "pts": [
+     "विश्व बैंक से 11 और एडीबी से तीन सदस्य आए",
+     "रेलवे ओवरब्रिज 0.8 किलोमीटर लंबा है",
+     "राजधानी में टीम के दौरे का यह दूसरा दिन था"
+    ],
+    "why": "अमरावती के लिए कर्ज दे रहे बैंक काम की प्रगति खुद देख रहे हैं।"
+   },
+   "d": "27.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ఏపీ · పోలవరం",
+   "col": "--c-water",
+   "art": "water",
+   "pic": "e/civil-construction",
+   "stat": "పోలవరం డ్యామ్",
+   "statl": "నాణ్యత పరీక్ష",
+   "h": "పోలవరం డ్యామ్ నాణ్యతను పరిశీలించిన సీఈఓ",
+   "p": "పోలవరం ప్రాజెక్టులోని మట్టి, రాళ్ల కట్ట డ్యామ్ పనులను పోలవరం ప్రాజెక్టు అథారిటీ సీఈఓ సంజీవ్ వోహ్రా గురువారం పరిశీలించారు. నింపిన కట్టను కొన్ని చోట్ల మీటరు లోతు వరకు తవ్వించి, కింది పొరలు ఎంత గట్టిగా ఉన్నాయో పరీక్షించారు. మళ్లీ నింపి రోలర్‌తో గట్టి చేశాక కూడా పెద్ద తేడా కనిపించలేదు. ప్రతి దశలో నాణ్యత పాటించాలని ఆదేశించారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/polavaram-project-ceo-inspects-ecrf-dam-2008368",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "పోలవరం",
+   "pts": [
+    "కేంద్ర పరిశోధన కేంద్రం నిపుణులు మూడు రోజులు సామగ్రిని పరీక్షించారు"
+   ],
+   "why": "గోదావరి జిల్లాల సాగు, తాగునీటికి కీలకమైన పోలవరం డ్యామ్ నాణ్యతపై తనిఖీలు జరుగుతున్నాయి.",
+   "pub": "2026-11-27T00:44+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Polavaram",
+    "stat": "Polavaram dam",
+    "statl": "quality checked by CEO",
+    "loc": "Polavaram",
+    "h": "Polavaram Authority CEO checks dam quality",
+    "p": "Polavaram Project Authority CEO Sanjeev Vohra on Thursday inspected the earth-cum-rock-fill dam works of the Polavaram project. He had parts of the filled embankment dug to about one metre to test how compact the lower layers were. Even after refilling and compacting with a roller, no significant difference was found. He told officials and the construction agency to follow quality standards at every stage.",
+    "pts": [
+     "Experts from a central research station tested materials for three days"
+    ],
+    "why": "Quality checks are on at the Polavaram dam, which is key to irrigation and drinking water in the Godavari districts."
+   },
+   "hi": {
+    "cat": "आंध्र · पोलावरम",
+    "stat": "पोलावरम बांध",
+    "statl": "की गुणवत्ता की सीईओ ने जांच की",
+    "loc": "पोलावरम",
+    "h": "पोलावरम बांध की गुणवत्ता जांची सीईओ ने",
+    "p": "पोलावरम परियोजना प्राधिकरण के सीईओ संजीव वोहरा ने गुरुवार को पोलावरम परियोजना के मिट्टी-पत्थर भराव बांध के काम का निरीक्षण किया। उन्होंने भरे हुए तटबंध को कुछ जगह करीब एक मीटर तक खुदवाकर निचली परतों की मजबूती जांची। दोबारा भरकर रोलर से दबाने के बाद भी कोई बड़ा अंतर नहीं मिला। उन्होंने अधिकारियों और निर्माण एजेंसी को हर चरण में गुणवत्ता मानक मानने को कहा।",
+    "pts": [
+     "केंद्रीय शोध केंद्र के विशेषज्ञों ने तीन दिन सामग्री की जांच की"
+    ],
+    "why": "गोदावरी जिलों की सिंचाई और पेयजल के लिए अहम पोलावरम बांध की गुणवत्ता की जांच हो रही है।"
+   },
+   "d": "27.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ఏపీ · డ్రగ్స్",
+   "col": "--c-gov",
+   "art": "campus",
+   "pic": "logo",
+   "stat": "డ్రగ్స్ వాడినా",
+   "statl": "కేసు తప్పదని హెచ్చరిక",
+   "h": "డ్రగ్స్ వాడినా కేసు తప్పదు: ఈగల్ చీఫ్",
+   "p": "డ్రగ్స్ అమ్మేవారిపైనే కాదు, వాడేవారిపైనా ఎన్‌డీపీఎస్ చట్టం కింద చర్యలు తీసుకోవచ్చని ఏపీ ఈగల్ విభాగం చీఫ్, ఐజీ ఆకే రవికృష్ణ హెచ్చరించారు. గురువారం ఆచార్య నాగార్జున విశ్వవిద్యాలయంలో సుమారు 200 మంది సివిల్స్ అభ్యర్థులకు అవగాహన సదస్సులో ఆయన మాట్లాడారు. డ్రగ్స్ వ్యాపారం డబ్బు ఉగ్రవాద ముఠాలకు చేరుతోందని, వాడేవారు పరోక్షంగా వారికి డబ్బు ఇస్తున్నట్లేనని అన్నారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-eagle-chief-warns-drug-users-could-face-action-under-ndps-act-2008355",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "ఆచార్య నాగార్జున విశ్వవిద్యాలయం",
+   "pts": [
+    "2029 నాటికి డ్రగ్స్ లేని భారత్ కేంద్రం లక్ష్యం",
+    "'డ్రగ్స్ వద్దు బ్రో' ప్రచారాన్ని ప్రస్తావించారు",
+    "ఆన్‌లైన్‌లో తప్పుదారి పట్టించే ముఠాలపై యువత జాగ్రత్తగా ఉండాలన్నారు"
+   ],
+   "why": "డ్రగ్స్ వాడే యువత కూడా చట్టం కింద కేసులు ఎదుర్కోవాల్సి రావచ్చు.",
+   "pub": "2026-11-27T00:14+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Drugs",
+    "stat": "Drug users too",
+    "statl": "can face cases: EAGLE chief",
+    "loc": "Acharya Nagarjuna University",
+    "h": "Drug users can face cases: AP EAGLE chief",
+    "p": "AP EAGLE chief and Inspector General Ake Ravi Krishna warned that not only sellers but also users of drugs can face action under the NDPS Act. He was speaking on Thursday at an awareness session for about 200 civil services aspirants at Acharya Nagarjuna University. He said money from the drug trade reaches terror networks, and users are indirectly funding them.",
+    "pts": [
+     "Centre's target is a drug-free India by 2029",
+     "He referred to the 'Drugs Vaddu Bro' campaign",
+     "Asked youth to beware of online networks that mislead them"
+    ],
+    "why": "Young people who use drugs may also face cases under the law."
+   },
+   "hi": {
+    "cat": "आंध्र · ड्रग्स",
+    "stat": "ड्रग्स लेने वालों पर भी",
+    "statl": "केस हो सकता है: ईगल प्रमुख",
+    "loc": "आचार्य नागार्जुन विश्वविद्यालय",
+    "h": "ड्रग्स लेने पर भी केस: आंध्र ईगल प्रमुख",
+    "p": "आंध्र प्रदेश ईगल के प्रमुख और आईजी आके रवि कृष्णा ने चेताया कि ड्रग्स बेचने वालों पर ही नहीं, लेने वालों पर भी एनडीपीएस कानून के तहत कार्रवाई हो सकती है। वे गुरुवार को आचार्य नागार्जुन विश्वविद्यालय में करीब 200 सिविल सेवा अभ्यर्थियों के जागरूकता सत्र में बोल रहे थे। उन्होंने कहा कि ड्रग्स के धंधे का पैसा आतंकी नेटवर्क तक पहुंचता है और लेने वाले परोक्ष रूप से उन्हें पैसा दे रहे हैं।",
+    "pts": [
+     "केंद्र का लक्ष्य 2029 तक नशामुक्त भारत",
+     "उन्होंने 'ड्रग्स वद्दु ब्रो' अभियान का जिक्र किया",
+     "युवाओं से ऑनलाइन गुमराह करने वाले नेटवर्क से सावधान रहने को कहा"
+    ],
+    "why": "ड्रग्स लेने वाले युवाओं पर भी कानून के तहत केस हो सकता है।"
+   },
+   "d": "27.11.2026",
+   "t": "05:05"
+  },
+  {
+   "cat": "ప్రపంచం · యెమెన్",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "n/mideast",
+   "stat": "నలుగురు మృతి",
+   "statl": "యెమెన్‌పై దాడుల్లో",
+   "h": "యెమెన్‌లో దాడుల్లో నలుగురు మృతి: హూతీలు",
+   "p": "యెమెన్‌లోని తైజ్ ప్రాంతంలో సౌదీ అరేబియా చేసిన వైమానిక దాడుల్లో ఒక చిన్నారి సహా నలుగురు మృతి చెందారని హూతీల ఆధ్వర్యంలోని ఆరోగ్య శాఖ ప్రతినిధి చెప్పారు. ఈ వివరాలను స్వతంత్రంగా నిర్ధారించలేకపోయామని ఏపీ వార్తా సంస్థ పేర్కొంది. మరోవైపు సౌదీలోని జజాన్ చమురు రిఫైనరీపై దాడిలో నేపాల్ కార్మికుడు ఒకరు మృతి చెందారని సౌదీ ఇంధన శాఖ తెలిపింది.",
+   "src": "Telangana Today (AP)",
+   "url": "https://telanganatoday.com/saudi-airstrikes-in-yemen-reportedly-kill-four-including-child-refinery-attack-kills-worker",
+   "sec": [
+    "world"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "",
+   "pts": [
+    "రాజధాని సనాలోనూ రాత్రి పేలుళ్లు వినిపించాయని స్థానికులు చెప్పారు",
+    "వేసవి నుంచి హూతీలు సౌదీ చమురు కేంద్రాలపై దాడులు చేస్తున్నారు"
+   ],
+   "why": "గల్ఫ్‌లో ఉద్రిక్తతలు అక్కడ పనిచేసే భారతీయులపై, చమురు ధరలపై ప్రభావం చూపవచ్చు.",
+   "pub": "2026-11-27T00:50+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "World · Yemen",
+    "stat": "Four killed",
+    "statl": "in strikes on Yemen's Taiz",
+    "loc": "",
+    "h": "Saudi strikes kill four in Yemen: Houthis",
+    "p": "A spokesperson for the Houthi-run health ministry said Saudi airstrikes in Yemen's Taiz province killed four people, including a child. The Associated Press said it could not independently verify the claims. Separately, Saudi Arabia's energy ministry said a Nepalese worker was killed in an attack on the Jazan oil refinery in the kingdom.",
+    "pts": [
+     "Residents said explosions were also heard overnight in the capital Sanaa",
+     "Houthis have been targeting Saudi oil facilities since the summer"
+    ],
+    "why": "Tension in the Gulf can affect Indians working there and oil prices."
+   },
+   "hi": {
+    "cat": "दुनिया · यमन",
+    "stat": "चार की मौत",
+    "statl": "यमन के ताइज़ पर हमलों में",
+    "loc": "",
+    "h": "यमन में सऊदी हमलों में चार की मौत: हूती",
+    "p": "हूती-नियंत्रित स्वास्थ्य मंत्रालय के प्रवक्ता ने कहा कि यमन के ताइज़ प्रांत में सऊदी अरब के हवाई हमलों में एक बच्चे समेत चार लोगों की मौत हुई। एपी समाचार एजेंसी ने कहा कि वह इन दावों की स्वतंत्र पुष्टि नहीं कर सकी। उधर सऊदी ऊर्जा मंत्रालय ने बताया कि देश की जज़ान तेल रिफाइनरी पर हमले में एक नेपाली कामगार की मौत हुई।",
+    "pts": [
+     "स्थानीय लोगों के अनुसार राजधानी सना में भी रात को धमाके सुने गए",
+     "गर्मियों से हूती सऊदी तेल ठिकानों पर हमले कर रहे हैं"
+    ],
+    "why": "खाड़ी में तनाव का असर वहां काम करने वाले भारतीयों और तेल की कीमतों पर पड़ सकता है।"
+   },
+   "d": "27.11.2026",
+   "t": "05:05"
+  },
   {
    "cat": "తెలంగాణ · వ్యవసాయం",
    "col": "--c-gov",
@@ -2764,577 +3322,6 @@
      "गुरुवार को नार्नूर में आरोपी को मीडिया के सामने पेश किया गया"
     ],
     "why": "आदिलाबाद जिले को झकझोरने वाले इस मामले में पुलिस की जांच जारी है।"
-   }
-  },
-  {
-   "cat": "ఏపీ · వ్యవసాయం",
-   "col": "--c-money",
-   "art": "farm",
-   "pic": "e/farmer-assistance-counter",
-   "stat": "44.09 లక్షల",
-   "statl": "పంటల బీమా దరఖాస్తులు",
-   "h": "ఏపీలో పంటల బీమా దరఖాస్తులు 44 లక్షలు",
-   "p": "ఆంధ్రప్రదేశ్‌లో ఖరీఫ్-2026 పంటల బీమా దరఖాస్తులు 44.09 లక్షలకు చేరాయని వ్యవసాయ మంత్రి అచ్చెన్నాయుడు గురువారం అమరావతిలో తెలిపారు. గత ఖరీఫ్‌లో ఇవి 18.88 లక్షలు, అంటే 2.3 రెట్లు పెరిగాయి. సాగైన 31.01 లక్షల హెక్టార్లలో 17.07 లక్షల హెక్టార్లకు బీమా ఉందని, బీమాపై వైఎస్సార్‌సీపీ తప్పుడు ప్రచారం చేస్తోందని ఆయన అన్నారు.",
-   "src": "Andhra Jyothy",
-   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/guntur/ap-crop-insurance-applications-increase-kharif-2026-vvnp-1580030.html",
-   "sec": [
-    "telangana",
-    "agri"
-   ],
-   "st": "AP",
-   "place": "AP",
-   "loc": "",
-   "pts": [
-    "రుణం తీసుకోని రైతుల దరఖాస్తులు 2 లక్షల నుంచి 25.27 లక్షలకు",
-    "పాత బకాయిలు తీర్చడానికి ₹3,000 కోట్ల ప్రణాళిక",
-    "సహాయానికి కిసాన్ కాల్ సెంటర్ 1800-180-1551"
-   ],
-   "why": "రబీ పంటలు వేసిన ఏపీ రైతులు గడువులోపు బీమా చేయించుకుంటే పంట నష్టానికి పరిహారం పొందవచ్చు.",
-   "d": "26.11.2026",
-   "t": "19:05",
-   "pub": "2026-11-26T18:18+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Agriculture",
-    "stat": "44.09 lakh",
-    "statl": "crop insurance applications",
-    "loc": "",
-    "h": "AP crop insurance applications hit 44 lakh",
-    "p": "Crop insurance applications for Kharif 2026 in Andhra Pradesh have reached 44.09 lakh, Agriculture Minister Atchannaidu said in Amaravati on Thursday. Last Kharif the figure was 18.88 lakh, a 2.3-fold rise. Of 31.01 lakh hectares sown, 17.07 lakh hectares are insured, he said, adding that the YSRCP is spreading false claims about insurance.",
-    "pts": [
-     "Non-loanee farmers' applications rose from 2 lakh to 25.27 lakh",
-     "₹3,000 crore plan to clear old dues",
-     "Help: Kisan Call Centre 1800-180-1551"
-    ],
-    "why": "AP farmers who have sown Rabi crops can get compensation for crop loss if they insure before the deadline.",
-    "next": "Rabi insurance deadline: December 31 for paddy and mango, December 15 for other crops"
-   },
-   "hi": {
-    "cat": "एपी · कृषि",
-    "stat": "44.09 लाख",
-    "statl": "फसल बीमा आवेदन",
-    "loc": "",
-    "h": "एपी में फसल बीमा आवेदन 44 लाख पहुंचे",
-    "p": "आंध्र प्रदेश में खरीफ-2026 के फसल बीमा आवेदन 44.09 लाख तक पहुंच गए हैं, कृषि मंत्री अच्चेन्नायडू ने गुरुवार को अमरावती में बताया। पिछले खरीफ में ये 18.88 लाख थे, यानी 2.3 गुना बढ़ोतरी। बोए गए 31.01 लाख हेक्टेयर में से 17.07 लाख हेक्टेयर का बीमा है। उन्होंने कहा कि वाईएसआरसीपी बीमा पर गलत प्रचार कर रही है।",
-    "pts": [
-     "गैर-ऋणी किसानों के आवेदन 2 लाख से बढ़कर 25.27 लाख",
-     "पुराने बकाये चुकाने के लिए ₹3,000 करोड़ की योजना",
-     "मदद के लिए किसान कॉल सेंटर 1800-180-1551"
-    ],
-    "why": "रबी फसल बोने वाले एपी के किसान समय सीमा से पहले बीमा कराएं तो फसल नुकसान पर मुआवजा पा सकते हैं।",
-    "next": "रबी बीमा की अंतिम तिथि: धान और आम के लिए 31 दिसंबर, बाकी फसलों के लिए 15 दिसंबर"
-   },
-   "next": "రబీ బీమా గడువు: వరి, మామిడికి డిసెంబర్ 31, మిగతా పంటలకు డిసెంబర్ 15"
-  },
-  {
-   "cat": "సిరిసిల్ల · బాలల రక్షణ",
-   "col": "--c-gov",
-   "art": "",
-   "pic": "logo",
-   "stat": "బాల్యవివాహాలు",
-   "statl": "ఆపుతామని ప్రతిజ్ఞ",
-   "h": "సిరిసిల్లలో బాల్యవివాహాలపై ప్రతిజ్ఞ",
-   "p": "బాల్యవివాహాలను ఆపడానికి అన్ని మతాల పెద్దలు సహకరించాలని రాజన్న సిరిసిల్ల కలెక్టర్ గరిమా అగర్వాల్ కోరారు. గురువారం కలెక్టరేట్‌లో జిల్లా సంక్షేమ శాఖ నిర్వహించిన అవగాహన సదస్సులో పూజారులు, పాస్టర్లు, ముస్లిం మతపెద్దలు పాల్గొన్నారు. పెళ్లికి ముందు వధూవరుల వయసు తప్పక చూడాలని అధికారులు చెప్పారు. బాల్యవివాహాలు ఆపుతామని మతపెద్దలు ప్రతిజ్ఞ చేశారు.",
-   "src": "Namasthe Telangana",
-   "url": "https://www.ntnews.com/news/religious-leaders-should-cooperate-in-curbing-child-marriages-rajanna-sircilla-collector-garima-agrawal-2569669",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "sircilla",
-   "loc": "సిరిసిల్ల కలెక్టరేట్",
-   "pts": [
-    "అమ్మాయికి 18, అబ్బాయికి 21 ఏళ్లు నిండాలి",
-    "బాలల హక్కుల కమిషన్ సభ్యురాలు చందన, ఎస్పీ మహేష్ గీతే హాజరు",
-    "బాల్యవివాహం గురించి తెలిస్తే వెంటనే అధికారులకు చెప్పాలి"
-   ],
-   "why": "సిరిసిల్ల జిల్లాలో పెళ్లిళ్లు జరిపించేవారు ముందుగా వధూవరుల వయసు చూడాల్సి ఉంటుంది.",
-   "d": "26.11.2026",
-   "t": "19:05",
-   "pub": "2026-11-26T17:50+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Sircilla · Child protection",
-    "stat": "Child marriages",
-    "statl": "faith leaders pledge to stop them",
-    "loc": "Sircilla Collectorate",
-    "h": "Sircilla Collector: help stop child marriages",
-    "p": "Rajanna Sircilla Collector Garima Agrawal has asked leaders of all faiths to help stop child marriages. Priests, pastors and Muslim religious leaders attended an awareness meeting held by the district welfare department at the Collectorate on Thursday. Officials said the ages of the bride and groom must be checked before a wedding. The faith leaders pledged to stop child marriages.",
-    "pts": [
-     "Bride must be 18, groom 21",
-     "Child rights commission member Chandana and SP Mahesh Gite attended",
-     "Report any child marriage to officials at once"
-    ],
-    "why": "Those who conduct weddings in Sircilla district will have to check the couple's ages first."
-   },
-   "hi": {
-    "cat": "सिरसिल्ला · बाल संरक्षण",
-    "stat": "बाल विवाह",
-    "statl": "रोकने की धर्मगुरुओं की शपथ",
-    "loc": "सिरसिल्ला कलेक्टरेट",
-    "h": "सिरसिल्ला कलेक्टर: बाल विवाह रोकने में साथ दें",
-    "p": "राजन्ना सिरसिल्ला की कलेक्टर गरिमा अग्रवाल ने सभी धर्मों के गुरुओं से बाल विवाह रोकने में सहयोग मांगा है। गुरुवार को कलेक्टरेट में जिला कल्याण विभाग की जागरूकता बैठक में पुजारी, पादरी और मुस्लिम धर्मगुरु शामिल हुए। अधिकारियों ने कहा कि शादी से पहले वर-वधू की उम्र जरूर जांची जाए। धर्मगुरुओं ने बाल विवाह रोकने की शपथ ली।",
-    "pts": [
-     "लड़की की उम्र 18 और लड़के की 21 साल जरूरी",
-     "बाल अधिकार आयोग की सदस्य चंदना और एसपी महेश गीते मौजूद रहे",
-     "बाल विवाह की जानकारी मिलते ही अधिकारियों को बताएं"
-    ],
-    "why": "सिरसिल्ला जिले में शादी कराने वालों को पहले वर-वधू की उम्र जांचनी होगी।"
-   }
-  },
-  {
-   "cat": "కరీంనగర్ · గ్రామం",
-   "col": "--c-gov",
-   "art": "",
-   "pic": "e/village-gram-sabha",
-   "stat": "డిసెంబర్ 1లోగా",
-   "statl": "బెల్ట్ షాపులు బంద్",
-   "h": "కాచాపూర్‌లో బెల్ట్ షాపులు బంద్",
-   "p": "కరీంనగర్ జిల్లా శంకరపట్నం మండలం కాచాపూర్‌లో డిసెంబర్ 1లోగా బెల్ట్ షాపులు మూసేయాలని గ్రామ పంచాయతీ ఏకగ్రీవంగా తీర్మానం చేసింది. ఈ విషయాన్ని సర్పంచ్ మాధవి, ఉప సర్పంచ్ కృష్ణారెడ్డి గురువారం తెలిపారు. మద్యం వల్ల కుటుంబాల్లో గొడవలు పెరిగాయని గ్రామ మహిళలు ఇటీవల నిరసన తెలిపారు. షాపులు నడిపేవారికి నోటీసులు ఇస్తామని పాలకవర్గం చెప్పింది.",
-   "src": "Namasthe Telangana",
-   "url": "https://www.ntnews.com/karimnagar/gram-panchayat-passes-resolution-to-shut-down-belt-shops-illegal-liquor-outlets-in-kachapur-by-december-1st-2569675",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "karimnagar",
-   "loc": "కాచాపూర్, శంకరపట్నం మండలం",
-   "pts": [
-    "తీర్మానాన్ని ఎక్సైజ్, పోలీస్ శాఖలకు పంపుతారు",
-    "నోటీసుల తర్వాతా అమ్మితే కఠిన చర్యలు"
-   ],
-   "why": "గ్రామంలో మహిళలు, పిల్లలు ప్రశాంతంగా ఉండాలన్నదే ఈ నిర్ణయం ఉద్దేశమని పాలకవర్గం చెప్పింది.",
-   "d": "26.11.2026",
-   "t": "19:05",
-   "pub": "2026-11-26T17:57+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Karimnagar · Village",
-    "stat": "By December 1",
-    "statl": "belt shops to shut in Kachapur",
-    "loc": "Kachapur, Shankarapatnam mandal",
-    "h": "Kachapur panchayat resolves to shut belt shops",
-    "p": "The gram panchayat of Kachapur in Shankarapatnam mandal of Karimnagar district has unanimously resolved that belt shops must close by December 1. Sarpanch Madhavi and deputy sarpanch Krishna Reddy announced this on Thursday. Women of the village had recently protested, saying liquor was causing quarrels in families. The panchayat said notices will go to those running the shops.",
-    "pts": [
-     "Resolution will be sent to Excise and Police departments",
-     "Strict action if sales continue after notices"
-    ],
-    "why": "The panchayat says the decision is meant to give women and children a peaceful village.",
-    "next": "All liquor sales must stop by December 1"
-   },
-   "hi": {
-    "cat": "करीमनगर · गांव",
-    "stat": "1 दिसंबर तक",
-    "statl": "काचापुर में बेल्ट शॉप बंद",
-    "loc": "काचापुर, शंकरपट्नम मंडल",
-    "h": "काचापुर में बेल्ट शॉप बंद करने का प्रस्ताव",
-    "p": "करीमनगर जिले के शंकरपट्नम मंडल के काचापुर की ग्राम पंचायत ने सर्वसम्मति से प्रस्ताव पारित किया कि 1 दिसंबर तक बेल्ट शॉप बंद हों। सरपंच माधवी और उप सरपंच कृष्णा रेड्डी ने गुरुवार को यह बताया। गांव की महिलाओं ने हाल में विरोध किया था कि शराब से परिवारों में झगड़े बढ़े हैं। पंचायत ने कहा कि दुकान चलाने वालों को नोटिस दिए जाएंगे।",
-    "pts": [
-     "प्रस्ताव आबकारी और पुलिस विभाग को भेजा जाएगा",
-     "नोटिस के बाद भी बिक्री हुई तो सख्त कार्रवाई"
-    ],
-    "why": "पंचायत के अनुसार यह फैसला गांव में महिलाओं और बच्चों की शांति के लिए है।",
-    "next": "1 दिसंबर तक शराब की बिक्री पूरी तरह बंद करनी होगी"
-   },
-   "next": "డిసెంబర్ 1లోగా మద్యం అమ్మకాలు పూర్తిగా ఆపాలి"
-  },
-  {
-   "cat": "నిజామాబాద్ · ఓటర్ల జాబితా",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "e/election-office",
-   "stat": "2.11 లక్షల",
-   "statl": "ఓట్లు మళ్లీ తనిఖీ",
-   "h": "నిజామాబాద్‌లో తీసేసిన ఓట్ల మళ్లీ తనిఖీ",
-   "p": "నిజామాబాద్ జిల్లాలో ఓటర్ల జాబితా ప్రత్యేక సవరణ (ఎస్ఐఆర్) పని బాగా జరిగిందని రాష్ట్ర అదనపు ప్రధాన ఎన్నికల అధికారి డాక్టర్ వాసం వెంకటేశ్వర్ రెడ్డి మెచ్చుకున్నారు. గురువారం కలెక్టరేట్‌లో ఆయన సమీక్ష జరిపారు. జిల్లాలో జాబితా నుంచి తీసేసిన 2.11 లక్షల ఓట్లను బీఎల్‌ఓలు క్షేత్రస్థాయిలో మళ్లీ చూడాలని, అర్హులెవరూ జాబితా నుంచి తప్పిపోకూడదని ఆదేశించారు.",
-   "src": "Namasthe Telangana",
-   "url": "https://www.ntnews.com/nizamabad/excellent-performance-in-the-implementation-of-the-sir-state-additional-chief-electoral-officer-dr-vasam-venkateswar-reddy-commends-nizamabad-officials-2569704",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "nizamabad",
-   "loc": "నిజామాబాద్ కలెక్టరేట్",
-   "pts": [
-    "తుది జాబితాకు ఎన్నికల సంఘం గడువు పెంచింది",
-    "పార్టీల బూత్ ఏజెంట్ల సంతకాలు తీసుకోవాలని సూచన",
-    "ఒకరికి ఒకే చోట ఒకే ఓటు ఉండాలన్నది లక్ష్యం"
-   ],
-   "why": "నిజామాబాద్ జిల్లా ఓటర్లు తమ పేరు జాబితాలో ఉందో లేదో ఇప్పుడే చూసుకుంటే తప్పులు సరిచేయించుకోవచ్చు.",
-   "d": "26.11.2026",
-   "t": "19:05",
-   "pub": "2026-11-26T18:19+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Nizamabad · Voter list",
-    "stat": "2.11 lakh",
-    "statl": "removed votes to be rechecked",
-    "loc": "Nizamabad Collectorate",
-    "h": "Nizamabad told to recheck removed votes",
-    "p": "State Additional Chief Electoral Officer Dr Vasam Venkateswar Reddy praised the Special Intensive Revision (SIR) of voter rolls in Nizamabad district. He held a review at the Collectorate on Thursday. He directed booth-level officers to recheck in the field the 2.11 lakh votes removed from the list in the district, so that no eligible voter is left out.",
-    "pts": [
-     "Election Commission has extended time for the final list",
-     "Signatures of parties' booth agents to be taken",
-     "Aim: one person, one vote, in one place"
-    ],
-    "why": "Nizamabad voters who check now whether their name is on the list can get errors corrected."
-   },
-   "hi": {
-    "cat": "निजामाबाद · मतदाता सूची",
-    "stat": "2.11 लाख",
-    "statl": "हटाए गए वोट दोबारा जांचने का आदेश",
-    "loc": "निजामाबाद कलेक्टरेट",
-    "h": "निजामाबाद: हटाए गए वोट दोबारा जांचने का आदेश",
-    "p": "राज्य के अतिरिक्त मुख्य निर्वाचन अधिकारी डॉ. वासम वेंकटेश्वर रेड्डी ने निजामाबाद जिले में मतदाता सूची के विशेष गहन पुनरीक्षण (एसआईआर) के काम की सराहना की। उन्होंने गुरुवार को कलेक्टरेट में समीक्षा की। उन्होंने निर्देश दिया कि जिले में सूची से हटाए गए 2.11 लाख वोटों को बीएलओ मौके पर दोबारा जांचें, ताकि कोई पात्र मतदाता न छूटे।",
-    "pts": [
-     "चुनाव आयोग ने अंतिम सूची के लिए समय बढ़ाया",
-     "दलों के बूथ एजेंटों के हस्ताक्षर लेने का सुझाव",
-     "लक्ष्य: एक व्यक्ति, एक जगह, एक वोट"
-    ],
-    "why": "निजामाबाद के मतदाता अभी देख लें कि नाम सूची में है या नहीं, तो गलती ठीक कराई जा सकती है।"
-   }
-  },
-  {
-   "cat": "తెలంగాణ · కబడ్డీ",
-   "col": "--c-city",
-   "art": "",
-   "pic": "e/kabaddi-match",
-   "stat": "46–25",
-   "statl": "తేడాతో రైల్వే జట్టు గెలుపు",
-   "h": "తెలంగాణ కబడ్డీ లీగ్‌లో రైల్వే గెలుపు",
-   "p": "తెలంగాణ ఏ-డివిజన్ కబడ్డీ లీగ్ గురువారం హైదరాబాద్ మీర్‌పేట్ మైదానంలో మొదలైంది. తొలి మ్యాచ్‌లో దక్షిణ మధ్య రైల్వే జట్టు 46–25 తేడాతో తెలంగాణ పోస్టల్ జట్టును ఓడించింది. పోటీలను మహేశ్వరం ఎమ్మెల్యే సబితా ఇంద్రారెడ్డి ప్రారంభించారు. ప్రభుత్వ శాఖలు, బ్యాంకులు, క్రీడా సంస్థలకు చెందిన పది జట్లు రెండు పూల్‌లుగా ఆడుతున్నాయి.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/telangana-a-division-kabaddi-league-begins-with-scr-victory",
-   "sec": [
-    "telangana",
-    "sports"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "మీర్‌పేట్",
-   "pts": [
-    "నిర్వహణ: తెలంగాణ కబడ్డీ అసోసియేషన్",
-    "పోలీస్, ఎస్‌బీఐ, ఆర్టీసీ, ఆదాయపు పన్ను జట్లూ బరిలో"
-   ],
-   "why": "రాష్ట్ర కబడ్డీ ఆటగాళ్లకు మరిన్ని అవకాశాలు ఇవ్వడమే ఈ లీగ్ లక్ష్యమని నిర్వాహకులు చెప్పారు.",
-   "d": "26.11.2026",
-   "t": "19:05",
-   "pub": "2026-11-26T18:33+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Kabaddi",
-    "stat": "46–25",
-    "statl": "win for the Railway team",
-    "loc": "Meerpet",
-    "h": "Railway win Telangana kabaddi league opener",
-    "p": "The Telangana A-Division Kabaddi League began on Thursday at the Meerpet ground in Hyderabad. In the opening match, South Central Railway beat Telangana Postal 46–25. Maheshwaram MLA Sabitha Indra Reddy inaugurated the championship. Ten teams from government departments, banks and sports bodies are playing in two pools.",
-    "pts": [
-     "Organised by the Telangana Kabaddi Association",
-     "Police, SBI, RTC and Income Tax teams also in the fray"
-    ],
-    "why": "Organisers say the league aims to give the state's kabaddi players more opportunities."
-   },
-   "hi": {
-    "cat": "तेलंगाना · कबड्डी",
-    "stat": "46–25",
-    "statl": "से रेलवे टीम की जीत",
-    "loc": "मीरपेट",
-    "h": "तेलंगाना कबड्डी लीग: पहले मैच में रेलवे जीता",
-    "p": "तेलंगाना ए-डिवीजन कबड्डी लीग गुरुवार को हैदराबाद के मीरपेट मैदान में शुरू हुई। पहले मैच में दक्षिण मध्य रेलवे ने तेलंगाना पोस्टल को 46–25 से हराया। महेश्वरम की विधायक सबिता इंद्रा रेड्डी ने प्रतियोगिता का उद्घाटन किया। सरकारी विभागों, बैंकों और खेल संस्थाओं की दस टीमें दो पूल में खेल रही हैं।",
-    "pts": [
-     "आयोजक: तेलंगाना कबड्डी एसोसिएशन",
-     "पुलिस, एसबीआई, आरटीसी और आयकर टीमें भी मैदान में"
-    ],
-    "why": "आयोजकों के अनुसार लीग का मकसद राज्य के कबड्डी खिलाड़ियों को ज्यादा मौके देना है।"
-   }
-  },
-  {
-   "cat": "తెలంగాణ · క్రికెట్",
-   "col": "--c-city",
-   "art": "",
-   "pic": "e/cricket-match",
-   "stat": "హైదరాబాద్ 398 పరుగులు",
-   "statl": "చండీగఢ్‌పై",
-   "h": "విజయ్ మర్చంట్ ట్రోఫీలో హైదరాబాద్ పైచేయి",
-   "p": "విజయ్ మర్చంట్ ట్రోఫీ మూడో రౌండ్‌లో చండీగఢ్‌పై హైదరాబాద్ జట్టు పైచేయి సాధించింది. శివమొగ్గలో జరుగుతున్న మ్యాచ్ రెండో రోజు హైదరాబాద్ 8 వికెట్లకు 398 పరుగుల వద్ద ఇన్నింగ్స్ డిక్లేర్ చేసింది. స్మయన్ భరద్వాజ్ 143, సాయి తనిష్క్ 120 పరుగులు చేశారు. చండీగఢ్ తొలి ఇన్నింగ్స్‌లో 204 చేసి, రెండో ఇన్నింగ్స్‌లో వికెట్ నష్టపోకుండా 44 పరుగులతో ఉంది.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/hyderabad-dominate-chandigarh-in-vijay-merchant-trophy-third-round-match",
-   "sec": [
-    "telangana",
-    "sports"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pts": [
-    "అనిరుధ్ నాయక్ 58, వివాన్ రెడ్డి 38 పరుగులు",
-    "కూచ్ బెహార్ ట్రోఫీలో తొలి రోజు హైదరాబాద్ 332 పరుగులు"
-   ],
-   "why": "హైదరాబాద్ జూనియర్ క్రికెట్ జట్టు జాతీయ టోర్నీలో మంచి స్థితిలో ఉంది.",
-   "d": "26.11.2026",
-   "t": "19:05",
-   "pub": "2026-11-26T18:13+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Cricket",
-    "stat": "Hyderabad 398",
-    "statl": "against Chandigarh",
-    "loc": "",
-    "h": "Hyderabad on top in Vijay Merchant Trophy",
-    "p": "Hyderabad took control against Chandigarh in the third round of the Vijay Merchant Trophy. On day two of the match at Shivamogga, Hyderabad declared at 398 for 8. Smyan Bharadwaj made 143 and Sai Tanishq 120. Chandigarh, who made 204 in their first innings, were 44 without loss in the second.",
-    "pts": [
-     "Anirudh Naik 58, Vivaan Reddy 38",
-     "Cooch Behar Trophy: Hyderabad 332 on day one"
-    ],
-    "why": "Hyderabad's junior cricket team is well placed in a national tournament."
-   },
-   "hi": {
-    "cat": "तेलंगाना · क्रिकेट",
-    "stat": "हैदराबाद 398 रन",
-    "statl": "चंडीगढ़ के खिलाफ",
-    "loc": "",
-    "h": "विजय मर्चेंट ट्रॉफी में हैदराबाद का दबदबा",
-    "p": "विजय मर्चेंट ट्रॉफी के तीसरे दौर में हैदराबाद ने चंडीगढ़ पर पकड़ बना ली। शिवमोग्गा में मैच के दूसरे दिन हैदराबाद ने 8 विकेट पर 398 रन बनाकर पारी घोषित की। स्मयन भारद्वाज ने 143 और साई तनिष्क ने 120 रन बनाए। पहली पारी में 204 रन बनाने वाली चंडीगढ़ दूसरी पारी में बिना विकेट खोए 44 रन पर है।",
-    "pts": [
-     "अनिरुद्ध नायक 58, विवान रेड्डी 38 रन",
-     "कूच बिहार ट्रॉफी: पहले दिन हैदराबाद 332 रन"
-    ],
-    "why": "हैदराबाद की जूनियर क्रिकेट टीम राष्ट्रीय टूर्नामेंट में अच्छी स्थिति में है।"
-   }
-  },
-  {
-   "cat": "ప్రపంచం · పశ్చిమాసియా",
-   "col": "--c-power",
-   "art": "",
-   "pic": "n/asia",
-   "stat": "2 చమురు నౌకలకు మంటలు",
-   "statl": "ఒమన్ తీరం వద్ద",
-   "h": "హోర్ముజ్ వద్ద 2 నౌకలకు మంటలు: ఇరాన్",
-   "p": "ఒమన్‌కు ఉత్తరాన హోర్ముజ్ జలసంధిని రహస్యంగా దాటడానికి ప్రయత్నించిన రెండు చమురు నౌకలు మంటల్లో చిక్కుకున్నాయని ఇరాన్ రివల్యూషనరీ గార్డ్స్ గురువారం ప్రకటించింది. ఆ నౌకలు నావిగేషన్ వ్యవస్థలు ఆపేసి, అనుమతి లేని దారిలో వెళ్లాయని చెప్పింది. ఒక నౌకలో 20 లక్షల బ్యారెళ్లకు పైగా ముడి చమురు ఉందని తెలిపింది. ఇవన్నీ ఇరాన్ చెప్పిన వివరాలే.",
-   "src": "Siasat Daily",
-   "url": "https://www.siasat.com/2-tankers-catch-fire-off-oman-while-secretly-crossing-hormuz-iran-3587646/",
-   "sec": [
-    "world"
-   ],
-   "st": "WORLD",
-   "place": "IN",
-   "loc": "",
-   "pts": [
-    "నౌకలు నీటిలోని మందుపాతరలను తాకాయని ఇరాన్ కథనం",
-    "దుబాయ్‌కు పశ్చిమాన మరో నౌక దగ్గర పేలుడు: బ్రిటన్ సముద్ర భద్రతా సంస్థ",
-    "ఆ నౌక సిబ్బంది అంతా క్షేమం"
-   ],
-   "why": "హోర్ముజ్ దారిలో అడ్డంకులు పెరిగితే భారత్‌కు వచ్చే చమురు సరఫరాపై ప్రభావం పడవచ్చు.",
-   "d": "26.11.2026",
-   "t": "19:05",
-   "pub": "2026-11-26T18:35+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "World · West Asia",
-    "stat": "2 oil tankers on fire",
-    "statl": "off the Oman coast",
-    "loc": "",
-    "h": "Two oil tankers on fire near Hormuz: Iran",
-    "p": "Iran's Revolutionary Guards said on Thursday that two oil tankers caught fire north of Oman while trying to cross the Strait of Hormuz secretly. They said the vessels had switched off their navigation systems and used an unauthorised route. One of them was carrying more than two million barrels of crude oil, they said. All these details come from Iran.",
-    "pts": [
-     "Iran's account says the tankers hit naval mines",
-     "Blast near another tanker west of Dubai: UK maritime agency",
-     "That tanker's crew are all safe"
-    ],
-    "why": "More disruption on the Hormuz route could affect oil supplies coming to India."
-   },
-   "hi": {
-    "cat": "दुनिया · पश्चिम एशिया",
-    "stat": "2 तेल टैंकरों में आग",
-    "statl": "ओमान तट के पास",
-    "loc": "",
-    "h": "होर्मुज के पास 2 तेल टैंकरों में आग: ईरान",
-    "p": "ईरान के रिवोल्यूशनरी गार्ड्स ने गुरुवार को कहा कि ओमान के उत्तर में होर्मुज जलडमरूमध्य को गुपचुप पार करने की कोशिश कर रहे दो तेल टैंकरों में आग लग गई। उनके अनुसार जहाजों ने नेविगेशन सिस्टम बंद कर रखे थे और बिना अनुमति वाले रास्ते से जा रहे थे। एक जहाज में 20 लाख बैरल से ज्यादा कच्चा तेल था। ये सभी ब्योरे ईरान के बताए हुए हैं।",
-    "pts": [
-     "ईरान के अनुसार टैंकर समुद्री बारूदी सुरंगों से टकराए",
-     "दुबई के पश्चिम में एक और टैंकर के पास धमाका: ब्रिटिश समुद्री एजेंसी",
-     "उस टैंकर का पूरा चालक दल सुरक्षित"
-    ],
-    "why": "होर्मुज मार्ग पर रुकावटें बढ़ीं तो भारत आने वाली तेल आपूर्ति पर असर पड़ सकता है।"
-   }
-  },
-  {
-   "cat": "ఆలేరు · స్థానికం",
-   "col": "--c-gov",
-   "art": "",
-   "pic": "logo",
-   "stat": "సన్మానం",
-   "statl": "మార్కెట్ కమిటీ చైర్మన్‌కు",
-   "h": "మార్కెట్ చైర్మన్ మల్లేష్ గౌడ్‌కు సన్మానం",
-   "p": "మార్కెట్ కమిటీ చైర్మన్‌గా ప్రమాణ స్వీకారం చేయనున్న శ్రీ సుధగాని మల్లేష్ గౌడ్ గురువారం ఆలేరు మున్సిపల్ చైర్‌పర్సన్ శ్రీమతి బీజన బాలమణి భాస్కర్‌ను కార్యక్రమానికి ఆహ్వానించేందుకు వచ్చారు. ఈ సందర్భంగా మల్లేష్ గౌడ్‌ను, వంగపల్లి PACS చైర్మన్ శ్రీ సుబ్రహ్మణ్యంను శాలువాలతో మర్యాదపూర్వకంగా సన్మానించారు.",
-   "src": "Swipe2News రిపోర్టర్ · ఆలేరు",
-   "url": "",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "yadadri",
-   "loc": "ఆలేరు",
-   "pts": [
-    "ప్రమాణ స్వీకారానికి చైర్‌పర్సన్ బాలమణి భాస్కర్‌కు ఆహ్వానం",
-    "మల్లేష్ గౌడ్‌కు శాలువాతో సన్మానం",
-    "వంగపల్లి PACS చైర్మన్ సుబ్రహ్మణ్యంకూ సన్మానం"
-   ],
-   "why": "ఆలేరు మార్కెట్ కమిటీకి కొత్త చైర్మన్ బాధ్యతలు చేపట్టనున్నారు; రైతుల మార్కెట్ వ్యవహారాలు ఆయన చేతుల్లోకి.",
-   "en": {
-    "cat": "Aler · Local",
-    "stat": "Honoured",
-    "statl": "market committee chairman",
-    "loc": "Aler",
-    "h": "Market committee chairman Mallesh Goud honoured",
-    "p": "Sudhagani Mallesh Goud, who is set to take oath as market committee chairman, visited Aler municipal chairperson Bijana Balamani Bhaskar on Thursday to invite her to the ceremony. On the occasion, Mallesh Goud and Vangapalli PACS chairman Subrahmanyam were honoured with shawls as a courtesy.",
-    "pts": [
-     "Chairperson Balamani Bhaskar invited to the oath ceremony",
-     "Mallesh Goud honoured with a shawl",
-     "Vangapalli PACS chairman Subrahmanyam also honoured"
-    ],
-    "why": "A new chairman will soon lead the market committee that handles farmers' produce sales."
-   },
-   "hi": {
-    "cat": "आलेर · स्थानीय",
-    "stat": "सम्मान",
-    "statl": "मार्केट कमेटी चेयरमैन",
-    "loc": "आलेर",
-    "h": "मार्केट कमेटी चेयरमैन मल्लेश गौड़ का सम्मान",
-    "p": "मार्केट कमेटी चेयरमैन के रूप में शपथ लेने जा रहे सुधगानी मल्लेश गौड़ गुरुवार को आलेर नगरपालिका अध्यक्ष बीजना बालमणि भास्कर को समारोह का निमंत्रण देने पहुंचे। इस अवसर पर मल्लेश गौड़ और वंगपल्ली PACS चेयरमैन सुब्रह्मण्यम का शॉल ओढ़ाकर सम्मान किया गया।",
-    "pts": [
-     "अध्यक्ष बालमणि भास्कर को शपथ समारोह का निमंत्रण",
-     "मल्लेश गौड़ का शॉल से सम्मान",
-     "वंगपल्ली PACS चेयरमैन सुब्रह्मण्यम का भी सम्मान"
-    ],
-    "why": "किसानों की उपज बिक्री संभालने वाली मार्केट कमेटी को जल्द नया चेयरमैन मिलेगा।"
-   },
-   "d": "26.11.2026",
-   "t": "18:46",
-   "pub": "2026-11-26T18:46+05:30",
-   "lbl": "fact",
-   "img": "photos/2026-11-26-aler-market-chairman-mallesh-goud-honour.jpg",
-   "imgfy": 0.3,
-   "imgcr": "ఆలేరు రిపోర్టర్",
-   "local": true,
-   "_sid": "pp59ut"
-  },
-  {
-   "cat": "ఆరోగ్యం · తెలుసుకోండి",
-   "col": "--c-gov",
-   "art": "",
-   "pic": "logo",
-   "stat": "pH 6.5–8.5",
-   "statl": "త్రాగునీటి ప్రమాణం",
-   "h": "త్రాగునీటి pH ఎంత ఉండాలి?",
-   "p": "నీరు ఎంత ఆమ్లమో, ఎంత క్షారమో చెప్పే కొలత pH. ఇది 0 నుంచి 14 వరకు ఉంటుంది, 7 తటస్థం. భారత ప్రమాణం BIS IS 10500 ప్రకారం త్రాగునీటి pH 6.5 నుంచి 8.5 మధ్య ఉండాలి. ఈ పరిధి దాటితే నోరు, గొంతుపై ప్రభావం, పైపులు తుప్పు పడటం జరగొచ్చు. 'ఆల్కలైన్ వాటర్' అదనపు ఆరోగ్య లాభాలకు శాస్త్రీయ ఆధారాలు లేవు.",
-   "src": "BIS IS 10500 · WHO",
-   "url": "https://www.bis.gov.in/other/DrinWatIS10500.pdf",
-   "sec": [
-    "telangana",
-    "andhra",
-    "india"
-   ],
-   "st": "TG",
-   "pts": [
-    "pH 0–14 స్కేల్: 7 తటస్థం, 7 కంటే తక్కువ ఆమ్లం, ఎక్కువ క్షారం",
-    "త్రాగునీరు: pH 6.5 – 8.5 (BIS IS 10500:2012)",
-    "ఆల్కలైన్ వాటర్ 'అదనపు లాభాలకు' ఆధారాలు లేవు; శరీరం pH‌ను కిడ్నీలే సమతుల్యం చేస్తాయి",
-    "pH తో పాటు TDS, బ్యాక్టీరియా పరీక్ష కూడా ముఖ్యం"
-   ],
-   "why": "ఇంటి నీరు, RO, బాటిల్ నీరు ఎంచుకునేటప్పుడు సరైన ప్రమాణం తెలుస్తుంది; ఖరీదైన 'ఆల్కలైన్' ప్రచారాలకు మోసపోకుండా ఉంటారు.",
-   "en": {
-    "cat": "Health · Explainer",
-    "stat": "pH 6.5–8.5",
-    "statl": "drinking water standard",
-    "h": "What should drinking water pH be?",
-    "p": "pH measures how acidic or alkaline water is, on a scale of 0 to 14 with 7 as neutral. India's BIS standard IS 10500 says drinking water pH should be 6.5 to 8.5. Outside this range water can affect the mouth and throat and corrode pipes. There is no scientific proof that 'alkaline water' gives extra health benefits.",
-    "pts": [
-     "pH 0–14: 7 neutral, below 7 acidic, above 7 alkaline",
-     "Drinking water: pH 6.5–8.5 (BIS IS 10500:2012)",
-     "No proof alkaline water gives extra benefits; kidneys balance body pH",
-     "TDS and bacteria tests matter as much as pH"
-    ],
-    "why": "Helps you judge tap, RO and bottled water, and avoid paying extra for 'alkaline' marketing."
-   },
-   "hi": {
-    "cat": "स्वास्थ्य · जानिए",
-    "stat": "pH 6.5–8.5",
-    "statl": "पेयजल मानक",
-    "h": "पीने के पानी का pH कितना हो?",
-    "p": "pH बताता है कि पानी कितना अम्लीय या क्षारीय है; पैमाना 0 से 14 तक, 7 तटस्थ। भारतीय मानक BIS IS 10500 के अनुसार पेयजल का pH 6.5 से 8.5 होना चाहिए। इस सीमा के बाहर पानी मुंह-गले पर असर और पाइपों में जंग ला सकता है। 'एल्कलाइन वाटर' के अतिरिक्त फायदों का वैज्ञानिक प्रमाण नहीं है।",
-    "pts": [
-     "pH 0–14: 7 तटस्थ, 7 से कम अम्लीय, अधिक क्षारीय",
-     "पेयजल: pH 6.5–8.5 (BIS IS 10500:2012)",
-     "एल्कलाइन पानी के अतिरिक्त लाभ का प्रमाण नहीं; शरीर का pH किडनी संतुलित करती है",
-     "pH के साथ TDS और बैक्टीरिया जांच भी ज़रूरी"
-    ],
-    "why": "नल, RO और बोतलबंद पानी चुनने में मदद; 'एल्कलाइन' प्रचार में ज़्यादा पैसे न दें।"
-   },
-   "d": "26.11.2026",
-   "t": "18:45",
-   "pub": "2026-11-26T18:45+05:30",
-   "lbl": "fact",
-   "img": "photos/2026-11-26-water-ph-scale.jpg",
-   "imgfy": 0.3,
-   "imgcr": "Swipe2News గ్రాఫిక్",
-   "local": true,
-   "_sid": "7uzsqe"
-  },
-  {
-   "cat": "హైదరాబాద్ · ప్రమాదం",
-   "col": "--c-city",
-   "art": "",
-   "pic": "logo",
-   "stat": "ఇద్దరికి",
-   "statl": "గాయాలు",
-   "h": "గోల్కొండలో శిక్షణ విమానానికి ప్రమాదం",
-   "p": "హైదరాబాద్ గోల్కొండ ఆర్మీ కంటోన్మెంట్ పరిధిలో గురువారం తెలంగాణ స్టేట్ ఏవియేషన్ అకాడమీకి చెందిన సెస్నా-152 శిక్షణ విమానం అత్యవసరంగా దిగుతూ చెట్టును ఢీకొంది. అందులో ఉన్న శిక్షణ పైలట్, ఇన్‌స్ట్రక్టర్‌కు గాయాలయ్యాయి. సాంకేతిక లోపం వల్లే దిగాల్సి వచ్చిందని తెలుస్తోంది. ఇద్దరినీ ఆసుపత్రికి తరలించారు.",
-   "pts": [
-    "విమానం ముందు భాగం దెబ్బతింది",
-    "శిక్షణ పైలట్ తలకు గాయమైంది",
-    "ప్రమాద కారణాలను అధికారులు పరిశీలిస్తున్నారు"
-   ],
-   "why": "నగరంలో పైలట్ శిక్షణ తీసుకుంటున్న విద్యార్థులు, వారి కుటుంబాలకు ఇది భద్రతకు సంబంధించిన విషయం.",
-   "src": "Andhra Prabha",
-   "url": "https://prabhanews.com/aircraft-accident-at-the-golconda-army-cantonment/",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "గోల్కొండ ఆర్మీ కంటోన్మెంట్",
-   "pub": "2026-11-26T18:15+05:30",
-   "lbl": "fact",
-   "d": "26.11.2026",
-   "t": "18:35",
-   "en": {
-    "cat": "Hyderabad · Accident",
-    "stat": "2 injured",
-    "statl": "trainee pilot and instructor",
-    "loc": "Golconda Army Cantonment, Hyderabad",
-    "h": "Trainer plane hits tree in Golconda",
-    "p": "A Cessna-152 trainer aircraft of the Telangana State Aviation Academy hit a tree while making an emergency landing within the Golconda Army Cantonment in Hyderabad on Thursday. The trainee pilot and the instructor on board were injured and taken to hospital. A technical fault reportedly forced the landing.",
-    "pts": [
-     "The front of the aircraft was damaged",
-     "The trainee pilot suffered a head injury",
-     "Officials are looking into the cause"
-    ],
-    "why": "The incident is a safety concern for pilot trainees in the city and their families."
-   },
-   "hi": {
-    "cat": "हैदराबाद · हादसा",
-    "stat": "2 घायल",
-    "statl": "ट्रेनी पायलट और इंस्ट्रक्टर",
-    "loc": "गोलकोंडा आर्मी कैंटोनमेंट, हैदराबाद",
-    "h": "गोलकोंडा में ट्रेनर विमान पेड़ से टकराया",
-    "p": "हैदराबाद के गोलकोंडा आर्मी कैंटोनमेंट इलाके में गुरुवार को तेलंगाना स्टेट एविएशन अकादमी का सेसना-152 ट्रेनर विमान आपात लैंडिंग के दौरान एक पेड़ से टकरा गया। विमान में सवार ट्रेनी पायलट और इंस्ट्रक्टर घायल हुए और उन्हें अस्पताल ले जाया गया। बताया जा रहा है कि तकनीकी खराबी के कारण विमान को उतारना पड़ा।",
-    "pts": [
-     "विमान का अगला हिस्सा क्षतिग्रस्त हुआ",
-     "ट्रेनी पायलट के सिर में चोट आई",
-     "अधिकारी कारणों की जांच कर रहे हैं"
-    ],
-    "why": "शहर में पायलट प्रशिक्षण ले रहे छात्रों और उनके परिवारों के लिए यह सुरक्षा का मामला है।"
    }
   }
  ]
