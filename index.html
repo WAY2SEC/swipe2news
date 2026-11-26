@@ -3155,7 +3155,8 @@ function mysNextUnread(){ const r=mysResume(), from=r?r.i+1:cur+1; // first unre
   for(let i=0;i<from&&i<LIST.length;i++) if(!LIST[i].kind&&!isRead(LIST[i])) return i; return -1; }
 let MYS_ALL=0; // cards before the unread-only filter, for the "showing X of Y" line
 function mysNewIdx(){ return LIST.map((s,i)=>isNew(s)?i:-1).filter(i=>i>=0); }
-function mysStats(){ const news=LIST.filter(s=>!s.kind), r=news.filter(isRead).length, n=mysNewIdx().length; return {total:news.length,read:r,unread:news.length-r,nw:n,pct:news.length?Math.round(r/news.length*100):0}; }
+function mysStats(){ const news=LIST.filter(s=>!s.kind), u=news.filter(s=>!isRead(s)).length, n=mysNewIdx().length, total=Math.max(MYS_ALL||0,news.length), r=total-u; // read stories hidden from the cards still count as read
+  return {total,read:r,unread:u,nw:n,pct:total?Math.round(r/total*100):0,shown:news.length}; }
 function mysJump(i,quiet){ i=Math.max(0,Math.min(i,cards.length-1)); mysClose(); mysWBClose(); if(i!==cur) go(i,i>cur?'left':'right'); }
 /* unread-only mode: read stories leave the feed (the card on screen and breaking news always stay) */
 function mysFilter(list){ if(!MYS.unread||!mysOn()){ MYS_ALL=0; return list; } const keep=LIST&&LIST[cur]?rdId(LIST[cur]):'';
@@ -3212,8 +3213,8 @@ function mysClose(){ const o=$('mysSheet'); if(!o||o.hidden) return; o.classList
 function mysDraw(light,scroll){
   const S=mysStats(), n=LIST.length, r=mysResume();
   $('mysT').innerHTML=MYS_ICON+MYS_WORD; $('mysT').setAttribute('aria-label',MT('name')); $('mysC').textContent=MT('camp'); $('mysC2').textContent=MT('camp2'); $('mysC2').hidden=!MT('camp2');
-  const oth=LIST.length-S.total;
-  $('mysCi').textContent=MYS_ALL?MT('filt')(S.total,MYS_ALL):(oth>0?MT('cards')(LIST.length,S.total,oth):'');
+  const oth=LIST.length-S.shown;
+  $('mysCi').textContent=MYS_ALL?MT('filt')(S.shown,MYS_ALL):(oth>0?MT('cards')(LIST.length,S.shown,oth):'');
   $('mysS').innerHTML=[['news',S.total,''],['read',S.read,'g'],['unread',S.unread,''],['nw',S.nw,'a']].map(([k,v,c])=>`<div><small>${MT(k)}</small><b class="${c}">${v}</b></div>`).join('');
   $('mysPb').style.width=S.pct+'%'; $('mysPt').textContent=MT('done')(S.pct);
   const cnt={all:n,unread:LIST.filter(s=>!s.kind&&!isRead(s)).length,new:S.nw,hist:MYS.hist.length};
