@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-26T20:35:00+05:30",
+ "cutoff": "2026-11-26T21:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-23T22:05:00+05:30/2026-11-23T22:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 2,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Lookback from 14:05. Feeds 22:13 IST (70/70 ok). ~45 uncovered events first seen since 21:50 scanned (~26 local, many Suryaa West Godavari minor/entertainment items). add_repo tool not available; used existing clone. Published: DC Kadiyam Kavya challenges KTR (claim), UNI Prisons DG Swati Lakra inspects Chanchalguda (fact, late-found 18:23). Duplicates: DC Revanth MCR HRD press meet on Krishna water (published 18:35 via V6; TT/TV9/Hindu copies same event), Siasat ED widens CMR rice probe (same as 10:05 AJ 'ED files more cases'). Skipped as before: Hindu HC Rs 2 lakh encounter compensation (17 Nov ruling), Hindu Godavarikhani (published 22:05). Search did not return: Hindu PJTSAU new degree courses/Rythu Bharosa yatras, DC Indo-French team Vizag fishing harbour, DC Vizag stray cattle, DC AICC Raj Gopal Reddy, Hyderabad Mail T-Works Taiwan fair, TOI Indonesia ship seizure - left unseen. No separate district searches this run. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T22:35:00+05:30/2026-11-23T23:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Lookback from 12:05. Feeds 20:18 IST (68/68 ok; 55 uncovered unseen events first seen since 19:45, many lifestyle/entertainment). add_repo tool not available; used existing clone. Direct feed URLs refused by fetch until surfaced by WebSearch; thehindu.com domain searches rejected by search proxy (~15 min lost). Published 4: TT Golconda training aircraft crash (20:11, sensitive, no names), TG SAFE 138 medical shops abortion-kit notices via Hindu Dayashankar (19:35; The Hindu not surfaced), TT Hitesh Dolwani para TT title (20:09), Siasat Kuwait drone attack (19:51, claim). Not opened (not surfaced by search): The Hindu Jagan Rayalaseema lift, Chevireddy collusion allegation, AP crop insurance (likely duplicate of 18:35 AJ story), YSRCP constitutional values, Naidu Palvancha temple; BigTV Anand Mohan back to jail; NIE Delhi HC IRCTC; PIB India Post Rs 2,632 cr, India-UAE defence; DC I4C Myanmar job scams; Disha five villages merger; Prime9 Kadapa TDP win. No district searches this run. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-26T20:35:00+05:30/2026-11-26T21:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 7,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 12:35. Feeds 20:47 IST (70/70 ok; 158 uncovered unseen events first seen since 19:45, many entertainment/lifestyle/non-news). add_repo tool not available; used existing clone. Published 7: V6 Revanth 25,000 jobs at Achampet (20:51), TT Komatireddy on Palnadu Water Grid (20:46, claim, officer not named), DC SCR 110 Sabarimala trains (20:17), ThePrint/PTI special Parliament sitting from Nov 30 (20:49), DD India record foodgrain 378.5 MT (20:31), TT BIMSTEC U23 Shaik Roshan 110m hurdles gold (20:53), Siasat/PTI UK migration Indians (19:54, late-found). Not opened (fetch refused / not in search index; left unseen for next run): The Hindu Naidu Palvancha temple, Bhatti 5 GW data centres, duplicate entries de-novo rolls, Kotia tension, Nellore couple killed going to vote, Chevireddy allegation, Kailasagiri science museum, Cyberabad mobility app; TT Kothapet Rs 10.39 lakh job scam, Shiv Kapur Atri Invitational. No district searches this run. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8388,6 +8388,51 @@
    "url": "https://www.siasat.com/kuwait-iranian-drone-attack-on-vital-site-injures-four-people-3587729/",
    "d": "2026-11-26",
    "w": "20:35"
+  },
+  {
+   "url": "https://www.v6velugu.com/i-will-develop-the-achampet-constituency-in-every-respect-cm-revanth",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/komatireddy-admits-congress-government-s-mistake-over",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/scr-plans-110-sabarimala-special-trains-2008241",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://theprint.in/india/govt-proposes-special-sitting-of-parliament-from-nov-30-delimitation-bill-likely-agenda/3110191/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/govt-proposes-special-sitting-of-parliament-from-november-30-3587773/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://ddindia.co.in/2026/11/india-records-all-time-high-foodgrain-production-of-378-5-million-tonnes-in-2025-26/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/indian-athletes-win-multiple-golds-on-day-2-of-bimstec-u23-meet",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/telanganas-shaik-roshan-clinches-100m-hurdles-gold-in-bhubaneswar",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/indian-students-workers-top-exits-as-uk-logs-net-migration-drop-3587723/",
+   "d": "2026-11-26",
+   "w": "published"
   }
  ]
 }
