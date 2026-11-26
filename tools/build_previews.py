@@ -460,7 +460,7 @@ def main():
                     url = pg.evaluate("(s)=>ogImage(s)", s)
                     with open(img_path, "wb") as f: f.write(base64.b64decode(url.split(",", 1)[1]))
                     made += 1
-                img = f"{IMG}/cards/{sid}.jpg"
+                img = f"{IMG}/cards/{sid}.jpg?v=2"  # v=2 (26 Nov 2026): pictures in previews; makes WhatsApp fetch the new card
             if kind == "job":
                 target = f"/?jobs=1&s={sid}"
                 desc = " · ".join(x for x in [s.get("posts") and f"{s['posts']} పోస్టులు", s.get("last") and f"చివరి తేదీ {s['last']}", s.get("org")] if x)
