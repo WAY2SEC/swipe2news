@@ -202,7 +202,8 @@ p.sum{font:400 var(--fs)/1.6 var(--tx);color:var(--ink)}
 <div class="sheet" id="cSheet" hidden role="dialog" aria-modal="true" aria-labelledby="cT"><div>
   <h2 id="cT">Choose your country</h2>
   <p>We show the news for your country. More countries are coming.</p>
-  <button class="opt" type="button" aria-current="true">🇳🇬<span>Nigeria<small>English · Nigerian and world news</small></span></button>
+  <button class="opt" type="button" aria-current="true" data-close>🇳🇬<span>Nigeria<small>English · Nigerian and world news</small></span></button>
+  <button class="opt" type="button" id="goIN">🇮🇳<span>India<small>Telangana &amp; Andhra Pradesh · తెలుగు · English · हिन्दी</small></span></button>
   <button class="opt" type="button" disabled>🇬🇭<span>Ghana<small>Coming soon</small></span></button>
   <button class="opt" type="button" disabled>🇰🇪<span>Kenya<small>Coming soon</small></span></button>
   <button class="opt pri" type="button" data-close>Done</button>
@@ -379,6 +380,7 @@ $('q').oninput=()=>{ const w=$('q').value.trim().toLowerCase(); if(w.length<2){ 
   $('res').innerHTML=r.length?r.map(s=>`<button type="button" data-k="${sid(s)}">${esc(s.h)}<small>${esc(s.cat)} · ${esc(when(s))}</small></button>`).join(''):'<p>No stories found.</p>'; };
 $('res').onclick=e=>{ const b=e.target.closest('[data-k]'); if(b) jumpTo(b.dataset.k); };
 $('cBtn').onclick=()=>{ $('cSheet').hidden=false; };
+$('goIN').onclick=()=>{ location.href='/?ed=in'+(q.get('source')?'&source='+encodeURIComponent(q.get('source')):''); };   // saved as s2n.pick=in; ?ed=ng comes back
 $('stBtn').onclick=()=>{ $('states').innerHTML=['All Nigeria'].concat(STATES).map(n=>`<button type="button" data-st="${n==='All Nigeria'?'':n}" ${((STATE||'')===(n==='All Nigeria'?'':n))?'style="border-color:var(--plum);box-shadow:0 0 0 2px var(--plum) inset"':''}>📍 ${n}</button>`).join(''); $('sSheet').hidden=false; };
 $('states').onclick=e=>{ const b=e.target.closest('[data-st]'); if(!b) return; STATE=b.dataset.st; LS.set('state',STATE); $('sSheet').hidden=true; build(false); hello(); show(0); toast(STATE?'📍 '+STATE+' stories come first':'📍 All Nigeria'); };
 $('nameBtn').onclick=()=>{ $('profBtn').click(); setTimeout(()=>$('nm').focus(),50); };
