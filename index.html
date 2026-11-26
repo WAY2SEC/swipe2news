@@ -3321,6 +3321,7 @@ function startTour(force){
   o.innerHTML='<i class="trh"></i><i class="tra" aria-hidden="true"><svg viewBox="0 0 28 32" width="28" height="32"><path d="M14 2v24M4 17l10 11 10-11" fill="none" stroke="#F5A23A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></i><div class="trb"></div>';
   o.addEventListener('click',e=>{ if(e.target===o||e.target.classList.contains('trh')) {/* taps outside do nothing: use × or the button */} });
   document.body.appendChild(o); requestAnimationFrame(()=>o.classList.add('on'));
+  try{ store.set(TOUR_KEY,Date.now()); const u=new URL(location.href); if(u.searchParams.has('mys')){ u.searchParams.delete('mys'); history.replaceState(history.state,'',u.pathname+u.search+u.hash); } }catch(e){} // once per phone: seen as soon as it shows, even if not finished
   addEventListener('resize',tourPlace); tourShow(0); return true; }
 /* ---------- Catch up and come back (owner, 26 Nov 2026) ----------
    1) The welcome-back card offers "from where you stopped" or "new stories"; choosing new stories remembers the reader's card (MYS.ret).
