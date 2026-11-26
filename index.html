@@ -373,6 +373,101 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 @media (prefers-reduced-motion:reduce){.fsplay .wv b{animation:none;height:10px}}
 @media (max-width:380px){.logo{height:28px}.place{font-size:11.5px;padding:4px 9px}}
 @media (prefers-reduced-motion:reduce){.story{transition:none}.toast{transition:none}}
+/* My Swipe – నా స్వైప్ (owner, 26 Nov 2026) */
+.s2n .cfoot.dock .dcw{display:flex;flex-direction:column;align-items:flex-start;gap:2px;cursor:pointer;padding:6px 8px;margin:-6px -4px;border-radius:12px;-webkit-tap-highlight-color:transparent;transition:background .15s}
+.s2n .cfoot.dock .dcw:active,#count:active{background:rgba(245,162,58,.2)}
+.s2n .cfoot.dock .mysl{font:700 9.5px/1 var(--body);letter-spacing:.2px;color:#F5A23A;opacity:.85;white-space:nowrap}
+[data-dock="b"] .s2n .cfoot.dock .mysl{color:#B5641A}
+#count{cursor:pointer}
+.mysw{position:fixed;inset:0;z-index:85;background:rgba(10,4,9,0);display:flex;align-items:flex-end;justify-content:center;transition:background .25s}
+.mysw.on{background:rgba(10,4,9,.55)}
+.mysb{width:100%;max-width:520px;max-height:90vh;overflow:auto;overscroll-behavior:contain;background:var(--card);color:var(--ink);border-radius:24px 24px 0 0;padding:10px 18px calc(16px + env(safe-area-inset-bottom,0px));box-shadow:0 -10px 40px rgba(0,0,0,.35);transform:translateY(100%);transition:transform .3s cubic-bezier(.2,.8,.2,1);font-family:var(--body)}
+.mysw.on .mysb{transform:none}
+.mysg{display:block;width:40px;height:4px;border-radius:4px;background:var(--line);margin:0 auto 8px}
+.mysh{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+.mysh b{display:block;font:800 21px/1.35 var(--body);color:var(--ink)}
+.mysh small{display:block;color:#C77A12;font:700 12px/1.3 'Outfit',var(--body);letter-spacing:.2px}
+.mysx{border:0;background:none;color:var(--muted);font:400 28px/1 sans-serif;min-width:44px;min-height:44px;cursor:pointer}
+.myss{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:12px 0 8px}
+.myss small{display:block;color:var(--muted);font:600 12px/1.4 var(--body);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.myss b{font:800 25px/1.15 'Outfit',sans-serif;font-variant-numeric:tabular-nums}
+.myss b.g{color:#3E9A5B}.myss b.a{color:#E08A1E}
+.mysp{display:flex;align-items:center;gap:10px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.mysp span{font:700 12.5px/1 'Outfit',var(--body);color:var(--muted);white-space:nowrap}
+.myspb{flex:1;height:6px;border-radius:6px;background:var(--line);overflow:hidden}
+.myspb i{display:block;height:100%;border-radius:6px;background:linear-gradient(90deg,#4A0E3F,#F5A23A);transition:width .4s}
+.myst{display:flex;gap:6px;padding:12px 0 4px;overflow-x:auto;scrollbar-width:none}
+.myst::-webkit-scrollbar{display:none}
+.myst button{flex:1 0 auto;min-height:40px;border:1.5px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:0 12px;font:700 14px/1 var(--body);display:flex;align-items:center;justify-content:center;gap:6px;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.myst button i{font:800 11px/1 'Outfit',sans-serif;font-style:normal;background:var(--soft);color:var(--muted);border-radius:999px;padding:3px 6px}
+.myst button[aria-selected="true"]{background:#4A0E3F;border-color:#4A0E3F;color:#FFFDF5}
+.myst button[aria-selected="true"] i{background:#F5A23A;color:#4A0E3F}
+.mysv.grid{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:56px;gap:8px;padding:10px 2px 4px;max-height:31vh;overflow:auto;overscroll-behavior:contain}
+.mysv.grid button{position:relative;height:56px;border-radius:12px;border:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;cursor:pointer;font:700 17px/1 'Outfit',sans-serif;transition:transform .12s,background .2s;min-height:44px}
+.mysv.grid button:active{transform:scale(.93)}
+.mysv.grid button i{width:8px;height:8px;border-radius:50%;background:currentColor;opacity:.5}
+.mysv.grid button.r{background:#E3F1E6;color:#2E7D46}
+.mysv.grid button.r i{background:none;width:10px;height:6px;border-radius:0;border-left:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(-45deg) translate(1px,-1px);opacity:.9}
+.mysv.grid button.u{background:var(--soft);color:var(--muted)}
+.mysv.grid button.v{background:var(--soft);color:var(--muted)}
+.mysv.grid button.v i{background:none;border:1.5px solid currentColor;opacity:.8}
+.mysv.grid button.k{background:transparent;color:var(--muted);border:1.5px dashed var(--line);opacity:.8}.mysv.grid button.k i{width:4px;height:4px}
+.mysv.grid button.s{background:#F5A23A;color:#4A0E3F;box-shadow:0 4px 14px rgba(245,162,58,.4)}
+.mysv.grid button.s i{background:#4A0E3F;opacity:1;width:9px;height:9px;border:0}
+.mysv.grid button.cur{outline:2px solid #F5A23A;outline-offset:-2px}
+.mysv.grid button.nw::after,.mysv.grid button.up::after{content:'';position:absolute;top:6px;right:6px;width:7px;height:7px;border-radius:50%;background:#F5A23A;box-shadow:0 0 0 2px var(--card)}
+.mysv.grid button.up::after{background:#1F5FAD}
+.mysv.hist{display:grid;gap:8px;padding:10px 0 4px;max-height:38vh;overflow:auto;overscroll-behavior:contain}
+.mysh1{display:flex;align-items:center;gap:10px;text-align:left;border:0;background:var(--soft);color:var(--ink);border-radius:14px;padding:8px;cursor:pointer;min-height:60px}
+.mysh1 img,.mysph{width:52px;height:52px;flex:none;border-radius:10px;object-fit:cover;background:#4A0E3F}
+.myshx{flex:1;min-width:0}
+.myshx b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font:700 14px/1.45 var(--body)}
+.myshx small{display:block;color:var(--muted);font:600 11.5px/1.4 var(--body);margin-top:2px}
+.myshx em{font-style:normal;color:#1F5FAD}
+.mysno{font:800 13px/1 'Outfit',sans-serif;color:var(--muted);padding:0 4px}
+.mysem{grid-column:1/-1;text-align:center;color:var(--muted);font:600 14px/1.6 var(--body);padding:18px 0;margin:0}
+.mysk{display:flex;gap:14px;flex-wrap:wrap;padding:8px 2px 10px;color:var(--muted);font:600 12px/1.4 var(--body)}
+.mysk:empty{display:none}
+.mysk span{display:flex;align-items:center;gap:6px}.mysk .k{width:11px;height:11px;border-radius:50%}
+.mysk .k.r{background:#3E9A5B}.mysk .k.s{background:#F5A23A}.mysk .k.u{background:var(--muted);opacity:.5}.mysk .k.v{border:1.5px solid var(--muted)}
+.mysu{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 2px;border-top:1px solid var(--line);font:700 14.5px/1.4 var(--body);cursor:pointer;min-height:44px}
+.mysu input{position:absolute;opacity:0;pointer-events:none}
+.mysu i{flex:none;width:46px;height:28px;border-radius:999px;background:var(--line);position:relative;transition:background .2s}
+.mysu i::after{content:'';position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.3);transition:transform .2s}
+.mysu input:checked+i{background:#4A0E3F}.mysu input:checked+i::after{transform:translateX(18px)}
+.mysu input:focus-visible+i{outline:2px solid #F5A23A;outline-offset:2px}
+.mysj{display:flex;justify-content:space-between;align-items:center;padding:10px 2px 2px;border-top:1px solid var(--line);font:700 15px/1.4 var(--body)}
+.mysj b{font:800 16px/1 'Outfit',sans-serif;font-variant-numeric:tabular-nums}
+.mysjr{display:flex;align-items:center;gap:8px;margin:4px 0 12px}
+#mysR{flex:1;-webkit-appearance:none;appearance:none;height:32px;background:transparent;--p:0%;min-width:0}
+#mysR::-webkit-slider-runnable-track{height:6px;border-radius:6px;background:linear-gradient(90deg,#F5A23A var(--p),var(--line) var(--p))}
+#mysR::-moz-range-track{height:6px;border-radius:6px;background:var(--line)}#mysR::-moz-range-progress{height:6px;border-radius:6px;background:#F5A23A}
+#mysR::-webkit-slider-thumb{-webkit-appearance:none;width:30px;height:22px;border-radius:11px;background:#fff;border:0;margin-top:-8px;box-shadow:0 2px 8px rgba(0,0,0,.35)}
+#mysR::-moz-range-thumb{width:30px;height:22px;border-radius:11px;background:#fff;border:0;box-shadow:0 2px 8px rgba(0,0,0,.35)}
+#mysN{width:64px;min-height:40px;border:1.5px solid var(--line);border-radius:12px;background:var(--soft);color:var(--ink);text-align:center;font:800 16px/1 'Outfit',sans-serif;-moz-appearance:textfield}
+#mysN::-webkit-inner-spin-button,#mysN::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+.mysn{min-height:40px;min-width:52px;border:0;border-radius:12px;background:var(--soft);color:var(--ink);font:800 14px/1 var(--body);cursor:pointer;border:1.5px solid var(--line)}
+.mysgo{width:100%;min-height:52px;border:0;border-radius:16px;background:#4A0E3F;color:#FFFDF5;font:800 17px/1.3 var(--body);cursor:pointer}
+.mysrow{display:flex;gap:10px;margin-top:10px}.mysrow>*{flex:1}
+.mys1,.mys2{min-height:48px;border-radius:14px;font:800 15px/1.3 var(--body);cursor:pointer;padding:0 10px}
+.mys1{border:0;background:#F5A23A;color:#4A0E3F}.mys1:disabled{opacity:.45}
+.mys2{border:1.5px solid var(--line);background:transparent;color:var(--ink)}
+.mys1.wide{width:100%;margin-top:10px}
+.mysgo:active,.mys1:active,.mys2:active,.mysn:active{transform:scale(.97)}
+.mysclr{display:block;margin:12px auto 0;border:0;background:none;color:#B3400F;font:700 13.5px/1.4 var(--body);padding:10px;min-height:44px;cursor:pointer}
+.mysclr[hidden]{display:none}
+.myswb{position:fixed;left:50%;bottom:calc(150px + env(safe-area-inset-bottom,0px));z-index:72;width:min(92vw,440px);background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:22px;padding:14px 14px 12px;box-shadow:0 14px 40px rgba(0,0,0,.35);transform:translate(-50%,24px);opacity:0;transition:transform .32s cubic-bezier(.2,.8,.2,1),opacity .25s;font-family:var(--body)}
+.myswb.on{transform:translate(-50%,0);opacity:1}
+.myswb .myspb{margin:12px 0 2px}
+.mysw1{display:flex;align-items:center;gap:12px}.mysw1>div{flex:1;min-width:0}
+.mysw1 b{display:block;font:800 17px/1.4 var(--body)}.mysw1 small{display:block;color:var(--muted);font:600 13px/1.4 var(--body)}
+.mysic{width:46px;height:46px;flex:none;border-radius:14px;background:#4A0E3F;color:#FFFDF5;display:grid;place-items:center}.mysic svg{width:24px;height:24px}
+:root[data-theme="dark"] .mysv.grid button.r{background:#DDEDE1}
+:root[data-theme="dark"] .mysh small{color:#F5A23A}
+:root[data-theme="dark"] .myst button[aria-selected="true"]{background:#F5A23A;border-color:#F5A23A;color:#2E0827}
+:root[data-theme="dark"] .myst button[aria-selected="true"] i{background:#2E0827;color:#F5A23A}
+:root[data-theme="dark"] .mysgo{background:#6A1B5C}
+@media (prefers-reduced-motion:reduce){.mysw,.mysb,.myswb,.myspb i{transition:none}}
 html.rdr .ssr{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0 0 0 0);padding:0!important}
 html.rdr #feed:has(>.ssr){background:radial-gradient(120% 80% at 50% 30%,#6E2361,#4A0E3F 60%,#2E0827)}
 html.rdr #feed:has(>.ssr)::before{content:'';position:absolute;left:50%;top:40%;width:96px;height:96px;transform:translate(-50%,-50%);background:url(/icon-512.png) center/contain no-repeat;border-radius:24px;box-shadow:0 0 0 3px #FFFDF5;animation:s2nPulse 1.2s ease-in-out infinite}
@@ -1630,11 +1725,11 @@ function renderTabs(){
 }
 $('tabs').addEventListener('click',e=>{const b=e.target.closest('.tab');if(!b)return;
   if(b.dataset.j){ jobFilter=b.dataset.j; renderTabs(); renderFeed(); const n=$('tabs').querySelector(`[data-j="${jobFilter}"]`); if(n) n.scrollIntoView({inline:'center',block:'nearest'}); return; }
-  section=b.dataset.k;setView('home');b.scrollIntoView({inline:'center',block:'nearest'})});
+  section=b.dataset.k;mysBeforeSection();setView('home');mysAfterSection();b.scrollIntoView({inline:'center',block:'nearest'})});
 
 /* ---------- feed ---------- */
 const secsOf = s => Array.isArray(s.sec)?s.sec:(s.sec?[s.sec]:['telangana']);
-function pick(){ return pick0().map(tr).map(x=>tlStory(x)); }
+function pick(){ return mysFilter(pick0()).map(tr).map(x=>tlStory(x)); }
 /* "మీ ఊరిలో" jobs (user, 16 Nov 2026): the reader's own district first, then their state's jobs.
    A job counts as local when its place key is the reader's district or its location text names that district/city.
    Hyderabad, Rangareddy, Medchal and Sangareddy readers all count Hyderabad jobs as near. */
@@ -2155,7 +2250,7 @@ try{ localStorage.removeItem('w2s.dock'); const dv=new URLSearchParams(location.
 const NT=k=>(NAVTX[TLG()?'en':LG()]||NAVTX.te)[k];
 function dockHTML(){ const ic=d=>`<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
   return `<div class="cfoot navf dock"><i class="dprog"></i>
-  <div class="dl"><button class="navp dprev" type="button" aria-label="${NT('prev')}">${ic('<path d="M15 6l-6 6 6 6"/>')}</button><span class="dcount"></span></div>
+  <div class="dl"><button class="navp dprev" type="button" aria-label="${NT('prev')}">${ic('<path d="M15 6l-6 6 6 6"/>')}</button><span class="dcw" role="button" tabindex="0"><span class="dcount"></span><small class="mysl">${MT('name')}</small></span></div>
   <div class="dc"><button class="navh dhome" type="button" aria-label="${NT('home')}">${ic('<path d="M3 11l9-7 9 7"/><path d="M5 10v10h5v-6h4v6h5V10"/>')}</button><span class="navtag">Know More<i class="kd">.</i> Scroll Less<i class="kd">.</i></span></div>
   <div class="dr"><button class="navn dnext" type="button" aria-label="${NT('next')}"><span>${NT('next')}</span>${ic('<path d="M9 6l6 6-6 6"/>')}</button></div></div>`; }
 function navFootHTML(){ return `<div class="cfoot navf"><button class="navp" type="button" aria-label="${NT('prev')}"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>${NT('prev')}</button>${NAV?`<button class="navh" type="button" aria-label="${NT('home')}"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg>${NT('home')}</button><span class="navtag">Know More<i class="kd">.</i> Scroll Less<i class="kd">.</i></span>`:`<span>Know More<i class="kd">.</i> Scroll Less<i class="kd">.</i></span>`}<button class="navn" type="button" aria-label="${NT('next')}">${NT('next')}<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button></div>`; }
@@ -2421,14 +2516,14 @@ function go(i,dir,from){
     turn(out, from||0, 1, axis, ()=>{ out.hidden=true; unbend(out); unbend(inn); busy=false; preFit(); }); }
   else { out.style.zIndex='1'; inn.style.zIndex='3'; bend(inn, from==null?1:from, axis);
     turn(inn, from==null?1:from, 0, axis, ()=>{ out.hidden=true; unbend(out); unbend(inn); busy=false; preFit(); }); }
-  cur=i; setCount(cur+1,cards.length); syncSave(); fsSoon(1200); setTimeout(()=>{ if(window.fsPlace) fsPlace(); },0);
+  cur=i; setCount(cur+1,cards.length); mysShow(true); syncSave(); fsSoon(1200); setTimeout(()=>{ if(window.fsPlace) fsPlace(); },0);
   try{ const s=LIST[cur]; if(s && s.kind==='promo' && window.gtag) gtag('event','promo_view',{}); if(s && s.kind!=='promo' && window.gtag) gtag('event','story_view',{story_id:sid(s), story_title:String(s.h||'').slice(0,90), kind:s.kind||'news'}); }catch(e){}
 }
 let DR=null; // the page being bent by the finger
 function snapBack(){ const d=DR; DR=null; const c=cards[cur]; if(!d){ if(c) unbend(c); return; }
   busy=true; turn(d.el, d.p, d.fwd?0:1, d.axis, ()=>{ if(!d.fwd) d.el.hidden=true; else { const nx=cards[cur+1]; if(nx){ nx.hidden=true; unbend(nx); } } unbend(d.el); if(c) unbend(c); busy=false; }); }
 let drag=null; const feedEl=$('feed');
-feedEl.addEventListener('pointerdown',e=>{ if(!cards.length||e.target.closest('a,button')) return; if(busy) finishTurn(); if(busy) return; acx();
+feedEl.addEventListener('pointerdown',e=>{ if(!cards.length||e.target.closest('a,button,.dcw')) return; if(busy) finishTurn(); if(busy) return; acx();
   drag={x:e.clientX,y:e.clientY,t:Date.now(),axis:null,id:e.pointerId,hist:[[performance.now(),e.clientX,e.clientY]]}; });
 let dragRaf=0;
 feedEl.addEventListener('pointermove',e=>{
@@ -2854,7 +2949,190 @@ $('dlBtn').onclick=async()=>{ const s=LIST[cur]; if(!s) return;
   toast('చిత్రం సేవ్ అయింది ✅ క్యాప్షన్ కాపీ అయింది – ఛానెల్‌లో 📎 నుంచి పోస్ట్ చేయండి');
 };
 const RADIO_ON=()=>{ try{ return RADIO; }catch(e){ return false; } };
-function setCount(a,n){ $('count').innerHTML = n ? `<b>${a}</b>/${n}` : ''; try{ document.documentElement.style.setProperty('--dprog', n ? (a/n*100)+'%' : '0%'); const cc=cards&&cards[a-1]; if(cc){ const d=cc.querySelector('.dcount'); if(d) d.innerHTML=`<b>${a}</b>/${n}`; } }catch(e){} $('railFill').style.width = n ? (a/n*100)+'%' : '0'; if(window.cardChanged && RADIO_ON()) cardChanged(); else if(window.stopVoice) stopVoice(); }
+function setCount(a,n){ $('count').innerHTML = n ? `<b>${a}</b>/${n}` : ''; try{ document.documentElement.style.setProperty('--dprog', n ? (a/n*100)+'%' : '0%'); const cc=cards&&cards[a-1]; if(cc){ const d=cc.querySelector('.dcount'); if(d) d.innerHTML=`<b>${a}</b>/${n}`; } }catch(e){} if(n) mysShow(false); $('railFill').style.width = n ? (a/n*100)+'%' : '0'; if(window.cardChanged && RADIO_ON()) cardChanged(); else if(window.stopVoice) stopVoice(); }
+/* ---------- My Swipe – నా స్వైప్ (owner, 26 Nov 2026) ----------
+   Remembers where the reader is and what they have read, all on the phone (localStorage 'w2s.mys', no server, no login).
+   Stories are known by their own id (sid), never by their number, so new stories on top, a refresh or a removed story
+   never lose the reader's place. "Seen" = the card was on screen; "read" = it stayed on screen for a while, was listened to
+   to the end, or the reader did something with it (save, share, photo, listen, source...). Quick swipes only count as seen. */
+const MYS_V=1, MYS_DAYS=7, MYS_READ_MS=6000, MYS_HIST=150, MYS_MAX=1500;
+const MYSTX={
+  te:{name:'నా స్వైప్',camp:'Your News. Your Pace. Your Swipe.',total:'మొత్తం',read:'చదివినవి',unread:'చదవనివి',nw:'కొత్తవి',hist:'చరిత్ర',all:'అన్నీ',done:p=>`${p}% పూర్తి`,
+      cont:n=>`కొనసాగించండి · ${n} →`,cont0:'కొనసాగించండి →',start:'మొదటి నుంచి',jump:'కార్డుకు వెళ్లండి',go:n=>`వార్త ${n}కి వెళ్లండి →`,go0:'వెళ్లండి',
+      lr:'చదివినవి',ls:'ప్రస్తుతం',lu:'చదవనివి',lv:'చూశారు',upd:'అప్‌డేట్',only:'చదవనివి మాత్రమే చూపించు',onlyOn:'చదవనివి మాత్రమే చూపిస్తున్నాం',onlyOff:'అన్ని వార్తలు చూపిస్తున్నాం',
+      none:{u:'అన్నీ చదివేశారు 🎉',n:'మీరు చివరిసారి వచ్చాక కొత్త వార్తలు లేవు',h:'ఇంకా చరిత్ర లేదు'},seen:'చూశారు',wasRead:'చదివారు',gone:'ఫీడ్‌లో లేదు',
+      clear:'చరిత్ర తొలగించండి',clear2:'ఖచ్చితమా? మళ్లీ నొక్కండి',cleared:'చరిత్ర తొలగించాం',
+      wb:'మళ్లీ స్వాగతం 👋',wbs:(r,n)=>[r?`✓ ${r} చదివారు`:'',n?`✨ ${n} కొత్తవి`:''].filter(Boolean).join(' · '),wbc:n=>`ఆపిన చోటు · కార్డు ${n}`,explore:'కొత్తవి చూడండి',
+      moved:'మీరు చూస్తున్న వార్త ఇప్పుడు ఫీడ్‌లో లేదు – దగ్గరలోని చదవని వార్త చూపిస్తున్నాం',back:(a,n)=>`మీరు ఆపిన చోటు: ${a}/${n}`,bad:'సరైన నంబర్ ఇవ్వండి'},
+  en:{name:'My Swipe',camp:'Your News. Your Pace. Your Swipe.',total:'Total',read:'Read',unread:'Unread',nw:'New',hist:'History',all:'All',done:p=>`${p}% done`,
+      cont:n=>`Continue · ${n} →`,cont0:'Continue →',start:'From the start',jump:'Jump to card',go:n=>`Go to card ${n} →`,go0:'Go',
+      lr:'Read',ls:'Current',lu:'Unread',lv:'Seen',upd:'Updated',only:'Show unread only',onlyOn:'Showing unread stories only',onlyOff:'Showing all stories',
+      none:{u:'All caught up 🎉',n:'No new stories since your last visit',h:'No history yet'},seen:'Seen',wasRead:'Read',gone:'not in the feed now',
+      clear:'Clear history',clear2:'Sure? Tap again',cleared:'History cleared',
+      wb:'Welcome back 👋',wbs:(r,n)=>[r?`✓ ${r} read`:'',n?`✨ ${n} new`:''].filter(Boolean).join(' · '),wbc:n=>`Where you stopped · card ${n}`,explore:'See new stories',
+      moved:'The story you were on is no longer in the feed – showing the nearest unread one',back:(a,n)=>`Where you stopped: ${a}/${n}`,bad:'Enter a valid number'},
+  hi:{name:'मेरा स्वाइप',camp:'Your News. Your Pace. Your Swipe.',total:'कुल',read:'पढ़ी',unread:'बिना पढ़ी',nw:'नई',hist:'इतिहास',all:'सभी',done:p=>`${p}% पूरा`,
+      cont:n=>`जारी रखें · ${n} →`,cont0:'जारी रखें →',start:'शुरू से',jump:'कार्ड पर जाएँ',go:n=>`कार्ड ${n} पर जाएँ →`,go0:'जाएँ',
+      lr:'पढ़ी',ls:'अभी',lu:'बिना पढ़ी',lv:'देखी',upd:'अपडेट',only:'सिर्फ़ बिना पढ़ी दिखाएँ',onlyOn:'सिर्फ़ बिना पढ़ी खबरें',onlyOff:'सभी खबरें',
+      none:{u:'सब पढ़ लिया 🎉',n:'पिछली बार के बाद कोई नई खबर नहीं',h:'अभी कोई इतिहास नहीं'},seen:'देखी',wasRead:'पढ़ी',gone:'अब फ़ीड में नहीं',
+      clear:'इतिहास मिटाएँ',clear2:'पक्का? फिर दबाएँ',cleared:'इतिहास मिटा दिया',
+      wb:'फिर से स्वागत 👋',wbs:(r,n)=>[r?`✓ ${r} पढ़ी`:'',n?`✨ ${n} नई`:''].filter(Boolean).join(' · '),wbc:n=>`जहाँ रुके थे · कार्ड ${n}`,explore:'नई खबरें देखें',
+      moved:'जिस खबर पर आप थे, वह अब फ़ीड में नहीं – पास की बिना पढ़ी खबर दिखा रहे हैं',back:(a,n)=>`जहाँ रुके थे: ${a}/${n}`,bad:'सही नंबर डालें'}};
+const MT=k=>(MYSTX[TLG()?'en':LG()]||MYSTX.te)[k];
+const rdId=s=>s?(s.kind?s.kind+':':'')+(s._sid||sid(s)):'';
+const mysHash=s=>{ const o=s&&(s._orig||s)||{}; const t=(o.h||'')+'|'+(o.p||'')+'|'+((o.pts||[]).join('|')); let h=5381; for(let i=0;i<t.length;i++) h=((h<<5)+h+t.charCodeAt(i))|0; return (h>>>0).toString(36); };
+/* storage: one versioned object; anything broken or from another version starts fresh instead of breaking the app */
+function mysEmpty(){ return {v:MYS_V,last:0,seen:{},read:{},hash:{},hist:[],pos:{},unread:false}; }
+let MYS=(()=>{ try{ const o=JSON.parse(localStorage.getItem('w2s.mys')||'null');
+  if(!o||o.v!==MYS_V||typeof o!=='object') return mysEmpty();
+  const d=mysEmpty(); for(const k of ['seen','read','hash','pos']) d[k]=(o[k]&&typeof o[k]==='object'&&!Array.isArray(o[k]))?o[k]:{};
+  d.hist=Array.isArray(o.hist)?o.hist.filter(x=>x&&typeof x.id==='string').slice(0,MYS_HIST):[]; d.last=+o.last||0; d.unread=!!o.unread;
+  const old=Date.now()-MYS_DAYS*864e5; for(const k of ['seen','read']) for(const id in d[k]) if(!(d[k][id]>old)){ delete d[k][id]; delete d.hash[id]; }
+  return d; }catch(e){ return mysEmpty(); } })();
+// last visit: read once per session, so "new since your last visit" stays the same while the app is open
+const MYS_PREV=(()=>{ try{ let p=sessionStorage.getItem('s2n.mysPrev'); if(p===null){ p=String(MYS.last||0); sessionStorage.setItem('s2n.mysPrev',p); } return +p||0; }catch(e){ return MYS.last||0; } })();
+let mysT=0;
+function mysSave(now){ clearTimeout(mysT); const w=()=>{ try{ MYS.last=Date.now();
+    for(const k of ['seen','read']){ const ks=Object.keys(MYS[k]); if(ks.length>MYS_MAX) ks.sort((a,b)=>MYS[k][a]-MYS[k][b]).slice(0,ks.length-MYS_MAX).forEach(id=>{ delete MYS[k][id]; }); }
+    localStorage.setItem('w2s.mys',JSON.stringify(MYS)); }catch(e){} };
+  if(now) w(); else mysT=setTimeout(w,500); }
+addEventListener('pagehide',()=>mysSave(true)); document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='hidden') mysSave(true); else mysArm(); });
+const mysOn=()=>view==='home'&&!DAY&&section!=='wishes';
+function mysKey(){ return section+(section==='district'?':'+(prefs.place||''):'')+(MYS.unread?':u':''); }
+const isRead=s=>!!(s&&MYS.read[rdId(s)]&&MYS.hash[rdId(s)]===mysHash(s));   // a story changed since it was read counts as unread again
+const isUpd=s=>!!(s&&!s.kind&&MYS.hash[rdId(s)]&&MYS.hash[rdId(s)]!==mysHash(s));
+const isSeen=s=>!!(s&&MYS.seen[rdId(s)]);
+function storyTime(s){ const o=s&&(s._orig||s)||{}; const m=/^(\d\d)\.(\d\d)\.(\d{4})$/.exec(o.d||''), t=/^(\d\d?):(\d\d)/.exec(o.t||''); if(!m) return 0;
+  return Date.UTC(+m[3],+m[2]-1,+m[1],t?+t[1]:0,t?+t[2]:0)-330*60000; } // story times are IST
+const MYS_T0=(()=>{ try{ let t=sessionStorage.getItem('s2n.mysT0'); if(!t){ t=String(Date.now()); sessionStorage.setItem('s2n.mysT0',t); } return +t; }catch(e){ return Date.now(); } })();
+const isNew=s=>{ if(!s||s.kind||!MYS_PREV||storyTime(s)<=MYS_PREV) return false; const v=MYS.seen[rdId(s)]; return !v||v>=MYS_T0; }; // stays "new" for this whole visit
+function mysImg(i){ const c=cards[i], im=c&&c.querySelector('img.ahero,.bnr img.ph,img.art2,img'); return im?(im.dataset.src||im.getAttribute('src')||''):''; }
+function mysHistAdd(s,i,read){ const id=rdId(s); let e=MYS.hist.find(x=>x.id===id);
+  if(!e){ e={id,h:String(s.h||'').slice(0,140),img:mysImg(i),d:s.d||'',tm:s.t||'',sid:s._sid||sid(s)}; MYS.hist.unshift(e); if(MYS.hist.length>MYS_HIST) MYS.hist.length=MYS_HIST; }
+  else { MYS.hist.splice(MYS.hist.indexOf(e),1); MYS.hist.unshift(e); }
+  e.t=Date.now(); if(read) e.r=1; }
+function mysMarkRead(why){ if(!mysOn()) return; const s=LIST[cur]; if(!s||s.kind) return; const id=rdId(s);
+  if(!isRead(s)){ MYS.read[id]=Date.now(); MYS.seen[id]=MYS.seen[id]||Date.now(); MYS.hash[id]=mysHash(s); mysHistAdd(s,cur,1); mysSave(); mysLive(); } }
+let mysRT=0, mysRFor=null;
+function mysArm(){ clearTimeout(mysRT); const s=LIST[cur]; if(!mysOn()||!s||s.kind||isRead(s)) return; const id=rdId(s); mysRFor=id;
+  mysRT=setTimeout(()=>{ if(document.visibilityState!=='visible'||!LIST[cur]||rdId(LIST[cur])!==id) return; mysMarkRead('time'); },MYS_READ_MS); }
+/* every card shown: seen + reading place; the place is saved only when the reader moves, so just opening the app never overwrites it */
+function mysShow(moved){ if(!mysOn()) return; const s=LIST[cur]; if(!s) return;
+  if(!s.kind){ const id=rdId(s); if(!MYS.seen[id]){ MYS.seen[id]=Date.now(); } if(!MYS.hash[id]||!MYS.read[id]) MYS.hash[id]=mysHash(s); mysHistAdd(s,cur,0); }
+  if(moved&&!s.kind){ const near=[]; for(let i=cur+1;i<LIST.length&&near.length<8;i++) if(!LIST[i].kind) near.push(rdId(LIST[i]));
+    const top=LIST.find(x=>!x.kind); MYS.pos[mysKey()]={id:rdId(s),t:Date.now(),n:cur+1,near,top:rdId(top)}; }
+  mysSave(); mysArm(); mysLive(); }
+// meaningful interaction with the story on screen counts as reading it
+document.addEventListener('click',e=>{ const t=e.target; if(t.closest('.navp,.navn,.navh,.dcw,#mysSheet,#mysWB')) return;
+  if(t.closest('.story:not([hidden]) a,.story:not([hidden]) button,#saveBtn,#dlBtn,#shareBtn,#waBtn,#listenBtn,#fsPlay')) setTimeout(()=>mysMarkRead('tap'),0); },true);
+/* where to continue: the saved card found by id; if it was removed, the nearest unread story that followed it */
+function mysResume(key){ const p=MYS.pos[key||mysKey()]; if(!p||!p.id||Date.now()-p.t>MYS_DAYS*864e5) return null;
+  let i=LIST.findIndex(x=>rdId(x)===p.id); if(i>=0) return {i,moved:false};
+  for(const id of (p.near||[])){ const j=LIST.findIndex(x=>rdId(x)===id); if(j>=0){ const k=LIST.findIndex((x,q)=>q>=j&&!x.kind&&!isRead(x)); return {i:k>=0?k:j,moved:true}; } }
+  const k=LIST.findIndex(x=>!x.kind&&!isRead(x)); return k>0?{i:k,moved:true}:null; }
+function mysNewIdx(){ return LIST.map((s,i)=>isNew(s)?i:-1).filter(i=>i>=0); }
+function mysStats(){ const news=LIST.filter(s=>!s.kind), r=news.filter(isRead).length, n=mysNewIdx().length; return {total:news.length,read:r,unread:news.length-r,nw:n,pct:news.length?Math.round(r/news.length*100):0}; }
+function mysJump(i,quiet){ i=Math.max(0,Math.min(i,cards.length-1)); mysClose(); mysWBClose(); if(i!==cur) go(i,i>cur?'left':'right'); }
+/* unread-only mode: read stories leave the feed (the card on screen and breaking news always stay) */
+function mysFilter(list){ if(!MYS.unread||!mysOn()) return list; const keep=LIST&&LIST[cur]?rdId(LIST[cur]):'';
+  return list.filter(s=>s.kind||s.brk||!isRead(s)||rdId(s)===keep); }
+function mysUnread(on){ MYS.unread=!!on; mysSave(true); const k=LIST[cur]&&keyOf(LIST[cur]); renderFeed(k); toast(MT(on?'onlyOn':'onlyOff')); if(mysSheetOpen()) mysDraw(); }
+/* category switch: open each category where the reader stopped in it */
+function mysBeforeSection(){ const p=MYS.pos[mysKey()]; if(p&&p.id) JUMP=p.id.replace(/^[a-z]+:/,''); }
+function mysAfterSection(){ if(!mysOn()||cur<1) return; toast(MT('back')(cur+1,cards.length)); }
+
+/* ----- counter label + dashboard ----- */
+const mysSheetOpen=()=>{ const o=$('mysSheet'); return !!(o&&!o.hidden); };
+function mysLive(){ document.querySelectorAll('.mysl').forEach(x=>{ if(x.textContent!==MT('name')) x.textContent=MT('name'); }); if(mysSheetOpen()) mysDraw(true); }
+let mysTab='all', mysSel=0;
+function mysOpen(tab){ if(view!=='home'||!cards.length) return; mysWBClose();
+  let o=$('mysSheet');
+  if(!o){ o=document.createElement('div'); o.id='mysSheet'; o.className='mysw'; o.hidden=true;
+    o.innerHTML=`<div class="mysb" role="dialog" aria-modal="true" aria-labelledby="mysT"><i class="mysg"></i>
+      <div class="mysh"><div><b id="mysT"></b><small id="mysC"></small></div><button type="button" class="mysx" aria-label="close">×</button></div>
+      <div class="myss" id="mysS"></div><div class="mysp"><div class="myspb"><i id="mysPb"></i></div><span id="mysPt"></span></div>
+      <div class="myst" role="tablist" id="mysTabs"></div>
+      <div class="mysv" id="mysV"></div><div class="mysk" id="mysK"></div>
+      <label class="mysu"><span id="mysUl"></span><input type="checkbox" id="mysU" role="switch"><i></i></label>
+      <div class="mysj"><span id="mysJl"></span><b id="mysJn"></b></div>
+      <div class="mysjr"><input type="range" id="mysR" min="1" value="1" aria-labelledby="mysJl"><input type="number" id="mysN" inputmode="numeric" min="1" aria-labelledby="mysJl"><button type="button" class="mysn" id="mysNg"></button></div>
+      <button type="button" class="mysgo" id="mysGo"></button>
+      <div class="mysrow"><button type="button" class="mys2" id="mysSt"></button><button type="button" class="mys1" id="mysCo"></button></div>
+      <button type="button" class="mysclr" id="mysClr"></button></div>`;
+    document.body.appendChild(o);
+    o.addEventListener('click',e=>{ if(e.target===o||e.target.closest('.mysx')){ mysClose(); return; }
+      const t=e.target.closest('[data-tab]'); if(t){ mysTab=t.dataset.tab; mysDraw(); return; }
+      const c=e.target.closest('[data-i]'); if(c){ mysSel=+c.dataset.i; if(mysTab==='hist') mysJump(mysSel); else mysDraw(true); return; }
+      const h=e.target.closest('[data-sid]'); if(h){ mysClose(); location.href='/?s='+encodeURIComponent(h.dataset.sid); } });
+    $('mysR').addEventListener('input',e=>{ mysSel=+e.target.value-1; mysDraw(true,true); });
+    const num=()=>{ const v=parseInt($('mysN').value,10); if(!(v>=1&&v<=cards.length)){ toast(MT('bad')); return; } mysJump(v-1); };
+    $('mysNg').onclick=num; $('mysN').addEventListener('keydown',e=>{ if(e.key==='Enter') num(); });
+    $('mysGo').onclick=()=>mysJump(mysSel); $('mysSt').onclick=()=>mysJump(0);
+    $('mysCo').onclick=()=>{ const r=mysResume(); mysJump(r?r.i:cur); };
+    $('mysU').onchange=e=>mysUnread(e.target.checked);
+    $('mysClr').onclick=e=>{ const b=e.currentTarget; if(!b.dataset.sure){ b.dataset.sure=1; b.textContent=MT('clear2'); setTimeout(()=>{ delete b.dataset.sure; b.textContent=MT('clear'); },4000); return; }
+      delete b.dataset.sure; const u=MYS.unread; MYS=mysEmpty(); MYS.unread=u; mysSave(true); toast(MT('cleared')); mysDraw(); };
+    let y0=null; const bx=o.querySelector('.mysb');
+    bx.addEventListener('touchstart',e=>{ y0=e.target.closest('.mysg,.mysh')?e.touches[0].clientY:null; },{passive:true});
+    bx.addEventListener('touchend',e=>{ if(y0!=null&&e.changedTouches[0].clientY-y0>60) mysClose(); y0=null; },{passive:true});
+    addEventListener('keydown',e=>{ if(e.key==='Escape'&&mysSheetOpen()) mysClose(); });
+  }
+  mysTab=tab||'all'; mysSel=cur; o.hidden=false; requestAnimationFrame(()=>o.classList.add('on')); mysDraw(false,true); }
+function mysClose(){ const o=$('mysSheet'); if(!o||o.hidden) return; o.classList.remove('on'); setTimeout(()=>{ if(!o.classList.contains('on')) o.hidden=true; },260); }
+function mysDraw(light,scroll){
+  const S=mysStats(), n=LIST.length, r=mysResume();
+  $('mysT').textContent=MT('name'); $('mysC').textContent=MT('camp');
+  $('mysS').innerHTML=[['total',S.total,''],['read',S.read,'g'],['unread',S.unread,''],['nw',S.nw,'a']].map(([k,v,c])=>`<div><small>${MT(k)}</small><b class="${c}">${v}</b></div>`).join('');
+  $('mysPb').style.width=S.pct+'%'; $('mysPt').textContent=MT('done')(S.pct);
+  const cnt={all:n,unread:LIST.filter(s=>!s.kind&&!isRead(s)).length,new:S.nw,hist:MYS.hist.length};
+  $('mysTabs').innerHTML=[['all','all'],['unread','unread'],['new','nw'],['hist','hist']].map(([k,l])=>`<button type="button" role="tab" data-tab="${k}" aria-selected="${mysTab===k}">${MT(l)}<i>${cnt[k]}</i></button>`).join('');
+  const V=$('mysV');
+  if(mysTab==='hist'){
+    V.className='mysv hist';
+    if(!light||!V.childElementCount) V.innerHTML=MYS.hist.length?MYS.hist.slice(0,60).map(e=>{ const i=LIST.findIndex(x=>rdId(x)===e.id), s=i>=0?LIST[i]:null, up=s&&isUpd(s);
+      const when=[e.tm,e.d&&e.d.slice(0,5).replace('.','/')].filter(Boolean).join(' · ');
+      return `<button type="button" class="mysh1" ${i>=0?`data-i="${i}"`:`data-sid="${esc(e.sid||'')}"`}>${e.img?`<img src="${esc(e.img)}" alt="" loading="lazy">`:'<span class="mysph"></span>'}<span class="myshx"><b>${esc(s?String(s.h||e.h):e.h)}</b><small>${esc(when)} · ${e.r?'✓ '+MT('wasRead'):MT('seen')}${up?' · <em>'+MT('upd')+'</em>':''}${i<0?' · '+MT('gone'):''}</small></span>${i>=0?`<span class="mysno">${i+1}</span>`:''}</button>`; }).join(''):`<p class="mysem">${MT('none').h}</p>`;
+  } else {
+    V.className='mysv grid';
+    const idx=mysTab==='unread'?LIST.map((s,i)=>!s.kind&&!isRead(s)?i:-1).filter(i=>i>=0):mysTab==='new'?mysNewIdx():LIST.map((s,i)=>i);
+    const sig=mysTab+':'+idx.join(',');
+    if(!light||V.dataset.sig!==sig){ V.dataset.sig=sig; V.innerHTML=idx.length?idx.map(i=>`<button type="button" data-i="${i}" aria-label="${i+1}"><b>${i+1}</b><i></i></button>`).join(''):`<p class="mysem">${MT('none')[mysTab==='new'?'n':'u']}</p>`; }
+    [...V.querySelectorAll('[data-i]')].forEach(b=>{ const i=+b.dataset.i, s=LIST[i];
+      b.className=i===mysSel?'s':(s.kind?'k':isRead(s)?'r':isSeen(s)?'v':'u'); if(isUpd(s)) b.classList.add('up'); if(isNew(s)) b.classList.add('nw'); if(i===cur&&i!==mysSel) b.classList.add('cur'); });
+    const sb=V.querySelector(`[data-i="${mysSel}"]`); if(sb&&scroll) sb.scrollIntoView({block:'nearest'});
+  }
+  $('mysK').innerHTML=mysTab==='hist'?'':`<span><i class="k r"></i>${MT('lr')}</span><span><i class="k s"></i>${MT('ls')}</span><span><i class="k u"></i>${MT('lu')}</span><span><i class="k v"></i>${MT('lv')}</span>`;
+  $('mysUl').textContent=MT('only'); $('mysU').checked=!!MYS.unread;
+  const R=$('mysR'); R.max=n; R.value=mysSel+1; R.style.setProperty('--p',(n>1?mysSel/(n-1)*100:0)+'%');
+  const N=$('mysN'); N.max=n; N.placeholder=String(mysSel+1); $('mysNg').textContent=MT('go0');
+  $('mysJl').textContent=MT('jump'); $('mysJn').textContent=`${mysSel+1}/${n}`; $('mysGo').textContent=MT('go')(mysSel+1);
+  $('mysSt').textContent=MT('start'); $('mysCo').textContent=r&&r.i>0?MT('cont')(r.i+1):MT('cont0'); $('mysCo').disabled=!r;
+  const c=$('mysClr'); if(!c.dataset.sure) c.textContent=MT('clear'); c.hidden=mysTab!=='hist'||!MYS.hist.length; }
+
+/* ----- welcome back: once a session, only when there is something to come back to ----- */
+function mysWBClose(){ const o=$('mysWB'); if(o&&!o.hidden){ o.classList.remove('on'); setTimeout(()=>{ o.hidden=true; },260); } }
+function mysWelcome(){
+  try{ if(sessionStorage.getItem('s2n.mysWB')) return; }catch(e){}
+  if(!mysOn()||section!=='all'||!cards.length||cur>0) return;
+  const r=mysResume(), S=mysStats(), nw=mysNewIdx();
+  if(!(r&&r.i>0)&&!(S.read&&nw.length)) return;
+  try{ sessionStorage.setItem('s2n.mysWB','1'); }catch(e){}
+  if(r&&r.moved) toast(MT('moved'));
+  let o=$('mysWB');
+  if(!o){ o=document.createElement('div'); o.id='mysWB'; o.className='myswb'; o.hidden=true; o.setAttribute('role','dialog'); o.setAttribute('aria-labelledby','mysWBt'); document.body.appendChild(o); }
+  o.innerHTML=`<div class="mysw1"><i class="mysic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M3 5.5C5.5 4 9 4 12 6c3-2 6.5-2 9-.5V19c-2.5-1.5-6-1.5-9 .5-3-2-6.5-2-9-.5z"/><path d="M12 6v13.5"/></svg></i>
+    <div><b id="mysWBt">${MT('wb')}</b><small>${MT('wbs')(S.read,nw.length)||MT('name')}</small></div><button type="button" class="mysx" aria-label="close">×</button></div>
+    <div class="myspb"><i style="width:${S.pct}%"></i></div>
+    ${r&&r.i>0?`<button type="button" class="mys1 wide" id="mysWBc">${MT('wbc')(r.i+1)} →</button>`:''}
+    <div class="mysrow">${nw.length?`<button type="button" class="mys2" id="mysWBn">✨ ${MT('explore')}</button>`:''}<button type="button" class="mys2" id="mysWBs">${MT('start')}</button></div>`;
+  o.querySelector('.mysx').onclick=mysWBClose;
+  if($('mysWBc')) $('mysWBc').onclick=()=>mysJump(r.i);
+  if($('mysWBn')) $('mysWBn').onclick=()=>mysJump(nw[0]);
+  $('mysWBs').onclick=()=>mysJump(0);
+  o.hidden=false; requestAnimationFrame(()=>o.classList.add('on'));
+  clearTimeout(mysWelcome.t); mysWelcome.t=setTimeout(mysWBClose,20000); }
+document.addEventListener('click',e=>{ if(e.target.closest('#count,.dcw')){ e.preventDefault(); e.stopPropagation(); mysOpen(); } },true);
+document.addEventListener('keydown',e=>{ if((e.key==='Enter'||e.key===' ')&&e.target.closest&&e.target.closest('.dcw')){ e.preventDefault(); mysOpen(); } });
 /* AI voice: reads the card aloud in Telugu with the phone's own voice */
 const synth = window.speechSynthesis;
 /* owner 21 Nov 2026: "best voices, very fluent" – pick the most natural voice the phone has, and clean the text so it reads like a newsreader */
@@ -2907,7 +3185,7 @@ function speakCur(from){ clearTimeout(rWait); if(!RADIO||rPaused) return; const 
   rParts=parts; const st=Math.max(0,Math.min(parts.length-1,from|0)); rIdx=st; const tot=parts.reduce((a,x)=>a+x.length,0)||1, before=k=>parts.slice(0,k).reduce((a,x)=>a+x.length,0); npProg(before(st)/tot);
   parts.forEach((x,i)=>{ if(i<st) return; const u=new SpeechSynthesisUtterance(x); u.lang=sl; u.rate=sl==='te-IN'?1.0:1.02; u.pitch=1; if(v) u.voice=v;
     u.onstart=()=>{ if(tok===rTok){ rIdx=i; npProg(before(i)/tot); } }; u.onboundary=ev=>{ if(tok===rTok) npProg((before(i)+(ev.charIndex||0))/tot); };
-    if(i===parts.length-1) u.onend=()=>{ if(tok===rTok) npProg(1); if(RADIO&&tok===rTok) rWait=setTimeout(()=>{ if(!(RADIO&&tok===rTok)) return; const was=cur; go(cur+1,'left'); setTimeout(()=>{ if(RADIO&&tok===rTok&&cur===was) stopVoice(); },1500); },700); };
+    if(i===parts.length-1) u.onend=()=>{ if(tok===rTok){ npProg(1); try{ mysMarkRead('audio'); }catch(_){} } if(RADIO&&tok===rTok) rWait=setTimeout(()=>{ if(!(RADIO&&tok===rTok)) return; const was=cur; go(cur+1,'left'); setTimeout(()=>{ if(RADIO&&tok===rTok&&cur===was) stopVoice(); },1500); },700); };
     u.onerror=ev=>{ if(ev&&ev.error!=='interrupted'&&ev.error!=='canceled'&&tok===rTok){ RADIO=false; radioUI(); } };
     synth.speak(u); }); }
 function stopVoice(){ RADIO=false; rPaused=false; npPauseUI(); stopAud(); rTok++; clearTimeout(rWait); try{ if(synth && (synth.speaking||synth.pending)) synth.cancel(); }catch(e){} radioUI(); }
@@ -3065,7 +3343,7 @@ async function shareCard(viaWA){ const s=LIST[cur]; if(!s) return;
 function goHome(e){ if(e) e.preventDefault();
   document.querySelectorAll('.sheet').forEach(s=>s.hidden=true);
   ['imgShare','crChoice','waCopy','capBar'].forEach(id=>{ const x=document.getElementById(id); if(x) x.hidden=true; });
-  DAY=null; section='all'; JUMP=null; setView('home'); scrollTo(0,0); }
+  DAY=null; section='all'; JUMP=null; setView('home'); scrollTo(0,0); setTimeout(mysWelcome,350); }
 $('homeLogo').onclick=goHome;
 /* the Home button opens "Today for you" – an AI brief of the top 5 stories plus quick actions */
 const HUBTX={te:{t:'ఈరోజు మీ కోసం',b:'AI బ్రీఫ్ · 60 సెకన్లలో టాప్ 5',all:'అన్నీ వినండి',latest:'తాజా వార్తలు',jobs:'ఉద్యోగాలు',saved:'సేవ్ చేసినవి',dates:'తేదీ వారీగా',n:'ఈరోజు {n} వార్తలు',g:['శుభోదయం','శుభ మధ్యాహ్నం','శుభ సాయంత్రం','శుభ రాత్రి']},
@@ -3585,6 +3863,7 @@ async function load(){
     if(q.has('sharecard') && LIST[cur]){ const b=await timeout(prepCard(),8000); if(b) showCardImage(b, shareText(LIST[cur]), ''); } }
   else if(q.has('dates') && !load.done){ load.done=1; openDates(); }
   else if(q.has('saved') && !load.done){ load.done=1; setView('saved'); }
+  else if(!load.done && !qs){ load.done=1; setTimeout(mysWelcome,500); } // reopened: My Swipe welcome back (once a session)
 }
 load();
 document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible' && $('sheet').hidden && view==='home') load(); });
