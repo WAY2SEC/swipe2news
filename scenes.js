@@ -642,6 +642,7 @@ const ART_PEOPLE=[
   ['e/photo-komatireddy-venkat',/కోమటిరెడ్డి\s?వెంకట్|Komatireddy\s?Venkat|Komati\s?Reddy\s?Venkat/i,/రాజగోపాల్|Raj\s?Gopal|వెంకట్\s?రెడ్డి\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)(?![\u0C00-\u0C7F])|(?:to|on|against|at|slams|attacks|targets)\s+Komati\s?reddy/i],
   ['e/photo-uttam-kumar-reddy',/ఉత్తమ్|Uttam\s?Kumar|\bUttam\b|उत्तम\s?कुमार/i,/ఉత్తమ్(?:\s?కుమార్\s?రెడ్డి)?\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)(?![\u0C00-\u0C7F])|(?:to|on|against|at|slams|attacks|targets)\s+Uttam/i],
   ['e/photo-bhatti-vikramarka',/భట్టి|Bhatti|भट्टी/i,/భట్టి(?:\s?విక్రమార్క)?\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)(?![\u0C00-\u0C7F])|(?:to|on|against|at|slams|attacks|targets)\s+(?:Mallu\s+)?Bhatti/i],
+  ['e/photo-kavitha',/కల్వకుంట్ల\s?కవిత|కవిత(?=[\s:,!?'"‘’.]|$)|Kalvakuntla\s?Kavitha|\bK\.?\s?Kavitha\b|\bKavitha\b|कविता/i,/కవిత\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)(?![ఀ-౿])|(?:to|on|against|at|slams|attacks|targets)\s+(?:K\.?\s?)?Kavitha/i],
   ['e/photo-kcr',/కేసీఆర్|\bKCR\b|కె\.?\s?చంద్రశేఖర్\s?రావు|K\.?\s?Chandrashekar\s?Rao|केसीआर/i,/కేసీఆర్\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు|హయాం)|(?:to|on|against|at|slams|attacks|targets)\s+KCR/i],
   ['e/photo-kishan-reddy',/కిషన్\s?రెడ్డి|Kishan\s?Reddy|किशन\s?रेड्डी/i,/కిషన్\s?రెడ్డి\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|slams|attacks|targets)\s+Kishan/i],
   ['e/photo-bandi-sanjay',/బండి\s?సంజయ్|Bandi\s?Sanjay|बंडी\s?संजय/i,/బండి\s?సంజయ్\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|slams|attacks|targets)\s+Bandi/i],
