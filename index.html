@@ -123,6 +123,11 @@ button{font:inherit;color:inherit}
 /* header */
 header{display:flex;align-items:center;gap:8px;padding:8px var(--gr) 6px var(--gx);padding-top:max(8px,env(safe-area-inset-top,0px));background:var(--hdr)}
 .logo{height:34px;width:auto;display:block}
+#annPop{position:fixed;inset:0;z-index:120;display:flex;align-items:center;justify-content:center;padding:20px;background:rgba(20,6,18,.72);opacity:0;transition:opacity .25s}
+#annPop.on{opacity:1}#annPop .ab{position:relative;width:min(92vw,440px);border-radius:22px;overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.45);background:#3A0A31}
+#annPop img{display:block;width:100%;height:auto}#annPop .ax{position:absolute;top:10px;right:10px;width:36px;height:36px;border-radius:50%;border:0;background:rgba(255,255,255,.92);color:#2E0827;font:800 20px/36px var(--body);cursor:pointer}
+#annPop .ok{display:block;width:100%;border:0;padding:14px;background:#F5A23A;color:#2E0827;font:800 16px var(--body);cursor:pointer}
+sup.tm{font-size:.42em;font-weight:700;vertical-align:super;margin-left:1px;letter-spacing:0;font-style:normal;opacity:.9}
 :root[data-theme="dark"] .logo{content:url(logo-light.png)}
 
 .place{margin-left:auto;display:inline-flex;align-items:center;gap:4px;min-height:38px;padding:4px 12px;border-radius:99px;border:1px solid var(--line);background:var(--chipbg);color:var(--hdr-ink);font-size:12.5px;font-weight:800;cursor:pointer;min-width:0;flex-shrink:1;max-width:46%}
@@ -1555,7 +1560,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
   <div class="s2np" id="s2np" hidden role="region" aria-label="వింటున్నారు · Now playing">
     <span class="npp" aria-hidden="true"><i id="npBar"></i></span>
     <span class="npi"><img src="art/logo.svg" alt=""></span>
-    <span class="npt"><span class="npb">swipe2news<i>.</i> <em id="npLab">వింటున్నారు</em><span class="eq" aria-hidden="true"><b></b><b></b><b></b><b></b></span></span><span class="nph" id="npH"></span></span>
+    <span class="npt"><span class="npb">swipe2news<i>.</i><sup class="tm">™</sup> <em id="npLab">వింటున్నారు</em><span class="eq" aria-hidden="true"><b></b><b></b><b></b><b></b></span></span><span class="nph" id="npH"></span></span>
     <button type="button" class="npn" id="npReplay" aria-label="మళ్లీ వినండి · Replay"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4.5h4.5"/></svg></button>
     <button type="button" class="npn" id="npPause" aria-label="పాజ్ · Pause"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg></button>
     <button type="button" class="npn" id="npNext" aria-label="తర్వాత వార్త"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M6 5l9 7-9 7zM16 5h3v14h-3z"/></svg></button>
@@ -1885,7 +1890,7 @@ function jobHTML(s,i){ // job card in the same design as the news cards (owner, 
     <div class="ptop"><span class="bchip">${esc(s.cat)}</span></div>
     ${dl!==null&&dl<=SOON_DAYS?`<div class="jsoon"><i></i><b>⏰ ${esc(dl===0?ST('d0'):dl===1?ST('d1'):ST('dn')(dl))}</b><small>${esc(ST('sub'))}</small></div>`:''}
     <div class="bkw"><div class="stat">${esc(st)}</div><div class="statl">${esc(sl)}</div><div class="adisc">${esc(ART_DISC[LG()]||ART_DISC.te)}</div></div>
-    <span class="bmark"><img src="art/logo.svg" alt="">swipe2news<i>.</i></span>
+    <span class="bmark"><img src="art/logo.svg" alt="">swipe2news<i>.</i><sup class="tm">™</sup></span>
   </div>
   <div class="text"${s._lang?` lang="${s._lang}"`:''}>
     <div class="meta"><span>💼 ${esc(J('job'))}</span>${where?`<span class="mloc">📍 ${esc(where)}</span>`:''}<button class="tsz" type="button" aria-label="అక్షరాల సైజు · Text size">aA</button><button class="lis" type="button"><svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M7 4.5v15l12-7.5z" fill="currentColor"/></svg>${U('listen')} ${listenSecs(s)}</button></div>
@@ -2032,7 +2037,7 @@ async function metalsCard(){
   const g=ctx.createRadialGradient(W*0.85,0,40,W*0.5,H*0.4,H); g.addColorStop(0,'#7A2A55'); g.addColorStop(.5,'#4A0E3F'); g.addColorStop(1,'#2E0827'); ctx.fillStyle=g; ctx.fillRect(0,0,W,H);
   const BH=130; ctx.fillStyle=CR; ctx.fillRect(0,0,W,BH); ctx.fillStyle=AP; ctx.fillRect(0,BH-6,W,6);
   try{ const ic=await loadImg('icon-512.png'); ctx.save(); rrect(ctx,56,26,78,78,20); ctx.clip(); ctx.drawImage(ic,56,26,78,78); ctx.restore(); }catch(e){}
-  ctx.textBaseline='middle'; ctx.font=`800 54px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('swipe2news',152,58); const ww=ctx.measureText('swipe2news').width; ctx.fillStyle=AP; ctx.fillText('.',152+ww,58);
+  ctx.textBaseline='middle'; ctx.font=`800 54px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('swipe2news',152,58); const ww=ctx.measureText('swipe2news').width; ctx.fillStyle=AP; ctx.fillText('.',152+ww,58); { const _f=ctx.font, _c=ctx.fillStyle; ctx.font=`700 22px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('™',152+ww+ctx.measureText('.').width+2,58-16); ctx.font=_f; ctx.fillStyle=_c; }
   ctx.font=`800 26px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('Know More. Scroll Less.',154,98);
   ctx.textAlign='center'; ctx.font=`800 64px ${TE}`; ctx.fillStyle=CR; ctx.fillText(T.h,W/2,BH+78);
   ctx.font=`700 32px ${TE}`; ctx.fillStyle='#FFD08A'; ctx.fillText(T.sub+' · '+dt(mi.c[0].date),W/2,BH+148); ctx.textAlign='left';
@@ -2146,7 +2151,7 @@ function withMandi(list){ if(view!=='home'||section!=='all'||list.length<4) retu
 function withHouse(list){ const C=CONFIG.SPACE; if(!C||!C.on||view!=='home') return list; const house=(C.HOUSE||[]).filter(k=>SPACE_TX[k]&&!(k==='jobs'&&spaceJobsN()<3)); if(!house.length) return list;
   const o=[]; let n=0; let k=0; list.forEach((x,i)=>{ o.push(x); if(!x.kind && ++k%20===0) o.push({kind:'house',k:house[(n++)%house.length],h:'Swipe2News',p:'',url:'https://swipe2news.com/',src:'Swipe2News',d:''}); }); return o; }
 function houseHTML(s,i){ const c=SPACE_TX[s.k], L=LG(), x=c[L]||c.te, link=c.link(), ext=/^https?:|^tel:/.test(link)?' target="_blank" rel="noopener"':'';
-  return `<article class="story s2n house" aria-label="Swipe2News" style="--hg:${c.g};--ha:${c.ac}"><div class="hwrap"><span class="hic">${c.ic}</span><b class="ht">${esc(x[0].replace('{n}',spaceJobsN()))}</b><span class="hs">${esc(x[1])}</span><a class="hcta" data-sk="${esc(s.k)}" href="${esc(link)}"${ext}>${esc(x[2])} →</a><span class="hb"><img src="art/logo.svg" alt="">swipe2news<i>.</i></span></div>${footHTML()}</article>`; }
+  return `<article class="story s2n house" aria-label="Swipe2News" style="--hg:${c.g};--ha:${c.ac}"><div class="hwrap"><span class="hic">${c.ic}</span><b class="ht">${esc(x[0].replace('{n}',spaceJobsN()))}</b><span class="hs">${esc(x[1])}</span><a class="hcta" data-sk="${esc(s.k)}" href="${esc(link)}"${ext}>${esc(x[2])} →</a><span class="hb"><img src="art/logo.svg" alt="">swipe2news<i>.</i><sup class="tm">™</sup></span></div>${footHTML()}</article>`; }
 /* location card (14 Nov 2026): after ~10 stories, only while no district is chosen; the phone finds the nearest district itself */
 const DHQ={hyderabad:[17.385,78.487],rangareddy:[17.21,78.56],medchal:[17.63,78.48],adilabad:[19.67,78.53],bhadradri:[17.55,80.62],hanumakonda:[18.01,79.56],jagtial:[18.79,78.91],jangaon:[17.72,79.15],bhupalpally:[18.43,79.86],gadwal:[16.23,77.80],kamareddy:[18.32,78.34],karimnagar:[18.44,79.13],khammam:[17.25,80.15],asifabad:[19.36,79.28],mahabubabad:[17.60,80.00],mahabubnagar:[16.74,78.00],mancherial:[18.87,79.46],medak:[18.05,78.26],mulugu:[18.19,79.94],nagarkurnool:[16.48,78.31],nalgonda:[17.05,79.27],narayanpet:[16.74,77.50],nirmal:[19.10,78.34],nizamabad:[18.67,78.09],peddapalli:[18.61,79.38],sircilla:[18.39,78.81],sangareddy:[17.62,78.09],siddipet:[18.10,78.85],suryapet:[17.14,79.62],vikarabad:[17.34,77.90],wanaparthy:[16.36,78.06],warangal:[17.97,79.59],yadadri:[17.51,78.89],
  'ap-srikakulam':[18.30,83.90],'ap-manyam':[18.78,83.43],'ap-vizianagaram':[18.11,83.40],'ap-visakhapatnam':[17.69,83.22],'ap-asr':[18.08,82.67],'ap-anakapalli':[17.69,83.00],'ap-kakinada':[16.99,82.25],'ap-eastgodavari':[17.00,81.80],'ap-konaseema':[16.58,82.01],'ap-eluru':[16.71,81.10],'ap-westgodavari':[16.54,81.52],'ap-ntr':[16.51,80.65],'ap-krishna':[16.19,81.14],'ap-palnadu':[16.24,80.05],'ap-guntur':[16.31,80.44],'ap-bapatla':[15.90,80.47],'ap-prakasam':[15.50,80.05],'ap-nellore':[14.44,79.99],'ap-kurnool':[15.83,78.04],'ap-nandyal':[15.48,78.48],'ap-anantapur':[14.68,77.60],'ap-sathyasai':[14.17,77.81],'ap-kadapa':[14.47,78.82],'ap-annamayya':[14.06,78.75],'ap-tirupati':[13.63,79.42],'ap-chittoor':[13.22,79.10]};
@@ -2379,7 +2384,7 @@ function cardHTML(s,i){
     <div class="ptop"><span class="bchip">${s.brk?'🔴 BREAKING · ':''}${esc(s.cat||U('news'))}</span></div>
     ${storyPhoto(s)&&s.imgcr?`<div class="pcr">📷 ${esc(({te:'ఫోటో',en:'Photo',hi:'फ़ोटो'})[LG()]||'ఫోటో')}: <b>${esc(s.imgcr)}</b></div>`:''}
     <div class="bkw${statRev(s)?' rev':''}">${statRev(s)?`<div class="statl">${esc(s.statl)}</div><div class="stat">${esc(statTx(s))}</div>`:`<div class="stat">${esc(statTx(s))}</div><div class="statl">${esc(s.statl)}</div>`}${!storyPhoto(s)&&artPlan(s)&&artPlan(s).m!=='logo'&&!/^e\/(logo|photo)-/.test(artPlan(s).bg||'')&&!(artPlan(s).m==='plain'&&!artPlan(s).obj)?`<div class="adisc">${esc(ART_DISC[LG()]||ART_DISC.te)}</div>`:''}</div>
-    <span class="bmark"><img src="art/logo.svg" alt="">swipe2news<i>.</i></span>
+    <span class="bmark"><img src="art/logo.svg" alt="">swipe2news<i>.</i><sup class="tm">™</sup></span>
   </div>
   <div class="text"${s._lang?` lang="${s._lang}"`:''}>
     <div class="meta"><span><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>${readMins(s)} ${U('min')}</span>${where?`<span class="mloc"><svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>${esc(where)}</span>`:''}<button class="tsz" type="button" aria-label="అక్షరాల సైజు · Text size">aA</button><button class="lis" type="button"><svg viewBox="0 0 24 24" width="12" height="12" aria-hidden="true"><path d="M7 4.5v15l12-7.5z" fill="currentColor"/></svg>${U('listen')} ${listenSecs(s)}</button></div>
@@ -2792,7 +2797,7 @@ async function newsCard(s,mode){
   // 2) brand band — official logo lockup, kept small so the headline leads
   const BY=PIC, BH=84; ctx.fillStyle=CR; ctx.fillRect(0,BY,W,BH); ctx.fillStyle=AP; ctx.fillRect(0,BY,W,4); ctx.fillStyle='#E8DFD3'; ctx.fillRect(0,BY+BH-2,W,2);
   const iy=BY+BH/2+1; try{ const ic=await loadImg('icon-512.png'); ctx.save(); rrect(ctx,49,iy-25,50,50,13); ctx.clip(); ctx.drawImage(ic,49,iy-25,50,50); ctx.restore(); }catch(e){}
-  ctx.textBaseline='middle'; ctx.font=`800 40px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('swipe2news',112,iy-2); const ww=ctx.measureText('swipe2news').width; ctx.fillStyle=AP; ctx.fillText('.',112+ww,iy-2);
+  ctx.textBaseline='middle'; ctx.font=`800 40px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('swipe2news',112,iy-2); const ww=ctx.measureText('swipe2news').width; ctx.fillStyle=AP; ctx.fillText('.',112+ww,iy-2); { const _f=ctx.font, _c=ctx.fillStyle; ctx.font=`700 16px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('™',112+ww+ctx.measureText('.').width+2,iy-14); ctx.font=_f; ctx.fillStyle=_c; }
   { const dw=ctx.measureText('.').width; ctx.font=`italic 600 30px ${OU}`; const tg='Know More. Scroll Less.', tw=ctx.measureText(tg).width, tx=W-49-tw; if(tx>112+ww+dw+40){ ctx.strokeStyle='rgba(74,14,63,.35)'; ctx.lineWidth=2; ctx.beginPath(); ctx.moveTo(tx-22,iy-20); ctx.lineTo(tx-26,iy+18); ctx.stroke(); ctx.fillStyle=PLUM; ctx.fillText(tg,tx,iy-1); } } // owner 26 Nov 2026: tagline on the share card
   ctx.textBaseline='alphabetic'; // logo only: the card's maker; the source line below names whose reporting it is
   // 3) body
@@ -2832,7 +2837,7 @@ async function motCard(s){
   // header: icon · swipe2news. | Know More. Scroll Less.
   ctx.textBaseline='middle';
   if(icon){ ctx.save(); rrect(ctx,58,36,96,96,24); ctx.clip(); ctx.drawImage(icon,58,36,96,96); ctx.restore(); }
-  ctx.font=`800 66px ${OU}`; ctx.fillStyle=PL; ctx.fillText('swipe2news',178,86); let x=178+ctx.measureText('swipe2news').width; ctx.fillStyle=OR; ctx.fillText('.',x,86); x+=ctx.measureText('.').width;
+  ctx.font=`800 66px ${OU}`; ctx.fillStyle=PL; ctx.fillText('swipe2news',178,86); let x=178+ctx.measureText('swipe2news').width; ctx.fillStyle=OR; ctx.fillText('.',x,86); x+=ctx.measureText('.').width; { const _f=ctx.font, _c=ctx.fillStyle; ctx.font=`700 26px ${OU}`; ctx.fillStyle=PL; ctx.fillText('™',x+2,86-20); ctx.font=_f; ctx.fillStyle=_c; }
   ctx.strokeStyle=PL; ctx.lineWidth=2.5; ctx.beginPath(); ctx.moveTo(x+38,116); ctx.lineTo(x+46,54); ctx.stroke();
   const tx=x+76; ctx.font=`italic 600 36px ${OU}`; ctx.save(); ctx.translate(tx,84); ctx.transform(1,0,-.12,1,0,0); ctx.fillStyle=PL; ctx.fillText('Know More. Scroll Less.',0,0); const tw=ctx.measureText('Know More. Scroll Less.').width; ctx.restore();
   ctx.strokeStyle=OR; ctx.lineWidth=5; ctx.lineCap='round'; ctx.beginPath(); ctx.moveTo(tx+tw*.28,126); ctx.quadraticCurveTo(tx+tw*.7,108,tx+tw+10,104); ctx.stroke();
@@ -2900,7 +2905,7 @@ async function dailyCard(s){
   // brand band at the top: logo · swipe2news. · tagline
   const BH=150; ctx.fillStyle=CR; ctx.fillRect(0,0,W,BH); ctx.fillStyle=AP; ctx.fillRect(0,BH-6,W,6);
   try{ const ic=await loadImg('icon-512.png'); ctx.save(); rrect(ctx,60,33,84,84,22); ctx.clip(); ctx.drawImage(ic,60,33,84,84); ctx.restore(); }catch(e){}
-  ctx.textBaseline='middle'; ctx.font=`800 60px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('swipe2news',166,68); const ww=ctx.measureText('swipe2news').width; ctx.fillStyle=AP; ctx.fillText('.',166+ww,68);
+  ctx.textBaseline='middle'; ctx.font=`800 60px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('swipe2news',166,68); const ww=ctx.measureText('swipe2news').width; ctx.fillStyle=AP; ctx.fillText('.',166+ww,68); { const _f=ctx.font, _c=ctx.fillStyle; ctx.font=`700 24px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('™',166+ww+ctx.measureText('.').width+2,68-18); ctx.font=_f; ctx.fillStyle=_c; }
   ctx.font=`800 28px ${OU}`; ctx.fillStyle=PLUM; ctx.fillText('Know More',168,112); let tx=168+ctx.measureText('Know More').width; ctx.fillStyle=AP; ctx.fillText('.',tx,112); tx+=ctx.measureText('. ').width; ctx.fillStyle=PLUM; ctx.fillText('Scroll Less',tx,112); tx+=ctx.measureText('Scroll Less').width; ctx.fillStyle=AP; ctx.fillText('.',tx,112);
   // watermark: big faint logo + brand name, so a copied picture still shows where it came from
   try{ const ic=await loadImg('art/logo.svg'); ctx.save(); ctx.globalAlpha=.07; const WS=640; ctx.drawImage(ic,(W-WS)/2,(H-WS)/2-60,WS,WS); ctx.restore(); }catch(e){}
@@ -3288,6 +3293,21 @@ const TOURTX={
        ['जहाँ छोड़ा, वहीं से','लौटकर रुकी हुई खबर या अगली बिना पढ़ी खबर से जारी रखें।']]}};
 const TT=()=>TOURTX[TLG()?'en':LG()]||TOURTX.te;
 const TOUR_KEY='mysTour1';
+
+/* owner's one-off flash card on the main screen (tools/announce.json → item.pop), shown once per reader (26 Nov 2026: trademark update) */
+async function annPop(){ try{
+  if($('annPop')||$('onb')&&!$('onb').hidden||$('mysTour')||view!=='home') return;
+  const r=await fetch('tools/announce.json?t='+Math.floor(Date.now()/600000),{cache:'no-store'}); if(!r.ok) return;
+  const now=new Date(Date.now()+5.5*3600e3).toISOString().slice(0,16), q=new URLSearchParams(location.search).get('pop');
+  const it=((await r.json()).items||[]).find(x=>x.pop&&(q?x.id===q:(now>=(x.from||'')&&now<=(x.to||'9999')&&!store.get('pop.'+x.id,0))));
+  if(!it) return; const lg=(prefs&&prefs.lang)||'te', T={te:'సరే',en:'OK',hi:'ठीक है'};
+  const o=document.createElement('div'); o.id='annPop'; o.setAttribute('role','dialog'); o.setAttribute('aria-modal','true');
+  o.innerHTML=`<div class="ab"><img src="${it.pop}" alt="${esc((it[lg]||it.en||{}).h||'')}"><button class="ax" type="button" aria-label="Close">×</button><button class="ok" type="button">${T[lg]||'OK'}</button></div>`;
+  const close=()=>{ store.set('pop.'+it.id,Date.now()); o.classList.remove('on'); setTimeout(()=>o.remove(),250); };
+  o.addEventListener('click',e=>{ if(e.target===o||e.target.closest('.ax,.ok')) close(); });
+  const im=o.querySelector('img'); im.onload=()=>{ document.body.appendChild(o); requestAnimationFrame(()=>o.classList.add('on')); };
+}catch(e){} }
+setTimeout(annPop, 3500);
 function tourPending(){ try{ return new URLSearchParams(location.search).has('mys') || !store.get(TOUR_KEY,0); }catch(e){ return false; } }
 function tourEnd(){ store.set(TOUR_KEY,Date.now()); const o=$('mysTour'); if(o){ o.classList.remove('on'); setTimeout(()=>o.remove(),250); } removeEventListener('resize',tourPlace); }
 let tourI=0, tourEl=null;
@@ -4340,12 +4360,12 @@ setTimeout(alertInvite, 60000);
   function obHTML(){ const N=5, ic=d=>`<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
     const langs=ALL.filter(x=>READY.includes(x[0])).map(([id,gl,nat,en])=>`<button class="oblang${obPick===id?' on':''}" type="button" data-l="${id}"><b>${gl}</b><span>${nat}</span><small>${en}</small></button>`).join('');
     const slides=[
-      `<div class="obs obw"><img class="oblogo" src="art/logo.svg" alt=""><div class="obwm">swipe2news<i>.</i></div><div class="obtag">Know More<i>.</i> Scroll Less<i>.</i></div><h2>${OT2('w1')}</h2><p class="obbig">${OT2('w2')}</p><p>${OT2('w3')}</p></div>`,
+      `<div class="obs obw"><img class="oblogo" src="art/logo.svg" alt=""><div class="obwm">swipe2news<i>.</i><sup class="tm">™</sup></div><div class="obtag">Know More<i>.</i> Scroll Less<i>.</i></div><h2>${OT2('w1')}</h2><p class="obbig">${OT2('w2')}</p><p>${OT2('w3')}</p></div>`,
       `<div class="obs"><h2>${OT2('l1')}</h2><p>${OT2('l2')}</p><div class="oblg">${langs}</div><label class="obnm">${OT2('nm')}<input id="obName" maxlength="24" autocomplete="given-name" value="${esc((prefs&&prefs.name)||'')}"></label></div>`,
       `<div class="obs"><h2>${OT2('s1')}</h2><div class="obphone"><div class="obc c3"></div><div class="obc c2"></div><div class="obc c1"><i></i><b></b><b></b><b class="sh"></b></div><div class="obhand">👆</div><div class="obarrow">← ← ←</div></div><div class="obrow"><span class="obk">←</span><span>${OT2('s2')}</span></div><div class="obrow"><span class="obk">→</span><span>${OT2('s3')}</span></div></div>`,
       `<div class="obs"><h2>${OT2('b1')}</h2><div class="obdock"><span class="op">${ic('<path d="M15 6l-6 6 6 6"/>')}</span><span class="oh">${ic('<path d="M3 11l9-7 9 7"/><path d="M5 10v10h5v-6h4v6h5V10"/>')}</span><span class="on">${esc(NT('next'))} ›</span></div>
         <div class="obrow"><span class="obk sm">‹</span><span>${OT2('b2')}</span></div><div class="obrow"><span class="obk sm home">${ic('<path d="M3 11l9-7 9 7"/><path d="M5 10v10h5v-6h4v6h5V10"/>')}</span><span>${OT2('b3')}</span></div><div class="obrow"><span class="obk sm">›</span><span>${OT2('b4')}</span></div>
-        <div class="obtopbar"><div class="obtl">${OTB('bt')}</div><div class="obmini"><img src="art/logo.svg" alt=""><b>swipe2news<i>.</i></b><span class="obmh">${ic('<path d="M3 11l9-7 9 7"/><path d="M5 10v10h5v-6h4v6h5V10"/>')}</span></div><div class="obrow"><span>✨</span><span>${OT2('b5')}</span></div></div></div>`,
+        <div class="obtopbar"><div class="obtl">${OTB('bt')}</div><div class="obmini"><img src="art/logo.svg" alt=""><b>swipe2news<i>.</i><sup class="tm">™</sup></b><span class="obmh">${ic('<path d="M3 11l9-7 9 7"/><path d="M5 10v10h5v-6h4v6h5V10"/>')}</span></div><div class="obrow"><span>✨</span><span>${OT2('b5')}</span></div></div></div>`,
       `<div class="obs"><h2>${OT2('f1')}</h2>${[['fa','<path d="M7 5v14l11-7z" fill="currentColor"/>',''],['fb','<path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/>','wa'],['fc','<path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/>',''],['fd','<path d="M5 12l4 4 10-10"/>','']].map(([k,d,c])=>`<div class="obf"><span class="${c}">${ic(d)}</span><div><b>${OTB(k)}</b><small>${OT2(k+'2')}</small></div></div>`).join('')}</div>`];
     return `<div class="obtop"><div class="obdots">${slides.map((_,i)=>`<i class="${i===obStep?'on':''}"></i>`).join('')}</div>${obStep<N-1?`<button class="obskip" type="button">${OTB('skip')}</button>`:''}</div>
       <div class="obbody">${slides[obStep]}</div>
