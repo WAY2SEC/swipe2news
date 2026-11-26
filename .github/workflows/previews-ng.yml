@@ -1,0 +1,23 @@
+name: Nigeria link previews
+# After each Nigeria news update: make the WhatsApp link-preview pages ng/s/<id>.html (+ photo cards ng/cards/<id>.jpg)
+on:
+  push:
+    branches: [main]
+    paths: ['editions/ng/news.json', 'tools/ng/build_previews_ng.py']
+  workflow_dispatch:
+concurrency: { group: previews-ng, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  previews:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q pillow
+      - run: python3 tools/ng/build_previews_ng.py
+      - name: Save pages
+        run: |
+          git config user.name "Swipe2News Bot"; git config user.email news-bot@swipe2news.invalid
+          git add -A ng/s ng/cards
+          git diff --cached --quiet && exit 0
+          git commit -m "Nigeria link previews $(TZ=Africa/Lagos date '+%Y-%m-%d %H:%M') WAT"
+          for i in 1 2 3 4; do git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0; sleep 5; done

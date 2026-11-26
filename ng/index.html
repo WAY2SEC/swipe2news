@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Swipe2News Nigeria – Know More. Scroll Less.</title>
 <meta name="robots" content="noindex,nofollow"><!-- test edition: hidden from search until launch -->
+<meta name="description" content="Nigeria news in 60 words – swipe and read. Know More. Scroll Less.">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Swipe2News Nigeria">
+<meta property="og:title" content="Swipe2News Nigeria – Know More. Scroll Less."><meta property="og:description" content="Nigeria news in 60 words – swipe and read.">
+<meta property="og:url" content="https://swipe2news.com/ng/"><meta property="og:image" content="https://swipe2news.com/art/ng/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#4A0E3F">
 <link rel="icon" href="/art/logo.svg">
 <link rel="manifest" href="/manifest.webmanifest">
@@ -13,9 +18,10 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script>
-/* Nigeria edition is only for phones on Nigerian time (Africa/Lagos). Everyone else goes to the normal app. */
+/* Nigeria edition is only for phones on Nigerian time (Africa/Lagos). Everyone else goes to the normal app –
+   except a shared story link (?s=<id>, owner 26 Nov 2026): that opens the Nigeria story for everyone. */
 (function(){try{var tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';
- if(tz!=='Africa/Lagos'&&!/bot|crawl|spider|Lighthouse/i.test(navigator.userAgent))location.replace('/');}catch(e){}})();
+ if(tz!=='Africa/Lagos'&&!/[?&]s=/.test(location.search)&&!/bot|crawl|spider|Lighthouse/i.test(navigator.userAgent))location.replace('/');}catch(e){}})();
 </script>
 <style>
 /* Swipe2News Nigeria – same layout as the India app (owner, 26 Nov 2026): brand bar with ✨ Today + ☰ menu,
@@ -335,7 +341,7 @@ function card(s){
     <div class="gt"><div class="lg"><img src="/art/logo.svg" alt=""><div><b>swipe2news<i>.</i></b><small>Know More. Scroll Less.</small></div></div>
     <h2>${NAME&&s.greet!=='night'?esc(G[0].replace(',',''))+', '+esc(NAME)+'!':G[0]}<em>Naija! <span>${G[1]}</span></em></h2><div class="ul"></div><p class="sub">${G[2]}</p></div>
     <div class="hint">Swipe for today's top stories ›</div></article>`; }
-  const id=sid(s), share=location.origin+'/ng/?s='+id, mins=Math.max(1,Math.round(((s.p||'').split(/\s+/).length+(s.h||'').split(/\s+/).length)/200));
+  const id=sid(s), share=location.origin+'/ng/s/'+id+'.html', mins=Math.max(1,Math.round(((s.p||'').split(/\s+/).length+(s.h||'').split(/\s+/).length)/200));
   const isNew=M.prevVisit&&new Date(s.pub).getTime()>M.prevVisit;
   return `<article class="card" id="card">
     <div class="pic${s.pic&&s.pic!=='logo'?' has':''}">${s.pic&&s.pic!=='logo'?`<picture><source srcset="/art/ng/${esc(s.pic)}.webp" type="image/webp"><img class="ph" src="/art/ng/${esc(s.pic)}.jpg" alt=""></picture><i class="shade"></i>${s.cr?`<span class="cr">${esc(s.cr)}</span>`:''}`:'<img class="mark" src="/art/logo.svg" alt="">'}<span class="pill">${esc(s.cat)}</span>
@@ -368,7 +374,7 @@ function show(dir){
   if(s.svc) svcFill(s.svc);
   if(isNews(s)){ const k=sid(s); M.seen[k]=Date.now(); M.last=k; saveM(); readT=setTimeout(()=>markRead(s),6000);
     $('sv').onclick=()=>{ const on=SAVED.includes(k); SAVED=on?SAVED.filter(x=>x!==k):[k].concat(SAVED).slice(0,100); LS.set('saved',SAVED); markRead(s); show(0); toast(on?'Removed from saved':'🔖 Saved'); };
-    $('sh').onclick=()=>{ markRead(s); const u=location.origin+'/ng/?s='+k; if(navigator.share) navigator.share({title:s.h,text:s.h,url:u}).catch(()=>{}); else { navigator.clipboard&&navigator.clipboard.writeText(u); toast('Link copied'); } };
+    $('sh').onclick=()=>{ markRead(s); const u=location.origin+'/ng/s/'+k+'.html'; if(navigator.share) navigator.share({title:s.h,text:s.h,url:u}).catch(()=>{}); else { navigator.clipboard&&navigator.clipboard.writeText(u); toast('Link copied'); } };
     $('aa').onclick=()=>{ FS=FS>=18?15:FS===15?16:18; LS.set('fs',FS); document.documentElement.style.setProperty('--fs',FS+'px'); toast('Text size '+(FS===15?'small':FS===16?'normal':'large')); };
     $('say').onclick=()=>{ if(speaking) return stopSay(); markRead(s); say([s.h+'. '+s.p],()=>{}); $('say').setAttribute('aria-pressed','true'); $('say').textContent='■ Stop'; };
     c.querySelectorAll('[data-act]').forEach(a=>a.addEventListener('click',()=>markRead(s)));
