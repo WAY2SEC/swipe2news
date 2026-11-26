@@ -74,6 +74,7 @@ Deaths/killings → e/remembrance-and-condolence (same as n/condolence). Do NOT 
 (the app also uses these automatically for cycle / bike stories marked "logo")
 
 ### People photos (owner, 26 Nov 2026)
+- e/photo-ktr – KTR, same rules as Jagan
 - e/photo-ys-jagan – YS Jagan, only when he is the speaker/actor (picked automatically; not when others attack him, never on crime/death)
 
 ### Dams (owner, 26 Nov 2026) – picked automatically when the story names the dam AND is about water/gates/inflow/project
