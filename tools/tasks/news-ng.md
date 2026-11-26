@@ -39,6 +39,8 @@ India tasks, phone alerts or any other file.
   outlets only; no names of victims or minors; no graphic detail.
 
 ## 4. Publish
+- Owner stories (`"by":"owner"`, added by hand) are never edited or dropped except by the 2-day rule; they may carry a
+  photo `pic` from `art/ng/` with a `cr` credit. Your own cards still use `pic` "logo".
 - Put the new cards at the top of `editions/ng/news.json` (newest first), keep at most 60 stories and only stories
   from the last 2 days. Set `date` (dd.mm.yyyy) and `updated` (now, WAT, "+01:00"). Keep `version` 2, `edition` "ng",
   `tz` "Africa/Lagos". Check with `python3 -c "import json;json.load(open('editions/ng/news.json'))"`.

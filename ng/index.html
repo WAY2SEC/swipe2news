@@ -42,6 +42,9 @@ main{flex:1;position:relative;overflow:hidden;padding:4px 10px 0}
 .pic{position:relative;flex:0 0 30%;min-height:118px;background:var(--plum);display:flex;align-items:center;justify-content:center;overflow:hidden}
 .pic .mark{width:78px;height:78px;border-radius:20px;box-shadow:0 0 0 2px rgba(255,253,245,.55)}
 .pic .dot{position:absolute;right:14px;bottom:14px;width:22px;height:22px;border-radius:6px;background:url(/art/logo.svg) center/cover;opacity:.9}
+.pic .ph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 22%}
+.pic .shade{position:absolute;inset:auto 0 0 0;height:60%;background:linear-gradient(transparent,rgba(46,8,39,.85))}
+.pic .cr{position:absolute;top:14px;right:12px;font:600 10px var(--ui);color:#fff;background:rgba(0,0,0,.45);padding:3px 7px;border-radius:6px;max-width:55%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .pill{position:absolute;top:12px;left:12px;background:rgba(255,253,245,.94);color:var(--plum);border-radius:999px;padding:5px 11px;font:700 12px var(--ui)}
 .num{position:absolute;left:14px;right:44px;bottom:12px;display:flex;align-items:baseline;gap:8px;white-space:nowrap;overflow:hidden}
 .num b{font:800 22px var(--ui);color:var(--apricot)}.num span{font:700 15px var(--ui);color:#fff;overflow:hidden;text-overflow:ellipsis}
@@ -335,7 +338,7 @@ function card(s){
   const id=sid(s), share=location.origin+'/ng/?s='+id, mins=Math.max(1,Math.round(((s.p||'').split(/\s+/).length+(s.h||'').split(/\s+/).length)/200));
   const isNew=M.prevVisit&&new Date(s.pub).getTime()>M.prevVisit;
   return `<article class="card" id="card">
-    <div class="pic"><img class="mark" src="/art/logo.svg" alt=""><span class="pill">${esc(s.cat)}</span>
+    <div class="pic${s.pic&&s.pic!=='logo'?' has':''}">${s.pic&&s.pic!=='logo'?`<picture><source srcset="/art/ng/${esc(s.pic)}.webp" type="image/webp"><img class="ph" src="/art/ng/${esc(s.pic)}.jpg" alt=""></picture><i class="shade"></i>${s.cr?`<span class="cr">${esc(s.cr)}</span>`:''}`:'<img class="mark" src="/art/logo.svg" alt="">'}<span class="pill">${esc(s.cat)}</span>
       <div class="num"><b>${esc(s.stat)}</b><span>${esc(s.statl)}</span></div><i class="dot"></i></div>
     <div class="body">
       <div class="ctl"><span>🕒 ${mins} min read</span><span class="sp"></span><button type="button" id="aa" aria-label="Text size">aA</button><button type="button" id="say" aria-pressed="false">▷ Listen</button></div>
