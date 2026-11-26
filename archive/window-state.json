@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-26T15:35:00+05:30",
+ "cutoff": "2026-11-26T16:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-23T17:05:00+05:30/2026-11-23T17:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 6,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Lookback from 09:05. Feeds 17:21 IST (66/68 ok). 61 uncovered events first seen since 16:45 scanned (19 local). add_repo tool not available; used existing clone. 3 fetch agents. Sensitive: Kavitha Krishna water allegation (claim). Duplicates: NewsMeter surrendered Maoists skills (214 Maoists rewards published 13:05), NewsMeter police duty meet (published 15:35). Skipped: Prabha Kurnool ZP chairman Uligaiah (published 20 Nov), Sabarimala Pamba Rs 5,000 fine (event first reported 22 Nov), many lifestyle/entertainment items. Not opened (left unseen): Hyderabad Mail/Disha TGCSB Black Friday scam alert (Disha refuses fetch, original not found), Disha Bhatti counter to KTR, Disha re-survey bribe complaint, Disha Khelo India games collector. District searches: Nizamabad, Warangal, Asifabad, Konaseema, Krishna, Bapatla, ASR, Annamayya, Manyam (no new eligible items found). lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T17:35:00+05:30/2026-11-23T18:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Lookback from 07:05. Feeds 15:22 IST (68/68 ok; 92 uncovered unseen events since 14:50, many entertainment/lifestyle). add_repo tool not available; used existing clone. Typed feed URLs refused until surfaced by WebSearch. Published 6: TT Anantapur Toofan-lorry crash 4 dead (14:56, sensitive), TT panchayat OSR zero-balance accounts (15:03), TT two cyber-harassment arrests (15:07, sensitive, accused not named), TT Ajmer rubath not built (15:16, claim), TT/PTI SC notice on protest guidelines (15:19), NewsMeter solo-car fine viral claim false (15:00, misleading). Duplicates: NDTV/KhanList USTR 25% tariff (same notice published 06:35), DC cyber-harassment arrests (same as TT). Not opened: France24 Bangkok oil depot blast (robots), ap7am Pulivendula TDP win (client error), The Hindu Uttam defence/aerospace (not surfaced by search). Not attempted: Mahabubabad hostel birth, Rudrangi paddy protest, Saint-Gobain AP, Kim nuclear, Hong Kong fire anniversary. No district searches this run. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-26T15:35:00+05:30/2026-11-26T16:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 9,
+   "published": 6,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 07:35. Feeds 15:59 IST (70/70 ok; 129 uncovered unseen events first seen since 15:10, many entertainment/lifestyle/PR). add_repo tool not available; used existing clone. Typed feed URLs refused (PROVENANCE_REQUIRED, 9 fetches lost ~5 min); opened only after WebSearch surfaced them. Published 6: Siasat Bhatti review of Invest Telangana Global Summit (15:46), Siasat two missing children found Amber Nagar (15:49, sensitive, minors not named), Siasat MP Vamsi Krishna letter on Manthani plaque (15:40, claim), TT Hyderabad unsold homes up 7% Knight Frank (15:44), DC CM Revanth vote-deletion allegation at Samvidhan march (15:47, claim), India.com NCLAT Rs 480 crore Jet Airways dues (12:58, late). Duplicates: TT Sagar water release (same as NT 13:36 story), Vaartha/ap7am Telangana cold forecast (published 13:07), Pioneer/Nation Press SC Anand Mohan (published 11:47). Skipped old: DC Pulivendula TDP win (3 Nov). Not opened: The Hindu Cyberabad Moves, The Hindu Uttam defence/aerospace, TT Tanvee Vallem (not surfaced by search), India TV / The Hawk (client error), ETV Bharat. Not attempted: Mahindra University BFSI, Wanaparthy re-survey, AP SEC 15,100 cameras, Somu Veerraju row, TN paternity leave, Lahore teen arrest, Gadkari WB roads. No district searches this run. 2 CHECK left: summit and Jet picture lines 35-36 letters. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7988,6 +7988,76 @@
    "url": "https://khanlist.com/story/trumps-new-tariff-threat-to-india-comes-with-relief-clause-f331cd22",
    "d": "2026-11-26",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-summit-must-showcase-govts-three-yr-record-deputy-cm-3587478/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/mosque-committee-member-helps-police-find-2-missing-girls-in-hyderabad-3587308/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/mp-seeks-plaque-fix-after-revanths-name-omitted-at-music-school-launch-3587488/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-qts-rises-to-6-1-quarters",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/political-forces-attacking-the-constitution-to-make-their-own-power-permanent-cm-revanth-2008156",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/modi-shah-conspiring-to-remove-votes-to-regain-power-telangana-cm-revanth-reddy/article71745996.ece",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.india.com/news/india/big-relief-for-jet-airways-staff-nclat-orders-release-rs-480-crore-pf-gratuity-dues-within-2-week-after-7-year-legal-battle-8548094/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.freepressjournal.in/business/big-relief-for-jet-airways-employees-as-nclat-approves-480-crore-gratuity-payout-with-interest-within-two-weeks",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-andhra-pradesh-spar-over-water-release-at-nagarjunasagar",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://vaartha.com/latest-news/telangana-weather-update-minimum-temperatures-to-drop-winter-chill-imd-alert/810529/",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.ap7am.com/tn/888127/telangana-temperatures-to-drop-by-2-to-4-degrees-celsius-as-cold-wave-looms",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://dailypioneer.com/law-justice/sc-cancels-anand-mohans-early-release-orders-him-to-surrender-within-a-month",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.nationpress.com/all/sc-quashes-anand-mohans-early-release",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/tdp-breaches-ysrcp-bastion-wins-in-pulivendula-municipality-2001405",
+   "d": "2026-11-26",
+   "w": "skipped"
   }
  ]
 }
