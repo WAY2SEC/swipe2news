@@ -75,6 +75,7 @@ Deaths/killings → e/remembrance-and-condolence (same as n/condolence). Do NOT 
 
 ### People photos (owner, 26 Nov 2026)
 - e/photo-revanth-reddy – CM Revanth Reddy, stories that name him as speaker/actor (official logos like Khelo India stay first)
+- e/photo-kcr, e/photo-kishan-reddy, e/photo-bandi-sanjay, e/photo-dharmapuri-arvind – same rules (speaker only, not the target; Arvind Kejriwal excluded)
 - e/photo-ktr – KTR, same rules as Jagan
 - e/photo-ys-jagan – YS Jagan, only when he is the speaker/actor (picked automatically; not when others attack him, never on crime/death)
 

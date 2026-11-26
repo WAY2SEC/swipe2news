@@ -625,9 +625,19 @@ function artRevanth(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const
   if(!/రేవంత్|\bRevanth\b|रेवंत/i.test(t) || artOrg(s)) return ''; // named stories only; official logos (Khelo India, summit…) stay
   if(/రేవంత్(?:\s?రెడ్డి)?\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు|సర్కార్)|(?:to|on|against|at|slams|attacks|targets|hits out at)\s+(?:CM\s+)?Revanth|रेवंत\s?(?:को|पर)/i.test(t)) return '';
   return /హత్య|మృతి|ప్రమాద|murder|death|accident/i.test(t)?'':'e/photo-revanth-reddy'; }
+// owner 26 Nov 2026: leaders' photos – shown only when the leader is the speaker/actor (not the target), never on crime/death.
+// [picture, name pattern, "target" pattern (name + కు/పై/ను…), names that mean someone else]
+const ART_PEOPLE=[
+  ['e/photo-kcr',/కేసీఆర్|\bKCR\b|కె\.?\s?చంద్రశేఖర్\s?రావు|K\.?\s?Chandrashekar\s?Rao|केसीआर/i,/కేసీఆర్\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు|హయాం)|(?:to|on|against|at|slams|attacks|targets)\s+KCR/i],
+  ['e/photo-kishan-reddy',/కిషన్\s?రెడ్డి|Kishan\s?Reddy|किशन\s?रेड्डी/i,/కిషన్\s?రెడ్డి\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|slams|attacks|targets)\s+Kishan/i],
+  ['e/photo-bandi-sanjay',/బండి\s?సంజయ్|Bandi\s?Sanjay|बंडी\s?संजय/i,/బండి\s?సంజయ్\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|slams|attacks|targets)\s+Bandi/i],
+  ['e/photo-dharmapuri-arvind',/(?:ధర్మపురి\s?)?అర్వింద్(?!\s?కేజ్రీ)|(?:Dharmapuri\s+|MP\s+)Arvind\b|अरविंद\s?धर्मपुरी/i,/అర్వింద్\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|slams|attacks|targets)\s+(?:MP\s+)?Arvind/i]];
+function artPerson(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[o.h,o.statl,o.stat,(o.en&&o.en.h)||''].join(' ').replace(/‌|‍/g,'');
+  if(/హత్య|మృతి|ప్రమాద|murder|death|accident|కేజ్రీవాల్|Kejriwal/i.test(t)) return '';
+  for(const [k,rx,tg] of ART_PEOPLE) if(rx.test(t) && !tg.test(t)) return k; return ''; }
 function artSrisailam(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[o.h,o.statl,o.stat,(o.en&&o.en.h)||''].join(' ').replace(/\u200c|\u200d/g,'');
   return /శ్రీశైల|Srisailam|श्रीशैल/i.test(t)&&!/హత్య|మృతి|ప్రమాద|అరెస్ట్|murder|death|accident|arrest/i.test(t)?'e/photo-srisailam-temple':''; }
-function artPlan(s){ const ac=artAirCargo(s); if(ac) return {m:'land',bg:ac}; const dm=artDam(s); if(dm) return {m:'land',bg:dm}; const ss=artSrisailam(s); if(ss) return {m:'land',bg:ss}; const jg=artJagan(s); if(jg) return {m:'land',bg:jg}; const kt=artKTR(s); if(kt) return {m:'land',bg:kt}; const rv=artRevanth(s); if(rv) return {m:'land',bg:rv}; const hr=artHarish(s); if(hr) return {m:'land',bg:hr};
+function artPlan(s){ const ac=artAirCargo(s); if(ac) return {m:'land',bg:ac}; const dm=artDam(s); if(dm) return {m:'land',bg:dm}; const ss=artSrisailam(s); if(ss) return {m:'land',bg:ss}; const jg=artJagan(s); if(jg) return {m:'land',bg:jg}; const kt=artKTR(s); if(kt) return {m:'land',bg:kt}; const rv=artRevanth(s); if(rv) return {m:'land',bg:rv}; const pp=artPerson(s); if(pp&&!artOrg(s)) return {m:'land',bg:pp}; const hr=artHarish(s); if(hr) return {m:'land',bg:hr};
   { const o=(s&&s._orig)||s; // airport stories without a chosen picture: the airport picture, not the train/travel one
     if(o&&!o.kind&&(!o.pic||String(o.pic).startsWith('c/')||String(o.pic).startsWith('n/'))&&!artOrg(s)&&/విమానాశ్రయ|ఎయిర్\s?పోర్ట్|\bairports?\b|हवाई\s?अड्ड|एयरपोर्ट/i.test([o.h,o.statl,(o.en&&o.en.h)||''].join(' ').replace(/\u200c|\u200d/g,''))) return {m:'land',bg:'e/airport-travel'}; }
   const ok=artOrg(s); if(ok) return {m:'land',bg:ok}; const a=artPlan1(s); const pk=artParty(s,a); return pk?{m:'land',bg:pk}:a; }
