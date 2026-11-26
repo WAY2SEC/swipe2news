@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-26T16:35:00+05:30",
+ "cutoff": "2026-11-26T17:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-23T18:05:00+05:30/2026-11-23T18:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 13,
-   "published": 10,
-   "late": 0,
-   "sensitive": 3,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 5,
-   "review": 1,
-   "gaps": "Lookback from 10:05. Feeds 18:13 IST (70/70 ok). 83 uncovered events first seen since 17:40 scanned (32 local). add_repo tool not available; used existing clone. 4 fetch agents. Sensitive: NIMS ACB billing findings (claim, no charges), Hyderabad terror email VPN (police findings, no arrest), Revanth vs BRS Palnadu grid (claim). Duplicates: NewsMeter money-doubling gang (Adilabad published 17:05), Flash PMI (published 12:05), Chittoor poll-slip report/Maharashtra opposition reaction (CEO story 17:35), ASEAN conclave Lokesh. Skipped: Suryaa SIR final list Dec 22 (Guntur JC, 18 Nov article), Tribune India on Rohingya ICJ (20 Nov), SC BS-VI Delhi remark (Delhi-only, oral), Poultry India Expo (CM role not confirmed; DC says Union MoS inaugurates Nov 25), Delhi Jama Masjid attack/Karnataka MLA resignation (other state). Review: Business Today Naidu Honda-Kia video (no publication time). Not found: Suryaa postal ballot polling. District searches: Nirmal, Mulugu, Gadwal, Wanaparthy, Vikarabad, Mahabubabad, Srikakulam, Vizianagaram, Prakasam, Nellore (nothing new in window). Disha items (Sagar water, railway tenders) not tried (site refuses fetch). lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T18:35:00+05:30/2026-11-23T19:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Lookback from 08:05. Feeds 16:30 IST (64/70 ok; failing: BIG TV, News18 Telugu, PIB, district:Jangaon, district:Mulugu, topic:world news; 98 uncovered unseen events first seen since 15:50, many entertainment/lifestyle). add_repo tool not available; used existing clone. Published 6: Andhra Jyothy AP municipal 55.07% by 3 pm (16:04), Siasat GHMC footpath drive Shaikpet/Tolichowki (16:01), Siasat Siddipet POCSO life term (16:18, sensitive, convict/victim not named), Siasat HC denies anticipatory bail in sexual assault case (16:25, sensitive), DC Rushikonda expert panel restoration (16:26), TT/PTI rupee 92.44 (16:08). Duplicates: Siasat Telangana nights cooler (cold forecast published 13:35), NewsMeter Tirumala Rs 206 crore gold (Vardhaman jewels published 14:35). Not attempted: Eenadu Narayanpet hospital (Eenadu not fetchable), Julurpad Sitarama gram sabha, Adilabad Surakshit, Cheetah 62, VP Constitution 22 languages, IBM H-1B, Gannavaram booth tension. 8 district searches (Khammam, Kurnool, Nizamabad, Visakhapatnam, Warangal, Nellore, Karimnagar, Guntur) returned only tag pages. 1 CHECK left: HC headline 41 characters. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-26T16:35:00+05:30/2026-11-26T17:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 4,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 08:35. Feeds 16:50 IST (67/70 ok; failing: Eenadu, Disha Daily, district:Anantapur; 90 uncovered unseen events first seen since 16:10, many entertainment/lifestyle). add_repo tool not available; used existing clone. Typed feed URLs refused (PROVENANCE_REQUIRED, 5 fetches lost ~5 min). Published 4: Siasat Dhoolpet seven arrested in ganja cases (16:45, sensitive, accused not named), The Hindu Revanth-Sandeep two-hour meeting (16:41, read via KhanList excerpt that links the original), PTI/ThePrint fisherman missing off Vizag (14:50, late, not named), ANI/Awaz VP releases Constitution in 22 languages (page shows date only; time 16:10 taken from PIB feed entry of same event). Duplicate: Pioneer/Hans ACB departmental probe (published 25 Nov 18:05). Not opened (not surfaced by search): Siasat Falaknuma garbage, TT Raji Reddy fellowship, TT NALSAR VC; ANI original and indiasnews (client error). Not attempted: 10TV IT corridor traffic, V6 Ahobilam poll clashes, Samayam Tirumala, HMTV Julurpad gram sabha, Makthal Indiramma houses, Khammam RTI, Disha Skoch nomination, PIB Milk Day/steel. No district searches this run. Story 2 share card built before stat shortened. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8098,6 +8098,46 @@
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUVNtM2hhNnBlNExnNmF3bnd1U05tODl2azctWk8yYlNVZFZvZ05UZDFaLVhjWFNxT2JlVnRFNjdCV3lTWndOejVVYkV2TGpVMEVJVXA5TVlaVENYUDBUZHd4b1FSWnlOOHowTGZiZkFXQU9NdEZOYzB6cFpINEdsNjZDUHZnbGdIMkN2aVI1N3paalk2NXVaVGlsb1JZYVJNTldzektpRTR5YTdIQzh6eDNpQmNONHNiazltU0wxcWlNelZQdWY3dHhyWk91UG9WRXNGVTNFblA4dw?oc=5",
    "d": "2026-11-26",
    "w": "2026-11-26T16:35:00+05:30"
+  },
+  {
+   "url": "https://www.siasat.com/five-women-amongst-seven-arrested-in-dhoolpet-for-ganja-3587564/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/telangana-cm-revanth-spends-two-hours-with-new-aicc-in-charge-sandeep/article71746129.ece",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://khanlist.com/story/telangana-cm-revanth-spends-two-hours-with-new-aicc-in-27da39c6",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://theprint.in/india/andhra-min-directs-coast-guard-assisted-search-for-missing-fisherman-off-vizag/3109661/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.awazthevoice.in/india-news/vp-radhakrishnan-releases-constitution-editions-in-languages-71486.html",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://dailypioneer.com/telangana/telangana-acb-orders-departmental-probe-into-rs-30-lakh-bribe-allegations-against-its-investigating-officer",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/acb-orders-probe-into-bribery-charges-against-its-officer-1145825",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kakinada/search-intensifies-for-7-missing-fishermen-1145823",
+   "d": "2026-11-26",
+   "w": "duplicate"
   }
  ]
 }
