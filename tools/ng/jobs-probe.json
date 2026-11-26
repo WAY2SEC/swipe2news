@@ -1,0 +1,87 @@
+{
+ "MyJobMag": {
+  "ok": true,
+  "items": 100,
+  "first": [
+   "Jobs at Erisco Foods Limited",
+   "General Manager (Logistics) at Vodstra Limited",
+   "Engineer at Neo Earth New Energy Nigeria Co. Ltd"
+  ]
+ },
+ "MyJobMag rss": {
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ "Hot Nigerian Jobs": {
+  "ok": true,
+  "items": 600,
+  "first": [
+   "Carlson Hotel Job Recruitment (3 Positions)",
+   "Fadac Resources and Services Limited Graduate & Exp. Job Recruitment (41 Positions)",
+   "Sales Girl at FotoART"
+  ]
+ },
+ "NGCareers": {
+  "ok": true,
+  "bytes": 640422,
+  "head": "<!DOCTYPE html>\n<html lang=\"en-ng\">\n<head>\n        <meta charset=\"utf-8\" />\n\n    <script>document.documentElement.classList.add('js');</script>\n\n            <li"
+ },
+ "Jobgurus": {
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ "Nigerian Jobs Plus": {
+  "ok": true,
+  "items": 10,
+  "first": [
+   "Grant Analyst at Primeguage Solutions Limited",
+   "Business Development Officer/Analyst at Primeguage Solutions Limited",
+   "Submit CVs – Latest Recruitment at Proten"
+  ]
+ },
+ "Recruitment portal (NG)": {
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ "Jobzilla": {
+  "ok": true,
+  "items": 200,
+  "first": [
+   "MEAL Assistant at Chabash Development and Health Initiative (CDHI)",
+   "Field Sales Manager (Nationwide) in a Leading Retail and Buy Now, Pay Later (BNPL) Company",
+   "Nutrition Assistant (Madagali) at Chabash Development and Health Initiative (CDHI)"
+  ]
+ },
+ "Graduate jobs NG": {
+  "ok": false,
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ "Google News recruitment": {
+  "ok": true,
+  "items": 38,
+  "first": [
+   "Nigeria badminton prioritises merit in coach recruitment - Punch Newspapers",
+   "Inside Nigeria’s Cyberfraud Academies Recruiting Children - Techeconomy",
+   "The Digital Trap: How Russia lures African job seekers into war - The Guardian Nigeria New"
+  ]
+ },
+ "Google News job portal opens": {
+  "ok": true,
+  "items": 57,
+  "first": [
+   "How To Apply For 28,000 Soldiers, 50,000 Police Recruitment - LEADERSHIP Newspapers",
+   "Nigerian Air Force Recruitment 2026: BMTC 47 and DSSC Status, Requirements - Envanter Medy",
+   "Navy Releases Batch 39 Shortlist, Sets Exam Date - https://thefact.ng/"
+  ]
+ },
+ "Open-Meteo": {
+  "ok": true,
+  "bytes": 380,
+  "head": "{\"latitude\":6.4323373,\"longitude\":3.3948028,\"generationtime_ms\":1347.5444316864014,\"utc_offset_seconds\":3600,\"timezone\":\"Africa/Lagos\",\"timezone_abbreviation\":\""
+ },
+ "ER-API USD": {
+  "ok": true,
+  "bytes": 2973,
+  "head": "{\"result\":\"success\",\"provider\":\"https://www.exchangerate-api.com\",\"documentation\":\"https://www.exchangerate-api.com/docs/free\",\"terms_of_use\":\"https://www.excha"
+ }
+}
