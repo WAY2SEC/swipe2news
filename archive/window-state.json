@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-26T11:05:00+05:30",
+ "cutoff": "2026-11-26T11:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-23T12:35:00+05:30/2026-11-23T13:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 14,
-   "published": 14,
-   "late": 1,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 2,
-   "review": 1,
-   "gaps": "Lookback from 04:35 on 23 Nov. Feeds 13:05 IST (67/70 ok). 165 uncovered events first seen since 12:10 scanned. add_repo tool not available; used existing clone. 3 fetch agents, 20 items, 14 opened. Published 14: V6 214 Maoists rewards (12:26), DC AP phase-3 16,505 nominations (12:27), HMTV Chittoor mayor oath (12:31), Oneindia IRCTC Kashi-Ayodhya train (12:51), ETV TIMS theatres for Gandhi/NIMS (12:17), ETV Jana Sena deputy mayor picks (09:24, late), DC Rushikonda student found dead (12:35, sensitive, no name), DC Pushkaralu logo contest (12:51), HMTV Korutla BJP pensions (12:23, claim), HMTV Basara +2 policy (12:27, claim), Oneindia Satwar 9.6C cold (13:00), HMTV Dharmapuri Bharani pujas (12:17), TV9 toll number-plate fines (12:25, claim), Business Standard 1.38 crore jobs (12:12, forecast). Duplicates (feed, not opened): TT Godavarikhani miner, TT Hyderabad threat email, TT India-NZ draw. Skipped: US House Democrats 258 seats (figure not confirmed; only 19 Nov page opened), Suryaa Puttaparthi oath (article not found). Review: Pakistan astronaut (NDTV not found; alternates show no publication time today). Not opened (left unseen): Disha Khammam Sabarimala buses, Disha Khammam two lorries collide (fetch refused), News18 Nabin arrives in Hyderabad, Prajasakti Bandar deputy mayor. Not attempted: HMTV Asifabad school complaint. No district searches this run. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T13:05:00+05:30/2026-11-23T13:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 1,
    "gaps": "Lookback from 03:05. Feeds 10:43 IST (70/70 ok; 138 uncovered unseen recent events). add_repo tool not available; used existing clone. Published 3: Live Law HC dismisses Vikarabad court-site PIL (10:20), Oneindia KRMB Sagar usage/no agreement (10:30), DC Narnoor young woman's death, father accused (10:33, sensitive, claim). Duplicates: church Christmas grant, CM rice stock two years, Kakinada fishermen safe, Naidu votes. Skipped as old: TT Adilabad 2022 article, Hans Vikarabad court row (11 Sep). Review (only 'updated' time): FPJ rupee 92.40. Direct feed URLs refused by fetch (Siasat Apollyon, Siasat Cairo 31 dead, TT snooker, TT OU athletics, TT school chess). Not opened (no search hit): V6 naxal-free two districts report, V6 Yalal wine shop theft, Kishan Reddy yatra remarks (NTV), Disha Mulugu murder, HMTV Achampet arrests. No district searches this run. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-26T11:05:00+05:30/2026-11-26T11:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 6,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 03:05. Feeds 11:30 IST (68/70 ok; 133 uncovered unseen events first seen since 10:30, many entertainment/business). add_repo tool not available; used existing clone. Direct feed URLs refused by fetch; opened after WebSearch surfaced them. Published 6: Siasat HC summons CS (Mahabubnagar employees, 11:03), Siasat Rethibowli sword dance 4 arrests (10:48, sensitive), Pioneer Vintage Coffee Wargal Rs 1,500 cr (11:07), HMTV Indiramma towers free registration (10:47), TT/PTI Tirupati NH-716 temple relocation (11:17), TT/PTI Tata Trusts to sue (11:22). Duplicate: Siasat CMC net-zero HQ (twin towers published 08:20). Not attempted/not opened: K-ORBIT Konaseema app, Kachiguda bomb squad checks, Wipro BP staff, Army microlight landing, gold loans, rigging allegations. 8 district searches (Warangal, Khammam, Nizamabad, Karimnagar, Visakhapatnam, Nellore, Kadapa, Sangareddy/Medak) gave only tag pages. Lang pages/index/sitemap reverted. Kept owner's 11:45 Constitution Day poster first after rebase."
   }
  ],
  "seen": [
@@ -7568,6 +7568,41 @@
    "url": "https://www.freepressjournal.in/business/rupee-slips-20-paise-to-9240-against-us-dollar-crude-oil-rally-tariff-fears-cloud-outlook",
    "d": "2026-11-26",
    "w": "review"
+  },
+  {
+   "url": "https://www.siasat.com/over-2024-order-hc-summons-telangana-chief-secratary-3586987/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/viral-sword-dance-at-hyderabad-wedding-procession-ends-in-4-arrests-3587005/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://dailypioneer.com/telangana/vintage-coffee-to-set-up-rs-1500-crore-manufacturing-plant-in-siddipet",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/telangana/telangana-indiramma-housing-scheme-free-registration-for-beneficiaries-217328",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/tirupati-collector-defends-temple-relocation-for-nh-716",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/tata-trusts-to-sue-tata-sons-over-n-chandrasekaran-s",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/cyberabad-municpal-corporation-to-have-net-zero-green-headquarters-3587001/",
+   "d": "2026-11-26",
+   "w": "duplicate"
   }
  ]
 }
