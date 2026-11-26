@@ -1,8 +1,557 @@
 {
  "date": "26.11.2026",
  "iso": "2026-11-26",
- "count": 99,
+ "count": 109,
  "stories": [
+  {
+   "cat": "తెలంగాణ · నేరం",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/police-investigation",
+   "stat": "బీఆర్ఎస్ నేతపై దాడి",
+   "statl": "తీగలపల్లిలో",
+   "h": "నాగర్‌కర్నూల్‌లో బీఆర్ఎస్ నేతపై దాడి",
+   "p": "నాగర్‌కర్నూల్ జిల్లా కోడేరు మండలం తీగలపల్లిలో బీఆర్ఎస్ గ్రామ అధ్యక్షుడిపై గురువారం తెల్లవారుజామున దాడి జరిగింది. ఉదయం నడక ముగించుకుని వస్తుండగా నలుగురు కళ్లలో కారం చల్లి కర్రలతో కొట్టారని ఆరోపణ. తీవ్రంగా గాయపడిన ఆయనను నాగర్‌కర్నూల్ ఆసుపత్రికి, తర్వాత హైదరాబాద్‌కు తరలించారు. ఫిర్యాదు అందిందని, కేసు నమోదు చేస్తామని కోడేరు పోలీసులు తెలిపారు.",
+   "pts": [
+    "దాడి ఉదయం 5–6 గంటల మధ్య జరిగిందని పోలీసులు",
+    "బీఎన్ఎస్ సెక్షన్ 118 కింద కేసు పెడతామని వెల్లడి"
+   ],
+   "why": "గ్రామాల్లో రాజకీయ కార్యకర్తల భద్రతపై ఈ ఘటన ఆందోళన కలిగిస్తోంది.",
+   "src": "The Siasat Daily",
+   "url": "https://www.siasat.com/brs-leader-critical-after-being-attacked-in-nagarkurnool-3587168/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "nagarkurnool",
+   "loc": "తీగలపల్లి",
+   "pub": "2026-11-26T14:15+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Crime",
+    "stat": "BRS leader attacked",
+    "statl": "in Teegalapalli",
+    "loc": "Teegalapalli, Nagarkurnool",
+    "h": "BRS leader attacked in Nagarkurnool",
+    "p": "A BRS village president was attacked early Thursday at Teegalapalli in Kodair mandal, Nagarkurnool district. Four people allegedly threw chilli powder in his eyes and beat him with sticks as he returned from a morning walk. Badly hurt, he was taken to Nagarkurnool hospital and then to Hyderabad. Kodair police said they received a complaint and will register a case.",
+    "pts": [
+     "Police say the attack happened between 5 and 6 am",
+     "Case to be filed under BNS Section 118, police said"
+    ],
+    "why": "The incident raises concern over the safety of political workers in villages."
+   },
+   "hi": {
+    "cat": "तेलंगाना · अपराध",
+    "stat": "बीआरएस नेता पर हमला",
+    "statl": "तीगलपल्ली में",
+    "loc": "तीगलपल्ली, नागरकर्नूल",
+    "h": "नागरकर्नूल में बीआरएस नेता पर हमला",
+    "p": "नागरकर्नूल जिले के कोडेर मंडल के तीगलपल्ली में गुरुवार तड़के बीआरएस के ग्राम अध्यक्ष पर हमला हुआ। आरोप है कि सुबह की सैर से लौटते समय चार लोगों ने उनकी आंखों में मिर्च पाउडर डालकर लाठियों से पीटा। गंभीर रूप से घायल नेता को नागरकर्नूल अस्पताल और फिर हैदराबाद ले जाया गया। कोडेर पुलिस ने कहा कि शिकायत मिली है और मामला दर्ज किया जाएगा।",
+    "pts": [
+     "पुलिस के अनुसार हमला सुबह 5 से 6 बजे के बीच हुआ",
+     "पुलिस ने कहा, बीएनएस धारा 118 के तहत मामला दर्ज होगा"
+    ],
+    "why": "इस घटना से गांवों में राजनीतिक कार्यकर्ताओं की सुरक्षा पर चिंता बढ़ी है।"
+   },
+   "d": "26.11.2026",
+   "t": "15:05"
+  },
+  {
+   "cat": "తెలంగాణ · ఎన్నికల జాబితా",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/election-office",
+   "stat": "32,100 కేసులు పెండింగ్",
+   "statl": "ఓటర్ల జాబితాలో",
+   "h": "ఓటర్ల జాబితాలో 32,100 కేసులు పెండింగ్",
+   "p": "తెలంగాణ ఓటర్ల జాబితా ప్రత్యేక సవరణలో 2.63 కోట్లకు పైగా పేర్లు తుది జాబితాకు ఖరారయ్యాయి. 58,772 మంది అనర్హులుగా తేలారు. ఇంకా 32,100 కేసులు పెండింగ్‌లో ఉన్నాయి, వాటిలో 22,598 హైదరాబాద్‌వే. నోటీసులకు సమాధానం ఇచ్చిన ఓటర్లు తమ కేసు ఎక్కడుందో ఆన్‌లైన్‌లో చూసుకునే వీలు లేదని సియాసత్ కథనం తెలిపింది.",
+   "pts": [
+    "అభ్యంతరాలు, నోటీసుల గడువు డిసెంబర్ 15 వరకు",
+    "సందేహాలకు బీఎల్ఓను లేదా 1950 నంబర్‌ను సంప్రదించవచ్చు",
+    "ముసాయిదా జాబితాలో 2,64,87,213 మంది ఓటర్లు"
+   ],
+   "why": "నోటీసు అందుకున్న ఓటర్లు తుది జాబితాలో తమ పేరు ఉందో లేదో చూసుకోవాలి.",
+   "next": "తుది ఓటర్ల జాబితా డిసెంబర్ 22న",
+   "src": "The Siasat Daily",
+   "url": "https://www.siasat.com/telangana-sir-latecomers-get-clarity-rule-followers-left-in-limbo-3587273/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-26T14:24+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Voter rolls",
+    "stat": "32,100 cases pending",
+    "statl": "in Telangana voter roll revision",
+    "loc": "Telangana",
+    "h": "32,100 voter roll cases pending in Telangana",
+    "p": "In Telangana's special revision of voter rolls, over 2.63 crore names are cleared for the final roll and 58,772 electors were found ineligible. Another 32,100 cases are pending, 22,598 of them in Hyderabad. Voters who replied to notices have no online way to track their case, a Siasat report said.",
+    "pts": [
+     "Claims, objections and notices run until December 15",
+     "Voters can contact their BLO or call 1950",
+     "Draft roll had 2,64,87,213 electors"
+    ],
+    "why": "Voters who received notices should check that their name is in the final roll.",
+    "next": "Final voter roll on December 22"
+   },
+   "hi": {
+    "cat": "तेलंगाना · मतदाता सूची",
+    "stat": "32,100 मामले लंबित",
+    "statl": "तेलंगाना मतदाता सूची संशोधन में",
+    "loc": "तेलंगाना",
+    "h": "मतदाता सूची संशोधन में 32,100 मामले लंबित",
+    "p": "तेलंगाना में मतदाता सूची के विशेष संशोधन में 2.63 करोड़ से अधिक नाम अंतिम सूची के लिए तय हो गए हैं और 58,772 मतदाता अपात्र पाए गए। अब भी 32,100 मामले लंबित हैं, जिनमें 22,598 हैदराबाद के हैं। सियासत की रिपोर्ट के अनुसार नोटिस का जवाब देने वाले मतदाता अपना मामला ऑनलाइन नहीं देख सकते।",
+    "pts": [
+     "दावे, आपत्तियां और नोटिस 15 दिसंबर तक",
+     "मतदाता बीएलओ से या 1950 पर संपर्क कर सकते हैं",
+     "मसौदा सूची में 2,64,87,213 मतदाता थे"
+    ],
+    "why": "नोटिस पाने वाले मतदाता अंतिम सूची में अपना नाम जरूर देखें।",
+    "next": "अंतिम मतदाता सूची 22 दिसंबर को"
+   },
+   "d": "26.11.2026",
+   "t": "15:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · విద్య",
+   "col": "--c-city",
+   "art": "campus",
+   "pic": "e/university-graduation",
+   "stat": "225 మందికి డిగ్రీలు",
+   "statl": "నైపర్ వేడుకలో",
+   "h": "నైపర్ హైదరాబాద్ స్నాతకోత్సవం శుక్రవారం",
+   "p": "హైదరాబాద్ బాలానగర్‌లోని నైపర్ (జాతీయ ఔషధ విద్య, పరిశోధన సంస్థ) 14వ స్నాతకోత్సవం శుక్రవారం జరగనుంది. 2024–26 బ్యాచ్‌కు చెందిన 225 మంది విద్యార్థులు డిగ్రీలు అందుకుంటారు. వీరిలో 15 మంది పీహెచ్‌డీ, 210 మంది మాస్టర్స్ విద్యార్థులు. చదువులో ప్రతిభ చూపిన 12 మందికి బంగారు పతకాలు ఇస్తారు.",
+   "pts": [
+    "కేంద్ర ఔషధ శాఖ సలహాదారు అవధేశ్ కుమార్ చౌదరి పాల్గొంటారు",
+    "డైరెక్టర్ శైలేంద్ర సరాఫ్ సంస్థ నివేదిక ఇస్తారు"
+   ],
+   "why": "ఔషధ రంగంలో చదువుతున్న తెలుగు విద్యార్థులకు ఇది ముఖ్యమైన వేడుక.",
+   "next": "స్నాతకోత్సవం శుక్రవారం బాలానగర్ క్యాంపస్‌లో",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/niper-hyderabad-convocation-today",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "బాలానగర్",
+   "pub": "2026-11-26T14:32+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Education",
+    "stat": "225 to get degrees",
+    "statl": "at NIPER Hyderabad convocation",
+    "loc": "Balanagar, Hyderabad",
+    "h": "NIPER Hyderabad convocation on Friday",
+    "p": "NIPER Hyderabad (National Institute of Pharmaceutical Education and Research) will hold its 14th convocation on Friday at its Balanagar campus. A total of 225 students of the 2024–26 batch will receive degrees: 15 PhD scholars and 210 Master's students. Twelve meritorious students will get gold medals.",
+    "pts": [
+     "Pharma department adviser Awadhesh Kumar Choudhary to take part",
+     "Director Shailendra Saraf will present the institute's report"
+    ],
+    "why": "It is a key event for students pursuing pharmaceutical studies.",
+    "next": "Convocation on Friday at the Balanagar campus"
+   },
+   "hi": {
+    "cat": "हैदराबाद · शिक्षा",
+    "stat": "225 को डिग्री",
+    "statl": "नाइपर हैदराबाद दीक्षांत समारोह में",
+    "loc": "बालानगर, हैदराबाद",
+    "h": "नाइपर हैदराबाद का दीक्षांत समारोह शुक्रवार को",
+    "p": "नाइपर हैदराबाद (राष्ट्रीय औषधीय शिक्षा एवं अनुसंधान संस्थान) का 14वां दीक्षांत समारोह शुक्रवार को बालानगर परिसर में होगा। 2024–26 बैच के 225 छात्रों को डिग्री मिलेगी, जिनमें 15 पीएचडी और 210 मास्टर्स के छात्र हैं। 12 मेधावी छात्रों को स्वर्ण पदक दिए जाएंगे।",
+    "pts": [
+     "औषध विभाग के सलाहकार अवधेश कुमार चौधरी शामिल होंगे",
+     "निदेशक शैलेंद्र सराफ संस्थान की रिपोर्ट पेश करेंगे"
+    ],
+    "why": "औषध क्षेत्र में पढ़ने वाले छात्रों के लिए यह अहम आयोजन है।",
+    "next": "दीक्षांत समारोह शुक्रवार को बालानगर परिसर में"
+   },
+   "d": "26.11.2026",
+   "t": "15:05"
+  },
+  {
+   "cat": "తెలంగాణ · రాజ్యాంగ దినోత్సవం",
+   "col": "--c-gov",
+   "art": "unity",
+   "pic": "e/party-brs",
+   "stat": "రాజ్యాంగ దినోత్సవం",
+   "statl": "కేటీఆర్ నివాళి",
+   "h": "ఆర్టికల్ 3 వల్లే తెలంగాణ: కేటీఆర్",
+   "p": "రాజ్యాంగ దినోత్సవం సందర్భంగా బీఆర్ఎస్ వర్కింగ్ ప్రెసిడెంట్ కేటీఆర్ గురువారం ఒక ప్రకటనలో డాక్టర్ బీఆర్ అంబేడ్కర్‌కు, రాజ్యాంగ సభ సభ్యులకు నివాళి అర్పించారు. కొత్త రాష్ట్రాల ఏర్పాటుకు వీలు కల్పించే ఆర్టికల్ 3 వల్లే తెలంగాణ ఏర్పడిందని అన్నారు. న్యాయం, స్వేచ్ఛ, సమానత్వం, సోదరభావాలకు రాజ్యాంగం పునాది అని పేర్కొన్నారు.",
+   "pts": [
+    "పదవిలో ఉన్నవారు సంస్థలను బలపరచాలని అన్నారు",
+    "పాలనలో పౌరుల గౌరవమే ముఖ్యమని పేర్కొన్నారు"
+   ],
+   "why": "తెలంగాణ ఏర్పాటుకు రాజ్యాంగం ఇచ్చిన ఆధారాన్ని ఈ ప్రకటన గుర్తు చేస్తోంది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/telangana-owes-existence-to-br-ambedkar-ktr",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-26T14:41+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Constitution Day",
+    "stat": "Constitution Day",
+    "statl": "KTR pays tribute to Ambedkar",
+    "loc": "Hyderabad",
+    "h": "Telangana exists due to Article 3: KTR",
+    "p": "On Constitution Day, BRS working president K.T. Rama Rao paid tribute in a statement on Thursday to Dr B.R. Ambedkar and the members of the Constituent Assembly. He said Telangana was formed because of Article 3, which allows new states to be created, and called the Constitution the foundation of justice, liberty, equality and fraternity.",
+    "pts": [
+     "He said those in office must strengthen institutions",
+     "Citizens' dignity must be central to governance, he said"
+    ],
+    "why": "The statement recalls the constitutional basis for Telangana's formation."
+   },
+   "hi": {
+    "cat": "तेलंगाना · संविधान दिवस",
+    "stat": "संविधान दिवस",
+    "statl": "केटीआर ने आंबेडकर को श्रद्धांजलि दी",
+    "loc": "हैदराबाद",
+    "h": "अनुच्छेद 3 से ही तेलंगाना बना: केटीआर",
+    "p": "संविधान दिवस पर बीआरएस के कार्यकारी अध्यक्ष के.टी. रामा राव ने गुरुवार को एक बयान में डॉ. बी.आर. आंबेडकर और संविधान सभा के सदस्यों को श्रद्धांजलि दी। उन्होंने कहा कि नए राज्यों के गठन की अनुमति देने वाले अनुच्छेद 3 के कारण ही तेलंगाना बना। उन्होंने संविधान को न्याय, स्वतंत्रता, समानता और बंधुत्व की नींव बताया।",
+    "pts": [
+     "उन्होंने कहा, पद पर बैठे लोग संस्थाओं को मजबूत करें",
+     "शासन में नागरिकों की गरिमा सबसे अहम बताई"
+    ],
+    "why": "यह बयान तेलंगाना के गठन के संवैधानिक आधार की याद दिलाता है।"
+   },
+   "d": "26.11.2026",
+   "t": "15:05"
+  },
+  {
+   "cat": "తెలంగాణ · వనపర్తి",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "logo",
+   "stat": "హెచ్చరిక బోర్డు",
+   "statl": "వనపర్తిలో",
+   "h": "వనపర్తిలో పిలవని అతిథులకు హెచ్చరిక",
+   "p": "వనపర్తి జిల్లాలో ఒక ఫంక్షన్ హాల్ నిర్వాహకులు పిలవకుండా వేడుకలకు వచ్చి భోజనం చేసేవారిపై హెచ్చరిక బోర్డు పెట్టారు. ఆహ్వానం లేకుండా వస్తే చట్టప్రకారం చర్యలు తీసుకుంటామని అందులో రాశారు. బీఎన్ఎస్ సెక్షన్ 329 కింద మూడు నెలల వరకు జైలు, ₹5,000 వరకు జరిమానా పడే అవకాశం ఉందని పేర్కొన్నారు.",
+   "pts": [
+    "పిలవని వారి వల్ల భోజనం సరిపోవడం లేదని నిర్వాహకులు",
+    "గతంలో ఇతర ప్రాంతాల్లోనూ ఇలాంటి బోర్డులు పెట్టారు"
+   ],
+   "why": "పెళ్లిళ్లు, విందులకు ఆహ్వానం లేకుండా వెళ్లేవారు ఇది గమనించాలి.",
+   "src": "NTV Telugu",
+   "url": "https://ntvtelugu.com/news/wanaparthy-function-hall-warning-uninvited-wedding-guests-bns-329-1039038.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "wanaparthy",
+   "loc": "",
+   "pub": "2026-11-26T14:20+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Wanaparthy",
+    "stat": "Warning board",
+    "statl": "at a Wanaparthy function hall",
+    "loc": "Wanaparthy",
+    "h": "Wanaparthy hall warns uninvited guests",
+    "p": "A function hall management in Wanaparthy district has put up a board warning people who come to celebrations uninvited and eat there. It says legal action will be taken against those who come without an invitation, and that under BNS Section 329 they could face up to three months in jail and a fine of up to ₹5,000.",
+    "pts": [
+     "Management says hosts run short of food due to uninvited guests",
+     "Similar boards came up in other places earlier"
+    ],
+    "why": "People who attend weddings and feasts without an invitation should take note."
+   },
+   "hi": {
+    "cat": "तेलंगाना · वनपर्ती",
+    "stat": "चेतावनी बोर्ड",
+    "statl": "वनपर्ती के फंक्शन हॉल पर",
+    "loc": "वनपर्ती",
+    "h": "वनपर्ती में बिन बुलाए मेहमानों को चेतावनी",
+    "p": "वनपर्ती जिले में एक फंक्शन हॉल के प्रबंधन ने बिना बुलाए समारोहों में आकर खाना खाने वालों के लिए चेतावनी बोर्ड लगाया है। इसमें लिखा है कि बिना निमंत्रण आने पर कानूनी कार्रवाई होगी और बीएनएस की धारा 329 के तहत तीन महीने तक की जेल और ₹5,000 तक जुर्माना हो सकता है।",
+    "pts": [
+     "प्रबंधन के अनुसार बिन बुलाए लोगों से खाना कम पड़ जाता है",
+     "पहले दूसरी जगहों पर भी ऐसे बोर्ड लगे थे"
+    ],
+    "why": "शादियों और दावतों में बिना निमंत्रण जाने वाले इस पर ध्यान दें।"
+   },
+   "d": "26.11.2026",
+   "t": "15:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · రవాణా",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/hyderabad-metro-commute",
+   "stat": "ప్రజా రవాణా 28 శాతమే",
+   "statl": "హైదరాబాద్‌లో",
+   "h": "హైదరాబాద్‌లో ప్రజా రవాణా వాటా 28 శాతమే",
+   "p": "హైదరాబాద్‌లో ప్రజా రవాణా వాటా ఒకప్పుడు 40 శాతానికి పైగా ఉండేదని, ఇప్పుడు సుమారు 28 శాతానికి తగ్గిందని లండన్ రవాణా సంస్థ (టీఎఫ్ఎల్) సాంకేతిక అధికారి శశి వర్మ అన్నారు. బుధవారం మెట్రో రైల్ భవన్‌లో జరిగిన సమావేశంలో మాట్లాడారు. దీన్ని ముందు 40 శాతానికి, తర్వాత 60 శాతానికి పైగా పెంచాలని సూచించారు.",
+   "pts": [
+    "మెట్రోతో పాటు బస్సులు, ఫుట్‌పాత్‌లు పెంచాలని సూచన",
+    "ఫ్లైఓవర్లు, రోడ్ల వెడల్పు మాత్రమే సరిపోవని వ్యాఖ్య",
+    "లండన్‌లో 14 రవాణా సంస్థలను ఒకే సంస్థగా కలిపారు"
+   ],
+   "why": "బస్సు, మెట్రో వాడకం పెరిగితే హైదరాబాద్ ట్రాఫిక్ ఇబ్బందులు తగ్గుతాయని ఆయన అభిప్రాయం.",
+   "src": "NewsMeter",
+   "url": "https://newsmeter.in/hyderabad/hyderabad-public-transport-usage-dips-to-28-london-tfl-cto-wants-60-push-780027",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pub": "2026-11-26T08:29+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Hyderabad · Transport",
+    "stat": "Public transport only 28%",
+    "statl": "of Hyderabad trips",
+    "loc": "Hyderabad",
+    "h": "Public transport share in Hyderabad at 28%",
+    "p": "Public transport's share in Hyderabad was once above 40% and has fallen to about 28%, said Shashi Verma, Chief Technology Officer of Transport for London (TfL). Speaking at a session at Metro Rail Bhavan on Wednesday, he said it should first be raised back to 40% and then beyond 60%.",
+    "pts": [
+     "He urged more buses and footpaths along with Metro",
+     "Flyovers and road widening alone are not enough, he said",
+     "London merged 14 transport bodies into one authority"
+    ],
+    "why": "He says more bus and Metro use would ease Hyderabad's traffic problems."
+   },
+   "hi": {
+    "cat": "हैदराबाद · परिवहन",
+    "stat": "सार्वजनिक परिवहन सिर्फ 28%",
+    "statl": "हैदराबाद की यात्राओं में",
+    "loc": "हैदराबाद",
+    "h": "हैदराबाद में सार्वजनिक परिवहन का हिस्सा 28%",
+    "p": "ट्रांसपोर्ट फॉर लंदन (टीएफएल) के मुख्य प्रौद्योगिकी अधिकारी शशि वर्मा ने कहा कि हैदराबाद में सार्वजनिक परिवहन का हिस्सा कभी 40% से ऊपर था, जो अब करीब 28% रह गया है। बुधवार को मेट्रो रेल भवन में एक बैठक में उन्होंने कहा कि इसे पहले 40% और फिर 60% से ऊपर ले जाना चाहिए।",
+    "pts": [
+     "मेट्रो के साथ बसें और फुटपाथ बढ़ाने का सुझाव",
+     "कहा, सिर्फ फ्लाईओवर और सड़क चौड़ीकरण काफी नहीं",
+     "लंदन में 14 परिवहन संस्थाओं को एक किया गया"
+    ],
+    "why": "उनके अनुसार बस और मेट्रो का उपयोग बढ़ने से हैदराबाद का ट्रैफिक घटेगा।"
+   },
+   "d": "26.11.2026",
+   "t": "15:05"
+  },
+  {
+   "cat": "ఏపీ · పింఛన్లు",
+   "col": "--c-gov",
+   "art": "deadline",
+   "pic": "e/pension-distribution",
+   "stat": "నవంబర్ 30, డిసెంబర్ 1న",
+   "statl": "ఏపీ పింఛన్లు",
+   "h": "ఏపీలో పింఛన్లు నవంబర్ 30, డిసెంబర్ 1న",
+   "p": "ఆంధ్రప్రదేశ్‌లో ఎన్టీఆర్ భరోసా పింఛన్ల పంపిణీ తేదీల్లో మార్పు వచ్చింది. సచివాలయ సిబ్బంది ఎన్నికల విధుల్లో లేని చోట నవంబర్ 30న పింఛన్లు ఇస్తారు. సిబ్బంది ఎన్నికల పనిలో ఉన్న ప్రాంతాల్లో డిసెంబర్ 1న ఇస్తారు. పంచాయతీ ఎన్నికలు, మున్సిపల్ ఓట్ల లెక్కింపు కారణంగా ప్రభుత్వం ఈ ఉత్తర్వులు ఇచ్చిందని వన్‌ఇండియా తెలుగు కథనం తెలిపింది.",
+   "pts": [
+    "నవంబర్ 30న అందని వారికి డిసెంబర్ 1న పింఛన్",
+    "సిబ్బంది నవంబర్ 30నే బ్యాంకు నుంచి నగదు తీసుకోవచ్చు"
+   ],
+   "why": "ఏపీలో పింఛన్ తీసుకునేవారు తమ ప్రాంతంలో ఏ రోజు ఇస్తారో తెలుసుకోవాలి.",
+   "next": "పింఛన్ల పంపిణీ నవంబర్ 30, డిసెంబర్ 1న",
+   "src": "Oneindia Telugu",
+   "url": "https://telugu.oneindia.com/news/andhra-pradesh/ntr-bharosa-pension-important-update-for-beneficiaries-as-december-distribution-dates-change-516537.html",
+   "sec": [
+    "telangana",
+    "india"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pub": "2026-11-26T14:34+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Pensions",
+    "stat": "November 30, December 1",
+    "statl": "AP pension distribution",
+    "loc": "Andhra Pradesh",
+    "h": "AP pensions on November 30, December 1",
+    "p": "The dates for NTR Bharosa pension distribution in Andhra Pradesh have changed. Pensions will be paid on November 30 where Secretariat staff are not on election duty, and on December 1 where staff are on election work. The government issued the order because of the panchayat elections and municipal vote counting, Oneindia Telugu reported.",
+    "pts": [
+     "Those not paid on November 30 will get it on December 1",
+     "Staff may withdraw cash from banks on November 30"
+    ],
+    "why": "Pensioners in AP should find out which day payment is made in their area.",
+    "next": "Pension distribution on November 30 and December 1"
+   },
+   "hi": {
+    "cat": "आंध्र · पेंशन",
+    "stat": "30 नवंबर, 1 दिसंबर को",
+    "statl": "आंध्र में पेंशन वितरण",
+    "loc": "आंध्र प्रदेश",
+    "h": "आंध्र में पेंशन 30 नवंबर, 1 दिसंबर को",
+    "p": "आंध्र प्रदेश में एनटीआर भरोसा पेंशन वितरण की तारीखें बदली हैं। जहां सचिवालय कर्मचारी चुनाव ड्यूटी पर नहीं हैं, वहां 30 नवंबर को पेंशन मिलेगी, और जहां कर्मचारी चुनाव कार्य में हैं, वहां 1 दिसंबर को। वनइंडिया तेलुगु के अनुसार पंचायत चुनाव और नगर निकाय मतगणना के कारण सरकार ने यह आदेश दिया।",
+    "pts": [
+     "30 नवंबर को न मिलने पर 1 दिसंबर को पेंशन",
+     "कर्मचारी 30 नवंबर को ही बैंक से नकदी निकाल सकते हैं"
+    ],
+    "why": "आंध्र के पेंशनधारक जान लें कि उनके इलाके में किस दिन पेंशन मिलेगी।",
+    "next": "पेंशन वितरण 30 नवंबर और 1 दिसंबर को"
+   },
+   "d": "26.11.2026",
+   "t": "15:05"
+  },
+  {
+   "cat": "ఏపీ · పంచాయతీ ఎన్నికలు",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/ballot-paper-vote",
+   "stat": "ఉద్రిక్తత",
+   "statl": "కేసరపల్లి బూత్ వద్ద",
+   "h": "కేసరపల్లి పోలింగ్ కేంద్రం వద్ద ఉద్రిక్తత",
+   "p": "కృష్ణా జిల్లా గన్నవరం మండలం కేసరపల్లి పోలింగ్ కేంద్రం బయట గురువారం కాసేపు ఉద్రిక్తత నెలకొంది. పంచాయతీ ఎన్నికల తొలి విడత పోలింగ్ సమయంలో టీడీపీ మద్దతుదారులకు, పార్టీ రెబల్ వర్గానికి మధ్య వాగ్వాదం జరిగిందని ఏఎన్ఐ తెలిపింది. దీంతో ఓటర్లు, కార్యకర్తల్లో కొంత గందరగోళం ఏర్పడింది. మిగతా చోట్ల పోలింగ్ సజావుగా సాగిందని అధికారులు చెప్పారు.",
+   "pts": [
+    "తొలి విడతలో 3,240 పంచాయతీల్లో పోలింగ్ జరిగింది",
+    "ప్రకాశం ఎస్పీ పలు పోలింగ్ కేంద్రాలను పరిశీలించారు"
+   ],
+   "why": "కృష్ణా జిల్లా గ్రామాల్లో ఓటర్లకు పోలింగ్ కేంద్రాల వద్ద భద్రత ముఖ్యం.",
+   "next": "తర్వాతి విడతల పోలింగ్ నవంబర్ 29, డిసెంబర్ 2న",
+   "src": "Deccan Chronicle (ANI)",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/gram-panchayat-polls-tension-erupts-outside-polling-booth-in-keserapalli-2008138",
+   "sec": [
+    "telangana",
+    "india"
+   ],
+   "st": "AP",
+   "place": "ap-krishna",
+   "loc": "కేసరపల్లి",
+   "pub": "2026-11-26T14:39+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "AP · Panchayat polls",
+    "stat": "Brief tension",
+    "statl": "at Keserapalli polling station",
+    "loc": "Keserapalli, Krishna",
+    "h": "Tension outside Keserapalli polling booth",
+    "p": "There was brief tension on Thursday outside the Keserapalli polling station in Gannavaram mandal, Krishna district. ANI reported an altercation between TDP supporters and party rebels during first-phase panchayat polling, causing some commotion among voters and workers. Officials said polling elsewhere was orderly.",
+    "pts": [
+     "First phase covered 3,240 gram panchayats",
+     "Prakasam SP inspected several polling stations"
+    ],
+    "why": "Security at polling stations matters to voters in Krishna district villages.",
+    "next": "Next polling phases on November 29 and December 2"
+   },
+   "hi": {
+    "cat": "आंध्र · पंचायत चुनाव",
+    "stat": "कुछ देर तनाव",
+    "statl": "केसरपल्ली मतदान केंद्र पर",
+    "loc": "केसरपल्ली, कृष्णा",
+    "h": "केसरपल्ली मतदान केंद्र के बाहर तनाव",
+    "p": "कृष्णा जिले के गन्नवरम मंडल के केसरपल्ली मतदान केंद्र के बाहर गुरुवार को कुछ देर तनाव रहा। एएनआई के अनुसार पंचायत चुनाव के पहले चरण के मतदान के दौरान टीडीपी समर्थकों और पार्टी के बागियों के बीच कहासुनी हुई, जिससे मतदाताओं और कार्यकर्ताओं में कुछ अफरा-तफरी मची। अधिकारियों ने कहा कि बाकी जगह मतदान शांतिपूर्ण रहा।",
+    "pts": [
+     "पहले चरण में 3,240 ग्राम पंचायतों में मतदान हुआ",
+     "प्रकाशम एसपी ने कई मतदान केंद्रों का निरीक्षण किया"
+    ],
+    "why": "कृष्णा जिले के गांवों में मतदाताओं के लिए मतदान केंद्रों की सुरक्षा अहम है।",
+    "next": "अगले चरणों का मतदान 29 नवंबर और 2 दिसंबर को"
+   },
+   "d": "26.11.2026",
+   "t": "15:05"
+  },
+  {
+   "cat": "భారత్ · టెక్నాలజీ",
+   "col": "--c-gov",
+   "art": "economy",
+   "pic": "e/artificial-intelligence",
+   "stat": "చారియట్-1",
+   "statl": "దేశీయ ఏఐ మోడళ్లు విడుదల",
+   "h": "దేశీయ ఏఐ మోడళ్లు ‘చారియట్-1’ విడుదల",
+   "p": "ఇండియా ఏఐ మిషన్ కింద దేశంలోనే తయారైన ‘చారియట్-1’ ఏఐ మోడళ్లను కేంద్ర ఐటీ శాఖ కార్యదర్శి ఎస్. కృష్ణన్ న్యూఢిల్లీలో విడుదల చేశారు. వీటిని చారియట్ ఆర్టిఫిషియల్ ఇంటెలిజెన్స్ సంస్థ తయారు చేసింది. ఇందులో భాషా మోడల్, మాటను పలికించే మోడల్ ఉన్నాయి. మాట మోడల్ తెలుగుతో సహా 10 భారతీయ భాషలు, ఇంగ్లిష్‌లో పనిచేస్తుంది.",
+   "pts": [
+    "12 భారతీయ లిపులకు ఒకే అక్షరమాల ‘ఇండిక్‌షిఫ్ట్’ వాడారు",
+    "ఫోన్ల నుంచి డేటా సెంటర్ల వరకు పనిచేసేలా రూపొందించారు"
+   ],
+   "why": "తెలుగు సహా భారతీయ భాషల్లో ఏఐ సేవలు మెరుగుపడేందుకు ఇది తోడ్పడుతుంది.",
+   "src": "Telangana Today (IANS)",
+   "url": "https://telanganatoday.com/govt-launches-indigenous-chariot-1-ai-foundation-models",
+   "sec": [
+    "india",
+    "ai"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "న్యూఢిల్లీ",
+   "pub": "2026-11-26T13:07+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Technology",
+    "stat": "Chariot-1",
+    "statl": "India-built AI models launched",
+    "loc": "New Delhi",
+    "h": "Indigenous Chariot-1 AI models launched",
+    "p": "The Chariot-1 AI models, built in India under the IndiaAI Mission, were launched in New Delhi by IT Secretary S. Krishnan. They were developed by Chariot Artificial Intelligence. The suite has a language model and a text-to-speech model; the speech model works in English and 10 Indian languages including Telugu.",
+    "pts": [
+     "Uses IndicShift, a shared alphabet for 12 Indian scripts",
+     "Designed to run from phones to data centres"
+    ],
+    "why": "It can help improve AI services in Indian languages including Telugu."
+   },
+   "hi": {
+    "cat": "भारत · तकनीक",
+    "stat": "चैरियट-1",
+    "statl": "देश में बने एआई मॉडल लॉन्च",
+    "loc": "नई दिल्ली",
+    "h": "स्वदेशी एआई मॉडल ‘चैरियट-1’ लॉन्च",
+    "p": "इंडियाएआई मिशन के तहत देश में बने ‘चैरियट-1’ एआई मॉडल नई दिल्ली में आईटी सचिव एस. कृष्णन ने लॉन्च किए। इन्हें चैरियट आर्टिफिशियल इंटेलिजेंस ने तैयार किया है। इसमें एक भाषा मॉडल और एक टेक्स्ट-टू-स्पीच मॉडल है; स्पीच मॉडल अंग्रेजी और तेलुगु समेत 10 भारतीय भाषाओं में काम करता है।",
+    "pts": [
+     "12 भारतीय लिपियों के लिए साझा वर्णमाला ‘इंडिकशिफ्ट’ का उपयोग",
+     "फोन से डेटा सेंटर तक चलने लायक बनाया गया"
+    ],
+    "why": "इससे तेलुगु समेत भारतीय भाषाओं में एआई सेवाएं बेहतर हो सकती हैं।"
+   },
+   "d": "26.11.2026",
+   "t": "15:05"
+  },
+  {
+   "cat": "భారత్ · మహారాష్ట్ర",
+   "col": "--c-gov",
+   "art": "unity",
+   "pic": "logo",
+   "stat": "శరద్ పవార్",
+   "statl": "ముంబై ఆసుపత్రిలో",
+   "h": "శరద్ పవార్ ముంబై ఆసుపత్రిలో చేరారు",
+   "p": "ఎన్సీపీ (ఎస్పీ) అధినేత శరద్ పవార్ (85) గురువారం దక్షిణ ముంబైలోని బ్రీచ్ క్యాండీ ఆసుపత్రిలో చేరారు. ఒంట్లో నీటి శాతం తగ్గినట్లు కనిపిస్తోందని ఆయన కుమార్తె, ఎంపీ సుప్రియా సూలే సామాజిక మాధ్యమంలో తెలిపారు. ఆయన ప్రయాణాలు తగ్గించుకోవాలని అన్నారు. ఇటీవలే ఆయన ఛాతీ, శ్వాస సంబంధిత ఇన్ఫెక్షన్‌తో ఆసుపత్రిలో చికిత్స పొందారు.",
+   "pts": [
+    "పార్టీ సమావేశం మధ్యలోనే సుప్రియా సూలే ఆసుపత్రికి వెళ్లారు"
+   ],
+   "why": "దేశ రాజకీయాల్లో సీనియర్ నేత ఆరోగ్యంపై అందరి దృష్టి ఉంది.",
+   "src": "ThePrint (PTI)",
+   "url": "https://theprint.in/india/sharad-pawar-admitted-to-hospital-in-south-mumbai/3109569/",
+   "sec": [
+    "india"
+   ],
+   "st": "MH",
+   "place": "st-MH",
+   "loc": "ముంబై",
+   "pub": "2026-11-26T13:45+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Maharashtra",
+    "stat": "Sharad Pawar",
+    "statl": "in Mumbai hospital",
+    "loc": "Mumbai",
+    "h": "Sharad Pawar admitted to Mumbai hospital",
+    "p": "NCP (SP) chief Sharad Pawar, 85, was admitted to Breach Candy hospital in south Mumbai on Thursday. His daughter and MP Supriya Sule said on social media that it looks like dehydration and that he needs to travel less. He was recently in hospital for a chest and respiratory infection.",
+    "pts": [
+     "Supriya Sule left a party meeting midway to be with him"
+    ],
+    "why": "The health of a senior national leader is being widely watched."
+   },
+   "hi": {
+    "cat": "भारत · महाराष्ट्र",
+    "stat": "शरद पवार",
+    "statl": "मुंबई के अस्पताल में",
+    "loc": "मुंबई",
+    "h": "शरद पवार मुंबई के अस्पताल में भर्ती",
+    "p": "एनसीपी (एसपी) प्रमुख शरद पवार (85) गुरुवार को दक्षिण मुंबई के ब्रीच कैंडी अस्पताल में भर्ती हुए। उनकी बेटी और सांसद सुप्रिया सुले ने सोशल मीडिया पर बताया कि यह शरीर में पानी की कमी लगती है और उन्हें यात्राएं कम करनी चाहिए। हाल ही में वे छाती और सांस के संक्रमण के कारण अस्पताल में थे।",
+    "pts": [
+     "सुप्रिया सुले पार्टी बैठक बीच में छोड़कर अस्पताल गईं"
+    ],
+    "why": "देश के वरिष्ठ नेता की सेहत पर सबकी नजर है।"
+   },
+   "d": "26.11.2026",
+   "t": "15:05"
+  },
   {
    "cat": "ఏపీ · పంచాయతీ ఎన్నికలు",
    "col": "--c-election",
