@@ -1,0 +1,179 @@
+{
+ "note": "India Regions PREVIEW (26 Nov 2026). Newspapers, TV channels and official sources per region. Used by /in-regions/ (Papers & channels sheet) and later by a collector. RSS feeds are NOT checked yet: when we build the collector, run a feed check (like tools/ng/collect_ng.py --check) and use Google News India searches for any site that blocks us. Summaries in our own words + source link only; no copied text or photos.",
+ "regions": [
+  {
+   "key": "up", "name": "Uttar Pradesh", "hi": "उत्तर प्रदेश", "langs": ["Hindi", "English", "Urdu"],
+   "papers": [
+    {"name": "Dainik Jagran", "lang": "Hindi", "url": "https://www.jagran.com/state/uttar-pradesh"},
+    {"name": "Amar Ujala", "lang": "Hindi", "url": "https://www.amarujala.com/uttar-pradesh"},
+    {"name": "Hindustan (Live Hindustan)", "lang": "Hindi", "url": "https://www.livehindustan.com/uttar-pradesh"},
+    {"name": "Navbharat Times – Lucknow", "lang": "Hindi", "url": "https://navbharattimes.indiatimes.com/state/uttar-pradesh"},
+    {"name": "Times of India – Lucknow", "lang": "English", "url": "https://timesofindia.indiatimes.com/city/lucknow"},
+    {"name": "Hindustan Times – Lucknow", "lang": "English", "url": "https://www.hindustantimes.com/cities/lucknow-news"},
+    {"name": "The Pioneer – Lucknow", "lang": "English", "url": "https://www.dailypioneer.com/state-editions/lucknow.html"},
+    {"name": "Inquilab", "lang": "Urdu", "url": "https://www.inquilab.com/"}
+   ],
+   "channels": [
+    {"name": "Bharat Samachar", "lang": "Hindi", "url": "https://www.bharatsamachartv.in/"},
+    {"name": "News18 UP Uttarakhand", "lang": "Hindi", "url": "https://hindi.news18.com/news/uttar-pradesh/"},
+    {"name": "Zee Uttar Pradesh Uttarakhand", "lang": "Hindi", "url": "https://zeenews.india.com/hindi/india/up-uttarakhand"},
+    {"name": "ABP Ganga", "lang": "Hindi", "url": "https://www.abplive.com/states/up-uk"},
+    {"name": "DD Uttar Pradesh", "lang": "Hindi", "url": "https://ddnews.gov.in/"}
+   ],
+   "official": [
+    {"name": "UP CM Office", "url": "https://upcmo.up.nic.in/"},
+    {"name": "UP Police", "url": "https://uppolice.gov.in/"},
+    {"name": "IMD Lucknow", "url": "https://mausam.imd.gov.in/lucknow/"}
+   ],
+   "google_news": "Uttar Pradesh OR Lucknow OR Kanpur OR Varanasi OR Prayagraj OR Noida OR Ghaziabad OR Agra"
+  },
+  {
+   "key": "delhi", "name": "Delhi", "hi": "दिल्ली", "langs": ["Hindi", "English", "Punjabi", "Urdu"],
+   "papers": [
+    {"name": "Hindustan Times – Delhi", "lang": "English", "url": "https://www.hindustantimes.com/cities/delhi-news"},
+    {"name": "Times of India – Delhi", "lang": "English", "url": "https://timesofindia.indiatimes.com/city/delhi"},
+    {"name": "The Indian Express – Delhi", "lang": "English", "url": "https://indianexpress.com/section/cities/delhi/"},
+    {"name": "The Hindu – Delhi", "lang": "English", "url": "https://www.thehindu.com/news/cities/Delhi/"},
+    {"name": "The Statesman", "lang": "English", "url": "https://www.thestatesman.com/cities/delhi"},
+    {"name": "Navbharat Times", "lang": "Hindi", "url": "https://navbharattimes.indiatimes.com/metro/delhi"},
+    {"name": "Dainik Jagran – Delhi", "lang": "Hindi", "url": "https://www.jagran.com/delhi/new-delhi-city-news-hindi.html"},
+    {"name": "Punjab Kesari – Delhi", "lang": "Hindi", "url": "https://www.punjabkesari.in/national"}
+   ],
+   "channels": [
+    {"name": "NDTV", "lang": "English / Hindi", "url": "https://www.ndtv.com/delhi-news"},
+    {"name": "Aaj Tak", "lang": "Hindi", "url": "https://www.aajtak.in/india/delhi"},
+    {"name": "India Today", "lang": "English", "url": "https://www.indiatoday.in/cities/delhi"},
+    {"name": "Zee News", "lang": "Hindi", "url": "https://zeenews.india.com/hindi/india/delhi-ncr-haryana"},
+    {"name": "ABP News", "lang": "Hindi", "url": "https://www.abplive.com/states/delhi-ncr"},
+    {"name": "DD News", "lang": "Hindi / English", "url": "https://ddnews.gov.in/"}
+   ],
+   "official": [
+    {"name": "Delhi Government", "url": "https://delhi.gov.in/"},
+    {"name": "Delhi Traffic Police", "url": "https://traffic.delhipolice.gov.in/"},
+    {"name": "CPCB air quality", "url": "https://airquality.cpcb.gov.in/"},
+    {"name": "DMRC (Delhi Metro)", "url": "https://www.delhimetrorail.com/"}
+   ],
+   "google_news": "Delhi OR \"New Delhi\" OR DMRC OR MCD OR \"Delhi AQI\""
+  },
+  {
+   "key": "mumbai", "name": "Mumbai", "hi": "मुंबई", "langs": ["Marathi", "English", "Hindi", "Gujarati"],
+   "papers": [
+    {"name": "Mid-day", "lang": "English", "url": "https://www.mid-day.com/mumbai"},
+    {"name": "Free Press Journal", "lang": "English", "url": "https://www.freepressjournal.in/mumbai"},
+    {"name": "Mumbai Mirror", "lang": "English", "url": "https://mumbaimirror.indiatimes.com/"},
+    {"name": "Times of India – Mumbai", "lang": "English", "url": "https://timesofindia.indiatimes.com/city/mumbai"},
+    {"name": "Hindustan Times – Mumbai", "lang": "English", "url": "https://www.hindustantimes.com/cities/mumbai-news"},
+    {"name": "The Indian Express – Mumbai", "lang": "English", "url": "https://indianexpress.com/section/cities/mumbai/"},
+    {"name": "Loksatta", "lang": "Marathi", "url": "https://www.loksatta.com/mumbai/"},
+    {"name": "Maharashtra Times", "lang": "Marathi", "url": "https://maharashtratimes.com/maharashtra/mumbai-news"},
+    {"name": "Navbharat Times – Mumbai", "lang": "Hindi", "url": "https://navbharattimes.indiatimes.com/metro/mumbai"}
+   ],
+   "channels": [
+    {"name": "ABP Majha", "lang": "Marathi", "url": "https://marathi.abplive.com/news/mumbai"},
+    {"name": "TV9 Marathi", "lang": "Marathi", "url": "https://www.tv9marathi.com/mumbai"},
+    {"name": "Zee 24 Taas", "lang": "Marathi", "url": "https://zeenews.india.com/marathi/mumbai"},
+    {"name": "News18 Lokmat", "lang": "Marathi", "url": "https://news18marathi.com/mumbai/"},
+    {"name": "Saam TV", "lang": "Marathi", "url": "https://www.saamtv.com/mumbai"}
+   ],
+   "official": [
+    {"name": "BMC", "url": "https://portal.mcgm.gov.in/"},
+    {"name": "Mumbai Police", "url": "https://mumbaipolice.gov.in/"},
+    {"name": "Central Railway", "url": "https://cr.indianrailways.gov.in/"},
+    {"name": "Western Railway", "url": "https://wr.indianrailways.gov.in/"},
+    {"name": "IMD Mumbai", "url": "https://mausam.imd.gov.in/mumbai/"}
+   ],
+   "google_news": "Mumbai OR BMC OR \"Mumbai local\" OR Thane OR \"Navi Mumbai\""
+  },
+  {
+   "key": "maharashtra", "name": "Maharashtra", "hi": "महाराष्ट्र", "langs": ["Marathi", "English", "Hindi"],
+   "papers": [
+    {"name": "Lokmat", "lang": "Marathi", "url": "https://www.lokmat.com/maharashtra/"},
+    {"name": "Sakal", "lang": "Marathi", "url": "https://www.esakal.com/maharashtra"},
+    {"name": "Loksatta", "lang": "Marathi", "url": "https://www.loksatta.com/maharashtra/"},
+    {"name": "Pudhari", "lang": "Marathi", "url": "https://pudhari.news/maharashtra"},
+    {"name": "Maharashtra Times", "lang": "Marathi", "url": "https://maharashtratimes.com/maharashtra"},
+    {"name": "Divya Marathi", "lang": "Marathi", "url": "https://divyamarathi.bhaskar.com/"},
+    {"name": "Lokmat Times (Nagpur / Sambhajinagar)", "lang": "English", "url": "https://www.lokmattimes.com/maharashtra/"},
+    {"name": "Pune Mirror", "lang": "English", "url": "https://punemirror.com/"},
+    {"name": "The Hitavada (Nagpur)", "lang": "English", "url": "https://www.thehitavada.com/"}
+   ],
+   "channels": [
+    {"name": "ABP Majha", "lang": "Marathi", "url": "https://marathi.abplive.com/news/maharashtra"},
+    {"name": "TV9 Marathi", "lang": "Marathi", "url": "https://www.tv9marathi.com/maharashtra"},
+    {"name": "Zee 24 Taas", "lang": "Marathi", "url": "https://zeenews.india.com/marathi/maharashtra"},
+    {"name": "News18 Lokmat", "lang": "Marathi", "url": "https://news18marathi.com/maharashtra/"},
+    {"name": "Saam TV", "lang": "Marathi", "url": "https://www.saamtv.com/maharashtra"},
+    {"name": "DD Sahyadri", "lang": "Marathi", "url": "https://ddnews.gov.in/"}
+   ],
+   "official": [
+    {"name": "CMO Maharashtra", "url": "https://cmo.maharashtra.gov.in/"},
+    {"name": "DGIPR Maharashtra (Mahasamvad)", "url": "https://mahasamvad.in/"},
+    {"name": "Maharashtra Police", "url": "https://mahapolice.gov.in/"}
+   ],
+   "google_news": "Maharashtra OR Pune OR Nagpur OR Nashik OR \"Chhatrapati Sambhajinagar\" OR Kolhapur OR Solapur"
+  },
+  {
+   "key": "chennai", "name": "Chennai", "hi": "சென்னை", "langs": ["Tamil", "English"],
+   "papers": [
+    {"name": "The Hindu – Chennai", "lang": "English", "url": "https://www.thehindu.com/news/cities/chennai/"},
+    {"name": "DT Next", "lang": "English", "url": "https://www.dtnext.in/news/chennai"},
+    {"name": "The New Indian Express – Chennai", "lang": "English", "url": "https://www.newindianexpress.com/cities/chennai"},
+    {"name": "Times of India – Chennai", "lang": "English", "url": "https://timesofindia.indiatimes.com/city/chennai"},
+    {"name": "Daily Thanthi", "lang": "Tamil", "url": "https://www.dailythanthi.com/news/state"},
+    {"name": "Dinamalar", "lang": "Tamil", "url": "https://www.dinamalar.com/"},
+    {"name": "Dinakaran", "lang": "Tamil", "url": "https://www.dinakaran.com/"},
+    {"name": "Dinamani", "lang": "Tamil", "url": "https://www.dinamani.com/"},
+    {"name": "Hindu Tamil Thisai", "lang": "Tamil", "url": "https://www.hindutamil.in/"}
+   ],
+   "channels": [
+    {"name": "Sun News", "lang": "Tamil", "url": "https://www.sunnews.in/"},
+    {"name": "Puthiya Thalaimurai", "lang": "Tamil", "url": "https://www.puthiyathalaimurai.com/"},
+    {"name": "Thanthi TV", "lang": "Tamil", "url": "https://www.thanthitv.com/"},
+    {"name": "Polimer News", "lang": "Tamil", "url": "https://www.polimernews.com/"},
+    {"name": "News7 Tamil", "lang": "Tamil", "url": "https://news7tamil.live/"},
+    {"name": "News18 Tamil Nadu", "lang": "Tamil", "url": "https://tamil.news18.com/"},
+    {"name": "DD Tamil (Podhigai)", "lang": "Tamil", "url": "https://ddnews.gov.in/"}
+   ],
+   "official": [
+    {"name": "Tamil Nadu Government", "url": "https://www.tn.gov.in/"},
+    {"name": "Greater Chennai Corporation", "url": "https://chennaicorporation.gov.in/"},
+    {"name": "Chennai Metro Rail", "url": "https://chennaimetrorail.org/"},
+    {"name": "IMD Chennai (RMC)", "url": "https://mausam.imd.gov.in/chennai/"}
+   ],
+   "google_news": "Chennai OR \"Tamil Nadu\" OR GCC OR \"Chennai Metro\""
+  },
+  {
+   "key": "odisha", "name": "Odisha", "hi": "ଓଡ଼ିଶା", "langs": ["Odia", "English"],
+   "papers": [
+    {"name": "Sambad", "lang": "Odia", "url": "https://sambad.in/"},
+    {"name": "Dharitri", "lang": "Odia", "url": "https://www.dharitri.com/"},
+    {"name": "The Samaja", "lang": "Odia", "url": "https://thesamaja.in/"},
+    {"name": "Prameya", "lang": "Odia", "url": "https://www.prameyanews.com/"},
+    {"name": "Pragativadi", "lang": "Odia / English", "url": "https://pragativadi.com/"},
+    {"name": "Orissa POST", "lang": "English", "url": "https://www.orissapost.com/"},
+    {"name": "The New Indian Express – Odisha", "lang": "English", "url": "https://www.newindianexpress.com/states/odisha"},
+    {"name": "Times of India – Bhubaneswar", "lang": "English", "url": "https://timesofindia.indiatimes.com/city/bhubaneswar"}
+   ],
+   "channels": [
+    {"name": "OTV (Odisha TV)", "lang": "Odia", "url": "https://odishatv.in/"},
+    {"name": "Kanak News", "lang": "Odia", "url": "https://kanaknews.com/"},
+    {"name": "Kalinga TV", "lang": "Odia", "url": "https://kalingatv.com/"},
+    {"name": "News7 Odia (Prameya)", "lang": "Odia", "url": "https://www.prameyanews.com/"},
+    {"name": "Nandighosha TV", "lang": "Odia", "url": "https://nandighoshatv.com/"},
+    {"name": "Zee Odisha", "lang": "Odia", "url": "https://zeenews.india.com/odia"},
+    {"name": "DD Odia", "lang": "Odia", "url": "https://ddnews.gov.in/"}
+   ],
+   "digital": [
+    {"name": "OdishaBytes", "lang": "English", "url": "https://odishabytes.com/"},
+    {"name": "OMMCOM News", "lang": "English", "url": "https://ommcomnews.com/"},
+    {"name": "Odisharay", "lang": "English", "url": "https://odisharay.com/"}
+   ],
+   "official": [
+    {"name": "Odisha CMO", "url": "https://cm.odisha.gov.in/"},
+    {"name": "Odisha Police", "url": "https://odishapolice.gov.in/"},
+    {"name": "IMD Bhubaneswar", "url": "https://mausam.imd.gov.in/bhubaneswar/"}
+   ],
+   "google_news": "Odisha OR Bhubaneswar OR Cuttack OR Puri OR Rourkela OR Sambalpur"
+  }
+ ]
+}
