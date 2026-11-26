@@ -1,8 +1,284 @@
 {
  "date": "26.11.2026",
- "updated": "2026-11-26T17:41:29+05:30",
+ "updated": "2026-11-26T18:10:50+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "హైదరాబాద్ · ట్రాఫిక్",
+   "col": "--c-city",
+   "art": "",
+   "pic": "e/traffic-congestion",
+   "stat": "82% మంది",
+   "statl": "సొంత వాహనాల్లోనే ఆఫీసుకు",
+   "h": "సైబరాబాద్‌లో 82% మందికి సొంత వాహనాలే",
+   "p": "సైబరాబాద్‌లో ఉద్యోగానికి వెళ్లేవారిలో 82 శాతం మంది సొంత వాహనాలే వాడుతున్నారని, ప్రజా రవాణా వాడేవారు 2 శాతమేనని డీజీపీ సీవీ ఆనంద్ చెప్పారు. హైదరాబాద్ టీ-హబ్‌లో గురువారం సైబరాబాద్ మూవ్స్ సమ్మిట్ ప్రారంభ సభలో ఆయన మాట్లాడారు. కేబీఆర్ పార్క్ చుట్టూ వన్‌వే, బస్సులకు ప్రత్యేక లేన్లు, రోడ్ల విస్తరణ గురించి ఆలోచిస్తున్నామని తెలిపారు.",
+   "pts": [
+    "సమ్మిట్ మూడు రోజులు జరుగుతుంది",
+    "కంపెనీలు ఆఫీసు వేళలు వేర్వేరుగా పెట్టాలని సూచన"
+   ],
+   "why": "ఐటీ కారిడార్‌కు రోజూ వెళ్లే ఉద్యోగుల ప్రయాణంపై ఈ మార్పులు ప్రభావం చూపుతాయి.",
+   "src": "NewsMeter",
+   "url": "https://newsmeter.in/hyderabad/82-drive-just-2-use-public-transport-dgp-anand-flags-cyberabad-traffic-crisis-780052",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "టీ-హబ్",
+   "pub": "2026-11-26T15:58+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Traffic",
+    "stat": "82%",
+    "statl": "commute to work in own vehicles",
+    "loc": "T-Hub, Hyderabad",
+    "h": "82% in Cyberabad use own vehicles: DGP",
+    "p": "Telangana DGP CV Anand said about 82% of commuters in Cyberabad travel to work in private vehicles and only 2% use public transport. He was speaking on Thursday at the opening of the Cyberabad Moves Summit at T-Hub, Hyderabad. One-way loops around KBR Park, special bus lanes and road widening are being considered, he said.",
+    "pts": [
+     "The summit runs for three days",
+     "Companies urged to stagger office timings"
+    ],
+    "why": "The changes would affect the daily commute of employees travelling to the IT corridor."
+   },
+   "hi": {
+    "cat": "हैदराबाद · ट्रैफ़िक",
+    "stat": "82% लोग",
+    "statl": "अपने वाहन से दफ़्तर जाते हैं",
+    "loc": "टी-हब, हैदराबाद",
+    "h": "साइबराबाद में 82% अपने वाहन से: डीजीपी",
+    "p": "तेलंगाना के डीजीपी सीवी आनंद ने कहा कि साइबराबाद में काम पर जाने वालों में क़रीब 82% निजी वाहन इस्तेमाल करते हैं और सिर्फ़ 2% सार्वजनिक परिवहन। वे गुरुवार को हैदराबाद के टी-हब में साइबराबाद मूव्स समिट के उद्घाटन में बोल रहे थे। केबीआर पार्क के आसपास वन-वे, बसों के लिए अलग लेन और सड़क चौड़ी करने पर विचार हो रहा है।",
+    "pts": [
+     "समिट तीन दिन चलेगा",
+     "कंपनियों से दफ़्तर का समय अलग-अलग रखने की अपील"
+    ],
+    "why": "इन बदलावों का असर आईटी कॉरिडोर रोज़ जाने वाले कर्मचारियों के सफ़र पर पड़ेगा।"
+   },
+   "d": "26.11.2026",
+   "t": "18:05"
+  },
+  {
+   "cat": "తెలంగాణ · సైబర్ భద్రత",
+   "col": "--c-city",
+   "art": "",
+   "pic": "e/cyber-fraud-complaint",
+   "stat": "ప్రభుత్వ సైట్",
+   "statl": "హ్యాక్ అయినట్లు సమాచారం",
+   "h": "భూగర్భ జలాల సైట్ హ్యాక్ అయినట్లు సమాచారం",
+   "p": "తెలంగాణ భూగర్భ జలాల నియంత్రణ, నిర్వహణ వ్యవస్థ వెబ్‌సైట్ గురువారం హ్యాక్ అయినట్లు సియాసత్ డైలీ తెలిపింది. గూగుల్‌లో వెతికితే సైట్ పేరుకు బదులు పెద్దలకు మాత్రమే ఉద్దేశించిన వేరే సైట్ పేరు కనిపిస్తోందని పేర్కొంది. లింక్ నొక్కితే 18 ఏళ్లు నిండినవారికే అనే హెచ్చరిక వస్తోంది. సాయంత్రం 5.20 వరకు సైట్ సరికాలేదు. అధికారులు స్పందించలేదు.",
+   "pts": [
+    "లింక్ వేరే డొమైన్‌కు వెళ్తోందని కథనం",
+    "ఆ డొమైన్ సుమారు ఎనిమిది నెలల కిందట ఏర్పడింది"
+   ],
+   "why": "ఈ ప్రభుత్వ సైట్ వాడే రైతులు, ప్రజలు తప్పు లింకులకు వెళ్లే ప్రమాదం ఉంది.",
+   "src": "The Siasat Daily",
+   "url": "https://www.siasat.com/telangana-groundwater-site-plumbs-new-depths-shows-up-as-onlyfans-3587584/",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-26T17:24+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Cyber security",
+    "stat": "Govt website",
+    "statl": "reportedly hacked",
+    "loc": "Telangana",
+    "h": "Telangana groundwater site reportedly hacked",
+    "p": "The website of the Telangana State Ground Water Regulation and Management System was reportedly hacked on Thursday, The Siasat Daily reported. A Google search shows the name of an adults-only site instead of the website's name, it said, and the link opens an 18+ warning. The site had not been restored by 5.20 pm. Officials had not commented.",
+    "pts": [
+     "Report says the link leads to a different domain",
+     "That domain was created about eight months ago"
+    ],
+    "why": "Farmers and others who use this government site risk landing on the wrong links."
+   },
+   "hi": {
+    "cat": "तेलंगाना · साइबर सुरक्षा",
+    "stat": "सरकारी वेबसाइट",
+    "statl": "हैक होने की ख़बर",
+    "loc": "तेलंगाना",
+    "h": "तेलंगाना भूजल वेबसाइट हैक होने की ख़बर",
+    "p": "द सियासत डेली के मुताबिक़ तेलंगाना राज्य भूजल नियमन और प्रबंधन प्रणाली की वेबसाइट गुरुवार को कथित तौर पर हैक हो गई। गूगल पर खोजने पर साइट के नाम की जगह केवल वयस्कों वाली एक दूसरी साइट का नाम दिखता है और लिंक खोलने पर 18+ की चेतावनी आती है। शाम 5.20 बजे तक साइट ठीक नहीं हुई थी। अधिकारियों ने कोई टिप्पणी नहीं की।",
+    "pts": [
+     "रिपोर्ट के अनुसार लिंक किसी दूसरे डोमेन पर जाता है",
+     "वह डोमेन क़रीब आठ महीने पहले बना"
+    ],
+    "why": "इस सरकारी साइट का इस्तेमाल करने वाले किसान और लोग ग़लत लिंक पर पहुँच सकते हैं।"
+   },
+   "d": "26.11.2026",
+   "t": "18:05"
+  },
+  {
+   "cat": "భారత్ · వాణిజ్యం",
+   "col": "--c-money",
+   "art": "",
+   "pic": "e/imports-and-exports",
+   "stat": "17% సుంకంతో",
+   "statl": "పెద్ద లాభం ఉండదని అంచనా",
+   "h": "17% సుంకంతో లాభం తక్కువే: ఎగుమతిదారులు",
+   "p": "అమెరికాతో వాణిజ్య ఒప్పందం కుదిరి భారత్‌కు 17 శాతం సుంకం వచ్చినా, ఆగ్నేయాసియా దేశాల కంటే ఒక శాతమే మెరుగని ఎగుమతిదారుల సమాఖ్య డైరెక్టర్ జనరల్ అజయ్ సహాయ్ గురువారం ఏఎన్‌ఐతో అన్నారు. భారత దిగుమతులపై 25 శాతం వరకు సుంకం వేయాలని అమెరికా ప్రతిపాదించింది. చర్చలకు రెండు నెలల సమయం ఉందని, ఎగుమతిదారులు కంగారు పడొద్దని చెప్పారు.",
+   "pts": [
+    "25% సుంకమైతే ఎగుమతిదారులపై సుమారు 8% భారం",
+    "వస్త్ర, తోలు ఎగుమతులపై వెంటనే ప్రభావం ఉండదు",
+    "వియత్నాంకు ఇంకా తక్కువ సుంకం రావచ్చని అంచనా"
+   ],
+   "why": "అమెరికాకు సరుకులు పంపే సంస్థలు, వాటిలో పనిచేసే కార్మికులపై సుంకాల ప్రభావం ఉంటుంది.",
+   "src": "ANI (The Tribune)",
+   "url": "https://www.tribuneindia.com/news/ajay-sahai/even-17-tariff-under-india-us-trade-deal-may-offer-little-competitive-advantage-to-indian-exporters-fieo",
+   "sec": [
+    "india",
+    "business"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-26T17:23+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "India · Trade",
+    "stat": "17% tariff",
+    "statl": "may give little edge, say exporters",
+    "loc": "New Delhi",
+    "h": "17% US tariff gives little edge: exporters",
+    "p": "Even if India gets a 17% tariff under a trade deal with the US, it would be only one percentage point better than South-East Asian countries, FIEO director general Ajay Sahai told ANI on Thursday. The US has proposed tariffs of up to 25% on Indian imports. He said there is a two-month window for talks and exporters should not panic.",
+    "pts": [
+     "A 25% tariff would add about 8% burden on exporters",
+     "Textile and leather exports not hit immediately",
+     "Vietnam could get an even lower rate, he said"
+    ],
+    "why": "Tariffs affect firms that ship goods to the US and the workers they employ."
+   },
+   "hi": {
+    "cat": "भारत · व्यापार",
+    "stat": "17% शुल्क",
+    "statl": "से ख़ास फ़ायदा नहीं: निर्यातक",
+    "loc": "नई दिल्ली",
+    "h": "17% शुल्क से ख़ास फ़ायदा नहीं: निर्यातक",
+    "p": "निर्यातक संगठन फ़ियो के महानिदेशक अजय सहाय ने गुरुवार को एएनआई से कहा कि अमेरिका से व्यापार समझौते में भारत को 17% शुल्क मिले तो भी यह दक्षिण-पूर्व एशियाई देशों से सिर्फ़ एक प्रतिशत बेहतर होगा। अमेरिका ने भारतीय आयात पर 25% तक शुल्क का प्रस्ताव रखा है। उन्होंने कहा कि बातचीत के लिए दो महीने हैं और निर्यातक घबराएँ नहीं।",
+    "pts": [
+     "25% शुल्क पर निर्यातकों पर क़रीब 8% बोझ",
+     "कपड़ा और चमड़ा निर्यात पर तुरंत असर नहीं",
+     "वियतनाम को और कम दर मिल सकती है"
+    ],
+    "why": "शुल्क का असर अमेरिका को माल भेजने वाली कंपनियों और उनके कामगारों पर पड़ता है।"
+   },
+   "d": "26.11.2026",
+   "t": "18:05"
+  },
+  {
+   "cat": "ప్రపంచం · ఉద్యోగాలు",
+   "col": "--c-city",
+   "art": "",
+   "pic": "n/namerica",
+   "stat": "హెచ్-1బీ స్పాన్సర్‌షిప్ బంద్",
+   "statl": "ఐబీఎంలో",
+   "h": "ఐబీఎం హెచ్-1బీ స్పాన్సర్‌షిప్ ఆపేసింది",
+   "p": "అమెరికాలో తన అతిపెద్ద విభాగమైన ఐబీఎం కన్సల్టింగ్‌లో చాలా ఉద్యోగాలకు హెచ్-1బీ వీసా, గ్రీన్ కార్డ్ స్పాన్సర్‌షిప్ ఆపేస్తున్నట్లు ఐబీఎం తెలిపిందని ఐఏఎన్ఎస్ పేర్కొంది. ఉద్యోగులు వేరే దేశానికి మారాలి లేదా 2026 చివరికల్లా సంస్థను వదలాలి. నిర్ణయానికి మూడు వారాల గడువు ఇచ్చారని మీడియా కథనాలు చెబుతున్నాయి. వేలాది భారతీయులపై ప్రభావం పడవచ్చు.",
+   "pts": [
+    "ఐబీఎం కన్సల్టింగ్‌లో 1.5 లక్షల మందికి పైగా ఉద్యోగులు",
+    "ఎంతమందిపై ప్రభావమో సంస్థ చెప్పలేదు",
+    "వెళ్లనివారికి మూడు నెలల జీతం ఇస్తారని కథనాలు"
+   ],
+   "why": "అమెరికాలో పనిచేసే భారతీయ ఐటీ ఉద్యోగులు, వారి కుటుంబాలపై ఈ నిర్ణయం ప్రభావం చూపవచ్చు.",
+   "src": "IANS (Social News XYZ)",
+   "url": "https://www.socialnews.xyz/2026/11/26/ibm-ends-h-1b-visa-green-card-sponsorship-for-most-consulting-roles-employees-asked-to-relocate-or-exit",
+   "sec": [
+    "world",
+    "jobs"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "",
+   "pub": "2026-11-26T16:50+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "World · Jobs",
+    "stat": "H-1B sponsorship ends",
+    "statl": "in IBM Consulting",
+    "loc": "United States",
+    "h": "IBM ends H-1B sponsorship in consulting",
+    "p": "IBM said it will stop sponsoring H-1B visas and green cards for most roles in IBM Consulting, its largest division, IANS reported. Affected employees must relocate overseas or leave the company by the end of 2026. Media reports say they have three weeks to decide. Thousands of Indian professionals could be affected.",
+    "pts": [
+     "IBM Consulting has over 150,000 people globally",
+     "IBM has not said how many are affected",
+     "Reports: three months' severance for those who do not move"
+    ],
+    "why": "The decision could affect Indian IT employees working in the US and their families."
+   },
+   "hi": {
+    "cat": "दुनिया · नौकरियाँ",
+    "stat": "एच-1बी स्पॉन्सरशिप बंद",
+    "statl": "आईबीएम कंसल्टिंग में",
+    "loc": "अमेरिका",
+    "h": "आईबीएम ने एच-1बी स्पॉन्सरशिप बंद की",
+    "p": "आईएएनएस के अनुसार आईबीएम ने कहा है कि वह अपने सबसे बड़े विभाग आईबीएम कंसल्टिंग के ज़्यादातर पदों के लिए एच-1बी वीज़ा और ग्रीन कार्ड स्पॉन्सर करना बंद करेगी। कर्मचारियों को दूसरे देश जाना होगा या 2026 के अंत तक कंपनी छोड़नी होगी। मीडिया रिपोर्टों के मुताबिक़ फ़ैसले के लिए तीन हफ़्ते दिए गए हैं। हज़ारों भारतीयों पर असर पड़ सकता है।",
+    "pts": [
+     "आईबीएम कंसल्टिंग में दुनिया भर में 1.5 लाख से ज़्यादा लोग",
+     "कितने लोग प्रभावित, कंपनी ने नहीं बताया",
+     "रिपोर्ट: न जाने वालों को तीन महीने का वेतन"
+    ],
+    "why": "इस फ़ैसले का असर अमेरिका में काम करने वाले भारतीय आईटी कर्मचारियों और उनके परिवारों पर पड़ सकता है।"
+   },
+   "d": "26.11.2026",
+   "t": "18:05"
+  },
+  {
+   "cat": "ప్రపంచం · థాయిలాండ్",
+   "col": "--c-city",
+   "art": "",
+   "pic": "n/asia",
+   "stat": "7 మందికి గాయాలు",
+   "statl": "బ్యాంకాక్ పేలుడులో",
+   "h": "బ్యాంకాక్‌లో పేలుడు, 7 మందికి గాయాలు",
+   "p": "థాయిలాండ్ రాజధాని బ్యాంకాక్‌లో బ్యాంగ్‌చాక్ సంస్థ చమురు శుద్ధి, నిల్వ కేంద్రంలో గురువారం మధ్యాహ్నం సుమారు 3 గంటలకు పెద్ద పేలుడు జరిగి మంటలు చెలరేగాయి. కనీసం ఏడుగురు గాయపడ్డారని, వారిలో నలుగురి పరిస్థితి విషమంగా ఉందని ఏపీ వార్తా సంస్థ తెలిపింది. సమీప ప్రజలను ఖాళీ చేయించారు. గంటలోపే మంటలు ఆర్పేశారని నగర యంత్రాంగం చెప్పింది.",
+   "pts": [
+    "కారణంపై దర్యాప్తు జరుగుతోందన్న బ్యాంగ్‌చాక్",
+    "రిఫైనరీ సామర్థ్యం రోజుకు 1.20 లక్షల బ్యారెళ్లు",
+    "2012లోనూ ఇక్కడ పేలుడు జరిగింది"
+   ],
+   "why": "బ్యాంకాక్‌లో ఉండే, అక్కడికి వెళ్లే భారతీయులు ఈ ప్రమాదం గురించి తెలుసుకోవాలి.",
+   "src": "ITV News (AP)",
+   "url": "https://www.itv.com/news/2026-11-26/at-least-7-injured-by-explosion-and-fire-at-bangkok-oil-facility",
+   "sec": [
+    "world"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "బ్యాంకాక్",
+   "pub": "2026-11-26T13:44+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "World · Thailand",
+    "stat": "7 injured",
+    "statl": "in Bangkok refinery blast",
+    "loc": "Bangkok",
+    "h": "Bangkok refinery blast injures at least 7",
+    "p": "A large explosion and fire hit Bangchak Corp's oil refinery and storage facility in Bangkok, Thailand, at about 3 pm local time on Thursday. At least seven people were injured, four of them critically, the AP news agency reported. Nearby residents were evacuated. The city authority said the fire was put out in under an hour.",
+    "pts": [
+     "Bangchak says the cause is being investigated",
+     "Refinery capacity is 120,000 barrels a day",
+     "The same refinery had a blast in 2012"
+    ],
+    "why": "Indians living in or travelling to Bangkok should know about the accident."
+   },
+   "hi": {
+    "cat": "दुनिया · थाईलैंड",
+    "stat": "7 घायल",
+    "statl": "बैंकॉक रिफ़ाइनरी धमाके में",
+    "loc": "बैंकॉक",
+    "h": "बैंकॉक रिफ़ाइनरी में धमाका, 7 घायल",
+    "p": "थाईलैंड की राजधानी बैंकॉक में बैंगचाक कंपनी की तेल रिफ़ाइनरी और भंडारण केंद्र में गुरुवार दोपहर क़रीब 3 बजे (स्थानीय समय) बड़ा धमाका हुआ और आग लग गई। एपी समाचार एजेंसी के अनुसार कम से कम सात लोग घायल हुए, जिनमें चार की हालत गंभीर है। आसपास के लोगों को हटाया गया। नगर प्रशासन ने कहा कि आग एक घंटे के भीतर बुझा दी गई।",
+    "pts": [
+     "बैंगचाक: कारण की जाँच जारी",
+     "रिफ़ाइनरी की क्षमता रोज़ 1.20 लाख बैरल",
+     "2012 में भी यहाँ धमाका हुआ था"
+    ],
+    "why": "बैंकॉक में रहने या वहाँ जाने वाले भारतीयों को इस हादसे की जानकारी होनी चाहिए।"
+   },
+   "d": "26.11.2026",
+   "t": "18:05"
+  },
   {
    "cat": "నిర్మల్ · నేరాలు",
    "col": "--c-city",
@@ -3046,288 +3322,6 @@
    },
    "d": "26.11.2026",
    "t": "13:35"
-  },
-  {
-   "cat": "హైదరాబాద్ · వినియోగదారుల కమిషన్",
-   "col": "--c-money",
-   "art": "",
-   "pic": "e/consumer-complaint",
-   "stat": "₹70 వేలు",
-   "statl": "చెల్లించాలని ఆదేశం",
-   "h": "ఎయిరిండియా ఎక్స్‌ప్రెస్‌కు జరిమానా",
-   "p": "హైదరాబాద్–ఫుకెట్ నేరుగా వెళ్లే విమానం రద్దు చేసి, అనుమతి లేకుండా బెంగళూరు మీదుగా మార్చినందుకు సికింద్రాబాద్ కుటుంబానికి ఎయిర్ ఇండియా ఎక్స్‌ప్రెస్ ₹70 వేలు చెల్లించాలని హైదరాబాద్ జిల్లా వినియోగదారుల కమిషన్-1 ఆదేశించింది. తిరుగు ప్రయాణంలో కుటుంబం బెంగళూరులో 11 గంటలు ఎదురుచూసింది. సేవలో లోపం ఉందని కమిషన్ తేల్చింది. ఆ కుటుంబం జూలైలో ఫిర్యాదు చేసింది.",
-   "pts": [
-    "₹60 వేలు పరిహారం, ₹10 వేలు కేసు ఖర్చులు",
-    "నలుగురి టికెట్లకు ₹1,16,477 చెల్లించారు"
-   ],
-   "why": "విమానం రద్దు, మార్పులతో నష్టపోయే ప్రయాణికులు కమిషన్‌ను ఆశ్రయించవచ్చని ఇది చూపుతుంది.",
-   "src": "NewsMeter",
-   "url": "https://newsmeter.in/hyderabad/cancelled-flight-11-hour-wait-air-india-express-ruins-hyderabad-familys-thailand-trip-fined-70k-780042",
-   "sec": [
-    "telangana",
-    "business"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "సికింద్రాబాద్",
-   "pub": "2026-11-26T13:03+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Hyderabad · Consumer Commission",
-    "stat": "₹70,000",
-    "statl": "to be paid to family",
-    "loc": "Secunderabad",
-    "h": "Air India Express told to pay ₹70,000",
-    "p": "Hyderabad District Consumer Commission-I ordered Air India Express to pay ₹70,000 to a Secunderabad family after it cancelled their direct Hyderabad–Phuket flight and moved them via Bengaluru without consent. On the return trip, the family waited about 11 hours at Bengaluru airport.",
-    "pts": [
-     "₹60,000 compensation and ₹10,000 costs",
-     "Tickets for four cost ₹1,16,477"
-    ],
-    "why": "It shows passengers hit by cancellations and changes can approach consumer commissions."
-   },
-   "hi": {
-    "cat": "हैदराबाद · उपभोक्ता आयोग",
-    "stat": "₹70,000",
-    "statl": "परिवार को देने का आदेश",
-    "loc": "सिकंदराबाद",
-    "h": "एयर इंडिया एक्सप्रेस पर ₹70,000 का दंड",
-    "p": "हैदराबाद जिला उपभोक्ता आयोग-1 ने एयर इंडिया एक्सप्रेस को सिकंदराबाद के एक परिवार को ₹70,000 देने का आदेश दिया। एयरलाइन ने हैदराबाद–फुकेट सीधी उड़ान रद्द कर बिना सहमति बेंगलुरु होकर भेजा। वापसी में परिवार को बेंगलुरु हवाई अड्डे पर करीब 11 घंटे इंतजार करना पड़ा।",
-    "pts": [
-     "₹60,000 मुआवजा और ₹10,000 खर्च",
-     "चार लोगों के टिकट ₹1,16,477 के थे"
-    ],
-    "why": "इससे पता चलता है कि उड़ान रद्द होने पर यात्री उपभोक्ता आयोग जा सकते हैं।"
-   },
-   "d": "26.11.2026",
-   "t": "13:35"
-  },
-  {
-   "cat": "ఆలేరు · అభివృద్ధి",
-   "col": "--c-gov",
-   "art": "",
-   "pic": "e/civil-construction",
-   "stat": "రూ.15 కోట్లు",
-   "statl": "రేపు శంకుస్థాపన",
-   "h": "ఆలేరులో రూ.15 కోట్ల పనులకు శంకుస్థాపన",
-   "p": "ఆలేరు పట్టణంలో టీయూఎఫ్ఐడీసీ నిధులు రూ.15 కోట్లతో మున్సిపాలిటీ భవనం, వివిధ వార్డుల్లో సీసీ రోడ్లు, సీసీ డ్రైనేజీ పనులకు శుక్రవారం ఉదయం 10 గంటలకు శంకుస్థాపన జరగనుంది. మంత్రులు కోమటిరెడ్డి వెంకటరెడ్డి, అడ్లూరి లక్ష్మణ్, ప్రభుత్వ విప్ బీర్ల అయిలయ్య, ఎంపీ చామల కిరణ్ కుమార్ రెడ్డి హాజరవుతారని మున్సిపల్ చైర్‌పర్సన్ బీజన బాలమణి తెలిపారు.",
-   "src": "Swipe2News రిపోర్టర్ · ఆలేరు",
-   "url": "",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "yadadri",
-   "loc": "ఆలేరు పట్టణం",
-   "pts": [
-    "టీయూఎఫ్ఐడీసీ నిధులు రూ.15 కోట్లు",
-    "మున్సిపాలిటీ భవనం, సీసీ రోడ్లు, సీసీ డ్రైనేజీకి శంకుస్థాపన",
-    "శుక్రవారం (27 నవంబర్) ఉదయం 10 గంటలకు"
-   ],
-   "why": "ఆలేరు వార్డుల్లో కొత్త రోడ్లు, డ్రైనేజీ పనులు మొదలవుతాయి; మున్సిపల్ సేవలకు కొత్త భవనం వస్తుంది.",
-   "next": "శంకుస్థాపన 27 నవంబర్ ఉదయం 10 గంటలకు",
-   "en": {
-    "cat": "Aler · Development",
-    "stat": "₹15 crore",
-    "statl": "Foundation tomorrow",
-    "loc": "Aler town",
-    "h": "₹15 crore works in Aler: foundation tomorrow",
-    "p": "Foundation stones will be laid at 10 am on Friday in Aler town for a new municipal building and CC roads and CC drains in several wards, with ₹15 crore of TUFIDC funds. Ministers Komatireddy Venkat Reddy and Adluri Laxman, Government Whip Beerla Ilaiah and MP Chamala Kiran Kumar Reddy will attend, municipal chairperson Beejana Balamani said.",
-    "pts": [
-     "₹15 crore TUFIDC funds",
-     "Municipal building, CC roads and CC drains",
-     "Friday (27 Nov) at 10 am"
-    ],
-    "why": "Aler wards get new roads and drains; the municipality gets a new office building."
-   },
-   "hi": {
-    "cat": "आलेर · विकास",
-    "stat": "₹15 करोड़",
-    "statl": "कल शिलान्यास",
-    "loc": "आलेर शहर",
-    "h": "आलेर में ₹15 करोड़ के कामों का शिलान्यास",
-    "p": "आलेर शहर में टीयूएफआईडीसी के ₹15 करोड़ से नगरपालिका भवन और कई वार्डों में सीसी सड़कों व सीसी नालियों का शुक्रवार सुबह 10 बजे शिलान्यास होगा। मंत्री कोमटिरेड्डी वेंकट रेड्डी, अडलूरी लक्ष्मण, सरकारी व्हिप बीर्ला अयलय्या और सांसद चामला किरण कुमार रेड्डी शामिल होंगे, नगरपालिका अध्यक्ष बीजना बालमणि ने बताया।",
-    "pts": [
-     "टीयूएफआईडीसी से ₹15 करोड़",
-     "नगरपालिका भवन, सीसी सड़कें और नालियां",
-     "शुक्रवार (27 नवंबर) सुबह 10 बजे"
-    ],
-    "why": "आलेर के वार्डों में नई सड़कें और नालियां; नगरपालिका को नया भवन।"
-   },
-   "d": "26.11.2026",
-   "t": "13:05",
-   "pub": "2026-11-26T13:05+05:30",
-   "lbl": "fact",
-   "img": "photos/2026-11-26-aler-15cr-foundation.jpg",
-   "imgfy": 0.3,
-   "imgcr": "బాలమణి, భాస్కర్",
-   "local": true
-  },
-  {
-   "cat": "భారత్ · రాజ్యాంగ దినోత్సవం",
-   "col": "--c-gov",
-   "art": "",
-   "pic": "e/constitution-day",
-   "stat": "నవంబర్ 26",
-   "statl": "నేడు రాజ్యాంగ దినోత్సవం",
-   "h": "నేడు రాజ్యాంగ దినోత్సవం: శుభాకాంక్షలు",
-   "p": "1949 నవంబర్ 26న రాజ్యాంగ సభ భారత రాజ్యాంగాన్ని ఆమోదించింది. ఆ చారిత్రక రోజును గుర్తు చేసుకుంటూ దేశమంతా ఏటా ఈ రోజు రాజ్యాంగ దినోత్సవం జరుపుకుంటుంది. 1950 జనవరి 26న రాజ్యాంగం అమల్లోకి వచ్చింది. ముసాయిదా కమిటీ అధ్యక్షుడు డా. బి.ఆర్. అంబేద్కర్‌ను స్మరించుకుంటూ, పాఠకులందరికీ Swipe2News శుభాకాంక్షలు.",
-   "pts": [
-    "1949 నవంబర్ 26: రాజ్యాంగ సభ ఆమోదం",
-    "1950 జనవరి 26: రాజ్యాంగం అమల్లోకి",
-    "ముసాయిదా కమిటీ అధ్యక్షుడు: డా. బి.ఆర్. అంబేద్కర్"
-   ],
-   "why": "ప్రతి పౌరుడి హక్కులు, బాధ్యతలకు రాజ్యాంగమే ఆధారం.",
-   "src": "Swipe2News",
-   "url": "https://swipe2news.com/photos/2026-11-26-constitution-day-poster.jpg",
-   "doc": "/photos/2026-11-26-constitution-day-poster.jpg",
-   "docl": "రాజ్యాంగ దినోత్సవ పోస్టర్ · డౌన్‌లోడ్",
-   "sec": [
-    "india"
-   ],
-   "st": "IN",
-   "place": "IN",
-   "loc": "భారత్",
-   "pub": "2026-11-26T11:45+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "India · Constitution Day",
-    "stat": "November 26",
-    "statl": "Constitution Day today",
-    "loc": "India",
-    "docl": "Constitution Day poster · Download",
-    "h": "Happy Constitution Day",
-    "p": "The Constituent Assembly adopted the Constitution of India on November 26, 1949, and the day is marked every year as Constitution Day. Remembering Dr B.R. Ambedkar, who led its drafting, Swipe2News wishes all readers a happy Constitution Day.",
-    "pts": [
-     "26 Nov 1949: adopted by the Constituent Assembly",
-     "26 Jan 1950: came into force",
-     "Drafting Committee chairman: Dr B.R. Ambedkar"
-    ],
-    "why": "The Constitution is the basis of every citizen's rights and duties."
-   },
-   "hi": {
-    "cat": "भारत · संविधान दिवस",
-    "stat": "26 नवंबर",
-    "statl": "आज संविधान दिवस",
-    "loc": "भारत",
-    "docl": "संविधान दिवस पोस्टर · डाउनलोड",
-    "h": "संविधान दिवस की शुभकामनाएँ",
-    "p": "26 नवंबर 1949 को संविधान सभा ने भारत का संविधान अपनाया था, इसलिए हर साल यह दिन संविधान दिवस के रूप में मनाया जाता है। प्रारूप समिति के अध्यक्ष डॉ. बी.आर. आंबेडकर को याद करते हुए Swipe2News सभी पाठकों को शुभकामनाएँ देता है।",
-    "pts": [
-     "26 नवंबर 1949: संविधान सभा ने अपनाया",
-     "26 जनवरी 1950: लागू हुआ",
-     "प्रारूप समिति अध्यक्ष: डॉ. बी.आर. आंबेडकर"
-    ],
-    "why": "हर नागरिक के अधिकारों और कर्तव्यों का आधार संविधान है।"
-   },
-   "d": "26.11.2026",
-   "t": "11:45"
-  },
-  {
-   "cat": "ఏపీ · పంచాయతీ ఎన్నికలు",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "e/voting-day",
-   "stat": "53.86% పోలింగ్",
-   "statl": "ఏపీ పంచాయతీల్లో",
-   "h": "ఏపీ పంచాయతీల్లో 11 గంటలకు 53.86% పోలింగ్",
-   "p": "ఆంధ్రప్రదేశ్ తొలి విడత గ్రామ పంచాయతీ ఎన్నికల్లో ఉదయం 11 గంటల వరకు 53.86 శాతం పోలింగ్ నమోదైందని అధికారులు తెలిపారు. ఉదయం 9 గంటలకు ఇది 16.25 శాతమే. అల్లూరి సీతారామరాజు జిల్లాలో అత్యధికంగా 75.02 శాతం, వైఎస్సార్ కడప జిల్లాలో అత్యల్పంగా 20.22 శాతం మంది ఓటు వేశారు.",
-   "pts": [
-    "శ్రీ సత్యసాయి 67.70%, మార్కాపురం 64.02%, అనంతపురం 64.01%",
-    "ఎన్టీఆర్ జిల్లాలో 43.11%, విజయనగరంలో 43.73%"
-   ],
-   "why": "ఏపీ గ్రామాల్లో సర్పంచ్, వార్డు సభ్యులను ఎన్నుకుంటున్న ఓటర్లకు ఇది తాజా పోలింగ్ సమాచారం.",
-   "src": "Andhra Jyothy",
-   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/krishna/ap-gram-panchayat-polling-53-percent-11-am-suchi-1579983.html",
-   "sec": [
-    "telangana",
-    "india"
-   ],
-   "st": "AP",
-   "place": "AP",
-   "loc": "",
-   "pub": "2026-11-26T12:36+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Panchayat polls",
-    "stat": "53.86% turnout",
-    "statl": "in AP panchayat polls by 11 am",
-    "loc": "Andhra Pradesh",
-    "h": "AP panchayat polls: 53.86% turnout by 11 am",
-    "p": "Turnout in the first phase of Andhra Pradesh's gram panchayat elections reached 53.86 per cent by 11 am, officials said. At 9 am it was only 16.25 per cent. Alluri Sitarama Raju district recorded the highest turnout at 75.02 per cent, and YSR Kadapa the lowest at 20.22 per cent.",
-    "pts": [
-     "Sri Sathya Sai 67.70%, Markapuram 64.02%, Anantapur 64.01%",
-     "NTR district 43.11%, Vizianagaram 43.73%"
-    ],
-    "why": "It is the latest turnout update for AP villagers electing sarpanches and ward members."
-   },
-   "hi": {
-    "cat": "एपी · पंचायत चुनाव",
-    "stat": "53.86% मतदान",
-    "statl": "एपी पंचायत चुनाव में 11 बजे तक",
-    "loc": "आंध्र प्रदेश",
-    "h": "एपी पंचायत चुनाव: 11 बजे तक 53.86% मतदान",
-    "p": "आंध्र प्रदेश के पहले चरण के ग्राम पंचायत चुनाव में सुबह 11 बजे तक 53.86 प्रतिशत मतदान हुआ, अधिकारियों ने बताया। सुबह 9 बजे यह केवल 16.25 प्रतिशत था। अल्लूरी सीताराम राजू जिले में सबसे अधिक 75.02 प्रतिशत और वाईएसआर कडपा में सबसे कम 20.22 प्रतिशत मतदान हुआ।",
-    "pts": [
-     "श्री सत्य साई 67.70%, मार्कापुरम 64.02%, अनंतपुर 64.01%",
-     "एनटीआर जिले में 43.11%, विजयनगरम में 43.73%"
-    ],
-    "why": "सरपंच और वार्ड सदस्य चुन रहे एपी के ग्रामीण मतदाताओं के लिए यह ताज़ा मतदान जानकारी है।"
-   },
-   "d": "26.11.2026",
-   "t": "13:05"
-  },
-  {
-   "cat": "ఏపీ · నెల్లూరు",
-   "col": "--c-city",
-   "pic": "e/road-accident-response",
-   "stat": "దంపతులు మృతి",
-   "statl": "చెముడుగుంట వద్ద",
-   "h": "నెల్లూరులో కారు ప్రమాదం, దంపతులు మృతి",
-   "p": "నెల్లూరు జిల్లా వెంకటాచలం మండలం చెముడుగుంట వద్ద జాతీయ రహదారిపై గురువారం తెల్లవారుజామున 5 గంటల సమయంలో కారు ముందున్న లారీని ఢీకొట్టింది. కారులోని దంపతులు అక్కడికక్కడే మృతి చెందారు. వారి కుమారుడికి తీవ్ర గాయాలయ్యాయి. బెంగళూరు నుంచి ఓటు వేసేందుకు సొంతూరుకు వెళ్తుండగా ప్రమాదం జరిగింది. పోలీసులు కేసు నమోదు చేశారు.",
-   "pts": [
-    "మృతదేహాలను నెల్లూరు ప్రభుత్వ ఆసుపత్రికి తరలించారు",
-    "వెంకటాచలం పోలీసులు దర్యాప్తు చేస్తున్నారు"
-   ],
-   "why": "ఓటు కోసం దూర ప్రాంతాల నుంచి రాత్రి ప్రయాణాలు చేసే కుటుంబాలకు రహదారి భద్రత ఎంత ముఖ్యమో ఇది గుర్తుచేస్తుంది.",
-   "src": "Vaartha",
-   "url": "https://vaartha.com/crime/nellore-road-accident-couple-killed-in-road-accident/810421/",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-nellore",
-   "loc": "చెముడుగుంట, వెంకటాచలం మండలం",
-   "pub": "2026-11-26T12:28+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Nellore",
-    "stat": "Couple dead",
-    "statl": "near Chemudugunta",
-    "loc": "Chemudugunta, Venkatachalam mandal",
-    "h": "Nellore: car hits lorry, couple dead",
-    "p": "A car rammed a lorry ahead of it on the national highway near Chemudugunta in Venkatachalam mandal of Nellore district around 5 am on Thursday. A couple in the car died on the spot and their son was seriously injured. They were travelling from Bengaluru to their native village to vote. Police registered a case.",
-    "pts": [
-     "Bodies were shifted to Nellore government hospital",
-     "Venkatachalam police are investigating"
-    ],
-    "why": "It is a reminder of road safety for families travelling long distances overnight to vote."
-   },
-   "hi": {
-    "cat": "एपी · नेल्लोर",
-    "stat": "दंपति की मौत",
-    "statl": "चेमुडुगुंटा के पास",
-    "loc": "चेमुडुगुंटा, वेंकटाचलम मंडल",
-    "h": "नेल्लोर: कार लॉरी से टकराई, दंपति की मौत",
-    "p": "नेल्लोर जिले के वेंकटाचलम मंडल में चेमुडुगुंटा के पास राष्ट्रीय राजमार्ग पर गुरुवार सुबह करीब 5 बजे एक कार आगे चल रही लॉरी से टकरा गई। कार में सवार दंपति की मौके पर मौत हो गई और उनका बेटा गंभीर रूप से घायल हुआ। वे बेंगलुरु से वोट डालने अपने गाँव जा रहे थे। पुलिस ने मामला दर्ज किया।",
-    "pts": [
-     "शव नेल्लोर सरकारी अस्पताल भेजे गए",
-     "वेंकटाचलम पुलिस जाँच कर रही है"
-    ],
-    "why": "वोट के लिए रात में लंबी यात्रा करने वाले परिवारों के लिए यह सड़क सुरक्षा की याद दिलाता है।"
-   },
-   "d": "26.11.2026",
-   "t": "13:05",
-   "art": ""
   }
  ]
 }
