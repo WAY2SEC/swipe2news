@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-26T12:35:00+05:30",
+ "cutoff": "2026-11-26T13:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-23T14:05:00+05:30/2026-11-23T14:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 17,
-   "published": 11,
-   "late": 0,
-   "sensitive": 4,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Lookback from 06:05 on 23 Nov. Feeds 14:33 IST (70/70 ok); 162 uncovered events first seen since 13:35 scanned. add_repo tool not available; used existing clone. 4 fetch agents, 21 items, 11 published: NT Adilabad Prajavani farmer suicide attempt (14:09, sensitive, no name/method), Siasat Munugode youth killed in US body home (14:00, sensitive, no name), HMTV Dhone chairperson oath (14:07), ETV Pithapuram/Uyyuru/Dharmavaram vice-chair poll tension (14:16, sensitive, claim), ETV Annavaram giri pradakshina Nov 24 (14:11), NT PJTAU professor hunger strike vs VC (14:11, claim, no names), ETV MoES radars for Telugu states (13:52), DC Hyderabad anti-drug walk Nov 25-27 (14:30), TT NMC FMG draft rules (14:15), Hans Modi-Shah flag off Saryu-Kamala Express (14:18), Hans Delta outage 2,000 flights (14:12). Duplicates (already on app): Samayam Nandyal post to TDP, Vaartha TIMS surgeries, Siasat NH65 lorry fire, TT/TV9 Adilabad money-doubling. Skipped: Siasat Nagarkurnool bonded labour (published 19 Nov, TOI version not found); ETV rare-earth opinion piece (analysis, not news). Not opened/not found (left unseen): HMTV Gudur vice-chair poll postponed (server error), V6 Attapur demolition (server error), ANI Bhumana Anjaneya temple (fetch failed), Medical Dialogues TGMC 4 clinics, Disha/AJ DGP appeal to Ganapathy, The Hindu threat-email VPN, NDTV Rs 15,000 cr package/8 pacts figures, stock market Black Monday, TOI JWALA MK-1. No district searches this run. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T14:35:00+05:30/2026-11-23T15:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Lookback from 04:05. Feeds 12:17 IST (67/68 ok; 56 uncovered unseen events first seen since 11:50, many entertainment/business). add_repo tool not available; used existing clone. Published 6: TT Medak unseasonal rain paddy loss (11:57), TT KTR panchayats in deficit (12:05, claim), Siasat Amazon used-laptop refund order (12:07), Siasat TGRERA Rs 2 cr fine Tellapur builder (12:12), Hans Anakapalli 33.70% polling by 9am (11:54), HMTV Cherla sand lorry one dead (10:20, late-found, sensitive). Duplicates: Hindu Cyberabad green-tanker suspension (published 25 Nov 17:05), Hindu Cyberabad Moves summit (74% two-wheeler story 25 Nov), Disha SC IAS murder case (Anand Mohan published 12:05). Not attempted: HSRP alert (HMTV), Telangana pensions credit (Vaartha), Disha AP poll tensions, Suryapet student assault (NT), Hetero HIV drug (Reuters), world items. District searches (Nalgonda, Srikakulam/Vizianagaram, Khammam/Bhadradri, Anantapur/Kurnool) mostly tag pages. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-26T12:35:00+05:30/2026-11-26T13:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 4,
+   "late": 0,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 04:35. Feeds 12:45 IST (68/70 ok; 150 uncovered unseen events first seen since 11:45, many business/entertainment/Suryaa world items). add_repo tool not available; used existing clone. No direct WebFetch tool in this run: pages opened through fetch helper, only after WebSearch surfaced the URL (4 direct feed URLs refused first, ~5 min lost). Published 4: Andhra Jyothy AP panchayat turnout 53.86% at 11 am (12:36), Vaartha Nellore Chemudugunta car-lorry crash, couple dead (12:28, sensitive), Telangana Today two women dead in Wyra/Elkathurthy accidents (12:33, sensitive), Siasat Cyberabad RWA car-wash fines (12:24). Skipped as old: Deccan Chronicle CMC green tanker suspension (25 Nov 23:54) and DC TfL public transport 28% (25 Nov 21:55) - The Hindu versions (12:32, 12:24 today) not surfaced by search, not opened. Not opened: Disha Karimnagar farmer electrocuted (client error). Not attempted: TDP assets Rs 526 cr (Eenadu/ETV Bharat), HSRP plates, pensions credit, eco-tourism decision, SEC peaceful polling, Rushikonda DIG, Raptadu ballot papers, Bandi Bhagirath summons. No district searches this run. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7718,6 +7718,36 @@
    "url": "https://www.thehindu.com/news/national/telangana/cyberabad-moves-summit-to-focus-on-traffic-congestion-public-transport-and-urban-mobility/article71743745.ece",
    "d": "2026-11-26",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/krishna/ap-gram-panchayat-polling-53-percent-11-am-suchi-1579983.html",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://vaartha.com/crime/nellore-road-accident-couple-killed-in-road-accident/810421/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/two-women-die-in-separate-accidents",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/cyberabad-residents-fined-upto-rs-5k-for-car-wash-with-drinking-water-3587165/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/cmc-suspends-circle-manager-over-drain-water-supply-in-green-tankers",
+   "d": "2026-11-26",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-must-double-public-transport-usage-expert-2007928",
+   "d": "2026-11-26",
+   "w": "skipped"
   }
  ]
 }
