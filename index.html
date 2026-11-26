@@ -2488,7 +2488,7 @@ function renderFeed(keepKey){
     setCount(0,0); cards=[]; syncSave(); return;
   }
   LIST = withPromos(withJobs(LIST));
-  feed.innerHTML = LIST.map(cardHTML).join('').replace(/<img class="([^"]*)" src="(\/art\/[^"]+)"/g,'<img class="$1" data-src="$2"'); // pictures load only for the card on screen and the next few
+  feed.innerHTML = LIST.map(cardHTML).join('').replace(/<img (class="[^"]*" )?src="(\/art\/[^"]+)"/g,(m,c,u)=>{ const h=hdArt(u); return `<img ${c||''}data-src="${h}"${h!==u?` data-lo="${u}"`:''}`; }); // pictures load only for the card on screen and the next few
   if(TLG()) tlDom(feed);
   feed.querySelectorAll('[data-psh]').forEach(b=>b.onclick=()=>shareCard(true));
   feed.querySelectorAll('.vplay').forEach(b=>b.onclick=()=>playVideo(b.dataset.vid));
@@ -2569,6 +2569,16 @@ document.addEventListener('error',e=>{ const im=e.target; if(!(im instanceof HTM
   const n=+(im.dataset.retry||0); if(n>=2){ im.dataset.failed='1'; return; } im.dataset.retry=n+1;
   setTimeout(()=>{ im.src=u.split('?')[0]+'?r='+Date.now(); }, n?5000:1500); },true);
 addEventListener('online',()=>{ try{ document.querySelectorAll('#feed img[data-failed]').forEach(im=>{ im.removeAttribute('data-failed'); im.dataset.retry='1'; im.src=(im.getAttribute('src')||'').split('?')[0]+'?r='+Date.now(); }); }catch(e){} });
+/* HD pictures on screen (owner, 26 Nov 2026): sharp phones (2x/3x screens) get the big library pictures
+   (2560px HD copies, 1536px originals, full-size objects) instead of the light 960px ones. Data-saver / 2G keep the light ones.
+   If a big picture is missing, the light one loads instead (data-lo). */
+const HDOK=(()=>{ try{ const c=navigator.connection||{}; if(c.saveData||/(^|-)2g$/.test(c.effectiveType||'')) return false; return (window.devicePixelRatio||1)>=1.5; }catch(e){ return false; } })();
+function hdArt(u){ if(!HDOK||!u) return u; let m;
+  if((m=/^\/art\/(i|w|n|cv|s|d)\/([A-Za-z0-9._-]+)\.webp$/.exec(u))) return `/art/hd/${m[1]}/${m[2]}.webp`;
+  if((m=/^\/art\/e\/([A-Za-z0-9._-]+)\.webp$/.exec(u))) return `/art/e/${m[1]}.jpg`;
+  if((m=/^\/art\/o\/([A-Za-z0-9._-]+)\.webp$/.exec(u))) return `/art/o/full/${m[1]}.webp`;
+  return u; }
+document.addEventListener('error',e=>{ const im=e.target; if(im&&im.tagName==='IMG'&&im.dataset.lo&&!im.dataset.fell){ im.dataset.fell=1; im.src=im.dataset.lo; } },true);
 function warmPics(i){ try{ for(let k=i;k<=i+3&&k<cards.length;k++){ const c=cards[k]; if(!c) continue; c.querySelectorAll('img[data-src]').forEach(im=>{ im.fetchPriority=k===i?'high':'low'; im.src=im.dataset.src; im.removeAttribute('data-src'); }); } }catch(e){} }
 function go(i,dir,from){
   if(i>=0) warmPics(Math.min(i,cards.length-1));
@@ -3079,7 +3089,7 @@ function storyTime(s){ const o=s&&(s._orig||s)||{}; const m=/^(\d\d)\.(\d\d)\.(\
   return Date.UTC(+m[3],+m[2]-1,+m[1],t?+t[1]:0,t?+t[2]:0)-330*60000; } // story times are IST
 const MYS_T0=(()=>{ try{ let t=sessionStorage.getItem('s2n.mysT0'); if(!t){ t=String(Date.now()); sessionStorage.setItem('s2n.mysT0',t); } return +t; }catch(e){ return Date.now(); } })();
 const isNew=s=>{ if(!s||s.kind||!MYS_PREV||storyTime(s)<=MYS_PREV) return false; const v=MYS.seen[rdId(s)]; return !v||v>=MYS_T0; }; // stays "new" for this whole visit
-function mysImg(i){ const c=cards[i], im=c&&c.querySelector('img.ahero,.bnr img.ph,img.art2,img'); return im?(im.dataset.src||im.getAttribute('src')||''):''; }
+function mysImg(i){ const c=cards[i], im=c&&c.querySelector('img.ahero,.bnr img.ph,img.art2,img'); return im?(im.dataset.lo||im.dataset.src||im.getAttribute('src')||''):''; } // light picture for the small history thumbnails
 function mysHistAdd(s,i,read){ const id=rdId(s); let e=MYS.hist.find(x=>x.id===id);
   if(!e){ e={id,h:String(s.h||'').slice(0,140),img:mysImg(i),d:s.d||'',tm:s.t||'',sid:s._sid||sid(s)}; MYS.hist.unshift(e); if(MYS.hist.length>MYS_HIST) MYS.hist.length=MYS_HIST; }
   else { MYS.hist.splice(MYS.hist.indexOf(e),1); MYS.hist.unshift(e); }
