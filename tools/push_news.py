@@ -155,6 +155,9 @@ def calendar(now, which, stories, sadf, done, key, dry):
         h, p = text(top, lang)
         base = {'app_id': APP_ID, 'target_channel': 'push', 'url': url, 'chrome_web_icon': SITE + 'icon-192.png',
                 'chrome_web_badge': SITE + 'icon-192.png', 'web_push_topic': 'greet', 'ttl': 6 * 3600}
+        dimg = f"promo/daily/{now.date()}-app.jpg"  # owner 26 Nov 2026: the morning greeting carries the Daily Morning Briefing card
+        if which == 'm' and os.path.exists(os.path.join(ROOT, dimg)):
+            base.update(chrome_web_image=SITE + dimg, big_picture=SITE + dimg, ios_attachments={'id1': SITE + dimg})
         if lang == 'hi':  # the calendar is Telugu + English; Hindi readers keep the simple greeting
             post(dict(base, filters=flt, headings={'en': f"{HEAD['hi']['morning' if which == 'm' else 'evening']} · {h}"[:90]}, contents={'en': short(p) or h}), f'greet/{which}/hi', key, dry)
             continue
@@ -251,6 +254,7 @@ def main():
     except Exception: ann = []
     for a in ann:
         k = 'ann:' + a['id']
+        if a.get('nopush') or not a.get('te'): continue  # pop-up only (daily card)
         if k in done or not (a.get('from', '') <= now.strftime('%Y-%m-%dT%H:%M') <= a.get('to', '9999')): continue
         print('ANNOUNCE:', a['id'])
         for lang, flt in LANG_FILTERS.items():

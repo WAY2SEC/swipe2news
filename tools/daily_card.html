@@ -1,0 +1,69 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Rama;src:url(/tools/fonts/Ramabhadra-Regular.ttf)}
+@font-face{font-family:NST;src:url(/tools/fonts/NotoSansTelugu.ttf);font-weight:100 900}
+@font-face{font-family:Out;src:url(/tools/fonts/Outfit-ExtraBold.ttf);font-weight:800}
+@font-face{font-family:OutS;src:url(/tools/fonts/Outfit-SemiBold.ttf);font-weight:600}
+*{box-sizing:border-box;margin:0}
+body{width:1080px;height:1920px;overflow:hidden;background:#FFFBF2;font-family:NST,sans-serif;color:#1E1218;position:relative}
+.top{background:radial-gradient(130% 150% at 90% 0%,#6A2058 0,#4A0E3F 45%,#330A2C 100%);color:#fff;padding:46px 50px 40px;border-radius:0 0 40px 40px}
+.r1{display:flex;justify-content:space-between;align-items:center}
+.brand{display:flex;align-items:center;gap:16px;font:800 50px Out}.brand img{width:66px;height:66px;border-radius:16px}.brand i{color:#F5A23A;font-style:normal}.brand sup{font:600 20px OutS;margin-left:3px;vertical-align:30px}
+.gm{font:400 58px Rama;color:#F5A23A}
+.r2{display:flex;justify-content:space-between;align-items:center;margin-top:10px}
+.mb{font:600 24px OutS;letter-spacing:4px;color:rgba(255,255,255,.72)}
+.dt{font:700 32px NST;color:#fff}
+.boxes{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:30px}
+.bx{background:#FFF7EA;border-radius:26px;padding:24px 28px;color:#2E0827}
+.bx small{display:block;font:600 25px NST;color:#7A6070}
+.bx .v{display:flex;align-items:center;gap:14px;font:800 62px/1.15 Out;margin:8px 0 6px}
+.bx .v svg{width:62px;height:62px;flex:none}
+.bx .s{font:600 25px NST;color:#5B4A55}
+.bx .u{font:600 21px NST;color:#9A8494;margin-top:6px}
+.sec{display:flex;align-items:center;gap:16px;margin:26px 50px 2px;font:400 44px Rama;color:#2E0827}.sec em{font-style:normal;color:#E08A1E}.sec:after{content:'';flex:1;height:3px;background:#EFE1D0;border-radius:2px}
+.list{margin:0 50px}
+.it{display:grid;grid-template-columns:224px 1fr;gap:28px;align-items:center;padding:22px 0;border-bottom:2px solid #F0E5D7}
+.it:last-child{border-bottom:0}
+.th{width:224px;height:149px;border-radius:22px;overflow:hidden;position:relative;background:#4A0E3F;box-shadow:0 6px 16px rgba(46,8,39,.15)}
+.th img{width:100%;height:100%;object-fit:cover}.th span{position:absolute;left:10px;top:10px;width:52px;height:52px;border-radius:50%;background:#4A0E3F;color:#fff;font:800 28px/46px Out;text-align:center;border:3px solid #fff;box-shadow:0 3px 12px rgba(0,0,0,.45)}
+.cat{font:700 26px NST;margin-bottom:4px}
+.it h3{font:700 37px/1.34 NST;color:#1E1218}.it p{font:600 24px NST;color:#8A7884;margin-top:2px}
+.foot{position:absolute;left:30px;right:30px;bottom:30px;background:#4A0E3F;border-radius:34px;color:#fff;padding:30px 36px 22px}
+.f1{display:flex;align-items:center;gap:30px}
+.f1 img{width:150px;height:150px;background:#fff;border-radius:18px;padding:10px;flex:none}
+.f1 b{display:block;font:400 54px/1.2 Rama;color:#F5A23A}.f1 .w{font:800 32px Out;margin-top:6px}.f1 .t{font:600 28px OutS;color:rgba(255,255,255,.85);margin-top:2px}
+.f2{border-top:2px solid rgba(255,255,255,.18);margin-top:22px;padding-top:16px;text-align:center;font:800 30px Out;color:#F5A23A;letter-spacing:1px}
+</style></head><body>
+<div class="top">
+ <div class="r1"><div class="brand"><img src="/art/logo.svg"><span>swipe2news<i>.</i><sup>TM</sup></span></div><div class="gm">శుభోదయం</div></div>
+ <div class="r2"><div class="mb">DAILY MORNING BRIEFING</div><div class="dt" id="DT"></div></div>
+ <div class="boxes">
+  <div class="bx" id="WX"><small>హైదరాబాద్ వాతావరణం</small>
+   <div class="v"><svg viewBox="0 0 64 64"><circle cx="24" cy="24" r="11" fill="#F5A23A"/><g stroke="#F5A23A" stroke-width="4" stroke-linecap="round"><path d="M24 4v6M24 38v6M4 24h6M38 24h6M10 10l4 4M34 34l4 4M10 38l4-4M34 14l4-4"/></g><path d="M26 52a10 10 0 0 1 2-19.8A13 13 0 0 1 53 36a8 8 0 0 1-1 16z" fill="#fff" stroke="#C9B6C2" stroke-width="2"/></svg><span id="WT"></span></div>
+   <div class="s" id="WS"></div><div class="u">ఆధారం: IMD</div></div>
+  <div class="bx" id="GD"><small>బంగారం · 22K / 10 గ్రా.</small>
+   <div class="v" id="GV"></div>
+   <div class="s" id="GS"></div><div class="u" id="GU"></div></div>
+ </div>
+</div>
+<div class="sec">ఈరోజు <em>టాప్ 5</em> వార్తలు</div>
+<div class="list" id="L"></div>
+<div class="foot">
+ <div class="f1"><img src="/qr.png"><div><b>పూర్తి వార్తలు యాప్‌లో</b><div class="w">swipe2news.com</div><div class="t">Know More. Scroll Less.</div></div></div>
+ <div class="f2">Village to World</div>
+</div>
+<script src="/scenes.js"></script>
+<script>
+const C={AP:'#C0661A',IN:'#1E8A55',TG:'#1F6FB8'};
+const D=window.D; const esc=t=>String(t||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+document.getElementById('DT').textContent=D.date;
+if(D.wx){ document.getElementById('WT').textContent=D.wx.t; document.getElementById('WS').textContent=D.wx.s; } else document.getElementById('WX').style.visibility='hidden';
+if(D.gold){ document.getElementById('GV').textContent=D.gold.v; document.getElementById('GS').textContent=D.gold.s; document.getElementById('GU').textContent=D.gold.u; } else document.getElementById('GD').style.visibility='hidden';
+document.getElementById('L').innerHTML=D.items.map((s,i)=>{ let k=null; try{ const a=artPlan(s); k=a&&a.bg; }catch(e){} const im=k?`<img src="${artBg(k,1)}">`:`<img src="/art/logo-tm.png" style="object-fit:contain;padding:14px">`;
+  return `<div class="it"><div class="th">${im}<span>${i+1}</span></div><div><div class="cat" style="color:${C[s.st]||C.TG}">${esc(s.cat)}</div><h3>${esc(s.h)}</h3><p>${esc(s.statl||'')}</p></div></div>`; }).join('');
+// fit: shrink if the list runs into the footer
+(async()=>{ await document.fonts.ready; await Promise.all([...document.images].map(i=>i.complete?0:new Promise(r=>{i.onload=i.onerror=r}))); const L=document.getElementById('L'), F=document.querySelector('.foot');
+  let pad=22; while(L.getBoundingClientRect().bottom>F.getBoundingClientRect().top-12 && pad>4){ pad-=3; L.querySelectorAll('.it').forEach(x=>x.style.padding=pad+'px 0'); }
+  if(L.getBoundingClientRect().bottom>F.getBoundingClientRect().top-12) L.querySelectorAll('.it p').forEach(x=>x.remove());
+  document.body.dataset.ready=1; })();
+</script></body></html>

@@ -124,8 +124,9 @@ button{font:inherit;color:inherit}
 header{display:flex;align-items:center;gap:8px;padding:8px var(--gr) 6px var(--gx);padding-top:max(8px,env(safe-area-inset-top,0px));background:var(--hdr)}
 .logo{height:34px;width:auto;display:block}
 #annPop{position:fixed;inset:0;z-index:120;display:flex;align-items:center;justify-content:center;padding:20px;background:rgba(20,6,18,.72);opacity:0;transition:opacity .25s}
-#annPop.on{opacity:1}#annPop .ab{position:relative;width:min(92vw,440px);border-radius:22px;overflow:hidden;box-shadow:0 18px 50px rgba(0,0,0,.45);background:#3A0A31}
-#annPop img{display:block;width:100%;height:auto}#annPop .ax{position:absolute;top:10px;right:10px;width:36px;height:36px;border-radius:50%;border:0;background:rgba(255,255,255,.92);color:#2E0827;font:800 20px/36px var(--body);cursor:pointer}
+#annPop.on{opacity:1}#annPop .ab{position:relative;width:min(92vw,440px);border-radius:22px;overflow:visible;box-shadow:0 18px 50px rgba(0,0,0,.45);background:#3A0A31}
+#annPop img{display:block;width:100%;height:auto;border-radius:22px 22px 0 0}#annPop .ab>:last-child{border-radius:0 0 22px 22px}#annPop .ax{position:absolute;top:-14px;right:-10px;width:36px;height:36px;box-shadow:0 3px 10px rgba(0,0,0,.35);border-radius:50%;border:0;background:rgba(255,255,255,.92);color:#2E0827;font:800 20px/36px var(--body);cursor:pointer}
+#annPop .dl{display:block;text-align:center;padding:12px;background:#4A0E3F;color:#fff;font:800 15px var(--body);text-decoration:none}
 #annPop .ok{display:block;width:100%;border:0;padding:14px;background:#F5A23A;color:#2E0827;font:800 16px var(--body);cursor:pointer}
 sup.tm{font-size:.42em;font-weight:700;vertical-align:super;margin-left:1px;letter-spacing:0;font-style:normal;opacity:.9}
 :root[data-theme="dark"] .logo{content:url(logo-light.png)}
@@ -927,6 +928,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 /* badge-free location pictures (14 Nov 2026): show the whole landmark again; logo when there is nothing else to show */
 .s2n .bnr img.aland{transform:none!important;object-position:50% 50%!important}
 .s2n .bnr .aquiet{display:none!important}
+.s2n .bnr img.alogo.tm{height:66%;max-width:56%;filter:drop-shadow(0 14px 22px rgba(0,0,0,.45))}
 .s2n .bnr img.alogo{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);height:52%;max-width:46%;aspect-ratio:1;object-fit:contain;filter:drop-shadow(0 12px 18px rgba(0,0,0,.4));pointer-events:none}
 
 /* whole picture always visible (owner 14 Nov 2026): fit, never crop; spare space is brand plum */
@@ -1608,7 +1610,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
   <div class="toast" id="toast" role="status"></div>
 </div>
 
-<script src="scenes.js?v=20261126n"></script>
+<script src="scenes.js?v=20261126p"></script>
 <script src="mandi.js?v=2"></script>
 <script>
 const CONFIG = {
@@ -3307,7 +3309,7 @@ async function annPop(){ try{
   const it=((await r.json()).items||[]).find(x=>x.pop&&(q?x.id===q:(now>=(x.from||'')&&now<=(x.to||'9999')&&!store.get('pop.'+x.id,0))));
   if(!it) return; const lg=(prefs&&prefs.lang)||'te', T={te:'సరే',en:'OK',hi:'ठीक है'};
   const o=document.createElement('div'); o.id='annPop'; o.setAttribute('role','dialog'); o.setAttribute('aria-modal','true');
-  o.innerHTML=`<div class="ab"><img src="${it.pop}" alt="${esc((it[lg]||it.en||{}).h||'')}"><button class="ax" type="button" aria-label="Close">×</button><button class="ok" type="button">${T[lg]||'OK'}</button></div>`;
+  o.innerHTML=`<div class="ab"><img src="${it.pop}" alt="${esc((it[lg]||it.en||{}).h||'')}"><button class="ax" type="button" aria-label="Close">×</button>${it.dl?`<a class="dl" href="${it.dl}" download target="_blank" rel="noopener">⬇ ${({te:'డౌన్‌లోడ్ (4K)',en:'Download (4K)',hi:'डाउनलोड (4K)'})[lg]||'Download'}</a>`:''}<button class="ok" type="button">${T[lg]||'OK'}</button></div>`;
   const close=()=>{ store.set('pop.'+it.id,Date.now()); o.classList.remove('on'); setTimeout(()=>o.remove(),250); };
   o.addEventListener('click',e=>{ if(e.target===o||e.target.closest('.ax,.ok')) close(); });
   const im=o.querySelector('img'); im.onload=()=>{ document.body.appendChild(o); requestAnimationFrame(()=>o.classList.add('on')); };

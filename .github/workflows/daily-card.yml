@@ -1,0 +1,31 @@
+name: Daily Morning Briefing card
+
+# Every morning before the 7 AM greeting: one 4K picture with the top 5 stories, Hyderabad weather (IMD) and gold rate.
+# tools/daily_card.py → promo/daily/<date>.jpg (4K) + <date>-app.jpg, and a pop-up item in tools/announce.json.
+on:
+  schedule:
+    - cron: '35 0 * * *'   # 06:05 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: { group: daily-card, cancel-in-progress: false }
+
+jobs:
+  card:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Make the card
+        run: |
+          pip install -q playwright pillow
+          python3 -m playwright install chromium >/dev/null 2>&1 || true
+          CHROME_PATH=$(command -v google-chrome || true) python3 tools/daily_card.py
+      - name: Publish
+        run: |
+          git config user.name "Swipe2News Bot"; git config user.email news-bot@swipe2news.invalid
+          git add promo/daily tools/announce.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Daily Morning Briefing card $(TZ=Asia/Kolkata date +%F)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done

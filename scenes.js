@@ -647,12 +647,12 @@ function artPlan1(s){ const a=artPlan0(s); if(!a) return a;
   else if(a.m==='plain'&&a.obj){ const k=ART_NEW['c/'+a.obj]; if(k) return {m:'land',bg:k}; }
   else if(a.m==='land'&&ART_NEW[a.bg]) return Object.assign({},a,{bg:ART_NEW[a.bg]});
   return a; }
-function artImg(s){ const a=artPlan(s); if(!a) return ''; return a.m==='logo'?'/art/logo.svg':a.m==='cat'?'/art/c/'+a.cat+'.jpg':a.bg?artBg(a.bg):'/art/o/'+(a.obj||'local')+'.webp'; }
+function artImg(s){ const a=artPlan(s); if(!a) return ''; return a.m==='logo'?'/art/logo-tm.png':a.m==='cat'?'/art/c/'+a.cat+'.jpg':a.bg?artBg(a.bg):'/art/o/'+(a.obj||'local')+'.webp'; }
 const ART_DISC={te:'AI రూపొందించిన చిత్రం',en:'AI-generated illustration',hi:'AI से बना चित्र'};
 function artBg(k,big){ const e=big?'.jpg':'.webp'; return /^(?:w|n|i|cv|s|e)\//.test(k)?'/art/'+k+e:'/art/d/'+k+e; } // cards: light 960px WebP; shared 4K photo: full-size original
 function artHTML(a){
   const im=(src,cls)=>`<img class="${cls}" src="${src}" alt="" decoding="async">`;
-  if(a.m==='logo') return `<i class="apl2"></i><span class="alw"><span class="alr"><img class="alogo" src="/art/logo.svg" alt=""><i class="adot"></i></span></span>`;
+  if(a.m==='logo') return `<i class="apl2"></i><span class="alw"><span class="alr"><img class="alogo tm" src="/art/logo-tm.png" alt=""></span></span>`;
   if(a.m==='cat') return `<i class="apl2"></i>${im('/art/o/'+a.cat+'.webp','ahero acat')}`; // illustration-led: one large object
   if(a.m==='plain') return `<i class="apl"></i>${a.obj?im('/art/o/'+a.obj+'.webp','ahero'):''}`; // no object = number-led (shorter header)
   if(a.m==='wx') return `${a.bg?im(artBg(a.bg),'ph art2 adim'):'<i class="apl"></i>'}${a.tone?`<i class="atone ${a.tone}"></i>`:''}${a.obj?im('/art/o/'+a.obj+'.webp','ahero awx'):''}`;
@@ -673,7 +673,7 @@ async function drawArtPlan(ctx,s,x,y,w,h,fill){
     else if(a.m==='wx'){ if(a.bg){ cover(await LB(a.bg)); ctx.fillStyle='rgba(20,4,17,.25)'; ctx.fillRect(x,y,w,h); } else stripes();
       if(a.tone){ ctx.fillStyle=a.tone==='cool'?'rgba(120,160,210,.30)':'rgba(245,130,40,.30)'; ctx.fillRect(x,y,w,h); if(a.tone==='cool'){ const g=ctx.createLinearGradient(0,y+h*.45,0,y+h); g.addColorStop(0,'rgba(235,240,250,0)'); g.addColorStop(1,'rgba(235,240,250,.35)'); ctx.fillStyle=g; ctx.fillRect(x,y,w,h); } }
       if(a.obj){ ctx.shadowColor='rgba(0,0,0,.45)'; ctx.shadowBlur=30; ctx.shadowOffsetY=18; contain(await L('/art/o/full/'+a.obj+'.webp'),x+w/2,y+h*.40,w*.7,h*.5); ctx.shadowColor='transparent'; } }
-    else if(a.m==='logo'){ const rg=ctx.createRadialGradient(x+w/2,y+h*.42,10,x+w/2,y+h*.42,w*.7); rg.addColorStop(0,'#6B2A5E'); rg.addColorStop(1,'#3A0A31'); ctx.fillStyle=rg; ctx.fillRect(x,y,w,h); const lg=await L('/art/logo.svg'); const sz=Math.min(h*.66,w*.52), ds=sz*.13, gap=sz*.02, tw=sz+gap+ds, lx=x+(w-tw)/2, ly=y+h*.45-sz/2; ctx.shadowColor='rgba(0,0,0,.4)'; ctx.shadowBlur=30; ctx.shadowOffsetY=14; ctx.drawImage(lg,lx,ly,sz,sz); ctx.fillStyle='#F5A23A'; ctx.beginPath(); ctx.arc(lx+sz+gap+ds/2,ly+sz-sz*.07-ds/2,ds/2,0,Math.PI*2); ctx.fill(); ctx.shadowColor='transparent'; }
+    else if(a.m==='logo'){ const rg=ctx.createRadialGradient(x+w/2,y+h*.42,10,x+w/2,y+h*.42,w*.7); rg.addColorStop(0,'#6B2A5E'); rg.addColorStop(1,'#3A0A31'); ctx.fillStyle=rg; ctx.fillRect(x,y,w,h); const lg=await L('/art/logo-tm.png'); const sz=Math.min(h*.7,w*.56), lx=x+(w-sz)/2, ly=y+h*.45-sz/2; ctx.shadowColor='rgba(0,0,0,.45)'; ctx.shadowBlur=34; ctx.shadowOffsetY=14; ctx.drawImage(lg,lx,ly,sz,sz); ctx.shadowColor='transparent'; } // owner 26 Nov 2026: TM logo on no-picture cards
     else { cover(await LB(a.bg),.5); if(a.wx){ ctx.shadowColor='rgba(20,4,17,.5)'; ctx.shadowBlur=20; ctx.shadowOffsetY=10; contain(await L('/art/o/full/'+a.wx+'.webp'),x+w*.8,y+h*.2,w*.3,h*.22); ctx.shadowColor='transparent'; } if(a.m==='landobj'){ ctx.shadowColor='rgba(20,4,17,.55)'; ctx.shadowBlur=24; ctx.shadowOffsetY=14; contain(await L('/art/o/full/'+a.obj+'.webp'),x+w*.8,y+h*.3,w*.32,h*.26); ctx.shadowColor='transparent'; } }
     if(a.m!=='logo'&&!(a.bg&&/^e\/photo-/.test(a.bg))){ const g=ctx.createLinearGradient(0,y,0,y+h); g.addColorStop(0,'rgba(46,8,39,.5)'); g.addColorStop(.22,'rgba(46,8,39,0)'); g.addColorStop(.5,'rgba(46,8,39,0)'); g.addColorStop(.72,'rgba(46,8,39,.85)'); g.addColorStop(1,'rgba(46,8,39,.97)'); ctx.fillStyle=g; ctx.fillRect(x,y,w,h); }
     ctx.restore(); return true; }catch(e){ ctx.restore(); return false; }
