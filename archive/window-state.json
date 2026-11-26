@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-26T07:35:00+05:30",
+ "cutoff": "2026-11-26T08:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-23T09:05:00+05:30/2026-11-23T09:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 1,
-   "late": 1,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 4,
-   "review": 1,
-   "gaps": "Lookback from 01:05 on 23 Nov. Feeds 09:16 IST (68/68 ok). 38 uncovered events first seen since 08:50 plus TG/AP backlog since 05:00 checked; most new items not yet indexed by search. add_repo tool not available; used fresh clone. 5 fetch agents. Published 1: Andhra Jyothy Godavarikhani Singareni worker killed (06:25, sensitive, no names). Duplicates: Srisailam Karthika rush, AP sarpanch phase 1, TN Tiruchi crash, Nepal PM visit (already published). Skipped: IndToday ED rice millers (09:22, thin, no named source), Huang/Trump Nvidia (17 Nov, before lookback), Asianet AP/TG rain (old May article), Secunderabad card den (only in AJ live blog already used). Review: Lowy Asia Power Index India 3rd (no publication time; launch 26 Nov). Not opened (left unseen): AJ ED rice millers, Disha soya fire, Disha Medchal jail Ayurveda, Samayam gold man IT attach, ANI Chamala, NIE 429 AI signals, TOI Sneha Group I-T, Medical Buyer NHRC hospitals, NIE quacks Kamareddy, V6 Tadoba tiger, Hyderabad Mail dengue, V6 Kondagattu, NIE Ayush NTR Vaidya Seva, NIE Kotia tribals, HMTV Vemulawada, Delta glitch. District searches (extended): Sangareddy, Medak, Vikarabad, Kakinada, Rajahmundry, Eluru, Bhupalpally, Mulugu, Jangaon, Mahabubabad, Nandyal, Prakasam, Bapatla, Kamareddy, Sircilla, Jagtial, Peddapalli - nothing fresh. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T09:35:00+05:30/2026-11-23T10:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 7,
    "review": 1,
    "gaps": "Lookback from 23:05 (25 Nov). Feeds 07:18 IST (68/68 ok; 650 uncovered unseen events in lookback, 131 local – most already published under other URLs). add_repo tool not available; used existing clone. Published 4: Hans Cyberabad Moves 2026 expo at T-Hub (01:25, fact), DC ITDA Paderu coffee trade registration (23:53, fact, logo), DC Ravikamatham B.N. Road potholes (23:49, claim), Andhra Jyothy live: 121 kg gold to TTD during CM Tirumala visit (07:05, fact). Duplicates: Mahabubabad hostel delivery, fine-rice buffer, AP panchayat/ULB polls, CM Nagarkurnool, Sagar water, MyTDP, Cairo tanker, IPL 1,220 players, Gadwal, TGRERA Auro, JEE Aadhaar. Skipped as old: SC AP SEC candidate list (Oct 21), Goyal FTA (Oct 29), INDToday Akbaruddin (Jan), DC natural farming (Nov 9), TV9 Cheyutha (Nov 19), Hans/DC Harish Kukatpally truck park & Siddipet (Nov 20), DC 3,000 police (older). Review: CBS Macy's parade postponed (no publish time). Not opened: DC Tirupati Collector Anjaneyapuram (fetch denied), CNBC Macy's (4xx), Eenadu items, TOI AP rainfall/elephants/ex-Maoist (no search hit), Hindu Kondagattu/Kukatpally. 8 district searches run (only tag pages, nothing new). Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-26T07:35:00+05:30/2026-11-26T08:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 2,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 23:35 (25 Nov). Feeds 07:56 IST (70/70 ok; 675 uncovered unseen events in lookback, 138 local). add_repo tool not available; used existing clone. Feed-list URLs could not be fetched directly (provenance; ~5 min lost), only URLs returned by WebSearch opened. Published 3: BIG TV Anantapur Rayalacheruvu lorry-Toofan crash 4 dead (07:17, fact), DC Kondapur CII junction bike crash (07:36, fact), TT Nasha Mukt Bharat padayatra traffic curbs (23:52, fact). Duplicates: Sakshi + Disha same Anantapur crash, Andhra Jyothy CM Achampet visit (already published). Skipped: Daily Pioneer Kukatpally truck park protest (14 Nov, old). Not opened (search did not return the article): TT Harish Rao KRMB minutes, TT TGRERA Auro Realty fine, Hindu Kukatpally truck park, Hindu Akbaruddin minority schools, TOI graduates rolls 80k ineligible, TOI HC JEE Aadhaar, TOI AP own revenue 18.7%, TOI AP elderly women anaemia, Siasat US court citizenship curbs, NewsOnAIR SC AP SEC candidate list - left uncovered for next run."
   }
  ],
  "seen": [
@@ -7288,6 +7288,41 @@
    "url": "https://www.thehansindia.com/news/cities/hyderabad/cm-revanth-reddy-blasts-kcr-harish-for-ap-pacts-1143732",
    "d": "2026-11-26",
    "w": "skip"
+  },
+  {
+   "url": "https://www.bigtvlive.com/andhra-pradesh/road-accident-in-anantapur-district-a-lorry-collided-with-a-toofan-vehicle-resulting-in-four-deaths.html",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-techie-dies-in-road-accident-near-kondapur-2008068",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/anti-drug-awareness-rally-traffic-advisory",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/andhra-pradesh/lorry-collided-toofan-vehicle-near-rayalacheruvu-yadiki-mandal-2970746",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.dishadaily.com/crime/toofan-vehicle-rams-into-a-lorry-four-dead-eight-sustain-serious-injuries-603772",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/mahbubnagar/revanth-reddy-achampet-visit-450-crore-development-works-indiramma-sarees-distribution-1579851.html",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://dailypioneer.com/telangana/brs-stages-protest-against-proposed-auction-of-truck-park-land-in-kukatpally",
+   "d": "2026-11-26",
+   "w": "skipped"
   }
  ]
 }
