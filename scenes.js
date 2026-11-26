@@ -485,6 +485,11 @@ function artPlan0(s){
     if(type!=='weather'&&/రైళ్లు|రైలు|ట్రైన్|\btrains?\b|railway/i.test(tq)&&!/ప్రపంచం|World/.test(String(s.cat||''))) return {m:'cat',cat:'transport'}; }
   if(type==='weather'){
     const bg=land||sland, rain=/వర్ష|వాన|తుపాను|అల్పపీడన|వరద|జల్లు|rain|cyclone|flood|shower|depression/i.test(t), heat=/ఎండ|వడగాల్పు|ఉక్కపోత|heat|hot\b|scorch/i.test(t), cold=/చలి|పొగమంచు|మంచు|cold|chill|fog|mist|winter/i.test(t);
+    if(cold&&!rain&&!heat){ const T=t+' '+((s.en&&s.en.h)||''); // owner 26 Nov 2026: winter pictures
+      if(/చెన్నై|తమిళనాడు|Chennai|Tamil Nadu/i.test(T)) return {m:'land',bg:'e/winter-chennai-coast'};
+      if(/ఢిల్లీ|ఉత్తర భారత|Delhi|north India/i.test(T)) return {m:'land',bg:'e/winter-delhi-hyderabad'};
+      if(st==='TG'||/హైదరాబాద్|తెలంగాణ|Hyderabad|Telangana/i.test(T)) return {m:'land',bg:'e/winter-hyderabad'};
+      if(st!=='AP') return {m:'land',bg:(Date.now()/864e5|0)%2?'e/winter-india':'e/winter-india-cities'}; }
     const wo=rain?'weather':(heat||cold)?'':'cloud';
     let wbg=bg; if((bg==='ap'||!bg)&&st!=='TG'&&/తుపాను|కోస్తా|తీర|సముద్ర|cyclone|coast/i.test(t)) wbg='ap-visakhapatnam'; // cyclone/coast with no district: a coastal picture, not an inland temple
     if(wbg) return {m:'land',bg:wbg,wx:rain?'weather':(heat||cold)?'':'cloud'}; // reviewer 14 Nov: place picture clear; one small weather sign in the sky corner

@@ -77,6 +77,8 @@ Deaths/killings → e/remembrance-and-condolence (same as n/condolence). Do NOT 
 - e/dam-nagarjuna-sagar · e/dam-srisailam · e/dam-sriram-sagar (SRSP, Pochampad) · e/dam-nizam-sagar · e/dam-jurala
 - Srisailam temple / Nagarjuna Sagar town or MLA stories are NOT dam stories (no water word → no dam picture).
 
+- **Winter / cold / fog (owner 26 Nov 2026):** Telangana or Hyderabad → e/winter-hyderabad · Delhi / north India → e/winter-delhi-hyderabad · Chennai / Tamil Nadu → e/winter-chennai-coast · all-India → e/winter-india or e/winter-india-cities · Andhra Pradesh: district picture (no AP winter picture yet). The app also picks these by itself for cold-weather stories.
+
 ### Exact picture for common stories (owner 21 Nov 2026: "use the exact images") – REQUIRED for new stories
 **No exact picture → `"pic":"logo"` (owner 24 Nov 2026: "if you do not have any image, don't use anyone – just use our logo").** Use an e/ scene only when a reader seeing ONLY the picture would guess this event. A near miss is wrong: an anti-drug padayatra is not a counselling clinic, a minister's meeting is not a hospital, a festival is not a protest. When in doubt → "logo" (the app shows the Swipe2News logo card, no "AI picture" label). Party/organisation logo pictures still count as exact when the rules below say so.
 Old generic keys (c/…, n/…, cv/…, s/…) are no longer accepted for new stories: pick the e/ scene that shows THIS event.
