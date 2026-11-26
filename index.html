@@ -3258,11 +3258,12 @@ function mysWelcome(){ // owner's design 26 Nov 2026: logo, "మళ్లీ స
   const nn=cuNewAbove(r.i).length;
   o.innerHTML=`<div class="myswb2"><button type="button" class="mysx" aria-label="${CT('x')}">×</button>
     <div class="mwh"><i class="mysic">${MYS_ICON}</i><div><span class="myswbl">${MYS_WORD}</span><b id="mysWBt">${MT('wb2')}</b><small>${MT('wbsub')}</small></div></div>
-    <div class="mwb"><button type="button" class="mys1" id="mysWBc">${MT('wbgo')} →</button>${nn?`<button type="button" class="mys2" id="mysWBn">${MT('wbnew')}<i>${nn}</i></button>`:''}</div></div>`;
+    <div class="mwb"><button type="button" class="mys1" id="mysWBc">${MT('wbgo')} →</button><button type="button" class="mys2" id="mysWBn">${MT('wbnew')}${nn?`<i>${nn}</i>`:''}</button></div></div>`;
   o.querySelector('.mysx').onclick=mysWBClose;
   $('mysWBc').onclick=()=>{ MYS.ret=null; mysJump(r.i); };
-  if($('mysWBn')) $('mysWBn').onclick=()=>{ // read the new stories, then the next swipe after them brings the reader back here
-    const s0=LIST[r.i]; MYS.ret={id:rdId(s0),t:Date.now()}; mysSave(true); mysWBClose(); const f=cuNewAbove(r.i)[0]||0; if(f!==cur) go(f,'right'); else cuChip(); };
+  $('mysWBn').onclick=()=>{ // read the new stories, then the next swipe after them brings the reader back here (no new ones: just the latest from the top)
+    mysWBClose(); if(!nn){ if(cur!==0) go(0,'right'); return; }
+    const s0=LIST[r.i]; MYS.ret={id:rdId(s0),t:Date.now()}; mysSave(true); const f=cuNewAbove(r.i)[0]||0; if(f!==cur) go(f,'right'); else cuChip(); };
   mysWelcome.at=cur;
   o.hidden=false; requestAnimationFrame(()=>o.classList.add('on'));
   clearTimeout(mysWelcome.t); mysWelcome.t=setTimeout(mysWBClose,20000); }
