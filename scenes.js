@@ -656,6 +656,7 @@ const ART_PEOPLE=[
   ['e/photo-uttam-kumar-reddy',/ఉత్తమ్|Uttam\s?Kumar|\bUttam\b|उत्तम\s?कुमार/i,/ఉత్తమ్(?:\s?కుమార్\s?రెడ్డి)?\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)(?![\u0C00-\u0C7F])|(?:to|on|against|at|slams|attacks|targets)\s+Uttam/i],
   ['e/photo-bhatti-vikramarka',/భట్టి|Bhatti|भट्टी/i,/భట్టి(?:\s?విక్రమార్క)?\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)(?![\u0C00-\u0C7F])|(?:to|on|against|at|slams|attacks|targets)\s+(?:Mallu\s+)?Bhatti/i],
   ['e/photo-kavitha',/కల్వకుంట్ల\s?కవిత|కవిత(?=[\s:,!?'"‘’.]|$)|Kalvakuntla\s?Kavitha|\bK\.?\s?Kavitha\b|\bKavitha\b|कविता/i,/కవిత\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)(?![ఀ-౿])|(?:to|on|against|at|slams|attacks|targets)\s+(?:K\.?\s?)?Kavitha/i],
+  ['e/photo-modi',/మోదీ|మోడీ|నరేంద్ర\s?మోదీ|\bModi\b|मोदी/i,/లలిత్\s?మోదీ|నీరవ్\s?మోదీ|Lalit\s?Modi|Nirav\s?Modi|ललित\s?मोदी|नीरव\s?मोदी|(?:మోదీ|మోడీ)\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)(?![ఀ-౿])|(?:to|on|against|at|slams|attacks|targets)\s+(?:PM\s+)?Modi/i],
   ['e/photo-kcr',/కేసీఆర్|\bKCR\b|కె\.?\s?చంద్రశేఖర్\s?రావు|K\.?\s?Chandrashekar\s?Rao|केसीआर/i,/కేసీఆర్\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు|హయాం)|(?:to|on|against|at|slams|attacks|targets)\s+KCR/i],
   ['e/photo-kishan-reddy',/కిషన్\s?రెడ్డి|Kishan\s?Reddy|किशन\s?रेड्डी/i,/కిషన్\s?రెడ్డి\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|slams|attacks|targets)\s+Kishan/i],
   ['e/photo-bandi-sanjay',/బండి\s?సంజయ్|Bandi\s?Sanjay|बंडी\s?संजय/i,/బండి\s?సంజయ్\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|slams|attacks|targets)\s+Bandi/i],
