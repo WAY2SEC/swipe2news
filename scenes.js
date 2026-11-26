@@ -607,6 +607,8 @@ function artDam(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[
 // owner 26 Nov 2026: Srisailam temple stories → the owner's temple photo (dam/water stories keep the dam picture; no crime/death)
 // owner 26 Nov 2026: Harish Rao's real photo on his stories (not on deaths, crime or accidents)
 function artHarish(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[o.h,o.statl,o.stat,(o.en&&o.en.h)||''].join(' ').replace(/\u200c|\u200d/g,'');
+  // owner 26 Nov 2026: NOT when Harish is the one being answered/attacked ("Jagan's reply to Harish") – then the speaker's story isn't his
+  if(/(?:హరీశ్|హరీష్)(?:\s?రావు)?\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|counters|slams|attacks|rebuts|replies to|hits out at)\s+(?:BRS(?:'s)?\s+)?(?:leader\s+)?Harish|हरीश\s?(?:को|पर)/i.test(t)) return '';
   return /హరీశ్|హరీష్|Harish\s?Rao|हरीश/i.test(t)&&!/హత్య|మృతి|ప్రమాద|murder|death|accident/i.test(t)?'e/photo-harish-rao':''; }
 function artSrisailam(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[o.h,o.statl,o.stat,(o.en&&o.en.h)||''].join(' ').replace(/\u200c|\u200d/g,'');
   return /శ్రీశైల|Srisailam|श्रीशैल/i.test(t)&&!/హత్య|మృతి|ప్రమాద|అరెస్ట్|murder|death|accident|arrest/i.test(t)?'e/photo-srisailam-temple':''; }
