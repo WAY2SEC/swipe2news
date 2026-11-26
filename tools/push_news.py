@@ -200,6 +200,8 @@ def calendar(now, which, stories, sadf, done, key, dry):
         post(dict(base, filters=flt, headings={'en': tx.format(**fill)}, contents={'en': body}), f'greet/{which}/{lang}', key, dry)
     return top
 
+LOCAL_HS = set()
+
 def wait_live(local_updated, limit=300):
     """Owner, 26 Nov 2026: an alert tap must open the exact story. This job starts the moment the news is pushed,
     but the website (GitHub Pages) needs a minute or two to publish it; an alert sent before that opened another card.
@@ -209,7 +211,10 @@ def wait_live(local_updated, limit=300):
     while time.time() - t0 < limit:
         try:
             with urllib.request.urlopen(SITE + 'news.json?t=' + str(int(time.time())), timeout=20) as r:
-                if (json.loads(r.read().decode()).get('updated') or '') >= local_updated:
+                live = json.loads(r.read().decode())
+                # 26 Nov 2026: a hand-added story may not change "updated", so also wait until every local headline is live
+                hs = {x.get('h') for x in (live.get('stories') or [])}
+                if (live.get('updated') or '') >= local_updated and all(h in hs for h in LOCAL_HS):
                     print('site is live (%ds)' % (time.time() - t0)); return True
         except Exception as e:
             print('site check:', e)
@@ -219,7 +224,10 @@ def wait_live(local_updated, limit=300):
 def main():
     dry = '--dry' in sys.argv
     if not dry:
-        try: wait_live(json.load(open(os.path.join(ROOT, 'news.json'), encoding='utf-8')).get('updated') or '')
+        try:
+            _n = json.load(open(os.path.join(ROOT, 'news.json'), encoding='utf-8'))
+            LOCAL_HS.update(x.get('h') for x in (_n.get('stories') or [])[:10] if x.get('h'))
+            wait_live(_n.get('updated') or '')
         except Exception as e: print('wait_live skipped:', e)
     key = os.environ.get('ONESIGNAL_REST_KEY', '').strip()
     now = datetime.datetime.now(IST)
