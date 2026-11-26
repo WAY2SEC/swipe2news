@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-26T12:05:00+05:30",
+ "cutoff": "2026-11-26T12:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-23T13:35:00+05:30/2026-11-23T14:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 10,
-   "published": 10,
-   "late": 0,
-   "sensitive": 3,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Lookback from 05:35 on 23 Nov. Feeds 13:42 IST (69/70 ok; district:Palnadu:en HTTP 429). 90 uncovered events first seen since 13:05 scanned. add_repo tool not available; used existing clone. 3 fetch agents, 22 items, 10 opened and published: DC Ichoda money-doubling gang 5 held (13:24, sensitive, police), DC Amit Shah Nov 24 visit cancelled (13:24), TT Shaikpet woman threat calls over loan (13:16, sensitive, claim), HMTV Mydukur chairman oath (13:26), AJ Nandyal vice-chairman to TDP (13:28), DC Ongole 24-yr deputy mayor (13:36), ETV 13 AP corporations oath (13:14), SolarQuarter APTRANSCO 1,000 MW BESS bids (13:23), ETV Cyberabad Moves 26-28 Nov (13:18), NTV Pithapuram Jana Sena rift (13:12, sensitive, claim). Duplicates (feed, already on app): Kerala CM Puttaparthi, SI hall tickets, Tata Steel-APL Apollo, BRS-KRMB. Skipped: Prabha News RRR-South 4,962 acres (published 19 Nov, before lookback). Not found in search (left unseen): ET Education UNICEF midday meals 6%, TOI dengue 47 vs 0, TOI/Siasat congestion pricing, DC NCERT blurred text, Samayam Puri fuel 7%, Siasat PV retail sales, NDTV Ganga treaty, Reuters Armenia constitution, DC OpenAI scientist, Disha Nandyal borewells. No district searches this run. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T14:05:00+05:30/2026-11-23T14:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 03:35. Feeds 11:54 IST (67/70 ok; NTV 429; 96 uncovered unseen events first seen since 11:00). add_repo tool not available; used existing clone. Direct feed URLs refused by fetch; opened only after WebSearch surfaced them. Published 4: ThePrint/PTI SC quashes Anand Mohan remission (11:47), V6 Tirumala 62 unauthorised moved out (11:07), TT KTR job calendar (11:45, claim), Hans/IANS Army microlights on Gujarat highway (11:08). Duplicates: The Hindu Tadipatri SUV-lorry four dead (same accident published 08:05), Oneindia Kachiguda bomb-squad checks (threat mail covered 22-24 Nov, nothing new). Skipped as old: NewsMeter AP municipal polls (1 Nov). Not opened (no search hit): Hindu foodgrains 378.53 mt, Reuters food warning labels, Andhra Jyothy AP poll clashes, Prajasakti NTR district polling 43.06%, Hans SEC NTR district, ETV Bharat HC on misuse of hearings. DC AP panchayat live page had no turnout figures. District searches gave only tag pages. Lang pages/index/sitemap reverted. Kept owner's 11:45 Constitution Day poster first."
+  },
+  {
+   "window": "2026-11-26T12:05:00+05:30/2026-11-26T12:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 8,
+   "published": 6,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 04:05. Feeds 12:17 IST (67/68 ok; 56 uncovered unseen events first seen since 11:50, many entertainment/business). add_repo tool not available; used existing clone. Published 6: TT Medak unseasonal rain paddy loss (11:57), TT KTR panchayats in deficit (12:05, claim), Siasat Amazon used-laptop refund order (12:07), Siasat TGRERA Rs 2 cr fine Tellapur builder (12:12), Hans Anakapalli 33.70% polling by 9am (11:54), HMTV Cherla sand lorry one dead (10:20, late-found, sensitive). Duplicates: Hindu Cyberabad green-tanker suspension (published 25 Nov 17:05), Hindu Cyberabad Moves summit (74% two-wheeler story 25 Nov), Disha SC IAS murder case (Anand Mohan published 12:05). Not attempted: HSRP alert (HMTV), Telangana pensions credit (Vaartha), Disha AP poll tensions, Suryapet student assault (NT), Hetero HIV drug (Reuters), world items. District searches (Nalgonda, Srikakulam/Vizianagaram, Khammam/Bhadradri, Anantapur/Kurnool) mostly tag pages. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7678,6 +7678,46 @@
    "url": "https://newsmeter.in/regional/andhra-pradesh/ap-municipal-polls-voters-turn-out-in-large-numbers-political-rival-groups-clash-in-some-areas-778499",
    "d": "2026-11-26",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/unseasonal-rains-leave-farmers-in-huge-losses-in-medak",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-villages-in-deficit-under-congress-ktr",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/amazon-seller-fined-rs-68k-for-selling-used-laptop-as-new-to-hyderabad-buyer-3587029/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/developers-under-fire-tgrera-acts-against-hyderabad-builders-3587118/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/anakapalli-registers-3370-polling-1145938",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/khammam/bhadradri-kothagudem-cherla-sand-lorry-hits-bike-one-dead-satyanarayanapuram-217317",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/cyberabad-contractors-work-order-canceled-over-supply-of-drainage-water-through-green-tanker-circle-manager-suspe",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/cyberabad-moves-summit-to-focus-on-traffic-congestion-public-transport-and-urban-mobility/article71743745.ece",
+   "d": "2026-11-26",
+   "w": "duplicate"
   }
  ]
 }
