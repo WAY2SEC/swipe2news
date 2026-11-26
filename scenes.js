@@ -629,6 +629,9 @@ function artRevanth(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const
 // [picture, name pattern, "target" pattern (name + కు/పై/ను…), names that mean someone else]
 const ART_PEOPLE=[
   ['e/photo-chandrababu-naidu',/చంద్రబాబు|Chandrababu|Chandrababu\s?Naidu|CM\s?Naidu|चंद्रबाबू/i,/చంద్రబాబు(?:\s?నాయుడు)?\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు|సర్కార్)|(?:to|on|against|at|slams|attacks|targets)\s+(?:CM\s+)?(?:Chandrababu|Naidu)/i],
+  ['e/photo-pawan-kalyan',/పవన్\s?కల్యాణ్|పవన్\s?కళ్యాణ్|Pawan\s?Kalyan|पवन\s?कल्याण/i,/పవన్(?:\s?కల్యాణ్|\s?కళ్యాణ్)?\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|slams|attacks|targets)\s+Pawan/i],
+  ['e/photo-nara-lokesh',/నారా\s?లోకేశ్|నారా\s?లోకేష్|(?:మంత్రి\s?)?లోకేశ్|లోకేష్|Nara\s?Lokesh|\bLokesh\b|लोकेश/i,/లోకే(?:శ్|ష్)\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|slams|attacks|targets)\s+(?:Nara\s+)?Lokesh/i],
+  ['e/photo-balakrishna',/బాలకృష్ణ|బాలయ్య|Balakrishna|Balayya|बालकृष्ण/i,/(?:బాలకృష్ణ|బాలయ్య)\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|slams|attacks|targets)\s+Balakrishna/i],
   ['e/photo-kcr',/కేసీఆర్|\bKCR\b|కె\.?\s?చంద్రశేఖర్\s?రావు|K\.?\s?Chandrashekar\s?Rao|केसीआर/i,/కేసీఆర్\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు|హయాం)|(?:to|on|against|at|slams|attacks|targets)\s+KCR/i],
   ['e/photo-kishan-reddy',/కిషన్\s?రెడ్డి|Kishan\s?Reddy|किशन\s?रेड्डी/i,/కిషన్\s?రెడ్డి\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|slams|attacks|targets)\s+Kishan/i],
   ['e/photo-bandi-sanjay',/బండి\s?సంజయ్|Bandi\s?Sanjay|बंडी\s?संजय/i,/బండి\s?సంజయ్\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|slams|attacks|targets)\s+Bandi/i],
