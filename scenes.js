@@ -590,7 +590,16 @@ function artOrg(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[
 // owner 25 Nov 2026: "use this image for all airport cargo news"
 const ART_AIRCARGO=[/కార్గో|సరుకు\s?రవాణా|\bcargo\b|\bfreighters?\b|\bULDs?\b|कार्गो|माल\s?ढुलाई/i, /విమాన|ఎయిర్|ఏవియేషన్|\bair\b|airport|airline|aviation|हवाई|एयर/i];
 function artAirCargo(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[o.h,o.statl,o.stat,(o.en&&o.en.h)||''].join(' ').replace(/\u200c|\u200d/g,''); return ART_AIRCARGO.every(r=>r.test(t))?'e/air-cargo':''; }
-function artPlan(s){ const ac=artAirCargo(s); if(ac) return {m:'land',bg:ac};
+// owner 26 Nov 2026: the five big Telangana/AP dams – each gets its own picture on water/project stories
+const ART_WATER=/ప్రాజెక్ట|జలాశయ|డ్యాం|డ్యామ్|గేట్ల|గేట్లు|నీటి|నీరు|ఇన్\s?ఫ్లో|ఇన్‌ఫ్లో|ఔట్\s?ఫ్లో|ఔట్‌ఫ్లో|వరద|టీఎంసీ|క్యూసెక్|\bdams?\b|reservoir|\bgates?\b|inflow|outflow|\bTMC\b|cusecs?|flood|बांध|जलाशय/i;
+const ART_DAMS=[['e/dam-nagarjuna-sagar',/నాగార్జున\s?సాగర్|నాగార్జునసాగర్|Nagarjuna\s?Sagar|नागार्जुन\s?सागर/i],
+  ['e/dam-srisailam',/శ్రీశైలం|Srisailam|श्रीशैलम/i],
+  ['e/dam-sriram-sagar',/శ్రీరాంసాగర్|శ్రీరామ్\s?సాగర్|శ్రీరాం\s?సాగర్|ఎస్సారెస్పీ|ఎస్ఆర్ఎస్పీ|Sriram\s?Sagar|\bSRSP\b|Pochampad|పోచంపాడ్/i],
+  ['e/dam-nizam-sagar',/నిజాంసాగర్|నిజాం\s?సాగర్|Nizam\s?Sagar|Nizamsagar/i],
+  ['e/dam-jurala',/జూరాల|Jurala/i]];
+function artDam(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[o.h,o.statl,o.stat,(o.en&&o.en.h)||''].join(' ').replace(/‌|‍/g,'');
+  if(!ART_WATER.test(t)) return ''; for(const [k,rx] of ART_DAMS) if(rx.test(t)) return k; return ''; }
+function artPlan(s){ const ac=artAirCargo(s); if(ac) return {m:'land',bg:ac}; const dm=artDam(s); if(dm) return {m:'land',bg:dm};
   { const o=(s&&s._orig)||s; // airport stories without a chosen picture: the airport picture, not the train/travel one
     if(o&&!o.kind&&(!o.pic||String(o.pic).startsWith('c/')||String(o.pic).startsWith('n/'))&&!artOrg(s)&&/విమానాశ్రయ|ఎయిర్\s?పోర్ట్|\bairports?\b|हवाई\s?अड्ड|एयरपोर्ट/i.test([o.h,o.statl,(o.en&&o.en.h)||''].join(' ').replace(/\u200c|\u200d/g,''))) return {m:'land',bg:'e/airport-travel'}; }
   const ok=artOrg(s); if(ok) return {m:'land',bg:ok}; const a=artPlan1(s); const pk=artParty(s,a); return pk?{m:'land',bg:pk}:a; }

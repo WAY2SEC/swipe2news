@@ -73,6 +73,10 @@ Deaths/killings → e/remembrance-and-condolence (same as n/condolence). Do NOT 
 - e/bike-tour – couple on a long bike tour across India: bike expeditions, road trips, all-India rides
 (the app also uses these automatically for cycle / bike stories marked "logo")
 
+### Dams (owner, 26 Nov 2026) – picked automatically when the story names the dam AND is about water/gates/inflow/project
+- e/dam-nagarjuna-sagar · e/dam-srisailam · e/dam-sriram-sagar (SRSP, Pochampad) · e/dam-nizam-sagar · e/dam-jurala
+- Srisailam temple / Nagarjuna Sagar town or MLA stories are NOT dam stories (no water word → no dam picture).
+
 ### Exact picture for common stories (owner 21 Nov 2026: "use the exact images") – REQUIRED for new stories
 **No exact picture → `"pic":"logo"` (owner 24 Nov 2026: "if you do not have any image, don't use anyone – just use our logo").** Use an e/ scene only when a reader seeing ONLY the picture would guess this event. A near miss is wrong: an anti-drug padayatra is not a counselling clinic, a minister's meeting is not a hospital, a festival is not a protest. When in doubt → "logo" (the app shows the Swipe2News logo card, no "AI picture" label). Party/organisation logo pictures still count as exact when the rules below say so.
 Old generic keys (c/…, n/…, cv/…, s/…) are no longer accepted for new stories: pick the e/ scene that shows THIS event.
