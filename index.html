@@ -1608,7 +1608,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
   <div class="toast" id="toast" role="status"></div>
 </div>
 
-<script src="scenes.js?v=20261126m"></script>
+<script src="scenes.js?v=20261126n"></script>
 <script src="mandi.js?v=2"></script>
 <script>
 const CONFIG = {
@@ -2781,7 +2781,12 @@ async function newsCard(s,mode){
   ctx.fillStyle=PLUM; ctx.fillRect(0,0,W,PIC);
   let hasPh=false, hasArt=false; try{ hasPh=await drawStoryPhoto(ctx,s,0,0,W,PIC); }catch(e){}
   if(!hasPh){ try{ hasArt=await drawArtPlan(ctx,s,0,0,W,PIC,1); }catch(e){} }
-  const g=ctx.createLinearGradient(0,0,0,PIC); g.addColorStop(0,'rgba(46,8,39,.55)'); g.addColorStop(.22,'rgba(46,8,39,0)'); g.addColorStop(.40,'rgba(46,8,39,0)'); g.addColorStop(.66,'rgba(20,4,17,.82)'); g.addColorStop(1,'rgba(20,4,17,.95)'); ctx.fillStyle=g; ctx.fillRect(0,0,W,PIC);
+  // real photos of people (e/photo-…): light shade only, so the whole face shows (owner 26 Nov 2026: "face is not fully showing")
+  let isPhoto=false; try{ const ap=artPlan(s); isPhoto=!!(ap&&ap.bg&&/^e\/photo-/.test(ap.bg)); }catch(e){}
+  const g=ctx.createLinearGradient(0,0,0,PIC);
+  if(isPhoto){ g.addColorStop(0,'rgba(46,8,39,.62)'); g.addColorStop(.07,'rgba(46,8,39,.3)'); g.addColorStop(.12,'rgba(46,8,39,0)'); g.addColorStop(.72,'rgba(20,4,17,0)'); g.addColorStop(.88,'rgba(20,4,17,.70)'); g.addColorStop(1,'rgba(20,4,17,.92)'); }
+  else { g.addColorStop(0,'rgba(46,8,39,.55)'); g.addColorStop(.22,'rgba(46,8,39,0)'); g.addColorStop(.40,'rgba(46,8,39,0)'); g.addColorStop(.66,'rgba(20,4,17,.82)'); g.addColorStop(1,'rgba(20,4,17,.95)'); }
+  ctx.fillStyle=g; ctx.fillRect(0,0,W,PIC);
   // top row: pill + date/time
   const pill=(s.brk?'🔴 ':'')+(s.cat||U('news')); ctx.font=`700 32px ${TE}`; const pw=Math.min(W*0.62,ctx.measureText(pill).width+52);
   ctx.fillStyle='rgba(46,8,39,.4)'; rrect(ctx,43,38,pw,60,30); ctx.fill(); ctx.strokeStyle='rgba(255,253,245,.85)'; ctx.lineWidth=3; rrect(ctx,43,38,pw,60,30); ctx.stroke();
