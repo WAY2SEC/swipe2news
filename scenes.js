@@ -447,6 +447,12 @@ function artIndustry(tt){
   return ''; }
 function artNews(t){ for(const [rx,k] of ART_N) if(rx.test(t)) return k; return ''; }
 function artRegion(t){ for(const [rx,k] of ART_REG) if(rx.test(t)) return k; return ''; }
+// owner 26 Nov 2026: more than one picture for common incidents, so back-to-back stories don't look the same
+const ART_VAR={'e/road-accident-response':['e/road-accident-response','e/road-accident-response-2','e/road-accident-response-3'],'e/fire-service-response':['e/fire-service-response','e/fire-building-blaze']};
+function artVar(pc,h){ const v=ART_VAR[pc]; if(!v) return pc; let n=0; for(const c of String(h||'')) n=(n*31+c.charCodeAt(0))>>>0; return v[n%v.length]; }
+// owner 26 Nov 2026: sports and incident pictures (used when the story has no picture of its own)
+const ART_SCENE=[[/కబడ్డీ|kabaddi|कबड्डी/i,'e/kabaddi-match'],[/హాకీ|\bhockey\b|हॉकी/i,'e/field-hockey'],[/ఆర్చరీ|విలువిద్య|\barchery\b|\barchers?\b|तीरंदाज/i,'e/archery'],[/వాలీబాల్|volleyball|वॉलीबॉल/i,'e/volleyball-match'],[/అథ్లెటిక్స్|పరుగు పందెం|స్ప్రింట్|athletics|\bsprint|marathon|మారథాన్|एथलेटिक्स/i,'e/athletics-race'],[/క్రికెట్|\bcricket|क्रिकेट/i,'e/cricket-match'],
+ [/రైలు ప్రమాద|పట్టాలు తప్పిన|పట్టాలు తప్పి|derail|train accident|train collision|रेल हादसा/i,'e/railway-accident-response'],[/భవనం కూలి|కూలిన భవన|గోడ కూలి|building collapse|wall collapse|इमारत ढह/i,'e/building-collapse-rescue'],[/అగ్నిప్రమాద|అగ్ని ప్రమాద|మంటలు|అగ్నికీలల|\bfire\b|\bblaze\b|आग/i,'e/fire-service-response'],[/రోడ్డు ప్రమాద|ఢీకొన|బోల్తా|road accident|collision|\bcrash|overturn|सड़क हादसा/i,'e/road-accident-response'],[/వరదల్లో చిక్కుకున్న|వరద బాధిత|సహాయక చర్య|NDRF|SDRF|flood rescue|rescued from flood/i,'e/flood-rescue'],[/చెట్లు కూలి|కూలిన చెట్ల|నేలకొరిగిన|fallen trees?|uprooted|storm damage|ఈదురుగాలుల/i,'e/fallen-tree-after-storm']];
 function artPlan0(s){
   if(s&&s._orig) s=s._orig; // Tenglish: choose the picture from the Telugu original
   if(!s||s.kind) return null;
@@ -465,9 +471,10 @@ function artPlan0(s){
     if(/రాజ్యాంగ|అంబేద్కర్|అంబేడ్కర్|\bConstitution\b|Ambedkar|संविधान|आंबेडकर|अंबेडकर/i.test(t)) return {m:'land',bg:'e/constitution-day'};
     if(/పోలింగ్|ఓటింగ్|ఓటర్లు|ఎన్నికల\s?ఓట|\bpolling\b|\bvoting\b|\bvoters?\b|मतदान/i.test(t)) return {m:'land',bg:/పంచాయతీ|సర్పంచ్|వార్డు|panchayat|sarpanch|पंचायत/i.test(t)?'e/ballot-paper-vote':'e/voting-day'};
     if(/సరిహద్దు|బీఎస్ఎఫ్|బీఎస్‌ఎఫ్|\bBSF\b|\bborder\b|सीमा|बीएसएफ/i.test(t)) return {m:'land',bg:'e/border-security-patrol'}; // owner 25 Nov 2026 (Bangladesh border story)
+    for(const [rx,b] of ART_SCENE) if(rx.test(t)) return {m:'land',bg:artVar(b,s.h)};
     return {m:'logo'}; }
   { const pc=String(s.pic||''), m=pc.match(/^(c|o|i|n|s|cv|w|d|e)\/([a-z0-9-]+)$/);
-    if(m){ if(m[1]==='c') return {m:'cat',cat:m[2]}; if(m[1]==='o') return {m:'plain',obj:m[2]}; return {m:'land',bg:m[1]==='d'?m[2]:pc}; } }
+    if(m){ if(m[1]==='c') return {m:'cat',cat:m[2]}; if(m[1]==='o') return {m:'plain',obj:m[2]}; return {m:'land',bg:m[1]==='d'?m[2]:artVar(pc,s.h)}; } }
   const pk=normPlace(String(s.place||'').toLowerCase()), land=ART_D.has(pk)&&!['tg','ap'].includes(pk)?pk:'';
   const st=stateOf(s), sland=st==='AP'?'ap':(st==='TG'||st==='TS')?'tg':'';
   const t=(s.h||'')+' '+((s.en&&s.en.h)||'')+' '+(s.p||'').slice(0,160);

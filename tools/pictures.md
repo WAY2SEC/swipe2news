@@ -97,6 +97,7 @@ Old generic keys (c/…, n/…, cv/…, s/…) are no longer accepted for new st
 - walking campaigns (owner 24 Nov 2026) – walkathon, awareness walk, health walk, "walk for …", morning-walk drive → e/walking-campaign (street, crowd at sunrise) or e/morning-walk-jog (park path, walkers and joggers) · running campaigns – 2K/5K/10K run, marathon, Run for Unity, fun run, run against drugs → e/running-campaign. A political padayatra or party rally is NOT a fitness walk → party picture / e/political-campaign-rally / "logo"
 - ACB/bribe/ED/corruption → e/corruption-investigation · job/investment/OTP fraud → e/financial-scam-awareness · online fraud, piracy, hacking → e/cyber-fraud-complaint
 - court verdict, bail, High Court → e/court-hearing · consumer forum → e/consumer-complaint · land dispute → e/land-dispute-mediation
+- fire → e/fire-service-response (app also rotates e/fire-building-blaze) · road accident variants rotate automatically (e/road-accident-response, -2, -3) · archery → e/archery · hockey → e/field-hockey
 - fire → e/fire-service-response · road accident/collision → e/road-accident-response · train accident → e/railway-accident-response · building collapse → e/building-collapse-rescue
 - deaths, condolence → e/remembrance-and-condolence · protest, dharna, strike → e/peaceful-public-protest
 - ONE party speaks, condemns, protests or criticises (BRS/Congress/BJP/TDP/YSRCP/Janasena/BSP/CPI/CPI(M)/SFI/BJYM/AIMIM named once, as the speaker) → e/party-<name> (owner 22 Nov 2026: "…ఖండించిన బీఆర్‌ఎస్" shows the BRS picture). Party only as the TARGET (బీఆర్‌ఎస్‌పై…), two parties, alliances → e/government-press-briefing · leader's statement/allegation/press meet with no party named → e/government-press-briefing · govt order/policy/target → e/public-policy-announcement · Assembly → e/state-assembly-session · Parliament → e/parliamentary-debate
@@ -165,7 +166,7 @@ e/stock-market-movement · e/gold-and-silver-prices · e/inflation-and-groceries
 e/artificial-intelligence · e/mobile-network-coverage · e/data-privacy · e/space-rocket-launch · e/satellite-communication · e/scientific-research · e/electric-mobility-technology · e/digital-newsroom · e/misinformation-verification · e/robotics-training
 
 ### Sports and Fitness
-e/cricket-match · e/badminton-tournament · e/kabaddi-match · e/football-practice · e/volleyball-match · e/athletics-race · e/wrestling-training · e/chess-tournament · e/community-yoga · e/rural-sports-ground · e/walking-campaign · e/morning-walk-jog · e/running-campaign
+e/cricket-match · e/badminton-tournament · e/kabaddi-match · e/football-practice · e/volleyball-match · e/athletics-race · e/archery · e/field-hockey · e/wrestling-training · e/chess-tournament · e/community-yoga · e/rural-sports-ground · e/walking-campaign · e/morning-walk-jog · e/running-campaign
 
 ### Culture Entertainment and Heritage
 e/bathukamma-celebration · e/bonalu-procession · e/sankranti-village-festival · e/ugadi-family-celebration · e/diwali-lamps · e/eid-community-gathering · e/christmas-community-celebration · e/telugu-cinema-screening · e/classical-dance-performance · e/handloom-weaving
