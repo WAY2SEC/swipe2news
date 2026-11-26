@@ -448,7 +448,7 @@ function artIndustry(tt){
 function artNews(t){ for(const [rx,k] of ART_N) if(rx.test(t)) return k; return ''; }
 function artRegion(t){ for(const [rx,k] of ART_REG) if(rx.test(t)) return k; return ''; }
 // owner 26 Nov 2026: more than one picture for common incidents, so back-to-back stories don't look the same
-const ART_VAR={'e/road-accident-response':['e/road-accident-response','e/road-accident-response-2','e/road-accident-response-3'],'e/fire-service-response':['e/fire-service-response','e/fire-building-blaze']};
+const ART_VAR={'e/bathukamma-festival':['e/bathukamma-festival','e/bathukamma-flowers'],'e/bonalu-procession':['e/bonalu-procession','e/bonalu-women','e/bonalu-pothuraju'],'e/medaram-jatara':['e/medaram-jatara','e/medaram-bangaram'],'e/road-accident-response':['e/road-accident-response','e/road-accident-response-2','e/road-accident-response-3'],'e/fire-service-response':['e/fire-service-response','e/fire-building-blaze']};
 function artVar(pc,h){ const v=ART_VAR[pc]; if(!v) return pc; let n=0; for(const c of String(h||'')) n=(n*31+c.charCodeAt(0))>>>0; return v[n%v.length]; }
 // owner 26 Nov 2026: sports and incident pictures (used when the story has no picture of its own)
 const ART_SCENE=[[/కబడ్డీ|kabaddi|कबड्डी/i,'e/kabaddi-match'],[/హాకీ|\bhockey\b|हॉकी/i,'e/field-hockey'],[/ఆర్చరీ|విలువిద్య|\barchery\b|\barchers?\b|तीरंदाज/i,'e/archery'],[/వాలీబాల్|volleyball|वॉलीबॉल/i,'e/volleyball-match'],[/అథ్లెటిక్స్|పరుగు పందెం|స్ప్రింట్|athletics|\bsprint|marathon|మారథాన్|एथलेटिक्स/i,'e/athletics-race'],[/క్రికెట్|\bcricket|क्रिकेट/i,'e/cricket-match'],
@@ -456,6 +456,12 @@ const ART_SCENE=[[/కబడ్డీ|kabaddi|कबड्डी/i,'e/kabaddi-ma
 function artPlan0(s){
   if(s&&s._orig) s=s._orig; // Tenglish: choose the picture from the Telugu original
   if(!s||s.kind) return null;
+  { // owner 26 Nov 2026: Telangana festivals always get the festival picture (not on crime, death or accident stories)
+    const t=[s.h,s.statl,(s.en&&s.en.h)||''].join(' ');
+    if(!/హత్య|మృతి|మరణ|ప్రమాద|అరెస్ట్|murder|death|accident|arrest|killed/i.test(t)){
+      if(/బతుకమ్మ|Bathukamma|बतुकम्मा/i.test(t)) return {m:'land',bg:artVar('e/bathukamma-festival',s.h)};
+      if(/బోనాల|బోనం|పోతరాజ|Bonalu|Bonam|Pothuraju|बोनालु/i.test(t)) return {m:'land',bg:/పోతరాజ|Pothuraju/i.test(t)?'e/bonalu-pothuraju':artVar('e/bonalu-procession',s.h)};
+      if(/మేడారం|సమ్మక్క|సారలమ్మ|Medaram|Sammakka|Saralamma|मेडारम/i.test(t)) return {m:'land',bg:/బంగారం|బెల్లం|jaggery|bangaram/i.test(t)?'e/medaram-bangaram':artVar('e/medaram-jatara',s.h)}; } }
   // owner 18 Nov 2026 ("no mistakes, we are on the Play Store"): the newsroom now picks the picture for every story
   // by reading it (field "pic", from tools/pictures.md). Keyword guessing below is only the fallback for old stories.
   if(String(s.pic||'')==='logo'){ // owner 24 Nov 2026: "if you do not have any image, don't use anyone – just our logo"

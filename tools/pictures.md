@@ -97,6 +97,7 @@ Old generic keys (c/…, n/…, cv/…, s/…) are no longer accepted for new st
 - walking campaigns (owner 24 Nov 2026) – walkathon, awareness walk, health walk, "walk for …", morning-walk drive → e/walking-campaign (street, crowd at sunrise) or e/morning-walk-jog (park path, walkers and joggers) · running campaigns – 2K/5K/10K run, marathon, Run for Unity, fun run, run against drugs → e/running-campaign. A political padayatra or party rally is NOT a fitness walk → party picture / e/political-campaign-rally / "logo"
 - ACB/bribe/ED/corruption → e/corruption-investigation · job/investment/OTP fraud → e/financial-scam-awareness · online fraud, piracy, hacking → e/cyber-fraud-complaint
 - court verdict, bail, High Court → e/court-hearing · consumer forum → e/consumer-complaint · land dispute → e/land-dispute-mediation
+- festivals (automatic): Bathukamma → e/bathukamma-festival / e/bathukamma-flowers · Bonalu → e/bonalu-procession / e/bonalu-women / e/bonalu-pothuraju · Medaram → e/medaram-jatara / e/medaram-bangaram
 - fire → e/fire-service-response (app also rotates e/fire-building-blaze) · road accident variants rotate automatically (e/road-accident-response, -2, -3) · archery → e/archery · hockey → e/field-hockey
 - fire → e/fire-service-response · road accident/collision → e/road-accident-response · train accident → e/railway-accident-response · building collapse → e/building-collapse-rescue
 - deaths, condolence → e/remembrance-and-condolence · protest, dharna, strike → e/peaceful-public-protest
