@@ -1,8 +1,336 @@
 {
  "date": "26.11.2026",
  "iso": "2026-11-26",
- "count": 71,
+ "count": 77,
  "stories": [
+  {
+   "cat": "తెలంగాణ · వ్యవసాయం",
+   "col": "--c-water",
+   "art": "farm",
+   "pic": "e/unseasonal-hail-damage",
+   "stat": "వరికి నష్టం",
+   "statl": "అకాల వర్షంతో",
+   "h": "మెదక్‌లో అకాల వర్షానికి తడిసిన వరి",
+   "p": "మెదక్ జిల్లాలోని పలు ప్రాంతాల్లో బుధవారం రాత్రి అకాల వర్షం కురిసింది. కోతకు సిద్ధంగా ఉన్న వరి పంట పొలాల్లోనే దెబ్బతింది. కొనుగోలు కేంద్రాలు, కల్లాల్లో ఆరబెట్టిన ధాన్యం కూడా తడిసిపోయింది. కొన్నిచోట్ల ధాన్యం వర్షపు నీటిలో కొట్టుకుపోయింది. ట్రాక్టర్‌లోని ధాన్యం నీటిలో కొట్టుకుపోతున్న వీడియో వైరల్ అయింది. చాలామంది రైతులు తాము నష్టపోయామని చెబుతున్నారు.",
+   "pts": [
+    "కోనాపూర్ కౌలు రైతుకు ₹40 వేలకు పైగా నష్టం",
+    "అధికారుల నష్టం అంచనా వార్తలో లేదు"
+   ],
+   "why": "కోతల సమయంలో ధాన్యం అమ్ముకోవాల్సిన మెదక్ జిల్లా వరి రైతులపై ఈ నష్టం పడుతుంది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/unseasonal-rains-leave-farmers-in-huge-losses-in-medak",
+   "sec": [
+    "telangana",
+    "agri",
+    "weather"
+   ],
+   "st": "TG",
+   "place": "medak",
+   "loc": "కోనాపూర్, రామాయంపేట",
+   "pub": "2026-11-26T11:57+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Farming",
+    "stat": "Paddy damaged",
+    "statl": "by unseasonal rain",
+    "loc": "Konapur, Ramayampet",
+    "h": "Unseasonal rain soaks paddy in Medak",
+    "p": "Unseasonal rain lashed several parts of Medak district on Wednesday night. Standing paddy ready for harvest was damaged in the fields. Grain kept at procurement centres and drying yards got soaked, and in some places it was washed away. A video of a tractor-load of paddy being swept away went viral. Many farmers say they have suffered losses.",
+    "pts": [
+     "Konapur tenant farmer lost over ₹40,000",
+     "No official loss estimate in the report"
+    ],
+    "why": "The loss falls on Medak paddy farmers who must sell their grain during the harvest."
+   },
+   "hi": {
+    "cat": "तेलंगाना · कृषि",
+    "stat": "धान को नुकसान",
+    "statl": "बेमौसम बारिश से",
+    "loc": "कोनापुर, रामायमपेट",
+    "h": "मेदक में बेमौसम बारिश से धान भीगा",
+    "p": "मेदक जिले के कई इलाकों में बुधवार रात बेमौसम बारिश हुई। कटाई के लिए तैयार धान खेतों में ही खराब हो गया। खरीद केंद्रों और खलिहानों में सुखाया जा रहा अनाज भीग गया, कुछ जगह बह गया। ट्रैक्टर में लदे धान के पानी में बहने का वीडियो वायरल हुआ। कई किसानों का कहना है कि उन्हें नुकसान हुआ है।",
+    "pts": [
+     "कोनापुर के बटाईदार किसान को ₹40,000 से ज़्यादा का नुकसान",
+     "खबर में सरकारी नुकसान का आकलन नहीं"
+    ],
+    "why": "यह नुकसान उन मेदक के धान किसानों पर पड़ता है जिन्हें कटाई के समय अनाज बेचना है।"
+   },
+   "d": "26.11.2026",
+   "t": "12:35"
+  },
+  {
+   "cat": "తెలంగాణ · రాజకీయం",
+   "col": "--c-gov",
+   "pic": "e/party-brs",
+   "stat": "పంచాయతీల ఖర్చు",
+   "statl": "తగ్గిందని ఆరోపణ",
+   "h": "పంచాయతీలు లోటులో పడ్డాయి: కేటీఆర్",
+   "p": "కాంగ్రెస్ పాలనలో తెలంగాణ గ్రామ పంచాయతీలు మిగులు నుంచి లోటులోకి వెళ్లాయని బీఆర్‌ఎస్ వర్కింగ్ ప్రెసిడెంట్ కేటీ రామారావు ఆరోపించారు. ఆర్‌బీఐ నివేదికను చూపుతూ పంచాయతీ సగటు ఖర్చు ₹16.59 లక్షల నుంచి ₹6.24 లక్షలకు తగ్గిందన్నారు. దీంతో పారిశుధ్యం, తాగునీరు, వీధి దీపాలు దెబ్బతిన్నాయన్నారు.",
+   "pts": [
+    "ఖర్చు పోలిక 2022-23, 2024-25 సంవత్సరాలది",
+    "ప్రభుత్వం వైపు స్పందన వార్తలో లేదు"
+   ],
+   "why": "గ్రామాల్లో పారిశుధ్యం, తాగునీటి సేవలపై ఆధారపడే ప్రజలకు సంబంధించిన రాజకీయ వివాదం ఇది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/telangana-villages-in-deficit-under-congress-ktr",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pub": "2026-11-26T12:05+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Telangana · Politics",
+    "stat": "Panchayat spending",
+    "statl": "fell, alleges KTR",
+    "loc": "Telangana",
+    "h": "KTR: panchayats pushed into deficit",
+    "p": "BRS working president K.T. Rama Rao alleged that Telangana's gram panchayats slipped from surplus into deficit under Congress rule. Citing an RBI report, he said average panchayat spending fell from ₹16.59 lakh to ₹6.24 lakh. He said sanitation, drinking water and street lights have suffered.",
+    "pts": [
+     "The comparison is for 2022-23 and 2024-25",
+     "The report carries no government response"
+    ],
+    "why": "It is a political dispute about sanitation and water services that villagers rely on."
+   },
+   "hi": {
+    "cat": "तेलंगाना · राजनीति",
+    "stat": "पंचायतों का खर्च",
+    "statl": "घटा, केटीआर का आरोप",
+    "loc": "तेलंगाना",
+    "h": "केटीआर: पंचायतें घाटे में पहुँचीं",
+    "p": "बीआरएस कार्यकारी अध्यक्ष के.टी. रामाराव ने आरोप लगाया कि कांग्रेस शासन में तेलंगाना की ग्राम पंचायतें अधिशेष से घाटे में चली गईं। आरबीआई रिपोर्ट का हवाला देते हुए उन्होंने कहा कि पंचायत का औसत खर्च ₹16.59 लाख से घटकर ₹6.24 लाख रह गया। उन्होंने कहा कि सफाई, पेयजल और स्ट्रीट लाइटें प्रभावित हुईं।",
+    "pts": [
+     "तुलना 2022-23 और 2024-25 की है",
+     "खबर में सरकार की प्रतिक्रिया नहीं है"
+    ],
+    "why": "यह गाँवों की सफाई और पानी सेवाओं से जुड़ा राजनीतिक विवाद है।"
+   },
+   "d": "26.11.2026",
+   "t": "12:35",
+   "art": ""
+  },
+  {
+   "cat": "హైదరాబాద్ · వినియోగదారులు",
+   "col": "--c-money",
+   "pic": "e/consumer-complaint",
+   "stat": "₹68,990",
+   "statl": "వడ్డీతో తిరిగి ఇవ్వాలి",
+   "h": "వాడిన ల్యాప్‌టాప్ పంపిన అమెజాన్‌కు ఆదేశం",
+   "p": "కొత్త గేమింగ్ ల్యాప్‌టాప్ అని చెప్పి వాడినది పంపినందుకు అమెజాన్, విక్రేత క్లిక్‌టెక్ రిటైల్ ₹68,990 ను 9 శాతం వడ్డీతో తిరిగి ఇవ్వాలని హైదరాబాద్ జిల్లా వినియోగదారుల కమిషన్ ఆదేశించింది. పరిహారం ₹5,000, కేసు ఖర్చులు ₹5,000 కూడా చెల్లించాలని చెప్పింది. కొనుగోలుదారు తీసిన వీడియోను సాక్ష్యంగా తీసుకుంది.",
+   "pts": [
+    "ల్యాప్‌టాప్‌ను అక్టోబర్ 2025లో ఆర్డర్ చేశారు",
+    "తిరిగి తీసుకెళ్లినా డబ్బు ఇవ్వలేదు",
+    "కంపెనీలు కమిషన్‌కు జవాబు ఇవ్వలేదు"
+   ],
+   "why": "ఆన్‌లైన్‌లో వస్తువులు కొనే వారు ఫిర్యాదు చేస్తే న్యాయం పొందవచ్చని ఈ తీర్పు చూపుతోంది.",
+   "src": "Siasat",
+   "url": "https://www.siasat.com/amazon-seller-fined-rs-68k-for-selling-used-laptop-as-new-to-hyderabad-buyer-3587029/",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "హైదరాబాద్",
+   "pub": "2026-11-26T12:07+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Consumers",
+    "stat": "₹68,990",
+    "statl": "to be refunded with interest",
+    "loc": "Hyderabad",
+    "h": "Amazon told to refund used-laptop buyer",
+    "p": "The Hyderabad district consumer commission ordered Amazon and seller Clicktech Retail to refund ₹68,990 with 9% interest for delivering a used laptop sold as a new gaming laptop. They must also pay ₹5,000 compensation and ₹5,000 costs. The commission relied on the buyer's unboxing video.",
+    "pts": [
+     "The laptop was ordered in October 2025",
+     "It was picked up but no refund was paid",
+     "The companies did not respond to the commission"
+    ],
+    "why": "The order shows online shoppers can get relief by filing a consumer complaint."
+   },
+   "hi": {
+    "cat": "हैदराबाद · उपभोक्ता",
+    "stat": "₹68,990",
+    "statl": "ब्याज समेत लौटाने होंगे",
+    "loc": "हैदराबाद",
+    "h": "पुराना लैपटॉप भेजने पर अमेज़न को आदेश",
+    "p": "नए गेमिंग लैपटॉप की जगह इस्तेमाल किया हुआ लैपटॉप भेजने पर हैदराबाद जिला उपभोक्ता आयोग ने अमेज़न और विक्रेता क्लिकटेक रिटेल को ₹68,990 9% ब्याज के साथ लौटाने का आदेश दिया। ₹5,000 मुआवज़ा और ₹5,000 मुकदमा खर्च भी देना होगा। आयोग ने खरीदार के अनबॉक्सिंग वीडियो को सबूत माना।",
+    "pts": [
+     "लैपटॉप अक्टूबर 2025 में ऑर्डर किया गया था",
+     "वापस ले जाने के बाद भी पैसे नहीं लौटाए",
+     "कंपनियों ने आयोग को जवाब नहीं दिया"
+    ],
+    "why": "यह आदेश दिखाता है कि ऑनलाइन खरीदार शिकायत करके राहत पा सकते हैं।"
+   },
+   "d": "26.11.2026",
+   "t": "12:35",
+   "art": ""
+  },
+  {
+   "cat": "హైదరాబాద్ · రియల్ ఎస్టేట్",
+   "col": "--c-money",
+   "art": "land",
+   "pic": "e/housing-and-real-estate",
+   "stat": "₹2 కోట్ల",
+   "statl": "జరిమానా",
+   "h": "తెల్లాపూర్ బిల్డర్‌కు ₹2 కోట్ల జరిమానా",
+   "p": "నమోదైన అమ్మకపు ఒప్పందం లేకుండానే ఇద్దరు కొనుగోలుదారుల నుంచి ₹1 కోటి ఫ్లాట్‌కు ₹40 లక్షలు తీసుకున్నందుకు తెల్లాపూర్‌లోని అలియెన్స్ డెవలపర్స్‌కు తెలంగాణ రెరా ₹2 కోట్ల జరిమానా వేసింది. ఆదిబట్లలోని ఈఎల్వీ కాస్మోపోలిస్‌లో లిఫ్టులు, నీరు, కరెంట్ బ్యాకప్ ఏర్పాటు చేయాలని మరో బిల్డర్‌ను ఆదేశించింది.",
+   "pts": [
+    "వైదొలిగితే 60 రోజుల్లో ₹42 లక్షలు వడ్డీతో తిరిగివ్వాలి",
+    "ఈఎల్వీ ప్రాజెక్టుకు ఆక్యుపెన్సీ సర్టిఫికెట్ లేదని గుర్తింపు"
+   ],
+   "next": "ఈఎల్వీ ప్రాజెక్టులో సౌకర్యాలకు ఆరు నెలల గడువు",
+   "why": "హైదరాబాద్ శివార్లలో ఫ్లాట్లు బుక్ చేసుకునే వారికి ఒప్పందం నమోదు ఎంత ముఖ్యమో ఇది చెబుతోంది.",
+   "src": "Siasat",
+   "url": "https://www.siasat.com/developers-under-fire-tgrera-acts-against-hyderabad-builders-3587118/",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "TG",
+   "place": "sangareddy",
+   "loc": "తెల్లాపూర్, ఆదిబట్ల",
+   "pub": "2026-11-26T12:12+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Real estate",
+    "stat": "₹2 crore",
+    "statl": "fine",
+    "loc": "Tellapur, Adibatla",
+    "h": "RERA fines Tellapur builder ₹2 crore",
+    "p": "Telangana RERA fined Aliens Developers of Tellapur ₹2 crore for taking ₹40 lakh on a ₹1 crore flat from two buyers without a registered sale agreement. In another order, it told the builder of ELV Cosmopolis in Adibatla to provide working lifts, water and power backup.",
+    "pts": [
+     "If buyers exit, ₹42 lakh must be refunded with interest in 60 days",
+     "ELV project found to lack an occupancy certificate"
+    ],
+    "next": "Six-month deadline for ELV project amenities",
+    "why": "It shows flat buyers around Hyderabad why a registered sale agreement matters."
+   },
+   "hi": {
+    "cat": "हैदराबाद · रियल एस्टेट",
+    "stat": "₹2 करोड़",
+    "statl": "जुर्माना",
+    "loc": "तेल्लापुर, आदिबटला",
+    "h": "तेल्लापुर बिल्डर पर ₹2 करोड़ रेरा जुर्माना",
+    "p": "तेलंगाना रेरा ने तेल्लापुर के एलियंस डेवलपर्स पर ₹2 करोड़ का जुर्माना लगाया, क्योंकि उसने पंजीकृत बिक्री समझौते के बिना दो खरीदारों से ₹1 करोड़ के फ्लैट के लिए ₹40 लाख लिए। एक अन्य आदेश में आदिबटला के ईएलवी कॉस्मोपोलिस बिल्डर को लिफ्ट, पानी और बिजली बैकअप देने को कहा।",
+    "pts": [
+     "खरीदार हटें तो 60 दिन में ₹42 लाख ब्याज समेत लौटाने होंगे",
+     "ईएलवी परियोजना के पास अधिभोग प्रमाणपत्र नहीं"
+    ],
+    "next": "ईएलवी परियोजना की सुविधाओं के लिए छह महीने की समय-सीमा",
+    "why": "यह हैदराबाद के आसपास फ्लैट खरीदने वालों को पंजीकृत समझौते का महत्व बताता है।"
+   },
+   "d": "26.11.2026",
+   "t": "12:35"
+  },
+  {
+   "cat": "ఏపీ · పంచాయతీ ఎన్నికలు",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/ballot-paper-vote",
+   "stat": "33.70 శాతం",
+   "statl": "పోలింగ్ నమోదు",
+   "h": "అనకాపల్లిలో 9 గంటలకు 33.70 శాతం పోలింగ్",
+   "p": "అనకాపల్లి జిల్లాలో తొలి విడత పంచాయతీ ఎన్నికల్లో ఉదయం 9 గంటల వరకు 33.70 శాతం పోలింగ్ నమోదైంది. 8 మండలాల్లోని 186 పంచాయతీలకు 1,860 పోలింగ్ కేంద్రాల్లో ఓటింగ్ జరుగుతోంది. అప్పటికి మొత్తం 1,34,279 మంది ఓటు వేశారు. వీరిలో 70,771 మంది మహిళలు.",
+   "pts": [
+    "పురుషులు 63,508 మంది ఓటు వేశారు",
+    "సబ్బవరం మండలంలో పోలింగ్ కేంద్రాన్ని కలెక్టర్ పరిశీలించారు"
+   ],
+   "why": "అనకాపల్లి జిల్లా గ్రామాల్లో కొత్త సర్పంచులను ఎన్నుకునే ఓటర్లకు సంబంధించిన వార్త ఇది.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/andhra-pradesh/anakapalli-registers-3370-polling-1145938",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-anakapalli",
+   "loc": "అనకాపల్లి",
+   "pub": "2026-11-26T11:54+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Panchayat polls",
+    "stat": "33.70%",
+    "statl": "polling recorded",
+    "loc": "Anakapalli",
+    "h": "Anakapalli: 33.70% polling by 9 am",
+    "p": "Anakapalli district recorded 33.70% polling by 9 am in the first phase of panchayat elections. Voting is under way at 1,860 polling stations for 186 panchayats in 8 mandals. By then 1,34,279 people had voted, including 70,771 women.",
+    "pts": [
+     "63,508 men had voted",
+     "The Collector inspected a polling station in Sabbavaram mandal"
+    ],
+    "why": "It concerns voters choosing new sarpanches in Anakapalli district villages."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · पंचायत चुनाव",
+    "stat": "33.70%",
+    "statl": "मतदान दर्ज",
+    "loc": "अनकापल्ली",
+    "h": "अनकापल्ली: सुबह 9 बजे तक 33.70% मतदान",
+    "p": "अनकापल्ली जिले में पहले चरण के पंचायत चुनाव में सुबह 9 बजे तक 33.70% मतदान दर्ज हुआ। 8 मंडलों की 186 पंचायतों के लिए 1,860 मतदान केंद्रों पर वोटिंग जारी है। तब तक 1,34,279 लोगों ने वोट डाला, जिनमें 70,771 महिलाएँ हैं।",
+    "pts": [
+     "63,508 पुरुषों ने वोट डाला",
+     "कलेक्टर ने सब्बवरम मंडल में मतदान केंद्र का निरीक्षण किया"
+    ],
+    "why": "यह अनकापल्ली जिले के गाँवों में नए सरपंच चुनने वाले मतदाताओं से जुड़ी खबर है।"
+   },
+   "d": "26.11.2026",
+   "t": "12:35"
+  },
+  {
+   "cat": "తెలంగాణ · ప్రమాదం",
+   "col": "--c-city",
+   "pic": "e/road-accident-response",
+   "stat": "ఒకరు మృతి",
+   "statl": "ఇసుక లారీ ప్రమాదంలో",
+   "h": "చర్లలో ఇసుక లారీ ఢీకొని ఒకరు మృతి",
+   "p": "భద్రాద్రి కొత్తగూడెం జిల్లా చర్ల మండలం సత్యనారాయణపురం దగ్గర వేగంగా వచ్చిన ఇసుక లారీ బైక్‌ను ఢీకొట్టింది. బైక్ నడుపుతున్న వ్యక్తి తీవ్రంగా గాయపడ్డారు. చర్ల ఆసుపత్రి నుంచి భద్రాచలం తరలిస్తుండగా దారిలోనే ప్రాణాలు కోల్పోయారు. ఈ మార్గంలో ఇసుక లారీలు వరుసగా వేగంగా వెళ్తున్నాయని, వేగ పరిమితి అమలు కావడం లేదని స్థానికులు చెబుతున్నారు.",
+   "pts": [
+    "108 అంబులెన్స్‌లో ఆసుపత్రికి తీసుకెళ్లారు",
+    "లారీలు వెళ్లేదాకా 10–20 నిమిషాలు ఆగాల్సి వస్తోందని స్థానికులు"
+   ],
+   "why": "చర్ల–భద్రాచలం రహదారిపై రోజూ ప్రయాణించే వారి భద్రతకు సంబంధించిన వార్త ఇది.",
+   "src": "HMTV",
+   "url": "https://www.hmtvlive.com/telugu-news/khammam/bhadradri-kothagudem-cherla-sand-lorry-hits-bike-one-dead-satyanarayanapuram-217317",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "bhadradri",
+   "loc": "సత్యనారాయణపురం, చర్ల",
+   "pub": "2026-11-26T10:20+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Accident",
+    "stat": "One dead",
+    "statl": "in sand lorry crash",
+    "loc": "Satyanarayanapuram, Cherla",
+    "h": "One dead as sand lorry hits bike in Cherla",
+    "p": "A speeding sand lorry hit a two-wheeler near Satyanarayanapuram in Cherla mandal of Bhadradri Kothagudem district. The rider was badly injured and died on the way while being shifted from the Cherla hospital to Bhadrachalam. Locals say sand lorries run one after another at high speed on this route and speed limits are not enforced.",
+    "pts": [
+     "He was taken to hospital in a 108 ambulance",
+     "Locals say they wait 10–20 minutes for lorries to pass"
+    ],
+    "why": "It concerns the safety of people who travel the Cherla–Bhadrachalam road every day."
+   },
+   "hi": {
+    "cat": "तेलंगाना · हादसा",
+    "stat": "एक की मौत",
+    "statl": "रेत लॉरी हादसे में",
+    "loc": "सत्यनारायणपुरम, चर्ला",
+    "h": "चर्ला में रेत लॉरी की टक्कर से एक की मौत",
+    "p": "भद्राद्रि कोत्तागुडेम जिले के चर्ला मंडल में सत्यनारायणपुरम के पास तेज़ रफ्तार रेत लॉरी ने बाइक को टक्कर मार दी। बाइक सवार गंभीर रूप से घायल हुआ और चर्ला अस्पताल से भद्राचलम ले जाते समय रास्ते में उसकी मौत हो गई। स्थानीय लोगों का कहना है कि इस मार्ग पर रेत लॉरियाँ लगातार तेज़ चलती हैं और गति सीमा लागू नहीं होती।",
+    "pts": [
+     "उसे 108 एम्बुलेंस से अस्पताल ले जाया गया",
+     "लोगों का कहना है कि लॉरियाँ गुजरने तक 10–20 मिनट रुकना पड़ता है"
+    ],
+    "why": "यह चर्ला–भद्राचलम सड़क पर रोज़ सफर करने वालों की सुरक्षा से जुड़ी खबर है।"
+   },
+   "d": "26.11.2026",
+   "t": "12:35",
+   "art": ""
+  },
   {
    "cat": "భారత్ · రాజ్యాంగ దినోత్సవం",
    "col": "--c-gov",
