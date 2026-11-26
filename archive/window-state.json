@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-26T15:05:00+05:30",
+ "cutoff": "2026-11-26T15:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-23T16:35:00+05:30/2026-11-23T17:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 20,
-   "published": 17,
-   "late": 0,
-   "sensitive": 3,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 6,
-   "review": 0,
-   "gaps": "Lookback from 08:35. Feeds 16:57 IST (70/70 ok). 116 uncovered events first seen since 16:10 scanned (42 local). add_repo tool not available; used existing clone. 4 fetch agents. Sensitive: Adilabad money-doubling gang (police named, no accused names, arrest count 4 vs 5 stated), Nalgonda ethanol hearing protest (claim), Ukraine says it sank Russian warship in Libya (claim, Russia not confirmed). Duplicates: Kangti soya fire (published 10:05), India-Nepal package (published 15:05), ASEAN maritime conclave Vizag (Lokesh story 15:05). Skipped: NT Bulandshahr child killing (other state), Bar&Bench Justice Bagchi AI divorce courts (21 Nov), News On AIR cyclone Akvan landfall forecast (19 Nov), AJ Sircilla HIV Surakshit (18 Nov), HMTV Dharmana Srikakulam rally (21 Nov; BigTV item not found), Digit Google India layoffs (unverified forum rumour). Not opened/not found (left unseen): The Hindu crop-loan 12-month gap (NewsBytes used), TOI money-multiplying gang (Telangana Today used), Eenadu Pattiseema bank erosion/secretariat collapse (no second source), Suryaa Palamaner council oath, BigTV Dharmana Srikakulam campaign, News18 Sircilla HIV, India Today Google/Microsoft hiring freeze, Disha items (ORR cement lorry, Etala land sales; site refuses fetch). lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T17:05:00+05:30/2026-11-23T17:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 06:35. Feeds 14:46 IST (70/70 ok; 131 uncovered unseen events first seen since 13:45, many entertainment/lifestyle). add_repo tool not available; used existing clone. Feed URLs typed directly were refused (13 fetches lost ~5 min); pages opened only after an extended WebSearch surfaced the URL. Published 10: Siasat BRS leader attacked Teegalapalli (14:15, claim, sensitive), Siasat SIR 32,100 pending (14:24), TT NIPER convocation (14:32), TT KTR on Article 3 (14:41), NTV Wanaparthy uninvited-guest board (14:20), NewsMeter TfL CTO on public transport (08:29, late, claim), Oneindia Telugu AP pensions Nov 30/Dec 1 (14:34), DC/ANI Keserapalli booth tension (14:39, claim, sensitive), TT/IANS Chariot-1 AI (13:07), ThePrint/PTI Sharad Pawar hospital (13:45). Skipped as old (before lookback): DC + NewsMeter Cyberabad green tanker (25 Nov), NewsMeter Baby film HC notices (25 Nov), Space.com Shenzhou-24 (24 Nov). Published after END, left for next run: DC/PTI missing Vizag fisherman (15:08), TT two cyber harassment arrests (15:07). Not opened: ANI Keserapalli (client error), final AP turnout (live pages stale), Dar-e-Nijaat, CJI, Vamsi Krishna protocol, NSE, Houthi missiles. No district searches this run. 1 CHECK left: SIR picture line 36 letters. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-26T15:05:00+05:30/2026-11-26T15:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 10,
+   "published": 6,
+   "late": 0,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 07:05. Feeds 15:22 IST (68/68 ok; 92 uncovered unseen events since 14:50, many entertainment/lifestyle). add_repo tool not available; used existing clone. Typed feed URLs refused until surfaced by WebSearch. Published 6: TT Anantapur Toofan-lorry crash 4 dead (14:56, sensitive), TT panchayat OSR zero-balance accounts (15:03), TT two cyber-harassment arrests (15:07, sensitive, accused not named), TT Ajmer rubath not built (15:16, claim), TT/PTI SC notice on protest guidelines (15:19), NewsMeter solo-car fine viral claim false (15:00, misleading). Duplicates: NDTV/KhanList USTR 25% tariff (same notice published 06:35), DC cyber-harassment arrests (same as TT). Not opened: France24 Bangkok oil depot blast (robots), ap7am Pulivendula TDP win (client error), The Hindu Uttam defence/aerospace (not surfaced by search). Not attempted: Mahabubabad hostel birth, Rudrangi paddy protest, Saint-Gobain AP, Kim nuclear, Hong Kong fire anniversary. No district searches this run. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7943,6 +7943,51 @@
    "url": "https://telanganatoday.com/brs-village-president-brutally-assaulted-in-nagarkurnool",
    "d": "2026-11-26",
    "w": "dup"
+  },
+  {
+   "url": "https://telanganatoday.com/andhra-pradesh-four-killed-in-road-crash-in-anantapur",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/congress-seeks-to-offload-burden-to-panchayats",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/two-men-arrested-for-harassing-women-online",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/ajmer-special",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/sc-issues-notice-to-centre-and-cjp-leaders-on-guidelines",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/fact-check/no-fines-for-solo-car-travellers-telangana-police-dismiss-viral-claims-780048",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOeHZBaHpJU25uUGZIMHVpRmRxZ3RsRTc0YTEtRTVUdU1PbV9KQjFpNmM5YUZlWDZpRFMyVDlzbVIzaGhublYycl94ajNlVUNxQVdTaVZOVDZxUUFiSE5GMW9VeGtBUHAtd0NwTDJWaEpIZTRHNXl5X3BiRzdFZ2laaVFJS0NfdUE5YVpuTnhBUnEzRy1mQ1pnNTdzeW9DSFRqb1hfWWdPbnFIYkdrTi1oWHh5LXVUaWxyZk1zSm5yWTRCcEpIRVRkVnNmZ3NEbDJudzQ1QVhnaVZZY3VVRlpiblY4cW7SAeoBQVVfeXFMUGpJbDI4NjA0eHk3b0N2NTJRWlNmSDJ2b1NUekdpYmMxTzAwU1g4clNwLXpEVzh5bGRVdmZuOVpvZ3ZIVi1XVTdTZWhrN2QyaElaTm9tcXNEaWNLeTlFWnJwNmFkVGxoVElYdk1aNTA1LXRxTExpcFYteWl0a1BMd0U5d3FwbmFLMGhTdnhJUFdrVG1WNEVNVVdJSHRzNEhCTlBMOUt6cHlJT1QyaUYyRzBEa3V4OE1GQm5EZ0FQc2FiQXJDUE55S29ELWVPTlRqZldiZ2VSZkpjbm5CSWlMTjRSenNSVFFyQm5n?oc=5",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcUlqOWVpREpNM3JhZURpakpsU1BiUVBweTRuOHN6a2wxQWh6U3hIZUpwUm0tUThrNXVDVzJCX1M3WG9VaDZaQ2RqMkVjZklNZ0dIeTF6dmNBajRVV0oxZGFCV2xWT0xpYW1vVmlfSjRPd3hSc1o2QWhTM3g2MEZSOHJnUndtOHlxdl9NeVBaU2dCUjgtVG0yUDFHbVpMVEhDcmhEaGg0X3VGamcxRzNjdEQ3MA?oc=5",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://khanlist.com/story/trumps-new-tariff-threat-to-india-comes-with-relief-clause-f331cd22",
+   "d": "2026-11-26",
+   "w": "duplicate"
   }
  ]
 }
