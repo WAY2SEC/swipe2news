@@ -12,59 +12,59 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>
+/* Nigeria edition is only for phones on Nigerian time (Africa/Lagos). Everyone else goes to the normal app. */
+(function(){try{var tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';
+ if(tz!=='Africa/Lagos'&&!/bot|crawl|spider|Lighthouse/i.test(navigator.userAgent))location.replace('/');}catch(e){}})();
+</script>
 <style>
-:root{--plum:#4A0E3F;--deep:#2E0827;--apricot:#F5A23A;--cream:#FFFDF5;--paper:#F5EBDD;--ink:#202124;--muted:#6B6160;--green:#0E7A3E;--line:#E8DDD0;
-  --ui:'Outfit',system-ui,sans-serif;--tx:'Noto Sans',system-ui,sans-serif}
+/* Swipe2News Nigeria – same layout as the India app (owner, 26 Nov 2026): brand bar with ✨ Today + ☰ menu,
+   full-height cards with an action bar, bottom dock (‹ · my swipe counter · moving tagline · 🏠 · Next ›). */
+:root{--plum:#4A0E3F;--deep:#2E0827;--apricot:#F5A23A;--orange:#F07B1D;--cream:#FFFDF5;--paper:#F5EBDD;--ink:#202124;--muted:#6B6160;--green:#0E7A3E;--line:#E8DDD0;
+  --ui:'Outfit',system-ui,sans-serif;--tx:'Noto Sans',system-ui,sans-serif;--fs:16px}
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{height:100%;background:var(--paper);color:var(--ink);font-family:var(--tx);-webkit-tap-highlight-color:transparent;overscroll-behavior:none}
 body{display:flex;flex-direction:column;max-width:520px;margin:0 auto;height:100dvh}
-header{display:flex;align-items:center;gap:10px;padding:10px 14px calc(8px);padding-top:max(10px,env(safe-area-inset-top));background:var(--cream);border-bottom:1px solid var(--line)}
-.brand{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--plum);font:800 20px var(--ui);letter-spacing:-.02em}
-.brand img{width:30px;height:30px;border-radius:8px}.brand i{color:var(--apricot);font-style:normal}
-.bell{margin-left:auto;width:38px;height:38px;border-radius:50%;border:1.5px solid var(--line);background:#fff;font-size:17px;cursor:pointer}.bell[aria-pressed=true]{background:var(--apricot);border-color:var(--apricot)}
-.bell:not([hidden])+.ed{margin-left:0}
-.ed{margin-left:auto;display:flex;align-items:center;gap:6px;border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font:700 13px var(--ui);color:var(--plum)}
-.beta{font:700 10px var(--ui);letter-spacing:.08em;color:var(--deep);background:var(--apricot);border-radius:6px;padding:2px 6px}
-.chips{display:flex;gap:8px;overflow-x:auto;padding:10px 14px;background:var(--cream);scrollbar-width:none}.chips::-webkit-scrollbar{display:none}
-.chip{flex:none;border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:7px 14px;font:700 13px var(--ui);color:var(--ink);cursor:pointer}
-.chip[aria-pressed=true]{background:var(--plum);border-color:var(--plum);color:#fff}
-main{flex:1;position:relative;overflow:hidden;padding:12px 12px 0}
-.card{position:absolute;inset:12px 12px 0;display:flex;flex-direction:column;background:#fff;border-radius:22px 22px 0 0;overflow:hidden;box-shadow:0 6px 24px rgba(46,8,39,.12);touch-action:pan-y;transition:transform .28s ease,opacity .28s ease}
-.pic{position:relative;flex:0 0 36%;min-height:170px;background:var(--plum);display:flex;align-items:center;justify-content:center;overflow:hidden}
-.pic .mark{width:84px;height:84px;border-radius:20px;box-shadow:0 0 0 2px rgba(255,253,245,.55)}
-.pic .dot{position:absolute;right:16px;bottom:14px;width:12px;height:12px;border-radius:50%;background:var(--apricot)}
+button{font:inherit;color:inherit}
+/* top bar */
+header{display:flex;align-items:center;gap:10px;padding:10px 14px 8px;padding-top:max(10px,env(safe-area-inset-top));background:var(--cream)}
+.brand{display:flex;align-items:center;gap:9px;text-decoration:none;color:var(--plum)}
+.brand img{width:34px;height:34px;border-radius:9px}
+.brand b{display:block;font:800 21px/1 var(--ui);letter-spacing:-.02em}.brand b i{color:var(--apricot);font-style:normal}
+.brand small{display:inline-flex;align-items:center;gap:4px;margin-top:3px;font:800 10px/1 var(--ui);letter-spacing:.14em;color:#fff;background:#0E7A3E;border-radius:5px;padding:3px 6px}
+.today{margin-left:auto;position:relative;display:flex;align-items:center;gap:6px;height:38px;padding:0 14px;border:0;border-radius:999px;background:linear-gradient(135deg,#FBC77A,var(--apricot));color:var(--deep);font:800 14px var(--ui);box-shadow:0 0 14px rgba(245,162,58,.55);cursor:pointer}
+.today .bub{position:absolute;top:-7px;right:-6px;min-width:20px;height:20px;padding:0 5px;border-radius:10px;background:var(--plum);color:#fff;font:800 11px/20px var(--ui);text-align:center}
+.today .bub:empty{display:none}
+.menub{width:40px;height:40px;border-radius:12px;border:1.5px solid var(--line);background:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--plum)}
+/* cards */
+main{flex:1;position:relative;overflow:hidden;padding:4px 10px 0}
+.card{position:absolute;inset:4px 10px 0;display:flex;flex-direction:column;background:#fff;border-radius:22px 22px 0 0;overflow:hidden;box-shadow:0 6px 24px rgba(46,8,39,.12);touch-action:pan-y;transition:transform .28s ease,opacity .28s ease}
+.pic{position:relative;flex:0 0 34%;min-height:150px;background:var(--plum);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.pic .mark{width:78px;height:78px;border-radius:20px;box-shadow:0 0 0 2px rgba(255,253,245,.55)}
+.pic .dot{position:absolute;right:14px;bottom:14px;width:22px;height:22px;border-radius:6px;background:url(/art/logo.svg) center/cover;opacity:.9}
 .pill{position:absolute;top:12px;left:12px;background:rgba(255,253,245,.94);color:var(--plum);border-radius:999px;padding:5px 11px;font:700 12px var(--ui)}
-.num{position:absolute;left:14px;right:40px;bottom:12px;display:flex;align-items:baseline;gap:8px;white-space:nowrap;overflow:hidden}
+.num{position:absolute;left:14px;right:44px;bottom:12px;display:flex;align-items:baseline;gap:8px;white-space:nowrap;overflow:hidden}
 .num b{font:800 22px var(--ui);color:var(--apricot)}.num span{font:700 15px var(--ui);color:#fff;overflow:hidden;text-overflow:ellipsis}
-.body{flex:1;overflow-y:auto;padding:14px 16px 10px;display:flex;flex-direction:column;gap:10px}
-h1{font:700 22px/1.3 var(--ui);color:var(--ink);letter-spacing:-.01em}
+.body{flex:1;overflow-y:auto;padding:10px 16px 8px;display:flex;flex-direction:column;gap:9px}
+.ctl{display:flex;align-items:center;gap:8px;font:600 13px var(--ui);color:var(--muted)}
+.ctl .sp{flex:1}
+.ctl button{height:32px;border-radius:999px;border:1.5px solid var(--plum);background:#fff;color:var(--plum);font:800 13px var(--ui);padding:0 12px;cursor:pointer}
+.ctl button[aria-pressed=true]{background:var(--plum);color:#fff}
+h1{font:700 calc(var(--fs) + 6px)/1.3 var(--ui);color:var(--ink);letter-spacing:-.01em}
 .meta{display:flex;align-items:center;flex-wrap:wrap;gap:8px;font:600 13px var(--ui);color:var(--muted)}
 .lbl{border-radius:6px;padding:2px 8px;font:800 11px var(--ui);letter-spacing:.06em}
-.lbl.fact{background:var(--green);color:#fff}.lbl.claim{background:var(--apricot);color:var(--deep)}.lbl.opinion{border:1.5px solid #9A918C;color:#5E5652}
-.lbl.forecast{background:#1F5FA8;color:#fff}
-p.sum{font:400 16px/1.6 var(--tx);color:var(--ink)}
-.src{display:flex;justify-content:space-between;align-items:center;gap:10px;font:600 13px var(--ui);color:var(--muted);border-top:1px solid var(--line);padding-top:10px;margin-top:auto}
+.lbl.fact{background:var(--green);color:#fff}.lbl.claim{background:var(--apricot);color:var(--deep)}.lbl.opinion{border:1.5px solid #9A918C;color:#5E5652}.lbl.forecast{background:#1F5FA8;color:#fff}
+.new{background:var(--orange);color:#fff;border-radius:6px;padding:2px 7px;font:800 11px var(--ui)}
+p.sum{font:400 var(--fs)/1.6 var(--tx);color:var(--ink)}
+.src{display:flex;justify-content:space-between;align-items:center;gap:10px;font:600 13px var(--ui);color:var(--muted);border-top:1px solid var(--line);padding-top:9px;margin-top:auto}
 .src a{color:var(--plum);font-weight:800;text-decoration:none;white-space:nowrap}
-.acts{display:flex;gap:8px;padding:0 16px 12px}
-.acts button,.acts a{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;height:42px;border-radius:12px;border:1.5px solid var(--line);background:#fff;font:700 14px var(--ui);color:var(--plum);text-decoration:none;cursor:pointer}
-.acts .wa{background:#0E7A3E;border-color:#0E7A3E;color:#fff}
-.dock{display:flex;align-items:center;gap:10px;padding:10px 14px max(12px,env(safe-area-inset-bottom));background:var(--cream);border-top:1px solid var(--line);position:relative}
-.dock:before{content:"";position:absolute;left:0;top:-1px;height:3px;width:var(--prog,0%);background:var(--apricot);box-shadow:0 0 8px var(--apricot);transition:width .25s}
-.dock button{height:44px;border-radius:999px;border:0;font:800 14px var(--ui);cursor:pointer}
-.prev{width:44px;background:#fff;border:1.5px solid var(--line)!important;color:var(--plum)}
-.next{margin-left:auto;padding:0 22px;background:var(--apricot);color:var(--deep)}
-.count{font:700 13px var(--ui);color:var(--muted)}.tag{font:700 12px var(--ui);color:var(--plum)}
-.empty{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px;font:600 15px/1.6 var(--ui);color:var(--muted)}
-.sheet{position:fixed;inset:0;background:rgba(32,33,36,.45);display:flex;align-items:flex-end;justify-content:center;z-index:9}
-.sheet[hidden]{display:none}
-.sheet>div{width:100%;max-width:520px;background:var(--cream);border-radius:22px 22px 0 0;padding:18px 16px max(18px,env(safe-area-inset-bottom));display:grid;gap:10px}
-.sheet h2{font:800 18px var(--ui);color:var(--plum)}.sheet p{font:500 14px/1.5 var(--ui);color:var(--muted)}
-.opt{display:flex;align-items:center;gap:12px;width:100%;text-align:left;border:1.5px solid var(--line);background:#fff;border-radius:14px;padding:12px 14px;font:700 15px var(--ui);color:var(--ink);cursor:pointer}
-.opt small{display:block;font:500 13px var(--ui);color:var(--muted)}.opt[aria-current=true]{border-color:var(--plum);box-shadow:0 0 0 2px var(--plum) inset}
-.wel{position:fixed;inset:0;z-index:20;background:#3A0A31;display:flex;flex-direction:column;align-items:center;gap:10px;padding:max(12px,env(safe-area-inset-top)) 16px max(16px,env(safe-area-inset-bottom));overflow-y:auto}
-.wel[hidden]{display:none}.wel img{width:100%;max-width:420px;max-height:68vh;object-fit:contain;border-radius:18px}
-.wel button{width:100%;max-width:420px;min-height:48px;border-radius:14px;border:0;font:800 16px var(--ui);cursor:pointer}
-.wel .go{background:var(--apricot);color:var(--deep)}.wel .al{background:#fff;color:var(--plum)}.wel .in{background:transparent;color:#F5EBDD;font:600 14px var(--ui);min-height:36px}
+.acts{display:flex;align-items:stretch;margin:0 12px 10px;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff}
+.acts button,.acts a{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:56px;border:0;background:#fff;color:var(--plum);font:700 12px var(--ui);text-decoration:none;cursor:pointer}
+.acts > *+*{border-left:1px solid var(--line)}
+.acts svg{width:21px;height:21px}
+.acts [aria-pressed=true]{color:var(--orange)}
+.acts .wa{flex:1.5;flex-direction:row;gap:7px;margin:8px;border-radius:999px;background:#0E7A3E;color:#fff;font:800 14px var(--ui);min-height:40px;border:0!important}
+/* greeting card */
 .gcard{background:var(--deep);justify-content:flex-start}
 .gcard .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center bottom}
 .gcard .sh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,253,245,.94) 0%,rgba(255,253,245,.82) 46%,rgba(255,253,245,0) 72%)}
@@ -74,45 +74,178 @@ p.sum{font:400 16px/1.6 var(--tx);color:var(--ink)}
 .gcard .lg b{display:block;font:800 26px var(--ui);color:var(--plum);letter-spacing:-.02em}.gcard .lg b i{color:var(--apricot);font-style:normal}
 .gcard .lg small{display:block;font:600 13px var(--ui);color:var(--deep)}
 .gcard h2{font:800 46px/1.02 var(--ui);color:var(--deep);letter-spacing:-.02em}
-.gcard h2 em{display:block;color:#F07B1D;font-style:italic}.gcard h2 em span{font-style:normal}
-.gcard .ul{width:150px;height:5px;border-radius:5px;background:linear-gradient(90deg,#F07B1D,var(--apricot));margin:4px 0 10px}
-.gcard .sub{border-left:4px solid #F07B1D;padding-left:12px;font:700 19px/1.35 var(--ui);color:var(--deep);max-width:300px}
+.gcard h2 em{display:block;color:var(--orange);font-style:italic}.gcard h2 em span{font-style:normal}
+.gcard .ul{width:150px;height:5px;border-radius:5px;background:linear-gradient(90deg,var(--orange),var(--apricot));margin:4px 0 10px}
+.gcard .sub{border-left:4px solid var(--orange);padding-left:12px;font:700 19px/1.35 var(--ui);color:var(--deep);max-width:300px}
 .gcard.night h2,.gcard.night .sub,.gcard.night .lg b,.gcard.night .lg small{color:#fff}
 .gcard .hint{position:absolute;left:0;right:0;bottom:0;padding:16px;text-align:center;font:800 15px var(--ui);color:#fff;background:linear-gradient(transparent,rgba(46,8,39,.85))}
-.toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%);background:var(--deep);color:#fff;font:600 14px var(--ui);padding:10px 16px;border-radius:12px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:10}
+/* bottom dock */
+.dock{position:relative;display:flex;align-items:center;gap:10px;margin:0 10px;padding:9px 10px max(10px,env(safe-area-inset-bottom));background:var(--deep);border-radius:0 0 22px 22px}
+.dock:before{content:"";position:absolute;left:0;top:0;height:3px;width:var(--prog,0%);background:var(--apricot);box-shadow:0 0 10px var(--apricot);transition:width .25s}
+.dock .prev{width:44px;height:44px;flex:none;border-radius:50%;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.1);color:#fff;font:800 20px var(--ui);cursor:pointer}
+.dock .prev:disabled{opacity:.35}
+.mys{display:flex;flex-direction:column;align-items:flex-start;border:0;background:none;color:#fff;cursor:pointer;padding:0 2px}
+.mys b{font:800 16px/1 var(--ui)}.mys b small{font:700 12px var(--ui);opacity:.7}
+.mys span{display:flex;align-items:center;gap:4px;margin-top:3px;font:700 11px/1 var(--ui);color:var(--apricot)}
+.mid{flex:1;min-width:0;display:flex;justify-content:center;overflow:hidden}
+.mq{white-space:nowrap;font:700 13px var(--ui);color:#F5EBDD;animation:mq 9s linear infinite}
+@keyframes mq{0%{transform:translateX(60%)}100%{transform:translateX(-100%)}}
+.home{width:46px;height:46px;border-radius:50%;border:0;background:var(--cream);color:var(--plum);font-size:20px;cursor:pointer;box-shadow:0 0 0 3px rgba(245,162,58,.35)}
+.dock .next{flex:none;height:46px;padding:0 20px;border:0;border-radius:999px;background:var(--apricot);color:var(--deep);font:800 15px var(--ui);cursor:pointer}
+.empty{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px;font:600 15px/1.6 var(--ui);color:var(--muted)}
+/* sheets */
+.sheet{position:fixed;inset:0;background:rgba(32,33,36,.45);display:flex;align-items:flex-end;justify-content:center;z-index:9}
+.sheet[hidden]{display:none}
+.sheet>div{width:100%;max-width:520px;max-height:92dvh;overflow-y:auto;background:var(--cream);border-radius:22px 22px 0 0;padding:18px 16px max(18px,env(safe-area-inset-bottom));display:grid;gap:10px}
+.sheet h2{font:800 19px var(--ui);color:var(--plum)}.sheet p{font:500 14px/1.5 var(--ui);color:var(--muted)}
+.opt{display:flex;align-items:center;gap:12px;width:100%;text-align:left;border:1.5px solid var(--line);background:#fff;border-radius:14px;padding:12px 14px;font:700 15px var(--ui);color:var(--ink);cursor:pointer}
+.opt small{display:block;font:500 13px var(--ui);color:var(--muted)}.opt[aria-current=true]{border-color:var(--plum);box-shadow:0 0 0 2px var(--plum) inset}
+.opt:disabled{opacity:.55;cursor:default}
+.pri{justify-content:center;background:var(--apricot)!important;border-color:var(--apricot)!important;color:var(--deep)!important}
+/* full-screen menu (same as India "Find what matters.") */
+.full{position:fixed;inset:0;z-index:8;background:var(--paper);overflow-y:auto;padding:max(12px,env(safe-area-inset-top)) 16px 30px}
+.full[hidden]{display:none}
+.full .in{max-width:520px;margin:0 auto;display:grid;gap:14px}
+.mtop{display:flex;align-items:center;gap:10px}.mtop .brand{margin-right:auto}
+.circ{width:44px;height:44px;border-radius:50%;border:1.5px solid var(--line);background:#fff;display:flex;align-items:center;justify-content:center;color:var(--ink);cursor:pointer}
+.hello{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font:700 17px var(--ui);color:var(--plum)}
+.hello button{border:0;border-radius:999px;background:#FCE3BC;color:var(--deep);font:700 13px var(--ui);padding:5px 11px;cursor:pointer}
+.big{font:800 32px/1.1 var(--ui);color:var(--ink);letter-spacing:-.02em}.big i{color:var(--apricot);font-style:normal}
+.box{border:1.5px solid var(--line);background:var(--cream);border-radius:16px;padding:10px 14px;font:600 13px var(--ui);color:var(--muted)}.box b{display:block;color:var(--ink);font:800 14px var(--ui)}
+.srch{display:flex;align-items:center;gap:10px;border:1.5px solid var(--line);background:#fff;border-radius:18px;padding:0 14px;height:54px}
+.srch input{flex:1;border:0;outline:0;background:none;font:600 16px var(--ui);color:var(--ink)}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.pick{display:flex;align-items:center;gap:8px;height:44px;padding:0 14px;border:1.5px solid var(--line);background:#fff;border-radius:14px;font:800 15px var(--ui);color:var(--ink);cursor:pointer}
+.hero{position:relative;overflow:hidden;border-radius:22px;padding:20px 18px;color:#fff;background:radial-gradient(circle at 85% 10%,rgba(245,162,58,.35),transparent 40%),linear-gradient(135deg,#5A1450,var(--deep))}
+.hero h3{font:800 30px/1.1 var(--ui)}.hero p{margin:6px 0 16px;font:600 14px var(--ui);color:#F5EBDD}
+.hero .row button{height:46px;border-radius:14px;border:0;padding:0 18px;font:800 16px var(--ui);cursor:pointer}
+.hero .go{background:linear-gradient(135deg,#FBC77A,var(--apricot));color:var(--deep)}.hero .ls{background:none;color:#fff}
+.sec{font:800 14px var(--ui);letter-spacing:.08em;color:var(--plum);text-transform:uppercase;margin-top:4px}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.tile{display:flex;align-items:center;gap:12px;min-height:60px;padding:0 14px;border:1.5px solid var(--line);background:#fff;border-radius:16px;font:800 16px var(--ui);color:var(--ink);cursor:pointer;text-align:left;text-decoration:none}
+.tile small{display:block;font:600 12px var(--ui);color:var(--muted)}.tile:disabled{opacity:.6;cursor:default}
+.lst{display:grid;border-top:1px solid var(--line)}
+.lst button,.lst a{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:14px 2px;border:0;border-bottom:1px solid var(--line);background:none;font:700 16px var(--ui);color:var(--ink);text-align:left;cursor:pointer;text-decoration:none}
+.lst button span{color:var(--muted);font-weight:600;font-size:13px}
+.res{display:grid;gap:8px}.res button{border:1.5px solid var(--line);background:#fff;border-radius:14px;padding:10px 12px;text-align:left;font:700 14px var(--ui);cursor:pointer}
+.res small{display:block;color:var(--muted);font-weight:600;margin-top:2px}
+/* my swipe */
+.mylogo{display:flex;align-items:center;gap:8px;font:800 22px var(--ui);color:var(--plum)}.mylogo i{color:var(--apricot);font-style:normal}
+.mylogo svg{width:30px;height:30px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.stats div{background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:10px 6px;text-align:center;font:600 11px var(--ui);color:var(--muted)}
+.stats b{display:block;font:800 20px var(--ui);color:var(--plum)}
+.tabs{display:flex;gap:6px}.tabs button{flex:1;height:36px;border-radius:999px;border:1.5px solid var(--line);background:#fff;font:700 13px var(--ui);cursor:pointer}
+.tabs button[aria-pressed=true]{background:var(--plum);border-color:var(--plum);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(8,1fr);gap:6px}
+.grid button{aspect-ratio:1;border-radius:9px;border:0;background:#EDE5DA;font:700 11px var(--ui);color:var(--muted);cursor:pointer}
+.grid .r{background:#D7EEDC;color:var(--green)}.grid .s{box-shadow:0 0 0 2px #CDBFAE inset}.grid .c{background:var(--apricot);color:var(--deep)}
+.sw{display:flex;align-items:center;justify-content:space-between;gap:10px;font:700 15px var(--ui)}
+.sw input{width:46px;height:26px;accent-color:var(--plum)}
+.hist{display:grid;gap:8px}.hist button{display:flex;gap:10px;align-items:center;border:1.5px solid var(--line);background:#fff;border-radius:12px;padding:8px 10px;text-align:left;font:700 13px var(--ui);cursor:pointer}
+.hist small{color:var(--muted);font-weight:600}
+/* welcome */
+.wel{position:fixed;inset:0;z-index:20;background:#3A0A31;display:flex;flex-direction:column;align-items:center;gap:10px;padding:max(12px,env(safe-area-inset-top)) 16px max(16px,env(safe-area-inset-bottom));overflow-y:auto}
+.wel[hidden]{display:none}.wel img{width:100%;max-width:420px;max-height:68vh;object-fit:contain;border-radius:18px}
+.wel button{width:100%;max-width:420px;min-height:48px;border-radius:14px;border:0;font:800 16px var(--ui);cursor:pointer}
+.wel .go{background:var(--apricot);color:var(--deep)}.wel .al{background:#fff;color:var(--plum)}
+.toast{position:fixed;left:50%;bottom:100px;transform:translateX(-50%);background:var(--deep);color:#fff;font:600 14px var(--ui);padding:10px 16px;border-radius:12px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:30;max-width:90vw;text-align:center}
 .toast.on{opacity:1}
 </style>
-<script>
-/* Nigeria edition is only for phones on Nigerian time (Africa/Lagos). Everyone else goes to the normal app. */
-(function(){try{var tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';
- if(tz!=='Africa/Lagos'&&!/bot|crawl|spider|Lighthouse/i.test(navigator.userAgent))location.replace('/');}catch(e){}})();
-</script>
 </head>
 <body>
 <header>
-  <a class="brand" href="/ng/" aria-label="Swipe2News Nigeria"><img src="/art/logo.svg" alt=""><span>swipe2news<i>.</i></span></a>
-  <button class="bell" id="bell" type="button" aria-label="Nigeria news alerts" aria-pressed="false" hidden>🔔</button>
-  <span class="ed" id="ed">🇳🇬 Nigeria</span>
+  <a class="brand" href="/ng/" aria-label="Swipe2News Nigeria"><img src="/art/logo.svg" alt=""><span><b>swipe2news<i>.</i></b><small>🇳🇬 NIGERIA</small></span></a>
+  <button class="today" id="today" type="button" aria-label="Today for you">✨ Today<span class="bub" id="bub"></span></button>
+  <button class="menub" id="menuBtn" type="button" aria-label="Menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
 </header>
-<nav class="chips" id="chips" aria-label="Sections"></nav>
-<main id="stage"><div class="empty" id="msg">Loading Nigeria news…</div></main>
+<main id="stage"><div class="empty">Loading Nigeria news…</div></main>
 <div class="dock" id="dock">
   <button class="prev" id="prev" type="button" aria-label="Previous story">‹</button>
-  <span class="count" id="count"></span>
-  <span class="tag">Know More. Scroll Less.</span>
+  <button class="mys" id="mysBtn" type="button" aria-label="My Swipe"><b id="count"></b><span>▤ my swipe</span></button>
+  <div class="mid" id="mid"><span class="mq">· Know More. Scroll Less. · Your Community. Your Country. Your World.</span></div>
   <button class="next" id="next" type="button">Next ›</button>
 </div>
-<div class="sheet" id="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="shT"><div>
-  <h2 id="shT">Choose your country</h2>
-  <p>We show the news for the country you pick. Your choice is saved on this phone. (Nigeria is in testing.)</p>
-  <button class="opt" type="button" data-ed="ng" aria-current="true">🇳🇬<span>Nigeria<small>English · Nigerian and world news</small></span></button>
-  <button class="opt" type="button" data-ed="in">🇮🇳<span>India<small>Telangana &amp; Andhra Pradesh · తెలుగు · English · हिन्दी</small></span></button>
-  <button class="opt" type="button" data-close style="justify-content:center">Close</button>
+
+<!-- ☰ menu: Find what matters (same as India) -->
+<div class="full" id="menu" hidden role="dialog" aria-modal="true" aria-label="Menu"><div class="in">
+  <div class="mtop"><a class="brand" href="/ng/"><img src="/art/logo.svg" alt=""><span><b>swipe2news<i>.</i></b><small>🇳🇬 NIGERIA</small></span></a>
+    <button class="circ" id="profBtn" type="button" aria-label="Settings"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></button>
+    <button class="circ" id="menuX" type="button" aria-label="Close">✕</button></div>
+  <div class="hello"><span id="hi">Good day 👋</span><button type="button" id="nameBtn">Tell us your name ›</button></div>
+  <div class="big">Find what matters<i>.</i></div>
+  <div class="box"><b>📞 Contact Swipe2News</b>swipe2news@gmail.com</div>
+  <label class="srch"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6B6160" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="q" type="search" placeholder="Search Nigeria news" autocomplete="off"></label>
+  <div class="res" id="res"></div>
+  <div class="row"><button class="pick" id="cBtn" type="button">🇳🇬 Nigeria ⌄</button><button class="pick" id="stBtn" type="button">📍 <span id="stName">All Nigeria</span> ⌄</button></div>
+  <div class="hero"><h3>5 stories.<br>One minute.</h3><p>Your state · Nigeria · The world</p>
+    <div class="row"><button class="go" id="go5" type="button">Start reading</button><button class="ls" id="ls5" type="button">▷ Listen instead</button></div></div>
+  <div class="sec">Services</div>
+  <div class="tiles">
+    <button class="tile" type="button" id="tSaved">🔖<span>Saved<small id="savedN">0 stories</small></span></button>
+    <button class="tile" type="button" id="tAlerts">🔔<span>News alerts<small id="alN">Morning · evening</small></span></button>
+    <button class="tile" type="button" disabled>💼<span>Jobs<small>Coming soon</small></span></button>
+    <button class="tile" type="button" disabled>⛅<span>Weather<small>Coming soon</small></span></button>
+  </div>
+  <div class="sec">News by topic</div>
+  <div class="lst" id="topics"></div>
+  <div class="sec">Community</div>
+  <div class="lst">
+    <a id="invite" href="#" target="_blank" rel="noopener">Share Swipe2News with friends <span>→</span></a>
+    <a href="mailto:swipe2news@gmail.com?subject=News%20tip%20from%20Nigeria">Send news from your area <span>→</span></a>
+    <a href="mailto:swipe2news@gmail.com?subject=Swipe2News%20Nigeria">Contact us <span>→</span></a>
+  </div>
+  <p style="font:500 12px/1.6 var(--ui);color:var(--muted)">Swipe2News Nigeria: short summaries in our own words, with the source and a link to the full story. FACT, CLAIM and OPINION labels show what is confirmed.</p>
 </div></div>
+
+<!-- country / state / settings / name -->
+<div class="sheet" id="cSheet" hidden role="dialog" aria-modal="true" aria-labelledby="cT"><div>
+  <h2 id="cT">Choose your country</h2>
+  <p>We show the news for your country. More countries are coming.</p>
+  <button class="opt" type="button" aria-current="true">🇳🇬<span>Nigeria<small>English · Nigerian and world news</small></span></button>
+  <button class="opt" type="button" disabled>🇬🇭<span>Ghana<small>Coming soon</small></span></button>
+  <button class="opt" type="button" disabled>🇰🇪<span>Kenya<small>Coming soon</small></span></button>
+  <button class="opt pri" type="button" data-close>Done</button>
+</div></div>
+<div class="sheet" id="sSheet" hidden role="dialog" aria-modal="true" aria-labelledby="sT"><div>
+  <h2 id="sT">Your state</h2>
+  <p>Stories from your state come first.</p>
+  <div class="res" id="states"></div>
+</div></div>
+<div class="sheet" id="pSheet" hidden role="dialog" aria-modal="true" aria-labelledby="pT"><div>
+  <h2 id="pT">Settings</h2>
+  <label class="opt" style="display:grid;gap:6px">Your name<input id="nm" maxlength="30" placeholder="e.g. Chidi" style="height:44px;border:1.5px solid var(--line);border-radius:12px;padding:0 12px;font:600 16px var(--ui)"></label>
+  <div class="opt" style="justify-content:space-between">Text size<span class="tabs" style="width:170px" id="fsT"><button type="button" data-fs="15">A</button><button type="button" data-fs="16">A</button><button type="button" data-fs="18" style="font-size:16px">A</button></span></div>
+  <label class="opt sw">Hide stories I've read<input type="checkbox" id="unreadOnly"></label>
+  <button class="opt" type="button" id="alSet">🔔 News alerts<small id="alSt"></small></button>
+  <button class="opt" type="button" id="clr">🧹 Clear my reading history</button>
+  <button class="opt pri" type="button" data-close>Save</button>
+</div></div>
+
+<!-- ✨ Today -->
+<div class="sheet" id="tSheet" hidden role="dialog" aria-modal="true" aria-labelledby="tT"><div>
+  <h2 id="tT">✨ Today for you</h2>
+  <p id="tSub"></p>
+  <div class="res" id="top5"></div>
+  <div class="row"><button class="opt pri" style="flex:1" type="button" id="tGo">Start reading</button><button class="opt" style="flex:1;justify-content:center" type="button" id="tLs">▷ Listen to all</button></div>
+</div></div>
+
+<!-- My Swipe -->
+<div class="sheet" id="mSheet" hidden role="dialog" aria-modal="true" aria-labelledby="mT"><div>
+  <div class="mylogo" id="mT"><svg viewBox="0 0 32 32"><rect x="6" y="4" width="18" height="22" rx="4" fill="#F5A23A"/><rect x="10" y="8" width="18" height="22" rx="4" fill="#4A0E3F"/><path d="M14 15h10M14 19h7" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg>my swipe<i>.</i></div>
+  <p>Your News. Your Pace. Your Swipe.</p>
+  <div class="stats" id="mStats"></div>
+  <div class="tabs" id="mTabs"><button type="button" data-t="all" aria-pressed="true">All</button><button type="button" data-t="unread">Unread</button><button type="button" data-t="new">New</button><button type="button" data-t="hist">History</button></div>
+  <div id="mBody"></div>
+  <label class="sw">Show only unread stories<input type="checkbox" id="unreadOnly2"></label>
+  <div class="row"><button class="opt" style="flex:1;justify-content:center" type="button" id="mStop"></button><button class="opt pri" style="flex:1" type="button" id="mNext"></button></div>
+  <button class="opt" style="justify-content:center" type="button" id="mStart">From the start</button>
+</div></div>
+
 <div class="sheet" id="ask" hidden role="dialog" aria-modal="true" aria-labelledby="askT"><div>
   <h2 id="askT">🔔 Get Nigeria news alerts?</h2>
-  <p>A short top story in the morning, at lunch, in the evening and at night – Nigerian news only. Turn off any time.</p>
-  <button class="opt" type="button" id="askYes" style="justify-content:center;background:var(--apricot);border-color:var(--apricot);color:var(--deep)">Turn on alerts</button>
+  <p>A short top story in the morning, afternoon, evening and night – Nigerian news only. Turn off any time.</p>
+  <button class="opt pri" type="button" id="askYes">Turn on alerts</button>
   <button class="opt" type="button" id="askNo" style="justify-content:center">Not now</button>
 </div></div>
 <div class="wel" id="wel" hidden role="dialog" aria-modal="true" aria-label="Welcome to Swipe2News Nigeria">
@@ -124,120 +257,234 @@ p.sum{font:400 16px/1.6 var(--tx);color:var(--ink)}
   <h2 id="iosT">📲 Add Swipe2News to your iPhone</h2>
   <p>Get Swipe2News like an app – one tap from your Home Screen, plus news alerts.</p>
   <p style="color:var(--ink);font-weight:600">1. Tap the <b>Share</b> button <span aria-hidden="true">⬆️</span> at the bottom of Safari<br>2. Scroll down and tap <b>Add to Home Screen</b><br>3. Tap <b>Add</b>, then open Swipe2News from your Home Screen</p>
-  <button class="opt" type="button" id="iosOk" style="justify-content:center;background:var(--apricot);border-color:var(--apricot);color:var(--deep)">OK, got it</button>
+  <button class="opt pri" type="button" id="iosOk">OK, got it</button>
 </div></div>
 <div class="toast" id="toast" role="status"></div>
 <script>
-/* Swipe2News – Nigeria edition (test, 24 Nov 2026). Reads /editions/ng/news.json (same format as /news.json, English text).
-   Opened automatically for phones on Nigerian time (Africa/Lagos) or with ?ed=ng; ?ed=in or the edition menu goes back. */
+/* Swipe2News Nigeria (24–26 Nov 2026). Reads /editions/ng/news.json (same format as /news.json, English).
+   Same layout as the India app: ✨ Today, ☰ menu (search, country, state, 5-in-1-minute, services, topics, settings),
+   action bar (save · listen · share · WhatsApp), dock with My Swipe (reading memory on this phone only). */
 (function(){
 const FEED='/editions/ng/news.json', KEY='s2n.ng.feed';
-const SECS=[['all','All'],['politics','Politics'],['business','Business'],['lagos','Lagos'],['security','Security'],['sports','Sports'],['world','World']];
+const TOPICS=[['all','All stories'],['politics','Politics'],['business','Business'],['lagos','Lagos'],['security','Security'],['sports','Sports'],['world','World']];
+const STATES=['Abia','Adamawa','Akwa Ibom','Anambra','Bauchi','Bayelsa','Benue','Borno','Cross River','Delta','Ebonyi','Edo','Ekiti','Enugu','FCT Abuja','Gombe','Imo','Jigawa','Kaduna','Kano','Katsina','Kebbi','Kogi','Kwara','Lagos','Nasarawa','Niger','Ogun','Ondo','Osun','Oyo','Plateau','Rivers','Sokoto','Taraba','Yobe','Zamfara'];
 const LBL={fact:'FACT',claim:'CLAIM',opinion:'OPINION',forecast:'FORECAST'};
 const $=id=>document.getElementById(id), esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let ALL=[], list=[], i=0, sec='all';
 const q=new URLSearchParams(location.search);
+const LS={get(k,d){ try{ const v=localStorage.getItem('s2n.ng.'+k); return v==null?d:JSON.parse(v); }catch(e){ return d; } }, set(k,v){ try{ localStorage.setItem('s2n.ng.'+k,JSON.stringify(v)); }catch(e){} }};
+let ALL=[], list=[], i=0, sec='all';
+// reading memory (My Swipe) – phone only
+const M=Object.assign({read:{},seen:{},hist:[],last:'',visit:0,prevVisit:0},LS.get('mys',{}));
+M.prevVisit=M.visit||0; M.visit=Date.now();
+const saveM=()=>{ M.hist=M.hist.slice(-150); const cut=Date.now()-7*864e5; for(const k in M.read) if(M.read[k]<cut) delete M.read[k]; for(const k in M.seen) if(M.seen[k]<cut) delete M.seen[k]; LS.set('mys',M); };
+let SAVED=LS.get('saved',[]), FS=LS.get('fs',16), NAME=LS.get('name',''), STATE=LS.get('state',''), UNREAD=LS.get('unread',true);
+document.documentElement.style.setProperty('--fs',FS+'px');
+
 function sid(s){ let h=5381; const t=(s.url||'')+'|'+(s.h||''); for(let k=0;k<t.length;k++) h=((h<<5)+h+t.charCodeAt(k))|0; return (h>>>0).toString(36); }
 function when(s){ try{ const d=new Date(s.pub); return d.toLocaleString('en-NG',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'Africa/Lagos'})+' WAT'; }catch(e){ return (s.d||'')+' '+(s.t||''); } }
-function toast(m){ const t=$('toast'); t.textContent=m; t.classList.add('on'); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove('on'),1800); }
-function chips(){ const have=new Set(ALL.flatMap(s=>s.sec||[]));
-  $('chips').innerHTML=SECS.filter(([k])=>k==='all'||have.has(k)).map(([k,l])=>`<button class="chip" type="button" data-s="${k}" aria-pressed="${k===sec}">${l}</button>`).join(''); }
-function greet(){ const h=+new Date().toLocaleString('en-GB',{hour:'2-digit',hour12:false,timeZone:'Africa/Lagos'});
-  const g=h>=5&&h<12?'morning':h>=12&&h<17?'afternoon':h>=17&&h<21?'evening':'night';
-  return {greet:g, alt:{morning:'Good Morning, Naija!',afternoon:'Good Afternoon, Naija!',evening:'Good Evening, Naija!',night:'Good Night, Naija!'}[g]}; }
-function pick(){ list=sec==='all'?(ALL.length?[greet()].concat(ALL):ALL):ALL.filter(s=>(s.sec||[]).includes(sec)); if(i>=list.length) i=0; }
+function toast(m){ const t=$('toast'); t.textContent=m; t.classList.add('on'); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove('on'),2000); }
+function hour(){ return +new Date().toLocaleString('en-GB',{hour:'2-digit',hour12:false,timeZone:'Africa/Lagos'}); }
+function slot(){ const h=hour(); return h>=5&&h<12?'morning':h>=12&&h<17?'afternoon':h>=17&&h<21?'evening':'night'; }
+const inState=s=>STATE&&((s.loc||'')+' '+(s.cat||'')+' '+(s.h||'')).toLowerCase().includes(STATE.replace('FCT ','').toLowerCase());
+
+/* the card list: greeting first (All), state stories first, read stories leave (like India) */
+function build(keep){
+  const cur=keep&&list[i]&&!list[i].greet?sid(list[i]):'';
+  let L=sec==='all'?ALL.slice():ALL.filter(s=>(s.sec||[]).includes(sec));
+  if(STATE){ const a=L.filter(inState), b=L.filter(s=>!inState(s)); L=a.concat(b); }
+  if(UNREAD){ const u=L.filter(s=>!M.read[sid(s)]||sid(s)===cur); if(u.length) L=u; else if(L.length) toast('All read 🎉 – showing every story again'); }
+  list=(sec==='all'&&L.length?[{greet:slot()}]:[]).concat(L);
+  i=cur?Math.max(0,list.findIndex(s=>!s.greet&&sid(s)===cur)):0;
+}
+const ICO={save:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>',
+  share:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>',
+  wa:'<svg width="18" height="18" viewBox="0 0 32 32"><path fill="#fff" d="M16 3.2A12.7 12.7 0 0 0 5.1 22.4L3.4 28.6l6.4-1.7A12.7 12.7 0 1 0 16 3.2zm6.2 15.2c-.3-.2-2-1-2.3-1.1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.6 8.6 0 0 1-4.3-3.8c-.3-.5.3-.5.9-1.6a.6.6 0 0 0 0-.5c0-.2-.7-1.8-1-2.4s-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8 1 3.9.8a3.2 3.2 0 0 0 2.1-1.5 2.6 2.6 0 0 0 .2-1.5c-.1-.1-.3-.2-.6-.4z"/></svg>'};
 function card(s){
   if(s.greet){ const G={morning:['Good Morning,','☀️',"Here are today's top stories, updates and alerts for you."],afternoon:['Good Afternoon,','☀️',"Catch up on today's latest news, trending stories and key updates."],
     evening:['Good Evening,','🌅',"Here's what made headlines today across Nigeria and the world."],night:['Good Night,','🌙',"Sleep well! Stay informed, stay ahead with Swipe2News."]}[s.greet];
     return `<article class="card gcard ${s.greet}" id="card"><picture><source srcset="/art/ng/scene-${s.greet}.webp" type="image/webp"><img class="bg" src="/art/ng/scene-${s.greet}.jpg" alt=""></picture><div class="sh"></div>
     <div class="gt"><div class="lg"><img src="/art/logo.svg" alt=""><div><b>swipe2news<i>.</i></b><small>Know More. Scroll Less.</small></div></div>
-    <h2>${G[0]}<em>Naija! <span>${G[1]}</span></em></h2><div class="ul"></div><p class="sub">${G[2]}</p></div>
+    <h2>${NAME&&s.greet!=='night'?esc(G[0].replace(',',''))+', '+esc(NAME)+'!':G[0]}<em>Naija! <span>${G[1]}</span></em></h2><div class="ul"></div><p class="sub">${G[2]}</p></div>
     <div class="hint">Swipe for today's top stories ›</div></article>`; }
-  const share=location.origin+'/ng/?s='+sid(s);
-  const wa='https://wa.me/?text='+encodeURIComponent(s.h+'\n'+share);
+  const id=sid(s), share=location.origin+'/ng/?s='+id, mins=Math.max(1,Math.round(((s.p||'').split(/\s+/).length+(s.h||'').split(/\s+/).length)/200));
+  const isNew=M.prevVisit&&new Date(s.pub).getTime()>M.prevVisit;
   return `<article class="card" id="card">
     <div class="pic"><img class="mark" src="/art/logo.svg" alt=""><span class="pill">${esc(s.cat)}</span>
       <div class="num"><b>${esc(s.stat)}</b><span>${esc(s.statl)}</span></div><i class="dot"></i></div>
-    <div class="body"><h1>${esc(s.h)}</h1>
-      <div class="meta"><span>${esc(when(s))}</span>${s.lbl?`<span class="lbl ${esc(s.lbl)}">${LBL[s.lbl]||esc(s.lbl)}</span>`:''}</div>
+    <div class="body">
+      <div class="ctl"><span>🕒 ${mins} min read</span><span class="sp"></span><button type="button" id="aa" aria-label="Text size">aA</button><button type="button" id="say" aria-pressed="false">▷ Listen</button></div>
+      <h1>${esc(s.h)}</h1>
+      <div class="meta"><span>${esc(when(s))}</span>${s.lbl?`<span class="lbl ${esc(s.lbl)}">${LBL[s.lbl]||esc(s.lbl)}</span>`:''}${isNew?'<span class="new">NEW</span>':''}</div>
       <p class="sum">${esc(s.p)}</p>
-      <div class="src"><span>Source: ${esc(s.src)}</span><a href="${esc(s.url)}" target="_blank" rel="noopener">Read full story ›</a></div></div>
-    <div class="acts"><button type="button" id="share">↗ Share</button><a class="wa" href="${wa}" target="_blank" rel="noopener">WhatsApp</a></div>
+      <div class="src"><span>Source: ${esc(s.src)}</span><a href="${esc(s.url)}" target="_blank" rel="noopener" data-act>Read full story ›</a></div></div>
+    <div class="acts"><button type="button" id="sv" aria-pressed="${SAVED.includes(id)}">${ICO.save}${SAVED.includes(id)?'Saved':'Save'}</button>
+      <button type="button" id="sh">${ICO.share}Share</button>
+      <a class="wa" href="https://wa.me/?text=${encodeURIComponent(s.h+'\n'+share)}" target="_blank" rel="noopener" data-act>${ICO.wa}WhatsApp</a></div>
   </article>`; }
+let readT=null;
+function markRead(s){ const k=sid(s); if(!M.read[k]){ M.read[k]=Date.now(); M.hist.push({k,h:s.h,t:Date.now()}); saveM(); } }
 function show(dir){
-  pick(); const st=$('stage');
-  if(!list.length){ st.innerHTML='<div class="empty">No stories here yet. Pull down or come back soon.</div>'; $('count').textContent=''; return; }
-  st.innerHTML=card(list[i]); const c=$('card');
+  const st=$('stage'); stopSay(); clearTimeout(readT);
+  if(!list.length){ st.innerHTML='<div class="empty">No stories here yet – come back soon.</div>'; $('count').textContent=''; return; }
+  if(i>=list.length) i=0;
+  const s=list[i]; st.innerHTML=card(s); const c=$('card');
   if(dir){ c.style.transform=`translateX(${dir*40}px)`; c.style.opacity='.3'; requestAnimationFrame(()=>{ c.style.transform=''; c.style.opacity=''; }); }
-  $('count').textContent=(i+1)+'/'+list.length; $('dock').style.setProperty('--prog',((i+1)/list.length*100)+'%');
+  const n=list.filter(x=>!x.greet).length, pos=list.slice(0,i+1).filter(x=>!x.greet).length;
+  $('count').innerHTML=s.greet?`– <small>/${n}</small>`:`${pos}<small>/${n}</small>`;
+  $('dock').style.setProperty('--prog',(n?pos/n*100:0)+'%');
   $('prev').disabled=i===0; $('next').textContent=i===list.length-1?'Start again ↺':'Next ›';
-  if($('share')) $('share').onclick=()=>{ const s=list[i], u=location.origin+'/ng/?s='+sid(s);
-    if(navigator.share) navigator.share({title:s.h,text:s.h,url:u}).catch(()=>{}); else { navigator.clipboard&&navigator.clipboard.writeText(u); toast('Link copied'); } };
+  // 🏠 back to the newest story (hidden on the first card, where the moving tagline shows)
+  $('mid').innerHTML=i>1?'<button class="home" id="homeB" type="button" aria-label="Back to the newest story">🏠</button>':'<span class="mq">· Know More. Scroll Less. · Your Community. Your Country. Your World.</span>';
+  if($('homeB')) $('homeB').onclick=()=>{ i=0; show(-1); };
+  if(!s.greet){ const k=sid(s); M.seen[k]=Date.now(); M.last=k; saveM(); readT=setTimeout(()=>markRead(s),6000);
+    $('sv').onclick=()=>{ const on=SAVED.includes(k); SAVED=on?SAVED.filter(x=>x!==k):[k].concat(SAVED).slice(0,100); LS.set('saved',SAVED); markRead(s); show(0); toast(on?'Removed from saved':'🔖 Saved'); };
+    $('sh').onclick=()=>{ markRead(s); const u=location.origin+'/ng/?s='+k; if(navigator.share) navigator.share({title:s.h,text:s.h,url:u}).catch(()=>{}); else { navigator.clipboard&&navigator.clipboard.writeText(u); toast('Link copied'); } };
+    $('aa').onclick=()=>{ FS=FS>=18?15:FS===15?16:18; LS.set('fs',FS); document.documentElement.style.setProperty('--fs',FS+'px'); toast('Text size '+(FS===15?'small':FS===16?'normal':'large')); };
+    $('say').onclick=()=>{ if(speaking) return stopSay(); markRead(s); say([s.h+'. '+s.p],()=>{}); $('say').setAttribute('aria-pressed','true'); $('say').textContent='■ Stop'; };
+    c.querySelectorAll('[data-act]').forEach(a=>a.addEventListener('click',()=>markRead(s)));
+  }
   swipe(c);
 }
-function go(d){ if(!list.length) return; const n=i+d; if(n<0) return; i=n>=list.length?0:n; show(d); }
+function go(d){ if(!list.length) return; const n=i+d; if(n<0) return; i=n>=list.length?0:n; if(n>=list.length){ build(false); } show(d); }
 function swipe(c){ let x0=null,y0=0,dx=0;
   c.addEventListener('pointerdown',e=>{ if(e.target.closest('a,button')) return; x0=e.clientX; y0=e.clientY; dx=0; });
   c.addEventListener('pointermove',e=>{ if(x0===null) return; dx=e.clientX-x0; if(Math.abs(dx)>Math.abs(e.clientY-y0)) c.style.transform=`translateX(${dx*.6}px) rotate(${dx/60}deg)`; });
   const end=()=>{ if(x0===null) return; x0=null; c.style.transform=''; if(dx<-60) go(1); else if(dx>60) go(-1); };
   c.addEventListener('pointerup',end); c.addEventListener('pointercancel',end); c.addEventListener('pointerleave',end); }
-function use(d){ ALL=(d&&d.stories)||[]; chips(); const want=q.get('s'); if(want){ const k=ALL.findIndex(s=>sid(s)===want); if(k>=0) i=k+1; } show(0); }
+function jumpTo(k){ sec='all'; let at=list.findIndex(s=>!s.greet&&sid(s)===k); if(at<0){ const was=UNREAD; UNREAD=false; build(false); UNREAD=was; at=list.findIndex(s=>!s.greet&&sid(s)===k); } i=Math.max(0,at); closeAll(); show(0); }
+
+/* listen (phone's own voice, English) */
+let speaking=false;
+function say(parts,done){ if(!('speechSynthesis' in window)){ toast('Listening is not available on this phone'); return; }
+  speechSynthesis.cancel(); speaking=true; let k=0; const v=speechSynthesis.getVoices().find(x=>/en[-_]NG/i.test(x.lang))||speechSynthesis.getVoices().find(x=>/^en/i.test(x.lang));
+  const next=()=>{ if(!speaking) return; if(k>=parts.length){ speaking=false; resetSay(); done&&done(); return; } const u=new SpeechSynthesisUtterance(parts[k++]); if(v) u.voice=v; u.lang=v?v.lang:'en-NG'; u.rate=1; u.onend=next; u.onerror=()=>{ speaking=false; resetSay(); }; speechSynthesis.speak(u); };
+  next(); }
+function resetSay(){ const b=$('say'); if(b){ b.setAttribute('aria-pressed','false'); b.textContent='▷ Listen'; } }
+function stopSay(){ if(speaking&&'speechSynthesis' in window) speechSynthesis.cancel(); speaking=false; resetSay(); }
+
+/* ☰ menu */
+const sheets=['menu','cSheet','sSheet','pSheet','tSheet','mSheet'];
+function closeAll(){ sheets.forEach(x=>$(x).hidden=true); }
+function hello(){ const g={morning:'Good morning',afternoon:'Good afternoon',evening:'Good evening',night:'Good night'}[slot()];
+  $('hi').textContent=g+(NAME?', '+NAME:'')+' 👋'; $('nameBtn').textContent=NAME?'Edit name ›':'Tell us your name ›';
+  $('stName').textContent=STATE||'All Nigeria'; $('savedN').textContent=SAVED.length+' stor'+(SAVED.length===1?'y':'ies');
+  $('topics').innerHTML=TOPICS.filter(([k])=>k==='all'||ALL.some(s=>(s.sec||[]).includes(k))).map(([k,l])=>`<button type="button" data-tp="${k}">${l}<span>${k===sec?'✓ ':''}${k==='all'?ALL.length:ALL.filter(s=>(s.sec||[]).includes(k)).length} ›</span></button>`).join('');
+  const inv='https://wa.me/?text='+encodeURIComponent('Read Nigeria news in 60 words – Swipe2News 🇳🇬 Know More. Scroll Less. https://swipe2news.com');
+  $('invite').href=inv; }
+$('menuBtn').onclick=()=>{ hello(); $('q').value=''; $('res').innerHTML=''; $('menu').hidden=false; };
+$('menuX').onclick=()=>{ $('menu').hidden=true; };
+$('topics').onclick=e=>{ const b=e.target.closest('[data-tp]'); if(!b) return; sec=b.dataset.tp; build(false); closeAll(); show(0); toast(TOPICS.find(t=>t[0]===sec)[1]); };
+$('q').oninput=()=>{ const w=$('q').value.trim().toLowerCase(); if(w.length<2){ $('res').innerHTML=''; return; }
+  const r=ALL.filter(s=>((s.h||'')+' '+(s.p||'')+' '+(s.cat||'')+' '+(s.src||'')).toLowerCase().includes(w)).slice(0,12);
+  $('res').innerHTML=r.length?r.map(s=>`<button type="button" data-k="${sid(s)}">${esc(s.h)}<small>${esc(s.cat)} · ${esc(when(s))}</small></button>`).join(''):'<p>No stories found.</p>'; };
+$('res').onclick=e=>{ const b=e.target.closest('[data-k]'); if(b) jumpTo(b.dataset.k); };
+$('cBtn').onclick=()=>{ $('cSheet').hidden=false; };
+$('stBtn').onclick=()=>{ $('states').innerHTML=['All Nigeria'].concat(STATES).map(n=>`<button type="button" data-st="${n==='All Nigeria'?'':n}" ${((STATE||'')===(n==='All Nigeria'?'':n))?'style="border-color:var(--plum);box-shadow:0 0 0 2px var(--plum) inset"':''}>📍 ${n}</button>`).join(''); $('sSheet').hidden=false; };
+$('states').onclick=e=>{ const b=e.target.closest('[data-st]'); if(!b) return; STATE=b.dataset.st; LS.set('state',STATE); $('sSheet').hidden=true; build(false); hello(); show(0); toast(STATE?'📍 '+STATE+' stories come first':'📍 All Nigeria'); };
+$('nameBtn').onclick=()=>{ $('profBtn').click(); setTimeout(()=>$('nm').focus(),50); };
+$('profBtn').onclick=()=>{ $('nm').value=NAME; $('unreadOnly').checked=UNREAD; fsUI(); alUI(); $('pSheet').hidden=false; };
+function fsUI(){ $('fsT').querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.fs===FS)); }
+$('fsT').onclick=e=>{ const b=e.target.closest('[data-fs]'); if(!b) return; FS=+b.dataset.fs; LS.set('fs',FS); document.documentElement.style.setProperty('--fs',FS+'px'); fsUI(); };
+$('pSheet').addEventListener('click',e=>{ if(e.target===$('pSheet')||e.target.closest('[data-close]')){ NAME=$('nm').value.trim().slice(0,30); LS.set('name',NAME);
+  const u=$('unreadOnly').checked; if(u!==UNREAD){ UNREAD=u; LS.set('unread',UNREAD); build(true); } $('pSheet').hidden=true; hello(); show(0); } });
+$('clr').onclick=()=>{ if($('clr').dataset.sure){ M.read={}; M.seen={}; M.hist=[]; saveM(); build(false); show(0); toast('Reading history cleared'); $('clr').textContent='🧹 Clear my reading history'; delete $('clr').dataset.sure; }
+  else { $('clr').dataset.sure='1'; $('clr').textContent='Tap again to clear'; } };
+['cSheet','sSheet','tSheet','mSheet'].forEach(x=>$(x).addEventListener('click',e=>{ if(e.target===$(x)||e.target.closest('[data-close]')) $(x).hidden=true; }));
+const news=()=>ALL.filter(s=>!M.read[sid(s)]);
+const top5=()=>{ const a=STATE?ALL.filter(inState):[]; return a.concat(ALL.filter(s=>!a.includes(s))).slice(0,5); };
+$('go5').onclick=()=>{ sec='all'; build(false); i=list.length>1?1:0; closeAll(); show(1); };
+$('ls5').onclick=()=>{ closeAll(); toast('▷ Reading 5 stories'); say(top5().map((s,k)=>(k+1)+'. '+s.h+'. '+s.p)); };
+$('tSaved').onclick=()=>{ if(!SAVED.length) return toast('No saved stories yet – tap 🔖 Save on a card'); const S=ALL.filter(s=>SAVED.includes(sid(s)));
+  $('res').innerHTML='<p><b>Saved stories</b></p>'+(S.length?S.map(s=>`<button type="button" data-k="${sid(s)}">${esc(s.h)}<small>${esc(s.cat)} · ${esc(when(s))}</small></button>`).join(''):'<p>Your saved stories are older than 2 days.</p>'); };
+$('tAlerts').onclick=()=>{ closeAll(); bellClick(); };
+
+/* ✨ Today */
+function bubble(){ const n=M.prevVisit?ALL.filter(s=>new Date(s.pub).getTime()>M.prevVisit).length:0; $('bub').textContent=n?(n>99?'99+':n):''; }
+$('today').onclick=()=>{ const today=new Date().toLocaleDateString('en-GB',{timeZone:'Africa/Lagos'});
+  const n=ALL.filter(s=>new Date(s.pub).toLocaleDateString('en-GB',{timeZone:'Africa/Lagos'})===today).length;
+  $('tSub').textContent=({morning:'Good morning',afternoon:'Good afternoon',evening:'Good evening',night:'Good night'}[slot()])+(NAME?', '+NAME:'')+'! '+n+' stories today. Know More. Scroll Less.';
+  $('top5').innerHTML=top5().map((s,k)=>`<button type="button" data-k="${sid(s)}">${k+1}. ${esc(s.h)}<small>${esc(s.cat)} · ${esc(when(s))}</small></button>`).join('');
+  $('tSheet').hidden=false; $('bub').textContent=''; };
+$('top5').onclick=e=>{ const b=e.target.closest('[data-k]'); if(b) jumpTo(b.dataset.k); };
+$('tGo').onclick=()=>$('go5').click(); $('tLs').onclick=()=>$('ls5').click();
+
+/* My Swipe */
+let mTab='all';
+function mys(){ const tot=ALL.length, rd=ALL.filter(s=>M.read[sid(s)]).length, nw=M.prevVisit?ALL.filter(s=>new Date(s.pub).getTime()>M.prevVisit).length:0;
+  $('mStats').innerHTML=`<div><b>${tot}</b>stories</div><div><b>${rd}</b>read</div><div><b>${tot-rd}</b>unread</div><div><b>${tot?Math.round(rd/tot*100):0}%</b>done</div>`+(nw?`<div style="grid-column:1/-1"><b style="display:inline;font-size:15px">${nw}</b> new since your last visit</div>`:'');
+  $('mTabs').querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.t===mTab));
+  const cur=list[i]&&!list[i].greet?sid(list[i]):'';
+  if(mTab==='hist'){ const H=M.hist.slice().reverse();
+    $('mBody').innerHTML=H.length?'<div class="hist">'+H.slice(0,40).map(x=>`<button type="button" data-k="${x.k}">✓ ${esc(x.h)}<small>${new Date(x.t).toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit',timeZone:'Africa/Lagos'})}</small></button>`).join('')+'</div>':'<p>No stories read yet.</p>'; }
+  else { const L=ALL.map((s,k)=>({s,k:sid(s),n:k+1})).filter(x=>mTab==='all'||(mTab==='unread'&&!M.read[x.k])||(mTab==='new'&&M.prevVisit&&new Date(x.s.pub).getTime()>M.prevVisit));
+    $('mBody').innerHTML=L.length?'<div class="grid">'+L.map(x=>`<button type="button" data-k="${x.k}" class="${x.k===cur?'c':M.read[x.k]?'r':M.seen[x.k]?'s':''}" title="${esc(x.s.h)}">${M.read[x.k]&&x.k!==cur?'✓':x.n}</button>`).join('')+'</div>':'<p>Nothing here.</p>'; }
+  const stopAt=ALL.findIndex(s=>sid(s)===M.last), nx=ALL.findIndex((s,k)=>k>stopAt&&!M.read[sid(s)]);
+  $('mStop').textContent='Where I stopped'+(stopAt>=0?' · '+(stopAt+1):''); $('mStop').disabled=stopAt<0; $('mStop').dataset.k=stopAt>=0?M.last:'';
+  $('mNext').textContent='Next unread'+(nx>=0?' · '+(nx+1):''); $('mNext').disabled=nx<0; $('mNext').dataset.k=nx>=0?sid(ALL[nx]):'';
+  $('unreadOnly2').checked=UNREAD; }
+$('mysBtn').onclick=()=>{ mys(); $('mSheet').hidden=false; };
+$('mTabs').onclick=e=>{ const b=e.target.closest('[data-t]'); if(b){ mTab=b.dataset.t; mys(); } };
+$('mBody').onclick=e=>{ const b=e.target.closest('[data-k]'); if(b) jumpTo(b.dataset.k); };
+$('mStop').onclick=()=>{ if($('mStop').dataset.k) jumpTo($('mStop').dataset.k); };
+$('mNext').onclick=()=>{ if($('mNext').dataset.k) jumpTo($('mNext').dataset.k); };
+$('mStart').onclick=()=>{ sec='all'; build(false); closeAll(); show(0); };
+$('unreadOnly2').onchange=()=>{ UNREAD=$('unreadOnly2').checked; LS.set('unread',UNREAD); build(true); mys(); show(0); };
+
+/* data */
+function use(d){ ALL=(d&&d.stories)||[]; build(false); const want=q.get('s'); if(want){ const was=UNREAD; UNREAD=false; build(false); UNREAD=was; const k=list.findIndex(s=>!s.greet&&sid(s)===want); if(k>=0) i=k; } bubble(); show(0); }
 async function load(){
   let cached=null; try{ cached=JSON.parse(localStorage.getItem(KEY)||'null'); }catch(e){}
   if(cached) use(cached);
   try{ const r=await fetch(FEED,{cache:'no-cache'}); if(!r.ok) throw 0; const d=await r.json(); try{ localStorage.setItem(KEY,JSON.stringify(d)); }catch(e){} if(!cached||cached.updated!==d.updated) use(d); }
   catch(e){ if(!cached) $('stage').innerHTML='<div class="empty">Could not load the news. Check your internet and try again.</div>'; else toast('Offline – showing saved news'); }
 }
-$('chips').onclick=e=>{ const b=e.target.closest('[data-s]'); if(!b) return; sec=b.dataset.s; i=0; chips(); show(0); };
 $('prev').onclick=()=>go(-1); $('next').onclick=()=>go(1);
-addEventListener('keydown',e=>{ if(e.key==='ArrowRight') go(1); if(e.key==='ArrowLeft') go(-1); });
+addEventListener('keydown',e=>{ if(e.key==='ArrowRight') go(1); if(e.key==='ArrowLeft') go(-1); if(e.key==='Escape'){ closeAll(); } });
+document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible'&&ALL.length){ build(true); show(0); } });
 
-// NEW readers only (never used Swipe2News on this phone): welcome + "Choose your country" (Nigeria already ticked).
-// Existing readers (any saved w2s.* setting from the app) go straight to the news.
-// The installed app (opened with ?source=android) always shows it once after install, even if this phone used the website before.
+/* welcome: new readers, and once after installing the app */
 const APP=q.get('source')==='android', WK=APP?'s2n.ng.welcomed.app':'s2n.ng.welcomed';
 let first=false; try{ let old=false; for(let k=0;k<localStorage.length;k++){ if((localStorage.key(k)||'').indexOf('w2s.')===0){ old=true; break; } }
   first=(APP||!old)&&!localStorage.getItem(WK); }catch(e){}
 if(first) $('wel').hidden=false;
 const done=()=>{ try{ localStorage.setItem(WK,'1'); localStorage.setItem('s2n.ng.welcomed','1'); }catch(e){} first=false; $('wel').hidden=true; };
 $('welGo').onclick=done;
-$('sheet').onclick=e=>{ const b=e.target.closest('[data-ed],[data-close]'); if(e.target===$('sheet')||(b&&b.dataset.close!==undefined)) return $('sheet').hidden=true;
-  if(b&&b.dataset.ed==='in'){ try{ localStorage.setItem('s2n.edition','in'); }catch(x){} location.href='/?ed=in'+(q.has('source')?'&source='+encodeURIComponent(q.get('source')):''); }
-  else if(b) $('sheet').hidden=true; };
-/* Nigeria alerts (OneSignal, same app as India): readers here are tagged edition=ng + lang=en, so they get only the
-   Nigeria greetings (tools/ng/push_ng.py) and none of the India alerts. */
+
+/* alerts (OneSignal, same app as India): readers here are tagged edition=ng, lang=en – Nigeria alerts only */
 const onSite=['swipe2news.com','www.swipe2news.com'].includes(location.hostname);
 const IOS=/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
 const STANDALONE=matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
-const pushOK=onSite&&'serviceWorker' in navigator&&'Notification' in window;   // iPhone: only once added to the Home Screen
+const pushOK=onSite&&'serviceWorker' in navigator&&'Notification' in window;
 window.OneSignalDeferred=window.OneSignalDeferred||[];
 const tag=OS=>{ try{ OS.User.addTags({edition:'ng',lang:'en'}); }catch(e){} };
-const bell=on=>{ $('bell').setAttribute('aria-pressed',!!on); };
+let ALON=pushOK&&Notification.permission==='granted';
+function alUI(){ const t=ALON?'On – morning, afternoon, evening, night':(IOS&&!STANDALONE?'Add the app to your Home Screen first':'Off – tap to turn on'); $('alN').textContent=ALON?'On ✓':'Tap to turn on'; $('alSt').textContent=t; }
 let osLoaded=false;
-function loadOS(){ if(osLoaded||!pushOK) return; osLoaded=true;   // saves data: the alerts code loads only when needed
+function loadOS(){ if(osLoaded||!pushOK) return; osLoaded=true;
   const s=document.createElement('script'); s.src='https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js'; s.defer=true; document.head.appendChild(s);
   OneSignalDeferred.push(async function(OS){
     await OS.init({ appId:'4f354e28-c33a-4836-8a3a-f25d58b2ba49', serviceWorkerPath:'OneSignalSDKWorker.js', serviceWorkerParam:{ scope:'/' } });
-    bell(OS.Notifications.permission);
-    OS.Notifications.addEventListener('permissionChange',p=>{ bell(p); if(p) tag(OS); });
+    ALON=OS.Notifications.permission; alUI();
+    OS.Notifications.addEventListener('permissionChange',p=>{ ALON=p; alUI(); if(p) tag(OS); });
     if(OS.Notifications.permission) tag(OS);
   }); }
-const iosGuide=()=>{ $('ios').hidden=false; try{ localStorage.setItem('s2n.ng.ios',Date.now()); }catch(e){} };
+const iosGuide=()=>{ $('ios').hidden=false; LS.set('ios',Date.now()); };
 $('iosOk').onclick=()=>{ $('ios').hidden=true; };
-if(pushOK){ $('bell').hidden=false; if(Notification.permission==='granted'){ bell(true); loadOS(); } }
-else if(onSite&&IOS&&!STANDALONE){ $('bell').hidden=false; }   // iPhone in Safari: the bell shows how to add the app
-function askAlerts(){ $('ask').hidden=true; try{ localStorage.setItem('s2n.ng.asked',Date.now()); }catch(e){}
-  if(!pushOK){ if(IOS&&!STANDALONE) iosGuide(); return; } loadOS(); if(Notification.permission==='denied'){ toast('Alerts are blocked – allow notifications for swipe2news.com in settings'); return; }
-  OneSignalDeferred.push(async function(OS){ try{ await OS.Notifications.requestPermission(); }catch(e){} if(OS.Notifications.permission){ tag(OS); toast('🔔 Alerts on – Nigeria news only'); } }); }
-$('bell').onclick=()=>{ if($('bell').getAttribute('aria-pressed')==='true') return toast('Alerts are on ✓'); if(!pushOK&&IOS) return iosGuide(); askAlerts(); };
+if(ALON) loadOS();
+function askAlerts(){ $('ask').hidden=true; LS.set('asked',Date.now());
+  if(!pushOK){ if(IOS&&!STANDALONE) iosGuide(); else toast('Alerts are not available in this browser'); return; } loadOS();
+  if(Notification.permission==='denied'){ toast('Alerts are blocked – allow notifications for swipe2news.com in settings'); return; }
+  OneSignalDeferred.push(async function(OS){ try{ await OS.Notifications.requestPermission(); }catch(e){} if(OS.Notifications.permission){ ALON=true; alUI(); tag(OS); toast('🔔 Alerts on – Nigeria news only'); } }); }
+function bellClick(){ if(ALON) return toast('🔔 Alerts are on ✓'); if(!pushOK&&IOS) return iosGuide(); askAlerts(); }
+$('alSet').onclick=()=>{ $('pSheet').hidden=true; bellClick(); };
 $('askYes').onclick=askAlerts;
+$('askNo').onclick=()=>{ $('ask').hidden=true; LS.set('asked',Date.now()); };
 if((pushOK&&Notification.permission==='default')||(onSite&&IOS&&!STANDALONE)){ $('welAl').hidden=false; $('welAl').onclick=()=>{ askAlerts(); $('welAl').hidden=true; }; }
-$('askNo').onclick=()=>{ $('ask').hidden=true; try{ localStorage.setItem('s2n.ng.asked',Date.now()); }catch(e){} };
-// invite once, after the reader has looked at 2 stories (again after 7 days if they said "Not now")
+// invites: alerts after 2 stories (Android), Home Screen guide after 3 (iPhone in Safari)
 let swipes=0; const _go=go; go=function(d){ _go(d); swipes++;
-  if(swipes===3&&onSite&&IOS&&!STANDALONE){ let a=0; try{ a=+localStorage.getItem('s2n.ng.ios')||0; }catch(e){} if(Date.now()-a>14*864e5&&$('sheet').hidden&&$('ask').hidden) iosGuide(); }
-  if(swipes===2&&pushOK&&Notification.permission==='default'){
-  let a=0; try{ a=+localStorage.getItem('s2n.ng.asked')||0; }catch(e){} if(Date.now()-a>7*864e5&&$('sheet').hidden) $('ask').hidden=false; } };
+  const free=()=>sheets.every(x=>$(x).hidden)&&$('ask').hidden&&$('ios').hidden&&$('wel').hidden;
+  if(swipes===3&&onSite&&IOS&&!STANDALONE&&Date.now()-LS.get('ios',0)>14*864e5&&free()) iosGuide();
+  if(swipes===2&&pushOK&&Notification.permission==='default'&&Date.now()-LS.get('asked',0)>7*864e5&&free()) $('ask').hidden=false; };
 load();
 })();
 </script>
