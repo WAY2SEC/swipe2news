@@ -79,6 +79,16 @@ p.sum{font:400 var(--fs)/1.6 var(--tx);color:var(--ink)}
 .gcard .sub{border-left:4px solid var(--orange);padding-left:12px;font:700 19px/1.35 var(--ui);color:var(--deep);max-width:300px}
 .gcard.night h2,.gcard.night .sub,.gcard.night .lg b,.gcard.night .lg small{color:#fff}
 .gcard .hint{position:absolute;left:0;right:0;bottom:0;padding:16px;text-align:center;font:800 15px var(--ui);color:#fff;background:linear-gradient(transparent,rgba(46,8,39,.85))}
+.scard{background:var(--cream)}.shd{display:flex;align-items:center;gap:12px;padding:18px 16px;background:linear-gradient(135deg,#5A1450,var(--deep));color:#fff}
+.shd .ico{width:52px;height:52px;border-radius:16px;background:rgba(255,255,255,.14);display:flex;align-items:center;justify-content:center;font:800 26px var(--ui)}
+.shd b{display:block;font:800 22px var(--ui)}.shd small{font:600 13px var(--ui);color:#F5EBDD}
+.sbody{flex:1;overflow-y:auto;padding:12px 14px;display:grid;gap:8px;align-content:start}
+.jb{display:block;border:1.5px solid var(--line);background:#fff;border-radius:14px;padding:10px 12px;text-decoration:none;color:var(--ink);font:700 14px/1.35 var(--ui)}
+.jb small{display:block;margin-top:3px;font:600 12px var(--ui);color:var(--muted)}.jb .g{display:inline-block;margin-right:6px;border-radius:5px;padding:1px 6px;background:#0E7A3E;color:#fff;font:800 10px var(--ui)}
+.wxnow{display:flex;align-items:center;gap:14px;background:#fff;border:1.5px solid var(--line);border-radius:18px;padding:14px}.wxnow .e{font-size:46px}.wxnow b{font:800 40px var(--ui);color:var(--plum)}.wxnow small{display:block;font:600 13px var(--ui);color:var(--muted)}
+.wxd{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.wxd div{background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:10px;text-align:center;font:700 13px var(--ui)}.wxd div span{display:block;font-size:24px}
+.fx{display:flex;justify-content:space-between;align-items:center;background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:12px 14px;font:800 16px var(--ui)}.fx small{font:600 12px var(--ui);color:var(--muted)}
+.note{font:500 12px/1.5 var(--ui);color:var(--muted)}
 /* bottom dock */
 .dock{position:relative;display:flex;align-items:center;gap:10px;margin:0 10px;padding:9px 10px max(10px,env(safe-area-inset-bottom));background:var(--deep);border-radius:0 0 22px 22px}
 .dock:before{content:"";position:absolute;left:0;top:0;height:3px;width:var(--prog,0%);background:var(--apricot);box-shadow:0 0 10px var(--apricot);transition:width .25s}
@@ -184,8 +194,10 @@ p.sum{font:400 var(--fs)/1.6 var(--tx);color:var(--ink)}
   <div class="tiles">
     <button class="tile" type="button" id="tSaved">🔖<span>Saved<small id="savedN">0 stories</small></span></button>
     <button class="tile" type="button" id="tAlerts">🔔<span>News alerts<small id="alN">Morning · evening</small></span></button>
-    <button class="tile" type="button" disabled>💼<span>Jobs<small>Coming soon</small></span></button>
-    <button class="tile" type="button" disabled>⛅<span>Weather<small>Coming soon</small></span></button>
+    <button class="tile" type="button" data-svc="jobs">💼<span>Jobs<small id="jobsN">Latest vacancies</small></span></button>
+    <button class="tile" type="button" data-svc="wx">⛅<span>Weather<small id="wxN">Today and 3 days</small></span></button>
+    <button class="tile" type="button" data-svc="ngn">₦<span>Naira rates<small>Dollar, pound, euro</small></span></button>
+    <button class="tile" type="button" data-svc="gov">🏛️<span>Recruitment<small>Army, police, federal</small></span></button>
   </div>
   <div class="sec">News by topic</div>
   <div class="lst" id="topics"></div>
@@ -223,6 +235,10 @@ p.sum{font:400 var(--fs)/1.6 var(--tx);color:var(--ink)}
   <button class="opt pri" type="button" data-close>Save</button>
 </div></div>
 
+<div class="sheet" id="vSheet" hidden role="dialog" aria-modal="true" aria-labelledby="vT"><div>
+  <h2 id="vT"></h2><div id="vBody" style="display:grid;gap:8px"></div>
+  <button class="opt pri" type="button" data-close>Close</button>
+</div></div>
 <!-- ✨ Today -->
 <div class="sheet" id="tSheet" hidden role="dialog" aria-modal="true" aria-labelledby="tT"><div>
   <h2 id="tT">✨ Today for you</h2>
@@ -281,6 +297,8 @@ const saveM=()=>{ M.hist=M.hist.slice(-150); const cut=Date.now()-7*864e5; for(c
 let SAVED=LS.get('saved',[]), FS=LS.get('fs',16), NAME=LS.get('name',''), STATE=LS.get('state',''), UNREAD=LS.get('unread',true);
 document.documentElement.style.setProperty('--fs',FS+'px');
 
+const isNews=s=>!!s&&!s.greet&&!s.svc;
+let JOBS=[], JUP='';
 function sid(s){ let h=5381; const t=(s.url||'')+'|'+(s.h||''); for(let k=0;k<t.length;k++) h=((h<<5)+h+t.charCodeAt(k))|0; return (h>>>0).toString(36); }
 function when(s){ try{ const d=new Date(s.pub); return d.toLocaleString('en-NG',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'Africa/Lagos'})+' WAT'; }catch(e){ return (s.d||'')+' '+(s.t||''); } }
 function toast(m){ const t=$('toast'); t.textContent=m; t.classList.add('on'); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove('on'),2000); }
@@ -290,17 +308,21 @@ const inState=s=>STATE&&((s.loc||'')+' '+(s.cat||'')+' '+(s.h||'')).toLowerCase(
 
 /* the card list: greeting first (All), state stories first, read stories leave (like India) */
 function build(keep){
-  const cur=keep&&list[i]&&!list[i].greet?sid(list[i]):'';
+  const cur=keep&&list[i]&&isNews(list[i])?sid(list[i]):'';
   let L=sec==='all'?ALL.slice():ALL.filter(s=>(s.sec||[]).includes(sec));
   if(STATE){ const a=L.filter(inState), b=L.filter(s=>!inState(s)); L=a.concat(b); }
   if(UNREAD){ const u=L.filter(s=>!M.read[sid(s)]||sid(s)===cur); if(u.length) L=u; else if(L.length) toast('All read 🎉 – showing every story again'); }
+  if(sec==='all'){ const ins=[[5,'jobs'],[10,'wx'],[15,'ngn']]; for(let k=ins.length-1;k>=0;k--){ const [at,v]=ins[k]; if(L.length>at&&(v!=='jobs'||JOBS.length)) L.splice(at,0,{svc:v}); } }
   list=(sec==='all'&&L.length?[{greet:slot()}]:[]).concat(L);
-  i=cur?Math.max(0,list.findIndex(s=>!s.greet&&sid(s)===cur)):0;
+  i=cur?Math.max(0,list.findIndex(s=>isNews(s)&&sid(s)===cur)):0;
 }
 const ICO={save:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>',
   share:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>',
   wa:'<svg width="18" height="18" viewBox="0 0 32 32"><path fill="#fff" d="M16 3.2A12.7 12.7 0 0 0 5.1 22.4L3.4 28.6l6.4-1.7A12.7 12.7 0 1 0 16 3.2zm6.2 15.2c-.3-.2-2-1-2.3-1.1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.6 8.6 0 0 1-4.3-3.8c-.3-.5.3-.5.9-1.6a.6.6 0 0 0 0-.5c0-.2-.7-1.8-1-2.4s-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8 1 3.9.8a3.2 3.2 0 0 0 2.1-1.5 2.6 2.6 0 0 0 .2-1.5c-.1-.1-.3-.2-.6-.4z"/></svg>'};
 function card(s){
+  if(s.svc){ const T={jobs:['💼','Jobs in Nigeria','Latest vacancies and recruitment','See all jobs ›'],wx:['⛅','Weather','<span id="wxP">'+esc(STATE||'Lagos')+'</span> today','Full forecast ›'],ngn:['₦','Naira today','Exchange rates','All rates ›']}[s.svc];
+    return `<article class="card scard" id="card"><div class="shd"><span class="ico">${T[0]}</span><div><b>${T[1]}</b><small>${T[2]}</small></div></div><div class="sbody" id="svcBody"><p class="sum" style="color:var(--muted)">Loading…</p></div>
+      <button class="opt pri" type="button" style="margin:0 14px 14px;width:auto" data-svc="${s.svc}">${T[3]}</button></article>`; }
   if(s.greet){ const G={morning:['Good Morning,','☀️',"Here are today's top stories, updates and alerts for you."],afternoon:['Good Afternoon,','☀️',"Catch up on today's latest news, trending stories and key updates."],
     evening:['Good Evening,','🌅',"Here's what made headlines today across Nigeria and the world."],night:['Good Night,','🌙',"Sleep well! Stay informed, stay ahead with Swipe2News."]}[s.greet];
     return `<article class="card gcard ${s.greet}" id="card"><picture><source srcset="/art/ng/scene-${s.greet}.webp" type="image/webp"><img class="bg" src="/art/ng/scene-${s.greet}.jpg" alt=""></picture><div class="sh"></div>
@@ -330,14 +352,15 @@ function show(dir){
   if(i>=list.length) i=0;
   const s=list[i]; st.innerHTML=card(s); const c=$('card');
   if(dir){ c.style.transform=`translateX(${dir*40}px)`; c.style.opacity='.3'; requestAnimationFrame(()=>{ c.style.transform=''; c.style.opacity=''; }); }
-  const n=list.filter(x=>!x.greet).length, pos=list.slice(0,i+1).filter(x=>!x.greet).length;
-  $('count').innerHTML=s.greet?`– <small>/${n}</small>`:`${pos}<small>/${n}</small>`;
+  const n=list.filter(isNews).length, pos=list.slice(0,i+1).filter(isNews).length;
+  $('count').innerHTML=!isNews(s)?`– <small>/${n}</small>`:`${pos}<small>/${n}</small>`;
   $('dock').style.setProperty('--prog',(n?pos/n*100:0)+'%');
   $('prev').disabled=i===0; $('next').textContent=i===list.length-1?'Start again ↺':'Next ›';
   // 🏠 back to the newest story (hidden on the first card, where the moving tagline shows)
   $('mid').innerHTML=i>1?'<button class="home" id="homeB" type="button" aria-label="Back to the newest story">🏠</button>':'<span class="mq">· Know More. Scroll Less. · Your Community. Your Country. Your World.</span>';
   if($('homeB')) $('homeB').onclick=()=>{ i=0; show(-1); };
-  if(!s.greet){ const k=sid(s); M.seen[k]=Date.now(); M.last=k; saveM(); readT=setTimeout(()=>markRead(s),6000);
+  if(s.svc) svcFill(s.svc);
+  if(isNews(s)){ const k=sid(s); M.seen[k]=Date.now(); M.last=k; saveM(); readT=setTimeout(()=>markRead(s),6000);
     $('sv').onclick=()=>{ const on=SAVED.includes(k); SAVED=on?SAVED.filter(x=>x!==k):[k].concat(SAVED).slice(0,100); LS.set('saved',SAVED); markRead(s); show(0); toast(on?'Removed from saved':'🔖 Saved'); };
     $('sh').onclick=()=>{ markRead(s); const u=location.origin+'/ng/?s='+k; if(navigator.share) navigator.share({title:s.h,text:s.h,url:u}).catch(()=>{}); else { navigator.clipboard&&navigator.clipboard.writeText(u); toast('Link copied'); } };
     $('aa').onclick=()=>{ FS=FS>=18?15:FS===15?16:18; LS.set('fs',FS); document.documentElement.style.setProperty('--fs',FS+'px'); toast('Text size '+(FS===15?'small':FS===16?'normal':'large')); };
@@ -352,7 +375,7 @@ function swipe(c){ let x0=null,y0=0,dx=0;
   c.addEventListener('pointermove',e=>{ if(x0===null) return; dx=e.clientX-x0; if(Math.abs(dx)>Math.abs(e.clientY-y0)) c.style.transform=`translateX(${dx*.6}px) rotate(${dx/60}deg)`; });
   const end=()=>{ if(x0===null) return; x0=null; c.style.transform=''; if(dx<-60) go(1); else if(dx>60) go(-1); };
   c.addEventListener('pointerup',end); c.addEventListener('pointercancel',end); c.addEventListener('pointerleave',end); }
-function jumpTo(k){ sec='all'; let at=list.findIndex(s=>!s.greet&&sid(s)===k); if(at<0){ const was=UNREAD; UNREAD=false; build(false); UNREAD=was; at=list.findIndex(s=>!s.greet&&sid(s)===k); } i=Math.max(0,at); closeAll(); show(0); }
+function jumpTo(k){ sec='all'; let at=list.findIndex(s=>isNews(s)&&sid(s)===k); if(at<0){ const was=UNREAD; UNREAD=false; build(false); UNREAD=was; at=list.findIndex(s=>isNews(s)&&sid(s)===k); } i=Math.max(0,at); closeAll(); show(0); }
 
 /* listen (phone's own voice, English) */
 let speaking=false;
@@ -364,7 +387,7 @@ function resetSay(){ const b=$('say'); if(b){ b.setAttribute('aria-pressed','fal
 function stopSay(){ if(speaking&&'speechSynthesis' in window) speechSynthesis.cancel(); speaking=false; resetSay(); }
 
 /* ☰ menu */
-const sheets=['menu','cSheet','sSheet','pSheet','tSheet','mSheet'];
+const sheets=['menu','cSheet','sSheet','pSheet','tSheet','mSheet','vSheet'];
 function closeAll(){ sheets.forEach(x=>$(x).hidden=true); }
 function hello(){ const g={morning:'Good morning',afternoon:'Good afternoon',evening:'Good evening',night:'Good night'}[slot()];
   $('hi').textContent=g+(NAME?', '+NAME:'')+' 👋'; $('nameBtn').textContent=NAME?'Edit name ›':'Tell us your name ›';
@@ -391,7 +414,7 @@ $('pSheet').addEventListener('click',e=>{ if(e.target===$('pSheet')||e.target.cl
   const u=$('unreadOnly').checked; if(u!==UNREAD){ UNREAD=u; LS.set('unread',UNREAD); build(true); } $('pSheet').hidden=true; hello(); show(0); } });
 $('clr').onclick=()=>{ if($('clr').dataset.sure){ M.read={}; M.seen={}; M.hist=[]; saveM(); build(false); show(0); toast('Reading history cleared'); $('clr').textContent='🧹 Clear my reading history'; delete $('clr').dataset.sure; }
   else { $('clr').dataset.sure='1'; $('clr').textContent='Tap again to clear'; } };
-['cSheet','sSheet','tSheet','mSheet'].forEach(x=>$(x).addEventListener('click',e=>{ if(e.target===$(x)||e.target.closest('[data-close]')) $(x).hidden=true; }));
+['cSheet','sSheet','tSheet','mSheet','vSheet'].forEach(x=>$(x).addEventListener('click',e=>{ if(e.target===$(x)||e.target.closest('[data-close]')) $(x).hidden=true; }));
 const news=()=>ALL.filter(s=>!M.read[sid(s)]);
 const top5=()=>{ const a=STATE?ALL.filter(inState):[]; return a.concat(ALL.filter(s=>!a.includes(s))).slice(0,5); };
 $('go5').onclick=()=>{ sec='all'; build(false); i=list.length>1?1:0; closeAll(); show(1); };
@@ -415,7 +438,7 @@ let mTab='all';
 function mys(){ const tot=ALL.length, rd=ALL.filter(s=>M.read[sid(s)]).length, nw=M.prevVisit?ALL.filter(s=>new Date(s.pub).getTime()>M.prevVisit).length:0;
   $('mStats').innerHTML=`<div><b>${tot}</b>stories</div><div><b>${rd}</b>read</div><div><b>${tot-rd}</b>unread</div><div><b>${tot?Math.round(rd/tot*100):0}%</b>done</div>`+(nw?`<div style="grid-column:1/-1"><b style="display:inline;font-size:15px">${nw}</b> new since your last visit</div>`:'');
   $('mTabs').querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.t===mTab));
-  const cur=list[i]&&!list[i].greet?sid(list[i]):'';
+  const cur=list[i]&&isNews(list[i])?sid(list[i]):'';
   if(mTab==='hist'){ const H=M.hist.slice().reverse();
     $('mBody').innerHTML=H.length?'<div class="hist">'+H.slice(0,40).map(x=>`<button type="button" data-k="${x.k}">✓ ${esc(x.h)}<small>${new Date(x.t).toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit',timeZone:'Africa/Lagos'})}</small></button>`).join('')+'</div>':'<p>No stories read yet.</p>'; }
   else { const L=ALL.map((s,k)=>({s,k:sid(s),n:k+1})).filter(x=>mTab==='all'||(mTab==='unread'&&!M.read[x.k])||(mTab==='new'&&M.prevVisit&&new Date(x.s.pub).getTime()>M.prevVisit));
@@ -432,8 +455,44 @@ $('mNext').onclick=()=>{ if($('mNext').dataset.k) jumpTo($('mNext').dataset.k); 
 $('mStart').onclick=()=>{ sec='all'; build(false); closeAll(); show(0); };
 $('unreadOnly2').onchange=()=>{ UNREAD=$('unreadOnly2').checked; LS.set('unread',UNREAD); build(true); mys(); show(0); };
 
+/* services: Jobs (editions/ng/jobs.json), Weather (Open-Meteo, live), Naira rates (exchangerate-api, daily) */
+const CAP={'Abia':[5.53,7.49,'Umuahia'],'Adamawa':[9.21,12.48,'Yola'],'Akwa Ibom':[5.04,7.93,'Uyo'],'Anambra':[6.21,7.07,'Awka'],'Bauchi':[10.31,9.84,'Bauchi'],'Bayelsa':[4.92,6.27,'Yenagoa'],'Benue':[7.73,8.52,'Makurdi'],'Borno':[11.83,13.15,'Maiduguri'],'Cross River':[4.95,8.32,'Calabar'],'Delta':[6.20,6.73,'Asaba'],'Ebonyi':[6.32,8.11,'Abakaliki'],'Edo':[6.34,5.63,'Benin City'],'Ekiti':[7.62,5.22,'Ado-Ekiti'],'Enugu':[6.44,7.49,'Enugu'],'FCT Abuja':[9.06,7.49,'Abuja'],'Gombe':[10.29,11.17,'Gombe'],'Imo':[5.48,7.03,'Owerri'],'Jigawa':[11.76,9.34,'Dutse'],'Kaduna':[10.52,7.44,'Kaduna'],'Kano':[12.00,8.52,'Kano'],'Katsina':[12.99,7.60,'Katsina'],'Kebbi':[12.45,4.20,'Birnin Kebbi'],'Kogi':[7.80,6.74,'Lokoja'],'Kwara':[8.50,4.55,'Ilorin'],'Lagos':[6.45,3.39,'Lagos'],'Nasarawa':[8.49,8.52,'Lafia'],'Niger':[9.61,6.56,'Minna'],'Ogun':[7.15,3.35,'Abeokuta'],'Ondo':[7.25,5.19,'Akure'],'Osun':[7.77,4.56,'Osogbo'],'Oyo':[7.38,3.94,'Ibadan'],'Plateau':[9.90,8.86,'Jos'],'Rivers':[4.82,7.03,'Port Harcourt'],'Sokoto':[13.06,5.24,'Sokoto'],'Taraba':[8.89,11.37,'Jalingo'],'Yobe':[11.75,11.96,'Damaturu'],'Zamfara':[12.16,6.66,'Gusau']};
+const WMO=c=>c===0?['☀️','Sunny']:c<=2?['🌤️','Partly cloudy']:c===3?['☁️','Cloudy']:c<=48?['🌫️','Hazy / foggy']:c<=57?['🌦️','Drizzle']:c<=67?['🌧️','Rain']:c<=77?['🌨️','Snow']:c<=82?['🌧️','Showers']:['⛈️','Thunderstorm'];
+async function wx(){ const st=STATE&&CAP[STATE]?STATE:'Lagos', c=CAP[st], ck=LS.get('wx',null);
+  if(ck&&ck.st===st&&Date.now()-ck.t<30*60000) return ck;
+  const u=`https://api.open-meteo.com/v1/forecast?latitude=${c[0]}&longitude=${c[1]}&current=temperature_2m,relative_humidity_2m,weather_code,wind_speed_10m&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Africa%2FLagos&forecast_days=4`;
+  const d=await (await fetch(u)).json(); const r={st,city:c[2],t:Date.now(),d}; LS.set('wx',r); return r; }
+async function fx(){ const ck=LS.get('fx',null); if(ck&&Date.now()-ck.t<6*3600000) return ck;
+  const d=await (await fetch('https://open.er-api.com/v6/latest/USD')).json(); if(d.result!=='success') throw 0; const r={t:Date.now(),d}; LS.set('fx',r); return r; }
+const n2=v=>v.toLocaleString('en-NG',{maximumFractionDigits:v<10?2:0});
+function wxHTML(r,full){ const c=r.d.current, D=r.d.daily, [e,w]=WMO(c.weather_code);
+  let h=`<div class="wxnow"><span class="e">${e}</span><div><b>${Math.round(c.temperature_2m)}°C</b><small>${esc(r.city)} · ${w}</small><small>Humidity ${c.relative_humidity_2m}% · Wind ${Math.round(c.wind_speed_10m)} km/h</small></div></div>`;
+  h+='<div class="wxd">'+[1,2,3].map(k=>{ const [ee]=WMO(D.weather_code[k]); return `<div><span>${ee}</span>${new Date(D.time[k]+'T12:00').toLocaleDateString('en-GB',{weekday:'short'})}<br>${Math.round(D.temperature_2m_max[k])}° / ${Math.round(D.temperature_2m_min[k])}°<br><small style="color:var(--muted)">💧 ${D.precipitation_probability_max[k]??0}%</small></div>`; }).join('')+'</div>';
+  if(full) h+=`<p class="note">Today: ${Math.round(D.temperature_2m_max[0])}° / ${Math.round(D.temperature_2m_min[0])}°, rain chance ${D.precipitation_probability_max[0]??0}%. Change the place with 📍 your state in the ☰ menu.</p>`;
+  return h+`<p class="note">Source: Open-Meteo forecast · updated ${new Date(r.t).toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit',timeZone:'Africa/Lagos'})} WAT</p>`; }
+function fxHTML(r,full){ const R=r.d.rates, ng=R.NGN, cur=full?[['USD','🇺🇸 US dollar'],['GBP','🇬🇧 British pound'],['EUR','🇪🇺 Euro'],['CNY','🇨🇳 Chinese yuan'],['CAD','🇨🇦 Canadian dollar'],['GHS','🇬🇭 Ghana cedi'],['XOF','🌍 CFA franc (West Africa)'],['INR','🇮🇳 Indian rupee']]:[['USD','🇺🇸 US dollar'],['GBP','🇬🇧 British pound'],['EUR','🇪🇺 Euro']];
+  return cur.filter(([k])=>R[k]).map(([k,l])=>`<div class="fx"><span>${l}<small> · 1 ${k}</small></span><span>₦${n2(ng/R[k])}</span></div>`).join('')
+   +`<p class="note">Indicative mid-market rates (exchangerate-api.com), updated ${esc((r.d.time_last_update_utc||'').slice(5,16))}. Bank, BDC and parallel-market rates differ.</p>`; }
+function jobHTML(L){ return L.map(j=>`<a class="jb" href="${esc(j.url)}" target="_blank" rel="noopener">${j.gov?'<span class="g">GOVT</span>':''}${esc(j.t)}<small>${esc(j.src)} · ${new Date(j.time).toLocaleString('en-GB',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',timeZone:'Africa/Lagos'})}</small></a>`).join('')||'<p class="note">No jobs right now – check back soon.</p>'; }
+async function svcFill(v){ const b=$('svcBody'); if(!b) return;
+  try{ if(v==='jobs') b.innerHTML=jobHTML(JOBS.filter(j=>j.gov).slice(0,2).concat(JOBS.filter(j=>!j.gov).slice(0,4)));
+    if(v==='wx'){ const r=await wx(); if($('svcBody')===b) b.innerHTML=wxHTML(r,false); }
+    if(v==='ngn'){ const r=await fx(); if($('svcBody')===b) b.innerHTML=fxHTML(r,false); } }
+  catch(e){ b.innerHTML='<p class="note">Could not load right now. Check your internet.</p>'; } }
+async function openSvc(v){ closeAll(); const T={jobs:'💼 Jobs in Nigeria',gov:'🏛️ Government recruitment',wx:'⛅ Weather',ngn:'₦ Naira rates'}[v];
+  $('vT').textContent=T; $('vBody').innerHTML='<p class="note">Loading…</p>'; $('vSheet').hidden=false;
+  try{ if(v==='jobs'||v==='gov'){ const L=v==='gov'?JOBS.filter(j=>j.gov):JOBS.filter(j=>!j.gov);
+      $('vBody').innerHTML=`<label class="srch" style="height:46px"><input id="jq" type="search" placeholder="Search jobs, e.g. driver, Lagos, bank"></label><div id="jl" style="display:grid;gap:8px">${jobHTML(L.slice(0,60))}</div><p class="note">Titles and links from MyJobMag, Hot Nigerian Jobs, Jobzilla, Jobs in Nigeria and news reports · updated ${esc(JUP.slice(11,16))} WAT. Apply only on official or trusted sites – never pay to get a job.</p>`;
+      $('jq').oninput=()=>{ const w=$('jq').value.trim().toLowerCase(); $('jl').innerHTML=jobHTML((w?L.filter(j=>(j.t+' '+j.src).toLowerCase().includes(w)):L).slice(0,60)); }; }
+    if(v==='wx') $('vBody').innerHTML=wxHTML(await wx(),true);
+    if(v==='ngn') $('vBody').innerHTML=fxHTML(await fx(),true); }
+  catch(e){ $('vBody').innerHTML='<p class="note">Could not load right now. Check your internet.</p>'; } }
+document.addEventListener('click',e=>{ const b=e.target.closest('[data-svc]'); if(b) openSvc(b.dataset.svc); });
+async function loadJobs(){ try{ const r=await fetch('/editions/ng/jobs.json',{cache:'no-cache'}); if(!r.ok) return; const d=await r.json(); JOBS=d.jobs||[]; JUP=d.updated||'';
+  if($('jobsN')) $('jobsN').textContent=JOBS.filter(j=>!j.gov).length+' vacancies'; if(ALL.length){ build(true); show(0); } }catch(e){} }
+
 /* data */
-function use(d){ ALL=(d&&d.stories)||[]; build(false); const want=q.get('s'); if(want){ const was=UNREAD; UNREAD=false; build(false); UNREAD=was; const k=list.findIndex(s=>!s.greet&&sid(s)===want); if(k>=0) i=k; } bubble(); show(0); }
+function use(d){ ALL=(d&&d.stories)||[]; build(false); const want=q.get('s'); if(want){ const was=UNREAD; UNREAD=false; build(false); UNREAD=was; const k=list.findIndex(s=>isNews(s)&&sid(s)===want); if(k>=0) i=k; } bubble(); show(0); }
 async function load(){
   let cached=null; try{ cached=JSON.parse(localStorage.getItem(KEY)||'null'); }catch(e){}
   if(cached) use(cached);
@@ -487,7 +546,7 @@ let swipes=0; const _go=go; go=function(d){ _go(d); swipes++;
   const free=()=>sheets.every(x=>$(x).hidden)&&$('ask').hidden&&$('ios').hidden&&$('wel').hidden;
   if(swipes===3&&onSite&&IOS&&!STANDALONE&&Date.now()-LS.get('ios',0)>14*864e5&&free()) iosGuide();
   if(swipes===2&&pushOK&&Notification.permission==='default'&&Date.now()-LS.get('asked',0)>7*864e5&&free()) $('ask').hidden=false; };
-load();
+load(); loadJobs();
 })();
 </script>
 </body>
