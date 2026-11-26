@@ -268,7 +268,8 @@
   "13r37b4",
   "lxchf2",
   "1g2bojk",
-  "169ybnz"
+  "169ybnz",
+  "is4qxn"
  ],
  "log": [
   {
@@ -732,25 +733,23 @@
    "kind": "local",
    "place": "kamareddy",
    "h": "కామారెడ్డి వైద్య శాఖలో 60 ఉద్యోగాలు"
+  },
+  {
+   "t": "2026-11-26T09:12:40.533992+05:30",
+   "kind": "local",
+   "place": "nagarkurnool",
+   "h": "గిరిజనేతరుల భూ వివాదాలు సివిల్ కోర్టుకే"
+  },
+  {
+   "t": "2026-11-26T09:12:40.533992+05:30",
+   "kind": "jobs",
+   "place": null,
+   "h": "1 new jobs"
   }
  ],
  "slot": "2026-11-26-7",
  "jobs_seen": [
-  "amazon-transport-spec-i-roc-10500770",
-  "zeta-associate-analyst-6151249004",
-  "doordash-swe-backend-8411698",
-  "doordash-recruiter-platform-hiring-8174439",
-  "doordash-platform-hiring-team-lead-8174652",
-  "nimsme-office-coordinator-walkin-25nov2026",
-  "manuu-chem-asst-prof-walkin-25nov2026",
-  "ou-employment-bureau-job-mela-25nov2026",
-  "iith-cleanz-postdoc-graphene-2026",
-  "rites-apprentice-2026-27",
-  "sbi-am-fire-29-2026",
-  "indian-bank-apprentice-1500-2026",
-  "sbi-sco-security-28-2026",
-  "sci-jca-130-2026",
-  "rrb-station-master-cen08-2026",
+  "bhel-et-st-415-2026",
   "isro-sdsc-shar-apprentice-400-2026",
   "appsc-tech-asst-mines-32-2026",
   "appsc-amvi-36-2026",
@@ -785,6 +784,11 @@
   "asrb-icar-ta-sta-1393-2026",
   "csir-hq-mts-driver-ra-02-2026",
   "cdfd-scientist-04-2026",
+  "amazon-transport-spec-i-roc-10500770",
+  "zeta-associate-analyst-6151249004",
+  "doordash-swe-backend-8411698",
+  "doordash-recruiter-platform-hiring-8174439",
+  "doordash-platform-hiring-team-lead-8174652",
   "concentrix-rep-operations-R1367169",
   "3m-asm-automotive-vijayawada-R01168328",
   "amgen-associate-is-R-246818",
@@ -853,5 +857,5 @@
   "ikea-sales-team-leader-346203",
   "amgen-sr-assoc-comm-analytics-R-261015"
  ],
- "jobday": "2026-11-25"
+ "jobday": "2026-11-26"
 }
