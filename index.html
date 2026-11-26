@@ -512,6 +512,31 @@ body.fs .fsplay.nop{opacity:0;pointer-events:none}
 @media (max-width:374px){#feed .s2n .cfoot.dock .navtag{width:min(19vw,66px)}.s2n .cfoot.dock .mysl{font-size:8.5px!important}}
 @media (max-width:350px){.myss b{font-size:21px}.mysv.grid{grid-template-columns:repeat(5,1fr)}.myst button{font-size:12px}}
 @media (prefers-reduced-motion:reduce){.mysw,.mysb,.myswb,.myspb i{transition:none}}
+/* welcome back card – owner's design (26 Nov 2026) */
+.myswb2{position:fixed;left:50%;top:calc(64px + env(safe-area-inset-top,0px));z-index:72;width:min(94vw,440px);background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:22px;padding:14px 14px 14px;box-shadow:0 14px 40px rgba(0,0,0,.28);transform:translate(-50%,-16px);opacity:0;transition:transform .3s cubic-bezier(.2,.8,.2,1),opacity .22s;font-family:var(--body)}
+.myswb2.on{transform:translate(-50%,0);opacity:1}
+.myswb2 .mysx{position:absolute;right:4px;top:4px;min-width:40px;min-height:40px;font-size:24px}
+.myswb2 .mwh{display:flex;align-items:center;gap:12px;padding-right:28px}
+.myswb2 .mysic{width:52px;height:52px;border-radius:15px}.myswb2 .mysic .mysico{width:28px;height:28px}
+.myswb2 .myswbl{font-size:12px;margin-bottom:2px}
+.myswb2 b{display:block;font:800 19px/1.35 var(--body)}
+.myswb2 small{display:block;color:var(--muted);font:500 13.5px/1.45 var(--body)}
+.myswb2 .mwb{display:flex;gap:10px;margin-top:12px}
+.myswb2 .mys1{flex:1.4;min-height:46px}.myswb2 .mys2{flex:1;min-height:46px;display:inline-flex;align-items:center;justify-content:center;gap:6px}
+.myswb2 .mys2 i{font:800 11px/1 'Outfit',sans-serif;font-style:normal;background:#F5A23A;color:#4A0E3F;border-radius:999px;padding:3px 7px}
+@media (prefers-reduced-motion:reduce){.myswb2{transition:none}}
+.mwwrap{position:fixed;inset:0;z-index:72;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(10,4,9,0);transition:background .25s}
+.mwwrap.on{background:rgba(10,4,9,.5)}
+.mwwrap .myswb2{position:relative;left:auto;top:auto;transform:scale(.94) translateY(10px);opacity:0}
+.mwwrap.on .myswb2{transform:none;opacity:1}
+@media (prefers-reduced-motion:reduce){.mwwrap{transition:none}}
+/* catch up and come back (owner, 26 Nov 2026) */
+.cuchip{position:fixed;left:50%;top:calc(68px + env(safe-area-inset-top,0px));z-index:61;display:flex;align-items:center;max-width:94vw;background:#4A0E3F;color:#FFFDF5;border:1.5px solid rgba(245,162,58,.55);border-radius:999px;box-shadow:0 8px 22px rgba(0,0,0,.3);transform:translate(-50%,-12px);opacity:0;transition:transform .25s cubic-bezier(.2,.8,.2,1),opacity .2s;font-family:var(--body)}
+.cuchip.on{transform:translate(-50%,0);opacity:1}
+.cuchip .cum{border:0;background:none;color:inherit;font:700 14px/1.3 var(--body);padding:9px 6px 9px 16px;min-height:42px;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:78vw}
+.cuchip .cum b{color:#F5A23A}
+.cuchip .cux{border:0;background:none;color:#FFFDF5;opacity:.75;font:400 22px/1 sans-serif;min-width:40px;min-height:42px;cursor:pointer}
+@media (prefers-reduced-motion:reduce){.cuchip{transition:none}}
 /* My Swipe "what's new" tour (owner, 26 Nov 2026) */
 #mysTour{position:fixed;inset:0;z-index:95;opacity:0;transition:opacity .25s;font-family:var(--body)}
 #mysTour.on{opacity:1}
@@ -2592,6 +2617,7 @@ function hdArt(u){ if(!HDOK||!u) return u; let m;
 document.addEventListener('error',e=>{ const im=e.target; if(im&&im.tagName==='IMG'&&im.dataset.lo&&!im.dataset.fell){ im.dataset.fell=1; im.src=im.dataset.lo; } },true);
 function warmPics(i){ try{ for(let k=i;k<=i+3&&k<cards.length;k++){ const c=cards[k]; if(!c) continue; c.querySelectorAll('img[data-src]').forEach(im=>{ im.fetchPriority=k===i?'high':'low'; im.src=im.dataset.src; im.removeAttribute('data-src'); }); } }catch(e){} }
 function go(i,dir,from){
+  i=cuSkip(i); // catch-up: after the new stories, skip the cards already seen
   if(i>=0) warmPics(Math.min(i,cards.length-1));
   go.n=(go.n||0)+1; if(go.n===3) setTimeout(alertInvite,1200);
   if(busy) finishTurn();
@@ -3040,7 +3066,7 @@ $('dlBtn').onclick=async()=>{ const s=LIST[cur]; if(!s) return;
   toast('చిత్రం సేవ్ అయింది ✅ క్యాప్షన్ కాపీ అయింది – ఛానెల్‌లో 📎 నుంచి పోస్ట్ చేయండి');
 };
 const RADIO_ON=()=>{ try{ return RADIO; }catch(e){ return false; } };
-function setCount(a,n){ $('count').innerHTML = n ? `<b>${a}</b>/${n}` : ''; try{ document.documentElement.style.setProperty('--dprog', n ? (a/n*100)+'%' : '0%'); const cc=cards&&cards[a-1]; if(cc){ const d=cc.querySelector('.dcount'); if(d) d.innerHTML=`<b>${a}</b>/${n}`; } }catch(e){} if(n) mysShow(false); $('railFill').style.width = n ? (a/n*100)+'%' : '0'; if(window.cardChanged && RADIO_ON()) cardChanged(); else if(window.stopVoice) stopVoice(); }
+function setCount(a,n){ $('count').innerHTML = n ? `<b>${a}</b>/${n}` : ''; try{ document.documentElement.style.setProperty('--dprog', n ? (a/n*100)+'%' : '0%'); const cc=cards&&cards[a-1]; if(cc){ const d=cc.querySelector('.dcount'); if(d) d.innerHTML=`<b>${a}</b>/${n}`; } }catch(e){} if(n){ mysShow(false); try{ cuChip(); }catch(e){} } $('railFill').style.width = n ? (a/n*100)+'%' : '0'; if(window.cardChanged && RADIO_ON()) cardChanged(); else if(window.stopVoice) stopVoice(); }
 /* ---------- My Swipe – నా స్వైప్ (owner, 26 Nov 2026) ----------
    Remembers where the reader is and what they have read, all on the phone (localStorage 'w2s.mys', no server, no login).
    Stories are known by their own id (sid), never by their number, so new stories on top, a refresh or a removed story
@@ -3048,21 +3074,21 @@ function setCount(a,n){ $('count').innerHTML = n ? `<b>${a}</b>/${n}` : ''; try{
    to the end, or the reader did something with it (save, share, photo, listen, source...). Quick swipes only count as seen. */
 const MYS_V=1, MYS_DAYS=7, MYS_READ_MS=6000, MYS_HIST=150, MYS_MAX=1500;
 const MYSTX={
-  te:{nx:n=>`తర్వాతి చదవనిది · ${n}`,stop:n=>`ఆపిన చోటు · ${n}`,news:'వార్తలు',cards:(c,n,o)=>`ఫీడ్‌లో ${c} కార్డులు = ${n} వార్తలు + ${o} సేవలు/ప్రకటనలు`,filt:(c,a)=>`చదవనివి మాత్రమే: ${c} కార్డులు చూపిస్తున్నాం (మొత్తం ${a})`,lk:'సేవలు',more:'ఇతర ఎంపికలు',name:'నా స్వైప్',camp:'Your News. Your Pace. Your Swipe.',camp2:'మీ వార్తలు. మీ సమయం. మీ స్వైప్.',total:'మొత్తం',read:'చదివినవి',unread:'చదవనివి',nw:'కొత్తవి',hist:'చరిత్ర',all:'అన్నీ',done:p=>`${p}% పూర్తి`,
+  te:{allRead:'అన్నీ చదివేశారు 🎉 – అన్ని వార్తలు మళ్లీ చూపిస్తున్నాం',wb2:'మళ్లీ స్వాగతం! 👋',wbsub:'మీ వార్తల ప్రయాణాన్ని కొనసాగించండి.',wbgo:'ఆపిన చోటు నుంచి',wbnew:'కొత్త వార్తలు',nx:n=>`తర్వాతి చదవనిది · ${n}`,stop:n=>`ఆపిన చోటు · ${n}`,news:'వార్తలు',cards:(c,n,o)=>`ఫీడ్‌లో ${c} కార్డులు = ${n} వార్తలు + ${o} సేవలు/ప్రకటనలు`,filt:(c,a)=>`చదివినవి తీసేశాం: ${c} వార్తలు చూపిస్తున్నాం (మొత్తం ${a})`,lk:'సేవలు',more:'ఇతర ఎంపికలు',name:'నా స్వైప్',camp:'Your News. Your Pace. Your Swipe.',camp2:'మీ వార్తలు. మీ సమయం. మీ స్వైప్.',total:'మొత్తం',read:'చదివినవి',unread:'చదవనివి',nw:'కొత్తవి',hist:'చరిత్ర',all:'అన్నీ',done:p=>`${p}% పూర్తి`,
       cont:n=>`కొనసాగించండి · ${n} →`,cont0:'కొనసాగించండి →',start:'మొదటి నుంచి',jump:'కార్డుకు వెళ్లండి',go:n=>`వార్త ${n}కి వెళ్లండి →`,go0:'వెళ్లండి',
       lr:'చదివినవి',ls:'ప్రస్తుతం',lu:'చదవనివి',lv:'చూశారు',upd:'అప్‌డేట్',only:'చదవనివి మాత్రమే చూపించు',onlyOn:'చదవనివి మాత్రమే చూపిస్తున్నాం',onlyOff:'అన్ని వార్తలు చూపిస్తున్నాం',
       none:{u:'అన్నీ చదివేశారు 🎉',n:'మీరు చివరిసారి వచ్చాక కొత్త వార్తలు లేవు',h:'ఇంకా చరిత్ర లేదు'},seen:'చూశారు',wasRead:'చదివారు',gone:'ఫీడ్‌లో లేదు',
       clear:'చరిత్ర తొలగించండి',clear2:'ఖచ్చితమా? మళ్లీ నొక్కండి',cleared:'చరిత్ర తొలగించాం',
       wb:'మళ్లీ స్వాగతం 👋',wbs:(r,n)=>[r?`✓ ${r} చదివారు`:'',n?`✨ ${n} కొత్తవి`:''].filter(Boolean).join(' · '),wbc:n=>`ఆపిన చోటు · కార్డు ${n}`,explore:'కొత్తవి చూడండి',
       moved:'మీరు చూస్తున్న వార్త ఇప్పుడు ఫీడ్‌లో లేదు – దగ్గరలోని చదవని వార్త చూపిస్తున్నాం',back:(a,n)=>`మీరు ఆపిన చోటు: ${a}/${n}`,bad:'సరైన నంబర్ ఇవ్వండి'},
-  en:{nx:n=>`Next unread · ${n}`,stop:n=>`Where you stopped · ${n}`,news:'Stories',cards:(c,n,o)=>`${c} cards in the feed = ${n} stories + ${o} services/promos`,filt:(c,a)=>`Unread only: showing ${c} cards (of ${a})`,lk:'Services',more:'More options',name:'My Swipe',camp:'Your News. Your Pace. Your Swipe.',camp2:'',total:'Total',read:'Read',unread:'Unread',nw:'New',hist:'History',all:'All',done:p=>`${p}% done`,
+  en:{allRead:'All caught up 🎉 – showing every story again',wb2:'Welcome back! 👋',wbsub:'Continue your news journey.',wbgo:'From where you stopped',wbnew:'New stories',nx:n=>`Next unread · ${n}`,stop:n=>`Where you stopped · ${n}`,news:'Stories',cards:(c,n,o)=>`${c} cards in the feed = ${n} stories + ${o} services/promos`,filt:(c,a)=>`Read stories hidden: showing ${c} of ${a} stories`,lk:'Services',more:'More options',name:'My Swipe',camp:'Your News. Your Pace. Your Swipe.',camp2:'',total:'Total',read:'Read',unread:'Unread',nw:'New',hist:'History',all:'All',done:p=>`${p}% done`,
       cont:n=>`Continue · ${n} →`,cont0:'Continue →',start:'From the start',jump:'Jump to card',go:n=>`Go to card ${n} →`,go0:'Go',
       lr:'Read',ls:'Current',lu:'Unread',lv:'Seen',upd:'Updated',only:'Show unread only',onlyOn:'Showing unread stories only',onlyOff:'Showing all stories',
       none:{u:'All caught up 🎉',n:'No new stories since your last visit',h:'No history yet'},seen:'Seen',wasRead:'Read',gone:'not in the feed now',
       clear:'Clear history',clear2:'Sure? Tap again',cleared:'History cleared',
       wb:'Welcome back 👋',wbs:(r,n)=>[r?`✓ ${r} read`:'',n?`✨ ${n} new`:''].filter(Boolean).join(' · '),wbc:n=>`Where you stopped · card ${n}`,explore:'See new stories',
       moved:'The story you were on is no longer in the feed – showing the nearest unread one',back:(a,n)=>`Where you stopped: ${a}/${n}`,bad:'Enter a valid number'},
-  hi:{nx:n=>`अगली बिना पढ़ी · ${n}`,stop:n=>`जहाँ रुके · ${n}`,news:'खबरें',cards:(c,n,o)=>`फ़ीड में ${c} कार्ड = ${n} खबरें + ${o} सेवाएँ/प्रचार`,filt:(c,a)=>`सिर्फ़ बिना पढ़ी: ${c} कार्ड (कुल ${a})`,lk:'सेवाएँ',more:'और विकल्प',name:'मेरा स्वाइप',camp:'Your News. Your Pace. Your Swipe.',camp2:'आपकी खबरें. आपकी रफ़्तार. आपका स्वाइप.',total:'कुल',read:'पढ़ी',unread:'बिना पढ़ी',nw:'नई',hist:'इतिहास',all:'सभी',done:p=>`${p}% पूरा`,
+  hi:{allRead:'सब पढ़ लिया 🎉 – सभी खबरें फिर दिखा रहे हैं',wb2:'फिर से स्वागत! 👋',wbsub:'अपनी खबरों का सफ़र जारी रखें।',wbgo:'जहाँ रुके थे, वहीं से',wbnew:'नई खबरें',nx:n=>`अगली बिना पढ़ी · ${n}`,stop:n=>`जहाँ रुके · ${n}`,news:'खबरें',cards:(c,n,o)=>`फ़ीड में ${c} कार्ड = ${n} खबरें + ${o} सेवाएँ/प्रचार`,filt:(c,a)=>`पढ़ी हुई हटाईं: ${c} खबरें (कुल ${a})`,lk:'सेवाएँ',more:'और विकल्प',name:'मेरा स्वाइप',camp:'Your News. Your Pace. Your Swipe.',camp2:'आपकी खबरें. आपकी रफ़्तार. आपका स्वाइप.',total:'कुल',read:'पढ़ी',unread:'बिना पढ़ी',nw:'नई',hist:'इतिहास',all:'सभी',done:p=>`${p}% पूरा`,
       cont:n=>`जारी रखें · ${n} →`,cont0:'जारी रखें →',start:'शुरू से',jump:'कार्ड पर जाएँ',go:n=>`कार्ड ${n} पर जाएँ →`,go0:'जाएँ',
       lr:'पढ़ी',ls:'अभी',lu:'बिना पढ़ी',lv:'देखी',upd:'अपडेट',only:'सिर्फ़ बिना पढ़ी दिखाएँ',onlyOn:'सिर्फ़ बिना पढ़ी खबरें',onlyOff:'सभी खबरें',
       none:{u:'सब पढ़ लिया 🎉',n:'पिछली बार के बाद कोई नई खबर नहीं',h:'अभी कोई इतिहास नहीं'},seen:'देखी',wasRead:'पढ़ी',gone:'अब फ़ीड में नहीं',
@@ -3076,11 +3102,11 @@ const MYS_WORD='<span class="myswm">my swipe<i>.</i></span>'; // logo (owner, 26
 const rdId=s=>s?(s.kind?s.kind+':':'')+(s._sid||sid(s)):'';
 const mysHash=s=>{ const o=s&&(s._orig||s)||{}; const t=(o.h||'')+'|'+(o.p||'')+'|'+((o.pts||[]).join('|')); let h=5381; for(let i=0;i<t.length;i++) h=((h<<5)+h+t.charCodeAt(i))|0; return (h>>>0).toString(36); };
 /* storage: one versioned object; anything broken or from another version starts fresh instead of breaking the app */
-function mysEmpty(){ return {v:MYS_V,last:0,seen:{},read:{},hash:{},hist:[],pos:{},unread:false}; }
+function mysEmpty(){ return {v:MYS_V,last:0,seen:{},read:{},hash:{},hist:[],pos:{},unread:true,uv2:1,ret:null}; } // owner 26 Nov 2026: read stories leave the card sequence by default
 let MYS=(()=>{ try{ const o=JSON.parse(localStorage.getItem('w2s.mys')||'null');
   if(!o||o.v!==MYS_V||typeof o!=='object') return mysEmpty();
   const d=mysEmpty(); for(const k of ['seen','read','hash','pos']) d[k]=(o[k]&&typeof o[k]==='object'&&!Array.isArray(o[k]))?o[k]:{};
-  d.hist=Array.isArray(o.hist)?o.hist.filter(x=>x&&typeof x.id==='string').slice(0,MYS_HIST):[]; d.last=+o.last||0; d.unread=!!o.unread;
+  d.hist=Array.isArray(o.hist)?o.hist.filter(x=>x&&typeof x.id==='string').slice(0,MYS_HIST):[]; d.last=+o.last||0; d.unread=o.uv2?!!o.unread:true; d.uv2=1; d.ret=(o.ret&&typeof o.ret.id==='string'&&+o.ret.t>0)?{id:o.ret.id,t:+o.ret.t}:null;
   const old=Date.now()-MYS_DAYS*864e5; for(const k of ['seen','read']) for(const id in d[k]) if(!(d[k][id]>old)){ delete d[k][id]; delete d.hash[id]; }
   return d; }catch(e){ return mysEmpty(); } })();
 // last visit: read once per session, so "new since your last visit" stays the same while the app is open
@@ -3129,11 +3155,15 @@ function mysNextUnread(){ const r=mysResume(), from=r?r.i+1:cur+1; // first unre
   for(let i=0;i<from&&i<LIST.length;i++) if(!LIST[i].kind&&!isRead(LIST[i])) return i; return -1; }
 let MYS_ALL=0; // cards before the unread-only filter, for the "showing X of Y" line
 function mysNewIdx(){ return LIST.map((s,i)=>isNew(s)?i:-1).filter(i=>i>=0); }
-function mysStats(){ const news=LIST.filter(s=>!s.kind), r=news.filter(isRead).length, n=mysNewIdx().length; return {total:news.length,read:r,unread:news.length-r,nw:n,pct:news.length?Math.round(r/news.length*100):0}; }
+function mysStats(){ const news=LIST.filter(s=>!s.kind), u=news.filter(s=>!isRead(s)).length, n=mysNewIdx().length, total=Math.max(MYS_ALL||0,news.length), r=total-u; // read stories hidden from the cards still count as read
+  return {total,read:r,unread:u,nw:n,pct:total?Math.round(r/total*100):0,shown:news.length}; }
 function mysJump(i,quiet){ i=Math.max(0,Math.min(i,cards.length-1)); mysClose(); mysWBClose(); if(i!==cur) go(i,i>cur?'left':'right'); }
 /* unread-only mode: read stories leave the feed (the card on screen and breaking news always stay) */
-function mysFilter(list){ if(!MYS.unread||!mysOn()){ MYS_ALL=0; return list; } MYS_ALL=list.length; const keep=LIST&&LIST[cur]?rdId(LIST[cur]):'';
-  return list.filter(s=>s.kind||s.brk||!isRead(s)||rdId(s)===keep); }
+function mysFilter(list){ if(!MYS.unread||!mysOn()){ MYS_ALL=0; return list; } const keep=LIST&&LIST[cur]?rdId(LIST[cur]):'';
+  // read stories leave the sequence when the feed is next built (open, refresh, Home); the card on screen, a story being opened and breaking news stay
+  const out=list.filter(s=>s.kind||s.brk||!isRead(s)||rdId(s)===keep||(JUMP&&(s._sid||sid(s))===JUMP));
+  if(!out.some(s=>!s.kind)){ MYS_ALL=0; if(!mysFilter.told){ mysFilter.told=1; setTimeout(()=>toast(MT('allRead')),600); } return list; } // everything read: show all again
+  MYS_ALL=out.length<list.length?list.filter(s=>!s.kind).length:0; return out; } // MYS_ALL = stories before hiding the read ones
 function mysUnread(on){ MYS.unread=!!on; mysSave(true); const k=LIST[cur]&&keyOf(LIST[cur]); renderFeed(k); toast(MT(on?'onlyOn':'onlyOff')); if(mysSheetOpen()) mysDraw(); }
 /* category switch: open each category where the reader stopped in it */
 function mysBeforeSection(){ const p=MYS.pos[mysKey()]; if(p&&p.id) JUMP=p.id.replace(/^[a-z]+:/,''); }
@@ -3163,7 +3193,7 @@ function mysOpen(tab){ if(view!=='home'||!cards.length) return; mysWBClose();
     o.addEventListener('click',e=>{ if(e.target===o||e.target.closest('.mysx')){ mysClose(); return; }
       const t=e.target.closest('[data-tab]'); if(t){ mysTab=t.dataset.tab; mysDraw(); return; }
       const c=e.target.closest('[data-i]'); if(c){ mysSel=+c.dataset.i; if(mysTab==='hist') mysJump(mysSel); else mysDraw(true); return; }
-      const h=e.target.closest('[data-sid]'); if(h){ mysClose(); location.href='/?s='+encodeURIComponent(h.dataset.sid); } });
+      const h=e.target.closest('[data-sid]'); if(h){ mysClose(); const id=h.dataset.sid; if((NEWS.stories||[]).some(x=>(x._sid||sid(x))===id)){ JUMP=id; renderFeed(); } else location.href='/?s='+encodeURIComponent(id); } });
     $('mysR').addEventListener('input',e=>{ mysSel=+e.target.value-1; mysDraw(true,true); });
     const num=()=>{ const v=parseInt($('mysN').value,10); if(!(v>=1&&v<=cards.length)){ toast(MT('bad')); return; } mysJump(v-1); };
     $('mysNg').onclick=num; $('mysN').addEventListener('keydown',e=>{ if(e.key==='Enter') num(); });
@@ -3183,8 +3213,8 @@ function mysClose(){ const o=$('mysSheet'); if(!o||o.hidden) return; o.classList
 function mysDraw(light,scroll){
   const S=mysStats(), n=LIST.length, r=mysResume();
   $('mysT').innerHTML=MYS_ICON+MYS_WORD; $('mysT').setAttribute('aria-label',MT('name')); $('mysC').textContent=MT('camp'); $('mysC2').textContent=MT('camp2'); $('mysC2').hidden=!MT('camp2');
-  const oth=LIST.length-S.total;
-  $('mysCi').textContent=MYS_ALL?MT('filt')(LIST.length,MYS_ALL):(oth>0?MT('cards')(LIST.length,S.total,oth):'');
+  const oth=LIST.length-S.shown;
+  $('mysCi').textContent=MYS_ALL?MT('filt')(S.shown,MYS_ALL):(oth>0?MT('cards')(LIST.length,S.shown,oth):'');
   $('mysS').innerHTML=[['news',S.total,''],['read',S.read,'g'],['unread',S.unread,''],['nw',S.nw,'a']].map(([k,v,c])=>`<div><small>${MT(k)}</small><b class="${c}">${v}</b></div>`).join('');
   $('mysPb').style.width=S.pct+'%'; $('mysPt').textContent=MT('done')(S.pct);
   const cnt={all:n,unread:LIST.filter(s=>!s.kind&&!isRead(s)).length,new:S.nw,hist:MYS.hist.length};
@@ -3214,25 +3244,29 @@ function mysDraw(light,scroll){
   const c=$('mysClr'); if(!c.dataset.sure) c.textContent=MT('clear'); c.hidden=mysTab!=='hist'||!MYS.hist.length; }
 
 /* ----- welcome back: once a session, only when there is something to come back to ----- */
-function mysWBClose(){ const o=$('mysWB'); if(o&&!o.hidden){ o.classList.remove('on'); setTimeout(()=>{ o.hidden=true; },260); } }
-function mysWelcome(){
+function mysWBClose(){ const o=$('mysWB'); if(o&&!o.hidden){ o.classList.remove('on'); setTimeout(()=>{ if(!o.classList.contains('on')) o.hidden=true; },260); } }
+function mysWelcome(){ // owner's design 26 Nov 2026: logo, "మళ్లీ స్వాగతం! 👋", two choices; "from the start" lives in My Swipe
   try{ if(sessionStorage.getItem('s2n.mysWB')) return; }catch(e){}
   if(!mysOn()||section!=='all'||!cards.length||cur>0) return;
-  const r=mysResume(), S=mysStats(), nw=mysNewIdx();
-  if(!(r&&r.i>0)&&!(S.read&&nw.length)) return;
+  const r=mysResume(), nw=mysNewIdx();
+  if(!(r&&r.i>0)) return;
   try{ sessionStorage.setItem('s2n.mysWB','1'); }catch(e){}
-  if(r&&r.moved) toast(MT('moved'));
+  if(r.moved&&!MYS.unread) toast(MT('moved')); // with read stories hidden, landing on the next unread one is expected
   let o=$('mysWB');
-  if(!o){ o=document.createElement('div'); o.id='mysWB'; o.className='myswb'; o.hidden=true; o.setAttribute('role','dialog'); o.setAttribute('aria-labelledby','mysWBt'); document.body.appendChild(o); }
-  o.innerHTML=`<button type="button" class="mysw2" id="mysWBo" aria-label="${MT('name')}"><i class="mysic">${MYS_ICON}</i><span><b id="mysWBt">${MT('wb')}</b><small>${MT('wbs')(S.read,nw.length)||MT('name')}</small></span></button>
-    ${r&&r.i>0?`<button type="button" class="mysc" id="mysWBc" aria-label="${MT('wbc')(r.i+1)}">▶ ${r.i+1}</button>`:''}<button type="button" class="mysx" aria-label="close">×</button>
-    <i class="myswp"><i style="width:${S.pct}%"></i></i>`;
+  if(!o){ o=document.createElement('div'); o.id='mysWB'; o.className='mwwrap'; o.hidden=true; o.setAttribute('role','dialog'); o.setAttribute('aria-modal','true'); o.setAttribute('aria-labelledby','mysWBt'); document.body.appendChild(o);
+    o.addEventListener('click',e=>{ if(e.target===o) mysWBClose(); }); } // middle of the screen, tap outside to close (owner, 26 Nov 2026)
+  const nn=cuNewAbove(r.i).length;
+  o.innerHTML=`<div class="myswb2"><button type="button" class="mysx" aria-label="${CT('x')}">×</button>
+    <div class="mwh"><i class="mysic">${MYS_ICON}</i><div><span class="myswbl">${MYS_WORD}</span><b id="mysWBt">${MT('wb2')}</b><small>${MT('wbsub')}</small></div></div>
+    <div class="mwb"><button type="button" class="mys1" id="mysWBc">${MT('wbgo')} →</button><button type="button" class="mys2" id="mysWBn">${MT('wbnew')}${nn?`<i>${nn}</i>`:''}</button></div></div>`;
   o.querySelector('.mysx').onclick=mysWBClose;
-  if($('mysWBc')) $('mysWBc').onclick=()=>mysJump(r.i);
-  $('mysWBo').onclick=()=>{ mysWBClose(); mysOpen(nw.length?'new':'all'); }; // more choices (new stories, from the start) in My Swipe
+  $('mysWBc').onclick=()=>{ MYS.ret=null; mysJump(r.i); };
+  $('mysWBn').onclick=()=>{ // read the new stories, then the next swipe after them brings the reader back here (no new ones: just the latest from the top)
+    mysWBClose(); if(!nn){ if(cur!==0) go(0,'right'); return; }
+    const s0=LIST[r.i]; MYS.ret={id:rdId(s0),t:Date.now()}; mysSave(true); const f=cuNewAbove(r.i)[0]||0; if(f!==cur) go(f,'right'); else cuChip(); };
   mysWelcome.at=cur;
   o.hidden=false; requestAnimationFrame(()=>o.classList.add('on'));
-  clearTimeout(mysWelcome.t); mysWelcome.t=setTimeout(mysWBClose,12000); }
+  clearTimeout(mysWelcome.t); mysWelcome.t=setTimeout(mysWBClose,20000); }
 document.addEventListener('click',e=>{ if(e.target.closest('#count,.dcw')){ e.preventDefault(); e.stopPropagation(); mysOpen(); } },true);
 document.addEventListener('keydown',e=>{ if((e.key==='Enter'||e.key===' ')&&e.target.closest&&e.target.closest('.dcw')){ e.preventDefault(); mysOpen(); } });
 /* ---------- "What's new" tour for My Swipe (owner, 26 Nov 2026) ----------
@@ -3290,6 +3324,47 @@ function startTour(force){
   o.addEventListener('click',e=>{ if(e.target===o||e.target.classList.contains('trh')) {/* taps outside do nothing: use × or the button */} });
   document.body.appendChild(o); requestAnimationFrame(()=>o.classList.add('on'));
   addEventListener('resize',tourPlace); tourShow(0); return true; }
+/* ---------- Catch up and come back (owner, 26 Nov 2026) ----------
+   1) The welcome-back card offers "from where you stopped" or "new stories"; choosing new stories remembers the reader's card (MYS.ret).
+   2) The live "new stories" button while reading does the same.
+   3) After the new stories, the next swipe skips the cards already seen and lands straight back on the reader's card.
+   4) "↩ Back to your story · N" stays on screen while they read the new ones; × forgets it. Alert taps (?s=) work the same way. */
+const CU_H=12;
+const CUTX={
+  te:{nw:n=>`✨ ${n} కొత్త వార్తలు పైన`,rd:'చదవండి ↑',bk:n=>`↩ మీ వార్తకు · ${n}`,done:'✓ కొత్తవి చూశారు – మీరు ఆపిన వార్తకు వచ్చాం',pill:n=>`🔴 ${n} కొత్త వార్తలు – చదివి మళ్లీ ఇక్కడికే ↑`,pill0:'🔴 కొత్త వార్తలు వచ్చాయి – చూడండి ↑',x:'మూసివేయండి'},
+  en:{nw:n=>`✨ ${n} new stories above`,rd:'Read ↑',bk:n=>`↩ Back to your story · ${n}`,done:'✓ New stories done – back where you stopped',pill:n=>`🔴 ${n} new stories – read them and come back ↑`,pill0:'🔴 New stories – see them ↑',x:'Close'},
+  hi:{nw:n=>`✨ ऊपर ${n} नई खबरें`,rd:'पढ़ें ↑',bk:n=>`↩ अपनी खबर पर · ${n}`,done:'✓ नई खबरें देख लीं – जहाँ रुके थे, वहीं आ गए',pill:n=>`🔴 ${n} नई खबरें – पढ़कर यहीं लौटें ↑`,pill0:'🔴 नई खबरें आईं – देखें ↑',x:'बंद करें'}};
+const CT=k=>(CUTX[TLG()?'en':LG()]||CUTX.te)[k];
+function cuRetIdx(){ const r=MYS.ret; return r&&r.id?LIST.findIndex(x=>rdId(x)===r.id):-1; }
+const cuFresh=s=>!!(s&&!s.kind&&(!isSeen(s)||isNew(s))); // not seen before this visit (a glimpse under the welcome card still counts as new)
+function cuNewAbove(idx){ const out=[]; for(let i=0;i<idx&&i<LIST.length;i++) if(cuFresh(LIST[i])) out.push(i); return out; }
+function cuStart(){ // read the new stories, then come back to this card
+  if(view!=='home'||!mysOn()) return; let k=cur; while(k>0&&LIST[k]&&LIST[k].kind) k--; const s=LIST[k]; if(!s||s.kind) return;
+  const nw=cuNewAbove(k); if(!nw.length){ go(0,'right'); return; }
+  MYS.ret={id:rdId(s),t:Date.now()}; mysSave(true); cuChip.offer=-1; mysWBClose(); go(nw[0],'right'); }
+function cuEnd(){ if(MYS.ret){ MYS.ret=null; mysSave(); } cuChip(); }
+function cuSkip(i){ // called by go(): the next swipe after the new stories skips the cards already seen
+  if(!MYS.ret||!(i===cur+1)) return i; const r=cuRetIdx(); if(r<0){ cuEnd(); return i; }
+  if(i>=r){ MYS.ret=null; mysSave(); return i; }
+  let j=i; while(j<r&&LIST[j]&&LIST[j].kind) j++;                 // look past job/promo cards to the next story
+  if(j>=r||!cuFresh(LIST[j])){ MYS.ret=null; mysSave(); toast(CT('done')); return r; }
+  return i; }
+function cuChip(){
+  let c=$('cuChip');
+  if(!c){ c=document.createElement('div'); c.id='cuChip'; c.className='cuchip'; c.hidden=true;
+    c.innerHTML='<button type="button" class="cum"></button><button type="button" class="cux">×</button>'; document.body.appendChild(c);
+    c.querySelector('.cum').onclick=()=>{ if(c.dataset.m==='bk'){ const r=cuRetIdx(); MYS.ret=null; mysSave(true); if(r>=0) go(r,r>cur?'left':'right'); cuChip(); } else cuStart(); };
+    c.querySelector('.cux').onclick=()=>{ if(c.dataset.m==='bk') cuEnd(); else { cuChip.offer=-1; cuChip(); } }; }
+  c.querySelector('.cux').setAttribute('aria-label',CT('x'));
+  const show=(m,t)=>{ c.dataset.m=m; c.querySelector('.cum').innerHTML=t; if(c.hidden){ c.hidden=false; requestAnimationFrame(()=>c.classList.add('on')); } };
+  const hide=()=>{ if(!c.hidden){ c.classList.remove('on'); setTimeout(()=>{ if(!c.classList.contains('on')) c.hidden=true; },220); } };
+  if(view!=='home'||!mysOn()||!cards.length) return hide();
+  if(MYS.ret){ const r=cuRetIdx(); if(r<0){ MYS.ret=null; mysSave(); return hide(); } if(r===cur){ MYS.ret=null; mysSave(); return hide(); }
+    return show('bk',esc(CT('bk')(r+1))); }
+  if(cuChip.offer>=0&&cur===cuChip.offer){ const nw=cuNewAbove(cur); if(nw.length) return show('nw',`${esc(CT('nw')(nw.length))} · <b>${esc(CT('rd'))}</b>`); }
+  if(cuChip.offer>=0&&cur!==cuChip.offer) cuChip.offer=-1;
+  hide(); }
+cuChip.offer=-1;
 /* AI voice: reads the card aloud in Telugu with the phone's own voice */
 const synth = window.speechSynthesis;
 /* owner 21 Nov 2026: "best voices, very fluent" – pick the most natural voice the phone has, and clean the text so it reads like a newsreader */
@@ -4015,6 +4090,7 @@ async function load(){
   else if(qs && !load.done){ JUMP=qs; renderFeed();
     // alert tap on a slow network: the story is not here yet, so try again on the next load instead of staying on another card
     // (the alert can arrive a minute before the website has the new story), so look again every 20 s for up to 2 minutes
+    if(LIST.some(x=>sid(x)===qs)){ const p=MYS.pos&&MYS.pos.all; if(p&&p.id&&Date.now()-p.t<CU_H*36e5&&p.id!==qs&&LIST.some(x=>rdId(x)===p.id)&&!MYS.ret){ MYS.ret={id:p.id,t:Date.now()}; mysSave(); } cuChip(); } // alert tap: '↩ back to your story' after reading it
     if(LIST.some(x=>sid(x)===qs) || Date.now()-T0>120000) load.done=1; else setTimeout(load, 20000);
     // opened from Chrome on iPhone to send the picture: Safari can share pictures, so show the one-tap share screen
     if(q.has('sharecard') && LIST[cur]){ const b=await timeout(prepCard(),8000); if(b) showCardImage(b, shareText(LIST[cur]), ''); } }
@@ -4031,7 +4107,7 @@ document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==
   pill.textContent='🔴 కొత్త వార్తలు వచ్చాయి – చూడండి ↑';
   pill.style.cssText='position:fixed;top:72px;left:50%;transform:translateX(-50%);z-index:60;border:0;border-radius:999px;padding:9px 16px;background:#4A0E3F;color:#fff;font:700 14px/1.2 inherit;box-shadow:0 4px 14px rgba(0,0,0,.25);cursor:pointer';
   document.body.appendChild(pill);
-  pill.onclick=async()=>{ pill.hidden=true; if(view!=='home') setView('home'); await load(); go(0,'right'); };
+  pill.onclick=async()=>{ pill.hidden=true; if(view!=='home') setView('home'); await load(); if(cur>0&&mysOn()) cuStart(); else go(0,'right'); }; // read the new ones, then come back to this card
   async function check(){
     if(document.visibilityState!=='visible' || !NEWS || !NEWS.updated) return;
     try{
@@ -4039,7 +4115,7 @@ document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==
       const j=await r.json();
       if(j.updated && j.updated!==NEWS.updated){
         if(view==='home' && cur===0 && $('sheet').hidden){ await load(); toast('కొత్త వార్తలు జోడించాం'); }
-        else pill.hidden=false;
+        else { try{ const have=new Set((NEWS.stories||[]).map(x=>x._sid||sid(x))); const n=(j.stories||[]).filter(x=>!have.has(x._sid||sid(x))).length; pill.textContent=n>0?CT('pill')(n):CT('pill0'); }catch(e){} pill.hidden=false; }
       }
     }catch(e){}
   }
