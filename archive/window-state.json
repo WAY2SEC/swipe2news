@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-26T22:35:00+05:30",
+ "cutoff": "2026-11-26T23:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-24T05:35:00+05:30/2026-11-24T06:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 4,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 5,
-   "review": 0,
-   "gaps": "Lookback from 21:35 (23 Nov). Feeds 06:04 IST (63/70 ok; failing TV9 Telugu, V6, 10TV, Vaartha, district Hyderabad-en/Medak/Vizianagaram). 06:05 sister run had not saved state, so window covers 05:35-06:35. 75 uncovered events first seen since 05:00 (22 local, many Eenadu-only). add_repo tool not available; used existing clone. Published: Hans AP phase-3 panchayat nominations (fact), Hans Kadiyam quit-politics challenge (claim), Hans YSRCP Save Visakhapatnam (claim), Hans Parakala Vetapalem library (fact). Skipped as old: Herald Baengnyeong aircraft (Sep 2026), Maritime Executive SCI tender (Aug 2026), AJ Siddipet flexis (19 Nov), News On AIR AP rain Nov 26-29 (2024), Vizag Forever nominations (23 Nov 09:51, before lookback). Already covered: India-Nepal vision, Amit Shah visit cancelled, Guru Nanak holiday. Search did not return: Hans Congress vs KTR Warangal, News On AIR Akvan alert, IE India-Nepal, ANI UNSC Black Sea, NDTV Jaishankar-Lavrov, Eenadu items (robots). District searches: Mahabubnagar/Nagarkurnool/Wanaparthy, Visakhapatnam/Vizianagaram/Kakinada, Siddipet/Medak/Sangareddy, Tirupati/Chittoor/Nellore, Karimnagar/Peddapalli/Jagtial, Guntur/Prakasam/Bapatla. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-24T06:35:00+05:30/2026-11-24T07:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 14:05. Feeds 22:19 IST (68/68 ok; 772 uncovered TG/AP events in list, many already published under other URLs or non-news). add_repo tool not available; used existing clone. Published 4: TT GHMC graduate voter-roll camps (21:51), TT HMDA Moosapet e-auction no stay (22:07), Siasat Puranapul water works diversion (22:03), Siasat Nasha Mukt padyatra traffic Nov 27 (21:44). Skipped: TN 15-day paternity leave (other state). Not opened: The Hindu (site blocked) first-phase AP panchayat results/NDA lead, Srisailam hundi Rs 4.47 cr, Infosys 7,500 freshers Vizag, Bhatti 5 GW data centres, AI R-26 curriculum, cancer hospital North Andhra; TG Christmas Rs 30,000 per church, Cyberabad one-way (DGP CV Anand), golden-backed frog — search index had no copies. Fetch took ~5 min; no district searches this run. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-26T22:35:00+05:30/2026-11-26T23:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 4,
+   "late": 3,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 14:35. Feeds 22:47 IST (70/70 ok; 895 uncovered TG/AP events in list). add_repo tool not available; used existing clone. Published 4: Siasat Bawarchi Congress-BRS clash (22:59, claim), The Hindu AP phase-1 panchayat early results in Chittoor/Annamayya/Sathya Sai (21:18, read via KhanList copy), HMTV Poda Thurpu research centre Achampet (16:00), Reuters/Cyprus Mail Odesa grain ships (18:08). Duplicates: HC jail term Cyberabad CP (published 13:35), LB Nagar POCSO sentence (published 22:05). Not opened: Siasat 'Congress till 2034' and TT Nagole matrimony fraud Rs 12.75 lakh (feed URLs refused, no search copy), Disha AP cabinet Nov 27 and Disha Poda Thurpu (site error), Sakshi Education 526 assistant professor posts (site error), Srisailam hundi Rs 4.47 cr, golden-backed frog, Bandi Sanjay drug mafia, Komatireddy safest roads (The Hindu/DC only, no search copy). No district searches this run. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8533,6 +8533,46 @@
    "url": "https://www.siasat.com/traffic-expected-during-kishan-reddy-padyatra-to-jubilee-hills-3587779/",
    "d": "2026-11-26",
    "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/rahul-gandhi-skit-sparks-clash-between-congress-brs-at-bawarchi-3587851/",
+   "d": "2026-11-26",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.devdiscourse.com/article/politics/4012810-telangana-clashes-break-out-between-congress-brs-workers-near-restaurant-ktr-seeks-strict-action-against-culprits",
+   "d": "2026-11-26",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/nda-backed-candidates-lead-in-first-phase-of-panchayat-polls-in-three-districts-of-andhra-pradesh/article71746448.ece",
+   "d": "2026-11-26",
+   "w": "pub"
+  },
+  {
+   "url": "https://khanlist.com/story/nda-backed-candidates-lead-in-first-phase-of-panchayat-0af82ac1",
+   "d": "2026-11-26",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/hyderabad/hyderabad-tglda-chairman-dr-charan-kaushik-yadav-thanks-cm-revanth-217477",
+   "d": "2026-11-26",
+   "w": "pub"
+  },
+  {
+   "url": "https://cyprus-mail.com/2026/11/26/ukraine-says-russia-hits-two-grain-ships-near-odesa-ports",
+   "d": "2026-11-26",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/hc-awards-two-week-imprisonment-to-cyberabad-police-commissioner-medchal-dcp-in-contempt-case/article71747763.ece",
+   "d": "2026-11-26",
+   "w": "dup"
+  },
+  {
+   "url": "https://telanganatoday.com/man-jailed-in-pocso-case",
+   "d": "2026-11-26",
+   "w": "dup"
   }
  ]
 }
