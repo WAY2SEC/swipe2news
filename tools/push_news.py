@@ -219,6 +219,21 @@ def main():
     def mark(s, kind, place=None):
         st['sent'].append(sid(s)); st['log'].append({'t': now.isoformat(), 'kind': kind, 'place': place, 'h': s.get('h')}); done.add(sid(s))
 
+    # 0) owner's one-off announcements to every India reader (tools/announce.json), each sent once
+    try: ann = json.load(open(os.path.join(ROOT, 'tools', 'announce.json'), encoding='utf-8')).get('items', [])
+    except Exception: ann = []
+    for a in ann:
+        k = 'ann:' + a['id']
+        if k in done or not (a.get('from', '') <= now.strftime('%Y-%m-%dT%H:%M') <= a.get('to', '9999')): continue
+        print('ANNOUNCE:', a['id'])
+        for lang, flt in LANG_FILTERS.items():
+            t = a.get(lang) or a['en']
+            body = {'app_id': APP_ID, 'target_channel': 'push', 'filters': list(flt), 'headings': {'en': t['h']}, 'contents': {'en': t['b']},
+                    'url': a.get('url') or SITE, 'chrome_web_icon': SITE + 'icon-192.png', 'chrome_web_badge': SITE + 'icon-192.png',
+                    'web_push_topic': 'ann', 'ttl': 12 * 3600}
+            if a.get('image'): body.update(chrome_web_image=a['image'], big_picture=a['image'], ios_attachments={'id1': a['image']})
+            post(body, f'ann/{a["id"]}/{lang}', key, dry)
+        st['sent'].append(k); st['log'].append({'t': now.isoformat(), 'kind': 'ann', 'place': None, 'h': a['id']}); done.add(k)
     # 1) breaking news, any time
     for s in [x for x in fresh if x.get('brk')][:2]:
         print('BREAKING:', s.get('h')); send(s, 'brk', key, dry); mark(s, 'brk')

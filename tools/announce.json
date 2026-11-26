@@ -1,0 +1,11 @@
+{
+ "_help": "One-off alerts to every India reader (owner's requests). Each item is sent once, between 'from' and 'to' (IST). Add a new item with a new id to send another.",
+ "items": [
+  {"id": "constitution-day-2026", "from": "2026-11-26T07:00", "to": "2026-11-26T21:30",
+   "url": "https://swipe2news.com/?s=zux8cg",
+   "image": "https://swipe2news.com/photos/2026-11-26-constitution-day-poster.jpg",
+   "te": {"h": "🇮🇳 రాజ్యాంగ దినోత్సవ శుభాకాంక్షలు", "b": "భారత రాజ్యాంగం ఆమోదం పొందిన ఈ రోజు, ప్రజాస్వామ్య విలువలను స్మరించుకుందాం. డా. బి.ఆర్. అంబేద్కర్‌కు నివాళి."},
+   "en": {"h": "🇮🇳 Happy Constitution Day", "b": "On the day India adopted its Constitution, let us remember our democratic values. Tribute to Dr B.R. Ambedkar."},
+   "hi": {"h": "🇮🇳 संविधान दिवस की शुभकामनाएँ", "b": "जिस दिन भारत ने अपना संविधान अपनाया, आइए लोकतांत्रिक मूल्यों को याद करें। डॉ. बी.आर. आंबेडकर को नमन।"}}
+ ]
+}
