@@ -19,6 +19,16 @@ jobs:
           import re, json, urllib.request
           xml = open('web/news-sitemap.xml', encoding='utf-8').read()
           urls = re.findall(r'<loc>(https://swipe2news\.com/[^<]+)</loc>', xml)[:100]
+          # Wait until GitHub Pages has the new pages. If Bing/Yandex fetch a story before the deploy finishes,
+          # the 404 is cached by the CDN for ~10 min and WhatsApp/Telegram link previews then fail for that link.
+          import time
+          def live(u):
+              try: return urllib.request.urlopen(urllib.request.Request(u, method='HEAD'), timeout=20).status == 200
+              except Exception: return False
+          t0 = time.time()
+          while urls and time.time() - t0 < 900 and not all(live(u) for u in urls[:3]):
+              time.sleep(20)
+          print('pages live after', int(time.time() - t0), 's')
           urls = ['https://swipe2news.com/', 'https://swipe2news.com/te/', 'https://swipe2news.com/en/'] + urls
           body = json.dumps({"host": "swipe2news.com", "key": "def7b6992ebbf33715254b2f7f185cc3",
                              "keyLocation": "https://swipe2news.com/def7b6992ebbf33715254b2f7f185cc3.txt", "urlList": urls}).encode()
