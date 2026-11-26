@@ -1,11 +1,42 @@
 {
  "_help": "One-off alerts to every India reader (owner's requests). Each item is sent once, between 'from' and 'to' (IST). Add a new item with a new id to send another.",
  "items": [
-  {"id": "constitution-day-2026", "from": "2026-11-26T07:00", "to": "2026-11-26T21:30",
+  {
+   "id": "constitution-day-2026",
+   "from": "2026-11-26T07:00",
+   "to": "2026-11-26T21:30",
    "url": "https://swipe2news.com/?s=zux8cg",
    "image": "https://swipe2news.com/photos/2026-11-26-constitution-day-poster.jpg",
-   "te": {"h": "🇮🇳 రాజ్యాంగ దినోత్సవ శుభాకాంక్షలు", "b": "భారత రాజ్యాంగం ఆమోదం పొందిన ఈ రోజు, ప్రజాస్వామ్య విలువలను స్మరించుకుందాం. డా. బి.ఆర్. అంబేద్కర్‌కు నివాళి."},
-   "en": {"h": "🇮🇳 Happy Constitution Day", "b": "On the day India adopted its Constitution, let us remember our democratic values. Tribute to Dr B.R. Ambedkar."},
-   "hi": {"h": "🇮🇳 संविधान दिवस की शुभकामनाएँ", "b": "जिस दिन भारत ने अपना संविधान अपनाया, आइए लोकतांत्रिक मूल्यों को याद करें। डॉ. बी.आर. आंबेडकर को नमन।"}}
+   "te": {
+    "h": "🇮🇳 రాజ్యాంగ దినోత్సవ శుభాకాంక్షలు",
+    "b": "భారత రాజ్యాంగం ఆమోదం పొందిన ఈ రోజు, ప్రజాస్వామ్య విలువలను స్మరించుకుందాం. డా. బి.ఆర్. అంబేద్కర్‌కు నివాళి."
+   },
+   "en": {
+    "h": "🇮🇳 Happy Constitution Day",
+    "b": "On the day India adopted its Constitution, let us remember our democratic values. Tribute to Dr B.R. Ambedkar."
+   },
+   "hi": {
+    "h": "🇮🇳 संविधान दिवस की शुभकामनाएँ",
+    "b": "जिस दिन भारत ने अपना संविधान अपनाया, आइए लोकतांत्रिक मूल्यों को याद करें। डॉ. बी.आर. आंबेडकर को नमन।"
+   }
+  },
+  {
+   "id": "my-swipe-launch-2026",
+   "from": "2026-11-26T14:45",
+   "to": "2026-11-26T21:30",
+   "url": "https://swipe2news.com/?mys=1",
+   "te": {
+    "h": "✨ కొత్తది: my swipe – మీరు ఆపిన చోటు నుంచే",
+    "b": "ఏ వార్త దగ్గర ఆపారో, ఏవి చదివారో, ఏవి కొత్తవో ఒక్క టచ్‌లో. ఇప్పుడే చూడండి 👉"
+   },
+   "en": {
+    "h": "✨ New: my swipe – pick up where you left off",
+    "b": "See where you stopped, what you have read and what is new – in one tap. Try it now 👉"
+   },
+   "hi": {
+    "h": "✨ नया: my swipe – जहाँ छोड़ा, वहीं से",
+    "b": "कहाँ रुके, क्या पढ़ा, क्या नया है – सब एक टैप में। अभी देखें 👉"
+   }
+  }
  ]
 }
