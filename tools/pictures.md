@@ -73,6 +73,9 @@ Deaths/killings → e/remembrance-and-condolence (same as n/condolence). Do NOT 
 - e/bike-tour – couple on a long bike tour across India: bike expeditions, road trips, all-India rides
 (the app also uses these automatically for cycle / bike stories marked "logo")
 
+### People photos (owner, 26 Nov 2026)
+- e/photo-ys-jagan – YS Jagan, only when he is the speaker/actor (picked automatically; not when others attack him, never on crime/death)
+
 ### Dams (owner, 26 Nov 2026) – picked automatically when the story names the dam AND is about water/gates/inflow/project
 - e/dam-nagarjuna-sagar · e/dam-srisailam · e/dam-sriram-sagar (SRSP, Pochampad) · e/dam-nizam-sagar · e/dam-jurala
 - Srisailam temple / Nagarjuna Sagar town or MLA stories are NOT dam stories (no water word → no dam picture).

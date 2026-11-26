@@ -610,9 +610,14 @@ function artHarish(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const 
   // owner 26 Nov 2026: NOT when Harish is the one being answered/attacked ("Jagan's reply to Harish") – then the speaker's story isn't his
   if(/(?:హరీశ్|హరీష్)(?:\s?రావు)?\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|counters|slams|attacks|rebuts|replies to|hits out at)\s+(?:BRS(?:'s)?\s+)?(?:leader\s+)?Harish|हरीश\s?(?:को|पर)/i.test(t)) return '';
   return /హరీశ్|హరీష్|Harish\s?Rao|हरीश/i.test(t)&&!/హత్య|మృతి|ప్రమాద|murder|death|accident/i.test(t)?'e/photo-harish-rao':''; }
+// owner 26 Nov 2026: YS Jagan's photo on his stories – only when he is the speaker/actor (not when others attack him), never on crime/death
+function artJagan(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[o.h,o.statl,o.stat,(o.en&&o.en.h)||''].join(' ').replace(/‌|‍/g,'');
+  if(!/జగన్(?!నా|్నా)|\bJagan\b|जगन/i.test(t)) return '';
+  if(/జగన్(?:\s?మోహన్\s?రెడ్డి)?\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు|హయాం)|(?:to|on|against|at|slams|attacks|targets|hits out at|probe into)\s+(?:YS\s+)?Jagan|जगन\s?(?:को|पर)/i.test(t)) return '';
+  return /హత్య|మృతి|ప్రమాద|murder|death|accident/i.test(t)?'':'e/photo-ys-jagan'; }
 function artSrisailam(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[o.h,o.statl,o.stat,(o.en&&o.en.h)||''].join(' ').replace(/\u200c|\u200d/g,'');
   return /శ్రీశైల|Srisailam|श्रीशैल/i.test(t)&&!/హత్య|మృతి|ప్రమాద|అరెస్ట్|murder|death|accident|arrest/i.test(t)?'e/photo-srisailam-temple':''; }
-function artPlan(s){ const ac=artAirCargo(s); if(ac) return {m:'land',bg:ac}; const dm=artDam(s); if(dm) return {m:'land',bg:dm}; const ss=artSrisailam(s); if(ss) return {m:'land',bg:ss}; const hr=artHarish(s); if(hr) return {m:'land',bg:hr};
+function artPlan(s){ const ac=artAirCargo(s); if(ac) return {m:'land',bg:ac}; const dm=artDam(s); if(dm) return {m:'land',bg:dm}; const ss=artSrisailam(s); if(ss) return {m:'land',bg:ss}; const jg=artJagan(s); if(jg) return {m:'land',bg:jg}; const hr=artHarish(s); if(hr) return {m:'land',bg:hr};
   { const o=(s&&s._orig)||s; // airport stories without a chosen picture: the airport picture, not the train/travel one
     if(o&&!o.kind&&(!o.pic||String(o.pic).startsWith('c/')||String(o.pic).startsWith('n/'))&&!artOrg(s)&&/విమానాశ్రయ|ఎయిర్\s?పోర్ట్|\bairports?\b|हवाई\s?अड्ड|एयरपोर्ट/i.test([o.h,o.statl,(o.en&&o.en.h)||''].join(' ').replace(/\u200c|\u200d/g,''))) return {m:'land',bg:'e/airport-travel'}; }
   const ok=artOrg(s); if(ok) return {m:'land',bg:ok}; const a=artPlan1(s); const pk=artParty(s,a); return pk?{m:'land',bg:pk}:a; }
