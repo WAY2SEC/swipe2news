@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-26T21:05:00+05:30",
+ "cutoff": "2026-11-26T21:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-23T22:35:00+05:30/2026-11-23T23:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 8,
-   "late": 0,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 9,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Lookback from 14:35. Feeds 22:59 IST (70/70 ok). 98 uncovered events first seen since 22:10 scanned (43 local, many Suryaa minor panchayat/party items). add_repo tool not available; used existing clone. Published: Siasat Cyberabad SHE Teams 52 caught (fact), ETV Bharat AP SEC expense accounts deadline, DC Palamuru villagers vs illegal liquor (claim, sensitive), Mana Telangana Harish Rao reply to CM (claim), HMTV Kothagudem 4 probationary DSPs, South First ICMR-NIN anaemia survey, DC/PTI Pak operatives in defence WhatsApp groups (claim, sensitive), Korea Times/DPA Russia nuclear satellite reports (claim). Duplicates (already published today): Hindu/ANI Revanth Krishna press meet, Siasat ED CMR, Siasat RBI stop switch, DC KRMB, Hindu Himayatsagar, Hindu Adilabad Prajavani, DC Srisailam Karthika Monday rush, DC Jangaon medical college, DC NIMS ACB, DC BRS Palnadu, DC 12 mayors, DC Pithapuram, Adda247 SI hall ticket. Skipped: TT/DC Ranigunj RUB diversions (only 18 Nov article found), TOI HC Rs 2 lakh encounter compensation (17 Nov ruling), entertainment items. Search did not return: Hindu PJTSAU new degree courses, Hindu Telangana-German state workforce, Hindu RERA Indiramma towers, HT Telugu Project GATTU - left unseen. No separate district searches this run. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T23:05:00+05:30/2026-11-23T23:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Lookback from 12:35. Feeds 20:47 IST (70/70 ok; 158 uncovered unseen events first seen since 19:45, many entertainment/lifestyle/non-news). add_repo tool not available; used existing clone. Published 7: V6 Revanth 25,000 jobs at Achampet (20:51), TT Komatireddy on Palnadu Water Grid (20:46, claim, officer not named), DC SCR 110 Sabarimala trains (20:17), ThePrint/PTI special Parliament sitting from Nov 30 (20:49), DD India record foodgrain 378.5 MT (20:31), TT BIMSTEC U23 Shaik Roshan 110m hurdles gold (20:53), Siasat/PTI UK migration Indians (19:54, late-found). Not opened (fetch refused / not in search index; left unseen for next run): The Hindu Naidu Palvancha temple, Bhatti 5 GW data centres, duplicate entries de-novo rolls, Kotia tension, Nellore couple killed going to vote, Chevireddy allegation, Kailasagiri science museum, Cyberabad mobility app; TT Kothapet Rs 10.39 lakh job scam, Shiv Kapur Atri Invitational. No district searches this run. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-26T21:05:00+05:30/2026-11-26T21:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 4,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Lookback from 13:05. Feeds 21:24 IST (68/68 ok; 63 uncovered unseen events first seen since 20:45). add_repo tool not available; used existing clone. Published 4: NT Gadwal electricity ADE ACB Rs 60,000 trap (21:13, sensitive, not named), UNI 7 Uppada fishermen found safe (19:48, late-found), INDToday Komatireddy Nalgonda tourism plan (18:47), UNI Telangana first in NACO AIDS Suraksha (16:13). Duplicate: Siasat TG groundwater site hack (already in archive). Skipped as old: Hans ACB inquiry (04:31), NewsMeter ex-ADE claim (25 Nov), Pioneer/Siasat AP ULB polls (1 Nov). Not opened (search index had no copy): The Hindu AP polls violence/Kadapa 72%/Tirupati peaceful, North Andhra cancer hospital, Srisailam hundi Rs 4.47 cr, Bandi Sanjay drugs, TG industries minister, SBI Parvathipuram; KTR jobs; Cyberabad duty meet; Treesa-Gayatri; DC RBI 60 t gold; NTV Bhargavastra; DC Trump-Putin. District searches: Khammam, Kurnool, Warangal, Srikakulam/Vizianagaram, Nalgonda/Suryapet, Nizamabad/Kamareddy, Nellore/Prakasam, Gadwal (only tag pages returned). Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8433,6 +8433,46 @@
    "url": "https://www.siasat.com/indian-students-workers-top-exits-as-uk-logs-net-migration-drop-3587723/",
    "d": "2026-11-26",
    "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/mahabubnagar/gadwal/gadwal-electricity-ade-caught-by-acb-while-taking-rs-60000-bribe-2569781",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/incident-ap-fishermen/258272",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://indtoday.com/minister-komatireddy-venkat-reddy-announces-plans-for-nalgonda-tourism-development/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/health-telangana-mas/257810",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/acb-arrests-tgspdcl-engineer-for-accepting-60000-bribe-in-gadwal/article71747440.ece",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/seven-missing-uppada-fishermen-found-safe-set-to-reunite-with-families-on-friday/article71747448.ece",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://dailypioneer.com/india/andhra-urban-body-polls-largely-peaceful-41-incidents-logged-dgp",
+   "d": "2026-11-26",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/polls-concluded-largely-peacefully-ap-election-commissioner-3568287/",
+   "d": "2026-11-26",
+   "w": "skipped"
   }
  ]
 }
