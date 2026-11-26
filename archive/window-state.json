@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-26T06:35:00+05:30",
+ "cutoff": "2026-11-26T07:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-23T08:05:00+05:30/2026-11-23T08:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 4,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 7,
-   "review": 2,
-   "gaps": "Lookback from 00:05 on 23 Nov. Feeds 08:15 IST (65/68 ok). 110 uncovered events since 07:00 scanned; most already published under other URLs. add_repo tool not available; used existing clone. 4 fetch agents, 21 URLs opened. Published 4: V6 Konark Express 8 kg ganja Mahabubabad (08:07), AJ Sathya Sai Jayanti state festival (07:45), ETV Bharat AP live Tirumala 6-hour wait (07:38), ETV Bharat TG live Sarayu-Kamala Express Ayodhya-Janakpur (06:51). Duplicates: ETV AP live deputy mayor lists and ULB first meetings, ETV TG live Karimnagar padayatra and BRS-KRMB (already published). Skipped: TTD HPV vaccine (21 Nov, before lookback), Bhaskar ICE 6,111 Indians arrested (22 Nov 16:33, before lookback), HMTV Nirmal AgriGold verification (22 Nov), Prabha Nirmal rice mill (21 Nov), Hans Nizamabad BJP (22 Nov), DC Mahabubabad raids (21 Nov), Gulte Balakrishna PA (2022, old). Review: Saamana ICE arrests (04:31, timezone not shown), JPost Trump Iran New Year strikes (22 Nov 19:58, timezone not shown, likely before lookback). Not opened: ANI Trump Iran (fetch error), Anadolu (robots), the420. ETV AP Karthika Monday Bapatla temples not published (location unclear). District searches: Nizamabad, Karimnagar, Warangal, Khammam, Nalgonda, Suryapet, Siddipet, Adilabad, Nirmal, Mancherial, Mahabubnagar, Wanaparthy, Gadwal, Srikakulam, Vizianagaram, Visakhapatnam, Guntur, Nellore, Tirupati, Kurnool, Kadapa, Anantapur, Chittoor, Ongole - nothing fresh beyond the above. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T08:35:00+05:30/2026-11-23T09:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 1,
    "gaps": "Lookback from 22:05 (25 Nov). Feeds 06:30 IST (57/70 ok; 546 uncovered unseen events in lookback, 106 local). add_repo tool not available; used existing clone. Published 6: DC Nagarkurnool ₹450 cr works (23:24, fact, logo), Hans AP 23 ULB polling today (03:01, fact), Hans AP junior colleges Constitution Day (02:53, fact, logo), HMTV Gadwal bike-tree crash 1 dead (22:41, claim, no name), ThePrint/PTI India rejects US excess-capacity charge (23:45, fact), Korea Times Kim nuclear sites (04:11, fact). Review: Matrix agri value-addition (no absolute time). Skipped as before lookback: Hans Warangal Congress (19:21), HMTV Food Commission Wanaparthy (23 Nov), Miss Universe (17:44). Duplicates: graduate rolls, AP phase-2 sarpanch polls, India TV tariff. Not opened: CNN (robots), socialnews.xyz, Eenadu items, Hindu direct feed URLs (no search hit). 8 district searches run (mostly poll-prep results)."
+  },
+  {
+   "window": "2026-11-26T06:35:00+05:30/2026-11-26T07:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 11,
+   "published": 8,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Lookback from 22:35 (25 Nov). Feeds 06:44 IST (70/70 ok; 639 uncovered unseen events in lookback, 104 local). add_repo tool not available; used existing clone. Published 8: TT Uttam 15-month fine rice buffer (23:16, fact, logo), DC fog on NH-44 Adilabad (22:49, claim, logo), DC Laxman vs BRS on Dharmapuri Kaleshwaram water (00:18, claim), Hans Sridhar Babu Manthani Pushkaralu works (01:30, fact, logo), Hans tiger 5th day Kanumuru (22:57, fact), Hans Nandyal Collector school review (00:18, fact), DC Vijayawada railway para sports (23:31, fact, logo), AeroTime FCC clears SpaceX 1M satellites (02:01, fact). Duplicates: DC DSC sports-quota PIL, DC Pranjal Paul Google fellowship, DC AP own revenue 18.7% (already published). Skipped as old: DD News NH-63/563 (July 2026), News On AIR IMD AP rain (2024), Tribune Trump tariffs 14 nations (2025), Adda247 526 assistant professors (20 Nov). Not opened: direct Hindu/TT feed URLs without search hit (Bhadrachalam Rs 300 cr, Kukatpally truck park, Akbaruddin minority schools, London official transport, TGRERA Auro Realty), NBC SpaceX (robots), Sakshi Education. No district searches. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7178,6 +7178,61 @@
    "url": "https://telanganatoday.com/more-men-than-women-enrol-for-mlc-polls",
    "d": "2026-11-26",
    "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/uttam-calls-for-15-month-fine-rice-buffer-stock-amid-el",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/fog-poor-visibility-raise-accident-risks-on-nh-44-2007953",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/minister-laxman-blames-brs-for-denying-kaleshwaram-water-to-dharmapuri-2008020",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/karimnagar/sridhar-babu-reviews-pushkaralu-works-attends-indiramma-housewarmings-1145793",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/vijayawada/tiger-remains-in-kanumuru-forest-for-fifth-day-1145747",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/collector-reviews-school-performance-funds-and-infrastructure-1145761",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/150-railway-employees-with-disabilities-compete-in-para-sports-2007988",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.aerotime.aero/articles/spacex-fcc-1-million-starmind-satellites",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-records-187-growth-in-own-revenue-collects-rs-74342-crore-2007962",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://ddnews.gov.in/en/rs-7597-crore-nh-63-nh-563-expansion-to-boost-connectivity-trade-and-tourism-in-northern-telangana/",
+   "d": "2026-11-26",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.tribuneindia.com/news/world/close-to-making-deal-with-india-says-trump-amid-fresh-tariffs-on-14-countries",
+   "d": "2026-11-26",
+   "w": "skipped"
   }
  ]
 }
