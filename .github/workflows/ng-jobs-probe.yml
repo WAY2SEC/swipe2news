@@ -1,0 +1,10 @@
+name: Nigeria jobs source probe (temp branch)
+on: { push: { branches: [ng-jobs-test], paths: ['tools/ng/jobs_probe.py'] } }
+permissions: { contents: write }
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/ng/jobs_probe.py && cat tools/ng/jobs-probe.json
+      - run: git config user.name bot; git config user.email b@x.invalid; git add tools/ng/jobs-probe.json; git commit -qm probe; git push -q origin HEAD:ng-jobs-test
