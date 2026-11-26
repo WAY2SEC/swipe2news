@@ -628,6 +628,7 @@ function artRevanth(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const
 // owner 26 Nov 2026: leaders' photos – shown only when the leader is the speaker/actor (not the target), never on crime/death.
 // [picture, name pattern, "target" pattern (name + కు/పై/ను…), names that mean someone else]
 const ART_PEOPLE=[
+  ['e/photo-chandrababu-naidu',/చంద్రబాబు|Chandrababu|Chandrababu\s?Naidu|CM\s?Naidu|चंद्रबाबू/i,/చంద్రబాబు(?:\s?నాయుడు)?\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు|సర్కార్)|(?:to|on|against|at|slams|attacks|targets)\s+(?:CM\s+)?(?:Chandrababu|Naidu)/i],
   ['e/photo-kcr',/కేసీఆర్|\bKCR\b|కె\.?\s?చంద్రశేఖర్\s?రావు|K\.?\s?Chandrashekar\s?Rao|केसीआर/i,/కేసీఆర్\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు|హయాం)|(?:to|on|against|at|slams|attacks|targets)\s+KCR/i],
   ['e/photo-kishan-reddy',/కిషన్\s?రెడ్డి|Kishan\s?Reddy|किशन\s?रेड्डी/i,/కిషన్\s?రెడ్డి\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|slams|attacks|targets)\s+Kishan/i],
   ['e/photo-bandi-sanjay',/బండి\s?సంజయ్|Bandi\s?Sanjay|बंडी\s?संजय/i,/బండి\s?సంజయ్\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|slams|attacks|targets)\s+Bandi/i],
