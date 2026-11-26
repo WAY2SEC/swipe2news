@@ -3534,10 +3534,13 @@ async function moreNews(dir){
 }
 
 /* ---------- load news ---------- */
+const T0=Date.now(); // page opened (alert-tap retries stop 2 minutes after this)
 async function load(){
   // Show the news saved on the phone at once, so a slow network never leaves a black screen (iPhone, 10 Nov 2026).
   if(!load.shown){ const c=store.get('news',null);
-    if(c && c.stories && c.stories.length){ NEWS=c; WISHES=store.get('wishes',WISHES); if(!JOBS.length) setJobs(store.get('jobs',[])); renderTabs(); renderFeed(); load.shown=1; if(navigator.onLine===false) offlineUI(true); } }
+    if(c && c.stories && c.stories.length){ NEWS=c; WISHES=store.get('wishes',WISHES); if(!JOBS.length) setJobs(store.get('jobs',[]));
+      const q0=new URLSearchParams(location.search).get('s'); if(q0 && c.stories.some(x=>sid(x)===q0)) JUMP=q0; // alert/link tap: show that exact card at once, not the newest one (owner, 26 Nov 2026)
+      renderTabs(); renderFeed(); load.shown=1; if(navigator.onLine===false) offlineUI(true); } }
   const keep = load.shown && cur>0 && LIST && LIST[cur] ? keyOf(LIST[cur]) : null; // still on the first card → jump to the newest news
   try{
     const ac = window.AbortController ? new AbortController() : null;
@@ -3565,7 +3568,10 @@ async function load(){
   else if(q.has('jobs') && !load.done){ load.done=1; JUMP=qs; setView('jobs'); }
   else if(q.has('wishes') && !load.done && wishTab()){ load.done=1; JUMP=qs; section='wishes'; setView('home'); }
   else if(qs && !load.done && !NEWS.stories.some(x=>sid(x)===qs) && await findOld(qs)){ load.done=1; }
-  else if(qs && !load.done){ load.done=1; JUMP=qs; renderFeed();
+  else if(qs && !load.done){ JUMP=qs; renderFeed();
+    // alert tap on a slow network: the story is not here yet, so try again on the next load instead of staying on another card
+    // (the alert can arrive a minute before the website has the new story), so look again every 20 s for up to 2 minutes
+    if(LIST.some(x=>sid(x)===qs) || Date.now()-T0>120000) load.done=1; else setTimeout(load, 20000);
     // opened from Chrome on iPhone to send the picture: Safari can share pictures, so show the one-tap share screen
     if(q.has('sharecard') && LIST[cur]){ const b=await timeout(prepCard(),8000); if(b) showCardImage(b, shareText(LIST[cur]), ''); } }
   else if(q.has('dates') && !load.done){ load.done=1; openDates(); }
@@ -3658,7 +3664,10 @@ function tagUser(OneSignal){ try{ const P=PLACES.find(x=>x[0]===prefs.place), di
   OneSignal.User.addTags(t); }catch(e){} }
 if(pushOK){
   OneSignalDeferred.push(async function(OneSignal){
-    await OneSignal.init({ appId: ONESIGNAL_APP_ID, serviceWorkerPath: 'OneSignalSDKWorker.js', serviceWorkerParam: { scope: '/' } });
+    // alert tap (owner, 26 Nov 2026): when the app is already open, OneSignal now moves that window to the alert's link (?s=<story>)
+    // instead of only bringing the old screen forward, so the reader always lands on the exact card from the alert
+    await OneSignal.init({ appId: ONESIGNAL_APP_ID, serviceWorkerPath: 'OneSignalSDKWorker.js', serviceWorkerParam: { scope: '/' },
+      notificationClickHandlerMatch: 'origin', notificationClickHandlerAction: 'navigate' });
     bellState(OneSignal.Notifications.permission);
     OneSignal.Notifications.addEventListener('permissionChange', p => { bellState(p); if(p) tagUser(OneSignal); });
     if(OneSignal.Notifications.permission) tagUser(OneSignal);

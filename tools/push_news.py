@@ -200,8 +200,27 @@ def calendar(now, which, stories, sadf, done, key, dry):
         post(dict(base, filters=flt, headings={'en': tx.format(**fill)}, contents={'en': body}), f'greet/{which}/{lang}', key, dry)
     return top
 
+def wait_live(local_updated, limit=300):
+    """Owner, 26 Nov 2026: an alert tap must open the exact story. This job starts the moment the news is pushed,
+    but the website (GitHub Pages) needs a minute or two to publish it; an alert sent before that opened another card.
+    So wait until swipe2news.com serves this news.json (at most 5 minutes, then send anyway)."""
+    import time
+    t0 = time.time()
+    while time.time() - t0 < limit:
+        try:
+            with urllib.request.urlopen(SITE + 'news.json?t=' + str(int(time.time())), timeout=20) as r:
+                if (json.loads(r.read().decode()).get('updated') or '') >= local_updated:
+                    print('site is live (%ds)' % (time.time() - t0)); return True
+        except Exception as e:
+            print('site check:', e)
+        time.sleep(20)
+    print('site not updated after %ds, sending anyway' % limit); return False
+
 def main():
     dry = '--dry' in sys.argv
+    if not dry:
+        try: wait_live(json.load(open(os.path.join(ROOT, 'news.json'), encoding='utf-8')).get('updated') or '')
+        except Exception as e: print('wait_live skipped:', e)
     key = os.environ.get('ONESIGNAL_REST_KEY', '').strip()
     now = datetime.datetime.now(IST)
     today = now.strftime('%Y-%m-%d')
