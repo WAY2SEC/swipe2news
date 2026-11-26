@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-26T10:35:00+05:30",
+ "cutoff": "2026-11-26T11:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-23T12:05:00+05:30/2026-11-23T12:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 6,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Lookback from 04:05 on 23 Nov. Feeds 12:15 IST (68/68 ok). 60 uncovered events first seen since 11:50 plus local backlog scanned. add_repo tool not available; used existing clone. 3 fetch agents, 9 URLs, 8 opened. Published 6: NewsMeter AIIA Tirupati (12:11), DC Nalgonda lorry fire (12:09), HMTV Anantapur mayor oath (11:57), Hans India polio 17.21 lakh (05:24, late), Siasat Bisleri says water safe (11:13, claim), Business Standard Nepal PM welcome (10:58). Duplicates: Disha BRS-KRMB Palnadu complaint, DC polio 95.55% (22 Nov 22:41, before lookback). Skipped: India TV Bisleri (fetch error). Not found in search (left unseen): Siasat Hyderabad congestion pricing, Samayam 24-yr deputy mayor, Disha Jalasoudha media curbs, NT Buggavagu grama sabha, HMTV Suryapet RDO football, HMTV Sangambanda leakage, NIE triple talaq, News18 Rs 30,000 subsidy fact-check, News18 Khammam Rs 1.5 crore job, HMTV Veldanda gambling. 12 district searches (Adilabad, Srikakulam, Nizamabad, Nellore, Karimnagar, Prakasam, Mahabubnagar, Guntur/Vijayawada…) gave no new eligible items. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T12:35:00+05:30/2026-11-23T13:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 0,
    "gaps": "Lookback from 02:05. Feeds 10:19 IST (68/68 ok; 72 uncovered unseen events first seen since 09:35). add_repo tool not available; used existing clone. Published 2: TT/IANS Apple Kukatpally store Dec 10 (10:29), Siasat Nagole businessman Rs 12L matrimonial trading fraud (09:55, late-found). Duplicates: Asianet APSDMA AP rain forecast (same as 25 Nov 19:53 story), Naidu votes in Mangalagiri (published 09:05). Skipped as old: Hans Palnadu polling (6 Nov), Hans NTRUHS AI courses (4 Nov), DC NTRUHS AI/ML (20 Nov), TT Nagarkurnool BRS leader assault (Feb 2025), DC Nampally facade (15 Nov; demolition already published). Not opened (no search hit): NIE MV Maa painting/NGT, Hyderabad Mail KCR documentary, Samayam TDP assets Rs 526 cr, Prajasakti Palnadu tension, HMTV bus fire, Nepal 213 Indians (only Oct articles found). 8 district searches (Nalgonda, Adilabad/Nirmal, Guntur/Vijayawada, Tirupati/Chittoor, Siddipet/Medak, Srikakulam/Vizianagaram, Mahabubnagar/Wanaparthy, Kakinada/Rajahmundry) gave only tag pages. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-26T10:35:00+05:30/2026-11-26T11:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 2,
+   "review": 1,
+   "gaps": "Lookback from 03:05. Feeds 10:43 IST (70/70 ok; 138 uncovered unseen recent events). add_repo tool not available; used existing clone. Published 3: Live Law HC dismisses Vikarabad court-site PIL (10:20), Oneindia KRMB Sagar usage/no agreement (10:30), DC Narnoor young woman's death, father accused (10:33, sensitive, claim). Duplicates: church Christmas grant, CM rice stock two years, Kakinada fishermen safe, Naidu votes. Skipped as old: TT Adilabad 2022 article, Hans Vikarabad court row (11 Sep). Review (only 'updated' time): FPJ rupee 92.40. Direct feed URLs refused by fetch (Siasat Apollyon, Siasat Cairo 31 dead, TT snooker, TT OU athletics, TT school chess). Not opened (no search hit): V6 naxal-free two districts report, V6 Yalal wine shop theft, Kishan Reddy yatra remarks (NTV), Disha Mulugu murder, HMTV Achampet arrests. No district searches this run. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7538,6 +7538,36 @@
    "url": "https://telanganatoday.com/telangana-brs-leader-assaulted-by-congress-workers",
    "d": "2026-11-26",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.livelaw.in/high-court/telangana-high-court/telangana-high-court-dismisses-advocates-pil-vikarabad-district-court-complex-site-560041",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/telangana/nagarjuna-sagar-water-usage-telangana-used-47-tmc-ap-17-tmc-till-nov-22-krmb-committee-reveals-516493.html",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/adilabad-honour-killing-father-kills-daughter-over-love-affair-2008089",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/adilabad-parents-kill-daughter-for-inter-religious-relationship",
+   "d": "2026-11-26",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/vikarabad-district-court-site-row-hc-asks-advocates-to-let-administrative-process-take-course-1120520",
+   "d": "2026-11-26",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.freepressjournal.in/business/rupee-slips-20-paise-to-9240-against-us-dollar-crude-oil-rally-tariff-fears-cloud-outlook",
+   "d": "2026-11-26",
+   "w": "review"
   }
  ]
 }
