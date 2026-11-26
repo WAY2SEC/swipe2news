@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-26T14:05:00+05:30",
+ "cutoff": "2026-11-26T14:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-23T15:35:00+05:30/2026-11-23T16:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 25,
-   "published": 21,
-   "late": 0,
-   "sensitive": 3,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "Lookback from 07:35. Feeds 15:56 IST (69/70 ok; district:Visakhapatnam failing). 118 uncovered events first seen since 15:10 scanned (35 local). add_repo tool not available; used existing clone. 5 fetch agents. Sensitive: Wyra chilli theft (claim, no name), Kurnool flex row (claim), ED Royal Twinkle (ED named, no accused names). Skipped: Siasat HITEX La La Land flea (entertainment listing), AJ soldiers conduct wedding (Rajasthan, other state), Sakshi AP polling-day holiday order (published 18 Nov, older than lookback), Sakshi Byreddy speech (video only, no text). India cap of 3: Siasat gold imports down 40% and TT AI startup funding left unseen for next run. Not opened/not found (left unseen): The Hindu Guntur mayor (10TV used instead), ETV Rajamahendravaram court 222 years (only Eenadu), News18 Telugu Telangana district national ranking, News18 Telugu Bay of Bengal weather, INDToday Bhatti, Suryaa East Godavari items, Disha items (site refuses fetch), Andhra Prabha Kurnool mayor Vijaya Pratyusha (time unverified, not fetched), V6 CM Achampet visit Nov 26 (time unverified). District searches: Sircilla, Nizamabad, Mahabubnagar, Mulugu, Yadadri, ASR, West Godavari, Krishna, Kurnool, Manyam (found: Kurnool x3, West Godavari, Yadadri). lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T16:05:00+05:30/2026-11-23T16:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 05:35. Feeds 14:03 IST (70/70 ok; ~100 uncovered unseen events first seen since 13:00, many entertainment/business). add_repo tool not available; used existing clone. No direct WebFetch: pages opened through fetch helper only after WebSearch surfaced the URL (2 direct feed URLs refused: Siasat Wipro walk-in queue, TT Vamsi Krishna-Sridhar Babu protocol - not opened). Published 8: DC/PTI SC FSSAI total sugar/saturated fat labels (13:58), TV9 Kanagal Rs 74 cr works (13:26), TT BRS seeks apology over Ambedkar photo in ads (14:02, claim), HMTV Adepalli headmaster absent 5 months (13:52, claim), Andhra Jyothy Harish Rao on Siddipet science fair (13:44, claim), DC/PTI Gopichand joins Nasha Mukt walk (13:50), NT Sagar canals 15,000 cusecs each (13:36, claim, single unsigned source), Vaartha Srisailam 420 Chenchus free darshan (13:18). Duplicate: 10TV ration card items (same Uttam 15-month fine rice directive published 07:05). Skipped: Siasat Bandi Bageerath POCSO summons (accused would be identified). Not attempted: Dar-e-Nijaat screenings, CV Anand on bomb threats, Cyberabad CP on public transport, egg prices/bird flu, Aler market committee post, Huzurabad theft, Atmakur dog attack, AP poll 1 pm turnout (not found), Congo Ebola 12,000, Pak-Saudi-Turkey meet. No district searches this run. 2 CHECK left: picture line slightly long (FSSAI 35, Sagar 38 letters). Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-26T14:05:00+05:30/2026-11-26T14:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 4,
+   "late": 2,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 2,
+   "review": 1,
+   "gaps": "Lookback from 06:05. Feeds 14:18 IST (68/68 ok). add_repo tool not available; used existing clone. Fetches slow (~5 min per batch) so only 11 articles attempted. Published 4: DC Ahobilam stone attack on MLA vehicle (14:29, claim, sensitive), DC Samvidhan Raksha March (12:55), Oneindia Telugu eco-tourism land transfer (12:39, late), DC Tirumala 121 kg gold (11:14, late). Skipped (published 25 Nov before lookback): DC AP revenue 18.7%, DC Pennar sand mining. Review (no publication time): Munsif out-of-state vehicle tax. Not opened: ANI Keserapalli booth, Siasat BRS leader attacked Nagarkurnool, TT OU athletics, SCMP FedEx Miami. District searches (8) returned only tag pages. Picture lines shortened; lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7848,6 +7848,41 @@
    "url": "https://www.siasat.com/bandi-bageerath-summoned-by-pocso-court-told-to-appear-jan-28-3587266/",
    "d": "2026-11-26",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/panchayat-polls-clashes-erupt-between-tdp-ysrcp-in-allagadda-nandyal-2008136",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/cm-revanth-leads-samvidhan-raksha-march-marking-constitution-day-2008119",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/telangana/telangana-ecotourism-projects-epsc-urges-immediate-land-transfer-for-1-376-crore-worth-projects-516517.html",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/tirupati-chennai-devotee-to-donate-121-kg-gold-ornaments-to-lord-venkateswara-2008100",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-records-187-growth-in-own-revenue-collects-rs-74342-crore-2007962",
+   "d": "2026-11-26",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-naidu-seeks-report-on-illegal-sand-mining-damage-to-drinking-water-pipeline-2007957",
+   "d": "2026-11-26",
+   "w": "skipped"
+  },
+  {
+   "url": "https://munsifdaily.com/telangana-rta-out-of-state-vehicle-tax-crackdown/",
+   "d": "2026-11-26",
+   "w": "review"
   }
  ]
 }
