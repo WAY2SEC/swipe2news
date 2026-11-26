@@ -584,7 +584,7 @@ function artParty(s,a){
   return 'e/party-'+hit[0];
 }
 /* owner 23 Nov 2026: HYDRAA stories show HYDRAA's own logo (sent by the owner); no "AI picture" label on logos */
-const ART_ORG=[['ghmc',/జీహెచ్ఎంసీ|జీహెచ్‌ఎంసీ|\bGHMC\b|గ్రేటర్ హైదరాబాద్ మున్సిపల్/i],['hydraa',/హైడ్రా(?!లిక్|క్సి|జన్|కార్బన్|ఫోన్)|\bHYDRAA?\b|Hydraa/i],
+const ART_ORG=[['hmda',/హెచ్ఎండీఏ|హెచ్ఎండిఏ|\bHMDA\b|హైదరాబాద్ మహానగరాభివృద్ధి సంస్థ|Hyderabad Metropolitan Development Authority/i],['ghmc',/జీహెచ్ఎంసీ|జీహెచ్‌ఎంసీ|\bGHMC\b|గ్రేటర్ హైదరాబాద్ మున్సిపల్/i],['hydraa',/హైడ్రా(?!లిక్|క్సి|జన్|కార్బన్|ఫోన్)|\bHYDRAA?\b|Hydraa/i],
   ['rss',/ఆర్\s?ఎస్\s?ఎస్|ఆర్‌ఎస్‌ఎస్|స్వయంసేవక్ సంఘ్|\bRSS\b|Rashtriya Swayamsevak|स्वयंसेवक संघ|आरएसएस/],
   ['apple',/ఆపిల్(?!\s?(?:పండ్ల|పండు|పళ్ల|తోట|ధర|రైతు|సాగు))|ఐఫోన్|\bApple\s?(?:Inc|Store|store|India|CEO)\b|\biPhones?\b|एप्पल|आईफोन/i], // owner 26 Nov 2026 (Apple store story); not apple fruit
   ['invest-telangana',/ఇన్వెస్ట్\s?తెలంగాణ|గ్లోబల్\s?సమ్మిట్|Invest\s?Telangana|Telangana\s?(?:Rising\s?)?Global\s?Summit|इन्वेस्ट\s?तेलंगाना|ग्लोबल\s?समिट/i], // owner 26 Nov 2026: official summit logo
