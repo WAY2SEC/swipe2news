@@ -34,17 +34,15 @@ setTimeout(box,12000);setTimeout(box,25000);})();
    Other times: phones and the installed app open the swipe cards; laptops and desktops get the news website. */
 (function(){try{var q=new URLSearchParams(location.search);
  if(/bot|crawl|spider|slurp|facebookexternalhit|WhatsApp|Lighthouse|Google-InspectionTool/i.test(navigator.userAgent))return; // search engines and link preview
- /* Nigeria edition (owner, 25 Nov 2026): on phones on Nigerian time (Africa/Lagos), NEW readers get only Nigeria news (/ng/);
-    readers who used the app before (saved w2s.* settings) keep the India news. The decision is saved once (s2n.edition).
+ /* Nigeria edition (owner, 26 Nov 2026): EVERY phone on Nigerian time (Africa/Lagos) gets only Nigeria news (/ng/),
+    new or old. Only a reader who opens ?ed=in keeps the India app (saved as s2n.pick; ?ed=ng undoes it).
     Phones anywhere else always get this app, unchanged. Story/section links are never moved. */
- var ed=q.get('ed'),ch='',tz='';
+ var ed=q.get('ed'),pk='',tz='';
  try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';}catch(e){}
  var ng=tz==='Africa/Lagos';
- try{if(ng&&(ed==='ng'||ed==='in'))localStorage.setItem('s2n.edition',ed);ch=localStorage.getItem('s2n.edition')||'';
-  if(ng&&!ch){var old=false;for(var k=0;k<localStorage.length;k++){if((localStorage.key(k)||'').indexOf('w2s.')===0){old=true;break;}}
-   ch=old?'in':'ng';localStorage.setItem('s2n.edition',ch);}}catch(e){}
+ try{if(ng&&(ed==='ng'||ed==='in'))localStorage.setItem('s2n.pick',ed);pk=localStorage.getItem('s2n.pick')||'';}catch(e){}
  var bare=true;q.forEach(function(v,k){if(k!=='source'&&k!=='ed')bare=false;});
- if(ng&&bare&&ch==='ng'){location.replace('/ng/'+(q.has('source')?'?source='+encodeURIComponent(q.get('source')):''));return;}
+ if(ng&&bare&&pk!=='in'){location.replace('/ng/'+(q.has('source')?'?source='+encodeURIComponent(q.get('source')):''));return;}
  document.documentElement.classList.add('rdr'); // a real reader: show the loading screen, not the search-engine texts stay on this page
  var ist=new Date(Date.now()+(330+new Date().getTimezoneOffset())*60000), mins=ist.getHours()*60+ist.getMinutes();
  var plain=!['cards','s','d','dates','saved','jobs','tip','build','l','sharecard','wishes','sec','q','mys'].some(function(k){return q.has(k);});
