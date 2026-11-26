@@ -604,7 +604,13 @@ const ART_DAMS=[['e/dam-nagarjuna-sagar',/నాగార్జున\s?సా�
   ['e/dam-jurala',/జూరాల|Jurala/i]];
 function artDam(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[o.h,o.statl,o.stat,(o.en&&o.en.h)||''].join(' ').replace(/‌|‍/g,'');
   if(!ART_WATER.test(t)) return ''; for(const [k,rx] of ART_DAMS) if(rx.test(t)) return k; return ''; }
-function artPlan(s){ const ac=artAirCargo(s); if(ac) return {m:'land',bg:ac}; const dm=artDam(s); if(dm) return {m:'land',bg:dm};
+// owner 26 Nov 2026: Srisailam temple stories → the owner's temple photo (dam/water stories keep the dam picture; no crime/death)
+// owner 26 Nov 2026: Harish Rao's real photo on his stories (not on deaths, crime or accidents)
+function artHarish(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[o.h,o.statl,o.stat,(o.en&&o.en.h)||''].join(' ').replace(/\u200c|\u200d/g,'');
+  return /హరీశ్|హరీష్|Harish\s?Rao|हरीश/i.test(t)&&!/హత్య|మృతి|ప్రమాద|murder|death|accident/i.test(t)?'e/photo-harish-rao':''; }
+function artSrisailam(s){ const o=(s&&s._orig)||s; if(!o||o.kind) return ''; const t=[o.h,o.statl,o.stat,(o.en&&o.en.h)||''].join(' ').replace(/\u200c|\u200d/g,'');
+  return /శ్రీశైల|Srisailam|श्रीशैल/i.test(t)&&!/హత్య|మృతి|ప్రమాద|అరెస్ట్|murder|death|accident|arrest/i.test(t)?'e/photo-srisailam-temple':''; }
+function artPlan(s){ const ac=artAirCargo(s); if(ac) return {m:'land',bg:ac}; const dm=artDam(s); if(dm) return {m:'land',bg:dm}; const ss=artSrisailam(s); if(ss) return {m:'land',bg:ss}; const hr=artHarish(s); if(hr) return {m:'land',bg:hr};
   { const o=(s&&s._orig)||s; // airport stories without a chosen picture: the airport picture, not the train/travel one
     if(o&&!o.kind&&(!o.pic||String(o.pic).startsWith('c/')||String(o.pic).startsWith('n/'))&&!artOrg(s)&&/విమానాశ్రయ|ఎయిర్\s?పోర్ట్|\bairports?\b|हवाई\s?अड्ड|एयरपोर्ट/i.test([o.h,o.statl,(o.en&&o.en.h)||''].join(' ').replace(/\u200c|\u200d/g,''))) return {m:'land',bg:'e/airport-travel'}; }
   const ok=artOrg(s); if(ok) return {m:'land',bg:ok}; const a=artPlan1(s); const pk=artParty(s,a); return pk?{m:'land',bg:pk}:a; }
