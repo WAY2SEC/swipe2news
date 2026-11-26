@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-26T21:35:00+05:30",
+ "cutoff": "2026-11-26T22:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-23T23:05:00+05:30/2026-11-23T23:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 13,
-   "published": 2,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 5,
-   "review": 0,
-   "gaps": "Lookback from 15:05. Feeds 23:14 IST (70/70 ok). 35 uncovered events first seen since 22:50 scanned (13 local, 8 minor Suryaa West Godavari panchayat items). add_repo tool not available; used existing clone. Published: TT Kothagudem Anisettypalle Palle Prakruthi Vanam trees felled (claim, no names), V6 HMDA Huda Heights e-auction Nov 25 (fact). Duplicates: ANI Revanth Krishna water, DC NIMS ACB, DC Srisailam Kartika Monday, DC BRS Palnadu. Skipped: entertainment/opinion items (TOI shaadi, Tollywood, Actor Suresh, BigTv cricket), HMTV Siddipet political jibe. Search did not return (left unseen): Hindu Uttam rejects KTR 90 TMC claim, DC robotic surgeries Hyd, DC Kishan Reddy on Rahul, Hindu landslide susceptibility, BBC COP31. Direct feed URLs refused by WebFetch. District searches: Nalgonda, Kurnool/Nandyal, Warangal/Hanumakonda (no new in-window items). lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T23:35:00+05:30/2026-11-24T05:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Lookback from 13:05. Feeds 21:24 IST (68/68 ok; 63 uncovered unseen events first seen since 20:45). add_repo tool not available; used existing clone. Published 4: NT Gadwal electricity ADE ACB Rs 60,000 trap (21:13, sensitive, not named), UNI 7 Uppada fishermen found safe (19:48, late-found), INDToday Komatireddy Nalgonda tourism plan (18:47), UNI Telangana first in NACO AIDS Suraksha (16:13). Duplicate: Siasat TG groundwater site hack (already in archive). Skipped as old: Hans ACB inquiry (04:31), NewsMeter ex-ADE claim (25 Nov), Pioneer/Siasat AP ULB polls (1 Nov). Not opened (search index had no copy): The Hindu AP polls violence/Kadapa 72%/Tirupati peaceful, North Andhra cancer hospital, Srisailam hundi Rs 4.47 cr, Bandi Sanjay drugs, TG industries minister, SBI Parvathipuram; KTR jobs; Cyberabad duty meet; Treesa-Gayatri; DC RBI 60 t gold; NTV Bhargavastra; DC Trump-Putin. District searches: Khammam, Kurnool, Warangal, Srikakulam/Vizianagaram, Nalgonda/Suryapet, Nizamabad/Kamareddy, Nellore/Prakasam, Gadwal (only tag pages returned). Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-26T21:35:00+05:30/2026-11-26T22:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 7,
+   "late": 1,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 13:35. Feeds 21:43 IST (70/70 ok; 135 uncovered unseen events first seen since 20:30, many entertainment/lifestyle/world wire). add_repo tool not available; used existing clone. Published 7: TT ASCI EV charger bye-laws (21:40), Siasat POCSO one-year sentence Pahadishareef (21:31, sensitive, not named), DC Suryapet tractor death (21:23, sensitive, not named), DC Naidu 5,000 temples/Tirupati (21:35), NTV Balakrishna Nandi jury chairman (21:45), TT/PTI Treesa-Gayatri Syed Modi quarters (20:49, late-found), DC RBI 60 t gold (21:10). Not opened (not surfaced by search; left unseen for next run): The Hindu NDA-backed candidates lead in panchayat polls (only an aggregator copy found), HC reserves orders on Kukatpally truck park auction, Siasat woman residence certificate. Not tried this run: The Hindu Kadapa 72%/Prakasam-Nellore/Rajahmundry-Kakinada polling, cancer hospital, Srisailam hundi, Bandi Sanjay, TG industries minister; KTR jobs; Cyberabad duty meet; IAF chief; Bhargavastra. No district searches this run. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8473,6 +8473,46 @@
    "url": "https://www.siasat.com/polls-concluded-largely-peacefully-ap-election-commissioner-3568287/",
    "d": "2026-11-26",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/asci-seeks-ev-charger-bye-laws",
+   "d": "2026-11-26",
+   "w": "22:05"
+  },
+  {
+   "url": "https://www.siasat.com/man-sentenced-to-one-years-imprisonment-under-pocso-act-3587782/",
+   "d": "2026-11-26",
+   "w": "22:05"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/suryapet-farmer-dies-as-tractor-overturns-2008259",
+   "d": "2026-11-26",
+   "w": "22:05"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/naidu-asks-wealthy-to-fund-welfare-of-the-poor-2008263",
+   "d": "2026-11-26",
+   "w": "22:05"
+  },
+  {
+   "url": "https://ntvtelugu.com/movie-news/cinema-news/balakrishna-appointed-nandi-awards-jury-chairman-2025-1039227.html",
+   "d": "2026-11-26",
+   "w": "22:05"
+  },
+  {
+   "url": "https://tv9telugu.com/entertainment/tollywood/andhra-pradesh-government-revives-nandi-awards-after-9-years-and-planning-to-conduct-on-december-2026-1967326.html",
+   "d": "2026-11-26",
+   "w": "22:05"
+  },
+  {
+   "url": "https://telanganatoday.com/treesa-gayatri-cruise-into-syed-modi-quarterfinals",
+   "d": "2026-11-26",
+   "w": "22:05"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/business/economics/rbi-flies-60-tonnes-gold-reserves-to-india-in-h1fy27-2008256",
+   "d": "2026-11-26",
+   "w": "22:05"
   }
  ]
 }
