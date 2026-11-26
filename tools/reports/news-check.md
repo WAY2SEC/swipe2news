@@ -1,19 +1,20 @@
 # Swipe2News story check
 
-## news.json: 134 stories · 0 to fix · 32 to look at · 0 fixed automatically
-- CHECK: #2 "జమ్మికుంట, ఉప్పల్ స్టేషన్ల అభివృద్ధి": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #5 "ఏపీ రెండో విడత పంచాయతీ పోలింగ్ 29న": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #6 "డీఎస్సీ క్రీడా కోటాపై హైకోర్టులో పిల్": picture line is long (36 letters) – keep stat + statl short so it fits one line
-- CHECK: #13 "ట్రిపుల్ ఐటీ విద్యార్థికి గూగుల్ ఫెలోషిప": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #13 "ట్రిపుల్ ఐటీ విద్యార్థికి గూగుల్ ఫెలోషిప": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #14 "మెట్రోలో ప్రయాణించిన సైబరాబాద్ సీపీ": picture line is long (41 letters) – keep stat + statl short so it fits one line
-- CHECK: #23 "పీఆర్‌పీ మూడో ప్రత్యామ్నాయం: విజయసాయి": picture line is long (38 letters) – keep stat + statl short so it fits one line
-- CHECK: #27 "సైబరాబాద్ ట్రేడ్ లైసెన్స్ గడువు నవంబర్ 3": headline is 41 characters – may not fit one line (keep ≤ 38)
-- CHECK: #28 "కంటోన్మెంట్‌లో కూల్చివేతల చెత్త కుప్పలు": picture line is long (40 letters) – keep stat + statl short so it fits one line
-- CHECK: #31 "క్రిస్మస్‌కు ఒక్కో చర్చికి ₹30 వేల సాయం": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #33 "రాష్ట్రపతి నిలయం నెల రోజులు మూసి ఉంటుంది": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #34 "శ్రీకాళహస్తి గార్డుకు ₹20.25 లక్షల సాయం": picture line is long (38 letters) – keep stat + statl short so it fits one line
-- CHECK: #47 "హైదరాబాద్‌కు మల్లన్నసాగర్ నీటి ట్రయల్": picture line is long (39 letters) – keep stat + statl short so it fits one line
+## news.json: 134 stories · 0 to fix · 33 to look at · 0 fixed automatically
+- CHECK: #4 "సాగర్ వద్ద సుంకిశాల పథకంపై ఏపీ ఆరోపణ": picture line is long (38 letters) – keep stat + statl short so it fits one line
+- CHECK: #7 "జమ్మికుంట, ఉప్పల్ స్టేషన్ల అభివృద్ధి": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #10 "ఏపీ రెండో విడత పంచాయతీ పోలింగ్ 29న": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #11 "డీఎస్సీ క్రీడా కోటాపై హైకోర్టులో పిల్": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- CHECK: #18 "ట్రిపుల్ ఐటీ విద్యార్థికి గూగుల్ ఫెలోషిప": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #18 "ట్రిపుల్ ఐటీ విద్యార్థికి గూగుల్ ఫెలోషిప": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #19 "మెట్రోలో ప్రయాణించిన సైబరాబాద్ సీపీ": picture line is long (41 letters) – keep stat + statl short so it fits one line
+- CHECK: #28 "పీఆర్‌పీ మూడో ప్రత్యామ్నాయం: విజయసాయి": picture line is long (38 letters) – keep stat + statl short so it fits one line
+- CHECK: #32 "సైబరాబాద్ ట్రేడ్ లైసెన్స్ గడువు నవంబర్ 3": headline is 41 characters – may not fit one line (keep ≤ 38)
+- CHECK: #33 "కంటోన్మెంట్‌లో కూల్చివేతల చెత్త కుప్పలు": picture line is long (40 letters) – keep stat + statl short so it fits one line
+- CHECK: #36 "క్రిస్మస్‌కు ఒక్కో చర్చికి ₹30 వేల సాయం": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #38 "రాష్ట్రపతి నిలయం నెల రోజులు మూసి ఉంటుంది": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #39 "శ్రీకాళహస్తి గార్డుకు ₹20.25 లక్షల సాయం": picture line is long (38 letters) – keep stat + statl short so it fits one line
+- CHECK: #52 "హైదరాబాద్‌కు మల్లన్నసాగర్ నీటి ట్రయల్": picture line is long (39 letters) – keep stat + statl short so it fits one line
 - CHECK: #72 "భూపాలపల్లిలో వడ్లు వెంటనే కొనాలి: గండ్ర": picture line is long (35 letters) – keep stat + statl short so it fits one line
 - CHECK: #73 "ఏపీలో 3,191 సర్పంచ్ పదవులకు 26న పోలింగ్": picture line is long (39 letters) – keep stat + statl short so it fits one line
 - CHECK: #75 "ఖాజీపేట మిడుతూరులో నామినేషన్ల ఘర్షణ": picture line is long (35 letters) – keep stat + statl short so it fits one line
@@ -35,8 +36,12 @@
 - CHECK: #134 "కర్లపాలెం నగల చోరీ: నలుగురు అరెస్ట్": picture line is long (37 letters) – keep stat + statl short so it fits one line
 
 ### Pictures needed (create in your image tool, send to Claude)
-- **Industry & Factories** – 3 story(ies), e.g. "కంటోన్మెంట్‌లో కూల్చివేతల చెత్త కుప్పలు". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
-## archive/2026-11-26.json: 7 stories · 0 to fix · 3 to look at · 0 fixed automatically
-- CHECK: #2 "జమ్మికుంట, ఉప్పల్ స్టేషన్ల అభివృద్ధి": picture line is long (37 letters) – keep stat + statl short so it fits one line
-- CHECK: #5 "ఏపీ రెండో విడత పంచాయతీ పోలింగ్ 29న": picture line is long (39 letters) – keep stat + statl short so it fits one line
-- CHECK: #6 "డీఎస్సీ క్రీడా కోటాపై హైకోర్టులో పిల్": picture line is long (36 letters) – keep stat + statl short so it fits one line
+- **Industry & Factories** – 4 story(ies), e.g. "సర్క్యులర్ ఎకానమీలో ఏపీ తొలి రాష్ట్రం". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
+## archive/2026-11-26.json: 12 stories · 0 to fix · 4 to look at · 0 fixed automatically
+- CHECK: #4 "సాగర్ వద్ద సుంకిశాల పథకంపై ఏపీ ఆరోపణ": picture line is long (38 letters) – keep stat + statl short so it fits one line
+- CHECK: #7 "జమ్మికుంట, ఉప్పల్ స్టేషన్ల అభివృద్ధి": picture line is long (37 letters) – keep stat + statl short so it fits one line
+- CHECK: #10 "ఏపీ రెండో విడత పంచాయతీ పోలింగ్ 29న": picture line is long (39 letters) – keep stat + statl short so it fits one line
+- CHECK: #11 "డీఎస్సీ క్రీడా కోటాపై హైకోర్టులో పిల్": picture line is long (36 letters) – keep stat + statl short so it fits one line
+
+### Pictures needed (create in your image tool, send to Claude)
+- **Industry & Factories** – 1 story(ies), e.g. "సర్క్యులర్ ఎకానమీలో ఏపీ తొలి రాష్ట్రం". Prompt: Semi-realistic 3D illustration, landscape 4:3, 3840 px wide. Modern Telangana industrial area: factory sheds, chimneys with light white steam, a cement silo, pipes, a loading truck and neat green trees in front. Warm golden-hour light, deep plum (#4A0E3F) sky, apricot (#F5A23A) accents, cream buildings. Top 15% plain plum sky. No people, no text, no logos, no watermark.
