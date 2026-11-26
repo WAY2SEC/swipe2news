@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-26T13:35:00+05:30",
+ "cutoff": "2026-11-26T14:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-23T15:05:00+05:30/2026-11-23T15:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 20,
-   "published": 16,
-   "late": 0,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 4,
-   "review": 1,
-   "gaps": "Lookback from 07:05. Feeds 15:24 IST (68/68 ok). add_repo tool not available; used existing clone. 5 fetch agents. Duplicates: Maoist Rs5.59cr rewards (already 12:26), AP Cabinet Nov 27 (already). Skipped as older than lookback: Safran Rs4,000cr (ETV 22 Nov 12:53), Vizag Rs1.94cr digital-arrest gang (DC 22 Nov 21:14; ETV version not found), AP 3 new rail lines (ETV 22 Nov 07:27), RRR 4,962 acres (19 Nov), Asst Prof 526 posts (13 Nov). Review: Mahanadi Coalfields IPO (Upstox, only updated time). Not opened: TOI dengue 47 vs 0, TOI Odisha labour racket, DGP appeal to Ganapathy (UNI time unclear), Sakshi Nawipet rail gate. District searches: Nizamabad, Vikarabad, Yadadri, Warangal, Asifabad, Konaseema, Bapatla, Annamayya, Manyam (only Vikarabad + Warangal found). lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T15:35:00+05:30/2026-11-23T16:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 1,
    "gaps": "Lookback from 05:05. Feeds 13:17 IST (67/68 ok; 60 uncovered unseen events first seen since 12:40, many entertainment/lifestyle). add_repo tool not available; used existing clone. Published 5: DC HC two-week jail for Cyberabad CP and Medchal DCP (13:30), TT IMD minimum temps to drop 2-4 deg (13:07, forecast), TT Telkapalli women refuse Achampet CM meeting (12:56, claim), TT/PTI Centre asks Netflix to block Pak content (12:43), NewsMeter Air India Express Rs 70k consumer order (13:03). Skipped as old: TV9 LeT threat mail Kachiguda (original 22 Nov). Review: The Hindu Nampally travelator Rs 21 cr (12:54) - Hindu page not opened, only aggregator copy. Not opened: NIE Kakatiya University hostel insects. Not attempted: Tirumala gold donation, Sri Sathya Sai lathi-charge, Revanth Samvidhan march, $1 tn economy, Deepam SC (TN), Trump tariffs (already covered 25 Nov), Kyiv attack. District searches (Nizamabad, Khammam, Warangal, Srikakulam/Vizianagaram, Kurnool/Kadapa, Kakinada, Suryapet/Nalgonda/Mahabubabad, Mancherial/Nirmal/Asifabad) returned only tag pages. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-26T13:35:00+05:30/2026-11-26T14:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 9,
+   "published": 8,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 05:35. Feeds 14:03 IST (70/70 ok; ~100 uncovered unseen events first seen since 13:00, many entertainment/business). add_repo tool not available; used existing clone. No direct WebFetch: pages opened through fetch helper only after WebSearch surfaced the URL (2 direct feed URLs refused: Siasat Wipro walk-in queue, TT Vamsi Krishna-Sridhar Babu protocol - not opened). Published 8: DC/PTI SC FSSAI total sugar/saturated fat labels (13:58), TV9 Kanagal Rs 74 cr works (13:26), TT BRS seeks apology over Ambedkar photo in ads (14:02, claim), HMTV Adepalli headmaster absent 5 months (13:52, claim), Andhra Jyothy Harish Rao on Siddipet science fair (13:44, claim), DC/PTI Gopichand joins Nasha Mukt walk (13:50), NT Sagar canals 15,000 cusecs each (13:36, claim, single unsigned source), Vaartha Srisailam 420 Chenchus free darshan (13:18). Duplicate: 10TV ration card items (same Uttam 15-month fine rice directive published 07:05). Skipped: Siasat Bandi Bageerath POCSO summons (accused would be identified). Not attempted: Dar-e-Nijaat screenings, CV Anand on bomb threats, Cyberabad CP on public transport, egg prices/bird flu, Aler market committee post, Huzurabad theft, Atmakur dog attack, AP poll 1 pm turnout (not found), Congo Ebola 12,000, Pak-Saudi-Turkey meet. No district searches this run. 2 CHECK left: picture line slightly long (FSSAI 35, Sagar 38 letters). Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7788,6 +7788,66 @@
    "url": "https://www.thehindu.com/news/cities/Hyderabad/21-cr-travelator-bridge-to-link-nampally-railway-station-hyderabad-metro-station/article71745578.ece",
    "d": "2026-11-26",
    "w": "review"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/nation/sc-directs-fssai-to-flag-total-sugar-saturated-fat-on-food-packs-2008126",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://tv9telugu.com/telangana/nalgonda-development-boost-minister-komatireddy-announces-rs-74-crore-projects-darveshpuram-to-become-tourism-hub-1967035.html",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.dishadaily.com/telugunews/a-major-transformation-for-nalgondas-rural-roads-592528",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/brs-seeks-revanth-reddy-s-apology-over-ambedkar-photo",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/manchiryal-asifabad/headmaster-absent-for-5-months-at-adepalli-primary-school-217418",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/medak/harish-rao-criticises-siddipet-science-fair-suchi-1579993.html",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/pullela-gopichand-joins-kishan-reddys-march-against-drug-abuse-on-day-2-2008125",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://theprint.in/india/badminton-coach-gopichand-joins-kishan-reddys-march-against-drug-abuse/3109574/",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/competitive-water-release-at-nagarjuna-sagar-tension-at-the-project-site-2569484",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://vaartha.com/andhra-pradesh/srisailam-temple-free-sparsha-darshanam-for-chenchu-tribals/810459/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.10tv.in/telugu-news/telangana/telangana-government-key-decision-good-news-for-white-ration-card-holders-hn-1162014.html",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/bandi-bageerath-summoned-by-pocso-court-told-to-appear-jan-28-3587266/",
+   "d": "2026-11-26",
+   "w": "skipped"
   }
  ]
 }
