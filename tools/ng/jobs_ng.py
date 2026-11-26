@@ -11,7 +11,7 @@ WAT = dt.timezone(dt.timedelta(hours=1)); NOW = dt.datetime.now(dt.timezone.utc)
 FEEDS = [('MyJobMag', 'https://www.myjobmag.com/jobsxml.xml', False), ('Hot Nigerian Jobs', 'https://www.hotnigerianjobs.com/feed/', False),
          ('Jobzilla', 'https://www.jobzilla.ng/feed/', False), ('Jobs in Nigeria', 'https://www.jobsinnigeria.careers/feed/', False),
          ('Google News', 'https://news.google.com/rss/search?q=%22recruitment+portal%22+OR+%22recruitment+exercise%22+Nigeria+when:7d&hl=en-NG&gl=NG&ceid=NG:en', True)]
-GOV = re.compile(r'\b(army|navy|air force|police|nscdc|immigration|customs|civil defence|fire service|correctional|inec|nnpc|cbn|federal|state government|ministry|commission|agency|nysc|npower|n-power|recruitment portal|shortlist|aptitude test)\b', re.I)
+GOV = re.compile(r'\b(nigerian army|army|navy|air force|police|nscdc|immigration|customs service|civil defence|federal fire service|correctional service|inec|nnpc|central bank of nigeria|cbn|nysc|n-power|npower|federal government|state government|ministry of|civil service commission|recruitment portal|shortlist)\b', re.I)   # public-sector only
 JUNK = re.compile(r'\b(scam|fake|beware|lure|trafficking|cyberfraud|war)\b', re.I)
 
 def get(u):
