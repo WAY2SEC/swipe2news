@@ -1,39 +1,39 @@
 {
- "updated": "2026-11-26T10:44:42+05:30",
- "src": "The Hans India · BankBazaar · MCX via 5paisa",
+ "updated": "2026-11-26T16:43:58+05:30",
+ "src": "The Hans India · GoodReturns · MCX via 5paisa",
  "cities": [
   {
    "city": "Hyderabad",
    "g24": null,
    "g22": null,
-   "silver": 180000,
+   "silver": 165000,
    "date": "2026-11-26",
    "url": "https://www.bankbazaar.com/gold-rate-hyderabad.html",
-   "surl": "https://www.bankbazaar.com/silver-rate-hyderabad.html"
+   "surl": "https://www.goodreturns.in/silver-rates/hyderabad.html"
   },
   {
    "city": "Mumbai",
    "g24": 125890,
    "g22": 115400,
-   "silver": 180000,
+   "silver": 165000,
    "date": "2026-11-26",
    "url": "https://www.thehansindia.com/business/gold-and-silver-rates-surges-today-26-nov-2026-in-delhi-mumbai-check-gold-prices-of-18k-22k-24k-1145925",
-   "surl": "https://www.bankbazaar.com/silver-rate-mumbai.html"
+   "surl": "https://www.goodreturns.in/silver-rates/mumbai.html"
   },
   {
    "city": "Chennai",
    "g24": null,
    "g22": null,
-   "silver": 180000,
+   "silver": 165000,
    "date": "2026-11-26",
    "url": "https://www.bankbazaar.com/gold-rate-chennai.html",
-   "surl": "https://www.bankbazaar.com/silver-rate-chennai.html"
+   "surl": "https://www.goodreturns.in/silver-rates/chennai.html"
   },
   {
    "city": "Delhi",
    "g24": 126040,
    "g22": 115500,
-   "silver": 180000,
+   "silver": null,
    "date": "2026-11-26",
    "url": "https://www.thehansindia.com/business/gold-and-silver-rates-surges-today-26-nov-2026-in-delhi-mumbai-check-gold-prices-of-18k-22k-24k-1145925",
    "surl": "https://www.bankbazaar.com/silver-rate-delhi.html"
