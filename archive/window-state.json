@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-26T11:35:00+05:30",
+ "cutoff": "2026-11-26T12:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-23T13:05:00+05:30/2026-11-23T13:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 11,
-   "published": 1,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 10,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Lookback from 05:05 on 23 Nov. Feeds 13:16 IST (67/68 ok); 86 uncovered events first seen since 12:40 scanned. add_repo tool not available; used existing clone. Published 1: Siasat Naspur shopkeeper detained after 8-yr-old girl's complaint (13:32, sensitive, claim, no names). Duplicates (already on app): Godavarikhani SCCL worker murder, Lowy Asia Power Index, India-NZ Test draw, CV Anand Maoist rehab, COP31 no deal, Kancharla stopped at Chityal, SI hall tickets, Hyderabad threat email, Kamareddy car-tractor crash, AIIA Tirupati. Not opened: Prabha News RRR-South 4,962 acres (fetch server error); not found in search: TOI Telangana dengue 47 vs 0, Samayam Jayesh Ranjan VRS, Telugu360 Lokesh ASEAN pitch, Andhraprabha Kurnool flexi row, Hyderabad Mail BRS/Congress 2028, Hans Panchalingala sarpanch race, HMTV Toguta CMRF cheques, HMTV Khammam Vidyanagar, Sakshi Mahabubabad. ETV TG/AP live blogs had no entries after 08:01. 8 district searches (Nalgonda, Warangal, Khammam, Kadapa, Srikakulam, Medak, Kakinada, Adilabad) gave no new eligible items. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-23T13:35:00+05:30/2026-11-23T14:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Lookback from 03:05. Feeds 11:30 IST (68/70 ok; 133 uncovered unseen events first seen since 10:30, many entertainment/business). add_repo tool not available; used existing clone. Direct feed URLs refused by fetch; opened after WebSearch surfaced them. Published 6: Siasat HC summons CS (Mahabubnagar employees, 11:03), Siasat Rethibowli sword dance 4 arrests (10:48, sensitive), Pioneer Vintage Coffee Wargal Rs 1,500 cr (11:07), HMTV Indiramma towers free registration (10:47), TT/PTI Tirupati NH-716 temple relocation (11:17), TT/PTI Tata Trusts to sue (11:22). Duplicate: Siasat CMC net-zero HQ (twin towers published 08:20). Not attempted/not opened: K-ORBIT Konaseema app, Kachiguda bomb squad checks, Wipro BP staff, Army microlight landing, gold loans, rigging allegations. 8 district searches (Warangal, Khammam, Nizamabad, Karimnagar, Visakhapatnam, Nellore, Kadapa, Sangareddy/Medak) gave only tag pages. Lang pages/index/sitemap reverted. Kept owner's 11:45 Constitution Day poster first after rebase."
+  },
+  {
+   "window": "2026-11-26T11:35:00+05:30/2026-11-26T12:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 4,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 03:35. Feeds 11:54 IST (67/70 ok; NTV 429; 96 uncovered unseen events first seen since 11:00). add_repo tool not available; used existing clone. Direct feed URLs refused by fetch; opened only after WebSearch surfaced them. Published 4: ThePrint/PTI SC quashes Anand Mohan remission (11:47), V6 Tirumala 62 unauthorised moved out (11:07), TT KTR job calendar (11:45, claim), Hans/IANS Army microlights on Gujarat highway (11:08). Duplicates: The Hindu Tadipatri SUV-lorry four dead (same accident published 08:05), Oneindia Kachiguda bomb-squad checks (threat mail covered 22-24 Nov, nothing new). Skipped as old: NewsMeter AP municipal polls (1 Nov). Not opened (no search hit): Hindu foodgrains 378.53 mt, Reuters food warning labels, Andhra Jyothy AP poll clashes, Prajasakti NTR district polling 43.06%, Hans SEC NTR district, ETV Bharat HC on misuse of hearings. DC AP panchayat live page had no turnout figures. District searches gave only tag pages. Lang pages/index/sitemap reverted. Kept owner's 11:45 Constitution Day poster first."
   }
  ],
  "seen": [
@@ -7603,6 +7603,81 @@
    "url": "https://www.siasat.com/cyberabad-municpal-corporation-to-have-net-zero-green-headquarters-3587001/",
    "d": "2026-11-26",
    "w": "duplicate"
+  },
+  {
+   "url": "https://theprint.in/india/sc-quashes-bihar-govts-remission-to-ex-mp-anand-mohan-directs-him-to-surrender-within-one-month/3109453/",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/tirupati-sp-and-tirumala-police-special-drive-and-un-official-62-members-identified-details-here",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/ktr-calls-job-calendar-youth-mockery",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/business/four-indian-army-microlight-aircraft-land-on-amritsar-jamnagar-corridor-nitin-gadkari-1145932",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/four-indian-army-microlight-aircraft-land-on-amritsar",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQam5CQ01PLVF3b1JQbV9QR0lEWmtGMlNZR2Z4aktRUnMzYWl5c0tLQUVZLVdVMmx3SDJYZGY2SFJqZ1gwWl9pVkRjZzY5NnBMeGx1MWRGWHoxdVZPdlN1UHozdFk0YmNMV25WazFoanYyRUpFT3pMc2NBR0FXMU91QjcyNDRtVVU?oc=5",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/four-killed-as-suv-rams-lorry-near-tadipatri-in-anantapur-district/article71745179.ece",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNODEtM2dkYmNPUkc4WXh3N21YeFJVX1hCUmlfOFp2ZlFMaGdWb0wxTmxuRnVTb2ZIOGJIMEFjVjZTSFZyLVdJbXliTkRZMHNuX08weEczcDZCemE5N0pFcnpiYTVNV3N6TFkxQUUxeUcydW5zaHlYc2VJVzNoMFc1ZlJRbERwWk9WdFFpamFwTmU2MFBMaE1RWVMtREN5QjAtVk9SeEZZdHlUVTNkRVptekktVEhfNnllM0lFZ1RCVHN4ZGxia01makNibDBNQklEYnJyNnlva9IB3gFBVV95cUxPeGVHNlRoVl9UWlNuOWRlZUk5aUJzUWRGbExpWVBjb2o2SzJQU25aeTVqWjRPMnJGSHVveTFFaE9BQklSZ3N2NHdNUS1naGtVNXRqaUJVUjZqSUUwOVEwZ3FxT0l4RTcxcTNXVDM1ZDMyTEV5aVVCajdkanRoeEstRFVzd0ZiaTBEd3F2UWphYTRPTWhYckZRaGVBZjYweERLeWMzVUJDQTVfYkNLV2p1X3JYZmxId1dhUV9XRTQzZDlRaUsyUThNMlRJT2tIT2JsdjhRVVVnMmlkMm5ud3c?oc=5",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKeDl0QlN5YmdfNldiVVg5RHJUc1dtUE01UElWVUlZcjR2SWJYTWZjaFJhcEF4VU8xcmotc21PaTNVTkdxMUVBcTRzRkZ5bmJfSmhkWGJ5MmxSOFRiTUh6U1IwNi1HVWZ3RGNxZTMwRm0?oc=5",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPb0ZmbGh0WE1iMkdXMC11Yk1UWG1oSl9ZMnhPR1gySHNDenRKaTJLNXo3RlUxeHdzYXNnNHNGTDBrbWhLUkNrTUhFTmJyYVVKZ2Q3VXpNTTdtZFpmTXl6Tk9VN0hMQk5KRXZscEdIUTVJT1hmUk15LVpyT0xvNkt0TU4xb0FIaFdHY2RuNjlYQzZUaV82dS1yTVFZYkk5NXFsaXBybTNrN1pSUTVaamZkaTdxQ0c5NTVsT08yM1B3?oc=5",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdmg1Z1dzWVFtRXJrUzExVXZHMlNuMXBCeTVlUS1waHloWE5WaVNFUmZLNVNaaDhEYUpRNVJrRnJxbEN4MTlSakxzdmFqdTBXRklaLWRaMnRYQmJmU05aQ2REclo2Ri04Q2lEMVZLSmxTaXl4NDN1LVZfLWFkWjl6ODFYZkdkS1JlY2xXeWZoUkI3bVZqNlpsVWFkRFNRTnN0cDZCTWFzRWZHcEdtbmhQby1YdklCWFlmMHFoX05KTkVzX0Y2NHlzc2RBam8tRTM4QkhzS1ZqX0Zsd1VMRndWblJMaXd0WlQx?oc=5",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWGg3M3VFVXhPcHlDOHFnajVIbm5YeEQyN0pCQ3lKcmJubDZHS19pMGYtb0JpV21SYTZnSTZtd3VZODZTSDhUaEFvTlVILURLTVotOE5KOURKb2FiVi1mVXE2SXNPYVNhQ1I2SGxrSTVNWGZnWFlWUE1OWDNDTzY1QVlCbGZKUUY2UUJab3lKejh5UFFFVEVXOGZvRFE2UmkzVnh0ZFFQSzJTSE1fbUtxd29EeWZValhieTJuR0JWNWRVWVd1Vl9qR0FQbTFfeEU3d1lncVdmME0tOG95UUNjN3VB0gHnAUFVX3lxTFBkeXZQcDMxbXhGWEcteXlicm44SVJtS3JTeTI4cFo0SDJpUFN6eG41blhXSlI4d0paZVVQVlkyRlYwX3JrcmtjbDJTV2otejktVXN0OGdkRlVGVDBCZklJNXJRNHU0Y3c1Q0s1RTJNSjA4S1VtY0pSYUxXWkd4VUZnYXdHb1NaVTlST3Fla2RXdzdzUDgwT1lQd081ZkJoNjNzMnc0a3MyY1BiQWhDZUEzYi1HZ01QcUVIdEdBWUhKYm5tZG1EM3NuRENtamxHeWFrdVNLWWJBdUVlUThRT3Nra1R5MzI1aw?oc=5",
+   "d": "2026-11-26",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/telangana/lashkar-e-taiba-threat-email-sparks-intensive-searches-across-hyderabad-police-tighten-security-at-516499.html",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.livelaw.in/top-stories/supreme-court-quashes-bihar-govts-remission-granted-to-ex-mp-anand-mohan-in-ias-officers-murder-case-560057",
+   "d": "2026-11-26",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://newsmeter.in/regional/andhra-pradesh/ap-municipal-polls-voters-turn-out-in-large-numbers-political-rival-groups-clash-in-some-areas-778499",
+   "d": "2026-11-26",
+   "w": "skipped"
   }
  ]
 }
