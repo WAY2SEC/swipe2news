@@ -460,6 +460,7 @@ function artPlan0(s){
     if(/సైకిల్|సైక్లింగ్|సైక్లిస్ట్|\bcycl(?:e|ing|ists?)\b|\bbicycles?\b|साइकिल/i.test(t)) return {m:'land',bg:/ర్యాలీ|యాత్ర|బృంద|గ్రూప్|rally|group|ride\b|साइकिल यात्रा/i.test(t)?'e/cycling-group':'e/cycling-city'};
     if(/బైక్|ద్విచక్ర|మోటార్\s?సైకిల్|టూ\s?వీలర్|\bbikes?\b|\bbikers?\b|motorcycl|two-?wheeler|बाइक|दोपहिया|मोटरसाइकिल/i.test(t)) return {m:'land',bg:/యాత్ర|టూర్|దేశవ్యాప్త|tour|expedition|across India|road trip|यात्रा/i.test(t)?'e/bike-tour':'e/bike-riders-city'};
     // owner 26 Nov 2026: polling stories show voting pictures, never the logo
+    if(/కాఫీ|\bcoffee\b|कॉफ़ी|कॉफी/i.test(t)) return {m:'land',bg:'e/coffee-cup'}; // owner 26 Nov 2026
     // owner 26 Nov 2026: Constitution / Constitution Day / Ambedkar stories
     if(/రాజ్యాంగ|అంబేద్కర్|అంబేడ్కర్|\bConstitution\b|Ambedkar|संविधान|आंबेडकर|अंबेडकर/i.test(t)) return {m:'land',bg:'e/constitution-day'};
     if(/పోలింగ్|ఓటింగ్|ఓటర్లు|ఎన్నికల\s?ఓట|\bpolling\b|\bvoting\b|\bvoters?\b|मतदान/i.test(t)) return {m:'land',bg:/పంచాయతీ|సర్పంచ్|వార్డు|panchayat|sarpanch|पंचायत/i.test(t)?'e/ballot-paper-vote':'e/voting-day'};
