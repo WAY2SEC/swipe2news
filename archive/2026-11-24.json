@@ -1,7 +1,7 @@
 {
  "date": "24.11.2026",
  "iso": "2026-11-24",
- "count": 149,
+ "count": 158,
  "stories": [
   {
    "cat": "హైదరాబాద్ · పోలీస్",
@@ -8130,6 +8130,508 @@
     "why": "गोदावरी किनारे के श्रद्धालुओं और कस्बों को बेहतर सुविधाएं मिलेंगी।"
    },
    "d": "24.11.2026",
+   "t": "05:35"
+  },
+  {
+   "cat": "ఏపీ · నీరు",
+   "col": "--c-water",
+   "pic": "e/drought-water-scarcity",
+   "stat": "45 టీఎంసీలే నీరు",
+   "statl": "శ్రీశైలంలో",
+   "h": "ఏపీ జలాశయాల్లో నీరు తక్కువ, ఆందోళన",
+   "p": "ఆంధ్రప్రదేశ్ జలాశయాల్లో నీటి నిల్వ బాగా తగ్గింది. శ్రీశైలంలో 215 టీఎంసీల సామర్థ్యానికి 45.24 టీఎంసీలే ఉన్నాయి, కొత్తగా వరద రావడం లేదు. తుంగభద్రలో గత ఏడాది ఈ సమయానికి 73 టీఎంసీలు ఉండగా ఇప్పుడు 24 టీఎంసీలే ఉన్నాయి. ఎల్ నినో వల్ల వరద రాలేదని అధికారులు చెప్పారు. తాగునీటికే ముందు ప్రాధాన్యం ఇస్తున్నారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/poor-water-storage-in-ap-dams-raises-concern-over-supply-2007623",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pts": [
+    "పెన్నా అహోబిలం జలాశయంలో 4.16 టీఎంసీలు, అనంతపురం తాగునీటికి",
+    "చిత్రావతి జలాశయంలో 10.22కు 2.89 టీఎంసీలే",
+    "సాగుకు నీటి కేటాయింపులు తగ్గించారు"
+   ],
+   "why": "రాయలసీమ జిల్లాల్లో తాగునీరు, సాగునీటి సరఫరాపై ఇది ప్రభావం చూపవచ్చు.",
+   "pub": "2026-11-24T22:46+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Water",
+    "stat": "only 45 TMC",
+    "statl": "in Srisailam",
+    "loc": "Andhra Pradesh",
+    "h": "Low water in AP reservoirs raises concern",
+    "p": "Water storage in Andhra Pradesh reservoirs has fallen sharply. Srisailam holds only 45.24 TMC against its 215 TMC capacity and has no fresh inflow. Tungabhadra has 24 TMC, against 73 TMC at this time last year. Officials said El Nino meant no floods came. Drinking water is being given first priority.",
+    "pts": [
+     "Penna Ahobilam reservoir has 4.16 TMC, kept for Anantapur drinking water",
+     "Chitravati reservoir has 2.89 TMC of 10.22 TMC",
+     "Water allocations for farming have been cut"
+    ],
+    "why": "It may affect drinking and irrigation water supply in Rayalaseema districts."
+   },
+   "hi": {
+    "cat": "एपी · पानी",
+    "stat": "सिर्फ़ 45 टीएमसी पानी",
+    "statl": "श्रीशैलम में",
+    "loc": "आंध्र प्रदेश",
+    "h": "एपी के जलाशयों में पानी कम, चिंता बढ़ी",
+    "p": "आंध्र प्रदेश के जलाशयों में पानी का भंडार काफ़ी घट गया है। श्रीशैलम में 215 टीएमसी क्षमता के मुक़ाबले सिर्फ़ 45.24 टीएमसी पानी है और नया पानी नहीं आ रहा। तुंगभद्रा में पिछले साल इस समय 73 टीएमसी था, अब 24 टीएमसी है। अधिकारियों ने कहा कि अल नीनो के कारण बाढ़ का पानी नहीं आया। पेयजल को पहली प्राथमिकता दी जा रही है।",
+    "pts": [
+     "पेन्ना अहोबिलम जलाशय में 4.16 टीएमसी, अनंतपुर के पेयजल के लिए",
+     "चित्रावती जलाशय में 10.22 में से 2.89 टीएमसी",
+     "खेती के लिए पानी का आवंटन घटाया गया"
+    ],
+    "why": "इससे रायलसीमा ज़िलों में पेयजल और सिंचाई की आपूर्ति पर असर पड़ सकता है।"
+   },
+   "d": "25.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "ఏపీ · నెల్లూరు",
+   "col": "--c-election",
+   "pic": "e/municipal-council-meeting",
+   "stat": "17 ఓట్లతో",
+   "statl": "జనసేన అభ్యర్థి గెలుపు",
+   "h": "ఆత్మకూరు వైస్ చైర్‌పర్సన్‌గా శిరీష",
+   "p": "నెల్లూరు జిల్లా ఆత్మకూరు మున్సిపల్ వైస్ చైర్‌పర్సన్‌గా జనసేనకు చెందిన కొలగాని శిరీష మంగళవారం ఎన్నికయ్యారు. ఆమెకు 17 ఓట్లు రాగా, వైఎస్సార్‌సీపీ అభ్యర్థికి 11 ఓట్లు వచ్చాయి. సోమవారం వేరే పేరు ప్రతిపాదించడంతో ఎన్నిక ఆగిపోయింది. మంగళవారం మంత్రి ఆనం రామనారాయణ రెడ్డి కూటమి కౌన్సిలర్లతో వచ్చాక ఎన్నిక పూర్తయింది.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/jana-senas-kolagani-sirisha-elected-atmakur-municipal-vice-chairperson-2007639",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-nellore",
+   "loc": "ఆత్మకూరు",
+   "pts": [
+    "కూటమి పొత్తులో ఈ పదవి జనసేనకు దక్కింది",
+    "ఉదయం 11కు మొదలైన సమావేశం మధ్యాహ్నం 2 వరకు ఆగింది"
+   ],
+   "why": "ఆత్మకూరు మున్సిపల్ పాలకవర్గం ఏర్పాటు దీనితో పూర్తయింది.",
+   "pub": "2026-11-24T23:14+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Nellore",
+    "stat": "17 votes",
+    "statl": "Jana Sena candidate wins",
+    "loc": "Atmakur, Nellore",
+    "h": "Sirisha elected Atmakur vice-chairperson",
+    "p": "Jana Sena's Kolagani Sirisha was elected vice-chairperson of Atmakur municipality in Nellore district on Tuesday. She got 17 votes against 11 for the YSRCP candidate. The election had stalled on Monday when another name was proposed. It was completed on Tuesday after minister Anam Ramanarayana Reddy arrived with the alliance councillors.",
+    "pts": [
+     "The post went to Jana Sena under the alliance arrangement",
+     "The meeting began at 11 am and was held up until 2 pm"
+    ],
+    "why": "This completes the formation of the Atmakur municipal council."
+   },
+   "hi": {
+    "cat": "एपी · नेल्लोर",
+    "stat": "17 वोट से",
+    "statl": "जनसेना उम्मीदवार की जीत",
+    "loc": "आत्मकूर, नेल्लोर",
+    "h": "आत्मकूर की उपाध्यक्ष चुनी गईं शिरीषा",
+    "p": "नेल्लोर ज़िले की आत्मकूर नगरपालिका की उपाध्यक्ष के रूप में मंगलवार को जनसेना की कोलगानी शिरीषा चुनी गईं। उन्हें 17 वोट मिले, जबकि वाईएसआरसीपी उम्मीदवार को 11 वोट मिले। सोमवार को दूसरा नाम प्रस्तावित होने से चुनाव रुक गया था। मंगलवार को मंत्री आनम रामनारायण रेड्डी के गठबंधन पार्षदों के साथ पहुंचने के बाद चुनाव पूरा हुआ।",
+    "pts": [
+     "गठबंधन के बंटवारे में यह पद जनसेना को मिला",
+     "सुबह 11 बजे शुरू हुई बैठक दोपहर 2 बजे तक रुकी रही"
+    ],
+    "why": "इसके साथ आत्मकूर नगरपालिका परिषद का गठन पूरा हो गया।"
+   },
+   "d": "25.11.2026",
+   "t": "07:05"
+  },
+  {
+   "cat": "భారత్ · హాకీ",
+   "col": "--c-city",
+   "pic": "logo",
+   "stat": "6-2తో భారత్ గెలుపు",
+   "statl": "చైనాపై",
+   "h": "మహిళల హాకీలో చైనాపై భారత్ 6-2 గెలుపు",
+   "p": "భోపాల్‌లో జరుగుతున్న మహిళల ఆసియా ఛాంపియన్స్ ట్రోఫీ హాకీలో భారత జట్టు మంగళవారం చైనాను 6-2 తేడాతో ఓడించింది. ఇది భారత్‌కు వరుసగా నాలుగో గెలుపు. దీపిక మొదటి క్వార్టర్‌లోనే మూడు గోల్స్ చేసి హ్యాట్రిక్ సాధించింది. లాల్‌రెమ్సియామి, నేహా, సాక్షి రాణా మిగతా గోల్స్ చేశారు. భారత్ ఇప్పటికే సెమీఫైనల్‌కు చేరింది.",
+   "src": "IANS",
+   "url": "https://ianslive.in/womens-act-2026-deepikas-hat-trick-leads-india-to-big-6-2-win-over-china-in-bhopal--20261124231349",
+   "sec": [
+    "india",
+    "sports"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "భోపాల్",
+   "pts": [
+    "ఈ టోర్నీలో చైనాపై భారత్‌కు ఇదే అతి పెద్ద గెలుపు",
+    "ప్రపంచ ర్యాంకింగ్స్‌లో భారత్ ఐదో స్థానానికి చేరింది"
+   ],
+   "why": "సొంత గడ్డపై భారత మహిళల హాకీ జట్టు టైటిల్ ఆశలు పెరిగాయి.",
+   "pub": "2026-11-24T23:19+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Hockey",
+    "stat": "India win 6-2",
+    "statl": "against China",
+    "loc": "Bhopal",
+    "h": "India beat China 6-2 in women's hockey",
+    "p": "India beat China 6-2 on Tuesday in the Women's Asian Champions Trophy hockey in Bhopal. It was India's fourth win in a row. Deepika scored a hat-trick with three goals in the first quarter. Lalremsiami, Neha and Sakshi Rana scored the other goals. India have already reached the semi-finals.",
+    "pts": [
+     "It is India's biggest win over China in this tournament",
+     "India moved up to fifth in the world rankings"
+    ],
+    "why": "The Indian women's hockey team's title hopes at home have grown.",
+    "next": "India play Japan on November 25 at 7 pm"
+   },
+   "hi": {
+    "cat": "भारत · हॉकी",
+    "stat": "भारत 6-2 से जीता",
+    "statl": "चीन पर",
+    "loc": "भोपाल",
+    "h": "महिला हॉकी में भारत ने चीन को 6-2 से हराया",
+    "p": "भोपाल में चल रही महिला एशियन चैंपियंस ट्रॉफ़ी हॉकी में भारत ने मंगलवार को चीन को 6-2 से हराया। यह भारत की लगातार चौथी जीत है। दीपिका ने पहले क्वार्टर में ही तीन गोल कर हैट्रिक बनाई। बाक़ी गोल लालरेम्सियामी, नेहा और साक्षी राणा ने किए। भारत पहले ही सेमीफ़ाइनल में पहुंच चुका है।",
+    "pts": [
+     "इस टूर्नामेंट में चीन पर भारत की यह सबसे बड़ी जीत है",
+     "विश्व रैंकिंग में भारत पांचवें स्थान पर पहुंचा"
+    ],
+    "why": "घरेलू मैदान पर भारतीय महिला हॉकी टीम की ख़िताब की उम्मीदें बढ़ी हैं।",
+    "next": "25 नवंबर शाम 7 बजे भारत-जापान मैच"
+   },
+   "d": "25.11.2026",
+   "t": "07:05",
+   "next": "నవంబర్ 25 రాత్రి 7 గంటలకు భారత్, జపాన్ మ్యాచ్"
+  },
+  {
+   "cat": "కరీంనగర్ · వ్యవసాయం",
+   "col": "--c-money",
+   "art": "farm",
+   "pic": "logo",
+   "stat": "క్వింటాల్‌కు ₹500",
+   "statl": "పప్పు బోనస్",
+   "h": "చొప్పదండిలో పప్పు పంటలకు ₹500 బోనస్",
+   "p": "కరీంనగర్ జిల్లా చొప్పదండి ప్రాథమిక వ్యవసాయ సహకార సంఘం పప్పు పంటలు పండించే సభ్య రైతులకు క్వింటాల్‌కు ₹500 బోనస్ ఇవ్వనుంది. శనగ, పెసర, కంది పంటలకు మద్దతు ధరకు అదనంగా ఈ సీజన్ నుంచే ఇస్తుంది. నీరు ఎక్కువ కావాల్సిన వరికి బదులు ఆరుతడి పంటల వైపు రైతులను మళ్లించడమే లక్ష్యమని సంఘం కార్యదర్శి తిరుపతి రెడ్డి చెప్పారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/choppadandi-agriculture-society-to-give-rs-500-bonus-per-quintal-for-pulses-2007593",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "karimnagar",
+   "loc": "చొప్పదండి",
+   "pts": [
+    "రైతులు పేరు, వేసే పంట వివరాలు సంఘంలో నమోదు చేసుకోవాలి",
+    "నాబార్డ్ ఇచ్చిన ₹30 లక్షలతో పప్పు మిల్లు పెట్టాలని నిర్ణయం",
+    "2024-25లో సంఘానికి ₹3.40 కోట్ల లాభం"
+   ],
+   "why": "వానలు తక్కువగా ఉన్న ఈ ఏడాది పప్పు పంటలు వేసే రైతులకు అదనపు ఆదాయం వస్తుంది.",
+   "pub": "2026-11-24T21:43+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Karimnagar · Farming",
+    "stat": "₹500 a quintal",
+    "statl": "pulses bonus",
+    "loc": "Choppadandi",
+    "h": "Choppadandi society: ₹500 bonus for pulses",
+    "p": "The Primary Agricultural Cooperative Society at Choppadandi in Karimnagar district will pay its member farmers a bonus of ₹500 per quintal for pulses. It applies to bengal gram, green gram and red gram, over and above the support price, from this season. Society secretary Thirupathi Reddy said the aim is to move farmers from water-hungry paddy to irrigated dry crops.",
+    "pts": [
+     "Farmers must register their name and crop with the society",
+     "Dal mill planned with ₹30 lakh sanctioned by NABARD",
+     "The society made a profit of ₹3.40 crore in 2024-25"
+    ],
+    "why": "Farmers who grow pulses in this low-rain year get extra income."
+   },
+   "hi": {
+    "cat": "करीमनगर · खेती",
+    "stat": "₹500 प्रति क्विंटल",
+    "statl": "दाल बोनस",
+    "loc": "चोप्पदंडी",
+    "h": "चोप्पदंडी समिति: दालों पर ₹500 बोनस",
+    "p": "करीमनगर ज़िले की चोप्पदंडी प्राथमिक कृषि सहकारी समिति अपने सदस्य किसानों को दलहन पर ₹500 प्रति क्विंटल बोनस देगी। यह चना, मूंग और अरहर पर समर्थन मूल्य के अलावा इसी सीज़न से मिलेगा। समिति के सचिव तिरुपति रेड्डी ने कहा कि मकसद किसानों को ज़्यादा पानी वाली धान की जगह कम पानी वाली फसलों की ओर ले जाना है।",
+    "pts": [
+     "किसानों को नाम और फसल का ब्योरा समिति में दर्ज कराना होगा",
+     "नाबार्ड से मंज़ूर ₹30 लाख से दाल मिल लगाने का फैसला",
+     "2024-25 में समिति को ₹3.40 करोड़ का मुनाफा"
+    ],
+    "why": "कम बारिश वाले इस साल दलहन उगाने वाले किसानों को अतिरिक्त आमदनी मिलेगी।"
+   },
+   "d": "25.11.2026",
+   "t": "06:05"
+  },
+  {
+   "cat": "ఆదిలాబాద్ · పర్యాటకం",
+   "col": "--c-city",
+   "pic": "d/adilabad",
+   "stat": "గిరి ఉత్సవాలు",
+   "statl": "డిసెంబర్ చివరి వారంలో",
+   "h": "ఉట్నూర్ కోటలో డిసెంబర్‌లో గిరి ఉత్సవాలు",
+   "p": "ఆదిలాబాద్ జిల్లా ఉట్నూర్‌లోని గోండు రాజుల కోటలో డిసెంబర్ చివరి వారంలో రెండు రోజుల పాటు గిరి ఉత్సవాలు జరగనున్నాయి. ఉట్నూర్ ఐటీడీఏ వీటిని నిర్వహిస్తుంది. తొమ్మిది గిరిజన తెగలు పాల్గొని తమ జీవన విధానం, పెళ్లిళ్లు, పండుగలు, వేషధారణను ప్రదర్శిస్తాయి. ఆదివాసీ సంస్కృతిని కాపాడుతూ పర్యాటకాన్ని పెంచడమే లక్ష్యమని ఐటీడీఏ ప్రాజెక్టు అధికారి చెప్పారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/two-day-giri-ustavalu-at-gond-kings-fort-in-utnoor-to-promote-tourism-2007608",
+   "sec": [
+    "telangana",
+    "culture"
+   ],
+   "st": "TG",
+   "place": "adilabad",
+   "loc": "ఉట్నూర్",
+   "pts": [
+    "కోట బాగు పనులు, మ్యూజియం, పిల్లల పార్కు పనులు చివరి దశలో",
+    "గోపాల్ చెరువులో బోటింగ్ మొదలుపెట్టే ఆలోచన",
+    "స్థానిక యువతకు ఉపాధి దొరుకుతుందని అధికారుల అంచనా"
+   ],
+   "why": "ఉట్నూర్ ప్రాంతానికి పర్యాటకులు పెరిగితే స్థానికులకు ఉపాధి అవకాశాలు వస్తాయి.",
+   "next": "గిరి ఉత్సవాలు డిసెంబర్ చివరి వారంలో జరుగుతాయి",
+   "pub": "2026-11-24T22:12+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Adilabad · Tourism",
+    "stat": "Giri Utsavalu",
+    "statl": "in last week of December",
+    "loc": "Utnoor",
+    "h": "Giri Utsavalu at Utnoor Gond fort in December",
+    "p": "A two-day Giri Utsavalu festival will be held in the last week of December at the Gond kings' fort in Utnoor, Adilabad district. ITDA Utnoor will organise it. Nine tribal groups will take part and present their way of life, weddings, festivals and dress. The ITDA project officer said the aim is to protect Adivasi culture and promote tourism.",
+    "pts": [
+     "Fort restoration, museum and children's park works are nearly done",
+     "Boating is planned at Gopal Tank",
+     "Officials expect jobs for local youth"
+    ],
+    "why": "More visitors to Utnoor can bring work for local people.",
+    "next": "The festival is to be held in the last week of December"
+   },
+   "hi": {
+    "cat": "आदिलाबाद · पर्यटन",
+    "stat": "गिरि उत्सव",
+    "statl": "दिसंबर के आख़िरी हफ्ते में",
+    "loc": "उटनूर",
+    "h": "उटनूर के गोंड किले में दिसंबर में गिरि उत्सव",
+    "p": "आदिलाबाद ज़िले के उटनूर में गोंड राजाओं के किले में दिसंबर के आख़िरी हफ्ते में दो दिन का गिरि उत्सव होगा। इसका आयोजन आईटीडीए उटनूर करेगा। नौ जनजातीय समूह हिस्सा लेकर अपनी जीवनशैली, विवाह, त्योहार और पहनावा दिखाएंगे। आईटीडीए के परियोजना अधिकारी ने कहा कि मकसद आदिवासी संस्कृति को बचाना और पर्यटन बढ़ाना है।",
+    "pts": [
+     "किले की मरम्मत, संग्रहालय और बच्चों के पार्क का काम लगभग पूरा",
+     "गोपाल तालाब में बोटिंग शुरू करने की योजना",
+     "अधिकारियों को स्थानीय युवाओं के लिए रोज़गार की उम्मीद"
+    ],
+    "why": "उटनूर में पर्यटक बढ़ने से स्थानीय लोगों को काम मिल सकता है।",
+    "next": "उत्सव दिसंबर के आख़िरी हफ्ते में होगा"
+   },
+   "d": "25.11.2026",
+   "t": "06:05"
+  },
+  {
+   "cat": "ములుగు · భద్రత",
+   "col": "--c-gov",
+   "pic": "logo",
+   "stat": "మందుపాతరల ముప్పు",
+   "statl": "కర్రెగుట్టల్లో",
+   "h": "కర్రెగుట్టల్లోకి పర్యాటకులను రానివ్వరు",
+   "p": "ములుగు జిల్లా కర్రెగుట్టల్లో మందుపాతరలు ఇంకా ఉండొచ్చన్న అనుమానంతో అక్కడ పర్యాటక అభివృద్ధి ప్రణాళిక ఆలస్యమవుతోంది. మందుపాతరలన్నీ గుర్తించి తీసేసే వరకు పర్యాటకులను అనుమతించబోమని డీజీపీ సీవీ ఆనంద్ సోమవారం హైదరాబాద్‌లో చెప్పారు. ఈ ప్రాంతంలో ఇప్పటివరకు తొమ్మిది ఆయుధ డంపులు బయటపడ్డాయని ఆయన తెలిపారు. భద్రతా బలగాలు గాలింపు కొనసాగిస్తున్నాయి.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/risk-of-landmines-holds-up-tourism-in-karreguttalu-hills-2007591",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "mulugu",
+   "loc": "కర్రెగుట్టలు",
+   "pts": [
+    "తెలంగాణ–ఛత్తీస్‌గఢ్ సరిహద్దులో సుమారు 800 చదరపు కిలోమీటర్ల మేర గుట్టలు",
+    "వెదురు కోసం వెళ్లిన ఇద్దరు గిరిజనులు పేలుళ్లలో మృతి",
+    "మురుమూరు, పాములూరు బేస్ క్యాంపులు కొనసాగుతున్నాయి"
+   ],
+   "why": "గుట్టలపై ఆధారపడి బతికే గిరిజనులు, పర్యాటకులు ఇంకా కొంతకాలం అక్కడికి వెళ్లలేరు.",
+   "pub": "2026-11-24T21:42+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Mulugu · Security",
+    "stat": "Landmine risk",
+    "statl": "in Karreguttalu hills",
+    "loc": "Karreguttalu",
+    "h": "No tourists in Karreguttalu hills for now",
+    "p": "The plan to develop the Karreguttalu hills in Mulugu district for tourism is delayed because landmines are suspected to remain there. DGP C.V. Anand said in Hyderabad on Monday that tourists will not be allowed until all mines are found and removed. He said nine dumps have been unearthed in the area so far. Security forces are continuing their search.",
+    "pts": [
+     "The hills cover about 800 sq km on the Telangana–Chhattisgarh border",
+     "Two tribal residents who went for bamboo died in blasts",
+     "Base camps at Murumuru and Pamunuru remain in place"
+    ],
+    "why": "Tribal families who depend on the hills, and tourists, must stay away for some more time."
+   },
+   "hi": {
+    "cat": "मुलुगु · सुरक्षा",
+    "stat": "बारूदी सुरंग का खतरा",
+    "statl": "कर्रेगुट्टा पहाड़ियों में",
+    "loc": "कर्रेगुट्टा",
+    "h": "कर्रेगुट्टा में अभी पर्यटक नहीं: डीजीपी",
+    "p": "मुलुगु ज़िले की कर्रेगुट्टा पहाड़ियों में बारूदी सुरंगें बची होने के शक के कारण वहां पर्यटन विकास की योजना में देरी हो रही है। डीजीपी सी.वी. आनंद ने सोमवार को हैदराबाद में कहा कि सभी सुरंगें खोजकर हटाने तक पर्यटकों को अनुमति नहीं दी जाएगी। उन्होंने बताया कि इलाके में अब तक नौ डंप मिले हैं। सुरक्षा बल तलाशी जारी रखे हुए हैं।",
+    "pts": [
+     "पहाड़ियां तेलंगाना–छत्तीसगढ़ सीमा पर करीब 800 वर्ग किमी में फैली हैं",
+     "बांस लेने गए दो आदिवासियों की धमाकों में मौत",
+     "मुरुमुरु और पामुनूरु के बेस कैंप जारी हैं"
+    ],
+    "why": "पहाड़ियों पर निर्भर आदिवासी परिवार और पर्यटक कुछ और समय वहां नहीं जा सकेंगे।"
+   },
+   "d": "25.11.2026",
+   "t": "06:05"
+  },
+  {
+   "cat": "ఏపీ · పరిశ్రమలు",
+   "col": "--c-money",
+   "pic": "e/industrial-production",
+   "stat": "₹1,622 కోట్లు",
+   "statl": "పానీయాల ప్లాంట్",
+   "h": "ఓర్వకల్లు రిలయన్స్ ప్లాంట్ మొదలు",
+   "p": "కర్నూలు జిల్లా ఓర్వకల్లులో రిలయన్స్ కన్స్యూమర్ ప్రొడక్ట్స్ కొత్త పానీయాల ప్లాంట్‌లో ఉత్పత్తి మొదలైంది. ₹1,622 కోట్లతో కట్టిన ఈ ప్లాంట్‌లో ప్యాకేజ్డ్ తాగునీరు, కాంపా కోలా, పండ్ల రసాలు తయారవుతాయి. దీని ద్వారా సుమారు 1,200 మందికి నేరుగా ఉద్యోగాలు వస్తాయని అధికారులు చెప్పారు. ఈ తరహాలో ఆసియాలోనే పెద్ద ప్లాంట్ ఇదేనని కథనం.",
+   "src": "Telangana Tribune",
+   "url": "https://www.telanganatribune.com/reliance-takes-on-rivals-in-mineral-water-with-%E2%82%B91622-crore-orvakal-plant/",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "AP",
+   "place": "ap-kurnool",
+   "loc": "ఓర్వకల్లు",
+   "pts": [
+    "గత ఏడాది నవంబర్‌లో శంకుస్థాపన, సుమారు 12 నెలల్లో నిర్మాణం",
+    "లాజిస్టిక్స్, ప్యాకేజింగ్‌లో మరిన్ని ఉపాధి అవకాశాలు"
+   ],
+   "why": "రాయలసీమ యువతకు స్థానికంగా ఉద్యోగ అవకాశాలు పెరుగుతాయి.",
+   "pub": "2026-11-24T22:59+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Industry",
+    "stat": "₹1,622 crore",
+    "statl": "beverage plant investment",
+    "loc": "Orvakal, Kurnool",
+    "h": "Reliance starts output at Orvakal plant",
+    "p": "Reliance Consumer Products has started production at its new beverage plant in Orvakal, Kurnool district. Built at a cost of ₹1,622 crore, the plant makes packaged drinking water, Campa Cola and fruit juices. Officials said it will create about 1,200 direct jobs.",
+    "pts": [
+     "Foundation laid in November last year, built in about 12 months",
+     "More jobs expected in logistics and packaging"
+    ],
+    "why": "It brings local job opportunities for youth in Rayalaseema."
+   },
+   "hi": {
+    "cat": "आंध्र · उद्योग",
+    "stat": "₹1,622 करोड़",
+    "statl": "ओर्वकल प्लांट में निवेश",
+    "loc": "ओर्वकल, कुरनूल",
+    "h": "ओर्वकल प्लांट में रिलायंस का उत्पादन शुरू",
+    "p": "रिलायंस कंज़्यूमर प्रोडक्ट्स ने कुरनूल ज़िले के ओर्वकल में अपने नए पेय प्लांट में उत्पादन शुरू कर दिया है। ₹1,622 करोड़ से बने इस प्लांट में पैकेज्ड पेयजल, कैंपा कोला और फलों के रस बनेंगे। अधिकारियों के अनुसार इससे करीब 1,200 लोगों को सीधा रोज़गार मिलेगा।",
+    "pts": [
+     "पिछले साल नवंबर में शिलान्यास, करीब 12 महीने में निर्माण",
+     "लॉजिस्टिक्स और पैकेजिंग में और रोज़गार की उम्मीद"
+    ],
+    "why": "इससे रायलसीमा के युवाओं को स्थानीय रोज़गार मिलेगा।"
+   },
+   "d": "25.11.2026",
+   "t": "05:35"
+  },
+  {
+   "cat": "తెలంగాణ · కోర్టు",
+   "col": "--c-gov",
+   "pic": "e/court-hearing",
+   "stat": "హైకోర్టు ఆదేశం",
+   "statl": "పోస్టులు తీసేయాలని",
+   "h": "బొత్స అనూషపై పోస్టులు తీసేయండి: హైకోర్టు",
+   "p": "వైఎస్సార్‌సీపీ నేత బొత్స అనూషపై ఆన్‌లైన్‌లో పెట్టిన అవమానకర వీడియోలు, పోస్టుల విషయంలో తెలంగాణ హైకోర్టు ఆదేశాలు ఇచ్చింది. ఆమె ఫిర్యాదు చేసినప్పుడు యూట్యూబ్, మెటా సంస్థలు ఆ కంటెంట్‌ను పరిశీలించి చట్ట ప్రకారం తొలగించేలా సైబరాబాద్ సైబర్ క్రైమ్ ఎస్‌హెచ్‌ఓ చూడాలని జస్టిస్ తంగిరాల మాధవీదేవి ఆదేశించారు. ఈ పిటిషన్‌ను కోర్టు ముగించింది.",
+   "src": "Live Law",
+   "url": "https://www.livelaw.in/high-court/telangana-high-court/telangana-high-court-directs-takedown-defamatory-content-ysrcp-leader-botcha-anusha-559826",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pts": [
+    "గుర్తించిన 33 పోస్టుల్లో 31 తొలగించామని పోలీసులు చెప్పారు",
+    "నవంబర్ 12న ఆమె ఫిర్యాదుపై కేసు నమోదు",
+    "ఆమె భీమునిపట్నం వైఎస్సార్‌సీపీ ఇన్‌చార్జ్"
+   ],
+   "why": "సోషల్ మీడియాలో అవమానకర పోస్టులపై ఫిర్యాదు చేసే వారికి ఈ ఆదేశం దారి చూపుతుంది.",
+   "pub": "2026-11-24T21:35+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Court",
+    "stat": "Botcha Anusha",
+    "statl": "HC order on removing posts",
+    "loc": "Hyderabad",
+    "h": "HC orders removal of posts on Botcha Anusha",
+    "p": "The Telangana High Court passed orders on defamatory videos and posts online against YSRCP leader Botcha Anusha. Justice Tangirala Madhavi Devi directed the Cyberabad Cyber Crime SHO to ensure YouTube and Meta verify such content and remove it as per law whenever she complains.",
+    "pts": [
+     "Police said 31 of 33 identified posts were removed",
+     "Case registered on her complaint on November 12",
+     "She is YSRCP in-charge for Bheemunipatnam"
+    ],
+    "why": "The order shows a route for people targeted by abusive social media posts."
+   },
+   "hi": {
+    "cat": "तेलंगाना · अदालत",
+    "stat": "बोत्सा अनूषा",
+    "statl": "पोस्ट हटाने पर हाईकोर्ट का आदेश",
+    "loc": "हैदराबाद",
+    "h": "बोत्सा अनूषा पर पोस्ट हटाने का आदेश",
+    "p": "तेलंगाना हाईकोर्ट ने वाईएसआरसीपी नेता बोत्सा अनूषा के खिलाफ ऑनलाइन डाले गए अपमानजनक वीडियो और पोस्ट पर आदेश दिया। जस्टिस तंगिराला माधवी देवी ने साइबराबाद साइबर क्राइम एसएचओ को निर्देश दिया कि उनकी शिकायत पर यूट्यूब और मेटा ऐसी सामग्री जांचकर कानून के अनुसार हटाएं।",
+    "pts": [
+     "पुलिस के अनुसार पहचानी गई 33 में से 31 पोस्ट हटाई गईं",
+     "12 नवंबर को उनकी शिकायत पर केस दर्ज",
+     "वह भीमुनिपट्नम की वाईएसआरसीपी प्रभारी हैं"
+    ],
+    "why": "यह आदेश अपमानजनक सोशल मीडिया पोस्ट से परेशान लोगों को रास्ता दिखाता है।"
+   },
+   "d": "25.11.2026",
+   "t": "05:35"
+  },
+  {
+   "cat": "హైదరాబాద్ · డ్రగ్స్",
+   "col": "--c-gov",
+   "pic": "e/government-press-briefing",
+   "stat": "నషా ముక్త్ భారత్",
+   "statl": "మూడు రోజుల నడక",
+   "h": "డ్రగ్స్‌పై ప్రజా ఉద్యమం: కిషన్ రెడ్డి",
+   "p": "డ్రగ్స్ నుంచి యువతను కాపాడటం ప్రజా ఉద్యమం కావాలని కేంద్ర మంత్రి కిషన్ రెడ్డి హైదరాబాద్‌లో అన్నారు. నషా ముక్త్ భారత్ కోసం బుధవారం నుంచి మూడు రోజుల నడక మొదలవుతుందని చెప్పారు. డ్రగ్స్ బాధితుల కోసం ఉచిత చికిత్స కేంద్రాలను 300 నుంచి 2,000కు పెంచుతామని తెలిపారు. నగర యువతలో 25 శాతం మంది మత్తుకు బానిసలయ్యారన్నారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/build-playgrounds-in-every-village-instead-of-selling-government-land-says-kishan-reddy-2007616",
+   "sec": [
+    "telangana",
+    "india"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pts": [
+    "ప్రభుత్వ భూములు అమ్మకుండా ప్రతి ఊరిలో ఆట స్థలాలు కట్టాలని సూచన",
+    "సరిహద్దుల్లో డ్రగ్స్ అక్రమ రవాణా అడ్డుకునేందుకు బలగాల బలోపేతం",
+    "సిద్దిపేట బీజేపీ పాదయాత్ర వాయిదా, కొత్త తేదీ త్వరలో"
+   ],
+   "why": "డ్రగ్స్ బారిన పడిన కుటుంబాలకు ఉచిత చికిత్స కేంద్రాలు అందుబాటులోకి వస్తాయి.",
+   "pub": "2026-11-24T22:33+05:30",
+   "lbl": "fact",
+   "next": "నషా ముక్త్ భారత్ నడక బుధవారం నుంచి శుక్రవారం వరకు",
+   "en": {
+    "cat": "Hyderabad · Drugs",
+    "stat": "Nasha Mukt Bharat",
+    "statl": "three-day walk in Hyderabad",
+    "loc": "Hyderabad",
+    "h": "Make anti-drug fight a people's movement: Kishan",
+    "p": "Union Minister Kishan Reddy said in Hyderabad that protecting youth from drugs must become a people's movement. He said a three-day walk for Nasha Mukt Bharat begins on Wednesday. The Centre will raise free de-addiction centres from 300 to 2,000, he said.",
+    "pts": [
+     "Urged state to build village playgrounds instead of selling land",
+     "Border forces to be strengthened against drug smuggling",
+     "BJP's Siddipet padayatra postponed, new date soon"
+    ],
+    "why": "Families hit by drug addiction will get access to free treatment centres.",
+    "next": "Nasha Mukt Bharat walk runs Wednesday to Friday"
+   },
+   "hi": {
+    "cat": "हैदराबाद · नशा",
+    "stat": "नशा मुक्त भारत",
+    "statl": "हैदराबाद में तीन दिन की पदयात्रा",
+    "loc": "हैदराबाद",
+    "h": "नशे के खिलाफ जन आंदोलन ज़रूरी: किशन रेड्डी",
+    "p": "केंद्रीय मंत्री किशन रेड्डी ने हैदराबाद में कहा कि युवाओं को नशे से बचाना जन आंदोलन बनना चाहिए। उन्होंने बताया कि नशा मुक्त भारत के लिए बुधवार से तीन दिन की पदयात्रा शुरू होगी। केंद्र मुफ्त नशा मुक्ति केंद्र 300 से बढ़ाकर 2,000 करेगा।",
+    "pts": [
+     "सरकारी ज़मीन बेचने के बजाय गांवों में खेल मैदान बनाने की अपील",
+     "नशा तस्करी रोकने के लिए सीमा बलों को मज़बूत किया जाएगा",
+     "सिद्दीपेट में भाजपा पदयात्रा स्थगित, नई तारीख जल्द"
+    ],
+    "why": "नशे से प्रभावित परिवारों को मुफ्त इलाज केंद्र मिलेंगे।",
+    "next": "नशा मुक्त भारत पदयात्रा बुधवार से शुक्रवार तक"
+   },
+   "d": "25.11.2026",
    "t": "05:35"
   }
  ]

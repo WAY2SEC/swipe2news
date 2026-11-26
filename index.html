@@ -1484,7 +1484,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
       <button class="sqopen" id="sqOpen1" type="button"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span>వార్తలు, జాబ్స్ వెతకండి · Search</span></button>
       <a class="trustlnk" href="/trust.html"><span>🛡️</span><b>ట్రస్ట్ సెంటర్ · Trust centre</b><small>మూలాలు, లేబుల్స్, దిద్దుబాట్లు, ఫిర్యాదులు</small></a>
       <a class="trustlnk" href="#" onclick="event.preventDefault();openContact()"><span>📞</span><b>సంప్రదించండి · Contact us</b><small>swipe2news@gmail.com · +91 70326 56422</small></a>
-      <img class="wgreet" src="promo/diwali-2026.jpg" alt="Swipe2News – దీపావళి శుభాకాంక్షలు" hidden data-until="2026-11-09T15:00:00+05:30">
+      <img class="wgreet" data-src="promo/diwali-2026.jpg" alt="Swipe2News – దీపావళి శుభాకాంక్షలు" hidden data-until="2026-11-09T15:00:00+05:30">
       <h2>భాష · Language</h2>
       <div class="grid three" id="langs" role="radiogroup" aria-label="భాష"></div>
       <h2>మీ రాష్ట్రం · Your state</h2>
@@ -2162,7 +2162,7 @@ function locHTML(s,i){ const l=LG();
     hi:['आपके इलाके में क्या हो रहा है?','स्थानीय खबरों के लिए अपना ज़िला चुनें।','मेरा इलाका चुनें','मेरी लोकेशन इस्तेमाल करें','लोकेशन आपके फ़ोन में ही रहती है','अगली खबर']}[l]||[];
   const sub={te:['What’s happening in your area?','Choose a district to see local stories.','Choose my area','Use my current location'],en:[],hi:[]}[l]||[];
   return `<article class="story s2n locq" aria-label="${esc(T[0])}">
-  <div class="lqb"><img src="promo/location-banner.jpg" alt="" draggable="false"></div>
+  <div class="lqb"><img loading="lazy" src="promo/location-banner.jpg" alt="" draggable="false"></div>
   <div class="lqt"><h2>${esc(T[0])}</h2>${sub[0]?`<p class="lqe">${esc(sub[0])}</p>`:''}
    <p class="lqd">${esc(T[1])}${sub[1]?`<br><span>${esc(sub[1])}</span>`:''}</p>
    <button class="lqa" type="button" data-loc="pick"><b><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3z"/><path d="M9 3v15M15 6v15"/></svg>${esc(T[2])}</b>${sub[2]?`<small>${esc(sub[2])}</small>`:''}</button>
@@ -2266,7 +2266,7 @@ function withPromos(list){ list=withLocAsk(withHouse(withDaily(withMetals(withWx
 }
 function promoHTML(s,i){
   if(!s.greet) return `<article class="story s2n promo2" aria-label="Swipe2News – మీ ఊరి వార్తలు ఇప్పుడే మీ చేతిలో!">
-  <div class="p2b"><img src="promo/swipe2news-promo-banner.jpg" alt="LOCAL • NATIONAL • GLOBAL – మీ ఊరి వార్తలు ఇప్పుడే మీ చేతిలో!" draggable="false"></div>
+  <div class="p2b"><img loading="lazy" src="promo/swipe2news-promo-banner.jpg" alt="LOCAL • NATIONAL • GLOBAL – మీ ఊరి వార్తలు ఇప్పుడే మీ చేతిలో!" draggable="false"></div>
   <div class="p2t"><h2>Know More<i class="kd">.</i> Scroll Less<i class="kd">.</i></h2>
    <ul><li><span><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>తెలంగాణ, ఏపీ జిల్లా వార్తలు</li>
    <li><span><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 2.6 15.4 0 18M12 3c-2.6 2.6-2.6 15.4 0 18"/></svg></span>దేశం, ప్రపంచ ముఖ్య వార్తలు</li>
@@ -2377,7 +2377,7 @@ function cardHTML(s,i){
   const read = /^https?:\/\//.test(s.url||'') ? `<a class="read" href="${esc(s.url)}" target="_blank" rel="noopener">${U('full')}</a>` : '';
   return `<article class="story s2n${ph?' hasph':''}${(()=>{const a=!storyPhoto(s)&&artPlan(s);return a&&a.m==='plain'&&!a.obj?' numled':''})()}" aria-label="${U('news')} ${i+1}" style="--hl:#4A0E3F;--hl-ink:#4A0E3F">
   <div class="panel bnr">
-    ${sceneSVG(s,'scene')}${Array.isArray(s.imgs)&&s.imgs.length>1?`<div class="gal" data-n="${s.imgs.length}">${s.imgs.filter(u=>/^photos\/[\w.-]+\.(jpe?g|png|webp)$/.test(u)).map((u,k)=>`<img src="/${esc(u)}" alt="" class="${k?'':'on'}" draggable="false">`).join('')}<div class="gdots">${s.imgs.map((u,k)=>`<i class="${k?'':'on'}"></i>`).join('')}</div><span class="gcnt">1/${s.imgs.length}</span></div>`:''}${/^videos\/[\w.-]+\.mp4$/.test(s.vid||'')?`<button class="vplay" type="button" data-vid="${esc(s.vid)}" aria-label="వీడియో చూడండి"><svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#fff"/></svg><span>వీడియో చూడండి</span></button>`:''}
+    ${sceneSVG(s,'scene')}${Array.isArray(s.imgs)&&s.imgs.length>1?`<div class="gal" data-n="${s.imgs.length}">${s.imgs.filter(u=>/^photos\/[\w.-]+\.(jpe?g|png|webp)$/.test(u)).map((u,k)=>`<img src="/${esc(u)}" alt="" class="${k?'':'on'}" draggable="false"${k?' loading="lazy" fetchpriority="low" decoding="async"':''}>`).join('')}<div class="gdots">${s.imgs.map((u,k)=>`<i class="${k?'':'on'}"></i>`).join('')}</div><span class="gcnt">1/${s.imgs.length}</span></div>`:''}${/^videos\/[\w.-]+\.mp4$/.test(s.vid||'')?`<button class="vplay" type="button" data-vid="${esc(s.vid)}" aria-label="వీడియో చూడండి"><svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#fff"/></svg><span>వీడియో చూడండి</span></button>`:''}
     <div class="ptop"><span class="bchip">${s.brk?'🔴 BREAKING · ':''}${esc(s.cat||U('news'))}</span></div>
     ${storyPhoto(s)&&s.imgcr?`<div class="pcr">📷 ${esc(({te:'ఫోటో',en:'Photo',hi:'फ़ोटो'})[LG()]||'ఫోటో')}: <b>${esc(s.imgcr)}</b></div>`:''}
     <div class="bkw${statRev(s)?' rev':''}">${statRev(s)?`<div class="statl">${esc(s.statl)}</div><div class="stat">${esc(statTx(s))}</div>`:`<div class="stat">${esc(statTx(s))}</div><div class="statl">${esc(s.statl)}</div>`}${!storyPhoto(s)&&artPlan(s)&&artPlan(s).m!=='logo'&&!/^e\/(logo|photo)-/.test(artPlan(s).bg||'')&&!(artPlan(s).m==='plain'&&!artPlan(s).obj)?`<div class="adisc">${esc(ART_DISC[LG()]||ART_DISC.te)}</div>`:''}</div>
@@ -4069,6 +4069,9 @@ async function load(){
       if(!r.ok) throw new Error(r.status); j = await r.json(); } finally { clearTimeout(tm); }
     NEWS = j; load.retry=0; store.set('news', NEWS); offlineUI(); setTimeout(warmOffline,25000); // well after the feed is drawn and the first pictures are in (owner 21 Nov: app must open fast)
     BASE = NEWS.stories.slice();
+    /* owner 26 Nov 2026 "photos loading very slow": show the cards as soon as news.json is in, and fetch the extras
+       (today's full archive ~600 KB, jobs, wishes) a little later so they don't compete with the first card pictures */
+    if(!load.shown){ renderTabs(); renderFeed(); load.shown=1; await new Promise(r=>setTimeout(r,2500)); }
     // add the rest of today's stories (news.json holds only the newest 50); never wait more than 8 s for these
     await timeout(Promise.all([loadWishes(), loadJobs(), (async()=>{ await loadDates(); if(DATES[0]) await fetchDay(DATES[0].iso); })()]), 8000);
     mergeAll();
@@ -4079,8 +4082,9 @@ async function load(){
     if(NEWS.stories.length) toast('ఆఫ్‌లైన్ – సేవ్ చేసిన వార్తలు చూపిస్తున్నాం');
     else toast('నెట్‌వర్క్ నెమ్మదిగా ఉంది – కొద్దిసేపట్లో మళ్లీ ప్రయత్నించండి');
   }
+  const keep2 = keep || (load.shown && LIST && LIST[cur] && cur>0 ? keyOf(LIST[cur]) : null);
   load.shown=1;
-  renderTabs(); renderFeed(keep||undefined);
+  renderTabs(); renderFeed(keep2||undefined);
   const q=new URLSearchParams(location.search), qd=q.get('d'), qs=q.get('s');
   if(qd && /^\d{4}-\d\d-\d\d$/.test(qd) && !load.done){ load.done=1; await showDay(qd, qs); }
   else if(q.has('contact') && !load.done){ load.done=1; setTimeout(openContact,300); }
@@ -4228,7 +4232,7 @@ function alertInvite(){
 }
 setTimeout(alertInvite, 60000);
 </script>
-<script>try{document.querySelectorAll('img.wgreet').forEach(function(i){if(Date.now()<new Date(i.dataset.until).getTime())i.hidden=false})}catch(e){}</script>
+<script>try{document.querySelectorAll('img.wgreet').forEach(function(i){if(Date.now()<new Date(i.dataset.until).getTime()){i.src=i.dataset.src;i.hidden=false}})}catch(e){}</script>
 <script>
 /* keep the app exactly inside the visible screen (between the status bar and the home bar) and stop iPhone page bounce */
 (function(){

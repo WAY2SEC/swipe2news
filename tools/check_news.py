@@ -146,8 +146,26 @@ def trim_feed(d, root):
         if s.get('kind'):
             keep.append(s); continue
         n += 1
-        if n <= KEEP_NEWEST or not in_archive(s):
-            keep.append(s)
+        if n <= KEEP_NEWEST:
+            keep.append(s); continue
+        if not in_archive(s):
+            # 26 Nov 2026: 90+ old stories (headline edited after archiving) kept news.json at 680 KB and made the app slow.
+            # Older than the newest 60 and missing from its day's archive -> add it to that archive, then drop it here.
+            day = str(s.get('pub') or '')[:10]
+            if not re.match(r'\d{4}-\d\d-\d\d$', day):
+                keep.append(s); continue
+            fp = os.path.join(root, 'archive', day + '.json')
+            try:
+                a = json.load(open(fp, encoding='utf-8'))
+            except Exception:
+                a = {'date': day, 'stories': []}
+            AL = a['stories'] if isinstance(a, dict) else a
+            same = [i for i, x in enumerate(AL) if s.get('url') and x.get('url') == s.get('url')]
+            if same: AL[same[0]] = s   # newer (edited) version of a story already archived
+            else: AL.append(s)
+            if isinstance(a, dict) and 'count' in a: a['count'] = len(AL)
+            json.dump(a, open(fp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+            arch.setdefault(day, set()).add(s.get('h'))
     gone = len(L) - len(keep)
     if not gone:
         return []
