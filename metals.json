@@ -1,62 +1,60 @@
 {
- "updated": "2026-11-25T16:43:53+05:30",
- "src": "GoodReturns · MCX via Dhan",
+ "updated": "2026-11-26T10:44:42+05:30",
+ "src": "The Hans India · BankBazaar · MCX via 5paisa",
  "cities": [
   {
    "city": "Hyderabad",
-   "g24": 124580,
-   "g22": 114200,
-   "silver": 165000,
-   "date": "2026-11-25",
-   "url": "https://www.goodreturns.in/gold-rates/",
-   "surl": "https://www.goodreturns.in/silver-rates/"
+   "g24": null,
+   "g22": null,
+   "silver": 180000,
+   "date": "2026-11-26",
+   "url": "https://www.bankbazaar.com/gold-rate-hyderabad.html",
+   "surl": "https://www.bankbazaar.com/silver-rate-hyderabad.html"
   },
   {
    "city": "Mumbai",
-   "g24": 124580,
-   "g22": 114200,
-   "silver": 165000,
-   "date": "2026-11-25",
-   "url": "https://www.goodreturns.in/gold-rates/",
-   "surl": "https://www.goodreturns.in/silver-rates/"
+   "g24": 125890,
+   "g22": 115400,
+   "silver": 180000,
+   "date": "2026-11-26",
+   "url": "https://www.thehansindia.com/business/gold-and-silver-rates-surges-today-26-nov-2026-in-delhi-mumbai-check-gold-prices-of-18k-22k-24k-1145925",
+   "surl": "https://www.bankbazaar.com/silver-rate-mumbai.html"
   },
   {
    "city": "Chennai",
-   "g24": 124580,
-   "g22": 114200,
-   "silver": 165000,
-   "date": "2026-11-25",
-   "url": "https://www.goodreturns.in/gold-rates/",
-   "surl": "https://www.goodreturns.in/silver-rates/"
+   "g24": null,
+   "g22": null,
+   "silver": 180000,
+   "date": "2026-11-26",
+   "url": "https://www.bankbazaar.com/gold-rate-chennai.html",
+   "surl": "https://www.bankbazaar.com/silver-rate-chennai.html"
   },
   {
    "city": "Delhi",
-   "g24": null,
-   "g22": null,
-   "silver": 165000,
-   "date": "2026-11-25",
-   "url": "https://www.goodreturns.in/gold-rates/",
-   "surl": "https://www.goodreturns.in/silver-rates/"
+   "g24": 126040,
+   "g22": 115500,
+   "silver": 180000,
+   "date": "2026-11-26",
+   "url": "https://www.thehansindia.com/business/gold-and-silver-rates-surges-today-26-nov-2026-in-delhi-mumbai-check-gold-prices-of-18k-22k-24k-1145925",
+   "surl": "https://www.bankbazaar.com/silver-rate-delhi.html"
   }
  ],
  "copper": {
-  "price": 1116.95,
-  "date": "2026-11-25",
-  "url": "https://dhan.co/commodity/copper-futures-summary/"
+  "price": 1127.15,
+  "date": "2026-11-26",
+  "url": "https://www.5paisa.com/commodity-trading/mcx-copper-price"
  },
  "prev": {
-  "Hyderabad|g24": 127800,
-  "Hyderabad|g22": 117150,
-  "Hyderabad|silver": 175000,
-  "Mumbai|g24": 127800,
-  "Mumbai|g22": 117150,
-  "Mumbai|silver": 175000,
-  "Chennai|g24": 127800,
-  "Chennai|g22": 117150,
-  "Chennai|silver": 175000,
-  "Delhi|g24": 127900,
-  "Delhi|g22": 117300,
-  "Delhi|silver": 175000,
-  "copper": 1192.15
+  "Hyderabad|g24": 124580,
+  "Hyderabad|g22": 114200,
+  "Hyderabad|silver": 165000,
+  "Mumbai|g24": 124580,
+  "Mumbai|g22": 114200,
+  "Mumbai|silver": 165000,
+  "Chennai|g24": 124580,
+  "Chennai|g22": 114200,
+  "Chennai|silver": 165000,
+  "Delhi|silver": 165000,
+  "copper": 1116.95
  }
 }
