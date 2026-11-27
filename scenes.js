@@ -690,6 +690,8 @@ const ART_PEOPLE=[
   ['e/photo-kavitha',/కల్వకుంట్ల\s?కవిత|కవిత(?=[\s:,!?'"‘’.]|$)|Kalvakuntla\s?Kavitha|\bK\.?\s?Kavitha\b|\bKavitha\b|कविता/i,/కవిత\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)(?![ఀ-౿])|(?:to|on|against|at|slams|attacks|targets)\s+(?:K\.?\s?)?Kavitha/i],
   ['e/photo-modi',/మోదీ|మోడీ|నరేంద్ర\s?మోదీ|\bModi\b|मोदी/i,/లలిత్\s?మోదీ|నీరవ్\s?మోదీ|Lalit\s?Modi|Nirav\s?Modi|ललित\s?मोदी|नीरव\s?मोदी|(?:మోదీ|మోడీ)\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)(?![ఀ-౿])|(?:to|on|against|at|slams|attacks|targets)\s+(?:PM\s+)?Modi/i],
   ['e/photo-rahul-gandhi',/రాహుల్\s?గాంధీ|రాహుల్|Rahul\s?Gandhi|\bRahul\b|राहुल\s?गांधी|राहुल/i,/కేఎల్\s?రాహుల్|రాహుల్\s?(?:ద్రవిడ్|సిప్లిగంజ్|రవీంద్రన్)|K\.?\s?L\.?\s?Rahul|Rahul\s?(?:Dravid|Sipligunj|Ravindran|Tripathi|Chahar)|(?:రాహుల్)(?:\s?గాంధీ)?\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)(?![ఀ-౿])|(?:to|on|against|at|slams|attacks|targets)\s+Rahul/i],
+  ['e/photo-amit-shah',/అమిత్\s?షా|Amit\s?Shah|अमित\s?शाह/i,/అమిత్\s?షా\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)(?![ఀ-౿])|(?:to|on|against|at|slams|attacks|targets)\s+Amit\s?Shah/i],
+  ['e/photo-jaishankar',/జైశంకర్|జై\s?శంకర్|Jaishankar|जयशंकर/i,/జై\s?శంకర్\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)(?![ఀ-౿])|(?:to|on|against|at|slams|attacks|targets)\s+(?:S\.?\s?)?Jaishankar/i],
   ['e/photo-kcr',/కేసీఆర్|\bKCR\b|కె\.?\s?చంద్రశేఖర్\s?రావు|K\.?\s?Chandrashekar\s?Rao|केसीआर/i,/కేసీఆర్\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు|హయాం)|(?:to|on|against|at|slams|attacks|targets)\s+KCR/i],
   ['e/photo-kishan-reddy',/కిషన్\s?రెడ్డి|Kishan\s?Reddy|किशन\s?रेड्डी/i,/కిషన్\s?రెడ్డి\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|slams|attacks|targets)\s+Kishan/i],
   ['e/photo-bandi-sanjay',/బండి\s?సంజయ్|Bandi\s?Sanjay|बंडी\s?संजय/i,/బండి\s?సంజయ్\s?(?:కు|పై|ను|ని|మీద|పట్ల|తీరు)|(?:to|on|against|at|slams|attacks|targets)\s+Bandi/i],
