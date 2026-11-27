@@ -206,6 +206,48 @@
    "url": "https://www.siasat.com/feed/",
    "region": "TG",
    "rank": 22
+  },
+  {
+   "name": "BBC World",
+   "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+   "region": "WORLD",
+   "rank": 30
+  },
+  {
+   "name": "Al Jazeera",
+   "url": "https://www.aljazeera.com/xml/rss/all.xml",
+   "region": "WORLD",
+   "rank": 30
+  },
+  {
+   "name": "The Guardian – World",
+   "url": "https://www.theguardian.com/world/rss",
+   "region": "WORLD",
+   "rank": 30
+  },
+  {
+   "name": "DW News",
+   "url": "https://rss.dw.com/rdf/rss-en-all",
+   "region": "WORLD",
+   "rank": 30
+  },
+  {
+   "name": "France 24",
+   "url": "https://www.france24.com/en/rss",
+   "region": "WORLD",
+   "rank": 30
+  },
+  {
+   "name": "UN News",
+   "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+   "region": "WORLD",
+   "rank": 30
+  },
+  {
+   "name": "NPR World",
+   "url": "https://feeds.npr.org/1004/rss.xml",
+   "region": "WORLD",
+   "rank": 30
   }
  ],
  "districts": [

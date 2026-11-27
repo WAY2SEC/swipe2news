@@ -180,6 +180,51 @@
    "name": "NCDC",
    "url": "https://ncdc.gov.ng/news/feed",
    "kind": "official"
+  },
+  {
+   "name": "BBC World",
+   "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+   "kind": "world"
+  },
+  {
+   "name": "Al Jazeera",
+   "url": "https://www.aljazeera.com/xml/rss/all.xml",
+   "kind": "world"
+  },
+  {
+   "name": "The Guardian – World",
+   "url": "https://www.theguardian.com/world/rss",
+   "kind": "world"
+  },
+  {
+   "name": "DW News",
+   "url": "https://rss.dw.com/rdf/rss-en-all",
+   "kind": "world"
+  },
+  {
+   "name": "France 24",
+   "url": "https://www.france24.com/en/rss",
+   "kind": "world"
+  },
+  {
+   "name": "UN News",
+   "url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+   "kind": "world"
+  },
+  {
+   "name": "NPR World",
+   "url": "https://feeds.npr.org/1004/rss.xml",
+   "kind": "world"
+  },
+  {
+   "name": "BBC Africa",
+   "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
+   "kind": "world"
+  },
+  {
+   "name": "Africanews",
+   "url": "https://www.africanews.com/feed/rss",
+   "kind": "world"
   }
  ],
  "gnews": [
@@ -250,6 +295,10 @@
   {
    "name": "Google News – NiMet (official)",
    "url": "https://news.google.com/rss/search?q=site:nimet.gov.ng+OR+NiMet+when:2d&hl=en-NG&gl=NG&ceid=NG:en"
+  },
+  {
+   "name": "Google News – World",
+   "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-NG&gl=NG&ceid=NG:en"
   }
  ]
 }
