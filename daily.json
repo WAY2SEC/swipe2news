@@ -1,95 +1,99 @@
 {
- "updated": "2026-11-27T05:40:00+05:30",
- "set": "morning",
+ "updated": "2026-11-27T17:35:00+05:30",
+ "set": "evening",
  "items": [
   {
    "kind": "quote",
    "date": "2026-11-27",
-   "id": "gandhi-court-of-conscience",
-   "text": "న్యాయస్థానాల కంటే ఉన్నతమైన న్యాయస్థానం ఒకటి ఉంది. అదే మనస్సాక్షి అనే న్యాయస్థానం.",
-   "by": "మహాత్మా గాంధీ",
-   "ctx": "ఎవరూ చూడకపోయినా, మన లోపలి మనస్సాక్షి చెప్పే మాటే అసలైన తీర్పు.",
-   "do": "ఈ రోజు ఏ పని చేసే ముందైనా ఒక్క క్షణం ఆగి, ఇది సరైనదేనా అని మనసును అడగండి.",
-   "hl": "మనస్సాక్షి",
-   "src": "Young India, 15 December 1921 — via Wikiquote (Wikiwand)",
-   "url2": "https://www.wikiwand.com/en/quotes/Mahatma_Gandhi",
+   "id": "aurobindo-aim-great-means-small",
+   "text": "నీ లక్ష్యం గొప్పది, నీ దగ్గర ఉన్న సాధనాలు తక్కువ అయినా సరే, పని చేస్తూనే ఉండు; పని చేయడం వల్లే అవి పెరుగుతాయి.",
+   "by": "శ్రీ అరవిందులు",
+   "ctx": "సాధనాలు సరిపోలేదని ఆగిపోవద్దు; పని మొదలుపెడితేనే బలం, అవకాశాలు పెరుగుతాయి.",
+   "do": "చాలా రోజులుగా వాయిదా వేస్తున్న ఒక చిన్న పనిని ఈ రోజే మొదలుపెట్టండి.",
+   "hl": "పని చేస్తూనే ఉండు",
+   "src": "Thoughts and Aphorisms (1913), Karma — via Wikiquote (Wikiwand)",
+   "url2": "https://www.wikiwand.com/en/quotes/Sri_Aurobindo",
    "en": {
-    "text": "There is a higher court than courts of justice and that is the court of conscience.",
-    "by": "Mahatma Gandhi",
-    "ctx": "Even when no one is watching, the voice of our conscience gives the true verdict.",
-    "do": "Before any task today, pause a moment and ask yourself whether it is right.",
-    "hl": "conscience"
+    "text": "If thy aim be great and thy means small, still act; for by action alone these can increase to thee.",
+    "by": "Sri Aurobindo",
+    "ctx": "Don't stop because your means seem too small; only by acting do strength and chances grow.",
+    "do": "Start today one small task you have been putting off for a long time.",
+    "hl": "still act"
    },
    "hi": {
-    "text": "न्यायालयों से भी ऊँचा एक न्यायालय है, और वह है अंतरात्मा का न्यायालय।",
-    "by": "महात्मा गांधी",
-    "ctx": "कोई देखे या न देखे, हमारी अंतरात्मा की आवाज़ ही सच्चा फ़ैसला देती है।",
-    "do": "आज कोई भी काम करने से पहले एक पल रुककर मन से पूछें कि क्या यह सही है।",
-    "hl": "अंतरात्मा"
+    "text": "यदि तुम्हारा लक्ष्य बड़ा है और साधन छोटे, तब भी कर्म करो; क्योंकि कर्म से ही ये साधन बढ़ेंगे।",
+    "by": "श्री अरविंद",
+    "ctx": "साधन कम लगें तो रुको मत; काम शुरू करने से ही शक्ति और अवसर बढ़ते हैं।",
+    "do": "जो छोटा काम बहुत दिनों से टाल रहे हैं, उसे आज ही शुरू करें।",
+    "hl": "कर्म करो"
    }
   },
   {
    "kind": "tip",
    "date": "2026-11-27",
-   "id": "atal-pension-yojana-basics",
-   "title": "అటల్ పెన్షన్ యోజన: వృద్ధాప్య భరోసా",
-   "text": "అటల్ పెన్షన్ యోజనలో 18 నుంచి 40 ఏళ్ల వయసు వారు చేరవచ్చు. చందాను నెలకు, మూడు నెలలకు లేదా ఆరు నెలలకు ఒకసారి కట్టవచ్చు. 60 ఏళ్లు వచ్చాక చెల్లించిన చందాను బట్టి నెలకు ₹1,000 నుంచి ₹5,000 వరకు కనీస పెన్షన్ అందుతుంది; ఈ కనీస మొత్తానికి కేంద్ర ప్రభుత్వం హామీ ఇస్తుంది.",
-   "ctx": "ఎంత త్వరగా చేరితే అంత తక్కువ చందా, కనీసం 20 ఏళ్లు కట్టాలి. వివరాలకు మీ బ్యాంక్ శాఖను అడగండి. ఇది సాధారణ అవగాహన సమాచారం మాత్రమే.",
-   "src": "Department of Financial Services, Government of India — Atal Pension Yojana",
-   "url2": "https://financialservices.gov.in/atal-pension-yojana-apy",
+   "id": "rbi-unauthorised-txn-report-3-days",
+   "title": "మోసపు లావాదేవీ: వెంటనే బ్యాంకుకు చెప్పండి",
+   "text": "మీకు తెలియకుండా ఖాతా నుంచి డబ్బు పోతే, బ్యాంకు సందేశం వచ్చిన 3 పని దినాల్లోగా ఫిర్యాదు చేయండి. పొరపాటు మీది కాకుండా బయటి వ్యక్తుల మోసమైతే, అప్పుడు మీపై ఎలాంటి నష్ట బాధ్యత ఉండదని ఆర్‌బీఐ నిబంధనలు చెబుతున్నాయి. ఫిర్యాదు అందిన 10 పని దినాల్లోగా బ్యాంకు ఆ మొత్తాన్ని ఖాతాలో జమ చేయాలి.",
+   "ctx": "ఫిర్యాదు ఆలస్యమైతే మీ బాధ్యత పెరుగుతుంది. ఓటీపీ, పిన్ మీరే ఎవరికైనా చెబితే, ఫిర్యాదు చేసే వరకు నష్టం మీదే. ఇది సాధారణ అవగాహన సమాచారం మాత్రమే.",
+   "src": "RBI — Customer Protection: Limiting Liability of Customers in Unauthorised Electronic Banking Transactions (6 July 2017)",
+   "url2": "https://rbi.org.in/commonman/English/Scripts/Notification.aspx?Id=2336",
    "en": {
-    "title": "Atal Pension Yojana: old-age security",
-    "text": "People aged 18 to 40 can join the Atal Pension Yojana. Contributions can be paid monthly, quarterly or half-yearly. From age 60, a fixed minimum pension of ₹1,000 to ₹5,000 a month is paid depending on contributions; the Central Government guarantees this minimum.",
-    "ctx": "The contribution depends on your age at joining, and you contribute for at least 20 years. Ask your bank branch for details. This is general awareness information only."
+    "title": "Fraud transaction: tell your bank at once",
+    "text": "If money leaves your account without your knowledge, complain to the bank within 3 working days of its message. If the fault is not yours but a third party's breach, RBI rules say you then have zero liability. The bank must credit the amount to your account within 10 working days of your complaint.",
+    "ctx": "The later you report, the more liability you may carry. If you share your OTP or PIN yourself, the loss is yours until you report it. This is general awareness information only."
    },
    "hi": {
-    "title": "अटल पेंशन योजना: बुढ़ापे का सहारा",
-    "text": "18 से 40 वर्ष के लोग अटल पेंशन योजना में शामिल हो सकते हैं। अंशदान मासिक, तिमाही या छमाही जमा किया जा सकता है। 60 वर्ष की आयु से अंशदान के अनुसार ₹1,000 से ₹5,000 प्रति माह की न्यूनतम पेंशन मिलती है; इस न्यूनतम राशि की गारंटी केंद्र सरकार देती है।",
-    "ctx": "अंशदान जुड़ने की उम्र पर निर्भर करता है और कम से कम 20 साल देना होता है। जानकारी के लिए अपनी बैंक शाखा से पूछें। यह केवल सामान्य जागरूकता जानकारी है।"
+    "title": "धोखाधड़ी वाला लेन-देन: तुरंत बैंक को बताएँ",
+    "text": "अगर आपकी जानकारी के बिना खाते से पैसा कट जाए, तो बैंक का संदेश मिलने के 3 कार्य दिवसों के भीतर शिकायत करें। अगर गलती आपकी नहीं बल्कि किसी बाहरी व्यक्ति की धोखाधड़ी है, तो आरबीआई के नियमों के अनुसार आपकी कोई देनदारी नहीं होती। शिकायत मिलने के 10 कार्य दिवसों में बैंक को वह राशि खाते में जमा करनी होती है।",
+    "ctx": "शिकायत में देरी होने पर आपकी देनदारी बढ़ सकती है। अगर आपने खुद ओटीपी या पिन किसी को बताया, तो शिकायत करने तक नुकसान आपका होगा। यह केवल सामान्य जागरूकता जानकारी है।"
    }
   },
   {
    "kind": "wisdom",
    "date": "2026-11-27",
-   "id": "gita-3-8-niyatam-kuru-karma",
-   "text": "నియతం కురు కర్మ త్వం\nకర్మ జ్యాయో హ్యకర్మణః ।\nశరీరయాత్రాపి చ తే\nన ప్రసిద్ధ్యేదకర్మణః ॥",
-   "by": "భగవద్గీత (3.8)",
-   "ctx": "నీకు అప్పగించిన పనిని శ్రద్ధగా చేయి; ఏమీ చేయకపోవడం కంటే పని చేయడమే మేలు. పని చేయకపోతే శరీర పోషణ కూడా సాగదు.",
-   "src": "Bhagavad Gita 3.8 — holy-bhagavad-gita.org; vedapath.app (Telugu)",
-   "url2": "https://www.holy-bhagavad-gita.org/chapter/3/verse/8/",
+   "id": "gita-6-35-abhyasena-vairagyena",
+   "text": "అసంశయం మహాబాహో\nమనో దుర్నిగ్రహం చలమ్ ।\nఅభ్యాసేన తు కౌంతేయ\nవైరాగ్యేణ చ గృహ్యతే ॥",
+   "by": "భగవద్గీత (6.35)",
+   "ctx": "మనసు చంచలమైనది, దాన్ని అదుపులో పెట్టడం కష్టమే. కానీ రోజూ సాధన చేయడం, అనవసరమైన ఆశలను వదులుకోవడం ద్వారా దాన్ని అదుపు చేయవచ్చు.",
+   "src": "Bhagavad Gita 6.35 — holy-bhagavad-gita.org",
+   "url2": "https://www.holy-bhagavad-gita.org/chapter/6/verse/35/",
    "en": {
-    "text": "Niyataṁ kuru karma tvaṁ karma jyāyo hyakarmaṇaḥ;\nśharīra-yātrāpi cha te na prasiddhyed akarmaṇaḥ",
-    "by": "Bhagavad Gita (3.8)",
-    "ctx": "Do the duty given to you with care; action is better than inaction. Without action, even looking after your own body is not possible."
+    "text": "Asanśhayaṁ mahā-bāho mano durnigrahaṁ chalam;\nabhyāsena tu kaunteya vairāgyeṇa cha gṛihyate",
+    "by": "Bhagavad Gita (6.35)",
+    "ctx": "The mind is restless and indeed hard to restrain. But by steady practice and by letting go of needless desires, it can be brought under control."
    },
    "hi": {
-    "text": "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः ।\nशरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः ॥",
-    "by": "भगवद्गीता (3.8)",
-    "ctx": "जो कर्तव्य तुम्हें मिला है उसे लगन से करो; कर्म न करने से कर्म करना श्रेष्ठ है। कर्म के बिना शरीर का निर्वाह भी संभव नहीं।"
+    "text": "असंशयं महाबाहो मनो दुर्निग्रहं चलम् ।\nअभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते ॥",
+    "by": "भगवद्गीता (6.35)",
+    "ctx": "मन चंचल है और उसे वश में करना सचमुच कठिन है। पर नियमित अभ्यास और अनावश्यक इच्छाओं को छोड़ने से उसे वश में किया जा सकता है।"
    }
   },
   {
    "kind": "roots",
    "date": "2026-11-27",
-   "id": "uppada-jamdani-cheera",
-   "title": "ఉప్పాడ జాందానీ చీర",
-   "text": "కాకినాడ జిల్లాలోని ఉప్పాడ నేతకారులు సుమారు 300 ఏళ్లుగా జాందానీ చీరలను చేతితోనే నేస్తున్నారు. ఈ చీరలు చాలా తేలికగా ఉంటాయి; పూలు, ఆకులు వంటి డిజైన్లు రెండు వైపులా కనిపిస్తాయి. ఈ చీరకు భౌగోళిక గుర్తింపు (జీఐ) లభించింది.",
-   "ctx": "'జాందానీ' అంటే పూలకుండీ అని అర్థం అంటారు. మీ ఇంట్లో ఉప్పాడ చీర ఉందా?",
-   "src": "Wikipedia — Uppada Jamdani sari; Incredible India",
-   "url2": "https://en.wikipedia.org/wiki/Uppada_Jamdani_sari",
+   "id": "dharmavaram-pattu-cheera",
+   "title": "ధర్మవరం పట్టు చీరలు",
+   "text": "శ్రీ సత్యసాయి జిల్లాలోని ధర్మవరం నేతకారులు మల్బరీ పట్టు, జరీతో చీరలను, పట్టు పావడాలను మగ్గాలపై చేతితో నేస్తారు. 19వ శతాబ్దం నాటికే పట్టు నేత ఇక్కడ ప్రధాన వృత్తి అయింది. లేపాక్షి ఆలయ పైకప్పు చిత్రాల్లోనూ ఈ చీరల డిజైన్లు కనిపిస్తాయి. ఈ చీరలకు భౌగోళిక గుర్తింపు (జీఐ) ఉంది.",
+   "ctx": "శుభకార్యాలకు పట్టు చీర, చిన్నారులకు పట్టు పావడా మన ఇళ్లలో పాత ఆనవాయితీ. మీ ఇంట్లో ధర్మవరం చీర ఉందా?",
+   "src": "Wikipedia — Dharmavaram silk sari; Incredible India; india.gov.in ODOP",
+   "url2": "https://en.wikipedia.org/wiki/Dharmavaram_silk_sari",
    "en": {
-    "title": "Uppada Jamdani saree",
-    "text": "Weavers of Uppada in Kakinada district have hand-woven Jamdani sarees for about 300 years. These sarees are very light, and designs such as flowers and leaves show on both sides. The saree has a Geographical Indication (GI) tag.",
-    "ctx": "'Jamdani' is said to mean a flower vase. Is there an Uppada saree in your home?"
+    "title": "Dharmavaram silk sarees",
+    "text": "Weavers of Dharmavaram in Sri Sathya Sai district hand-weave sarees and pattu pavadas on looms with mulberry silk and zari. By the 19th century silk weaving had become the town's main occupation. Dharmavaram saree designs are depicted in the roof paintings of the Lepakshi temple. These sarees have a Geographical Indication (GI) tag.",
+    "ctx": "A silk saree for auspicious occasions and a pattu pavada for little girls is an old custom in our homes. Is there a Dharmavaram saree in your home?"
    },
    "hi": {
-    "title": "उप्पाडा जामदानी साड़ी",
-    "text": "काकीनाडा ज़िले के उप्पाडा के बुनकर लगभग 300 वर्षों से हाथ से जामदानी साड़ियाँ बुन रहे हैं। ये साड़ियाँ बहुत हल्की होती हैं और फूल-पत्तियों जैसे डिज़ाइन दोनों ओर दिखते हैं। इस साड़ी को भौगोलिक संकेत (जीआई) टैग मिला है।",
-    "ctx": "कहते हैं 'जामदानी' का अर्थ फूलदान है। क्या आपके घर में उप्पाडा साड़ी है?"
+    "title": "धर्मावरम रेशमी साड़ियाँ",
+    "text": "श्री सत्य साई ज़िले के धर्मावरम के बुनकर मलबरी रेशम और ज़री से साड़ियाँ और पट्टु पावडा करघों पर हाथ से बुनते हैं। 19वीं सदी तक रेशम बुनाई यहाँ का मुख्य व्यवसाय बन गई थी। लेपाक्षी मंदिर की छत के चित्रों में भी इन साड़ियों के डिज़ाइन दिखते हैं। इन साड़ियों को भौगोलिक संकेत (जीआई) टैग मिला है।",
+    "ctx": "शुभ अवसरों पर रेशमी साड़ी और बच्चियों के लिए पट्टु पावडा हमारे घरों की पुरानी परंपरा है। क्या आपके घर में धर्मावरम साड़ी है?"
    }
   }
  ],
  "history": [
+  "aurobindo-aim-great-means-small",
+  "rbi-unauthorised-txn-report-3-days",
+  "gita-6-35-abhyasena-vairagyena",
+  "dharmavaram-pattu-cheera",
   "gandhi-court-of-conscience",
   "atal-pension-yojana-basics",
   "gita-3-8-niyatam-kuru-karma",
