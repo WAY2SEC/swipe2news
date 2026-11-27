@@ -2784,23 +2784,26 @@ async function newsCard(s,mode){
   ctx.fillStyle=CR; ctx.fillRect(0,0,W,H);
   // 1) picture
   ctx.fillStyle=PLUM; ctx.fillRect(0,0,W,PIC);
-  let hasPh=false, hasArt=false; try{ hasPh=await drawStoryPhoto(ctx,s,0,0,W,PIC); }catch(e){}
+  // real photos (owner 27 Nov 2026): the WHOLE photo, sharp, no blur, no colour shade on it; plain dark bars fill any gap
+  let hasPh=false, hasArt=false, full=null; try{ const sp=storyPhoto(s); if(sp) full=await loadImg(sp); }catch(e){ full=null; }
+  if(full){ ctx.fillStyle=DEEP; ctx.fillRect(0,0,W,PIC); const sc=Math.min(W/full.width,PIC/full.height), dw=full.width*sc, dh=full.height*sc; ctx.drawImage(full,(W-dw)/2,(PIC-dh)/2,dw,dh); hasPh=true; }
+  else try{ hasPh=await drawStoryPhoto(ctx,s,0,0,W,PIC); }catch(e){}
   if(!hasPh){ try{ hasArt=await drawArtPlan(ctx,s,0,0,W,PIC,1); }catch(e){} }
   // real photos of people (e/photo-…): light shade only, so the whole face shows (owner 26 Nov 2026: "face is not fully showing")
   let isPhoto=false; try{ const ap=artPlan(s); isPhoto=!!(ap&&ap.bg&&/^e\/photo-/.test(ap.bg)); }catch(e){}
   const g=ctx.createLinearGradient(0,0,0,PIC);
   if(isPhoto){ g.addColorStop(0,'rgba(46,8,39,.62)'); g.addColorStop(.07,'rgba(46,8,39,.3)'); g.addColorStop(.12,'rgba(46,8,39,0)'); g.addColorStop(.72,'rgba(20,4,17,0)'); g.addColorStop(.88,'rgba(20,4,17,.70)'); g.addColorStop(1,'rgba(20,4,17,.92)'); }
   else { g.addColorStop(0,'rgba(46,8,39,.55)'); g.addColorStop(.22,'rgba(46,8,39,0)'); g.addColorStop(.40,'rgba(46,8,39,0)'); g.addColorStop(.66,'rgba(20,4,17,.82)'); g.addColorStop(1,'rgba(20,4,17,.95)'); }
-  ctx.fillStyle=g; ctx.fillRect(0,0,W,PIC);
+  if(!full){ ctx.fillStyle=g; ctx.fillRect(0,0,W,PIC); }
   try{ const _ap=artPlan(s), _cr=_ap&&typeof ART_CREDIT!=='undefined'&&ART_CREDIT[_ap.bg]; if(_cr&&!hasPh){ ctx.font=`600 20px sans-serif`; ctx.fillStyle='rgba(255,253,245,.8)'; ctx.textAlign='right'; ctx.fillText('📷 '+_cr,W-43,118); ctx.textAlign='left'; } }catch(e){}
   // top row: pill + date/time
   const pill=(s.brk?'🔴 ':'')+(s.cat||U('news')); ctx.font=`700 32px ${TE}`; const pw=Math.min(W*0.62,ctx.measureText(pill).width+52);
-  ctx.fillStyle='rgba(46,8,39,.4)'; rrect(ctx,43,38,pw,60,30); ctx.fill(); ctx.strokeStyle='rgba(255,253,245,.85)'; ctx.lineWidth=3; rrect(ctx,43,38,pw,60,30); ctx.stroke();
+  ctx.fillStyle=full?'rgba(20,4,17,.82)':'rgba(46,8,39,.4)'; rrect(ctx,43,38,pw,60,30); ctx.fill(); ctx.strokeStyle='rgba(255,253,245,.85)'; ctx.lineWidth=3; rrect(ctx,43,38,pw,60,30); ctx.stroke();
   ctx.fillStyle=CR; ctx.textBaseline='middle'; ctx.fillText(pill,69,69,pw-52);
-  const dt=[s.d,s.t].filter(Boolean).join(' · '); if(dt){ ctx.font=`800 32px ${OU}`; ctx.textAlign='right'; ctx.fillText(dt,W-43,69); ctx.textAlign='left'; }
+  const dt=[s.d,s.t].filter(Boolean).join(' · '); if(dt){ ctx.font=`800 32px ${OU}`; if(full){ const dw2=ctx.measureText(dt).width+40; ctx.fillStyle='rgba(20,4,17,.82)'; rrect(ctx,W-43-dw2+20,38,dw2,60,30); ctx.fill(); ctx.fillStyle=CR; ctx.textAlign='right'; ctx.fillText(dt,W-43,69); ctx.textAlign='left'; } else { ctx.textAlign='right'; ctx.fillText(dt,W-43,69); ctx.textAlign='left'; } }
   // number + label, one line
   const st=s.kind?'':statTx(s), sl=s.kind?'':(s.statl||'');
-  if(st||sl){ const line=st+(st&&sl?'  ':'')+sl; const f=fitFont(line,800,54,TE,W-97,22); const y=PIC-((hasArt||(storyPhoto(s)&&s.imgcr))?70:48);
+  if((st||sl)&&!full){ const line=st+(st&&sl?'  ':'')+sl; const f=fitFont(line,800,54,TE,W-97,22); const y=PIC-((hasArt||(storyPhoto(s)&&s.imgcr))?70:48);
     ctx.save(); ctx.shadowColor='rgba(0,0,0,.6)'; ctx.shadowBlur=14; ctx.shadowOffsetY=3; ctx.font=`800 ${f}px ${TE}`; if(statRev(s)){ ctx.fillStyle=CR; ctx.fillText(sl,49,y); const lw=ctx.measureText(sl+'  ').width; ctx.fillStyle=AP; ctx.fillText(st,49+lw,y); } else { ctx.fillStyle=AP; ctx.fillText(st,49,y); const sw=st?ctx.measureText(st+'  ').width:0; ctx.fillStyle=CR; ctx.fillText(sl,49+sw,y); } ctx.restore(); }
   if(hasArt){ const ap_=artPlan(s)||{}; if(ap_.m!=='logo'&&!/^e\/(logo|photo)-/.test(ap_.bg||'')&&!(ap_.m==='plain'&&!ap_.obj)){ ctx.font=`500 24px ${TE}`; ctx.fillStyle='rgba(255,253,245,.75)'; ctx.fillText(artDisc(s),49,PIC-24); } }
   if(storyPhoto(s)&&s.imgcr){ const ct='📷 '+(({te:'ఫోటో',en:'Photo',hi:'फ़ोटो'})[LG()]||'ఫోటో')+': '+String(s.imgcr).slice(0,60); ctx.font=`700 26px ${TE}`; const cw=ctx.measureText(ct).width+36;
