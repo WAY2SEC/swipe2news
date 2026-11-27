@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-27T07:05:00+05:30",
+ "cutoff": "2026-11-27T07:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-24T12:35:00+05:30/2026-11-24T13:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 4,
-   "late": 1,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Lookback from 04:35. Feeds 13:06 IST (70/70 ok). 13:05 sister run had not saved state. add_repo tool not available; used existing clone. Feed URLs refused by WebFetch (provenance). Published: NTV Indiramma sarees Nov 26 Achampet, Mana Telangana Harish Rao Godavari (claim), Andhra Jyothy Sabbavaram tipper fire (late-found 10:45, sensitive, no names), Siasat HC non-tribal land/RDO. Duplicates: Siasat SSC memo Meeseva (23 Nov), Godavarikhani murder (23 Nov), India-Canada trade talks (23 Nov). Skipped: TT Nainar Nagenthran house arrest (TN, other state); Hindu RERA Indiramma towers (pub 23 Nov 22:57, old). Not opened: Hindu Rayalaseema rice hoarding 300 cases (not in search), Siasat/Cricinfo Priyansh Arya 181 (fetch failed). lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-24T13:35:00+05:30/2026-11-24T14:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 22:35 Nov 26. Feeds 06:48 IST (70/70 ok; 2810 uncovered, 931 TG/AP; 180 local in lookback). add_repo tool not available; repo was already cloned. Published 8: Hans AP municipal polls 62.5% (01:36), DC Chittoor 82.40% (23:50), Hans NTR 75.80% (04:49), Hans Anakapalli 81.48% (05:21), Hans Kurnool ~80% (04:54), Hans Gospadu recount tension (04:56, sensitive/claim), DC DSC-2024 sports quota HC hearing (22:59), Hans GVMC 803 tax mela applications (05:28). Skipped (before lookback): Andhra Prabha Dharmana house arrest (12:48 Nov 26), Business Standard SC PMLA judicial member (20:28 Nov 26). Not opened: Telangana Today HC reserves orders HUDA Truck Park, The Hindu ASR 59.61% turnout, The Hindu first phase polls end (direct feed URLs refused; no search hit), TOI Tirupati bonded corridors, TOI Vizag fake crypto, TOI Vijayawada passport, HMTV Sathupalli-Khammam deluxe bus, Al Arabiya N Korea missiles (no search hit). No district searches this run (time spent on feed events). Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-27T07:05:00+05:30/2026-11-27T07:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 6,
+   "late": 5,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 23:05 Nov 26. Feeds 07:17 IST (67/68 ok; 2650 uncovered, 770 TG/AP; 167 local in lookback). add_repo tool not available; used existing clone. Published 6: DC Revanth Lambada ST Commission chair (23:50), DC Komatireddy Sagar SE (23:53, claim), NewsMeter AP pensions Nov 30/Dec 1 (07:07), DC Vizag food safety vans (00:05, claim), Siasat Rollagadda ground report (07:00, claim, sensitive), ABC US Thanksgiving storm (02:55). Duplicate: Kakinada fishermen boat traced (Uppada fishermen covered 26 Nov). Skipped: IBM H-1B sponsorship (news from 10 Nov). Not opened/not found in search: TT HC HUDA Truck Park, DC AP fine rice demand, Namasthe Telangana Aler market chairman Rs 3 cr, NZ election final count. Sakshi/Eenadu-only district items not attempted; no district searches this run. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6226,6 +6226,41 @@
   },
   {
    "url": "https://www.business-standard.com/india-news/sc-rules-pmla-attachment-orders-must-be-confirmed-by-judicial-member-126112601369_1.html",
+   "d": "2026-11-27",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/cm-revanth-reddy-promises-st-commission-chair-to-lambada-community-2008340",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/nagarjunasagar-se-deceives-telangana-2008342",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.newsmeter.in/andhra-pradesh/ap-pension-distribution-scheduled-for-nov-30-and-dec-1-ahead-of-panchayat-polls-780079",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/food-safety-vehicles-remain-idle-for-three-years-says-bjp-mla-vishnu-kumar-raju-2008349",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/in-maoist-free-telangana-a-village-still-mourns-its-rebels-3585395/",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.abc.net.au/news/2026-11-27/thanksgiving-floods-storms-across-us/107433308",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://newsweek.com/green-card-h1b-visa-update-ibm-ending-certain-sponsorships-12694698",
    "d": "2026-11-27",
    "w": "skipped"
   }
