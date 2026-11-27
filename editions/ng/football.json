@@ -1,27 +1,6 @@
 {
-"updated": "2026-11-27T17:42+01:00",
-"source": "ESPN scoreboard (scores and fixtures)",
-"status": {
-"fifa.world": "HTTP Error 403: Forbidden",
-"fifa.worldq.caf": "HTTP Error 403: Forbidden",
-"caf.nations": "HTTP Error 403: Forbidden",
-"caf.nations_qual": "HTTP Error 403: Forbidden",
-"fifa.friendly": "HTTP Error 403: Forbidden",
-"fifa.wwc": "HTTP Error 403: Forbidden",
-"caf.w.nations": "HTTP Error 403: Forbidden",
-"nga.1": "HTTP Error 403: Forbidden",
-"caf.champions": "HTTP Error 403: Forbidden",
-"caf.confed": "HTTP Error 403: Forbidden",
-"eng.1": "HTTP Error 403: Forbidden",
-"uefa.champions": "HTTP Error 403: Forbidden",
-"uefa.europa": "HTTP Error 403: Forbidden",
-"esp.1": "HTTP Error 403: Forbidden",
-"ita.1": "HTTP Error 403: Forbidden",
-"ger.1": "HTTP Error 403: Forbidden",
-"fra.1": "HTTP Error 403: Forbidden",
-"tur.1": "HTTP Error 403: Forbidden",
-"eng.fa": "HTTP Error 403: Forbidden",
-"eng.league_cup": "HTTP Error 403: Forbidden"
-},
+"updated": "2026-11-27T18:41+01:00",
+"source": "football-data.org",
+"error": "no FOOTBALL_DATA_KEY secret yet",
 "matches": []
 }
