@@ -494,7 +494,7 @@ function artPlan0(s){
     { const tv=t.replace(/\u200c|\u200d/g,''); const V=/కారు|కార్|వాహన|బస్సు|బస్|లారీ|ట్రక్|బైక్|ఆటో|ట్రాక్టర్|\bcar\b|\bvehicle|\bbus\b|lorry|truck|\bbike|scooter|tractor|गाड़ी|कार|बस|ट्रक/i, F=/మంటలు|కాలి|దగ్ధ|అగ్ని|\bfire\b|gutted|blaze|burnt|ablaze|आग|जल/i;
       if(V.test(tv)&&F.test(tv)) return {m:'land',bg:'e/vehicle-fire-highway'};
       // owner 27 Nov 2026: fish / prawn stories get the fish picture (not on drowning or boat accidents)
-      if(/చేప|రొయ్య|మత్స్య|\bfish|prawn|shrimp|seafood|मछली/i.test(tv)&&!/మునిగి|గల్లంతు|drown|capsiz|missing/i.test(tv)) return {m:'land',bg:'e/coastal-fishing-harbour'};
+      if(/చేప|రొయ్య|మత్స్య|\bfish|prawn|shrimp|seafood|मछली/i.test(tv)&&!/మునిగి|గల్లంతు|drown|capsiz|missing/i.test(tv)) return {m:'land',bg:/తనిఖీ|సీజ్|పాడై|కల్తీ|సేఫ్|ఆహార\s?భద్రత|మార్కెట్|seiz|inspect|raid|food\s?safety|market|stale|rotten/i.test(tv+' '+(s.p||''))?'e/fish-market-inspection':'e/coastal-fishing-harbour'};
       // owner 27 Nov 2026: bus and two-wheeler accidents get their own pictures
       const A=/ప్రమాద|ఢీ|బోల్తా|accident|crash|collision|overturn|हादसा|दुर्घटना/i;
       if(A.test(tv)&&/బస్సు|బస్|ఆర్టీసీ|\bbus\b|\bRTC\b|बस/i.test(tv)) return {m:'land',bg:'e/bus-accident'};
