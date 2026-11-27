@@ -1613,7 +1613,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
   <div class="toast" id="toast" role="status"></div>
 </div>
 
-<script src="scenes.js?v=20261127e"></script>
+<script src="scenes.js?v=20261127f"></script>
 <script src="mandi.js?v=2"></script>
 <script>
 const CONFIG = {
@@ -2792,6 +2792,7 @@ async function newsCard(s,mode){
   if(isPhoto){ g.addColorStop(0,'rgba(46,8,39,.62)'); g.addColorStop(.07,'rgba(46,8,39,.3)'); g.addColorStop(.12,'rgba(46,8,39,0)'); g.addColorStop(.72,'rgba(20,4,17,0)'); g.addColorStop(.88,'rgba(20,4,17,.70)'); g.addColorStop(1,'rgba(20,4,17,.92)'); }
   else { g.addColorStop(0,'rgba(46,8,39,.55)'); g.addColorStop(.22,'rgba(46,8,39,0)'); g.addColorStop(.40,'rgba(46,8,39,0)'); g.addColorStop(.66,'rgba(20,4,17,.82)'); g.addColorStop(1,'rgba(20,4,17,.95)'); }
   ctx.fillStyle=g; ctx.fillRect(0,0,W,PIC);
+  try{ const _ap=artPlan(s), _cr=_ap&&typeof ART_CREDIT!=='undefined'&&ART_CREDIT[_ap.bg]; if(_cr&&!hasPh){ ctx.font=`600 20px sans-serif`; ctx.fillStyle='rgba(255,253,245,.8)'; ctx.textAlign='right'; ctx.fillText('📷 '+_cr,W-43,118); ctx.textAlign='left'; } }catch(e){}
   // top row: pill + date/time
   const pill=(s.brk?'🔴 ':'')+(s.cat||U('news')); ctx.font=`700 32px ${TE}`; const pw=Math.min(W*0.62,ctx.measureText(pill).width+52);
   ctx.fillStyle='rgba(46,8,39,.4)'; rrect(ctx,43,38,pw,60,30); ctx.fill(); ctx.strokeStyle='rgba(255,253,245,.85)'; ctx.lineWidth=3; rrect(ctx,43,38,pw,60,30); ctx.stroke();
