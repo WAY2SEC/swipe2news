@@ -489,6 +489,9 @@ function artPlan0(s){
   if(!s||s.kind) return null;
   { // owner 26 Nov 2026: Telangana festivals always get the festival picture (not on crime, death or accident stories)
     const t=[s.h,s.statl,(s.en&&s.en.h)||''].join(' ');
+    // owner 27 Nov 2026: "for accident why building fire?" – a vehicle on fire gets the burnt-car picture, never the building blaze
+    { const tv=t.replace(/\u200c|\u200d/g,''); const V=/కారు|కార్|వాహన|బస్సు|బస్|లారీ|ట్రక్|బైక్|ఆటో|ట్రాక్టర్|\bcar\b|\bvehicle|\bbus\b|lorry|truck|\bbike|scooter|tractor|गाड़ी|कार|बस|ट्रक/i, F=/మంటలు|కాలి|దగ్ధ|అగ్ని|\bfire\b|gutted|blaze|burnt|ablaze|आग|जल/i;
+      if(V.test(tv)&&F.test(tv)) return {m:'land',bg:'e/road-accident-response-2'}; }
     if(!/హత్య|మృతి|మరణ|ప్రమాద|అరెస్ట్|murder|death|accident|arrest|killed/i.test(t)){
       // owner 26 Nov 2026: Parliament pictures (Lok Sabha green, Rajya Sabha red, else building)
       if(/లోక్\s?సభ|లోక్‌సభ|Lok\s?Sabha|लोकसभा|लोक\s?सभा/i.test(t)) return {m:'land',bg:'e/parliament-lok-sabha'};
