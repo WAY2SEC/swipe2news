@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-27T07:35:00+05:30",
+ "cutoff": "2026-11-27T08:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-24T13:35:00+05:30/2026-11-24T14:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 3,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Lookback from 05:35. Feeds 14:17 IST (68/68 ok). 14:05 sister run had not saved state. add_repo tool not available; used existing clone. Published: Mana Telangana NTR Telladevarapalli chlorine leak (late-found 13:08), DC Aswapuram Mission Bhagiratha chlorine leak (claim), HMTV Kishan Reddy anti-drug padayatra Nov 25-27. Skipped old: DC/Hans AP CEO Chittoor voter slips (event 23 Nov), DC Amit Shah Hyderabad visit cancelled (23 Nov). Not opened: Disha Kakinada 7 fishermen missing (fetch error; Eenadu only alt), Hindu Rayalaseema rice hoarding, Hindu Sigachi kin, Hyderabad Mail Warangal consumer commission & Palnadu water grid, Oneindia Tirupati-Visakha trains, TT Nizamabad ATM, aadab Huzurnagar SI (not found in search). District searches: Warangal, Nellore, Anantapur, Vikarabad, Srikakulam, Adilabad, Kakinada, Mahabubabad (little fresh). lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-24T14:35:00+05:30/2026-11-24T15:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 23:05 Nov 26. Feeds 07:17 IST (67/68 ok; 2650 uncovered, 770 TG/AP; 167 local in lookback). add_repo tool not available; used existing clone. Published 6: DC Revanth Lambada ST Commission chair (23:50), DC Komatireddy Sagar SE (23:53, claim), NewsMeter AP pensions Nov 30/Dec 1 (07:07), DC Vizag food safety vans (00:05, claim), Siasat Rollagadda ground report (07:00, claim, sensitive), ABC US Thanksgiving storm (02:55). Duplicate: Kakinada fishermen boat traced (Uppada fishermen covered 26 Nov). Skipped: IBM H-1B sponsorship (news from 10 Nov). Not opened/not found in search: TT HC HUDA Truck Park, DC AP fine rice demand, Namasthe Telangana Aler market chairman Rs 3 cr, NZ election final count. Sakshi/Eenadu-only district items not attempted; no district searches this run. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-27T07:35:00+05:30/2026-11-27T08:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 11,
+   "published": 10,
+   "late": 7,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 23:35 Nov 26. Feeds 07:57 IST (70/70 ok; 2787 uncovered, 935 TG/AP). add_repo tool not available; used existing clone. Published 10: 10TV Hyderabad midnight rain (07:37), NewsMeter Gadwal ACB ADE arrest (07:35, sensitive), V6 AIDS control 97% (06:57), TT HC reserves orders Moosapet Truck Park (00:25), Hans GHMC 45 fines (04:58), Hans Khammam Collector POSH (05:03), Hans APSPDCL RDSS Dec deadline (05:17), Andhra Jyothy APSRTC drivers pay (06:00), Hans Jagan Rayalaseema lift (05:33, claim), Siasat Trump Iran (07:52, claim). Duplicate: The Hindu Puranapul traffic diversions (covered 26 Nov). Not opened: Sakshi Education 526 assistant professor posts (client error); The Hindu Hyderabad rain, ASR 59.61% turnout, DNA data storage (no search hit). No district searches this run. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6263,6 +6263,56 @@
    "url": "https://newsweek.com/green-card-h1b-visa-update-ibm-ending-certain-sponsorships-12694698",
    "d": "2026-11-27",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.10tv.in/telugu-news/telangana/weather-updates-heavy-rainfall-in-several-parts-of-hyderabad-hn-1162217.html",
+   "d": "2026-11-27",
+   "w": "pub"
+  },
+  {
+   "url": "https://telugu.newsmeter.in/telangana/telangana-acb-arrests-tgspdcl-ade-in-gadwal-for-taking-60000-bribe-on-car-dashboard-780082",
+   "d": "2026-11-27",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.v6velugu.com/telangana-tops-in-aids-control",
+   "d": "2026-11-27",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-high-court-reserves-orders-on-pils-challenging-hmda-auction-of-huda-truck-park-land",
+   "d": "2026-11-27",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/ghmc-fines-violators-in-30-circle-sanitation-drive-1146188",
+   "d": "2026-11-27",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/khammam/come-forward-to-report-sexual-harassment-collector-1146195",
+   "d": "2026-11-27",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/tirupathi/apspdcl-cmd-orders-rdss-works-by-dec-end-1146205",
+   "d": "2026-11-27",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/apsrtc-to-pay-salaries-and-assign-alternative-duties-to-drivers-1580213.html",
+   "d": "2026-11-27",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.siasat.com/trump-tells-us-troops-victory-at-hand-over-iran-3587883/",
+   "d": "2026-11-27",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/water-works-to-trigger-traffic-diversions-between-puranapul-and-tappachabutra/article71747386.ece",
+   "d": "2026-11-27",
+   "w": "dup"
   }
  ]
 }
