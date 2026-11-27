@@ -59,19 +59,19 @@
    }
   },
   {
-   "id": "daily-2026-11-27",
-   "pop": "promo/daily/2026-11-27-app.jpg",
-   "dl": "promo/daily/2026-11-27.jpg",
-   "from": "2026-11-27T06:30",
-   "to": "2026-11-27T11:30",
-   "nopush": true
-  },
-  {
    "id": "daily-2026-11-26",
    "pop": "promo/daily/2026-11-26-app.jpg",
    "dl": "promo/daily/2026-11-26.jpg",
    "from": "2026-11-26T06:30",
    "to": "2026-11-26T11:30",
+   "nopush": true
+  },
+  {
+   "id": "daily-2026-11-27",
+   "pop": "promo/daily/2026-11-27-app.jpg",
+   "dl": "promo/daily/2026-11-27.jpg",
+   "from": "2026-11-27T06:30",
+   "to": "2026-11-27T11:30",
    "nopush": true
   }
  ]
