@@ -1,8 +1,324 @@
 {
  "date": "27.11.2026",
- "updated": "2026-11-27T12:05:00+05:30",
+ "updated": "2026-11-27T12:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "తెలంగాణ · రైల్వే",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/railway-station-departures",
+   "stat": "14 ప్రత్యేక రైళ్లు",
+   "statl": "శబరిమలకు",
+   "h": "శబరిమలకు 14 ప్రత్యేక రైళ్లు",
+   "p": "అయ్యప్ప భక్తుల కోసం దక్షిణ మధ్య రైల్వే 14 ప్రత్యేక రైళ్లను ప్రకటించింది. ఇవి డిసెంబర్ 4 నుంచి జనవరి 16 వరకు హైదరాబాద్, కాజీపేట, సిర్పూర్ కాగజ్‌నగర్ నుంచి కేరళలోని కొల్లం వరకు నడుస్తాయి. తెలంగాణ, ఏపీ, తమిళనాడు మీదుగా వెళ్తాయి. భక్తులు ఈ రైళ్లను ఉపయోగించుకోవాలని రైల్వే కోరింది. పూర్తి వివరాలు రైల్వే వెబ్‌సైట్‌లో ఉన్నాయి.",
+   "src": "NewsMeter Telugu",
+   "url": "https://telugu.newsmeter.in/telangana/scr-to-run-14-sabarimala-special-trains-between-hyderabad-kazipet-sirpur-kaghaznagar-and-kollam-check-full-schedule-780099",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pts": [
+    "హైదరాబాద్–కొల్లం రైలు డిసెంబర్ 4, 18 తేదీల్లో",
+    "కాగజ్‌నగర్–కొల్లం రైలు డిసెంబర్ 11, 25 తేదీల్లో",
+    "జనవరి 1, 8, 15 తేదీల్లో హైదరాబాద్ డెక్కన్ నుంచి"
+   ],
+   "why": "శబరిమల వెళ్లే తెలంగాణ అయ్యప్ప భక్తులకు ప్రయాణం సులువవుతుంది.",
+   "next": "మొదటి రైలు డిసెంబర్ 4న హైదరాబాద్ నుంచి బయలుదేరుతుంది",
+   "pub": "2026-11-27T11:51+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Railways",
+    "stat": "14 special trains",
+    "statl": "for Sabarimala pilgrims",
+    "loc": "",
+    "h": "14 Sabarimala special trains from Telangana",
+    "p": "South Central Railway has announced 14 special trains for Ayyappa devotees. They will run from December 4 to January 16 from Hyderabad, Kazipet and Sirpur Kaghaznagar to Kollam in Kerala, via Telangana, Andhra Pradesh and Tamil Nadu. SCR urged devotees to use them. Full details are on the railway website.",
+    "pts": [
+     "Hyderabad–Kollam train on December 4 and 18",
+     "Kaghaznagar–Kollam train on December 11 and 25",
+     "From Hyderabad Deccan on January 1, 8 and 15"
+    ],
+    "why": "It eases travel for Ayyappa devotees from Telangana going to Sabarimala.",
+    "next": "The first train leaves Hyderabad on December 4"
+   },
+   "hi": {
+    "cat": "तेलंगाना · रेलवे",
+    "stat": "14 विशेष ट्रेनें",
+    "statl": "सबरीमला श्रद्धालुओं के लिए",
+    "loc": "",
+    "h": "तेलंगाना से सबरीमला के लिए 14 विशेष ट्रेनें",
+    "p": "दक्षिण मध्य रेलवे ने अयप्पा भक्तों के लिए 14 विशेष ट्रेनों की घोषणा की है। ये 4 दिसंबर से 16 जनवरी तक हैदराबाद, काजीपेट और सिरपुर कागजनगर से केरल के कोल्लम तक तेलंगाना, आंध्र प्रदेश और तमिलनाडु होकर चलेंगी। रेलवे ने भक्तों से इनका उपयोग करने की अपील की। पूरी जानकारी रेलवे वेबसाइट पर है।",
+    "pts": [
+     "हैदराबाद–कोल्लम ट्रेन 4 और 18 दिसंबर को",
+     "कागजनगर–कोल्लम ट्रेन 11 और 25 दिसंबर को",
+     "1, 8 और 15 जनवरी को हैदराबाद डेक्कन से"
+    ],
+    "why": "सबरीमला जाने वाले तेलंगाना के अयप्पा भक्तों की यात्रा आसान होगी।",
+    "next": "पहली ट्रेन 4 दिसंबर को हैदराबाद से रवाना होगी"
+   },
+   "d": "27.11.2026",
+   "t": "12:35"
+  },
+  {
+   "cat": "ఏపీ · విజయవాడ",
+   "col": "--c-gov",
+   "art": "unity",
+   "pic": "e/municipal-council-meeting",
+   "stat": "మేయర్ బాధ్యతలు",
+   "statl": "విజయవాడలో",
+   "h": "విజయవాడ మేయర్‌గా వంగవీటి రాధా బాధ్యతలు",
+   "p": "విజయవాడ నగర మేయర్‌గా వంగవీటి రాధాకృష్ణ శుక్రవారం ఉదయం బాధ్యతలు స్వీకరించారు. కుటుంబంతో కలిసి పూజలు చేసిన తర్వాత పదవి చేపట్టారు. ఎంపీ కేశినేని చిన్ని, పలువురు కార్పొరేటర్లు హాజరయ్యారు. పారిశుద్ధ్యం, ప్రజారోగ్యానికి సంబంధించిన ఫైలుపై ఆయన తొలి సంతకం చేశారు. శనివారం సమీక్ష నిర్వహిస్తానని, కార్పొరేటర్లందరితో కలిసి నగర సమస్యలు పరిష్కరిస్తానని ఆయన చెప్పారు.",
+   "src": "NTV Telugu",
+   "url": "https://ntvtelugu.com/news/vangaveeti-radhakrishna-takes-charge-as-vijayawada-mayor-first-signature-on-this-file-1039337.html",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-ntr",
+   "loc": "విజయవాడ",
+   "pts": [
+    "కూటమి తరఫున జనసేన అభ్యర్థిగా పోటీ చేశారు",
+    "ఎమ్మెల్యేలు గద్దె రామమోహన్, బోండా ఉమతో సమన్వయం"
+   ],
+   "why": "విజయవాడ నగర ప్రజల పౌర సమస్యలను ఇక కొత్త పాలకవర్గం చూస్తుంది.",
+   "next": "నవంబర్ 28న మేయర్ సమీక్ష సమావేశం",
+   "pub": "2026-11-27T11:35+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Vijayawada",
+    "stat": "New Mayor takes charge",
+    "statl": "at Vijayawada Corporation",
+    "loc": "Vijayawada",
+    "h": "Vangaveeti Radha takes charge as Vijayawada Mayor",
+    "p": "Vangaveeti Radhakrishna took charge as Mayor of Vijayawada on Friday morning after a puja with his family. MP Kesineni Chinni and several corporators were present. His first signature was on a file on sanitation and public health. He said he would hold a review on Saturday and work with all corporators to solve civic problems.",
+    "pts": [
+     "He contested as the alliance's Jana Sena candidate",
+     "Will coordinate with MLAs Gadde Ramamohan, Bonda Uma"
+    ],
+    "why": "The new council will now handle civic problems of Vijayawada residents.",
+    "next": "Mayor's review meeting on November 28"
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · विजयवाड़ा",
+    "stat": "नए मेयर ने पद संभाला",
+    "statl": "विजयवाड़ा नगर निगम में",
+    "loc": "विजयवाड़ा",
+    "h": "वंगवीटी राधा ने विजयवाड़ा मेयर पद संभाला",
+    "p": "वंगवीटी राधाकृष्ण ने शुक्रवार सुबह परिवार के साथ पूजा के बाद विजयवाड़ा के मेयर का पद संभाला। सांसद केसिनेनी चिन्नी और कई पार्षद मौजूद थे। उन्होंने पहला हस्ताक्षर स्वच्छता और जन स्वास्थ्य की फाइल पर किया। उन्होंने कहा कि शनिवार को समीक्षा बैठक करेंगे और सभी पार्षदों के साथ मिलकर शहर की समस्याएं सुलझाएंगे।",
+    "pts": [
+     "गठबंधन की ओर से जनसेना उम्मीदवार के रूप में लड़े",
+     "विधायक गद्दे राममोहन, बोंडा उमा से तालमेल"
+    ],
+    "why": "विजयवाड़ा के नागरिकों की समस्याएं अब नई परिषद देखेगी।",
+    "next": "28 नवंबर को मेयर की समीक्षा बैठक"
+   },
+   "d": "27.11.2026",
+   "t": "12:35"
+  },
+  {
+   "cat": "ఏపీ · ఎన్నికలు",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/election-office",
+   "stat": "280 మంది ఉద్యోగులకు",
+   "statl": "షోకాజ్ నోటీసులు",
+   "h": "కృష్ణా జిల్లాలో 280 మందికి నోటీసులు",
+   "p": "కృష్ణా జిల్లాలో నవంబర్ 26 ఎన్నికల విధులకు రాని 280 మంది ఉద్యోగులకు కలెక్టర్ డీకే బాలాజీ షోకాజ్ నోటీసులు ఇచ్చారు. వీరిలో 74 మంది మున్సిపల్, 206 మంది పంచాయతీ ఎన్నికల విధుల్లో ఉండాల్సింది. నవంబర్ 25నే ఎన్నికల సామగ్రి తీసుకోవాలని సిబ్బందికి ముందే చెప్పారు. ఆధారాలతో వివరణ ఇవ్వకపోతే క్రమశిక్షణ చర్యలు ఉంటాయని హెచ్చరించారు.",
+   "src": "The News Minute",
+   "url": "https://www.thenewsminute.com/andhra-pradesh/andhra-pradesh-280-employees-skip-election-duty-in-krishna-get-show-cause-notices",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "ap-krishna",
+   "loc": "",
+   "pts": [
+    "గన్నవరంలో 62, గుడివాడ మున్సిపాలిటీలో 45 మంది",
+    "తొలి విడత పంచాయతీ పోలింగ్ 79.77 శాతం"
+   ],
+   "why": "ఎన్నికల విధులు తప్పనిసరి అని ప్రభుత్వ ఉద్యోగులకు ఇది హెచ్చరిక.",
+   "next": "వివరణకు గడువు నవంబర్ 27 సాయంత్రం 6 గంటలు",
+   "pub": "2026-11-27T10:40+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Elections",
+    "stat": "280 employees",
+    "statl": "get show-cause notices",
+    "loc": "Krishna district",
+    "h": "Krishna: notices to 280 poll-duty absentees",
+    "p": "Krishna district Collector DK Balaji issued show-cause notices to 280 employees who skipped election duty on November 26. Of them, 74 were assigned to municipal polls and 206 to panchayat polls. Staff had been told to collect poll material on November 25. He warned of disciplinary action if they fail to explain with evidence.",
+    "pts": [
+     "62 in Gannavaram, 45 in Gudivada municipality",
+     "First-phase panchayat turnout was 79.77%"
+    ],
+    "why": "It is a warning to government staff that election duty is compulsory.",
+    "next": "Explanations due by 6 pm on November 27"
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · चुनाव",
+    "stat": "280 कर्मचारियों को",
+    "statl": "कारण बताओ नोटिस",
+    "loc": "कृष्णा जिला",
+    "h": "कृष्णा: चुनाव ड्यूटी से गैरहाजिर 280 को नोटिस",
+    "p": "कृष्णा जिले के कलेक्टर डीके बालाजी ने 26 नवंबर को चुनाव ड्यूटी पर न आने वाले 280 कर्मचारियों को कारण बताओ नोटिस दिए। इनमें 74 नगरपालिका और 206 पंचायत चुनाव ड्यूटी पर थे। कर्मचारियों को 25 नवंबर को चुनाव सामग्री लेने को कहा गया था। सबूत के साथ जवाब न देने पर अनुशासनात्मक कार्रवाई की चेतावनी दी गई।",
+    "pts": [
+     "गन्नवरम में 62, गुडिवाडा नगरपालिका में 45",
+     "पहले चरण के पंचायत चुनाव में 79.77% मतदान"
+    ],
+    "why": "यह सरकारी कर्मचारियों के लिए चेतावनी है कि चुनाव ड्यूटी अनिवार्य है।",
+    "next": "जवाब देने की समय सीमा 27 नवंबर शाम 6 बजे"
+   },
+   "d": "27.11.2026",
+   "t": "12:35"
+  },
+  {
+   "cat": "గద్వాల · రవాణా",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/peaceful-public-protest",
+   "stat": "లారీ డ్రైవర్ల ధర్నా",
+   "statl": "ఆర్టీవో వద్ద",
+   "h": "గద్వాల ఆర్టీవో వద్ద లారీ డ్రైవర్ల ధర్నా",
+   "p": "జోగులాంబ గద్వాల జిల్లా ఆర్టీవో కార్యాలయం ఎదుట లారీ డ్రైవర్లు, సంఘం నాయకులు లారీలను రోడ్డుపై నిలిపి ఆందోళన చేశారు. స్టిక్కర్ల పేరుతో రవాణా శాఖ అదనపు డబ్బులు వసూలు చేస్తోందని, కారణం లేకుండా జరిమానాలు వేస్తోందని వారు ఆరోపించారు. కొద్దిసేపు ట్రాఫిక్ నిలిచిపోయింది. ఈ ఇబ్బందులపై ఎమ్మెల్యే కృష్ణమోహన్ రెడ్డి జిల్లా రవాణా అధికారి రాధికతో మాట్లాడారు.",
+   "src": "Namasthe Telangana",
+   "url": "https://www.ntnews.com/telangana/lorry-drivers-protest-before-gadwal-rto-office-2570227",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "gadwal",
+   "loc": "గద్వాల",
+   "pts": [
+    "వసూళ్లు ఆపకపోతే ఆందోళన పెంచుతామని హెచ్చరిక"
+   ],
+   "why": "గద్వాల జిల్లాలో లారీలు నడిపే డ్రైవర్లు, యజమానులకు సంబంధించిన విషయం ఇది.",
+   "pub": "2026-11-27T11:50+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "Gadwal · Transport",
+    "stat": "Lorry drivers protest",
+    "statl": "at Gadwal RTO office",
+    "loc": "Gadwal",
+    "h": "Lorry drivers protest at Gadwal RTO office",
+    "p": "Lorry drivers and association leaders parked their lorries on the road and protested outside the Jogulamba Gadwal district RTO office. They alleged the transport department collects extra money in the name of stickers and imposes fines without reason. Traffic was briefly disrupted. MLA Krishna Mohan Reddy spoke to District Transport Officer Radhika about their problems.",
+    "pts": [
+     "They warned of a bigger protest if collections continue"
+    ],
+    "why": "It concerns lorry drivers and owners operating in Gadwal district."
+   },
+   "hi": {
+    "cat": "गद्वाल · परिवहन",
+    "stat": "लॉरी चालकों का प्रदर्शन",
+    "statl": "गद्वाल आरटीओ कार्यालय पर",
+    "loc": "गद्वाल",
+    "h": "गद्वाल आरटीओ कार्यालय पर लॉरी चालकों का धरना",
+    "p": "जोगुलांबा गद्वाल जिले के आरटीओ कार्यालय के सामने लॉरी चालकों और संघ नेताओं ने लॉरियां सड़क पर खड़ी कर प्रदर्शन किया। उनका आरोप है कि परिवहन विभाग स्टिकर के नाम पर अतिरिक्त पैसे वसूलता है और बिना कारण जुर्माना लगाता है। कुछ देर यातायात रुका रहा। विधायक कृष्णमोहन रेड्डी ने जिला परिवहन अधिकारी राधिका से उनकी समस्याओं पर बात की।",
+    "pts": [
+     "वसूली न रुकी तो बड़ा आंदोलन करने की चेतावनी"
+    ],
+    "why": "यह गद्वाल जिले के लॉरी चालकों और मालिकों से जुड़ा मामला है।"
+   },
+   "d": "27.11.2026",
+   "t": "12:35"
+  },
+  {
+   "cat": "హైదరాబాద్ · బంగారం",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "e/gold-and-silver-prices",
+   "stat": "₹1,24,810",
+   "statl": "పది గ్రాముల బంగారం",
+   "h": "హైదరాబాద్‌లో మేలిమి బంగారం ₹1,24,810",
+   "p": "గుడ్‌రిటర్న్స్ ప్రకారం శుక్రవారం ఉదయం హైదరాబాద్‌లో 24 క్యారెట్ బంగారం 10 గ్రాములు ₹1,24,810, 22 క్యారెట్ ₹1,14,410 పలికింది. 18 క్యారెట్ బంగారం 10 గ్రాములు ₹93,610 ఉంది. 22 క్యారెట్ ధర నిన్నటి కంటే ₹10 పెరిగింది. కిలో వెండి ₹100 తగ్గి ₹1,64,900 అయింది. ఈ ధరల్లో పన్నులు, తయారీ చార్జీలు లేవు.",
+   "src": "Hyderabad Mail",
+   "url": "https://hyderabadmail.com/gold-rate-today-hyderabad-november-27-2026/",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pts": [
+    "ఇతర వెబ్‌సైట్లలో ధరలు కొంచెం ఎక్కువగా ఉన్నాయి"
+   ],
+   "why": "బంగారం, వెండి కొనాలనుకునే కుటుంబాలకు ఈ ధరలు ఉపయోగపడతాయి.",
+   "pub": "2026-11-27T10:26+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Gold",
+    "stat": "₹1,24,810",
+    "statl": "for 10 grams of 24-carat gold",
+    "loc": "Hyderabad",
+    "h": "24-carat gold at ₹1,24,810 in Hyderabad",
+    "p": "According to Goodreturns, 24-carat gold in Hyderabad was ₹1,24,810 and 22-carat ₹1,14,410 per 10 grams on Friday morning; 18-carat was ₹93,610. The 22-carat rate rose ₹10 from yesterday. Silver fell ₹100 to ₹1,64,900 per kg. Prices exclude taxes and making charges.",
+    "pts": [
+     "Other trackers quote slightly higher rates"
+    ],
+    "why": "The rates help families planning to buy gold or silver."
+   },
+   "hi": {
+    "cat": "हैदराबाद · सोना",
+    "stat": "₹1,24,810",
+    "statl": "10 ग्राम 24 कैरेट सोना",
+    "loc": "हैदराबाद",
+    "h": "हैदराबाद में 24 कैरेट सोना ₹1,24,810",
+    "p": "गुडरिटर्न्स के अनुसार शुक्रवार सुबह हैदराबाद में 24 कैरेट सोना ₹1,24,810 और 22 कैरेट ₹1,14,410 प्रति 10 ग्राम रहा; 18 कैरेट ₹93,610 रहा। 22 कैरेट का भाव कल से ₹10 बढ़ा। चांदी ₹100 घटकर ₹1,64,900 प्रति किलो रही। इनमें टैक्स और मेकिंग चार्ज शामिल नहीं हैं।",
+    "pts": [
+     "दूसरी वेबसाइटों पर भाव थोड़े ज्यादा"
+    ],
+    "why": "सोना-चांदी खरीदने की सोच रहे परिवारों के लिए उपयोगी।"
+   },
+   "d": "27.11.2026",
+   "t": "12:35"
+  },
+  {
+   "cat": "ఆదిలాబాద్ · ప్రమాదం",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/road-accident-response",
+   "stat": "నలుగురికి గాయాలు",
+   "statl": "కారు బోల్తాతో",
+   "h": "ఇచ్చోడలో కారు బోల్తా, నలుగురికి గాయాలు",
+   "p": "ఆదిలాబాద్ జిల్లా ఇచ్చోడ మండలంలో జాతీయ రహదారిపై ఒక కారు అదుపు తప్పి బోల్తా పడింది. వారణాసి నుంచి చెన్నై వెళ్తున్న తమిళనాడు కుటుంబంలో నలుగురు గాయపడ్డారు. 108 సిబ్బంది ప్రథమ చికిత్స చేసి వారిని ఆదిలాబాద్ రిమ్స్ ఆసుపత్రికి తరలించారు. వారు అక్కడ చికిత్స పొందుతున్నారు. ఎవరూ ప్రాణాలు కోల్పోలేదు. కారు వేగంగా వెళ్తుండగా ప్రమాదం జరిగిందని కథనం.",
+   "src": "Namasthe Telangana",
+   "url": "https://ntnews.com/adilabad/car-overturns-near-adilabad-district-ichoda-four-injured-2570230",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "adilabad",
+   "loc": "ఇచ్చోడ",
+   "pts": [],
+   "why": "జాతీయ రహదారిపై వాహనదారులు వేగం తగ్గించాలని ఇది గుర్తు చేస్తుంది.",
+   "pub": "2026-11-27T11:56+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Adilabad · Accident",
+    "stat": "4 injured",
+    "statl": "as car overturns",
+    "loc": "Ichoda, Adilabad",
+    "h": "Car overturns near Ichoda, four injured",
+    "p": "A car overturned after losing control on the national highway in Ichoda mandal of Adilabad district. Four members of a Tamil Nadu family travelling from Varanasi to Chennai were injured. A 108 crew gave first aid and shifted them to RIMS Adilabad. They are under treatment. No one died. The report says the car was being driven fast.",
+    "pts": [],
+    "why": "It reminds motorists on the national highway to slow down."
+   },
+   "hi": {
+    "cat": "आदिलाबाद · हादसा",
+    "stat": "4 घायल",
+    "statl": "कार पलटने से",
+    "loc": "इच्चोडा, आदिलाबाद",
+    "h": "इच्चोडा के पास कार पलटी, चार घायल",
+    "p": "आदिलाबाद जिले के इच्चोडा मंडल में राष्ट्रीय राजमार्ग पर एक कार अनियंत्रित होकर पलट गई। वाराणसी से चेन्नई जा रहे तमिलनाडु के एक परिवार के चार लोग घायल हुए। 108 टीम ने प्राथमिक उपचार देकर उन्हें रिम्स आदिलाबाद पहुंचाया। उनका इलाज चल रहा है। किसी की जान नहीं गई। रिपोर्ट के अनुसार कार तेज चल रही थी।",
+    "pts": [],
+    "why": "यह राजमार्ग पर वाहन चालकों को रफ्तार कम रखने की याद दिलाता है।"
+   },
+   "d": "27.11.2026",
+   "t": "12:35"
+  },
   {
    "cat": "హైదరాబాద్ · చెరువులు",
    "col": "--c-water",
@@ -2949,336 +3265,6 @@
    },
    "d": "27.11.2026",
    "t": "07:35"
-  },
-  {
-   "cat": "ఏపీ · మున్సిపల్ ఎన్నికలు",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "e/voting-day",
-   "stat": "62.5 శాతం",
-   "statl": "పోలింగ్ నమోదు",
-   "h": "ఏపీ పట్టణ ఎన్నికల్లో 62.5 శాతం పోలింగ్",
-   "p": "ఆంధ్రప్రదేశ్‌లో 23 పట్టణ స్థానిక సంస్థలకు గురువారం జరిగిన ఎన్నికల్లో సాయంత్రం 5 గంటల వరకు 62.5 శాతం పోలింగ్ నమోదైందని రాష్ట్ర ఎన్నికల సంఘం తెలిపింది. 24,98,312 మంది ఓటర్లలో 15,61,531 మంది ఓటు వేశారు. కందుకూరులో అత్యధికంగా 76.07 శాతం, శ్రీకాకుళం కార్పొరేషన్‌లో అతి తక్కువగా 53.93 శాతం నమోదైంది.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/amaravati/ap-municipal-polls-record-625-turnout-1146086",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "AP",
-   "loc": "",
-   "pts": [
-    "మంగళగిరి-తాడేపల్లి కార్పొరేషన్‌లో 72.62 శాతం",
-    "కాకినాడలో 57.64, రాజమహేంద్రవరంలో 56.61 శాతం",
-    "పొదిలిలో 75.68, ఆమదాలవలసలో 75.13 శాతం"
-   ],
-   "why": "ఎన్నికలు జరిగిన 23 పట్టణాల ఓటర్లకు తమ ఊరిలో ఎంత పోలింగ్ జరిగిందో ఇది చెబుతుంది.",
-   "pub": "2026-11-27T01:36+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Municipal polls",
-    "stat": "62.5 per cent",
-    "statl": "polling recorded",
-    "loc": "",
-    "h": "AP municipal polls see 62.5% turnout",
-    "p": "Polling in 23 urban local bodies in Andhra Pradesh on Thursday recorded a 62.5 per cent turnout by 5 pm, the State Election Commission said. Of 24,98,312 voters, 15,61,531 cast their votes. Kandukuru recorded the highest turnout at 76.07 per cent and Srikakulam Municipal Corporation the lowest at 53.93 per cent.",
-    "pts": [
-     "Mangalagiri-Tadepalli corporation: 72.62 per cent",
-     "Kakinada 57.64, Rajamahendravaram 56.61 per cent",
-     "Podili 75.68, Amadalavalasa 75.13 per cent"
-    ],
-    "why": "It tells voters in the 23 towns that went to the polls how much polling their town saw."
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · नगर निकाय चुनाव",
-    "stat": "62.5 प्रतिशत",
-    "statl": "मतदान दर्ज",
-    "loc": "",
-    "h": "आंध्र नगर निकाय चुनाव में 62.5% मतदान",
-    "p": "आंध्र प्रदेश के 23 शहरी स्थानीय निकायों के लिए गुरुवार को हुए चुनाव में शाम 5 बजे तक 62.5 प्रतिशत मतदान दर्ज हुआ, राज्य चुनाव आयोग ने बताया। 24,98,312 मतदाताओं में से 15,61,531 ने वोट डाला। कंदुकूर में सबसे ज़्यादा 76.07 प्रतिशत और श्रीकाकुलम नगर निगम में सबसे कम 53.93 प्रतिशत मतदान हुआ।",
-    "pts": [
-     "मंगलगिरि-ताडेपल्ली निगम में 72.62 प्रतिशत",
-     "काकीनाडा 57.64, राजमहेंद्रवरम 56.61 प्रतिशत",
-     "पोदिली 75.68, आमदालवलसा 75.13 प्रतिशत"
-    ],
-    "why": "यह चुनाव वाले 23 शहरों के मतदाताओं को बताता है कि उनके शहर में कितना मतदान हुआ।"
-   },
-   "d": "27.11.2026",
-   "t": "07:05"
-  },
-  {
-   "cat": "ఏపీ · చిత్తూరు",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "e/voting-day",
-   "stat": "82.40 శాతం",
-   "statl": "పోలింగ్ నమోదు",
-   "h": "చిత్తూరు జిల్లాలో 82.40 శాతం పోలింగ్",
-   "p": "చిత్తూరు జిల్లాలో మొదటి విడత పంచాయతీ ఎన్నికలు గురువారం ప్రశాంతంగా ముగిశాయి. తొమ్మిది మండలాల్లోని 177 పంచాయతీల్లో 4,11,159 మంది ఓటర్లలో 3,38,798 మంది ఓటు వేశారు. పోలింగ్ 82.40 శాతంగా నమోదైంది. బైరెడ్డిపల్లెలో అత్యధికంగా 85.96 శాతం నమోదైంది. తిరుపతి జిల్లాలో 70.56 శాతం మంది ఓటు వేశారు.",
-   "src": "Deccan Chronicle",
-   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/panchayat-polls-chittoor-records-8240-turnout-tirupati-7056-2008341",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-chittoor",
-   "loc": "",
-   "pts": [
-    "తిరుపతి జిల్లాలో 404 పంచాయతీల్లో 136 ఏకగ్రీవం",
-    "కుప్పంలో 85.31, గంగవరంలో 77.40 శాతం",
-    "ఓటేసిన వారిలో మహిళలు 1,69,729 మంది"
-   ],
-   "why": "చిత్తూరు, తిరుపతి జిల్లాల గ్రామాల ఓటర్లకు తమ ప్రాంతంలో ఎంత పోలింగ్ జరిగిందో ఇది చెబుతుంది.",
-   "pub": "2026-11-26T23:50+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Chittoor",
-    "stat": "82.40 per cent",
-    "statl": "polling recorded",
-    "loc": "",
-    "h": "Chittoor district records 82.40% polling",
-    "p": "The first phase of gram panchayat elections in Chittoor district ended peacefully on Thursday. In 177 panchayats across nine mandals, 3,38,798 of 4,11,159 voters cast their votes, a turnout of 82.40 per cent. Baireddipalle recorded the highest at 85.96 per cent. Tirupati district recorded a 70.56 per cent turnout.",
-    "pts": [
-     "136 of 404 panchayats in Tirupati district elected unanimously",
-     "Kuppam 85.31, Gangavaram 77.40 per cent",
-     "Women voters who voted: 1,69,729"
-    ],
-    "why": "It tells village voters in Chittoor and Tirupati districts how much polling their area saw."
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · चित्तूर",
-    "stat": "82.40 प्रतिशत",
-    "statl": "मतदान दर्ज",
-    "loc": "",
-    "h": "चित्तूर ज़िले में 82.40% मतदान",
-    "p": "चित्तूर ज़िले में ग्राम पंचायत चुनाव का पहला चरण गुरुवार को शांति से पूरा हुआ। नौ मंडलों की 177 पंचायतों में 4,11,159 मतदाताओं में से 3,38,798 ने वोट डाला, यानी 82.40 प्रतिशत मतदान। बैरेड्डीपल्ले में सबसे ज़्यादा 85.96 प्रतिशत मतदान हुआ। तिरुपति ज़िले में 70.56 प्रतिशत मतदान दर्ज हुआ।",
-    "pts": [
-     "तिरुपति ज़िले की 404 में से 136 पंचायतें निर्विरोध",
-     "कुप्पम 85.31, गंगावरम 77.40 प्रतिशत",
-     "वोट डालने वाली महिलाएं 1,69,729"
-    ],
-    "why": "यह चित्तूर और तिरुपति ज़िलों के गांवों के मतदाताओं को बताता है कि उनके इलाके में कितना मतदान हुआ।"
-   },
-   "d": "27.11.2026",
-   "t": "07:05"
-  },
-  {
-   "cat": "ఏపీ · ఎన్టీఆర్ జిల్లా",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "e/voting-day",
-   "stat": "75.80 శాతం",
-   "statl": "పోలింగ్ నమోదు",
-   "h": "ఎన్టీఆర్ జిల్లాలో 75.80 శాతం పోలింగ్",
-   "p": "ఎన్టీఆర్ జిల్లాలో మొదటి విడత పంచాయతీ ఎన్నికల్లో ఐదు మండలాల్లో సగటున 75.80 శాతం పోలింగ్ నమోదైంది. గురువారం మధ్యాహ్నం ఒంటి గంట వరకు 3,11,318 మంది ఓటర్లలో 2,35,982 మంది ఓటు వేశారు. రెడ్డిగూడెం మండలంలో అత్యధికంగా 86.39 శాతం, విజయవాడ రూరల్‌లో అతి తక్కువగా 67.28 శాతం మంది ఓటు వేశారు.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/vijayawada/overall-polling-touches-7580-in-five-ntr-district-mandals-1146181",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-ntr",
-   "loc": "",
-   "pts": [
-    "జి.కొండూరులో 86.19, మైలవరంలో 81.09 శాతం",
-    "ఇబ్రహీంపట్నంలో 79.35 శాతం",
-    "73 పంచాయతీలు, 959 పోలింగ్ కేంద్రాలు"
-   ],
-   "why": "ఈ ఐదు మండలాల గ్రామాల ఓటర్లకు తమ మండలంలో ఎంత పోలింగ్ జరిగిందో ఇది చెబుతుంది.",
-   "pub": "2026-11-27T04:49+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · NTR district",
-    "stat": "75.80 per cent",
-    "statl": "polling recorded",
-    "loc": "",
-    "h": "NTR district records 75.80% polling",
-    "p": "Five mandals of NTR district recorded an average turnout of 75.80 per cent in the first phase of panchayat elections. By 1 pm on Thursday, 2,35,982 of 3,11,318 voters had cast their votes. Reddygudem mandal recorded the highest turnout at 86.39 per cent and Vijayawada Rural the lowest at 67.28 per cent.",
-    "pts": [
-     "G Konduru 86.19, Mylavaram 81.09 per cent",
-     "Ibrahimpatnam 79.35 per cent",
-     "73 panchayats, 959 polling stations"
-    ],
-    "why": "It tells village voters in these five mandals how much polling their mandal saw."
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · एनटीआर ज़िला",
-    "stat": "75.80 प्रतिशत",
-    "statl": "मतदान दर्ज",
-    "loc": "",
-    "h": "एनटीआर ज़िले में 75.80% मतदान",
-    "p": "एनटीआर ज़िले के पांच मंडलों में पंचायत चुनाव के पहले चरण में औसतन 75.80 प्रतिशत मतदान दर्ज हुआ। गुरुवार दोपहर 1 बजे तक 3,11,318 मतदाताओं में से 2,35,982 ने वोट डाला। रेड्डीगुडेम मंडल में सबसे ज़्यादा 86.39 प्रतिशत और विजयवाड़ा रूरल में सबसे कम 67.28 प्रतिशत मतदान हुआ।",
-    "pts": [
-     "जी कोंडूरु 86.19, मैलवरम 81.09 प्रतिशत",
-     "इब्राहिमपट्नम 79.35 प्रतिशत",
-     "73 पंचायतें, 959 मतदान केंद्र"
-    ],
-    "why": "यह इन पांच मंडलों के गांवों के मतदाताओं को बताता है कि उनके मंडल में कितना मतदान हुआ।"
-   },
-   "d": "27.11.2026",
-   "t": "07:05"
-  },
-  {
-   "cat": "ఏపీ · అనకాపల్లి",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "e/voting-day",
-   "stat": "81.48 శాతం",
-   "statl": "పోలింగ్ నమోదు",
-   "h": "అనకాపల్లి జిల్లాలో 81.48 శాతం పోలింగ్",
-   "p": "అనకాపల్లి జిల్లాలో మొదటి విడత పంచాయతీ ఎన్నికలు గురువారం ప్రశాంతంగా జరిగాయి. ఎనిమిది మండలాల్లో 3,92,343 మంది ఓటర్లలో 3,19,663 మంది ఓటు వేశారు. పోలింగ్ 81.48 శాతంగా నమోదైందని జిల్లా కలెక్టర్ విజయ కృష్ణన్ తెలిపారు. ఓటేసిన వారిలో మహిళలు 1,66,582 మంది, పురుషులు 1,53,077 మంది ఉన్నారు.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/8148-voter-turnout-recorded-in-anakapalli-1146207",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-anakapalli",
-   "loc": "",
-   "pts": [
-    "మొత్తం 1,860 కేంద్రాల్లో పోలింగ్",
-    "అనకాపల్లి, నర్సీపట్నం డివిజన్లలో ఎన్నికలు",
-    "కలెక్టరేట్ కంట్రోల్ రూమ్ నుంచి పోలింగ్‌ను గమనించారు"
-   ],
-   "why": "అనకాపల్లి జిల్లా గ్రామాల ఓటర్లకు తమ జిల్లాలో ఎంత పోలింగ్ జరిగిందో ఇది చెబుతుంది.",
-   "pub": "2026-11-27T05:21+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Anakapalli",
-    "stat": "81.48 per cent",
-    "statl": "polling recorded",
-    "loc": "",
-    "h": "Anakapalli district records 81.48% polling",
-    "p": "The first phase of panchayat elections in Anakapalli district passed off peacefully on Thursday. In eight mandals, 3,19,663 of 3,92,343 voters cast their votes. District Collector Vijaya Krishnan said the turnout was 81.48 per cent. Those who voted included 1,66,582 women and 1,53,077 men.",
-    "pts": [
-     "Polling held at 1,860 stations",
-     "Elections in Anakapalli and Narsipatnam divisions",
-     "Polling watched from the Collectorate control room"
-    ],
-    "why": "It tells village voters in Anakapalli district how much polling their district saw."
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · अनकापल्ली",
-    "stat": "81.48 प्रतिशत",
-    "statl": "मतदान दर्ज",
-    "loc": "",
-    "h": "अनकापल्ली ज़िले में 81.48% मतदान",
-    "p": "अनकापल्ली ज़िले में पंचायत चुनाव का पहला चरण गुरुवार को शांति से हुआ। आठ मंडलों में 3,92,343 मतदाताओं में से 3,19,663 ने वोट डाला। ज़िला कलेक्टर विजया कृष्णन ने बताया कि 81.48 प्रतिशत मतदान दर्ज हुआ। वोट डालने वालों में 1,66,582 महिलाएं और 1,53,077 पुरुष थे।",
-    "pts": [
-     "1,860 केंद्रों पर मतदान",
-     "अनकापल्ली और नरसीपट्नम डिवीज़न में चुनाव",
-     "कलेक्टरेट कंट्रोल रूम से मतदान पर नज़र"
-    ],
-    "why": "यह अनकापल्ली ज़िले के गांवों के मतदाताओं को बताता है कि उनके ज़िले में कितना मतदान हुआ।"
-   },
-   "d": "27.11.2026",
-   "t": "07:05"
-  },
-  {
-   "cat": "ఏపీ · కర్నూలు",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "e/voting-day",
-   "stat": "దాదాపు 80 శాతం",
-   "statl": "పోలింగ్ నమోదు",
-   "h": "ఉమ్మడి కర్నూలులో దాదాపు 80 శాతం పోలింగ్",
-   "p": "ఉమ్మడి కర్నూలు జిల్లాలో గురువారం జరిగిన మొదటి విడత పంచాయతీ ఎన్నికల్లో దాదాపు 80 శాతం పోలింగ్ నమోదైంది. నంద్యాల జిల్లాలో 82 శాతానికి పైగా, కర్నూలు జిల్లాలో సుమారు 79 శాతం మంది ఓటు వేశారు. మొత్తం 242 పంచాయతీల్లో పోలింగ్ జరిగింది. ఆదోని మండలం సలకలకొండలో ఒక అభ్యర్థి ఆరు ఓట్ల తేడాతో గెలవడంతో ప్రత్యర్థి రీకౌంటింగ్ కోరారు.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/kurnool/nearly-80-turnout-recorded-in-erstwhile-kurnool-panchayat-polls-1146185",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-kurnool",
-   "loc": "",
-   "pts": [
-    "కర్నూలులో 135, నంద్యాలలో 107 పంచాయతీలు",
-    "కర్నూలు జిల్లాలో 13 పంచాయతీలు ఏకగ్రీవం"
-   ],
-   "why": "కర్నూలు, నంద్యాల జిల్లాల గ్రామాల ఓటర్లకు తమ ప్రాంతంలో ఎంత పోలింగ్ జరిగిందో ఇది చెబుతుంది.",
-   "pub": "2026-11-27T04:54+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "AP · Kurnool",
-    "stat": "Nearly 80 per cent",
-    "statl": "polling recorded",
-    "loc": "",
-    "h": "Nearly 80% polling in erstwhile Kurnool",
-    "p": "The erstwhile Kurnool district recorded a turnout of nearly 80 per cent in the first phase of panchayat elections on Thursday. Nandyal district saw over 82 per cent and Kurnool district about 79 per cent. Polling was held in 242 panchayats. In Salakalakonda in Adoni mandal, one candidate won by six votes and the rival sought a recount.",
-    "pts": [
-     "135 panchayats in Kurnool, 107 in Nandyal",
-     "13 panchayats in Kurnool district elected unanimously"
-    ],
-    "why": "It tells village voters in Kurnool and Nandyal districts how much polling their area saw."
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · कुरनूल",
-    "stat": "करीब 80 प्रतिशत",
-    "statl": "मतदान दर्ज",
-    "loc": "",
-    "h": "पुराने कुरनूल ज़िले में करीब 80% मतदान",
-    "p": "पुराने कुरनूल ज़िले में गुरुवार को पंचायत चुनाव के पहले चरण में करीब 80 प्रतिशत मतदान दर्ज हुआ। नंद्याल ज़िले में 82 प्रतिशत से ज़्यादा और कुरनूल ज़िले में लगभग 79 प्रतिशत मतदान हुआ। कुल 242 पंचायतों में वोट पड़े। अदोनी मंडल के सलकलकोंडा में एक उम्मीदवार छह वोट से जीता तो प्रतिद्वंद्वी ने दोबारा गिनती मांगी।",
-    "pts": [
-     "कुरनूल में 135, नंद्याल में 107 पंचायतें",
-     "कुरनूल ज़िले में 13 पंचायतें निर्विरोध"
-    ],
-    "why": "यह कुरनूल और नंद्याल ज़िलों के गांवों के मतदाताओं को बताता है कि उनके इलाके में कितना मतदान हुआ।"
-   },
-   "d": "27.11.2026",
-   "t": "07:05"
-  },
-  {
-   "cat": "ఏపీ · నంద్యాల",
-   "col": "--c-election",
-   "art": "voters",
-   "pic": "e/election-counting",
-   "stat": "రీకౌంటింగ్ వివాదం",
-   "statl": "గోస్పాడు మండలంలో",
-   "h": "గోస్పాడు మండలంలో రీకౌంటింగ్‌పై ఉద్రిక్తత",
-   "p": "నంద్యాల జిల్లా గోస్పాడు మండలంలో పంచాయతీ ఎన్నికల సందర్భంగా గురువారం ఉద్రిక్తత నెలకొంది. పసలపాడులో వైఎస్సార్‌సీపీ మద్దతుదారు గెలిచినట్లు తెలిశాక టీడీపీ నేతలు రీకౌంటింగ్ కోరి, లెక్కింపు కేంద్రం గేట్లు మూసేశారని ఆరోపణ. లెక్కింపు పారదర్శకంగా జరగాలంటూ గ్రామస్థులు రోడ్డుపై బైఠాయించారు. దీబగుంట్లలో వైఎస్సార్‌సీపీ పరిశీలకుడిని పోలీసులు గృహ నిర్బంధంలో ఉంచారు.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/news/cities/kurnool/tension-flares-up-in-gospadu-mandal-over-poll-irregularities-and-recounting-row-1146186",
-   "sec": [
-    "telangana"
-   ],
-   "st": "AP",
-   "place": "ap-nandyal",
-   "loc": "గోస్పాడు మండలం",
-   "pts": [
-    "టీడీపీ నేతలు ఓటర్లను ప్రలోభపెట్టారని వైఎస్సార్‌సీపీ పరిశీలకుడి ఆరోపణ",
-    "పోలీసులు నిష్పక్షపాతంగా ఉండాలని గ్రామస్థుల డిమాండ్"
-   ],
-   "why": "గోస్పాడు మండల గ్రామాల ఓటర్లకు తమ పంచాయతీ ఎన్నికపై వచ్చిన వివాదం గురించి ఇది చెబుతుంది.",
-   "pub": "2026-11-27T04:56+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "AP · Nandyal",
-    "stat": "Recount row",
-    "statl": "in Gospadu mandal",
-    "loc": "Gospadu mandal",
-    "h": "Tension over recount in Gospadu mandal",
-    "p": "Tension prevailed in Gospadu mandal of Nandyal district on Thursday during the panchayat elections. In Pasalapadu, after a YSRCP-backed candidate was reported to have won, TDP leaders allegedly sought a recount and shut the gates of the counting centre. Villagers sat on the road demanding transparent counting. In Deebaguntla, police placed a YSRCP observer under house arrest.",
-    "pts": [
-     "YSRCP observer alleges TDP leaders tried to induce voters",
-     "Villagers ask police to stay impartial"
-    ],
-    "why": "It tells village voters in Gospadu mandal about the dispute over their panchayat election."
-   },
-   "hi": {
-    "cat": "आंध्र प्रदेश · नंद्याल",
-    "stat": "दोबारा गिनती विवाद",
-    "statl": "गोस्पाडु मंडल में",
-    "loc": "गोस्पाडु मंडल",
-    "h": "गोस्पाडु मंडल में दोबारा गिनती पर तनाव",
-    "p": "नंद्याल ज़िले के गोस्पाडु मंडल में गुरुवार को पंचायत चुनाव के दौरान तनाव रहा। पसलपाडु में वाईएसआरसीपी समर्थित उम्मीदवार के जीतने की खबर के बाद टीडीपी नेताओं ने दोबारा गिनती मांगी और मतगणना केंद्र के गेट बंद कर दिए, ऐसा आरोप है। पारदर्शी गिनती की मांग पर ग्रामीण सड़क पर बैठ गए। दीबगुंटला में पुलिस ने वाईएसआरसीपी के एक पर्यवेक्षक को घर में नज़रबंद रखा।",
-    "pts": [
-     "वाईएसआरसीपी पर्यवेक्षक का आरोप: टीडीपी नेताओं ने मतदाताओं को लुभाया",
-     "ग्रामीणों की मांग: पुलिस निष्पक्ष रहे"
-    ],
-    "why": "यह गोस्पाडु मंडल के गांवों के मतदाताओं को उनके पंचायत चुनाव पर हुए विवाद के बारे में बताता है।"
-   },
-   "d": "27.11.2026",
-   "t": "07:05"
   }
  ]
 }
