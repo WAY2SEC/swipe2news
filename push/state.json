@@ -330,30 +330,6 @@
  ],
  "log": [
   {
-   "t": "2026-11-25T09:16:52.312755+05:30",
-   "kind": "local",
-   "place": "karimnagar",
-   "h": "కరీంనగర్ వైద్యుడికి జీవిత సాఫల్య అవార్డు"
-  },
-  {
-   "t": "2026-11-25T09:16:52.312755+05:30",
-   "kind": "local",
-   "place": "bhadradri",
-   "h": "కొత్తగూడెంలో కార్తీక జ్వాలా తోరణం"
-  },
-  {
-   "t": "2026-11-25T09:16:52.312755+05:30",
-   "kind": "local",
-   "place": "hyderabad",
-   "h": "హైదరాబాద్‌లో 10 గ్రాముల బంగారం ₹1,27,810"
-  },
-  {
-   "t": "2026-11-25T09:16:52.312755+05:30",
-   "kind": "local",
-   "place": "mulugu",
-   "h": "కాళేశ్వరం నీళ్లు ఎత్తే పని లేదు: సీతక్క"
-  },
-  {
    "t": "2026-11-25T09:47:07.126521+05:30",
    "kind": "local",
    "place": "AP",
@@ -940,14 +916,16 @@
    "kind": "local",
    "place": "bhadradri",
    "h": "రోళ్లగడ్డలో స్థూపం తొలగింపుపై ఆవేదన"
+  },
+  {
+   "t": "2026-11-27T09:18:23.124687+05:30",
+   "kind": "jobs",
+   "place": null,
+   "h": "2 new jobs"
   }
  ],
  "slot": "2026-11-27-7",
  "jobs_seen": [
-  "bhel-et-st-415-2026",
-  "isro-sdsc-shar-apprentice-400-2026",
-  "appsc-tech-asst-mines-32-2026",
-  "appsc-amvi-36-2026",
   "sanofi-analytics-platforms-analyst-R2871874",
   "ntpc-exec-ccus-12-2026",
   "powergrid-powertel-te-cc-04-2026",
@@ -965,11 +943,13 @@
   "sbi-sco-gm-cstra-36-2026",
   "cpcl-executives-02-2026",
   "vpa-trade-apprentice-11-2026",
+  "iith-bt-ra1-als-genomeindia-2026",
   "rrb-isolated-cen09-2026",
   "iith-project-associate-civil-2026",
   "iocl-pipelines-apprentice-500-2026",
   "beml-iti-trainee-fitter-electrician-kps20-2026",
   "dvc-et-gate-2026",
+  "niab-project-scientist1-34-2026",
   "sbi-sco-data-scientist-31-2026",
   "iaf-afcat-01-2027",
   "appsc-group2-37-2026",
@@ -978,6 +958,7 @@
   "bhu-hospital-nonteaching-06-2026-27",
   "asrb-icar-ta-sta-1393-2026",
   "csir-hq-mts-driver-ra-02-2026",
+  "bhel-et-st-415-2026",
   "cdfd-scientist-04-2026",
   "amazon-transport-spec-i-roc-10500770",
   "zeta-associate-analyst-6151249004",
@@ -1052,5 +1033,5 @@
   "ikea-sales-team-leader-346203",
   "amgen-sr-assoc-comm-analytics-R-261015"
  ],
- "jobday": "2026-11-26"
+ "jobday": "2026-11-27"
 }
