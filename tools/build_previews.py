@@ -14,6 +14,9 @@ import json, os, glob, base64, html, threading, functools, datetime, sys
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, "tools"))
+from edition_guard import snippet as _edition_snippet
+EDITION_GUARD = _edition_snippet("in")  # Nigerian readers go to /ng/ (owner 27 Nov 2026)
 SITE = "https://swipe2news.com"
 # link-preview pictures: first from our own site (WhatsApp shows these reliably), then the same file on GitHub as a backup
 IMG = "https://swipe2news.com"
@@ -169,7 +172,7 @@ def page(sid, s, kind, img, has_card, target, desc, related):
           "publisher": {"@type": "Organization", "name": "Swipe2News", "logo": {"@type": "ImageObject", "url": SITE + "/icon-512.png"}},
           "mainEntityOfPage": f"{SITE}/s/{sid}", "isBasedOn": (s.get("url") if kind == "news" else s.get("apply")) or None}
     ld = {k: v for k, v in ld.items() if v}
-    return f"""<!doctype html><html lang="te"><head><meta charset="utf-8">
+    return f"""<!doctype html><html lang="te"><head><meta charset="utf-8">{EDITION_GUARD}
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{e(title)} | Swipe2News</title>
 {'<meta name="robots" content="noindex">' if s.get("wd") else '<meta name="robots" content="max-image-preview:large">'}<meta name="description" content="{e(desc)}">
@@ -373,7 +376,7 @@ STATIC_PAGES = {
 
 def static_page(title, desc, body, name=""):
     sh = shell(); e = lambda t: html.escape(t or "", quote=True)
-    return f"""<!doctype html><html lang="te"><head><meta charset="utf-8">
+    return f"""<!doctype html><html lang="te"><head><meta charset="utf-8">{EDITION_GUARD}
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{SITE}/{name}">

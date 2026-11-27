@@ -9,6 +9,9 @@ Writes, from news.json + the last days of archive/ + jobs.json:
 Run by tools/build_previews.py at the end of every build; can also be run alone: python3 tools/build_lang.py
 """
 import datetime, glob, html, json, os, re
+sys_path_ok = __import__("sys").path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
+from edition_guard import snippet as _edition_snippet
+EDITION_GUARD = _edition_snippet("in")  # Nigerian readers go to /ng/ (owner 27 Nov 2026)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://swipe2news.com"
@@ -210,7 +213,7 @@ def lang_page(l, S, jobs):
     return f"""<!doctype html>
 <html lang="{U['html']}">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">{EDITION_GUARD}
 <title>{e(U['title'])}</title>
 <meta name="description" content="{e(U['desc'])}">
 <meta name="robots" content="max-image-preview:large">

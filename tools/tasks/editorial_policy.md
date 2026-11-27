@@ -27,7 +27,7 @@ this file. If a task file says something stricter, the stricter rule wins.
   - `official` – from the official body's own statement, page or press release;
   - `confirmed` – the same facts in 2 or more independent outlets (list them in `srcs`);
   - `single` – one established outlet (allowed ONLY for routine, non-sensitive news);
-  - `editor` – a held story an editor approved (set by the publishing step);
+  - `editor` – a story an editor approved on /editor/;
   - `owner` – added by the owner by hand.
 - `srcs` (optional): other outlets that carry the same story, `[{"n": "Punch", "u": "https://…"}]`, at most 3.
 - `lbl` trust label as before (fact / claim / opinion / forecast / misleading).
@@ -39,23 +39,18 @@ this file. If a task file says something stricter, the stricter rule wins.
 - A new development of an event already published updates that card's text (keep its `_sid` so shared links work)
   instead of adding a second card.
 
-## 5. Sensitive news – cross-check, then hold for an editor (Mixed approval)
+## 5. Sensitive news – cross-check, then publish automatically (owner 27 Nov 2026: no editor approval)
 Sensitive = elections and party politics (allegations, campaign claims, polls, results, defections), security
 (attacks, banditry, terrorism, kidnapping, communal or ethnic clashes), crime and courts that name an accused person,
 deaths, disasters and casualty figures, breaking news, disease outbreaks and health scares, religion/caste/ethnic
 tension, and any story that could harm a named private person.
 - Cross-check first: a sensitive story needs the official source itself OR at least 2 independent established
-  outlets. One outlet only → do not publish or hold it; list it in the report as "single source".
-- Hold, do not publish: send the finished card to the editor queue (newsroom action `hold`, see the task file) with a
-  short `risk` reason and `"ed": "in"` or `"ed": "ng"` in the story. The editor approves or rejects it at
-  swipe2news.com/editor/ (separate India and Nigeria queues); approved cards are published by the next publishing
-  run with `"vs": "editor"`.
-- Routine (goes live without approval): non-sensitive topics (business, economy, education, jobs, sports results,
-  weather, technology, culture, schemes) and neutral official announcements from the body itself (an INEC or ECI
-  timetable, a CBN/RBI rate decision, a police safety advisory) with no allegation, casualty figure or blame.
-- When unsure, hold.
-- Even after approval: allegations are written as allegations and attributed (`lbl` "claim"); no names or identifying
-  details of victims, minors or suspects; no graphic detail; suicide never describes the method.
+  outlets. One outlet only → do not publish it; list it in the report as "single source".
+- Then it is published automatically like any other story, with the safeguards: allegations written as allegations
+  and attributed (`lbl` "claim"); no names or identifying details of victims, minors or suspects; no graphic detail;
+  suicide never describes the method; figures attributed; where outlets differ, say so.
+- Mistakes are fixed afterwards with corrections (§9). The editor page (/editor/) still works for reporters' stories
+  and for anything someone holds by hand, with separate India and Nigeria queues.
 
 ## 6. Political neutrality
 - Report what each side did or said in the same tone; no adjectives that judge; no party or candidate gets more
@@ -84,5 +79,6 @@ no outside article link to the owner's source (e.g. the official post) or show t
 ## 10. Separate editions
 India and Nigeria keep separate feeds (`feeds` / `feeds-ng`), separate news files (`news.json` / `editions/ng/news.json`),
 separate categories (India: Telangana · AP · India · World …; Nigeria: Politics · Business · Lagos · Security · Sports ·
-World) and separate editor queues (`ed` "in" / "ng"). A task never writes the other edition's files, except the
+World) and separate editor queues (`ed` "in" / "ng"). Readers are kept apart too (tools/edition_guard.py): a device
+that used the India app before 27 Nov 2026 stays India; new readers in Nigeria get only Nigeria. A task never writes the other edition's files, except the
 reporter task publishing approved queue items into their own edition.

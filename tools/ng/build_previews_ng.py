@@ -2,15 +2,17 @@
 """Swipe2News Nigeria: a WhatsApp link-preview page for every story in editions/ng/news.json.
 
   ng/s/<id>.html   small article page with og: tags (WhatsApp/Facebook/X show title, summary and picture).
-                   Every visitor (owner 26 Nov 2026: "open the link to everyone") jumps straight into the Nigeria app at
-                   /ng/?s=<id>, wherever they are; link-preview bots just read the og: tags.
+                   Nigerian readers jump into the Nigeria app at /ng/?s=<id>; anyone else goes to the India app
+                   (owner 27 Nov 2026: each country sees only its own news). Link-preview bots just read the og: tags.
   ng/cards/<id>.jpg 1200x630 preview picture, only for stories with a photo (pic != "logo").
                    Stories without a photo use art/ng/og.jpg (the Swipe2News Nigeria picture).
 
 Pages/cards of stories no longer in the feed are removed to keep the site small.
 Needs only Pillow. Run: python3 tools/ng/build_previews_ng.py
 """
-import json, os, html, glob
+import json, os, html, glob, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+from edition_guard import snippet as _edition_snippet
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 SITE = "https://swipe2news.com"
@@ -47,6 +49,7 @@ def card(s, k):
 
 
 def page(s, k, img):
+    GUARD = _edition_snippet("ngshare", "'/ng/?s=" + k + "'")
     url = f"{SITE}/ng/s/{k}.html"
     title, desc = s.get("h", ""), s.get("p", "")
     short = desc if len(desc) <= 190 else desc[:187].rsplit(" ", 1)[0] + "…"
@@ -65,7 +68,7 @@ def page(s, k, img):
 <meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{SITE}{img}">
 <meta name="theme-color" content="#4A0E3F"><link rel="icon" href="/art/logo.svg">
-<script>try{{if(!/[?&]stay/.test(location.search)&&!/bot|crawl|spider|facebookexternalhit|WhatsApp|Twitterbot|TelegramBot/i.test(navigator.userAgent))location.replace('/ng/?s={k}');}}catch(x){{}}</script>
+{GUARD}
 <style>body{{margin:0;background:#F5EBDD;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#202124}}
 .w{{max-width:560px;margin:0 auto;background:#FFFDF5;min-height:100vh}}
 .hd{{display:flex;align-items:center;gap:10px;padding:12px 16px;background:#FFFDF5}}.hd img{{width:38px;height:38px;border-radius:10px}}

@@ -42,28 +42,14 @@ duplicates, Mixed approval for sensitive news, neutrality, pictures, corrections
 - Election 2027 news: add "election" to `sec` (e.g. ["politics","election"]). Neutral: same tone for every party and
   candidate; dates and procedures only from INEC; results only as INEC declares them.
 
-## 3b. Sensitive news – cross-check, then HOLD for the editor (Mixed approval)
+## 3b. Sensitive news – cross-check, then publish automatically with safeguards (owner 27 Nov 2026: no editor approval)
 - Sensitive = editorial_policy.md §5: election/party allegations, campaign claims, defections, polls; attacks,
   banditry, kidnapping, terrorism, communal or farmer–herder clashes; crime and courts naming an accused; deaths,
   accidents and disasters with casualty figures; outbreaks; religious/ethnic tension; breaking news.
-  Neutral official announcements (INEC timetable, CBN rate decision, a police advisory) are routine and publish normally.
-- Cross-check: the official source OR 2+ independent outlets. One outlet only → skip it (report as "single source").
-- Write the full card with the safeguards (allegations attributed, `lbl` "claim"; no names of victims, minors or
-  suspects; no graphic detail), add `"ed":"ng"`, then HOLD instead of publishing: POST with Python urllib
-  (Content-Type text/plain;charset=utf-8; newsroom URL from `reporter/config.js` `window.W2S_NEWSROOM`; CA bundle
-  /root/.ccr/ca-bundle.crt if present) `{"action":"hold","key":KEY,"items":[{"risk":"<why, ≤12 words>","story":{…}}]}`.
-  KEY is given in this scheduled task's prompt – never write it into a file, commit or message. If there is no KEY or
-  the POST fails, do not publish those stories; report them as "held – not sent".
-- The editor approves at swipe2news.com/editor/ (🔎 web news → 🇳🇬 Nigeria).
-
-## 3c. Publish what the editor approved
-- POST `{"action":"reviewapproved","key":KEY}` → items `{id, risk, note, story}`. Use ONLY items whose
-  `story.ed` is "ng" (India items belong to the India reporter task – leave them).
-- For each: skip if its `url` is already in `editions/ng/news.json` (then still mark it published, step 4). Otherwise
-  apply the editor's `note` (if it asks for a change), set `vs` "editor", `rv` = item id, `d`/`t` to now (WAT, keep
-  `pub`), and put it at the top with the new cards.
-- After a successful push: POST `{"action":"reviewpublished","key":KEY,"id":"<id>","link":"https://swipe2news.com/ng/s/<sid>.html"}`
-  (sid = djb2 of url|h in base 36, as in tools/ng/build_previews_ng.py).
+- Cross-check: the official source OR 2+ independent outlets (others in `srcs`). One outlet only → skip it (report
+  as "single source").
+- Publish with the safeguards: allegations attributed, `lbl` "claim"; no names of victims, minors or suspects; no
+  graphic detail; figures attributed to whoever gave them; where outlets differ, say so.
 
 ## 3d. Corrections
 - If a source corrected or retracted a story of the last 3 days, or you find a wrong fact: fix `h`/`p`, add
@@ -85,6 +71,5 @@ duplicates, Mixed approval for sensitive news, neutrality, pictures, corrections
 - Changes to editions/ng/ start no phone alert, story check or IndexNow – do not run those tools.
 
 ## 5. Report
-Finish with: "⏳ Waiting for editor approval: N (swipe2news.com/editor/)" and each held headline with its risk (only if
-N > 0); approved stories published; then one line: how many stories were added, the newest headline, and how many feeds
-worked (from status.json). The newsroom requests in 3b/3c are the only outside requests allowed.
+Finish with one line: how many stories were added, the newest headline, and how many feeds
+worked (from status.json).

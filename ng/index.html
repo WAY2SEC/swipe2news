@@ -17,12 +17,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<script>
-/* Nigeria edition is only for phones on Nigerian time (Africa/Lagos). Everyone else goes to the normal app –
-   except a shared story link (?s=<id>, owner 26 Nov 2026): that opens the Nigeria story for everyone. */
-(function(){try{var tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';
- if(tz!=='Africa/Lagos'&&!/[?&]s=/.test(location.search)&&!/bot|crawl|spider|Lighthouse/i.test(navigator.userAgent))location.replace('/');}catch(e){}})();
-</script>
+<script>/* S2N edition: India and Nigeria readers each see only their own news (owner 27 Nov 2026). Earlier India readers stay India; new readers in Nigeria get Nigeria. Admin: ?admin=both (off: ?admin=off). */(function(){try{var P='ng',ls=localStorage,q=new URLSearchParams(location.search),A='s2n.admin',E='s2n.ed';if(q.get('admin')==='both')ls.setItem(A,'1');if(q.get('admin')==='off')ls.removeItem(A);if(ls.getItem(A)==='1')return;if(/bot|crawl|spider|slurp|facebookexternalhit|WhatsApp|Twitterbot|TelegramBot|Lighthouse|Google-InspectionTool/i.test(navigator.userAgent))return;var go=function(c){var u=(P!=='ng'&&c==='NG')?'/ng/':(P!=='in'&&c!=='NG')?'/':'';if(u){window.__s2nGo=1;location.replace(u);}};var ed=ls.getItem(E);if(!ed){for(var i=0;i<ls.length;i++){var n=ls.key(i)||'';if(n.indexOf('w2s.')===0&&(n.indexOf('w2s.first.')!==0||(+ls.getItem(n)||0)<1795651200000)){ed='in';ls.setItem(E,'in');break;}}}if(ed)return go(ed==='ng'?'NG':'IN');var ng=function(){ls.setItem(E,'ng');go('NG');};var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';}catch(e){}if(tz==='Africa/Lagos')return ng();if(tz==='Asia/Kolkata'||tz==='Asia/Calcutta')return go('IN');var g=(ls.getItem('s2n.geo')||'').split('|');if(g[0]&&Date.now()-(+g[1]||0)<3*864e5)return g[0]==='NG'?ng():go(g[0]);fetch('https://get.geojs.io/v1/ip/country.json').then(function(r){return r.json();}).then(function(j){var c=String(j.country||'').toUpperCase();if(c){ls.setItem('s2n.geo',c+'|'+Date.now());if(c==='NG')ng();else go(c);}}).catch(function(){if(P!=='in')location.replace('/');});}catch(e){}})();</script>
 <style>
 /* Swipe2News Nigeria – same layout as the India app (owner, 26 Nov 2026): brand bar with ✨ Today + ☰ menu,
    full-height cards with an action bar, bottom dock (‹ · my swipe counter · moving tagline · 🏠 · Next ›). */
@@ -235,7 +230,6 @@ p.wdn{font:600 14px/1.5 var(--ui);color:#B3261E;background:#FDECEA;border-radius
   <h2 id="cT">Choose your country</h2>
   <p>We show the news for your country. More countries are coming.</p>
   <button class="opt" type="button" aria-current="true" data-close>🇳🇬<span>Nigeria<small>English · Nigerian and world news</small></span></button>
-  <button class="opt" type="button" id="goIN">🇮🇳<span>India<small>Telangana &amp; Andhra Pradesh · తెలుగు · English · हिन्दी</small></span></button>
   <button class="opt" type="button" disabled>🇬🇭<span>Ghana<small>Coming soon</small></span></button>
   <button class="opt" type="button" disabled>🇰🇪<span>Kenya<small>Coming soon</small></span></button>
   <button class="opt pri" type="button" data-close>Done</button>
@@ -434,7 +428,6 @@ $('q').oninput=()=>{ const w=$('q').value.trim().toLowerCase(); if(w.length<2){ 
   $('res').innerHTML=r.length?r.map(s=>`<button type="button" data-k="${sid(s)}">${esc(s.h)}<small>${esc(s.cat)} · ${esc(when(s))}</small></button>`).join(''):'<p>No stories found.</p>'; };
 $('res').onclick=e=>{ const b=e.target.closest('[data-k]'); if(b) jumpTo(b.dataset.k); };
 $('cBtn').onclick=()=>{ $('cSheet').hidden=false; };
-$('goIN').onclick=()=>{ location.href='/?ed=in'+(q.get('source')?'&source='+encodeURIComponent(q.get('source')):''); };   // saved as s2n.pick=in; ?ed=ng comes back
 $('stBtn').onclick=()=>{ $('states').innerHTML=['All Nigeria'].concat(STATES).map(n=>`<button type="button" data-st="${n==='All Nigeria'?'':n}" ${((STATE||'')===(n==='All Nigeria'?'':n))?'style="border-color:var(--plum);box-shadow:0 0 0 2px var(--plum) inset"':''}>📍 ${n}</button>`).join(''); $('sSheet').hidden=false; };
 $('states').onclick=e=>{ const b=e.target.closest('[data-st]'); if(!b) return; STATE=b.dataset.st; LS.set('state',STATE); $('sSheet').hidden=true; build(false); hello(); show(0); toast(STATE?'📍 '+STATE+' stories come first':'📍 All Nigeria'); };
 $('nameBtn').onclick=()=>{ $('profBtn').click(); setTimeout(()=>$('nm').focus(),50); };
