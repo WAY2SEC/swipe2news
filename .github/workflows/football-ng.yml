@@ -1,0 +1,26 @@
+name: Nigeria football
+# Every 10 minutes: scores and fixtures for the ⚽ football bar (editions/ng/football.json) and football alerts
+# (only to Nigeria readers who switched football alerts on: tags edition=ng, fb=1).
+on:
+  schedule: [{ cron: '*/10 * * * *' }]
+  workflow_dispatch:
+concurrency: { group: football-ng, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  football:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 1 }
+      - name: Scores and fixtures
+        run: python3 tools/ng/football_ng.py
+      - name: Football alerts
+        env: { ONESIGNAL_REST_KEY: "${{ secrets.ONESIGNAL_REST_KEY }}" }
+        run: python3 tools/ng/football_alerts_ng.py
+      - name: Save
+        run: |
+          git config user.name "Swipe2News Bot"; git config user.email news-bot@swipe2news.invalid
+          git add editions/ng/football.json push/football-ng.json
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Nigeria football $(TZ=Africa/Lagos date '+%H:%M') WAT"
+          for i in 1 2 3 4; do git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0; sleep 5; done
