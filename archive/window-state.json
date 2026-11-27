@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-27T08:05:00+05:30",
+ "cutoff": "2026-11-27T08:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-24T14:35:00+05:30/2026-11-24T15:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 5,
-   "late": 1,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Lookback from 06:35. Feeds 15:32 IST (70/70 ok). 15:05 sister run had not saved state. add_repo tool not available; used existing clone. Published: NT News Bachupally septic tank 3 deaths (sensitive, no names), DC CM Naidu review of 8 road deaths, Andhra Jyothy AP SEC poll review, Sakshi YSRCP legal notices (claim, late-found 08:43), DC Kanumuru tiger operation. Duplicates: Basara IIIT student death (10:35), SI hall tickets (23 Nov). Skipped old: South First/Medical Dialogues AP Rs1,011cr hospitals (19-21 Nov), TT Manjeera cut (18 Oct), newsonair rain (2024). Not opened (no search hit for feed headline): Vaartha/TV9 trough rain forecast, NT Adilabad fake currency, Hindu TG agri NPAs Rs7,304cr, HMTV Alluri panchayat phases, HMTV Kollapur KLI water, ETV AP road-safety GO, NTV Khajaguda green tankers, TT IndiGo Agartala, TT Nizamabad ATM, Samayam Singur Dec 20. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-24T15:35:00+05:30/2026-11-24T16:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Lookback from 23:35 Nov 26. Feeds 07:57 IST (70/70 ok; 2787 uncovered, 935 TG/AP). add_repo tool not available; used existing clone. Published 10: 10TV Hyderabad midnight rain (07:37), NewsMeter Gadwal ACB ADE arrest (07:35, sensitive), V6 AIDS control 97% (06:57), TT HC reserves orders Moosapet Truck Park (00:25), Hans GHMC 45 fines (04:58), Hans Khammam Collector POSH (05:03), Hans APSPDCL RDSS Dec deadline (05:17), Andhra Jyothy APSRTC drivers pay (06:00), Hans Jagan Rayalaseema lift (05:33, claim), Siasat Trump Iran (07:52, claim). Duplicate: The Hindu Puranapul traffic diversions (covered 26 Nov). Not opened: Sakshi Education 526 assistant professor posts (client error); The Hindu Hyderabad rain, ASR 59.61% turnout, DNA data storage (no search hit). No district searches this run. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-27T08:05:00+05:30/2026-11-27T08:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 2,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 00:05 Nov 27. Feeds 08:12 IST (70/70 ok; 2749 uncovered, 888 TG/AP; 204 local uncovered in lookback). add_repo tool not available; used existing clone. Published 3: HMTV LB Nagar Tirumala room fraud (08:08), NewsMeter IT corridor commute (08:00, claim), Hans Hyderabad last-mile transit (02:10). Duplicates: Siasat Black Friday TGCSB advisory (covered 24 Nov), Hans Sagar water row, Siasat/TT matrimony fraud, Apple Kukatpally store (covered 26 Nov). Skipped as old (before lookback): DC Revanth vs Nitin Nabin (22:56 Nov 26; Achampet speech covered), Sakshi Kuppam YSRCP worker death (20:47 Nov 26), ap7am Appi Reddy bail denied (25 Nov). Not opened: ANI Revanth debate challenge (client error), Sakshi Education 526 assistant professor posts (client error), NIE Appi Reddy HC bail plea (no search hit). Generic district searches returned no dated items. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6313,6 +6313,46 @@
    "url": "https://www.thehindu.com/news/national/telangana/water-works-to-trigger-traffic-diversions-between-puranapul-and-tappachabutra/article71747386.ece",
    "d": "2026-11-27",
    "w": "dup"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/hyderabad/lb-nagar-cyber-crime-fake-tirumala-room-booking-website-fraud-businessman-217654",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/hyderabad/from-25-minutes-to-45-hyderabads-it-corridor-commute-is-getting-longer-780070",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/hyderabad-public-transport-hobbled-by-last-mile-connectivity-hitch-1146105",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/black-friday-sale-scams-telangana-cyber-bureau-issues-advisory-3587886/",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/cm-revanth-slams-nitin-nabin-says-he-failed-bjp-in-his-own-seat-cant-achieve-anything-in-tg-2008300",
+   "d": "2026-11-27",
+   "w": "skipped"
+  },
+  {
+   "url": "https://sakshi.com/telugu-news/andhra-pradesh/tdp-anarchy-ysrcp-worker-dies-attack-kuppam-2970980",
+   "d": "2026-11-27",
+   "w": "skipped"
+  },
+  {
+   "url": "https://ap7am.com/tn/888045/bail-denied-for-ysrcp-mlc-lella-appi-reddy",
+   "d": "2026-11-27",
+   "w": "skipped"
+  },
+  {
+   "url": "https://tv9telugu.com/telangana/hyderabad-businessman-duped-of-rs-12-75-lakh-in-gold-trading-scam-via-matrimony-site-1967482.html",
+   "d": "2026-11-27",
+   "w": "duplicate"
   }
  ]
 }
