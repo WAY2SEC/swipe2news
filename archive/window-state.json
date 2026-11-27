@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-27T05:35:00+05:30",
+ "cutoff": "2026-11-27T06:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-24T09:35:00+05:30/2026-11-24T10:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 7,
-   "late": 0,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Lookback from 01:35. Feeds 10:30 IST (68/70 ok). 34 uncovered local events first seen since 09:00. add_repo tool not available; used existing clone. Published: NT Basara IIIT student death (fact, sensitive, no name/method), DC Wyra Hyderabad couple crash (fact, no names), DC Telangana cold wave Nov 30-Dec 2 (forecast), Siasat Retatrutide online sale case (fact), Siasat Apollo 83-yr-old two valve procedures (fact), NTV Kavitha Kovvur (claim), Telangana Today/IANS Grok lawsuits (claim). Duplicates: DC KCR Erravalli staffer = Mustabad hit-and-run (07:35 run); Inshorts/News18 Murtaza Pahalwan = AIMIM leader Himayat Sagar (23 Nov). Skipped old: DC Yenkapally Jain heritage (23 Nov 21:01). Not found by search: TNIE DSC-2002 records, TOI TIDCO Rs1,500 cr, The Hindu Sigachi Rs1 crore. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-24T10:35:00+05:30/2026-11-24T11:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Lookback from 21:05 Nov 26. Feeds 05:21 IST (68/68 ok; 2691 uncovered, 819 TG/AP). add_repo tool not available; used fresh clone. Published 4: Siasat/DC HC jails Cyberabad CP & Medchal DCP (21:51, late), Hans DGP stagger IT timings at Cyberabad Moves (04:25), Hans War Room for Global Summit (04:28), Asianet/ANI Gurnoor Brar debut 2nd Test (03:30). Duplicates: Hans Gangaram anganwadi boy reward (covered 26 Nov), Hans Nirmal ganja in cotton (covered). Skipped: UNI HIV 31 districts (16:13 Nov 26, before lookback; TOI 03:07 version not opened), Hans MGM collector visit (19 Nov), Hans Kurnool/Nandyal 70.16% (6 Nov), DC Jammalamadugu polling (old). Not opened: TOI stevia, Andhrajyothy inter-state seniority petition, Hans Telangana Police sports meet, Adda247 526 asst professor posts (no reputable source found). District searches weak (Nalgonda, Khammam, Kurnool, Adilabad/Nizamabad/Karimnagar, Visakhapatnam) – mostly tag pages. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-27T05:35:00+05:30/2026-11-27T06:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 8,
+   "published": 8,
+   "late": 3,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 1,
+   "review": 1,
+   "gaps": "Lookback from 21:35 Nov 26. Feeds 05:43 IST (70/70 ok; 2769 uncovered, 884 TG/AP). add_repo tool not available; used existing clone. Published 8: AJ Amaravati quantum centre Dec 5 (05:30, forecast), Hans AP DGP polls peaceful/44 incidents (05:31), Hans Nellore polling (05:15), Hans Bhadrachalam Mukkoti Ekadasi (05:06), NT Naidu Palvancha temple visit (03:04, late), Hans Rushikonda coastal security (05:26), NT Karimnagar RTC driver death (03:36, late, claim), Hans Nizamabad police sports meet (03:39, late). Duplicates: Hans Jagan Seema water (covered 26 Nov), Hans Naidu Tirumala (covered), Hans Sagar water releases (covered 05:05), AJ Nellore bus fire (covered 26 Nov). Skipped: Telugupost rain alert (25 Nov). Review: Webdunia 27 Nov weather (only updated time). Not attempted: Eenadu-only district items (Mahabubnagar, Adilabad, Palnadu, Karimnagar), Sakshi/AJ court items, Hans Vinmayi archery, Vagdevi handball, Mudigubba counting, India/world items. No district searches this run. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6058,6 +6058,86 @@
    "url": "https://www.thehansindia.com/news/cities/kurnool/kurnool-and-nandyal-record-7016-turnout-in-local-body-elections-1139759",
    "d": "2026-11-27",
    "w": "2026-11-27T05:35"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/pm-modi-to-launch-amaravati-quantum-computing-centre-1580200.html",
+   "d": "2026-11-27",
+   "w": "2026-11-27T06:05"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/amaravati/elections-end-peacefully-dgp-hails-smooth-voting-1146212",
+   "d": "2026-11-27",
+   "w": "2026-11-27T06:05"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/nellore/polling-peaceful-in-nellore-dist-1146204",
+   "d": "2026-11-27",
+   "w": "2026-11-27T06:05"
+  },
+  {
+   "url": "https://www.thehansindia.com/telangana/mukkoti-ekadasi-elaborate-arrangements-planned-1146199",
+   "d": "2026-11-27",
+   "w": "2026-11-27T06:05"
+  },
+  {
+   "url": "https://ntnews.com/telangana/thummala-greets-chandrababu-naidu-at-kothagudem-helipad-as-police-block-tdp-workers-during-temple-visit-2570085",
+   "d": "2026-11-27",
+   "w": "2026-11-27T06:05"
+  },
+  {
+   "url": "https://www.thehansindia.com/telangana/tdp-supporters-protest-naidus-kothagudem-visit-1146189",
+   "d": "2026-11-27",
+   "w": "2026-11-27T06:05"
+  },
+  {
+   "url": "https://telanganatoday.com/ap-chief-minister-chandrababu-naidu-visits-kothagudem-temple",
+   "d": "2026-11-27",
+   "w": "2026-11-27T06:05"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/special-vigilance-on-coastal-security-1146210",
+   "d": "2026-11-27",
+   "w": "2026-11-27T06:05"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/tsrtc-driver-dies-of-heart-attack-in-karimnagar-family-stages-protest-with-body-alleging-harassment-by-officials-2570106",
+   "d": "2026-11-27",
+   "w": "2026-11-27T06:05"
+  },
+  {
+   "url": "https://www.thehansindia.com/telangana/telangana-police-sports-meet-begins-1146153",
+   "d": "2026-11-27",
+   "w": "2026-11-27T06:05"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/amaravati/jagan-accuses-naidu-of-sacrificing-water-security-of-seema-1146213",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/tirupathi/cm-naidu-worships-lord-at-tirumala-1146215",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/telangana/telangana-ap-battle-over-water-resurfaces-at-nagarjunasagar-1146149",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/nellore-bus-fire-34-passengers-escape-safely-1580196.html",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.telugupost.com/telangana/andhra-telangana-rain-alert-today-1626404",
+   "d": "2026-11-27",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telugu.webdunia.com/article/andhra-pradesh-news/weather-forecast-on-telangana-andhra-pradesh-27th-november-2026-126112600042_1.html",
+   "d": "2026-11-27",
+   "w": "review"
   }
  ]
 }
