@@ -103,6 +103,27 @@ p.wdn{font:600 14px/1.5 var(--ui);color:#B3261E;background:#FDECEA;border-radius
 @media (max-height:760px){ .pic{flex-basis:25%;min-height:104px} .pic .mark{width:60px;height:60px;border-radius:16px} .num b{font-size:19px} .num span{font-size:14px}
   header{padding-top:max(7px,env(safe-area-inset-top));padding-bottom:6px} p.sum{line-height:1.5} .acts button,.acts a{min-height:46px} .acts .wa{min-height:36px}
   .dock{padding-top:7px} .dock .prev{width:40px;height:40px} .home{width:42px;height:42px} .dock .next{height:42px} .gcard h2{font-size:40px} .gcard .sub{font-size:17px} }
+/* 3 tabs under the header (owner 27 Nov 2026) */
+.etabs{flex:none;display:flex;gap:4px;margin:0 12px 6px;padding:4px;border-radius:16px;background:#2E0827;box-shadow:0 4px 14px rgba(46,8,39,.18)}
+.etabs button{flex:1;min-width:0;height:36px;border:0;border-radius:12px;background:transparent;color:#FFFDF5;font:700 13.5px var(--ui);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:flex;align-items:center;justify-content:center;gap:6px;transition:background .2s,color .2s}
+.etabs button.el{color:#F5A23A}
+.etabs button[aria-selected=true]{background:#FFFDF5;color:var(--plum);box-shadow:0 1px 4px rgba(0,0,0,.25)}
+.etabs button.el[aria-selected=true]{background:#F5A23A;color:#2E0827}
+.etabs .vdot{width:8px;height:8px;border-radius:50%;background:#0E7A3E;box-shadow:0 0 0 2px #FFFDF5;flex:none}
+@media (max-height:760px){ .etabs button{height:32px;font-size:13px} .etabs{margin-bottom:4px} }
+/* Nigeria Decides 2027 card */
+.ecard{background:linear-gradient(160deg,#5A1450,var(--deep));color:#FFFDF5;overflow-y:auto}
+.ecard .eh{padding:18px 18px 4px;position:relative}.ecard .kick{font:800 11px var(--ui);letter-spacing:2.2px;color:#F5A23A}
+.ecard .flag{position:absolute;right:16px;top:16px;width:42px;height:28px;border-radius:5px;background:linear-gradient(90deg,#0E7A3E 33%,#fff 33% 66%,#0E7A3E 66%)}
+.ecard .ebig{font:800 72px/1 var(--ui);margin-top:10px;color:#FFFDF5}.ecard .ebig small{font:700 20px var(--ui);margin-left:6px}
+.ecard .lead{font:600 15px/1.4 var(--ui);margin-top:4px}
+.ecard .two{display:flex;gap:8px;padding:12px 18px}.ecard .two div{flex:1;background:rgba(255,253,245,.12);border-radius:12px;padding:9px 11px}.ecard .two b{display:block;font:800 17px var(--ui);color:#F5A23A}.ecard .two span{font:600 11.5px var(--ui)}
+.ecard .kd{margin:4px 18px 0;padding:12px 14px;background:#FFFDF5;color:var(--ink);border-radius:14px}
+.ecard .kd h3{font:800 11px var(--ui);letter-spacing:1.5px;color:var(--muted);margin-bottom:8px}
+.ecard .kd li{list-style:none;position:relative;padding:0 0 9px 18px;font:700 13px var(--ui)}.ecard .kd li:before{content:'';position:absolute;left:0;top:4px;width:9px;height:9px;border-radius:50%;background:#F5A23A}.ecard .kd li.dn:before{background:#0E7A3E}
+.ecard .kd li span{display:block;font:500 12px var(--ui);color:var(--muted)}
+.ecard .foot{padding:10px 18px 16px;font:600 12px var(--ui);opacity:.9}.ecard .foot a{color:#F5A23A}
+.pcard{background:var(--cream);align-items:center;justify-content:center;text-align:center;padding:24px}.pcard .ico{font-size:44px}.pcard h2{font:800 22px var(--ui);color:var(--plum);margin:10px 0 6px}.pcard p{color:var(--muted);font:500 15px/1.5 var(--ui);margin-bottom:16px}
 /* bottom dock */
 .dock{position:relative;display:flex;align-items:center;gap:10px;margin:0 10px;padding:9px 10px max(10px,env(safe-area-inset-bottom));background:var(--deep);border-radius:0 0 22px 22px}
 .dock:before{content:"";position:absolute;left:0;top:0;height:3px;width:var(--prog,0%);background:var(--apricot);box-shadow:0 0 10px var(--apricot);transition:width .25s}
@@ -183,6 +204,11 @@ p.wdn{font:600 14px/1.5 var(--ui);color:#B3261E;background:#FDECEA;border-radius
   <button class="today" id="today" type="button" aria-label="Today for you">✨ Today<span class="bub" id="bub"></span></button>
   <button class="menub" id="menuBtn" type="button" aria-label="Menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
 </header>
+<nav class="etabs" id="tabs" role="tablist" aria-label="News sections">
+  <button type="button" role="tab" data-tab="you" aria-selected="true">For You</button>
+  <button type="button" role="tab" data-tab="elec" aria-selected="false" class="el"><i class="vdot"></i>Election 2027</button>
+  <button type="button" role="tab" data-tab="local" aria-selected="false">📍 <span id="tabLoc">Local</span></button>
+</nav>
 <main id="stage"><div class="empty">Loading Nigeria news…</div></main>
 <div class="dock" id="dock">
   <button class="prev" id="prev" type="button" aria-label="Previous story">‹</button>
@@ -303,7 +329,7 @@ const LBL={fact:'FACT',claim:'CLAIM',opinion:'OPINION',forecast:'FORECAST'}; con
 const $=id=>document.getElementById(id), esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const q=new URLSearchParams(location.search);
 const LS={get(k,d){ try{ const v=localStorage.getItem('s2n.ng.'+k); return v==null?d:JSON.parse(v); }catch(e){ return d; } }, set(k,v){ try{ localStorage.setItem('s2n.ng.'+k,JSON.stringify(v)); }catch(e){} }};
-let ALL=[], list=[], i=0, sec='all';
+let ALL=[], list=[], i=0, sec='all', TAB='you';
 // reading memory (My Swipe) – phone only
 const M=Object.assign({read:{},seen:{},hist:[],last:'',visit:0,prevVisit:0},LS.get('mys',{}));
 M.prevVisit=M.visit||0; M.visit=Date.now();
@@ -311,7 +337,9 @@ const saveM=()=>{ M.hist=M.hist.slice(-150); const cut=Date.now()-7*864e5; for(c
 let SAVED=LS.get('saved',[]), FS=LS.get('fs',16), NAME=LS.get('name',''), STATE=LS.get('state',''), UNREAD=LS.get('unread',true);
 document.documentElement.style.setProperty('--fs',FS+'px');
 
-const isNews=s=>!!s&&!s.greet&&!s.svc;
+const isNews=s=>!!s&&!s.greet&&!s.svc&&!s.elec&&!s.pick;
+const ELX=/\b(INEC|elections?|electoral|2027 polls?|governorship|presidential (poll|race|candidate|election)|primar(y|ies)|PVCs?|voters?|BVAS|IReV|campaigns?|running mate|manifesto)\b/i;
+const isElec=s=>(s.sec||[]).includes('election')||ELX.test((s.h||'')+' '+(s.p||''));
 let JOBS=[], JUP='';
 function sid(s){ let h=5381; const t=(s.url||'')+'|'+(s.h||''); for(let k=0;k<t.length;k++) h=((h<<5)+h+t.charCodeAt(k))|0; return (h>>>0).toString(36); }
 function when(s){ try{ const d=new Date(s.pub); return d.toLocaleString('en-NG',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:'Africa/Lagos'})+' WAT'; }catch(e){ return (s.d||'')+' '+(s.t||''); } }
@@ -323,6 +351,8 @@ const inState=s=>STATE&&((s.loc||'')+' '+(s.cat||'')+' '+(s.h||'')).toLowerCase(
 /* the card list: greeting first (All), state stories first, read stories leave (like India) */
 function build(keep){
   const cur=keep&&list[i]&&isNews(list[i])?sid(list[i]):'';
+  if(TAB==='elec'){ let L=ALL.filter(isElec); list=[{elec:1}].concat(L); i=cur?Math.max(0,list.findIndex(s=>isNews(s)&&sid(s)===cur)):0; return; }
+  if(TAB==='local'){ const L=STATE?ALL.filter(inState):[]; list=L.length?L:[{pick:STATE?'none':'choose'}]; i=cur?Math.max(0,list.findIndex(s=>isNews(s)&&sid(s)===cur)):0; return; }
   let L=sec==='all'?ALL.slice():ALL.filter(s=>(s.sec||[]).includes(sec));
   if(STATE){ const a=L.filter(inState), b=L.filter(s=>!inState(s)); L=a.concat(b); }
   if(UNREAD){ const u=L.filter(s=>!M.read[sid(s)]||sid(s)===cur); if(u.length) L=u; else if(L.length) toast('All read 🎉 – showing every story again'); }
@@ -337,6 +367,17 @@ function card(s){
   if(s.svc){ const T={jobs:['💼','Jobs in Nigeria','Latest vacancies and recruitment','See all jobs ›'],wx:['⛅','Weather','<span id="wxP">'+esc(STATE||'Lagos')+'</span> today','Full forecast ›'],ngn:['₦','Naira today','Exchange rates','All rates ›']}[s.svc];
     return `<article class="card scard" id="card"><div class="shd"><span class="ico">${T[0]}</span><div><b>${T[1]}</b><small>${T[2]}</small></div></div><div class="sbody" id="svcBody"><p class="sum" style="color:var(--muted)">Loading…</p></div>
       <button class="opt pri" type="button" style="margin:0 14px 14px;width:auto" data-svc="${s.svc}">${T[3]}</button></article>`; }
+  if(s.elec){ const W=d=>Math.max(0,Math.ceil((new Date(d+'T08:00:00+01:00')-Date.now())/864e5)), P=W('2027-01-16'), G=W('2027-02-06'), today=new Date().toISOString().slice(0,10);
+    const KD=[['2026-11-28','Sat 28 Nov 2026','Nationwide mock accreditation & voting'],['2026-12-15','Tue 15 Dec 2026',"Final voters' register"],['2027-01-14','Thu 14 Jan 2027','Presidential campaigns end'],['2027-01-16','Sat 16 Jan 2027','Presidential & National Assembly'],['2027-02-06','Sat 6 Feb 2027','Governorship & State Assemblies']];
+    const n=list.filter(isNews).length;
+    return `<article class="card ecard" id="card"><div class="eh"><i class="flag"></i><div class="kick">NIGERIA DECIDES 2027</div>
+      <div class="ebig">${P}<small>day${P===1?'':'s'}</small></div><div class="lead">to the Presidential & National Assembly elections</div></div>
+      <div class="two"><div><b>Sat 16 Jan</b><span>President · National Assembly</span></div><div><b>Sat 6 Feb</b><span>Governors · State Assemblies · ${G} days</span></div></div>
+      <div class="kd"><h3>KEY DATES · SOURCE: INEC</h3><ul>${KD.map(([d,l,x])=>`<li class="${d<today?'dn':''}">${l}<span>${x}${d<today?' · done':''}</span></li>`).join('')}</ul></div>
+      <div class="foot">${n?`Swipe for ${n} election stor${n===1?'y':'ies'} ›`:'Election stories will appear here as they come in.'} · Neutral: every party treated the same. Results only as INEC declares them. <a href="https://inecnigeria.org" target="_blank" rel="noopener" data-act>INEC ↗</a></div></article>`; }
+  if(s.pick){ return `<article class="card pcard" id="card"><div class="ico">📍</div><h2>${s.pick==='none'?'No '+esc(STATE)+' stories yet':'Choose your state'}</h2>
+      <p>${s.pick==='none'?'We have no new stories from '+esc(STATE)+' right now. Check again later, or pick another state.':'Pick your state to see its local news here, plus weather for its capital.'}</p>
+      <button class="opt pri" type="button" id="pickSt" style="width:auto;padding:0 22px">${s.pick==='none'?'Change state':'Choose state'}</button></article>`; }
   if(s.greet){ const G={morning:['Good Morning,','☀️',"Here are today's top stories, updates and alerts for you."],afternoon:['Good Afternoon,','☀️',"Catch up on today's latest news, trending stories and key updates."],
     evening:['Good Evening,','🌅',"Here's what made headlines today across Nigeria and the world."],night:['Good Night,','🌙',"Sleep well! Stay informed, stay ahead with Swipe2News."]}[s.greet];
     return `<article class="card gcard ${s.greet}" id="card"><picture><source srcset="/art/ng/scene-${s.greet}.webp" type="image/webp"><img class="bg" src="/art/ng/scene-${s.greet}.jpg" alt=""></picture><div class="sh"></div>
@@ -377,6 +418,7 @@ function show(dir){
   $('mid').innerHTML=i>1?'<button class="home" id="homeB" type="button" aria-label="Back to the newest story">🏠</button>':'<span class="mq">· Know More. Scroll Less. · Your Community. Your Country. Your World.</span>';
   if($('homeB')) $('homeB').onclick=()=>{ i=0; show(-1); };
   if(s.svc) svcFill(s.svc);
+  if(s.pick&&$('pickSt')) $('pickSt').onclick=()=>$('stBtn').click();
   if(isNews(s)){ const k=sid(s); M.seen[k]=Date.now(); M.last=k; saveM(); readT=setTimeout(()=>markRead(s),6000);
     $('sv').onclick=()=>{ const on=SAVED.includes(k); SAVED=on?SAVED.filter(x=>x!==k):[k].concat(SAVED).slice(0,100); LS.set('saved',SAVED); markRead(s); show(0); toast(on?'Removed from saved':'🔖 Saved'); };
     $('sh').onclick=()=>{ markRead(s); const u=location.origin+'/ng/s/'+k+'.html'; if(navigator.share) navigator.share({title:s.h,text:s.h,url:u}).catch(()=>{}); else { navigator.clipboard&&navigator.clipboard.writeText(u); toast('Link copied'); } };
@@ -386,6 +428,10 @@ function show(dir){
   }
   swipe(c);
 }
+function tabUI(){ document.querySelectorAll('#tabs [data-tab]').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.tab===TAB))); $('tabLoc').textContent=STATE?STATE.replace('FCT ',''):'Local'; }
+function setTab(t){ TAB=t; tabUI(); if(t!=='you') sec='all'; build(false); show(0); }
+tabUI();
+$('tabs').onclick=e=>{ const b=e.target.closest('[data-tab]'); if(b&&b.dataset.tab!==TAB) setTab(b.dataset.tab); };
 function go(d){ if(!list.length) return; const n=i+d; if(n<0) return; i=n>=list.length?0:n; if(n>=list.length){ build(false); } show(d); }
 function swipe(c){   // finger: touch events (a sideways move is ours, up/down stays a scroll); mouse: pointer events
   let x0=null,y0=0,dx=0,dir='';
@@ -400,7 +446,7 @@ function swipe(c){   // finger: touch events (a sideways move is ours, up/down s
   c.addEventListener('pointerdown',e=>{ if(e.pointerType==='mouse') start(e.clientX,e.clientY,e.target); });
   c.addEventListener('pointermove',e=>{ if(e.pointerType==='mouse') move(e.clientX,e.clientY,null); });
   c.addEventListener('pointerup',e=>{ if(e.pointerType==='mouse') end(); }); c.addEventListener('pointerleave',e=>{ if(e.pointerType==='mouse') end(); }); }
-function jumpTo(k){ sec='all'; let at=list.findIndex(s=>isNews(s)&&sid(s)===k); if(at<0){ const was=UNREAD; UNREAD=false; build(false); UNREAD=was; at=list.findIndex(s=>isNews(s)&&sid(s)===k); } i=Math.max(0,at); closeAll(); show(0); }
+function jumpTo(k){ sec='all'; TAB='you'; tabUI(); let at=list.findIndex(s=>isNews(s)&&sid(s)===k); if(at<0){ const was=UNREAD; UNREAD=false; build(false); UNREAD=was; at=list.findIndex(s=>isNews(s)&&sid(s)===k); } i=Math.max(0,at); closeAll(); show(0); }
 
 /* listen (phone's own voice, English) */
 let speaking=false;
@@ -416,20 +462,20 @@ const sheets=['menu','cSheet','sSheet','pSheet','tSheet','mSheet','vSheet'];
 function closeAll(){ sheets.forEach(x=>$(x).hidden=true); }
 function hello(){ const g={morning:'Good morning',afternoon:'Good afternoon',evening:'Good evening',night:'Good night'}[slot()];
   $('hi').textContent=g+(NAME?', '+NAME:'')+' 👋'; $('nameBtn').textContent=NAME?'Edit name ›':'Tell us your name ›';
-  $('stName').textContent=STATE||'All Nigeria'; $('savedN').textContent=SAVED.length+' stor'+(SAVED.length===1?'y':'ies');
+  $('stName').textContent=STATE||'All Nigeria'; if($('tabLoc')) $('tabLoc').textContent=STATE?STATE.replace('FCT ',''):'Local'; $('savedN').textContent=SAVED.length+' stor'+(SAVED.length===1?'y':'ies');
   $('topics').innerHTML=TOPICS.filter(([k])=>k==='all'||ALL.some(s=>(s.sec||[]).includes(k))).map(([k,l])=>`<button type="button" data-tp="${k}">${l}<span>${k===sec?'✓ ':''}${k==='all'?ALL.length:ALL.filter(s=>(s.sec||[]).includes(k)).length} ›</span></button>`).join('');
   const inv='https://wa.me/?text='+encodeURIComponent('Read Nigeria news in 60 words – Swipe2News 🇳🇬 Know More. Scroll Less. https://swipe2news.com');
   $('invite').href=inv; }
 $('menuBtn').onclick=()=>{ hello(); $('q').value=''; $('res').innerHTML=''; $('menu').hidden=false; };
 $('menuX').onclick=()=>{ $('menu').hidden=true; };
-$('topics').onclick=e=>{ const b=e.target.closest('[data-tp]'); if(!b) return; sec=b.dataset.tp; build(false); closeAll(); show(0); toast(TOPICS.find(t=>t[0]===sec)[1]); };
+$('topics').onclick=e=>{ const b=e.target.closest('[data-tp]'); if(!b) return; sec=b.dataset.tp; TAB='you'; document.querySelectorAll('#tabs [data-tab]').forEach(x=>x.setAttribute('aria-selected',String(x.dataset.tab==='you'))); build(false); closeAll(); show(0); toast(TOPICS.find(t=>t[0]===sec)[1]); };
 $('q').oninput=()=>{ const w=$('q').value.trim().toLowerCase(); if(w.length<2){ $('res').innerHTML=''; return; }
   const r=ALL.filter(s=>((s.h||'')+' '+(s.p||'')+' '+(s.cat||'')+' '+(s.src||'')).toLowerCase().includes(w)).slice(0,12);
   $('res').innerHTML=r.length?r.map(s=>`<button type="button" data-k="${sid(s)}">${esc(s.h)}<small>${esc(s.cat)} · ${esc(when(s))}</small></button>`).join(''):'<p>No stories found.</p>'; };
 $('res').onclick=e=>{ const b=e.target.closest('[data-k]'); if(b) jumpTo(b.dataset.k); };
 $('cBtn').onclick=()=>{ $('cSheet').hidden=false; };
 $('stBtn').onclick=()=>{ $('states').innerHTML=['All Nigeria'].concat(STATES).map(n=>`<button type="button" data-st="${n==='All Nigeria'?'':n}" ${((STATE||'')===(n==='All Nigeria'?'':n))?'style="border-color:var(--plum);box-shadow:0 0 0 2px var(--plum) inset"':''}>📍 ${n}</button>`).join(''); $('sSheet').hidden=false; };
-$('states').onclick=e=>{ const b=e.target.closest('[data-st]'); if(!b) return; STATE=b.dataset.st; LS.set('state',STATE); $('sSheet').hidden=true; build(false); hello(); show(0); toast(STATE?'📍 '+STATE+' stories come first':'📍 All Nigeria'); };
+$('states').onclick=e=>{ const b=e.target.closest('[data-st]'); if(!b) return; STATE=b.dataset.st; LS.set('state',STATE); tabUI(); $('sSheet').hidden=true; build(false); hello(); show(0); toast(STATE?'📍 '+STATE+' stories come first':'📍 All Nigeria'); };
 $('nameBtn').onclick=()=>{ $('profBtn').click(); setTimeout(()=>$('nm').focus(),50); };
 $('profBtn').onclick=()=>{ $('nm').value=NAME; $('unreadOnly').checked=UNREAD; fsUI(); alUI(); $('pSheet').hidden=false; };
 function fsUI(){ $('fsT').querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',+b.dataset.fs===FS)); }
@@ -441,7 +487,7 @@ $('clr').onclick=()=>{ if($('clr').dataset.sure){ M.read={}; M.seen={}; M.hist=[
 ['cSheet','sSheet','tSheet','mSheet','vSheet'].forEach(x=>$(x).addEventListener('click',e=>{ if(e.target===$(x)||e.target.closest('[data-close]')) $(x).hidden=true; }));
 const news=()=>ALL.filter(s=>!M.read[sid(s)]);
 const top5=()=>{ const a=STATE?ALL.filter(inState):[]; return a.concat(ALL.filter(s=>!a.includes(s))).slice(0,5); };
-$('go5').onclick=()=>{ sec='all'; build(false); i=list.length>1?1:0; closeAll(); show(1); };
+$('go5').onclick=()=>{ sec='all'; TAB='you'; tabUI(); build(false); i=list.length>1?1:0; closeAll(); show(1); };
 $('ls5').onclick=()=>{ closeAll(); toast('▷ Reading 5 stories'); say(top5().map((s,k)=>(k+1)+'. '+s.h+'. '+s.p)); };
 $('tSaved').onclick=()=>{ if(!SAVED.length) return toast('No saved stories yet – tap 🔖 Save on a card'); const S=ALL.filter(s=>SAVED.includes(sid(s)));
   $('res').innerHTML='<p><b>Saved stories</b></p>'+(S.length?S.map(s=>`<button type="button" data-k="${sid(s)}">${esc(s.h)}<small>${esc(s.cat)} · ${esc(when(s))}</small></button>`).join(''):'<p>Your saved stories are older than 2 days.</p>'); };
@@ -476,7 +522,7 @@ $('mTabs').onclick=e=>{ const b=e.target.closest('[data-t]'); if(b){ mTab=b.data
 $('mBody').onclick=e=>{ const b=e.target.closest('[data-k]'); if(b) jumpTo(b.dataset.k); };
 $('mStop').onclick=()=>{ if($('mStop').dataset.k) jumpTo($('mStop').dataset.k); };
 $('mNext').onclick=()=>{ if($('mNext').dataset.k) jumpTo($('mNext').dataset.k); };
-$('mStart').onclick=()=>{ sec='all'; build(false); closeAll(); show(0); };
+$('mStart').onclick=()=>{ sec='all'; TAB='you'; tabUI(); build(false); closeAll(); show(0); };
 $('unreadOnly2').onchange=()=>{ UNREAD=$('unreadOnly2').checked; LS.set('unread',UNREAD); build(true); mys(); show(0); };
 
 /* services: Jobs (editions/ng/jobs.json), Weather (Open-Meteo, live), Naira rates (exchangerate-api, daily) */
