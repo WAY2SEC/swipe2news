@@ -1,8 +1,561 @@
 {
  "date": "27.11.2026",
  "iso": "2026-11-27",
- "count": 43,
+ "count": 53,
  "stories": [
+  {
+   "cat": "హైదరాబాద్ · వర్షం",
+   "col": "--c-water",
+   "art": "rain",
+   "pic": "e/heavy-monsoon-rain",
+   "stat": "అర్ధరాత్రి వాన",
+   "statl": "హైదరాబాద్‌లో",
+   "h": "హైదరాబాద్‌లో అర్ధరాత్రి నుంచి వాన",
+   "p": "హైదరాబాద్‌లో గురువారం అర్ధరాత్రి నుంచి శుక్రవారం ఉదయం వరకు వాన కురిసింది. అమీర్‌పేట, పంజాగుట్ట, గచ్చిబౌలి, కూకట్‌పల్లి, ఉప్పల్ సహా పలు ప్రాంతాల్లో రోడ్లపై నీరు నిలిచింది. తెల్లవారుజామున పనులకు బయలుదేరిన వారు ఇబ్బంది పడ్డారు. బంగాళాఖాతంలో ద్రోణి వల్ల వానలు పడుతున్నాయి. నగరంలో ఈ సాయంత్రం వరకు మోస్తరు వాన కొనసాగవచ్చని వాతావరణ శాఖ తెలిపింది.",
+   "src": "10TV Telugu",
+   "url": "https://www.10tv.in/telugu-news/telangana/weather-updates-heavy-rainfall-in-several-parts-of-hyderabad-hn-1162217.html",
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pts": [
+    "నాగర్‌కర్నూల్ జిల్లా యంగంపల్లి, తోటపల్లిలో 4.5 సెంటీమీటర్లు",
+    "సంగారెడ్డి జిల్లా వట్‌పల్లిలో 4 సెంటీమీటర్ల వాన",
+    "చెట్లు, కరెంటు స్తంభాల కింద నిలబడవద్దని సూచన"
+   ],
+   "why": "ఉదయం ఆఫీసులకు, బడులకు వెళ్లే హైదరాబాద్ వాసులు జాగ్రత్తగా ప్రయాణించాలి.",
+   "pub": "2026-11-27T07:37+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Rain",
+    "stat": "Midnight rain",
+    "statl": "in Hyderabad",
+    "loc": "Hyderabad",
+    "h": "Rain soaks Hyderabad from midnight",
+    "p": "Rain fell over Hyderabad from Thursday midnight until Friday morning. Roads were waterlogged in several areas including Ameerpet, Panjagutta, Gachibowli, Kukatpally and Uppal, and people who set out early for work had difficulty. The showers are due to a trough over the Bay of Bengal. The weather department said moderate rain may continue in the city until this evening.",
+    "pts": [
+     "Yangampalli and Thotapalli in Nagarkurnool district got 4.5 cm",
+     "Vatpally in Sangareddy district recorded 4 cm",
+     "People told not to stand under trees or electric poles"
+    ],
+    "why": "Hyderabad residents heading to offices and schools this morning should travel carefully."
+   },
+   "hi": {
+    "cat": "हैदराबाद · बारिश",
+    "stat": "आधी रात की बारिश",
+    "statl": "हैदराबाद में",
+    "loc": "हैदराबाद",
+    "h": "हैदराबाद में आधी रात से बारिश",
+    "p": "हैदराबाद में गुरुवार आधी रात से शुक्रवार सुबह तक बारिश हुई। अमीरपेट, पंजागुट्टा, गच्चीबावली, कुकटपल्ली और उप्पल समेत कई इलाकों में सड़कों पर पानी भर गया और तड़के काम पर निकले लोगों को परेशानी हुई। बंगाल की खाड़ी में बनी द्रोणिका के कारण बारिश हो रही है। मौसम विभाग ने कहा कि शहर में आज शाम तक मध्यम बारिश जारी रह सकती है।",
+    "pts": [
+     "नागरकुरनूल जिले के यंगमपल्ली और तोटापल्ली में 4.5 सेंटीमीटर",
+     "संगारेड्डी जिले के वटपल्ली में 4 सेंटीमीटर बारिश",
+     "पेड़ों और बिजली के खंभों के नीचे न खड़े होने की सलाह"
+    ],
+    "why": "सुबह दफ्तर और स्कूल जाने वाले हैदराबाद के लोगों को संभलकर सफर करना चाहिए।"
+   },
+   "d": "27.11.2026",
+   "t": "08:05"
+  },
+  {
+   "cat": "తెలంగాణ · ఏసీబీ",
+   "col": "--c-gov",
+   "art": "court",
+   "pic": "e/corruption-investigation",
+   "stat": "₹60 వేల లంచం",
+   "statl": "గద్వాల ఏసీబీ కేసులో",
+   "h": "గద్వాలలో కరెంటు శాఖ ఏడీఈ అరెస్ట్: ఏసీబీ",
+   "p": "జోగులాంబ గద్వాల జిల్లాలో విద్యుత్ పంపిణీ సంస్థ ఏడీఈని అరెస్ట్ చేసినట్లు ఏసీబీ తెలిపింది. ఒక కాంట్రాక్టర్‌కు రావాల్సిన ₹12.62 లక్షల బిల్లులు పంపేందుకు ₹60 వేలు లంచం అడిగారని ఏసీబీ చెప్పింది. నవంబర్ 26న ఆ డబ్బును కారు డ్యాష్‌బోర్డుపై పెట్టించుకున్నప్పుడు అధికారులు పట్టుకున్నారు. నిందితుడిని నాంపల్లి ఏసీబీ కోర్టు రిమాండ్‌కు పంపింది.",
+   "src": "NewsMeter Telugu",
+   "url": "https://telugu.newsmeter.in/telangana/telangana-acb-arrests-tgspdcl-ade-in-gadwal-for-taking-60000-bribe-on-car-dashboard-780082",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "gadwal",
+   "loc": "గద్వాల",
+   "pts": [
+    "లంచం అడిగితే 1064కు ఫోన్ చేయవచ్చు",
+    "ఏసీబీ వాట్సాప్ నంబర్ 9440446106",
+    "ఫిర్యాదు చేసిన వారి వివరాలు రహస్యం: ఏసీబీ"
+   ],
+   "why": "ప్రభుత్వ ఉద్యోగి లంచం అడిగితే ఏసీబీకి ఫిర్యాదు చేయవచ్చని ప్రజలకు ఇది గుర్తు చేస్తుంది.",
+   "pub": "2026-11-27T07:35+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · ACB",
+    "stat": "₹60,000 bribe",
+    "statl": "in Gadwal ACB case",
+    "loc": "Gadwal",
+    "h": "ACB arrests power utility ADE in Gadwal",
+    "p": "The ACB said it has arrested an assistant divisional engineer of the power distribution company in Jogulamba Gadwal district. According to the ACB, he asked a contractor for ₹60,000 to forward pending bills worth ₹12.62 lakh. Officers caught him on November 26 after the cash was placed on his car dashboard as he had told the contractor. The ACB court at Nampally sent the accused to judicial remand.",
+    "pts": [
+     "Bribe demands can be reported on toll-free 1064",
+     "ACB WhatsApp number is 9440446106",
+     "Complainants' details kept confidential, says ACB"
+    ],
+    "why": "It reminds people that they can complain to the ACB when a government employee asks for a bribe."
+   },
+   "hi": {
+    "cat": "तेलंगाना · एसीबी",
+    "stat": "₹60 हजार रिश्वत",
+    "statl": "गदवाल एसीबी मामले में",
+    "loc": "गदवाल",
+    "h": "गदवाल में बिजली कंपनी का एडीई गिरफ्तार",
+    "p": "एसीबी ने बताया कि उसने जोगुलांबा गदवाल जिले में बिजली वितरण कंपनी के एक सहायक मंडल इंजीनियर को गिरफ्तार किया है। एसीबी के अनुसार उसने एक ठेकेदार के ₹12.62 लाख के बकाया बिल आगे बढ़ाने के लिए ₹60 हजार मांगे थे। 26 नवंबर को उसके कहने पर रकम कार के डैशबोर्ड पर रखी गई, तभी अधिकारियों ने उसे पकड़ा। नामपल्ली की एसीबी अदालत ने आरोपी को न्यायिक हिरासत में भेजा।",
+    "pts": [
+     "रिश्वत मांगने की शिकायत टोल-फ्री 1064 पर",
+     "एसीबी का व्हाट्सऐप नंबर 9440446106",
+     "एसीबी: शिकायतकर्ता की जानकारी गोपनीय रहेगी"
+    ],
+    "why": "यह लोगों को याद दिलाता है कि सरकारी कर्मचारी रिश्वत मांगे तो एसीबी से शिकायत की जा सकती है।"
+   },
+   "d": "27.11.2026",
+   "t": "08:05"
+  },
+  {
+   "cat": "తెలంగాణ · ఆరోగ్యం",
+   "col": "--c-gov",
+   "art": "unity",
+   "pic": "logo",
+   "stat": "97 శాతం",
+   "statl": "లక్ష్యం చేరిన తెలంగాణ",
+   "h": "ఎయిడ్స్ నియంత్రణలో తెలంగాణ మొదటి స్థానం",
+   "p": "ఎయిడ్స్ నియంత్రణలో తెలంగాణ దేశంలో మొదటి స్థానంలో నిలిచింది. కేంద్ర సంస్థ నాకో చేపట్టిన కార్యక్రమంలో రాష్ట్రం 97 శాతం లక్ష్యం చేరింది. 33 జిల్లాల్లో 32 జిల్లాలకు ‘సురక్షిత్’ హోదా వచ్చింది. రంగారెడ్డి జిల్లా మాత్రమే మిగిలింది. పశ్చిమ బెంగాల్ 83 శాతంతో రెండో స్థానంలో ఉంది. సిబ్బందిని మంత్రి దామోదర్ రాజనర్సింహ అభినందించారు.",
+   "src": "V6 Velugu",
+   "url": "https://www.v6velugu.com/telangana-tops-in-aids-control",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pts": [
+    "దేశంలో 27 శాతం జిల్లాలకే సురక్షిత్ హోదా",
+    "రాష్ట్రంలో 150 రోజుల ప్రత్యేక ప్రణాళిక అమలు",
+    "అరుణాచల్ ప్రదేశ్ 70 శాతంతో మూడో స్థానం"
+   ],
+   "why": "హెచ్‌ఐవీ ఉన్నవారికి పరీక్షలు, మందులు సకాలంలో అందుతున్నాయని ఈ ఫలితం చెబుతోంది.",
+   "pub": "2026-11-27T06:57+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Telangana · Health",
+    "stat": "97%",
+    "statl": "of AIDS control target met by Telangana",
+    "loc": "Telangana",
+    "h": "Telangana tops India in AIDS control",
+    "p": "Telangana has ranked first in the country in AIDS control. The state reached 97 per cent of its target under a programme of the central agency NACO. Of its 33 districts, 32 have received 'Surakshit' status; only Ranga Reddy district remains. West Bengal is second with 83 per cent. Health Minister Damodar Raja Narasimha congratulated the staff.",
+    "pts": [
+     "Only 27% of districts nationwide have Surakshit status",
+     "State ran a 150-day special action plan",
+     "Arunachal Pradesh is third with 70%"
+    ],
+    "why": "The result indicates that people living with HIV are getting tests and medicines on time."
+   },
+   "hi": {
+    "cat": "तेलंगाना · स्वास्थ्य",
+    "stat": "97 प्रतिशत",
+    "statl": "लक्ष्य तेलंगाना ने हासिल किया",
+    "loc": "तेलंगाना",
+    "h": "एड्स नियंत्रण में तेलंगाना देश में अव्वल",
+    "p": "एड्स नियंत्रण में तेलंगाना देश में पहले स्थान पर रहा। केंद्रीय संस्था नाको के कार्यक्रम में राज्य ने 97 प्रतिशत लक्ष्य हासिल किया। 33 जिलों में से 32 को ‘सुरक्षित’ दर्जा मिला है; केवल रंगारेड्डी जिला बाकी है। पश्चिम बंगाल 83 प्रतिशत के साथ दूसरे स्थान पर है। स्वास्थ्य मंत्री दामोदर राजनरसिम्हा ने कर्मचारियों को बधाई दी।",
+    "pts": [
+     "देश में केवल 27 प्रतिशत जिलों को सुरक्षित दर्जा",
+     "राज्य में 150 दिन की विशेष कार्ययोजना चली",
+     "अरुणाचल प्रदेश 70 प्रतिशत के साथ तीसरे स्थान पर"
+    ],
+    "why": "यह नतीजा बताता है कि एचआईवी से पीड़ित लोगों को जांच और दवाएं समय पर मिल रही हैं।"
+   },
+   "d": "27.11.2026",
+   "t": "08:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · హైకోర్టు",
+   "col": "--c-city",
+   "art": "court",
+   "pic": "e/court-hearing",
+   "stat": "తీర్పు రిజర్వ్",
+   "statl": "మూసాపేట భూమి వేలంపై",
+   "h": "మూసాపేట భూమి వేలంపై తీర్పు రిజర్వ్",
+   "p": "మూసాపేటలోని హుడా ట్రక్ పార్క్ భూమి వేలాన్ని సవాలు చేసిన రెండు పిటిషన్లపై తెలంగాణ హైకోర్టు గురువారం వాదనలు విన్నది. తీర్పును తర్వాత చెబుతామని ధర్మాసనం తెలిపింది. జాతీయ రహదారి 65 పక్కన ఉన్న 3.15 ఎకరాలను హెచ్‌ఎండీఏ ఈ-వేలం వేయాలనుకుంటోంది. ఆ భూమిని ట్రక్ పార్క్ కోసమే వాడాలని పిటిషనర్లు కోరారు.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/telangana-high-court-reserves-orders-on-pils-challenging-hmda-auction-of-huda-truck-park-land",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "medchal",
+   "loc": "మూసాపేట",
+   "pts": [
+    "హెచ్‌ఎండీఏ వేలం ప్రకటన అక్టోబర్ 24న వచ్చింది",
+    "తాత్కాలిక ప్రధాన న్యాయమూర్తి ధర్మాసనం విచారించింది"
+   ],
+   "why": "కూకట్‌పల్లి ప్రాంతంలో ఈ ప్రభుత్వ భూమి ఎలా వాడతారన్నది కోర్టు తీర్పుతో తేలుతుంది.",
+   "pub": "2026-11-27T00:25+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · High Court",
+    "stat": "Orders reserved",
+    "statl": "on Moosapet Truck Park auction",
+    "loc": "Moosapet, Medchal-Malkajgiri",
+    "h": "HC reserves orders on Truck Park auction",
+    "p": "The Telangana High Court on Thursday heard arguments on two petitions challenging the auction of the HUDA Truck Park land at Moosapet. The bench said it would give its orders later. HMDA plans to e-auction the 3.15 acres beside National Highway 65. The petitioners asked that the land be used only for a truck park.",
+    "pts": [
+     "HMDA's auction notification was issued on October 24",
+     "Acting Chief Justice's bench heard the case"
+    ],
+    "why": "The court's orders will decide how this public land in the Kukatpally area is used."
+   },
+   "hi": {
+    "cat": "हैदराबाद · हाईकोर्ट",
+    "stat": "फैसला सुरक्षित",
+    "statl": "मूसापेट ट्रक पार्क नीलामी पर",
+    "loc": "मूसापेट, मेडचल-मलकाजगिरी",
+    "h": "ट्रक पार्क नीलामी पर हाईकोर्ट का फैसला सुरक्षित",
+    "p": "तेलंगाना हाईकोर्ट ने गुरुवार को मूसापेट की हुडा ट्रक पार्क जमीन की नीलामी को चुनौती देने वाली दो याचिकाओं पर दलीलें सुनीं। पीठ ने कहा कि आदेश बाद में सुनाया जाएगा। एचएमडीए राष्ट्रीय राजमार्ग 65 से लगी 3.15 एकड़ जमीन की ई-नीलामी करना चाहता है। याचिकाकर्ताओं ने मांग की कि जमीन का उपयोग केवल ट्रक पार्क के लिए हो।",
+    "pts": [
+     "एचएमडीए की नीलामी अधिसूचना 24 अक्टूबर को जारी हुई",
+     "कार्यवाहक मुख्य न्यायाधीश की पीठ ने सुनवाई की"
+    ],
+    "why": "अदालत के आदेश से तय होगा कि कुकटपल्ली क्षेत्र की इस सरकारी जमीन का उपयोग कैसे होगा।"
+   },
+   "d": "27.11.2026",
+   "t": "08:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · పరిశుభ్రత",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "logo",
+   "stat": "45 జరిమానాలు",
+   "statl": "జీహెచ్‌ఎంసీ తనిఖీల్లో",
+   "h": "జీహెచ్‌ఎంసీ తనిఖీల్లో 45 జరిమానాలు",
+   "p": "హైదరాబాద్‌లో జీహెచ్‌ఎంసీ గురువారం 30 సర్కిళ్లలో పరిశుభ్రత తనిఖీలు చేసింది. 262 దుకాణాలు, వీధి వ్యాపారులను అధికారుల బృందాలు పరిశీలించి 45 జరిమానాలు వేసింది. ₹25,400 వసూలు చేసింది. 21.75 కిలోల ఒకసారి వాడే ప్లాస్టిక్‌ను పట్టుకుంది. రోడ్లపై చెత్త వేయడం, కాల్చడం ఆపేందుకు ఈ తనిఖీలు చేస్తున్నట్లు జీహెచ్‌ఎంసీ తెలిపింది.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/ghmc-fines-violators-in-30-circle-sanitation-drive-1146188",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pts": [
+    "నాలుగు వారాల ప్రత్యేక డ్రైవ్‌లో ఇది 15వ రోజు",
+    "డ్రైవ్ నవంబర్ 9న మొదలైంది"
+   ],
+   "why": "హైదరాబాద్‌లో దుకాణదారులు, వీధి వ్యాపారులు నిషేధిత ప్లాస్టిక్ వాడితే జరిమానా పడుతుంది.",
+   "pub": "2026-11-27T04:58+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Sanitation",
+    "stat": "45 fines",
+    "statl": "in GHMC sanitation checks",
+    "loc": "Hyderabad",
+    "h": "GHMC issues 45 fines in sanitation checks",
+    "next": "The special drive continues until December 5.",
+    "p": "GHMC carried out sanitation inspections in all 30 circles of Hyderabad on Thursday. It checked 262 shops and street vendors and issued 45 spot fines, collecting ₹25,400. It also seized 21.75 kg of single-use plastic. GHMC said the checks are meant to stop littering and the burning of waste.",
+    "pts": [
+     "It was day 15 of a four-week special drive",
+     "The drive began on November 9"
+    ],
+    "why": "Shopkeepers and street vendors in Hyderabad face fines if they use banned plastic."
+   },
+   "hi": {
+    "cat": "हैदराबाद · स्वच्छता",
+    "stat": "45 जुर्माने",
+    "statl": "जीएचएमसी की स्वच्छता जांच में",
+    "loc": "हैदराबाद",
+    "h": "जीएचएमसी की स्वच्छता जांच में 45 जुर्माने",
+    "next": "विशेष अभियान 5 दिसंबर तक चलेगा।",
+    "p": "जीएचएमसी ने गुरुवार को हैदराबाद के सभी 30 सर्किलों में स्वच्छता जांच की। 262 दुकानों और रेहड़ी-पटरी वालों की जांच कर 45 जुर्माने लगाए गए और ₹25,400 वसूले गए। 21.75 किलो सिंगल-यूज़ प्लास्टिक भी जब्त किया गया। जीएचएमसी ने कहा कि यह जांच कचरा फेंकने और जलाने को रोकने के लिए है।",
+    "pts": [
+     "चार हफ्ते के विशेष अभियान का यह 15वां दिन था",
+     "अभियान 9 नवंबर को शुरू हुआ"
+    ],
+    "why": "हैदराबाद में दुकानदार और रेहड़ी वाले प्रतिबंधित प्लास्टिक इस्तेमाल करें तो जुर्माना लगेगा।"
+   },
+   "d": "27.11.2026",
+   "t": "08:05",
+   "next": "ఈ ప్రత్యేక డ్రైవ్ డిసెంబర్ 5 వరకు కొనసాగుతుంది."
+  },
+  {
+   "cat": "ఖమ్మం · మహిళల భద్రత",
+   "col": "--c-gov",
+   "art": "unity",
+   "pic": "e/women-safety-help-desk",
+   "stat": "అవగాహన సదస్సు",
+   "statl": "పోష్ చట్టంపై",
+   "h": "వేధిస్తే ఫిర్యాదు చేయండి: ఖమ్మం కలెక్టర్",
+   "p": "పని చేసే చోట మహిళలపై లైంగిక వేధింపులను సహించబోమని ఖమ్మం కలెక్టర్ టీఎస్ దివాకర చెప్పారు. గురువారం కలెక్టరేట్‌లో పోష్ చట్టంపై జరిగిన అవగాహన సదస్సులో మాట్లాడారు. వేధింపులు ఎదురైతే భయపడకుండా వెంటనే ఫిర్యాదు చేయాలని కోరారు. పది మంది, అంతకంటే ఎక్కువ ఉద్యోగులున్న ప్రతి సంస్థలో ఫిర్యాదుల కమిటీ ఉండాలన్నారు.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/khammam/come-forward-to-report-sexual-harassment-collector-1146195",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "khammam",
+   "loc": "ఖమ్మం",
+   "pts": [
+    "రాజీ కోసం ఒత్తిడి తెస్తే లొంగవద్దన్న కలెక్టర్",
+    "విచారణ నిష్పక్షపాతంగా జరగాలని సూచన",
+    "జిల్లా మహిళా సాధికారత కేంద్రం సదస్సు నిర్వహించింది"
+   ],
+   "why": "ఖమ్మం జిల్లాలో ఉద్యోగం చేసే మహిళలు ఫిర్యాదు చేసే దారి ఉందని తెలుసుకోవచ్చు.",
+   "pub": "2026-11-27T05:03+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Khammam · Women's safety",
+    "stat": "Awareness meet",
+    "statl": "on the POSH Act",
+    "loc": "Khammam",
+    "h": "Report harassment: Khammam Collector",
+    "p": "Khammam Collector TS Divakara said sexual harassment of women at workplaces will not be tolerated. He was speaking on Thursday at an awareness programme on the POSH Act at the Collectorate. He urged women who face harassment to complain at once and without fear. He said every organisation with ten or more employees must have a complaints committee.",
+    "pts": [
+     "Collector: do not give in to pressure to compromise",
+     "Inquiries should be fair and impartial, he said",
+     "District Women Empowerment Centre organised the meet"
+    ],
+    "why": "Working women in Khammam district can know there is a route to file a complaint."
+   },
+   "hi": {
+    "cat": "खम्मम · महिला सुरक्षा",
+    "stat": "जागरूकता कार्यक्रम",
+    "statl": "पॉश कानून पर",
+    "loc": "खम्मम",
+    "h": "उत्पीड़न की शिकायत करें: खम्मम कलेक्टर",
+    "p": "खम्मम के कलेक्टर टीएस दिवाकर ने कहा कि कार्यस्थल पर महिलाओं का यौन उत्पीड़न बर्दाश्त नहीं किया जाएगा। वे गुरुवार को कलेक्ट्रेट में पॉश कानून पर जागरूकता कार्यक्रम में बोल रहे थे। उन्होंने कहा कि उत्पीड़न होने पर महिलाएं बिना डरे तुरंत शिकायत करें। दस या अधिक कर्मचारियों वाले हर संस्थान में शिकायत समिति होनी चाहिए।",
+    "pts": [
+     "कलेक्टर: समझौते के दबाव में न आएं",
+     "जांच निष्पक्ष होनी चाहिए: कलेक्टर",
+     "जिला महिला सशक्तिकरण केंद्र ने कार्यक्रम किया"
+    ],
+    "why": "खम्मम जिले की कामकाजी महिलाएं जान सकती हैं कि शिकायत का रास्ता मौजूद है।"
+   },
+   "d": "27.11.2026",
+   "t": "08:05"
+  },
+  {
+   "cat": "ఏపీ · విద్యుత్",
+   "col": "--c-power",
+   "art": "power",
+   "pic": "logo",
+   "stat": "2,153 పూర్తి",
+   "statl": "3,015 ఫీడర్ పనుల్లో",
+   "h": "ఏపీ ఫీడర్ పనులకు డిసెంబర్ గడువు",
+   "p": "ఏపీ దక్షిణ విద్యుత్ పంపిణీ సంస్థ పరిధిలో ఆర్డీఎస్ఎస్ పథకం పనులను డిసెంబర్ చివరికి పూర్తి చేయాలని సీఎండీ శివశంకర్ లోతేటి ఆదేశించారు. గురువారం వీడియో సమావేశంలో పనులను సమీక్షించారు. 3,015 ఫీడర్ విభజన పనుల్లో నవంబర్ 26 నాటికి 2,153 పూర్తయ్యాయి. అటవీ, రైల్వే, హైవే అనుమతులు త్వరగా తీసుకోవాలని చెప్పారు.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/tirupathi/apspdcl-cmd-orders-rdss-works-by-dec-end-1146205",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pts": [
+    "33 కేవీ ఫీడర్ పనులు 72లో 54 పూర్తి",
+    "రెండో దశలో 465 పనుల్లో 63 పూర్తి",
+    "స్తంభాలు, సామగ్రి సరఫరా ఆలస్యం కావద్దని ఆదేశం"
+   ],
+   "why": "ఈ పనులు పూర్తయితే దక్షిణ ఏపీ వినియోగదారులకు కరెంటు సరఫరా మెరుగవుతుంది.",
+   "pub": "2026-11-27T05:17+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Power",
+    "stat": "2,153 works done",
+    "statl": "of 3,015 feeder works",
+    "loc": "Andhra Pradesh",
+    "h": "December deadline for AP feeder works",
+    "next": "Pending works are to be completed by the end of December.",
+    "p": "APSPDCL chairman and managing director Siva Sankar Lotheti has ordered that works under the RDSS scheme in the southern power distribution company's area be completed by the end of December. He reviewed progress at a video conference on Thursday. Of 3,015 feeder bifurcation works, 2,153 were complete as of November 26. He asked for forest, railway and highway permissions to be obtained quickly.",
+    "pts": [
+     "54 of 72 works on 33 kV feeders are complete",
+     "63 of 465 second-phase works are complete",
+     "No delay in supplying poles and materials, he ordered"
+    ],
+    "why": "Once the works are finished, power supply for consumers in southern AP should improve."
+   },
+   "hi": {
+    "cat": "एपी · बिजली",
+    "stat": "2,153 काम पूरे",
+    "statl": "3,015 फीडर कामों में से",
+    "loc": "आंध्र प्रदेश",
+    "h": "एपी में फीडर कामों के लिए दिसंबर की समयसीमा",
+    "next": "बाकी काम दिसंबर के अंत तक पूरे किए जाने हैं।",
+    "p": "एपी दक्षिणी बिजली वितरण कंपनी के सीएमडी शिवशंकर लोतेटी ने आरडीएसएस योजना के काम दिसंबर के अंत तक पूरे करने का आदेश दिया। उन्होंने गुरुवार को वीडियो कॉन्फ्रेंस में प्रगति की समीक्षा की। 3,015 फीडर विभाजन कामों में से 26 नवंबर तक 2,153 पूरे हो चुके थे। उन्होंने वन, रेलवे और राजमार्ग की अनुमतियां जल्दी लेने को कहा।",
+    "pts": [
+     "33 केवी फीडर के 72 में से 54 काम पूरे",
+     "दूसरे चरण के 465 में से 63 काम पूरे",
+     "खंभों और सामग्री की आपूर्ति में देरी न हो: आदेश"
+    ],
+    "why": "काम पूरे होने पर दक्षिणी एपी के उपभोक्ताओं को बिजली आपूर्ति बेहतर मिलेगी।"
+   },
+   "d": "27.11.2026",
+   "t": "08:05",
+   "next": "మిగిలిన పనులు డిసెంబర్ చివరికి పూర్తి చేయాలి."
+  },
+  {
+   "cat": "ఏపీ · ఆర్టీసీ",
+   "col": "--c-gov",
+   "art": "unity",
+   "pic": "logo",
+   "stat": "డ్రైవర్లకు",
+   "statl": "జీతం, వేరే విధులు",
+   "h": "లైసెన్స్ పోయిన ఆర్టీసీ డ్రైవర్లకు జీతం",
+   "p": "రోడ్డు ప్రమాదాల్లో తమ తప్పు లేకపోయినా లైసెన్స్ సస్పెండైన డ్రైవర్లకు జీతం ఇవ్వాలని ఏపీఎస్‌ఆర్టీసీ నిర్ణయించింది. లైసెన్స్ మళ్లీ వచ్చే వరకు వారికి వేరే విధులు ఇస్తారు. దీనిపై జాయింట్ ఎండీ అధికారులకు ఆదేశాలు పంపారు. ఉద్యోగ సంఘాల ఐక్య కార్యాచరణ సమితి కోరడంతో సంస్థ ఈ నిర్ణయం తీసుకుంది.",
+   "src": "Andhra Jyothy",
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/apsrtc-to-pay-salaries-and-assign-alternative-duties-to-drivers-1580213.html",
+   "sec": [
+    "telangana",
+    "jobs"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pts": [
+    "అర్హుల లైసెన్సులు తిరిగి ఇవ్వాలని ఆర్టీఓలకు లేఖ",
+    "డిపో మేనేజర్లు అమలు చేయాలని ఆదేశం"
+   ],
+   "why": "తప్పు లేకుండా లైసెన్స్ కోల్పోయిన ఆర్టీసీ డ్రైవర్ల కుటుంబాలకు ఆదాయం ఆగదు.",
+   "pub": "2026-11-27T06:00+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · RTC",
+    "stat": "For RTC drivers",
+    "statl": "pay and other duties",
+    "loc": "Andhra Pradesh",
+    "h": "Pay for RTC drivers with suspended licences",
+    "p": "APSRTC has decided to pay salaries to drivers whose licences were suspended after road accidents in which they were not at fault. They will be given other duties until their licences are restored. The Joint Managing Director has sent orders to officials. The corporation took the decision after a request from the joint action committee of employee unions.",
+    "pts": [
+     "Letter to RTOs to restore eligible drivers' licences",
+     "Depot managers told to implement the order"
+    ],
+    "why": "Families of RTC drivers who lost their licence through no fault of theirs will keep an income."
+   },
+   "hi": {
+    "cat": "एपी · आरटीसी",
+    "stat": "आरटीसी ड्राइवरों को",
+    "statl": "वेतन और दूसरा काम",
+    "loc": "आंध्र प्रदेश",
+    "h": "लाइसेंस निलंबित आरटीसी ड्राइवरों को वेतन",
+    "p": "एपीएसआरटीसी ने तय किया है कि जिन ड्राइवरों का लाइसेंस सड़क हादसों में उनकी गलती न होने पर भी निलंबित हुआ, उन्हें वेतन दिया जाएगा। लाइसेंस बहाल होने तक उन्हें दूसरा काम दिया जाएगा। संयुक्त प्रबंध निदेशक ने अधिकारियों को आदेश भेजे हैं। कर्मचारी संघों की संयुक्त कार्य समिति के अनुरोध पर निगम ने यह फैसला लिया।",
+    "pts": [
+     "पात्र ड्राइवरों के लाइसेंस बहाल करने के लिए आरटीओ को पत्र",
+     "डिपो प्रबंधकों को आदेश लागू करने के निर्देश"
+    ],
+    "why": "बिना गलती के लाइसेंस खोने वाले आरटीसी ड्राइवरों के परिवारों की आमदनी नहीं रुकेगी।"
+   },
+   "d": "27.11.2026",
+   "t": "08:05"
+  },
+  {
+   "cat": "ఏపీ · రాజకీయం",
+   "col": "--c-water",
+   "art": "water",
+   "pic": "e/photo-ys-jagan",
+   "stat": "జగన్ ఆరోపణలు",
+   "statl": "రాయలసీమ ఎత్తిపోతలపై",
+   "h": "సీమ నీటిని చంద్రబాబు వదిలేశారు: జగన్",
+   "p": "రాయలసీమ ఎత్తిపోతల పథకాన్ని ఆపి సీమ నీటి భద్రతను చంద్రబాబు నాయుడు వదిలేశారని వైఎస్సార్సీపీ అధ్యక్షుడు వైఎస్ జగన్ ఆరోపించారు. తెలంగాణ కాంగ్రెస్‌తో సంబంధాల కోసమే సీఎం మౌనంగా ఉన్నారని అన్నారు. ఇది కొత్త ప్రాజెక్టు కాదని, ఏపీకి ఇప్పటికే ఉన్న వాటా నీటిని వాడుకోవడానికేనని చెప్పారు. దీనిపై ప్రభుత్వ స్పందన ఆ కథనంలో లేదు.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/amaravati/jagan-accuses-naidu-of-sacrificing-water-security-of-seema-1146213",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pts": [
+    "శ్రీశైలంలో 854 అడుగుల కింద నీరు తీసుకోలేమన్న జగన్",
+    "పోతిరెడ్డిపాడు పూర్తి సామర్థ్యం 44,000 క్యూసెక్కులు"
+   ],
+   "why": "కృష్ణా నీటి వాడకంపై ఏపీ, తెలంగాణ రైతులకు సంబంధించిన రాజకీయ వివాదం ఇది.",
+   "pub": "2026-11-27T05:33+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "AP · Politics",
+    "stat": "Jagan's allegations",
+    "statl": "on Rayalaseema lift scheme",
+    "loc": "Andhra Pradesh",
+    "h": "Naidu gave up Seema's water: Jagan",
+    "p": "YSRCP president YS Jagan alleged that Chandrababu Naidu has given up Rayalaseema's water security by halting the Rayalaseema lift irrigation scheme. He said the Chief Minister is silent to protect ties with the Congress in Telangana. He said the scheme is not a new project and only helps AP use the share of water it already has. The report carries no response from the government.",
+    "pts": [
+     "Jagan: no drawal possible below 854 feet at Srisailam",
+     "Pothireddypadu's full capacity is 44,000 cusecs"
+    ],
+    "why": "This is a political dispute over Krishna water use that concerns farmers in AP and Telangana."
+   },
+   "hi": {
+    "cat": "एपी · राजनीति",
+    "stat": "जगन के आरोप",
+    "statl": "रायलसीमा लिफ्ट योजना पर",
+    "loc": "आंध्र प्रदेश",
+    "h": "नायडू ने सीमा का पानी छोड़ दिया: जगन",
+    "p": "वाईएसआरसीपी अध्यक्ष वाईएस जगन ने आरोप लगाया कि चंद्रबाबू नायडू ने रायलसीमा लिफ्ट सिंचाई योजना रोककर रायलसीमा की जल सुरक्षा छोड़ दी है। उन्होंने कहा कि मुख्यमंत्री तेलंगाना की कांग्रेस से रिश्ते बचाने के लिए चुप हैं। उनके अनुसार यह नई परियोजना नहीं है और केवल एपी को पहले से मिले हिस्से का पानी इस्तेमाल करने के लिए है। रिपोर्ट में सरकार की प्रतिक्रिया नहीं है।",
+    "pts": [
+     "जगन: श्रीशैलम में 854 फुट से नीचे पानी नहीं लिया जा सकता",
+     "पोतिरेड्डीपाडु की पूरी क्षमता 44,000 क्यूसेक"
+    ],
+    "why": "यह कृष्णा के पानी के इस्तेमाल पर राजनीतिक विवाद है, जो एपी और तेलंगाना के किसानों से जुड़ा है।"
+   },
+   "d": "27.11.2026",
+   "t": "08:05"
+  },
+  {
+   "cat": "ప్రపంచం · అమెరికా",
+   "col": "--c-gov",
+   "art": "unity",
+   "pic": "n/namerica",
+   "stat": "ట్రంప్ ప్రకటన",
+   "statl": "ఇరాన్ యుద్ధంపై",
+   "h": "ఇరాన్‌పై గెలుపు దగ్గరలో ఉంది: ట్రంప్",
+   "p": "ఇరాన్‌పై గెలుపు దగ్గరలో ఉందని అమెరికా అధ్యక్షుడు డొనాల్డ్ ట్రంప్ తమ సైనికులతో అన్నారు. థాంక్స్‌గివింగ్ సందర్భంగా ఫ్లోరిడా నుంచి వారితో ఫోన్‌లో మాట్లాడారు. మెలానియా ట్రంప్ కూడా పాల్గొన్నారు. ఒప్పందానికి ఇరాన్‌కు అన్ని అవకాశాలు ఇచ్చామని, అది అంగీకరిస్తుందో లేదో తెలియదని చెప్పారు. ఇరాన్‌కు అణ్వాయుధం ఎప్పటికీ ఉండదని మళ్లీ అన్నారు.",
+   "src": "Siasat Daily",
+   "url": "https://www.siasat.com/trump-tells-us-troops-victory-at-hand-over-iran-3587883/",
+   "sec": [
+    "world"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "",
+   "pts": [
+    "ముందు రోజు నాటో చీఫ్ మార్క్ రుట్టేతో ట్రంప్ భేటీ",
+    "రష్యా–ఉక్రెయిన్ యుద్ధంపైనా చర్చ జరిగింది"
+   ],
+   "why": "ఇరాన్ యుద్ధం ముగిస్తే చమురు ధరలు, గల్ఫ్‌లోని భారతీయులపై ప్రభావం ఉంటుంది.",
+   "pub": "2026-11-27T07:52+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "World · USA",
+    "stat": "Trump's statement",
+    "statl": "on the Iran war",
+    "loc": "USA",
+    "h": "Victory over Iran is at hand: Trump",
+    "p": "US President Donald Trump told American troops that victory over Iran is at hand. He spoke to them by phone from Florida on Thanksgiving, joined by Melania Trump. He said Iran had been given every chance to make a deal and that he was not sure it would accept. He repeated that Iran would never have a nuclear weapon.",
+    "pts": [
+     "Trump met NATO chief Mark Rutte a day earlier",
+     "The Russia–Ukraine war was also discussed"
+    ],
+    "why": "An end to the Iran war would affect oil prices and Indians living in the Gulf."
+   },
+   "hi": {
+    "cat": "दुनिया · अमेरिका",
+    "stat": "ट्रंप का बयान",
+    "statl": "ईरान युद्ध पर",
+    "loc": "अमेरिका",
+    "h": "ईरान पर जीत करीब है: ट्रंप",
+    "p": "अमेरिकी राष्ट्रपति डोनाल्ड ट्रंप ने अपने सैनिकों से कहा कि ईरान पर जीत करीब है। उन्होंने थैंक्सगिविंग पर फ्लोरिडा से उनसे फोन पर बात की; मेलानिया ट्रंप भी साथ थीं। उन्होंने कहा कि ईरान को समझौते का हर मौका दिया गया है और पता नहीं वह मानेगा या नहीं। उन्होंने दोहराया कि ईरान के पास कभी परमाणु हथियार नहीं होगा।",
+    "pts": [
+     "ट्रंप एक दिन पहले नाटो प्रमुख मार्क रुटे से मिले",
+     "रूस–यूक्रेन युद्ध पर भी चर्चा हुई"
+    ],
+    "why": "ईरान युद्ध खत्म हुआ तो तेल की कीमतों और खाड़ी में रहने वाले भारतीयों पर असर पड़ेगा।"
+   },
+   "d": "27.11.2026",
+   "t": "08:05"
+  },
   {
    "cat": "తెలంగాణ · గిరిజనులు",
    "col": "--c-gov",
