@@ -3480,12 +3480,15 @@ function shareTap(text){ // the phone refused the share menu (the tap was used u
   c.onclick=async()=>{ c.hidden=true; try{ await navigator.share({text}); }catch(e){ if(!(e&&e.name==='AbortError')) openWA(text); } };
   clearTimeout(shareTap.t); shareTap.t=setTimeout(()=>{ c.hidden=true; },10000);
 }
+// owner 27 Nov 2026: "iOS unable to copy the link" – the iPhone share menu only carries the picture, so the caption + link
+// are put on the clipboard in the same tap (started, never waited for, so the share menu still opens); paste it in WhatsApp
+function preCopy(text){ try{ if(navigator.clipboard&&navigator.clipboard.writeText){ const p=navigator.clipboard.writeText(text); p&&p.then&&p.then(()=>{ preCopy.ok=Date.now(); },()=>{}); } }catch(e){} }
 function capBar(text){ // after the picture is shared: one tap copies caption + link (iPhone needs a tap to copy)
   let c=$('capBar');
   if(!c){ c=document.createElement('button'); c.id='capBar'; c.type='button';
     c.style.cssText='position:fixed;left:50%;bottom:calc(150px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:70;border:0;border-radius:999px;padding:12px 18px;background:#1DA851;color:#fff;font:800 14px/1.2 var(--body);box-shadow:0 8px 24px rgba(0,0,0,.3);max-width:92vw';
     document.body.appendChild(c); }
-  c.textContent='📋 క్యాప్షన్ + లింక్ కాపీ చేయండి'; c.hidden=false;
+  c.textContent=(preCopy.ok&&Date.now()-preCopy.ok<120000)?'✅ లింక్ కాపీ అయింది · WhatsAppలో Paste చేయండి (మళ్లీ కాపీకి నొక్కండి)':'📋 క్యాప్షన్ + లింక్ కాపీ చేయండి'; c.hidden=false;
   c.onclick=async()=>{ c.hidden=true; toast(await copyText(text)?'కాపీ అయింది ✅ WhatsAppలో Paste చేయండి':'కాపీ కాలేదు'); };
   clearTimeout(capBar.t); capBar.t=setTimeout(()=>{ c.hidden=true; },12000);
 }
@@ -3559,7 +3562,7 @@ async function shareCard(viaWA){ const s=LIST[cur]; if(!s) return;
     // pictures at all, so it shares the link – WhatsApp shows our card picture as the link preview
     // owner 26 Nov 2026: the share menu must open first – copying before it used up the tap, so the menu never opened and the copy screen showed instead
     if(!CRIOS && b && navigator.canShare && navigator.canShare({files:[cardFile(b)]})){
-      try{ await navigator.share({files:[cardFile(b)]}); hdTip(); capBar(text); return; }catch(e){ if(e&&e.name==='AbortError') return; showCardImage(b, text, e&&e.name||''); return; } }
+      preCopy(text); try{ await navigator.share({files:[cardFile(b)]}); hdTip(); capBar(text); return; }catch(e){ if(e&&e.name==='AbortError'){ capBar(text); return; } showCardImage(b, text, e&&e.name||''); return; } }
     try{ if(navigator.share){ await navigator.share({text}); return; } }catch(e){ if(e&&e.name==='AbortError') return; shareTap(text); return; }
     openWA(text); return; }
   if(IOS && (CRIOS || !window.isSecureContext)){
@@ -3580,8 +3583,8 @@ async function shareCard(viaWA){ const s=LIST[cur]; if(!s) return;
       try{ if(navigator.share){ await navigator.share({text}); return; } }catch(e){ if(e&&e.name==='AbortError') return; if(navigator.share){ shareTap(text); return; } } openWA(text); return; }
     let why='';
     if(navigator.share && navigator.canShare && navigator.canShare({files:[cardFile(b)]})){
-      try{ await navigator.share({files:[cardFile(b)]}); hdTip(); capBar(text); return; } // share menu first, nothing before it (owner 26 Nov 2026)
-      catch(e){ if(e&&e.name==='AbortError') return; why=e&&e.name||String(e); }
+      preCopy(text); try{ await navigator.share({files:[cardFile(b)]}); hdTip(); capBar(text); return; } // share menu first (the caption + link copy is started, not waited for)
+      catch(e){ if(e&&e.name==='AbortError'){ capBar(text); return; } why=e&&e.name||String(e); }
     } else why='no-file-share';
     showCardImage(b, text, why); return;
   }
