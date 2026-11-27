@@ -5,50 +5,62 @@
 <link rel="canonical" href="https://swipe2news.com/farmers.html">
 <meta name="theme-color" content="#2E0827"><link rel="icon" href="/favicon-48.png"><link rel="manifest" href="/manifest.webmanifest">
 <meta property="og:title" content="రైతు క్యాలెండర్ · Farmers Calendar | Swipe2News™"><meta property="og:description" content="ఈ నెల ఏం విత్తాలి, ఏం కోయాలి – తెలంగాణ & ఆంధ్రప్రదేశ్"><meta property="og:image" content="https://swipe2news.com/icon-512.png">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;800&family=Noto+Sans+Telugu:wght@400;600;700;800&display=swap" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;800&family=Noto+Sans+Telugu:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">
 <style>
-:root{--bg:#F4F1EA;--paper:#fff;--ink:#14110D;--muted:#655A4E;--line:#E6DED1;--navy:#2E0827;--brand:#4A0E3F;--gold:#F5A23A;--green:#1F6B3A;--body:'Noto Sans Telugu','Nirmala UI',system-ui,sans-serif;--disp:'Outfit',system-ui,sans-serif}
+:root{--bg:#F4F1EA;--paper:#fff;--ink:#14110D;--txt:#2A1E26;--muted:#6E6258;--line:#E6DED1;--navy:#2E0827;--brand:#4A0E3F;--gold:#F5A23A;--green:#1F6B3A;--body:'Noto Sans Telugu','Nirmala UI',system-ui,sans-serif;--disp:'Outfit',system-ui,sans-serif}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--body);-webkit-font-smoothing:antialiased}
-a{color:inherit}
+a{color:inherit}button{font:inherit;color:inherit}
 header{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--line)}
-.hd{max-width:760px;margin:0 auto;display:flex;align-items:center;gap:10px;padding:10px 16px}
-.hd img{width:30px;height:30px;border-radius:8px}.hd .wm{font:800 20px var(--disp);color:var(--brand)}.hd .wm i{color:var(--gold);font-style:normal}.hd sup{font-size:10px}
+.hd{max-width:760px;margin:0 auto;display:flex;align-items:center;gap:8px;padding:10px 16px}
+.hd img{width:30px;height:30px;border-radius:8px}.hd .wm{font:800 20px var(--disp);color:var(--brand);text-decoration:none}.hd .wm i{color:var(--gold);font-style:normal}.hd sup{font-size:10px}
 .hd .sp{flex:1}.lang{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}.lang button{border:0;background:none;padding:6px 12px;font:700 13px var(--body);cursor:pointer}.lang button.on{background:var(--brand);color:#fff}
-.hero{background:linear-gradient(135deg,#2E0827,#4A0E3F 60%,#1F6B3A);color:#fff;padding:26px 16px 30px}
-.hero .in{max-width:760px;margin:0 auto}.hero h1{margin:0;font-size:28px;line-height:1.25}.hero p{margin:6px 0 0;color:#F3E6EE;font-size:15px}
-.seas{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.seas span{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:4px 12px;font-size:13px;font-weight:700}
-main{max-width:760px;margin:0 auto;padding:16px}
-.now{background:var(--paper);border-radius:22px;padding:18px;box-shadow:0 8px 28px -14px rgba(46,8,39,.35);border:2px solid var(--gold);margin-top:-22px;position:relative}
-.now .tag{display:inline-block;background:var(--gold);color:var(--navy);font-weight:800;font-size:12px;border-radius:999px;padding:3px 10px}
-.now h2{margin:8px 0 2px;font-size:24px}.now .q{color:var(--muted);font-size:14px;margin:0 0 6px}
-.row{display:grid;grid-template-columns:34px 1fr;gap:4px 10px;padding:10px 0;border-top:1px dashed var(--line)}.row:first-of-type{border-top:0}
-.row .ic{font-size:22px;line-height:1.2}.row b{display:block;font-size:13px;color:var(--brand);letter-spacing:.2px}.row div{font-size:15.5px}
-h3.sec{margin:26px 0 10px;font-size:19px}
-.months{display:grid;gap:10px}
-details{background:var(--paper);border-radius:16px;border:1px solid var(--line);padding:0 14px}
-details[open]{box-shadow:0 6px 20px -14px rgba(46,8,39,.4)}
-summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;padding:12px 0;font-weight:800}
-summary::-webkit-details-marker{display:none}summary .m{flex:1}summary .s{font-size:12px;font-weight:700;color:var(--muted)}summary:after{content:'▾';color:var(--muted)}details[open] summary:after{content:'▴'}
-details.cur{border-color:var(--gold)}details.cur summary .m:after{content:' · ఈ నెల';color:#B36B00;font-size:13px}
-.reg{display:grid;gap:10px}.rg{background:var(--paper);border-radius:16px;border:1px solid var(--line);padding:12px 14px}.rg b{color:var(--green)}
+.hero{background:var(--navy);color:#fff;padding:22px 16px 34px}
+.hero .in{max-width:760px;margin:0 auto}.hero h1{margin:0;font-size:28px;line-height:1.25;display:flex;align-items:center;gap:10px}.hero h1 svg{flex:none}
+.hero p{margin:4px 0 0;color:#F3E6EE;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.seas{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.seas span{border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:4px 12px;font-size:13px;font-weight:700;color:rgba(255,255,255,.55)}
+.seas span.on{background:var(--gold);border-color:var(--gold);color:var(--navy)}.seas span.on:before{content:'● ';font-size:10px}
+.pick{display:flex;align-items:center;gap:8px;margin-top:14px}.pick label{font-size:13px;font-weight:700;color:#F3E6EE}
+.pick select{flex:1;min-width:0;font:600 15px var(--body);padding:8px 10px;border-radius:12px;border:0;background:#fff;color:var(--ink)}
+main{max-width:760px;margin:0 auto;padding:0 16px 16px}
+.wx{display:flex;gap:10px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:14px;padding:9px 12px;margin:-18px 0 10px;position:relative;font-size:14px;font-weight:600;color:var(--txt);box-shadow:0 6px 20px -14px rgba(46,8,39,.4)}
+.wx svg{flex:none}.wx .mk{margin-left:auto;font-size:12px;color:var(--muted);font-weight:600}
+.wx .w{color:#B3261E}
+.mrow{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:2px 0 10px;scroll-snap-type:x proximity}.mrow::-webkit-scrollbar{display:none}
+.mrow button{flex:none;border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 13px;font:700 14px var(--body);cursor:pointer;scroll-snap-align:center;position:relative}
+.mrow button.sel{background:var(--brand);color:#fff;border-color:var(--brand)}.mrow button.now:after{content:'';position:absolute;top:3px;right:5px;width:7px;height:7px;border-radius:50%;background:var(--gold)}
+.card{background:var(--paper);border-radius:22px;padding:16px 18px 14px;box-shadow:0 8px 28px -14px rgba(46,8,39,.35);border:2px solid var(--line);touch-action:pan-y}
+.card.cur{border-color:var(--gold)}
+.ctop{display:flex;align-items:center;gap:8px}.tag{display:inline-block;background:var(--gold);color:var(--navy);font-weight:800;font-size:12px;border-radius:999px;padding:3px 10px}.tag.alt{background:#EFE7EC;color:var(--brand)}
+.ctop .sp{flex:1}.nav{width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:#fff;display:grid;place-items:center;cursor:pointer}
+.bell{display:flex;align-items:center;gap:5px;border:1px solid var(--brand);color:var(--brand);background:#fff;border-radius:999px;padding:5px 11px;font:700 12.5px var(--body);text-decoration:none}
+.card h2{margin:8px 0 0;font-size:25px}.card .q{color:var(--muted);font-size:14px;margin:0 0 4px}
+.spec{background:#EEF6F0;border:1px solid #CFE5D6;border-radius:12px;padding:8px 12px;font-size:14px;color:#174F2C;margin:8px 0 2px}
+.row{display:grid;grid-template-columns:36px 1fr;gap:2px 10px;padding:11px 0;border-top:1px dashed var(--line)}.row:first-of-type{border-top:0}
+.row .ic{width:34px;height:34px;border-radius:10px;background:#F6EEF3;display:grid;place-items:center}
+.row b{display:block;font-size:12.5px;font-weight:700;color:var(--brand);letter-spacing:.2px}.row div{font-size:15.5px;font-weight:500;color:var(--txt)}
+.src{border-top:1px solid var(--line);margin-top:4px;padding-top:9px;font-size:12px;color:var(--muted)}
+h3.sec{margin:24px 0 10px;font-size:19px}
+.reg{display:grid;gap:10px}.rg{background:var(--paper);border-radius:16px;border:1px solid var(--line);padding:12px 14px}.rg b{color:var(--green)}.rg.mine{border-color:var(--green);box-shadow:0 0 0 2px #CFE5D6}
 .note{background:#FFF6E6;border:1px solid #F3D9A6;border-radius:14px;padding:12px 14px;font-size:14px;margin-top:22px}
-.share{display:flex;gap:10px;margin:18px 0 6px}.share a{flex:1;text-align:center;text-decoration:none;font-weight:800;border-radius:14px;padding:12px;background:var(--brand);color:#fff}.share a.wa{background:#1A7F43}
+.share{display:flex;gap:10px;margin:14px 0 4px}.share a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-weight:800;border-radius:14px;padding:12px;background:var(--brand);color:#fff;font-size:15px}.share a.wa{background:#1A7F43}
 footer{text-align:center;color:var(--muted);font-size:13px;padding:20px 16px 40px}
-html[data-l="en"] [data-te]{}
 </style></head><body>
-<header><div class="hd"><a href="/" aria-label="Swipe2News home"><img src="/icon-192.png" alt=""></a><a href="/" class="wm" style="text-decoration:none">swipe2news<i>.</i><sup>™</sup></a><span class="sp"></span>
+<header><div class="hd"><a href="/" aria-label="Swipe2News home"><img src="/icon-192.png" alt=""></a><a href="/" class="wm">swipe2news<i>.</i><sup>™</sup></a><span class="sp"></span>
 <div class="lang" role="group" aria-label="Language"><button id="lte" class="on" type="button">తెలుగు</button><button id="len" type="button">English</button></div></div></header>
-<section class="hero"><div class="in"><h1 id="t1"></h1><p id="t2"></p><div class="seas" id="seas"></div></div></section>
+<section class="hero"><div class="in"><h1><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#F5A23A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21V9"/><path d="M12 13c-3 0-5-2-5-5 3 0 5 2 5 5z"/><path d="M12 11c3 0 5-2 5-5-3 0-5 2-5 5z"/><path d="M12 17c-3 0-5-2-5-5 3 0 5 2 5 5z"/><path d="M12 15c3 0 5-2 5-5-3 0-5 2-5 5z"/></svg><span id="t1"></span></h1><p id="t2"></p>
+<div class="seas" id="seas"></div>
+<div class="pick"><label for="dist" id="dl"></label><select id="dist"></select></div></div></section>
 <main>
-  <div class="now" id="now"></div>
-  <div class="share"><a class="wa" id="wa" href="#">WhatsApp</a><a href="/" id="home"></a></div>
-  <h3 class="sec" id="t3"></h3><div class="months" id="months"></div>
+  <div class="wx" id="wx" hidden></div>
+  <div class="mrow" id="mrow" role="tablist"></div>
+  <div class="card" id="card"></div>
+  <div class="share"><a class="wa" id="wa" href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1-.7-.3-1.4-.7-2-1.3-.5-.5-.9-1-1.2-1.6-.1-.2 0-.4.1-.5l.4-.4.3-.4v-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.6.6-.9 1.4-.9 2.2.1 1 .5 2 1.1 2.8 1.2 1.8 2.8 3.2 4.8 4 .5.2 1 .4 1.5.5.6.2 1.2.1 1.7-.1.5-.3 1-.7 1.2-1.3.1-.4.1-.8 0-.9l-.4-.2z"/></svg><span id="wat"></span></a><a href="/" id="home"></a></div>
   <h3 class="sec" id="t4"></h3><div class="reg" id="reg"></div>
   <div class="note" id="note"></div>
 </main>
 <footer>© Swipe2News™ · <a href="/">swipe2news.com</a></footer>
 <script>
-/* Farmers Calendar – owner's table (27 Nov 2026). General guide; dates vary with rain and district. */
+/* Farmers Calendar – owner's table and review (27 Nov 2026). General guide; dates vary with rain and district. */
 const M=[
  {te:'జనవరి',en:'January',sow:['రబీ వరి నాట్లు, ఆలస్యపు శనగ, పొద్దుతిరుగుడు','Rabi paddy transplanting, late Bengal gram, sunflower'],har:['చెరకు, పసుపు (మొదలు), మిరప కోత, పత్తి చివరి తీత, బత్తాయి','Sugarcane, turmeric (starts), chilli picking, last cotton pickings, sweet orange'],act:['రబీ వరిలో కలుపు, పురుగుల నివారణ; మిరప మార్కెట్ ధరలు (గుంటూరు)','Weed & pest control in Rabi paddy; chilli market prices (Guntur)'],fes:['సంక్రాంతి – పంటల పండుగ','Sankranti – harvest festival']},
  {te:'ఫిబ్రవరి',en:'February',sow:['వేసవి కూరగాయలు, వేరుశనగ (రబీ ఆలస్యం), నువ్వులు','Summer vegetables, groundnut (late Rabi), sesame'],har:['శనగ, పసుపు (నిజామాబాద్, దుగ్గిరాల), మిరప, మొక్కజొన్న (రబీ ముందస్తు)','Bengal gram, turmeric (Nizamabad, Duggirala), chilli, maize (early Rabi)'],act:['పసుపు ఉడకబెట్టడం, ఆరబెట్టడం; శనగ మద్దతు ధర కొనుగోళ్లు','Turmeric boiling & drying; MSP procurement of chana'],fes:['మహా శివరాత్రి','Maha Shivaratri']},
@@ -65,20 +77,68 @@ const M=[
 const R=[['తెలంగాణ','Telangana','వరి, పత్తి, మొక్కజొన్న, కంది, పసుపు (నిజామాబాద్), మిరప (ఖమ్మం, వరంగల్), సోయాబీన్ (ఆదిలాబాద్), మామిడి','Paddy, cotton, maize, red gram, turmeric (Nizamabad), chilli (Khammam, Warangal), soybean (Adilabad), mango'],
  ['కోస్తా ఆంధ్ర','Coastal AP','వరి (గోదావరి, కృష్ణా డెల్టాలు), మిరప (గుంటూరు), పొగాకు (ప్రకాశం), కొబ్బరి, అరటి, ఆక్వా','Paddy (Godavari & Krishna deltas), chilli (Guntur), tobacco (Prakasam), coconut, banana, aquaculture'],
  ['రాయలసీమ','Rayalaseema','వేరుశనగ (అనంతపురం), బత్తాయి, టమాటా (మదనపల్లె), మామిడి (చిత్తూరు), కంది','Groundnut (Anantapur), sweet orange, tomato (Madanapalle), mango (Chittoor), red gram']];
-const T={te:{t1:'🌾 రైతు క్యాలెండర్',t2:'తెలంగాణ & ఆంధ్రప్రదేశ్ – నెలవారీ విత్తనాలు, కోతలు, ముఖ్య పనులు',seas:['ఖరీఫ్ / వానాకాలం · జూన్–అక్టో','రబీ / యాసంగి · నవం–మార్చి','వేసవి · మార్చి–మే'],tag:'ఈ నెల',q:'ఈ నెల ఏం విత్తాలి, ఏం కోయాలి?',sow:'విత్తనాలు / నాట్లు',har:'కోతలు',act:'ముఖ్య పనులు & హెచ్చరికలు',fes:'పండుగలు / విశేషాలు',t3:'📅 అన్ని నెలలు',t4:'📍 ప్రాంతాల వారీ ప్రధాన పంటలు',home:'వార్తలకు వెళ్లండి',note:'ℹ️ ఇది సాధారణ మార్గదర్శి మాత్రమే. వర్షాలు, జిల్లాను బట్టి తేదీలు మారుతాయి. విత్తే ముందు మీ వ్యవసాయ అధికారి (AEO), తెలంగాణ/ఏపీ వ్యవసాయ శాఖ, PJTSAU / ANGRAU సూచనలు తప్పక చూడండి.',wa:m=>`🌾 ${m} – రైతు క్యాలెండర్: ఈ నెల ఏం విత్తాలి, ఏం కోయాలి 👇\nhttps://swipe2news.com/farmers.html\n📲 Swipe2News™`},
- en:{t1:'🌾 Farmers Calendar',t2:'Telangana & Andhra Pradesh – month-wise sowing, harvest and key farm work',seas:['Kharif · June–Oct','Rabi / Yasangi · Nov–Mar','Summer · Mar–May'],tag:'This month',q:'What to sow and harvest this month?',sow:'Sowing / planting',har:'Harvest',act:'Key work & alerts',fes:'Festivals / notes',t3:'📅 All months',t4:'📍 Main crops by region',home:'Go to news',note:'ℹ️ A general guide only. Dates change with rainfall and district. Before sowing, check with your agriculture officer (AEO), the Telangana/AP Agriculture Department and PJTSAU / ANGRAU advisories.',wa:m=>`🌾 ${m} – Farmers Calendar: what to sow and harvest this month 👇\nhttps://swipe2news.com/farmers.html\n📲 Swipe2News™`}};
-let L=(()=>{try{return localStorage.getItem('fcL')||'te'}catch(e){return 'te'}})();
-const cur=+new Intl.DateTimeFormat('en-IN',{timeZone:'Asia/Kolkata',month:'numeric'}).format(new Date())-1;
+const DIST=[["hyderabad", "హైదరాబాద్", "Hyderabad", "tg"], ["rangareddy", "రంగారెడ్డి", "Rangareddy", "tg"], ["medchal", "మేడ్చల్ మల్కాజిగిరి", "Medchal–Malkajgiri", "tg"], ["adilabad", "ఆదిలాబాద్", "Adilabad", "tg"], ["bhadradri", "భద్రాద్రి కొత్తగూడెం", "Bhadradri Kothagudem", "tg"], ["hanumakonda", "హనుమకొండ", "Hanumakonda", "tg"], ["jagtial", "జగిత్యాల", "Jagtial", "tg"], ["jangaon", "జనగామ", "Jangaon", "tg"], ["bhupalpally", "జయశంకర్ భూపాలపల్లి", "Jayashankar Bhupalpally", "tg"], ["gadwal", "జోగులాంబ గద్వాల", "Jogulamba Gadwal", "tg"], ["kamareddy", "కామారెడ్డి", "Kamareddy", "tg"], ["karimnagar", "కరీంనగర్", "Karimnagar", "tg"], ["khammam", "ఖమ్మం", "Khammam", "tg"], ["asifabad", "కుమురం భీం ఆసిఫాబాద్", "Kumuram Bheem Asifabad", "tg"], ["mahabubabad", "మహబూబాబాద్", "Mahabubabad", "tg"], ["mahabubnagar", "మహబూబ్‌నగర్", "Mahabubnagar", "tg"], ["mancherial", "మంచిర్యాల", "Mancherial", "tg"], ["medak", "మెదక్", "Medak", "tg"], ["mulugu", "ములుగు", "Mulugu", "tg"], ["nagarkurnool", "నాగర్‌కర్నూల్", "Nagarkurnool", "tg"], ["nalgonda", "నల్గొండ", "Nalgonda", "tg"], ["narayanpet", "నారాయణపేట", "Narayanpet", "tg"], ["nirmal", "నిర్మల్", "Nirmal", "tg"], ["nizamabad", "నిజామాబాద్", "Nizamabad", "tg"], ["peddapalli", "పెద్దపల్లి", "Peddapalli", "tg"], ["sircilla", "రాజన్న సిరిసిల్ల", "Rajanna Sircilla", "tg"], ["sangareddy", "సంగారెడ్డి", "Sangareddy", "tg"], ["siddipet", "సిద్దిపేట", "Siddipet", "tg"], ["suryapet", "సూర్యాపేట", "Suryapet", "tg"], ["vikarabad", "వికారాబాద్", "Vikarabad", "tg"], ["wanaparthy", "వనపర్తి", "Wanaparthy", "tg"], ["warangal", "వరంగల్", "Warangal", "tg"], ["yadadri", "యాదాద్రి భువనగిరి", "Yadadri Bhuvanagiri", "tg"], ["srikakulam", "శ్రీకాకుళం", "Srikakulam", "ca"], ["vizianagaram", "విజయనగరం", "Vizianagaram", "ca"], ["manyam", "పార్వతీపురం మన్యం", "Parvathipuram Manyam", "ca"], ["asr", "అల్లూరి సీతారామరాజు", "Alluri Sitharama Raju", "ca"], ["visakhapatnam", "విశాఖపట్నం", "Visakhapatnam", "ca"], ["anakapalli", "అనకాపల్లి", "Anakapalli", "ca"], ["kakinada", "కాకినాడ", "Kakinada", "ca"], ["eastgodavari", "తూర్పు గోదావరి", "East Godavari", "ca"], ["konaseema", "కోనసీమ", "Konaseema", "ca"], ["eluru", "ఏలూరు", "Eluru", "ca"], ["westgodavari", "పశ్చిమ గోదావరి", "West Godavari", "ca"], ["ntr", "ఎన్టీఆర్", "NTR", "ca"], ["krishna", "కృష్ణా", "Krishna", "ca"], ["palnadu", "పల్నాడు", "Palnadu", "ca"], ["guntur", "గుంటూరు", "Guntur", "ca"], ["bapatla", "బాపట్ల", "Bapatla", "ca"], ["prakasam", "ప్రకాశం", "Prakasam", "ca"], ["nellore", "నెల్లూరు", "Nellore", "ca"], ["kurnool", "కర్నూలు", "Kurnool", "rs"], ["nandyal", "నంద్యాల", "Nandyal", "rs"], ["anantapur", "అనంతపురం", "Anantapur", "rs"], ["sathyasai", "శ్రీ సత్యసాయి", "Sri Sathya Sai", "rs"], ["kadapa", "వైఎస్ఆర్ కడప", "YSR Kadapa", "rs"], ["annamayya", "అన్నమయ్య", "Annamayya", "rs"], ["tirupati", "తిరుపతి", "Tirupati", "rs"], ["chittoor", "చిత్తూరు", "Chittoor", "rs"]];
+
+/* district specialities (only what the owner's table says) */
+const SPEC={nizamabad:['పసుపు','Turmeric'],khammam:['మిరప','Chilli'],warangal:['మిరప','Chilli'],hanumakonda:['మిరప','Chilli'],adilabad:['సోయాబీన్','Soybean'],guntur:['మిరప, పసుపు (దుగ్గిరాల)','Chilli, turmeric (Duggirala)'],
+ eastgodavari:['డెల్టా వరి','Delta paddy'],westgodavari:['డెల్టా వరి','Delta paddy'],konaseema:['డెల్టా వరి, కొబ్బరి','Delta paddy, coconut'],krishna:['డెల్టా వరి','Delta paddy'],ntr:['డెల్టా వరి','Delta paddy'],eluru:['డెల్టా వరి','Delta paddy'],kakinada:['డెల్టా వరి','Delta paddy'],
+ prakasam:['పొగాకు','Tobacco'],anantapur:['వేరుశనగ','Groundnut'],sathyasai:['వేరుశనగ','Groundnut'],annamayya:['టమాటా (మదనపల్లె)','Tomato (Madanapalle)'],chittoor:['మామిడి','Mango']};
+const IC={sow:'<path d="M12 20v-8"/><path d="M12 12C12 8 9 6 5 6c0 4 3 6 7 6z"/><path d="M12 14c0-3 2.5-5 6-5 0 3-2.5 5-6 5z"/><path d="M6 20h12"/>',
+ har:'<path d="M12 21V8"/><path d="M12 8c-2-1-3-3-3-5 2 1 3 3 3 5z"/><path d="M12 8c2-1 3-3 3-5-2 1-3 3-3 5z"/><path d="M12 13c-2-1-3.5-3-3.5-5 2 1 3.5 3 3.5 5z"/><path d="M12 13c2-1 3.5-3 3.5-5-2 1-3.5 3-3.5 5z"/>',
+ act:'<rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V3h6v1"/><path d="M9 12l2 2 4-4"/>',
+ fes:'<path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/><circle cx="12" cy="12" r="3"/>'};
+const svg=(p,c='#4A0E3F',w=20)=>`<svg width="${w}" height="${w}" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
+const SH={te:['జన','ఫిబ్ర','మార్చి','ఏప్రి','మే','జూన్','జూలై','ఆగ','సెప్టె','అక్టో','నవం','డిసెం'],en:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']};
+const T={te:{t1:'రైతు క్యాలెండర్',t2:'నెలవారీ విత్తనాలు, కోతలు, పనులు',seas:['ఖరీఫ్ / వానాకాలం · జూన్–అక్టో','రబీ / యాసంగి · నవం–మార్చి','వేసవి · మార్చి–మే'],dl:'మీ జిల్లా',all:'మీ జిల్లా ఎంచుకోండి',tg:'తెలంగాణ',ap:'ఆంధ్రప్రదేశ్',
+  tag:'ఈ నెల',other:'ఇతర నెల',q:'ఈ నెల ఏం విత్తాలి, ఏం కోయాలి?',q2:'ఈ నెలలో ఏం విత్తాలి, ఏం కోయాలి?',sow:'విత్తనాలు / నాట్లు',har:'కోతలు',act:'ముఖ్య పనులు & హెచ్చరికలు',fes:'పండుగలు / విశేషాలు',
+  spec:(d,c)=>`📍 ${d} ప్రత్యేకం: ${c}`,reg:'మీ ప్రాంతంలో ప్రధాన పంటలు కింద చూడండి',bell:'అలర్ట్స్',src:'మూలం: Swipe2News సంకలనం · నిర్ధారణకు: వ్యవసాయ శాఖ / PJTSAU / ANGRAU',
+  t4:'ప్రాంతాల వారీ ప్రధాన పంటలు',home:'వార్తలకు వెళ్లండి',wat:'WhatsApp లో షేర్ చేయండి',wx:'వాతావరణం',rain:'వర్షం',mk:'మార్కెట్ ధరలు త్వరలో',wxna:'వాతావరణం: తెలంగాణ జిల్లాలకు మాత్రమే (IMD)',
+  note:'ఇది సాధారణ మార్గదర్శి మాత్రమే. వర్షాలు, జిల్లాను బట్టి తేదీలు మారుతాయి. విత్తే ముందు మీ వ్యవసాయ విస్తరణ అధికారి (AEO), తెలంగాణ/ఏపీ వ్యవసాయ శాఖ, PJTSAU / ANGRAU సూచనలు తప్పక చూడండి.',
+  wa:m=>`🌾 ${m} – రైతు క్యాలెండర్: ఈ నెల ఏం విత్తాలి, ఏం కోయాలి 👇\nhttps://swipe2news.com/farmers.html\n📲 Swipe2News™`},
+ en:{t1:'Farmers Calendar',t2:'Month-wise sowing, harvest and farm work',seas:['Kharif · June–Oct','Rabi / Yasangi · Nov–Mar','Summer · Mar–May'],dl:'Your district',all:'Choose your district',tg:'Telangana',ap:'Andhra Pradesh',
+  tag:'This month',other:'Other month',q:'What to sow and harvest this month?',q2:'What to sow and harvest in this month?',sow:'Sowing / planting',har:'Harvest',act:'Key work & alerts',fes:'Festivals / notes',
+  spec:(d,c)=>`📍 ${d} speciality: ${c}`,reg:'See your region\'s main crops below',bell:'Alerts',src:'Source: compiled by Swipe2News · confirm with Agriculture Dept / PJTSAU / ANGRAU',
+  t4:'Main crops by region',home:'Go to news',wat:'Share on WhatsApp',wx:'Weather',rain:'Rain',mk:'Market prices coming soon',wxna:'Weather: Telangana districts only (IMD)',
+  note:'A general guide only. Dates change with rainfall and district. Before sowing, check with your Agriculture Extension Officer (AEO), the Telangana/AP Agriculture Department and PJTSAU / ANGRAU advisories.',
+  wa:m=>`🌾 ${m} – Farmers Calendar: what to sow and harvest this month 👇\nhttps://swipe2news.com/farmers.html\n📲 Swipe2News™`}};
+const get=(k,d)=>{try{return localStorage.getItem(k)||d}catch(e){return d}}, put=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
+let L=get('fcL','te'), D=get('fcD','');
+const cur=+new Intl.DateTimeFormat('en-IN',{timeZone:'Asia/Kolkata',month:'numeric'}).format(new Date())-1; let sel=cur;
 const i=L=>L==='te'?0:1, esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
-const rows=(m,t,L)=>[['🌱',t.sow,m.sow],['🌾',t.har,m.har],['🧑‍🌾',t.act,m.act],['🎉',t.fes,m.fes]].map(([ic,b,v])=>`<div class="row"><span class="ic">${ic}</span><span><b>${b}</b><div>${esc(v[i(L)])}</div></span></div>`).join('');
-function draw(){ const t=T[L]; document.documentElement.lang=L; ['t1','t2','t3','t4','note'].forEach(k=>document.getElementById(k).textContent=t[k]);
-  document.getElementById('home').textContent=t.home; document.getElementById('seas').innerHTML=t.seas.map(x=>`<span>${x}</span>`).join('');
-  const m=M[cur]; document.getElementById('now').innerHTML=`<span class="tag">${t.tag}</span><h2>${m[L]}</h2><p class="q">${t.q}</p>${rows(m,t,L)}`;
-  document.getElementById('months').innerHTML=M.map((m,k)=>`<details${k===cur?' class="cur"':''}><summary><span class="m">${m[L]}</span><span class="s">${k>=5&&k<=9?'Kharif':k>=10||k<=2?'Rabi':'Summer'}</span></summary>${rows(m,t,L)}</details>`).join('');
-  document.getElementById('reg').innerHTML=R.map(r=>`<div class="rg"><b>${L==='te'?r[0]:r[1]}</b><div>${esc(L==='te'?r[2]:r[3])}</div></div>`).join('');
-  document.getElementById('wa').href='https://wa.me/?text='+encodeURIComponent(t.wa(m[L]));
-  document.getElementById('lte').classList.toggle('on',L==='te'); document.getElementById('len').classList.toggle('on',L==='en'); }
-document.getElementById('lte').onclick=()=>{L='te';try{localStorage.setItem('fcL',L)}catch(e){};draw()};
-document.getElementById('len').onclick=()=>{L='en';try{localStorage.setItem('fcL',L)}catch(e){};draw()};
+const season=m=>m>=5&&m<=9?[0]:m===2?[1,2]:m>=10||m<=1?[1]:[2];
+const $=id=>document.getElementById(id), dd=()=>DIST.find(x=>x[0]===D);
+let WX=null; fetch('/weather.json',{cache:'no-cache'}).then(r=>r.json()).then(j=>{WX=j;wx()}).catch(()=>{});
+function wx(){ const t=T[L], d=dd(), el=$('wx'); if(!d){ el.hidden=true; return; } el.hidden=false;
+  const rec=WX&&WX.d&&WX.d[d[0]]; const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata'}).format(new Date());
+  const day=rec&&(rec.days.find(x=>x.date===today)||rec.days[0]);
+  el.innerHTML = day ? `${svg('<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>','#B36B00',18)}<span>${d[L==='te'?1:2]} · ${Math.round(day.tmax)}° / ${Math.round(day.tmin)}° · ${t.rain} ${day.rain} mm${day.warn?` · <span class="w">⚠ ${esc(day.warn)}</span>`:''}</span><span class="mk">${t.mk}</span>`
+    : `<span>${t.wxna}</span><span class="mk">${t.mk}</span>`; }
+function rows(m,t){ return [['sow',t.sow,m.sow],['har',t.har,m.har],['act',t.act,m.act],['fes',t.fes,m.fes]].map(([k,b,v])=>`<div class="row"><span class="ic">${svg(IC[k],k==='har'?'#1F6B3A':'#4A0E3F')}</span><span><b>${b}</b><div>${esc(v[i(L)])}</div></span></div>`).join(''); }
+function card(){ const t=T[L], m=M[sel], d=dd(), sp=d&&SPEC[d[0]];
+  $('card').className='card'+(sel===cur?' cur':'');
+  $('card').innerHTML=`<div class="ctop"><button class="nav" id="pv" aria-label="previous month">${svg('<path d="M15 18l-6-6 6-6"/>')}</button><span class="tag${sel===cur?'':' alt'}">${sel===cur?t.tag:t.other}</span><span class="sp"></span>
+    <a class="bell" href="/?farm=1">${svg('<path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.9 1.9 0 0 0 3.4 0"/>','#4A0E3F',15)}${t.bell}</a>
+    <button class="nav" id="nx" aria-label="next month">${svg('<path d="M9 18l6-6-6-6"/>')}</button></div>
+    <h2>${m[L]}</h2><p class="q">${sel===cur?t.q:t.q2}</p>${sp?`<div class="spec">${esc(t.spec(d[L==='te'?1:2],sp[i(L)]))}</div>`:''}${rows(m,t)}<div class="src">${t.src}</div>`;
+  $('pv').onclick=()=>go(sel-1); $('nx').onclick=()=>go(sel+1);
+  [...$('mrow').children].forEach((b,k)=>b.classList.toggle('sel',k===sel));
+  const b=$('mrow').children[sel]; if(b) b.scrollIntoView({inline:'center',block:'nearest',behavior:'smooth'});
+  $('wa').href='https://wa.me/?text='+encodeURIComponent(t.wa(m[L])); }
+function go(k){ sel=(k+12)%12; card(); }
+function draw(){ const t=T[L]; document.documentElement.lang=L; ['t1','t2','t4','note','dl','wat'].forEach(k=>$(k).textContent=t[k]); $('home').textContent=t.home;
+  const on=season(cur); $('seas').innerHTML=t.seas.map((x,k)=>`<span class="${on.includes(k)?'on':''}">${x}</span>`).join('');
+  const opt=(st,lab)=>`<optgroup label="${lab}">${DIST.filter(x=>(st==='tg')===(x[3]==='tg')).map(x=>`<option value="${x[0]}"${x[0]===D?' selected':''}>${x[L==='te'?1:2]}</option>`).join('')}</optgroup>`;
+  $('dist').innerHTML=`<option value="">${t.all}</option>`+opt('tg',t.tg)+opt('ap',t.ap);
+  $('mrow').innerHTML=SH[L].map((x,k)=>`<button type="button" role="tab" class="${k===cur?'now':''}">${x}</button>`).join('');
+  [...$('mrow').children].forEach((b,k)=>b.onclick=()=>go(k));
+  const rg=dd()?dd()[3]:''; $('reg').innerHTML=R.map((r,k)=>`<div class="rg${['tg','ca','rs'][k]===rg?' mine':''}"><b>${L==='te'?r[0]:r[1]}</b><div>${esc(L==='te'?r[2]:r[3])}</div></div>`).join('');
+  card(); wx(); }
+$('dist').onchange=e=>{D=e.target.value;put('fcD',D);draw()};
+$('lte').onclick=()=>{L='te';put('fcL',L);$('lte').classList.add('on');$('len').classList.remove('on');draw()};
+$('len').onclick=()=>{L='en';put('fcL',L);$('len').classList.add('on');$('lte').classList.remove('on');draw()};
+$('lte').classList.toggle('on',L==='te'); $('len').classList.toggle('on',L==='en');
+/* swipe between months on the card */
+let sx=null; $('card').addEventListener('touchstart',e=>{sx=e.touches[0].clientX},{passive:true});
+$('card').addEventListener('touchend',e=>{ if(sx==null) return; const dx=e.changedTouches[0].clientX-sx; sx=null; if(Math.abs(dx)>60) go(sel+(dx<0?1:-1)); },{passive:true});
 draw();
 </script></body></html>

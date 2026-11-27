@@ -1484,6 +1484,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
     <div class="sh-body">
       <button class="sqopen" id="sqOpen1" type="button"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span>వార్తలు, జాబ్స్ వెతకండి · Search</span></button>
       <a class="trustlnk" href="/trust.html"><span>🛡️</span><b>ట్రస్ట్ సెంటర్ · Trust centre</b><small>మూలాలు, లేబుల్స్, దిద్దుబాట్లు, ఫిర్యాదులు</small></a>
+      <a class="trustlnk" href="/farmers.html"><span>🌾</span><b>రైతు క్యాలెండర్ · Farmers Calendar</b><small>ఈ నెల ఏం విత్తాలి, ఏం కోయాలి</small></a>
       <a class="trustlnk" href="#" onclick="event.preventDefault();openContact()"><span>📞</span><b>సంప్రదించండి · Contact us</b><small>swipe2news@gmail.com · +91 70326 56422</small></a>
       <img class="wgreet" data-src="promo/diwali-2026.jpg" alt="Swipe2News – దీపావళి శుభాకాంక్షలు" hidden data-until="2026-11-09T15:00:00+05:30">
       <h2>భాష · Language</h2>
@@ -4215,6 +4216,7 @@ function bellState(on){ $('bellBtn').setAttribute('aria-pressed', !!on); }
 function tagUser(OneSignal){ try{ const P=PLACES.find(x=>x[0]===prefs.place), dist=P&&!['TS','AP','IN'].includes(P[0]); const zw=t=>/్$/.test(t)?t+'\u200c':t; // district names for the owner's greeting calendar ({district}లో …)
   const t={place:prefs.place, topics:prefs.topics.join(','), lang:LG(), pte:dist?zw(P[1]):'', pen:dist?P[2]:'', edition:'in'}; // edition: India alerts (Nigeria readers are tagged 'ng' on /ng/)
   if(prefs.place==='AP'){ t.ste='ఆంధ్రప్రదేశ్'; t.sen='Andhra Pradesh'; } else if(prefs.place&&prefs.place!=='IN'){ t.ste='తెలంగాణ'; t.sen='Telangana'; } else { t.ste=''; t.sen=''; }
+  try{ if(store.get('farmer',0)) t.farmer='1'; }catch(e){} // owner 27 Nov 2026: Farmers Calendar alerts
   OneSignal.User.addTags(t); }catch(e){} }
 if(pushOK){
   OneSignalDeferred.push(async function(OneSignal){
@@ -4231,6 +4233,8 @@ if(pushOK){
 }
 /* pick up new versions straight away: check on open and when the app comes back to the screen, reload once when the new version takes over */
 /* (moved to its own small script at the top of the page, so an error in the app code can never stop an update) */
+/* Farmers Calendar bell (/?farm=1): mark the reader as a farmer and turn alerts on */
+try{ if(/[?&]farm=1/.test(location.search)){ store.set('farmer',1); history.replaceState(null,'',location.pathname); setTimeout(()=>{ try{ askAlerts(); }catch(e){} },1200); } }catch(e){}
 async function askAlerts(){
   $('alertCard').hidden = true; store.set('alertAsked', Date.now());
   if(!pushOK){ toast(PT().onlyApp); return; }
