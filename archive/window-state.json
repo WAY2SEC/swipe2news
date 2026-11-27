@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-27T09:05:00+05:30",
+ "cutoff": "2026-11-27T09:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-24T16:05:00+05:30/2026-11-24T16:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 4,
-   "late": 1,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Lookback from 08:05. Feeds 16:10 IST (65/70 ok; failing: The Hindu x1, Hans India, Gadwal en, Nalgonda te/en). add_repo tool not available; used existing clone. Direct-URL fetches without a same-run search were refused, costing time. Published: TT Ameerpet saree fire death (sensitive, no name), TT JNTU flyover oil spill, NewsBytes TG farm NPAs Rs7,304cr (claim, late-found 15:29), TT Anantapur girls' football Dec 10-17. Skipped old: DC HC Rs2 lakh encounter compensation (23 Nov 23:21). Not opened/no search hit: Hindu Rayalaseema rice hoarding, Hindu Kishan Reddy de-addiction (dup of padayatra press meet), ETV Indrakeeladri giri pradakshina, DC Vizianagaram siblings drown, Munsif Karregutta tourists, ETV AP road-safety GO, Samayam Singur Dec 20, V6 congestion charges, Oneindia Pushkaralu logo contest, TT Nizamabad ATM, TT Kondagattu crowds. No district searches this run. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-24T16:35:00+05:30/2026-11-24T17:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 00:35 Nov 27. Feeds 08:43 IST (70/70 ok; 2748 uncovered, 852 TG/AP; 564 local uncovered in lookback). add_repo and WebFetch tools not available; used existing clone and a fetch helper that only opens URLs returned by WebSearch (direct feed URLs refused: The Hindu, Siasat, Telangana Today). Published 4: DC Hyderabad heaviest Nov rain in 10 yrs (08:32), Hans 64 AYUSH centres (05:41), Hans NDA-backed sweep GP phase 1 (01:30, claim), Tribune/ANI Gukesh Game 3 draw (01:32). Duplicates: The Hindu/NIE NTR 75.83% turnout, NIE APSRTC drivers pay, The Hindu overnight rain (all covered). Skipped as old: DC TGSPDCL operator suspended (15:25 Nov 26; NIE 08:38 version not found). Not opened (no search hit at a reputable outlet): The Hindu Guntur ULB 73.30%, Krishna 79.77%, Bapatla counting, DNA data storage, Vizag Blue Steps; Siasat HC juvenility age, Forbes changemakers; TV9 bus passenger saves 73; ETV Bharat Odisha border votes. No district searches this run. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-27T09:05:00+05:30/2026-11-27T09:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 4,
+   "late": 3,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 01:05 Nov 27. Feeds 09:16 IST (68/68 ok; 2658 uncovered, 762 TG/AP; 172 local uncovered in lookback, most already covered or single-source Eenadu/Sakshi district briefs). add_repo and direct WebFetch not available; used existing clone and web-fetch helper on search results. Published 4: Namasthe Telangana Khairatabad GHMC zonal office fire (08:58, sensitive), Hans Tirupati 70.56% panchayat turnout (05:08), Hans/IANS Amit Shah women's quota (06:17, claim), HMTV Simhachalam flagstaff gold plating (08:16). Skipped as old: Devdiscourse Reuters world summary (18:28 Nov 26); TG HC bar privilege fee stay (older, since lifted). Not opened (no search hit): NIE AP fertiliser app, NIE Kerala helpline for AP pilgrims, The Hindu two Italians killed Kuwait, NIE Jagan rigging, NIE Appi Reddy HC bail, Andhrajyothy AP cabinet Rs 88,000 cr, Siasat HC juvenility (search found only Kerala HC). Medchal CP/DCP HC jail (prabhanews) not confirmed at another outlet. 8 district searches (Warangal, Siddipet/Medak/Sangareddy, Adilabad/Nirmal/Mancherial, Tirupati, Srikakulam/Vizianagaram, Anantapur/Kadapa, Suryapet, Kakinada/East Godavari) - only Tirupati gave a new dated item. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6398,6 +6398,41 @@
    "url": "https://www.deccanchronicle.com/southern-states/telangana/tgspdcl-suspends-substation-operator-for-allegedly-tripping-feeder-leaving-4215-consumers-without-power-in-saroornagar-2008150",
    "d": "2026-11-27",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.ntnews.com/hyderabad/fire-breaks-out-at-khairatabad-ghmc-zonal-office-in-hyderabad-2570180",
+   "d": "2026-11-27",
+   "w": "p"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/telangana/fire-breaks-out-khairatabad-ghmc-zonal-office-2971747",
+   "d": "2026-11-27",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/tirupathi/tirupati-dist-records-7056-turnout-in-panchayat-polls-1146200",
+   "d": "2026-11-27",
+   "w": "p"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/new-delhi/women-will-get-33-pc-quota-oppn-cannot-block-us-hm-amit-shah-on-constitution-day-1146227",
+   "d": "2026-11-27",
+   "w": "p"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/visakhapatnam/simhachalam-temple-flagstaff-gold-plating-cmr-group-chairman-mavuri-217657",
+   "d": "2026-11-27",
+   "w": "p"
+  },
+  {
+   "url": "https://www.devdiscourse.com/article/international/4012656-reuters-world-news-summary",
+   "d": "2026-11-27",
+   "w": "skip"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-high-court-stays-new-fee-on-bars-restaurants-3568041/",
+   "d": "2026-11-27",
+   "w": "skip"
   }
  ]
 }
