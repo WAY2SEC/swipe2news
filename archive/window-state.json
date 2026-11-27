@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-27T06:35:00+05:30",
+ "cutoff": "2026-11-27T07:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-24T11:35:00+05:30/2026-11-24T12:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 13,
-   "published": 11,
-   "late": 9,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "Lookback from 03:35. Feeds 11:48 IST (70/70 ok). 252 uncovered local events in lookback (many already covered/old). 12:05 sister run had not saved state. add_repo tool not available; used existing clone. Published: HMTV Toopran court, TT Karthika Pournami Hyderabad, HMTV Sircilla farmer electrocuted (sensitive, no name), NewsMeter Telugu Kangti wife arrested (sensitive, police), Siasat Brigade Rs180cr land, HMTV Kalwakurthy Rs5.60cr works, Hans Khammam journalists (claim), HMTV Singarayakonda theft, Hans APSRTC EHS, Hans APCPDCL Surya Ghar Dec 15, Hans AP 2027-28 school plan. Skipped: HMTV Chandrapur bears (Maharashtra, minor other-state); Outlook Lokesh clean energy (announcement/advertorial); SC Umar Khalid hearing (rule); Hyderabad congestion charge (10TV) = 23 Nov study story. Old in search: Akvan alert (18 Nov), SC AP SEC list (21 Oct), Agrigold, Natco. Not opened: Disha Huzurabad fire (fetch failed), NIE Singur cutoff Dec 20, Hyderabad Mail child marriage, TT Lokesh green energy. District searches: Nalgonda, Sangareddy, Nagarkurnool, Karimnagar/Sircilla, Khammam, Medak, Prakasam, Mancherial. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-24T12:35:00+05:30/2026-11-24T13:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Lookback from 22:05 Nov 26. Feeds 06:13 IST (70/70 ok; 2747 uncovered, 901 TG/AP). add_repo tool not available; used existing clone. Typed feed URLs refused (provenance) – only search-result URLs opened. Published 7: Hans climate conclave Dec 7-9 (02:13), Hans Bandi Sanjay drugs (02:26, claim), DC Kagaznagar staff feast (22:54, claim), Hans Vivek-Prem Sagar row (04:52, claim), DC Polavaram colony poll boycott (00:19), Hans Mangalagiri CPI SI allegation (04:51, claim), DC FoodProTech Jan 29 (22:51). Duplicate: TT Nagole matrimony scam (Siasat covered 26 Nov). Not opened: Disha Warangal wife-paramour murder (client error); DC Chittoor turnout, DC HRF Manyam school, DSC sports quota, Hindu items (not found in search). Search index lag: no district searches beyond targeted ones. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-27T06:35:00+05:30/2026-11-27T07:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 8,
+   "published": 8,
+   "late": 8,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 22:35 Nov 26. Feeds 06:48 IST (70/70 ok; 2810 uncovered, 931 TG/AP; 180 local in lookback). add_repo tool not available; repo was already cloned. Published 8: Hans AP municipal polls 62.5% (01:36), DC Chittoor 82.40% (23:50), Hans NTR 75.80% (04:49), Hans Anakapalli 81.48% (05:21), Hans Kurnool ~80% (04:54), Hans Gospadu recount tension (04:56, sensitive/claim), DC DSC-2024 sports quota HC hearing (22:59), Hans GVMC 803 tax mela applications (05:28). Skipped (before lookback): Andhra Prabha Dharmana house arrest (12:48 Nov 26), Business Standard SC PMLA judicial member (20:28 Nov 26). Not opened: Telangana Today HC reserves orders HUDA Truck Park, The Hindu ASR 59.61% turnout, The Hindu first phase polls end (direct feed URLs refused; no search hit), TOI Tirupati bonded corridors, TOI Vizag fake crypto, TOI Vijayawada passport, HMTV Sathupalli-Khammam deluxe bus, Al Arabiya N Korea missiles (no search hit). No district searches this run (time spent on feed events). Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6178,6 +6178,56 @@
    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/naidu-to-open-foodprotech-2027-in-vijayawada-on-jan-29-2008297",
    "d": "2026-11-27T06:35",
    "w": "eligible"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/amaravati/ap-municipal-polls-record-625-turnout-1146086",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/panchayat-polls-chittoor-records-8240-turnout-tirupati-7056-2008341",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/vijayawada/overall-polling-touches-7580-in-five-ntr-district-mandals-1146181",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/8148-voter-turnout-recorded-in-anakapalli-1146207",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/nearly-80-turnout-recorded-in-erstwhile-kurnool-panchayat-polls-1146185",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/tension-flares-up-in-gospadu-mandal-over-poll-irregularities-and-recounting-row-1146186",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-hc-to-hear-dsc-2024-sports-quota-dispute-today-2008301",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/visakhapatnam/803-applications-received-during-special-revenue-tax-melas-1146211",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://prabhanews.com/dharmana-prasada-rao-house-arrest-srikakulam-polling/",
+   "d": "2026-11-27",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.business-standard.com/india-news/sc-rules-pmla-attachment-orders-must-be-confirmed-by-judicial-member-126112601369_1.html",
+   "d": "2026-11-27",
+   "w": "skipped"
   }
  ]
 }
