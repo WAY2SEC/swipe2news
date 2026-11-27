@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-27T23:05:00+05:30",
+ "cutoff": "2026-11-27T23:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T11:05:00+05:30/2026-11-25T11:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 3,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 3,
-   "review": 1,
-   "gaps": "Lookback from 03:05. Feeds 11:15 IST (67/68 ok; 2795 events, 691 TG/AP uncovered by flag but most already on site). add_repo tool not available; used existing clone. Published 3: IANS/Punjab Kesari Kakinada 7 fishermen safe (11:24, update to 24 Nov story); Andhra Jyothy live graduate MLC draft voter lists, Form-18 till Dec 10 (07:18, late); INDToday Hyderabad-born Laxmi in Victoria poll Nov 28 (11:12). Dropped: Tirumala 12-hour wait (same live-page link as MLC item, check flags duplicate link). Skipped: Pendurthi official suspension (too vague), Nandyal/Vikarabad suicide items (sensitive, thin), PM Modi verse post (not news). Review: devdiscourse Reuters world summary (no publication time). Not found by search: TOI digital-arrest Rs 50 cr, The Hindu IRISET Kavach MoUs, NIE BJP 25-day agitation, NIE Kotia 58 nominations, NewsMeter AP crop loss 12.64 lakh ha, NIE CPDCL polling power, Medical Dialogues egg-harvesting bail. District searches: Nalgonda/Suryapet, Srikakulam/Vizianagaram, Medak/Sangareddy/Siddipet, Tirupati/Chittoor/Nellore, Jagtial/Nizamabad/Kamareddy, Eluru/W Godavari/Rajahmundry (all returned only tag pages). Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-25T11:35:00+05:30/2026-11-25T12:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Lookback from 14:35 Nov 27. Feeds 22:44 IST (76/77 ok, UN News failing; 2886 uncovered, 864 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 2: Telangana Today contra-flow BRTS JNTU-Raidurg within a week (22:28, single), myKhel India women beat Malaysia 6-2, ACT final vs China (22:53, single; ANI/India TV pages refused). Duplicates: Siasat/PTI Nirmal ganja farmer (published 26 Nov 17:35), Hindu/NDTV Hanumakonda bonded labour (published 15:35). Not opened (permission not answered / not in search): The Hindu Asifabad moneylending 16 cases, TGSRTC fleet expansion; Guardian Google Belgium datacentre, Norse Atlantic bankruptcy; PIB ITU 2030. Copycheck flags older story en.h 'President Murmu to attend PJTSAU convocation' (not changed). Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-27T23:05:00+05:30/2026-11-27T23:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 3,
+   "late": 2,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 15:05 Nov 27. Feeds 23:22 IST but only 11/75 feeds ok (Google News outlet/district feeds HTTP 503: Eenadu, Sakshi, Andhra Jyothy etc.); 345 uncovered, 253 TG/AP. add_repo not available; used existing clone and web-fetch helper. thehindu.com rejected by search domain filter, so Hindu-only events not opened (pattadar passbooks, Kona dredger, SEC Dec 5 indirect polls, APPSC CPT, Gandikota, TGSRTC fleet, drumstick prices, Eluru MRO ACB). Published 3: TT Keesara hanging cables (23:06), TT Kalasagaram fest from Nov 28 (18:40, late), TT Pragathi Nagar chess open Nov 29 (19:11, late). Skipped: Siasat TG SAFE Neredmet tapentadol raid (sensitive, single source), TT Kinnerasani sambar deer poaching 9 held (sensitive, single source), TT Cybage MLRIT scholarships (promotional CSR). 8 district searches returned only tag pages. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6433,6 +6433,36 @@
    "url": "https://www.thehindu.com/news/national/telangana/25-workers-including-nine-children-rescued-from-bonded-labour-in-hanumakonda/article71751874.ece",
    "d": "2026-11-27",
    "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/commissioner-orders-removal-of-dangling-cables",
+   "d": "2026-11-27",
+   "w": "2026-11-27T23:35"
+  },
+  {
+   "url": "https://telanganatoday.com/kalasagaram",
+   "d": "2026-11-27",
+   "w": "2026-11-27T23:35"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-to-host-open-chess-tournament-at-pragathi-nagar-on-november-29",
+   "d": "2026-11-27",
+   "w": "2026-11-27T23:35"
+  },
+  {
+   "url": "https://www.siasat.com/tg-safe-raids-malkajgiri-shop-over-sale-of-habit-forming-drugs-3588637/",
+   "d": "2026-11-27",
+   "w": "2026-11-27T23:35"
+  },
+  {
+   "url": "https://telanganatoday.com/nine-in-custody-in-kinnerasani-poaching-case",
+   "d": "2026-11-27",
+   "w": "2026-11-27T23:35"
+  },
+  {
+   "url": "https://telanganatoday.com/mlrit",
+   "d": "2026-11-27",
+   "w": "2026-11-27T23:35"
   }
  ]
 }
