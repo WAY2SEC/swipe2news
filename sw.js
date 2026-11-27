@@ -1,6 +1,6 @@
 // Swipe2News service worker: keeps the app working offline (villages, weak signal).
 // Pages and news: network first, but fall back to the saved copy after 4 s. Fonts and pictures: saved copy first.
-const CACHE = 's2n-v2251'; // when this changes, run tools/bump_app.py (or put the same name in OneSignalSDKWorker.js): Safari only updates the worker when OneSignalSDKWorker.js itself changes
+const CACHE = 's2n-v2252'; // when this changes, run tools/bump_app.py (or put the same name in OneSignalSDKWorker.js): Safari only updates the worker when OneSignalSDKWorker.js itself changes
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'logo.png', 'logo-light.png', 'qr.png', 'icon-192.png', 'icon-512.png',
   'news.json', 'mandi.json', 'mandi.js?v=2', 'mandi/', 'morning/', 'archive/index.json'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(new Request(u, {cache: 'reload'})).catch(() => 0))))); self.skipWaiting(); });
@@ -31,7 +31,8 @@ self.addEventListener('fetch', e => {
     e.respondWith(caches.match(req, {ignoreSearch: true}).then(c => {
       const net = fetch(req.url, {cache: 'no-cache', credentials: 'same-origin'}).then(r => { if (r && r.ok) { const copy = r.clone(); caches.open(ART).then(x => x.put(req, copy)); } return r; });
       if (c) { e.waitUntil(net.catch(() => 0)); return c; }
-      return net;
+      // no saved copy: if the first try fails (weak signal), try once more the normal way before giving up (owner 27 Nov 2026: Android showed no pictures)
+      return net.then(r => (r && r.ok) ? r : fetch(req)).catch(() => fetch(req));
     }));
     return;
   }
