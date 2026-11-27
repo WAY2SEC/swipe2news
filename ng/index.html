@@ -391,7 +391,7 @@ const ICO={save:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stro
    never people photos or sports pictures on crime, death or disaster stories (those get an agency logo or the logo card). */
 const LIB_CR={atiku:'Wikimedia Commons','lagos-house':'Wikimedia Commons',rail:'Wikimedia Commons',nafdac:'Wikimedia Commons'};
 const LIB_LOGO=new Set(['efcc','police','coat-of-arms','ncdc','nema','ncc','nnpc','immigration','frsc','inec','customs','cbn','nafdac']);
-const LIB_AI=new Set(['lagos-skyline','ballot-box','okada-keke','party-meeting','vote-counting','campaign-rally']);
+const LIB_AI=new Set(['lagos-skyline','ballot-box','okada-keke','party-meeting','vote-counting','campaign-rally','nollywood','mosque','church','nysc','generator','okada-keke-2']);
 const LEADERS=[['tinubu',/\b(Tinubu|President Bola)\b/],['shettima',/\bShettima\b/],['first-lady',/\b(Remi Tinubu|First Lady)\b/],['atiku',/\bAtiku\b/],['wike',/\bWike\b/],['soludo',/\bSoludo\b/],['elumelu',/\bElumelu\b/],['dangote',/\bAliko Dangote\b/]];
 const SENS=/\b(kill\w*|dead|death|dies|died|murder\w*|attack\w*|kidnap\w*|abduct\w*|bandit\w*|gunmen|rape\w*|explosion|blast|crash\w*|accident|fire|burn\w*|stab\w*|shot|shoot\w*|lynch\w*|suicide|corpse|bod(y|ies)|victims?|injur\w*)\b/i;
 const TARGET=/\b(against|slams?|attacks?|accus\w*|blasts?|knocks?|criticis\w*|probes?|probing|sues?|sued|petition\w*|arrest\w*|impeach\w*|tackles?|faults?|condemns?|mocks?|insults?|query|queries|summons?|invites?|vs\.?|versus)\b/i;
@@ -403,6 +403,7 @@ const TOPIC=[
  ['cbn',/\b(CBN|Central Bank|MPR|interest rate|monetary policy)\b/i],['naira',/\b(naira|forex|exchange rate|dollar|FX)\b/i],['ngx',/\b(NGX|stock market|equities|shares|market capitali[sz]ation|bourse|IPO|listing)\b/i],
  ['refinery',/\b(refinery|refineries|crude)\b/i],['nnpc',/\b(NNPC|NUPRC|NMDPRA)\b/],['fuel-station',/\b(petrol|fuel|PMS|pump price|diesel|filling stations?)\b/i],['power',/\b(electricity|power supply|tariff|grid|DisCos?|GenCos?|TCN|blackout|band A)\b/i],
  ['ncc',/\b(NCC|telecoms?|MTN|Airtel|Glo|9mobile|data prices?|SIM)\b/],['port',/\b(ports?|Apapa|Tin Can|NPA|shipping|vessels?|cargo)\b/i],['airport',/\b(airports?|flights?|airlines?|aviation|NCAA|FAAN|Air Peace)\b/i],
+ ['nysc',/\b(NYSC|corps members?)\b/i],['nollywood',/\b(Nollywood|films?|movies?|actors?|actress\w*|AMVCA|cinema|box office)\b/i],['mosque',/\b(mosques?|Muslims?|Islamic|Jumat|Ramadan|Sallah|Eid|imams?|Sultan)\b/i],['church',/\b(church\w*|Christians?|CAN|pastors?|clergy|Christmas|Easter|Catholic|bishops?)\b/],['generator',/\b(generators?|blackouts?|power outages?|outage)\b/i],
  ['okada-keke',/\b(okada|keke|tricycles?|motorcycles?|commercial motorcyclists)\b/i], ['rail',/\b(rail\w*|trains?|Blue Line|Red Line|metro)\b/i],['brt',/\b(BRT|LAMATA)\b/],['third-mainland',/\b(Third Mainland|bridges?)\b/i],['lagos-traffic',/\b(traffic|gridlock|danfo|okada|keke)\b/i],
  ['school',/\b(schools?|pupils|students|JAMB|WAEC|NECO|UTME|teachers|education|universit\w*|ASUU|polytechnic)\b/i],['hospital',/\b(hospitals?|health|doctors|nurses|medical|patients|NHIA|clinic\w*|vaccin\w*|immuni[sz]\w*|maternal)\b/i],
  ['farm',/\b(farm\w*|agric\w*|harvest\w*|cassava|maize|rice|fertili[sz]er)\b/i],['market',/\b(food prices?|inflation|market prices?|tomato\w*|traders|CPI)\b/i],
