@@ -1,6 +1,6 @@
 // Swipe2News service worker: keeps the app working offline (villages, weak signal).
 // Pages and news: network first, but fall back to the saved copy after 4 s. Fonts and pictures: saved copy first.
-const CACHE = 's2n-v2247'; // when this changes, run tools/bump_app.py (or put the same name in OneSignalSDKWorker.js): Safari only updates the worker when OneSignalSDKWorker.js itself changes
+const CACHE = 's2n-v2248'; // when this changes, run tools/bump_app.py (or put the same name in OneSignalSDKWorker.js): Safari only updates the worker when OneSignalSDKWorker.js itself changes
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'logo.png', 'logo-light.png', 'qr.png', 'icon-192.png', 'icon-512.png',
   'news.json', 'mandi.json', 'mandi.js?v=2', 'mandi/', 'morning/', 'archive/index.json'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(new Request(u, {cache: 'reload'})).catch(() => 0))))); self.skipWaiting(); });

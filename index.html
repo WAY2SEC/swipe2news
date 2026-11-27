@@ -974,7 +974,9 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
 @media (min-width:380px){.story.s2n:not(.promo2):not(.house):not(.locq):not(.mandi)>.text>.ctxrow{align-self:flex-end;margin-top:calc(-1 * (19px + 7px));line-height:19px}}
 
 /* Previous/Next in the bottom bar (live); Home button + Today-for-you sheet (live) */
-.icon.homeb{margin-left:auto;margin-right:8px}
+.icon.homeb{margin-left:auto;margin-right:0} /* owner 27 Nov 2026: ఈరోజు sits close to ☰ */
+#homeLogo .logo{margin-left:-11px} /* the wordmark picture has empty space on its left: bring it close to the icon (owner 27 Nov 2026) */
+@media (max-width:380px){#homeLogo .logo{margin-left:-9px}}
 .s2n .cfoot.navf{padding:0 8px}
 .s2n .cfoot.navf>span{font-size:11px;opacity:.85}
 .s2n .cfoot.navf button{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:3px;height:34px;padding:0 12px;border-radius:17px;background:#F5A23A;color:#2E0827;font:800 13px/1 'Outfit',var(--body);white-space:nowrap}
