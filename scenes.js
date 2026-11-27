@@ -471,7 +471,7 @@ const ART_TOPIC=[
  [/పథకం|పథకాల|పథకాలు|\bscheme/i,'e/public-policy-announcement'],
  [/కమిషనర్|మున్సిపల్|మున్సిపాలిటీ|కార్పొరేషన్|\bmunicipal|commissioner/i,'e/municipal-council-meeting'],
  [/బదిలీ|transfer/i,'e/government-press-briefing'],
- [/ఆవేదన|నిరసన|ధర్నా|ఆందోళన|\bprotest|धरना/i,'e/teacher-vacancy-protest'],
+ [/ఆవేదన|నిరసన|ధర్నా|ఆందోళన|\bprotest|धरना/i,'e/protest-dharna-chowk'],
  [/పోలీస్|పోలీసు|\bpolice\b|पुलिस/i,'e/community-police-meeting'],
  [/పాఠశాల|స్కూల్|విద్యార్థ|కళాశాల|\bschool|\bstudents?\b|college/i,'e/government-school-classroom'],
  [/రైతు|పంట|వ్యవసాయ|\bfarmers?\b|\bcrop|किसान/i,'e/rice-farmers'],
@@ -882,8 +882,9 @@ if(typeof document!=='undefined'){ if(document.readyState==='loading') document.
 /* owner 27 Nov 2026: "do not use this image" – the protest picture shows Mumbai landmarks, so it is never used.
    Park / land stories get the park or land-survey picture; other protests get the placard crowd picture. */
 (function(){ const _ap=artPlan; const BAN={'e/peaceful-public-protest':1};
+  // owner 27 Nov 2026: Dharna Chowk picture for protests in Hyderabad
   artPlan=function(s){ const a=_ap(s); if(!a||!BAN[a.bg]) return a;
     const t=[s&&s.h,s&&s.statl,s&&s.cat,s&&s.p].join(' ');
-    const bg=/పార్క్|పార్కు|ఉద్యాన|చెట్లు|\bpark\b|trees?/i.test(t)?'e/neglected-public-park':/భూమి|భూ|స్థలం|ఆక్రమణ|\bland\b|encroach/i.test(t)?'e/land-encroachment-survey':'e/teacher-vacancy-protest';
+    const bg=/పార్క్|పార్కు|ఉద్యాన|చెట్లు|\bpark\b|trees?/i.test(t)?'e/neglected-public-park':/భూమి|భూ|స్థలం|ఆక్రమణ|\bland\b|encroach/i.test(t)?'e/land-encroachment-survey':'e/protest-dharna-chowk';
     return Object.assign({},a,{bg}); };
   if(typeof window!=='undefined') window.artPlan=artPlan; })();
