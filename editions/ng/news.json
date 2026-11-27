@@ -1,10 +1,617 @@
 {
  "date": "27.11.2026",
- "updated": "2026-11-27T20:41:18+01:00",
+ "updated": "2026-11-27T22:45:52+01:00",
  "version": 2,
  "edition": "ng",
  "tz": "Africa/Lagos",
  "stories": [
+  {
+   "h": "FRSC starts festive road safety drive in Anambra",
+   "p": "The Federal Road Safety Corps has launched its 2026 ember months safety campaign in Anambra State, Punch reports. Officials warned drivers and transport companies against overloading, carrying passengers with goods, speeding and drink-driving as traffic rises ahead of Christmas and New Year travel across the state.",
+   "stat": "Ember",
+   "statl": "Road safety campaign",
+   "lbl": "fact",
+   "cat": "Nigeria · Anambra",
+   "sec": [
+    "security"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/frsc-begins-ember-months-campaign-in-anambra-warns-against-overloading/",
+   "pub": "2026-11-27T21:51+01:00",
+   "d": "27.11.2026",
+   "t": "21:51",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Anambra",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Damilola Bolarinde wins Miss International Africa",
+   "p": "Damilola Bolarinde has become the first Nigerian to win the Miss International Africa title, BellaNaija reports. She received the continental crown during the 64th edition of the Miss International contest, staged in Tokyo, Japan. It is the first time Nigeria has taken the African title at the long-running beauty contest, and The Guardian Nigeria also carried the news of her win on Friday night.",
+   "stat": "1st",
+   "statl": "Nigerian title in Tokyo",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "politics"
+   ],
+   "src": "BellaNaija",
+   "url": "https://www.bellanaija.com/2026/11/damilola-bolarinde-miss-international-africa-2026/",
+   "pub": "2026-11-27T21:31+01:00",
+   "d": "27.11.2026",
+   "t": "21:31",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "INEC mock test to cover 17,676 polling units",
+   "p": "INEC says Saturday's mock accreditation will run in 17,676 selected polling units nationwide to check how well its equipment works ahead of the 2027 polls. The trial covers the BVAS machines, the IReV results portal and the electronic EC8A result sheet. INEC told Channels TV the test ballots will carry no party names or logos. Election observers joined Friday's readiness review.",
+   "stat": "17,676",
+   "statl": "Units in Saturday's test",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "Channels TV",
+   "url": "https://www.channelstv.com/2026/11/27/why-mock-accreditation-wont-have-logos-names-of-political-parties-inec/",
+   "pub": "2026-11-27T21:03+01:00",
+   "d": "27.11.2026",
+   "t": "21:03",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Nigerian Tribune",
+     "u": "https://tribuneonlineng.com/inec-to-test-bvas-irev-electronic-ec8a-in-17676-polling-units-ahead-of-2027/"
+    }
+   ]
+  },
+  {
+   "h": "91 army recruits finish counter-terror course",
+   "p": "Chief of Army Staff Lt Gen Waidi Shaibu on Friday addressed 91 regular recruits at their counterterrorism and counterinsurgency (CTCOIN) graduation in Zaria, Kaduna State. He told them to stay disciplined and professional, and said specialised training is key to a combat-ready army as the force grows, according to an army statement reported by Punch and Daily Post.",
+   "stat": "91",
+   "statl": "Recruits graduate",
+   "lbl": "official",
+   "cat": "Nigeria · Kaduna",
+   "sec": [
+    "security"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/army-chief-urges-91-recruits-to-uphold-discipline-professionalism/",
+   "pub": "2026-11-27T20:59+01:00",
+   "d": "27.11.2026",
+   "t": "20:59",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Kaduna",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Daily Post",
+     "u": "https://dailypost.ng/2026/11/27/coas-charges-new-recruits-to-uphold-the-nigerian-army-warrior-ethos-through-discipline-courage-loyalty-and-integrity/"
+    }
+   ]
+  },
+  {
+   "h": "Rivers United held 1-1 by Shooting Stars in Ibadan",
+   "p": "Rivers United dropped two points in the NPFL title race on Friday after a 1-1 draw with Shooting Stars at the Lekan Salami Stadium in Ibadan, Complete Sports reports. A win would have brought Finidi George's team closer to league leaders Rangers. Shooting Stars were the home side at the Ibadan venue.",
+   "stat": "1-1",
+   "statl": "3SC v Rivers United",
+   "lbl": "fact",
+   "cat": "Sports",
+   "sec": [
+    "sports"
+   ],
+   "src": "Complete Sports",
+   "url": "https://www.completesports.com/euromatch-npfl-rivers-united-miss-chance-to-close-in-on-rangers-after-1-1-draw-at-3sc/",
+   "pub": "2026-11-27T20:54+01:00",
+   "d": "27.11.2026",
+   "t": "20:54",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Oyo",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Kebbi APC moves campaign launch to December 2",
+   "p": "The All Progressives Congress campaign council in Kebbi State has put off its inaugural campaign rally because of INEC's mock election on Saturday. The council said the event will now take place on December 2, 2026, at Kamba in Dandi Local Government Area, and apologised for the change, according to Punch and Peoples Gazette.",
+   "stat": "Dec 2",
+   "statl": "New Kebbi APC rally date",
+   "lbl": "fact",
+   "cat": "Nigeria · Kebbi",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/kebbi-apc-postpones-inaugural-campaign-over-inec-mock-election/",
+   "pub": "2026-11-27T20:53+01:00",
+   "d": "27.11.2026",
+   "t": "20:53",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Kebbi",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Peoples Gazette",
+     "u": "https://gazettengr.com/kebbi-apc-postpones-inaugural-campaign-over-inec-mock-election/"
+    }
+   ]
+  },
+  {
+   "h": "Surgeons warn of specialist gap in the North",
+   "p": "Oral and maxillofacial surgeons say Northern Nigeria has too few specialists in face, jaw and mouth surgery, Nigerian Tribune reports. They urged deliberate training of local doctors, warning that relying on visiting surgeons from other regions makes the service fragile, because care stalls whenever those visitors are not available.",
+   "stat": "Shortage",
+   "statl": "Face and jaw surgeons",
+   "lbl": "opinion",
+   "cat": "Nigeria",
+   "sec": [
+    "politics"
+   ],
+   "src": "Nigerian Tribune",
+   "url": "https://tribuneonlineng.com/surgeons-raise-concern-over-shortage-of-maxillofacial-specialists-in-northern-nigeria/",
+   "pub": "2026-11-27T20:46+01:00",
+   "d": "27.11.2026",
+   "t": "20:46",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Nigeria to bid for first U-17 WAFCON in 2028",
+   "p": "Nigeria wants to stage the first-ever under-17 Women's Africa Cup of Nations in 2028, National Sports Commission Director-General Bukola Olopade said on Friday. In a video posted on X, he said Nigeria has already told CAF it is interested. Olopade added that Nigeria is also due to stage the next African School Games, the competition's second edition, in 2027.",
+   "stat": "2028",
+   "statl": "U-17 WAFCON bid",
+   "lbl": "fact",
+   "cat": "Sports",
+   "sec": [
+    "sports"
+   ],
+   "src": "Vanguard",
+   "url": "https://www.vanguardngr.com/2026/11/nigeria-set-to-bid-to-host-maiden-u-17-wafcon/",
+   "pub": "2026-11-27T20:43+01:00",
+   "d": "27.11.2026",
+   "t": "20:43",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Peoples Gazette",
+     "u": "https://gazettengr.com/nigeria-plans-bid-to-host-maiden-u-17-wafcon-in-2028/"
+    }
+   ]
+  },
+  {
+   "h": "FG says 52 sexual assault referral centres now work",
+   "p": "The Federal Government says 52 sexual assault referral centres across Nigeria are now functioning, giving medical help, counselling and onward referrals to people who survived rape or other forms of gender-based abuse. The Ministry of Women Affairs also promised to work with other agencies to end impunity for violence against women and girls, Daily Post reports.",
+   "stat": "52",
+   "statl": "Survivor centres running",
+   "lbl": "claim",
+   "cat": "Nigeria",
+   "sec": [
+    "politics"
+   ],
+   "src": "Daily Post",
+   "url": "https://dailypost.ng/2026/11/27/gbv-fg-activates-52-referral-centres-across-nigeria-vows-justice-for-victims/",
+   "pub": "2026-11-27T20:42+01:00",
+   "d": "27.11.2026",
+   "t": "20:42",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Putin shows off new nuclear submarine, plans five more",
+   "p": "On Friday, Russian President Vladimir Putin presented the new nuclear-powered submarine Perm at the Sevmash shipyard, according to Kremlin footage cited by Punch and Vanguard. He said the Russian navy will receive five more nuclear submarines by 2030, three of them of the Yasen-M class, as Moscow continues to expand its fleet.",
+   "stat": "5 more",
+   "statl": "Submarines by 2030",
+   "lbl": "fact",
+   "cat": "World",
+   "sec": [
+    "world"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/putin-unveils-new-nuclear-powered-submarine-promises-five-more-by-2030/",
+   "pub": "2026-11-27T20:39+01:00",
+   "d": "27.11.2026",
+   "t": "20:39",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Vanguard",
+     "u": "https://www.vanguardngr.com/2026/11/putin-unveils-new-nuclear-submarine/"
+    }
+   ]
+  },
+  {
+   "h": "FRC to launch digital sustainability reporting portal",
+   "p": "Nigeria's Financial Reporting Council (FRC) is preparing to launch a national digital platform for companies to file sustainability reports, BusinessDay reports. The FRC is building it with Regulatory Compliance Readiness Advisors and SALI Technologies. Such reports cover how firms handle environmental, social and governance issues alongside their financial results.",
+   "stat": "FRC",
+   "statl": "New reporting platform",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "BusinessDay",
+   "url": "https://businessday.ng/companies/article/frc-set-to-launch-national-digital-sustainability-reporting-platform/",
+   "pub": "2026-11-27T20:33+01:00",
+   "d": "27.11.2026",
+   "t": "20:33",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Jigawa spent 35.1% of health budget in nine months",
+   "p": "Only 35.1 per cent of Jigawa State's 2026 health budget was implemented in the first nine months of the year, according to a civil society health accountability forum known as JiMAF, Nigerian Tribune reports. The group, which tracks mother and child health, criticised what it called poor implementation of the health sector budget in the state.",
+   "stat": "35.1%",
+   "statl": "Health budget used",
+   "lbl": "claim",
+   "cat": "Nigeria · Jigawa",
+   "sec": [
+    "politics"
+   ],
+   "src": "Nigerian Tribune",
+   "url": "https://tribuneonlineng.com/jigawa-implements-35-1-of-2026-health-budget-in-nine-months/",
+   "pub": "2026-11-27T20:32+01:00",
+   "d": "27.11.2026",
+   "t": "20:32",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Jigawa",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "France falls into technical recession",
+   "p": "France's economy contracted by 0.2% between July and September, according to revised figures from the statistics office INSEE released on Friday, Vanguard reports. After the earlier contraction, that means two quarters of decline in a row, a technical recession, for the eurozone's second-largest economy. INSEE had earlier reported a smaller figure for the quarter before revising it.",
+   "stat": "-0.2%",
+   "statl": "France Q3 GDP",
+   "lbl": "fact",
+   "cat": "World",
+   "sec": [
+    "world",
+    "business"
+   ],
+   "src": "Vanguard",
+   "url": "https://www.vanguardngr.com/2026/11/france-slips-into-technical-recession-after-gdp-revision/",
+   "pub": "2026-11-27T20:31+01:00",
+   "d": "27.11.2026",
+   "t": "20:31",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Nasarawa puts INEC notices into local languages",
+   "p": "The Nasarawa State Government has begun translating INEC's voter education messages into Hausa as well as other widely spoken local languages, Vanguard reports from Lafia. The aim is to reach rural communities and explain Saturday's nationwide mock accreditation and result upload exercise, a trial run of the equipment INEC plans to use in the 2027 general elections.",
+   "stat": "Hausa+",
+   "statl": "INEC messages translated",
+   "lbl": "fact",
+   "cat": "Nigeria · Nasarawa",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "Vanguard",
+   "url": "https://www.vanguardngr.com/2026/11/2027-nasarawa-translates-inec-messages-into-local-languages/",
+   "pub": "2026-11-27T20:22+01:00",
+   "d": "27.11.2026",
+   "t": "20:22",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Nasarawa",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Keyamo wants 99% ICAO safety score for Nigeria",
+   "p": "Aviation Minister Festus Keyamo has asked the airspace agency NAMA and the regulator NCAA to push Nigeria's ICAO safety audit score towards 99 per cent, Vanguard reports. He praised NAMA's role in recent safety gains and urged steady monitoring, closer teamwork between agencies and swift work on regulatory requirements that are still open.",
+   "stat": "99%",
+   "statl": "ICAO safety target",
+   "lbl": "claim",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Vanguard",
+   "url": "https://www.vanguardngr.com/2026/11/keyamo-pushes-for-99-icao-safety-rating-tasks-nama-ncaa/",
+   "pub": "2026-11-27T20:20+01:00",
+   "d": "27.11.2026",
+   "t": "20:20",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Naira firms on Friday, figures vary by report",
+   "p": "The naira strengthened against the dollar on Friday, but reports differ on the size of the gain. Daily Post, citing CBN data, puts the official rate at N1,367.45, up N20.44 from Thursday. Vanguard puts the official market at N1,376, from N1,378, and says the naira gained N10 on the parallel market to N1,445.",
+   "stat": "N1,445/$",
+   "statl": "Parallel market rate",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Vanguard",
+   "url": "https://www.vanguardngr.com/2026/11/naira-appreciates-to-n1445-in-parallel-market-2/",
+   "pub": "2026-11-27T20:06+01:00",
+   "d": "27.11.2026",
+   "t": "20:06",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Daily Post",
+     "u": "https://dailypost.ng/2026/11/27/exchange-rate-today-november-27-2026-naira-records-biggest-daily-appreciation-against-dollar/"
+    }
+   ]
+  },
+  {
+   "h": "Uganda starts Africa's first mRNA Ebola vaccine trial",
+   "p": "Uganda on Friday began testing an experimental mRNA vaccine against Ebola developed with Moderna, the first such trial in Africa, Punch and Vanguard report, citing AFP. Separately, the vaccine alliance Gavi said it has purchased 1.5 million doses of a different candidate vaccine. Both moves aim to bring the Bundibugyo strain of Ebola now spreading in the DR Congo under control.",
+   "stat": "1.5m",
+   "statl": "Doses of another vaccine",
+   "lbl": "fact",
+   "cat": "World · Africa",
+   "sec": [
+    "world"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/uganda-launches-africas-first-mrna-ebola-vaccine-trial/",
+   "pub": "2026-11-27T20:01+01:00",
+   "d": "27.11.2026",
+   "t": "20:01",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Vanguard",
+     "u": "https://www.vanguardngr.com/2026/11/mrna-ebola-vaccine-trial-launched-in-uganda/"
+    }
+   ]
+  },
+  {
+   "h": "Canada extends Ebola visa curbs on three countries",
+   "p": "Canada has kept its Ebola-related entry restrictions on residents of the DR Congo, Uganda and South Sudan for another 90 days. Visas already approved for people from those countries stay suspended until February 25, 2027, Punch reports. Legit.ng says Canada's immigration department explained which applicants are covered and why the measures remain.",
+   "stat": "90 days",
+   "statl": "Visa curbs extended",
+   "lbl": "fact",
+   "cat": "World",
+   "sec": [
+    "world"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/ebola-canada-extends-visa-restrictions-on-three-african-countries-by-90-days/",
+   "pub": "2026-11-27T20:01+01:00",
+   "d": "27.11.2026",
+   "t": "20:01",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Legit.ng",
+     "u": "https://www.legit.ng/world/1743673-canada-extends-entry-restrictions-3-african-countries-reasons/"
+    }
+   ]
+  },
+  {
+   "h": "Five power substations to add 984MW, FG says",
+   "p": "Five transmission substation upgrades under the first batch of the Presidential Power Initiative are close to completion, the Federal Government says. FGN Power Company managing director Kenny Anuwe said the projects will let the grid carry an extra 984 megawatts. That figure is the added power the network can move to distribution companies, Vanguard reports from Abuja.",
+   "stat": "984MW",
+   "statl": "Grid capacity to be added",
+   "lbl": "claim",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Vanguard",
+   "url": "https://www.vanguardngr.com/2026/11/ppi-projects-to-add-984mw-to-national-grid-as-five-substations-near-completion-2/",
+   "pub": "2026-11-27T20:00+01:00",
+   "d": "27.11.2026",
+   "t": "20:00",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Abuja",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "ECOWAS Speaker warns states over levy payments",
+   "p": "ECOWAS Parliament Speaker Memounatou Ibrahima said on Friday in Abuja that rising public debt and strained national budgets could stop member states from paying the Community Levy that funds the bloc. She urged governments to keep up payments before lawmakers consider the regional body's 2027 budget, Vanguard reports. She also called for closer cooperation between institutions.",
+   "stat": "2027",
+   "statl": "ECOWAS budget concern",
+   "lbl": "opinion",
+   "cat": "World · Africa",
+   "sec": [
+    "world"
+   ],
+   "src": "Vanguard",
+   "url": "https://www.vanguardngr.com/2026/11/ecowas-speaker-warns-of-levy-shortfalls-ahead-of-2027-budget/",
+   "pub": "2026-11-27T19:48+01:00",
+   "d": "27.11.2026",
+   "t": "19:48",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Abuja",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Peoples Gazette",
+     "u": "https://gazettengr.com/ecowas-parliament-seeks-stronger-institutional-collaboration-to-deepen-regional-integration/"
+    },
+    {
+     "n": "News Agency of Nigeria",
+     "u": "https://nannews.ng/ecowas-parliament-seeks-stronger-institutional-collaboration-to-deepen-integration/"
+    }
+   ]
+  },
+  {
+   "h": "Oyedele: produce more to win under AfCFTA",
+   "p": "Finance Minister Oyedele says Nigeria will only gain from the African Continental Free Trade Area if it raises how much it makes and the quality of its goods, Premium Times reports. He also pointed to financing gaps and weak infrastructure as problems that firms must overcome to sell competitively across the continent.",
+   "stat": "AfCFTA",
+   "statl": "Minister on AfCFTA trade",
+   "lbl": "opinion",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Premium Times",
+   "url": "https://www.premiumtimesng.com/business/business-news/928490-nigeria-must-improve-production-to-compete-under-afcfta-finance-minister.html",
+   "pub": "2026-11-27T19:44+01:00",
+   "d": "27.11.2026",
+   "t": "19:44",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Cardoso asks banks to lend more to exporters",
+   "p": "CBN Governor Olayemi Cardoso has urged Nigerian banks to widen credit to exporters, Premium Times reports. He said a lack of working capital stops many firms from meeting export orders, growing output and competing abroad. He spoke as the CBN seeks more support for businesses that sell Nigerian goods to buyers outside the country.",
+   "stat": "Exports",
+   "statl": "CBN push for financing",
+   "lbl": "opinion",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Premium Times",
+   "url": "https://www.premiumtimesng.com/business/business-news/928489-cbn-urges-banks-to-expand-financing-for-exporters.html",
+   "pub": "2026-11-27T19:42+01:00",
+   "d": "27.11.2026",
+   "t": "19:42",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Ondo lifts sanitation curbs for INEC test day",
+   "p": "Residents of Ondo State can move freely during Saturday's monthly environmental sanitation, the state government announced on Friday. Environment Commissioner Tob Loko said the exercise on November 28 will still hold, but without the usual movement restriction, so that INEC's mock accreditation and result upload can go ahead. Lagos has cancelled its own Saturday sanitation for the same reason.",
+   "stat": "Nov 28",
+   "statl": "Free movement in Ondo",
+   "lbl": "fact",
+   "cat": "Nigeria · Ondo",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "Daily Post",
+   "url": "https://dailypost.ng/2026/11/27/ondo-suspends-movement-restriction-for-sanitation-exercise-over-inec-mock-election/",
+   "pub": "2026-11-27T19:02+01:00",
+   "d": "27.11.2026",
+   "t": "19:02",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Ondo",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Punch",
+     "u": "https://punchng.com/ondo-cancels-movement-restrictions-for-saturdays-sanitation-exercise/"
+    },
+    {
+     "n": "Peoples Gazette",
+     "u": "https://gazettengr.com/ondo-suspends-movement-restrictions-for-november-sanitation-exercise/"
+    }
+   ]
+  },
+  {
+   "h": "Man United keep Fernandes until 2028",
+   "p": "Manchester United have used a one-year option in Bruno Fernandes' contract, so the captain will stay at Old Trafford until 2028. Al Jazeera notes that Fernandes had said talks on a longer new deal were on hold, but the Premier League club chose to activate the extension clause instead. Vanguard also reported the move.",
+   "stat": "2028",
+   "statl": "Fernandes deal extended",
+   "lbl": "fact",
+   "cat": "Sports",
+   "sec": [
+    "sports"
+   ],
+   "src": "Al Jazeera",
+   "url": "https://www.aljazeera.com/sports/2026/11/27/manchester-united-trigger-bruno-fernandes-contract-extension-to-2028",
+   "pub": "2026-11-27T16:04+01:00",
+   "d": "27.11.2026",
+   "t": "16:04",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Vanguard",
+     "u": "https://www.vanguardngr.com/2026/11/man-utd-trigger-fernandes-one-year-contract-extension/"
+    }
+   ]
+  },
   {
    "h": "EFCC charges visa agent over N62.5m Hajj fraud",
    "p": "The EFCC's Ilorin office has arraigned a woman described as a visa agent in a Kwara High Court in Ilorin, accusing her of taking N62.5 million from intending Hajj pilgrims. She faces a seven-count charge, which she denied, and was granted N5 million bail, Punch and TVC News report. The case continues in December.",
@@ -827,7 +1434,7 @@
   },
   {
    "h": "INEC says it now has 57,000 BVAS machines for 2027",
-   "p": "INEC chairman Joash Amupitan says the commission has bought 57,000 Bimodal Voter Accreditation System (BVAS) devices for the 2027 general elections, The Eagle Online reports. The machines are used to verify voters at polling units and send results for upload. Amupitan gave the figure on Thursday at a civic education seminar hosted by the Anglican Diocese of Abuja.",
+   "p": "According to INEC chairman Joash Amupitan, the commission has bought 57,000 Bimodal Voter Accreditation System (BVAS) devices for the 2027 general elections, The Eagle Online reports. The machines are used to verify voters at polling units and send results for upload. Amupitan gave the figure on Thursday at a civic education seminar hosted by the Anglican Diocese of Abuja.",
    "stat": "57,000",
    "statl": "BVAS devices acquired",
    "lbl": "fact",
@@ -1260,10 +1867,10 @@
    ]
   },
   {
-   "h": "Guinea-Bissau junta defends delay of December vote",
-   "p": "Guinea-Bissau's military-led government has defended postponing the elections it had planned for December, Africanews reports. The presidency said the \"technical, material, and financial conditions\" for a credible vote were not yet in place. Soldiers seized power in the West African country in November 2025, days after a disputed presidential poll, and promised a return to civilian rule.",
-   "stat": "December",
-   "statl": "Vote postponed",
+   "h": "Guinea-Bissau junta moves elections to 2028",
+   "p": "Guinea-Bissau's military rulers have postponed the presidential and parliamentary elections planned for December to November 26, 2028, Peoples Gazette and Vanguard report. The presidency said the \"technical, material, and financial conditions\" for a credible vote were not yet in place. Soldiers seized power in November 2025, days after a disputed presidential poll, and promised civilian rule.",
+   "stat": "Nov 2028",
+   "statl": "New election date",
    "lbl": "fact",
    "cat": "World · Africa",
    "sec": [
@@ -1279,7 +1886,17 @@
    "st": "NG",
    "loc": "",
    "lang": "en",
-   "vs": "single"
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Peoples Gazette",
+     "u": "https://gazettengr.com/guinea-bissaus-military-junta-moves-election-to-2028/"
+    },
+    {
+     "n": "Vanguard",
+     "u": "https://www.vanguardngr.com/2026/11/guinea-bissau-postpones-elections-to-2028-over-inadequate-technical-material-condition/"
+    }
+   ]
   },
   {
    "h": "NBMA to check supermarkets for unapproved GMO foods",
@@ -1629,7 +2246,7 @@
   },
   {
    "h": "OK Movement group pulls support from Obi and NDC",
-   "p": "Leaders of the OK Movement say the group has withdrawn its ward, council and state structures from Peter Obi's campaign and the NDC, and is talking to other parties, ThisDay and Vanguard report. Punch describes those behind the move as one faction and says the NDC rejected it, calling them impostors. Accounts of how much of the group is involved differ.",
+   "p": "Leaders of the OK Movement say the group has withdrawn its structures from Peter Obi's campaign and the NDC, ThisDay and Vanguard report. The NDC campaign council disowned the move on Friday, saying it came from a faction led by John Ozyl Ughulu, and the party called it a sponsored distraction, according to Punch, Tribune and Daily Post.",
    "stat": "NDC",
    "statl": "Support group split",
    "lbl": "claim",
@@ -1652,11 +2269,15 @@
    "srcs": [
     {
      "n": "Vanguard",
-     "u": "https://www.vanguardngr.com/2026/11/breaking-ok-movement-withdraws-support-for-obi-kwankwaso-ndc/"
+     "u": "https://www.vanguardngr.com/2026/11/ndc-dismisses-ok-movements-withdrawal-of-support-for-obi/"
     },
     {
      "n": "Punch",
-     "u": "https://punchng.com/ok-movement-faction-withdraws-support-for-obi-ndc/"
+     "u": "https://punchng.com/2027-ndc-dismisses-ok-movements-exit-as-sponsored-distraction/"
+    },
+    {
+     "n": "Nigerian Tribune",
+     "u": "https://tribuneonlineng.com/2027-ndc-campaign-council-disowns-ok-movement-faction/"
     }
    ]
   },
