@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-27T11:05:00+05:30",
+ "cutoff": "2026-11-27T11:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-24T18:05:00+05:30/2026-11-24T18:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 10,
-   "published": 6,
-   "late": 5,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 6,
-   "review": 0,
-   "gaps": "Lookback from 10:05. Feeds 18:12 IST (70/70 ok). add_repo tool not available; used existing clone. Direct feed URLs refused by WebFetch (PROVENANCE_REQUIRED); only URLs returned by WebSearch could be opened. Published: NewsMeter RTC AI cameras 20,437 violations, Telugu360 Siddipet Congress 18 suspended, DC Ameenpur lecturer POCSO case (sensitive, no names), TT Karimnagar NCC cadet RD camp (minor not named), Andhra Jyothy AP PRC commissioner pay GO, Business Standard Sooryavanshi 204. Duplicates: Adilabad sorcery fraud (23 Nov), Uppada fishermen (17:35 Kakinada story), Siasat Sooryavanshi. Skipped old (before lookback): Indiramma insurance house-tax clarification (09:23), Vijayawada mayor oath (00:04), AP medicine procurement (04:14), HC fake-encounter compensation (already skipped). Not opened: Hindu Kishan Reddy de-addiction, Hindu Sigachi kin, Hindu Rayalaseema rice hoarding, Hindu Revanth Krishna basin, Siasat e-cycle refund (direct URLs refused; no matching search hit). Only 2 district searches (Nalgonda, Kurnool) – no fresh results. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-24T18:35:00+05:30/2026-11-24T19:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 02:35 Nov 27. Feeds 10:45 IST (69/70 ok; 2669 uncovered, 835 TG/AP). add_repo and direct WebFetch not available; used existing clone and web-fetch helper on search results. Published 4: Siasat ACB officer attached to HQ over Rs 30 lakh bribe allegation (10:30, claim, follow-up to 25 Nov story), DC Kondapur hotel walls collapse, no injuries (10:03), Oneindia Telugu IMD yellow alert for 5 TG districts (10:38, forecast), Nation Press pre-Budget consultations 200+ stakeholders (09:36). Skipped: DC RGIA fake Dubai ticket (10:21) - article says incident 'on Saturday', date unclear, thin. Not opened: Disha RGIA fake ticket (fetch error); no search hit for NIE HC notices on ED plea (AP liquor case), NIE AP NEET aspirant Odisha waterfall, HMTV Dindi 6,000 acres crops, V6 ECIL 242 apprentices, Hans Lokesh cadre vigilance, DC Sensex. DC TG/AP listings had nothing new after 08:32. No district searches this run. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-27T11:05:00+05:30/2026-11-27T11:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 9,
+   "published": 6,
+   "late": 4,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 03:05 Nov 27. Feeds 11:28 IST (67/68 ok; 2589 uncovered, 757 TG/AP). add_repo and direct WebFetch not available; used existing clone; feed URLs refused by fetch, only search-result URLs opened. Published 6: HMTV Miryalaguda SBI Rs 15.36 cr loan irregularities (10:21), HMTV Kodad jewellery workshop theft Rs 13 lakh (11:00), TT MGU Nalgonda hostel mess clash (10:54), Siasat TG SAFE fish markets Begum Bazaar/Ramnagar (11:27), Siasat Bandlaguda hammer murder (11:17, sensitive, victim not named), NewsMill/TNM YSRCP conditional support for Delimitation Bill (10:22, claim). Duplicates: solo-car fine fact-check (HMTV/Hindu/Siasat; NewsMeter version published 26 Nov), TT Pushpagiri Tirumala room scam (already published), Siasat Egypt driver arrest (Cairo fire covered 25-26 Nov). Not opened: Sakshi Education SSC fee extension (client error), IndiaTV YSRCP, The Hindu Left parties probe (no search URL). District searches: Adilabad/Nirmal/Mancherial, Siddipet/Medak/Sangareddy, Jagtial/Peddapalli/Sircilla, Kadapa/Kurnool/Anantapur, Tirupati/Chittoor/Nellore, Eluru/WG/Konaseema, Srikakulam/Vizianagaram, Nalgonda/Suryapet - nothing new beyond the above. Lang pages/index/sitemap and a checker change to archive/2026-11-26.json reverted."
   }
  ],
  "seen": [
@@ -6583,6 +6583,61 @@
    "url": "https://www.deccanchronicle.com/southern-states/telangana/rgia-fake-air-ticket-found-on-passenger-travelling-to-dubai-at-shamshabad-airport-2008410",
    "d": "2026-11-27",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/nalgonda-suryapet/nalgonda-miryalaguda-sbi-branch-loan-fraud-rs-1536-crore-irregularities-217697",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/nalgonda-suryapet/suryapet-kodad-major-theft-rs-13-lakh-gold-silver-cash-stolen-from-bhramaramba-217714",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/mahatma-gandhi-university-hostel-mess-dispute-triggers-clash-between-students",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/tg-safe-cracks-down-on-fish-markets-in-begum-bazaar-ramnagar-3587998/",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/intruder-barges-in-kills-man-with-hammer-in-hyderabad-3587978/",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://thenewsmill.com/2026/11/ysr-congress-signals-conditional-approval-of-delimitation-bill/",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/hyderabad/no-fine-for-solo-car-travel-telangana-police-clarify-217645",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-traffic-police-debunk-claims-of-fine-for-solo-car-drivers-say-no-congestion-penalty-proposed/article71747463.ece",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/no-fine-for-solo-car-travel-hyderabad-police-shuts-down-rumours-3587733/",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/businessman-duped-on-fake-tirumala-accommodation-website",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/egypt-arrests-driver-over-giza-fuel-tanker-crash-that-killed-31-3587948/",
+   "d": "2026-11-27",
+   "w": "duplicate"
   }
  ]
 }
