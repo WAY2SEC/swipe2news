@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-27T08:35:00+05:30",
+ "cutoff": "2026-11-27T09:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-24T15:35:00+05:30/2026-11-24T16:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 4,
-   "late": 2,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Lookback from 07:35. Feeds 15:43 IST (70/70 ok). add_repo tool not available; used existing clone. Published: Andhra Jyothy Ootpally (Vikarabad) house fire, NT News Adilabad fake-notes gang 4 arrested (police), DC Manuguru car-bus collision, Siasat AICC in-charge meets two Congress MLAs (claim, late-found 13:19). Skipped old: DC 12 AP mayors take charge (23 Nov 22:48), Hans Narsipatnam chairperson oath (02:03), Siasat Invest Telangana summit expo (23 Nov 22:54). Not opened (no search hit for feed headline): V6 Hyderabad congestion charges, Hindu TG agri NPAs Rs7,304cr, Andhra Jyothy Sridhar Babu global summit, Prabha AgriGold bonds, TT AIMIM outreach. General TG/AP date searches returned little fresh; no district searches this run. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-24T16:05:00+05:30/2026-11-24T16:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 00:05 Nov 27. Feeds 08:12 IST (70/70 ok; 2749 uncovered, 888 TG/AP; 204 local uncovered in lookback). add_repo tool not available; used existing clone. Published 3: HMTV LB Nagar Tirumala room fraud (08:08), NewsMeter IT corridor commute (08:00, claim), Hans Hyderabad last-mile transit (02:10). Duplicates: Siasat Black Friday TGCSB advisory (covered 24 Nov), Hans Sagar water row, Siasat/TT matrimony fraud, Apple Kukatpally store (covered 26 Nov). Skipped as old (before lookback): DC Revanth vs Nitin Nabin (22:56 Nov 26; Achampet speech covered), Sakshi Kuppam YSRCP worker death (20:47 Nov 26), ap7am Appi Reddy bail denied (25 Nov). Not opened: ANI Revanth debate challenge (client error), Sakshi Education 526 assistant professor posts (client error), NIE Appi Reddy HC bail plea (no search hit). Generic district searches returned no dated items. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-27T08:35:00+05:30/2026-11-27T09:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 4,
+   "late": 3,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 00:35 Nov 27. Feeds 08:43 IST (70/70 ok; 2748 uncovered, 852 TG/AP; 564 local uncovered in lookback). add_repo and WebFetch tools not available; used existing clone and a fetch helper that only opens URLs returned by WebSearch (direct feed URLs refused: The Hindu, Siasat, Telangana Today). Published 4: DC Hyderabad heaviest Nov rain in 10 yrs (08:32), Hans 64 AYUSH centres (05:41), Hans NDA-backed sweep GP phase 1 (01:30, claim), Tribune/ANI Gukesh Game 3 draw (01:32). Duplicates: The Hindu/NIE NTR 75.83% turnout, NIE APSRTC drivers pay, The Hindu overnight rain (all covered). Skipped as old: DC TGSPDCL operator suspended (15:25 Nov 26; NIE 08:38 version not found). Not opened (no search hit at a reputable outlet): The Hindu Guntur ULB 73.30%, Krishna 79.77%, Bapatla counting, DNA data storage, Vizag Blue Steps; Siasat HC juvenility age, Forbes changemakers; TV9 bus passenger saves 73; ETV Bharat Odisha border votes. No district searches this run. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6353,6 +6353,51 @@
    "url": "https://tv9telugu.com/telangana/hyderabad-businessman-duped-of-rs-12-75-lakh-in-gold-trading-scam-via-matrimony-site-1967482.html",
    "d": "2026-11-27",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-sees-heaviest-november-rains-in-10-years-cold-conditions-likely-from-november-29-2008399",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/amaravati/64-ayush-centres-get-modern-makeover-in-state-1146217",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/amaravati/nda-backed-candidates-sweep-gp-10-elections-1146082",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.tribuneindia.com/news/berlin-defence/world-chess-championship-game-3-ends-in-draw-after-gukesh-deploys-rare-sideline-in-berlin-defence",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/gukesh-draws-game-3-with-sindarov",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-govt-plans-to-upgrade-64-ayush-healthcare-centres/article71746894.ece",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/ntr-district-registers-7583-voter-turnout-in-panchayat-elections/article71747764.ece",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehindu.com/news/cities/Hyderabad/overnight-sharp-spell-of-rain-drenches-hyderabad/article71749201.ece",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/tgspdcl-suspends-substation-operator-for-allegedly-tripping-feeder-leaving-4215-consumers-without-power-in-saroornagar-2008150",
+   "d": "2026-11-27",
+   "w": "skipped"
   }
  ]
 }
