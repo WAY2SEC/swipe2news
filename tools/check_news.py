@@ -9,6 +9,8 @@ Usage:
 Exit code 1 when a story still has a blocking problem (ERROR), so the newsroom fixes it before publishing.
 """
 import json, re, sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from why_check import problems as why_problems
 HARD_WORDS = {'పట్టివేత': 'పట్టుకున్నారు', 'స్వాధీనం': 'పట్టుకున్నారు', 'లభ్యం': 'దొరికింది', 'నిలిపివేత': 'ఆపేశారు', 'పునరుద్ధరణ': 'మళ్లీ మొదలు', 'ఉల్లంఘన': 'నిబంధనలు పాటించలేదు', 'తొలగింపునకు': 'తీసేయాలని', 'జననం': 'పుట్టారు', 'ఆచూకీ': 'దొరికింది / కనిపించలేదు', 'నిమిత్తం': 'కోసం', 'పరిశీలన': 'చూశారు / తనిఖీ', 'ప్రారంభోత్సవం': 'ప్రారంభం', 'శంకుస్థాపన': 'పనులకు పునాది', 'వేర్పాటు': 'విడిగా ఉన్న', 'ఉపసంహరణ': 'వెనక్కి తీసుకున్నారు', 'దుర్మరణం': 'మృతి', 'అస్వస్థత': 'అనారోగ్యం', 'ఆకస్మిక': 'హఠాత్తుగా', 'సమీక్షా సమావేశం': 'సమీక్ష'}
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PIC_RX = re.compile(r'^(c|o|i|n|s|cv|w|d|e|m)/([a-z0-9-]+)$')
@@ -106,6 +108,18 @@ def check(d, fix=False):
             for k in ('stat', 'loc'):
                 if re.search(r'[\u0C00-\u0C7F]', s.get(k) or '') and not (t.get(k) or '').strip():
                     warns.append(f'{tag}: {L} version has no "{k}" – English/Hindi readers would see Telugu ("{s.get(k)}")')
+        # 7) "ఇది ఎందుకు ముఖ్యం?" editor approval (owner 27 Nov 2026): never blocks publishing – a bad approval only hides the button
+        wp = why_problems(s)
+        if wp:
+            if fix:
+                del s['whyr']; fixed.append(f'{tag}: "why this matters" approval removed ({"; ".join(wp)}) – the button stays hidden until an editor approves again')
+            else:
+                warns.append(f'{tag}: "why this matters" approval is not valid – {"; ".join(wp)}')
+    if isinstance(d, dict) and 'flags' in d and not (isinstance(d['flags'], dict) and all(isinstance(v, bool) for v in d['flags'].values())):
+        if fix:
+            d['flags'] = {}; fixed.append('news.json "flags" was not a list of true/false switches – reset (all features off)')
+        else:
+            errs.append('news.json "flags" must be {"name": true/false}')
     return errs, warns, fixed
 
 def pictures_needed(d):
