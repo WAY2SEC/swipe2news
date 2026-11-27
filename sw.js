@@ -1,10 +1,11 @@
 // Swipe2News service worker: keeps the app working offline (villages, weak signal).
 // Pages and news: network first, but fall back to the saved copy after 4 s. Fonts and pictures: saved copy first.
-const CACHE = 's2n-v2244'; // when this changes, run tools/bump_app.py (or put the same name in OneSignalSDKWorker.js): Safari only updates the worker when OneSignalSDKWorker.js itself changes
+const CACHE = 's2n-v2245'; // when this changes, run tools/bump_app.py (or put the same name in OneSignalSDKWorker.js): Safari only updates the worker when OneSignalSDKWorker.js itself changes
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'logo.png', 'logo-light.png', 'qr.png', 'icon-192.png', 'icon-512.png',
   'news.json', 'mandi.json', 'mandi.js?v=2', 'mandi/', 'morning/', 'archive/index.json'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(new Request(u, {cache: 'reload'})).catch(() => 0))))); self.skipWaiting(); });
-self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k))))); self.clients.claim(); });
+self.addEventListener('activate', e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE && k !== FONTS && k !== ART).map(k => caches.delete(k))))); self.clients.claim(); });
+const FONTS = 's2n-fonts', ART = 's2n-art'; // pictures re-check themselves in the background, so they can stay too // kept across app updates, so a new version never re-downloads the fonts
 const FONT = /^https:\/\/fonts\.(googleapis|gstatic)\.com\//;
 function fresh(req, ms) {
   return new Promise(resolve => {
@@ -21,14 +22,14 @@ self.addEventListener('fetch', e => {
   const req = e.request; if (req.method !== 'GET') return;
   const u = new URL(req.url);
   if (FONT.test(req.url)) {
-    e.respondWith(caches.match(req).then(c => c || fetch(req).then(r => { const copy = r.clone(); caches.open(CACHE).then(x => x.put(req, copy)); return r; })));
+    e.respondWith(caches.match(req).then(c => c || fetch(req).then(r => { const copy = r.clone(); caches.open(FONTS).then(x => x.put(req, copy)); return r; })));
     return;
   }
   if (u.origin !== location.origin) return;
   // library pictures (/art/): show the saved copy at once, and quietly check the server for a newer picture (a replaced picture appears from the next view; owner 23 Nov 2026: BRS logo picture stayed old on iPhone)
   if (/^\/art\//.test(u.pathname) && /\.(jpg|jpeg|png|webp|svg)$/i.test(u.pathname)) {
     e.respondWith(caches.match(req, {ignoreSearch: true}).then(c => {
-      const net = fetch(req.url, {cache: 'no-cache', credentials: 'same-origin'}).then(r => { if (r && r.ok) { const copy = r.clone(); caches.open(CACHE).then(x => x.put(req, copy)); } return r; });
+      const net = fetch(req.url, {cache: 'no-cache', credentials: 'same-origin'}).then(r => { if (r && r.ok) { const copy = r.clone(); caches.open(ART).then(x => x.put(req, copy)); } return r; });
       if (c) { e.waitUntil(net.catch(() => 0)); return c; }
       return net;
     }));

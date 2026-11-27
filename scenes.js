@@ -447,6 +447,31 @@ function artIndustry(tt){
   return ''; }
 function artNews(t){ for(const [rx,k] of ART_N) if(rx.test(t)) return k; return ''; }
 function artRegion(t){ for(const [rx,k] of ART_REG) if(rx.test(t)) return k; return ''; }
+// owner 27 Nov 2026: topic pictures for stories the newsroom left on the logo (first match wins)
+const ART_TOPIC=[
+ [/(?:బస్సు|బస్|ఆర్టీసీ|\bbus\b|\bRTC\b).{0,40}(?:ప్రమాద|ఘటన|ఢీ|బోల్తా|మూర్ఛ|బ్రేక్|accident|crash|mishap)|(?:ప్రమాద|ఘటన|accident).{0,40}(?:బస్సు|\bbus\b)/i,'e/road-accident-response-3'],
+ [/ఆపరేషన్|శస్త్రచికిత్స|సర్జరీ|\bsurgery\b|ఐసీయూ|\bICU\b/i,'e/hospital-bed-shortage'],
+ [/ఆసుపత్రి|ఆస్పత్రి|హాస్పిటల్|వైద్యశాల|\bhospital|अस्पताल/i,'e/hospital-outpatient-queue'],
+ [/ఎయిడ్స్|హెచ్ఐవీ|\bHIV\b|\bAIDS\b|ఆరోగ్య|వైద్య|\bhealth\b|स्वास्थ्य/i,'e/public-health-coverage-desk'],
+ [/డ్రైవర్|కండక్టర్|ఆర్టీసీ|బస్సు|బస్టాండ్|\bRTC\b|\bbus\b/i,'e/bus-stand-rush'],
+ [/విద్యుత్|కరెంట్|ఫీడర్|ట్రాన్స్‌?ఫార్మర్|సబ్‌?స్టేషన్|\bpower\b|electricity|बिजली/i,'e/transformer-repair'],
+ [/కేబినెట్|మంత్రివర్గ|\bcabinet\b|कैबिनेट/i,'e/government-press-briefing'],
+ [/క్వాంటమ్|\bquantum\b|పరిశోధన|\bresearch\b/i,'e/scientific-research'],
+ [/సమ్మిట్|\bsummit\b|పెట్టుబడ/i,'e/logo-invest-telangana'],
+ [/బీచ్|తీర|సముద్ర|\bbeach\b|coast/i,'e/coastal-fishing-harbour'],
+ [/క్రీడ|పోటీలు|టోర్నమెంట్|\bsports?\b|tournament|खेल/i,'e/rural-sports-ground'],
+ [/పన్ను|ట్యాక్స్|\btax\b|कर/i,'e/digital-citizen-service-centre'],
+ [/బీమా|ఇన్సూరెన్స్|\binsurance\b|बीमा/i,'e/public-policy-announcement'],
+ [/పథకం|పథకాల|పథకాలు|\bscheme/i,'e/public-policy-announcement'],
+ [/కమిషనర్|మున్సిపల్|మున్సిపాలిటీ|కార్పొరేషన్|\bmunicipal|commissioner/i,'e/municipal-council-meeting'],
+ [/బదిలీ|transfer/i,'e/government-press-briefing'],
+ [/ఆవేదన|నిరసన|ధర్నా|ఆందోళన|\bprotest|धरना/i,'e/peaceful-public-protest'],
+ [/పోలీస్|పోలీసు|\bpolice\b|पुलिस/i,'e/community-police-meeting'],
+ [/పాఠశాల|స్కూల్|విద్యార్థ|కళాశాల|\bschool|\bstudents?\b|college/i,'e/government-school-classroom'],
+ [/రైతు|పంట|వ్యవసాయ|\bfarmers?\b|\bcrop|किसान/i,'e/rice-farmers'],
+ [/రోడ్డు|రహదారి|\broad\b|सड़क/i,'e/road-widening'],
+ [/నీటి|తాగునీరు|\bwater\b|पानी/i,'e/drinking-water-scheme'],
+ [/ఉద్యోగ|నియామక|\bjobs?\b|recruit|भर्ती/i,'e/recruitment-notification']];
 // owner 26 Nov 2026: more than one picture for common incidents, so back-to-back stories don't look the same
 const ART_VAR={'e/parliament':['e/parliament-new-building','e/parliament-old-building','e/parliament-lok-sabha','e/parliament-rajya-sabha'],'e/bathukamma-festival':['e/bathukamma-festival','e/bathukamma-flowers'],'e/bonalu-procession':['e/bonalu-procession','e/bonalu-women','e/bonalu-pothuraju'],'e/medaram-jatara':['e/medaram-jatara','e/medaram-bangaram'],'e/road-accident-response':['e/road-accident-response','e/road-accident-response-2','e/road-accident-response-3'],'e/fire-service-response':['e/fire-service-response','e/fire-building-blaze']};
 function artVar(pc,h){ const v=ART_VAR[pc]; if(!v) return pc; let n=0; for(const c of String(h||'')) n=(n*31+c.charCodeAt(0))>>>0; return v[n%v.length]; }
@@ -482,6 +507,9 @@ function artPlan0(s){
     if(/పోలింగ్|ఓటింగ్|ఓటర్లు|ఎన్నికల\s?ఓట|\bpolling\b|\bvoting\b|\bvoters?\b|मतदान/i.test(t)) return {m:'land',bg:/పంచాయతీ|సర్పంచ్|వార్డు|panchayat|sarpanch|पंचायत/i.test(t)?'e/ballot-paper-vote':'e/voting-day'};
     if(/సరిహద్దు|బీఎస్ఎఫ్|బీఎస్‌ఎఫ్|\bBSF\b|\bborder\b|सीमा|बीएसएफ/i.test(t)) return {m:'land',bg:'e/border-security-patrol'}; // owner 25 Nov 2026 (Bangladesh border story)
     for(const [rx,b] of ART_SCENE) if(rx.test(t)) return {m:'land',bg:artVar(b,s.h)};
+    { // owner 27 Nov 2026: too many logo cards – pick a library picture from the topic (headline, card line, section, story)
+      const o=(s&&s._orig)||s, z=x=>String(x||'').replace(/\u200c|\u200d/g,''), t1=z([o.h,o.statl,o.cat].join(' ')), t2=z(o.p);
+      for(const tt of [t1,t2]) for(const [rx,b] of ART_TOPIC) if(rx.test(tt)) return {m:'land',bg:artVar(b,s.h)}; }
     return {m:'logo'}; }
   { const pc=String(s.pic||''), m=pc.match(/^(c|o|i|n|s|cv|w|d|e)\/([a-z0-9-]+)$/);
     if(m){ if(m[1]==='c') return {m:'cat',cat:m[2]}; if(m[1]==='o') return {m:'plain',obj:m[2]}; return {m:'land',bg:m[1]==='d'?m[2]:artVar(pc,s.h)}; } }

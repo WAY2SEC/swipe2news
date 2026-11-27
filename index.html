@@ -93,7 +93,8 @@ setTimeout(chk,2000);document.addEventListener('visibilitychange',function(){if(
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Noto+Sans+Telugu:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap">
+<!-- 27 Nov 2026: fonts no longer block the app from starting (slow networks waited 12 s+ on the font file); text shows in the phone font, then switches -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Noto+Sans+Telugu:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Noto+Sans+Telugu:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap"></noscript>
 <style>
 @font-face{font-family:'Archivo Black';src:url(/tools/fonts/Outfit-ExtraBold.ttf) format('truetype');font-display:swap}
 /* ===== tokens: Editorial White (light) / Midnight Pro (dark) ===== */
@@ -1610,7 +1611,7 @@ body.np .feed .story{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
   <div class="toast" id="toast" role="status"></div>
 </div>
 
-<script src="scenes.js?v=20261126z"></script>
+<script src="scenes.js?v=20261127a"></script>
 <script src="mandi.js?v=2"></script>
 <script>
 const CONFIG = {
