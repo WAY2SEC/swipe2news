@@ -100,6 +100,7 @@ Old generic keys (c/…, n/…, cv/…, s/…) are no longer accepted for new st
 - HMDA logo (automatic) → e/logo-hmda
 - Parliament (automatic): Lok Sabha → e/parliament-lok-sabha · Rajya Sabha → e/parliament-rajya-sabha · other → e/parliament-new-building / e/parliament-old-building
 - festivals (automatic): Bathukamma → e/bathukamma-festival / e/bathukamma-flowers · Bonalu → e/bonalu-procession / e/bonalu-women / e/bonalu-pothuraju · Medaram → e/medaram-jatara / e/medaram-bangaram
+- Hyderabad places (automatic): Musi → e/musi-river · HITEC City/Madhapur/Gachibowli → e/hitec-city · Tank Bund/Hussain Sagar → e/tank-bund · Charminar/Old City → e/charminar · TG Secretariat → e/telangana-secretariat · TG Assembly → e/telangana-assembly
 - vehicle fire → e/vehicle-fire-highway · bus accident → e/bus-accident · bike accident → e/bike-accident · Hyderabad city (no other picture) → e/hyderabad-landmarks
 - land / plot auction (automatic) → e/land-auction · car crash variant → e/road-accident-response-4
 - fire → e/fire-service-response (app also rotates e/fire-building-blaze) · road accident variants rotate automatically (e/road-accident-response, -2, -3) · archery → e/archery · hockey → e/field-hockey
