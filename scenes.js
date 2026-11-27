@@ -480,7 +480,7 @@ const ART_TOPIC=[
  [/ఉద్యోగ|నియామక|\bjobs?\b|recruit|भर्ती/i,'e/recruitment-notification'],
  [/హైదరాబాద్|భాగ్యనగర|\bHyderabad\b|हैदराबाद/i,'e/hyderabad-landmarks']]; // owner 27 Nov 2026: Hyderabad landmarks for city stories with no other picture
 // owner 26 Nov 2026: more than one picture for common incidents, so back-to-back stories don't look the same
-const ART_VAR={'e/hyderabad-landmarks':['e/hyderabad-landmarks','e/charminar','e/tank-bund','e/hitec-city'],'e/road-accident-response':['e/road-accident-response','e/road-accident-response-2','e/road-accident-response-3','e/road-accident-response-4'],'e/parliament':['e/parliament-new-building','e/parliament-old-building','e/parliament-lok-sabha','e/parliament-rajya-sabha'],'e/bathukamma-festival':['e/bathukamma-festival','e/bathukamma-flowers'],'e/bonalu-procession':['e/bonalu-procession','e/bonalu-women','e/bonalu-pothuraju'],'e/medaram-jatara':['e/medaram-jatara','e/medaram-bangaram'],'e/fire-service-response':['e/fire-service-response','e/fire-building-blaze']};
+const ART_VAR={'e/hitec-city':['e/hitec-city-2','e/hitec-city'],'e/hyderabad-landmarks':['e/hyderabad-landmarks','e/charminar','e/tank-bund','e/hitec-city-2'],'e/road-accident-response':['e/road-accident-response','e/road-accident-response-2','e/road-accident-response-3','e/road-accident-response-4'],'e/parliament':['e/parliament-new-building','e/parliament-old-building','e/parliament-lok-sabha','e/parliament-rajya-sabha'],'e/bathukamma-festival':['e/bathukamma-festival','e/bathukamma-flowers'],'e/bonalu-procession':['e/bonalu-procession','e/bonalu-women','e/bonalu-pothuraju'],'e/medaram-jatara':['e/medaram-jatara','e/medaram-bangaram'],'e/fire-service-response':['e/fire-service-response','e/fire-building-blaze']};
 function artVar(pc,h){ const v=ART_VAR[pc]; if(!v) return pc; let n=0; for(const c of String(h||'')) n=(n*31+c.charCodeAt(0))>>>0; return v[n%v.length]; }
 // owner 26 Nov 2026: sports and incident pictures (used when the story has no picture of its own)
 const ART_SCENE=[[/కబడ్డీ|kabaddi|कबड्डी/i,'e/kabaddi-match'],[/హాకీ|\bhockey\b|हॉकी/i,'e/field-hockey'],[/ఆర్చరీ|విలువిద్య|\barchery\b|\barchers?\b|तीरंदाज/i,'e/archery'],[/వాలీబాల్|volleyball|वॉलीबॉल/i,'e/volleyball-match'],[/అథ్లెటిక్స్|పరుగు పందెం|స్ప్రింట్|athletics|\bsprint|marathon|మారథాన్|एथलेटिक्स/i,'e/athletics-race'],[/క్రికెట్|\bcricket|क्रिकेट/i,'e/cricket-match'],
@@ -908,6 +908,6 @@ if(typeof document!=='undefined'){ if(document.readyState==='loading') document.
     if(a.bg&&/^e\/(photo-|logo-|parliament|bathukamma|bonalu|medaram|land-auction)/.test(a.bg)) return a;
     const t=[s.h,s.statl,(s.en&&s.en.h)||''].join(' ').replace(/‌|‍/g,'');
     if(/హత్య|మృత|మరణ|శవ|ప్రమాద|అరెస్ట్|దాడి|ఆత్మహత్య|murder|death|died|dead\s?body|body found|suicide|accident|arrest|attack|fire|మంటలు/i.test(t)) return a;
-    for(const [rx,bg,tg] of PL) if(rx.test(t)&&!(tg&&OTHER.test(t))) return Object.assign({},a,{m:'land',bg});
+    for(const [rx,bg,tg] of PL) if(rx.test(t)&&!(tg&&OTHER.test(t))) return Object.assign({},a,{m:'land',bg:artVar(bg,s.h)});
     return a; };
   if(typeof window!=='undefined') window.artPlan=artPlan; })();
