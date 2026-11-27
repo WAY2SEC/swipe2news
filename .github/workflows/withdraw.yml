@@ -1,0 +1,42 @@
+name: Correct or withdraw a story
+# Owner/editor tool (editorial_policy.md §9): run from GitHub → Actions → this workflow → "Run workflow".
+on:
+  workflow_dispatch:
+    inputs:
+      edition:
+        description: "Edition"
+        type: choice
+        options: [ng, in]
+        default: ng
+      story:
+        description: "Story share link, story id, or the original article link"
+        required: true
+      kind:
+        description: "withdraw = hide with a note · correct = add a correction note · remove = delete the card (takedown)"
+        type: choice
+        options: [withdraw, correct, remove]
+        default: withdraw
+      note:
+        description: "One sentence for readers, e.g. 'The police later said the figure was 4, not 12.'"
+        required: true
+concurrency: { group: newsroom-edit, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  edit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update the story
+        env: { ED: "${{ inputs.edition }}", ST: "${{ inputs.story }}", KD: "${{ inputs.kind }}", NT: "${{ inputs.note }}" }
+        run: python3 tools/withdraw.py "$ED" "$ST" "$KD" "$NT"
+      - name: Rebuild Nigeria share pages
+        if: inputs.edition == 'ng'
+        run: pip install -q pillow && python3 tools/ng/build_previews_ng.py
+      - name: Save
+        run: |
+          git config user.name "Swipe2News Bot"; git config user.email news-bot@swipe2news.invalid
+          git add -A news.json archive corrections.json editions/ng ng/s ng/cards
+          git diff --cached --quiet && { echo "nothing changed"; exit 0; }
+          git commit -m "Editor: ${{ inputs.kind }} story (${{ inputs.edition }})"
+          for i in 1 2 3 4; do git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0; sleep 5; done
+          exit 1

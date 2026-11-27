@@ -180,6 +180,16 @@
    "name": "NCDC",
    "url": "https://ncdc.gov.ng/news/feed",
    "kind": "official"
+  },
+  {
+   "name": "INEC",
+   "url": "https://inecnigeria.org/feed/",
+   "kind": "official"
+  },
+  {
+   "name": "NiMet",
+   "url": "https://nimet.gov.ng/feed/",
+   "kind": "official"
   }
  ],
  "gnews": [
@@ -210,6 +220,14 @@
   {
    "name": "Google News Nigeria – NiMet weather",
    "url": "https://news.google.com/rss/search?q=NiMet+OR+flood+Nigeria+when:2d&hl=en-NG&gl=NG&ceid=NG:en"
+  },
+  {
+   "name": "Google News Nigeria – INEC election",
+   "url": "https://news.google.com/rss/search?q=INEC+OR+%222027+election%22+when:1d&hl=en-NG&gl=NG&ceid=NG:en"
+  },
+  {
+   "name": "Google News Nigeria – NBS statistics",
+   "url": "https://news.google.com/rss/search?q=%22National+Bureau+of+Statistics%22+Nigeria+when:2d&hl=en-NG&gl=NG&ceid=NG:en"
   }
  ]
 }

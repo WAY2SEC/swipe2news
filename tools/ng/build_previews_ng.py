@@ -50,6 +50,7 @@ def page(s, k, img):
     url = f"{SITE}/ng/s/{k}.html"
     title, desc = s.get("h", ""), s.get("p", "")
     short = desc if len(desc) <= 190 else desc[:187].rsplit(" ", 1)[0] + "…"
+    if s.get("wd"): short = "Withdrawn: " + ((s.get("corr") or {}).get("en") or "")
     pic = (f'<img class="ph" src="/ng/cards/{k}.jpg" alt="">' if img != "/art/ng/og.jpg" else "")
     cr = f'<div class="cr">{e(s.get("cr"))}</div>' if s.get("cr") and pic else ""
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
@@ -80,7 +81,7 @@ h1{{font-size:25px;line-height:1.28;margin:12px 0 6px}}.m{{color:#666;font-size:
 {('<div class="pw">' + pic + cr + '</div>') if pic else ''}
 <div class="in"><span class="cat">{e(s.get("cat"))}</span>
 <h1>{e(title)}</h1><div class="m">{e(s.get("d"))} · {e(s.get("t"))} WAT</div>
-<p>{e(desc)}</p>
+{('<p style="color:#B3261E"><b>Withdrawn.</b> ' + e((s.get("corr") or {}).get("en")) + '</p>') if s.get("wd") else '<p>' + e(desc) + '</p>'}{('<p style="color:#7a4b00;font-size:14px"><b>Corrected ' + e((s.get("corr") or {}).get("at")) + ':</b> ' + e((s.get("corr") or {}).get("en")) + '</p>') if (s.get("corr") and not s.get("wd")) else ''}
 <div class="src">Source: {e(s.get("src"))} · <a href="{e(s.get("url"))}" target="_blank" rel="noopener">Read full story ›</a></div>
 <a class="go" href="/ng/?s={k}">Read more Nigeria news on Swipe2News ›</a></div>
 </div></body></html>"""

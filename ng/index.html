@@ -67,6 +67,13 @@ h1{font:700 calc(var(--fs) + 4px)/1.28 var(--ui);color:var(--ink);letter-spacing
 p.sum{font:400 var(--fs)/1.55 var(--tx);color:var(--ink)}
 .src{display:flex;justify-content:space-between;align-items:center;gap:10px;font:600 13px var(--ui);color:var(--muted);border-top:1px solid var(--line);padding-top:9px;margin-top:auto}
 .src a{color:var(--plum);font-weight:800;text-decoration:none;white-space:nowrap}
+.src>span{min-width:0;line-height:1.45}.src b{color:var(--ink)}.src .vs{font-style:normal;color:#0E7A3E;font-weight:700}.src a.also{font-weight:700;color:var(--muted);text-decoration:underline}
+.ctl a.rep{display:grid;place-items:center;height:30px;width:32px;border:1.5px solid var(--line);border-radius:99px;color:var(--muted);text-decoration:none;font-size:14px}
+.srcbar{flex:none;display:flex;align-items:center;gap:10px;margin:0 15px 8px;padding-top:8px;border-top:1px solid var(--line)}
+.srcl{flex:1;min-width:0;font:600 12px/1.4 var(--ui);color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.srcl b{color:var(--ink)}.srcl .vs{font-style:normal;color:#0E7A3E;font-weight:700}.srcl a{color:var(--muted);font-weight:700}
+a.orig{flex:none;display:flex;align-items:center;gap:6px;padding:9px 12px;border:1.5px solid var(--plum);border-radius:12px;color:var(--plum);font:800 13px var(--ui);text-decoration:none;white-space:nowrap}
+p.corr{font:600 13px/1.45 var(--ui);color:#7a4b00;background:#FFF4E0;border-radius:10px;padding:7px 10px}
+p.wdn{font:600 14px/1.5 var(--ui);color:#B3261E;background:#FDECEA;border-radius:10px;padding:10px 12px}
 .acts{flex:none;display:flex;align-items:stretch;margin:0 12px 8px;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff}
 .acts button,.acts a{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:50px;border:0;background:#fff;color:var(--plum);font:700 12px var(--ui);text-decoration:none;cursor:pointer}
 .acts > *+*{border-left:1px solid var(--line)}
@@ -218,6 +225,7 @@ p.sum{font:400 var(--fs)/1.55 var(--tx);color:var(--ink)}
     <a id="invite" href="#" target="_blank" rel="noopener">Share Swipe2News with friends <span>→</span></a>
     <a href="mailto:swipe2news@gmail.com?subject=News%20tip%20from%20Nigeria">Send news from your area <span>→</span></a>
     <a href="mailto:swipe2news@gmail.com?subject=Swipe2News%20Nigeria">Contact us <span>→</span></a>
+    <a href="/ng/corrections.html">Corrections & how we check news <span>→</span></a>
   </div>
   <p style="font:500 12px/1.6 var(--ui);color:var(--muted)">Swipe2News Nigeria: short summaries in our own words, with the source and a link to the full story. FACT, CLAIM and OPINION labels show what is confirmed.</p>
 </div></div>
@@ -297,7 +305,7 @@ p.sum{font:400 var(--fs)/1.55 var(--tx);color:var(--ink)}
 const FEED='/editions/ng/news.json', KEY='s2n.ng.feed';
 const TOPICS=[['all','All stories'],['politics','Politics'],['business','Business'],['lagos','Lagos'],['security','Security'],['sports','Sports'],['world','World']];
 const STATES=['Abia','Adamawa','Akwa Ibom','Anambra','Bauchi','Bayelsa','Benue','Borno','Cross River','Delta','Ebonyi','Edo','Ekiti','Enugu','FCT Abuja','Gombe','Imo','Jigawa','Kaduna','Kano','Katsina','Kebbi','Kogi','Kwara','Lagos','Nasarawa','Niger','Ogun','Ondo','Osun','Oyo','Plateau','Rivers','Sokoto','Taraba','Yobe','Zamfara'];
-const LBL={fact:'FACT',claim:'CLAIM',opinion:'OPINION',forecast:'FORECAST'};
+const LBL={fact:'FACT',claim:'CLAIM',opinion:'OPINION',forecast:'FORECAST'}; const VS={official:'✔ Official source',confirmed:'✔ Confirmed by 2+ outlets',editor:'✔ Editor checked',owner:'✔ Swipe2News'};
 const $=id=>document.getElementById(id), esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const q=new URLSearchParams(location.search);
 const LS={get(k,d){ try{ const v=localStorage.getItem('s2n.ng.'+k); return v==null?d:JSON.parse(v); }catch(e){ return d; } }, set(k,v){ try{ localStorage.setItem('s2n.ng.'+k,JSON.stringify(v)); }catch(e){} }};
@@ -347,11 +355,14 @@ function card(s){
     <div class="pic${s.pic&&s.pic!=='logo'?' has':''}">${s.pic&&s.pic!=='logo'?`<picture><source srcset="/art/ng/${esc(s.pic)}.webp" type="image/webp"><img class="ph" src="/art/ng/${esc(s.pic)}.jpg" alt=""></picture><i class="shade"></i>${s.cr?`<span class="cr">${esc(s.cr)}</span>`:''}`:'<img class="mark" src="/art/logo.svg" alt="">'}<span class="pill">${esc(s.cat)}</span>
       <div class="num"><b>${esc(s.stat)}</b><span>${esc(s.statl)}</span></div><i class="dot"></i></div>
     <div class="body">
-      <div class="ctl"><span>🕒 ${mins} min read</span><span class="sp"></span><button type="button" id="aa" aria-label="Text size">aA</button><button type="button" id="say" aria-pressed="false">▷ Listen</button></div>
+      <div class="ctl"><span>🕒 ${mins} min read</span><span class="sp"></span><button type="button" id="aa" aria-label="Text size">aA</button><button type="button" id="say" aria-pressed="false">▷ Listen</button><a class="rep" href="mailto:swipe2news@gmail.com?subject=${encodeURIComponent('Report – Nigeria story '+id)}&body=${encodeURIComponent('Story: '+s.h+'\n'+share+'\n\nWhat is wrong:\n')}" data-act aria-label="Report a problem with this story" title="Report a problem">⚑</a></div>
       <h1>${esc(s.h)}</h1>
       <div class="meta"><span>${esc(when(s))}</span>${s.lbl?`<span class="lbl ${esc(s.lbl)}">${LBL[s.lbl]||esc(s.lbl)}</span>`:''}${isNew?'<span class="new">NEW</span>':''}</div>
-      <p class="sum">${esc(s.p)}</p>
-      <div class="src"><span>Source: ${esc(s.src)}</span><a href="${esc(s.url)}" target="_blank" rel="noopener" data-act>Read full story ›</a></div></div>
+      ${s.wd?`<p class="wdn">⚠️ <b>Withdrawn.</b> ${esc((s.corr&&s.corr.en)||'This story was withdrawn because it could not be confirmed.')}</p>`:`<p class="sum">${esc(s.p)}</p>`}
+      ${!s.wd&&s.corr&&s.corr.en?`<p class="corr">✏️ <b>Corrected ${esc(s.corr.at||'')}:</b> ${esc(s.corr.en)}</p>`:''}
+</div>
+    <div class="srcbar"><div class="srcl">Source: <b>${esc(s.src)}</b>${VS[s.vs]?` <i class="vs">${VS[s.vs]}</i>`:''}${Array.isArray(s.srcs)&&s.srcs.length?` · also ${s.srcs.slice(0,3).map(x=>`<a class="also" href="${esc(x.u)}" target="_blank" rel="noopener" data-act>${esc(x.n)}</a>`).join(', ')}`:''}</div>
+      ${/^https?:\/\//.test(s.url||'')?`<a class="orig" href="${esc(s.url)}" target="_blank" rel="noopener" data-act>Read original source <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg></a>`:''}</div>
     <div class="acts"><button type="button" id="sv" aria-pressed="${SAVED.includes(id)}">${ICO.save}${SAVED.includes(id)?'Saved':'Save'}</button>
       <button type="button" id="sh">${ICO.share}Share</button>
       <a class="wa" href="https://wa.me/?text=${encodeURIComponent(s.h+'\n'+share)}" target="_blank" rel="noopener" data-act>${ICO.wa}WhatsApp</a></div>

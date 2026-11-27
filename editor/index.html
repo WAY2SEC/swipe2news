@@ -24,6 +24,7 @@ main{max-width:760px;margin:0 auto;padding:14px max(14px,env(safe-area-inset-rig
 .meta a{color:#0B5CAD}
 .chip{display:inline-block;border-radius:999px;padding:2px 10px;font:800 11.5px var(--te);color:#fff;background:#8A7E70}
 .chip.risk{background:#6A1B9A} .src2{font:700 13px var(--te);color:#0B5CAD} ul.pts{margin:0;padding-left:20px;font:500 14.5px/1.7 var(--te)}
+.edsw{display:flex;gap:8px;margin:0 0 12px}.edsw button{flex:1;padding:10px;border-radius:12px;border:1.5px solid #ddd;background:#fff;font-weight:700;font-size:14px}.edsw button[aria-pressed=true]{background:#4A0E3F;color:#fff;border-color:#4A0E3F}.edsw .n{display:inline-block;min-width:20px;padding:0 6px;border-radius:99px;background:#F5A23A;color:#2E0827;font-size:12px;margin-left:4px}.chip.lbl{background:#666}
 .chip.pending{background:#B7791F} .chip.approved{background:#0B5CAD} .chip.published{background:var(--ok)} .chip.rejected{background:var(--brand)}
 h3{margin:0;font:800 17px/1.5 var(--te)} .tx{margin:0;font:500 15px/1.75 var(--te);white-space:pre-wrap}
 .acts{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:0 14px 14px}
@@ -69,21 +70,33 @@ const ST={pending:'పరిశీలనలో',approved:'ఆమోదించ�
 function toast(m){ const t=$('toast'); t.textContent=m; t.hidden=false; clearTimeout(toast.t); toast.t=setTimeout(()=>t.hidden=true,2400); }
 async function call(body){ const r=await fetch(window.W2S_NEWSROOM,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(Object.assign({key:st.get()},body))}); return r.json(); }
 const placeTx=k=>(typeof placeLabel==='function'&&placeLabel(k))||k;
+/* Web news held for approval (Mixed approval, 27 Nov 2026): separate India and Nigeria queues (story.ed "in"/"ng"). */
+let ED=(()=>{try{return localStorage.getItem('w2s.editorEd')||'in'}catch(e){return 'in'}})();
+const edOf=i=>((i.story||{}).ed==='ng'?'ng':'in');
+const VS={official:'✔ అధికారిక మూలం · Official source',confirmed:'✔ 2+ మూలాలు · Confirmed by 2+ outlets',single:'⚠ ఒకే మూలం · Single source',editor:'✔ ఎడిటర్ ఆమోదం · Editor approved'};
 function renderWeb(){
-  const l=WEB.filter(i=>i.status==='pending').concat(WEB.filter(i=>i.status!=='pending'));
-  $('list').innerHTML=l.length?l.map(i=>{ const s=i.story||{}; return `<article class="card" data-id="${esc(i.id)}" data-web="1">
+  const ng=ED==='ng', mine=WEB.filter(i=>edOf(i)===ED);
+  const cnt=e=>WEB.filter(i=>edOf(i)===e&&i.status==='pending').length;
+  const l=mine.filter(i=>i.status==='pending').concat(mine.filter(i=>i.status!=='pending'));
+  const sw=`<div class="edsw"><button type="button" data-ed="in" aria-pressed="${!ng}">🇮🇳 India <span class="n">${cnt('in')}</span></button><button type="button" data-ed="ng" aria-pressed="${ng}">🇳🇬 Nigeria <span class="n">${cnt('ng')}</span></button></div>`;
+  const T=ng?{st:{pending:'Waiting for approval',approved:'Approved – publishing soon',published:'Published',rejected:'Rejected'},pub:'Source published',read:'Read original source →',note:"Editor note (optional) – e.g. 'say clearly this is an allegation'",yes:'✅ Publish',no:'❌ Reject',empty:'No held Nigeria stories 👍',link:'🔗 Story',also:'Also reported by'}
+           :{st:ST,pub:'మూలం ప్రచురణ',read:'అసలు వార్త చదవండి →',note:"ఎడిటర్ నోట్ (ఐచ్ఛికం) – ఉదా: 'ఆరోపణ' అని స్పష్టంగా రాయండి",yes:'✅ ప్రచురించు',no:'❌ వద్దు',empty:'ఆపిన వెబ్ వార్తలు లేవు 👍',link:'🔗 వార్త',also:'ఇతర మూలాలు'};
+  $('list').innerHTML=sw+(l.length?l.map(i=>{ const s=i.story||{}, en=(!ng&&s.en)||null, srcs=Array.isArray(s.srcs)?s.srcs:[]; return `<article class="card" data-id="${esc(i.id)}" data-web="1">
     <div class="bd">
-      <div class="meta"><span class="chip ${esc(i.status)}">${esc(ST[i.status]||i.status)}</span><span class="chip risk">⚠️ ${esc(i.risk)}</span><span>🕒 ${esc(i.time)}</span>${i.link?`<a href="${esc(i.link)}" target="_blank" rel="noopener">🔗 వార్త</a>`:''}</div>
-      <div class="meta"><span>${esc(s.cat||'')}</span>${s.pub?`<span>మూలం ప్రచురణ: ${esc(String(s.pub).replace('T',' ').slice(0,16))}</span>`:''}</div>
+      <div class="meta"><span class="chip ${esc(i.status)}">${esc(T.st[i.status]||i.status)}</span><span class="chip risk">⚠️ ${esc(i.risk)}</span><span>🕒 ${esc(i.time)}</span>${i.link?`<a href="${esc(i.link)}" target="_blank" rel="noopener">${T.link}</a>`:''}</div>
+      <div class="meta"><span>${esc(s.cat||'')}</span>${s.pub?`<span>${T.pub}: ${esc(String(s.pub).replace('T',' ').slice(0,16))}</span>`:''}${s.lbl?`<span class="chip lbl">${esc(String(s.lbl).toUpperCase())}</span>`:''}${s.vs&&VS[s.vs]?`<span>${esc(ng?VS[s.vs].split(' · ')[1]:VS[s.vs])}</span>`:''}</div>
       <h3>${esc(s.h||i.headline)}</h3>
       <p class="tx">${esc(s.p||'')}</p>
+      ${en&&en.h?`<p class="tx" style="color:var(--muted)"><b>EN:</b> ${esc(en.h)} – ${esc(en.p||'')}</p>`:''}
       ${Array.isArray(s.pts)&&s.pts.length?`<ul class="pts">${s.pts.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}
-      <a class="src2" href="${esc(i.url)}" target="_blank" rel="noopener nofollow">📰 ${esc(i.source||s.src||'మూలం')} – అసలు వార్త చదవండి →</a>
+      <a class="src2" href="${esc(i.url)}" target="_blank" rel="noopener nofollow">📰 ${esc(i.source||s.src||'')} – ${T.read}</a>
+      ${srcs.length?`<small style="color:var(--muted)">${T.also}: ${srcs.map(x=>`<a href="${esc(x.u)}" target="_blank" rel="noopener nofollow">${esc(x.n)}</a>`).join(' · ')}</small>`:''}
       ${i.note?`<small style="color:var(--muted)">📝 ${esc(i.note)}</small>`:''}
     </div>
-    ${i.status==='pending'?`<input class="note" placeholder="ఎడిటర్ నోట్ (ఐచ్ఛికం) – ఉదా: 'ఆరోపణ' అని స్పష్టంగా రాయండి">
-    <div class="acts"><button type="button" class="yes" data-d="approve">✅ ప్రచురించు</button><button type="button" class="no" data-d="reject">❌ వద్దు</button></div>`:''}
-  </article>`; }).join(''):`<div class="empty">ఆపిన వెబ్ వార్తలు లేవు 👍</div>`;
+    ${i.status==='pending'?`<input class="note" placeholder="${esc(T.note)}">
+    <div class="acts"><button type="button" class="yes" data-d="approve">${T.yes}</button><button type="button" class="no" data-d="reject">${T.no}</button></div>`:''}
+  </article>`; }).join(''):`<div class="empty">${T.empty}</div>`);
+  document.querySelectorAll('.edsw button').forEach(b=>b.onclick=()=>{ ED=b.dataset.ed; try{localStorage.setItem('w2s.editorEd',ED)}catch(e){} renderWeb(); });
 }
 
 /* ---------- 📷 official photo for a published story (15 Nov 2026) ----------
@@ -163,7 +176,7 @@ $('list').addEventListener('click',async e=>{ const b=e.target.closest('button[d
   card.querySelectorAll('button').forEach(x=>x.disabled=true);
   const web=!!card.dataset.web;
   try{ const j=await call({action:web?'reviewdecide':'decide',id,decision:b.dataset.d,note}); if(j.ok){ const it=(web?WEB:ITEMS).find(x=>x.id===id); it.status=j.status; it.note=note; render();
-      toast(j.status==='approved'?'✅ ఆమోదించారు – 1 గంటలోపు యాప్, వెబ్‌సైట్‌లో వస్తుంది':'❌ తిరస్కరించారు'); } else toast('కుదరలేదు, మళ్లీ ప్రయత్నించండి'); }
+      toast(web&&ED==='ng'?(j.status==='approved'?'✅ Approved – it goes live on the Nigeria app at the next run':'❌ Rejected'):(j.status==='approved'?'✅ ఆమోదించారు – 1 గంటలోపు యాప్, వెబ్‌సైట్‌లో వస్తుంది':'❌ తిరస్కరించారు')); } else toast('కుదరలేదు, మళ్లీ ప్రయత్నించండి'); }
   catch(x){ toast('ఇంటర్నెట్ సమస్య'); card.querySelectorAll('button').forEach(x=>x.disabled=false); } });
 load();
 </script>
