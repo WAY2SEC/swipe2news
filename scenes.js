@@ -737,7 +737,13 @@ function artPlan1(s){ const a=artPlan0(s); if(!a) return a;
   else if(a.m==='land'&&ART_NEW[a.bg]) return Object.assign({},a,{bg:ART_NEW[a.bg]});
   return a; }
 function artImg(s){ const a=artPlan(s); if(!a) return ''; return a.m==='logo'?'/art/logo-tm.png':a.m==='cat'?'/art/c/'+a.cat+'.jpg':a.bg?artBg(a.bg):'/art/o/'+(a.obj||'local')+'.webp'; }
-const ART_DISC={te:'AI రూపొందించిన చిత్రం',en:'AI-generated illustration',hi:'AI से बना चित्र'};
+const ART_DISC={te:'* AI రూపొందించిన చిత్రం',en:'* AI-generated illustration',hi:'* AI से बना चित्र'};
+/* owner 27 Nov 2026: AI pictures that show government offices, uniforms or emblems (central or state) say clearly that they are
+   AI illustrations and not official emblems or photos, so no one mistakes them for the real department's material */
+const ART_GOV=new Set(['e/cbi-investigation','e/acb-raid','e/fssai-inspection','e/food-safety-inspection','e/fish-market-inspection','e/bus-accident','e/bike-accident','e/protest-dharna-chowk','e/telangana-secretariat','e/telangana-assembly','e/vehicle-fire-highway']);
+const ART_DISC_GOV={te:'* AI చిత్రం – ప్రతీకాత్మకం, అధికారిక చిహ్నం/ఫోటో కాదు',en:'* AI illustration – symbolic, not an official emblem or photo',hi:'* AI चित्र – प्रतीकात्मक, आधिकारिक चिह्न/फ़ोटो नहीं'};
+function artDisc(s){ const L=(typeof LG==='function'?LG():'te'); let bg=''; try{ bg=(artPlan(s)||{}).bg||''; }catch(e){} return ((ART_GOV.has(bg)?ART_DISC_GOV:ART_DISC)[L])||ART_DISC.te; }
+if(typeof window!=='undefined'){ window.artDisc=artDisc; }
 function artBg(k,big){ const e=big?'.jpg':'.webp'; return /^(?:w|n|i|cv|s|e)\//.test(k)?'/art/'+k+e:'/art/d/'+k+e; } // cards: light 960px WebP; shared 4K photo: full-size original
 /* photo credits the licence asks for (owner's portrait list, 27 Nov 2026) */
 const ART_CREDIT={'e/photo-chiranjeevi':'Rudhra Varma · CC BY-SA 4.0','e/photo-indira-gandhi':'PMO · GODL-India','e/photo-nehru':'Harry Pot · CC0','e/photo-tagore':'Library of Congress'};
@@ -909,5 +915,15 @@ if(typeof document!=='undefined'){ if(document.readyState==='loading') document.
     const t=[s.h,s.statl,(s.en&&s.en.h)||''].join(' ').replace(/‌|‍/g,'');
     if(/హత్య|మృత|మరణ|శవ|ప్రమాద|అరెస్ట్|దాడి|ఆత్మహత్య|murder|death|died|dead\s?body|body found|suicide|accident|arrest|attack|fire|మంటలు/i.test(t)) return a;
     for(const [rx,bg,tg] of PL) if(rx.test(t)&&!(tg&&OTHER.test(t))) return Object.assign({},a,{m:'land',bg:artVar(bg,s.h)});
+    return a; };
+  if(typeof window!=='undefined') window.artPlan=artPlan; })();
+
+/* owner 27 Nov 2026: investigating agencies and FSSAI – AI pictures, labelled "* AI illustration – not an official emblem" (ART_GOV) */
+(function(){ const _ap=artPlan;
+  artPlan=function(s){ const a=_ap(s); if(!a||!s) return a; if(a.bg&&/^e\/photo-/.test(a.bg)) return a;
+    const t=[s.h,s.statl,(s.en&&s.en.h)||''].join(' ').replace(/‌|‍/g,'');
+    if(/సీబీఐ|\bCBI\b|सीबीआई/i.test(t)) return Object.assign({},a,{m:'land',bg:'e/cbi-investigation'});
+    if(/ఏసీబీ|\bACB\b|అవినీతి\s?నిరోధక|Anti-?Corruption|లంచం|bribe|రిశ్వత|घूस/i.test(t)&&!/ఏపీ|ఆంధ్ర|Andhra/i.test(t)) return Object.assign({},a,{m:'land',bg:'e/acb-raid'});
+    if(/FSSAI|ఎఫ్ఎస్ఎస్ఏఐ|ఆహార\s?భద్రత\s?ప్రమాణాల|Food\s?Safety\s?and\s?Standards/i.test(t)) return Object.assign({},a,{m:'land',bg:'e/fssai-inspection'});
     return a; };
   if(typeof window!=='undefined') window.artPlan=artPlan; })();

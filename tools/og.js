@@ -12,7 +12,8 @@ window.ogImage = async function(s){
   let hasPh=await drawStoryPhoto(x,s,0,0,L,H);
   // owner 26 Nov 2026: the link preview shows the card's picture too (leader photo, logo, illustration) – not just a colour panel
   if(!hasPh){ try{ const ap=artPlan(s); if(ap&&ap.m!=='logo'&&ap.bg&&await drawArtPlan(x,s,0,0,L,H,1)){ hasPh=true;
-    const g=x.createLinearGradient(0,0,0,H); g.addColorStop(0,'rgba(20,4,17,.45)'); g.addColorStop(.18,'rgba(20,4,17,0)'); g.addColorStop(.6,'rgba(20,4,17,0)'); g.addColorStop(1,'rgba(20,4,17,.85)'); x.fillStyle=g; x.fillRect(0,0,L,H); } }catch(e){} }
+    const g=x.createLinearGradient(0,0,0,H); g.addColorStop(0,'rgba(20,4,17,.45)'); g.addColorStop(.18,'rgba(20,4,17,0)'); g.addColorStop(.6,'rgba(20,4,17,0)'); g.addColorStop(1,'rgba(20,4,17,.85)'); x.fillStyle=g; x.fillRect(0,0,L,H);
+    try{ if(!/^e\/(logo|photo)-/.test(ap.bg)){ x.font=`600 20px 'Noto Sans Telugu',sans-serif`; x.fillStyle='rgba(255,253,245,.85)'; x.fillText(typeof artDisc==='function'?artDisc(s):'* AI చిత్రం',24,H-16); } }catch(e){} } }catch(e){} }
   if(!hasPh){
   try{ const a=await loadImg('data:image/svg+xml;charset=utf-8,'+encodeURIComponent(sceneSVG(s,'og'))); x.globalAlpha=.27; x.drawImage(a,-40,H-300,L+80,270); x.globalAlpha=1; }catch(e){} }
   x.fillStyle='#fff'; x.strokeStyle='#fff'; x.lineWidth=3; x.textBaseline='middle';
