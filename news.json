@@ -1,8 +1,231 @@
 {
  "date": "27.11.2026",
- "updated": "2026-11-27T08:35:00+05:30",
+ "updated": "2026-11-27T09:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "హైదరాబాద్ · వర్షం",
+   "col": "--c-water",
+   "art": "rain",
+   "pic": "e/heavy-monsoon-rain",
+   "stat": "రికార్డు వాన",
+   "statl": "హైదరాబాద్‌లో",
+   "h": "హైదరాబాద్‌లో పదేళ్లలో అత్యధిక నవంబర్ వాన",
+   "p": "హైదరాబాద్‌లో గురువారం అర్ధరాత్రి నుంచి శుక్రవారం తెల్లవారుజామున 3 గంటల వరకు భారీ వర్షం కురిసింది. నవంబర్‌లో గత పదేళ్లలో ఇదే అత్యధిక వాన అని డెక్కన్ క్రానికల్ తెలిపింది. కూకట్‌పల్లి, షేక్‌పేట, బోరబండ, మాదాపూర్, చర్లపల్లి, సఫిల్‌గూడలో ఎక్కువగా కురిసింది. 28 రోజుల తర్వాత నగరంలో భారీ వాన పడింది. బంగాళాఖాతంలోని ద్రోణి దీనికి కారణం.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hyderabad-sees-heaviest-november-rains-in-10-years-cold-conditions-likely-from-november-29-2008399",
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "కూకట్‌పల్లి, మాదాపూర్",
+   "pts": [
+    "నవంబర్ 28 నుంచి వానలు తగ్గే అవకాశం",
+    "నవంబర్ 29 నుంచి డిసెంబర్ 1 వరకు చలి పెరగవచ్చు",
+    "నల్గొండ, సూర్యాపేట, మహబూబ్‌నగర్‌లో ఈరోజు వాన పడవచ్చు"
+   ],
+   "why": "వాన తర్వాత చలి పెరగనుండటంతో నగరవాసులు, ఉదయం ప్రయాణించేవారు జాగ్రత్త పడాలి.",
+   "pub": "2026-11-27T08:32+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "Hyderabad · Rain",
+    "stat": "Record rain",
+    "statl": "in Hyderabad",
+    "loc": "Kukatpally, Madhapur",
+    "h": "Hyderabad's heaviest November rain in 10 years",
+    "p": "Heavy rain fell on Hyderabad from Thursday midnight until about 3 am on Friday. Deccan Chronicle reports it was the city's heaviest November rainfall in the last ten years. Kukatpally, Shaikpet, Borabanda, Madhapur, Charlapally and Safilguda got the most. It was the first heavy rain in the city in 28 days, caused by a trough over the Bay of Bengal.",
+    "pts": [
+     "Rain likely to ease from November 28",
+     "Cold may intensify from November 29 to December 1",
+     "Rain possible today in Nalgonda, Suryapet, Mahabubnagar"
+    ],
+    "why": "With colder days expected after the rain, city residents and morning commuters should take care."
+   },
+   "hi": {
+    "cat": "हैदराबाद · बारिश",
+    "stat": "रिकॉर्ड बारिश",
+    "statl": "हैदराबाद में",
+    "loc": "कुकटपल्ली, माधापुर",
+    "h": "हैदराबाद में 10 साल की सबसे भारी नवंबर बारिश",
+    "p": "हैदराबाद में गुरुवार आधी रात से शुक्रवार तड़के करीब 3 बजे तक भारी बारिश हुई। डेक्कन क्रॉनिकल के अनुसार यह पिछले दस साल में नवंबर की सबसे भारी बारिश है। कुकटपल्ली, शेखपेट, बोराबंडा, माधापुर, चेरलापल्ली और सफिलगुडा में सबसे ज्यादा बारिश हुई। शहर में 28 दिन बाद भारी बारिश हुई, जिसका कारण बंगाल की खाड़ी पर बनी द्रोणिका है।",
+    "pts": [
+     "28 नवंबर से बारिश घटने की संभावना",
+     "29 नवंबर से 1 दिसंबर तक ठंड बढ़ सकती है",
+     "नलगोंडा, सूर्यापेट, महबूबनगर में आज बारिश संभव"
+    ],
+    "why": "बारिश के बाद ठंड बढ़ने की संभावना है, इसलिए शहरवासी और सुबह सफर करने वाले सावधान रहें।"
+   },
+   "d": "27.11.2026",
+   "t": "09:05"
+  },
+  {
+   "cat": "ఏపీ · ఆరోగ్యం",
+   "col": "--c-gov",
+   "art": "unity",
+   "pic": "e/primary-health-centre",
+   "stat": "₹12.80 కోట్లు",
+   "statl": "ఆయుష్ కేంద్రాలకు",
+   "h": "ఏపీలో 64 ఆయుష్ కేంద్రాలకు కొత్త రూపు",
+   "p": "ఆంధ్రప్రదేశ్‌లో 64 ఆయుష్ వైద్య కేంద్రాలను ఆధునిక వసతులతో అభివృద్ధి చేస్తున్నారు. జాతీయ ఆయుష్ మిషన్ 2026-27 ప్రణాళిక కింద కేంద్ర ఆయుష్ శాఖ ₹12.80 కోట్లు మంజూరు చేసింది. ఒక్కో కేంద్రానికి ₹20 లక్షలు ఇస్తారు. పాడైన భవనాలను బాగు చేస్తారు, అవసరమైన చోట కొత్తవి కడతారు. అన్ని కేంద్రాలకు ఒకే నమూనా ఉంటుంది.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/amaravati/64-ayush-centres-get-modern-makeover-in-state-1146217",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "pts": [
+    "నెల్లూరు జిల్లాలో అత్యధికంగా 8 కేంద్రాలు",
+    "33 కేంద్రాలకు స్థలం ఉంది, మరో 31కి కేటాయించాలి",
+    "ప్రతి కేంద్రంలో ల్యాబ్, మందుల గది, వేచి ఉండే హాలు"
+   ],
+   "why": "ఆయుర్వేదం, హోమియో, యునాని వైద్యం కోసం వెళ్లే ఏపీ రోగులకు మెరుగైన వసతులు అందుతాయి.",
+   "pub": "2026-11-27T05:41+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "AP · Health",
+    "stat": "₹12.80 crore",
+    "statl": "for 64 AYUSH centres",
+    "loc": "Andhra Pradesh",
+    "h": "64 AYUSH centres in AP to get a makeover",
+    "p": "Andhra Pradesh is developing 64 AYUSH medical centres with modern facilities. The Union AYUSH Ministry has sanctioned ₹12.80 crore under the National AYUSH Mission plan for 2026-27, which works out to ₹20 lakh per centre. Damaged buildings will be repaired and new ones built where needed. All the centres will follow one uniform design.",
+    "pts": [
+     "Nellore district gets the most, 8 centres",
+     "Land is ready for 33 centres; 31 still await allotment",
+     "Each centre gets a lab, medicine store and waiting hall"
+    ],
+    "why": "Patients in AP who use Ayurveda, Homoeopathy and Unani care will get better facilities."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · स्वास्थ्य",
+    "stat": "₹12.80 करोड़",
+    "statl": "64 आयुष केंद्रों के लिए",
+    "loc": "आंध्र प्रदेश",
+    "h": "आंध्र के 64 आयुष केंद्रों का होगा कायाकल्प",
+    "p": "आंध्र प्रदेश में 64 आयुष चिकित्सा केंद्रों को आधुनिक सुविधाओं के साथ विकसित किया जा रहा है। राष्ट्रीय आयुष मिशन की 2026-27 की योजना के तहत केंद्रीय आयुष मंत्रालय ने ₹12.80 करोड़ मंजूर किए हैं, यानी हर केंद्र के लिए ₹20 लाख। खराब भवनों की मरम्मत होगी और जरूरत वाली जगहों पर नए भवन बनेंगे। सभी केंद्रों का डिजाइन एक जैसा होगा।",
+    "pts": [
+     "नेल्लोर जिले में सबसे ज्यादा 8 केंद्र",
+     "33 केंद्रों के लिए जमीन उपलब्ध, 31 का आवंटन बाकी",
+     "हर केंद्र में लैब, दवा भंडार और प्रतीक्षा हॉल"
+    ],
+    "why": "आयुर्वेद, होम्योपैथी और यूनानी इलाज लेने वाले आंध्र के मरीजों को बेहतर सुविधाएं मिलेंगी।"
+   },
+   "d": "27.11.2026",
+   "t": "09:05"
+  },
+  {
+   "cat": "ఏపీ · పంచాయతీ ఎన్నికలు",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/election-counting",
+   "stat": "1,761 సర్పంచ్‌లు",
+   "statl": "కూటమి మద్దతుదారులు",
+   "h": "ఏపీ పంచాయతీ తొలి విడతలో కూటమిదే పైచేయి",
+   "p": "ఆంధ్రప్రదేశ్ గ్రామ పంచాయతీ తొలి విడత ఎన్నికల్లో ఎన్డీఏ కూటమి మద్దతుదారులు ఎక్కువ సర్పంచ్ స్థానాలు గెలిచారు. గురువారం రాత్రి వరకు 2,525కు పైగా ఫలితాలు వచ్చాయి. వాటిలో కూటమి మద్దతుదారులు సుమారు 1,761, వైఎస్సార్‌సీపీ మద్దతుదారులు 595, ఇతరులు 169కి పైగా గెలిచారని హన్స్ ఇండియా తెలిపింది. ఈ ఎన్నికలు పార్టీ గుర్తులు లేకుండా జరిగాయి.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/amaravati/nda-backed-candidates-sweep-gp-10-elections-1146082",
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "pts": [
+    "26 జిల్లాల్లో 3,240 పంచాయతీల్లో పోలింగ్",
+    "709 పంచాయతీలు ఏకగ్రీవం",
+    "సర్పంచ్ స్థానాలకు 9,052 మంది పోటీ"
+   ],
+   "why": "గ్రామ పాలన ఎవరి చేతిలో ఉంటుందో ఈ ఫలితాలు ఏపీ గ్రామీణ ఓటర్లకు చూపిస్తాయి.",
+   "pub": "2026-11-27T01:30+05:30",
+   "lbl": "claim",
+   "en": {
+    "cat": "AP · Panchayat polls",
+    "stat": "1,761 sarpanches",
+    "statl": "backed by the alliance",
+    "loc": "Andhra Pradesh",
+    "h": "NDA-backed candidates lead AP panchayat phase 1",
+    "p": "Candidates backed by the NDA alliance won most sarpanch posts in the first phase of Andhra Pradesh's gram panchayat elections. By Thursday night, results for over 2,525 panchayats were out. Of these, alliance-backed candidates won about 1,761, YSRCP-backed candidates 595 and others more than 169, The Hans India reports. The polls were held without party symbols.",
+    "pts": [
+     "Polling held in 3,240 panchayats across 26 districts",
+     "709 panchayats were decided unanimously",
+     "9,052 candidates contested sarpanch posts"
+    ],
+    "why": "The results show rural voters in AP who will run their village administration."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · पंचायत चुनाव",
+    "stat": "1,761 सरपंच",
+    "statl": "गठबंधन समर्थित",
+    "loc": "आंध्र प्रदेश",
+    "h": "आंध्र पंचायत के पहले चरण में एनडीए आगे",
+    "p": "आंध्र प्रदेश ग्राम पंचायत चुनाव के पहले चरण में एनडीए गठबंधन समर्थित उम्मीदवारों ने सबसे ज्यादा सरपंच पद जीते। गुरुवार रात तक 2,525 से ज्यादा पंचायतों के नतीजे आ चुके थे। द हंस इंडिया के अनुसार इनमें गठबंधन समर्थित उम्मीदवारों ने करीब 1,761, वाईएसआरसीपी समर्थित उम्मीदवारों ने 595 और अन्य ने 169 से ज्यादा पद जीते। ये चुनाव पार्टी चिह्न के बिना हुए।",
+    "pts": [
+     "26 जिलों की 3,240 पंचायतों में मतदान",
+     "709 पंचायतें निर्विरोध चुनी गईं",
+     "सरपंच पदों के लिए 9,052 उम्मीदवार मैदान में"
+    ],
+    "why": "इन नतीजों से आंध्र के ग्रामीण मतदाताओं को पता चलता है कि गांव का प्रशासन कौन संभालेगा।"
+   },
+   "d": "27.11.2026",
+   "t": "09:05"
+  },
+  {
+   "cat": "భారత్ · చెస్",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/chess-tournament",
+   "stat": "60 ఎత్తుల్లో",
+   "statl": "మూడో గేమ్ డ్రా",
+   "h": "ప్రపంచ చెస్ పోటీలో గుకేశ్ మూడో గేమ్ డ్రా",
+   "p": "ప్రపంచ చెస్ ఛాంపియన్‌షిప్ మూడో గేమ్ డ్రాగా ముగిసింది. భారత్‌కు చెందిన ప్రస్తుత ఛాంపియన్ డి. గుకేశ్, ఛాలెంజర్ జవోఖిర్ సిందరోవ్ 60 ఎత్తుల తర్వాత డ్రాకు ఒప్పుకున్నారు. బెర్లిన్ డిఫెన్స్‌లో గుకేశ్ అరుదైన ఎత్తుగడ ఆడి ప్రత్యర్థిని ఒత్తిడిలో పెట్టారు. మూడు గేమ్‌ల తర్వాత ఇద్దరూ 1.5–1.5 పాయింట్లతో సమంగా ఉన్నారు.",
+   "src": "The Tribune (ANI)",
+   "url": "https://www.tribuneindia.com/news/berlin-defence/world-chess-championship-game-3-ends-in-draw-after-gukesh-deploys-rare-sideline-in-berlin-defence",
+   "sec": [
+    "india",
+    "sports"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "pts": [
+    "నాలుగో గేమ్‌లో గుకేశ్ తెల్ల పావులతో ఆడతారు",
+    "అంతకు ముందు ఒక రోజు విశ్రాంతి"
+   ],
+   "why": "భారత ఛాంపియన్ టైటిల్ నిలబెట్టుకుంటారా అని చెస్ అభిమానులు ఆసక్తిగా చూస్తున్నారు.",
+   "next": "నాలుగో గేమ్ శనివారం జరుగుతుంది",
+   "pub": "2026-11-27T01:32+05:30",
+   "lbl": "fact",
+   "en": {
+    "cat": "India · Chess",
+    "stat": "Draw in 60 moves",
+    "statl": "in Game 3",
+    "loc": "",
+    "h": "Gukesh draws Game 3 of World Championship",
+    "p": "Game 3 of the World Chess Championship ended in a draw. India's defending champion D Gukesh and challenger Javokhir Sindarov agreed to a draw after 60 moves. Gukesh played a rare line in the Berlin Defence and put his opponent under pressure. After three games the two are level at 1.5–1.5.",
+    "pts": [
+     "Gukesh will have the white pieces in Game 4",
+     "A rest day comes before it"
+    ],
+    "why": "Chess fans in India are watching closely to see if the champion keeps his title.",
+    "next": "Game 4 will be played on Saturday"
+   },
+   "hi": {
+    "cat": "भारत · शतरंज",
+    "stat": "60 चालों में",
+    "statl": "तीसरी बाजी ड्रॉ",
+    "loc": "",
+    "h": "विश्व शतरंज: गुकेश की तीसरी बाजी ड्रॉ",
+    "p": "विश्व शतरंज चैंपियनशिप की तीसरी बाजी ड्रॉ रही। भारत के मौजूदा चैंपियन डी. गुकेश और चैलेंजर जावोखिर सिंदारोव 60 चालों के बाद ड्रॉ पर सहमत हुए। गुकेश ने बर्लिन डिफेंस में एक दुर्लभ चाल चलकर प्रतिद्वंद्वी को दबाव में रखा। तीन बाजियों के बाद दोनों 1.5–1.5 अंकों से बराबरी पर हैं।",
+    "pts": [
+     "चौथी बाजी में गुकेश सफेद मोहरों से खेलेंगे",
+     "उससे पहले एक दिन का विश्राम"
+    ],
+    "why": "भारतीय शतरंज प्रेमी देख रहे हैं कि चैंपियन अपना खिताब बचा पाते हैं या नहीं।",
+    "next": "चौथी बाजी शनिवार को होगी"
+   },
+   "d": "27.11.2026",
+   "t": "09:05"
+  },
   {
    "cat": "హైదరాబాద్ · సైబర్ మోసం",
    "col": "--c-city",
@@ -3094,228 +3317,6 @@
    },
    "d": "27.11.2026",
    "t": "05:05"
-  },
-  {
-   "cat": "తెలంగాణ · వ్యవసాయం",
-   "col": "--c-gov",
-   "art": "farm",
-   "pic": "e/government-press-briefing",
-   "stat": "68 మంది రైతుల",
-   "statl": "ఆత్మహత్యలు",
-   "h": "రైతు ఆత్మహత్యలు తగ్గాయన్న సీఎం రేవంత్",
-   "p": "రాష్ట్రంలో రైతుల ఆత్మహత్యలు, అప్పులు తగ్గాయని సీఎం రేవంత్ రెడ్డి గురువారం అచ్చంపేట సభలో చెప్పారు. ప్రభుత్వ సంక్షేమ పథకాలే దీనికి కారణమన్నారు. అదే రోజు కౌలు రైతుల సంఘం విడుదల చేసిన నివేదిక మాత్రం గత రెండు నెలల్లో 68 మంది రైతులు ప్రాణాలు తీసుకున్నారని చెప్పింది. ఇందులో 51 మంది కౌలు రైతులే అని తెలిపింది.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/revanth-reddy-claims-farmer-suicides-declined",
-   "sec": [
-    "telangana",
-    "agri"
-   ],
-   "st": "TG",
-   "place": "nagarkurnool",
-   "loc": "అచ్చంపేట",
-   "pts": [
-    "నివేదిక ఇచ్చింది కౌలు రైతుల గుర్తింపు పోరాట కమిటీ",
-    "బీజేపీ, బీఆర్ఎస్ కలిసి వచ్చినా గెలవలేవని సీఎం అన్నారు"
-   ],
-   "why": "రాష్ట్రంలోని రైతులు, ముఖ్యంగా కౌలు రైతుల పరిస్థితిపై ప్రభుత్వం, సంఘాల లెక్కలు వేరుగా ఉన్నాయి.",
-   "pub": "2026-11-26T23:16+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Telangana · Farming",
-    "stat": "68 farmers",
-    "statl": "died by suicide (report)",
-    "loc": "Achampet, Nagarkurnool",
-    "h": "Farmer suicides down, says Revanth Reddy",
-    "p": "Chief Minister Revanth Reddy told a public meeting in Achampet on Thursday that farmer suicides and farm debts have fallen in the state, crediting government welfare schemes. On the same day, a report released by a tenant farmers' body said 68 farmers had died by suicide in the last two months. It said 51 of them were tenant farmers.",
-    "pts": [
-     "Report released by the Tenant Farmers Recognition Struggle Committee",
-     "CM said BJP and BRS cannot win even if they join hands"
-    ],
-    "why": "The government's and farmer groups' figures on farmers, especially tenant farmers, differ sharply."
-   },
-   "hi": {
-    "cat": "तेलंगाना · कृषि",
-    "stat": "68 किसान",
-    "statl": "की आत्महत्या (रिपोर्ट)",
-    "loc": "अच्छमपेट, नागरकर्नूल",
-    "h": "किसान आत्महत्याएं घटीं: रेवंत रेड्डी",
-    "p": "मुख्यमंत्री रेवंत रेड्डी ने गुरुवार को अच्छमपेट की जनसभा में कहा कि राज्य में किसानों की आत्महत्याएं और कर्ज घटे हैं, और इसका श्रेय सरकारी कल्याण योजनाओं को दिया। उसी दिन बटाईदार किसानों के एक संगठन की रिपोर्ट में कहा गया कि पिछले दो महीनों में 68 किसानों ने आत्महत्या की। इनमें 51 बटाईदार किसान थे।",
-    "pts": [
-     "रिपोर्ट बटाईदार किसान मान्यता संघर्ष समिति ने जारी की",
-     "सीएम ने कहा, बीजेपी और बीआरएस मिलकर भी नहीं जीत सकते"
-    ],
-    "why": "किसानों, खासकर बटाईदार किसानों की स्थिति पर सरकार और संगठनों के आंकड़े अलग हैं।"
-   },
-   "d": "26.11.2026",
-   "t": "23:35"
-  },
-  {
-   "cat": "తెలంగాణ · టెక్నాలజీ",
-   "col": "--c-power",
-   "art": "economy",
-   "pic": "e/public-policy-announcement",
-   "stat": "5 గిగావాట్ల",
-   "statl": "డేటా సెంటర్ల లక్ష్యం",
-   "h": "2029కి 5 గిగావాట్ల డేటా సెంటర్లు: భట్టి",
-   "p": "2029 నాటికి రాష్ట్రంలో 5 గిగావాట్ల డేటా సెంటర్ సామర్థ్యం సాధించడమే లక్ష్యమని ఉప ముఖ్యమంత్రి భట్టి విక్రమార్క గురువారం ప్రజా భవన్‌లో చెప్పారు. ఇప్పుడు 300 మెగావాట్లు ఉందని, మరో 2 గిగావాట్లు సిద్ధమవుతున్నాయని తెలిపారు. డేటా సెంటర్ సంస్థలు, హరిత ఇంధన ప్రతినిధులతో ఆయన సమావేశమై ఈ వివరాలు వెల్లడించారు. దేశానికి డేటా సెంటర్ రాజధాని కావాలన్నదే లక్ష్యం.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/telangana-targets-5-gw-data-centres-by-2029",
-   "sec": [
-    "telangana",
-    "business",
-    "innovation"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "ప్రజా భవన్, హైదరాబాద్",
-   "pts": [
-    "తేమ తక్కువ వాతావరణం హైదరాబాద్‌కు అనుకూలమన్నారు",
-    "నీరు, విద్యుత్ అవసరాలపై ఆందోళనల మధ్య ఈ ప్రకటన"
-   ],
-   "why": "ఈ పెట్టుబడులు ఉద్యోగాలు తెస్తాయి, కానీ నీరు, విద్యుత్ డిమాండ్ కూడా పెరుగుతుంది.",
-   "pub": "2026-11-26T23:18+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Technology",
-    "stat": "5 GW",
-    "statl": "data centre target by 2029",
-    "loc": "Praja Bhavan, Hyderabad",
-    "h": "5 GW data centres by 2029: Bhatti",
-    "p": "Deputy Chief Minister Bhatti Vikramarka said at Praja Bhavan on Thursday that Telangana aims for 5 GW of data centre capacity by 2029. Current capacity is 300 MW, with another 2 GW in the pipeline, he said after meeting data centre operators and green energy representatives. The aim is to make Telangana India's data centre capital.",
-    "pts": [
-     "Said Hyderabad's low-humidity weather suits data centres",
-     "Comes amid concerns over water and power needs"
-    ],
-    "why": "These projects bring jobs but will also raise demand for water and electricity."
-   },
-   "hi": {
-    "cat": "तेलंगाना · टेक्नोलॉजी",
-    "stat": "5 गीगावाट",
-    "statl": "2029 तक डेटा सेंटर लक्ष्य",
-    "loc": "प्रजा भवन, हैदराबाद",
-    "h": "2029 तक 5 गीगावाट डेटा सेंटर: भट्टी",
-    "p": "उपमुख्यमंत्री भट्टी विक्रमार्क ने गुरुवार को प्रजा भवन में कहा कि तेलंगाना का लक्ष्य 2029 तक 5 गीगावाट डेटा सेंटर क्षमता का है। अभी क्षमता 300 मेगावाट है और 2 गीगावाट और तैयार हो रहे हैं। उन्होंने डेटा सेंटर कंपनियों और हरित ऊर्जा प्रतिनिधियों से मुलाकात की। लक्ष्य तेलंगाना को देश की डेटा सेंटर राजधानी बनाना है।",
-    "pts": [
-     "कम नमी वाला मौसम हैदराबाद के अनुकूल बताया",
-     "पानी और बिजली की जरूरतों पर चिंताओं के बीच घोषणा"
-    ],
-    "why": "इन परियोजनाओं से रोजगार आएगा, पर पानी और बिजली की मांग भी बढ़ेगी।"
-   },
-   "d": "26.11.2026",
-   "t": "23:35"
-  },
-  {
-   "cat": "తెలంగాణ · పోలీసు",
-   "col": "--c-gov",
-   "art": "unity",
-   "pic": "logo",
-   "stat": "సైబరాబాద్‌కు",
-   "statl": "ఓవరాల్ ఛాంపియన్‌షిప్",
-   "h": "పోలీస్ డ్యూటీ మీట్ విజేత సైబరాబాద్",
-   "p": "రాజా బహదూర్ వెంకట్రామారెడ్డి పోలీస్ అకాడమీలో నాలుగు రోజుల రాష్ట్ర పోలీస్ డ్యూటీ మీట్ గురువారం ఘనంగా ముగిసింది. సైబరాబాద్ కమిషనరేట్ ఓవరాల్ ఛాంపియన్‌గా నిలిచింది. సైబరాబాద్ ఎస్సై ఆర్. ప్రేమ్ సాగర్ వ్యక్తిగత ఛాంపియన్ అయ్యారు. ఈ పోటీల్లో మొత్తం 421 మంది పోలీసులు పాల్గొన్నారు. విజేతలకు 63 పతకాలు అందజేశారు.",
-   "src": "Deccan Chronicle",
-   "url": "https://www.deccanchronicle.com/southern-states/telangana/state-police-duty-meet-cyberabad-commissionerate-champions-2008315",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "తెలంగాణ పోలీస్ అకాడమీ",
-   "pts": [
-    "మూడేళ్లుగా ఆగిన ఇంక్రిమెంట్లు, నగదు బహుమతులు ఇస్తామని డీజీపీ సీవీ ఆనంద్",
-    "రాష్ట్ర జట్టు వచ్చే నెల ముంబైలో జాతీయ మీట్‌కు వెళ్తుంది"
-   ],
-   "why": "దర్యాప్తు నైపుణ్యాల్లో ముందున్న పోలీసులకు గుర్తింపు, బహుమతులు దక్కుతాయి.",
-   "next": "అఖిల భారత పోలీస్ డ్యూటీ మీట్ వచ్చే నెల ముంబైలో",
-   "pub": "2026-11-26T23:17+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Police",
-    "stat": "Cyberabad",
-    "statl": "wins overall championship",
-    "loc": "Telangana Police Academy",
-    "h": "Cyberabad wins State Police Duty Meet",
-    "p": "The four-day 3rd Telangana State Police Duty Meet ended on Thursday at the RBVRR Telangana Police Academy. Cyberabad Commissionerate won the overall championship, and Cyberabad SI R. Prem Sagar was the individual champion. 421 personnel took part and 63 medals were awarded.",
-    "pts": [
-     "DGP C.V. Anand said increments and cash rewards pending three years will be paid",
-     "State team will go to the national meet in Mumbai next month"
-    ],
-    "why": "Police who excel in investigation skills get recognition and rewards.",
-    "next": "All India Police Duty Meet in Mumbai next month"
-   },
-   "hi": {
-    "cat": "तेलंगाना · पुलिस",
-    "stat": "साइबराबाद",
-    "statl": "ने जीती ओवरऑल चैंपियनशिप",
-    "loc": "तेलंगाना पुलिस अकादमी",
-    "h": "पुलिस ड्यूटी मीट में साइबराबाद विजेता",
-    "p": "चार दिन की तीसरी तेलंगाना राज्य पुलिस ड्यूटी मीट गुरुवार को आरबीवीआरआर तेलंगाना पुलिस अकादमी में संपन्न हुई। साइबराबाद कमिश्नरेट ओवरऑल चैंपियन बना और साइबराबाद के एसआई आर. प्रेम सागर व्यक्तिगत चैंपियन बने। 421 कर्मियों ने भाग लिया और 63 पदक दिए गए।",
-    "pts": [
-     "डीजीपी सी.वी. आनंद: तीन साल से रुके इंक्रीमेंट और नकद पुरस्कार मिलेंगे",
-     "राज्य टीम अगले महीने मुंबई में राष्ट्रीय मीट में जाएगी"
-    ],
-    "why": "जांच कौशल में आगे पुलिसकर्मियों को पहचान और पुरस्कार मिलते हैं।",
-    "next": "अखिल भारतीय पुलिस ड्यूटी मीट अगले महीने मुंबई में"
-   },
-   "d": "26.11.2026",
-   "t": "23:35"
-  },
-  {
-   "cat": "తెలంగాణ · పర్యావరణం",
-   "col": "--c-water",
-   "art": "land",
-   "pic": "logo",
-   "stat": "తొలిసారి",
-   "statl": "తెలంగాణలో బంగారు వీపు కప్ప",
-   "h": "నల్లమలలో బంగారు వీపు కప్ప గుర్తింపు",
-   "p": "నాగర్‌కర్నూల్ జిల్లా అమ్రాబాద్ పులుల అభయారణ్యంలోని సలేశ్వరం జలపాతం వద్ద భారత బంగారు వీపు కప్పను జంతుశాస్త్ర సర్వే సంస్థ పరిశోధకులు గుర్తించారు. తూర్పు కనుమల్లోని తెలంగాణ ప్రాంతంలో ఈ కప్ప ఉన్నట్లు ఇదే తొలి నిర్ధారణ. ఇంతవరకు ఇది పశ్చిమ కనుమలకే పరిమితమని భావించారు. ఈ వివరాలు జంతుశాస్త్ర సర్వే పత్రికలో ప్రచురించారు.",
-   "src": "Deccan Chronicle",
-   "url": "https://www.deccanchronicle.com/southern-states/telangana/golden-backed-frogs-range-extended-to-telanganas-eastern-ghats-2008283",
-   "sec": [
-    "telangana",
-    "culture"
-   ],
-   "st": "TG",
-   "place": "nagarkurnool",
-   "loc": "సలేశ్వరం, అమ్రాబాద్",
-   "pts": [
-    "2020 జూలైలో మూడు నమూనాలు సేకరించారు",
-    "తూర్పు కనుమల్లో 28, పశ్చిమ కనుమల్లో 253 ఉభయచర జాతులు",
-    "మరిన్ని సర్వేలు అవసరమని పరిశోధకుల సూచన"
-   ],
-   "why": "నల్లమల అడవుల జీవవైవిధ్యం ఎంత విలువైనదో ఈ గుర్తింపు చూపిస్తుంది.",
-   "pub": "2026-11-26T22:13+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Environment",
-    "stat": "First record",
-    "statl": "of golden-backed frog in Telangana",
-    "loc": "Saleswaram, Amrabad",
-    "h": "Golden-backed frog found in Nallamala",
-    "p": "Zoological Survey of India researchers recorded the Indian golden-backed frog at Saleswaram waterfall in Amrabad Tiger Reserve, Nagarkurnool district. It is the first confirmed record of the species in Telangana's Eastern Ghats; it was thought to live only in the Western Ghats. The finding was published in Records of the Zoological Survey of India.",
-    "pts": [
-     "Three specimens were collected in July 2020",
-     "Eastern Ghats have 28 amphibian species, Western Ghats 253",
-     "Researchers call for more surveys"
-    ],
-    "why": "The find shows how valuable the biodiversity of the Nallamala forests is."
-   },
-   "hi": {
-    "cat": "तेलंगाना · पर्यावरण",
-    "stat": "पहली बार",
-    "statl": "तेलंगाना में सुनहरी पीठ वाला मेंढक",
-    "loc": "सलेश्वरम, अमराबाद",
-    "h": "नल्लमला में सुनहरी पीठ वाला मेंढक",
-    "p": "भारतीय प्राणी सर्वेक्षण के शोधकर्ताओं ने नागरकर्नूल जिले के अमराबाद टाइगर रिजर्व में सलेश्वरम झरने के पास भारतीय सुनहरी पीठ वाला मेंढक दर्ज किया। तेलंगाना के पूर्वी घाट में इस प्रजाति का यह पहला पुष्ट रिकॉर्ड है; इसे केवल पश्चिमी घाट का माना जाता था। यह खोज भारतीय प्राणी सर्वेक्षण की पत्रिका में प्रकाशित हुई।",
-    "pts": [
-     "जुलाई 2020 में तीन नमूने एकत्र किए गए",
-     "पूर्वी घाट में 28, पश्चिमी घाट में 253 उभयचर प्रजातियां",
-     "शोधकर्ताओं ने और सर्वेक्षण की मांग की"
-    ],
-    "why": "यह खोज नल्लमला जंगलों की जैव विविधता का महत्व दिखाती है।"
-   },
-   "d": "26.11.2026",
-   "t": "23:35"
   }
  ]
 }
