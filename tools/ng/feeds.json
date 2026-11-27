@@ -180,16 +180,6 @@
    "name": "NCDC",
    "url": "https://ncdc.gov.ng/news/feed",
    "kind": "official"
-  },
-  {
-   "name": "INEC",
-   "url": "https://inecnigeria.org/feed/",
-   "kind": "official"
-  },
-  {
-   "name": "NiMet",
-   "url": "https://nimet.gov.ng/feed/",
-   "kind": "official"
   }
  ],
  "gnews": [
@@ -228,6 +218,38 @@
   {
    "name": "Google News Nigeria – NBS statistics",
    "url": "https://news.google.com/rss/search?q=%22National+Bureau+of+Statistics%22+Nigeria+when:2d&hl=en-NG&gl=NG&ceid=NG:en"
+  },
+  {
+   "name": "Google News – TheCable",
+   "url": "https://news.google.com/rss/search?q=site:thecable.ng+when:2d&hl=en-NG&gl=NG&ceid=NG:en"
+  },
+  {
+   "name": "Google News – The Guardian Nigeria",
+   "url": "https://news.google.com/rss/search?q=site:guardian.ng+when:2d&hl=en-NG&gl=NG&ceid=NG:en"
+  },
+  {
+   "name": "Google News – The Nation",
+   "url": "https://news.google.com/rss/search?q=site:thenationonlineng.net+when:2d&hl=en-NG&gl=NG&ceid=NG:en"
+  },
+  {
+   "name": "Google News – Sahara Reporters",
+   "url": "https://news.google.com/rss/search?q=site:saharareporters.com+when:2d&hl=en-NG&gl=NG&ceid=NG:en"
+  },
+  {
+   "name": "Google News – INEC (official)",
+   "url": "https://news.google.com/rss/search?q=site:inecnigeria.org+OR+INEC+when:2d&hl=en-NG&gl=NG&ceid=NG:en"
+  },
+  {
+   "name": "Google News – CBN (official)",
+   "url": "https://news.google.com/rss/search?q=site:cbn.gov.ng+OR+%22Central+Bank+of+Nigeria%22+when:2d&hl=en-NG&gl=NG&ceid=NG:en"
+  },
+  {
+   "name": "Google News – NBS (official)",
+   "url": "https://news.google.com/rss/search?q=site:nigerianstat.gov.ng+OR+%22National+Bureau+of+Statistics%22+when:2d&hl=en-NG&gl=NG&ceid=NG:en"
+  },
+  {
+   "name": "Google News – NiMet (official)",
+   "url": "https://news.google.com/rss/search?q=site:nimet.gov.ng+OR+NiMet+when:2d&hl=en-NG&gl=NG&ceid=NG:en"
   }
  ]
 }
