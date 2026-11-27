@@ -1,10 +1,408 @@
 {
  "date": "27.11.2026",
- "updated": "2026-11-27T11:37:42+01:00",
+ "updated": "2026-11-27T16:44:50+01:00",
  "version": 2,
  "edition": "ng",
  "tz": "Africa/Lagos",
  "stories": [
+  {
+   "h": "Lagos lawmakers begin review of MDA accounts",
+   "p": "The Lagos State House of Assembly has started its fourth public accounts review, examining how ministries, departments and agencies spent public money, Punch reports. Lawmakers cautioned the MDAs against irregular and wasteful spending during the exercise. The review is based on the Auditor-General's report for 2025, which covers 210 state bodies, according to reports on the session.",
+   "stat": "210 MDAs",
+   "statl": "Assembly accounts review",
+   "lbl": "fact",
+   "cat": "Nigeria · Lagos",
+   "sec": [
+    "lagos",
+    "politics"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/lagos-assembly-probes-mdas-spending-warns-against-financial-misconduct/",
+   "pub": "2026-11-27T17:21+01:00",
+   "d": "27.11.2026",
+   "t": "17:21",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Lagos",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Omo-Agege says he did not snub Delta police summons",
+   "p": "Former Deputy Senate President Ovie Omo-Agege has rejected reports that he ignored a request by Delta police to appear over Monday's attack on Nigeria Democratic Congress members at Uduere, Punch and Vanguard report. His camp argued that a summons publicised in the media before reaching him is not due process. He said he would not be tried in the media over the incident.",
+   "stat": "Uduere",
+   "statl": "Police invitation row",
+   "lbl": "claim",
+   "cat": "Nigeria · Delta",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/omo-agege-denies-refusing-police-invitation-over-delta-attack/",
+   "pub": "2026-11-27T17:01+01:00",
+   "d": "27.11.2026",
+   "t": "17:01",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Delta",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Vanguard",
+     "u": "https://www.vanguardngr.com/2026/11/omo-agege-denies-snubbing-police-invitation-over-uduere-killings/"
+    }
+   ]
+  },
+  {
+   "h": "NCTC launches campaign against election violence",
+   "p": "The National Counter Terrorism Centre, working with the Civil-Military Cooperation Centre, has started a campaign to prevent violence and make the 2027 polls safer, the News Agency of Nigeria and Leadership report. Leadership adds that the Inter Party Advisory Council has recorded deaths from political violence in 26 states.",
+   "stat": "2027",
+   "statl": "Election security drive",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "security",
+    "election"
+   ],
+   "src": "News Agency of Nigeria",
+   "url": "https://nannews.ng/2027-nctc-partners-move-to-counter-electoral-violence-strengthen-election-security/",
+   "pub": "2026-11-27T16:30+01:00",
+   "d": "27.11.2026",
+   "t": "16:30",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Abuja",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Leadership",
+     "u": "https://leadership.ng/2027-nctc-partners-move-to-counter-electoral-violence-as-ipac-reports-140-deaths/"
+    }
+   ]
+  },
+  {
+   "h": "CAF brings VAR to all club group-stage matches",
+   "p": "The Confederation of African Football will use Video Assistant Referee technology in every group-stage match this season in the CAF Champions League and Confederation Cup, Punch and Blueprint report. The rollout begins with Confederation Cup fixtures on Friday, November 27. The decision covers every group fixture in both CAF club competitions this season.",
+   "stat": "VAR",
+   "statl": "CAF group stages",
+   "lbl": "fact",
+   "cat": "Sports",
+   "sec": [
+    "sports"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/caf-extends-var-to-champions-league-confederation-cup-group-stages/",
+   "pub": "2026-11-27T16:15+01:00",
+   "d": "27.11.2026",
+   "t": "16:15",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Blueprint",
+     "u": "https://blueprint.ng/caf-extends-var-to-champions-league-confederation-cup-group-stages/"
+    }
+   ]
+  },
+  {
+   "h": "Kano govt denies Yusuf role in EFCC probe of Kwankwaso",
+   "p": "The Kano State Government has rejected claims by former governor Rabiu Kwankwaso that Governor Abba Yusuf pushed the EFCC to investigate him, Premium Times, Channels TV, Tribune and Vanguard report. The government called the allegation misleading and politically motivated, and said Kwankwaso's EFCC matters started before the current administration. Kwankwaso had accused the governor earlier on Friday.",
+   "stat": "EFCC",
+   "statl": "Kano political row",
+   "lbl": "claim",
+   "cat": "Nigeria · Kano",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "Premium Times",
+   "url": "https://www.premiumtimesng.com/news/top-news/928415-kano-govt-dismisses-kwankwasos-efcc-allegations-against-governor-yusuf.html",
+   "pub": "2026-11-27T15:45+01:00",
+   "d": "27.11.2026",
+   "t": "15:45",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Kano",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Channels TV",
+     "u": "https://www.channelstv.com/2026/11/27/yusuf-has-no-involvement-in-kwankwasos-dealings-with-efcc-kano-govt/"
+    },
+    {
+     "n": "Nigerian Tribune",
+     "u": "https://tribuneonlineng.com/kano-govt-denies-yusufs-involvement-in-efcc-probe-of-kwankwaso/"
+    },
+    {
+     "n": "Vanguard",
+     "u": "https://www.vanguardngr.com/2026/11/kano-govt-to-kwankwaso-stop-dragging-yusuf-into-efcc-troubles/"
+    }
+   ]
+  },
+  {
+   "h": "OK Movement group pulls support from Obi and NDC",
+   "p": "Leaders of the OK Movement say the group has withdrawn its ward, council and state structures from Peter Obi's campaign and the NDC, and is talking to other parties, ThisDay and Vanguard report. Punch describes those behind the move as one faction and says the NDC rejected it, calling them impostors. Accounts of how much of the group is involved differ.",
+   "stat": "NDC",
+   "statl": "Support group split",
+   "lbl": "claim",
+   "cat": "Nigeria",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "ThisDay",
+   "url": "https://www.thisdaylive.com/2026/11/27/ok-movement-pulls-nationwide-structures-out-of-obis-ndc/",
+   "pub": "2026-11-27T15:19+01:00",
+   "d": "27.11.2026",
+   "t": "15:19",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Vanguard",
+     "u": "https://www.vanguardngr.com/2026/11/breaking-ok-movement-withdraws-support-for-obi-kwankwaso-ndc/"
+    },
+    {
+     "n": "Punch",
+     "u": "https://punchng.com/ok-movement-faction-withdraws-support-for-obi-ndc/"
+    }
+   ]
+  },
+  {
+   "h": "Kenyan ex-governor Obado gets 25 years for murder",
+   "p": "A Kenyan court has sentenced Zacharia Okoth Obado, former governor of Migori County, to 25 years in prison over the killing of a pregnant university student, Nigerian Tribune, Peoples Gazette and Blueprint report. The court found that Obado supplied the motive and money for the murder, which took place while he was in office. Two of his aides were also sentenced.",
+   "stat": "25 years",
+   "statl": "Ex-governor jailed",
+   "lbl": "fact",
+   "cat": "World · Africa",
+   "sec": [
+    "world"
+   ],
+   "src": "Nigerian Tribune",
+   "url": "https://tribuneonlineng.com/former-kenyan-governor-jailed-25-years-for-murder-of-pregnant-girlfriend/",
+   "pub": "2026-11-27T15:02+01:00",
+   "d": "27.11.2026",
+   "t": "15:02",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Peoples Gazette",
+     "u": "https://gazettengr.com/ex-kenyan-governor-jailed-25-years-for-murder-of-pregnant-girlfriend/"
+    },
+    {
+     "n": "Blueprint",
+     "u": "https://blueprint.ng/ex-governor-jailed-25-years-over-killing-of-pregnant-girlfriend/"
+    }
+   ]
+  },
+  {
+   "h": "Adamawa to run free buses from December 1",
+   "p": "Adamawa State Governor Ahmadu Fintiri says the state will offer free bus transport across its local government areas from December 1, 2026, to ease travel costs for residents, TVC News reports. He made the announcement in Guyuk LGA during an APC grassroots campaign event backing President Bola Tinubu. Details of routes and timetables were not given in the report.",
+   "stat": "Dec 1",
+   "statl": "Free bus rides",
+   "lbl": "claim",
+   "cat": "Nigeria · Adamawa",
+   "sec": [
+    "politics"
+   ],
+   "src": "TVC News",
+   "url": "https://www.tvcnews.tv/adamawa-to-begin-free-bus-services-across-state-december-1/",
+   "pub": "2026-11-27T15:02+01:00",
+   "d": "27.11.2026",
+   "t": "15:02",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Adamawa",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Fulham coach rules out January sale of Calvin Bassey",
+   "p": "Fulham manager Alvaro Arbeloa said on Friday that Super Eagles defender Calvin Bassey will not leave the club in the January transfer window, despite reported interest from Manchester United. Speaking before Fulham's match against Bournemouth, Arbeloa praised the Nigerian's leadership and said the club is working on a new contract for him, Complete Sports, Punch and Vanguard report.",
+   "stat": "January",
+   "statl": "Bassey stays at Fulham",
+   "lbl": "fact",
+   "cat": "Sports",
+   "sec": [
+    "sports"
+   ],
+   "src": "Complete Sports",
+   "url": "https://www.completesports.com/bassey-is-not-for-sale-fulham-manager-arbeloa/",
+   "pub": "2026-11-27T14:56+01:00",
+   "d": "27.11.2026",
+   "t": "14:56",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Punch",
+     "u": "https://punchng.com/calvin-bassey-not-for-sale-fulham-coach/"
+    },
+    {
+     "n": "Vanguard",
+     "u": "https://www.vanguardngr.com/2026/11/not-a-chance-fulham-coach-arbeloa-rules-out-calvin-bassey-sale/"
+    }
+   ]
+  },
+  {
+   "h": "Dangote refinery shares to list on NGX on Dec 1",
+   "p": "The Dangote refinery's shares will begin trading on the Nigerian Exchange next Tuesday, December 1, according to Business Post. A gong-ringing ceremony to mark the listing is planned at NGX Group House on Customs Street, Marina, Lagos. The listing of Africa's biggest refinery has been widely awaited by investors in Nigeria's stock market.",
+   "stat": "Dec 1",
+   "statl": "Dangote refinery listing",
+   "lbl": "fact",
+   "cat": "Nigeria · Lagos",
+   "sec": [
+    "business"
+   ],
+   "src": "Business Post",
+   "url": "https://businesspost.ng/economy/ngx-confirms-listing-of-dangote-refinery-shares-december-1/",
+   "pub": "2026-11-27T14:28+01:00",
+   "d": "27.11.2026",
+   "t": "14:28",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Lagos",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Adeleke begins second term as Osun governor",
+   "p": "Ademola Adeleke took the oath for a second term as Osun State governor on Friday at the Osogbo City Stadium, with his deputy Kola Adewusi, Daily Trust and Channels TV report. Chief Judge Adepele Ojo administered the oath and Vice President Kashim Shettima attended. Adeleke, re-elected in August on the Accord Party ticket, urged leaders to set aside past differences.",
+   "stat": "2nd term",
+   "statl": "Osun swearing-in",
+   "lbl": "fact",
+   "cat": "Nigeria · Osun",
+   "sec": [
+    "politics"
+   ],
+   "src": "Daily Trust",
+   "url": "https://dailytrust.com/adeleke-sworn-in-for-second-term-as-osun-governor/",
+   "pub": "2026-11-27T14:03+01:00",
+   "d": "27.11.2026",
+   "t": "14:03",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Osun",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Channels TV",
+     "u": "https://www.channelstv.com/2026/11/27/adeleke-sworn-in-for-second-term-as-osun-governor-photos/"
+    },
+    {
+     "n": "Blueprint",
+     "u": "https://blueprint.ng/osun-adeleke-sworn-in-for-second-term-as-governor/"
+    }
+   ]
+  },
+  {
+   "h": "Airtel Africa starts new 1% share buyback",
+   "p": "Airtel Africa Plc has begun another share repurchase programme covering as much as 1% of the shares it has issued, Nairametrics and Premium Times report. Barclays Capital Securities will carry out on-market purchases for the telecom group, which will then acquire the shares from the bank. The move follows completion of the company's previous buyback on November 26.",
+   "stat": "1%",
+   "statl": "Share buyback",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/27/airtel-africa-launches-fresh-buyback-with-barclays-targets-1-of-share-capital/",
+   "pub": "2026-11-27T12:51+01:00",
+   "d": "27.11.2026",
+   "t": "12:51",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Premium Times",
+     "u": "https://www.premiumtimesng.com/business/business-news/928427-airtel-africa-launches-buyback-to-repurchase-1-of-issued-share-capital.html"
+    }
+   ]
+  },
+  {
+   "h": "REA signs $20m solar mini-grid deal with Okra",
+   "p": "The Rural Electrification Agency and solar firm Okra Solar have agreed a $20 million blended-finance deal to expand mesh-grid power to communities with little or no electricity, Nigerian Tribune and Blueprint report. The agreement falls under the agency's MEGA initiative. It aims to speed up deployment of the technology and bring lasting power access to underserved areas across Nigeria.",
+   "stat": "$20m",
+   "statl": "Rural power deal",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Nigerian Tribune",
+   "url": "https://tribuneonlineng.com/rea-okra-solar-sign-20m-deal-to-boost-rural-electrification/",
+   "pub": "2026-11-27T11:57+01:00",
+   "d": "27.11.2026",
+   "t": "11:57",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Blueprint",
+     "u": "https://blueprint.ng/rea-okra-solar-sign-20m-deal-to-boost-rural-electrification/"
+    }
+   ]
+  },
+  {
+   "h": "Bolt lowers driver commission to 15%",
+   "p": "Ride-hailing company Bolt now takes 15% of drivers' fares in Lagos and Abuja, Nairametrics reports, citing a company statement issued on Friday. Before the cut, Lagos drivers paid 20% while Abuja drivers paid 21%. The change could raise what drivers take home as costs of running a car in Nigeria keep climbing.",
+   "stat": "15%",
+   "statl": "Bolt driver commission",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "business",
+    "lagos"
+   ],
+   "src": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/27/bolt-cuts-driver-commission-to-15-in-lagos-abuja/",
+   "pub": "2026-11-27T10:48+01:00",
+   "d": "27.11.2026",
+   "t": "10:48",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Lagos",
+   "lang": "en",
+   "vs": "single"
+  },
   {
    "h": "Enugu closes major roads for Tinubu's visit",
    "p": "Enugu State will close several major roads from Saturday ahead of President Bola Tinubu's campaign visit to the state, Punch reports. The state government has published alternative routes for motorists and commuters. People travelling in Enugu city this weekend should plan for diversions and possible delays around the routes affected.",
@@ -175,6 +573,28 @@
    "st": "NG",
    "loc": "",
    "lang": "en"
+  },
+  {
+   "h": "PenCom says N40bn unpaid pensions recovered",
+   "p": "The National Pension Commission has recovered about N40 billion in pension contributions that employers failed to remit for their workers, Director-General Omolola Oloworaran said in an interview reported by Daily Trust. She said current reforms aim to make sure employers pay workers' pension deductions on time. Workers can check their retirement savings accounts to confirm remittances.",
+   "stat": "N40bn",
+   "statl": "Pension arrears recovered",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Daily Trust",
+   "url": "https://dailytrust.com/weve-recovered-n40bn-in-unpaid-pension-contributions-pencom/",
+   "pub": "2026-11-27T07:52+01:00",
+   "d": "27.11.2026",
+   "t": "07:52",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
   },
   {
    "h": "Senate panel tells gas firms to supply locally first",
@@ -968,324 +1388,6 @@
    "pic": "logo",
    "st": "NG",
    "loc": "",
-   "lang": "en"
-  },
-  {
-   "h": "LAMATA adds 24 coaches to Lagos Red Line",
-   "p": "The Lagos Metropolitan Area Transport Authority says three new train sets with a total of 24 coaches will be put on the Lagos Red Line rail. The agency says the extra trains should allow more frequent services and reduce the disruptions commuters have faced on the route, Punch reports.",
-   "stat": "24",
-   "statl": "New Red Line coaches",
-   "lbl": "fact",
-   "cat": "Nigeria · Lagos",
-   "sec": [
-    "lagos"
-   ],
-   "src": "Punch",
-   "url": "https://punchng.com/lamata-adds-24-train-coaches-to-ease-red-line-disruptions/",
-   "pub": "2026-11-26T15:48+01:00",
-   "d": "26.11.2026",
-   "t": "15:48",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Lagos",
-   "lang": "en"
-  },
-  {
-   "h": "Court orders arrest of Pastor Jimmy Odukoya",
-   "p": "A Lagos State High Court in Ikoyi on Thursday issued a bench warrant against Pastor Jimmy Odukoya after he failed to appear in contempt proceedings brought by the trustees of the Fountain of Life Church. Justice O.O. Adewunmi-Oshin also sent the case back to the administrative judge for reassignment.",
-   "stat": "Warrant",
-   "statl": "Odukoya must appear",
-   "lbl": "fact",
-   "cat": "Nigeria · Lagos",
-   "sec": [
-    "lagos"
-   ],
-   "src": "TVC News",
-   "url": "https://www.tvcnews.tv/court-issues-bench-warrant-against-jimmy-odukoya-in-church-contempt-case/",
-   "pub": "2026-11-26T15:36+01:00",
-   "d": "26.11.2026",
-   "t": "15:36",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Lagos",
-   "lang": "en"
-  },
-  {
-   "h": "FG vows to protect voters and INEC staff in 2027",
-   "p": "National Security Adviser Nuhu Ribadu said the Federal Government will protect voters, politicians, parties and INEC officials before, during and after the 2027 general election. At a meeting of INEC and security agencies on Thursday, INEC chairman Joash Amupitan warned parties that violence, intimidation and the use of thugs could keep voters away.",
-   "stat": "2027",
-   "statl": "Election security pledge",
-   "lbl": "claim",
-   "cat": "Nigeria",
-   "sec": [
-    "politics",
-    "security"
-   ],
-   "src": "Punch",
-   "url": "https://punchng.com/2027-fg-pledges-to-protect-voters-inec-officials/",
-   "pub": "2026-11-26T15:30+01:00",
-   "d": "26.11.2026",
-   "t": "15:30",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Abuja",
-   "lang": "en"
-  },
-  {
-   "h": "NNPC stations cut petrol price to N1,240",
-   "p": "NNPC Limited filling stations have reduced the pump price of petrol by N60, from N1,300 to N1,240 per litre, according to a Daily Post market survey on Thursday. It is another cut by NNPC retail outlets, and comes as the Dangote refinery lowered its diesel gantry price to N1,595 per litre this week.",
-   "stat": "N1,240",
-   "statl": "Petrol per litre at NNPC",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "Daily Post",
-   "url": "https://dailypost.ng/2026/11/26/nnpcl-filling-stations-reduce-petrol-price-by-n60-per-litre/",
-   "pub": "2026-11-26T15:23+01:00",
-   "d": "26.11.2026",
-   "t": "15:23",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en"
-  },
-  {
-   "h": "Electricity metering rate rises to 64.69%",
-   "p": "Distribution companies metered 144,694 more customers in October 2026, lifting Nigeria's national electricity metering rate to 64.69 per cent from 63.99 per cent in September. The Nigerian Electricity Regulatory Commission gave the figures in its latest metering factsheet released on Thursday, TVC News reports.",
-   "stat": "64.69%",
-   "statl": "Customers now metered",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "TVC News",
-   "url": "https://www.tvcnews.tv/nigerias-metering-rate-rises-to-64-69-in-october-nerc/",
-   "pub": "2026-11-26T15:07+01:00",
-   "d": "26.11.2026",
-   "t": "15:07",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en"
-  },
-  {
-   "h": "FFS starts harmattan fire safety campaign",
-   "p": "The Federal Fire Service has flagged off its harmattan safety campaign and urged Nigerians not to overload electrical sockets, leave cooking unattended, burn refuse carelessly or store petrol at home. The Federal Government also warned against attacks on firefighters during emergencies, Vanguard reports from Abuja.",
-   "stat": "Harmattan",
-   "statl": "Fire safety advisory",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "politics"
-   ],
-   "src": "Vanguard",
-   "url": "https://www.vanguardngr.com/2026/11/fg-issues-strong-advisory-on-harmattan-fires-flags-off-safety-campaign/",
-   "pub": "2026-11-26T14:57+01:00",
-   "d": "26.11.2026",
-   "t": "14:57",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en"
-  },
-  {
-   "h": "Six die as bus catches fire on Badagry Expressway",
-   "p": "Six people died and 12 were injured when a commercial bus caught fire at Magbon on the Lagos-Badagry Expressway on Thursday morning, the Lagos State Fire and Rescue Service said. The service received the distress call at 8:44am and linked the blaze to extra fuel carried in the vehicle. One outlet put the death toll at eight.",
-   "stat": "6",
-   "statl": "Dead in Lagos bus fire",
-   "lbl": "fact",
-   "cat": "Nigeria · Lagos",
-   "sec": [
-    "lagos",
-    "security"
-   ],
-   "src": "Punch",
-   "url": "https://punchng.com/six-killed-12-injured-in-lagos-bus-fire/",
-   "pub": "2026-11-26T14:33+01:00",
-   "d": "26.11.2026",
-   "t": "14:33",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Lagos",
-   "lang": "en"
-  },
-  {
-   "h": "Court refuses to quash Saleh Mamman's N31bn charge",
-   "p": "Justice Maryanne Anenih of the FCT High Court on Thursday dismissed an application by former Power Minister Saleh Mamman to quash a nine-count fraud and forgery charge filed by the EFCC. The case concerns N31.07 billion allegedly diverted from funds for the Mambilla and Zungeru hydropower projects. His trial will now continue.",
-   "stat": "N31.07bn",
-   "statl": "Mamman trial goes on",
-   "lbl": "fact",
-   "cat": "Nigeria · Abuja",
-   "sec": [
-    "politics"
-   ],
-   "src": "Premium Times",
-   "url": "https://www.premiumtimesng.com/news/top-news/928194-court-dismisses-ex-minister-saleh-mammans-application-to-quash-n31-07bn-fraud-charge.html",
-   "pub": "2026-11-26T14:26+01:00",
-   "d": "26.11.2026",
-   "t": "14:26",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Abuja",
-   "lang": "en"
-  },
-  {
-   "h": "FIFA confirms hackers stole personal, business data",
-   "p": "FIFA has confirmed a criminal cyberattack that gave hackers access to a limited amount of personal and business information. A group calling itself the Handsome Boy Hacking Club has claimed responsibility and says it took about 12GB of data. FIFA said files on its dropped World Cup stake-sale plan were not accessed.",
-   "stat": "12GB",
-   "statl": "Data hackers claim",
-   "lbl": "fact",
-   "cat": "World",
-   "sec": [
-    "world",
-    "sports"
-   ],
-   "src": "Vanguard",
-   "url": "https://www.vanguardngr.com/2026/11/fifa-confirms-cyberattack-says-hackers-stole-personal-business-data/",
-   "pub": "2026-11-26T14:18+01:00",
-   "d": "26.11.2026",
-   "t": "14:18",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en"
-  },
-  {
-   "h": "Super Falcons to play Algeria twice from Nov 30",
-   "p": "Coach Augustine Eguavoen has named his Super Falcons squad for two friendlies against Algeria, on 30 November and 4 December. The first match is at the 5 July 1962 Stadium in Algiers at 6pm Nigerian time. The games are preparation for the third round of 2028 Olympic qualifiers against Morocco.",
-   "stat": "Nov 30",
-   "statl": "Falcons vs Algeria",
-   "lbl": "fact",
-   "cat": "Sports",
-   "sec": [
-    "sports"
-   ],
-   "src": "Premium Times",
-   "url": "https://www.premiumtimesng.com/sports/football/928181-algeria-vs-nigeria-eguavoen-names-24-super-falcons-for-double-friendly-ahead-of-olympic-qualifiers.html",
-   "pub": "2026-11-26T13:50+01:00",
-   "d": "26.11.2026",
-   "t": "13:50",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en"
-  },
-  {
-   "h": "Gunmen kill at least 16 in Plateau village attack",
-   "p": "At least 16 people, including women and children, were killed when gunmen attacked Tafi Gana near Jebbu Miango in Bassa LGA, Plateau State, at about 11:30pm on Wednesday, the Irigwe Development Association said. Four people were injured. Vanguard later reported the toll had risen to 19 after three injured people died in hospital.",
-   "stat": "16+",
-   "statl": "Killed in Bassa attack",
-   "lbl": "fact",
-   "cat": "Nigeria · Plateau",
-   "sec": [
-    "security"
-   ],
-   "src": "Daily Trust",
-   "url": "https://dailytrust.com/women-children-killed-in-fresh-plateau-attack/",
-   "pub": "2026-11-26T13:39+01:00",
-   "d": "26.11.2026",
-   "t": "13:39",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Plateau",
-   "lang": "en"
-  },
-  {
-   "h": "NPA cargo up 12.2% to 68.2m tonnes in H1",
-   "p": "The Nigerian Ports Authority handled 68.2 million metric tonnes of cargo in the first half of 2026, a 12.2 per cent rise, Business Post reports. In 2025, cargo throughput at Nigerian ports grew 24.8 per cent, from 103.6 million to 129.3 million tonnes, according to NPA figures.",
-   "stat": "68.2m t",
-   "statl": "H1 port cargo",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "Business Post",
-   "url": "https://businesspost.ng/general/npa-records-12-2-cargo-growth-to-68-2m-tonnes-in-h1-2026/",
-   "pub": "2026-11-26T13:34+01:00",
-   "d": "26.11.2026",
-   "t": "13:34",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en"
-  },
-  {
-   "h": "FCT activates cholera emergency centre",
-   "p": "The Federal Capital Territory Administration has activated its Public Health Emergency Operations Centre to contain the cholera outbreak in Abuja. Officials say the move is meant to stop the disease from spreading as crowds and travel increase ahead of the Christmas and New Year celebrations, Punch reports.",
-   "stat": "Cholera",
-   "statl": "Abuja emergency centre on",
-   "lbl": "fact",
-   "cat": "Nigeria · Abuja",
-   "sec": [
-    "politics"
-   ],
-   "src": "Punch",
-   "url": "https://punchng.com/cholera-fct-activates-emergency-operations-centre/",
-   "pub": "2026-11-26T10:52+01:00",
-   "d": "26.11.2026",
-   "t": "10:52",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Abuja",
-   "lang": "en"
-  },
-  {
-   "h": "Dangote cuts diesel gantry price to N1,595",
-   "p": "Dangote Petroleum Refinery has lowered the gantry price of diesel by N125 per litre, from N1,720 to N1,595, from Thursday, November 26. The 7.27 per cent cut should reduce costs for petroleum marketers and bulk buyers who lift diesel (AGO) directly from the refinery, TVC News reports.",
-   "stat": "N1,595",
-   "statl": "Diesel price per litre",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "TVC News",
-   "url": "https://www.tvcnews.tv/dangote-reduces-diesel-price-to-n1595-per-litre/",
-   "pub": "2026-11-26T10:06+01:00",
-   "d": "26.11.2026",
-   "t": "10:06",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Lagos",
-   "lang": "en"
-  },
-  {
-   "h": "Obi mourns Pete Edochie as great loss to Africa",
-   "p": "NDC presidential candidate Peter Obi has paid tribute to veteran Nollywood actor Pete Edochie, calling his death a deep loss to his hometown Nteje, the Igbo people, Nigeria and Africa. In a post on X on Wednesday, Obi praised the actor's famous role in Things Fall Apart and his contribution to African culture.",
-   "stat": "Tributes",
-   "statl": "Nollywood icon mourned",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "politics"
-   ],
-   "src": "Daily Post",
-   "url": "https://dailypost.ng/2026/11/26/pete-edochies-death-a-great-loss-to-nigeria-africa-peter-obi/",
-   "pub": "2026-11-26T09:28+01:00",
-   "d": "26.11.2026",
-   "t": "09:28",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Anambra",
    "lang": "en"
   }
  ]
