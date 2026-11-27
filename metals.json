@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T16:43:58+05:30",
- "src": "The Hans India · GoodReturns · MCX via 5paisa",
+ "updated": "2026-11-27T10:43:46+05:30",
+ "src": "GoodReturns · BankBazaar · MCX via 5paisa",
  "cities": [
   {
    "city": "Hyderabad",
@@ -13,48 +13,50 @@
   },
   {
    "city": "Mumbai",
-   "g24": 125890,
-   "g22": 115400,
-   "silver": 165000,
-   "date": "2026-11-26",
-   "url": "https://www.thehansindia.com/business/gold-and-silver-rates-surges-today-26-nov-2026-in-delhi-mumbai-check-gold-prices-of-18k-22k-24k-1145925",
-   "surl": "https://www.goodreturns.in/silver-rates/mumbai.html"
+   "g24": 127285,
+   "g22": 116593,
+   "silver": 180000,
+   "date": "2026-11-27",
+   "url": "https://hindi.goodreturns.in/news/gold-price-today-gold-rates-drop-in-delhi-check-22k-and-24k-gold-prices-27-november-2026-011-166217.html",
+   "surl": "https://www.bankbazaar.com/silver-rate-mumbai.html"
   },
   {
    "city": "Chennai",
-   "g24": null,
-   "g22": null,
-   "silver": 165000,
-   "date": "2026-11-26",
-   "url": "https://www.bankbazaar.com/gold-rate-chennai.html",
-   "surl": "https://www.goodreturns.in/silver-rates/chennai.html"
+   "g24": 125900,
+   "g22": 115410,
+   "silver": null,
+   "date": "2026-11-27",
+   "url": "https://hindi.goodreturns.in/news/gold-price-today-gold-rates-drop-in-delhi-check-22k-and-24k-gold-prices-27-november-2026-011-166217.html",
+   "surl": "https://www.bankbazaar.com/silver-rate-chennai.html"
   },
   {
    "city": "Delhi",
-   "g24": 126040,
-   "g22": 115500,
-   "silver": null,
-   "date": "2026-11-26",
-   "url": "https://www.thehansindia.com/business/gold-and-silver-rates-surges-today-26-nov-2026-in-delhi-mumbai-check-gold-prices-of-18k-22k-24k-1145925",
+   "g24": null,
+   "g22": null,
+   "silver": 180000,
+   "date": "2026-11-27",
+   "url": "https://www.bankbazaar.com/gold-rate-delhi.html",
    "surl": "https://www.bankbazaar.com/silver-rate-delhi.html"
   }
  ],
  "copper": {
-  "price": 1127.15,
-  "date": "2026-11-26",
+  "price": 1127.95,
+  "date": "2026-11-27",
   "url": "https://www.5paisa.com/commodity-trading/mcx-copper-price"
  },
  "prev": {
   "Hyderabad|g24": 124580,
   "Hyderabad|g22": 114200,
   "Hyderabad|silver": 165000,
-  "Mumbai|g24": 124580,
-  "Mumbai|g22": 114200,
+  "Mumbai|g24": 125890,
+  "Mumbai|g22": 115400,
   "Mumbai|silver": 165000,
   "Chennai|g24": 124580,
   "Chennai|g22": 114200,
   "Chennai|silver": 165000,
   "Delhi|silver": 165000,
-  "copper": 1116.95
+  "copper": 1127.15,
+  "Delhi|g24": 126040,
+  "Delhi|g22": 115500
  }
 }
