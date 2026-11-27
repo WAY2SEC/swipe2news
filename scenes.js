@@ -923,7 +923,7 @@ if(typeof document!=='undefined'){ if(document.readyState==='loading') document.
   artPlan=function(s){ const a=_ap(s); if(!a||!s) return a; if(a.bg&&/^e\/photo-/.test(a.bg)) return a;
     const t=[s.h,s.statl,(s.en&&s.en.h)||''].join(' ').replace(/‌|‍/g,'');
     if(/సీబీఐ|\bCBI\b|सीबीआई/i.test(t)) return Object.assign({},a,{m:'land',bg:'e/cbi-investigation'});
-    if(/ఏసీబీ|\bACB\b|అవినీతి\s?నిరోధక|Anti-?Corruption|లంచం|bribe|రిశ్వత|घूस/i.test(t)&&!/ఏపీ|ఆంధ్ర|Andhra/i.test(t)) return Object.assign({},a,{m:'land',bg:'e/acb-raid'});
+    if(/ఏసీబీ|\bACB\b|అవినీతి\s?నిరోధక|Anti-?Corruption|లంచం|bribe|రిశ్వత|घूस/i.test(t)&&!/ఏపీ|ఆంధ్ర|Andhra/i.test(t)) return Object.assign({},a,{m:'land',bg:/ఏసీబీ|\bACB\b|అవినీతి\s?నిరోధక|Anti-?Corruption/i.test(t)?'e/logo-acb-telangana':'e/acb-raid'}); // owner 27 Nov 2026: official ACB logo for ACB news
     if(/FSSAI|ఎఫ్ఎస్ఎస్ఏఐ|ఆహార\s?భద్రత\s?ప్రమాణాల|Food\s?Safety\s?and\s?Standards/i.test(t)) return Object.assign({},a,{m:'land',bg:'e/fssai-inspection'});
     return a; };
   if(typeof window!=='undefined') window.artPlan=artPlan; })();
