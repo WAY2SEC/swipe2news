@@ -11,7 +11,7 @@ import json, os
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = os.path.join(ROOT, "editions", "in-regions", "news.json")
 
-C = {"up": "--c-gov", "delhi": "--c-city", "mumbai": "--c-city", "maharashtra": "--c-gov", "chennai": "--c-biz", "odisha": "--c-gov"}
+C = {"up": "--c-gov", "delhi": "--c-city", "mumbai": "--c-city", "maharashtra": "--c-gov", "chennai": "--c-biz", "tamilnadu": "--c-biz", "odisha": "--c-gov"}
 
 def S(sec, loc, cat, h, p, src, url, pub, t="", lbl="fact", stat="", statl=""):
     d = pub[8:10] + "." + pub[5:7] + "." + pub[0:4]
@@ -187,7 +187,32 @@ STORIES = [
 ]
 
 
+# Owner, 27 Nov 2026: news is district-based, like Telangana. Each story gets its state (sec) and district(s) (dist).
+# Mumbai and Chennai are districts inside Maharashtra and Tamil Nadu. dist [] = state-wide story.
+STATE = {"up": "up", "delhi": "delhi", "mumbai": "maharashtra", "maharashtra": "maharashtra", "chennai": "tamilnadu", "odisha": "odisha"}
+MUM = ["Mumbai City", "Mumbai Suburban"]
+DIST = {
+ "SP releases": ["Lucknow"], "Kharge leads": ["Lucknow"], "Owaisi backs": ["Lucknow"], "Varanasi ghats": ["Varanasi"],
+ "Delhi's air": [], "Coldest morning": [], "Two new government": [], "8-acre skill": ["North West Delhi"], "Trade fair": ["New Delhi"],
+ "Mumbai remembers": MUM, "Fadnavis plans": MUM, "BJP tells BMC": MUM, "Train guard": ["Mumbai Suburban"], "Road near Vitthalwadi": ["Thane"],
+ "310 of 358": [], "Every new bridge": ["Solapur", "Dharashiv"], "Supriya Sule": ["Pune"],
+ "Tamil Nadu signs": ["Chengalpattu"], "Gold falls": ["Chennai"], "Petrol": ["Chennai"], "Corporation finds": ["Chennai"],
+ "CM Majhi wants": [], "₹24,000 cr": ["Cuttack"], "Eight parked": ["Cuttack"], "Farmer killed": ["Sambalpur"], "Nights to get": [], "Kalinga Stadium": ["Khordha"],
+}
+
+
+def tag(s):
+    s["sec"] = sorted({STATE[k] for k in s["sec"]})
+    hits = [v for k, v in DIST.items() if s["h"].startswith(k)]
+    assert len(hits) == 1, s["h"]
+    s["dist"] = hits[0]
+    s["col"] = C.get(s["sec"][0], "--c-gov")
+    return s
+
+
 def main():
+    for s in STORIES:
+        tag(s)
     STORIES.sort(key=lambda s: s["pub"], reverse=True)
     data = {"date": "26.11.2026", "updated": "2026-11-26T18:00+05:30", "version": 1, "edition": "in-regions",
             "tz": "Asia/Kolkata", "preview": True, "stories": STORIES}

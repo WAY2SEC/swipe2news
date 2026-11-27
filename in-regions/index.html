@@ -92,11 +92,15 @@ body{overflow-x:hidden}header{gap:8px}.brand span{white-space:nowrap}
 .loc .res{display:flex;flex-direction:column;gap:6px;margin:8px 0}
 .loc .res button,.loc .rgl button{display:flex;justify-content:space-between;align-items:center;border:1.5px solid var(--line);background:#fff;border-radius:12px;padding:11px 12px;font:700 15px var(--ui);color:var(--ink);cursor:pointer;text-align:left}
 .loc .res small,.loc .rgl small{white-space:nowrap;font:600 12px var(--ui);color:var(--muted)}
-.loc .rgl{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.loc .rgl{display:grid;grid-template-columns:1fr 1fr;gap:6px}.loc .rgl.one{grid-template-columns:1fr}
+.loc>div>*{flex:none}.loc .rgl:not(.one) button{flex-direction:column;align-items:flex-start;gap:2px}
+.loc .back[hidden]{display:none}.loc .back{display:block;text-align:left;width:auto;border:0;background:none;color:var(--plum);font:800 14px var(--ui);cursor:pointer;padding:4px 0;align-self:flex-start}
+.loc .near{border-color:var(--plum)!important;box-shadow:inset 0 0 0 1.5px var(--plum)}
+.loc .whole{background:var(--cream)!important}
 .loc .rgl button[aria-pressed=true]{border-color:var(--plum);box-shadow:inset 0 0 0 1.5px var(--plum)}
 .loc .note{font:600 13px var(--ui);color:var(--muted);margin:4px 0 8px}
 .loc .save{border:0;background:none;color:var(--plum);font:800 14px var(--ui);text-decoration:underline;cursor:pointer;padding:6px 0}
-.loc.wel{align-items:stretch;padding:0}.loc.wel>div{width:100%;max-width:none}.loc.wel>div{max-height:none;height:100%;border-radius:0;display:flex;flex-direction:column;justify-content:center;padding-top:max(24px,env(safe-area-inset-top));padding-bottom:max(24px,env(safe-area-inset-bottom))}
+.loc.wel{align-items:stretch;padding:0}.loc.wel>div{width:100%;max-width:none}.loc.wel>div{max-height:none;height:100%;border-radius:0;display:flex;flex-direction:column;justify-content:flex-start;overflow-y:auto;padding-top:max(24px,env(safe-area-inset-top));padding-bottom:max(24px,env(safe-area-inset-bottom))}
 .loc .wlogo{width:64px;height:64px;border-radius:18px;margin-bottom:10px}
 .loc.wel h2{font-size:28px;line-height:1.15}
 .ecard{justify-content:center;align-items:center;text-align:center;gap:12px;padding:28px 22px}
@@ -132,63 +136,54 @@ body{overflow-x:hidden}header{gap:8px}.brand span{white-space:nowrap}
 </div>
 <div class="sheet loc" id="locSheet" hidden role="dialog" aria-modal="true" aria-labelledby="locT"><div>
   <img class="wlogo" id="wLogo" src="/art/logo.svg" alt="" hidden>
-  <h2 id="locT">📍 Choose your area</h2>
-  <p id="locSub">We'll show the news for your area first. You can change it any time.</p>
+  <button class="back" id="locBack" type="button" hidden>‹ Choose another state</button>
+  <h2 id="locT">📍 Choose your district</h2>
+  <p id="locSub"></p>
   <button class="gps" id="gps" type="button">📍 Use my current location</button>
-  <input id="locQ" type="search" placeholder="Search city or district, e.g. Pune" autocomplete="off" aria-label="Search location">
+  <input id="locQ" type="search" placeholder="Search your district or city, e.g. Pune" autocomplete="off" aria-label="Search district or city">
   <div class="res" id="locRes"></div>
   <button class="save" id="locSave" type="button" hidden></button>
-  <div class="note">Or pick a region</div>
+  <div class="note" id="locNote">Or pick your state</div>
   <div class="rgl" id="locList"></div>
-  <button class="opt" type="button" id="locClose" style="justify-content:center;margin-top:10px">Show all 6 regions</button>
+  <button class="opt" type="button" id="locClose" style="justify-content:center;margin-top:10px">Show all states</button>
 </div></div>
 <div class="toast" id="toast" role="status"></div>
 <script>
-/* Swipe2News – India Regions PREVIEW (26 Nov 2026): Uttar Pradesh, Delhi, Mumbai, Maharashtra, Chennai, Odisha.
-   Reads /editions/in-regions/news.json (same format as the other editions).
-   Not linked from the app, no alerts, no redirects. No region row or location button at the top (owner, 27 Nov):
-   the welcome screen on first open sets the reader's area; 'Change area or search a place' sits on the last card.
-   ?r=<region key> opens one region directly; ?welcome=1 shows the welcome again (testing). */
+/* Swipe2News – India Regions PREVIEW: Uttar Pradesh, Delhi, Maharashtra (incl. Mumbai), Tamil Nadu (incl. Chennai), Odisha.
+   Owner, 27 Nov 2026 – works like the Telangana app, district-based:
+   - First open after install: full-screen welcome → phone location, or search district/city, or state → district.
+     The choice is saved as the reader's area (localStorage 's2n.area' = {st, dist}; later the login profile's area).
+   - The reader then sees ONLY their state's news, their district's stories first, then the rest of the state.
+   - No region row / location button at the top. The last card has "Change district or search a place":
+     searching only changes the view; "Make X my district" saves it.
+   Data: /editions/in-regions/news.json (stories with sec=[state] and dist=[districts]) + /editions/in-regions/districts.json.
+   ?welcome=1 shows the welcome again (testing). Not linked from the app, noindex, no alerts. */
 (function(){
-const FEED='/editions/in-regions/news.json';
-const SECS=[['all','All'],['up','Uttar Pradesh'],['delhi','Delhi'],['mumbai','Mumbai'],['maharashtra','Maharashtra'],['chennai','Chennai'],['odisha','Odisha']];
-/* Where the reader is. Order (owner, 27 Nov 2026):
-   1) area saved with the reader's profile / chosen earlier (localStorage 's2n.area' – becomes the login profile's area when login exists),
-   2) first open with no area: ask – phone location (GPS) or search/pick,
-   3) anyone can search any city/district by hand; that only changes what they see, unless they tap "Make this my area". */
-const PLACES={up:['Uttar Pradesh','UP','Lucknow','Kanpur','Varanasi','Banaras','Prayagraj','Allahabad','Agra','Noida','Greater Noida','Ghaziabad','Meerut','Gorakhpur','Bareilly','Aligarh','Moradabad','Ayodhya','Mathura','Jhansi','Saharanpur','Firozabad'],
- delhi:['Delhi','New Delhi','NCR','Dwarka','Rohini','Saket','Shalimar Bagh','Karol Bagh','Connaught Place','Pragati Maidan','Laxmi Nagar','Janakpuri'],
- mumbai:['Mumbai','Bombay','Thane','Navi Mumbai','Kalyan','Dombivli','Borivali','Andheri','Bandra','Dadar','Kurla','Vasai','Virar','Panvel','Colaba','Malad','Mira Road'],
- maharashtra:['Maharashtra','Pune','Nagpur','Nashik','Chhatrapati Sambhajinagar','Aurangabad','Kolhapur','Solapur','Dharashiv','Osmanabad','Satara','Sangli','Amravati','Latur','Nanded','Jalgaon','Ahilyanagar','Ahmednagar','Akola','Ratnagiri'],
- chennai:['Chennai','Madras','Tamil Nadu','Tambaram','Guindy','Velachery','Adyar','T Nagar','Anna Nagar','Kovalam','Chengalpattu','Kanchipuram','Coimbatore','Madurai','Tiruchirappalli','Trichy','Salem'],
- odisha:['Odisha','Orissa','Bhubaneswar','Cuttack','Puri','Rourkela','Sambalpur','Berhampur','Brahmapur','Balasore','Konark','Jharsuguda','Angul','Baripada']};
-const PTS={up:[[26.85,80.95],[26.45,80.33],[25.32,82.97],[27.18,78.01],[26.76,83.37],[28.98,77.71],[25.44,81.85]],delhi:[[28.61,77.21]],
- mumbai:[[19.08,72.88],[19.22,73.16]],maharashtra:[[18.52,73.86],[21.15,79.09],[20.0,73.79],[19.88,75.34],[16.70,74.24],[17.66,75.91],[19.15,77.31]],
- chennai:[[13.08,80.27],[11.02,76.96],[9.93,78.12]],odisha:[[20.30,85.82],[20.46,85.88],[21.47,83.97],[22.26,84.85],[19.31,84.79]]};
-const RNAME=k=>(SECS.find(x=>x[0]===k)||[,''])[1];
-const lsGet=k=>{try{return localStorage.getItem(k)}catch(e){return null}}, lsSet=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
-let AREA=null; try{AREA=JSON.parse(lsGet('s2n.area')||'null')}catch(e){}
+const FEED='/editions/in-regions/news.json', DFILE='/editions/in-regions/districts.json';
+const ORDER=['up','delhi','maharashtra','tamilnadu','odisha'];
+const HINT={maharashtra:'incl. Mumbai',tamilnadu:'incl. Chennai'};
 const LBL={fact:'FACT',claim:'CLAIM',opinion:'OPINION',forecast:'FORECAST'};
 const $=id=>document.getElementById(id), esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const lsGet=k=>{try{return localStorage.getItem(k)}catch(e){return null}}, lsSet=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
 const q=new URLSearchParams(location.search);
-let ALL=[], list=[], i=0, sec=SECS.some(([k])=>k===q.get('r'))?q.get('r'):(AREA&&AREA.r)||'all', viewing=null;
+let ALL=[], ST={}, list=[], i=0, AREA=null, viewing=null, firstAsk=false, step='start', stepSt=null, nearD=null;
+try{ AREA=JSON.parse(lsGet('s2n.area')||'null'); if(AREA&&!AREA.st) AREA=null; }catch(e){}
+const cur=()=>viewing||AREA||{st:'all',dist:''};
+const SNAME=k=>k==='all'?'All states':(ST[k]?ST[k].name:k);
+const aname=a=>a.st==='all'?'All states':(a.dist||SNAME(a.st));
 function sid(s){ let h=5381; const t=(s.url||'')+'|'+(s.h||''); for(let k=0;k<t.length;k++) h=((h<<5)+h+t.charCodeAt(k))|0; return (h>>>0).toString(36); }
 function when(s){ try{ const d=new Date(s.pub), o={day:'numeric',month:'short',timeZone:'Asia/Kolkata'};
   if(s.t){ o.hour='2-digit'; o.minute='2-digit'; o.hour12=false; } return d.toLocaleString('en-IN',o)+(s.t?' IST':''); }catch(e){ return (s.d||'')+' '+(s.t||''); } }
 function toast(m){ const t=$('toast'); t.textContent=m; t.classList.add('on'); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove('on'),1800); }
-function chips(){ return;  const have=new Set(ALL.flatMap(s=>s.sec||[]));
-  $('chips').innerHTML=SECS.filter(([k])=>k==='all'||have.has(k)).map(([k,l])=>`<button class="chip" type="button" data-s="${k}" aria-pressed="${k===sec}">${l}</button>`).join(''); }
-function pick(){ list=(sec==='all'?ALL:ALL.filter(s=>(s.sec||[]).includes(sec))).concat(ALL.length?[{end:1}]:[]); if(i>=list.length) i=0; }
+/* the reader's feed: their state only, their district first (like the Telangana app) */
+function pick(){ const a=cur(); let L=a.st==='all'?ALL.slice():ALL.filter(s=>(s.sec||[]).includes(a.st));
+  if(a.dist){ const mine=L.filter(s=>(s.dist||[]).includes(a.dist)); L=mine.concat(L.filter(s=>!(s.dist||[]).includes(a.dist))); }
+  list=L.concat(ALL.length?[{end:1}]:[]); if(i>=list.length) i=0; }
 function card(s){
-  if(s.end){ const nm=viewing?viewing.name:(AREA&&AREA.r!=='all'?AREA.name:'all regions');
-    return `<article class="card ecard" id="card"><h2>You're all caught up ✅</h2><p>That's the latest news for ${esc(nm)}.</p>
-      <button class="pri" type="button" data-loc="1">📍 Change area or search a place</button>
-      ${viewing&&AREA?`<button type="button" data-home="1">Back to my area (${esc(AREA.r==='all'?'All regions':AREA.name)})</button>`:''}</article>`; }
-  if(s.intro){ const n=k=>ALL.filter(x=>(x.sec||[]).includes(k)).length;
-    return `<article class="card icard" id="card"><h2>India, region by region<i>.</i></h2>
-      <p>Short, fact-labelled stories from six regions – with the newspapers and channels they come from.</p>
-      <div class="rg">${SECS.slice(1).map(([k,l])=>`<button type="button" data-go="${k}">${l}<small>${n(k)} stories</small></button>`).join('')}</div>
-      <div class="hint">Swipe for all stories ›</div></article>`; }
+  if(s.end){ const a=cur();
+    return `<article class="card ecard" id="card"><h2>You're all caught up ✅</h2><p>That's the latest news for ${esc(aname(a))}${a.dist?' and the rest of '+esc(SNAME(a.st)):''}.</p>
+      <button class="pri" type="button" data-loc="1">📍 Change district or search a place</button>
+      ${viewing&&AREA?`<button type="button" data-home="1">Back to my district (${esc(aname(AREA))})</button>`:''}</article>`; }
   const share=location.origin+'/in-regions/?s='+sid(s);
   const wa='https://wa.me/?text='+encodeURIComponent(s.h+'\n'+share);
   return `<article class="card" id="card">
@@ -209,60 +204,82 @@ function show(dir){
   $('prev').disabled=i===0; $('next').textContent=i===list.length-1?'Start again ↺':'Next ›';
   if($('share')) $('share').onclick=()=>{ const s=list[i], u=location.origin+'/in-regions/?s='+sid(s);
     if(navigator.share) navigator.share({title:s.h,text:s.h,url:u}).catch(()=>{}); else { navigator.clipboard&&navigator.clipboard.writeText(u); toast('Link copied'); } };
-  c.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>setSec(b.dataset.go));
   c.querySelectorAll('[data-loc]').forEach(b=>b.onclick=()=>openLoc(false));
-  c.querySelectorAll('[data-home]').forEach(b=>b.onclick=()=>{ viewing=null; setSec(AREA.r); });
+  c.querySelectorAll('[data-home]').forEach(b=>b.onclick=()=>{ viewing=null; i=0; show(0); });
   swipe(c);
 }
-function setSec(k){ sec=k; i=0; show(0); }
 function go(d){ if(!list.length) return; const n=i+d; if(n<0) return; i=n>=list.length?0:n; show(d); }
 function swipe(c){ let x0=null,y0=0,dx=0;
   c.addEventListener('pointerdown',e=>{ if(e.target.closest('a,button')) return; x0=e.clientX; y0=e.clientY; dx=0; });
   c.addEventListener('pointermove',e=>{ if(x0===null) return; dx=e.clientX-x0; if(Math.abs(dx)>Math.abs(e.clientY-y0)) c.style.transform=`translateX(${dx*.6}px) rotate(${dx/60}deg)`; });
   const end=()=>{ if(x0===null) return; x0=null; c.style.transform=''; if(dx<-60) go(1); else if(dx>60) go(-1); };
   c.addEventListener('pointerup',end); c.addEventListener('pointercancel',end); c.addEventListener('pointerleave',end); }
-function use(d){ ALL=(d&&d.stories)||[]; chips(); areaLabel();
-  if((!AREA&&!q.get('r')&&!q.get('s'))||q.get('welcome')==='1') openLoc(true); const want=q.get('s'); if(want){ const k=ALL.findIndex(s=>sid(s)===want); if(k>=0){ sec='all'; i=k; } } show(0); }
 
-/* ---- location ---- */
+/* ---- welcome / location: state → district ---- */
 function norm(t){ return String(t).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z0-9]+/g,' ').trim(); }
-function areaLabel(){ return;  const v=viewing&&viewing.r===sec?viewing:(AREA&&AREA.r===sec?AREA:null);
-  $('areaName').textContent=v?v.name:(sec==='all'?(AREA?AREA.name:'Location'):RNAME(sec)); }
-function search(t){ const n=norm(t); if(n.length<2) return [];
-  const out=[], seen=new Set();
-  for(const [r,names] of Object.entries(PLACES)) for(const nm of names){ const m=norm(nm); if(m.startsWith(n)||(n.length>2&&m.includes(n))){ const key=r+nm; if(!seen.has(key)){ seen.add(key); out.push({r,name:nm,start:m.startsWith(n)}); } } }
-  for(const s of ALL){ if(s.loc&&norm(s.loc).includes(n)) for(const r of s.sec||[]){ const key=r+s.loc; if(!seen.has(key)){ seen.add(key); out.push({r,name:s.loc,start:norm(s.loc).startsWith(n)}); } } }
-  return out.sort((a,b)=>b.start-a.start).slice(0,8); }
-function drawLoc(){ const t=$('locQ').value, R=search(t);
-  $('locRes').innerHTML=t.trim().length<2?'':(R.length?R.map(x=>`<button type="button" data-r="${x.r}" data-n="${esc(x.name)}">${esc(x.name)}<small>${esc(RNAME(x.r))}</small></button>`).join(''):'<div class="note">No news region for that place yet. We cover Uttar Pradesh, Delhi, Mumbai, Maharashtra, Chennai and Odisha.</div>');
-  $('locList').innerHTML=SECS.slice(1).map(([k,l])=>`<button type="button" data-r="${k}" data-n="${esc(l)}" aria-pressed="${!!(AREA&&AREA.r===k)}">${esc(l)}<small>${AREA&&AREA.r===k?'⭐ Yours':ALL.filter(s=>(s.sec||[]).includes(k)).length+' stories'}</small></button>`).join('');
-  const v=viewing&&(!AREA||viewing.r!==AREA.r||viewing.name!==AREA.name)?viewing:null; $('locSave').hidden=!v; if(v) $('locSave').textContent='⭐ Make '+v.name+' my area'; }
-let firstAsk=false;
-function openLoc(first){ firstAsk=!!first; $('locSheet').classList.toggle('wel',!!first); $('wLogo').hidden=!first; $('locT').textContent=first?'Welcome to Swipe2News 👋':'📍 Change area';
-  $('locSub').textContent=first?"Where are you? We'll show the news from your area.":(AREA?'Your area: '+AREA.name+' ('+RNAME(AREA.r)+'). Search any place to read its news.':'Search any place to read its news.');
-  $('locQ').value=''; drawLoc(); $('locSheet').hidden=false; }
-function saveArea(a,how){ AREA={r:a.r,name:a.name,how,at:Date.now()}; lsSet('s2n.area',JSON.stringify(AREA)); }
-function choose(r,name,how){ const a={r,name};
-  if(firstAsk||!AREA||how==='gps'){ saveArea(a,how); viewing=null; toast('📍 Your area: '+name); }   // first open / GPS → becomes the reader's area
-  else { viewing=a; toast('Showing news for '+name); }                                              // manual search → only changes the view
-  lsSet('s2n.asked','1'); $('locSheet').hidden=true; setSec(r); }
+const cnt=(st,d)=>ALL.filter(s=>(s.sec||[]).includes(st)&&(!d||(s.dist||[]).includes(d))).length;
+function search(t,only){ const n=norm(t); if(n.length<2) return []; const out=[], seen=new Set();
+  for(const k of ORDER){ if(only&&k!==only) continue; const S=ST[k]; if(!S) continue;
+    const add=(label,dist)=>{ const m=norm(label); if(!(m.startsWith(n)||(n.length>2&&m.includes(n)))) return; const key=k+'|'+dist+'|'+label; if(seen.has(key)) return; seen.add(key);
+      out.push({st:k,dist,label,start:m.startsWith(n)}); };
+    if(!only) add(S.name,'');
+    for(const d of S.districts) add(d,d);
+    for(const [a,d] of Object.entries(S.alias||{})) add(a,d); }
+  return out.sort((a,b)=>b.start-a.start||a.label.length-b.label.length).slice(0,8); }
+function resBtn(x){ const sub=x.dist?(x.label!==x.dist?x.dist+' · ':'')+SNAME(x.st):'Whole state';
+  return `<button type="button" data-st="${x.st}" data-d="${esc(x.dist)}">${esc(x.label)}<small>${esc(sub)}</small></button>`; }
+function drawLoc(){ const t=$('locQ').value, only=step==='district'?stepSt:null, R=search(t,only);
+  $('locRes').innerHTML=t.trim().length<2?'':(R.length?R.map(resBtn).join(''):'<div class="note">No match. We cover Uttar Pradesh, Delhi, Maharashtra (incl. Mumbai), Tamil Nadu (incl. Chennai) and Odisha.</div>');
+  const mine=a=>AREA&&AREA.st===a.st&&(AREA.dist||'')===(a.dist||'');
+  if(step==='start'){
+    $('locNote').textContent='Or pick your state'; $('locList').className='rgl';
+    $('locList').innerHTML=ORDER.filter(k=>ST[k]).map(k=>`<button type="button" data-pickst="${k}">${esc(ST[k].name)}<small>${HINT[k]?esc(HINT[k]):cnt(k)+' stories'}</small></button>`).join('');
+  } else {
+    const S=ST[stepSt], ds=S.districts.slice().sort((a,b)=>(b===nearD)-(a===nearD));
+    $('locNote').textContent='Your district – '+S.districts.length+' in '+S.name; $('locList').className='rgl one';
+    $('locList').innerHTML=`<button type="button" class="whole" data-st="${stepSt}" data-d="">Whole ${esc(S.name)}<small>${cnt(stepSt)} stories</small></button>`+
+      ds.map(d=>`<button type="button" class="${d===nearD?'near':''}" data-st="${stepSt}" data-d="${esc(d)}">${d===nearD?'📍 ':''}${esc(d)}<small>${mine({st:stepSt,dist:d})?'⭐ Yours':(d===nearD?'Near you':(cnt(stepSt,d)?cnt(stepSt,d)+(cnt(stepSt,d)>1?' stories':' story'):''))}</small></button>`).join('');
+  }
+  const v=viewing&&!mine(viewing)?viewing:null; $('locSave').hidden=!v||step!=='start'; if(v) $('locSave').textContent='⭐ Make '+aname(v)+' my district'; }
+function setStep(st,near){ step=st?'district':'start'; stepSt=st||null; nearD=near||null;
+  $('locBack').hidden=!st; $('wLogo').hidden=!firstAsk||!!st; $('gps').hidden=!!st;
+  $('locT').textContent=st?'Choose your district':(firstAsk?'Welcome to Swipe2News 👋':'📍 Change district');
+  $('locSub').textContent=st?(near?'📍 We think you\'re in '+near+'. Tap it, or pick another.':'Your district\'s news comes first, then the rest of '+ST[st].name+'.')
+    :(firstAsk?"Where are you? Pick your district and we'll show its news first – just like home.":(AREA?'Your district: '+aname(AREA)+'. Search any place to read its news.':'Search any place to read its news.'));
+  $('locQ').placeholder=st?'Search district or city in '+ST[st].name:'Search your district or city, e.g. Pune';
+  $('locClose').textContent=st?'Cancel':(firstAsk?'Show all states':'Close');
+  $('locQ').value=''; drawLoc(); $('locSheet').firstElementChild.scrollTop=0; }
+function openLoc(first){ firstAsk=!!first; $('locSheet').classList.toggle('wel',!!first); $('locSheet').hidden=false; setStep(null); }
+function saveArea(a,how){ AREA={st:a.st,dist:a.dist||'',how,at:Date.now()}; lsSet('s2n.area',JSON.stringify(AREA)); }
+function choose(st,dist,how){ const a={st,dist:dist||''};
+  if(firstAsk||!AREA){ saveArea(a,how); viewing=null; toast('📍 Your district: '+aname(a)); }   // welcome → becomes the reader's district
+  else { viewing=a; toast('Showing news for '+aname(a)); }                                     // later search → only changes the view
+  $('locSheet').hidden=true; i=0; show(0); }
 $('locQ').oninput=drawLoc;
-$('locQ').onkeydown=e=>{ if(e.key==='Enter'){ const R=search($('locQ').value); if(R[0]) choose(R[0].r,R[0].name,'search'); } };
-$('locRes').onclick=$('locList').onclick=e=>{ const b=e.target.closest('[data-r]'); if(b) choose(b.dataset.r,b.dataset.n,'search'); };
-$('locSave').onclick=()=>{ if(viewing){ saveArea(viewing,'search'); toast('⭐ '+viewing.name+' is now your area'); viewing=null; drawLoc(); areaLabel(); } };
-$('locClose').onclick=()=>{ $('locSheet').hidden=true; if(firstAsk){ saveArea({r:'all',name:'All regions'},'pick'); lsSet('s2n.asked','1'); setSec('all'); } };
-$('locSheet').onclick=e=>{ if(e.target===$('locSheet')&&!firstAsk) $('locClose').onclick(); };
+$('locQ').onkeydown=e=>{ if(e.key==='Enter'){ const R=search($('locQ').value,step==='district'?stepSt:null); if(R[0]) choose(R[0].st,R[0].dist,'search'); } };
+$('locRes').onclick=$('locList').onclick=e=>{ const ps=e.target.closest('[data-pickst]'); if(ps){ setStep(ps.dataset.pickst); return; }
+  const b=e.target.closest('[data-st]'); if(b) choose(b.dataset.st,b.dataset.d,'pick'); };
+$('locBack').onclick=()=>setStep(null);
+$('locSave').onclick=()=>{ if(viewing){ saveArea(viewing,'search'); toast('⭐ '+aname(viewing)+' is now your district'); viewing=null; drawLoc(); } };
+$('locClose').onclick=()=>{ if(step==='district'){ setStep(null); return; } $('locSheet').hidden=true;
+  if(firstAsk){ saveArea({st:'all',dist:''},'pick'); i=0; show(0); } };
+$('locSheet').onclick=e=>{ if(e.target===$('locSheet')&&!firstAsk) $('locSheet').hidden=true; };
 $('gps').onclick=()=>{ const b=$('gps');
-  if(!navigator.geolocation){ toast('Location is not available – please search or pick a region'); return; }
+  if(!navigator.geolocation){ toast('Location is not available – please search or pick your state'); return; }
   b.textContent='📍 Finding you…'; b.disabled=true;
   navigator.geolocation.getCurrentPosition(p=>{ b.disabled=false; b.textContent='📍 Use my current location';
     const {latitude:la,longitude:lo}=p.coords; let best=null;
-    for(const [r,pts] of Object.entries(PTS)) for(const [a,o] of pts){ const d=Math.hypot(la-a,(lo-o)*Math.cos(la*Math.PI/180))*111; if(!best||d<best.d) best={r,d}; }
-    if(best&&best.d<350){ firstAsk=true; choose(best.r,RNAME(best.r),'gps'); }
-    else toast("You're outside these 6 regions – please search or pick one");
-  },()=>{ b.disabled=false; b.textContent='📍 Use my current location'; toast('Location not allowed – please search or pick a region'); },{timeout:10000,maximumAge:600000}); };
+    for(const k of ORDER) for(const [d,[a,o]] of Object.entries((ST[k]||{}).pts||{})){ const km=Math.hypot(la-a,(lo-o)*Math.cos(la*Math.PI/180))*111; if(!best||km<best.km) best={k,d,km}; }
+    if(best&&best.km<300) setStep(best.k,best.km<60?best.d:null);   // open that state's district list, nearest district on top
+    else toast("You're outside these states – please search or pick one");
+  },()=>{ b.disabled=false; b.textContent='📍 Use my current location'; toast('Location not allowed – please search or pick your state'); },{timeout:10000,maximumAge:600000}); };
+function use(d,dd){ ALL=(d&&d.stories)||[]; ST=(dd&&dd.states)||{};
+  if(AREA&&AREA.st!=='all'&&!ST[AREA.st]) AREA=null;
+  const want=q.get('s'); if(want){ const k=ALL.findIndex(s=>sid(s)===want); if(k>=0){ viewing={st:'all',dist:''}; pick(); i=list.indexOf(ALL[k]); } }
+  if((!AREA&&!want)||q.get('welcome')==='1') openLoc(true);
+  show(0); }
 async function load(){
-  try{ const r=await fetch(FEED,{cache:'no-cache'}); if(!r.ok) throw 0; use(await r.json()); }
+  try{ const [r,r2]=await Promise.all([fetch(FEED,{cache:'no-cache'}),fetch(DFILE,{cache:'no-cache'})]); if(!r.ok||!r2.ok) throw 0; use(await r.json(),await r2.json()); }
   catch(e){ $('stage').innerHTML='<div class="empty">Could not load the news. Check your internet and try again.</div>'; }
 }
 $('prev').onclick=()=>go(-1); $('next').onclick=()=>go(1);

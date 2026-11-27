@@ -1,0 +1,664 @@
+{
+ "note": "India Regions PREVIEW – states and districts (owner, 27 Nov 2026: news is district-based, like Telangana). alias = common city/area names → district. pts = district HQ points used to suggest the district from phone location. Delhi uses its 11 revenue districts.",
+ "states": {
+  "up": {
+   "name": "Uttar Pradesh",
+   "districts": [
+    "Agra",
+    "Aligarh",
+    "Ambedkar Nagar",
+    "Amethi",
+    "Amroha",
+    "Auraiya",
+    "Ayodhya",
+    "Azamgarh",
+    "Baghpat",
+    "Bahraich",
+    "Ballia",
+    "Balrampur",
+    "Banda",
+    "Barabanki",
+    "Bareilly",
+    "Basti",
+    "Bhadohi",
+    "Bijnor",
+    "Budaun",
+    "Bulandshahr",
+    "Chandauli",
+    "Chitrakoot",
+    "Deoria",
+    "Etah",
+    "Etawah",
+    "Farrukhabad",
+    "Fatehpur",
+    "Firozabad",
+    "Gautam Buddha Nagar",
+    "Ghaziabad",
+    "Ghazipur",
+    "Gonda",
+    "Gorakhpur",
+    "Hamirpur",
+    "Hapur",
+    "Hardoi",
+    "Hathras",
+    "Jalaun",
+    "Jaunpur",
+    "Jhansi",
+    "Kannauj",
+    "Kanpur Dehat",
+    "Kanpur Nagar",
+    "Kasganj",
+    "Kaushambi",
+    "Kushinagar",
+    "Lakhimpur Kheri",
+    "Lalitpur",
+    "Lucknow",
+    "Maharajganj",
+    "Mahoba",
+    "Mainpuri",
+    "Mathura",
+    "Mau",
+    "Meerut",
+    "Mirzapur",
+    "Moradabad",
+    "Muzaffarnagar",
+    "Pilibhit",
+    "Pratapgarh",
+    "Prayagraj",
+    "Raebareli",
+    "Rampur",
+    "Saharanpur",
+    "Sambhal",
+    "Sant Kabir Nagar",
+    "Shahjahanpur",
+    "Shamli",
+    "Shravasti",
+    "Siddharthnagar",
+    "Sitapur",
+    "Sonbhadra",
+    "Sultanpur",
+    "Unnao",
+    "Varanasi"
+   ],
+   "alias": {
+    "Noida": "Gautam Buddha Nagar",
+    "Greater Noida": "Gautam Buddha Nagar",
+    "Kanpur": "Kanpur Nagar",
+    "Allahabad": "Prayagraj",
+    "Banaras": "Varanasi",
+    "Kashi": "Varanasi",
+    "Faizabad": "Ayodhya",
+    "Sant Ravidas Nagar": "Bhadohi",
+    "Lakhimpur": "Lakhimpur Kheri",
+    "Vrindavan": "Mathura"
+   },
+   "pts": {
+    "Lucknow": [
+     26.85,
+     80.95
+    ],
+    "Kanpur Nagar": [
+     26.45,
+     80.33
+    ],
+    "Varanasi": [
+     25.32,
+     82.97
+    ],
+    "Agra": [
+     27.18,
+     78.01
+    ],
+    "Gorakhpur": [
+     26.76,
+     83.37
+    ],
+    "Meerut": [
+     28.98,
+     77.71
+    ],
+    "Prayagraj": [
+     25.44,
+     81.85
+    ],
+    "Gautam Buddha Nagar": [
+     28.54,
+     77.39
+    ],
+    "Ghaziabad": [
+     28.67,
+     77.45
+    ],
+    "Bareilly": [
+     28.37,
+     79.43
+    ],
+    "Aligarh": [
+     27.88,
+     78.08
+    ],
+    "Moradabad": [
+     28.84,
+     78.77
+    ],
+    "Jhansi": [
+     25.45,
+     78.57
+    ],
+    "Ayodhya": [
+     26.8,
+     82.2
+    ],
+    "Mathura": [
+     27.49,
+     77.67
+    ],
+    "Saharanpur": [
+     29.97,
+     77.55
+    ],
+    "Azamgarh": [
+     26.07,
+     83.18
+    ]
+   }
+  },
+  "delhi": {
+   "name": "Delhi",
+   "districts": [
+    "Central Delhi",
+    "East Delhi",
+    "New Delhi",
+    "North Delhi",
+    "North East Delhi",
+    "North West Delhi",
+    "Shahdara",
+    "South Delhi",
+    "South East Delhi",
+    "South West Delhi",
+    "West Delhi"
+   ],
+   "alias": {
+    "Connaught Place": "New Delhi",
+    "Pragati Maidan": "New Delhi",
+    "Chanakyapuri": "New Delhi",
+    "Karol Bagh": "Central Delhi",
+    "Daryaganj": "Central Delhi",
+    "Laxmi Nagar": "East Delhi",
+    "Preet Vihar": "East Delhi",
+    "Civil Lines": "North Delhi",
+    "Seelampur": "North East Delhi",
+    "Rohini": "North West Delhi",
+    "Shalimar Bagh": "North West Delhi",
+    "Pitampura": "North West Delhi",
+    "Saket": "South Delhi",
+    "Mehrauli": "South Delhi",
+    "Lajpat Nagar": "South East Delhi",
+    "Okhla": "South East Delhi",
+    "Dwarka": "South West Delhi",
+    "Vasant Vihar": "South West Delhi",
+    "Janakpuri": "West Delhi",
+    "Rajouri Garden": "West Delhi",
+    "Punjabi Bagh": "West Delhi"
+   },
+   "pts": {
+    "New Delhi": [
+     28.61,
+     77.21
+    ],
+    "Central Delhi": [
+     28.65,
+     77.22
+    ],
+    "North Delhi": [
+     28.69,
+     77.21
+    ],
+    "North West Delhi": [
+     28.72,
+     77.07
+    ],
+    "West Delhi": [
+     28.65,
+     77.06
+    ],
+    "South West Delhi": [
+     28.58,
+     77.05
+    ],
+    "South Delhi": [
+     28.52,
+     77.21
+    ],
+    "South East Delhi": [
+     28.56,
+     77.26
+    ],
+    "East Delhi": [
+     28.62,
+     77.3
+    ],
+    "Shahdara": [
+     28.67,
+     77.29
+    ],
+    "North East Delhi": [
+     28.7,
+     77.28
+    ]
+   }
+  },
+  "maharashtra": {
+   "name": "Maharashtra",
+   "districts": [
+    "Ahilyanagar",
+    "Akola",
+    "Amravati",
+    "Beed",
+    "Bhandara",
+    "Buldhana",
+    "Chandrapur",
+    "Chhatrapati Sambhajinagar",
+    "Dharashiv",
+    "Dhule",
+    "Gadchiroli",
+    "Gondia",
+    "Hingoli",
+    "Jalgaon",
+    "Jalna",
+    "Kolhapur",
+    "Latur",
+    "Mumbai City",
+    "Mumbai Suburban",
+    "Nagpur",
+    "Nanded",
+    "Nandurbar",
+    "Nashik",
+    "Palghar",
+    "Parbhani",
+    "Pune",
+    "Raigad",
+    "Ratnagiri",
+    "Sangli",
+    "Satara",
+    "Sindhudurg",
+    "Solapur",
+    "Thane",
+    "Wardha",
+    "Washim",
+    "Yavatmal"
+   ],
+   "alias": {
+    "Mumbai": "Mumbai City",
+    "Bombay": "Mumbai City",
+    "Colaba": "Mumbai City",
+    "Dadar": "Mumbai City",
+    "Byculla": "Mumbai City",
+    "Andheri": "Mumbai Suburban",
+    "Bandra": "Mumbai Suburban",
+    "Borivali": "Mumbai Suburban",
+    "Kurla": "Mumbai Suburban",
+    "Malad": "Mumbai Suburban",
+    "Goregaon": "Mumbai Suburban",
+    "Ghatkopar": "Mumbai Suburban",
+    "Navi Mumbai": "Thane",
+    "Kalyan": "Thane",
+    "Dombivli": "Thane",
+    "Bhiwandi": "Thane",
+    "Ulhasnagar": "Thane",
+    "Mira Road": "Thane",
+    "Panvel": "Raigad",
+    "Alibag": "Raigad",
+    "Vasai": "Palghar",
+    "Virar": "Palghar",
+    "Aurangabad": "Chhatrapati Sambhajinagar",
+    "Osmanabad": "Dharashiv",
+    "Ahmednagar": "Ahilyanagar",
+    "Pimpri Chinchwad": "Pune",
+    "Baramati": "Pune",
+    "Shirdi": "Ahilyanagar",
+    "Pandharpur": "Solapur",
+    "Ichalkaranji": "Kolhapur"
+   },
+   "pts": {
+    "Mumbai City": [
+     18.94,
+     72.83
+    ],
+    "Mumbai Suburban": [
+     19.12,
+     72.85
+    ],
+    "Thane": [
+     19.22,
+     73.16
+    ],
+    "Palghar": [
+     19.7,
+     72.77
+    ],
+    "Raigad": [
+     18.64,
+     72.87
+    ],
+    "Pune": [
+     18.52,
+     73.86
+    ],
+    "Nagpur": [
+     21.15,
+     79.09
+    ],
+    "Nashik": [
+     20.0,
+     73.79
+    ],
+    "Chhatrapati Sambhajinagar": [
+     19.88,
+     75.34
+    ],
+    "Kolhapur": [
+     16.7,
+     74.24
+    ],
+    "Solapur": [
+     17.66,
+     75.91
+    ],
+    "Nanded": [
+     19.15,
+     77.31
+    ],
+    "Amravati": [
+     20.93,
+     77.75
+    ],
+    "Satara": [
+     17.68,
+     74.02
+    ],
+    "Sangli": [
+     16.85,
+     74.58
+    ],
+    "Ahilyanagar": [
+     19.09,
+     74.74
+    ],
+    "Latur": [
+     18.4,
+     76.56
+    ],
+    "Jalgaon": [
+     21.0,
+     75.56
+    ],
+    "Akola": [
+     20.7,
+     77.0
+    ],
+    "Dharashiv": [
+     18.18,
+     76.04
+    ],
+    "Ratnagiri": [
+     16.99,
+     73.3
+    ],
+    "Chandrapur": [
+     19.96,
+     79.3
+    ]
+   }
+  },
+  "tamilnadu": {
+   "name": "Tamil Nadu",
+   "districts": [
+    "Ariyalur",
+    "Chengalpattu",
+    "Chennai",
+    "Coimbatore",
+    "Cuddalore",
+    "Dharmapuri",
+    "Dindigul",
+    "Erode",
+    "Kallakurichi",
+    "Kanchipuram",
+    "Kanyakumari",
+    "Karur",
+    "Krishnagiri",
+    "Madurai",
+    "Mayiladuthurai",
+    "Nagapattinam",
+    "Namakkal",
+    "Nilgiris",
+    "Perambalur",
+    "Pudukkottai",
+    "Ramanathapuram",
+    "Ranipet",
+    "Salem",
+    "Sivaganga",
+    "Tenkasi",
+    "Thanjavur",
+    "Theni",
+    "Thoothukudi",
+    "Tiruchirappalli",
+    "Tirunelveli",
+    "Tirupathur",
+    "Tiruppur",
+    "Tiruvallur",
+    "Tiruvannamalai",
+    "Tiruvarur",
+    "Vellore",
+    "Viluppuram",
+    "Virudhunagar"
+   ],
+   "alias": {
+    "Madras": "Chennai",
+    "T Nagar": "Chennai",
+    "Adyar": "Chennai",
+    "Anna Nagar": "Chennai",
+    "Velachery": "Chennai",
+    "Guindy": "Chennai",
+    "Mylapore": "Chennai",
+    "Tambaram": "Chengalpattu",
+    "Kovalam": "Chengalpattu",
+    "Mahabalipuram": "Chengalpattu",
+    "Avadi": "Tiruvallur",
+    "Trichy": "Tiruchirappalli",
+    "Tuticorin": "Thoothukudi",
+    "Ooty": "Nilgiris",
+    "Hosur": "Krishnagiri",
+    "Kumbakonam": "Thanjavur",
+    "Rameswaram": "Ramanathapuram",
+    "Nagercoil": "Kanyakumari",
+    "Pollachi": "Coimbatore"
+   },
+   "pts": {
+    "Chennai": [
+     13.08,
+     80.27
+    ],
+    "Chengalpattu": [
+     12.69,
+     79.98
+    ],
+    "Tiruvallur": [
+     13.14,
+     79.91
+    ],
+    "Kanchipuram": [
+     12.83,
+     79.7
+    ],
+    "Coimbatore": [
+     11.02,
+     76.96
+    ],
+    "Madurai": [
+     9.93,
+     78.12
+    ],
+    "Tiruchirappalli": [
+     10.79,
+     78.7
+    ],
+    "Salem": [
+     11.66,
+     78.15
+    ],
+    "Tirunelveli": [
+     8.71,
+     77.76
+    ],
+    "Vellore": [
+     12.92,
+     79.13
+    ],
+    "Erode": [
+     11.34,
+     77.72
+    ],
+    "Tiruppur": [
+     11.11,
+     77.34
+    ],
+    "Thanjavur": [
+     10.79,
+     79.14
+    ],
+    "Thoothukudi": [
+     8.76,
+     78.13
+    ],
+    "Kanyakumari": [
+     8.08,
+     77.54
+    ],
+    "Krishnagiri": [
+     12.52,
+     78.21
+    ],
+    "Cuddalore": [
+     11.75,
+     79.75
+    ]
+   }
+  },
+  "odisha": {
+   "name": "Odisha",
+   "districts": [
+    "Angul",
+    "Balangir",
+    "Balasore",
+    "Bargarh",
+    "Bhadrak",
+    "Boudh",
+    "Cuttack",
+    "Deogarh",
+    "Dhenkanal",
+    "Gajapati",
+    "Ganjam",
+    "Jagatsinghpur",
+    "Jajpur",
+    "Jharsuguda",
+    "Kalahandi",
+    "Kandhamal",
+    "Kendrapara",
+    "Kendujhar",
+    "Khordha",
+    "Koraput",
+    "Malkangiri",
+    "Mayurbhanj",
+    "Nabarangpur",
+    "Nayagarh",
+    "Nuapada",
+    "Puri",
+    "Rayagada",
+    "Sambalpur",
+    "Subarnapur",
+    "Sundargarh"
+   ],
+   "alias": {
+    "Bhubaneswar": "Khordha",
+    "Khurda": "Khordha",
+    "Berhampur": "Ganjam",
+    "Brahmapur": "Ganjam",
+    "Rourkela": "Sundargarh",
+    "Konark": "Puri",
+    "Baripada": "Mayurbhanj",
+    "Keonjhar": "Kendujhar",
+    "Sonepur": "Subarnapur",
+    "Bolangir": "Balangir",
+    "Baleswar": "Balasore",
+    "Paradip": "Jagatsinghpur",
+    "Redhakhol": "Sambalpur",
+    "Talcher": "Angul",
+    "Bhawanipatna": "Kalahandi",
+    "Jeypore": "Koraput"
+   },
+   "pts": {
+    "Khordha": [
+     20.3,
+     85.82
+    ],
+    "Cuttack": [
+     20.46,
+     85.88
+    ],
+    "Puri": [
+     19.81,
+     85.83
+    ],
+    "Sundargarh": [
+     22.26,
+     84.85
+    ],
+    "Sambalpur": [
+     21.47,
+     83.97
+    ],
+    "Ganjam": [
+     19.31,
+     84.79
+    ],
+    "Balasore": [
+     21.49,
+     86.93
+    ],
+    "Mayurbhanj": [
+     21.94,
+     86.73
+    ],
+    "Koraput": [
+     18.81,
+     82.71
+    ],
+    "Jharsuguda": [
+     21.86,
+     84.01
+    ],
+    "Angul": [
+     20.84,
+     85.1
+    ],
+    "Kendujhar": [
+     21.63,
+     85.58
+    ],
+    "Bhadrak": [
+     21.06,
+     86.5
+    ],
+    "Balangir": [
+     20.7,
+     83.48
+    ],
+    "Kalahandi": [
+     19.91,
+     83.17
+    ]
+   }
+  }
+ }
+}

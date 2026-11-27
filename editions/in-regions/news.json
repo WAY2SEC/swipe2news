@@ -25,7 +25,10 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-gov"
+   "col": "--c-gov",
+   "dist": [
+    "Lucknow"
+   ]
   },
   {
    "h": "Kharge leads Congress 'Samvidhan Raksha March' in Lucknow",
@@ -46,7 +49,10 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-gov"
+   "col": "--c-gov",
+   "dist": [
+    "Lucknow"
+   ]
   },
   {
    "h": "Owaisi backs Chandrashekhar Azad as CM face at Lucknow rally",
@@ -67,7 +73,10 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-gov"
+   "col": "--c-gov",
+   "dist": [
+    "Lucknow"
+   ]
   },
   {
    "h": "Mumbai remembers 26/11 victims, 18 years on",
@@ -75,7 +84,6 @@
    "cat": "26/11",
    "loc": "Mumbai",
    "sec": [
-    "mumbai",
     "maharashtra"
    ],
    "src": "The Sentinel",
@@ -89,7 +97,11 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-city"
+   "col": "--c-gov",
+   "dist": [
+    "Mumbai City",
+    "Mumbai Suburban"
+   ]
   },
   {
    "h": "Trade fair at Bharat Mandapam ends on Friday",
@@ -110,7 +122,10 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-city"
+   "col": "--c-city",
+   "dist": [
+    "New Delhi"
+   ]
   },
   {
    "h": "Delhi's air stays 'poor' – AQI 226 on Thursday morning",
@@ -131,7 +146,8 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-city"
+   "col": "--c-city",
+   "dist": []
   },
   {
    "h": "Corporation finds 265 illegal hoardings, removes 90",
@@ -139,7 +155,7 @@
    "cat": "Civic",
    "loc": "Chennai",
    "sec": [
-    "chennai"
+    "tamilnadu"
    ],
    "src": "DT Next",
    "url": "https://www.dtnext.in/news/chennai",
@@ -152,7 +168,10 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-biz"
+   "col": "--c-biz",
+   "dist": [
+    "Chennai"
+   ]
   },
   {
    "h": "Road near Vitthalwadi station shut until 20 March",
@@ -160,7 +179,7 @@
    "cat": "Traffic",
    "loc": "Kalyan",
    "sec": [
-    "mumbai"
+    "maharashtra"
    ],
    "src": "Free Press Journal",
    "url": "https://www.freepressjournal.in/mumbai",
@@ -173,7 +192,10 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-city"
+   "col": "--c-gov",
+   "dist": [
+    "Thane"
+   ]
   },
   {
    "h": "Two new government hospitals to open next year, says CM",
@@ -194,7 +216,8 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-city"
+   "col": "--c-city",
+   "dist": []
   },
   {
    "h": "BJP tells BMC to drop plan to hand open spaces to private firms",
@@ -202,7 +225,7 @@
    "cat": "Civic",
    "loc": "Mumbai",
    "sec": [
-    "mumbai"
+    "maharashtra"
    ],
    "src": "Free Press Journal",
    "url": "https://www.freepressjournal.in/mumbai",
@@ -215,7 +238,11 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-city"
+   "col": "--c-gov",
+   "dist": [
+    "Mumbai City",
+    "Mumbai Suburban"
+   ]
   },
   {
    "h": "Supriya Sule asks CM to step in on Pune crime",
@@ -236,7 +263,10 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-gov"
+   "col": "--c-gov",
+   "dist": [
+    "Pune"
+   ]
   },
   {
    "h": "Fadnavis plans 'Third and Fourth Mumbai', eyes $100 bn in infra",
@@ -244,7 +274,6 @@
    "cat": "Development",
    "loc": "Mumbai",
    "sec": [
-    "mumbai",
     "maharashtra"
    ],
    "src": "Free Press Journal",
@@ -258,7 +287,11 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-city"
+   "col": "--c-gov",
+   "dist": [
+    "Mumbai City",
+    "Mumbai Suburban"
+   ]
   },
   {
    "h": "Tamil Nadu signs 78 deals worth ₹58,214 crore",
@@ -266,7 +299,7 @@
    "cat": "Investment",
    "loc": "Kovalam",
    "sec": [
-    "chennai"
+    "tamilnadu"
    ],
    "src": "DT Next",
    "url": "https://www.dtnext.in/news/tamilnadu/cm-vijay-presides-over-rs-58214-crore-investment-conclave-78-mous-signed",
@@ -279,7 +312,10 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-biz"
+   "col": "--c-biz",
+   "dist": [
+    "Chengalpattu"
+   ]
   },
   {
    "h": "310 of 358 talukas now drought-hit; farmers to get 5 kg grain",
@@ -300,7 +336,8 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-gov"
+   "col": "--c-gov",
+   "dist": []
   },
   {
    "h": "Coldest morning of the season as smog streak hits 11 days",
@@ -321,7 +358,8 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-city"
+   "col": "--c-city",
+   "dist": []
   },
   {
    "h": "Every new bridge must store water underneath; fodder camps cleared",
@@ -342,7 +380,11 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-gov"
+   "col": "--c-gov",
+   "dist": [
+    "Solapur",
+    "Dharashiv"
+   ]
   },
   {
    "h": "CM Majhi wants one exam for similar government posts",
@@ -363,7 +405,8 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-gov"
+   "col": "--c-gov",
+   "dist": []
   },
   {
    "h": "₹24,000 cr semiconductor hub and Mahanadi riverfront announced",
@@ -384,7 +427,10 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-gov"
+   "col": "--c-gov",
+   "dist": [
+    "Cuttack"
+   ]
   },
   {
    "h": "Eight parked buses gutted by fire in Cuttack",
@@ -405,7 +451,10 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-gov"
+   "col": "--c-gov",
+   "dist": [
+    "Cuttack"
+   ]
   },
   {
    "h": "Varanasi ghats glow for Dev Deepawali",
@@ -426,7 +475,10 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-gov"
+   "col": "--c-gov",
+   "dist": [
+    "Varanasi"
+   ]
   },
   {
    "h": "Farmer killed by elephant while guarding paddy",
@@ -447,7 +499,10 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-gov"
+   "col": "--c-gov",
+   "dist": [
+    "Sambalpur"
+   ]
   },
   {
    "h": "Nights to get 3–5 degrees colder",
@@ -468,7 +523,8 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-gov"
+   "col": "--c-gov",
+   "dist": []
   },
   {
    "h": "Kalinga Stadium hosts first BIMSTEC U-23 athletics meet",
@@ -489,7 +545,10 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-gov"
+   "col": "--c-gov",
+   "dist": [
+    "Khordha"
+   ]
   },
   {
    "h": "Petrol ₹107.77, diesel ₹99.55 – no change",
@@ -497,7 +556,7 @@
    "cat": "Fuel",
    "loc": "Chennai",
    "sec": [
-    "chennai"
+    "tamilnadu"
    ],
    "src": "DT Next",
    "url": "https://www.dtnext.in/news/business/check-out-petrol-and-diesel-prices-in-chennai-on-november-25-2026",
@@ -510,7 +569,10 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-biz"
+   "col": "--c-biz",
+   "dist": [
+    "Chennai"
+   ]
   },
   {
    "h": "Gold falls ₹2,360 a sovereign in Chennai",
@@ -518,7 +580,7 @@
    "cat": "Gold rate",
    "loc": "Chennai",
    "sec": [
-    "chennai"
+    "tamilnadu"
    ],
    "src": "DT Next",
    "url": "https://www.dtnext.in/news/chennai/chennai-gold-price-falls-by-rs-2360-on-november-25-2026-check-todays-gold-silver-rate",
@@ -531,7 +593,10 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-biz"
+   "col": "--c-biz",
+   "dist": [
+    "Chennai"
+   ]
   },
   {
    "h": "8-acre skill centre planned in Shalimar Bagh",
@@ -552,7 +617,10 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-city"
+   "col": "--c-city",
+   "dist": [
+    "North West Delhi"
+   ]
   },
   {
    "h": "Train guard attacked at Borivali after asking man to leave ladies' coach",
@@ -560,7 +628,7 @@
    "cat": "Local trains",
    "loc": "Borivali",
    "sec": [
-    "mumbai"
+    "maharashtra"
    ],
    "src": "News18 Lokmat (Marathi)",
    "url": "https://news18marathi.com/maharashtra/mumbai-local-passenger-attacks-train-guard-with-mobile-phone-borivali-station-1839950.html",
@@ -573,7 +641,10 @@
    "lang": "en",
    "st": "IN",
    "pic": "logo",
-   "col": "--c-city"
+   "col": "--c-gov",
+   "dist": [
+    "Mumbai Suburban"
+   ]
   }
  ]
 }
