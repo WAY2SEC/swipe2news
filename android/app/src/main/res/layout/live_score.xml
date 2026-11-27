@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Live score card: LIVE · FOOTBALL · swipe2news. / big score / minute · league / logo in an apricot circle -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/ls_bg" android:orientation="horizontal"
+    android:gravity="center_vertical" android:paddingStart="16dp" android:paddingEnd="12dp"
+    android:paddingTop="10dp" android:paddingBottom="10dp">
+
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_weight="1" android:orientation="vertical">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical">
+            <ImageView android:layout_width="8dp" android:layout_height="8dp"
+                android:src="@drawable/ls_dot" android:contentDescription="@null" />
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                android:layout_marginStart="6dp" android:text="LIVE · FOOTBALL" android:textColor="#FFFFFF"
+                android:textSize="11sp" android:textStyle="bold" android:letterSpacing="0.04" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="swipe2news." android:textColor="#F5A23A" android:textSize="11sp" android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView android:id="@+id/ls_score" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="3dp" android:textColor="#FFFFFF" android:textSize="19sp" android:textStyle="bold"
+            android:maxLines="1" android:ellipsize="end" />
+
+        <TextView android:id="@+id/ls_sub" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textColor="#E6FFFFFF" android:textSize="12.5sp" android:maxLines="1" android:ellipsize="end" />
+    </LinearLayout>
+
+    <FrameLayout android:layout_width="40dp" android:layout_height="40dp" android:layout_marginStart="10dp"
+        android:background="@drawable/ls_circle">
+        <ImageView android:layout_width="26dp" android:layout_height="26dp" android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher" android:contentDescription="Swipe2News" />
+    </FrameLayout>
+</LinearLayout>

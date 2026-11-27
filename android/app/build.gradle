@@ -45,4 +45,6 @@ android {
 
 dependencies {
     implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.5.0'
+    implementation 'androidx.core:core:1.13.1'
+    implementation 'androidx.work:work-runtime:2.10.0'   // live score card
 }
