@@ -480,7 +480,7 @@ const ART_TOPIC=[
  [/ఉద్యోగ|నియామక|\bjobs?\b|recruit|भर्ती/i,'e/recruitment-notification'],
  [/హైదరాబాద్|భాగ్యనగర|\bHyderabad\b|हैदराबाद/i,'e/hyderabad-landmarks']]; // owner 27 Nov 2026: Hyderabad landmarks for city stories with no other picture
 // owner 26 Nov 2026: more than one picture for common incidents, so back-to-back stories don't look the same
-const ART_VAR={'e/hitec-city':['e/hitec-city-2','e/hitec-city'],'e/hyderabad-landmarks':['e/hyderabad-landmarks','e/charminar','e/tank-bund','e/hitec-city-2'],'e/road-accident-response':['e/road-accident-response','e/road-accident-response-2','e/road-accident-response-3','e/road-accident-response-4'],'e/parliament':['e/parliament-new-building','e/parliament-old-building','e/parliament-lok-sabha','e/parliament-rajya-sabha'],'e/bathukamma-festival':['e/bathukamma-festival','e/bathukamma-flowers'],'e/bonalu-procession':['e/bonalu-procession','e/bonalu-women','e/bonalu-pothuraju'],'e/medaram-jatara':['e/medaram-jatara','e/medaram-bangaram'],'e/fire-service-response':['e/fire-service-response','e/fire-building-blaze']};
+const ART_VAR={'e/hitec-city':['e/hitec-city-2','e/hitec-city'],'e/hyderabad-landmarks':['e/hyderabad-landmarks','e/charminar','e/tank-bund','e/hitec-city-2'],'e/road-accident-response':['e/road-accident-response','e/road-accident-response-2','e/road-accident-response-3','e/road-accident-response-4','e/lorry-car-collision'],'e/parliament':['e/parliament-new-building','e/parliament-old-building','e/parliament-lok-sabha','e/parliament-rajya-sabha'],'e/bathukamma-festival':['e/bathukamma-festival','e/bathukamma-flowers'],'e/bonalu-procession':['e/bonalu-procession','e/bonalu-women','e/bonalu-pothuraju'],'e/medaram-jatara':['e/medaram-jatara','e/medaram-bangaram'],'e/fire-service-response':['e/fire-service-response','e/fire-building-blaze']};
 function artVar(pc,h){ const v=ART_VAR[pc]; if(!v) return pc; let n=0; for(const c of String(h||'')) n=(n*31+c.charCodeAt(0))>>>0; return v[n%v.length]; }
 // owner 26 Nov 2026: sports and incident pictures (used when the story has no picture of its own)
 const ART_SCENE=[[/కబడ్డీ|kabaddi|कबड्डी/i,'e/kabaddi-match'],[/హాకీ|\bhockey\b|हॉकी/i,'e/field-hockey'],[/ఆర్చరీ|విలువిద్య|\barchery\b|\barchers?\b|तीरंदाज/i,'e/archery'],[/వాలీబాల్|volleyball|वॉलीबॉल/i,'e/volleyball-match'],[/అథ్లెటిక్స్|పరుగు పందెం|స్ప్రింట్|athletics|\bsprint|marathon|మారథాన్|एथलेटिक्स/i,'e/athletics-race'],[/క్రికెట్|\bcricket|क्रिकेट/i,'e/cricket-match'],
@@ -498,6 +498,7 @@ function artPlan0(s){
       // owner 27 Nov 2026: bus and two-wheeler accidents get their own pictures
       const A=/ప్రమాద|ఢీ|బోల్తా|accident|crash|collision|overturn|हादसा|दुर्घटना/i;
       if(A.test(tv)&&/బస్సు|బస్|ఆర్టీసీ|\bbus\b|\bRTC\b|बस/i.test(tv)) return {m:'land',bg:'e/bus-accident'};
+      if(A.test(tv)&&/లారీ|ట్రక్|టిప్పర్|కంటైనర్|\blorry|\btruck|tipper|container|ट्रक/i.test(tv)) return {m:'land',bg:'e/lorry-car-collision'}; // owner 27 Nov 2026
       if(A.test(tv)&&/బైక్|ద్విచక్ర|స్కూటీ|స్కూటర్|\bbike|two-wheeler|scooter|motorcycle|बाइक/i.test(tv)) return {m:'land',bg:'e/bike-accident'}; }
     // owner 27 Nov 2026: land / plot auctions get the land-auction picture
     if(/వేలం|వేలాని|వేలంపా|auction|नीलामी/i.test(t)&&/భూమి|భూము|స్థల|ప్లాట్|గజాల|ఎకరా|లేఅవుట్|\bland|plot|acre|layout|ज़मीन|जमीन|भूखंड/i.test([t,s.p||''].join(' '))) return {m:'land',bg:'e/land-auction'};
@@ -740,7 +741,7 @@ function artImg(s){ const a=artPlan(s); if(!a) return ''; return a.m==='logo'?'/
 const ART_DISC={te:'* AI రూపొందించిన చిత్రం',en:'* AI-generated illustration',hi:'* AI से बना चित्र'};
 /* owner 27 Nov 2026: AI pictures that show government offices, uniforms or emblems (central or state) say clearly that they are
    AI illustrations and not official emblems or photos, so no one mistakes them for the real department's material */
-const ART_GOV=new Set(['e/cbi-investigation','e/acb-raid','e/fssai-inspection','e/food-safety-inspection','e/fish-market-inspection','e/bus-accident','e/bike-accident','e/protest-dharna-chowk','e/telangana-secretariat','e/telangana-assembly','e/vehicle-fire-highway']);
+const ART_GOV=new Set(['e/cbi-investigation','e/acb-raid','e/fssai-inspection','e/food-safety-inspection','e/fish-market-inspection','e/bus-accident','e/bike-accident','e/lorry-car-collision','e/protest-dharna-chowk','e/telangana-secretariat','e/telangana-assembly','e/vehicle-fire-highway']);
 const ART_DISC_GOV={te:'* AI చిత్రం – ప్రతీకాత్మకం, అధికారిక చిహ్నం/ఫోటో కాదు',en:'* AI illustration – symbolic, not an official emblem or photo',hi:'* AI चित्र – प्रतीकात्मक, आधिकारिक चिह्न/फ़ोटो नहीं'};
 function artDisc(s){ const L=(typeof LG==='function'?LG():'te'); let bg=''; try{ bg=(artPlan(s)||{}).bg||''; }catch(e){} return ((ART_GOV.has(bg)?ART_DISC_GOV:ART_DISC)[L])||ART_DISC.te; }
 if(typeof window!=='undefined'){ window.artDisc=artDisc; }
