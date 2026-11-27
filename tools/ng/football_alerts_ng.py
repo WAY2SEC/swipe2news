@@ -24,7 +24,7 @@ def score(m): return f"{m['h']} {m.get('hg') or 0}–{m.get('ag') or 0} {m['a']}
 
 
 def worth_ft(m):
-    return m['ng'] or m['big'] or m['naija'] or m['code'] in ('uefa.champions', 'caf.nations', 'fifa.worldq.caf', 'fifa.world', 'caf.nations_qual')
+    return m['ng'] or m['big'] or m['naija'] or m['code'] in ('CL', 'WC', 'extra')
 
 
 def send(key, head, text, url, topic, dry):

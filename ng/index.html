@@ -125,6 +125,25 @@ p.wdn{font:600 14px/1.5 var(--ui);color:#B3261E;background:#FDECEA;border-radius
 .ecard .kd li span{display:block;font:500 12px var(--ui);color:var(--muted)}
 .ecard .foot{padding:10px 18px 16px;font:600 12px var(--ui);opacity:.9}.ecard .foot a{color:#F5A23A}
 .pcard{background:var(--cream);align-items:center;justify-content:center;text-align:center;padding:24px}.pcard .ico{font-size:44px}.pcard h2{font:800 22px var(--ui);color:var(--plum);margin:10px 0 6px}.pcard p{color:var(--muted);font:500 15px/1.5 var(--ui);margin-bottom:16px}
+/* ⚽ football bar (owner 27 Nov 2026) */
+.fbar{flex:none;display:flex;align-items:center;gap:8px;margin:0 12px 6px;height:34px;padding:0 6px 0 4px;border:0;border-radius:12px;background:linear-gradient(90deg,#0E7A3E,#0B5E30);color:#fff;overflow:hidden;cursor:pointer;box-shadow:0 3px 10px rgba(14,122,62,.25)}
+.fbar .fb-l{flex:none;width:26px;height:26px;border-radius:50%;background:#FFFDF5;display:grid;place-items:center;font-size:15px}
+.fbar .fb-run{flex:1;min-width:0;white-space:nowrap;overflow:hidden;font:700 13px var(--ui);mask-image:linear-gradient(90deg,transparent,#000 4%,#000 92%,transparent)}
+.fbar .fb-run>span{display:inline-block;padding-left:100%;animation:fbm var(--fbd,30s) linear infinite}
+.fbar .fb-go{flex:none;font:800 18px var(--ui);opacity:.85}
+.fbar i{font-style:normal;margin:0 14px;opacity:.55}.fbar b{color:#F5A23A}.fbar .lv{display:inline-block;background:#E53935;color:#fff;border-radius:5px;padding:0 5px;font:800 10px var(--ui);margin-right:5px;animation:fbp 1.2s ease-in-out infinite}
+@keyframes fbm{from{transform:translateX(0)}to{transform:translateX(-100%)}}@keyframes fbp{50%{opacity:.45}}
+@media (prefers-reduced-motion:reduce){.fbar .fb-run>span{animation:none;padding-left:0}}
+@media (max-height:760px){.fbar{height:30px;margin-bottom:4px}}
+.fbt{display:flex;gap:6px;margin:2px 0 4px}.fbt button{flex:1;height:34px;border-radius:999px;border:1.5px solid var(--line);background:#fff;font:700 13px var(--ui)}.fbt button[aria-pressed=true]{background:#0E7A3E;border-color:#0E7A3E;color:#fff}
+.fbg{font:800 11px var(--ui);letter-spacing:1.3px;color:var(--muted);margin:10px 0 2px;text-transform:uppercase}
+.fbm{display:grid;grid-template-columns:52px 1fr auto 1fr;align-items:center;gap:6px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:9px 10px}
+.fbm.ng{border-color:#0E7A3E;box-shadow:0 0 0 1.5px #0E7A3E inset}
+.fbm .tm{font:700 11.5px var(--ui);color:var(--muted);line-height:1.2}.fbm .tm.lv{color:#E53935}
+.fbm .hn{text-align:right;font:700 13.5px var(--ui)}.fbm .an{font:700 13.5px var(--ui)}
+.fbm .sc{min-width:52px;text-align:center;font:800 16px var(--ui);background:var(--paper);border-radius:8px;padding:3px 6px}
+.fbm .nj{grid-column:2/5;font:600 11.5px var(--ui);color:#0E7A3E}
+.fbal{display:flex;align-items:center;gap:10px;background:#E7F3EC;border-radius:12px;padding:10px 12px;font:600 13px var(--ui)}.fbal b{display:block;font:800 14px var(--ui)}.fbal button{margin-left:auto;flex:none;white-space:nowrap;height:34px;padding:0 14px;border-radius:999px;border:0;background:#0E7A3E;color:#fff;font:800 13px var(--ui)}.fbal button.on{background:#fff;color:#0E7A3E;border:1.5px solid #0E7A3E}
 /* bottom dock */
 .dock{position:relative;display:flex;align-items:center;gap:10px;margin:0 10px;padding:9px 10px max(10px,env(safe-area-inset-bottom));background:var(--deep);border-radius:0 0 22px 22px}
 .dock:before{content:"";position:absolute;left:0;top:0;height:3px;width:var(--prog,0%);background:var(--apricot);box-shadow:0 0 10px var(--apricot);transition:width .25s}
@@ -210,6 +229,7 @@ p.wdn{font:600 14px/1.5 var(--ui);color:#B3261E;background:#FDECEA;border-radius
   <button type="button" role="tab" data-tab="elec" aria-selected="false" class="el"><i class="vdot"></i>Election 2027</button>
   <button type="button" role="tab" data-tab="local" aria-selected="false">📍 <span id="tabLoc">Local</span></button>
 </nav>
+<button class="fbar" id="fbar" type="button" hidden aria-label="Football scores"><span class="fb-l">⚽</span><span class="fb-run" id="fbRun"></span><span class="fb-go">›</span></button>
 <main id="stage"><div class="empty">Loading Nigeria news…</div></main>
 <div class="dock" id="dock">
   <button class="prev" id="prev" type="button" aria-label="Previous story">‹</button>
@@ -236,6 +256,7 @@ p.wdn{font:600 14px/1.5 var(--ui);color:#B3261E;background:#FDECEA;border-radius
     <button class="tile" type="button" id="tSaved">🔖<span>Saved<small id="savedN">0 stories</small></span></button>
     <button class="tile" type="button" id="tAlerts">🔔<span>News alerts<small id="alN">Morning · evening</small></span></button>
     <button class="tile" type="button" data-svc="jobs">💼<span>Jobs<small id="jobsN">Latest vacancies</small></span></button>
+    <button class="tile" type="button" data-svc="fb">⚽<span>Football<small>Scores, fixtures, alerts</small></span></button>
     <button class="tile" type="button" data-svc="wx">⛅<span>Weather<small id="wxN">Today and 3 days</small></span></button>
     <button class="tile" type="button" data-svc="ngn">₦<span>Naira rates<small>Dollar, pound, euro</small></span></button>
     <button class="tile" type="button" data-svc="gov">🏛️<span>Recruitment<small>Army, police, federal</small></span></button>
@@ -588,7 +609,7 @@ async function svcFill(v){ const b=$('svcBody'); if(!b) return;
     if(v==='wx'){ const r=await wx(); if($('svcBody')===b) b.innerHTML=wxHTML(r,false); }
     if(v==='ngn'){ const r=await fx(); if($('svcBody')===b) b.innerHTML=fxHTML(r,false); } }
   catch(e){ b.innerHTML='<p class="note">Could not load right now. Check your internet.</p>'; } }
-async function openSvc(v){ closeAll(); const T={jobs:'💼 Jobs in Nigeria',gov:'🏛️ Government recruitment',wx:'⛅ Weather',ngn:'₦ Naira rates'}[v];
+async function openSvc(v){ closeAll(); delete $('vT').dataset.fb; const T={jobs:'💼 Jobs in Nigeria',gov:'🏛️ Government recruitment',wx:'⛅ Weather',ngn:'₦ Naira rates'}[v];
   $('vT').textContent=T; $('vBody').innerHTML='<p class="note">Loading…</p>'; $('vSheet').hidden=false;
   try{ if(v==='jobs'||v==='gov'){ const L=v==='gov'?JOBS.filter(j=>j.gov):JOBS.filter(j=>!j.gov);
       $('vBody').innerHTML=`<label class="srch" style="height:46px"><input id="jq" type="search" placeholder="Search jobs, e.g. driver, Lagos, bank"></label><div id="jl" style="display:grid;gap:8px">${jobHTML(L.slice(0,60))}</div><p class="note">Titles and links from MyJobMag, Hot Nigerian Jobs, Jobzilla, Jobs in Nigeria and news reports · updated ${esc(JUP.slice(11,16))} WAT. Apply only on official or trusted sites – never pay to get a job.</p>`;
@@ -596,7 +617,40 @@ async function openSvc(v){ closeAll(); const T={jobs:'💼 Jobs in Nigeria',gov:
     if(v==='wx') $('vBody').innerHTML=wxHTML(await wx(),true);
     if(v==='ngn') $('vBody').innerHTML=fxHTML(await fx(),true); }
   catch(e){ $('vBody').innerHTML='<p class="note">Could not load right now. Check your internet.</p>'; } }
-document.addEventListener('click',e=>{ const b=e.target.closest('[data-svc]'); if(b) openSvc(b.dataset.svc); });
+document.addEventListener('click',e=>{ const b=e.target.closest('[data-svc]'); if(!b) return; if(b.dataset.svc==='fb'){ $('fbar').hidden=false; $('fbar').click(); if(!FB.length) $('fbar').hidden=true; return; } openSvc(b.dataset.svc); });
+/* ⚽ football: editions/ng/football.json (football-data.org, every 10 min) – bar under the tabs + sheet + alerts (tag fb=1) */
+let FB=[], FBU='', FBT='today';
+const fbTime=m=>{ try{ return new Date(m.t).toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit',timeZone:'Africa/Lagos'}); }catch(e){ return ''; } };
+const fbDay=m=>{ try{ return new Date(m.t).toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short',timeZone:'Africa/Lagos'}); }catch(e){ return ''; } };
+const fbToday=m=>fbDay(m)===new Date().toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short',timeZone:'Africa/Lagos'});
+const fbScore=m=>m.state==='pre'?'v':`${m.hg??0} – ${m.ag??0}`;
+function fbBar(){ const b=$('fbar'); if(!FB.length){ b.hidden=true; return; }
+  const live=FB.filter(m=>m.state==='in'), up=FB.filter(m=>m.state==='pre'&&fbToday(m)), res=FB.filter(m=>m.state==='post'&&m.done).slice(-8).reverse();
+  const pick=(live.length?live:[]).concat(up.sort((a,b)=>(a.p-b.p)||a.t.localeCompare(b.t)).slice(0,8)).concat(res.sort((a,b)=>a.p-b.p).slice(0,6)).slice(0,14);
+  if(!pick.length){ b.hidden=true; return; }
+  const item=m=>`${m.state==='in'?'<span class="lv">LIVE</span>':''}${m.ng?'🇳🇬 ':''}${esc(m.hs||m.h)} <b>${m.state==='pre'?fbTime(m):esc(fbScore(m))}</b> ${esc(m.as||m.a)}${m.state==='post'?' <small>FT</small>':''}`;
+  $('fbRun').innerHTML=`<span>${pick.map(item).join('<i>•</i>')}</span>`; $('fbRun').style.setProperty('--fbd',Math.max(18,pick.length*5)+'s'); b.hidden=false; }
+async function loadFB(){ try{ const r=await fetch('/editions/ng/football.json',{cache:'no-cache'}); if(!r.ok) return; const d=await r.json(); FB=d.matches||[]; FBU=d.updated||''; fbBar(); if(!$('vSheet').hidden&&$('vT').dataset.fb) fbSheet(); }catch(e){} }
+function fbRow(m){ const tm=m.state==='in'?'<div class="tm lv">● LIVE</div>':m.state==='post'?`<div class="tm">FT<br>${fbDay(m).split(' ').slice(1).join(' ')}</div>`:`<div class="tm">${fbTime(m)}<br>${fbToday(m)?'Today':fbDay(m).split(' ').slice(0,2).join(' ')}</div>`;
+  return `<div class="fbm${m.ng?' ng':''}">${tm}<div class="hn">${m.ng&&/^Nigeria/.test(m.h)?'🇳🇬 ':''}${esc(m.h)}</div><div class="sc">${esc(fbScore(m))}</div><div class="an">${esc(m.a)}${m.ng&&/^Nigeria/.test(m.a)?' 🇳🇬':''}</div>${m.naija?`<div class="nj">🇳🇬 ${esc(m.naija)}</div>`:''}</div>`; }
+function fbSheet(){ $('vT').textContent='⚽ Football'; $('vT').dataset.fb='1';
+  const L=FBT==='live'?FB.filter(m=>m.state==='in'||(m.state==='pre'&&fbToday(m))):FBT==='res'?FB.filter(m=>m.state==='post').slice().reverse():FB.filter(m=>m.state==='pre'&&!fbToday(m));
+  const groups={}; L.slice().sort((a,b)=>a.p-b.p).forEach(m=>{ (groups[m.lg]=groups[m.lg]||[]).push(m); });
+  const fon=LS.get('fb',false);
+  $('vBody').innerHTML=`<div class="fbal"><span>🔔<b>Football alerts</b>Super Eagles kick-off, goals and results · big games full time</span><button type="button" id="fbAl" class="${fon?'on':''}">${fon?'On ✓':'Turn on'}</button></div>
+    <div class="fbt"><button type="button" data-fbt="live" aria-pressed="${FBT==='live'}">Today</button><button type="button" data-fbt="res" aria-pressed="${FBT==='res'}">Results</button><button type="button" data-fbt="fix" aria-pressed="${FBT==='fix'}">Fixtures</button></div>
+    ${Object.keys(groups).length?Object.entries(groups).map(([g,ms])=>`<div class="fbg">${esc(g)}</div>${ms.sort((a,b)=>FBT==='res'?b.t.localeCompare(a.t):a.t.localeCompare(b.t)).map(fbRow).join('')}`).join(''):'<p class="note">No matches here right now.</p>'}
+    <p class="note">Scores and fixtures: football-data.org · updated ${esc(FBU.slice(11,16))} WAT · times in WAT. 🇳🇬 = Super Eagles player in the team.</p>`;
+  $('vBody').querySelectorAll('[data-fbt]').forEach(b=>b.onclick=()=>{ FBT=b.dataset.fbt; fbSheet(); });
+  $('fbAl').onclick=fbAlerts; }
+function fbAlerts(){ const on=!LS.get('fb',false);
+  if(on&&!ALON){ askAlerts(); OneSignalDeferred.push(async OS=>{ if(OS.Notifications.permission){ try{ OS.User.addTags({fb:'1'}); }catch(e){} LS.set('fb',true); fbSheet(); toast('⚽ Football alerts on'); } }); return; }
+  loadOS(); OneSignalDeferred.push(async OS=>{ try{ on?OS.User.addTags({fb:'1'}):OS.User.removeTag('fb'); }catch(e){} });
+  LS.set('fb',on); fbSheet(); toast(on?'⚽ Football alerts on':'Football alerts off'); }
+$('fbar').onclick=()=>{ closeAll(); FBT=FB.some(m=>m.state==='in'||(m.state==='pre'&&fbToday(m)))?'live':'res'; $('vSheet').hidden=false; fbSheet(); };
+loadFB(); setInterval(()=>{ if(!document.hidden) loadFB(); },120000);
+if(q.get('fb')) setTimeout(()=>$('fbar').click(),900);
+
 async function loadJobs(){ try{ const r=await fetch('/editions/ng/jobs.json',{cache:'no-cache'}); if(!r.ok) return; const d=await r.json(); JOBS=d.jobs||[]; JUP=d.updated||'';
   if($('jobsN')) $('jobsN').textContent=JOBS.filter(j=>!j.gov).length+' vacancies'; if(ALL.length){ build(true); show(0); } }catch(e){} }
 

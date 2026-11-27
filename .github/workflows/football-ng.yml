@@ -13,6 +13,7 @@ jobs:
       - uses: actions/checkout@v4
         with: { fetch-depth: 1 }
       - name: Scores and fixtures
+        env: { FOOTBALL_DATA_KEY: "${{ secrets.FOOTBALL_DATA_KEY }}" }
         run: python3 tools/ng/football_ng.py
       - name: Football alerts
         env: { ONESIGNAL_REST_KEY: "${{ secrets.ONESIGNAL_REST_KEY }}" }
