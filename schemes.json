@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T11:45:00+05:30",
+ "updated": "2026-11-27T11:45:00+05:30",
  "about": "Welfare schemes for Telangana, Andhra Pradesh and India. Facts from official/reputable sources, checked on the given date. Kept up to date by the schemes task.",
  "schemes": [
   {
@@ -12,7 +12,7 @@
    "te": {
     "n": "రైతు భరోసా",
     "u": "ఎకరాకు ఏడాదికి",
-    "b": "ఎకరాకు సీజన్‌కు ₹6,000 – ఖరీఫ్, రబీ రెండు విడతల్లో నేరుగా బ్యాంకు ఖాతాలోకి. యాసంగి (రబీ) 2026-27 విడతపై నవంబర్ 9 నాటికి కూడా ప్రభుత్వం ఎలాంటి ప్రకటన చేయలేదు; 'డబ్బు జమ అయింది' అంటూ వచ్చే నకిలీ మెసేజ్‌లను నమ్మవద్దు.",
+    "b": "ఎకరాకు సీజన్‌కు ₹6,000 – ఖరీఫ్, రబీ రెండు విడతల్లో నేరుగా బ్యాంకు ఖాతాలోకి. యాసంగి (రబీ) 2026-27 విడతపై నవంబర్ 9 నాటికి ప్రభుత్వం ప్రకటన చేయలేదు, నవంబర్ 27 తనిఖీలోనూ కొత్త ప్రకటన వార్త కనబడలేదు; 'డబ్బు జమ అయింది' అంటూ వచ్చే నకిలీ మెసేజ్‌లను నమ్మవద్దు.",
     "w": "సాగు భూమి ఉన్న తెలంగాణ రైతులు (భూ రికార్డుల ప్రకారం).",
     "d": "ఆధార్, పట్టాదార్ పాస్‌బుక్, బ్యాంకు ఖాతా.",
     "h": "భూ రికార్డుల ఆధారంగా ఆటోమేటిక్‌గా జమ. స్టేటస్ అధికారిక వెబ్‌సైట్‌లో చూడొచ్చు; సమస్యలుంటే వ్యవసాయ విస్తరణ అధికారిని (AEO) సంప్రదించండి."
@@ -20,7 +20,7 @@
    "en": {
     "n": "Rythu Bharosa",
     "u": "per acre per year",
-    "b": "₹6,000 per acre per season – Kharif and Rabi – paid straight into the bank account. As of 9 November the government had still made no announcement on the Yasangi (Rabi) 2026-27 instalment; beware of fake 'amount credited' messages.",
+    "b": "₹6,000 per acre per season – Kharif and Rabi – paid straight into the bank account. As of 9 November the government had made no announcement on the Yasangi (Rabi) 2026-27 instalment, and this 27 November check found no newer announcement; beware of fake 'amount credited' messages.",
     "w": "Telangana farmers with cultivable land (as per land records).",
     "d": "Aadhaar, pattadar passbook, bank account.",
     "h": "Credited automatically from land records. Check status on the official website; for problems contact your Agriculture Extension Officer (AEO)."
@@ -28,12 +28,12 @@
    "hi": {
     "n": "रायतु भरोसा",
     "u": "प्रति एकड़ प्रति वर्ष",
-    "b": "हर सीज़न ₹6,000 प्रति एकड़ – खरीफ़ और रबी – सीधे बैंक खाते में। 9 नवंबर तक भी यासंगी (रबी) 2026-27 किस्त पर सरकार ने कोई घोषणा नहीं की; 'पैसा जमा हुआ' वाले फ़र्ज़ी संदेशों से सावधान।",
+    "b": "हर सीज़न ₹6,000 प्रति एकड़ – खरीफ़ और रबी – सीधे बैंक खाते में। 9 नवंबर तक यासंगी (रबी) 2026-27 किस्त पर सरकार ने कोई घोषणा नहीं की, 27 नवंबर की जाँच में भी नई घोषणा की ख़बर नहीं मिली; 'पैसा जमा हुआ' वाले फ़र्ज़ी संदेशों से सावधान।",
     "w": "खेती योग्य ज़मीन वाले तेलंगाना के किसान (भू-अभिलेख के अनुसार)।",
     "d": "आधार, पट्टादार पासबुक, बैंक खाता।",
     "h": "भू-अभिलेख के आधार पर अपने-आप जमा। स्टेटस आधिकारिक वेबसाइट पर देखें।"
    },
-   "checked": "2026-11-22"
+   "checked": "2026-11-27"
   },
   {
    "id": "indiramma-indlu",
@@ -752,33 +752,33 @@
    "cat": "insure",
    "amt": "₹2 లక్షలు",
    "amt_en": "₹2 lakh",
-   "link": "https://www.jansuraksha.gov.in",
-   "src": "Department of Financial Services (via PIB New India Samachar, May 2026; AIR News, 9 May 2026)",
+   "link": "https://financialservices.gov.in/pmsby",
+   "src": "Department of Financial Services (financialservices.gov.in/pmsby, updated 5 Jan 2026); PIB New India Samachar (1–15 May 2026)",
    "te": {
     "n": "పీఎం సురక్ష బీమా",
     "u": "బీమా – ఏడాదికి ₹20",
-    "b": "ఏడాదికి కేవలం ₹20 తో ప్రమాద బీమా: ప్రమాద మరణం / పూర్తి వైకల్యానికి ₹2 లక్షలు, పాక్షిక వైకల్యానికి ₹1 లక్ష.",
+    "b": "ఏడాదికి కేవలం ₹20 తో ప్రమాద బీమా: ప్రమాద మరణం లేదా రెండు కళ్లు / రెండు చేతులు / కాళ్లు పోతే ₹2 లక్షలు; ఒక కన్ను లేదా ఒక చేయి / కాలు పోతే ₹1 లక్ష. బీమా కాలం జూన్ 1 – మే 31; ప్రీమియం ఖాతా నుంచి ఆటో-డెబిట్ అవుతుంది.",
     "w": "18–70 ఏళ్ల బ్యాంకు / పోస్టాఫీసు ఖాతాదారులు.",
     "d": "ఆధార్, సేవింగ్స్ ఖాతా, నామినీ వివరాలు.",
-    "h": "మీ బ్యాంకు శాఖ / నెట్ బ్యాంకింగ్ / పోస్టాఫీసు; బ్యాంకుకు వెళ్లకుండా jansuraksha.gov.in పోర్టల్‌లో ఆన్‌లైన్‌లోనూ చేరవచ్చు."
+    "h": "మీ బ్యాంకు శాఖ లేదా పోస్టాఫీసులో ఫారం ఇచ్చి, ఖాతా నుంచి ఆటో-డెబిట్‌కు అంగీకారం ఇవ్వాలి. మరణ క్లెయిమ్ డబ్బు నామినీ ఖాతాకు వస్తుంది."
    },
    "en": {
     "n": "PM Suraksha Bima",
     "u": "cover – ₹20 a year",
-    "b": "Accident cover for just ₹20 a year: ₹2 lakh for accidental death or total disability, ₹1 lakh for partial disability.",
+    "b": "Accident cover for just ₹20 a year: ₹2 lakh for accidental death or loss of both eyes / both hands or feet; ₹1 lakh for loss of one eye or one hand or foot. Cover runs 1 June – 31 May; the premium is auto-debited from your account.",
     "w": "Bank / post-office account holders aged 18–70.",
     "d": "Aadhaar, savings account, nominee details.",
-    "h": "Your bank branch / net banking / post office; you can also enrol online on the Jan Suraksha portal (jansuraksha.gov.in) without visiting a bank."
+    "h": "Fill the form at your bank branch or post office and give consent for auto-debit from your account. Death claims are paid to the nominee’s account."
    },
    "hi": {
     "n": "पीएम सुरक्षा बीमा",
     "u": "बीमा – ₹20 सालाना",
-    "b": "सिर्फ़ ₹20 सालाना में दुर्घटना बीमा: मृत्यु / पूर्ण विकलांगता पर ₹2 लाख, आंशिक पर ₹1 लाख।",
+    "b": "सिर्फ़ ₹20 सालाना में दुर्घटना बीमा: दुर्घटना में मृत्यु या दोनों आँखें / दोनों हाथ या पैर खोने पर ₹2 लाख; एक आँख या एक हाथ / पैर खोने पर ₹1 लाख। बीमा अवधि 1 जून – 31 मई; प्रीमियम खाते से ऑटो-डेबिट।",
     "w": "18–70 वर्ष के बैंक / डाकघर खाताधारक।",
     "d": "आधार, बचत खाता, नॉमिनी विवरण।",
-    "h": "बैंक शाखा / नेट बैंकिंग / डाकघर; जन सुरक्षा पोर्टल (jansuraksha.gov.in) पर ऑनलाइन भी।"
+    "h": "बैंक शाखा या डाकघर में फ़ॉर्म भरें और खाते से ऑटो-डेबिट की सहमति दें। मृत्यु दावा नॉमिनी के खाते में आता है।"
    },
-   "checked": "2026-11-21"
+   "checked": "2026-11-27"
   },
   {
    "id": "sukanya-samriddhi",
@@ -787,7 +787,7 @@
    "amt": "8.2%",
    "amt_en": "8.2%",
    "link": "https://www.indiapost.gov.in",
-   "src": "Ministry of Finance, Oct–Dec 2026 rates (via Business Today, Stable Investor, 30 Sep 2026)",
+   "src": "Ministry of Finance, Oct–Dec 2026 rates (via Business Today, 30 Sep 2026)",
    "te": {
     "n": "సుకన్య సమృద్ధి యోజన",
     "u": "వడ్డీ (అక్టో–డిసెం 2026)",
@@ -812,7 +812,7 @@
     "d": "जन्म प्रमाणपत्र, माता-पिता का आधार / पैन, पता।",
     "h": "नज़दीकी डाकघर या अधिकृत बैंक।"
    },
-   "checked": "2026-11-21"
+   "checked": "2026-11-27"
   },
   {
    "id": "pm-matru-vandana",
@@ -922,12 +922,12 @@
    "amt": "₹50,000–1 లక్ష అదనం",
    "amt_en": "₹50,000–1 lakh extra",
    "link": null,
-   "src": "Deccan Chronicle (14 Jun 2026), The Hans India (2 Apr 2025)",
-   "checked": "2026-11-21",
+   "src": "News On AIR (4 Oct 2026), Telangana Today/IANS (4 Oct 2026), Deccan Chronicle (14 Jun 2026), The Hans India (2 Apr 2025)",
+   "checked": "2026-11-27",
    "te": {
     "n": "ఏపీ పేదలకు ఇళ్లు (PMAY – అదనపు సాయం)",
     "u": "ఇంటికి అదనపు సాయం",
-    "b": "పీఎంఏవై ఇళ్ల నిర్మాణానికి రాష్ట్రం అదనపు సాయం ఇస్తోంది: ఎస్సీ, బీసీ, మైనారిటీలకు ₹50,000, ఎస్టీలకు ₹75,000, ఆదిమ గిరిజన (PVTG) కుటుంబాలకు ₹1 లక్ష. డబ్బు బేస్‌మెంట్, రూఫ్, స్లాబ్, పూర్తి – నాలుగు దశల్లో విడుదల. 2029 నాటికి 16.63 లక్షల ఇళ్లు లక్ష్యం.",
+    "b": "పీఎంఏవై ఇళ్ల నిర్మాణానికి రాష్ట్రం అదనపు సాయం ఇస్తోంది: ఎస్సీ, బీసీ, మైనారిటీలకు ₹50,000, ఎస్టీలకు ₹75,000, ఆదిమ గిరిజన (PVTG) కుటుంబాలకు ₹1 లక్ష. డబ్బు బేస్‌మెంట్, రూఫ్, స్లాబ్, పూర్తి – నాలుగు దశల్లో విడుదల. 2029 నాటికి 16.63 లక్షల ఇళ్లు లక్ష్యం. అక్టోబర్ 4, 2026న గుంటూరు జిల్లాలో కేంద్ర మంత్రి శివరాజ్ సింగ్ చౌహాన్ పీఎంఏవై-గ్రామీణ 2.0 కింద 3 లక్షల ఇళ్లకు (₹3,600 కోట్లు) మొదటి విడత అందజేశారు.",
     "w": "ఆంధ్రప్రదేశ్‌లో పీఎంఏవై (అర్బన్ / గ్రామీణ) కింద ఇల్లు మంజూరైన ఎస్సీ, ఎస్టీ, బీసీ, మైనారిటీ, PVTG లబ్ధిదారులు. కొత్త ఇళ్ల పూర్తి అర్హత నియమాలు ఈ తనిఖీలో నిర్ధారించలేదు.",
     "d": "పత్రాల జాబితా ఈ తనిఖీలో నిర్ధారించలేదు – గ్రామ / వార్డు సచివాలయంలో అడగండి.",
     "h": "అదనపు సాయం ఇంటి నిర్మాణ దశల వారీగా వస్తుంది. దరఖాస్తు విధానం, అధికారిక పోర్టల్ ఈ తనిఖీలో నిర్ధారించలేదు – మీ గ్రామ / వార్డు సచివాలయం లేదా గృహ నిర్మాణ శాఖ కార్యాలయంలో అడగండి."
@@ -935,7 +935,7 @@
    "en": {
     "n": "AP Housing for the Poor (PMAY – extra aid)",
     "u": "extra aid per house",
-    "b": "The state gives extra aid on top of PMAY for building houses: ₹50,000 for SC, BC and minority beneficiaries, ₹75,000 for ST and ₹1 lakh for PVTG families. Money is released in four stages – basement, roof, slab, completion. Target: 16.63 lakh houses by 2029.",
+    "b": "The state gives extra aid on top of PMAY for building houses: ₹50,000 for SC, BC and minority beneficiaries, ₹75,000 for ST and ₹1 lakh for PVTG families. Money is released in four stages – basement, roof, slab, completion. Target: 16.63 lakh houses by 2029. On 4 Oct 2026 in Guntur district, Union Minister Shivraj Singh Chouhan handed over the first instalment for 3 lakh houses (₹3,600 crore) under PMAY-Gramin 2.0.",
     "w": "SC, ST, BC, minority and PVTG beneficiaries in Andhra Pradesh with a house sanctioned under PMAY (Urban / Gramin). Full eligibility rules for new houses were not confirmed in this check.",
     "d": "Document list not confirmed in this check – ask at your village / ward secretariat.",
     "h": "The extra aid comes stage by stage as the house is built. Application process and official portal not confirmed in this check – ask at your village / ward secretariat or housing department office."
@@ -943,7 +943,7 @@
    "hi": {
     "n": "आंध्र प्रदेश गरीबों के लिए आवास (PMAY – अतिरिक्त सहायता)",
     "u": "प्रति घर अतिरिक्त सहायता",
-    "b": "PMAY घर बनाने पर राज्य अतिरिक्त सहायता देता है: SC, BC और अल्पसंख्यकों को ₹50,000, ST को ₹75,000, PVTG परिवारों को ₹1 लाख। राशि चार चरणों में – बेसमेंट, छत, स्लैब, पूरा होने पर। 2029 तक 16.63 लाख घरों का लक्ष्य।",
+    "b": "PMAY घर बनाने पर राज्य अतिरिक्त सहायता देता है: SC, BC और अल्पसंख्यकों को ₹50,000, ST को ₹75,000, PVTG परिवारों को ₹1 लाख। राशि चार चरणों में – बेसमेंट, छत, स्लैब, पूरा होने पर। 2029 तक 16.63 लाख घरों का लक्ष्य। 4 अक्टूबर 2026 को गुंटूर ज़िले में केंद्रीय मंत्री शिवराज सिंह चौहान ने PMAY-ग्रामीण 2.0 के तहत 3 लाख घरों (₹3,600 करोड़) की पहली किस्त सौंपी।",
     "w": "आंध्र प्रदेश में PMAY (शहरी / ग्रामीण) के तहत घर स्वीकृत SC, ST, BC, अल्पसंख्यक और PVTG लाभार्थी। नए घरों के पूरे पात्रता नियम इस जाँच में पुष्टि नहीं हुए।",
     "d": "दस्तावेज़ सूची इस जाँच में पुष्टि नहीं हुई – ग्राम / वार्ड सचिवालय में पूछें।",
     "h": "अतिरिक्त सहायता निर्माण के चरणों के साथ मिलती है। आवेदन प्रक्रिया और आधिकारिक पोर्टल इस जाँच में पुष्टि नहीं हुए – ग्राम / वार्ड सचिवालय या आवास विभाग कार्यालय में पूछें।"
@@ -956,7 +956,7 @@
    "amt": "₹12,000",
    "link": null,
    "src": "Deccan Chronicle (26 Feb 2025), Siasat (26 Feb 2025), The South First (15 Jan 2025), Telangana Today (20 Mar 2025)",
-   "checked": "2026-11-21",
+   "checked": "2026-11-27",
    "te": {
     "n": "ఇందిరమ్మ ఆత్మీయ భరోసా",
     "u": "ఏడాదికి (₹6,000 చొప్పున 2 విడతలు)",
@@ -1315,6 +1315,74 @@
     "w": "गरीबों के लिए – ख़बरों के अनुसार दिहाड़ी मज़दूर, ऑटो चालक, कामगार, छात्र और बुज़ुर्ग सबसे ज़्यादा आते हैं।",
     "d": "ख़बरों में किसी दस्तावेज़ का ज़िक्र नहीं – कैंटीन पर ₹5 का टोकन लें।",
     "h": "नज़दीकी अन्ना कैंटीन पर ₹5 का टोकन लें। समय और मेन्यू इस जाँच में पुष्टि नहीं हुए – कैंटीन पर देखें। आधिकारिक वेबसाइट पुष्टि नहीं हुई।"
+   }
+  },
+  {
+   "id": "indiramma-kutumba-bima",
+   "st": "TG",
+   "cat": "insure",
+   "amt": "₹5 లక్షలు",
+   "amt_en": "₹5 lakh",
+   "link": null,
+   "src": "Siasat (19 Nov 2026), Deccan Chronicle (18 Nov 2026), The Hans India (18 & 19 Nov 2026)",
+   "checked": "2026-11-27",
+   "te": {
+    "n": "ఇందిరమ్మ కుటుంబ జీవిత బీమా",
+    "u": "కుటుంబానికి జీవిత బీమా",
+    "b": "ప్రభుత్వ జీవిత బీమాను ₹2 లక్షల నుంచి ₹5 లక్షలకు పెంచే పథకం; ఉన్న ప్రమాద బీమా (₹10 లక్షల వరకు) కొనసాగుతుంది. నవంబర్ 19న సిద్దిపేటలో సీఎం రేవంత్ రెడ్డి ప్రారంభించారు; ఖర్చు రాష్ట్రమే భరిస్తుంది. రైతు బీమా, నేతన్న బీమా, గీత కార్మికుల బీమా దీనిలో కలుస్తాయి. బీమా సంస్థ, బీమా ఎప్పటి నుంచి అమల్లోకి వస్తుందో ఈ తనిఖీలో నిర్ధారించలేదు.",
+    "w": "తెలంగాణలో సుమారు కోటి కుటుంబాలు. డెక్కన్ క్రానికల్ ప్రకారం ప్రతి కుటుంబంలో 18–59 ఏళ్ల ఒకరికి (ఆధార్ ప్రకారం 19.11.1967 – 18.11.2008 మధ్య పుట్టినవారు) బీమా; రేషన్ కార్డు లేనివారూ వేరే ఫారం ఇవ్వొచ్చు. పూర్తి మార్గదర్శకాలు ఇంకా రావాల్సి ఉంది.",
+    "d": "ఆధార్ (పుట్టిన తేదీ కోసం), రేషన్ కార్డు నంబర్ (ఉంటే), కుటుంబ వివరాలు, నామినీ వివరాలు.",
+    "h": "నవంబర్ 19 – డిసెంబర్ 18 వరకు నమోదు: గ్రామాల్లో పంచాయతీ కార్యదర్శి, పట్టణాల్లో వార్డు అధికారి ప్రత్యేక క్యాంపులు, హెల్ప్ డెస్క్‌లు. రేషన్ కార్డు నంబరే దరఖాస్తు నంబర్. అధికారిక పోర్టల్ ఈ తనిఖీలో నిర్ధారించలేదు."
+   },
+   "en": {
+    "n": "Indiramma Kutumba Jeevitha Bima",
+    "u": "life cover per family",
+    "b": "Raises the state's life insurance cover from ₹2 lakh to ₹5 lakh; the existing accident cover (up to ₹10 lakh) continues. Launched by CM Revanth Reddy at Siddipet on 19 November; the state bears the cost. Rythu Bima, Netanna Bima and Geetha Karmikula Bima are merged into it. The insurer and the date cover starts were not confirmed in this check.",
+    "w": "About 1 crore families in Telangana. Per Deccan Chronicle, one member aged 18–59 in each family (born 19.11.1967 – 18.11.2008 as per Aadhaar) is covered; families without a ration card can submit a separate form. Full guidelines are still awaited.",
+    "d": "Aadhaar (for date of birth), ration card number (if any), family details, nominee details.",
+    "h": "Registration 19 November – 18 December at special camps and help desks run by the panchayat secretary (villages) and ward officer (towns). The ration card number is the application number. Official portal not confirmed in this check."
+   },
+   "hi": {
+    "n": "इंदिरम्मा कुटुंब जीवन बीमा",
+    "u": "प्रति परिवार जीवन बीमा",
+    "b": "राज्य का जीवन बीमा ₹2 लाख से बढ़ाकर ₹5 लाख; मौजूदा दुर्घटना बीमा (₹10 लाख तक) जारी रहेगा। 19 नवंबर को सिद्दिपेट में मुख्यमंत्री रेवंत रेड्डी ने शुरू किया; खर्च राज्य उठाएगा। रायतु बीमा, नेतन्ना बीमा और गीता कार्मिकुला बीमा इसमें मिलाए गए। बीमा कंपनी और कवर कब से लागू होगा, इस जाँच में पुष्टि नहीं हुई।",
+    "w": "तेलंगाना के लगभग 1 करोड़ परिवार। डेक्कन क्रॉनिकल के अनुसार हर परिवार में 18–59 वर्ष का एक सदस्य (आधार के अनुसार 19.11.1967 – 18.11.2008 के बीच जन्म) कवर; बिना राशन कार्ड वाले परिवार अलग फ़ॉर्म दे सकते हैं। पूरे दिशानिर्देश अभी बाकी हैं।",
+    "d": "आधार (जन्मतिथि के लिए), राशन कार्ड नंबर (अगर हो), परिवार का विवरण, नॉमिनी का विवरण।",
+    "h": "19 नवंबर – 18 दिसंबर तक पंजीकरण: गाँवों में पंचायत सचिव, शहरों में वार्ड अधिकारी के विशेष कैंप और हेल्प डेस्क। राशन कार्ड नंबर ही आवेदन नंबर है। आधिकारिक पोर्टल इस जाँच में पुष्टि नहीं हुआ।"
+   }
+  },
+  {
+   "id": "ap-fee-reimbursement",
+   "st": "AP",
+   "cat": "edu",
+   "amt": "ఫీజు రీయింబర్స్‌మెంట్",
+   "amt_en": "Fee reimbursement",
+   "link": null,
+   "src": "Govt of AP – G.O.Ms.No.87, Social Welfare (20.11.2024, jnanabhumi.ap.gov.in); The Hans India (19 Nov 2026); Deccan Chronicle (16 & 17 Nov 2026); The South First (11 Feb 2026)",
+   "checked": "2026-11-27",
+   "te": {
+    "n": "ఏపీ ఫీజు రీయింబర్స్‌మెంట్ (పోస్ట్-మెట్రిక్)",
+    "u": "కాలేజీ ఫీజు",
+    "b": "పోస్ట్-మెట్రిక్ విద్యార్థుల ట్యూషన్ ఫీజును ప్రభుత్వం చెల్లిస్తుంది. 2024-25 నుంచి ఎస్సీ కాని విద్యార్థుల ఫీజు నేరుగా కాలేజీ ఖాతాకు (2025-26 నుంచి కాలేజీలో FRS హాజరు ఆధారంగా); ఎస్సీ విద్యార్థులకు విద్యార్థి ఖాతాకే. జూన్ 2024 నుంచి ₹4,962 కోట్లు చెల్లించామని, బకాయిలను నెలకు ₹200–300 కోట్ల చొప్పున తీరుస్తున్నామని మంత్రి లోకేశ్ (నవంబర్ 2026) చెప్పారు; ఇంకా ₹9,600 కోట్లు బకాయి అని ప్రతిపక్ష నేత జగన్ ఆరోపణ.",
+    "w": "ఆంధ్రప్రదేశ్‌లో పోస్ట్-మెట్రిక్ కోర్సులు చదివే ఎస్సీ, ఎస్టీ, బీసీ, మైనారిటీ, ఈడబ్ల్యూఎస్ విద్యార్థులు. ఆదాయ పరిమితి, కోర్సుల జాబితా ఈ తనిఖీలో నిర్ధారించలేదు.",
+    "d": "పత్రాల జాబితా ఈ తనిఖీలో నిర్ధారించలేదు – మీ కాలేజీ లేదా సంక్షేమ శాఖ కార్యాలయంలో అడగండి.",
+    "h": "కాలేజీ ద్వారా దరఖాస్తు; కాలేజీలో హాజరు (FRS) తప్పనిసరి. అధికారిక దరఖాస్తు పోర్టల్ ఈ తనిఖీలో నిర్ధారించలేదు – కాలేజీ / జిల్లా సంక్షేమ అధికారిని అడగండి."
+   },
+   "en": {
+    "n": "AP Fee Reimbursement (Post-Matric)",
+    "u": "college fee",
+    "b": "The state pays the tuition fee of post-matric students. From 2024-25, fees for non-SC students go straight to the college account (from 2025-26 subject to FRS attendance in college); for SC students the money still goes to the student's account. Minister Lokesh said (Nov 2026) ₹4,962 crore has been paid since June 2024 and arrears are being cleared at ₹200–300 crore a month; opposition leader Jagan says ₹9,600 crore is still due.",
+    "w": "SC, ST, BC, minority and EWS students in post-matric courses in Andhra Pradesh. Income limit and course list not confirmed in this check.",
+    "d": "Document list not confirmed in this check – ask your college or welfare department office.",
+    "h": "Apply through your college; attendance (FRS) in college is required. Official application portal not confirmed in this check – ask your college / district welfare officer."
+   },
+   "hi": {
+    "n": "आंध्र प्रदेश फ़ीस प्रतिपूर्ति (पोस्ट-मैट्रिक)",
+    "u": "कॉलेज फ़ीस",
+    "b": "राज्य पोस्ट-मैट्रिक छात्रों की ट्यूशन फ़ीस भरता है। 2024-25 से गैर-SC छात्रों की फ़ीस सीधे कॉलेज के खाते में (2025-26 से कॉलेज में FRS हाज़िरी के आधार पर); SC छात्रों को छात्र के खाते में। मंत्री लोकेश ने (नवंबर 2026) कहा कि जून 2024 से ₹4,962 करोड़ दिए गए और बकाया ₹200–300 करोड़ महीना चुकाया जा रहा है; विपक्ष नेता जगन के अनुसार ₹9,600 करोड़ अभी बाकी हैं।",
+    "w": "आंध्र प्रदेश में पोस्ट-मैट्रिक कोर्स पढ़ने वाले SC, ST, BC, अल्पसंख्यक और EWS छात्र। आय सीमा और कोर्स सूची इस जाँच में पुष्टि नहीं हुई।",
+    "d": "दस्तावेज़ सूची इस जाँच में पुष्टि नहीं हुई – कॉलेज या कल्याण विभाग कार्यालय में पूछें।",
+    "h": "कॉलेज के ज़रिए आवेदन; कॉलेज में हाज़िरी (FRS) ज़रूरी। आधिकारिक आवेदन पोर्टल इस जाँच में पुष्टि नहीं हुआ – कॉलेज / ज़िला कल्याण अधिकारी से पूछें।"
    }
   }
  ]
