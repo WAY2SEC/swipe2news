@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-27T20:05:00+05:30",
+ "cutoff": "2026-11-27T20:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T08:05:00+05:30/2026-11-25T08:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 6,
-   "published": 3,
-   "late": 1,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Lookback from 00:05 (25 Nov). Feeds 08:11 IST (68/70 ok; 2874 events, 691 uncovered in lookback). add_repo tool not available; used existing clone. Published 3: Hans BRS seeks probe into terror alert leak (04:27, claim, sensitive); Sakshi AP panchayat/municipal polls Nov 26 + HC CCTV order (07:54, claim); Siasat/PTI US tariff hikes on India (07:54, claim). Duplicates: Hans Cyberabad Moves carpool appeal (covered 24 Nov 21:05); Hans Beaver Moon/Karthika (Karthika covered). Skipped old: Pioneer cold wave (24 Nov 06:25, private forecast); News On AIR SC order on AP SEC list (21 Oct). Not found by search (Google News links only): NT Hyderabad airport cargo +140%, V6 Warangal MGMSS renaming, TOI 73.3 lakh draft roll, TOI Rs 50 cr digital arrest, The Hindu HMDA Coca-Cola treated water, Hello Vizag Bikkavolu-Duvvada line, ANI Musi review, Adda247 526 asst professor posts, HMTV Seethampeta excise raids, TOI tribal libraries, Hans Pennar riverfront. Few district searches (Nalgonda, Kurnool + combined). lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-25T08:35:00+05:30/2026-11-25T09:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 11:35 Nov 27. Feeds 19:49 IST (70/70 ok; 2803 uncovered, 902 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by extended WebSearch could be opened. Published 6: NewsMeter HYDRAA 30 days for STPs (19:32), Telangana Today SCB four roads reclassification (19:43), NewsMeter Damagundam PIL closed (19:26), Telangana Today Kodurupaka chain theft arrest (19:53, sensitive, no names), Telangana Today BRS on Palamuru (18:54, claim), Hans India CS reviews summit/Khelo India (16:40, late-found). Duplicates (already covered): TTD Vaikunta tickets, Sangareddy/Sadasivpet ACB, TG overseas jobs scheme, HMDA auctions no bids, CCMB protein, Vijayawada mayor first file. Skipped: HMTV Chittoor ZP chair (published Nov 20, old), film review and SRK podcast (entertainment). Not opened: Disha police duty meet (fetch 4xx), The Hindu Rushikonda 120-day visits / Kurnool collector / hoarding warning, AJ AP deputy mayor polls Dec 5, prabhanews Chityal treasure hunt, Niger attack (no fresh result in search). No district searches. Lang pages/index/sitemap from builder reverted."
+  },
+  {
+   "window": "2026-11-27T20:05:00+05:30/2026-11-27T20:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 13,
+   "published": 7,
+   "late": 3,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 6,
+   "review": 0,
+   "gaps": "Lookback from 12:05 Nov 27. Feeds 20:12 IST (70/70 ok; 2894 uncovered, 948 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch could be opened. 8 district searches (Nalgonda, Karimnagar, Guntur, Nizamabad, Visakhapatnam, Khammam-te, Tirupati, Warangal). Published 7: NewsMeter Telugu Singareni Rs 61.44 cr breakfast kitchens (19:20, confirmed with UNI), Mana Telangana Velugumatla 310 Indiramma houses (20:07), UNI Vizag Dak Adalat Dec 4 (19:11), NT Rudramadevi anniversary Chandupatla (16:36, late), NT Narmala Manair farmers dharna (13:09, late), TelecomTalk TRAI mandated packs placement (17:19, late), Reuters/Daily Guardian Adani FY27 capex. Skipped: TT BJP MLC nominee (party politics, single source), NT Chandur handloom wage hike (unclear figures), NT Potangal bull (feature), HMTV Nalgonda SP 102 convictions (11:41, before lookback), NT Bibinagar PS inspection (minor), Siasat duty meet (Nov 23, old). Not opened: Disha police duty meet/Kinnerasani trials/Khammam drugs (4xx), Sakshi Education 526 asst professor posts (4xx), Eenadu (robots); The Hindu Gandikota/Kerala helpline/AU healthcare/Chittoor ZP chair, Eenadu delimitation-Naidu (no search hit). Lang pages/index/sitemap from builder reverted."
   }
  ],
  "seen": [
@@ -6148,6 +6148,76 @@
    "url": "https://telanganatoday.com/two-consecutive-hmda-land-auctions-fail-to-attract-bidders-in-hyderabad",
    "d": "2026-11-27",
    "w": "duplicate"
+  },
+  {
+   "url": "https://telugu.newsmeter.in/telangana/singareni-sanctioned-6144-crore-to-power-telanganas-school-breakfast-programme-780138",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.manatelangana.news/telangana-breaking-news/minister-tummala-nageshwar-rao-inspects-indiramma-houses-1655825",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/ap-regional-dak-adalat/259192",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/nalgonda/efforts-to-officially-commemorate-the-death-anniversary-of-rudramadevi-2570414",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/karimnagar/irrigation-water-should-be-released-from-the-narmala-manair-reservoir-2570272",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://telecomtalk.info/airtel-vodafoneidea-put-trai-mandatedpacks-jio-down/1014450/",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://thedailyguardian.com/world/indias-adani-group-targets-capex-of-nearly-24-billion-in-2027-cfo-singh-says-778543/",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/students-breakfast-scheme-singareni/258970",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/bjp-undecided-on-mlc-nominee-in-warangal-khammam-nalgonda",
+   "d": "2026-11-27",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.ntnews.com/nalgonda/increase-in-wage-rates-for-handloom-workers-2570586",
+   "d": "2026-11-27",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.ntnews.com/nizamabad/basavanna-sacred-bull-with-massive-horns-draws-attention-creates-a-stir-in-potangal-mandal-2570360",
+   "d": "2026-11-27",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/nalgonda-suryapet/convictions-secured-in-102-cases-this-year-says-sp-217731",
+   "d": "2026-11-27",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.ntnews.com/nalgonda/yadadri/do-not-be-negligent-regarding-complaints-sp-akshansh-yadav-2570528",
+   "d": "2026-11-27",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/500-cops-compete-at-telangana-police-duty-meet-2026-in-hyderabad-3584651/",
+   "d": "2026-11-27",
+   "w": "skipped"
   }
  ]
 }
