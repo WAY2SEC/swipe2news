@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-27T12:05:00+05:30",
+ "cutoff": "2026-11-27T12:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-24T19:05:00+05:30/2026-11-24T19:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 4,
-   "late": 1,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Lookback from 11:05. Feeds 19:17 IST (68/68 ok). add_repo tool not available; used existing clone. Direct feed URLs refused (PROVENANCE_REQUIRED) until surfaced by WebSearch. Published: TT Hyderabad PG hostels drug watch (6 positive), HMTV Kodad 13-year-old boy killed by lorry (sensitive, no name), TT South Zone women's T20 win, Siasat/AFP Riyadh tower hit again. Late (after END, left for next run): TT/PTI TTD Srivari Yatra Suraksha Rs 2 lakh to 7 families (19:38). Skipped: TT Miryalaguda BSNL tower (July 2026, old), TT Diljit concert IED threat FIR (other state, not major for TG/AP). Not opened: Disha airport cargo 140% and Bhadradri suspicious death (site client error); The Hindu items blocked (stevia, SIPB 88,625 cr, Malla Reddy Tirupati, Medchal PM-RAHAT, ULB counting, BRS rebuts CM, Rayalaseema temples); HMTV Miryalaguda cell tower (not tried). District searches: Kodad/Suryapet, Miryalaguda, Bhadradri, Khammam, Nizamabad – no further fresh items. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-24T19:35:00+05:30/2026-11-24T20:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 03:35 Nov 27. Feeds 11:50 IST (66/70 ok; 2734 uncovered, 795 TG/AP). add_repo and direct WebFetch not available; used existing clone and web-fetch helper on search-result URLs. Published 7: Siasat Sunnam Cheruvu fills with rain (11:40), TT Etala on farmers' distress (11:43, claim), TT BRS complaints over Bawarchi clash (11:31, claim, follow-up; names of those allegedly attacked left out), HMTV Vizag Steel OCTOPUS mock drill (11:33), DC Bhadradri Bullet taken on test ride (11:25, claim), ThePrint/PTI Goyal India-US trade deal (10:45), ThePrint/PTI NZ 246/5 at stumps (11:46). Skipped as old: Sakshi TG ration shop essentials (20 Oct). Not opened (no search hit): The Hindu Kanchi pontiff Tirupati hall, HMTV ration shops pulses/oil/sugar, The Hindu Bogota ex-mayor on Hyderabad buses, The Hindu Left parties judicial probe / Constitution Day, Andhraprabha GAT-2027. No district searches this run. Lang pages/index/sitemap and checker change to archive/2026-11-26.json reverted."
+  },
+  {
+   "window": "2026-11-27T12:05:00+05:30/2026-11-27T12:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 6,
+   "late": 4,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Lookback from 04:05 Nov 27. Feeds 12:12 IST (69/70 ok; 2683 uncovered, 900 TG/AP; Eenadu feed failing). add_repo not available; used existing clone and web-fetch helper on search-result URLs. Published 6: NewsMeter Telugu SCR 14 Sabarimala special trains (11:51), NTV Vangaveeti Radhakrishna takes charge as Vijayawada Mayor (11:35), TNM Krishna 280 poll-duty absentees get show-cause notices (10:40), Namasthe Telangana Gadwal RTO lorry drivers protest (11:50, claim), Hyderabad Mail gold rates (10:26), Namasthe Telangana Ichoda car overturns, 4 injured (11:56). Duplicate: Hans India rain alert 12:28 (yellow alert covered 11:05). Skipped as old: DC truck-park no-stay (26 Nov 23:44, covered), DC HMDA Hakeempet plots no bidder (26 Nov 23:46), TT SSC fee deadlines (Nov 2025), TT final electoral rolls (30 Oct). Not opened (no search hit): TOI HC clears Moosapet auction/dismisses PILs (11:56), Siasat love-row attack near airport, Siasat Black Friday cyber advisory, Sakshi Education SSC fee extension. Siasat juvenility-age story is Kerala HC (15 Nov), skipped. No district-specific searches beyond Gadwal this run. Lang pages/index/sitemap and builder change to archive/2026-11-26.json reverted."
   }
  ],
  "seen": [
@@ -6676,6 +6676,56 @@
   },
   {
    "url": "https://www.sakshi.com/telugu-news/telangana/telangana-ration-shops-essential-commodities-subsidy-2937002",
+   "d": "2026-11-27",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telugu.newsmeter.in/telangana/scr-to-run-14-sabarimala-special-trains-between-hyderabad-kazipet-sirpur-kaghaznagar-and-kollam-check-full-schedule-780099",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://ntvtelugu.com/news/vangaveeti-radhakrishna-takes-charge-as-vijayawada-mayor-first-signature-on-this-file-1039337.html",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thenewsminute.com/andhra-pradesh/andhra-pradesh-280-employees-skip-election-duty-in-krishna-get-show-cause-notices",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/lorry-drivers-protest-before-gadwal-rto-office-2570227",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://hyderabadmail.com/gold-rate-today-hyderabad-november-27-2026/",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://ntnews.com/adilabad/car-overturns-near-adilabad-district-ichoda-four-injured-2570230",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/rain-alert-issued-for-telangana-and-andhra-pradesh-1146282",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/no-bidder-for-hmda-plots-2008339",
+   "d": "2026-11-27",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-revises-ssc-public-exam-fee-deadlines-for-2026",
+   "d": "2026-11-27",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-andhra-pradesh-final-electoral-rolls-to-be-published-on-november-30",
    "d": "2026-11-27",
    "w": "skipped"
   }
