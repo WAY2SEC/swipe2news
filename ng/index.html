@@ -145,10 +145,12 @@ p.wdn{font:600 14px/1.5 var(--ui);color:#B3261E;background:#FDECEA;border-radius
 .fbm .nj{grid-column:2/5;font:600 11.5px var(--ui);color:#0E7A3E}
 .fbal{display:flex;align-items:center;gap:10px;background:#E7F3EC;border-radius:12px;padding:10px 12px;font:600 13px var(--ui)}.fbal b{display:block;font:800 14px var(--ui)}.fbal button{margin-left:auto;flex:none;white-space:nowrap;height:34px;padding:0 14px;border-radius:999px;border:0;background:#0E7A3E;color:#fff;font:800 13px var(--ui)}.fbal button.on{background:#fff;color:#0E7A3E;border:1.5px solid #0E7A3E}
 /* floating live-score bubble (like a live score pop-up) – drag it anywhere, tap for scores, × hides it for this match */
-.fbub{position:fixed;right:12px;top:205px;z-index:8;min-width:92px;padding:8px 12px 7px;border-radius:18px;background:#0E7A3E;color:#fff;box-shadow:0 8px 24px rgba(0,0,0,.3);text-align:center;touch-action:none;user-select:none;cursor:grab}
-.fbub small{display:inline-block;background:#E53935;border-radius:5px;padding:0 5px;font:800 9.5px var(--ui);animation:fbp 1.2s ease-in-out infinite}
-.fbub b{display:block;font:800 17px var(--ui);margin-top:3px;white-space:nowrap}.fbub em{display:block;font:700 10.5px var(--ui);font-style:normal;opacity:.85}
-.fbub .fbx{position:absolute;top:-8px;left:-8px;width:22px;height:22px;border-radius:50%;background:#2E0827;color:#fff;font:700 15px/22px var(--ui)}
+.fbub{position:fixed;right:10px;top:205px;z-index:8;width:min(300px,calc(100vw - 20px));padding:12px 64px 12px 18px;border-radius:24px;background:#4A0E3F;color:#fff;box-shadow:0 10px 28px rgba(46,8,39,.35);touch-action:none;user-select:none;cursor:grab}
+.fbub .fbt1{display:flex;align-items:center;gap:7px;font:800 11.5px var(--ui);letter-spacing:.4px}.fbub .fbt1 i{width:9px;height:9px;border-radius:50%;background:#4ADE80;animation:fbp 1.4s ease-in-out infinite}
+.fbub b{display:block;font:800 20px var(--ui);margin-top:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.fbub b small{font:800 13px var(--ui);margin-right:7px;letter-spacing:.5px}
+.fbub em{display:block;font:500 13px var(--ui);font-style:normal;opacity:.85;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fbub .fbs{position:absolute;right:14px;top:50%;transform:translateY(-50%);width:38px;height:38px;border-radius:50%;background:#F5A23A;color:#2E0827;display:grid;place-items:center;font:800 16px var(--ui)}
+.fbub .fbx{position:absolute;top:-7px;left:-7px;width:22px;height:22px;border-radius:50%;background:#2E0827;border:1.5px solid #fff;color:#fff;font:700 14px/19px var(--ui);text-align:center}
 /* bottom dock */
 .dock{position:relative;display:flex;align-items:center;gap:10px;margin:0 10px;padding:9px 10px max(10px,env(safe-area-inset-bottom));background:var(--deep);border-radius:0 0 22px 22px}
 .dock:before{content:"";position:absolute;left:0;top:0;height:3px;width:var(--prog,0%);background:var(--apricot);box-shadow:0 0 10px var(--apricot);transition:width .25s}
@@ -235,7 +237,7 @@ p.wdn{font:600 14px/1.5 var(--ui);color:#B3261E;background:#FDECEA;border-radius
   <button type="button" role="tab" data-tab="local" aria-selected="false">📍 <span id="tabLoc">Local</span></button>
 </nav>
 <button class="fbar" id="fbar" type="button" hidden aria-label="Football scores"><span class="fb-l">⚽</span><span class="fb-run" id="fbRun"></span><span class="fb-go">›</span></button>
-<div class="fbub" id="fbub" hidden role="button" tabindex="0" aria-label="Live match score"><span class="fbx" id="fbx" aria-label="Hide">×</span><small>LIVE</small><b id="fbS"></b><em id="fbN"></em></div>
+<div class="fbub" id="fbub" hidden role="button" tabindex="0" aria-label="Live match score"><span class="fbx" id="fbx" aria-label="Hide">×</span><div class="fbt1"><i></i>LIVE · FOOTBALL</div><b id="fbS"></b><em id="fbN"></em><span class="fbs">S</span></div>
 <main id="stage"><div class="empty">Loading Nigeria news…</div></main>
 <div class="dock" id="dock">
   <button class="prev" id="prev" type="button" aria-label="Previous story">‹</button>
@@ -660,7 +662,9 @@ $('fbar').onclick=()=>{ closeAll(); FBT=FB.some(m=>m.state==='in'||(m.state==='p
 let FBH=LS.get('fbhide',[]);
 function fbBubble(){ const el=$('fbub'), L=FB.filter(m=>m.state==='in'&&!FBH.includes(m.id)).sort((a,b)=>a.p-b.p);
   if(!L.length){ el.hidden=true; return; } const m=L[0];
-  $('fbS').textContent=`${m.hs||m.h} ${m.hg??0}–${m.ag??0} ${m.as||m.a}`; $('fbN').textContent=(m.ng?'🇳🇬 ':'')+(L.length>1?`+${L.length-1} more live`:m.lg); el.dataset.id=m.id; el.hidden=false;
+  const e=Math.floor((Date.now()-new Date(m.t))/60000), min=/paus/i.test(m.detail||'')?'Half time':e<=0?'Kick-off':e<=47?e+"'":e<63?'Half time':Math.min(90,e-15)+"'";
+  $('fbS').innerHTML=`<small>${m.ng?'NG':'⚽'}</small>${esc(m.hs||m.h)} ${m.hg??0}–${m.ag??0} ${esc(m.as||m.a)}`;
+  $('fbN').textContent=`${min} · ${m.lg}${L.length>1?` · +${L.length-1} more live`:''}`; el.dataset.id=m.id; el.hidden=false;
   const pos=LS.get('fbpos',null); if(pos){ el.style.left=pos[0]+'px'; el.style.top=pos[1]+'px'; el.style.right='auto'; el.style.bottom='auto'; } }
 (function(){ const el=$('fbub'); let sx,sy,ox,oy,moved=false;
   el.addEventListener('pointerdown',e=>{ if(e.target.id==='fbx') return; const r=el.getBoundingClientRect(); sx=e.clientX; sy=e.clientY; ox=r.left; oy=r.top; moved=false; el.setPointerCapture(e.pointerId); });
