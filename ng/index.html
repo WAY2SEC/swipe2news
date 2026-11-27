@@ -44,6 +44,7 @@ main{flex:1;position:relative;overflow:hidden;padding:4px 10px 0}
 .pic .mark{width:78px;height:78px;border-radius:20px;box-shadow:0 0 0 2px rgba(255,253,245,.55)}
 .pic .dot{position:absolute;right:14px;bottom:14px;width:22px;height:22px;border-radius:6px;background:url(/art/logo.svg) center/cover;opacity:.9}
 .pic .ph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 22%}
+.pic.lg{background:#FFFDF5}.pic.lg .ph{object-fit:contain;padding:10px 0 34px}.pic.lg .num b{color:var(--plum)}.pic.lg .num span{color:var(--ink)}
 .pic .shade{position:absolute;inset:auto 0 0 0;height:60%;background:linear-gradient(transparent,rgba(46,8,39,.85))}
 .pic .cr{position:absolute;top:14px;right:12px;font:600 10px var(--ui);color:#fff;background:rgba(0,0,0,.45);padding:3px 7px;border-radius:6px;max-width:55%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .pill{position:absolute;top:12px;left:12px;background:rgba(255,253,245,.94);color:var(--plum);border-radius:999px;padding:5px 11px;font:700 12px var(--ui)}
@@ -363,6 +364,43 @@ function build(keep){
 const ICO={save:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg>',
   share:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>',
   wa:'<svg width="18" height="18" viewBox="0 0 32 32"><path fill="#fff" d="M16 3.2A12.7 12.7 0 0 0 5.1 22.4L3.4 28.6l6.4-1.7A12.7 12.7 0 1 0 16 3.2zm6.2 15.2c-.3-.2-2-1-2.3-1.1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.6 8.6 0 0 1-4.3-3.8c-.3-.5.3-.5.9-1.6a.6.6 0 0 0 0-.5c0-.2-.7-1.8-1-2.4s-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8 1 3.9.8a3.2 3.2 0 0 0 2.1-1.5 2.6 2.6 0 0 0 .2-1.5c-.1-.1-.3-.2-.6-.4z"/></svg>'};
+
+/* Nigeria picture library (owner's pictures, 27 Nov 2026) – art/ng/lib/<key>.webp|jpg, picked from the headline.
+   Leaders' photos only when the leader is the subject (named in the first words, not the target of an attack/probe);
+   never people photos or sports pictures on crime, death or disaster stories (those get an agency logo or the logo card). */
+const LIB_CR={atiku:'Wikimedia Commons','lagos-house':'Wikimedia Commons',rail:'Wikimedia Commons',nafdac:'Wikimedia Commons'};
+const LIB_LOGO=new Set(['efcc','police','coat-of-arms','ncdc','nema','ncc','nnpc','immigration','frsc','inec','customs','cbn','nafdac']);
+const LIB_AI=new Set(['lagos-skyline']);
+const LEADERS=[['tinubu',/\b(Tinubu|President Bola)\b/],['shettima',/\bShettima\b/],['first-lady',/\b(Remi Tinubu|First Lady)\b/],['atiku',/\bAtiku\b/],['wike',/\bWike\b/],['soludo',/\bSoludo\b/],['elumelu',/\bElumelu\b/],['dangote',/\bAliko Dangote\b/]];
+const SENS=/\b(kill\w*|dead|death|dies|died|murder\w*|attack\w*|kidnap\w*|abduct\w*|bandit\w*|gunmen|rape\w*|explosion|blast|crash\w*|accident|fire|burn\w*|stab\w*|shot|shoot\w*|lynch\w*|suicide|corpse|bod(y|ies)|victims?|injur\w*)\b/i;
+const TARGET=/\b(against|slams?|attacks?|accus\w*|blasts?|knocks?|criticis\w*|probes?|probing|sues?|sued|petition\w*|arrest\w*|impeach\w*|tackles?|faults?|condemns?|mocks?|insults?|query|queries|summons?|invites?|vs\.?|versus)\b/i;
+const TOPIC=[
+ ['inec',/\b(INEC|PVCs?|voters?'? register|BVAS|IReV|polling units?)\b/i],['efcc',/\b(EFCC|ICPC)\b/],['nscdc',/\b(NSCDC|Civil Defence)\b/i],['frsc',/\b(FRSC|Road Safety)\b/i],
+ ['immigration',/\b(Immigration|NIS|passports?|visas?)\b/],['customs',/\b(Customs|NCS)\b/],['nafdac',/\b(NAFDAC|fake drugs?|counterfeit)\b/i],['ncdc',/\b(NCDC|cholera|Lassa|mpox|outbreak|diphtheria|meningitis)\b/i],
+ ['nema',/\b(NEMA|SEMA|emergency management)\b/i],['flood',/\b(flood\w*|downpour|rainstorm)\b/i],['airforce',/\b(Air Force|NAF|airstrikes?|air strikes?)\b/i],['navy',/\b(Navy|naval|NNS)\b/i],
+ ['army',/\b(Army|troops|soldiers|military|DHQ|Defence Headquarters)\b/i],['police',/\b(police|IGP|police command|PPRO)\b/i],
+ ['cbn',/\b(CBN|Central Bank|MPR|interest rate|monetary policy)\b/i],['naira',/\b(naira|forex|exchange rate|dollar|FX)\b/i],['ngx',/\b(NGX|stock market|equities|shares|market capitali[sz]ation|bourse|IPO|listing)\b/i],
+ ['refinery',/\b(refinery|refineries|crude)\b/i],['nnpc',/\b(NNPC|NUPRC|NMDPRA)\b/],['fuel-station',/\b(petrol|fuel|PMS|pump price|diesel|filling stations?)\b/i],['power',/\b(electricity|power supply|tariff|grid|DisCos?|GenCos?|TCN|blackout|band A)\b/i],
+ ['ncc',/\b(NCC|telecoms?|MTN|Airtel|Glo|9mobile|data prices?|SIM)\b/],['port',/\b(ports?|Apapa|Tin Can|NPA|shipping|vessels?|cargo)\b/i],['airport',/\b(airports?|flights?|airlines?|aviation|NCAA|FAAN|Air Peace)\b/i],
+ ['rail',/\b(rail\w*|trains?|Blue Line|Red Line|metro)\b/i],['brt',/\b(BRT|LAMATA)\b/],['third-mainland',/\b(Third Mainland|bridges?)\b/i],['lagos-traffic',/\b(traffic|gridlock|danfo|okada|keke)\b/i],
+ ['school',/\b(schools?|pupils|students|JAMB|WAEC|NECO|UTME|teachers|education|universit\w*|ASUU|polytechnic)\b/i],['hospital',/\b(hospitals?|health|doctors|nurses|medical|patients|NHIA|clinic\w*|vaccin\w*|immuni[sz]\w*|maternal)\b/i],
+ ['farm',/\b(farm\w*|agric\w*|harvest\w*|cassava|maize|rice|fertili[sz]er)\b/i],['market',/\b(food prices?|inflation|market prices?|tomato\w*|traders|CPI)\b/i],
+ ['supreme-court',/\bSupreme Court\b/i],['national-assembly',/\b(Senate|Senators?|House of Reps|House of Representatives|National Assembly|Reps)\b/],
+ ['state-house',/\b(Presidency|State House(?! of)|Aso Villa|FEC|Federal Executive Council)\b/],['lagos-house',/\b(Lagos (State )?Govt|Lagos (State )?Government|Sanwo-Olu|Alausa)\b/i],
+ ['football-lookman',/\bLookman\b/],['athletics-amusan',/\bAmusan\b/],['basketball',/\b(basketball|D'Tigers|D'Tigress|NBA)\b/i],['boxing',/\b(boxing|boxer|bout|Joshua|Fury)\b/i],
+ ['football',/\b(football|NWFL|Super Eagles|Super Falcons|AFCON|NPFL|World Cup|goal|striker|coach|Premier League|EPL|CAF|FIFA|club)\b/i],['stadium',/\bstadium\b/i]];
+const SENS_OK=new Set(['police','army','navy','airforce','nscdc','frsc','nema','efcc','customs','immigration','flood','ncdc','inec','supreme-court']);
+const PLACE=[['abuja',/\b(Abuja|FCT)\b/],['kano',/\bKano\b/],['port-harcourt',/\b(Port Harcourt|Rivers)\b/],['lagos-skyline',/\bLagos\b/]];
+window.__artNG=s=>artNG(s);
+function artNG(s){ const h=s.h||'', all=h+' '+(s.p||''), sens=SENS.test(h)||s.lbl==='claim'&&SENS.test(all);
+  if(!sens){ const first=h.split(/\s+/).slice(0,2).join(' ');
+    if(!/,|\band\b|&/.test(h.split(/\s+/).slice(0,4).join(' '))) for(const [k,re] of LEADERS) if(re.test(first)&&!(TARGET.test(h)&&h.search(re)>h.search(TARGET))) return k; }
+  for(const [k,re] of TOPIC) if(re.test(h)&&(!sens||SENS_OK.has(k))) return k;
+  // headline only: words deeper in the summary picked wrong pictures in testing
+  if(sens) return '';
+  const where=(s.cat||'')+' '+(s.loc||''); for(const [k,re] of PLACE) if(re.test(where)) return k;
+  if(/\b(Federal Government|FG|minister|ministry|governor|Govt)\b/.test(h)) return 'coat-of-arms';
+  return ''; }
 function card(s){
   if(s.svc){ const T={jobs:['💼','Jobs in Nigeria','Latest vacancies and recruitment','See all jobs ›'],wx:['⛅','Weather','<span id="wxP">'+esc(STATE||'Lagos')+'</span> today','Full forecast ›'],ngn:['₦','Naira today','Exchange rates','All rates ›']}[s.svc];
     return `<article class="card scard" id="card"><div class="shd"><span class="ico">${T[0]}</span><div><b>${T[1]}</b><small>${T[2]}</small></div></div><div class="sbody" id="svcBody"><p class="sum" style="color:var(--muted)">Loading…</p></div>
@@ -386,8 +424,9 @@ function card(s){
     <div class="hint">Swipe for today's top stories ›</div></article>`; }
   const id=sid(s), share=location.origin+'/ng/s/'+id+'.html', mins=Math.max(1,Math.round(((s.p||'').split(/\s+/).length+(s.h||'').split(/\s+/).length)/200));
   const isNew=M.prevVisit&&new Date(s.pub).getTime()>M.prevVisit;
+  const own=s.pic&&s.pic!=='logo', LK=own?'':artNG(s), PIC=own?'/art/ng/'+esc(s.pic):(LK?'/art/ng/lib/'+LK:''), CR=own?s.cr:(LK?(LIB_AI.has(LK)?'AI-made picture':LIB_LOGO.has(LK)?'':'File photo'+(LIB_CR[LK]?' · '+LIB_CR[LK]:'')):'');
   return `<article class="card" id="card">
-    <div class="pic${s.pic&&s.pic!=='logo'?' has':''}">${s.pic&&s.pic!=='logo'?`<picture><source srcset="/art/ng/${esc(s.pic)}.webp" type="image/webp"><img class="ph" src="/art/ng/${esc(s.pic)}.jpg" alt=""></picture><i class="shade"></i>${s.cr?`<span class="cr">${esc(s.cr)}</span>`:''}`:'<img class="mark" src="/art/logo.svg" alt="">'}<span class="pill">${esc(s.cat)}</span>
+    <div class="pic${PIC?' has'+(LIB_LOGO.has(LK)?' lg':''):''}">${PIC?`<picture><source srcset="${PIC}.webp" type="image/webp"><img class="ph" src="${PIC}.jpg" alt=""></picture>${LIB_LOGO.has(LK)?'':'<i class="shade"></i>'}${CR?`<span class="cr">${esc(CR)}</span>`:''}`:'<img class="mark" src="/art/logo.svg" alt="">'}<span class="pill">${esc(s.cat)}</span>
       <div class="num"><b>${esc(s.stat)}</b><span>${esc(s.statl)}</span></div><i class="dot"></i></div>
     <div class="body">
       <div class="ctl"><span>🕒 ${mins} min read</span><span class="sp"></span><button type="button" id="aa" aria-label="Text size">aA</button><button type="button" id="say" aria-pressed="false">▷ Listen</button><a class="rep" href="mailto:swipe2news@gmail.com?subject=${encodeURIComponent('Report – Nigeria story '+id)}&body=${encodeURIComponent('Story: '+s.h+'\n'+share+'\n\nWhat is wrong:\n')}" data-act aria-label="Report a problem with this story" title="Report a problem">⚑</a></div>
