@@ -1,46 +1,46 @@
 {
- "updated": "2026-11-27T10:43:46+05:30",
- "src": "GoodReturns · BankBazaar · MCX via 5paisa",
+ "updated": "2026-11-27T16:43:09+05:30",
+ "src": "GoodReturns · MCX via 5paisa",
  "cities": [
   {
    "city": "Hyderabad",
    "g24": null,
    "g22": null,
-   "silver": 165000,
-   "date": "2026-11-26",
+   "silver": 170000,
+   "date": "2026-11-27",
    "url": "https://www.bankbazaar.com/gold-rate-hyderabad.html",
-   "surl": "https://www.goodreturns.in/silver-rates/hyderabad.html"
+   "surl": "https://www.goodreturns.in/silver-rates/"
   },
   {
    "city": "Mumbai",
    "g24": 127285,
    "g22": 116593,
-   "silver": 180000,
+   "silver": 170000,
    "date": "2026-11-27",
    "url": "https://hindi.goodreturns.in/news/gold-price-today-gold-rates-drop-in-delhi-check-22k-and-24k-gold-prices-27-november-2026-011-166217.html",
-   "surl": "https://www.bankbazaar.com/silver-rate-mumbai.html"
+   "surl": "https://www.goodreturns.in/silver-rates/"
   },
   {
    "city": "Chennai",
    "g24": 125900,
    "g22": 115410,
-   "silver": null,
+   "silver": 170000,
    "date": "2026-11-27",
    "url": "https://hindi.goodreturns.in/news/gold-price-today-gold-rates-drop-in-delhi-check-22k-and-24k-gold-prices-27-november-2026-011-166217.html",
-   "surl": "https://www.bankbazaar.com/silver-rate-chennai.html"
+   "surl": "https://www.goodreturns.in/silver-rates/"
   },
   {
    "city": "Delhi",
    "g24": null,
    "g22": null,
-   "silver": 180000,
+   "silver": 170000,
    "date": "2026-11-27",
    "url": "https://www.bankbazaar.com/gold-rate-delhi.html",
-   "surl": "https://www.bankbazaar.com/silver-rate-delhi.html"
+   "surl": "https://www.goodreturns.in/silver-rates/"
   }
  ],
  "copper": {
-  "price": 1127.95,
+  "price": 1165.9,
   "date": "2026-11-27",
   "url": "https://www.5paisa.com/commodity-trading/mcx-copper-price"
  },
