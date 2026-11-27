@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-27T22:05:00+05:30",
+ "cutoff": "2026-11-27T22:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T10:05:00+05:30/2026-11-25T10:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 4,
-   "late": 2,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 6,
-   "skipped": 6,
-   "review": 0,
-   "gaps": "Lookback from 02:05 (25 Nov). Feeds 10:17 IST (68 ok; 2810 events, 128 TG/AP uncovered in lookback, mostly Google News links). add_repo tool not available; used existing clone. Published 4: Andhra Jyothy TG rice prices down Rs 10/kg (03:38, late); V6 Sircilla+Mulugu electrocution deaths (09:35, Siddipet 2 deaths already covered 24 Nov); DC Warangal hospital named Mahatma Gandhi SSH (08:45, late); Business Standard Huawei US conviction (08:20, world). Skipped old: HMTV/NT Vempati murder 8 arrested (24 Nov 18:44-19:55), TV9 526 asst professor posts (13 Nov), DC SEC Dec 18 expense deadline (23 Nov), Bar&Bench Kia MoU (event 12 Nov), NT U-19 handball (00:16), Hans Nalgonda ITI topper (21 Nov). Duplicates: NewsBytes AP rain Nov 25-27, Kishan Reddy padayatra, Adilabad sorcery gang, Adilabad cotton, World Mayors Forum, Jagan temple claim (fact-check already). District searches: Nizamabad, Srikakulam/Vizianagaram, Warangal/Hanamkonda, Guntur/Vijayawada, Adilabad/Nirmal/Mancherial, Kurnool/Anantapur, Khammam/Nalgonda, Nellore/Prakasam, Karimnagar/Mahabubnagar. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-25T10:35:00+05:30/2026-11-25T11:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 13:35 Nov 27. Feeds 21:45 IST (73/77 ok; 2858 uncovered, 846 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch could be opened (feed links for The Hindu/Siasat refused: permission not answered). Published 3: Telangana Today HC impleads CBI in SBI Fab City plea (21:27, confirmed with Deccan Chronicle), Telangana Today TREA on Nagarjuna Sagar drawal (21:19, claim), GOV.UK DWP cyber incident (13:41, late, official + ITV). Single source, not published: Telangana Today nine held for sambar poaching in Kinnerasani (22:00). Duplicate: Siasat TOMCOM overseas jobs scheme (published 17:05). Skipped old: TT white swans (2025), TT Ramaraopet liquor ban (2025), Siasat Fab City (June), Hans India Palnadu health ranking (Nov 10). Not opened: The Hindu Eluru MRO ACB, Polavaram MPDO suspended, collector on hoarding, OCTOPUS bhumi puja, TGSRTC fleet, air pollution, central teams health, handloom expo; TOI pattadar passbooks; Disha Prajavani award; Hyderabad Mail El Nino; BigTV ganja. Copycheck flags older story en.h 'President Murmu to attend PJTSAU convocation' (not changed). Builder changes to lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-27T22:05:00+05:30/2026-11-27T22:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 2,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 10,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 14:05 Nov 27. Feeds 22:20 IST (72/75 ok; 2844 uncovered, 833 TG/AP). add_repo not available; used existing clone and web-fetch helper. Published 2: Sakshi + Andhra Prabha Prajavani national award (20:46, confirmed), Deccan Chronicle Jangaon school sports meet / Khelo India Dec 11-22 (22:00, single). Skipped: Parvathipuram Manyam three of a family dead on rail track (Eenadu, TV9, BigTV) - outlets differ on cause (suicide vs. accident while saving), and the method would show; held back; APPSC Deputy Commissioner of Endowments notification 29/2026 (only an aggregator opened, The Hindu blocked, APPSC page stale); Telangana Today Srihari 2036 Olympics (Dec 2025, old). Single source (sensitive): Andhrajyothy Manikonda youth electrocuted while tying flexi. Already covered: HMDA auctions, Rushikonda, AP cabinet, Kakinada fishermen, TG SAFE fish, overseas scheme, CCMB protein, Nagarjuna padayatra, Vangaveeti mayor, AP power. Not opened: The Hindu Kona port dredger, MPDO suspended Polavaram, TG SAFE Malkajgiri drug shop (no search hit). 8 district searches returned only tag pages. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6378,6 +6378,41 @@
    "url": "https://telanganatoday.com/forty-year-old-liquor-ban-continues-in-tribal-village-in-kothagudem",
    "d": "2026-11-27",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/telangana/praja-vani-receives-national-level-digital-transformation-excellence-award",
+   "d": "2026-11-27",
+   "w": "p"
+  },
+  {
+   "url": "https://prabhanews.com/telangana-prajavani-national-award-2026/",
+   "d": "2026-11-27",
+   "w": "d"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/telangana-to-shape-athletes-for-2036-olympics-srihari-2008607",
+   "d": "2026-11-27",
+   "w": "p"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-aims-for-strong-2036-olympics-presence-says-sports-minister-srihari",
+   "d": "2026-11-27",
+   "w": "s"
+  },
+  {
+   "url": "https://www.freejobalert.com/articles/appsc-deputy-commissioner-of-endowments-recruitment-2026-3085489",
+   "d": "2026-11-27",
+   "w": "s"
+  },
+  {
+   "url": "https://tv9telugu.com/andhra-pradesh/shocking-family-tragedy-in-andhra-pradesh-wife-and-son-die-while-trying-to-save-husband-from-train-accident-1968088.html",
+   "d": "2026-11-27",
+   "w": "s"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/hyderabad-manikonda-accident-18-year-old-uday-dies-of-electric-shock-and-one-injured-vk-1580334.html",
+   "d": "2026-11-27",
+   "w": "s"
   }
  ]
 }
