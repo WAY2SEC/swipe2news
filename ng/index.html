@@ -133,7 +133,7 @@ p.wdn{font:600 14px/1.5 var(--ui);color:#B3261E;background:#FDECEA;border-radius
 .fbar .fb-go{flex:none;font:800 18px var(--ui);opacity:.85}
 .fbar i{font-style:normal;margin:0 14px;opacity:.55}.fbar b{color:#F5A23A}.fbar .lv{display:inline-block;background:#E53935;color:#fff;border-radius:5px;padding:0 5px;font:800 10px var(--ui);margin-right:5px;animation:fbp 1.2s ease-in-out infinite}
 @keyframes fbm{from{transform:translateX(0)}to{transform:translateX(-100%)}}@keyframes fbp{50%{opacity:.45}}
-@media (prefers-reduced-motion:reduce){.fbar .fb-run>span{animation:none;padding-left:0}}
+@media (prefers-reduced-motion:reduce){.fbar .fb-run{overflow-x:auto;scrollbar-width:none}.fbar .fb-run>span{animation:none;padding-left:0}}
 @media (max-height:760px){.fbar{height:30px;margin-bottom:4px}}
 .fbt{display:flex;gap:6px;margin:2px 0 4px}.fbt button{flex:1;height:34px;border-radius:999px;border:1.5px solid var(--line);background:#fff;font:700 13px var(--ui)}.fbt button[aria-pressed=true]{background:#0E7A3E;border-color:#0E7A3E;color:#fff}
 .fbg{font:800 11px var(--ui);letter-spacing:1.3px;color:var(--muted);margin:10px 0 2px;text-transform:uppercase}
@@ -651,7 +651,7 @@ function fbSheet(){ $('vT').textContent='⚽ Football'; $('vT').dataset.fb='1';
   $('vBody').innerHTML=`<div class="fbal" style="display:block"><b>🔔 Football alerts</b><span style="display:block;margin:2px 0 8px">Pick what you want: goals and full-time results. Super Eagles also get a kick-off reminder.</span>
       <div class="fbo">${OPT.map(([k,l])=>`<button type="button" data-fbo="${k}" aria-pressed="${SEL.includes(k)}">${SEL.includes(k)?'✓ ':''}${l}</button>`).join('')}</div></div>
     <div class="fbt"><button type="button" data-fbt="live" aria-pressed="${FBT==='live'}">Today</button><button type="button" data-fbt="res" aria-pressed="${FBT==='res'}">Results</button><button type="button" data-fbt="fix" aria-pressed="${FBT==='fix'}">Fixtures</button></div>
-    ${Object.keys(groups).length?Object.entries(groups).map(([g,ms])=>`<div class="fbg">${esc(g)}</div>${ms.sort((a,b)=>FBT==='res'?b.t.localeCompare(a.t):a.t.localeCompare(b.t)).map(fbRow).join('')}`).join(''):'<p class="note">No matches here right now.</p>'}
+    ${Object.keys(groups).length?Object.entries(groups).map(([g,ms])=>`<div class="fbg">${esc(g)}</div>${ms.sort((a,b)=>FBT==='res'?b.t.localeCompare(a.t):a.t.localeCompare(b.t)).map(fbRow).join('')}`).join(''):`<p class="note">${FB.length?'No matches here right now.':'⚽ Live scores are being connected – matches will show here soon.'}</p>`}
     <p class="note">Scores and fixtures: football-data.org · updated ${esc(FBU.slice(11,16))} WAT · times in WAT. 🇳🇬 = Super Eagles player in the team.</p>`;
   $('vBody').querySelectorAll('[data-fbt]').forEach(b=>b.onclick=()=>{ FBT=b.dataset.fbt; fbSheet(); });
   $('vBody').querySelectorAll('[data-fbo]').forEach(b=>b.onclick=()=>fbAlerts(b.dataset.fbo)); }
