@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-27T10:35:00+05:30",
+ "cutoff": "2026-11-27T11:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-24T17:35:00+05:30/2026-11-24T18:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 10,
-   "published": 9,
-   "late": 1,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Lookback from 09:35. Feeds 17:59 IST (69/70 ok; failing: East Godavari en). add_repo tool not available; used existing clone. Exact-title searches did not surface the fresh articles; the 9 direct Telangana Today/Siasat feed URLs were opened through the web-fetch agent. Published: TT Inter practicals no jumbling, Siasat Singareni free schooling, Siasat HC 120-day limit, TT Lakshmi Puja case priest arrest (sensitive, no names), TT BRS asks CM to quit Home (claim), Siasat Ponnam SIR challenge (claim, late-found 16:59), TT SMAT Hyderabad beat Gujarat, TT OU football Bhavan's, Siasat Gaza Hamas security chief killed. Duplicate: TT Pranay A2 (published 17:35). Not opened (Google News links only, no search hit tried): DC/HMTV Tirumala pilgrim insurance, NewsMeter RTC AI cameras 20,437 violations, NewsMeter fake notes 4 held, Pioneer poultry expo Nov 25, News18 Tirupati special trains, HMTV CM Tirumala Nov 26, HMTV AP SEC review, ETV Hyderabad water 2030, HMTV Asifabad ashram school. No district searches this run. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-24T18:05:00+05:30/2026-11-24T18:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 1,
    "gaps": "Lookback from 02:05 Nov 27. Feeds 10:20 IST (68 ok; 2634 uncovered, 774 TG/AP; 169 local uncovered in lookback, most already covered or single-source Eenadu/Sakshi briefs). add_repo and direct WebFetch not available; used existing clone and web-fetch helper on search results. Published 5: Siasat Hyderabad water-wastage fines (10:05), Siasat SCR 6.9 MW rooftop solar (09:53), HMTV Nalgonda youth in Victoria election (08:28), Hans Khammam 35 officers honoured for convictions (05:00), Hans NIT Warangal cybersecurity conference (03:57). Duplicates: HMTV/Andhra Jyothy Golconda training aircraft (covered 26 Nov), Punjab Kesari/IANS IORA meeting (covered 26 Nov), Kakinada fishermen safe (covered 26 Nov). Skipped as old: DC Moosapet HC no interim stay (23:44 Nov 26), Hans AP fertiliser module (01:56), TT Mahabubnagar fake clinics (12 Nov), NewsMeter Revanth Krishna water (24 Nov), ThePrint Jaishankar-Mauritius (26 Nov). REVIEW: Webdunia Kakinada fishermen (no publication time). Not opened: NIE Moosapet auction today, NIE Revanth 'water dacoit', NIE Cantonment Rs 68 cr, Hyderabad Mail 230 accident hotspots, Telangana hypertension (Eenadu only). 8 district searches (Khammam, Nizamabad, Nellore, Karimnagar, Warangal, Visakhapatnam, Guntur/Vijayawada, Mahabubnagar/Nagarkurnool). Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-27T10:35:00+05:30/2026-11-27T11:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 4,
+   "late": 3,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 02:35 Nov 27. Feeds 10:45 IST (69/70 ok; 2669 uncovered, 835 TG/AP). add_repo and direct WebFetch not available; used existing clone and web-fetch helper on search results. Published 4: Siasat ACB officer attached to HQ over Rs 30 lakh bribe allegation (10:30, claim, follow-up to 25 Nov story), DC Kondapur hotel walls collapse, no injuries (10:03), Oneindia Telugu IMD yellow alert for 5 TG districts (10:38, forecast), Nation Press pre-Budget consultations 200+ stakeholders (09:36). Skipped: DC RGIA fake Dubai ticket (10:21) - article says incident 'on Saturday', date unclear, thin. Not opened: Disha RGIA fake ticket (fetch error); no search hit for NIE HC notices on ED plea (AP liquor case), NIE AP NEET aspirant Odisha waterfall, HMTV Dindi 6,000 acres crops, V6 ECIL 242 apprentices, Hans Lokesh cadre vigilance, DC Sensex. DC TG/AP listings had nothing new after 08:32. No district searches this run. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6551,6 +6551,36 @@
   },
   {
    "url": "https://theprint.in/india/jaishankar-holds-meetings-with-counterparts-from-mauritius-seychelles-ahead-of-iora-meet/3110271/",
+   "d": "2026-11-27",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/acb-official-accused-of-rs-30-lakh-bribe-attached-to-hq-3587937/",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/kondapur-hotel-walls-collapse-during-cellar-construction-2008409",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/telangana/telangana-rains-yellow-alert-for-five-districts-overnight-rain-drenches-hyderabad-low-lying-areas-516639.html",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.nationpress.com/national/200-stakeholders-pitch-ideas-for-budget",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://ddnews.gov.in/en/finance-minister-concludes-pre-budget-consultations-for-union-budget-2027-28/",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/rgia-fake-air-ticket-found-on-passenger-travelling-to-dubai-at-shamshabad-airport-2008410",
    "d": "2026-11-27",
    "w": "skipped"
   }
