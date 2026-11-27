@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-27T14:35:00+05:30",
+ "cutoff": "2026-11-27T15:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-24T21:35:00+05:30/2026-11-24T22:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 1,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Lookback from 13:35. Feeds 21:46 IST (68/70 ok, TV5 429; 2920 events, 873 TG/AP uncovered). add_repo tool not available; used existing clone. WebSearch did not surface today's articles; Siasat feed URLs opened directly. Published: Siasat/IANS 1 crore Indiramma sarees from Nov 26 at Achampet (21:30, late, pic logo); Siasat Owaisi calls Himayatsagar killing political, wants special court (21:43, claim, sensitive, victim not named). Duplicate: Kishan Reddy padyatra traffic (covered 20:05). Not opened: The Hindu SITE_BLOCKED (Srisailam Karthika Pournami and other Hindu-only events); DC panchayat revenue, DC Inter-school merger bill, Nizamabad money-doubling scam (PTI), HC takedown order (Live Law), Kishan Reddy de-addiction centres - Google News links only, not found by search. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-24T22:05:00+05:30/2026-11-24T22:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 06:05 Nov 27. Feeds 14:17 IST (65/68 ok; 2678 uncovered, 729 TG/AP). add_repo not available; used existing clone and web-fetch helper on search-result URLs. Published 3: The Hindu (read via khanlist copy) Dharmana alleges illegal detention in Srikakulam polls (13:51, claim), Andhra Jyothy Chirala mandal Hanuman idol set on fire, case registered (09:21, late, sensitive, pic logo), Telangana Today/IANS LPG continues during 90-day PNG shift (13:58). Skipped as old: DC Wakf Board to meet after 2 years (24 Nov; The Hindu 13:28 repeat). Already covered: yellow alert, Kondapur wall collapse, APSRTC drivers pay, AP police posts, Apple store, KTR/Bawarchi attack, Kurnool turnout. Not attempted: Tirumala Vaikunta Dwara token schedule (no fresh search hit), low pressure Dec 2, Christmas church grant (announced 26 Nov), Trump-Putin (no fresh hit). District searches: Khammam, Kurnool/Nandyal, Sangareddy/Medak/Siddipet, Visakhapatnam/Vizianagaram (nothing new eligible). Lang pages/index/sitemap from builder reverted."
+  },
+  {
+   "window": "2026-11-27T14:35:00+05:30/2026-11-27T15:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 9,
+   "published": 8,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 06:35 Nov 27. Feeds 14:41 IST (70/70 ok; 2761 uncovered, 831 TG/AP). add_repo not available; used existing clone and web-fetch helper on search-result URLs. Published 8: Telangana Today RPF Secunderabad Division 980 kg drugs worth ₹17.69 cr (14:40), HMTV Komatireddy ₹6 lakh aid to student in Germany (14:37; district not named, place TS), Hans India TTD Vaikuntha Dwara Darshan ticket dates (14:12), The Hindu AP tenant farmers seek free crop insurance (14:22, claim, read via khanlist copy, pic logo), Hans India Medaram tribal women's products brand (14:10), Telangana Today/IANS Lokesh teleconference with TDP leaders (14:24, claim), Siasat Akasa Air Saudi suspension extended (13:58), Deccan Chronicle CERT-In WhatsApp/ASUS flaws (14:33). Duplicate: The Hindu Polavaram evacuees boycott polls 14:10 (covered 06:35 from DC). Not attempted this run: Old City car trader murder (NT), Mahabubnagar dump yard (HMTV), Nirmal Urdu boards plea, Karimnagar More store dates, Adilabad stone-pelting on municipal staff (Eenadu only), Pakistan-Saudi-Turkey talks, Russia defence budget. No district searches this run. Lang pages/index/sitemap changes by builder reverted."
   }
  ],
  "seen": [
@@ -6883,6 +6883,51 @@
    "url": "https://www.deccanchronicle.com/southern-states/telangana/state-wakf-board-to-meet-after-2-years-2007578",
    "d": "2026-11-27",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/rpf-seizes-drugs-worth-rs-17-69-crore",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://hmtvlive.com/telugu-news/nalgonda-suryapet/minister-komatireddy-venkat-reddy-grants-rs-6-lakh-to-student-in-germany-217812",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/tirupathi/ttd-announces-vaikuntha-dwara-darshan-tickets-release-dates-1146303",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-tenant-farmers-body-seeks-restoration-of-free-crop-insurance/article71745780.ece",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/warangal/medaram-tribal-womens-products-to-get-exclusive-brand-identity-1146302",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/nara-lokesh-asks-tdp-cadre-to-step-up-efforts-for-second-and-third-phases-of-panchayat-polls",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/saudi-flights-akasa-air-extends-cancellations-until-jan-2027-3588158/",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/technology/whatsapp-asus-users-alert-cert-in-flags-security-vulnerabilities-2008471",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/polavaram-evacuees-boycott-panchayat-polls-in-eluru-district-demand-separate-panchayat/article71746897.ece",
+   "d": "2026-11-27",
+   "w": "duplicate"
   }
  ]
 }
