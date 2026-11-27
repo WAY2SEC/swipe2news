@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-27T18:05:00+05:30",
+ "cutoff": "2026-11-27T18:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T06:05:00+05:30/2026-11-25T06:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 8,
-   "late": 0,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Lookback from 22:05 (24 Nov). Feeds 06:11 IST but only 4/70 feeds ok (306 events, 231 TG/AP uncovered) - most feed sources failing. add_repo tool not available; used existing clone. Published: AJ Karimnagar gurukul assault allegation (06:12, sensitive, claim, minor/principal not named); AJ Congress Samvidhan Raksha March Nov 26 (05:04); AJ Seethakka regrets Kavitha remark (06:20); AJ SR Nagar Karthika lamp death (05:32, sensitive, no name); AJ Invest Telangana Summit Dec 7-9 prep (04:49); Hans Amberpet traffic diversions (04:51); DC Guntur mayor at World Mayors Forum (00:58); ChessBase Gukesh draws game 1 (01:04). Duplicate: DC AP phase-1 polls Nov 26 (covered 22 Nov). Skipped outside lookback: AJ Rayachoti RTC depot death (24 Nov 00:53), Siasat lodges bomb-threat checks (24 Nov 11:57). Not opened: The Hindu items (Palnadu poll police, APEPDCL fake bills, Kakinada fishermen search, Tirupati-Vizag trains, DEFCORE, APSSDC drive) - not surfaced by search. Few district searches. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-25T06:35:00+05:30/2026-11-25T07:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 09:35 Nov 27. Feeds 17:50 IST (70/70 ok; 2808 uncovered, 867 TG/AP). add_repo not available; used existing clone and web-fetch helper. Published 4: Telangana Today TG SAFE 858 kg spoiled fish seized (16:41, new totals after the 11:35 story), Andhra Jyothy AP ULB final turnout 63.44%, counting Nov 30 (16:43), 10TV Laxman says Telangana polls only in 2029 (17:11, claim), Business Standard forex reserves $700.90 bn (17:53). Duplicate: Telangana Today BRS press meet on Bawarchi clash (17:41; clash and complaints already covered Nov 26 23:05 and Nov 27 12:05, no new facts). Skipped as old: Telangana Today Nirmal ganja in cotton field (Nov 26, already seen). No search hit: The Hindu pattadar passbooks, CBN delimitation remarks (ETV Bharat/10TV), AP panchayat re-poll 24.28% (Andhra Jyothy), Raghunandan Rao posting (Disha), NewsMeter CCMB nerve study. Not attempted: Adani titanium complex, Asia Jewels Show, Hyderabad rain record (Prabha News), SC Deepam contempt, market close. No district searches. Lang pages/index/sitemap from builder reverted."
+  },
+  {
+   "window": "2026-11-27T18:05:00+05:30/2026-11-27T18:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 11,
+   "published": 7,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 10:05 Nov 27. Feeds 18:36 IST (68/70 ok; 2733 uncovered, 865 TG/AP; 90 new since 17:48). add_repo not available; used existing clone and web-fetch helper. Published 7: Siasat Cyberabad curbs near SI exam centres Nov 29 (17:55), Siasat Sadasivpet ACB Rs 15k (18:35), Telangana Today Murmu at PJTSAU convocation Dec 21 (18:19), Telangana Today Manuguru BTPS attack on wife (17:55, sensitive, claim, no names), Business Standard RBI daily CRR 90% (17:44), Telangana Today Rohit MI captain (18:01), Telangana Today Cooch Behar Hyderabad lead (18:32). Duplicates: Jadcherla/Madgul murder (TT 18:22; covered earlier), AP Cabinet MSME Right to Business/Kia (same cabinet meeting already covered), HMTV Kadapa red sanders 114 logs (already published). Not opened: ANI India-EU FTA Dec 16 (fetch 4xx). Skipped: Houthi drone (minor), Kokapet/Artisan fests (listings), SRK podcast (gossip). Not attempted: Hyderabad POCSO 2-year sentence, Indian Photo Festival, AP HC contempt fine Nandyal, Achampet, 2BHK colonies water, snooker, Kaleshwaram analysis. No district searches. Lang pages/index/sitemap from builder reverted."
   }
  ],
  "seen": [
@@ -7191,6 +7191,56 @@
   },
   {
    "url": "https://telanganatoday.com/brs-accuses-youth-congress-of-intimidating-unemployed-youth",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/gatherings-banned-near-police-recruitment-exam-centres-on-nov-29-3588379/",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/sadasivpet-municipality-officials-in-acbs-net-over-rs-15k-bribe-3588432/",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/president-murmu-to-attend-pjtsau-convocation",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/man-attacks-wife-with-a-blade-at-kothagudem-s-manuguru",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://www.business-standard.com/amp/finance/news/rbi-cuts-crr-maintenance-requirement-for-banks-back-to-90-from-dec-1-126112700971_1.html",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/five-time-ipl-winning-captain-rohit-sharma-returns-to-mi-leadership",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-take-vital-lead-in-cooch-behar-trophy-match",
+   "d": "2026-11-27",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/woman-accomplice-held-for-husband-s-murder",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.newsbytesapp.com/news/business/andhra-pradesh-approves-proposal-for-msme-right-to-business-bill/tldr",
+   "d": "2026-11-27",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.aninews.in/news/world/asia/india-eu-fta-ready-for-dec-16-signing-during-pm-modis-brussels-visit-says-eu-ambassador-jean-eric-paquet20261127134817/",
    "d": "2026-11-27",
    "w": "duplicate"
   }
