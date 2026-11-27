@@ -144,6 +144,11 @@ p.wdn{font:600 14px/1.5 var(--ui);color:#B3261E;background:#FDECEA;border-radius
 .fbm .sc{min-width:52px;text-align:center;font:800 16px var(--ui);background:var(--paper);border-radius:8px;padding:3px 6px}
 .fbm .nj{grid-column:2/5;font:600 11.5px var(--ui);color:#0E7A3E}
 .fbal{display:flex;align-items:center;gap:10px;background:#E7F3EC;border-radius:12px;padding:10px 12px;font:600 13px var(--ui)}.fbal b{display:block;font:800 14px var(--ui)}.fbal button{margin-left:auto;flex:none;white-space:nowrap;height:34px;padding:0 14px;border-radius:999px;border:0;background:#0E7A3E;color:#fff;font:800 13px var(--ui)}.fbal button.on{background:#fff;color:#0E7A3E;border:1.5px solid #0E7A3E}
+/* floating live-score bubble (like a live score pop-up) – drag it anywhere, tap for scores, × hides it for this match */
+.fbub{position:fixed;right:12px;top:205px;z-index:8;min-width:92px;padding:8px 12px 7px;border-radius:18px;background:#0E7A3E;color:#fff;box-shadow:0 8px 24px rgba(0,0,0,.3);text-align:center;touch-action:none;user-select:none;cursor:grab}
+.fbub small{display:inline-block;background:#E53935;border-radius:5px;padding:0 5px;font:800 9.5px var(--ui);animation:fbp 1.2s ease-in-out infinite}
+.fbub b{display:block;font:800 17px var(--ui);margin-top:3px;white-space:nowrap}.fbub em{display:block;font:700 10.5px var(--ui);font-style:normal;opacity:.85}
+.fbub .fbx{position:absolute;top:-8px;left:-8px;width:22px;height:22px;border-radius:50%;background:#2E0827;color:#fff;font:700 15px/22px var(--ui)}
 /* bottom dock */
 .dock{position:relative;display:flex;align-items:center;gap:10px;margin:0 10px;padding:9px 10px max(10px,env(safe-area-inset-bottom));background:var(--deep);border-radius:0 0 22px 22px}
 .dock:before{content:"";position:absolute;left:0;top:0;height:3px;width:var(--prog,0%);background:var(--apricot);box-shadow:0 0 10px var(--apricot);transition:width .25s}
@@ -230,6 +235,7 @@ p.wdn{font:600 14px/1.5 var(--ui);color:#B3261E;background:#FDECEA;border-radius
   <button type="button" role="tab" data-tab="local" aria-selected="false">📍 <span id="tabLoc">Local</span></button>
 </nav>
 <button class="fbar" id="fbar" type="button" hidden aria-label="Football scores"><span class="fb-l">⚽</span><span class="fb-run" id="fbRun"></span><span class="fb-go">›</span></button>
+<div class="fbub" id="fbub" hidden role="button" tabindex="0" aria-label="Live match score"><span class="fbx" id="fbx" aria-label="Hide">×</span><small>LIVE</small><b id="fbS"></b><em id="fbN"></em></div>
 <main id="stage"><div class="empty">Loading Nigeria news…</div></main>
 <div class="dock" id="dock">
   <button class="prev" id="prev" type="button" aria-label="Previous story">‹</button>
@@ -631,7 +637,7 @@ function fbBar(){ const b=$('fbar'); if(!FB.length){ b.hidden=true; return; }
   if(!pick.length){ b.hidden=true; return; }
   const item=m=>`${m.state==='in'?'<span class="lv">LIVE</span>':''}${m.ng?'🇳🇬 ':''}${esc(m.hs||m.h)} <b>${m.state==='pre'?fbTime(m):esc(fbScore(m))}</b> ${esc(m.as||m.a)}${m.state==='post'?' <small>FT</small>':''}`;
   $('fbRun').innerHTML=`<span>${pick.map(item).join('<i>•</i>')}</span>`; $('fbRun').style.setProperty('--fbd',Math.max(18,pick.length*5)+'s'); b.hidden=false; }
-async function loadFB(){ try{ const r=await fetch('/editions/ng/football.json',{cache:'no-cache'}); if(!r.ok) return; const d=await r.json(); FB=d.matches||[]; FBU=d.updated||''; fbBar(); if(!$('vSheet').hidden&&$('vT').dataset.fb) fbSheet(); }catch(e){} }
+async function loadFB(){ try{ const r=await fetch('/editions/ng/football.json',{cache:'no-cache'}); if(!r.ok) return; const d=await r.json(); FB=d.matches||[]; FBU=d.updated||''; fbBar(); fbBubble(); if(!$('vSheet').hidden&&$('vT').dataset.fb) fbSheet(); }catch(e){} }
 function fbRow(m){ const tm=m.state==='in'?'<div class="tm lv">● LIVE</div>':m.state==='post'?`<div class="tm">FT<br>${fbDay(m).split(' ').slice(1).join(' ')}</div>`:`<div class="tm">${fbTime(m)}<br>${fbToday(m)?'Today':fbDay(m).split(' ').slice(0,2).join(' ')}</div>`;
   return `<div class="fbm${m.ng?' ng':''}">${tm}<div class="hn">${m.ng&&/^Nigeria/.test(m.h)?'🇳🇬 ':''}${esc(m.h)}</div><div class="sc">${esc(fbScore(m))}</div><div class="an">${esc(m.a)}${m.ng&&/^Nigeria/.test(m.a)?' 🇳🇬':''}</div>${m.naija?`<div class="nj">🇳🇬 ${esc(m.naija)}</div>`:''}</div>`; }
 function fbSheet(){ $('vT').textContent='⚽ Football'; $('vT').dataset.fb='1';
@@ -649,7 +655,21 @@ function fbAlerts(){ const on=!LS.get('fb',false);
   loadOS(); OneSignalDeferred.push(async OS=>{ try{ on?OS.User.addTags({fb:'1'}):OS.User.removeTag('fb'); }catch(e){} });
   LS.set('fb',on); fbSheet(); toast(on?'⚽ Football alerts on':'Football alerts off'); }
 $('fbar').onclick=()=>{ closeAll(); FBT=FB.some(m=>m.state==='in'||(m.state==='pre'&&fbToday(m)))?'live':'res'; $('vSheet').hidden=false; fbSheet(); };
-loadFB(); setInterval(()=>{ if(!document.hidden) loadFB(); },120000);
+
+/* live bubble: shows while a match is live (Nigeria first, then the most important); position remembered */
+let FBH=LS.get('fbhide',[]);
+function fbBubble(){ const el=$('fbub'), L=FB.filter(m=>m.state==='in'&&!FBH.includes(m.id)).sort((a,b)=>a.p-b.p);
+  if(!L.length){ el.hidden=true; return; } const m=L[0];
+  $('fbS').textContent=`${m.hs||m.h} ${m.hg??0}–${m.ag??0} ${m.as||m.a}`; $('fbN').textContent=(m.ng?'🇳🇬 ':'')+(L.length>1?`+${L.length-1} more live`:m.lg); el.dataset.id=m.id; el.hidden=false;
+  const pos=LS.get('fbpos',null); if(pos){ el.style.left=pos[0]+'px'; el.style.top=pos[1]+'px'; el.style.right='auto'; el.style.bottom='auto'; } }
+(function(){ const el=$('fbub'); let sx,sy,ox,oy,moved=false;
+  el.addEventListener('pointerdown',e=>{ if(e.target.id==='fbx') return; const r=el.getBoundingClientRect(); sx=e.clientX; sy=e.clientY; ox=r.left; oy=r.top; moved=false; el.setPointerCapture(e.pointerId); });
+  el.addEventListener('pointermove',e=>{ if(sx==null) return; const dx=e.clientX-sx, dy=e.clientY-sy; if(Math.abs(dx)+Math.abs(dy)>6) moved=true; if(!moved) return;
+    const x=Math.min(innerWidth-el.offsetWidth-4,Math.max(4,ox+dx)), y=Math.min(innerHeight-el.offsetHeight-4,Math.max(4,oy+dy)); Object.assign(el.style,{left:x+'px',top:y+'px',right:'auto',bottom:'auto'}); });
+  el.addEventListener('pointerup',()=>{ if(sx==null) return; sx=null; if(moved){ const r=el.getBoundingClientRect(); LS.set('fbpos',[Math.round(r.left),Math.round(r.top)]); } else $('fbar').click(); });
+  $('fbx').onclick=e=>{ e.stopPropagation(); FBH=FBH.concat(el.dataset.id).slice(-30); LS.set('fbhide',FBH); el.hidden=true; toast('Live score hidden for this match'); };
+})();
+loadFB(); setInterval(()=>{ if(!document.hidden) loadFB(); },60000);
 if(q.get('fb')) setTimeout(()=>$('fbar').click(),900);
 
 async function loadJobs(){ try{ const r=await fetch('/editions/ng/jobs.json',{cache:'no-cache'}); if(!r.ok) return; const d=await r.json(); JOBS=d.jobs||[]; JUP=d.updated||'';
