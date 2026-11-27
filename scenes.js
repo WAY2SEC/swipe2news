@@ -471,7 +471,7 @@ const ART_TOPIC=[
  [/పథకం|పథకాల|పథకాలు|\bscheme/i,'e/public-policy-announcement'],
  [/కమిషనర్|మున్సిపల్|మున్సిపాలిటీ|కార్పొరేషన్|\bmunicipal|commissioner/i,'e/municipal-council-meeting'],
  [/బదిలీ|transfer/i,'e/government-press-briefing'],
- [/ఆవేదన|నిరసన|ధర్నా|ఆందోళన|\bprotest|धरना/i,'e/peaceful-public-protest'],
+ [/ఆవేదన|నిరసన|ధర్నా|ఆందోళన|\bprotest|धरना/i,'e/teacher-vacancy-protest'],
  [/పోలీస్|పోలీసు|\bpolice\b|पुलिस/i,'e/community-police-meeting'],
  [/పాఠశాల|స్కూల్|విద్యార్థ|కళాశాల|\bschool|\bstudents?\b|college/i,'e/government-school-classroom'],
  [/రైతు|పంట|వ్యవసాయ|\bfarmers?\b|\bcrop|किसान/i,'e/rice-farmers'],
@@ -479,7 +479,7 @@ const ART_TOPIC=[
  [/నీటి|తాగునీరు|\bwater\b|पानी/i,'e/drinking-water-scheme'],
  [/ఉద్యోగ|నియామక|\bjobs?\b|recruit|भर्ती/i,'e/recruitment-notification']];
 // owner 26 Nov 2026: more than one picture for common incidents, so back-to-back stories don't look the same
-const ART_VAR={'e/parliament':['e/parliament-new-building','e/parliament-old-building','e/parliament-lok-sabha','e/parliament-rajya-sabha'],'e/bathukamma-festival':['e/bathukamma-festival','e/bathukamma-flowers'],'e/bonalu-procession':['e/bonalu-procession','e/bonalu-women','e/bonalu-pothuraju'],'e/medaram-jatara':['e/medaram-jatara','e/medaram-bangaram'],'e/road-accident-response':['e/road-accident-response','e/road-accident-response-2','e/road-accident-response-3'],'e/fire-service-response':['e/fire-service-response','e/fire-building-blaze']};
+const ART_VAR={'e/road-accident-response':['e/road-accident-response','e/road-accident-response-2','e/road-accident-response-3','e/road-accident-response-4'],'e/parliament':['e/parliament-new-building','e/parliament-old-building','e/parliament-lok-sabha','e/parliament-rajya-sabha'],'e/bathukamma-festival':['e/bathukamma-festival','e/bathukamma-flowers'],'e/bonalu-procession':['e/bonalu-procession','e/bonalu-women','e/bonalu-pothuraju'],'e/medaram-jatara':['e/medaram-jatara','e/medaram-bangaram'],'e/fire-service-response':['e/fire-service-response','e/fire-building-blaze']};
 function artVar(pc,h){ const v=ART_VAR[pc]; if(!v) return pc; let n=0; for(const c of String(h||'')) n=(n*31+c.charCodeAt(0))>>>0; return v[n%v.length]; }
 // owner 26 Nov 2026: sports and incident pictures (used when the story has no picture of its own)
 const ART_SCENE=[[/కబడ్డీ|kabaddi|कबड्डी/i,'e/kabaddi-match'],[/హాకీ|\bhockey\b|हॉकी/i,'e/field-hockey'],[/ఆర్చరీ|విలువిద్య|\barchery\b|\barchers?\b|तीरंदाज/i,'e/archery'],[/వాలీబాల్|volleyball|वॉलीबॉल/i,'e/volleyball-match'],[/అథ్లెటిక్స్|పరుగు పందెం|స్ప్రింట్|athletics|\bsprint|marathon|మారథాన్|एथलेटिक्स/i,'e/athletics-race'],[/క్రికెట్|\bcricket|क्रिकेट/i,'e/cricket-match'],
@@ -492,6 +492,8 @@ function artPlan0(s){
     // owner 27 Nov 2026: "for accident why building fire?" – a vehicle on fire gets the burnt-car picture, never the building blaze
     { const tv=t.replace(/\u200c|\u200d/g,''); const V=/కారు|కార్|వాహన|బస్సు|బస్|లారీ|ట్రక్|బైక్|ఆటో|ట్రాక్టర్|\bcar\b|\bvehicle|\bbus\b|lorry|truck|\bbike|scooter|tractor|गाड़ी|कार|बस|ट्रक/i, F=/మంటలు|కాలి|దగ్ధ|అగ్ని|\bfire\b|gutted|blaze|burnt|ablaze|आग|जल/i;
       if(V.test(tv)&&F.test(tv)) return {m:'land',bg:'e/road-accident-response-2'}; }
+    // owner 27 Nov 2026: land / plot auctions get the land-auction picture
+    if(/వేలం|వేలాని|వేలంపా|auction|नीलामी/i.test(t)&&/భూమి|భూము|స్థల|ప్లాట్|గజాల|ఎకరా|లేఅవుట్|\bland|plot|acre|layout|ज़मीन|जमीन|भूखंड/i.test([t,s.p||''].join(' '))) return {m:'land',bg:'e/land-auction'};
     if(!/హత్య|మృతి|మరణ|ప్రమాద|అరెస్ట్|murder|death|accident|arrest|killed/i.test(t)){
       // owner 26 Nov 2026: Parliament pictures (Lok Sabha green, Rajya Sabha red, else building)
       if(/లోక్\s?సభ|లోక్‌సభ|Lok\s?Sabha|लोकसभा|लोक\s?सभा/i.test(t)) return {m:'land',bg:'e/parliament-lok-sabha'};
@@ -866,3 +868,12 @@ function w2sTagline(){
   }catch(e){}
 }
 if(typeof document!=='undefined'){ if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',w2sTagline); else w2sTagline(); }
+
+/* owner 27 Nov 2026: "do not use this image" – the protest picture shows Mumbai landmarks, so it is never used.
+   Park / land stories get the park or land-survey picture; other protests get the placard crowd picture. */
+(function(){ const _ap=artPlan; const BAN={'e/peaceful-public-protest':1};
+  artPlan=function(s){ const a=_ap(s); if(!a||!BAN[a.bg]) return a;
+    const t=[s&&s.h,s&&s.statl,s&&s.cat,s&&s.p].join(' ');
+    const bg=/పార్క్|పార్కు|ఉద్యాన|చెట్లు|\bpark\b|trees?/i.test(t)?'e/neglected-public-park':/భూమి|భూ|స్థలం|ఆక్రమణ|\bland\b|encroach/i.test(t)?'e/land-encroachment-survey':'e/teacher-vacancy-protest';
+    return Object.assign({},a,{bg}); };
+  if(typeof window!=='undefined') window.artPlan=artPlan; })();
