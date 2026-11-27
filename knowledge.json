@@ -1,0 +1,610 @@
+{
+ "version": 1,
+ "updated": "2026-11-27T13:00:00+05:30",
+ "about": "Learn Today | రోజుకో కొత్త విషయం — evergreen lessons. Separate from news.json. Only status=approved and pub <= today are shown.",
+ "lessons": [
+  {
+   "id": "lt-inflation-basics",
+   "topic": "inflation",
+   "pub": "2026-11-27",
+   "cat": "finance",
+   "status": "review",
+   "verified": "2026-11-27",
+   "review_by": "2027-05-27",
+   "read_sec": 45,
+   "advice": "finance",
+   "img": {
+    "pic": "n/prices",
+    "type": "library",
+    "ai": false
+   },
+   "te": {
+    "h": "ఏటా ₹100తో ఎందుకు తక్కువ సరుకులు వస్తాయి?",
+    "p": "వస్తువులు, సేవల ధరలు కాలక్రమేణా సాధారణంగా పెరగడాన్నే ద్రవ్యోల్బణం అంటారు. ధరలు పెరిగితే అదే డబ్బుతో తక్కువ కొనగలం. భారత్‌లో దీన్ని వినియోగదారుల ధరల సూచీ (CPI)తో కొలుస్తారు. CPI ద్రవ్యోల్బణాన్ని 4% దగ్గర, 2%–6% పరిధిలో ఉంచడం RBI బాధ్యత.",
+    "ex_kind": "hypothetical",
+    "ex": "ధరలు ఏటా 5% పెరిగితే, ఈరోజు ₹100కి వచ్చే సరుకులకు వచ్చే ఏడాది సుమారు ₹105 కావాలి.",
+    "key": "పొదుపుపై వచ్చే వడ్డీ ద్రవ్యోల్బణం కంటే తక్కువైతే, మీ డబ్బు కొనుగోలు శక్తి తగ్గుతుంది.",
+    "do": "మీ సేవింగ్స్ ఖాతా లేదా FD వడ్డీ రేటును తాజా CPI ద్రవ్యోల్బణ సంఖ్యతో పోల్చి చూడండి.",
+    "alt": "బియ్యం, పప్పులు, కూరగాయలు, ధర ట్యాగ్ ఉన్న ప్రతీకాత్మక చిత్రం"
+   },
+   "en": {
+    "h": "Why does ₹100 buy a little less every year?",
+    "p": "Inflation is the general rise in the prices of goods and services over time. When prices rise, the same money buys less. India measures it with the Consumer Price Index (CPI), and the RBI is mandated to keep CPI inflation near 4%, within a 2%–6% band.",
+    "ex_kind": "hypothetical",
+    "ex": "If prices rise 5% a year, groceries that cost ₹100 today would cost about ₹105 next year.",
+    "key": "If your savings earn less interest than inflation, your money's buying power shrinks.",
+    "do": "Compare your savings account or FD interest rate with the latest CPI inflation figure.",
+    "alt": "Illustration of rice, pulses, vegetables and a price tag"
+   },
+   "interactive": {
+    "type": "inflation",
+    "hypothetical": true,
+    "config": {
+     "amount": [
+      100,
+      10000,
+      1000
+     ],
+     "rate": [
+      1,
+      10,
+      5
+     ],
+     "years": [
+      1,
+      20,
+      10
+     ]
+    }
+   },
+   "quiz": {
+    "answer": 1,
+    "te": {
+     "q": "ద్రవ్యోల్బణం 6%, మీ పొదుపుపై వడ్డీ 4% అయితే మీ డబ్బు కొనుగోలు శక్తి…",
+     "opts": [
+      "పెరుగుతుంది",
+      "తగ్గుతుంది",
+      "మారదు"
+     ],
+     "why": "ధరలు 6% పెరిగి, డబ్బు 4% మాత్రమే పెరిగితే, ఏడాది తర్వాత అదే డబ్బుతో కొంచెం తక్కువ కొనగలం."
+    },
+    "en": {
+     "q": "Inflation is 6% and your savings earn 4%. Your buying power…",
+     "opts": [
+      "Goes up",
+      "Goes down",
+      "Stays the same"
+     ],
+     "why": "Prices grew 6% but your money grew only 4%, so a year later the same money buys slightly less."
+    }
+   },
+   "sources": [
+    {
+     "name": "RBI Bulletin, 22 May 2026 – Inflation Targeting in India (target 4% ±2% through March 2031)",
+     "url": "https://www.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=24174",
+     "checked": "2026-11-27",
+     "primary": true
+    },
+    {
+     "name": "RBI – Review of Monetary Policy Framework, Discussion Paper (21 Aug 2025)",
+     "url": "https://www.rbi.org.in/scripts/PublicationsView.aspx?Id=23171",
+     "checked": "2026-11-27",
+     "primary": true
+    }
+   ],
+   "tags": [
+    "CPI",
+    "RBI",
+    "savings",
+    "ద్రవ్యోల్బణం"
+   ],
+   "related": [
+    "lt-otp-never-share"
+   ]
+  },
+  {
+   "id": "lt-otp-never-share",
+   "topic": "otp-fraud",
+   "pub": "2026-11-26",
+   "cat": "cyber",
+   "status": "review",
+   "verified": "2026-11-27",
+   "review_by": "2027-05-26",
+   "read_sec": 40,
+   "advice": null,
+   "img": {
+    "pic": "o/cyber",
+    "type": "library",
+    "ai": false
+   },
+   "te": {
+    "h": "బ్యాంకు ఎప్పుడైనా మీ OTP అడుగుతుందా?",
+    "p": "అడగదు. బ్యాంకులు, పేమెంట్ సంస్థలు పాస్‌వర్డ్, PIN, OTP, CVV ఎప్పుడూ అడగవని RBI స్పష్టంగా చెబుతోంది. ‘KYC అప్‌డేట్’, ‘ఖాతా బ్లాక్ అవుతుంది’ అంటూ ఫోన్‌లో OTP అడిగితే అది మోసమే. డబ్బు పోతే వెంటనే 1930కి ఫోన్ చేయండి లేదా cybercrime.gov.in లో ఫిర్యాదు చేయండి.",
+    "ex_kind": "hypothetical",
+    "ex": "‘మీ కార్డు బ్లాక్ అయింది, ఇప్పుడే వచ్చిన OTP చెప్పండి’ అని కాల్ వస్తే — ఫోన్ పెట్టేసి, కార్డు వెనుక ఉన్న బ్యాంకు నంబర్‌కే మీరే ఫోన్ చేయండి.",
+    "key": "OTP మీ డబ్బుకు తాళం చెవి — ఎవరికీ ఇవ్వొద్దు.",
+    "do": "1930 నంబర్‌ను మీ ఫోన్‌లో, ఇంట్లో పెద్దల ఫోన్‌లో ఇప్పుడే సేవ్ చేయండి.",
+    "alt": "ల్యాప్‌టాప్, తాళం, రక్షణ కవచం ఉన్న ప్రతీకాత్మక చిత్రం"
+   },
+   "en": {
+    "h": "Does your bank ever ask for your OTP?",
+    "p": "No. The RBI says banks and payment companies never ask for your password, PIN, OTP or CVV. A caller asking for an OTP to 'update KYC' or 'stop your account being blocked' is a fraudster. If you lose money, call 1930 at once or complain at cybercrime.gov.in.",
+    "ex_kind": "hypothetical",
+    "ex": "A caller says 'Your card is blocked, tell me the OTP you just got.' Hang up, then call the bank yourself on the number printed on your card.",
+    "key": "Your OTP is the key to your money — never give it to anyone.",
+    "do": "Save 1930 in your phone, and in the phones of older family members, today.",
+    "alt": "Illustration of a laptop, a padlock and a shield"
+   },
+   "interactive": null,
+   "quiz": {
+    "answer": 1,
+    "te": {
+     "q": "బ్యాంకు ఉద్యోగినంటూ ఒకరు ఫోన్ చేసి OTP అడిగితే ఏం చేయాలి?",
+     "opts": [
+      "OTP చెప్పాలి",
+      "ఫోన్ పెట్టేసి బ్యాంకు అధికారిక నంబర్‌కు మీరే ఫోన్ చేయాలి",
+      "OTPని SMSలో పంపాలి"
+     ],
+     "why": "బ్యాంకులు OTP ఎప్పుడూ అడగవు. కాలర్ నిజమో కాదో బ్యాంకు అధికారిక నంబర్‌తోనే నిర్ధారించుకోవాలి."
+    },
+    "en": {
+     "q": "Someone calls claiming to be from your bank and asks for an OTP. What should you do?",
+     "opts": [
+      "Tell them the OTP",
+      "Hang up and call the bank's official number yourself",
+      "Send the OTP by SMS"
+     ],
+     "why": "Banks never ask for OTPs. Check whether a caller is genuine only through the bank's official number."
+    }
+   },
+   "sources": [
+    {
+     "name": "RBI press release, 22 Jun 2020 – safe use of digital transactions",
+     "url": "https://www.rbi.org.in/SCRIPTS/BS_PressReleaseDisplay.aspx?prid=49986",
+     "checked": "2026-11-27",
+     "primary": true
+    },
+    {
+     "name": "RBI Kehta Hai – Safeguards for digital banking",
+     "url": "https://website.rbi.org.in/web/rbi/rbi-kehta-hai/safeguards-for-digital-banking",
+     "checked": "2026-11-27",
+     "primary": true
+    },
+    {
+     "name": "Department of Financial Services – helpline 1930 and cybercrime.gov.in",
+     "url": "https://financialservices.gov.in/beta/page/csft",
+     "checked": "2026-11-27",
+     "primary": true
+    }
+   ],
+   "tags": [
+    "OTP",
+    "UPI",
+    "1930",
+    "fraud",
+    "మోసం"
+   ],
+   "related": [
+    "lt-inflation-basics"
+   ]
+  },
+  {
+   "id": "lt-rti-how-to-ask",
+   "topic": "rti",
+   "pub": "2026-11-25",
+   "cat": "constitution",
+   "status": "review",
+   "verified": "2026-11-27",
+   "review_by": "2027-05-25",
+   "read_sec": 50,
+   "advice": "legal",
+   "img": {
+    "pic": "o/explainers",
+    "type": "library",
+    "ai": false
+   },
+   "te": {
+    "h": "ప్రభుత్వ కార్యాలయం నుంచి సమాచారం ఎలా అడగాలి?",
+    "p": "సమాచార హక్కు చట్టం 2005 ప్రకారం భారత పౌరులు ప్రభుత్వ కార్యాలయాల రికార్డులు, నిర్ణయాల వివరాలు అడగవచ్చు. సాధారణంగా 30 రోజుల్లో జవాబు రావాలి; ఒకరి ప్రాణం లేదా స్వేచ్ఛకు సంబంధించినదైతే 48 గంటల్లో. కేంద్ర కార్యాలయాలకు దరఖాస్తు రుసుము ₹10; BPL ధ్రువపత్రం ఉన్నవారికి రుసుము లేదు.",
+    "ex_kind": "hypothetical",
+    "ex": "మీ ఊరి రోడ్డు పనికి మంజూరైన నిధులు, పని పూర్తయిన తేదీ వివరాలను సంబంధిత కార్యాలయ ప్రజా సమాచార అధికారిని (PIO) అడగవచ్చు.",
+    "key": "సమాచారం అడగడానికి కారణం చెప్పాల్సిన అవసరం లేదు.",
+    "do": "కేంద్ర శాఖల కోసం rtionline.gov.in చూడండి. రాష్ట్ర కార్యాలయాల రుసుము, పద్ధతి రాష్ట్ర నియమాల ప్రకారం ఉంటాయి.",
+    "alt": "తెరిచిన పుస్తకం, ప్రశ్న గుర్తు ఉన్న ప్రతీకాత్మక చిత్రం"
+   },
+   "en": {
+    "h": "How do you ask a government office for information?",
+    "p": "Under the Right to Information Act 2005, Indian citizens can ask public offices for records and details of decisions. A reply is normally due within 30 days, or within 48 hours if it concerns a person's life or liberty. Central offices charge ₹10 per application; applicants with a BPL certificate pay nothing.",
+    "ex_kind": "hypothetical",
+    "ex": "You could ask the office's Public Information Officer (PIO) how much was sanctioned for your village road and when the work was completed.",
+    "key": "You do not have to give a reason for asking.",
+    "do": "For central ministries, see rtionline.gov.in. State offices set their own fee and process under state rules.",
+    "alt": "Illustration of an open book and a question mark"
+   },
+   "interactive": null,
+   "quiz": {
+    "answer": 0,
+    "te": {
+     "q": "సాధారణ RTI దరఖాస్తుకు జవాబు ఇవ్వాల్సిన గడువు ఎంత?",
+     "opts": [
+      "30 రోజులు",
+      "7 రోజులు",
+      "ఒక సంవత్సరం"
+     ],
+     "why": "సెక్షన్ 7(1) ప్రకారం సాధారణంగా 30 రోజులు; ప్రాణం లేదా స్వేచ్ఛకు సంబంధించినదైతే 48 గంటలు."
+    },
+    "en": {
+     "q": "What is the normal deadline for replying to an RTI application?",
+     "opts": [
+      "30 days",
+      "7 days",
+      "One year"
+     ],
+     "why": "Under Section 7(1), normally 30 days; 48 hours if it concerns life or liberty."
+    }
+   },
+   "sources": [
+    {
+     "name": "RTI Online Portal (DoPT) – guidelines",
+     "url": "https://rtionline.gov.in/guidelines.php?request",
+     "checked": "2026-11-27",
+     "primary": true
+    },
+    {
+     "name": "Department of Legal Affairs – fee required under RTI Act",
+     "url": "https://legalaffairs.gov.in/rti/fee-required-under-rti-act",
+     "checked": "2026-11-27",
+     "primary": true
+    },
+    {
+     "name": "Technology Development Board – RTI FAQ (30 days / 48 hours)",
+     "url": "https://tdb.gov.in/sites/default/files/2024-10/faq.pdf",
+     "checked": "2026-11-27",
+     "primary": true
+    },
+    {
+     "name": "Konkan Railway – RTI procedure (no reason needed)",
+     "url": "https://konkanrailway.com/sites/default/files/2026-05/RTI-Procedure.pdf",
+     "checked": "2026-11-27",
+     "primary": false
+    }
+   ],
+   "tags": [
+    "RTI",
+    "PIO",
+    "సమాచార హక్కు"
+   ],
+   "related": [
+    "lt-telangana-formation"
+   ]
+  },
+  {
+   "id": "lt-ors-diarrhoea",
+   "topic": "ors",
+   "pub": "2026-11-24",
+   "cat": "health",
+   "status": "review",
+   "verified": "2026-11-27",
+   "review_by": "2027-05-24",
+   "read_sec": 45,
+   "advice": "health",
+   "img": {
+    "pic": "o/health",
+    "type": "library",
+    "ai": false
+   },
+   "te": {
+    "h": "విరేచనాలైనప్పుడు ORS ఎందుకు ముఖ్యం?",
+    "p": "విరేచనాలతో శరీరం నీటిని, లవణాలను కోల్పోతుంది. పిల్లలకు ఈ నీటి కొరత (డీహైడ్రేషన్) ప్రమాదకరం. తక్కువ ఓస్మోలారిటీ ORS ద్రావణం ప్రాణాలు కాపాడే చికిత్స అని WHO చెబుతోంది. జింక్ విరేచనాల రోజులను సుమారు 25% తగ్గిస్తుంది. తీవ్ర నీరసం ఉంటే ఆసుపత్రిలో ఐవీ ద్రవాలు అవసరం కావచ్చు.",
+    "ex_kind": "real",
+    "ex": "WHO గణాంకం: ఐదేళ్లలోపు పిల్లల మరణాలకు విరేచనాలు రెండో ప్రధాన కారణం; 2019లో 3,70,000 మంది పిల్లలు చనిపోయారు.",
+    "key": "విరేచనాల్లో అసలు ప్రమాదం నీటి కొరత; ORS దాన్ని తిరిగి నింపుతుంది.",
+    "do": "ఇంట్లో ORS ప్యాకెట్లు ఉంచుకోండి. పిల్లలకు ఎంత, ఎలా ఇవ్వాలో డాక్టర్ లేదా ANM/ఆశా కార్యకర్తను అడగండి.",
+    "alt": "స్టెతస్కోప్, హృదయం గుర్తు ఉన్న ప్రతీకాత్మక చిత్రం"
+   },
+   "en": {
+    "h": "Why is ORS so important during diarrhoea?",
+    "p": "Diarrhoea drains water and salts from the body, and this dehydration is dangerous for children. WHO calls low-osmolarity ORS a proven life-saving treatment. Zinc supplements shorten a diarrhoea episode by about 25%. Severe dehydration may need intravenous fluids in hospital.",
+    "ex_kind": "real",
+    "ex": "WHO figure: diarrhoea is the second leading cause of death in children under five; it caused 370,000 child deaths in 2019.",
+    "key": "The real danger in diarrhoea is lost fluid; ORS puts it back.",
+    "do": "Keep ORS packets at home. Ask a doctor, ANM or ASHA worker how much to give a child and how.",
+    "alt": "Illustration of a stethoscope and a heart"
+   },
+   "interactive": null,
+   "quiz": {
+    "answer": 0,
+    "te": {
+     "q": "విరేచనాల్లో పిల్లలకు అసలు ప్రమాదం ఏమిటి?",
+     "opts": [
+      "శరీరంలో నీరు, లవణాలు తగ్గడం",
+      "ఆకలి పెరగడం",
+      "నిద్ర తగ్గడం"
+     ],
+     "why": "నీరు, లవణాల కొరతే (డీహైడ్రేషన్) ప్రధాన ప్రమాదం; ORS వాటిని తిరిగి అందిస్తుంది."
+    },
+    "en": {
+     "q": "What is the main danger for a child with diarrhoea?",
+     "opts": [
+      "Losing water and salts",
+      "Feeling hungrier",
+      "Sleeping less"
+     ],
+     "why": "Dehydration is the main danger; ORS replaces the lost water and salts."
+    }
+   },
+   "sources": [
+    {
+     "name": "WHO – Diarrhoea (health topic)",
+     "url": "https://www.who.int/health-topics/diarrhoea",
+     "checked": "2026-11-27",
+     "primary": true
+    },
+    {
+     "name": "WHO/UNICEF joint statement – clinical management of acute diarrhoea",
+     "url": "https://www.who.int/publications/i/item/WHO_FCH_CAH_04.7",
+     "checked": "2026-11-27",
+     "primary": true
+    }
+   ],
+   "tags": [
+    "ORS",
+    "zinc",
+    "diarrhoea",
+    "విరేచనాలు"
+   ],
+   "related": []
+  },
+  {
+   "id": "lt-soil-health-card",
+   "topic": "soil-health-card",
+   "pub": "2026-11-23",
+   "cat": "agriculture",
+   "status": "review",
+   "verified": "2026-11-27",
+   "review_by": "2027-05-23",
+   "read_sec": 40,
+   "advice": null,
+   "img": {
+    "pic": "o/agriculture",
+    "type": "library",
+    "ai": false
+   },
+   "te": {
+    "h": "మీ పొలం మట్టికి ఏం కావాలో ఎలా తెలుసుకోవాలి?",
+    "p": "సాయిల్ హెల్త్ కార్డ్ (మట్టి ఆరోగ్య కార్డు) మీ పొలం మట్టి నమూనాను పరీక్షించి, ఏ పోషకాలు తక్కువో, ఏవి సరిపడా ఉన్నాయో చెబుతుంది. ఏ పంటకు ఏ ఎరువు ఎంత వేయాలో సూచనలు కూడా ఇస్తుంది. కార్డును soilhealth.dac.gov.in పోర్టల్ నుంచి లేదా మొబైల్‌కు వచ్చే SMS లింక్ ద్వారా పొందవచ్చు.",
+    "ex_kind": "hypothetical",
+    "ex": "కార్డులో నత్రజని ‘తక్కువ’, పొటాష్ ‘సరిపడా’ అని ఉంటే, పొటాష్ ఎరువు అదనంగా కొనాల్సిన అవసరం ఉండకపోవచ్చు — ఖర్చు తగ్గుతుంది.",
+    "key": "అంచనాతో కాదు, మట్టి పరీక్షతో ఎరువు వేయండి.",
+    "do": "మట్టి పరీక్ష ఎప్పుడు, ఎక్కడ చేస్తారో మీ మండల వ్యవసాయ అధికారిని అడగండి.",
+    "alt": "వరి కంకులు, పచ్చని ఆకులు ఉన్న ప్రతీకాత్మక చిత్రం"
+   },
+   "en": {
+    "h": "How do you find out what your field's soil needs?",
+    "p": "A Soil Health Card comes from testing a sample of your field's soil. It shows which nutrients are low and which are sufficient, and recommends which fertiliser to use, and how much, for each crop. Farmers can download the card from the soilhealth.dac.gov.in portal or through an SMS link on their mobile.",
+    "ex_kind": "hypothetical",
+    "ex": "If the card shows nitrogen as 'low' and potash as 'sufficient', you may not need to buy extra potash fertiliser — saving money.",
+    "key": "Fertilise by soil test, not by guesswork.",
+    "do": "Ask your mandal agriculture officer when and where soil testing is done.",
+    "alt": "Illustration of paddy ears and green leaves"
+   },
+   "interactive": null,
+   "quiz": null,
+   "editor_note": "Official pages differ on the card cycle (every 2 years vs every 3 years). The lesson leaves the cycle out until the Ministry's current guideline is confirmed.",
+   "sources": [
+    {
+     "name": "myScheme – RKVY Soil Health & Fertility: Soil Health Card",
+     "url": "https://www.myscheme.gov.in/schemes/rkvyshfshc",
+     "checked": "2026-11-27",
+     "primary": true
+    },
+    {
+     "name": "PIB – Soil Health Card portal (soilhealth.dac.gov.in)",
+     "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2104403",
+     "checked": "2026-11-27",
+     "primary": true
+    }
+   ],
+   "tags": [
+    "soil",
+    "fertiliser",
+    "మట్టి పరీక్ష"
+   ],
+   "related": []
+  },
+  {
+   "id": "lt-electricity-unit",
+   "topic": "kwh-unit",
+   "pub": "2026-11-22",
+   "cat": "life_skills",
+   "status": "review",
+   "verified": "2026-11-27",
+   "review_by": "2027-11-22",
+   "read_sec": 40,
+   "advice": null,
+   "img": {
+    "pic": "n/power",
+    "type": "library",
+    "ai": false
+   },
+   "te": {
+    "h": "కరెంటు బిల్లులో ‘ఒక యూనిట్’ అంటే ఏమిటి?",
+    "p": "బిల్లులోని ఒక యూనిట్ అంటే ఒక కిలోవాట్-అవర్ (kWh). 1,000 వాట్ల పరికరం ఒక గంట పనిచేస్తే ఒక యూనిట్ కరెంటు ఖర్చవుతుంది. పరికరం వాట్లను అది నడిచిన గంటలతో గుణించి, 1,000తో భాగిస్తే యూనిట్లు వస్తాయి. ఇంటి మీటర్ ఈ యూనిట్లనే లెక్కిస్తుంది; ప్రతి యూనిట్‌కు బిల్లులో ఒక రేటు ఉంటుంది.",
+    "ex_kind": "everyday",
+    "ex": "100 వాట్ల బల్బు 10 గంటలు వెలిగితే: 100 × 10 ÷ 1,000 = 1 యూనిట్.",
+    "key": "ఎక్కువ వాట్లు × ఎక్కువ గంటలు = ఎక్కువ యూనిట్లు, ఎక్కువ బిల్లు.",
+    "do": "ఇంట్లో ఎక్కువ సేపు నడిచే పరికరం లేబుల్‌పై వాట్లను చూసి, నెలకు ఎన్ని యూనిట్లో లెక్కించండి.",
+    "alt": "విద్యుత్ టవర్, ట్రాన్స్‌ఫార్మర్ ఉన్న ప్రతీకాత్మక చిత్రం"
+   },
+   "en": {
+    "h": "What is one 'unit' on your electricity bill?",
+    "p": "One unit on your bill is one kilowatt-hour (kWh): the energy a 1,000-watt appliance uses in one hour. To find units, multiply an appliance's watts by the hours it runs, then divide by 1,000. The meter at home counts these units, and your bill charges a rate for each one.",
+    "ex_kind": "everyday",
+    "ex": "A 100-watt bulb lit for 10 hours: 100 × 10 ÷ 1,000 = 1 unit.",
+    "key": "More watts × more hours = more units and a bigger bill.",
+    "do": "Check the watts on the label of an appliance that runs for long hours and work out its units per month.",
+    "alt": "Illustration of a power tower and a transformer"
+   },
+   "interactive": {
+    "type": "electricity",
+    "hypothetical": true,
+    "config": {
+     "watts": [
+      5,
+      3000,
+      100
+     ],
+     "hours_per_day": [
+      1,
+      24,
+      6
+     ],
+     "days": [
+      1,
+      31,
+      30
+     ],
+     "rate_from_bill": true
+    }
+   },
+   "quiz": {
+    "answer": 2,
+    "te": {
+     "q": "1,000 వాట్ల హీటర్ 2 గంటలు నడిస్తే ఎన్ని యూనిట్లు?",
+     "opts": [
+      "1",
+      "1,000",
+      "2"
+     ],
+     "why": "1,000 × 2 ÷ 1,000 = 2 యూనిట్లు."
+    },
+    "en": {
+     "q": "A 1,000-watt heater runs for 2 hours. How many units?",
+     "opts": [
+      "1",
+      "1,000",
+      "2"
+     ],
+     "why": "1,000 × 2 ÷ 1,000 = 2 units."
+    }
+   },
+   "sources": [
+    {
+     "name": "Bureau of Energy Efficiency – Basics of energy (kilowatt-hour definition)",
+     "url": "https://www.beeindia.gov.in/sites/default/files/1Ch2.pdf",
+     "checked": "2026-11-27",
+     "primary": true
+    }
+   ],
+   "tags": [
+    "kWh",
+    "unit",
+    "electricity bill",
+    "కరెంటు బిల్లు"
+   ],
+   "related": [
+    "lt-inflation-basics"
+   ]
+  },
+  {
+   "id": "lt-telangana-formation",
+   "topic": "telangana-formation",
+   "pub": "2026-11-21",
+   "cat": "tg_ap",
+   "status": "review",
+   "verified": "2026-11-27",
+   "review_by": "2027-11-21",
+   "read_sec": 40,
+   "advice": null,
+   "img": {
+    "pic": "d/hyderabad",
+    "type": "library",
+    "ai": false
+   },
+   "te": {
+    "h": "తెలంగాణ రాష్ట్రం ఎప్పుడు ఏర్పడింది?",
+    "p": "ఆంధ్రప్రదేశ్ పునర్వ్యవస్థీకరణ చట్టం 2014 ద్వారా తెలంగాణ 2 జూన్ 2014న అధికారికంగా ఏర్పడింది. అప్పటికి ఇది భారతదేశంలో 29వ రాష్ట్రం. దశాబ్దాల ప్రజా ఉద్యమం ఈ రాష్ట్ర ఏర్పాటుకు దారితీసింది. అందుకే ఏటా జూన్ 2న తెలంగాణ అవతరణ దినోత్సవం జరుపుకుంటారు.",
+    "ex_kind": "real",
+    "ex": "అవతరణ దినోత్సవం రోజున రాష్ట్రంలోని అన్ని జిల్లాల్లో జాతీయ జెండా ఆవిష్కరిస్తారు.",
+    "key": "2 జూన్ 2014 — తెలంగాణ అవతరణ దినం.",
+    "do": "మీ జిల్లా ఎప్పుడు ఏర్పడిందో జిల్లా అధికారిక వెబ్‌సైట్‌లో చూసి తెలుసుకోండి.",
+    "alt": "హైదరాబాద్ చార్మినార్ ప్రతీకాత్మక చిత్రం"
+   },
+   "en": {
+    "h": "When was Telangana formed?",
+    "p": "Telangana was formally created on 2 June 2014 under the Andhra Pradesh Reorganisation Act, 2014. At the time it became India's 29th state, after a people's movement lasting decades. That is why Telangana Formation Day is celebrated every year on 2 June.",
+    "ex_kind": "real",
+    "ex": "On Formation Day, the national flag is hoisted in every district of the state.",
+    "key": "2 June 2014 — Telangana's formation day.",
+    "do": "Look up when your own district was formed on its official district website.",
+    "alt": "Illustration of Hyderabad's Charminar"
+   },
+   "interactive": {
+    "type": "map",
+    "hypothetical": false,
+    "config": {
+     "status": "phase-3",
+     "note": "needs a complete, officially approved map file before use"
+    }
+   },
+   "quiz": {
+    "answer": 1,
+    "te": {
+     "q": "తెలంగాణ అవతరణ దినోత్సవం ఏ తేదీన?",
+     "opts": [
+      "1 నవంబర్",
+      "2 జూన్",
+      "15 ఆగస్టు"
+     ],
+     "why": "తెలంగాణ 2 జూన్ 2014న ఏర్పడింది."
+    },
+    "en": {
+     "q": "On which date is Telangana Formation Day?",
+     "opts": [
+      "1 November",
+      "2 June",
+      "15 August"
+     ],
+     "why": "Telangana was formed on 2 June 2014."
+    }
+   },
+   "sources": [
+    {
+     "name": "Telangana Tourism (Govt of Telangana) – Telangana's State Formation Day",
+     "url": "https://telanganatourism.gov.in/blog/ts-formation-celebrations.html",
+     "checked": "2026-11-27",
+     "primary": true
+    },
+    {
+     "name": "Utsav (Ministry of Tourism) – State Formation Day",
+     "url": "https://utsav.gov.in/view-event/state-formation-day",
+     "checked": "2026-11-27",
+     "primary": true
+    },
+    {
+     "name": "Telangana Today – Creation of Telangana (AP Reorganisation Act, 2014)",
+     "url": "https://telanganatoday.com/creation-of-telangana-was-a-milestone",
+     "checked": "2026-11-27",
+     "primary": false
+    }
+   ],
+   "tags": [
+    "Telangana",
+    "June 2",
+    "అవతరణ దినోత్సవం"
+   ],
+   "related": [
+    "lt-rti-how-to-ask"
+   ]
+  }
+ ],
+ "history": [
+  "inflation",
+  "otp-fraud",
+  "rti",
+  "ors",
+  "soil-health-card",
+  "kwh-unit",
+  "telangana-formation"
+ ]
+}
