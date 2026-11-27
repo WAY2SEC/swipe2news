@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-27T06:05:00+05:30",
+ "cutoff": "2026-11-27T06:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-24T10:35:00+05:30/2026-11-24T11:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 7,
-   "late": 1,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Lookback from 02:35. Feeds 11:32 IST (64/70 ok; Sakshi 429, ETV Bharat, Disha, Vaartha, Adilabad/Mahabubnagar en failing). 59 uncovered local events since 09:30. 11:05 sister run had not saved state. add_repo tool not available; used existing clone. Typed feed URLs refused by WebFetch (provenance) - only search-result URLs opened. Published: Siasat KRMB TG rejects AP 10 tmcft (late-found, 09:36), TT Zaheerabad couple crash (sensitive, no names), Siasat Vaishnaw Metro loan, TT SAMPADA TG anaemia, NewsMeter AP ULB deputy posts, NewsMeter AP CID-banks meet, National Herald/AP Hasina Dec 16 return. Skipped old: DC Vangaveeti Radha VMC oath (24 Nov 00:04, event 23 Nov), DC North Andhra ULB heads (01:15). Skipped: SC Umar Khalid/Sharjeel Imam bail hearing (accused-name rule). Duplicate: Samayam Renigunta Anjaneya temple = Kadapa fact-check (08:35). Not opened: Hindu Lokesh ASEAN (likely = 23 Nov ports story), NTV 3 MLAs absent, HMTV Mungonda body, Samayam Guntur-Guntakal, NT Kadiyam protest, Hyderabad Mail child marriage, TNIE Congress-AICC. District searches: Adilabad, Mahabubnagar, Nizamabad, Sangareddy, Srikakulam, Kurnool, Guntur, Konaseema. lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-24T11:35:00+05:30/2026-11-24T12:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 1,
    "gaps": "Lookback from 21:35 Nov 26. Feeds 05:43 IST (70/70 ok; 2769 uncovered, 884 TG/AP). add_repo tool not available; used existing clone. Published 8: AJ Amaravati quantum centre Dec 5 (05:30, forecast), Hans AP DGP polls peaceful/44 incidents (05:31), Hans Nellore polling (05:15), Hans Bhadrachalam Mukkoti Ekadasi (05:06), NT Naidu Palvancha temple visit (03:04, late), Hans Rushikonda coastal security (05:26), NT Karimnagar RTC driver death (03:36, late, claim), Hans Nizamabad police sports meet (03:39, late). Duplicates: Hans Jagan Seema water (covered 26 Nov), Hans Naidu Tirumala (covered), Hans Sagar water releases (covered 05:05), AJ Nellore bus fire (covered 26 Nov). Skipped: Telugupost rain alert (25 Nov). Review: Webdunia 27 Nov weather (only updated time). Not attempted: Eenadu-only district items (Mahabubnagar, Adilabad, Palnadu, Karimnagar), Sakshi/AJ court items, Hans Vinmayi archery, Vagdevi handball, Mudigubba counting, India/world items. No district searches this run. Lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-27T06:05:00+05:30/2026-11-27T06:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 8,
+   "published": 7,
+   "late": 7,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 22:05 Nov 26. Feeds 06:13 IST (70/70 ok; 2747 uncovered, 901 TG/AP). add_repo tool not available; used existing clone. Typed feed URLs refused (provenance) – only search-result URLs opened. Published 7: Hans climate conclave Dec 7-9 (02:13), Hans Bandi Sanjay drugs (02:26, claim), DC Kagaznagar staff feast (22:54, claim), Hans Vivek-Prem Sagar row (04:52, claim), DC Polavaram colony poll boycott (00:19), Hans Mangalagiri CPI SI allegation (04:51, claim), DC FoodProTech Jan 29 (22:51). Duplicate: TT Nagole matrimony scam (Siasat covered 26 Nov). Not opened: Disha Warangal wife-paramour murder (client error); DC Chittoor turnout, DC HRF Manyam school, DSC sports quota, Hindu items (not found in search). Search index lag: no district searches beyond targeted ones. Lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6138,6 +6138,46 @@
    "url": "https://telugu.webdunia.com/article/andhra-pradesh-news/weather-forecast-on-telangana-andhra-pradesh-27th-november-2026-126112600042_1.html",
    "d": "2026-11-27",
    "w": "review"
+  },
+  {
+   "url": "https://telanganatoday.com/businessman-duped-in-matrimony-fraud",
+   "d": "2026-11-27T06:35",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/telangana-charts-10-year-climate-resilience-roadmap-1146109",
+   "d": "2026-11-27T06:35",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/bandi-sanjay-calls-for-united-fight-against-drug-menace-1146118",
+   "d": "2026-11-27T06:35",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/kagaznagar-municipal-staff-hold-feast-to-mark-commissioners-transfer-2008298",
+   "d": "2026-11-27T06:35",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/sandeep-steps-in-to-settle-vivek-prem-sagar-rao-differences-1146184",
+   "d": "2026-11-27T06:35",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/polavaram-rehabilitation-colony-residents-boycott-panchayat-polls-2008358",
+   "d": "2026-11-27T06:35",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/guntur/guntur-cpi-demands-sis-suspension-1146183",
+   "d": "2026-11-27T06:35",
+   "w": "eligible"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/naidu-to-open-foodprotech-2027-in-vijayawada-on-jan-29-2008297",
+   "d": "2026-11-27T06:35",
+   "w": "eligible"
   }
  ]
 }
