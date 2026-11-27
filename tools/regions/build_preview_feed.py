@@ -15,6 +15,7 @@ C = {"up": "--c-gov", "delhi": "--c-city", "mumbai": "--c-city", "maharashtra": 
 
 def S(sec, loc, cat, h, p, src, url, pub, t="", lbl="fact", stat="", statl=""):
     d = pub[8:10] + "." + pub[5:7] + "." + pub[0:4]
+    cat = cat.split(" · ")[-1]  # owner 27 Nov: no region/city name in the card label, topic only
     return {"h": h, "p": p, "cat": cat, "loc": loc, "sec": sec, "src": src, "url": url, "pub": pub, "d": d, "t": t,
             "lbl": lbl, "stat": stat, "statl": statl, "lang": "en", "st": "IN", "pic": "logo", "col": C[sec[0]]}
 
@@ -39,7 +40,7 @@ STORIES = [
    "and projected Azad Samaj Party leader Chandrashekhar Azad as the front's chief minister face for 2027, Outlook's live updates report.",
    "Outlook India", "https://www.outlookindia.com/national/breaking-news-india-world-live-updates-26-11-mumbai-attacks-up-elections-2027-akhilesh-yadav-bjp-congress-november-26",
    "2026-11-26T12:00+05:30", "", "claim", "2027", "UP race heats up"),
- S(["up"], "Varanasi", "Uttar Pradesh · Varanasi",
+ S(["up"], "Varanasi", "Festivals",
    "Varanasi ghats glow for Dev Deepawali",
    "The Kashi Vishwanath Dham and the ghats along the Ganga in Varanasi were lit with earthen lamps and decorations for Dev Deepawali, "
    "and large crowds of devotees gathered by the river on Tuesday evening, according to TNI's headlines.",
@@ -121,7 +122,7 @@ STORIES = [
    "Fodder camps for livestock were also approved, first in Solapur and Dharashiv districts, PTI reports.",
    "ThePrint (PTI)", "https://theprint.in/india/every-new-bridge-in-maharashtra-to-have-check-dam-underneath/3109090/",
    "2026-11-25T18:34+05:30", "", "fact", "1 m", "of water under each bridge"),
- S(["maharashtra"], "Pune", "Maharashtra · Pune",
+ S(["maharashtra"], "Pune", "Law & order",
    "Supriya Sule asks CM to step in on Pune crime",
    "NCP (SP) MP Supriya Sule called Pune's law and order alarming after a man was attacked with a machete and a gun outside the Shivajinagar court, "
    "and urged Chief Minister Fadnavis to intervene, citing central data that ranks Pune first in the state for crime, IANS reports.",
@@ -158,7 +159,7 @@ STORIES = [
    "plus a fixed yearly hiring calendar and quick results, in talks with the central task force on exam reforms in Bhubaneswar, Pragativadi reports.",
    "Pragativadi", "https://pragativadi.com/odisha-cm-proposes-single-exam-for-similar-roles-recruitment-reform/",
    "2026-11-25T18:00+05:30", "", "fact", "1 exam", "for similar posts"),
- S(["odisha"], "Cuttack", "Odisha · Cuttack",
+ S(["odisha"], "Cuttack", "Industry",
    "₹24,000 cr semiconductor hub and Mahanadi riverfront announced",
    "CM Majhi announced a ₹24,000 crore semiconductor hub and a ₹210 crore Mahanadi riverfront project for the Cuttack area, OMMCOM News reports.",
    "OMMCOM News", "https://ommcomnews.com/",
