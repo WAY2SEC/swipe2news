@@ -1,0 +1,84 @@
+# Photos needed (from the last 3 weeks of news)
+
+Most-mentioned people first. ✅ = photo already in the app.
+
+- ✅ **Anumula Revanth Reddy** – Chief Minister: Hon'ble Chief Minister, Municipal Administration and Urban Development; General Administration, Law & Order and all other unallocated portfolios (Telangana, INC) · 183 stories
+- ✅ **Nara Chandrababu Naidu** – Chief Minister: Unallocated portfolios (Andhra Pradesh, TDP) · 111 stories
+- ✅ **Rahul Gandhi** – Parliament leadership Leader of Opposition, Lok Sabha (India, INC) · 42 stories
+- ✅ **Thanneeru Harish Rao** – Assembly MLA (Telangana, BRS) · 35 stories
+- ✅ **Duddilla Sridhar Babu** – State Minister: Information Technology, Electronics & Communications; Industries & Commerce and Legislative Affairs (Telangana, INC) · 29 stories
+- ✅ **Nara Lokesh** – State Minister: HRD; IT, Electronics and Communications; RTG (Andhra Pradesh, TDP) · 28 stories
+- ✅ **Narendra Modi** – Union executive Prime Minister (India, BJP) · 27 stories
+- ✅ **Konidala Pawan Kalyan** – Assembly MLA; Deputy Chief Minister (Andhra Pradesh, JSP) · 20 stories
+- ✅ **Nalamada Uttam Kumar Reddy** – State Minister: Irrigation & CAD; Food & Civil Supplies (Telangana, INC) · 20 stories
+- ✅ **Amit Shah** – Union executive Union Cabinet Minister (India, Not stated by PMO) · 19 stories
+- ✅ **Ponnam Prabhakar** – State Minister: Transport; BC Welfare (Telangana, INC) · 15 stories
+- ⬜ **Vakiti Srihari** – State Minister: Animal husbandry , Dairy Development and Fisheries, Sports and Youth Services (Telangana, INC) · 11 stories
+- ✅ **G. Kishan Reddy** – Lok Sabha MP (Telangana, BJP) · 11 stories
+- ⬜ **Piyush Goyal** – Union executive Union Cabinet Minister (India, Not stated by PMO) · 11 stories
+- ⬜ **Tummala Nageswara Rao** – State Minister: Agriculture, Marketing, Co-operation, and Handlooms & Textiles (Telangana, INC) · 8 stories
+- ⬜ **Ashwini Vaishnaw** – Union executive Union Cabinet Minister (India, Not stated by PMO) · 8 stories
+- ⬜ **Shivraj Singh Chouhan** – Union executive Union Cabinet Minister (India, Not stated by PMO) · 7 stories
+- ✅ **Ponguleti Srinivas Reddy** – State Minister: Revenue and Housing, Information & Public Relations (Telangana, INC) · 7 stories
+- ⬜ **Malreddy Ranga Reddy** – Assembly MLA (Telangana, INC) · 6 stories
+- ⬜ **Jupally Krishna Rao** – State Minister: Prohibition & Excise; Tourism & Culture and Archaeology (Telangana, INC) · 6 stories
+- ⬜ **Komatireddy Raj Gopal Reddy** – Assembly MLA (Telangana, INC) · 6 stories
+- ⬜ **Satya Kumar Yadav** – State Minister: Health, Medical and Family Welfare (Andhra Pradesh, BJP) · 6 stories
+- ⬜ **B. Rama Gopal Reddy** – Council MLC (Andhra Pradesh, TDP) · 6 stories
+- ⬜ **Gaddam Vamsi Krishna** – Lok Sabha MP (Telangana, INC) · 6 stories
+- ⬜ **Kadiyam Kavya** – Lok Sabha MP (Telangana, INC) · 6 stories
+- ⬜ **Chamala Kiran Kumar Reddy** – Lok Sabha MP (Telangana, INC) · 6 stories
+- ⬜ **Guntakandla Jagadish Reddy** – Assembly MLA (Telangana, BRS) · 5 stories
+- ⬜ **Palla Srinivasa Rao** – Assembly MLA (Andhra Pradesh, TDP) · 5 stories
+- ⬜ **Teenmar Mallanna** – Council MLC (Telangana, IND) · 5 stories
+- ✅ **Asaduddin Owaisi** – Lok Sabha MP (Telangana, AIMIM) · 5 stories
+- ⬜ **Droupadi Murmu** – Constitutional office President of India (India, Not applicable to office) · 5 stories
+- ⬜ **Patlolla Sabttha Indra Reddy** – Assembly MLA (Telangana, BRS) · 4 stories
+- ⬜ **Anagani Satya Prasad** – State Minister: Revenue, Registration and Stamps (Andhra Pradesh, TDP) · 4 stories
+- ⬜ **Porika Balram Naik** – Lok Sabha MP (Telangana, INC) · 4 stories
+- ⬜ **Kiren Rijiju** – Union executive Union Cabinet Minister (India, Not stated by PMO) · 4 stories
+- ⬜ **Gaddam Prasad Kumar** – Speaker, Assembly (Telangana, INC) · 3 stories
+- ⬜ **Kadiyam Srihari** – Assembly MLA (Telangana, BRS) · 3 stories
+- ⬜ **Revuri Prakash Reddy** – Assembly MLA (Telangana, INC) · 3 stories
+- ⬜ **Naini Rajender Reddy** – Assembly MLA (Telangana, INC) · 3 stories
+- ⬜ **Anam Ramanarayana Reddy** – State Minister: Endowments (Andhra Pradesh, TDP) · 3 stories
+- ⬜ **Kollu Ravindra** – State Minister: Mines and Geology; Excise (Andhra Pradesh, TDP) · 3 stories
+- ⬜ **Nellikanti Satyam** – Council MLC (Telangana, CPI) · 3 stories
+- ⬜ **Mankena Koti Reddy** – Council MLC (Telangana, BRS) · 3 stories
+- ⬜ **Daggumalla Prasada Rao** – Lok Sabha MP (Andhra Pradesh, TDP) · 3 stories
+- ⬜ **Nirmala Sitharaman** – Union executive Union Cabinet Minister (India, Not stated by PMO) · 3 stories
+- ⬜ **Sarbananda Sonowal** – Union executive Union Cabinet Minister (India, Not stated by PMO) · 3 stories
+- ⬜ **Mansukh Mandaviya** – Union executive Union Cabinet Minister (India, Not stated by PMO) · 3 stories
+- ⬜ **Kinjarapu Atchannaidu** – State Minister: Agriculture, Cooperation, Marketing, Animal Husbandry, Dairy Development and Fisheries (Andhra Pradesh, TDP) · 3 stories
+- ⬜ **Paidi Rakesh Reddy** – Assembly MLA (Telangana, BJP) · 2 stories
+- ⬜ **Adluri Laxman Kumar** – State Minister: Scheduled Castes Development Department, Tribal Welfare Department , Department for Empowerment of Persons with Disabilities, Senior Citizines and Transgender persons (Telangana, INC) · 2 stories
+- ⬜ **Koninty Manik Rao** – Assembly MLA (Telangana, BRS) · 2 stories
+- ⬜ **Chinta Prabhakar** – Assembly MLA (Telangana, BRS) · 2 stories
+- ⬜ **Arekapudi Gandhi** – Assembly MLA (Telangana, BRS) · 2 stories
+- ⬜ **Madhavaram Krishna Rao** – Assembly MLA (Telangana, BRS) · 2 stories
+- ⬜ **Vemula Veeresham** – Assembly MLA (Telangana, INC) · 2 stories
+- ⬜ **Palla Rajeshwar Reddy** – Assembly MLA (Telangana, BRS) · 2 stories
+- ⬜ **Kunamneni Sambasiva Rao** – Assembly MLA (Telangana, CPI) · 2 stories
+- ✅ **Ponguleti Srinivasa Reddy** – Assembly MLA; State Minister (Telangana, INC) · 2 stories
+- ✅ **Nandamuri Balakrishna** – Assembly MLA (Andhra Pradesh, TDP) · 2 stories
+- ⬜ **Dola Sree Bala Veeranjaneya Swamy** – State Minister: Social Welfare; Disabled and Senior Citizens Welfare; Village and Ward Secretariat (Andhra Pradesh, TDP) · 2 stories
+- ⬜ **Nadendla Manohar** – State Minister: Food and Civil Supplies; Consumer Affairs (Andhra Pradesh, JSP) · 2 stories
+- ⬜ **Murugudu Hanumantha Rao** – Council MLC (Andhra Pradesh, YSRCP) · 2 stories
+- ⬜ **Lella Appi Reddy** – Council MLC (Andhra Pradesh, YSRCP) · 2 stories
+- ⬜ **Kurumaiahgari Naveen Kumar** – Council MLC (Telangana, BRS) · 2 stories
+- ⬜ **Chinnamile Anji Reddy** – Council MLC (Telangana, BJP) · 2 stories
+- ⬜ **Mallu Ravi** – Lok Sabha MP (Telangana, INC) · 2 stories
+- ⬜ **Bhupathi Raju Srinivasa Varma** – Lok Sabha MP (Andhra Pradesh, BJP) · 2 stories
+- ⬜ **Maddila Gurumoorthy** – Lok Sabha MP (Andhra Pradesh, YSR Congress Party) · 2 stories
+- ⬜ **Ponguru Narayana** – State Minister: Municipal Administration and Urban Development (Andhra Pradesh, TDP) · 2 stories
+- ⬜ **Vangalapudi Anitha** – State Minister: Home; Disaster Management (Andhra Pradesh, TDP) · 2 stories
+- ⬜ **Palvai Harish Babu** – Assembly MLA (Telangana, BJP) · 1 stories
+- ⬜ **Anil Jadhav** – Assembly MLA (Telangana, BRS) · 1 stories
+- ⬜ **Katipally Venkata Ramana Reddy** – Assembly MLA (Telangana, BJP) · 1 stories
+- ⬜ **Kalvakuntla Sanjay** – Assembly MLA (Telangana, BRS) · 1 stories
+- ✅ **Kalvakuntla Chandrashekar Rao** – Leader of Opposition, Assembly (Telangana, BRS) · 1 stories
+- ⬜ **Kasireddy Narayan Reddy** – Assembly MLA (Telangana, INC) · 1 stories
+- ⬜ **Narayanan Sri Ganesh** – Assembly MLA (Telangana, INC) · 1 stories
+- ⬜ **Donthi Madhava Reddy** – Assembly MLA (Telangana, INC) · 1 stories
+- ⬜ **Tellam Venkata Rao** – Assembly MLA (Telangana, BRS) · 1 stories
+- ⬜ **Chittem Parnika Reddy** – Assembly MLA (Telangana, INC) · 1 stories

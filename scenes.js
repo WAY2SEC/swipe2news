@@ -455,7 +455,7 @@ function artNews(t){ for(const [rx,k] of ART_N) if(rx.test(t)) return k; return 
 function artRegion(t){ for(const [rx,k] of ART_REG) if(rx.test(t)) return k; return ''; }
 // owner 27 Nov 2026: topic pictures for stories the newsroom left on the logo (first match wins)
 const ART_TOPIC=[
- [/(?:బస్సు|బస్|ఆర్టీసీ|\bbus\b|\bRTC\b).{0,40}(?:ప్రమాద|ఘటన|ఢీ|బోల్తా|మూర్ఛ|బ్రేక్|accident|crash|mishap)|(?:ప్రమాద|ఘటన|accident).{0,40}(?:బస్సు|\bbus\b)/i,'e/road-accident-response-3'],
+ [/(?:బస్సు|బస్|ఆర్టీసీ|\bbus\b|\bRTC\b).{0,40}(?:ప్రమాద|ఘటన|ఢీ|బోల్తా|మూర్ఛ|బ్రేక్|accident|crash|mishap)|(?:ప్రమాద|ఘటన|accident).{0,40}(?:బస్సు|\bbus\b)/i,'e/bus-accident'],
  [/ఆపరేషన్|శస్త్రచికిత్స|సర్జరీ|\bsurgery\b|ఐసీయూ|\bICU\b/i,'e/hospital-bed-shortage'],
  [/ఆసుపత్రి|ఆస్పత్రి|హాస్పిటల్|వైద్యశాల|\bhospital|अस्पताल/i,'e/hospital-outpatient-queue'],
  [/ఎయిడ్స్|హెచ్ఐవీ|\bHIV\b|\bAIDS\b|ఆరోగ్య|వైద్య|\bhealth\b|स्वास्थ्य/i,'e/public-health-coverage-desk'],
@@ -477,7 +477,8 @@ const ART_TOPIC=[
  [/రైతు|పంట|వ్యవసాయ|\bfarmers?\b|\bcrop|किसान/i,'e/rice-farmers'],
  [/రోడ్డు|రహదారి|\broad\b|सड़क/i,'e/road-widening'],
  [/నీటి|తాగునీరు|\bwater\b|पानी/i,'e/drinking-water-scheme'],
- [/ఉద్యోగ|నియామక|\bjobs?\b|recruit|भर्ती/i,'e/recruitment-notification']];
+ [/ఉద్యోగ|నియామక|\bjobs?\b|recruit|भर्ती/i,'e/recruitment-notification'],
+ [/హైదరాబాద్|భాగ్యనగర|\bHyderabad\b|हैदराबाद/i,'e/hyderabad-landmarks']]; // owner 27 Nov 2026: Hyderabad landmarks for city stories with no other picture
 // owner 26 Nov 2026: more than one picture for common incidents, so back-to-back stories don't look the same
 const ART_VAR={'e/road-accident-response':['e/road-accident-response','e/road-accident-response-2','e/road-accident-response-3','e/road-accident-response-4'],'e/parliament':['e/parliament-new-building','e/parliament-old-building','e/parliament-lok-sabha','e/parliament-rajya-sabha'],'e/bathukamma-festival':['e/bathukamma-festival','e/bathukamma-flowers'],'e/bonalu-procession':['e/bonalu-procession','e/bonalu-women','e/bonalu-pothuraju'],'e/medaram-jatara':['e/medaram-jatara','e/medaram-bangaram'],'e/fire-service-response':['e/fire-service-response','e/fire-building-blaze']};
 function artVar(pc,h){ const v=ART_VAR[pc]; if(!v) return pc; let n=0; for(const c of String(h||'')) n=(n*31+c.charCodeAt(0))>>>0; return v[n%v.length]; }
@@ -491,7 +492,11 @@ function artPlan0(s){
     const t=[s.h,s.statl,(s.en&&s.en.h)||''].join(' ');
     // owner 27 Nov 2026: "for accident why building fire?" – a vehicle on fire gets the burnt-car picture, never the building blaze
     { const tv=t.replace(/\u200c|\u200d/g,''); const V=/కారు|కార్|వాహన|బస్సు|బస్|లారీ|ట్రక్|బైక్|ఆటో|ట్రాక్టర్|\bcar\b|\bvehicle|\bbus\b|lorry|truck|\bbike|scooter|tractor|गाड़ी|कार|बस|ट्रक/i, F=/మంటలు|కాలి|దగ్ధ|అగ్ని|\bfire\b|gutted|blaze|burnt|ablaze|आग|जल/i;
-      if(V.test(tv)&&F.test(tv)) return {m:'land',bg:'e/road-accident-response-2'}; }
+      if(V.test(tv)&&F.test(tv)) return {m:'land',bg:'e/vehicle-fire-highway'};
+      // owner 27 Nov 2026: bus and two-wheeler accidents get their own pictures
+      const A=/ప్రమాద|ఢీ|బోల్తా|accident|crash|collision|overturn|हादसा|दुर्घटना/i;
+      if(A.test(tv)&&/బస్సు|బస్|ఆర్టీసీ|\bbus\b|\bRTC\b|बस/i.test(tv)) return {m:'land',bg:'e/bus-accident'};
+      if(A.test(tv)&&/బైక్|ద్విచక్ర|స్కూటీ|స్కూటర్|\bbike|two-wheeler|scooter|motorcycle|बाइक/i.test(tv)) return {m:'land',bg:'e/bike-accident'}; }
     // owner 27 Nov 2026: land / plot auctions get the land-auction picture
     if(/వేలం|వేలాని|వేలంపా|auction|नीलामी/i.test(t)&&/భూమి|భూము|స్థల|ప్లాట్|గజాల|ఎకరా|లేఅవుట్|\bland|plot|acre|layout|ज़मीन|जमीन|भूखंड/i.test([t,s.p||''].join(' '))) return {m:'land',bg:'e/land-auction'};
     if(!/హత్య|మృతి|మరణ|ప్రమాద|అరెస్ట్|murder|death|accident|arrest|killed/i.test(t)){
