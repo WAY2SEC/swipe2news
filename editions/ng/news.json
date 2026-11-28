@@ -1,10 +1,662 @@
 {
  "date": "28.11.2026",
- "updated": "2026-11-28T14:46:13+01:00",
+ "updated": "2026-11-28T16:46:43+01:00",
  "version": 2,
  "edition": "ng",
  "tz": "Africa/Lagos",
  "stories": [
+  {
+   "h": "Bolivian referee suspended for punching goalkeeper",
+   "p": "A referee in Bolivia, Jordy Alemán, has been suspended after he punched Real Potosí goalkeeper Cristian Martínez in a row after the Bolivian Cup final, Punch reports. He showed seven red cards in the match. Vanguard says the scuffle followed Always Ready's win of the trophy, 3-1 on aggregate over Real Potosí.",
+   "stat": "7 reds",
+   "statl": "Cards in cup final",
+   "lbl": "fact",
+   "cat": "Sports",
+   "sec": [
+    "sports"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/bolivian-referee-punches-goalkeeper-issues-seven-red-cards-in-cup-final/",
+   "pub": "2026-11-28T16:42+01:00",
+   "d": "28.11.2026",
+   "t": "16:42",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Vanguard",
+     "u": "https://www.vanguardngr.com/2026/11/referee-faces-suspension-after-punching-goalkeeper-in-post-match-rawl/"
+    }
+   ]
+  },
+  {
+   "h": "Gynaecologists urge AI tools to cut maternal deaths",
+   "p": "The Society of Gynaecology and Obstetrics of Nigeria (SOGON) wants governments to use artificial intelligence, bedside ultrasound scans and the E-MOTIVE bleeding-care package to reduce avoidable deaths of mothers during pregnancy and childbirth, Punch reports. The call came in the communique issued at the end of the society's annual conference. It said the tools can help health workers act faster.",
+   "stat": "SOGON",
+   "statl": "Push for AI in maternity",
+   "lbl": "opinion",
+   "cat": "Nigeria",
+   "sec": [
+    "politics"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/gynaecologists-advocate-ai-powered-tools-to-reduce-maternal-deaths/",
+   "pub": "2026-11-28T16:41+01:00",
+   "d": "28.11.2026",
+   "t": "16:41",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Navy chief tells 1,916 new ratings to avoid politics",
+   "p": "Navy chief Vice Admiral Idi Abbas has told 1,916 ratings who graduated at the navy's training school in Onne, Rivers State, to keep out of partisan politics and stay away from drugs ahead of the 2027 elections, Punch reports. Vanguard and ThisDay say he also linked the navy's 2026 gains against oil theft to personnel fitness.",
+   "stat": "1,916",
+   "statl": "New navy ratings graduate",
+   "lbl": "fact",
+   "cat": "Nigeria · Rivers",
+   "sec": [
+    "security"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/navy-chief-warns-new-ratings-against-partisan-politics-drug-abuse/",
+   "pub": "2026-11-28T16:29+01:00",
+   "d": "28.11.2026",
+   "t": "16:29",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Rivers",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Vanguard",
+     "u": "https://www.vanguardngr.com/2026/11/navy-links-operational-successes-to-troops-physical-fitness/"
+    },
+    {
+     "n": "ThisDay",
+     "u": "https://www.thisdaylive.com/2026/11/28/cns-we-must-be-fit-ready-to-serve-whenever-duty-calls/"
+    }
+   ]
+  },
+  {
+   "h": "Dutsin-Ma university asks FG for help on insecurity",
+   "p": "The Vice-Chancellor of the Federal University Dutsin-Ma in Katsina State, Prof. Mohammed Othman, has asked the Federal Government to step in over insecurity around the campus, poor infrastructure and a shortage of staff, Punch reports. He made the appeal during the university's combined 10th and 11th convocation ceremonies, where graduates of two sets received their degrees.",
+   "stat": "FUDMA",
+   "statl": "VC seeks federal support",
+   "lbl": "claim",
+   "cat": "Nigeria · Katsina",
+   "sec": [
+    "politics"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/katsina-federal-varsity-seeks-fg-intervention-over-insecurity-infrastructure-deficits/",
+   "pub": "2026-11-28T16:18+01:00",
+   "d": "28.11.2026",
+   "t": "16:18",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Katsina",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Delta police arrest 4, seek 14 over Uduere violence",
+   "p": "Delta State police say they have arrested four suspects and declared 14 others wanted over killings and other violence at a Nigeria Democratic Congress (NDC) campaign event in Uduere, Ughelli North council area, Punch, Vanguard and The Sun report. Police also insist that Ovie Omo-Agege must answer their invitation, saying a letter was sent after he did not take calls.",
+   "stat": "4 held",
+   "statl": "14 others declared wanted",
+   "lbl": "fact",
+   "cat": "Nigeria · Delta",
+   "sec": [
+    "security",
+    "politics"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/campaign-violence-delta-police-insist-omo-agege-honour-invitation-declare-14-wanted/",
+   "pub": "2026-11-28T16:13+01:00",
+   "d": "28.11.2026",
+   "t": "16:13",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Delta",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Vanguard",
+     "u": "https://www.vanguardngr.com/2026/11/uduere-police-give-omo-agege-fresh-ultimatum-nab-4-hunt-14-others/"
+    },
+    {
+     "n": "The Sun",
+     "u": "https://thesun.ng/uduere-killings-police-arrest-4-declare-manhunt-for-14-suspects/"
+    }
+   ]
+  },
+  {
+   "h": "Guinea-Bissau split over two-year delay in polls",
+   "p": "Reactions are divided in Guinea-Bissau after the military government announced on Thursday that presidential and legislative elections planned for next month will be pushed back to 2028, Voice of Nigeria and Africanews report. Some residents of Bissau voiced disappointment. The army had promised a return to civilian rule one year after taking power in November 2025.",
+   "stat": "2028",
+   "statl": "New election date",
+   "lbl": "fact",
+   "cat": "World · Africa",
+   "sec": [
+    "world"
+   ],
+   "src": "Voice of Nigeria",
+   "url": "https://von.gov.ng/mixed-reactions-trail-guinea-bissaus-two-year-election-postponement/",
+   "pub": "2026-11-28T15:59+01:00",
+   "d": "28.11.2026",
+   "t": "15:59",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Africanews",
+     "u": "http://www.africanews.com/2026/11/28/mixed-reaction-in-guinea-bissau-to-news-of-two-year-delay-in-elections/"
+    }
+   ]
+  },
+  {
+   "h": "Nollywood stars seek help for Ngozi Nwosu's surgery",
+   "p": "Veteran Nollywood actress Ngozi Nwosu was visited in hospital by colleagues including Sola Sobowale and Ebele Okaro, who appealed to the public for donations as she prepares for another operation, Punch and Legit.ng report. The actors asked fans and well-wishers to support her medical bills. Details of her condition were not given in the reports.",
+   "stat": "Nollywood",
+   "statl": "Appeal for actress",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/nollywood-stars-visit-ngozi-nwosu-in-hospital-appeal-for-donations/",
+   "pub": "2026-11-28T15:52+01:00",
+   "d": "28.11.2026",
+   "t": "15:52",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Legit.ng",
+     "u": "https://www.legit.ng/entertainment/nollywood/1743780-nollywood-stars-visit-ngozi-nwosu-hospital-seek-support-surgery/"
+    }
+   ]
+  },
+  {
+   "h": "Ogun sets up N40m interest-free fund for traders",
+   "p": "A revolving fund of N40 million, free of interest, is being set up by Ogun Governor Dapo Abiodun for Ijebu-Ode's young traders, plus another round of tractors and farm equipment for farmers, New Telegraph and Premium Times report. Premium Times says he also cut market shop rents by 40 per cent, improved market security and backed the push for an Ijebu-Remo state.",
+   "stat": "N40m",
+   "statl": "Support for young traders",
+   "lbl": "fact",
+   "cat": "Nigeria · Ogun",
+   "sec": [
+    "business"
+   ],
+   "src": "Premium Times",
+   "url": "https://www.premiumtimesng.com/news/928601-abiodun-unveils-n40m-market-support-promises-farmers-more-tractors.html",
+   "pub": "2026-11-28T15:49+01:00",
+   "d": "28.11.2026",
+   "t": "15:49",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Ogun",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "New Telegraph",
+     "u": "https://newtelegraphng.com/abiodun-unveils-n40m-market-support-promises-farmers-more-tractors/"
+    }
+   ]
+  },
+  {
+   "h": "NIS has enrolled 25,663 in UK passport drive",
+   "p": "The Nigeria Immigration Service says 25,663 Nigerians living in the United Kingdom have now been enrolled for passports in its ongoing special drive there, Peoples Gazette reports. According to the service, 545 applicants were captured on Friday alone at its centres in London and Manchester. The service runs the drive so that Nigerians in Britain can apply for and renew passports without travelling home.",
+   "stat": "25,663",
+   "statl": "Enrolled in UK so far",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "world"
+   ],
+   "src": "Peoples Gazette",
+   "url": "https://gazettengr.com/nis-enrols-25663-nigerians-in-uk-passport-drive/",
+   "pub": "2026-11-28T15:47+01:00",
+   "d": "28.11.2026",
+   "t": "15:47",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "LUTH's training schools graduate 364 students",
+   "p": "Schools run by LUTH, the teaching hospital of the University of Lagos, graduated 364 students on Friday, the News Agency of Nigeria reports. The hospital's Chief Medical Director spoke at the ceremony, held at the teaching hospital in Lagos. LUTH's schools train health workers who go on to serve in hospitals and clinics in the state and beyond.",
+   "stat": "364",
+   "statl": "Health trainees graduate",
+   "lbl": "fact",
+   "cat": "Nigeria · Lagos",
+   "sec": [
+    "lagos"
+   ],
+   "src": "News Agency of Nigeria",
+   "url": "https://nannews.ng/luth-schools-graduate-364-students/",
+   "pub": "2026-11-28T15:47+01:00",
+   "d": "28.11.2026",
+   "t": "15:47",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Lagos",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Lagos drivers' institute installs driving simulators",
+   "p": "The Lagos State Drivers' Institute (LASDRI) has started putting driving simulators in place across Lagos working with Toplorgical Limited, a software and fintech firm from Lagos, Silverbird TV reports. The machines let learners practise road situations before getting behind a real wheel. LASDRI says the project should improve driver training, cut crashes and modernise transport in the state.",
+   "stat": "LASDRI",
+   "statl": "Simulators for learners",
+   "lbl": "fact",
+   "cat": "Nigeria · Lagos",
+   "sec": [
+    "lagos"
+   ],
+   "src": "Silverbird TV",
+   "url": "https://silverbirdtv.com/lasdri-toplorgical-partner-begin-installation-of-driving-simulators-across-lagos/",
+   "pub": "2026-11-28T15:40+01:00",
+   "d": "28.11.2026",
+   "t": "15:40",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Lagos",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Ghana's Mahama hands three new aircraft to air force",
+   "p": "Ghana's President John Mahama has handed over three newly bought aircraft to his country's air force, including an Airbus H175 helicopter, Voice of Nigeria reports. They were purchased under defence agreements Ghana's parliament approved last December, as part of a plan to modernise the country's armed forces and improve its ability to defend itself.",
+   "stat": "3",
+   "statl": "New aircraft for Ghana",
+   "lbl": "fact",
+   "cat": "World · Africa",
+   "sec": [
+    "world"
+   ],
+   "src": "Voice of Nigeria",
+   "url": "https://von.gov.ng/mahama-hands-over-three-new-aircraft-to-ghana-air-force/",
+   "pub": "2026-11-28T15:38+01:00",
+   "d": "28.11.2026",
+   "t": "15:38",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "23 Super Falcons now in camp for Algeria friendlies",
+   "p": "Five more Super Falcons arrived in Algeria late on Friday, lifting the camp from 18 to 23 players before two friendlies against the hosts, Complete Sports reports. The newcomers are Oluwatosin Demehin (Benfica), Shakirat Moshood (Torreense), Joy Omewa (BK Häcken), Blessing Okpe (Dnepr Mogilev) and Christy Ucheibe (Al-Hilal). Captain Asisat Oshoala was among the earlier arrivals, Vanguard reported.",
+   "stat": "23",
+   "statl": "Players now in camp",
+   "lbl": "fact",
+   "cat": "Sports",
+   "sec": [
+    "sports"
+   ],
+   "src": "Complete Sports",
+   "url": "https://www.completesports.com/super-falcons-camp-swells-to-23-ahead-of-algeria-friendly-games/",
+   "pub": "2026-11-28T15:37+01:00",
+   "d": "28.11.2026",
+   "t": "15:37",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Vanguard",
+     "u": "https://www.vanguardngr.com/2026/11/full-listsuper-falcons-arrivals-rise-to-18-ahead-of-algeria-friendlies/"
+    }
+   ]
+  },
+  {
+   "h": "Benin gets drones to spray mosquito breeding sites",
+   "p": "The Republic of Benin now has its first drones to spray places where mosquitoes breed, and a new vaccination centre has opened in Cotonou, Voice of Nigeria reports. The equipment comes from partners Japan, UNICEF and the vaccine alliance Gavi. The aim is to help Nigeria's western neighbour prevent malaria and raise vaccine coverage.",
+   "stat": "Drones",
+   "statl": "New malaria weapon",
+   "lbl": "fact",
+   "cat": "World · Africa",
+   "sec": [
+    "world"
+   ],
+   "src": "Voice of Nigeria",
+   "url": "https://von.gov.ng/benin-republic-deploys-drones-in-fight-against-malaria/",
+   "pub": "2026-11-28T15:28+01:00",
+   "d": "28.11.2026",
+   "t": "15:28",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "INEC says risk map flags areas for extra security",
+   "p": "INEC has assessed security across the country using its Election Risk Management (ERM) tools, chairman Prof. Joash Amupitan says, to find areas that need special attention before the 2027 elections, PM News reports. Vanguard quotes him saying INEC and the security agencies are working together on all security concerns, including protection for polling units.",
+   "stat": "2027",
+   "statl": "Polling unit security plan",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "PM News",
+   "url": "https://pmnewsnigeria.com/2026/11/28/2027-inec-raises-security-alert-seeks-special-protection-for-polling-units/",
+   "pub": "2026-11-28T15:25+01:00",
+   "d": "28.11.2026",
+   "t": "15:25",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Vanguard",
+     "u": "https://www.vanguardngr.com/2026/11/inec-security-agencies-addressing-security-concerns-ahead-of-2027-polls-amupitan/"
+    }
+   ]
+  },
+  {
+   "h": "Shettima says Atiku and Obi are not running to win",
+   "p": "Vice-President Kashim Shettima told the APC presidential rally in Enugu on Saturday that Atiku Abubakar (ADC) and Peter Obi (NDC) are in the 2027 race for money and to stir trouble, not to win, Punch, PM News and TVC News report. He said he was confident President Tinubu would beat them. Neither opposition camp's response was in these reports.",
+   "stat": "Enugu",
+   "statl": "APC rally remarks",
+   "lbl": "claim",
+   "cat": "Nigeria · Enugu",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/2027-atiku-obi-not-contesting-to-win-says-shettima/",
+   "pub": "2026-11-28T15:22+01:00",
+   "d": "28.11.2026",
+   "t": "15:22",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Enugu",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "PM News",
+     "u": "https://pmnewsnigeria.com/2026/11/28/shettima-mocks-atiku-obi-says-they-want-money-not-aso-rock/"
+    },
+    {
+     "n": "TVC News",
+     "u": "https://www.tvcnews.tv/shettima-accuses-atiku-obi-of-seeking-money-mischief-ahead-of-2027-election/"
+    }
+   ]
+  },
+  {
+   "h": "Dangote refinery shares to list on NGX on Dec 1",
+   "p": "On Tuesday, 1 December, 125.46 billion shares of the Dangote refinery company are due to start trading on the NGX's main board at N525 each, Vanguard reports. At that price the listing is worth about N65.87 trillion, which would be added to the exchange's total value. The listing comes after the company's initial public offer of shares.",
+   "stat": "N65.87tn",
+   "statl": "Value added to NGX",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Vanguard",
+   "url": "https://www.vanguardngr.com/2026/11/dangote-refinery-set-to-list-on-ngx-december-1/",
+   "pub": "2026-11-28T15:19+01:00",
+   "d": "28.11.2026",
+   "t": "15:19",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Tinubu tells Enugu rally East gas pipeline approved",
+   "p": "Speaking at the APC rally in Enugu on Saturday, President Bola Tinubu said approval has been given for the Eastern Gas Pipeline and a rail line for the East, and promised better electricity in the South-East, Vanguard and Daily Post report. He said he was working with Governor Peter Mbah, who, according to Punch, unveiled an 'Enugu Declaration' backing Tinubu's re-election.",
+   "stat": "Pipeline",
+   "statl": "Projects named at rally",
+   "lbl": "claim",
+   "cat": "Nigeria · Enugu",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "Vanguard",
+   "url": "https://www.vanguardngr.com/2026/11/electricityll-improve-mbah-and-i-are-working-on-eastern-gas-pipeline-tinubu/",
+   "pub": "2026-11-28T15:04+01:00",
+   "d": "28.11.2026",
+   "t": "15:04",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Enugu",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Daily Post",
+     "u": "https://dailypost.ng/2026/11/28/2027-eastern-gas-pipeline-railway-approved-tinubu-tells-igbos-2/"
+    },
+    {
+     "n": "Punch",
+     "u": "https://punchng.com/2027-mbah-unveils-enugu-declaration-urges-south-east-to-back-tinubu/"
+    }
+   ]
+  },
+  {
+   "h": "Nigerian-born priest named bishop in Wales",
+   "p": "Pope Leo XIV has named Canon Benedict Oladipo Koledoye, a 55-year-old Nigerian-born priest, as an auxiliary bishop for the Catholic church in Cardiff-Menevia, Wales, Daily Post and Punch report. The appointment was made public by the bishops' conference. Reports say he becomes the first Black Latin Rite priest to become a bishop there or in England.",
+   "stat": "55",
+   "statl": "Age of new bishop",
+   "lbl": "fact",
+   "cat": "World",
+   "sec": [
+    "world"
+   ],
+   "src": "Daily Post",
+   "url": "https://dailypost.ng/2026/11/28/pope-leo-elevates-nigerian-priest-to-bishop-in-wales/",
+   "pub": "2026-11-28T15:03+01:00",
+   "d": "28.11.2026",
+   "t": "15:03",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Punch",
+     "u": "https://punchng.com/pope-appoints-nigerian-priest-auxiliary-bishop-in-wales/"
+    }
+   ]
+  },
+  {
+   "h": "IGP Disu calls for more intelligence sharing",
+   "p": "Police chief Olatunji Disu, the Inspector-General, has urged Nigeria's security agencies to share intelligence faster, cooperate more and plan joint operations, Voice of Nigeria reports. In a keynote address read on his behalf at an awards event where he was honoured, he said no single agency can defeat criminal networks that operate across state and agency boundaries.",
+   "stat": "IGP",
+   "statl": "Call for joint action",
+   "lbl": "opinion",
+   "cat": "Nigeria",
+   "sec": [
+    "security"
+   ],
+   "src": "Voice of Nigeria",
+   "url": "https://von.gov.ng/igp-calls-for-stronger-intelligence-sharing-receives-award/",
+   "pub": "2026-11-28T15:02+01:00",
+   "d": "28.11.2026",
+   "t": "15:02",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Army adds over 6,400 new soldiers at Zaria depot",
+   "p": "Chief of Army Staff Lt Gen Waidi Shaibu has welcomed the army's 91st regular recruit intake into service at its depot in Zaria, Kaduna State, according to an army statement reported by Daily Post and TVC News. Both put the number at 6,419 soldiers; Peoples Gazette reports 6,490. The army says the recruits will strengthen operations against terrorism and banditry.",
+   "stat": "6,419",
+   "statl": "Recruits join the army",
+   "lbl": "fact",
+   "cat": "Nigeria · Kaduna",
+   "sec": [
+    "security"
+   ],
+   "src": "Daily Post",
+   "url": "https://dailypost.ng/2026/11/28/nigerian-army-expansion-coas-inducts-6419-combat-ready-soldiers-at-depot-zaria/",
+   "pub": "2026-11-28T14:55+01:00",
+   "d": "28.11.2026",
+   "t": "14:55",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Kaduna",
+   "lang": "en",
+   "vs": "official",
+   "srcs": [
+    {
+     "n": "TVC News",
+     "u": "https://www.tvcnews.tv/nigerian-army-inducts-6419-combat-ready-soldiers-in-zaria/"
+    },
+    {
+     "n": "Peoples Gazette",
+     "u": "https://gazettengr.com/army-deploys-6490-new-soldiers-to-tackle-banditry-insurgency/"
+    }
+   ]
+  },
+  {
+   "h": "Adamawa gets five CNG buses for free rides plan",
+   "p": "Adamawa State has received five buses that run on compressed natural gas from the Federal Government under the Presidential CNG Initiative, Daily Post reports. Governor Ahmadu Fintiri plans to use them for a free transport scheme for residents. The federal programme supplies gas-powered vehicles to states to lower travel costs after the removal of the petrol subsidy.",
+   "stat": "5 buses",
+   "statl": "CNG buses for Adamawa",
+   "lbl": "fact",
+   "cat": "Nigeria · Adamawa",
+   "sec": [
+    "politics"
+   ],
+   "src": "Daily Post",
+   "url": "https://dailypost.ng/2026/11/28/adamawa-receives-fgs-5-cng-buses-as-fintiri-reiterates-free-transport-plan/",
+   "pub": "2026-11-28T14:28+01:00",
+   "d": "28.11.2026",
+   "t": "14:28",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Adamawa",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Defence minister wants universities in security plans",
+   "p": "Defence Minister Gen. Christopher Musa (retd) has called for Nigerian universities to be brought formally into the country's security architecture, ThisDay and Nigerian Tribune report. He said universities should play a bigger role in tackling insecurity and should be linked more closely with the armed forces and other agencies that protect the country.",
+   "stat": "Musa",
+   "statl": "Universities and security",
+   "lbl": "opinion",
+   "cat": "Nigeria",
+   "sec": [
+    "security"
+   ],
+   "src": "ThisDay",
+   "url": "https://www.thisdaylive.com/2026/11/28/defence-minister-calls-for-integration-of-nigerian-universities-into-national-security-architecture/",
+   "pub": "2026-11-28T14:06+01:00",
+   "d": "28.11.2026",
+   "t": "14:06",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Nigerian Tribune",
+     "u": "https://tribuneonlineng.com/insecurity-defence-minister-tasks-universities-on-national-security/"
+    }
+   ]
+  },
+  {
+   "h": "Babcock plans solar and gas for 24-hour power",
+   "p": "Babcock University in Ogun State plans to invest in solar and gas power to expand its 1.2MW independent plant, with the goal of electricity on campus 24 hours a day, Punch reports. Vice-Chancellor Afolarin Ojewole announced the plan. He did not give a cost or a completion date in the report.",
+   "stat": "1.2MW",
+   "statl": "Existing campus plant",
+   "lbl": "claim",
+   "cat": "Nigeria · Ogun",
+   "sec": [
+    "business"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/babcock-targets-24-hour-power-supply-with-solar-gas-investments/",
+   "pub": "2026-11-28T13:45+01:00",
+   "d": "28.11.2026",
+   "t": "13:45",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Ogun",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "NASD index rises for fourth day in a row",
+   "p": "The NASD over-the-counter securities exchange gained 1.16 per cent on 27 November, its fourth straight gain of the week, Business Post reports. Shares of FrieslandCampina Wamco and CSCS led the market up. FrieslandCampina's share price went from N154.02 to N162.12, a rise of 5.3 per cent on the day.",
+   "stat": "+1.16%",
+   "statl": "NASD OTC on Friday",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Business Post",
+   "url": "https://businesspost.ng/economy/frieslandcampina-cscs-drive-nasd-index-to-fourth-straight-growth/",
+   "pub": "2026-11-28T13:37+01:00",
+   "d": "28.11.2026",
+   "t": "13:37",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
   {
    "h": "Wanogho lifts Nigeria's first gold at para worlds",
    "p": "Cynthia Wanogho has given Nigeria its first gold medal at this year's World Para Powerlifting Championships, being held in Bahrain's capital, Manama. Competing on Saturday in the women's category for athletes up to 50kg, she won with a lift of 112kg, according to Premium Times and Complete Sports. Complete Sports says the event was her first appearance at an international competition.",
@@ -34,179 +686,8 @@
    ]
   },
   {
-   "h": "Abuja court sentences two to death over 2022 NYSC killing",
-   "p": "A High Court of the FCT in Zuba, Abuja, has handed death sentences to two people over the 2022 abduction and murder of a female corps member, FCT police said on Friday. The court found them guilty of culpable homicide under the Penal Code. Premium Times reports that a third person received a prison term over the abduction.",
-   "stat": "2",
-   "statl": "Sentenced to death",
-   "lbl": "fact",
-   "cat": "Nigeria · Abuja",
-   "sec": [
-    "security"
-   ],
-   "src": "Premium Times",
-   "url": "https://www.premiumtimesng.com/news/top-news/928561-court-sentences-two-to-death-for-murder-of-nysc-member.html",
-   "pub": "2026-11-28T10:37+01:00",
-   "d": "28.11.2026",
-   "t": "10:37",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Abuja",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "The ICIR",
-     "u": "https://www.icirnigeria.org/court-sentences-two-to-death-for-murder-of-nysc-member-in-abuja/"
-    },
-    {
-     "n": "AIT News",
-     "u": "https://ait.live/fct-court-sentences-two-to-death-by-hanging-over-murder-of-nysc-member/"
-    },
-    {
-     "n": "The Whistler",
-     "u": "https://thewhistler.ng/two-to-die-by-hanging-for-killing-nysc-member/"
-    }
-   ]
-  },
-  {
-   "h": "Lagos halts trucks in Magodo land row, calls truce",
-   "p": "The Lagos State Government has suspended the movement of trucks and ordered the release of people held over a land dispute between the Magodo Residents Association and Shangisha landlords. Attorney-General Lawal Pedro, SAN, met both sides on Thursday, and the state announced a one-week truce. The row is over access to alternative land given to the landlords, The Eagle Online reports.",
-   "stat": "1 week",
-   "statl": "Truce ordered by Lagos",
-   "lbl": "fact",
-   "cat": "Nigeria · Lagos",
-   "sec": [
-    "lagos"
-   ],
-   "src": "PM News",
-   "url": "https://pmnewsnigeria.com/2026/11/27/lagos-orders-one-week-truce-in-magodo-shangisa-landlords-dispute/",
-   "pub": "2026-11-27T17:50+01:00",
-   "d": "27.11.2026",
-   "t": "17:50",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Lagos",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "The Eagle Online",
-     "u": "https://theeagleonline.com.ng/magodo-land-dispute-lagos-suspends-truck-movement-orders-suspects-release/"
-    }
-   ]
-  },
-  {
-   "h": "Fashola says APC will not lose Lagos to Obi again",
-   "p": "Former works and power minister Babatunde Fashola says the APC was caught off guard when Peter Obi won Lagos in the 2023 presidential vote, but has learnt from it and will not let it recur in 2027. ThisDay reports that he said the party's polls had not seen Lagos as a battleground, and that he wants longer jail terms, not death, for election riggers.",
-   "stat": "2027",
-   "statl": "Fashola on Lagos race",
-   "lbl": "opinion",
-   "cat": "Nigeria · Lagos",
-   "sec": [
-    "politics",
-    "election"
-   ],
-   "src": "ThisDay",
-   "url": "https://www.thisdaylive.com/2026/11/28/fashola-apc-wont-let-peter-obi-repeat-2023-lagos-upset/",
-   "pub": "2026-11-28T04:17+01:00",
-   "d": "28.11.2026",
-   "t": "04:17",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Lagos",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "The Eagle Online",
-     "u": "https://theeagleonline.com.ng/obis-2023-lagos-victory-wont-happen-again-fashola/"
-    }
-   ]
-  },
-  {
-   "h": "Ogun police arrest 24 at Abeokuta secretariat",
-   "p": "Ogun police say they arrested 24 people for unlawful assembly at the state secretariat in Oke-Mosan, Abeokuta, at about 5pm on Thursday. Police spokesperson DSP Oluseyi Babaseyi said the command acted on information about a gathering seen as a threat to public order. Outlets describe the group as members of a 'Yoruba republic' movement; police say knives and charms were recovered.",
-   "stat": "24",
-   "statl": "Arrested, police say",
-   "lbl": "fact",
-   "cat": "Nigeria · Ogun",
-   "sec": [
-    "security"
-   ],
-   "src": "PM News",
-   "url": "https://pmnewsnigeria.com/2026/11/28/police-arrest-dock-24-members-of-republic-of-yoruba-movement-in-ogun/",
-   "pub": "2026-11-28T08:16+01:00",
-   "d": "28.11.2026",
-   "t": "08:16",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Ogun",
-   "lang": "en",
-   "vs": "official",
-   "srcs": [
-    {
-     "n": "Peoples Gazette",
-     "u": "https://gazettengr.com/24-armed-democratic-republic-of-yoruba-members-nabbed-in-ogun-police/"
-    }
-   ]
-  },
-  {
-   "h": "Naira gains 1.5% to N1,367 per dollar",
-   "p": "The naira rose 1.5 per cent, a gain of N20.53, against the US dollar at the official market on Friday, November 27, closing at N1,367.36 compared with N1,387.89 a day earlier, Business Post reports. The paper linked the gain to better foreign exchange liquidity. The Nigerian Tribune, citing CBN data, also reported the naira gaining ground, and it rose against the pound too.",
-   "stat": "N1,367",
-   "statl": "Per dollar, official rate",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "Business Post",
-   "url": "https://businesspost.ng/economy/naira-trades-n1367-1-at-official-market-on-improved-fx-liquidity/",
-   "pub": "2026-11-28T12:45+01:00",
-   "d": "28.11.2026",
-   "t": "12:45",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Nigerian Tribune",
-     "u": "https://tribuneonlineng.com/naira-appreciates-against-dollar-at-official-fx-market-15/"
-    }
-   ]
-  },
-  {
-   "h": "CBN aims for $1.5bn forex inflows a month",
-   "p": "Central Bank governor Olayemi Cardoso says the CBN wants foreign exchange inflows to reach $1.5 billion every month in the January–March quarter of 2027. Speaking at an event on Friday, he said the goal is part of efforts to add liquidity to the FX market, build investor confidence and keep the naira stable, the Nigerian Tribune reports.",
-   "stat": "$1.5bn",
-   "statl": "Monthly FX inflow target",
-   "lbl": "claim",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "Nigerian Tribune",
-   "url": "https://tribuneonlineng.com/cbn-targets-1-5bn-monthly-forex-inflows-by-q1-2027-cardoso/",
-   "pub": "2026-11-28T11:57+01:00",
-   "d": "28.11.2026",
-   "t": "11:57",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Nigerian stocks end week 0.34% higher",
-   "p": "The Nigerian Exchange closed Friday's session 0.34 per cent up as investors picked shares of firms with solid earnings and growth or dividend prospects, Business Post reports. Its analysis shows consumer goods was the only sector to finish lower, slipping 0.02 per cent, while the other main sectors gained during the day.",
+   "h": "Nigerian stocks gain 0.34% on Friday, lose 1.11% in week",
+   "p": "The Nigerian Exchange closed Friday's session 0.34 per cent up as investors picked shares with solid earnings or dividend prospects, Business Post reports, with consumer goods the only main sector to slip. Over the whole week, however, the All-Share Index fell 1.11 per cent to 244,912.17 points, Nairametrics says, after a 1.83 per cent drop the week before.",
    "stat": "+0.34%",
    "statl": "NGX on Friday",
    "lbl": "fact",
@@ -224,51 +705,17 @@
    "st": "NG",
    "loc": "",
    "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "18 Super Falcons in camp for Algeria friendlies",
-   "p": "Eighteen players have now reported to the Super Falcons' camp ahead of two friendly matches against Algeria, Vanguard reports. Those already in camp include captain Asisat Oshoala as well as Chiamaka Nnadozie, Michelle Alozie and Jennifer Echegini. The friendlies are part of the team's preparations, and more names could still be added to the camp list.",
-   "stat": "18",
-   "statl": "Players in camp",
-   "lbl": "fact",
-   "cat": "Sports",
-   "sec": [
-    "sports"
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Nairametrics",
+     "u": "https://nairametrics.com/2026/11/28/best-performing-nigerian-stocks-for-the-week-ended-november-27-2026/"
+    }
    ],
-   "src": "Vanguard",
-   "url": "https://www.vanguardngr.com/2026/11/full-listsuper-falcons-arrivals-rise-to-18-ahead-of-algeria-friendlies/",
-   "pub": "2026-11-28T11:47+01:00",
-   "d": "28.11.2026",
-   "t": "11:47",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Mashaba becomes Johannesburg mayor in ANC deal",
-   "p": "Herman Mashaba of ActionSA has been elected mayor of Johannesburg, South Africa's biggest city, under a power-sharing arrangement with the African National Congress, Africanews reports. The coalition deal means the ANC keeps a role in running the city while Mashaba takes the city's top job after the vote.",
-   "stat": "Joburg",
-   "statl": "New mayor elected",
-   "lbl": "fact",
-   "cat": "World · Africa",
-   "sec": [
-    "world"
-   ],
-   "src": "Africanews",
-   "url": "http://www.africanews.com/2026/11/28/south-africa-new-johannesburg-mayor-elected-in-power-sharing-deal-with-anc/",
-   "pub": "2026-11-28T11:32+01:00",
-   "d": "28.11.2026",
-   "t": "11:32",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "South Africa",
-   "lang": "en",
-   "vs": "single"
+   "corr": {
+    "at": "28.11.2026 16:46",
+    "en": "The headline said stocks ended the week 0.34% higher. The 0.34% gain was for Friday only; the All-Share Index fell 1.11% over the week."
+   }
   },
   {
    "h": "INEC chief says 2027 polls will beat Osun record",
@@ -308,6 +755,62 @@
    ]
   },
   {
+   "h": "Naira gains 1.5% to N1,367 per dollar",
+   "p": "The naira rose 1.5 per cent, a gain of N20.53, against the US dollar at the official market on Friday, November 27, closing at N1,367.36 compared with N1,387.89 a day earlier, Business Post reports. The paper linked the gain to better foreign exchange liquidity. The Nigerian Tribune, citing CBN data, also reported the naira gaining ground, and it rose against the pound too.",
+   "stat": "N1,367",
+   "statl": "Per dollar, official rate",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Business Post",
+   "url": "https://businesspost.ng/economy/naira-trades-n1367-1-at-official-market-on-improved-fx-liquidity/",
+   "pub": "2026-11-28T12:45+01:00",
+   "d": "28.11.2026",
+   "t": "12:45",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Nigerian Tribune",
+     "u": "https://tribuneonlineng.com/naira-appreciates-against-dollar-at-official-fx-market-15/"
+    }
+   ]
+  },
+  {
+   "h": "Three dead in Cross River communal clash",
+   "p": "Police say three people lost their lives and two houses were set on fire when youths from Ijiman and Akamkpa wards clashed in Ago-I Ekpo community in the Yakurr council area of Cross River. Daily Post reports that the fighting started on Friday evening after a disagreement between rival youth groups, that several young people were hurt and that other houses were damaged.",
+   "stat": "3",
+   "statl": "Dead, police say",
+   "lbl": "fact",
+   "cat": "Nigeria · Cross River",
+   "sec": [
+    "security"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/three-killed-houses-burnt-in-cross-river-communal-clash/",
+   "pub": "2026-11-28T12:44+01:00",
+   "d": "28.11.2026",
+   "t": "12:44",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Cross River",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Daily Post",
+     "u": "https://dailypost.ng/2026/11/28/3-killed-houses-burnt-in-cross-river-communal-clash/"
+    }
+   ]
+  },
+  {
    "h": "Tinubu holds APC campaign rally in Enugu",
    "p": "President Bola Tinubu and First Lady Oluremi Tinubu arrived in Enugu on Saturday for an APC presidential campaign rally at Michael Okpara Square, part of his South-East re-election tour. Punch reports thousands of supporters at the venue. TVC News says Enugu's council of traditional rulers endorsed him and gave him the title 'Nwanne Di Namba', which translates as a brother from a different land.",
    "stat": "Enugu",
@@ -341,70 +844,25 @@
    ]
   },
   {
-   "h": "Obi and Kwankwaso hold town hall in Uyo",
-   "p": "NDC presidential candidate Peter Obi and his running mate Rabiu Kwankwaso are taking their 2027 campaign to Akwa Ibom, with a town hall meeting with supporters in Uyo on Saturday, Punch reports. The visit is the latest stop in the pair's campaign tour of the states ahead of the 2027 general election.",
-   "stat": "Uyo",
-   "statl": "Campaign town hall",
+   "h": "Kenya Airways seeks $1.5bn strategic investor",
+   "p": "Kenya Airways wants to raise about $1.5 billion, a mix of debt and new equity, from a strategic investor by the middle of 2027, chairman Kiprono Kittony told Reuters on Friday, November 27. Nairametrics reports the airline hopes the money will strengthen its balance sheet and ease growing financial pressure on the carrier.",
+   "stat": "$1.5bn",
+   "statl": "Funding target",
    "lbl": "fact",
-   "cat": "Nigeria · Akwa Ibom",
+   "cat": "World · Africa",
    "sec": [
-    "politics",
-    "election"
+    "business",
+    "world"
    ],
-   "src": "Punch",
-   "url": "https://punchng.com/2027-obi-kwankwaso-take-campaign-to-akwa-ibom/",
-   "pub": "2026-11-28T12:21+01:00",
+   "src": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/28/kenya-airways-targets-1-5-billion-strategic-investment-by-mid-2027/",
+   "pub": "2026-11-28T12:34+01:00",
    "d": "28.11.2026",
-   "t": "12:21",
+   "t": "12:34",
    "col": "--c-gov",
    "pic": "logo",
    "st": "NG",
-   "loc": "Akwa Ibom",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Kano APC sets rallies in all 44 councils",
-   "p": "The Kano State APC campaign council has published its timetable for the 2027 campaign, with rallies planned across all 44 local government areas of the state starting on November 29, 2026, Punch reports. The council asked party members and supporters to keep the campaign events peaceful.",
-   "stat": "44",
-   "statl": "LGAs on rally list",
-   "lbl": "fact",
-   "cat": "Nigeria · Kano",
-   "sec": [
-    "politics",
-    "election"
-   ],
-   "src": "Punch",
-   "url": "https://punchng.com/2027-kano-apc-unveils-campaign-timetable-urges-peaceful-rallies/",
-   "pub": "2026-11-28T11:40+01:00",
-   "d": "28.11.2026",
-   "t": "11:40",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Kano",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Babcock plans solar and gas for 24-hour power",
-   "p": "Babcock University in Ogun State plans to invest in solar and gas power to expand its 1.2MW independent plant, with the goal of electricity on campus 24 hours a day, Punch reports. Vice-Chancellor Afolarin Ojewole announced the plan. He did not give a cost or a completion date in the report.",
-   "stat": "1.2MW",
-   "statl": "Existing campus plant",
-   "lbl": "claim",
-   "cat": "Nigeria · Ogun",
-   "sec": [
-    "business"
-   ],
-   "src": "Punch",
-   "url": "https://punchng.com/babcock-targets-24-hour-power-supply-with-solar-gas-investments/",
-   "pub": "2026-11-28T13:45+01:00",
-   "d": "28.11.2026",
-   "t": "13:45",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Ogun",
+   "loc": "",
    "lang": "en",
    "vs": "single"
   },
@@ -431,50 +889,6 @@
    "vs": "single"
   },
   {
-   "h": "Kwara starts 16 days of action against GBV",
-   "p": "The Kwara State Government, working with the European Union and UNFPA, has begun its 2026 '16 Days of Activism' against gender-based violence with a road walk and awareness campaign. The walk set off from the Ministry of Women Affairs, New Telegraph reports, as part of a push to stop abuse of women and girls.",
-   "stat": "16 days",
-   "statl": "Anti-GBV campaign",
-   "lbl": "fact",
-   "cat": "Nigeria · Kwara",
-   "sec": [
-    "politics"
-   ],
-   "src": "New Telegraph",
-   "url": "https://newtelegraphng.com/kwsg-eu-unfpa-flag-off-2026-16-days-of-activism-against-gbv/",
-   "pub": "2026-11-28T11:20+01:00",
-   "d": "28.11.2026",
-   "t": "11:20",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Kwara",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "WHO: measles deaths at record low, gaps remain",
-   "p": "Global measles deaths fell to a historic low in 2025, at about 72,000, the World Health Organization reported on Friday, with an estimated 9.8 million cases. That is down roughly 91 per cent in deaths and 74 per cent in cases since 2000. But WHO warned that millions of children still miss vaccines and outbreaks continue in dozens of countries.",
-   "stat": "72,000",
-   "statl": "Measles deaths in 2025",
-   "lbl": "fact",
-   "cat": "World",
-   "sec": [
-    "world"
-   ],
-   "src": "France 24",
-   "url": "https://www.france24.com/en/world-health-organization-sounds-alarm-as-measles-fight-stalls",
-   "pub": "2026-11-28T11:34+01:00",
-   "d": "28.11.2026",
-   "t": "11:34",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "official"
-  },
-  {
    "h": "Akwa Ibom plans creative village for young talent",
    "p": "Akwa Ibom Governor Umo Eno says his government will build a creative village to train young talent, showcase the state's culture and make the creative industry a bigger source of jobs and income, including tourism. He announced the plan while receiving a well-known Nollywood filmmaker at Government House, National Accord reports.",
    "stat": "Uyo",
@@ -497,31 +911,53 @@
    "vs": "single"
   },
   {
-   "h": "Voter asks court to make INEC release Adeola's papers",
-   "p": "An Ogun resident, Ayansiji Omoniyi, has asked the Federal High Court in Abuja to order INEC and Guardian Newspapers to release certified copies of the documents and forms of Senator Solomon Adeola (Yayi), the APC's Ogun governorship candidate. He filed on behalf of concerned people from Yewa land, Silverbird TV reports. The court has not ruled.",
-   "stat": "FHC",
-   "statl": "Documents request filed",
-   "lbl": "claim",
-   "cat": "Nigeria · Ogun",
+   "h": "Obi and Kwankwaso hold town hall in Uyo",
+   "p": "NDC presidential candidate Peter Obi and his running mate Rabiu Kwankwaso are taking their 2027 campaign to Akwa Ibom, with a town hall meeting with supporters in Uyo on Saturday, Punch reports. The visit is the latest stop in the pair's campaign tour of the states ahead of the 2027 general election.",
+   "stat": "Uyo",
+   "statl": "Campaign town hall",
+   "lbl": "fact",
+   "cat": "Nigeria · Akwa Ibom",
    "sec": [
     "politics",
     "election"
    ],
-   "src": "Silverbird TV",
-   "url": "https://silverbirdtv.com/constituent-drags-inec-guardian-newspaper-to-court-over-yayis-credentials/",
-   "pub": "2026-11-27T17:43+01:00",
-   "d": "27.11.2026",
-   "t": "17:43",
+   "src": "Punch",
+   "url": "https://punchng.com/2027-obi-kwankwaso-take-campaign-to-akwa-ibom/",
+   "pub": "2026-11-28T12:21+01:00",
+   "d": "28.11.2026",
+   "t": "12:21",
    "col": "--c-gov",
    "pic": "logo",
    "st": "NG",
-   "loc": "Ogun",
+   "loc": "Akwa Ibom",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Afghanistan blast near school kills students",
+   "p": "An explosion beside a middle school in Asadabad, Afghanistan, killed students on Saturday and injured many more. Afghanistan's interior ministry told the BBC 10 students died and more than 100 were hurt, blaming carelessness at a nearby explosives depot. Al Jazeera reported at least six students dead and 97 injured. The figures differ between outlets.",
+   "stat": "10",
+   "statl": "Students dead, ministry",
+   "lbl": "fact",
+   "cat": "World",
+   "sec": [
+    "world"
+   ],
+   "src": "BBC World",
+   "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o",
+   "pub": "2026-11-28T12:18+01:00",
+   "d": "28.11.2026",
+   "t": "12:18",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
    "lang": "en",
    "vs": "confirmed",
    "srcs": [
     {
-     "n": "The Eagle Online",
-     "u": "https://theeagleonline.com.ng/ogun-indigene-drags-inec-guardian-newspaper-to-court-over-sen-adeolas-credentials/"
+     "n": "Al Jazeera",
+     "u": "https://www.aljazeera.com/video/newsfeed/2026/11/28/several-students-killed-in-blast-beside-afghan-school"
     }
    ]
   },
@@ -568,85 +1004,6 @@
    "loc": "",
    "lang": "en",
    "vs": "single"
-  },
-  {
-   "h": "Three dead in Cross River communal clash",
-   "p": "Police say three people lost their lives and two houses were set on fire when youths from Ijiman and Akamkpa wards clashed in Ago-I Ekpo community in the Yakurr council area of Cross River. Daily Post reports that the fighting started on Friday evening after a disagreement between rival youth groups, that several young people were hurt and that other houses were damaged.",
-   "stat": "3",
-   "statl": "Dead, police say",
-   "lbl": "fact",
-   "cat": "Nigeria · Cross River",
-   "sec": [
-    "security"
-   ],
-   "src": "Punch",
-   "url": "https://punchng.com/three-killed-houses-burnt-in-cross-river-communal-clash/",
-   "pub": "2026-11-28T12:44+01:00",
-   "d": "28.11.2026",
-   "t": "12:44",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Cross River",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Daily Post",
-     "u": "https://dailypost.ng/2026/11/28/3-killed-houses-burnt-in-cross-river-communal-clash/"
-    }
-   ]
-  },
-  {
-   "h": "Kenya Airways seeks $1.5bn strategic investor",
-   "p": "Kenya Airways wants to raise about $1.5 billion, a mix of debt and new equity, from a strategic investor by the middle of 2027, chairman Kiprono Kittony told Reuters on Friday, November 27. Nairametrics reports the airline hopes the money will strengthen its balance sheet and ease growing financial pressure on the carrier.",
-   "stat": "$1.5bn",
-   "statl": "Funding target",
-   "lbl": "fact",
-   "cat": "World · Africa",
-   "sec": [
-    "business",
-    "world"
-   ],
-   "src": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/28/kenya-airways-targets-1-5-billion-strategic-investment-by-mid-2027/",
-   "pub": "2026-11-28T12:34+01:00",
-   "d": "28.11.2026",
-   "t": "12:34",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Afghanistan blast near school kills students",
-   "p": "An explosion beside a middle school in Asadabad, Afghanistan, killed students on Saturday and injured many more. Afghanistan's interior ministry told the BBC 10 students died and more than 100 were hurt, blaming carelessness at a nearby explosives depot. Al Jazeera reported at least six students dead and 97 injured. The figures differ between outlets.",
-   "stat": "10",
-   "statl": "Students dead, ministry",
-   "lbl": "fact",
-   "cat": "World",
-   "sec": [
-    "world"
-   ],
-   "src": "BBC World",
-   "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o",
-   "pub": "2026-11-28T12:18+01:00",
-   "d": "28.11.2026",
-   "t": "12:18",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Al Jazeera",
-     "u": "https://www.aljazeera.com/video/newsfeed/2026/11/28/several-students-killed-in-blast-beside-afghan-school"
-    }
-   ]
   },
   {
    "h": "Kano govt and Kwankwaso trade words on EFCC probe",
@@ -759,6 +1116,28 @@
    "vs": "single"
   },
   {
+   "h": "CBN aims for $1.5bn forex inflows a month",
+   "p": "Central Bank governor Olayemi Cardoso says the CBN wants foreign exchange inflows to reach $1.5 billion every month in the January–March quarter of 2027. Speaking at an event on Friday, he said the goal is part of efforts to add liquidity to the FX market, build investor confidence and keep the naira stable, the Nigerian Tribune reports.",
+   "stat": "$1.5bn",
+   "statl": "Monthly FX inflow target",
+   "lbl": "claim",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Nigerian Tribune",
+   "url": "https://tribuneonlineng.com/cbn-targets-1-5bn-monthly-forex-inflows-by-q1-2027-cardoso/",
+   "pub": "2026-11-28T11:57+01:00",
+   "d": "28.11.2026",
+   "t": "11:57",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
    "h": "Spain votes Sunday in snap general election",
    "p": "Spaniards go to the polls on Sunday in an early general election that could end Prime Minister Pedro Sánchez's eight years in power, France 24 reports. Housing costs are the main concern for voters, while immigration and population growth also feature. The Guardian notes that the vote could bring the far right into government for the first time since Franco.",
    "stat": "Sunday",
@@ -777,6 +1156,29 @@
    "pic": "logo",
    "st": "NG",
    "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Kano APC sets rallies in all 44 councils",
+   "p": "The Kano State APC campaign council has published its timetable for the 2027 campaign, with rallies planned across all 44 local government areas of the state starting on November 29, 2026, Punch reports. The council asked party members and supporters to keep the campaign events peaceful.",
+   "stat": "44",
+   "statl": "LGAs on rally list",
+   "lbl": "fact",
+   "cat": "Nigeria · Kano",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/2027-kano-apc-unveils-campaign-timetable-urges-peaceful-rallies/",
+   "pub": "2026-11-28T11:40+01:00",
+   "d": "28.11.2026",
+   "t": "11:40",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Kano",
    "lang": "en",
    "vs": "single"
   },
@@ -862,6 +1264,50 @@
    "vs": "single"
   },
   {
+   "h": "WHO: measles deaths at record low, gaps remain",
+   "p": "Global measles deaths fell to a historic low in 2025, at about 72,000, the World Health Organization reported on Friday, with an estimated 9.8 million cases. That is down roughly 91 per cent in deaths and 74 per cent in cases since 2000. But WHO warned that millions of children still miss vaccines and outbreaks continue in dozens of countries.",
+   "stat": "72,000",
+   "statl": "Measles deaths in 2025",
+   "lbl": "fact",
+   "cat": "World",
+   "sec": [
+    "world"
+   ],
+   "src": "France 24",
+   "url": "https://www.france24.com/en/world-health-organization-sounds-alarm-as-measles-fight-stalls",
+   "pub": "2026-11-28T11:34+01:00",
+   "d": "28.11.2026",
+   "t": "11:34",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "official"
+  },
+  {
+   "h": "Mashaba becomes Johannesburg mayor in ANC deal",
+   "p": "Herman Mashaba of ActionSA has been elected mayor of Johannesburg, South Africa's biggest city, under a power-sharing arrangement with the African National Congress, Africanews reports. The coalition deal means the ANC keeps a role in running the city while Mashaba takes the city's top job after the vote.",
+   "stat": "Joburg",
+   "statl": "New mayor elected",
+   "lbl": "fact",
+   "cat": "World · Africa",
+   "sec": [
+    "world"
+   ],
+   "src": "Africanews",
+   "url": "http://www.africanews.com/2026/11/28/south-africa-new-johannesburg-mayor-elected-in-power-sharing-deal-with-anc/",
+   "pub": "2026-11-28T11:32+01:00",
+   "d": "28.11.2026",
+   "t": "11:32",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "South Africa",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
    "h": "Ipswich sign Princess Ademiluyi for club record",
    "p": "Ipswich Town Women have signed forward Princess Ademiluyi on a permanent deal for a club-record fee, Soccernet NG reports. She has scored seven goals in 19 matches this season. Ademiluyi is eligible to play for Nigeria, and the report links the move with a Super Falcons call-up for the player.",
    "stat": "7 in 19",
@@ -902,6 +1348,28 @@
    "pic": "logo",
    "st": "NG",
    "loc": "Lagos",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Kwara starts 16 days of action against GBV",
+   "p": "The Kwara State Government, working with the European Union and UNFPA, has begun its 2026 '16 Days of Activism' against gender-based violence with a road walk and awareness campaign. The walk set off from the Ministry of Women Affairs, New Telegraph reports, as part of a push to stop abuse of women and girls.",
+   "stat": "16 days",
+   "statl": "Anti-GBV campaign",
+   "lbl": "fact",
+   "cat": "Nigeria · Kwara",
+   "sec": [
+    "politics"
+   ],
+   "src": "New Telegraph",
+   "url": "https://newtelegraphng.com/kwsg-eu-unfpa-flag-off-2026-16-days-of-activism-against-gbv/",
+   "pub": "2026-11-28T11:20+01:00",
+   "d": "28.11.2026",
+   "t": "11:20",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Kwara",
    "lang": "en",
    "vs": "single"
   },
@@ -1007,6 +1475,64 @@
    "vs": "single"
   },
   {
+   "h": "Abuja court sentences two to death over 2022 NYSC killing",
+   "p": "A High Court of the FCT in Zuba, Abuja, has handed death sentences to two people over the 2022 abduction and murder of a female corps member, FCT police said on Friday. The court found them guilty of culpable homicide under the Penal Code. Premium Times reports that a third person received a prison term over the abduction.",
+   "stat": "2",
+   "statl": "Sentenced to death",
+   "lbl": "fact",
+   "cat": "Nigeria · Abuja",
+   "sec": [
+    "security"
+   ],
+   "src": "Premium Times",
+   "url": "https://www.premiumtimesng.com/news/top-news/928561-court-sentences-two-to-death-for-murder-of-nysc-member.html",
+   "pub": "2026-11-28T10:37+01:00",
+   "d": "28.11.2026",
+   "t": "10:37",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Abuja",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "The ICIR",
+     "u": "https://www.icirnigeria.org/court-sentences-two-to-death-for-murder-of-nysc-member-in-abuja/"
+    },
+    {
+     "n": "AIT News",
+     "u": "https://ait.live/fct-court-sentences-two-to-death-by-hanging-over-murder-of-nysc-member/"
+    },
+    {
+     "n": "The Whistler",
+     "u": "https://thewhistler.ng/two-to-die-by-hanging-for-killing-nysc-member/"
+    }
+   ]
+  },
+  {
+   "h": "Jigawa police give N20.4m to families of late officers",
+   "p": "The Jigawa State Police Command has handed over N20.4 million to the relatives of officers who lost their lives while on duty, Punch reports. The money covers insurance payouts and welfare benefits owed to the families. It was presented at a ceremony held at the command in Dutse, the state capital, on Saturday.",
+   "stat": "N20.4m",
+   "statl": "Paid to bereaved families",
+   "lbl": "fact",
+   "cat": "Nigeria · Jigawa",
+   "sec": [
+    "security"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/police-pay-n20-4m-to-families-of-fallen-officers-in-jigawa/",
+   "pub": "2026-11-28T10:05+01:00",
+   "d": "28.11.2026",
+   "t": "10:05",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Jigawa",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
    "h": "Tinubu congratulates Taraba scholar on Qatar award",
    "p": "President Bola Tinubu has congratulated Abubakar Muhammad Kabri, an educationist and researcher from Taraba State, on winning a prize at the 12th edition of Qatar's Sheikh Hamad translation awards in Doha. State House says Kabri won in the Achievement Category for work in Fulfulde, the Fulani language, at a ceremony on November 24.",
    "stat": "12th",
@@ -1061,20 +1587,20 @@
    ]
   },
   {
-   "h": "Keystone Bank gets new acting MD, assures customers",
-   "p": "Keystone Bank Limited says its operations will continue without interruption after Murtala Mohammed took office as its acting Managing Director and Chief Executive Officer. In a message to customers, partners and other stakeholders, the lender said services would run smoothly during the change in leadership. The appointment was also reported by several business outlets on Friday.",
-   "stat": "Acting MD",
-   "statl": "New bank chief",
+   "h": "Tinubu orders push for home-grown biofuel",
+   "p": "The Energy Commission of Nigeria has been instructed by President Bola Tinubu to speed up work on producing biofuels locally, TVC News reports. The directive comes after Nigeria was admitted to the Global Bioenergy Partnership (GBEP), an international forum that promotes sustainable bioenergy. No timeline for the first local output was given.",
+   "stat": "GBEP",
+   "statl": "Nigeria joins bioenergy body",
    "lbl": "fact",
    "cat": "Nigeria",
    "sec": [
     "business"
    ],
-   "src": "PM News",
-   "url": "https://pmnewsnigeria.com/2026/11/27/keystone-bank-assures-customers-of-smooth-operations-as-new-acting-md-ceo-assumes-office/",
-   "pub": "2026-11-27T18:59+01:00",
-   "d": "27.11.2026",
-   "t": "18:59",
+   "src": "TVC News",
+   "url": "https://www.tvcnews.tv/tinubu-tasks-energy-commission-on-local-biofuel-production-after-nigeria-joins-global-partnership/",
+   "pub": "2026-11-28T09:36+01:00",
+   "d": "28.11.2026",
+   "t": "09:36",
    "col": "--c-gov",
    "pic": "logo",
    "st": "NG",
@@ -1083,52 +1609,261 @@
    "vs": "single"
   },
   {
-   "h": "Adeleke begins second term as Osun governor",
-   "p": "Ademola Adeleke took the oath for a second four-year term as Osun State governor on Friday, November 27, alongside his deputy. Vice President Kashim Shettima and former Senate President Bukola Saraki were among the guests, Arise News reports. Adeleke said he would move the state away from relying on the civil service by investing in farming, manufacturing, infrastructure and jobs.",
-   "stat": "2nd term",
-   "statl": "Sworn in, Nov 27",
+   "h": "Alake launches QR code line for mining firms",
+   "p": "Solid Minerals Development Minister Dele Alake has introduced a QR code platform that lets mining operators and host communities reach the ministry's leadership directly and flag problems affecting their work, Leadership reports. Alake said the tool should make the ministry easier to reach and quicker to respond, while improving transparency and service delivery in the sector.",
+   "stat": "QR code",
+   "statl": "New mining help line",
    "lbl": "fact",
-   "cat": "Nigeria · Osun",
+   "cat": "Nigeria",
    "sec": [
-    "politics"
+    "business"
    ],
-   "src": "The ICIR",
-   "url": "https://www.icirnigeria.org/adeleke-begins-second-term-pledges-to-transform-osun-economy/",
-   "pub": "2026-11-27T15:06+01:00",
-   "d": "27.11.2026",
-   "t": "15:06",
+   "src": "Leadership",
+   "url": "https://leadership.ng/mining-fg-unveils-qr-code-for-operators-host-communities-to-reach-ministry/",
+   "pub": "2026-11-28T09:35+01:00",
+   "d": "28.11.2026",
+   "t": "09:35",
    "col": "--c-gov",
    "pic": "logo",
    "st": "NG",
-   "loc": "Osun",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Jonathan hopeful Plateau will beat insecurity",
+   "p": "Former President Goodluck Jonathan said in Jos that he believes Plateau State will overcome its long-running security problems, praising Governor Caleb Mutfwang's unity Christmas carol festival as a tool for reconciliation. Jonathan said some of the violence is caused by people who come from outside the state and then leave, Vanguard and Peoples Gazette report.",
+   "stat": "Jos",
+   "statl": "Jonathan at unity festival",
+   "lbl": "opinion",
+   "cat": "Nigeria · Plateau",
+   "sec": [
+    "security",
+    "politics"
+   ],
+   "src": "Vanguard",
+   "url": "https://www.vanguardngr.com/2026/11/plateau-will-overcome-insecurity-jonathan-says/",
+   "pub": "2026-11-28T09:34+01:00",
+   "d": "28.11.2026",
+   "t": "09:34",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Plateau",
    "lang": "en",
    "vs": "confirmed",
    "srcs": [
     {
-     "n": "Arise News",
-     "u": "https://www.arise.tv/adeleke-begins-second-term-as-osun-governor-shettima-leads-dignitaries-at-inauguration/"
+     "n": "Peoples Gazette",
+     "u": "https://gazettengr.com/goodluck-jonathan-reveals-aggressors-behind-deadly-plateau-attacks/"
     }
    ]
   },
   {
-   "h": "Jigawa police give N20.4m to families of late officers",
-   "p": "The Jigawa State Police Command has handed over N20.4 million to the relatives of officers who lost their lives while on duty, Punch reports. The money covers insurance payouts and welfare benefits owed to the families. It was presented at a ceremony held at the command in Dutse, the state capital, on Saturday.",
-   "stat": "N20.4m",
-   "statl": "Paid to bereaved families",
+   "h": "NEXIM says it has backed 1,300 exporters with N800bn",
+   "p": "The Nigerian Export-Import Bank has lent about N800 billion to over 1,300 businesses exporting goods other than oil since it was set up in 1991, its managing director Abubakar Bello said, according to Leadership. Bello urged more processing of goods inside Nigeria before export, saying added value would help Nigeria compete in the AfCFTA single African market.",
+   "stat": "N800bn",
+   "statl": "Lent to exporters since 1991",
    "lbl": "fact",
-   "cat": "Nigeria · Jigawa",
+   "cat": "Nigeria",
    "sec": [
-    "security"
+    "business"
    ],
-   "src": "Punch",
-   "url": "https://punchng.com/police-pay-n20-4m-to-families-of-fallen-officers-in-jigawa/",
-   "pub": "2026-11-28T10:05+01:00",
+   "src": "Leadership",
+   "url": "https://leadership.ng/afcfta-nexim-bank-finances-1300-exporters-with-n800bn-seeks-more-local-processing/",
+   "pub": "2026-11-28T09:33+01:00",
    "d": "28.11.2026",
-   "t": "10:05",
+   "t": "09:33",
    "col": "--c-gov",
    "pic": "logo",
    "st": "NG",
-   "loc": "Jigawa",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Manufacturers fear 2027 polls and 15% minimum tax",
+   "p": "Nigerian manufacturers and small business groups say the 2027 election season and the new 15 per cent minimum tax under the tax reforms could cut output and profits, Leadership reports. They warned that campaign disruptions may slow trade and production and weaken investor confidence, adding to the pressure from high costs already facing factories.",
+   "stat": "15%",
+   "statl": "Minimum tax worry",
+   "lbl": "opinion",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Leadership",
+   "url": "https://leadership.ng/2027-elections-15-minimum-tax-will-worsen-business-challenges-manufacturers-warn/",
+   "pub": "2026-11-28T09:32+01:00",
+   "d": "28.11.2026",
+   "t": "09:32",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Makinde campaign accuses APC leaders over spending",
+   "p": "The campaign of Oyo governor Seyi Makinde has accused President Tinubu and APC leaders of living comfortably while ordinary Nigerians struggle. Speaking at a meeting with Allied Peoples Movement members in Abeokuta, campaign official Olafeso pointed to the presidential jet, a yacht and SUVs for appointees bought after the 2023 subsidy removal. Channels TV and The Eagle Online carried the remarks.",
+   "stat": "APM",
+   "statl": "Campaign accusation",
+   "lbl": "claim",
+   "cat": "Nigeria · Ogun",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "Channels TV",
+   "url": "https://www.channelstv.com/2026/11/28/they-are-belleful-in-abuja-luxuriating-makindes-campaign-accuses-apc-leaders-of-floating-anti-people-policies/",
+   "pub": "2026-11-28T09:28+01:00",
+   "d": "28.11.2026",
+   "t": "09:28",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Ogun",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "The Eagle Online",
+     "u": "https://theeagleonline.com.ng/tinubu-apc-leaders-enjoy-luxury-while-nigerians-battle-hunger-makinde-campaign/"
+    }
+   ]
+  },
+  {
+   "h": "S&P lifts South Africa's rating to best since 2017",
+   "p": "S&P Global Ratings has raised South Africa's long-term foreign currency credit rating to its highest level since 2017, citing better public finances, BusinessDay reports. It is the second upgrade for Africa's most industrialised economy in just over a year. Higher ratings usually lower a country's borrowing costs.",
+   "stat": "Upgrade",
+   "statl": "S&P on South Africa",
+   "lbl": "fact",
+   "cat": "World · Africa",
+   "sec": [
+    "world",
+    "business"
+   ],
+   "src": "BusinessDay",
+   "url": "https://businessday.ng/africa/article/sp-upgrades-south-africas-rating-to-highest-since-2017-on-fiscal-gains/",
+   "pub": "2026-11-28T09:24+01:00",
+   "d": "28.11.2026",
+   "t": "09:24",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Nigeria and Togo agree to build twin data parks",
+   "p": "Nigeria and Togo have agreed, in a signed MoU, on a cross-border Twin Data Park project meant to expand cloud computing capacity and digital links in the region, Voice of Nigeria reports. Communications and Digital Economy Minister Bosun Tijani signed the deal in Lagos with his counterpart from Togo. Details of cost and timelines were not given.",
+   "stat": "MoU",
+   "statl": "Nigeria–Togo data deal",
+   "lbl": "fact",
+   "cat": "Nigeria · Lagos",
+   "sec": [
+    "business",
+    "world"
+   ],
+   "src": "Voice of Nigeria",
+   "url": "https://von.gov.ng/nigeria-togo-sign-mou-on-twin-data-park-project/",
+   "pub": "2026-11-28T09:17+01:00",
+   "d": "28.11.2026",
+   "t": "09:17",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Lagos",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "US proposes tariffs on China, EU and 12 others",
+   "p": "The United States has proposed a fresh set of tariffs on 14 big trading partners, among them China and the EU, Vanguard reports. The US Trade Representative's office announced the plans on Wednesday, November 25, after an eight-month probe into what Washington describes as structural excess capacity in those economies.",
+   "stat": "14",
+   "statl": "Countries facing tariffs",
+   "lbl": "fact",
+   "cat": "World",
+   "sec": [
+    "world",
+    "business"
+   ],
+   "src": "Vanguard",
+   "url": "https://www.vanguardngr.com/2026/11/trump-proposes-new-tariffs-on-china-eu-12-others/",
+   "pub": "2026-11-28T09:13+01:00",
+   "d": "28.11.2026",
+   "t": "09:13",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Gombe women launch push for 35% of seats",
+   "p": "Women in Gombe have started a campaign called the Gombe Women Agenda, calling for 35 per cent affirmative action and reserved seats for women in the legislature, Voice of Nigeria reports. Organisers say the group is non-partisan and wants political leaders to put women's needs first and honour the pledges they give women both during and after election campaigns.",
+   "stat": "35%",
+   "statl": "Women's seat demand",
+   "lbl": "claim",
+   "cat": "Nigeria · Gombe",
+   "sec": [
+    "politics"
+   ],
+   "src": "Voice of Nigeria",
+   "url": "https://von.gov.ng/gombe-women-seek-35-affirmative-action-reserved-legislative-seats/",
+   "pub": "2026-11-28T09:11+01:00",
+   "d": "28.11.2026",
+   "t": "09:11",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Gombe",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "FG sets Dec 7 launch for its digital design standard",
+   "p": "On December 7, 2026, the Federal Government will launch what it calls the Nigerian Design System, TVC News reports. The common set of standards is meant to make government websites and online services simpler for citizens to use and to raise the quality of official digital platforms across ministries and agencies nationwide.",
+   "stat": "Dec 7",
+   "statl": "Design System launch",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "politics"
+   ],
+   "src": "TVC News",
+   "url": "https://www.tvcnews.tv/fg-unveils-nigerian-design-system-december-7-to-improve-digital-government-services/",
+   "pub": "2026-11-28T09:10+01:00",
+   "d": "28.11.2026",
+   "t": "09:10",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "UK turned down 84% of Nigerian students interviewed",
+   "p": "Roughly 84% of Nigerians called for credibility interviews on their UK study visa applications were refused over a six-month period, BusinessDay reports. The interviews are used by British authorities to test whether applicants are genuine students. BusinessDay's report covers applications from the last six months.",
+   "stat": "84%",
+   "statl": "UK visa refusals",
+   "lbl": "fact",
+   "cat": "World",
+   "sec": [
+    "world"
+   ],
+   "src": "BusinessDay",
+   "url": "https://businessday.ng/news/article/uk-rejects-84-of-nigerian-student-visa-applicants-in-six-months/",
+   "pub": "2026-11-28T09:08+01:00",
+   "d": "28.11.2026",
+   "t": "09:08",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
    "lang": "en",
    "vs": "single"
   },
@@ -1170,6 +1905,28 @@
    ]
   },
   {
+   "h": "UK plans tougher test for permanent settlement",
+   "p": "Under new UK 'earned settlement' rules due next year, any adult conviction will lead to automatic refusal of permanent residence, The Guardian reports. Ministers have been warned that even minor offences, like riding a bicycle on a footpath or an unpaid TV licence, could stop migrants from settling. The rules would cover migrants of every nationality, including Nigerians.",
+   "stat": "2027",
+   "statl": "New UK settlement rules",
+   "lbl": "fact",
+   "cat": "World",
+   "sec": [
+    "world"
+   ],
+   "src": "The Guardian",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/28/new-immigration-rules-uk-unpaid-tv-licence-cycling-pavement-adult-convictions",
+   "pub": "2026-11-28T09:00+01:00",
+   "d": "28.11.2026",
+   "t": "09:00",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
    "h": "Troops kill two suspects, rescue kidnap victim",
    "p": "Soldiers of Operation Fansan Yamma killed two suspected terrorists in Zamfara and freed a person held by kidnappers in Kaduna, in separate operations reported by Channels TV, TVC News and Peoples Gazette. According to the military, troops also seized supplies meant for the armed groups, including 26 camouflage uniforms, 26 camouflage T-shirts and 54 jungle hats.",
    "stat": "2",
@@ -1198,314 +1955,6 @@
     {
      "n": "Peoples Gazette",
      "u": "https://gazettengr.com/nigerian-soldiers-kill-iswap-terrorists-rescue-hostages-in-zamfara-kaduna/"
-    }
-   ]
-  },
-  {
-   "h": "Makinde campaign accuses APC leaders over spending",
-   "p": "The campaign of Oyo governor Seyi Makinde has accused President Tinubu and APC leaders of living comfortably while ordinary Nigerians struggle. Speaking at a meeting with Allied Peoples Movement members in Abeokuta, campaign official Olafeso pointed to the presidential jet, a yacht and SUVs for appointees bought after the 2023 subsidy removal. Channels TV and The Eagle Online carried the remarks.",
-   "stat": "APM",
-   "statl": "Campaign accusation",
-   "lbl": "claim",
-   "cat": "Nigeria · Ogun",
-   "sec": [
-    "politics",
-    "election"
-   ],
-   "src": "Channels TV",
-   "url": "https://www.channelstv.com/2026/11/28/they-are-belleful-in-abuja-luxuriating-makindes-campaign-accuses-apc-leaders-of-floating-anti-people-policies/",
-   "pub": "2026-11-28T09:28+01:00",
-   "d": "28.11.2026",
-   "t": "09:28",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Ogun",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "The Eagle Online",
-     "u": "https://theeagleonline.com.ng/tinubu-apc-leaders-enjoy-luxury-while-nigerians-battle-hunger-makinde-campaign/"
-    }
-   ]
-  },
-  {
-   "h": "Akande says Tinubu could use 10 more years",
-   "p": "Bisi Akande, a former Osun governor, believes the President ought, if it were possible, to stay in office for another ten years to finish the work he has begun, Punch and Daily Post report. Akande, a former interim national chairman of the APC, made the remarks during a media appearance. The constitution limits a president to two four-year terms.",
-   "stat": "10 years",
-   "statl": "Akande's wish for Tinubu",
-   "lbl": "opinion",
-   "cat": "Nigeria",
-   "sec": [
-    "politics",
-    "election"
-   ],
-   "src": "Punch",
-   "url": "https://punchng.com/tinubu-should-remain-in-office-for-another-10-years-if-possible-akande/",
-   "pub": "2026-11-28T08:38+01:00",
-   "d": "28.11.2026",
-   "t": "08:38",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Daily Post",
-     "u": "https://dailypost.ng/2026/11/28/let-tinubu-stay-for-10-more-years-if-possible-ex-osun-gov-bisi-akande/"
-    }
-   ]
-  },
-  {
-   "h": "Ondo police chief warns against political thuggery",
-   "p": "Ondo State police commissioner Johnson Babalola has warned that anyone who uses violence or intimidation around the 2027 elections will face firm action. In a Friday interview with Adaba FM, he said the command would not tolerate thuggery before, during or after the polls, according to Daily Post and The Sun.",
-   "stat": "2027",
-   "statl": "Police warning in Ondo",
-   "lbl": "fact",
-   "cat": "Nigeria · Ondo",
-   "sec": [
-    "security",
-    "election"
-   ],
-   "src": "Daily Post",
-   "url": "https://dailypost.ng/2026/11/28/ondo-cp-declares-war-on-political-thuggery-warns-perpetrators-ahead-of-2027/",
-   "pub": "2026-11-28T08:26+01:00",
-   "d": "28.11.2026",
-   "t": "08:26",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Ondo",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "The Sun",
-     "u": "https://thesun.ng/2027-ondo-cp-declares-war-on-political-thuggery/"
-    }
-   ]
-  },
-  {
-   "h": "Oyo Central APM candidate unveils N300m youth plan",
-   "p": "Olufemi Ajadi Oguntoyinbo, who is running for the Senate on the APM ticket for Oyo Central, has set up his campaign council and announced a N300 million empowerment programme for the district, according to the Tribune, The Sun and PM News. He also handed vehicles to campaign committees as the race for the 2027 general elections gathers pace.",
-   "stat": "N300m",
-   "statl": "Empowerment pledge",
-   "lbl": "claim",
-   "cat": "Nigeria · Oyo",
-   "sec": [
-    "politics",
-    "election"
-   ],
-   "src": "PM News",
-   "url": "https://pmnewsnigeria.com/2026/11/28/ajadi-unveils-campaign-council-rolls-out-%e2%82%a6300m-empowerment-plan-distributes-vehicles/",
-   "pub": "2026-11-28T07:59+01:00",
-   "d": "28.11.2026",
-   "t": "07:59",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Oyo",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Nigerian Tribune",
-     "u": "https://tribuneonlineng.com/2027-apms-ajadi-inaugurates-campaign-council-unveils-n300m-empowerment-plan/"
-    },
-    {
-     "n": "The Sun",
-     "u": "https://thesun.ng/2027-ajadi-unveils-campaign-council-announces-%e2%82%a6300m-empowerment-plans-shares-vehicles-to-committee/"
-    }
-   ]
-  },
-  {
-   "h": "Alake launches QR code line for mining firms",
-   "p": "Solid Minerals Development Minister Dele Alake has introduced a QR code platform that lets mining operators and host communities reach the ministry's leadership directly and flag problems affecting their work, Leadership reports. Alake said the tool should make the ministry easier to reach and quicker to respond, while improving transparency and service delivery in the sector.",
-   "stat": "QR code",
-   "statl": "New mining help line",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "Leadership",
-   "url": "https://leadership.ng/mining-fg-unveils-qr-code-for-operators-host-communities-to-reach-ministry/",
-   "pub": "2026-11-28T09:35+01:00",
-   "d": "28.11.2026",
-   "t": "09:35",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "NEXIM says it has backed 1,300 exporters with N800bn",
-   "p": "The Nigerian Export-Import Bank has lent about N800 billion to over 1,300 businesses exporting goods other than oil since it was set up in 1991, its managing director Abubakar Bello said, according to Leadership. Bello urged more processing of goods inside Nigeria before export, saying added value would help Nigeria compete in the AfCFTA single African market.",
-   "stat": "N800bn",
-   "statl": "Lent to exporters since 1991",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "Leadership",
-   "url": "https://leadership.ng/afcfta-nexim-bank-finances-1300-exporters-with-n800bn-seeks-more-local-processing/",
-   "pub": "2026-11-28T09:33+01:00",
-   "d": "28.11.2026",
-   "t": "09:33",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Nigeria and Togo agree to build twin data parks",
-   "p": "Nigeria and Togo have agreed, in a signed MoU, on a cross-border Twin Data Park project meant to expand cloud computing capacity and digital links in the region, Voice of Nigeria reports. Communications and Digital Economy Minister Bosun Tijani signed the deal in Lagos with his counterpart from Togo. Details of cost and timelines were not given.",
-   "stat": "MoU",
-   "statl": "Nigeria–Togo data deal",
-   "lbl": "fact",
-   "cat": "Nigeria · Lagos",
-   "sec": [
-    "business",
-    "world"
-   ],
-   "src": "Voice of Nigeria",
-   "url": "https://von.gov.ng/nigeria-togo-sign-mou-on-twin-data-park-project/",
-   "pub": "2026-11-28T09:17+01:00",
-   "d": "28.11.2026",
-   "t": "09:17",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Lagos",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "FG sets Dec 7 launch for its digital design standard",
-   "p": "On December 7, 2026, the Federal Government will launch what it calls the Nigerian Design System, TVC News reports. The common set of standards is meant to make government websites and online services simpler for citizens to use and to raise the quality of official digital platforms across ministries and agencies nationwide.",
-   "stat": "Dec 7",
-   "statl": "Design System launch",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "politics"
-   ],
-   "src": "TVC News",
-   "url": "https://www.tvcnews.tv/fg-unveils-nigerian-design-system-december-7-to-improve-digital-government-services/",
-   "pub": "2026-11-28T09:10+01:00",
-   "d": "28.11.2026",
-   "t": "09:10",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Tinubu orders push for home-grown biofuel",
-   "p": "The Energy Commission of Nigeria has been instructed by President Bola Tinubu to speed up work on producing biofuels locally, TVC News reports. The directive comes after Nigeria was admitted to the Global Bioenergy Partnership (GBEP), an international forum that promotes sustainable bioenergy. No timeline for the first local output was given.",
-   "stat": "GBEP",
-   "statl": "Nigeria joins bioenergy body",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "TVC News",
-   "url": "https://www.tvcnews.tv/tinubu-tasks-energy-commission-on-local-biofuel-production-after-nigeria-joins-global-partnership/",
-   "pub": "2026-11-28T09:36+01:00",
-   "d": "28.11.2026",
-   "t": "09:36",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "UK turned down 84% of Nigerian students interviewed",
-   "p": "Roughly 84% of Nigerians called for credibility interviews on their UK study visa applications were refused over a six-month period, BusinessDay reports. The interviews are used by British authorities to test whether applicants are genuine students. BusinessDay's report covers applications from the last six months.",
-   "stat": "84%",
-   "statl": "UK visa refusals",
-   "lbl": "fact",
-   "cat": "World",
-   "sec": [
-    "world"
-   ],
-   "src": "BusinessDay",
-   "url": "https://businessday.ng/news/article/uk-rejects-84-of-nigerian-student-visa-applicants-in-six-months/",
-   "pub": "2026-11-28T09:08+01:00",
-   "d": "28.11.2026",
-   "t": "09:08",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "UK plans tougher test for permanent settlement",
-   "p": "Under new UK 'earned settlement' rules due next year, any adult conviction will lead to automatic refusal of permanent residence, The Guardian reports. Ministers have been warned that even minor offences, like riding a bicycle on a footpath or an unpaid TV licence, could stop migrants from settling. The rules would cover migrants of every nationality, including Nigerians.",
-   "stat": "2027",
-   "statl": "New UK settlement rules",
-   "lbl": "fact",
-   "cat": "World",
-   "sec": [
-    "world"
-   ],
-   "src": "The Guardian",
-   "url": "https://www.theguardian.com/uk-news/2026/nov/28/new-immigration-rules-uk-unpaid-tv-licence-cycling-pavement-adult-convictions",
-   "pub": "2026-11-28T09:00+01:00",
-   "d": "28.11.2026",
-   "t": "09:00",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Lagos cancels Saturday sanitation for INEC test",
-   "p": "Governor Babajide Sanwo-Olu called off Lagos's November environmental sanitation exercise, which was due on Saturday, November 28, so residents could move freely during INEC's nationwide mock accreditation. A statement from the Office of Environmental Services, signed by Permanent Secretary Gaji Omobolaji Tajudeen, announced the change on Friday, according to Business Post, Blueprint and AIT.",
-   "stat": "Nov 28",
-   "statl": "Sanitation called off",
-   "lbl": "fact",
-   "cat": "Nigeria · Lagos",
-   "sec": [
-    "lagos",
-    "election"
-   ],
-   "src": "Business Post",
-   "url": "https://businesspost.ng/general/lagos-cancels-november-sanitation-exercise/",
-   "pub": "2026-11-27T17:19+01:00",
-   "d": "27.11.2026",
-   "t": "17:19",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Lagos",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Blueprint",
-     "u": "https://blueprint.ng/lagos-cancels-monthly-sanitation-for-inec-mock-election/"
-    },
-    {
-     "n": "AIT News",
-     "u": "https://ait.live/gov-sanwo-olu-orders-cancellation-of-november-sanitation-exercise/"
     }
    ]
   },
@@ -1561,117 +2010,43 @@
    "vs": "single"
   },
   {
-   "h": "Jonathan hopeful Plateau will beat insecurity",
-   "p": "Former President Goodluck Jonathan said in Jos that he believes Plateau State will overcome its long-running security problems, praising Governor Caleb Mutfwang's unity Christmas carol festival as a tool for reconciliation. Jonathan said some of the violence is caused by people who come from outside the state and then leave, Vanguard and Peoples Gazette report.",
-   "stat": "Jos",
-   "statl": "Jonathan at unity festival",
-   "lbl": "opinion",
-   "cat": "Nigeria · Plateau",
+   "h": "Study: Lagos is sinking about 5mm every year",
+   "p": "Lagos is subsiding by roughly 5 millimetres a year, a new study reported by Punch has found, leaving millions of residents more exposed to flooding by 2050. The researchers say Lagos is not alone: Alexandria in Egypt and Luanda in Angola are also sinking. The findings add to worries about rising flood danger along Africa's coastline.",
+   "stat": "5mm/yr",
+   "statl": "Lagos land subsidence",
+   "lbl": "fact",
+   "cat": "Nigeria · Lagos",
    "sec": [
-    "security",
-    "politics"
+    "lagos"
    ],
-   "src": "Vanguard",
-   "url": "https://www.vanguardngr.com/2026/11/plateau-will-overcome-insecurity-jonathan-says/",
-   "pub": "2026-11-28T09:34+01:00",
+   "src": "Punch",
+   "url": "https://punchng.com/lagos-sinking-by-5mm-annually-faces-rising-flood-risk-study/",
+   "pub": "2026-11-28T08:45+01:00",
    "d": "28.11.2026",
-   "t": "09:34",
+   "t": "08:45",
    "col": "--c-gov",
    "pic": "logo",
    "st": "NG",
-   "loc": "Plateau",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Peoples Gazette",
-     "u": "https://gazettengr.com/goodluck-jonathan-reveals-aggressors-behind-deadly-plateau-attacks/"
-    }
-   ]
-  },
-  {
-   "h": "Gombe women launch push for 35% of seats",
-   "p": "Women in Gombe have started a campaign called the Gombe Women Agenda, calling for 35 per cent affirmative action and reserved seats for women in the legislature, Voice of Nigeria reports. Organisers say the group is non-partisan and wants political leaders to put women's needs first and honour the pledges they give women both during and after election campaigns.",
-   "stat": "35%",
-   "statl": "Women's seat demand",
-   "lbl": "claim",
-   "cat": "Nigeria · Gombe",
-   "sec": [
-    "politics"
-   ],
-   "src": "Voice of Nigeria",
-   "url": "https://von.gov.ng/gombe-women-seek-35-affirmative-action-reserved-legislative-seats/",
-   "pub": "2026-11-28T09:11+01:00",
-   "d": "28.11.2026",
-   "t": "09:11",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Gombe",
+   "loc": "Lagos",
    "lang": "en",
    "vs": "single"
   },
   {
-   "h": "Manufacturers fear 2027 polls and 15% minimum tax",
-   "p": "Nigerian manufacturers and small business groups say the 2027 election season and the new 15 per cent minimum tax under the tax reforms could cut output and profits, Leadership reports. They warned that campaign disruptions may slow trade and production and weaken investor confidence, adding to the pressure from high costs already facing factories.",
-   "stat": "15%",
-   "statl": "Minimum tax worry",
+   "h": "Akande says Tinubu could use 10 more years",
+   "p": "Bisi Akande, a former Osun governor, believes the President ought, if it were possible, to stay in office for another ten years to finish the work he has begun, Punch and Daily Post report. Akande, a former interim national chairman of the APC, made the remarks during a media appearance. The constitution limits a president to two four-year terms.",
+   "stat": "10 years",
+   "statl": "Akande's wish for Tinubu",
    "lbl": "opinion",
    "cat": "Nigeria",
    "sec": [
-    "business"
+    "politics",
+    "election"
    ],
-   "src": "Leadership",
-   "url": "https://leadership.ng/2027-elections-15-minimum-tax-will-worsen-business-challenges-manufacturers-warn/",
-   "pub": "2026-11-28T09:32+01:00",
+   "src": "Punch",
+   "url": "https://punchng.com/tinubu-should-remain-in-office-for-another-10-years-if-possible-akande/",
+   "pub": "2026-11-28T08:38+01:00",
    "d": "28.11.2026",
-   "t": "09:32",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "US proposes tariffs on China, EU and 12 others",
-   "p": "The United States has proposed a fresh set of tariffs on 14 big trading partners, among them China and the EU, Vanguard reports. The US Trade Representative's office announced the plans on Wednesday, November 25, after an eight-month probe into what Washington describes as structural excess capacity in those economies.",
-   "stat": "14",
-   "statl": "Countries facing tariffs",
-   "lbl": "fact",
-   "cat": "World",
-   "sec": [
-    "world",
-    "business"
-   ],
-   "src": "Vanguard",
-   "url": "https://www.vanguardngr.com/2026/11/trump-proposes-new-tariffs-on-china-eu-12-others/",
-   "pub": "2026-11-28T09:13+01:00",
-   "d": "28.11.2026",
-   "t": "09:13",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "OpenAI files countersuit against Apple",
-   "p": "OpenAI has sued Apple, accusing it of taking trade secrets and pressuring hardware suppliers not to work on future OpenAI devices. The countersuit was lodged on Friday in federal court in San Jose, California, within Apple's July case accusing OpenAI and two former Apple staff of poaching workers, according to The Guardian and Channels TV.",
-   "stat": "Countersuit",
-   "statl": "OpenAI v Apple",
-   "lbl": "claim",
-   "cat": "World",
-   "sec": [
-    "world",
-    "business"
-   ],
-   "src": "The Guardian",
-   "url": "https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets",
-   "pub": "2026-11-28T00:28+01:00",
-   "d": "28.11.2026",
-   "t": "00:28",
+   "t": "08:38",
    "col": "--c-gov",
    "pic": "logo",
    "st": "NG",
@@ -1680,33 +2055,10 @@
    "vs": "confirmed",
    "srcs": [
     {
-     "n": "Channels TV",
-     "u": "https://www.channelstv.com/2026/11/28/openai-countersues-apple-in-row-over-trade-secrets-suppliers/"
+     "n": "Daily Post",
+     "u": "https://dailypost.ng/2026/11/28/let-tinubu-stay-for-10-more-years-if-possible-ex-osun-gov-bisi-akande/"
     }
    ]
-  },
-  {
-   "h": "S&P lifts South Africa's rating to best since 2017",
-   "p": "S&P Global Ratings has raised South Africa's long-term foreign currency credit rating to its highest level since 2017, citing better public finances, BusinessDay reports. It is the second upgrade for Africa's most industrialised economy in just over a year. Higher ratings usually lower a country's borrowing costs.",
-   "stat": "Upgrade",
-   "statl": "S&P on South Africa",
-   "lbl": "fact",
-   "cat": "World · Africa",
-   "sec": [
-    "world",
-    "business"
-   ],
-   "src": "BusinessDay",
-   "url": "https://businessday.ng/africa/article/sp-upgrades-south-africas-rating-to-highest-since-2017-on-fiscal-gains/",
-   "pub": "2026-11-28T09:24+01:00",
-   "d": "28.11.2026",
-   "t": "09:24",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
   },
   {
    "h": "Cinemas brace for busy Detty December season",
@@ -1727,50 +2079,6 @@
    "pic": "logo",
    "st": "NG",
    "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Dele-Bashiru set to start for Lazio at Torino",
-   "p": "Super Eagles midfielder Fisayo Dele-Bashiru is expected to start for Lazio, the unbeaten Serie A leaders, away at Torino, Soccernet NG reports. Coach Gennaro Gattuso said the Nigerian has earned more playing time. A win would help Lazio protect their place at the top of the Italian table.",
-   "stat": "Serie A",
-   "statl": "Lazio away at Torino",
-   "lbl": "fact",
-   "cat": "Sports",
-   "sec": [
-    "sports"
-   ],
-   "src": "Soccernet NG",
-   "url": "https://soccernet.ng/2026/11/torino-vs-lazio-preview-team-news-dele-bashiru.html",
-   "pub": "2026-11-28T08:30+01:00",
-   "d": "28.11.2026",
-   "t": "08:30",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Enugu closes roads for Tinubu's visit",
-   "p": "Enugu State has restricted movement on several roads for President Bola Tinubu's visit on Saturday, The Eagle Online reports. Affected areas include Ogui Road, Presidential Road, the Otigba Roundabout, Government House and Okpara Square, as part of security and traffic plans. Tinubu is in Enugu for the APC's South-East campaign rally.",
-   "stat": "Enugu",
-   "statl": "Roads restricted today",
-   "lbl": "fact",
-   "cat": "Nigeria · Enugu",
-   "sec": [
-    "politics"
-   ],
-   "src": "The Eagle Online",
-   "url": "https://theeagleonline.com.ng/enugu-restricts-movement-for-tinubus-visit/",
-   "pub": "2026-11-28T08:18+01:00",
-   "d": "28.11.2026",
-   "t": "08:18",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Enugu",
    "lang": "en",
    "vs": "single"
   },
@@ -1797,26 +2105,55 @@
    "vs": "single"
   },
   {
-   "h": "Study: Lagos is sinking about 5mm every year",
-   "p": "Lagos is subsiding by roughly 5 millimetres a year, a new study reported by Punch has found, leaving millions of residents more exposed to flooding by 2050. The researchers say Lagos is not alone: Alexandria in Egypt and Luanda in Angola are also sinking. The findings add to worries about rising flood danger along Africa's coastline.",
-   "stat": "5mm/yr",
-   "statl": "Lagos land subsidence",
+   "h": "Dele-Bashiru set to start for Lazio at Torino",
+   "p": "Super Eagles midfielder Fisayo Dele-Bashiru is expected to start for Lazio, the unbeaten Serie A leaders, away at Torino, Soccernet NG reports. Coach Gennaro Gattuso said the Nigerian has earned more playing time. A win would help Lazio protect their place at the top of the Italian table.",
+   "stat": "Serie A",
+   "statl": "Lazio away at Torino",
    "lbl": "fact",
-   "cat": "Nigeria · Lagos",
+   "cat": "Sports",
    "sec": [
-    "lagos"
+    "sports"
    ],
-   "src": "Punch",
-   "url": "https://punchng.com/lagos-sinking-by-5mm-annually-faces-rising-flood-risk-study/",
-   "pub": "2026-11-28T08:45+01:00",
+   "src": "Soccernet NG",
+   "url": "https://soccernet.ng/2026/11/torino-vs-lazio-preview-team-news-dele-bashiru.html",
+   "pub": "2026-11-28T08:30+01:00",
    "d": "28.11.2026",
-   "t": "08:45",
+   "t": "08:30",
    "col": "--c-gov",
    "pic": "logo",
    "st": "NG",
-   "loc": "Lagos",
+   "loc": "",
    "lang": "en",
    "vs": "single"
+  },
+  {
+   "h": "Ondo police chief warns against political thuggery",
+   "p": "Ondo State police commissioner Johnson Babalola has warned that anyone who uses violence or intimidation around the 2027 elections will face firm action. In a Friday interview with Adaba FM, he said the command would not tolerate thuggery before, during or after the polls, according to Daily Post and The Sun.",
+   "stat": "2027",
+   "statl": "Police warning in Ondo",
+   "lbl": "fact",
+   "cat": "Nigeria · Ondo",
+   "sec": [
+    "security",
+    "election"
+   ],
+   "src": "Daily Post",
+   "url": "https://dailypost.ng/2026/11/28/ondo-cp-declares-war-on-political-thuggery-warns-perpetrators-ahead-of-2027/",
+   "pub": "2026-11-28T08:26+01:00",
+   "d": "28.11.2026",
+   "t": "08:26",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Ondo",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "The Sun",
+     "u": "https://thesun.ng/2027-ondo-cp-declares-war-on-political-thuggery/"
+    }
+   ]
   },
   {
    "h": "FG and Jigawa begin 8.5MW renewable power for farms",
@@ -1885,6 +2222,56 @@
    "vs": "single"
   },
   {
+   "h": "Enugu closes roads for Tinubu's visit",
+   "p": "Enugu State has restricted movement on several roads for President Bola Tinubu's visit on Saturday, The Eagle Online reports. Affected areas include Ogui Road, Presidential Road, the Otigba Roundabout, Government House and Okpara Square, as part of security and traffic plans. Tinubu is in Enugu for the APC's South-East campaign rally.",
+   "stat": "Enugu",
+   "statl": "Roads restricted today",
+   "lbl": "fact",
+   "cat": "Nigeria · Enugu",
+   "sec": [
+    "politics"
+   ],
+   "src": "The Eagle Online",
+   "url": "https://theeagleonline.com.ng/enugu-restricts-movement-for-tinubus-visit/",
+   "pub": "2026-11-28T08:18+01:00",
+   "d": "28.11.2026",
+   "t": "08:18",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Enugu",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Ogun police arrest 24 at Abeokuta secretariat",
+   "p": "Ogun police say they arrested 24 people for unlawful assembly at the state secretariat in Oke-Mosan, Abeokuta, at about 5pm on Thursday. Police spokesperson DSP Oluseyi Babaseyi said the command acted on information about a gathering seen as a threat to public order. Outlets describe the group as members of a 'Yoruba republic' movement; police say knives and charms were recovered.",
+   "stat": "24",
+   "statl": "Arrested, police say",
+   "lbl": "fact",
+   "cat": "Nigeria · Ogun",
+   "sec": [
+    "security"
+   ],
+   "src": "PM News",
+   "url": "https://pmnewsnigeria.com/2026/11/28/police-arrest-dock-24-members-of-republic-of-yoruba-movement-in-ogun/",
+   "pub": "2026-11-28T08:16+01:00",
+   "d": "28.11.2026",
+   "t": "08:16",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Ogun",
+   "lang": "en",
+   "vs": "official",
+   "srcs": [
+    {
+     "n": "Peoples Gazette",
+     "u": "https://gazettengr.com/24-armed-democratic-republic-of-yoruba-members-nabbed-in-ogun-police/"
+    }
+   ]
+  },
+  {
    "h": "NMDPRA plans national strategic fuel reserve",
    "p": "Nigeria's downstream oil regulator, the NMDPRA, plans a national strategic petroleum stock scheme to guard the country against disruptions in fuel supply, Leadership reports. Chief executive Rabiu Abubakar Umar disclosed the plan. The reserve will begin at some selected petroleum depots and will later be widened to more sites nationwide, he said.",
    "stat": "Fuel reserve",
@@ -1905,6 +2292,39 @@
    "loc": "",
    "lang": "en",
    "vs": "single"
+  },
+  {
+   "h": "Oyo Central APM candidate unveils N300m youth plan",
+   "p": "Olufemi Ajadi Oguntoyinbo, who is running for the Senate on the APM ticket for Oyo Central, has set up his campaign council and announced a N300 million empowerment programme for the district, according to the Tribune, The Sun and PM News. He also handed vehicles to campaign committees as the race for the 2027 general elections gathers pace.",
+   "stat": "N300m",
+   "statl": "Empowerment pledge",
+   "lbl": "claim",
+   "cat": "Nigeria · Oyo",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "PM News",
+   "url": "https://pmnewsnigeria.com/2026/11/28/ajadi-unveils-campaign-council-rolls-out-%e2%82%a6300m-empowerment-plan-distributes-vehicles/",
+   "pub": "2026-11-28T07:59+01:00",
+   "d": "28.11.2026",
+   "t": "07:59",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Oyo",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Nigerian Tribune",
+     "u": "https://tribuneonlineng.com/2027-apms-ajadi-inaugurates-campaign-council-unveils-n300m-empowerment-plan/"
+    },
+    {
+     "n": "The Sun",
+     "u": "https://thesun.ng/2027-ajadi-unveils-campaign-council-announces-%e2%82%a6300m-empowerment-plans-shares-vehicles-to-committee/"
+    }
+   ]
   },
   {
    "h": "Jalingo leaders warn of rising youth drug abuse",
@@ -2190,220 +2610,6 @@
    "vs": "single"
   },
   {
-   "h": "WWE wrestler Bronson Reed dies aged 38",
-   "p": "Australian wrestler Bronson Reed, born Jermaine Haley, has died at 38, World Wrestling Entertainment announced on Friday, Punch reports. Only weeks earlier he faced Oba Femi at WWE's Crown Jewel show in Riyadh, Saudi Arabia, a match Punch says was hit by injury. TVC News linked his death to medical complications.",
-   "stat": "38",
-   "statl": "Age at death",
-   "lbl": "fact",
-   "cat": "World",
-   "sec": [
-    "sports",
-    "world"
-   ],
-   "src": "Punch",
-   "url": "https://punchng.com/australian-wwe-star-bronson-reed-dies-at-38/",
-   "pub": "2026-11-28T05:25+01:00",
-   "d": "28.11.2026",
-   "t": "05:25",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Channels TV",
-     "u": "https://www.channelstv.com/2026/11/28/wwe-pro-wrestling-star-bronson-reed-dies-aged-38/"
-    },
-    {
-     "n": "TVC News",
-     "u": "https://www.tvcnews.tv/wwe-star-bronson-reed-dies-at-38-after-medical-complications/"
-    }
-   ]
-  },
-  {
-   "h": "Peru military helicopter crash kills eight",
-   "p": "Eight military personnel died when a Peruvian military helicopter came down while trying to fly troops out of the VRAEM, a remote coca-growing valley in south-eastern Peru, the country's Defence Ministry said, according to Daily Post and Punch. The pilot survived with serious injuries and was the only survivor, the BBC reports. The area is known for drug trafficking.",
-   "stat": "8",
-   "statl": "Killed in crash",
-   "lbl": "fact",
-   "cat": "World",
-   "sec": [
-    "world"
-   ],
-   "src": "BBC World",
-   "url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o",
-   "pub": "2026-11-28T05:19+01:00",
-   "d": "28.11.2026",
-   "t": "05:19",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Daily Post",
-     "u": "https://dailypost.ng/2026/11/28/eight-dead-as-peruvian-military-helicopter-crashes/"
-    },
-    {
-     "n": "Punch",
-     "u": "https://punchng.com/eight-killed-in-peru-military-helicopter-crash/"
-    }
-   ]
-  },
-  {
-   "h": "Police yet to receive bench warrant for Odukoya",
-   "p": "Lagos State Police Command says it has not yet confirmed getting a bench warrant that a Lagos High Court in Ikoyi issued for Pastor Jimmy Odukoya, its spokesperson told Saturday Punch. Fountain of Life Church, where he is senior pastor, is challenging the order. In a Thursday statement reported by The Whistler, the church said he was not properly served and raised fair-hearing concerns.",
-   "stat": "Ikoyi",
-   "statl": "High Court warrant",
-   "lbl": "fact",
-   "cat": "Nigeria · Lagos",
-   "sec": [
-    "lagos"
-   ],
-   "src": "Punch",
-   "url": "https://punchng.com/police-speak-on-jimmy-odukoyas-arrest-warrant/",
-   "pub": "2026-11-28T04:58+01:00",
-   "d": "28.11.2026",
-   "t": "04:58",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Lagos",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "The Whistler",
-     "u": "https://thewhistler.ng/fountain-of-life-church-challenges-bench-warrant-against-jimmy-odukoya/"
-    }
-   ]
-  },
-  {
-   "h": "MSF says Israeli strike killed two staff in Gaza",
-   "p": "Doctors Without Borders (MSF) says an Israeli strike on one of its clinics in Gaza killed two of its staff members, Al Jazeera reports. The medical charity says the building was clearly marked with its logos and that the Israeli military had been told where it was. According to Punch, the Israeli army described the two victims as Hamas \"terrorists\".",
-   "stat": "2",
-   "statl": "MSF staff killed",
-   "lbl": "fact",
-   "cat": "World",
-   "sec": [
-    "world"
-   ],
-   "src": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff",
-   "pub": "2026-11-28T04:45+01:00",
-   "d": "28.11.2026",
-   "t": "04:45",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Punch",
-     "u": "https://punchng.com/israeli-strike-kills-two-doctors-without-borders-staff-in-gaza-msf/"
-    }
-   ]
-  },
-  {
-   "h": "Forest beat Chelsea 3-2 despite Emegha double",
-   "p": "Nottingham Forest beat Chelsea 3-2 at the City Ground on Friday night, with Morgan Gibbs-White scoring twice, Blueprint reports. Emmanuel Emegha netted both Chelsea goals, according to Complete Sports. Xabi Alonso's team have now lost three matches in a row and four of their last five in the Premier League. Peoples Gazette says it is Forest's first home league win over Chelsea since 1997.",
-   "stat": "3-2",
-   "statl": "Forest beat Chelsea",
-   "lbl": "fact",
-   "cat": "Sports",
-   "sec": [
-    "sports"
-   ],
-   "src": "Complete Sports",
-   "url": "https://www.completesports.com/epl-emeghas-brace-not-enough-as-chelsea-suffer-third-straight-defeat-after-3-2-loss-at-forest/",
-   "pub": "2026-11-27T23:28+01:00",
-   "d": "27.11.2026",
-   "t": "23:28",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Blueprint",
-     "u": "https://blueprint.ng/epl-chelsea-suffer-third-consecutive-defeats-to-nottingham-forest/"
-    },
-    {
-     "n": "Peoples Gazette",
-     "u": "https://gazettengr.com/nottingham-forest-secure-first-home-win-against-chelsea-since-1997/"
-    }
-   ]
-  },
-  {
-   "h": "Rivers NDC camp faults Wike's 'already won' remark",
-   "p": "The Rivers State campaign council of Dumo Lulu-Briggs, the Nigeria Democratic Congress governorship candidate, accuses FCT Minister Nyesom Wike of pre-empting the 2027 elections. Wike had said he had finished his task of delivering Rivers and the FCT to the All Progressives Congress. Council spokesperson Sotonye Ijuye-Dagogo, in a Friday statement, called it arrogance to claim victory before voting, Daily Post reports.",
-   "stat": "2027",
-   "statl": "Rivers governorship race",
-   "lbl": "claim",
-   "cat": "Nigeria · Rivers",
-   "sec": [
-    "politics",
-    "election"
-   ],
-   "src": "The Whistler",
-   "url": "https://thewhistler.ng/2027-lulu-briggs-campaign-accuses-wike-of-pre-empting-rivers-election/",
-   "pub": "2026-11-27T16:33+01:00",
-   "d": "27.11.2026",
-   "t": "16:33",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Rivers",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Daily Post",
-     "u": "https://dailypost.ng/2026/11/28/rivers-2027-its-arrogance-to-claim-victory-before-polls-lulu-briggs-camp-slams-wike/"
-    }
-   ]
-  },
-  {
-   "h": "NAFDAC shuts Abuja's Zuba market over fake goods",
-   "p": "NAFDAC has closed Zuba International Market in Abuja after it seized counterfeit, banned and unwholesome regulated products worth more than N300 million, the agency said in a statement on Friday, November 27. Business Post reports the raid was carried out jointly with the Nigeria Police Force and the Department of State Services. The ICIR and Nairametrics also reported the shutdown.",
-   "stat": "N300m+",
-   "statl": "Fake products seized",
-   "lbl": "fact",
-   "cat": "Nigeria · Abuja",
-   "sec": [
-    "business"
-   ],
-   "src": "Business Post",
-   "url": "https://businesspost.ng/health/nafdac-shuts-abuja-market-seizes-n300m-fake-products/",
-   "pub": "2026-11-27T14:50+01:00",
-   "d": "27.11.2026",
-   "t": "14:50",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "FCT",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "The ICIR",
-     "u": "https://www.icirnigeria.org/nafdac-shuts-zuba-market-seizes-fake-products-worth-over-%e2%82%a6300m/"
-    },
-    {
-     "n": "Nairametrics",
-     "u": "https://nairametrics.com/2026/11/27/nafdac-shuts-zuba-market-after-uncovering-fake-products-worth-n300-million/"
-    }
-   ]
-  },
-  {
    "h": "Ogun police hold suspected cultist with a gun",
    "p": "Police in Ogun State have detained a suspected cultist, aged 32, in Abeokuta and recovered a firearm and two rounds of ammunition, Blueprint and The Sun report. Police accuse him of cult activity and illegal possession of a gun. According to The Sun, the suspect said his group's test-firing of a newly acquired gun drew police attention.",
    "stat": "Abeokuta",
@@ -2455,6 +2661,39 @@
    "vs": "single"
   },
   {
+   "h": "WWE wrestler Bronson Reed dies aged 38",
+   "p": "Australian wrestler Bronson Reed, born Jermaine Haley, has died at 38, World Wrestling Entertainment announced on Friday, Punch reports. Only weeks earlier he faced Oba Femi at WWE's Crown Jewel show in Riyadh, Saudi Arabia, a match Punch says was hit by injury. TVC News linked his death to medical complications.",
+   "stat": "38",
+   "statl": "Age at death",
+   "lbl": "fact",
+   "cat": "World",
+   "sec": [
+    "sports",
+    "world"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/australian-wwe-star-bronson-reed-dies-at-38/",
+   "pub": "2026-11-28T05:25+01:00",
+   "d": "28.11.2026",
+   "t": "05:25",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Channels TV",
+     "u": "https://www.channelstv.com/2026/11/28/wwe-pro-wrestling-star-bronson-reed-dies-aged-38/"
+    },
+    {
+     "n": "TVC News",
+     "u": "https://www.tvcnews.tv/wwe-star-bronson-reed-dies-at-38-after-medical-complications/"
+    }
+   ]
+  },
+  {
    "h": "PANDEF opposes 20% slice of fund for research body",
    "p": "The Pan Niger Delta Forum has asked the Senate and House of Representatives to drop a plan to give 20 per cent of a Nigerian content development fund to a proposed national research council, Blueprint and Premium Times report. PANDEF said taking that share away could hurt projects the board has already committed to and leave it less able to sustain current investments.",
    "stat": "20%",
@@ -2480,6 +2719,38 @@
     {
      "n": "Blueprint",
      "u": "https://blueprint.ng/funding-arrangement-for-ncrst-dont-rob-peter-to-pay-paul-pandef-tells-nass/"
+    }
+   ]
+  },
+  {
+   "h": "Peru military helicopter crash kills eight",
+   "p": "Eight military personnel died when a Peruvian military helicopter came down while trying to fly troops out of the VRAEM, a remote coca-growing valley in south-eastern Peru, the country's Defence Ministry said, according to Daily Post and Punch. The pilot survived with serious injuries and was the only survivor, the BBC reports. The area is known for drug trafficking.",
+   "stat": "8",
+   "statl": "Killed in crash",
+   "lbl": "fact",
+   "cat": "World",
+   "sec": [
+    "world"
+   ],
+   "src": "BBC World",
+   "url": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o",
+   "pub": "2026-11-28T05:19+01:00",
+   "d": "28.11.2026",
+   "t": "05:19",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Daily Post",
+     "u": "https://dailypost.ng/2026/11/28/eight-dead-as-peruvian-military-helicopter-crashes/"
+    },
+    {
+     "n": "Punch",
+     "u": "https://punchng.com/eight-killed-in-peru-military-helicopter-crash/"
     }
    ]
   },
@@ -2607,6 +2878,91 @@
    "loc": "",
    "lang": "en",
    "vs": "single"
+  },
+  {
+   "h": "Police yet to receive bench warrant for Odukoya",
+   "p": "Lagos State Police Command says it has not yet confirmed getting a bench warrant that a Lagos High Court in Ikoyi issued for Pastor Jimmy Odukoya, its spokesperson told Saturday Punch. Fountain of Life Church, where he is senior pastor, is challenging the order. In a Thursday statement reported by The Whistler, the church said he was not properly served and raised fair-hearing concerns.",
+   "stat": "Ikoyi",
+   "statl": "High Court warrant",
+   "lbl": "fact",
+   "cat": "Nigeria · Lagos",
+   "sec": [
+    "lagos"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/police-speak-on-jimmy-odukoyas-arrest-warrant/",
+   "pub": "2026-11-28T04:58+01:00",
+   "d": "28.11.2026",
+   "t": "04:58",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Lagos",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "The Whistler",
+     "u": "https://thewhistler.ng/fountain-of-life-church-challenges-bench-warrant-against-jimmy-odukoya/"
+    }
+   ]
+  },
+  {
+   "h": "MSF says Israeli strike killed two staff in Gaza",
+   "p": "Doctors Without Borders (MSF) says an Israeli strike on one of its clinics in Gaza killed two of its staff members, Al Jazeera reports. The medical charity says the building was clearly marked with its logos and that the Israeli military had been told where it was. According to Punch, the Israeli army described the two victims as Hamas \"terrorists\".",
+   "stat": "2",
+   "statl": "MSF staff killed",
+   "lbl": "fact",
+   "cat": "World",
+   "sec": [
+    "world"
+   ],
+   "src": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff",
+   "pub": "2026-11-28T04:45+01:00",
+   "d": "28.11.2026",
+   "t": "04:45",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Punch",
+     "u": "https://punchng.com/israeli-strike-kills-two-doctors-without-borders-staff-in-gaza-msf/"
+    }
+   ]
+  },
+  {
+   "h": "Fashola says APC will not lose Lagos to Obi again",
+   "p": "Former works and power minister Babatunde Fashola says the APC was caught off guard when Peter Obi won Lagos in the 2023 presidential vote, but has learnt from it and will not let it recur in 2027. ThisDay reports that he said the party's polls had not seen Lagos as a battleground, and that he wants longer jail terms, not death, for election riggers.",
+   "stat": "2027",
+   "statl": "Fashola on Lagos race",
+   "lbl": "opinion",
+   "cat": "Nigeria · Lagos",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "ThisDay",
+   "url": "https://www.thisdaylive.com/2026/11/28/fashola-apc-wont-let-peter-obi-repeat-2023-lagos-upset/",
+   "pub": "2026-11-28T04:17+01:00",
+   "d": "28.11.2026",
+   "t": "04:17",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Lagos",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "The Eagle Online",
+     "u": "https://theeagleonline.com.ng/obis-2023-lagos-victory-wont-happen-again-fashola/"
+    }
+   ]
   },
   {
    "h": "CBN says diaspora remittances hit $1bn a month",
@@ -2842,6 +3198,35 @@
    "vs": "single"
   },
   {
+   "h": "OpenAI files countersuit against Apple",
+   "p": "OpenAI has sued Apple, accusing it of taking trade secrets and pressuring hardware suppliers not to work on future OpenAI devices. The countersuit was lodged on Friday in federal court in San Jose, California, within Apple's July case accusing OpenAI and two former Apple staff of poaching workers, according to The Guardian and Channels TV.",
+   "stat": "Countersuit",
+   "statl": "OpenAI v Apple",
+   "lbl": "claim",
+   "cat": "World",
+   "sec": [
+    "world",
+    "business"
+   ],
+   "src": "The Guardian",
+   "url": "https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets",
+   "pub": "2026-11-28T00:28+01:00",
+   "d": "28.11.2026",
+   "t": "00:28",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Channels TV",
+     "u": "https://www.channelstv.com/2026/11/28/openai-countersues-apple-in-row-over-trade-secrets-suppliers/"
+    }
+   ]
+  },
+  {
    "h": "Ogun pitches LNG and deep seaport to US firms",
    "p": "Ogun State says it drew interest from United States-linked energy and infrastructure companies at the first US–Nigeria Governors Government-to-Business (G2B) Forum, Daily Post reports. The state presented its proposed NNPC-led liquefied natural gas project, a planned deep seaport and the Blue Marine Special Economic Zone to potential investors at the meeting of governors and business leaders.",
    "stat": "LNG",
@@ -2862,6 +3247,38 @@
    "loc": "Ogun",
    "lang": "en",
    "vs": "single"
+  },
+  {
+   "h": "Forest beat Chelsea 3-2 despite Emegha double",
+   "p": "Nottingham Forest beat Chelsea 3-2 at the City Ground on Friday night, with Morgan Gibbs-White scoring twice, Blueprint reports. Emmanuel Emegha netted both Chelsea goals, according to Complete Sports. Xabi Alonso's team have now lost three matches in a row and four of their last five in the Premier League. Peoples Gazette says it is Forest's first home league win over Chelsea since 1997.",
+   "stat": "3-2",
+   "statl": "Forest beat Chelsea",
+   "lbl": "fact",
+   "cat": "Sports",
+   "sec": [
+    "sports"
+   ],
+   "src": "Complete Sports",
+   "url": "https://www.completesports.com/epl-emeghas-brace-not-enough-as-chelsea-suffer-third-straight-defeat-after-3-2-loss-at-forest/",
+   "pub": "2026-11-27T23:28+01:00",
+   "d": "27.11.2026",
+   "t": "23:28",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Blueprint",
+     "u": "https://blueprint.ng/epl-chelsea-suffer-third-consecutive-defeats-to-nottingham-forest/"
+    },
+    {
+     "n": "Peoples Gazette",
+     "u": "https://gazettengr.com/nottingham-forest-secure-first-home-win-against-chelsea-since-1997/"
+    }
+   ]
   },
   {
    "h": "Adesua Etomi-Wellington says she is cancer-free",
@@ -2910,28 +3327,6 @@
    "pic": "logo",
    "st": "NG",
    "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Kebbi sets up blood transfusion enforcement panel",
-   "p": "Kebbi State Government has inaugurated a committee to implement and enforce its blood transfusion policy, aiming to improve regulation and access to safe blood, The Whistler reports. The Director-General of the National Blood Service Agency, Prof. Saleh Yuguda, attended the ceremony and also opened a federal blood service centre in the state.",
-   "stat": "Kebbi",
-   "statl": "Safe blood services",
-   "lbl": "fact",
-   "cat": "Nigeria · Kebbi",
-   "sec": [
-    "politics"
-   ],
-   "src": "The Whistler",
-   "url": "https://thewhistler.ng/fg-boosts-safe-blood-services-with-new-centre-in-kebbi/",
-   "pub": "2026-11-27T10:40+01:00",
-   "d": "27.11.2026",
-   "t": "10:40",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Kebbi",
    "lang": "en",
    "vs": "single"
   },
@@ -3236,294 +3631,6 @@
    "vs": "single"
   },
   {
-   "h": "Nasarawa puts INEC notices into local languages",
-   "p": "The Nasarawa State Government has begun translating INEC's voter education messages into Hausa as well as other widely spoken local languages, Vanguard reports from Lafia. The aim is to reach rural communities and explain Saturday's nationwide mock accreditation and result upload exercise, a trial run of the equipment INEC plans to use in the 2027 general elections.",
-   "stat": "Hausa+",
-   "statl": "INEC messages translated",
-   "lbl": "fact",
-   "cat": "Nigeria · Nasarawa",
-   "sec": [
-    "politics",
-    "election"
-   ],
-   "src": "Vanguard",
-   "url": "https://www.vanguardngr.com/2026/11/2027-nasarawa-translates-inec-messages-into-local-languages/",
-   "pub": "2026-11-27T20:22+01:00",
-   "d": "27.11.2026",
-   "t": "20:22",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Nasarawa",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Keyamo wants 99% ICAO safety score for Nigeria",
-   "p": "Aviation Minister Festus Keyamo has asked the airspace agency NAMA and the regulator NCAA to push Nigeria's ICAO safety audit score towards 99 per cent, Vanguard reports. He praised NAMA's role in recent safety gains and urged steady monitoring, closer teamwork between agencies and swift work on regulatory requirements that are still open.",
-   "stat": "99%",
-   "statl": "ICAO safety target",
-   "lbl": "claim",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "Vanguard",
-   "url": "https://www.vanguardngr.com/2026/11/keyamo-pushes-for-99-icao-safety-rating-tasks-nama-ncaa/",
-   "pub": "2026-11-27T20:20+01:00",
-   "d": "27.11.2026",
-   "t": "20:20",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Naira firms on Friday, figures vary by report",
-   "p": "The naira strengthened against the dollar on Friday, but reports differ on the size of the gain. Daily Post, citing CBN data, puts the official rate at N1,367.45, up N20.44 from Thursday. Vanguard puts the official market at N1,376, from N1,378, and says the naira gained N10 on the parallel market to N1,445.",
-   "stat": "N1,445/$",
-   "statl": "Parallel market rate",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "Vanguard",
-   "url": "https://www.vanguardngr.com/2026/11/naira-appreciates-to-n1445-in-parallel-market-2/",
-   "pub": "2026-11-27T20:06+01:00",
-   "d": "27.11.2026",
-   "t": "20:06",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Daily Post",
-     "u": "https://dailypost.ng/2026/11/27/exchange-rate-today-november-27-2026-naira-records-biggest-daily-appreciation-against-dollar/"
-    }
-   ]
-  },
-  {
-   "h": "Uganda starts Africa's first mRNA Ebola vaccine trial",
-   "p": "Uganda on Friday began testing an experimental mRNA vaccine against Ebola developed with Moderna, the first such trial in Africa, Punch and Vanguard report, citing AFP. Separately, the vaccine alliance Gavi said it has purchased 1.5 million doses of a different candidate vaccine. Both moves aim to bring the Bundibugyo strain of Ebola now spreading in the DR Congo under control.",
-   "stat": "1.5m",
-   "statl": "Doses of another vaccine",
-   "lbl": "fact",
-   "cat": "World · Africa",
-   "sec": [
-    "world"
-   ],
-   "src": "Punch",
-   "url": "https://punchng.com/uganda-launches-africas-first-mrna-ebola-vaccine-trial/",
-   "pub": "2026-11-27T20:01+01:00",
-   "d": "27.11.2026",
-   "t": "20:01",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Vanguard",
-     "u": "https://www.vanguardngr.com/2026/11/mrna-ebola-vaccine-trial-launched-in-uganda/"
-    }
-   ]
-  },
-  {
-   "h": "Canada extends Ebola visa curbs on three countries",
-   "p": "Canada has kept its Ebola-related entry restrictions on residents of the DR Congo, Uganda and South Sudan for another 90 days. Visas already approved for people from those countries stay suspended until February 25, 2027, Punch reports. Legit.ng says Canada's immigration department explained which applicants are covered and why the measures remain.",
-   "stat": "90 days",
-   "statl": "Visa curbs extended",
-   "lbl": "fact",
-   "cat": "World",
-   "sec": [
-    "world"
-   ],
-   "src": "Punch",
-   "url": "https://punchng.com/ebola-canada-extends-visa-restrictions-on-three-african-countries-by-90-days/",
-   "pub": "2026-11-27T20:01+01:00",
-   "d": "27.11.2026",
-   "t": "20:01",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Legit.ng",
-     "u": "https://www.legit.ng/world/1743673-canada-extends-entry-restrictions-3-african-countries-reasons/"
-    }
-   ]
-  },
-  {
-   "h": "Five power substations to add 984MW, FG says",
-   "p": "Five transmission substation upgrades under the first batch of the Presidential Power Initiative are close to completion, the Federal Government says. FGN Power Company managing director Kenny Anuwe said the projects will let the grid carry an extra 984 megawatts. That figure is the added power the network can move to distribution companies, Vanguard reports from Abuja.",
-   "stat": "984MW",
-   "statl": "Grid capacity to be added",
-   "lbl": "claim",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "Vanguard",
-   "url": "https://www.vanguardngr.com/2026/11/ppi-projects-to-add-984mw-to-national-grid-as-five-substations-near-completion-2/",
-   "pub": "2026-11-27T20:00+01:00",
-   "d": "27.11.2026",
-   "t": "20:00",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Abuja",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "ECOWAS Speaker warns states over levy payments",
-   "p": "ECOWAS Parliament Speaker Memounatou Ibrahima said on Friday in Abuja that rising public debt and strained national budgets could stop member states from paying the Community Levy that funds the bloc. She urged governments to keep up payments before lawmakers consider the regional body's 2027 budget, Vanguard reports. She also called for closer cooperation between institutions.",
-   "stat": "2027",
-   "statl": "ECOWAS budget concern",
-   "lbl": "opinion",
-   "cat": "World · Africa",
-   "sec": [
-    "world"
-   ],
-   "src": "Vanguard",
-   "url": "https://www.vanguardngr.com/2026/11/ecowas-speaker-warns-of-levy-shortfalls-ahead-of-2027-budget/",
-   "pub": "2026-11-27T19:48+01:00",
-   "d": "27.11.2026",
-   "t": "19:48",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Abuja",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Peoples Gazette",
-     "u": "https://gazettengr.com/ecowas-parliament-seeks-stronger-institutional-collaboration-to-deepen-regional-integration/"
-    },
-    {
-     "n": "News Agency of Nigeria",
-     "u": "https://nannews.ng/ecowas-parliament-seeks-stronger-institutional-collaboration-to-deepen-integration/"
-    }
-   ]
-  },
-  {
-   "h": "Oyedele: produce more to win under AfCFTA",
-   "p": "Finance Minister Oyedele says Nigeria will only gain from the African Continental Free Trade Area if it raises how much it makes and the quality of its goods, Premium Times reports. He also pointed to financing gaps and weak infrastructure as problems that firms must overcome to sell competitively across the continent.",
-   "stat": "AfCFTA",
-   "statl": "Minister on AfCFTA trade",
-   "lbl": "opinion",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "Premium Times",
-   "url": "https://www.premiumtimesng.com/business/business-news/928490-nigeria-must-improve-production-to-compete-under-afcfta-finance-minister.html",
-   "pub": "2026-11-27T19:44+01:00",
-   "d": "27.11.2026",
-   "t": "19:44",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Cardoso asks banks to lend more to exporters",
-   "p": "CBN Governor Olayemi Cardoso has urged Nigerian banks to widen credit to exporters, Premium Times reports. He said a lack of working capital stops many firms from meeting export orders, growing output and competing abroad. He spoke as the CBN seeks more support for businesses that sell Nigerian goods to buyers outside the country.",
-   "stat": "Exports",
-   "statl": "CBN push for financing",
-   "lbl": "opinion",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "Premium Times",
-   "url": "https://www.premiumtimesng.com/business/business-news/928489-cbn-urges-banks-to-expand-financing-for-exporters.html",
-   "pub": "2026-11-27T19:42+01:00",
-   "d": "27.11.2026",
-   "t": "19:42",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Ondo lifts sanitation curbs for INEC test day",
-   "p": "Residents of Ondo State can move freely during Saturday's monthly environmental sanitation, the state government announced on Friday. Environment Commissioner Tob Loko said the exercise on November 28 will still hold, but without the usual movement restriction, so that INEC's mock accreditation and result upload can go ahead. Lagos has cancelled its own Saturday sanitation for the same reason.",
-   "stat": "Nov 28",
-   "statl": "Free movement in Ondo",
-   "lbl": "fact",
-   "cat": "Nigeria · Ondo",
-   "sec": [
-    "politics",
-    "election"
-   ],
-   "src": "Daily Post",
-   "url": "https://dailypost.ng/2026/11/27/ondo-suspends-movement-restriction-for-sanitation-exercise-over-inec-mock-election/",
-   "pub": "2026-11-27T19:02+01:00",
-   "d": "27.11.2026",
-   "t": "19:02",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Ondo",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Punch",
-     "u": "https://punchng.com/ondo-cancels-movement-restrictions-for-saturdays-sanitation-exercise/"
-    },
-    {
-     "n": "Peoples Gazette",
-     "u": "https://gazettengr.com/ondo-suspends-movement-restrictions-for-november-sanitation-exercise/"
-    }
-   ]
-  },
-  {
-   "h": "Man United keep Fernandes until 2028",
-   "p": "Manchester United have used a one-year option in Bruno Fernandes' contract, so the captain will stay at Old Trafford until 2028. Al Jazeera notes that Fernandes had said talks on a longer new deal were on hold, but the Premier League club chose to activate the extension clause instead. Vanguard also reported the move.",
-   "stat": "2028",
-   "statl": "Fernandes deal extended",
-   "lbl": "fact",
-   "cat": "Sports",
-   "sec": [
-    "sports"
-   ],
-   "src": "Al Jazeera",
-   "url": "https://www.aljazeera.com/sports/2026/11/27/manchester-united-trigger-bruno-fernandes-contract-extension-to-2028",
-   "pub": "2026-11-27T16:04+01:00",
-   "d": "27.11.2026",
-   "t": "16:04",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Vanguard",
-     "u": "https://www.vanguardngr.com/2026/11/man-utd-trigger-fernandes-one-year-contract-extension/"
-    }
-   ]
-  },
-  {
    "h": "EFCC charges visa agent over N62.5m Hajj fraud",
    "p": "The EFCC's Ilorin office has arraigned a woman described as a visa agent in a Kwara High Court in Ilorin, accusing her of taking N62.5 million from intending Hajj pilgrims. She faces a seven-count charge, which she denied, and was granted N5 million bail, Punch and TVC News report. The case continues in December.",
    "stat": "N62.5m",
@@ -3578,6 +3685,51 @@
    "vs": "single"
   },
   {
+   "h": "Nasarawa puts INEC notices into local languages",
+   "p": "The Nasarawa State Government has begun translating INEC's voter education messages into Hausa as well as other widely spoken local languages, Vanguard reports from Lafia. The aim is to reach rural communities and explain Saturday's nationwide mock accreditation and result upload exercise, a trial run of the equipment INEC plans to use in the 2027 general elections.",
+   "stat": "Hausa+",
+   "statl": "INEC messages translated",
+   "lbl": "fact",
+   "cat": "Nigeria · Nasarawa",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "Vanguard",
+   "url": "https://www.vanguardngr.com/2026/11/2027-nasarawa-translates-inec-messages-into-local-languages/",
+   "pub": "2026-11-27T20:22+01:00",
+   "d": "27.11.2026",
+   "t": "20:22",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Nasarawa",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Keyamo wants 99% ICAO safety score for Nigeria",
+   "p": "Aviation Minister Festus Keyamo has asked the airspace agency NAMA and the regulator NCAA to push Nigeria's ICAO safety audit score towards 99 per cent, Vanguard reports. He praised NAMA's role in recent safety gains and urged steady monitoring, closer teamwork between agencies and swift work on regulatory requirements that are still open.",
+   "stat": "99%",
+   "statl": "ICAO safety target",
+   "lbl": "claim",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Vanguard",
+   "url": "https://www.vanguardngr.com/2026/11/keyamo-pushes-for-99-icao-safety-rating-tasks-nama-ncaa/",
+   "pub": "2026-11-27T20:20+01:00",
+   "d": "27.11.2026",
+   "t": "20:20",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
    "h": "Obi pledges 10,000MW of power if elected in 2027",
    "p": "NDC presidential candidate Peter Obi asked Nigerians to vote President Tinubu out in 2027, pointing to rising poverty, Punch reports. Obi promised 10,000 megawatts of electricity and an export hub in Aba if he wins. Vanguard quotes him as saying a new Nigeria needs a change of president at the next election.",
    "stat": "10,000MW",
@@ -3607,20 +3759,48 @@
    ]
   },
   {
-   "h": "WHO calls for quicker Ebola vaccine trials in DR Congo",
-   "p": "The World Health Organisation wants Ebola vaccine testing sped up, with the Bundibugyo-strain outbreak in DR Congo now above 12,000 infections, with 5,900 deaths, Punch reports, with insecurity slowing the response. Uganda has begun Africa's first mRNA Ebola vaccine trial with Moderna, while Canada has extended visa curbs on residents of DRC, Uganda and South Sudan by 90 days.",
-   "stat": "5,900",
-   "statl": "Ebola deaths in DRC: WHO",
+   "h": "Naira firms on Friday, figures vary by report",
+   "p": "The naira strengthened against the dollar on Friday, but reports differ on the size of the gain. Daily Post, citing CBN data, puts the official rate at N1,367.45, up N20.44 from Thursday. Vanguard puts the official market at N1,376, from N1,378, and says the naira gained N10 on the parallel market to N1,445.",
+   "stat": "N1,445/$",
+   "statl": "Parallel market rate",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Vanguard",
+   "url": "https://www.vanguardngr.com/2026/11/naira-appreciates-to-n1445-in-parallel-market-2/",
+   "pub": "2026-11-27T20:06+01:00",
+   "d": "27.11.2026",
+   "t": "20:06",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Daily Post",
+     "u": "https://dailypost.ng/2026/11/27/exchange-rate-today-november-27-2026-naira-records-biggest-daily-appreciation-against-dollar/"
+    }
+   ]
+  },
+  {
+   "h": "Uganda starts Africa's first mRNA Ebola vaccine trial",
+   "p": "Uganda on Friday began testing an experimental mRNA vaccine against Ebola developed with Moderna, the first such trial in Africa, Punch and Vanguard report, citing AFP. Separately, the vaccine alliance Gavi said it has purchased 1.5 million doses of a different candidate vaccine. Both moves aim to bring the Bundibugyo strain of Ebola now spreading in the DR Congo under control.",
+   "stat": "1.5m",
+   "statl": "Doses of another vaccine",
    "lbl": "fact",
    "cat": "World · Africa",
    "sec": [
     "world"
    ],
    "src": "Punch",
-   "url": "https://punchng.com/who-seeks-faster-ebola-vaccine-trials-as-drc-deaths-hit-5900/",
-   "pub": "2026-11-27T19:57+01:00",
+   "url": "https://punchng.com/uganda-launches-africas-first-mrna-ebola-vaccine-trial/",
+   "pub": "2026-11-27T20:01+01:00",
    "d": "27.11.2026",
-   "t": "19:57",
+   "t": "20:01",
    "col": "--c-gov",
    "pic": "logo",
    "st": "NG",
@@ -3629,201 +3809,8 @@
    "vs": "confirmed",
    "srcs": [
     {
-     "n": "Nigerian Tribune",
-     "u": "https://tribuneonlineng.com/ebola-who-demands-faster-vaccine-trials-as-dr-congo-death-toll-hits-5900/"
-    }
-   ]
-  },
-  {
-   "h": "Reps panel gets more petitions on poor phone network",
-   "p": "A House of Representatives panel probing the quality of telecoms services has received a fresh petition against the chief executives of mobile network operators over persistent poor service across Nigeria, New Telegraph reports. The committee also said no arm of government can stop another from carrying out duties the constitution gives it, as it continues its inquiry.",
-   "stat": "Telecoms",
-   "statl": "Fresh petition to Reps",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "business",
-    "politics"
-   ],
-   "src": "New Telegraph",
-   "url": "https://newtelegraphng.com/poor-network-reps-receive-more-petitions-against-telecom-operators/",
-   "pub": "2026-11-27T19:34+01:00",
-   "d": "27.11.2026",
-   "t": "19:34",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "States prepare for INEC's Saturday mock accreditation",
-   "p": "INEC will test its BVAS accreditation devices and IReV result upload in a mock exercise on Saturday, November 28. Ondo says movement will not be restricted during its sanitation exercise so residents can take part, Punch reports. Nasarawa urged people in all 13 councils to join in, Yiaga Africa is sending 347 observers, and Kebbi APC has postponed its campaign launch.",
-   "stat": "Nov 28",
-   "statl": "INEC mock accreditation",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "politics",
-    "election"
-   ],
-   "src": "Punch",
-   "url": "https://punchng.com/ondo-cancels-movement-restrictions-for-saturdays-sanitation-exercise/",
-   "pub": "2026-11-27T19:30+01:00",
-   "d": "27.11.2026",
-   "t": "19:30",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Punch",
-     "u": "https://punchng.com/2027-nasarawa-mobilises-residents-for-inec-mock-accreditation/"
-    },
-    {
-     "n": "Premium Times",
-     "u": "https://www.premiumtimesng.com/news/top-news/928463-2027-yiaga-deploys-347-observers-60-data-clerks-for-inecs-mock-election-exercise.html"
-    },
-    {
-     "n": "Peoples Gazette",
-     "u": "https://gazettengr.com/kebbi-apc-postpones-inaugural-campaign-over-inec-mock-election/"
-    }
-   ]
-  },
-  {
-   "h": "10,000 Imo youths complete Skill-Up digital training",
-   "p": "About 10,000 young people have completed the fourth round of Imo State's digital empowerment scheme, known as Skill-Up Imo, AIT reports. At the graduation, Governor Hope Uzodimma said his government remains committed to youth development and digital transformation, describing digital skills as key to the future of young people in the state.",
-   "stat": "10,000",
-   "statl": "Youths trained",
-   "lbl": "fact",
-   "cat": "Nigeria · Imo",
-   "sec": [
-    "business"
-   ],
-   "src": "AIT News",
-   "url": "https://ait.live/10000-youths-benefit-from-skill-up-imo-programme/",
-   "pub": "2026-11-27T19:27+01:00",
-   "d": "27.11.2026",
-   "t": "19:27",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Imo",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Oando sets N203.8bn rights issue at N50 a share",
-   "p": "Oando Plc has signed deals for a rights issue worth about N203.8 billion, priced at N50 per share, as part of its recapitalisation, TVC News reports. On Friday, the day the final terms were announced, buyers sought 26.43 million Oando shares on the NGX but found no sellers, and the stock closed at N39.90, according to Nairametrics.",
-   "stat": "N203.8bn",
-   "statl": "Oando rights issue",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/27/oando-closes-at-n39-90-after-full-bid-demand-on-rights-issue-announcement-day/",
-   "pub": "2026-11-27T19:21+01:00",
-   "d": "27.11.2026",
-   "t": "19:21",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "TVC News",
-     "u": "https://www.tvcnews.tv/oando-signs-agreements-for-%e2%82%a6203-8bn-rights-issue-at-%e2%82%a650-per-share/"
-    }
-   ]
-  },
-  {
-   "h": "NGX gains N534bn as bank shares rally",
-   "p": "Nigerian stocks ended the week higher on Friday, November 27, as buying in Zenith Bank and GTCO lifted total market capitalisation of the Nigerian Exchange by N534.17 billion, Nairametrics reports. Investors returned to bank shares in Friday's trading. The rise builds on Thursday's trading, when the market broke a seven-day losing streak.",
-   "stat": "N534bn",
-   "statl": "Market value gain",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/27/zenith-gtco-rally-pushes-ngx-market-value-up-n534-billion/",
-   "pub": "2026-11-27T19:19+01:00",
-   "d": "27.11.2026",
-   "t": "19:19",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Wike asks Nigerians to back Tinubu's continuity",
-   "p": "FCT Minister Nyesom Wike on Friday urged Nigerians to support continuity under President Tinubu, saying his economic reforms, including the end of the fuel subsidy, are starting to show results, AIT reports. Addressing a town hall held by the Rainbow Coalition in Degema, Rivers State, Wike said the country should not be handed to politicians he called \"gamblers\", Leadership adds.",
-   "stat": "2027",
-   "statl": "Wike backs continuity",
-   "lbl": "claim",
-   "cat": "Nigeria · Rivers",
-   "sec": [
-    "politics",
-    "election"
-   ],
-   "src": "AIT News",
-   "url": "https://ait.live/2027-tinubus-reforms-yielding-positive-results-wike/",
-   "pub": "2026-11-27T19:18+01:00",
-   "d": "27.11.2026",
-   "t": "19:18",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Rivers",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Leadership",
-     "u": "https://leadership.ng/2027-tinubus-reforms-yielding-positive-results-nigeria-wont-be-handed-to-political-gamblers-wike/"
-    },
-    {
-     "n": "News Agency of Nigeria",
-     "u": "https://nannews.ng/2027-wike-urges-support-for-continuity-against-political-uncertainty/"
-    }
-   ]
-  },
-  {
-   "h": "Zelensky criticises Trump's friendship with Putin",
-   "p": "Ukraine's President Volodymyr Zelensky told the BBC that Washington is not putting enough pressure on Russia in talks to end the war, and called US President Donald Trump's friendship with Vladimir Putin \"strange\". Punch reports that Zelensky compared the Russian leader to Hitler. Separately, Al Jazeera says Kyiv has proposed a ceasefire at sea in the Black Sea.",
-   "stat": "Ukraine",
-   "statl": "Peace talks row",
-   "lbl": "opinion",
-   "cat": "World",
-   "sec": [
-    "world"
-   ],
-   "src": "BBC World",
-   "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo",
-   "pub": "2026-11-27T19:00+01:00",
-   "d": "27.11.2026",
-   "t": "19:00",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Punch",
-     "u": "https://punchng.com/zelensky-faults-trump-for-calling-putin-his-friend/"
+     "n": "Vanguard",
+     "u": "https://www.vanguardngr.com/2026/11/mrna-ebola-vaccine-trial-launched-in-uganda/"
     }
    ]
   }
