@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T07:35:00+05:30",
+ "cutoff": "2026-11-28T08:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T14:35:00+05:30/2026-11-25T15:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 1,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Lookback from 06:35. Feeds 14:47 IST (70/70 ok; 139 uncovered events first seen since 13:45 scanned, 45 local). add_repo tool not available; used existing clone. Published 3: South First AP own revenue Rs 74,342 cr to Nov 23 (14:17, fact, pic logo), DC Vanasthalipuram phone-snatching stabbing (14:38, fact, sensitive, no names), Andhra Jyothy ACB officer alleged Rs 30 lakh demand in DA case (09:05, claim, sensitive, late-found). Skipped: TT Inter practicals no jumbling (pub 24 Nov 17:18, before lookback, already seen). Not opened (direct feed URLs refused: PROVENANCE_REQUIRED, search did not return them; left unseen): Siasat Hyderabad woman Rs 33 lakh digital arrest scam, Siasat Keesara missing girl found, Siasat TG BJP chief on TVK Deepam review plea, Siasat India USD 2.5m to UNRWA, TT Bumrah ICC rankings. Not attempted (left unseen): MLC graduate voters draft list, Godavari Pushkaralu 2027 plans, Kothagudem collector Japan practices, world items. No district searches. Pre-existing check ERROR: Australia poll story pic n/nri. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-25T15:05:00+05:30/2026-11-25T15:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 23:05 Nov 27. Feeds 07:11 IST (74/77 ok; 2865 uncovered, 878 TG/AP; many 'uncovered' TG/AP events were already published earlier). add_repo not available; used existing clone and web-fetch helper. Published 8: DC/Hans TG land resurvey in 18 months (23:18, confirmed), Hans Global Summit 1,059 exhibitors (02:22), Hans CM Revanth avoid water-heavy crops (02:17), Andhrajyothy Damodara surprise checks Warangal hospitals (05:33), DC Kazipet coach factory 75 posts (23:07), Hans Chittoor teacher allotments till April 22 (06:21), Sakshi Nalgonda Navodaya test today (01:20, page shows no zone), Al Jazeera+Xinhua Russia submarine Perm (02:09, confirmed). Single source, not published: Hans Nimmala accuses Jagan on RLIS; Hans Ramachander Rao vs Revanth. Not opened: CNN/Manila Times OpenAI countersues Apple. Old/duplicate: AIR SC withhold AP candidate list (Oct 21 article), bonded labour Kamalapur (27 Nov 15:35), heaviest Nov rain (27 Nov), Medaram bamboo brand, Kia AP cabinet, red sanders Kadapa, Bhatti power support. Not surfaced: TOI Kuppam poll violence, TOI Amaravati FSI, Hans 1,901 rice bags, V6 naxal report, V6 rain Yadadri/Sangareddy. District searches: Nalgonda, Kurnool/Anantapur only. Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T07:35:00+05:30/2026-11-28T08:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 6,
+   "late": 5,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 23:35 Nov 27. Feeds 07:53 IST (76/77 ok; UN News failing; 2860 uncovered, 881 TG/AP; 735 in lookback not yet seen). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 6: TT/PTI + Federal 132nd Amendment Bill to raise LS/Assembly seats 50% (00:44, confirmed; new card, not an update of the 27 Nov cabinet card), NewsMeter Telugu teachers' pay on FRS attendance (07:31, single), Hans Cyberabad school-rush survey (00:35, single), Hans + DC AP teak clones (01:53, confirmed), DC Vijayawada diabetes conference Nov 29 (00:55, single, pic logo), Xinhua + Times of Israel Eisenkot 8 days (page time 04:08 taken as Beijing = 01:38 IST, lbl claim). Single source, not published: Siasat/India.com FSSAI prosecution sanction against Bisleri (both PTI, anonymous sources; NOT added to seen - retry when FSSAI confirms). Not opened (The Hindu links not surfaced by search): cochlear implant Gandhi Hospital, 16 moneylending cases Asifabad, TG SAFE Karimnagar restaurant licence, Revanth on environment; The Hindu family of three suicide Andhra (sensitive, single). Skipped: Mana Telangana FRS (Aug 2025). Duplicates of earlier cards: 858 kg seafood, Lotus Pond, JNTU-Raidurg bus lane, DLC camp Vijayawada. Not attempted: AP panchayat result/allegation items, Sakshi/Andhrajyothy/Eenadu district items (Google News links), district searches. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6676,6 +6676,61 @@
   },
   {
    "url": "https://www.cnn.com/2026/11/27/tech/openai-apple-countersuit",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/centre-brings-fresh-bill-to-raise-lok-sabha-assembly-seats",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://thefederal.com/category/news/womens-quota-bill-what-it-proposes-264314",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.newsmeter.in/telangana/telangana-moves-to-link-government-teachers-salaries-with-facial-recognition-system-frs-attendance-780155",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/hyderabad-school-rush-chokes-cyberabad-roads-1146410",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/amaravati/ap-forest-dept-develops-three-improved-teak-clones-1146440",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-teak-clones-get-national-nod-for-commercial-release-2008653",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/national-diabetes-conference-to-be-held-in-vijayawada-on-nov-29-2008699",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://english.news.cn/20261128/1e913ce950f746d4aada24511b7c7ec2/c.html",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.timesofisrael.com/eisenkot-vows-to-form-government-within-8-days-accuses-likud-of-stalling-unity-talks/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/israels-eisenkot-vows-to-form-new-govt-within-eight-days-3588719/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.manatelangana.news/facial-recognition-attendance-system-to-teachers/",
    "d": "2026-11-28",
    "w": "skipped"
   }
