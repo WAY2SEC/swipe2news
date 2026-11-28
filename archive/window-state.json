@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T18:35:00+05:30",
+ "cutoff": "2026-11-28T19:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-26T06:35:00+05:30/2026-11-26T07:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 11,
-   "published": 8,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 4,
-   "review": 0,
-   "gaps": "Lookback from 22:35 (25 Nov). Feeds 06:44 IST (70/70 ok; 639 uncovered unseen events in lookback, 104 local). add_repo tool not available; used existing clone. Published 8: TT Uttam 15-month fine rice buffer (23:16, fact, logo), DC fog on NH-44 Adilabad (22:49, claim, logo), DC Laxman vs BRS on Dharmapuri Kaleshwaram water (00:18, claim), Hans Sridhar Babu Manthani Pushkaralu works (01:30, fact, logo), Hans tiger 5th day Kanumuru (22:57, fact), Hans Nandyal Collector school review (00:18, fact), DC Vijayawada railway para sports (23:31, fact, logo), AeroTime FCC clears SpaceX 1M satellites (02:01, fact). Duplicates: DC DSC sports-quota PIL, DC Pranjal Paul Google fellowship, DC AP own revenue 18.7% (already published). Skipped as old: DD News NH-63/563 (July 2026), News On AIR IMD AP rain (2024), Tribune Trump tariffs 14 nations (2025), Adda247 526 assistant professors (20 Nov). Not opened: direct Hindu/TT feed URLs without search hit (Bhadrachalam Rs 300 cr, Kukatpally truck park, Akbaruddin minority schools, London official transport, TGRERA Auro Realty), NBC SpaceX (robots), Sakshi Education. No district searches. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-26T07:05:00+05:30/2026-11-26T07:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 10:05 Nov 28. Feeds 18:11 IST (76/77 ok; 2847 uncovered, 973 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 2: HMTV + V6 Velugu + Andhra Jyothy Manikonda youth electrocuted while tying Ayyappa puja flex banners (HMTV 11:41, confirmed, sensitive, no names; outlets differ on case registration and injury severity; late-found), V6 Velugu Khelo India torch rally in 33 districts Dec 1-8 (16:27, single, routine). Single source (sensitive, not published): Telangana Today BRS workers detained at Waqf Board office protest over 1,248-acre Alur Sharif land transfer (17:47). Not surfaced by search: TV9/10TV gold prices, HT Charlapalli-Srikakulam Sankranti specials, NewsMeter/Eenadu Hyderabad techie Rs 10 lakh fraud, Medak NH161 lorry (Instagram only), Visalaandhra AP SSC fee deadline. Disha Manikonda page fetch error. District searches (Khammam, Kurnool, Nizamabad) returned tag pages only. Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T18:35:00+05:30/2026-11-28T19:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 2,
+   "late": 2,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 10:35 Nov 28. Feeds 18:43 IST (76/77 ok, Samayam Telugu 429; 2706 uncovered, 826 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open (direct feed links to The Hindu, Telangana Today, BBC refused: PROVENANCE_REQUIRED). Published 2: Namasthe Telangana Ramagundam mayor - soak pit mandatory for house permission, borewell ban from December (18:32, single, routine), Business Upturn + AirNews Dr Reddy's Srikakulam unit manufacturing licence suspended 2 days (17:20, confirmed, late-found). Duplicates: Hans India/NewsMeter Vizag school bus overturn (card 17:05), BigTV BPCL Ramayapatnam refinery (card 14:05). Skipped old: Apple Hyderabad store Dec 10 (announced Thursday). Not opened: Disha Telangana IAS transfers GO (client error), Sakshi Education 526 assistant professor posts (client error), BSE filing PDF, The Hindu (Bar Council Preamble Dec 1, Rayalaseema rice crackdown, Revanth Delhi visit), Telangana Today Katre Squadron, BBC/TT Afghanistan blast toll update. Not surfaced by search: TOI Telangana evening courts (aggregator copy only), NewsMeter DGP warning. No district searches this run. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7868,6 +7868,56 @@
    "url": "https://telanganatoday.com/protest-at-haj-house",
    "d": "2026-11-28",
    "w": "single-source"
+  },
+  {
+   "url": "https://www.ntnews.com/karimnagar/permission-for-a-house-will-be-granted-only-if-a-percolation-pit-rainwater-harvesting-pit-is-constructed-ramagundam-city-mayor-mahankali-swamy-2571370",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://businessupturn.com/business/dr-reddys-laboratories-manufacturing-license-suspended-for-two-days-by-andhra-pradesh-authority/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.airnews.in/articles/5ffac31eae-dr-reddy-s-srikakulam-unit-faces-2-day-licence-suspension-as-shares-slip-to-1-374",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/business/companies/apple-to-open-its-first-store-in-hyderabad-on-december-10-2008110",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYjJPeDkwSGR2Q0JETDhVWURzQ0VmWjhVZThuN2ZxN1pkWUFiT1ZnS1BNcVFHX3RZZEg2bDNJdk4xaGFvbVVaNXZEWkpFUDdWS3FaZ0prbG1na1dwcHV5bDJrQ2I0eUsxbzlDMDQ1b1V2WWI4OXVlMGpnMVdWOHh3VDJTNDFxRFh1cVJyODhPRnduRDBSRVdqbFdCdUpzUdIBowFBVV95cUxPYVRibGRkRkJGN3ZCZFQzN3VvbXVqZVQtakhhZjQtWmx0ZWk0UklTZlFMRDQ3eTJxRFFnSnQ4bzh6amExU1N3N3YzMDI5NkJZbDY5NUE0dWxCWUt0MWlkT3dmVXhJNGJXNXZuRHUwOC1UR2tkZncwS0dpZnZYSklibnRIUzkxb2FMZFNhUWk3VzZ6am9SVXBGTEJmMEpxeU1Lc2hB?oc=5",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQk5lU3lPcWt0blRYbW82Rm1vcWtld1dpM2tCRGtnZURCb21nc3hOc3JxazZpSDktcWNSQTRZOF9XX29LNG91ZkV5aHllTHl2U0Q3RV95WHI4R19QQ2NwRW1GN1hRMjZqamZna3Yxa3RJandLMHR2VWVnRGdVNWx0SkZGbUMxdHpKM1IydmQ4LVE4akpmaklxZFYzMHZxRjBrX3VFU0ZENnNEQVQ5Mm9hRg?oc=5",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSy1WOHM2RmJzam0wZFpzVm9YODMtWWl1eTBFcmpwOWM2U0xPN3hlbTJyMm5UeGdpUFN5VEY1SmI1SnVjZzBuaklzZlZ0Q3VaM2JtV1VGcFVFc0VGSFZfbU43c3E2aHNLMDBya1YwRmZ3U1BuT3RhUGF6N2dOVmE5VUJSZnRPY2hhMzBoTTZNMTRuYXJHcndjMDBwZFF1R3czNmlYeDE0cDM0d2RyY0pVVXd6X1MxbmxHaXhkc0FTbWkyZGg3TnQyVFRoY1FGV3lfVkxGc0FYR3FpbzFBVU1xdXhB?oc=5",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPX2xWNTVLQjRLakFyZmZxOVRWYkEwV2I3Sm5DN0FSdkptcEpRdmFSSkItYkFzQUpMQ29DemIwc3FMWTFNTk41NzJ3N2dLYjAzLWx4UXZOTUZFOG5hTzdhMko5WVdCd2VfdWZvNDE0LXNBRE5MMmw2eDZmRDJOS0lpVHV3Y3htajFkMElTSDdURHRsOW1RcEhIekNrekYzRzBnVEpZaUVOSDI5b25HWGVSVENORlQ2YjRCREdwQk1lNmN2WnRmYzRDSDRGeVFGemRsaTB1WnJudGc0bkl4T1p4SDJLa3B0QU4zdjdJ0gHrAUFVX3lxTE9fbFY1NUtCNEtqQXJmZnE5VFZiQTBXYjdKbkM3QVJ2Sm1wSlF2YVJKQi1iQXNBSkxDb0N6YjBzcUxZMU1OTjU3Mnc3Z0tiMDMtbHhRdk5NRkU4bmFPN2EySjlZV0J3ZV91Zm80MTQtc0FETkwybDZ4NmZEMk5LSWlUdXdjeG1qMWQwSVNIN1REdGw5bVFwSEh6Q2t6RjNHMGdUSllpRU5IMjlvbkdYZVJUQ05GVDZiNEJER3BCTWU2Y3ZadGZjNENINEZ5UUZ6ZGxpMHVacm50ZzRuSXhPWnhIMktrcHRBTjN2N0k?oc=5",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWndqZ3h6Qm5tZ3dXWXA3VUtNenJxcjJkNy03dUdHM0RPSUtWTXVVM1VjSUJtekFnbjdxaTRRS3hDN0k1LWptOVkyaklhWWpEWVZUZ2FmRGhlYzNIUF90THc4QkpYOEFTZDBhVk9zMG4yRkRiMXBSUFFEeUgxNDBUajFNdlpRX0NQS3htaFozMEF6RW5aeG95b1N0cXZaY0VzS3RTOEptYlhYN2s0c3FrNmhFOFdUZ3c?oc=5",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNMmZ2clFpbW1JTTY2M1pISWxRNUM3enhiaUZnYmNJenNwcWxabi1McXpEN3RvVGlsdzhZSnZCaDhXSG81bmVITk9FaElvSjN6bzZLbU9RT2R1U0NkS201bmFCRDB0blZVNF9aakE5RmtKWHEySlY3aDdVOHd2dWNfU1J5bHFOTGo5UnBTdHAwZVpLVUVBaWNFM2JKMEFlSWQ4V045UjJzU1BCQmNMUTJSdXNjRzB1N0VYUTRVWmhONzkxNVY2U1kwdm5xemtLNDJ1am5qVVA1cXN3bjZhcHJKZS1oc2hKZnBDTnFweU1Sak0xQXo1WTFkamUwYjlKd2dTSGJuQk4wVEY5WEZ2X1N6X0t3?oc=5",
+   "d": "2026-11-28",
+   "w": "published"
   }
  ]
 }
