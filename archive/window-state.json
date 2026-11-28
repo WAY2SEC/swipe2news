@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T21:35:00+05:30",
+ "cutoff": "2026-11-28T22:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-26T09:35:00+05:30/2026-11-26T10:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Lookback from 01:35. Feeds 09:43 IST (69/70 ok; 172 uncovered unseen events seen since 08:30, most already published under other URLs). add_repo tool not available; used existing clone. Published 3: Siasat Hyderabad consumer forum BYD EV inspection + Rs 35,000 (09:42), TT/IANS CMs' 26/11 tributes (09:56), TT BIMSTEC U23 athletics Mrithika 100m gold (09:26). Duplicate: Andhra Jyothy live page (items already published). Skipped: UNI India 4-0 Japan women's hockey (25 Nov 18:32 UTC = 00:02 IST, before lookback), TV9 Cheyutha/saree announcement (19 Nov). Not opened (no search hit): out-of-state cabs scrutiny, OU athletics, Amaravati phase-2 pooling 8,000 acres (NIE), AP SMR GO RT 81, Pawan Kalyan snares, NK Pally model school shock (V6), Aliens Developers Rs 2 cr fine (V6), Nirmal lake encroachments, tenant ryots crop loss survey. No district searches this run. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-26T10:05:00+05:30/2026-11-26T10:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 13:05 Nov 28. Feeds 21:18 IST (75/75 ok; 2771 uncovered, 812 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch opened. Published 2: Deccan Chronicle Baoli Art Sangam stepwell biennale Dec 1-Jan 10 (19:33, single, routine), Telangana Today Chinna Jeeyar certificates/Rs 2.27 lakh cheque at Nava women centre Paloncha (19:47, single, routine). Duplicates: HMDA auctions no bids (card 27 Nov), Krishna poll-duty absentees (card 27 Nov), Congress CMs delimitation meet (card 16:05). Skipped old: DC Medaram mini jatara Feb 17-20 (27 Sep; V6 19:49 copy not surfaced), TT Governor NSS anti-drug pledge (29 Oct; The Hindu 20:52 not surfaced). Single source (sensitive, not published): Siasat UoH Equal Opportunity Cell probing alleged casteist remarks by history professor (20:35). Not published: Pauri Garhwal Uttarakhand gorge accident 7 dead (Daily Jagran 16:58 + India TV; other state, no TG/AP link). Not surfaced/opened: The Hindu Jai Raj Ispat Kurnool (aggregators only), Disha Jagan-Amaravati counter (fetch error), HYDRAA DRF rescue (sensitive, single outlet), TT Burgudem train death (single, sensitive), V6 LB Nagar Rs 3.20 cr theft, The Hindu Nellore rice Rs 1.37 cr, Krishna organ donation, Kamchatka M6.7 quake (no outlet page). One district search only. Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T21:35:00+05:30/2026-11-28T22:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 6,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 13:35 Nov 28. Feeds 22:00 IST (71/77 ok; 2777 uncovered, 899 TG/AP). add_repo not available; used existing clone and web-fetch helper; direct feed URLs refused (permission), only URLs surfaced by extended WebSearch opened. Published 6: TV9 Telugu + The Hindu EAGLE inputs/Nagpur Rs 1.75 cr drugs, three held (21:30, confirmed via feed grouping, The Hindu page not opened; no names), Siasat Revanth invites Ananya Birla to Global Summit Dec 7-9 (21:45, single, routine), Telugu360 + The Hindu Jai Raj Ispat Rs 3,378 cr Orvakal phase 2 (17:42, late-found, The Hindu page not opened), Telangana Today Sangareddy soaked paddy/road blockade (20:27, single, claim), Telangana Today Cooch Behar Trophy Hyderabad v Chandigarh day 3 (20:25), Telangana Today India snooker teams in World Cup quarters (20:27). Duplicates: HMWSSB pipeline (Osman Sagar card 19:35), Chanticleer/Annamayya (card 13:55). Skipped old: INDToday Governor drug-free (25 Aug), UNI Governor drug-free (28 Oct; The Hindu 20:52 not surfaced). Not surfaced: The Hindu Mahesh Goud on Phule, Karimnagar science exhibition, Nellore rice Rs 1.37 cr (aggregators only), SC judge on district courts, Uttam on delimitation (sensitive, single), TT basketball. Three allowed_domains searches rejected by search proxy (HTTP 400). No district searches this run. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8143,6 +8143,61 @@
    "url": "https://www.deccanchronicle.com/nation/politics/congress-cms-of-karnataka-telangana-keralam-to-meet-on-delimitation-2008778",
    "d": "2026-11-28",
    "w": "2026-11-28T21:35"
+  },
+  {
+   "url": "https://tv9telugu.com/telangana/telangana-eagle-force-intelligence-leads-to-rs-1-75-crore-drug-seizure-in-maharashtra-1968820.html",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/telangana-eagle-inputs-lead-to-seizure-of-narcotic-substances-worth-175-crore-in-nagpur-three-detained/article71754999.ece",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/revanth-reddy-invites-ananya-birla-to-telangana-global-summit-3589353/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.telugu360.com/te/minister-nara-lokesh-announced-jai-raj-ispats-rs-3378-crore-investment-for-expansion-in-orvakal/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/andhra-pradesh/jai-raj-ispats-second-phase-to-bring-3378-crore-investment-to-kurnool/article71754672.ece",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/soaked-paddy-stocks-at-procurement-centres-leave-farmers-in",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/ved-reddy-takes-three-as-hyderabad-restricts-chandigarh-in-cooch-behar-trophy",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/indias-snooker-teams-storm-into-world-cup-quarterfinals",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://indtoday.com/governor-calls-for-drug-free-telangana-with-youth-participation/",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.uniindia.com/south-india/event-telangana-drug-free-governor/228186",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/hmwssb-plans-10-km-pipeline-network-to-boost-citys-water-supply/article71754742.ece",
+   "d": "2026-11-28",
+   "w": "duplicate"
   }
  ]
 }
