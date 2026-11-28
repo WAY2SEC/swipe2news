@@ -1,8 +1,270 @@
 {
  "date": "28.11.2026",
  "iso": "2026-11-28",
- "count": 92,
+ "count": 96,
  "stories": [
+  {
+   "cat": "ఏపీ · ఎన్నికలు",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "e/ballot-paper-vote",
+   "stat": "83.52 లక్షల ఓటర్లు",
+   "statl": "రెండో విడతలో",
+   "h": "ఏపీలో రేపు రెండో విడత పంచాయతీ పోలింగ్",
+   "p": "ఆంధ్రప్రదేశ్‌లో రెండో విడత గ్రామ పంచాయతీ ఎన్నికల పోలింగ్ ఆదివారం జరగనుంది. విశాఖపట్నం తప్ప 27 జిల్లాల్లోని 246 మండలాల్లో 3,880 పంచాయతీల్లో ఓటింగ్ ఉంటుంది. 83.52 లక్షల మందికి పైగా ఓటర్లు ఉన్నారు. వీరిలో మహిళలు 42.46 లక్షలు, పురుషులు 41.05 లక్షలు. మొత్తం 37,019 పోలింగ్ కేంద్రాలు సిద్ధం చేశారు.",
+   "src": "Telugu360",
+   "url": "https://www.telugu360.com/andhra-pradesh-set-for-second-phase-of-panchayat-polls-83-52-lakh-voters-eligible/",
+   "srcs": [
+    {
+     "n": "NTV Telugu",
+     "u": "https://ntvtelugu.com/andhra-pradesh-news/amaravathi/ap-panchayat-elections-2026-second-phase-polling-details-1039756.html"
+    }
+   ],
+   "sec": [
+    "telangana"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "",
+   "pts": [
+    "1,095 పంచాయతీలు ఇప్పటికే ఏకగ్రీవం",
+    "సర్పంచ్ బరిలో 10,295 మంది అభ్యర్థులు",
+    "9,300 కెమెరాలతో పోలింగ్‌పై నిఘా"
+   ],
+   "why": "ఈ 27 జిల్లాల గ్రామ ఓటర్లు ఆదివారం తమ సర్పంచ్, వార్డు సభ్యులను ఎన్నుకుంటారు.",
+   "next": "పోలింగ్ నవంబర్ 29న (ఆదివారం)",
+   "pub": "2026-11-28T16:18+05:30",
+   "lbl": "fact",
+   "vs": "confirmed",
+   "en": {
+    "cat": "AP · Elections",
+    "stat": "83.52 lakh voters",
+    "statl": "in the second phase",
+    "loc": "Andhra Pradesh",
+    "h": "AP panchayat phase 2 polling on Sunday",
+    "p": "Andhra Pradesh holds the second phase of gram panchayat elections on Sunday, November 29. Voting will take place in 3,880 panchayats across 246 mandals in 27 districts, leaving out Visakhapatnam. More than 83.52 lakh people are eligible to vote, about 42.46 lakh women and 41.05 lakh men, at 37,019 polling stations, State Election Commission figures show.",
+    "pts": [
+     "1,095 panchayats already elected unopposed",
+     "10,295 candidates in the sarpanch race",
+     "About 9,300 cameras to watch polling"
+    ],
+    "why": "Village voters in these 27 districts choose their sarpanches and ward members on Sunday.",
+    "next": "Polling on Sunday, November 29"
+   },
+   "hi": {
+    "cat": "आंध्र · चुनाव",
+    "stat": "83.52 लाख मतदाता",
+    "statl": "दूसरे चरण में",
+    "loc": "आंध्र प्रदेश",
+    "h": "आंध्र में कल पंचायत चुनाव का दूसरा चरण",
+    "p": "आंध्र प्रदेश में ग्राम पंचायत चुनाव के दूसरे चरण का मतदान रविवार, 29 नवंबर को होगा। विशाखापत्तनम को छोड़ 27 जिलों के 246 मंडलों की 3,880 पंचायतों में वोट पड़ेंगे। 83.52 लाख से अधिक मतदाता हैं, जिनमें करीब 42.46 लाख महिलाएँ और 41.05 लाख पुरुष हैं। 37,019 मतदान केंद्र बनाए गए हैं।",
+    "pts": [
+     "1,095 पंचायतें पहले ही निर्विरोध",
+     "सरपंच पद के लिए 10,295 उम्मीदवार",
+     "करीब 9,300 कैमरों से मतदान पर नज़र"
+    ],
+    "why": "इन 27 जिलों के ग्रामीण मतदाता रविवार को अपने सरपंच और वार्ड सदस्य चुनेंगे।",
+    "next": "मतदान रविवार, 29 नवंबर को"
+   },
+   "d": "28.11.2026",
+   "t": "17:35"
+  },
+  {
+   "cat": "తెలంగాణ · వక్ఫ్",
+   "col": "--c-gov",
+   "art": "court",
+   "pic": "e/party-aimim",
+   "stat": "వక్ఫ్ భేటీ",
+   "statl": "వాయిదాకు ఒవైసీ డిమాండ్",
+   "h": "వక్ఫ్ భేటీ వాయిదా వేయాలన్న ఒవైసీ",
+   "p": "శనివారం జరగాల్సిన తెలంగాణ వక్ఫ్ బోర్డు సమావేశాన్ని వెంటనే వాయిదా వేయాలని ఎంఐఎం అధ్యక్షుడు, ఎంపీ అసదుద్దీన్ ఒవైసీ ప్రభుత్వాన్ని కోరారు. కొత్త వక్ఫ్ చట్టంలోని సెక్షన్ 14 ప్రకారం బోర్డులో ఇప్పుడు ఇద్దరు సభ్యులే అర్హులని, ఈ భేటీ నిర్ణయాలు చెల్లవని ఆయన వాదించారు. బోర్డు, ప్రభుత్వం ఇంకా స్పందించలేదు.",
+   "src": "The Siasat Daily",
+   "url": "https://www.siasat.com/owaisi-questions-legality-of-telangana-waqf-board-meeting-3589170/",
+   "srcs": [
+    {
+     "n": "Newsage",
+     "u": "https://www.newsage.in/owaisi-waqf-board-meeting-postpone/"
+    }
+   ],
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pts": [
+    "కొత్త చట్టం ప్రకారం కొత్త బోర్డు వేయాలని సూచన",
+    "సీఎంఓ, సీఎస్, మంత్రి అజారుద్దీన్‌కు విన్నపం",
+    "2022లో 11 మంది సభ్యులతో బోర్డు ఏర్పాటు"
+   ],
+   "why": "వక్ఫ్ ఆస్తులపై బోర్డు తీసుకునే నిర్ణయాలు చట్టపరంగా నిలుస్తాయా అన్న ప్రశ్నతో ఇది ముడిపడి ఉంది.",
+   "pub": "2026-11-28T17:26+05:30",
+   "lbl": "claim",
+   "vs": "confirmed",
+   "en": {
+    "cat": "Telangana · Waqf",
+    "stat": "Waqf meeting",
+    "statl": "Owaisi seeks postponement",
+    "loc": "Telangana",
+    "h": "Owaisi wants Waqf Board meeting put off",
+    "p": "AIMIM president and Hyderabad MP Asaduddin Owaisi asked the Telangana government to immediately postpone the State Waqf Board meeting set for Saturday. He argued that under Section 14 of the amended Waqf law only two current members remain eligible, so any decisions taken at the meeting would not be valid. No response from the Board or the government was reported.",
+    "pts": [
+     "He urged a new Board under the amended law",
+     "Appeal sent to CMO, Chief Secretary and Minister Azharuddin",
+     "The Board was formed in 2022 with 11 members"
+    ],
+    "why": "It raises the question of whether the Board's decisions on Waqf property will hold up legally."
+   },
+   "hi": {
+    "cat": "तेलंगाना · वक्फ़",
+    "stat": "वक्फ़ बैठक",
+    "statl": "टालने की ओवैसी की मांग",
+    "loc": "तेलंगाना",
+    "h": "ओवैसी ने वक्फ़ बोर्ड बैठक टालने को कहा",
+    "p": "एआईएमआईएम अध्यक्ष और हैदराबाद सांसद असदुद्दीन ओवैसी ने तेलंगाना सरकार से शनिवार को होने वाली राज्य वक्फ़ बोर्ड की बैठक तुरंत टालने की मांग की। उनका तर्क है कि संशोधित वक्फ़ कानून की धारा 14 के तहत अभी केवल दो सदस्य पात्र हैं, इसलिए बैठक के फैसले मान्य नहीं होंगे। बोर्ड या सरकार की प्रतिक्रिया नहीं आई है।",
+    "pts": [
+     "नए कानून के तहत नया बोर्ड बनाने का सुझाव",
+     "सीएमओ, मुख्य सचिव और मंत्री अज़हरुद्दीन से अपील",
+     "बोर्ड 2022 में 11 सदस्यों के साथ बना था"
+    ],
+    "why": "इससे यह सवाल उठता है कि वक्फ़ संपत्ति पर बोर्ड के फैसले कानूनी रूप से टिकेंगे या नहीं।"
+   },
+   "d": "28.11.2026",
+   "t": "17:35"
+  },
+  {
+   "cat": "భారత్ · క్రికెట్",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/cricket-match",
+   "stat": "15 మంది",
+   "statl": "క్రీడాకారిణులతో జట్టు",
+   "h": "మహిళల అండర్-19 ఆసియా కప్‌కు భారత జట్టు",
+   "p": "యూఏఈలో జరిగే ఏసీసీ అండర్-19 మహిళల ఆసియా కప్‌కు 15 మందితో భారత జట్టును బీసీసీఐ శనివారం ప్రకటించింది. మహిళల సెలక్షన్ కమిటీ ఈ జట్టును ఎంపిక చేసింది. మహారాష్ట్రకు చెందిన వికెట్ కీపర్, బ్యాటర్ భావికా అహిరే కెప్టెన్‌గా ఎంపికయ్యారు. అనాది తగ్డే వైస్ కెప్టెన్. శ్రేయ ఎస్ చవాన్ మరో వికెట్ కీపర్‌గా జట్టులో ఉన్నారు.",
+   "src": "BCCI",
+   "url": "https://www.bcci.tv/news/article/india-u19-squad-for-acc-u19-womens-asia-cup-announced",
+   "srcs": [
+    {
+     "n": "Telangana Today",
+     "u": "https://telanganatoday.com/bhavika-ahire-to-lead-india-in-acc-u19-womens-asia-cup"
+    },
+    {
+     "n": "ThePrint (PTI)",
+     "u": "https://theprint.in/sport/bhavika-ahire-to-lead-india-u19-in-womens-asia-cup/3111798/"
+    }
+   ],
+   "sec": [
+    "sports",
+    "india"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pts": [
+    "ఇంగ్లాండ్‌పై తొలి టీ20లో భావిక 63 నాటౌట్",
+    "ఐదు టీ20ల సిరీస్‌లో భారత్ 2-0 ఆధిక్యం"
+   ],
+   "why": "క్రికెట్ అభిమానులు ఈ టోర్నీలో భారత యువ క్రీడాకారిణుల ఆటను చూడొచ్చు.",
+   "pub": "2026-11-28T16:15+05:30",
+   "lbl": "fact",
+   "vs": "official",
+   "en": {
+    "cat": "India · Cricket",
+    "stat": "15 players",
+    "statl": "in India's squad",
+    "loc": "India",
+    "h": "India name U19 women's Asia Cup squad",
+    "p": "The BCCI on Saturday named a 15-member India squad for the ACC Under-19 Women's Asia Cup, to be played in the UAE. Wicketkeeper-batter Bhavika Ahire from Maharashtra will captain the side, with Anaadi Tagde as vice-captain. Shreya S Chavan is the second wicketkeeper in the group picked by the women's selection committee.",
+    "pts": [
+     "Ahire hit an unbeaten 63 in the first T20 against England",
+     "India lead the five-match T20 series 2-0"
+    ],
+    "why": "Cricket fans can follow India's young women players at the continental event."
+   },
+   "hi": {
+    "cat": "भारत · क्रिकेट",
+    "stat": "15 खिलाड़ी",
+    "statl": "भारत की टीम में",
+    "loc": "भारत",
+    "h": "अंडर-19 महिला एशिया कप के लिए टीम घोषित",
+    "p": "बीसीसीआई ने शनिवार को यूएई में होने वाले एसीसी अंडर-19 महिला एशिया कप के लिए 15 सदस्यीय भारतीय टीम घोषित की। महाराष्ट्र की विकेटकीपर-बल्लेबाज़ भाविका अहिरे कप्तान होंगी और अनादि तागड़े उप-कप्तान। श्रेया एस चव्हाण टीम में दूसरी विकेटकीपर हैं।",
+    "pts": [
+     "इंग्लैंड के खिलाफ पहले टी20 में अहिरे 63 नाबाद",
+     "पाँच टी20 की सीरीज़ में भारत 2-0 से आगे"
+    ],
+    "why": "क्रिकेट प्रेमी इस टूर्नामेंट में भारत की युवा खिलाड़ियों का खेल देख सकेंगे।"
+   },
+   "d": "28.11.2026",
+   "t": "17:35"
+  },
+  {
+   "cat": "భారత్ · సంస్కృతి",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "logo",
+   "stat": "డిసెంబర్ 12 వరకు",
+   "statl": "కాశీ తమిళ సంగమం",
+   "h": "వారణాసిలో కాశీ తమిళ సంగమం ప్రారంభం",
+   "p": "కాశీ తమిళ సంగమం ఐదో విడత కార్యక్రమాన్ని ఉపరాష్ట్రపతి సి.పి. రాధాకృష్ణన్ శనివారం వారణాసిలోని నమో ఘాట్‌లో ప్రారంభించారు. ఉత్తరప్రదేశ్ సీఎం యోగి ఆదిత్యనాథ్, కేంద్ర విద్యాశాఖ మంత్రి ప్రహ్లాద్ జోషి పాల్గొన్నారు. ఉత్తర, దక్షిణ భారత సంస్కృతుల బంధం దీని లక్ష్యం. తిరుక్కురళ్ నేర్చుకుందాం అనే ఇతివృత్తంతో ఈ వేడుక డిసెంబర్ 12 వరకు జరుగుతుంది.",
+   "src": "UNI",
+   "url": "https://www.uniindia.com/north-india/event-kashi-tamil-sangamam-5-0-varanasi/259728",
+   "srcs": [
+    {
+     "n": "PIB",
+     "u": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2342468&reg=48&lang=1&v=sd"
+    },
+    {
+     "n": "The Right News",
+     "u": "https://www.therightnews.in/2026/11/28/vice-president-c-p-radhakrishnan-inaugurates-the-fifth-edition-of-kashi-tamil-sangamam-in-varanasi/"
+    }
+   ],
+   "sec": [
+    "india",
+    "culture"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "వారణాసి",
+   "pts": [
+    "తమిళనాడు నుంచి సుమారు 1,400 మంది ప్రతినిధులు: పీఐబీ",
+    "ప్రయాగ్‌రాజ్, అయోధ్యల సందర్శన కూడా ఉంది"
+   ],
+   "why": "తమిళనాడు నుంచి వచ్చే విద్యార్థులు, ఉపాధ్యాయులు, కళాకారులు ఈ కార్యక్రమంలో పాల్గొంటారు.",
+   "next": "కార్యక్రమం డిసెంబర్ 12 వరకు",
+   "pub": "2026-11-28T13:26+05:30",
+   "lbl": "fact",
+   "vs": "confirmed",
+   "en": {
+    "cat": "India · Culture",
+    "stat": "Till Dec 12",
+    "statl": "Kashi Tamil Sangamam",
+    "loc": "Varanasi",
+    "h": "Kashi Tamil Sangamam opens in Varanasi",
+    "p": "Vice-President C. P. Radhakrishnan on Saturday opened the fifth edition of the Kashi Tamil Sangamam at Namo Ghat in Varanasi, with Uttar Pradesh Chief Minister Yogi Adityanath and Union Education Minister Pralhad Joshi present. Built around the theme of learning the Thirukkural, the cultural exchange runs until December 12, according to UNI and PIB.",
+    "pts": [
+     "About 1,400 delegates from Tamil Nadu, says PIB",
+     "Itinerary also covers Prayagraj and Ayodhya"
+    ],
+    "why": "Students, teachers and artisans from Tamil Nadu take part in the programme.",
+    "next": "Programme runs until December 12"
+   },
+   "hi": {
+    "cat": "भारत · संस्कृति",
+    "stat": "12 दिसंबर तक",
+    "statl": "काशी तमिल संगमम",
+    "loc": "वाराणसी",
+    "h": "वाराणसी में काशी तमिल संगमम शुरू",
+    "p": "उपराष्ट्रपति सी. पी. राधाकृष्णन ने शनिवार को वाराणसी के नमो घाट पर काशी तमिल संगमम के पाँचवें संस्करण का उद्घाटन किया। उत्तर प्रदेश के मुख्यमंत्री योगी आदित्यनाथ और केंद्रीय शिक्षा मंत्री प्रह्लाद जोशी मौजूद थे। तिरुक्कुरल सीखने के विषय पर यह आयोजन 12 दिसंबर तक चलेगा।",
+    "pts": [
+     "पीआईबी के अनुसार तमिलनाडु से करीब 1,400 प्रतिनिधि",
+     "यात्रा में प्रयागराज और अयोध्या भी शामिल"
+    ],
+    "why": "तमिलनाडु के विद्यार्थी, शिक्षक और कारीगर इस कार्यक्रम में हिस्सा लेते हैं।",
+    "next": "कार्यक्रम 12 दिसंबर तक"
+   },
+   "d": "28.11.2026",
+   "t": "17:35"
+  },
   {
    "cat": "భువనగిరి · సంఘాలు",
    "col": "--c-gov",
