@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T18:05:00+05:30",
+ "cutoff": "2026-11-28T18:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-26T06:05:00+05:30/2026-11-26T06:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 6,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 3,
-   "review": 1,
-   "gaps": "Lookback from 22:05 (25 Nov). Feeds 06:30 IST (57/70 ok; 546 uncovered unseen events in lookback, 106 local). add_repo tool not available; used existing clone. Published 6: DC Nagarkurnool ₹450 cr works (23:24, fact, logo), Hans AP 23 ULB polling today (03:01, fact), Hans AP junior colleges Constitution Day (02:53, fact, logo), HMTV Gadwal bike-tree crash 1 dead (22:41, claim, no name), ThePrint/PTI India rejects US excess-capacity charge (23:45, fact), Korea Times Kim nuclear sites (04:11, fact). Review: Matrix agri value-addition (no absolute time). Skipped as before lookback: Hans Warangal Congress (19:21), HMTV Food Commission Wanaparthy (23 Nov), Miss Universe (17:44). Duplicates: graduate rolls, AP phase-2 sarpanch polls, India TV tariff. Not opened: CNN (robots), socialnews.xyz, Eenadu items, Hindu direct feed URLs (no search hit). 8 district searches run (mostly poll-prep results)."
-  },
   {
    "window": "2026-11-26T06:35:00+05:30/2026-11-26T07:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 09:35 Nov 28. Feeds 17:44 IST (76/77 ok; 2787 uncovered, 844 TG/AP). add_repo not available; used existing clone and web-fetch helper. Published 3: Namasthe Telangana + HMTV + Andhra Prabha Adilabad businessman arrested in Rs 8.55 cr benami accounts case (16:46, confirmed, sensitive, police source, no names; outlets differ on second accused), Vaartha AP 12th PRC questionnaire (17:13, single, routine), Andhra Jyothy + HMTV Pithapuram Narasingapuram cattle shed fire, Pawan Kalyan orders inquiry (15:50, confirmed, late-found; livestock counts differ). Duplicates: V6 Nampally job mela Dec 2 (card 14:35), Business Standard FinMin monthly review (card 16:35), V6 AP phase-2 police deployment (card 17:35). Skipped old: Deccan Chronicle Krishna 280 election staff show-cause (published 26 Nov 23:20). Not opened: Disha Krishna show-cause, Disha Karimnagar Rs 5,000 fine, Eenadu PRC (robots). No district searches this run. Not attempted: most of the feed backlog. Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T18:05:00+05:30/2026-11-28T18:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 2,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 10:05 Nov 28. Feeds 18:11 IST (76/77 ok; 2847 uncovered, 973 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 2: HMTV + V6 Velugu + Andhra Jyothy Manikonda youth electrocuted while tying Ayyappa puja flex banners (HMTV 11:41, confirmed, sensitive, no names; outlets differ on case registration and injury severity; late-found), V6 Velugu Khelo India torch rally in 33 districts Dec 1-8 (16:27, single, routine). Single source (sensitive, not published): Telangana Today BRS workers detained at Waqf Board office protest over 1,248-acre Alur Sharif land transfer (17:47). Not surfaced by search: TV9/10TV gold prices, HT Charlapalli-Srikakulam Sankranti specials, NewsMeter/Eenadu Hyderabad techie Rs 10 lakh fraud, Medak NH161 lorry (Instagram only), Visalaandhra AP SSC fee deadline. Disha Manikonda page fetch error. District searches (Khammam, Kurnool, Nizamabad) returned tag pages only. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7838,6 +7838,36 @@
    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/show-cause-notice-issued-to-280-staff-absent-from-election-duty-2008318",
    "d": "2026-11-28",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/hyderabad/manikonda-tragedy-18-year-old-youth-dies-of-electric-shock-while-putting-218098",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/tragedy-strikes-during-ayyappa-puja-preparations-18-year-old-dies-of-electric-shock-in-manikonda",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/hyderabad-manikonda-accident-18-year-old-uday-dies-of-electric-shock-and-one-injured-vk-1580334.html",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.dishadaily.com/telangana/rangareddy/unspeakable-tragedy-during-ayyappa-rituals-604330",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.v6velugu.com/khelo-india-buzz-across-telangana-as-sports-torch-rally-begins-on-december-1",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/protest-at-haj-house",
+   "d": "2026-11-28",
+   "w": "single-source"
   }
  ]
 }
