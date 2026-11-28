@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T20:35:00+05:30",
+ "cutoff": "2026-11-28T21:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-26T08:35:00+05:30/2026-11-26T09:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 8,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Lookback from 00:35. Feeds 09:01 IST (64/70 ok; 682 uncovered unseen events in lookback, 132 local - most already published under other URLs). add_repo tool not available; used existing clone. Published 8: V6 AP first-phase panchayat polling begins (08:41), NTV CM Chandrababu votes in Undavalli (08:43), HMTV Mangalagiri 62 divisions polling (08:45), V6 HC agency courts/non-tribal land disputes Kondanagula (08:34), V6 Cyberabad corporation twin towers Rs 169 cr (08:20), TT/IANS PM Modi Constitution Day (08:34), TT/IANS Delhi Police no nod for SKM march (08:54), Siasat/IANS US court blocks citizenship curbs (07:42, late-found). Duplicates: V6 + NTV Warangal baby sale (published 25 Nov), 10TV panchayat polling. Skipped as old: DC HC legal briefs gratuity/HUDA PIL (25 Nov 23:13, before lookback). Not opened: Disha Nalgonda graduate voters (fetch error), Hyderabad Mail Pure EV Warangal consumer order and NIE BRS MLA HUDA auction PIL (no search hit). No district searches this run. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-26T09:05:00+05:30/2026-11-26T09:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 12:05 Nov 28. Feeds 20:14 IST (75/77 ok; 2860 uncovered, 947 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 2: Andhra Jyothy + 10TV Mahalakshmi Rs 500 LPG Aadhaar requirement guidelines (19:30, confirmed), Telangana Today Hyderabad police warn against renting bank accounts to money-laundering gangs (19:51, single, routine; Munsif Daily copy has no date). Duplicates: Afghanistan school blast (TV9/Oneindia 'dynamite' event, card 14:05), KTR BRS backs delimitation (card 15:05), Pithapuram livestock deaths (card 18:05), IAS transfers/HMDA chief (card 19:35). Skipped old: Hans India Deeksha Diwas Alugunur meeting (18 Nov), Chandrababu AP 38 MP seats (27 Nov 21:50), Hyderabad short film festival season 2 (27 Nov). Single source (sensitive, not published): Telangana Today BRS alleges Rs 60 cr Kodangal compensation scam. Not surfaced/opened: The Hindu Deeksha Diwas Nov 29 (19:58), The Hindu Rayalaseema rice crackdown, Siasat Saudi emergency alarm 17:41, HMTV Hathnoora paddy dharna, Hans India Mariped newborn case, Adda247 526 assistant professor posts, The Hindu Bar Council Preamble Dec 1. No district searches this run. Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T20:35:00+05:30/2026-11-28T21:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 5,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 12:35 Nov 28. Feeds 21:01 IST (75/77 ok; failing The Hans India, district:Medak; 2776 uncovered, 907 TG/AP). add_repo not available; used existing clone and web-fetch helper; direct feed URLs refused (permission), only URLs surfaced by extended WebSearch opened. Published 5: Telangana Today Hyderabad 29,347 wrong-side driving cases in six-day drive (20:50, single, routine), Telangana Today TGPCB show-cause notices to private STPs, 9 of 237 not working (20:39, single, routine), Telangana Today lorry hangs from NH-161 bridge near Pedda Shankarampet, driver minor injuries (20:41, single; Munsif Daily copy client error), Siasat + The Hindu excise seizes 68 liquor bottles in Rajendranagar/Shamshabad (20:23, confirmed via feed grouping, The Hindu page not opened; no names), Telangana Today HMDA Mokila 61 plots e-auction Dec 15 (19:56, single, routine). Duplicates (already on cards): IAS transfers/HMDA chief, AP panchayat phase 2, Rs 500 LPG guidelines. Skipped old: Nagpur Today Rs 1.75 cr MD seizure on Telangana inputs (27 Nov 15:04; The Hindu 20:49 not surfaced). Not surfaced/opened: The Hindu Jai Raj Ispat Kurnool Rs 3,378 cr (aggregator only), The Hindu Skill India International Centre Rajamahendravaram (aggregators only), TT Sangareddy soaked paddy, The Hindu Governor on drug abuse, HMWSSB 10-km pipeline, Deeksha Diwas Nov 29, schools camera monitoring. No district searches this run. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8058,6 +8058,51 @@
    "url": "https://telanganatoday.com/brs-alleges-rs-60-crore-scam-in-cm-s-kodangal-constituency",
    "d": "2026-11-28",
    "w": "single"
+  },
+  {
+   "url": "https://telanganatoday.com/traffic-police-book-29-347-wrong-side-cases",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/pcb",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/lorry-hangs-from-nh-161-overbridge",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/68-bottles-of-illegal-liquor-seized-during-hyderabad-raids-3589282/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehindu.com/news/national/telangana/excise-officials-seize-marijuana-1000-kgs-of-black-jaggery-and-68-liquor-bottles-in-separate-raids/article71755023.ece",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/hmda-to-auction-61-mokila-plots",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.nagpurtoday.in/nagpur-md-racket-smashed-cops-seize-drugs-worth-rs-1-75-crore-raids-extend-to-mp/",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/eight-ias-officers-transferred-in-telangana",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/narasimha-reddy-new-hmda-chief-ajith-reddy-to-head-hyderabad-metro-3589277/",
+   "d": "2026-11-28",
+   "w": "duplicate"
   }
  ]
 }
