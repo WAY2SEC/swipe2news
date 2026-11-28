@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T06:35:00+05:30",
+ "cutoff": "2026-11-28T07:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T13:35:00+05:30/2026-11-25T14:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 8,
-   "late": 1,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Lookback from 05:35. Feeds 13:47 IST (70/70 ok; 84 uncovered events first seen since 13:00 scanned, 22 local). add_repo tool not available; used existing clone. Published 8: TT KTR/Harish condemn Kukatpally land auction protest arrests (13:39, claim, sensitive), DC Jogipet SC girls hostel students ill (13:42, claim, sensitive; source says 4 in headline, 7 in text), TT Congress may skip 3-year celebrations (13:36, claim - unnamed sources), TV9 VMRDA says Vizag not renamed/Bay-Tech City (13:20, fact), ThePrint/PTI SC sets aside HC order in Rahul Gandhi assets case (13:45, fact), SocialNews/IANS India top milk producer (13:03, fact), Daijiworld women's hockey world No. 5 (11:24, fact, late-found), ThePrint/Reuters North Korea expels Swiss diplomat (12:30, fact). Duplicate: Eenadu VMRDA no rename (same event). Not found by search: Colombia hostages freed follow-up. Not attempted (left unseen): ETV Bharat Khammam woman/children deaths, Prime9 Nidadavolu vice-chair poll tension, Vaartha ration card cancellations, Disha Sajjanar fire safety, Siasat women unsafe study, Siasat CPI(M) activist murder life terms, News On AIR Surya Kiran exercise, HMTV Mancherial insurance centres, ETV Vijayawada railway hospital. No district searches. Pre-existing check ERROR: Australia poll story pic n/nri. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-25T14:05:00+05:30/2026-11-25T14:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 22:05 Nov 27. Feeds 06:31 IST (70/77 ok; 2528 uncovered, 823 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Nothing published. Andhrajyothy 28 Nov live blog (06:05-06:15 entries) opened: duplicates of AP phase-2 panchayat polls Nov 29 (published 26 Nov), Chevella two cousins crash (27 Nov), Kakatiya University convocation (26 Nov); skipped as one-line single-source items: CM Revanth review meetings, Naidu Rajahmundry/Vijayawada tour. Duplicate: Sakshi/Disha/Lokal IMD praise for El Nino measures (same Climate Conclave event as 05:05 story). ~25 searches incl. district searches (Asifabad, Kurnool/Nandyal, Nalgonda) returned only old/tag pages; not surfaced: NT 1.75 lakh overseas-job subsidy (scheme already published), Eenadu Adilabad moneylender raids, Hindu Karimnagar FSSAI licence, DC Waqf 46 acres Mahbubnagar, News18 AP weather, NT ABD liquor water, Hindu Kona dredger, DC Madanapalle probe officer, DC diabetes conference, V6 naxal report."
+  },
+  {
+   "window": "2026-11-28T06:35:00+05:30/2026-11-28T07:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 3,
+   "late": 3,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 22:35 Nov 27. Feeds 06:31 IST (70/77 ok; 2528 uncovered, 823 TG/AP; failing: Andhra Jyothy, Namasthe Telangana, TV5, The Hindu, PIB, district Yadadri, district Nandyal). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 3: Hans India Rs 135 cr works in Alampur (03:18, single, pic logo), Hans India Hyderabad International Short Film Festival Jan 27-31 2027 (04:50, single, pic logo), Al Jazeera + Korea Times/AP US disables ship Pacific Archer at Iran blockade (03:52, confirmed, lbl claim). Duplicate: Andhrajyothy Moosapet truck park HC relief (published 27 Nov 13:05). Skipped (before lookback): ETV Bharat/OrissaPost PTI citizenship digital certificates (27 Nov 20:18; later TOI/IE items not opened), Andhrajyothy RRR south 4,962 acres (25 Nov). Single source, not published: Hans India quack clinics reopen in Warangal (allegations). Not opened: Eenadu RRR south notification today, Eenadu Rajahmundry Skill India International Centre (Eenadu only). Not surfaced by search: TOI Indiramma insurance Aadhaar cover, TOI Global Summit footprint, IE measles-rubella WHO. Not attempted: NZ v India 2nd Test day 2 (in progress), NT/Disha ABD liquor Krishna water complaint, Eenadu/Sakshi/Andhrajyothy district items (Google News links), 8 district searches. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6568,6 +6568,51 @@
    "url": "https://www.ntnews.com/telangana/telangana-climate-conclave-2026-focuses-on-el-nino-preparedness%E0%B0%8E%E0%B0%B2%E0%B1%8D-%E0%B0%A8%E0%B0%BF%E0%B0%A8%E0%B1%8B-%E0%B0%85%E0%B0%82%E0%B0%9F%E0%B1%87-%E0%B0%95%E0%B0%B0%E0%B1%81-2570648",
    "d": "2026-11-28",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/khammam/ministers-unveil-devpt-works-worth-rs-135-cr-in-alampur-1146491",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.thehansindia.com/cinema/tollywood/hyderabad-international-short-film-festival-2027-second-edition-dates-announced-1146520",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.koreatimes.co.kr/world/20261128/us-military-says-it-disabled-another-ship-attempting-to-breach-iran-blockade",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/telangana-high-court-moosapet-truck-parking-land-auction-case-1580471.html",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.etvbharat.com/en/bharat/ministry-of-home-affairs-tweaks-citizenship-rules-says-all-indians-to-get-digital-certificates-hard-copies-only-on-request-enn26112706799",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.orissapost.com/mha-amends-citizenship-rules-makes-digital-certificates-mandatory-for-all-indians/",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/hyderabad-rrr-south-phase-4962-acres-land-acquisition-90-villages-1579554.html",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/warangal/quack-clinics-reopen-within-a-day-of-cases-being-booked-1146487",
+   "d": "2026-11-28",
+   "w": "skipped"
   }
  ]
 }
