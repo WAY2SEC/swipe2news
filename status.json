@@ -1,0 +1,698 @@
+[
+ {
+  "name": "AIT News",
+  "kind": "direct",
+  "ok": true,
+  "items": 20,
+  "fresh": 20,
+  "error": ""
+ },
+ {
+  "name": "Africanews",
+  "kind": "direct",
+  "ok": true,
+  "items": 50,
+  "fresh": 39,
+  "error": ""
+ },
+ {
+  "name": "Al Jazeera",
+  "kind": "direct",
+  "ok": true,
+  "items": 25,
+  "fresh": 25,
+  "error": ""
+ },
+ {
+  "name": "Arise News",
+  "kind": "direct",
+  "ok": true,
+  "items": 20,
+  "fresh": 20,
+  "error": ""
+ },
+ {
+  "name": "BBC Africa",
+  "kind": "direct",
+  "ok": true,
+  "items": 32,
+  "fresh": 4,
+  "error": ""
+ },
+ {
+  "name": "BBC World",
+  "kind": "direct",
+  "ok": true,
+  "items": 26,
+  "fresh": 23,
+  "error": ""
+ },
+ {
+  "name": "BellaNaija",
+  "kind": "direct",
+  "ok": true,
+  "items": 50,
+  "fresh": 6,
+  "error": ""
+ },
+ {
+  "name": "Blueprint",
+  "kind": "direct",
+  "ok": true,
+  "items": 20,
+  "fresh": 20,
+  "error": ""
+ },
+ {
+  "name": "Business Post",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 10,
+  "error": ""
+ },
+ {
+  "name": "BusinessDay",
+  "kind": "direct",
+  "ok": true,
+  "items": 5,
+  "fresh": 5,
+  "error": ""
+ },
+ {
+  "name": "Channels TV",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 10,
+  "error": ""
+ },
+ {
+  "name": "Complete Sports",
+  "kind": "direct",
+  "ok": true,
+  "items": 20,
+  "fresh": 20,
+  "error": ""
+ },
+ {
+  "name": "Daily Post",
+  "kind": "direct",
+  "ok": true,
+  "items": 20,
+  "fresh": 20,
+  "error": ""
+ },
+ {
+  "name": "Daily Trust",
+  "kind": "direct",
+  "ok": true,
+  "items": 14,
+  "fresh": 14,
+  "error": ""
+ },
+ {
+  "name": "Federal Ministry of Information",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 0,
+  "error": ""
+ },
+ {
+  "name": "France 24",
+  "kind": "direct",
+  "ok": true,
+  "items": 24,
+  "fresh": 24,
+  "error": ""
+ },
+ {
+  "name": "Google News Nigeria – Abuja",
+  "kind": "gnews",
+  "ok": true,
+  "items": 100,
+  "fresh": 97,
+  "error": ""
+ },
+ {
+  "name": "Google News Nigeria – CBN naira",
+  "kind": "gnews",
+  "ok": true,
+  "items": 100,
+  "fresh": 100,
+  "error": ""
+ },
+ {
+  "name": "Google News Nigeria – INEC election",
+  "kind": "gnews",
+  "ok": true,
+  "items": 100,
+  "fresh": 91,
+  "error": ""
+ },
+ {
+  "name": "Google News Nigeria – Lagos",
+  "kind": "gnews",
+  "ok": true,
+  "items": 100,
+  "fresh": 99,
+  "error": ""
+ },
+ {
+  "name": "Google News Nigeria – NBS statistics",
+  "kind": "gnews",
+  "ok": true,
+  "items": 10,
+  "fresh": 4,
+  "error": ""
+ },
+ {
+  "name": "Google News Nigeria – NiMet weather",
+  "kind": "gnews",
+  "ok": true,
+  "items": 24,
+  "fresh": 20,
+  "error": ""
+ },
+ {
+  "name": "Google News Nigeria – business",
+  "kind": "gnews",
+  "ok": true,
+  "items": 70,
+  "fresh": 26,
+  "error": ""
+ },
+ {
+  "name": "Google News Nigeria – sports",
+  "kind": "gnews",
+  "ok": true,
+  "items": 70,
+  "fresh": 33,
+  "error": ""
+ },
+ {
+  "name": "Google News Nigeria – top",
+  "kind": "gnews",
+  "ok": true,
+  "items": 37,
+  "fresh": 34,
+  "error": ""
+ },
+ {
+  "name": "Google News – INEC (official)",
+  "kind": "gnews",
+  "ok": true,
+  "items": 1,
+  "fresh": 0,
+  "error": ""
+ },
+ {
+  "name": "Google News – NiMet (official)",
+  "kind": "gnews",
+  "ok": true,
+  "items": 4,
+  "fresh": 4,
+  "error": ""
+ },
+ {
+  "name": "Google News – Sahara Reporters",
+  "kind": "gnews",
+  "ok": true,
+  "items": 91,
+  "fresh": 64,
+  "error": ""
+ },
+ {
+  "name": "Google News – The Guardian Nigeria",
+  "kind": "gnews",
+  "ok": true,
+  "items": 100,
+  "fresh": 98,
+  "error": ""
+ },
+ {
+  "name": "Google News – The Nation",
+  "kind": "gnews",
+  "ok": true,
+  "items": 100,
+  "fresh": 98,
+  "error": ""
+ },
+ {
+  "name": "Google News – TheCable",
+  "kind": "gnews",
+  "ok": true,
+  "items": 100,
+  "fresh": 78,
+  "error": ""
+ },
+ {
+  "name": "Google News – World",
+  "kind": "gnews",
+  "ok": true,
+  "items": 70,
+  "fresh": 29,
+  "error": ""
+ },
+ {
+  "name": "Information Nigeria",
+  "kind": "direct",
+  "ok": true,
+  "items": 60,
+  "fresh": 3,
+  "error": ""
+ },
+ {
+  "name": "Leadership",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 10,
+  "error": ""
+ },
+ {
+  "name": "Legit.ng",
+  "kind": "direct",
+  "ok": true,
+  "items": 30,
+  "fresh": 30,
+  "error": ""
+ },
+ {
+  "name": "NAFDAC",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 0,
+  "error": ""
+ },
+ {
+  "name": "NPR World",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 5,
+  "error": ""
+ },
+ {
+  "name": "Nairametrics",
+  "kind": "direct",
+  "ok": true,
+  "items": 20,
+  "fresh": 20,
+  "error": ""
+ },
+ {
+  "name": "National Accord",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 10,
+  "error": ""
+ },
+ {
+  "name": "New Telegraph",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 10,
+  "error": ""
+ },
+ {
+  "name": "News Agency of Nigeria",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 10,
+  "error": ""
+ },
+ {
+  "name": "Nigeria Health Watch",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 3,
+  "error": ""
+ },
+ {
+  "name": "Nigerian Tribune",
+  "kind": "direct",
+  "ok": true,
+  "items": 20,
+  "fresh": 20,
+  "error": ""
+ },
+ {
+  "name": "PM News",
+  "kind": "direct",
+  "ok": true,
+  "items": 30,
+  "fresh": 30,
+  "error": ""
+ },
+ {
+  "name": "Peoples Gazette",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 10,
+  "error": ""
+ },
+ {
+  "name": "Premium Times",
+  "kind": "direct",
+  "ok": true,
+  "items": 15,
+  "fresh": 15,
+  "error": ""
+ },
+ {
+  "name": "Punch",
+  "kind": "direct",
+  "ok": true,
+  "items": 30,
+  "fresh": 30,
+  "error": ""
+ },
+ {
+  "name": "Ripples Nigeria",
+  "kind": "direct",
+  "ok": true,
+  "items": 50,
+  "fresh": 5,
+  "error": ""
+ },
+ {
+  "name": "Silverbird TV",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 9,
+  "error": ""
+ },
+ {
+  "name": "Soccernet NG",
+  "kind": "direct",
+  "ok": true,
+  "items": 20,
+  "fresh": 20,
+  "error": ""
+ },
+ {
+  "name": "State House Nigeria",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 3,
+  "error": ""
+ },
+ {
+  "name": "TVC News",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 10,
+  "error": ""
+ },
+ {
+  "name": "TechCabal",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 6,
+  "error": ""
+ },
+ {
+  "name": "The Eagle Online",
+  "kind": "direct",
+  "ok": true,
+  "items": 15,
+  "fresh": 15,
+  "error": ""
+ },
+ {
+  "name": "The Guardian – World",
+  "kind": "direct",
+  "ok": true,
+  "items": 45,
+  "fresh": 29,
+  "error": ""
+ },
+ {
+  "name": "The ICIR",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 7,
+  "error": ""
+ },
+ {
+  "name": "The Sun Nigeria",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 10,
+  "error": ""
+ },
+ {
+  "name": "ThisDay",
+  "kind": "direct",
+  "ok": true,
+  "items": 25,
+  "fresh": 25,
+  "error": ""
+ },
+ {
+  "name": "UN News",
+  "kind": "direct",
+  "ok": true,
+  "items": 30,
+  "fresh": 6,
+  "error": ""
+ },
+ {
+  "name": "Vanguard",
+  "kind": "direct",
+  "ok": true,
+  "items": 20,
+  "fresh": 20,
+  "error": ""
+ },
+ {
+  "name": "Voice of Nigeria",
+  "kind": "direct",
+  "ok": true,
+  "items": 10,
+  "fresh": 10,
+  "error": ""
+ },
+ {
+  "name": "Brila",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "DW News",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": ""
+ },
+ {
+  "name": "Daily Nigerian",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "name": "Daily Times Nigeria",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "HTTP Error 500: Internal Server Error"
+ },
+ {
+  "name": "FIJ",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "HTTP Error 415: Unsupported Media Type"
+ },
+ {
+  "name": "Financial Nigeria",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "not well-formed (invalid token): line 5, column 381"
+ },
+ {
+  "name": "Google News – CBN (official)",
+  "kind": "gnews",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": ""
+ },
+ {
+  "name": "Google News – NBS (official)",
+  "kind": "gnews",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": ""
+ },
+ {
+  "name": "HumAngle",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ {
+  "name": "Independent",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "name": "Lagos State Government",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "not well-formed (invalid token): line 31, column 71"
+ },
+ {
+  "name": "NCDC",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "syntax error: line 1, column 0"
+ },
+ {
+  "name": "Naija News",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "HTTP Error 410: Gone"
+ },
+ {
+  "name": "Nigeria Abroad",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "name": "Prime Business Africa",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "undefined entity: line 10, column 603"
+ },
+ {
+  "name": "Proshare",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "not well-formed (invalid token): line 22, column 19"
+ },
+ {
+  "name": "Pulse Nigeria",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "Sahara Reporters",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "Techpoint Africa",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "name": "The Guardian Nigeria",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "name": "The Herald Nigeria",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "name": "The Nation",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "name": "The Street Journal",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "name": "The Whistler",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "HTTP Error 415: Unsupported Media Type"
+ },
+ {
+  "name": "TheCable",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "name": "WithinNigeria",
+  "kind": "direct",
+  "ok": false,
+  "items": 0,
+  "fresh": 0,
+  "error": "HTTP Error 403: Forbidden"
+ }
+]
