@@ -435,9 +435,9 @@ def main():
     made = pages = removed = 0
     with sync_playwright() as p:
         b = p.chromium.launch(executable_path=os.environ.get("CHROME_PATH") or None)
-        pg = b.new_page()
+        pg = b.new_page(timezone_id='Asia/Kolkata')  # India edition (the edition guard picks the edition from the time zone)
         pg.route("**/*", lambda r: r.abort() if not r.request.url.startswith(base) and not r.request.url.startswith("data:") else r.continue_())
-        pg.goto(base + "/index.html?build=1")
+        pg.goto(base + "/index.html?build=1&ed=in")  # editions: the India builder must not be sent to another edition
         pg.add_style_tag(content="""
 @font-face{font-family:'Noto Sans Telugu';src:url(/tools/fonts/NotoSansTelugu.ttf);font-weight:100 900}
 @font-face{font-family:'Archivo Black';src:url(/tools/fonts/Outfit-ExtraBold.ttf)}""")
