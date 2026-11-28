@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T11:35:00+05:30",
+ "cutoff": "2026-11-28T12:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T18:35:00+05:30/2026-11-25T19:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 7,
-   "late": 0,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Lookback from 10:35. Feeds 18:49 IST (70/70 ok; 117 uncovered unseen events since ~18:10, 44 local). add_repo tool not available; used existing clone. Published 7: DC/PTI body of Telangana BSF jawan found in Kushiyara river (18:15, fact, sensitive, not named), NT AP first-phase panchayat polling Thursday in 3,240 panchayats (18:07, fact), HMTV Nalgonda POCSO court 10 years RI (18:26, fact, sensitive, no names), Siasat Licious Kistapur unit no violations (18:45, fact), Hindu via KhanList Chittoor dialysis access (18:37, fact, logo), 10TV AP liquor shop barcode scanning (18:43, claim, logo), TT Evernex India HQ in Hyderabad (18:41, fact, logo). Duplicates: Siasat Pandit Jasraj music festival (published 23 Nov), Business Standard India Post schemes (part of Cabinet package published 16:04), TT Cyberabad carpooling/IT corridor traffic (published 17:13). Not found by search: Hindu AP Rythu Sangham aid demand. Not attempted: Hindu Nellore Gopal Ratna and Chittoor fodder (not found in earlier runs), Kadapa collector orders, Vijayasai padayatra, Yellareddy Rs 200 cr request, Suryaa/HMTV/Disha village items, INDToday ration rice, Thomas-Uber Cup hosts, other India/world. No district searches. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-25T19:05:00+05:30/2026-11-25T19:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Lookback from 03:05 Nov 28. Feeds 11:13 IST (76/77 ok; 2861 uncovered, 886 TG/AP; 845 in lookback not yet seen). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 5: Andhrajyothy + Vaartha Hyderabad Metro 9 years/94.2 cr journeys (10:47, confirmed), NewsBytes Telangana 11 new policies at Global Summit (11:10, single; The Hindu 10:54 not opened), Telangana Today + News Mill Pant WTC six record (10:57, confirmed), Al Jazeera + Korea Times Taiwan local polls (07:35, confirmed, sensitive, late-found), RTE + Arab News MSF Gaza clinic strike 2 killed (09:56, confirmed, sensitive, claim, late-found). Skipped old (original article before lookback): UNI Poultry India Expo 60,000 visitors (27 Nov; V6 07:53 not opened), DC Metro turns nine (27 Nov 23:11, used newer versions), NewsMeter Rajendra Singh Musi (Dec 2025; The Hindu 11:01 not opened). Many feed events already covered under other wording (Singareni CSR, Naidu delimitation, Bhatti power DPRs, Fab City CBI, TG-SET, Sadasivpet ACB, overseas jobs scheme, HYDRAA STPs, Rushikonda). Not surfaced by search (retry): V6 Medak 30 tulas theft, V6 maths talent test, ETV Gandikota adventure hub, Siasat Neopolis auction. District searches not run. Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T11:35:00+05:30/2026-11-28T12:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 03:35 Nov 28. Feeds 11:44 IST (76/77 ok; 2865 uncovered, 827 TG/AP; 121 recent events from 10:45 not yet seen). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open (7 direct Telangana Today/Siasat feed URLs refused). Published 3: Deccan Chronicle Miyapur/Gachibowli scheduled power cuts (11:25, single), Siasat + V6 + HMTV Pocharam hotel death (11:13, confirmed, sensitive, no name/method, late-found), Asianet Newsable + NationPress India 116/6 Christchurch Test (11:30, confirmed). Skipped old: DC Pawan Kalyan delimitation (25 Mar 2026; TT 11:13 version not opened). Not opened (retry): Siasat 200 streetlight complaints, Siasat IndiGo Saudi flights, TT FII inflows, TT aviation losses, Siasat Indian man jailed in UAE. Not surfaced by search: Hyderabad Mail Khajaguda Rock Walk, NewsMeter SCB roads, President Murmu Mizoram visit. Not attempted: Thiruparankundram deepam (communal-sensitive, other state), ETV Vijayawada Metro HR policy, district searches. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7126,6 +7126,46 @@
   },
   {
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZDFiZE43TGV5MjQ1UmV0TzZHclFpZUpsUS1TMG5KLXlUR3kyUEctQmtwbVdJbWRNWVlWNWNfd0s0V0FwR2E0TElMb2RkbXd1aXBwUkl5bEx4ZW9ZNkw1ZmlaMkg0Q3I1ajh2bnhRdkQ5ajh5QUxSbEZrV2VqaWdMUFlQT0tGNFpwcGJ1eDZfOEtNUHFjdGtSSXBJcVdOb2s2VUx4WA?oc=5",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/power-cuts-due-to-scheduled-maintenance-in-miyapur-gachibowli-2008757",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/theatre-staffer-accused-of-theft-found-dead-in-pocharam-hotel-3588803/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/young-man-died-in-hyderabad-pocharam-hotel-",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/hyderabad/medchal-pocharam-youth-ends-life-in-hotel-room-after-sending-video-218005",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://newsable.asianetnews.com/sports/new-zealand-dominates-india-on-day-two-of-christchurch-cricket-test-articleshow-dtgp68s",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.nationpress.com/sports/india-slump-to-116-for-6-trail-nz-by-240",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/india-struggle-at-116-6-as-new-zealand-tighten-grip-on-christchurch-test",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://deccanchronicle.com/southern-states/andhra-pradesh/delimitation-to-expand-political-opportunities-says-pawan-kalyan-1946096",
    "d": "2026-11-28",
    "w": "skipped"
   }
