@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T14:05:00+05:30",
+ "cutoff": "2026-11-28T14:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T21:05:00+05:30/2026-11-25T21:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 6,
-   "late": 2,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Lookback from 13:05. Feeds 21:17 IST (67/68 ok; 1,147 uncovered unseen events in lookback, most older). add_repo tool not available; used existing clone. thehindu.com blocked for fetching (SITE_BLOCKED): APPSC asst professor/RGUKT exams moved to Dec 20-24, Chittoor fodder 6,000 acres, Naidu Tirumala Nov 26, Tirupati Mayor first file, Prakasam/Nellore heavy rain, Women's Commission oocyte probe, Hyderabad man detained in Russia, AP circular economy policy, AP Rythu Sangham aid - not opened, no other source found by search. Not opened: NIE baby-sale (used Andhra Prabha), TOI HC summons CS (search only found Oct item), ANI Adilabad fake currency, ANI Vijayasai Reddy. Published 6 (all TG): Andhra Prabha Warangal infant sale 12 arrested (16:17, sensitive), Siasat/PTI Mahabubabad hostel newborn death POCSO (20:54, sensitive, no names, logo), Siasat Sunnam Cheruvu ready (20:51), TT CMC trade licence Nov 30 (20:53), TT HMDA Cantonment debris (15:41, logo), TT OU professor vs Inter merger (19:22, claim). Duplicates: Siasat RERA Auro Realty fine (published 20:05), Siasat Revanth governance/poultry (published 14:35). Skipped: NewsMeter HC-CS (Oct 26 article). No India/world, no district searches. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-25T21:35:00+05:30/2026-11-25T22:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 2,
    "review": 0,
    "gaps": "Lookback from 05:35 Nov 28. Feeds 13:53 IST (77/77 ok; 2804 uncovered, 833 TG/AP). add_repo not available; used existing clone and web-fetch helper. Published 6 new + 1 card updated: Business Upturn + NewsBytes BPCL Rs 1,26,656 cr Ramayapatnam refinery (13:15, confirmed), Andhra Jyothy + Hans India + 10TV AP DGP Rs 75 lakh to 18 surrendered Maoists (11:47, confirmed, sensitive, no names, late), Deccan Chronicle Lambasingi 7.5 C (13:06, single), The Tribune DMK backs Delimitation Bill (11:28, confirmed by headline at Deccan Herald/Telangana Today, sensitive, late), Bar and Bench SC plea on contesting age withdrawn (06:37, confirmed by headline at Siasat/DC, late), AP via KSAT + Daily Excelsior + Al Jazeera headline Kunar school blast (13:07, sensitive, no casualty figure, late). Updated existing 09:05 Oasis card (policy s4, _sid kept): NTV 13:35 + The Hindu headline, two more senior officials arrested, five in all per NTV, Rs 487 cr transactions (no names). Single source, not published: Telangana Today Hyderabad woman held with 610 g ganja (13:39). Skipped old: South First (27 Nov 21:08) and Hans India (28 Nov 01:48) AP Cabinet Rs 36,000 cr. Not opened: Deccan Herald (DMK, SC age) fetch errors; ETV Bharat AP Cabinet JSW Ramayapatnam port, Andhra Jyothy TIMS review (not surfaced). Not attempted: district searches, Hyderabad 70 tolas theft, Octopus mock drill, Paleru water release (Eenadu), Khammam tiger movement. Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T14:05:00+05:30/2026-11-28T14:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 4,
+   "late": 2,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Lookback from 06:05 Nov 28. Feeds 14:22 IST (75/75 ok; 2792 uncovered, 787 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 4: Telangana Today central drought team Nov 29-Dec 2, 365 mandals (14:30, single), Telangana Today Nampally mega job mela Dec 2 (13:59, single), TTD News + Oneindia Telugu Tirumala 60 g gold traced via CCTV (13:29, official, late), Telangana Today FNECS objects to SCB road reclassification (13:51, single, lbl claim; follow-up to 27 Nov SCB card). Skipped old (search surfaced 2025/earlier pages): Mehdipatnam job fair 2025, Hyderguda burglary 2025, Banjara Hills momos 2024, Hans India rain forecasts 12 Nov/21 Oct. Not opened/not surfaced: BigTv/Mana Telangana Hyderabad 70 tolas theft, Hockey India SC Dec 5 elections (only old Odisha HC stay pages), Samayam AP 12th PRC questionnaire, Samayam Kakinada NH, NIE/ThePrint Rajnath J&K. District searches returned tag pages only. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7458,6 +7458,46 @@
    "url": "https://www.thehindu.com/news/national/telangana/oocyte-racket-two-senior-oasis-fertility-executives-held-487-crore-transactions-under-scanner/article71753824.ece",
    "d": "2026-11-28",
    "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/central-team-to-assess-telangana-drought",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/job-mela",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/colonies-oppose-scb-road-reclassification",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://telugu.oneindia.com/news/andhra-pradesh/gold-jewellery-lost-by-a-devotee-was-recovered-by-the-tirumala-command-control-team-and-returned-516801.html",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-mega-job-fair-at-kings-palace-mehdipatnam-on-december-2",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://hyderabadmail.com/hyderabad-mehdipatnam-job-fair-december-2/",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-burglars-decamp-with-valuables-worth-rs-70-lakh-from-locked-house-in-hyderguda",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-banjara-hills-police-arrest-six-persons-in-connection-with-adulterated-momos",
+   "d": "2026-11-28",
+   "w": "skipped"
   }
  ]
 }
