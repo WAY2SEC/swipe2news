@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T16:35:00+05:30",
+ "cutoff": "2026-11-28T17:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T23:35:00+05:30/2026-11-26T05:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 7,
-   "late": 0,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Night window; lookback from 15:35. Feeds 04:38 IST (70/70 ok; 358 uncovered unseen events first seen since 23:10, 77 local). add_repo tool not available; used existing clone. Published 7: TT Constitution Day rally traffic advisory (23:24, fact), DC SCR Jammikunta/Uppal stations (23:44, fact), Hans Bhadrachalam temple works by Dec 19, Rs 300 cr (00:26, fact), DC Tirupati Mayor JB Srinivas takes charge (23:31, fact, logo), DC AP phase-2 panchayat polls Nov 29 (00:32, fact), DC PIL for CBI probe DSC sports quota (00:03, claim, sensitive, petitioner not named), Al Jazeera Cairo ring road fire 30 dead (page time 18:55 without zone, taken as UTC = 00:25 IST; sensitive). Duplicates: DC Revanth Rs 450 cr Nagarkurnool works (CM Achampet visit already published from Vaartha), DC Cabinet Rs 2,632 cr postal schemes (in Silchar airport Cabinet story). Not opened (feed URLs refused without search result / not found): TT Harish Rao KRMB minutes, Hindu Sridhar Babu Manthani, Hindu Akbaruddin minority schools, TOI AP 27% rain deficit, TOI 80k graduate roll applications ineligible, DC Laxman Dharmapuri, NIE IIT 6,000 seats, NT HC notice to CS. Most local single-source events not reached; no district searches. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-26T05:05:00+05:30/2026-11-26T05:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 0,
    "gaps": "Lookback from 08:05 Nov 28. Feeds 16:21 IST (73/75 ok; 2731 uncovered, 853 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 4: Telangana Today Panchayat Raj employees seek promotions (16:10, single), Telangana Today Musi Jan Andolan boycotts MRDCL consultation (16:20, single, claim), Telangana Today (IANS) Finance Ministry November review on Hormuz/oil import costs (15:50, single, forecast), Telangana Today (IANS) OpenAI counterclaims vs Apple (15:52, single, claim). Skipped old: TT Asifabad car-bike crash (published Jan 2025), DC/Hans AP phase-II panchayat polls preview (already seen old). Not opened/not surfaced: The Hindu AP Skill India centre, Chandrababu Rajahmundry court AI remarks (V6/Vaartha/Disha), Charlapalli-Srikakulam Sankranti specials (HT Telugu), TTD footpath decision (Oneindia), DC Vaikunta Dwara 8.34 lakh plan. Nalgonda/Kurnool district searches returned tag pages only. Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T16:35:00+05:30/2026-11-28T17:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 0,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 1,
+   "review": 0,
+   "gaps": "Lookback from 08:35 Nov 28. Feeds 16:45 IST (74/77 ok; 2753 uncovered, 886 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 3: Andhra Jyothy + Sakshi + Vaartha + Deccan Chronicle Kailasagiri school bus overturned (16:40, confirmed, sensitive; outlets differ on third injured person and severity, no names), HMTV + AP7AM + Vaartha Harish Rao visits Jagga Reddy home (16:22, confirmed), Deccan Chronicle (PTI) + ThePrint (PTI) Chandrababu Legal AI Stack at Rajahmundry court anniversary (16:36, single wire). Skipped old: AFP WHO measles warning (published 01:12 IST Nov 28, before lookback). Duplicate: KTR/BRS backs delimitation bill (already on card). Not opened/not surfaced by search: TT Katre Squadron AFA banner, TT Aga Khan Academy conference, Hyderabad Mail Owaisi Waqf Board meeting, Siasat Kuwait drug arrest, SCMP and Prabha News (fetch errors). No district searches this run. Not attempted: most of the feed backlog. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7666,6 +7666,61 @@
   },
   {
    "url": "https://telanganatoday.com/man-killed-one-injured-as-car-mows-down-bike-in-telanganas-asifabad",
+   "d": "2026-11-28",
+   "w": "old"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/visakhapatnam/school-bus-falls-into-gorge-at-kailasagiri-in-visakhapatnam-vk-1580610.html",
+   "d": "2026-11-28",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.sakshi.com/telugu-news/andhra-pradesh/school-bus-overturns-kailasagiri-visakhapatnam-2972872",
+   "d": "2026-11-28",
+   "w": "dup"
+  },
+  {
+   "url": "https://vaartha.com/latest-news/visakhapatnam-kailasagiri-school-bus-accident-37-students-safe/811318/",
+   "d": "2026-11-28",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/vizag-school-bus-plunges-into-valley-at-kailasagiri-2008821",
+   "d": "2026-11-28",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/medak-sangareddy/harish-rao-visits-jagga-reddy-home-leaders-meet-after-21-years-218257",
+   "d": "2026-11-28",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.ap7am.com/tn/888363/harish-rao-visits-jagga-reddy-house-in-interesting-political-development",
+   "d": "2026-11-28",
+   "w": "dup"
+  },
+  {
+   "url": "https://vaartha.com/telangana/jaggareddy-son-marriage-harish-rao-reunion-after-21-years-sangareddy/811306/",
+   "d": "2026-11-28",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-cm-chandrababus-speech-highlights-at131st-anniversary-of-rajahmundry-bar-association-2008825",
+   "d": "2026-11-28",
+   "w": "pub"
+  },
+  {
+   "url": "https://theprint.in/india/judiciary-tech-key-to-ensuring-timely-justice-says-andhra-cm/3111747/",
+   "d": "2026-11-28",
+   "w": "dup"
+  },
+  {
+   "url": "https://en.hespress.com/150060-who-sounds-alarm-as-measles-fight-falters.html",
+   "d": "2026-11-28",
+   "w": "old"
+  },
+  {
+   "url": "https://www.france24.com/en/world-health-organization-sounds-alarm-as-measles-fight-stalls",
    "d": "2026-11-28",
    "w": "old"
   }
