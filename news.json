@@ -1,8 +1,186 @@
 {
  "date": "28.11.2026",
- "updated": "2026-11-28T09:35:00+05:30",
+ "updated": "2026-11-28T10:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "తెలంగాణ · ఖమ్మం",
+   "col": "--c-city",
+   "art": "",
+   "pic": "e/bus-accident",
+   "stat": "ప్రయాణికులకు గాయాలు",
+   "statl": "బస్సు ప్రమాదంలో",
+   "h": "ఖమ్మంలో లారీని ఢీకొన్న ప్రైవేటు బస్సు",
+   "p": "ఖమ్మం జిల్లా తల్లాడ మండలంలో గ్రీన్‌ఫీల్డ్ హైవేపై ప్రైవేటు ట్రావెల్స్ బస్సు లారీని ఢీకొంది. బస్సు హైదరాబాద్ నుంచి కాకినాడ వెళ్తోంది. నలుగురికి తీవ్ర గాయాలు, పది మందికి స్వల్ప గాయాలు అని నమస్తే తెలంగాణ తెలిపింది. మన తెలంగాణ 15 మంది గాయపడ్డారని రాసింది. పోలీసులు కేసు నమోదు చేశారు.",
+   "src": "Namasthe Telangana",
+   "url": "https://www.ntnews.com/khammam/10-passengers-injured-after-private-travels-bus-hits-parked-lorry-on-khammam-greenfield-highway-2571030",
+   "srcs": [
+    {
+     "n": "Mana Telangana",
+     "u": "https://www.manatelangana.news/telangana-breaking-news/a-travel-bus-collided-with-a-lorry-in-khammam-1655880"
+    }
+   ],
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "khammam",
+   "loc": "తల్లాడ మండలం",
+   "pts": [
+    "లారీ రోడ్డుపై ఆగి ఉంది",
+    "గాయపడినవారిని కల్లూరు ప్రభుత్వ ఆసుపత్రికి తరలించారు",
+    "ప్రమాదానికి కారణంపై పోలీసుల దర్యాప్తు"
+   ],
+   "why": "హైదరాబాద్–కాకినాడ మధ్య ప్రైవేటు బస్సుల్లో ప్రయాణించే వారికి సంబంధించిన వార్త ఇది.",
+   "pub": "2026-11-28T09:04+05:30",
+   "lbl": "fact",
+   "vs": "confirmed",
+   "en": {
+    "cat": "Telangana · Khammam",
+    "stat": "Passengers hurt",
+    "statl": "in bus–lorry crash",
+    "loc": "Thallada mandal, Khammam",
+    "h": "Private bus hits lorry in Khammam district",
+    "p": "A private travels bus going from Hyderabad to Kakinada ran into a lorry standing on the Greenfield Highway in Thallada mandal of Khammam district. Namasthe Telangana reports four passengers seriously hurt and ten with minor injuries, while Mana Telangana puts the injured at 15. Police have registered a case and are looking into the cause.",
+    "pts": [
+     "The lorry was stationary on the road",
+     "Injured taken to Kallur government hospital",
+     "Police are investigating the cause"
+    ],
+    "why": "It concerns people who travel by private bus between Hyderabad and Kakinada."
+   },
+   "hi": {
+    "cat": "तेलंगाना · खम्मम",
+    "stat": "यात्री घायल",
+    "statl": "बस–लॉरी हादसे में",
+    "loc": "तल्लाडा मंडल, खम्मम",
+    "h": "खम्मम ज़िले में निजी बस लॉरी से टकराई",
+    "p": "खम्मम ज़िले के तल्लाडा मंडल में ग्रीनफ़ील्ड हाईवे पर हैदराबाद से काकीनाडा जा रही निजी ट्रैवल्स बस सड़क पर खड़ी लॉरी से टकरा गई। नमस्ते तेलंगाना के अनुसार चार यात्रियों को गंभीर और दस को हल्की चोटें आईं; मना तेलंगाना ने 15 घायल बताए। पुलिस ने मामला दर्ज कर जाँच शुरू की है।",
+    "pts": [
+     "लॉरी सड़क पर खड़ी थी",
+     "घायलों को कल्लूर सरकारी अस्पताल ले जाया गया",
+     "हादसे के कारण की पुलिस जाँच"
+    ],
+    "why": "यह ख़बर हैदराबाद–काकीनाडा के बीच निजी बसों से सफ़र करने वालों से जुड़ी है।"
+   },
+   "d": "28.11.2026",
+   "t": "10:05"
+  },
+  {
+   "cat": "తెలంగాణ · మంచిర్యాల",
+   "col": "--c-gov",
+   "art": "",
+   "pic": "e/school-midday-meal",
+   "stat": "3 వారాలుగా",
+   "statl": "గుడ్లు ఇవ్వలేదని ఆరోపణ",
+   "h": "భీమారం బడి అన్నంలో పురుగులని ఆరోపణ",
+   "p": "మంచిర్యాల జిల్లా భీమారం మండలంలోని జిల్లా పరిషత్ పీఎం శ్రీ ఉన్నత పాఠశాలలో మధ్యాహ్న భోజనం అన్నంలో పురుగులు వచ్చాయని విద్యార్థులు ఆరోపించారు. మూడు వారాలుగా గుడ్లు ఇవ్వడం లేదని చెప్పారు. నిర్వాహకులకు షోకాజ్ నోటీసులు ఇచ్చామని అదనపు కలెక్టర్ పి. చంద్రయ్య తెలిపారు. పాత బియ్యం నిల్వలు తీసేయాలని ప్రధానోపాధ్యాయుడిని ఆదేశించారు.",
+   "src": "Siasat",
+   "url": "https://www.siasat.com/worms-in-rice-no-eggs-for-3-weeks-at-mancherial-govt-school-3588757/",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "mancherial",
+   "loc": "భీమారం",
+   "pts": [
+    "గుడ్డు ధర ₹8, ప్రభుత్వం ఇచ్చేది ₹6 అని వంట కార్మికులు",
+    "బియ్యం 2–3 నెలలు నిల్వ ఉండి ఉండవచ్చని అధికారి అనుమానం",
+    "మెనూలోని రాగి జావ, కిచిడీ వండడం లేదని విద్యార్థులు"
+   ],
+   "why": "ప్రభుత్వ బడుల్లో పిల్లలకు అందే భోజనం నాణ్యతపై తల్లిదండ్రులకు ఇది ముఖ్యమైన విషయం.",
+   "pub": "2026-11-28T09:38+05:30",
+   "lbl": "claim",
+   "vs": "single",
+   "en": {
+    "cat": "Telangana · Mancherial",
+    "stat": "3 weeks",
+    "statl": "without eggs, students allege",
+    "loc": "Bheemaram, Mancherial",
+    "h": "Bheemaram students allege worms in school rice",
+    "p": "Students of the Zilla Parishad PM SHRI High School in Bheemaram mandal, Mancherial district, allege that the midday meal rice had worms and that eggs have not been given for three weeks. Additional Collector P Chandaraiah said show-cause notices were issued to those running the meal, and the headmaster was told to clear old rice stock.",
+    "pts": [
+     "Meal workers say an egg costs ₹8, government pays ₹6",
+     "Official suspects rice was stored for 2–3 months",
+     "Students say ragi java, khichdi on the menu are not cooked"
+    ],
+    "why": "It matters to parents who rely on the quality of meals served in government schools."
+   },
+   "hi": {
+    "cat": "तेलंगाना · मंचेरियल",
+    "stat": "3 हफ़्ते से",
+    "statl": "अंडे नहीं मिले: छात्रों का आरोप",
+    "loc": "भीमारम, मंचेरियल",
+    "h": "भीमारम स्कूल के चावल में कीड़े: छात्रों का आरोप",
+    "p": "मंचेरियल ज़िले के भीमारम मंडल के ज़िला परिषद पीएम श्री हाई स्कूल के छात्रों का आरोप है कि मध्याह्न भोजन के चावल में कीड़े निकले और तीन हफ़्ते से अंडे नहीं दिए गए। अतिरिक्त कलेक्टर पी. चंदरैया ने बताया कि संचालकों को कारण बताओ नोटिस दिए गए हैं और प्रधानाध्यापक को पुराना चावल हटाने को कहा गया है।",
+    "pts": [
+     "रसोई कर्मी: अंडा ₹8 का, सरकार ₹6 देती है",
+     "अधिकारी को शक: चावल 2–3 महीने रखा रहा",
+     "छात्र: मेन्यू की रागी जावा, खिचड़ी नहीं बनती"
+    ],
+    "why": "सरकारी स्कूलों के भोजन की गुणवत्ता पर निर्भर अभिभावकों के लिए यह अहम है।"
+   },
+   "d": "28.11.2026",
+   "t": "10:05"
+  },
+  {
+   "cat": "తెలంగాణ · రైల్వే",
+   "col": "--c-city",
+   "art": "",
+   "pic": "e/railway-station-departures",
+   "stat": "జనవరి 2 నుంచి",
+   "statl": "ప్రత్యేక రైళ్లు",
+   "h": "శబరిమలకు హైదరాబాద్–కొల్లం రైళ్లు",
+   "p": "శబరిమల వెళ్లే అయ్యప్ప భక్తుల కోసం దక్షిణ మధ్య రైల్వే హైదరాబాద్–కొల్లం మధ్య మరిన్ని ప్రత్యేక రైళ్లు ప్రకటించింది. 07193 రైలు జనవరి 2 నుంచి 23 వరకు ప్రతి శనివారం రాత్రి 11:10 గంటలకు హైదరాబాద్‌లో బయలుదేరుతుంది. తిరుగు రైలు 07194 జనవరి 4 నుంచి 25 వరకు ప్రతి సోమవారం ఉదయం 10:55 గంటలకు కొల్లంలో బయలుదేరుతుంది.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/national/scr-announces-special-trains-to-kollam-for-sabarimala-devotees-1146561",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pts": [
+    "సికింద్రాబాద్, చర్లపల్లి, నల్గొండ, మిర్యాలగూడలో ఆగుతాయి",
+    "గుంటూరు, ఒంగోలు, నెల్లూరు, తిరుపతి మీదుగా వెళ్తాయి",
+    "వివరాలు తెలిపింది రైల్వే సీపీఆర్వో శ్రీధర్"
+   ],
+   "why": "తెలంగాణ, ఏపీ నుంచి శబరిమల వెళ్లే భక్తులకు జనవరిలో అదనపు రైళ్లు అందుబాటులో ఉంటాయి.",
+   "pub": "2026-11-28T08:55+05:30",
+   "lbl": "fact",
+   "vs": "single",
+   "en": {
+    "cat": "Telangana · Railways",
+    "stat": "From January 2",
+    "statl": "special trains to Kollam",
+    "loc": "Hyderabad",
+    "h": "Hyderabad–Kollam specials for Sabarimala",
+    "p": "South Central Railway will run more special trains between Hyderabad and Kollam for Ayyappa devotees going to Sabarimala. Train 07193 leaves Hyderabad at 11:10 pm every Saturday from January 2 to 23. The return train, 07194, leaves Kollam at 10:55 am every Monday from January 4 to 25, SCR's chief public relations officer Sridhar said.",
+    "pts": [
+     "Stops at Secunderabad, Charlapalli, Nalgonda, Miryalaguda",
+     "Runs via Guntur, Ongole, Nellore and Tirupati",
+     "Details given by SCR CPRO Sridhar"
+    ],
+    "why": "Devotees from Telangana and AP heading to Sabarimala get extra trains in January."
+   },
+   "hi": {
+    "cat": "तेलंगाना · रेलवे",
+    "stat": "2 जनवरी से",
+    "statl": "कोल्लम के लिए विशेष ट्रेनें",
+    "loc": "हैदराबाद",
+    "h": "सबरीमला के लिए हैदराबाद–कोल्लम विशेष ट्रेनें",
+    "p": "सबरीमला जाने वाले अय्यप्पा भक्तों के लिए दक्षिण मध्य रेलवे हैदराबाद और कोल्लम के बीच और विशेष ट्रेनें चलाएगा। ट्रेन 07193 2 से 23 जनवरी तक हर शनिवार रात 11:10 बजे हैदराबाद से चलेगी। वापसी ट्रेन 07194 4 से 25 जनवरी तक हर सोमवार सुबह 10:55 बजे कोल्लम से चलेगी।",
+    "pts": [
+     "सिकंदराबाद, चर्लापल्ली, नलगोंडा, मिर्यालगुडा में ठहराव",
+     "गुंटूर, ओंगोल, नेल्लोर, तिरुपति होकर चलेंगी",
+     "जानकारी रेलवे के सीपीआरओ श्रीधर ने दी"
+    ],
+    "why": "तेलंगाना और आंध्र प्रदेश से सबरीमला जाने वाले भक्तों को जनवरी में अतिरिक्त ट्रेनें मिलेंगी।"
+   },
+   "d": "28.11.2026",
+   "t": "10:05"
+  },
   {
    "cat": "ఏపీ · కర్నూలు",
    "col": "--c-gov",
@@ -3354,166 +3532,6 @@
      "वन विभाग का हलफनामा 19 नवंबर को दाखिल हुआ"
     ],
     "why": "दामगुंडम के आसपास के गांवों में हरियाली के काम की जिम्मेदारी सरकार पर बनी रहेगी।"
-   },
-   "d": "27.11.2026",
-   "t": "20:05",
-   "art": ""
-  },
-  {
-   "cat": "సిరిసిల్ల · నేరం",
-   "col": "--c-city",
-   "pic": "e/police-investigation",
-   "stat": "ఒకరు అరెస్ట్",
-   "statl": "గొలుసు దొంగతనం కేసులో",
-   "h": "అవ్వ గొలుసు దొంగతనం, మనవడి అరెస్ట్",
-   "p": "ఆన్‌లైన్ బెట్టింగ్ అప్పులు తీర్చేందుకు సొంత అవ్వ బంగారు గొలుసు దొంగిలించాడనే ఆరోపణపై నిజామాబాద్ జిల్లాకు చెందిన యువకుడిని పోలీసులు శుక్రవారం కొదురుపాక గ్రామంలో అరెస్ట్ చేశారు. పోలీసుల ప్రకారం నవంబర్ 18న ఆమె నిద్రలో ఉండగా గొలుసు పోయింది. నిందితుడి నుంచి 10 గ్రాముల గొలుసు, బైక్ తీసుకున్నారు. కోర్టు అతడిని జ్యుడీషియల్ కస్టడీకి పంపింది.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/youngster-who-snatched-gold-chain-to-repay-debts-of-online",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "sircilla",
-   "loc": "కొదురుపాక",
-   "pts": [
-    "బెట్టింగ్‌లో భారీగా నష్టపోయాడని పోలీసుల మాట"
-   ],
-   "why": "ఆన్‌లైన్ బెట్టింగ్ అలవాటు కుటుంబాలను ఎలా దెబ్బతీస్తుందో ఇది గుర్తు చేస్తుంది.",
-   "pub": "2026-11-27T19:53+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Sircilla · Crime",
-    "stat": "1 arrested",
-    "statl": "in grandmother's chain theft case",
-    "loc": "Kodurupaka, Rajanna Sircilla",
-    "h": "Grandson held for grandmother's chain theft: police",
-    "p": "Police on Friday arrested a young man from Nizamabad district at Kodurupaka village on the charge of stealing his grandmother's gold chain to repay online betting debts. According to police, the chain was taken on November 18 while she was asleep. A 10-gram chain and a motorbike were recovered from the accused, and a court sent him to judicial custody.",
-    "pts": [
-     "Police say he had lost heavily in online betting"
-    ],
-    "why": "It is a reminder of how online betting habits can hurt families."
-   },
-   "hi": {
-    "cat": "सिरसिल्ला · अपराध",
-    "stat": "1 गिरफ्तार",
-    "statl": "दादी की चेन चोरी मामले में",
-    "loc": "कोदुरुपाका, राजन्ना सिरसिल्ला",
-    "h": "दादी की चेन चोरी में पोता गिरफ्तार: पुलिस",
-    "p": "ऑनलाइन सट्टेबाजी का कर्ज चुकाने के लिए अपनी दादी की सोने की चेन चुराने के आरोप में पुलिस ने शुक्रवार को निजामाबाद जिले के एक युवक को कोदुरुपाका गांव में गिरफ्तार किया। पुलिस के अनुसार 18 नवंबर को जब वह सो रही थीं तब चेन ली गई। आरोपी से 10 ग्राम की चेन और एक बाइक बरामद हुई; अदालत ने उसे न्यायिक हिरासत में भेजा।",
-    "pts": [
-     "पुलिस के मुताबिक वह ऑनलाइन सट्टे में भारी नुकसान में था"
-    ],
-    "why": "यह याद दिलाता है कि ऑनलाइन सट्टे की लत परिवारों को कैसे नुकसान पहुंचाती है।"
-   },
-   "d": "27.11.2026",
-   "t": "20:05",
-   "art": ""
-  },
-  {
-   "cat": "తెలంగాణ · రాజకీయం",
-   "col": "--c-gov",
-   "pic": "e/party-brs",
-   "stat": "పాలమూరు",
-   "statl": "నిర్లక్ష్యంపై బీఆర్ఎస్ విమర్శ",
-   "h": "పాలమూరుపై సీఎం నిర్లక్ష్యం: బీఆర్ఎస్",
-   "p": "పాలమూరు ప్రాంతాన్ని ముఖ్యమంత్రి రేవంత్ రెడ్డి పట్టించుకోవడం లేదని బీఆర్ఎస్ నేతలు శుక్రవారం హైదరాబాద్‌లో విలేకరుల సమావేశంలో ఆరోపించారు. కరవు హెచ్చరికలు ఉన్నా జలాశయాలు నింపలేదని మాజీ మంత్రి లక్ష్మారెడ్డి అన్నారు. కోయిల్‌సాగర్ నీటిని కొడంగల్‌కు తరలించే ₹490 కోట్ల టెండర్లను రద్దు చేయాలని మాజీ ఎమ్మెల్యే ఆల వెంకటేశ్వర్ రెడ్డి డిమాండ్ చేశారు. ప్రభుత్వ స్పందన కథనంలో లేదు.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/brs-accuses-revanth-of-neglecting-palamuru-failing-to",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pts": [
-    "కోయిల్‌సాగర్ కింద 50,000 ఎకరాల ఆయకట్టు ఉందని నేతల మాట",
-    "అచ్చంపేటలో సోలార్ పంపుసెట్ల హామీ నెరవేరలేదని ఆరోపణ"
-   ],
-   "why": "పాలమూరు రైతుల సాగునీరు, తాగునీటి ప్రాజెక్టులపై రాజకీయ చర్చ పెరుగుతోంది.",
-   "pub": "2026-11-27T18:54+05:30",
-   "lbl": "claim",
-   "en": {
-    "cat": "Telangana · Politics",
-    "stat": "Palamuru projects",
-    "statl": "left incomplete, alleges BRS",
-    "loc": "Hyderabad",
-    "h": "BRS says CM has neglected Palamuru",
-    "p": "BRS leaders alleged at a press conference in Hyderabad on Friday that Chief Minister Revanth Reddy is neglecting the Palamuru region. Former minister Laxma Reddy said reservoirs were not filled despite drought warnings. Former MLA Alla Venkateswar Reddy demanded that ₹490 crore tenders to divert Koilsagar water to Kodangal be dropped. The report carries no government response.",
-    "pts": [
-     "Leaders say Koilsagar serves a 50,000-acre ayacut",
-     "They allege a solar pump-set promise at Achampet is unmet"
-    ],
-    "why": "Political debate is growing over irrigation and drinking water projects for Palamuru farmers."
-   },
-   "hi": {
-    "cat": "तेलंगाना · राजनीति",
-    "stat": "पालमूरु परियोजनाएं",
-    "statl": "अधूरी छोड़ने का बीआरएस का आरोप",
-    "loc": "हैदराबाद",
-    "h": "बीआरएस का आरोप: सीएम ने पालमूरु की अनदेखी की",
-    "p": "बीआरएस नेताओं ने शुक्रवार को हैदराबाद में प्रेस वार्ता में आरोप लगाया कि मुख्यमंत्री रेवंत रेड्डी पालमूरु क्षेत्र की अनदेखी कर रहे हैं। पूर्व मंत्री लक्ष्मा रेड्डी ने कहा कि सूखे की चेतावनी के बावजूद जलाशय नहीं भरे गए। पूर्व विधायक आला वेंकटेश्वर रेड्डी ने कोइलसागर का पानी कोडंगल ले जाने के ₹490 करोड़ के टेंडर रद्द करने की मांग की। खबर में सरकार का जवाब नहीं है।",
-    "pts": [
-     "नेताओं के अनुसार कोइलसागर से 50,000 एकड़ की सिंचाई होती है",
-     "अच्चमपेट में सोलर पंपसेट का वादा अधूरा होने का आरोप"
-    ],
-    "why": "पालमूरु के किसानों की सिंचाई और पेयजल परियोजनाओं पर राजनीतिक बहस बढ़ रही है।"
-   },
-   "d": "27.11.2026",
-   "t": "20:05",
-   "art": ""
-  },
-  {
-   "cat": "తెలంగాణ · ప్రభుత్వం",
-   "col": "--c-gov",
-   "pic": "e/logo-khelo-india",
-   "stat": "డిసెంబర్ 11న",
-   "statl": "ఖేలో ఇండియా ప్రారంభం",
-   "h": "ఖేలో ఇండియా ఏర్పాట్లపై సీఎస్ సమీక్ష",
-   "p": "ఇన్వెస్ట్ తెలంగాణ గ్లోబల్ సమ్మిట్, ఖేలో ఇండియా యూత్ గేమ్స్ ఏర్పాట్లపై ప్రధాన కార్యదర్శి సంజయ్ జాజు సచివాలయంలో సమీక్ష చేశారు. డిసెంబర్ 8న భారత్ ఫ్యూచర్ సిటీలో రక్షణ ప్రదర్శన, ఎయిర్ షో, డిసెంబర్ 11న క్రీడల ప్రారంభ వేడుక జరుగుతాయి. విద్యార్థులను పెద్ద సంఖ్యలో తీసుకురావాలని, ఆర్టీసీ ప్రత్యేక బస్సులు నడపాలని ఆయన ఆదేశించారు.",
-   "src": "The Hans India",
-   "url": "https://www.thehansindia.com/telangana/telangana-chief-secretary-reviews-summit-and-khelo-india-games-preparations-1146347",
-   "sec": [
-    "telangana",
-    "sports"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pts": [
-    "సుమారు 8,000 మంది క్రీడాకారులు వస్తారని అంచనా",
-    "విద్యార్థులకు భోజనం, తాగునీరు ఏర్పాటు చేయాలని సూచన"
-   ],
-   "why": "ఎయిర్ షో, క్రీడల వేడుకలకు వెళ్లే విద్యార్థులకు బస్సులు, భోజన సౌకర్యం ఉంటుంది.",
-   "next": "ఖేలో ఇండియా ప్రారంభ వేడుక డిసెంబర్ 11న",
-   "pub": "2026-11-27T16:40+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Telangana · Government",
-    "stat": "December 11",
-    "statl": "Khelo India Games open",
-    "loc": "Hyderabad",
-    "h": "CS reviews Khelo India, summit arrangements",
-    "p": "Chief Secretary Sanjay Jaju reviewed preparations for the Invest Telangana Global Summit and the Khelo India Youth Games at the Secretariat. A defence expo and air show will be held at Bharat Future City on December 8, and the Games open on December 11. He told officials to bring students in large numbers and asked RTC to run special buses.",
-    "pts": [
-     "About 8,000 athletes are expected",
-     "Meals and drinking water to be arranged for students"
-    ],
-    "why": "Students attending the air show and Games ceremonies will get buses and meals.",
-    "next": "Khelo India opening ceremony on December 11"
-   },
-   "hi": {
-    "cat": "तेलंगाना · सरकार",
-    "stat": "11 दिसंबर",
-    "statl": "खेलो इंडिया खेलों की शुरुआत",
-    "loc": "हैदराबाद",
-    "h": "खेलो इंडिया, समिट की तैयारियों की सीएस ने समीक्षा की",
-    "p": "मुख्य सचिव संजय जाजू ने सचिवालय में इन्वेस्ट तेलंगाना ग्लोबल समिट और खेलो इंडिया यूथ गेम्स की तैयारियों की समीक्षा की। 8 दिसंबर को भारत फ्यूचर सिटी में रक्षा प्रदर्शनी और एयर शो होगा, और 11 दिसंबर को खेलों का उद्घाटन होगा। उन्होंने बड़ी संख्या में छात्रों को लाने और आरटीसी को विशेष बसें चलाने का निर्देश दिया।",
-    "pts": [
-     "करीब 8,000 खिलाड़ियों के आने का अनुमान",
-     "छात्रों के लिए भोजन और पेयजल की व्यवस्था के निर्देश"
-    ],
-    "why": "एयर शो और खेल समारोहों में जाने वाले छात्रों को बस और भोजन की सुविधा मिलेगी।",
-    "next": "खेलो इंडिया उद्घाटन समारोह 11 दिसंबर को"
    },
    "d": "27.11.2026",
    "t": "20:05",
