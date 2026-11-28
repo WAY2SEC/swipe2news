@@ -493,6 +493,8 @@ function artPlan0(s){
     // owner 27 Nov 2026: "for accident why building fire?" – a vehicle on fire gets the burnt-car picture, never the building blaze
     { const tv=t.replace(/\u200c|\u200d/g,''); const V=/కారు|కార్|వాహన|బస్సు|బస్|లారీ|ట్రక్|బైక్|ఆటో|ట్రాక్టర్|\bcar\b|\bvehicle|\bbus\b|lorry|truck|\bbike|scooter|tractor|गाड़ी|कार|बस|ट्रक/i, F=/మంటలు|కాలి|దగ్ధ|అగ్ని|\bfire\b|gutted|blaze|burnt|ablaze|आग|जल/i;
       if(V.test(tv)&&F.test(tv)) return {m:'land',bg:'e/vehicle-fire-highway'};
+      // owner 28 Nov 2026: Lambasingi (AP hill station) – the misty hills picture
+      if(/లంబసింగి|లంబసింగ|లంబసంగి|Lambasingi|Lambasinghi|Lammasingi/i.test(tv)&&!/హత్య|మృత|ప్రమాద|murder|death|accident/i.test(tv)) return {m:'land',bg:'e/lambasingi-mist'};
       // owner 27 Nov 2026: fish / prawn stories get the fish picture (not on drowning or boat accidents)
       if(/చేప|రొయ్య|మత్స్య|\bfish|prawn|shrimp|seafood|मछली/i.test(tv)&&!/మునిగి|గల్లంతు|drown|capsiz|missing/i.test(tv)) return {m:'land',bg:/పడవ|బోటు|\bboats?\b|వేట|harbour|హార్బర్/i.test(tv)?'e/coastal-fishing-harbour':/తనిఖీ|సీజ్|పాడై|కల్తీ|సేఫ్|ఆహార\s?భద్రత|మార్కెట్|seiz|inspect|raid|food\s?safety|market|stale|rotten/i.test(tv+' '+(s.p||''))?'e/fish-market-inspection':'e/coastal-fishing-harbour'};
       // owner 27 Nov 2026: bus and two-wheeler accidents get their own pictures
