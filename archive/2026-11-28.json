@@ -1,8 +1,194 @@
 {
  "date": "28.11.2026",
  "iso": "2026-11-28",
- "count": 50,
+ "count": 53,
  "stories": [
+  {
+   "cat": "భారత్ · బ్యాంకింగ్",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "e/atm-out-of-service",
+   "stat": "బ్యాంకుల అలర్ట్",
+   "statl": "ఏటీఎం లావాదేవీలపై",
+   "h": "ఏటీఎం వాడకంపై అలర్ట్ ఇవ్వాలి: ఆర్‌బీఐ",
+   "p": "ఏటీఎంలో నెలలో ఎన్ని ఉచిత లావాదేవీలు వాడారో, ఆ తర్వాత ఎంత ఛార్జీ పడుతుందో బ్యాంకులు ఖాతాదారులకు తెలియజేయాలని ఆర్‌బీఐ ఆదేశించింది. ఏటీఎం, పీఓఎస్ నగదు విత్‌డ్రా నిబంధనలన్నీ కలిపి కొత్త మాస్టర్ డైరెక్షన్ ఇచ్చింది. సొంత బ్యాంకు ఏటీఎంలో నెలకు ఐదు ఉచిత లావాదేవీలు కొనసాగుతాయి. ఆ తర్వాత ఒక్కో లావాదేవీకి గరిష్ఠంగా ₹23 ఛార్జీ ఉంటుంది.",
+   "src": "Nation Press",
+   "url": "https://www.nationpress.com/business/rbi-orders-banks-to-flag-free-atm-usage",
+   "srcs": [
+    {
+     "n": "The Free Press Journal",
+     "u": "https://www.freepressjournal.in/business/running-out-of-free-atm-transactions-rbi-steps-in-banks-must-alert-customers-before-charges-kick-in"
+    }
+   ],
+   "sec": [
+    "business",
+    "india"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pts": [
+    "2008–2022 మధ్య ఇచ్చిన 17 సర్క్యులర్లు రద్దు",
+    "సాంకేతిక లోపంతో విఫలమైన లావాదేవీలకు ఛార్జీ లేదు",
+    "దుకాణాల్లో పీఓఎస్ ద్వారా ఒకసారికి ₹2,000 వరకు నగదు"
+   ],
+   "why": "ఏటీఎం వాడే ప్రతి ఖాతాదారుకు ఛార్జీ పడకముందే ఆ సమాచారం అందుతుంది.",
+   "pub": "2026-11-28T09:51+05:30",
+   "lbl": "fact",
+   "vs": "confirmed",
+   "en": {
+    "cat": "India · Banking",
+    "stat": "Bank alerts",
+    "statl": "on free ATM transactions",
+    "loc": "New Delhi",
+    "h": "RBI: banks must flag free ATM use",
+    "p": "The Reserve Bank of India has told banks to let customers know how many free ATM transactions they have used in a month and what later ones will cost. A new Master Direction merges ATM and point-of-sale cash withdrawal rules. Five free transactions a month at one's own bank stay, with charges capped at ₹23 after that.",
+    "pts": [
+     "17 circulars issued between 2008 and 2022 withdrawn",
+     "No charge for transactions that fail due to technical faults",
+     "Up to ₹2,000 cash per withdrawal at shop PoS terminals"
+    ],
+    "why": "Every ATM user gets this information before a charge applies."
+   },
+   "hi": {
+    "cat": "भारत · बैंकिंग",
+    "stat": "बैंकों का अलर्ट",
+    "statl": "एटीएम के मुफ़्त लेनदेन पर",
+    "loc": "नई दिल्ली",
+    "h": "एटीएम के मुफ़्त लेनदेन पर अलर्ट दें: आरबीआई",
+    "p": "रिज़र्व बैंक ने बैंकों से कहा है कि वे ग्राहकों को बताएँ कि महीने में कितने मुफ़्त एटीएम लेनदेन हो चुके हैं और उसके बाद कितना शुल्क लगेगा। एटीएम और पीओएस से नकद निकासी के नियमों को मिलाकर नया मास्टर डायरेक्शन जारी हुआ है। अपने बैंक के एटीएम पर महीने में पाँच मुफ़्त लेनदेन जारी रहेंगे, उसके बाद अधिकतम ₹23 शुल्क लगेगा।",
+    "pts": [
+     "2008 से 2022 के बीच जारी 17 सर्कुलर वापस",
+     "तकनीकी ख़राबी से विफल लेनदेन पर शुल्क नहीं",
+     "दुकानों के पीओएस से एक बार में ₹2,000 तक नकद"
+    ],
+    "why": "एटीएम इस्तेमाल करने वाले हर ग्राहक को शुल्क लगने से पहले यह जानकारी मिलेगी।"
+   },
+   "d": "28.11.2026",
+   "t": "13:05"
+  },
+  {
+   "cat": "భారత్ · ఆహార భద్రత",
+   "col": "--c-gov",
+   "art": "court",
+   "pic": "e/fssai-inspection",
+   "stat": "రెండో కేసుకు అనుమతి",
+   "statl": "బిస్లెరీపై",
+   "h": "బిస్లెరీ నీటిపై మరో కేసుకు అనుమతి",
+   "p": "బిస్లెరీ సంస్థపై మరో కేసు పెట్టడానికి ఆహార భద్రత సంస్థ ఎఫ్‌ఎస్‌ఎస్‌ఏఐ అనుమతి ఇచ్చిందని సంబంధిత వర్గాలు తెలిపినట్లు ది ప్రింట్ రాసింది. పశ్చిమ బెంగాల్‌లోని జల్పాయిగురి జిల్లా ప్లాంట్ నీటి నమూనాలో కోలిఫామ్ బ్యాక్టీరియా ఉన్నట్లు రెండు పరీక్షల్లో తేలిందని పేర్కొంది. ఈ ఫలితాలను బిస్లెరీ అంగీకరించలేదు. తమ పరీక్షల్లో నీరు ప్రమాణాల ప్రకారమే ఉందని చెప్పింది.",
+   "src": "ThePrint",
+   "url": "https://theprint.in/health/more-trouble-for-bisleri-as-fssai-sanctions-second-prosecution-over-coliform-in-bengal-plant-sample/3111561/",
+   "srcs": [
+    {
+     "n": "India.com (PTI)",
+     "u": "https://www.india.com/news/india/bisleri-in-trouble-again-fssai-sanctions-prosecution-against-bisleri-international-after-coliform-bacteria-found-in-west-bengal-plant-sample-8548647/"
+    }
+   ],
+   "sec": [
+    "india",
+    "business"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pts": [
+    "ఆ బ్యాచ్ (పీబీ 201) అమ్మకాన్ని ఆగస్టు 12న నిషేధించారు",
+    "ఆ బ్యాచ్‌ను వెనక్కి తీసుకున్నామని బిస్లెరీ తెలిపింది",
+    "వారంలో ఇది రెండోది; మొదటిది గోవా నమూనాపై"
+   ],
+   "why": "ప్యాకేజ్డ్ నీరు కొనేవారికి ఇది ఒక బ్యాచ్‌కు సంబంధించిన విషయం; ఫలితాలపై వివాదం కొనసాగుతోంది.",
+   "pub": "2026-11-28T11:45+05:30",
+   "lbl": "claim",
+   "vs": "confirmed",
+   "en": {
+    "cat": "India · Food safety",
+    "stat": "Second case cleared",
+    "statl": "against Bisleri",
+    "loc": "Jalpaiguri, West Bengal",
+    "h": "FSSAI clears second case against Bisleri",
+    "p": "India's food regulator FSSAI has approved a second prosecution against Bisleri within a week, ThePrint reported, citing sources. A packaged water sample from the firm's plant in Jalpaiguri district, West Bengal, reportedly showed coliform bacteria in two rounds of testing. Bisleri disputes the results and says its own tests at recognised labs found the batch met standards.",
+    "pts": [
+     "Sale of that batch (PB 201) was barred on August 12",
+     "Bisleri says it has already recalled the batch",
+     "Second case in a week; the first was over a Goa sample"
+    ],
+    "why": "For buyers of packaged water this concerns one batch, and the findings remain disputed."
+   },
+   "hi": {
+    "cat": "भारत · खाद्य सुरक्षा",
+    "stat": "दूसरे मामले को मंज़ूरी",
+    "statl": "बिसलेरी पर",
+    "loc": "जलपाईगुड़ी, पश्चिम बंगाल",
+    "h": "बिसलेरी पर दूसरे मुक़दमे को मंज़ूरी",
+    "p": "द प्रिंट ने सूत्रों के हवाले से लिखा है कि खाद्य नियामक एफएसएसएआई ने एक हफ़्ते में बिसलेरी के ख़िलाफ़ दूसरे मुक़दमे को मंज़ूरी दी है। पश्चिम बंगाल के जलपाईगुड़ी ज़िले के प्लांट के पानी के नमूने में दो जाँचों में कोलिफ़ॉर्म बैक्टीरिया मिलने की बात कही गई है। बिसलेरी ने नतीजों को नहीं माना और कहा कि उसकी जाँच में पानी मानकों पर खरा था।",
+    "pts": [
+     "उस बैच (पीबी 201) की बिक्री पर 12 अगस्त को रोक लगी थी",
+     "बिसलेरी के अनुसार वह बैच वापस मँगा लिया गया है",
+     "हफ़्ते में दूसरा मामला; पहला गोवा के नमूने पर"
+    ],
+    "why": "पैकेज्ड पानी ख़रीदने वालों के लिए यह एक बैच का मामला है और नतीजों पर विवाद जारी है।"
+   },
+   "d": "28.11.2026",
+   "t": "13:05"
+  },
+  {
+   "cat": "భారత్ · సైన్స్",
+   "col": "--c-city",
+   "art": "campus",
+   "pic": "e/scientific-research",
+   "stat": "నానోరోబోల తయారీ",
+   "statl": "ఐఐఎస్‌సీ ప్రాజెక్టులో",
+   "h": "నానోరోబోలపై భారత్–బ్రిటన్ పరిశోధన",
+   "p": "శరీరంలో అవసరమైన చోటికే మందులు చేర్చగల నానోరోబోలను తయారు చేయడానికి బెంగళూరులోని ఐఐఎస్‌సీ, లండన్‌లోని ఇంపీరియల్ కాలేజ్ కలిసి పనిచేయనున్నాయి. కృత్రిమ కణాల్లో చిన్న అయస్కాంత మోటార్లు పెట్టి, అయస్కాంతాలతో వాటిని నడిపించాలన్నది లక్ష్యం. ఇది సాధ్యమైతే తక్కువ మోతాదు మందులతోనే చికిత్స చేయవచ్చని పరిశోధకులు భావిస్తున్నారని పీటీఐ తెలిపింది.",
+   "src": "Business Standard (PTI)",
+   "url": "https://www.business-standard.com/health/india-uk-researchers-to-develop-nanorobots-to-steer-cells-around-body-126112800143_1.html",
+   "sec": [
+    "innovation",
+    "india"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pts": [
+    "ఇంపీరియల్ 'ఇండియా కనెక్ట్ ఫండ్' ఈ ప్రాజెక్టుకు సాయం చేస్తోంది",
+    "ఐఐఎస్‌సీ బృందం ఇంతకుముందు రక్తంలో నానోరోబోలను నడిపించింది",
+    "బయోసెన్సింగ్, పర్యావరణ పర్యవేక్షణలోనూ ఉపయోగపడవచ్చు"
+   ],
+   "why": "మందుల దుష్ప్రభావాలు తగ్గించే కొత్త చికిత్సలకు ఇది దారి చూపవచ్చు.",
+   "pub": "2026-11-28T10:33+05:30",
+   "lbl": "fact",
+   "vs": "single",
+   "en": {
+    "cat": "India · Science",
+    "stat": "Nanorobots",
+    "statl": "in an India–UK project",
+    "loc": "Bengaluru",
+    "h": "India, UK team up on drug-carrying nanorobots",
+    "p": "The Indian Institute of Science in Bengaluru and Imperial College London will work together on nanorobots that could carry medicines to an exact spot in the body. The plan is to place tiny magnetic motors inside artificial cells and steer them with magnets. Researchers hope this could allow treatment with smaller drug doses, PTI reported.",
+    "pts": [
+     "Backed by Imperial's India Connect Fund",
+     "IISc's group has earlier moved nanorobots through blood",
+     "Could also help in biosensing and environmental monitoring"
+    ],
+    "why": "It could lead to new treatments with fewer side effects from medicines."
+   },
+   "hi": {
+    "cat": "भारत · विज्ञान",
+    "stat": "नैनोरोबोट",
+    "statl": "भारत–ब्रिटेन परियोजना में",
+    "loc": "बेंगलुरु",
+    "h": "दवा ले जाने वाले नैनोरोबोट पर भारत–ब्रिटेन शोध",
+    "p": "बेंगलुरु का भारतीय विज्ञान संस्थान और लंदन का इंपीरियल कॉलेज मिलकर ऐसे नैनोरोबोट बनाएँगे जो शरीर में ठीक ज़रूरत की जगह तक दवा पहुँचा सकें। योजना कृत्रिम कोशिकाओं में छोटे चुंबकीय मोटर लगाकर उन्हें चुंबक से चलाने की है। पीटीआई के अनुसार शोधकर्ताओं को उम्मीद है कि इससे कम मात्रा की दवा से इलाज हो सकेगा।",
+    "pts": [
+     "इंपीरियल के 'इंडिया कनेक्ट फ़ंड' से मदद",
+     "आईआईएससी की टीम पहले ख़ून में नैनोरोबोट चला चुकी है",
+     "बायोसेंसिंग और पर्यावरण निगरानी में भी काम आ सकता है"
+    ],
+    "why": "इससे दवाओं के दुष्प्रभाव घटाने वाले नए इलाज का रास्ता खुल सकता है।"
+   },
+   "d": "28.11.2026",
+   "t": "13:05"
+  },
   {
    "cat": "భారత్ · మార్కెట్లు",
    "col": "--c-money",

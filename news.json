@@ -1,8 +1,194 @@
 {
  "date": "28.11.2026",
- "updated": "2026-11-28T12:35:00+05:30",
+ "updated": "2026-11-28T13:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "భారత్ · బ్యాంకింగ్",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "e/atm-out-of-service",
+   "stat": "బ్యాంకుల అలర్ట్",
+   "statl": "ఏటీఎం లావాదేవీలపై",
+   "h": "ఏటీఎం వాడకంపై అలర్ట్ ఇవ్వాలి: ఆర్‌బీఐ",
+   "p": "ఏటీఎంలో నెలలో ఎన్ని ఉచిత లావాదేవీలు వాడారో, ఆ తర్వాత ఎంత ఛార్జీ పడుతుందో బ్యాంకులు ఖాతాదారులకు తెలియజేయాలని ఆర్‌బీఐ ఆదేశించింది. ఏటీఎం, పీఓఎస్ నగదు విత్‌డ్రా నిబంధనలన్నీ కలిపి కొత్త మాస్టర్ డైరెక్షన్ ఇచ్చింది. సొంత బ్యాంకు ఏటీఎంలో నెలకు ఐదు ఉచిత లావాదేవీలు కొనసాగుతాయి. ఆ తర్వాత ఒక్కో లావాదేవీకి గరిష్ఠంగా ₹23 ఛార్జీ ఉంటుంది.",
+   "src": "Nation Press",
+   "url": "https://www.nationpress.com/business/rbi-orders-banks-to-flag-free-atm-usage",
+   "srcs": [
+    {
+     "n": "The Free Press Journal",
+     "u": "https://www.freepressjournal.in/business/running-out-of-free-atm-transactions-rbi-steps-in-banks-must-alert-customers-before-charges-kick-in"
+    }
+   ],
+   "sec": [
+    "business",
+    "india"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pts": [
+    "2008–2022 మధ్య ఇచ్చిన 17 సర్క్యులర్లు రద్దు",
+    "సాంకేతిక లోపంతో విఫలమైన లావాదేవీలకు ఛార్జీ లేదు",
+    "దుకాణాల్లో పీఓఎస్ ద్వారా ఒకసారికి ₹2,000 వరకు నగదు"
+   ],
+   "why": "ఏటీఎం వాడే ప్రతి ఖాతాదారుకు ఛార్జీ పడకముందే ఆ సమాచారం అందుతుంది.",
+   "pub": "2026-11-28T09:51+05:30",
+   "lbl": "fact",
+   "vs": "confirmed",
+   "en": {
+    "cat": "India · Banking",
+    "stat": "Bank alerts",
+    "statl": "on free ATM transactions",
+    "loc": "New Delhi",
+    "h": "RBI: banks must flag free ATM use",
+    "p": "The Reserve Bank of India has told banks to let customers know how many free ATM transactions they have used in a month and what later ones will cost. A new Master Direction merges ATM and point-of-sale cash withdrawal rules. Five free transactions a month at one's own bank stay, with charges capped at ₹23 after that.",
+    "pts": [
+     "17 circulars issued between 2008 and 2022 withdrawn",
+     "No charge for transactions that fail due to technical faults",
+     "Up to ₹2,000 cash per withdrawal at shop PoS terminals"
+    ],
+    "why": "Every ATM user gets this information before a charge applies."
+   },
+   "hi": {
+    "cat": "भारत · बैंकिंग",
+    "stat": "बैंकों का अलर्ट",
+    "statl": "एटीएम के मुफ़्त लेनदेन पर",
+    "loc": "नई दिल्ली",
+    "h": "एटीएम के मुफ़्त लेनदेन पर अलर्ट दें: आरबीआई",
+    "p": "रिज़र्व बैंक ने बैंकों से कहा है कि वे ग्राहकों को बताएँ कि महीने में कितने मुफ़्त एटीएम लेनदेन हो चुके हैं और उसके बाद कितना शुल्क लगेगा। एटीएम और पीओएस से नकद निकासी के नियमों को मिलाकर नया मास्टर डायरेक्शन जारी हुआ है। अपने बैंक के एटीएम पर महीने में पाँच मुफ़्त लेनदेन जारी रहेंगे, उसके बाद अधिकतम ₹23 शुल्क लगेगा।",
+    "pts": [
+     "2008 से 2022 के बीच जारी 17 सर्कुलर वापस",
+     "तकनीकी ख़राबी से विफल लेनदेन पर शुल्क नहीं",
+     "दुकानों के पीओएस से एक बार में ₹2,000 तक नकद"
+    ],
+    "why": "एटीएम इस्तेमाल करने वाले हर ग्राहक को शुल्क लगने से पहले यह जानकारी मिलेगी।"
+   },
+   "d": "28.11.2026",
+   "t": "13:05"
+  },
+  {
+   "cat": "భారత్ · ఆహార భద్రత",
+   "col": "--c-gov",
+   "art": "court",
+   "pic": "e/fssai-inspection",
+   "stat": "రెండో కేసుకు అనుమతి",
+   "statl": "బిస్లెరీపై",
+   "h": "బిస్లెరీ నీటిపై మరో కేసుకు అనుమతి",
+   "p": "బిస్లెరీ సంస్థపై మరో కేసు పెట్టడానికి ఆహార భద్రత సంస్థ ఎఫ్‌ఎస్‌ఎస్‌ఏఐ అనుమతి ఇచ్చిందని సంబంధిత వర్గాలు తెలిపినట్లు ది ప్రింట్ రాసింది. పశ్చిమ బెంగాల్‌లోని జల్పాయిగురి జిల్లా ప్లాంట్ నీటి నమూనాలో కోలిఫామ్ బ్యాక్టీరియా ఉన్నట్లు రెండు పరీక్షల్లో తేలిందని పేర్కొంది. ఈ ఫలితాలను బిస్లెరీ అంగీకరించలేదు. తమ పరీక్షల్లో నీరు ప్రమాణాల ప్రకారమే ఉందని చెప్పింది.",
+   "src": "ThePrint",
+   "url": "https://theprint.in/health/more-trouble-for-bisleri-as-fssai-sanctions-second-prosecution-over-coliform-in-bengal-plant-sample/3111561/",
+   "srcs": [
+    {
+     "n": "India.com (PTI)",
+     "u": "https://www.india.com/news/india/bisleri-in-trouble-again-fssai-sanctions-prosecution-against-bisleri-international-after-coliform-bacteria-found-in-west-bengal-plant-sample-8548647/"
+    }
+   ],
+   "sec": [
+    "india",
+    "business"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pts": [
+    "ఆ బ్యాచ్ (పీబీ 201) అమ్మకాన్ని ఆగస్టు 12న నిషేధించారు",
+    "ఆ బ్యాచ్‌ను వెనక్కి తీసుకున్నామని బిస్లెరీ తెలిపింది",
+    "వారంలో ఇది రెండోది; మొదటిది గోవా నమూనాపై"
+   ],
+   "why": "ప్యాకేజ్డ్ నీరు కొనేవారికి ఇది ఒక బ్యాచ్‌కు సంబంధించిన విషయం; ఫలితాలపై వివాదం కొనసాగుతోంది.",
+   "pub": "2026-11-28T11:45+05:30",
+   "lbl": "claim",
+   "vs": "confirmed",
+   "en": {
+    "cat": "India · Food safety",
+    "stat": "Second case cleared",
+    "statl": "against Bisleri",
+    "loc": "Jalpaiguri, West Bengal",
+    "h": "FSSAI clears second case against Bisleri",
+    "p": "India's food regulator FSSAI has approved a second prosecution against Bisleri within a week, ThePrint reported, citing sources. A packaged water sample from the firm's plant in Jalpaiguri district, West Bengal, reportedly showed coliform bacteria in two rounds of testing. Bisleri disputes the results and says its own tests at recognised labs found the batch met standards.",
+    "pts": [
+     "Sale of that batch (PB 201) was barred on August 12",
+     "Bisleri says it has already recalled the batch",
+     "Second case in a week; the first was over a Goa sample"
+    ],
+    "why": "For buyers of packaged water this concerns one batch, and the findings remain disputed."
+   },
+   "hi": {
+    "cat": "भारत · खाद्य सुरक्षा",
+    "stat": "दूसरे मामले को मंज़ूरी",
+    "statl": "बिसलेरी पर",
+    "loc": "जलपाईगुड़ी, पश्चिम बंगाल",
+    "h": "बिसलेरी पर दूसरे मुक़दमे को मंज़ूरी",
+    "p": "द प्रिंट ने सूत्रों के हवाले से लिखा है कि खाद्य नियामक एफएसएसएआई ने एक हफ़्ते में बिसलेरी के ख़िलाफ़ दूसरे मुक़दमे को मंज़ूरी दी है। पश्चिम बंगाल के जलपाईगुड़ी ज़िले के प्लांट के पानी के नमूने में दो जाँचों में कोलिफ़ॉर्म बैक्टीरिया मिलने की बात कही गई है। बिसलेरी ने नतीजों को नहीं माना और कहा कि उसकी जाँच में पानी मानकों पर खरा था।",
+    "pts": [
+     "उस बैच (पीबी 201) की बिक्री पर 12 अगस्त को रोक लगी थी",
+     "बिसलेरी के अनुसार वह बैच वापस मँगा लिया गया है",
+     "हफ़्ते में दूसरा मामला; पहला गोवा के नमूने पर"
+    ],
+    "why": "पैकेज्ड पानी ख़रीदने वालों के लिए यह एक बैच का मामला है और नतीजों पर विवाद जारी है।"
+   },
+   "d": "28.11.2026",
+   "t": "13:05"
+  },
+  {
+   "cat": "భారత్ · సైన్స్",
+   "col": "--c-city",
+   "art": "campus",
+   "pic": "e/scientific-research",
+   "stat": "నానోరోబోల తయారీ",
+   "statl": "ఐఐఎస్‌సీ ప్రాజెక్టులో",
+   "h": "నానోరోబోలపై భారత్–బ్రిటన్ పరిశోధన",
+   "p": "శరీరంలో అవసరమైన చోటికే మందులు చేర్చగల నానోరోబోలను తయారు చేయడానికి బెంగళూరులోని ఐఐఎస్‌సీ, లండన్‌లోని ఇంపీరియల్ కాలేజ్ కలిసి పనిచేయనున్నాయి. కృత్రిమ కణాల్లో చిన్న అయస్కాంత మోటార్లు పెట్టి, అయస్కాంతాలతో వాటిని నడిపించాలన్నది లక్ష్యం. ఇది సాధ్యమైతే తక్కువ మోతాదు మందులతోనే చికిత్స చేయవచ్చని పరిశోధకులు భావిస్తున్నారని పీటీఐ తెలిపింది.",
+   "src": "Business Standard (PTI)",
+   "url": "https://www.business-standard.com/health/india-uk-researchers-to-develop-nanorobots-to-steer-cells-around-body-126112800143_1.html",
+   "sec": [
+    "innovation",
+    "india"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pts": [
+    "ఇంపీరియల్ 'ఇండియా కనెక్ట్ ఫండ్' ఈ ప్రాజెక్టుకు సాయం చేస్తోంది",
+    "ఐఐఎస్‌సీ బృందం ఇంతకుముందు రక్తంలో నానోరోబోలను నడిపించింది",
+    "బయోసెన్సింగ్, పర్యావరణ పర్యవేక్షణలోనూ ఉపయోగపడవచ్చు"
+   ],
+   "why": "మందుల దుష్ప్రభావాలు తగ్గించే కొత్త చికిత్సలకు ఇది దారి చూపవచ్చు.",
+   "pub": "2026-11-28T10:33+05:30",
+   "lbl": "fact",
+   "vs": "single",
+   "en": {
+    "cat": "India · Science",
+    "stat": "Nanorobots",
+    "statl": "in an India–UK project",
+    "loc": "Bengaluru",
+    "h": "India, UK team up on drug-carrying nanorobots",
+    "p": "The Indian Institute of Science in Bengaluru and Imperial College London will work together on nanorobots that could carry medicines to an exact spot in the body. The plan is to place tiny magnetic motors inside artificial cells and steer them with magnets. Researchers hope this could allow treatment with smaller drug doses, PTI reported.",
+    "pts": [
+     "Backed by Imperial's India Connect Fund",
+     "IISc's group has earlier moved nanorobots through blood",
+     "Could also help in biosensing and environmental monitoring"
+    ],
+    "why": "It could lead to new treatments with fewer side effects from medicines."
+   },
+   "hi": {
+    "cat": "भारत · विज्ञान",
+    "stat": "नैनोरोबोट",
+    "statl": "भारत–ब्रिटेन परियोजना में",
+    "loc": "बेंगलुरु",
+    "h": "दवा ले जाने वाले नैनोरोबोट पर भारत–ब्रिटेन शोध",
+    "p": "बेंगलुरु का भारतीय विज्ञान संस्थान और लंदन का इंपीरियल कॉलेज मिलकर ऐसे नैनोरोबोट बनाएँगे जो शरीर में ठीक ज़रूरत की जगह तक दवा पहुँचा सकें। योजना कृत्रिम कोशिकाओं में छोटे चुंबकीय मोटर लगाकर उन्हें चुंबक से चलाने की है। पीटीआई के अनुसार शोधकर्ताओं को उम्मीद है कि इससे कम मात्रा की दवा से इलाज हो सकेगा।",
+    "pts": [
+     "इंपीरियल के 'इंडिया कनेक्ट फ़ंड' से मदद",
+     "आईआईएससी की टीम पहले ख़ून में नैनोरोबोट चला चुकी है",
+     "बायोसेंसिंग और पर्यावरण निगरानी में भी काम आ सकता है"
+    ],
+    "why": "इससे दवाओं के दुष्प्रभाव घटाने वाले नए इलाज का रास्ता खुल सकता है।"
+   },
+   "d": "28.11.2026",
+   "t": "13:05"
+  },
   {
    "cat": "భారత్ · మార్కెట్లు",
    "col": "--c-money",
@@ -3417,194 +3603,6 @@
    },
    "d": "27.11.2026",
    "t": "22:35"
-  },
-  {
-   "cat": "తెలంగాణ · హైకోర్టు",
-   "col": "--c-gov",
-   "art": "court",
-   "pic": "e/court-hearing",
-   "stat": "₹500 కోట్ల రుణం",
-   "statl": "ఫ్యాబ్ సిటీ కేసులో",
-   "h": "ఫ్యాబ్ సిటీ భూమి కేసులోకి సీబీఐ",
-   "p": "రంగారెడ్డి జిల్లా ఫ్యాబ్ సిటీలో 100 ఎకరాల భూమిపై స్టేట్ బ్యాంక్ వేసిన కేసులో తెలంగాణ హైకోర్టు సీబీఐని తనంతట తానే ప్రతివాదిగా చేర్చింది. 2010లో ప్రభుత్వం 78 ఎకరాలు వెనక్కి తీసుకున్నాక కూడా, 2011లో సెమ్ ఇండియా ఫ్యాబ్ సంస్థకు ₹500 కోట్ల రుణం ఎలా ఇచ్చారని న్యాయమూర్తి ప్రశ్నించారు. బ్యాంకు సరిగా పరిశీలించలేదని కోర్టు అభిప్రాయపడింది.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/telangana-hc-impleads-cbi-in-sbi-plea-over-fab-city-land",
-   "srcs": [
-    {
-     "n": "Deccan Chronicle",
-     "u": "https://www.deccanchronicle.com/southern-states/telangana/telangana-hc-impleads-cbi-in-sbis-rs-500-crore-fab-city-land-2008613"
-    }
-   ],
-   "sec": [
-    "telangana",
-    "business"
-   ],
-   "st": "TG",
-   "place": "rangareddy",
-   "loc": "రావిర్యాల, మహేశ్వరం",
-   "pts": [
-    "ప్రాజెక్టు పెట్టుబడి అంచనా సుమారు ₹20,000 కోట్లు",
-    "స్థలంలో పూర్తికాని షెడ్డు మాత్రమే ఉందని కోర్టు గుర్తించింది",
-    "కేసు పత్రాలను సీబీఐకి ఇవ్వాలని రిజిస్ట్రీకి ఆదేశం"
-   ],
-   "why": "ప్రజల డిపాజిట్లతో బ్యాంకులు ఇచ్చే పెద్ద రుణాలపై జాగ్రత్త ఎంత అవసరమో ఈ కేసు చూపిస్తోంది.",
-   "next": "తదుపరి విచారణ డిసెంబర్ 4న",
-   "pub": "2026-11-27T21:27+05:30",
-   "lbl": "fact",
-   "vs": "confirmed",
-   "en": {
-    "cat": "Telangana · High Court",
-    "stat": "₹500 crore loan",
-    "statl": "in Fab City land case",
-    "loc": "Raviryala, Maheshwaram",
-    "h": "HC brings CBI into Fab City land case",
-    "p": "The Telangana High Court has on its own added the CBI as a party in State Bank of India's petition over 100 acres at Fab City in Rangareddy district. The judge asked how the bank lent ₹500 crore to Sem India Fab in 2011, after the government had taken back 78 acres in 2010, and said due diligence appeared lacking.",
-    "pts": [
-     "Project investment was estimated at about ₹20,000 crore",
-     "Court noted only an unfinished shed stands on the site",
-     "Registry told to give case papers to the CBI"
-    ],
-    "why": "The case shows how much care banks need when lending large sums from public deposits.",
-    "next": "Next hearing on December 4"
-   },
-   "hi": {
-    "cat": "तेलंगाना · हाईकोर्ट",
-    "stat": "₹500 करोड़ का कर्ज",
-    "statl": "फैब सिटी ज़मीन मामले में",
-    "loc": "राविर्याल, महेश्वरम",
-    "h": "फैब सिटी ज़मीन मामले में हाईकोर्ट ने सीबीआई को जोड़ा",
-    "p": "रंगारेड्डी ज़िले की फैब सिटी में 100 एकड़ ज़मीन को लेकर स्टेट बैंक की याचिका में तेलंगाना हाईकोर्ट ने खुद ही सीबीआई को पक्षकार बना दिया। न्यायाधीश ने पूछा कि 2010 में सरकार के 78 एकड़ वापस लेने के बाद भी 2011 में सेम इंडिया फैब को ₹500 करोड़ का कर्ज कैसे दिया गया। अदालत ने कहा कि बैंक की जांच-परख कमज़ोर दिखती है।",
-    "pts": [
-     "परियोजना में करीब ₹20,000 करोड़ के निवेश का अनुमान था",
-     "अदालत ने पाया कि जगह पर सिर्फ अधूरा शेड है",
-     "रजिस्ट्री को मामले के कागज़ सीबीआई को देने का आदेश"
-    ],
-    "why": "यह मामला दिखाता है कि जनता की जमा राशि से बड़े कर्ज देते समय बैंकों को कितनी सावधानी चाहिए।",
-    "next": "अगली सुनवाई 4 दिसंबर को"
-   },
-   "d": "27.11.2026",
-   "t": "22:05"
-  },
-  {
-   "cat": "తెలంగాణ · నీరు",
-   "col": "--c-water",
-   "art": "water",
-   "pic": "e/dam-nagarjuna-sagar",
-   "stat": "40 టీఎంసీలే మిగిలాయి",
-   "statl": "సాగర్‌లో",
-   "h": "సాగర్ నీటిపై రిటైర్డ్ ఇంజనీర్ల అభ్యంతరం",
-   "p": "కృష్ణా బోర్డు అనుమతి లేకుండా ఆంధ్రప్రదేశ్ నాగార్జున సాగర్ కుడి కాలువ నుంచి నీరు తీసుకుంటోందని తెలంగాణ రిటైర్డ్ ఇంజనీర్ల సంఘం ఆరోపించింది. వెంటనే బోర్డు సమావేశం పెట్టేలా కేంద్రంపై ఒత్తిడి తేవాలని శుక్రవారం హైదరాబాద్‌లో రాష్ట్ర ప్రభుత్వాన్ని కోరింది. సాగర్‌లో మిగిలిన 40 టీఎంసీలను రెండు రాష్ట్రాల తాగునీటికే ఉంచాలని సంఘం నేతలు అన్నారు.",
-   "src": "Telangana Today",
-   "url": "https://telanganatoday.com/trea-seeks-krmb-meeting-over-nagarjunasagar-issue",
-   "sec": [
-    "telangana",
-    "agri"
-   ],
-   "st": "TG",
-   "place": "TS",
-   "loc": "",
-   "pts": [
-    "అపెక్స్ కౌన్సిల్ సమావేశం కూడా పెట్టాలని సంఘం అధ్యక్షుడి డిమాండ్",
-    "పల్నాడు తాగునీటి పథకానికి అనుమతులు లేవని ఆరోపణ",
-    "ఏపీ 19 టీఎంసీలు కోరగా బోర్డు కమిటీ ఒప్పుకోలేదని సంఘం"
-   ],
-   "why": "సాగర్ నీటిపై ఆధారపడే తెలంగాణ, ఏపీ రైతులకు, తాగునీటి అవసరాలకు ఈ వివాదం ముఖ్యం.",
-   "pub": "2026-11-27T21:19+05:30",
-   "lbl": "claim",
-   "vs": "single",
-   "en": {
-    "cat": "Telangana · Water",
-    "stat": "Only 40 tmc ft left",
-    "statl": "in Sagar",
-    "loc": "Hyderabad",
-    "h": "Retired engineers object to AP's Sagar drawal",
-    "p": "The Telangana Retired Engineers Association has alleged that Andhra Pradesh is taking water from the Nagarjuna Sagar Right Canal without the Krishna board's approval. In Hyderabad on Friday, it asked the State government to press the Centre for an immediate board meeting, and said the 40 tmc ft left in the reservoir should be kept for drinking water in both States.",
-    "pts": [
-     "Association president also wants an Apex Council meeting",
-     "It alleges the Palnadu drinking water scheme lacks approvals",
-     "Says a board panel did not accept AP's request for 19 tmc ft"
-    ],
-    "why": "The dispute matters to farmers and drinking water users in Telangana and AP who depend on Sagar."
-   },
-   "hi": {
-    "cat": "तेलंगाना · पानी",
-    "stat": "सिर्फ 40 टीएमसी बचा",
-    "statl": "नागार्जुन सागर में",
-    "loc": "हैदराबाद",
-    "h": "सागर के पानी पर सेवानिवृत्त इंजीनियरों की आपत्ति",
-    "p": "तेलंगाना सेवानिवृत्त इंजीनियर संघ ने आरोप लगाया है कि आंध्र प्रदेश कृष्णा बोर्ड की मंज़ूरी के बिना नागार्जुन सागर की दाहिनी नहर से पानी ले रहा है। शुक्रवार को हैदराबाद में संघ ने राज्य सरकार से कहा कि वह तुरंत बोर्ड की बैठक के लिए केंद्र पर दबाव डाले। संघ के नेताओं ने कहा कि सागर में बचा 40 टीएमसी पानी दोनों राज्यों के पीने के लिए ही रखा जाए।",
-    "pts": [
-     "संघ अध्यक्ष ने एपेक्स काउंसिल की बैठक की भी मांग की",
-     "पलनाडु पेयजल योजना को मंज़ूरी न होने का आरोप",
-     "संघ के मुताबिक बोर्ड समिति ने एपी की 19 टीएमसी की मांग नहीं मानी"
-    ],
-    "why": "सागर पर निर्भर तेलंगाना और एपी के किसानों और पेयजल ज़रूरतों के लिए यह विवाद अहम है।"
-   },
-   "d": "27.11.2026",
-   "t": "22:05"
-  },
-  {
-   "cat": "ప్రపంచం · టెక్నాలజీ",
-   "col": "--c-city",
-   "art": "",
-   "pic": "w/london",
-   "stat": "సేవలు ఆగాయి",
-   "statl": "బ్రిటన్ పెన్షన్ల శాఖలో",
-   "h": "బ్రిటన్ పెన్షన్ల శాఖలో సైబర్ ఘటన",
-   "p": "బ్రిటన్‌లో పెన్షన్లు, సంక్షేమ చెల్లింపులు చూసే ప్రభుత్వ శాఖ తన వ్యవస్థల్లో సైబర్ ఘటనను గుర్తించి, ముందు జాగ్రత్తగా కొన్ని ఆన్‌లైన్ సేవలను శుక్రవారం ఆపేసింది. పెన్షన్లు, ఇతర చెల్లింపులు ఎప్పటిలాగే అందుతాయని శాఖ తెలిపింది. జాతీయ సైబర్ భద్రతా కేంద్రంతో కలిసి దర్యాప్తు చేస్తున్నామని, సేవలను త్వరగా మళ్లీ మొదలుపెడతామని చెప్పింది.",
-   "src": "GOV.UK (DWP)",
-   "url": "https://www.gov.uk/government/news/temporary-disruption-to-some-dwp-online-services",
-   "srcs": [
-    {
-     "n": "ITV News",
-     "u": "https://www.itv.com/news/2026-11-27/dwp-removes-some-online-services-amid-cyber-incident"
-    }
-   ],
-   "sec": [
-    "world"
-   ],
-   "st": "WORLD",
-   "place": "IN",
-   "loc": "",
-   "pts": [
-    "యూనివర్సల్ క్రెడిట్ దరఖాస్తు, లాగిన్ సేవలు ఆగాయి: ఐటీవీ",
-    "వ్యక్తిగత డేటా చోరీకి ఆధారాలు లేవని ఐటీవీ కథనం",
-    "మెసేజ్, ఈమెయిల్‌లో వ్యక్తిగత వివరాలు అడగబోమని శాఖ హెచ్చరిక"
-   ],
-   "why": "ప్రభుత్వ ఆన్‌లైన్ సేవలు ఆగితే లక్షల మంది లబ్ధిదారులకు ఇబ్బంది కలుగుతుంది.",
-   "pub": "2026-11-27T13:41+05:30",
-   "lbl": "fact",
-   "vs": "official",
-   "en": {
-    "cat": "World · Technology",
-    "stat": "Online services paused",
-    "statl": "at UK pensions department",
-    "loc": "London",
-    "h": "UK pensions department hit by cyber incident",
-    "p": "Britain's Department for Work and Pensions took some of its online services offline on Friday as a precaution after finding a cyber incident on its systems. It said regular benefit and pension payments are not affected and will be paid as normal. The department is working with the National Cyber Security Centre to investigate and restore services quickly.",
-    "pts": [
-     "Universal Credit applications and sign-in are down: ITV",
-     "ITV reports no evidence so far of personal data theft",
-     "DWP says it never asks for personal details by text or email"
-    ],
-    "why": "When government online services stop, lakhs of people who depend on them face difficulty."
-   },
-   "hi": {
-    "cat": "दुनिया · टेक्नोलॉजी",
-    "stat": "ऑनलाइन सेवाएं रोकी गईं",
-    "statl": "ब्रिटेन के पेंशन विभाग में",
-    "loc": "लंदन",
-    "h": "ब्रिटेन के पेंशन विभाग में साइबर घटना, सेवाएं बंद",
-    "p": "ब्रिटेन में पेंशन और कल्याण भुगतान संभालने वाले सरकारी विभाग ने अपने सिस्टम में साइबर घटना का पता चलने पर शुक्रवार को एहतियातन कुछ ऑनलाइन सेवाएं बंद कर दीं। विभाग ने कहा कि पेंशन और अन्य भुगतान पहले की तरह मिलते रहेंगे। वह राष्ट्रीय साइबर सुरक्षा केंद्र के साथ जांच कर रहा है और सेवाएं जल्द बहाल करेगा।",
-    "pts": [
-     "यूनिवर्सल क्रेडिट आवेदन और साइन-इन सेवाएं बंद: आईटीवी",
-     "आईटीवी के अनुसार निजी डेटा चोरी के सबूत अब तक नहीं",
-     "विभाग संदेश या ईमेल से निजी जानकारी नहीं मांगता"
-    ],
-    "why": "सरकारी ऑनलाइन सेवाएं रुकने पर उन पर निर्भर लाखों लोगों को परेशानी होती है।"
-   },
-   "d": "27.11.2026",
-   "t": "22:05"
   }
  ]
 }
