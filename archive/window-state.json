@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T05:05:00+05:30",
+ "cutoff": "2026-11-28T05:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T12:05:00+05:30/2026-11-25T12:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 1,
-   "published": 1,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Lookback from 04:05. Feeds 12:16 IST (68/68 ok; 2654 events, 694 TG/AP uncovered by flag). add_repo tool not available; used existing clone. Published 1: Deccan Chronicle Kishan Reddy Nasha Mukt Bharat padayatra flagged off at Amberpet (11:26). Skipped as old (published before lookback): DC AP Nov 26 poll holiday (17 Nov), DC Bangladesh lockdown (19 Nov), DC Nagarjuna backs yatra (19 Nov). Not found by search: The Hindu Hyderabad airport storage +140%, V6 Telangana women anaemia, The Hindu tiger Explorer NTR district, TOI digital arrest Rs 50 cr, Samayam bullet-train Zaheerabad, NewsBytes AP NCD four tests, TaxGuru AP HC contractor dues, India-Nepal exercise, US-Russia business deals (search gave only older items). No district searches done. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-25T12:35:00+05:30/2026-11-25T13:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 0,
    "review": 0,
    "gaps": "Night window (5.5 h). Lookback from 15:35 Nov 27. Feeds 04:23 IST (75/75 ok; 2813 uncovered, 825 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open (typed feed links refused: permission not answered). Published 6: TT Rs 10,000 cr El Nino/drought works after Sankranti (00:53, single; new details on a plan first reported 24 Nov), TT + Hans India Rs 18.76 lakh medical sanction for Minister Komatireddy (23:38, confirmed; outlets differ on first treatment date), Deccan Chronicle AP CCA DLC camp Vijayawada Nov 28 (00:45, single), Hans India + Andhra Prabha GITAM admissions/GAT-2027 (01:52, confirmed), TT BIMSTEC U23 final tally 47 medals (23:28, single; ANI page refused), TT + IANS World Boxing Cup Finals squad (23:35, confirmed). Duplicates: NT low pressure by Nov 30 (published 27 Nov 17:05), DC/Hans 858 kg spoiled seafood (published 27 Nov 18:05), AP police 1,534 posts (published 27 Nov 05:05). Single source, not published: DC 12 injured in dog attack in Sri Sathya Sai. Not opened: Sakshi Education 526 assistant professor posts, DC Suryapet Mission Vatsalya (client error); The Hindu Asifabad moneylending 16 cases, cochlear implant at Gandhi, CM on environment, TGSRTC fleet; TT Lotus Pond auction protest, TT fresh seats Bill (earlier versions already published). Not attempted this run: most Sakshi/Andhrajyothy/Eenadu district items (Google News links), DC Waqf land Mahbubnagar, Hans midnight downpour, 8 district searches. Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T05:05:00+05:30/2026-11-28T05:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 0,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 21:05 Nov 27. Feeds 05:20 IST (74/75 ok; 2797 uncovered, 836 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Nothing published: search index did not surface the new feed articles (Google News links; thehindu.com permission not answered). Duplicates: Hans India 'Midnight downpour floods Hyderabad roads' (02:00) and NT 'దంచికొట్టిన వాన' (01:00) describe the Thu-night/Fri-morning rain already published 27 Nov 08:05/09:05. Not eligible (old): DC 18-month land resurvey (28 Oct), Hans resurvey (10 Oct). Not opened: Hindu Vizag hippo birthday, Hindu Karimnagar Classic Abhiruchi licence, projobalert AP SI 378 posts (client error); not surfaced by search: DC land resurvey 23:18, DC Rs 25,096 cr power, DC Tirumala U-15 cricket, DC Srihari 2036 Olympics, DC/Hans Mahabubabad duty meet, DC/Hans Kadavendi sarpanch suspension, 10TV/AJ AP deputy mayor polls Dec 5, Sakshi/AJ Navodaya exam today, TT BRS protocol complaint. 8 district searches returned only tag pages."
   }
  ],
  "seen": [
@@ -6533,6 +6533,16 @@
    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/12-injured-in-rabid-dog-attack-in-satya-sai-district-2008662",
    "d": "2026-11-28",
    "w": "skip"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/midnight-downpour-floods-hyderabad-roads-1146447",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://ntnews.com/hyderabad/moderate-to-heavy-rain-hits-greater-hyderabad-under-trough-influence-2570639",
+   "d": "2026-11-28",
+   "w": "duplicate"
   }
  ]
 }
