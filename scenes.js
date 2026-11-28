@@ -944,3 +944,26 @@ if(typeof document!=='undefined'){ if(document.readyState==='loading') document.
       return Object.assign({},a,{m:'land',bg}); }
     return a; };
   if(typeof window!=='undefined') window.artPlan=artPlan; })();
+
+/* owner 28 Nov 2026: "do not use India Gate and Indian flag images". These AI pictures show India Gate, Rashtrapati Bhavan
+   or the Indian flag in the background, so they are never shown: each is swapped for a picture of the same topic without them
+   (null = our logo card). This runs last, after every other picture rule. */
+const ART_NOFLAG={'artificial-intelligence':'software-work','bank-loan-consultation':'tenant-farmer-loan-assistance','banking-services':'digital-citizen-service-centre',
+ 'blood-donation-camp':'primary-health-centre','border-security-patrol':'armed-forces-relief-work','chess-tournament':'rural-sports-ground','child-safeguarding':'childcare-and-working-parents',
+ 'community-yoga':'morning-walk-jog','constitution-day':'public-library-reading','court-hearing':'justice-scales','data-privacy':'financial-scam-awareness','diagnostic-laboratory':'scientific-research',
+ 'digital-classroom':'government-school-classroom','digital-newsroom':'software-work','digital-payments':'small-business-shop','disability-access':'senior-citizen-care',
+ 'electric-mobility-technology':'rooftop-solar-installation','electric-vehicle-charging':'rooftop-solar-installation','factory-employment':'food-manufacturing','farmer-assistance-counter':'tenant-farmer-loan-assistance',
+ 'fuel-price-concern':'family-household-budget','gig-delivery-work':'lpg-cylinder-delivery','global-climate-summit':'forest-conservation','global-economic-uncertainty':'stock-market-movement',
+ 'global-trade-routes':'imports-and-exports','international-diplomacy':'imports-and-exports','government-exam-aspirants':'entrance-exam-preparation','government-press-briefing':'municipal-council-meeting',
+ 'public-policy-announcement':'municipal-council-meeting','hospital-outpatient-queue':'hospital-bed-shortage','industrial-production':'food-manufacturing','job-fair-interviews':'office-hiring-interview',
+ 'labour-rights-hearing':'legal-aid-consultation','mental-health-counselling':'alcohol-and-addiction-counselling','misinformation-verification':'financial-scam-awareness','parliamentary-debate':'parliament-lok-sabha',
+ 'pension-distribution':'senior-citizen-care','pharmacy-medicine-supply':'primary-health-centre','physiotherapy-session':'primary-health-centre','political-campaign-rally':'village-gram-sabha',
+ 'remembrance-and-condolence':null,'right-to-information-application':'document-registration','road-safety-check':'traffic-congestion','school-building-repairs':'government-school-classroom',
+ 'school-midday-meal':'anganwadi-nutrition','skill-training-workshop':'robotics-training','state-assembly-session':'telangana-assembly','teacher-vacancy-protest':'protest-dharna-chowk',
+ 'tourism-and-travel':'airport-travel','vaccination-clinic':'child-immunization-visit','vegetable-market-shopping':'weekly-village-bazaar','peaceful-public-protest':'protest-dharna-chowk',
+ 'winter-delhi-hyderabad':'winter-hyderabad','winter-india-cities':'winter-hyderabad','winter-india':'winter-hyderabad'};
+(function(){ const _ap=artPlan;
+  artPlan=function(s){ const a=_ap(s); if(!a||!a.bg) return a; const k=String(a.bg).replace(/^e\//,''); if(!(k in ART_NOFLAG)) return a;
+    let r=ART_NOFLAG[k]; if(r==='telangana-assembly'&&s&&(s.st==='AP'||/^ap-|^AP$/.test(s.place||''))) r='municipal-council-meeting';
+    return r?Object.assign({},a,{m:'land',bg:'e/'+r}):{m:'logo'}; };
+  if(typeof window!=='undefined') window.artPlan=artPlan; })();
