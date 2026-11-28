@@ -1,8 +1,379 @@
 {
  "date": "28.11.2026",
  "iso": "2026-11-28",
- "count": 18,
+ "count": 24,
  "stories": [
+  {
+   "cat": "భారత్ · పార్లమెంట్",
+   "col": "--c-gov",
+   "art": "voters",
+   "pic": "e/parliament-lok-sabha",
+   "stat": "850 సీట్ల వరకు",
+   "statl": "లోక్‌సభ బిల్లులో",
+   "h": "లోక్‌సభ సీట్ల పెంపు బిల్లు సోమవారం",
+   "p": "లోక్‌సభ, అసెంబ్లీ సీట్లను 50 శాతం పెంచే 132వ రాజ్యాంగ సవరణ బిల్లును కేంద్రం సోమవారం లోక్‌సభలో పెట్టనుందని పీటీఐ తెలిపింది. లోక్‌సభ గరిష్ఠ సీట్లు 850కి, రాష్ట్ర అసెంబ్లీ గరిష్ఠ పరిమితి 500 నుంచి 650కి పెరుగుతాయి. కొత్త కేటాయింపు 2051 వరకు మారదు. నియోజకవర్గాల పునర్విభజన తర్వాత మహిళలకు మూడో వంతు సీట్లు దక్కుతాయి.",
+   "src": "Telangana Today (PTI)",
+   "url": "https://telanganatoday.com/centre-brings-fresh-bill-to-raise-lok-sabha-assembly-seats",
+   "srcs": [
+    {
+     "n": "The Federal",
+     "u": "https://thefederal.com/category/news/womens-quota-bill-what-it-proposes-264314"
+    }
+   ],
+   "sec": [
+    "india"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "న్యూఢిల్లీ",
+   "pts": [
+    "రాష్ట్రాలకు 815, కేంద్ర పాలిత ప్రాంతాలకు 35 సీట్లు",
+    "పునర్విభజనకు ముగ్గురు సభ్యుల కమిషన్",
+    "ఏప్రిల్ 17న పాత బిల్లు 54 ఓట్ల తేడాతో వీగిపోయింది"
+   ],
+   "why": "తెలుగు రాష్ట్రాల లోక్‌సభ, అసెంబ్లీ నియోజకవర్గాల సంఖ్య, హద్దులు మారే అవకాశం ఉంది.",
+   "next": "బిల్లు సోమవారం లోక్‌సభ ముందుకు",
+   "pub": "2026-11-28T00:44+05:30",
+   "lbl": "fact",
+   "vs": "confirmed",
+   "en": {
+    "cat": "India · Parliament",
+    "stat": "Up to 850 seats",
+    "statl": "in Lok Sabha seat-increase Bill",
+    "loc": "New Delhi",
+    "h": "Bill to raise Lok Sabha seats due Monday",
+    "p": "The Centre is set to introduce the Constitution (132nd Amendment) Bill in the Lok Sabha on Monday, PTI reported. It would raise Lok Sabha and Assembly seats by 50%, taking the Lok Sabha ceiling to 850 and the Assembly ceiling from 500 to 650. The new allocation would stay until 2051. One-third reservation for women would follow delimitation.",
+    "pts": [
+     "Up to 815 seats from states, 35 from Union territories",
+     "Three-member commission to redraw constituencies",
+     "Earlier Bill fell 54 votes short on April 17"
+    ],
+    "why": "The number and boundaries of constituencies in the Telugu states may change.",
+    "next": "Bill goes before the Lok Sabha on Monday"
+   },
+   "hi": {
+    "cat": "भारत · संसद",
+    "stat": "अधिकतम 850 सीटें",
+    "statl": "लोकसभा सीट बढ़ाने के विधेयक में",
+    "loc": "नई दिल्ली",
+    "h": "लोकसभा सीटें बढ़ाने का विधेयक सोमवार को",
+    "p": "पीटीआई के अनुसार केंद्र सोमवार को लोकसभा में 132वाँ संविधान संशोधन विधेयक पेश करेगा। इससे लोकसभा और विधानसभाओं की सीटें 50 प्रतिशत बढ़ेंगी। लोकसभा की अधिकतम सीटें 850 होंगी और विधानसभा की सीमा 500 से 650 होगी। नया बँटवारा 2051 तक रहेगा। परिसीमन के बाद महिलाओं को एक-तिहाई सीटें मिलेंगी।",
+    "pts": [
+     "राज्यों से 815 तक, केंद्र शासित प्रदेशों से 35 सीटें",
+     "परिसीमन के लिए तीन सदस्यों का आयोग",
+     "17 अप्रैल को पुराना विधेयक 54 वोट से गिरा था"
+    ],
+    "why": "तेलुगु राज्यों के निर्वाचन क्षेत्रों की संख्या और सीमाएँ बदल सकती हैं।",
+    "next": "विधेयक सोमवार को लोकसभा में"
+   },
+   "d": "28.11.2026",
+   "t": "08:05"
+  },
+  {
+   "cat": "తెలంగాణ · విద్య",
+   "col": "--c-gov",
+   "art": "campus",
+   "pic": "e/govt-school-teacher",
+   "stat": "ముఖ గుర్తింపు హాజరుతో",
+   "statl": "టీచర్ల జీతాలు",
+   "h": "ముఖ గుర్తింపు హాజరుతోనే టీచర్ల జీతాలు",
+   "p": "తెలంగాణలో ప్రభుత్వ టీచర్ల జీతాలను ముఖ గుర్తింపు (ఎఫ్‌ఆర్‌ఎస్) హాజరుతో ముడిపెట్టే పని మొదలైంది. వికారాబాద్ జిల్లాలో డీఈవో ఇప్పటికే ఆదేశాలు ఇచ్చారు. నాగర్‌కర్నూల్‌లో అన్ని శాఖల సిబ్బందికీ ఇదే పద్ధతి అని కలెక్టర్ చెప్పారు. పాఠశాల విద్య డైరెక్టర్ కార్యాలయం నుంచి రాతపూర్వక ఆదేశాలు ఇంకా రాలేదని న్యూస్‌మీటర్ తెలిపింది.",
+   "src": "NewsMeter Telugu",
+   "url": "https://telugu.newsmeter.in/telangana/telangana-moves-to-link-government-teachers-salaries-with-facial-recognition-system-frs-attendance-780155",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "హైదరాబాద్",
+   "pts": [
+    "రంగారెడ్డి జిల్లా కూడా సిద్ధమవుతోంది",
+    "స్పష్టమైన మార్గదర్శకాలు కావాలని పీఆర్‌టీయూ కోరింది",
+    "టీచర్లకు ఈ హాజరు ఆగస్టు 2025 నుంచి ఉంది"
+   ],
+   "why": "హాజరు సరిగ్గా నమోదు కాకపోతే ప్రభుత్వ టీచర్ల జీతాలపై ప్రభావం పడవచ్చు.",
+   "pub": "2026-11-28T07:31+05:30",
+   "lbl": "fact",
+   "vs": "single",
+   "en": {
+    "cat": "Telangana · Education",
+    "stat": "Face-scan attendance",
+    "statl": "to decide teachers' pay",
+    "loc": "Hyderabad",
+    "h": "Teachers' pay to follow face-scan attendance",
+    "p": "Telangana districts have begun linking government teachers' salaries to facial recognition (FRS) attendance. The Vikarabad district education officer has already issued orders, and the Nagarkurnool Collector said staff of all departments there will be paid on FRS attendance. No written order has yet come from the Director of School Education's office, NewsMeter reported.",
+    "pts": [
+     "Ranga Reddy district is preparing to follow",
+     "PRTU union asks for clear guidelines",
+     "FRS attendance for teachers began in August 2025"
+    ],
+    "why": "Government teachers' pay may be affected if attendance is not recorded properly."
+   },
+   "hi": {
+    "cat": "तेलंगाना · शिक्षा",
+    "stat": "चेहरा पहचान हाज़िरी",
+    "statl": "से तय होगा शिक्षकों का वेतन",
+    "loc": "हैदराबाद",
+    "h": "चेहरा पहचान हाज़िरी से शिक्षकों का वेतन",
+    "p": "तेलंगाना में सरकारी शिक्षकों का वेतन चेहरा पहचान (एफ़आरएस) हाज़िरी से जोड़ने का काम शुरू हो गया है। विकाराबाद के ज़िला शिक्षा अधिकारी ने आदेश दे दिए हैं। नागरकर्नूल के कलेक्टर ने कहा कि वहाँ सभी विभागों के कर्मचारियों पर यही तरीका लागू होगा। न्यूज़मीटर के अनुसार स्कूल शिक्षा निदेशक कार्यालय से लिखित आदेश अभी नहीं आया है।",
+    "pts": [
+     "रंगारेड्डी ज़िला भी तैयारी में",
+     "पीआरटीयू ने साफ़ दिशानिर्देश माँगे",
+     "शिक्षकों की यह हाज़िरी अगस्त 2025 से लागू"
+    ],
+    "why": "हाज़िरी ठीक से दर्ज न होने पर सरकारी शिक्षकों के वेतन पर असर पड़ सकता है।"
+   },
+   "d": "28.11.2026",
+   "t": "08:05"
+  },
+  {
+   "cat": "హైదరాబాద్ · ట్రాఫిక్",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/traffic-congestion",
+   "stat": "526 స్కూళ్లపై సర్వే",
+   "statl": "సైబరాబాద్‌లో",
+   "h": "సైబరాబాద్‌లో స్కూల్ వేళల్లో ట్రాఫిక్",
+   "p": "సైబరాబాద్‌లో స్కూళ్ల దగ్గర ట్రాఫిక్ పెద్ద సమస్యగా మారిందని 526 స్కూళ్లపై చేసిన సర్వే చెబుతోంది. రోజూ నాలుగు లక్షల మందికి పైగా విద్యార్థులు స్కూళ్లకు వెళ్తున్నారు. 64 శాతం స్కూళ్లు ఇరుకు రోడ్లపై ఉన్నాయి. పదిలో ఆరు స్కూళ్లు ఉదయం 8–9 గంటల మధ్య మొదలవడంతో ఆఫీసు రద్దీతో కలుస్తోంది. స్కూల్ వేళలు మార్చాలని సూచించారు.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/hyderabad-school-rush-chokes-cyberabad-roads-1146410",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "సైబరాబాద్",
+   "pts": [
+    "36 శాతం మంది స్కూల్ బస్సుల్లో, 30 శాతం నడిచి",
+    "ఆర్టీసీతో విద్యార్థులకు ప్రత్యేక బస్సు రూట్ల ప్రతిపాదన",
+    "17 శాతం మంది బైక్‌లపై వెళ్తున్నారు"
+   ],
+   "why": "సైబరాబాద్‌లో పిల్లలను స్కూల్‌కు పంపే తల్లిదండ్రులకు, ఉదయం ఆఫీసుకు వెళ్లేవారికి ఇది ముఖ్యం.",
+   "pub": "2026-11-28T00:35+05:30",
+   "lbl": "fact",
+   "vs": "single",
+   "en": {
+    "cat": "Hyderabad · Traffic",
+    "stat": "526 schools surveyed",
+    "statl": "in Cyberabad",
+    "loc": "Cyberabad",
+    "h": "School-hour traffic chokes Cyberabad roads",
+    "p": "A survey of 526 schools in Cyberabad shows traffic around schools has become a major problem. More than four lakh students travel to school daily, and 64% of schools stand on narrow roads. Six in ten schools start between 8 and 9 am, overlapping with the office rush. The report suggests staggering school timings.",
+    "pts": [
+     "36% use school buses, 30% walk",
+     "Dedicated student bus routes with TGSRTC proposed",
+     "17% travel on two-wheelers"
+    ],
+    "why": "It matters to Cyberabad parents on the school run and to morning office commuters."
+   },
+   "hi": {
+    "cat": "हैदराबाद · ट्रैफ़िक",
+    "stat": "526 स्कूलों का सर्वे",
+    "statl": "साइबराबाद में",
+    "loc": "साइबराबाद",
+    "h": "साइबराबाद में स्कूल समय पर ट्रैफ़िक जाम",
+    "p": "साइबराबाद के 526 स्कूलों के सर्वे के अनुसार स्कूलों के पास ट्रैफ़िक बड़ी समस्या बन गया है। रोज़ चार लाख से ज़्यादा छात्र स्कूल जाते हैं। 64 प्रतिशत स्कूल सँकरी सड़कों पर हैं। दस में से छह स्कूल सुबह 8 से 9 बजे के बीच खुलते हैं, जो दफ़्तर के समय से टकराता है। स्कूलों का समय अलग-अलग करने का सुझाव दिया गया है।",
+    "pts": [
+     "36% स्कूल बस से, 30% पैदल",
+     "टीजीएसआरटीसी के साथ छात्रों के लिए अलग बस रूट का प्रस्ताव",
+     "17% दोपहिया से जाते हैं"
+    ],
+    "why": "साइबराबाद में बच्चों को स्कूल छोड़ने वाले माता-पिता और सुबह दफ़्तर जाने वालों के लिए यह अहम है।"
+   },
+   "d": "28.11.2026",
+   "t": "08:05"
+  },
+  {
+   "cat": "ఏపీ · అటవీ శాఖ",
+   "col": "--c-gov",
+   "art": "farm",
+   "pic": "e/scientific-research",
+   "stat": "3 టేకు రకాలకు",
+   "statl": "జాతీయ అనుమతి",
+   "h": "ఏపీ కొత్త టేకు రకాలకు జాతీయ అనుమతి",
+   "p": "ఆంధ్రప్రదేశ్ అటవీ శాఖ మెరుగైన మూడు టేకు రకాలను తయారు చేసింది. బెంగళూరులోని కలప పరిశోధన సంస్థ ఐడబ్ల్యూఎస్‌టీతో కలిసి చేసిన ఈ రకాల విడుదలకు జాతీయ స్థాయిలో అనుమతి వచ్చింది. 1972లో మొదలైన పరిశోధనకు ఇది ఫలితమని ఉప ముఖ్యమంత్రి పవన్ కల్యాణ్ చెప్పారు. రైతులకు, చెట్లు పెంచేవారికి మేలు జరుగుతుందని అటవీ సిబ్బందిని అభినందించారు.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/news/cities/amaravati/ap-forest-dept-develops-three-improved-teak-clones-1146440",
+   "srcs": [
+    {
+     "n": "Deccan Chronicle",
+     "u": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/ap-teak-clones-get-national-nod-for-commercial-release-2008653"
+    }
+   ],
+   "sec": [
+    "telangana",
+    "agri",
+    "innovation"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "అమరావతి",
+   "pts": [
+    "నవంబర్ 9న విడుదల కమిటీ ఆమోదం ఇచ్చింది",
+    "కలప పరిమాణం 10–20 శాతం ఎక్కువని పరీక్షల్లో తేలింది",
+    "మొదటి రకం నర్సీపట్నం అటవీ ప్రాంతంలో తయారైంది"
+   ],
+   "why": "టేకు పెంచే రైతులకు ఎక్కువ కలప ఇచ్చే మొక్కలు అందుబాటులోకి రావచ్చు.",
+   "pub": "2026-11-28T01:53+05:30",
+   "lbl": "fact",
+   "vs": "confirmed",
+   "en": {
+    "cat": "AP · Forest Dept",
+    "stat": "3 teak clones",
+    "statl": "get national approval",
+    "loc": "Amaravati",
+    "h": "AP's new teak clones get national nod",
+    "p": "The Andhra Pradesh Forest Department has developed three improved teak clones with the Institute of Wood Science and Technology, Bengaluru, and they have received national-level approval for release. Deputy Chief Minister Pawan Kalyan said this is the result of research that began in 1972 and will benefit farmers and tree growers. He congratulated the forest staff.",
+    "pts": [
+     "Variety releasing committee approved them on November 9",
+     "Trials showed 10–20% more wood volume",
+     "First clone was developed in the Narsipatnam forest area"
+    ],
+    "why": "Farmers who grow teak may get planting material that yields more timber."
+   },
+   "hi": {
+    "cat": "आंध्र · वन विभाग",
+    "stat": "3 सागौन किस्मों को",
+    "statl": "राष्ट्रीय मंज़ूरी",
+    "loc": "अमरावती",
+    "h": "आंध्र की नई सागौन किस्मों को राष्ट्रीय मंज़ूरी",
+    "p": "आंध्र प्रदेश वन विभाग ने सागौन की तीन बेहतर किस्में तैयार की हैं। बेंगलुरु के काष्ठ विज्ञान संस्थान आईडब्ल्यूएसटी के साथ बनी इन किस्मों को जारी करने की राष्ट्रीय स्तर पर मंज़ूरी मिली है। उपमुख्यमंत्री पवन कल्याण ने कहा कि यह 1972 में शुरू हुए शोध का नतीजा है। इससे किसानों और पेड़ उगाने वालों को फ़ायदा होगा। उन्होंने वन कर्मचारियों को बधाई दी।",
+    "pts": [
+     "9 नवंबर को किस्म जारी करने वाली समिति की मंज़ूरी",
+     "परीक्षणों में लकड़ी की मात्रा 10–20% ज़्यादा",
+     "पहली किस्म नरसीपट्नम वन क्षेत्र में तैयार हुई"
+    ],
+    "why": "सागौन उगाने वाले किसानों को ज़्यादा लकड़ी देने वाले पौधे मिल सकते हैं।"
+   },
+   "d": "28.11.2026",
+   "t": "08:05"
+  },
+  {
+   "cat": "ఏపీ · ఆరోగ్యం",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "logo",
+   "stat": "నవంబర్ 29న",
+   "statl": "డయాబెటిస్ సదస్సు",
+   "h": "విజయవాడలో నవంబర్ 29న డయాబెటిస్ సదస్సు",
+   "p": "విజయవాడలో నవంబర్ 29న ‘డయాబ్ ఎండో కాన్-2026’ జాతీయ వైద్య సదస్సు జరుగుతుంది. యలమంచి డయాబెటిస్ రీసెర్చ్ ఫౌండేషన్, ఐఎంఏ విజయవాడ శాఖ కలిసి దీన్ని నిర్వహిస్తున్నాయి. 500 మందికి పైగా వైద్యులు వస్తారని నిర్వాహకులు శుక్రవారం చెప్పారు. షుగర్ వ్యాధి చికిత్సలో కొత్త మార్గదర్శకాలు, ఊబకాయం, ఇన్సులిన్ చికిత్సపై నిపుణులు మాట్లాడతారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/national-diabetes-conference-to-be-held-in-vijayawada-on-nov-29-2008699",
+   "sec": [
+    "telangana",
+    "education"
+   ],
+   "st": "AP",
+   "place": "ap-ntr",
+   "loc": "విజయవాడ",
+   "pts": [
+    "గ్రీస్ ప్రొఫెసర్ గెరాసిమోస్ ఫిలిప్పాటోస్‌కు గోల్డ్ మెడల్",
+    "వైద్యులు, పీజీ విద్యార్థుల కోసం ఈ సదస్సు"
+   ],
+   "why": "షుగర్ వ్యాధి చికిత్సలో కొత్త పద్ధతులు ఇక్కడి వైద్యులకు చేరతాయి.",
+   "next": "సదస్సు నవంబర్ 29న",
+   "pub": "2026-11-28T00:55+05:30",
+   "lbl": "fact",
+   "vs": "single",
+   "en": {
+    "cat": "AP · Health",
+    "stat": "November 29",
+    "statl": "diabetes conference in Vijayawada",
+    "loc": "Vijayawada",
+    "h": "Diabetes conference in Vijayawada on Nov 29",
+    "p": "The national medical conference DIAB ENDO CON-2026 will be held in Vijayawada on November 29. The Yalamanchi Diabetes Research Foundation and the IMA Vijayawada branch are organising it. More than 500 medical professionals are expected, the organisers said on Friday. Experts will speak on new diabetes treatment guidelines, obesity and insulin therapy.",
+    "pts": [
+     "Gold Medal for Greek professor Gerasimos Filippatos",
+     "Meant for doctors and postgraduate students"
+    ],
+    "why": "Doctors here will hear about newer methods of diabetes treatment.",
+    "next": "Conference on November 29"
+   },
+   "hi": {
+    "cat": "आंध्र · स्वास्थ्य",
+    "stat": "29 नवंबर को",
+    "statl": "विजयवाड़ा में डायबिटीज़ सम्मेलन",
+    "loc": "विजयवाड़ा",
+    "h": "विजयवाड़ा में 29 नवंबर को डायबिटीज़ सम्मेलन",
+    "p": "विजयवाड़ा में 29 नवंबर को राष्ट्रीय चिकित्सा सम्मेलन ‘डायब एंडो कॉन-2026’ होगा। यलमंचि डायबिटीज़ रिसर्च फ़ाउंडेशन और आईएमए विजयवाड़ा शाखा इसे मिलकर आयोजित कर रहे हैं। आयोजकों ने शुक्रवार को बताया कि 500 से ज़्यादा चिकित्सक आएँगे। विशेषज्ञ डायबिटीज़ इलाज के नए दिशानिर्देशों, मोटापे और इंसुलिन उपचार पर बोलेंगे।",
+    "pts": [
+     "ग्रीस के प्रोफ़ेसर गेरासिमोस फ़िलिप्पाटोस को गोल्ड मेडल",
+     "डॉक्टरों और पीजी छात्रों के लिए सम्मेलन"
+    ],
+    "why": "यहाँ के डॉक्टरों तक डायबिटीज़ इलाज के नए तरीके पहुँचेंगे।",
+    "next": "सम्मेलन 29 नवंबर को"
+   },
+   "d": "28.11.2026",
+   "t": "08:05"
+  },
+  {
+   "cat": "ప్రపంచం · ఇజ్రాయెల్",
+   "col": "--c-election",
+   "art": "voters",
+   "pic": "n/mideast",
+   "stat": "8 రోజుల్లో",
+   "statl": "ప్రభుత్వం ఏర్పాటు చేస్తానని హామీ",
+   "h": "ఇజ్రాయెల్ ప్రభుత్వ ఏర్పాటుకు 8 రోజుల గడువు",
+   "p": "ఇజ్రాయెల్‌లో మిగిలిన ఎనిమిది రోజుల్లో కొత్త ప్రభుత్వం ఏర్పాటు చేస్తానని ప్రతిపక్ష కూటమి నేత గాడి ఐసెన్‌కోట్ శుక్రవారం చెప్పారు. ప్రధాని నెతన్యాహు పార్టీ లికుడ్ కావాలనే చర్చలను సాగదీస్తోందని ఆయన ఆరోపించారు. ఆయన రెండు వైపులా ఆట ఆడుతున్నారని లికుడ్ ఎదురు ఆరోపణ చేసింది. రెండు వారాల్లో ఇరు పక్షాలు ఐదుసార్లు కలిశాయి.",
+   "src": "Xinhua",
+   "url": "https://english.news.cn/20261128/1e913ce950f746d4aada24511b7c7ec2/c.html",
+   "srcs": [
+    {
+     "n": "The Times of Israel",
+     "u": "https://www.timesofisrael.com/eisenkot-vows-to-form-government-within-8-days-accuses-likud-of-stalling-unity-talks/"
+    }
+   ],
+   "sec": [
+    "world"
+   ],
+   "st": "WORLD",
+   "place": "IN",
+   "loc": "జెరూసలేం",
+   "pts": [
+    "ఆయనకు ఇచ్చిన గడువు డిసెంబర్ 6 వరకు",
+    "120 సీట్లలో మెజారిటీకి 61 కావాలి",
+    "అక్టోబర్ 27 ఎన్నికల్లో ఎవరికీ మెజారిటీ రాలేదు"
+   ],
+   "why": "ఇజ్రాయెల్‌లో ఎవరి ప్రభుత్వం వస్తుందన్నది పశ్చిమాసియా పరిస్థితిపై ప్రభావం చూపుతుంది.",
+   "next": "ప్రభుత్వ ఏర్పాటు గడువు డిసెంబర్ 6",
+   "pub": "2026-11-28T01:38+05:30",
+   "lbl": "claim",
+   "vs": "confirmed",
+   "en": {
+    "cat": "World · Israel",
+    "stat": "Within 8 days",
+    "statl": "Eisenkot vows to form government",
+    "loc": "Jerusalem",
+    "h": "Eisenkot vows Israel govt within 8 days",
+    "p": "Israeli opposition bloc leader Gadi Eisenkot said on Friday he will form a new government within the eight days left of his mandate. He accused Prime Minister Netanyahu's Likud party of deliberately dragging out unity talks. Likud in turn accused him of playing a double game. The two sides have met five times in two weeks.",
+    "pts": [
+     "His mandate runs until December 6",
+     "61 of 120 seats are needed for a majority",
+     "The October 27 election gave no bloc a majority"
+    ],
+    "why": "Who governs Israel affects the situation across West Asia.",
+    "next": "Deadline to form a government is December 6"
+   },
+   "hi": {
+    "cat": "दुनिया · इज़राइल",
+    "stat": "8 दिन में",
+    "statl": "सरकार बनाने का आइज़नकोट का वादा",
+    "loc": "यरूशलम",
+    "h": "इज़राइल में 8 दिन में सरकार: आइज़नकोट",
+    "p": "इज़राइल के विपक्षी गुट के नेता गादी आइज़नकोट ने शुक्रवार को कहा कि वे बचे हुए आठ दिनों में नई सरकार बना लेंगे। उन्होंने आरोप लगाया कि प्रधानमंत्री नेतन्याहू की लिकुड पार्टी जानबूझकर बातचीत लंबी खींच रही है। लिकुड ने जवाब में उन पर दोहरा खेल खेलने का आरोप लगाया। दो हफ़्तों में दोनों पक्ष पाँच बार मिले हैं।",
+    "pts": [
+     "उन्हें मिली समय-सीमा 6 दिसंबर तक",
+     "120 में से 61 सीटें बहुमत के लिए ज़रूरी",
+     "27 अक्टूबर के चुनाव में किसी को बहुमत नहीं"
+    ],
+    "why": "इज़राइल में किसकी सरकार बनती है, इसका असर पश्चिम एशिया की स्थिति पर पड़ता है।",
+    "next": "सरकार बनाने की समय-सीमा 6 दिसंबर"
+   },
+   "d": "28.11.2026",
+   "t": "08:05"
+  },
   {
    "cat": "తెలంగాణ · భూములు",
    "col": "--c-gov",
