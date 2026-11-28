@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T10:05:00+05:30",
+ "cutoff": "2026-11-28T10:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T17:05:00+05:30/2026-11-25T17:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Lookback from 09:05. Feeds 17:27 IST (67/68 ok; Andhra Jyothy 429). add_repo tool not available; used existing clone. Published 3: Siasat TG HC police can't decide civil/property disputes (17:01, fact), HMTV Achampet ~30 vendor stalls removed before CM visit (16:57, claim), ThePrint/PTI Bangladesh 108 BGB platoons before Hasina return (16:45, fact, logo). Duplicates: 10TV/RTGS AP 4-day thunderstorm alert (published 24 Nov 17:35 and 05:35), Khammam ammonia/gas leak (published 12:05 via ntnews), Naidu revenue review. Skipped (old): Hans India AP 4-day rain (3 Nov), Hans Nellore rain (5 Nov), NewsMeter liquor QR scan (Oct 2025). Not found by search (left unseen): TOI RERA Aliens Developers Rs 2 cr, TT ACB warning, TT IT-corridor commute survey, Hindu TIFR-H tie-up, TOI Germany-Telangana agriculture, TG HC FIR quash ex-BJP corporator, NewsMeter Bhagwant Mann fact check, home guard posts, AP liquor scan rule (today). 8 district searches (Nalgonda, Karimnagar, Kurnool, Nellore, Adilabad/Nirmal, Khammam, Vizianagaram/Srikakulam, Warangal) returned only tag pages. Pre-existing check ERROR: Australia poll story pic n/nri. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-25T17:35:00+05:30/2026-11-25T18:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 01:35 Nov 28. Feeds 10:03 IST (76/77 ok, UN News failing; 2876 uncovered, 845 TG/AP; 830 in lookback not yet seen, 180 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 3: NT + Mana Telangana Khammam Thallada bus-lorry crash (09:04, confirmed, sensitive; injury counts differ and both given; no names), Siasat Bheemaram (Mancherial) school meal worms/no eggs allegation (09:38, claim, single, official response included), Hans SCR Hyderabad-Kollam Sabarimala specials 07193/07194 in January (08:55, single; separate from the 27 Nov 14-trains card). Duplicate: DC AP 77.65%/63.44% turnout (cards 27 Nov). Skipped old: Andhra Prabha Wyra bus crash (29 Sep). Not opened, NOT added to seen (retry): TT Khammam archery trials, Siasat Secunderabad family Rs 70,000 (fetch permission timed out); not surfaced by search: ETV Bharat Hyderabad Metro 10th year, V6 Asifabad 57 houses searched. Not attempted: NewsMeter DGP Kamareddy plan (card 27 Nov), NTV Karthika lamp death (single source), NIE AP items, Peru helicopter crash, weather forecasts, district searches. Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T10:05:00+05:30/2026-11-28T10:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 2,
+   "published": 1,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 5,
+   "review": 0,
+   "gaps": "Lookback from 02:05 Nov 28. Feeds 10:17 IST (74/75 ok; 2759 uncovered, 772 TG/AP; 749 in lookback not yet seen, 182 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 1: Hans + DC Telangana 15-district rain/thunderstorm forecast (09:02, confirmed, forecast; follows 27 Nov APSDMA depression card). Skipped old (original article before lookback): Pioneer/NewsBytes CM Overseas Employment Scheme Rs 1.75 lakh for 7,000 EWS youth (27 Nov 13:07/18:59; TOI 04:23 and NIE 08:33 versions not opened – worth publishing if opened), TGPRB SI prelim Nov 29 press note (20 Nov; V6 08:10 not opened), South First working-age deaths (29 May; TOI 03:29 not opened), Andhrajyothy Manikonda electrocution (27 Nov 22:08; Disha 09:44 refused). Single source (sensitive): Prabha News KPHB Karthika-lamp saree fire death (10:41, after END; NTV 09:55 not opened). Duplicate: NIE Navy ELF radar PIL (card 27 Nov Damagundam PIL). Not opened: Siasat Secunderabad family Rs 70,000 and Siasat Bisleri FSSAI (permission timed out), Al Jazeera Taiwan polls (permission timed out), Sakshi Education 526 assistant professor posts (client error), Disha electrocution (client error), Jagtial betting chain theft, Kakinada gateway dredger, Metro 10th year, district searches not run. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6946,6 +6946,26 @@
   },
   {
    "url": "https://prabhanews.com/vira-greenfield-highway-private-bus-lorry-collision-accident/",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/weather-update-rain-and-gusty-winds-forecast-across-ap-telangana-1146562",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/heavy-rains-thunderstorms-likely-across-ap-telangana-2008729",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.newsbytesapp.com/news/india/telangana-launches-chief-ministers-overseas-employment-scheme-supporting-7000-youth/tldr",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.tgprb.in/SI_PC_2026/Press%20Note%20dated%2020-11-2026.pdf",
    "d": "2026-11-28",
    "w": "skipped"
   }
