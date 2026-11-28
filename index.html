@@ -1939,7 +1939,7 @@ function linkSheet(link){
 }
 function promoItem(n){ return {kind:'promo', h:'Swipe2News – మీ ఊరి వార్తలు ఇప్పుడే మీ చేతిలో', p:'WhatsApp ఛానెల్‌లో జాయిన్ అవ్వండి, swipe2news.com విజిట్ చేయండి.', url:'https://swipe2news.com/#promo'+n, src:'Swipe2News', d:''}; }
 /* mandi prices card (13 Nov 2026): 4th card in the main feed, reader's district first */
-let MANDI=null; try{ window.S2Mandi && S2Mandi.load().then(d=>{ MANDI=d; try{ if(view==='home'&&section==='all'&&LIST&&LIST.length&&cur<3&&!LIST.some(x=>x.kind==='mandi')) renderFeed(keyOf(LIST[cur])); }catch(e){} }); }catch(e){}
+let MANDI=null; try{ window.S2Mandi && S2Mandi.load().then(d=>{ MANDI=d; try{ if(view==='home'&&section==='all'&&LIST&&LIST.length&&cur<3&&!LIST.some(x=>x.kind==='mandi')) lateRender(); }catch(e){} }); }catch(e){}
 function mandiItem(){ if(!MANDI||!MANDI.rows||!MANDI.rows.length) return null; const pk=(prefs&&prefs.place)||'';
   const pkd=S2Mandi.pick(MANDI,pk,6); if(!pkd.rows.length) return null;
   return {kind:'mandi', m:pkd, h:'మండీ ధరలు', p:pkd.rows.map(r=>S2Mandi.cropName(r.crop,'te')+' '+r.modal).join(', '), url:'https://swipe2news.com/mandi/', src:'Agmarknet', d:''}; }
@@ -1970,7 +1970,7 @@ function warmOffline(){ try{ if(!navigator.serviceWorker||!navigator.serviceWork
   const ch=new MessageChannel(); ch.port1.onmessage=e=>{ const n=(e.data||{}).saved|0; try{ const k='offlineSaved.once'; if(n>0&&!store.get(k,0)){ store.set(k,1); toast({te:'📥 ఈరోజు వార్తలు ఫోన్‌లో సేవ్ అయ్యాయి – నెట్ లేకపోయినా చదవొచ్చు',en:'📥 Today\'s news is saved on your phone – read it even without internet',hi:'📥 आज की खबरें फ़ोन में सेव हो गईं – बिना इंटरनेट भी पढ़ें'}[LG()]||''); } }catch(_){} };
   navigator.serviceWorker.controller.postMessage({type:'warm',urls},[ch.port2]); }catch(e){} }
 /* gold · silver · copper card (15 Nov 2026): 10th card in the main feed; data metals.json (scheduled task, tools/tasks/metals.md) */
-let METALS=null; fetch('metals.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>{ if(!d||!Array.isArray(d.cities)||!d.cities.length) return; METALS=d; try{ if(view==='home'&&section==='all'&&LIST&&LIST.length&&cur<8&&!LIST.some(x=>x.kind==='metals')) renderFeed(keyOf(LIST[cur])); }catch(e){} }).catch(()=>{});
+let METALS=null; fetch('metals.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>{ if(!d||!Array.isArray(d.cities)||!d.cities.length) return; METALS=d; try{ if(view==='home'&&section==='all'&&LIST&&LIST.length&&cur<8&&!LIST.some(x=>x.kind==='metals')) lateRender(); }catch(e){} }).catch(()=>{});
 const MTX={te:{t:'బంగారం · వెండి · రాగి',g24:'24 క్యారెట్',g22:'22 క్యారెట్',sv:'వెండి',gu:'10 గ్రాములు',su:'కిలో',cu:'రాగి',cuu:'కిలో · MCX',warn:'ఆభరణాల షాపుల్లో GST, తయారీ ఛార్జీలు అదనం. కొనే ముందు షాపులో నిర్ధారించుకోండి.',src:'మూలం',city:{Hyderabad:'హైదరాబాద్',Mumbai:'ముంబై',Chennai:'చెన్నై',Delhi:'ఢిల్లీ',Vijayawada:'విజయవాడ'}},
  en:{t:'Gold · Silver · Copper',g24:'24K',g22:'22K',sv:'Silver',gu:'10 g',su:'kg',cu:'Copper',cuu:'kg · MCX',warn:'Jewellers add GST and making charges. Check with your shop before buying.',src:'Source',city:{}},
  hi:{t:'सोना · चाँदी · ताँबा',g24:'24 कैरेट',g22:'22 कैरेट',sv:'चाँदी',gu:'10 ग्राम',su:'किलो',cu:'ताँबा',cuu:'किलो · MCX',warn:'ज्वैलर GST और मेकिंग चार्ज अलग से लेते हैं। ख़रीदने से पहले दुकान पर पक्का करें।',src:'स्रोत',city:{Hyderabad:'हैदराबाद',Mumbai:'मुंबई',Chennai:'चेन्नई',Delhi:'दिल्ली',Vijayawada:'विजयवाड़ा'}}};
@@ -2090,7 +2090,7 @@ document.addEventListener('click',async e=>{ const b=e.target.closest('.metals2 
   if(blob){ try{ const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='swipe2news-gold-'+Date.now()+'.jpg'; document.body.appendChild(a); a.click(); a.remove(); }catch(x){} }
   window.open('https://wa.me/?text='+encodeURIComponent(t),'_blank','noopener'); },true);
 /* weather card (user, 16 Nov 2026): IMD district forecast for the reader's district, from weather.json (weather task). Never shown when stale. */
-let WX=null; fetch('weather.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>{ if(!d||!d.d) return; WX=d; try{ if(view==='home'&&section==='all'&&LIST&&LIST.length&&cur<5&&!LIST.some(x=>x.kind==='wx')) renderFeed(keyOf(LIST[cur])); }catch(e){} }).catch(()=>{});
+let WX=null; fetch('weather.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>{ if(!d||!d.d) return; WX=d; try{ if(view==='home'&&section==='all'&&LIST&&LIST.length&&cur<5&&!LIST.some(x=>x.kind==='wx')) lateRender(); }catch(e){} }).catch(()=>{});
 const WXT={te:{share:'షేర్',hi:'గరిష్ఠం',lo:'కనిష్ఠం',bul:'బులెటిన్',rainTip:'వర్షం పడే అవకాశం – గొడుగు వెంట ఉంచుకోండి',srcN:{'IMD Meteorological Centre Hyderabad':'IMD వాతావరణ కేంద్రం, హైదరాబాద్','IMD Meteorological Centre Amaravati':'IMD వాతావరణ కేంద్రం, అమరావతి'},t:'వాతావరణం',sub:'IMD అంచనా',today:'ఈరోజు',tom:'రేపు',hum:'ఉదయం తేమ',wind:'గాలి',rain:'వర్షం',kmh:'కి.మీ/గం',mm:'మి.మీ',src:'మూలం',iss:'జారీ',note:'జిల్లా సగటు అంచనా',pick:'మీ జిల్లా ఎంచుకుంటే మీ ప్రాంత వాతావరణం చూపిస్తాం',cold:'రాత్రి చలి ఎక్కువ – పిల్లలు, పెద్దలు జాగ్రత్త',hot:'ఎండ ఎక్కువ – మధ్యాహ్నం జాగ్రత్త',warn:'హెచ్చరిక',
   d:{dry:'పొడి వాతావరణం',clear:'నిర్మలమైన ఆకాశం',part:'పాక్షికంగా మేఘాలు',cloudy:'ఆకాశం మేఘావృతం',drizzle:'చిరుజల్లులు',light:'తేలికపాటి వర్షం',mod:'ఓ మోస్తరు వర్షం',heavy:'భారీ వర్షం'},mon:['జన','ఫిబ్ర','మార్చి','ఏప్రి','మే','జూన్','జులై','ఆగ','సెప్టెం','అక్టో','నవం','డిసెం'],wd:['ఆది','సోమ','మంగళ','బుధ','గురు','శుక్ర','శని']},
  en:{share:'Share',hi:'High',lo:'Low',bul:'Bulletin',rainTip:'Rain likely – keep an umbrella handy',t:'Weather',sub:'IMD forecast',today:'Today',tom:'Tomorrow',hum:'Morning humidity',wind:'Wind',rain:'Rain',kmh:'km/h',mm:'mm',src:'Source',iss:'issued',note:'District average',pick:'Pick your district to see your local weather',cold:'Cold nights – keep children and elders warm',hot:'Strong sun – take care in the afternoon',warn:'Warning',
@@ -2190,7 +2190,7 @@ function withJobs(list){ if(view!=='home'||!(section==='all'||section==='distric
   const at=[5,13,23], out=[]; let n=0,k=0; list.forEach(s=>{ out.push(s); if(!s.kind){ n++; if(n===at[k]&&fresh[k]){ out.push(fresh[k]); k++; } } }); return out; }
 /* daily "good words" cards (15 Nov 2026): life quote · investment lesson · words of elders (speakers), from daily.json (scheduled task, tools/tasks/daily.md).
    They appear between news after the 10th card: quote at 12, lesson at 24, elders' words at 36. Each says how to continue with the news. */
-let DAILY=null; fetch('daily.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>{ if(!d||!Array.isArray(d.items)||!d.items.length) return; DAILY=d; try{ if(view==='home'&&section==='all'&&LIST&&LIST.length&&cur<10&&!LIST.some(x=>x.kind==='daily')) renderFeed(keyOf(LIST[cur])); }catch(e){} }).catch(()=>{});
+let DAILY=null; fetch('daily.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>{ if(!d||!Array.isArray(d.items)||!d.items.length) return; DAILY=d; try{ if(view==='home'&&section==='all'&&LIST&&LIST.length&&cur<10&&!LIST.some(x=>x.kind==='daily')) lateRender(); }catch(e){} }).catch(()=>{});
 const DTX={te:{roots:'🌾 మన మూలాలు',quote:'💬 నేటి మంచి మాట',tip:'💰 నేటి డబ్బు పాఠం',wisdom:'🪔 పెద్దల మాట',swipe:'స్వైప్ చేసి వార్తలు కొనసాగించండి',share:'షేర్',nf:'ఇది సాధారణ ఆర్థిక అవగాహన మాత్రమే – పెట్టుబడి సలహా కాదు.',src:'మూలం'},
  en:{roots:'🌾 Our roots',quote:'💬 Thought for today',tip:'💰 Money lesson of the day',wisdom:'🪔 Words of the wise',swipe:'Swipe to continue with the news',share:'Share',nf:'General financial awareness only – not investment advice.',src:'Source'},
  hi:{roots:'🌾 हमारी जड़ें',quote:'💬 आज का सुविचार',tip:'💰 आज का पैसा पाठ',wisdom:'🪔 बड़ों की बात',swipe:'ख़बरें जारी रखने के लिए स्वाइप करें',share:'शेयर',nf:'यह सिर्फ़ सामान्य वित्तीय जानकारी है – निवेश सलाह नहीं।',src:'स्रोत'}};
@@ -2509,7 +2509,14 @@ function fit(c){ // make the card fit the screen: hide the least important parts
   try{ spaceFill(c); }catch(e){}
   if(c===cards[cur] && window.fsPlace) setTimeout(fsPlace,0);
 }
-function renderFeed(keepKey){
+/* owner 28 Nov 2026: "My Swipe numbers change and chips flash for a few seconds when I come back".
+   The feed is built in steps (saved news → fresh news → rest of today → weather/mandi/gold/daily cards).
+   Now: the counter shows its total only once the feed has settled, the welcome-back waits for it, and the late extra
+   cards are added only while the reader is still on the first card – never under a reader who is already reading. */
+const FEED={last:0,pend:0};
+function feedQuiet(){ return !!(MYS&&MYS.ret) || cur>0 || (()=>{ const o=$('mysWB'); return o&&!o.hidden; })(); }
+function lateRender(){ if(!load.settled||feedQuiet()){ FEED.pend=1; return; } renderFeed(LIST[cur]&&keyOf(LIST[cur])); }
+function renderFeed(keepKey){ FEED.last=Date.now(); FEED.pend=0;
   LIST = pick(); const feed=$('feed');
   if(!LIST.length){
     const s=SECTIONS.find(x=>x[0]===section);
@@ -3077,7 +3084,7 @@ $('dlBtn').onclick=async()=>{ const s=LIST[cur]; if(!s) return;
   toast('చిత్రం సేవ్ అయింది ✅ క్యాప్షన్ కాపీ అయింది – ఛానెల్‌లో 📎 నుంచి పోస్ట్ చేయండి');
 };
 const RADIO_ON=()=>{ try{ return RADIO; }catch(e){ return false; } };
-function setCount(a,n){ $('count').innerHTML = n ? `<b>${a}</b>/${n}` : ''; try{ document.documentElement.style.setProperty('--dprog', n ? (a/n*100)+'%' : '0%'); const cc=cards&&cards[a-1]; if(cc){ const d=cc.querySelector('.dcount'); if(d) d.innerHTML=`<b>${a}</b>/${n}`; } }catch(e){} if(n){ mysShow(false); try{ cuChip(); }catch(e){} } $('railFill').style.width = n ? (a/n*100)+'%' : '0'; if(window.cardChanged && RADIO_ON()) cardChanged(); else if(window.stopVoice) stopVoice(); }
+function setCount(a,n){ $('count').innerHTML = n ? (load.settled?`<b>${a}</b>/${n}`:`<b>${a}</b>`) : ''; try{ document.documentElement.style.setProperty('--dprog', n ? (a/n*100)+'%' : '0%'); const cc=cards&&cards[a-1]; if(cc){ const d=cc.querySelector('.dcount'); if(d) d.innerHTML=`<b>${a}</b>/${n}`; } }catch(e){} if(n){ mysShow(false); try{ cuChip(); }catch(e){} } $('railFill').style.width = n ? (a/n*100)+'%' : '0'; if(window.cardChanged && RADIO_ON()) cardChanged(); else if(window.stopVoice) stopVoice(); }
 /* ---------- My Swipe – నా స్వైప్ (owner, 26 Nov 2026) ----------
    Remembers where the reader is and what they have read, all on the phone (localStorage 'w2s.mys', no server, no login).
    Stories are known by their own id (sid), never by their number, so new stories on top, a refresh or a removed story
@@ -3257,6 +3264,7 @@ function mysDraw(light,scroll){
 /* ----- welcome back: once a session, only when there is something to come back to ----- */
 function mysWBClose(){ const o=$('mysWB'); if(o&&!o.hidden){ o.classList.remove('on'); setTimeout(()=>{ if(!o.classList.contains('on')) o.hidden=true; },260); } }
 function mysWelcome(){ // owner's design 26 Nov 2026: logo, "మళ్లీ స్వాగతం! 👋", two choices; "from the start" lives in My Swipe
+  if(!load.settled||Date.now()-FEED.last<1200){ mysWelcome.w=(mysWelcome.w||0)+1; if(mysWelcome.w<20) setTimeout(mysWelcome,500); return; } // wait until the feed stops changing
   try{ if(sessionStorage.getItem('s2n.mysWB')) return; }catch(e){}
   if(!mysOn()||section!=='all'||!cards.length||cur>0) return;
   const r=mysResume(), nw=mysNewIdx();
@@ -4113,7 +4121,7 @@ async function load(){
     else toast('నెట్‌వర్క్ నెమ్మదిగా ఉంది – కొద్దిసేపట్లో మళ్లీ ప్రయత్నించండి');
   }
   const keep2 = keep || (load.shown && LIST && LIST[cur] && cur>0 ? keyOf(LIST[cur]) : null);
-  load.shown=1;
+  load.shown=1; load.settled=1;
   renderTabs(); renderFeed(keep2||undefined);
   const q=new URLSearchParams(location.search), qd=q.get('d'), qs=q.get('s');
   if(qd && /^\d{4}-\d\d-\d\d$/.test(qd) && !load.done){ load.done=1; await showDay(qd, qs); }
