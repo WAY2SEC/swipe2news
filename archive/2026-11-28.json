@@ -1,8 +1,69 @@
 {
  "date": "28.11.2026",
  "iso": "2026-11-28",
- "count": 34,
+ "count": 35,
  "stories": [
+  {
+   "cat": "తెలంగాణ · వాతావరణం",
+   "col": "--c-water",
+   "art": "rain",
+   "pic": "e/lightning-storm",
+   "stat": "15 జిల్లాలకు",
+   "statl": "వాన సూచన",
+   "h": "తెలంగాణలో ఉరుములతో వానలకు అవకాశం",
+   "p": "హైదరాబాద్ వాతావరణ కేంద్రం సూచన ప్రకారం శనివారం నల్గొండ, సూర్యాపేట, రంగారెడ్డి, హైదరాబాద్, మెదక్, మహబూబ్‌నగర్ సహా 15 జిల్లాల్లో తేలికపాటి నుంచి మోస్తరు వానలు పడవచ్చు. కొన్నిచోట్ల ఉరుములు, గంటకు 30–40 కిలోమీటర్ల వేగంతో ఈదురుగాలులు వీచే అవకాశం ఉందని హన్స్ ఇండియా తెలిపింది. బంగాళాఖాతంలో నవంబర్ 30 నాటికి అల్పపీడనం ఏర్పడవచ్చని కూడా అంచనా.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/andhra-pradesh/weather-update-rain-and-gusty-winds-forecast-across-ap-telangana-1146562",
+   "srcs": [
+    {
+     "n": "Deccan Chronicle",
+     "u": "https://www.deccanchronicle.com/southern-states/telangana/heavy-rains-thunderstorms-likely-across-ap-telangana-2008729"
+    }
+   ],
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pts": [
+    "డిసెంబర్ 2 నాటికి వాయుగుండంగా మారవచ్చని అంచనా",
+    "ఏపీ కోస్తా, రాయలసీమలో డిసెంబర్ 4 వరకు వానల సూచన"
+   ],
+   "why": "దక్షిణ తెలంగాణ జిల్లాల్లో కోతల దశలో ఉన్న రైతులు, బయట పనిచేసేవారిపై ఈ వానల ప్రభావం ఉంటుంది.",
+   "pub": "2026-11-28T09:02+05:30",
+   "lbl": "forecast",
+   "vs": "confirmed",
+   "en": {
+    "cat": "Telangana · Weather",
+    "stat": "15 districts",
+    "statl": "on rain watch",
+    "loc": "Telangana",
+    "h": "Thunderstorms likely in 15 Telangana districts",
+    "p": "The Hyderabad Meteorological Centre expects light to moderate rain on Saturday in 15 Telangana districts, including Nalgonda, Suryapet, Rangareddy, Hyderabad, Medak and Mahabubnagar, The Hans India reported. Thunderstorms and gusty winds of 30–40 km/h are possible at some places. A low-pressure area may also form over the Bay of Bengal by November 30.",
+    "pts": [
+     "It may strengthen into a depression by December 2",
+     "Coastal Andhra and Rayalaseema may get rain till December 4"
+    ],
+    "why": "Farmers at harvest and outdoor workers in south Telangana districts are affected by this rain."
+   },
+   "hi": {
+    "cat": "तेलंगाना · मौसम",
+    "stat": "15 ज़िलों में",
+    "statl": "बारिश का अनुमान",
+    "loc": "तेलंगाना",
+    "h": "तेलंगाना के 15 ज़िलों में गरज के साथ बारिश संभव",
+    "p": "हैदराबाद मौसम केंद्र के अनुसार शनिवार को नलगोंडा, सूर्यापेट, रंगारेड्डी, हैदराबाद, मेडक और महबूबनगर समेत तेलंगाना के 15 ज़िलों में हल्की से मध्यम बारिश हो सकती है। द हंस इंडिया के मुताबिक कुछ जगहों पर गरज और 30–40 किमी प्रति घंटे की तेज़ हवाएँ चल सकती हैं। 30 नवंबर तक बंगाल की खाड़ी में कम दबाव का क्षेत्र बनने का भी अनुमान है।",
+    "pts": [
+     "2 दिसंबर तक अवदाब में बदलने का अनुमान",
+     "तटीय आंध्र और रायलसीमा में 4 दिसंबर तक बारिश संभव"
+    ],
+    "why": "दक्षिण तेलंगाना के ज़िलों में कटाई कर रहे किसानों और बाहर काम करने वालों पर इस बारिश का असर होगा।"
+   },
+   "d": "28.11.2026",
+   "t": "10:35"
+  },
   {
    "cat": "తెలంగాణ · ఖమ్మం",
    "col": "--c-city",

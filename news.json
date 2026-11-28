@@ -1,8 +1,69 @@
 {
  "date": "28.11.2026",
- "updated": "2026-11-28T10:05:00+05:30",
+ "updated": "2026-11-28T10:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "తెలంగాణ · వాతావరణం",
+   "col": "--c-water",
+   "art": "rain",
+   "pic": "e/lightning-storm",
+   "stat": "15 జిల్లాలకు",
+   "statl": "వాన సూచన",
+   "h": "తెలంగాణలో ఉరుములతో వానలకు అవకాశం",
+   "p": "హైదరాబాద్ వాతావరణ కేంద్రం సూచన ప్రకారం శనివారం నల్గొండ, సూర్యాపేట, రంగారెడ్డి, హైదరాబాద్, మెదక్, మహబూబ్‌నగర్ సహా 15 జిల్లాల్లో తేలికపాటి నుంచి మోస్తరు వానలు పడవచ్చు. కొన్నిచోట్ల ఉరుములు, గంటకు 30–40 కిలోమీటర్ల వేగంతో ఈదురుగాలులు వీచే అవకాశం ఉందని హన్స్ ఇండియా తెలిపింది. బంగాళాఖాతంలో నవంబర్ 30 నాటికి అల్పపీడనం ఏర్పడవచ్చని కూడా అంచనా.",
+   "src": "The Hans India",
+   "url": "https://www.thehansindia.com/andhra-pradesh/weather-update-rain-and-gusty-winds-forecast-across-ap-telangana-1146562",
+   "srcs": [
+    {
+     "n": "Deccan Chronicle",
+     "u": "https://www.deccanchronicle.com/southern-states/telangana/heavy-rains-thunderstorms-likely-across-ap-telangana-2008729"
+    }
+   ],
+   "sec": [
+    "telangana",
+    "weather"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pts": [
+    "డిసెంబర్ 2 నాటికి వాయుగుండంగా మారవచ్చని అంచనా",
+    "ఏపీ కోస్తా, రాయలసీమలో డిసెంబర్ 4 వరకు వానల సూచన"
+   ],
+   "why": "దక్షిణ తెలంగాణ జిల్లాల్లో కోతల దశలో ఉన్న రైతులు, బయట పనిచేసేవారిపై ఈ వానల ప్రభావం ఉంటుంది.",
+   "pub": "2026-11-28T09:02+05:30",
+   "lbl": "forecast",
+   "vs": "confirmed",
+   "en": {
+    "cat": "Telangana · Weather",
+    "stat": "15 districts",
+    "statl": "on rain watch",
+    "loc": "Telangana",
+    "h": "Thunderstorms likely in 15 Telangana districts",
+    "p": "The Hyderabad Meteorological Centre expects light to moderate rain on Saturday in 15 Telangana districts, including Nalgonda, Suryapet, Rangareddy, Hyderabad, Medak and Mahabubnagar, The Hans India reported. Thunderstorms and gusty winds of 30–40 km/h are possible at some places. A low-pressure area may also form over the Bay of Bengal by November 30.",
+    "pts": [
+     "It may strengthen into a depression by December 2",
+     "Coastal Andhra and Rayalaseema may get rain till December 4"
+    ],
+    "why": "Farmers at harvest and outdoor workers in south Telangana districts are affected by this rain."
+   },
+   "hi": {
+    "cat": "तेलंगाना · मौसम",
+    "stat": "15 ज़िलों में",
+    "statl": "बारिश का अनुमान",
+    "loc": "तेलंगाना",
+    "h": "तेलंगाना के 15 ज़िलों में गरज के साथ बारिश संभव",
+    "p": "हैदराबाद मौसम केंद्र के अनुसार शनिवार को नलगोंडा, सूर्यापेट, रंगारेड्डी, हैदराबाद, मेडक और महबूबनगर समेत तेलंगाना के 15 ज़िलों में हल्की से मध्यम बारिश हो सकती है। द हंस इंडिया के मुताबिक कुछ जगहों पर गरज और 30–40 किमी प्रति घंटे की तेज़ हवाएँ चल सकती हैं। 30 नवंबर तक बंगाल की खाड़ी में कम दबाव का क्षेत्र बनने का भी अनुमान है।",
+    "pts": [
+     "2 दिसंबर तक अवदाब में बदलने का अनुमान",
+     "तटीय आंध्र और रायलसीमा में 4 दिसंबर तक बारिश संभव"
+    ],
+    "why": "दक्षिण तेलंगाना के ज़िलों में कटाई कर रहे किसानों और बाहर काम करने वालों पर इस बारिश का असर होगा।"
+   },
+   "d": "28.11.2026",
+   "t": "10:35"
+  },
   {
    "cat": "తెలంగాణ · ఖమ్మం",
    "col": "--c-city",
@@ -3476,62 +3537,6 @@
      "निवासियों को इन सड़कों पर पाबंदी या बंदी की आशंका"
     ],
     "why": "इन सड़कों से रोज आने-जाने वाले सिकंदराबाद के लोगों पर असर पड़ सकता है।"
-   },
-   "d": "27.11.2026",
-   "t": "20:05",
-   "art": ""
-  },
-  {
-   "cat": "వికారాబాద్ · హైకోర్టు",
-   "col": "--c-gov",
-   "pic": "e/court-hearing",
-   "stat": "దామగుండం కేసు",
-   "statl": "ముగించిన హైకోర్టు",
-   "h": "దామగుండం అడవి కేసును ముగించిన హైకోర్టు",
-   "p": "వికారాబాద్ జిల్లా దామగుండం రిజర్వ్ అడవిలో నౌకాదళ రాడార్ ప్రాజెక్టుకు భూమి ఇవ్వడాన్ని సవాలు చేసిన ప్రజాహిత వ్యాజ్యాన్ని తెలంగాణ హైకోర్టు శుక్రవారం ముగించింది. అడవుల పెంపకానికి తీసుకున్న చర్యలపై అటవీ శాఖ అఫిడవిట్‌ను ధర్మాసనం పరిగణనలోకి తీసుకుంది. అటవీయేతర ప్రాంతాల్లో మొక్కల పెంపకం పూర్తిగా జరిగేలా చూడాలని రాష్ట్ర ప్రభుత్వాన్ని ఆదేశించింది.",
-   "src": "NewsMeter",
-   "url": "https://newsmeter.in/regional/telangana/damagundam-forest-case-hc-closes-pil-but-tells-telangana-to-ensure-regeneration-work-780141",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "vikarabad",
-   "loc": "దామగుండం",
-   "pts": [
-    "ఈ పని రాష్ట్రమంతా జరగాలని తాత్కాలిక ప్రధాన న్యాయమూర్తి సూచన",
-    "వ్యాజ్యం వేసింది దామగుండం అటవీ పరిరక్షణ జేఏసీ",
-    "అటవీ శాఖ అఫిడవిట్ నవంబర్ 19న దాఖలైంది"
-   ],
-   "why": "దామగుండం చుట్టుపక్కల గ్రామాల్లో పచ్చదనం పనులపై ప్రభుత్వ బాధ్యత కొనసాగుతుంది.",
-   "pub": "2026-11-27T19:26+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "Vikarabad · High Court",
-    "stat": "Damagundam case",
-    "statl": "closed by High Court",
-    "loc": "Damagundam, Vikarabad",
-    "h": "High Court closes Damagundam forest PIL",
-    "p": "The Telangana High Court on Friday closed a PIL challenging the allotment of land in Damagundam Reserve Forest, Vikarabad district, for the Navy's radar project. The bench took note of a Forest Department affidavit on afforestation steps and directed the state government to ensure artificial regeneration work is fully carried out in non-forest areas.",
-    "pts": [
-     "Acting Chief Justice said the work should cover all of Telangana",
-     "The PIL was filed by the Damagundam Forest Protection JAC",
-     "The Forest Department's affidavit was filed on November 19"
-    ],
-    "why": "The government remains responsible for greening work in villages around Damagundam."
-   },
-   "hi": {
-    "cat": "विकाराबाद · हाईकोर्ट",
-    "stat": "दामगुंडम मामला",
-    "statl": "हाईकोर्ट ने बंद किया",
-    "loc": "दामगुंडम, विकाराबाद",
-    "h": "हाईकोर्ट ने दामगुंडम वन याचिका बंद की",
-    "p": "तेलंगाना हाईकोर्ट ने शुक्रवार को विकाराबाद जिले के दामगुंडम आरक्षित वन में नौसेना की रडार परियोजना के लिए जमीन देने को चुनौती देने वाली जनहित याचिका बंद कर दी। पीठ ने वनीकरण के कदमों पर वन विभाग के हलफनामे पर गौर किया और राज्य सरकार को गैर-वन क्षेत्रों में पौधरोपण का काम पूरी तरह कराने का निर्देश दिया।",
-    "pts": [
-     "कार्यवाहक मुख्य न्यायाधीश ने कहा, यह काम पूरे तेलंगाना में हो",
-     "याचिका दामगुंडम वन संरक्षण जेएसी ने दायर की थी",
-     "वन विभाग का हलफनामा 19 नवंबर को दाखिल हुआ"
-    ],
-    "why": "दामगुंडम के आसपास के गांवों में हरियाली के काम की जिम्मेदारी सरकार पर बनी रहेगी।"
    },
    "d": "27.11.2026",
    "t": "20:05",
