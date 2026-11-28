@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T08:05:00+05:30",
+ "cutoff": "2026-11-28T08:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T15:05:00+05:30/2026-11-25T15:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 4,
-   "late": 1,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 5,
-   "review": 0,
-   "gaps": "Lookback from 07:05. Feeds 15:17 IST (68 feeds ok; 31 uncovered events first seen since 15:00 scanned, 12 local; plus older local multi-source events). add_repo tool not available; used existing clone. Direct feed URLs refused by WebFetch without search provenance; opened via search results. Published 4: Siasat Basar (Nirmal) house fire burns Rs 10 lakh wedding savings (15:07, fact), Andhra Jyothy CM Naidu orders report on Penna illegal sand mining at Proddatur (13:39, fact; BigTV 13:51 same event = duplicate), Telangana Today proposed immediate licence suspension for NSQ drugs (15:05, fact), Live Law TG HC lets student register for JEE Main 2027 without Aadhaar (10:30, fact, late-found). Skipped (old, before lookback): DC 2,000 home guards (20 Nov), Hans India/Siasat El Nino Rs 10,000 cr plan (24 Nov/25 Nov 04:52), Bar & Bench Kia 2nd AP unit (04:26; MoU 12 Nov), Vaartha/South Matters Cheyutha pensions Nov 26 (19 Nov). Not opened: Sakshi Education AP school holidays Nov 26 (client error). Not attempted (left unseen): Kurnool LPG consumer order (search failed), Eluru job mela Nov 30, ICAR-CRIDA event, SEBI MD tenures, Pawan Khera Gaza aid, HUMTA 2050 plan, India/world items. No district searches. Pre-existing check ERROR: Australia poll story pic n/nri. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-25T15:35:00+05:30/2026-11-25T16:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 23:35 Nov 27. Feeds 07:53 IST (76/77 ok; UN News failing; 2860 uncovered, 881 TG/AP; 735 in lookback not yet seen). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 6: TT/PTI + Federal 132nd Amendment Bill to raise LS/Assembly seats 50% (00:44, confirmed; new card, not an update of the 27 Nov cabinet card), NewsMeter Telugu teachers' pay on FRS attendance (07:31, single), Hans Cyberabad school-rush survey (00:35, single), Hans + DC AP teak clones (01:53, confirmed), DC Vijayawada diabetes conference Nov 29 (00:55, single, pic logo), Xinhua + Times of Israel Eisenkot 8 days (page time 04:08 taken as Beijing = 01:38 IST, lbl claim). Single source, not published: Siasat/India.com FSSAI prosecution sanction against Bisleri (both PTI, anonymous sources; NOT added to seen - retry when FSSAI confirms). Not opened (The Hindu links not surfaced by search): cochlear implant Gandhi Hospital, 16 moneylending cases Asifabad, TG SAFE Karimnagar restaurant licence, Revanth on environment; The Hindu family of three suicide Andhra (sensitive, single). Skipped: Mana Telangana FRS (Aug 2025). Duplicates of earlier cards: 858 kg seafood, Lotus Pond, JNTU-Raidurg bus lane, DLC camp Vijayawada. Not attempted: AP panchayat result/allegation items, Sakshi/Andhrajyothy/Eenadu district items (Google News links), district searches. Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T08:05:00+05:30/2026-11-28T08:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 7,
+   "published": 4,
+   "late": 4,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 00:05 Nov 28. Feeds 08:19 IST (75/75 ok; 2792 uncovered, 827 TG/AP; ~721 in lookback not yet seen). add_repo not available; used existing clone and web-fetch helper. Published 4: Hans + Daijiworld NZ 356 all out, Akash Deep five (07:45, confirmed), NT unseasonal rain soaks paddy Medak/Sangareddy (05:15, single, pic logo), NT Narayankhed tribal families migrate (05:13, single), NT Jurala canal water released (05:19, single, pic logo). Single source, not published (political allegations/claims): NT BJP MP Laxman says TG polls in 2029; NT Niranjan Reddy on Srirangapuram nature park; NT BC JAC complaint on Krishna water to ABD factory. Skipped (old): DD News Cyclone Murasu NDRF (Nov 2 event), Hans AP low pressure (13 Nov), South First working-age mortality (29 May). Not surfaced by search: India Today Medchal puja fraud Rs 50 lakh, Eenadu Kakinada dredger, Adda247 TG asst professor/AP SI (aggregator, no established outlet found), Hotel101, Disha Kamareddy engineer ACB, Samayam TTD gold. Not attempted: Taiwan local elections, AP panchayat result items, Sakshi/Eenadu district Google News items, district searches. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6731,6 +6731,61 @@
   },
   {
    "url": "https://www.manatelangana.news/facial-recognition-attendance-system-to-teachers/",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/sports/2nd-test-akash-deeps-fifer-helps-india-bowl-out-new-zealand-for-356-1146559",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://daijiworld.com/news/newsDisplay?newsID=1336499",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/unseasonal-rains-damage-paddy-stocks-in-medak-and-sangareddy-2570951",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/drought-forces-tribal-families-to-migrate-for-livelihood-2570946",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/jurala-ayacut-farmers-get-irrigation-water-after-mlas-intervention-2570956",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://ntnews.com/telangana/telangana-assembly-elections-in-2029-2570899",
+   "d": "2026-11-28",
+   "w": "single"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/former-minister-opposes-destruction-of-green-park-for-government-office-2570934",
+   "d": "2026-11-28",
+   "w": "single"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/complaint-filed-against-krishna-water-supply-to-abd-factory-2570943",
+   "d": "2026-11-28",
+   "w": "single"
+  },
+  {
+   "url": "https://www.thehansindia.com/andhra-pradesh/low-pressure-in-bay-of-bengal-ap-like-to-receive-rains-1141663",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://thesouthfirst.com/health/nearly-2-in-5-deaths-in-telangana-claim-someone-in-their-working-age-highest-in-india-among-big-states/",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://ddindia.co.in/2026/11/ndrf-deploys-three-teams-from-tamil-nadu-to-andhra-pradesh-ahead-of-cyclone-murasu-landfall/",
    "d": "2026-11-28",
    "w": "skipped"
   }
