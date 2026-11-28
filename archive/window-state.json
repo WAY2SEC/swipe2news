@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T09:05:00+05:30",
+ "cutoff": "2026-11-28T09:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T16:05:00+05:30/2026-11-25T16:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 2,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Lookback from 08:05. Feeds 16:25 IST (68/68 ok; 81 uncovered events first seen since 15:45 scanned, 22 local). add_repo tool not available; used existing clone. Published 2: Deccan Chronicle Cyberabad CMC Rs 169 cr twin-tower office tenders at Izzath Nagar (16:21, fact, logo), TV9 Telugu Cabinet Rs 19,934 cr decisions - Silchar airport, Kamarajar port terminal, postal schemes (16:04, fact, logo; Rs 11,000 cr CIE part already published). Duplicates: DC Kakinada 7 fishermen safe (already published 11:24), Siasat/Hans graduate MLC draft rolls (already published via Andhra Jyothy), Rs 11,000 cr CIE scheme. Not opened (PROVENANCE_REQUIRED/client error; left unseen): Siasat 73.3L voters excluded, TT BRS seeks Tungabhadra water for RDS, Deccan Herald fishermen, NewsDrum cabinet. Not attempted: Samayam IT corridor hostel drug test, HMTV Sircilla ARSI family aid, Disha Kavitha on Inter board merger, Mahabubabad hostel student delivery (sensitive), world items. No district searches. Pre-existing check ERROR: Australia poll story pic n/nri. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-25T16:35:00+05:30/2026-11-25T17:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 1,
    "gaps": "Lookback from 00:35 Nov 28. Feeds 08:56 IST (77/77 ok; 2881 uncovered, 849 TG/AP; 778 in lookback not yet seen, 170 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 1: NewsMeter + Siasat + DC Malkajgiri police search Oasis Hospitals office in egg case (08:43, confirmed, sensitive; no accused named; new card, the 27 Nov Sadguru card is a separate search). Duplicates of the 07:35 CM water card: Siasat El Nino 8 months, Siasat/NewsMeter investment-environment, NIE Sri Sri-Revanth. Skipped (old news): NIE AP anaemia (ICMR-NIN survey released 23 Nov; TNM 26 Nov, South First 23 Nov), SI prelims guidelines (Newsage 20 Nov). Review: Munsif SI exam (no publication time). Not opened, NOT added to seen (retry): Siasat Secunderabad family Rs 70,000 flight order, TT Khammam archery trials (fetch permission timed out); not surfaced by search: TOI IIT-Tirupati/IIM-Vizag MBA, NIE OCTOPUS Rs 8 cr, NIE 7,000 overseas job seekers, TOI tap water. Not attempted: Naidu on seat hike (card exists 27 Nov), India-NZ Test day update, AP panchayat result items, Sakshi/Eenadu district Google News items, district searches. Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T09:05:00+05:30/2026-11-28T09:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 2,
+   "late": 2,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 2,
+   "review": 1,
+   "gaps": "Lookback from 01:05 Nov 28. Feeds 09:16 IST (74/75 ok; 2752 uncovered, 787 TG/AP; 753 in lookback not yet seen, 168 TG/AP). add_repo not available; used existing clone and web-fetch helper; feed URLs not surfaced by WebSearch are refused (Siasat/TT/Al Jazeera feed links blocked). Published 2: Hans Kurnool Collector job-scheme review (06:59, single), Hans Nellore 1,901 rice bags seized (06:30, single, pic logo). Duplicates of earlier cards: HMDA Kokapet/Moosapet no bids (Siasat 09:09, DC; card 27 Nov 19:05), Bhatti power DPRs (TT 27 Nov), Hyderabad midnight rain (Hans; 27 Nov cards), Kamalapur bonded labour families (DC; 27 Nov 25 freed card). Single source, not published (sensitive): Hans twin-blast threat email, Hyderabad police alert (02:02). Skipped old: News On AIR SC/AP SEC candidate list (21 Oct). Review: Munsif CMO/Lok Bhavan bomb threat (no publication time). Skipped low value: Hans Nellore Mayor compassionate appointments. Not opened: Indian Express/News18 8 Dalit families (Google News only), TOI 164 show-cause notices, Hans low-pressure Nov 30, Singareni Rs 61.44 cr CSR, TOI overseas jobs, OpenAI-Apple, Canary Islands boat, Taiwan polls. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6878,6 +6878,46 @@
    "url": "https://thesouthfirst.com/health/41-8-of-indian-children-aged-12-59-months-have-anaemia-highest-in-andhra-pradesh-lowest-in-keralam-icmr/",
    "d": "2026-11-28",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/kurnool/collector-pushes-for-faster-job-scheme-progress-1146551",
+   "d": "2026-11-28",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/nellore/1901-bags-of-rice-seized-1146539",
+   "d": "2026-11-28",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.siasat.com/hyderabad-hmdas-kokapet-neopolis-auction-fails-with-0-bidders-3588747/",
+   "d": "2026-11-28",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/hmda-land-auction-flops-in-kokapet-2008693",
+   "d": "2026-11-28",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/eight-bonded-labour-families-rescued-in-kamalapur-2008639",
+   "d": "2026-11-28",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.thehansindia.com/news/cities/hyderabad/twin-blast-threat-puts-hyderabad-police-on-high-alert-1146450",
+   "d": "2026-11-28",
+   "w": "single"
+  },
+  {
+   "url": "https://munsifdaily.com/hyderabad-on-high-alert-after-bomb-threat/?amp=1",
+   "d": "2026-11-28",
+   "w": "review"
+  },
+  {
+   "url": "https://thehansindia.com/news/cities/nellore/mayor-hands-over-compassionate-appointment-letters-1146537",
+   "d": "2026-11-28",
+   "w": "skip"
   }
  ]
 }
