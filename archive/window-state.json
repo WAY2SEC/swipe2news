@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T12:35:00+05:30",
+ "cutoff": "2026-11-28T13:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T19:35:00+05:30/2026-11-25T20:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 8,
-   "published": 8,
-   "late": 0,
-   "sensitive": 3,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Lookback from 11:35. Feeds 19:56 IST (69/70 ok, ETV Bharat failing; 111 uncovered events first seen since 19:05). add_repo tool not available; used existing clone. Published 8: Siasat Khammam Edulapuram gas cylinder leak 20 hospitalised (19:48, fact), Siasat Madhapur bike crash pillion dies (19:41, fact, sensitive, no names), TT Sangareddy Bardipur tractor death (19:42, fact, sensitive, no name), TT Malkajgiri cybercrime OLX fraud Rs 12.20 lakh (19:39, fact), TT Nirmal SP on RGUKT Basar student cyber fraud (19:31, claim, sensitive, no name/method), NewsMeter TG RERA fines Auro Realty Rs 25 lakh (19:57, fact), NT AP rain two more days (19:53, forecast), BigTV Mallanna Sagar 100 MLD trial run to Hyderabad (19:23, fact). Duplicates: Hindu Kadapa sand mining CM report (published 15:35), Khelo India CM review (published 16:05), Deccan Herald Kakinada fishermen (published earlier). Skipped: HMTV Banaganapalle sarpanch unanimous (24 Nov 18:59, before lookback; Hindu 19:30 version not found by search). Not found by search: Hyderabad Mail TGiCCC driver posts, Disha green water tanker suspensions, HMTV Khammam CP inspection, ANI India-China talks. Not attempted: Suryaa/HMTV/Disha village items, Vijayasai remarks, Cityflo shuttles, Srisailam Vanabhojanalu, other India/world. No district searches. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-25T20:05:00+05:30/2026-11-25T20:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 4,
    "review": 1,
    "gaps": "Lookback from 04:05 Nov 28. Feeds 12:17 IST (75/75 ok; 2792 uncovered, 811 TG/AP; 260 recent events not yet seen). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 2: Telangana Today (IANS) weekly markets snap 4-week gain (11:52, single; FII inflows TT 11:13 folded in as duplicate), BBC/Yahoo + Anadolu Peru military helicopter crash 8 dead (09:49, confirmed, sensitive). Single source, not published: Telangana Today (PTI) Pawan Kalyan backs delimitation (11:13; Disha/ETV not opened, Eenadu refused), Andhrajyothy DGP Rs 75 lakh aid to 18 surrendered Maoists (11:47), Reuters Bisleri second unsafe sample (wire only; TT/PTI prosecution story not surfaced). Skipped old: DC Pawan delimitation (25 Mar 2026), TT Nagarkurnool spurious urea (Aug 2025), Adda247 TG 526 assistant professor posts (20 Nov), Telangana Tribune climate conclave (5 Nov). Review (no time): GKToday climate conclave Dec 7-9. Not opened: Sakshi Education 526 posts, Disha Pawan, NST/WAM/report.az Peru. Not surfaced: NewsMeter abortion-pill warning, Tribune ICT Academy-Google AP, Hyderabad Mail Khajaguda Rock Walk, Siasat streetlights. District searches (Nalgonda, Karimnagar, Guntur, Tirupati) returned only tag pages. Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T12:35:00+05:30/2026-11-28T13:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 3,
+   "late": 3,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 04:35 Nov 28. Feeds 12:43 IST (77/77 ok; 2829 uncovered, 828 TG/AP; 142 recent events not yet seen). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open (3 direct Siasat/Telangana Today feed URLs refused, each cost 5 min). Published 3 (all India, no TG/AP story opened in time): Nation Press + Free Press Journal RBI Master Direction on ATM free-transaction alerts (09:51, confirmed), ThePrint + India.com/PTI FSSAI second prosecution sanction against Bisleri, Jalpaiguri sample (11:45, confirmed, sensitive, lbl claim, company denial included), Business Standard/PTI IISc-Imperial nanorobots (10:33, single). Single source, not published: Deccan Chronicle Vijayawada Durga temple contract staff suspended over laddu sales (12:08). Duplicates: HMTV Karthika deepam death (already published 11:05), Deccan Chronicle nanorobots, Telangana Today/Siasat Bisleri. Skipped old: TV9/Samayam CM Overseas Employment Scheme Rs 1.75 lakh (published 27 Nov). Not opened: Siasat Rs 5 lakh life cover for families without ration card (12:32), Deccan Herald and The Hawk Bisleri. Not surfaced by search: Sakshi Education APSLPRB 1,156 constable posts, News18 6 special trains via Kazipet/Warangal, Namasthe Telangana SC acid sale ban, DMK delimitation stance (today's articles), Disha Governor in Hanumakonda. Not attempted: Hyderabad 70 tolas theft, district searches. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7223,6 +7223,61 @@
    "url": "https://www.gktoday.in/telangana-to-hold-climate-conclave-at-invest-telangana-global-summit-2026/",
    "d": "2026-11-28",
    "w": "review"
+  },
+  {
+   "url": "https://www.nationpress.com/business/rbi-orders-banks-to-flag-free-atm-usage",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://theprint.in/health/more-trouble-for-bisleri-as-fssai-sanctions-second-prosecution-over-coliform-in-bengal-plant-sample/3111561/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.business-standard.com/health/india-uk-researchers-to-develop-nanorobots-to-steer-cells-around-body-126112800143_1.html",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.freepressjournal.in/business/running-out-of-free-atm-transactions-rbi-steps-in-banks-must-alert-customers-before-charges-kick-in",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.india.com/news/india/bisleri-in-trouble-again-fssai-sanctions-prosecution-against-bisleri-international-after-coliform-bacteria-found-in-west-bengal-plant-sample-8548647/",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/technology/in-other-news/india-uk-project-to-develop-nanorobots-to-steer-cells-around-body-2008775",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://telanganatoday.com/fssai-sanctions-prosecution-against-bisleri-in-another-case",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.siasat.com/fssai-sanctions-prosecution-against-bisleri-in-another-case-3588710/",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/vijayawada-contract-staff-suspended-for-prasadam-scam-at-durga-temple-2008773",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://tv9telugu.com/telangana/telangana-government-launches-overseas-employment-scheme-offers-up-to-rs-1-75-lakh-subsidy-to-unemployed-youth-1967889.html",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.ntnews.com/telangana/telangana-government-issues-cm-overseas-employment-scheme-guidelines-2570901",
+   "d": "2026-11-28",
+   "w": "skipped"
   }
  ]
 }
