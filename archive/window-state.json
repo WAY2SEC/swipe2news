@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T22:35:00+05:30",
+ "cutoff": "2026-11-28T23:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-26T10:35:00+05:30/2026-11-26T11:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 4,
-   "skipped": 2,
-   "review": 1,
-   "gaps": "Lookback from 03:05. Feeds 10:43 IST (70/70 ok; 138 uncovered unseen recent events). add_repo tool not available; used existing clone. Published 3: Live Law HC dismisses Vikarabad court-site PIL (10:20), Oneindia KRMB Sagar usage/no agreement (10:30), DC Narnoor young woman's death, father accused (10:33, sensitive, claim). Duplicates: church Christmas grant, CM rice stock two years, Kakinada fishermen safe, Naidu votes. Skipped as old: TT Adilabad 2022 article, Hans Vikarabad court row (11 Sep). Review (only 'updated' time): FPJ rupee 92.40. Direct feed URLs refused by fetch (Siasat Apollyon, Siasat Cairo 31 dead, TT snooker, TT OU athletics, TT school chess). Not opened (no search hit): V6 naxal-free two districts report, V6 Yalal wine shop theft, Kishan Reddy yatra remarks (NTV), Disha Mulugu murder, HMTV Achampet arrests. No district searches this run. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-26T11:05:00+05:30/2026-11-26T11:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 14:05 Nov 28. Feeds 22:18 IST (74/75 ok, UN News failing; 2745 uncovered, 804 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch opened. Published 5: INDToday Bhatti solar villages Nagarkurnool (21:13, single), V6 Kuravi tractor/paddy fire Rs 16 lakh (20:54, single, no casualties), HMTV Malyala AMC chairperson Swarnalatha (21:21, single), Deccan Chronicle Prakasam DTC fog advisory (22:10, single), The Bridge + Asianet/ANI Syed Modi finals Tanvi, Treesa-Gayatri (21:00, confirmed). Duplicates: AP teak clones (card 08:05), Asif Nagar 800 g gold theft (card 15:35). Single source (sensitive, not published): Siasat HC no-arrest order for six BRS leaders in Bawarchi clash (19:20). Skipped: Afghanistan Kunar school blast (Al Jazeera page 13:12 IST before lookback, casualty figures differ; Telangana Today 17:13 not surfaced). Not surfaced/opened: The Hindu Hyderabad schools traffic cameras (aggregators only), Karimnagar science exhibition, Nellore rice Rs 1.37 cr, Krishna nine officials suspended (aggregators only), BRS Deeksha Diwas Nov 29 (only older articles). District searches: Nalgonda, Khammam, Warangal, Visakhapatnam, Tirupati, Nizamabad, Karimnagar, Mahabubabad, Jagtial (low yield). Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T22:35:00+05:30/2026-11-28T23:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 5,
+   "late": 1,
+   "sensitive": 2,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 14:35 Nov 28. Feeds 22:54 IST (76/77 ok, UN News failing; 2829 uncovered, 888 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch opened (direct feed URLs: permission not answered). Published 5: Siasat HYDRAA Vennelagadda lake 4 acres (22:23, single), ThePrint/PTI AP pothole complaints on Mana Mitra WhatsApp (22:48, single), ThePrint/PTI Pauri gorge accident 8 dead (19:47, late-found, sensitive, confirmed with Pioneer/Statesman headlines + feed grouping, no names), India.com women's Asian Champions Trophy India 3-1 China (21:35, confirmed by India TV headline), Kuwait Times/AFP Taipei mayor re-elected (21:05, sensitive election result, attributed to AFP, opponent conceded, no vote figures). Duplicates: TTD 60 g gold (card 14:35), Telangana SI prelims tomorrow (card earlier today). Not opened (The Hindu, aggregators only): Cyberabad Moves concludes, RERA/Indiramma Towers, Karimnagar science exhibition, Krishna nine officials suspended, Nellore rice Rs 1.37 cr, SC judge on district courts; Telangana Today Uttam on delimitation. Not attempted this run: Waqf Board meeting, Lotus Chocolate, LB Nagar theft, BSNL cable arrests, asst professor posts, officials reshuffle. No district searches this run. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6453,6 +6453,41 @@
    "url": "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region",
    "d": "2026-11-28",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/hydraa-removes-encroachments-from-vennelagadda-lake-in-jeedimetla-3589380/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://theprint.in/india/lodge-pothole-complaints-via-whatsapp-andhra-govt-tells-people/3112083/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://theprint.in/india/eight-killed-after-vehicle-falls-into-300-metre-gorge-in-uttarakhands-pauri/3111960/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.india.com/sports/hockey/india-beat-china-3-1-to-win-fourth-womens-asian-champions-trophy-title-in-bhopal-8548882/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://kuwaittimes.com/article/54531/world/taipei-mayor-re-elected-in-tight-race/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/ttd-team-recovers-devotee-s-lost-gold",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://ntvtelugu.com/telangana-news/telangana-si-civil-preliminary-exam-2026-hall-ticket-download-deadline-1039876.html",
+   "d": "2026-11-28",
+   "w": "duplicate"
   }
  ]
 }
