@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T19:35:00+05:30",
+ "cutoff": "2026-11-28T20:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-26T07:35:00+05:30/2026-11-26T08:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 3,
-   "late": 2,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 3,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Lookback from 23:35 (25 Nov). Feeds 07:56 IST (70/70 ok; 675 uncovered unseen events in lookback, 138 local). add_repo tool not available; used existing clone. Feed-list URLs could not be fetched directly (provenance; ~5 min lost), only URLs returned by WebSearch opened. Published 3: BIG TV Anantapur Rayalacheruvu lorry-Toofan crash 4 dead (07:17, fact), DC Kondapur CII junction bike crash (07:36, fact), TT Nasha Mukt Bharat padayatra traffic curbs (23:52, fact). Duplicates: Sakshi + Disha same Anantapur crash, Andhra Jyothy CM Achampet visit (already published). Skipped: Daily Pioneer Kukatpally truck park protest (14 Nov, old). Not opened (search did not return the article): TT Harish Rao KRMB minutes, TT TGRERA Auro Realty fine, Hindu Kukatpally truck park, Hindu Akbaruddin minority schools, TOI graduates rolls 80k ineligible, TOI HC JEE Aadhaar, TOI AP own revenue 18.7%, TOI AP elderly women anaemia, Siasat US court citizenship curbs, NewsOnAIR SC AP SEC candidate list - left uncovered for next run."
-  },
   {
    "window": "2026-11-26T08:05:00+05:30/2026-11-26T08:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 11:05 Nov 28. Feeds 19:21 IST (75/75 ok; 2762 uncovered, 823 TG/AP). add_repo not available; used existing clone and web-fetch helper. Published 5: Siasat + Namasthe Telangana Rangareddy three girls die in water sump, mother allegedly pushed them (19:19, confirmed, sensitive, police source, no names/village; outlets differ on day and case status), Andhra Jyothy + NT 8 IAS transfers, new HMDA commissioner (18:52, confirmed), Telangana Today HMWSSB 21 MGD from Osman Sagar + Shaikpet WTP (18:58, single, routine), NewsMeter + Telangana Today Instagram fake-doctor Rs 10 lakh marriage fraud, mother arrested (15:55, confirmed, sensitive, late-found), Deccan Chronicle Naidu SDRF Rs 2,459 cr drought/cyclone relief review (18:48, single, routine). Single source (sensitive, not published): Telangana Today Adilabad teacher held for molestation; Telangana Today Jangaon BRS youth leader death (suicide). Skipped old: Kishan Reddy Nasha Mukt padyatra (ended 27 Nov; Hans India 02:33). Not opened: TOI Telangana bar bodies vs evening courts (aggregator copy only), The Hindu JL 40% quota (aggregators only), India Today Telangana student in Germany Rs 6 lakh (not surfaced). No district searches this run. Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T19:35:00+05:30/2026-11-28T20:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 3,
+   "published": 3,
+   "late": 1,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 5,
+   "review": 0,
+   "gaps": "Lookback from 11:35 Nov 28. Feeds 19:45 IST (76/77 ok; 2734 uncovered, 873 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 3: Deccan Chronicle ASI finds 16th-century Kannada inscription at Tirumala first prakaram (19:40, single, routine), HMTV + Namasthe Telangana Nalgonda Collector child-marriage-free district meeting, vigilance till Dec 15 (19:35, confirmed), Al Jazeera (AFP/Reuters) + US News ITLOS rejects Argentina plea to halt Falklands oil drilling (18:54, confirmed, late-found; Al Jazeera metadata time 13:24 has no zone, taken as UTC = feed time). Duplicates (already on cards): Harish Rao-Jagga Reddy, AP teak clones, AP panchayat phase 2, Telangana IAS transfers. Skipped old: DC Baoli Art Sangam page found is 12 Nov, DC earlier Tirumala inscription 5 Nov, CareerIndia RRB 191 posts 5 Nov (NT 18:51 article not surfaced), Daily Pioneer Bengaluru police firing on Madanapalle accused (10:32, before lookback; The Hindu 19:40 not surfaced; The Hawk client error), Telangana student in Germany Rs 6 lakh (27 Nov reports; India Today not surfaced). Not published: Victorian election (ABC live blog media projection only, no result declared by election body; New Daily client error). Not surfaced: ETV Bharat SIR final list Dec 22, The Hindu JL 40% quota, Chandrababu delimitation 38 seats. US News fetch client error (search title only). CHECK left: Falklands headline 44 characters. No district searches beyond Nalgonda. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7978,6 +7978,56 @@
    "url": "https://telanganatoday.com/man-dies-by-suicide-at-jangaon-s-chilpur",
    "d": "2026-11-28",
    "w": "single"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/16th-century-inscription-found-on-south-wall-of-first-prakaram-at-tirumala-temple-2008859",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.hmtvlive.com/telugu-news/nalgonda-suryapet/nalgonda-collector-urges-child-marriage-free-district-218347",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.ntnews.com/nalgonda/efforts-must-be-made-to-transform-the-district-into-one-free-from-child-marriages-2571359",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/28/court-rejects-argentinas-request-to-stop-uk-oil-activity-near-falklands",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.usnews.com/news/world/articles/2026-11-28/international-court-rejects-argentinas-request-to-stop-uk-oil-activity-near-falklands",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/asi-finds-another-16th-century-inscription-at-tirumala-temple-2001843",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/allu-sneha-joins-baoli-art-sangam-as-founding-chairperson-2003770",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.careerindia.com/news/rrb-isolated-categories-recruitment-2026-apply-for-191-vacancies-by-december-4-068181.html",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://dailypioneer.com/india/man-accused-of-targeting-womens-pgs-shot-on-leg-during-arrest-in-bengaluru",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://www.abc.net.au/news/2026-11-28/victorian-election-live-updates-voting-results-seat-count/107418038",
+   "d": "2026-11-28",
+   "w": "skipped"
   }
  ]
 }
