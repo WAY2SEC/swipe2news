@@ -1,10 +1,551 @@
 {
  "date": "28.11.2026",
- "updated": "2026-11-28T10:45:36+01:00",
+ "updated": "2026-11-28T12:46:20+01:00",
  "version": 2,
  "edition": "ng",
  "tz": "Africa/Lagos",
  "stories": [
+  {
+   "h": "Three dead in Cross River communal clash",
+   "p": "Police say three people lost their lives and two houses were set on fire when youths from Ijiman and Akamkpa wards clashed in Ago-I Ekpo community in the Yakurr council area of Cross River. Daily Post reports that the fighting started on Friday evening after a disagreement between rival youth groups, that several young people were hurt and that other houses were damaged.",
+   "stat": "3",
+   "statl": "Dead, police say",
+   "lbl": "fact",
+   "cat": "Nigeria · Cross River",
+   "sec": [
+    "security"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/three-killed-houses-burnt-in-cross-river-communal-clash/",
+   "pub": "2026-11-28T12:44+01:00",
+   "d": "28.11.2026",
+   "t": "12:44",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Cross River",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Daily Post",
+     "u": "https://dailypost.ng/2026/11/28/3-killed-houses-burnt-in-cross-river-communal-clash/"
+    }
+   ]
+  },
+  {
+   "h": "Kenya Airways seeks $1.5bn strategic investor",
+   "p": "Kenya Airways wants to raise about $1.5 billion, a mix of debt and new equity, from a strategic investor by the middle of 2027, chairman Kiprono Kittony told Reuters on Friday, November 27. Nairametrics reports the airline hopes the money will strengthen its balance sheet and ease growing financial pressure on the carrier.",
+   "stat": "$1.5bn",
+   "statl": "Funding target",
+   "lbl": "fact",
+   "cat": "World · Africa",
+   "sec": [
+    "business",
+    "world"
+   ],
+   "src": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/28/kenya-airways-targets-1-5-billion-strategic-investment-by-mid-2027/",
+   "pub": "2026-11-28T12:34+01:00",
+   "d": "28.11.2026",
+   "t": "12:34",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Afghanistan blast near school kills students",
+   "p": "An explosion beside a middle school in Asadabad, Afghanistan, killed students on Saturday and injured many more. Afghanistan's interior ministry told the BBC 10 students died and more than 100 were hurt, blaming carelessness at a nearby explosives depot. Al Jazeera reported at least six students dead and 97 injured. The figures differ between outlets.",
+   "stat": "10",
+   "statl": "Students dead, ministry",
+   "lbl": "fact",
+   "cat": "World",
+   "sec": [
+    "world"
+   ],
+   "src": "BBC World",
+   "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o",
+   "pub": "2026-11-28T12:18+01:00",
+   "d": "28.11.2026",
+   "t": "12:18",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Al Jazeera",
+     "u": "https://www.aljazeera.com/video/newsfeed/2026/11/28/several-students-killed-in-blast-beside-afghan-school"
+    }
+   ]
+  },
+  {
+   "h": "Kano govt and Kwankwaso trade words on EFCC probe",
+   "p": "The Kano State Government says the EFCC investigation of former governor Rabiu Kwankwaso started before Governor Abba Yusuf took office. It accused Kwankwaso of blackmail and of trying to win sympathy before the 2027 polls, and told him to stop linking Yusuf to the probe. ThisDay reports that both camps have exchanged accusations over the matter. The claims have not been independently verified.",
+   "stat": "EFCC",
+   "statl": "Probe row in Kano",
+   "lbl": "claim",
+   "cat": "Nigeria · Kano",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/kwankwasos-efcc-probe-predates-yusufs-administration-kano-govt/",
+   "pub": "2026-11-28T12:09+01:00",
+   "d": "28.11.2026",
+   "t": "12:09",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Kano",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "ThisDay",
+     "u": "https://www.thisdaylive.com/2026/11/28/kwankwaso-kano-govt-trade-accusations-over-efcc-probe-2027-politics/"
+    }
+   ]
+  },
+  {
+   "h": "INEC mock test: smooth BVAS, low turnout in places",
+   "p": "INEC's nationwide mock accreditation on Saturday drew mixed reports. Voters in Lagos praised a smooth exercise, Vanguard says, while TVC News and Leadership found few voters in parts of Abuja and Ilorin, though BVAS machines worked. In Bauchi, low awareness and uncollected PVCs kept numbers down; Channels reported strong turnout in Kano. INEC chairman Joash Amupitan visited polling units in Jos.",
+   "stat": "Nov 28",
+   "statl": "Mock accreditation day",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "Channels TV",
+   "url": "https://www.channelstv.com/2026/11/28/amupitan-inspects-inec-mock-accreditation-in-jos/",
+   "pub": "2026-11-28T12:02+01:00",
+   "d": "28.11.2026",
+   "t": "12:02",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Vanguard",
+     "u": "https://www.vanguardngr.com/2026/11/2027-lagos-voters-laud-smooth-inec-mock-exercise/"
+    },
+    {
+     "n": "TVC News",
+     "u": "https://www.tvcnews.tv/inec-mock-election-records-low-voter-turnout-in-abuja-despite-seamless-bvas-operations/"
+    },
+    {
+     "n": "Leadership",
+     "u": "https://leadership.ng/mock-election-low-voter-turnout-in-kwara/"
+    }
+   ]
+  },
+  {
+   "h": "Simi and Olamide release new song 'Together'",
+   "p": "Singer Simi and rapper Olamide have released a joint track called 'Together', Voice of Nigeria reports. The track celebrates love and loyalty and the search for the right partner, pairing Simi's soulful voice with Olamide's style. The Nation also reported the release, which has drawn attention on social media.",
+   "stat": "New single",
+   "statl": "Simi x Olamide",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Voice of Nigeria",
+   "url": "https://von.gov.ng/simi-olamide-team-up-on-soulful-single-together/",
+   "pub": "2026-11-28T12:01+01:00",
+   "d": "28.11.2026",
+   "t": "12:01",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Maria Wophill wins World Athletics women's award",
+   "p": "Maria Wophill, a Nigerian sports administrator, has received World Athletics' 2026 award for the Woman of the Year, Premium Times reports. The prize recognises her work for gender equality, more women in the sport and leadership training in athletics. TheCable also reported the honour on Saturday, which places a Nigerian official among the sport's global award winners this year.",
+   "stat": "2026",
+   "statl": "Woman of the Year",
+   "lbl": "fact",
+   "cat": "Sports",
+   "sec": [
+    "sports"
+   ],
+   "src": "Premium Times",
+   "url": "https://www.premiumtimesng.com/sports/nigeria-sports-news/928574-nigerias-maria-wophill-wins-2026-world-athletics-woman-of-the-year-award.html",
+   "pub": "2026-11-28T11:58+01:00",
+   "d": "28.11.2026",
+   "t": "11:58",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Spain votes Sunday in snap general election",
+   "p": "Spaniards go to the polls on Sunday in an early general election that could end Prime Minister Pedro Sánchez's eight years in power, France 24 reports. Housing costs are the main concern for voters, while immigration and population growth also feature. The Guardian notes that the vote could bring the far right into government for the first time since Franco.",
+   "stat": "Sunday",
+   "statl": "Spain election",
+   "lbl": "fact",
+   "cat": "World",
+   "sec": [
+    "world"
+   ],
+   "src": "France 24",
+   "url": "https://www.france24.com/en/what-are-the-main-issues-driving-spain-s-national-election",
+   "pub": "2026-11-28T11:41+01:00",
+   "d": "28.11.2026",
+   "t": "11:41",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Customs hands two LPG tankers to NMDPRA",
+   "p": "The Nigeria Customs Service, through its Operation Whirlwind unit, has passed two seized tanker trucks carrying liquefied petroleum gas to the petroleum regulator, NMDPRA. Customs suspects the gas was being diverted, and the regulator will investigate further. Voice of Nigeria reports that the two trucks were stopped by Operation Whirlwind officers before the handover.",
+   "stat": "2",
+   "statl": "LPG tankers handed over",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "Voice of Nigeria",
+   "url": "https://von.gov.ng/diversion-customs-transfers-two-lpg-tankers-to-nmdpra/",
+   "pub": "2026-11-28T11:40+01:00",
+   "d": "28.11.2026",
+   "t": "11:40",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "FCC lets Customs restart recruit training",
+   "p": "The Federal Character Commission has ended its suspension of training for 3,852 new Nigeria Customs Service recruits. Ademola Lawrence, who speaks for the FCC, said on Saturday that the commission had gone through recruitment records and complaints. It said it found 317 alleged cases of compromise and that those names have been taken off the list. Training at the Customs colleges had stopped last week.",
+   "stat": "317",
+   "statl": "Names removed by FCC",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "politics"
+   ],
+   "src": "Daily Post",
+   "url": "https://dailypost.ng/2026/11/28/breaking-fcc-orders-customs-training-to-resume-317-names-removed/",
+   "pub": "2026-11-28T11:39+01:00",
+   "d": "28.11.2026",
+   "t": "11:39",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "official",
+   "srcs": [
+    {
+     "n": "Punch",
+     "u": "https://punchng.com/fcc-uncovers-317-alleged-cases-of-compromise-in-customs-recruitment/"
+    },
+    {
+     "n": "Nairametrics",
+     "u": "https://nairametrics.com/2026/11/28/fcc-lifts-suspension-of-customs-recruitment-training-exercise-to-resume/"
+    },
+    {
+     "n": "Blueprint",
+     "u": "https://blueprint.ng/breaking-federal-character-commission-lifts-suspension-on-nigeria-customs-recruitment-training/"
+    }
+   ]
+  },
+  {
+   "h": "Brent oil ends week up about 3%",
+   "p": "Brent crude fell $1.13, or 1.2%, on Friday to close at $95.44 a barrel, but ended the week roughly 3% higher, its first weekly rise in November after three losing weeks, Business Post reports. Worries about supply grew after tankers were attacked near Hormuz and Saudi energy sites were hit. Oil prices matter for Nigeria's revenue.",
+   "stat": "$95.44",
+   "statl": "Brent, Friday close",
+   "lbl": "fact",
+   "cat": "World",
+   "sec": [
+    "business",
+    "world"
+   ],
+   "src": "Business Post",
+   "url": "https://businesspost.ng/economy/crude-oil-records-first-weekly-gain-in-november-on-supply-fears/",
+   "pub": "2026-11-28T11:39+01:00",
+   "d": "28.11.2026",
+   "t": "11:39",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Ipswich sign Princess Ademiluyi for club record",
+   "p": "Ipswich Town Women have signed forward Princess Ademiluyi on a permanent deal for a club-record fee, Soccernet NG reports. She has scored seven goals in 19 matches this season. Ademiluyi is eligible to play for Nigeria, and the report links the move with a Super Falcons call-up for the player.",
+   "stat": "7 in 19",
+   "statl": "Goals this season",
+   "lbl": "fact",
+   "cat": "Sports",
+   "sec": [
+    "sports"
+   ],
+   "src": "Soccernet NG",
+   "url": "https://soccernet.ng/2026/11/princess-ademiluyi-ipswich-record-signing-super-falcons.html",
+   "pub": "2026-11-28T11:30+01:00",
+   "d": "28.11.2026",
+   "t": "11:30",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Lagos lists 30-plus shows for December",
+   "p": "More than 30 concerts and festivals are planned in Lagos for December 2026, with Wizkid, Asake, Lauryn Hill and Young Thug among the performers, Punch reports in a list that gives dates and venues for each show. The Nation published a similar list of events lined up for the festive season in the state.",
+   "stat": "30+",
+   "statl": "December events",
+   "lbl": "fact",
+   "cat": "Nigeria · Lagos",
+   "sec": [
+    "lagos"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/full-list-dates-venues-for-over-30-lagos-december-events-featuring-wizkid-asake-others/",
+   "pub": "2026-11-28T11:25+01:00",
+   "d": "28.11.2026",
+   "t": "11:25",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Lagos",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "NDC rejects OK Movement faction's exit from Obi",
+   "p": "The Nigeria Democratic Congress has rejected reports that its presidential flagbearer Peter Obi lost the backing of a faction of the Obi-Kwankwaso (OK) Movement led by Ughulu. The party called it a sponsored distraction and said it was a late response to an earlier order by Obi and the party against support groups running parallel campaign structures.",
+   "stat": "NDC",
+   "statl": "Party dismisses split",
+   "lbl": "claim",
+   "cat": "Nigeria",
+   "sec": [
+    "politics",
+    "election"
+   ],
+   "src": "Nigerian Tribune",
+   "url": "https://tribuneonlineng.com/ndc-dismisses-ughulus-withdrawal-of-support/",
+   "pub": "2026-11-28T11:20+01:00",
+   "d": "28.11.2026",
+   "t": "11:20",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "The Eagle Online",
+     "u": "https://theeagleonline.com.ng/2027-its-sponsored-distraction-ndc-dismisses-ok-movement-withdrawal/"
+    }
+   ]
+  },
+  {
+   "h": "NPA: Nigerian ports among world's 20 most improved",
+   "p": "The Nigerian Ports Authority says a World Bank ranking now places Nigeria in the world's top 20 for port efficiency gains. According to the NPA, it is the first international recognition of this kind for the country's ports in roughly 30 years. TVC News carried the authority's statement on Saturday.",
+   "stat": "Top 20",
+   "statl": "Most improved ports",
+   "lbl": "claim",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "TVC News",
+   "url": "https://www.tvcnews.tv/nigerias-ports-rank-among-worlds-20-most-improved-first-recognition-in-30-years-npa/",
+   "pub": "2026-11-28T10:47+01:00",
+   "d": "28.11.2026",
+   "t": "10:47",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Bandits burn homes in Borgu, Niger State",
+   "p": "Suspected bandits set buildings on fire in an attack on communities in Borgu Local Government Area of Niger State, forcing residents to flee. Punch, citing police, named Luma town and said the scale of the damage was not yet known. Peoples Gazette named the villages as Lumma Sanke and Gada-Oli, said homes and shops were burnt and reported casualties without giving a number.",
+   "stat": "Borgu",
+   "statl": "Homes and shops burnt",
+   "lbl": "fact",
+   "cat": "Nigeria · Niger",
+   "sec": [
+    "security"
+   ],
+   "src": "Punch",
+   "url": "https://punchng.com/residents-flee-as-bandits-raze-houses-in-fresh-niger-attack/",
+   "pub": "2026-11-28T10:42+01:00",
+   "d": "28.11.2026",
+   "t": "10:42",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Niger",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Peoples Gazette",
+     "u": "https://gazettengr.com/scores-of-casualties-as-bandits-attack-niger-communities-burning-residential-commercial-buildings/"
+    }
+   ]
+  },
+  {
+   "h": "Lagos teacher starts 50-hour maths lesson record bid",
+   "p": "Mathematics teacher Odeh Daniel has started teaching a non-stop lesson in Lagos that he plans to run for 50 hours, TVC News reports. His aim is to enter Guinness World Records with the longest maths class ever taught. The Guardian Nigeria also reported the attempt, which began this weekend.",
+   "stat": "50 hours",
+   "statl": "Maths lesson attempt",
+   "lbl": "fact",
+   "cat": "Nigeria · Lagos",
+   "sec": [
+    "lagos"
+   ],
+   "src": "TVC News",
+   "url": "https://www.tvcnews.tv/nigerian-teacher-begins-50-hour-mathematics-marathon-in-lagos-toset-guinness-world-record/",
+   "pub": "2026-11-28T10:42+01:00",
+   "d": "28.11.2026",
+   "t": "10:42",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Lagos",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Tinubu congratulates Taraba scholar on Qatar award",
+   "p": "President Bola Tinubu has congratulated Abubakar Muhammad Kabri, an educationist and researcher from Taraba State, on winning a prize at the 12th edition of Qatar's Sheikh Hamad translation awards in Doha. State House says Kabri won in the Achievement Category for work in Fulfulde, the Fulani language, at a ceremony on November 24.",
+   "stat": "12th",
+   "statl": "Sheikh Hamad Award",
+   "lbl": "fact",
+   "cat": "Nigeria · Taraba",
+   "sec": [
+    "politics"
+   ],
+   "src": "State House Nigeria",
+   "url": "https://statehouse.gov.ng/president-tinubu-congratulates-nigerian-scholar-for-winning-an-international-literary-award-in-qatar/",
+   "pub": "2026-11-28T09:58+01:00",
+   "d": "28.11.2026",
+   "t": "09:58",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Taraba",
+   "lang": "en",
+   "vs": "official"
+  },
+  {
+   "h": "TCN maintenance cuts power to parts of Abuja",
+   "p": "The Transmission Company of Nigeria said parts of Abuja would be without electricity for about 10 hours on Saturday, November 28. It is carrying out scheduled repairs at its Katampe substation. Daily Post reported that several areas of the Federal Capital Territory had lost supply by late morning, after TCN announced the work in a statement.",
+   "stat": "10 hours",
+   "statl": "Planned Abuja outage",
+   "lbl": "fact",
+   "cat": "Nigeria · Abuja",
+   "sec": [
+    "business"
+   ],
+   "src": "Nairametrics",
+   "url": "https://nairametrics.com/2026/11/28/tcn-announces-10-hour-planned-power-outage-in-parts-of-abuja/",
+   "pub": "2026-11-28T09:43+01:00",
+   "d": "28.11.2026",
+   "t": "09:43",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Abuja",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Peoples Gazette",
+     "u": "https://gazettengr.com/tcn-announces-10-hour-power-outage-in-parts-of-abuja/"
+    },
+    {
+     "n": "Daily Post",
+     "u": "https://dailypost.ng/2026/11/28/electricity-abuja-plunges-into-darkness/"
+    }
+   ]
+  },
+  {
+   "h": "Keystone Bank gets new acting MD, assures customers",
+   "p": "Keystone Bank Limited says its operations will continue without interruption after Murtala Mohammed took office as its acting Managing Director and Chief Executive Officer. In a message to customers, partners and other stakeholders, the lender said services would run smoothly during the change in leadership. The appointment was also reported by several business outlets on Friday.",
+   "stat": "Acting MD",
+   "statl": "New bank chief",
+   "lbl": "fact",
+   "cat": "Nigeria",
+   "sec": [
+    "business"
+   ],
+   "src": "PM News",
+   "url": "https://pmnewsnigeria.com/2026/11/27/keystone-bank-assures-customers-of-smooth-operations-as-new-acting-md-ceo-assumes-office/",
+   "pub": "2026-11-27T18:59+01:00",
+   "d": "27.11.2026",
+   "t": "18:59",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "",
+   "lang": "en",
+   "vs": "single"
+  },
+  {
+   "h": "Adeleke begins second term as Osun governor",
+   "p": "Ademola Adeleke took the oath for a second four-year term as Osun State governor on Friday, November 27, alongside his deputy. Vice President Kashim Shettima and former Senate President Bukola Saraki were among the guests, Arise News reports. Adeleke said he would move the state away from relying on the civil service by investing in farming, manufacturing, infrastructure and jobs.",
+   "stat": "2nd term",
+   "statl": "Sworn in, Nov 27",
+   "lbl": "fact",
+   "cat": "Nigeria · Osun",
+   "sec": [
+    "politics"
+   ],
+   "src": "The ICIR",
+   "url": "https://www.icirnigeria.org/adeleke-begins-second-term-pledges-to-transform-osun-economy/",
+   "pub": "2026-11-27T15:06+01:00",
+   "d": "27.11.2026",
+   "t": "15:06",
+   "col": "--c-gov",
+   "pic": "logo",
+   "st": "NG",
+   "loc": "Osun",
+   "lang": "en",
+   "vs": "confirmed",
+   "srcs": [
+    {
+     "n": "Arise News",
+     "u": "https://www.arise.tv/adeleke-begins-second-term-as-osun-governor-shettima-leads-dignitaries-at-inauguration/"
+    }
+   ]
+  },
   {
    "h": "Jigawa police give N20.4m to families of late officers",
    "p": "The Jigawa State Police Command has handed over N20.4 million to the relatives of officers who lost their lives while on duty, Punch reports. The money covers insurance payouts and welfare benefits owed to the families. It was presented at a ceremony held at the command in Dutse, the state capital, on Saturday.",
@@ -1875,43 +2416,6 @@
    "vs": "single"
   },
   {
-   "h": "INEC holds nationwide mock accreditation today",
-   "p": "INEC is running a six-hour trial of voter accreditation on Saturday, from 8:30 a.m. to 2:30 p.m., in 17,676 selected polling units, 490 of them in Lagos. It is checking the BVAS machines, the upgraded IReV results portal and the electronic EC8A result sheet ahead of 2027. Test ballots carry no party names. Yiaga Africa says it sent out 347 citizen observers.",
-   "stat": "17,676",
-   "statl": "Units in today's test",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "politics",
-    "election"
-   ],
-   "src": "Channels TV",
-   "url": "https://www.channelstv.com/2026/11/27/why-mock-accreditation-wont-have-logos-names-of-political-parties-inec/",
-   "pub": "2026-11-27T21:03+01:00",
-   "d": "27.11.2026",
-   "t": "21:03",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Nigerian Tribune",
-     "u": "https://tribuneonlineng.com/inec-to-test-bvas-irev-electronic-ec8a-in-17676-polling-units-ahead-of-2027/"
-    },
-    {
-     "n": "Vanguard",
-     "u": "https://www.vanguardngr.com/2026/11/2027-polls-inec-begins-nationwide-mock-accreditation-490-units-in-lagos/"
-    },
-    {
-     "n": "ThisDay",
-     "u": "https://www.thisdaylive.com/2026/11/28/2027-inec-tests-bvas-irev-in-mock-election-vows-no-repeat-of-2023-glitch/"
-    }
-   ]
-  },
-  {
    "h": "91 army recruits finish counter-terror course",
    "p": "Chief of Army Staff Lt Gen Waidi Shaibu on Friday addressed 91 regular recruits at their counterterrorism and counterinsurgency (CTCOIN) graduation in Zaria, Kaduna State. He told them to stay disciplined and professional, and said specialised training is key to a combat-ready army as the force grows, according to an army statement reported by Punch and Daily Post.",
    "stat": "91",
@@ -3354,547 +3858,6 @@
      "u": "https://www.aljazeera.com/video/newsfeed/2026/11/27/elon-musk-gets-the-greenlight-from-the-us-to-launch-one-million-satellites"
     }
    ]
-  },
-  {
-   "h": "FG launches 2026-2030 menstrual health policy",
-   "p": "The Federal Government has unveiled a five-year national policy, running from 2026 to 2030, on managing menstrual health and hygiene, Voice of Nigeria reports. It was launched in Abuja during the country's second national summit on the issue. Stakeholders at the event urged proper funding, adoption by the states and strong implementation so that women and girls are protected and treated with dignity.",
-   "stat": "2026-2030",
-   "statl": "New national policy",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "politics"
-   ],
-   "src": "Voice of Nigeria",
-   "url": "https://von.gov.ng/nigeria-launches-five-year-menstrual-health-policy/",
-   "pub": "2026-11-27T17:59+01:00",
-   "d": "27.11.2026",
-   "t": "17:59",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Tegbe inspects 480MW Abeokuta power substation",
-   "p": "Power Minister Joseph Tegbe says reliable electricity is essential if Nigeria is to reach its $1tn economy goal. He spoke on Friday while touring the 480MW New Abeokuta transmission substation in Toolu, Ogun State, which is due for completion in March 2027. FGN Power Company said it has already added 1,080MW of wheeling capacity under the Presidential Power Initiative.",
-   "stat": "480MW",
-   "statl": "Substation due Mar 2027",
-   "lbl": "fact",
-   "cat": "Nigeria · Ogun",
-   "sec": [
-    "business"
-   ],
-   "src": "Punch",
-   "url": "https://punchng.com/stable-power-supply-key-to-achieving-1tn-economy-minister/",
-   "pub": "2026-11-27T17:56+01:00",
-   "d": "27.11.2026",
-   "t": "17:56",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Ogun",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "PM News",
-     "u": "https://pmnewsnigeria.com/2026/11/27/stable-electricity-key-to-prosperity-minister-of-power/"
-    },
-    {
-     "n": "Leadership",
-     "u": "https://leadership.ng/fgn-power-delivers-1080mw-targets-984mw-supply-as-tegbe-inspects-new-abeokuta-substation/"
-    }
-   ]
-  },
-  {
-   "h": "Canada's top court backs Quebec religious symbols law",
-   "p": "Canada's Supreme Court has largely upheld Quebec's secularism law, under which some public employees, among them teachers and police officers, may not wear religious symbols such as hijabs or turbans while on duty. Muslim, Sikh and Catholic teachers were among those who challenged it in court, saying it breached their fundamental rights. Judges found the law mostly constitutional, BBC and Al Jazeera report.",
-   "stat": "Quebec",
-   "statl": "Religious symbols ruling",
-   "lbl": "fact",
-   "cat": "World",
-   "sec": [
-    "world"
-   ],
-   "src": "BBC",
-   "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o",
-   "pub": "2026-11-27T17:53+01:00",
-   "d": "27.11.2026",
-   "t": "17:53",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Al Jazeera",
-     "u": "https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban"
-    },
-    {
-     "n": "The Guardian",
-     "u": "https://www.theguardian.com/world/2026/nov/27/canadas-top-court-upholds-quebec-law-barring-public-sector-workers-from-wearing-religious-symbols"
-    },
-    {
-     "n": "Punch",
-     "u": "https://punchng.com/canada-supreme-court-upholds-quebec-ban-on-hijab-religious-symbols/"
-    }
-   ]
-  },
-  {
-   "h": "Lagos calls week-long ceasefire in Magodo land row",
-   "p": "The Lagos State Government has directed a one-week ceasefire in the Magodo-Shangisa landlords' dispute, PM News reports. According to a government statement, the state's justice commissioner and Attorney-General, Lawal Pedro, SAN, met stakeholders on Thursday to discuss the disagreement and agree on a peaceful path forward. The truce is meant to give room for a settlement between the parties involved.",
-   "stat": "1 week",
-   "statl": "Truce ordered",
-   "lbl": "fact",
-   "cat": "Nigeria · Lagos",
-   "sec": [
-    "lagos"
-   ],
-   "src": "PM News",
-   "url": "https://pmnewsnigeria.com/2026/11/27/lagos-orders-one-week-truce-in-magodo-shangisa-landlords-dispute/",
-   "pub": "2026-11-27T17:50+01:00",
-   "d": "27.11.2026",
-   "t": "17:50",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Lagos",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Fury passes medicals for Anthony Joshua fight",
-   "p": "Tyson Fury has passed the pre-fight medical checks needed to box Anthony Joshua and is cleared for the bout, Vanguard reports. The clearance follows a row over remarks his wife Paris made about his mental health, which she has since withdrawn. Joshua, the British heavyweight of Nigerian heritage, has a large fan base in Nigeria.",
-   "stat": "Cleared",
-   "statl": "Fury passes medical",
-   "lbl": "fact",
-   "cat": "Sports",
-   "sec": [
-    "sports"
-   ],
-   "src": "Vanguard",
-   "url": "https://www.vanguardngr.com/2026/11/fury-cleared-for-joshua-fight-after-wife-retracts-schizophrenia-claim/",
-   "pub": "2026-11-27T17:48+01:00",
-   "d": "27.11.2026",
-   "t": "17:48",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Sierra Leone cuts maternal deaths sharply",
-   "p": "Sierra Leone, once among the riskiest countries for childbirth, has recorded a steep drop in maternal deaths, which Arise News puts at nearly 80%. Wider maternity care and more skilled birth attendants are credited. But Africanews and France 24 report that informal fees, mistrust, weak infrastructure and poor access to emergency care still put mothers at risk.",
-   "stat": "~80%",
-   "statl": "Fall in maternal deaths",
-   "lbl": "fact",
-   "cat": "World · Africa",
-   "sec": [
-    "world"
-   ],
-   "src": "France 24",
-   "url": "https://www.france24.com/en/video/20261127-sierra-leone-maternal-deaths-fall-as-healthcare-improves-but-challenges-remain",
-   "pub": "2026-11-27T17:37+01:00",
-   "d": "27.11.2026",
-   "t": "17:37",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Arise News",
-     "u": "https://www.arise.tv/sierra-leone-records-nearly-80-decline-in-maternal-mortality-but-challenges-remain/"
-    },
-    {
-     "n": "Africanews",
-     "u": "http://www.africanews.com/2026/11/26/sierra-leone-steep-decline-in-maternal-mortality-but-challenges-remain/"
-    }
-   ]
-  },
-  {
-   "h": "Strong dollar adds pressure on the naira",
-   "p": "The US Dollar Index has risen to its highest level in 22 months, making it harder for the naira in the foreign exchange market, Nairametrics reports. The outlet links the pressure to heavy local demand for dollars as Christmas and the 2027 general elections approach. The CBN raised its weekly dollar supply to bureaux de change to $1m this week.",
-   "stat": "22-month",
-   "statl": "Dollar index high",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "Nairametrics",
-   "url": "https://nairametrics.com/2026/11/27/us-dollar-index-at-22-month-high-as-naira-struggles-on/",
-   "pub": "2026-11-27T17:36+01:00",
-   "d": "27.11.2026",
-   "t": "17:36",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "FG backs 4,000-home cooperative estate in Abuja",
-   "p": "The Federal Government has given its support to a planned 4,000-unit housing estate in Karshi, Abuja, to be built by the cooperative society CoopEast, Leadership reports. Housing and Urban Development Minister Muttaqah Rabe Darma endorsed the project, which the ministry links to efforts to close Nigeria's housing gap, put at more than 15 million homes.",
-   "stat": "4,000",
-   "statl": "Housing units planned",
-   "lbl": "fact",
-   "cat": "Nigeria · Abuja",
-   "sec": [
-    "business"
-   ],
-   "src": "Leadership",
-   "url": "https://leadership.ng/housing-deficit-fg-backs-4000-unit-housing-project-in-abuja/",
-   "pub": "2026-11-27T17:35+01:00",
-   "d": "27.11.2026",
-   "t": "17:35",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Abuja",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Nnadozie, Oshoala join Super Falcons in Algeria",
-   "p": "More players have joined the Super Falcons camp in Algeria for two friendlies against the hosts, including Chiamaka Nnadozie, Asisat Oshoala and Michelle Alozie, Premium Times reports. Premium Times says eight players arrived, while TVC News counted 10 in camp before the first training session. The Super Falcons are reigning Women's Africa Cup of Nations champions.",
-   "stat": "2",
-   "statl": "Friendlies in Algeria",
-   "lbl": "fact",
-   "cat": "Sports",
-   "sec": [
-    "sports"
-   ],
-   "src": "Blueprint",
-   "url": "https://blueprint.ng/nigerias-super-falcons-arrive-algeria-begin-preparation-for-friendlies/",
-   "pub": "2026-11-27T17:27+01:00",
-   "d": "27.11.2026",
-   "t": "17:27",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Premium Times",
-     "u": "https://www.premiumtimesng.com/news/more-news/928524-super-falcons-camp-bubbles-as-nnadozie-oshoala-alozie-arrive-for-algeria-friendlies.html"
-    },
-    {
-     "n": "TVC News",
-     "u": "https://www.tvcnews.tv/super-falcons-camp-in-algeria-swells-to-10-ahead-of-friendlies/"
-    }
-   ]
-  },
-  {
-   "h": "Pete Edochie had prostate cancer for six years, son says",
-   "p": "Veteran Nollywood actor Chief Pete Edochie lived with prostate cancer for six years after having surgery abroad, his eldest son Leo Edochie told BBC Pidgin, Punch reports. Tributes continue to come in: Catholic Bishop of Sokoto Matthew Hassan Kukah said the actor's death closes a remarkable era in Nigerian drama and film, Voice of Nigeria reports.",
-   "stat": "6 years",
-   "statl": "Cancer battle",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "politics"
-   ],
-   "src": "Punch",
-   "url": "https://punchng.com/pete-edochie-battled-prostate-cancer-for-six-years-son/",
-   "pub": "2026-11-27T17:26+01:00",
-   "d": "27.11.2026",
-   "t": "17:26",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Voice of Nigeria",
-     "u": "https://von.gov.ng/bishop-kukah-hails-pete-edochies-legacy-in-nigerian-cinema/"
-    }
-   ]
-  },
-  {
-   "h": "Anambra shifts sanitation to Dec 5 for INEC mock test",
-   "p": "Anambra State has pushed its end-of-year sanitation exercise across the state to December 5 instead of this Saturday, November 28, so residents can join INEC's mock accreditation exercise, Environment Commissioner Clem Aguiyi announced. INEC officials told Punch the commission is ready for Saturday's test in the state, with BVAS devices already set up as part of preparations for the 2027 general elections.",
-   "stat": "Dec 5",
-   "statl": "Sanitation moved",
-   "lbl": "fact",
-   "cat": "Nigeria · Anambra",
-   "sec": [
-    "politics",
-    "election"
-   ],
-   "src": "TVC News",
-   "url": "https://www.tvcnews.tv/anambra-reschedules-statewide-environmental-sanitation-to-december-5-over-inec-mock-exercise/",
-   "pub": "2026-11-27T17:25+01:00",
-   "d": "27.11.2026",
-   "t": "17:25",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Anambra",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Punch",
-     "u": "https://punchng.com/inec-ready-for-saturdays-mock-accreditation-in-anambra-official/"
-    }
-   ]
-  },
-  {
-   "h": "Two sentenced to death over 2022 killing of corps member",
-   "p": "An FCT High Court in Zuba, Abuja, has handed death sentences by hanging to two defendants over the 2022 killing of an NYSC (youth service) member, the FCT Police Command said on Friday. Justice Kezziah Ogbonnaya found them guilty of culpable homicide, an offence that carries the death penalty under the Penal Code. A third defendant received 42 years in prison for his part.",
-   "stat": "42 years",
-   "statl": "Third defendant jailed",
-   "lbl": "fact",
-   "cat": "Nigeria · Abuja",
-   "sec": [
-    "security"
-   ],
-   "src": "The ICIR",
-   "url": "https://www.icirnigeria.org/court-sentences-two-to-death-for-murder-of-nysc-member-in-abuja/",
-   "pub": "2026-11-27T17:23+01:00",
-   "d": "27.11.2026",
-   "t": "17:23",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Abuja",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "PM News",
-     "u": "https://pmnewsnigeria.com/2026/11/27/court-sentences-two-to-death-by-hanging-for-killing-corps-member/"
-    },
-    {
-     "n": "Peoples Gazette",
-     "u": "https://gazettengr.com/two-to-die-by-hanging-for-killing-nysc-member/"
-    }
-   ]
-  },
-  {
-   "h": "Atiku disputes FG's N450bn rice farmers figure",
-   "p": "Ex-Vice President Atiku Abubakar has dismissed the Federal Government's statement that President Bola Tinubu's administration committed N450bn to rice farmers as propaganda and asked for proof of payment, Daily Post reports. In a statement from his media office on Friday, he also blamed the import of 150,000 tonnes of rice for hurting local mills. Solid Minerals Minister Dele Alake cited the figure on Sunday.",
-   "stat": "N450bn",
-   "statl": "Rice fund disputed",
-   "lbl": "claim",
-   "cat": "Nigeria",
-   "sec": [
-    "politics",
-    "election"
-   ],
-   "src": "Daily Post",
-   "url": "https://dailypost.ng/2026/11/27/n450bn-rice-farmers-fund-atiku-challenges-tinubus-govt-demands-proof-of-payment/",
-   "pub": "2026-11-27T17:20+01:00",
-   "d": "27.11.2026",
-   "t": "17:20",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Peoples Gazette",
-     "u": "https://gazettengr.com/tinubu-lied-about-n450-billion-for-farmers-killed-rice-mills-with-importation-of-150000-metric-tonnes-of-rice-atiku/"
-    },
-    {
-     "n": "Legit.ng",
-     "u": "https://www.legit.ng/politics/1743661-atiku-accuses-tinubu-government-hiding-nigerias-rice-crisis-90-mills-shut-down/"
-    }
-   ]
-  },
-  {
-   "h": "Guinea-Bissau junta moves elections to 2028",
-   "p": "Guinea-Bissau's military rulers have postponed the presidential and parliamentary elections planned for December to November 26, 2028, Peoples Gazette and Vanguard report. The presidency said the \"technical, material, and financial conditions\" for a credible vote were not yet in place. Soldiers seized power in November 2025, days after a disputed presidential poll, and promised civilian rule.",
-   "stat": "Nov 2028",
-   "statl": "New election date",
-   "lbl": "fact",
-   "cat": "World · Africa",
-   "sec": [
-    "world"
-   ],
-   "src": "Africanews",
-   "url": "http://www.africanews.com/2026/11/27/guinea-bissaus-military-government-defends-postponement-of-elections/",
-   "pub": "2026-11-27T17:13+01:00",
-   "d": "27.11.2026",
-   "t": "17:13",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Peoples Gazette",
-     "u": "https://gazettengr.com/guinea-bissaus-military-junta-moves-election-to-2028/"
-    },
-    {
-     "n": "Vanguard",
-     "u": "https://www.vanguardngr.com/2026/11/guinea-bissau-postpones-elections-to-2028-over-inadequate-technical-material-condition/"
-    }
-   ]
-  },
-  {
-   "h": "NBMA to check supermarkets for unapproved GMO foods",
-   "p": "The National Biosafety Management Agency (NBMA) says a new surveillance team will inspect supermarkets and shops every two months, Premium Times reports. The visits are meant to confirm that every genetically modified item on Nigerian shelves carries the required approval. The NBMA is the federal body responsible for regulating genetically modified organisms in the country.",
-   "stat": "2 months",
-   "statl": "Inspection cycle",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "Premium Times",
-   "url": "https://www.premiumtimesng.com/business/business-news/928426-nbma-to-launch-gmo-surveillance-in-supermarkets.html",
-   "pub": "2026-11-27T17:07+01:00",
-   "d": "27.11.2026",
-   "t": "17:07",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "Suit asks INEC to release Yayi's candidacy papers",
-   "p": "A resident of Yewa in Ogun State has asked the Abuja division of the Federal High Court to order INEC and the publisher of The Guardian to hand over certified true copies of the documents, credentials and forms of Senator Solomon Adeola (Yayi), the APC governorship candidate, ThisDay and Silverbird TV report. The case is yet to be decided.",
-   "stat": "FHC Abuja",
-   "statl": "Credentials suit filed",
-   "lbl": "claim",
-   "cat": "Nigeria · Ogun",
-   "sec": [
-    "politics",
-    "election"
-   ],
-   "src": "ThisDay",
-   "url": "https://www.thisdaylive.com/2026/11/27/constituent-sues-inec-guardian-newspaper-over-senator-adeolas-credentials/",
-   "pub": "2026-11-27T17:01+01:00",
-   "d": "27.11.2026",
-   "t": "17:01",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Ogun",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "Silverbird TV",
-     "u": "https://silverbirdtv.com/constituent-drags-inec-guardian-newspaper-to-court-over-yayis-credentials/"
-    }
-   ]
-  },
-  {
-   "h": "AFCON 2027: six teams in, Nigeria chase Group L spot",
-   "p": "Morocco, Senegal, Mali, Cameroon, Burkina Faso and Benin have booked places at the 2027 Africa Cup of Nations, Soccernet NG reports. Three qualifying groups still have one ticket each to decide. Nigeria's Super Eagles are competing for the only remaining place in Group L, the group of co-hosts Tanzania.",
-   "stat": "6",
-   "statl": "Teams qualified",
-   "lbl": "fact",
-   "cat": "Sports",
-   "sec": [
-    "sports"
-   ],
-   "src": "Soccernet NG",
-   "url": "https://soccernet.ng/2026/11/afcon-2027-qualifiers-who-has-qualified-host-groups-nigeria.html",
-   "pub": "2026-11-27T17:00+01:00",
-   "d": "27.11.2026",
-   "t": "17:00",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "EFCC chief asks justice sector to speed up graft trials",
-   "p": "EFCC Chairman Ola Olukoyede has asked everyone in the justice sector to cooperate to end delays in corruption prosecutions in Nigerian courts, TVC News reports. He said faster trials need joint effort from the judiciary, the legislature, lawyers, civil society groups and other stakeholders, rather than the anti-graft agency acting alone.",
-   "stat": "EFCC",
-   "statl": "Faster trials call",
-   "lbl": "opinion",
-   "cat": "Nigeria",
-   "sec": [
-    "politics"
-   ],
-   "src": "TVC News",
-   "url": "https://www.tvcnews.tv/efcc-chair-olukoyede-seeks-stakeholders-support-to-speed-up-corruption-trials/",
-   "pub": "2026-11-27T16:58+01:00",
-   "d": "27.11.2026",
-   "t": "16:58",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "single"
-  },
-  {
-   "h": "FG opens N5m support scheme for 600 tailors",
-   "p": "The Federal Government has opened applications for a programme that will give 600 Nigerian tailors access to N5m each through a mix of grants and loans to be repaid, Nigerian Tribune and The Eagle Online report. Named the \"Business Incubation for Renewed Hope Tailors Programme\", the scheme will last five years and the Industrial Training Fund (ITF) is running it.",
-   "stat": "N5m",
-   "statl": "Per tailor support",
-   "lbl": "fact",
-   "cat": "Nigeria",
-   "sec": [
-    "business"
-   ],
-   "src": "Nigerian Tribune",
-   "url": "https://tribuneonlineng.com/how-to-apply-fg-opens-n5m-business-support-programme-for-tailors/",
-   "pub": "2026-11-27T16:01+01:00",
-   "d": "27.11.2026",
-   "t": "16:01",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "",
-   "lang": "en",
-   "vs": "confirmed",
-   "srcs": [
-    {
-     "n": "The Eagle Online",
-     "u": "https://theeagleonline.com.ng/how-to-apply-for-fgs-business-support-scheme-targeting-600-nigerian-tailors/"
-    }
-   ]
-  },
-  {
-   "h": "LASEMA: no casualties in GNI House demolition",
-   "p": "Lagos emergency agency LASEMA says four storeys of the burnt GNI (Great Nigeria Insurance) building on Lagos Island's Martins Street have been pulled down without casualties or serious damage to buildings nearby. The agency rejected reports suggesting otherwise and said the controlled demolition is going on safely, TVC News reports.",
-   "stat": "4 floors",
-   "statl": "Demolished safely",
-   "lbl": "fact",
-   "cat": "Nigeria · Lagos",
-   "sec": [
-    "lagos"
-   ],
-   "src": "TVC News",
-   "url": "https://www.tvcnews.tv/lasema-dismisses-reports-of-casualty-during-gni-house-demolition/",
-   "pub": "2026-11-27T15:30+01:00",
-   "d": "27.11.2026",
-   "t": "15:30",
-   "col": "--c-gov",
-   "pic": "logo",
-   "st": "NG",
-   "loc": "Lagos",
-   "lang": "en",
-   "vs": "official"
   }
  ]
 }
