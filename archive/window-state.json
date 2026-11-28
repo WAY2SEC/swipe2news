@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T12:05:00+05:30",
+ "cutoff": "2026-11-28T12:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T19:05:00+05:30/2026-11-25T19:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 4,
-   "published": 3,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 1,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Lookback from 11:05. Feeds 19:12 IST (68/70 ok; 37 uncovered events first seen since 18:50, 14 local). add_repo tool not available; used existing clone. Published 3: Andhra Jyothy AP IG Rajakumari election code warning, 607 FIRs (18:54, fact), Telangana Today TGCHE launches HERIF (18:52, fact, logo), Business Standard/Reuters US proposes tariffs on 14 partners incl India (19:06, fact). Duplicate: NewsMeter Telugu Panjagutta AI police station DGP visit (published 24 Nov 23:35). Skipped: HMTV Veenavanka paddy theft arrests (08:44, before lookback), NT Mailardevpally boy death (June 2026 article, old). Not opened: Disha Mailardevpally boy (client error), TOI TG HC summons chief secretary (not found by search), ANI tariffs (client error). Not attempted: Vizianagaram fine rice counter, Medak encroachments, Asianet IT towers, Sakshi AP leaders weekend, Siasat items, other India/world. No district searches. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-25T19:35:00+05:30/2026-11-25T20:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 03:35 Nov 28. Feeds 11:44 IST (76/77 ok; 2865 uncovered, 827 TG/AP; 121 recent events from 10:45 not yet seen). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open (7 direct Telangana Today/Siasat feed URLs refused). Published 3: Deccan Chronicle Miyapur/Gachibowli scheduled power cuts (11:25, single), Siasat + V6 + HMTV Pocharam hotel death (11:13, confirmed, sensitive, no name/method, late-found), Asianet Newsable + NationPress India 116/6 Christchurch Test (11:30, confirmed). Skipped old: DC Pawan Kalyan delimitation (25 Mar 2026; TT 11:13 version not opened). Not opened (retry): Siasat 200 streetlight complaints, Siasat IndiGo Saudi flights, TT FII inflows, TT aviation losses, Siasat Indian man jailed in UAE. Not surfaced by search: Hyderabad Mail Khajaguda Rock Walk, NewsMeter SCB roads, President Murmu Mizoram visit. Not attempted: Thiruparankundram deepam (communal-sensitive, other state), ETV Vijayawada Metro HR policy, district searches. Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T12:05:00+05:30/2026-11-28T12:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 2,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 1,
+   "skipped": 4,
+   "review": 1,
+   "gaps": "Lookback from 04:05 Nov 28. Feeds 12:17 IST (75/75 ok; 2792 uncovered, 811 TG/AP; 260 recent events not yet seen). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 2: Telangana Today (IANS) weekly markets snap 4-week gain (11:52, single; FII inflows TT 11:13 folded in as duplicate), BBC/Yahoo + Anadolu Peru military helicopter crash 8 dead (09:49, confirmed, sensitive). Single source, not published: Telangana Today (PTI) Pawan Kalyan backs delimitation (11:13; Disha/ETV not opened, Eenadu refused), Andhrajyothy DGP Rs 75 lakh aid to 18 surrendered Maoists (11:47), Reuters Bisleri second unsafe sample (wire only; TT/PTI prosecution story not surfaced). Skipped old: DC Pawan delimitation (25 Mar 2026), TT Nagarkurnool spurious urea (Aug 2025), Adda247 TG 526 assistant professor posts (20 Nov), Telangana Tribune climate conclave (5 Nov). Review (no time): GKToday climate conclave Dec 7-9. Not opened: Sakshi Education 526 posts, Disha Pawan, NST/WAM/report.az Peru. Not surfaced: NewsMeter abortion-pill warning, Tribune ICT Academy-Google AP, Hyderabad Mail Khajaguda Rock Walk, Siasat streetlights. District searches (Nalgonda, Karimnagar, Guntur, Tirupati) returned only tag pages. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7168,6 +7168,61 @@
    "url": "https://deccanchronicle.com/southern-states/andhra-pradesh/delimitation-to-expand-political-opportunities-says-pawan-kalyan-1946096",
    "d": "2026-11-28",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/indian-stock-markets-end-in-red-nifty-and-sensex-snap-four-week-winning-streak",
+   "d": "2026-11-28",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/fii-inflows-in-indian-markets-reach-rs-129579-crore-in-november",
+   "d": "2026-11-28",
+   "w": "dup"
+  },
+  {
+   "url": "https://www.yahoo.com/news/world/articles/eight-killed-peruvian-military-helicopter-041921797.html",
+   "d": "2026-11-28",
+   "w": "pub"
+  },
+  {
+   "url": "https://www.anews.com.tr/world/2026/11/28/eight-killed-in-peru-military-helicopter-crash",
+   "d": "2026-11-28",
+   "w": "dup"
+  },
+  {
+   "url": "https://telanganatoday.com/pawan-kalyan-backs-proposed-delimitation-reform-calls-for-wider-representation-in-parliament",
+   "d": "2026-11-28",
+   "w": "single"
+  },
+  {
+   "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/guntur/andhra-pradesh-maoist-surrender-rehabilitation-aid-vvnp-1580576.html",
+   "d": "2026-11-28",
+   "w": "single"
+  },
+  {
+   "url": "https://www.yahoo.com/news/world/articles/india-finds-bacteria-second-unsafe-050918048.html",
+   "d": "2026-11-28",
+   "w": "single"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-farmers-complain-about-spurious-urea-being-sold-in-nagarkurnool",
+   "d": "2026-11-28",
+   "w": "old"
+  },
+  {
+   "url": "https://www.adda247.com/teaching-jobs-exam/telangana-assistant-professor-notification-2026/",
+   "d": "2026-11-28",
+   "w": "old"
+  },
+  {
+   "url": "https://www.telanganatribune.com/telangana-climate-conclave-on-december-8-to-tackle-el-nino-and-climate-change-at-invest-summit/",
+   "d": "2026-11-28",
+   "w": "old"
+  },
+  {
+   "url": "https://www.gktoday.in/telangana-to-hold-climate-conclave-at-invest-telangana-global-summit-2026/",
+   "d": "2026-11-28",
+   "w": "review"
   }
  ]
 }
