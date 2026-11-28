@@ -371,18 +371,6 @@
  ],
  "log": [
   {
-   "t": "2026-11-26T09:12:40.533992+05:30",
-   "kind": "local",
-   "place": "nagarkurnool",
-   "h": "గిరిజనేతరుల భూ వివాదాలు సివిల్ కోర్టుకే"
-  },
-  {
-   "t": "2026-11-26T09:12:40.533992+05:30",
-   "kind": "jobs",
-   "place": null,
-   "h": "1 new jobs"
-  },
-  {
    "t": "2026-11-26T09:43:06.436336+05:30",
    "kind": "local",
    "place": "medchal",
@@ -975,14 +963,19 @@
    "kind": "local",
    "place": "AP",
    "h": "చిత్తూరు టీచర్లు ఏప్రిల్ వరకు అదే బడిలో"
+  },
+  {
+   "t": "2026-11-28T09:19:00.438990+05:30",
+   "kind": "jobs",
+   "place": null,
+   "h": "4 new jobs"
   }
  ],
  "slot": "2026-11-28-7",
  "jobs_seen": [
-  "sanofi-analytics-platforms-analyst-R2871874",
-  "ntpc-exec-ccus-12-2026",
-  "powergrid-powertel-te-cc-04-2026",
-  "tgpsc-mpso-aso-07-2026",
+  "amgen-sr-assoc-membership-ain-R-255174",
+  "amgen-bi-sr-assoc-media-analytics-R-231458",
+  "amgen-specialist-is-bsa-R-250943",
   "iith-mae-ra-pcs-sic-nov2026",
   "niab-scientist-31-2026",
   "sanofi-cfe-analyst-R2876820",
@@ -1009,6 +1002,7 @@
   "rrc-nr-act-apprentice-4651-2026",
   "assam-rifles-tech-tradesman-354-2026",
   "bhu-hospital-nonteaching-06-2026-27",
+  "slprb-ap-sct-pc-fire-warder-1156-2026",
   "asrb-icar-ta-sta-1393-2026",
   "csir-hq-mts-driver-ra-02-2026",
   "bhel-et-st-415-2026",
@@ -1083,8 +1077,7 @@
   "amgen-data-engineer-R-259554",
   "firstsource-senior-csa-24286",
   "amgen-study-delivery-assoc-R-260260",
-  "ikea-sales-team-leader-346203",
-  "amgen-sr-assoc-comm-analytics-R-261015"
+  "ikea-sales-team-leader-346203"
  ],
- "jobday": "2026-11-27"
+ "jobday": "2026-11-28"
 }
