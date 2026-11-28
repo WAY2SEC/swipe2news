@@ -1,8 +1,364 @@
 {
  "date": "28.11.2026",
  "iso": "2026-11-28",
- "count": 120,
+ "count": 126,
  "stories": [
+  {
+   "cat": "తెలంగాణ · నేరం",
+   "col": "--c-city",
+   "art": "court",
+   "pic": "e/drug-seizure",
+   "stat": "ముగ్గురు అదుపులో",
+   "statl": "డ్రగ్స్ కేసులో",
+   "h": "ఈగల్ సమాచారంతో నాగ్‌పూర్‌లో డ్రగ్స్ సీజ్",
+   "p": "తెలంగాణ ఈగల్ ఫోర్స్ ఇచ్చిన సమాచారంతో మహారాష్ట్రలోని నాగ్‌పూర్ క్రైమ్ బ్రాంచ్ పోలీసులు దాదాపు ₹1.75 కోట్ల విలువైన మాదకద్రవ్యాలు పట్టుకున్నారు. పోలీసుల ప్రకారం, సక్కర్‌దరా, మహల్ ప్రాంతాల్లో సోదాలు చేయగా 820 గ్రాముల ఎండీ, 650 గ్రాముల స్ఫటిక పదార్థం దొరికాయి. ముగ్గురు నిందితులను అదుపులోకి తీసుకున్నారు. సరఫరాదారుల కోసం దర్యాప్తు మధ్యప్రదేశ్‌కు విస్తరించింది.",
+   "src": "TV9 Telugu",
+   "url": "https://tv9telugu.com/telangana/telangana-eagle-force-intelligence-leads-to-rs-1-75-crore-drug-seizure-in-maharashtra-1968820.html",
+   "srcs": [
+    {
+     "n": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/telangana/telangana-eagle-inputs-lead-to-seizure-of-narcotic-substances-worth-175-crore-in-nagpur-three-detained/article71754999.ece"
+    }
+   ],
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "నాగ్‌పూర్",
+   "pts": [
+    "₹1.40 లక్షల నగదు, ఫోన్లు, తూకం యంత్రాలు కూడా దొరికాయి",
+    "2 గ్రాముల పొట్లం ₹3,500కు అమ్మాలనుకున్నారు: పోలీసులు"
+   ],
+   "why": "రాష్ట్రాల పోలీసులు కలిసి పనిచేస్తే డ్రగ్స్ సరఫరాను అడ్డుకోవచ్చని ఇది చూపుతోంది.",
+   "pub": "2026-11-28T21:30+05:30",
+   "lbl": "fact",
+   "vs": "confirmed",
+   "en": {
+    "cat": "Telangana · Crime",
+    "stat": "3 detained",
+    "statl": "in ₹1.75 crore drugs case",
+    "loc": "Nagpur",
+    "h": "Telangana tip-off leads to Nagpur drug haul",
+    "p": "Acting on information from Telangana's EAGLE Force, the Nagpur Crime Branch in Maharashtra seized drugs worth about ₹1.75 crore, police said. Searches in the Sakkardara and Mahal areas yielded 820 grams of mephedrone and 650 grams of a crystalline substance. Three suspects were taken into custody, and the probe into suppliers has extended to Madhya Pradesh.",
+    "pts": [
+     "₹1.40 lakh cash, phones and weighing machines also found",
+     "Plan was to sell 2-gram packs at ₹3,500 each: police"
+    ],
+    "why": "It shows how police forces of two states working together can cut off drug supply."
+   },
+   "hi": {
+    "cat": "तेलंगाना · अपराध",
+    "stat": "3 हिरासत में",
+    "statl": "₹1.75 करोड़ के ड्रग्स मामले में",
+    "loc": "नागपुर",
+    "h": "तेलंगाना की सूचना पर नागपुर में ड्रग्स पकड़े गए",
+    "p": "तेलंगाना की ईगल फ़ोर्स से मिली सूचना पर महाराष्ट्र की नागपुर क्राइम ब्रांच ने करीब ₹1.75 करोड़ के मादक पदार्थ पकड़े। पुलिस के मुताबिक सक्करदरा और महल इलाकों में तलाशी में 820 ग्राम एमडी और 650 ग्राम क्रिस्टल जैसा पदार्थ मिला। तीन आरोपियों को हिरासत में लिया गया। सप्लायरों की जाँच मध्य प्रदेश तक पहुँची है।",
+    "pts": [
+     "₹1.40 लाख नकद, फ़ोन और तौल मशीनें भी मिलीं",
+     "2 ग्राम की पुड़िया ₹3,500 में बेचने की योजना थी: पुलिस"
+    ],
+    "why": "इससे दिखता है कि दो राज्यों की पुलिस मिलकर ड्रग्स की सप्लाई रोक सकती है।"
+   },
+   "d": "28.11.2026",
+   "t": "22:05"
+  },
+  {
+   "cat": "తెలంగాణ · పెట్టుబడులు",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "e/photo-revanth-reddy",
+   "stat": "డిసెంబర్ 7–9",
+   "statl": "తెలంగాణ గ్లోబల్ సమ్మిట్",
+   "h": "అనన్య బిర్లాకు గ్లోబల్ సమ్మిట్ ఆహ్వానం",
+   "p": "వ్యాపారవేత్త, గాయని అనన్య బిర్లా హైదరాబాద్‌లో ముఖ్యమంత్రి రేవంత్ రెడ్డిని మర్యాదపూర్వకంగా కలిశారు. ఇన్వెస్ట్ తెలంగాణ గ్లోబల్ సమ్మిట్‌కు రావాలని సీఎం ఆమెను ఆహ్వానించారు. తెలంగాణ రైజింగ్ కార్యక్రమానికి ఆమె మద్దతు తెలిపారు. రాష్ట్రంలో పెట్టుబడులు పెట్టడానికి ఆసక్తి చూపారు. సమ్మిట్ డిసెంబర్ 7 నుంచి 9 వరకు భారత్ ఫ్యూచర్ సిటీలో జరుగుతుంది.",
+   "src": "The Siasat Daily",
+   "url": "https://www.siasat.com/revanth-reddy-invites-ananya-birla-to-telangana-global-summit-3589353/",
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pts": [
+    "ఎంసీఆర్ హెచ్‌ఆర్‌డీ సంస్థలో ఈ భేటీ జరిగింది",
+    "స్వతంత్ర మైక్రోఫిన్ సంస్థను అనన్య స్థాపించారు",
+    "పెట్టుబడుల వివరాలు ఇంకా ప్రకటించలేదు"
+   ],
+   "why": "సమ్మిట్ ద్వారా పెట్టుబడులు వస్తే రాష్ట్ర యువతకు ఉద్యోగ అవకాశాలు పెరుగుతాయి.",
+   "next": "సమ్మిట్ డిసెంబర్ 7న మొదలవుతుంది",
+   "pub": "2026-11-28T21:45+05:30",
+   "lbl": "fact",
+   "vs": "single",
+   "en": {
+    "cat": "Telangana · Investment",
+    "stat": "December 7–9",
+    "statl": "Invest Telangana Global Summit",
+    "loc": "Hyderabad",
+    "h": "CM invites Ananya Birla to Global Summit",
+    "p": "Entrepreneur and singer Ananya Birla paid a courtesy call on Chief Minister A. Revanth Reddy in Hyderabad, where he invited her to the Invest Telangana Global Summit. She voiced support for the Telangana Rising initiative and interest in investing in the state. The summit will be held from December 7 to 9 at Bharat Future City.",
+    "pts": [
+     "The meeting took place at the MCRHRD Institute",
+     "Ananya Birla founded Svatantra Microfin",
+     "No investment details have been announced yet"
+    ],
+    "why": "If the summit brings investment, job opportunities for the state's youth can grow.",
+    "next": "The summit opens on December 7"
+   },
+   "hi": {
+    "cat": "तेलंगाना · निवेश",
+    "stat": "7–9 दिसंबर",
+    "statl": "इन्वेस्ट तेलंगाना ग्लोबल समिट",
+    "loc": "हैदराबाद",
+    "h": "सीएम ने अनन्या बिड़ला को ग्लोबल समिट में बुलाया",
+    "p": "उद्यमी और गायिका अनन्या बिड़ला ने हैदराबाद में मुख्यमंत्री रेवंत रेड्डी से शिष्टाचार भेंट की। मुख्यमंत्री ने उन्हें इन्वेस्ट तेलंगाना ग्लोबल समिट में आने का न्योता दिया। उन्होंने तेलंगाना राइज़िंग पहल का समर्थन किया और राज्य में निवेश में रुचि दिखाई। समिट 7 से 9 दिसंबर तक भारत फ़्यूचर सिटी में होगा।",
+    "pts": [
+     "यह भेंट एमसीआर एचआरडी संस्थान में हुई",
+     "अनन्या ने स्वतंत्र माइक्रोफ़िन की स्थापना की",
+     "निवेश का ब्योरा अभी घोषित नहीं हुआ"
+    ],
+    "why": "समिट से निवेश आया तो राज्य के युवाओं के लिए रोज़गार के मौके बढ़ेंगे।",
+    "next": "समिट 7 दिसंबर से शुरू होगा"
+   },
+   "d": "28.11.2026",
+   "t": "22:05"
+  },
+  {
+   "cat": "ఏపీ · పరిశ్రమలు",
+   "col": "--c-money",
+   "art": "economy",
+   "pic": "e/industrial-production",
+   "stat": "₹3,378 కోట్ల",
+   "statl": "ఉక్కు ప్లాంట్ విస్తరణ",
+   "h": "కర్నూలు ఉక్కు ప్లాంట్‌కు ₹3,378 కోట్లు",
+   "p": "కర్నూలు జిల్లా ఓర్వకల్లు పారిశ్రామిక హబ్‌లో జై రాజ్ ఇస్పాత్ సంస్థ రెండో దశ విస్తరణ చేపట్టనుందని మంత్రి నారా లోకేశ్ తెలిపారు. 600 ఎకరాల్లో ₹3,378 కోట్లు పెట్టుబడి పెడుతుందని చెప్పారు. దీంతో రాయలసీమ యువతకు మరో 934 ఉద్యోగాలు నేరుగా వస్తాయన్నారు. ఇప్పటికే 430 ఎకరాల్లో ఉన్న ఉక్కు కర్మాగారంలో ₹2,100 కోట్లకు పైగా పెట్టుబడి పెట్టారు.",
+   "src": "Telugu360",
+   "url": "https://www.telugu360.com/te/minister-nara-lokesh-announced-jai-raj-ispats-rs-3378-crore-investment-for-expansion-in-orvakal/",
+   "srcs": [
+    {
+     "n": "The Hindu",
+     "u": "https://www.thehindu.com/news/national/andhra-pradesh/jai-raj-ispats-second-phase-to-bring-3378-crore-investment-to-kurnool/article71754672.ece"
+    }
+   ],
+   "sec": [
+    "telangana",
+    "business"
+   ],
+   "st": "AP",
+   "place": "ap-kurnool",
+   "loc": "ఓర్వకల్లు",
+   "pts": [
+    "ప్రస్తుత కార్మికుల్లో 65 శాతం స్థానికులే: లోకేశ్",
+    "2018 మేలో ఈ కర్మాగారానికి శంకుస్థాపన"
+   ],
+   "why": "కర్నూలు, రాయలసీమ యువతకు సొంత ప్రాంతంలోనే కొత్త ఉద్యోగాలు వచ్చే అవకాశం ఉంది.",
+   "pub": "2026-11-28T17:42+05:30",
+   "lbl": "fact",
+   "vs": "confirmed",
+   "en": {
+    "cat": "AP · Industry",
+    "stat": "₹3,378 crore",
+    "statl": "steel plant expansion",
+    "loc": "Orvakal, Kurnool",
+    "h": "₹3,378 crore expansion for Kurnool steel plant",
+    "p": "Jai Raj Ispat will take up a second expansion phase at the Orvakal industrial hub in Kurnool district, Minister Nara Lokesh said. The company will invest ₹3,378 crore on 600 acres, creating 934 more direct jobs for Rayalaseema youth, he said. Its existing steel plant covers 430 acres, with over ₹2,100 crore already invested.",
+    "pts": [
+     "65% of current workers are local: Lokesh",
+     "Foundation stone for the plant was laid in May 2018"
+    ],
+    "why": "Young people in Kurnool and Rayalaseema may get new jobs close to home."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · उद्योग",
+    "stat": "₹3,378 करोड़",
+    "statl": "इस्पात संयंत्र का विस्तार",
+    "loc": "ओर्वकल, कर्नूल",
+    "h": "कर्नूल इस्पात संयंत्र के विस्तार पर ₹3,378 करोड़",
+    "p": "मंत्री नारा लोकेश ने बताया कि जय राज इस्पात कर्नूल ज़िले के ओर्वकल औद्योगिक हब में दूसरे चरण का विस्तार करेगी। कंपनी 600 एकड़ में ₹3,378 करोड़ लगाएगी, जिससे रायलसीमा के युवाओं को 934 और सीधी नौकरियाँ मिलेंगी। मौजूदा इस्पात संयंत्र 430 एकड़ में है और उसमें ₹2,100 करोड़ से ज़्यादा निवेश हो चुका है।",
+    "pts": [
+     "मौजूदा कामगारों में 65% स्थानीय: लोकेश",
+     "संयंत्र का शिलान्यास मई 2018 में हुआ था"
+    ],
+    "why": "कर्नूल और रायलसीमा के युवाओं को अपने इलाके में ही नई नौकरियाँ मिल सकती हैं।"
+   },
+   "d": "28.11.2026",
+   "t": "22:05"
+  },
+  {
+   "cat": "తెలంగాణ · సంగారెడ్డి",
+   "col": "--c-water",
+   "art": "farm",
+   "pic": "logo",
+   "stat": "తడిసిన ధాన్యం",
+   "statl": "కొనుగోలు కేంద్రాల్లో",
+   "h": "సంగారెడ్డిలో ధాన్యం తడిసి రాస్తారోకో",
+   "p": "సంగారెడ్డి జిల్లాలో అకాల వర్షానికి కొనుగోలు కేంద్రాల్లోని ధాన్యం తడిసిపోయింది. జోగిపేట మార్కెట్‌లో ధాన్యం కుప్పలు తడిశాయి. 25 రోజుల కిందటే ధాన్యం తెచ్చామని, టార్పాలిన్లు ఇవ్వలేదని రైతులు ఆరోపించారు. శనివారం హత్నూర మండలం సిరిపురం రైతులు నర్సాపూర్–జోగిపేట రోడ్డుపై రాస్తారోకో చేశారు. అధికారులు లారీలు ఏర్పాటు చేయడంతో ఆందోళన విరమించారు.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/soaked-paddy-stocks-at-procurement-centres-leave-farmers-in",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "TG",
+   "place": "sangareddy",
+   "loc": "జోగిపేట, హత్నూర",
+   "pts": [
+    "అందోల్, చౌటకూర్, పుల్కల్‌లోనూ ధాన్యం దెబ్బతింది",
+    "లారీల కొరత ఉందని రైతుల మాట",
+    "తేమ, రంగు నిబంధనలు పట్టుబట్టవద్దని డిమాండ్"
+   ],
+   "why": "కొనుగోళ్లు ఆలస్యమైతే వానలకు పంట తడిసి రైతులు నష్టపోతారు.",
+   "pub": "2026-11-28T20:27+05:30",
+   "lbl": "claim",
+   "vs": "single",
+   "en": {
+    "cat": "Telangana · Sangareddy",
+    "stat": "Paddy soaked",
+    "statl": "at procurement centres",
+    "loc": "Jogipet, Hathnoor",
+    "h": "Sangareddy farmers block road over wet paddy",
+    "p": "Unseasonal rain soaked paddy lying at procurement centres in Sangareddy district, including heaps at the Jogipet market. Farmers alleged they had brought their grain 25 days ago and were not given tarpaulins. On Saturday, farmers of Siripuram in Hathnoor mandal blocked the Narsapur–Jogipet road. They ended the protest after officials arranged lorries to move the grain.",
+    "pts": [
+     "Paddy also damaged in Andole, Choutakur and Pulkal",
+     "Farmers say there is a shortage of lorries",
+     "They want moisture and colour norms not insisted on"
+    ],
+    "why": "When procurement is delayed, rain can ruin the harvest and farmers bear the loss."
+   },
+   "hi": {
+    "cat": "तेलंगाना · संगारेड्डी",
+    "stat": "धान भीगा",
+    "statl": "ख़रीद केंद्रों पर",
+    "loc": "जोगीपेट, हत्नूर",
+    "h": "संगारेड्डी में धान भीगा, किसानों ने सड़क रोकी",
+    "p": "संगारेड्डी ज़िले में बेमौसम बारिश से ख़रीद केंद्रों पर रखा धान भीग गया; जोगीपेट मंडी में भी ढेर भीगे। किसानों का आरोप है कि वे 25 दिन पहले धान लाए थे और तिरपाल नहीं दिए गए। शनिवार को हत्नूर मंडल के सिरिपुरम के किसानों ने नरसापुर–जोगीपेट सड़क रोकी। अधिकारियों ने लॉरियों का इंतज़ाम किया तो आंदोलन ख़त्म हुआ।",
+    "pts": [
+     "अंदोल, चौटकुर और पुल्कल में भी धान ख़राब",
+     "किसानों के मुताबिक लॉरियों की कमी है",
+     "नमी और रंग के नियमों पर ज़ोर न देने की माँग"
+    ],
+    "why": "ख़रीद में देरी हो तो बारिश में फ़सल भीगती है और नुकसान किसान उठाते हैं।"
+   },
+   "d": "28.11.2026",
+   "t": "22:05"
+  },
+  {
+   "cat": "తెలంగాణ · క్రికెట్",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/cricket-match",
+   "stat": "3 వికెట్లు",
+   "statl": "తీసిన వేద్ రెడ్డి",
+   "h": "కూచ్ బెహార్ ట్రోఫీలో హైదరాబాద్ పైచేయి",
+   "p": "కూచ్ బెహార్ ట్రోఫీ తొలి రౌండ్ మ్యాచ్‌లో హైదరాబాద్ జట్టు చండీగఢ్‌పై పట్టు బిగించింది. చండీగఢ్‌లో శనివారం మూడో రోజు ఆతిథ్య జట్టు రెండో ఇన్నింగ్స్‌లో 6 వికెట్లకు 172 పరుగులు చేసింది. లెగ్ స్పిన్నర్ వేద్ రెడ్డి 64 పరుగులిచ్చి 3 వికెట్లు తీశాడు. హైదరాబాద్ రెండో ఇన్నింగ్స్‌ను 9 వికెట్లకు 370 పరుగుల వద్ద డిక్లేర్ చేసింది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/ved-reddy-takes-three-as-hyderabad-restricts-chandigarh-in-cooch-behar-trophy",
+   "sec": [
+    "telangana",
+    "sports"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pts": [
+    "హైదరాబాద్ తొలి ఇన్నింగ్స్‌లో 332 పరుగులు",
+    "చండీగఢ్ తొలి ఇన్నింగ్స్‌లో 201 పరుగులు",
+    "యశ్వీర్ గౌడ్ 117 పరుగులు చేశాడు"
+   ],
+   "why": "హైదరాబాద్ యువ క్రికెటర్ల ప్రదర్శనను అభిమానులు గమనించవచ్చు.",
+   "pub": "2026-11-28T20:25+05:30",
+   "lbl": "fact",
+   "vs": "single",
+   "en": {
+    "cat": "Telangana · Cricket",
+    "stat": "3 wickets",
+    "statl": "for Ved Reddy",
+    "loc": "Chandigarh",
+    "h": "Hyderabad on top in Cooch Behar Trophy tie",
+    "p": "Hyderabad tightened their grip on Chandigarh in their Cooch Behar Trophy first-round match. On the third day in Chandigarh on Saturday, the hosts were 172 for six in their second innings. Leg-spinner M. Ved Reddy took three wickets for 64 runs. Hyderabad had earlier declared their second innings at 370 for nine.",
+    "pts": [
+     "Hyderabad scored 332 in the first innings",
+     "Chandigarh made 201 in their first innings",
+     "Yashveer Goud scored 117"
+    ],
+    "why": "Fans can follow how Hyderabad's young cricketers are performing."
+   },
+   "hi": {
+    "cat": "तेलंगाना · क्रिकेट",
+    "stat": "3 विकेट",
+    "statl": "वेद रेड्डी के नाम",
+    "loc": "चंडीगढ़",
+    "h": "कूच बिहार ट्रॉफ़ी में हैदराबाद का पलड़ा भारी",
+    "p": "कूच बिहार ट्रॉफ़ी के पहले दौर के मैच में हैदराबाद ने चंडीगढ़ पर पकड़ मज़बूत की। चंडीगढ़ में शनिवार को तीसरे दिन मेज़बान टीम दूसरी पारी में 6 विकेट पर 172 रन पर थी। लेग स्पिनर एम. वेद रेड्डी ने 64 रन देकर 3 विकेट लिए। हैदराबाद ने दूसरी पारी 9 विकेट पर 370 रन पर घोषित की थी।",
+    "pts": [
+     "हैदराबाद की पहली पारी 332 रन",
+     "चंडीगढ़ की पहली पारी 201 रन",
+     "यशवीर गौड़ ने 117 रन बनाए"
+    ],
+    "why": "प्रशंसक हैदराबाद के युवा क्रिकेटरों का प्रदर्शन देख सकते हैं।"
+   },
+   "d": "28.11.2026",
+   "t": "22:05"
+  },
+  {
+   "cat": "భారత్ · క్రీడలు",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "logo",
+   "stat": "2 భారత జట్లు",
+   "statl": "క్వార్టర్ ఫైనల్స్‌కు",
+   "h": "స్నూకర్ ప్రపంచ కప్ క్వార్టర్స్‌లో భారత్",
+   "p": "ఒమన్‌లోని మస్కట్‌లో జరుగుతున్న స్నూకర్ ప్రపంచ కప్‌లో రెండు భారత జట్లూ శనివారం క్వార్టర్ ఫైనల్స్‌కు చేరాయి. పంకజ్ అద్వానీ, ఆదిత్య మెహతా, బ్రిజేశ్ దమానీల ఇండియా-ఎ జట్టు గ్రూప్‌లో ఒక్క మ్యాచ్ కూడా ఓడలేదు. చివరి మ్యాచ్‌లో యూఏఈపై 3–2తో గెలిచింది. ఇండియా-బి జట్టు అఫ్గానిస్థాన్‌ను 3–2తో ఓడించింది.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/indias-snooker-teams-storm-into-world-cup-quarterfinals",
+   "sec": [
+    "sports",
+    "india"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "",
+   "pts": [
+    "క్వార్టర్స్‌లో ఇండియా-ఎ ప్రత్యర్థి ఇరాన్-బి",
+    "ఇండియా-బి పాకిస్థాన్-బితో ఆడుతుంది",
+    "సౌరవ్ కొఠారి చివరి ఫ్రేమ్‌లో 82 బ్రేక్"
+   ],
+   "why": "స్నూకర్‌లో భారత్ పతకం గెలిచే అవకాశాలు మెరుగయ్యాయి.",
+   "pub": "2026-11-28T20:27+05:30",
+   "lbl": "fact",
+   "vs": "single",
+   "en": {
+    "cat": "India · Sports",
+    "stat": "2 Indian teams",
+    "statl": "in the quarterfinals",
+    "loc": "Muscat, Oman",
+    "h": "Both India teams in snooker World Cup quarters",
+    "p": "Both Indian teams reached the quarterfinals of the World Cup of Snooker in Muscat, Oman, on Saturday. India A, with Pankaj Advani, Aditya Mehta and Brijesh Damani, stayed unbeaten in their group and edged the UAE 3-2 in the last match. India B beat Afghanistan 3-2 to go through after losing their opener.",
+    "pts": [
+     "India A face Iran B in the quarterfinals",
+     "India B will play Pakistan B",
+     "Sourav Kothari made an 82 break in the deciding frame"
+    ],
+    "why": "India's chances of a medal in snooker have improved."
+   },
+   "hi": {
+    "cat": "भारत · खेल",
+    "stat": "2 भारतीय टीमें",
+    "statl": "क्वार्टर फ़ाइनल में",
+    "loc": "मस्कट, ओमान",
+    "h": "स्नूकर विश्व कप: दोनों भारतीय टीमें क्वार्टर में",
+    "p": "ओमान के मस्कट में चल रहे स्नूकर विश्व कप में शनिवार को दोनों भारतीय टीमें क्वार्टर फ़ाइनल में पहुँचीं। पंकज आडवाणी, आदित्य मेहता और ब्रिजेश दमानी की इंडिया-ए टीम ग्रुप में अजेय रही और आख़िरी मैच में यूएई को 3-2 से हराया। इंडिया-बी ने अफ़ग़ानिस्तान को 3-2 से हराकर जगह बनाई।",
+    "pts": [
+     "क्वार्टर में इंडिया-ए के सामने ईरान-बी",
+     "इंडिया-बी का मुक़ाबला पाकिस्तान-बी से",
+     "सौरव कोठारी ने निर्णायक फ़्रेम में 82 का ब्रेक बनाया"
+    ],
+    "why": "स्नूकर में भारत के पदक जीतने की संभावना बेहतर हुई है।"
+   },
+   "d": "28.11.2026",
+   "t": "22:05"
+  },
   {
    "cat": "హైదరాబాద్ · కళలు",
    "col": "--c-city",
