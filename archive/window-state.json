@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T16:05:00+05:30",
+ "cutoff": "2026-11-28T16:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T23:05:00+05:30/2026-11-25T23:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 3,
-   "published": 2,
-   "late": 0,
-   "sensitive": 0,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 1,
-   "review": 0,
-   "gaps": "Lookback from 15:05. Feeds 23:17 IST (66/68 ok; 45 uncovered unseen events first seen since 22:40, 11 local). add_repo tool not available; used existing clone. Published 2: V6 Suryapet fake death certificate, Thungathurthy tahsildar + health assistant suspended (22:39, fact), DC Tirupati food safety staff shortage/raid tip-offs (23:09, claim). Skipped: Adilabad 'Children Bank' fake notes gang (only News Mill copy opened, published 15:02, before lookback; Siasat 22:27 version not found by search). Old: Panjagutta AI police station (Pioneer 12 Nov). Not found by search: India Today Naidu no extra tax (AP revenue already published 15:05), PIB USTR Section 301 statement, ETV RERA fines, DC NH-44 fog, DC HC gratuity, DC DRDO DLRL, NTV Vijayasai padayatra, AP NCD survey tests, Kukatpally truck park protest, Narayanpet SP chain business, Jagtial vehicle auction, Women's Commission oocyte (Hindu). No world/India, no district searches. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-25T23:35:00+05:30/2026-11-26T05:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 07:35 Nov 28. Feeds 15:44 IST (73/77 ok; 2789 uncovered, 835 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open (typed feed URLs refused: PROVENANCE_REQUIRED). Published 5: Telangana Today Hyderabad CP meets faith leaders on Old City drugs (15:44, single), Siasat + Business Standard Karnataka/Telangana/Kerala CMs to meet on delimitation Nov 29 (14:13, confirmed, party politics, claim), NewsMeter OU free UPSC/Group coaching, apply by Dec 10 (14:56, single), Siasat + Business Today IndiGo resumes Jeddah/Madinah flights (11:23, confirmed, late-found), Tribune ANI + Asianet India-Denmark action plan 2026-2031 (14:57, confirmed). Duplicates (already on cards): Tirumala gold returned, KTR/BRS delimitation, Nampally job mela, INDIA bloc/Kharge. Skipped: Uganda Ebola vaccine trial (first reported 27 Nov, old); single source sensitive, not published: TT BRS alleges Congress-BJP pact, TT Hyderabad suicide. Not opened: The Hindu AP Skill India centre Rajamahendravaram, The Hindu Rajendra Singh on Musi, TT Khammam archery trials, TT gold/silver weekly, Minister Damodar TIMS review, Karimnagar silencers, Chandrababu Rajahmundry court event, Kakinada counting orders, TGRERA order (search surfaced no openable original today)."
+  },
+  {
+   "window": "2026-11-28T16:05:00+05:30/2026-11-28T16:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 4,
+   "published": 4,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 0,
+   "skipped": 4,
+   "review": 0,
+   "gaps": "Lookback from 08:05 Nov 28. Feeds 16:21 IST (73/75 ok; 2731 uncovered, 853 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 4: Telangana Today Panchayat Raj employees seek promotions (16:10, single), Telangana Today Musi Jan Andolan boycotts MRDCL consultation (16:20, single, claim), Telangana Today (IANS) Finance Ministry November review on Hormuz/oil import costs (15:50, single, forecast), Telangana Today (IANS) OpenAI counterclaims vs Apple (15:52, single, claim). Skipped old: TT Asifabad car-bike crash (published Jan 2025), DC/Hans AP phase-II panchayat polls preview (already seen old). Not opened/not surfaced: The Hindu AP Skill India centre, Chandrababu Rajahmundry court AI remarks (V6/Vaartha/Disha), Charlapalli-Srikakulam Sankranti specials (HT Telugu), TTD footpath decision (Oneindia), DC Vaikunta Dwara 8.34 lakh plan. Nalgonda/Kurnool district searches returned tag pages only. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -7643,6 +7643,31 @@
    "url": "https://telanganatoday.com/man-dies-after-employer-allegation",
    "d": "2026-11-28",
    "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/panchayat-raj-employees-seek-promotions-departmental",
+   "d": "2026-11-28",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/mja-boycotts-mrdcl-consultation-seeks-tender-cancellation",
+   "d": "2026-11-28",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/middle-east-conflict-may-raise-import-costs",
+   "d": "2026-11-28",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/openai-files-counterclaims-against-apple",
+   "d": "2026-11-28",
+   "w": "pub"
+  },
+  {
+   "url": "https://telanganatoday.com/man-killed-one-injured-as-car-mows-down-bike-in-telanganas-asifabad",
+   "d": "2026-11-28",
+   "w": "old"
   }
  ]
 }
