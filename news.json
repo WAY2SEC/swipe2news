@@ -1,8 +1,312 @@
 {
  "date": "28.11.2026",
- "updated": "2026-11-28T19:05:00+05:30",
+ "updated": "2026-11-28T19:35:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "తెలంగాణ · రంగారెడ్డి",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/remembrance-and-condolence",
+   "stat": "ముగ్గురు చిన్నారులు మృతి",
+   "statl": "రంగారెడ్డిలో",
+   "h": "రంగారెడ్డిలో ముగ్గురు చిన్నారులు మృతి",
+   "p": "రంగారెడ్డి జిల్లాలోని ఓ గ్రామంలో శనివారం ఉదయం ఇంటి నీటి సంపులో పడి ముగ్గురు ఆడపిల్లలు మృతి చెందారు. వారిలో ఇద్దరు 11 నెలల కవలలు. తల్లే పిల్లలను సంపులోకి తోసిందని పోలీసులు చెబుతున్నారు. ఇరుగుపొరుగువారు తల్లిని కాపాడారు. స్థానిక పోలీసులు కేసు నమోదు చేసి, తదుపరి చర్యలు తీసుకుంటామని చెప్పారు.",
+   "src": "The Siasat Daily",
+   "url": "https://www.siasat.com/3-girls-dead-after-mother-pushes-them-into-sump-in-rangareddy-3589262/",
+   "srcs": [
+    {
+     "n": "Namasthe Telangana",
+     "u": "https://www.ntnews.com/telangana/horrific-incident-mother-throws-three-daughters-into-a-water-tank-and-attempts-suicide-2571201"
+    }
+   ],
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "rangareddy",
+   "loc": "",
+   "pts": [
+    "పెద్ద పాప వయసు రెండేళ్లు",
+    "కుటుంబ గొడవలే కారణమని పోలీసుల సమాచారం",
+    "ఇటీవల గొడవలు లేవని భర్త చెప్పారని నమస్తే తెలంగాణ"
+   ],
+   "why": "కుటుంబ కలహాలతో మానసిక ఒత్తిడిలో ఉన్నవారు టెలీ-మానస్ 14416కు ఫోన్ చేసి సాయం పొందవచ్చు.",
+   "pub": "2026-11-28T19:19+05:30",
+   "lbl": "fact",
+   "vs": "confirmed",
+   "en": {
+    "cat": "Telangana · Ranga Reddy",
+    "stat": "3 children dead",
+    "statl": "in Ranga Reddy district",
+    "loc": "Ranga Reddy district",
+    "h": "Three girls die in water sump in Ranga Reddy",
+    "p": "Three young girls, including 11-month-old twins, died after falling into the water sump at their home in a village in Ranga Reddy district on Saturday morning. Police say the mother allegedly pushed the children into the sump. Neighbours rescued the mother. Police said a case is being registered and further legal action will follow.",
+    "pts": [
+     "The eldest girl was two years old",
+     "Police cite family disputes as the reason",
+     "Namasthe Telangana quotes the husband denying recent quarrels"
+    ],
+    "why": "Anyone under emotional stress from family conflict can call Tele-MANAS on 14416 for help."
+   },
+   "hi": {
+    "cat": "तेलंगाना · रंगारेड्डी",
+    "stat": "3 बच्चियों की मौत",
+    "statl": "रंगारेड्डी ज़िले में",
+    "loc": "रंगारेड्डी ज़िला",
+    "h": "रंगारेड्डी में पानी के संप में 3 बच्चियों की मौत",
+    "p": "रंगारेड्डी ज़िले के एक गाँव में शनिवार सुबह घर के पानी के संप में गिरकर तीन बच्चियों की मौत हो गई, जिनमें 11 महीने की जुड़वाँ बहनें भी थीं। पुलिस के अनुसार माँ ने कथित तौर पर बच्चियों को संप में धकेला। पड़ोसियों ने माँ को बचा लिया। पुलिस मामला दर्ज कर रही है।",
+    "pts": [
+     "सबसे बड़ी बच्ची दो साल की थी",
+     "पुलिस के अनुसार वजह पारिवारिक झगड़े",
+     "नमस्ते तेलंगाना के अनुसार पति ने हाल के झगड़ों से इनकार किया"
+    ],
+    "why": "पारिवारिक कलह से मानसिक तनाव में रहने वाले टेली-मानस 14416 पर मदद ले सकते हैं।"
+   },
+   "d": "28.11.2026",
+   "t": "19:35"
+  },
+  {
+   "cat": "తెలంగాణ · ప్రభుత్వం",
+   "col": "--c-gov",
+   "art": "unity",
+   "pic": "e/logo-telangana-govt",
+   "stat": "8 మంది ఐఏఎస్‌ల",
+   "statl": "బదిలీ",
+   "h": "తెలంగాణలో 8 మంది ఐఏఎస్‌ల బదిలీ",
+   "p": "తెలంగాణ ప్రభుత్వం శనివారం 8 మంది ఐఏఎస్, నాన్ క్యాడర్ అధికారులను బదిలీ చేస్తూ ఉత్తర్వులు జారీ చేసింది. హెచ్ఎండీఏ కొత్త కమిషనర్‌గా ఈవీ నరసింహారెడ్డిని నియమించారు. సర్ఫరాజ్ అహ్మద్ జీహెచ్ఎంసీ, సైబరాబాద్, మల్కాజిగిరి కార్పొరేషన్ల ప్రత్యేక అధికారిగా వెళ్తున్నారు. హైదరాబాద్ మెట్రో ఎండీ బాధ్యతలు అజిత్ రెడ్డికి అదనంగా అప్పగించారు.",
+   "src": "Andhra Jyothy",
+   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/telangana-government-transfers-8-ias-and-non-cadre-officers-vk-1580623.html",
+   "srcs": [
+    {
+     "n": "Namasthe Telangana",
+     "u": "https://www.ntnews.com/telangana/transfer-of-eight-ias-officers-in-the-state-sarfaraz-appointed-as-special-officer-2571400"
+    }
+   ],
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "TS",
+   "loc": "",
+   "pts": [
+    "సీఎస్ సంజయ్ జాజు ఉత్తర్వులు ఇచ్చారని ఆంధ్రజ్యోతి",
+    "హెచ్ఎండీఏ జాయింట్ కమిషనర్‌గా కె. చంద్రకళ",
+    "మెట్రో జాయింట్ ఎండీగా మనోజ్ నియామకం"
+   ],
+   "why": "హైదరాబాద్ నగర అభివృద్ధి, మెట్రో, కార్పొరేషన్ల పనులను ఇకపై ఈ కొత్త అధికారులు చూస్తారు.",
+   "pub": "2026-11-28T18:52+05:30",
+   "lbl": "fact",
+   "vs": "confirmed",
+   "en": {
+    "cat": "Telangana · Government",
+    "stat": "8 IAS officers",
+    "statl": "transferred",
+    "loc": "Telangana",
+    "h": "Telangana transfers 8 IAS officers",
+    "p": "The Telangana government on Saturday transferred eight IAS and non-cadre officers. E.V. Narasimha Reddy is the new HMDA Metropolitan Commissioner, while Sarfaraz Ahmad moves out of HMDA to serve as special officer for the GHMC, Cyberabad and Malkajgiri corporations. Ajith Reddy has been given charge as managing director of Hyderabad Metro Rail.",
+    "pts": [
+     "Andhra Jyothy says Chief Secretary Sanjay Jaju issued the orders",
+     "K. Chandrakala named HMDA Joint Metropolitan Commissioner",
+     "Manoj appointed Joint MD of Hyderabad Metro Rail"
+    ],
+    "why": "These officers will now run Hyderabad's development, metro and civic corporation work."
+   },
+   "hi": {
+    "cat": "तेलंगाना · सरकार",
+    "stat": "8 IAS अफ़सर",
+    "statl": "तबादला",
+    "loc": "तेलंगाना",
+    "h": "तेलंगाना में 8 IAS अफ़सरों का तबादला",
+    "p": "तेलंगाना सरकार ने शनिवार को 8 IAS और नॉन-कैडर अफ़सरों का तबादला किया। ई.वी. नरसिम्हा रेड्डी HMDA के नए कमिश्नर बने। सरफ़राज़ अहमद अब GHMC, साइबराबाद और मलकाजगिरी कॉर्पोरेशन के विशेष अधिकारी होंगे। हैदराबाद मेट्रो के MD की ज़िम्मेदारी अजित रेड्डी को दी गई।",
+    "pts": [
+     "आंध्र ज्योति के अनुसार मुख्य सचिव संजय जाजू ने आदेश जारी किए",
+     "के. चंद्रकला HMDA की संयुक्त कमिश्नर बनीं",
+     "मनोज हैदराबाद मेट्रो के संयुक्त MD बने"
+    ],
+    "why": "हैदराबाद के विकास, मेट्रो और नगर निगमों का काम अब ये अफ़सर देखेंगे।"
+   },
+   "d": "28.11.2026",
+   "t": "19:35"
+  },
+  {
+   "cat": "హైదరాబాద్ · నీరు",
+   "col": "--c-water",
+   "art": "water",
+   "pic": "e/drinking-water-scheme",
+   "stat": "మరింత తాగునీరు",
+   "statl": "ఉస్మాన్‌సాగర్ నుంచి",
+   "h": "ఉస్మాన్‌సాగర్ నుంచి మరింత తాగునీరు",
+   "p": "హైదరాబాద్‌లో పెరుగుతున్న తాగునీటి అవసరాల కోసం ఉస్మాన్‌సాగర్ నుంచి రోజుకు అదనంగా 21 ఎంజీడీ నీరు తీసుకోవాలని జలమండలి ప్రణాళిక వేస్తోంది. షేక్‌పేట ఫిల్టర్ బెడ్స్ దగ్గర అంతే సామర్థ్యంతో కొత్త శుద్ధి కేంద్రం కడతారు. జలమండలి ఎండీ అశోక్ రెడ్డి శనివారం అధికారులతో కలిసి పైప్‌లైన్ మార్గాన్ని పరిశీలించి ఈ విషయం చెప్పారు.",
+   "src": "Telangana Today",
+   "url": "https://telanganatoday.com/hmwssb-plans-21-mgd-osman-sagar-draw",
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "షేక్‌పేట",
+   "pts": [
+    "కోకాపేట వై జంక్షన్ నుంచి పైప్‌లైన్ మార్గం పరిశీలన",
+    "1,200, 1,300 మిల్లీమీటర్ల వెడల్పుతో రెండు పైప్‌లైన్లు",
+    "ఎంజీఐటీ నుంచి పుప్పాలగూడ వరకు 6 కిలోమీటర్లు నడిచి పరిశీలన"
+   ],
+   "why": "షేక్‌పేట పరిసర ప్రాంతాల ప్రజలకు తాగునీటి సరఫరా ఈ ప్రణాళికతో ముడిపడి ఉంది.",
+   "pub": "2026-11-28T18:58+05:30",
+   "lbl": "fact",
+   "vs": "single",
+   "en": {
+    "cat": "Hyderabad · Water",
+    "stat": "21 MGD more",
+    "statl": "from Osman Sagar",
+    "loc": "Shaikpet, Hyderabad",
+    "h": "Water Board plans more water from Osman Sagar",
+    "p": "To meet Hyderabad's growing drinking water demand, the Water Board is preparing a plan to draw an extra 21 million gallons a day from Osman Sagar. A new treatment plant of the same capacity is planned at the Shaikpet filter beds. Managing director K. Ashok Reddy shared the plan on Saturday after a field inspection.",
+    "pts": [
+     "Pipeline route from Kokapet Y-Junction under review",
+     "Two pipelines of 1,200 mm and 1,300 mm diameter",
+     "Officials walked 6 km from MGIT to Puppalaguda"
+    ],
+    "why": "The plan concerns drinking water supply for areas around Shaikpet."
+   },
+   "hi": {
+    "cat": "हैदराबाद · पानी",
+    "stat": "21 MGD अतिरिक्त",
+    "statl": "उस्मान सागर से",
+    "loc": "शेखपेट, हैदराबाद",
+    "h": "उस्मान सागर से शहर को और पीने का पानी",
+    "p": "हैदराबाद में पीने के पानी की बढ़ती माँग पूरी करने के लिए जल बोर्ड उस्मान सागर से रोज़ 21 MGD अतिरिक्त पानी लेने की योजना बना रहा है। शेखपेट फ़िल्टर बेड पर उतनी ही क्षमता का नया शोधन संयंत्र बनेगा। प्रबंध निदेशक के. अशोक रेड्डी ने शनिवार को यह जानकारी दी।",
+    "pts": [
+     "कोकापेट वाई-जंक्शन से पाइपलाइन मार्ग की समीक्षा",
+     "1,200 और 1,300 मिमी की दो पाइपलाइनें",
+     "अधिकारियों ने MGIT से पुप्पालगुडा तक 6 किमी पैदल जाँच की"
+    ],
+    "why": "यह योजना शेखपेट के आसपास के इलाकों की पेयजल आपूर्ति से जुड़ी है।"
+   },
+   "d": "28.11.2026",
+   "t": "19:35"
+  },
+  {
+   "cat": "హైదరాబాద్ · సైబర్ నేరం",
+   "col": "--c-city",
+   "art": "unity",
+   "pic": "e/cyber-fraud-complaint",
+   "stat": "₹10 లక్షల మోసం",
+   "statl": "ఇన్‌స్టాగ్రామ్‌లో",
+   "h": "ఇన్‌స్టాగ్రామ్‌లో ₹10 లక్షల పెళ్లి మోసం",
+   "p": "ఇన్‌స్టాగ్రామ్‌లో నకిలీ ఖాతాతో ధనిక డాక్టర్‌నని చెప్పి, పెళ్లి చేసుకుంటానని నమ్మించి ఓ సాఫ్ట్‌వేర్ ఉద్యోగిని నుంచి సుమారు ₹10 లక్షలు, బంగారం తీసుకున్నారని సైబరాబాద్ సైబర్ క్రైమ్ పోలీసులు తెలిపారు. ప్రధాన నిందితుడిని, అతడి తల్లిని అరెస్ట్ చేశారు. మరో బంధువు పరారీలో ఉన్నాడని, అతని కోసం గాలిస్తున్నామని పోలీసులు చెప్పారు.",
+   "src": "NewsMeter",
+   "url": "https://newsmeter.in/hyderabad/fake-doctor-fake-marriage-promise-hyderabad-techie-loses-10-lakh-to-instagram-fraud-780193",
+   "srcs": [
+    {
+     "n": "Telangana Today",
+     "u": "https://telanganatoday.com/man-and-mother-held-for-cheating-woman"
+    }
+   ],
+   "sec": [
+    "telangana"
+   ],
+   "st": "TG",
+   "place": "hyderabad",
+   "loc": "",
+   "pts": [
+    "సుమారు 20 గ్రాముల బంగారం పోలీసులు తిరిగి తెచ్చారు",
+    "ఓటీపీలతో ₹2.16 లక్షల రుణం తీసుకున్నారని ఆరోపణ",
+    "మోసపోతే 1930కు ఫోన్ చేయాలని పోలీసుల సూచన"
+   ],
+   "why": "సోషల్ మీడియాలో పెళ్లి సంబంధాలు చూస్తున్నవారు ఇలాంటి మోసాల పట్ల అప్రమత్తంగా ఉండాలని పోలీసులు చెబుతున్నారు.",
+   "pub": "2026-11-28T15:55+05:30",
+   "lbl": "fact",
+   "vs": "confirmed",
+   "en": {
+    "cat": "Hyderabad · Cybercrime",
+    "stat": "₹10 lakh fraud",
+    "statl": "via Instagram marriage offer",
+    "loc": "Hyderabad",
+    "h": "Fake 'doctor' cons techie of ₹10 lakh",
+    "p": "Cyberabad cybercrime police say a man posing as a wealthy doctor on a fake Instagram profile promised to marry a woman software employee and took about ₹10 lakh and gold jewellery from her. The prime accused and his mother, who allegedly helped make the proposal look genuine, have been arrested. A relative remains absconding.",
+    "pts": [
+     "About 20 grams of gold recovered",
+     "Accused allegedly misused OTPs to take a ₹2.16 lakh loan",
+     "Police urge victims to dial 1930"
+    ],
+    "why": "Police say people looking for matches on social media should watch out for such frauds."
+   },
+   "hi": {
+    "cat": "हैदराबाद · साइबर अपराध",
+    "stat": "₹10 लाख की ठगी",
+    "statl": "इंस्टाग्राम शादी के नाम पर",
+    "loc": "हैदराबाद",
+    "h": "इंस्टाग्राम पर नकली डॉक्टर ने ठगे ₹10 लाख",
+    "p": "साइबराबाद साइबर क्राइम पुलिस के अनुसार इंस्टाग्राम पर नकली प्रोफ़ाइल से ख़ुद को अमीर डॉक्टर बताकर और शादी का वादा कर एक आदमी ने सॉफ़्टवेयर कर्मचारी महिला से करीब ₹10 लाख और सोने के गहने ले लिए। मुख्य आरोपी और उसकी माँ गिरफ़्तार हुए। एक रिश्तेदार फ़रार है।",
+    "pts": [
+     "करीब 20 ग्राम सोना बरामद",
+     "आरोप: OTP से ₹2.16 लाख का लोन लिया",
+     "ठगी होने पर 1930 पर कॉल करें: पुलिस"
+    ],
+    "why": "पुलिस के अनुसार सोशल मीडिया पर रिश्ते ढूँढने वाले ऐसी ठगी से सावधान रहें।"
+   },
+   "d": "28.11.2026",
+   "t": "19:35"
+  },
+  {
+   "cat": "ఏపీ · రైతులు",
+   "col": "--c-money",
+   "art": "farm",
+   "pic": "logo",
+   "stat": "₹2,459 కోట్లు",
+   "statl": "కరవు, తుపాను సాయానికి",
+   "h": "ఏపీలో కరవు, తుపాను రైతులకు త్వరగా సాయం",
+   "p": "ఏపీలో ఎల్‌నినో కరవు, ఆర్నవ్, మురసు తుపానుల వల్ల నష్టపోయిన రైతులకు పెట్టుబడి సాయం త్వరగా అందించాలని సీఎం చంద్రబాబు నాయుడు అధికారులను ఆదేశించారు. శనివారం అమరావతిలో ఆయన ఉన్నతాధికారులతో సమీక్ష జరిపారు. పంటలు, ఉద్యాన పంటలు, పశువుల నష్టాలకు రాష్ట్ర విపత్తు నిధి నుంచి ₹2,459 కోట్లు విడుదల చేయాలని అధికారులు ప్రతిపాదించారు.",
+   "src": "Deccan Chronicle",
+   "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/naidu-directs-officials-to-utilise-disaster-management-funds-to-provide-relief-to-people-affected-by-drought-cyclones-2008850",
+   "sec": [
+    "telangana",
+    "agri"
+   ],
+   "st": "AP",
+   "place": "AP",
+   "loc": "అమరావతి",
+   "pts": [
+    "కరవుకు ₹1,721 కోట్లు, ఆర్నవ్‌కు ₹602 కోట్లు, మురసుకు ₹97 కోట్లు",
+    "ప్రతి రైతుకు బీమా పరిహారం కూడా అందాలని ఆదేశం",
+    "సాయం నేరుగా బ్యాంకు ఖాతాల్లో వేయాలని సూచన"
+   ],
+   "why": "కరవు, తుపానులతో పంటలు, పశువులు నష్టపోయిన ఏపీ రైతులకు ఈ సాయం చేరుతుంది.",
+   "pub": "2026-11-28T18:48+05:30",
+   "lbl": "fact",
+   "vs": "single",
+   "en": {
+    "cat": "AP · Farmers",
+    "stat": "₹2,459 crore",
+    "statl": "proposed for drought, cyclone relief",
+    "loc": "Amaravati",
+    "h": "Naidu wants quick aid for AP farmers",
+    "p": "Chief Minister N. Chandrababu Naidu told officials in Amaravati on Saturday to release input subsidies quickly to farmers hit by the El Niño drought and Cyclones Arnav and Murasu. Officials proposed releasing ₹2,459 crore from the State Disaster Response Fund for losses in farming, horticulture and animal husbandry, as per national norms.",
+    "pts": [
+     "₹1,721 crore for drought, ₹602 crore Arnav, ₹97 crore Murasu",
+     "Every affected farmer must also get insurance compensation",
+     "Aid to be paid directly into bank accounts"
+    ],
+    "why": "The aid is meant for AP farmers whose crops and livestock suffered in the drought and cyclones."
+   },
+   "hi": {
+    "cat": "आंध्र प्रदेश · किसान",
+    "stat": "₹2,459 करोड़",
+    "statl": "सूखा, चक्रवात राहत का प्रस्ताव",
+    "loc": "अमरावती",
+    "h": "आंध्र में सूखा, चक्रवात पीड़ित किसानों को जल्द मदद",
+    "p": "मुख्यमंत्री एन. चंद्रबाबू नायडू ने शनिवार को अमरावती में अधिकारियों से कहा कि एल नीनो सूखे और अर्णव व मुरसु चक्रवातों से प्रभावित किसानों को इनपुट सब्सिडी जल्द दी जाए। अधिकारियों ने राज्य आपदा राहत कोष से ₹2,459 करोड़ जारी करने का प्रस्ताव रखा।",
+    "pts": [
+     "सूखे के लिए ₹1,721 करोड़, अर्णव ₹602 करोड़, मुरसु ₹97 करोड़",
+     "हर प्रभावित किसान को बीमा मुआवज़ा भी मिले",
+     "राहत सीधे बैंक खातों में"
+    ],
+    "why": "यह मदद सूखे और चक्रवातों में फ़सल व पशु गंवाने वाले आंध्र के किसानों के लिए है।"
+   },
+   "d": "28.11.2026",
+   "t": "19:35"
+  },
   {
    "cat": "తెలంగాణ · పెద్దపల్లి",
    "col": "--c-water",
@@ -3396,317 +3700,6 @@
    },
    "d": "28.11.2026",
    "t": "12:35"
-  },
-  {
-   "cat": "ప్రపంచం · ప్రమాదం",
-   "col": "--c-gov",
-   "art": "",
-   "pic": "e/remembrance-and-condolence",
-   "stat": "8 మంది",
-   "statl": "సైనికులు మృతి",
-   "h": "పెరూలో హెలికాప్టర్ కూలి 8 మంది మృతి",
-   "p": "పెరూలోని వ్రేమ్ లోయలో సైనిక సిబ్బందితో వెళ్తున్న వైమానిక దళ హెలికాప్టర్ కూలిపోయింది. అందులో ఉన్న తొమ్మిది మందిలో ఎనిమిది మంది చనిపోయారని ఆ దేశ రక్షణ శాఖ తెలిపింది. పైలట్ ఒక్కరే బతికారు, ఆయనను చికిత్స కోసం లిమాకు తరలించారు. ఒక గస్తీ బృందాన్ని తీసుకురావడానికి వెళ్లినప్పుడు ప్రమాదం జరిగింది.",
-   "src": "BBC (via Yahoo News)",
-   "url": "https://www.yahoo.com/news/world/articles/eight-killed-peruvian-military-helicopter-041921797.html",
-   "srcs": [
-    {
-     "n": "Anadolu Agency (aNews)",
-     "u": "https://www.anews.com.tr/world/2026/11/28/eight-killed-in-peru-military-helicopter-crash"
-    }
-   ],
-   "sec": [
-    "world"
-   ],
-   "st": "WORLD",
-   "place": "IN",
-   "loc": "",
-   "pts": [
-    "గురువారం రాత్రి నుంచి హెలికాప్టర్ కనిపించలేదు",
-    "ప్రమాదానికి కారణం ఇంకా తెలియలేదు",
-    "ఫిబ్రవరిలో మరో హెలికాప్టర్ ప్రమాదంలో 15 మంది చనిపోయారు"
-   ],
-   "why": "మారుమూల ప్రాంతాల్లో సహాయ పనులు చేసే సైనికులు ఎదుర్కొనే ప్రమాదాన్ని ఇది చూపిస్తోంది.",
-   "pub": "2026-11-28T09:49+05:30",
-   "lbl": "fact",
-   "vs": "confirmed",
-   "en": {
-    "cat": "World · Accident",
-    "stat": "8 dead",
-    "statl": "military personnel",
-    "loc": "VRAEM valley, Peru",
-    "h": "Peru military helicopter crash kills 8",
-    "p": "An air force helicopter carrying military personnel crashed in Peru's remote VRAEM valley, killing eight of the nine people on board, the country's defence ministry said. The pilot was the only survivor and was flown to Lima for treatment. The aircraft had been on a mission to bring back an army patrol when it went down.",
-    "pts": [
-     "The helicopter went missing on Thursday night",
-     "The cause of the crash is not yet known",
-     "Another military helicopter crash in February killed 15"
-    ],
-    "why": "It shows the risks faced by soldiers on rescue missions in remote areas."
-   },
-   "hi": {
-    "cat": "दुनिया · हादसा",
-    "stat": "8 की मौत",
-    "statl": "सैन्यकर्मी",
-    "loc": "व्रेम घाटी, पेरू",
-    "h": "पेरू में सैन्य हेलिकॉप्टर गिरा, 8 की मौत",
-    "p": "पेरू की दूरदराज़ व्रेम घाटी में सैन्यकर्मियों को ले जा रहा वायुसेना का हेलिकॉप्टर दुर्घटनाग्रस्त हो गया। देश के रक्षा मंत्रालय के अनुसार सवार नौ लोगों में से आठ की मौत हो गई। केवल पायलट बचे, जिन्हें इलाज के लिए लीमा ले जाया गया। हेलिकॉप्टर एक गश्ती दल को लाने गया था।",
-    "pts": [
-     "गुरुवार रात से हेलिकॉप्टर लापता था",
-     "हादसे की वजह अभी पता नहीं",
-     "फ़रवरी में एक और हेलिकॉप्टर हादसे में 15 की मौत"
-    ],
-    "why": "यह दूरदराज़ इलाक़ों में बचाव अभियान में लगे सैनिकों के जोखिम को दिखाता है।"
-   },
-   "d": "28.11.2026",
-   "t": "12:35"
-  },
-  {
-   "cat": "హైదరాబాద్ · కరెంట్",
-   "col": "--c-power",
-   "art": "power",
-   "pic": "e/power-cut-at-home",
-   "stat": "8 గంటల కరెంట్ కోత",
-   "statl": "మియాపూర్‌లో",
-   "h": "మియాపూర్‌లో సాయంత్రం 4 వరకు కరెంట్ కోత",
-   "p": "హైదరాబాద్‌లోని మియాపూర్ ప్రాంతంలో శనివారం ఉదయం 8 నుంచి సాయంత్రం 4 గంటల వరకు కరెంట్ సరఫరా ఉండదని దక్షిణ తెలంగాణ విద్యుత్ పంపిణీ సంస్థ తెలిపినట్లు డెక్కన్ క్రానికల్ పేర్కొంది. షాపూర్‌నగర్ నుంచి బొల్లారం సబ్‌స్టేషన్ వరకు విద్యుత్ లైన్‌ను మారుస్తున్నారు. మదీనాగూడ సబ్‌స్టేషన్ పరిధిలోని లోటస్ కాలనీ, జేపీ నగర్, ప్రశాంత్ నగర్ కాలనీల్లోనూ కోత ఉంటుంది.",
-   "src": "Deccan Chronicle",
-   "url": "https://www.deccanchronicle.com/southern-states/telangana/power-cuts-due-to-scheduled-maintenance-in-miyapur-gachibowli-2008757",
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "మియాపూర్",
-   "pts": [
-    "కాలాడేరా నగర్‌లో మధ్యాహ్నం 2:30 నుంచి 3:30 వరకు కోత",
-    "నానక్‌రామ్‌గూడలో ఉదయం 10 నుంచి 12 వరకు నిలిపారు",
-    "స్వర్ణపురి, అరబిందో కాలనీ, నాగార్జున ఎన్‌క్లేవ్ కూడా జాబితాలో ఉన్నాయి"
-   ],
-   "why": "ఈ ప్రాంతాల వారు కరెంట్‌తో చేసే ముఖ్యమైన పనులను ముందే ప్లాన్ చేసుకోవచ్చు.",
-   "pub": "2026-11-28T11:25+05:30",
-   "lbl": "fact",
-   "vs": "single",
-   "en": {
-    "cat": "Hyderabad · Power",
-    "stat": "8-hour power cut",
-    "statl": "in the Miyapur area",
-    "loc": "Miyapur, Hyderabad",
-    "h": "Power cut in Miyapur till 4 pm today",
-    "p": "Power supply in Hyderabad's Miyapur area is off from 8 am to 4 pm on Saturday, the southern Telangana power distribution company said, according to Deccan Chronicle. Crews are replacing the line between the Shapurnagar and Bollaram substations. Colonies under the Madinaguda substation, including Lotus Colony, JP Nagar and Prashanth Nagar, are also affected.",
-    "pts": [
-     "Kaladera Nagar: cut from 2:30 pm to 3:30 pm",
-     "Nanakramguda supply was off from 10 am to noon",
-     "Swarnapuri, Aurobindo Colony and Nagarjuna Enclave also listed"
-    ],
-    "why": "Residents of these areas can plan essential electricity-dependent work in advance."
-   },
-   "hi": {
-    "cat": "हैदराबाद · बिजली",
-    "stat": "8 घंटे बिजली कटौती",
-    "statl": "मियापुर इलाके में",
-    "loc": "मियापुर, हैदराबाद",
-    "h": "मियापुर में शाम 4 बजे तक बिजली बंद",
-    "p": "हैदराबाद के मियापुर इलाके में शनिवार को सुबह 8 से शाम 4 बजे तक बिजली नहीं रहेगी। डेक्कन क्रॉनिकल के अनुसार दक्षिण तेलंगाना बिजली वितरण कंपनी ने यह जानकारी दी। शापुरनगर से बोल्लारम सबस्टेशन तक की लाइन बदली जा रही है। मदीनागुडा सबस्टेशन के तहत लोटस कॉलोनी, जेपी नगर और प्रशांत नगर में भी कटौती रहेगी।",
-    "pts": [
-     "कालाडेरा नगर में दोपहर 2:30 से 3:30 तक कटौती",
-     "नानकरामगुडा में सुबह 10 से 12 बजे तक आपूर्ति बंद रही",
-     "स्वर्णपुरी, अरबिंदो कॉलोनी, नागार्जुन एन्क्लेव भी सूची में"
-    ],
-    "why": "इन इलाकों के लोग बिजली से जुड़े ज़रूरी काम पहले से तय कर सकते हैं।"
-   },
-   "d": "28.11.2026",
-   "t": "12:05"
-  },
-  {
-   "cat": "మేడ్చల్ · పోలీసు కేసు",
-   "col": "--c-city",
-   "art": "unity",
-   "pic": "e/remembrance-and-condolence",
-   "stat": "యువకుడు మృతి",
-   "statl": "పోచారం హోటల్ గదిలో",
-   "h": "పోచారం హోటల్‌లో యువకుడు మృతి: పోలీసులు",
-   "p": "మేడ్చల్ మల్కాజిగిరి జిల్లా పోచారం ఐటీ కారిడార్ పోలీస్ స్టేషన్ పరిధిలోని హోటల్ గదిలో గుంటూరుకు చెందిన 29 ఏళ్ల యువకుడు శుక్రవారం మృతి చెంది కనిపించారని పోలీసులు తెలిపారు. మృతికి కారణం దర్యాప్తులో తేలుతుందని వారు చెప్పారు. ఆయన సంస్థ డబ్బు తీసుకున్నారని యజమాని ఆరోపించారు. తల్లి ఫిర్యాదుపై కేసు నమోదైంది.",
-   "src": "The Siasat Daily",
-   "url": "https://www.siasat.com/theatre-staffer-accused-of-theft-found-dead-in-pocharam-hotel-3588803/",
-   "srcs": [
-    {
-     "n": "V6 Velugu",
-     "u": "https://www.v6velugu.com/young-man-died-in-hyderabad-pocharam-hotel-"
-    },
-    {
-     "n": "HMTV",
-     "u": "https://www.hmtvlive.com/telugu-news/hyderabad/medchal-pocharam-youth-ends-life-in-hotel-room-after-sending-video-218005"
-    }
-   ],
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "medchal",
-   "loc": "పోచారం",
-   "pts": [
-    "యజమాని సైబర్ క్రైమ్ పోర్టల్‌లో ఫిర్యాదు చేశారు",
-    "ఆరోపణలు ఇంకా రుజువు కాలేదని సియాసత్ పేర్కొంది"
-   ],
-   "why": "కేసు దర్యాప్తులో ఉంది; ఆరోపణలు, మృతికి కారణం రెండూ ఇంకా తేలాల్సి ఉంది.",
-   "pub": "2026-11-28T11:13+05:30",
-   "lbl": "fact",
-   "vs": "confirmed",
-   "en": {
-    "cat": "Medchal · Police case",
-    "stat": "Young man dead",
-    "statl": "in a Pocharam hotel room",
-    "loc": "Pocharam, Medchal-Malkajgiri",
-    "h": "Man found dead in Pocharam hotel: police",
-    "p": "A 29-year-old man from Guntur was found dead on Friday in a hotel room within Pocharam IT Corridor police limits in Medchal-Malkajgiri district, police said. They said the cause of death will be known after investigation. His employer had alleged that he took the firm's money. A case was registered on his mother's complaint.",
-    "pts": [
-     "Employer had complained on the cyber crime portal",
-     "Siasat says the allegations are not independently verified"
-    ],
-    "why": "The case is under investigation; both the allegations and the cause of death are yet to be established."
-   },
-   "hi": {
-    "cat": "मेडचल · पुलिस केस",
-    "stat": "युवक की मौत",
-    "statl": "पोचारम के होटल के कमरे में",
-    "loc": "पोचारम, मेडचल-मलकाजगिरी",
-    "h": "पोचारम के होटल में युवक मृत मिला: पुलिस",
-    "p": "मेडचल-मलकाजगिरी ज़िले के पोचारम आईटी कॉरिडोर थाना क्षेत्र के एक होटल के कमरे में शुक्रवार को गुंटूर का 29 वर्षीय युवक मृत मिला, पुलिस ने बताया। पुलिस के अनुसार मौत का कारण जाँच में पता चलेगा। उसके मालिक ने आरोप लगाया था कि उसने संस्था का पैसा लिया। माँ की शिकायत पर मामला दर्ज हुआ है।",
-    "pts": [
-     "मालिक ने साइबर क्राइम पोर्टल पर शिकायत की थी",
-     "सियासत के अनुसार आरोपों की स्वतंत्र पुष्टि नहीं हुई"
-    ],
-    "why": "मामले की जाँच जारी है; आरोप और मौत का कारण दोनों अभी तय होने बाकी हैं।"
-   },
-   "d": "28.11.2026",
-   "t": "12:05"
-  },
-  {
-   "cat": "భారత్ · క్రికెట్",
-   "col": "--c-city",
-   "art": "",
-   "pic": "e/cricket-match",
-   "stat": "240 పరుగులు",
-   "statl": "వెనుకబడిన భారత్",
-   "h": "క్రైస్ట్‌చర్చ్ టెస్టులో కష్టాల్లో భారత్",
-   "p": "న్యూజిలాండ్‌తో క్రైస్ట్‌చర్చ్‌లో జరుగుతున్న రెండో టెస్టు రెండో రోజు ఆట ముగిసే సమయానికి భారత్ 6 వికెట్లకు 116 పరుగులు చేసింది. న్యూజిలాండ్ తొలి ఇన్నింగ్స్ స్కోరు 356 కంటే ఇంకా 240 పరుగులు వెనుకబడి ఉంది. కేఎల్ రాహుల్ 25, రిషబ్ పంత్ 23 పరుగులు చేశారు. ధ్రువ్ జురెల్ 7 పరుగులతో క్రీజులో ఉన్నారు.",
-   "src": "Asianet Newsable (ANI)",
-   "url": "https://newsable.asianetnews.com/sports/new-zealand-dominates-india-on-day-two-of-christchurch-cricket-test-articleshow-dtgp68s",
-   "srcs": [
-    {
-     "n": "NationPress",
-     "u": "https://www.nationpress.com/sports/india-slump-to-116-for-6-trail-nz-by-240"
-    }
-   ],
-   "sec": [
-    "sports",
-    "india"
-   ],
-   "st": "IN",
-   "place": "IN",
-   "loc": "",
-   "pts": [
-    "టామ్ బ్లండెల్ 89 పరుగులు చేశారు",
-    "జేమీసన్, డఫీ చెరో రెండు వికెట్లు తీశారు",
-    "యశస్వి జైస్వాల్ పరుగులేమీ చేయకుండా ఔటయ్యారు"
-   ],
-   "why": "మూడో రోజు మిగిలిన నాలుగు వికెట్లతో భారత్ ఎంత దూరం వెళ్తుందో అభిమానులు గమనిస్తారు.",
-   "pub": "2026-11-28T11:30+05:30",
-   "lbl": "fact",
-   "vs": "confirmed",
-   "en": {
-    "cat": "India · Cricket",
-    "stat": "240 runs",
-    "statl": "India's deficit",
-    "loc": "Christchurch",
-    "h": "India 116/6 in Christchurch Test",
-    "p": "India ended the second day of the second Test against New Zealand in Christchurch on 116 for 6. They are still 240 runs short of New Zealand's first-innings total of 356. KL Rahul scored 25 and Rishabh Pant 23, while Yashasvi Jaiswal fell without scoring. Dhruv Jurel is at the crease, unbeaten on 7.",
-    "pts": [
-     "Tom Blundell top-scored for New Zealand with 89",
-     "Jamieson and Duffy took two wickets each",
-     "Washington Sundar made 10 off 60 balls"
-    ],
-    "why": "Fans will watch how far India's last four wickets can go on day three."
-   },
-   "hi": {
-    "cat": "भारत · क्रिकेट",
-    "stat": "240 रन",
-    "statl": "से पीछे भारत",
-    "loc": "क्राइस्टचर्च",
-    "h": "क्राइस्टचर्च टेस्ट में भारत 116/6",
-    "p": "न्यूज़ीलैंड के ख़िलाफ़ क्राइस्टचर्च में दूसरे टेस्ट के दूसरे दिन का खेल ख़त्म होने तक भारत ने 6 विकेट पर 116 रन बनाए। टीम न्यूज़ीलैंड की पहली पारी के 356 रन से अब भी 240 रन पीछे है। केएल राहुल ने 25 और ऋषभ पंत ने 23 रन बनाए। ध्रुव जुरेल 7 रन बनाकर क्रीज़ पर हैं।",
-    "pts": [
-     "टॉम ब्लंडेल ने 89 रन बनाए",
-     "जेमीसन और डफ़ी को दो-दो विकेट",
-     "यशस्वी जायसवाल बिना खाता खोले आउट"
-    ],
-    "why": "तीसरे दिन भारत के बचे चार विकेट कितनी दूर ले जाते हैं, इस पर प्रशंसकों की नज़र रहेगी।"
-   },
-   "d": "28.11.2026",
-   "t": "12:05"
-  },
-  {
-   "cat": "హైదరాబాద్ · మెట్రో",
-   "col": "--c-city",
-   "art": "",
-   "pic": "e/hyderabad-metro-commute",
-   "stat": "94.2 కోట్ల",
-   "statl": "ప్రయాణాలు",
-   "h": "పదో ఏట అడుగుపెట్టిన హైదరాబాద్ మెట్రో",
-   "p": "హైదరాబాద్ మెట్రో రైలు సేవలకు శనివారంతో తొమ్మిదేళ్లు నిండాయి. 2017 నవంబర్ 28న ప్రధాని మోదీ మెట్రోను ప్రారంభించారు. నవంబర్ 26 వరకు 94.2 కోట్ల ప్రయాణాలు జరిగాయని మెట్రో అధికారులు చెప్పినట్లు ఆంధ్రజ్యోతి తెలిపింది. మూడు కారిడార్లలో 69.2 కిలోమీటర్ల మార్గంలో రోజూ 4.6 నుంచి 4.8 లక్షల మంది ప్రయాణిస్తున్నారు.",
-   "src": "Andhrajyothy",
-   "url": "https://www.andhrajyothy.com/2026/telangana/hyderabad/hyderabad-metro-9-years-94-crore-passenger-journeys-1580564.html",
-   "srcs": [
-    {
-     "n": "Vaartha",
-     "u": "https://vaartha.com/telangana/nine-years-of-hyderabad-metro-rail-services/811121/"
-    }
-   ],
-   "sec": [
-    "telangana"
-   ],
-   "st": "TG",
-   "place": "hyderabad",
-   "loc": "",
-   "pts": [
-    "57 స్టేషన్లు, రోజుకు సుమారు 1,100 సర్వీసులు",
-    "వారాంతాలు, పండుగ రోజుల్లో రద్దీ 5 లక్షలు దాటుతోంది",
-    "రెండో దశ 7 కారిడార్ల డీపీఆర్‌కు కేంద్రం అనుమతి ఇంకా రాలేదు"
-   ],
-   "why": "రోజూ మెట్రోలో ప్రయాణించే నగరవాసులకు సేవలు, విస్తరణ పనులు ఎక్కడున్నాయో తెలుస్తుంది.",
-   "pub": "2026-11-28T10:47+05:30",
-   "lbl": "fact",
-   "vs": "confirmed",
-   "en": {
-    "cat": "Hyderabad · Metro",
-    "stat": "94.2 crore",
-    "statl": "journeys",
-    "loc": "Hyderabad",
-    "h": "Hyderabad Metro enters its tenth year",
-    "p": "Hyderabad Metro Rail completed nine years of service on Saturday. Prime Minister Modi opened it on November 28, 2017. Metro officials said 94.2 crore journeys were made up to November 26, Andhra Jyothy reported. Between 4.6 and 4.8 lakh people now ride daily across three corridors covering 69.2 km.",
-    "pts": [
-     "57 stations and about 1,100 services a day",
-     "Weekend and festival crowds cross 5 lakh",
-     "Centre yet to approve DPR for seven Phase-2 corridors"
-    ],
-    "why": "Daily metro users get a picture of where services and expansion plans stand."
-   },
-   "hi": {
-    "cat": "हैदराबाद · मेट्रो",
-    "stat": "94.2 करोड़",
-    "statl": "यात्राएँ",
-    "loc": "हैदराबाद",
-    "h": "हैदराबाद मेट्रो दसवें साल में",
-    "p": "हैदराबाद मेट्रो रेल ने शनिवार को सेवा के नौ साल पूरे किए। प्रधानमंत्री मोदी ने 28 नवंबर 2017 को इसका उद्घाटन किया था। आंध्र ज्योति के अनुसार मेट्रो अधिकारियों ने बताया कि 26 नवंबर तक 94.2 करोड़ यात्राएँ हुईं। तीन कॉरिडोर के 69.2 किमी पर रोज़ 4.6 से 4.8 लाख लोग सफ़र करते हैं।",
-    "pts": [
-     "57 स्टेशन, रोज़ करीब 1,100 सेवाएँ",
-     "सप्ताहांत और त्योहारों पर भीड़ 5 लाख पार",
-     "दूसरे चरण के 7 कॉरिडोर की डीपीआर को केंद्र की मंज़ूरी बाकी"
-    ],
-    "why": "रोज़ मेट्रो से सफ़र करने वालों को सेवाओं और विस्तार की स्थिति का पता चलता है।"
-   },
-   "d": "28.11.2026",
-   "t": "11:35"
   }
  ]
 }
