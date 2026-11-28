@@ -930,3 +930,17 @@ if(typeof document!=='undefined'){ if(document.readyState==='loading') document.
     if(/FSSAI|ఎఫ్ఎస్ఎస్ఏఐ|ఆహార\s?భద్రత\s?ప్రమాణాల|Food\s?Safety\s?and\s?Standards/i.test(t)) return Object.assign({},a,{m:'land',bg:'e/fssai-inspection'});
     return a; };
   if(typeof window!=='undefined') window.artPlan=artPlan; })();
+
+/* owner 28 Nov 2026: Indiramma scheme news → Telangana Government emblem. And no Rashtrapati Bhavan / Parliament-with-flags
+   pictures for government matters: Telangana stories get the TG emblem, AP stories a government-meeting picture,
+   central-government stories the Parliament building. A leader who is speaking still gets their own photo. */
+(function(){ const _ap=artPlan; const DOME={'e/public-policy-announcement':1,'e/government-press-briefing':1};
+  artPlan=function(s){ const a=_ap(s); if(!a||!s) return a; if(a.bg&&/^e\/photo-/.test(a.bg)) return a;
+    const t=[s.h,s.statl,(s.en&&s.en.h)||''].join(' ').replace(/‌|‍/g,'');
+    const sad=/హత్య|మృత|మరణ|ప్రమాద|అరెస్ట్|ఆత్మహత్య|murder|death|accident|arrest|suicide/i.test(t);
+    if(!sad&&/ఇందిరమ్మ|Indiramma|इंदिरम्मा/i.test(t)) return Object.assign({},a,{m:'land',bg:'e/logo-telangana-govt'});
+    if(a.bg&&DOME[a.bg]){ const st=s.st||((s.place||'').startsWith('ap-')?'AP':''), pl=s.place||'';
+      const bg=(st==='AP'||pl==='AP'||pl.startsWith('ap-'))?'e/municipal-council-meeting':(st==='TG'||pl==='TS'||(pl&&!/^(IN|AP|ap-)/.test(pl)&&st!=='IN'))?'e/logo-telangana-govt':'e/parliament-new-building';
+      return Object.assign({},a,{m:'land',bg}); }
+    return a; };
+  if(typeof window!=='undefined') window.artPlan=artPlan; })();
