@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T21:05:00+05:30",
+ "cutoff": "2026-11-28T21:35:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-26T09:05:00+05:30/2026-11-26T09:35:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 2,
-   "published": 2,
-   "late": 0,
-   "sensitive": 1,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 3,
-   "review": 0,
-   "gaps": "Lookback from 01:05. Feeds 09:12 IST (69/70 ok; 744 uncovered unseen events in lookback, 170 local - most already published under other URLs or not findable via search). add_repo tool not available; used existing clone. Published 2: Siasat Kukatpally truck park auction PILs (09:32, fact), DC live: Silpa Ravi house arrest in Nandyal on polling day (09:08 update, fact). Duplicates: TT/NIE HC JEE Aadhaar (published 25 Nov), CM Achampet visit (published). Skipped as old: DC anti-drug yatra (19 Nov), DC Kishan Reddy yatra (15 Nov), TT Harish Rao river water (12 Jan), TV9 Cheyutha pensions (19 Nov). Not opened (no search hit): V6 Harish Rao water betrayal, TOI graduates' rolls 80k ineligible, Samayam AP Rs 225 ration kit, V6 HUDA Heights no bidders, V6 Telangana University SC, V6 PESA Mahotsav, V6 Sanvidhan Raksha March, V6 women commission egg racket, BigTV Adilabad honour killing. 8 district searches (Karimnagar, Khammam, Visakhapatnam, Kurnool/Nandyal, Warangal, Nizamabad, Hyderabad x2) gave only tag pages. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-26T09:35:00+05:30/2026-11-26T10:05:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 1,
    "review": 0,
    "gaps": "Lookback from 12:35 Nov 28. Feeds 21:01 IST (75/77 ok; failing The Hans India, district:Medak; 2776 uncovered, 907 TG/AP). add_repo not available; used existing clone and web-fetch helper; direct feed URLs refused (permission), only URLs surfaced by extended WebSearch opened. Published 5: Telangana Today Hyderabad 29,347 wrong-side driving cases in six-day drive (20:50, single, routine), Telangana Today TGPCB show-cause notices to private STPs, 9 of 237 not working (20:39, single, routine), Telangana Today lorry hangs from NH-161 bridge near Pedda Shankarampet, driver minor injuries (20:41, single; Munsif Daily copy client error), Siasat + The Hindu excise seizes 68 liquor bottles in Rajendranagar/Shamshabad (20:23, confirmed via feed grouping, The Hindu page not opened; no names), Telangana Today HMDA Mokila 61 plots e-auction Dec 15 (19:56, single, routine). Duplicates (already on cards): IAS transfers/HMDA chief, AP panchayat phase 2, Rs 500 LPG guidelines. Skipped old: Nagpur Today Rs 1.75 cr MD seizure on Telangana inputs (27 Nov 15:04; The Hindu 20:49 not surfaced). Not surfaced/opened: The Hindu Jai Raj Ispat Kurnool Rs 3,378 cr (aggregator only), The Hindu Skill India International Centre Rajamahendravaram (aggregators only), TT Sangareddy soaked paddy, The Hindu Governor on drug abuse, HMWSSB 10-km pipeline, Deeksha Diwas Nov 29, schools camera monitoring. No district searches this run. Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T21:05:00+05:30/2026-11-28T21:35:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 6,
+   "published": 2,
+   "late": 0,
+   "sensitive": 0,
+   "corrected": 0,
+   "duplicates": 3,
+   "skipped": 2,
+   "review": 0,
+   "gaps": "Lookback from 13:05 Nov 28. Feeds 21:18 IST (75/75 ok; 2771 uncovered, 812 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch opened. Published 2: Deccan Chronicle Baoli Art Sangam stepwell biennale Dec 1-Jan 10 (19:33, single, routine), Telangana Today Chinna Jeeyar certificates/Rs 2.27 lakh cheque at Nava women centre Paloncha (19:47, single, routine). Duplicates: HMDA auctions no bids (card 27 Nov), Krishna poll-duty absentees (card 27 Nov), Congress CMs delimitation meet (card 16:05). Skipped old: DC Medaram mini jatara Feb 17-20 (27 Sep; V6 19:49 copy not surfaced), TT Governor NSS anti-drug pledge (29 Oct; The Hindu 20:52 not surfaced). Single source (sensitive, not published): Siasat UoH Equal Opportunity Cell probing alleged casteist remarks by history professor (20:35). Not published: Pauri Garhwal Uttarakhand gorge accident 7 dead (Daily Jagran 16:58 + India TV; other state, no TG/AP link). Not surfaced/opened: The Hindu Jai Raj Ispat Kurnool (aggregators only), Disha Jagan-Amaravati counter (fetch error), HYDRAA DRF rescue (sensitive, single outlet), TT Burgudem train death (single, sensitive), V6 LB Nagar Rs 3.20 cr theft, The Hindu Nellore rice Rs 1.37 cr, Krishna organ donation, Kamchatka M6.7 quake (no outlet page). One district search only. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -8103,6 +8103,46 @@
    "url": "https://www.siasat.com/narasimha-reddy-new-hmda-chief-ajith-reddy-to-head-hyderabad-metro-3589277/",
    "d": "2026-11-28",
    "w": "duplicate"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/lifestyle/booksart/hyderabad-to-host-indias-first-stepwell-based-art-biennale-baoli-art-sangam-2008858",
+   "d": "2026-11-28",
+   "w": "2026-11-28T21:35"
+  },
+  {
+   "url": "https://telanganatoday.com/chinna-jeeyar-swami-presents-cash-cheque-to-artisans-at",
+   "d": "2026-11-28",
+   "w": "2026-11-28T21:35"
+  },
+  {
+   "url": "https://telanganatoday.com/two-consecutive-hmda-land-auctions-fail-to-attract-bidders-in-hyderabad",
+   "d": "2026-11-28",
+   "w": "2026-11-28T21:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/southern-states/telangana/mulugu-medaram-mini-jatara-dates-finalised-for-february-1720-1991109",
+   "d": "2026-11-28",
+   "w": "2026-11-28T21:35"
+  },
+  {
+   "url": "https://telanganatoday.com/over-1200-nss-volunteers-take-anti-drug-pledge-governor-bats-for-drug-free-india-by-2029",
+   "d": "2026-11-28",
+   "w": "2026-11-28T21:35"
+  },
+  {
+   "url": "https://www.siasat.com/uoh-says-it-is-probing-alleged-casteist-remarks-by-history-prof-3589295/",
+   "d": "2026-11-28",
+   "w": "2026-11-28T21:35"
+  },
+  {
+   "url": "https://www.thedailyjagran.com/india/news/uttarakhand-several-killed-injured-as-car-falls-into-gorge-in-pauri-garhwal-rescue-operations-underway-10337992",
+   "d": "2026-11-28",
+   "w": "2026-11-28T21:35"
+  },
+  {
+   "url": "https://www.deccanchronicle.com/nation/politics/congress-cms-of-karnataka-telangana-keralam-to-meet-on-delimitation-2008778",
+   "d": "2026-11-28",
+   "w": "2026-11-28T21:35"
   }
  ]
 }
