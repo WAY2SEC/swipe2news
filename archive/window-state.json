@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T15:35:00+05:30",
+ "cutoff": "2026-11-28T16:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T22:35:00+05:30/2026-11-25T23:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 5,
-   "published": 5,
-   "late": 0,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 0,
-   "skipped": 2,
-   "review": 0,
-   "gaps": "Lookback from 14:35. Feeds 22:47 IST (69/70 ok; district:Khammam:en failing; 77 uncovered unseen events first seen since 21:50, 30 local). add_repo tool not available; used existing clone. Published 5: TT AP man among 13 dead in UAE bus accident (22:29, claim, sensitive, no name; follow-up to 24 Nov Siasat story), DC Vizag first modern ITI cluster PM-SETU Rs 200 cr (22:37, fact), Siasat Nampally court 5-yr jail 2017 cheating case (22:25, fact, sensitive, no names), DC IIIT-H researcher Google PhD Fellowship (22:16, fact, logo), Siasat Cyberabad CP Metro ride (21:53, fact). Skipped: DC 42 lakh farmers free foodgrains (Maharashtra, other state), News On AIR cyclone Akvan weakens (search returned only 20 Nov items). Not opened/not searched: Hindu items (KRMB/BRS, Bandi Sanjay Kondagattu - search found no other source, Russia detainee, Manthani Pushkaralu, Bhadrachalam Rs 300 cr, Akbaruddin, London official), TT ballot papers, DC Christian bodies boycott, DC MV Maa, Disha Germany-Telangana, Disha Ilamma university water protest, Suryaa/HMTV village items, AJ Pawan forest patrol. No world/India, no district searches. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-25T23:05:00+05:30/2026-11-25T23:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 3,
    "review": 0,
    "gaps": "Lookback from 07:05 Nov 28. Feeds 15:23 IST. add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 3: Deccan Chronicle + TV9 Telugu Asif Nagar 70 tolas gold theft (15:08, confirmed, owner not named), Siasat + DT Next (PTI) INDIA bloc to oppose Delimitation Bill (14:35, confirmed, party politics), The Federal + Free Press Journal PM Modi on women's quota (13:48, confirmed). Single source, not published: HMTV Nalgonda junior college bandh over lecturer's death (14:39, sensitive), Siasat fake Instagram doctor fraud with mother arrested (15:08, sensitive, arrest was 25 Nov). Duplicates/already covered: Bhatti Rs 25,096 cr power DPRs (27 Nov), Rs 10,000 cr drought plan, overseas jobs scheme, Fab City HC, KTR/BRS, BPCL, Tirumala gold, Afghan school blast. Skipped old: NDTV fishermen (event 17-19 Nov), DC AP rice price caps (26 Nov), Warangal MGSSH GO (25 Nov). Not opened: Deccan Herald (INDIA bloc), webindia123 (Modi), Disha Medchal TB CSR (fetch errors). District searches returned tag pages only. Not attempted: most of the feed backlog. Builder lang pages/index/sitemap and a duplicate 27 Nov archive entry reverted."
+  },
+  {
+   "window": "2026-11-28T15:35:00+05:30/2026-11-28T16:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 5,
+   "late": 1,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 4,
+   "skipped": 3,
+   "review": 0,
+   "gaps": "Lookback from 07:35 Nov 28. Feeds 15:44 IST (73/77 ok; 2789 uncovered, 835 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open (typed feed URLs refused: PROVENANCE_REQUIRED). Published 5: Telangana Today Hyderabad CP meets faith leaders on Old City drugs (15:44, single), Siasat + Business Standard Karnataka/Telangana/Kerala CMs to meet on delimitation Nov 29 (14:13, confirmed, party politics, claim), NewsMeter OU free UPSC/Group coaching, apply by Dec 10 (14:56, single), Siasat + Business Today IndiGo resumes Jeddah/Madinah flights (11:23, confirmed, late-found), Tribune ANI + Asianet India-Denmark action plan 2026-2031 (14:57, confirmed). Duplicates (already on cards): Tirumala gold returned, KTR/BRS delimitation, Nampally job mela, INDIA bloc/Kharge. Skipped: Uganda Ebola vaccine trial (first reported 27 Nov, old); single source sensitive, not published: TT BRS alleges Congress-BJP pact, TT Hyderabad suicide. Not opened: The Hindu AP Skill India centre Rajamahendravaram, The Hindu Rajendra Singh on Musi, TT Khammam archery trials, TT gold/silver weekly, Minister Damodar TIMS review, Karimnagar silencers, Chandrababu Rajahmundry court event, Kakinada counting orders, TGRERA order (search surfaced no openable original today)."
   }
  ],
  "seen": [
@@ -7583,6 +7583,66 @@
    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/rice-traders-must-register-follow-government-fixed-prices-2008002",
    "d": "2026-11-28",
    "w": "skip"
+  },
+  {
+   "url": "https://telanganatoday.com/hyderabad-cp-holds-meeting-with-religious-leaders",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-karnataka-keralam-cms-to-meet-on-delimitation-3588938/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.business-standard.com/india-news/south-states-must-unite-against-unfair-delimitation-k-taka-cm-shivakumar-126112800324_1.html",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://newsmeter.in/education/osmania-university-invites-applications-for-free-upsc-tgpsc-coaching-780186",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/indigo-resumes-select-saudi-flights-other-airlines-extend-suspensions-3588802/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.businesstoday.in/india/story/indigo-resumes-select-saudi-arabia-flights-akasa-air-extends-suspension-until-jan-2027-570061-2026-11-28",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.tribuneindia.com/news/world/india-denmark-adopt-joint-action-plan-2026-2031-exchange-mous-to-deepen-bilateral-cooperation-jaishankar/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://newsable.asianetnews.com/world/india-and-denmark-adopt-joint-action-plan-2026-2031-for-cooperation-articleshow-yqyk07z",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.awazthevoice.in/world-news/india-denmark-adopt-action-plan-to-deepen-ties-71619.html",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.aljazeera.com/news/2026/11/28/uganda-starts-mrna-ebola-vaccine-trial-in-first-for-africa?traffic_source=rss",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/brs-accuses-congress-bjp-of-secret-pact-against-telangana",
+   "d": "2026-11-28",
+   "w": "skipped"
+  },
+  {
+   "url": "https://telanganatoday.com/man-dies-after-employer-allegation",
+   "d": "2026-11-28",
+   "w": "skipped"
   }
  ]
 }
