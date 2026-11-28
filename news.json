@@ -1,8 +1,62 @@
 {
  "date": "28.11.2026",
- "updated": "2026-11-28T05:05:00+05:30",
+ "updated": "2026-11-28T06:05:00+05:30",
  "version": 2,
  "stories": [
+  {
+   "cat": "భారత్ · రహదారులు",
+   "col": "--c-gov",
+   "art": "",
+   "pic": "logo",
+   "stat": "6 రెట్ల జరిమానా",
+   "statl": "టోల్ ఎగ్గొట్టే వారిపై",
+   "h": "టోల్ కట్టకుండా వెళ్తే ఆరు రెట్ల జరిమానా",
+   "p": "జాతీయ రహదారులపై టోల్ ఫీజు కట్టకుండా తప్పించుకునే వాహనదారులకు భారీ జరిమానా వేస్తామని కేంద్ర రోడ్డు రవాణా శాఖ శుక్రవారం ప్రకటించింది. గేట్లు లేని కొత్త తరహా టోల్ ప్లాజాల వద్ద నంబర్ ప్లేట్ దాచినా, మార్చినా, ఫాస్టాగ్ పెట్టుకోకపోయినా ఇది వర్తిస్తుంది. అసలు ఫీజుతో పాటు మరో ఐదు రెట్లు, అంటే మొత్తం ఆరు రెట్లు కట్టాలి.",
+   "src": "Namasthe Telangana",
+   "url": "https://www.ntnews.com/national/centre-announces-sixfold-penalty-for-toll-evasion-on-national-highways-2570868",
+   "sec": [
+    "india"
+   ],
+   "st": "IN",
+   "place": "IN",
+   "loc": "న్యూఢిల్లీ",
+   "pts": [
+    "గ్యాంట్రీలపై కెమెరాలు నంబర్ ప్లేట్‌ను చదువుతాయి",
+    "ఫాస్టాగ్ రీడర్ల ద్వారా ఫీజు దానంతట అదే కట్ అవుతుంది"
+   ],
+   "why": "జాతీయ రహదారులపై ప్రయాణించే ప్రతి వాహనదారుడు ఫాస్టాగ్, నంబర్ ప్లేట్ సరిగా ఉంచుకోవాలి.",
+   "pub": "2026-11-28T02:46+05:30",
+   "lbl": "fact",
+   "vs": "single",
+   "en": {
+    "cat": "India · Highways",
+    "stat": "6x penalty",
+    "statl": "for toll dodgers",
+    "loc": "New Delhi",
+    "h": "Toll dodgers to pay six times the fee",
+    "p": "The Union road transport ministry said on Friday that drivers who dodge toll on national highways will face a heavy penalty. At barrier-free, multi-lane free flow toll plazas, anyone who hides or alters a number plate, or drives without FASTag, must pay the original fee plus five times more, six times in all.",
+    "pts": [
+     "Cameras on gantries read number plates",
+     "FASTag readers deduct the fee automatically"
+    ],
+    "why": "Everyone driving on national highways needs a working FASTag and a clear number plate."
+   },
+   "hi": {
+    "cat": "भारत · राजमार्ग",
+    "stat": "6 गुना जुर्माना",
+    "statl": "टोल न देने वालों पर",
+    "loc": "नई दिल्ली",
+    "h": "टोल न चुकाने पर छह गुना जुर्माना",
+    "p": "केंद्रीय सड़क परिवहन मंत्रालय ने शुक्रवार को कहा कि राष्ट्रीय राजमार्गों पर टोल से बचने वाले वाहन चालकों पर भारी जुर्माना लगेगा। बिना बैरियर वाले मल्टी-लेन फ्री फ्लो टोल प्लाज़ा पर नंबर प्लेट छिपाने या बदलने, या फास्टैग न लगाने पर मूल शुल्क के साथ पाँच गुना और, यानी कुल छह गुना रकम देनी होगी।",
+    "pts": [
+     "गैंट्री पर लगे कैमरे नंबर प्लेट पढ़ते हैं",
+     "फास्टैग रीडर से शुल्क अपने आप कट जाता है"
+    ],
+    "why": "राष्ट्रीय राजमार्गों पर चलने वाले हर चालक को फास्टैग और साफ नंबर प्लेट रखनी होगी।"
+   },
+   "d": "28.11.2026",
+   "t": "06:05"
+  },
   {
    "cat": "తెలంగాణ · నీటిపారుదల",
    "col": "--c-water",
@@ -3382,63 +3436,6 @@
      "कहा: सीटें बढ़ीं तो एससी, एसटी सीटें भी बढ़ेंगी"
     ],
     "why": "विधानसभा चुनाव कब होंगे, यह तेलंगाना के हर मतदाता से जुड़ा मामला है।"
-   },
-   "d": "27.11.2026",
-   "t": "18:05"
-  },
-  {
-   "cat": "భారత్ · వ్యాపారం",
-   "col": "--c-money",
-   "art": "economy",
-   "pic": "logo",
-   "stat": "4.44 బిలియన్ డాలర్లు",
-   "statl": "తగ్గిన నిల్వలు",
-   "h": "భారత్ విదేశీ మారక నిల్వలు తగ్గాయి",
-   "p": "నవంబర్ 20తో ముగిసిన వారంలో భారత్ విదేశీ మారక నిల్వలు 4.44 బిలియన్ డాలర్లు తగ్గి 700.90 బిలియన్ డాలర్లకు చేరాయని రిజర్వ్ బ్యాంక్ గణాంకాలు చెబుతున్నాయి. బంగారం నిల్వల విలువ 4.10 బిలియన్ డాలర్లు తగ్గి 94.52 బిలియన్ డాలర్లకు వచ్చింది. విదేశీ కరెన్సీ ఆస్తులు 266 మిలియన్ డాలర్లు తగ్గి 583.19 బిలియన్ డాలర్లుగా ఉన్నాయి.",
-   "src": "Business Standard",
-   "url": "https://www.business-standard.com/finance/news/india-s-forex-reserves-fall-4-44-billion-to-700-90-billion-on-gold-losses-126112700994_1.html",
-   "sec": [
-    "india",
-    "business"
-   ],
-   "st": "IN",
-   "place": "IN",
-   "loc": "",
-   "pts": [
-    "అంతకు ముందు వారం నిల్వలు 705.34 బిలియన్ డాలర్లు",
-    "సెప్టెంబర్ 4 వారంలో రికార్డు 785.7 బిలియన్ డాలర్లు",
-    "ఎస్‌డీఆర్‌లు 18.45 బిలియన్ డాలర్లకు తగ్గాయి"
-   ],
-   "why": "విదేశీ మారక నిల్వలు రూపాయి విలువకు, దిగుమతుల చెల్లింపులకు ఆధారం.",
-   "pub": "2026-11-27T17:53+05:30",
-   "lbl": "fact",
-   "en": {
-    "cat": "India · Business",
-    "stat": "$4.44 billion",
-    "statl": "fall in forex reserves",
-    "loc": "",
-    "h": "India's forex reserves fall $4.44 billion",
-    "p": "India's foreign exchange reserves fell by $4.44 billion to $700.90 billion in the week ended November 20, Reserve Bank data show. Gold reserves fell $4.10 billion to $94.52 billion, and foreign currency assets fell $266 million to $583.19 billion.",
-    "pts": [
-     "Previous week: $705.34 billion",
-     "Record $785.7 billion in week ended September 4",
-     "SDRs fell to $18.45 billion"
-    ],
-    "why": "Forex reserves back the rupee's value and payments for imports."
-   },
-   "hi": {
-    "cat": "भारत · कारोबार",
-    "stat": "4.44 अरब डॉलर",
-    "statl": "घटा विदेशी मुद्रा भंडार",
-    "loc": "",
-    "h": "भारत का विदेशी मुद्रा भंडार घटा",
-    "p": "20 नवंबर को ख़त्म हुए हफ़्ते में भारत का विदेशी मुद्रा भंडार 4.44 अरब डॉलर घटकर 700.90 अरब डॉलर रह गया, रिज़र्व बैंक के आँकड़े बताते हैं। स्वर्ण भंडार 4.10 अरब डॉलर घटकर 94.52 अरब डॉलर और विदेशी मुद्रा संपत्तियाँ 26.6 करोड़ डॉलर घटकर 583.19 अरब डॉलर रहीं।",
-    "pts": [
-     "पिछले हफ़्ते भंडार 705.34 अरब डॉलर",
-     "4 सितंबर वाले हफ़्ते में रिकॉर्ड 785.7 अरब डॉलर",
-     "एसडीआर घटकर 18.45 अरब डॉलर"
-    ],
-    "why": "विदेशी मुद्रा भंडार रुपये की क़ीमत और आयात के भुगतान का आधार है।"
    },
    "d": "27.11.2026",
    "t": "18:05"
