@@ -1,20 +1,7 @@
 {
  "about": "News-window state for the Swipe2News news tasks. cutoff = end of the last COMPLETED window (IST). seen = article URLs already reviewed/delivered in a window (kept 3 days).",
- "cutoff": "2026-11-28T10:35:00+05:30",
+ "cutoff": "2026-11-28T11:05:00+05:30",
  "runs": [
-  {
-   "window": "2026-11-25T17:35:00+05:30/2026-11-25T18:05:00+05:30",
-   "status": "completed-with-gaps",
-   "eligible": 9,
-   "published": 9,
-   "late": 0,
-   "sensitive": 2,
-   "corrected": 0,
-   "duplicates": 2,
-   "skipped": 0,
-   "review": 0,
-   "gaps": "Lookback from 09:35. Feeds 17:56 IST (68/70 ok; Samayam Telugu, Indian Express 429; 126 uncovered events first seen since 17:00 scanned, 40 local). add_repo tool not available; used existing clone. Direct feed URLs refused (PROVENANCE_REQUIRED) until found by extended WebSearch. Published 9: DC AP SEC ink on left little finger for 23 ULB polls (18:01, fact), TT 65% commuters enter IT corridor in 90 min (17:13, fact), NewsMeter HYDRAA on STP safety after Bachupally deaths (17:28, fact, sensitive), TT ACB enquiry into charges against own officer (17:07, fact), Siasat TG HC quashes FIR on ex-BJP corporator CJP banner (17:13, fact, accused not named), Hindu via KhanList TIFR-H Virupaksha MoU (17:21, fact), TT lookalike water bottle sales fall (17:52, claim, logo), DC/PTI 6 urea projects Rs 54,000 cr (17:41, fact), Siasat Houthi claim on Ras Tanura (17:46, claim, sensitive). Duplicates: Siasat and NewsMeter ex-TGSPDCL officer Rs 30L allegation (published via Andhra Jyothy). Not found by search (left unseen): Hindu Madanapalle tomato prices, TT man held for rape threats, TOI RERA Aliens Developers Rs 2 cr, Hans polling set for 23 AP ULBs. Not attempted: HMTV district items (Nirmal, Jogipet, Mancherial, Khammam AgriGold bond verification), NT Venganna Palem drain protest, BigTV AP HC NOTA question, NTV AP rain alert, Hyderabad Mail RERA Alekya Infra refund, other India/world items. No district searches. Lang pages/index/sitemap reverted."
-  },
   {
    "window": "2026-11-25T18:05:00+05:30/2026-11-25T18:35:00+05:30",
    "status": "completed-with-gaps",
@@ -1301,6 +1288,19 @@
    "skipped": 5,
    "review": 0,
    "gaps": "Lookback from 02:05 Nov 28. Feeds 10:17 IST (74/75 ok; 2759 uncovered, 772 TG/AP; 749 in lookback not yet seen, 182 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 1: Hans + DC Telangana 15-district rain/thunderstorm forecast (09:02, confirmed, forecast; follows 27 Nov APSDMA depression card). Skipped old (original article before lookback): Pioneer/NewsBytes CM Overseas Employment Scheme Rs 1.75 lakh for 7,000 EWS youth (27 Nov 13:07/18:59; TOI 04:23 and NIE 08:33 versions not opened – worth publishing if opened), TGPRB SI prelim Nov 29 press note (20 Nov; V6 08:10 not opened), South First working-age deaths (29 May; TOI 03:29 not opened), Andhrajyothy Manikonda electrocution (27 Nov 22:08; Disha 09:44 refused). Single source (sensitive): Prabha News KPHB Karthika-lamp saree fire death (10:41, after END; NTV 09:55 not opened). Duplicate: NIE Navy ELF radar PIL (card 27 Nov Damagundam PIL). Not opened: Siasat Secunderabad family Rs 70,000 and Siasat Bisleri FSSAI (permission timed out), Al Jazeera Taiwan polls (permission timed out), Sakshi Education 526 assistant professor posts (client error), Disha electrocution (client error), Jagtial betting chain theft, Kakinada gateway dredger, Metro 10th year, district searches not run. Builder lang pages/index/sitemap reverted."
+  },
+  {
+   "window": "2026-11-28T10:35:00+05:30/2026-11-28T11:05:00+05:30",
+   "status": "completed-with-gaps",
+   "eligible": 5,
+   "published": 5,
+   "late": 2,
+   "sensitive": 1,
+   "corrected": 0,
+   "duplicates": 2,
+   "skipped": 0,
+   "review": 0,
+   "gaps": "Lookback from 02:35 Nov 28. Feeds 10:48 IST (76/77 ok, UN News failing; 2825 uncovered, 828 TG/AP; 839 in lookback not yet seen, 194 TG/AP). add_repo not available; used existing clone and web-fetch helper; only URLs surfaced by WebSearch open. Published 5: Siasat Waqf Board to meet after two years (08:24, single, late-found), Siasat Urdu Academy RTI Rs 0 spent of Rs 4.80 cr (10:45, single), TT Prraneeth World U-20 chess bronze (10:39, single), V6 + NTV + Prabha KPHB Karthika-lamp fire death (09:50, confirmed, sensitive, no name, late-found), TT OU inter-college athletics (10:43, single). Not surfaced by search (retry): Samayam/Eenadu Rajamahendravaram Skill India International Centre (only Eenadu URL found – refused source), Siasat Secunderabad family Rs 70,000, V6 Tummala granite industry, NIE/NewsMeter Cyberabad BRTS, NTV Dharmana HC relief. Not attempted: Oneindia AP investment protection law, Samayam Tirumala 121 kg gold, TOI Global Summit footprint, delimitation 26 MP/182 seats, India/world items, district searches. Builder lang pages/index/sitemap reverted."
   }
  ],
  "seen": [
@@ -6968,6 +6968,41 @@
    "url": "https://www.tgprb.in/SI_PC_2026/Press%20Note%20dated%2020-11-2026.pdf",
    "d": "2026-11-28",
    "w": "skipped"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-waqf-board-set-to-function-after-two-year-halt-3588733/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.siasat.com/telangana-urdu-academy-spent-rs-0-from-its-funds-this-year-rti-3588775/",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/telangana-teenager-prraneeth-finishes-third-at-world-under-20-chess-championship",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://www.v6velugu.com/young-woman-dies-after-karthika-deepam-catches-fire-on-her-saree-in-hyderabad",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://telanganatoday.com/gdc-hayathnagar-begumpet-athletes-shine-at-ou-inter-college-meet",
+   "d": "2026-11-28",
+   "w": "published"
+  },
+  {
+   "url": "https://ntvtelugu.com/news/kphb-karthika-deepam-fire-18-year-old-girl-dies-1039628.html",
+   "d": "2026-11-28",
+   "w": "duplicate"
+  },
+  {
+   "url": "https://prabhanews.com/young-woman-dies-after-being-caught-on-fire-by-karthika-lamp/",
+   "d": "2026-11-28",
+   "w": "duplicate"
   }
  ]
 }
