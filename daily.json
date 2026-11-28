@@ -1,95 +1,99 @@
 {
- "updated": "2026-11-28T05:18:57+05:30",
- "set": "morning",
+ "updated": "2026-11-28T17:21:40+05:30",
+ "set": "evening",
  "items": [
   {
    "kind": "quote",
    "date": "2026-11-28",
-   "id": "vivekananda-ridicule-opposition-acceptance",
-   "text": "ప్రతి పనీ ఈ దశలను దాటాల్సిందే — ఎగతాళి, వ్యతిరేకత, ఆ తర్వాత అంగీకారం.",
+   "id": "vivekananda-education-manifestation-perfection",
+   "text": "మనిషిలో ఇప్పటికే ఉన్న పరిపూర్ణతను బయటకు తీసుకురావడమే విద్య.",
    "by": "స్వామి వివేకానంద",
-   "ctx": "మంచి పనిని మొదట నవ్వినా, అడ్డుకున్నా, ఓపికతో కొనసాగితే చివరకు అందరూ అంగీకరిస్తారు.",
-   "do": "ఇతరులు నవ్వారని మీరు ఆపేసిన ఒక మంచి ప్రయత్నాన్ని ఈ రోజు మళ్లీ మొదలుపెట్టండి.",
-   "hl": "అంగీకారం",
-   "src": "Swami Vivekananda — via libquotes.com",
-   "url2": "https://libquotes.com/swami-vivekananda/quotes/work",
+   "ctx": "చదువు బయటి నుంచి నింపేది కాదు, మనలోని మంచి శక్తిని వెలికితీసేది.",
+   "do": "మీలో ఉన్న ఒక మంచి నైపుణ్యాన్ని ఈ రోజు ఒకరికి నేర్పండి.",
+   "hl": "విద్య",
+   "src": "Swami Vivekananda — via Sri Chinmoy Library (Vivekananda: An Ancient Silence-Heart and a Modern Dynamism-Life)",
+   "url2": "https://www.srichinmoylibrary.com/print/vvk-89",
    "en": {
-    "text": "Each work has to pass through these stages—ridicule, opposition, and then acceptance.",
+    "text": "Education is the manifestation of the perfection already in man.",
     "by": "Swami Vivekananda",
-    "ctx": "Good work may be laughed at and opposed at first, but with patience it is finally accepted.",
-    "do": "Restart today one good effort you dropped because others laughed at it.",
-    "hl": "acceptance"
+    "ctx": "Education is not filling from outside; it brings out the good strength already within us.",
+    "do": "Teach one good skill you have to someone today.",
+    "hl": "Education"
    },
    "hi": {
-    "text": "हर काम को इन चरणों से गुज़रना पड़ता है — उपहास, विरोध और फिर स्वीकृति।",
+    "text": "मनुष्य में पहले से मौजूद पूर्णता को प्रकट करना ही शिक्षा है।",
     "by": "स्वामी विवेकानंद",
-    "ctx": "अच्छे काम पर पहले लोग हँसते और विरोध करते हैं, पर धैर्य रखने पर अंत में उसे स्वीकार करते हैं।",
-    "do": "जिस अच्छे प्रयास को लोगों के हँसने से छोड़ दिया था, उसे आज फिर शुरू करें।",
-    "hl": "स्वीकृति"
+    "ctx": "शिक्षा बाहर से भरना नहीं, बल्कि हमारे भीतर की अच्छी शक्ति को बाहर लाना है।",
+    "do": "अपना कोई एक अच्छा हुनर आज किसी को सिखाएँ।",
+    "hl": "शिक्षा"
    }
   },
   {
    "kind": "tip",
    "date": "2026-11-28",
-   "id": "rbi-card-switch-on-off-limits",
-   "title": "మీ కార్డును మీరే ఆపొచ్చు",
-   "text": "ఆర్‌బీఐ నిబంధనల ప్రకారం డెబిట్, క్రెడిట్ కార్డు లావాదేవీలను మీరే ఆన్ లేదా ఆఫ్ చేయవచ్చు, వాటికి పరిమితి కూడా పెట్టుకోవచ్చు. ఆన్‌లైన్, విదేశీ, కాంటాక్ట్‌లెస్ చెల్లింపులు వాడకపోతే వాటిని ఆఫ్‌లో ఉంచండి. ఈ సదుపాయం బ్యాంకు మొబైల్ యాప్, ఇంటర్నెట్ బ్యాంకింగ్, ఏటీఎం, ఐవీఆర్ ద్వారా 24 గంటలూ అందుబాటులో ఉండాలి.",
-   "ctx": "కార్డు పోయినా, అనుమానాస్పద సందేశం వచ్చినా వెంటనే కార్డును ఆఫ్ చేసి బ్యాంకుకు తెలియజేయండి. ఇది సాధారణ అవగాహన సమాచారం మాత్రమే.",
-   "src": "RBI — Enhancing Security of Card Transactions (RBI/2019-20/142, 15 January 2020)",
-   "url2": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11788&Mode=0",
+   "id": "irdai-free-look-period",
+   "title": "నచ్చని బీమా పాలసీని తిరిగివ్వొచ్చు",
+   "text": "కొత్త బీమా పాలసీ చేతికి అందిన రోజు నుంచి కనీసం 15 రోజుల్లో దాని నిబంధనలు చదివి, నచ్చకపోతే తిరిగి ఇవ్వొచ్చు. ఎలక్ట్రానిక్ పాలసీలకు, దూర పద్ధతిలో తీసుకున్న పాలసీలకు ఈ గడువు 30 రోజులు. అప్పుడు వైద్య పరీక్ష, స్టాంప్ డ్యూటీ వంటి ఖర్చులు మినహాయించి మిగతా ప్రీమియం తిరిగి వస్తుంది.",
+   "ctx": "దీన్ని ఫ్రీ లుక్ పీరియడ్ అంటారు. అన్ని జీవిత బీమా పాలసీలకు, కనీసం మూడేళ్ల ఆరోగ్య పాలసీలకు ఇది వర్తిస్తుందని ఐఆర్‌డీఏఐ పాలసీదారుల పోర్టల్ చెబుతోంది. ఇది సాధారణ అవగాహన సమాచారం మాత్రమే.",
+   "src": "IRDAI Policyholder portal — Free Look Period",
+   "url2": "https://policyholder.gov.in/protecting-you",
    "en": {
-    "title": "You can switch your card off yourself",
-    "text": "Under RBI rules you can switch debit and credit card transactions on or off yourself, and set limits for them. If you don't use online, international or contactless payments, keep them switched off. Banks must offer this 24x7 through their mobile app, internet banking, ATMs and IVR.",
-    "ctx": "If your card is lost or you get a suspicious message, switch the card off at once and inform your bank. This is general awareness information only."
+    "title": "You can return an insurance policy you don't like",
+    "text": "Within at least 15 days of receiving a new insurance policy, you can read its terms and return it if it doesn't suit you. For electronic policies and policies bought through distance mode, the period is 30 days. You then get the premium back, minus costs such as medical tests and stamp duty.",
+    "ctx": "This is called the free-look period. The IRDAI policyholder portal says it applies to all life insurance policies and to health policies with a term of at least three years. This is general awareness information only."
    },
    "hi": {
-    "title": "अपना कार्ड खुद बंद कर सकते हैं",
-    "text": "आरबीआई के नियमों के अनुसार आप डेबिट और क्रेडिट कार्ड के लेन-देन खुद चालू या बंद कर सकते हैं और उनकी सीमा भी तय कर सकते हैं। अगर आप ऑनलाइन, विदेशी या कॉन्टैक्टलेस भुगतान नहीं करते, तो उन्हें बंद रखें। बैंकों को यह सुविधा मोबाइल ऐप, इंटरनेट बैंकिंग, एटीएम और आईवीआर के ज़रिए 24 घंटे देनी होती है।",
-    "ctx": "कार्ड खो जाए या संदिग्ध संदेश आए, तो तुरंत कार्ड बंद करें और बैंक को बताएँ। यह केवल सामान्य जागरूकता जानकारी है।"
+    "title": "पसंद न आए तो बीमा पॉलिसी लौटाएँ",
+    "text": "नई बीमा पॉलिसी मिलने के दिन से कम से कम 15 दिनों में आप उसकी शर्तें पढ़कर, पसंद न आने पर उसे लौटा सकते हैं। इलेक्ट्रॉनिक पॉलिसी और दूरस्थ माध्यम से ली गई पॉलिसी के लिए यह अवधि 30 दिन है। तब मेडिकल जाँच और स्टांप ड्यूटी जैसे खर्च घटाकर बाकी प्रीमियम वापस मिलता है।",
+    "ctx": "इसे फ्री लुक पीरियड कहते हैं। आईआरडीएआई के पॉलिसीधारक पोर्टल के अनुसार यह सभी जीवन बीमा पॉलिसियों और कम से कम तीन साल की स्वास्थ्य पॉलिसियों पर लागू है। यह केवल सामान्य जागरूकता जानकारी है।"
    }
   },
   {
    "kind": "wisdom",
    "date": "2026-11-28",
-   "id": "vemana-inumu-virigeneni",
-   "text": "ఇనుము విరిగెనేని ఇరుమారు ముమ్మారు\nకాచి యతకవచ్చు క్రమము గాను\nమనసు విరిగెనేని మరి చేర్చరాదయ\nవిశ్వదాభిరామ వినుర వేమ",
-   "by": "వేమన",
-   "ctx": "విరిగిన ఇనుమును కాచి మళ్లీ అతికించవచ్చు, కానీ విరిగిన మనసును మళ్లీ కలపడం కష్టం. అందుకే మాటల్లో, పనుల్లో ఎవరి మనసూ నొప్పించకూడదు.",
-   "src": "వేమన శతకం — via Vemana (wiki mirror)",
-   "url2": "https://bafybeiemxf5abjwjbikoz4mc3a3dla6ual3jsgpdr4cjr3oz3evfyavhwq.ipfs.4everland.io/wiki/Vemana.html",
+   "id": "gita-2-40-svalpam-apyasya-dharmasya",
+   "text": "నేహాభిక్రమనాశోఽస్తి ప్రత్యవాయో న విద్యతే ।\nస్వల్పమప్యస్య ధర్మస్య త్రాయతే మహతో భయాత్ ॥",
+   "by": "భగవద్గీత (2.40)",
+   "ctx": "ఈ మార్గంలో చేసిన ప్రయత్నం ఎప్పుడూ వృథా కాదు, దానివల్ల నష్టమూ ఉండదు. ఈ ధర్మాన్ని కొంచెం ఆచరించినా అది పెద్ద భయం నుంచి కాపాడుతుంది.",
+   "src": "భగవద్గీత 2.40 — via holy-bhagavad-gita.org; vedabase.io",
+   "url2": "https://www.holy-bhagavad-gita.org/chapter/2/verse/40/",
    "en": {
-    "text": "Iron, if broken, can be heated and joined again, twice or thrice; but a heart once broken can never be put together again. — Listen, Vema.",
-    "by": "Vemana",
-    "ctx": "Broken iron can be heated and joined, but a broken heart is hard to mend. So never hurt anyone's heart with words or deeds."
+    "text": "On this path no effort is ever lost and there is no adverse result; even a little of this dharma protects one from great fear.",
+    "by": "Bhagavad Gita (2.40)",
+    "ctx": "Effort on this path is never wasted and does no harm. Practising even a little of this dharma saves us from great fear."
    },
    "hi": {
-    "text": "लोहा टूट जाए तो उसे दो-तीन बार तपाकर फिर जोड़ा जा सकता है; पर मन टूट जाए तो उसे फिर नहीं जोड़ा जा सकता। — सुनो वेमा।",
-    "by": "वेमना",
-    "ctx": "टूटा लोहा तपाकर जुड़ जाता है, पर टूटा मन जोड़ना कठिन है। इसलिए बातों या कामों से किसी का मन न दुखाएँ।"
+    "text": "इस मार्ग में किया प्रयास कभी नष्ट नहीं होता और इसका कोई उलटा फल नहीं होता; इस धर्म का थोड़ा-सा पालन भी बड़े भय से बचाता है।",
+    "by": "भगवद्गीता (2.40)",
+    "ctx": "इस मार्ग पर किया गया प्रयास कभी व्यर्थ नहीं जाता और कोई हानि नहीं करता। इस धर्म का थोड़ा पालन भी बड़े भय से बचाता है।"
    }
   },
   {
    "kind": "roots",
    "date": "2026-11-28",
-   "id": "pembarthi-brass-craft",
-   "title": "పెంబర్తి ఇత్తడి కళ",
-   "text": "జనగామ జిల్లాలోని పెంబర్తి గ్రామం ఇత్తడి రేకులపై చేసే నగిషీ పనికి ప్రసిద్ధి. ఈ కళకు 800 ఏళ్లకు పైగా చరిత్ర ఉందని, కాకతీయుల కాలంలో దేవాలయాల విగ్రహాలు, వాహనాల తయారీతో ఇది వెలిగిందని తెలంగాణ పర్యాటక శాఖ చెబుతోంది. ఈ కళకు భౌగోళిక గుర్తింపు (జీఐ) కూడా లభించింది.",
-   "ctx": "మీ ఇంట్లో తాతల కాలం నాటి ఇత్తడి వస్తువులు ఏమైనా ఉన్నాయా? వాటి కథ ఏమిటి?",
-   "src": "Telangana Tourism — Pembarthi Brass; Wikipedia — Pembarthi Metal Craft",
-   "url2": "https://telanganatourism.gov.in/partials/about/arts-crafts/pembarthi-brass.html",
+   "id": "warangal-durries",
+   "title": "వరంగల్ దర్రీలు",
+   "text": "వరంగల్ ప్రాంతంలో రైతులు పండించే పత్తి దొరకడం వల్ల ఈ జిల్లా చేనేత దర్రీల (జంపఖానాల) తయారీకి పేరొందింది. నేతకారులు పత్తి దారాలకు సహజ రంగులు అద్ది, అందమైన డిజైన్లు నేస్తారు. 2018లో వరంగల్ దర్రీలకు భౌగోళిక గుర్తింపు (జీఐ) లభించింది, ఇవి విదేశాలకూ ఎగుమతి అవుతున్నాయి.",
+   "ctx": "పెళ్లిళ్లు, పండుగల్లో అతిథుల కోసం జంపఖానా పరిచే అలవాటు మీ ఇంట్లో ఉందా?",
+   "src": "The News Minute — Telangana bags two more GI tags (18 April 2018)",
+   "url2": "https://www.thenewsminute.com/telangana/telangana-bags-two-more-gi-tags-adilabad-dokra-metal-craft-and-warangal-durries-79795",
    "en": {
-    "title": "Pembarthi brass craft",
-    "text": "Pembarthi village in Jangaon district is famous for intricate engraving on brass sheets. Telangana Tourism says the craft is more than 800 years old and flourished under the Kakatiyas, making idols and vahanas for temples. The craft has also received a Geographical Indication (GI) tag.",
-    "ctx": "Do you have any old brass items at home from your grandparents' time? What is their story?"
+    "title": "Warangal durries",
+    "text": "Because of the cotton grown by local farmers, Warangal became famous for handloom durries (floor rugs). Weavers dye the cotton with vegetable colours and weave beautiful patterns. Warangal durries received a Geographical Indication (GI) tag in 2018 and are also exported abroad.",
+    "ctx": "Does your family still spread a durrie for guests at weddings and festivals?"
    },
    "hi": {
-    "title": "पेंबर्ती पीतल कला",
-    "text": "जनगाँव ज़िले का पेंबर्ती गाँव पीतल की चादरों पर बारीक नक्काशी के लिए प्रसिद्ध है। तेलंगाना पर्यटन विभाग के अनुसार यह कला 800 साल से अधिक पुरानी है और काकतीय काल में मंदिरों की मूर्तियाँ और वाहन बनाकर फली-फूली। इस कला को भौगोलिक संकेत (जीआई) टैग भी मिला है।",
-    "ctx": "क्या आपके घर में दादा-दादी के समय की कोई पीतल की चीज़ है? उसकी कहानी क्या है?"
+    "title": "वरंगल दरियाँ",
+    "text": "स्थानीय किसानों द्वारा उगाई जाने वाली कपास के कारण वरंगल हथकरघा दरियों के लिए प्रसिद्ध हुआ। बुनकर कपास को वनस्पति रंगों से रंगकर सुंदर डिज़ाइन बुनते हैं। 2018 में वरंगल दरियों को भौगोलिक संकेत (जीआई) टैग मिला और ये विदेशों में भी निर्यात होती हैं।",
+    "ctx": "क्या आपके घर में शादी और त्योहारों पर मेहमानों के लिए दरी बिछाने की परंपरा है?"
    }
   }
  ],
  "history": [
+  "vivekananda-education-manifestation-perfection",
+  "irdai-free-look-period",
+  "gita-2-40-svalpam-apyasya-dharmasya",
+  "warangal-durries",
   "vivekananda-ridicule-opposition-acceptance",
   "rbi-card-switch-on-off-limits",
   "vemana-inumu-virigeneni",
